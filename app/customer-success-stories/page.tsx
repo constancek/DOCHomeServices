@@ -1,40 +1,15 @@
 import type { Metadata } from 'next';
-import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
-import MainWithSidebar from '@/components/Sidebar';
+import SuccessStoriesGrid from '@/components/SuccessStoriesGrid';
 import { site } from '@/content/site';
+import { successStories } from '@/content/successStories';
 
 export const metadata: Metadata = {
   title: 'Customer Success Stories',
-  description: `Real-world examples of the heating, cooling, plumbing, and electrical problems ${site.name} solves for homeowners across ${site.serviceArea}.`,
+  description: `Real customer success stories from ${site.name} — HVAC and plumbing projects across ${site.serviceArea}, in our customers' own words.`,
   alternates: { canonical: '/customer-success-stories' },
 };
-
-// Representative examples of the work we do. Replace with real customer stories
-// (with the customer's permission) whenever you have them.
-const stories = [
-  {
-    icon: 'snowflake' as const,
-    title: 'Same-Day AC Rescue',
-    text: 'When a family lost cooling during the first heat wave of the summer, our team had a technician at the door that afternoon and cold air flowing again before dinner — with a flat-rate price quoted before any work began.',
-  },
-  {
-    icon: 'flame' as const,
-    title: 'No Heat on the Coldest Night',
-    text: 'A furnace that quit overnight left a household scrambling. Our emergency team diagnosed and repaired it the same night, and included a carbon monoxide safety check before leaving.',
-  },
-  {
-    icon: 'droplet' as const,
-    title: 'Catching a Hidden Leak',
-    text: 'A creeping water bill turned out to be a slab leak. A camera inspection pinpointed it fast, and a targeted repair saved the homeowner from tearing up the whole floor.',
-  },
-  {
-    icon: 'bolt' as const,
-    title: 'Safer, Smarter Electrical',
-    text: 'An aging panel that kept tripping got a proper assessment and a code-compliant upgrade — making room for the EV charger the homeowner had been wanting to add.',
-  },
-];
 
 export default function SuccessStoriesPage() {
   return (
@@ -42,7 +17,7 @@ export default function SuccessStoriesPage() {
       <PageHero
         eyebrow="Customer Success Stories"
         title="Customer Success Stories"
-        description={`A look at the kinds of problems we solve every day for homeowners across ${site.serviceArea}.`}
+        description={`Real projects, real results — in our customers' own words, across ${site.serviceArea}.`}
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'The Degree of Comfort Difference', href: '/difference' },
@@ -50,32 +25,34 @@ export default function SuccessStoriesPage() {
         ]}
       />
 
-      <section className="py-16">
-        <MainWithSidebar>
-          <div className="grid gap-6 md:grid-cols-2">
-          {stories.map((s) => (
-            <div key={s.title} className="card flex gap-4">
-              <span className="grid h-12 w-12 flex-shrink-0 place-items-center rounded-2xl bg-pink-500 text-white">
-                <Icon name={s.icon} className="h-6 w-6" />
-              </span>
-              <div>
-                <h2 className="font-display text-lg font-extrabold text-brand-700">{s.title}</h2>
-                <p className="mt-1.5 text-sm leading-relaxed text-ink/70">{s.text}</p>
-              </div>
-            </div>
-          ))}
+      {/* Intro */}
+      <section className="pt-16">
+        <div className="container-page max-w-4xl text-center">
+          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-700 sm:text-4xl lg:text-5xl">
+            Hear From Our Wonderful Clients in Cincinnati and Surrounding Areas
+          </h2>
+          <p className="mx-auto mt-6 max-w-3xl text-base leading-relaxed text-ink/75 sm:text-lg">
+            Discover the firsthand experiences of our satisfied clients on our Customer Success Stories
+            page. Here, you’ll find genuine reviews that highlight our commitment to excellence in
+            service and customer satisfaction. See why homeowners and businesses alike trust us with
+            their most important HVAC or plumbing needs.
+          </p>
         </div>
+      </section>
 
-          <div className="mt-10 text-center">
-            <p className="text-sm text-ink/60">
-              Have a story of your own? We would love to hear it.
-            </p>
-            <a href={site.primaryPhone.href} className="btn-pink mt-4">
-              <Icon name="phone" className="h-4 w-4" />
-              {site.primaryPhone.number}
-            </a>
-          </div>
-        </MainWithSidebar>
+      {/* Story cards */}
+      <section className="py-12">
+        <div className="container-page max-w-5xl">
+          <SuccessStoriesGrid
+            stories={successStories.map((s) => ({
+              slug: s.slug,
+              name: s.name,
+              avatar: s.avatar,
+              cardImage: s.cardImage,
+              cardQuote: s.cardQuote,
+            }))}
+          />
+        </div>
       </section>
 
       <PageSections />

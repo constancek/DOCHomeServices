@@ -333,13 +333,16 @@ export default function EmergencyPlumbingPage() {
             <div className="mt-12">
               <h2 className="section-title text-brand-700">Emergency plumbing by neighborhood</h2>
               <p className="mt-3 text-sm leading-relaxed text-ink/75">
-                We respond across {site.serviceArea} — {DEPLOYED_LOCATION_SLUGS.length} neighborhoods and
-                counting. For local detail on response times and the plumbing issues common to older homes
-                in your area, find yours below.
+                We respond across {site.serviceArea} —{' '}
+                {(process.env.NODE_ENV === 'development' ? locations.length : DEPLOYED_LOCATION_SLUGS.length)}{' '}
+                neighborhoods and counting. For local detail on response times and the plumbing issues
+                common to older homes in your area, find yours below.
               </p>
               <div className="mt-6 space-y-7">
                 {locationsByGroup().map(({ group, items }) => {
-                  const local = items.filter((l) => DEPLOYED_LOCATION_SLUGS.includes(l.slug));
+                  const local = items.filter(
+                    (l) => process.env.NODE_ENV === 'development' || DEPLOYED_LOCATION_SLUGS.includes(l.slug),
+                  );
                   if (!local.length) return null;
                   return (
                     <div key={group}>

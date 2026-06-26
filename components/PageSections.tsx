@@ -1,15 +1,25 @@
 import Link from 'next/link';
 import Icon from './Icon';
 import TornEdge from './TornEdge';
+import LogoMarquee from './LogoMarquee';
 import { site } from '@/content/site';
 import { benefits, awards, clubPerks, fundingPoints, serviceAreas } from '@/content/home';
 
 // Shared marketing sections reused across the homepage and every interior page.
-export default function PageSections() {
+// `hideMarquee` lets a page that already shows the image strip (e.g. /reviews)
+// suppress the duplicate one rendered here above Why Choose.
+export default function PageSections({ hideMarquee = false }: { hideMarquee?: boolean }) {
   return (
     <>
       <OurDifferenceBanner />
       <IntroColumns />
+      {!hideMarquee && (
+        <section className="bg-white pb-12">
+          <div className="container-page">
+            <LogoMarquee />
+          </div>
+        </section>
+      )}
       <WhyChoose />
       <TornEdge fill="#1f48c8" />
       <WorkStandsOut />
@@ -94,7 +104,7 @@ export function WhyChoose() {
     <section id="why" className="bg-white py-16">
       <div className="container-page">
         <h2 className="section-title max-w-3xl text-brand-700">
-          Why Choose {site.name} as Your Residential HVAC, Plumbing &amp; Electrical Contractors?
+          {`Why Choose ${site.name} as Your Residential HVAC, Plumbing & Electrical Contractors?`}
         </h2>
 
         <div className="mt-10 grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-center">
@@ -158,9 +168,15 @@ export function WorkStandsOut() {
   return (
     <section className="relative bg-blue-section pb-16 pt-12">
       <div className="container-page grid gap-10 lg:grid-cols-2 lg:items-center">
-        {/* tech photo placeholder */}
-        <div className="grid aspect-[4/3] place-items-center overflow-hidden rounded-2xl bg-white/10 ring-1 ring-white/20">
-          <span className="text-sm font-semibold text-white/70">[ Team photo ]</span>
+        {/* Branded shirt */}
+        <div className="aspect-[4/3] overflow-hidden rounded-2xl bg-white/10 ring-1 ring-white/20">
+          <img
+            src="/orange-shirt.png"
+            alt="Degree of Comfort technicians in branded shirts"
+            width={960}
+            height={640}
+            className="h-full w-full object-cover"
+          />
         </div>
 
         <div className="text-white">
@@ -193,12 +209,9 @@ export function WorkStandsOut() {
                   ))}
                 </div>
               </div>
-              <span className="text-xs font-bold uppercase text-ink/60">
-                {site.reviewCount.toLocaleString()}+ Reviews on Google
-              </span>
-              <a href={site.social[0].href} className="btn-pink ml-auto px-5 py-2 text-xs">
+              <Link href="/reviews" className="btn-pink ml-auto px-5 py-2 text-xs">
                 See All Reviews
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -213,6 +226,10 @@ export function TrustedExperts() {
     <section className="bg-white py-16">
       <div className="container-page grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-center">
         <div>
+          <p className="mb-3 flex items-center gap-2 text-sm font-extrabold uppercase tracking-[0.18em] text-pink-500">
+            <Icon name="paw" className="h-5 w-5" />
+            Spot Our Van Around Cincinnati
+          </p>
           <h2 className="section-title text-brand-700">
             Your Trusted Plumbing, HVAC &amp; Electrical Experts in {site.serviceArea}
           </h2>
@@ -230,8 +247,14 @@ export function TrustedExperts() {
             <Icon name="arrow" className="h-4 w-4" />
           </Link>
         </div>
-        <div className="grid aspect-[5/3] place-items-center overflow-hidden rounded-2xl bg-brand-50 ring-1 ring-brand-100">
-          <span className="text-sm font-semibold text-brand-400">[ Service vans photo ]</span>
+        <div className="aspect-[5/3] overflow-hidden rounded-2xl ring-1 ring-brand-100">
+          <img
+            src="/van.jpg"
+            alt="Degree of Comfort service van"
+            width={1000}
+            height={600}
+            className="h-full w-full object-cover"
+          />
         </div>
       </div>
     </section>
@@ -287,8 +310,14 @@ export function ComfortClub() {
             <Icon name="arrow" className="h-4 w-4" />
           </Link>
         </div>
-        <div className="grid aspect-[4/3] place-items-center overflow-hidden rounded-2xl bg-white/10 ring-1 ring-white/20">
-          <span className="text-sm font-semibold text-white/70">[ Handshake photo ]</span>
+        <div className="aspect-[16/10] overflow-hidden rounded-2xl bg-white/10 ring-1 ring-white/20 lg:ml-auto lg:w-[120%]">
+          <img
+            src="/orange-club.png"
+            alt="Degree of Comfort Comfort Club members"
+            width={960}
+            height={600}
+            className="h-full w-full object-cover"
+          />
         </div>
       </div>
     </section>
@@ -299,18 +328,29 @@ export function ComfortClub() {
 export function Community() {
   return (
     <section className="bg-white py-16">
-      <div className="container-page max-w-3xl">
-        <h2 className="section-title text-brand-700">In the Community</h2>
-        <p className="mt-4 text-sm leading-relaxed text-ink/70">
-          We believe a great local company is part of the neighborhood it serves. We sponsor youth
-          sports, support local schools and food drives, and show up for the families around us the
-          same way we show up for their homes. When you hire us, you are keeping good work and good
-          people right here in the community.
-        </p>
-        <Link href="/about" className="btn-pink mt-6">
-          Learn More
-          <Icon name="arrow" className="h-4 w-4" />
-        </Link>
+      <div className="container-page grid items-center gap-10 lg:grid-cols-2">
+        <div>
+          <h2 className="section-title text-brand-700">In the Community</h2>
+          <p className="mt-4 text-sm leading-relaxed text-ink/70">
+            We believe a great local company is part of the neighborhood it serves. We sponsor youth
+            sports, support local schools and food drives, and show up for the families around us the
+            same way we show up for their homes. When you hire us, you are keeping good work and good
+            people right here in the community.
+          </p>
+          <Link href="/about" className="btn-pink mt-6">
+            Learn More
+            <Icon name="arrow" className="h-4 w-4" />
+          </Link>
+        </div>
+        <div className="overflow-hidden rounded-2xl shadow-card ring-1 ring-brand-100">
+          <img
+            src="/community-club.webp"
+            alt="The Degree of Comfort team — family owned with 30+ years of experience"
+            width={1200}
+            height={800}
+            className="h-full w-full object-cover"
+          />
+        </div>
       </div>
     </section>
   );

@@ -78,6 +78,23 @@
 }
 
 @layer utilities {
+  /* Continuous logo/image marquee (two copies of the track, scroll -50%) */
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  .animate-marquee {
+    animation: marquee 35s linear infinite;
+  }
+  .marquee-mask {
+    -webkit-mask: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+    mask: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+  }
+
   /* Torn-paper edges (approximate the ripped transitions in the design) */
   .edge-torn-top {
     -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='40' viewBox='0 0 1600 40' preserveAspectRatio='none'%3E%3Cpath d='M0,40 L0,18 L40,22 L90,10 L150,24 L210,12 L280,26 L350,14 L420,28 L500,12 L560,26 L630,16 L700,28 L780,14 L850,26 L930,16 L1000,28 L1080,14 L1150,26 L1230,16 L1300,28 L1380,14 L1450,26 L1530,16 L1600,24 L1600,40 Z' fill='%23000'/%3E%3C/svg%3E") bottom/100% 40px no-repeat;

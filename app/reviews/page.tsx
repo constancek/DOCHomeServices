@@ -2,9 +2,10 @@ import type { Metadata } from 'next';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
-import MainWithSidebar from '@/components/Sidebar';
+import ReviewsCarousel from '@/components/ReviewsCarousel';
+import LogoMarquee from '@/components/LogoMarquee';
 import { site } from '@/content/site';
-import { testimonials } from '@/content/home';
+import { reviews } from '@/content/reviews';
 
 export const metadata: Metadata = {
   title: 'Reviews',
@@ -26,56 +27,39 @@ export default function ReviewsPage() {
         ]}
       />
 
-      <section className="py-16">
-        <MainWithSidebar>
-          {/* Rating summary */}
-          <div className="mx-auto max-w-xl rounded-2xl bg-cream p-8 text-center ring-1 ring-brand-100">
-            <div className="font-display text-5xl font-black text-brand-700">{site.rating}</div>
-            <div className="mt-2 flex justify-center">
-              {Array.from({ length: 5 }).map((_, i) => (
-                <Icon key={i} name="star" className="h-6 w-6 fill-gold-500 text-gold-500" />
-              ))}
-            </div>
-            <p className="mt-2 text-sm font-semibold text-ink/70">
-              Based on {site.reviewCount.toLocaleString()}+ verified reviews
+      {/* Five Paws — happy homeowners */}
+      <section className="bg-cream py-16 sm:py-20">
+        <div className="container-page">
+          {/* Heading block — centered */}
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="flex items-center justify-center gap-2 text-sm font-extrabold uppercase tracking-[0.18em] text-pink-500">
+              <Icon name="paw" className="h-5 w-5" />
+              Happy Homeowners
             </p>
-            <a href={site.social[0].href} className="btn-pink mt-5">
-              See All Reviews on Google
-              <Icon name="arrow" className="h-4 w-4" />
-            </a>
+            <h2 className="mt-3 font-logo text-4xl font-black uppercase leading-[1.05] text-brand-900 sm:text-5xl lg:text-6xl">
+              Five Paws Across the Board.
+            </h2>
+            <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-ink/65 sm:text-lg">
+              Don’t just take our word for it — hear from {site.serviceArea} homeowners who trust{' '}
+              {site.name}.
+            </p>
+            <p className="mt-5 inline-flex items-center justify-center gap-2 text-sm font-extrabold uppercase tracking-wide text-brand-700">
+              <Icon name="paw" className="h-5 w-5 text-pink-500" />
+              Family owned with 30+ years of experience
+            </p>
           </div>
 
-          {/* Review cards */}
-          <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {testimonials.map((t) => (
-              <figure key={t.name} className="card flex flex-col">
-                <Icon name="quote" className="h-8 w-8 text-brand-200" />
-                <blockquote className="mt-3 flex-1 text-sm leading-relaxed text-ink/75">
-                  {t.text}
-                </blockquote>
-                <div className="mt-5 flex">
-                  {Array.from({ length: t.rating }).map((_, i) => (
-                    <Icon key={i} name="star" className="h-4 w-4 fill-gold-500 text-gold-500" />
-                  ))}
-                </div>
-                <figcaption className="mt-3 border-t border-brand-900/5 pt-3">
-                  <span className="block text-sm font-bold text-brand-950">{t.name}</span>
-                  <span className="block text-xs text-brand-500">{t.location}</span>
-                </figcaption>
-              </figure>
-            ))}
+          {/* Review carousel */}
+          <div className="mt-12">
+            <ReviewsCarousel reviews={reviews} />
           </div>
+        </div>
 
-          <div className="mt-10 text-center">
-            <p className="text-sm text-ink/60">Worked with us recently? We would love your feedback.</p>
-            <a href={site.social[0].href} className="btn-ghost mt-4">
-              Leave a Review
-            </a>
-          </div>
-        </MainWithSidebar>
+        {/* Auto-scrolling image strip */}
+        <LogoMarquee className="mt-14" />
       </section>
 
-      <PageSections />
+      <PageSections hideMarquee />
     </>
   );
 }

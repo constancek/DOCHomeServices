@@ -11,6 +11,7 @@ import {
   Community,
   BookAndAreas,
 } from '@/components/PageSections';
+import LogoMarquee from '@/components/LogoMarquee';
 import { site } from '@/content/site';
 import { services } from '@/content/services';
 import { offers } from '@/content/home';
@@ -41,6 +42,11 @@ export default function HomePage() {
       <PromoBar />
       <Hero />
       <IntroColumns />
+      <section className="bg-white pb-12">
+        <div className="container-page">
+          <LogoMarquee />
+        </div>
+      </section>
       <WhyChoose />
       <TornEdge fill="#1f48c8" />
       <WorkStandsOut />
@@ -64,23 +70,6 @@ function PromoBar() {
         name="snowflake"
         className="absolute left-[4%] top-1/2 hidden h-24 w-24 -translate-y-1/2 text-white/85 sm:block lg:left-[14%] lg:h-28 lg:w-28"
       />
-
-      {/* Reviews badge, bottom-left corner */}
-      <div className="absolute -bottom-4 -left-4 grid h-24 w-24 place-items-center rounded-full bg-pink-500 text-center text-white shadow-cta sm:h-28 sm:w-28">
-        <div className="pl-3 pt-3">
-          <div className="flex justify-center gap-0.5">
-            {Array.from({ length: 5 }).map((_, i) => (
-              <Icon key={i} name="star" className="h-2.5 w-2.5 fill-white text-white" />
-            ))}
-          </div>
-          <div className="font-display text-lg font-black leading-none">
-            {site.reviewCount.toLocaleString()}+
-          </div>
-          <div className="text-[8px] font-bold uppercase leading-tight tracking-wide">
-            5-Star Reviews
-          </div>
-        </div>
-      </div>
 
       {/* Centered headline + CTA */}
       <div className="container-page relative z-10 flex flex-col items-center gap-5 text-center">
@@ -107,7 +96,7 @@ function Hero() {
   return (
     <section className="relative overflow-hidden bg-hero-pink">
       {/* Desktop photo with diagonal cut + blue accent edge */}
-      <div className="absolute inset-y-0 right-0 hidden w-[64%] lg:block" aria-hidden>
+      <div className="absolute inset-y-0 right-0 hidden w-[52%] lg:block" aria-hidden>
         <div
           className="absolute inset-0 bg-brand-700"
           style={{ clipPath: 'polygon(6% 0, 100% 0, 100% 100%, 0 100%)' }}
@@ -115,7 +104,7 @@ function Hero() {
         <div
           className="absolute inset-0 bg-brand-300 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(/hero.jpg)',
+            backgroundImage: 'url(/happy-family.jpg)',
             clipPath: 'polygon(9% 0, 100% 0, 100% 100%, 3% 100%)',
           }}
         />
@@ -125,17 +114,7 @@ function Hero() {
       <div className="container-page relative z-10">
         <div className="max-w-md py-12 text-white lg:max-w-[44%] lg:py-24">
           <h1 className="font-display text-5xl font-black uppercase leading-[0.9] tracking-tight sm:text-6xl">
-            The{' '}
-            <span
-              style={{
-                WebkitTextStrokeWidth: '2px',
-                WebkitTextStrokeColor: '#ffffff',
-                color: 'transparent',
-              }}
-            >
-              Color
-            </span>{' '}
-            of
+            The Color of
             <br />
             Comfort.
           </h1>
@@ -196,7 +175,7 @@ function Hero() {
         <div className="relative">
           <div
             className="aspect-[4/3] rounded-2xl bg-brand-300 bg-cover bg-center ring-1 ring-white/30"
-            style={{ backgroundImage: 'url(/hero.jpg)' }}
+            style={{ backgroundImage: 'url(/happy-family.jpg)' }}
           />
           <img
             src="/mascot.png"

@@ -1,7 +1,7 @@
 // Why-choose benefits (icon list next to the intro video)
 export const benefits = [
   {
-    icon: 'heart' as const,
+    icon: 'house' as const,
     title: 'Family Owned and Operated',
     text: 'We are proud to be a local business that puts the community first.',
   },
@@ -16,7 +16,7 @@ export const benefits = [
     text: 'From minor repairs to full installations, we handle all residential needs.',
   },
   {
-    icon: 'shield' as const,
+    icon: 'heart' as const,
     title: 'Customer First Approach',
     text: 'We focus on clear communication and friendly service every step of the way.',
   },
@@ -31,15 +31,15 @@ export const benefits = [
 // If you have a REAL earned award, give me the badge image file and I'll swap a
 // slot to an <img> instead.
 export const awards: {
-  icon: 'check' | 'clock' | 'badge' | 'shield' | 'star' | 'heart';
+  icon: 'check' | 'clock' | 'badge' | 'shield' | 'star' | 'heart' | 'doc' | 'pin';
   label: string;
 }[] = [
-  { icon: 'check', label: 'Free Estimates' },
+  { icon: 'doc', label: 'Free Estimates' },
   { icon: 'clock', label: 'Same-Day Service' },
-  { icon: 'badge', label: 'Upfront Pricing' },
+  { icon: 'check', label: 'Upfront Pricing' },
   { icon: 'shield', label: 'No Overtime Fees' },
-  { icon: 'star', label: 'Financing Available' },
-  { icon: 'heart', label: 'Locally Owned' },
+  { icon: 'badge', label: 'Financing Available' },
+  { icon: 'pin', label: 'Locally Owned' },
 ];
 
 // Special offers carousel cards

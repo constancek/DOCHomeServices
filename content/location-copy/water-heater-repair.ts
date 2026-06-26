@@ -19,6 +19,6 @@ const all: Record<string, LocationServiceCopy> = {
 };
 
 // Interim deploy: ship only the DEPLOYED_LOCATION_SLUGS cohort. Export 'all' for all 170.
-export const waterHeaterRepairCopy: Record<string, LocationServiceCopy> = Object.fromEntries(
+export const waterHeaterRepairCopy: Record<string, LocationServiceCopy> = process.env.NODE_ENV === 'development' ? all : Object.fromEntries(
   DEPLOYED_LOCATION_SLUGS.filter((s) => all[s]).map((s) => [s, all[s]]),
 );

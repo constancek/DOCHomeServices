@@ -23,6 +23,7 @@ export type IconName =
   | 'mail'
   | 'pin'
   | 'house'
+  | 'paw'
   | 'doc';
 
 const paths: Record<IconName, ReactNode> = {
@@ -93,6 +94,15 @@ const paths: Record<IconName, ReactNode> = {
       <path d="M6 2h7l5 5v15H6z" />
       <path d="M13 2v5h5" />
     </>
+  ),
+  paw: (
+    <g fill="currentColor" stroke="none">
+      <ellipse cx="12" cy="15.5" rx="4.3" ry="3.6" />
+      <circle cx="6.3" cy="10" r="1.9" />
+      <circle cx="9.8" cy="6.6" r="2" />
+      <circle cx="14.2" cy="6.6" r="2" />
+      <circle cx="17.7" cy="10" r="1.9" />
+    </g>
   ),
 };
 

@@ -20,6 +20,6 @@ const all: Record<string, LocationServiceCopy> = {
 
 // Interim deploy: ship only the DEPLOYED_LOCATION_SLUGS cohort for a faster build.
 // To deploy all 170, export `all` directly.
-export const acRepairCopy: Record<string, LocationServiceCopy> = Object.fromEntries(
+export const acRepairCopy: Record<string, LocationServiceCopy> = process.env.NODE_ENV === 'development' ? all : Object.fromEntries(
   DEPLOYED_LOCATION_SLUGS.filter((s) => all[s]).map((s) => [s, all[s]]),
 );
