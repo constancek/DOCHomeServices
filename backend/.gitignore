@@ -1,0 +1,52 @@
+############################
+# Node
+############################
+.npm
+.eslintcache
+node_modules/
+npm-debug.log
+npm-error.log
+yarn-error.log
+
+############################
+# Testing
+############################
+coverage/
+.nyc_output/
+
+############################
+# Strapi
+############################
+.cache/
+build/
+dist/
+.tmp/
+license.txt
+exports
+
+############################
+# IDE
+############################
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.vscode
+*.vscode-insiders
+.idea
+
+############################
+# Environment
+############################
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+############################
+# Dev
+############################
+.vercel

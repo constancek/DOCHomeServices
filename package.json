@@ -1,25 +1,23 @@
 {
-  "name": "home-services-site",
+  "name": "doc-home-services",
   "version": "1.0.0",
+  "description": "DOC Home Services - CMS powered by Strapi and Next.js",
   "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "^16.2.9",
-    "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run develop",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "start:frontend": "cd frontend && npm run start",
+    "start:backend": "cd backend && npm run start",
+    "dev": "concurrently \"npm:dev:backend\" \"npm:dev:frontend\"",
+    "build": "npm run build:backend && npm run build:frontend"
   },
   "devDependencies": {
-    "@types/node": "22.10.7",
-    "@types/react": "19.0.7",
-    "@types/react-dom": "19.0.3",
-    "autoprefixer": "10.4.20",
-    "postcss": "8.5.1",
-    "tailwindcss": "3.4.17",
-    "typescript": "5.7.3"
+    "concurrently": "^9.1.0"
   }
 }

@@ -1,5 +1,6 @@
 # dependencies
 /node_modules
+node_modules/
 
 # next.js
 /.next/
@@ -7,6 +8,7 @@
 
 # production
 /build
+dist/
 
 # misc
 .DS_Store
@@ -26,3 +28,19 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+# Strapi backend
+backend/.cache/
+backend/build/
+backend/.tmp/
+backend/exports/
+
+# IDE
+.vscode
+.idea
+
+# OS
+Thumbs.db
+
+# Monorepo
+.turbo
