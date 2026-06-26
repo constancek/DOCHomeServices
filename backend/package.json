@@ -9,16 +9,15 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {
-    "@strapi/strapi": "5.49.0",
-    "@strapi/plugin-users-permissions": "5.49.0"
-  },
   "dependencies": {
+    "@strapi/strapi": "5.49.0",
+    "@strapi/plugin-users-permissions": "5.49.0",
     "pg": "^8.11.3",
     "sqlite3": "^5.1.7"
   },
+  "devDependencies": {},
   "engines": {
-    "node": ">=18.0.0 <=20.x.x",
+    "node": ">=18.0.0 <21",
     "npm": ">=9.0.0"
   }
 }
