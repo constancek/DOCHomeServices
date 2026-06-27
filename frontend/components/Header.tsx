@@ -12,8 +12,8 @@ export default function Header() {
     <header>
       {/* Row 1 — blue phone bar (fixed to viewport, always visible) */}
       <div className="fixed inset-x-0 top-0 z-[60] bg-brand-600 text-white">
-        <div className="container-page flex h-9 items-center justify-between gap-3">
-          <span className="hidden text-xs font-bold uppercase tracking-wide text-white sm:inline">
+        <div className="container-page flex h-9 items-center justify-between gap-2 sm:gap-3">
+          <span className="whitespace-nowrap text-[10px] font-bold uppercase tracking-tight text-white sm:text-xs sm:tracking-wide">
             Call or Text · {site.hours}
           </span>
           <div className="flex flex-1 items-center justify-end gap-4 overflow-x-auto sm:gap-7">
@@ -21,9 +21,9 @@ export default function Header() {
               <a
                 key={p.label}
                 href={p.href}
-                className="flex flex-shrink-0 items-center gap-1.5 text-[11px] transition hover:text-pink-300 sm:text-[13px]"
+                className="flex flex-shrink-0 items-center gap-2 text-sm font-bold transition hover:text-pink-300 sm:text-base"
               >
-                <Icon name="phone" className="h-3.5 w-3.5" />
+                <Icon name="phone" className="h-4 w-4 sm:h-[18px] sm:w-[18px]" />
                 {p.label && (
                   <span className="hidden font-semibold uppercase tracking-wide text-brand-100 sm:inline">
                     {p.label}:
@@ -46,13 +46,13 @@ export default function Header() {
           className="flex items-center justify-center gap-2 bg-pink-500 px-3 py-3 text-center text-xs font-extrabold uppercase tracking-wide text-white transition hover:bg-pink-600 sm:text-sm"
         >
           Get Instant Estimate
-          <Icon name="badge" className="hidden h-4 w-4 sm:inline" />
+          <Icon name="clock" className="h-4 w-4 flex-shrink-0" />
         </Link>
         <a
           href={site.primaryPhone.href}
           className="flex items-center justify-center gap-2 bg-lime-500 px-3 py-3 text-center text-xs font-extrabold uppercase tracking-wide text-white transition hover:bg-lime-600 sm:text-sm"
         >
-          <Icon name="calendar" className="hidden h-4 w-4 sm:inline" />
+          <Icon name="calendar" className="h-4 w-4 flex-shrink-0" />
           Book Appointment
         </a>
       </div>
@@ -183,32 +183,89 @@ export default function Header() {
           </button>
         </div>
 
-        {/* Mobile menu */}
+        {/* Mobile menu — nested accordion so every submenu is reachable */}
         {mobileOpen && (
-          <div className="border-t border-brand-100 bg-white xl:hidden">
-            <div className="container-page space-y-1 py-3">
-              {nav.map((item) => (
-                <Link
-                  key={item.label}
-                  href={item.href}
-                  onClick={() => setMobileOpen(false)}
-                  className="block rounded-lg px-3 py-2.5 text-sm font-bold uppercase tracking-wide text-brand-800"
-                >
-                  {item.label}
-                </Link>
-              ))}
-              <Link
-                href="/blog"
-                onClick={() => setMobileOpen(false)}
-                className="block rounded-lg px-3 py-2.5 text-sm font-bold uppercase tracking-wide text-brand-800"
-              >
-                Blog
-              </Link>
-            </div>
+          <div className="max-h-[calc(100vh-theme(spacing.9))] overflow-y-auto border-t border-brand-100 bg-white xl:hidden">
+            <nav className="container-page py-1">
+              <ul className="divide-y divide-brand-100">
+                {nav.map((item) => (
+                  <MobileNavNode
+                    key={item.label}
+                    node={item}
+                    depth={0}
+                    onNavigate={() => setMobileOpen(false)}
+                  />
+                ))}
+              </ul>
+            </nav>
           </div>
         )}
       </div>
     </header>
+  );
+}
+
+type MobileNode = { label: string; href: string; children?: MobileNode[] };
+
+// Recursive accordion row for the mobile menu. Parent rows link to their hub
+// page and expose a caret that expands the children (which may nest further).
+function MobileNavNode({
+  node,
+  depth,
+  onNavigate,
+}: {
+  node: MobileNode;
+  depth: number;
+  onNavigate: () => void;
+}) {
+  const [open, setOpen] = useState(false);
+  const hasChildren = Array.isArray(node.children) && node.children.length > 0;
+  const pad = depth === 0 ? '' : depth === 1 ? 'pl-4' : 'pl-8';
+  const labelClass =
+    depth === 0
+      ? 'text-sm font-bold uppercase tracking-wide'
+      : 'text-sm font-semibold';
+
+  if (!hasChildren) {
+    return (
+      <li>
+        <Link
+          href={node.href}
+          onClick={onNavigate}
+          className={`block py-3.5 ${pad} ${
+            depth === 0 ? 'text-sm font-bold uppercase tracking-wide text-brand-800' : 'text-sm font-medium text-brand-700'
+          }`}
+        >
+          {node.label}
+        </Link>
+      </li>
+    );
+  }
+
+  return (
+    <li>
+      <div className={`flex items-center transition-colors ${open ? 'bg-pink-500 text-white' : depth === 0 ? 'text-brand-800' : 'text-brand-700'}`}>
+        <Link href={node.href} onClick={onNavigate} className={`flex-1 py-3.5 ${pad} ${labelClass}`}>
+          {node.label}
+        </Link>
+        <button
+          type="button"
+          onClick={() => setOpen((v) => !v)}
+          aria-label={`${open ? 'Collapse' : 'Expand'} ${node.label}`}
+          aria-expanded={open}
+          className="grid h-11 w-11 flex-shrink-0 place-items-center"
+        >
+          <Icon name="caretDown" className={`h-3 w-3 transition-transform ${open ? 'rotate-180' : ''}`} />
+        </button>
+      </div>
+      {open && (
+        <ul className="divide-y divide-brand-100 border-t border-brand-100 bg-brand-50/50">
+          {node.children!.map((child) => (
+            <MobileNavNode key={child.label} node={child} depth={depth + 1} onNavigate={onNavigate} />
+          ))}
+        </ul>
+      )}
+    </li>
   );
 }
 

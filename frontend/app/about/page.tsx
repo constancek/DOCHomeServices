@@ -30,24 +30,7 @@ export default function AboutPage() {
       {/* Welcome to the family */}
       <section className="py-16">
         <MainWithSidebar>
-          {/* Video placeholder */}
-          <div className="relative grid aspect-video place-items-center overflow-hidden rounded-2xl bg-brand-900">
-            <button
-              type="button"
-              className="grid h-20 w-20 place-items-center rounded-full bg-white/90 text-pink-500 shadow-card transition hover:scale-105"
-              aria-label="Play story video"
-            >
-              <Icon name="play" className="h-9 w-9 translate-x-0.5 fill-current" />
-            </button>
-            <div className="absolute bottom-4 left-4 text-left">
-              <p className="font-display text-lg font-bold text-white">Customer Name</p>
-              <span className="mt-1 inline-block rounded-full bg-cobalt px-3 py-0.5 text-xs font-semibold text-white">
-                Customer
-              </span>
-            </div>
-          </div>
-
-          <h2 className="mt-8 font-display text-4xl font-black uppercase leading-[1.02] text-pink-500 sm:text-5xl">
+          <h2 className="font-display text-4xl font-black uppercase leading-[1.02] text-pink-500 sm:text-5xl">
             Welcome to the Family. We&rsquo;re Glad You&rsquo;re Here.
           </h2>
           <h3 className="mt-4 font-display text-xl font-extrabold text-brand-950 sm:text-2xl">
