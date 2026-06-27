@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Icon from './Icon';
 import TornEdge from './TornEdge';
 import LogoMarquee from './LogoMarquee';
+import WhyChooseVideos from './WhyChooseVideos';
 import { site } from '@/content/site';
 import { benefits, awards, clubPerks, fundingPoints, serviceAreas } from '@/content/home';
 
@@ -108,16 +109,8 @@ export function WhyChoose() {
         </h2>
 
         <div className="mt-10 grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-center">
-          {/* Video placeholder */}
-          <div className="relative grid aspect-video place-items-center overflow-hidden rounded-2xl bg-brand-900">
-            <button
-              type="button"
-              className="grid h-20 w-20 place-items-center rounded-full bg-white/90 text-brand-700 shadow-card transition hover:scale-105"
-              aria-label="Play intro video"
-            >
-              <Icon name="play" className="h-9 w-9 translate-x-0.5 fill-current" />
-            </button>
-          </div>
+          {/* Video carousel */}
+          <WhyChooseVideos />
 
           {/* Benefits list */}
           <div>

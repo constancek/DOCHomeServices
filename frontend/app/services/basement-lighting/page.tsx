@@ -5,6 +5,8 @@ import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
+import { locations, locationsByGroup } from '@/content/locations';
+import { basementLightingCopy } from '@/content/location-copy/basement-lighting';
 import { site } from '@/content/site';
 
 export const metadata: Metadata = {
@@ -369,6 +371,44 @@ export default function BasementLightingPage() {
                 Free Estimate
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Basement lighting by neighborhood — links DOWN to location pages */}
+      <section className="pb-16">
+        <div className="container-page max-w-4xl">
+          <h2 className="section-title text-brand-700">Basement lighting by neighborhood</h2>
+          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+            We install basement lighting across {site.serviceArea} —{' '}
+            {locations.filter((l) => basementLightingCopy[l.slug]).length} neighborhoods and counting.
+            Find yours below for local detail on the homes and basements in your area.
+          </p>
+          <div className="mt-6 space-y-7">
+            {locationsByGroup().map(({ group, items }) => {
+              const local = items.filter((l) => basementLightingCopy[l.slug]);
+              if (!local.length) return null;
+              return (
+                <div key={group}>
+                  <h3 className="flex items-center gap-2 font-display text-base font-extrabold text-brand-700">
+                    <Icon name="pin" className="h-4 w-4 text-pink-500" />
+                    {group}
+                  </h3>
+                  <ul className="mt-2 columns-1 gap-x-6 sm:columns-2">
+                    {local.map((l) => (
+                      <li key={l.slug} className="mb-1.5 break-inside-avoid">
+                        <Link
+                          href={`/services/basement-lighting/${l.slug}`}
+                          className="text-sm font-medium text-brand-800 hover:text-pink-600"
+                        >
+                          Basement lighting in {l.neighborhood}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>

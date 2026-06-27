@@ -10,8 +10,8 @@ export default function Header() {
 
   return (
     <header>
-      {/* Row 1 — blue phone bar */}
-      <div className="bg-brand-600 text-white">
+      {/* Row 1 — blue phone bar (fixed to viewport, always visible) */}
+      <div className="fixed inset-x-0 top-0 z-[60] bg-brand-600 text-white">
         <div className="container-page flex h-9 items-center justify-between gap-3">
           <span className="hidden text-xs font-bold uppercase tracking-wide text-white sm:inline">
             Call or Text · {site.hours}
@@ -36,6 +36,9 @@ export default function Header() {
         </div>
       </div>
 
+      {/* Spacer reserving the fixed blue bar's height (h-9) */}
+      <div aria-hidden className="h-9" />
+
       {/* Row 2 — full-width split CTA buttons */}
       <div className="grid grid-cols-2">
         <Link
@@ -54,8 +57,8 @@ export default function Header() {
         </a>
       </div>
 
-      {/* Row 3 — white nav (sticky) */}
-      <div className="sticky top-0 z-50 bg-white shadow-pill">
+      {/* Row 3 — white nav (sticky, below the blue bar) */}
+      <div className="sticky top-9 z-50 bg-white shadow-pill">
         <div className="container-page flex h-[88px] items-center justify-between gap-4">
           <Logo />
 

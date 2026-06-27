@@ -40,6 +40,18 @@ import { hotTubWiringCopy } from '@/content/location-copy/hot-tub-wiring';
 import { outdoorLightingCopy } from '@/content/location-copy/outdoor-lighting';
 import { indoorLightingCopy } from '@/content/location-copy/indoor-lighting';
 import { landscapeLightingCopy } from '@/content/location-copy/landscape-lighting';
+import { patioLightingCopy } from '@/content/location-copy/patio-lighting';
+import { holidayLightingCopy } from '@/content/location-copy/holiday-lighting';
+import { recessedLightingCopy } from '@/content/location-copy/recessed-lighting';
+import { ledLightingCopy } from '@/content/location-copy/led-lighting';
+import { garageLightingCopy } from '@/content/location-copy/garage-lighting';
+import { basementLightingCopy } from '@/content/location-copy/basement-lighting';
+import { lightingFixtureCopy } from '@/content/location-copy/lighting-fixture-installation';
+import { leakDetectionCopy } from '@/content/location-copy/leak-detection';
+import { garbageDisposalsCopy } from '@/content/location-copy/garbage-disposals';
+import { gasLineCopy } from '@/content/location-copy/gas-line-repair-replacement';
+import { pipeRepairCopy } from '@/content/location-copy/pipe-repair-replacement';
+import { wholeHouseRepipingCopy } from '@/content/location-copy/whole-house-repiping';
 import { successStories } from '@/content/successStories';
 import { posts } from '@/content/posts';
 
@@ -368,6 +380,102 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     }));
 
+  const patioLightingLocationRoutes = locations
+    .filter((l) => patioLightingCopy[l.slug])
+    .map((l) => ({
+      url: `${base}/services/patio-lighting/${l.slug}/`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }));
+
+  const holidayLightingLocationRoutes = locations
+    .filter((l) => holidayLightingCopy[l.slug])
+    .map((l) => ({
+      url: `${base}/services/holiday-lighting/${l.slug}/`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }));
+
+  const recessedLightingLocationRoutes = locations
+    .filter((l) => recessedLightingCopy[l.slug])
+    .map((l) => ({
+      url: `${base}/services/recessed-lighting/${l.slug}/`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }));
+
+  const ledLightingLocationRoutes = locations
+    .filter((l) => ledLightingCopy[l.slug])
+    .map((l) => ({
+      url: `${base}/services/led-lighting/${l.slug}/`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }));
+
+  const garageLightingLocationRoutes = locations
+    .filter((l) => garageLightingCopy[l.slug])
+    .map((l) => ({
+      url: `${base}/services/garage-lighting/${l.slug}/`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }));
+
+  const basementLightingLocationRoutes = locations
+    .filter((l) => basementLightingCopy[l.slug])
+    .map((l) => ({
+      url: `${base}/services/basement-lighting/${l.slug}/`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }));
+
+  const lightingFixtureLocationRoutes = locations
+    .filter((l) => lightingFixtureCopy[l.slug])
+    .map((l) => ({
+      url: `${base}/services/lighting-fixture-installation/${l.slug}/`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }));
+
+  const leakDetectionLocationRoutes = locations
+    .filter((l) => leakDetectionCopy[l.slug])
+    .map((l) => ({
+      url: `${base}/services/leak-detection/${l.slug}/`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }));
+
+  const garbageDisposalsLocationRoutes = locations
+    .filter((l) => garbageDisposalsCopy[l.slug])
+    .map((l) => ({
+      url: `${base}/services/garbage-disposals/${l.slug}/`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }));
+
+  const gasLineLocationRoutes = locations
+    .filter((l) => gasLineCopy[l.slug])
+    .map((l) => ({
+      url: `${base}/services/gas-line-repair-replacement/${l.slug}/`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }));
+
+  const pipeRepairLocationRoutes = locations
+    .filter((l) => pipeRepairCopy[l.slug])
+    .map((l) => ({
+      url: `${base}/services/pipe-repair-replacement/${l.slug}/`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }));
+
+  const wholeHouseRepipingLocationRoutes = locations
+    .filter((l) => wholeHouseRepipingCopy[l.slug])
+    .map((l) => ({
+      url: `${base}/services/whole-house-repiping/${l.slug}/`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }));
+
   const successStoryRoutes = successStories.map((s) => ({
     url: `${base}/customer-success-stories/${s.slug}/`,
     changeFrequency: 'monthly' as const,
@@ -381,5 +489,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...serviceRoutes, ...subServiceRoutes, ...companyRoutes, ...locationRoutes, ...acRepairLocationRoutes, ...furnaceRepairLocationRoutes, ...waterHeaterRepairLocationRoutes, ...drainCleaningLocationRoutes, ...acInstallationLocationRoutes, ...heatPumpsLocationRoutes, ...leakRepairLocationRoutes, ...sewerRepairLocationRoutes, ...furnaceInstallationLocationRoutes, ...acMaintenanceLocationRoutes, ...furnaceMaintenanceLocationRoutes, ...plumbingRepairLocationRoutes, ...plumbingInstallationLocationRoutes, ...faucetLocationRoutes, ...sumpPumpsLocationRoutes, ...waterHeaterInstallationLocationRoutes, ...waterHeaterMaintenanceLocationRoutes, ...tanklessLocationRoutes, ...waterQualityLocationRoutes, ...miniSplitsLocationRoutes, ...miniSplitInstallationLocationRoutes, ...miniSplitRepairLocationRoutes, ...indoorAirQualityLocationRoutes, ...panelReplacementLocationRoutes, ...switchesOutletsLocationRoutes, ...mastRepairLocationRoutes, ...evChargersLocationRoutes, ...ceilingFanLocationRoutes, ...exhaustFanLocationRoutes, ...surgeProtectorLocationRoutes, ...homeRewiringLocationRoutes, ...electricalInspectionsLocationRoutes, ...hotTubWiringLocationRoutes, ...outdoorLightingLocationRoutes, ...indoorLightingLocationRoutes, ...landscapeLightingLocationRoutes, ...successStoryRoutes, ...postRoutes];
+  return [...staticRoutes, ...serviceRoutes, ...subServiceRoutes, ...companyRoutes, ...locationRoutes, ...acRepairLocationRoutes, ...furnaceRepairLocationRoutes, ...waterHeaterRepairLocationRoutes, ...drainCleaningLocationRoutes, ...acInstallationLocationRoutes, ...heatPumpsLocationRoutes, ...leakRepairLocationRoutes, ...sewerRepairLocationRoutes, ...furnaceInstallationLocationRoutes, ...acMaintenanceLocationRoutes, ...furnaceMaintenanceLocationRoutes, ...plumbingRepairLocationRoutes, ...plumbingInstallationLocationRoutes, ...faucetLocationRoutes, ...sumpPumpsLocationRoutes, ...waterHeaterInstallationLocationRoutes, ...waterHeaterMaintenanceLocationRoutes, ...tanklessLocationRoutes, ...waterQualityLocationRoutes, ...miniSplitsLocationRoutes, ...miniSplitInstallationLocationRoutes, ...miniSplitRepairLocationRoutes, ...indoorAirQualityLocationRoutes, ...panelReplacementLocationRoutes, ...switchesOutletsLocationRoutes, ...mastRepairLocationRoutes, ...evChargersLocationRoutes, ...ceilingFanLocationRoutes, ...exhaustFanLocationRoutes, ...surgeProtectorLocationRoutes, ...homeRewiringLocationRoutes, ...electricalInspectionsLocationRoutes, ...hotTubWiringLocationRoutes, ...outdoorLightingLocationRoutes, ...indoorLightingLocationRoutes, ...landscapeLightingLocationRoutes, ...patioLightingLocationRoutes, ...holidayLightingLocationRoutes, ...recessedLightingLocationRoutes, ...ledLightingLocationRoutes, ...garageLightingLocationRoutes, ...basementLightingLocationRoutes, ...lightingFixtureLocationRoutes, ...leakDetectionLocationRoutes, ...garbageDisposalsLocationRoutes, ...gasLineLocationRoutes, ...pipeRepairLocationRoutes, ...wholeHouseRepipingLocationRoutes, ...successStoryRoutes, ...postRoutes];
 }
