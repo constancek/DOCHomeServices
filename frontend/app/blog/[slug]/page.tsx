@@ -6,7 +6,7 @@ import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import { MapWidget, CouponWidget } from '@/components/Sidebar';
 import ServicesMenu from '@/components/ServicesMenu';
-import { posts, getPost } from '@/content/posts';
+import { posts, getPost, type PostBlock, type PostSpan } from '@/content/posts';
 import { site } from '@/content/site';
 
 export function generateStaticParams() {
@@ -21,19 +21,97 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) return {};
+  const url = `/blog/${post.slug}`;
+  const images = post.image ? [{ url: post.image, alt: post.imageAlt ?? post.title }] : undefined;
   return {
     title: post.title,
     description: post.excerpt,
-    alternates: { canonical: `/blog/${post.slug}` },
+    alternates: { canonical: url },
     openGraph: {
       type: 'article',
       title: post.title,
       description: post.excerpt,
+      url,
+      siteName: site.name,
       publishedTime: post.date,
+      modifiedTime: post.dateModified ?? post.date,
+      section: post.category,
       authors: [post.author.name],
+      images,
     },
-    twitter: { card: 'summary_large_image', title: post.title, description: post.excerpt },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+      images: post.image ? [post.image] : undefined,
+    },
   };
+}
+
+function slugify(text: string) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+}
+
+function Spans({ spans }: { spans: PostSpan[] }) {
+  return (
+    <>
+      {spans.map((s, i) =>
+        typeof s === 'string' ? (
+          s
+        ) : 'strong' in s ? (
+          <strong key={i} className="font-bold text-brand-950">
+            {s.strong}
+          </strong>
+        ) : (
+          <Link
+            key={i}
+            href={s.href}
+            className="font-semibold text-pink-600 transition hover:text-pink-700 hover:underline"
+          >
+            {s.link}
+          </Link>
+        ),
+      )}
+    </>
+  );
+}
+
+function PostBlockView({ block }: { block: PostBlock }) {
+  if (block.kind === 'h2') {
+    return (
+      <h2 id={slugify(block.text)} className="scroll-mt-28 pt-4 font-display text-2xl font-extrabold text-brand-950 sm:text-3xl">
+        {block.text}
+      </h2>
+    );
+  }
+  if (block.kind === 'h3') {
+    return <h3 className="pt-2 font-display text-lg font-extrabold text-brand-900 sm:text-xl">{block.text}</h3>;
+  }
+  if (block.kind === 'takeaways') {
+    return (
+      <div className="rounded-2xl border border-brand-100 bg-brand-50/60 p-6">
+        <h2 className="font-display text-lg font-extrabold uppercase tracking-wide text-brand-700">Key Takeaways</h2>
+        <ul className="mt-3 space-y-2.5">
+          {block.items.map((item, i) => (
+            <li key={i} className="flex gap-2.5 text-[15px] leading-relaxed text-brand-800">
+              <Icon name="check" className="mt-1 h-4 w-4 flex-shrink-0 text-pink-500" />
+              <span>
+                <Spans spans={item} />
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    );
+  }
+  return (
+    <p className="text-[17px] leading-relaxed text-brand-800">
+      <Spans spans={block.spans} />
+    </p>
+  );
 }
 
 function formatDate(iso: string) {
@@ -49,7 +127,13 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   const post = getPost(slug);
   if (!post) notFound();
 
-  const related = posts.filter((p) => p.slug !== post.slug).slice(0, 3);
+  // Related posts: prefer the same category to keep the topic cluster tight.
+  const sameCategory = posts.filter((p) => p.slug !== post.slug && p.category === post.category);
+  const related = [...sameCategory, ...posts.filter((p) => p.slug !== post.slug && p.category !== post.category)].slice(0, 3);
+
+  const headings = (post.content ?? [])
+    .filter((b): b is Extract<PostBlock, { kind: 'h2' }> => b.kind === 'h2')
+    .map((b) => ({ text: b.text, id: slugify(b.text) }));
 
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -57,8 +141,17 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
-    author: { '@type': 'Person', name: post.author.name, jobTitle: post.author.role },
-    publisher: { '@type': 'Organization', name: site.name },
+    dateModified: post.dateModified ?? post.date,
+    ...(post.image ? { image: `${site.url}${post.image}` } : {}),
+    author:
+      post.author.name === site.name
+        ? { '@type': 'Organization', name: post.author.name }
+        : { '@type': 'Person', name: post.author.name, jobTitle: post.author.role },
+    publisher: {
+      '@type': 'Organization',
+      name: site.name,
+      logo: { '@type': 'ImageObject', url: `${site.url}/mascot.png` },
+    },
     mainEntityOfPage: `${site.url}/blog/${post.slug}`,
   };
 
@@ -127,11 +220,13 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
             {/* Body */}
             <div className="prose-custom mt-8 space-y-5">
-              {post.body.map((para, i) => (
-                <p key={i} className="text-[17px] leading-relaxed text-brand-800">
-                  {para}
-                </p>
-              ))}
+              {post.content
+                ? post.content.map((block, i) => <PostBlockView key={i} block={block} />)
+                : post.body?.map((para, i) => (
+                    <p key={i} className="text-[17px] leading-relaxed text-brand-800">
+                      {para}
+                    </p>
+                  ))}
             </div>
 
             {/* FAQ */}
@@ -171,11 +266,21 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 On this page
               </h2>
               <ul className="mt-4 space-y-2 text-sm">
-                <li>
-                  <a href="#" className="text-brand-700 transition hover:text-brand-500">
-                    Introduction
-                  </a>
-                </li>
+                {headings.length > 0 ? (
+                  headings.map((h) => (
+                    <li key={h.id}>
+                      <a href={`#${h.id}`} className="text-brand-700 transition hover:text-brand-500">
+                        {h.text}
+                      </a>
+                    </li>
+                  ))
+                ) : (
+                  <li>
+                    <a href="#" className="text-brand-700 transition hover:text-brand-500">
+                      Introduction
+                    </a>
+                  </li>
+                )}
                 {post.faqs && post.faqs.length > 0 && (
                   <li>
                     <a href="#faq" className="text-brand-700 transition hover:text-brand-500">
