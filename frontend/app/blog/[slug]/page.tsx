@@ -3,7 +3,9 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { BlogSections } from '@/components/PageSections';
+import ShareBar from '@/components/ShareBar';
+import BlogFaq from '@/components/BlogFaq';
 import { MapWidget, CouponWidget } from '@/components/Sidebar';
 import ServicesMenu from '@/components/ServicesMenu';
 import { posts, getPost, type PostBlock, type PostSpan } from '@/content/posts';
@@ -92,12 +94,12 @@ function PostBlockView({ block }: { block: PostBlock }) {
   }
   if (block.kind === 'takeaways') {
     return (
-      <div className="rounded-2xl border border-brand-100 bg-brand-50/60 p-6">
-        <h2 className="font-display text-lg font-extrabold uppercase tracking-wide text-brand-700">Key Takeaways</h2>
-        <ul className="mt-3 space-y-2.5">
+      <div className="rounded-2xl border border-brand-100 bg-brand-50/60 p-6 sm:p-7">
+        <h2 className="font-display text-2xl font-extrabold uppercase tracking-wide text-brand-700">Key Takeaways</h2>
+        <ul className="mt-4 space-y-3">
           {block.items.map((item, i) => (
-            <li key={i} className="flex gap-2.5 text-[15px] leading-relaxed text-brand-800">
-              <Icon name="check" className="mt-1 h-4 w-4 flex-shrink-0 text-pink-500" />
+            <li key={i} className="flex gap-2.5 text-lg leading-relaxed text-brand-800">
+              <Icon name="check" className="mt-1 h-5 w-5 flex-shrink-0 text-pink-500" />
               <span>
                 <Spans spans={item} />
               </span>
@@ -108,7 +110,7 @@ function PostBlockView({ block }: { block: PostBlock }) {
     );
   }
   return (
-    <p className="text-[17px] leading-relaxed text-brand-800">
+    <p className="text-lg leading-relaxed text-brand-800">
       <Spans spans={block.spans} />
     </p>
   );
@@ -134,6 +136,13 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   const headings = (post.content ?? [])
     .filter((b): b is Extract<PostBlock, { kind: 'h2' }> => b.kind === 'h2')
     .map((b) => ({ text: b.text, id: slugify(b.text) }));
+
+  // Chronological neighbours for Previous / Next navigation.
+  const ordered = [...posts].sort((a, b) => (a.date < b.date ? -1 : 1));
+  const idx = ordered.findIndex((p) => p.slug === post.slug);
+  const prevPost = idx > 0 ? ordered[idx - 1] : null;
+  const nextPost = idx >= 0 && idx < ordered.length - 1 ? ordered[idx + 1] : null;
+  const shareUrl = `${site.url}/blog/${post.slug}`;
 
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -207,16 +216,37 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           <div>
             {/* Byline */}
             <div className="flex items-center gap-4 border-b border-brand-900/5 pb-6">
-              <span className="grid h-12 w-12 place-items-center rounded-full bg-blue-section font-display text-lg font-bold text-white">
-                {post.author.name.slice(0, 1)}
-              </span>
+              {post.author.name === site.name ? (
+                <img
+                  src="/logo.png"
+                  alt={site.name}
+                  width={48}
+                  height={48}
+                  className="h-12 w-12 flex-shrink-0 rounded-full object-cover"
+                />
+              ) : (
+                <span className="grid h-12 w-12 flex-shrink-0 place-items-center rounded-full bg-blue-section font-display text-lg font-bold text-white">
+                  {post.author.name.slice(0, 1)}
+                </span>
+              )}
               <div className="text-sm">
                 <span className="block font-bold text-brand-950">{post.author.name}</span>
                 <span className="block text-brand-500">
-                  {post.author.role} · {formatDate(post.date)} · {post.readMinutes} min read
+                  {post.author.name === site.name
+                    ? `${formatDate(post.date)} · ${post.readMinutes} min read`
+                    : `${post.author.role} · ${formatDate(post.date)} · ${post.readMinutes} min read`}
                 </span>
               </div>
             </div>
+
+            {/* Featured image */}
+            {post.image && (
+              <img
+                src={post.image}
+                alt={post.imageAlt ?? post.title}
+                className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover"
+              />
+            )}
 
             {/* Body */}
             <div className="prose-custom mt-8 space-y-5">
@@ -230,21 +260,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             </div>
 
             {/* FAQ */}
-            {post.faqs && post.faqs.length > 0 && (
-              <section id="faq" className="mt-12">
-                <h2 className="text-2xl font-extrabold text-brand-950">
-                  Frequently asked questions
-                </h2>
-                <div className="mt-6 space-y-4">
-                  {post.faqs.map((f) => (
-                    <div key={f.q} className="card">
-                      <h3 className="text-lg font-bold text-brand-950">{f.q}</h3>
-                      <p className="mt-2 text-brand-700">{f.a}</p>
-                    </div>
-                  ))}
-                </div>
-              </section>
-            )}
+            {post.faqs && post.faqs.length > 0 && <BlogFaq items={post.faqs} />}
 
             {/* Inline CTA */}
             <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center">
@@ -257,6 +273,41 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 Call {site.primaryPhone.number}
               </a>
             </div>
+
+            {/* Sharing is caring */}
+            <ShareBar url={shareUrl} title={post.title} />
+
+            {/* Previous / Next */}
+            {(prevPost || nextPost) && (
+              <nav className="mt-8 grid gap-6 border-t border-brand-900/10 pt-6 sm:grid-cols-2">
+                {prevPost ? (
+                  <Link href={`/blog/${prevPost.slug}`} className="group flex items-start gap-2">
+                    <Icon name="chevron" className="mt-1 h-4 w-4 flex-shrink-0 rotate-180 text-pink-500" />
+                    <span className="min-w-0">
+                      <span className="block text-xs font-bold uppercase tracking-wider text-pink-600">Previous</span>
+                      <span className="block text-sm font-bold text-brand-800 transition group-hover:text-brand-600">
+                        {prevPost.title}
+                      </span>
+                    </span>
+                  </Link>
+                ) : (
+                  <span className="hidden sm:block" />
+                )}
+                {nextPost ? (
+                  <Link href={`/blog/${nextPost.slug}`} className="group flex items-start justify-end gap-2 text-right">
+                    <span className="min-w-0">
+                      <span className="block text-xs font-bold uppercase tracking-wider text-pink-600">Next</span>
+                      <span className="block text-sm font-bold text-brand-800 transition group-hover:text-brand-600">
+                        {nextPost.title}
+                      </span>
+                    </span>
+                    <Icon name="chevron" className="mt-1 h-4 w-4 flex-shrink-0 text-pink-500" />
+                  </Link>
+                ) : (
+                  <span />
+                )}
+              </nav>
+            )}
           </div>
 
           {/* Sidebar */}
@@ -314,7 +365,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           </aside>
         </div>
       </article>
-      <PageSections />
+      <BlogSections />
     </>
   );
 }

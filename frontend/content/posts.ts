@@ -26,6 +26,86 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: 'how-to-extend-the-life-of-your-ac-unit',
+    title: 'How to Extend the Life of Your AC Unit',
+    category: 'Cooling',
+    excerpt:
+      'Want your air conditioner to last longer? Simple, proven steps Cincinnati homeowners can use to extend the life of an AC unit and avoid an early replacement.',
+    date: '2026-06-28',
+    dateModified: '2026-06-28',
+    readMinutes: 7,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/extend-ac-life-hero.jpg',
+    imageAlt: 'Technician performing maintenance on an outdoor AC condenser unit',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Annual professional maintenance is the single biggest factor' }, ' in how long an AC lasts — and it keeps your manufacturer warranty valid.'],
+          [{ strong: 'A clean filter and a clean outdoor unit' }, ' protect the compressor, which is the most expensive part to replace.'],
+          [{ strong: 'Small problems caught early stay small;' }, ' ignoring them is what turns a routine repair into a full replacement.'],
+          [{ strong: 'Most central systems last 10 to 15 years' }, ' — regular ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ' is the easiest way to reach the high end of that range.'],
+        ],
+      },
+      { kind: 'p', spans: ['An air conditioner is one of the bigger investments in your home, and how long it lasts has less to do with the brand on the label than with how it is cared for. Two identical units can live very different lives — one quits in eight years, the other still runs strong past fifteen — and the difference is almost always maintenance.'] },
+      { kind: 'p', spans: ['The good news is that most of what extends an AC’s life is simple, and a few of the steps you can handle yourself. Here is how to get the most years out of your cooling system.'] },
+
+      { kind: 'h2', text: 'Get a Professional Tune-Up Every Year' },
+      { kind: 'p', spans: ['If you do only one thing for your AC, make it an annual tune-up. During a maintenance visit a technician checks refrigerant levels, tests the capacitor and compressor, cleans the coils, tightens electrical connections, and lubricates the moving parts that wear out fastest. These are the small adjustments that keep the system from working harder than it needs to.'] },
+      { kind: 'p', spans: ['Annual service matters for your wallet in another way too: most manufacturers require documented yearly maintenance to keep the warranty valid. Skipping it can leave you paying full price for a repair that should have been covered. Our ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ' keeps that record current and catches small issues before cooling season starts.'] },
+
+      { kind: 'h2', text: 'Change the Air Filter on Schedule' },
+      { kind: 'p', spans: ['A clogged filter is the most common reason a healthy AC starts to struggle. When air cannot move freely, the blower works overtime, the coil can ice over, and the whole system runs hot. Check the filter monthly and replace it every one to three months — more often if you have pets or run the system hard through summer.'] },
+      { kind: 'p', spans: ['A fresh filter also keeps your air cleaner. If anyone in the home deals with allergies or dust sensitivity, a higher-MERV filter or an ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' upgrade can help — just make sure the system is rated for it, since a filter that is too dense can restrict airflow on its own.'] },
+
+      { kind: 'h2', text: 'Keep the Outdoor Unit Clean and Clear' },
+      { kind: 'p', spans: ['The outdoor condenser releases the heat your AC pulls from the house, and it cannot do that job buried in grass clippings, leaves, and cottonwood fluff. Once a month during cooling season, shut the unit off at the disconnect and rinse the fins gently with a garden hose from the inside out. Keep about two feet of clear space on every side so air can move freely.'] },
+      { kind: 'p', spans: ['Avoid stacking firewood, trash cans, or patio furniture against it, and trim back shrubs that creep in over the summer. A clean, unobstructed condenser runs cooler and lasts longer.'] },
+
+      { kind: 'h2', text: 'Do Not Block Your Vents' },
+      { kind: 'p', spans: ['Closing vents in unused rooms to save energy usually backfires. Your system is sized for the whole house, and blocking returns or supply registers raises pressure, lengthens run times, and creates hot and cold spots. Keep furniture and rugs off the vents and leave the large majority of registers open.'] },
+      { kind: 'p', spans: ['If some rooms never seem to cool no matter what, the duct system may be leaking or undersized. We can check it as part of an ', { link: 'AC repair', href: '/services/ac-repair/' }, ' visit and find out where the air is going.'] },
+
+      { kind: 'h2', text: 'Seal Ducts and Improve Insulation' },
+      { kind: 'p', spans: ['Cooled air is expensive, and many homes lose a meaningful share of it through leaky ductwork in the attic or crawlspace before it ever reaches a room. Sealing those joints and insulating the ducts that run through unconditioned space means the air you paid to cool actually arrives where you want it.'] },
+      { kind: 'p', spans: ['The same goes for the house itself. Good attic insulation and sealed gaps around windows and doors keep the heat out, so the AC cycles less and wears more slowly. It is one of the few upgrades that pays you back every single summer.'] },
+
+      { kind: 'h2', text: 'Upgrade to a Smart Thermostat' },
+      { kind: 'p', spans: ['A smart or programmable thermostat lets the system ease off when you are asleep or away and ramp back up before you get home, which cuts unnecessary run time without sacrificing comfort. Many models also track humidity, send filter-change reminders, and let you adjust the temperature from your phone.'] },
+      { kind: 'p', spans: ['Fewer hours of hard running add up to less wear over the life of the unit, and a lighter electric bill along the way.'] },
+
+      { kind: 'h2', text: 'Give the Condenser Some Shade' },
+      { kind: 'p', spans: ['An outdoor unit baking in direct afternoon sun has to work harder to shed heat than one in the shade. A tree, an awning, or a simple screen on the sunniest side can lower the load on the compressor. Just keep any shade structure far enough away to preserve that two-foot airflow clearance.'] },
+
+      { kind: 'h2', text: 'Fix Small Problems Before They Grow' },
+      { kind: 'p', spans: ['Most major AC failures start as something minor — a weak capacitor, a small refrigerant leak, a worn contactor. Left alone, that one part drags down the others until the compressor finally gives out. Calling for ', { link: 'AC repair', href: '/services/ac-repair/' }, ' at the first odd noise, weak airflow, or jump in your bill is almost always cheaper than waiting.'] },
+      { kind: 'p', spans: ['It protects your warranty, too. Running a system with a known problem can void coverage and turn a small bill into a large one.'] },
+
+      { kind: 'h2', text: 'When It Is Time to Replace Instead of Repair' },
+      { kind: 'p', spans: ['Even a well-kept AC reaches the end of the road eventually, and there is a point where pouring money into an old system stops making sense. We will always tell you honestly when that line has been crossed — here is what we look for.'] },
+      { kind: 'h3', text: 'The System Is 10 to 15 Years Old' },
+      { kind: 'p', spans: ['Most central air conditioners last somewhere in this range. Past it, efficiency drops and parts get harder to find, so a major repair on an aging unit is often money better spent toward a replacement.'] },
+      { kind: 'h3', text: 'The Repairs Are Stacking Up' },
+      { kind: 'p', spans: ['One repair is normal. Three service calls in two summers is a pattern, and it usually means more failures are coming. At that point a new, efficient system frequently costs less over time than the running total of fixes.'] },
+      { kind: 'h3', text: 'Your Bills Keep Climbing' },
+      { kind: 'p', spans: ['If your energy bills creep up every year while your habits stay the same, the system is losing efficiency. A modern ', { link: 'AC installation', href: '/services/ac-installation-replacement/' }, ' can cool the same house for noticeably less, and the savings help offset the cost.'] },
+
+      { kind: 'h2', text: 'Trust Degree of Comfort to Keep It Running' },
+      { kind: 'p', spans: ['Whether your AC needs a seasonal tune-up, a quick fix, or an honest opinion on repair versus replacement, Degree of Comfort is here for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, and we back every job with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Ready to add years to your system? Call ', { strong: '(513) 586-5107' }, ', schedule ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' service or routine ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team keep your home cool and comfortable for the long haul.'] },
+    ],
+    faqs: [
+      { q: 'What is the average life of an AC unit?', a: 'Most central air conditioners last about 10 to 15 years. A well-maintained system tends to run toward the high end of that range, while a neglected one can fail several years sooner.' },
+      { q: 'How can I extend the life of my AC unit?', a: 'Change the air filter every one to three months, keep the outdoor unit clear of debris with a foot or two of clearance, and book an annual professional tune-up. Those three habits prevent most of the strain that wears a system out early.' },
+      { q: 'Does replacing AC filters extend the life of an AC unit?', a: 'Yes. A clean filter keeps air moving freely, which protects the blower and compressor from overwork and overheating. A clogged filter is one of the most common reasons a healthy system starts to struggle.' },
+      { q: 'How often should AC maintenance be scheduled?', a: 'Once a year, ideally in spring before cooling season. An annual visit catches small issues early and is usually required to keep the manufacturer warranty valid.' },
+      { q: 'Can regular maintenance prevent AC breakdowns?', a: 'It prevents most of them. A routine visit spots worn parts, low refrigerant, and airflow problems before they cascade into a failure, which is why so many summer emergency calls trace back to a missed tune-up.' },
+      { q: 'Does AC maintenance improve energy efficiency?', a: 'Yes. Clean coils, correct refrigerant levels, and unobstructed airflow let the system cool your home with less run time, which shows up as a lower monthly bill.' },
+      { q: 'What happens if I skip AC maintenance?', a: 'The system works harder to do the same job, so bills climb, cooling gets weaker, and small problems are left to grow until the compressor finally gives out years sooner than it should.' },
+      { q: 'Who should I call to maintain or extend the life of my AC unit?', a: 'A licensed HVAC professional. Our technicians handle tune-ups, repairs, and honest repair-versus-replace advice for homeowners across Cincinnati and the Tri-State — call (513) 586-5107.' },
+    ],
+  },
+  {
     slug: 'reasons-why-you-shouldnt-diy-electrical-work',
     title: "Reasons Why You Shouldn't DIY Electrical Work",
     category: 'Electrical',

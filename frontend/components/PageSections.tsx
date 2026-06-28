@@ -34,6 +34,18 @@ export default function PageSections({ hideMarquee = false }: { hideMarquee?: bo
   );
 }
 
+// Trimmed shared sections for BLOG pages only: just "Why Choose" and the
+// "Book Your Service Now! / Areas We Serve" block (with its zigzag top edge).
+export function BlogSections() {
+  return (
+    <>
+      <WhyChoose />
+      <TornEdge fill="#1f48c8" />
+      <BookAndAreas />
+    </>
+  );
+}
+
 /* ─────────────── Our Difference banner ─────────────── */
 export function OurDifferenceBanner() {
   return (
