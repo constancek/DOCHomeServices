@@ -26,6 +26,65 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: 'why-is-my-toilet-leaking',
+    title: 'Why Is My Toilet Leaking?',
+    category: 'Plumbing',
+    excerpt:
+      'Where the toilet leaks tells you what is wrong — water at the base means the wax ring, a constant run means the flapper or fill valve. How to find and fix it.',
+    date: '2026-06-29',
+    dateModified: '2026-06-29',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    image: '/blog/toilet-leaking-hero.jpg',
+    imageAlt: 'Water pooling around the base of a leaking toilet',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Where it leaks tells you the cause' }, ' — water at the base points to the wax ring; a constant trickle into the bowl points to the flapper or fill valve.'],
+          [{ strong: 'Most fixes are inexpensive parts' }, ' — a flapper, a fill valve, or a new wax ring.'],
+          [{ strong: 'A running toilet wastes a shocking amount of water' }, ' — up to 200 gallons a day, so it is worth fixing fast.'],
+          [{ strong: 'A leak at the base is the serious one' }, ' — it can rot the subfloor, so call for ', { link: 'plumbing repair', href: '/services/plumbing-repair/' }, ' if you are unsure.'],
+        ],
+      },
+      { kind: 'p', spans: ['A leaking toilet is almost always one of a few worn parts, and the location of the leak tells you which one. Water pooling around the base usually means the wax ring; a toilet that constantly runs or trickles into the bowl points to the flapper or fill valve inside the tank. The good news is that most of these are cheap parts and straightforward fixes.'] },
+      { kind: 'p', spans: ['Here is how to find where your toilet is leaking, what causes each type, and how to fix it.'] },
+
+      { kind: 'h2', text: 'Where Is the Leak Coming From?' },
+      { kind: 'p', spans: ['Before anything else, pin down the location. Water on the floor around the base is a different problem than a toilet you can hear running long after a flush. Base leaks point to the seal underneath; tank-to-bowl leaks point to the flapper or fill valve inside. Once you know which, the fix is usually clear.'] },
+      { kind: 'p', spans: ['One quick thing to rule out first: in humid weather, water on the floor is sometimes just condensation dripping off a cold tank, not a leak at all. Wipe the toilet dry and watch where the water actually returns — if it pools only at the base after a flush, it is a seal problem; if it beads all over the tank, it is sweating, which is a comfort fix rather than a repair.'] },
+
+      { kind: 'h2', text: 'The Wax Seal (Leaks at the Base)' },
+      { kind: 'p', spans: ['If water appears around the bottom of the toilet, the wax ring is the most likely culprit. This ring seals the connection between the toilet and the drain pipe in the floor, and over years it can dry out, crack, or compress until it no longer seals — letting water escape onto the floor every time you flush. The fix is replacing the wax ring, which means removing and resetting the toilet. It is doable for a confident DIYer but awkward, and a base leak left alone can rot the subfloor, so it is worth getting right.'] },
+
+      { kind: 'h2', text: 'The Flapper (a Toilet That Keeps Running)' },
+      { kind: 'p', spans: ['If the toilet runs constantly or cycles on its own, the flapper is the usual cause. The flapper is the rubber seal at the bottom of the tank that lifts when you flush and drops to hold water back. When it warps, wears, or sits crooked, water leaks past it into the bowl nonstop. A new flapper is one of the cheapest, easiest plumbing parts to replace and usually stops the running for good.'] },
+
+      { kind: 'h2', text: 'The Fill Valve (Overflow and Running Water)' },
+      { kind: 'p', spans: ['The fill valve refills the tank after a flush and shuts off at the right level. If the float is set too high or the valve fails, water keeps running and can spill into the overflow tube, so the toilet never stops filling. Adjusting the float to the correct level often solves it; if the valve itself is worn, replacing it does.'] },
+
+      { kind: 'h2', text: 'Find Hidden Leaks With Dye Tablets' },
+      { kind: 'p', spans: ['Not every leak is obvious. To check for a silent tank-to-bowl leak, drop a leak-detection dye tablet (or a few drops of food coloring) into the tank and wait about 15 minutes without flushing. If colored water shows up in the bowl, you have a flapper or seal leak quietly wasting water. It is a quick, cheap test that catches the leaks you cannot hear.'] },
+
+      { kind: 'h2', text: 'When to Call a Professional' },
+      { kind: 'p', spans: ['Many tank-part swaps are DIY-friendly, but call a plumber when the leak is at the base, when it continues after you have replaced the flapper or fill valve, when water is reaching the floor or subfloor, or when the toilet rocks or feels loose. A pro can reset the toilet, replace the wax ring, and confirm there is no hidden ', { link: 'water damage or further leak', href: '/services/leak-repair/' }, ' underneath. There is no shame in it — a base leak that soaks the floor costs far more than the repair.'] },
+
+      { kind: 'h2', text: 'Preventing Future Toilet Leaks' },
+      { kind: 'p', spans: ['A little attention goes a long way. Every few months, check the flapper and fill valve for wear, make sure the toilet is not rocking, and listen for the sound of running water that should not be there. Catching a worn flapper or a loosening base early keeps a cheap part from turning into a wasted-water bill or a damaged floor. The same habit pays off across your whole home, as our guide on ', { link: 'plumbing upgrades that add value', href: '/plumbing-upgrades-to-increase-home-value/' }, ' covers.'] },
+
+      { kind: 'h2', text: 'Stop the Leak With Degree of Comfort' },
+      { kind: 'p', spans: ['Whether it is a running tank or water pooling at the base, Degree of Comfort can find the source and fix it for good. We handle toilet and all other ', { link: 'plumbing', href: '/services/plumbing/' }, ' repairs for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Dealing with a leaky toilet? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'plumbing repair', href: '/services/plumbing-repair/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'How do I tell where my toilet is leaking from?', a: 'Look at where the water is. Water on the floor around the base points to a failed wax ring underneath. A toilet that constantly runs or trickles into the bowl points to the flapper or fill valve inside the tank. A dye tablet in the tank confirms a silent tank-to-bowl leak.' },
+      { q: 'How much water does a leaking or running toilet waste?', a: 'A lot more than people expect — a running toilet can waste up to 200 gallons a day, which adds up fast on your water bill. That is why even a quiet, constant trickle is worth fixing right away rather than ignoring.' },
+      { q: 'Can I fix a leaking toilet myself?', a: 'Often, yes. Replacing a worn flapper or adjusting the fill valve is an easy, inexpensive DIY. Replacing the wax ring at the base is doable but means pulling and resetting the toilet, and a base leak that has reached the floor is best left to a plumber.' },
+      { q: 'Is a leaking toilet a serious problem?', a: 'A running tank mainly wastes water, but a leak at the base is more serious — water reaching the subfloor can rot it and cause structural and mold damage over time. If you see water pooling at the base, address it promptly.' },
+      { q: 'Who should I call for a leaking toilet?', a: 'A licensed plumber, especially for a base leak or one that persists after replacing tank parts. Degree of Comfort repairs leaking toilets and handles all plumbing needs across the Tri-State, with upfront flat-rate pricing and a satisfaction guarantee — call (513) 586-5107.' },
+    ],
+  },
+  {
     slug: 'do-you-really-need-ac-maintenance-are-ac-tune-ups-worth-it',
     title: 'Do You Really Need AC Maintenance? Are AC Tune-Ups Worth It?',
     category: 'Cooling',
