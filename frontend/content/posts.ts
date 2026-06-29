@@ -26,6 +26,453 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: 'do-you-really-need-ac-maintenance-are-ac-tune-ups-worth-it',
+    title: 'Do You Really Need AC Maintenance? Are AC Tune-Ups Worth It?',
+    category: 'Cooling',
+    excerpt:
+      'Short answer: yes. A yearly tune-up costs a fraction of a repair and pays you back in lower bills and a longer-lasting system. Here is the honest cost-benefit.',
+    date: '2026-06-29',
+    dateModified: '2026-06-29',
+    readMinutes: 9,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/ac-maintenance-worth-it-hero.jpg',
+    imageAlt: 'HVAC technician performing a maintenance tune-up on an air conditioner',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Yes — annual AC maintenance is worth it' }, ' for almost every home, and it costs a fraction of the repairs it prevents.'],
+          [{ strong: 'A tune-up pays you back' }, ' in lower energy bills, fewer breakdowns, and a system that lasts years longer.'],
+          [{ strong: 'Schedule it once a year, ideally in spring' }, ' before the first heat wave loads the system up.'],
+          [{ strong: '“If it is not broken” is the costly myth' }, ' — the point of ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ' is to catch problems while they are still cheap to fix.'],
+        ],
+      },
+      { kind: 'p', spans: ['Yes — for almost every home, AC maintenance is worth it. A yearly tune-up costs a fraction of a single emergency repair, and it pays you back through lower energy bills, fewer breakdowns, and an air conditioner that lasts years longer. The homes that skip it are the ones making the expensive emergency calls in July.'] },
+      { kind: 'p', spans: ['Here is what AC maintenance actually involves, the real benefits, the myths worth busting, and an honest look at the cost versus the payoff.'] },
+
+      { kind: 'h2', text: 'What Is AC Maintenance?' },
+      { kind: 'p', spans: ['AC maintenance is a scheduled, professional inspection and service of your cooling system that keeps it running efficiently and catches small problems before they become failures. It is the difference between finding a weak part during a calm spring visit and discovering it when the system quits on the hottest afternoon of the year.'] },
+      { kind: 'h3', text: 'What a Tune-Up Includes' },
+      { kind: 'p', spans: ['A thorough tune-up covers the whole system: checking and replacing the air filter, cleaning the condenser and evaporator coils, testing electrical connections and the capacitor, inspecting the fan and blower, checking refrigerant levels and lines, clearing the condensate drain, and clearing debris from around the outdoor unit. The technician also confirms the system is cooling correctly and flags anything starting to wear so you can plan a fix on your terms.'] },
+
+      { kind: 'h2', text: 'The Benefits of Regular AC Maintenance' },
+      { kind: 'p', spans: ['The value adds up across the whole life of the system. The most immediate payoff is lower energy bills — a clean, properly charged system cools your home with less run time, so you feel the savings every month. Close behind is a longer lifespan: reducing wear and strain is what lets a unit reach the high end of its 10-to-15-year range instead of failing early.'] },
+      { kind: 'p', spans: ['Maintenance also improves your ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' through clean coils and a fresh filter, cuts repair costs by catching small issues before they cascade, keeps the system at peak cooling performance on the hottest days, and makes it far more reliable when you depend on it most. Our guide on ', { link: 'extending the life of your AC', href: '/how-to-extend-the-life-of-your-ac-unit/' }, ' digs deeper into that longevity payoff.'] },
+
+      { kind: 'h2', text: 'Common Misconceptions About AC Maintenance' },
+      { kind: 'p', spans: ['The biggest one is “if it is not broken, do not fix it.” With an air conditioner, that logic backfires — a system can be cooling fine while a dirty coil, low refrigerant, or a worn capacitor quietly drives up your bill and inches toward a failure. By the time it visibly breaks, the cheap fix is long gone. The other myth is that a newer or well-running unit does not need servicing; in reality, maintenance is what keeps it running well and protects the manufacturer warranty, which often requires annual professional service to stay valid.'] },
+
+      { kind: 'h2', text: 'AC Maintenance: DIY vs. Professional' },
+      { kind: 'p', spans: ['There is a real split here. You can and should handle the basics yourself — change the air filter every one to three months, keep the outdoor unit clear of leaves and debris, and make sure vents are open and unblocked. But the core of a tune-up needs a professional: checking refrigerant, testing electrical components, cleaning coils properly, and diagnosing wear takes training, tools, and safety know-how a homeowner does not have. Think of your DIY work as keeping the system clean between the professional visits that actually service it.'] },
+
+      { kind: 'h2', text: 'How Often Should You Get an AC Tune-Up?' },
+      { kind: 'p', spans: ['Once a year for most homes, ideally in spring before cooling season starts, so any problem is found and fixed before the heat arrives. Homes in very hot climates, or with pets and heavy use, can benefit from a second visit. If your system also doubles as a ', { link: 'heat pump', href: '/services/air-conditioning/' }, ' running year-round, twice-yearly service makes sense.'] },
+
+      { kind: 'h2', text: 'Cost vs. Benefit: Is It Really Worth It?' },
+      { kind: 'p', spans: ['Here is the honest math. A tune-up is a modest, predictable cost. Against it, weigh an emergency repair, a summer without cooling, higher monthly bills from an inefficient system, and a replacement that arrives years sooner than it should. Maintenance does not eliminate every repair, and we will not pretend it does — but it dramatically lowers the odds of the big, expensive ones, and the energy savings alone often cover much of the cost. For the rare case where a system is already failing, a tune-up is not a rescue, and we will tell you honestly when ', { link: 'replacement', href: '/should-i-replace-my-old-air-conditioner/' }, ' is the smarter spend. For everyone else, it is one of the better-value things you can do for your home.'] },
+      { kind: 'p', spans: ['One more way to think about it: many manufacturers require documented annual maintenance to keep the warranty valid, so skipping tune-ups can leave you paying full price for a repair that should have been covered. Between the warranty protection, the energy savings, and the breakdowns avoided, a tune-up tends to pay for itself well before the season is over.'] },
+
+      { kind: 'h2', text: 'Keep Your AC in Top Shape With Degree of Comfort' },
+      { kind: 'p', spans: ['If your air conditioner is due for a tune-up, Degree of Comfort can get it ready before the heat hits — and give you a straight answer on its condition. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Ready to schedule? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'Do you really need AC maintenance?', a: 'For almost every home, yes. Regular professional service prevents breakdowns, keeps energy bills down, and extends the system’s lifespan. Skipping it is what leads to the surprise failures and big repair bills during peak summer.' },
+      { q: 'Are AC tune-ups worth it?', a: 'They are. A yearly tune-up costs far less than an emergency repair and catches small problems early, improves cooling performance, and keeps the system efficient. The energy savings alone often offset much of the cost.' },
+      { q: 'What does AC maintenance include?', a: 'A full tune-up covers cleaning the coils, checking refrigerant levels and lines, testing electrical components and the capacitor, inspecting the fan and blower, clearing the condensate drain, replacing or checking the filter, and confirming the system cools correctly.' },
+      { q: 'How often do you need an AC tune-up?', a: 'Once a year for most homes, ideally in spring before the cooling season. Homes in very hot climates or with heavy use may benefit from a second visit, and a year-round heat pump should be serviced twice a year.' },
+      { q: 'Can AC maintenance lower energy bills?', a: 'Yes. Clean coils, correct refrigerant levels, and unobstructed airflow let the system cool your home with less run time, which shows up directly as a lower monthly bill compared with a neglected unit.' },
+      { q: 'What happens if you skip AC maintenance?', a: 'Dirt and wear build up, so the system cools less effectively, runs harder, and costs more to operate — and small issues grow into breakdowns. Over time, skipping maintenance shortens the unit’s life and leads to repairs that a tune-up would have prevented.' },
+      { q: 'Does AC maintenance extend system life?', a: 'It does. Keeping components clean and catching wear early reduces the strain that ages a system prematurely, which is why a well-maintained air conditioner often runs years longer than a neglected one.' },
+      { q: 'Who should perform AC maintenance?', a: 'A licensed HVAC professional, since proper service involves refrigerant, electrical, and diagnostics that require training and tools. Degree of Comfort handles AC tune-ups and honest repair-versus-replace advice across the Tri-State, with upfront, flat-rate pricing — call (513) 586-5107.' },
+    ],
+  },
+  {
+    slug: 'what-is-a-main-drain-cleanout-why-do-you-need-one',
+    title: 'What Is a Main Drain Cleanout? Why Do You Need One?',
+    category: 'Plumbing',
+    excerpt:
+      'A main drain cleanout is the capped access point to your sewer line — and the difference between a quick clog clearing and tearing into the house. Here is why it matters.',
+    date: '2026-06-29',
+    dateModified: '2026-06-29',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    image: '/blog/main-drain-cleanout-hero.jpg',
+    imageAlt: 'Plumber installing PVC sewer pipe and a main drain cleanout',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'A main drain cleanout is a capped access point' }, ' to your home’s main sewer line, used for inspecting, cleaning, and clearing blockages.'],
+          [{ strong: 'It saves time, money, and your floors' }, ' — a plumber can clear a clog through the cleanout instead of pulling a toilet or opening a wall.'],
+          [{ strong: 'It makes camera inspections and hydro jetting possible' }, ', so problems get found and fixed accurately.'],
+          [{ strong: 'No cleanout? It is worth installing one' }, ' — a quick ', { link: 'plumbing', href: '/services/plumbing/' }, ' job that pays off the first time you have a backup.'],
+        ],
+      },
+      { kind: 'p', spans: ['A main drain cleanout is a capped pipe that gives direct access to your home’s main sewer line. It is one of those features you never think about until a drain backs up — and then it becomes the difference between a plumber clearing the clog in minutes through the cleanout, or having to pull a toilet or open up the plumbing to reach the line.'] },
+      { kind: 'p', spans: ['Here is what a cleanout is, why it matters so much, how to find yours, and what to do if your home does not have one.'] },
+
+      { kind: 'h2', text: 'What Is a Main Drain Cleanout?' },
+      { kind: 'p', spans: ['Every drain in your home feeds into the main sewer line that carries waste out to the municipal sewer or your septic system. The cleanout is a capped opening into that line, installed specifically so a plumber can get in to inspect it, run a camera, and clear blockages. Without one, reaching the main line means going in through a fixture or, in the worst case, cutting into the pipe — slower, messier, and more expensive.'] },
+      { kind: 'h3', text: 'How to Find Yours' },
+      { kind: 'p', spans: ['A cleanout looks like a short, capped section of pipe — usually white PVC or older cast iron — with a threaded or square-topped cap. Look in the basement or crawlspace along the wall where the main line exits, in the yard between the house and the street, or near the foundation. In some homes it is in the garage or just outside an exterior wall. If you cannot find one anywhere, your home may not have an accessible one, which is worth addressing.'] },
+
+      { kind: 'h2', text: 'Why You Want a Cleanout' },
+      { kind: 'p', spans: ['The benefits all come down to fast, accurate, low-damage access to the line you most need to reach in an emergency.'] },
+      { kind: 'p', spans: ['It gives a plumber a direct entry point to clear a clog quickly, instead of working through a toilet or sink. It helps prevent sewage backups by making the line easy to maintain before a blockage gets bad. It lowers repair costs, since faster, less invasive work means a smaller bill and no torn-up floors or walls. And it makes advanced tools possible — a cleanout is what lets a plumber run a ', { link: 'sewer camera', href: '/services/sewer-repair-replacement/' }, ' or a hydro jet down the line for a thorough cleaning and an accurate diagnosis. If you have ever dealt with a ', { link: 'clogged main drain', href: '/how-do-you-know-if-your-main-drain-is-clogged/' }, ', you know how much that access is worth.'] },
+
+      { kind: 'h2', text: 'What If Your Home Does Not Have One?' },
+      { kind: 'p', spans: ['Some older homes were built without an accessible cleanout, which turns even a routine clog into a bigger, costlier job. If yours does not have one, installing a cleanout is a worthwhile ', { link: 'plumbing installation', href: '/services/plumbing-installation/' }, ' that pays for itself the first time you face a backup. A plumber can locate the main line and add an access point in the right spot, so future cleaning and inspections are quick and clean.'] },
+
+      { kind: 'h2', text: 'DIY vs. Professional Drain Cleaning' },
+      { kind: 'p', spans: ['A cleanout makes some minor maintenance more accessible, but the main sewer line is generally not DIY territory. A homeowner auger may reach a shallow clog, but a true main-line blockage — roots, grease, a collapsed pipe — needs the powered equipment and know-how a pro brings. Store-bought chemical cleaners rarely work on a main clog and can damage pipes. When the whole house is draining slowly or backing up, that is a job for ', { link: 'professional drain cleaning', href: '/services/drain-cleaning/' }, ', and a sewage backup is an ', { link: 'emergency plumbing', href: '/services/emergency-plumbing/' }, ' call.'] },
+      { kind: 'h3', text: 'The Value of a Camera Inspection' },
+      { kind: 'p', spans: ['The cleanout is also what makes a sewer camera inspection possible, and that is worth its weight. A camera pinpoints exactly where and what the blockage is, spots developing problems like root intrusion or a cracked pipe before they fail, confirms the pipe’s overall condition, and verifies the line is flowing freely after a cleaning. It turns guesswork into a clear picture — and gives you real peace of mind about what is happening underground.'] },
+
+      { kind: 'h2', text: 'Keeping Your Sewer Line Healthy' },
+      { kind: 'p', spans: ['A cleanout makes maintenance easy, but you still have to use it. For most homes, a professional cleaning or camera inspection every couple of years is plenty, and it is worth doing sooner if you have mature trees near the line, an older clay or cast-iron sewer, or a history of slow drains. Between visits, the everyday habits matter just as much: keep grease, wipes, and anything but toilet paper out of the drains, since those are what build up into a main-line clog over time. Catching a problem early through the cleanout is always cheaper than digging up a failed line later.'] },
+
+      { kind: 'h2', text: 'Protect Your Sewer Line With Degree of Comfort' },
+      { kind: 'p', spans: ['Whether you need a cleanout installed, a line cleared, or a camera inspection to see what is going on, Degree of Comfort can help. We handle ', { link: 'drain', href: '/services/drains/' }, ' and sewer service for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Want your sewer line checked or a cleanout installed? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ' and inspections, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'Where is my main drain cleanout located?', a: 'Look for a short capped pipe — usually white PVC or cast iron with a threaded or square cap — in the basement or crawlspace where the main line exits, in the yard between the house and the street, or near the foundation. Some homes have it in the garage or just outside an exterior wall.' },
+      { q: 'What does a main drain cleanout do?', a: 'It is a dedicated access point into your main sewer line. It lets a plumber inspect the line, run a camera, and clear blockages quickly without having to pull a fixture or open up the plumbing, which saves time, money, and your floors.' },
+      { q: 'What if my home does not have a cleanout?', a: 'Plenty of older homes were built without an accessible one, which makes any clog a bigger job. Installing a cleanout is a straightforward upgrade that pays for itself the first time you face a backup, since it makes future cleaning and inspections fast and far less invasive.' },
+      { q: 'Can I clear a clog through the cleanout myself?', a: 'You can sometimes reach a minor, shallow clog with a homeowner auger, but a true main-line blockage from roots, grease, or a damaged pipe needs professional equipment. Skip chemical drain cleaners on the main line, since they rarely work and can harm the pipes.' },
+      { q: 'Who should install or service a main drain cleanout?', a: 'A licensed plumber, who can place a new cleanout correctly and use a camera and hydro jetting to service the line. Degree of Comfort installs cleanouts and handles main drain and sewer service across the Tri-State, with upfront flat-rate pricing and a satisfaction guarantee — call (513) 586-5107.' },
+    ],
+  },
+  {
+    slug: 'why-is-my-faucet-dripping-how-to-fix-a-leaky-faucet',
+    title: 'Why Is My Faucet Dripping? How to Fix a Leaky Faucet',
+    category: 'Plumbing',
+    excerpt:
+      'That drip is almost always a cheap worn part — a washer, O-ring, or valve seat. What causes it, how to fix it yourself, and when to call a plumber.',
+    date: '2026-06-29',
+    dateModified: '2026-06-29',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    image: '/blog/leaky-faucet-hero.jpg',
+    imageAlt: 'Hands using a wrench to repair a dripping bathroom faucet',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'A drip is almost always a cheap worn part' }, ' — a washer, an O-ring, or a corroded valve seat.'],
+          [{ strong: 'The fix depends on your faucet type' }, ' — compression, cartridge, ball, and disc faucets fail in different ways.'],
+          [{ strong: 'Many leaks are a doable DIY' }, ' — shut off the water, then tighten or replace the worn part.'],
+          [{ strong: 'It is worth fixing fast' }, ' — a steady drip wastes thousands of gallons a year, so call for ', { link: 'faucet repair', href: '/services/faucet-repair-replacement/' }, ' if the DIY does not hold.'],
+        ],
+      },
+      { kind: 'p', spans: ['A dripping faucet is almost always a small, inexpensive part that has worn out — a rubber washer, an O-ring, or a corroded valve seat. The drip looks minor, but it wastes a surprising amount of water and only gets worse, so it is worth fixing sooner rather than later. The right fix depends on which part failed and what type of faucet you have.'] },
+      { kind: 'p', spans: ['Here is what makes a faucet drip, how to fix it yourself, and when it is time to call a plumber.'] },
+
+      { kind: 'h2', text: 'What a Dripping Faucet Really Costs' },
+      { kind: 'p', spans: ['It is easy to tune out a drip, but it adds up in ways worth knowing. A faucet dripping about once per second wastes more than 3,000 gallons of water a year — water you are paying for and never use. Beyond the bill, the constant moisture leaves mineral stains and rust spots in the sink, and the underlying wear only gets worse, so a slow drip today becomes a steady stream and a pricier repair later. Fixing it early is the cheap, easy path.'] },
+
+      { kind: 'h2', text: 'Why Is Your Faucet Dripping?' },
+      { kind: 'p', spans: ['Track the drip to one of these causes and the fix becomes clear.'] },
+      { kind: 'h3', text: 'A Worn-Out Washer' },
+      { kind: 'p', spans: ['The most common culprit, especially in older faucets. Every time you turn the tap, the rubber washer presses against the valve seat, and over years of friction it wears down, hardens, or tears until it can no longer seal. Replacing it is cheap and usually stops the drip.'] },
+      { kind: 'h3', text: 'A Damaged O-Ring' },
+      { kind: 'p', spans: ['The O-ring is a small rubber ring that seals the faucet handle. As it ages it dries out, loosens, or cracks, which often shows up as a drip or leak right around the base of the handle rather than the spout.'] },
+      { kind: 'h3', text: 'A Corroded Valve Seat' },
+      { kind: 'p', spans: ['The valve seat connects the faucet to the spout, and minerals and sediment in the water build up and corrode it over time. A corroded seat will not seal against the washer, so the faucet keeps dripping even after a new washer goes in. It needs to be cleaned or replaced.'] },
+      { kind: 'h3', text: 'Improperly Installed Parts' },
+      { kind: 'p', spans: ['Sometimes the issue is not wear but a part that was never seated right — a washer the wrong size, a loosely tightened nut, or a fitting installed incorrectly. A leak that started right after a repair often points here.'] },
+      { kind: 'h3', text: 'Know Your Faucet Type' },
+      { kind: 'p', spans: ['There are four common types, and they fail differently. Compression faucets (separate hot and cold handles) rely on washers and are the most drip-prone. Cartridge, ball, and disc faucets are washerless and usually leak from a worn cartridge, O-rings, or seals instead. Knowing which you have tells you what part to look at — and is why a one-size repair does not exist.'] },
+
+      { kind: 'h2', text: 'How to Fix a Leaky Faucet' },
+      { kind: 'p', spans: ['For a confident DIYer, many faucet drips are a manageable job. Before anything else, turn off the water at the shutoff valves under the sink and open the tap to release pressure, then plug the drain so small parts cannot fall in.'] },
+      { kind: 'p', spans: ['From there, the fix follows the cause. If the leak is around the handle and the packing nut is simply loose, snug it up — sometimes that is all it takes. If a compression faucet has a worn washer, remove the handle and stem and swap in a matching replacement. If the O-rings are dried or cracked, replace them with the exact same size, since an O-ring that is even slightly off will leak again. And if the valve seat is corroded, clean it with a seat wrench or have it replaced, because a new washer will not seal against a pitted seat.'] },
+      { kind: 'p', spans: ['Reassemble in the reverse order, turn the water back on slowly, and test. A good habit is to lay the parts out in the order you removed them so reassembly is straightforward, and to take a photo before you start.'] },
+
+      { kind: 'h2', text: 'When to Call a Professional' },
+      { kind: 'p', spans: ['Plenty of drips are DIY-friendly, but call a plumber when the leak continues after you have replaced the obvious parts, when you cannot pin down where it is coming from, when the valve seat or cartridge is seized or corroded badly, or when an older faucet is simply worn out and due for replacement. A pro can also tell you when a ', { link: 'repair', href: '/services/plumbing-repair/' }, ' makes sense versus a new fixture. There is no shame in it — chasing a stubborn leak yourself can cost more in wasted water and a damaged faucet than the repair would.'] },
+
+      { kind: 'h2', text: 'Stop the Drip With Degree of Comfort' },
+      { kind: 'p', spans: ['If the drip will not quit or you would rather not take the faucet apart, Degree of Comfort can fix or replace it fast. We handle ', { link: 'faucet repair and replacement', href: '/services/faucet-repair-replacement/' }, ' and all other ', { link: 'plumbing', href: '/services/plumbing/' }, ' needs for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Tired of the drip? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'faucet repair', href: '/services/faucet-repair-replacement/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'How much water does a dripping faucet waste?', a: 'More than you would think. A faucet dripping about once per second wastes over 3,000 gallons a year, which shows up on your water bill. That is why even a slow drip is worth fixing rather than living with.' },
+      { q: 'Can I fix a leaky faucet myself?', a: 'Often, yes. Many drips come down to a worn washer, O-ring, or corroded valve seat that a confident DIYer can replace after shutting off the water under the sink. If the leak persists after that, or the parts are seized, it is time to call a plumber.' },
+      { q: 'Why is my faucet still dripping after I replaced the washer?', a: 'Usually the valve seat is corroded so the new washer cannot seal against it, or your faucet is a washerless type where the real problem is a worn cartridge or O-ring. The valve seat needs cleaning or replacing, or the faucet needs a different repair than a washer.' },
+      { q: 'Is a dripping faucet an emergency?', a: 'No, a drip is not an emergency, but it is not something to ignore either. It wastes water daily and tends to worsen, and the constant moisture can stain the sink and wear the fixture. Fixing it promptly is the cheaper path.' },
+      { q: 'When should I call a plumber for a dripping faucet?', a: 'Call when the leak continues after replacing the obvious parts, you cannot find the source, the valve seat or cartridge is badly corroded, or an old faucet is worn out. Degree of Comfort repairs and replaces faucets across the Tri-State with upfront, flat-rate pricing and a satisfaction guarantee — call (513) 586-5107.' },
+    ],
+  },
+  {
+    slug: 'plumbing-upgrades-to-increase-home-value',
+    title: 'Plumbing Upgrades to Increase Home Value',
+    category: 'Plumbing',
+    excerpt:
+      'The plumbing upgrades that actually move the needle on resale — water heaters, water quality, fixtures, and pipes — and which ones are worth doing first.',
+    date: '2026-06-29',
+    dateModified: '2026-06-29',
+    readMinutes: 9,
+    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    image: '/blog/plumbing-upgrades-hero.jpg',
+    imageAlt: 'Plumber installing a new toilet during a home plumbing upgrade',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'The upgrades that move the needle' }, ' are a modern water heater, better water quality, updated fixtures, and sound pipes.'],
+          [{ strong: 'Buyers pay for peace of mind' }, ' — new plumbing signals lower risk of leaks, lower bills, and less to fix after closing.'],
+          [{ strong: 'Eco-friendly touches add appeal' }, ' — low-flow fixtures and a tankless heater cut utility costs and draw efficiency-minded buyers.'],
+          [{ strong: 'Professional installation protects the value' }, ' — permitted, code-compliant ', { link: 'plumbing', href: '/services/plumbing/' }, ' work is what holds up at inspection.'],
+        ],
+      },
+      { kind: 'p', spans: ['The plumbing upgrades that actually raise home value are the ones buyers notice and inspectors reward: a modern water heater, clean water, updated fixtures, and pipes that will not leak. Done right, they pay you back in resale value and a faster sale — and you get to enjoy them while you live there.'] },
+      { kind: 'p', spans: ['Here are the upgrades worth making, why they matter to buyers, and which ones to prioritize.'] },
+
+      { kind: 'h2', text: 'How Plumbing Upgrades Raise Home Value' },
+      { kind: 'p', spans: ['Plumbing is one of those systems buyers do not think about until something is wrong — so when it is clearly updated, it removes a worry rather than adding a feature. Modern plumbing lowers the risk of a costly leak or water-damage disaster, reduces maintenance and utility costs, and simply looks cared for. That combination of reliability and lower cost of ownership is what nudges an offer up and shortens the time a home sits on the market.'] },
+      { kind: 'p', spans: ['Two areas carry the most weight. Kitchens and bathrooms are where buyers focus and where dated plumbing is most visible, so updates there pay back the most per dollar. And the invisible systems — the water heater, the pipes — are what an inspector scrutinizes and what can become a negotiating point or a deal-breaker. Upgrades that strengthen both the look and the bones of the home are the ones that hold their value at appraisal.'] },
+
+      { kind: 'h2', text: 'Install a Modern Water Heater' },
+      { kind: 'p', spans: ['The water heater is one of the highest-impact upgrades. A new unit reassures buyers they will not be replacing it soon, and a ', { link: 'tankless water heater', href: '/services/tankless-water-heater/' }, ' goes further — endless hot water, lower energy bills, and a 20-plus-year lifespan are real selling points. If you are weighing the switch, our guide on ', { link: 'whether a tankless is worth it', href: '/is-it-worth-it-to-switch-to-a-tankless-water-heater/' }, ' breaks down the trade-offs.'] },
+
+      { kind: 'h2', text: 'Add a Water Softener or Filtration System' },
+      { kind: 'p', spans: ['In hard-water areas like Greater Cincinnati, a ', { link: 'water softener or whole-home filtration system', href: '/services/water-quality/' }, ' is a meaningful upgrade. It protects appliances and pipes from scale, improves how the water feels and tastes, and signals to buyers that the home has been well maintained. If you are not sure whether you have hard water, the ', { link: 'common signs', href: '/signs-your-home-may-have-hard-water/' }, ' are easy to spot.'] },
+
+      { kind: 'h2', text: 'Replace Outdated Fixtures' },
+      { kind: 'p', spans: ['Faucets, showerheads, and toilets are the plumbing buyers actually see and touch, so dated or worn ', { link: 'fixtures', href: '/services/faucet-repair-replacement/' }, ' drag down the impression of an otherwise nice kitchen or bath. Swapping them for clean, modern fixtures is a relatively inexpensive update that makes the key rooms feel current.'] },
+      { kind: 'h3', text: 'Eco-Friendly Options Buyers Love' },
+      { kind: 'p', spans: ['While you are updating fixtures, lean toward water-saving ones. Low-flow faucets and showerheads and dual-flush toilets cut water use and lower the utility bill, which appeals to the growing number of buyers who factor efficiency and running costs into their decision.'] },
+
+      { kind: 'h2', text: 'Upgrade Aging Pipes' },
+      { kind: 'p', spans: ['It is behind the walls, but it matters. Old galvanized or worn piping is prone to corrosion, low pressure, and leaks, and a savvy buyer (or their inspector) will flag it. Updating to modern piping — or a full ', { link: 'whole-house repipe', href: '/services/whole-house-repiping/' }, ' in an older home — establishes reliable infrastructure that reassures buyers the home will not spring a leak the year after they move in.'] },
+
+      { kind: 'h2', text: 'Stay on Top of Your Drains' },
+      { kind: 'p', spans: ['Slow or recurring drain problems read as deferred maintenance, exactly what buyers fear. Keeping drains clear with regular ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ' — and addressing any ', { link: 'main-line clog', href: '/how-do-you-know-if-your-main-drain-is-clogged/' }, ' before it becomes a backup — keeps small issues from turning into red flags during inspection.'] },
+
+      { kind: 'h2', text: 'Do Not Overlook the HVAC' },
+      { kind: 'p', spans: ['Plumbing and comfort go hand in hand in a buyer’s mind. An efficient, well-maintained ', { link: 'heating', href: '/services/heating/' }, ' and ', { link: 'cooling', href: '/services/air-conditioning/' }, ' system rounds out the picture of an updated, move-in-ready home, and pairs naturally with the energy savings your plumbing upgrades deliver.'] },
+
+      { kind: 'h2', text: 'Where to Start' },
+      { kind: 'p', spans: ['You do not need to do all of this at once. If you are on a budget or short on time, start with anything that is actively failing or would scare a buyer — an old water heater near the end of its life, visible leaks, or corroded pipes. After that, the inexpensive, high-impact cosmetic updates like fixtures give you the most visible return. Bigger projects like a repipe or a tankless conversion make the most sense if you plan to stay a while and enjoy them, or if the existing system is already due. When in doubt, an honest assessment from a plumber will tell you which upgrades are worth it for your home and which are not.'] },
+
+      { kind: 'h2', text: 'Why Professional Installation Matters' },
+      { kind: 'p', spans: ['Here is the honest part: a DIY or unpermitted upgrade can hurt value instead of helping it. Work that is not up to code, or done without the proper permits, gets flagged at inspection and can stall or sink a sale. Professional, permitted installation is what makes these upgrades count — it protects the investment, holds up under scrutiny, and comes with the documentation buyers and appraisers want to see.'] },
+
+      { kind: 'h2', text: 'Add Value With Degree of Comfort' },
+      { kind: 'p', spans: ['Whether you are preparing to sell or just want a home that runs better, Degree of Comfort can handle the plumbing upgrades that pay off — water heaters, water quality, fixtures, repipes, and more. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Ready to invest in your home? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'plumbing', href: '/services/plumbing/' }, ' upgrades, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'Which plumbing upgrades add the most home value?', a: 'A modern or tankless water heater, a water softener or filtration system, updated fixtures, and sound, leak-free pipes tend to deliver the most. They lower a buyer’s risk and running costs, which is what raises offers and speeds up a sale.' },
+      { q: 'Does a tankless water heater increase home value?', a: 'It can. Buyers see endless hot water, lower energy bills, and a long lifespan as a real upgrade over an aging tank. It is also a clear sign the home has been kept current, which helps at resale.' },
+      { q: 'Are plumbing upgrades worth it before selling a house?', a: 'Often, yes, for the upgrades buyers and inspectors notice — a failing water heater, outdated fixtures, or old pipes that would otherwise become negotiating points. A pro can tell you which upgrades will pay off for your home and which are not worth it before a sale.' },
+      { q: 'Do plumbing upgrades require permits?', a: 'Many do, especially water heater replacements, repipes, and anything that alters the system. Permitted, code-compliant work is important because unpermitted upgrades get flagged at inspection and can hurt a sale rather than help it.' },
+      { q: 'Who should install plumbing upgrades?', a: 'A licensed plumber, so the work is code-compliant, permitted, and documented — exactly what protects the value at resale. Degree of Comfort handles value-adding plumbing upgrades across the Tri-State with upfront, flat-rate pricing and a satisfaction guarantee.' },
+    ],
+  },
+  {
+    slug: 'what-are-the-benefits-of-having-an-air-purifier',
+    title: 'What Are the Benefits of Having an Air Purifier?',
+    category: 'Home Tips',
+    excerpt:
+      'Cleaner air you can actually feel — fewer allergy triggers, better sleep, and neutralized odors. What an air purifier does, and whether one is worth it.',
+    date: '2026-06-29',
+    dateModified: '2026-06-29',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/air-purifier-benefits-hero.jpg',
+    imageAlt: 'Air purifier running in a clean, comfortable living room',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'An air purifier removes the pollutants you cannot see' }, ' — dust, pollen, pet dander, mold spores, and smoke.'],
+          [{ strong: 'The benefits you actually feel' }, ' are fewer allergy and asthma triggers, better sleep, and neutralized odors.'],
+          [{ strong: 'A true HEPA filter captures up to 99.97 percent' }, ' of particles as small as 0.3 microns.'],
+          [{ strong: 'A whole-home unit on your HVAC beats a portable' }, ' for treating every room — best installed as part of your ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' setup.'],
+        ],
+      },
+      { kind: 'p', spans: ['An air purifier removes the airborne pollutants you cannot see — dust, pollen, pet dander, mold spores, and smoke — and the benefits show up fast: fewer allergy and asthma triggers, better sleep, and a home that simply smells cleaner. For households with allergies, pets, or anyone sensitive to air quality, one is usually well worth it.'] },
+      { kind: 'p', spans: ['Here is what an air purifier actually does, the benefits worth knowing, and how to tell whether one makes sense for your home.'] },
+
+      { kind: 'h2', text: 'The Invisible Threat Inside Your Home' },
+      { kind: 'p', spans: ['It surprises people, but indoor air is often more polluted than the air outside. Everyday activities — cooking, cleaning, pets, even new furniture and carpet — release particles and chemicals that build up in a closed-up home. Because we spend most of our time indoors, that air adds up, and the effects range from minor irritation like itchy eyes and sneezing to aggravated asthma and longer-term respiratory issues.'] },
+
+      { kind: 'h2', text: 'Why Indoor Air Quality Matters' },
+      { kind: 'p', spans: ['Air quality is not just a comfort issue. Poor indoor air can trigger and worsen asthma and allergies, disrupt sleep, and leave you feeling run down, and there is growing evidence it affects focus and mood too. For children, older adults, and anyone with a respiratory condition, the air at home has a real, daily impact on how they feel — which is why managing your ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' is worth taking seriously.'] },
+
+      { kind: 'h2', text: 'The Benefits of a Home Air Purifier' },
+      { kind: 'p', spans: ['An air purifier pulls air through one or more filters, traps the contaminants, and returns cleaner air to the room. Here is what that does for you.'] },
+      { kind: 'h3', text: 'Fewer Health Hazards' },
+      { kind: 'p', spans: ['A HEPA filter captures the allergens that trigger most reactions — pollen, dust mites, pet dander, and mold spores. Pulling those out of the air means fewer sneezes, less congestion, and easier breathing, especially for allergy and asthma sufferers.'] },
+      { kind: 'h3', text: 'Better Sleep' },
+      { kind: 'p', spans: ['Breathing cleaner air at night means less nighttime congestion and coughing, which translates to deeper, more restful sleep. Better sleep, in turn, supports a stronger immune system, so the benefit compounds.'] },
+      { kind: 'h3', text: 'Neutralized Odors and Chemicals' },
+      { kind: 'p', spans: ['Many purifiers add an activated carbon filter that absorbs odors and chemical fumes a HEPA filter alone cannot — cooking smells, pet odor, smoke, and the off-gassing from cleaners and new materials. The result is a home that smells fresh, not just one with fewer particles.'] },
+      { kind: 'h3', text: 'Long-Term Respiratory Health' },
+      { kind: 'p', spans: ['Reducing your daily exposure to airborne irritants is not only about comfort today. Consistently cleaner air lowers the cumulative strain on your lungs, which supports long-term respiratory health for everyone in the home.'] },
+
+      { kind: 'h2', text: 'What an Air Purifier Will Not Do' },
+      { kind: 'p', spans: ['It is worth being honest about the limits, because an air purifier is not a cure-all. It cleans the air, but it will not remove mold already growing on a surface or fix the moisture problem feeding it — that needs to be cleaned and dried at the source. It does not replace regular dusting and vacuuming, and it cannot do much in a drafty, poorly sealed home that is constantly pulling in unfiltered outside air. And a cheap unit without a true HEPA filter, or one too small for the room, will not deliver much benefit at all. Think of a purifier as one strong layer of a healthy home, not the whole answer.'] },
+
+      { kind: 'h2', text: 'Are Air Purifiers Worth It?' },
+      { kind: 'p', spans: ['For most homes with allergies, pets, smokers, or air-quality concerns, yes. The key is choosing the right type and size, and matching it to how your home is set up.'] },
+      { kind: 'h3', text: 'Filter Types and What They Do' },
+      { kind: 'p', spans: ['A true HEPA filter is the standard worth looking for — it captures up to 99.97 percent of particles as small as 0.3 microns, which covers most allergens. An activated carbon filter handles odors and chemicals. The best systems pair both, and they work alongside your regular HVAC filter rather than replacing it, so keeping up with ', { link: 'furnace filter changes', href: '/how-often-should-i-change-my-furnace-filter/' }, ' still matters.'] },
+      { kind: 'h3', text: 'Size and Placement' },
+      { kind: 'p', spans: ['A purifier only works if it is matched to the space. A small portable unit is fine for a single bedroom, but to clean the air in your whole home, a whole-home purifier installed on your HVAC system is far more effective — it treats every cubic foot of air the system circulates instead of one room at a time. That install should be sized and done by a professional to integrate correctly.'] },
+      { kind: 'h3', text: 'Filter Changes and Upkeep' },
+      { kind: 'p', spans: ['Like any filtration, a purifier is only as good as its filters. HEPA and carbon filters load up over time and need replacing on the manufacturer’s schedule — typically every several months to a year depending on the model and your air. A clogged filter chokes airflow and stops cleaning the air, so factor the ongoing filter cost into the decision. A whole-home unit usually needs less hands-on attention than juggling several portables, which is part of its appeal.'] },
+
+      { kind: 'h2', text: 'Breathe Easier With Degree of Comfort' },
+      { kind: 'p', spans: ['If dust, allergies, odors, or stuffy air are wearing on your household, a whole-home air purifier is one of the most worthwhile upgrades you can make. Degree of Comfort can assess your air quality and recommend, size, and install the right ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' solution for your home. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Ready to clear the air? Call ', { strong: '(513) 586-5107' }, ', ask about a whole-home air purifier, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'What are the benefits of having an air purifier?', a: 'An air purifier removes airborne pollutants like dust, pollen, pet dander, mold spores, and smoke, which means fewer allergy and asthma triggers, better sleep, neutralized odors, and support for long-term respiratory health. A whole-home unit on your HVAC protects every room.' },
+      { q: 'Do air purifiers help with allergies?', a: 'Yes. A HEPA filter captures the pollen, dust mites, and pet dander that set off most allergy symptoms, so pulling them from the air reduces sneezing, congestion, and irritation, especially during allergy season.' },
+      { q: 'Can an air purifier help with mold?', a: 'It helps by trapping airborne mold spores before they spread and settle, which lowers your exposure. It will not remove existing mold growth on surfaces, though — that needs to be cleaned and the moisture source fixed.' },
+      { q: 'How long does it take to notice the benefits of an air purifier?', a: 'Many people notice cleaner-feeling air and fewer symptoms within a few days to a couple of weeks, depending on the starting air quality, the size of the space, and the type of system.' },
+      { q: 'Are air purifiers safe to run all the time?', a: 'Yes. Air purifiers are designed for continuous operation, and running one around the clock keeps the air consistently clean. A whole-home unit simply works whenever your HVAC system moves air.' },
+      { q: 'Do whole-home air purifiers work better than portable units?', a: 'For treating an entire home, yes. A whole-home purifier integrates with your HVAC and cleans all the air the system circulates, while a portable unit only handles the room it is in. Portables are a fine fit for a single bedroom or office.' },
+      { q: 'Can air purifiers reduce odors?', a: 'Yes, when they include an activated carbon filter. Carbon absorbs odors and chemical fumes from cooking, pets, smoke, and cleaning products that a particle filter alone cannot catch.' },
+      { q: 'Who should install an air purifier?', a: 'A portable unit you can set up yourself, but a whole-home purifier should be installed by a licensed HVAC professional so it integrates correctly with your system and is sized to your home. Degree of Comfort installs and services whole-home air quality systems across the Tri-State with upfront, flat-rate pricing.' },
+    ],
+  },
+  {
+    slug: 'how-do-you-know-if-your-main-drain-is-clogged',
+    title: 'How Do You Know If Your Main Drain Is Clogged?',
+    category: 'Plumbing',
+    excerpt:
+      'The giveaway is more than one drain acting up at once. The warning signs of a clogged main sewer line, what causes it, and when to call before it backs up.',
+    date: '2026-06-29',
+    dateModified: '2026-06-29',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    image: '/blog/main-drain-clogged-hero.jpg',
+    imageAlt: 'Plumber inspecting a home main drain and sewer cleanout',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'The big tell is more than one drain acting up at once' }, ' — a single slow sink is a local clog, but multiple fixtures mean the main line.'],
+          [{ strong: 'Watch for gurgling, backups, and odors' }, ' — toilets bubbling, water rising in the tub when you run the sink, or a sewer smell indoors.'],
+          [{ strong: 'Tree roots, grease, debris, and broken pipes' }, ' are the usual causes of a main sewer line clog.'],
+          [{ strong: 'A main drain clog is not a DIY job' }, ' — stop running water and call for ', { link: 'professional drain cleaning', href: '/services/drain-cleaning/' }, ' before it backs up into the house.'],
+        ],
+      },
+      { kind: 'p', spans: ['The clearest sign a main drain is clogged is more than one fixture acting up at the same time. A single slow sink is usually a local clog you can clear. But when multiple drains run slow, toilets gurgle, or water backs up in odd places, the blockage is in the main line that carries everything out of your home — and that needs attention before it becomes a sewage backup.'] },
+      { kind: 'p', spans: ['Here is what the main drain is, the warning signs it is clogged, what causes it, and what to do about it.'] },
+
+      { kind: 'h2', text: 'What Is the Main Drain?' },
+      { kind: 'p', spans: ['Every sink, toilet, tub, and appliance in your home empties into one central pipe — the main drain, or main sewer line — that carries the waste out to the municipal sewer or your septic system. Because everything funnels through this one line, a clog here does not affect just one room. It backs up the entire house, which is exactly why a main drain clog is more serious than a slow bathroom sink.'] },
+
+      { kind: 'h2', text: 'Signs Your Main Drain Is Clogged' },
+      { kind: 'p', spans: ['Any one of these on its own might be a local issue. Two or more together point to the main line.'] },
+      { kind: 'h3', text: 'Multiple Slow Drains' },
+      { kind: 'p', spans: ['If the sinks, tub, and toilet are all draining slowly at once, the problem is almost certainly the main line rather than each individual fixture. This is the single most reliable sign.'] },
+      { kind: 'h3', text: 'Gurgling Sounds' },
+      { kind: 'p', spans: ['Hearing a toilet bubble or a drain gurgle when you run water elsewhere means air is trapped by a blockage downstream. That trapped air is the main line struggling to move waste past a clog.'] },
+      { kind: 'h3', text: 'Sewage Backups' },
+      { kind: 'p', spans: ['Waste or dirty water coming back up through the lowest drains in your home — often a basement floor drain or a first-floor toilet — is a serious warning. A backup is both a health hazard and a sign the main line is badly blocked, and it calls for ', { link: 'emergency plumbing', href: '/services/emergency-plumbing/' }, ' help.'] },
+      { kind: 'h3', text: 'Foul Odors' },
+      { kind: 'p', spans: ['A persistent sewage smell coming from your drains means waste is sitting in the line instead of flowing out. If you can smell sewer gas indoors, the main drain is not clearing the way it should.'] },
+      { kind: 'h3', text: 'Water Backing Up in Odd Places' },
+      { kind: 'p', spans: ['Flush a toilet and water rises in the tub, or run the washing machine and the floor drain overflows? When using one fixture pushes water out of another, that cross-talk is a classic main-line clog forcing water to find another way out.'] },
+
+      { kind: 'h2', text: 'What Causes Main Drain Clogs' },
+      { kind: 'p', spans: ['Knowing the cause helps explain why a main clog often needs professional equipment to clear.'] },
+      { kind: 'h3', text: 'Tree Roots' },
+      { kind: 'p', spans: ['Roots are drawn to the water and nutrients in sewer lines and work their way in through tiny cracks or joints, then grow until they choke the pipe. They are one of the most common causes of main line clogs in older homes, and clearing them usually takes a powered auger or hydro jetting.'] },
+      { kind: 'h3', text: 'Grease and Debris Buildup' },
+      { kind: 'p', spans: ['Grease poured down the drain hardens and coats the pipe, catching food scraps, hair, and other debris until flow narrows to nothing. So-called flushable wipes are a frequent culprit too — they do not break down the way toilet paper does.'] },
+      { kind: 'h3', text: 'Broken or Collapsed Pipes' },
+      { kind: 'p', spans: ['Older pipes can crack, sag, or collapse with age and ground shifting, which traps waste and blocks the line. This kind of damage often needs a camera inspection to confirm and may call for ', { link: 'sewer repair or replacement', href: '/services/sewer-repair-replacement/' }, ' rather than a simple cleaning.'] },
+      { kind: 'h3', text: 'Foreign Objects' },
+      { kind: 'p', spans: ['Toys, hygiene products, and anything else that should not go down a drain can lodge in the main line and snag everything behind it. Once an object is wedged in the main line, it almost always takes a professional to retrieve.'] },
+
+      { kind: 'h2', text: 'What to Do About a Clogged Main Drain' },
+      { kind: 'p', spans: ['If the signs point to the main line, act in this order. First, stop running water — turn off faucets, hold off on flushing, and do not run the dishwasher or washer, since every gallon you add has nowhere to go and risks a backup. Next, confirm the scope by checking whether multiple fixtures are affected, which tells you it is the main line and not one drain. You can try the basics on a single slow drain — hot water, a plunger, a hand auger — but for a true main-line clog, skip the chemical drain cleaners, which rarely work on a main blockage and can damage pipes. Then call a professional. A plumber has the camera to find the blockage and the powered auger or hydro-jetting equipment to clear it safely, which is what ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ' on the main line really requires.'] },
+
+      { kind: 'h2', text: 'How to Prevent Main Drain Clogs' },
+      { kind: 'p', spans: ['Most main clogs build up over time, so prevention works. Schedule periodic professional ', { link: 'drain', href: '/services/drains/' }, ' cleaning if your home is prone to clogs, especially with mature trees on the property. Mind what goes down the drain — no grease, no wipes, and nothing but toilet paper down the toilet. Consider a backwater valve, which stops sewage from flowing back into your home during a municipal backup. And keep an eye on trees near your sewer line, since roots are a leading cause of trouble.'] },
+
+      { kind: 'h2', text: 'Keep Your Plumbing Flowing With Degree of Comfort' },
+      { kind: 'p', spans: ['A clogged main drain only gets worse and messier the longer it waits. Degree of Comfort can locate the blockage with a camera, clear it with the right equipment, and handle any ', { link: 'sewer line repair', href: '/services/sewer-repair-replacement/' }, ' the inspection turns up. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Seeing the warning signs? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'How do I know if it is my main drain or just one fixture?', a: 'Check how many drains are affected. A single slow or clogged sink is a local problem. When multiple fixtures act up at once — slow drains, gurgling toilets, or water backing up when you use another fixture — the blockage is in the main line that serves the whole house.' },
+      { q: 'Can I clear a main drain clog myself?', a: 'A main-line clog is generally not a DIY fix. A plunger or hand auger can clear a single fixture, but the main line needs a camera to locate the blockage and a powered auger or hydro jetting to clear it. Avoid chemical drain cleaners, which rarely work on a main clog and can damage pipes.' },
+      { q: 'How do plumbers clear a clogged main drain?', a: 'A plumber typically runs a camera down the line to find the blockage, then clears it with a motorized auger or high-pressure hydro jetting. If the camera shows cracked, collapsed, or root-invaded pipe, the fix may be a repair or replacement rather than just a cleaning.' },
+      { q: 'How much does it cost to clear a main sewer line?', a: 'It depends on the cause, the severity, and whether the pipe is damaged, so the range is wide. A camera inspection and a free estimate give you a real number before any work starts. Degree of Comfort uses upfront, flat-rate pricing, so you know the cost before we begin.' },
+      { q: 'Who should I call for a clogged main drain?', a: 'A licensed plumber with main-line equipment, not a handyman or a bottle of drain cleaner. Degree of Comfort handles main drain and sewer cleaning, camera inspections, and repairs across the Tri-State, with upfront flat-rate pricing and a satisfaction guarantee — call (513) 586-5107.' },
+    ],
+  },
+  {
+    slug: '5-reasons-why-your-air-conditioner-smells-bad',
+    title: '5 Reasons Why Your Air Conditioner Smells Bad',
+    category: 'Cooling',
+    excerpt:
+      'Musty, rotten, chemical, or burning — the smell coming from your AC tells you exactly what is wrong. Here are the five usual causes and how to fix each.',
+    date: '2026-06-29',
+    dateModified: '2026-06-29',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/ac-smells-bad-hero.jpg',
+    imageAlt: 'Two HVAC technicians servicing a wall-mounted air conditioner',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'The smell tells you the cause' }, ' — musty points to mold, rotten to pests, chemical to refrigerant, and burning to electrical.'],
+          [{ strong: 'The easy ones you can handle' }, ' — a musty or stale smell is often just a dirty filter or moisture you can clear.'],
+          [{ strong: 'The serious ones need a pro fast' }, ' — a burning or chemical odor means you should shut the system off and call.'],
+          [{ strong: 'A bad-smelling AC is also an air-quality issue' }, ' — addressing it protects your home’s ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' and your health.'],
+        ],
+      },
+      { kind: 'p', spans: ['A bad smell from your air conditioner almost always traces back to one of five causes — and the kind of smell points straight to which one. Musty means mold, rotten means a pest, chemical means refrigerant, and burning means electrical. Some are a quick fix; one or two mean you should turn the system off and call right away.'] },
+      { kind: 'p', spans: ['Here are the five reasons your AC smells bad, what each odor is telling you, and how to clear it.'] },
+
+      { kind: 'h2', text: '1. Mold and Mildew' },
+      { kind: 'p', spans: ['A musty, damp, or "dirty sock" smell is the most common AC odor, and it means mold or mildew is growing somewhere in the system. Air conditioners pull moisture out of the air, and when that moisture sits on the evaporator coil, in the drain pan, or on a damp filter, mold takes hold and every cycle pushes that smell through your home. Start by replacing the filter and making sure the condensate drain is clear. If the smell lingers, the coil needs a professional cleaning — that is a core part of ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ' and not something to scrub at yourself.'] },
+
+      { kind: 'h2', text: '2. A Dirty Air Filter' },
+      { kind: 'p', spans: ['Sometimes the smell is simply a filter that has done its job for too long. A clogged filter traps dust, moisture, and debris, restricts airflow, and starts to give off a stale, unpleasant odor that spreads every time the system runs. This one is on you in the best way — changing the filter every 1 to 3 months clears it up and prevents a surprising number of AC problems. If your home runs dusty or anyone has allergies, better filtration and ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' help go further.'] },
+
+      { kind: 'h2', text: '3. Pests in the System' },
+      { kind: 'p', spans: ['A rotten, sulfur, or rotten-egg smell often means something died inside the unit or the ductwork. Insects, rodents, or birds sometimes get into the system, and when one does not make it out, the odor is unmistakable as it decays. This is not a pleasant DIY job — a technician can locate the source, remove it, and clean and sanitize the affected area so the smell, and the health risk, are gone for good.'] },
+
+      { kind: 'h2', text: '4. A Refrigerant Leak' },
+      { kind: 'p', spans: ['A chemical or faintly sweet smell near the unit can signal a refrigerant leak. Refrigerant is sealed and is never "used up," so a low charge always means it is escaping somewhere. Beyond the smell, a leak hurts cooling and can damage the compressor if it runs low. Refrigerant must be handled by a certified technician, who finds the leak, repairs it, and recharges the system correctly — topping it off without fixing the leak only delays the next problem. If cooling has also gotten weak, our guide on ', { link: 'extending the life of your AC', href: '/how-to-extend-the-life-of-your-ac-unit/' }, ' covers what else to watch for.'] },
+
+      { kind: 'h2', text: '5. Electrical Problems' },
+      { kind: 'p', spans: ['A burning, smoky, or hot-plastic smell is the one to take seriously immediately. It can mean overheating wiring, a failing motor, or a damaged electrical component — any of which is a potential fire hazard. Turn the system off at the thermostat and the breaker, and do not run it again until a professional has inspected it. This is firmly licensed ', { link: 'electrical', href: '/services/electrical/' }, ' and HVAC territory, not a wait-and-see situation.'] },
+
+      { kind: 'h2', text: 'Can a Smelly Air Conditioner Affect Your Health?' },
+      { kind: 'p', spans: ['It can. Mold spores, dust, and other contaminants circulated by a smelly system can trigger allergies, irritate the eyes and throat, and worsen asthma — especially for children, older adults, and anyone with respiratory issues. A burning electrical smell carries a safety risk of its own. Beyond comfort, clearing the source is about the air everyone in the home is breathing, which is why a lingering AC odor is worth acting on rather than masking.'] },
+
+      { kind: 'h2', text: 'How to Keep the Smells Away' },
+      { kind: 'p', spans: ['Most AC odors are preventable with the same basic care that keeps the system running well: change the filter every 1 to 3 months, keep the condensate drain clear, make sure the outdoor unit is free of debris, and book an annual professional tune-up that cleans the coil and checks the electrical and refrigerant before problems start. Catching a small issue early is far cheaper and easier than chasing a smell after it has settled in.'] },
+
+      { kind: 'h2', text: 'Clear the Air With Degree of Comfort' },
+      { kind: 'p', spans: ['If your air conditioner smells bad and a fresh filter has not fixed it, Degree of Comfort can track down the source and clear it safely — from a coil cleaning to a refrigerant or electrical repair. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Want it sorted before it spreads? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC maintenance or repair', href: '/services/ac-repair/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'Why does my air conditioner smell bad?', a: 'The smell points to the cause: musty means mold or mildew, rotten means a pest died inside, chemical or sweet means a refrigerant leak, burning means an electrical problem, and a stale smell often just means a dirty filter. A professional inspection pinpoints which one you are dealing with.' },
+      { q: 'How do you get rid of a bad smell from an air conditioner?', a: 'Start with the easy fixes — replace the filter, clear the condensate drain, and check the vents. If the odor persists, it usually means the coil needs a professional cleaning or there is a deeper issue like a leak or pest that needs to be found and removed.' },
+      { q: 'Can mold in an AC cause bad smells?', a: 'Yes. Mold and mildew thrive on the moisture an AC pulls from the air, especially on the coil, in the drain pan, or on a damp filter. They produce that musty, dirty-sock odor and usually need a professional cleaning to fully clear.' },
+      { q: 'Is it safe to run an air conditioner that smells bad?', a: 'A musty or stale smell is unpleasant but not dangerous while you address it. A burning or chemical smell is different — shut the system off and have it inspected before running it again, since those point to electrical or refrigerant problems.' },
+      { q: 'Can a dirty air filter cause AC odors?', a: 'Yes. A clogged filter traps moisture, dust, and debris that start to smell stale and spread the odor through your home every cycle. Changing it every 1 to 3 months prevents this and is the first thing to try.' },
+      { q: 'Do AC smells always mean I need a repair?', a: 'Not always. A stale or musty smell is often solved by a new filter and a cleared drain. But a smell that lingers after the basics, or any burning, chemical, or rotten odor, means it is time for a professional evaluation.' },
+      { q: 'How often should an AC be cleaned to prevent smells?', a: 'Change the filter every 1 to 3 months and book a professional tune-up once a year. That annual cleaning of the coil and drain, along with regular filter changes, prevents most odor-causing buildup before it starts.' },
+      { q: 'Who should I call if my air conditioner smells bad?', a: 'A licensed HVAC professional, who can safely diagnose whether it is mold, a pest, a refrigerant leak, or an electrical issue and fix it correctly. Degree of Comfort handles AC cleaning, maintenance, and repair across the Tri-State with upfront, flat-rate pricing.' },
+    ],
+  },
+  {
     slug: 'is-it-worth-it-to-switch-to-a-tankless-water-heater',
     title: 'Is It Worth It to Switch to a Tankless Water Heater?',
     category: 'Plumbing',
