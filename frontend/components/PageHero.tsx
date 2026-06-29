@@ -49,7 +49,7 @@ export default function PageHero({
         {description && (
           <p className="mt-4 max-w-2xl text-lg text-brand-100">{description}</p>
         )}
-        {byline && <div className="mt-6">{byline}</div>}
+        {byline && <div className="mt-8">{byline}</div>}
         </div>
 
         {/* Bulldog mascot — scales with screen, sits beside the text */}

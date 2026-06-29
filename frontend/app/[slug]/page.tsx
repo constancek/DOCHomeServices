@@ -210,23 +210,23 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           { label: post.category },
         ]}
         byline={
-          <div className="flex items-center gap-3">
+          <div className="inline-flex items-center gap-3 rounded-2xl bg-white px-4 py-2.5 shadow-lg ring-1 ring-brand-900/5">
             {post.author.name === site.name ? (
               <img
                 src="/logo.png"
                 alt={site.name}
                 width={44}
                 height={44}
-                className="h-11 w-11 flex-shrink-0 rounded-full object-cover ring-2 ring-white/20"
+                className="h-11 w-11 flex-shrink-0 rounded-full object-cover ring-1 ring-brand-100"
               />
             ) : (
-              <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-full bg-white/10 font-display text-lg font-bold text-white ring-2 ring-white/20">
+              <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-full bg-blue-section font-display text-lg font-bold text-white">
                 {post.author.name.slice(0, 1)}
               </span>
             )}
             <div className="text-sm">
-              <span className="block font-bold text-white">{post.author.name}</span>
-              <span className="block text-brand-100">
+              <span className="block font-bold text-brand-950">{post.author.name}</span>
+              <span className="block font-medium text-pink-600">
                 {post.author.name === site.name
                   ? `${formatDate(post.date)} · ${post.readMinutes} min read`
                   : `${post.author.role} · ${formatDate(post.date)} · ${post.readMinutes} min read`}

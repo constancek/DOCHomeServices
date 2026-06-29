@@ -61,15 +61,17 @@ export default function BlogIndex() {
                       <Icon name="heart" className="h-10 w-10 text-brand-300" />
                     </div>
                   )}
-                  <span className="absolute right-3 top-3 rounded-full bg-lime-500 px-3 py-1 text-[11px] font-extrabold uppercase tracking-wide text-brand-950 shadow-pill">
+                  <span className="absolute right-3 top-3 rounded-full bg-lime-500 px-3 py-1 text-[11px] font-extrabold uppercase tracking-wide text-white shadow-pill">
                     {post.category}
                   </span>
                 </div>
-                <div className="flex flex-1 flex-col p-6">
-                  <h2 className="font-display text-lg font-extrabold uppercase leading-snug text-brand-700 transition group-hover:text-brand-600">
+                <div className="bg-blue-section px-6 py-4">
+                  <h2 className="font-display text-lg font-extrabold uppercase leading-snug text-white">
                     {post.title}
                   </h2>
-                  <p className="mt-3 flex-1 text-sm leading-relaxed text-brand-600">{post.excerpt}</p>
+                </div>
+                <div className="flex flex-1 flex-col p-6">
+                  <p className="flex-1 text-sm leading-relaxed text-brand-600">{post.excerpt}</p>
                   <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-wide text-pink-700 transition group-hover:gap-2.5">
                     Read More
                     <Icon name="arrow" className="h-4 w-4" />
