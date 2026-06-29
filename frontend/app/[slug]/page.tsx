@@ -23,7 +23,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) return {};
-  const url = `/blog/${post.slug}`;
+  const url = `/${post.slug}`;
   const images = post.image ? [{ url: post.image, alt: post.imageAlt ?? post.title }] : undefined;
   return {
     title: post.title,
@@ -142,7 +142,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   const idx = ordered.findIndex((p) => p.slug === post.slug);
   const prevPost = idx > 0 ? ordered[idx - 1] : null;
   const nextPost = idx >= 0 && idx < ordered.length - 1 ? ordered[idx + 1] : null;
-  const shareUrl = `${site.url}/blog/${post.slug}`;
+  const shareUrl = `${site.url}/${post.slug}`;
 
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -161,7 +161,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
       name: site.name,
       logo: { '@type': 'ImageObject', url: `${site.url}/mascot.png` },
     },
-    mainEntityOfPage: `${site.url}/blog/${post.slug}`,
+    mainEntityOfPage: `${site.url}/${post.slug}`,
   };
 
   const breadcrumbSchema = {
@@ -170,7 +170,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
       { '@type': 'ListItem', position: 2, name: 'Blog', item: `${site.url}/blog` },
-      { '@type': 'ListItem', position: 3, name: post.title, item: `${site.url}/blog/${post.slug}` },
+      { '@type': 'ListItem', position: 3, name: post.title, item: `${site.url}/${post.slug}` },
     ],
   };
 
@@ -209,42 +209,44 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           { label: 'Blog', href: '/blog' },
           { label: post.category },
         ]}
+        byline={
+          <div className="flex items-center gap-3">
+            {post.author.name === site.name ? (
+              <img
+                src="/logo.png"
+                alt={site.name}
+                width={44}
+                height={44}
+                className="h-11 w-11 flex-shrink-0 rounded-full object-cover ring-2 ring-white/20"
+              />
+            ) : (
+              <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-full bg-white/10 font-display text-lg font-bold text-white ring-2 ring-white/20">
+                {post.author.name.slice(0, 1)}
+              </span>
+            )}
+            <div className="text-sm">
+              <span className="block font-bold text-white">{post.author.name}</span>
+              <span className="block text-brand-100">
+                {post.author.name === site.name
+                  ? `${formatDate(post.date)} · ${post.readMinutes} min read`
+                  : `${post.author.role} · ${formatDate(post.date)} · ${post.readMinutes} min read`}
+              </span>
+            </div>
+          </div>
+        }
       />
 
-      <article className="py-16 sm:py-20">
+      <article className="pb-16 pt-10 sm:pb-20 sm:pt-12">
         <div className="container-page grid gap-12 lg:grid-cols-[1fr_280px]">
           <div>
-            {/* Byline */}
-            <div className="flex items-center gap-4 border-b border-brand-900/5 pb-6">
-              {post.author.name === site.name ? (
-                <img
-                  src="/logo.png"
-                  alt={site.name}
-                  width={48}
-                  height={48}
-                  className="h-12 w-12 flex-shrink-0 rounded-full object-cover"
-                />
-              ) : (
-                <span className="grid h-12 w-12 flex-shrink-0 place-items-center rounded-full bg-blue-section font-display text-lg font-bold text-white">
-                  {post.author.name.slice(0, 1)}
-                </span>
-              )}
-              <div className="text-sm">
-                <span className="block font-bold text-brand-950">{post.author.name}</span>
-                <span className="block text-brand-500">
-                  {post.author.name === site.name
-                    ? `${formatDate(post.date)} · ${post.readMinutes} min read`
-                    : `${post.author.role} · ${formatDate(post.date)} · ${post.readMinutes} min read`}
-                </span>
-              </div>
-            </div>
-
             {/* Featured image */}
             {post.image && (
               <img
                 src={post.image}
                 alt={post.imageAlt ?? post.title}
-                className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover"
+                width={1600}
+                height={900}
+                className="aspect-[16/9] w-full rounded-2xl object-cover"
               />
             )}
 
@@ -281,7 +283,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             {(prevPost || nextPost) && (
               <nav className="mt-8 grid gap-6 border-t border-brand-900/10 pt-6 sm:grid-cols-2">
                 {prevPost ? (
-                  <Link href={`/blog/${prevPost.slug}`} className="group flex items-start gap-2">
+                  <Link href={`/${prevPost.slug}`} className="group flex items-start gap-2">
                     <Icon name="chevron" className="mt-1 h-4 w-4 flex-shrink-0 rotate-180 text-pink-500" />
                     <span className="min-w-0">
                       <span className="block text-xs font-bold uppercase tracking-wider text-pink-600">Previous</span>
@@ -294,7 +296,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                   <span className="hidden sm:block" />
                 )}
                 {nextPost ? (
-                  <Link href={`/blog/${nextPost.slug}`} className="group flex items-start justify-end gap-2 text-right">
+                  <Link href={`/${nextPost.slug}`} className="group flex items-start justify-end gap-2 text-right">
                     <span className="min-w-0">
                       <span className="block text-xs font-bold uppercase tracking-wider text-pink-600">Next</span>
                       <span className="block text-sm font-bold text-brand-800 transition group-hover:text-brand-600">
@@ -349,7 +351,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               <ul className="mt-4 space-y-4">
                 {related.map((r) => (
                   <li key={r.slug}>
-                    <Link href={`/blog/${r.slug}`} className="group block">
+                    <Link href={`/${r.slug}`} className="group block">
                       <span className="block text-sm font-bold text-brand-900 transition group-hover:text-brand-600">
                         {r.title}
                       </span>

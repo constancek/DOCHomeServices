@@ -483,7 +483,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const postRoutes = posts.map((p) => ({
-    url: `${base}/blog/${p.slug}/`,
+    url: `${base}/${p.slug}/`,
     lastModified: p.date,
     changeFrequency: 'monthly' as const,
     priority: 0.6,

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import type { ReactNode } from 'react';
 import Icon from './Icon';
 
 type Crumb = { label: string; href?: string };
@@ -8,11 +9,13 @@ export default function PageHero({
   title,
   description,
   crumbs,
+  byline,
 }: {
   eyebrow: string;
   title: string;
   description?: string;
   crumbs: Crumb[];
+  byline?: ReactNode;
 }) {
   return (
     <section className="relative overflow-hidden bg-blue-section">
@@ -46,6 +49,7 @@ export default function PageHero({
         {description && (
           <p className="mt-4 max-w-2xl text-lg text-brand-100">{description}</p>
         )}
+        {byline && <div className="mt-6">{byline}</div>}
         </div>
 
         {/* Bulldog mascot — scales with screen, sits beside the text */}

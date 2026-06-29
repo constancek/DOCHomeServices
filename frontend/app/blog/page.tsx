@@ -43,7 +43,7 @@ export default function BlogIndex() {
             {sorted.map((post) => (
               <Link
                 key={post.slug}
-                href={`/blog/${post.slug}`}
+                href={`/${post.slug}`}
                 className="group flex flex-col overflow-hidden rounded-2xl bg-white shadow-card ring-1 ring-brand-900/5 transition hover:shadow-lg"
               >
                 <div className="relative">
@@ -51,6 +51,9 @@ export default function BlogIndex() {
                     <img
                       src={post.image}
                       alt={post.imageAlt ?? post.title}
+                      width={1600}
+                      height={1000}
+                      loading="lazy"
                       className="aspect-[16/10] w-full object-cover"
                     />
                   ) : (
@@ -58,7 +61,7 @@ export default function BlogIndex() {
                       <Icon name="heart" className="h-10 w-10 text-brand-300" />
                     </div>
                   )}
-                  <span className="absolute right-3 top-3 rounded-full bg-lime-500 px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-white shadow-pill">
+                  <span className="absolute right-3 top-3 rounded-full bg-lime-500 px-3 py-1 text-[11px] font-extrabold uppercase tracking-wide text-brand-950 shadow-pill">
                     {post.category}
                   </span>
                 </div>
@@ -67,11 +70,11 @@ export default function BlogIndex() {
                     {post.title}
                   </h2>
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-brand-600">{post.excerpt}</p>
-                  <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-wide text-pink-600 transition group-hover:gap-2.5">
+                  <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-wide text-pink-700 transition group-hover:gap-2.5">
                     Read More
                     <Icon name="arrow" className="h-4 w-4" />
                   </span>
-                  <span className="mt-4 border-t-2 border-lime-400 pt-3 text-xs font-medium text-brand-400">
+                  <span className="mt-4 border-t-2 border-lime-400 pt-3 text-xs font-medium text-brand-600">
                     {formatDate(post.date)}
                   </span>
                 </div>
