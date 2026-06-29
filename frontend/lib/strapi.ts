@@ -4,11 +4,11 @@
  * @param {object} options - Additional fetch options
  * @returns {Promise<any>}
  */
-export async function fetchStrapiData(endpoint, options = {}) {
+export async function fetchStrapiData(endpoint: string, options: any = {}) {
   const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:1337';
   const token = process.env.NEXT_PUBLIC_API_TOKEN;
 
-  const headers = {
+  const headers: any = {
     'Content-Type': 'application/json',
     ...options.headers,
   };
@@ -41,7 +41,7 @@ export async function fetchStrapiData(endpoint, options = {}) {
  * @param {object} image - Image object from Strapi
  * @returns {string}
  */
-export function getStrapiImageUrl(image) {
+export function getStrapiImageUrl(image: any) {
   if (!image) return '';
   
   const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:1337';
