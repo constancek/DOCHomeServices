@@ -34,12 +34,8 @@ export type Location = {
   adjacent?: Adjacent[];
 };
 
-// Interim deploy cohort — the 10 neighborhoods we ship per service for a fast
-// build. To deploy all 170, export the full map in each per-service barrel.
-export const DEPLOYED_LOCATION_SLUGS = [
-  'sedamsville', 'sayler-park', 'riverside', 'east-price-hill', 'west-price-hill',
-  'lower-price-hill', 'over-the-rhine', 'downtown', 'west-end', 'mount-adams',
-];
+// DEPLOYED_LOCATION_SLUGS (every neighborhood we have copy for — no cohort cap)
+// is defined right after the `locations` array below, derived from it.
 
 export const locations: Location[] = [
   {
@@ -2418,6 +2414,9 @@ export const locations: Location[] = [
     localFaqs: [{ q: 'How fast can you reach Aurora?', a: 'Aurora is part of our far-west river service area in Dearborn County. We are on call 24/7 and aim for same-day arrival.' }],
   },
 ];
+
+// Every neighborhood ships per service — the full slug list, no cohort cap.
+export const DEPLOYED_LOCATION_SLUGS = locations.map((l) => l.slug);
 
 export function getLocation(slug: string): Location | undefined {
   return locations.find((l) => l.slug === slug);

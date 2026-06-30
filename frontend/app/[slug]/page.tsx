@@ -266,7 +266,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
             {/* Inline CTA */}
             <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center">
-              <h2 className="text-2xl font-extrabold text-white">Rather just have us handle it?</h2>
+              <h2 className="text-2xl font-extrabold text-white">Let Degree of Comfort Handle It</h2>
               <p className="mx-auto mt-2 max-w-md text-brand-50">
                 Our licensed technicians serve {site.serviceArea}. Same-day service available.
               </p>
