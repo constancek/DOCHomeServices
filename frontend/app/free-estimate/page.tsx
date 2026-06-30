@@ -54,17 +54,7 @@ export default function FreeEstimatePage() {
             </ul>
 
             <div className="rounded-2xl bg-blue-section p-6 text-white">
-              <div className="flex items-center gap-2">
-                <div className="flex">
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <Icon key={i} name="star" className="h-4 w-4 fill-gold-500 text-gold-500" />
-                  ))}
-                </div>
-                <span className="text-sm font-bold">
-                  {site.rating}/5 · {site.reviewCount.toLocaleString()}+ 5-Star Reviews
-                </span>
-              </div>
-              <p className="mt-3 text-sm text-brand-100">Prefer to talk now? Call or text us:</p>
+              <p className="text-sm text-brand-100">Prefer to talk now? Call or text us:</p>
               <a href={site.primaryPhone.href} className="btn-pink mt-3 w-full">
                 <Icon name="phone" className="h-4 w-4" />
                 {site.primaryPhone.number}

@@ -12,6 +12,12 @@ export const site = {
   description:
     'Heating, cooling, plumbing, and electrical for the Tri-State area. Same-day service, upfront pricing, and a satisfaction guarantee on every job.',
   email: 'cincydegreeofcomfort@gmail.com',
+  // Zapier "Catch Hook" webhook that forms POST to. Zapier then forwards the
+  // submission to GoHighLevel. Paste the Catch Hook URL here (or set
+  // NEXT_PUBLIC_FORM_WEBHOOK_URL at build time). Empty = forms run in demo mode.
+  formWebhookUrl:
+    process.env.NEXT_PUBLIC_FORM_WEBHOOK_URL ??
+    'https://services.leadconnectorhq.com/hooks/Gf0JzWoHH620Euo1oWww/webhook-trigger/40b69dfc-a036-4f08-a8b0-43065f4cfd1b',
   founded: 2009,
   rating: 4.9,
   reviewCount: 6000,

@@ -25,11 +25,6 @@ const localBusinessSchema = {
   telephone: site.primaryPhone.number,
   email: site.email,
   areaServed: site.serviceArea,
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: site.rating,
-    reviewCount: site.reviewCount,
-  },
 };
 
 export default function HomePage() {
@@ -210,13 +205,6 @@ function Hero() {
 function SpecialOffers() {
   return (
     <section id="offers" className="relative bg-blue-section py-16">
-      {/* vertical reviews badge */}
-      <div className="absolute left-0 top-1/2 z-20 hidden -translate-x-1/3 -rotate-90 lg:block">
-        <span className="flex items-center gap-2 rounded-full bg-pink-500 px-4 py-1.5 text-xs font-bold text-white shadow-card">
-          <Icon name="star" className="h-4 w-4 fill-white text-white" />
-          {site.reviewCount.toLocaleString()}+ Reviews
-        </span>
-      </div>
 
       <div className="container-page">
         <h2 className="section-title text-white">Special Offers</h2>

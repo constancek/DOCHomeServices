@@ -70,14 +70,6 @@ export default function CareersPage() {
             >
               <Icon name="play" className="h-9 w-9 translate-x-0.5 fill-current" />
             </button>
-            <div className="absolute -bottom-3 -left-3 grid h-20 w-20 place-items-center rounded-full bg-pink-500 text-center text-white shadow-cta">
-              <div className="pl-2 pt-2">
-                <div className="font-display text-base font-black leading-none">
-                  {site.reviewCount.toLocaleString()}+
-                </div>
-                <div className="text-[7px] font-bold uppercase tracking-wide">5-Star Reviews</div>
-              </div>
-            </div>
             <a
               href={applyHref}
               className="absolute inset-x-0 bottom-0 bg-cobalt py-3 text-center text-sm font-extrabold uppercase tracking-wide text-white transition hover:brightness-110"
