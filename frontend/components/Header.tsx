@@ -10,55 +10,58 @@ export default function Header() {
 
   return (
     <header>
-      {/* Row 1 — blue phone bar (fixed to viewport, always visible) */}
-      <div className="fixed inset-x-0 top-0 z-[60] bg-brand-600 text-white">
-        <div className="container-page flex h-9 items-center justify-between gap-2 sm:gap-3">
-          <span className="whitespace-nowrap text-[10px] font-bold uppercase tracking-tight text-white sm:text-xs sm:tracking-wide">
-            Call or Text · {site.hours}
-          </span>
-          <div className="flex flex-1 items-center justify-end gap-4 overflow-x-auto sm:gap-7">
-            {site.phones.map((p) => (
-              <a
-                key={p.label}
-                href={p.href}
-                className="flex flex-shrink-0 items-center gap-2 text-sm font-bold transition hover:text-pink-300 sm:text-base"
-              >
-                <Icon name="phone" className="h-4 w-4 sm:h-[18px] sm:w-[18px]" />
-                {p.label && (
-                  <span className="hidden font-semibold uppercase tracking-wide text-brand-100 sm:inline">
-                    {p.label}:
-                  </span>
-                )}
-                <span className="font-bold">{p.number}</span>
-              </a>
-            ))}
+      {/* Rows 1+2 — blue phone bar + split CTA buttons, fixed to viewport (always visible) */}
+      <div className="fixed inset-x-0 top-0 z-[60]">
+        {/* Blue phone bar */}
+        <div className="bg-brand-600 text-white">
+          <div className="container-page flex h-9 items-center justify-between gap-2 sm:gap-3">
+            <span className="whitespace-nowrap text-[10px] font-bold uppercase tracking-tight text-white sm:text-xs sm:tracking-wide">
+              Call or Text · {site.hours}
+            </span>
+            <div className="flex flex-1 items-center justify-end gap-4 overflow-x-auto sm:gap-7">
+              {site.phones.map((p) => (
+                <a
+                  key={p.label}
+                  href={p.href}
+                  className="flex flex-shrink-0 items-center gap-2 text-sm font-bold transition hover:text-pink-300 sm:text-base"
+                >
+                  <Icon name="phone" className="h-4 w-4 sm:h-[18px] sm:w-[18px]" />
+                  {p.label && (
+                    <span className="hidden font-semibold uppercase tracking-wide text-brand-100 sm:inline">
+                      {p.label}:
+                    </span>
+                  )}
+                  <span className="font-bold">{p.number}</span>
+                </a>
+              ))}
+            </div>
           </div>
+        </div>
+
+        {/* Full-width split CTA buttons */}
+        <div className="grid grid-cols-2">
+          <Link
+            href="/#offers"
+            className="flex h-11 items-center justify-center gap-2 bg-pink-500 px-3 text-center text-xs font-extrabold uppercase tracking-wide text-white transition hover:bg-pink-600 sm:text-sm"
+          >
+            Get Instant Estimate
+            <Icon name="clock" className="h-4 w-4 flex-shrink-0" />
+          </Link>
+          <a
+            href={site.primaryPhone.href}
+            className="flex h-11 items-center justify-center gap-2 bg-lime-500 px-3 text-center text-xs font-extrabold uppercase tracking-wide text-white transition hover:bg-lime-600 sm:text-sm"
+          >
+            <Icon name="calendar" className="h-4 w-4 flex-shrink-0" />
+            Book Appointment
+          </a>
         </div>
       </div>
 
-      {/* Spacer reserving the fixed blue bar's height (h-9) */}
-      <div aria-hidden className="h-9" />
+      {/* Spacer reserving the fixed bar + CTA height (h-9 + h-11 = h-20) */}
+      <div aria-hidden className="h-20" />
 
-      {/* Row 2 — full-width split CTA buttons */}
-      <div className="grid grid-cols-2">
-        <Link
-          href="/#offers"
-          className="flex items-center justify-center gap-2 bg-pink-500 px-3 py-3 text-center text-xs font-extrabold uppercase tracking-wide text-white transition hover:bg-pink-600 sm:text-sm"
-        >
-          Get Instant Estimate
-          <Icon name="clock" className="h-4 w-4 flex-shrink-0" />
-        </Link>
-        <a
-          href={site.primaryPhone.href}
-          className="flex items-center justify-center gap-2 bg-lime-500 px-3 py-3 text-center text-xs font-extrabold uppercase tracking-wide text-white transition hover:bg-lime-600 sm:text-sm"
-        >
-          <Icon name="calendar" className="h-4 w-4 flex-shrink-0" />
-          Book Appointment
-        </a>
-      </div>
-
-      {/* Row 3 — white nav (sticky, below the blue bar) */}
-      <div className="sticky top-9 z-50 bg-white shadow-pill">
+      {/* Row 3 — white nav (sticky, below the fixed bar + CTA block) */}
+      <div className="sticky top-20 z-50 bg-white shadow-pill">
         <div className="container-page flex h-[88px] items-center justify-between gap-4">
           <Logo />
 
@@ -185,7 +188,7 @@ export default function Header() {
 
         {/* Mobile menu — nested accordion so every submenu is reachable */}
         {mobileOpen && (
-          <div className="max-h-[calc(100vh-theme(spacing.9))] overflow-y-auto border-t border-brand-100 bg-white xl:hidden">
+          <div className="max-h-[calc(100vh-theme(spacing.20))] overflow-y-auto border-t border-brand-100 bg-white xl:hidden">
             <nav className="container-page py-1">
               <ul className="divide-y divide-brand-100">
                 {nav.map((item) => (

@@ -1,12 +1,13 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
+import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
-import { locations, locationsByGroup } from '@/content/locations';
+import { locations } from '@/content/locations';
 import { ceilingFanCopy } from '@/content/location-copy/ceiling-fan-installation';
 
 export const metadata: Metadata = {
@@ -364,32 +365,7 @@ export default function CeilingFanPage() {
             {locations.filter((l) => ceilingFanCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and ceilings in your area.
           </p>
-          <div className="mt-6 space-y-7">
-            {locationsByGroup().map(({ group, items }) => {
-              const local = items.filter((l) => ceilingFanCopy[l.slug]);
-              if (!local.length) return null;
-              return (
-                <div key={group}>
-                  <h3 className="flex items-center gap-2 font-display text-base font-extrabold text-brand-700">
-                    <Icon name="pin" className="h-4 w-4 text-pink-500" />
-                    {group}
-                  </h3>
-                  <ul className="mt-2 columns-1 gap-x-6 sm:columns-2">
-                    {local.map((l) => (
-                      <li key={l.slug} className="mb-1.5 break-inside-avoid">
-                        <Link
-                          href={`/services/ceiling-fan-installation/${l.slug}`}
-                          className="text-sm font-medium text-brand-800 hover:text-pink-600"
-                        >
-                          Ceiling fan installation in {l.neighborhood}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              );
-            })}
-          </div>
+          <NeighborhoodLinks copy={ceilingFanCopy} basePath="/services/ceiling-fan-installation" linkPrefix="Ceiling fan installation" />
         </div>
       </section>
 
