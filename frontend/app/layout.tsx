@@ -1,9 +1,13 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Inter, Montserrat, Merriweather } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { site } from '@/content/site';
+
+// Google Analytics (gtag.js) — loaded on every page via the root layout.
+const GA_ID = 'G-8NY18D4938';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -57,6 +61,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${inter.variable} ${montserrat.variable} ${merriweather.variable}`}>
       <body>
+        {/* Google Analytics */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_ID}');`}
+        </Script>
+
         <Header />
         <main>{children}</main>
         <Footer />
