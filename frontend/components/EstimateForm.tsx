@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Icon from './Icon';
 import { site } from '@/content/site';
+import { submitLead } from '@/lib/forms';
 
 const SERVICE_OPTIONS = [
   'Heating & Cooling',
@@ -16,9 +17,44 @@ const SERVICE_OPTIONS = [
 const inputClass =
   'w-full rounded-lg border border-brand-200 px-4 py-3 text-sm outline-none focus:border-pink-400';
 
-export default function EstimateForm() {
+const EMPTY = {
+  name: '',
+  phone: '',
+  email: '',
+  service: '',
+  message: '',
+  address: '',
+  preferredDate: '',
+  preferredTime: '',
+  consent: true,
+};
+
+export default function EstimateForm({
+  heading = 'Request Your Free Estimate',
+}: {
+  heading?: string;
+}) {
   const [step, setStep] = useState(1);
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState(false);
+  const [form, setForm] = useState(EMPTY);
+
+  const set = (field: keyof typeof EMPTY, value: string | boolean) =>
+    setForm((f) => ({ ...f, [field]: value }));
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setSending(true);
+    setError(false);
+    const result = await submitLead({ formName: 'Free Estimate', ...form });
+    setSending(false);
+    if (result === 'error') {
+      setError(true);
+      return;
+    }
+    setSubmitted(true);
+  }
 
   if (submitted) {
     return (
@@ -42,7 +78,7 @@ export default function EstimateForm() {
   return (
     <div className="overflow-hidden rounded-2xl bg-white shadow-card ring-1 ring-brand-100">
       <div className="bg-pink-500 px-6 py-4">
-        <h2 className="font-display text-xl font-extrabold text-white">Request Your Free Estimate</h2>
+        <h2 className="font-display text-xl font-extrabold text-white">{heading}</h2>
         <p className="text-xs font-semibold text-white/80">Step {step} of 2</p>
         <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-white/30">
           <div
@@ -52,40 +88,61 @@ export default function EstimateForm() {
         </div>
       </div>
 
-      <form
-        className="space-y-4 p-6"
-        onSubmit={(e) => {
-          e.preventDefault();
-          setSubmitted(true);
-        }}
-      >
+      <form className="space-y-4 p-6" onSubmit={handleSubmit}>
         {step === 1 ? (
           <>
             <div>
               <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-brand-700">
                 Name*
               </label>
-              <input className={inputClass} placeholder="First Last" aria-label="Name" required />
+              <input
+                className={inputClass}
+                placeholder="First Last"
+                aria-label="Name"
+                required
+                value={form.name}
+                onChange={(e) => set('name', e.target.value)}
+              />
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
               <div>
                 <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-brand-700">
                   Phone Number*
                 </label>
-                <input className={inputClass} type="tel" aria-label="Phone Number" required />
+                <input
+                  className={inputClass}
+                  type="tel"
+                  aria-label="Phone Number"
+                  required
+                  value={form.phone}
+                  onChange={(e) => set('phone', e.target.value)}
+                />
               </div>
               <div>
                 <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-brand-700">
                   Email*
                 </label>
-                <input className={inputClass} type="email" aria-label="Email" required />
+                <input
+                  className={inputClass}
+                  type="email"
+                  aria-label="Email"
+                  required
+                  value={form.email}
+                  onChange={(e) => set('email', e.target.value)}
+                />
               </div>
             </div>
             <div>
               <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-brand-700">
                 Service Request*
               </label>
-              <select className={inputClass} aria-label="Service Request" required defaultValue="">
+              <select
+                className={inputClass}
+                aria-label="Service Request"
+                required
+                value={form.service}
+                onChange={(e) => set('service', e.target.value)}
+              >
                 <option value="" disabled>
                   Select a service…
                 </option>
@@ -104,10 +161,18 @@ export default function EstimateForm() {
                 className={`${inputClass} min-h-[96px] resize-y`}
                 placeholder="Tell us what you need…"
                 aria-label="Message"
+                value={form.message}
+                onChange={(e) => set('message', e.target.value)}
               />
             </div>
             <label className="flex items-start gap-2.5 text-xs text-ink/60">
-              <input type="checkbox" required className="mt-0.5 h-4 w-4 flex-shrink-0" />
+              <input
+                type="checkbox"
+                required
+                className="mt-0.5 h-4 w-4 flex-shrink-0"
+                checked={form.consent}
+                onChange={(e) => set('consent', e.target.checked)}
+              />
               <span>
                 I agree to be contacted by {site.name} by phone, text, or email about my request.
                 Message and data rates may apply.
@@ -124,20 +189,37 @@ export default function EstimateForm() {
               <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-brand-700">
                 Service Address
               </label>
-              <input className={inputClass} placeholder="Street, City, ZIP" aria-label="Service Address" />
+              <input
+                className={inputClass}
+                placeholder="Street, City, ZIP"
+                aria-label="Service Address"
+                value={form.address}
+                onChange={(e) => set('address', e.target.value)}
+              />
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
               <div>
                 <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-brand-700">
                   Preferred Date
                 </label>
-                <input className={inputClass} type="date" aria-label="Preferred Date" />
+                <input
+                  className={inputClass}
+                  type="date"
+                  aria-label="Preferred Date"
+                  value={form.preferredDate}
+                  onChange={(e) => set('preferredDate', e.target.value)}
+                />
               </div>
               <div>
                 <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-brand-700">
                   Preferred Time
                 </label>
-                <select className={inputClass} aria-label="Preferred Time" defaultValue="">
+                <select
+                  className={inputClass}
+                  aria-label="Preferred Time"
+                  value={form.preferredTime}
+                  onChange={(e) => set('preferredTime', e.target.value)}
+                >
                   <option value="" disabled>
                     Select a window…
                   </option>
@@ -147,12 +229,21 @@ export default function EstimateForm() {
                 </select>
               </div>
             </div>
+            {error && (
+              <p className="rounded-lg bg-pink-50 px-4 py-3 text-sm text-pink-700">
+                Something went wrong sending your request. Please try again or call us at{' '}
+                <a href={site.primaryPhone.href} className="font-bold underline">
+                  {site.primaryPhone.number}
+                </a>
+                .
+              </p>
+            )}
             <div className="flex gap-3">
-              <button type="button" onClick={() => setStep(1)} className="btn-ghost flex-1">
+              <button type="button" onClick={() => setStep(1)} className="btn-ghost flex-1" disabled={sending}>
                 Back
               </button>
-              <button type="submit" className="btn-pink flex-1">
-                Submit
+              <button type="submit" className="btn-pink flex-1" disabled={sending}>
+                {sending ? 'Sending…' : 'Submit'}
               </button>
             </div>
           </>

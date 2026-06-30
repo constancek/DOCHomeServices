@@ -3,6 +3,7 @@ import Icon from './Icon';
 import TornEdge from './TornEdge';
 import LogoMarquee from './LogoMarquee';
 import WhyChooseVideos from './WhyChooseVideos';
+import EstimateForm from './EstimateForm';
 import { site } from '@/content/site';
 import { benefits, awards, clubPerks, fundingPoints, serviceAreas } from '@/content/home';
 
@@ -364,44 +365,10 @@ export function Community() {
 /* ─────────────── Book + areas ─────────────── */
 export function BookAndAreas() {
   return (
-    <section id="areas" className="bg-blue-section pb-16 pt-6">
+    <section id="areas" className="scroll-mt-44 bg-blue-section pb-16 pt-6">
       <div className="container-page grid gap-6 lg:grid-cols-2">
-        {/* Booking form */}
-        <div className="overflow-hidden rounded-2xl bg-white shadow-card">
-          <div className="bg-pink-500 px-6 py-4">
-            <h2 className="font-display text-xl font-extrabold text-white">Book Your Service Now!</h2>
-            <p className="text-xs font-semibold text-white/80">Step 1 of 3</p>
-          </div>
-          <form className="grid gap-4 p-6">
-            <div className="grid gap-4 sm:grid-cols-2">
-              <input
-                className="rounded-lg border border-brand-200 px-4 py-3 text-sm outline-none focus:border-pink-400"
-                placeholder="First Name"
-                aria-label="First Name"
-              />
-              <input
-                className="rounded-lg border border-brand-200 px-4 py-3 text-sm outline-none focus:border-pink-400"
-                placeholder="Last Name"
-                aria-label="Last Name"
-              />
-            </div>
-            <div className="grid gap-4 sm:grid-cols-2">
-              <input
-                className="rounded-lg border border-brand-200 px-4 py-3 text-sm outline-none focus:border-pink-400"
-                placeholder="Phone Number"
-                aria-label="Phone Number"
-              />
-              <input
-                className="rounded-lg border border-brand-200 px-4 py-3 text-sm outline-none focus:border-pink-400"
-                placeholder="Email"
-                aria-label="Email"
-              />
-            </div>
-            <button type="button" className="btn-lime w-full">
-              Next
-            </button>
-          </form>
-        </div>
+        {/* Booking form — the real, GHL-linked estimate form (heading only differs) */}
+        <EstimateForm heading="Book Your Service Now!" />
 
         {/* Areas we serve */}
         <div className="rounded-2xl bg-white p-6 shadow-card">
