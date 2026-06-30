@@ -4,10 +4,17 @@ import { useRef, useState } from 'react';
 import Icon from './Icon';
 
 // Customer testimonial videos shown in the "Why Choose" section.
+// Posters render instantly on every device; the video bytes only download
+// when the visitor presses play (preload="none"), so the section loads fast.
 const VIDEOS = [
   '/videos/testimonial-1.mp4',
   '/videos/testimonial-2.mp4',
   '/videos/testimonial-3.mp4',
+];
+const POSTERS = [
+  '/videos/testimonial-1-poster.jpg',
+  '/videos/testimonial-2-poster.jpg',
+  '/videos/testimonial-3-poster.jpg',
 ];
 
 export default function WhyChooseVideos() {
@@ -33,13 +40,11 @@ export default function WhyChooseVideos() {
           aria-label="Previous video"
           className="group relative aspect-[5/9] w-[29%] flex-shrink-0 overflow-hidden rounded-2xl bg-[#7e88b8] opacity-75 transition hover:opacity-100"
         >
-          <video
-            key={`l-${prev}`}
-            src={VIDEOS[prev]}
+          <img
+            src={POSTERS[prev]}
+            alt=""
+            loading="lazy"
             className="h-full w-full object-cover"
-            muted
-            playsInline
-            preload="metadata"
           />
           <span className="absolute inset-0 bg-brand-900/35 transition group-hover:bg-brand-900/20" />
           <span className="absolute inset-0 grid place-items-center">
@@ -55,9 +60,10 @@ export default function WhyChooseVideos() {
             key={active}
             ref={videoRef}
             src={VIDEOS[active]}
+            poster={POSTERS[active]}
             className="h-full w-full object-cover"
             playsInline
-            preload="metadata"
+            preload="none"
             controls={playing}
             onPlay={() => setPlaying(true)}
             onPause={() => setPlaying(false)}
@@ -84,13 +90,11 @@ export default function WhyChooseVideos() {
           aria-label="Next video"
           className="group relative aspect-[5/9] w-[29%] flex-shrink-0 overflow-hidden rounded-2xl bg-[#7e88b8] opacity-75 transition hover:opacity-100"
         >
-          <video
-            key={`r-${next}`}
-            src={VIDEOS[next]}
+          <img
+            src={POSTERS[next]}
+            alt=""
+            loading="lazy"
             className="h-full w-full object-cover"
-            muted
-            playsInline
-            preload="metadata"
           />
           <span className="absolute inset-0 bg-brand-900/35 transition group-hover:bg-brand-900/20" />
           <span className="absolute inset-0 grid place-items-center">
