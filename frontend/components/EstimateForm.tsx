@@ -97,7 +97,7 @@ export default function EstimateForm({
               </label>
               <input
                 className={inputClass}
-                placeholder="First Last"
+                placeholder="Full Name"
                 aria-label="Name"
                 required
                 value={form.name}
@@ -112,6 +112,7 @@ export default function EstimateForm({
                 <input
                   className={inputClass}
                   type="tel"
+                  placeholder="Active Phone Number"
                   aria-label="Phone Number"
                   required
                   value={form.phone}
@@ -125,6 +126,7 @@ export default function EstimateForm({
                 <input
                   className={inputClass}
                   type="email"
+                  placeholder="Active Email"
                   aria-label="Email"
                   required
                   value={form.email}
@@ -159,7 +161,7 @@ export default function EstimateForm({
               </label>
               <textarea
                 className={`${inputClass} min-h-[96px] resize-y`}
-                placeholder="Tell us what you need…"
+                placeholder="Tell us what you need in detail, Degree of Comfort is here to help you!"
                 aria-label="Message"
                 value={form.message}
                 onChange={(e) => set('message', e.target.value)}
@@ -191,7 +193,7 @@ export default function EstimateForm({
               </label>
               <input
                 className={inputClass}
-                placeholder="Street, City, ZIP"
+                placeholder="Complete address, street, city, ZIP"
                 aria-label="Service Address"
                 value={form.address}
                 onChange={(e) => set('address', e.target.value)}
