@@ -41,7 +41,7 @@ export const posts: Post[] = [
       {
         kind: 'takeaways',
         items: [
-          [{ strong: 'A full replacement often lands around $9,000 installed' }, ', but the range is wide — your home, ductwork, and efficiency choice move the number.'],
+          [{ strong: 'Total Avg Cost (Equipment and Installation): $9,000' }, ' — though the range is wide, since your home, ductwork, and efficiency choice move the number.'],
           [{ strong: 'Size drives cost' }, ': homes need roughly one ton of cooling per 500 to 600 square feet, and bigger systems cost more.'],
           [{ strong: 'A higher SEER rating costs more upfront' }, ' but lowers your energy bills — going from an old unit to modern efficiency can cut cooling costs by up to 30%.'],
           [{ strong: 'A free, in-home estimate is the only exact number' }, ' — and ', { link: 'financing', href: '/can-you-finance-an-hvac-system/' }, ' can spread the cost out.'],
@@ -59,7 +59,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Air conditioners are rated by SEER (Seasonal Energy Efficiency Ratio), and higher is more efficient. New units start at a minimum SEER of 13, while models rated 16 or higher are considered highly efficient. A higher SEER costs more upfront but pays you back on every energy bill — upgrading from an older, low-efficiency unit to a modern one can cut annual cooling costs by up to 30%. The right balance depends on how long you plan to stay and how hot your summers run.'] },
 
       { kind: 'h2', text: 'A Realistic Ballpark' },
-      { kind: 'p', spans: ['Putting it together, a typical full replacement — a right-sized, efficient system installed by professionals — tends to average around $9,000. But averages hide a lot: a small home with good ducts and a standard-efficiency unit can come in well under that, while a large home needing ductwork and a high-efficiency system runs higher. The only way to know your number is a free in-home estimate, where a technician sizes the system to your home and quotes it with upfront, flat-rate pricing — no surprises.'] },
+      { kind: 'p', spans: ['Putting it together, a typical full replacement — a right-sized, efficient system installed by professionals — tends to average around $9,000. But averages hide a lot: a small home with good ducts and a standard-efficiency unit can come in well under that, while a large home needing ductwork and a high-efficiency system runs higher. The only way to know your number is a ', { link: 'free in-home estimate', href: '/free-estimate/' }, ', where a technician sizes the system to your home and quotes it with upfront, flat-rate pricing — no surprises.'] },
 
       { kind: 'h2', text: 'Maintenance and Ongoing Costs' },
       { kind: 'p', spans: ['The purchase is not the end of the math. Budget for routine upkeep — an annual tune-up and regular filter changes — which keeps the system efficient and protects its lifespan, so you get the full return on what you paid. Skipping maintenance is the fastest way to shorten an expensive system’s life. Our guide on ', { link: 'whether AC tune-ups are worth it', href: '/do-you-really-need-ac-maintenance-are-ac-tune-ups-worth-it/' }, ' covers why that small yearly cost pays off.'] },
