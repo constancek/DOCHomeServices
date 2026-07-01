@@ -18,7 +18,8 @@ const inputClass =
   'w-full rounded-lg border border-brand-200 px-4 py-3 text-sm outline-none focus:border-pink-400';
 
 const EMPTY = {
-  name: '',
+  firstName: '',
+  lastName: '',
   phone: '',
   email: '',
   service: '',
@@ -47,7 +48,13 @@ export default function EstimateForm({
     e.preventDefault();
     setSending(true);
     setError(false);
-    const result = await submitLead({ formName: 'Free Estimate', ...form });
+    const result = await submitLead({
+      formName: 'Free Estimate',
+      ...form,
+      // Keep sending the combined full name so the existing GHL mapping (name -> First Name)
+      // keeps working unchanged; firstName/lastName are also sent for optional separate mapping.
+      name: `${form.firstName} ${form.lastName}`.trim(),
+    });
     setSending(false);
     if (result === 'error') {
       setError(true);
@@ -91,18 +98,33 @@ export default function EstimateForm({
       <form className="space-y-4 p-6" onSubmit={handleSubmit}>
         {step === 1 ? (
           <>
-            <div>
-              <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-brand-700">
-                Name*
-              </label>
-              <input
-                className={inputClass}
-                placeholder="Full Name"
-                aria-label="Name"
-                required
-                value={form.name}
-                onChange={(e) => set('name', e.target.value)}
-              />
+            <div className="grid gap-4 sm:grid-cols-2">
+              <div>
+                <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-brand-700">
+                  First Name*
+                </label>
+                <input
+                  className={inputClass}
+                  placeholder="First Name"
+                  aria-label="First Name"
+                  required
+                  value={form.firstName}
+                  onChange={(e) => set('firstName', e.target.value)}
+                />
+              </div>
+              <div>
+                <label className="mb-1 block text-xs font-bold uppercase tracking-wide text-brand-700">
+                  Last Name*
+                </label>
+                <input
+                  className={inputClass}
+                  placeholder="Last Name"
+                  aria-label="Last Name"
+                  required
+                  value={form.lastName}
+                  onChange={(e) => set('lastName', e.target.value)}
+                />
+              </div>
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
               <div>
