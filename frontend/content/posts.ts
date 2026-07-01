@@ -26,6 +26,68 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: 'how-does-a-tankless-water-heater-work',
+    title: 'How Does a Tankless Water Heater Work?',
+    category: 'Plumbing',
+    excerpt:
+      'A tankless water heater heats water on demand instead of storing it, so you get continuous hot water from a unit the size of a suitcase. How it works, gas vs. electric, and what it costs to run.',
+    date: '2026-07-01',
+    dateModified: '2026-07-01',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    image: '/blog/how-tankless-water-heater-works-hero.jpg',
+    imageAlt: 'Wall-mounted tankless water heater with copper supply lines in a basement',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'A tankless water heater heats water on demand' }, ', warming it as it flows through the unit instead of keeping a full tank hot around the clock.'],
+          [{ strong: 'You get continuous hot water' }, ' — it does not run out the way a 40- or 50-gallon tank does once the stored water is used up.'],
+          [{ strong: 'It lasts up to 20 years' }, ', roughly double a standard tank, and its compact, suitcase-sized body frees up floor space.'],
+          [{ strong: 'It is a professional install' }, ' that ties into your gas or electrical and water lines — part of a well-planned ', { link: 'water heater installation', href: '/services/water-heater-installation/' }, '.'],
+        ],
+      },
+      { kind: 'p', spans: ['A tankless water heater makes hot water only when you ask for it — heating the water as it passes through the unit rather than storing dozens of gallons and keeping them hot day and night. That is why it is also called an on-demand water heater. Here is exactly how it works, the difference between gas and electric models, and what it means for your space and your bills.'] },
+
+      { kind: 'h2', text: 'What Is a Tankless Water Heater?' },
+      { kind: 'p', spans: ['A traditional water heater keeps a large tank — usually 40 to 50 gallons — heated at all times so hot water is ready when you need it. A tankless unit skips the tank entirely. Instead, it heats water instantly as it flows through, which is where the name on-demand comes from. The payoff is a steadier supply of hot water, a longer lifespan, and a much smaller footprint. If you are weighing whether the switch makes sense for your home, our guide on ', { link: 'whether it is worth switching to a tankless water heater', href: '/is-it-worth-it-to-switch-to-a-tankless-water-heater/' }, ' breaks down the costs and trade-offs.'] },
+
+      { kind: 'h2', text: 'How a Tankless Water Heater Works, Step by Step' },
+      { kind: 'p', spans: ['The whole process runs from the moment you open a hot tap to the moment warm water reaches it, in four quick stages.'] },
+      { kind: 'h3', text: '1. It Detects Water Flow' },
+      { kind: 'p', spans: ['When you turn on a hot water tap, run the dishwasher, or start the shower, water begins moving through the unit. A flow sensor picks that up right away and measures how fast the water is moving. That flow rate tells the heater how much hot water it needs to produce per minute, so it can match your demand exactly.'] },
+      { kind: 'h3', text: '2. The Burner or Element Fires Up' },
+      { kind: 'p', spans: ['Once flow is detected, the unit switches on its heat source. On a gas model, a burner ignites; on an electric model, heating elements energize. Either way, the heater only runs while water is actually being drawn — nothing is heating in the background when no one is using hot water.'] },
+      { kind: 'h3', text: '3. Water Passes Over the Heat Exchanger' },
+      { kind: 'p', spans: ['The moving water flows across a component called the heat exchanger, which transfers heat from the burner or elements directly into the water. This part does the real work, and its design is what drives the unit’s efficiency — the water comes out hot in seconds without ever sitting in a tank.'] },
+      { kind: 'h3', text: '4. Hot Water Reaches Your Tap' },
+      { kind: 'p', spans: ['The freshly heated water travels straight to the fixture you turned on. Because the heater keeps warming water for as long as the tap is open, the supply does not run out mid-shower the way a tank can once its stored water is gone.'] },
+
+      { kind: 'h2', text: 'Gas vs. Electric Tankless Units' },
+      { kind: 'p', spans: ['Both types heat on demand; the difference is the energy source. A gas tankless unit uses a burner and generally produces a higher flow rate, which suits larger households running several hot taps at once, though it needs proper venting and a gas line. An electric tankless unit uses heating elements, installs in tighter spaces with no venting, and tends to cost less upfront, but its output can be limited by your home’s electrical capacity. The right choice depends on your hot water demand, your fuel setup, and your panel — something a ', { link: 'licensed plumber', href: '/services/plumbing/' }, ' can size for you.'] },
+
+      { kind: 'h2', text: 'Longevity and Cost Considerations' },
+      { kind: 'p', spans: ['A tankless water heater costs more to buy and install than a standard tank — there is no getting around the higher upfront number. What you get for it is a longer life and lower running costs. A tankless unit can last more than 20 years with maintenance, close to double the 10-to-15-year life of a typical storage tank, and because it is not reheating a tank of water around the clock, it wastes less energy. Over the life of the unit, that combination tends to make it the more cost-effective option, especially with financing to spread the initial cost out.'] },
+
+      { kind: 'h2', text: 'The Space-Saving Design' },
+      { kind: 'p', spans: ['One of the most practical advantages has nothing to do with water at all — it is the size. A tankless unit is roughly the size of a suitcase and mounts on the wall, compared with a bulky tank that takes up a corner of the basement or a closet. For smaller homes, or anyone who wants that square footage back, the compact design is a real benefit on its own.'] },
+
+      { kind: 'h2', text: 'Installation and Maintenance' },
+      { kind: 'p', spans: ['A tankless water heater is a professional install. It ties into your water lines and either a gas line and venting or your electrical panel, and it has to be sized correctly to your household’s hot water demand — an undersized unit will disappoint, and a poorly vented gas unit is a safety risk. Once it is in, upkeep is straightforward: an annual flush to clear mineral scale from the heat exchanger keeps it efficient and protects that long lifespan, which our team handles as part of ', { link: 'water heater maintenance', href: '/services/water-heater-maintenance/' }, '.'] },
+
+      { kind: 'h2', text: 'Thinking About Going Tankless? Talk to Degree of Comfort' },
+      { kind: 'p', spans: ['If you are tired of running out of hot water or want back the space a tank is taking up, a ', { link: 'tankless water heater', href: '/services/tankless-water-heater/' }, ' is worth a serious look. Degree of Comfort can size, install, and maintain the right unit for your home. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Ready for endless hot water? Call ', { strong: '(513) 586-5107' }, ', ask about tankless installation, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'How does a tankless water heater work?', a: 'It heats water on demand instead of storing it. When you open a hot tap, a sensor detects the water flow, the gas burner or electric element fires up, the water passes over a heat exchanger that warms it instantly, and the hot water goes straight to your tap. Degree of Comfort sizes and installs tankless units matched to your home’s demand.' },
+      { q: 'How long does a tankless water heater last?', a: 'Up to 20 years with regular maintenance — close to double the 10-to-15-year life of a standard storage tank. An annual flush to clear mineral scale is the key to reaching that. Degree of Comfort handles tankless maintenance across the Tri-State.' },
+      { q: 'Gas or electric tankless — which should I choose?', a: 'Gas units generally deliver a higher flow rate for larger households but need venting and a gas line; electric units install in tighter spaces without venting but depend on your electrical capacity. Degree of Comfort can assess your home and recommend the right one.' },
+      { q: 'How much does a tankless water heater cost?', a: 'The unit and installation cost more than a standard tank upfront, but lower energy use and a longer lifespan tend to make it more cost-effective over time. A free estimate from Degree of Comfort gives you exact numbers, and financing can spread the cost out.' },
+      { q: 'Can I install a tankless water heater myself?', a: 'It is not a DIY job. A tankless unit ties into your water lines and either a gas line and venting or your electrical panel, and it must be sized and vented correctly for safety and performance. Degree of Comfort installs tankless water heaters across the Tri-State with upfront, flat-rate pricing — call (513) 586-5107.' },
+    ],
+  },
+  {
     slug: 'how-a-whole-home-humidifier-works-everything-you-need-to-know',
     title: 'How a Whole-Home Humidifier Works: Everything You Need to Know',
     category: 'Home Tips',
