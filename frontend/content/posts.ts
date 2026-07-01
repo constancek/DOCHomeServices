@@ -26,6 +26,169 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: 'how-much-is-a-new-air-conditioner',
+    title: 'How Much Is a New Air Conditioner?',
+    category: 'Cooling',
+    excerpt:
+      'A new air conditioner, installed, commonly runs in the neighborhood of $9,000 — but the real number depends on your home’s size, your ductwork, and the efficiency you choose. Here is what drives the price.',
+    date: '2026-07-01',
+    dateModified: '2026-07-01',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/how-much-is-a-new-air-conditioner-hero.jpg',
+    imageAlt: 'Couple on a couch using a remote for a wall-mounted air conditioner',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'A full replacement often lands around $9,000 installed' }, ', but the range is wide — your home, ductwork, and efficiency choice move the number.'],
+          [{ strong: 'Size drives cost' }, ': homes need roughly one ton of cooling per 500 to 600 square feet, and bigger systems cost more.'],
+          [{ strong: 'A higher SEER rating costs more upfront' }, ' but lowers your energy bills — going from an old unit to modern efficiency can cut cooling costs by up to 30%.'],
+          [{ strong: 'A free, in-home estimate is the only exact number' }, ' — and ', { link: 'financing', href: '/can-you-finance-an-hvac-system/' }, ' can spread the cost out.'],
+        ],
+      },
+      { kind: 'p', spans: ['There is no single sticker price, but here is a straight answer: a new central air conditioner, equipment and professional installation together, commonly runs somewhere in the neighborhood of ', { strong: '$9,000' }, '. Your actual cost can land well above or below that depending on a few things. Here is what moves the number, and how to figure out where your home falls.'] },
+
+      { kind: 'h2', text: 'What Affects the Cost of a New Air Conditioner?' },
+      { kind: 'p', spans: ['Four things drive most of the price: the size of the system, how complex the installation is, the efficiency you choose, and your home itself.'] },
+      { kind: 'h3', text: 'System Size and Your Home' },
+      { kind: 'p', spans: ['Bigger homes need bigger systems, and capacity costs money. As a rough rule, a home needs about one ton of cooling for every 500 to 600 square feet, where one ton equals 12,000 BTUs of cooling per hour. That said, square footage alone does not size a system — insulation, windows, ductwork, and layout all matter, which is why a professional runs a proper load calculation rather than guessing. An oversized unit wastes money and cools unevenly; an undersized one never keeps up.'] },
+      { kind: 'h3', text: 'Installation Complexity' },
+      { kind: 'p', spans: ['Installation alone typically runs from $2,000 to $5,000, and the biggest variable is your ductwork. A straightforward swap into a home with sound ducts sits at the lower end; a job that needs duct repairs, modifications, or new runs climbs from there. Labor and any extra components — a new pad, line set, or electrical work — factor in too.'] },
+      { kind: 'h3', text: 'Efficiency and SEER Rating' },
+      { kind: 'p', spans: ['Air conditioners are rated by SEER (Seasonal Energy Efficiency Ratio), and higher is more efficient. New units start at a minimum SEER of 13, while models rated 16 or higher are considered highly efficient. A higher SEER costs more upfront but pays you back on every energy bill — upgrading from an older, low-efficiency unit to a modern one can cut annual cooling costs by up to 30%. The right balance depends on how long you plan to stay and how hot your summers run.'] },
+
+      { kind: 'h2', text: 'A Realistic Ballpark' },
+      { kind: 'p', spans: ['Putting it together, a typical full replacement — a right-sized, efficient system installed by professionals — tends to average around $9,000. But averages hide a lot: a small home with good ducts and a standard-efficiency unit can come in well under that, while a large home needing ductwork and a high-efficiency system runs higher. The only way to know your number is a free in-home estimate, where a technician sizes the system to your home and quotes it with upfront, flat-rate pricing — no surprises.'] },
+
+      { kind: 'h2', text: 'Maintenance and Ongoing Costs' },
+      { kind: 'p', spans: ['The purchase is not the end of the math. Budget for routine upkeep — an annual tune-up and regular filter changes — which keeps the system efficient and protects its lifespan, so you get the full return on what you paid. Skipping maintenance is the fastest way to shorten an expensive system’s life. Our guide on ', { link: 'whether AC tune-ups are worth it', href: '/do-you-really-need-ac-maintenance-are-ac-tune-ups-worth-it/' }, ' covers why that small yearly cost pays off.'] },
+
+      { kind: 'h2', text: 'Repair or Replace?' },
+      { kind: 'p', spans: ['If your current unit is on its way out, the question is whether to keep fixing it or start fresh. Repairing makes sense for a newer unit with a small, inexpensive problem. Replacement is usually the better value once a unit is past roughly 12 to 17 years, needs frequent repairs, or has slipped in efficiency — a new system is more reliable and cheaper to run. Our guide on ', { link: 'whether to replace an old air conditioner', href: '/should-i-replace-my-old-air-conditioner/' }, ' walks through how to decide.'] },
+
+      { kind: 'h2', text: 'Get an Exact Price From Degree of Comfort' },
+      { kind: 'p', spans: ['The honest answer to what a new AC costs is a number a technician gives you after seeing your home — not a figure off a website. Degree of Comfort sizes and installs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems with upfront, flat-rate pricing and free in-home estimates across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with a satisfaction guarantee, and ', { link: 'financing', href: '/can-you-finance-an-hvac-system/' }, ' is available to spread the cost out.'] },
+      { kind: 'p', spans: ['Ready for a real number? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC installation', href: '/services/ac-installation-replacement/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'How much does a new air conditioner unit cost?', a: 'It depends on system size, efficiency rating, and installation needs, but most homeowners can expect to invest several thousand dollars, often around $9,000 installed. Degree of Comfort provides upfront pricing and helps you choose the best AC for your home and budget.' },
+      { q: 'What factors affect the cost of a new air conditioner?', a: 'Home size, system efficiency, ductwork condition, and installation complexity all affect the price. Higher-efficiency systems cost more upfront but save on energy bills. Degree of Comfort evaluates your home to recommend cost-effective options.' },
+      { q: 'Should I repair or replace my air conditioner?', a: 'Repair a relatively new unit with a low repair cost. Replacement is often better if the unit is over 12 to 17 years old, needs frequent repairs, or has poor efficiency. Degree of Comfort helps homeowners compare repair versus replacement costs honestly.' },
+      { q: 'Will a new air conditioner lower my energy bills?', a: 'Yes. A new unit uses less energy to cool your home, and modern systems are far more efficient than older ones. Degree of Comfort installs high-efficiency AC systems designed to reduce monthly costs.' },
+      { q: 'How long does it take to install a new air conditioner?', a: 'Usually about one day, depending on the system type and any ductwork. Professional installation ensures proper performance and efficiency. Degree of Comfort completes installations efficiently while maintaining high quality.' },
+      { q: 'Is it worth replacing an AC before it breaks?', a: 'Yes. Replacing before it fails prevents emergency repairs and rushed decisions, and lets you choose the right system and financing on your own schedule. Degree of Comfort helps homeowners plan AC replacements proactively.' },
+      { q: 'Do higher-efficiency air conditioners cost more?', a: 'Yes, they typically cost more upfront, but they use less energy and lower your long-term operating costs. Degree of Comfort can help determine whether a high-efficiency system is the right investment for your home.' },
+      { q: 'Who should I call to replace my air conditioner?', a: 'Call a licensed HVAC professional for AC replacement. Degree of Comfort provides expert recommendations, professional installation, and dependable service across the Tri-State with upfront, flat-rate pricing — call (513) 586-5107.' },
+    ],
+  },
+  {
+    slug: 'how-much-water-does-a-whole-home-dehumidifier-collect',
+    title: 'How Much Water Does a Whole-Home Dehumidifier Collect?',
+    category: 'Home Tips',
+    excerpt:
+      'In one test, a whole-home dehumidifier pulled 96 ounces of water — about three-quarters of a gallon — out of the air in just 4 hours, dropping humidity 15%. Here is what affects the total and why it matters.',
+    date: '2026-07-01',
+    dateModified: '2026-07-01',
+    readMinutes: 7,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/whole-home-dehumidifier-water-hero.jpg',
+    imageAlt: 'Technician adjusting a whole-home dehumidifier in a basement',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'A whole-home dehumidifier pulls a surprising amount of water' }, ' — in one test, 96 ounces, about three-quarters of a gallon, in only 4 hours, dropping humidity 15%.'],
+          [{ strong: 'Whole-home units are rated in pints per day' }, ', often 70 to 130 — far more than a portable, and they drain automatically with no tank to empty.'],
+          [{ strong: 'The total depends on humidity, capacity, and fan speed' }, ' — the damper your home, the more water it collects.'],
+          [{ strong: 'It is about more than water' }, ': controlling humidity fights mold and pests, protects your ', { link: 'AC', href: '/services/air-conditioning/' }, ', and lowers bills.'],
+        ],
+      },
+      { kind: 'p', spans: ['Quite a lot, and quickly. In one real-world test, a whole-home dehumidifier collected 96 ounces of water — roughly three-quarters of a gallon — in just 4 hours, and lowered the home’s humidity by 15% in that same window. That is far more than a portable unit manages, and it is pulling that moisture out of the air across the entire house. Here is what determines the total and why the amount matters.'] },
+
+      { kind: 'h2', text: 'So How Much Water Does It Actually Collect?' },
+      { kind: 'p', spans: ['Over a full day in a humid house, that pace adds up fast. Whole-home dehumidifiers are rated by how many pints of water they can remove per day, and most fall somewhere between 70 and 130 pints daily — a large capacity built to dry out a whole home rather than a single room.'] },
+
+      { kind: 'h2', text: 'What Affects How Much Water It Pulls' },
+      { kind: 'p', spans: ['The number is not fixed — it moves with conditions. A few factors decide how much water ends up collected:'] },
+      { kind: 'p', spans: [{ strong: 'Relative humidity.' }, ' The damper the air, the more water there is to remove. A muggy basement in July will fill the collection far faster than a dry room in the fall.'] },
+      { kind: 'p', spans: [{ strong: 'The unit’s capacity.' }, ' A higher-rated dehumidifier extracts more water per hour, which is why sizing it to your home matters.'] },
+      { kind: 'p', spans: [{ strong: 'Fan speed and extraction rate.' }, ' How fast the unit moves air across its coils affects how much moisture it can pull out in a given stretch of time.'] },
+      { kind: 'p', spans: [{ strong: 'The size of your home.' }, ' More square footage and more air volume mean more total moisture to manage.'] },
+
+      { kind: 'h2', text: 'Where Does All That Water Go?' },
+      { kind: 'p', spans: ['This is the part people appreciate most. A portable dehumidifier fills a tank you have to empty by hand, sometimes more than once a day in a damp house. A whole-home unit is plumbed to drain automatically — routed to a floor drain, a sump pit, or a condensate pump — so all that water leaves on its own and you never think about it. If you are fighting basement moisture in particular, it pairs well with the steps in our guide on ', { link: 'keeping your basement dry', href: '/4-tips-for-keeping-your-basement-dry-this-spring/' }, '.'] },
+
+      { kind: 'h2', text: 'Whole-Home vs. Portable Dehumidifiers' },
+      { kind: 'p', spans: ['A portable is fine for one problem room, but it only treats that room, needs constant emptying, and cannot keep up with a whole house. A whole-home dehumidifier ties into your HVAC system, treats the air throughout the home, drains itself, and holds a steady humidity level automatically. For anything beyond a single space, it is far less hassle and far more effective — the same logic that makes a whole-home approach win for its counterpart, the ', { link: 'whole-home humidifier', href: '/how-a-whole-home-humidifier-works-everything-you-need-to-know/' }, ', in winter.'] },
+
+      { kind: 'h2', text: 'The Payoff: Why the Amount Matters' },
+      { kind: 'p', spans: ['All that collected water is moisture that is no longer sitting in your air and on your surfaces. Keeping indoor humidity in the healthy 30 to 50 percent range does real work: it discourages mold, dust mites, and the pests that like damp spaces — spiders, roaches, silverfish — and it takes a load off your air conditioner, which no longer has to wring out humid air on its own. That means better ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' efficiency, lower energy bills, and less cleaning. It is a core piece of good ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, '.'] },
+
+      { kind: 'h2', text: 'Dry, Comfortable Air With Degree of Comfort' },
+      { kind: 'p', spans: ['If your home feels muggy, smells musty, or you are constantly emptying a portable unit, a whole-home dehumidifier is worth a look. Degree of Comfort sizes and installs whole-home dehumidifiers and indoor air quality systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Ready to dry out the house? Call ', { strong: '(513) 586-5107' }, ', ask about a whole-home dehumidifier and indoor air quality, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+  },
+  {
+    slug: 'what-temperature-should-i-set-my-air-conditioner-to-in-the-summer',
+    title: 'What Temperature Should I Set My Air Conditioner to in the Summer?',
+    category: 'Cooling',
+    excerpt:
+      'The U.S. Department of Energy recommends 78°F when you are home. Here is how to set your AC through the day — home, away, and asleep — to stay comfortable without running up the bill.',
+    date: '2026-07-01',
+    dateModified: '2026-07-01',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/ac-temperature-summer-hero.jpg',
+    imageAlt: 'Woman adjusting a smart thermostat using a phone app',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'The Department of Energy recommends 78°F' }, ' when you are home and awake — the balance point between comfort and a reasonable energy bill.'],
+          [{ strong: 'Adjust by time of day' }, ': push it into the low-to-mid 80s when the house is empty, and set it a few degrees cooler for sleep.'],
+          [{ strong: 'A programmable or smart thermostat' }, ' makes those changes automatically, so you save without thinking about it.'],
+          [{ strong: 'Every degree lower raises your bill' }, ' — and a ceiling fan lets you sit comfortably at a higher setting.'],
+        ],
+      },
+      { kind: 'p', spans: ['The short answer: the U.S. Department of Energy recommends setting your air conditioner to ', { strong: '78°F' }, ' when you are home and awake. That is the number that balances staying comfortable with not overpaying to cool the house. The longer answer is that the best setting changes through the day — and there are a few ways to stay comfortable while nudging it higher. Here is how to think about it.'] },
+
+      { kind: 'h2', text: 'The Ideal Summer Setting: 78°F' },
+      { kind: 'p', spans: ['The Department of Energy points to 78°F as the sweet spot for a summer day when you are home. That said, plenty of households here in the Midwest run cooler — somewhere in the 70 to 74°F range is the most common real-world setting. There is nothing wrong with that; just know that the lower you go, the more you pay. Think of 78°F as the efficient baseline and adjust from there based on your own comfort.'] },
+
+      { kind: 'h2', text: 'Adjust the Temperature by Time of Day' },
+      { kind: 'p', spans: ['You do not need one setting for the whole day. The biggest savings come from letting the temperature drift up when no one benefits from keeping it cool.'] },
+      { kind: 'h3', text: 'While You Are Away' },
+      { kind: 'p', spans: ['When the house is empty during work hours, there is no reason to cool it to a comfortable living temperature. Letting it rise into the low-to-mid 80s — around 82 to 85°F — cuts energy use while still protecting the home from excess heat and humidity. The AC then has less work to do to bring it back down when you return.'] },
+      { kind: 'h3', text: 'While You Sleep' },
+      { kind: 'p', spans: ['Most people sleep better a little cooler. Setting the thermostat around 4°F lower than your daytime number at night is a common approach — comfortable for sleeping without cooling an empty, awake house. Many homeowners land somewhere between 75 and 78°F overnight, depending on preference.'] },
+
+      { kind: 'h2', text: 'Let a Programmable or Smart Thermostat Do the Work' },
+      { kind: 'p', spans: ['Remembering to change the thermostat four times a day is not realistic, which is exactly why programmable and smart thermostats exist. You set the schedule once — warmer while away, cooler for sleep, comfortable when you are home and awake — and it handles the rest, preventing the unnecessary cooling that quietly runs up your bill. Smart models go further, adjusting automatically based on your habits. For the full picture, see our guide on ', { link: 'how smart thermostats save money and improve comfort', href: '/how-smart-thermostats-save-money-and-improve-comfort/' }, '.'] },
+
+      { kind: 'h2', text: 'What Affects Your Comfortable Temperature' },
+      { kind: 'p', spans: ['The right number is not the same for everyone. Personal preference, age, and how much humidity is in the air all change how warm a given temperature feels. Humidity is a big one — damp air feels warmer, so a system that manages moisture well lets you stay comfortable at a higher setting. Ceiling fans help too: running them lets you raise the thermostat a few degrees and still feel just as cool, since moving air makes your skin feel cooler even when the temperature has not changed.'] },
+
+      { kind: 'h2', text: 'The Bottom Line: Every Degree Counts' },
+      { kind: 'p', spans: ['Every degree lower can noticeably increase your cooling costs over a summer, so the goal is to find the highest setting that still feels comfortable and let it rise whenever you can. If your home will not hold a comfortable temperature even at a reasonable setting — or one room is always warmer than the rest — that usually points to an airflow, insulation, or system issue rather than the thermostat, and our guide on ', { link: 'uneven cooling', href: '/common-causes-of-uneven-cooling-in-your-home/' }, ' covers why.'] },
+
+      { kind: 'h2', text: 'Stay Comfortable and Efficient With Degree of Comfort' },
+      { kind: 'p', spans: ['If your AC is struggling to hold the temperature you set, or you want a smart thermostat installed and dialed in, Degree of Comfort can help. We service, repair, and tune ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems and install thermostats across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Want a cooler, cheaper summer? Call ', { strong: '(513) 586-5107' }, ', ask about a thermostat upgrade or ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'What temperature should I set my air conditioner to in the summer?', a: 'The recommended setting is 78°F when you are home, which balances comfort and energy efficiency. Degree of Comfort helps homeowners fine-tune thermostat settings to reduce cooling costs without sacrificing comfort.' },
+      { q: 'What temperature should I set my air conditioner to at night in the summer?', a: 'Many homeowners set it between 75 and 78°F at night, depending on preference — a slightly higher setting saves energy while still allowing restful sleep. Degree of Comfort can recommend thermostat solutions to optimize nighttime cooling.' },
+      { q: 'What temperature should I set my air conditioner to when away in summer?', a: 'Set it to 82 to 85°F when away to cut energy use while still protecting your home from excess heat and humidity. A smart thermostat makes these adjustments automatic. Degree of Comfort installs and programs smart thermostats for energy savings.' },
+      { q: 'Does setting the thermostat lower cool the house faster?', a: 'No. Setting it lower does not cool your home any faster — it only makes the system run longer, using more energy. Degree of Comfort helps homeowners use their thermostat efficiently to prevent wasted energy.' },
+      { q: 'Can thermostat settings really lower energy bills?', a: 'Yes. Small adjustments through the day reduce system strain and cooling costs, which adds up over a summer. Degree of Comfort offers energy-saving solutions and thermostat upgrades.' },
+      { q: 'Are smart thermostats better for summer cooling?', a: 'Yes. Smart thermostats improve efficiency by adjusting temperatures automatically based on your schedule and habits, cutting energy waste. Degree of Comfort can install a smart thermostat that integrates with your HVAC system.' },
+      { q: 'What if my home still feels warm at the recommended setting?', a: 'If it feels warm at 78°F, your system may have an airflow, insulation, or efficiency issue. Degree of Comfort can inspect the system and recommend solutions to restore comfort.' },
+      { q: 'Who should I call for help setting my AC thermostat?', a: 'A licensed HVAC professional can optimize your thermostat settings and system performance. Degree of Comfort provides expert guidance, thermostat installation, and AC service to keep your home comfortable all summer — call (513) 586-5107.' },
+    ],
+  },
+  {
     slug: '4-tips-for-keeping-your-basement-dry-this-spring',
     title: 'Best Ways to Prevent Basement Flooding This Summer',
     category: 'Plumbing',
