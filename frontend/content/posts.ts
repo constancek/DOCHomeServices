@@ -26,6 +26,243 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: '4-tips-for-keeping-your-basement-dry-this-spring',
+    title: 'Best Ways to Prevent Basement Flooding This Summer',
+    category: 'Plumbing',
+    excerpt:
+      'Summer storms are when basements flood. Four practical steps — a working sump pump, a sound foundation, water managed outside, and proper waterproofing — keep yours dry before the rain rolls in.',
+    date: '2026-07-01',
+    dateModified: '2026-07-01',
+    readMinutes: 9,
+    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    image: '/blog/keep-basement-dry-spring-hero.jpg',
+    imageAlt: 'Homeowner standing in a flooded basement looking at the water damage',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'A working sump pump is your first line of defense' }, ' — sump pump failure is the number one cause of basement floods, so test it and add a battery backup.'],
+          [{ strong: 'Seal foundation cracks and basement windows' }, ' where water seeps in, and grade the yard so it slopes away from the house.'],
+          [{ strong: 'Move water away from the foundation' }, ' — clean gutters, extend downspouts at least 3 feet out, and keep drains clear.'],
+          [{ strong: 'Waterproof and control humidity' }, ' with sealant, window well covers, and a dehumidifier to stop moisture and mold.'],
+        ],
+      },
+      { kind: 'p', spans: ['Summer is when basements flood — heavy rain, saturated ground, and storm-driven power outages all land in the same stretch of the year. Keeping yours dry comes down to four things: a reliable sump pump, a sound foundation, water managed outside the house, and proper waterproofing. Handle these before the storms arrive and you avoid the far bigger job of cleaning up after.'] },
+
+      { kind: 'h2', text: 'First, What Causes a Wet Basement?' },
+      { kind: 'p', spans: ['Basement water usually comes from heavy rain overwhelming poor drainage, water seeping through cracks in the walls or floor, or a sump pump that fails right when it is needed. Storms make it worse: a power outage can knock out the sump pump at the exact moment the water table is rising. Understanding which of these applies to your home tells you where to focus.'] },
+
+      { kind: 'h2', text: 'Tip 1: Protect the Systems Inside — Starting With the Sump Pump' },
+      { kind: 'p', spans: ['The sump pump is the most important piece of equipment keeping your basement dry, and sump pump failure is the number one cause of most basement floods.'] },
+      { kind: 'h3', text: 'Test the Pump and Add a Backup' },
+      { kind: 'p', spans: ['Check the sump pit for debris that could jam the pump, then test it by pouring a bucket of water into the pit — the pump should kick on, clear the water, and shut off. Because storms cause outages, a battery-powered backup pump or a separate generator is worth the investment, so the system keeps running when the power does not. If your pump is already acting up, our guide on ', { link: 'why your sump pump is not working', href: '/why-is-my-sump-pump-not-working/' }, ' covers what to check.'] },
+      { kind: 'h3', text: 'Add Flood Detection' },
+      { kind: 'p', spans: ['Water sensors detect the presence of water and sound an alarm before a small leak becomes a flood. Place them near the washing machine, dishwasher, water heater, and low points of the basement so you get a warning early, while there is still time to act.'] },
+
+      { kind: 'h2', text: 'Tip 2: Inspect Your Foundation and Windows' },
+      { kind: 'p', spans: ['Water finds the path of least resistance, and that is usually a crack. Inspect the exterior foundation, basement walls and floors, and the areas around doors and utility penetrations. Fill any cracks you find with an epoxy sealant before summer rain has a chance to work through them.'] },
+      { kind: 'h3', text: 'Check Windows and Landscaping' },
+      { kind: 'p', spans: ['Basement windows develop air and water leaks over time — re-caulk or replace old ones, which also improves energy efficiency. Then look at how your yard is graded: the ground should slope away from the foundation, not toward it, so rain drains off instead of pooling against the house.'] },
+
+      { kind: 'h2', text: 'Tip 3: Manage Water Outside the Home' },
+      { kind: 'p', spans: ['A lot of basement flooding starts with water that was never directed away from the house in the first place.'] },
+      { kind: 'h3', text: 'Clean Gutters and Extend Downspouts' },
+      { kind: 'p', spans: ['Clogged gutters spill rain straight down against the foundation. Keep them clear, and make sure downspouts carry water at least 3 feet away from the house — add extensions if they do not. It is one of the cheapest, most effective things you can do.'] },
+      { kind: 'h3', text: 'Clear Your Drains and Ditches' },
+      { kind: 'p', spans: ['At the start of the season, check that storm and yard drains are not blocked by mulch, leaves, and debris. A clogged drain sends water where you do not want it. For anything serious or recurring, a professional ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ' clears the line properly — and our guide on ', { link: 'how to tell if your main drain is clogged', href: '/how-do-you-know-if-your-main-drain-is-clogged/' }, ' helps you spot the signs.'] },
+
+      { kind: 'h2', text: 'Tip 4: Waterproof and Control Humidity' },
+      { kind: 'p', spans: ['Even a dry basement benefits from a moisture barrier. Seal visible cracks in the walls and floor, and consider a waterproofing membrane or sealant on the interior surfaces. Clear acrylic window well covers keep water from collecting around basement windows while still letting light in. Finally, monitor the humidity down there and run a dehumidifier as needed — controlling moisture is what keeps mold and mildew from taking hold even when there is no outright flooding.'] },
+
+      { kind: 'h2', text: 'Keep Your Basement Dry With Degree of Comfort' },
+      { kind: 'p', spans: ['Some of this is a weekend of gutter-cleaning and caulk; the sump pump and drainage side is where a professional pays off. Degree of Comfort installs and services ', { link: 'sump pumps', href: '/services/sump-pumps/' }, ', clears drains, and handles ', { link: 'plumbing', href: '/services/plumbing/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Want your basement ready before summer storms? Call ', { strong: '(513) 586-5107' }, ', ask about a sump pump check, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'What is the number one cause of basement flooding?', a: 'Sump pump failure is the leading cause of most basement floods, often because the pump is clogged, worn out, or knocked out by a storm-related power outage. Degree of Comfort can test your pump and add a battery backup so it keeps running when the power does not.' },
+      { q: 'How do I test my sump pump?', a: 'Clear any debris from the sump pit, then slowly pour a bucket of water in — the pump should turn on, pump the water out, and shut off on its own. If it does not, it needs service. Degree of Comfort repairs and replaces sump pumps across the Tri-State.' },
+      { q: 'Do I need a backup sump pump?', a: 'It is strongly recommended. Summer storms cause power outages at the worst possible time, and a battery-powered backup or generator keeps the pump working through them. Degree of Comfort can install a backup system sized to your home.' },
+      { q: 'How can I keep water away from my foundation?', a: 'Clean your gutters, extend downspouts to carry water at least 3 feet from the house, grade the yard to slope away from the foundation, and seal any foundation cracks. Degree of Comfort can handle the drainage and sealing that homeowners cannot reach.' },
+      { q: 'How do I stop basement humidity and mold?', a: 'Seal cracks, keep the space waterproofed, and run a dehumidifier to hold humidity down — mold and mildew need moisture to grow. Degree of Comfort can address the water sources behind persistent basement dampness.' },
+      { q: 'When should I call a professional about a wet basement?', a: 'Call if your sump pump is failing, water is seeping through cracks, or drains keep backing up — these need proper repair before the next heavy rain. Degree of Comfort offers sump pump service, drain cleaning, and plumbing across the Tri-State with upfront, flat-rate pricing — call (513) 586-5107.' },
+    ],
+  },
+  {
+    slug: 'why-is-my-air-conditioner-blowing-warm-air',
+    title: 'Why Is My Air Conditioner Blowing Warm Air?',
+    category: 'Cooling',
+    excerpt:
+      'An AC blowing warm air usually comes down to a thermostat setting, a clogged filter, low refrigerant, or a dirty outdoor unit. Here are the common causes, which you can fix yourself, and when to call a pro.',
+    date: '2026-07-01',
+    dateModified: '2026-07-01',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/ac-blowing-warm-air-hero.jpg',
+    imageAlt: 'Hand checking the airflow from a wall-mounted air conditioner',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Start with the thermostat and the filter' }, ' — a wrong setting or a clogged filter is the most common, and most fixable, cause of warm air.'],
+          [{ strong: 'Low refrigerant and frozen or dirty coils' }, ' are the next most likely culprits, and they need a professional.'],
+          [{ strong: 'Do not keep running an AC that blows warm' }, ' — it can cause more damage and drive up the repair bill.'],
+          [{ strong: 'If the easy checks do not fix it' }, ', call for ', { link: 'AC repair', href: '/services/ac-repair/' }, ' before a small problem becomes a compressor replacement.'],
+        ],
+      },
+      { kind: 'p', spans: ['When your air conditioner runs but the air coming out is warm, the cause is usually one of a handful of things — some you can fix in a couple of minutes, others that need a technician. Here is what to check, in order, and how to tell which camp your problem falls into.'] },
+
+      { kind: 'h2', text: 'Start With the Simple Checks' },
+      { kind: 'p', spans: ['Before assuming the worst, rule out the two most common and easiest causes.'] },
+      { kind: 'h3', text: 'Your Thermostat Settings' },
+      { kind: 'p', spans: ['It sounds obvious, but this catches people constantly. Make sure the thermostat is set to ', { strong: 'cool' }, ', not heat, and that the fan is set to ', { strong: 'auto' }, ' rather than ', { strong: 'on' }, '. With the fan on ', { strong: 'on' }, ', it runs continuously and blows room-temperature air even when the system is not actively cooling — which feels exactly like warm air from the vents. A wrong setting here is a five-second fix.'] },
+      { kind: 'h3', text: 'A Clogged Air Filter' },
+      { kind: 'p', spans: ['A filter packed with dust and debris chokes off airflow, forcing the system to work harder and, in bad cases, blow warm. Pull the filter and check it against a light — if light does not pass through, replace it. A fresh filter restores airflow and improves your indoor air quality at the same time. Our guide on ', { link: 'how often to change your furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, ' applies to your cooling system too.'] },
+
+      { kind: 'h2', text: 'Frozen Evaporator Coils' },
+      { kind: 'p', spans: ['If the indoor coil ices over, the system cannot absorb heat and ends up pushing warm air. Restricted airflow — often from that clogged filter — is a frequent cause. If you see ice on the unit or the refrigerant line, turn the AC off and let it thaw, then check the filter. If it keeps freezing, something deeper is going on and it needs a look. Regular maintenance is the best way to keep this from happening.'] },
+
+      { kind: 'h2', text: 'Low Refrigerant' },
+      { kind: 'p', spans: ['Refrigerant is what actually removes heat from your home’s air. When it runs low — almost always because of a leak — the system loses its ability to cool and blows warm air. Refrigerant leaks are hard to spot without the right tools, and topping off refrigerant without fixing the leak just wastes money. This one is a job for a professional, who can find the leak, repair it, and recharge the system properly.'] },
+
+      { kind: 'h2', text: 'A Dirty Condenser Coil' },
+      { kind: 'p', spans: ['The condenser is the outdoor unit, and its coil releases the heat your system pulls from inside. When it is caked in grime, grass clippings, and outdoor debris, it cannot shed that heat, and cooling suffers. Keeping the area around the outdoor unit clear and having the coil cleaned during routine ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ' keeps it working the way it should.'] },
+
+      { kind: 'h2', text: 'Electrical Problems' },
+      { kind: 'p', spans: ['Loose, corroded, or damaged wiring can stop parts of the system from running, including the components that make cold air. If the outdoor unit is not kicking on at all, an electrical fault or a tripped breaker may be to blame. Because this involves the electrical side of the system, it is best left to a professional rather than opened up yourself. If the unit will not start at all, our ', { link: 'AC not turning on troubleshooting guide', href: '/air-conditioner-not-turning-on-troubleshooting-tips/' }, ' walks through what to check first.'] },
+
+      { kind: 'h2', text: 'An Aging System' },
+      { kind: 'p', spans: ['Sometimes the honest answer is age. An air conditioner past its prime struggles to keep up during peak summer heat, and warm air can be a sign it is wearing out. If your unit is old, breaking down often, and getting expensive to run, it may be time to weigh a replacement — our guide on ', { link: 'whether to replace an old air conditioner', href: '/should-i-replace-my-old-air-conditioner/' }, ' can help you decide.'] },
+
+      { kind: 'h2', text: 'What You Can Do About It' },
+      { kind: 'p', spans: ['Work through the simple fixes first: check the thermostat, replace the filter, make sure the outdoor unit is running and clear of debris, and look for ice on the coils. If none of that brings the cold air back — or if you suspect refrigerant, coils, or wiring — stop running the system and call a professional. Continuing to run an AC that blows warm can turn a minor repair into a major one.'] },
+
+      { kind: 'h2', text: 'Get Your Cool Air Back With Degree of Comfort' },
+      { kind: 'p', spans: ['If the easy checks did not solve it, Degree of Comfort can diagnose why your ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' is blowing warm and fix it right the first time. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Ready to feel cold air again? Call ', { strong: '(513) 586-5107' }, ', ask about AC repair, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'Why is my air conditioner blowing warm air?', a: 'An air conditioner may blow warm air due to low refrigerant, a dirty air filter, thermostat issues, or a problem with the outdoor unit. Electrical or compressor issues can also be the cause. Degree of Comfort can quickly diagnose the problem and restore cool air.' },
+      { q: 'What should I do if my air conditioner is blowing warm air?', a: 'Check the thermostat settings, replace the air filter, and make sure the outdoor unit is running. If the issue continues, professional repair is needed. Degree of Comfort provides fast, reliable AC repair to fix the issue safely.' },
+      { q: 'How do you fix an air conditioner blowing warm air?', a: 'It depends on the cause. Common solutions include replacing filters, repairing refrigerant leaks, or fixing electrical components. Because these issues can be complex, Degree of Comfort recommends professional diagnosis to prevent further damage.' },
+      { q: 'Can low refrigerant cause warm air from an AC?', a: 'Yes, low refrigerant is a common reason an AC blows warm air. Refrigerant leaks reduce cooling capacity and can damage the system if ignored. Degree of Comfort can locate leaks and recharge refrigerant to restore proper cooling.' },
+      { q: 'Can a dirty air filter cause warm air?', a: 'Yes, a dirty air filter can restrict airflow and cause the AC to blow warm air. Replacing the filter is an easy first step. If warm air continues, Degree of Comfort can inspect the system for additional issues.' },
+      { q: 'How do you know when your air conditioner is broken?', a: 'Signs include warm air from the vents, weak airflow, unusual noises, frequent cycling, or rising energy bills. If these problems persist, Degree of Comfort can evaluate whether repair or replacement is needed.' },
+      { q: 'Is it safe to keep running an AC that blows warm air?', a: 'No, running an AC that blows warm air can cause additional damage and increase repair costs. It is best to turn the system off and call a professional. Degree of Comfort offers prompt AC service to prevent bigger problems.' },
+      { q: 'Who should I call if my air conditioner is blowing warm air?', a: 'Call a licensed HVAC professional with AC repair experience. Degree of Comfort provides expert diagnostics, honest recommendations, and dependable AC repair to restore comfort quickly across the Tri-State — call (513) 586-5107.' },
+    ],
+  },
+  {
+    slug: '5-heating-system-safety-and-efficiency-tips-for-fall',
+    title: '5 Heating System Safety and Efficiency Tips for Fall',
+    category: 'Heating',
+    excerpt:
+      'Fall is the window to get your heating system ready before winter. Five practical steps — from a professional tune-up to carbon monoxide detectors — that keep your home warm, efficient, and safe.',
+    date: '2026-07-01',
+    dateModified: '2026-07-01',
+    readMinutes: 7,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/fall-heating-safety-efficiency-tips-hero.jpg',
+    imageAlt: 'Outdoor heat pump unit beside a house with pink flowers in bloom',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Book a professional tune-up before winter' }, ' — fall is the ideal time to catch safety issues and breakdowns before the system runs hard.'],
+          [{ strong: 'Seal leaks and upgrade the thermostat' }, ' to stop paying to heat air that escapes through gaps around windows and doors.'],
+          [{ strong: 'Reverse ceiling fans to clockwise' }, ' to push the warm air that collects at the ceiling back down into the room.'],
+          [{ strong: 'Test your carbon monoxide detectors' }, ' — any gas-fired heating equipment makes working CO alarms non-negotiable.'],
+        ],
+      },
+      { kind: 'p', spans: ['Fall is the window to get your heating system ready before you actually need it. A little attention now — before the first hard freeze — keeps your home warmer, your bills lower, and your family safer once winter sets in. Here are five practical steps worth taking this season.'] },
+
+      { kind: 'h2', text: '1. Schedule Routine Maintenance' },
+      { kind: 'p', spans: ['This is the one that matters most. A professional tune-up before winter checks the parts that fail under heavy use, cleans the components that lose efficiency when they are dirty, and catches safety problems — like a cracked heat exchanger or a failing igniter — before they leave you without heat on the coldest night of the year. Fall is the best time to do it, ahead of the season when your furnace works hardest. Book ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ' now and you head into winter knowing the system is ready.'] },
+
+      { kind: 'h2', text: '2. Seal Windows and Doors' },
+      { kind: 'p', spans: ['Your heating system can be in perfect shape and still cost you money if the warm air it makes leaks straight out of the house. Check around windows and exterior doors for drafts and gaps, and seal them with weatherstripping or caulk. It is inexpensive, and it means your furnace runs less to hold the same temperature — lower bills and a more even, comfortable home.'] },
+
+      { kind: 'h2', text: '3. Upgrade to a Programmable Thermostat' },
+      { kind: 'p', spans: ['If you are still running a basic thermostat, a programmable or smart model is one of the easiest efficiency wins available. Set it to ease back the temperature while you are asleep or away and return to comfortable before you wake or come home, and you cut heating costs without ever noticing the difference. Many newer models carry an Energy Star rating and learn your routine on their own.'] },
+
+      { kind: 'h2', text: '4. Mind Space Heaters and Ceiling Fans' },
+      { kind: 'p', spans: ['Space heaters are handy for a cold room, but they need respect: keep them clear of anything flammable, plug them straight into the wall rather than a power strip, and never leave them running unattended. Ceiling fans help too — flip them to spin clockwise for winter. That gentle updraft pushes the warm air that naturally rises to the ceiling back down into the living space, so you feel warmer at the same thermostat setting.'] },
+
+      { kind: 'h2', text: '5. Protect Against Carbon Monoxide' },
+      { kind: 'p', spans: ['Any heating equipment that burns natural gas produces carbon monoxide, an odorless, colorless gas that is dangerous in an enclosed home. A well-maintained furnace vents it safely outside, but you still want a backstop. Install carbon monoxide detectors near sleeping areas and on each level of the home, test them regularly, and replace the batteries every fall. It is a small habit that protects against a serious risk, and it pairs with the annual inspection covered in our guide to ', { link: 'furnace safety measures', href: '/5-preventive-measures-for-furnace-safety/' }, '.'] },
+
+      { kind: 'h2', text: 'Get Winter-Ready With Degree of Comfort' },
+      { kind: 'p', spans: ['A few of these steps you can handle in an afternoon; the tune-up is one to leave to a professional. Degree of Comfort services, repairs, and installs ', { link: 'heating', href: '/services/heating/' }, ' systems and gets them ready for winter across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee. For more on keeping the system running clean, see ', { link: 'how often to change your furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, '.'] },
+      { kind: 'p', spans: ['Want your heat ready before the cold hits? Call ', { strong: '(513) 586-5107' }, ', ask about a fall heating tune-up, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'How dangerous is a furnace heating system?', a: 'A furnace is safe when properly maintained, but it can be dangerous if neglected — the risks include gas leaks, carbon monoxide exposure, and fire hazards. Annual professional inspections help prevent these issues, and Degree of Comfort handles that yearly safety check across the Tri-State.' },
+      { q: 'How does a gas furnace heating system work?', a: 'A gas furnace burns natural gas to create heat, which warms a heat exchanger; a blower then moves the warm air through your ducts and into your home, while exhaust gases are safely vented outside. Degree of Comfort installs, services, and repairs gas furnaces to keep that process running safely.' },
+      { q: 'Why is fall the best time for furnace maintenance?', a: 'Fall prepares your system before heavy winter use, so a tune-up can catch safety issues, improve efficiency, and prevent a mid-winter breakdown while there is still time to fix things. Degree of Comfort books fall heating tune-ups across the Tri-State.' },
+      { q: 'Can furnace maintenance improve energy efficiency?', a: 'Yes. Clean components, proper airflow, and accurate settings mean the furnace uses less energy and heats your home more evenly. Degree of Comfort tunes systems so they run efficiently through the coldest months.' },
+      { q: 'What are common furnace safety tips for homeowners?', a: 'Change the air filter regularly, keep flammable items away from the unit, install and test carbon monoxide detectors, and schedule an annual inspection. Degree of Comfort handles that yearly safety inspection and any repairs it turns up.' },
+      { q: 'Can a dirty furnace cause safety problems?', a: 'Yes. Dust buildup restricts airflow, raises the risk of overheating, and cuts efficiency. Regular cleaning and maintenance prevent it. Degree of Comfort cleans and inspects furnaces as part of a standard tune-up.' },
+      { q: 'How can I improve heating efficiency before winter?', a: 'Seal air leaks around windows and doors, replace the furnace filter, and schedule a professional tune-up — these steps let the system work less while keeping you more comfortable. Degree of Comfort can handle the tune-up and point out where your home is losing heat.' },
+      { q: 'When should I call a professional for furnace safety?', a: 'Call if you notice unusual smells, strange noises, uneven heating, or rising energy bills — these can signal a safety or efficiency problem. Degree of Comfort diagnoses and repairs heating issues across the Tri-State with upfront, flat-rate pricing — call (513) 586-5107.' },
+    ],
+  },
+  {
+    slug: 'can-your-ac-make-you-sick',
+    title: 'Can Your AC Make You Sick?',
+    category: 'Cooling',
+    excerpt:
+      'Yes, but not the way most people think. It is rarely the cold air — it is a dirty, poorly maintained unit circulating mold and allergens. Here is what actually makes you sick and how to prevent it.',
+    date: '2026-07-01',
+    dateModified: '2026-07-01',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/can-your-ac-make-you-sick-hero.jpg',
+    imageAlt: 'Person adjusting a wall-mounted air conditioner with a handheld remote',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Your AC can make you sick — but not from the cold air itself' }, '. The real cause is a dirty unit circulating mold, bacteria, and allergens.'],
+          [{ strong: 'A neglected system breeds mold and bacteria' }, ' in the coils and drain line, which then blow through the house and trigger coughing, sinus issues, and allergy flare-ups.'],
+          [{ strong: 'Humidity that is too high or too low' }, ' causes its own problems — from mold growth to dry throats and irritated eyes.'],
+          [{ strong: 'Annual maintenance is the fix' }, ' — clean coils, filters, and drain lines, plus ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' upgrades keep the air healthy.'],
+        ],
+      },
+      { kind: 'p', spans: ['Yes, your air conditioner can make you sick — but not the way most people assume. It is rarely the cold air. What actually causes problems is a dirty, poorly maintained unit circulating mold, bacteria, and allergens through your home. Here is what is really going on and how to keep your AC from working against your health.'] },
+
+      { kind: 'h2', text: 'Is the Cold Air Itself Making You Sick?' },
+      { kind: 'p', spans: ['Mostly, no. Catching a cold directly from cold air is a myth — colds come from viruses, not temperature. That said, air conditioning can play an indirect role. Moving suddenly from hot outdoor air into a cold room can irritate the nose and throat, and for people with asthma or other respiratory conditions, cold air can aggravate symptoms. Constant exposure to very cold, dry indoor air can leave your airways irritated and less comfortable. So the temperature is a minor factor, but it is not the main event.'] },
+
+      { kind: 'h2', text: 'The Real Culprit: Air Quality Inside a Dirty AC' },
+      { kind: 'p', spans: ['The bigger issue is what is living inside a neglected system. When an AC unit goes without cleaning, its coils, filters, and drain line become a damp, dark home for mold, bacteria, and other pathogens. Every time the system runs, it can push those contaminants out into the air you breathe, which is a common trigger for coughing, sneezing, headaches, fatigue, and sinus irritation — the cluster of symptoms sometimes called sick building syndrome. If your home smells musty when the AC kicks on, that odor is a warning sign, and our guide on ', { link: 'why your air conditioner smells bad', href: '/5-reasons-why-your-air-conditioner-smells-bad/' }, ' walks through what it usually means.'] },
+
+      { kind: 'h2', text: 'Humidity: Too Damp and Too Dry Both Cause Problems' },
+      { kind: 'p', spans: ['A healthy AC also manages moisture. When it does not, comfort and health both suffer. Air that stays too humid encourages mold to grow on surfaces and inside the system itself. Air that runs too dry leaves you with skin irritation, a scratchy throat, and dry eyes. The comfortable, healthy range sits around 30 to 50 percent relative humidity, and a properly working, properly sized system holds you there instead of swinging to either extreme.'] },
+
+      { kind: 'h2', text: 'How to Keep Your AC From Making You Sick' },
+      { kind: 'p', spans: ['The good news is that every one of these problems is preventable. A few habits keep the air clean.'] },
+      { kind: 'h3', text: 'Keep Up With Maintenance' },
+      { kind: 'p', spans: ['This is the single most important step. A yearly professional tune-up cleans the coils, drain line, and internal components before mold and bacteria can take hold, and it catches small issues before they become health hazards. Check or change your filter monthly during cooling season. For why routine service is worth it, see our post on ', { link: 'whether AC tune-ups are worth it', href: '/do-you-really-need-ac-maintenance-are-ac-tune-ups-worth-it/' }, ', or book ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ' directly.'] },
+      { kind: 'h3', text: 'Let In Fresh Air' },
+      { kind: 'p', spans: ['A sealed-up house recirculates the same air all summer, letting pollutants build up. Opening windows and doors for a while when the weather allows helps flush stale air out and lowers the concentration of indoor contaminants.'] },
+      { kind: 'h3', text: 'Stay Hydrated' },
+      { kind: 'p', spans: ['It is easy to forget in a cool, comfortable room, but air conditioning pulls moisture from the air and from you. Drinking enough water through the hot months keeps your throat and sinuses from drying out, which makes them less prone to irritation.'] },
+
+      { kind: 'h2', text: 'Upgrades That Improve Indoor Air Quality' },
+      { kind: 'p', spans: ['If clean, healthy air is a priority — especially for a household with allergies or asthma — a few additions to your system go further than filters alone. UV lights installed in the HVAC system kill mold, bacteria, and viruses as air passes by. Whole-home air cleaners and ', { link: 'air purifiers', href: '/what-are-the-benefits-of-having-an-air-purifier/' }, ' filter out fine particles and allergens the standard filter misses. Both are part of a proper ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' setup.'] },
+
+      { kind: 'h2', text: 'Breathe Easier With Degree of Comfort' },
+      { kind: 'p', spans: ['If your AC smells musty, your allergies spike whenever it runs, or it has been more than a year since it was serviced, it is worth having a professional look. Degree of Comfort cleans, maintains, and repairs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems and installs indoor air quality upgrades that keep your home healthy. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Want cleaner, healthier air at home? Call ', { strong: '(513) 586-5107' }, ', ask about AC maintenance and indoor air quality, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'Can your air conditioner make you sick?', a: 'Yes, if it circulates dirty air, mold, or allergens. Poor maintenance lets contaminants build up in the coils and drain line and spread through your home. Degree of Comfort offers AC cleaning and indoor air quality solutions to keep your air healthy.' },
+      { q: 'Can mold in your AC make you sick?', a: 'Yes. Mold spores can trigger allergies, asthma symptoms, headaches, and respiratory issues. If you notice a musty smell or these symptoms, Degree of Comfort can inspect your system and clear the mold safely.' },
+      { q: 'What symptoms can a dirty AC cause?', a: 'Coughing, sneezing, headaches, fatigue, sinus irritation, and allergy flare-ups that often ease once the air is cleaned up. Degree of Comfort provides professional AC maintenance that cuts down the airborne contaminants behind those symptoms.' },
+      { q: 'Is it safe to run an AC that smells musty?', a: 'No — a musty smell usually means mold, and running the system can spread spores through the house. It is best to have it inspected. Degree of Comfort can diagnose the odor and restore clean airflow.' },
+      { q: 'How often should I service my AC to protect my health?', a: 'Have it professionally serviced once a year and check the filter monthly during cooling season. That keeps the coils, filters, and drain lines clean and protects your indoor air. Degree of Comfort makes routine AC maintenance easy across the Tri-State — call (513) 586-5107.' },
+    ],
+  },
+  {
     slug: 'how-does-a-tankless-water-heater-work',
     title: 'How Does a Tankless Water Heater Work?',
     category: 'Plumbing',
