@@ -26,6 +26,78 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: '7-signs-your-home-air-filter-is-past-its-prime',
+    title: '7 Signs Your Home Air Filter Is Past Its Prime',
+    category: 'Home Tips',
+    excerpt:
+      'A clogged air filter drives up your bills, strains your HVAC system, and dirties your air. Here are seven signs it is overdue for a change — and how often each type of filter should really be replaced.',
+    date: '2026-07-01',
+    dateModified: '2026-07-01',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/air-filter-past-prime-hero.jpg',
+    imageAlt: 'Man replacing a pleated air filter in a ceiling return vent',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'A dirty filter costs you money' }, ' — it forces the system to work harder, raising energy bills and risking expensive breakdowns.'],
+          [{ strong: 'Watch for the warning signs' }, ': dusty vents, weak airflow, longer heating and cooling, higher bills, and worse allergies.'],
+          [{ strong: 'Change most filters every 1 to 3 months' }, ', though the exact schedule depends on filter thickness, pets, and allergies.'],
+          [{ strong: 'It is a five-minute job' }, ' — and a core part of ', { link: 'HVAC maintenance', href: '/services/furnace-maintenance/' }, ' that protects your whole system.'],
+        ],
+      },
+      { kind: 'p', spans: ['Your air filter is the cheapest, easiest thing you can maintain in your HVAC system — and one of the most neglected. When it clogs, it quietly drives up your bills, strains the equipment, and lets dust and allergens circulate. Here are seven signs yours is past its prime, plus how often it should actually be changed.'] },
+
+      { kind: 'h2', text: '1. Your Vents Are Full of Dust and Dirt' },
+      { kind: 'p', spans: ['The dirtier a filter gets, the less dust it can catch — so that dust settles in your ductwork, on vent registers and grilles, and across the house. If you are dusting more often than usual, a clogged filter is a likely culprit. (Leaky ducts or gaps around windows and doors can cause the same thing, so those are worth a look too.)'] },
+
+      { kind: 'h2', text: '2. The Filter Simply Looks Dirty' },
+      { kind: 'p', spans: ['The most direct sign of all. Pull the filter out and look at it — if it is gray, matted, and caked with debris, it is done. A quick visual check is all it takes, and any visibly dirty filter should be replaced right away.'] },
+
+      { kind: 'h2', text: '3. Your System Takes Longer to Heat or Cool' },
+      { kind: 'p', spans: ['A clogged filter restricts airflow, which often makes a furnace or AC cycle on and off more frequently — called short-cycling — without actually making the house more comfortable. If your system seems to run constantly but never quite catches up, a fresh filter is the first thing to try. If it does not help, something deeper may need a professional look.'] },
+
+      { kind: 'h2', text: '4. Your Energy Bills Are Climbing' },
+      { kind: 'p', spans: ['When the system runs longer and harder to push air through a blocked filter, it burns more energy — and you see it on the bill. A rising energy bill with no other explanation is a classic sign. Regular filter changes keep the system running efficiently; if bills stay high after a change, it points to another issue worth diagnosing.'] },
+
+      { kind: 'h2', text: '5. Your Indoor Air Quality Has Dropped' },
+      { kind: 'p', spans: ['A spent filter stops trapping the dust, pollen, and pet dander it is supposed to, so those irritants circulate instead. More sneezing, worse allergies, or stuffier air are all signs. A filter rated MERV 5 to 8 handles common irritants, and MERV 9 to 12 catches finer particles — and the improvement is usually noticeable almost immediately after a change. For more, see ', { link: 'the benefits of an air purifier', href: '/what-are-the-benefits-of-having-an-air-purifier/' }, '.'] },
+
+      { kind: 'h2', text: '6. The AC Unit Is Hot to the Touch' },
+      { kind: 'p', spans: ['A clogged filter makes your air conditioner work harder, and that strain can leave the unit hot to the touch or blowing warm air. Left alone, that extra load can lead to major repairs or a full breakdown. If the house feels unusually warm, check the filter before anything else — our guide on ', { link: 'why an AC blows warm air', href: '/why-is-my-air-conditioner-blowing-warm-air/' }, ' covers what else to look at.'] },
+
+      { kind: 'h2', text: '7. You Cannot Remember the Last Time You Changed the Air Filter' },
+      { kind: 'p', spans: ['If you have to think hard about when the filter was last replaced, it is overdue. The safest move is to pull it, look at it, and swap it if it is dirty. Getting on a regular schedule takes the guesswork out entirely.'] },
+
+      { kind: 'h2', text: 'How Often Should You Change Your Air Filter?' },
+      { kind: 'p', spans: ['Most homeowners should change their filter every 1 to 3 months, but the right interval depends heavily on how thick the filter is — thicker filters hold more debris before they clog:'] },
+      { kind: 'p', spans: [{ strong: '1-inch pleated:' }, ' every 30 to 60 days.'] },
+      { kind: 'p', spans: [{ strong: '2-inch pleated:' }, ' every 90 days.'] },
+      { kind: 'p', spans: [{ strong: '3-inch pleated:' }, ' every 120 days.'] },
+      { kind: 'p', spans: [{ strong: '4-inch pleated:' }, ' every 6 months.'] },
+      { kind: 'p', spans: [{ strong: '5- to 6-inch pleated:' }, ' every 9 to 12 months.'] },
+      { kind: 'p', spans: ['Pets, allergies, and heavy system use all shorten those intervals. Our guide on ', { link: 'how often to change your furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, ' goes deeper on finding the right schedule for your home.'] },
+
+      { kind: 'h2', text: 'Changing the Air Filter Is Easy' },
+      { kind: 'p', spans: ['Swapping a filter takes a few minutes: turn the system off, locate the filter behind its grille or in the return, slide the old one out, and slide the new one in — matching the airflow arrows on the frame to the direction of airflow. Close the grille and turn the system back on. That is it. If you are not sure which filter size or MERV rating your system needs, a technician can point you to the right one.'] },
+
+      { kind: 'h2', text: 'Keep Your Air Clean With Degree of Comfort' },
+      { kind: 'p', spans: ['A fresh filter is the easiest win in home comfort, but if the warning signs stick around after a change, the system itself may need attention. Degree of Comfort handles ', { link: 'HVAC maintenance', href: '/services/furnace-maintenance/' }, ', repairs, and ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Want cleaner air and a system that runs right? Call ', { strong: '(513) 586-5107' }, ', ask about a maintenance visit, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'How often should I change my home air filter?', a: 'Most homeowners should change it every 1 to 3 months, depending on filter type, pets, allergies, and system usage. Regular replacement maintains airflow and efficiency. Degree of Comfort can recommend the right filter and schedule for your home.' },
+      { q: 'What are signs your home air filter needs to be changed?', a: 'Visible dirt buildup, weak airflow, more dust, higher energy bills, and allergy flare-ups — and a system that seems to work harder than it should. Degree of Comfort can inspect your system during routine maintenance.' },
+      { q: 'Does changing your home air filter improve performance?', a: 'Yes. A clean filter restores proper airflow, which reduces strain on the system and helps it heat and cool more efficiently. Degree of Comfort recommends regular filter changes to protect your HVAC system.' },
+      { q: 'Can a dirty air filter increase energy bills?', a: 'Yes. A dirty filter forces the system to work harder, and that restricted airflow lowers efficiency and raises operating costs. Degree of Comfort helps homeowners avoid that waste with proper maintenance.' },
+      { q: 'Can an old air filter affect indoor air quality?', a: 'Yes. A spent filter lets dust, allergens, and debris circulate instead of trapping them. Replacing it keeps indoor air cleaner and healthier. Degree of Comfort offers indoor air quality solutions for better home comfort.' },
+      { q: 'Will changing my air filter help with allergies?', a: 'Yes. Regular changes reduce allergens like dust, pollen, and pet dander, and a higher-quality filter can ease allergy symptoms further. Degree of Comfort can recommend filters designed for allergy relief.' },
+      { q: 'What happens if I do not change my home air filter?', a: 'Poor airflow, system overheating, higher energy bills, and premature HVAC failure. Routine filter changes are one of the easiest ways to protect your system. Degree of Comfort offers maintenance plans to help you stay on schedule.' },
+      { q: 'Who should I call if I am not sure which air filter to use?', a: 'A licensed HVAC professional can help you choose the correct filter for your system. Degree of Comfort provides expert guidance, filter recommendations, and HVAC maintenance across the Tri-State — call (513) 586-5107.' },
+    ],
+  },
+  {
     slug: 'how-much-is-a-new-air-conditioner',
     title: 'How Much Is a New Air Conditioner?',
     category: 'Cooling',
