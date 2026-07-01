@@ -26,6 +26,313 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: 'how-a-whole-home-humidifier-works-everything-you-need-to-know',
+    title: 'How a Whole-Home Humidifier Works: Everything You Need to Know',
+    category: 'Home Tips',
+    excerpt:
+      'A whole-home humidifier adds moisture to your air through the HVAC system, treating every room at once. How it works, why balanced humidity matters, and what it costs to run.',
+    date: '2026-07-01',
+    dateModified: '2026-07-01',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/whole-home-humidifier-hero.jpg',
+    imageAlt: 'Home humidifier releasing mist next to houseplants on a windowsill',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'A whole-home humidifier adds moisture through your HVAC system' }, ', treating every room instead of one at a time.'],
+          [{ strong: 'Balanced humidity — around 30 to 50 percent' }, ' — eases dry skin, sinuses, and static, and protects wood floors and furniture.'],
+          [{ strong: 'It uses very little energy' }, ', and moist air feels warmer, so you can often lower the thermostat and trim heating costs.'],
+          [{ strong: 'It is a professional install and needs light upkeep' }, ' — part of a healthy ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' setup.'],
+        ],
+      },
+      { kind: 'p', spans: ['A whole-home humidifier solves dry indoor air the way portable units cannot — by adding moisture to your air through the HVAC system, so every room stays comfortable instead of just the one with a tank running in the corner. Here is exactly how it works, why the right humidity level matters, and what it costs to run.'] },
+
+      { kind: 'h2', text: 'How a Whole-Home Humidifier Works' },
+      { kind: 'p', spans: ['A whole-home humidifier is built into your ', { link: 'heating', href: '/services/heating/' }, ' and cooling system, connected to both your water supply and your ductwork. As your furnace runs and pushes warm air through the home, the humidifier introduces moisture into that airflow — usually by passing the air across a wet pad or panel — and the ducts carry the now-humidified air to every room. Because it rides on the air your system is already moving, the humidity stays even throughout the house rather than pooling in one spot. A humidistat lets you set the level you want, and the unit adds moisture only when the air needs it.'] },
+
+      { kind: 'h2', text: 'Why Proper Humidity Matters' },
+      { kind: 'p', spans: ['Indoor air is most comfortable somewhere around 30 to 50 percent relative humidity. Too dry — common in winter when heating strips moisture out of the air — and you get itchy skin, chapped lips, irritated sinuses, static shocks, and cracking in wood floors, trim, and furniture. Too humid, and you invite condensation and mold. A whole-home humidifier holds the balance in that healthy middle, which is easier on your body and your house. For the full picture of what dry air does and how to fix it, see our guide on ', { link: 'coping with dry indoor air in winter', href: '/how-to-cope-with-dry-indoor-air-during-winter/' }, '.'] },
+      { kind: 'h3', text: 'The Effect on Your Energy Bill' },
+      { kind: 'p', spans: ['This surprises people: a whole-home humidifier can actually help your heating bill. It draws very little electricity compared with the furnace it works alongside, and because moist air feels warmer than dry air at the same temperature, you can often set the thermostat a couple of degrees lower and stay just as comfortable. Over a winter, that small setback adds up, offsetting much of the humidifier’s own tiny energy use.'] },
+
+      { kind: 'h2', text: 'The Main Types of Whole-Home Humidifiers' },
+      { kind: 'p', spans: ['There are three common styles, and the right one depends on your home and how much moisture you need.'] },
+      { kind: 'h3', text: 'Bypass Humidifiers' },
+      { kind: 'p', spans: ['The most common and affordable type. A bypass humidifier uses your furnace’s own blower to route warm air across a water panel and back into the ducts. It is simple and reliable, though it works mainly while the furnace is actively heating.'] },
+      { kind: 'h3', text: 'Fan-Powered Humidifiers' },
+      { kind: 'p', spans: ['A fan-powered (or flow-through) unit adds its own small fan, so it pushes more air across the water panel and produces more moisture. Because it does not rely on the furnace blower, it can run even when the system is only circulating air, making it a good step up for drier or larger homes.'] },
+      { kind: 'h3', text: 'Steam Humidifiers' },
+      { kind: 'p', spans: ['A steam humidifier heats water to create steam and injects it into the airflow. It delivers the most moisture, the most precise control, and works independently of whether the furnace is heating — the trade-off is that it uses more energy and costs more upfront. It is the best fit for very dry climates or larger homes that need serious output.'] },
+
+      { kind: 'h2', text: 'Whole-Home vs. Portable Humidifiers' },
+      { kind: 'p', spans: ['A portable humidifier is fine for a single bedroom, but it only treats the room it is in, needs constant refilling, and has to be cleaned often to avoid mold and mineral buildup. A whole-home unit treats the entire house from one place, runs off your plumbing so there are no tanks to fill, and holds a consistent humidity level everywhere automatically. For anything beyond one room, the whole-home approach is far less hassle and far more effective. It pairs naturally with other ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' upgrades like an ', { link: 'air purifier', href: '/what-are-the-benefits-of-having-an-air-purifier/' }, '.'] },
+
+      { kind: 'h2', text: 'Installation and Maintenance' },
+      { kind: 'p', spans: ['A whole-home humidifier is installed by a professional directly into your HVAC system and water line — it involves ductwork, a water connection, and wiring, so it is not a DIY project. Once in, upkeep is light: the water panel or pad is typically replaced once a year, and the unit gets a quick check during your annual ', { link: 'HVAC maintenance', href: '/services/furnace-maintenance/' }, ' visit. That small amount of care keeps it running efficiently and the air consistently comfortable.'] },
+
+      { kind: 'h2', text: 'Add Whole-Home Comfort With Degree of Comfort' },
+      { kind: 'p', spans: ['If dry winter air, static, or cracking woodwork are wearing on your household, a whole-home humidifier is one of the more worthwhile comfort upgrades you can make. Degree of Comfort can recommend, size, and install the right unit for your home. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Ready for comfortable air in every room? Call ', { strong: '(513) 586-5107' }, ', ask about a whole-home humidifier and ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'How does a whole-home humidifier work?', a: 'It connects to your HVAC system, water supply, and ductwork. As the furnace moves warm air through the home, the humidifier adds moisture to that airflow — usually across a wet pad — and the ducts carry the humidified air to every room, held at the level you set on a humidistat. Degree of Comfort installs whole-home humidifiers matched to your existing system.' },
+      { q: 'Do whole-home humidifiers actually work?', a: 'Yes. Because they treat all the air your system circulates, they hold a consistent, comfortable humidity throughout the whole house — far more effectively than a portable unit that only affects one room. Degree of Comfort can recommend and install the right one for your home.' },
+      { q: 'What are the benefits of a whole-home humidifier?', a: 'Balanced humidity eases dry skin, chapped lips, and irritated sinuses, cuts down static electricity, and protects wood floors, trim, and furniture from cracking. It can also let you lower the thermostat, since humid air feels warmer. Ask Degree of Comfort which unit best fits your home.' },
+      { q: 'Are whole-home humidifiers better than portable ones?', a: 'For treating a whole house, yes. A whole-home unit covers every room from one place, runs off your plumbing with no tanks to refill, and holds a steady level automatically. Portables are fine for a single bedroom but need constant refilling and cleaning. Degree of Comfort specializes in whole-home humidifier installs.' },
+      { q: 'Can a whole-home humidifier help with dry winter air?', a: 'That is exactly what it is for. Heating dries out indoor air all winter, and a whole-home humidifier replaces that lost moisture across the home, easing the dry skin, static, and scratchy throats that come with the heating season. Degree of Comfort installs humidifiers built for our cold Cincinnati winters.' },
+      { q: 'Does a whole-home humidifier raise my energy bill?', a: 'Barely — it uses very little electricity next to your furnace, and because moist air feels warmer, you can often set the thermostat a bit lower. That small setback tends to offset the humidifier’s own energy use over the winter. Degree of Comfort can walk you through the running costs for your setup.' },
+      { q: 'Do whole-home humidifiers need maintenance?', a: 'Only a little. The water panel or pad is usually replaced once a year, and the unit gets a quick check during your annual HVAC tune-up. That light upkeep keeps it efficient and the air consistently comfortable. Degree of Comfort handles humidifier service alongside your yearly tune-up.' },
+      { q: 'Who should install a whole-home humidifier?', a: 'A licensed HVAC professional, since it ties into your ductwork, water line, and wiring. Degree of Comfort sizes and installs whole-home humidifiers and indoor air quality systems across the Tri-State, with upfront, flat-rate pricing — call (513) 586-5107.' },
+    ],
+  },
+  {
+    slug: 'snaking-vs-hydro-jetting-which-option-is-right-for-you',
+    title: 'Snaking vs. Hydro Jetting: Which Option Is Right for You?',
+    category: 'Plumbing',
+    excerpt:
+      'Snaking punches through a clog; hydro jetting scours the whole pipe clean. Which one you need comes down to the clog, your pipes, and how often it happens.',
+    date: '2026-07-01',
+    dateModified: '2026-07-01',
+    readMinutes: 7,
+    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    image: '/blog/snaking-vs-hydro-jetting-hero.jpg',
+    imageAlt: 'Plumber running a drain snake into an outdoor drain cleanout',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Snaking breaks through a clog' }, ' with a steel cable; hydro jetting blasts the pipe clean with high-pressure water.'],
+          [{ strong: 'Hydro jetting is more thorough' }, ' — it is the better choice for stubborn grease, sludge, and tree roots.'],
+          [{ strong: 'Snaking is gentler' }, ' — often the safer pick for older or fragile pipes, and cheaper for a simple, single clog.'],
+          [{ strong: 'The right method depends on your situation' }, ' — the clog, your pipes, and how often it comes back. A ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ' pro can tell you which.'],
+        ],
+      },
+      { kind: 'p', spans: ['Both snaking and hydro jetting clear a clogged drain, but they work very differently. Snaking punches a hole through the blockage; hydro jetting scours the entire pipe wall clean. Which one you need comes down to three things: the kind of clog, the age and condition of your pipes, and whether the problem keeps coming back.'] },
+      { kind: 'p', spans: ['Here is how each method works, where each one shines, and how to choose.'] },
+
+      { kind: 'h2', text: 'What Are Snaking and Hydro Jetting?' },
+      { kind: 'h3', text: 'Drain Snaking' },
+      { kind: 'p', spans: ['A drain snake (or auger) is a long, flexible steel cable you feed into the pipe. A coiled or bladed tip on the end breaks apart or hooks the clog so it can be pulled out or pushed through. It is the traditional, mechanical approach — quick and effective for a single, localized blockage like hair, food, or a toy stuck in a line.'] },
+      { kind: 'h3', text: 'Hydro Jetting' },
+      { kind: 'p', spans: ['Hydro jetting sends a high-pressure stream of water — often several thousand PSI — through a specialized nozzle down the line. Instead of just poking a hole, the water blasts away grease, sludge, mineral scale, and even tree roots, and scours the pipe walls back to near-clean. It clears the whole diameter of the pipe, not just a channel through the middle.'] },
+
+      { kind: 'h2', text: 'The Pros and Cons of Each' },
+      { kind: 'h3', text: 'Where Hydro Jetting Wins' },
+      { kind: 'p', spans: ['Hydro jetting is the more thorough of the two. It handles the stubborn stuff snaking struggles with — heavy grease buildup, years of sludge, and ', { link: 'tree roots', href: '/services/sewer-repair-replacement/' }, ' in a sewer line — and because it cleans the full pipe wall, the results last longer before the next clog. The trade-offs: it costs more, and the high pressure is not right for every pipe.'] },
+      { kind: 'h3', text: 'Where Snaking Wins' },
+      { kind: 'p', spans: ['Snaking is less expensive and gentler, which makes it the safer choice for older or fragile pipes that high pressure could damage. It is ideal for a simple, one-off clog in a single fixture. The downside is that it often just clears a path through the blockage rather than removing all of it, so grease or roots can build right back up.'] },
+
+      { kind: 'h2', text: 'How to Choose Between Them' },
+      { kind: 'p', spans: ['Three factors point you toward the right method.'] },
+      { kind: 'h3', text: 'The Type of Clog' },
+      { kind: 'p', spans: ['A simple, localized clog — hair in a bathroom drain, food in a kitchen line — is a job for snaking. Heavy grease, sludge coating the pipe, or roots invading a ', { link: 'main sewer line', href: '/how-do-you-know-if-your-main-drain-is-clogged/' }, ' call for hydro jetting to actually remove the problem.'] },
+      { kind: 'h3', text: 'The Age and Condition of Your Pipes' },
+      { kind: 'p', spans: ['Newer, sound pipes handle hydro jetting’s pressure without issue. Old, corroded, or fragile pipes may not, so snaking is often the safer route — or a camera inspection first to confirm the pipes can take the pressure. It is also why a plumber checks the line before jetting rather than guessing.'] },
+      { kind: 'h3', text: 'How Often Clogs Come Back' },
+      { kind: 'p', spans: ['If you are snaking the same drain every few months, that is a sign a channel is being cleared but the underlying buildup is not. Hydro jetting removes the root cause by cleaning the whole pipe, which usually breaks the cycle of recurring clogs.'] },
+
+      { kind: 'h2', text: 'The Bottom Line' },
+      { kind: 'p', spans: ['For most single, simple clogs, snaking is the fast, affordable fix. For stubborn buildup, roots, or clogs that keep returning — and when the pipes are sound enough to handle it — hydro jetting is the more complete, longer-lasting solution. The surest way to know is a camera inspection, which shows exactly what is in the line and what shape the pipe is in. If your home has a ', { link: 'cleanout', href: '/what-is-a-main-drain-cleanout-why-do-you-need-one/' }, ', that camera and jetting work is quick and easy.'] },
+
+      { kind: 'h2', text: 'Not Sure Which You Need? Ask Degree of Comfort' },
+      { kind: 'p', spans: ['A quick assessment takes the guesswork out of it. Degree of Comfort runs a camera to see the clog, then clears it the right way — snaking or hydro jetting — without over-selling. We handle all ', { link: 'drain and sewer', href: '/services/drains/' }, ' work for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Got a clog that will not quit? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'Snaking or hydro jetting — which is better?', a: 'Neither is universally better; it depends on the job. Snaking is best for a simple, localized clog and gentler on fragile pipes. Hydro jetting is more thorough for heavy grease, sludge, or roots and lasts longer, but costs more and needs pipes sound enough to take the pressure. Degree of Comfort assesses your line and recommends the right method honestly.' },
+      { q: 'Is hydro jetting safe for old pipes?', a: 'Not always. The high pressure can damage pipes that are already corroded or fragile. A plumber runs a camera inspection first to confirm the line can handle jetting; if not, snaking is the safer choice. Degree of Comfort always checks the pipe’s condition before jetting.' },
+      { q: 'Which method is better for tree roots?', a: 'Hydro jetting. Its high-pressure water cuts through and clears root intrusion far more completely than a snake, which tends to just punch a temporary hole. Recurring root problems may also need a look at the sewer line itself. Degree of Comfort handles both root-clearing and sewer line repair.' },
+      { q: 'How much does hydro jetting cost compared to snaking?', a: 'Hydro jetting generally costs more than snaking because it is more involved and more thorough. For a simple clog, snaking is the cheaper fix; for stubborn or recurring buildup, jetting can save money over time by preventing repeat visits. A free estimate from Degree of Comfort gives you the real numbers with upfront, flat-rate pricing.' },
+      { q: 'How do I know which drain cleaning method I need?', a: 'The reliable way is a camera inspection to see the clog and the pipe’s condition. Degree of Comfort assesses the line, recommends snaking or hydro jetting honestly, and clears it — across the Tri-State with upfront, flat-rate pricing. Call (513) 586-5107.' },
+    ],
+  },
+  {
+    slug: 'how-long-do-furnaces-last',
+    title: 'How Long Do Furnaces Last?',
+    category: 'Heating',
+    excerpt:
+      'Most furnaces last 15 to 20 years — but maintenance, fuel type, and use all move that number. How to know where yours stands and when to replace it.',
+    date: '2026-07-01',
+    dateModified: '2026-07-01',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/how-long-furnaces-last-hero.jpg',
+    imageAlt: 'Residential HVAC system outside a brick home',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Most furnaces last 15 to 20 years' }, ' — gas units 10 to 20, electric often 20-plus, with maintenance the biggest factor.'],
+          [{ strong: 'Watch for the warning signs' }, ' — frequent repairs, uneven heat, rising bills, and strange noises mean the end is near.'],
+          [{ strong: 'Replacing before it fails can pay off' }, ' — lower energy bills, rebates, added home value, and no mid-winter breakdown.'],
+          [{ strong: 'An aging furnace is a safety issue' }, ' — cracked heat exchangers can leak carbon monoxide, so old units deserve regular ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, '.'],
+        ],
+      },
+      { kind: 'p', spans: ['Most furnaces last 15 to 20 years. Gas furnaces typically run 10 to 20 years, and well-maintained electric units often go beyond 20. But the real answer depends on how it was installed, how hard it works, and — more than anything — how well it has been maintained. Here is how to tell where your furnace stands and when it is time to plan a replacement.'] },
+
+      { kind: 'h2', text: 'The Average Lifespan of a Furnace' },
+      { kind: 'p', spans: ['A furnace that gets an annual tune-up and a fresh filter on schedule can reach the top of its range and beyond. One that is neglected can fail years early. Fuel type matters too: gas furnaces have more moving parts and combustion components that wear, while electric furnaces are simpler and tend to last longer. Where you live plays a role as well — a furnace working overtime through long, cold winters ages faster than one in a mild climate. If you do not know how old yours is, check the manufacturer’s label inside the unit for a date.'] },
+
+      { kind: 'h2', text: 'Signs It May Be Time to Replace' },
+      { kind: 'p', spans: ['Age is only part of the picture. These are the signals that a furnace is near the end, especially once it is past 15 years old.'] },
+      { kind: 'h3', text: 'Frequent or Costly Repairs' },
+      { kind: 'p', spans: ['An occasional fix is normal, but when you are calling for ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ' every season — or facing one big repair on an old unit — the money is better put toward a replacement that will not keep breaking down.'] },
+      { kind: 'h3', text: 'Uneven Heating and Rising Bills' },
+      { kind: 'p', spans: ['Rooms that never get warm, a furnace that runs constantly, and a heating bill that keeps climbing all point to a system losing efficiency. An aging furnace has to work harder to deliver less heat, and you pay for the difference every month.'] },
+      { kind: 'h3', text: 'Strange Noises or Smells' },
+      { kind: 'p', spans: ['Banging, rattling, or squealing, along with persistent odors, signal worn or failing parts. On an older furnace these are often a sign the system is wearing out rather than having a simple, one-time problem.'] },
+
+      { kind: 'h2', text: 'Repair or Replace? A Simple Rule' },
+      { kind: 'p', spans: ['When a repair comes up on an older furnace, a useful rule of thumb helps: if the repair costs more than about half the price of a new system, or if the furnace is past 15 years and the repairs are stacking up, replacement is usually the smarter spend. A newer, high-efficiency unit is more reliable and cheaper to run, so you stop paying to keep an aging system limping along. A newer furnace with a small, one-time problem, on the other hand, is worth fixing. When it is a close call, an honest technician can lay out the numbers so you are not guessing.'] },
+
+      { kind: 'h2', text: 'Why Replacing Early Can Pay Off' },
+      { kind: 'p', spans: ['Waiting until a furnace dies in January is the most expensive way to replace one. Doing it on your terms, a little early, has real advantages.'] },
+      { kind: 'h3', text: 'Lower Energy Bills' },
+      { kind: 'p', spans: ['Modern high-efficiency furnaces use far less fuel than a unit from 15 or 20 years ago. Over a heating season, that efficiency shows up directly as lower bills, which offsets a meaningful share of the replacement cost.'] },
+      { kind: 'h3', text: 'Rebates and Tax Credits' },
+      { kind: 'p', spans: ['High-efficiency heating equipment often qualifies for utility rebates and federal tax credits that bring the real cost down. If you are moving toward electric heating, our ', { link: 'heat pump incentives', href: '/heat-pump-incentives' }, ' page is a good place to start, and ', { link: 'financing', href: '/financing' }, ' spreads the rest into monthly payments.'] },
+      { kind: 'h3', text: 'Higher Home Value' },
+      { kind: 'p', spans: ['A new, efficient furnace is a selling point. Buyers notice an aging system they will have to replace, so a recent upgrade adds to your home’s appeal and can help at resale.'] },
+      { kind: 'h3', text: 'Safety Concerns With Aging Furnaces' },
+      { kind: 'p', spans: ['This is the one not to ignore. As gas furnaces age, the heat exchanger can crack and leak carbon monoxide — a colorless, odorless gas — into your home. Newer units and regular inspections guard against it, which is a core reason our ', { link: 'furnace safety guide', href: '/5-preventive-measures-for-furnace-safety/' }, ' puts annual service first.'] },
+
+      { kind: 'h2', text: 'Remember: Your Furnace Runs All Day, Every Day' },
+      { kind: 'p', spans: ['In the heart of winter, your furnace runs around the clock, and all that run time adds up as wear. That is exactly why maintenance matters so much — a yearly tune-up, clean filters, and prompt small repairs are what carry a furnace to the top of its lifespan instead of cutting it short. Keeping up with ', { link: 'filter changes', href: '/how-often-should-i-change-my-furnace-filter/' }, ' and annual service is the cheapest way to protect the investment. The same repair-versus-replace math applies to cooling, too, as our guide on ', { link: 'replacing an old air conditioner', href: '/should-i-replace-my-old-air-conditioner/' }, ' covers.'] },
+
+      { kind: 'h2', text: 'Time to Replace? Talk to Degree of Comfort' },
+      { kind: 'p', spans: ['If your furnace is past 15 years or showing the signs, Degree of Comfort will give you an honest assessment — including when a repair still makes sense. We handle furnace ', { link: 'repair', href: '/services/furnace-repair/' }, ', maintenance, and ', { link: 'replacement', href: '/services/furnace-installation-replacement/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Wondering how much life is left in yours? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'heating', href: '/services/heating/' }, ' service, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will give you a straight answer.'] },
+    ],
+    faqs: [
+      { q: 'How long do furnaces last?', a: 'Most furnaces last 15 to 20 years. Gas units typically run 10 to 20 years and electric ones often longer, with regular maintenance being the biggest factor in reaching the high end of that range. Degree of Comfort keeps furnaces running their full lifespan with annual tune-ups.' },
+      { q: 'How often should you replace your furnace?', a: 'Usually every 15 to 20 years — or sooner if it needs frequent, costly repairs or can no longer heat your home evenly and efficiently. A professional inspection helps you time it right. Degree of Comfort gives you an honest read on where your furnace stands.' },
+      { q: 'How much does it cost to replace a furnace?', a: 'It varies with the size, efficiency, and type of unit and your home, but a full replacement typically runs several thousand dollars. A free in-home estimate from Degree of Comfort gives you an exact figure, and financing can spread the cost out.' },
+      { q: 'Should you repair or replace your furnace?', a: 'Repair a newer furnace with a minor issue. For a unit past about 15 years facing an expensive repair, replacement is usually the better value, since a new high-efficiency system is more reliable and cheaper to run. Degree of Comfort lays out both options so you can decide with real numbers.' },
+      { q: 'What are the signs your furnace needs replacement?', a: 'Frequent breakdowns, uneven heating, a rising energy bill, strange noises or smells, and an age of 15 or more years. Any combination of these is a strong sign it is time to consider a new furnace. Degree of Comfort can inspect yours and tell you honestly.' },
+      { q: 'Can an old furnace increase energy bills?', a: 'Yes. As a furnace ages it loses efficiency and has to run longer to heat the same space, which pushes your bills up. Upgrading to a high-efficiency model usually lowers heating costs noticeably. Degree of Comfort installs high-efficiency furnaces sized right for your home.' },
+      { q: 'Is it worth replacing a furnace before it breaks?', a: 'Often, yes. Replacing on your schedule avoids a mid-winter emergency, lets you compare options without pressure, and gives you time to arrange financing and any rebates — rather than scrambling when it fails. Degree of Comfort can plan a replacement around your timing, not a breakdown.' },
+      { q: 'How can I extend the life of my furnace?', a: 'Change the filter every 1 to 3 months, keep the area around the unit clear, address small issues promptly, and book an annual professional tune-up. Degree of Comfort handles furnace maintenance and honest repair-versus-replace advice across the Tri-State — call (513) 586-5107.' },
+    ],
+  },
+  {
+    slug: '5-tips-to-make-sure-your-pipes-dont-freeze',
+    title: '5 Tips to Make Sure Your Pipes Don’t Freeze',
+    category: 'Plumbing',
+    excerpt:
+      'A frozen pipe can flood your home in minutes — but preventing one is cheap and easy. Five simple things to do before the temperature drops.',
+    date: '2026-07-01',
+    dateModified: '2026-07-01',
+    readMinutes: 7,
+    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    image: '/blog/prevent-frozen-pipes-hero.jpg',
+    imageAlt: 'Modern kitchen faucet running water in a bright, warm home',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Keep the house warm and steady' }, ' — a consistent temperature, even when you are away, keeps pipes above freezing.'],
+          [{ strong: 'Insulate exposed pipes' }, ' in unheated spots like the basement, crawlspace, and garage, and seal nearby drafts.'],
+          [{ strong: 'Let vulnerable faucets drip' }, ' on the coldest nights — moving water is much harder to freeze.'],
+          [{ strong: 'Be ready' }, ' — know where your main shutoff is, and keep a plumber’s number handy for ', { link: 'emergency plumbing', href: '/services/emergency-plumbing/' }, '.'],
+        ],
+      },
+      { kind: 'p', spans: ['A frozen pipe is one of winter’s most expensive home emergencies — when it bursts, it can flood a room with hundreds of gallons in minutes. The good news is that preventing one is cheap and easy, and these five habits head off almost every freeze before it starts.'] },
+      { kind: 'p', spans: ['Here are five simple ways to keep your pipes from freezing. (If yours are already frozen, our guide on ', { link: 'whether to shut off the water', href: '/should-you-turn-off-the-water-if-pipes-are-frozen/' }, ' walks through what to do right now.)'] },
+
+      { kind: 'h2', text: 'Why Preventing Frozen Pipes Matters' },
+      { kind: 'p', spans: ['It is worth understanding the stakes, because they are higher than most people realize. When water freezes it expands, and that expansion puts intense pressure on the pipe until it cracks or splits. The pipe often holds while frozen, then bursts as it thaws — and a burst supply line can release several gallons a minute, soaking floors, walls, ceilings, and belongings before you even notice. The repair, the water cleanup, and the damaged drywall and flooring add up fast. Against all that, an afternoon of prevention is one of the best trades you can make as a homeowner.'] },
+
+      { kind: 'h2', text: '1. Keep Your Home Warm and Sealed' },
+      { kind: 'p', spans: ['The simplest defense is a steady indoor temperature. Keep the thermostat set to at least 55°F, even overnight and when you travel — the small heating cost is nothing next to a burst pipe. Then hunt down the drafts letting cold air near your plumbing: weatherstrip doors, caulk gaps around windows, and seal openings where pipes pass through exterior walls. Cold air finding its way to a pipe is what starts most freezes.'] },
+
+      { kind: 'h2', text: '2. Insulate Your Pipes' },
+      { kind: 'p', spans: ['Pipes running through unheated spaces — the basement, crawlspace, garage, attic, and exterior walls — are the ones that freeze. Wrap them with foam pipe sleeves, which cost only a few dollars, slip right on, and are easy to fit yourself. For pipes in especially cold spots, or ones that have frozen before, heat tape (a thermostat-controlled heating cable) adds a reliable extra layer of protection. Improving the insulation in those areas overall helps too, keeping the whole space warmer around the plumbing. Do not overlook outdoor spigots and any lines to a hose bib — drain and cover them before the first hard freeze.'] },
+
+      { kind: 'h2', text: '3. Let Vulnerable Faucets Drip' },
+      { kind: 'p', spans: ['On the coldest nights, open the faucets fed by at-risk pipes just enough for a slow trickle. Moving water is far harder to freeze than still water, and the open tap also relieves pressure so that even if some ice forms, the pipe is much less likely to burst. Focus on faucets on exterior walls or in unheated areas — those are the ones worth the little bit of wasted water.'] },
+
+      { kind: 'h2', text: '4. Open Cabinet Doors' },
+      { kind: 'p', spans: ['The pipes under your kitchen and bathroom sinks often sit against a cold exterior wall, tucked inside a closed cabinet that blocks your home’s warm air. On cold nights, open those cabinet doors so heat can circulate around the pipes. If you have young children or pets, just move any cleaners or chemicals out of reach first so the open cabinet stays safe.'] },
+
+      { kind: 'h2', text: '5. Be Ready for an Emergency' },
+      { kind: 'p', spans: ['Even with precautions, a hard freeze can catch a pipe you missed — so know your plan before you need it. Find your main water shutoff valve now (usually where the line enters the home, often near the water heater) so you can cut the water fast if a pipe bursts. Keep basic tools and a trusted plumber’s number handy. And if you head out of town in winter, either keep the heat on or have the plumbing properly drained. For a home that freezes up year after year, our ', { link: 'plumbing', href: '/services/plumbing/' }, ' team can find and fix the weak spots so it stops happening.'] },
+
+      { kind: 'h2', text: 'When to Call a Professional' },
+      { kind: 'p', spans: ['If you are not sure which pipes are at risk, your home has a history of freezing, or you want it properly winterized before a long trip, a licensed plumber can insulate the vulnerable runs, add heat tape, and seal the drafts for good. And if a pipe does freeze or burst, that is the time to call right away — the sooner the water is off and the line is handled, the less damage you deal with. A burst pipe is an ', { link: 'emergency plumbing', href: '/services/emergency-plumbing/' }, ' situation.'] },
+
+      { kind: 'h2', text: 'Keep Your Pipes Safe With Degree of Comfort' },
+      { kind: 'p', spans: ['Whether you want your home winterized or you are dealing with a frozen or burst pipe right now, Degree of Comfort can help. We handle ', { link: 'pipe insulation, repair, and replacement', href: '/services/pipe-repair-replacement/' }, ' for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Want peace of mind before the cold hits? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'plumbing', href: '/services/plumbing/' }, ' winterization, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'At what temperature do pipes freeze?', a: 'Pipes are generally at risk once the outside temperature drops below about 20°F for several hours, though poorly insulated pipes in drafty spots can freeze sooner. The colder and longer the freeze, the higher the risk. Degree of Comfort can insulate the vulnerable runs before that first hard freeze.' },
+      { q: 'Which pipes are most likely to freeze?', a: 'Uninsulated pipes in unheated areas — basements, crawlspaces, garages, attics, and along exterior walls — freeze first, as do the supply lines under sinks on outside walls. Those are the ones to insulate and watch. Degree of Comfort knows exactly which lines to protect in Tri-State homes.' },
+      { q: 'Should I leave the heat on when I travel in winter?', a: 'Yes. Keep the thermostat set to at least 55°F while you are away so the pipes stay above freezing. For a long trip, another option is having the plumbing properly drained. The heating cost is far less than repairing a burst pipe — and Degree of Comfort can drain and winterize the system before you go.' },
+      { q: 'Does letting a faucet drip really prevent frozen pipes?', a: 'Yes, on the coldest nights. A slow trickle keeps water moving, which is much harder to freeze, and the open faucet relieves pressure so a pipe is far less likely to burst even if some ice forms. Focus on faucets on exterior walls. Degree of Comfort can point out which fixtures in your home are most at risk.' },
+      { q: 'Can a plumber winterize my pipes?', a: 'Yes. A licensed plumber can insulate the vulnerable runs, add heat tape, seal drafts near the plumbing, and drain the system for a long absence. Degree of Comfort winterizes homes and handles frozen or burst pipes across the Tri-State — call (513) 586-5107.' },
+    ],
+  },
+  {
+    slug: 'should-you-turn-off-the-water-if-pipes-are-frozen',
+    title: 'Should You Turn Off the Water if Pipes Are Frozen?',
+    category: 'Plumbing',
+    excerpt:
+      'Short answer: yes. Shutting off the main water when pipes freeze relieves pressure and limits the damage if one bursts. Here is exactly what to do, step by step.',
+    date: '2026-07-01',
+    dateModified: '2026-07-01',
+    readMinutes: 7,
+    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    image: '/blog/frozen-pipes-shut-off-water-hero.jpg',
+    imageAlt: 'Frozen residential water pipe with icicles hanging from it',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Yes — shut off the main water supply if your pipes freeze' }, '. It relieves pressure and limits the damage if a pipe bursts.'],
+          [{ strong: 'Frozen water expands' }, ' and can crack or split a pipe, so the danger is a burst once it thaws.'],
+          [{ strong: 'Thaw slowly and safely' }, ' with a hair dryer, space heater, or warm towels — never an open flame — and keep a faucet open.'],
+          [{ strong: 'Inspect for leaks after thawing' }, ' and call for ', { link: 'emergency plumbing', href: '/services/emergency-plumbing/' }, ' if a pipe has burst or you find damage.'],
+        ],
+      },
+      { kind: 'p', spans: ['Yes. If your pipes freeze, turning off the main water supply is the right first move. It reduces the pressure building behind the ice, and if a pipe has already cracked, it limits how much water floods your home the moment it thaws. A frozen pipe is really a burst pipe waiting to happen, and shutting off the water is how you get ahead of it.'] },
+      { kind: 'p', spans: ['Here is why it matters and exactly what to do, step by step.'] },
+
+      { kind: 'h2', text: 'Why Shutting Off the Water Matters' },
+      { kind: 'p', spans: ['When water freezes it expands, and that expansion puts enormous pressure on the pipe from the inside. The pipe can crack or split, but often it holds while frozen — then bursts as it thaws and water rushes back through the break. Shutting off the main supply does three things: it relieves the pressure so a stressed pipe is less likely to fail, it minimizes flooding if a pipe has already cracked, and it removes the safety hazard of water spraying near electrical or in a finished space. A burst pipe can release hundreds of gallons fast, so getting the water off early is what saves you from major ', { link: 'water damage', href: '/services/leak-repair/' }, '.'] },
+
+      { kind: 'h2', text: 'What to Do When Your Pipes Freeze' },
+      { kind: 'p', spans: ['Work through these steps in order. Stay calm — most frozen pipes can be handled safely if you act quickly.'] },
+      { kind: 'h3', text: '1. Find the Frozen Section' },
+      { kind: 'p', spans: ['A frozen pipe usually gives itself away: no water or just a trickle from a faucet, frost or condensation on the pipe, or a visible bulge. Check the coldest, least-heated spots first — exterior walls, the basement, crawlspace, garage, and under sinks. Knowing where the freeze is tells you where to focus the thawing.'] },
+      { kind: 'h3', text: '2. Turn Off the Main Water Supply' },
+      { kind: 'p', spans: ['Before thawing anything, shut off the main water valve (usually where the line enters the home, often in the basement or near the water heater). This is the key step that keeps a burst from flooding the house. Leave it off until you have thawed the pipe and confirmed there is no leak.'] },
+      { kind: 'h3', text: '3. Thaw the Pipe Slowly and Safely' },
+      { kind: 'p', spans: ['Apply gentle heat to the frozen section with a hair dryer, a space heater kept clear of anything flammable, heat tape, or towels soaked in warm water. Work from the faucet end toward the frozen area so melting water can escape. Go slowly — never use a blowtorch or any open flame, which can damage the pipe, start a fire, or cause the ice to expand too fast and crack the pipe.'] },
+      { kind: 'h3', text: '4. Open a Faucet' },
+      { kind: 'p', spans: ['Open the faucet fed by the frozen pipe before you start thawing. As the ice melts, running water helps break up the blockage and, most importantly, relieves pressure so the pipe is far less likely to burst as it clears.'] },
+      { kind: 'h3', text: '5. Check for Leaks and Cracks' },
+      { kind: 'p', spans: ['Once the pipe has thawed and flow returns, slowly turn the main water back on and inspect the pipe closely for cracks, splits, or dripping. Freezing can leave damage that only shows up under pressure, so watch the section for a few minutes. If you see any leak, shut the water back off.'] },
+      { kind: 'h3', text: '6. Call a Professional' },
+      { kind: 'p', spans: ['If you cannot locate or reach the frozen section, the pipe will not thaw, or you find a crack or a burst, call a licensed plumber. A pro can safely thaw hard-to-reach pipes and handle ', { link: 'pipe repair or replacement', href: '/services/pipe-repair-replacement/' }, '. A pipe that has already burst is an emergency — leave the water off and call right away.'] },
+
+      { kind: 'h2', text: 'How to Keep Pipes From Freezing' },
+      { kind: 'p', spans: ['Prevention beats a burst every time. Insulate exposed pipes in unheated areas with foam sleeves, seal drafts near the plumbing, and keep the thermostat set no lower than about 55°F even when you are away. On the coldest nights, let a faucet drip slightly — moving water is much harder to freeze — and open cabinet doors so warm air reaches the pipes under sinks. For homes that freeze up repeatedly, our ', { link: 'plumbing', href: '/services/plumbing/' }, ' team can pinpoint the vulnerable spots and fix them for good.'] },
+
+      { kind: 'h2', text: 'Frozen or Burst Pipe? Call Degree of Comfort' },
+      { kind: 'p', spans: ['A frozen pipe can turn into a flooded home fast, and it is not always a job to tackle alone. Degree of Comfort handles frozen, cracked, and burst pipes, and offers ', { link: 'emergency plumbing', href: '/services/emergency-plumbing/' }, ' when you need it most. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Dealing with a frozen or burst pipe? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'plumbing repair', href: '/services/plumbing-repair/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'Should you turn off the water if pipes are frozen?', a: 'Yes. Shutting off the main water supply relieves the pressure building behind the ice and, if a pipe has already cracked, limits how much water floods your home when it thaws. Leave it off until the pipe is thawed and you have confirmed there is no leak. Degree of Comfort can locate the leak and repair the line the same day.' },
+      { q: 'How do I know if my pipes are frozen?', a: 'The signs are little or no water from a faucet, frost or condensation on an exposed pipe, a visible bulge in the pipe, or a gurgling sound. It usually happens in the coldest spots — exterior walls, the basement, crawlspace, or garage. Degree of Comfort can thaw and inspect the line before it bursts.' },
+      { q: 'What should I not do when thawing a frozen pipe?', a: 'Never use a blowtorch or any open flame. It is a fire hazard, can damage the pipe, and can heat the ice so fast that the pipe cracks. Stick to gentle heat — a hair dryer, heat tape, a space heater kept away from anything flammable, or warm towels. If you would rather not risk it, Degree of Comfort thaws frozen pipes safely.' },
+      { q: 'How do I keep my pipes from freezing?', a: 'Insulate exposed pipes, seal drafts near the plumbing, keep the heat set to at least 55°F even when away, let a faucet drip on the coldest nights, and open cabinet doors so warm air reaches pipes under sinks. Degree of Comfort can winterize the vulnerable runs so you do not have to worry about it.' },
+      { q: 'What do I do if a frozen pipe bursts?', a: 'Shut off the main water supply immediately and leave it off, then call a plumber right away — a burst pipe is an emergency that can release hundreds of gallons. Degree of Comfort offers emergency plumbing across the Tri-State with upfront, flat-rate pricing — call (513) 586-5107.' },
+    ],
+  },
+  {
     slug: 'why-is-my-toilet-leaking',
     title: 'Why Is My Toilet Leaking?',
     category: 'Plumbing',
