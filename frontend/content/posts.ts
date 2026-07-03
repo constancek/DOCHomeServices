@@ -26,6 +26,52 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: 'how-unpredictable-weather-can-cause-plumbing-issues',
+    title: 'How Unpredictable Weather Can Cause Plumbing Issues',
+    category: 'Plumbing',
+    excerpt:
+      'Temperature swings and heavy rain both put real stress on your plumbing — from pipes that expand and freeze to sewage backups and overloaded sump pumps. Here is what to watch for and how to prevent it.',
+    date: '2026-07-03',
+    dateModified: '2026-07-03',
+    readMinutes: 7,
+    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    image: '/blog/weather-plumbing-issues-hero.jpg',
+    imageAlt: 'Old, rusted pipes in a damp basement crawlspace',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Temperature extremes stress your pipes' }, ' — heat expands metal pipes until they crack, and freezing water expands until they burst.'],
+          [{ strong: 'Heavy rain overloads the system' }, ': excess pressure can burst pipes, saturated ground shifts them, and sewer lines back up.'],
+          [{ strong: 'Storms are when sump pumps fail' }, ', often from overwork or a power outage — right when you need them most.'],
+          [{ strong: 'Most of this is preventable' }, ' with insulation, drainage, and a working ', { link: 'sump pump', href: '/services/sump-pumps/' }, ' — and fast repair when something does go wrong.'],
+        ],
+      },
+      { kind: 'p', spans: ['Your plumbing is built to handle normal conditions, but the weather in the Tri-State rarely stays normal. Big temperature swings and heavy rain both put real stress on your pipes, drains, and sump pump — and the damage often shows up at the worst possible time. Here is how the weather causes plumbing trouble and what you can do about it.'] },
+
+      { kind: 'h2', text: 'How Extreme Temperatures Affect Your Pipes' },
+      { kind: 'p', spans: ['Temperature is hard on plumbing at both ends of the thermometer. In extreme heat, metal pipes expand, and over time that repeated expansion and contraction can lead to cracks and slow leaks. In the depths of winter, the opposite happens: water inside an unprotected pipe freezes, expands, and can burst the pipe entirely — one of the most damaging plumbing failures there is. Insulating exposed pipes and keeping the heat on during cold snaps goes a long way, and our guide on ', { link: 'making sure your pipes do not freeze', href: '/5-tips-to-make-sure-your-pipes-dont-freeze/' }, ' covers the rest.'] },
+
+      { kind: 'h2', text: 'How Heavy Rain Affects Your Plumbing' },
+      { kind: 'p', spans: ['A hard rain does more than fill your gutters. When the ground saturates and water has nowhere to go, it puts pressure on your whole plumbing system in several ways.'] },
+      { kind: 'h3', text: 'Damaged and Shifting Pipes' },
+      { kind: 'p', spans: ['Heavy rain can raise the pressure inside your pipes to the point where they burst, and saturated soil around the house shifts and settles, dragging buried pipes with it and causing wear, cracks, and breaks. Storm runoff also washes twigs, dirt, and debris into sewer lines, where it collects and clogs. A broken or shifted line usually needs professional ', { link: 'pipe repair or replacement', href: '/services/pipe-repair-replacement/' }, '.'] },
+      { kind: 'h3', text: 'Sewage Backups' },
+      { kind: 'p', spans: ['When a sewer line clogs or the municipal system is overwhelmed by storm water, waste cannot flow away from your home — and it can back up into your drains. The warning signs are hard to miss: foul sewage odors indoors, slow or gurgling drains, and soggy patches in the yard over the sewer line. If you notice them, our guide on ', { link: 'how to tell if your main drain is clogged', href: '/how-do-you-know-if-your-main-drain-is-clogged/' }, ' helps, and a ', { link: 'sewer repair', href: '/services/sewer-repair-replacement/' }, ' clears or replaces the line.'] },
+      { kind: 'h3', text: 'Overloaded Sump Pumps' },
+      { kind: 'p', spans: ['Your sump pump is what keeps rising groundwater out of the basement, but a heavy, sustained rain can push it past its limit — running constantly until it overheats or fails. Storms also knock out power, which stops a pump with no backup right when the water is rising. A battery backup and a pump sized to your home prevent it; if yours is already struggling, see ', { link: 'why your sump pump is not working', href: '/why-is-my-sump-pump-not-working/' }, '.'] },
+      { kind: 'h3', text: 'A Saturated Septic Drainfield' },
+      { kind: 'p', spans: ['If your home is on a septic system, a flash flood can oversaturate the drainfield, leaving the ground too waterlogged to absorb what the system releases. That can stop the septic system from working properly and even cause the tank to overflow. During heavy rain, it helps to minimize water use — hold off on the garbage disposal, dishwasher, and laundry until the ground drains.'] },
+
+      { kind: 'h2', text: 'Weather-Proofing Your Plumbing' },
+      { kind: 'p', spans: ['Most weather-driven plumbing damage is preventable. Insulate exposed pipes for winter, keep gutters and downspouts directing water away from the foundation, test your sump pump before storm season and add a battery backup, and have aging or vulnerable lines inspected before they fail. The steps in our guide on ', { link: 'keeping your basement dry', href: '/4-tips-for-keeping-your-basement-dry-this-spring/' }, ' apply here too.'] },
+
+      { kind: 'h2', text: 'Weather Damage? Call Degree of Comfort' },
+      { kind: 'p', spans: ['When a storm or a hard freeze catches your plumbing off guard, fast repair keeps a bad day from becoming an expensive one. Degree of Comfort handles ', { link: 'plumbing', href: '/services/plumbing/' }, ' and ', { link: 'emergency plumbing', href: '/services/emergency-plumbing/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Dealing with weather-related plumbing trouble? Call ', { strong: '(513) 586-5107' }, ', ask about a plumbing inspection, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+  },
+  {
     slug: 'degree-of-comfort-university-training-program',
     title: 'Degree of Comfort University: Opportunities for Aspiring Technicians',
     category: 'Home Tips',
