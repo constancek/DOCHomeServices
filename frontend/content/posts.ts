@@ -26,6 +26,60 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: 'should-you-replace-your-ac-and-furnace-at-the-same-time',
+    title: 'Should You Replace Your AC and Furnace at the Same Time?',
+    category: 'Cooling',
+    excerpt:
+      'If both are near the end of their life, usually yes — you pay for installation once, the matched system runs more efficiently, and you avoid a second disruption. Here is how to decide.',
+    date: '2026-07-03',
+    dateModified: '2026-07-03',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/replace-ac-furnace-together-hero.jpg',
+    imageAlt: 'Outdoor air conditioner unit beside a home with landscaping',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'If both are near end-of-life, replacing together usually wins' }, ' — you pay for installation once instead of twice.'],
+          [{ strong: 'Matched systems run more efficiently' }, ', since a new AC and furnace are designed to work together for lower energy bills.'],
+          [{ strong: 'Furnaces last 15 to 20 years, AC units 10 to 15' }, ', so their end-of-life often lines up closely.'],
+          [{ strong: 'Not always necessary' }, ' — if one unit is newer and compatible, replacing just the failing one can be the smarter spend.'],
+        ],
+      },
+      { kind: 'p', spans: ['If both your air conditioner and furnace are near the end of their lives, replacing them together is usually the smarter move — you pay for installation once, the two units are matched to run efficiently as a system, and you avoid going through the whole process again in a year or two. But it is not automatic. Here is how to decide.'] },
+
+      { kind: 'h2', text: 'Should You Replace Both at the Same Time?' },
+      { kind: 'p', spans: ['Your AC and furnace are more connected than they look — they share the same ductwork and blower, so they really operate as one heating and cooling system. When you replace both at once, a single installation cuts the labor cost compared with two separate visits, and you can buy a matched or packaged system where the units are engineered to work together. That balance means better efficiency and lower energy bills than pairing a brand-new unit with an aging one. The one caveat: if either unit is relatively new, it may be more cost-effective to repair or keep it rather than replace everything.'] },
+
+      { kind: 'h2', text: 'How Often Should Each Be Replaced?' },
+      { kind: 'p', spans: ['The two have different lifespans, which is the whole reason this question comes up. A furnace typically lasts 15 to 20 years, while an air conditioner runs closer to 10 to 15. Because those windows overlap, an aging furnace and an aging AC often reach the end of their useful lives within a few years of each other. As units get old, they use more energy to do the same work, so once both are in that range, replacing them together tends to be cheaper over time than nursing them along separately. For more on timing the heating side, see ', { link: 'how long furnaces last', href: '/how-long-do-furnaces-last/' }, ', and on the cooling side, ', { link: 'whether to replace an old air conditioner', href: '/should-i-replace-my-old-air-conditioner/' }, '.'] },
+
+      { kind: 'h2', text: 'Does Replacing Both Together Save Money?' },
+      { kind: 'p', spans: ['Often, yes. The savings come from a few places: you pay installation costs once instead of twice, and many manufacturers and contractors offer discounts for installing a matched AC and furnace from the same maker. Matched systems also run more efficiently, which lowers your energy bills month after month, and high-efficiency systems may qualify for rebates. The upfront number is larger than replacing a single unit, but ', { link: 'financing', href: '/can-you-finance-an-hvac-system/' }, ' can spread it out, and you can see what a new system runs in our guide on ', { link: 'how much a new air conditioner costs', href: '/how-much-is-a-new-air-conditioner/' }, '.'] },
+
+      { kind: 'h2', text: 'Signs It Is Time to Replace Both' },
+      { kind: 'p', spans: ['A few signs point toward a full system replacement rather than another repair: energy bills that keep climbing, frequent breakdowns on one or both units, uneven temperatures around the house, and systems that are 12 to 20 years old. When both are aging and showing these signs at once, replacing them together is usually more cost-effective than repairing them one at a time.'] },
+
+      { kind: 'h2', text: 'When You Might Not Need To' },
+      { kind: 'p', spans: ['Replacing both is not always the right call, and a good contractor will tell you so. If your furnace is newer and in good shape, you can replace just the air conditioner — as long as the two are compatible, so the new AC is not held back by an incompatible blower or coil. The reverse is true too. The honest answer depends on the age and condition of each unit, which is exactly what a professional evaluation sorts out before you spend a dollar.'] },
+
+      { kind: 'h2', text: 'Get an Honest Recommendation From Degree of Comfort' },
+      { kind: 'p', spans: ['The right answer is different for every home, and it comes down to the real age and condition of your two units — not a rule of thumb. Degree of Comfort evaluates both systems and gives you a straight recommendation, then handles ', { link: 'AC installation', href: '/services/ac-installation-replacement/' }, ' and ', { link: 'furnace installation', href: '/services/furnace-installation-replacement/' }, ' with upfront, flat-rate pricing. We serve Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Wondering whether to replace one or both? Call ', { strong: '(513) 586-5107' }, ', ask for a system evaluation, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'Should I replace my furnace and AC at the same time?', a: 'If both are near the end of their lives, usually yes — matched systems work better together and often cost less to install than two separate replacements. Degree of Comfort can evaluate both systems and help you decide whether a full replacement makes sense.' },
+      { q: 'Can I replace my AC without replacing the furnace?', a: 'Yes, if the furnace is newer and compatible with a new AC. Mismatched systems can reduce efficiency and performance, though. Degree of Comfort can inspect your furnace to make sure it works properly with a new air conditioner.' },
+      { q: 'How much does it cost to replace a furnace and AC?', a: 'It depends on system size, efficiency ratings, and installation needs, and most full replacements run several thousand dollars — though doing both together can reduce labor costs. Degree of Comfort offers upfront pricing and financing options.' },
+      { q: 'Is it cheaper to replace a furnace and AC together?', a: 'Often, yes. Combined installation lowers labor costs and can reduce future repair expenses, and high-efficiency systems may qualify for rebates. Degree of Comfort helps homeowners maximize savings when upgrading their HVAC.' },
+      { q: 'What are signs I should replace both AC and furnace?', a: 'Rising energy bills, frequent repairs, uneven temperatures, and systems over 12 to 20 years old. When both are aging, replacement is often more cost-effective than continued repairs. Degree of Comfort can assess your system and recommend the best solution.' },
+      { q: 'Will replacing both systems improve energy efficiency?', a: 'Yes. New matched systems use less energy and provide more consistent comfort, which means lower utility bills and fewer breakdowns. Degree of Comfort installs high-efficiency HVAC systems designed for long-term savings.' },
+      { q: 'Should I replace both systems if only one is failing?', a: 'Sometimes. If the other unit is also near the end of its lifespan, replacing both at once can prevent future disruption — but if it is newer, replacing just the failing one may be smarter. Degree of Comfort gives honest recommendations based on your home and budget.' },
+      { q: 'Who should I call to replace my furnace and AC?', a: 'Call a licensed HVAC professional experienced in full system replacements. Degree of Comfort specializes in furnace and AC installation and offers expert guidance, quality workmanship, and financing across the Tri-State — call (513) 586-5107.' },
+    ],
+  },
+  {
     slug: 'how-unpredictable-weather-can-cause-plumbing-issues',
     title: 'How Unpredictable Weather Can Cause Plumbing Issues',
     category: 'Plumbing',
