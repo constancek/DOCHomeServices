@@ -26,6 +26,117 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: '5-ways-to-lower-humidity-in-your-house',
+    title: '5 Ways to Lower Humidity in Your House',
+    category: 'Home Tips',
+    excerpt:
+      'Muggy, sticky air indoors invites mold and misery. The ideal range is 30 to 50 percent — here are five practical ways to get there, from better ventilation to a whole-house dehumidifier.',
+    date: '2026-07-03',
+    dateModified: '2026-07-03',
+    readMinutes: 7,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/lower-humidity-in-house-hero.jpg',
+    imageAlt: 'Man sweating in front of a fan in a humid room',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Aim for 30 to 50 percent humidity' }, ' — that range keeps the house comfortable and discourages mold, dust mites, and that sticky feeling.'],
+          [{ strong: 'Ventilate and vent moisture at the source' }, ': open windows, run exhaust fans while cooking and showering, and dry laundry outside.'],
+          [{ strong: 'Seal moisture out' }, ' with a vapor barrier and clean gutters that keep water away from the foundation.'],
+          [{ strong: 'A whole-house dehumidifier is the real fix' }, ' for persistent damp — it holds a steady level automatically as part of good ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, '.'],
+        ],
+      },
+      { kind: 'p', spans: ['When indoor air gets muggy, it is more than uncomfortable — excess humidity invites mold, dust mites, and musty odors, and it makes the whole house feel hotter than it is. The healthy target is 30 to 50 percent relative humidity. Here are five practical ways to bring your home back into that range.'] },
+
+      { kind: 'h2', text: '1. Open a Window' },
+      { kind: 'p', spans: ['The simplest step first. Opening windows on opposite sides of the house creates cross ventilation that lets damp indoor air out and drier air in. It is especially worth doing during the activities that dump the most moisture into your air — cooking, showering, and running laundry. Just skip it on days when the outdoor air is more humid than the air inside.'] },
+
+      { kind: 'h2', text: '2. Install a Vapor Barrier' },
+      { kind: 'p', spans: ['A lot of household moisture seeps in through walls, floors, and crawlspaces from the damp ground and outdoor air. A vapor barrier — usually a plastic sheeting that creates a moisture-blocking seal — stops that moisture before it gets in. It is especially effective in crawlspaces and basements, the parts of the house most prone to dampness.'] },
+
+      { kind: 'h2', text: '3. Clean Your Gutters' },
+      { kind: 'p', spans: ['Humidity is not only an indoor problem. When gutters clog, rainwater overflows and pools against the foundation, then seeps into the basement or crawlspace and raises the moisture level inside. Keeping gutters clean and directing downspouts away from the house is a cheap, overlooked way to keep humidity down — the same logic behind our guide on ', { link: 'keeping your basement dry', href: '/4-tips-for-keeping-your-basement-dry-this-spring/' }, '.'] },
+
+      { kind: 'h2', text: '4. Use Your Fans' },
+      { kind: 'p', spans: ['Fans move air, and moving air carries moisture away. Run bathroom and kitchen exhaust fans during and after showering and cooking to push humid air straight outside, and use ceiling fans to keep air circulating so moisture does not settle. For a whole-house approach, a ventilation system brings fresh, drier air in throughout the home rather than one room at a time.'] },
+
+      { kind: 'h2', text: '5. Install a Whole-House Dehumidifier' },
+      { kind: 'p', spans: ['For humidity that will not quit, this is the real solution. A whole-house dehumidifier ties into your HVAC system and pulls moisture from the air across the entire home, holding a consistent, comfortable level automatically — no tanks to empty. It is the most reliable way to stay in that 30 to 50 percent range, and it can pull a surprising amount of water out of the air, as we cover in ', { link: 'how much water a whole-home dehumidifier collects', href: '/how-much-water-does-a-whole-home-dehumidifier-collect/' }, '.'] },
+
+      { kind: 'h2', text: 'A Few More Small Habits' },
+      { kind: 'p', spans: ['On top of those five, a handful of everyday habits chip away at indoor moisture: take shorter showers, dry laundry outside instead of on an indoor rack, and always run the exhaust fan when the bathroom or kitchen is in use. Your air conditioner helps too, since it removes humidity as it cools — if yours runs constantly but the air still feels sticky, it may not be sized or working right, which we get into in ', { link: 'whether AC improves indoor air quality', href: '/do-air-conditioners-improve-indoor-air-quality/' }, '.'] },
+
+      { kind: 'h2', text: 'Get Comfortable, Balanced Air With Degree of Comfort' },
+      { kind: 'p', spans: ['If your home stays muggy no matter what you try, the fix is usually a properly sized system and the right moisture-control equipment. Degree of Comfort evaluates humidity issues and installs ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' solutions, including whole-house dehumidifiers, across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Tired of sticky, muggy air? Call ', { strong: '(513) 586-5107' }, ', ask about humidity control and indoor air quality, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'How do you fix a humidity problem in your house?', a: 'Improve ventilation, use your AC properly, seal air leaks, and consider a whole-home dehumidifier — persistent humidity usually needs a professional solution. Degree of Comfort can evaluate your home and recommend the best way to control moisture.' },
+      { q: 'What causes high humidity inside a house?', a: 'Poor ventilation, an oversized AC system, air leaks, or excess moisture from cooking and showers — often it comes down to inadequate moisture removal. Degree of Comfort can identify the source and correct the issue.' },
+      { q: 'Can high humidity in a house cause health problems?', a: 'Yes. High humidity can trigger allergies, asthma flare-ups, headaches, and respiratory irritation, and the excess moisture encourages mold growth. Degree of Comfort offers indoor air quality solutions to help protect your health.' },
+      { q: 'Can humidity cause electrical problems inside a house?', a: 'Yes. High humidity can create condensation on wiring and outlets, and over time that moisture leads to corrosion and safety issues. Degree of Comfort can help manage indoor humidity to protect your home and systems.' },
+      { q: 'Does air conditioning help lower humidity?', a: 'Yes. Air conditioning removes moisture as it cools the air, though if humidity stays high, your system may not be running efficiently. Degree of Comfort can inspect your AC and recommend improvements.' },
+      { q: 'When should I use a whole-home dehumidifier?', a: 'If your home feels sticky, smells musty, or has condensation on the windows, a whole-home dehumidifier provides consistent moisture control. Degree of Comfort installs whole-home dehumidifiers for long-term comfort.' },
+      { q: 'What humidity level is best for a home?', a: 'The ideal indoor range is 30 to 50 percent, which improves comfort, air quality, and home protection. Degree of Comfort helps homeowners reach and hold that balance.' },
+      { q: 'Who should I call for humidity control in my home?', a: 'A licensed HVAC professional should handle humidity control. Degree of Comfort provides expert evaluations, AC adjustments, and whole-home dehumidifier installation to keep your home comfortable and safe — call (513) 586-5107.' },
+    ],
+  },
+  {
+    slug: 'do-air-conditioners-improve-indoor-air-quality',
+    title: 'Do Air Conditioners Improve Indoor Air Quality?',
+    category: 'Cooling',
+    excerpt:
+      'Partly. Your AC filters out dust and pollen and pulls humidity from the air, which helps — but it was built to cool, not purify. Here is what it does for your air and where it falls short.',
+    date: '2026-07-03',
+    dateModified: '2026-07-03',
+    readMinutes: 7,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/do-acs-improve-indoor-air-quality-hero.jpg',
+    imageAlt: 'Technician replacing a home air filter in a ceiling return vent',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Yes, but only partly' }, '. An AC filters out dust and pollen and lowers humidity, which improves your air — but it was designed to cool, not purify.'],
+          [{ strong: 'Its filter is doing the air-quality work' }, ', so a clean, quality filter matters more than the AC itself.'],
+          [{ strong: 'A dirty, neglected AC makes air worse' }, ', circulating mold and allergens instead of catching them.'],
+          [{ strong: 'For truly clean air, add dedicated equipment' }, ' — ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' systems like purifiers, humidifiers, and dehumidifiers.'],
+        ],
+      },
+      { kind: 'p', spans: ['The short answer is yes — but only partly, and only if it is maintained. Your air conditioner does two things that help your air: it filters out particles as it runs, and it pulls humidity out of the air. What it does not do is purify the air the way dedicated equipment can. Here is the full picture.'] },
+
+      { kind: 'h2', text: 'What Is Indoor Air Quality?' },
+      { kind: 'p', spans: ['Indoor air quality is exactly what it sounds like: how clean and healthy the air inside your home is. Poor air quality — from dust, pollen, pet dander, mold, and other pollutants — can bring on headaches, fatigue, and irritation of the eyes, nose, throat, and lungs. It is improved by three things working together: good ventilation, effective filtration, and controlling the pollutants at their source.'] },
+
+      { kind: 'h2', text: 'How Does an Air Conditioner Work?' },
+      { kind: 'p', spans: ['A central air conditioner has three main components: the compressor and condenser, which sit outside, and the evaporator, which sits inside. Refrigerant cycles through the system, absorbing heat from your indoor air and carrying it outside, while a blower moves air across the evaporator and back into the house. Along the way, that air passes through a filter — and that is where the air-quality benefit comes from.'] },
+
+      { kind: 'h2', text: 'So, Does AC Improve Air Quality?' },
+      { kind: 'p', spans: ['To a degree, yes. As your AC circulates air, its filter traps dust, pollen, and other airborne contaminants, keeping them out of the air you breathe. By removing humidity, it also helps prevent the moisture buildup that mold needs to grow. Both are real benefits — but they come with a catch: the filter only works if it is clean, which is why regular filter changes matter so much. The warning signs of a filter past its prime show up in our guide on ', { link: 'signs your air filter is past its prime', href: '/7-signs-your-home-air-filter-is-past-its-prime/' }, '. And the flip side is real too — a neglected, dirty AC can actually make your air worse by circulating mold and allergens, which is how an ', { link: 'AC can make you sick', href: '/can-your-ac-make-you-sick/' }, '.'] },
+
+      { kind: 'h2', text: 'Where AC Falls Short' },
+      { kind: 'p', spans: ['An air conditioner is a cooling machine that happens to filter air — not an air-purification system. A standard AC filter is built mainly to protect the equipment and catch larger particles; it does not remove the finest particles, odors, viruses, or bacteria. So while your AC helps, it is not a complete indoor air quality solution on its own.'] },
+
+      { kind: 'h2', text: 'Whole-Home Systems Go Further' },
+      { kind: 'p', spans: ['To genuinely clean your home’s air, dedicated equipment installed into your HVAC system does what the AC alone cannot. Whole-home air filtration and ', { link: 'air purifiers', href: '/what-are-the-benefits-of-having-an-air-purifier/' }, ' clean the air throughout the house as it moves through the ductwork, catching what a standard filter misses. Depending on your home, a ', { link: 'whole-home humidifier', href: '/how-a-whole-home-humidifier-works-everything-you-need-to-know/' }, ' or a ', { link: 'dehumidifier', href: '/how-much-water-does-a-whole-home-dehumidifier-collect/' }, ' rounds out the picture by holding humidity in the healthy range. Paired with your AC, these make up a real air-quality setup rather than a partial one.'] },
+
+      { kind: 'h2', text: 'Breathe Easier With Degree of Comfort' },
+      { kind: 'p', spans: ['Your air conditioner helps your air quality, but keeping it clean — and knowing when to add more — is where a professional comes in. Degree of Comfort maintains and repairs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems and installs full ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' solutions across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Want genuinely cleaner air at home? Call ', { strong: '(513) 586-5107' }, ', ask about AC maintenance and indoor air quality, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'Do air conditioners improve indoor air quality?', a: 'They can, by filtering out dust, pollen, and airborne particles as air circulates through the system — but how much depends on filter quality and regular maintenance. Degree of Comfort helps homeowners improve air quality with proper AC care and upgrades.' },
+      { q: 'How does an air conditioner affect indoor air quality?', a: 'It removes heat and humidity while trapping particles in the air filter, so clean filters and coils are key to better air. Degree of Comfort provides AC maintenance to make sure your system supports healthier air.' },
+      { q: 'Can a dirty air conditioner make indoor air quality worse?', a: 'Yes. A dirty AC can circulate dust, mold, and allergens, since a lack of maintenance lets buildup collect inside the system. Degree of Comfort offers professional AC cleaning and maintenance to prevent that.' },
+      { q: 'Do AC air filters help clean the air?', a: 'Yes. AC filters capture dust, pollen, and debris, and higher-quality filters offer better protection for allergies and asthma. Degree of Comfort can recommend the right filter for your home and system.' },
+      { q: 'Can air conditioning help with humidity and mold?', a: 'Yes. Air conditioning reduces indoor humidity, which lowers the risk of mold growth and improves comfort and air quality. Degree of Comfort can evaluate your humidity levels and recommend solutions if needed.' },
+      { q: 'Is AC maintenance important for air quality?', a: 'Very. Regular service keeps filters, coils, and drain lines clean, which prevents contaminants from spreading through the house. Degree of Comfort provides AC maintenance plans focused on comfort and indoor air quality.' },
+      { q: 'Are air conditioners enough to improve air quality?', a: 'They help, but often are not enough on their own. Whole-home air purifiers, humidifiers, and dehumidifiers can further improve your air. Degree of Comfort offers complete indoor air quality solutions.' },
+      { q: 'Who should I call to improve indoor air quality?', a: 'A licensed HVAC professional can assess your system and recommend improvements. Degree of Comfort provides expert AC service and indoor air quality solutions to help you breathe easier at home — call (513) 586-5107.' },
+    ],
+  },
+  {
     slug: '7-signs-your-home-air-filter-is-past-its-prime',
     title: '7 Signs Your Home Air Filter Is Past Its Prime',
     category: 'Home Tips',
