@@ -26,6 +26,60 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: 'degree-of-comfort-university-training-program',
+    title: 'Degree of Comfort University: Opportunities for Aspiring Technicians',
+    category: 'Home Tips',
+    excerpt:
+      'Degree of Comfort University is a paid apprenticeship that trains the next generation of HVAC, plumbing, and electrical pros — no experience needed. Here is how it works, and why it means better service for homeowners.',
+    date: '2026-07-03',
+    dateModified: '2026-07-03',
+    readMinutes: 6,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/degree-of-comfort-university-hero.jpg',
+    imageAlt: 'Outdoor air conditioner condenser unit beside a home',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Degree of Comfort University is a paid apprenticeship' }, ' — you are an employee from day one, and learning is your job.'],
+          [{ strong: 'No experience needed' }, '. The program runs 3 to 4 months and is open to anyone 18 or older with the right attitude.'],
+          [{ strong: 'It leads to a real career' }, ' — graduates get the keys to their own Degree of Comfort vehicle, without the college debt.'],
+          [{ strong: 'Homeowners benefit too' }, ': better-trained ', { link: 'technicians', href: '/university' }, ' mean more accurate diagnoses and safer, higher-quality service.'],
+        ],
+      },
+      { kind: 'p', spans: ['Skilled trades are in short supply, and the best way to fix that is to train people the right way. Degree of Comfort University is our paid apprenticeship program that does exactly that — turning people with no experience into skilled HVAC, plumbing, and electrical professionals, while making the service our customers receive better in the process. Here is how it works.'] },
+
+      { kind: 'h2', text: 'What Is Degree of Comfort University?' },
+      { kind: 'p', spans: ['Degree of Comfort University is a training and apprenticeship program built to develop the next generation of home-service professionals. It combines classroom learning with hands-on field experience, mentorship from experienced techs, and customer-service training, so graduates leave ready to do real work in real homes. You can learn more or apply on our ', { link: 'Degree of Comfort University', href: '/university' }, ' page.'] },
+
+      { kind: 'h2', text: 'A Paid Apprenticeship — No Experience Needed' },
+      { kind: 'p', spans: ['This is the part that surprises people: you get paid to learn. From day one you are a Degree of Comfort employee, working Monday through Friday, with learning as your primary job. The program runs about 3 to 4 months, and no previous experience is required — it is open to high school graduates, career changers, and anyone ready to build a skilled trade without taking on significant college debt.'] },
+
+      { kind: 'h2', text: 'What You Need to Apply' },
+      { kind: 'p', spans: ['The requirements are straightforward. You need to be 18 or older, hold a valid driver’s license and pass a motor vehicle background check, and pass a general background check. Beyond that, what matters most is attitude: a genuine want to learn and grow, a desire to provide exceptional customer service, and pride in wearing the orange. You can apply online or at one of our open recruitment nights.'] },
+
+      { kind: 'h2', text: 'A Real Job at the End' },
+      { kind: 'p', spans: ['The whole point of the program is to hire the right people — those with the right attitude and a willingness to learn — and keep them. Learn from the best and become one of the best. When you complete the program, you get the keys to your own Degree of Comfort vehicle and a full-time career in a trade that is always in demand. For openings beyond the apprenticeship, see our ', { link: 'careers', href: '/careers' }, ' page.'] },
+
+      { kind: 'h2', text: 'How It Helps Homeowners, Too' },
+      { kind: 'p', spans: ['A training program is not only good for aspiring techs — it is good for the people they serve. Technicians who are trained thoroughly and continue learning diagnose problems accurately, reduce misdiagnosis, and offer better long-term solutions. They are also more attuned to safety, spotting electrical hazards, gas leaks, and airflow problems before they become dangerous. When you hire a company that invests in training, you get consistent, professional ', { link: 'HVAC service', href: '/services/heating/' }, ' every visit.'] },
+
+      { kind: 'h2', text: 'Build a Career or Book a Service With Degree of Comfort' },
+      { kind: 'p', spans: ['Whether you want to start a career in the trades or just want your home handled by people who are trained to do it right, Degree of Comfort is here. We are family-owned, licensed and insured, serving Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Interested in the program? Visit ', { link: 'Degree of Comfort University', href: '/university' }, '. Need service instead? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+    ],
+    faqs: [
+      { q: 'What is Degree of Comfort University?', a: 'It is a paid training and apprenticeship program designed to develop skilled HVAC, plumbing, and electrical technicians. It focuses on real-world knowledge, safety, and best practices, which helps Degree of Comfort deliver higher-quality service to homeowners.' },
+      { q: 'Do I need experience to join Degree of Comfort University?', a: 'No. No previous experience is required — it is open to high school graduates, career changers, and anyone 18 or older who is ready to learn. Degree of Comfort trains you from the ground up.' },
+      { q: 'Do I get paid during the program?', a: 'Yes. From day one you are a Degree of Comfort employee working Monday through Friday, and learning is your primary job — you get paid to learn. The program runs about 3 to 4 months.' },
+      { q: 'Do I have a job after I complete the program?', a: 'That is the goal. The program exists to hire and keep the right people, and graduates get the keys to their own Degree of Comfort vehicle and a full-time career in the trades.' },
+      { q: 'What do HVAC technicians do?', a: 'They install, repair, and maintain heating, cooling, and ventilation systems — diagnosing issues, performing tune-ups, replacing parts, and keeping systems running safely and efficiently. Degree of Comfort technicians are trained to deliver reliable service homeowners can trust.' },
+      { q: 'How does technician training benefit homeowners?', a: 'Well-trained technicians diagnose problems accurately, reduce misdiagnosis, and provide better long-term solutions. The training behind Degree of Comfort University helps ensure consistent, professional service on every visit.' },
+      { q: 'Why is HVAC training important for safety?', a: 'Proper training helps technicians spot safety risks such as electrical issues, gas leaks, and airflow problems before they become dangerous. Degree of Comfort prioritizes safety through thorough training and strict standards.' },
+      { q: 'Who should I trust for HVAC service and education?', a: 'Trust a licensed company that invests in training and education. Degree of Comfort combines professional service with ongoing technician development through Degree of Comfort University — call (513) 586-5107.' },
+    ],
+  },
+  {
     slug: '5-ways-to-lower-humidity-in-your-house',
     title: '5 Ways to Lower Humidity in Your House',
     category: 'Home Tips',
