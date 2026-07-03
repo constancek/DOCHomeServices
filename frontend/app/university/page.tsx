@@ -136,7 +136,7 @@ export default function UniversityPage() {
         <div className="container-page grid gap-10 lg:grid-cols-2 lg:items-center">
           <div
             className="aspect-[4/3] rounded-2xl bg-brand-200 bg-cover bg-center shadow-card"
-            style={{ backgroundImage: 'url(/university.jpg)' }}
+            style={{ backgroundImage: 'url(/orange-shirt.png)' }}
             role="img"
             aria-label="Degree of Comfort University team"
           />
