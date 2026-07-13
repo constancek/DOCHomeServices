@@ -126,7 +126,9 @@ export function WhyChoose() {
           <WhyChooseVideos />
 
           {/* Benefits list */}
-          <div>
+          {/* The CTA leads on mobile, where the benefits list pushes it far down
+              the page; on desktop it sits under the list as a closing step. */}
+          <div className="flex flex-col items-start">
             <ul className="space-y-4">
               {benefits.map((b) => (
                 <li key={b.title} className="flex gap-3.5">
@@ -140,7 +142,10 @@ export function WhyChoose() {
                 </li>
               ))}
             </ul>
-            <Link href="/video-testimonials" className="btn-pink mt-6 py-2.5 pl-2.5 pr-6 text-sm">
+            <Link
+              href="/video-testimonials"
+              className="btn-pink order-first mb-8 py-2.5 pl-2.5 pr-6 text-sm lg:order-none lg:mb-0 lg:mt-6"
+            >
               <span className="grid h-8 w-8 place-items-center rounded-full bg-white text-pink-500">
                 <Icon name="play" className="h-4 w-4 translate-x-px fill-current" />
               </span>
