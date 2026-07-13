@@ -140,12 +140,11 @@ export function WhyChoose() {
                 </li>
               ))}
             </ul>
-            <Link
-              href="/about"
-              className="mt-6 inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-wide text-pink-500"
-            >
-              Read More
-              <Icon name="arrow" className="h-4 w-4" />
+            <Link href="/video-testimonials" className="btn-pink mt-6 py-2.5 pl-2.5 pr-6 text-sm">
+              <span className="grid h-8 w-8 place-items-center rounded-full bg-white text-pink-500">
+                <Icon name="play" className="h-4 w-4 translate-x-px fill-current" />
+              </span>
+              Hear It Straight From Our Customers
             </Link>
           </div>
         </div>

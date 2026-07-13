@@ -99,7 +99,6 @@ export const nav: NavItem[] = [
       { label: 'Water Heater Repair', href: '/services/water-heater-repair' },
       { label: 'Water Quality', href: '/services/water-quality' },
     ],
-    cta: { label: 'Get Water Heater Quote', href: '/free-estimate' },
   },
   {
     label: 'Heating',
@@ -113,7 +112,6 @@ export const nav: NavItem[] = [
       { label: 'Indoor Air Quality', href: '/services/indoor-air-quality' },
       { label: 'Shop Furnace Filters', href: '/services/furnace-filters' },
     ],
-    cta: { label: 'Get Furnace Quote', href: '/free-estimate' },
   },
   {
     label: 'Air Conditioning',
@@ -135,7 +133,6 @@ export const nav: NavItem[] = [
       { label: 'Indoor Air Quality', href: '/services/indoor-air-quality' },
       { label: 'Shop Air Filters', href: '/services/air-filters' },
     ],
-    cta: { label: 'Get AC Quote', href: '/free-estimate' },
   },
   {
     label: 'Electrical',
@@ -188,21 +185,14 @@ export const nav: NavItem[] = [
     href: '/about',
     caret: true,
     children: [
-      { label: "We're Hiring! Apply Today", href: '/careers' },
-      { label: 'Financing', href: '/financing' },
-      {
-        label: 'The Degree of Comfort Difference',
-        href: '/customer-success-stories',
-        arrow: true,
-        children: [
-          { label: 'Customer Success Stories', href: '/customer-success-stories' },
-          { label: 'Reviews', href: '/reviews' },
-        ],
-      },
-      { label: 'Referral Program', href: '/referrals' },
-      { label: 'Degree of Comfort University', href: '/university' },
       { label: 'Blog', href: '/blog' },
-      { label: 'FAQ', href: '/faq' },
+      { label: 'Video Testimonials', href: '/video-testimonials' },
+      { label: 'Reviews', href: '/reviews' },
+      { label: 'Customer Success Stories', href: '/customer-success-stories' },
+      { label: 'Financing', href: '/financing' },
+      { label: 'Degree of Comfort University', href: '/university' },
+      { label: 'Referral Program', href: '/referrals' },
+      { label: "We're Hiring! Apply Today", href: '/careers' },
     ],
   },
   {
