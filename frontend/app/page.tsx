@@ -63,7 +63,7 @@ function PromoBar() {
       {/* Large snowflake on the left */}
       <Icon
         name="snowflake"
-        className="absolute left-[4%] top-1/2 hidden h-24 w-24 -translate-y-1/2 text-white/85 sm:block lg:left-[14%] lg:h-28 lg:w-28"
+        className="absolute left-4 top-1/2 hidden h-24 w-24 -translate-y-1/2 text-white/85 sm:block lg:left-10 lg:h-28 lg:w-28 xl:left-[8%]"
       />
 
       {/* Centered headline + CTA */}
