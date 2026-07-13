@@ -22,7 +22,6 @@ export default function ReviewsPage() {
         description={`What homeowners across ${site.serviceArea} say about working with ${site.name}.`}
         crumbs={[
           { label: 'Home', href: '/' },
-          { label: 'The Degree of Comfort Difference', href: '/difference' },
           { label: 'Reviews' },
         ]}
       />

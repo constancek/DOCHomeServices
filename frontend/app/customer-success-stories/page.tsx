@@ -20,7 +20,6 @@ export default function SuccessStoriesPage() {
         description={`Real projects, real results — in our customers' own words, across ${site.serviceArea}.`}
         crumbs={[
           { label: 'Home', href: '/' },
-          { label: 'The Degree of Comfort Difference', href: '/difference' },
           { label: 'Customer Success Stories' },
         ]}
       />

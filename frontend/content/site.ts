@@ -192,7 +192,7 @@ export const nav: NavItem[] = [
       { label: 'Financing', href: '/financing' },
       {
         label: 'The Degree of Comfort Difference',
-        href: '/difference',
+        href: '/customer-success-stories',
         arrow: true,
         children: [
           { label: 'Customer Success Stories', href: '/customer-success-stories' },
