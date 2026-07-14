@@ -25,6 +25,18 @@ export const videoTestimonials: VideoTestimonial[] = [
     avatar: '/videos/testimonial-4-avatar.jpg',
   },
   {
+    id: 'testimonial-7',
+    name: 'Dennis & Gail',
+    location: 'Hamilton County, OH',
+    rating: 5,
+    quote:
+      'We’ve lived in this home for 25 years, and one of the biggest advantages of choosing them was having every professional we needed under one roof. Instead of calling separate companies for an electrician, plumber, or HVAC technician, everything was handled by them. That gave us tremendous peace of mind. Working with them was a wonderful experience from beginning to end. The finished work turned out beautifully, and we couldn’t have been more pleased. We were truly ecstatic with the results and made sure to let the team know how much we appreciated their hard work. I highly recommend Cincy Degree of Comfort. If you want the job done right the first time, they’re the company to call.',
+    video: '/videos/testimonial-7.mp4',
+    poster: '/videos/testimonial-7-poster.jpg',
+    avatar: '/videos/testimonial-7-avatar.jpg',
+  },
+  // New videos go here — each one added below the previous new arrival.
+  {
     id: 'testimonial-6',
     name: 'Doug Ferguson',
     location: 'Butler County, OH',
@@ -34,17 +46,6 @@ export const videoTestimonials: VideoTestimonial[] = [
     video: '/videos/testimonial-6.mp4',
     poster: '/videos/testimonial-6-poster.jpg',
     avatar: '/videos/testimonial-6-avatar.jpg',
-  },
-  {
-    id: 'testimonial-1',
-    name: 'Megan Sullivan',
-    location: 'Erlanger, KY',
-    rating: 5,
-    quote:
-      'From the moment I called Cincy Degree of Comfort, everything was perfect. They arrived at my home quickly, communicated clearly every step of the way, and were honest and realistic about my options. The entire experience was smooth, professional, and exceeded my expectations.',
-    video: '/videos/testimonial-1.mp4',
-    poster: '/videos/testimonial-1-poster.jpg',
-    avatar: '/videos/testimonial-1-avatar.jpg',
   },
   {
     id: 'testimonial-5',
@@ -57,8 +58,6 @@ export const videoTestimonials: VideoTestimonial[] = [
     poster: '/videos/testimonial-5-poster.jpg',
     avatar: '/videos/testimonial-5-avatar.jpg',
   },
-  // New videos go here — each one added below the previous new arrival, so the
-  // two originals below stay at the bottom of the page.
   {
     id: 'testimonial-2',
     name: 'Rachel Bennett',
@@ -80,5 +79,16 @@ export const videoTestimonials: VideoTestimonial[] = [
     video: '/videos/testimonial-3.mp4',
     poster: '/videos/testimonial-3-poster.jpg',
     avatar: '/videos/testimonial-3-avatar.jpg',
+  },
+  {
+    id: 'testimonial-1',
+    name: 'Megan Sullivan',
+    location: 'Erlanger, KY',
+    rating: 5,
+    quote:
+      'From the moment I called Cincy Degree of Comfort, everything was perfect. They arrived at my home quickly, communicated clearly every step of the way, and were honest and realistic about my options. The entire experience was smooth, professional, and exceeded my expectations.',
+    video: '/videos/testimonial-1.mp4',
+    poster: '/videos/testimonial-1-poster.jpg',
+    avatar: '/videos/testimonial-1-avatar.jpg',
   },
 ];
