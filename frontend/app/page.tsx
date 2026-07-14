@@ -11,6 +11,7 @@ import {
   Community,
   BookAndAreas,
 } from '@/components/PageSections';
+import ReviewsSection from '@/components/ReviewsSection';
 import LogoMarquee from '@/components/LogoMarquee';
 import { site } from '@/content/site';
 import { services } from '@/content/services';
@@ -50,6 +51,7 @@ export default function HomePage() {
       <GetFunding />
       <ComfortClub />
       <Community />
+      <ReviewsSection showMarquee={false} />
       <TornEdge fill="#1f48c8" />
       <BookAndAreas />
     </>

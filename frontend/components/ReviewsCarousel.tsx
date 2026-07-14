@@ -1,16 +1,24 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import Link from 'next/link';
 import Icon from './Icon';
 
 type Review = {
   name: string;
   text: string;
   when: string;
+  avatar?: string;
+  videoHref?: string;
 };
+
+// Long reviews are clamped so every card is the same modest height; the visitor
+// opens the full text in place. Roughly the length that fits five lines.
+const CLAMP_CHARS = 240;
 
 export default function ReviewsCarousel({ reviews }: { reviews: Review[] }) {
   const trackRef = useRef<HTMLDivElement>(null);
+  const [expanded, setExpanded] = useState<number | null>(null);
 
   const slide = (dir: 1 | -1) => {
     const el = trackRef.current;
@@ -40,7 +48,7 @@ export default function ReviewsCarousel({ reviews }: { reviews: Review[] }) {
     el?.addEventListener('mouseleave', onLeave);
     const id = setInterval(() => {
       if (!paused) slide(1);
-    }, 5000);
+    }, 20000);
     return () => {
       clearInterval(id);
       el?.removeEventListener('mouseenter', onEnter);
@@ -54,27 +62,75 @@ export default function ReviewsCarousel({ reviews }: { reviews: Review[] }) {
         ref={trackRef}
         className="flex snap-x snap-mandatory gap-6 overflow-x-auto scroll-smooth pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
-        {reviews.map((r, i) => (
-          <figure
-            key={i}
-            className="flex w-full shrink-0 snap-start flex-col rounded-3xl bg-white p-7 shadow-card ring-1 ring-brand-900/5 sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
-          >
-            <div className="flex gap-1.5 text-pink-500">
-              {Array.from({ length: 5 }).map((_, p) => (
-                <Icon key={p} name="paw" className="h-6 w-6" />
-              ))}
-            </div>
-            <blockquote className="mt-4 flex-1 text-[15px] italic leading-relaxed text-ink/75">
-              &ldquo;{r.text}&rdquo;
-            </blockquote>
-            <figcaption className="mt-5">
-              <span className="block font-display text-sm font-extrabold uppercase tracking-wide text-pink-500">
-                — {r.name}
-              </span>
-              <span className="mt-0.5 block text-xs text-ink/45">{r.when}</span>
-            </figcaption>
-          </figure>
-        ))}
+        {reviews.map((r, i) => {
+          const isLong = r.text.length > CLAMP_CHARS;
+          const open = expanded === i;
+          return (
+            <figure
+              key={i}
+              className="flex w-full shrink-0 snap-start flex-col rounded-3xl bg-white p-7 shadow-card ring-1 ring-brand-900/5 sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
+            >
+              <div className="flex gap-1.5 text-pink-500">
+                {Array.from({ length: 5 }).map((_, p) => (
+                  <Icon key={p} name="paw" className="h-6 w-6" />
+                ))}
+              </div>
+
+              <blockquote
+                className={`mt-4 text-[15px] italic leading-relaxed text-ink/75 ${
+                  isLong && !open ? 'line-clamp-5' : ''
+                }`}
+              >
+                &ldquo;{r.text}&rdquo;
+              </blockquote>
+
+              {isLong && (
+                <button
+                  type="button"
+                  onClick={() => setExpanded(open ? null : i)}
+                  className="mt-2 self-start text-xs font-bold uppercase tracking-wide text-pink-500 hover:text-pink-600"
+                >
+                  {open ? 'Read less' : 'Read more'}
+                </button>
+              )}
+
+              <figcaption className="mt-6 flex items-center gap-3">
+                {r.avatar ? (
+                  <img
+                    src={r.avatar}
+                    alt=""
+                    width={44}
+                    height={44}
+                    loading="lazy"
+                    className="h-11 w-11 flex-shrink-0 rounded-full object-cover ring-2 ring-pink-500/20"
+                  />
+                ) : (
+                  <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-full bg-brand-50 font-display text-sm font-extrabold text-brand-600 ring-1 ring-brand-100">
+                    {r.name.charAt(0)}
+                  </span>
+                )}
+                <span className="min-w-0">
+                  <span className="block font-display text-sm font-extrabold uppercase tracking-wide text-pink-500">
+                    {r.name}
+                  </span>
+                  <span className="mt-0.5 block text-xs text-ink/45">{r.when}</span>
+                </span>
+              </figcaption>
+
+              {r.videoHref && (
+                <Link
+                  href={r.videoHref}
+                  className="mt-5 inline-flex items-center gap-2 self-start rounded-full bg-pink-500 py-2 pl-2 pr-5 text-xs font-bold uppercase tracking-wide text-white transition hover:bg-pink-600"
+                >
+                  <span className="grid h-7 w-7 place-items-center rounded-full bg-white text-pink-500">
+                    <Icon name="play" className="h-3.5 w-3.5 translate-x-px fill-current" />
+                  </span>
+                  Watch Their Video
+                </Link>
+              )}
+            </figure>
+          );
+        })}
       </div>
 
       {/* Controls */}

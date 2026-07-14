@@ -3,14 +3,23 @@ import Icon from './Icon';
 import TornEdge from './TornEdge';
 import LogoMarquee from './LogoMarquee';
 import WhyChooseVideos from './WhyChooseVideos';
+import ReviewsSection from './ReviewsSection';
 import EstimateForm from './EstimateForm';
 import { site } from '@/content/site';
 import { benefits, awards, clubPerks, fundingPoints, serviceAreas } from '@/content/home';
 
 // Shared marketing sections reused across the homepage and every interior page.
 // `hideMarquee` lets a page that already shows the image strip (e.g. /reviews)
-// suppress the duplicate one rendered here above Why Choose.
-export default function PageSections({ hideMarquee = false }: { hideMarquee?: boolean }) {
+// suppress the duplicate one rendered here above Why Choose. `hideReviews` does
+// the same for the review block on /reviews, which renders its own copy higher
+// up the page.
+export default function PageSections({
+  hideMarquee = false,
+  hideReviews = false,
+}: {
+  hideMarquee?: boolean;
+  hideReviews?: boolean;
+}) {
   return (
     <>
       <OurDifferenceBanner />
@@ -29,18 +38,21 @@ export default function PageSections({ hideMarquee = false }: { hideMarquee?: bo
       <GetFunding />
       <ComfortClub />
       <Community />
+      {!hideReviews && <ReviewsSection showMarquee={false} />}
       <TornEdge fill="#1f48c8" />
       <BookAndAreas />
     </>
   );
 }
 
-// Trimmed shared sections for BLOG pages only: just "Why Choose" and the
-// "Book Your Service Now! / Areas We Serve" block (with its zigzag top edge).
+// Trimmed shared sections for BLOG pages only: "Why Choose", the reviews block,
+// and the "Book Your Service Now! / Areas We Serve" block (with its zigzag top
+// edge).
 export function BlogSections() {
   return (
     <>
       <WhyChoose />
+      <ReviewsSection showMarquee={false} />
       <TornEdge fill="#1f48c8" />
       <BookAndAreas />
     </>

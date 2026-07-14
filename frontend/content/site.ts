@@ -185,10 +185,10 @@ export const nav: NavItem[] = [
     href: '/about',
     caret: true,
     children: [
-      { label: 'Blog', href: '/blog' },
       { label: 'Video Testimonials', href: '/video-testimonials' },
       { label: 'Reviews', href: '/reviews' },
       { label: 'Customer Success Stories', href: '/customer-success-stories' },
+      { label: 'Blog', href: '/blog' },
       { label: 'Financing', href: '/financing' },
       { label: 'Degree of Comfort University', href: '/university' },
       { label: 'Referral Program', href: '/referrals' },

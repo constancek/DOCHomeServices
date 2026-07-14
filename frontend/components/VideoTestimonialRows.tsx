@@ -13,7 +13,10 @@ function Row({ item, index }: { item: VideoTestimonial; index: number }) {
   const dark = index % 2 === 1;
 
   return (
-    <section className={dark ? 'bg-brand-600 py-14 sm:py-20' : 'bg-white py-14 sm:py-20'}>
+    <section
+      id={item.id}
+      className={`scroll-mt-24 py-14 sm:py-20 ${dark ? 'bg-brand-600' : 'bg-white'}`}
+    >
       <div className="container-page">
         <div
           className={`flex flex-col items-center gap-10 lg:flex-row lg:gap-14 ${
