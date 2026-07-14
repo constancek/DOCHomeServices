@@ -2,22 +2,15 @@
 
 import { useRef, useState } from 'react';
 import Icon from './Icon';
+import { videoTestimonials } from '@/content/videoTestimonials';
 
-// Customer testimonial videos shown in the "Why Choose" section.
+// Customer testimonial videos shown in the "Why Choose" section. The list is
+// driven by content/videoTestimonials.ts — the same source as the
+// /video-testimonials page — so adding a video there adds it here too.
 // Posters render instantly on every device; the video bytes only download
 // when the visitor presses play (preload="none"), so the section loads fast.
-const VIDEOS = [
-  '/videos/testimonial-4.mp4',
-  '/videos/testimonial-1.mp4',
-  '/videos/testimonial-2.mp4',
-  '/videos/testimonial-3.mp4',
-];
-const POSTERS = [
-  '/videos/testimonial-4-poster.jpg',
-  '/videos/testimonial-1-poster.jpg',
-  '/videos/testimonial-2-poster.jpg',
-  '/videos/testimonial-3-poster.jpg',
-];
+const VIDEOS = videoTestimonials.map((t) => t.video);
+const POSTERS = videoTestimonials.map((t) => t.poster ?? '');
 
 export default function WhyChooseVideos() {
   const [active, setActive] = useState(0);
