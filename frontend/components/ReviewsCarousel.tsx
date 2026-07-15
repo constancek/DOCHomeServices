@@ -20,23 +20,41 @@ export default function ReviewsCarousel({ reviews }: { reviews: Review[] }) {
   const trackRef = useRef<HTMLDivElement>(null);
   const [expanded, setExpanded] = useState<number | null>(null);
 
+  // The cards are rendered twice so the track can loop. `half` is the width of
+  // one full set; keeping scrollLeft inside [0, half) and jumping by exactly one
+  // set (instantly, onto an identical clone) makes the wrap invisible — no long
+  // scroll back to the start.
   const slide = (dir: 1 | -1) => {
     const el = trackRef.current;
     if (!el) return;
-    // Advance by exactly one card (card width + the flex gap).
     const card = el.querySelector('figure');
     const gap = 24; // matches gap-6
     const step = card ? card.getBoundingClientRect().width + gap : el.clientWidth;
-    const atEnd = el.scrollLeft + el.clientWidth >= el.scrollWidth - 4;
-    const atStart = el.scrollLeft <= 4;
-    if (dir === 1 && atEnd) {
-      el.scrollTo({ left: 0, behavior: 'smooth' });
-    } else if (dir === -1 && atStart) {
-      el.scrollTo({ left: el.scrollWidth, behavior: 'smooth' });
-    } else {
-      el.scrollBy({ left: dir * step, behavior: 'smooth' });
-    }
+    const half = el.scrollWidth / 2;
+    // Going left from the very start: hop forward one identical set first, so
+    // there is room to scroll left into the previous card.
+    if (dir === -1 && el.scrollLeft < step) el.scrollLeft += half;
+    el.scrollBy({ left: dir * step, behavior: 'smooth' });
   };
+
+  // After each move settles, snap scrollLeft back into the first set instantly.
+  useEffect(() => {
+    const el = trackRef.current;
+    if (!el) return;
+    let t: ReturnType<typeof setTimeout>;
+    const onScroll = () => {
+      clearTimeout(t);
+      t = setTimeout(() => {
+        const half = el.scrollWidth / 2;
+        if (half > 0 && el.scrollLeft >= half) el.scrollLeft -= half;
+      }, 200);
+    };
+    el.addEventListener('scroll', onScroll, { passive: true });
+    return () => {
+      el.removeEventListener('scroll', onScroll);
+      clearTimeout(t);
+    };
+  }, []);
 
   // Auto-advance; pauses while the visitor is hovering the track.
   useEffect(() => {
@@ -56,13 +74,16 @@ export default function ReviewsCarousel({ reviews }: { reviews: Review[] }) {
     };
   }, []);
 
+  // Rendered twice for the seamless loop above.
+  const loop = [...reviews, ...reviews];
+
   return (
     <div className="relative">
       <div
         ref={trackRef}
-        className="flex snap-x snap-mandatory gap-6 overflow-x-auto scroll-smooth pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        className="flex snap-x snap-mandatory gap-6 overflow-x-auto pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
-        {reviews.map((r, i) => {
+        {loop.map((r, i) => {
           const isLong = r.text.length > CLAMP_CHARS;
           const open = expanded === i;
           return (
