@@ -14,6 +14,17 @@ export type VideoTestimonial = {
 
 export const videoTestimonials: VideoTestimonial[] = [
   {
+    id: 'testimonial-8',
+    name: 'Matthew',
+    location: 'Sedamsville, OH',
+    rating: 5,
+    quote:
+      'I just wanted to say a big thank you to everyone at Cincy Degree of Comfort for the outstanding work you did at my home. After a roof leak caused water to reach the wiring connected to a hallway light fixture, I realized I had a serious electrical problem. I found Cincy Degree of Comfort online, and they responded quickly. They repaired the old damaged wiring at a very fair price, explained everything clearly, and cleaned up before leaving. I can’t say enough good things about the team. They did an excellent job, and I truly believe they helped prevent a much bigger problem. I’d gladly recommend them to all my friends and family. Thank you again for your professionalism and for helping keep my home safe.',
+    video: '/videos/testimonial-8.mp4',
+    poster: '/videos/testimonial-8-poster.jpg',
+    avatar: '/videos/testimonial-8-avatar.jpg',
+  },
+  {
     id: 'testimonial-4',
     name: 'Diane Whitaker',
     location: 'Cincinnati, OH',
