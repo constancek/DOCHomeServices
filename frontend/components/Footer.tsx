@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="bg-navy-bar text-brand-100">
       <div className="container-page py-12">
         <div className="grid gap-10 lg:grid-cols-[1.3fr_1fr_1fr]">
-          {/* Brand + newsletter */}
+          {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-2.5">
               <img
@@ -30,33 +30,6 @@ export default function Footer() {
               </span>
             </Link>
 
-            <p className="mt-5 text-sm font-bold uppercase tracking-wide text-white">
-              Join our newsletter
-            </p>
-            <form className="mt-2 flex max-w-sm gap-2">
-              <input
-                type="email"
-                placeholder="Email address"
-                aria-label="Email address"
-                className="w-full rounded-full border border-white/20 bg-white/10 px-4 py-2.5 text-sm text-white placeholder:text-brand-300 outline-none focus:border-pink-400"
-              />
-              <button type="button" className="btn-lime px-5 py-2.5 text-xs">
-                Submit
-              </button>
-            </form>
-
-            <div className="mt-5 flex gap-2">
-              {site.social.map((s) => (
-                <a
-                  key={s.label}
-                  href={s.href}
-                  aria-label={s.label}
-                  className="grid h-9 w-9 place-items-center rounded-full bg-white/10 text-xs font-bold text-white transition hover:bg-pink-500"
-                >
-                  {s.label.slice(0, 1)}
-                </a>
-              ))}
-            </div>
           </div>
 
           {/* Contact */}
