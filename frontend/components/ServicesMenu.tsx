@@ -6,7 +6,8 @@ import Icon from './Icon';
 import { serviceMenu } from '@/content/servicePages';
 
 export default function ServicesMenu() {
-  const [open, setOpen] = useState(0);
+  // -1 = all collapsed. The menu starts closed and only opens on click.
+  const [open, setOpen] = useState(-1);
 
   return (
     <div className="space-y-2">

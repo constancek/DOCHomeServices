@@ -82,6 +82,27 @@ export const nav: NavItem[] = [
         children: [{ label: 'Drain Cleaning', href: '/services/drain-cleaning' }],
       },
       { label: 'Emergency Plumbing', href: '/services/emergency-plumbing' },
+      {
+        label: 'Water Damage Restoration',
+        href: '/services/water-damage-restoration',
+        arrow: true,
+        children: [
+          { label: 'Emergency Water Extraction', href: '/services/emergency-water-extraction' },
+          { label: 'Structural Drying', href: '/services/structural-drying' },
+          { label: 'Mold Prevention & Remediation', href: '/services/mold-prevention-remediation' },
+        ],
+      },
+      {
+        label: 'After Flood Plumbing',
+        href: '/services/after-flood-plumbing',
+        arrow: true,
+        children: [
+          { label: 'Sewer Backup Repair', href: '/services/sewer-backup-repair' },
+          // Points at the existing Sump Pumps master page rather than a duplicate.
+          { label: 'Sump Pump Repair & Installation', href: '/services/sump-pumps' },
+          { label: 'Basement Flood Plumbing', href: '/services/basement-flood-plumbing' },
+        ],
+      },
       { label: 'Faucet Repair & Replacement', href: '/services/faucet-repair-replacement' },
       { label: 'Leak Detection', href: '/services/leak-detection' },
       { label: 'Leak Repair', href: '/services/leak-repair' },
