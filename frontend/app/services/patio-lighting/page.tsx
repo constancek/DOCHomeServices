@@ -236,12 +236,12 @@ export default function PatioLightingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Custom Patio Lighting Solutions</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Every patio is different, so lighting should match how you use the space. Some homeowners
             prefer soft accent lighting. Others want brighter patio lights for cooking, dining, or
             entertaining.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We design custom patio lighting that highlights seating areas, outdoor kitchens, and entry
             points while keeping the space comfortable and easy to navigate. Common lighting options
             include:
@@ -254,13 +254,13 @@ export default function PatioLightingPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             These fixtures work together to create a balanced outdoor lighting system.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Patio Lighting Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for professional outdoor lighting
             installation. When you work with our team, you receive:
           </p>
@@ -285,7 +285,7 @@ export default function PatioLightingPage() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             Our goal is to install lighting that looks great and performs reliably for years.
           </p>
 
@@ -325,7 +325,7 @@ export default function PatioLightingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Patio lighting by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We design and install patio and deck lighting across {site.serviceArea} —{' '}
             {locations.filter((l) => patioLightingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the decks and patios in your area.

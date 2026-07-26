@@ -328,7 +328,7 @@ export default function DrainsPage() {
               <h2 className="font-display text-xl font-extrabold text-brand-700">
                 Bathroom Drain Installations
               </h2>
-              <p className="mt-3 text-sm leading-relaxed text-ink/75">
+              <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
                 Bathrooms pack more drains into one space than anywhere else in the house — sinks,
                 showers, tubs, toilets, and floor drains all tie into the same lines. We install and
                 replace each of them to code, sizing and venting everything correctly so it drains
@@ -340,7 +340,7 @@ export default function DrainsPage() {
               <h2 className="font-display text-xl font-extrabold text-brand-700">
                 Kitchen Sink Repairs &amp; Installations
               </h2>
-              <p className="mt-3 text-sm leading-relaxed text-ink/75">
+              <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
                 Kitchen drains take the most abuse — grease, food scraps, and soap build up faster
                 here than anywhere else. We clear slow and clogged kitchen drains, install new sink
                 and garbage-disposal lines, and handle the plumbing for a remodel or a new appliance,

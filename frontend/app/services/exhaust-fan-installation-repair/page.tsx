@@ -164,25 +164,25 @@ export default function ExhaustFanPage() {
 
           {/* Repair or replace */}
           <h2 className="mt-10 section-title text-brand-700">Repair or Replace Your Exhaust Fan?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             When an exhaust fan is not performing properly, it is not always clear whether repair or
             replacement is the better option. The answer depends on age, airflow strength, and how the
             system is vented.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Repair is often the right solution when the unit is newer and the problem is limited to a
             worn motor, loose connection, or faulty switch. If the housing is secure and the ductwork
             vents outdoors properly, restoring the internal components can improve airflow and reduce
             noise without a full replacement.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Replacement becomes the smarter choice when the fan is older, undersized, or installed
             incorrectly. Many homes have small units that cannot dehumidify larger bathrooms, or fans
             that vent into the attic where moisture collects. Upgrading to a properly sized system
             improves airflow, helps prevent mold and mildew, and can reduce long-term maintenance and
             improve efficiency.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Our electricians evaluate airflow performance, venting, safety, and overall cost before
             recommending the best solution for your home.
           </p>
@@ -276,7 +276,7 @@ export default function ExhaustFanPage() {
         <div className="container-page max-w-4xl">
           {/* Benefits */}
           <h2 className="section-title text-brand-700">Benefits of a Properly Installed Exhaust Fan</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Bathrooms and kitchens are high-moisture areas, and ventilation is one of the most
             effective tools for moisture control. A professionally installed exhaust fan helps with:
           </p>
@@ -291,19 +291,19 @@ export default function ExhaustFanPage() {
 
           {/* Kitchen */}
           <h2 className="mt-12 section-title text-brand-700">Kitchen Exhaust Fan Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Moisture is not limited to bathrooms — cooking produces steam, heat, and airborne grease
             that can circulate through your home and settle on cabinets and surfaces. Kitchen exhaust
             fan installation pulls that air out efficiently.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             If your kitchen fan is outdated or underperforming, we offer both repair and replacement.
             Improving kitchen ventilation enhances comfort and helps keep your surfaces cleaner.
           </p>
 
           {/* Financing */}
           <h2 className="mt-12 section-title text-brand-700">Financing an Exhaust Fan</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Installation cost can vary based on electrical access, ductwork requirements, and fan
             selection — and replacement cost may depend on whether adjustments are needed to improve
             exterior venting. {site.name} offers financing for qualifying homeowners and explains
@@ -312,7 +312,7 @@ export default function ExhaustFanPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name}</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners choose {site.name} because we focus on proper electrical work and real
             ventilation performance — we do not simply swap out equipment, we look at airflow, venting,
             and long-term moisture control. When you work with our team, you can expect:
@@ -377,7 +377,7 @@ export default function ExhaustFanPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Exhaust fan service by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install and repair bathroom and kitchen exhaust fans across {site.serviceArea} —{' '}
             {locations.filter((l) => exhaustFanCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and moisture concerns in your area.

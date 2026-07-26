@@ -200,7 +200,7 @@ export default function WaterDamageRestorationPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">How the Restoration Works</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Restoration is a sequence, and skipping a step is how homes end up with a smell nobody
             can find six months later. Here is the order we work in and why each part matters:
           </p>
@@ -217,13 +217,13 @@ export default function WaterDamageRestorationPage() {
 
           {/* When not to call */}
           <h2 className="mt-12 section-title text-brand-700">When You Do Not Need Us</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             An overflowed tub or a knocked-over bucket on a tile or vinyl floor, mopped up within the
             hour, is finished. You do not need a restoration crew and you should not pay for one.
             Same goes for a small drip under a sink caught early — that is a repair, not a
             restoration job, and we would rather send a plumber for an hour than a crew for a week.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The line worth knowing is whether water reached something porous. Tile and sealed vinyl
             shed it. Carpet, drywall, subfloor, and framing hold it, and anything holding water for
             more than about a day needs equipment to get it back out.
@@ -233,7 +233,7 @@ export default function WaterDamageRestorationPage() {
           <h2 className="mt-12 section-title text-brand-700">
             Why Choose {site.name} for Water Damage Restoration
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Water damage is stressful in a way most plumbing problems are not. Your floor is ruined,
             you do not know how far it went, and the insurance side is its own headache. We try to
             take all three off your plate at once.
@@ -254,7 +254,7 @@ export default function WaterDamageRestorationPage() {
 
           {/* Related */}
           <h2 className="mt-12 section-title text-brand-700">Related Plumbing Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Water damage almost always traces back to something specific. Depending on what we find,
             you may also want{' '}
             <Link href="/services/after-flood-plumbing" className="font-semibold text-brand-600 underline">
@@ -314,7 +314,7 @@ export default function WaterDamageRestorationPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Water damage restoration by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We extract water, dry the structure, and repair the plumbing behind it across{' '}
             {site.serviceArea} — {locations.filter((l) => waterDamageRestorationCopy[l.slug]).length}{' '}
             neighborhoods and counting. Find yours below for local detail on the water damage we see

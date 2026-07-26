@@ -270,7 +270,7 @@ export default function MiniSplitsPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Benefits of Ductless Mini-Split Systems</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Many homeowners choose ductless systems for their flexibility and performance advantages.
             Ductless mini-splits offer:
           </p>
@@ -282,14 +282,14 @@ export default function MiniSplitsPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             These benefits make ductless systems a strong option for a wide range of homes and
             layouts.
           </p>
 
           {/* Is it right */}
           <h2 className="mt-12 section-title text-brand-700">Is a Ductless Mini-Split Right for Your Home?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Ductless systems are well-suited for homes where traditional HVAC struggles to deliver
             consistent comfort. A ductless system may be a good fit if you have:
           </p>
@@ -301,14 +301,14 @@ export default function MiniSplitsPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Our team helps you evaluate whether a ductless mini-split is a good fit based on your
             layout, comfort goals, and energy needs.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Mini-Splits</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for professional cooling and heating
             services. Our team focuses on clear communication, accurate recommendations, and dependable
             workmanship — helping you understand your options and delivering service built for
@@ -364,7 +364,7 @@ export default function MiniSplitsPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Mini-splits by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install and repair ductless mini-splits across {site.serviceArea} —{' '}
             {locations.filter((l) => miniSplitsCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and spaces in your area.

@@ -197,7 +197,7 @@ export default function StructuralDryingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">How the Drying Works</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The equipment is the easy part. The measuring is what makes it work:
           </p>
           <ul className="mt-4 space-y-2">
@@ -212,12 +212,12 @@ export default function StructuralDryingPage() {
           </ul>
 
           <h2 className="mt-12 section-title text-brand-700">When You Do Not Need Us</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Clean water on a hard, sealed floor that you wiped up within an hour does not need
             structural drying. Nothing porous took it on, so there is nothing left to dry. Open a
             window and move on.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A damp patch that has been there for years, in a basement that has always been humid, is
             also not a drying job. That is an ongoing moisture source — groundwater, a failed
             gutter, poor grading — and running equipment on it just runs your meter. Find the source
@@ -227,7 +227,7 @@ export default function StructuralDryingPage() {
           <h2 className="mt-12 section-title text-brand-700">
             Why Choose {site.name} for Structural Drying
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Drying is easy to fake. Equipment sits in a room for three days, someone says it is dry,
             and nobody finds out otherwise until the flooring moves. The reading log is the
             difference, and we hand you ours.
@@ -247,7 +247,7 @@ export default function StructuralDryingPage() {
           </div>
 
           <h2 className="mt-12 section-title text-brand-700">Related Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Drying normally follows{' '}
             <Link href="/services/emergency-water-extraction" className="font-semibold text-brand-600 underline">
               emergency water extraction
@@ -304,7 +304,7 @@ export default function StructuralDryingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Structural drying by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We dry framing, subfloor, and drywall to measured readings across {site.serviceArea} —{' '}
             {locations.filter((l) => structuralDryingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on your area.

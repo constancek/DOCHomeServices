@@ -48,13 +48,23 @@ export function CouponWidget() {
 }
 
 // The standard sidebar: optional page-specific widgets, then map + voucher.
-export function Sidebar({ extras }: { extras?: ReactNode }) {
+// `hideMenuOnMobile` keeps the services menu in the sidebar on desktop but hides
+// it on mobile, for pages that render the menu lower down (above Our Difference).
+export function Sidebar({
+  extras,
+  hideMenuOnMobile = false,
+}: {
+  extras?: ReactNode;
+  hideMenuOnMobile?: boolean;
+}) {
   return (
-    <aside className="space-y-6 lg:sticky lg:top-28 lg:self-start">
+    <aside className="space-y-6 lg:self-start">
       {extras}
       <MapWidget />
       <CouponWidget />
-      <ServicesMenu />
+      <div className={hideMenuOnMobile ? 'hidden lg:block' : undefined}>
+        <ServicesMenu />
+      </div>
     </aside>
   );
 }
@@ -63,14 +73,16 @@ export function Sidebar({ extras }: { extras?: ReactNode }) {
 export default function MainWithSidebar({
   children,
   extras,
+  hideMenuOnMobile = false,
 }: {
   children: ReactNode;
   extras?: ReactNode;
+  hideMenuOnMobile?: boolean;
 }) {
   return (
     <div className="container-page grid gap-10 lg:grid-cols-[1fr_340px] lg:items-start">
       <div className="min-w-0">{children}</div>
-      <Sidebar extras={extras} />
+      <Sidebar extras={extras} hideMenuOnMobile={hideMenuOnMobile} />
     </div>
   );
 }

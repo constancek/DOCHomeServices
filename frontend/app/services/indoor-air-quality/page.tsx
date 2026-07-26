@@ -212,7 +212,7 @@ export default function IndoorAirQualityPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Start With a Home Air Quality Inspection</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Treating indoor air pollution is not as simple as buying the first product on the shelf —
             there is a science to finding the right purifier, and it starts with testing your indoor
             air to pinpoint the exact cause. Our specialists use the latest IAQ technology to find what
@@ -222,7 +222,7 @@ export default function IndoorAirQualityPage() {
 
           {/* Filter changes */}
           <h2 className="mt-12 section-title text-brand-700">When to Change Your Air Filter</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Your air filters should be changed regularly to keep your HVAC system performing and energy
             use down. A good rule of thumb is monthly — as Energy Star recommends — or every three
             months at a minimum, especially during a heavy heating or cooling season. This simple task
@@ -232,12 +232,12 @@ export default function IndoorAirQualityPage() {
 
           {/* Humidifiers */}
           <h2 className="mt-12 section-title text-brand-700">Whole-Home Humidifiers</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Humidity is a crucial factor in your indoor air quality. Low humidity leads to dry skin,
             aggravated respiratory conditions, and a higher risk of colds and flu — and it can even
             damage wood furniture and your home’s structure.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Our whole-home humidifiers integrate with your existing HVAC system to maintain optimal
             humidity throughout your home — not just one room. Set your desired level and the system
             takes care of the rest, with minimal maintenance.
@@ -245,12 +245,12 @@ export default function IndoorAirQualityPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Indoor Air Quality</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Indoor air quality plays an important role in comfort, health, and overall home
             performance. {site.name} provides professional IAQ services designed to reduce airborne
             contaminants, improve ventilation, and support a healthier living environment.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With experienced technicians and tailored recommendations, we help homeowners tackle common
             concerns like allergens, humidity, and poor airflow. And because we also handle heating,
             cooling, electrical, and plumbing, you have one trusted team for the whole home.
@@ -308,7 +308,7 @@ export default function IndoorAirQualityPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Indoor air quality by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We test air and install filtration, purifiers, and humidifiers across {site.serviceArea} —{' '}
             {locations.filter((l) => indoorAirQualityCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and climate in your area.

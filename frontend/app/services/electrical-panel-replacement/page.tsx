@@ -195,30 +195,30 @@ export default function ElectricalPanelReplacementPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Electrical Panel Replacement in {site.serviceArea}</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Living in {site.serviceArea} means you’ve got access to expert electrical services right in
             your area. Whether you need a panel replacement or an upgrade, {site.name} is ready to help.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We specialize in helping homeowners upgrade their breaker panels with minimal disruption to
             daily life. Our technicians are skilled, friendly, and focused on making the process as smooth
             as possible for you and your family.
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Electrical Panel Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             If a full replacement isn’t necessary, panel repair may be the right option. Often, smaller
             issues can be resolved without replacing the entire panel — replacing individual breakers,
             fixing wiring, or addressing a specific fault might be enough to restore your system.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             When your power is out or your breakers keep tripping, you want things fixed fast. We inspect
             your system, diagnose the problem, and clearly explain your options. If a repair can solve the
             issue, we take care of it quickly so you can get back to your routine.
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Unmatched Expertise for Every Need</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We don’t just handle panel installations. We offer a full range of electrical services to meet
             your home’s needs, including:
           </p>
@@ -237,18 +237,18 @@ export default function ElectricalPanelReplacementPage() {
           </ul>
 
           <h2 className="mt-12 section-title text-brand-700">Upgrade Your Electrical Panel Today</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Scheduling a panel upgrade across {site.serviceArea} has never been easier. An upgraded panel
             gives you peace of mind that your electrical system is safe, efficient, and ready for today’s
             technology.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We guide you through the entire process — from the initial consultation to the final
             installation — making sure everything runs smoothly.
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Panel Replacement</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We’ve built our reputation on high-quality service and treating every customer like family.
             Homeowners across {site.serviceArea} rely on us because we provide:
           </p>
@@ -302,7 +302,7 @@ export default function ElectricalPanelReplacementPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Electrical panel replacement by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We replace and upgrade electrical panels across {site.serviceArea} —{' '}
             {locations.filter((l) => panelReplacementCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and electrical loads in your area.

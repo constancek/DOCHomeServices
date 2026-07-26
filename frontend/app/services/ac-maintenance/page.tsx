@@ -222,7 +222,7 @@ export default function ACMaintenancePage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">How Regular Maintenance Protects Your System</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Over time, dirt, dust, and normal wear affect an air conditioner’s performance — when parts
             get dirty or worn, the system has to work harder to cool the home. Regular maintenance
             protects the system by:
@@ -235,14 +235,14 @@ export default function ACMaintenancePage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Routine maintenance keeps the system in better condition and supports long-term
             performance.
           </p>
 
           {/* When to schedule */}
           <h2 className="mt-12 section-title text-brand-700">When to Schedule an AC Tune-Up</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Most homeowners benefit from annual maintenance, often scheduled before the cooling season
             begins. Spring is a common time for an annual tune-up, but maintenance can be performed any
             time the system is in use. Scheduling before peak summer heat helps ensure your air
@@ -251,7 +251,7 @@ export default function ACMaintenancePage() {
 
           {/* Long-term */}
           <h2 className="mt-12 section-title text-brand-700">How Maintenance Supports Long-Term Performance</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Routine maintenance helps the system operate efficiently year after year — clean components
             and proper airflow let it cool your home efficiently. Over time, regular maintenance helps
             by:
@@ -267,11 +267,11 @@ export default function ACMaintenancePage() {
 
           {/* DIY vs pro */}
           <h2 className="mt-12 section-title text-brand-700">DIY vs. Professional AC Maintenance</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners can handle a few basic tasks — replacing air filters and keeping the outdoor
             unit clear of debris — which support airflow and help the system run more efficiently.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Professional maintenance goes further. A trained HVAC technician inspects internal
             components, tests system performance, and identifies issues that are not visible during
             everyday use — helping ensure the system operates safely and reliably.
@@ -279,7 +279,7 @@ export default function ACMaintenancePage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Your AC Tune-Up</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for dependable cooling services. Our
             AC maintenance is performed by experienced HVAC technicians who focus on thorough
             inspections and clear communication. Each tune-up supports system performance, energy
@@ -336,7 +336,7 @@ export default function ACMaintenancePage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">AC maintenance by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We service and tune up air conditioners across {site.serviceArea} —{' '}
             {locations.filter((l) => acMaintenanceCopy[l.slug]).length} neighborhoods and counting. Find
             yours below for local detail on keeping your system efficient.

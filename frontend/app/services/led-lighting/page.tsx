@@ -249,24 +249,24 @@ export default function LedLightingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Benefits of LED Lighting</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             LED lighting offers several advantages over traditional bulbs and fixtures.
           </p>
 
           <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">Energy-Efficient Lighting</h3>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             LED lights use significantly less electricity than incandescent or fluorescent bulbs. Many
             homeowners upgrade to LED lighting to improve energy efficiency while maintaining bright,
             reliable lighting.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Because LEDs produce less heat, they waste less energy. This helps reduce overall power
             consumption while still delivering strong illumination. LED lights also last much longer than
             traditional bulbs, which means fewer replacements and less maintenance over time.
           </p>
 
           <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">Custom Design Options</h3>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             LED lighting provides flexible design options for modern homes. These lights are available in
             different brightness levels, fixture styles, and color temperatures. Common LED lighting
             solutions include:
@@ -279,13 +279,13 @@ export default function LedLightingPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             These lighting solutions help homeowners create comfortable and visually balanced interiors.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for LED Light Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners throughout {site.serviceArea} trust {site.name} for professional lighting
             installation services. When you work with our electricians, you receive:
           </p>
@@ -310,7 +310,7 @@ export default function LedLightingPage() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             Our team focuses on installing LED lighting systems that improve comfort, efficiency, and
             long-term performance.
           </p>
@@ -351,7 +351,7 @@ export default function LedLightingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">LED lighting by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install LED lighting across {site.serviceArea} —{' '}
             {locations.filter((l) => ledLightingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and rooms in your area.

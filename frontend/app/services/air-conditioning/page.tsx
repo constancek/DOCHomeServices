@@ -254,7 +254,7 @@ export default function AirConditioningPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Get an AC Tune-Up to Keep Cool</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Regular maintenance helps your system run more smoothly and efficiently — many breakdowns
             start as small issues that routine service catches early. An{' '}
             <Link href="/services/ac-maintenance" className="font-semibold text-pink-600 underline hover:text-pink-700">
@@ -270,14 +270,14 @@ export default function AirConditioningPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Scheduling maintenance before peak summer heat keeps your home comfortable and your system
             reliable.
           </p>
 
           {/* Repair */}
           <h2 className="mt-12 section-title text-brand-700">AC Repair That Restores Comfort</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             When an AC unit stops working properly, comfort changes quickly — rooms may feel uneven,
             airflow may weaken, or the system may run without cooling. Professional{' '}
             <Link href="/services/ac-repair" className="font-semibold text-pink-600 underline hover:text-pink-700">
@@ -289,7 +289,7 @@ export default function AirConditioningPage() {
 
           {/* Install */}
           <h2 className="mt-12 section-title text-brand-700">AC Installation & Replacement Made Simple</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             When a system reaches the end of its lifespan, replacement becomes a consideration — older
             systems struggle to keep up and cost more to operate. Professional{' '}
             <Link href="/services/ac-installation-replacement" className="font-semibold text-pink-600 underline hover:text-pink-700">
@@ -305,14 +305,14 @@ export default function AirConditioningPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Replacing an outdated air conditioner improves performance, reduces energy costs, and
             provides long-term reliability.
           </p>
 
           {/* Mini-split */}
           <h2 className="mt-12 section-title text-brand-700">Ductless Mini-Split Cooling & Heating</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Not every home suits traditional central air.{' '}
             <Link href="/services/mini-splits" className="font-semibold text-pink-600 underline hover:text-pink-700">
               Ductless mini-split systems
@@ -328,14 +328,14 @@ export default function AirConditioningPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             These systems deliver targeted comfort, quiet operation, and efficient cooling and heating
             without a central duct system.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Air Conditioning</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for dependable cooling. Our team
             focuses on honest communication, careful workmanship, and solutions that support long-term
             comfort. When you choose us, you can expect:

@@ -174,12 +174,12 @@ export default function PipeRepairReplacementPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Leaky Pipe Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A leak may start small, but it never stays that way for long. Water that seeps into walls,
             ceilings, or floors can create mold, rot, and expensive repairs. Our team is trained to find
             and fix these leaks quickly and effectively.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Using advanced leak detection equipment, we trace the source of the issue. Whether you’re
             facing a worn valve under the kitchen sink, a hidden joint in the wall, or a corroded pipe in
             the basement, we repair or replace the problem area without unnecessary disruption. This is
@@ -187,12 +187,12 @@ export default function PipeRepairReplacementPage() {
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Pipe Replacement Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Sometimes a pipe is beyond repair. If it’s cracked, collapsed, or corroded beyond use,
             replacing it is the best option. This type of installation can sound intimidating, but we make
             it straightforward and walk you through every step so you understand what’s happening and why.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Our team uses techniques like trenchless technology, which let us remove old pipelines and
             install new ones with minimal disruption to your property. Whether the pipe runs through a slab
             foundation, under your lawn, or along your basement floor, we handle it with care and
@@ -209,7 +209,7 @@ export default function PipeRepairReplacementPage() {
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Pipe Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for dependable plumbing. When you work
             with our team, you receive:
           </p>
@@ -264,7 +264,7 @@ export default function PipeRepairReplacementPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Pipe repair &amp; replacement by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We repair and replace pipes across {site.serviceArea} —{' '}
             {locations.filter((l) => pipeRepairCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and plumbing in your area.

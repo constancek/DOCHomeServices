@@ -219,7 +219,7 @@ export default function LeakRepairPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">The Process Behind Our Pipe Leak Repairs</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We follow a proven process to locate the source quickly and fix it correctly the first
             time, combining advanced technology with hands-on expertise to minimize damage and keep
             your repair as stress-free as possible. Each step is designed to give you clear answers
@@ -252,12 +252,12 @@ export default function LeakRepairPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Leak Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Leak repair takes accuracy, experience, and the right approach to prevent repeat issues.
             {' '}{site.name} provides professional leak repair that fixes the source of the problem —
             not just the visible damage.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With skilled technicians, clear communication, and dependable scheduling, we make sure
             repairs are completed efficiently and correctly. From minor pipe leaks to more complex
             jobs, every service is designed to protect your home and restore your plumbing with
@@ -313,7 +313,7 @@ export default function LeakRepairPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Leak repair by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We find and fix leaks across {site.serviceArea} —{' '}
             {locations.filter((l) => leakRepairCopy[l.slug]).length} neighborhoods and counting. For local
             detail on the leaks common to homes in your area, find yours below.

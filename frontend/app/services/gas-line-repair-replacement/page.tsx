@@ -197,7 +197,7 @@ export default function GasLinePage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Our Gas Line Installation Process</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Every gas line job follows a careful, code-driven process:
           </p>
           <ul className="mt-4 space-y-2">
@@ -208,19 +208,19 @@ export default function GasLinePage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We focus on thorough diagnostics, reliable repairs, and clear communication at every step.
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Repair or Replacement?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A repair addresses a specific point of damage, while a replacement removes and installs new
             piping when the problem is more systemic. After a thorough diagnosis, we explain which option
             fits your situation and why.
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Common Causes of Gas Line Leaks</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">Leaks usually trace back to one of these causes:</p>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">Leaks usually trace back to one of these causes:</p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {causes.map((c) => (
               <li key={c} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
@@ -231,7 +231,7 @@ export default function GasLinePage() {
           </ul>
 
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Gas Line Service</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for dependable plumbing. When you work
             with our team, you receive:
           </p>
@@ -285,7 +285,7 @@ export default function GasLinePage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Gas line service by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We repair, replace, and install gas lines across {site.serviceArea} —{' '}
             {locations.filter((l) => gasLineCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and lines in your area.

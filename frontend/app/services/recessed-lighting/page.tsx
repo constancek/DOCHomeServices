@@ -243,11 +243,11 @@ export default function RecessedLightingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Cost to Install Recessed Lighting</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The cost to install recessed lighting depends on several factors. The number of fixtures,
             ceiling access, and electrical wiring all affect the final price.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Installing recessed lights during a renovation is often easier because ceilings may already
             be open. Adding fixtures to a finished ceiling may require additional electrical work. During
             your consultation, our electricians evaluate the room and recommend the number of fixtures
@@ -256,7 +256,7 @@ export default function RecessedLightingPage() {
 
           {/* Pro vs DIY */}
           <h2 className="mt-12 section-title text-brand-700">Why You Need Professional Installation and Not DIY</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Some homeowners attempt to install recessed lights on their own. However, recessed lighting
             requires electrical wiring and changes to the ceiling. Professional electricians understand
             how to install recessed lighting safely. They protect existing wiring and make sure each
@@ -270,13 +270,13 @@ export default function RecessedLightingPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Professional installation helps prevent uneven lighting and electrical issues.
           </p>
 
           {/* Benefits */}
           <h2 className="mt-12 section-title text-brand-700">Recessed Lighting Benefits</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Recessed lighting offers several advantages over traditional ceiling fixtures. Because the
             lights sit inside the ceiling, they provide strong lighting without taking up visual space.
             Benefits include:
@@ -289,13 +289,13 @@ export default function RecessedLightingPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Many homeowners choose recessed lighting because it makes rooms feel brighter and more open.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Recessed Lighting Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for dependable lighting installation
             services. When you work with our team, you receive:
           </p>
@@ -320,7 +320,7 @@ export default function RecessedLightingPage() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             Our goal is to install lighting that improves brightness and enhances the look of your home.
           </p>
 
@@ -360,7 +360,7 @@ export default function RecessedLightingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Recessed lighting by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install recessed lighting across {site.serviceArea} —{' '}
             {locations.filter((l) => recessedLightingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and rooms in your area.

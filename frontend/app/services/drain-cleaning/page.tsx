@@ -298,7 +298,7 @@ export default function DrainCleaningPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Drain cleaning by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We clear drains across {site.serviceArea} —{' '}
             {locations.filter((l) => drainCleaningCopy[l.slug]).length} neighborhoods and counting. For
             local detail on response times and the clogs common to homes in your area, find yours below.

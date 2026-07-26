@@ -255,14 +255,14 @@ export default function TanklessPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Benefits of Switching to a Tankless Water Heater</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Traditional tank water heaters store a limited amount of hot water — once it runs out, you
             wait for the tank to refill and reheat. Tankless models work differently: water flows
             through a heat exchanger and the system heats it instantly. That design delivers endless
             hot water and avoids the energy loss that happens when stored water cools between uses.
           </p>
           <BulletList items={benefits} />
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Both gas and electric tankless models perform well when properly sized. Our technicians
             evaluate flow rate, household demand, and utility access so the system heats water
             efficiently without strain.
@@ -270,19 +270,19 @@ export default function TanklessPage() {
 
           {/* Repair */}
           <h2 className="mt-12 section-title text-brand-700">Tankless Water Heater Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             When a water heater has an issue, it affects your entire home. Temperature changes, error
             codes, or reduced hot water output are signs the system needs attention. Common repair
             issues include:
           </p>
           <BulletList items={repairIssues} />
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Prompt repairs protect energy efficiency and help prevent larger system failures.
           </p>
 
           {/* Repair or replace */}
           <h2 className="mt-12 section-title text-brand-700">Repair or Replace?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Deciding whether to repair or replace your system depends on its age, performance, and
             repair history.
           </p>
@@ -310,20 +310,20 @@ export default function TanklessPage() {
               </ul>
             </div>
           </div>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Replacing an aging system before it fails reduces downtime and unexpected expenses. We
             help you understand the cost, the long-term savings, and your financing options.
           </p>
 
           {/* Tune-ups */}
           <h2 className="mt-12 section-title text-brand-700">Tankless Water Heater Tune-Ups</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Regular maintenance keeps a tankless system running efficiently. Without routine service,
             mineral buildup can restrict flow and reduce heating performance. A professional tune-up
             includes:
           </p>
           <BulletList items={tuneUp} />
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Routine tune-ups help extend system life and maintain your warranty coverage.
           </p>
 
@@ -331,7 +331,7 @@ export default function TanklessPage() {
           <h2 className="mt-12 section-title text-brand-700">
             Why Choose {site.name} for Tankless Water Heater Services
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             {site.name} brings trusted experience and local expertise to every tankless water heater
             service. Our licensed technicians work with all major brands and focus on accurate
             diagnostics, efficient repairs, and proper installation so your system performs at its
@@ -391,7 +391,7 @@ export default function TanklessPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Tankless water heaters by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install, repair, and maintain tankless systems across {site.serviceArea} —{' '}
             {locations.filter((l) => tanklessCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on hard water and the homes in your area.

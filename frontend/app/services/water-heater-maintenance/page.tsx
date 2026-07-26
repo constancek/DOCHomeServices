@@ -229,7 +229,7 @@ export default function WaterHeaterMaintenancePage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Our Water Heater Tune-Up Process</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We take a detailed, step-by-step approach to keep your water heater operating efficiently.
             Here is how our tune-up process works:
           </p>
@@ -249,7 +249,7 @@ export default function WaterHeaterMaintenancePage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for a Tune-Up</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             {site.name} offers thorough water heater tune-ups designed to keep your system running
             safely and efficiently. Our licensed technicians perform detailed inspections, clean key
             components, and address small issues before they become costly repairs. We work with both
@@ -309,7 +309,7 @@ export default function WaterHeaterMaintenancePage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Water heater maintenance by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We tune up tank and tankless water heaters across {site.serviceArea} —{' '}
             {locations.filter((l) => waterHeaterMaintenanceCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on hard water and the homes in your area.

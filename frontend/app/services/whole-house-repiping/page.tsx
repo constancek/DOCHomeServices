@@ -190,7 +190,7 @@ export default function WholeHouseRepipingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">What to Expect During Whole-Home Repiping</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We keep the project organized and predictable from start to finish:
           </p>
           <ul className="mt-4 space-y-2">
@@ -203,7 +203,7 @@ export default function WholeHouseRepipingPage() {
           </ul>
 
           <h2 className="mt-12 section-title text-brand-700">Why Repipe Your Home</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Replacing your water lines does more than stop leaks. A full repipe with modern materials
             delivers:
           </p>
@@ -215,7 +215,7 @@ export default function WholeHouseRepipingPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             If you are only dealing with an isolated problem, we also offer targeted{' '}
             <Link href="/services/pipe-repair-replacement" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               pipe repair and replacement
@@ -228,7 +228,7 @@ export default function WholeHouseRepipingPage() {
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Repiping</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for dependable plumbing. When you work
             with our team, you receive:
           </p>
@@ -282,7 +282,7 @@ export default function WholeHouseRepipingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Whole-house repiping by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We repipe homes across {site.serviceArea} —{' '}
             {locations.filter((l) => wholeHouseRepipingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and pipes in your area.

@@ -243,7 +243,7 @@ export default function EvChargersPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Level 1 vs. Level 2 EV Chargers: What’s the Difference?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Not all EV chargers work the same way. Understanding the difference helps you choose the
             right setup.
           </p>
@@ -277,25 +277,25 @@ export default function EvChargersPage() {
               </p>
             </div>
           </div>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             If you drive daily or rely heavily on your vehicle, Level 2 EV charging is typically the
             better option.
           </p>
 
           {/* Financing */}
           <h2 className="mt-12 section-title text-brand-700">Financing an EV Charger Station</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             EV charger installation cost depends on several factors. These include the type of charger,
             wiring distance, and whether your electric panel needs upgrading.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We offer financing options to make home EV charger installation more manageable. Our team
             provides clear pricing and explains all available options before work begins.
           </p>
 
           {/* Upgrade your home */}
           <h2 className="mt-12 section-title text-brand-700">Upgrade Your Home With an EV Charging Station</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Installing an EV charger at home is a practical upgrade. It simplifies daily routines and
             prepares your property for future electric vehicles. With a home EV charging station, you
             can:
@@ -308,14 +308,14 @@ export default function EvChargersPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             As more vehicles are charged at home, installing an EV charger becomes an important
             improvement for modern households.
           </p>
 
           {/* Panel upgrade */}
           <h2 className="mt-12 section-title text-brand-700">Does Your Electrical Panel Need an Upgrade?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Installing an EV charger increases demand on your home’s electrical system. Some older
             panels may not have sufficient capacity to safely support a Level 2 EV charger. Your panel
             may need upgrading if:
@@ -328,7 +328,7 @@ export default function EvChargersPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Upgrading your panel ensures stable power distribution and long-term safety. It also
             prepares your home for future electrical improvements. Our electricians evaluate your panel
             before installation so there are no surprises.
@@ -336,7 +336,7 @@ export default function EvChargersPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for EV Charger Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners throughout {site.serviceArea} trust {site.name} for reliable electrical services.
             When you choose us, you receive:
           </p>
@@ -361,7 +361,7 @@ export default function EvChargersPage() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             We focus on safe, efficient home EV charger installation built for long-term performance.
           </p>
 
@@ -401,7 +401,7 @@ export default function EvChargersPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">EV charger installation by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install home EV chargers across {site.serviceArea} —{' '}
             {locations.filter((l) => evChargersCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and panels in your area.

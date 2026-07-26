@@ -197,7 +197,7 @@ export default function MoldPreventionRemediationPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">How Remediation Works</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Containment is what separates remediation from cleaning. Disturbing growth without it
             moves the problem into rooms that did not have it:
           </p>
@@ -213,13 +213,13 @@ export default function MoldPreventionRemediationPage() {
           </ul>
 
           <h2 className="mt-12 section-title text-brand-700">When You Do Not Need Us</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A patch of black spotting in the corner of a shower or along tile grout is almost always
             surface growth on non-porous material, fed by steam rather than a leak. Clean it, run the
             exhaust fan, and it stays gone. That is a maintenance job, not a remediation job, and
             paying anyone to contain a bathroom for it is money wasted.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The line worth knowing is porous versus non-porous, and small versus spreading. Surface
             growth on tile, glass, or sealed metal cleans off. Growth on drywall, framing, carpet, or
             insulation has gone into the material, and cleaning the face of it accomplishes nothing.
@@ -228,7 +228,7 @@ export default function MoldPreventionRemediationPage() {
           <h2 className="mt-12 section-title text-brand-700">
             Why Choose {site.name} for Mold Work
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Mold is the easiest service in this trade to sell on fear. We would rather tell you that
             what you have is a bathroom ventilation problem than contain and strip a room that did
             not need it — and because we are plumbers, we can actually fix the leak that started it
@@ -249,7 +249,7 @@ export default function MoldPreventionRemediationPage() {
           </div>
 
           <h2 className="mt-12 section-title text-brand-700">Related Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The best mold prevention is fast, measured drying. See{' '}
             <Link href="/services/structural-drying" className="font-semibold text-brand-600 underline">
               structural drying
@@ -306,7 +306,7 @@ export default function MoldPreventionRemediationPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Mold prevention & remediation by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We stop mold before it establishes and remove it properly across {site.serviceArea} —{' '}
             {locations.filter((l) => moldPreventionRemediationCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on your area.

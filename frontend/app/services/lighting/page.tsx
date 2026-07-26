@@ -292,11 +292,11 @@ export default function LightingPage() {
         <div className="container-page max-w-4xl">
           {/* Custom designs */}
           <h2 className="mt-12 section-title text-brand-700">Custom Lighting Designs</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Lighting design helps create balanced brightness throughout the home. Proper fixture
             placement prevents dark areas and improves visibility.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Our electricians help homeowners choose lighting solutions that match the layout of their
             space. Combining recessed lighting, LED lighting, and decorative fixtures creates
             comfortable, functional rooms. Thoughtful lighting design can brighten kitchens, improve
@@ -305,19 +305,19 @@ export default function LightingPage() {
 
           {/* Cost */}
           <h2 className="mt-12 section-title text-brand-700">Cost of Our Lighting Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Lighting installation costs depend on the number of fixtures and the complexity of the
             project. Some lighting fixture installations can be completed quickly, while larger lighting
             upgrades may require more planning.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Our electricians review your lighting needs and recommend solutions that fit your home and
             budget.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Lighting Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for dependable electrical services.
             When you work with our team, you receive:
           </p>
@@ -342,7 +342,7 @@ export default function LightingPage() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             Our goal is simple. We install lighting that helps your home function better every day.
           </p>
 

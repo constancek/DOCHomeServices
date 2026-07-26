@@ -192,7 +192,7 @@ export default function BasementFloodPlumbingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">What the Job Involves</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The order matters here as much as the work itself:
           </p>
           <ul className="mt-4 space-y-2">
@@ -207,12 +207,12 @@ export default function BasementFloodPlumbingPage() {
           </ul>
 
           <h2 className="mt-12 section-title text-brand-700">When You Do Not Need Us</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A small amount of clean water on a sealed concrete floor, from a known one-off like an
             overfilled laundry tub, mopped up the same hour, is finished. You do not need a plumber
             and you do not need a drying crew.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             If your basement takes water at the wall base every heavy rain and the plumbing is sound,
             that is an exterior drainage and grading problem. A waterproofing contractor is the right
             call, not us. We can confirm which one you are dealing with, and that visit is worth more
@@ -222,7 +222,7 @@ export default function BasementFloodPlumbingPage() {
           <h2 className="mt-12 section-title text-brand-700">
             Why Choose {site.name} for a Flooded Basement
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Flooded basements are where the most guessing happens in this trade, because the evidence
             washes away with the water. We trace it properly, show you what we found, and price the
             repair once.
@@ -242,7 +242,7 @@ export default function BasementFloodPlumbingPage() {
           </div>
 
           <h2 className="mt-12 section-title text-brand-700">Related Plumbing Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Depending on what we find, the next step may be{' '}
             <Link href="/services/sump-pumps" className="font-semibold text-brand-600 underline">
               sump pump repair and installation
@@ -298,7 +298,7 @@ export default function BasementFloodPlumbingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Basement flood plumbing by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We trace and repair the plumbing behind flooded basements across {site.serviceArea} —{' '}
             {locations.filter((l) => basementFloodPlumbingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on your area.

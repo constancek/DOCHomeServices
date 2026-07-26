@@ -228,7 +228,7 @@ export default function FaucetPage() {
         <div className="container-page max-w-4xl">
           {/* Types of faucets */}
           <h2 className="section-title text-brand-700">Types of Faucets We Repair and Install</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We work on nearly every type of faucet you can imagine:
           </p>
           <ul className="mt-4 space-y-2.5">
@@ -244,7 +244,7 @@ export default function FaucetPage() {
 
           {/* DIY tips */}
           <h2 className="mt-12 section-title text-brand-700">DIY Faucet Tips and Tricks</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             For small issues, homeowners can try a few basic fixes:
           </p>
           <ul className="mt-4 space-y-2">
@@ -255,7 +255,7 @@ export default function FaucetPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Even with these tips, many homeowners call us when a repair needs specialized tools or
             plumbing know-how. Our licensed plumbers handle everything safely and efficiently.
           </p>
@@ -278,12 +278,12 @@ export default function FaucetPage() {
           <h2 className="mt-12 section-title text-brand-700">
             Why Choose {site.name} for Your Faucet Replacement
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Replacing a faucet may seem simple, but proper installation is the key to preventing
             leaks, water damage, and future plumbing issues. {site.name} provides professional faucet
             replacement so your new fixture is installed correctly and works exactly as it should.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With experienced plumbers, careful workmanship, and clear communication throughout, we
             make faucet replacement easy and stress-free. From removing the old fixture to testing the
             new installation, every detail is handled with your home’s plumbing system in mind.
@@ -340,7 +340,7 @@ export default function FaucetPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Faucet repair & replacement by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We repair and replace faucets across {site.serviceArea} —{' '}
             {locations.filter((l) => faucetCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the faucet issues common in your area.

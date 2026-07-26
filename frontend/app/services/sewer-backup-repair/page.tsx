@@ -196,7 +196,7 @@ export default function SewerBackupRepairPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">What Causes Sewer Backups</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The repair depends entirely on the cause, which is why the camera goes down first:
           </p>
           <ul className="mt-4 space-y-2">
@@ -211,13 +211,13 @@ export default function SewerBackupRepairPage() {
           </ul>
 
           <h2 className="mt-12 section-title text-brand-700">When You Do Not Need Us</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             If one fixture is slow and everything else in the house drains normally, that is a local
             clog, not a sewer backup. A plunger or a hand auger on that trap will very often finish
             it, and you should try that before paying anyone. The tell for a sewer problem is
             multiple fixtures failing together, or waste appearing at the lowest drain in the house.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             And if the backup started at the same time as heavy rain across the whole street, call
             your sewer district first. When the municipal main is surcharged, the problem is not on
             your property and there is nothing on your side worth paying to repair.
@@ -226,7 +226,7 @@ export default function SewerBackupRepairPage() {
           <h2 className="mt-12 section-title text-brand-700">
             Why Choose {site.name} for Sewer Backup Repair
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Sewer work is where homeowners get sold the most unnecessary excavation. We show you the
             camera footage, tell you which side of the property line the problem is on, and separate
             what has to be replaced from what can be cleared and left alone.
@@ -246,7 +246,7 @@ export default function SewerBackupRepairPage() {
           </div>
 
           <h2 className="mt-12 section-title text-brand-700">Related Plumbing Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A backup rarely arrives alone. You may also need{' '}
             <Link href="/services/emergency-water-extraction" className="font-semibold text-brand-600 underline">
               emergency water extraction
@@ -303,7 +303,7 @@ export default function SewerBackupRepairPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Sewer backup repair by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We camera, clear, and repair backed-up sewer lines across {site.serviceArea} —{' '}
             {locations.filter((l) => sewerBackupRepairCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on your area.

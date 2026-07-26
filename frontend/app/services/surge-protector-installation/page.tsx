@@ -224,7 +224,7 @@ export default function SurgeProtectorPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Benefits of Surge Protection</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Whole-home surge protectors provide comprehensive protection for your home’s electrical
             system. Benefits include:
           </p>
@@ -236,19 +236,19 @@ export default function SurgeProtectorPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Surge protection is especially important in homes with multiple electronics and sensitive
             equipment — installing a whole-home surge protector helps prevent damage before it occurs.
           </p>
 
           {/* Defend */}
           <h2 className="mt-12 section-title text-brand-700">Defend Your Home Against Power Surges</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Your electrical panel distributes power throughout your home. When a surge protection
             device is installed at this central point, it intercepts excess voltage before it reaches
             your branch circuits.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Instead of relying only on outlet surge protectors, whole-home surge protection works at
             the source — protecting everything connected to your system, from kitchen appliances to
             air conditioners. For dependable protection against lightning and everyday voltage
@@ -257,7 +257,7 @@ export default function SurgeProtectorPage() {
 
           {/* Financing */}
           <h2 className="mt-12 section-title text-brand-700">Financing a Whole-Home Surge Protector</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The cost depends on your electrical panel configuration and installation requirements.
             {' '}{site.name} offers financing for qualifying homeowners to make installation more
             manageable. Do not wait until a surge causes costly damage — our team can review your
@@ -266,7 +266,7 @@ export default function SurgeProtectorPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Surge Protection</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} choose {site.name} because we prioritize safe
             electrical work and long-term reliability. When you work with us, you receive:
           </p>
@@ -330,7 +330,7 @@ export default function SurgeProtectorPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Whole-home surge protection by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install whole-home surge protectors across {site.serviceArea} —{' '}
             {locations.filter((l) => surgeProtectorCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and electrical systems in your area.

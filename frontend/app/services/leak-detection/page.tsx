@@ -243,7 +243,7 @@ export default function LeakDetectionPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">What to Expect During Professional Leak Detection</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Hidden leaks can do serious damage — warped wood, cracked concrete, mold, and higher water
             bills. Whether it is a dripping faucet, a toilet leak, a kitchen leak, or a slab leak,
             finding the source quickly is critical. Our leak detection across {site.serviceArea} is
@@ -277,7 +277,7 @@ export default function LeakDetectionPage() {
 
           {/* Emergency */}
           <h2 className="mt-12 section-title text-brand-700">Same-Day & Emergency Leak Detection</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Water leaks do not follow a schedule, so our same-day and emergency leak detection across{' '}
             {site.serviceArea} is built to respond fast. Call us right away for:
           </p>
@@ -300,12 +300,12 @@ export default function LeakDetectionPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Leak Detection</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Undetected leaks lead to water damage, higher utility bills, and costly repairs.{' '}
             {site.name} provides professional leak detection designed to locate hidden leaks quickly
             and accurately — even behind walls, under floors, or below concrete slabs.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With experienced technicians and proven detection methods, we identify the source without
             unnecessary disruption to your home. Clear communication, reliable scheduling, and a focus
             on long-term solutions mean leak issues are handled efficiently and correctly the first
@@ -363,7 +363,7 @@ export default function LeakDetectionPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Leak detection by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We find hidden leaks across {site.serviceArea} —{' '}
             {locations.filter((l) => leakDetectionCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and plumbing in your area.

@@ -253,7 +253,7 @@ export default function EmergencyPlumbingPage() {
               <h2 className="section-title text-brand-700">
                 Emergency Plumbing Services in {site.serviceArea} &amp; Beyond
               </h2>
-              <p className="mt-3 text-sm leading-relaxed text-ink/75">
+              <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
                 Plumbing emergencies call for fast action, and our team is always ready to help.
                 Whether you are facing a water leak, a blocked pipe, or a sewer-line issue, we deliver
                 professional solutions and focus on restoring your home as quickly as possible. A
@@ -265,7 +265,7 @@ export default function EmergencyPlumbingPage() {
 
             <div>
               <h2 className="section-title text-brand-700">Burst Pipes and Our Process</h2>
-              <p className="mt-3 text-sm leading-relaxed text-ink/75">
+              <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
                 A burst pipe can release hundreds of gallons of water a day, so a fast response
                 prevents structural damage, electrical hazards, and mold growth. We respond
                 immediately, shut off the water supply to stop the damage, and make the repair
@@ -277,7 +277,7 @@ export default function EmergencyPlumbingPage() {
 
             <div>
               <h2 className="section-title text-brand-700">24-Hour Plumber in {site.serviceArea}</h2>
-              <p className="mt-3 text-sm leading-relaxed text-ink/75">
+              <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
                 Plumbing disasters do not wait for business hours, which is why we are available
                 around the clock. As your trusted 24-hour plumber across {site.serviceArea}, we
                 respond promptly to minimize damage and restore comfort to your home. We arrive with
@@ -290,7 +290,7 @@ export default function EmergencyPlumbingPage() {
               <h2 className="section-title text-brand-700">
                 Same-Day Plumbing to Get Your Home Back in Shape
               </h2>
-              <p className="mt-3 text-sm leading-relaxed text-ink/75">
+              <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
                 From a leaky faucet to the emergency installation of a new water heater, we provide
                 same-day service whenever possible. Our goal is to restore your home quickly, reduce
                 disruption, and prevent further damage. Every job is completed with care, attention
@@ -334,7 +334,7 @@ export default function EmergencyPlumbingPage() {
           {locations.length > 0 && (
             <div className="mt-12">
               <h2 className="section-title text-brand-700">Emergency plumbing by neighborhood</h2>
-              <p className="mt-3 text-sm leading-relaxed text-ink/75">
+              <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
                 We respond across {site.serviceArea} —{' '}
                 {locations.filter((l) => emergencyPlumbingCopy[l.slug]).length}{' '}
                 neighborhoods and counting. For local detail on response times and the plumbing issues

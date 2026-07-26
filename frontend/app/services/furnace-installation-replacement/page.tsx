@@ -136,7 +136,7 @@ export default function FurnaceInstallationPage() {
 
           {/* Advantages */}
           <h2 className="mt-10 section-title text-brand-700">Advantages of Modern Furnaces</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Today’s high-efficiency furnaces do more than provide heat — they add comfort, save money,
             and improve your home’s air quality. Benefits include:
           </p>
@@ -148,7 +148,7 @@ export default function FurnaceInstallationPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Upgrading to a modern furnace is not just about comfort — it is an investment in your home
             and your peace of mind. We also handle{' '}
             <Link href="/services/furnace-repair" className="font-semibold text-pink-600 underline hover:text-pink-700">
@@ -232,7 +232,7 @@ export default function FurnaceInstallationPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Same-Day Furnace Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             When your furnace fails during a cold snap, waiting is not an option. {site.name} offers
             same-day furnace installation for urgent situations — our rescue team is ready to install
             and test your new unit quickly, restoring warmth to your home without delay.
@@ -240,7 +240,7 @@ export default function FurnaceInstallationPage() {
 
           {/* Gas and electric */}
           <h2 className="mt-12 section-title text-brand-700">Gas & Electric Furnace Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Every home has different heating needs, and our team is equipped to handle all types of
             furnace installation:
           </p>
@@ -254,7 +254,7 @@ export default function FurnaceInstallationPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Whether you choose a natural gas or electric furnace, our certified technicians make sure
             your unit is installed properly, tested for performance, and ready to deliver comfort
             right away.
@@ -262,7 +262,7 @@ export default function FurnaceInstallationPage() {
 
           {/* Financing */}
           <h2 className="mt-12 section-title text-brand-700">Financing a New Furnace</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A new furnace can be a big investment, especially if your current unit failed unexpectedly.
             {' '}{site.name} offers flexible financing to make the purchase stress-free — with low
             rates and fast approval, you can enjoy a reliable heating system now and spread the
@@ -271,7 +271,7 @@ export default function FurnaceInstallationPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Furnace Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Installing a new furnace is a significant investment, and proper installation is the key to
             long-term performance and efficiency. {site.name} provides professional furnace
             installation designed to keep your system operating safely and reliably from day one. With
@@ -329,7 +329,7 @@ export default function FurnaceInstallationPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Furnace installation & replacement by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install and replace furnaces across {site.serviceArea} —{' '}
             {locations.filter((l) => furnaceInstallationCopy[l.slug]).length} neighborhoods and counting.
             For local detail on the systems that fit homes in your area, find yours below.

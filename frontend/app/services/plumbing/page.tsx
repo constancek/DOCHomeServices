@@ -116,7 +116,7 @@ export default function PlumbingPage() {
 
           {/* Services grid */}
           <h2 className="mt-12 section-title text-brand-700">Our Plumbing Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Explore any service below for details, or call us and we will point you to the right fix.
           </p>
           <ul className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3">

@@ -135,7 +135,7 @@ function MainService({ service }: { service: Service }) {
             </section>
           </div>
 
-          <aside className="space-y-6 lg:sticky lg:top-28 lg:self-start">
+          <aside className="space-y-6 lg:self-start">
             <BookCard title={service.title} />
             <div className="card">
               <h2 className="text-sm font-bold uppercase tracking-wider text-brand-500">Other services</h2>
@@ -267,7 +267,7 @@ function SubService({ page }: { page: ServicePage }) {
             </section>
           </div>
 
-          <aside className="space-y-6 lg:sticky lg:top-28 lg:self-start">
+          <aside className="space-y-6 lg:self-start">
             <BookCard title={page.title} />
             <div className="card">
               <h2 className="text-sm font-bold uppercase tracking-wider text-brand-500">

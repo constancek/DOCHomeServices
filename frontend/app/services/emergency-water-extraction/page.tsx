@@ -190,7 +190,7 @@ export default function EmergencyWaterExtractionPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">How Extraction Works</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Five steps, in this order, on the first visit:
           </p>
           <ul className="mt-4 space-y-2">
@@ -205,13 +205,13 @@ export default function EmergencyWaterExtractionPage() {
           </ul>
 
           <h2 className="mt-12 section-title text-brand-700">When You Do Not Need Us</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A spill on tile or sealed vinyl, caught within the hour, is a mop and a fan. A shop vac
             handles more than people expect on hard flooring. If the water never left the room, never
             reached carpet or drywall, and is already up, you are done — calling us would be paying
             for equipment you do not need.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The threshold is porous material. Once water is in carpet pad, subfloor, or the bottom of
             a drywall sheet, household tools cannot reach it, and what they leave behind is what
             causes the smell and the buckled floor later.
@@ -220,7 +220,7 @@ export default function EmergencyWaterExtractionPage() {
           <h2 className="mt-12 section-title text-brand-700">
             Why Choose {site.name} for Water Extraction
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Most extraction companies cannot touch the pipe that caused the problem. That gap — the
             hours or days between the water being pumped out and a plumber arriving to stop it coming
             back — is where a lot of the damage happens. We close it by being both.
@@ -240,7 +240,7 @@ export default function EmergencyWaterExtractionPage() {
           </div>
 
           <h2 className="mt-12 section-title text-brand-700">Related Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Extraction is the first step of a longer job. It is normally followed by{' '}
             <Link href="/services/structural-drying" className="font-semibold text-brand-600 underline">
               structural drying
@@ -296,7 +296,7 @@ export default function EmergencyWaterExtractionPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Emergency water extraction by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We pull standing water out fast across {site.serviceArea} —{' '}
             {locations.filter((l) => emergencyWaterExtractionCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on your area.

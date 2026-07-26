@@ -218,7 +218,7 @@ export default function SewerPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Fast & Effective Sewer Line Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Not every sewer issue needs a full replacement. In many cases we can fix the problem with
             a targeted repair — whether it is a minor leak, a stubborn clog, or damage from tree roots
             — and restore your system quickly. Our licensed technicians use the latest equipment to
@@ -228,7 +228,7 @@ export default function SewerPage() {
 
           {/* Signs */}
           <h2 className="mt-12 section-title text-brand-700">Signs You Need a Sewer System Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Sewer problems are not always obvious, but these warning signs usually mean it is time to
             have your line checked:
           </p>
@@ -245,7 +245,7 @@ export default function SewerPage() {
 
           {/* Process */}
           <h2 className="mt-12 section-title text-brand-700">What to Expect During a Sewer Pipe Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Sewer problems do not always come with a warning — sometimes it is a slow drain, a strange
             smell, or a gurgling toilet; other times it is a full backup in the basement. However it
             shows up, our goal is to fix it fast and fix it right. Here is what the process looks like:
@@ -267,12 +267,12 @@ export default function SewerPage() {
           {/* Trenchless highlight */}
           <div className="mt-12 rounded-3xl border border-brand-100 bg-brand-50 p-7 sm:p-8">
             <h2 className="section-title text-brand-700">Trenchless Sewer Line Replacement</h2>
-            <p className="mt-3 text-sm leading-relaxed text-ink/75">
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
               Nobody likes the idea of their yard getting torn up just to replace a pipe. That is why
               we offer trenchless sewer line replacement — fast, clean, and without leaving your
               property looking like a construction site.
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-ink/75">
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
               We use advanced trenchless technology to pull a new pipe through your existing line. No
               major digging and no destroyed lawn — just a reliable, long-lasting solution that keeps
               your outdoor space intact.
@@ -281,7 +281,7 @@ export default function SewerPage() {
 
           {/* Benefits */}
           <h2 className="mt-12 section-title text-brand-700">Benefits of Timely Sewer Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Addressing sewer issues without delay saves you from substantial headaches. The biggest
             benefits of booking timely sewer repair:
           </p>
@@ -298,13 +298,13 @@ export default function SewerPage() {
 
           {/* Cleanout */}
           <h2 className="mt-12 section-title text-brand-700">Sewer Line Cleanout Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Keeping your sewer lines clean is one of the best ways to prevent blockages and backups.
             Over time, grease, soap, and debris build up inside the pipe, restricting flow and raising
             the chance of a clog. Our cleanout service clears that buildup so your pipes flow freely
             again.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Regular cleanouts extend the life of your sewer system and keep your plumbing in good
             shape. We use powerful equipment to break up and remove blockages, keeping your system
             clog-free and running efficiently.
@@ -312,12 +312,12 @@ export default function SewerPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Sewer Line Service</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Sewer line work is a major project that takes proper planning, precise workmanship, and
             experienced pros. {site.name} provides reliable repair, replacement, and installation
             designed to keep your system running efficiently and meeting local code.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With trained technicians, careful workmanship, and clear communication throughout, we help
             homeowners avoid future sewer issues and costly repairs. From the initial evaluation to
             final testing, the focus is on long-term performance and dependable results.
@@ -374,7 +374,7 @@ export default function SewerPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Sewer repair & replacement by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We repair and replace sewer lines across {site.serviceArea} —{' '}
             {locations.filter((l) => sewerRepairCopy[l.slug]).length} neighborhoods and counting. For local
             detail on the sewer issues common to homes in your area, find yours below.

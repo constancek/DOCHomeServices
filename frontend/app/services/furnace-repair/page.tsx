@@ -140,7 +140,7 @@ export default function FurnaceRepairPage() {
 
           {/* Most common problems */}
           <h2 className="mt-10 section-title text-brand-700">Most Common Furnace Problems</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Furnaces can fail for many reasons, especially during the harsh Ohio River Valley winters.
             Some of the most common issues our technicians fix include:
           </p>
@@ -152,7 +152,7 @@ export default function FurnaceRepairPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             If your heating system is struggling, do not wait — small issues become expensive failures
             fast. Schedule a furnace repair today.
           </p>
@@ -247,7 +247,7 @@ export default function FurnaceRepairPage() {
 
           {/* Repair or replace */}
           <h2 className="mt-12 section-title text-brand-700">Repair or Replace?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Most furnaces last 10–15 years with regular maintenance. If your unit is older, breaking
             down often, or driving up your energy bills, replacement may be the smarter choice. Our
             team walks you through the decision and provides options that fit your budget.
@@ -255,11 +255,11 @@ export default function FurnaceRepairPage() {
 
           {/* Cost */}
           <h2 className="mt-12 section-title text-brand-700">Furnace Repair Cost</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Repair prices depend on the issue, the type of furnace, and the parts required. A simple
             fix like thermostat calibration costs less, while replacing a motor or igniter costs more.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The good news: {site.name} provides upfront pricing, so there are no surprises — and we
             will always tell you honestly whether a repair or a replacement is the better long-term
             value.
@@ -267,7 +267,7 @@ export default function FurnaceRepairPage() {
 
           {/* Emergency */}
           <h2 className="mt-12 section-title text-brand-700">Emergency Furnace Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             When your furnace fails without warning, every minute without heat matters. When
             temperatures drop below freezing, you need help fast — our rescue team is on standby with
             24/7 service to restore heat quickly so your family stays safe and warm.
@@ -284,7 +284,7 @@ export default function FurnaceRepairPage() {
 
           {/* Other services */}
           <h2 className="mt-12 section-title text-brand-700">Other Heating Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Beyond repairs, {site.name} offers a full range of heating and cooling solutions:
           </p>
           <ul className="mt-4 space-y-2">
@@ -300,13 +300,13 @@ export default function FurnaceRepairPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Furnace Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             As a family-owned and operated business, we put our customers first — if you are not happy,
             we are not happy. Furnace repairs take experience and careful attention to keep your system
             operating safely and efficiently, and {site.name} focuses on restoring reliable heat while
             addressing the root cause of the problem.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With skilled technicians, clear communication, and dependable scheduling, we make furnace
             repair straightforward and stress-free — every repair completed with long-term performance
             and home comfort in mind.
@@ -361,7 +361,7 @@ export default function FurnaceRepairPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Furnace repair by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We repair furnaces across {site.serviceArea} —{' '}
             {locations.filter((l) => furnaceRepairCopy[l.slug]).length} neighborhoods and counting. For
             local detail on response times and the heating issues common to homes in your area, find yours

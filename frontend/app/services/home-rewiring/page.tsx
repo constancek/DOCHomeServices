@@ -269,7 +269,7 @@ export default function HomeRewiringPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Why Rewiring Should Be Done by a Professional</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Home rewiring is not a small repair. It involves live wiring and strict safety rules.
             Improper work can cause:
           </p>
@@ -281,14 +281,14 @@ export default function HomeRewiringPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Professional residential electrical rewiring ensures the job meets code. Licensed
             electricians understand grounding and load balance.
           </p>
 
           {/* Project types */}
           <h2 className="mt-12 section-title text-brand-700">Types of Electrical Rewiring Projects</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Not every home needs full whole-home rewiring. Common projects include:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
@@ -299,13 +299,13 @@ export default function HomeRewiringPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We tailor each project to your home’s condition.
           </p>
 
           {/* Safety */}
           <h2 className="mt-12 section-title text-brand-700">Electrical Rewiring and Home Safety</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Faulty wiring is a leading cause of house fires. Overloaded circuits and worn insulation
             increase risk. Rewiring improves safety by:
           </p>
@@ -317,13 +317,13 @@ export default function HomeRewiringPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             A modern system protects your home and family.
           </p>
 
           {/* Older homes */}
           <h2 className="mt-12 section-title text-brand-700">Rewiring Older Homes</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Many homes in {site.serviceArea} still contain outdated wiring. Knob-and-tube systems and
             aluminum wire were common years ago. Today, these systems often cannot support modern
             demand. Whole-home rewiring improves:
@@ -336,13 +336,13 @@ export default function HomeRewiringPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Updating older wiring strengthens your home from the inside out.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Electrical Rewiring</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for dependable rewiring services.
             When you work with us, you receive:
           </p>
@@ -367,7 +367,7 @@ export default function HomeRewiringPage() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             We focus on safe results and long-term performance.
           </p>
 
@@ -407,7 +407,7 @@ export default function HomeRewiringPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Home rewiring by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We rewire homes across {site.serviceArea} —{' '}
             {locations.filter((l) => homeRewiringCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and wiring in your area.

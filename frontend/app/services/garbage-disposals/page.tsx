@@ -177,13 +177,13 @@ export default function GarbageDisposalsPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Garbage Disposal Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Nothing stalls a busy evening like a garbage disposal that won’t budge. If it’s jammed,
             leaking, or giving off a weird smell, it’s time to call for repair. We know how frustrating it
             is to deal with standing water or that odd hum when the switch flips, and we’re ready to take
             care of it.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             When you call us, we figure out what’s going wrong — whether it’s a worn motor, a blocked pipe,
             or a loose connection. We carry the tools and parts needed to get it back in shape on the spot,
             and we give you the full picture of what to expect moving forward. If a clog is the real
@@ -195,19 +195,19 @@ export default function GarbageDisposalsPage() {
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Garbage Disposal Replacement</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Today’s garbage disposals are miles ahead of older models. If your current unit is loud,
             unreliable, or has started tripping your circuit breaker, it’s probably time for an upgrade. A
             replacement can speed up cleanup, minimize mess, and prevent those annoying sink clogs.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We’ll walk you through your options, explain the differences in power and size, and make sure
             everything fits neatly into place. If a quick repair solves the problem, we’ll go that route
             instead. Either way, you’ll be left with a disposal that makes kitchen life easier.
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Garbage Disposals</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for dependable plumbing. When you work
             with our team, you receive:
           </p>
@@ -261,7 +261,7 @@ export default function GarbageDisposalsPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Garbage disposal service by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We repair, replace, and install garbage disposals across {site.serviceArea} —{' '}
             {locations.filter((l) => garbageDisposalsCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and kitchens in your area.

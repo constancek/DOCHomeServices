@@ -283,7 +283,7 @@ export default function ElectricalInspectionsPage() {
         <div className="container-page max-w-4xl">
           {/* Pro vs DIY */}
           <h2 className="section-title text-brand-700">Professional vs. DIY Electrical Inspection</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             It can be tempting to check outlets or breakers yourself — a quick look may spot obvious
             damage, but it cannot uncover deeper problems. A licensed electrician checks internal panel
             components and grounding systems that require training and safety precautions, along with
@@ -297,13 +297,13 @@ export default function ElectricalInspectionsPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Professional service keeps you safe and provides written documentation.
           </p>
 
           {/* Potential risks of DIY */}
           <h2 className="mt-12 section-title text-brand-700">Potential Risks of DIY Inspections</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Working inside an electrical panel without training can be dangerous. Possible hazards
             include:
           </p>
@@ -315,13 +315,13 @@ export default function ElectricalInspectionsPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Electrical systems are complex — professional service keeps you safe.
           </p>
 
           {/* Common issues */}
           <h2 className="mt-12 section-title text-brand-700">Common Issues an Inspection Uncovers</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">During service visits, electricians often discover:</p>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">During service visits, electricians often discover:</p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {commonIssues.map((c) => (
               <li key={c} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
@@ -330,13 +330,13 @@ export default function ElectricalInspectionsPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Correcting these issues improves safety and system reliability.
           </p>
 
           {/* When to schedule */}
           <h2 className="mt-12 section-title text-brand-700">When Should You Schedule an Inspection?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Inspections are not only for emergencies — they are helpful in many situations:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
@@ -347,7 +347,7 @@ export default function ElectricalInspectionsPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Real estate transactions often require proof that systems are safe, and insurers may
             request documentation. A professional review provides clarity, confidence, and a proactive
             way to protect your investment.
@@ -355,7 +355,7 @@ export default function ElectricalInspectionsPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Electrical Inspections</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} choose {site.name} because we provide thorough
             evaluations and friendly service. When you work with us, you receive:
           </p>
@@ -417,7 +417,7 @@ export default function ElectricalInspectionsPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Electrical inspections by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We inspect home electrical systems across {site.serviceArea} —{' '}
             {locations.filter((l) => electricalInspectionsCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and systems in your area.

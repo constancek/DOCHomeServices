@@ -150,7 +150,7 @@ export default function LocationServicePage({
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar hideMenuOnMobile>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: `url(${config.heroImage})` }}
@@ -183,7 +183,7 @@ export default function LocationServicePage({
             <div key={sec.title}>
               <h2 className="mt-10 section-title text-brand-700">{fill(sec.title)}</h2>
               {sec.body.map((p, i) => (
-                <p key={i} className="mt-3 text-sm leading-relaxed text-ink/75">{fill(p)}</p>
+                <p key={i} className="mt-3 text-[17px] leading-relaxed text-ink/75">{fill(p)}</p>
               ))}
             </div>
           ))}
@@ -236,7 +236,7 @@ export default function LocationServicePage({
         <div className="container-page">
           <div className="flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
             <h2 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">{fill(config.trustedBanner)}</h2>
-            <a href={site.primaryPhone.href} className="btn-pink flex-shrink-0">
+            <a href="#areas" className="btn-pink flex-shrink-0">
               Get Peace of Mind Today
             </a>
           </div>
@@ -263,7 +263,7 @@ export default function LocationServicePage({
             {config.proseSections.map((sec) => (
               <div key={sec.title}>
                 <h2 className="section-title text-brand-700">{fill(sec.title)}</h2>
-                <p className="mt-3 text-sm leading-relaxed text-ink/75">{fill(sec.body)}</p>
+                <p className="mt-3 text-[17px] leading-relaxed text-ink/75">{fill(sec.body)}</p>
               </div>
             ))}
           </div>
@@ -356,7 +356,7 @@ export default function LocationServicePage({
         </div>
       </section>
 
-      <PageSections />
+      <PageSections mobileServiceList />
     </>
   );
 }

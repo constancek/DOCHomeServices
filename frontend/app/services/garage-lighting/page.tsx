@@ -240,14 +240,14 @@ export default function GarageLightingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">LED Garage Light Options</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             <Link href="/services/led-lighting" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               LED garage lights
             </Link>{' '}
             are one of the most popular upgrades for garages today. They produce strong brightness while
             using less electricity than older bulbs.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             LED lighting is especially useful in garages used as workspaces. Clear, bright lighting helps
             improve visibility when using tools, organizing storage, or completing projects. Another
             advantage of LED garage lights is their lifespan — these fixtures typically last much longer
@@ -257,11 +257,11 @@ export default function GarageLightingPage() {
 
           {/* Exterior */}
           <h2 className="mt-12 section-title text-brand-700">Exterior Garage Lighting Is Available</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Exterior garage lighting helps illuminate areas around the garage door, driveway, and
             walkways. These fixtures make it easier to move around your property after dark.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Exterior garage lights can also improve visibility when parking vehicles at night. A well-lit
             driveway reduces shadows and makes entry points easier to see. Our electricians install
             exterior garage lighting designed to withstand weather conditions while providing dependable
@@ -270,7 +270,7 @@ export default function GarageLightingPage() {
 
           {/* Fixtures */}
           <h2 className="mt-12 section-title text-brand-700">Garage Light Fixtures We Install</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Garages require lighting that is bright, durable, and reliable. Our electricians install a
             variety of garage light fixtures designed to handle garage environments. Common fixtures
             include:
@@ -283,18 +283,18 @@ export default function GarageLightingPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Each lighting fixture is selected based on the size of the garage and how the space is used.
           </p>
 
           {/* Safety */}
           <h2 className="mt-12 section-title text-brand-700">The Safety Benefits of Garage Lighting</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Proper garage lighting helps improve safety both inside and outside the space. Bright lighting
             makes it easier to see tools, equipment, and storage items, which reduces the risk of trips or
             accidents when moving around the garage.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Exterior garage lighting also improves visibility near driveways and entry doors. When these
             areas are well lit, it becomes easier to walk safely around the property at night. A
             well-planned lighting layout helps eliminate dark areas and keeps the garage safer to use.
@@ -302,7 +302,7 @@ export default function GarageLightingPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Garage Lighting</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for professional electrical services
             and lighting installation. When you work with our team, you receive:
           </p>
@@ -327,7 +327,7 @@ export default function GarageLightingPage() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             Our goal is to install garage lighting that improves visibility and provides dependable
             performance.
           </p>
@@ -368,7 +368,7 @@ export default function GarageLightingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Garage lighting by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install garage lighting across {site.serviceArea} —{' '}
             {locations.filter((l) => garageLightingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the garages and homes in your area.

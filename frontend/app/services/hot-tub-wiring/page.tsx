@@ -242,12 +242,12 @@ export default function HotTubWiringPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">DIY or Professional Wiring?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Some homeowners consider handling hot tub electrical installation themselves. However, spa
             wiring involves modifications to the breaker panel, grounding procedures, and strict safety
             standards.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Mistakes in electrical work can cause equipment failure or serious injury. Because hot tubs
             combine water and electricity, careful installation is critical. Professional hot tub wiring
             ensures:
@@ -260,13 +260,13 @@ export default function HotTubWiringPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Hiring a licensed electrician protects your home and helps prevent future problems.
           </p>
 
           {/* Safety benefits */}
           <h2 className="mt-12 section-title text-brand-700">Safety Benefits of Hot Tub Wiring</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Water increases electrical risk. Proper installation reduces that risk significantly.
             Professional service provides:
           </p>
@@ -278,13 +278,13 @@ export default function HotTubWiringPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Safe tub wiring prevents dangerous situations before they occur.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Hot Tub Wiring</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners throughout {site.serviceArea} choose {site.name} because we combine experience
             with a strong focus on safety. When you work with our team, you receive:
           </p>
@@ -309,7 +309,7 @@ export default function HotTubWiringPage() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             We treat every installation as a safety priority, not just another service call.
           </p>
 
@@ -349,7 +349,7 @@ export default function HotTubWiringPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Hot tub wiring by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We wire hot tubs and spas across {site.serviceArea} —{' '}
             {locations.filter((l) => hotTubWiringCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and panels in your area.

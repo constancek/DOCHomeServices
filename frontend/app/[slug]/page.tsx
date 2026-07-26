@@ -313,7 +313,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           </div>
 
           {/* Sidebar */}
-          <aside className="space-y-8 lg:sticky lg:top-28 lg:self-start">
+          <aside className="space-y-8 lg:self-start">
             <div className="card">
               <h2 className="text-sm font-bold uppercase tracking-wider text-brand-500">
                 On this page

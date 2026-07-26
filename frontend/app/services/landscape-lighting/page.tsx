@@ -242,11 +242,11 @@ export default function LandscapeLightingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Lighting Solutions Designed for You</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Lighting should reflect how you use your property. Some homeowners prefer subtle accent
             lighting, while others want brighter illumination for entertaining or added security.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We design layered systems that create balance and visual depth. Accent lighting highlights
             trees and architectural features. Path lighting improves navigation. Feature lighting adds
             dimension to stonework and landscaping. Lighting should feel natural, not overwhelming.
@@ -254,7 +254,7 @@ export default function LandscapeLightingPage() {
 
           {/* Specialized features */}
           <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">Specialized Features to Suit Your Lifestyle</h3>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">Modern systems can include:</p>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">Modern systems can include:</p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {features.map((f) => (
               <li key={f} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
@@ -263,13 +263,13 @@ export default function LandscapeLightingPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             These features let you adjust brightness and energy use based on season or preference.
           </p>
 
           {/* Lights we install */}
           <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">Lights We Install</h3>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install a wide range of landscape lights, including:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
@@ -280,17 +280,17 @@ export default function LandscapeLightingPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Each fixture is selected for durability, brightness, and long-term outdoor performance.
           </p>
 
           {/* Low vs line voltage */}
           <h2 className="mt-12 section-title text-brand-700">Low Voltage vs. Line Voltage Lighting</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Low-voltage systems use a transformer to reduce power levels. They are energy efficient and
             ideal for most residential properties.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Line-voltage lighting operates at standard household voltage. Because it involves more
             complex electrical work, installation should always be handled by a licensed electrician. Our
             team reviews both options and helps you choose the right system for your property.
@@ -298,7 +298,7 @@ export default function LandscapeLightingPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Landscape Lighting</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners throughout {site.serviceArea} choose {site.name} because we combine design
             expertise with safe installation practices. When you work with our installers, you receive:
           </p>
@@ -323,7 +323,7 @@ export default function LandscapeLightingPage() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             We focus on long-term performance and professional workmanship.
           </p>
 
@@ -363,7 +363,7 @@ export default function LandscapeLightingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Landscape lighting by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We design and install landscape lighting across {site.serviceArea} —{' '}
             {locations.filter((l) => landscapeLightingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the yards and homes in your area.

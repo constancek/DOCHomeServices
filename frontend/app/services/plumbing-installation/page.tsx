@@ -205,7 +205,7 @@ export default function PlumbingInstallationPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Types of Plumbing Fixtures We Install</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install a wide range of plumbing fixtures and systems, each set up to prevent leaks,
             improve efficiency, and add to the comfort of your home:
           </p>
@@ -222,12 +222,12 @@ export default function PlumbingInstallationPage() {
           <h2 className="mt-12 section-title text-brand-700">
             Why Choose {site.name} for Your Plumbing Installation
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We are more than your average plumbing company — a family-run business dedicated to
             exceptional service. When you choose {site.name} for your plumbing installation across{' '}
             {site.serviceArea}, you get a team that genuinely cares about your home.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Our plumbers do not just handle kitchen and bathroom fixtures — we are also here for water
             heater installation, plumbing repairs, and drain service. Whether it is a leaky pipe or a
             clogged drain, we bring the same expertise to every job, and our satisfaction guarantee
@@ -285,7 +285,7 @@ export default function PlumbingInstallationPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Plumbing installation by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install fixtures and systems across {site.serviceArea} —{' '}
             {locations.filter((l) => plumbingInstallationCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the upgrades that fit homes in your area.

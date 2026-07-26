@@ -180,19 +180,19 @@ export default function ElectricalMastRepairPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Service Mast Replacement Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             When your service mast needs replacing, it’s not just about swapping out parts. It’s about
             creating a safe, efficient connection tailored to your home, with every detail handled with
             care.
           </p>
 
           <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">Planning & Preparing for Your Replacement</h3>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The first step is a detailed inspection of your home’s electrical system. We check components
             like the breaker box, meter socket, and service entrance cable to identify potential issues,
             which lets us create a replacement plan that works seamlessly with your home.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             During this stage, we also discuss upgrade options — including{' '}
             <Link href="/services/home-rewiring" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               home rewiring
@@ -201,11 +201,11 @@ export default function ElectricalMastRepairPage() {
           </p>
 
           <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">Installation & Final Touches</h3>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Our installation process prioritizes safety and precision. We use high-quality materials and
             proven techniques to make sure your new mast is strong, secure, and built to last.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             After installation, we complete a thorough{' '}
             <Link href="/services/electrical-inspections" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               electrical inspection
@@ -215,7 +215,7 @@ export default function ElectricalMastRepairPage() {
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">What Makes Up Your Service Mast</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The service mast is more than a single pipe. It includes the meter riser that connects to the
             meter base, the service entrance cable that carries electricity into your home, and roof
             flashing that seals the system against water. When any of these parts fail, the whole
@@ -223,7 +223,7 @@ export default function ElectricalMastRepairPage() {
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Mast Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} choose {site.name} for safety, quality, and customer
             satisfaction. When you work with our team, you receive:
           </p>
@@ -277,7 +277,7 @@ export default function ElectricalMastRepairPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Electrical mast repair by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We repair and replace service masts across {site.serviceArea} —{' '}
             {locations.filter((l) => mastRepairCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and storm exposure in your area.

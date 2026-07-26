@@ -5,8 +5,10 @@ import LogoMarquee from './LogoMarquee';
 import WhyChooseVideos from './WhyChooseVideos';
 import ReviewsSection from './ReviewsSection';
 import EstimateForm from './EstimateForm';
+import ServicesMenu from './ServicesMenu';
 import { site } from '@/content/site';
 import { benefits, awards, clubPerks, fundingPoints, serviceAreas } from '@/content/home';
+import { communityCount } from '@/content/areas';
 
 // Shared marketing sections reused across the homepage and every interior page.
 // `hideMarquee` lets a page that already shows the image strip (e.g. /reviews)
@@ -16,12 +18,27 @@ import { benefits, awards, clubPerks, fundingPoints, serviceAreas } from '@/cont
 export default function PageSections({
   hideMarquee = false,
   hideReviews = false,
+  mobileServiceList = false,
 }: {
   hideMarquee?: boolean;
   hideReviews?: boolean;
+  // When set, the services menu is shown here on mobile only, just above the
+  // Our Difference banner (collapsed). Used by pages whose sidebar menu is
+  // hidden on mobile so it does not appear twice.
+  mobileServiceList?: boolean;
 }) {
   return (
     <>
+      {mobileServiceList && (
+        <section className="bg-white pb-12 pt-10 lg:hidden">
+          <div className="container-page">
+            <h2 className="mb-4 font-display text-xl font-extrabold uppercase text-brand-700">
+              Our Services
+            </h2>
+            <ServicesMenu />
+          </div>
+        </section>
+      )}
       <OurDifferenceBanner />
       <IntroColumns />
       {!hideMarquee && (
@@ -397,11 +414,8 @@ export function BookAndAreas() {
               </div>
             ))}
           </div>
-          <Link
-            href="/areas"
-            className="mt-5 inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-wide text-pink-500"
-          >
-            See All Service Areas
+          <Link href="/areas" className="btn-pink mt-6 text-sm">
+            View All {communityCount}+ Neighborhoods We Serve
             <Icon name="arrow" className="h-4 w-4" />
           </Link>
         </div>

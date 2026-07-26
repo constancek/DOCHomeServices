@@ -208,7 +208,7 @@ export default function WaterQualityPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Water Conditioning Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             If your water leaves your skin dry, soap will not lather well, or your appliances seem to
             struggle, you are probably dealing with hard water. That is where water conditioning comes
             in — these systems break down the minerals that cause buildup and mess with your water’s
@@ -218,12 +218,12 @@ export default function WaterQualityPage() {
           <h2 className="mt-12 section-title text-brand-700">
             The Importance of Professional Water Purification
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             DIY filters look tempting, but professional-grade systems deliver lasting performance.
             Filling a pitcher is not the same as intercepting contaminants at the cold-water main
             before they reach every tap in the house.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Our experts help you choose a whole-house filtration system that matches your needs,
             install the treatment system correctly, and monitor performance over time — complete peace
             of mind, not a one-off purchase with unknown results.
@@ -231,13 +231,13 @@ export default function WaterQualityPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Water Quality</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Water conditioning plays an important role in improving water quality, protecting your
             plumbing, and extending the life of household appliances. {site.name} provides
             professional water conditioning and filtration designed to address hard water, mineral
             buildup, and other common water-quality concerns.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With experienced technicians, customized system recommendations, and careful installation,
             we help homeowners achieve cleaner, better-tasting water. Clear communication and
             dependable service make sure your system is set up for long-term performance and reliable
@@ -296,7 +296,7 @@ export default function WaterQualityPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Water quality by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We test water and install filtration and softeners across {site.serviceArea} —{' '}
             {locations.filter((l) => waterQualityCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on hard water and the homes in your area.

@@ -243,14 +243,14 @@ export default function BasementLightingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Recessed Basement Lighting for a Modern Look</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             <Link href="/services/recessed-lighting" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               Recessed lighting
             </Link>{' '}
             is one of the most common upgrades for finished basements. These fixtures sit inside the
             ceiling, creating a clean and modern appearance.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Basement recessed lighting distributes brightness evenly without bulky fixtures that can make
             ceilings feel lower. This style works well in media rooms, living areas, and home offices.
             Proper placement helps eliminate shadows and keeps the entire basement well lit.
@@ -258,14 +258,14 @@ export default function BasementLightingPage() {
 
           {/* LED */}
           <h2 className="mt-12 section-title text-brand-700">LED Basement Lights to Illuminate Every Corner</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             <Link href="/services/led-lighting" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               LED basement lights
             </Link>{' '}
             provide bright and energy-efficient illumination. Compared to traditional bulbs, LED lighting
             uses less electricity and lasts significantly longer.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Many homeowners choose LED lighting because it delivers consistent brightness while helping
             reduce energy costs. LEDs also produce less heat, which makes them well suited for enclosed
             spaces like basements. LED lights work well with recessed lighting layouts and other modern
@@ -274,7 +274,7 @@ export default function BasementLightingPage() {
 
           {/* Layout ideas */}
           <h2 className="mt-12 section-title text-brand-700">Lighting Layout Ideas for Finished Basements</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Finished basements often serve multiple purposes. Some homeowners create entertainment rooms,
             while others use the space as a home office or workout area. Lighting should match how the
             space is used, and a layered lighting layout usually provides the best results. Common
@@ -288,14 +288,14 @@ export default function BasementLightingPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Proper fixture placement helps eliminate dark areas and keeps the entire basement comfortable
             to use.
           </p>
 
           {/* Pro benefits */}
           <h2 className="mt-12 section-title text-brand-700">Benefits of a Professional Basement Light Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Working with a licensed electrician ensures your basement lighting system is installed safely
             and performs reliably. Professional installation provides:
           </p>
@@ -307,14 +307,14 @@ export default function BasementLightingPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Professional installation helps prevent uneven lighting, overloaded circuits, and other
             electrical problems.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Basement Lights</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for dependable electrical services and
             professional lighting installation. When you work with our team, you receive:
           </p>
@@ -339,7 +339,7 @@ export default function BasementLightingPage() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             Our goal is to install basement lighting systems that improve visibility, comfort, and
             everyday usability.
           </p>
@@ -380,7 +380,7 @@ export default function BasementLightingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Basement lighting by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install basement lighting across {site.serviceArea} —{' '}
             {locations.filter((l) => basementLightingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and basements in your area.

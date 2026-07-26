@@ -222,7 +222,7 @@ export default function PlumbingRepairPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Plumbing Leak Repair to Protect Your Home</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Leaks can go unnoticed until they cause serious structural issues and costly repairs —
             homes with leaks can waste tens of thousands of gallons of water. Our team uses advanced
             detection tools to find the source fast, preventing water damage and mold growth. Whether
@@ -234,7 +234,7 @@ export default function PlumbingRepairPage() {
           </p>
 
           <h2 className="mt-10 section-title text-brand-700">Our Supplementary Plumbing Solutions</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We also help with fixture replacements, water-pressure balancing, and preventive
             maintenance to extend the life of your entire plumbing system. Routine maintenance visits
             from our licensed plumbers catch small issues before they become major repairs — saving
@@ -242,7 +242,7 @@ export default function PlumbingRepairPage() {
           </p>
 
           <h2 className="mt-10 section-title text-brand-700">Other Plumbing Services We Offer</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Beyond general repairs, we handle more complex jobs that call for specialized expertise,
             including:
           </p>
@@ -260,7 +260,7 @@ export default function PlumbingRepairPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Fluctuating water pressure, strange odors, or higher-than-usual water bills can all be
             signs of a deeper problem. Our experts inspect your whole system, explain the cause, and
             offer the most cost-effective solution — whether that is a quick fix or a partial line
@@ -270,12 +270,12 @@ export default function PlumbingRepairPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Plumbing Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Plumbing repairs require experience, attention to detail, and solutions that last.{' '}
             {site.name} provides professional plumbing repair designed to address the root cause of
             the problem and help prevent future issues.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With skilled technicians, clear communication, and dependable scheduling, we make plumbing
             repair straightforward and stress-free. From minor leaks to more involved issues, every
             repair is handled with care to restore comfort, safety, and reliability in your home.
@@ -332,7 +332,7 @@ export default function PlumbingRepairPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Plumbing repair by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We handle plumbing repairs across {site.serviceArea} —{' '}
             {locations.filter((l) => plumbingRepairCopy[l.slug]).length} neighborhoods and counting. Find
             yours below for local detail on the plumbing issues common to homes in your area.

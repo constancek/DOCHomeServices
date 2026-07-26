@@ -201,13 +201,13 @@ export default function SumpPumpsPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Sump Pump Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Dealing with a broken check valve, a clogged discharge pipe, or a float switch that is not
             working properly? That is where our sump pump repair comes in. We diagnose the issue
             quickly, make the fix, and test everything before we go — for all types of units,
             including submersible and pedestal models.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Our plumbing team has seen just about every repair situation there is. We do not rush
             through the job or rely on guesswork; we get to the source of the issue and make repairs
             that actually last.
@@ -215,7 +215,7 @@ export default function SumpPumpsPage() {
 
           {/* Benefits */}
           <h2 className="mt-12 section-title text-brand-700">Benefits of Adding a Sump Pump to Your Home</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Installing a sump pump offers real advantages, especially in areas prone to heavy rain or
             flooding. Some of the key benefits:
           </p>
@@ -234,12 +234,12 @@ export default function SumpPumpsPage() {
           <h2 className="mt-12 section-title text-brand-700">
             Why Choose {site.name} for Your Sump Pump
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A properly working sump pump is essential for protecting your home from water damage and
             flooding. {site.name} provides professional sump pump installation and repair to make sure
             your system is reliable when you need it most.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With experienced technicians, careful workmanship, and clear communication, we help
             homeowners choose the right sump pump and keep it running efficiently. Whether we are
             installing a new system or repairing an existing one, the focus is on dependable
@@ -299,7 +299,7 @@ export default function SumpPumpsPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Sump pumps by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install, repair, and replace sump pumps across {site.serviceArea} —{' '}
             {locations.filter((l) => sumpPumpsCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the flooding and groundwater risks in your area.

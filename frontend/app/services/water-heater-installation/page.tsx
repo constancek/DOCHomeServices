@@ -225,7 +225,7 @@ export default function WaterHeaterInstallationPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Benefits of a New Water Heater</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Installing a new water heater does more than bring hot water back to your home — modern
             systems run more efficiently and more reliably than older units. Benefits of a new
             installation include:
@@ -238,32 +238,32 @@ export default function WaterHeaterInstallationPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Choosing the correct size helps ensure your home has enough hot water for showers,
             laundry, and dishes without putting extra strain on the system.
           </p>
 
           {/* Replacing your old water heater */}
           <h2 className="mt-12 section-title text-brand-700">Replacing Your Old Water Heater</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Replacing an old water heater is often about preventing future problems, not just fixing a
             current one. Over time, internal corrosion, sediment buildup, and worn components reduce
             reliability — even if the unit still produces hot water.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Upgrading to a new system restores confidence in your home’s hot water supply. Homeowners
             often notice steadier temperatures and fewer worries about unexpected breakdowns, and
             replacing an aging unit before it fails helps avoid water damage and emergency service
             calls.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Our team helps you determine when replacement makes sense based on the system’s condition,
             your household’s needs, and long-term reliability.
           </p>
 
           {/* Repair or replace */}
           <h2 className="mt-12 section-title text-brand-700">Repair or Replace?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Not every water heater issue requires full replacement. Sometimes a repair restores
             performance; other times replacement is the safer, more cost-effective long-term option.
           </p>
@@ -291,7 +291,7 @@ export default function WaterHeaterInstallationPage() {
               </ul>
             </div>
           </div>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             The right choice comes down to reliability and risk — continuing to repair an aging system
             can mean repeated service calls and higher long-term costs. Our technicians help you weigh
             your immediate needs against future replacement so you can decide with confidence.
@@ -299,7 +299,7 @@ export default function WaterHeaterInstallationPage() {
 
           {/* Financing */}
           <h2 className="mt-12 section-title text-brand-700">Financing a New Water Heater</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A new water heater is an important investment, but it does not have to delay service.{' '}
             {site.name} offers financing options that let homeowners move forward with a replacement
             or installation without a large upfront cost — so you can restore hot water when timing
@@ -310,7 +310,7 @@ export default function WaterHeaterInstallationPage() {
           <h2 className="mt-12 section-title text-brand-700">
             Why Choose {site.name} for Water Heater Installation
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             {site.name} delivers dependable water heater installation backed by skilled workmanship
             and local expertise. Our licensed technicians help you choose the right system, handle
             proper sizing and code-compliant installation, and make sure everything is set up for
@@ -370,7 +370,7 @@ export default function WaterHeaterInstallationPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Water heater installation by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install and replace water heaters across {site.serviceArea} —{' '}
             {locations.filter((l) => waterHeaterInstallationCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on sizing, hard water, and the homes in your area.

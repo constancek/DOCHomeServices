@@ -133,16 +133,16 @@ export default function HeatPumpsPage() {
 
           {/* Heat pump installation */}
           <h2 className="mt-10 section-title text-brand-700">Heat Pump Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Heat pumps are one of the most cost-effective heating and cooling solutions available — a
             single system that both heats and cools your home, which makes it a smart year-round
             investment across {site.serviceArea}.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             {site.name} installs mini-split heat pumps, high-efficiency systems, and traditional units
             that fit your home’s needs.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Our team handles everything — sizing, installation, and system testing — so you enjoy
             reliable comfort and lower energy bills from day one.
           </p>
@@ -217,7 +217,7 @@ export default function HeatPumpsPage() {
         <div className="container-page max-w-4xl">
           {/* Repair or replace */}
           <h2 className="section-title text-brand-700">Repair or Replace?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             If your heat pump breaks down often or is not keeping your home comfortable, you may wonder
             whether it is time to replace it. A quick guide:
           </p>
@@ -231,14 +231,14 @@ export default function HeatPumpsPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Our technicians walk you through the decision with honest advice to help you save money and
             restore peace of mind.
           </p>
 
           {/* Financing */}
           <h2 className="mt-12 section-title text-brand-700">Financing a New Heat Pump</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A new heat pump is a major investment, so {site.name} offers flexible financing to make
             upgrading affordable. With competitive plans, you can enjoy an energy-efficient system now
             and pay for it over time.
@@ -246,12 +246,12 @@ export default function HeatPumpsPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Heat Pump Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Heat pumps require specialized knowledge to operate efficiently year-round. {site.name}{' '}
             provides professional heat pump services designed to support reliable heating and cooling
             performance in every season.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With experienced technicians, thorough system evaluations, and clear communication, we help
             homeowners maintain, repair, or replace heat pump systems with confidence — with the focus
             on energy efficiency, long-term reliability, and consistent comfort throughout your home.
@@ -306,7 +306,7 @@ export default function HeatPumpsPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Heat pumps by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We repair and install heat pumps across {site.serviceArea} —{' '}
             {locations.filter((l) => heatPumpsCopy[l.slug]).length} neighborhoods and counting. For local
             detail on the systems that fit homes in your area, find yours below.

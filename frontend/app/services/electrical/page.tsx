@@ -265,13 +265,13 @@ export default function ElectricalPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Residential Electrical for Modern Homes</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homes today place greater demand on electrical systems than ever — smart devices,
             entertainment systems, kitchen appliances, and electric vehicles all increase the load, and
             older systems were not designed for it. We evaluate your home’s electrical system, identify
             where capacity or safety can be improved, and explain your options clearly.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We also help you plan ahead. Whether you are finishing a basement, remodeling a kitchen, or
             adding new lighting, proper electrical planning ensures your system can safely handle the
             increased demand — and upgrading now prevents future issues and improves long-term
@@ -280,7 +280,7 @@ export default function ElectricalPage() {
 
           {/* Lighting */}
           <h2 className="mt-12 section-title text-brand-700">Create the Perfect Atmosphere With Custom Lighting</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Lighting affects both function and comfort — improving visibility, enhancing design, and
             increasing safety throughout your home. Our lighting services include:
           </p>
@@ -292,14 +292,14 @@ export default function ElectricalPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We make sure fixtures are properly supported and safely connected — and thoughtful lighting
             design can also reduce energy use.
           </p>
 
           {/* Panel */}
           <h2 className="mt-12 section-title text-brand-700">Upgrade Your Electrical Panel for a Safer Home</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Your panel distributes power throughout your home, and many older panels struggle to keep
             up with modern appliances and technology. Signs you may need a panel upgrade:
           </p>
@@ -311,14 +311,14 @@ export default function ElectricalPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             A panel upgrade increases capacity and supports modern additions — including surge
             protection, generators, and EV chargers — improving both safety and performance.
           </p>
 
           {/* Wiring */}
           <h2 className="mt-12 section-title text-brand-700">Wiring Your Home With Precision</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Faulty or outdated wiring can create hidden safety hazards. If your home is older or having
             repeated electrical issues, it may be time to evaluate the wiring. Our wiring services
             include:
@@ -331,14 +331,14 @@ export default function ElectricalPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Modern wiring improves reliability, reduces fire risk, and supports higher demand without
             overloading circuits.
           </p>
 
           {/* Inspections */}
           <h2 className="mt-12 section-title text-brand-700">Detailed & Accurate Electrical Inspections</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A thorough inspection helps identify outdated components, overloaded circuits, and
             potential hazards. Our electrical inspections include:
           </p>
@@ -350,14 +350,14 @@ export default function ElectricalPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Whether you are purchasing a home or maintaining your current one, inspections provide
             peace of mind and reduce long-term risk.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Your Electrical Needs</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Electrical systems are complex, and DIY repairs can create unsafe conditions and violate
             code. Working with licensed electricians ensures the job is done correctly the first time.
             Homeowners choose {site.name} because we deliver:

@@ -162,7 +162,7 @@ export default function FurnaceMaintenancePage() {
           </p>
 
           <h2 className="mt-10 section-title text-brand-700">Benefits of Yearly Furnace Maintenance</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Scheduling an annual furnace tune-up is one of the smartest decisions a homeowner can
             make. Routine maintenance provides:
           </p>
@@ -253,7 +253,7 @@ export default function FurnaceMaintenancePage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">DIY Furnace Maintenance Tips</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A professional tune-up is essential, but homeowners can take simple steps between visits:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
@@ -264,14 +264,14 @@ export default function FurnaceMaintenancePage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             These small actions support your furnace’s performance until your next professional
             service.
           </p>
 
           {/* Common problems */}
           <h2 className="mt-12 section-title text-brand-700">Common Furnace Problems</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Routine maintenance helps prevent many of the most common furnace issues, including:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
@@ -282,7 +282,7 @@ export default function FurnaceMaintenancePage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Scheduling yearly maintenance helps you avoid these problems and keeps reliable heat ready
             when winter arrives.
           </p>
@@ -311,7 +311,7 @@ export default function FurnaceMaintenancePage() {
 
           {/* Cost */}
           <h2 className="mt-12 section-title text-brand-700">Furnace Maintenance Cost</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The cost of a maintenance visit is small compared to the price of an emergency repair or a
             premature replacement. {site.name} provides upfront pricing and affordable plans to keep
             your heating system running reliably year after year. Preventative maintenance lowers
@@ -320,12 +320,12 @@ export default function FurnaceMaintenancePage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Your Furnace Tune-Up</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A furnace tune-up is one of the best ways to improve performance and avoid unexpected
             heating issues. {site.name} provides thorough tune-ups designed to keep your equipment
             running efficiently, safely, and reliably.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With experienced technicians, detailed inspections, and clear recommendations, we help
             identify small issues before they turn into costly repairs — supporting better energy
             efficiency, a longer system lifespan, and consistent comfort throughout your home.
@@ -381,7 +381,7 @@ export default function FurnaceMaintenancePage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Furnace maintenance by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We tune up and service furnaces across {site.serviceArea} —{' '}
             {locations.filter((l) => furnaceMaintenanceCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on keeping your heating safe and efficient.

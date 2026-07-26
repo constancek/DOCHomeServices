@@ -229,7 +229,7 @@ export default function ACInstallationPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Professional AC Installation & Replacement</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Installing a new air conditioning system is an important investment, and the quality of
             the installation affects how efficiently the system runs and how well it cools your home.
             Our complete installation and replacement service covers both new homes and existing
@@ -243,14 +243,14 @@ export default function ACInstallationPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Professional installation helps ensure the system operates correctly from the start and
             continues to perform as expected.
           </p>
 
           {/* Benefits */}
           <h2 className="mt-12 section-title text-brand-700">Benefits of Installing a New AC System</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A new air conditioning system offers several benefits for homeowners, including:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
@@ -261,14 +261,14 @@ export default function ACInstallationPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Modern cooling systems are designed to deliver reliable comfort while using less energy
             than older units.
           </p>
 
           {/* Choosing */}
           <h2 className="mt-12 section-title text-brand-700">Choosing the Right AC System for Your Home</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Selecting the right system involves more than choosing a brand — size, efficiency ratings,
             and compatibility with your existing equipment all affect performance. We help homeowners
             choose based on:
@@ -284,7 +284,7 @@ export default function ACInstallationPage() {
 
           {/* Repair vs replace */}
           <h2 className="mt-12 section-title text-brand-700">Repair vs. Replace</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             When a system shows signs of decline, the next step is deciding whether repair or
             replacement makes more sense. Repair may be appropriate when the system is newer, the issue
             is isolated, and overall performance is still reliable. Replacement is often the better
@@ -295,7 +295,7 @@ export default function ACInstallationPage() {
 
           {/* Cost */}
           <h2 className="mt-12 section-title text-brand-700">What Affects the Cost of AC Installation?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Installation costs vary based on the home and system requirements — no two homes have the
             same cooling needs. Factors that influence cost include:
           </p>
@@ -307,14 +307,14 @@ export default function ACInstallationPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             {site.name} provides free estimates and clear recommendations to help you understand your
             options before moving forward.
           </p>
 
           {/* Financing */}
           <h2 className="mt-12 section-title text-brand-700">Flexible Financing Options</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Installing a new air conditioning system is a major investment, and flexible financing can
             make it more manageable. {site.name} offers financing that lets you spread the cost of an
             energy-efficient upgrade over time — our team reviews the options and helps find a payment
@@ -323,7 +323,7 @@ export default function ACInstallationPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for AC Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} choose {site.name} for professional cooling services.
             Certified technicians complete each installation with attention to detail and clear
             communication, and proper system sizing, careful installation, and thorough testing help
@@ -382,7 +382,7 @@ export default function ACInstallationPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">AC installation & replacement by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install and replace air conditioning across {site.serviceArea} —{' '}
             {locations.filter((l) => acInstallationCopy[l.slug]).length} neighborhoods and counting. For
             local detail on sizing and the systems that fit homes in your area, find yours below.

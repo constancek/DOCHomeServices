@@ -231,12 +231,12 @@ export default function HolidayLightingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Our Approach to Custom Holiday Lighting</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Every home is different. Your lighting should be too. We create custom lighting design plans
             that match your architecture, landscaping, and personal style. Whether you prefer clean white
             lights or multi-color displays, we tailor the layout to your vision.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Our team installs lighting along rooflines, windows, trees, columns, and walkways to create a
             balanced and visually appealing holiday light display. We work with both residential and
             commercial properties to deliver professional results for any home or business.
@@ -251,14 +251,14 @@ export default function HolidayLightingPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Our professional Christmas light installation services let you choose the look you want while
             we handle the technical details.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Holiday Lighting Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners throughout {site.serviceArea} trust {site.name} for dependable service and
             professional results. When you choose us, you receive:
           </p>
@@ -283,7 +283,7 @@ export default function HolidayLightingPage() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             We focus on delivering stress-free holiday lighting services so you can enjoy the season
             without the hassle.
           </p>
@@ -324,7 +324,7 @@ export default function HolidayLightingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Holiday lighting by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install holiday lighting across {site.serviceArea} —{' '}
             {locations.filter((l) => holidayLightingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes in your area.

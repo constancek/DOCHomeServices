@@ -249,7 +249,7 @@ export default function LightingFixtureInstallationPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Energy-Efficient Light Fixture Options</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Many homeowners are upgrading to fixtures designed for better energy efficiency. Modern
             lighting often uses{' '}
             <Link href="/services/led-lighting" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
@@ -257,7 +257,7 @@ export default function LightingFixtureInstallationPage() {
             </Link>{' '}
             that produce bright illumination while using less electricity.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             LED lighting also lasts significantly longer than traditional bulbs, which means fewer
             replacements and lower long-term lighting costs. Energy-efficient fixtures also produce less
             heat, so they can make indoor spaces more comfortable while still providing strong light.
@@ -271,18 +271,18 @@ export default function LightingFixtureInstallationPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Upgrading lighting fixtures is one of the simplest ways to improve your home’s lighting
             efficiency.
           </p>
 
           {/* Financing */}
           <h2 className="mt-12 section-title text-brand-700">Light Fixture Financing Options</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Lighting upgrades can improve several rooms at once. Financing options make larger lighting
             projects easier to manage.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             {site.name} offers financing options that let homeowners upgrade lighting fixtures without
             paying the full cost upfront. Our team can explain available financing options and help you
             choose a plan that fits your budget.
@@ -290,7 +290,7 @@ export default function LightingFixtureInstallationPage() {
 
           {/* Design services */}
           <h2 className="mt-12 section-title text-brand-700">Light Fixture Design Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Lighting design plays an important role in creating balanced illumination throughout a home.
             Proper fixture placement helps eliminate dark areas and improves visibility in everyday
             spaces. Our electricians help homeowners choose lighting fixtures that match the style of
@@ -305,13 +305,13 @@ export default function LightingFixtureInstallationPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Thoughtful lighting design helps your home feel brighter and more welcoming.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Light Fixture Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners throughout {site.serviceArea} trust {site.name} for reliable electrical services
             and lighting installation. When you work with our electricians, you receive:
           </p>
@@ -336,7 +336,7 @@ export default function LightingFixtureInstallationPage() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             Our goal is simple. We install lighting fixtures that improve both the appearance and function
             of your home.
           </p>
@@ -377,7 +377,7 @@ export default function LightingFixtureInstallationPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Light fixture installation by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install and replace light fixtures across {site.serviceArea} —{' '}
             {locations.filter((l) => lightingFixtureCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes in your area.

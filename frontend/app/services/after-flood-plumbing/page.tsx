@@ -199,7 +199,7 @@ export default function AfterFloodPlumbingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">What Goes Wrong After a Flood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Every one of these is something we have been called back for after a homeowner turned the
             water on and hoped:
           </p>
@@ -216,13 +216,13 @@ export default function AfterFloodPlumbingPage() {
 
           {/* When not to call */}
           <h2 className="mt-12 section-title text-brand-700">When You Do Not Need This</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             If the water stayed outside the house, or came in shallow across a slab and never reached
             the water heater base, the shutoffs, or a floor drain, there may be nothing here worth
             paying us for. Clean water from a burst supply line inside the home is also a different
             job — that is a repair and a dry-out, not a full post-flood inspection.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Tell us what the water did and how high it got when you call. If the answer is that you
             do not need us, we would rather say it on the phone than send a truck.
           </p>
@@ -231,7 +231,7 @@ export default function AfterFloodPlumbingPage() {
           <h2 className="mt-12 section-title text-brand-700">
             Why Choose {site.name} After a Flood
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             After a flood you are getting a lot of advice from a lot of contractors, much of it
             pointing at the most expensive option. We give you the reading, show you the line, and
             separate what actually failed from what merely got wet.
@@ -252,7 +252,7 @@ export default function AfterFloodPlumbingPage() {
 
           {/* Related */}
           <h2 className="mt-12 section-title text-brand-700">Related Plumbing Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Depending on what the flood reached, the fix may be{' '}
             <Link href="/services/water-damage-restoration" className="font-semibold text-brand-600 underline">
               water damage restoration
@@ -311,7 +311,7 @@ export default function AfterFloodPlumbingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">After flood plumbing by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We inspect and repair the plumbing a flood left behind across {site.serviceArea} —{' '}
             {locations.filter((l) => afterFloodPlumbingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on your area.

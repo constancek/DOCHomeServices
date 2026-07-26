@@ -237,7 +237,7 @@ export default function CeilingFanPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">DIY or Professional Installers?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Some homeowners consider hanging a ceiling fan themselves. It may seem straightforward, but
             installation involves electrical wiring and structural support — mistakes can lead to
             wobbling, noise, or safety hazards. Working with professional installers ensures:
@@ -250,7 +250,7 @@ export default function CeilingFanPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We also assist with{' '}
             <Link href="/services/recessed-lighting" className="font-semibold text-pink-600 underline hover:text-pink-700">
               recessed lighting
@@ -264,7 +264,7 @@ export default function CeilingFanPage() {
 
           {/* Choosing */}
           <h2 className="mt-12 section-title text-brand-700">Choosing the Right Ceiling Fan</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Selecting the right fan involves more than design — proper sizing and placement directly
             affect performance. Consider:
           </p>
@@ -281,7 +281,7 @@ export default function CeilingFanPage() {
 
           {/* Winter */}
           <h2 className="mt-12 section-title text-brand-700">Ceiling Fans in the Winter Months</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Ceiling fans are useful in every season, not just summer. During colder months:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
@@ -292,13 +292,13 @@ export default function CeilingFanPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Proper installation ensures the fan operates safely in both heating and cooling seasons.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Ceiling Fan Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} choose {site.name} for reliable electrical services and
             friendly service. When you work with us, you can expect:
           </p>
@@ -360,7 +360,7 @@ export default function CeilingFanPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Ceiling fan installation by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install and replace ceiling fans across {site.serviceArea} —{' '}
             {locations.filter((l) => ceilingFanCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and ceilings in your area.
