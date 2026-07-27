@@ -99,14 +99,14 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'kennedy-heights': {
-    intro: 'An overflowed tub, toilet, or appliance line flooded a room in your Kennedy Heights home? We reach this historic east-side hilltop neighborhood the same day to extract the water. Call (513) 586-5107.',
+    intro: 'A supply line let go on an upper floor of your Kennedy Heights home and water is coming down through the ceiling? We reach this historic east-side hilltop neighborhood the same day to extract it off both levels. Call (513) 586-5107.',
     relevance: [
-      'Kennedy Heights began as a Victorian-era resort community and is known now for its arts center and large early-1900s homes. In big older houses an overflow — a tub left running, a stuck toilet valve, an appliance line — can flood a bathroom or upper room and travel down through the floor into the level below.',
-      'We extract the standing water on the level where it started, then chase what dropped through into ceilings and lower-floor carpet. Water inside pad and subfloor needs extraction equipment to pull it back out; sitting on a floor it is easy, hidden underneath it is not. Drying goes in before we leave.',
+      'The large early-1900s homes of Kennedy Heights, a hilltop neighborhood that began as a Victorian-era resort and still centers on its arts center, run two and three stories. When a bathroom supply line or a fixture on an upper floor lets go, the water does not stay on that floor — it finds the ceiling and drops into the rooms below, soaking carpet and pad on two levels at once.',
+      'We extract on the floor where the water started, then chase what came through into the ceiling and the lower-floor carpet with a weighted extractor, because water driven into pad and subfloor will not lift off a surface. A clean overflow you wiped off a sealed floor within the hour does not need us; water that traveled through the ceiling into the rooms below does. Air movers go in once both levels are down to damp.',
     ],
-    commonIntro: 'In Kennedy Heights’ historic homes, the extraction calls we handle most often are:',
+    commonIntro: 'In Kennedy Heights’ large historic homes, the extraction calls we handle most often are:',
     localFaqs: [
-      { q: 'A tub overflowed upstairs and water came through the ceiling below — what now?', a: 'We extract the standing water on both levels and pull what soaked into carpet and pad. A small clean overflow you mopped off a sealed floor within the hour is a shop-vac job. Water that traveled through the floor and into the ceiling below is not.' },
+      { q: 'Water came through the ceiling into two rooms below — can you extract all of it the same day?', a: 'Yes. We work the floor it started on and every room the water reached below, and pull it from the carpet and pad on each. A large old home spreads the water wide, which is why we bring enough capacity to cover more than one room in the first visit.' },
     ],
   },
   'st-bernard': {
@@ -231,14 +231,14 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'north-college-hill': {
-    intro: 'A drain backed up and pushed contaminated water across your floor in North College Hill? We reach this small city just north of College Hill the same day to extract it. Call (513) 586-5107.',
+    intro: 'A supply line let go and ran through your North College Hill home before anyone caught it? We reach this small city just north of College Hill the same day to extract the water. Call (513) 586-5107.',
     relevance: [
-      'North College Hill is a small, densely built city with a grid of early- and mid-1900s homes on aging galvanized and cast-iron plumbing. When one of those old drains backs up, the water that comes up through a floor drain is contaminated, and in tightly packed housing it spreads across a basement floor fast.',
-      'We extract the standing water in protective gear, since a backup is not clean water, and pull it from any carpet and pad it soaked. Contaminated porous material comes up rather than getting dried in place. Once the water and soaked material are out, drying equipment goes in the same visit.',
+      'North College Hill is a small, densely built city of early- and mid-1900s homes running on decades-old supply lines. A corroded riser or a split line behind a wall can run clean water for hours unnoticed, coming through a ceiling and down into the rooms below before anyone is home to close the valve.',
+      'Clean water still has to come out fast before it wicks. We shut the line at the main, pump and extract from the carpet, pad, and subfloor it reached, and take down a ceiling that took the water from above rather than leaving it to sag and hold. Drying equipment goes in the same visit; the pipe repair itself is a separate job.',
     ],
-    commonIntro: 'In North College Hill’s older homes, the extraction calls we see most often are:',
+    commonIntro: 'Across North College Hill’s early- and mid-1900s homes, the extraction calls we see most often are:',
     localFaqs: [
-      { q: 'North College Hill is its own city — do you cover it for extraction?', a: 'Yes. North College Hill is within our north-side service area even though it is a separate city. We treat a sewer backup as an emergency and arrive the same day with extraction gear.' },
+      { q: 'The water came down from the floor above — do you get all of it?', a: 'Yes. Water from an upstairs line travels down through ceiling and wall cavities, so we extract at every level it reached, not just the puddle on the bottom floor, and set drying inside the cavities so they do not stay wet behind the surface.' },
     ],
   },
   'newtown': {
@@ -275,25 +275,25 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'lockland': {
-    intro: 'A hard rain pushed water into your basement in Lockland, down in the Mill Creek valley? We reach this historic village the same day with pumps to get it out. Call (513) 586-5107.',
+    intro: 'A water heater let go and emptied across your Lockland basement? We reach this historic mill village the same day to pump and extract it. Call (513) 586-5107.',
     relevance: [
-      'Lockland is a historic village built up around mills and industry on low ground in the Mill Creek valley, with closely spaced older worker housing. That valley floor collects storm water, and in heavy rain it backs into basements fast, arriving as volume that pools deep across the floor.',
-      'We move the standing water out with pumps first, since on valley ground the amount of water is the problem. Storm water from outside is contaminated, so soaked pad and porous material come up rather than getting dried in place. Then we extract what remains and set drying equipment before we leave.',
+      'Lockland grew up around mills and industry on the valley floor, and its closely spaced worker houses still run water heaters long past their replacement age. When one of those old tanks splits, a full tank empties across a basement or utility floor at once, and it keeps refilling and letting go until someone shuts the supply.',
+      'The first hours decide how much is saved. We shut the supply to the heater, pump and extract the standing water, and pull it from carpet, pad, and the base of any finished wall before it wicks upward. Saturated material comes up and drying equipment goes in the same visit. Swapping the failed heater is a separate job from the extraction.',
     ],
-    commonIntro: 'In Lockland’s older valley homes, the extraction calls we see most often are:',
+    commonIntro: 'In Lockland’s closely built valley homes, the extraction calls we see most often are:',
     localFaqs: [
-      { q: 'Lockland is its own village — do you extract water here?', a: 'Yes. Lockland is within our service area in the Mill Creek valley even though it is a separate village. We treat a flooded basement as an emergency and arrive the same day with pumps sized for the volume.' },
+      { q: 'Is a water heater flood clean enough to deal with myself?', a: 'A small amount on a sealed floor caught within the hour is a shop-vac job. A full tank that spread into carpet, pad, and the wall base needs extraction equipment to pull the water back out before those materials are lost.' },
     ],
   },
   'groesbeck': {
-    intro: 'A water heater failed and emptied its tank in your Groesbeck home? We reach this Colerain Township community the same day to pump and extract the water. Call (513) 586-5107.',
+    intro: 'A storm outran the sump and left standing water across your Groesbeck basement? We reach this Colerain Township community the same day with pumps to get it out. Call (513) 586-5107.',
     relevance: [
-      'Groesbeck is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. The water heaters in those homes are past their years, and an old tank that splits empties its whole volume onto a basement or utility floor before anyone hears it go.',
-      'The first hours are what matter. We pump the standing water, extract from carpet and any stored material the water reached, and lift saturated items off the slab so they stop holding water. What is too soaked to dry comes up now, and drying equipment goes in the same visit.',
+      'Groesbeck spreads across Colerain Township on the northwest side, where a hard, fast rain can put more water into a mid-century basement than an aging sump was built to move. When the pump falls behind or the power drops in the middle of the storm, the water climbs across the floor while the house is asleep or empty.',
+      'Speed is the whole job here. We run submersible pumps for the bulk water and truck-mounted extractors to pull what has already wicked into carpet, pad, and the bottom of the drywall, then lift whatever was stored on the slab. Repairing or upsizing the sump is a separate visit; the priority on the day is getting the standing water out before it rises up the walls.',
     ],
-    commonIntro: 'Across Groesbeck’s mid-century homes, the extraction calls we handle most often are:',
+    commonIntro: 'Across Groesbeck’s mid-century homes, the storm-driven extraction calls we handle most often are:',
     localFaqs: [
-      { q: 'My water heater let go in the basement — is that a shop-vac job?', a: 'A small amount on a sealed slab caught inside the hour is. A full tank that spread across the floor and into carpet or boxes needs extraction equipment to pull the water back out of the porous material.' },
+      { q: 'The storm passed — should I wait and see if the basement drains on its own?', a: 'No. Standing water wicks up into drywall and subfloor by the hour, so the sooner it is pumped and extracted the more of the floor and wall is saved. The exception is a thin film on a sealed slab you have already mopped, which is a shop-vac job rather than ours.' },
     ],
   },
   'mount-healthy': {

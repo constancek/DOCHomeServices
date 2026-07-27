@@ -350,16 +350,16 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'north-bend': {
-    intro: "River-driven sewer backup in a North Bend basement? We reach this historic far-west Ohio River village the same day to pump the contaminated standing water out fast. Call (513) 586-5107.",
+    intro: "A supply line burst and ran through your North Bend home before anyone was there to catch it? We reach this historic Ohio River village the same day to extract the water. Call (513) 586-5107.",
     relevance: [
-      "North Bend (ZIP 45052) is a historic Ohio River village, the burial place of President William Henry Harrison, with older homes on low riverside ground. When the river runs high it surcharges the sewer and pushes contaminated water back up through the basement floor drain, and that water spreads across carpet and stored belongings fast.",
-      "We handle the fast first hours: power off at the panel, then pumps move the standing volume and extractors pull the water back out of the carpet and pad. Because it is contaminated, soaked porous material comes up on the spot rather than being dried in place, and we set air movers running before we hand off. A clean spill on a sealed floor you already mopped is a shop-vac finish, and we will tell you rather than bring the truck in.",
+      "North Bend (ZIP 45052) is a historic Ohio River village, the burial place of President William Henry Harrison, with older homes strung along the low riverside. In houses of that age a corroded supply line or a failed connection can run clean water for hours while no one is home, working down through floors and pooling in the lowest room.",
+      "Clean water still has to come out before it wicks into everything porous. We shut the line at the main, pump the standing water, and extract it from the carpet, pad, and subfloor it reached, lifting what is too soaked to save. Air movers go in the same visit to hand off drying, and the pipe repair itself is a separate job. A thin clean spill you already wiped from a sealed floor is a shop-vac job, not ours.",
     ],
-    commonIntro: "In North Bend's older riverside homes, the emergency water extraction we handle most often follows a river-driven sewer backup:",
+    commonIntro: "In North Bend's older riverside homes, the extraction calls we handle most often follow a burst or failed supply line:",
     localFaqs: [
       {
-        q: "How fast can you reach North Bend when the drain backs up?",
-        a: "North Bend is on our far-west river route, and a basement taking on contaminated water is an emergency. We are on call 24/7 and aim for same-day arrival with pumps and extractors.",
+        q: "The line ran while we were out all day — is the water too far gone to extract?",
+        a: "Not usually. Even after hours, pumping and extracting fast still pulls water out of carpet, pad, and subfloor before the boards cup, which is what decides whether the floor is dried or replaced. The sooner we start, the more comes back.",
       },
     ],
   },

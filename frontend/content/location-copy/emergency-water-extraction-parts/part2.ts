@@ -1,17 +1,17 @@
 export const part2: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   madeira: {
     intro:
-      'When a supply line lets go in a Madeira home, we get the standing water off the floor the same day, from the houses around Miami and Euclid Avenues out to the quieter side streets. Call (513) 586-5107.',
+      'A supply line let go behind a wall in a Madeira home and the floor is under water? We get the standing water off it the same day, from the houses around Miami and Euclid Avenues out to the quieter side streets. Call (513) 586-5107.',
     relevance: [
-      'Madeira is an established east-side city of mid-century single-family homes, many with oak flooring over a plank subfloor. A corroded galvanized supply line behind a wall can run for hours before anyone notices, and by then the water has spread across the boards and soaked down into the subfloor beneath them.',
-      'We arrive with truck-mounted pumps and extractors, shut the line off at the main so it stops feeding the flood, and pull the water back out of the flooring, the pad, and the subfloor before the boards cup and lift. Saturated material that will not dry in place comes up, and we set air movers before we leave so drying starts the same visit. If it was a cup of clean water on sealed tile you wiped up within the hour, that is a shop-vac job and we will say so on the phone.',
+      'A puddle spreading out from the base of a wall in a Madeira living room, the boards already darkening at the edges, is how a burst supply line usually announces itself. This is an established east-side city of mid-century single-family homes, most of them laid with engineered hardwood over a plywood subfloor, and a corroded galvanized line can run behind that wall for hours before anyone is home to hear it.',
+      'We come in with a truck-mounted extractor, shut the line at the main so it stops feeding the floor, and work a weighted wand back and forth across the boards to press the water up out of the hardwood and the subfloor beneath before the planks cup and lift. Anything that cannot dry in place comes up, and air movers go on before we leave so drying starts the same visit. A cup of clean water on sealed tile you wiped up within the hour is not our job, and we will say so on the phone.',
     ],
     commonIntro:
-      "Across Madeira's mid-century homes, the standing-water emergencies we extract most often are:",
+      "Across Madeira's mid-century homes, the standing water we get called out to extract most often comes from:",
     localFaqs: [
       {
-        q: 'How fast can you reach Madeira with extraction equipment?',
-        a: 'Madeira is well within our east-side service area and we treat active water as an emergency, not a booking. Before we arrive, shut the water off at the main if you can reach it safely, and kill power to the level at the panel rather than standing in water to reach a breaker.',
+        q: 'How fast can you reach Madeira with a truck and pumps?',
+        a: 'Madeira is well within our east-side service area, and we treat an active flood as an emergency rather than a booking. Before we arrive, shut the water off at the main if you can reach it safely, and cut power to that level at the panel rather than standing in water to reach a breaker.',
       },
     ],
   },
@@ -161,33 +161,33 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   erlanger: {
     intro:
-      'When a floor drain backs up into an Erlanger basement, we get the contaminated water out the same day, across the mid-century neighborhoods of this Kenton County city near the airport. Call (513) 586-5107.',
+      'A floor drain backing up dirty water into an Erlanger basement? We get the contaminated water out the same day, across the mid-century neighborhoods of this Kenton County city near the airport. Call (513) 586-5107.',
     relevance: [
-      'Erlanger runs on settled mid-century neighborhoods near the airport, most homes finished a level down over carpet and drywall with a sewer cleanout in the corner. When the main or a floor drain backs up, dirty water rises across that finished floor and wicks up the drywall along the base of the walls before it can be pumped back out.',
-      'Because the water is contaminated, we pump it out fast and treat the soaked carpet, pad, and lower drywall as material to lift rather than salvage, extracting what remains and setting air movers to hand off the drying. This is the extraction stage, not the sewer repair and not the drain clearing. If the backup was small and clean and you already cleared it off a sealed floor, a shop vac would have handled it, and we will tell you that on the phone.',
+      'Erlanger sits in settled mid-century neighborhoods near the airport, most homes finished a level down over carpet and drywall with the sewer cleanout in a corner. When the main or a floor drain backs up, the water that rises is not rain, it is contaminated backup that spreads across that finished floor and wicks up the drywall along the base of the walls.',
+      'Because the water is dirty, the job is removal, not drying. We drop a submersible pump for the volume, extract what is left in the carpet and pad, and lift the porous material the backup soaked rather than try to save it, working in the protective gear a contaminated loss calls for. Air movers go in to hand off the drying. This is the extraction stage only, not the drain clearing or the sewer repair, and a small clean spill you already wiped off a sealed floor is a shop-vac job, never a truck.',
     ],
     commonIntro:
-      "Across Erlanger's mid-century homes, the standing-water emergencies we extract most often are:",
+      "Across Erlanger's finished basements, the contaminated water we pull out fast usually comes from:",
     localFaqs: [
       {
-        q: 'Is Erlanger inside your service area even though it is a separate Kentucky city?',
-        a: 'Yes. Erlanger is its own Kenton County city, and we cross the river to serve it the same day with pumps and extractors. We handle the extraction only; the sewer repair itself is separate work.',
+        q: 'Is the water from an Erlanger drain backup safe to mop up myself?',
+        a: 'No. A sewer or drain backup is contaminated, so we handle it in protective gear and lift the pad and porous material it soaked rather than dry it in place. Keep off the level while power is on to the basement, and never reach a breaker standing in water. We reach Erlanger the same day.',
       },
     ],
   },
   mason: {
     intro:
-      'When a storm outruns the sump and floods a Mason basement, we get the standing water out the same day, across the subdivisions near Kings Island and the older town center. Call (513) 586-5107.',
+      'A storm outran the sump and left standing water across a Mason basement? We get it out the same day, across the subdivisions near Kings Island and the older town center. Call (513) 586-5107.',
     relevance: [
-      'Mason is a fast-growing Warren County city near Kings Island, mostly subdivisions built from the 1990s onward with finished basements over carpet and drywall. When a heavy storm outpaces the sump pump, water rises across that finished floor and stands against the drywall, and every hour it sits decides how much of both comes back.',
-      'We bring truck-mounted pumps sized for a flooded basement, move the standing volume fast, then extract what soaked into the carpet and pad and lift the drywall the water reached. Air movers go in to start the drying we hand off. Mason runs its own city services and sits in our northern service area, so we reach it the same day. A shallow clean puddle on sealed flooring you already cleared does not need a truck.',
+      'When a hard storm drops more water than a sump can move, a Mason basement floods from the pit outward, and by the time anyone gets downstairs the carpet is under water and the boxes stacked in the corner are wicking it up. This fast-growing Warren County city near Kings Island is mostly subdivisions built from the 1990s onward, finished lower levels over carpet and drywall where standing water stands against the wall and climbs.',
+      'We bring a truck-mounted extractor and a submersible pump sized for a flooded basement, move the standing volume fast, then pull what the carpet and pad have taken on and lift the drywall the water reached. Air movers go in to start the drying we hand off. Every hour the water sits decides how much of the carpet and the lower wall comes back, which is why we treat it as an emergency. A shallow clean puddle on sealed flooring you already cleared does not need a truck.',
     ],
     commonIntro:
-      "Across Mason's newer subdivisions and older town center, the standing-water emergencies we extract most often are:",
+      "Across Mason's finished basements, the standing water we extract most often comes from:",
     localFaqs: [
       {
-        q: 'The sump could not keep up and my Mason basement flooded, how fast can you get here?',
-        a: 'Mason is part of our northern service area and we treat active water as an emergency, aiming for same-day arrival. Cut power to the basement at the panel before we come, and do not wade into standing water to reach a breaker.',
+        q: 'How much of my Mason basement can you actually save if I call right away?',
+        a: 'The first hours decide it. Carpet, pad, and drywall reached early can often dry rather than be torn out; water left a day or two soaks the subfloor and the base of the walls and turns into removal. Mason is in our northern service area and we aim for same-day arrival.',
       },
     ],
   },
@@ -257,33 +257,33 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'camp-washington': {
     intro:
-      'When a sewer backs up into a Camp Washington basement, we get the contaminated water out the same day, across the old worker housing and buildings down in the Mill Creek valley. Call (513) 586-5107.',
+      'A sewer backing up into a Camp Washington basement in a hard rain? We get the contaminated water out the same day, across the old worker housing and buildings down in the Mill Creek valley. Call (513) 586-5107.',
     relevance: [
-      'A Camp Washington basement filling from the floor drain in a hard rain, dirty water climbing the baseboards, is the emergency this low valley ground near the American Sign Museum produces most. The backup pushes up through the drains rather than clean rain coming down, and it soaks the subfloor and the baseboards along the walls before it can be pumped back out.',
-      'Because the water is contaminated, we pump it out fast and treat the soaked subfloor covering and baseboards as material to lift rather than dry in place, extracting what remains and setting air movers to hand off. Keep off the level while power is on, and never reach a breaker standing in water. A small clean overflow you already cleared off a sealed floor is a shop-vac job, and we will not send a truck for it.',
+      'A Camp Washington basement filling from the floor drain in a downpour, dirty water climbing the baseboards while the cardboard stored down there goes soft, is the emergency this low valley ground near the American Sign Museum produces most. The backup pushes up through the drains rather than rain coming down, and it soaks the floor covering and the baseboards along the walls before it can be pumped back out.',
+      'Because the water is contaminated, we pump it out fast with a submersible pump and treat the soaked floor covering and baseboards as material to lift rather than dry, extracting what remains and setting air movers before we leave. That is where our part ends: we get the standing water out and start the drying, and the full dry-out and any repair are separate work from there. Keep off the level while power is on, and never reach a breaker standing in water. A small clean overflow you already cleared off a sealed floor is a shop-vac job.',
     ],
     commonIntro:
-      "In Camp Washington's older valley homes and buildings, the standing-water emergencies we extract most often are:",
+      "In Camp Washington's low valley basements, the contaminated water we pull out fast usually comes from:",
     localFaqs: [
       {
-        q: 'The backup filled my Camp Washington basement in a storm, how fast can you extract it?',
-        a: 'Camp Washington is in our service area down in the Mill Creek valley, and we treat a contaminated backup as an emergency for same-day extraction. We pull the water and lift what it soaked, then hand off to the dry-out.',
+        q: 'Once you pump my Camp Washington basement, do you handle the dry-out too?',
+        a: 'No. We are the first-hours crew: we pull the contaminated water, lift what it ruined, and set the drying equipment before we hand off. The days of drying and any restoration after are separate work. We reach the Mill Creek valley the same day.',
       },
     ],
   },
   'south-fairmount': {
     intro:
-      'When a storm floods a South Fairmount basement, we get the standing water out the same day, along Queen City Avenue in the Lick Run valley. Call (513) 586-5107.',
+      'A storm flooded a South Fairmount basement along Queen City Avenue? We get the standing water out the same day, here in the Lick Run valley. Call (513) 586-5107.',
     relevance: [
-      'South Fairmount sits in the Lick Run valley along Queen City Avenue, rebuilt around a stormwater greenway after a long history of valley flooding. When water still gets into these older basements, it stands across the finished floor and against the drywall, and the first hours decide how much of the carpet and the wall survive.',
-      'We bring truck-mounted pumps sized for a flooded basement, move the standing volume fast, then extract what soaked into the carpet and pad and lift the drywall the water reached. Air movers go in to start the drying we hand off. This is the extraction stage, not the dry-out. If the water was a shallow clean puddle you already cleared, a shop vac and a fan would have finished it.',
+      'South Fairmount runs along Queen City Avenue at the bottom of the Lick Run valley, rebuilt around a stormwater greenway after generations of flooding. When water still gets into these older basements, it stands across the finished floor and against the drywall, and the narrow stairs down mean we often run hose from the truck at the curb rather than back a rig up to the door.',
+      'We move the standing volume fast with a truck-mounted extractor, pull what soaked the carpet and pad, and lift the drywall the water reached before setting air movers. Getting water out of your home is not utility work and it is not permitted work, so we do not wait on the city or the greenway project, we start the moment we arrive. If the water was a shallow clean puddle you already cleared, a shop vac and a fan would have finished it, and we will tell you so.',
     ],
     commonIntro:
-      "In South Fairmount's older valley homes, the standing-water emergencies we extract most often are:",
+      "In South Fairmount's valley basements, the standing water we extract most often comes from:",
     localFaqs: [
       {
-        q: 'How fast can you reach South Fairmount when the valley floods?',
-        a: 'South Fairmount is well within our west-side service area along Queen City Avenue, and we treat active water as an emergency for same-day arrival. Cut power to the basement at the panel before we come.',
+        q: 'Do I need to clear anything with the city before you pump my South Fairmount basement?',
+        a: 'No. Pumping and extracting standing water is not permitted work, so we start as soon as we arrive rather than wait on the city or the greenway system. If a repair to your own line turns out to be needed once the water is out, that part goes through the proper channels, but the extraction does not wait on it.',
       },
     ],
   },
@@ -305,17 +305,17 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-fairmount': {
     intro:
-      'When storm runoff comes down the hill into a North Fairmount basement, we get the standing water out the same day, across the older homes above the Mill Creek valley. Call (513) 586-5107.',
+      'A water heater emptied its tank across your North Fairmount basement? We reach these older homes above the Mill Creek valley the same day to pump and extract it. Call (513) 586-5107.',
     relevance: [
-      'Storm runoff sheeting down the North Fairmount hillside and pooling in the lowest basement is how the water usually arrives here, on streets of older early-1900s homes above the Mill Creek valley. It stands across the laminate and the pad beneath it, and the longer it sits the more of the floor has to come out rather than dry.',
-      'We move the standing water off the floor fast with truck-mounted pumps, then extract what soaked under the laminate and into the pad where the surface still looks dry, lifting saturated material rather than leaving it. Air movers go in to hand off drying. This is the extraction stage only. Where the runoff stayed shallow and clean and you already cleared it, that is a shop-vac job, not a truck.',
+      'North Fairmount sits on the hillside above the Mill Creek valley, on streets of early-1900s homes whose water heaters have mostly outlived their years. When an old tank splits it empties across the basement or utility floor at once and keeps refilling until the supply is shut, so the volume on the floor is larger than a slow leak would leave.',
+      'We shut the supply to the heater, then pump the standing water and extract it from the carpet, pad, and the base of the drywall before it wicks upward. Saturated material comes up and drying equipment goes in before we leave; replacing the failed heater is separate work. A small amount on a sealed floor you already mopped is a shop-vac job, not a truck.',
     ],
     commonIntro:
       "In North Fairmount's older hillside homes, the standing-water emergencies we extract most often are:",
     localFaqs: [
       {
-        q: 'Once the runoff is pumped out, do you handle the full dry-out too?',
-        a: 'No. We are the extraction stage: we pull the standing water, lift what cannot be saved, and set drying equipment before we hand off. The full dry-out is separate work. North Fairmount is in our west-side service area, same day.',
+        q: 'Is a water-heater flood clean enough to leave until morning?',
+        a: 'The tank water starts clean, but once it crosses a dirty floor and soaks into carpet and pad it does not stay that way, and every hour it sits it wicks further into the subfloor. We extract and lift the same day rather than let it sit. Caught within the hour on a sealed floor, it can be a shop-vac job.',
       },
     ],
   },
@@ -385,17 +385,17 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   millvale: {
     intro:
-      'When a supply line lets go in a Millvale home, we get the standing water out the same day, across this compact neighborhood down in the Mill Creek valley. Call (513) 586-5107.',
+      'A drain backing up into your Millvale basement down in the Mill Creek valley? We reach this compact neighborhood the same day to extract the contaminated water. Call (513) 586-5107.',
     relevance: [
-      'Millvale is a small, compact neighborhood of older homes low in the Mill Creek valley, running on decades-old plumbing that fails without much warning. A corroded supply line behind a wall or under a sink can run for hours before it is found, and by then the water has spread across the flooring and down into the subfloor beneath it.',
-      'We arrive with pumps and extractors, shut the line off at the main so it stops feeding the flood, then pull the water out of the flooring, the pad, and the subfloor before the boards cup and the pad has to be lifted. Air movers go in to hand off drying. This is the extraction stage only. A clean spill on sealed flooring you already wiped up is a shop-vac job, and we will tell you so.',
+      'Millvale sits low on the valley floor, where the sewer main runs at the bottom of the drainage and surcharges when the weather turns heavy. When it does, water pushes back up through the lowest basement drain, and because it is a backup it is contaminated, not the clean water of a burst pipe.',
+      'We extract in protective gear and pull the water from any carpet and pad it reached, taking up soaked porous material rather than trying to dry contaminated carpet in place. Pumps clear the volume, extractors pull what has wicked in, and drying goes in once the floor and the soaked material are out. Back-valving or repairing the line is a separate visit.',
     ],
     commonIntro:
-      "In Millvale's valley homes, the standing-water emergencies we extract most often are:",
+      "In Millvale's low-lying valley homes, the extraction calls we handle most often are:",
     localFaqs: [
       {
-        q: 'How fast can you reach Millvale when a line lets go?',
-        a: 'Millvale is within our service area in the Mill Creek valley, and we treat a running flood as an emergency for same-day arrival. Shut the water off at the main if you can reach it safely before we get there.',
+        q: 'The whole street backs up in a downpour — is this my problem or the sewer district’s?',
+        a: 'When a heavy rain surcharges the public main and several homes back up at once, the cause is the district’s system, not your lateral. We can still extract the contaminated water from your basement the same day while that side of it gets sorted out.',
       },
     ],
   },
