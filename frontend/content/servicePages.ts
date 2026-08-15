@@ -85,6 +85,12 @@ export const servicePages: ServicePage[] = [
   { slug: 'electrical-panel-replacement', title: 'Electrical Panel Replacement', category: 'Electrical', parentSlug: 'electrical', blurb: 'Upgrade an aging or overloaded electrical panel to safely power your home.', heroImage: '/services/panel-hero.jpg' },
   { slug: 'switches-outlets', title: 'Switches & Outlets', category: 'Electrical', parentSlug: 'electrical', blurb: 'Outlet and switch installation, repair, and upgrades, including GFCI and USB.', heroImage: '/services/outlets-hero.jpg' },
   { slug: 'electrical-mast-repair', title: 'Electrical Mast Repair', category: 'Electrical', parentSlug: 'electrical', blurb: 'Repair a damaged electrical service mast to safely restore power.', heroImage: '/services/mast-hero.jpg' },
+
+  // Utility-coordinated work. Duke Energy owns the meter and the line to it;
+  // our licensed crews handle everything on the customer side.
+  { slug: 'gas-service-disconnection', title: 'Gas Service Disconnection (Duke Energy)', category: 'Plumbing', parentSlug: 'plumbing', blurb: 'Duke Energy pulls the meter, we cap, test, repair, and relight everything on your side of it.', heroImage: '/services/gasline-hero.jpg' },
+  { slug: 'electricity-disconnection', title: 'Electricity Disconnection (Duke Energy)', category: 'Electrical', parentSlug: 'electrical', blurb: 'Temporary power disconnect coordinated with Duke Energy, with the panel, permit, and inspection handled.', heroImage: '/services/panel-hero.jpg' },
+  { slug: 'storm-electricity-outage', title: 'Storm Electricity Outage', category: 'Electrical', parentSlug: 'electrical', blurb: 'Street back on but your house still dark? We repair the storm-damaged equipment Duke will not touch.', heroImage: '/services/mast-hero.jpg' },
 ];
 
 export const getServicePage = (slug: string) => servicePages.find((s) => s.slug === slug);
@@ -115,6 +121,7 @@ export const serviceMenu: { category: string; href: string; items: { label: stri
       { label: 'Sewer Repair & Replacement', href: '/services/sewer-repair-replacement' },
       { label: 'Whole-House Repiping', href: '/services/whole-house-repiping' },
       { label: 'Gas Line Repair & Replacement', href: '/services/gas-line-repair-replacement' },
+      { label: 'Gas Service Disconnection (Duke Energy)', href: '/services/gas-service-disconnection' },
       { label: 'Pipe Repair & Replacement', href: '/services/pipe-repair-replacement' },
       { label: 'Garbage Disposals', href: '/services/garbage-disposals' },
       { label: 'Sump Pumps', href: '/services/sump-pumps' },
@@ -176,6 +183,8 @@ export const serviceMenu: { category: string; href: string; items: { label: stri
       { label: 'Electrical Panel Replacement', href: '/services/electrical-panel-replacement' },
       { label: 'Switches & Outlets', href: '/services/switches-outlets' },
       { label: 'Electrical Mast Repair', href: '/services/electrical-mast-repair' },
+      { label: 'Electricity Disconnection (Duke Energy)', href: '/services/electricity-disconnection' },
+      { label: 'Storm Electricity Outage', href: '/services/storm-electricity-outage' },
     ],
   },
 ];

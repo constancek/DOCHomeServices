@@ -73,7 +73,7 @@ function PromoBar() {
         <h2 className="font-display text-3xl font-extrabold uppercase leading-[1.05] tracking-tight text-white sm:text-4xl lg:text-[42px]">
           $89 Happy House Cooling Checkup
         </h2>
-        <a href={site.primaryPhone.href} className="btn-pink px-7 py-3 text-sm">
+        <a href="#areas" className="btn-pink px-7 py-3 text-sm">
           Get Offer Now
           <Icon name="chevron" className="h-4 w-4" />
         </a>

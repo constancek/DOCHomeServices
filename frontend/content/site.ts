@@ -111,6 +111,7 @@ export const nav: NavItem[] = [
       { label: 'Sewer Repair & Replacement', href: '/services/sewer-repair-replacement' },
       { label: 'Whole-House Repiping', href: '/services/whole-house-repiping' },
       { label: 'Gas Line Repair & Replacement', href: '/services/gas-line-repair-replacement' },
+      { label: 'Gas Service Disconnection (Duke Energy)', href: '/services/gas-service-disconnection' },
       { label: 'Pipe Repair & Replacement', href: '/services/pipe-repair-replacement' },
       { label: 'Garbage Disposals', href: '/services/garbage-disposals' },
       { label: 'Sump Pumps', href: '/services/sump-pumps' },
@@ -199,6 +200,8 @@ export const nav: NavItem[] = [
       { label: 'Electrical Panel Replacement', href: '/services/electrical-panel-replacement' },
       { label: 'Switches & Outlets', href: '/services/switches-outlets' },
       { label: 'Electrical Mast Repair', href: '/services/electrical-mast-repair' },
+      { label: 'Electricity Disconnection (Duke Energy)', href: '/services/electricity-disconnection' },
+      { label: 'Storm Electricity Outage', href: '/services/storm-electricity-outage' },
     ],
   },
   {
