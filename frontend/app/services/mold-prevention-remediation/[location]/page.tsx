@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Mold Prevention & Remediation',
   ctaLine: 'Musty smell or visible growth in {neighborhood}? Get it looked at',
-  heroImage: '/services/mold-hero.jpg',
+  heroImage: '/services/mold-hero.webp',
   introHeading: 'Mold Prevention & Remediation in {neighborhood}',
   introParagraphs: [
     'Mold is a water problem. It needs moisture, something organic to sit on, and time — your {place} home supplies two of those permanently, so the only variable you control is the water. Every remediation job that fails, fails because someone removed the growth and left the leak.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'water-damage-restoration', title: 'Water Damage Restoration' },
     { slug: 'leak-detection', title: 'Leak Detection' },
   ],
-  band1Image: '/services/mold-signs.jpg',
+  band1Image: '/services/mold-signs.webp',
   band1Heading: 'Signs You Have a Mold Problem in {neighborhood}',
   commonSituations: [
     'A musty smell that comes back after you air the room out',
@@ -52,7 +52,7 @@ const config: ServiceLocationConfig = {
     'Symptoms that ease when you leave the house and return when you come back',
   ],
   trustedBanner: 'Your Local & Trusted Mold Remediation Team in {neighborhood}',
-  band2Image: '/services/mold-hero.jpg',
+  band2Image: '/services/mold-hero.webp',
   band2Heading: 'What to Expect From Mold Remediation in {neighborhood}',
   band2Paragraphs: [
     'We fix the moisture first, because mold is a symptom — remove it without stopping the water feeding it and it returns to the same spot, usually within months. Then the area is contained with sheeting and negative air so spores are not pushed through the rest of the house while material is disturbed.',

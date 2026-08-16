@@ -12,6 +12,12 @@ export default function ServicesMenu() {
   const rootRef = useRef<HTMLDivElement>(null);
   // Once the visitor clicks a header we stop auto-managing, so it never fights them.
   const userToggled = useRef(false);
+  // Panels this component opened by itself, newest last, so the last one can be
+  // taken back if it overshot.
+  const autoOpened = useRef<number[]>([]);
+  // Set once a panel has been rolled back. Without it the loop would reopen the
+  // panel it just closed and oscillate forever.
+  const settled = useRef(false);
 
   const toggle = (i: number) => {
     userToggled.current = true;
@@ -28,16 +34,32 @@ export default function ServicesMenu() {
   // converge in at most `serviceMenu.length` passes. Guarded so it never runs
   // once the visitor has interacted.
   useEffect(() => {
-    if (userToggled.current) return;
+    if (userToggled.current || settled.current) return;
     const root = rootRef.current;
     if (!root) return;
     const aside = root.closest('aside');
     const container = aside?.parentElement;
     if (!aside || !container) return;
     const deficit = container.clientHeight - (aside as HTMLElement).offsetHeight;
+
+    // The panel we just opened pushed the sidebar past the main column. Short
+    // pages overshoot on the very first panel, so this is what keeps them
+    // collapsed instead of trailing white space down the page.
+    if (deficit < -48 && autoOpened.current.length > 0) {
+      const last = autoOpened.current.pop() as number;
+      settled.current = true;
+      setOpenSet((prev) => {
+        const next = new Set(prev);
+        next.delete(last);
+        return next;
+      });
+      return;
+    }
+
     if (deficit > 48 && openSet.size < serviceMenu.length) {
       const nextIdx = serviceMenu.findIndex((_, i) => !openSet.has(i));
       if (nextIdx !== -1) {
+        autoOpened.current.push(nextIdx);
         setOpenSet((prev) => new Set(prev).add(nextIdx));
       }
     }
@@ -48,6 +70,8 @@ export default function ServicesMenu() {
   useEffect(() => {
     const onResize = () => {
       if (userToggled.current) return;
+      autoOpened.current = [];
+      settled.current = false;
       setOpenSet(new Set());
     };
     window.addEventListener('resize', onResize);

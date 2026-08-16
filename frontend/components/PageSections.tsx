@@ -212,7 +212,7 @@ export function WorkStandsOut() {
         {/* Branded shirt */}
         <div className="aspect-[4/3] overflow-hidden rounded-2xl bg-white/10 ring-1 ring-white/20">
           <img
-            src="/orange-shirt.png"
+            src="/orange-shirt.webp"
             alt="Degree of Comfort technicians in branded shirts"
             width={960}
             height={640}
@@ -290,7 +290,7 @@ export function TrustedExperts() {
         </div>
         <div className="aspect-[5/3] overflow-hidden rounded-2xl ring-1 ring-brand-100">
           <img
-            src="/van.jpg"
+            src="/van.webp"
             alt="Degree of Comfort service van"
             width={1000}
             height={600}
@@ -353,7 +353,7 @@ export function ComfortClub() {
         </div>
         <div className="aspect-[16/10] overflow-hidden rounded-2xl bg-white/10 ring-1 ring-white/20 lg:ml-auto lg:w-[120%]">
           <img
-            src="/orange-club.png"
+            src="/orange-club.webp"
             alt="Degree of Comfort Comfort Club members"
             width={960}
             height={600}

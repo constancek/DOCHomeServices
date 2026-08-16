@@ -115,7 +115,7 @@ export default function WaterHeaterRepairPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/wh-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/wh-hero.webp)' }}
             role="img"
             aria-label="Technician repairing a water heater"
           />
@@ -140,7 +140,7 @@ export default function WaterHeaterRepairPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/wh-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/wh-signs.webp)' }}
             role="img"
             aria-label="Technician servicing a water heater"
           />
@@ -199,7 +199,7 @@ export default function WaterHeaterRepairPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Technician explaining a water heater repair to a homeowner"
           />

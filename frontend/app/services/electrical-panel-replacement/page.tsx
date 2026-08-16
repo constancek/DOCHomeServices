@@ -112,7 +112,7 @@ export default function ElectricalPanelReplacementPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/panel-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/panel-hero.webp)' }}
             role="img"
             aria-label="Modern electrical panel with breakers"
           />
@@ -138,7 +138,7 @@ export default function ElectricalPanelReplacementPage() {
 
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/panel-signs.jpg)' }} role="img" aria-label="Open electrical breaker panel" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/panel-signs.webp)' }} role="img" aria-label="Open electrical breaker panel" />
           <div>
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs Your Electrical Panel Needs Replacing
@@ -188,7 +188,7 @@ export default function ElectricalPanelReplacementPage() {
               saving you time and money on repairs.
             </p>
           </div>
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }} role="img" aria-label="Electrician reviewing a panel upgrade plan" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }} role="img" aria-label="Electrician reviewing a panel upgrade plan" />
         </div>
       </section>
 

@@ -140,7 +140,7 @@ export default function AfterFloodPlumbingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/after-flood-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/after-flood-hero.webp)' }}
             role="img"
             aria-label="Technician inspecting and repairing a heating system"
           />
@@ -167,7 +167,7 @@ export default function AfterFloodPlumbingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-[2fr_3fr] lg:py-16">
           <div
             className="aspect-[10/9] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/after-flood-checks.jpg)' }}
+            style={{ backgroundImage: 'url(/services/after-flood-checks.webp)' }}
             role="img"
             aria-label="Plumber fitting a pipe connection with specialized tools"
           />

@@ -146,7 +146,7 @@ export default function HotTubWiringPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/hottub-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/hottub-hero.webp)' }}
             role="img"
             aria-label="Hot tub on a backyard patio"
           />
@@ -178,7 +178,7 @@ export default function HotTubWiringPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/hottub-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/hottub-signs.webp)' }}
             role="img"
             aria-label="Electrical breaker panel and wiring"
           />
@@ -231,7 +231,7 @@ export default function HotTubWiringPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician reviewing hot tub wiring requirements"
           />

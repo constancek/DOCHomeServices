@@ -126,7 +126,7 @@ export default function DrainsPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/drains-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/drains-hero.webp)' }}
             role="img"
             aria-label="Licensed plumber clearing a drain line"
           />
@@ -167,7 +167,7 @@ export default function DrainsPage() {
                 <Link href={`/services/${s.slug}`} className="group relative block aspect-[4/3] overflow-hidden rounded-xl">
                   <span
                     className="absolute inset-0 bg-brand-200 bg-cover bg-center transition duration-300 group-hover:scale-105"
-                    style={{ backgroundImage: `url(/services/${s.slug}.jpg)` }}
+                    style={{ backgroundImage: `url(/services/${s.slug}.webp)` }}
                   />
                   <span className="absolute inset-0 bg-gradient-to-t from-pink-600/90 via-pink-500/45 to-transparent transition group-hover:from-pink-600" />
                   <span className="absolute inset-0 grid place-items-center p-3 text-center">
@@ -187,7 +187,7 @@ export default function DrainsPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/drains-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/drains-signs.webp)' }}
             role="img"
             aria-label="Plumber inspecting and clearing a drain line"
           />
@@ -252,7 +252,7 @@ export default function DrainsPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/drains-install.jpg)' }}
+            style={{ backgroundImage: 'url(/services/drains-install.webp)' }}
             role="img"
             aria-label="Plumber discussing a drain installation with a homeowner"
           />

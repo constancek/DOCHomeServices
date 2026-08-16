@@ -133,7 +133,7 @@ export default function HolidayLightingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/holiday-lighting-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/holiday-lighting-hero.webp)' }}
             role="img"
             aria-label="Home decorated with holiday lights"
           />
@@ -166,7 +166,7 @@ export default function HolidayLightingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/holiday-lighting-benefits.jpg)' }}
+            style={{ backgroundImage: 'url(/services/holiday-lighting-benefits.webp)' }}
             role="img"
             aria-label="Roofline decorated with holiday lights"
           />
@@ -220,7 +220,7 @@ export default function HolidayLightingPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Holiday lighting consultation with a homeowner"
           />

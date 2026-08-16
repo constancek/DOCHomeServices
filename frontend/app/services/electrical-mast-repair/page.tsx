@@ -108,7 +108,7 @@ export default function ElectricalMastRepairPage() {
 
       <section className="py-16">
         <MainWithSidebar>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/mast-hero.jpg)' }} role="img" aria-label="Electrical service mast on a home exterior" />
+          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/mast-hero.webp)' }} role="img" aria-label="Electrical service mast on a home exterior" />
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
             Professional Electrical Mast Repair
           </h2>
@@ -131,7 +131,7 @@ export default function ElectricalMastRepairPage() {
 
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/mast-signs.jpg)' }} role="img" aria-label="Utility power line connection to a home" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/mast-signs.webp)' }} role="img" aria-label="Utility power line connection to a home" />
           <div>
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need Service Mast Repair
@@ -173,7 +173,7 @@ export default function ElectricalMastRepairPage() {
               in good hands.
             </p>
           </div>
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }} role="img" aria-label="Electrician reviewing mast repair work" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }} role="img" aria-label="Electrician reviewing mast repair work" />
         </div>
       </section>
 

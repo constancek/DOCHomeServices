@@ -136,7 +136,7 @@ export default function BasementFloodPlumbingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/basement-flood-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/basement-flood-hero.webp)' }}
             role="img"
             aria-label="Floodwater rising at the entrance of a building"
           />
@@ -162,7 +162,7 @@ export default function BasementFloodPlumbingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-[2fr_3fr] lg:py-16">
           <div
             className="aspect-[10/9] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/basement-flood-sources.jpg)' }}
+            style={{ backgroundImage: 'url(/services/basement-flood-sources.webp)' }}
             role="img"
             aria-label="A basement with tiled floor, storage shelves, and staircase"
           />

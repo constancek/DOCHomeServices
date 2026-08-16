@@ -135,7 +135,7 @@ export default function EmergencyWaterExtractionPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/water-extraction-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/water-extraction-hero.webp)' }}
             role="img"
             aria-label="A car driving through a flooded street after heavy rain"
           />
@@ -160,7 +160,7 @@ export default function EmergencyWaterExtractionPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-[2fr_3fr] lg:py-16">
           <div
             className="aspect-[10/9] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/water-extraction-situations.jpg)' }}
+            style={{ backgroundImage: 'url(/services/water-extraction-situations.webp)' }}
             role="img"
             aria-label="Cars stranded on a flooded street after heavy rain"
           />

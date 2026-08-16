@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Water Heater Maintenance',
   ctaLine: 'Time for a water heater tune-up in {neighborhood}? Call to schedule',
-  heroImage: '/services/wh-hero.jpg',
+  heroImage: '/services/wh-hero.webp',
   introHeading: 'Water Heater Maintenance in {neighborhood}',
   introParagraphs: [
     'A yearly tune-up keeps your water heater efficient, safe, and lasting longer. {brand} flushes the tank, checks the anode rod, and inspects every safety part for homeowners in {place} — on tank and tankless systems alike.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'tankless-water-heater', title: 'Tankless Water Heaters' },
     { slug: 'water-quality', title: 'Water Quality' },
   ],
-  band1Image: '/services/wh-signs.jpg',
+  band1Image: '/services/wh-signs.webp',
   band1Heading: 'Signs Your {neighborhood} Water Heater Needs a Tune-Up',
   commonSituations: [
     'Hot water runs out faster than it used to',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'No professional service in over a year',
   ],
   trustedBanner: 'Your Local & Trusted Water Heater Maintenance Pros in {neighborhood}',
-  band2Image: '/services/water-heater-repair.jpg',
+  band2Image: '/services/water-heater-repair.webp',
   band2Heading: 'What to Expect From Your Tune-Up in {neighborhood}',
   band2Paragraphs: [
     'We start by checking the overall condition of the unit — age, performance, and the safety parts — then explain the flat-rate price before any work begins.',

@@ -145,7 +145,7 @@ export default function GasServiceDisconnectionPage() {
 
       <section className="py-16">
         <MainWithSidebar>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/gasline-hero.jpg)' }} role="img" aria-label="Residential natural gas meter with service piping" />
+          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/gas-disconnection-hero.webp)' }} role="img" aria-label="Plumber capping a flexible gas connector at a shut-off valve" />
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
             Your Gas Is Off. Here Is What Happens Next.
           </h2>
@@ -172,17 +172,17 @@ export default function GasServiceDisconnectionPage() {
 
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/gasline-signs.jpg)' }} role="img" aria-label="Plumber testing residential gas piping" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/gas-disconnection-meter.webp)' }} role="img" aria-label="Plumber disconnecting a gas meter with a wrench" />
           <div>
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Why Your Gas Was Shut Off
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Most people are told very little at the door. These are the reasons we actually turn up to:
             </p>
             <ul className="mt-4 space-y-2">
               {whyItWasShutOff.map((s) => (
-                <li key={s.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={s.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span><span className="font-bold text-white">{s.lead}:</span> {s.text}</span>
                 </li>
@@ -201,20 +201,20 @@ export default function GasServiceDisconnectionPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               What We Handle
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Everything between the shutoff and the relight, quoted flat-rate before we start so you know
               what getting your gas back actually costs.
             </p>
             <ul className="mt-4 space-y-2">
               {whatWeHandle.map((w) => (
-                <li key={w} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={w} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-400" />
                   {w}
                 </li>
               ))}
             </ul>
           </div>
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/wh-hero.jpg)' }} role="img" aria-label="Water heater connected to household gas piping" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/gas-disconnection-gauge.webp)' }} role="img" aria-label="Pressure gauge on gas piping during a pressure test" />
         </div>
       </section>
 
@@ -313,7 +313,7 @@ export default function GasServiceDisconnectionPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -337,12 +337,12 @@ export default function GasServiceDisconnectionPage() {
 
           <h2 className="mt-12 section-title text-brand-700">Gas Shutoff FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Get Your Gas Connection Back On</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Tell us what Duke told you and we will tell you what it takes to fix it. Diagnosis, repair,
               pressure test, and reconnect across {site.serviceArea}.
             </p>

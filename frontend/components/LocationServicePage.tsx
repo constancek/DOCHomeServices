@@ -196,7 +196,7 @@ export default function LocationServicePage({
                 {config.relatedCards.map((s) => (
                   <li key={s.slug}>
                     <Link href={`/services/${s.slug}`} className="group relative block aspect-[4/3] overflow-hidden rounded-xl">
-                      <span className="absolute inset-0 bg-brand-200 bg-cover bg-center transition duration-300 group-hover:scale-105" style={{ backgroundImage: `url(/services/${s.slug}.jpg)` }} />
+                      <span className="absolute inset-0 bg-brand-200 bg-cover bg-center transition duration-300 group-hover:scale-105" style={{ backgroundImage: `url(/services/${s.slug}.webp)` }} />
                       <span className="absolute inset-0 bg-gradient-to-t from-pink-600/90 via-pink-500/45 to-transparent transition group-hover:from-pink-600" />
                       <span className="absolute inset-0 grid place-items-center p-3 text-center">
                         <span className="font-display text-[13px] font-extrabold uppercase leading-tight tracking-wide text-white [text-shadow:0_2px_6px_rgba(0,0,0,0.85)] sm:text-sm">

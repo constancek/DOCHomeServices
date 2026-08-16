@@ -128,7 +128,7 @@ export default function SurgeProtectorPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/surge-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/surge-hero.webp)' }}
             role="img"
             aria-label="Electrical panel with surge protection"
           />
@@ -156,7 +156,7 @@ export default function SurgeProtectorPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/surge-protector-installation.jpg)' }}
+            style={{ backgroundImage: 'url(/services/surge-protector-installation.webp)' }}
             role="img"
             aria-label="Electrical panel"
           />
@@ -213,7 +213,7 @@ export default function SurgeProtectorPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician reviewing surge protection with a homeowner"
           />

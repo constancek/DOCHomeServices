@@ -125,7 +125,7 @@ export default function IndoorLightingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/indoor-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/indoor-hero.webp)' }}
             role="img"
             aria-label="Modern kitchen with recessed ceiling lighting"
           />
@@ -172,7 +172,7 @@ export default function IndoorLightingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/indoor-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/indoor-signs.webp)' }}
             role="img"
             aria-label="Bright, well-lit living room interior"
           />
@@ -231,7 +231,7 @@ export default function IndoorLightingPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician planning an indoor lighting layout"
           />

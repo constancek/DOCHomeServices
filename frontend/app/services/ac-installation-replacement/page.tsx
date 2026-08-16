@@ -136,7 +136,7 @@ export default function ACInstallationPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/ac-install-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/ac-install-hero.webp)' }}
             role="img"
             aria-label="New air conditioning system installed at a home"
           />
@@ -165,7 +165,7 @@ export default function ACInstallationPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/ac-installation-replacement.jpg)' }}
+            style={{ backgroundImage: 'url(/services/ac-installation-replacement.webp)' }}
             role="img"
             aria-label="Technician working on an air conditioner"
           />
@@ -218,7 +218,7 @@ export default function ACInstallationPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Technician discussing AC installation with a homeowner"
           />

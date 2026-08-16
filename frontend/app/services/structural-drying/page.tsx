@@ -140,7 +140,7 @@ export default function StructuralDryingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/structural-drying-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/structural-drying-hero.webp)' }}
             role="img"
             aria-label="Water droplets covering a rain-drenched window"
           />
@@ -166,7 +166,7 @@ export default function StructuralDryingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-[2fr_3fr] lg:py-16">
           <div
             className="aspect-[10/9] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/structural-drying-materials.jpg)' }}
+            style={{ backgroundImage: 'url(/services/structural-drying-materials.webp)' }}
             role="img"
             aria-label="Close-up of an aged, moss-covered brick wall"
           />

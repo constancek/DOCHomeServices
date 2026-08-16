@@ -120,7 +120,7 @@ export default function PlumbingRepairPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/plumbing-repair-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/plumbing-repair-hero.webp)' }}
             role="img"
             aria-label="Licensed plumber making a repair under a sink"
           />
@@ -150,7 +150,7 @@ export default function PlumbingRepairPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/plumbing-repair-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/plumbing-repair-signs.webp)' }}
             role="img"
             aria-label="Plumber diagnosing a plumbing problem"
           />
@@ -211,7 +211,7 @@ export default function PlumbingRepairPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Plumber explaining a repair to a homeowner"
           />

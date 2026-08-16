@@ -35,7 +35,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/5-common-causes-of-low-water-pressure-hero.jpg',
+    image: '/blog/5-common-causes-of-low-water-pressure-hero.webp',
     imageAlt: 'Water flowing from a kitchen faucet',
     content: [
       {
@@ -89,7 +89,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/air-conditioner-vs-heat-pump-hero.jpg',
+    image: '/blog/air-conditioner-vs-heat-pump-hero.webp',
     imageAlt: 'Outdoor HVAC condenser unit beside a home',
     content: [
       {
@@ -148,7 +148,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/common-hvac-terms-explained-hero.jpg',
+    image: '/blog/common-hvac-terms-explained-hero.webp',
     imageAlt: 'HVAC technician holding a clipboard by a unit',
     content: [
       {
@@ -217,7 +217,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/do-air-purifiers-help-with-dust-hero.jpg',
+    image: '/blog/do-air-purifiers-help-with-dust-hero.webp',
     imageAlt: 'Air purifier running in a living room',
     content: [
       {
@@ -274,7 +274,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/do-liquid-drain-cleaners-work-hero.jpg',
+    image: '/blog/do-liquid-drain-cleaners-work-hero.webp',
     imageAlt: 'Water pooling in a clogged bathroom sink',
     content: [
       {
@@ -331,7 +331,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/does-a-heat-pump-increase-home-value-hero.jpg',
+    image: '/blog/does-a-heat-pump-increase-home-value-hero.webp',
     imageAlt: 'Heat pump unit outside a modern home',
     content: [
       {
@@ -383,7 +383,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/easy-ways-to-save-energy-at-home-hero.jpg',
+    image: '/blog/easy-ways-to-save-energy-at-home-hero.webp',
     imageAlt: 'Person adjusting a smart thermostat on a wall',
     content: [
       {
@@ -435,7 +435,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/furnace-maintenance-tips-hero.jpg',
+    image: '/blog/furnace-maintenance-tips-hero.webp',
     imageAlt: 'Hand replacing a furnace air filter',
     content: [
       {
@@ -488,7 +488,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/furnace-not-working-troubleshooting-tips-hero.jpg',
+    image: '/blog/furnace-not-working-troubleshooting-tips-hero.webp',
     imageAlt: 'Person inspecting a furnace in a basement',
     content: [
       {
@@ -543,7 +543,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/how-does-an-air-conditioner-work-hero.jpg',
+    image: '/blog/how-does-an-air-conditioner-work-hero.webp',
     imageAlt: 'Outdoor air conditioner condenser unit beside a house',
     content: [
       {
@@ -595,7 +595,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/how-long-do-air-conditioners-last-hero.jpg',
+    image: '/blog/how-long-do-air-conditioners-last-hero.webp',
     imageAlt: 'Air conditioner condenser unit in a backyard',
     content: [
       {
@@ -648,7 +648,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/how-long-does-a-water-heater-last-hero.jpg',
+    image: '/blog/how-long-does-a-water-heater-last-hero.webp',
     imageAlt: 'Water heater tank in a home basement',
     content: [
       {
@@ -705,7 +705,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/how-much-does-a-new-furnace-cost-hero.jpg',
+    image: '/blog/how-much-does-a-new-furnace-cost-hero.webp',
     imageAlt: 'New gas furnace installed in a home basement',
     content: [
       {
@@ -769,7 +769,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/how-to-clear-a-clogged-drain-hero.jpg',
+    image: '/blog/how-to-clear-a-clogged-drain-hero.webp',
     imageAlt: 'Water draining slowly in a sink',
     content: [
       {
@@ -822,7 +822,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/how-to-fix-a-broken-sewer-line-hero.jpg',
+    image: '/blog/how-to-fix-a-broken-sewer-line-hero.webp',
     imageAlt: 'Excavated trench exposing a sewer pipe',
     content: [
       {
@@ -875,7 +875,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/plumbing-tips-every-homeowner-should-know-hero.jpg',
+    image: '/blog/plumbing-tips-every-homeowner-should-know-hero.webp',
     imageAlt: 'Plumber working under a kitchen sink',
     content: [
       {
@@ -925,7 +925,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/should-you-repair-or-replace-your-furnace-hero.jpg',
+    image: '/blog/should-you-repair-or-replace-your-furnace-hero.webp',
     imageAlt: 'Older gas furnace unit in a home basement',
     content: [
       {
@@ -982,7 +982,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/signs-of-an-ac-refrigerant-leak-hero.jpg',
+    image: '/blog/signs-of-an-ac-refrigerant-leak-hero.webp',
     imageAlt: 'HVAC technician inspecting an air conditioner',
     content: [
       {
@@ -1043,7 +1043,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/signs-of-heater-failure-hero.jpg',
+    image: '/blog/signs-of-heater-failure-hero.webp',
     imageAlt: 'Person wrapped in a blanket staying warm at home',
     content: [
       {
@@ -1109,7 +1109,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/top-signs-of-air-duct-mold-hero.jpg',
+    image: '/blog/top-signs-of-air-duct-mold-hero.webp',
     imageAlt: 'Ceiling air vent register in a home',
     content: [
       {
@@ -1167,7 +1167,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/using-your-hvac-for-better-sleep-hero.jpg',
+    image: '/blog/using-your-hvac-for-better-sleep-hero.webp',
     imageAlt: 'Cozy bedroom with soft evening light',
     content: [
       {
@@ -1218,7 +1218,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/what-does-a-gas-leak-smell-like-hero.jpg',
+    image: '/blog/what-does-a-gas-leak-smell-like-hero.webp',
     imageAlt: 'Blue flame burning on a gas stove burner',
     content: [
       {
@@ -1275,7 +1275,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/what-happens-if-you-dont-clean-your-air-ducts-hero.jpg',
+    image: '/blog/what-happens-if-you-dont-clean-your-air-ducts-hero.webp',
     imageAlt: 'Air duct vent register in a ceiling',
     content: [
       {
@@ -1328,7 +1328,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/what-is-a-good-seer-rating-hero.jpg',
+    image: '/blog/what-is-a-good-seer-rating-hero.webp',
     imageAlt: 'Energy-efficient home with an air conditioner unit',
     content: [
       {
@@ -1381,7 +1381,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/what-is-ac-fan-mode-hero.jpg',
+    image: '/blog/what-is-ac-fan-mode-hero.webp',
     imageAlt: 'Hand holding an air conditioner remote control',
     content: [
       {
@@ -1436,7 +1436,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/what-is-high-efficiency-furnace-venting-hero.jpg',
+    image: '/blog/what-is-high-efficiency-furnace-venting-hero.webp',
     imageAlt: 'White PVC furnace venting pipes on a home exterior',
     content: [
       {
@@ -1494,7 +1494,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/what-is-included-in-a-furnace-tune-up-hero.jpg',
+    image: '/blog/what-is-included-in-a-furnace-tune-up-hero.webp',
     imageAlt: 'HVAC technician servicing a home furnace',
     content: [
       {
@@ -1565,7 +1565,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/what-is-zoned-air-conditioning-hero.jpg',
+    image: '/blog/what-is-zoned-air-conditioning-hero.webp',
     imageAlt: 'Modern open-plan living room interior',
     content: [
       {
@@ -1623,7 +1623,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/what-you-should-know-about-boilers-hero.jpg',
+    image: '/blog/what-you-should-know-about-boilers-hero.webp',
     imageAlt: 'Home boiler heating unit mounted on a wall',
     content: [
       {
@@ -1672,7 +1672,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/why-does-my-ac-keep-turning-off-hero.jpg',
+    image: '/blog/why-does-my-ac-keep-turning-off-hero.webp',
     imageAlt: 'Hand adjusting a wall thermostat',
     content: [
       {
@@ -1737,7 +1737,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/why-is-my-air-conditioner-icing-over-hero.jpg',
+    image: '/blog/why-is-my-air-conditioner-icing-over-hero.webp',
     imageAlt: 'Frost and ice on an air conditioner coil',
     content: [
       {
@@ -1793,7 +1793,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/why-is-my-air-conditioner-leaking-water-hero.jpg',
+    image: '/blog/why-is-my-air-conditioner-leaking-water-hero.webp',
     imageAlt: 'Water dripping from an indoor air conditioning unit',
     content: [
       {
@@ -1852,7 +1852,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/why-is-my-air-conditioner-making-noise-hero.jpg',
+    image: '/blog/why-is-my-air-conditioner-making-noise-hero.webp',
     imageAlt: 'Outdoor air conditioning unit beside a home',
     content: [
       {
@@ -1905,7 +1905,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/why-is-my-furnace-blowing-cold-air-hero.jpg',
+    image: '/blog/why-is-my-furnace-blowing-cold-air-hero.webp',
     imageAlt: 'Person adjusting a home thermostat on the wall',
     content: [
       {
@@ -1963,7 +1963,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/replace-ac-furnace-together-hero.jpg',
+    image: '/blog/replace-ac-furnace-together-hero.webp',
     imageAlt: 'Outdoor air conditioner unit beside a home with landscaping',
     content: [
       {
@@ -2017,7 +2017,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/weather-plumbing-issues-hero.jpg',
+    image: '/blog/weather-plumbing-issues-hero.webp',
     imageAlt: 'Old, rusted pipes in a damp basement crawlspace',
     content: [
       {
@@ -2063,7 +2063,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 6,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/degree-of-comfort-university-hero.jpg',
+    image: '/blog/degree-of-comfort-university-hero.webp',
     imageAlt: 'Outdoor air conditioner condenser unit beside a home',
     content: [
       {
@@ -2117,7 +2117,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/lower-humidity-in-house-hero.jpg',
+    image: '/blog/lower-humidity-in-house-hero.webp',
     imageAlt: 'Man sweating in front of a fan in a humid room',
     content: [
       {
@@ -2174,7 +2174,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-03',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/do-acs-improve-indoor-air-quality-hero.jpg',
+    image: '/blog/do-acs-improve-indoor-air-quality-hero.webp',
     imageAlt: 'Technician replacing a home air filter in a ceiling return vent',
     content: [
       {
@@ -2228,7 +2228,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-01',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/air-filter-past-prime-hero.jpg',
+    image: '/blog/air-filter-past-prime-hero.webp',
     imageAlt: 'Man replacing a pleated air filter in a ceiling return vent',
     content: [
       {
@@ -2300,7 +2300,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-01',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/how-much-is-a-new-air-conditioner-hero.jpg',
+    image: '/blog/how-much-is-a-new-air-conditioner-hero.webp',
     imageAlt: 'Couple on a couch using a remote for a wall-mounted air conditioner',
     content: [
       {
@@ -2357,7 +2357,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-01',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/whole-home-dehumidifier-water-hero.jpg',
+    image: '/blog/whole-home-dehumidifier-water-hero.webp',
     imageAlt: 'Technician adjusting a whole-home dehumidifier in a basement',
     content: [
       {
@@ -2405,7 +2405,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-01',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/ac-temperature-summer-hero.jpg',
+    image: '/blog/ac-temperature-summer-hero.webp',
     imageAlt: 'Woman adjusting a smart thermostat using a phone app',
     content: [
       {
@@ -2463,7 +2463,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-01',
     readMinutes: 9,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/keep-basement-dry-spring-hero.jpg',
+    image: '/blog/keep-basement-dry-spring-hero.webp',
     imageAlt: 'Homeowner standing in a flooded basement looking at the water damage',
     content: [
       {
@@ -2525,7 +2525,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-01',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/ac-blowing-warm-air-hero.jpg',
+    image: '/blog/ac-blowing-warm-air-hero.webp',
     imageAlt: 'Hand checking the airflow from a wall-mounted air conditioner',
     content: [
       {
@@ -2589,7 +2589,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-01',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/fall-heating-safety-efficiency-tips-hero.jpg',
+    image: '/blog/fall-heating-safety-efficiency-tips-hero.webp',
     imageAlt: 'Outdoor heat pump unit beside a house with pink flowers in bloom',
     content: [
       {
@@ -2643,7 +2643,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-01',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/can-your-ac-make-you-sick-hero.jpg',
+    image: '/blog/can-your-ac-make-you-sick-hero.webp',
     imageAlt: 'Person adjusting a wall-mounted air conditioner with a handheld remote',
     content: [
       {
@@ -2700,7 +2700,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-01',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/how-tankless-water-heater-works-hero.jpg',
+    image: '/blog/how-tankless-water-heater-works-hero.webp',
     imageAlt: 'Wall-mounted tankless water heater with copper supply lines in a basement',
     content: [
       {
@@ -2762,7 +2762,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-01',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/whole-home-humidifier-hero.jpg',
+    image: '/blog/whole-home-humidifier-hero.webp',
     imageAlt: 'Home humidifier releasing mist next to houseplants on a windowsill',
     content: [
       {
@@ -2824,7 +2824,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-01',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/snaking-vs-hydro-jetting-hero.jpg',
+    image: '/blog/snaking-vs-hydro-jetting-hero.webp',
     imageAlt: 'Plumber running a drain snake into an outdoor drain cleanout',
     content: [
       {
@@ -2885,7 +2885,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-01',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/how-long-furnaces-last-hero.jpg',
+    image: '/blog/how-long-furnaces-last-hero.webp',
     imageAlt: 'Residential HVAC system outside a brick home',
     content: [
       {
@@ -2953,7 +2953,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-01',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/prevent-frozen-pipes-hero.jpg',
+    image: '/blog/prevent-frozen-pipes-hero.webp',
     imageAlt: 'Modern kitchen faucet running water in a bright, warm home',
     content: [
       {
@@ -3011,7 +3011,7 @@ export const posts: Post[] = [
     dateModified: '2026-07-01',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/frozen-pipes-shut-off-water-hero.jpg',
+    image: '/blog/frozen-pipes-shut-off-water-hero.webp',
     imageAlt: 'Frozen residential water pipe with icicles hanging from it',
     content: [
       {
@@ -3069,7 +3069,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-29',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/toilet-leaking-hero.jpg',
+    image: '/blog/toilet-leaking-hero.webp',
     imageAlt: 'Water pooling around the base of a leaking toilet',
     content: [
       {
@@ -3128,7 +3128,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-29',
     readMinutes: 9,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/ac-maintenance-worth-it-hero.jpg',
+    image: '/blog/ac-maintenance-worth-it-hero.webp',
     imageAlt: 'HVAC technician performing a maintenance tune-up on an air conditioner',
     content: [
       {
@@ -3190,7 +3190,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-29',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/main-drain-cleanout-hero.jpg',
+    image: '/blog/main-drain-cleanout-hero.webp',
     imageAlt: 'Plumber installing PVC sewer pipe and a main drain cleanout',
     content: [
       {
@@ -3247,7 +3247,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-29',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/leaky-faucet-hero.jpg',
+    image: '/blog/leaky-faucet-hero.webp',
     imageAlt: 'Hands using a wrench to repair a dripping bathroom faucet',
     content: [
       {
@@ -3308,7 +3308,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-29',
     readMinutes: 9,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/plumbing-upgrades-hero.jpg',
+    image: '/blog/plumbing-upgrades-hero.webp',
     imageAlt: 'Plumber installing a new toilet during a home plumbing upgrade',
     content: [
       {
@@ -3375,7 +3375,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-29',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/air-purifier-benefits-hero.jpg',
+    image: '/blog/air-purifier-benefits-hero.webp',
     imageAlt: 'Air purifier running in a clean, comfortable living room',
     content: [
       {
@@ -3444,7 +3444,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-29',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/main-drain-clogged-hero.jpg',
+    image: '/blog/main-drain-clogged-hero.webp',
     imageAlt: 'Plumber inspecting a home main drain and sewer cleanout',
     content: [
       {
@@ -3514,7 +3514,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-29',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/ac-smells-bad-hero.jpg',
+    image: '/blog/ac-smells-bad-hero.webp',
     imageAlt: 'Two HVAC technicians servicing a wall-mounted air conditioner',
     content: [
       {
@@ -3575,7 +3575,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-29',
     readMinutes: 9,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/tankless-worth-it-hero.jpg',
+    image: '/blog/tankless-worth-it-hero.webp',
     imageAlt: 'Wall-mounted tankless water heater installed in a home utility room',
     content: [
       {
@@ -3648,7 +3648,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-29',
     readMinutes: 9,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/replace-old-ac-hero.jpg',
+    image: '/blog/replace-old-ac-hero.webp',
     imageAlt: 'HVAC technician testing an air conditioner with a multimeter',
     content: [
       {
@@ -3729,7 +3729,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-29',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/shower-power-outage-hero.jpg',
+    image: '/blog/shower-power-outage-hero.webp',
     imageAlt: 'Shower running in a dimly lit bathroom during a power outage',
     content: [
       {
@@ -3788,7 +3788,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-29',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/sump-pump-hero.jpg',
+    image: '/blog/sump-pump-hero.webp',
     imageAlt: 'Sump pump sitting in a basement sump pit with discharge piping',
     content: [
       {
@@ -3863,7 +3863,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-29',
     readMinutes: 9,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/furnace-safety-hero.jpg',
+    image: '/blog/furnace-safety-hero.webp',
     imageAlt: 'Technician inspecting a residential gas furnace for safety',
     content: [
       {
@@ -3931,7 +3931,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-29',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/hvac-financing-hero.jpg',
+    image: '/blog/hvac-financing-hero.webp',
     imageAlt: 'Homeowner reviewing HVAC financing options on a laptop at home',
     content: [
       {
@@ -3997,7 +3997,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-28',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/water-heater-leaking-hero.jpg',
+    image: '/blog/water-heater-leaking-hero.webp',
     imageAlt: 'Water pooling on the floor beneath a leaking residential water heater',
     content: [
       {
@@ -4067,7 +4067,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-28',
     readMinutes: 9,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/furnace-filter-hero.jpg',
+    image: '/blog/furnace-filter-hero.webp',
     imageAlt: 'Hand replacing a pleated furnace filter in a home HVAC system',
     content: [
       {
@@ -4146,7 +4146,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-28',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/water-heater-winter-prep-hero.jpg',
+    image: '/blog/water-heater-winter-prep-hero.webp',
     imageAlt: 'Water heater with insulated pipes in a basement during winter',
     content: [
       {
@@ -4209,7 +4209,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-28',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/dry-indoor-air-winter-hero.jpg',
+    image: '/blog/dry-indoor-air-winter-hero.webp',
     imageAlt: 'Cozy living room with a portable humidifier running by a window in winter',
     content: [
       {
@@ -4279,7 +4279,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-28',
     readMinutes: 9,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/heat-pump-whole-house-hero.jpg',
+    image: '/blog/heat-pump-whole-house-hero.webp',
     imageAlt: 'Air-source heat pump unit installed outside a home in winter',
     content: [
       {
@@ -4363,7 +4363,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-28',
     readMinutes: 6,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/water-heater-winter-hero.jpg',
+    image: '/blog/water-heater-winter-hero.webp',
     imageAlt: 'Technician inspecting a residential water heater tank',
     content: [
       {
@@ -4427,7 +4427,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-28',
     readMinutes: 6,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/ac-wont-turn-on-hero.jpg',
+    image: '/blog/ac-wont-turn-on-hero.webp',
     imageAlt: 'Outdoor air conditioner condenser unit beside a home',
     content: [
       {
@@ -4493,7 +4493,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-28',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/smart-thermostat-hero.jpg',
+    image: '/blog/smart-thermostat-hero.webp',
     imageAlt: 'Homeowner adjusting a smart thermostat mounted on the wall',
     content: [
       {
@@ -4554,7 +4554,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-28',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
-    image: '/blog/hard-water-hero.jpg',
+    image: '/blog/hard-water-hero.webp',
     imageAlt: 'Hard water mineral and limescale buildup on a kitchen faucet',
     content: [
       {
@@ -4619,7 +4619,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-28',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/uneven-cooling-hero.jpg',
+    image: '/blog/uneven-cooling-hero.webp',
     imageAlt: 'Homeowner relaxing in a comfortably and evenly cooled living room',
     content: [
       {
@@ -4697,7 +4697,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-28',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
-    image: '/blog/extend-ac-life-hero.jpg',
+    image: '/blog/extend-ac-life-hero.webp',
     imageAlt: 'Technician performing maintenance on an outdoor AC condenser unit',
     content: [
       {
@@ -4777,7 +4777,7 @@ export const posts: Post[] = [
     dateModified: '2026-06-27',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Licensed Electricians' },
-    image: '/blog/diy-electrical-hero.jpg',
+    image: '/blog/diy-electrical-hero.webp',
     imageAlt: 'Licensed electrician working safely inside a home electrical panel',
     content: [
       {

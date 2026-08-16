@@ -143,7 +143,7 @@ export default function StormElectricityOutagePage() {
 
       <section className="py-16">
         <MainWithSidebar>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/mast-hero.jpg)' }} role="img" aria-label="Storm-damaged electrical service mast on a house" />
+          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/storm-outage-hero.webp)' }} role="img" aria-label="Fallen tree across a residential street with downed power lines and a snapped utility pole" />
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
             When the Lights Come Back On Everywhere Except Your House
           </h2>
@@ -169,18 +169,40 @@ export default function StormElectricityOutagePage() {
 
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/mast-signs.jpg)' }} role="img" aria-label="Overhead service connection at a residential weatherhead" />
+          <div className="lg:order-1">
+            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+              Storm Damage We Repair
+            </h2>
+            <p className="mt-4 text-base leading-relaxed text-white/90">
+              High wind, falling limbs, and a heavy service drop do predictable things to a house:
+            </p>
+            <ul className="mt-4 space-y-2">
+              {damageWeRepair.map((s) => (
+                <li key={s.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
+                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                  <span><span className="font-bold text-white">{s.lead}:</span> {s.text}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/surge-hero.webp)' }} role="img" aria-label="Electrical panel and surge protection equipment" />
+        </div>
+      </section>
+
+      <section className="bg-hero-pink text-white">
+        <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/storm-outage-crews.webp)' }} role="img" aria-label="Utility bucket trucks restoring overhead power lines after a storm" />
           <div>
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Who Owns What
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Almost every argument about a storm outage comes down to this split, and most homeowners have
               never been told where the line falls:
             </p>
             <ul className="mt-4 space-y-2">
               {yoursVsTheirs.map((s) => (
-                <li key={s.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={s.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span><span className="font-bold text-white">{s.lead}:</span> {s.text}</span>
                 </li>
@@ -190,28 +212,6 @@ export default function StormElectricityOutagePage() {
               Duke Restores the Line. We Restore Your Connection to It.
             </p>
           </div>
-        </div>
-      </section>
-
-      <section className="bg-hero-pink text-white">
-        <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
-              Storm Damage We Repair
-            </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
-              High wind, falling limbs, and a heavy service drop do predictable things to a house:
-            </p>
-            <ul className="mt-4 space-y-2">
-              {damageWeRepair.map((s) => (
-                <li key={s.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
-                  <span><span className="font-bold text-white">{s.lead}:</span> {s.text}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/surge-hero.jpg)' }} role="img" aria-label="Electrical panel and surge protection equipment" />
         </div>
       </section>
 
@@ -315,7 +315,7 @@ export default function StormElectricityOutagePage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -323,12 +323,12 @@ export default function StormElectricityOutagePage() {
 
           <h2 className="mt-12 section-title text-brand-700">Storm Outage FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Get Your Power Back On</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               If your house is dark and the street is not, call now. We repair the damage, handle the
               inspection, and coordinate the Duke Energy reconnect across {site.serviceArea}.
             </p>

@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Electrical Panel Replacement',
   ctaLine: 'Outgrowing your old electrical panel in {neighborhood}? Call for a free estimate',
-  heroImage: '/services/panel-hero.jpg',
+  heroImage: '/services/panel-hero.webp',
   introHeading: 'Electrical Panel Replacement in {neighborhood}',
   introParagraphs: [
     'Your electrical panel is the heart of your home’s electrical system — it feeds every circuit and protects the house when something goes wrong. {brand} replaces and upgrades breaker panels and old fuse boxes for homeowners in {place}, sized for modern demand and done with minimal disruption.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'surge-protector-installation', title: 'Surge Protection' },
     { slug: 'electrical-inspections', title: 'Electrical Inspections' },
   ],
-  band1Image: '/services/panel-signs.jpg',
+  band1Image: '/services/panel-signs.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs a New Panel',
   commonSituations: [
     'Breakers that trip frequently or won’t reset',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'No capacity left to add a circuit, hot tub, or EV charger',
   ],
   trustedBanner: 'Your Local & Trusted Electrical Panel Pros in {neighborhood}',
-  band2Image: '/services/panel-hero.jpg',
+  band2Image: '/services/panel-hero.webp',
   band2Heading: 'What to Expect From Your Panel Service in {neighborhood}',
   band2Paragraphs: [
     'We start by assessing your existing panel, service size, and wiring, then explain whether a repair or a full replacement makes sense — with the permit and flat-rate price laid out before any work begins.',

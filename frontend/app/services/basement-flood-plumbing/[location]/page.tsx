@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Basement Flood Plumbing',
   ctaLine: 'Basement flooding in {neighborhood}? Call for same-day help',
-  heroImage: '/services/basement-flood-hero.jpg',
+  heroImage: '/services/basement-flood-hero.webp',
   introHeading: 'Basement Flood Plumbing in {neighborhood}',
   introParagraphs: [
     'Water on a basement floor looks the same whatever caused it. A split supply line, a dead sump pump, a backed-up main, and groundwater coming through the footer all leave the same puddle in a {place} home — and they need four completely different repairs. The expensive mistake is fixing the wrong one.',
@@ -42,7 +42,7 @@ const config: ServiceLocationConfig = {
     { slug: 'emergency-water-extraction', title: 'Emergency Water Extraction' },
     { slug: 'structural-drying', title: 'Structural Drying' },
   ],
-  band1Image: '/services/basement-flood-sources.jpg',
+  band1Image: '/services/basement-flood-sources.webp',
   band1Heading: 'Where Basement Water Comes From in {neighborhood}',
   commonSituations: [
     'A failed sump pump, float switch, or check valve',
@@ -54,7 +54,7 @@ const config: ServiceLocationConfig = {
     'Groundwater entering through the foundation or footer drain',
   ],
   trustedBanner: 'Your Local & Trusted Basement Flood Plumbers in {neighborhood}',
-  band2Image: '/services/basement-flood-hero.jpg',
+  band2Image: '/services/basement-flood-hero.webp',
   band2Heading: 'What to Expect From a Flooded Basement Call in {neighborhood}',
   band2Paragraphs: [
     'We confirm the power to that level is off, then find the source before quoting anything — a camera on the drain line and the discharge, a load test on the pump, and a look at where the water actually entered rather than where it pooled.',

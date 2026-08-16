@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Whole-Home Surge Protector Installation',
   ctaLine: 'Protect your {neighborhood} home from power surges — call today',
-  heroImage: '/services/surge-hero.jpg',
+  heroImage: '/services/surge-hero.webp',
   introHeading: 'Whole-Home Surge Protector Installation in {neighborhood}',
   introParagraphs: [
     'Power surges happen any time — lightning, grid fluctuations, and large appliances cycling on and off send excess voltage through your wiring and can fry electronics, HVAC, and smart-home devices in seconds. {brand} installs whole-home surge protectors for homeowners in {place}, right at the electrical panel.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'home-rewiring', title: 'Home Rewiring' },
     { slug: 'electrical-inspections', title: 'Electrical Inspections' },
   ],
-  band1Image: '/services/surge-protector-installation.jpg',
+  band1Image: '/services/surge-protector-installation.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs Surge Protection',
   commonSituations: [
     'Lights that flicker or dim without a clear cause',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A home that has never had panel-level surge protection',
   ],
   trustedBanner: 'Your Local & Trusted Surge Protection Pros in {neighborhood}',
-  band2Image: '/services/surge-hero.jpg',
+  band2Image: '/services/surge-hero.webp',
   band2Heading: 'Our Surge Protector Process in {neighborhood}',
   band2Paragraphs: [
     'We inspect your panel to confirm compatibility and the right placement, review the appliances, HVAC, and electronics most at risk, and explain the flat-rate price before any work begins.',

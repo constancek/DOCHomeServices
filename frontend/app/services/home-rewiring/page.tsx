@@ -154,7 +154,7 @@ export default function HomeRewiringPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/rewiring-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/rewiring-hero.webp)' }}
             role="img"
             aria-label="Licensed electrician rewiring a home"
           />
@@ -203,7 +203,7 @@ export default function HomeRewiringPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/rewiring-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/rewiring-signs.webp)' }}
             role="img"
             aria-label="Aging electrical wiring and panel"
           />
@@ -258,7 +258,7 @@ export default function HomeRewiringPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician reviewing a rewiring plan with a homeowner"
           />

@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Pipe Repair & Replacement',
   ctaLine: 'Dealing with a leak or damaged pipe in {neighborhood}? Call today',
-  heroImage: '/services/pipe-hero.jpg',
+  heroImage: '/services/pipe-hero.webp',
   introHeading: 'Pipe Repair & Replacement in {neighborhood}',
   introParagraphs: [
     'A small leak rarely stays small — damaged pipes waste water, harm the home, and get more expensive the longer they wait. {brand} handles pipe repair and replacement for homeowners in {place}, from emergency leaks to full-scale replacements, using camera inspection and leak detection to find the real problem.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'sewer-repair-replacement', title: 'Sewer Repair' },
     { slug: 'emergency-plumbing', title: 'Emergency Plumbing' },
   ],
-  band1Image: '/services/pipe-signs.jpg',
+  band1Image: '/services/pipe-signs.webp',
   band1Heading: 'The Dangers of Ignoring a Damaged Pipe in {neighborhood}',
   commonSituations: [
     'A leak warping floors or staining walls and ceilings',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A burst pipe or active leak that cannot wait',
   ],
   trustedBanner: 'Your Local & Trusted Pipe Repair Pros in {neighborhood}',
-  band2Image: '/services/pipe-repair-replacement.jpg',
+  band2Image: '/services/pipe-repair-replacement.webp',
   band2Heading: 'Our Pipe Repair & Replacement Process in {neighborhood}',
   band2Paragraphs: [
     'We locate the problem with camera inspection and leak detection, then explain whether a repair or replacement is the better value and the flat-rate price before any work begins.',

@@ -138,7 +138,7 @@ export default function ExhaustFanPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/exhaust-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/exhaust-hero.webp)' }}
             role="img"
             aria-label="Bathroom ceiling exhaust fan"
           />
@@ -194,7 +194,7 @@ export default function ExhaustFanPage() {
         <div className="container-page grid items-start gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:sticky lg:top-28"
-            style={{ backgroundImage: 'url(/services/exhaust-fan-installation-repair.jpg)' }}
+            style={{ backgroundImage: 'url(/services/exhaust-fan-installation-repair.webp)' }}
             role="img"
             aria-label="Exhaust fan service"
           />
@@ -264,7 +264,7 @@ export default function ExhaustFanPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician reviewing an exhaust fan installation with a homeowner"
           />

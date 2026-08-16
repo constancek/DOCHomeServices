@@ -104,7 +104,7 @@ export default function GarbageDisposalsPage() {
 
       <section className="py-16">
         <MainWithSidebar>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/disposal-hero.jpg)' }} role="img" aria-label="Garbage disposal under a kitchen sink" />
+          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/disposal-hero.webp)' }} role="img" aria-label="Garbage disposal under a kitchen sink" />
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
             Garbage Disposal Repair & Installation
           </h2>
@@ -126,7 +126,7 @@ export default function GarbageDisposalsPage() {
 
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/disposal-signs.jpg)' }} role="img" aria-label="Plumbing under a kitchen sink" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/disposal-signs.webp)' }} role="img" aria-label="Plumbing under a kitchen sink" />
           <div>
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs of a Failing Garbage Disposal
@@ -170,7 +170,7 @@ export default function GarbageDisposalsPage() {
               without a second thought.
             </p>
           </div>
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }} role="img" aria-label="Plumber reviewing a garbage disposal installation" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }} role="img" aria-label="Plumber reviewing a garbage disposal installation" />
         </div>
       </section>
 

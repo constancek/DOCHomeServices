@@ -134,7 +134,7 @@ export default function GarageLightingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/garage-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/garage-hero.webp)' }}
             role="img"
             aria-label="Brightly lit garage workshop interior"
           />
@@ -171,7 +171,7 @@ export default function GarageLightingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/garage-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/garage-signs.webp)' }}
             role="img"
             aria-label="LED shop lighting on a garage ceiling"
           />
@@ -229,7 +229,7 @@ export default function GarageLightingPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician planning a garage lighting layout"
           />

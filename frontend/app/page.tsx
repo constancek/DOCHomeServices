@@ -101,7 +101,7 @@ function Hero() {
         <div
           className="absolute inset-0 bg-brand-300 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(/happy-family.jpg)',
+            backgroundImage: 'url(/happy-family.webp)',
             clipPath: 'polygon(9% 0, 100% 0, 100% 100%, 3% 100%)',
           }}
         />
@@ -160,7 +160,7 @@ function Hero() {
 
       {/* Desktop mascot */}
       <img
-        src="/mascot.png"
+        src="/mascot.webp"
         alt="Degree of Comfort mascot"
         width={200}
         height={200}
@@ -172,10 +172,10 @@ function Hero() {
         <div className="relative">
           <div
             className="aspect-[4/3] rounded-2xl bg-brand-300 bg-cover bg-center ring-1 ring-white/30"
-            style={{ backgroundImage: 'url(/happy-family.jpg)' }}
+            style={{ backgroundImage: 'url(/happy-family.webp)' }}
           />
           <img
-            src="/mascot.png"
+            src="/mascot.webp"
             alt="Degree of Comfort mascot"
             width={120}
             height={120}

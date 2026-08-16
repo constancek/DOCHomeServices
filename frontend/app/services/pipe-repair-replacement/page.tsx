@@ -104,7 +104,7 @@ export default function PipeRepairReplacementPage() {
 
       <section className="py-16">
         <MainWithSidebar>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/pipe-hero.jpg)' }} role="img" aria-label="Plumber repairing a pipe" />
+          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/pipe-hero.webp)' }} role="img" aria-label="Plumber repairing a pipe" />
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
             Professional Pipe Repair & Replacement
           </h2>
@@ -126,7 +126,7 @@ export default function PipeRepairReplacementPage() {
 
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/pipe-signs.jpg)' }} role="img" aria-label="Leaking water pipe" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/pipe-signs.webp)' }} role="img" aria-label="Leaking water pipe" />
           <div>
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               The Dangers of Ignoring Leaky Pipes
@@ -167,7 +167,7 @@ export default function PipeRepairReplacementPage() {
               works without interruption.
             </p>
           </div>
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }} role="img" aria-label="Plumber reviewing a drain pipe repair" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }} role="img" aria-label="Plumber reviewing a drain pipe repair" />
         </div>
       </section>
 

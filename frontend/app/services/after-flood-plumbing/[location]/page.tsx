@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'After Flood Plumbing Inspection & Repair',
   ctaLine: 'Flooded home in {neighborhood}? Get the plumbing checked',
-  heroImage: '/services/after-flood-hero.jpg',
+  heroImage: '/services/after-flood-hero.webp',
   introHeading: 'After Flood Plumbing in {neighborhood}',
   introParagraphs: [
     'The water going down is not the end of it. A flood leaves behind a plumbing system that looks the same and does not work the same — silt in the sewer main, a water heater whose gas controls sat underwater, shutoff valves quietly seizing, and a sump pump that may have burned itself out doing its job.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'water-heater-installation', title: 'Water Heater Installation' },
     { slug: 'sump-pumps', title: 'Sump Pumps' },
   ],
-  band1Image: '/services/after-flood-checks.jpg',
+  band1Image: '/services/after-flood-checks.webp',
   band1Heading: 'What Goes Wrong After a Flood in {neighborhood}',
   commonSituations: [
     'A water heater whose burner assembly and gas controls went underwater',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Floor drains and traps packed with mud and debris',
   ],
   trustedBanner: 'Your Local & Trusted Post-Flood Plumbing Team in {neighborhood}',
-  band2Image: '/services/after-flood-hero.jpg',
+  band2Image: '/services/after-flood-hero.webp',
   band2Heading: 'What to Expect From a Post-Flood Check in {neighborhood}',
   band2Paragraphs: [
     'We start at the components a flood reaches first — the water heater base, the gas controls, the main shutoff, the sump pump — and work outward to the drains. Anything that merely got wet gets separated from anything that actually failed, which is the distinction most post-flood quotes blur.',

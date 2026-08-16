@@ -128,7 +128,7 @@ export default function DrainCleaningPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/drain-cleaning-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/drain-cleaning-hero.webp)' }}
             role="img"
             aria-label="Licensed plumber cleaning a clogged drain"
           />
@@ -167,7 +167,7 @@ export default function DrainCleaningPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/drains-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/drains-signs.webp)' }}
             role="img"
             aria-label="Plumber clearing a clogged drain line"
           />
@@ -214,7 +214,7 @@ export default function DrainCleaningPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/drain-cleaning-process.jpg)' }}
+            style={{ backgroundImage: 'url(/services/drain-cleaning-process.webp)' }}
             role="img"
             aria-label="Drain cleaning equipment in use"
           />

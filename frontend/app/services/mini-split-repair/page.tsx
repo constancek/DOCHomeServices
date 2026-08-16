@@ -130,7 +130,7 @@ export default function MiniSplitRepairPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/minisplit-repair-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/minisplit-repair-hero.webp)' }}
             role="img"
             aria-label="Technician repairing a ductless mini-split"
           />
@@ -164,7 +164,7 @@ export default function MiniSplitRepairPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/mini-split-repair.jpg)' }}
+            style={{ backgroundImage: 'url(/services/mini-split-repair.webp)' }}
             role="img"
             aria-label="Ductless mini-split being repaired"
           />
@@ -217,7 +217,7 @@ export default function MiniSplitRepairPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Technician explaining a mini-split repair to a homeowner"
           />

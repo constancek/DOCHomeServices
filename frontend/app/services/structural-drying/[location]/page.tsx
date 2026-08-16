@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Structural Drying',
   ctaLine: 'Water out but still damp in {neighborhood}? Call to get equipment in',
-  heroImage: '/services/structural-drying-hero.jpg',
+  heroImage: '/services/structural-drying-hero.webp',
   introHeading: 'Structural Drying in {neighborhood}',
   introParagraphs: [
     'A floor can feel dry underfoot while the subfloor beneath it is still holding water. {brand} dries the structure rather than the surface for homeowners in {place} — air movers and dehumidifiers in place, moisture readings taken daily, equipment out when the numbers say so.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'mold-prevention-remediation', title: 'Mold Prevention & Remediation' },
     { slug: 'pipe-repair-replacement', title: 'Pipe Repair & Replacement' },
   ],
-  band1Image: '/services/structural-drying-materials.jpg',
+  band1Image: '/services/structural-drying-materials.webp',
   band1Heading: 'What Still Holds Water in a {neighborhood} Home',
   commonSituations: [
     'Subfloor and floor joists under carpet or hardwood',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Plaster over wood lath, which gives moisture up far slower than drywall',
   ],
   trustedBanner: 'Your Local & Trusted Structural Drying Team in {neighborhood}',
-  band2Image: '/services/structural-drying-hero.jpg',
+  band2Image: '/services/structural-drying-hero.webp',
   band2Heading: 'What to Expect From Structural Drying in {neighborhood}',
   band2Paragraphs: [
     'Equipment goes in the day we arrive, because drying delayed is drying that takes longer. Then we come back and read it. Most {neighborhood} homes run three to five days with equipment in place, longer where plaster, solid wood, or a finished lower level is involved.',

@@ -142,7 +142,7 @@ export default function SwitchesOutletsPage() {
 
       <section className="py-16">
         <MainWithSidebar>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/outlets-hero.jpg)' }} role="img" aria-label="Electrician installing a wall outlet" />
+          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/outlets-hero.webp)' }} role="img" aria-label="Electrician installing a wall outlet" />
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
             Switch & Outlet Installation
           </h2>
@@ -165,7 +165,7 @@ export default function SwitchesOutletsPage() {
 
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/outlets-signs.jpg)' }} role="img" aria-label="Light switch on a wall" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/outlets-signs.webp)' }} role="img" aria-label="Light switch on a wall" />
           <div>
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Common Problems With Outlets & Switches
@@ -206,7 +206,7 @@ export default function SwitchesOutletsPage() {
               connecting each switch to the correct circuit for dependable, everyday operation.
             </p>
           </div>
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }} role="img" aria-label="Electrician reviewing outlet work with a homeowner" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }} role="img" aria-label="Electrician reviewing outlet work with a homeowner" />
         </div>
       </section>
 

@@ -14,7 +14,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2.5">
               <img
-                src="/mascot.png"
+                src="/mascot.webp"
                 alt="Degree of Comfort mascot"
                 width={48}
                 height={48}

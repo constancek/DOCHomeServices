@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Water Damage Restoration',
   ctaLine: 'Water damage in {neighborhood}? Call before it spreads',
-  heroImage: '/services/water-damage-restoration-hero.jpg',
+  heroImage: '/services/water-damage-restoration-hero.webp',
   introHeading: 'Water Damage Restoration in {neighborhood}',
   introParagraphs: [
     'Water damage gets more expensive by the hour. {brand} handles both halves of the problem for homeowners in {place} — we repair the plumbing that failed and dry out what it soaked, so you are dealing with one crew instead of coordinating two.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'mold-prevention-remediation', title: 'Mold Prevention & Remediation' },
     { slug: 'leak-detection', title: 'Leak Detection' },
   ],
-  band1Image: '/services/water-damage-restoration-signs.jpg',
+  band1Image: '/services/water-damage-restoration-signs.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs Water Restoration',
   commonSituations: [
     'Standing water on a floor, in a basement, or in a crawl space',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A burst supply line or a water heater that emptied its tank',
   ],
   trustedBanner: 'Your Local & Trusted Water Restoration Team in {neighborhood}',
-  band2Image: '/services/water-extraction-hero.jpg',
+  band2Image: '/services/water-extraction-hero.webp',
   band2Heading: 'What to Expect From Water Restoration in {neighborhood}',
   band2Paragraphs: [
     'We stop the source first — drying a room while it is still filling is wasted work — then pump the standing water, extract what has soaked into materials, and lift saturated pad and contaminated porous material that cannot be saved.',

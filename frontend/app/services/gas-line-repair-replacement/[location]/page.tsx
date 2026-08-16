@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Gas Line Repair & Replacement',
   ctaLine: 'Suspect a gas line problem in {neighborhood}? Call today',
-  heroImage: '/services/gasline-hero.jpg',
+  heroImage: '/services/gasline-hero.webp',
   introHeading: 'Gas Line Repair & Replacement in {neighborhood}',
   introParagraphs: [
     'Gas lines power some of a {neighborhood} home’s most important appliances, and a damaged or aging line leaves no room for error. {brand} diagnoses, repairs, replaces, and installs gas lines for homeowners in {place} — completed to code and pressure-tested before the job is done.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'plumbing-installation', title: 'Plumbing Installation' },
     { slug: 'emergency-plumbing', title: 'Emergency Plumbing' },
   ],
-  band1Image: '/services/gasline-signs.jpg',
+  band1Image: '/services/gasline-signs.webp',
   band1Heading: 'Signs of a Gas Line Problem in Your {neighborhood} Home',
   commonSituations: [
     'A rotten-egg or sulfur smell near appliances or the line',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Damage from nearby digging or construction',
   ],
   trustedBanner: 'Your Local & Trusted Gas Line Pros in {neighborhood}',
-  band2Image: '/services/gas-line-repair-replacement.jpg',
+  band2Image: '/services/gas-line-repair-replacement.webp',
   band2Heading: 'Our Gas Line Process in {neighborhood}',
   band2Paragraphs: [
     'We assess the home layout and appliance requirements, select the right piping and connectors, and explain the flat-rate price before any work begins.',

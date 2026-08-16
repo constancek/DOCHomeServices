@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Holiday Lighting Installation',
   ctaLine: 'Want to skip the ladder this holiday season in {neighborhood}? Call today',
-  heroImage: '/services/holiday-lighting-hero.jpg',
+  heroImage: '/services/holiday-lighting-hero.webp',
   introHeading: 'Holiday Lighting Installation in {neighborhood}',
   introParagraphs: [
     'A professional holiday lighting install lets a {neighborhood} home stand out for the season without anyone climbing a ladder in the cold or untangling cords. {brand} designs, installs, and removes custom Christmas and holiday displays for homeowners across {place} — with commercial-grade materials and safe electrical connections.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'patio-lighting', title: 'Patio Lighting' },
     { slug: 'lighting-fixture-installation', title: 'Lighting Fixtures' },
   ],
-  band1Image: '/services/holiday-lighting-benefits.jpg',
+  band1Image: '/services/holiday-lighting-benefits.webp',
   band1Heading: 'Reasons {neighborhood} Homeowners Hire a Pro for Holiday Lights',
   commonSituations: [
     'Steep rooflines or tall homes that are unsafe to climb',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A custom roofline, tree, and walkway design for the season',
   ],
   trustedBanner: 'Your Local & Trusted Holiday Lighting Pros in {neighborhood}',
-  band2Image: '/services/holiday-lighting.jpg',
+  band2Image: '/services/holiday-lighting.webp',
   band2Heading: 'Our Holiday Lighting Process in {neighborhood}',
   band2Paragraphs: [
     'We start with an on-site consultation, plan a design that fits your home and landscaping, and give you a free estimate before any work begins.',

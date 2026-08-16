@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Basement Lighting Installation',
   ctaLine: 'Want to turn a dim {neighborhood} basement into usable space? Call today',
-  heroImage: '/services/basement-hero.jpg',
+  heroImage: '/services/basement-hero.webp',
   introHeading: 'Basement Lighting Installation in {neighborhood}',
   introParagraphs: [
     'Basements get little natural light, so the right lighting is what turns a dim {neighborhood} lower level into real living space. {brand} installs recessed and LED basement lighting across {place} — even, bright coverage for finished rooms, work areas, and storage, all wired safely.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'led-lighting', title: 'LED Lighting' },
     { slug: 'lighting-fixture-installation', title: 'Lighting Fixtures' },
   ],
-  band1Image: '/services/basement-signs.jpg',
+  band1Image: '/services/basement-signs.webp',
   band1Heading: 'Signs It Is Time to Upgrade Basement Lighting in {neighborhood}',
   commonSituations: [
     'Dark corners or uneven lighting',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A newly finished lower level with no real lighting plan',
   ],
   trustedBanner: 'Your Local & Trusted Basement Lighting Pros in {neighborhood}',
-  band2Image: '/services/basement-lighting.jpg',
+  band2Image: '/services/basement-lighting.webp',
   band2Heading: 'Our Basement Lighting Process in {neighborhood}',
   band2Paragraphs: [
     'We review how the basement will be used, plan fixture placement for even brightness, and explain the flat-rate price before any work begins.',

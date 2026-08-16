@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'HVACBusiness',
   schemaServiceType: 'Furnace Maintenance',
   ctaLine: 'Ready for a furnace tune-up in {neighborhood}? Call to schedule',
-  heroImage: '/services/furnace-maintenance.jpg',
+  heroImage: '/services/furnace-maintenance.webp',
   introHeading: 'Furnace Maintenance in {neighborhood}',
   introParagraphs: [
     'A fall tune-up is the cheapest insurance against a no-heat night in January. {brand} provides furnace maintenance for homeowners in {place} — safety checks, cleaning, and filter service for gas and electric furnaces.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'heat-pumps', title: 'Heat Pumps' },
     { slug: 'indoor-air-quality', title: 'Indoor Air Quality' },
   ],
-  band1Image: '/services/furnace-repair.jpg',
+  band1Image: '/services/furnace-repair.webp',
   band1Heading: 'Signs Your {neighborhood} Furnace Needs a Tune-Up',
   commonSituations: [
     'Rising energy bills without increased usage',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'The system has not been serviced in over a year',
   ],
   trustedBanner: 'Your Local & Trusted Furnace Maintenance Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Furnace Tune-Up in {neighborhood}',
   band2Paragraphs: [
     'A technician runs a multi-point inspection, cleans the components that collect buildup, and replaces the filter. We test the thermostat, controls, and startup, and check electrical connections so the system runs efficiently and safely.',

@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'HVACBusiness',
   schemaServiceType: 'Heat Pump Repair & Installation',
   ctaLine: 'Heat pump trouble in {neighborhood}? Call for service',
-  heroImage: '/services/heat-pumps.jpg',
+  heroImage: '/services/heat-pumps.webp',
   introHeading: 'Heat Pumps in {neighborhood}',
   introParagraphs: [
     'A heat pump is one efficient system that heats your home in winter and cools it in summer. {brand} repairs, installs, and replaces heat pumps for homeowners in {place} — ductless mini-split and traditional systems alike.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'mini-splits', title: 'Ductless Mini-Splits' },
     { slug: 'indoor-air-quality', title: 'Indoor Air Quality' },
   ],
-  band1Image: '/services/ac-repair.jpg',
+  band1Image: '/services/ac-repair.webp',
   band1Heading: 'Signs Your {neighborhood} Heat Pump Needs Service',
   commonSituations: [
     'Inconsistent temperatures or rooms that will not heat or cool',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Air that is not warm or cool enough',
   ],
   trustedBanner: 'Your Local & Trusted Heat Pump Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Heat Pump Service in {neighborhood}',
   band2Paragraphs: [
     'For a repair, a licensed technician diagnoses the exact cause — refrigerant, a dirty coil, a stuck reversing valve, a thermostat, or an iced-up outdoor unit — and explains the flat-rate price before any work begins.',

@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'HVACBusiness',
   schemaServiceType: 'Mini-Split Repair',
   ctaLine: 'Mini-split not working in {neighborhood}? Call for same-day service',
-  heroImage: '/services/minisplit-repair-hero.jpg',
+  heroImage: '/services/minisplit-repair-hero.webp',
   introHeading: 'Ductless Mini-Split Repair in {neighborhood}',
   introParagraphs: [
     'When a ductless mini-split stops cooling or heating, comfort changes fast — a room goes uneven, airflow weakens, or the unit quits responding. {brand} diagnoses and repairs mini-splits for homeowners in {place}, on every major brand, with 24/7 emergency service.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'ac-repair', title: 'AC Repair' },
     { slug: 'heat-pumps', title: 'Heat Pumps' },
   ],
-  band1Image: '/services/mini-split-repair.jpg',
+  band1Image: '/services/mini-split-repair.webp',
   band1Heading: 'Signs Your {neighborhood} Mini-Split Needs Repair',
   commonSituations: [
     'Uneven cooling or heating between rooms',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A blinking error code on the indoor unit',
   ],
   trustedBanner: 'Your Local & Trusted Mini-Split Repair Pros in {neighborhood}',
-  band2Image: '/services/minisplit-repair-hero.jpg',
+  band2Image: '/services/minisplit-repair-hero.webp',
   band2Heading: 'Our Mini-Split Repair Process in {neighborhood}',
   band2Paragraphs: [
     'Every repair starts with a careful evaluation of both the indoor and outdoor units — we check airflow, electrical connections, and refrigerant levels to find the real source of the problem, then explain it and the flat-rate price before any work begins.',

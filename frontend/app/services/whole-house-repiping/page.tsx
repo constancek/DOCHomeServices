@@ -118,7 +118,7 @@ export default function WholeHouseRepipingPage() {
 
       <section className="py-16">
         <MainWithSidebar>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/repiping-hero.jpg)' }} role="img" aria-label="New copper water pipes" />
+          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/repiping-hero.webp)' }} role="img" aria-label="New copper water pipes" />
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
             Professional Whole-House Repiping
           </h2>
@@ -140,7 +140,7 @@ export default function WholeHouseRepipingPage() {
 
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/repiping-signs.jpg)' }} role="img" aria-label="Old corroded pipes" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/repiping-signs.webp)' }} role="img" aria-label="Old corroded pipes" />
           <div>
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need to Repipe Your House
@@ -183,7 +183,7 @@ export default function WholeHouseRepipingPage() {
               services throughout {site.serviceArea}.
             </p>
           </div>
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }} role="img" aria-label="Plumber reviewing a repiping plan with a homeowner" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }} role="img" aria-label="Plumber reviewing a repiping plan with a homeowner" />
         </div>
       </section>
 

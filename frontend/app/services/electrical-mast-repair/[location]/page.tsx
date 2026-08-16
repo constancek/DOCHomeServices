@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Electrical Mast Repair',
   ctaLine: 'Storm-damaged or leaning service mast in {neighborhood}? Call now',
-  heroImage: '/services/mast-hero.jpg',
+  heroImage: '/services/mast-hero.webp',
   introHeading: 'Electrical Mast Repair in {neighborhood}',
   introParagraphs: [
     'Your electrical service mast is the pipe and weatherhead that connect your home to the utility’s power lines. When it’s damaged, bent, or pulling away from the house, your whole home’s power and safety are at risk. {brand} repairs and replaces service masts, risers, and entrance cables for homeowners in {place}.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'electrical-inspections', title: 'Electrical Inspections' },
     { slug: 'surge-protector-installation', title: 'Surge Protection' },
   ],
-  band1Image: '/services/mast-signs.jpg',
+  band1Image: '/services/mast-signs.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs Mast Repair',
   commonSituations: [
     'A mast that is leaning, bent, or pulling away from the house',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A utility that has red-tagged the service entrance',
   ],
   trustedBanner: 'Your Local & Trusted Electrical Mast Pros in {neighborhood}',
-  band2Image: '/services/mast-hero.jpg',
+  band2Image: '/services/mast-hero.webp',
   band2Heading: 'What to Expect From Your Mast Service in {neighborhood}',
   band2Paragraphs: [
     'We inspect the full service entrance — mast, riser, meter base, entrance cable, and flashing — to find every issue, then explain whether a repair or full replacement is needed and lay out the price before any work begins.',

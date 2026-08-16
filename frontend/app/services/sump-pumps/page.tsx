@@ -112,7 +112,7 @@ export default function SumpPumpsPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/sump-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/sump-hero.webp)' }}
             role="img"
             aria-label="Sump pump installed in a basement"
           />
@@ -139,7 +139,7 @@ export default function SumpPumpsPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/sump-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/sump-signs.webp)' }}
             role="img"
             aria-label="Water in a basement"
           />
@@ -190,7 +190,7 @@ export default function SumpPumpsPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Plumber discussing a sump pump replacement with a homeowner"
           />

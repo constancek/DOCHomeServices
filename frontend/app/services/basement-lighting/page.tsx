@@ -141,7 +141,7 @@ export default function BasementLightingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/basement-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/basement-hero.webp)' }}
             role="img"
             aria-label="Finished basement with recessed ceiling lighting"
           />
@@ -174,7 +174,7 @@ export default function BasementLightingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/basement-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/basement-signs.webp)' }}
             role="img"
             aria-label="Modern finished basement living area"
           />
@@ -232,7 +232,7 @@ export default function BasementLightingPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician planning a basement lighting layout"
           />

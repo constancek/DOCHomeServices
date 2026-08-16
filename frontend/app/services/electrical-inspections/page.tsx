@@ -162,7 +162,7 @@ export default function ElectricalInspectionsPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/inspect-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/inspect-hero.webp)' }}
             role="img"
             aria-label="Electrician inspecting an electrical panel"
           />
@@ -214,7 +214,7 @@ export default function ElectricalInspectionsPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/electrical-inspections.jpg)' }}
+            style={{ backgroundImage: 'url(/services/electrical-inspections.webp)' }}
             role="img"
             aria-label="Electrician performing an inspection"
           />
@@ -271,7 +271,7 @@ export default function ElectricalInspectionsPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician reviewing inspection findings with a homeowner"
           />

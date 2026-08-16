@@ -54,7 +54,7 @@ export default function PageHero({
 
         {/* Bulldog mascot — scales with screen, sits beside the text */}
         <img
-          src="/bulldog.png"
+          src="/bulldog.webp"
           alt=""
           aria-hidden="true"
           className="pointer-events-none w-44 shrink-0 self-center object-contain sm:w-56 lg:w-72 lg:self-end xl:w-80"

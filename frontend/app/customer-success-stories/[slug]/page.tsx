@@ -27,7 +27,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${story.name}'s Story — ${story.serviceTag} | ${site.name}`,
       description: story.cardQuote,
-      images: [{ url: story.cardImage }],
+      images: [{ url: story.cardImage.replace(/\.webp$/, '.jpg') }],
     },
   };
 }

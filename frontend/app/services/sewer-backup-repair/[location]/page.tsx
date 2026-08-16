@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Sewer Backup Repair',
   ctaLine: 'Sewage backing up in {neighborhood}? Stop using water and call now',
-  heroImage: '/services/sewer-backup-hero.jpg',
+  heroImage: '/services/sewer-backup-hero.webp',
   introHeading: 'Sewer Backup Repair in {neighborhood}',
   introParagraphs: [
     'A sewer backup is the one plumbing failure where the first move is to stop using water entirely. Everything you send down the drain while the line is blocked comes back into the house, and the damage scales with how long that goes on. Turn it off, then call {brand}.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'emergency-water-extraction', title: 'Emergency Water Extraction' },
     { slug: 'after-flood-plumbing', title: 'After Flood Plumbing' },
   ],
-  band1Image: '/services/sewer-backup-signs.jpg',
+  band1Image: '/services/sewer-backup-signs.webp',
   band1Heading: 'Signs of a Sewer Backup in Your {neighborhood} Home',
   commonSituations: [
     'Waste or dirty water coming up through a floor drain, tub, or shower',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Repeated blockages in the same line every few months',
   ],
   trustedBanner: 'Your Local & Trusted Sewer Backup Team in {neighborhood}',
-  band2Image: '/services/sewer-backup-hero.jpg',
+  band2Image: '/services/sewer-backup-hero.webp',
   band2Heading: 'What to Expect From Sewer Backup Repair in {neighborhood}',
   band2Paragraphs: [
     'We start at the cleanout with a camera so you can see what is actually in the line — roots, grease, silt, a sagging section, or a break. Then we clear it, mechanically or with a jetter depending on what is in there, and camera it again to confirm the pipe behind the blockage is sound.',

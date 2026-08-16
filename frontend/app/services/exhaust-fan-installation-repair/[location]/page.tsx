@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Exhaust Fan Installation & Repair',
   ctaLine: 'Bathroom staying humid in {neighborhood}? Call for service',
-  heroImage: '/services/exhaust-hero.jpg',
+  heroImage: '/services/exhaust-hero.webp',
   introHeading: 'Exhaust Fan Installation & Repair in {neighborhood}',
   introParagraphs: [
     'Bathrooms and kitchens make moisture every day, and if it has no clear path out it collects on ceilings, walls, and insulation — leading to mold, peeling paint, and musty odors. {brand} installs, repairs, and replaces exhaust fans for homeowners in {place}, with stronger airflow, quieter operation, and venting that actually carries moisture outside.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'switches-outlets', title: 'Switches & Outlets' },
     { slug: 'electrical-inspections', title: 'Electrical Inspections' },
   ],
-  band1Image: '/services/exhaust-fan-installation-repair.jpg',
+  band1Image: '/services/exhaust-fan-installation-repair.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs Exhaust Fan Service',
   commonSituations: [
     'Mirrors that stay fogged long after a shower',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A fan venting into the attic instead of outdoors',
   ],
   trustedBanner: 'Your Local & Trusted Exhaust Fan Pros in {neighborhood}',
-  band2Image: '/services/exhaust-hero.jpg',
+  band2Image: '/services/exhaust-hero.webp',
   band2Heading: 'Our Exhaust Fan Process in {neighborhood}',
   band2Paragraphs: [
     'We evaluate the room size and airflow, recommend a fan with the right capacity, and check how the existing unit is vented — then explain whether repair or replacement makes sense and lay out the flat-rate price before any work begins.',

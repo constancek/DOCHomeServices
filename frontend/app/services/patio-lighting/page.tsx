@@ -132,7 +132,7 @@ export default function PatioLightingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/patio-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/patio-hero.webp)' }}
             role="img"
             aria-label="Patio with string lights in the evening"
           />
@@ -165,7 +165,7 @@ export default function PatioLightingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/patio-benefits.jpg)' }}
+            style={{ backgroundImage: 'url(/services/patio-benefits.webp)' }}
             role="img"
             aria-label="Backyard patio with warm evening lighting"
           />
@@ -225,7 +225,7 @@ export default function PatioLightingPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician planning a patio lighting layout"
           />

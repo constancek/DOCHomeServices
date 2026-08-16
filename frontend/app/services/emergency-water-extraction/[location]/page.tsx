@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Emergency Water Extraction',
   ctaLine: 'Standing water in {neighborhood}? Every hour counts',
-  heroImage: '/services/water-extraction-hero.jpg',
+  heroImage: '/services/water-extraction-hero.webp',
   introHeading: 'Emergency Water Extraction in {neighborhood}',
   introParagraphs: [
     'Extraction is the part of water damage work where speed actually changes the outcome. How much of your flooring, drywall, and framing survives in {place} is decided largely by how long the water sat on it. Everything after this step is slower and costs more.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'mold-prevention-remediation', title: 'Mold Prevention & Remediation' },
     { slug: 'basement-flood-plumbing', title: 'Basement Flood Plumbing' },
   ],
-  band1Image: '/services/water-extraction-situations.jpg',
+  band1Image: '/services/water-extraction-situations.webp',
   band1Heading: 'When {neighborhood} Homes Need Emergency Extraction',
   commonSituations: [
     'A burst supply line that ran before anyone noticed',
@@ -52,7 +52,7 @@ const config: ServiceLocationConfig = {
     'Water from a fire crew putting out a fire upstairs',
   ],
   trustedBanner: 'Your Local & Trusted Water Extraction Team in {neighborhood}',
-  band2Image: '/services/water-extraction-hero.jpg',
+  band2Image: '/services/water-extraction-hero.webp',
   band2Heading: 'How Extraction Works in {neighborhood}',
   band2Paragraphs: [
     'We shut the source down first, because pumping a room that is still filling is wasted work. Then submersible pumps move the bulk volume — the fastest-moving part of the job and the one that matters most — and extraction equipment pulls back what has soaked into carpet, pad, and subfloor.',

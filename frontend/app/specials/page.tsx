@@ -30,7 +30,7 @@ export default function SpecialsPage() {
             >
               {/* Mascot */}
               <img
-                src="/mascot.png"
+                src="/mascot.webp"
                 alt="Degree of Comfort mascot"
                 width={130}
                 height={130}

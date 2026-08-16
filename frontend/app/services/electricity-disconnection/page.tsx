@@ -145,7 +145,7 @@ export default function ElectricityDisconnectionPage() {
 
       <section className="py-16">
         <MainWithSidebar>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/panel-hero.jpg)' }} role="img" aria-label="Residential electric meter and service equipment" />
+          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/panel-hero.webp)' }} role="img" aria-label="Residential electric meter and service equipment" />
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
             Your Power Is Off. Here Is What Happens Next.
           </h2>
@@ -172,18 +172,18 @@ export default function ElectricityDisconnectionPage() {
 
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/panel-signs.jpg)' }} role="img" aria-label="Electrician inspecting a damaged electrical service" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/panel-signs.webp)' }} role="img" aria-label="Electrician inspecting a damaged electrical service" />
           <div>
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Why Your Power Was Disconnected
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Homeowners are rarely given much detail at the door. These are the reasons we actually turn up
               to:
             </p>
             <ul className="mt-4 space-y-2">
               {whyItWasDisconnected.map((s) => (
-                <li key={s.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={s.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span><span className="font-bold text-white">{s.lead}:</span> {s.text}</span>
                 </li>
@@ -202,20 +202,20 @@ export default function ElectricityDisconnectionPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               What We Handle
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Everything between the disconnection and the lights coming back on, quoted flat-rate before we
               start.
             </p>
             <ul className="mt-4 space-y-2">
               {whatWeHandle.map((w) => (
-                <li key={w} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={w} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-400" />
                   {w}
                 </li>
               ))}
             </ul>
           </div>
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/inspect-hero.jpg)' }} role="img" aria-label="Electrical inspection of residential service equipment" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/inspect-hero.webp)' }} role="img" aria-label="Electrical inspection of residential service equipment" />
         </div>
       </section>
 
@@ -331,7 +331,7 @@ export default function ElectricityDisconnectionPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -339,12 +339,12 @@ export default function ElectricityDisconnectionPage() {
 
           <h2 className="mt-12 section-title text-brand-700">Electricity Disconnection FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Get Your Power Back On</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Tell us what Duke told you and we will tell you what it takes to fix it. Diagnosis, repair,
               inspection, and reconnect across {site.serviceArea}.
             </p>

@@ -138,7 +138,7 @@ export default function LightingFixtureInstallationPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/fixture-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/fixture-hero.webp)' }}
             role="img"
             aria-label="Pendant light fixtures over a kitchen island"
           />
@@ -177,7 +177,7 @@ export default function LightingFixtureInstallationPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/fixture-types.jpg)' }}
+            style={{ backgroundImage: 'url(/services/fixture-types.webp)' }}
             role="img"
             aria-label="Dining room with a decorative light fixture"
           />
@@ -238,7 +238,7 @@ export default function LightingFixtureInstallationPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician planning a light fixture installation"
           />

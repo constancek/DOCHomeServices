@@ -140,7 +140,7 @@ export default function SewerBackupRepairPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/sewer-backup-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/sewer-backup-hero.webp)' }}
             role="img"
             aria-label="Large concrete sewer pipes lined up at a construction site"
           />
@@ -165,7 +165,7 @@ export default function SewerBackupRepairPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-[2fr_3fr] lg:py-16">
           <div
             className="aspect-[10/9] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/sewer-backup-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/sewer-backup-signs.webp)' }}
             role="img"
             aria-label="A drainage pipe discharging water into a ravine"
           />

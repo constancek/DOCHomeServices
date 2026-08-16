@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'EV Charger Installation',
   ctaLine: 'Ready to charge your EV at home in {neighborhood}? Call for a free estimate',
-  heroImage: '/services/ev-hero.jpg',
+  heroImage: '/services/ev-hero.webp',
   introHeading: 'Home EV Charger Installation in {neighborhood}',
   introParagraphs: [
     'A home EV charging station puts charging on your schedule — plug in overnight and start each day with a full battery, no detours to a public station. {brand} installs Level 2 home EV chargers for homeowners in {place}, with a proper panel evaluation and code-compliant wiring.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'home-rewiring', title: 'Home Rewiring' },
     { slug: 'electrical-inspections', title: 'Electrical Inspections' },
   ],
-  band1Image: '/services/ev-benefits.jpg',
+  band1Image: '/services/ev-benefits.webp',
   band1Heading: 'Why {neighborhood} Drivers Add a Home Charger',
   commonSituations: [
     'Tired of detouring to public charging stations',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A garage or driveway ready for a dedicated charger',
   ],
   trustedBanner: 'Your Local & Trusted EV Charger Installers in {neighborhood}',
-  band2Image: '/services/ev-hero.jpg',
+  band2Image: '/services/ev-hero.webp',
   band2Heading: 'Our EV Charger Installation Process in {neighborhood}',
   band2Paragraphs: [
     'We start with a panel assessment and a load calculation to confirm your {neighborhood} home can safely support a Level 2 charger alongside the HVAC and other big appliances — then explain the charger options and flat-rate price before any work begins.',

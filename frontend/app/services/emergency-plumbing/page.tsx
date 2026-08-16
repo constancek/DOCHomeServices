@@ -121,7 +121,7 @@ export default function EmergencyPlumbingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/emergency-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/emergency-hero.webp)' }}
             role="img"
             aria-label="Licensed plumber responding to a plumbing emergency"
           />
@@ -159,7 +159,7 @@ export default function EmergencyPlumbingPage() {
                 <Link href={`/services/${s.slug}`} className="group relative block aspect-[4/3] overflow-hidden rounded-xl">
                   <span
                     className="absolute inset-0 bg-brand-200 bg-cover bg-center transition duration-300 group-hover:scale-105"
-                    style={{ backgroundImage: `url(/services/${s.slug}.jpg)` }}
+                    style={{ backgroundImage: `url(/services/${s.slug}.webp)` }}
                   />
                   <span className="absolute inset-0 bg-gradient-to-t from-pink-600/90 via-pink-500/45 to-transparent transition group-hover:from-pink-600" />
                   <span className="absolute inset-0 grid place-items-center p-3 text-center">
@@ -179,7 +179,7 @@ export default function EmergencyPlumbingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/emergency-situations.jpg)' }}
+            style={{ backgroundImage: 'url(/services/emergency-situations.webp)' }}
             role="img"
             aria-label="Burst pipe and water damage"
           />
@@ -238,7 +238,7 @@ export default function EmergencyPlumbingPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/emergency-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/emergency-expect.webp)' }}
             role="img"
             aria-label="Plumber reviewing the repair with a homeowner"
           />

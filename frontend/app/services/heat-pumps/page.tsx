@@ -110,7 +110,7 @@ export default function HeatPumpsPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/heat-pump-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/heat-pump-hero.webp)' }}
             role="img"
             aria-label="Heat pump system at a home"
           />
@@ -154,7 +154,7 @@ export default function HeatPumpsPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/heat-pumps.jpg)' }}
+            style={{ backgroundImage: 'url(/services/heat-pumps.webp)' }}
             role="img"
             aria-label="Outdoor heat pump unit"
           />
@@ -205,7 +205,7 @@ export default function HeatPumpsPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Technician reviewing heat pump service with a homeowner"
           />

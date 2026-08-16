@@ -140,7 +140,7 @@ export default function WaterDamageRestorationPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/water-damage-restoration-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/water-damage-restoration-hero.webp)' }}
             role="img"
             aria-label="A suburban house surrounded by high floodwater after heavy rain"
           />
@@ -167,7 +167,7 @@ export default function WaterDamageRestorationPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-[2fr_3fr] lg:py-16">
           <div
             className="aspect-[10/9] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/water-damage-restoration-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/water-damage-restoration-signs.webp)' }}
             role="img"
             aria-label="Moisture beading across a damp interior wall surface"
           />

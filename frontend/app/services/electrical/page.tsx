@@ -150,7 +150,7 @@ export default function ElectricalPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/electrical-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/electrical-hero.webp)' }}
             role="img"
             aria-label="Licensed electrician working on an electrical panel"
           />
@@ -180,7 +180,7 @@ export default function ElectricalPage() {
                 <Link href={`/services/${s.slug}`} className="group relative block aspect-[4/3] overflow-hidden rounded-xl">
                   <span
                     className="absolute inset-0 bg-brand-200 bg-cover bg-center transition duration-300 group-hover:scale-105"
-                    style={{ backgroundImage: `url(${s.heroImage ?? `/services/${s.slug}.jpg`})` }}
+                    style={{ backgroundImage: `url(${s.heroImage ?? `/services/${s.slug}.webp`})` }}
                   />
                   <span className="absolute inset-0 bg-gradient-to-t from-pink-600/90 via-pink-500/45 to-transparent transition group-hover:from-pink-600" />
                   <span className="absolute inset-0 grid place-items-center p-2 text-center">
@@ -200,7 +200,7 @@ export default function ElectricalPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/home-rewiring.jpg)' }}
+            style={{ backgroundImage: 'url(/services/home-rewiring.webp)' }}
             role="img"
             aria-label="Electrical wiring work"
           />
@@ -254,7 +254,7 @@ export default function ElectricalPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/electrical-panel-replacement.jpg)' }}
+            style={{ backgroundImage: 'url(/services/electrical-panel-replacement.webp)' }}
             role="img"
             aria-label="Electrical panel"
           />
