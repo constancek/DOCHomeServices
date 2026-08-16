@@ -167,14 +167,14 @@ export default function SewerPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Most Common Types of Sewer Line Problems
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Sewer lines can develop a wide range of issues over time, many of which cause serious
               damage if not addressed quickly. Homeowners across {site.serviceArea} most often run
               into:
             </p>
             <ul className="mt-4 space-y-2">
               {problems.map((p) => (
-                <li key={p.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={p.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{p.lead}:</span> {p.text}
@@ -193,13 +193,13 @@ export default function SewerPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Sewer Line Installation in {site.serviceArea}
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Building a new home or renovating an older one? Sewer line installation is a critical
               part of the process — a properly installed system saves you from future clogs, leaks,
               and line breaks. {site.name} specializes in sewer line installation across{' '}
               {site.serviceArea}, and your new system is built to be durable and to last.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Our team uses high-quality materials and proven techniques to lay pipe that handles the
               daily demands of your home. Everything is done to code, with a focus on efficiency and
               reliability — so your plumbing keeps running smoothly, without surprises down the road.
@@ -234,7 +234,7 @@ export default function SewerPage() {
           </p>
           <ul className="mt-4 space-y-2">
             {signs.map((s) => (
-              <li key={s.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={s.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{s.lead}:</span> {s.text}
@@ -258,7 +258,7 @@ export default function SewerPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{p.title}</h3>
-                  <p className="mt-1.5 text-sm leading-relaxed text-ink/75">{p.text}</p>
+                  <p className="mt-1.5 text-[15px] leading-relaxed text-ink/75">{p.text}</p>
                 </div>
               </div>
             ))}
@@ -287,7 +287,7 @@ export default function SewerPage() {
           </p>
           <ul className="mt-4 space-y-2">
             {benefits.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}:</span> {b.text}
@@ -330,7 +330,7 @@ export default function SewerPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -342,7 +342,7 @@ export default function SewerPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -353,7 +353,7 @@ export default function SewerPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your Sewer Line Service Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               From a quick repair to a full trenchless replacement, we handle it with camera
               diagnosis and upfront pricing. Call now or request a free estimate.
             </p>

@@ -148,11 +148,11 @@ export default function WaterHeaterRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need Water Heater Repair
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Everything {site.name} does is fueled by passion. We are a family-owned company that
               specializes in plumbing, heating, cooling, and electrical.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Water heaters often show warning signs before they stop working completely. Addressing
               problems early helps prevent water damage, higher repair costs, and a sudden loss of hot
               water. Common signs you may need repair:
@@ -165,7 +165,7 @@ export default function WaterHeaterRepairPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If you notice sudden temperature changes or run out of hot water faster than normal,
               professional troubleshooting can identify the cause before the issue worsens.
             </p>
@@ -180,19 +180,19 @@ export default function WaterHeaterRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               What to Expect During Water Heater Repair
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               When you schedule water heater repair with {site.name}, you can expect straightforward
               communication and thorough service. Our technicians begin with a detailed inspection and
               diagnostics to identify the root cause of the issue.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               We check key components such as the tank, water supply connections, thermostats, heating
               elements, and safety controls. If we find sediment buildup, pressure-relief valve
               issues, or internal wear, we explain how those problems affect performance and safety.
               Before any work begins, you will understand what is causing the issue and what repair
               options are available.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Our goal is to restore reliable hot water while making sure your system operates safely
               and efficiently.
             </p>
@@ -216,7 +216,7 @@ export default function WaterHeaterRepairPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {problems.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
@@ -266,7 +266,7 @@ export default function WaterHeaterRepairPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -278,7 +278,7 @@ export default function WaterHeaterRepairPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -289,7 +289,7 @@ export default function WaterHeaterRepairPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Get Fast, Reliable Water Heater Repair Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               When your water heater stops working, you need fast, dependable service backed by
               experience and honest recommendations. Call now or request a free estimate.
             </p>

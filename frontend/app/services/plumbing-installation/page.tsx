@@ -148,14 +148,14 @@ export default function PlumbingInstallationPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs It’s Time to Replace Your Plumbing Fixtures
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Even high-quality fixtures eventually wear down. Replacing old or broken fixtures can
               stop water damage and lower your utility bills, making your home more comfortable and
               efficient. Common signs it may be time for a new installation:
             </p>
             <ul className="mt-4 space-y-2">
               {signs.map((s) => (
-                <li key={s.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={s.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{s.lead}:</span> {s.text}
@@ -163,7 +163,7 @@ export default function PlumbingInstallationPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               {site.name} can check your home, find the problem areas, and recommend the best
               solution — whether that is replacing one fixture or a complete installation — with
               transparent estimates before any work begins.
@@ -179,11 +179,11 @@ export default function PlumbingInstallationPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Emergency Plumbing Installation Services
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Plumbing emergencies can strike at any time. A broken water line, a failed water heater,
               or a sewer backup all call for quick action to help prevent damage to your home.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               {site.name} offers emergency plumbing installation 24 hours a day, seven days a week.
               Our team responds promptly, assesses the situation, and performs the installations or
               repairs that restore your home to safe, working order.
@@ -241,7 +241,7 @@ export default function PlumbingInstallationPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -253,7 +253,7 @@ export default function PlumbingInstallationPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -264,7 +264,7 @@ export default function PlumbingInstallationPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your Plumbing Installation Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               From choosing the right fixture to the final leak check, we handle every detail. Call
               now or request a free estimate — we are happy to answer your questions.
             </p>

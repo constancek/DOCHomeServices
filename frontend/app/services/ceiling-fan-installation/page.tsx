@@ -178,7 +178,7 @@ export default function CeilingFanPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need a New Ceiling Fan
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Ceiling fans are built for durability, but over time wear and electrical issues can
               affect performance and safety. You may need a ceiling fan replacement if you notice:
             </p>
@@ -190,7 +190,7 @@ export default function CeilingFanPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A new installation can improve airflow, refresh the appearance of a room, and enhance
               overall comfort.
             </p>
@@ -205,13 +205,13 @@ export default function CeilingFanPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Ceiling Fan Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Ceiling fan installation requires more than mounting a fixture — the electrical box must
               support movement and weight, and wiring must be connected properly. Our process includes:
             </p>
             <ul className="mt-4 space-y-2">
               {process.map((p) => (
-                <li key={p.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={p.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{p.lead}:</span> {p.text}
@@ -219,7 +219,7 @@ export default function CeilingFanPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Whether you need a new installation or a ceiling fan replacement, we focus on safety and
               long-term performance.
             </p>
@@ -244,7 +244,7 @@ export default function CeilingFanPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {diyBenefits.map((d) => (
-              <li key={d} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={d} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {d}
               </li>
@@ -270,7 +270,7 @@ export default function CeilingFanPage() {
           </p>
           <ul className="mt-4 space-y-2.5">
             {choosing.map((c) => (
-              <li key={c.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={c.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{c.lead}:</span> {c.text}
@@ -286,7 +286,7 @@ export default function CeilingFanPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {winter.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -304,7 +304,7 @@ export default function CeilingFanPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {w}
               </li>
@@ -318,7 +318,7 @@ export default function CeilingFanPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -330,7 +330,7 @@ export default function CeilingFanPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -339,7 +339,7 @@ export default function CeilingFanPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule a Ceiling Fan Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to upgrade your space or replace an outdated unit? Enjoy improved airflow and
               comfort. Call now or request a free estimate.
             </p>

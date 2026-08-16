@@ -150,7 +150,7 @@ export default function DrainsPage() {
           <h2 className="mt-10 section-title text-brand-700">The Benefits of Professional Drain Service</h2>
           <ul className="mt-4 space-y-2.5">
             {benefits.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}</span> — {b.text}
@@ -195,13 +195,13 @@ export default function DrainsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need Drain Replacement
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Recognizing the early warning signs of drain failure can help you prevent water damage
               and costly repairs. Some of the most common indicators include:
             </p>
             <ul className="mt-4 space-y-2">
               {signs.map((s) => (
-                <li key={s.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={s.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{s.lead}</span> — {s.text}
@@ -209,7 +209,7 @@ export default function DrainsPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If you notice any of these signs, it is worth having a professional inspect your
               plumbing as soon as possible. Our team uses advanced diagnostic tools — including drain
               cameras and leak detection equipment — to pinpoint exactly where the damage is and
@@ -228,7 +228,7 @@ export default function DrainsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Drain Installation
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A drain installation is not a DIY task — especially if you want peak performance from
               your plumbing, with no leaks or breakdowns, for years to come. Trust our professional
               plumbers to do the job right the first time; the money you spend is well worth the
@@ -246,7 +246,7 @@ export default function DrainsPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Need help with a hook-up for your new washing machine? We have that covered, too.
             </p>
           </div>
@@ -316,7 +316,7 @@ export default function DrainsPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -355,7 +355,7 @@ export default function DrainsPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -364,7 +364,7 @@ export default function DrainsPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Clear That Drain for Good</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Same-day service, upfront pricing, and a camera inspection to find the real cause. Call
               now or request a free estimate.
             </p>

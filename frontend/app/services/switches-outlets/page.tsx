@@ -170,13 +170,13 @@ export default function SwitchesOutletsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Common Problems With Outlets & Switches
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Outlets and switches don’t get much attention until they stop working. Here are the issues
               homeowners run into most — and how we help:
             </p>
             <ul className="mt-4 space-y-2">
               {problems.map((p) => (
-                <li key={p.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={p.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span><span className="font-bold text-white">{p.lead}:</span> {p.text}</span>
                 </li>
@@ -195,12 +195,12 @@ export default function SwitchesOutletsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Reliable Outlet & Switch Installation
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Your home’s electrical system needs to be safe and dependable. Our outlet installation is
               designed to enhance convenience and safety, with every detail handled so your outlets meet
               modern electrical codes and your family’s needs.
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               Switches may seem simple, but they play a big role in how your home functions. Whether you’re
               upgrading old switches or installing new ones, our team focuses on precision and care —
               connecting each switch to the correct circuit for dependable, everyday operation.
@@ -246,7 +246,7 @@ export default function SwitchesOutletsPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -260,7 +260,7 @@ export default function SwitchesOutletsPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -268,12 +268,12 @@ export default function SwitchesOutletsPage() {
 
           <h2 className="mt-12 section-title text-brand-700">Switch & Outlet FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Switch & Outlet Service Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Need outlets added or switches repaired? {site.name} serves {site.serviceArea}. Call now or
               request a free estimate.
             </p>

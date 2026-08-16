@@ -188,27 +188,6 @@ export default function LocationServicePage({
             </div>
           ))}
 
-          {/* Related services — image cards */}
-          {config.relatedCards.length > 0 && (
-            <>
-              <h2 className="mt-10 section-title text-brand-700">Related Services</h2>
-              <ul className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
-                {config.relatedCards.map((s) => (
-                  <li key={s.slug}>
-                    <Link href={`/services/${s.slug}`} className="group relative block aspect-[4/3] overflow-hidden rounded-xl">
-                      <span className="absolute inset-0 bg-brand-200 bg-cover bg-center transition duration-300 group-hover:scale-105" style={{ backgroundImage: `url(/services/${s.slug}.webp)` }} />
-                      <span className="absolute inset-0 bg-gradient-to-t from-pink-600/90 via-pink-500/45 to-transparent transition group-hover:from-pink-600" />
-                      <span className="absolute inset-0 grid place-items-center p-3 text-center">
-                        <span className="font-display text-[13px] font-extrabold uppercase leading-tight tracking-wide text-white [text-shadow:0_2px_6px_rgba(0,0,0,0.85)] sm:text-sm">
-                          {s.title}
-                        </span>
-                      </span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </>
-          )}
         </MainWithSidebar>
       </section>
 
@@ -218,7 +197,7 @@ export default function LocationServicePage({
           <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: `url(${config.band1Image})` }} role="img" aria-label={`${config.serviceName} in ${loc.neighborhood}`} />
           <div>
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">{fill(config.band1Heading)}</h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">{copy.commonIntro}</p>
+            <p className="mt-4 text-base leading-relaxed text-white/90">{copy.commonIntro}</p>
             <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
               {config.commonSituations.map((c) => (
                 <li key={c} className="flex gap-2 text-sm font-medium">
@@ -249,7 +228,7 @@ export default function LocationServicePage({
           <div className="lg:order-1">
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">{fill(config.band2Heading)}</h2>
             {config.band2Paragraphs.map((p, i) => (
-              <p key={i} className="mt-4 text-sm leading-relaxed text-white/90">{fill(p)}</p>
+              <p key={i} className="mt-4 text-base leading-relaxed text-white/90">{fill(p)}</p>
             ))}
           </div>
           <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: `url(${config.band2Image})` }} role="img" aria-label={`${config.serviceName} service in ${loc.neighborhood}`} />
@@ -278,7 +257,7 @@ export default function LocationServicePage({
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -307,10 +286,34 @@ export default function LocationServicePage({
           <h2 className="mt-12 section-title text-brand-700">{config.serviceName} FAQs — {loc.neighborhood}</h2>
           <div className="mt-4">
             <Accordion
-              items={faqs.map((f) => ({ title: f.q, body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p> }))}
+              items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))}
               defaultOpen={0}
             />
           </div>
+
+          {/* Related services — image cards. Sits below the FAQ so the page
+              answers the visitor's question before offering them somewhere else
+              to go. */}
+          {config.relatedCards.length > 0 && (
+            <>
+              <h2 className="mt-12 section-title text-brand-700">Related Services</h2>
+              <ul className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
+                {config.relatedCards.map((s) => (
+                  <li key={s.slug}>
+                    <Link href={`/services/${s.slug}`} className="group relative block aspect-[4/3] overflow-hidden rounded-xl">
+                      <span className="absolute inset-0 bg-brand-200 bg-cover bg-center transition duration-300 group-hover:scale-105" style={{ backgroundImage: `url(/services/${s.slug}.webp)` }} />
+                      <span className="absolute inset-0 bg-gradient-to-t from-pink-600/90 via-pink-500/45 to-transparent transition group-hover:from-pink-600" />
+                      <span className="absolute inset-0 grid place-items-center p-3 text-center">
+                        <span className="font-display text-[13px] font-extrabold uppercase leading-tight tracking-wide text-white [text-shadow:0_2px_6px_rgba(0,0,0,0.85)] sm:text-sm">
+                          {s.title}
+                        </span>
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
 
           {/* Internal-links module */}
           <div className="mt-12 grid gap-8 sm:grid-cols-2">
@@ -345,7 +348,7 @@ export default function LocationServicePage({
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Need {config.serviceName} in {loc.neighborhood}?</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Call now for fast, licensed service in {place}, or request a free estimate.
             </p>
             <a href={site.primaryPhone.href} className="btn-pink mt-6 text-base">

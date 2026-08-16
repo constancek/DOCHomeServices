@@ -173,7 +173,7 @@ export default function SewerBackupRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs of a Sewer Backup
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A single slow drain is usually a local clog. A sewer problem shows up in more than one
               place at once, because everything in the house shares that one line out:
             </p>
@@ -185,7 +185,7 @@ export default function SewerBackupRepairPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               The gurgling toilet is the early warning most people ignore. It means air is being
               pushed back up the line, which happens before the blockage finishes closing.
             </p>
@@ -201,7 +201,7 @@ export default function SewerBackupRepairPage() {
           </p>
           <ul className="mt-4 space-y-2">
             {causes.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}:</span> {b.text}
@@ -239,7 +239,7 @@ export default function SewerBackupRepairPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -271,7 +271,7 @@ export default function SewerBackupRepairPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -281,7 +281,7 @@ export default function SewerBackupRepairPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Get the Line Cleared Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Stop running water, then call. We camera the line, show you what is in it, and price
               the repair before we start — including telling you when the problem is the city&rsquo;s
               and not yours.

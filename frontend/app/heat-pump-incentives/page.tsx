@@ -138,7 +138,7 @@ export default function HeatPumpPage() {
                   <Icon name={b.icon} className="h-6 w-6" />
                 </span>
                 <h3 className="mt-4 font-display text-base font-extrabold text-brand-700">{b.title}</h3>
-                <p className="mt-1.5 text-sm text-ink/70">{b.text}</p>
+                <p className="mt-1.5 text-[15px] leading-relaxed text-ink/70">{b.text}</p>
               </div>
             ))}
           </div>
@@ -148,7 +148,7 @@ export default function HeatPumpPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Find Out What You Qualify For
             </h2>
-            <p className="mx-auto mt-3 max-w-2xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-2xl text-[15px] leading-relaxed text-brand-100">
               Rebate and credit amounts depend on your income, equipment, and current programs. We
               will help you find every incentive you qualify for — and we always recommend confirming
               tax credits with a tax professional.

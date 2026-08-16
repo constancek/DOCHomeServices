@@ -302,7 +302,7 @@ function BookCard({ title }: { title: string }) {
   return (
     <div className="card bg-blue-section text-white">
       <h2 className="text-xl font-bold text-white">Book {title.toLowerCase()}</h2>
-      <p className="mt-2 text-sm text-brand-100">
+      <p className="mt-2 text-[15px] leading-relaxed text-brand-100">
         {site.hours} Serving {site.serviceArea}.
       </p>
       <a href={site.primaryPhone.href} className="btn-pink mt-5 w-full">

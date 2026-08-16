@@ -173,7 +173,7 @@ export default function ACInstallationPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs It May Be Time to Replace Your Air Conditioner
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Some air conditioning systems show changes as they age. These changes are often
               noticeable during normal use and can affect comfort inside the home. Common signs an AC
               system may be nearing the end of its lifespan include:
@@ -186,7 +186,7 @@ export default function ACInstallationPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               These signs reflect how the system operates during everyday use.
             </p>
           </div>
@@ -200,17 +200,17 @@ export default function ACInstallationPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               What to Expect During AC Installation
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Knowing what to expect makes the process feel more straightforward. During AC
               installation or replacement, technicians begin by reviewing your home and existing
               cooling system to understand layout, airflow, and cooling needs.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Based on that evaluation, the team recommends the proper system size and configuration.
               If the project involves replacement, technicians remove the old equipment safely before
               installing the new unit, with secure connections and careful setup.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Once installation is complete, the system is tested to confirm airflow, cooling
               performance, and safe operation — so it is ready to deliver reliable comfort from day
               one.
@@ -237,7 +237,7 @@ export default function ACInstallationPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {services.map((s) => (
-              <li key={s} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={s} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {s}
               </li>
@@ -255,7 +255,7 @@ export default function ACInstallationPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {b}
               </li>
@@ -275,7 +275,7 @@ export default function ACInstallationPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {choosing.map((c) => (
-              <li key={c} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={c} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {c}
               </li>
@@ -301,7 +301,7 @@ export default function ACInstallationPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {costFactors.map((c) => (
-              <li key={c} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={c} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {c}
               </li>
@@ -338,7 +338,7 @@ export default function ACInstallationPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -350,7 +350,7 @@ export default function ACInstallationPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -361,7 +361,7 @@ export default function ACInstallationPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your AC Installation Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               If your current system no longer meets your cooling needs, we are ready to help — with a
               free estimate, proper sizing, and financing options. Call now or request your estimate.
             </p>

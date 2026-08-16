@@ -208,7 +208,7 @@ export default function ElectricalPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Common Electrical Problems We Resolve
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Electrical issues often start small, but over time they can signal larger problems in
               your home’s system. We commonly resolve:
             </p>
@@ -220,7 +220,7 @@ export default function ElectricalPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Addressing these early helps prevent costly repairs later.
             </p>
           </div>
@@ -234,7 +234,7 @@ export default function ElectricalPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               24/7 Emergency Electrical Support
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Electrical problems can become dangerous quickly. If you notice flickering lights,
               repeated breaker trips, burning smells, or sudden power loss, it is important to act
               fast. We provide emergency electrical service for urgent concerns such as:
@@ -247,7 +247,7 @@ export default function ElectricalPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Ignoring these warning signs can lead to larger issues. If you suspect a serious
               electrical problem, contact us immediately — your safety is our priority.
             </p>
@@ -286,7 +286,7 @@ export default function ElectricalPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {lighting.map((l) => (
-              <li key={l} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={l} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {l}
               </li>
@@ -305,7 +305,7 @@ export default function ElectricalPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {panelSigns.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
@@ -325,7 +325,7 @@ export default function ElectricalPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {wiring.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {w}
               </li>
@@ -344,7 +344,7 @@ export default function ElectricalPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {inspections.map((i) => (
-              <li key={i} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={i} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {i}
               </li>
@@ -364,7 +364,7 @@ export default function ElectricalPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -378,7 +378,7 @@ export default function ElectricalPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -390,7 +390,7 @@ export default function ElectricalPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -399,7 +399,7 @@ export default function ElectricalPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Electrical Service Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Repairs, panel upgrades, lighting, surge protection, inspections, fans, EV chargers, or
               rewiring — our licensed electricians are ready to help. Call now or request a free
               estimate.

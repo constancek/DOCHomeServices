@@ -17,7 +17,7 @@ export default function ClubForm() {
           <Icon name="check" className="h-7 w-7" />
         </span>
         <h2 className="mt-5 font-display text-2xl font-extrabold text-brand-700">Welcome aboard!</h2>
-        <p className="mx-auto mt-2 max-w-sm text-sm text-ink/70">
+        <p className="mx-auto mt-2 max-w-sm text-[15px] leading-relaxed text-ink/70">
           Thanks for joining the Comfort Club. A team member will reach out shortly to finish setting
           up your membership.
         </p>

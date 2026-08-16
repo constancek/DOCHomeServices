@@ -164,7 +164,7 @@ export default function SurgeProtectorPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need Whole-House Surge Protection
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many electrical surges are small and frequent, not just dramatic lightning strikes. Over
               time, repeated surges can weaken or destroy sensitive electronics and major systems. You
               may benefit from whole-home surge protection if you notice:
@@ -177,7 +177,7 @@ export default function SurgeProtectorPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If your home depends on modern electronics and connected systems, comprehensive
               protection at the electrical panel is one of the most effective ways to prevent damage.
             </p>
@@ -192,13 +192,13 @@ export default function SurgeProtectorPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Surge Protector Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A whole-house surge protector connects directly to your electrical panel — it is not a
               plug-in solution, and it must be installed correctly to protect your entire system:
             </p>
             <ul className="mt-4 space-y-2">
               {process.map((p) => (
-                <li key={p.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={p.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{p.lead}:</span> {p.text}
@@ -206,7 +206,7 @@ export default function SurgeProtectorPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Professional surge protection provides centralized defense against electrical surges
               before they spread through your home.
             </p>
@@ -230,7 +230,7 @@ export default function SurgeProtectorPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {b}
               </li>
@@ -272,7 +272,7 @@ export default function SurgeProtectorPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {w}
               </li>
@@ -286,7 +286,7 @@ export default function SurgeProtectorPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -298,7 +298,7 @@ export default function SurgeProtectorPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -309,7 +309,7 @@ export default function SurgeProtectorPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Whole-Home Surge Protection Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Protect your home from electrical surges and excess voltage before they cause costly
               damage. Call now or request a free estimate.
             </p>

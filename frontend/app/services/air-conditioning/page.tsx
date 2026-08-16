@@ -179,7 +179,7 @@ export default function AirConditioningPage() {
           </ul>
           <ul className="mt-5 space-y-2">
             {serviceLines.map((s) => (
-              <li key={s.label} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={s.label} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <Link href={s.href} className="hover:text-pink-600">
                   {s.label}
@@ -203,7 +203,7 @@ export default function AirConditioningPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Do You Have One of These Common AC Problems?
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many homeowners notice small changes before a major AC issue develops. Catching the
               early signs can help prevent bigger repairs. Common concerns include:
             </p>
@@ -215,7 +215,7 @@ export default function AirConditioningPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If you notice these issues, call {site.name} to restore comfort and prevent further
               damage.
             </p>
@@ -230,12 +230,12 @@ export default function AirConditioningPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               24/7 Emergency AC Support Is Available
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Air conditioning problems do not wait for business hours. A loss of cooling during
               extreme heat can affect comfort and safety — especially for families, pets, and older
               adults.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               {site.name} offers 24/7 emergency AC service to restore cooling as quickly as possible.
               Our technicians respond to urgent issues with a focus on safe operation and dependable
               results, helping prevent further damage and reduce stress during high-heat situations.
@@ -264,7 +264,7 @@ export default function AirConditioningPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {tuneup.map((t) => (
-              <li key={t} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={t} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {t}
               </li>
@@ -299,7 +299,7 @@ export default function AirConditioningPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {installPoints.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
@@ -322,7 +322,7 @@ export default function AirConditioningPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {miniUses.map((m) => (
-              <li key={m} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={m} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {m}
               </li>
@@ -342,7 +342,7 @@ export default function AirConditioningPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {expectations.map((e) => (
-              <li key={e} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={e} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {e}
               </li>
@@ -356,7 +356,7 @@ export default function AirConditioningPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -368,7 +368,7 @@ export default function AirConditioningPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -377,7 +377,7 @@ export default function AirConditioningPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your AC Service Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Repair, maintenance, or help planning an upgrade — we support comfort, efficiency, and
               reliable performance all cooling season. Call now or request a free estimate.
             </p>

@@ -192,7 +192,7 @@ export default function ACRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs Your AC Needs a Repair
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many air conditioning problems start small and become worse over time. Paying attention
               to early signs can help prevent larger repairs later. Common signs your AC may need
               repair include:
@@ -205,7 +205,7 @@ export default function ACRepairPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If these issues are ignored, they place stress on the cooling system. Prompt AC repair
               helps restore normal operation and comfort.
             </p>
@@ -220,13 +220,13 @@ export default function ACRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our AC Repair Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               {site.name} follows a clear process for every AC repair. First, a technician inspects the
               AC unit and related HVAC components — the air filter, electrical system, and refrigerant
               level. Once the issue is identified, we explain what is causing the problem and discuss
               repair options.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               After approval, the repair is completed using proper tools and parts. The system is then
               tested to confirm safe operation and to ensure steady, cool air throughout the home.
             </p>
@@ -250,7 +250,7 @@ export default function ACRepairPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {problems.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
@@ -283,7 +283,7 @@ export default function ACRepairPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {effIssues.map((e) => (
-              <li key={e} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={e} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {e}
               </li>
@@ -292,7 +292,7 @@ export default function ACRepairPage() {
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">By fixing these issues, AC repair can help:</p>
           <ul className="mt-3 grid gap-2 sm:grid-cols-2">
             {effHelps.map((e) => (
-              <li key={e} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={e} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {e}
               </li>
@@ -318,7 +318,7 @@ export default function ACRepairPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -330,7 +330,7 @@ export default function ACRepairPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -339,7 +339,7 @@ export default function ACRepairPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your AC Repair Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               If your air conditioner is not cooling properly or has stopped working, professional
               repair can help. Call now or request a free estimate.
             </p>

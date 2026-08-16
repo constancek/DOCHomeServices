@@ -173,7 +173,7 @@ export default function PatioLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Benefits of Custom Patio Lighting
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Adding patio lighting improves both safety and usability around your home.
             </p>
             <ul className="mt-4 grid gap-1.5">
@@ -184,7 +184,7 @@ export default function PatioLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many homeowners pair patio lighting with{' '}
               <Link href="/services/landscape-lighting" className="font-semibold text-white underline hover:text-white/80">
                 landscape lighting
@@ -206,7 +206,7 @@ export default function PatioLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Patio Lighting Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Every patio light installation begins with a review of your outdoor space. We discuss how
               you use the area and recommend lighting that fits your layout. Our process includes:
             </p>
@@ -218,7 +218,7 @@ export default function PatioLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Our electricians ensure the system is installed safely and meets electrical code
               requirements.
             </p>
@@ -248,7 +248,7 @@ export default function PatioLightingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {options.map((o) => (
-              <li key={o} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={o} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {o}
               </li>
@@ -266,7 +266,7 @@ export default function PatioLightingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -280,7 +280,7 @@ export default function PatioLightingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -295,7 +295,7 @@ export default function PatioLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -304,7 +304,7 @@ export default function PatioLightingPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Patio Lighting Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to light up your patio? {site.name} designs and installs patio lighting across{' '}
               {site.serviceArea}. Call now or request a free estimate.
             </p>

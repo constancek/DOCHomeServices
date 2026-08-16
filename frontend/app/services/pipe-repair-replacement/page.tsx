@@ -131,12 +131,12 @@ export default function PipeRepairReplacementPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               The Dangers of Ignoring Leaky Pipes
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Here are some common problems caused by neglected pipe leaks:
             </p>
             <ul className="mt-4 space-y-2">
               {dangers.map((d) => (
-                <li key={d.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={d.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span><span className="font-bold text-white">{d.lead}:</span> {d.text}</span>
                 </li>
@@ -155,13 +155,13 @@ export default function PipeRepairReplacementPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Drain Pipe Repair
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A clogged or damaged drain pipe interrupts day-to-day life faster than a broken furnace in
               winter. Our drain pipe repair tackles issues ranging from tree root infiltration to old
               cast-iron corrosion. We inspect with camera technology to verify the problem, then patch,
               replace, or reseal as needed.
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               We use solutions that hold up under pressure, help prevent future clogs, and keep sewage
               moving where it belongs. You get hassle-free service, less worry, and a drain system that
               works without interruption.
@@ -215,7 +215,7 @@ export default function PipeRepairReplacementPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -229,7 +229,7 @@ export default function PipeRepairReplacementPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -237,12 +237,12 @@ export default function PipeRepairReplacementPage() {
 
           <h2 className="mt-12 section-title text-brand-700">Pipe Repair & Replacement FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Pipe Repair or Replacement Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Clogs, leaks, or signs a pipe is giving out don’t get better on their own — the sooner we
               take a look, the easier it is to fix. {site.name} serves {site.serviceArea}. Call now or
               request a free estimate.

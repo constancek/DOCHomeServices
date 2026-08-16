@@ -72,7 +72,7 @@ export default function AboutPage() {
                 </span>
                 <div>
                   <h4 className="font-display text-base font-extrabold text-brand-700">{v.title}</h4>
-                  <p className="text-sm text-ink/70">{v.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{v.text}</p>
                 </div>
               </div>
             ))}
@@ -96,7 +96,7 @@ export default function AboutPage() {
             <h2 className="font-display text-4xl font-black uppercase text-pink-500 sm:text-5xl">
               Why We Wear Orange.
             </h2>
-            <p className="mt-5 text-sm leading-relaxed text-white/90 sm:text-base">
+            <p className="mt-5 text-base leading-relaxed text-white/90 sm:text-base">
               Our team wears orange to stand out and be memorable. It is part of a business model
               driven by building strong relationships with our customers through efficient,
               exceptional service. To us, orange stands for energy, warmth, and a genuine desire to

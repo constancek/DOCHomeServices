@@ -202,7 +202,7 @@ export default function ExhaustFanPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need Installation vs. Repair
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Homeowners often notice warning signs before they know which service they need. Paying
               attention to these symptoms can help you act before moisture causes damage.
             </p>
@@ -215,7 +215,7 @@ export default function ExhaustFanPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               These usually indicate mechanical wear or minor electrical issues — in many cases,
               professional repair can restore normal performance.
             </p>
@@ -228,7 +228,7 @@ export default function ExhaustFanPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               These often mean the fan is undersized or no longer removing moisture effectively. A new
               installation may be needed to improve airflow and protect surrounding materials.
             </p>
@@ -243,13 +243,13 @@ export default function ExhaustFanPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Exhaust Fan Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               When you schedule exhaust fan installation, we focus on proper sizing, safe wiring, and
               lasting results:
             </p>
             <ul className="mt-4 space-y-2">
               {process.map((p) => (
-                <li key={p.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={p.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{p.lead}:</span> {p.text}
@@ -257,7 +257,7 @@ export default function ExhaustFanPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Professional installation helps protect drywall, ceilings, insulation, and nearby
               finishes from moisture damage.
             </p>
@@ -282,7 +282,7 @@ export default function ExhaustFanPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {b}
               </li>
@@ -319,7 +319,7 @@ export default function ExhaustFanPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {w}
               </li>
@@ -333,7 +333,7 @@ export default function ExhaustFanPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -345,7 +345,7 @@ export default function ExhaustFanPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -356,7 +356,7 @@ export default function ExhaustFanPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your Exhaust Fan Service Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               If your bathroom stays humid long after showers or your ventilation is underperforming,
               it may be time for service. Call now or request a free estimate.
             </p>

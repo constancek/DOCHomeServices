@@ -185,7 +185,7 @@ export default function LightingFixtureInstallationPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Types of Light Fixtures We Install
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Different rooms require different types of lighting. Some fixtures provide general room
               lighting, while others focus light on specific areas. Our electricians install a variety of
               lighting fixtures designed to improve both function and appearance. Common installations
@@ -199,7 +199,7 @@ export default function LightingFixtureInstallationPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many homeowners combine multiple fixture types in the same room — a kitchen may include
               overhead lighting along with pendant fixtures above the island. This layered approach
               improves visibility and adds visual interest.
@@ -218,7 +218,7 @@ export default function LightingFixtureInstallationPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Light Fixture Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Installing a lighting fixture involves more than attaching it to the ceiling. Proper wiring
               and secure mounting are essential for safe operation. Our electricians follow a simple
               process to ensure every installation is completed correctly. Our process includes:
@@ -231,7 +231,7 @@ export default function LightingFixtureInstallationPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Careful installation helps ensure your new lighting works reliably and distributes light
               evenly throughout the room.
             </p>
@@ -265,7 +265,7 @@ export default function LightingFixtureInstallationPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {ledBenefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {b}
               </li>
@@ -299,7 +299,7 @@ export default function LightingFixtureInstallationPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {designSpaces.map((d) => (
-              <li key={d} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={d} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {d}
               </li>
@@ -317,7 +317,7 @@ export default function LightingFixtureInstallationPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -331,7 +331,7 @@ export default function LightingFixtureInstallationPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -347,7 +347,7 @@ export default function LightingFixtureInstallationPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -356,7 +356,7 @@ export default function LightingFixtureInstallationPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Light Fixture Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to install or replace a fixture? {site.name} installs light fixtures across{' '}
               {site.serviceArea}. Call now or request a free estimate.
             </p>

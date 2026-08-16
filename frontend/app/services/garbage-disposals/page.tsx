@@ -131,14 +131,14 @@ export default function GarbageDisposalsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs of a Failing Garbage Disposal
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A garbage disposal that’s past its prime won’t stay quiet about it for long. Small issues can
               pop up slowly, but they always turn into bigger kitchen headaches fast. Spotting the warning
               signs early means fewer clogs, less mess, and a faster fix:
             </p>
             <ul className="mt-4 space-y-2">
               {signs.map((s) => (
-                <li key={s.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={s.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span><span className="font-bold text-white">{s.lead}:</span> {s.text}</span>
                 </li>
@@ -157,12 +157,12 @@ export default function GarbageDisposalsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Garbage Disposal Installation
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Nobody wants to fight their kitchen sink after a long day. We know how much smoother daily
               routines go with a new, reliable garbage disposal. We’re known for honest work and attention
               to detail — and it shows in every install we do.
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               Garbage disposal installation is one of the many plumbing installation services we provide,
               and we treat it with just as much care as the bigger projects we take on. We’ll help you
               choose the right model for your sink, make sure it connects cleanly with your dishwasher or
@@ -213,7 +213,7 @@ export default function GarbageDisposalsPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -227,7 +227,7 @@ export default function GarbageDisposalsPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -235,12 +235,12 @@ export default function GarbageDisposalsPage() {
 
           <h2 className="mt-12 section-title text-brand-700">Garbage Disposal FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Garbage Disposal Service Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to upgrade your kitchen or fix a stubborn unit? {site.name} serves {site.serviceArea}.
               Call now or request a free estimate.
             </p>

@@ -175,7 +175,7 @@ export default function AfterFloodPlumbingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               What We Check After a Flood
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Flood damage to plumbing is mostly invisible from where you are standing. These are the
               components that fail after a flood, in roughly the order they cause trouble:
             </p>
@@ -187,7 +187,7 @@ export default function AfterFloodPlumbingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               We camera the main where there is any sign of a blockage, because guessing at a sewer
               line after a flood is how people end up snaking the same pipe three times.
             </p>
@@ -205,7 +205,7 @@ export default function AfterFloodPlumbingPage() {
           </p>
           <ul className="mt-4 space-y-2">
             {risks.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}:</span> {b.text}
@@ -244,7 +244,7 @@ export default function AfterFloodPlumbingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -278,7 +278,7 @@ export default function AfterFloodPlumbingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -289,7 +289,7 @@ export default function AfterFloodPlumbingPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Book Your Post-Flood Plumbing Check
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Before the laundry, the dishwasher, and the showers all start again, have someone go
               through the system. It is a short visit that catches the failures a flood plants and
               leaves for later.

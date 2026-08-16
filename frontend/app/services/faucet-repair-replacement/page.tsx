@@ -154,7 +154,7 @@ export default function FaucetPage() {
           <h2 className="mt-10 section-title text-brand-700">Why Fix or Replace a Failing Faucet</h2>
           <ul className="mt-4 space-y-2.5">
             {benefits.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}</span> — {b.text}
@@ -178,7 +178,7 @@ export default function FaucetPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need Faucet Replacement
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Sometimes a repair is all it takes — but these signs usually mean a faucet is past its
               prime and a replacement will save you money in the long run:
             </p>
@@ -201,13 +201,13 @@ export default function FaucetPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               What to Expect During Your Faucet Installation
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A professional faucet installation makes sure your new fixture works properly and stays
               leak-free. During the appointment, the existing faucet is carefully removed and the
               plumbing connections are inspected to confirm everything is in good condition before the
               new faucet goes in.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Once the new fixture is in place, all connections are securely tightened and tested for
               leaks. Water flow and operation are checked to confirm proper performance, and the work
               area is cleaned before the service is complete — protecting your plumbing system and
@@ -233,7 +233,7 @@ export default function FaucetPage() {
           </p>
           <ul className="mt-4 space-y-2.5">
             {faucetCategories.map((c) => (
-              <li key={c.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={c.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{c.lead}:</span> {c.text}
@@ -249,7 +249,7 @@ export default function FaucetPage() {
           </p>
           <ul className="mt-4 space-y-2">
             {diyTips.map((t) => (
-              <li key={t} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={t} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {t}
               </li>
@@ -296,7 +296,7 @@ export default function FaucetPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -308,7 +308,7 @@ export default function FaucetPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -319,7 +319,7 @@ export default function FaucetPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your Faucet Repair or Install
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Same-day service, upfront pricing, and clean, leak-free work. Call now or request a free
               estimate.
             </p>

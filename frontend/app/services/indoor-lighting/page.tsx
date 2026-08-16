@@ -180,7 +180,7 @@ export default function IndoorLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need New Indoor Lights
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Lighting problems often appear as homes age or rooms change function. Poor lighting can
               make everyday tasks more difficult and can also affect the comfort of a room. You may
               benefit from professional indoor light installation if you notice:
@@ -193,7 +193,7 @@ export default function IndoorLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Upgrading lighting improves visibility and helps your home feel more comfortable and
               functional.
             </p>
@@ -211,7 +211,7 @@ export default function IndoorLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Indoor Lighting Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Every indoor lighting installation begins with understanding how you use each room. Our
               electricians review your current lighting, discuss your goals, and recommend lighting
               options that match your space. Our installation process includes:
@@ -224,7 +224,7 @@ export default function IndoorLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Professional installation ensures your lighting works reliably and connects safely to your
               home’s electrical system.
             </p>
@@ -321,7 +321,7 @@ export default function IndoorLightingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -335,7 +335,7 @@ export default function IndoorLightingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -351,7 +351,7 @@ export default function IndoorLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -360,7 +360,7 @@ export default function IndoorLightingPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Indoor Lighting Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready for brighter, more functional interiors? {site.name} installs indoor lighting across{' '}
               {site.serviceArea}. Call now or request a free estimate.
             </p>

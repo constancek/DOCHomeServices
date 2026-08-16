@@ -186,7 +186,7 @@ export default function HotTubWiringPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need Expert Hot Tub Wiring
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Professional installation is strongly recommended in the following situations:
             </p>
             <ul className="mt-4 grid gap-1.5">
@@ -197,7 +197,7 @@ export default function HotTubWiringPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Electrical mistakes can damage pumps, heaters, and control boards. More importantly,
               improper installation increases safety risks.
             </p>
@@ -212,7 +212,7 @@ export default function HotTubWiringPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Hot Tub Electrical Wiring Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               We follow a clear, step-by-step process to ensure safe and reliable hot tub wiring.
             </p>
             <ul className="mt-4 grid gap-1.5">
@@ -223,7 +223,7 @@ export default function HotTubWiringPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               We also install the required disconnect within sight of the spa, as outlined by the
               National Electrical Code. Jacuzzi electrical wiring includes weather-rated fittings that
               protect the system from moisture and outdoor exposure year-round.
@@ -254,7 +254,7 @@ export default function HotTubWiringPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {proEnsures.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
@@ -272,7 +272,7 @@ export default function HotTubWiringPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {safety.map((s) => (
-              <li key={s} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={s} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {s}
               </li>
@@ -290,7 +290,7 @@ export default function HotTubWiringPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -304,7 +304,7 @@ export default function HotTubWiringPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -319,7 +319,7 @@ export default function HotTubWiringPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -328,7 +328,7 @@ export default function HotTubWiringPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Hot Tub Wiring Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Adding a spa? {site.name} provides professional hot tub wiring across {site.serviceArea}.
               Call now or request a free estimate.
             </p>

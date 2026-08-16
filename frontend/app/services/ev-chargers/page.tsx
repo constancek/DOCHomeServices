@@ -184,14 +184,14 @@ export default function EvChargersPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Benefits of a Home EV Charging Station
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Installing a home EV charging station offers convenience, efficiency, and long-term value.
               Instead of relying on public charging stations, you gain control over your schedule and
               energy costs. A professionally installed home EV charger provides:
             </p>
             <ul className="mt-4 space-y-2">
               {benefits.map((b) => (
-                <li key={b.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={b.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{b.lead}:</span> {b.text}
@@ -199,7 +199,7 @@ export default function EvChargersPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               <span className="font-bold text-white">Future-Ready Home Value:</span> as electric
               vehicles gain popularity, a home charging station is becoming a desirable feature for
               future buyers.
@@ -215,13 +215,13 @@ export default function EvChargersPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our EV Charger Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Installing an EV charger requires proper planning and electrical evaluation. Our process
               includes:
             </p>
             <ul className="mt-4 space-y-2">
               {process.map((p) => (
-                <li key={p.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={p.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{p.lead}:</span> {p.text}
@@ -252,7 +252,7 @@ export default function EvChargersPage() {
               <h3 className="font-display text-lg font-extrabold text-brand-700">Level 1 Chargers</h3>
               <ul className="mt-3 space-y-2">
                 {level1.map((l) => (
-                  <li key={l} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+                  <li key={l} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                     <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                     {l}
                   </li>
@@ -266,7 +266,7 @@ export default function EvChargersPage() {
               <h3 className="font-display text-lg font-extrabold text-brand-700">Level 2 Chargers</h3>
               <ul className="mt-3 space-y-2">
                 {level2.map((l) => (
-                  <li key={l} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+                  <li key={l} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                     <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                     {l}
                   </li>
@@ -302,7 +302,7 @@ export default function EvChargersPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {upgradeReasons.map((u) => (
-              <li key={u} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={u} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {u}
               </li>
@@ -322,7 +322,7 @@ export default function EvChargersPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {panelSigns.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
@@ -342,7 +342,7 @@ export default function EvChargersPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -356,7 +356,7 @@ export default function EvChargersPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -371,7 +371,7 @@ export default function EvChargersPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -380,7 +380,7 @@ export default function EvChargersPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule EV Charger Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to install an EV charger at home? {site.name} provides professional EV charger
               installation across {site.serviceArea}. Call now or request a free estimate.
             </p>

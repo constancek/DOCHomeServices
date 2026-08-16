@@ -211,7 +211,7 @@ export default function HomeRewiringPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need Electrical Rewiring
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many older homes still rely on original wiring. Over time, materials wear out. Circuits
               become overloaded. Electrical problems become more common. You may need rewiring services
               if you notice:
@@ -224,7 +224,7 @@ export default function HomeRewiringPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Aluminum wire expands more than copper. That movement can create loose connections and
               heat buildup. If your home is more than 30 years old, a system review is a smart next step.
             </p>
@@ -239,12 +239,12 @@ export default function HomeRewiringPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Electrical Rewiring Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Rewiring requires planning and careful work. Our process includes:
             </p>
             <ul className="mt-4 space-y-2">
               {process.map((p) => (
-                <li key={p.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={p.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{p.lead}:</span> {p.text}
@@ -252,7 +252,7 @@ export default function HomeRewiringPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Our focus is simple. Improve safety. Improve reliability.
             </p>
           </div>
@@ -275,7 +275,7 @@ export default function HomeRewiringPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {proRisks.map((r) => (
-              <li key={r} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={r} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {r}
               </li>
@@ -293,7 +293,7 @@ export default function HomeRewiringPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {projectTypes.map((t) => (
-              <li key={t} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={t} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {t}
               </li>
@@ -311,7 +311,7 @@ export default function HomeRewiringPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {safetyPoints.map((s) => (
-              <li key={s} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={s} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {s}
               </li>
@@ -330,7 +330,7 @@ export default function HomeRewiringPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {olderHomes.map((o) => (
-              <li key={o} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={o} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {o}
               </li>
@@ -348,7 +348,7 @@ export default function HomeRewiringPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -362,7 +362,7 @@ export default function HomeRewiringPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -377,7 +377,7 @@ export default function HomeRewiringPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -386,7 +386,7 @@ export default function HomeRewiringPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Electrical Rewiring Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               If you suspect faulty wiring, do not wait. {site.name} provides professional electrical
               rewiring across {site.serviceArea}. Call now or request a free estimate.
             </p>

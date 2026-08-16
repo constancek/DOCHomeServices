@@ -145,14 +145,14 @@ export default function WholeHouseRepipingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need to Repipe Your House
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Your home’s plumbing works hard every day, and over time, wear and tear can lead to issues
               that signal it’s time for a repipe. Recognizing these signs early can save you from more
               significant problems down the line:
             </p>
             <ul className="mt-4 space-y-2">
               {signs.map((s) => (
-                <li key={s.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={s.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span><span className="font-bold text-white">{s.lead}:</span> {s.text}</span>
                 </li>
@@ -171,12 +171,12 @@ export default function WholeHouseRepipingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Schedule Your Repiping Installation Today
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Plumbing work can feel disruptive — but it doesn’t have to be. Our team treats every home
               like it’s our own. We arrive on time, communicate clearly, and always clean up before we
               leave.
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               A repiping installation is a big job, but our crew knows how to do it right while keeping
               things manageable. If you’ve been dealing with low water pressure, discolored water, or
               constant pipe leaks, it might be time to take that step. We offer professional repiping
@@ -195,7 +195,7 @@ export default function WholeHouseRepipingPage() {
           </p>
           <ul className="mt-4 space-y-2">
             {process.map((p) => (
-              <li key={p.lead} className="flex gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p.lead} className="flex gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <span><span className="font-bold text-brand-700">{p.lead}:</span> {p.text}</span>
               </li>
@@ -209,7 +209,7 @@ export default function WholeHouseRepipingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyRepipe.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {w}
               </li>
@@ -234,7 +234,7 @@ export default function WholeHouseRepipingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -248,7 +248,7 @@ export default function WholeHouseRepipingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -256,12 +256,12 @@ export default function WholeHouseRepipingPage() {
 
           <h2 className="mt-12 section-title text-brand-700">Whole-House Repiping FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Whole-House Repiping Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to put leaks and rusty water behind you? {site.name} repipes homes across{' '}
               {site.serviceArea}. Call now or request a free estimate.
             </p>

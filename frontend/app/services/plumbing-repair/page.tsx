@@ -158,7 +158,7 @@ export default function PlumbingRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need a Plumbing Repair
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Plumbing problems often start small but can quickly lead to bigger issues if left
               unaddressed. Recognizing the warning signs early can help prevent water damage, higher
               utility bills, and costly repairs:
@@ -171,7 +171,7 @@ export default function PlumbingRepairPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If you notice any of these signs, professional plumbing repair with {site.name} can help
               restore proper function and protect your home.
             </p>
@@ -186,7 +186,7 @@ export default function PlumbingRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Residential Plumbing Repair Services
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Your home’s plumbing system is one of its most important — and most used — components.
               When a pipe bursts or a fixture fails, you need dependable help right away. Our
               residential plumbing repair covers everything inside your home’s plumbing network,
@@ -200,7 +200,7 @@ export default function PlumbingRepairPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Unlike many plumbers, we do not rush through the job. We take time to explain what went
               wrong, what needs repair, and how to prevent future issues — transparency that is one of
               the reasons homeowners across {site.serviceArea} keep choosing us. Every home is
@@ -248,7 +248,7 @@ export default function PlumbingRepairPage() {
           </p>
           <ul className="mt-4 space-y-2">
             {otherServices.map((o) => (
-              <li key={o.label} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={o.label} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {o.href ? (
                   <Link href={o.href} className="hover:text-pink-600">
@@ -288,7 +288,7 @@ export default function PlumbingRepairPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -300,7 +300,7 @@ export default function PlumbingRepairPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -311,7 +311,7 @@ export default function PlumbingRepairPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your Plumbing Repair Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Fast scheduling, clear communication, and repairs built to last. Call now or request a
               free estimate.
             </p>

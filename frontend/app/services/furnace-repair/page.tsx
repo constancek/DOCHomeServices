@@ -146,7 +146,7 @@ export default function FurnaceRepairPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {problems.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
@@ -172,7 +172,7 @@ export default function FurnaceRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need a Furnace Repair
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Furnace problems often appear gradually, but ignoring the warning signs can lead to
               system failure or safety concerns. Recognizing these issues early helps prevent more
               expensive repairs and unexpected breakdowns:
@@ -185,7 +185,7 @@ export default function FurnaceRepairPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If you notice any of these signs, professional furnace repair with {site.name} can help
               restore reliable and safe heating.
             </p>
@@ -200,12 +200,12 @@ export default function FurnaceRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               What to Expect During a Furnace Repair
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A furnace repair begins with a thorough inspection to identify the cause of the problem.
               The technician evaluates system components, tests performance, and pinpoints any faulty
               parts or safety concerns.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Once the issue is identified, the recommended repair is explained before work begins.
               After the repair, the furnace is tested to confirm it is operating properly and safely,
               and the technician reviews next steps or maintenance recommendations to help prevent
@@ -289,7 +289,7 @@ export default function FurnaceRepairPage() {
           </p>
           <ul className="mt-4 space-y-2">
             {otherServices.map((o) => (
-              <li key={o.label} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={o.label} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <Link href={o.href} className="hover:text-pink-600">
                   {o.label}
@@ -319,7 +319,7 @@ export default function FurnaceRepairPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -331,7 +331,7 @@ export default function FurnaceRepairPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -340,7 +340,7 @@ export default function FurnaceRepairPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Furnace Repair Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Fast response, honest recommendations, and repairs that fix the root cause. Call now or
               request a free estimate.
             </p>

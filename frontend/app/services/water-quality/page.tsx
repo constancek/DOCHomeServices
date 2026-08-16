@@ -127,7 +127,7 @@ export default function WaterQualityPage() {
           </p>
           <ul className="mt-4 space-y-2.5">
             {benefits.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}:</span> {b.text}
@@ -151,7 +151,7 @@ export default function WaterQualityPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Have Poor Water Quality
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Poor water quality can affect your health, your plumbing, and the performance of your
               appliances. Some issues are easy to notice; others need closer attention. Common signs:
             </p>
@@ -163,7 +163,7 @@ export default function WaterQualityPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If you notice any of these, water testing and treatment options can help improve your
               water quality and protect your home.
             </p>
@@ -178,19 +178,19 @@ export default function WaterQualityPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Water Filtration System Installation
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Installing a whole-house water filtration system is one of the smartest upgrades a
               homeowner can make, and we have helped many families take the leap. These systems do not
               just filter water at the kitchen tap — they treat every drop flowing into your home:
               showers, sinks, washing machines, you name it. We handle whole-house filtration
               installation with precision, using trusted brands and proven methods.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               We also install water softeners to tackle hard minerals like calcium and magnesium. Soft
               water preserves your pipes, improves soap lather, and keeps skin feeling better — a
               properly installed filtration or softening system brings clarity to every faucet.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Discover how {site.name} improves home water quality through expert water treatment
               designed for lasting results.
             </p>
@@ -251,7 +251,7 @@ export default function WaterQualityPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -263,7 +263,7 @@ export default function WaterQualityPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -274,7 +274,7 @@ export default function WaterQualityPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your Water Quality Service Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Cleaner water from every tap makes drinking safer, showers nicer, and appliances
               longer-lasting. Ready for a home water filtration system? Call now or request a free
               estimate.

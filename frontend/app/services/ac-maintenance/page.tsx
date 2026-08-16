@@ -163,7 +163,7 @@ export default function ACMaintenancePage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need an AC Tune-Up
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many air conditioning systems show early warning signs before performance drops. Paying
               attention to these changes can help prevent bigger issues later. Common signs your AC may
               need a tune-up include:
@@ -176,7 +176,7 @@ export default function ACMaintenancePage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Scheduling routine maintenance when these signs appear can help restore normal operation
               and improve comfort.
             </p>
@@ -191,7 +191,7 @@ export default function ACMaintenancePage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               What to Expect During Your AC Tune-Up
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               An AC tune-up focuses on system performance, cleanliness, and safe operation. During the
               visit, an HVAC technician inspects and tests key parts of the cooling system. In a
               typical tune-up, the technician will:
@@ -204,7 +204,7 @@ export default function ACMaintenancePage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Once the tune-up is complete, the technician confirms the system is running properly and
               ready for the cooling season.
             </p>
@@ -229,7 +229,7 @@ export default function ACMaintenancePage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {protects.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
@@ -258,7 +258,7 @@ export default function ACMaintenancePage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {longTerm.map((l) => (
-              <li key={l} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={l} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {l}
               </li>
@@ -294,7 +294,7 @@ export default function ACMaintenancePage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -306,7 +306,7 @@ export default function ACMaintenancePage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -315,7 +315,7 @@ export default function ACMaintenancePage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your AC Tune-Up Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Routine maintenance protects your cooling system and supports dependable comfort all
               summer. Call now or request a free estimate.
             </p>

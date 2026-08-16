@@ -183,7 +183,7 @@ export default function RecessedLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need Recessed Lighting in Your Home
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many homes still rely on older ceiling lights that do not distribute light well. Recessed
               lighting improves brightness and creates more balanced lighting. You may want recessed
               lighting installation if you notice:
@@ -196,7 +196,7 @@ export default function RecessedLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Recessed lighting works well in kitchens, bathrooms, basements, and many other rooms in the
               home.
             </p>
@@ -214,7 +214,7 @@ export default function RecessedLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Recessed Lighting Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Installing recessed lighting requires planning and careful electrical work. Proper spacing
               helps distribute light evenly across the room. Our installation process includes:
             </p>
@@ -226,7 +226,7 @@ export default function RecessedLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Professional installation helps ensure each light fixture is secure and properly placed.
             </p>
           </div>
@@ -264,7 +264,7 @@ export default function RecessedLightingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {proEnsures.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
@@ -283,7 +283,7 @@ export default function RecessedLightingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {b}
               </li>
@@ -301,7 +301,7 @@ export default function RecessedLightingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -315,7 +315,7 @@ export default function RecessedLightingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -330,7 +330,7 @@ export default function RecessedLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -339,7 +339,7 @@ export default function RecessedLightingPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Recessed Lighting Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready for cleaner, brighter ceilings? {site.name} installs recessed lighting across{' '}
               {site.serviceArea}. Call now or request a free estimate.
             </p>

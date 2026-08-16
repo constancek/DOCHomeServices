@@ -147,7 +147,7 @@ export default function SumpPumpsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs Your Home Needs a Sump Pump
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A sump pump plays a critical role in protecting your home from water damage, especially
               in areas prone to heavy rain or high groundwater. If your home does not already have
               one, these warning signs may mean it is time to install:
@@ -160,7 +160,7 @@ export default function SumpPumpsPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Installing a sump pump can help manage excess water, protect your foundation, and reduce
               the risk of costly water damage.
             </p>
@@ -175,13 +175,13 @@ export default function SumpPumpsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Sump Pump Replacement
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Over time, even the best sump pumps wear out. When yours starts making strange noises,
               runs constantly, or just is not keeping up with rising water levels, it might be time for
               a replacement. Our team will help you sort through the signs and figure out the next
               step.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               We install high-quality sump pumps that hold up through storms, rising groundwater, and
               day-to-day operation. We will guide you through your options and install a system that
               works with your home’s layout, pipe system, and drainage setup — so you do not have to
@@ -221,7 +221,7 @@ export default function SumpPumpsPage() {
           </p>
           <ul className="mt-4 space-y-2">
             {benefits.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}:</span> {b.text}
@@ -253,7 +253,7 @@ export default function SumpPumpsPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -265,7 +265,7 @@ export default function SumpPumpsPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -276,7 +276,7 @@ export default function SumpPumpsPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your Sump Pump Service Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Keeping your basement dry is not optional — it is as important as heat in the winter. A
               well-installed sump pump protects your space, your belongings, and your peace of mind.
               Whether your unit needs a fix or it is time for a new one, we will help you get there

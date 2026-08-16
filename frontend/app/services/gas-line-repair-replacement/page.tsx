@@ -148,20 +148,20 @@ export default function GasLinePage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs of a Problem With Your Gas Line
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               When gas lines are working right, they quietly power things like stoves, water heaters, and
               furnaces. But if something goes wrong, the signs can show up in ways that aren’t always
               obvious at first. Here are a few red flags that it’s time for a gas pipe repair:
             </p>
             <ul className="mt-4 space-y-2">
               {signs.map((s) => (
-                <li key={s.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={s.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span><span className="font-bold text-white">{s.lead}:</span> {s.text}</span>
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If you notice any of these, get to safety first, then call for a professional inspection.
             </p>
             <p className="mt-3 text-sm font-bold uppercase tracking-wide text-white">
@@ -177,16 +177,16 @@ export default function GasLinePage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Schedule Your Gas Line Repair or Replacement Today
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Gas line emergencies require immediate attention. Our emergency gas line repair and
               replacement services are available to address urgent issues promptly. We understand the
               risks associated with gas leaks and act swiftly to protect your household.
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               Our team is equipped to handle emergency situations, providing fast and effective solutions.
               Don’t hesitate to contact us when you need urgent assistance with your gas lines.
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               Need help? Call us today — we’re standing by to assist you across {site.serviceArea}.
             </p>
           </div>
@@ -202,7 +202,7 @@ export default function GasLinePage() {
           </p>
           <ul className="mt-4 space-y-2">
             {process.map((p) => (
-              <li key={p.lead} className="flex gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p.lead} className="flex gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <span><span className="font-bold text-brand-700">{p.lead}:</span> {p.text}</span>
               </li>
@@ -223,7 +223,7 @@ export default function GasLinePage() {
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">Leaks usually trace back to one of these causes:</p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {causes.map((c) => (
-              <li key={c} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={c} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {c}
               </li>
@@ -237,7 +237,7 @@ export default function GasLinePage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -251,7 +251,7 @@ export default function GasLinePage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -259,12 +259,12 @@ export default function GasLinePage() {
 
           <h2 className="mt-12 section-title text-brand-700">Gas Line FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Gas Line Service Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Need a gas line repaired or installed? {site.name} serves {site.serviceArea}. Call now or
               request a free estimate.
             </p>

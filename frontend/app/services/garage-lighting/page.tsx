@@ -179,7 +179,7 @@ export default function GarageLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Are in Need of New Garage Lighting
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many homes still use older garage lights that do not provide enough brightness. When
               lighting is weak or uneven, everyday tasks in the garage become more difficult. You may
               want to upgrade your garage lighting if you notice:
@@ -192,7 +192,7 @@ export default function GarageLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Upgrading your lighting helps create a brighter and more usable garage.
             </p>
             <p className="mt-3 text-sm font-bold uppercase tracking-wide text-white">
@@ -209,7 +209,7 @@ export default function GarageLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Garage Lighting Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Every garage lighting installation starts with reviewing how the garage is used. Some
               homeowners mainly park vehicles there. Others use the space for storage, projects, or
               equipment. Our installation process includes:
@@ -222,7 +222,7 @@ export default function GarageLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Proper fixture placement helps eliminate shadows and ensures the lighting reaches the
               entire space.
             </p>
@@ -277,7 +277,7 @@ export default function GarageLightingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {fixtures.map((f) => (
-              <li key={f} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={f} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {f}
               </li>
@@ -308,7 +308,7 @@ export default function GarageLightingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -322,7 +322,7 @@ export default function GarageLightingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -338,7 +338,7 @@ export default function GarageLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -347,7 +347,7 @@ export default function GarageLightingPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Garage Light Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready for a brighter garage? {site.name} installs garage lighting across {site.serviceArea}.
               Call now or request a free estimate.
             </p>

@@ -161,13 +161,13 @@ export default function IndoorAirQualityPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               How Better Air Quality Benefits Your Home
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Indoor air pollution can cause everything from allergy symptoms to higher energy bills.
               Investing in IAQ services improves your home in several ways:
             </p>
             <ul className="mt-4 space-y-2">
               {benefits.map((b) => (
-                <li key={b.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={b.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{b.lead}:</span> {b.text}
@@ -186,7 +186,7 @@ export default function IndoorAirQualityPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Whole-Home Air Filtration
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               More pollutants infiltrate our homes than most of us realize. A high-quality whole-home
               air purifier keeps your family safer and your home healthier:
             </p>
@@ -263,7 +263,7 @@ export default function IndoorAirQualityPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -275,7 +275,7 @@ export default function IndoorAirQualityPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -286,7 +286,7 @@ export default function IndoorAirQualityPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your Air Quality Testing Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Your indoor air will not fix itself. Our IAQ specialists test your air and recommend the
               best solution — and you can start enjoying a new purifier, humidifier, or dehumidifier
               right away. Call now or request a free estimate.

@@ -168,7 +168,7 @@ export default function WaterHeaterInstallationPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need to Replace Your Water Heater
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Most water heaters show warning signs before they fail completely. Recognizing them
               early can help you avoid an emergency replacement and potential water damage. Common
               signs you may need a replacement:
@@ -181,7 +181,7 @@ export default function WaterHeaterInstallationPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If your tank water heater no longer meets your household needs, replacing it before a
               full failure can save you a lot of trouble.
             </p>
@@ -196,7 +196,7 @@ export default function WaterHeaterInstallationPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Water Heater Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Professional installation plays a key role in performance and lifespan. Our team follows
               a proven process to make sure every system is installed correctly. Our process includes:
             </p>
@@ -208,7 +208,7 @@ export default function WaterHeaterInstallationPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               This careful approach helps ensure reliable hot water and long-term performance.
             </p>
           </div>
@@ -232,7 +232,7 @@ export default function WaterHeaterInstallationPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {b}
               </li>
@@ -326,7 +326,7 @@ export default function WaterHeaterInstallationPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -338,7 +338,7 @@ export default function WaterHeaterInstallationPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -349,7 +349,7 @@ export default function WaterHeaterInstallationPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your Water Heater Installation Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Dependable installation and replacement backed by experience, clear communication, and
               financing options. Call now or request a free estimate.
             </p>

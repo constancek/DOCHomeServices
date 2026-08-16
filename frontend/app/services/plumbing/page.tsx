@@ -214,7 +214,7 @@ export default function PlumbingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -226,7 +226,7 @@ export default function PlumbingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -237,7 +237,7 @@ export default function PlumbingPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Book a Plumber in {site.serviceArea}
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Same-day service, upfront pricing, and licensed plumbers who put homeowners first. Call
               now or request a free estimate.
             </p>

@@ -5,7 +5,10 @@ import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
+import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import { site } from '@/content/site';
+import { locations } from '@/content/locations';
+import { stormElectricityOutageCopy } from '@/content/location-copy/storm-electricity-outage';
 
 export const metadata: Metadata = {
   title: 'Storm Electricity Outage Repair',
@@ -163,6 +166,18 @@ export default function StormElectricityOutagePage() {
             That is the work we do. {site.name} repairs storm-damaged service equipment across{' '}
             {site.serviceArea}, pulls the permit, meets the inspector, and coordinates the reconnect with
             Duke so you are not making the calls yourself with no power to charge your phone.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">After the Storm, Call Before You Clear the Yard</h2>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            The morning after a bad storm, every electrician and every inspector in the region is booked by
+            lunchtime, and it runs on a first-come basis. The people who called at seven get their power back
+            days before the people who called at noon.
+          </p>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            So if you wake up to damage at the meter or the mast, call it in before you start dragging
+            branches. The repair itself is usually a single day. The wait to begin it is what turns into a
+            week.
           </p>
         </MainWithSidebar>
       </section>
@@ -342,6 +357,24 @@ export default function StormElectricityOutagePage() {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Storm outage repair by neighborhood — links DOWN to location pages */}
+      <section className="pb-16">
+        <div className="container-page max-w-4xl">
+          <h2 className="section-title text-brand-700">Storm outage repair by neighborhood</h2>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            Storm damage is local. Tree cover, terrain, and how old the service entrances are decide
+            which streets stay dark once Duke has restored the line —{' '}
+            {locations.filter((l) => stormElectricityOutageCopy[l.slug]).length} neighborhoods below,
+            each with the detail that matters where you live.
+          </p>
+          <NeighborhoodLinks
+            copy={stormElectricityOutageCopy}
+            basePath="/services/storm-electricity-outage"
+            linkPrefix="Storm outage repair"
+          />
         </div>
       </section>
 

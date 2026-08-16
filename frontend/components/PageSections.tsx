@@ -94,7 +94,7 @@ export function OurDifferenceBanner() {
           <h2 className="font-display text-4xl font-black uppercase leading-[1.05] text-pink-500 sm:text-5xl">
             Our Difference.
           </h2>
-          <p className="mt-5 text-sm leading-relaxed text-white/90 sm:text-base">
+          <p className="mt-5 text-base leading-relaxed text-white/90 sm:text-base">
             We believe one of life&rsquo;s greatest gifts is being part of a thriving community —
             surrounded by family and friends who share the same goals and dreams. We are fortunate to
             live and work across {site.serviceArea} and the surrounding Tri-State, communities that
@@ -236,7 +236,7 @@ export function WorkStandsOut() {
             <h3 className="font-display text-lg font-extrabold text-brand-700">
               See What Our Happy Customers Say
             </h3>
-            <p className="mt-2 text-sm leading-relaxed text-ink/75">
+            <p className="mt-2 text-[15px] leading-relaxed text-ink/75">
               &ldquo;Our AC died during the first heat wave and they had it running again by early
               afternoon. Quoted the price first, no surprises on the bill. Friendly, fast, and
               clean.&rdquo;

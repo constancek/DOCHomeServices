@@ -148,7 +148,7 @@ export default function WaterHeaterMaintenancePage() {
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">Routine maintenance helps:</p>
           <ul className="mt-3 grid gap-2 sm:grid-cols-2">
             {helps.map((h) => (
-              <li key={h} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={h} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {h}
               </li>
@@ -174,7 +174,7 @@ export default function WaterHeaterMaintenancePage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs Your Water Heater Needs a Tune-Up
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Common signs your water heater may need a tune-up:
             </p>
             <ul className="mt-4 space-y-1.5">
@@ -185,7 +185,7 @@ export default function WaterHeaterMaintenancePage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Scheduling a tune-up can improve efficiency, extend the life of your water heater, and
               prevent unexpected breakdowns.
             </p>
@@ -200,7 +200,7 @@ export default function WaterHeaterMaintenancePage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Comprehensive Water Heater Inspections
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Every tune-up includes a full inspection. Our technicians check the parts that most
               often cause problems. During an inspection, we look at:
             </p>
@@ -212,7 +212,7 @@ export default function WaterHeaterMaintenancePage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               These checks help catch issues early and reduce the chance of future repairs.
             </p>
           </div>
@@ -241,7 +241,7 @@ export default function WaterHeaterMaintenancePage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{p.title}</h3>
-                  <p className="mt-1.5 text-sm leading-relaxed text-ink/75">{p.text}</p>
+                  <p className="mt-1.5 text-[15px] leading-relaxed text-ink/75">{p.text}</p>
                 </div>
               </div>
             ))}
@@ -265,7 +265,7 @@ export default function WaterHeaterMaintenancePage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -277,7 +277,7 @@ export default function WaterHeaterMaintenancePage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -288,7 +288,7 @@ export default function WaterHeaterMaintenancePage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your Water Heater Maintenance Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Maintenance is one of the easiest ways to protect your hot water system and prevent
               unexpected repairs. Call now or request a free estimate.
             </p>

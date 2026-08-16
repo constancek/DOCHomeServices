@@ -210,7 +210,7 @@ export default function MiniSplitsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need a Ductless Mini-Split
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Changes in comfort often signal that a ductless mini-split system needs attention.
               Addressing issues early can help prevent discomfort and system strain. Common signs
               include:
@@ -223,7 +223,7 @@ export default function MiniSplitsPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If your system is no longer delivering consistent comfort, professional service can help
               identify the cause.
             </p>
@@ -238,21 +238,21 @@ export default function MiniSplitsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               How a Ductless Mini-Split System Works
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A ductless mini-split heats and cools a home without ductwork. Instead of pushing air
               through vents, it delivers conditioned air directly into individual rooms or zones.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Each system includes an outdoor unit and one or more indoor units. The outdoor unit
               houses the compressor, while the indoor units mount inside the home and distribute heated
               or cooled air.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Refrigerant lines and electrical connections link the indoor and outdoor units through a
               small wall opening, letting the system transfer heat efficiently while minimizing energy
               loss.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Because each indoor unit operates independently, you can control temperatures in
               specific areas — a zoned design that improves comfort and reduces energy waste.
             </p>
@@ -276,7 +276,7 @@ export default function MiniSplitsPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {b}
               </li>
@@ -295,7 +295,7 @@ export default function MiniSplitsPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {goodFit.map((g) => (
-              <li key={g} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={g} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {g}
               </li>
@@ -322,7 +322,7 @@ export default function MiniSplitsPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -334,7 +334,7 @@ export default function MiniSplitsPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -343,7 +343,7 @@ export default function MiniSplitsPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule a Mini-Split Service Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Considering a new ductless system or need service for an existing one? We are ready to
               help. Call now or request a free estimate.
             </p>

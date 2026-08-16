@@ -162,7 +162,7 @@ export default function HeatPumpsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need a Heat Pump Repair
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Heat pumps work year-round to provide both heating and cooling, so even small issues can
               affect comfort and efficiency. Recognizing the warning signs early helps prevent larger
               system problems and unexpected breakdowns:
@@ -175,7 +175,7 @@ export default function HeatPumpsPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If you notice any of these issues, professional heat pump repair can help restore
               performance and protect your system.
             </p>
@@ -190,13 +190,13 @@ export default function HeatPumpsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               What to Expect During Your Heat Pump Service
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Heat pump service focuses on keeping your system running efficiently in both heating and
               cooling modes. During the appointment, a technician inspects key components, checks
               refrigerant levels, tests airflow, and makes sure the system is operating safely and
               correctly.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Any issues found are explained along with recommended adjustments or repairs. After
               service is complete, the system is tested to confirm proper performance, and routine
               maintenance tips may be provided to help improve efficiency and extend the life of your
@@ -223,7 +223,7 @@ export default function HeatPumpsPage() {
           </p>
           <ul className="mt-4 space-y-2.5">
             {repairReplace.map((r) => (
-              <li key={r.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={r.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{r.lead}:</span> {r.text}
@@ -264,7 +264,7 @@ export default function HeatPumpsPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -276,7 +276,7 @@ export default function HeatPumpsPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -285,7 +285,7 @@ export default function HeatPumpsPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule a Heat Pump Service Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Repair, maintenance, or a high-efficiency upgrade — one call keeps your home comfortable
               all year. Call now or request a free estimate.
             </p>

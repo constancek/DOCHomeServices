@@ -170,7 +170,7 @@ export default function BasementFloodPlumbingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Where Basement Water Comes From
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               These are the sources we find, roughly in the order they show up on our calls:
             </p>
             <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
@@ -181,7 +181,7 @@ export default function BasementFloodPlumbingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               The last one is not a plumbing failure at all. If that is what you have, the fix is
               outside the house, and we would rather tell you than take the job.
             </p>
@@ -197,7 +197,7 @@ export default function BasementFloodPlumbingPage() {
           </p>
           <ul className="mt-4 space-y-2">
             {work.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}:</span> {b.text}
@@ -235,7 +235,7 @@ export default function BasementFloodPlumbingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -267,7 +267,7 @@ export default function BasementFloodPlumbingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -277,7 +277,7 @@ export default function BasementFloodPlumbingPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Find Out What Let the Water In
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Power off, then call. We trace the source, repair what failed, and tell you honestly
               whether the fix is inside the house or outside it.
             </p>

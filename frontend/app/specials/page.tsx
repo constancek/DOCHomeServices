@@ -46,7 +46,7 @@ export default function SpecialsPage() {
                 <h2 className="mt-1 font-display text-lg font-extrabold uppercase text-brand-700">
                   {c.title}
                 </h2>
-                <p className="mt-1 text-sm text-ink/70">{c.details}</p>
+                <p className="mt-1 text-[15px] leading-relaxed text-ink/70">{c.details}</p>
                 <a href={site.primaryPhone.href} className="btn-pink mt-4">
                   Click to Schedule
                   <Icon name="arrow" className="h-4 w-4" />

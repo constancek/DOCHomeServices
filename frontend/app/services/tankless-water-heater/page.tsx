@@ -116,7 +116,7 @@ function BulletList({ items }: { items: string[] }) {
   return (
     <ul className="mt-3 grid gap-2 sm:grid-cols-2">
       {items.map((i) => (
-        <li key={i} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+        <li key={i} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
           <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
           {i}
         </li>
@@ -199,7 +199,7 @@ export default function TanklessPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need a New Tankless Water Heater
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Common signs it may be time for a new tankless water heater:
             </p>
             <ul className="mt-4 space-y-1.5">
@@ -210,7 +210,7 @@ export default function TanklessPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If several of these are happening at once, replacement is often more cost-effective than
               continued repairs.
             </p>
@@ -225,7 +225,7 @@ export default function TanklessPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Comprehensive Tankless Water Heater Services
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Tankless water heaters require specialized installation and care. {site.name} provides
               full-service support to keep your system operating safely and efficiently. Our services
               include:
@@ -238,7 +238,7 @@ export default function TanklessPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Each service focuses on performance, safety, and long-term reliability.
             </p>
           </div>
@@ -347,7 +347,7 @@ export default function TanklessPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -359,7 +359,7 @@ export default function TanklessPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -370,7 +370,7 @@ export default function TanklessPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Tankless Water Heater Service Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Installation, repair, or maintenance — we provide clear guidance, dependable service,
               and financing options. Call now or request a free estimate.
             </p>

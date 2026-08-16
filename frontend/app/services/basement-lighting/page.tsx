@@ -182,7 +182,7 @@ export default function BasementLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs It’s Time to Upgrade Your Basement Lighting
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many basements rely on outdated fixtures or minimal overhead lighting. As basements become
               more functional living areas, better lighting is often needed. You may want to upgrade your
               basement lighting if you notice:
@@ -195,7 +195,7 @@ export default function BasementLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Upgrading your lighting improves visibility and makes the basement easier to use.
             </p>
             <p className="mt-3 text-sm font-bold uppercase tracking-wide text-white">
@@ -212,7 +212,7 @@ export default function BasementLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               The Basement Lighting Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Every basement lighting project begins with reviewing how the space will be used. Some
               basements function as entertainment rooms, while others are used for storage, home offices,
               or hobby areas. Our installation process includes:
@@ -225,7 +225,7 @@ export default function BasementLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Professional installation ensures lighting fixtures are spaced correctly and connected
               safely to your home’s electrical system.
             </p>
@@ -282,7 +282,7 @@ export default function BasementLightingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {layouts.map((l) => (
-              <li key={l} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={l} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {l}
               </li>
@@ -301,7 +301,7 @@ export default function BasementLightingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {proBenefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {b}
               </li>
@@ -320,7 +320,7 @@ export default function BasementLightingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -334,7 +334,7 @@ export default function BasementLightingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -350,7 +350,7 @@ export default function BasementLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -359,7 +359,7 @@ export default function BasementLightingPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Basement Light Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to brighten your basement? {site.name} installs basement lighting across{' '}
               {site.serviceArea}. Call now or request a free estimate.
             </p>

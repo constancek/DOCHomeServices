@@ -168,7 +168,7 @@ export default function FurnaceMaintenancePage() {
           </p>
           <ul className="mt-4 space-y-2.5">
             {benefits.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}:</span> {b.text}
@@ -196,7 +196,7 @@ export default function FurnaceMaintenancePage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need a Furnace Tune-Up
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Regular maintenance keeps your system running efficiently and reduces the risk of
               unexpected breakdowns. These warning signs can mean it is time for a professional
               tune-up:
@@ -209,7 +209,7 @@ export default function FurnaceMaintenancePage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Scheduling a tune-up with {site.name} can improve performance, extend system lifespan,
               and help ensure reliable heating through the colder months.
             </p>
@@ -224,7 +224,7 @@ export default function FurnaceMaintenancePage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               What to Expect From a Furnace Tune-Up
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               During your furnace tune-up, our certified technicians perform a thorough check of your
               system, including:
             </p>
@@ -236,7 +236,7 @@ export default function FurnaceMaintenancePage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Every step keeps your heating system safe, efficient, and ready for the heating season.
             </p>
           </div>
@@ -258,7 +258,7 @@ export default function FurnaceMaintenancePage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {diy.map((d) => (
-              <li key={d} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={d} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {d}
               </li>
@@ -276,7 +276,7 @@ export default function FurnaceMaintenancePage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {problems.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
@@ -338,7 +338,7 @@ export default function FurnaceMaintenancePage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -350,7 +350,7 @@ export default function FurnaceMaintenancePage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -359,7 +359,7 @@ export default function FurnaceMaintenancePage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Furnace Tune-Up Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Do not wait for your furnace to break down. Staying on top of annual maintenance keeps
               your system running smoothly, saves on energy, and helps avoid expensive repairs. Call
               now or request a free estimate.
