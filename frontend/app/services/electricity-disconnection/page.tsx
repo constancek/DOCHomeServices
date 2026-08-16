@@ -5,7 +5,9 @@ import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
+import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import { site } from '@/content/site';
+import { locations } from '@/content/locations';
 
 export const metadata: Metadata = {
   title: 'Electricity Disconnection (Duke Energy)',
@@ -358,6 +360,24 @@ export default function ElectricityDisconnectionPage() {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Electricity disconnection by neighborhood */}
+      <section className="pb-16">
+        <div className="container-page max-w-4xl">
+          <h2 className="section-title text-brand-700">Electricity disconnection by neighborhood</h2>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            Housing age decides most of this — how old the panel is, whether the meter base has ever
+            been replaced, and what an inspector will want to see before Duke reconnects. All{' '}
+            {locations.length} neighborhoods we cover are below.
+          </p>
+          <NeighborhoodLinks
+            copy={{}}
+            basePath="/services/electricity-disconnection"
+            linkPrefix="Electricity disconnection"
+            listAll
+          />
         </div>
       </section>
 

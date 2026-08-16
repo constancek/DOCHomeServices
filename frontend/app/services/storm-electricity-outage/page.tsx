@@ -366,14 +366,14 @@ export default function StormElectricityOutagePage() {
           <h2 className="section-title text-brand-700">Storm outage repair by neighborhood</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Storm damage is local. Tree cover, terrain, and how old the service entrances are decide
-            which streets stay dark once Duke has restored the line —{' '}
-            {locations.filter((l) => stormElectricityOutageCopy[l.slug]).length} neighborhoods below,
-            each with the detail that matters where you live.
+            which streets stay dark once Duke has restored the line — all {locations.length}{' '}
+            neighborhoods we cover are below, each with the detail that matters where you live.
           </p>
           <NeighborhoodLinks
             copy={stormElectricityOutageCopy}
             basePath="/services/storm-electricity-outage"
             linkPrefix="Storm outage repair"
+            listAll
           />
         </div>
       </section>

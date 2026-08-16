@@ -5,7 +5,9 @@ import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
+import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import { site } from '@/content/site';
+import { locations } from '@/content/locations';
 
 export const metadata: Metadata = {
   title: 'Gas Service Disconnection (Duke Energy)',
@@ -356,6 +358,24 @@ export default function GasServiceDisconnectionPage() {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Gas service disconnection by neighborhood */}
+      <section className="pb-16">
+        <div className="container-page max-w-4xl">
+          <h2 className="section-title text-brand-700">Gas service disconnection by neighborhood</h2>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            The age of the piping behind the meter is what decides whether a pressure test passes first
+            time, and that varies street by street. All {locations.length} neighborhoods we cover are
+            below.
+          </p>
+          <NeighborhoodLinks
+            copy={{}}
+            basePath="/services/gas-service-disconnection"
+            linkPrefix="Gas service disconnection"
+            listAll
+          />
         </div>
       </section>
 
