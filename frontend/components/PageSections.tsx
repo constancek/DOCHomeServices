@@ -42,7 +42,7 @@ export default function PageSections({
       <OurDifferenceBanner />
       <IntroColumns />
       {!hideMarquee && (
-        <section className="bg-white pb-12">
+        <section className="bg-white pb-4 sm:pb-12">
           <div className="container-page">
             <LogoMarquee />
           </div>
@@ -144,9 +144,11 @@ export function IntroColumns() {
 /* ─────────────── Why choose ─────────────── */
 export function WhyChoose() {
   return (
-    <section id="why" className="bg-white py-16">
+    <section id="why" className="bg-white pb-16 pt-10 sm:pt-16">
       <div className="container-page">
-        <h2 className="section-title max-w-3xl text-brand-700">
+        {/* Mobile gets sentence case, centred, and a smaller size — the full
+            uppercase headline runs to six lines on a phone. */}
+        <h2 className="section-title max-w-5xl text-balance text-center text-2xl normal-case text-brand-700 sm:text-left sm:text-4xl sm:uppercase lg:text-[32px]">
           {`Why Choose ${site.name} as Your Residential HVAC, Plumbing & Electrical Contractors?`}
         </h2>
 
@@ -158,22 +160,22 @@ export function WhyChoose() {
           {/* The CTA leads on mobile, where the benefits list pushes it far down
               the page; on desktop it sits under the list as a closing step. */}
           <div className="flex flex-col items-start">
-            <ul className="space-y-4">
+            <ul className="space-y-5 lg:space-y-6">
               {benefits.map((b) => (
-                <li key={b.title} className="flex gap-3.5">
-                  <span className="grid h-10 w-10 flex-shrink-0 place-items-center rounded-lg bg-pink-500 text-white">
-                    <Icon name={b.icon} className="h-5 w-5" />
+                <li key={b.title} className="flex gap-4">
+                  <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
+                    <Icon name={b.icon} className="h-[22px] w-[22px]" />
                   </span>
                   <div>
-                    <h3 className="font-display text-base font-extrabold text-brand-700">{b.title}</h3>
-                    <p className="text-sm text-ink/70">{b.text}</p>
+                    <h3 className="font-display text-[17px] font-extrabold text-brand-700">{b.title}</h3>
+                    <p className="text-[15px] leading-relaxed text-ink/70">{b.text}</p>
                   </div>
                 </li>
               ))}
             </ul>
             <Link
               href="/video-testimonials"
-              className="btn-pink order-first mb-8 py-2.5 pl-2.5 pr-6 text-sm lg:order-none lg:mb-0 lg:mt-6"
+              className="btn-pink order-first mb-8 py-3 pl-3 pr-7 text-[15px] lg:order-none lg:mb-0 lg:mt-9"
             >
               <span className="grid h-8 w-8 place-items-center rounded-full bg-white text-pink-500">
                 <Icon name="play" className="h-4 w-4 translate-x-px fill-current" />

@@ -341,7 +341,7 @@ export default function GasServiceDisconnectionPage() {
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Get Your Gas Back On</h2>
+            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Get Your Gas Connection Back On</h2>
             <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
               Tell us what Duke told you and we will tell you what it takes to fix it. Diagnosis, repair,
               pressure test, and reconnect across {site.serviceArea}.

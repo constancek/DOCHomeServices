@@ -38,7 +38,7 @@ export default function HomePage() {
       <PromoBar />
       <Hero />
       <IntroColumns />
-      <section className="bg-white pb-12">
+      <section className="bg-white pb-4 sm:pb-12">
         <div className="container-page">
           <LogoMarquee />
         </div>
