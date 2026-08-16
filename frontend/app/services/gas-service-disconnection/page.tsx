@@ -9,90 +9,90 @@ import { site } from '@/content/site';
 
 export const metadata: Metadata = {
   title: 'Gas Service Disconnection (Duke Energy)',
-  description: `Gas service disconnection and reconnection across ${site.serviceArea}. Duke Energy pulls the meter — ${site.name}'s licensed plumbers cap, test, repair, and relight everything on your side of it.`,
+  description: `Gas shut off by Duke Energy? They will not restore it until the fault on your side of the meter is repaired and the piping passes a pressure test. ${site.name} does that work across ${site.serviceArea}.`,
   alternates: { canonical: '/services/gas-service-disconnection' },
   openGraph: {
     type: 'website',
     title: `Gas Service Disconnection (Duke Energy) | ${site.name}`,
-    description: `Duke Energy pulls the meter. We handle the piping, the permit, the inspection, and the relight. Serving ${site.serviceArea}.`,
+    description: `Duke shut your gas off and will not turn it back on. Here is why, and what has to happen first. Serving ${site.serviceArea}.`,
     url: `${site.url}/services/gas-service-disconnection/`,
   },
 };
 
-const whenYouNeedIt = [
-  { lead: 'Water Heater or Furnace Replacement', text: 'The gas has to come off before the old unit comes out, and the new connection has to be tested before it goes back on.' },
-  { lead: 'Gas Line Repair or Replacement', text: 'Corroded, undersized, or leaking pipe downstream of the meter cannot be worked on live.' },
-  { lead: 'Remodels and Demolition', text: 'Moving a kitchen, taking out a wall, or removing an old gas appliance means the line gets capped properly, not stuffed with a rag.' },
-  { lead: 'Meter Relocation', text: 'If the meter is in the way of an addition or a deck, Duke moves the meter and we re-run the piping to your appliances.' },
-  { lead: 'A Failed Pressure Test', text: 'If your system will not hold pressure, the gas stays off until the leak is found and repaired.' },
-  { lead: 'Suspected Leak', text: 'A gas smell is an emergency first and a plumbing job second. Get out, then call.' },
+const whyItWasShutOff = [
+  { lead: 'A Leak Was Found', text: 'Duke smells or detects gas at the meter or inside, shuts it down, and leaves. Finding and repairing that leak is the job.' },
+  { lead: 'A Red Tag on an Appliance', text: 'A cracked heat exchanger, a bad flue, or an unsafe connector gets tagged and the gas comes off until it is corrected.' },
+  { lead: 'Failed Inspection', text: 'Work that did not pass, or piping that was never permitted, keeps the meter locked until it is brought up to code.' },
+  { lead: 'The House Sat Empty', text: 'Vacant, seasonal, or newly purchased homes usually need the piping tested before Duke will turn service back on.' },
+  { lead: 'Physical Damage', text: 'A vehicle into the meter, a contractor through a buried line, or storm damage at the service.' },
+  { lead: 'Line Work in the Street', text: 'Duke replaces a main, everyone comes back on, and the houses with a pre-existing fault do not.' },
 ];
 
 const whatWeHandle = [
-  'Scheduling the Duke Energy disconnect and reconnect',
-  'Capping and pressure-testing the house-side piping',
-  'Repair, replacement, or re-routing of gas lines',
-  'Permits and the local inspection where required',
-  'Relighting and testing every appliance before we leave',
-  'Flat-rate pricing approved before any work starts',
+  'Same-day diagnosis of why the gas came off',
+  'Leak location and repair on house-side piping',
+  'The pressure test Duke requires before restoring',
+  'Repair or replacement of red-tagged appliances and connectors',
+  'Permits and the inspection where one is required',
+  'Relighting and testing every appliance once gas is back',
 ];
 
 const whyUs = [
-  { icon: 'shield' as const, title: 'Licensed Gas Plumbers', text: 'Gas piping is permitted, inspected work. We are licensed to do it.' },
-  { icon: 'badge' as const, title: 'We Make the Utility Calls', text: 'You do not sit on hold with Duke. We schedule the disconnect and the reconnect.' },
-  { icon: 'check' as const, title: 'Tested Before Reconnect', text: 'Every joint pressure-tested and every appliance relit and checked.' },
-  { icon: 'house' as const, title: 'Family-Owned Since 2009', text: `${site.yearsExperience} years working on Cincinnati homes, not a franchise call centre.` },
+  { icon: 'clock' as const, title: 'We Move Fast on These', text: 'A house with no gas has no hot water and, in winter, no heat. It gets treated that way.' },
+  { icon: 'shield' as const, title: 'Licensed Gas Plumbers', text: 'Only a licensed trade can do the repair Duke is waiting on.' },
+  { icon: 'badge' as const, title: 'We Deal With the Utility', text: 'We handle the test, the paperwork, and the reconnect scheduling so you are not on hold.' },
+  { icon: 'house' as const, title: 'Family-Owned Since 2009', text: `${site.yearsExperience} years on Cincinnati homes, with crews who live here.` },
 ];
 
 const faqs = [
   {
-    q: 'Who actually shuts the gas off, you or Duke Energy?',
-    a: 'Duke Energy owns the service line from the main to the meter, and the meter itself. Only Duke pulls or locks a meter. Everything from the meter outlet to your appliances is yours, and that is the part we work on. When a job needs the meter off, we schedule it with Duke on your behalf.',
+    q: 'Duke shut my gas off. How do I get it back on?',
+    a: 'The fault that caused the shutoff has to be found and repaired by a licensed plumber, the house piping has to hold a pressure test, and where the work was permitted an inspector has to sign it off. Only then will Duke restore service. We do all of that and schedule the reconnect for you.',
   },
   {
-    q: 'How long is the gas off?',
-    a: 'For a straightforward water heater or furnace swap, usually part of a single day. Longer jobs like a full re-pipe or a meter relocation depend on Duke Energy’s scheduling and on the inspection, which is why we book the disconnect and the inspector before we start rather than after.',
+    q: 'Why will Duke not just turn it back on?',
+    a: 'Because they stop at the meter. Duke owns the service line from the main to the meter and the meter itself. Everything past it is yours. They will not put gas into piping they do not own and cannot vouch for, and no amount of asking changes that.',
   },
   {
-    q: 'Can I just turn the gas off at the meter myself?',
-    a: 'You can close the shutoff valve in an emergency, and you should if you smell gas. What you should not do is turn it back on. Restoring gas without a pressure test and a relight is how appliances get left leaking or with pilots out. Duke locks the meter for a reason.',
+    q: 'What is a pressure test?',
+    a: 'Your house piping is isolated, pressurised, and watched on a gauge to confirm it holds. If the needle drops, there is a leak, and we chase it until it does not. It is the single most common thing standing between a shut-off house and gas being restored.',
   },
   {
-    q: 'I smell gas right now. What do I do?',
-    a: 'Leave the house on foot. Do not flip switches, unplug anything, or use your phone inside. From outside, call 911 and Duke Energy’s emergency line. Call us after the utility has made the property safe, not before.',
+    q: 'How long does it take?',
+    a: 'A straightforward leak repair and test is often the same day. What extends it is the inspection, which depends on your local building department rather than on us, and any appliance that has to be replaced rather than repaired. We tell you which of those you are looking at after the diagnosis, not before.',
   },
   {
-    q: 'Do I need a permit to cap a gas line?',
-    a: 'In most of our service area, yes, and it needs an inspection. We pull the permit as part of the job. A capped line that was never inspected is a problem that surfaces later, usually during a home sale.',
+    q: 'My gas was shut off for non-payment. Can you help?',
+    a: 'No, and you should not pay anyone who says they can. That is a billing matter between you and Duke Energy, there is nothing for a plumber to repair, and calling one only adds a diagnostic fee to what you already owe. Call Duke and ask about payment arrangements or assistance programmes.',
   },
   {
-    q: 'What does a gas disconnection cost?',
-    a: 'It depends on what is being disconnected and what happens afterwards, so we quote it flat-rate in writing before anything starts. Duke Energy may also charge its own fee for a disconnect or reconnect visit. We tell you which costs are ours and which are theirs.',
+    q: 'The house has been empty. Why does anything need doing?',
+    a: 'Piping that has sat unused, especially in an older home, has a habit of failing a test the first time anyone checks. Duke will not restore service to a property that has been off for an extended period without confirmation the system still holds. It is a formality when the piping is sound and a rescue when it is not.',
   },
   {
-    q: 'Do I have to be home?',
-    a: 'For the Duke Energy visit, yes, someone needs to provide access to the meter. For our portion, someone over 18 should be on site at the start and at the relight so we can walk you through what was done.',
+    q: 'Can I turn the valve back on myself?',
+    a: 'No. If Duke locked the meter, breaking that lock is both illegal and dangerous. If the gas came off because of a leak, restoring it yourself puts gas into a system that is known to be leaking, into a house you are standing in.',
   },
   {
-    q: 'Will Duke Energy relight my appliances?',
-    a: 'Not usually. Duke restores gas to the meter. Relighting pilots, checking burners, and confirming the water heater and furnace run correctly is our work, and it is included in the job rather than billed as an extra trip.',
+    q: 'The gas is already off and I can still smell it. What do I do?',
+    a: 'Leave on foot. Do not flip switches, unplug anything, or use your phone until you are outside. Call 911 and Duke Energy from there. Gas can remain in the piping after the meter is closed, and a smell with the service already off means something is still wrong.',
   },
   {
-    q: 'I am moving out. Do I need a plumber?',
-    a: 'No. Closing an account is a phone call to Duke Energy and it does not cost you anything. If a company offers to disconnect your gas because you are moving, you are being sold something you do not need.',
+    q: 'Do I need a permit?',
+    a: 'For most repairs to gas piping, yes, and it needs an inspection. We pull it as part of the job. Skipping the permit does not speed anything up, because Duke will be looking for the sign-off before restoring service.',
   },
   {
-    q: 'Can you move my gas meter?',
-    a: 'Duke moves the meter, we handle the piping on either side of the new location. It is a coordinated job and it takes planning, so start the conversation well before the deck or addition is framed.',
+    q: 'Will Duke relight my furnace and water heater?',
+    a: 'Usually not. Duke restores gas at the meter and leaves. Relighting pilots, checking burners, and confirming the furnace and water heater run safely is our work, and it is part of the job rather than a second trip you pay for.',
   },
 ];
 
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
-  serviceType: 'Gas Service Disconnection',
+  serviceType: 'Gas Service Restoration After Disconnection',
   description:
-    'Coordination of Duke Energy gas service disconnection and reconnection, with licensed capping, pressure testing, gas line repair, permitting, and appliance relighting on the customer side of the meter.',
+    'Diagnosis and repair of the house-side fault behind a Duke Energy gas shutoff, including leak location and repair, the pressure test required before restoration, permitting, inspection, and appliance relighting.',
   provider: { '@type': 'Organization', name: site.name, telephone: site.primaryPhone.number },
   areaServed: site.serviceArea,
 };
@@ -122,7 +122,7 @@ export default function GasServiceDisconnectionPage() {
       <PageHero
         eyebrow="Plumbing"
         title={`Gas Service Disconnection in ${site.serviceArea}`}
-        description="Duke Energy pulls the meter. We handle everything on your side of it — capping, testing, repairs, the permit, and the relight."
+        description="Duke shut your gas off and will not turn it back on. Here is why, what has to happen first, and how quickly we can get it done."
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -134,7 +134,7 @@ export default function GasServiceDisconnectionPage() {
       <section className="bg-hero-pink">
         <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
           <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Need the gas off to get work done?
+            Gas off and no hot water? Call now.
           </h2>
           <a href={site.primaryPhone.href} className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600">
             <Icon name="phone" className="h-5 w-5" />
@@ -145,44 +145,43 @@ export default function GasServiceDisconnectionPage() {
 
       <section className="py-16">
         <MainWithSidebar>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/gasline-hero.jpg)' }} role="img" aria-label="Residential natural gas meter and service piping" />
+          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/gasline-hero.jpg)' }} role="img" aria-label="Residential natural gas meter with service piping" />
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
-            Gas Service Disconnection, Handled End to End
+            Your Gas Is Off. Here Is What Happens Next.
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            There is a line at the gas meter, and it decides who does what. Duke Energy owns the service
-            line running from the street main to the meter, and it owns the meter. Everything downstream of
-            that meter — the piping through your basement, the run to the furnace, the flex connector behind
-            the range — belongs to you. That is the side licensed plumbers work on.
+            Duke Energy will not restore your gas until the problem on your side of the meter is repaired
+            by a licensed plumber and the piping proves it holds pressure. That is the whole answer. Nobody
+            at the utility can waive it for you, and calling them back a third time will not change it.
           </p>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            So when a job needs the gas off, two parties are involved. Duke sends a technician to pull or
-            lock the meter. {site.name} does the actual work: capping the line, pressure-testing it,
-            replacing what needs replacing, pulling the permit, meeting the inspector, and relighting your
-            appliances once gas is restored.
+            The split is simple once someone explains it. Duke owns the service line from the street main to
+            the meter, and the meter itself. Everything downstream of that meter — the piping through the
+            basement, the run to the furnace, the connector behind the range — belongs to you. When they shut
+            you off, it is almost always because they found something wrong on your side, and your side is
+            the part they are not allowed to touch.
           </p>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            The part homeowners find frustrating is the coordination. You call the utility, they give you a
-            window, the plumber gives you a different window, and nothing lines up. We schedule the
-            disconnect and the reconnect around our own crew so the gas is off for the length of the job
-            rather than the length of a week.
+            So the sequence is fixed: we find the fault, repair it, pressure-test the system, get it
+            inspected where a permit applies, and then Duke comes back and turns the meter on. We handle
+            every step of that, including the scheduling, so you are not trying to project-manage a utility
+            with no hot water in the house.
           </p>
         </MainWithSidebar>
       </section>
 
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/gasline-signs.jpg)' }} role="img" aria-label="Plumber working on residential gas piping" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/gasline-signs.jpg)' }} role="img" aria-label="Plumber testing residential gas piping" />
           <div>
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
-              When You Need a Gas Disconnect
+              Why Your Gas Was Shut Off
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-white/90">
-              Most homeowners never think about the gas meter until a job forces the issue. These are the
-              jobs that do:
+              Most people are told very little at the door. These are the reasons we actually turn up to:
             </p>
             <ul className="mt-4 space-y-2">
-              {whenYouNeedIt.map((s) => (
+              {whyItWasShutOff.map((s) => (
                 <li key={s.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span><span className="font-bold text-white">{s.lead}:</span> {s.text}</span>
@@ -190,7 +189,7 @@ export default function GasServiceDisconnectionPage() {
               ))}
             </ul>
             <p className="mt-4 text-sm font-bold uppercase tracking-wide text-white">
-              Licensed Gas Work Across {site.serviceArea}
+              Licensed Gas Repair Across {site.serviceArea}
             </p>
           </div>
         </div>
@@ -203,9 +202,8 @@ export default function GasServiceDisconnectionPage() {
               What We Handle
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-white/90">
-              A gas disconnect is rarely the job. It is the step that lets the real job happen. We treat it
-              that way and quote the whole sequence up front, so the price you approve covers the
-              coordination, the work, and getting your hot water back.
+              Everything between the shutoff and the relight, quoted flat-rate before we start so you know
+              what getting your gas back actually costs.
             </p>
             <ul className="mt-4 space-y-2">
               {whatWeHandle.map((w) => (
@@ -222,84 +220,90 @@ export default function GasServiceDisconnectionPage() {
 
       <section className="py-14">
         <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">How the Disconnect Actually Works</h2>
+          <h2 className="section-title text-brand-700">What To Do Right Now</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Four steps, in this order, every time.
+            <span className="font-bold text-brand-700">If you can smell gas, stop reading and get out.</span>{' '}
+            Leave on foot, do not touch light switches or your phone until you are outside, and call 911 and
+            Duke Energy from there. A smell with the service already off means gas is still in the system.
+            That is an emergency, not a plumbing appointment.
+          </p>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            <span className="font-bold text-brand-700">If there is no smell, leave everything alone.</span>{' '}
+            Do not touch the meter, do not cut a lock, and do not try to relight anything. Nothing you do at
+            the meter helps, and tampering with it turns a repair into a much larger problem.
+          </p>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            <span className="font-bold text-brand-700">Then find out what you were actually told.</span> If
+            Duke left a tag, a door hanger, or a note, keep it. It usually names the reason, and that saves
+            us diagnostic time and saves you money. If you have nothing, that is fine too, we start from the
+            meter and work in.
           </p>
 
-          <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">1. We Scope the Job and Pull the Permit</h3>
+          <h2 className="mt-12 section-title text-brand-700">How We Get Your Gas Restored</h2>
+
+          <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">1. Find the Fault</h3>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Before anyone calls the utility, we look at what is actually being done — the appliance, the
-            piping, the venting, the shutoff locations. That determines whether the meter needs to come off
-            at all. Plenty of{' '}
+            We start at the meter and work through the system, checking joints, connectors, and appliances
+            for the reason it came off. Sometimes it is a single failed flex connector behind a range.
+            Sometimes it is a corroded run under the floor that needs a{' '}
             <Link href="/services/gas-line-repair-replacement" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
-              gas line repairs
-            </Link>{' '}
-            can be done at an isolation valve without involving Duke Energy, and if yours is one of them we
-            will say so.
+              gas line replacement
+            </Link>
+            . You get told which before any work is authorised.
           </p>
 
-          <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">2. Duke Energy Disconnects</h3>
+          <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">2. Repair It</h3>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We book the disconnect and give Duke the access details. Their technician shuts the meter off and
-            locks it. Details on the utility side of this — including what Duke charges and how far ahead
-            they schedule — are on the{' '}
-            <a href="https://www.duke-energy.com/home/natural-gas" target="_blank" rel="noopener noreferrer" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
-              Duke Energy natural gas pages
-            </a>
-            .
-          </p>
-
-          <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">3. We Do the Work and Test It</h3>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Old appliance out, new piping in, joints made up and pressure-tested. A gas system that will not
-            hold pressure does not get signed off, and we would rather find that on a gauge in the basement
-            than have you find it by smell at 2am. If the test fails we chase the leak until it passes.
-          </p>
-
-          <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">4. Reconnect, Relight, Walk Through</h3>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Once the inspector signs off, Duke restores gas at the meter. We relight every appliance, confirm
-            the{' '}
-            <Link href="/services/water-heater-installation" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
+            Piping, connectors, valves, or the appliance that got tagged. Where an old{' '}
+            <Link href="/services/water-heater-repair" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               water heater
             </Link>{' '}
-            and furnace fire and run correctly, and show you where the shutoff is before we leave. That last
-            part takes thirty seconds and it is the thing people are glad they know later.
+            or furnace is what failed, we lay out repair against replacement with both numbers rather than
+            steering you to the bigger invoice.
+          </p>
+
+          <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">3. Pressure-Test the System</h3>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            The piping is isolated, brought up to pressure, and watched. It either holds or it does not. This
+            is the test Duke is waiting on, and it is the reason a house can be repaired and still not get
+            gas back the same afternoon — a system that fails the test gets chased until it passes.
+          </p>
+
+          <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">4. Inspection, Reconnect, Relight</h3>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            Where the work was permitted, the inspector signs off. We give Duke what they need and schedule
+            the reconnect. Once gas is at the meter we relight every appliance, confirm the furnace and water
+            heater run properly, and show you where your shutoff valve is before we leave.
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">When You Should Not Call Us</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Two situations where hiring a plumber is the wrong move.
-          </p>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            <span className="font-bold text-brand-700">If you smell gas, this is not a plumbing call.</span>{' '}
-            Get everyone out of the house on foot. Do not touch light switches, garage door openers, or your
-            phone until you are outside. Then call 911 and Duke Energy&rsquo;s emergency line. The utility
-            makes the property safe first. We come afterwards to find and repair whatever failed. Calling a
-            plumber instead of the gas company costs you the one thing you cannot get back, which is time.
-          </p>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            <span className="font-bold text-brand-700">If you are just closing an account, call Duke.</span>{' '}
-            Moving out, selling, or shutting off service for the season is a phone call to the utility and it
-            is free. You can do it yourself through{' '}
-            <a href="https://www.duke-energy.com/my-account/stop-service" target="_blank" rel="noopener noreferrer" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
-              Duke Energy&rsquo;s stop service page
-            </a>
-            . No plumber needs to be involved, and anyone telling you otherwise is selling you a truck roll
-            you do not need. Ohio homeowners can also read their utility rights through the{' '}
+            <span className="font-bold text-brand-700">If your gas was cut off for non-payment, we cannot help you.</span>{' '}
+            There is nothing broken, so there is nothing for a plumber to repair. Paying a licensed trade to
+            come and confirm that only adds a diagnostic fee to a bill you are already struggling with. Call
+            Duke Energy, ask about payment arrangements, and ask what assistance programmes you qualify for.
+            Ohio customers can also check their rights through the{' '}
             <a href="https://puco.ohio.gov" target="_blank" rel="noopener noreferrer" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               Public Utilities Commission of Ohio
             </a>
-            .
+            . Anyone who offers to get your gas back on without addressing the bill is taking your money.
+          </p>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            <span className="font-bold text-brand-700">If you are just starting service in your name, that is a phone call.</span>{' '}
+            Moving into a house where the gas is already sound needs an account, not a plumber. You can set
+            that up through{' '}
+            <a href="https://www.duke-energy.com/my-account/start-service" target="_blank" rel="noopener noreferrer" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
+              Duke Energy directly
+            </a>
+            . We only become necessary when they test the property and it does not pass.
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Why Homeowners Call {site.name}</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We have been doing gas work on Cincinnati homes since {site.founded}, across roughly{' '}
-            {site.reviewCount.toLocaleString()} reviews averaging {site.rating}. Gas is the part of the trade
-            with the least room for improvisation, so the process above does not change based on how busy we
-            are.
+            Family-owned since {site.founded}, with roughly {site.reviewCount.toLocaleString()} reviews
+            averaging {site.rating}. Most people who call us about a shutoff have already spent a day being
+            passed between the utility and the internet. The first thing we do is tell you plainly what is
+            wrong and what it takes to fix it.
           </p>
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             {whyUs.map((w) => (
@@ -316,31 +320,31 @@ export default function GasServiceDisconnectionPage() {
           </div>
 
           <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
-            Related work we handle on the same visit:{' '}
-            <Link href="/services/tankless-water-heater" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
-              tankless conversions
+            Related work we often end up doing on the same visit:{' '}
+            <Link href="/services/leak-detection" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
+              leak detection
             </Link>
             ,{' '}
-            <Link href="/services/plumbing-repair" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
-              general plumbing repair
+            <Link href="/services/water-heater-installation" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
+              water heater replacement
             </Link>
             , and{' '}
             <Link href="/services/emergency-plumbing" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               emergency plumbing
-            </Link>{' '}
-            when something has already gone wrong.
+            </Link>
+            .
           </p>
 
-          <h2 className="mt-12 section-title text-brand-700">Gas Service Disconnection FAQs</h2>
+          <h2 className="mt-12 section-title text-brand-700">Gas Shutoff FAQs</h2>
           <div className="mt-4">
             <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Book Your Gas Disconnect</h2>
+            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Get Your Gas Back On</h2>
             <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
-              Tell us what the gas needs to come off for and we will handle the Duke Energy scheduling, the
-              permit, and the relight. Serving {site.serviceArea}.
+              Tell us what Duke told you and we will tell you what it takes to fix it. Diagnosis, repair,
+              pressure test, and reconnect across {site.serviceArea}.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={site.primaryPhone.href} className="btn-pink text-base">

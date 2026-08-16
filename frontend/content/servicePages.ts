@@ -86,10 +86,11 @@ export const servicePages: ServicePage[] = [
   { slug: 'switches-outlets', title: 'Switches & Outlets', category: 'Electrical', parentSlug: 'electrical', blurb: 'Outlet and switch installation, repair, and upgrades, including GFCI and USB.', heroImage: '/services/outlets-hero.jpg' },
   { slug: 'electrical-mast-repair', title: 'Electrical Mast Repair', category: 'Electrical', parentSlug: 'electrical', blurb: 'Repair a damaged electrical service mast to safely restore power.', heroImage: '/services/mast-hero.jpg' },
 
-  // Utility-coordinated work. Duke Energy owns the meter and the line to it;
-  // our licensed crews handle everything on the customer side.
-  { slug: 'gas-service-disconnection', title: 'Gas Service Disconnection (Duke Energy)', category: 'Plumbing', parentSlug: 'plumbing', blurb: 'Duke Energy pulls the meter, we cap, test, repair, and relight everything on your side of it.', heroImage: '/services/gasline-hero.jpg' },
-  { slug: 'electricity-disconnection', title: 'Electricity Disconnection (Duke Energy)', category: 'Electrical', parentSlug: 'electrical', blurb: 'Temporary power disconnect coordinated with Duke Energy, with the panel, permit, and inspection handled.', heroImage: '/services/panel-hero.jpg' },
+  // Restoration after a utility shutoff. Duke Energy owns the meter and the
+  // line to it, so they cannot repair the fault on the customer side — our
+  // licensed crews do that, then service goes back on.
+  { slug: 'gas-service-disconnection', title: 'Gas Service Disconnection (Duke Energy)', category: 'Plumbing', parentSlug: 'plumbing', blurb: 'Gas shut off by Duke? We find the fault, repair it, pass the pressure test, and get your service restored.', heroImage: '/services/gasline-hero.jpg' },
+  { slug: 'electricity-disconnection', title: 'Electricity Disconnection (Duke Energy)', category: 'Electrical', parentSlug: 'electrical', blurb: 'Duke will not reconnect until the equipment you own is repaired and inspected. That is the work we do.', heroImage: '/services/panel-hero.jpg' },
   { slug: 'storm-electricity-outage', title: 'Storm Electricity Outage', category: 'Electrical', parentSlug: 'electrical', blurb: 'Street back on but your house still dark? We repair the storm-damaged equipment Duke will not touch.', heroImage: '/services/mast-hero.jpg' },
 ];
 

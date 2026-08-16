@@ -67,6 +67,9 @@ export type NavItem = {
   caret?: boolean;
   children?: NavChild[];
   cta?: NavChild;
+  // Long menus render their dropdown in two columns so every item stays on
+  // screen. Short menus stay single-column.
+  columns?: 2;
 };
 
 export const nav: NavItem[] = [
@@ -74,6 +77,7 @@ export const nav: NavItem[] = [
     label: 'Plumbing',
     href: '/services/plumbing',
     caret: true,
+    columns: 2,
     children: [
       {
         label: 'Drains',
@@ -160,6 +164,7 @@ export const nav: NavItem[] = [
     label: 'Electrical',
     href: '/services/electrical',
     caret: true,
+    columns: 2,
     children: [
       {
         label: 'Lighting',

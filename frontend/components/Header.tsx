@@ -79,22 +79,47 @@ export default function Header() {
                     )}
                   </Link>
 
-                  {/* Hover dropdown */}
-                  <div className="invisible absolute left-0 top-full z-50 w-72 translate-y-1 pt-1 opacity-0 transition-all duration-150 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                    <div className="rounded-b-lg border border-brand-100 bg-white shadow-card">
-                      {item.children.map((child) =>
+                  {/* Hover dropdown — long menus (Plumbing, Electrical) run two columns */}
+                  <div
+                    className={`invisible pointer-events-none absolute left-0 top-full z-50 translate-y-1 pt-1 opacity-0 transition-all delay-1000 duration-150 group-hover:visible group-hover:pointer-events-auto group-hover:translate-y-0 group-hover:opacity-100 group-hover:delay-0 ${
+                      item.columns === 2 ? 'w-[34rem]' : 'w-72'
+                    }`}
+                  >
+                    <div
+                      className={`rounded-b-lg border border-brand-100 bg-white shadow-card ${
+                        item.columns === 2 ? 'grid grid-cols-2' : ''
+                      }`}
+                    >
+                      {item.children.map((child, ci) =>
                         child.children ? (
-                          <div key={child.label} className="group/sub relative">
+                          <div
+                            key={child.label}
+                            className={`group/sub relative ${
+                              item.columns === 2 && ci % 2 === 0
+                                ? 'border-r border-r-brand-300'
+                                : ''
+                            }`}
+                          >
                             <Link
                               href={child.href}
-                              className="flex items-center justify-between border-b border-brand-100 px-5 py-2.5 text-sm font-semibold text-brand-900 transition group-hover/sub:bg-pink-500 group-hover/sub:text-white"
+                              className="flex h-full items-center justify-between gap-2 border-b border-brand-100 px-5 py-2.5 text-sm font-semibold text-brand-900 transition group-hover/sub:bg-pink-500 group-hover/sub:text-white"
                             >
                               {child.label}
-                              <Icon name="chevron" className="h-3.5 w-3.5 rotate-180" />
+                              <Icon name="chevron" className="h-3.5 w-3.5 flex-shrink-0 rotate-180" />
                             </Link>
-                            {/* Nested flyout — opens to the left */}
-                            <div className="invisible absolute right-full top-0 z-50 w-72 opacity-0 transition-all duration-150 group-hover/sub:visible group-hover/sub:opacity-100">
-                              <div className="mr-px rounded-l-lg border border-brand-100 bg-white shadow-card">
+                            {/* Nested flyout — opens away from the panel edge */}
+                            <div
+                              className={`invisible pointer-events-none absolute top-0 z-50 w-72 opacity-0 transition-all delay-1000 duration-150 group-hover/sub:visible group-hover/sub:pointer-events-auto group-hover/sub:opacity-100 group-hover/sub:delay-0 ${
+                                item.columns === 2 && ci % 2 === 1 ? 'left-full' : 'right-full'
+                              }`}
+                            >
+                              <div
+                                className={`border border-brand-100 bg-white shadow-card ${
+                                  item.columns === 2 && ci % 2 === 1
+                                    ? 'ml-px rounded-r-lg'
+                                    : 'mr-px rounded-l-lg'
+                                }`}
+                              >
                                 {child.children.map((sub) =>
                                   sub.children ? (
                                     <div key={sub.label} className="group/sub2 relative">
@@ -105,7 +130,7 @@ export default function Header() {
                                         {sub.label}
                                         <Icon name="chevron" className="h-3.5 w-3.5 rotate-180" />
                                       </Link>
-                                      <div className="invisible absolute right-full top-0 z-50 w-72 opacity-0 transition-all duration-150 group-hover/sub2:visible group-hover/sub2:opacity-100">
+                                      <div className="invisible pointer-events-none absolute right-full top-0 z-50 w-72 opacity-0 transition-all delay-1000 duration-150 group-hover/sub2:visible group-hover/sub2:pointer-events-auto group-hover/sub2:opacity-100 group-hover/sub2:delay-0">
                                         <div className="mr-px rounded-l-lg border border-brand-100 bg-white shadow-card">
                                           {sub.children.map((leaf) => (
                                             <Link
@@ -142,11 +167,17 @@ export default function Header() {
                           <Link
                             key={child.label}
                             href={child.href}
-                            className="flex items-center justify-between border-b border-brand-100 px-5 py-2.5 text-sm font-semibold text-brand-900 transition last:rounded-b-lg last:border-b-0 hover:bg-brand-50 hover:text-pink-500"
+                            className={`flex items-center justify-between gap-2 border-b border-brand-100 px-5 py-2.5 text-sm font-semibold text-brand-900 transition hover:bg-brand-50 hover:text-pink-500 ${
+                              item.columns === 2
+                                ? ci % 2 === 0
+                                  ? 'border-r border-r-brand-300'
+                                  : ''
+                                : 'last:rounded-b-lg last:border-b-0'
+                            }`}
                           >
                             {child.label}
                             {child.arrow && (
-                              <Icon name="chevron" className="h-3.5 w-3.5 text-brand-400" />
+                              <Icon name="chevron" className="h-3.5 w-3.5 flex-shrink-0 text-brand-400" />
                             )}
                           </Link>
                         )
