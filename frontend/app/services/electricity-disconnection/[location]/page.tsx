@@ -61,11 +61,7 @@ const config: ServiceLocationConfig = {
     'Then the repair, the permit, and the inspector — booked alongside the work rather than after it. When the meter goes back in we energise circuit by circuit instead of throwing the main and hoping, label the panel properly, and put in writing anything worth watching.',
   ],
   proseSections: [
-    {
-      title: 'If It Was Cut Off for Non-Payment, We Cannot Help',
-      body: 'Nothing is broken, so there is nothing for an electrician to repair, and a call-out fee on top of a bill you are already struggling with helps nobody. Contact your utility about payment arrangements and assistance programmes. Anyone offering to restore your power around a billing shutoff is selling you something worthless, and we would rather say so than take the booking.',
-    },
-    {
+        {
       title: 'Do Not Break a Meter Lock',
       body: 'If the meter has been pulled or locked, leave it. Tampering with utility metering equipment is a criminal offence in both Ohio and Kentucky, and on a service that was disconnected for a fault it also puts power back into equipment somebody has already judged unsafe. Whatever the frustration, this is the one action that turns a repair into a much larger problem.',
     },
@@ -90,7 +86,6 @@ const config: ServiceLocationConfig = {
   sharedFaqs: [
     { q: 'Duke disconnected my power. How do I get it back?', a: 'A licensed electrician has to repair whatever is wrong with your equipment, a permit is pulled where the work requires one, and a local inspector signs it off. The utility then reconnects. We handle the repair, the permit, the inspection, and the scheduling.' },
     { q: 'They say I need an electrician before they will reconnect. What does that mean?', a: 'It means the damage is on equipment you own rather than equipment they own. The utility installs and maintains the service line and the meter. The weatherhead, riser, mast, attachment hardware, meter box, and everything in the panel are yours, and they will not energise your equipment until someone licensed has repaired it.' },
-    { q: 'My power was cut for non-payment. Can you help?', a: 'No. Nothing is broken, so there is nothing for an electrician to repair, and a call-out only adds a fee to a bill you already owe. Contact your utility about payment arrangements and assistance programmes.' },
     { q: 'Do I really need a permit and an inspection?', a: 'For meter base, mast, service entrance, or panel work, yes. Emergency work can usually begin before the paperwork is filed, and most local authorities allow the permit to follow on the next business day — but it still has to be filed and inspected, because the utility will be looking for the sign-off before reconnecting.' },
     { q: 'What does it cost?', a: 'It depends entirely on what failed — a meter base repair and a full service replacement are very different days. We quote flat-rate in writing after the diagnosis and before any work starts, and we separate our costs from anything the utility charges so you can see which is which.' },
     { q: 'Can I just turn it back on myself?', a: 'No. If the meter has been pulled or locked, tampering with it is a criminal offence in both Ohio and Kentucky, and on a service disconnected for a fault it puts power back into equipment already judged unsafe.' },

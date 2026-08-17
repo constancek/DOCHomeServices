@@ -65,10 +65,6 @@ const faqs = [
     a: 'The repair itself is often a single day. The variable is the inspection, which runs on your local building department’s schedule, not ours. We book the inspector at the same time as the work rather than after it, which is the single biggest thing that shortens the wait.',
   },
   {
-    q: 'My power was cut for non-payment. Can you help?',
-    a: 'No. Nothing is broken, so there is nothing for an electrician to repair, and a call-out only adds a fee to a bill you already owe. Contact Duke Energy about payment arrangements and assistance programmes. Anyone offering to restore your power around a billing shutoff is selling you something worthless.',
-  },
-  {
     q: 'Do I really need a permit and an inspection?',
     a: 'For meter base, mast, service entrance, or panel work, yes. It is not optional and it is not something to skip in the name of speed, because Duke will be looking for the sign-off before they put the meter back in. Skipping it guarantees a longer outage, not a shorter one.',
   },
@@ -311,10 +307,11 @@ export default function ElectricityDisconnectionPage() {
 
           <h2 className="mt-12 section-title text-brand-700">When You Should Not Call Us</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            <span className="font-bold text-brand-700">If your power was cut for non-payment, we cannot help.</span>{' '}
-            Nothing is broken. There is no repair to make, and a diagnostic fee on top of an unpaid bill
-            helps nobody. Call your utility about payment arrangements and assistance programmes, and check
-            your rights with the regulator for your state: the{' '}
+            <span className="font-bold text-brand-700">Check which utility actually serves you first.</span>{' '}
+            Duke Energy Ohio, Duke Energy Kentucky and Duke Energy Indiana are separate operating companies
+            with their own crews and procedures, and much of Hamilton is served by the city&rsquo;s own
+            municipal electric system rather than Duke at all. Your rights sit with the regulator for your
+            state: the{' '}
             <a href="https://puco.ohio.gov" target="_blank" rel="noopener noreferrer" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               Public Utilities Commission of Ohio
             </a>

@@ -64,10 +64,6 @@ const faqs = [
     a: 'A straightforward leak repair and test is often the same day. What extends it is the inspection, which depends on your local building department rather than on us, and any appliance that has to be replaced rather than repaired. We tell you which of those you are looking at after the diagnosis, not before.',
   },
   {
-    q: 'My gas was shut off for non-payment. Can you help?',
-    a: 'No, and you should not pay anyone who says they can. That is a billing matter between you and Duke Energy, there is nothing for a plumber to repair, and calling one only adds a diagnostic fee to what you already owe. Call Duke and ask about payment arrangements or assistance programmes.',
-  },
-  {
     q: 'The house has been empty. Why does anything need doing?',
     a: 'Piping that has sat unused, especially in an older home, has a habit of failing a test the first time anyone checks. Duke will not restore service to a property that has been off for an extended period without confirmation the system still holds. It is a formality when the piping is sound and a rescue when it is not.',
   },
@@ -300,20 +296,18 @@ export default function GasServiceDisconnectionPage() {
 
           <h2 className="mt-12 section-title text-brand-700">When You Should Not Call Us</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            <span className="font-bold text-brand-700">If your gas was cut off for non-payment, we cannot help you.</span>{' '}
-            There is nothing broken, so there is nothing for a plumber to repair. Paying a licensed trade to
-            come and confirm that only adds a diagnostic fee to a bill you are already struggling with. Call
-            Duke Energy, ask about payment arrangements, and ask what assistance programmes you qualify for.
-            Which regulator backs you up depends on which side of the river you are on: Ohio customers go to
-            the{' '}
+            <span className="font-bold text-brand-700">If you can smell gas, this is not a plumbing call.</span>{' '}
+            Get everyone out on foot, leave the switches and your phone alone until you are outside, and call
+            911 and your utility from there. They make the property safe first. We come afterwards to find and
+            repair whatever failed. Your rights as a customer sit with the regulator for your state — the{' '}
             <a href="https://puco.ohio.gov" target="_blank" rel="noopener noreferrer" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               Public Utilities Commission of Ohio
-            </a>
-            , Northern Kentucky customers to the{' '}
+            </a>{' '}
+            or the{' '}
             <a href="https://psc.ky.gov" target="_blank" rel="noopener noreferrer" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               Kentucky Public Service Commission
             </a>
-            . Anyone who offers to get your gas back on without addressing the bill is taking your money.
+            .
           </p>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             <span className="font-bold text-brand-700">If you are just starting service in your name, that is a phone call.</span>{' '}
