@@ -8,6 +8,7 @@ import Accordion from '@/components/Accordion';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
+import { gasServiceDisconnectionCopy } from '@/content/location-copy/gas-service-disconnection';
 
 export const metadata: Metadata = {
   title: 'Gas Service Disconnection (Duke Energy)',
@@ -390,7 +391,7 @@ export default function GasServiceDisconnectionPage() {
             below.
           </p>
           <NeighborhoodLinks
-            copy={{}}
+            copy={gasServiceDisconnectionCopy}
             basePath="/services/gas-service-disconnection"
             linkPrefix="Gas service disconnection"
             listAll
