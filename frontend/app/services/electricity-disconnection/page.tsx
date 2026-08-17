@@ -8,6 +8,7 @@ import Accordion from '@/components/Accordion';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
+import { electricityDisconnectionCopy } from '@/content/location-copy/electricity-disconnection';
 
 export const metadata: Metadata = {
   title: 'Electricity Disconnection (Duke Energy)',
@@ -408,7 +409,7 @@ export default function ElectricityDisconnectionPage() {
             {locations.length} neighborhoods we cover are below.
           </p>
           <NeighborhoodLinks
-            copy={{}}
+            copy={electricityDisconnectionCopy}
             basePath="/services/electricity-disconnection"
             linkPrefix="Electricity disconnection"
             listAll
