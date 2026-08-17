@@ -88,6 +88,28 @@ const faqs = [
   },
 ];
 
+// LocalBusiness markup for the hub page itself. The location pages already
+// carry this; without it the city-wide page was the only one in the set
+// without local-business signals.
+const businessSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Electrician',
+  name: `${site.name} — Storm Electricity Outage Repair`,
+  telephone: site.primaryPhone.number,
+  url: `${site.url}/services/storm-electricity-outage`,
+  areaServed: { '@type': 'Place', name: site.serviceArea },
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Cincinnati',
+    addressRegion: 'OH',
+    addressCountry: 'US',
+  },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: site.rating,
+    reviewCount: site.reviewCount,
+  },
+};
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
@@ -116,6 +138,7 @@ const faqSchema = {
 export default function StormElectricityOutagePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />

@@ -89,6 +89,25 @@ const faqs = [
   },
 ];
 
+const businessSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Electrician',
+  name: `${site.name} — Electricity Disconnection`,
+  telephone: site.primaryPhone.number,
+  url: `${site.url}/services/electricity-disconnection`,
+  areaServed: { '@type': 'Place', name: site.serviceArea },
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Cincinnati',
+    addressRegion: 'OH',
+    addressCountry: 'US',
+  },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: site.rating,
+    reviewCount: site.reviewCount,
+  },
+};
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
@@ -117,6 +136,7 @@ const faqSchema = {
 export default function ElectricityDisconnectionPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
@@ -292,12 +312,27 @@ export default function ElectricityDisconnectionPage() {
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             <span className="font-bold text-brand-700">If your power was cut for non-payment, we cannot help.</span>{' '}
             Nothing is broken. There is no repair to make, and a diagnostic fee on top of an unpaid bill
-            helps nobody. Call Duke Energy about payment arrangements and assistance programmes, and check
-            your rights through the{' '}
+            helps nobody. Call your utility about payment arrangements and assistance programmes, and check
+            your rights with the regulator for your state: the{' '}
             <a href="https://puco.ohio.gov" target="_blank" rel="noopener noreferrer" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               Public Utilities Commission of Ohio
             </a>
+            , the{' '}
+            <a href="https://psc.ky.gov" target="_blank" rel="noopener noreferrer" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
+              Kentucky Public Service Commission
+            </a>
+            , or the{' '}
+            <a href="https://www.in.gov/iurc/" target="_blank" rel="noopener noreferrer" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
+              Indiana Utility Regulatory Commission
+            </a>
             .
+          </p>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            <span className="font-bold text-brand-700">And check which utility actually serves you.</span>{' '}
+            Duke Energy Ohio, Duke Energy Kentucky, and Duke Energy Indiana are separate operating companies
+            with their own crews and their own restoration schedules, and much of Hamilton is served by the
+            city&rsquo;s own municipal electric system rather than Duke at all. Reporting an outage to the
+            wrong one costs you time you do not have.
           </p>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             <span className="font-bold text-brand-700">If the whole street is dark, this is not your repair.</span>{' '}

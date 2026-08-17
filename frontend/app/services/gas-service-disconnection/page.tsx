@@ -89,6 +89,25 @@ const faqs = [
   },
 ];
 
+const businessSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Plumber',
+  name: `${site.name} — Gas Service Disconnection`,
+  telephone: site.primaryPhone.number,
+  url: `${site.url}/services/gas-service-disconnection`,
+  areaServed: { '@type': 'Place', name: site.serviceArea },
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Cincinnati',
+    addressRegion: 'OH',
+    addressCountry: 'US',
+  },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: site.rating,
+    reviewCount: site.reviewCount,
+  },
+};
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
@@ -117,6 +136,7 @@ const faqSchema = {
 export default function GasServiceDisconnectionPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
@@ -284,9 +304,14 @@ export default function GasServiceDisconnectionPage() {
             There is nothing broken, so there is nothing for a plumber to repair. Paying a licensed trade to
             come and confirm that only adds a diagnostic fee to a bill you are already struggling with. Call
             Duke Energy, ask about payment arrangements, and ask what assistance programmes you qualify for.
-            Ohio customers can also check their rights through the{' '}
+            Which regulator backs you up depends on which side of the river you are on: Ohio customers go to
+            the{' '}
             <a href="https://puco.ohio.gov" target="_blank" rel="noopener noreferrer" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               Public Utilities Commission of Ohio
+            </a>
+            , Northern Kentucky customers to the{' '}
+            <a href="https://psc.ky.gov" target="_blank" rel="noopener noreferrer" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
+              Kentucky Public Service Commission
             </a>
             . Anyone who offers to get your gas back on without addressing the bill is taking your money.
           </p>
