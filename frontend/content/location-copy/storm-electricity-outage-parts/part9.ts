@@ -100,7 +100,7 @@ export const part9: Record<string, LocationServiceCopy> = {
     localFaqs: [
       {
         q: 'My ZIP says 41018, the same as Erlanger. Which city issues my permit?',
-        a: 'It depends on the address rather than the ZIP, because Elsmere and Erlanger are separate cities sharing one postal code. Getting it wrong means the filing comes back and is redone, which after a storm costs a day. We check it before submitting anything — and it is a fair question to ask anyone else you call.',
+        a: 'It depends on the address rather than the ZIP, because Elsmere and Erlanger are separate cities sharing one postal code. Getting it wrong means the filing comes back and is redone, which after a storm costs a day. We check it before submitting anything — and it is a fair question to ask anyone else you call. The utility here is Duke Energy Kentucky rather than Duke Energy Ohio, with its own crews and scheduling.',
       },
     ],
   },
@@ -117,7 +117,7 @@ export const part9: Record<string, LocationServiceCopy> = {
     localFaqs: [
       {
         q: 'Independence is the county seat — does the county handle my permit?',
-        a: 'No, the city does, and it is a common and understandable mix-up because the county offices are here. Independence issues its own electrical permits and inspections. Filing with the county means the paperwork comes back and gets redone, and after a storm that is a day you would rather not spend.',
+        a: 'No, the city does, and it is a common and understandable mix-up because the county offices are here. Independence issues its own electrical permits and inspections. Filing with the county means the paperwork comes back and gets redone, and after a storm that is a day you would rather not spend. The utility, as throughout Northern Kentucky, is Duke Energy Kentucky.',
       },
     ],
   },
@@ -202,7 +202,7 @@ export const part9: Record<string, LocationServiceCopy> = {
     localFaqs: [
       {
         q: 'My Cold Spring subdivision is newer. Do I need an electrician after a storm?',
-        a: 'Possibly not, and we would rather say so than send someone out. If your street is fed underground there is no mast or weatherhead to be damaged. If the whole street is dark it is a utility outage and you wait. If only your house is out, look at the meter base and consider surge damage in the panel — worth checking, but usually a smaller job than a service rebuild.',
+        a: 'Possibly not, and we would rather say so than send someone out. If your street is fed underground there is no mast or weatherhead to be damaged. If the whole street is dark it is a utility outage and you wait. If only your house is out, look at the meter base and consider surge damage in the panel — worth checking, but usually a smaller job than a service rebuild. Report outages to Duke Energy Kentucky rather than Duke Energy Ohio.',
       },
     ],
   },
@@ -219,7 +219,7 @@ export const part9: Record<string, LocationServiceCopy> = {
     localFaqs: [
       {
         q: 'I am on a well outside Alexandria and the power is out. Does that change anything?',
-        a: 'It makes it considerably more urgent, and it is worth saying when you call. A well pump needs electricity, so no power means no water for washing, flushing or drinking, and a septic system with a pump is affected too. Tell us on the phone — it changes how we prioritise the visit and it is not something we can tell from the address.',
+        a: 'It makes it considerably more urgent, and it is worth saying when you call. A well pump needs electricity, so no power means no water for washing, flushing or drinking, and a septic system with a pump is affected too. Tell us on the phone — it changes how we prioritise the visit and it is not something we can tell from the address. Note too that the utility here is Duke Energy Kentucky, with its own crews and restoration schedule.',
       },
     ],
   },
@@ -253,7 +253,7 @@ export const part9: Record<string, LocationServiceCopy> = {
     localFaqs: [
       {
         q: 'My Hebron property is on a well and set back from the road. What should I tell you when I call?',
-        a: 'That you are on a well, and roughly how far the house sits from the road. The well matters because no power means no water, which changes how we prioritise the visit. The distance matters because on a long private run the damage is often out along the line rather than at the house, and knowing that in advance means we arrive equipped to find it.',
+        a: 'That you are on a well, and roughly how far the house sits from the road. The well matters because no power means no water, which changes how we prioritise the visit. The distance matters because on a long private run the damage is often out along the line rather than at the house, and knowing that in advance means we arrive equipped to find it. Report the outage itself to Duke Energy Kentucky rather than Duke Energy Ohio.',
       },
     ],
   },
@@ -270,7 +270,7 @@ export const part9: Record<string, LocationServiceCopy> = {
     localFaqs: [
       {
         q: 'Why does the old part of Burlington seem to suffer more storm damage?',
-        a: 'Two reasons together. The trees around the courthouse core are far older and heavier than the planting in the newer subdivisions, so what comes down is bigger. And the older houses are on overhead service with masts and weatherheads to lose, while much of the newer building is fed underground and simply does not have those components.',
+        a: 'Two reasons together. The trees around the courthouse core are far older and heavier than the planting in the newer subdivisions, so what comes down is bigger. And the older houses are on overhead service with masts and weatherheads to lose, while much of the newer building is fed underground and simply does not have those components. Either way the utility is Duke Energy Kentucky.',
       },
     ],
   },
@@ -287,7 +287,7 @@ export const part9: Record<string, LocationServiceCopy> = {
     localFaqs: [
       {
         q: 'My whole Union street is dark. Do I need an electrician?',
-        a: 'Almost certainly not. On streets fed underground there is no mast or weatherhead to lose, and a whole dark street points at the utility line rather than at anyone’s own equipment. Report it and wait. It is worth calling us if your house alone is out while the neighbours have lights — that points at the meter base or the panel and is worth looking at.',
+        a: 'Almost certainly not. On streets fed underground there is no mast or weatherhead to lose, and a whole dark street points at the utility line rather than at anyone’s own equipment. Report it and wait. It is worth calling us if your house alone is out while the neighbours have lights — that points at the meter base or the panel and is worth looking at. Report the outage itself to Duke Energy Kentucky.',
       },
     ],
   },
@@ -304,7 +304,7 @@ export const part9: Record<string, LocationServiceCopy> = {
     localFaqs: [
       {
         q: 'Restoration always seems slow out in Walton. Is there anything I can do?',
-        a: 'Not about the utility side — being at the edge of the metro genuinely means later in the sequence. What you can control is your own equipment. If your mast or meter box is damaged, having it repaired and inspected while the line is still out means you are ready the moment power reaches the street rather than starting the process then.',
+        a: 'Not about the utility side — being at the edge of the metro genuinely means later in the sequence. What you can control is your own equipment. If your mast or meter box is damaged, having it repaired and inspected while the line is still out means you are ready the moment power reaches the street rather than starting the process then. Duke Energy Kentucky is the utility here, with its own restoration sequence.',
       },
     ],
   },

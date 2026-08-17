@@ -76,7 +76,7 @@ const faqs = [
   },
   {
     q: 'Do I need a permit for a storm repair?',
-    a: 'For mast, meter base, or entrance cable work, yes, and it needs an inspection before reconnect. We pull it. An emergency is not an exemption, and a repair that skips the permit is a repair Duke will not energise.',
+    a: 'For mast, meter base, or entrance cable work, yes, and it needs an inspection before reconnect. We pull it. Emergency work can usually begin before the paperwork is filed — most local authorities allow the permit to follow on the next business day — but it still has to be filed and inspected. A repair that skips it altogether is one Duke will not energise.',
   },
   {
     q: 'Everything looks fine outside but half my house has no power. What is that?',
