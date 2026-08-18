@@ -66,11 +66,10 @@ const whyUs = [
 
 const faqs = [
   { q: 'What types of basement lighting options do you offer?', a: 'We install recessed lighting, LED basement lights, ceiling fixtures, and other lighting solutions designed for basement spaces.' },
-  { q: 'Can I install basement lights myself?', a: 'Some lighting upgrades may appear simple, but professional installation ensures safe wiring and proper electrical connections.' },
-  { q: 'Will upgrading my basement lighting increase my home’s value?', a: 'Better lighting can make finished basements more functional and appealing, which may improve overall home value.' },
+  { q: 'Can I install basement lights myself?', a: 'For a like-for-like fixture swap on an existing circuit, plenty of homeowners manage it, and we are not going to pretend otherwise. Where it stops being a DIY job is adding circuits, cutting into a finished ceiling, or wiring in a damp basement — fixtures there need the right damp rating and the circuit may need GFCI protection. That work wants a permit and an inspection in most jurisdictions here.' },
+  { q: 'Will upgrading my basement lighting increase my home’s value?', a: 'Lighting on its own does not move an appraisal much. What it does is make a finished basement read as usable living space rather than storage, and that is what buyers actually respond to. If the basement is unfinished, spend the money on lighting you will enjoy rather than on resale.' },
   { q: 'Do you handle wiring and electrical work as part of the installation?', a: 'Yes. Our electricians complete all required electrical work, including wiring and fixture installation.' },
-  { q: 'How long does basement lighting installation typically take?', a: 'Installation time depends on your basement’s size and specific requirements.' },
-  { q: 'How long will the installation take?', a: 'Most basement lighting installations can be completed within one day, depending on the number of fixtures and the layout of the space.' },
+  { q: 'How long will the installation take?', a: 'Most basement lighting installations are done within a day, depending on the number of fixtures and the layout of the space. An unfinished ceiling is quicker than one we have to work above or open up.' },
 ];
 
 const serviceSchema = {

@@ -18,10 +18,10 @@ export const metadata: Metadata = {
 
 const signs = [
   { lead: 'Weird Noises', text: 'If it’s rattling or making more noise than usual, something’s off. This could be due to loose parts or trapped debris.' },
-  { lead: 'Frequent Jams', text: 'If your disposal is locking up often, the blades might be dull, or the motor could be struggling.' },
+  { lead: 'Frequent Jams', text: 'If your disposal is locking up often, the impellers or grind ring may be worn, or the motor could be struggling.' },
   { lead: 'Bad Smells That Won’t Leave', text: 'Stubborn odors usually mean there’s old food or grease stuck in the unit.' },
   { lead: 'Leaks Under the Sink', text: 'Is there water where it shouldn’t be? That might be a cracked gasket, faulty pipe, or worn-out seal.' },
-  { lead: 'Humming but Not Spinning', text: 'A humming motor with little action can point to jammed blades or motor issues.' },
+  { lead: 'Humming but Not Spinning', text: 'A humming motor with nothing turning usually means the impeller plate is jammed, or the motor itself has failed.' },
 ];
 
 const whyChoose = [
@@ -40,10 +40,10 @@ const whyUs = [
 ];
 
 const faqs = [
-  { q: 'What causes a garbage disposal to jam so often?', a: 'Jams usually happen because of hard food scraps, bones, silverware, or fibrous materials like celery or corn husks. Over time, these items wear down the motor or get tangled in the blades, which can lead to repairs or replacement.' },
+  { q: 'What causes a garbage disposal to jam so often?', a: 'Hard scraps, bones, silverware, and fibrous material like celery or corn husks are the usual culprits. Worth knowing: a disposal has no blades. It uses blunt impellers to fling waste against a stationary grind ring, so fibrous strands wrap around the impellers rather than being cut, and that is what stalls the motor.' },
   { q: 'What are the signs I need garbage disposal repair instead of replacement?', a: 'If your disposal turns on but hums without grinding, leaks from the bottom, or resets constantly, repair may be the answer. We inspect the motor, electrical components, gaskets, and pipes to identify the underlying problem.' },
-  { q: 'Why does my garbage disposal smell bad even after cleaning?', a: 'Bad odors stick around when food particles build up inside the unit or the drain pipe. Grease and food remnants can collect beneath the blades or within the drainage system even after cleaning attempts.' },
-  { q: 'Do I need regular maintenance on my garbage disposal?', a: 'Your garbage disposal might be small, but it works hard every day and deserves the same kind of attention. Regular upkeep helps catch buildup, rust, and early wear before they turn into failures.' },
+  { q: 'Why does my garbage disposal smell bad even after cleaning?', a: 'Bad odors stick around when food particles build up inside the unit or the drain pipe. Grease and food remnants collect under the splash guard, around the grind ring, and in the drain line, where rinsing and running the unit never reaches them.' },
+  { q: 'Do I need regular maintenance on my garbage disposal?', a: 'Very little, honestly. Run cold water while it grinds and for a few seconds after, and keep grease and fibrous scraps out. Grinding ice or citrus peel does no harm but does less than the internet suggests. The one thing we would avoid is chemical drain cleaner, which sits on the metal rather than draining away. If it is jamming or leaking, that is a repair question rather than a maintenance one.' },
   { q: 'Can you install a new garbage disposal unit in a home that didn’t have one before?', a: 'Yes, we can. We’ll take care of the plumbing and electrical wiring needed to support a brand-new garbage disposal unit.' },
 ];
 

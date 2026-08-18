@@ -61,7 +61,7 @@ const faqs = [
   { q: 'What happens if I skip AC maintenance?', a: 'Skipping maintenance can lead to reduced performance, higher energy use, and an increased risk of breakdowns.' },
   { q: 'How often should air conditioners be serviced?', a: 'Most systems benefit from annual maintenance, especially before the cooling season.' },
   { q: 'Can AC maintenance improve indoor air quality?', a: 'Yes. Maintenance includes checking airflow and air filters, which can help reduce dust buildup and improve indoor air quality.' },
-  { q: 'Is AC maintenance required to keep my warranty valid?', a: 'Many manufacturers require regular professional maintenance to maintain warranty coverage. An annual tune-up helps document proper system care.' },
+  { q: 'Is AC maintenance required to keep my warranty valid?', a: 'Often, yes. Most manufacturers make annual professional maintenance a condition of the parts warranty, and some will ask for records before paying a claim. Keep the invoices — the paper trail matters as much as the service when something expensive fails at year eight.' },
 ];
 
 const serviceSchema = {

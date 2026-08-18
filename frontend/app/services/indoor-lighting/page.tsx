@@ -55,7 +55,7 @@ const faqs = [
   { q: 'Can I get custom lighting designs for my home?', a: 'Yes. Our electricians can help design lighting layouts that improve brightness and match the style of each room.' },
   { q: 'How do I choose the right lighting for each room?', a: 'Our electricians help you select lighting based on the function of each space. Kitchens may need brighter task lighting, while living rooms often benefit from layered lighting that combines ambient and accent fixtures.' },
   { q: 'Do you offer energy-efficient lighting options?', a: 'Yes. LED lighting installation is one of the most common upgrades because it provides strong illumination while using less energy.' },
-  { q: 'Can you install lighting in older homes?', a: 'Yes. Our electricians regularly update lighting in older homes and make sure the wiring meets modern electrical standards.' },
+  { q: 'Can you install lighting in older homes?', a: 'Yes, and older homes come with two specific surprises. Many ceiling boxes have no ground wire, which limits which fixtures can be installed until that is addressed. And most switch boxes have no neutral, which is what stops a lot of smart switches working. Both are solvable, but they are worth finding out about before you buy fixtures.' },
   { q: 'Do you offer lighting for specific rooms like kitchens or bathrooms?', a: 'Yes. We install lighting systems for kitchens, bathrooms, basements, garages, and other indoor spaces.' },
 ];
 

@@ -69,10 +69,10 @@ const whyUs = [
 ];
 
 const faqs = [
-  { q: 'What is landscape lighting?', a: 'Landscape lighting refers to exterior lighting designed to highlight landscaping features and improve safety around your property.' },
+  { q: 'What is landscape lighting?', a: 'It is exterior lighting aimed at the ground and the planting rather than at the house — path lights, uplights on trees, well lights, step lights. It generally runs low-voltage off a 12-volt transformer, which is why it is cheaper to run and safer to work around than line-voltage fixtures on the building itself.' },
   { q: 'What is the benefit of an outdoor lighting installation?', a: 'Outdoor lighting installation improves visibility, enhances security, increases curb appeal, and expands usable outdoor space.' },
   { q: 'How long does an exterior lighting installation take?', a: 'Most projects are completed within one day. Larger exterior lighting installation systems may require additional time.' },
-  { q: 'Is a professional outdoor lighting installation better than DIY?', a: 'Yes. Professional installation ensures proper wiring, safe electrical connections, and reliable system performance.' },
+  { q: 'Is a professional outdoor lighting installation better than DIY?', a: 'It depends what you are doing. Plug-in fixtures on an existing outdoor receptacle are a fair weekend job, and we will say so rather than sell you a visit. Where it needs an electrician is new circuits, anything switched from indoors, buried cable, and fixture ratings — a light exposed to rain needs a wet-location rating, and an indoor fixture put outside fails in a season or two.' },
   { q: 'What kind of outdoor lights do you install?', a: 'We install pathway lighting, accent lighting, patio lighting, outdoor landscape lighting systems, security lighting, and holiday lighting.' },
   { q: 'Can outdoor lights increase energy efficiency?', a: 'Yes. Modern LED light fixtures use less electricity and last longer than traditional bulbs.' },
 ];

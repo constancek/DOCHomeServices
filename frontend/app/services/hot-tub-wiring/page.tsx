@@ -71,7 +71,7 @@ const whyUs = [
 
 const faqs = [
   { q: 'How do I know if I need professional hot tub electrical installation?', a: 'If your spa requires a 240V circuit, GFCI protection, or breaker panel upgrades, professional installation is recommended.' },
-  { q: 'Can I handle a hot tub electrical hook up myself?', a: 'Because hot tubs combine water and electricity, hiring a licensed electrician ensures safety and code compliance.' },
+  { q: 'Can I handle a hot tub electrical hook up myself?', a: 'No, and this is one we would talk you out of even if you are handy. A spa needs a dedicated GFCI-protected circuit and a disconnect placed within sight of the tub but set back from it, and the work has to be inspected. Water and 240 volts together is the exact combination those rules exist for.' },
   { q: 'How long does the installation take?', a: 'Most hot tub electrical wiring projects are completed within one day, depending on panel capacity and installation distance.' },
   { q: 'What safety measures do you follow during installation?', a: 'We follow NEC standards, install GFCI protection, verify proper grounding, confirm correct wire gauge, and test system performance.' },
   { q: 'Is hot tub electrical wiring worth it?', a: 'Yes. Professional installation protects your equipment, prevents electrical hazards, and ensures reliable spa operation.' },

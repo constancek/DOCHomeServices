@@ -67,9 +67,9 @@ const whyUs = [
 
 const faqs = [
   { q: 'Can recessed lights be used in bathrooms or damp areas?', a: 'Yes. Some recessed lighting fixtures are designed for bathrooms and damp spaces when installed properly.' },
-  { q: 'Do I need an electrician or can I DIY?', a: 'Recessed lighting installation involves electrical wiring and ceiling work. Hiring an electrician helps ensure safe installation.' },
+  { q: 'Do I need an electrician or can I DIY?', a: 'Swapping a trim or a bulb is yours to do. Cutting new holes is where it changes: the housing has to be rated for contact with insulation if there is insulation above it, a fire-rated ceiling cannot simply be cut into, and new fixtures usually mean a new circuit or at least a load check. That part is an electrician and, in most jurisdictions here, a permit.' },
   { q: 'How much does recessed lighting installation typically cost?', a: 'Costs depend on the number of fixtures, ceiling access, and the electrical work required.' },
-  { q: 'Can recessed lighting increase home value?', a: 'Many homeowners install recessed lighting because it improves brightness and modernizes a room.' },
+  { q: 'Can recessed lighting increase home value?', a: 'It can help, though not the way a kitchen or bathroom does. What buyers notice is a room that is well lit and looks current, and recessed lighting gives you both without taking up floor or wall space. Treat it as a comfort upgrade that shows well rather than money you get back.' },
   { q: 'How long do recessed LED lights last?', a: 'LED recessed lights typically last many years and use less electricity than traditional bulbs.' },
 ];
 

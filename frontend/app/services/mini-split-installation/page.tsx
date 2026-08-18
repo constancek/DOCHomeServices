@@ -70,7 +70,7 @@ const whyUs = [
 
 const faqs = [
   { q: 'How long does a ductless mini-split installation take?', a: 'A single-zone installation often takes a few hours to most of a day. Multi-zone systems with several indoor heads take longer — we will give you a clear time estimate up front.' },
-  { q: 'What is a good SEER rating for a mini-split system?', a: 'Many quality mini-splits land in the 18–22+ SEER range, and higher numbers mean greater efficiency and lower bills. We help you balance efficiency against budget when choosing a system.' },
+  { q: 'What is a good efficiency rating for a mini-split?', a: 'Ratings are given as SEER2 now, tested under a tougher procedure than the old SEER figure, so the numbers read lower on the same equipment. Plenty of good ductless systems sit in the high teens to low twenties SEER2. Compare quotes on the same measure rather than against an older brochure, and we will help you weigh efficiency against budget.' },
   { q: 'Does a ductless mini-split installation require major home changes?', a: 'No. A mini-split only needs a small (roughly three-inch) hole for the line set that connects the indoor and outdoor units, so it is far less invasive than adding or extending ductwork.' },
   { q: 'What are the signs I need a new ductless mini-split system?', a: 'Rooms that no longer cool or heat evenly, weak airflow, rising energy bills, ongoing comfort issues, and an aging system that no longer meets your needs are all signs it may be time for a new system.' },
   { q: 'Will a new ductless mini-split system improve efficiency?', a: 'Yes. Inverter-driven compressors adjust output to demand and there are no duct losses, so a new mini-split typically uses noticeably less energy than older equipment.' },

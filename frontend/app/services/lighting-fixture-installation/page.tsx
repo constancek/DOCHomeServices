@@ -69,7 +69,7 @@ const faqs = [
   { q: 'Can you replace existing lighting fixtures?', a: 'Yes. Our electricians provide light fixture replacement services for outdated or damaged fixtures.' },
   { q: 'Do you offer energy-efficient lighting options?', a: 'Yes. Many modern lighting fixtures support LED bulbs that provide strong brightness while using less electricity.' },
   { q: 'How long will light fixture installation take?', a: 'Most installations can be completed during a single service visit, depending on the number of fixtures and electrical connections involved.' },
-  { q: 'Should you DIY or hire a professional to install light fixtures?', a: 'Professional installation ensures wiring is handled safely and the fixture is mounted securely. This reduces the risk of electrical issues and ensures proper performance.' },
+  { q: 'Should you DIY or hire a professional to install light fixtures?', a: 'Replacing a light for a similar one on an existing box is a reasonable DIY job if you are confident at the panel. Call someone when the box is not rated for the weight — a heavy fixture or anything with a fan needs a fan-rated box, not a standard one — when there is no ground wire in an older ceiling, or when you are adding a fixture where none existed. That last one needs a permit in most jurisdictions here.' },
 ];
 
 const serviceSchema = {

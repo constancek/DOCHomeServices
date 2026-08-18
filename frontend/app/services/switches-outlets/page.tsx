@@ -35,7 +35,7 @@ const whatsInvolved = [
   {
     title: 'Preparing for the Installation',
     paras: [
-      'Before we replace anything, we make sure everything is ready for a seamless installation. That includes testing your electrical panel to confirm it can handle new installations and checking the wiring throughout your home. Proper preparation prevents hazards like shocks or short circuits.',
+      'Before we replace anything, we check that the rest of the system can take it. That includes testing your electrical panel to confirm it can handle new installations and checking the wiring throughout your home. Proper preparation prevents hazards like shocks or short circuits.',
       'We also flag upgrades that support long-term safety and efficiency — for example, improvements to indoor lighting systems and light switch wiring — so every part of your electrical system stays reliable.',
     ],
   },
@@ -79,7 +79,7 @@ const whyUs = [
 
 const faqs = [
   { q: 'What is involved in a switch installation?', a: 'Switch installation includes evaluating home wiring, confirming code compliance, and connecting the switch to the appropriate circuit for reliable operation.' },
-  { q: 'What are the benefits of GFCI outlets?', a: 'GFCI outlets reduce the risk of electrical shock by shutting off power when moisture is detected, making them essential in kitchens and bathrooms.' },
+  { q: 'What are the benefits of GFCI outlets?', a: 'A GFCI compares the current going out against the current coming back, and cuts power in a fraction of a second if even a few milliamps go missing — which is what happens when it starts travelling through a person instead. It does not sense water; water is simply the most common reason that leak occurs, which is why code requires them in kitchens, bathrooms, garages, basements, and outdoors.' },
   { q: 'How can I tell if my light switches are faulty?', a: 'Signs include flickering lights, unusual sounds, or no response when toggled. We can diagnose and repair the issue.' },
   { q: 'How do I know if I need outlet installation services?', a: 'Consider installation if your home lacks sufficient outlets or you experience issues like tripped breakers and over-reliance on extension cords.' },
   { q: 'Why is outlet installation important?', a: 'Proper installation ensures safe, efficient power distribution while protecting your home and devices from electrical issues.' },

@@ -58,10 +58,10 @@ const whyUs = [
 
 const faqs = [
   { q: 'How long does the patio lighting installation take?', a: 'Most patio lighting installations are completed in a single day, depending on the size of the space and the number of fixtures.' },
-  { q: 'Is the installation process disruptive?', a: 'No. Our team works efficiently and keeps disruption minimal while installing the lighting system.' },
-  { q: 'Why should I hire a patio lighting professional?', a: 'A professional ensures proper wiring, safe electrical connections, and balanced lighting placement.' },
+  { q: 'Is the installation process disruptive?', a: 'Mostly not, and where it will be we say so first. Running a new circuit out to the patio is the part that can mean lifting a little sod or getting into a soffit, and on a covered patio we may need ceiling access. Hanging fixtures on an existing outdoor circuit is a quiet afternoon by comparison.' },
+  { q: 'Why should I hire a patio lighting professional?', a: 'Honestly, for plug-in string lights on an existing outdoor receptacle you do not need one — hang them properly, use the receptacle’s GFCI, and enjoy the evening. Call us when there is no outdoor receptacle to use, when you want fixtures wired in and switched from inside, or when what is out there now is an indoor-rated fixture that has been weathering for years. Anything exposed to rain needs a wet-location rating, not just an outdoor look.' },
   { q: 'Do you install hanging patio lights?', a: 'Yes. We install string lights, hanging fixtures, and other decorative patio lighting designed for outdoor use.' },
-  { q: 'How do you ensure the lighting system connects to electrical power safely?', a: 'Our licensed electricians install outdoor-rated wiring and test the system to ensure safe operation.' },
+  { q: 'How do you ensure the lighting system connects to electrical power safely?', a: 'Everything outdoors runs on GFCI protection, which is what cuts power if moisture starts a leakage path. Fixtures are rated for where they actually sit — wet-location for anything exposed to rain, damp-location under a solid roof — and connections are made in weatherproof boxes rather than taped. String lights get proper strain relief so the weight hangs on a cable, not on the wiring.' },
 ];
 
 const serviceSchema = {

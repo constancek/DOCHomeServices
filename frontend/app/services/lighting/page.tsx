@@ -66,7 +66,7 @@ const faqs = [
   { q: 'How do I choose the right outdoor lighting for my home?', a: 'Outdoor lighting should illuminate entryways, walkways, and outdoor living areas. Our electricians can recommend lighting that improves both safety and appearance.' },
   { q: 'How long does it take to install new lighting?', a: 'Many lighting installations can be completed in one visit, depending on the number of fixtures and electrical connections involved.' },
   { q: 'What indoor lighting solutions do you offer?', a: 'We install recessed lighting, lighting fixtures, LED lighting, and other indoor lighting options for modern homes.' },
-  { q: 'Do you offer LED light installation?', a: 'Yes. LED lighting provides strong brightness while using less energy than traditional bulbs.' },
+  { q: 'Do you offer LED light installation?', a: 'Yes. The one thing worth knowing before switching a room over: an old dimmer built for incandescent bulbs will often buzz or make LEDs flicker, because it was made for a far heavier load. An LED-compatible dimmer sorts it. Simple bulb swaps you can do yourself — we would rather tell you that than bill for it.' },
 ];
 
 const serviceSchema = {

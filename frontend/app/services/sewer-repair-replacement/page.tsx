@@ -59,7 +59,7 @@ const whyUs = [
 
 const faqs = [
   { q: 'Can I get financing for my sewer line repair or replacement?', a: 'Yes. Sewer work is a bigger investment, so we offer financing with a quick application and flexible terms — your home does not have to wait for a repair it needs now.' },
-  { q: 'What is the life expectancy of a sewer line?', a: 'It depends on the material: clay lines often last 50–60 years, cast iron 75–100, and modern PVC can last 100+. If your home still has an original older line, it is worth a camera inspection.' },
+  { q: 'What is the life expectancy of a sewer line?', a: 'It depends on the material: clay lines often last 50–60 years, cast iron 50–75, and modern PVC well beyond either. If your home still has an original older line, it is worth a camera inspection.' },
   { q: 'How do I know if my main sewer line is clogged?', a: 'The tell-tale sign is several fixtures backing up at once — a toilet that gurgles when the washer drains, water at a basement floor drain, or multiple slow drains. Those point to the main line, not a single fixture.' },
   { q: 'Can tree roots damage my sewer line?', a: 'Yes — it is one of the most common causes of sewer trouble. Roots are drawn to the moisture in the line and work into joints and small cracks, causing blockages and eventually breaks. A camera inspection confirms it.' },
   { q: 'How often should I have my sewer pipe inspected?', a: 'Every couple of years is reasonable for an older home, and it is smart to inspect before buying a house or after any recurring backup.' },

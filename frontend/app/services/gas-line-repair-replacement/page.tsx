@@ -55,11 +55,11 @@ const whyUs = [
 ];
 
 const faqs = [
-  { q: 'How can I identify gas line problems?', a: 'Strong sulfur odors, hissing sounds, dead grass patches, or appliance failures all warrant a professional inspection.' },
-  { q: 'What happens during emergency repairs?', a: 'Technicians respond quickly, locate the leak, shut off gas safely if needed, and complete repairs following strict safety protocols.' },
-  { q: 'What is the difference between repair and replacement?', a: 'A repair addresses specific damage, while replacement involves removing and installing new piping for more systemic issues.' },
-  { q: 'Is natural gas work different from other plumbing?', a: 'Yes. Qualified professionals must ensure proper sealing, safety compliance, and code adherence on every gas line job.' },
-  { q: 'What causes gas line leaks?', a: 'Corrosion, loose connections, construction damage, pressure buildup, or tree root interference can all cause leaks.' },
+  { q: 'How can I identify gas line problems?', a: 'The rotten-egg smell is mercaptan, added to natural gas precisely so you notice it. Also worth acting on: hissing near a line or appliance, a dead patch of grass over a buried run, soot marks around a burner, or pilots that will not stay lit. If you can smell gas, leave on foot first — do not flip switches or use your phone indoors — then call 911 and Duke Energy from outside. Diagnosis comes after everyone is out.' },
+  { q: 'What happens during emergency repairs?', a: 'We isolate the section, find the leak rather than guess at it, and repair it. Then the piping is pressurised and watched on a gauge until it holds, because a repair nobody tested is not a finished job. Where the work needed a permit it is inspected, and only then will the utility restore service — they stop at the meter and will not put gas into piping they cannot vouch for.' },
+  { q: 'What is the difference between repair and replacement?', a: 'A repair fixes one fault — a weeping joint, a corroded section, a failed connector. Replacement becomes the answer when a pressure test keeps failing in different places, which tells you the pipe itself is at the end of its life rather than that you have been unlucky. Older houses also accumulate capped stubs from appliances removed decades ago, and enough of those makes replacing a run cheaper than chasing each one.' },
+  { q: 'Is natural gas work different from other plumbing?', a: 'Yes, in one important respect. With water, a bad joint announces itself. With gas it does not, which is why the pressure test rather than the repair is what decides whether a job is finished. Gas work also carries permit and inspection requirements that swapping a tap does not, and on the Kentucky side that inspection runs through the state plumbing code rather than a city building department.' },
+  { q: 'What causes gas line leaks?', a: 'Corrosion on older black iron, joints worked loose over decades of expansion and contraction, damage from digging or a remodel, and appliance connectors disturbed by later work. On newer houses piped in CSST the common finding is not a leak at all but missing bonding to the electrical grounding system — an inspection failure rather than a gas escape, and a far smaller correction.' },
 ];
 
 const serviceSchema = {

@@ -58,10 +58,10 @@ const whyUs = [
 ];
 
 const faqs = [
-  { q: 'What is the benefit of professional holiday lighting installation?', a: 'Professional installation ensures safety, high-quality results, and a polished holiday light display without the risks of DIY decorating.' },
+  { q: 'What is the benefit of professional holiday lighting installation?', a: 'Two things, mainly: nobody in your family goes up a ladder in December, and the display comes down again in January without anyone having to think about it. The practical part is load — a roofline of retail light sets can pull more than the circuit it is plugged into wants to give, and outdoor runs need GFCI protection. We plan the circuits as well as the layout.' },
   { q: 'How do custom holiday lights work?', a: 'We create a lighting design tailored to your home or business, install commercial-grade lights, and remove them after the holiday season.' },
   { q: 'Can I choose the design for my lights?', a: 'Yes. You can select color schemes, layout preferences, and specific areas you want highlighted.' },
-  { q: 'How long does the installation process take?', a: 'Most holiday light installation projects are completed in one day, depending on property size and design complexity.' },
+  { q: 'How long does the installation process take?', a: 'Most homes are a single day. Book early rather than late in the season — the calendar fills from November, and roof work stops being pleasant or safe once there is ice on it. Removal is scheduled at the same time as the install so it does not become your problem in January.' },
   { q: 'How much will holiday lighting cost me?', a: 'The cost to have holiday lights installed depends on home size, design complexity, and materials. We provide a free estimate to give you clear pricing upfront.' },
 ];
 

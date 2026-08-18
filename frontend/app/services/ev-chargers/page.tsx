@@ -78,7 +78,7 @@ const whyUs = [
 const faqs = [
   { q: 'Do I need a professional electrician to install an EV charger?', a: 'Yes. Installing a Level 2 EV charger requires proper circuit sizing and panel evaluation. A licensed electrician makes sure the installation meets safety standards.' },
   { q: 'How long does it take to install a home EV charging station?', a: 'Most installations take several hours. If panel upgrades are required, the project may take longer — we explain the timeline before we begin.' },
-  { q: 'Do I need a special electrical system for an EV charger?', a: 'Your home needs sufficient capacity to support electric vehicle charging. We evaluate your electric panel before installation so there are no surprises.' },
+  { q: 'Do I need a special electrical system for an EV charger?', a: 'Not a special system, but a dedicated one. A Level 2 charger wants its own 240-volt circuit, typically on a 40 to 60 amp breaker depending on the unit, and that only works if the panel has the capacity spare. We run a load calculation rather than eyeballing the panel. Where the capacity genuinely is not there, a load-management device that throttles charging when the house is busy is often cheaper than a service upgrade, and we will price both so you can choose.' },
   { q: 'Can I install an EV charger outside?', a: 'Yes. Many charging units are rated for outdoor installation. Proper mounting and weather protection are essential, and we handle both.' },
   { q: `Does ${site.name} offer financing options in ${site.serviceArea}?`, a: `Yes. We offer financing options to help make EV charger installation more affordable for homeowners across ${site.serviceArea}.` },
 ];

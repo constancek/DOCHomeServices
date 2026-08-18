@@ -51,7 +51,7 @@ const faqs = [
   { q: 'What are indoor air quality services, and why are they important?', a: 'IAQ services combine air testing with solutions like filtration, purifiers, humidifiers, dehumidifiers, and ventilation to reduce contaminants. They matter because most of us spend the majority of our time indoors, where pollutants can concentrate.' },
   { q: 'What types of indoor air pollutants can affect my home?', a: 'Dust, pollen, pet dander, mold spores, bacteria and viruses, chemical fumes (VOCs) from cleaners and building materials, and both excess and low humidity can all affect your air.' },
   { q: 'Can poor air quality affect my HVAC system?', a: 'Yes. A buildup of dust and debris strains your equipment, reduces efficiency, and leads to more breakdowns — so cleaner air helps your HVAC system last longer too.' },
-  { q: 'How often should I replace air filters?', a: 'Monthly is ideal (as Energy Star recommends), and every three months at a minimum — more often with pets or during heavy heating and cooling seasons.' },
+  { q: 'How often should I replace air filters?', a: 'ENERGY STAR advises checking the filter monthly during heavy heating and cooling months and changing it every three months at a minimum. In practice a standard 1-inch filter wants changing every one to three months, sooner with pets or allergies, while a thicker media filter can run several months.' },
 ];
 
 const serviceSchema = {
@@ -224,10 +224,11 @@ export default function IndoorAirQualityPage() {
           <h2 className="mt-12 section-title text-brand-700">When to Change Your Air Filter</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Your air filters should be changed regularly to keep your HVAC system performing and energy
-            use down. A good rule of thumb is monthly — as Energy Star recommends — or every three
-            months at a minimum, especially during a heavy heating or cooling season. This simple task
-            extends the life of your HVAC system, lowers monthly energy costs, and keeps your indoor air
-            safe.
+            use down. ENERGY STAR advises checking the filter monthly through the heavy heating and
+            cooling months and changing it every three months at a minimum. In practice a standard
+            1-inch filter wants changing every one to three months, sooner with pets or allergies, while
+            a thicker media filter can run several months. It is the cheapest thing you can do to
+            protect airflow, hold down running costs, and keep the air in the house clean.
           </p>
 
           {/* Humidifiers */}

@@ -58,11 +58,11 @@ const whyUs = [
 ];
 
 const faqs = [
-  { q: 'What is LED lighting, and how does it work?', a: 'LED stands for light-emitting diode. These lights use advanced technology to produce bright illumination while using less electricity than traditional bulbs.' },
-  { q: 'How does LED lighting save energy?', a: 'LED lights convert more electricity into light rather than heat. This makes them more efficient and helps reduce energy consumption.' },
+  { q: 'What is LED lighting, and how does it work?', a: 'LED stands for light-emitting diode: current passes through a semiconductor and it emits light directly, rather than heating a filament until it glows. That is the whole reason for the efficiency — an incandescent bulb spent most of its energy as heat and gave you light as a side effect.' },
+  { q: 'How does LED lighting save energy?', a: 'They convert far more of the electricity into light instead of heat, which is where an incandescent bulb lost most of it. One thing to watch when switching over: an older dimmer built for incandescent loads often buzzes or makes LEDs flicker, because it was designed for a much heavier load. The fix is an LED-compatible dimmer, and it is a small job rather than a mystery fault.' },
   { q: 'Where do you install LED lights?', a: 'LED lighting can be installed in kitchens, living rooms, hallways, basements, garages, and other indoor spaces. They are also commonly used for recessed lighting and under-cabinet lighting.' },
-  { q: 'How much do LED lights cost?', a: 'Costs vary depending on the number of fixtures, installation complexity, and lighting type. Many homeowners find the long-term energy savings make LED lighting a worthwhile investment.' },
-  { q: 'How can I customize LED lighting for my home?', a: 'LED lighting can be customized through fixture style, brightness levels, and color temperature. Our electricians help design lighting systems that match the layout and style of your home.' },
+  { q: 'How much do LED lights cost?', a: 'Fixtures themselves are inexpensive now; the cost is in the labour and any wiring involved. Worth saying plainly: swapping bulbs for LED equivalents is something you can do yourself in an afternoon and we would not charge you to watch. Where it becomes our job is recessed housings, under-cabinet runs, new circuits, or dimmers that need changing to work with LED.' },
+  { q: 'How can I customize LED lighting for my home?', a: 'The one that changes how a room feels is colour temperature. Around 2700K is the warm light people expect in living rooms and bedrooms; 3000K suits kitchens and bathrooms; 4000K and above reads cool and belongs in a garage or workshop rather than a lounge. For kitchens also look at colour rendering — a high-CRI lamp is the difference between food looking appetising and looking grey.' },
 ];
 
 const serviceSchema = {

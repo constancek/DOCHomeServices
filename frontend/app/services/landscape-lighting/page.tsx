@@ -67,11 +67,11 @@ const whyUs = [
 ];
 
 const faqs = [
-  { q: 'How expensive is it to install landscape lighting?', a: 'Costs depend on property size, fixture quantity, wiring requirements, and system type. Low-voltage systems are often more cost-effective for residential properties.' },
+  { q: 'How expensive is it to install landscape lighting?', a: 'It scales with fixture count and how far the wire has to run, not with the size of the property as such. Most homes here go low-voltage, which runs on a 12-volt transformer and is cheaper to install and safer to work around than line-voltage fixtures. We quote a flat rate after walking the property, because the layout drives the number more than anything else.' },
   { q: 'What types of landscape lights are available?', a: 'Options include path lights, spotlights, flood lights, well lights, and step lights. Each serves a specific purpose within a lighting system.' },
-  { q: 'Are LED landscape lights worth it?', a: 'Yes. LED lighting is energy efficient, long lasting, and provides consistent brightness.' },
-  { q: 'Why hire professional landscape lighting installers?', a: 'Professional installers ensure safe wiring, proper spacing, and balanced design that performs reliably.' },
-  { q: 'Is landscape lighting weather-resistant?', a: 'Yes. Outdoor lighting systems use weather-rated components designed to withstand moisture and seasonal conditions.' },
+  { q: 'Are LED landscape lights worth it?', a: 'Yes, and for one reason beyond efficiency: a low-voltage LED draws so little current that voltage drop over a long run stops being the problem it was with halogen. That is what used to make the last fixtures on a line look dim and yellow. LED also means you are not out replacing buried bulbs every couple of seasons.' },
+  { q: 'Why hire professional landscape lighting installers?', a: 'The failure we get called to fix most is not the fixtures — it is the connections. Cheap twist-on connectors buried in wet soil corrode within a season or two, and then fixtures start dropping off one at a time. Proper waterproof connections, direct-burial cable at the right gauge for the run, and a transformer with capacity to spare are what make the difference between a system that lasts and one you rewire in three years.' },
+  { q: 'Is landscape lighting weather-resistant?', a: 'The fixtures and cable are, provided they are the right ones — direct-burial cable, wet-location fixtures, and sealed connections. What is not weatherproof is a transformer mounted where snow piles against it or an indoor-rated connector someone used underground. Our winters here are hard on the cheap parts specifically.' },
 ];
 
 const serviceSchema = {

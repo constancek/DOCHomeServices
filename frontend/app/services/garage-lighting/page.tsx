@@ -59,11 +59,11 @@ const whyUs = [
 ];
 
 const faqs = [
-  { q: 'Why should I upgrade my garage lighting?', a: 'Upgrading garage lighting improves visibility, helps you use the space more comfortably, and makes it easier to see tools, storage items, and vehicles.' },
-  { q: 'What are the best lighting options for garages?', a: 'LED garage lights are one of the most popular options because they provide strong brightness and energy efficiency.' },
+  { q: 'Why should I upgrade my garage lighting?', a: 'Because most garages were given one fixture in the middle of the ceiling, which puts your own shadow over whatever you are working on. The fix is usually more fixtures spread out rather than one brighter one. If you are also adding outlets for tools, doing both at once saves a second visit and a second permit.' },
+  { q: 'What are the best lighting options for garages?', a: 'LED shop-style fixtures, and one detail worth checking before you buy: in an unheated garage, some LED fixtures have a minimum starting temperature and will flicker or refuse to light on a cold January morning. Look for a cold-rated fixture. For colour, around 4000K reads clean and workshop-like without the blue cast of higher numbers.' },
   { q: 'Can garage lighting make the garage safer?', a: 'Yes. Proper lighting helps reduce shadows and improves visibility around tools, equipment, and entry areas.' },
   { q: 'How long does a typical garage lighting installation take?', a: 'Most garage lighting installations can be completed within a few hours, depending on the number of fixtures and wiring needed.' },
-  { q: 'How can I maintain my garage lighting after installation?', a: 'Keeping fixtures clean and replacing bulbs when needed helps maintain strong brightness and reliable performance.' },
+  { q: 'How can I maintain my garage lighting after installation?', a: 'Very little. Wipe the dust off the lenses once in a while, because a garage generates more of it than any other room. Integrated LED fixtures have no bulb to replace — when the light finally fails you swap the whole unit, which is worth knowing before you buy fixtures nobody stocks parts for.' },
 ];
 
 const serviceSchema = {

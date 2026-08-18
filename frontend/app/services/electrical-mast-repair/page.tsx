@@ -40,15 +40,15 @@ const whyUs = [
 ];
 
 const faqs = [
-  { q: 'How do I know if I need an electrical mast repair?', a: 'Look for a leaning structure, exposed wires, water damage, or power interruptions near the mast.' },
-  { q: 'Can storms damage my service mast?', a: 'Yes. Severe weather, including falling branches and high winds, can compromise mast integrity.' },
-  { q: 'What is an electrical pole connection, and why is it important?', a: 'The pole connection links utility power lines to your home’s system via the service mast, delivering electricity safely and efficiently.' },
-  { q: 'What’s involved in replacing a service mast?', a: 'Removal of old equipment, new installation, wiring updates, and a thorough system inspection.' },
-  { q: 'What is a service entrance cable?', a: 'It is the cable that carries electricity from the utility lines to your home.' },
-  { q: 'Why is proper roof flashing important?', a: 'Flashing prevents water leakage, protecting both the structure and the electrical components.' },
-  { q: 'What is the role of an electrical meter riser?', a: 'The riser connects the mast to the meter base, ensuring a seamless flow of electricity.' },
-  { q: 'How long does a service mast replacement take?', a: 'Most replacements are completed within one day, depending on project complexity.' },
-  { q: 'How often should I inspect my electrical mast?', a: 'Regular visual checks are recommended, especially after storms or during routine maintenance.' },
+  { q: 'How do I know if I need an electrical mast repair?', a: 'A mast that has gone out of plumb, a weatherhead pulled away from the wall, cracked or brittle insulation on the conductors, rust streaks running down from the fittings, or a meter box no longer flat against the siding. One thing that is not a mast problem: the whole street being dark. That is a utility outage, and no electrician can shorten it.' },
+  { q: 'Can storms damage my service mast?', a: 'Yes, and it is the most common reason we are called out. A limb landing on the service drop pulls on the mast rather than the pole, because the pole is not the weak point. High wind does the same thing gradually. What matters is the mast bending far enough to loosen the roof penetration or the drop attachment, because that is what lets water in and what stops Duke reconnecting.' },
+  { q: 'What is an electrical pole connection, and why is it important?', a: 'It is where Duke’s overhead conductors end and your equipment begins. They own the line from the pole to that point, and they own the meter. The mast holding the connection up, the weatherhead on top of it, the riser, the entrance cable, and the meter box are all yours — which is why storm damage to them lands on your insurance rather than the utility’s.' },
+  { q: 'What’s involved in replacing a service mast?', a: 'The utility has to drop the service first, so the work is scheduled around their visit rather than ours. Then the old mast, weatherhead, and damaged entrance cable come off, the new mast is set and properly flashed where it passes through the roof, new conductors are run down to the meter base, and the whole thing is inspected before Duke will reconnect. That sequence is why we file the permit when the job is booked rather than at the end.' },
+  { q: 'What is a service entrance cable?', a: 'It is the run of conductors between the weatherhead and your meter base, and it belongs to you. It is also the part that fails quietly: once water gets past the weatherhead it travels down inside that cable into the meter box and the panel, corroding lugs where nobody looks. A cable with cracked or chalky insulation is a replacement rather than a repair.' },
+  { q: 'Why is proper roof flashing important?', a: 'Because the mast goes straight through your roof, and that hole is only as good as the flashing around it. Done poorly it leaks into the framing above the ceiling, and it also lets water track down the outside of the conduit into the meter base. We flash the penetration properly as part of the repair rather than leaving it as a roofing problem for somebody else.' },
+  { q: 'What is the role of an electrical meter riser?', a: 'The riser is the conduit carrying the service conductors down from the mast into the meter base. It also keeps water out of that run, which is why its flashing and fittings matter as much as the pipe itself.' },
+  { q: 'How long does a service mast replacement take?', a: 'The electrical work is usually a single day. What sets the real timeline is the utility disconnect and reconnect visit at either end, and the inspection in between, because Duke will not re-energise before the sign-off. We book the inspection when we book the work, which is the single biggest thing that shortens the wait.' },
+  { q: 'How often should I inspect my electrical mast?', a: 'There is no schedule worth following, but there is a habit: after any storm that brings limbs down, look up at where the wires meet the house. You are checking that the mast is still vertical, the weatherhead is tight against the wall, and the meter box is flat to the siding. That takes ten seconds from the driveway and catches most problems before they become an outage.' },
 ];
 
 const serviceSchema = {
@@ -190,7 +190,7 @@ export default function ElectricalMastRepairPage() {
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The first step is a detailed inspection of your home’s electrical system. We check components
             like the breaker box, meter socket, and service entrance cable to identify potential issues,
-            which lets us create a replacement plan that works seamlessly with your home.
+            which is what lets us plan a replacement around what your house actually has rather than a standard kit.
           </p>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             During this stage, we also discuss upgrade options — including{' '}

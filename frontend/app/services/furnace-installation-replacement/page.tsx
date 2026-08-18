@@ -48,7 +48,7 @@ const faqs = [
   { q: 'What does a professional furnace installation include?', a: 'We size the system to your home, safely remove the old unit, install the new furnace with proper gas, electrical, and venting connections, test airflow and operation, then clean up and walk you through how it runs.' },
   { q: 'How long does a new furnace installation take?', a: 'A standard replacement usually takes about 4–8 hours. It can take longer if we are adding ductwork, switching fuel types, or correcting older work.' },
   { q: 'Do you offer financing for furnace installation?', a: 'Yes — we offer financing with low rates and fast approval, so you can get a reliable system now and spread the payments over time.' },
-  { q: 'Can I schedule emergency furnace installation during winter?', a: 'Absolutely. When a furnace fails during a cold snap, our rescue team offers same-day installation to restore heat without delay.' },
+  { q: 'Can I schedule emergency furnace installation during winter?', a: 'Yes. When a furnace fails in a cold snap we install the same day wherever we can, because a house with no heat in January is not a job that waits for a booking slot. If the right unit is not on the van, we will tell you what we can do that day to keep the house warm in the meantime.' },
   { q: 'How far in advance should I book a furnace install?', a: 'For a planned upgrade, a few days is usually plenty. For a no-heat emergency, we handle installs the same day whenever possible.' },
 ];
 

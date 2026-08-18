@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: 'Do I really need a permit and an inspection?',
-    a: 'For meter base, mast, service entrance, or panel work, yes. It is not optional and it is not something to skip in the name of speed, because Duke will be looking for the sign-off before they put the meter back in. Skipping it guarantees a longer outage, not a shorter one.',
+    a: 'For meter base, mast, service entrance, or panel work, yes. It is not optional and it is not something to skip in the name of speed, because Duke will be looking for the sign-off before they put the meter back in. Skipping it makes the outage longer, not shorter.',
   },
   {
     q: 'Only half my house has power. Is that the same problem?',
