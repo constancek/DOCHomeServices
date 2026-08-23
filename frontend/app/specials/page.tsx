@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import CouponExpiry from '@/components/CouponExpiry';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
@@ -54,7 +55,9 @@ export default function SpecialsPage() {
                 <p className="mt-3 text-[11px] text-ink/50">
                   *Cannot be combined with any other offers. Some restrictions apply.
                 </p>
-                <p className="text-[11px] font-semibold italic text-ink/60">Expires: {c.expires}</p>
+                <p className="text-[11px] font-semibold italic text-ink/60">
+                  Expires: <CouponExpiry kind={c.expiryKind} initial={c.expires} />
+                </p>
               </div>
             </div>
           ))}

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import CouponExpiry from '@/components/CouponExpiry';
 import Icon from '@/components/Icon';
 import TornEdge from '@/components/TornEdge';
 import {
@@ -228,7 +229,9 @@ function SpecialOffers() {
               <a href={site.primaryPhone.href} className="btn-lime mt-4 w-full text-xs">
                 Schedule Now
               </a>
-              <span className="mt-2 text-[11px] text-ink/40">{o.expires}</span>
+              <span className="mt-2 text-[11px] text-ink/40">
+                Expires <CouponExpiry kind="rolling" initial={o.expires} short />
+              </span>
             </div>
           ))}
         </div>

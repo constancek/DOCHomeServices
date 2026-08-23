@@ -1,3 +1,5 @@
+import { formatExpiryShort, rollingExpiry } from '@/lib/coupon-expiry';
+
 // Why-choose benefits (icon list next to the intro video)
 export const benefits = [
   {
@@ -42,25 +44,26 @@ export const awards: {
   { icon: 'pin', label: 'Locally Owned' },
 ];
 
-// Special offers carousel cards
+// Special offers carousel cards. Dates roll on the shared coupon schedule —
+// see lib/coupon-expiry.ts.
 export const offers = [
   {
     title: 'FREE',
     subtitle: 'Water Quality Test',
     detail: 'On-site test of your home water with any plumbing visit. No obligation.',
-    expires: 'Expires 11/30',
+    expires: formatExpiryShort(rollingExpiry()),
   },
   {
     title: 'SAVE $75',
     subtitle: 'On Plumbing Repair',
     detail: 'New customers save on their first qualifying plumbing repair.',
-    expires: 'Expires 11/30',
+    expires: formatExpiryShort(rollingExpiry()),
   },
   {
     title: '$89',
     subtitle: 'Cooling Checkup',
     detail: 'Full 21-point AC tune-up before the summer rush.',
-    expires: 'Expires 11/30',
+    expires: formatExpiryShort(rollingExpiry()),
   },
 ];
 

@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import CouponExpiry from './CouponExpiry';
 import ServicesMenu from './ServicesMenu';
 import { site } from '@/content/site';
 import { coupons } from '@/content/coupons';
@@ -41,7 +42,9 @@ export function CouponWidget() {
         <p className="mt-2 text-[10px] leading-relaxed text-ink/40">
           *Cannot be combined with any other offers. Some restrictions apply.
         </p>
-        <p className="text-[10px] font-semibold italic text-ink/50">Expires: {featured.expires}</p>
+        <p className="text-[10px] font-semibold italic text-ink/50">
+          Expires: <CouponExpiry kind={featured.expiryKind} initial={featured.expires} />
+        </p>
       </div>
     </div>
   );
