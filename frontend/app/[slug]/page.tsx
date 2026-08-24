@@ -24,7 +24,10 @@ export async function generateMetadata({
   const post = getPost(slug);
   if (!post) return {};
   const url = `/${post.slug}`;
-  const images = post.image ? [{ url: post.image, alt: post.imageAlt ?? post.title }] : undefined;
+  // Social scrapers handle WebP less reliably than browsers do, so og:image
+  // points at the JPEG twin kept on disk beside each hero.
+  const ogImage = post.image?.replace(/\.webp$/, '.jpg');
+  const images = ogImage ? [{ url: ogImage, alt: post.imageAlt ?? post.title }] : undefined;
   return {
     title: post.title,
     description: post.excerpt,
@@ -45,7 +48,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt,
-      images: post.image ? [post.image] : undefined,
+      images: ogImage ? [ogImage] : undefined,
     },
   };
 }
@@ -151,7 +154,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     description: post.excerpt,
     datePublished: post.date,
     dateModified: post.dateModified ?? post.date,
-    ...(post.image ? { image: `${site.url}${post.image}` } : {}),
+    ...(post.image ? { image: `${site.url}${post.image.replace(/\.webp$/, '.jpg')}` } : {}),
     author:
       post.author.name === site.name
         ? { '@type': 'Organization', name: post.author.name }
@@ -159,7 +162,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     publisher: {
       '@type': 'Organization',
       name: site.name,
-      logo: { '@type': 'ImageObject', url: `${site.url}/mascot.png` },
+      logo: { '@type': 'ImageObject', url: `${site.url}/mascot.webp` },
     },
     mainEntityOfPage: `${site.url}/${post.slug}`,
   };
@@ -213,7 +216,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           <div className="inline-flex items-center gap-3 rounded-2xl bg-white px-4 py-2.5 shadow-lg ring-1 ring-brand-900/5">
             {post.author.name === site.name ? (
               <img
-                src="/logo.png"
+                src="/logo.webp"
                 alt={site.name}
                 width={44}
                 height={44}
@@ -313,7 +316,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           </div>
 
           {/* Sidebar */}
-          <aside className="space-y-8 lg:sticky lg:top-28 lg:self-start">
+          <aside className="space-y-8 lg:self-start">
             <div className="card">
               <h2 className="text-sm font-bold uppercase tracking-wider text-brand-500">
                 On this page

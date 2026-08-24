@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Garage Lighting Installation',
   ctaLine: 'Want to brighten every corner of your {neighborhood} garage? Call today',
-  heroImage: '/services/garage-hero.jpg',
+  heroImage: '/services/garage-hero.webp',
   introHeading: 'Garage Lighting Installation in {neighborhood}',
   introParagraphs: [
     'Most garages run off a single dim ceiling bulb that leaves the corners, workbench, and storage in shadow. {brand} installs bright, even garage lighting for homeowners across {place} — durable LED fixtures inside and weather-rated lights outside, all by licensed electricians.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'basement-lighting', title: 'Basement Lighting' },
     { slug: 'outdoor-lighting', title: 'Outdoor Lighting' },
   ],
-  band1Image: '/services/garage-signs.jpg',
+  band1Image: '/services/garage-signs.webp',
   band1Heading: 'Signs You Need New Garage Lighting in {neighborhood}',
   commonSituations: [
     'Dark areas around shelving or storage',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A garage now used as a shop, gym, or hobby space',
   ],
   trustedBanner: 'Your Local & Trusted Garage Lighting Pros in {neighborhood}',
-  band2Image: '/services/garage-lighting.jpg',
+  band2Image: '/services/garage-lighting.webp',
   band2Heading: 'Our Garage Lighting Process in {neighborhood}',
   band2Paragraphs: [
     'We review how the garage is used, plan placement for even coverage, and explain the flat-rate price before any work begins.',

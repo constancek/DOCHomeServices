@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'HVACBusiness',
   schemaServiceType: 'AC Installation & Replacement',
   ctaLine: 'Ready for a new AC in {neighborhood}? Get a free estimate',
-  heroImage: '/services/ac-installation-replacement.jpg',
+  heroImage: '/services/ac-installation-replacement.webp',
   introHeading: 'AC Installation & Replacement in {neighborhood}',
   introParagraphs: [
     'When an air conditioner is past its prime, repairs stop making sense and a replacement is the better value. {brand} installs and replaces air conditioning systems for homeowners in {place} — properly sized, energy-efficient, and built to deliver reliable cooling from day one.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'mini-splits', title: 'Ductless Mini-Splits' },
     { slug: 'heat-pumps', title: 'Heat Pumps' },
   ],
-  band1Image: '/services/ac-repair.jpg',
+  band1Image: '/services/ac-repair.webp',
   band1Heading: 'Signs It’s Time to Replace Your AC in {neighborhood}',
   commonSituations: [
     'Uneven temperatures from room to room',
@@ -51,7 +51,7 @@ const config: ServiceLocationConfig = {
     'An aging system that no longer performs consistently',
   ],
   trustedBanner: 'Your Local & Trusted AC Installation Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your AC Installation in {neighborhood}',
   band2Paragraphs: [
     'We start with a free in-home estimate. A technician evaluates your home’s size, layout, ductwork, and cooling needs, then recommends a properly sized, energy-efficient system and explains your options and pricing before you decide.',

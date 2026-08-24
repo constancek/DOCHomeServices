@@ -116,7 +116,7 @@ export default function PlumbingPage() {
 
           {/* Services grid */}
           <h2 className="mt-12 section-title text-brand-700">Our Plumbing Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Explore any service below for details, or call us and we will point you to the right fix.
           </p>
           <ul className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
@@ -128,7 +128,7 @@ export default function PlumbingPage() {
                 >
                   <span
                     className="absolute inset-0 bg-brand-200 bg-cover bg-center transition duration-300 group-hover:scale-105"
-                    style={{ backgroundImage: `url(/services/${s.slug}.jpg)` }}
+                    style={{ backgroundImage: `url(${s.heroImage ?? `/services/${s.slug}.webp`})` }}
                   />
                   <span className="absolute inset-0 bg-gradient-to-t from-pink-600/90 via-pink-500/45 to-transparent transition group-hover:from-pink-600" />
                   <span className="absolute inset-0 grid place-items-center p-3 text-center">
@@ -214,7 +214,7 @@ export default function PlumbingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -226,7 +226,7 @@ export default function PlumbingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -237,7 +237,7 @@ export default function PlumbingPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Book a Plumber in {site.serviceArea}
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Same-day service, upfront pricing, and licensed plumbers who put homeowners first. Call
               now or request a free estimate.
             </p>

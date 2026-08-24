@@ -35,7 +35,7 @@ const whatsInvolved = [
   {
     title: 'Preparing for the Installation',
     paras: [
-      'Before we replace anything, we make sure everything is ready for a seamless installation. That includes testing your electrical panel to confirm it can handle new installations and checking the wiring throughout your home. Proper preparation prevents hazards like shocks or short circuits.',
+      'Before we replace anything, we check that the rest of the system can take it. That includes testing your electrical panel to confirm it can handle new installations and checking the wiring throughout your home. Proper preparation prevents hazards like shocks or short circuits.',
       'We also flag upgrades that support long-term safety and efficiency — for example, improvements to indoor lighting systems and light switch wiring — so every part of your electrical system stays reliable.',
     ],
   },
@@ -79,7 +79,7 @@ const whyUs = [
 
 const faqs = [
   { q: 'What is involved in a switch installation?', a: 'Switch installation includes evaluating home wiring, confirming code compliance, and connecting the switch to the appropriate circuit for reliable operation.' },
-  { q: 'What are the benefits of GFCI outlets?', a: 'GFCI outlets reduce the risk of electrical shock by shutting off power when moisture is detected, making them essential in kitchens and bathrooms.' },
+  { q: 'What are the benefits of GFCI outlets?', a: 'A GFCI compares the current going out against the current coming back, and cuts power in a fraction of a second if even a few milliamps go missing — which is what happens when it starts travelling through a person instead. It does not sense water; water is simply the most common reason that leak occurs, which is why code requires them in kitchens, bathrooms, garages, basements, and outdoors.' },
   { q: 'How can I tell if my light switches are faulty?', a: 'Signs include flickering lights, unusual sounds, or no response when toggled. We can diagnose and repair the issue.' },
   { q: 'How do I know if I need outlet installation services?', a: 'Consider installation if your home lacks sufficient outlets or you experience issues like tripped breakers and over-reliance on extension cords.' },
   { q: 'Why is outlet installation important?', a: 'Proper installation ensures safe, efficient power distribution while protecting your home and devices from electrical issues.' },
@@ -142,7 +142,7 @@ export default function SwitchesOutletsPage() {
 
       <section className="py-16">
         <MainWithSidebar>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/outlets-hero.jpg)' }} role="img" aria-label="Electrician installing a wall outlet" />
+          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/outlets-hero.webp)' }} role="img" aria-label="Electrician installing a wall outlet" />
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
             Switch & Outlet Installation
           </h2>
@@ -165,18 +165,18 @@ export default function SwitchesOutletsPage() {
 
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/outlets-signs.jpg)' }} role="img" aria-label="Light switch on a wall" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/outlets-signs.webp)' }} role="img" aria-label="Light switch on a wall" />
           <div>
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Common Problems With Outlets & Switches
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Outlets and switches don’t get much attention until they stop working. Here are the issues
               homeowners run into most — and how we help:
             </p>
             <ul className="mt-4 space-y-2">
               {problems.map((p) => (
-                <li key={p.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={p.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span><span className="font-bold text-white">{p.lead}:</span> {p.text}</span>
                 </li>
@@ -195,25 +195,25 @@ export default function SwitchesOutletsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Reliable Outlet & Switch Installation
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Your home’s electrical system needs to be safe and dependable. Our outlet installation is
               designed to enhance convenience and safety, with every detail handled so your outlets meet
               modern electrical codes and your family’s needs.
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               Switches may seem simple, but they play a big role in how your home functions. Whether you’re
               upgrading old switches or installing new ones, our team focuses on precision and care —
               connecting each switch to the correct circuit for dependable, everyday operation.
             </p>
           </div>
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }} role="img" aria-label="Electrician reviewing outlet work with a homeowner" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }} role="img" aria-label="Electrician reviewing outlet work with a homeowner" />
         </div>
       </section>
 
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">What’s Involved in Electrical Outlet Replacement</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Replacing outlets involves more than swapping out old components. We follow a thorough process
             to make sure your outlets are safe, functional, and suited to your family’s needs.
           </p>
@@ -221,13 +221,13 @@ export default function SwitchesOutletsPage() {
             <div key={step.title} className="mt-8">
               <h3 className="font-display text-xl font-extrabold text-brand-700">{step.title}</h3>
               {step.paras.map((para, i) => (
-                <p key={i} className="mt-3 text-sm leading-relaxed text-ink/75">
+                <p key={i} className="mt-3 text-[17px] leading-relaxed text-ink/75">
                   {para}
                 </p>
               ))}
             </div>
           ))}
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             For larger projects, a{' '}
             <Link href="/services/electrical-panel-replacement" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               panel replacement
@@ -240,13 +240,13 @@ export default function SwitchesOutletsPage() {
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Switches & Outlets</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for dependable electrical work. When you
             work with our team, you receive:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -260,7 +260,7 @@ export default function SwitchesOutletsPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -268,12 +268,12 @@ export default function SwitchesOutletsPage() {
 
           <h2 className="mt-12 section-title text-brand-700">Switch & Outlet FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Switch & Outlet Service Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Need outlets added or switches repaired? {site.name} serves {site.serviceArea}. Call now or
               request a free estimate.
             </p>
@@ -294,7 +294,7 @@ export default function SwitchesOutletsPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Switches & outlets by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install and repair switches and outlets across {site.serviceArea} —{' '}
             {locations.filter((l) => switchesOutletsCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and wiring in your area.

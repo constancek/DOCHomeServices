@@ -38,7 +38,7 @@ export default function FinancingPage() {
             <h2 className="font-display text-4xl font-black uppercase leading-[1.05] text-brand-600 sm:text-5xl">
               Financing Options That Maximize Your Comfort Level.
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-ink/75">
+            <p className="mt-4 text-[15px] leading-relaxed text-ink/75">
               Your home&rsquo;s plumbing, heating, and cooling systems are among the most important
               appliances in your home, and they are an investment worth making. Do not base a repair
               or replacement decision strictly on cost — we offer convenient financing so you never

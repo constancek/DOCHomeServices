@@ -55,7 +55,7 @@ const faqs = [
   { q: 'Can I get custom lighting designs for my home?', a: 'Yes. Our electricians can help design lighting layouts that improve brightness and match the style of each room.' },
   { q: 'How do I choose the right lighting for each room?', a: 'Our electricians help you select lighting based on the function of each space. Kitchens may need brighter task lighting, while living rooms often benefit from layered lighting that combines ambient and accent fixtures.' },
   { q: 'Do you offer energy-efficient lighting options?', a: 'Yes. LED lighting installation is one of the most common upgrades because it provides strong illumination while using less energy.' },
-  { q: 'Can you install lighting in older homes?', a: 'Yes. Our electricians regularly update lighting in older homes and make sure the wiring meets modern electrical standards.' },
+  { q: 'Can you install lighting in older homes?', a: 'Yes, and older homes come with two specific surprises. Many ceiling boxes have no ground wire, which limits which fixtures can be installed until that is addressed. And most switch boxes have no neutral, which is what stops a lot of smart switches working. Both are solvable, but they are worth finding out about before you buy fixtures.' },
   { q: 'Do you offer lighting for specific rooms like kitchens or bathrooms?', a: 'Yes. We install lighting systems for kitchens, bathrooms, basements, garages, and other indoor spaces.' },
 ];
 
@@ -125,7 +125,7 @@ export default function IndoorLightingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/indoor-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/indoor-hero.webp)' }}
             role="img"
             aria-label="Modern kitchen with recessed ceiling lighting"
           />
@@ -172,7 +172,7 @@ export default function IndoorLightingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/indoor-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/indoor-signs.webp)' }}
             role="img"
             aria-label="Bright, well-lit living room interior"
           />
@@ -180,7 +180,7 @@ export default function IndoorLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need New Indoor Lights
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Lighting problems often appear as homes age or rooms change function. Poor lighting can
               make everyday tasks more difficult and can also affect the comfort of a room. You may
               benefit from professional indoor light installation if you notice:
@@ -193,7 +193,7 @@ export default function IndoorLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Upgrading lighting improves visibility and helps your home feel more comfortable and
               functional.
             </p>
@@ -211,7 +211,7 @@ export default function IndoorLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Indoor Lighting Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Every indoor lighting installation begins with understanding how you use each room. Our
               electricians review your current lighting, discuss your goals, and recommend lighting
               options that match your space. Our installation process includes:
@@ -224,14 +224,14 @@ export default function IndoorLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Professional installation ensures your lighting works reliably and connects safely to your
               home’s electrical system.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician planning an indoor lighting layout"
           />
@@ -242,7 +242,7 @@ export default function IndoorLightingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Types of Lights We Install</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homes require different lighting depending on how each room is used. Our electricians install
             a wide range of indoor lighting systems designed to improve comfort and visibility.
           </p>
@@ -252,11 +252,11 @@ export default function IndoorLightingPage() {
               LED Light Installation
             </Link>
           </h3>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             LED lighting has become one of the most popular upgrades for modern homes. LED bulbs use less
             electricity and last significantly longer than traditional lighting.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             LED installation can improve brightness while reducing long-term energy costs. These lights
             work well in kitchens, living rooms, bedrooms, and other areas where consistent lighting is
             important.
@@ -267,11 +267,11 @@ export default function IndoorLightingPage() {
               Basement Lighting for Your Home
             </Link>
           </h3>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Basement lighting plays an important role in safety and usability. Many basements have
             limited natural light, which can make them feel dark or uninviting.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Our basement lighting solutions provide bright, balanced illumination for finished basements,
             storage areas, home gyms, and workshops.
           </p>
@@ -281,11 +281,11 @@ export default function IndoorLightingPage() {
               Garage Lighting Installation
             </Link>
           </h3>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A well-lit garage makes daily tasks easier and improves safety. Many garages have outdated or
             insufficient lighting that leaves shadows and dark corners.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Our garage lighting installation services include installing durable fixtures that provide
             bright, even lighting throughout the space.
           </p>
@@ -295,33 +295,33 @@ export default function IndoorLightingPage() {
               Recessed Canister Lights
             </Link>
           </h3>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Recessed lighting installation is a popular choice for kitchens, hallways, and living rooms.
             These fixtures sit flush with the ceiling and provide clean, modern illumination.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Recessed lights distribute light evenly and help eliminate shadows in open living areas.
           </p>
 
           <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">Energy-Efficient Lighting Options</h3>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Energy efficiency is an important part of modern lighting design. Many homeowners upgrade to
             LED lighting to reduce electricity use while improving brightness.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Energy-efficient lighting systems provide reliable illumination and help reduce long-term
             maintenance.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Indoor Lighting Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners throughout {site.serviceArea} trust {site.name} for dependable electrical services
             and professional lighting installation. When you work with our electricians, you receive:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -335,12 +335,12 @@ export default function IndoorLightingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             Our goal is to install lighting that improves comfort, visibility, and everyday
             functionality.
           </p>
@@ -351,7 +351,7 @@ export default function IndoorLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -360,7 +360,7 @@ export default function IndoorLightingPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Indoor Lighting Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready for brighter, more functional interiors? {site.name} installs indoor lighting across{' '}
               {site.serviceArea}. Call now or request a free estimate.
             </p>
@@ -381,7 +381,7 @@ export default function IndoorLightingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Indoor lighting by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install indoor lighting across {site.serviceArea} —{' '}
             {locations.filter((l) => indoorLightingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and rooms in your area.

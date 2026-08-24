@@ -35,7 +35,7 @@ export default function Accordion({
               <span className="text-2xl font-bold leading-none">{isOpen ? '−' : '+'}</span>
             </button>
             {isOpen && (
-              <div className="space-y-3 bg-white px-6 py-5 text-sm leading-relaxed text-ink/75">
+              <div className="space-y-3 bg-white px-6 py-5 text-[15px] leading-relaxed text-ink/75">
                 {item.body}
               </div>
             )}

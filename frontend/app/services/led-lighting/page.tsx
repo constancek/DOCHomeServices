@@ -58,11 +58,11 @@ const whyUs = [
 ];
 
 const faqs = [
-  { q: 'What is LED lighting, and how does it work?', a: 'LED stands for light-emitting diode. These lights use advanced technology to produce bright illumination while using less electricity than traditional bulbs.' },
-  { q: 'How does LED lighting save energy?', a: 'LED lights convert more electricity into light rather than heat. This makes them more efficient and helps reduce energy consumption.' },
+  { q: 'What is LED lighting, and how does it work?', a: 'LED stands for light-emitting diode: current passes through a semiconductor and it emits light directly, rather than heating a filament until it glows. That is the whole reason for the efficiency — an incandescent bulb spent most of its energy as heat and gave you light as a side effect.' },
+  { q: 'How does LED lighting save energy?', a: 'They convert far more of the electricity into light instead of heat, which is where an incandescent bulb lost most of it. One thing to watch when switching over: an older dimmer built for incandescent loads often buzzes or makes LEDs flicker, because it was designed for a much heavier load. The fix is an LED-compatible dimmer, and it is a small job rather than a mystery fault.' },
   { q: 'Where do you install LED lights?', a: 'LED lighting can be installed in kitchens, living rooms, hallways, basements, garages, and other indoor spaces. They are also commonly used for recessed lighting and under-cabinet lighting.' },
-  { q: 'How much do LED lights cost?', a: 'Costs vary depending on the number of fixtures, installation complexity, and lighting type. Many homeowners find the long-term energy savings make LED lighting a worthwhile investment.' },
-  { q: 'How can I customize LED lighting for my home?', a: 'LED lighting can be customized through fixture style, brightness levels, and color temperature. Our electricians help design lighting systems that match the layout and style of your home.' },
+  { q: 'How much do LED lights cost?', a: 'Fixtures themselves are inexpensive now; the cost is in the labour and any wiring involved. Worth saying plainly: swapping bulbs for LED equivalents is something you can do yourself in an afternoon and we would not charge you to watch. Where it becomes our job is recessed housings, under-cabinet runs, new circuits, or dimmers that need changing to work with LED.' },
+  { q: 'How can I customize LED lighting for my home?', a: 'The one that changes how a room feels is colour temperature. Around 2700K is the warm light people expect in living rooms and bedrooms; 3000K suits kitchens and bathrooms; 4000K and above reads cool and belongs in a garage or workshop rather than a lounge. For kitchens also look at colour rendering — a high-CRI lamp is the difference between food looking appetising and looking grey.' },
 ];
 
 const serviceSchema = {
@@ -133,7 +133,7 @@ export default function LedLightingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/led-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/led-hero.webp)' }}
             role="img"
             aria-label="Under-cabinet LED lighting in a modern kitchen"
           />
@@ -180,7 +180,7 @@ export default function LedLightingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/led-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/led-signs.webp)' }}
             role="img"
             aria-label="Room with modern LED recessed lighting"
           />
@@ -188,7 +188,7 @@ export default function LedLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need LED Lighting
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many homeowners switch to LED lighting when older fixtures no longer meet their needs.
               Traditional lighting often uses more energy and requires frequent bulb replacements. You
               may benefit from LED lighting installation if you notice:
@@ -201,7 +201,7 @@ export default function LedLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Upgrading to LED lighting can improve brightness while reducing electricity use across your
               home.
             </p>
@@ -219,7 +219,7 @@ export default function LedLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our LED Light Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Every LED light installation begins with understanding your lighting goals and evaluating
               your existing fixtures. Our installation process includes:
             </p>
@@ -231,14 +231,14 @@ export default function LedLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Our electricians ensure every LED lighting installation works safely and delivers
               consistent illumination.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician planning an LED lighting layout"
           />
@@ -249,49 +249,49 @@ export default function LedLightingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Benefits of LED Lighting</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             LED lighting offers several advantages over traditional bulbs and fixtures.
           </p>
 
           <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">Energy-Efficient Lighting</h3>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             LED lights use significantly less electricity than incandescent or fluorescent bulbs. Many
             homeowners upgrade to LED lighting to improve energy efficiency while maintaining bright,
             reliable lighting.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Because LEDs produce less heat, they waste less energy. This helps reduce overall power
             consumption while still delivering strong illumination. LED lights also last much longer than
             traditional bulbs, which means fewer replacements and less maintenance over time.
           </p>
 
           <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">Custom Design Options</h3>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             LED lighting provides flexible design options for modern homes. These lights are available in
             different brightness levels, fixture styles, and color temperatures. Common LED lighting
             solutions include:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {designOptions.map((o) => (
-              <li key={o} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={o} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {o}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             These lighting solutions help homeowners create comfortable and visually balanced interiors.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for LED Light Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners throughout {site.serviceArea} trust {site.name} for professional lighting
             installation services. When you work with our electricians, you receive:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -305,12 +305,12 @@ export default function LedLightingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             Our team focuses on installing LED lighting systems that improve comfort, efficiency, and
             long-term performance.
           </p>
@@ -321,7 +321,7 @@ export default function LedLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -330,7 +330,7 @@ export default function LedLightingPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your LED Light Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to upgrade to LED? {site.name} installs energy-efficient LED lighting across{' '}
               {site.serviceArea}. Call now or request a free estimate.
             </p>
@@ -351,7 +351,7 @@ export default function LedLightingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">LED lighting by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install LED lighting across {site.serviceArea} —{' '}
             {locations.filter((l) => ledLightingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and rooms in your area.

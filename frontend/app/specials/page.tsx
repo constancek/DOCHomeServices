@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import CouponExpiry from '@/components/CouponExpiry';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
@@ -30,7 +31,7 @@ export default function SpecialsPage() {
             >
               {/* Mascot */}
               <img
-                src="/mascot.png"
+                src="/mascot.webp"
                 alt="Degree of Comfort mascot"
                 width={130}
                 height={130}
@@ -46,7 +47,7 @@ export default function SpecialsPage() {
                 <h2 className="mt-1 font-display text-lg font-extrabold uppercase text-brand-700">
                   {c.title}
                 </h2>
-                <p className="mt-1 text-sm text-ink/70">{c.details}</p>
+                <p className="mt-1 text-[15px] leading-relaxed text-ink/70">{c.details}</p>
                 <a href={site.primaryPhone.href} className="btn-pink mt-4">
                   Click to Schedule
                   <Icon name="arrow" className="h-4 w-4" />
@@ -54,7 +55,9 @@ export default function SpecialsPage() {
                 <p className="mt-3 text-[11px] text-ink/50">
                   *Cannot be combined with any other offers. Some restrictions apply.
                 </p>
-                <p className="text-[11px] font-semibold italic text-ink/60">Expires: {c.expires}</p>
+                <p className="text-[11px] font-semibold italic text-ink/60">
+                  Expires: <CouponExpiry kind={c.expiryKind} initial={c.expires} />
+                </p>
               </div>
             </div>
           ))}

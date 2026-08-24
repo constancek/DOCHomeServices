@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Sewer Line Repair & Replacement',
   ctaLine: 'Sewer backup in {neighborhood}? Call for same-day service',
-  heroImage: '/services/sewer-repair-replacement.jpg',
+  heroImage: '/services/sewer-repair-replacement.webp',
   introHeading: 'Sewer Repair & Replacement in {neighborhood}',
   introParagraphs: [
     'When the main sewer line fails, every drain in the house stops working — and the mess does not wait. {brand} provides sewer line repair, trenchless replacement, and camera inspection for homeowners in {place}, fixing the problem at the source.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'leak-detection', title: 'Leak Detection' },
     { slug: 'emergency-plumbing', title: 'Emergency Plumbing' },
   ],
-  band1Image: '/services/drain-cleaning.jpg',
+  band1Image: '/services/drain-cleaning.webp',
   band1Heading: 'Signs Your {neighborhood} Sewer Line Needs Attention',
   commonSituations: [
     'Slow drains across several fixtures at once',
@@ -52,7 +52,7 @@ const config: ServiceLocationConfig = {
     'A sudden spike in your water bill',
   ],
   trustedBanner: 'Your Local & Trusted Sewer Line Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Sewer Service in {neighborhood}',
   band2Paragraphs: [
     'We start with a full camera inspection to see what is happening underground — blockages, cracks, roots — for the complete picture. If there is a clog, we clear it, then walk you through the findings and explain whether a spot repair or full line work is the right call.',

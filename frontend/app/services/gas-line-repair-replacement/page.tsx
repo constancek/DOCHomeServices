@@ -55,11 +55,11 @@ const whyUs = [
 ];
 
 const faqs = [
-  { q: 'How can I identify gas line problems?', a: 'Strong sulfur odors, hissing sounds, dead grass patches, or appliance failures all warrant a professional inspection.' },
-  { q: 'What happens during emergency repairs?', a: 'Technicians respond quickly, locate the leak, shut off gas safely if needed, and complete repairs following strict safety protocols.' },
-  { q: 'What is the difference between repair and replacement?', a: 'A repair addresses specific damage, while replacement involves removing and installing new piping for more systemic issues.' },
-  { q: 'Is natural gas work different from other plumbing?', a: 'Yes. Qualified professionals must ensure proper sealing, safety compliance, and code adherence on every gas line job.' },
-  { q: 'What causes gas line leaks?', a: 'Corrosion, loose connections, construction damage, pressure buildup, or tree root interference can all cause leaks.' },
+  { q: 'How can I identify gas line problems?', a: 'The rotten-egg smell is mercaptan, added to natural gas precisely so you notice it. Also worth acting on: hissing near a line or appliance, a dead patch of grass over a buried run, soot marks around a burner, or pilots that will not stay lit. If you can smell gas, leave on foot first — do not flip switches or use your phone indoors — then call 911 and Duke Energy from outside. Diagnosis comes after everyone is out.' },
+  { q: 'What happens during emergency repairs?', a: 'We isolate the section, find the leak rather than guess at it, and repair it. Then the piping is pressurised and watched on a gauge until it holds, because a repair nobody tested is not a finished job. Where the work needed a permit it is inspected, and only then will the utility restore service — they stop at the meter and will not put gas into piping they cannot vouch for.' },
+  { q: 'What is the difference between repair and replacement?', a: 'A repair fixes one fault — a weeping joint, a corroded section, a failed connector. Replacement becomes the answer when a pressure test keeps failing in different places, which tells you the pipe itself is at the end of its life rather than that you have been unlucky. Older houses also accumulate capped stubs from appliances removed decades ago, and enough of those makes replacing a run cheaper than chasing each one.' },
+  { q: 'Is natural gas work different from other plumbing?', a: 'Yes, in one important respect. With water, a bad joint announces itself. With gas it does not, which is why the pressure test rather than the repair is what decides whether a job is finished. Gas work also carries permit and inspection requirements that swapping a tap does not, and on the Kentucky side that inspection runs through the state plumbing code rather than a city building department.' },
+  { q: 'What causes gas line leaks?', a: 'Corrosion on older black iron, joints worked loose over decades of expansion and contraction, damage from digging or a remodel, and appliance connectors disturbed by later work. On newer houses piped in CSST the common finding is not a leak at all but missing bonding to the electrical grounding system — an inspection failure rather than a gas escape, and a far smaller correction.' },
 ];
 
 const serviceSchema = {
@@ -119,7 +119,7 @@ export default function GasLinePage() {
 
       <section className="py-16">
         <MainWithSidebar>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/gasline-hero.jpg)' }} role="img" aria-label="Gas line piping and valve" />
+          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/gasline-hero.webp)' }} role="img" aria-label="Gas line piping and valve" />
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
             Professional Gas Line Repair & Replacement
           </h2>
@@ -143,25 +143,25 @@ export default function GasLinePage() {
 
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/gasline-signs.jpg)' }} role="img" aria-label="Plumber working on a gas pipe" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/gasline-signs.webp)' }} role="img" aria-label="Plumber working on a gas pipe" />
           <div>
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs of a Problem With Your Gas Line
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               When gas lines are working right, they quietly power things like stoves, water heaters, and
               furnaces. But if something goes wrong, the signs can show up in ways that aren’t always
               obvious at first. Here are a few red flags that it’s time for a gas pipe repair:
             </p>
             <ul className="mt-4 space-y-2">
               {signs.map((s) => (
-                <li key={s.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={s.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span><span className="font-bold text-white">{s.lead}:</span> {s.text}</span>
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If you notice any of these, get to safety first, then call for a professional inspection.
             </p>
             <p className="mt-3 text-sm font-bold uppercase tracking-wide text-white">
@@ -177,53 +177,53 @@ export default function GasLinePage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Schedule Your Gas Line Repair or Replacement Today
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Gas line emergencies require immediate attention. Our emergency gas line repair and
               replacement services are available to address urgent issues promptly. We understand the
               risks associated with gas leaks and act swiftly to protect your household.
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               Our team is equipped to handle emergency situations, providing fast and effective solutions.
               Don’t hesitate to contact us when you need urgent assistance with your gas lines.
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               Need help? Call us today — we’re standing by to assist you across {site.serviceArea}.
             </p>
           </div>
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }} role="img" aria-label="Plumber reviewing a gas line plan" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }} role="img" aria-label="Plumber reviewing a gas line plan" />
         </div>
       </section>
 
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Our Gas Line Installation Process</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Every gas line job follows a careful, code-driven process:
           </p>
           <ul className="mt-4 space-y-2">
             {process.map((p) => (
-              <li key={p.lead} className="flex gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p.lead} className="flex gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <span><span className="font-bold text-brand-700">{p.lead}:</span> {p.text}</span>
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We focus on thorough diagnostics, reliable repairs, and clear communication at every step.
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Repair or Replacement?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A repair addresses a specific point of damage, while a replacement removes and installs new
             piping when the problem is more systemic. After a thorough diagnosis, we explain which option
             fits your situation and why.
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Common Causes of Gas Line Leaks</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">Leaks usually trace back to one of these causes:</p>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">Leaks usually trace back to one of these causes:</p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {causes.map((c) => (
-              <li key={c} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={c} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {c}
               </li>
@@ -231,13 +231,13 @@ export default function GasLinePage() {
           </ul>
 
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Gas Line Service</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for dependable plumbing. When you work
             with our team, you receive:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -251,7 +251,7 @@ export default function GasLinePage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -259,12 +259,12 @@ export default function GasLinePage() {
 
           <h2 className="mt-12 section-title text-brand-700">Gas Line FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Gas Line Service Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Need a gas line repaired or installed? {site.name} serves {site.serviceArea}. Call now or
               request a free estimate.
             </p>
@@ -285,7 +285,7 @@ export default function GasLinePage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Gas line service by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We repair, replace, and install gas lines across {site.serviceArea} —{' '}
             {locations.filter((l) => gasLineCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and lines in your area.

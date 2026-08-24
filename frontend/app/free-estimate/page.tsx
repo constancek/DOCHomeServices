@@ -54,7 +54,7 @@ export default function FreeEstimatePage() {
             </ul>
 
             <div className="rounded-2xl bg-blue-section p-6 text-white">
-              <p className="text-sm text-brand-100">Prefer to talk now? Call or text us:</p>
+              <p className="text-[15px] leading-relaxed text-brand-100">Prefer to talk now? Call or text us:</p>
               <a href={site.primaryPhone.href} className="btn-pink mt-3 w-full">
                 <Icon name="phone" className="h-4 w-4" />
                 {site.primaryPhone.number}

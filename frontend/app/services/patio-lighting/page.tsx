@@ -58,10 +58,10 @@ const whyUs = [
 
 const faqs = [
   { q: 'How long does the patio lighting installation take?', a: 'Most patio lighting installations are completed in a single day, depending on the size of the space and the number of fixtures.' },
-  { q: 'Is the installation process disruptive?', a: 'No. Our team works efficiently and keeps disruption minimal while installing the lighting system.' },
-  { q: 'Why should I hire a patio lighting professional?', a: 'A professional ensures proper wiring, safe electrical connections, and balanced lighting placement.' },
+  { q: 'Is the installation process disruptive?', a: 'Mostly not, and where it will be we say so first. Running a new circuit out to the patio is the part that can mean lifting a little sod or getting into a soffit, and on a covered patio we may need ceiling access. Hanging fixtures on an existing outdoor circuit is a quiet afternoon by comparison.' },
+  { q: 'Why should I hire a patio lighting professional?', a: 'Honestly, for plug-in string lights on an existing outdoor receptacle you do not need one — hang them properly, use the receptacle’s GFCI, and enjoy the evening. Call us when there is no outdoor receptacle to use, when you want fixtures wired in and switched from inside, or when what is out there now is an indoor-rated fixture that has been weathering for years. Anything exposed to rain needs a wet-location rating, not just an outdoor look.' },
   { q: 'Do you install hanging patio lights?', a: 'Yes. We install string lights, hanging fixtures, and other decorative patio lighting designed for outdoor use.' },
-  { q: 'How do you ensure the lighting system connects to electrical power safely?', a: 'Our licensed electricians install outdoor-rated wiring and test the system to ensure safe operation.' },
+  { q: 'How do you ensure the lighting system connects to electrical power safely?', a: 'Everything outdoors runs on GFCI protection, which is what cuts power if moisture starts a leakage path. Fixtures are rated for where they actually sit — wet-location for anything exposed to rain, damp-location under a solid roof — and connections are made in weatherproof boxes rather than taped. String lights get proper strain relief so the weight hangs on a cable, not on the wiring.' },
 ];
 
 const serviceSchema = {
@@ -132,7 +132,7 @@ export default function PatioLightingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/patio-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/patio-hero.webp)' }}
             role="img"
             aria-label="Patio with string lights in the evening"
           />
@@ -165,7 +165,7 @@ export default function PatioLightingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/patio-benefits.jpg)' }}
+            style={{ backgroundImage: 'url(/services/patio-benefits.webp)' }}
             role="img"
             aria-label="Backyard patio with warm evening lighting"
           />
@@ -173,7 +173,7 @@ export default function PatioLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Benefits of Custom Patio Lighting
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Adding patio lighting improves both safety and usability around your home.
             </p>
             <ul className="mt-4 grid gap-1.5">
@@ -184,7 +184,7 @@ export default function PatioLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many homeowners pair patio lighting with{' '}
               <Link href="/services/landscape-lighting" className="font-semibold text-white underline hover:text-white/80">
                 landscape lighting
@@ -206,7 +206,7 @@ export default function PatioLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Patio Lighting Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Every patio light installation begins with a review of your outdoor space. We discuss how
               you use the area and recommend lighting that fits your layout. Our process includes:
             </p>
@@ -218,14 +218,14 @@ export default function PatioLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Our electricians ensure the system is installed safely and meets electrical code
               requirements.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician planning a patio lighting layout"
           />
@@ -236,37 +236,37 @@ export default function PatioLightingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Custom Patio Lighting Solutions</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Every patio is different, so lighting should match how you use the space. Some homeowners
             prefer soft accent lighting. Others want brighter patio lights for cooking, dining, or
             entertaining.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We design custom patio lighting that highlights seating areas, outdoor kitchens, and entry
             points while keeping the space comfortable and easy to navigate. Common lighting options
             include:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {options.map((o) => (
-              <li key={o} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={o} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {o}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             These fixtures work together to create a balanced outdoor lighting system.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Patio Lighting Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for professional outdoor lighting
             installation. When you work with our team, you receive:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -280,12 +280,12 @@ export default function PatioLightingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             Our goal is to install lighting that looks great and performs reliably for years.
           </p>
 
@@ -295,7 +295,7 @@ export default function PatioLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -304,7 +304,7 @@ export default function PatioLightingPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Patio Lighting Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to light up your patio? {site.name} designs and installs patio lighting across{' '}
               {site.serviceArea}. Call now or request a free estimate.
             </p>
@@ -325,7 +325,7 @@ export default function PatioLightingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Patio lighting by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We design and install patio and deck lighting across {site.serviceArea} —{' '}
             {locations.filter((l) => patioLightingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the decks and patios in your area.

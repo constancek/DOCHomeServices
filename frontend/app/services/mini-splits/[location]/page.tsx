@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'HVACBusiness',
   schemaServiceType: 'Ductless Mini-Splits',
   ctaLine: 'Considering a mini-split in {neighborhood}? Call for a free estimate',
-  heroImage: '/services/minisplit-hero.jpg',
+  heroImage: '/services/minisplit-hero.webp',
   introHeading: 'Ductless Mini-Splits in {neighborhood}',
   introParagraphs: [
     'A ductless mini-split delivers flexible cooling and heating without ductwork — targeted comfort for the rooms a central system never quite reaches. {brand} installs and repairs mini-splits for homeowners in {place}, pairing an outdoor unit with one or more indoor heads sized to how you actually use your home.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'ac-installation-replacement', title: 'AC Installation & Replacement' },
     { slug: 'heat-pumps', title: 'Heat Pumps' },
   ],
-  band1Image: '/services/mini-splits.jpg',
+  band1Image: '/services/mini-splits.webp',
   band1Heading: 'Signs a Mini-Split Makes Sense for Your {neighborhood} Home',
   commonSituations: [
     'Rooms or additions a central system never cools or heats evenly',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A mini-split that shuts down or responds slowly',
   ],
   trustedBanner: 'Your Local & Trusted Mini-Split Pros in {neighborhood}',
-  band2Image: '/services/mini-split-installation.jpg',
+  band2Image: '/services/mini-split-installation.webp',
   band2Heading: 'What to Expect From Your Mini-Split Service in {neighborhood}',
   band2Paragraphs: [
     'For an install, we walk the space, size the system to your rooms and how you use them, and recommend single- or multi-zone — then explain the flat-rate price before any work begins.',

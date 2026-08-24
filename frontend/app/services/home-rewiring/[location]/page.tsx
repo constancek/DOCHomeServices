@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Home Rewiring',
   ctaLine: 'Worried about old wiring in your {neighborhood} home? Call for a free estimate',
-  heroImage: '/services/rewiring-hero.jpg',
+  heroImage: '/services/rewiring-hero.webp',
   introHeading: 'Home Rewiring in {neighborhood}',
   introParagraphs: [
     'Old wiring puts a home at risk — insulation breaks down, connections loosen, and circuits struggle with modern demand, showing up as flickering lights, tripping breakers, and warm outlets. {brand} handles partial and whole-home rewiring for homeowners in {place}, replacing unsafe wiring with modern materials.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'electrical-mast-repair', title: 'Mast Repair' },
     { slug: 'electrical-inspections', title: 'Electrical Inspections' },
   ],
-  band1Image: '/services/rewiring-signs.jpg',
+  band1Image: '/services/rewiring-signs.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs Rewiring',
   commonSituations: [
     'Flickering or dimming lights',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A home more than 30 years old never updated',
   ],
   trustedBanner: 'Your Local & Trusted Home Rewiring Pros in {neighborhood}',
-  band2Image: '/services/rewiring-hero.jpg',
+  band2Image: '/services/rewiring-hero.webp',
   band2Heading: 'Our Rewiring Process in {neighborhood}',
   band2Paragraphs: [
     'We review your electrical system to find the weak spots, lay out a clear scope and timeline, and explain any temporary power interruptions and the flat-rate price before any work begins.',

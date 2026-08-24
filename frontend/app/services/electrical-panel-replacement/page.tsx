@@ -112,7 +112,7 @@ export default function ElectricalPanelReplacementPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/panel-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/panel-hero.webp)' }}
             role="img"
             aria-label="Modern electrical panel with breakers"
           />
@@ -138,24 +138,24 @@ export default function ElectricalPanelReplacementPage() {
 
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/panel-signs.jpg)' }} role="img" aria-label="Open electrical breaker panel" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/panel-signs.webp)' }} role="img" aria-label="Open electrical breaker panel" />
           <div>
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs Your Electrical Panel Needs Replacing
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Your electrical panel isn’t something to ignore when it starts showing wear and tear. Here
               are some clear indicators it’s time to think about an upgrade:
             </p>
             <ul className="mt-4 space-y-2">
               {signs.map((s) => (
-                <li key={s.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={s.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span><span className="font-bold text-white">{s.lead}:</span> {s.text}</span>
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If you’re seeing any of these signs, don’t wait for things to get worse. Replacing your
               panel sooner rather than later can save you from bigger headaches down the road.
             </p>
@@ -172,59 +172,59 @@ export default function ElectricalPanelReplacementPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Benefits of an Electrical Panel Upgrade
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               An upgrade comes with real advantages. If your home still relies on an outdated panel or an
               old fuse box, switching to a new electrical panel improves both safety and performance.
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               First, an upgrade makes sure your home can safely handle the increased electrical load of
               modern appliances. Many older homes weren’t built to support today’s energy needs. Upgrading
               lets you add new appliances and devices without worrying about tripping breakers or
               overloading circuits.
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               Second, a new panel can increase the value of your home and is a selling point for buyers.
               When your electrical system is safer, you’ll also experience fewer problems down the line —
               saving you time and money on repairs.
             </p>
           </div>
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }} role="img" aria-label="Electrician reviewing a panel upgrade plan" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }} role="img" aria-label="Electrician reviewing a panel upgrade plan" />
         </div>
       </section>
 
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Electrical Panel Replacement in {site.serviceArea}</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Living in {site.serviceArea} means you’ve got access to expert electrical services right in
             your area. Whether you need a panel replacement or an upgrade, {site.name} is ready to help.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We specialize in helping homeowners upgrade their breaker panels with minimal disruption to
             daily life. Our technicians are skilled, friendly, and focused on making the process as smooth
             as possible for you and your family.
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Electrical Panel Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             If a full replacement isn’t necessary, panel repair may be the right option. Often, smaller
             issues can be resolved without replacing the entire panel — replacing individual breakers,
             fixing wiring, or addressing a specific fault might be enough to restore your system.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             When your power is out or your breakers keep tripping, you want things fixed fast. We inspect
             your system, diagnose the problem, and clearly explain your options. If a repair can solve the
             issue, we take care of it quickly so you can get back to your routine.
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Unmatched Expertise for Every Need</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We don’t just handle panel installations. We offer a full range of electrical services to meet
             your home’s needs, including:
           </p>
           <ul className="mt-4 space-y-2">
             {related.map((r) => (
-              <li key={r.href} className="flex gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={r.href} className="flex gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <span>
                   <Link href={r.href} className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
@@ -237,24 +237,24 @@ export default function ElectricalPanelReplacementPage() {
           </ul>
 
           <h2 className="mt-12 section-title text-brand-700">Upgrade Your Electrical Panel Today</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Scheduling a panel upgrade across {site.serviceArea} has never been easier. An upgraded panel
             gives you peace of mind that your electrical system is safe, efficient, and ready for today’s
             technology.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We guide you through the entire process — from the initial consultation to the final
             installation — making sure everything runs smoothly.
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Panel Replacement</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We’ve built our reputation on high-quality service and treating every customer like family.
             Homeowners across {site.serviceArea} rely on us because we provide:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -268,7 +268,7 @@ export default function ElectricalPanelReplacementPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -276,12 +276,12 @@ export default function ElectricalPanelReplacementPage() {
 
           <h2 className="mt-12 section-title text-brand-700">Electrical Panel Replacement FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Panel Replacement Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Worried about an aging panel? {site.name} replaces and repairs electrical panels across{' '}
               {site.serviceArea}. Call now or request a free estimate.
             </p>
@@ -302,7 +302,7 @@ export default function ElectricalPanelReplacementPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Electrical panel replacement by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We replace and upgrade electrical panels across {site.serviceArea} —{' '}
             {locations.filter((l) => panelReplacementCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and electrical loads in your area.

@@ -67,6 +67,9 @@ export type NavItem = {
   caret?: boolean;
   children?: NavChild[];
   cta?: NavChild;
+  // Long menus render their dropdown in two columns so every item stays on
+  // screen. Short menus stay single-column.
+  columns?: 2;
 };
 
 export const nav: NavItem[] = [
@@ -74,6 +77,7 @@ export const nav: NavItem[] = [
     label: 'Plumbing',
     href: '/services/plumbing',
     caret: true,
+    columns: 2,
     children: [
       {
         label: 'Drains',
@@ -82,6 +86,27 @@ export const nav: NavItem[] = [
         children: [{ label: 'Drain Cleaning', href: '/services/drain-cleaning' }],
       },
       { label: 'Emergency Plumbing', href: '/services/emergency-plumbing' },
+      {
+        label: 'Water Damage Restoration',
+        href: '/services/water-damage-restoration',
+        arrow: true,
+        children: [
+          { label: 'Emergency Water Extraction', href: '/services/emergency-water-extraction' },
+          { label: 'Structural Drying', href: '/services/structural-drying' },
+          { label: 'Mold Prevention & Remediation', href: '/services/mold-prevention-remediation' },
+        ],
+      },
+      {
+        label: 'After Flood Plumbing',
+        href: '/services/after-flood-plumbing',
+        arrow: true,
+        children: [
+          { label: 'Sewer Backup Repair', href: '/services/sewer-backup-repair' },
+          // Points at the existing Sump Pumps master page rather than a duplicate.
+          { label: 'Sump Pump Repair & Installation', href: '/services/sump-pumps' },
+          { label: 'Basement Flood Plumbing', href: '/services/basement-flood-plumbing' },
+        ],
+      },
       { label: 'Faucet Repair & Replacement', href: '/services/faucet-repair-replacement' },
       { label: 'Leak Detection', href: '/services/leak-detection' },
       { label: 'Leak Repair', href: '/services/leak-repair' },
@@ -90,6 +115,7 @@ export const nav: NavItem[] = [
       { label: 'Sewer Repair & Replacement', href: '/services/sewer-repair-replacement' },
       { label: 'Whole-House Repiping', href: '/services/whole-house-repiping' },
       { label: 'Gas Line Repair & Replacement', href: '/services/gas-line-repair-replacement' },
+      { label: 'Gas Service Disconnection (Duke Energy)', href: '/services/gas-service-disconnection' },
       { label: 'Pipe Repair & Replacement', href: '/services/pipe-repair-replacement' },
       { label: 'Garbage Disposals', href: '/services/garbage-disposals' },
       { label: 'Sump Pumps', href: '/services/sump-pumps' },
@@ -99,7 +125,6 @@ export const nav: NavItem[] = [
       { label: 'Water Heater Repair', href: '/services/water-heater-repair' },
       { label: 'Water Quality', href: '/services/water-quality' },
     ],
-    cta: { label: 'Get Water Heater Quote', href: '/free-estimate' },
   },
   {
     label: 'Heating',
@@ -113,7 +138,6 @@ export const nav: NavItem[] = [
       { label: 'Indoor Air Quality', href: '/services/indoor-air-quality' },
       { label: 'Shop Furnace Filters', href: '/services/furnace-filters' },
     ],
-    cta: { label: 'Get Furnace Quote', href: '/free-estimate' },
   },
   {
     label: 'Air Conditioning',
@@ -135,12 +159,12 @@ export const nav: NavItem[] = [
       { label: 'Indoor Air Quality', href: '/services/indoor-air-quality' },
       { label: 'Shop Air Filters', href: '/services/air-filters' },
     ],
-    cta: { label: 'Get AC Quote', href: '/free-estimate' },
   },
   {
     label: 'Electrical',
     href: '/services/electrical',
     caret: true,
+    columns: 2,
     children: [
       {
         label: 'Lighting',
@@ -181,6 +205,8 @@ export const nav: NavItem[] = [
       { label: 'Electrical Panel Replacement', href: '/services/electrical-panel-replacement' },
       { label: 'Switches & Outlets', href: '/services/switches-outlets' },
       { label: 'Electrical Mast Repair', href: '/services/electrical-mast-repair' },
+      { label: 'Electricity Disconnection (Duke Energy)', href: '/services/electricity-disconnection' },
+      { label: 'Storm Electricity Outage', href: '/services/storm-electricity-outage' },
     ],
   },
   {
@@ -188,21 +214,14 @@ export const nav: NavItem[] = [
     href: '/about',
     caret: true,
     children: [
-      { label: "We're Hiring! Apply Today", href: '/careers' },
-      { label: 'Financing', href: '/financing' },
-      {
-        label: 'The Degree of Comfort Difference',
-        href: '/difference',
-        arrow: true,
-        children: [
-          { label: 'Customer Success Stories', href: '/customer-success-stories' },
-          { label: 'Reviews', href: '/reviews' },
-        ],
-      },
-      { label: 'Referral Program', href: '/referrals' },
-      { label: 'Degree of Comfort University', href: '/university' },
+      { label: 'Video Testimonials', href: '/video-testimonials' },
+      { label: 'Reviews', href: '/reviews' },
+      { label: 'Customer Success Stories', href: '/customer-success-stories' },
       { label: 'Blog', href: '/blog' },
-      { label: 'FAQ', href: '/faq' },
+      { label: 'Financing', href: '/financing' },
+      { label: 'Degree of Comfort University', href: '/university' },
+      { label: 'Referral Program', href: '/referrals' },
+      { label: "We're Hiring! Apply Today", href: '/careers' },
     ],
   },
   {

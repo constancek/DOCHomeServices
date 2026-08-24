@@ -130,7 +130,7 @@ export default function MiniSplitRepairPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/minisplit-repair-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/minisplit-repair-hero.webp)' }}
             role="img"
             aria-label="Technician repairing a ductless mini-split"
           />
@@ -164,7 +164,7 @@ export default function MiniSplitRepairPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/mini-split-repair.jpg)' }}
+            style={{ backgroundImage: 'url(/services/mini-split-repair.webp)' }}
             role="img"
             aria-label="Ductless mini-split being repaired"
           />
@@ -172,7 +172,7 @@ export default function MiniSplitRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs Your Mini-Split Needs Repair
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Mini-split issues often start small — subtle performance changes can signal a larger
               problem if left unaddressed. Common signs your ductless system may need repair include:
             </p>
@@ -184,7 +184,7 @@ export default function MiniSplitRepairPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Addressing these symptoms early helps reduce strain on the system and supports more
               reliable comfort throughout the home.
             </p>
@@ -199,17 +199,17 @@ export default function MiniSplitRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Mini-Split Repair Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Every ductless mini-split repair begins with a careful system evaluation. Our technician
               inspects both the indoor and outdoor units to understand how the system is operating and
               where performance has changed.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               We examine airflow, electrical connections, and refrigerant levels to identify the source
               of the issue. Once we find the problem, we explain what is happening and review the
               recommended repair in clear, simple terms.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               After approval, we complete repairs using proper tools and manufacturer-approved parts,
               then test the system to confirm steady cooling and heating, safe operation, and
               dependable performance before service is complete.
@@ -217,7 +217,7 @@ export default function MiniSplitRepairPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Technician explaining a mini-split repair to a homeowner"
           />
@@ -228,24 +228,24 @@ export default function MiniSplitRepairPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Common Mini-Split Repairs We Handle</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Our technicians regularly repair a wide range of ductless mini-split issues, including:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {commonRepairs.map((c) => (
-              <li key={c} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={c} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {c}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Timely repair helps keep your mini-split system running smoothly and efficiently.
           </p>
 
           {/* Emergency */}
           <h2 className="mt-12 section-title text-brand-700">Emergency Mini-Split Repair, 24/7</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Mini-split problems do not always happen during business hours, and a loss of cooling or
             heating can quickly affect comfort and safety inside the home. {site.name} offers 24/7
             emergency mini-split repair for urgent situations — focused on restoring comfort as quickly
@@ -263,14 +263,14 @@ export default function MiniSplitRepairPage() {
 
           {/* Benefits */}
           <h2 className="mt-12 section-title text-brand-700">Benefits of Prompt Mini-Split Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Even minor mini-split issues can impact comfort and efficiency if left unresolved. Prompt
             repair protects system performance and prevents larger problems. Professional repair can
             help:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {b}
               </li>
@@ -279,12 +279,12 @@ export default function MiniSplitRepairPage() {
 
           {/* Efficiency */}
           <h2 className="mt-12 section-title text-brand-700">How Repair Supports Energy Efficiency</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             When a ductless mini-split is not working correctly, it often uses more energy than
             necessary. Restricted airflow, electrical problems, or refrigerant loss can force the
             system to work harder to maintain comfort.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Professional repair corrects these issues so the system operates as designed — reducing
             component strain, improving efficiency, and supporting more stable energy use. Addressing
             repairs early also helps prevent unnecessary energy waste and rising utility costs.
@@ -292,25 +292,25 @@ export default function MiniSplitRepairPage() {
 
           {/* Preventing future breakdowns */}
           <h2 className="mt-12 section-title text-brand-700">Preventing Future Mini-Split Breakdowns</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             While repairs address current issues, routine care reduces the risk of future breakdowns.
             A few simple steps support long-term performance:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {prevent.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Consistent care supports dependable operation and year-round comfort.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Mini-Split Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for professional cooling and heating
             services. Our mini-split repairs are performed by trained technicians who prioritize
             accuracy, safety, and clear communication — we take the time to diagnose issues correctly
@@ -324,7 +324,7 @@ export default function MiniSplitRepairPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -336,7 +336,7 @@ export default function MiniSplitRepairPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -345,7 +345,7 @@ export default function MiniSplitRepairPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Mini-Split Repair Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               If your ductless mini-split is not cooling or heating properly, professional repair can
               help. Call now or request a free estimate.
             </p>
@@ -366,7 +366,7 @@ export default function MiniSplitRepairPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Mini-split repair by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We repair ductless mini-splits across {site.serviceArea} —{' '}
             {locations.filter((l) => miniSplitRepairCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and spaces in your area.

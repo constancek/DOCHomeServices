@@ -48,7 +48,7 @@ const faqs = [
   { q: 'What does a professional furnace installation include?', a: 'We size the system to your home, safely remove the old unit, install the new furnace with proper gas, electrical, and venting connections, test airflow and operation, then clean up and walk you through how it runs.' },
   { q: 'How long does a new furnace installation take?', a: 'A standard replacement usually takes about 4–8 hours. It can take longer if we are adding ductwork, switching fuel types, or correcting older work.' },
   { q: 'Do you offer financing for furnace installation?', a: 'Yes — we offer financing with low rates and fast approval, so you can get a reliable system now and spread the payments over time.' },
-  { q: 'Can I schedule emergency furnace installation during winter?', a: 'Absolutely. When a furnace fails during a cold snap, our rescue team offers same-day installation to restore heat without delay.' },
+  { q: 'Can I schedule emergency furnace installation during winter?', a: 'Yes. When a furnace fails in a cold snap we install the same day wherever we can, because a house with no heat in January is not a job that waits for a booking slot. If the right unit is not on the van, we will tell you what we can do that day to keep the house warm in the meantime.' },
   { q: 'How far in advance should I book a furnace install?', a: 'For a planned upgrade, a few days is usually plenty. For a no-heat emergency, we handle installs the same day whenever possible.' },
 ];
 
@@ -116,7 +116,7 @@ export default function FurnaceInstallationPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/furnace-install-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/furnace-install-hero.webp)' }}
             role="img"
             aria-label="Technician installing a new furnace"
           />
@@ -136,19 +136,19 @@ export default function FurnaceInstallationPage() {
 
           {/* Advantages */}
           <h2 className="mt-10 section-title text-brand-700">Advantages of Modern Furnaces</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Today’s high-efficiency furnaces do more than provide heat — they add comfort, save money,
             and improve your home’s air quality. Benefits include:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {advantages.map((a) => (
-              <li key={a} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={a} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {a}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Upgrading to a modern furnace is not just about comfort — it is an investment in your home
             and your peace of mind. We also handle{' '}
             <Link href="/services/furnace-repair" className="font-semibold text-pink-600 underline hover:text-pink-700">
@@ -172,7 +172,7 @@ export default function FurnaceInstallationPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/furnace-install-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/furnace-install-signs.webp)' }}
             role="img"
             aria-label="Technician inspecting a furnace with a homeowner"
           />
@@ -180,7 +180,7 @@ export default function FurnaceInstallationPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs It’s Time for a New Furnace
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Not sure whether to repair or replace? Here are clear signs it is time to schedule a new
               furnace install:
             </p>
@@ -192,7 +192,7 @@ export default function FurnaceInstallationPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If you have noticed these issues, it may be time to stop spending on temporary fixes and
               invest in a lasting solution.
             </p>
@@ -207,12 +207,12 @@ export default function FurnaceInstallationPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               What to Expect During a New Furnace Installation
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A new furnace installation begins with evaluating your home and confirming the correct
               system size and setup for your heating needs. On installation day, the existing furnace
               is carefully removed and the area is prepared for a safe, efficient installation.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               The new furnace is then installed, connected, and tested to confirm proper operation and
               airflow. Once it is running, the technician reviews basic operation and maintenance tips,
               answers your questions, and cleans the work area — so your home is left comfortable and
@@ -221,7 +221,7 @@ export default function FurnaceInstallationPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Technician reviewing a new furnace with a homeowner"
           />
@@ -232,7 +232,7 @@ export default function FurnaceInstallationPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Same-Day Furnace Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             When your furnace fails during a cold snap, waiting is not an option. {site.name} offers
             same-day furnace installation for urgent situations — our rescue team is ready to install
             and test your new unit quickly, restoring warmth to your home without delay.
@@ -240,13 +240,13 @@ export default function FurnaceInstallationPage() {
 
           {/* Gas and electric */}
           <h2 className="mt-12 section-title text-brand-700">Gas & Electric Furnace Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Every home has different heating needs, and our team is equipped to handle all types of
             furnace installation:
           </p>
           <ul className="mt-4 space-y-2.5">
             {fuelTypes.map((f) => (
-              <li key={f.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={f.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{f.lead}:</span> {f.text}
@@ -254,7 +254,7 @@ export default function FurnaceInstallationPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Whether you choose a natural gas or electric furnace, our certified technicians make sure
             your unit is installed properly, tested for performance, and ready to deliver comfort
             right away.
@@ -262,7 +262,7 @@ export default function FurnaceInstallationPage() {
 
           {/* Financing */}
           <h2 className="mt-12 section-title text-brand-700">Financing a New Furnace</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A new furnace can be a big investment, especially if your current unit failed unexpectedly.
             {' '}{site.name} offers flexible financing to make the purchase stress-free — with low
             rates and fast approval, you can enjoy a reliable heating system now and spread the
@@ -271,7 +271,7 @@ export default function FurnaceInstallationPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Furnace Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Installing a new furnace is a significant investment, and proper installation is the key to
             long-term performance and efficiency. {site.name} provides professional furnace
             installation designed to keep your system operating safely and reliably from day one. With
@@ -287,7 +287,7 @@ export default function FurnaceInstallationPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -299,7 +299,7 @@ export default function FurnaceInstallationPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -308,7 +308,7 @@ export default function FurnaceInstallationPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Install a New Furnace Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Do not let an old or unreliable heating system compromise your comfort. We will help you
               find the perfect furnace. Call now or request a free estimate.
             </p>
@@ -329,7 +329,7 @@ export default function FurnaceInstallationPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Furnace installation & replacement by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install and replace furnaces across {site.serviceArea} —{' '}
             {locations.filter((l) => furnaceInstallationCopy[l.slug]).length} neighborhoods and counting.
             For local detail on the systems that fit homes in your area, find yours below.

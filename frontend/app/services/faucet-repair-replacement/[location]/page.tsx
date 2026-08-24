@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Faucet Repair & Replacement',
   ctaLine: 'Dripping faucet in {neighborhood}? Call for same-day service',
-  heroImage: '/services/faucet-repair-replacement.jpg',
+  heroImage: '/services/faucet-repair-replacement.webp',
   introHeading: 'Faucet Repair & Replacement in {neighborhood}',
   introParagraphs: [
     'A dripping or worn-out faucet wastes water, stains the sink, and only gets worse. {brand} repairs and replaces kitchen and bathroom faucets for homeowners in {place} — stopping drips, fixing low pressure, and installing new fixtures clean and leak-free.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'leak-repair', title: 'Leak Repair' },
     { slug: 'water-quality', title: 'Water Quality' },
   ],
-  band1Image: '/services/plumbing-repair.jpg',
+  band1Image: '/services/plumbing-repair.webp',
   band1Heading: 'Signs You Need Faucet Repair in {neighborhood}',
   commonSituations: [
     'A drip or leak that will not stop, even after a new washer',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'An old, outdated fixture you are ready to upgrade',
   ],
   trustedBanner: 'Your Local & Trusted Faucet Repair Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Faucet Service in {neighborhood}',
   band2Paragraphs: [
     'We start by inspecting the existing faucet and understanding your goal — a kitchen faucet repair, a bathroom faucet installation, or an emergency fix — then explain the flat-rate price before any work begins.',

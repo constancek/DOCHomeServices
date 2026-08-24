@@ -67,9 +67,9 @@ const whyUs = [
 
 const faqs = [
   { q: 'Can recessed lights be used in bathrooms or damp areas?', a: 'Yes. Some recessed lighting fixtures are designed for bathrooms and damp spaces when installed properly.' },
-  { q: 'Do I need an electrician or can I DIY?', a: 'Recessed lighting installation involves electrical wiring and ceiling work. Hiring an electrician helps ensure safe installation.' },
+  { q: 'Do I need an electrician or can I DIY?', a: 'Swapping a trim or a bulb is yours to do. Cutting new holes is where it changes: the housing has to be rated for contact with insulation if there is insulation above it, a fire-rated ceiling cannot simply be cut into, and new fixtures usually mean a new circuit or at least a load check. That part is an electrician and, in most jurisdictions here, a permit.' },
   { q: 'How much does recessed lighting installation typically cost?', a: 'Costs depend on the number of fixtures, ceiling access, and the electrical work required.' },
-  { q: 'Can recessed lighting increase home value?', a: 'Many homeowners install recessed lighting because it improves brightness and modernizes a room.' },
+  { q: 'Can recessed lighting increase home value?', a: 'It can help, though not the way a kitchen or bathroom does. What buyers notice is a room that is well lit and looks current, and recessed lighting gives you both without taking up floor or wall space. Treat it as a comfort upgrade that shows well rather than money you get back.' },
   { q: 'How long do recessed LED lights last?', a: 'LED recessed lights typically last many years and use less electricity than traditional bulbs.' },
 ];
 
@@ -139,7 +139,7 @@ export default function RecessedLightingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/recessed-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/recessed-hero.webp)' }}
             role="img"
             aria-label="Living room with recessed ceiling lighting"
           />
@@ -175,7 +175,7 @@ export default function RecessedLightingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/recessed-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/recessed-signs.webp)' }}
             role="img"
             aria-label="Kitchen with recessed ceiling downlights"
           />
@@ -183,7 +183,7 @@ export default function RecessedLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need Recessed Lighting in Your Home
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many homes still rely on older ceiling lights that do not distribute light well. Recessed
               lighting improves brightness and creates more balanced lighting. You may want recessed
               lighting installation if you notice:
@@ -196,7 +196,7 @@ export default function RecessedLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Recessed lighting works well in kitchens, bathrooms, basements, and many other rooms in the
               home.
             </p>
@@ -214,7 +214,7 @@ export default function RecessedLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Recessed Lighting Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Installing recessed lighting requires planning and careful electrical work. Proper spacing
               helps distribute light evenly across the room. Our installation process includes:
             </p>
@@ -226,13 +226,13 @@ export default function RecessedLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Professional installation helps ensure each light fixture is secure and properly placed.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician planning a recessed lighting layout"
           />
@@ -243,11 +243,11 @@ export default function RecessedLightingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Cost to Install Recessed Lighting</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The cost to install recessed lighting depends on several factors. The number of fixtures,
             ceiling access, and electrical wiring all affect the final price.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Installing recessed lights during a renovation is often easier because ceilings may already
             be open. Adding fixtures to a finished ceiling may require additional electrical work. During
             your consultation, our electricians evaluate the room and recommend the number of fixtures
@@ -256,7 +256,7 @@ export default function RecessedLightingPage() {
 
           {/* Pro vs DIY */}
           <h2 className="mt-12 section-title text-brand-700">Why You Need Professional Installation and Not DIY</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Some homeowners attempt to install recessed lights on their own. However, recessed lighting
             requires electrical wiring and changes to the ceiling. Professional electricians understand
             how to install recessed lighting safely. They protect existing wiring and make sure each
@@ -264,44 +264,44 @@ export default function RecessedLightingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {proEnsures.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Professional installation helps prevent uneven lighting and electrical issues.
           </p>
 
           {/* Benefits */}
           <h2 className="mt-12 section-title text-brand-700">Recessed Lighting Benefits</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Recessed lighting offers several advantages over traditional ceiling fixtures. Because the
             lights sit inside the ceiling, they provide strong lighting without taking up visual space.
             Benefits include:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {b}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Many homeowners choose recessed lighting because it makes rooms feel brighter and more open.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Recessed Lighting Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for dependable lighting installation
             services. When you work with our team, you receive:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -315,12 +315,12 @@ export default function RecessedLightingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             Our goal is to install lighting that improves brightness and enhances the look of your home.
           </p>
 
@@ -330,7 +330,7 @@ export default function RecessedLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -339,7 +339,7 @@ export default function RecessedLightingPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Recessed Lighting Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready for cleaner, brighter ceilings? {site.name} installs recessed lighting across{' '}
               {site.serviceArea}. Call now or request a free estimate.
             </p>
@@ -360,7 +360,7 @@ export default function RecessedLightingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Recessed lighting by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install recessed lighting across {site.serviceArea} —{' '}
             {locations.filter((l) => recessedLightingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and rooms in your area.

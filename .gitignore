@@ -2,9 +2,10 @@
 /node_modules
 node_modules/
 
-# next.js
-/.next/
-/out/
+# next.js — the app lives in frontend/, so these need to match at any depth
+# rather than only at the repo root, or `git add -A` sweeps in the build output.
+.next/
+out/
 
 # production
 /build

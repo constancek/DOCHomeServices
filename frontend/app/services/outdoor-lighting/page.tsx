@@ -69,10 +69,10 @@ const whyUs = [
 ];
 
 const faqs = [
-  { q: 'What is landscape lighting?', a: 'Landscape lighting refers to exterior lighting designed to highlight landscaping features and improve safety around your property.' },
+  { q: 'What is landscape lighting?', a: 'It is exterior lighting aimed at the ground and the planting rather than at the house — path lights, uplights on trees, well lights, step lights. It generally runs low-voltage off a 12-volt transformer, which is why it is cheaper to run and safer to work around than line-voltage fixtures on the building itself.' },
   { q: 'What is the benefit of an outdoor lighting installation?', a: 'Outdoor lighting installation improves visibility, enhances security, increases curb appeal, and expands usable outdoor space.' },
   { q: 'How long does an exterior lighting installation take?', a: 'Most projects are completed within one day. Larger exterior lighting installation systems may require additional time.' },
-  { q: 'Is a professional outdoor lighting installation better than DIY?', a: 'Yes. Professional installation ensures proper wiring, safe electrical connections, and reliable system performance.' },
+  { q: 'Is a professional outdoor lighting installation better than DIY?', a: 'It depends what you are doing. Plug-in fixtures on an existing outdoor receptacle are a fair weekend job, and we will say so rather than sell you a visit. Where it needs an electrician is new circuits, anything switched from indoors, buried cable, and fixture ratings — a light exposed to rain needs a wet-location rating, and an indoor fixture put outside fails in a season or two.' },
   { q: 'What kind of outdoor lights do you install?', a: 'We install pathway lighting, accent lighting, patio lighting, outdoor landscape lighting systems, security lighting, and holiday lighting.' },
   { q: 'Can outdoor lights increase energy efficiency?', a: 'Yes. Modern LED light fixtures use less electricity and last longer than traditional bulbs.' },
 ];
@@ -143,7 +143,7 @@ export default function OutdoorLightingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/outdoor-lighting-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/outdoor-lighting-hero.webp)' }}
             role="img"
             aria-label="Home exterior with landscape lighting at dusk"
           />
@@ -207,7 +207,7 @@ export default function OutdoorLightingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/outdoor-lighting-benefits.jpg)' }}
+            style={{ backgroundImage: 'url(/services/outdoor-lighting-benefits.webp)' }}
             role="img"
             aria-label="Patio with warm outdoor lighting in the evening"
           />
@@ -215,12 +215,12 @@ export default function OutdoorLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Benefits of Outdoor Lighting for Your Home
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Outdoor lighting installation provides real, practical advantages for homeowners.
             </p>
             <ul className="mt-4 space-y-2">
               {benefits.map((b) => (
-                <li key={b.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={b.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{b.lead}:</span> {b.text}
@@ -242,7 +242,7 @@ export default function OutdoorLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Professional Outdoor Lighting Installation
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A successful outdoor lighting installation starts with proper planning and safe electrical
               execution. We follow a structured process to ensure reliable performance. Our installation
               process includes:
@@ -255,7 +255,7 @@ export default function OutdoorLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Proper voltage distribution is critical. Our landscape lighting installers calculate load
               carefully to prevent flickering, uneven brightness, or early component failure. We also
               offer energy-efficient LED systems that provide long-term savings.
@@ -263,7 +263,7 @@ export default function OutdoorLightingPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician planning an outdoor lighting layout"
           />
@@ -275,13 +275,13 @@ export default function OutdoorLightingPage() {
         <div className="container-page max-w-4xl">
           {/* Pro vs DIY */}
           <h2 className="mt-12 section-title text-brand-700">Benefits of Professional Installation over DIY Efforts</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             While DIY kits may seem convenient, professional outdoor lighting installation delivers
             better results and greater protection.
           </p>
           <ul className="mt-4 space-y-2">
             {proVsDiy.map((p) => (
-              <li key={p.lead} className="flex gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p.lead} className="flex gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <span>
                   <span className="font-bold text-brand-700">{p.lead}:</span> {p.text}
@@ -289,27 +289,27 @@ export default function OutdoorLightingPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Professional installation protects both your home and your investment.
           </p>
 
           {/* Holiday */}
           <h2 className="mt-12 section-title text-brand-700">Holiday Lighting Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             <Link href="/services/holiday-lighting" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               Holiday lights installation
             </Link>{' '}
             should be safe and stress-free. Our team designs custom seasonal displays that complement
             your home’s architecture and landscaping.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We handle secure mounting, proper electrical load balancing, and safe removal after the
             season ends. You get a polished look without ladder work or wiring concerns.
           </p>
 
           {/* Hot tub */}
           <h2 className="mt-12 section-title text-brand-700">Hot Tub Wiring and Lighting</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Adding a spa requires proper{' '}
             <Link href="/services/hot-tub-wiring" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               hot tub wiring
@@ -317,7 +317,7 @@ export default function OutdoorLightingPage() {
             and electrical planning. We provide complete hot tub electrical installation services to
             ensure safe operation and code compliance.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Dedicated circuits, GFCI protection, and outdoor-rated wiring are essential for long-term
             performance. When paired with surrounding outdoor lighting, your spa area becomes a fully
             illuminated and relaxing extension of your home.
@@ -325,14 +325,14 @@ export default function OutdoorLightingPage() {
 
           {/* Landscape */}
           <h2 className="mt-12 section-title text-brand-700">Landscape Lighting Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             <Link href="/services/landscape-lighting" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               Landscape lighting
             </Link>{' '}
             adds depth and structure to your property. It highlights trees, shrubs, retaining walls, and
             water features while improving nighttime safety.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Professional landscape lighting installation enhances visibility along paths and elevation
             changes. Outdoor landscape lighting also creates dimension and visual interest across your
             yard.
@@ -340,27 +340,27 @@ export default function OutdoorLightingPage() {
 
           {/* Patio */}
           <h2 className="mt-12 section-title text-brand-700">Custom Patio Lighting Solutions</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             <Link href="/services/patio-lighting" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               Custom patio lighting
             </Link>{' '}
             improves comfort and functionality in outdoor living areas. Patio light installation lets you
             control the brightness and atmosphere based on how you use the space.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             From recessed deck lighting and under-rail illumination to café lighting and outdoor kitchen
             accents, we design systems that feel intentional and balanced.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Outdoor Lighting Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} choose {site.name} for our dependable service and
             professional workmanship. When you work with us, you receive:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -374,12 +374,12 @@ export default function OutdoorLightingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             Every outdoor lighting installation is carefully planned and professionally installed to
             ensure long-term performance.
           </p>
@@ -390,7 +390,7 @@ export default function OutdoorLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -399,7 +399,7 @@ export default function OutdoorLightingPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Outdoor Lighting Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to transform your property after dark? {site.name} installs outdoor lighting across{' '}
               {site.serviceArea}. Call now or request a free estimate.
             </p>
@@ -420,7 +420,7 @@ export default function OutdoorLightingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Outdoor lighting by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install outdoor lighting across {site.serviceArea} —{' '}
             {locations.filter((l) => outdoorLightingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the yards and homes in your area.

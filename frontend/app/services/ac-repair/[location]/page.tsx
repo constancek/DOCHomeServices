@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'HVACBusiness',
   schemaServiceType: 'Air Conditioning Repair',
   ctaLine: 'AC not cooling in {neighborhood}? Call for immediate service',
-  heroImage: '/services/ac-repair-hero.jpg',
+  heroImage: '/services/ac-repair-hero.webp',
   promo: 'Save $75 on same-day AC repairs in {neighborhood} — book now, offer ends soon',
   introHeading: 'AC Repair in {neighborhood}',
   introParagraphs: [
@@ -43,7 +43,7 @@ const config: ServiceLocationConfig = {
     { slug: 'mini-split-repair', title: 'Mini-Split Repair' },
     { slug: 'indoor-air-quality', title: 'Indoor Air Quality' },
   ],
-  band1Image: '/services/ac-repair.jpg',
+  band1Image: '/services/ac-repair.webp',
   band1Heading: 'Most Common AC Problems in {neighborhood} Homes',
   commonSituations: [
     'Warm air coming from the vents',
@@ -55,7 +55,7 @@ const config: ServiceLocationConfig = {
     'A sudden spike in the electric bill',
   ],
   trustedBanner: 'Your Local & Trusted AC Repair Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect When We Arrive in {neighborhood}',
   band2Paragraphs: [
     'When you call for AC repair, a licensed technician arrives promptly, diagnoses the cause, and explains the recommended repair and the flat-rate price before any work begins — you approve it first.',

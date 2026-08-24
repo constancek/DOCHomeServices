@@ -59,11 +59,11 @@ const whyUs = [
 ];
 
 const faqs = [
-  { q: 'Why should I upgrade my garage lighting?', a: 'Upgrading garage lighting improves visibility, helps you use the space more comfortably, and makes it easier to see tools, storage items, and vehicles.' },
-  { q: 'What are the best lighting options for garages?', a: 'LED garage lights are one of the most popular options because they provide strong brightness and energy efficiency.' },
+  { q: 'Why should I upgrade my garage lighting?', a: 'Because most garages were given one fixture in the middle of the ceiling, which puts your own shadow over whatever you are working on. The fix is usually more fixtures spread out rather than one brighter one. If you are also adding outlets for tools, doing both at once saves a second visit and a second permit.' },
+  { q: 'What are the best lighting options for garages?', a: 'LED shop-style fixtures, and one detail worth checking before you buy: in an unheated garage, some LED fixtures have a minimum starting temperature and will flicker or refuse to light on a cold January morning. Look for a cold-rated fixture. For colour, around 4000K reads clean and workshop-like without the blue cast of higher numbers.' },
   { q: 'Can garage lighting make the garage safer?', a: 'Yes. Proper lighting helps reduce shadows and improves visibility around tools, equipment, and entry areas.' },
   { q: 'How long does a typical garage lighting installation take?', a: 'Most garage lighting installations can be completed within a few hours, depending on the number of fixtures and wiring needed.' },
-  { q: 'How can I maintain my garage lighting after installation?', a: 'Keeping fixtures clean and replacing bulbs when needed helps maintain strong brightness and reliable performance.' },
+  { q: 'How can I maintain my garage lighting after installation?', a: 'Very little. Wipe the dust off the lenses once in a while, because a garage generates more of it than any other room. Integrated LED fixtures have no bulb to replace — when the light finally fails you swap the whole unit, which is worth knowing before you buy fixtures nobody stocks parts for.' },
 ];
 
 const serviceSchema = {
@@ -134,7 +134,7 @@ export default function GarageLightingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/garage-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/garage-hero.webp)' }}
             role="img"
             aria-label="Brightly lit garage workshop interior"
           />
@@ -171,7 +171,7 @@ export default function GarageLightingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/garage-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/garage-signs.webp)' }}
             role="img"
             aria-label="LED shop lighting on a garage ceiling"
           />
@@ -179,7 +179,7 @@ export default function GarageLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Are in Need of New Garage Lighting
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many homes still use older garage lights that do not provide enough brightness. When
               lighting is weak or uneven, everyday tasks in the garage become more difficult. You may
               want to upgrade your garage lighting if you notice:
@@ -192,7 +192,7 @@ export default function GarageLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Upgrading your lighting helps create a brighter and more usable garage.
             </p>
             <p className="mt-3 text-sm font-bold uppercase tracking-wide text-white">
@@ -209,7 +209,7 @@ export default function GarageLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Garage Lighting Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Every garage lighting installation starts with reviewing how the garage is used. Some
               homeowners mainly park vehicles there. Others use the space for storage, projects, or
               equipment. Our installation process includes:
@@ -222,14 +222,14 @@ export default function GarageLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Proper fixture placement helps eliminate shadows and ensures the lighting reaches the
               entire space.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician planning a garage lighting layout"
           />
@@ -240,14 +240,14 @@ export default function GarageLightingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">LED Garage Light Options</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             <Link href="/services/led-lighting" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               LED garage lights
             </Link>{' '}
             are one of the most popular upgrades for garages today. They produce strong brightness while
             using less electricity than older bulbs.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             LED lighting is especially useful in garages used as workspaces. Clear, bright lighting helps
             improve visibility when using tools, organizing storage, or completing projects. Another
             advantage of LED garage lights is their lifespan — these fixtures typically last much longer
@@ -257,11 +257,11 @@ export default function GarageLightingPage() {
 
           {/* Exterior */}
           <h2 className="mt-12 section-title text-brand-700">Exterior Garage Lighting Is Available</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Exterior garage lighting helps illuminate areas around the garage door, driveway, and
             walkways. These fixtures make it easier to move around your property after dark.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Exterior garage lights can also improve visibility when parking vehicles at night. A well-lit
             driveway reduces shadows and makes entry points easier to see. Our electricians install
             exterior garage lighting designed to withstand weather conditions while providing dependable
@@ -270,31 +270,31 @@ export default function GarageLightingPage() {
 
           {/* Fixtures */}
           <h2 className="mt-12 section-title text-brand-700">Garage Light Fixtures We Install</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Garages require lighting that is bright, durable, and reliable. Our electricians install a
             variety of garage light fixtures designed to handle garage environments. Common fixtures
             include:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {fixtures.map((f) => (
-              <li key={f} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={f} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {f}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Each lighting fixture is selected based on the size of the garage and how the space is used.
           </p>
 
           {/* Safety */}
           <h2 className="mt-12 section-title text-brand-700">The Safety Benefits of Garage Lighting</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Proper garage lighting helps improve safety both inside and outside the space. Bright lighting
             makes it easier to see tools, equipment, and storage items, which reduces the risk of trips or
             accidents when moving around the garage.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Exterior garage lighting also improves visibility near driveways and entry doors. When these
             areas are well lit, it becomes easier to walk safely around the property at night. A
             well-planned lighting layout helps eliminate dark areas and keeps the garage safer to use.
@@ -302,13 +302,13 @@ export default function GarageLightingPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Garage Lighting</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for professional electrical services
             and lighting installation. When you work with our team, you receive:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -322,12 +322,12 @@ export default function GarageLightingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             Our goal is to install garage lighting that improves visibility and provides dependable
             performance.
           </p>
@@ -338,7 +338,7 @@ export default function GarageLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -347,7 +347,7 @@ export default function GarageLightingPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Garage Light Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready for a brighter garage? {site.name} installs garage lighting across {site.serviceArea}.
               Call now or request a free estimate.
             </p>
@@ -368,7 +368,7 @@ export default function GarageLightingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Garage lighting by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install garage lighting across {site.serviceArea} —{' '}
             {locations.filter((l) => garageLightingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the garages and homes in your area.

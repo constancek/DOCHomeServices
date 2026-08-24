@@ -66,7 +66,7 @@ const faqs = [
   { q: 'How do I choose the right outdoor lighting for my home?', a: 'Outdoor lighting should illuminate entryways, walkways, and outdoor living areas. Our electricians can recommend lighting that improves both safety and appearance.' },
   { q: 'How long does it take to install new lighting?', a: 'Many lighting installations can be completed in one visit, depending on the number of fixtures and electrical connections involved.' },
   { q: 'What indoor lighting solutions do you offer?', a: 'We install recessed lighting, lighting fixtures, LED lighting, and other indoor lighting options for modern homes.' },
-  { q: 'Do you offer LED light installation?', a: 'Yes. LED lighting provides strong brightness while using less energy than traditional bulbs.' },
+  { q: 'Do you offer LED light installation?', a: 'Yes. The one thing worth knowing before switching a room over: an old dimmer built for incandescent bulbs will often buzz or make LEDs flicker, because it was made for a far heavier load. An LED-compatible dimmer sorts it. Simple bulb swaps you can do yourself — we would rather tell you that than bill for it.' },
 ];
 
 const serviceSchema = {
@@ -133,7 +133,7 @@ export default function LightingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/lighting-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/lighting-hero.webp)' }}
             role="img"
             aria-label="Modern home interior with recessed lighting"
           />
@@ -227,7 +227,7 @@ export default function LightingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/lighting-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/lighting-signs.webp)' }}
             role="img"
             aria-label="Outdoor landscape lighting around a home"
           />
@@ -235,7 +235,7 @@ export default function LightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need Professional Lighting Installation
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Lighting systems can become outdated over time. Older fixtures often do not provide enough
               brightness for modern homes. You may need professional lighting installation services if
               you notice:
@@ -248,7 +248,7 @@ export default function LightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Upgrading lighting can greatly improve how each room looks and functions.
             </p>
           </div>
@@ -262,7 +262,7 @@ export default function LightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Lighting Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Every lighting installation begins with evaluating the space. This helps determine fixture
               placement and lighting needs. Our process typically includes:
             </p>
@@ -274,13 +274,13 @@ export default function LightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Professional installation helps ensure lighting works properly and lasts for years.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician reviewing a lighting plan with a homeowner"
           />
@@ -292,11 +292,11 @@ export default function LightingPage() {
         <div className="container-page max-w-4xl">
           {/* Custom designs */}
           <h2 className="mt-12 section-title text-brand-700">Custom Lighting Designs</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Lighting design helps create balanced brightness throughout the home. Proper fixture
             placement prevents dark areas and improves visibility.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Our electricians help homeowners choose lighting solutions that match the layout of their
             space. Combining recessed lighting, LED lighting, and decorative fixtures creates
             comfortable, functional rooms. Thoughtful lighting design can brighten kitchens, improve
@@ -305,25 +305,25 @@ export default function LightingPage() {
 
           {/* Cost */}
           <h2 className="mt-12 section-title text-brand-700">Cost of Our Lighting Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Lighting installation costs depend on the number of fixtures and the complexity of the
             project. Some lighting fixture installations can be completed quickly, while larger lighting
             upgrades may require more planning.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Our electricians review your lighting needs and recommend solutions that fit your home and
             budget.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Lighting Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for dependable electrical services.
             When you work with our team, you receive:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -337,12 +337,12 @@ export default function LightingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             Our goal is simple. We install lighting that helps your home function better every day.
           </p>
 
@@ -352,7 +352,7 @@ export default function LightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -361,7 +361,7 @@ export default function LightingPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Lighting Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to brighten your home inside and out? {site.name} installs indoor and outdoor lighting
               across {site.serviceArea}. Call now or request a free estimate.
             </p>

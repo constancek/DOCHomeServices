@@ -112,7 +112,7 @@ export default function WaterQualityPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/wq-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/wq-hero.webp)' }}
             role="img"
             aria-label="Clean, clear glass of drinking water"
           />
@@ -127,7 +127,7 @@ export default function WaterQualityPage() {
           </p>
           <ul className="mt-4 space-y-2.5">
             {benefits.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}:</span> {b.text}
@@ -143,7 +143,7 @@ export default function WaterQualityPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/wq-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/wq-signs.webp)' }}
             role="img"
             aria-label="Water running from a kitchen faucet"
           />
@@ -151,7 +151,7 @@ export default function WaterQualityPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Have Poor Water Quality
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Poor water quality can affect your health, your plumbing, and the performance of your
               appliances. Some issues are easy to notice; others need closer attention. Common signs:
             </p>
@@ -163,7 +163,7 @@ export default function WaterQualityPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If you notice any of these, water testing and treatment options can help improve your
               water quality and protect your home.
             </p>
@@ -178,26 +178,26 @@ export default function WaterQualityPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Water Filtration System Installation
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Installing a whole-house water filtration system is one of the smartest upgrades a
               homeowner can make, and we have helped many families take the leap. These systems do not
               just filter water at the kitchen tap — they treat every drop flowing into your home:
               showers, sinks, washing machines, you name it. We handle whole-house filtration
               installation with precision, using trusted brands and proven methods.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               We also install water softeners to tackle hard minerals like calcium and magnesium. Soft
               water preserves your pipes, improves soap lather, and keeps skin feeling better — a
               properly installed filtration or softening system brings clarity to every faucet.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Discover how {site.name} improves home water quality through expert water treatment
               designed for lasting results.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Technician discussing water filtration options with a homeowner"
           />
@@ -208,7 +208,7 @@ export default function WaterQualityPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Water Conditioning Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             If your water leaves your skin dry, soap will not lather well, or your appliances seem to
             struggle, you are probably dealing with hard water. That is where water conditioning comes
             in — these systems break down the minerals that cause buildup and mess with your water’s
@@ -218,12 +218,12 @@ export default function WaterQualityPage() {
           <h2 className="mt-12 section-title text-brand-700">
             The Importance of Professional Water Purification
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             DIY filters look tempting, but professional-grade systems deliver lasting performance.
             Filling a pitcher is not the same as intercepting contaminants at the cold-water main
             before they reach every tap in the house.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Our experts help you choose a whole-house filtration system that matches your needs,
             install the treatment system correctly, and monitor performance over time — complete peace
             of mind, not a one-off purchase with unknown results.
@@ -231,13 +231,13 @@ export default function WaterQualityPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Water Quality</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Water conditioning plays an important role in improving water quality, protecting your
             plumbing, and extending the life of household appliances. {site.name} provides
             professional water conditioning and filtration designed to address hard water, mineral
             buildup, and other common water-quality concerns.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With experienced technicians, customized system recommendations, and careful installation,
             we help homeowners achieve cleaner, better-tasting water. Clear communication and
             dependable service make sure your system is set up for long-term performance and reliable
@@ -251,7 +251,7 @@ export default function WaterQualityPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -263,7 +263,7 @@ export default function WaterQualityPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -274,7 +274,7 @@ export default function WaterQualityPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your Water Quality Service Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Cleaner water from every tap makes drinking safer, showers nicer, and appliances
               longer-lasting. Ready for a home water filtration system? Call now or request a free
               estimate.
@@ -296,7 +296,7 @@ export default function WaterQualityPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Water quality by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We test water and install filtration and softeners across {site.serviceArea} —{' '}
             {locations.filter((l) => waterQualityCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on hard water and the homes in your area.

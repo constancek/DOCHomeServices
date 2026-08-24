@@ -1,0 +1,26 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "redirects": [
+    {
+      "source": "/difference",
+      "destination": "/customer-success-stories",
+      "permanent": true
+    },
+    {
+      "source": "/difference/",
+      "destination": "/customer-success-stories",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/contact/",
+      "destination": "/about/",
+      "permanent": true
+    }
+  ]
+}

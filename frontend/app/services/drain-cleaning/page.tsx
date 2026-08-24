@@ -128,7 +128,7 @@ export default function DrainCleaningPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/drain-cleaning-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/drain-cleaning-hero.webp)' }}
             role="img"
             aria-label="Licensed plumber cleaning a clogged drain"
           />
@@ -151,7 +151,7 @@ export default function DrainCleaningPage() {
           <h2 className="mt-10 section-title text-brand-700">Why Professional Drain Cleaning Matters</h2>
           <ul className="mt-4 space-y-2.5">
             {benefits.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}</span> — {b.text}
@@ -167,7 +167,7 @@ export default function DrainCleaningPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/drains-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/drains-signs.webp)' }}
             role="img"
             aria-label="Plumber clearing a clogged drain line"
           />
@@ -175,7 +175,7 @@ export default function DrainCleaningPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need Drain Cleaning
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Drains rarely fail without warning. If you notice any of these, it is time for a
               cleaning before a slow drain turns into a backup:
             </p>
@@ -206,7 +206,7 @@ export default function DrainCleaningPage() {
                   </span>
                   <div>
                     <h3 className="font-display text-base font-extrabold uppercase">{p.title}</h3>
-                    <p className="mt-1 text-sm leading-relaxed text-white/90">{p.text}</p>
+                    <p className="mt-1 text-base leading-relaxed text-white/90">{p.text}</p>
                   </div>
                 </div>
               ))}
@@ -214,7 +214,7 @@ export default function DrainCleaningPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/drain-cleaning-process.jpg)' }}
+            style={{ backgroundImage: 'url(/services/drain-cleaning-process.webp)' }}
             role="img"
             aria-label="Drain cleaning equipment in use"
           />
@@ -254,7 +254,7 @@ export default function DrainCleaningPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -266,7 +266,7 @@ export default function DrainCleaningPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -277,7 +277,7 @@ export default function DrainCleaningPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your Drain Cleaning Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Same-day service, upfront pricing, and a camera inspection to clear that clog for good.
               Call now or request a free estimate.
             </p>
@@ -298,7 +298,7 @@ export default function DrainCleaningPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Drain cleaning by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We clear drains across {site.serviceArea} —{' '}
             {locations.filter((l) => drainCleaningCopy[l.slug]).length} neighborhoods and counting. For
             local detail on response times and the clogs common to homes in your area, find yours below.

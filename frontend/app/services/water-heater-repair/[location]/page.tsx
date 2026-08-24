@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Water Heater Repair',
   ctaLine: 'No hot water in {neighborhood}? Call for immediate service',
-  heroImage: '/services/water-heater-repair.jpg',
+  heroImage: '/services/water-heater-repair.webp',
   introHeading: 'Water Heater Repair in {neighborhood}',
   introParagraphs: [
     'A water heater that quits is one of those problems you notice immediately. {brand} provides fast water heater repair for homeowners in {place} — gas, electric, and tankless — and our licensed technicians diagnose the cause and restore reliable hot water quickly.',
@@ -35,7 +35,7 @@ const config: ServiceLocationConfig = {
     { slug: 'tankless-water-heater', title: 'Tankless Water Heater' },
     { slug: 'leak-repair', title: 'Leak Repair' },
   ],
-  band1Image: '/services/water-heater-installation.jpg',
+  band1Image: '/services/water-heater-installation.webp',
   band1Heading: 'Signs Your {neighborhood} Water Heater Needs Repair',
   commonSituations: [
     'No hot water or only cold water from the taps',
@@ -47,7 +47,7 @@ const config: ServiceLocationConfig = {
     'Pilot-light issues or frequent shutdowns',
   ],
   trustedBanner: 'Your Local & Trusted Water Heater Repair Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Repair in {neighborhood}',
   band2Paragraphs: [
     'A licensed technician arrives, diagnoses the cause — element, thermostat, burner, valve, or sediment — and explains the repair and the flat-rate price before any work begins, so you approve it first.',

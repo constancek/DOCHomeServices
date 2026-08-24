@@ -136,7 +136,7 @@ export default function ACInstallationPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/ac-install-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/ac-install-hero.webp)' }}
             role="img"
             aria-label="New air conditioning system installed at a home"
           />
@@ -165,7 +165,7 @@ export default function ACInstallationPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/ac-installation-replacement.jpg)' }}
+            style={{ backgroundImage: 'url(/services/ac-installation-replacement.webp)' }}
             role="img"
             aria-label="Technician working on an air conditioner"
           />
@@ -173,7 +173,7 @@ export default function ACInstallationPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs It May Be Time to Replace Your Air Conditioner
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Some air conditioning systems show changes as they age. These changes are often
               noticeable during normal use and can affect comfort inside the home. Common signs an AC
               system may be nearing the end of its lifespan include:
@@ -186,7 +186,7 @@ export default function ACInstallationPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               These signs reflect how the system operates during everyday use.
             </p>
           </div>
@@ -200,17 +200,17 @@ export default function ACInstallationPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               What to Expect During AC Installation
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Knowing what to expect makes the process feel more straightforward. During AC
               installation or replacement, technicians begin by reviewing your home and existing
               cooling system to understand layout, airflow, and cooling needs.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Based on that evaluation, the team recommends the proper system size and configuration.
               If the project involves replacement, technicians remove the old equipment safely before
               installing the new unit, with secure connections and careful setup.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Once installation is complete, the system is tested to confirm airflow, cooling
               performance, and safe operation — so it is ready to deliver reliable comfort from day
               one.
@@ -218,7 +218,7 @@ export default function ACInstallationPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Technician discussing AC installation with a homeowner"
           />
@@ -229,7 +229,7 @@ export default function ACInstallationPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Professional AC Installation & Replacement</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Installing a new air conditioning system is an important investment, and the quality of
             the installation affects how efficiently the system runs and how well it cools your home.
             Our complete installation and replacement service covers both new homes and existing
@@ -237,45 +237,45 @@ export default function ACInstallationPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {services.map((s) => (
-              <li key={s} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={s} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {s}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Professional installation helps ensure the system operates correctly from the start and
             continues to perform as expected.
           </p>
 
           {/* Benefits */}
           <h2 className="mt-12 section-title text-brand-700">Benefits of Installing a New AC System</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A new air conditioning system offers several benefits for homeowners, including:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {b}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Modern cooling systems are designed to deliver reliable comfort while using less energy
             than older units.
           </p>
 
           {/* Choosing */}
           <h2 className="mt-12 section-title text-brand-700">Choosing the Right AC System for Your Home</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Selecting the right system involves more than choosing a brand — size, efficiency ratings,
             and compatibility with your existing equipment all affect performance. We help homeowners
             choose based on:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {choosing.map((c) => (
-              <li key={c} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={c} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {c}
               </li>
@@ -284,7 +284,7 @@ export default function ACInstallationPage() {
 
           {/* Repair vs replace */}
           <h2 className="mt-12 section-title text-brand-700">Repair vs. Replace</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             When a system shows signs of decline, the next step is deciding whether repair or
             replacement makes more sense. Repair may be appropriate when the system is newer, the issue
             is isolated, and overall performance is still reliable. Replacement is often the better
@@ -295,26 +295,26 @@ export default function ACInstallationPage() {
 
           {/* Cost */}
           <h2 className="mt-12 section-title text-brand-700">What Affects the Cost of AC Installation?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Installation costs vary based on the home and system requirements — no two homes have the
             same cooling needs. Factors that influence cost include:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {costFactors.map((c) => (
-              <li key={c} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={c} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {c}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             {site.name} provides free estimates and clear recommendations to help you understand your
             options before moving forward.
           </p>
 
           {/* Financing */}
           <h2 className="mt-12 section-title text-brand-700">Flexible Financing Options</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Installing a new air conditioning system is a major investment, and flexible financing can
             make it more manageable. {site.name} offers financing that lets you spread the cost of an
             energy-efficient upgrade over time — our team reviews the options and helps find a payment
@@ -323,7 +323,7 @@ export default function ACInstallationPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for AC Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} choose {site.name} for professional cooling services.
             Certified technicians complete each installation with attention to detail and clear
             communication, and proper system sizing, careful installation, and thorough testing help
@@ -338,7 +338,7 @@ export default function ACInstallationPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -350,7 +350,7 @@ export default function ACInstallationPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -361,7 +361,7 @@ export default function ACInstallationPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your AC Installation Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               If your current system no longer meets your cooling needs, we are ready to help — with a
               free estimate, proper sizing, and financing options. Call now or request your estimate.
             </p>
@@ -382,7 +382,7 @@ export default function ACInstallationPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">AC installation & replacement by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install and replace air conditioning across {site.serviceArea} —{' '}
             {locations.filter((l) => acInstallationCopy[l.slug]).length} neighborhoods and counting. For
             local detail on sizing and the systems that fit homes in your area, find yours below.

@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Hot Tub Wiring',
   ctaLine: 'Wiring a new spa in {neighborhood}? Do it safely — call today',
-  heroImage: '/services/hottub-hero.jpg',
+  heroImage: '/services/hottub-hero.webp',
   introHeading: 'Hot Tub Wiring in {neighborhood}',
   introParagraphs: [
     'A hot tub combines water, heat, and high-voltage electricity, so the wiring has to be done right. {brand} handles hot tub and spa electrical wiring for homeowners in {place} — dedicated 240V circuits, GFCI protection, proper bonding, and a code-required disconnect within sight of the spa.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'outdoor-lighting', title: 'Outdoor Lighting' },
     { slug: 'electrical-inspections', title: 'Electrical Inspections' },
   ],
-  band1Image: '/services/hottub-signs.jpg',
+  band1Image: '/services/hottub-signs.webp',
   band1Heading: 'Signs You Need Expert Hot Tub Wiring in {neighborhood}',
   commonSituations: [
     'Installing a new 240V hot tub or spa',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Uncertainty about the right amp rating or wire gauge',
   ],
   trustedBanner: 'Your Local & Trusted Hot Tub Wiring Pros in {neighborhood}',
-  band2Image: '/services/hottub-hero.jpg',
+  band2Image: '/services/hottub-hero.webp',
   band2Heading: 'Our Hot Tub Wiring Process in {neighborhood}',
   band2Paragraphs: [
     'We inspect your panel capacity and service load, confirm the spa manufacturer’s electrical requirements, and explain the flat-rate price before any work begins.',

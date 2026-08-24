@@ -112,7 +112,7 @@ export default function SumpPumpsPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/sump-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/sump-hero.webp)' }}
             role="img"
             aria-label="Sump pump installed in a basement"
           />
@@ -139,7 +139,7 @@ export default function SumpPumpsPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/sump-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/sump-signs.webp)' }}
             role="img"
             aria-label="Water in a basement"
           />
@@ -147,7 +147,7 @@ export default function SumpPumpsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs Your Home Needs a Sump Pump
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A sump pump plays a critical role in protecting your home from water damage, especially
               in areas prone to heavy rain or high groundwater. If your home does not already have
               one, these warning signs may mean it is time to install:
@@ -160,7 +160,7 @@ export default function SumpPumpsPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Installing a sump pump can help manage excess water, protect your foundation, and reduce
               the risk of costly water damage.
             </p>
@@ -175,13 +175,13 @@ export default function SumpPumpsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Sump Pump Replacement
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Over time, even the best sump pumps wear out. When yours starts making strange noises,
               runs constantly, or just is not keeping up with rising water levels, it might be time for
               a replacement. Our team will help you sort through the signs and figure out the next
               step.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               We install high-quality sump pumps that hold up through storms, rising groundwater, and
               day-to-day operation. We will guide you through your options and install a system that
               works with your home’s layout, pipe system, and drainage setup — so you do not have to
@@ -190,7 +190,7 @@ export default function SumpPumpsPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Plumber discussing a sump pump replacement with a homeowner"
           />
@@ -201,13 +201,13 @@ export default function SumpPumpsPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Sump Pump Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Dealing with a broken check valve, a clogged discharge pipe, or a float switch that is not
             working properly? That is where our sump pump repair comes in. We diagnose the issue
             quickly, make the fix, and test everything before we go — for all types of units,
             including submersible and pedestal models.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Our plumbing team has seen just about every repair situation there is. We do not rush
             through the job or rely on guesswork; we get to the source of the issue and make repairs
             that actually last.
@@ -215,13 +215,13 @@ export default function SumpPumpsPage() {
 
           {/* Benefits */}
           <h2 className="mt-12 section-title text-brand-700">Benefits of Adding a Sump Pump to Your Home</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Installing a sump pump offers real advantages, especially in areas prone to heavy rain or
             flooding. Some of the key benefits:
           </p>
           <ul className="mt-4 space-y-2">
             {benefits.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}:</span> {b.text}
@@ -234,12 +234,12 @@ export default function SumpPumpsPage() {
           <h2 className="mt-12 section-title text-brand-700">
             Why Choose {site.name} for Your Sump Pump
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A properly working sump pump is essential for protecting your home from water damage and
             flooding. {site.name} provides professional sump pump installation and repair to make sure
             your system is reliable when you need it most.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With experienced technicians, careful workmanship, and clear communication, we help
             homeowners choose the right sump pump and keep it running efficiently. Whether we are
             installing a new system or repairing an existing one, the focus is on dependable
@@ -253,7 +253,7 @@ export default function SumpPumpsPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -265,7 +265,7 @@ export default function SumpPumpsPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -276,7 +276,7 @@ export default function SumpPumpsPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your Sump Pump Service Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Keeping your basement dry is not optional — it is as important as heat in the winter. A
               well-installed sump pump protects your space, your belongings, and your peace of mind.
               Whether your unit needs a fix or it is time for a new one, we will help you get there
@@ -299,7 +299,7 @@ export default function SumpPumpsPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Sump pumps by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install, repair, and replace sump pumps across {site.serviceArea} —{' '}
             {locations.filter((l) => sumpPumpsCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the flooding and groundwater risks in your area.

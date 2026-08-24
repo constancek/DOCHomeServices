@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Water Heater Installation & Replacement',
   ctaLine: 'Need a new water heater in {neighborhood}? Call for same-day service',
-  heroImage: '/services/wh-hero.jpg',
+  heroImage: '/services/wh-hero.webp',
   introHeading: 'Water Heater Installation in {neighborhood}',
   introParagraphs: [
     'When it is time for dependable hot water, {brand} installs and replaces water heaters for homeowners in {place} — tank or tankless, sized to your household and installed to code. We help you choose the right system and handle every step from removal to testing.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'water-heater-maintenance', title: 'Water Heater Maintenance' },
     { slug: 'water-quality', title: 'Water Quality' },
   ],
-  band1Image: '/services/wh-signs.jpg',
+  band1Image: '/services/wh-signs.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs a New Water Heater',
   commonSituations: [
     'Inconsistent, lukewarm, or quickly-running-out hot water',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Repairs that are becoming more frequent',
   ],
   trustedBanner: 'Your Local & Trusted Water Heater Installers in {neighborhood}',
-  band2Image: '/services/water-heater-repair.jpg',
+  band2Image: '/services/water-heater-repair.webp',
   band2Heading: 'What to Expect From Your Installation in {neighborhood}',
   band2Paragraphs: [
     'We start by sizing the system to your household and checking your existing connections, gas or electric supply, and venting — then explain the flat-rate price before any work begins.',

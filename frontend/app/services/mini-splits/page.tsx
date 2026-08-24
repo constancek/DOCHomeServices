@@ -125,7 +125,7 @@ export default function MiniSplitsPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/minisplit-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/minisplit-hero.webp)' }}
             role="img"
             aria-label="Ductless mini-split indoor unit"
           />
@@ -156,7 +156,7 @@ export default function MiniSplitsPage() {
                 <Link href={`/services/${s.slug}`} className="group relative block aspect-[4/3] overflow-hidden rounded-xl">
                   <span
                     className="absolute inset-0 bg-brand-200 bg-cover bg-center transition duration-300 group-hover:scale-105"
-                    style={{ backgroundImage: `url(/services/${s.slug}.jpg)` }}
+                    style={{ backgroundImage: `url(/services/${s.slug}.webp)` }}
                   />
                   <span className="absolute inset-0 bg-gradient-to-t from-pink-600/90 via-pink-500/45 to-transparent transition group-hover:from-pink-600" />
                   <span className="absolute inset-0 grid place-items-center p-3 text-center">
@@ -202,7 +202,7 @@ export default function MiniSplitsPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/mini-splits.jpg)' }}
+            style={{ backgroundImage: 'url(/services/mini-splits.webp)' }}
             role="img"
             aria-label="Ductless mini-split outdoor unit"
           />
@@ -210,7 +210,7 @@ export default function MiniSplitsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need a Ductless Mini-Split
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Changes in comfort often signal that a ductless mini-split system needs attention.
               Addressing issues early can help prevent discomfort and system strain. Common signs
               include:
@@ -223,7 +223,7 @@ export default function MiniSplitsPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If your system is no longer delivering consistent comfort, professional service can help
               identify the cause.
             </p>
@@ -238,28 +238,28 @@ export default function MiniSplitsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               How a Ductless Mini-Split System Works
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A ductless mini-split heats and cools a home without ductwork. Instead of pushing air
               through vents, it delivers conditioned air directly into individual rooms or zones.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Each system includes an outdoor unit and one or more indoor units. The outdoor unit
               houses the compressor, while the indoor units mount inside the home and distribute heated
               or cooled air.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Refrigerant lines and electrical connections link the indoor and outdoor units through a
               small wall opening, letting the system transfer heat efficiently while minimizing energy
               loss.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Because each indoor unit operates independently, you can control temperatures in
               specific areas — a zoned design that improves comfort and reduces energy waste.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Technician explaining how a mini-split works to a homeowner"
           />
@@ -270,45 +270,45 @@ export default function MiniSplitsPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Benefits of Ductless Mini-Split Systems</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Many homeowners choose ductless systems for their flexibility and performance advantages.
             Ductless mini-splits offer:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {b}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             These benefits make ductless systems a strong option for a wide range of homes and
             layouts.
           </p>
 
           {/* Is it right */}
           <h2 className="mt-12 section-title text-brand-700">Is a Ductless Mini-Split Right for Your Home?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Ductless systems are well-suited for homes where traditional HVAC struggles to deliver
             consistent comfort. A ductless system may be a good fit if you have:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {goodFit.map((g) => (
-              <li key={g} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={g} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {g}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Our team helps you evaluate whether a ductless mini-split is a good fit based on your
             layout, comfort goals, and energy needs.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Mini-Splits</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for professional cooling and heating
             services. Our team focuses on clear communication, accurate recommendations, and dependable
             workmanship — helping you understand your options and delivering service built for
@@ -322,7 +322,7 @@ export default function MiniSplitsPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -334,7 +334,7 @@ export default function MiniSplitsPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -343,7 +343,7 @@ export default function MiniSplitsPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule a Mini-Split Service Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Considering a new ductless system or need service for an existing one? We are ready to
               help. Call now or request a free estimate.
             </p>
@@ -364,7 +364,7 @@ export default function MiniSplitsPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Mini-splits by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install and repair ductless mini-splits across {site.serviceArea} —{' '}
             {locations.filter((l) => miniSplitsCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and spaces in your area.

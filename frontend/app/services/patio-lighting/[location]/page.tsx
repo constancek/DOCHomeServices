@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Patio Lighting Installation',
   ctaLine: 'Want to enjoy your {neighborhood} patio after sunset? Call today',
-  heroImage: '/services/patio-hero.jpg',
+  heroImage: '/services/patio-hero.webp',
   introHeading: 'Patio Lighting Installation in {neighborhood}',
   introParagraphs: [
     'The right patio lighting lets a {neighborhood} family use the deck and patio long after sunset — better visibility around seating and steps, and a warm, comfortable feel. {brand} designs and installs outdoor-rated patio and deck lighting for homeowners across {place}, with safe, code-compliant wiring.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'holiday-lighting', title: 'Holiday Lighting' },
     { slug: 'hot-tub-wiring', title: 'Hot Tub Wiring' },
   ],
-  band1Image: '/services/patio-benefits.jpg',
+  band1Image: '/services/patio-benefits.webp',
   band1Heading: 'Signs It Is Time for Patio Lighting in {neighborhood}',
   commonSituations: [
     'A deck or patio you cannot use comfortably after dark',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A patio that feels disconnected from the rest of the lit yard',
   ],
   trustedBanner: 'Your Local & Trusted Patio Lighting Pros in {neighborhood}',
-  band2Image: '/services/patio-lighting.jpg',
+  band2Image: '/services/patio-lighting.webp',
   band2Heading: 'Our Patio Lighting Process in {neighborhood}',
   band2Paragraphs: [
     'We start by reviewing your outdoor space, talk through how you use it, and explain the flat-rate price before any work begins.',

@@ -131,7 +131,7 @@ export default function FaucetPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/faucet-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-hero.webp)' }}
             role="img"
             aria-label="Modern kitchen faucet installed by a licensed plumber"
           />
@@ -154,7 +154,7 @@ export default function FaucetPage() {
           <h2 className="mt-10 section-title text-brand-700">Why Fix or Replace a Failing Faucet</h2>
           <ul className="mt-4 space-y-2.5">
             {benefits.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}</span> — {b.text}
@@ -170,7 +170,7 @@ export default function FaucetPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/faucet-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-signs.webp)' }}
             role="img"
             aria-label="A dripping, worn faucet"
           />
@@ -178,7 +178,7 @@ export default function FaucetPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need Faucet Replacement
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Sometimes a repair is all it takes — but these signs usually mean a faucet is past its
               prime and a replacement will save you money in the long run:
             </p>
@@ -201,13 +201,13 @@ export default function FaucetPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               What to Expect During Your Faucet Installation
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A professional faucet installation makes sure your new fixture works properly and stays
               leak-free. During the appointment, the existing faucet is carefully removed and the
               plumbing connections are inspected to confirm everything is in good condition before the
               new faucet goes in.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Once the new fixture is in place, all connections are securely tightened and tested for
               leaks. Water flow and operation are checked to confirm proper performance, and the work
               area is cleaned before the service is complete — protecting your plumbing system and
@@ -216,7 +216,7 @@ export default function FaucetPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Plumber reviewing a faucet installation with a homeowner"
           />
@@ -228,12 +228,12 @@ export default function FaucetPage() {
         <div className="container-page max-w-4xl">
           {/* Types of faucets */}
           <h2 className="section-title text-brand-700">Types of Faucets We Repair and Install</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We work on nearly every type of faucet you can imagine:
           </p>
           <ul className="mt-4 space-y-2.5">
             {faucetCategories.map((c) => (
-              <li key={c.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={c.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{c.lead}:</span> {c.text}
@@ -244,18 +244,18 @@ export default function FaucetPage() {
 
           {/* DIY tips */}
           <h2 className="mt-12 section-title text-brand-700">DIY Faucet Tips and Tricks</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             For small issues, homeowners can try a few basic fixes:
           </p>
           <ul className="mt-4 space-y-2">
             {diyTips.map((t) => (
-              <li key={t} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={t} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {t}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Even with these tips, many homeowners call us when a repair needs specialized tools or
             plumbing know-how. Our licensed plumbers handle everything safely and efficiently.
           </p>
@@ -278,12 +278,12 @@ export default function FaucetPage() {
           <h2 className="mt-12 section-title text-brand-700">
             Why Choose {site.name} for Your Faucet Replacement
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Replacing a faucet may seem simple, but proper installation is the key to preventing
             leaks, water damage, and future plumbing issues. {site.name} provides professional faucet
             replacement so your new fixture is installed correctly and works exactly as it should.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With experienced plumbers, careful workmanship, and clear communication throughout, we
             make faucet replacement easy and stress-free. From removing the old fixture to testing the
             new installation, every detail is handled with your home’s plumbing system in mind.
@@ -296,7 +296,7 @@ export default function FaucetPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -308,7 +308,7 @@ export default function FaucetPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -319,7 +319,7 @@ export default function FaucetPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your Faucet Repair or Install
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Same-day service, upfront pricing, and clean, leak-free work. Call now or request a free
               estimate.
             </p>
@@ -340,7 +340,7 @@ export default function FaucetPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Faucet repair & replacement by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We repair and replace faucets across {site.serviceArea} —{' '}
             {locations.filter((l) => faucetCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the faucet issues common in your area.

@@ -138,7 +138,7 @@ export default function ExhaustFanPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/exhaust-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/exhaust-hero.webp)' }}
             role="img"
             aria-label="Bathroom ceiling exhaust fan"
           />
@@ -164,25 +164,25 @@ export default function ExhaustFanPage() {
 
           {/* Repair or replace */}
           <h2 className="mt-10 section-title text-brand-700">Repair or Replace Your Exhaust Fan?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             When an exhaust fan is not performing properly, it is not always clear whether repair or
             replacement is the better option. The answer depends on age, airflow strength, and how the
             system is vented.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Repair is often the right solution when the unit is newer and the problem is limited to a
             worn motor, loose connection, or faulty switch. If the housing is secure and the ductwork
             vents outdoors properly, restoring the internal components can improve airflow and reduce
             noise without a full replacement.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Replacement becomes the smarter choice when the fan is older, undersized, or installed
             incorrectly. Many homes have small units that cannot dehumidify larger bathrooms, or fans
             that vent into the attic where moisture collects. Upgrading to a properly sized system
             improves airflow, helps prevent mold and mildew, and can reduce long-term maintenance and
             improve efficiency.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Our electricians evaluate airflow performance, venting, safety, and overall cost before
             recommending the best solution for your home.
           </p>
@@ -194,7 +194,7 @@ export default function ExhaustFanPage() {
         <div className="container-page grid items-start gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:sticky lg:top-28"
-            style={{ backgroundImage: 'url(/services/exhaust-fan-installation-repair.jpg)' }}
+            style={{ backgroundImage: 'url(/services/exhaust-fan-installation-repair.webp)' }}
             role="img"
             aria-label="Exhaust fan service"
           />
@@ -202,7 +202,7 @@ export default function ExhaustFanPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need Installation vs. Repair
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Homeowners often notice warning signs before they know which service they need. Paying
               attention to these symptoms can help you act before moisture causes damage.
             </p>
@@ -215,7 +215,7 @@ export default function ExhaustFanPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               These usually indicate mechanical wear or minor electrical issues — in many cases,
               professional repair can restore normal performance.
             </p>
@@ -228,7 +228,7 @@ export default function ExhaustFanPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               These often mean the fan is undersized or no longer removing moisture effectively. A new
               installation may be needed to improve airflow and protect surrounding materials.
             </p>
@@ -243,13 +243,13 @@ export default function ExhaustFanPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Exhaust Fan Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               When you schedule exhaust fan installation, we focus on proper sizing, safe wiring, and
               lasting results:
             </p>
             <ul className="mt-4 space-y-2">
               {process.map((p) => (
-                <li key={p.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={p.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{p.lead}:</span> {p.text}
@@ -257,14 +257,14 @@ export default function ExhaustFanPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Professional installation helps protect drywall, ceilings, insulation, and nearby
               finishes from moisture damage.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician reviewing an exhaust fan installation with a homeowner"
           />
@@ -276,13 +276,13 @@ export default function ExhaustFanPage() {
         <div className="container-page max-w-4xl">
           {/* Benefits */}
           <h2 className="section-title text-brand-700">Benefits of a Properly Installed Exhaust Fan</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Bathrooms and kitchens are high-moisture areas, and ventilation is one of the most
             effective tools for moisture control. A professionally installed exhaust fan helps with:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {b}
               </li>
@@ -291,19 +291,19 @@ export default function ExhaustFanPage() {
 
           {/* Kitchen */}
           <h2 className="mt-12 section-title text-brand-700">Kitchen Exhaust Fan Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Moisture is not limited to bathrooms — cooking produces steam, heat, and airborne grease
             that can circulate through your home and settle on cabinets and surfaces. Kitchen exhaust
             fan installation pulls that air out efficiently.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             If your kitchen fan is outdated or underperforming, we offer both repair and replacement.
             Improving kitchen ventilation enhances comfort and helps keep your surfaces cleaner.
           </p>
 
           {/* Financing */}
           <h2 className="mt-12 section-title text-brand-700">Financing an Exhaust Fan</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Installation cost can vary based on electrical access, ductwork requirements, and fan
             selection — and replacement cost may depend on whether adjustments are needed to improve
             exterior venting. {site.name} offers financing for qualifying homeowners and explains
@@ -312,14 +312,14 @@ export default function ExhaustFanPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name}</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners choose {site.name} because we focus on proper electrical work and real
             ventilation performance — we do not simply swap out equipment, we look at airflow, venting,
             and long-term moisture control. When you work with our team, you can expect:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {w}
               </li>
@@ -333,7 +333,7 @@ export default function ExhaustFanPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -345,7 +345,7 @@ export default function ExhaustFanPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -356,7 +356,7 @@ export default function ExhaustFanPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your Exhaust Fan Service Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               If your bathroom stays humid long after showers or your ventilation is underperforming,
               it may be time for service. Call now or request a free estimate.
             </p>
@@ -377,7 +377,7 @@ export default function ExhaustFanPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Exhaust fan service by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install and repair bathroom and kitchen exhaust fans across {site.serviceArea} —{' '}
             {locations.filter((l) => exhaustFanCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and moisture concerns in your area.

@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Outdoor Lighting Installation',
   ctaLine: 'Want to light up your {neighborhood} yard the right way? Call today',
-  heroImage: '/services/outdoor-lighting-hero.jpg',
+  heroImage: '/services/outdoor-lighting-hero.webp',
   introHeading: 'Outdoor Lighting Installation in {neighborhood}',
   introParagraphs: [
     'A well-planned outdoor lighting system makes a {neighborhood} home safer after dark, highlights the landscaping, and extends how long you can use the yard. {brand} designs and installs landscape, patio, holiday, and security lighting for homeowners across {place} — with durable, weather-rated fixtures and code-compliant wiring.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'holiday-lighting', title: 'Holiday Lighting' },
     { slug: 'hot-tub-wiring', title: 'Hot Tub Wiring' },
   ],
-  band1Image: '/services/outdoor-lighting-benefits.jpg',
+  band1Image: '/services/outdoor-lighting-benefits.webp',
   band1Heading: 'Signs It Is Time for Outdoor Lighting in {neighborhood}',
   commonSituations: [
     'Dark walkways, stairs, or driveways that are a trip hazard',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Seasonal holiday displays you would rather not climb a ladder for',
   ],
   trustedBanner: 'Your Local & Trusted Outdoor Lighting Pros in {neighborhood}',
-  band2Image: '/services/outdoor-lighting.jpg',
+  band2Image: '/services/outdoor-lighting.webp',
   band2Heading: 'Our Outdoor Lighting Process in {neighborhood}',
   band2Paragraphs: [
     'We walk the property with you, plan a layout that fits how you use the yard, and explain the flat-rate price before any work begins.',

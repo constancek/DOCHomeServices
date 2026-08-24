@@ -58,10 +58,10 @@ const whyUs = [
 ];
 
 const faqs = [
-  { q: 'What is the benefit of professional holiday lighting installation?', a: 'Professional installation ensures safety, high-quality results, and a polished holiday light display without the risks of DIY decorating.' },
+  { q: 'What is the benefit of professional holiday lighting installation?', a: 'Two things, mainly: nobody in your family goes up a ladder in December, and the display comes down again in January without anyone having to think about it. The practical part is load — a roofline of retail light sets can pull more than the circuit it is plugged into wants to give, and outdoor runs need GFCI protection. We plan the circuits as well as the layout.' },
   { q: 'How do custom holiday lights work?', a: 'We create a lighting design tailored to your home or business, install commercial-grade lights, and remove them after the holiday season.' },
   { q: 'Can I choose the design for my lights?', a: 'Yes. You can select color schemes, layout preferences, and specific areas you want highlighted.' },
-  { q: 'How long does the installation process take?', a: 'Most holiday light installation projects are completed in one day, depending on property size and design complexity.' },
+  { q: 'How long does the installation process take?', a: 'Most homes are a single day. Book early rather than late in the season — the calendar fills from November, and roof work stops being pleasant or safe once there is ice on it. Removal is scheduled at the same time as the install so it does not become your problem in January.' },
   { q: 'How much will holiday lighting cost me?', a: 'The cost to have holiday lights installed depends on home size, design complexity, and materials. We provide a free estimate to give you clear pricing upfront.' },
 ];
 
@@ -133,7 +133,7 @@ export default function HolidayLightingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/holiday-lighting-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/holiday-lighting-hero.webp)' }}
             role="img"
             aria-label="Home decorated with holiday lights"
           />
@@ -166,7 +166,7 @@ export default function HolidayLightingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/holiday-lighting-benefits.jpg)' }}
+            style={{ backgroundImage: 'url(/services/holiday-lighting-benefits.webp)' }}
             role="img"
             aria-label="Roofline decorated with holiday lights"
           />
@@ -174,13 +174,13 @@ export default function HolidayLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Benefits of Professional Holiday Lighting Installation
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Hiring professionals for your holiday light installation offers clear advantages over DIY
               decorating.
             </p>
             <ul className="mt-4 space-y-2">
               {benefits.map((b) => (
-                <li key={b.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={b.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{b.lead}:</span> {b.text}
@@ -202,7 +202,7 @@ export default function HolidayLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Holiday Lighting Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Our process is simple and designed for convenience.
             </p>
             <ul className="mt-4 grid gap-1.5">
@@ -213,14 +213,14 @@ export default function HolidayLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Our experienced Christmas light installers ensure every installation is neat, secure, and
               built to last throughout the season.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Holiday lighting consultation with a homeowner"
           />
@@ -231,12 +231,12 @@ export default function HolidayLightingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Our Approach to Custom Holiday Lighting</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Every home is different. Your lighting should be too. We create custom lighting design plans
             that match your architecture, landscaping, and personal style. Whether you prefer clean white
             lights or multi-color displays, we tailor the layout to your vision.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Our team installs lighting along rooflines, windows, trees, columns, and walkways to create a
             balanced and visually appealing holiday light display. We work with both residential and
             commercial properties to deliver professional results for any home or business.
@@ -245,26 +245,26 @@ export default function HolidayLightingPage() {
           <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">Custom Holiday Lighting Options</h3>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {options.map((o) => (
-              <li key={o} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={o} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {o}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Our professional Christmas light installation services let you choose the look you want while
             we handle the technical details.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Holiday Lighting Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners throughout {site.serviceArea} trust {site.name} for dependable service and
             professional results. When you choose us, you receive:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -278,12 +278,12 @@ export default function HolidayLightingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             We focus on delivering stress-free holiday lighting services so you can enjoy the season
             without the hassle.
           </p>
@@ -294,7 +294,7 @@ export default function HolidayLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -303,7 +303,7 @@ export default function HolidayLightingPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Holiday Lighting Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Let our team bring your holiday lighting vision to life. {site.name} installs custom holiday
               displays across {site.serviceArea}. Call now or request a free estimate.
             </p>
@@ -324,7 +324,7 @@ export default function HolidayLightingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Holiday lighting by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install holiday lighting across {site.serviceArea} —{' '}
             {locations.filter((l) => holidayLightingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes in your area.

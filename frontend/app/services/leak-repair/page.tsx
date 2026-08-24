@@ -121,7 +121,7 @@ export default function LeakRepairPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/leakrepair-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/leakrepair-hero.webp)' }}
             role="img"
             aria-label="Plumber repairing a pipe leak"
           />
@@ -160,7 +160,7 @@ export default function LeakRepairPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/leakrepair-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/leakrepair-signs.webp)' }}
             role="img"
             aria-label="Water stains on a ceiling from a leak"
           />
@@ -168,7 +168,7 @@ export default function LeakRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Have a Leak
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Leaks can cause serious damage if they are not repaired quickly. Some are easy to spot,
               while others hide behind walls, floors, or ceilings. Common signs that may mean you need
               professional leak repair include:
@@ -181,7 +181,7 @@ export default function LeakRepairPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If you notice any of these, timely leak repair can help prevent structural damage and
               more expensive plumbing problems down the line.
             </p>
@@ -196,7 +196,7 @@ export default function LeakRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Emergency Repair Services Are Available
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Leaks do not wait for a convenient time, and neither do we. Our emergency leak repair
               gives you access to professional help when you need it most. We understand the stress
               and potential damage an unexpected leak causes, which is why we make it a priority to
@@ -208,7 +208,7 @@ export default function LeakRepairPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Plumber reviewing a leak repair with a homeowner"
           />
@@ -219,7 +219,7 @@ export default function LeakRepairPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">The Process Behind Our Pipe Leak Repairs</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We follow a proven process to locate the source quickly and fix it correctly the first
             time, combining advanced technology with hands-on expertise to minimize damage and keep
             your repair as stress-free as possible. Each step is designed to give you clear answers
@@ -233,7 +233,7 @@ export default function LeakRepairPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{p.title}</h3>
-                  <p className="mt-1.5 text-sm leading-relaxed text-ink/75">{p.text}</p>
+                  <p className="mt-1.5 text-[15px] leading-relaxed text-ink/75">{p.text}</p>
                 </div>
               </div>
             ))}
@@ -252,12 +252,12 @@ export default function LeakRepairPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Leak Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Leak repair takes accuracy, experience, and the right approach to prevent repeat issues.
             {' '}{site.name} provides professional leak repair that fixes the source of the problem —
             not just the visible damage.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With skilled technicians, clear communication, and dependable scheduling, we make sure
             repairs are completed efficiently and correctly. From minor pipe leaks to more complex
             jobs, every service is designed to protect your home and restore your plumbing with
@@ -271,7 +271,7 @@ export default function LeakRepairPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -283,7 +283,7 @@ export default function LeakRepairPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -292,7 +292,7 @@ export default function LeakRepairPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Leak Repair Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Fix the leak at the source before it becomes a bigger problem. Same-day and emergency
               service, upfront pricing. Call now or request a free estimate.
             </p>
@@ -313,7 +313,7 @@ export default function LeakRepairPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Leak repair by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We find and fix leaks across {site.serviceArea} —{' '}
             {locations.filter((l) => leakRepairCopy[l.slug]).length} neighborhoods and counting. For local
             detail on the leaks common to homes in your area, find yours below.

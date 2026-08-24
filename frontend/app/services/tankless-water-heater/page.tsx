@@ -116,7 +116,7 @@ function BulletList({ items }: { items: string[] }) {
   return (
     <ul className="mt-3 grid gap-2 sm:grid-cols-2">
       {items.map((i) => (
-        <li key={i} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+        <li key={i} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
           <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
           {i}
         </li>
@@ -165,7 +165,7 @@ export default function TanklessPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/tankless-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/tankless-hero.webp)' }}
             role="img"
             aria-label="Tankless water heater mounted on a wall"
           />
@@ -191,7 +191,7 @@ export default function TanklessPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/tankless-unit.jpg)' }}
+            style={{ backgroundImage: 'url(/services/tankless-unit.webp)' }}
             role="img"
             aria-label="Tankless water heater unit"
           />
@@ -199,7 +199,7 @@ export default function TanklessPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need a New Tankless Water Heater
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Common signs it may be time for a new tankless water heater:
             </p>
             <ul className="mt-4 space-y-1.5">
@@ -210,7 +210,7 @@ export default function TanklessPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If several of these are happening at once, replacement is often more cost-effective than
               continued repairs.
             </p>
@@ -225,7 +225,7 @@ export default function TanklessPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Comprehensive Tankless Water Heater Services
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Tankless water heaters require specialized installation and care. {site.name} provides
               full-service support to keep your system operating safely and efficiently. Our services
               include:
@@ -238,13 +238,13 @@ export default function TanklessPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Each service focuses on performance, safety, and long-term reliability.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Plumber discussing tankless water heater options with a homeowner"
           />
@@ -255,14 +255,14 @@ export default function TanklessPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Benefits of Switching to a Tankless Water Heater</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Traditional tank water heaters store a limited amount of hot water — once it runs out, you
             wait for the tank to refill and reheat. Tankless models work differently: water flows
             through a heat exchanger and the system heats it instantly. That design delivers endless
             hot water and avoids the energy loss that happens when stored water cools between uses.
           </p>
           <BulletList items={benefits} />
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Both gas and electric tankless models perform well when properly sized. Our technicians
             evaluate flow rate, household demand, and utility access so the system heats water
             efficiently without strain.
@@ -270,19 +270,19 @@ export default function TanklessPage() {
 
           {/* Repair */}
           <h2 className="mt-12 section-title text-brand-700">Tankless Water Heater Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             When a water heater has an issue, it affects your entire home. Temperature changes, error
             codes, or reduced hot water output are signs the system needs attention. Common repair
             issues include:
           </p>
           <BulletList items={repairIssues} />
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Prompt repairs protect energy efficiency and help prevent larger system failures.
           </p>
 
           {/* Repair or replace */}
           <h2 className="mt-12 section-title text-brand-700">Repair or Replace?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Deciding whether to repair or replace your system depends on its age, performance, and
             repair history.
           </p>
@@ -310,20 +310,20 @@ export default function TanklessPage() {
               </ul>
             </div>
           </div>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Replacing an aging system before it fails reduces downtime and unexpected expenses. We
             help you understand the cost, the long-term savings, and your financing options.
           </p>
 
           {/* Tune-ups */}
           <h2 className="mt-12 section-title text-brand-700">Tankless Water Heater Tune-Ups</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Regular maintenance keeps a tankless system running efficiently. Without routine service,
             mineral buildup can restrict flow and reduce heating performance. A professional tune-up
             includes:
           </p>
           <BulletList items={tuneUp} />
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Routine tune-ups help extend system life and maintain your warranty coverage.
           </p>
 
@@ -331,7 +331,7 @@ export default function TanklessPage() {
           <h2 className="mt-12 section-title text-brand-700">
             Why Choose {site.name} for Tankless Water Heater Services
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             {site.name} brings trusted experience and local expertise to every tankless water heater
             service. Our licensed technicians work with all major brands and focus on accurate
             diagnostics, efficient repairs, and proper installation so your system performs at its
@@ -347,7 +347,7 @@ export default function TanklessPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -359,7 +359,7 @@ export default function TanklessPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -370,7 +370,7 @@ export default function TanklessPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Tankless Water Heater Service Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Installation, repair, or maintenance — we provide clear guidance, dependable service,
               and financing options. Call now or request a free estimate.
             </p>
@@ -391,7 +391,7 @@ export default function TanklessPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Tankless water heaters by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install, repair, and maintain tankless systems across {site.serviceArea} —{' '}
             {locations.filter((l) => tanklessCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on hard water and the homes in your area.

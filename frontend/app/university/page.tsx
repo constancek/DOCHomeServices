@@ -80,7 +80,7 @@ const faqs = [
   {
     title: 'Do I Have a Job After I Complete the Program?',
     body: (
-      <p className="text-sm leading-relaxed text-ink/75">
+      <p className="text-[15px] leading-relaxed text-ink/75">
         Learn from the best and become one of the best. The goal of the program is to hire the right
         people with the right attitude, a willingness to learn, and a want to provide the best
         customer service to every customer. After completing the program, you get the keys to your
@@ -136,7 +136,7 @@ export default function UniversityPage() {
         <div className="container-page grid gap-10 lg:grid-cols-2 lg:items-center">
           <div
             className="aspect-[4/3] rounded-2xl bg-brand-200 bg-cover bg-center shadow-card"
-            style={{ backgroundImage: 'url(/orange-shirt.png)' }}
+            style={{ backgroundImage: 'url(/orange-shirt.webp)' }}
             role="img"
             aria-label="Degree of Comfort University team"
           />
@@ -188,7 +188,7 @@ export default function UniversityPage() {
             <h2 className="font-display text-4xl font-black uppercase leading-[1.05] text-pink-500 sm:text-5xl">
               When You Apply, We Promise Confidentiality.
             </h2>
-            <p className="mt-5 text-sm leading-relaxed text-white/90 sm:text-base">
+            <p className="mt-5 text-base leading-relaxed text-white/90 sm:text-base">
               We promise complete confidentiality and privacy, and we will not contact your current
               or previous employer without your permission. Reaching out to us never affects your
               current job. Send us your resume today — we look forward to meeting you soon!

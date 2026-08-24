@@ -18,10 +18,10 @@ export const metadata: Metadata = {
 
 const signs = [
   { lead: 'Weird Noises', text: 'If it’s rattling or making more noise than usual, something’s off. This could be due to loose parts or trapped debris.' },
-  { lead: 'Frequent Jams', text: 'If your disposal is locking up often, the blades might be dull, or the motor could be struggling.' },
+  { lead: 'Frequent Jams', text: 'If your disposal is locking up often, the impellers or grind ring may be worn, or the motor could be struggling.' },
   { lead: 'Bad Smells That Won’t Leave', text: 'Stubborn odors usually mean there’s old food or grease stuck in the unit.' },
   { lead: 'Leaks Under the Sink', text: 'Is there water where it shouldn’t be? That might be a cracked gasket, faulty pipe, or worn-out seal.' },
-  { lead: 'Humming but Not Spinning', text: 'A humming motor with little action can point to jammed blades or motor issues.' },
+  { lead: 'Humming but Not Spinning', text: 'A humming motor with nothing turning usually means the impeller plate is jammed, or the motor itself has failed.' },
 ];
 
 const whyChoose = [
@@ -40,10 +40,10 @@ const whyUs = [
 ];
 
 const faqs = [
-  { q: 'What causes a garbage disposal to jam so often?', a: 'Jams usually happen because of hard food scraps, bones, silverware, or fibrous materials like celery or corn husks. Over time, these items wear down the motor or get tangled in the blades, which can lead to repairs or replacement.' },
+  { q: 'What causes a garbage disposal to jam so often?', a: 'Hard scraps, bones, silverware, and fibrous material like celery or corn husks are the usual culprits. Worth knowing: a disposal has no blades. It uses blunt impellers to fling waste against a stationary grind ring, so fibrous strands wrap around the impellers rather than being cut, and that is what stalls the motor.' },
   { q: 'What are the signs I need garbage disposal repair instead of replacement?', a: 'If your disposal turns on but hums without grinding, leaks from the bottom, or resets constantly, repair may be the answer. We inspect the motor, electrical components, gaskets, and pipes to identify the underlying problem.' },
-  { q: 'Why does my garbage disposal smell bad even after cleaning?', a: 'Bad odors stick around when food particles build up inside the unit or the drain pipe. Grease and food remnants can collect beneath the blades or within the drainage system even after cleaning attempts.' },
-  { q: 'Do I need regular maintenance on my garbage disposal?', a: 'Your garbage disposal might be small, but it works hard every day and deserves the same kind of attention. Regular upkeep helps catch buildup, rust, and early wear before they turn into failures.' },
+  { q: 'Why does my garbage disposal smell bad even after cleaning?', a: 'Bad odors stick around when food particles build up inside the unit or the drain pipe. Grease and food remnants collect under the splash guard, around the grind ring, and in the drain line, where rinsing and running the unit never reaches them.' },
+  { q: 'Do I need regular maintenance on my garbage disposal?', a: 'Very little, honestly. Run cold water while it grinds and for a few seconds after, and keep grease and fibrous scraps out. Grinding ice or citrus peel does no harm but does less than the internet suggests. The one thing we would avoid is chemical drain cleaner, which sits on the metal rather than draining away. If it is jamming or leaking, that is a repair question rather than a maintenance one.' },
   { q: 'Can you install a new garbage disposal unit in a home that didn’t have one before?', a: 'Yes, we can. We’ll take care of the plumbing and electrical wiring needed to support a brand-new garbage disposal unit.' },
 ];
 
@@ -104,7 +104,7 @@ export default function GarbageDisposalsPage() {
 
       <section className="py-16">
         <MainWithSidebar>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/disposal-hero.jpg)' }} role="img" aria-label="Garbage disposal under a kitchen sink" />
+          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/disposal-hero.webp)' }} role="img" aria-label="Garbage disposal under a kitchen sink" />
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
             Garbage Disposal Repair & Installation
           </h2>
@@ -126,19 +126,19 @@ export default function GarbageDisposalsPage() {
 
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/disposal-signs.jpg)' }} role="img" aria-label="Plumbing under a kitchen sink" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/disposal-signs.webp)' }} role="img" aria-label="Plumbing under a kitchen sink" />
           <div>
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs of a Failing Garbage Disposal
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A garbage disposal that’s past its prime won’t stay quiet about it for long. Small issues can
               pop up slowly, but they always turn into bigger kitchen headaches fast. Spotting the warning
               signs early means fewer clogs, less mess, and a faster fix:
             </p>
             <ul className="mt-4 space-y-2">
               {signs.map((s) => (
-                <li key={s.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={s.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span><span className="font-bold text-white">{s.lead}:</span> {s.text}</span>
                 </li>
@@ -157,12 +157,12 @@ export default function GarbageDisposalsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Garbage Disposal Installation
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Nobody wants to fight their kitchen sink after a long day. We know how much smoother daily
               routines go with a new, reliable garbage disposal. We’re known for honest work and attention
               to detail — and it shows in every install we do.
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               Garbage disposal installation is one of the many plumbing installation services we provide,
               and we treat it with just as much care as the bigger projects we take on. We’ll help you
               choose the right model for your sink, make sure it connects cleanly with your dishwasher or
@@ -170,20 +170,20 @@ export default function GarbageDisposalsPage() {
               without a second thought.
             </p>
           </div>
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }} role="img" aria-label="Plumber reviewing a garbage disposal installation" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }} role="img" aria-label="Plumber reviewing a garbage disposal installation" />
         </div>
       </section>
 
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Garbage Disposal Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Nothing stalls a busy evening like a garbage disposal that won’t budge. If it’s jammed,
             leaking, or giving off a weird smell, it’s time to call for repair. We know how frustrating it
             is to deal with standing water or that odd hum when the switch flips, and we’re ready to take
             care of it.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             When you call us, we figure out what’s going wrong — whether it’s a worn motor, a blocked pipe,
             or a loose connection. We carry the tools and parts needed to get it back in shape on the spot,
             and we give you the full picture of what to expect moving forward. If a clog is the real
@@ -195,25 +195,25 @@ export default function GarbageDisposalsPage() {
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Garbage Disposal Replacement</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Today’s garbage disposals are miles ahead of older models. If your current unit is loud,
             unreliable, or has started tripping your circuit breaker, it’s probably time for an upgrade. A
             replacement can speed up cleanup, minimize mess, and prevent those annoying sink clogs.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We’ll walk you through your options, explain the differences in power and size, and make sure
             everything fits neatly into place. If a quick repair solves the problem, we’ll go that route
             instead. Either way, you’ll be left with a disposal that makes kitchen life easier.
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Garbage Disposals</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for dependable plumbing. When you work
             with our team, you receive:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -227,7 +227,7 @@ export default function GarbageDisposalsPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -235,12 +235,12 @@ export default function GarbageDisposalsPage() {
 
           <h2 className="mt-12 section-title text-brand-700">Garbage Disposal FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Garbage Disposal Service Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to upgrade your kitchen or fix a stubborn unit? {site.name} serves {site.serviceArea}.
               Call now or request a free estimate.
             </p>
@@ -261,7 +261,7 @@ export default function GarbageDisposalsPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Garbage disposal service by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We repair, replace, and install garbage disposals across {site.serviceArea} —{' '}
             {locations.filter((l) => garbageDisposalsCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and kitchens in your area.

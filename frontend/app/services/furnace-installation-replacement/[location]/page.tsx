@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'HVACBusiness',
   schemaServiceType: 'Furnace Installation & Replacement',
   ctaLine: 'Need a new furnace in {neighborhood}? Get a free estimate',
-  heroImage: '/services/furnace-installation-replacement.jpg',
+  heroImage: '/services/furnace-installation-replacement.webp',
   introHeading: 'Furnace Installation & Replacement in {neighborhood}',
   introParagraphs: [
     'When a furnace is past saving, a properly sized replacement is the difference between a warm winter and another season of breakdowns. {brand} installs and replaces gas and electric furnaces for homeowners in {place} — sized to the home, installed to code, with financing and same-day installs available.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'heat-pumps', title: 'Heat Pumps' },
     { slug: 'indoor-air-quality', title: 'Indoor Air Quality' },
   ],
-  band1Image: '/services/furnace-repair.jpg',
+  band1Image: '/services/furnace-repair.webp',
   band1Heading: 'Signs It’s Time to Replace Your {neighborhood} Furnace',
   commonSituations: [
     'Frequent breakdowns or rising repair costs',
@@ -51,7 +51,7 @@ const config: ServiceLocationConfig = {
     'Strange noises or poor indoor air quality',
   ],
   trustedBanner: 'Your Local & Trusted Furnace Installation Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Furnace Installation in {neighborhood}',
   band2Paragraphs: [
     'We start with a free in-home estimate. A technician sizes the system to your home’s layout and heating load, recommends the right gas or electric furnace, and explains your options and pricing before you decide.',

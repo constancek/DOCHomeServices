@@ -70,7 +70,7 @@ const whyUs = [
 
 const faqs = [
   { q: 'How long does a ductless mini-split installation take?', a: 'A single-zone installation often takes a few hours to most of a day. Multi-zone systems with several indoor heads take longer — we will give you a clear time estimate up front.' },
-  { q: 'What is a good SEER rating for a mini-split system?', a: 'Many quality mini-splits land in the 18–22+ SEER range, and higher numbers mean greater efficiency and lower bills. We help you balance efficiency against budget when choosing a system.' },
+  { q: 'What is a good efficiency rating for a mini-split?', a: 'Ratings are given as SEER2 now, tested under a tougher procedure than the old SEER figure, so the numbers read lower on the same equipment. Plenty of good ductless systems sit in the high teens to low twenties SEER2. Compare quotes on the same measure rather than against an older brochure, and we will help you weigh efficiency against budget.' },
   { q: 'Does a ductless mini-split installation require major home changes?', a: 'No. A mini-split only needs a small (roughly three-inch) hole for the line set that connects the indoor and outdoor units, so it is far less invasive than adding or extending ductwork.' },
   { q: 'What are the signs I need a new ductless mini-split system?', a: 'Rooms that no longer cool or heat evenly, weak airflow, rising energy bills, ongoing comfort issues, and an aging system that no longer meets your needs are all signs it may be time for a new system.' },
   { q: 'Will a new ductless mini-split system improve efficiency?', a: 'Yes. Inverter-driven compressors adjust output to demand and there are no duct losses, so a new mini-split typically uses noticeably less energy than older equipment.' },
@@ -143,7 +143,7 @@ export default function MiniSplitInstallationPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/minisplit-install-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/minisplit-install-hero.webp)' }}
             role="img"
             aria-label="Technician installing a ductless mini-split"
           />
@@ -167,20 +167,20 @@ export default function MiniSplitInstallationPage() {
 
           {/* Cost */}
           <h2 className="mt-10 section-title text-brand-700">Cost of a New Ductless Mini-Split System</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The cost of a ductless mini-split depends on several factors — every home has different
             needs, and pricing varies with layout and system size. Factors that affect installation
             cost include:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {costFactors.map((c) => (
-              <li key={c} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={c} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {c}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             {site.name} provides clear recommendations and upfront estimates, so you understand the
             cost before installation begins.
           </p>
@@ -192,7 +192,7 @@ export default function MiniSplitInstallationPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/mini-split-installation.jpg)' }}
+            style={{ backgroundImage: 'url(/services/mini-split-installation.webp)' }}
             role="img"
             aria-label="Ductless mini-split indoor unit"
           />
@@ -200,7 +200,7 @@ export default function MiniSplitInstallationPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs It’s Time for a New Mini-Split System
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Ductless mini-splits can last for many years, but over time performance may decline,
               especially as components wear. Signs it may be time to replace a mini-split include:
             </p>
@@ -212,7 +212,7 @@ export default function MiniSplitInstallationPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Replacing an aging mini-split system can restore comfort and improve efficiency.
             </p>
           </div>
@@ -226,7 +226,7 @@ export default function MiniSplitInstallationPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Our Mini-Split Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Proper installation plays a major role in a mini-split system’s performance. Our process
               focuses on accuracy, safety, and comfort. During a mini-split install, you can expect:
             </p>
@@ -238,14 +238,14 @@ export default function MiniSplitInstallationPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Once installation is complete, the system is ready to deliver dependable cooling and
               heating.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Technician reviewing a mini-split installation with a homeowner"
           />
@@ -257,26 +257,26 @@ export default function MiniSplitInstallationPage() {
         <div className="container-page max-w-4xl">
           {/* Why professional */}
           <h2 className="section-title text-brand-700">Why Professional Mini-Split Installation Is a Must</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Mini-split systems require precise setup — improper installation can reduce efficiency and
             shorten the system’s lifespan. Professional installation helps ensure:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {professional.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Choosing professional installation protects your investment and improves system
             reliability.
           </p>
 
           {/* Repair or replace */}
           <h2 className="mt-12 section-title text-brand-700">Repair or Replace?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Some mini-split problems can be repaired, especially when the system is newer and has been
             running well overall — a{' '}
             <Link href="/services/mini-split-repair" className="font-semibold text-pink-600 underline hover:text-pink-700">
@@ -286,19 +286,19 @@ export default function MiniSplitInstallationPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {replaceWhen.map((r) => (
-              <li key={r} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={r} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {r}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             A new mini-split system can provide better comfort and improved efficiency.
           </p>
 
           {/* Is it right */}
           <h2 className="mt-12 section-title text-brand-700">Is a Ductless Mini-Split Right for Your Home?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Ductless mini-splits are a flexible option for homeowners who want greater control over
             cooling and heating, and they work especially well where traditional systems struggle to
             deliver consistent comfort — when you want targeted comfort, improved efficiency, or a
@@ -315,7 +315,7 @@ export default function MiniSplitInstallationPage() {
 
           {/* Financing */}
           <h2 className="mt-12 section-title text-brand-700">Financing a System</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             A ductless mini-split is an investment in home comfort. {site.name} offers flexible
             financing to make installation more manageable — our team explains the available options
             and helps you choose a payment plan that fits your budget.
@@ -323,7 +323,7 @@ export default function MiniSplitInstallationPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Mini-Split Install</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for professional cooling and heating
             services. Our mini-split installations are completed by trained technicians who focus on
             quality and clear communication — we take the time to recommend the right system and ensure
@@ -337,7 +337,7 @@ export default function MiniSplitInstallationPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -349,7 +349,7 @@ export default function MiniSplitInstallationPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -358,7 +358,7 @@ export default function MiniSplitInstallationPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Get a Mini-Split Installed Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Considering a ductless mini-split installation or replacement? We are ready to help —
               with the right system, a clean install, and financing options. Call now or request a free
               estimate.
@@ -380,7 +380,7 @@ export default function MiniSplitInstallationPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Mini-split installation by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install ductless mini-splits across {site.serviceArea} —{' '}
             {locations.filter((l) => miniSplitInstallationCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and spaces in your area.

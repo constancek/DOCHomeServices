@@ -120,7 +120,7 @@ export default function PlumbingRepairPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/plumbing-repair-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/plumbing-repair-hero.webp)' }}
             role="img"
             aria-label="Licensed plumber making a repair under a sink"
           />
@@ -150,7 +150,7 @@ export default function PlumbingRepairPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/plumbing-repair-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/plumbing-repair-signs.webp)' }}
             role="img"
             aria-label="Plumber diagnosing a plumbing problem"
           />
@@ -158,7 +158,7 @@ export default function PlumbingRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need a Plumbing Repair
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Plumbing problems often start small but can quickly lead to bigger issues if left
               unaddressed. Recognizing the warning signs early can help prevent water damage, higher
               utility bills, and costly repairs:
@@ -171,7 +171,7 @@ export default function PlumbingRepairPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If you notice any of these signs, professional plumbing repair with {site.name} can help
               restore proper function and protect your home.
             </p>
@@ -186,7 +186,7 @@ export default function PlumbingRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Residential Plumbing Repair Services
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Your home’s plumbing system is one of its most important — and most used — components.
               When a pipe bursts or a fixture fails, you need dependable help right away. Our
               residential plumbing repair covers everything inside your home’s plumbing network,
@@ -200,7 +200,7 @@ export default function PlumbingRepairPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Unlike many plumbers, we do not rush through the job. We take time to explain what went
               wrong, what needs repair, and how to prevent future issues — transparency that is one of
               the reasons homeowners across {site.serviceArea} keep choosing us. Every home is
@@ -211,7 +211,7 @@ export default function PlumbingRepairPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Plumber explaining a repair to a homeowner"
           />
@@ -222,7 +222,7 @@ export default function PlumbingRepairPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Plumbing Leak Repair to Protect Your Home</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Leaks can go unnoticed until they cause serious structural issues and costly repairs —
             homes with leaks can waste tens of thousands of gallons of water. Our team uses advanced
             detection tools to find the source fast, preventing water damage and mold growth. Whether
@@ -234,7 +234,7 @@ export default function PlumbingRepairPage() {
           </p>
 
           <h2 className="mt-10 section-title text-brand-700">Our Supplementary Plumbing Solutions</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We also help with fixture replacements, water-pressure balancing, and preventive
             maintenance to extend the life of your entire plumbing system. Routine maintenance visits
             from our licensed plumbers catch small issues before they become major repairs — saving
@@ -242,13 +242,13 @@ export default function PlumbingRepairPage() {
           </p>
 
           <h2 className="mt-10 section-title text-brand-700">Other Plumbing Services We Offer</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Beyond general repairs, we handle more complex jobs that call for specialized expertise,
             including:
           </p>
           <ul className="mt-4 space-y-2">
             {otherServices.map((o) => (
-              <li key={o.label} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={o.label} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {o.href ? (
                   <Link href={o.href} className="hover:text-pink-600">
@@ -260,7 +260,7 @@ export default function PlumbingRepairPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Fluctuating water pressure, strange odors, or higher-than-usual water bills can all be
             signs of a deeper problem. Our experts inspect your whole system, explain the cause, and
             offer the most cost-effective solution — whether that is a quick fix or a partial line
@@ -270,12 +270,12 @@ export default function PlumbingRepairPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Plumbing Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Plumbing repairs require experience, attention to detail, and solutions that last.{' '}
             {site.name} provides professional plumbing repair designed to address the root cause of
             the problem and help prevent future issues.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With skilled technicians, clear communication, and dependable scheduling, we make plumbing
             repair straightforward and stress-free. From minor leaks to more involved issues, every
             repair is handled with care to restore comfort, safety, and reliability in your home.
@@ -288,7 +288,7 @@ export default function PlumbingRepairPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -300,7 +300,7 @@ export default function PlumbingRepairPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -311,7 +311,7 @@ export default function PlumbingRepairPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Schedule Your Plumbing Repair Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Fast scheduling, clear communication, and repairs built to last. Call now or request a
               free estimate.
             </p>
@@ -332,7 +332,7 @@ export default function PlumbingRepairPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Plumbing repair by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We handle plumbing repairs across {site.serviceArea} —{' '}
             {locations.filter((l) => plumbingRepairCopy[l.slug]).length} neighborhoods and counting. Find
             yours below for local detail on the plumbing issues common to homes in your area.

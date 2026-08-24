@@ -27,7 +27,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${story.name}'s Story — ${story.serviceTag} | ${site.name}`,
       description: story.cardQuote,
-      images: [{ url: story.cardImage }],
+      images: [{ url: story.cardImage.replace(/\.webp$/, '.jpg') }],
     },
   };
 }
@@ -165,7 +165,7 @@ export default async function StoryPage({ params }: { params: Promise<{ slug: st
           {/* CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Start Your Own Success Story</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Same problem, or something else entirely? Call now or request a free estimate and we will take care of it.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">

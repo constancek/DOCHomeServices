@@ -162,7 +162,7 @@ export default function ElectricalInspectionsPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/inspect-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/inspect-hero.webp)' }}
             role="img"
             aria-label="Electrician inspecting an electrical panel"
           />
@@ -214,7 +214,7 @@ export default function ElectricalInspectionsPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/electrical-inspections.jpg)' }}
+            style={{ backgroundImage: 'url(/services/electrical-inspections.webp)' }}
             role="img"
             aria-label="Electrician performing an inspection"
           />
@@ -222,7 +222,7 @@ export default function ElectricalInspectionsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need an Electrical Inspection
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Some warning signs should never be ignored — they often point to deeper concerns inside
               your system. Schedule service if you notice:
             </p>
@@ -234,7 +234,7 @@ export default function ElectricalInspectionsPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Homes more than 25 years old may also benefit, since electrical codes change over time
               and older systems may not meet today’s safety standards. Even if everything appears to
               work, regular checks confirm your system is operating safely.
@@ -250,13 +250,13 @@ export default function ElectricalInspectionsPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               The Electrical Inspection Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               We follow a clear, step-by-step process and use a detailed inspection checklist so
               nothing important is missed. Our service includes:
             </p>
             <ul className="mt-4 space-y-2">
               {process.map((p) => (
-                <li key={p.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={p.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{p.lead}:</span> {p.text}
@@ -264,14 +264,14 @@ export default function ElectricalInspectionsPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               At the end of the visit, we explain our findings in simple terms — and if repairs are
               needed, we outline clear next steps.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician reviewing inspection findings with a homeowner"
           />
@@ -283,7 +283,7 @@ export default function ElectricalInspectionsPage() {
         <div className="container-page max-w-4xl">
           {/* Pro vs DIY */}
           <h2 className="section-title text-brand-700">Professional vs. DIY Electrical Inspection</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             It can be tempting to check outlets or breakers yourself — a quick look may spot obvious
             damage, but it cannot uncover deeper problems. A licensed electrician checks internal panel
             components and grounding systems that require training and safety precautions, along with
@@ -291,63 +291,63 @@ export default function ElectricalInspectionsPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {diyMisses.map((d) => (
-              <li key={d} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={d} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {d}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Professional service keeps you safe and provides written documentation.
           </p>
 
           {/* Potential risks of DIY */}
           <h2 className="mt-12 section-title text-brand-700">Potential Risks of DIY Inspections</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Working inside an electrical panel without training can be dangerous. Possible hazards
             include:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {diyRisks.map((d) => (
-              <li key={d} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={d} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {d}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Electrical systems are complex — professional service keeps you safe.
           </p>
 
           {/* Common issues */}
           <h2 className="mt-12 section-title text-brand-700">Common Issues an Inspection Uncovers</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">During service visits, electricians often discover:</p>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">During service visits, electricians often discover:</p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {commonIssues.map((c) => (
-              <li key={c} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={c} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {c}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Correcting these issues improves safety and system reliability.
           </p>
 
           {/* When to schedule */}
           <h2 className="mt-12 section-title text-brand-700">When Should You Schedule an Inspection?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Inspections are not only for emergencies — they are helpful in many situations:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whenToSchedule.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {w}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Real estate transactions often require proof that systems are safe, and insurers may
             request documentation. A professional review provides clarity, confidence, and a proactive
             way to protect your investment.
@@ -355,13 +355,13 @@ export default function ElectricalInspectionsPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Electrical Inspections</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} choose {site.name} because we provide thorough
             evaluations and friendly service. When you work with us, you receive:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -375,7 +375,7 @@ export default function ElectricalInspectionsPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -387,7 +387,7 @@ export default function ElectricalInspectionsPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -396,7 +396,7 @@ export default function ElectricalInspectionsPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule an Electrical Inspection Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Noticing warning signs, or simply want reassurance? Our team is ready to help. Call now or
               request a free estimate.
             </p>
@@ -417,7 +417,7 @@ export default function ElectricalInspectionsPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Electrical inspections by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We inspect home electrical systems across {site.serviceArea} —{' '}
             {locations.filter((l) => electricalInspectionsCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and systems in your area.

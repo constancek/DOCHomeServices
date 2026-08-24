@@ -66,11 +66,10 @@ const whyUs = [
 
 const faqs = [
   { q: 'What types of basement lighting options do you offer?', a: 'We install recessed lighting, LED basement lights, ceiling fixtures, and other lighting solutions designed for basement spaces.' },
-  { q: 'Can I install basement lights myself?', a: 'Some lighting upgrades may appear simple, but professional installation ensures safe wiring and proper electrical connections.' },
-  { q: 'Will upgrading my basement lighting increase my home’s value?', a: 'Better lighting can make finished basements more functional and appealing, which may improve overall home value.' },
+  { q: 'Can I install basement lights myself?', a: 'For a like-for-like fixture swap on an existing circuit, plenty of homeowners manage it, and we are not going to pretend otherwise. Where it stops being a DIY job is adding circuits, cutting into a finished ceiling, or wiring in a damp basement — fixtures there need the right damp rating and the circuit may need GFCI protection. That work wants a permit and an inspection in most jurisdictions here.' },
+  { q: 'Will upgrading my basement lighting increase my home’s value?', a: 'Lighting on its own does not move an appraisal much. What it does is make a finished basement read as usable living space rather than storage, and that is what buyers actually respond to. If the basement is unfinished, spend the money on lighting you will enjoy rather than on resale.' },
   { q: 'Do you handle wiring and electrical work as part of the installation?', a: 'Yes. Our electricians complete all required electrical work, including wiring and fixture installation.' },
-  { q: 'How long does basement lighting installation typically take?', a: 'Installation time depends on your basement’s size and specific requirements.' },
-  { q: 'How long will the installation take?', a: 'Most basement lighting installations can be completed within one day, depending on the number of fixtures and the layout of the space.' },
+  { q: 'How long will the installation take?', a: 'Most basement lighting installations are done within a day, depending on the number of fixtures and the layout of the space. An unfinished ceiling is quicker than one we have to work above or open up.' },
 ];
 
 const serviceSchema = {
@@ -141,7 +140,7 @@ export default function BasementLightingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/basement-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/basement-hero.webp)' }}
             role="img"
             aria-label="Finished basement with recessed ceiling lighting"
           />
@@ -174,7 +173,7 @@ export default function BasementLightingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/basement-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/basement-signs.webp)' }}
             role="img"
             aria-label="Modern finished basement living area"
           />
@@ -182,7 +181,7 @@ export default function BasementLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs It’s Time to Upgrade Your Basement Lighting
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many basements rely on outdated fixtures or minimal overhead lighting. As basements become
               more functional living areas, better lighting is often needed. You may want to upgrade your
               basement lighting if you notice:
@@ -195,7 +194,7 @@ export default function BasementLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Upgrading your lighting improves visibility and makes the basement easier to use.
             </p>
             <p className="mt-3 text-sm font-bold uppercase tracking-wide text-white">
@@ -212,7 +211,7 @@ export default function BasementLightingPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               The Basement Lighting Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Every basement lighting project begins with reviewing how the space will be used. Some
               basements function as entertainment rooms, while others are used for storage, home offices,
               or hobby areas. Our installation process includes:
@@ -225,14 +224,14 @@ export default function BasementLightingPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Professional installation ensures lighting fixtures are spaced correctly and connected
               safely to your home’s electrical system.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician planning a basement lighting layout"
           />
@@ -243,14 +242,14 @@ export default function BasementLightingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Recessed Basement Lighting for a Modern Look</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             <Link href="/services/recessed-lighting" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               Recessed lighting
             </Link>{' '}
             is one of the most common upgrades for finished basements. These fixtures sit inside the
             ceiling, creating a clean and modern appearance.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Basement recessed lighting distributes brightness evenly without bulky fixtures that can make
             ceilings feel lower. This style works well in media rooms, living areas, and home offices.
             Proper placement helps eliminate shadows and keeps the entire basement well lit.
@@ -258,14 +257,14 @@ export default function BasementLightingPage() {
 
           {/* LED */}
           <h2 className="mt-12 section-title text-brand-700">LED Basement Lights to Illuminate Every Corner</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             <Link href="/services/led-lighting" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               LED basement lights
             </Link>{' '}
             provide bright and energy-efficient illumination. Compared to traditional bulbs, LED lighting
             uses less electricity and lasts significantly longer.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Many homeowners choose LED lighting because it delivers consistent brightness while helping
             reduce energy costs. LEDs also produce less heat, which makes them well suited for enclosed
             spaces like basements. LED lights work well with recessed lighting layouts and other modern
@@ -274,7 +273,7 @@ export default function BasementLightingPage() {
 
           {/* Layout ideas */}
           <h2 className="mt-12 section-title text-brand-700">Lighting Layout Ideas for Finished Basements</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Finished basements often serve multiple purposes. Some homeowners create entertainment rooms,
             while others use the space as a home office or workout area. Lighting should match how the
             space is used, and a layered lighting layout usually provides the best results. Common
@@ -282,45 +281,45 @@ export default function BasementLightingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {layouts.map((l) => (
-              <li key={l} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={l} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {l}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Proper fixture placement helps eliminate dark areas and keeps the entire basement comfortable
             to use.
           </p>
 
           {/* Pro benefits */}
           <h2 className="mt-12 section-title text-brand-700">Benefits of a Professional Basement Light Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Working with a licensed electrician ensures your basement lighting system is installed safely
             and performs reliably. Professional installation provides:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {proBenefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {b}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Professional installation helps prevent uneven lighting, overloaded circuits, and other
             electrical problems.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Basement Lights</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Homeowners across {site.serviceArea} trust {site.name} for dependable electrical services and
             professional lighting installation. When you work with our team, you receive:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -334,12 +333,12 @@ export default function BasementLightingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
+          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
             Our goal is to install basement lighting systems that improve visibility, comfort, and
             everyday usability.
           </p>
@@ -350,7 +349,7 @@ export default function BasementLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -359,7 +358,7 @@ export default function BasementLightingPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Basement Light Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to brighten your basement? {site.name} installs basement lighting across{' '}
               {site.serviceArea}. Call now or request a free estimate.
             </p>
@@ -380,7 +379,7 @@ export default function BasementLightingPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Basement lighting by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install basement lighting across {site.serviceArea} —{' '}
             {locations.filter((l) => basementLightingCopy[l.slug]).length} neighborhoods and counting.
             Find yours below for local detail on the homes and basements in your area.

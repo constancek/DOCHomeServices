@@ -3,20 +3,46 @@ import Icon from './Icon';
 import TornEdge from './TornEdge';
 import LogoMarquee from './LogoMarquee';
 import WhyChooseVideos from './WhyChooseVideos';
+import ReviewsSection from './ReviewsSection';
 import EstimateForm from './EstimateForm';
+import ServicesMenu from './ServicesMenu';
 import { site } from '@/content/site';
 import { benefits, awards, clubPerks, fundingPoints, serviceAreas } from '@/content/home';
+import { communityCount } from '@/content/areas';
 
 // Shared marketing sections reused across the homepage and every interior page.
 // `hideMarquee` lets a page that already shows the image strip (e.g. /reviews)
-// suppress the duplicate one rendered here above Why Choose.
-export default function PageSections({ hideMarquee = false }: { hideMarquee?: boolean }) {
+// suppress the duplicate one rendered here above Why Choose. `hideReviews` does
+// the same for the review block on /reviews, which renders its own copy higher
+// up the page.
+export default function PageSections({
+  hideMarquee = false,
+  hideReviews = false,
+  mobileServiceList = false,
+}: {
+  hideMarquee?: boolean;
+  hideReviews?: boolean;
+  // When set, the services menu is shown here on mobile only, just above the
+  // Our Difference banner (collapsed). Used by pages whose sidebar menu is
+  // hidden on mobile so it does not appear twice.
+  mobileServiceList?: boolean;
+}) {
   return (
     <>
+      {mobileServiceList && (
+        <section className="bg-white pb-12 pt-10 lg:hidden">
+          <div className="container-page">
+            <h2 className="mb-4 font-display text-xl font-extrabold uppercase text-brand-700">
+              Our Services
+            </h2>
+            <ServicesMenu />
+          </div>
+        </section>
+      )}
       <OurDifferenceBanner />
       <IntroColumns />
       {!hideMarquee && (
-        <section className="bg-white pb-12">
+        <section className="bg-white pb-4 sm:pb-12">
           <div className="container-page">
             <LogoMarquee />
           </div>
@@ -29,18 +55,21 @@ export default function PageSections({ hideMarquee = false }: { hideMarquee?: bo
       <GetFunding />
       <ComfortClub />
       <Community />
+      {!hideReviews && <ReviewsSection showMarquee={false} />}
       <TornEdge fill="#1f48c8" />
       <BookAndAreas />
     </>
   );
 }
 
-// Trimmed shared sections for BLOG pages only: just "Why Choose" and the
-// "Book Your Service Now! / Areas We Serve" block (with its zigzag top edge).
+// Trimmed shared sections for BLOG pages only: "Why Choose", the reviews block,
+// and the "Book Your Service Now! / Areas We Serve" block (with its zigzag top
+// edge).
 export function BlogSections() {
   return (
     <>
       <WhyChoose />
+      <ReviewsSection showMarquee={false} />
       <TornEdge fill="#1f48c8" />
       <BookAndAreas />
     </>
@@ -65,7 +94,7 @@ export function OurDifferenceBanner() {
           <h2 className="font-display text-4xl font-black uppercase leading-[1.05] text-pink-500 sm:text-5xl">
             Our Difference.
           </h2>
-          <p className="mt-5 text-sm leading-relaxed text-white/90 sm:text-base">
+          <p className="mt-5 text-base leading-relaxed text-white/90 sm:text-base">
             We believe one of life&rsquo;s greatest gifts is being part of a thriving community —
             surrounded by family and friends who share the same goals and dreams. We are fortunate to
             live and work across {site.serviceArea} and the surrounding Tri-State, communities that
@@ -115,9 +144,11 @@ export function IntroColumns() {
 /* ─────────────── Why choose ─────────────── */
 export function WhyChoose() {
   return (
-    <section id="why" className="bg-white py-16">
+    <section id="why" className="bg-white pb-16 pt-10 sm:pt-16">
       <div className="container-page">
-        <h2 className="section-title max-w-3xl text-brand-700">
+        {/* Mobile gets sentence case, centred, and a smaller size — the full
+            uppercase headline runs to six lines on a phone. */}
+        <h2 className="section-title max-w-5xl text-balance text-center text-2xl normal-case text-brand-700 sm:text-left sm:text-4xl sm:uppercase lg:text-[32px]">
           {`Why Choose ${site.name} as Your Residential HVAC, Plumbing & Electrical Contractors?`}
         </h2>
 
@@ -126,26 +157,30 @@ export function WhyChoose() {
           <WhyChooseVideos />
 
           {/* Benefits list */}
-          <div>
-            <ul className="space-y-4">
+          {/* The CTA leads on mobile, where the benefits list pushes it far down
+              the page; on desktop it sits under the list as a closing step. */}
+          <div className="flex flex-col items-start">
+            <ul className="space-y-5 lg:space-y-6">
               {benefits.map((b) => (
-                <li key={b.title} className="flex gap-3.5">
-                  <span className="grid h-10 w-10 flex-shrink-0 place-items-center rounded-lg bg-pink-500 text-white">
-                    <Icon name={b.icon} className="h-5 w-5" />
+                <li key={b.title} className="flex gap-4">
+                  <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
+                    <Icon name={b.icon} className="h-[22px] w-[22px]" />
                   </span>
                   <div>
-                    <h3 className="font-display text-base font-extrabold text-brand-700">{b.title}</h3>
-                    <p className="text-sm text-ink/70">{b.text}</p>
+                    <h3 className="font-display text-[17px] font-extrabold text-brand-700">{b.title}</h3>
+                    <p className="text-[15px] leading-relaxed text-ink/70">{b.text}</p>
                   </div>
                 </li>
               ))}
             </ul>
             <Link
-              href="/about"
-              className="mt-6 inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-wide text-pink-500"
+              href="/video-testimonials"
+              className="btn-pink order-first mb-8 py-3 pl-3 pr-7 text-[15px] lg:order-none lg:mb-0 lg:mt-9"
             >
-              Read More
-              <Icon name="arrow" className="h-4 w-4" />
+              <span className="grid h-8 w-8 place-items-center rounded-full bg-white text-pink-500">
+                <Icon name="play" className="h-4 w-4 translate-x-px fill-current" />
+              </span>
+              Hear It Straight From Our Customers
             </Link>
           </div>
         </div>
@@ -177,7 +212,7 @@ export function WorkStandsOut() {
         {/* Branded shirt */}
         <div className="aspect-[4/3] overflow-hidden rounded-2xl bg-white/10 ring-1 ring-white/20">
           <img
-            src="/orange-shirt.png"
+            src="/orange-shirt.webp"
             alt="Degree of Comfort technicians in branded shirts"
             width={960}
             height={640}
@@ -201,7 +236,7 @@ export function WorkStandsOut() {
             <h3 className="font-display text-lg font-extrabold text-brand-700">
               See What Our Happy Customers Say
             </h3>
-            <p className="mt-2 text-sm leading-relaxed text-ink/75">
+            <p className="mt-2 text-[15px] leading-relaxed text-ink/75">
               &ldquo;Our AC died during the first heat wave and they had it running again by early
               afternoon. Quoted the price first, no surprises on the bill. Friendly, fast, and
               clean.&rdquo;
@@ -255,7 +290,7 @@ export function TrustedExperts() {
         </div>
         <div className="aspect-[5/3] overflow-hidden rounded-2xl ring-1 ring-brand-100">
           <img
-            src="/van.jpg"
+            src="/van.webp"
             alt="Degree of Comfort service van"
             width={1000}
             height={600}
@@ -318,7 +353,7 @@ export function ComfortClub() {
         </div>
         <div className="aspect-[16/10] overflow-hidden rounded-2xl bg-white/10 ring-1 ring-white/20 lg:ml-auto lg:w-[120%]">
           <img
-            src="/orange-club.png"
+            src="/orange-club.webp"
             alt="Degree of Comfort Comfort Club members"
             width={960}
             height={600}
@@ -381,11 +416,8 @@ export function BookAndAreas() {
               </div>
             ))}
           </div>
-          <Link
-            href="/areas"
-            className="mt-5 inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-wide text-pink-500"
-          >
-            See All Service Areas
+          <Link href="/areas" className="btn-pink mt-6 text-sm">
+            View All {communityCount}+ Neighborhoods We Serve
             <Icon name="arrow" className="h-4 w-4" />
           </Link>
         </div>

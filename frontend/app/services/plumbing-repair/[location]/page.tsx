@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Plumbing Repair',
   ctaLine: 'Plumbing problem in {neighborhood}? Call for same-day service',
-  heroImage: '/services/plumbing-repair-hero.jpg',
+  heroImage: '/services/plumbing-repair-hero.webp',
   introHeading: 'Plumbing Repair in {neighborhood}',
   introParagraphs: [
     'From a dripping faucet to a pipe that finally gave out, plumbing problems do not fix themselves. {brand} provides professional plumbing repair for homeowners in {place} — leaks, clogs, fixtures, and water-pressure issues, fixed at the root cause.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'water-heater-repair', title: 'Water Heater Repair' },
     { slug: 'faucet-repair-replacement', title: 'Faucet Repair & Replacement' },
   ],
-  band1Image: '/services/plumbing-repair.jpg',
+  band1Image: '/services/plumbing-repair.webp',
   band1Heading: 'Signs You Need a Plumber in {neighborhood}',
   commonSituations: [
     'Persistent leaks from pipes, faucets, or fixtures',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Discolored water or foul odors from drains',
   ],
   trustedBanner: 'Your Local & Trusted Plumbing Repair Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Plumbing Repair in {neighborhood}',
   band2Paragraphs: [
     'A licensed plumber arrives, diagnoses the cause rather than guessing, and explains the recommended repair and the flat-rate price before any work begins — you approve it first.',
