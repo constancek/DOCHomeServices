@@ -2014,7 +2014,7 @@ export const posts: Post[] = [
     excerpt:
       'Temperature swings and heavy rain both put real stress on your plumbing — from pipes that expand and freeze to sewage backups and overloaded sump pumps. Here is what to watch for and how to prevent it.',
     date: '2026-02-24',
-    dateModified: '2026-04-06',
+    dateModified: '2026-06-09',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
     image: '/blog/weather-plumbing-issues-hero.webp',
@@ -2114,7 +2114,7 @@ export const posts: Post[] = [
     excerpt:
       'Muggy, sticky air indoors invites mold and misery. The ideal range is 30 to 50 percent — here are five practical ways to get there, from better ventilation to a whole-house dehumidifier.',
     date: '2026-05-08',
-    dateModified: '2026-05-08',
+    dateModified: '2026-06-09',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/lower-humidity-in-house-hero.webp',
@@ -2354,7 +2354,7 @@ export const posts: Post[] = [
     excerpt:
       'In one test, a whole-home dehumidifier pulled 96 ounces of water — about three-quarters of a gallon — out of the air in just 4 hours, dropping humidity 15%. Here is what affects the total and why it matters.',
     date: '2026-05-06',
-    dateModified: '2026-05-06',
+    dateModified: '2026-06-09',
     readMinutes: 7,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/whole-home-dehumidifier-water-hero.webp',
@@ -2459,8 +2459,8 @@ export const posts: Post[] = [
     category: 'Plumbing',
     excerpt:
       'Summer storms are when basements flood. Four practical steps — a working sump pump, a sound foundation, water managed outside, and proper waterproofing — keep yours dry before the rain rolls in.',
-    date: '2026-04-06',
-    dateModified: '2026-04-06',
+    date: '2026-06-09',
+    dateModified: '2026-06-09',
     readMinutes: 9,
     author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
     image: '/blog/keep-basement-dry-spring-hero.webp',
