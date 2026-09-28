@@ -192,7 +192,7 @@ export function WhyChoose() {
               key={a.label}
               className="flex h-24 w-24 flex-col items-center justify-center gap-1.5 rounded-full bg-brand-50 px-3 text-center ring-4 ring-brand-100 sm:h-28 sm:w-28"
             >
-              <Icon name={a.icon} className="h-6 w-6 text-pink-500" />
+              <Icon name={a.icon} className="h-[31px] w-[31px] text-pink-500" />
               <span className="text-[9px] font-extrabold uppercase leading-tight tracking-wide text-brand-700 sm:text-[10px]">
                 {a.label}
               </span>
@@ -292,8 +292,8 @@ export function TrustedExperts() {
           <img
             src="/van.webp"
             alt="Degree of Comfort service van"
-            width={1000}
-            height={600}
+            width={1557}
+            height={672}
             className="h-full w-full object-cover"
           />
         </div>

@@ -121,7 +121,7 @@ export default function UniversityPage() {
                 key={a.label}
                 className="flex h-20 w-20 flex-col items-center justify-center gap-1 rounded-full bg-brand-50 px-2 text-center ring-2 ring-brand-100 sm:h-24 sm:w-24"
               >
-                <Icon name={a.icon} className="h-6 w-6 text-pink-500" />
+                <Icon name={a.icon} className="h-[31px] w-[31px] text-pink-500" />
                 <span className="text-[8px] font-extrabold uppercase leading-tight tracking-wide text-brand-700 sm:text-[9px]">
                   {a.label}
                 </span>

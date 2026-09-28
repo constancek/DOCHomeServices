@@ -33,14 +33,14 @@ export const benefits = [
 // If you have a REAL earned award, give me the badge image file and I'll swap a
 // slot to an <img> instead.
 export const awards: {
-  icon: 'check' | 'clock' | 'badge' | 'shield' | 'star' | 'heart' | 'doc' | 'pin';
+  icon: 'estimate' | 'calendarClock' | 'tag' | 'noFee' | 'card' | 'pin';
   label: string;
 }[] = [
-  { icon: 'doc', label: 'Free Estimates' },
-  { icon: 'clock', label: 'Same-Day Service' },
-  { icon: 'check', label: 'Upfront Pricing' },
-  { icon: 'shield', label: 'No Overtime Fees' },
-  { icon: 'badge', label: 'Financing Available' },
+  { icon: 'estimate', label: 'Free Estimates' },
+  { icon: 'calendarClock', label: 'Same-Day Service' },
+  { icon: 'tag', label: 'Upfront Pricing' },
+  { icon: 'noFee', label: 'No Overtime Fees' },
+  { icon: 'card', label: 'Financing Available' },
   { icon: 'pin', label: 'Locally Owned' },
 ];
 
