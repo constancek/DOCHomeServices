@@ -34,6 +34,7 @@ export const servicePages: ServicePage[] = [
   { slug: 'water-quality', title: 'Water Quality', category: 'Plumbing', parentSlug: 'plumbing', blurb: 'Testing, softeners, and filtration for cleaner home water.', heroImage: '/services/wq-hero.webp' },
 
   // ── Heating ──
+  { slug: 'boilers', title: 'Boiler Repair, Maintenance & Replacement', category: 'Heating', parentSlug: 'heating', blurb: 'Boiler repair, annual tune-ups, and replacement for radiator, baseboard, and radiant floor heat.', heroImage: '/services/boiler-hero.webp' },
   { slug: 'furnace-installation-replacement', title: 'Furnace Installation & Replacement', category: 'Heating', parentSlug: 'heating', blurb: 'Right-sized furnace installs that lower bills and even out comfort.', heroImage: '/services/furnace-install-hero.webp' },
   { slug: 'furnace-maintenance', title: 'Furnace Maintenance', category: 'Heating', parentSlug: 'heating', blurb: 'Annual tune-ups with a carbon monoxide safety check included.', heroImage: '/services/furnace-maint-hero.webp' },
   { slug: 'furnace-repair', title: 'Furnace Repair', category: 'Heating', parentSlug: 'heating', blurb: '24/7 emergency no-heat repair for every make and model.', heroImage: '/services/furnace-repair-hero.webp' },
@@ -137,6 +138,7 @@ export const serviceMenu: { category: string; href: string; items: { label: stri
     category: 'Heating Services',
     href: '/services/heating',
     items: [
+      { label: 'Boiler Repair, Maintenance & Replacement', href: '/services/boilers' },
       { label: 'Furnace Installation & Replacement', href: '/services/furnace-installation-replacement' },
       { label: 'Furnace Maintenance', href: '/services/furnace-maintenance' },
       { label: 'Furnace Repair', href: '/services/furnace-repair' },

@@ -4853,6 +4853,86 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Now that you know the reasons why you shouldn’t DIY electrical work, it’s time to take action. Ready to schedule? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle your electrical needs with the experience and care you can count on.'] },
     ],
   },
+  {
+    slug: 'tenant-has-no-heat-cincinnati-landlord-guide',
+    title: "Tenant Has No Heat? A Cincinnati Landlord's Guide",
+    category: 'Heating',
+    excerpt:
+      'Tenant reporting no heat? Here’s what Cincinnati landlords must do, step by step, plus Ohio and Kentucky heat laws and fines.',
+    date: '2026-09-29',
+    dateModified: '2026-09-29',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/tenant-no-heat-landlord-guide-hero.webp',
+    imageAlt: 'Tenant wrapped in a heavy knit blanket on the couch of a cold apartment',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Safety first:' }, ' if the tenant smells gas or a CO alarm is sounding, they leave the unit and call from outside. Nothing else on this list comes before that.'],
+          [{ strong: 'Three phone checks fix a lot of no-heat calls' }, ' — thermostat, furnace power switch and breaker, air filter. They take the tenant about five minutes.'],
+          [{ strong: 'In Cincinnati, no heat has a price tag:' }, ' $300 for the first day and $750 for each day after, on units where tenants don’t control their own heat.'],
+          [{ strong: 'Write everything down' }, ' — when the call came in, what you did, and when heat came back. Ohio’s tenant remedies run on written notice and a 30-day clock.'],
+        ],
+      },
+      { kind: 'p', spans: ['When a tenant tells you there’s no heat, call them back within the hour, rule out a gas or carbon monoxide emergency, walk them through three quick checks, and if those don’t fix it, get a licensed technician out the same day. Then give them safe temporary heat and keep a written record of every step. That’s the whole job. The rest of this guide covers how to do each step well and what the law in Ohio, Cincinnati, and Northern Kentucky expects from you while the heat is off.'] },
+
+      { kind: 'h2', text: 'Step 1: Rule Out an Emergency Before Anything Else' },
+      { kind: 'p', spans: ['Before you troubleshoot anything, ask two questions: does the unit smell like gas, and is a carbon monoxide alarm going off? If the answer to either is yes, the tenant and everyone in the unit go outside, leave the door open behind them, and call 911 or the gas utility from the sidewalk. Nobody flips switches, relights a pilot, or checks on the furnace first.'] },
+      { kind: 'p', spans: ['Tenants often don’t know what a gas leak smells like, so describe it: rotten eggs or sulfur, sometimes with a hissing sound near the furnace or a gas line. Our guide on ', { link: 'what a gas leak smells like', href: '/what-does-a-gas-leak-smell-like/' }, ' is worth sending to every tenant before winter, not after.'] },
+
+      { kind: 'h2', text: 'Step 2: Walk the Tenant Through Three Quick Checks' },
+      { kind: 'p', spans: ['Once you know it’s safe, have the tenant check three things while you’re on the phone. These fix a real share of no-heat calls and cost nothing.'] },
+      { kind: 'h3', text: 'The Thermostat' },
+      { kind: 'p', spans: ['It should be set to HEAT, not COOL or OFF, and set a few degrees above the current room temperature. If the screen is blank, the batteries are dead. A dead thermostat looks exactly like a dead furnace from the tenant’s side.'] },
+      { kind: 'h3', text: 'The Furnace Switch and Breaker' },
+      { kind: 'p', spans: ['Most furnaces have a power switch that looks like an ordinary light switch, mounted on or near the unit. Tenants flip it off by accident more often than you’d think, usually mistaking it for a basement light. Have them confirm it’s on, then check the panel for a tripped furnace breaker. One reset is fine. If it trips again, stop there and call a tech.'] },
+      { kind: 'h3', text: 'The Air Filter' },
+      { kind: 'p', spans: ['A filter clogged with dust makes the furnace overheat, and its safety switch shuts the burners down to protect itself. If the filter is gray and caked, have the tenant swap it if there’s a spare, then wait a few minutes for the system to reset.'] },
+      { kind: 'p', spans: ['If one of these fixes it, you don’t need us, and we’d rather you didn’t pay for a service call to flip a switch. Our ', { link: 'furnace troubleshooting guide', href: '/furnace-not-working-troubleshooting-tips/' }, ' goes a little further if you want to hand the tenant more to try. Anything past these checks, like opening the burner compartment, relighting a pilot, or touching the gas valve, is not a job for a tenant.'] },
+
+      { kind: 'h2', text: 'Step 3: Get a Licensed Technician Out the Same Day' },
+      { kind: 'p', spans: ['If the quick checks don’t bring the heat back, schedule a licensed HVAC technician right away. Not tomorrow morning, and not after you’ve seen if it “kicks back on.” A furnace that has stopped heating has a reason, whether that’s a failed igniter, a bad flame sensor, a blower motor, or a control board, and it will not repair itself overnight.'] },
+      { kind: 'p', spans: ['Here’s our honest opinion: waiting to see what happens is the most expensive thing a Cincinnati landlord can do with a no-heat call. On rental units where tenants don’t control their own heat, the city can fine you $300 for the first day without adequate heat and $750 for every day after that. Three days of waiting is $1,800 in fines before you’ve paid for a single part.'] },
+      { kind: 'p', spans: ['When you book the visit, give the technician the tenant’s contact details and confirm access. Ohio law presumes 24 hours is reasonable notice to enter a unit, with an exception for emergencies. Even so, a text from the tenant saying “yes, come in today” keeps everyone on the same page and costs you nothing.'] },
+
+      { kind: 'h2', text: 'Step 4: Give the Tenant Safe Temporary Heat' },
+      { kind: 'p', spans: ['If the repair needs a part that won’t arrive until tomorrow, or the furnace needs replacing, the tenant still needs heat tonight. Cincinnati’s Health Department allows landlords to provide space heaters that keep the living space at a minimum of 70 degrees, or temporary housing such as a hotel stay if heaters aren’t enough.'] },
+      { kind: 'p', spans: ['Buy heaters with tip-over and overheat shutoff, and tell the tenant to plug them straight into a wall outlet, not an extension cord or power strip, and keep them three feet from bedding and curtains. Then say the other part out loud: never heat the unit with the oven, the stovetop, a grill, or a generator. The ', { link: 'CDC', href: 'https://www.cdc.gov/carbon-monoxide/about/index.html' }, ' puts unintentional carbon monoxide deaths in the U.S. at more than 400 a year, and they spike in exactly this situation, when people are cold and improvising.'] },
+
+      { kind: 'h2', text: 'Step 5: Put Everything in Writing' },
+      { kind: 'p', spans: ['Keep a simple timeline for every no-heat call: when the tenant reported it, when you responded, when the technician arrived, what they found, and when heat came back. Save the texts, the technician’s invoice or written diagnosis, and the receipts for any space heaters or hotel nights.'] },
+      { kind: 'p', spans: ['This isn’t paperwork for its own sake. Ohio tenant remedies start with written notice from the tenant, and if a dispute ever reaches a court or the Health Department, the landlord with a clean timeline showing a same-day response is in a very different spot from the one saying “I thought it was handled.”'] },
+
+      { kind: 'h2', text: 'What the Law Expects in Ohio, Cincinnati, and Northern Kentucky' },
+      { kind: 'p', spans: ['We fix furnaces; we’re not lawyers, and this section isn’t legal advice. But these are the rules we see landlords run into most, and it helps to know them before the first cold night.'] },
+      { kind: 'h3', text: 'Ohio' },
+      { kind: 'p', spans: ['Under Ohio Revised Code 5321.04, landlords must keep the heating fixtures and appliances they supply in good and safe working order. If they don’t, ', { link: 'ORC 5321.07', href: 'https://codes.ohio.gov/ohio-revised-code/section-5321.07' }, ' lets a tenant who is current on rent give written notice. If the problem isn’t fixed within a reasonable time, or 30 days, whichever is sooner, the tenant can deposit rent with the local court clerk, ask the court to order the repair, or end the lease. There is an exception for landlords with three or fewer units who state that in the written lease, so check yours.'] },
+      { kind: 'h3', text: 'Cincinnati' },
+      { kind: 'p', spans: ['Cincinnati goes further for units where tenants don’t control their own heat, which usually means buildings on a ', { link: 'shared boiler', href: '/services/boilers/' }, ' or central system. Once the outdoor temperature stays below 60 degrees for 24 consecutive hours, the inside has to stay at 70 degrees or warmer. Fines run $300 for the first day and $750 for each additional day, and landlords who ignore a Board of Health order can face up to 180 days in jail and a $1,000 fine. Tenants report no heat through 311 or the Health Department’s Healthy Homes line, and a sanitarian then contacts the landlord.'] },
+      { kind: 'h3', text: 'Northern Kentucky' },
+      { kind: 'p', spans: ['Kentucky’s landlord-tenant act only applies in cities and counties that have adopted it, so start by finding out whether yours has. Where it does, KRS 383.640 says that if a landlord willfully fails to supply heat, a tenant who has given notice can buy reasonable heat and deduct the cost from rent, or move to substitute housing and owe no rent for that stretch. The word that matters there is willfully. A landlord who has a tech on the way is in a very different position from one who hasn’t called anyone.'] },
+
+      { kind: 'h2', text: 'When the Problem Isn’t the Furnace' },
+      { kind: 'p', spans: ['Sometimes a no-heat call has nothing to do with the equipment, and a heating company is the wrong first call.'] },
+      { kind: 'p', spans: ['If the gas is in the tenant’s name and the utility shut it off for nonpayment, that’s between the tenant and the utility; we can’t turn it back on. If your building’s boiler is under a service contract, call that contractor first so you don’t pay twice. And if the gas was shut off after a leak or a failed safety check, the utility won’t restore service until the line is repaired and passes a pressure test. That one we do handle through our ', { link: 'gas service disconnection repair', href: '/services/gas-service-disconnection/' }, ' work.'] },
+
+      { kind: 'h2', text: 'How to Get Fewer No-Heat Calls Next Winter' },
+      { kind: 'p', spans: ['Most emergency no-heat calls could have been a routine fall visit. A tune-up before the first run of cold nights catches the weak igniter, the dirty flame sensor, and the cracked belt while it’s still cheap and nobody is shivering. For rentals, ', { link: 'annual furnace maintenance', href: '/services/furnace-maintenance/' }, ' also gives you a dated record that the system was inspected, which is useful if anyone ever asks.'] },
+      { kind: 'p', spans: ['Filters are the other half. Tenants rarely change them, so either put filter changes on your own calendar or leave a stack of the right size next to the furnace with the date written on the edge. It’s the cheapest heating repair there is.'] },
+
+      { kind: 'h2', text: 'Need Heat Back On Tonight?' },
+      { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'emergency furnace repair', href: '/services/furnace-repair/' }, ' 24/7 across Cincinnati, Northern Kentucky, and Southeast Indiana. We’re family-owned, licensed and insured, and we give you the price before we start, with no overtime or weekend fees. That matters when the call comes in at 9 p.m. on a Saturday.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' and we’ll get a technician to your tenant. For planned work like a replacement or a maintenance plan across several units, ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'] },
+    ],
+    faqs: [
+      { q: 'How long does a landlord have to fix the heat in Ohio?', a: 'Under ORC 5321.07, once a tenant who is current on rent gives written notice, the landlord has a reasonable time or 30 days, whichever is sooner. For heat in winter, a reasonable time is usually much shorter than 30 days. In Cincinnati, fines on units where tenants don’t control their own heat start on the first day.' },
+      { q: 'What temperature does a Cincinnati landlord have to keep a rental at?', a: 'At least 70 degrees inside once the outdoor temperature has stayed below 60 degrees for 24 consecutive hours. The rule applies to units where tenants don’t have individual control of the heat, which usually means a shared boiler or central system.' },
+      { q: 'Can a tenant withhold rent if there is no heat?', a: 'Not in Ohio. A tenant can’t simply stop paying. The legal route is to give written notice and, if the problem isn’t fixed in time, deposit the rent with the court clerk instead of the landlord. In Kentucky cities and counties that have adopted the landlord-tenant act, a tenant can buy reasonable heat and deduct the cost when a landlord willfully fails to supply it.' },
+      { q: 'Do I have to put my tenant in a hotel if the furnace needs replacing?', a: 'In Cincinnati, a landlord can provide space heaters that keep the living space at 70 degrees or more while the repair is done. If heaters can’t hold that temperature, temporary housing such as a hotel stay is the other accepted option.' },
+      { q: 'Is it safe for a tenant to use the oven for heat?', a: 'No. Ovens, stovetops, grills, and generators can produce carbon monoxide, which has no smell or color. Give the tenant electric space heaters with tip-over and overheat shutoff, plugged straight into a wall outlet, and make sure the unit has working CO alarms.' },
+    ],
+  },
 ];
 
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);

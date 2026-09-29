@@ -131,6 +131,7 @@ export const nav: NavItem[] = [
     href: '/services/heating',
     caret: true,
     children: [
+      { label: 'Boiler Repair, Maintenance & Replacement', href: '/services/boilers' },
       { label: 'Furnace Installation & Replacement', href: '/services/furnace-installation-replacement' },
       { label: 'Furnace Maintenance', href: '/services/furnace-maintenance' },
       { label: 'Furnace Repair', href: '/services/furnace-repair' },
