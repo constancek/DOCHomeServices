@@ -10,6 +10,7 @@ import { waterHeaterRepairCopy } from '@/content/location-copy/water-heater-repa
 import { drainCleaningCopy } from '@/content/location-copy/drain-cleaning';
 import { acInstallationCopy } from '@/content/location-copy/ac-installation-replacement';
 import { heatPumpsCopy } from '@/content/location-copy/heat-pumps';
+import { boilersCopy } from '@/content/location-copy/boilers';
 import { leakRepairCopy } from '@/content/location-copy/leak-repair';
 import { sewerRepairCopy } from '@/content/location-copy/sewer-repair-replacement';
 import { furnaceInstallationCopy } from '@/content/location-copy/furnace-installation-replacement';
@@ -138,6 +139,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((l) => acInstallationCopy[l.slug])
     .map((l) => ({
       url: `${base}/services/ac-installation-replacement/${l.slug}/`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }));
+
+  const boilersLocationRoutes = locations
+    .filter((l) => boilersCopy[l.slug])
+    .map((l) => ({
+      url: `${base}/services/boilers/${l.slug}/`,
       changeFrequency: 'monthly' as const,
       priority: 0.6,
     }));
@@ -579,5 +588,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...serviceRoutes, ...subServiceRoutes, ...companyRoutes, ...locationRoutes, ...acRepairLocationRoutes, ...furnaceRepairLocationRoutes, ...waterHeaterRepairLocationRoutes, ...drainCleaningLocationRoutes, ...acInstallationLocationRoutes, ...heatPumpsLocationRoutes, ...leakRepairLocationRoutes, ...sewerRepairLocationRoutes, ...furnaceInstallationLocationRoutes, ...acMaintenanceLocationRoutes, ...furnaceMaintenanceLocationRoutes, ...plumbingRepairLocationRoutes, ...plumbingInstallationLocationRoutes, ...faucetLocationRoutes, ...sumpPumpsLocationRoutes, ...waterHeaterInstallationLocationRoutes, ...waterHeaterMaintenanceLocationRoutes, ...tanklessLocationRoutes, ...waterQualityLocationRoutes, ...miniSplitsLocationRoutes, ...miniSplitInstallationLocationRoutes, ...miniSplitRepairLocationRoutes, ...indoorAirQualityLocationRoutes, ...panelReplacementLocationRoutes, ...switchesOutletsLocationRoutes, ...mastRepairLocationRoutes, ...evChargersLocationRoutes, ...ceilingFanLocationRoutes, ...exhaustFanLocationRoutes, ...surgeProtectorLocationRoutes, ...homeRewiringLocationRoutes, ...electricalInspectionsLocationRoutes, ...hotTubWiringLocationRoutes, ...outdoorLightingLocationRoutes, ...indoorLightingLocationRoutes, ...landscapeLightingLocationRoutes, ...patioLightingLocationRoutes, ...holidayLightingLocationRoutes, ...recessedLightingLocationRoutes, ...ledLightingLocationRoutes, ...garageLightingLocationRoutes, ...basementLightingLocationRoutes, ...lightingFixtureLocationRoutes, ...leakDetectionLocationRoutes, ...garbageDisposalsLocationRoutes, ...gasLineLocationRoutes, ...pipeRepairLocationRoutes, ...wholeHouseRepipingLocationRoutes, ...waterDamageRestorationLocationRoutes, ...afterFloodPlumbingLocationRoutes, ...sewerBackupRepairLocationRoutes, ...basementFloodPlumbingLocationRoutes, ...emergencyWaterExtractionLocationRoutes, ...structuralDryingLocationRoutes, ...moldPreventionRemediationLocationRoutes, ...stormElectricityOutageLocationRoutes, ...electricityDisconnectionLocationRoutes, ...gasServiceDisconnectionLocationRoutes, ...successStoryRoutes, ...postRoutes];
+  return [...staticRoutes, ...serviceRoutes, ...subServiceRoutes, ...companyRoutes, ...locationRoutes, ...acRepairLocationRoutes, ...furnaceRepairLocationRoutes, ...waterHeaterRepairLocationRoutes, ...drainCleaningLocationRoutes, ...acInstallationLocationRoutes, ...heatPumpsLocationRoutes, ...boilersLocationRoutes, ...leakRepairLocationRoutes, ...sewerRepairLocationRoutes, ...furnaceInstallationLocationRoutes, ...acMaintenanceLocationRoutes, ...furnaceMaintenanceLocationRoutes, ...plumbingRepairLocationRoutes, ...plumbingInstallationLocationRoutes, ...faucetLocationRoutes, ...sumpPumpsLocationRoutes, ...waterHeaterInstallationLocationRoutes, ...waterHeaterMaintenanceLocationRoutes, ...tanklessLocationRoutes, ...waterQualityLocationRoutes, ...miniSplitsLocationRoutes, ...miniSplitInstallationLocationRoutes, ...miniSplitRepairLocationRoutes, ...indoorAirQualityLocationRoutes, ...panelReplacementLocationRoutes, ...switchesOutletsLocationRoutes, ...mastRepairLocationRoutes, ...evChargersLocationRoutes, ...ceilingFanLocationRoutes, ...exhaustFanLocationRoutes, ...surgeProtectorLocationRoutes, ...homeRewiringLocationRoutes, ...electricalInspectionsLocationRoutes, ...hotTubWiringLocationRoutes, ...outdoorLightingLocationRoutes, ...indoorLightingLocationRoutes, ...landscapeLightingLocationRoutes, ...patioLightingLocationRoutes, ...holidayLightingLocationRoutes, ...recessedLightingLocationRoutes, ...ledLightingLocationRoutes, ...garageLightingLocationRoutes, ...basementLightingLocationRoutes, ...lightingFixtureLocationRoutes, ...leakDetectionLocationRoutes, ...garbageDisposalsLocationRoutes, ...gasLineLocationRoutes, ...pipeRepairLocationRoutes, ...wholeHouseRepipingLocationRoutes, ...waterDamageRestorationLocationRoutes, ...afterFloodPlumbingLocationRoutes, ...sewerBackupRepairLocationRoutes, ...basementFloodPlumbingLocationRoutes, ...emergencyWaterExtractionLocationRoutes, ...structuralDryingLocationRoutes, ...moldPreventionRemediationLocationRoutes, ...stormElectricityOutageLocationRoutes, ...electricityDisconnectionLocationRoutes, ...gasServiceDisconnectionLocationRoutes, ...successStoryRoutes, ...postRoutes];
 }

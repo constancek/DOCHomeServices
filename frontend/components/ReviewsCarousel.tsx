@@ -74,8 +74,13 @@ export default function ReviewsCarousel({ reviews }: { reviews: Review[] }) {
     };
   }, []);
 
-  // Rendered twice for the seamless loop above.
-  const loop = [...reviews, ...reviews];
+  // Rendered twice for the seamless loop above, but only once the page is in the
+  // browser. The static HTML carries each review once, so search engines don't
+  // read every review twice on every page. The clone lands off-screen to the
+  // right, so visitors see no change.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  const loop = mounted ? [...reviews, ...reviews] : reviews;
 
   return (
     <div className="relative">

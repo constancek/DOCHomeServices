@@ -5,7 +5,10 @@ import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
+import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import { site } from '@/content/site';
+import { locations } from '@/content/locations';
+import { boilersCopy } from '@/content/location-copy/boilers';
 
 export const metadata: Metadata = {
   title: 'Boiler Repair, Maintenance & Replacement',
@@ -329,6 +332,19 @@ export default function BoilersPage() {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Boilers by neighborhood — links DOWN to location pages */}
+      <section className="pb-16">
+        <div className="container-page max-w-4xl">
+          <h2 className="section-title text-brand-700">Boilers by neighborhood</h2>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            We repair, maintain, and replace boilers across {site.serviceArea},{' '}
+            {locations.filter((l) => boilersCopy[l.slug]).length} neighborhoods in all. Find yours
+            below for local detail on the homes and heating systems in your area.
+          </p>
+          <NeighborhoodLinks copy={boilersCopy} basePath="/services/boilers" linkPrefix="Boilers" />
         </div>
       </section>
 
