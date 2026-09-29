@@ -10,6 +10,9 @@ export type PostBlock =
 export type Post = {
   slug: string;
   title: string;
+  // Shorter <title> tag for posts whose headline runs past ~60 characters with
+  // the " | Degree of Comfort" suffix. The H1 and social cards keep `title`.
+  seoTitle?: string;
   category: 'Cooling' | 'Heating' | 'Plumbing' | 'Electrical' | 'Home Tips';
   excerpt: string;
   date: string; // ISO — published
@@ -697,13 +700,14 @@ export const posts: Post[] = [
   },
 {
     slug: 'how-much-does-a-new-furnace-cost',
-    title: 'How Much Does a New Furnace Cost?',
+    title: 'How Much Does a Furnace Replacement Cost in Cincinnati? (2026)',
+    seoTitle: 'Furnace Replacement Cost in Cincinnati (2026)',
     category: 'Heating',
     excerpt:
-      'A new furnace typically runs $3,000 to $10,000 installed. What moves the price — size, efficiency, fuel type, and brand — and how to get the exact number for your home.',
+      'A furnace replacement in Cincinnati usually runs $3,000 to $10,000 installed. What sets your price in 2026, and what changed with tax credits and rebates.',
     date: '2026-01-23',
-    dateModified: '2026-04-14',
-    readMinutes: 8,
+    dateModified: '2026-09-29',
+    readMinutes: 9,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/how-much-does-a-new-furnace-cost-hero.webp',
     imageAlt: 'New gas furnace installed in a home basement',
@@ -711,52 +715,69 @@ export const posts: Post[] = [
       {
         kind: 'takeaways',
         items: [
-          [{ strong: 'A new furnace typically costs $3,000 to $10,000 installed' }, ', with size, efficiency, fuel type, and brand setting where you land in that range.'],
-          [{ strong: 'Higher efficiency costs more upfront but lowers monthly bills' }, ', so the cheapest furnace to buy is not always the cheapest to own.'],
-          [{ strong: 'A right-sized unit lasts longer' }, ' — a furnace that is too big or too small runs up bills and wears out early.'],
-          [{ strong: 'The only accurate price comes from an in-home look' }, ', which is why we do a free estimate before quoting any ', { link: 'furnace installation', href: '/services/furnace-installation-replacement/' }, '.'],
+          [{ strong: 'A furnace replacement in Cincinnati typically costs $3,000 to $10,000 installed' }, ', with size, efficiency, venting, and how hard the install is setting where you land.'],
+          [{ strong: 'The federal tax credit is gone for 2026' }, '. It covered furnaces installed through December 31, 2025, so don’t count it in your budget this year.'],
+          [{ strong: 'The City of Cincinnati requires a mechanical permit' }, ' to replace a furnace. A licensed contractor pulls it, and it should be in the quote.'],
+          [{ strong: 'Only an in-home look gives a real number' }, ', which is why we do a free estimate before quoting any ', { link: 'furnace replacement', href: '/services/furnace-installation-replacement/' }, '.'],
         ],
       },
-      { kind: 'p', spans: ['A new furnace typically costs $3,000 to $10,000 installed. Where you land in that range depends on the size of the unit, how efficient it is, what fuel it burns, the brand, and how complex the installation is in your home. A well-chosen furnace should then last 15 to 20 years with proper maintenance. Here is what actually drives the number, and how to find out what your home needs.'] },
+      { kind: 'p', spans: ['A furnace replacement in Cincinnati typically costs $3,000 to $10,000 installed. A straightforward swap of a standard gas furnace sits near the bottom of that range. A high-efficiency unit, a bigger house, or an install that needs new venting or duct changes pushes it toward the top. Two things are different in 2026: the federal tax credit that took up to $600 off an efficient furnace has ended, and a federal rule on furnace efficiency takes effect in 2028. Here is what drives the price, what changed this year, and how to get the exact number for your home.'] },
 
-      { kind: 'h2', text: 'What Is the Average Cost to Replace a Furnace?' },
-      { kind: 'p', spans: ['For most homes, a full furnace replacement runs between $3,000 and $10,000, including the equipment and professional installation. A straightforward swap of a mid-efficiency gas furnace in an easy-to-reach spot sits at the lower end. A high-efficiency unit, a larger home, or an install that needs new venting, ductwork changes, or a fuel conversion pushes toward the top. That is a wide range on purpose — no honest number exists until someone has looked at your home, your existing setup, and the heating load you actually need.'] },
-      { kind: 'p', spans: ['It also helps to think past the sticker price. A furnace runs for the better part of two decades, so the monthly cost to operate it matters as much as the day-one cost to buy it. A cheaper, less efficient unit can quietly cost more over its life than a pricier, efficient one.'] },
+      { kind: 'h2', text: 'What a Furnace Replacement Costs in Cincinnati' },
+      { kind: 'p', spans: ['For most Cincinnati homes, a full furnace replacement lands between $3,000 and $10,000, including the equipment and professional installation. That range is wide on purpose. No honest price exists until someone has looked at your house, your existing venting, and how much heat your home actually needs.'] },
+      { kind: 'p', spans: ['When you compare quotes, check that each one covers the same things: the furnace itself, labor, the city permit, any venting or duct changes, removal of the old unit, and startup testing. A low quote that leaves out the permit or the venting work isn’t actually lower.'] },
+      { kind: 'p', spans: ['It also helps to look past the day-one price. A furnace runs for 15 to 20 years, so what it costs to operate every winter matters as much as what it costs to buy.'] },
 
-      { kind: 'h2', text: 'What Can Influence the Price of a New Furnace?' },
-      { kind: 'p', spans: ['Four factors move the price more than anything else. Understanding them helps you read a quote and know you are comparing like with like.'] },
+      { kind: 'h2', text: 'What Sets the Price of a New Furnace' },
+      { kind: 'p', spans: ['Five things move the number more than anything else. Knowing them makes it easier to compare quotes line for line.'] },
 
-      { kind: 'h3', text: 'Furnace Type and Fuel' },
-      { kind: 'p', spans: ['Natural gas, electric, and oil furnaces all carry different price tags. Gas is the most common choice across the Tri-State and usually offers the best balance of upfront and running cost. Electric furnaces are often cheaper to buy but can cost more to run depending on local rates. Oil units tend to be the most expensive. If you are switching from one fuel to another, factor in the conversion — new venting, gas lines, or electrical work add to the job. Not sure gas is even the right call? Our guide on ', { link: 'replacing your AC and furnace together', href: '/should-you-replace-your-ac-and-furnace-at-the-same-time/' }, ' is worth a read if both systems are aging.'] },
+      { kind: 'h3', text: 'Size' },
+      { kind: 'p', spans: ['A bigger home needs more heating capacity, and bigger units cost more. But bigger isn’t better. An oversized furnace short-cycles, switching on and off too often, which raises bills and wears it out early. An undersized one runs constantly and still leaves rooms cold. The size should come from a load calculation on your house, not from the label on the old furnace. Correct sizing is a big part of ', { link: 'how long a furnace lasts', href: '/how-long-do-furnaces-last/' }, '.'] },
 
-      { kind: 'h3', text: 'Energy Efficiency' },
-      { kind: 'p', spans: ['Furnace efficiency is measured by AFUE — the percentage of fuel it turns into heat. A higher-efficiency furnace costs more upfront but wastes less fuel, so it trims your heating bill every month it runs. Over a 15-to-20-year lifespan, that difference adds up, and high-efficiency equipment often qualifies for utility rebates or tax credits that narrow the gap further. The right efficiency level for you depends on how long you plan to stay in the home and how cold your winters get.'] },
+      { kind: 'h3', text: 'Efficiency' },
+      { kind: 'p', spans: ['Efficiency is measured by AFUE, the share of fuel a furnace turns into heat. A standard furnace is 80% AFUE. A high-efficiency furnace is 95% or higher, so it wastes less gas every winter it runs. High-efficiency units cost more to buy and install, and the gap narrows over the years in lower bills. How much it pays back depends on how long you plan to stay in the house.'] },
 
-      { kind: 'h3', text: 'Specific Brands' },
-      { kind: 'p', spans: ['Different manufacturers price their furnaces differently, and within a single brand you will find budget, mid-range, and premium lines. Higher-end models often come with better warranties, quieter operation, and features like variable-speed blowers that hold a steadier temperature. A good installer will walk you through a couple of solid options at different price points rather than pushing the most expensive box on the truck.'] },
+      { kind: 'h3', text: 'Venting in Older Homes' },
+      { kind: 'p', spans: ['This is the cost most people don’t see coming, and it matters in Cincinnati’s older housing. An 80% furnace vents hot exhaust up a chimney. A 95% furnace condenses its exhaust, so it vents through plastic pipe out a side wall and needs a drain for the water it produces. Switching from one to the other means new venting. And if your water heater shared the old chimney with the furnace, it may now need a chimney liner to vent safely on its own. None of this is optional, and a good quote spells it out.'] },
 
-      { kind: 'h3', text: 'House Size' },
-      { kind: 'p', spans: ['A larger home needs a furnace with more heating capacity, and bigger units cost more. But bigger is not automatically better. A furnace that is oversized for your home short-cycles — switching on and off too often — which drives up bills and shortens the equipment’s life. One that is undersized runs constantly and still leaves rooms cold. Correct sizing, based on a proper load calculation rather than a rule of thumb, is one of the most important parts of the job, and it is a big reason ', { link: 'how long your furnace lasts', href: '/how-long-do-furnaces-last/' }, ' comes down to how it was installed.'] },
+      { kind: 'h3', text: 'Fuel Type' },
+      { kind: 'p', spans: ['Natural gas is the most common choice in Cincinnati and usually offers the best balance of purchase price and running cost through our winters. Electric furnaces often cost less to buy but more to run. Oil furnaces are rare here. Switching fuels adds gas line, venting, or electrical work to the job. If your air conditioner is aging too, read our guide on ', { link: 'replacing your AC and furnace together', href: '/should-you-replace-your-ac-and-furnace-at-the-same-time/' }, ' before you decide.'] },
 
-      { kind: 'h2', text: 'Is It Worth Replacing an Old Furnace?' },
-      { kind: 'p', spans: ['Sometimes the smarter money is on a repair, and we will tell you when that is the case. If your furnace is under about 15 years old and has a single, one-time problem, fixing it usually makes sense. But once a unit is past 15 years, needs frequent or costly repairs, or can no longer heat your home evenly, replacement tends to win. A useful rule of thumb: if a repair costs more than about half the price of a new system, replacement is usually the better spend. A new high-efficiency furnace is more reliable, cheaper to run, and far less likely to quit on the coldest night of the year. If the cost is the sticking point, ', { link: 'financing an HVAC system', href: '/can-you-finance-an-hvac-system/' }, ' can spread it into monthly payments.'] },
+      { kind: 'h3', text: 'Brand and Install Difficulty' },
+      { kind: 'p', spans: ['Each manufacturer has budget, mid-range, and premium lines, and features like variable-speed blowers cost more but hold a steadier temperature. Access matters too: a furnace in an open basement is a simpler job than one in a tight crawlspace or attic, or one that needs ductwork changes to fit.'] },
 
-      { kind: 'h2', text: 'Install a Furnace That Meets Your Needs' },
-      { kind: 'p', spans: ['Whatever you spend, the install is what makes it worth the money. A correctly sized, properly vented furnace put in by a licensed technician reaches the top of its lifespan and runs at the efficiency you paid for. A rushed or wrong-sized install undoes all of it. That is why we start every ', { link: 'furnace replacement', href: '/services/furnace-installation-replacement/' }, ' with a real look at your home, and why keeping up with annual ', { link: 'furnace safety and service', href: '/5-preventive-measures-for-furnace-safety/' }, ' protects the investment for years after.'] },
+      { kind: 'h2', text: 'What Changed in 2026' },
+      { kind: 'h3', text: 'The Federal Tax Credit Has Ended' },
+      { kind: 'p', spans: ['Through 2025, a qualifying high-efficiency furnace earned a federal tax credit of up to $600 under the Energy Efficient Home Improvement Credit. According to the ', { link: 'IRS', href: 'https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit' }, ', that credit only applies to equipment placed in service before December 31, 2025. A furnace installed in 2026 doesn’t qualify, so leave it out of your budget, and be wary of any quote that still subtracts it.'] },
+
+      { kind: 'h3', text: 'Duke Energy Rebates Don’t Cover Gas Furnaces' },
+      { kind: 'p', spans: ['Duke Energy’s Smart $aver rebates for Ohio homes have covered equipment like central air conditioners, heat pumps, and smart thermostats, not gas furnaces. Rebate programs change, so check Duke’s current list before you buy. If you are replacing your AC at the same time, that part of the job may still qualify.'] },
+
+      { kind: 'h3', text: 'The 2028 Furnace Efficiency Rule' },
+      { kind: 'p', spans: ['The ', { link: 'U.S. Department of Energy', href: 'https://www.energy.gov/articles/doe-finalizes-energy-efficiency-standards-residential-furnaces-save-americans-15-billion' }, ' has set a standard requiring most gas furnaces made after December 18, 2028 to reach 95% AFUE. The rule is still being challenged in court, but it hasn’t been withdrawn. Our view: if you are replacing a furnace in 2026, don’t choose an 80% unit just because it costs less today. You would be installing equipment the industry is moving away from, in a house you will heat for the next 15 to 20 years. If your home can’t take the side-wall venting a 95% furnace needs, that is worth knowing up front, and we will tell you.'] },
+
+      { kind: 'h2', text: 'Permits for Furnace Replacement in Cincinnati' },
+      { kind: 'p', spans: ['The City of Cincinnati requires a mechanical permit to install or replace a furnace, even when the new one goes in the same spot as the old one. The permit comes with an inspection that checks the gas connection, venting, and safety controls. Your contractor should pull it and include it in the price. If a quote doesn’t mention a permit, ask. Northern Kentucky and the other cities around Cincinnati set their own permit rules, so the details differ by address.'] },
+
+      { kind: 'h2', text: 'Should You Repair Instead?' },
+      { kind: 'p', spans: ['Often, yes, and we will tell you when that is the case. If your furnace is under about 15 years old and has one specific problem, like a failed igniter or flame sensor, repairing it usually makes more sense than replacing it. Replacement tends to win once a furnace is past 15 years, needs repeated or expensive repairs, or can no longer heat the house evenly. A useful rule: if a repair would cost more than about half the price of a new furnace, put that money toward replacement instead. Our guide on ', { link: 'repairing or replacing a furnace', href: '/should-you-repair-or-replace-your-furnace/' }, ' goes into more detail.'] },
+
+      { kind: 'h2', text: 'Paying for a New Furnace' },
+      { kind: 'p', spans: ['With the tax credit gone, the price you’re quoted is closer to the price you pay. If a lump sum is the obstacle, ', { link: 'financing an HVAC system', href: '/can-you-finance-an-hvac-system/' }, ' spreads the cost into monthly payments, which can make the difference between an 80% unit and a 95% one easier to manage. After install, annual ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ' keeps it running at the efficiency you paid for.'] },
 
       { kind: 'h2', text: 'Get an Exact Furnace Price From Degree of Comfort' },
-      { kind: 'p', spans: ['The only way to know what a new furnace will cost in your home is to have someone size it, check your existing setup, and lay out your options. Degree of Comfort handles furnace ', { link: 'repair', href: '/services/furnace-repair/' }, ', installation, and full ', { link: 'heating', href: '/services/heating/' }, ' service across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want a real number instead of a range? Call ', { strong: '(513) 586-5107' }, ', ask about a new furnace, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will give you an honest quote for your home.'] },
+      { kind: 'p', spans: ['The only way to know what a furnace replacement will cost in your home is to have someone size it, check your venting, and lay out your options side by side. Degree of Comfort handles furnace ', { link: 'repair', href: '/services/furnace-repair/' }, ', replacement, and full ', { link: 'heating', href: '/services/heating/' }, ' service across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
+      { kind: 'p', spans: ['Want a real number instead of a range? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will give you an honest quote for your home.'] },
     ],
     faqs: [
-      { q: 'How much does a new furnace cost?', a: 'A new furnace typically costs $3,000 to $10,000 installed, depending on the unit’s size, efficiency, fuel type, brand, and how involved the installation is. The only accurate figure comes from an in-home look.' },
-      { q: 'Will a new furnace save me money?', a: 'Usually, yes. A modern high-efficiency furnace wastes less fuel than an aging one, so it lowers your heating bill every month it runs, and it may qualify for rebates or tax credits.' },
-      { q: 'Does a new furnace increase home value?', a: 'It can. Buyers notice an aging heating system they will soon have to replace, so a recent, efficient furnace is a selling point that adds to your home’s appeal.' },
-      { q: 'What factors affect the cost of a new furnace?', a: 'The four biggest are size, energy efficiency, fuel type, and brand, plus how complex the installation is — new venting, ductwork changes, or a fuel conversion all add to it.' },
-      { q: 'Is it worth replacing an old furnace?', a: 'Often, yes — especially once a furnace is past 15 years, needs frequent repairs, or heats unevenly. A good rule is that if a repair costs more than about half the price of a new system, replacement is the better value.' },
-      { q: 'How long does a new furnace last?', a: 'Most furnaces last 15 to 20 years with proper maintenance, with annual service and regular filter changes being the biggest factors in reaching the high end of that range.' },
-      { q: 'Are there financing options for a new furnace?', a: 'Yes. Financing spreads the cost of a new furnace into manageable monthly payments instead of one large upfront bill, which makes a higher-efficiency unit easier to afford.' },
-      { q: 'Who should install my new furnace?', a: 'Always a licensed, insured HVAC professional — correct sizing, venting, and setup are what let a furnace reach its full lifespan and run at the efficiency you paid for. Degree of Comfort sizes and installs furnaces across the Tri-State with upfront, flat-rate pricing — call (513) 586-5107.' },
+      { q: 'How much does a furnace replacement cost in Cincinnati?', a: 'A furnace replacement in Cincinnati typically costs $3,000 to $10,000 installed. Size, efficiency, venting changes, fuel type, and how hard the furnace is to reach decide where you land. The only accurate figure comes from an in-home look.' },
+      { q: 'Is there a tax credit for a new furnace in 2026?', a: 'No. The federal Energy Efficient Home Improvement Credit, worth up to $600 on a qualifying furnace, only covered equipment placed in service before December 31, 2025. A furnace installed in 2026 doesn’t qualify.' },
+      { q: 'Does Duke Energy give a rebate for a new gas furnace?', a: 'Duke Energy’s Smart $aver rebates for Ohio homes have covered central air, heat pumps, and smart thermostats, not gas furnaces. Programs change, so check Duke’s current list before you buy.' },
+      { q: 'Do I need a permit to replace a furnace in Cincinnati?', a: 'Yes. The City of Cincinnati requires a mechanical permit to install or replace a furnace, and the work is inspected. Your contractor should pull the permit and include it in the quote.' },
+      { q: 'Should I buy an 80% or a 95% furnace in 2026?', a: 'In most homes, a 95% furnace. It wastes less gas every winter, and a federal rule will require most new gas furnaces made after December 18, 2028 to reach 95% AFUE. The exception is a house that can’t take the side-wall venting a 95% furnace needs.' },
+      { q: 'Why is my quote higher than the price of the furnace?', a: 'Installation covers more than the unit: labor, the permit, removing the old furnace, and often new venting. Switching from an 80% to a 95% furnace usually means new side-wall venting, and a water heater left alone in the old chimney may need a liner.' },
+      { q: 'Is it worth replacing an old furnace?', a: 'Often, once a furnace is past 15 years, needs frequent repairs, or heats unevenly. If a repair would cost more than about half the price of a new furnace, replacement is usually the better value. A younger furnace with one problem is usually worth repairing.' },
+      { q: 'How long does a new furnace last?', a: 'Most furnaces last 15 to 20 years with proper maintenance. Annual service and regular filter changes are the biggest factors in reaching the high end of that range.' },
     ],
   },
 {
@@ -4931,6 +4952,153 @@ export const posts: Post[] = [
       { q: 'Can a tenant withhold rent if there is no heat?', a: 'Not in Ohio. A tenant can’t simply stop paying. The legal route is to give written notice and, if the problem isn’t fixed in time, deposit the rent with the court clerk instead of the landlord. In Kentucky cities and counties that have adopted the landlord-tenant act, a tenant can buy reasonable heat and deduct the cost when a landlord willfully fails to supply it.' },
       { q: 'Do I have to put my tenant in a hotel if the furnace needs replacing?', a: 'In Cincinnati, a landlord can provide space heaters that keep the living space at 70 degrees or more while the repair is done. If heaters can’t hold that temperature, temporary housing such as a hotel stay is the other accepted option.' },
       { q: 'Is it safe for a tenant to use the oven for heat?', a: 'No. Ovens, stovetops, grills, and generators can produce carbon monoxide, which has no smell or color. Give the tenant electric space heaters with tip-over and overheat shutoff, plugged straight into a wall outlet, and make sure the unit has working CO alarms.' },
+    ],
+  },
+  {
+    slug: 'uneven-heating-older-cincinnati-homes',
+    title: 'Why Older Cincinnati Homes Have Uneven Heat, and How to Fix It',
+    seoTitle: 'Uneven Heating in Older Cincinnati Homes',
+    category: 'Heating',
+    excerpt:
+      'Cold upstairs, one freezing room, a warm first floor: why older Cincinnati homes heat unevenly, what you can check yourself, and which fixes actually work.',
+    date: '2026-09-29',
+    dateModified: '2026-09-29',
+    readMinutes: 7,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/uneven-heating-older-homes-hero.webp',
+    imageAlt: 'Wooden staircase and paneled hallway inside an older house',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Older homes heat unevenly because they were built for a different heating system' }, '. Ducts added later are often undersized, leaky, and missing return vents upstairs.'],
+          [{ strong: 'Start with the free checks' }, ': the filter, closed or blocked registers, and the damper handles on the ducts in your basement.'],
+          [{ strong: 'Fix the ducts and the attic before the furnace' }, '. A typical house loses 20 to 30 percent of its duct air to leaks, and a bigger furnace won’t fix that.'],
+          [{ strong: 'For a room that never keeps up' }, ', like a third floor or an addition, a ductless ', { link: 'mini-split', href: '/services/mini-splits/' }, ' or zoning usually works better than more ductwork.'],
+        ],
+      },
+      { kind: 'p', spans: ['Older Cincinnati homes heat unevenly mostly because their ductwork was added after the house was built. Many houses from the late 1800s and early 1900s were heated with radiators or a gravity furnace, and the forced-air ducts that came later were squeezed through closets and walls wherever they fit. The result is long, narrow runs to the upper floors, few return vents upstairs, and plenty of leaks. Add thin attic insulation and old windows, and the far rooms lose heat faster than it arrives. Here is how to find which problem your house has, and what fixes it.'] },
+
+      { kind: 'h2', text: 'Why Is Upstairs Colder Than Downstairs in Winter?' },
+      { kind: 'p', spans: ['Heat rises, so the upstairs should be warmer. In an older house it often isn’t, for three reasons. The duct runs to the second and third floors are the longest in the house, so less warm air makes it there. There is usually no return vent upstairs, so the air that does arrive has nowhere to go and the rooms stop taking more. And the top floor sits under the attic, where many older homes have little insulation, so it loses heat fastest.'] },
+      { kind: 'p', spans: ['This is common in neighborhoods like Northside, Clifton, Walnut Hills, and Price Hill, where much of the housing dates to the late 1800s and early 1900s, and in the tall, narrow houses of Over-the-Rhine.'] },
+
+      { kind: 'h2', text: 'Why Is One Room Colder Than the Rest of the House?' },
+      { kind: 'p', spans: ['A single cold room usually has one of these causes:'] },
+      { kind: 'h3', text: 'It Is at the End of the Longest Duct' },
+      { kind: 'p', spans: ['The room farthest from the furnace gets the weakest airflow, especially if its duct runs through an unheated space like an attic or crawlspace. Hold your hand over the register with the furnace running. Weak airflow compared with other rooms points to the duct.'] },
+      { kind: 'h3', text: 'It Was Added Later' },
+      { kind: 'p', spans: ['Enclosed porches, back additions, and finished attics were often tied into an existing duct system that was never sized for them. They also tend to have more outside walls and less insulation than the original house.'] },
+      { kind: 'h3', text: 'The Walls Have Little or No Insulation' },
+      { kind: 'p', spans: ['Many homes built before the 1940s were framed with open wall cavities that run from the basement to the attic, and little or no insulation. Cold air moves through those cavities, and a corner room with two outside walls feels it most.'] },
+      { kind: 'h3', text: 'The Windows Are Original' },
+      { kind: 'p', spans: ['Single-pane windows lose heat quickly, and a room with several of them will run colder even when the heat reaching it is fine.'] },
+
+      { kind: 'h2', text: 'What You Can Check Yourself' },
+      { kind: 'p', spans: ['Before you call anyone, spend 20 minutes on these. They cost nothing and fix more cold rooms than you would expect.'] },
+      { kind: 'p', spans: [{ strong: 'Change the filter.' }, ' A clogged filter starves the whole system of airflow, and the rooms at the end of the longest ducts notice first. Our guide on ', { link: 'how often to change your furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, ' covers what to buy and when.'] },
+      { kind: 'p', spans: [{ strong: 'Open every register and clear the returns.' }, ' Closing vents in warm rooms doesn’t push more heat to cold ones in most systems. Keep furniture, rugs, and curtains off supply registers and return grilles.'] },
+      { kind: 'p', spans: [{ strong: 'Check the damper handles in the basement.' }, ' Many older duct systems have a small lever on each branch duct. If a lever sits across the duct, that branch is partly closed. Open the branches to the cold rooms and close the ones to the warmest rooms a little, then give it a day.'] },
+      { kind: 'p', spans: [{ strong: 'Run the fan continuously.' }, ' Setting the thermostat fan to ON instead of AUTO keeps air moving between floors and can even out the difference. It uses more electricity, so try it and see whether it helps enough to be worth it.'] },
+
+      { kind: 'h2', text: 'Fixes That Work in Older Homes' },
+      { kind: 'h3', text: 'Seal and Insulate the Ducts' },
+      { kind: 'p', spans: ['According to ', { link: 'ENERGY STAR', href: 'https://www.energystar.gov/saveathome/heating-cooling/duct-sealing' }, ', about 20 to 30 percent of the air moving through the ducts in a typical house is lost to leaks, holes, and loose connections. In an older house with ducts added over the decades, that loss comes straight out of the rooms at the far end. Sealing the joints and insulating ducts that run through unheated spaces puts that air back where you paid for it to go.'] },
+      { kind: 'h3', text: 'Add a Return Upstairs' },
+      { kind: 'p', spans: ['If the upper floor has no return vent, adding one often makes the biggest single difference. Warm air can only flow into a room as fast as air can leave it.'] },
+      { kind: 'h3', text: 'Balance the System' },
+      { kind: 'p', spans: ['A technician can measure the airflow at each register and set the dampers so each room gets its share. It is a one-time adjustment, and it is often all a house needs once the ducts are sealed.'] },
+      { kind: 'h3', text: 'Zone It or Add a Mini-Split' },
+      { kind: 'p', spans: ['For a floor that never keeps up, ', { link: 'zoning', href: '/what-is-zoned-air-conditioning/' }, ' lets separate thermostats control separate areas, and a ductless ', { link: 'mini-split', href: '/services/mini-splits/' }, ' heats a third floor or an addition directly without new ductwork through old walls. It cools the same room in summer, which fixes the other half of the problem. If your house also runs hot upstairs in July, our post on ', { link: 'uneven cooling', href: '/common-causes-of-uneven-cooling-in-your-home/' }, ' covers that side.'] },
+      { kind: 'h3', text: 'If Your Home Has Radiators' },
+      { kind: 'p', spans: ['Many older Cincinnati homes still heat with a boiler. A radiator that is cold at the top usually has trapped air and needs bleeding. If several are cold, the cause is more often low system pressure, a stuck valve, or a weak circulator pump. Our ', { link: 'boiler service', href: '/services/boilers/' }, ' page covers what we check.'] },
+
+      { kind: 'h2', text: 'Don’t Start With a Bigger Furnace' },
+      { kind: 'p', spans: ['A bigger furnace is the fix people ask about most, and it is usually the wrong one. If 20 to 30 percent of your duct air is leaking out before it reaches the far rooms, a larger furnace pushes more air into the same leaks, and an oversized one short-cycles, wearing out faster and heating no more evenly. Fix the ducts, returns, and balance first. Replace the furnace when it is old or failing, and size the new one to the house.'] },
+
+      { kind: 'h2', text: 'When to Call an Insulation Contractor Instead' },
+      { kind: 'p', spans: ['If your ducts are sealed, the airflow checks out, and the upstairs is still cold, the problem is probably the house, not the heating. ', { link: 'ENERGY STAR', href: 'https://www.energystar.gov/saveathome/seal_insulate/why-seal-and-insulate' }, ' estimates that air sealing and adding insulation in attics, floors over crawlspaces, and basements saves an average of 15 percent on heating and cooling costs. That is work for an insulation contractor, not us, and we will tell you so if that is what we find.'] },
+
+      { kind: 'h2', text: 'Get Even Heat in Your Cincinnati Home' },
+      { kind: 'p', spans: ['Degree of Comfort finds and fixes uneven heating in older homes across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We check airflow, ducts, and the equipment before recommending anything, with upfront, flat-rate pricing. We are family-owned, licensed and insured.'] },
+      { kind: 'p', spans: ['Tired of the cold room? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will find out where your heat is going.'] },
+    ],
+    faqs: [
+      { q: 'Why is my upstairs colder than downstairs in winter?', a: 'In older homes, the ducts to the upper floors are the longest runs, there is often no return vent upstairs, and the top floor sits under an attic with little insulation. Less heat arrives upstairs and more of it escapes.' },
+      { q: 'Why is one room in my house so much colder than the rest?', a: 'Usually the room is at the end of the longest duct, was added to the house later, has two or more outside walls with little insulation, or has old single-pane windows. Weak airflow at its register compared with other rooms points to the ductwork.' },
+      { q: 'Does closing vents in warm rooms send more heat to cold rooms?', a: 'Not in most systems. Closing registers raises pressure in the ducts and can push more air out of leaks instead of into the cold rooms. Use the dampers on the branch ducts in the basement instead, or have the system balanced.' },
+      { q: 'How do I fix uneven heating in an old house?', a: 'Start with the filter, open registers, and the damper handles in the basement. If that doesn’t fix it, seal and insulate the ducts, add a return vent upstairs, and have the airflow balanced. For a floor that never keeps up, zoning or a ductless mini-split works well.' },
+      { q: 'Will a new furnace fix uneven heating?', a: 'Rarely on its own. Uneven heat in older homes usually comes from the ducts, missing returns, or insulation. A bigger furnace pushes more air into the same leaks. Replace the furnace when it is old or failing, and fix the air delivery first.' },
+      { q: 'Is a mini-split a good fix for a cold third floor?', a: 'Often, yes. A ductless mini-split heats the room directly without running new ducts through old walls, and it cools the same space in summer, when top floors in older homes tend to overheat.' },
+    ],
+  },
+  {
+    slug: 'boiler-vs-furnace-cincinnati',
+    title: 'Boiler vs. Furnace: Which Is Better for Your Cincinnati Home?',
+    seoTitle: 'Boiler vs. Furnace for Cincinnati Homes',
+    category: 'Heating',
+    excerpt:
+      'Boilers give quieter, more even heat. Furnaces cost less and share ducts with central air. How to choose in Cincinnati, and why switching rarely pays.',
+    date: '2026-09-29',
+    dateModified: '2026-09-29',
+    readMinutes: 8,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/boiler-vs-furnace-hero.webp',
+    imageAlt: 'Living room with a radiator under the window and a ductless mini-split mounted above it',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'A furnace heats air and blows it through ducts; a boiler heats water and sends it to radiators or floor tubing' }, '. Neither is better for every house.'],
+          [{ strong: 'Furnaces cost less to install and share their ducts with central air' }, ', which matters through a humid Cincinnati summer.'],
+          [{ strong: 'Boilers give quieter, more even heat and last longer' }, ': 15 to 25 years, against 15 to 20 for a furnace.'],
+          [{ strong: 'Replace like with like' }, '. Adding ducts to a radiator home, or radiators to a duct home, usually costs more than it saves. A ', { link: 'mini-split', href: '/services/mini-splits/' }, ' can add cooling to a boiler home instead.'],
+        ],
+      },
+      { kind: 'p', spans: ['For most Cincinnati homes, the better heating system is the kind the house already has. A furnace is the right fit for a home with ductwork, because it costs less to install and the same ducts carry central air in summer. A boiler is the right fit for a home with radiators or radiant floors, because it gives quieter, more even heat and usually lasts longer. Switching from one to the other is a major project that rarely pays for itself. Here is how the two compare, and when the answer changes.'] },
+
+      { kind: 'h2', text: 'How a Furnace and a Boiler Work' },
+      { kind: 'p', spans: [{ strong: 'A furnace' }, ' burns gas (or uses electric elements) to heat air, and a blower pushes that air through ducts to vents in each room. Air returns to the furnace through return grilles and the cycle repeats.'] },
+      { kind: 'p', spans: [{ strong: 'A boiler' }, ' heats water, usually to around 140°F, and a pump circulates it through pipes to radiators, baseboard heaters, or tubing under the floor. The heat comes off those surfaces into the room, and the cooler water returns to be reheated. Older homes may have a steam boiler instead, which sends steam up to the radiators. For more on how they run, see ', { link: 'what you should know about boilers', href: '/what-you-should-know-about-boilers/' }, '.'] },
+
+      { kind: 'h2', text: 'Boiler vs. Furnace at a Glance' },
+      { kind: 'p', spans: [{ strong: 'Upfront cost:' }, ' a furnace usually costs less to buy and install. A furnace replacement in Cincinnati typically runs $3,000 to $10,000 installed; a comparable boiler costs more.'] },
+      { kind: 'p', spans: [{ strong: 'Efficiency:' }, ' close. High-efficiency gas furnaces run 95% AFUE or higher, and ENERGY STAR certified gas boilers run 90% or higher.'] },
+      { kind: 'p', spans: [{ strong: 'Comfort:' }, ' boilers heat evenly and quietly, with no drafts. Furnaces heat a cold house faster.'] },
+      { kind: 'p', spans: [{ strong: 'Air conditioning:' }, ' a furnace shares its ducts with central air. A boiler has no ducts, so cooling needs a separate system.'] },
+      { kind: 'p', spans: [{ strong: 'Lifespan:' }, ' boilers typically last 15 to 25 years, furnaces 15 to 20.'] },
+      { kind: 'p', spans: [{ strong: 'Air quality:' }, ' a boiler doesn’t blow air, so it doesn’t move dust around the house. A furnace filters the air it moves, if the filter is kept up.'] },
+
+      { kind: 'h2', text: 'Which Costs Less to Run?' },
+      { kind: 'p', spans: ['On paper, the two are close. A new high-efficiency gas furnace and a new high-efficiency gas boiler both turn most of the gas you pay for into heat. In practice, delivery matters as much as the equipment. ', { link: 'ENERGY STAR', href: 'https://www.energystar.gov/saveathome/heating-cooling/duct-sealing' }, ' estimates that 20 to 30 percent of the air moving through a typical home’s ducts is lost to leaks and poor connections. Water in sealed pipes doesn’t leak heat that way. So a boiler in a home with radiators often holds its efficiency better than a furnace pushing air through old, leaky ducts. Seal the ducts, and most of that gap closes.'] },
+
+      { kind: 'h2', text: 'The Air Conditioning Question' },
+      { kind: 'p', spans: ['This is the deciding factor for a lot of Cincinnati homeowners. Our summers are hot and humid, and a furnace comes with the ductwork central air needs. A boiler doesn’t. If your home heats with radiators and you want cooling, you don’t have to give up the boiler. A ductless ', { link: 'mini-split', href: '/services/mini-splits/' }, ' cools the rooms you use without running ducts through plaster walls, and a heat pump mini-split can also take the edge off in spring and fall.'] },
+
+      { kind: 'h2', text: 'What Most Cincinnati Homes Have' },
+      { kind: 'p', spans: ['Much of the older housing in neighborhoods like Clifton, Northside, Walnut Hills, and Over-the-Rhine dates to the late 1800s and early 1900s, and many of those homes still heat with radiators and a boiler. Homes built in the suburbs after World War II mostly use forced-air furnaces with ductwork. Knowing which kind of house you have answers most of this question before you start comparing equipment.'] },
+
+      { kind: 'h2', text: 'Should You Switch From One to the Other?' },
+      { kind: 'p', spans: ['Usually not. Our view is simple: replace like with like. Going from a boiler to a furnace means adding ductwork to a house that was never built for it, which in an older home means opening walls, ceilings, and closets. Going from a furnace to a boiler means running pipes and adding radiators or floor tubing to every room. Either way, you pay for a whole new delivery system on top of the equipment. A boiler replaced with a new boiler also keeps the heat that lasts 15 to 25 years, instead of adding ducts that can lose 20 to 30 percent of their air.'] },
+      { kind: 'p', spans: ['There are exceptions. A major renovation that already opens up the walls is the time to consider a change. So is a house where the old radiator piping is failing throughout. If neither applies, and your current system works, you probably don’t need to switch, and we will tell you so.'] },
+
+      { kind: 'h2', text: 'What Changed in 2026' },
+      { kind: 'p', spans: ['The federal tax credit that covered qualifying high-efficiency furnaces and boilers ended with equipment placed in service before December 31, 2025, so it doesn’t apply to a 2026 install. Separately, the ', { link: 'U.S. Department of Energy', href: 'https://www.energy.gov/articles/doe-finalizes-energy-efficiency-standards-residential-furnaces-save-americans-15-billion' }, ' has set a rule requiring most gas furnaces made after December 18, 2028 to reach 95% AFUE. If you are buying a furnace now, choose a high-efficiency model. Our post on ', { link: 'what a furnace replacement costs in Cincinnati', href: '/how-much-does-a-new-furnace-cost/' }, ' covers both changes in more detail.'] },
+
+      { kind: 'h2', text: 'Which One Is Right for Your Home?' },
+      { kind: 'p', spans: ['A furnace is usually the better choice if your home already has ductwork, you want central air, or upfront cost matters most. A boiler is usually the better choice if your home has radiators or radiant floors, you value quiet and even heat, or anyone in the house is bothered by dust. If some rooms run cold no matter which system you have, the problem is often delivery, not the equipment. Our guide to ', { link: 'uneven heating in older homes', href: '/uneven-heating-older-cincinnati-homes/' }, ' walks through it.'] },
+
+      { kind: 'h2', text: 'Get Honest Advice From Degree of Comfort' },
+      { kind: 'p', spans: ['Degree of Comfort installs and services both. We handle ', { link: 'boiler repair, maintenance, and replacement', href: '/services/boilers/' }, ' and ', { link: 'furnace installation and replacement', href: '/services/furnace-installation-replacement/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing.'] },
+      { kind: 'p', spans: ['Not sure which way to go? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will look at your home and tell you what makes sense.'] },
+    ],
+    faqs: [
+      { q: 'Is a boiler or a furnace better?', a: 'Neither is better for every house. A furnace suits a home with ductwork and costs less to install; a boiler suits a home with radiators or radiant floors and gives quieter, more even heat. For most homes, the best choice is the type already installed.' },
+      { q: 'Which is cheaper to install, a boiler or a furnace?', a: 'A furnace. A furnace replacement in Cincinnati typically costs $3,000 to $10,000 installed, and a comparable boiler costs more. Switching from one type to the other costs far more than either, because it means a new delivery system.' },
+      { q: 'Which is cheaper to run, a boiler or a furnace?', a: 'They are close. High-efficiency gas furnaces run 95% AFUE or higher and certified gas boilers 90% or higher. A boiler often holds its efficiency better in practice, because water in sealed pipes doesn’t leak heat the way ductwork leaks air.' },
+      { q: 'Can I get central air with a boiler?', a: 'Not through the boiler, because it has no ducts. Most boiler homes add cooling with ductless mini-splits, which cool individual rooms without running ducts through the walls.' },
+      { q: 'Can I replace my boiler with a furnace?', a: 'You can, but it means installing ductwork throughout a house that was built without it. In an older home that is a large, disruptive job, so replacing a boiler with a new high-efficiency boiler is usually simpler and less expensive.' },
+      { q: 'Does a boiler or a furnace last longer?', a: 'A boiler, usually. Boilers typically last 15 to 25 years with regular service, and furnaces 15 to 20 years.' },
     ],
   },
 ];

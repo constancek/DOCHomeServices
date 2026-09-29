@@ -29,7 +29,7 @@ export async function generateMetadata({
   const ogImage = post.image?.replace(/\.webp$/, '.jpg');
   const images = ogImage ? [{ url: ogImage, alt: post.imageAlt ?? post.title }] : undefined;
   return {
-    title: post.title,
+    title: post.seoTitle ?? post.title,
     description: post.excerpt,
     alternates: { canonical: url },
     openGraph: {
