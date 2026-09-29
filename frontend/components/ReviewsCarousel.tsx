@@ -16,7 +16,13 @@ type Review = {
 // opens the full text in place. Roughly the length that fits five lines.
 const CLAMP_CHARS = 240;
 
-export default function ReviewsCarousel({ reviews }: { reviews: Review[] }) {
+export default function ReviewsCarousel({
+  reviews,
+  showAllLink = false,
+}: {
+  reviews: Review[];
+  showAllLink?: boolean;
+}) {
   const trackRef = useRef<HTMLDivElement>(null);
   const [expanded, setExpanded] = useState<number | null>(null);
 
@@ -83,10 +89,12 @@ export default function ReviewsCarousel({ reviews }: { reviews: Review[] }) {
   const loop = mounted ? [...reviews, ...reviews] : reviews;
 
   return (
-    <div className="relative">
+    // One review at a time inside a single white card; the arrows sit in the card.
+    // min-w-0 stops the wide scrolling track from stretching its grid column.
+    <div className="relative min-w-0 rounded-3xl bg-white p-7 shadow-card ring-1 ring-brand-900/5 sm:p-8">
       <div
         ref={trackRef}
-        className="flex snap-x snap-mandatory gap-6 overflow-x-auto pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        className="flex snap-x snap-mandatory gap-6 overflow-x-auto [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
         {loop.map((r, i) => {
           const isLong = r.text.length > CLAMP_CHARS;
@@ -94,7 +102,7 @@ export default function ReviewsCarousel({ reviews }: { reviews: Review[] }) {
           return (
             <figure
               key={i}
-              className="flex w-full shrink-0 snap-start flex-col rounded-3xl bg-white p-7 shadow-card ring-1 ring-brand-900/5 sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
+              className="flex w-full shrink-0 snap-start flex-col"
             >
               <div className="flex gap-1.5 text-pink-500">
                 {Array.from({ length: 5 }).map((_, p) => (
@@ -160,7 +168,7 @@ export default function ReviewsCarousel({ reviews }: { reviews: Review[] }) {
       </div>
 
       {/* Controls */}
-      <div className="mt-8 flex justify-center gap-3">
+      <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
         <button
           type="button"
           onClick={() => slide(-1)}
@@ -177,6 +185,12 @@ export default function ReviewsCarousel({ reviews }: { reviews: Review[] }) {
         >
           <Icon name="chevron" className="h-5 w-5" />
         </button>
+        {showAllLink && (
+          <Link href="/reviews" className="btn-pink ml-2">
+            View all reviews
+            <Icon name="arrow" className="h-4 w-4" />
+          </Link>
+        )}
       </div>
     </div>
   );

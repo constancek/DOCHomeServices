@@ -33,9 +33,11 @@ export default function BlogFaq({ items }: { items: { q: string; a: string }[] }
                   {isOpen ? '−' : '+'}
                 </span>
               </button>
-              {isOpen && (
-                <div className="-mt-1 px-6 pb-6 text-[15px] leading-relaxed text-brand-700">{f.a}</div>
-              )}
+              {/* Always in the HTML so search engines read every answer; closed
+                  answers are hidden, not left out. */}
+              <div hidden={!isOpen} className="-mt-1 px-6 pb-6 text-[15px] leading-relaxed text-brand-700">
+                {f.a}
+              </div>
             </div>
           );
         })}

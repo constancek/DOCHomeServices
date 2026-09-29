@@ -23,7 +23,7 @@ export default function ReviewsPage() {
         ]}
       />
 
-      <ReviewsSection />
+      <ReviewsSection showAllLink={false} />
 
       {/* The section above already carries the reviews, so PageSections skips its
           own copy on this page. */}
