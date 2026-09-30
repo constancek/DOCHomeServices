@@ -5816,6 +5816,83 @@ export const posts: Post[] = [
       { q: 'Can I do a rental turnover inspection myself?', a: 'Most of it, yes. Filters, batteries, alarm tests, outlet and GFCI tests, fixture checks, and the toilet dye test are all do-it-yourself. Call a licensed pro for gas and combustion work, anything behind the panel cover, sewer camera inspections, and heating or cooling systems that don’t work.' },
     ],
   },
+{
+    slug: 'signs-boiler-needs-repair-before-winter-cincinnati',
+    title: 'Signs Your Boiler Needs Repair Before Winter in Cincinnati',
+    seoTitle: 'Signs Your Boiler Needs Repair in Cincinnati',
+    category: 'Heating',
+    excerpt:
+      'Cold radiators, dropping pressure, a dripping relief valve, kettling, leaks, and a yellow flame. The signs a boiler needs repair, and what to do before winter.',
+    date: '2026-09-30',
+    dateModified: '2026-09-30',
+    readMinutes: 9,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/boiler-repair-signs-hero.webp',
+    imageAlt: 'Hot water boiler with its circulator pump, pressure and temperature gauges, and valves in a boiler room',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Fire the boiler up now, before you need it' }, '. Cincinnati’s first freeze comes around October 25 in a typical year, and a problem found in early October is a scheduled repair, not an emergency.'],
+          [{ strong: 'Watch the pressure gauge' }, '. Most home hot water boilers should read about 12 to 15 psi cold. Pressure that keeps dropping points to a leak, and pressure climbing toward 30 psi points to the expansion tank.'],
+          [{ strong: 'A yellow flame, soot, or a CO alarm is a safety problem' }, ', not a repair to schedule. Shut the boiler off and call.'],
+          [{ strong: 'Most pre-winter boiler problems are parts' }, ': a circulator pump, an expansion tank, a valve, or a control. Boilers typically last 15 to 25 years.'],
+        ],
+      },
+      { kind: 'p', spans: ['The signs your boiler needs repair are radiators that stay cold or only warm at the bottom, a pressure gauge that reads low or keeps dropping, a relief valve that drips, banging or kettling noises, water around the boiler or a radiator valve, a boiler that short cycles or locks out, a yellow or flickering burner flame, and gas bills rising for no clear reason. The best time to find any of them is early fall, when you turn the heat on for the first time, not on the first cold night. Here is what each sign usually means, what you can check yourself, and when to call.'] },
+
+      { kind: 'h2', text: 'Test Your Boiler Before the First Cold Night in Cincinnati' },
+      { kind: 'p', spans: ['Based on NOAA’s 1991 to 2020 normals for the Cincinnati airport, the first fall freeze comes around ', { strong: 'October 25' }, ' in a typical year, and by October 12 in 1 year out of 10. A boiler that has sat all summer is when circulator pumps stick and relief valves seize. So in late September or early October, turn the thermostat up and let the boiler run for an hour. Walk the house, feel every radiator, and watch the gauge on the boiler. That hour tells you most of what is on this list.'] },
+
+      { kind: 'h2', text: 'Signs Your Boiler Needs Repair' },
+      { kind: 'h3', text: '1. Radiators Stay Cold or Only Warm at the Bottom' },
+      { kind: 'p', spans: ['A radiator that is warm at the bottom and cold at the top has trapped air. Bleeding it usually fixes that. A radiator, or a whole zone, that stays cold all the way through is different. On a hot water system it usually points to a stuck zone valve, a failing circulator pump, or a closed valve. On a steam system, a stuck radiator vent is the most common cause. If some rooms have always run cold, the problem may be the system’s balance, not a failure. See ', { link: 'why older Cincinnati homes heat unevenly', href: '/uneven-heating-older-cincinnati-homes/' }, '.'] },
+      { kind: 'h3', text: '2. The Pressure Gauge Reads Low or Keeps Dropping' },
+      { kind: 'p', spans: ['Most home hot water boilers should read about 12 to 15 psi when the system is cold. If the pressure is low, the upper floors won’t get enough hot water. If you top it up and it drops again, there is a leak somewhere, at the boiler, a valve, or a pipe, even if you can’t see water. Don’t just keep refilling it: every refill brings in fresh water with oxygen and minerals, which corrode the system from the inside.'] },
+      { kind: 'h3', text: '3. Pressure Climbs Toward 30 psi or the Relief Valve Drips' },
+      { kind: 'p', spans: ['The pressure relief valve on most home hot water boilers opens at 30 psi. If the gauge climbs close to that as the boiler heats, or water drips from the relief valve’s discharge pipe, the usual cause is a waterlogged expansion tank that can no longer absorb the water as it heats. A faulty fill valve can do it too. Never cap or plug a dripping relief valve. It is the part that keeps the boiler from becoming a pressure hazard.'] },
+      { kind: 'h3', text: '4. Banging, Gurgling, or Kettling Noises' },
+      { kind: 'p', spans: ['Gurgling usually means air in the system. Kettling, a rumbling or boiling sound like a tea kettle, usually means mineral scale has built up inside the heat exchanger and water is flash-boiling against the hot spots, or that water isn’t moving through the boiler fast enough. On a steam system, banging in the pipes is often water collecting where a pipe has lost its pitch. None of these fixes themselves, and kettling in particular gets worse and shortens the boiler’s life.'] },
+      { kind: 'h3', text: '5. Water Around the Boiler or a Radiator Valve' },
+      { kind: 'p', spans: ['A puddle under the boiler, rust stains on the floor, or damp around a radiator valve are all worth a call before winter. A leaking valve packing or fitting is a small repair. Water coming from the boiler itself, especially from between the sections of a cast iron boiler or from the heat exchanger, is often the sign that replacement is on the way.'] },
+      { kind: 'h3', text: '6. Short Cycling, Lockouts, or Error Codes' },
+      { kind: 'p', spans: ['A boiler that fires, shuts off after a minute or two, and fires again, or one that locks out and needs resetting, has a reason. Common causes include low water, a faulty thermostat or control, a dirty flame sensor, a blocked vent or condensate line on a high-efficiency boiler, or a boiler that is oversized for the house. If the boiler shows an error code, write it down before you call.'] },
+      { kind: 'h3', text: '7. A Yellow Flame, Soot, or a CO Alarm' },
+      { kind: 'p', spans: ['A healthy gas burner burns a steady blue. A yellow, orange, or lifting flame, soot around the burner or vent, or a sharp smell when the boiler runs all point to poor combustion, which can produce carbon monoxide. Shut the boiler off and call a technician. If a CO alarm sounds, get everyone outside and call 911 or your gas company from outside first. The ', { link: 'U.S. Consumer Product Safety Commission', href: 'https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center' }, ' recommends a working CO alarm on every level of the home.'] },
+      { kind: 'h3', text: '8. Gas Bills Rising With No Change in Use' },
+      { kind: 'p', spans: ['Compare this winter’s bills with the same months last year, allowing for how cold each winter was. A steady rise usually means the boiler is burning less efficiently, from a dirty burner, scale on the heat exchanger, or controls that let it run longer than it should. A service visit with a combustion test usually finds it.'] },
+      { kind: 'h3', text: '9. On a Steam Boiler: Low Water or Constant Refilling' },
+      { kind: 'p', spans: ['Check the water level in the sight glass. It should sit about halfway. If it is low, surging up and down, or the boiler’s automatic feeder keeps adding water, the system is losing water or steam somewhere, often from a leaking return line or a failed vent. A steam boiler that keeps adding fresh water corrodes much faster.'] },
+
+      { kind: 'h2', text: 'What You Can Check Yourself' },
+      { kind: 'p', spans: ['Some of this is yours to handle. Bleed radiators that are cold at the top, note the pressure reading cold and hot, look for water around the boiler and radiator valves, keep the area around the boiler clear, and test your CO alarms. Anything involving the burner, gas valve, relief valve, expansion tank, or controls should go to a licensed technician. Our guide to ', { link: 'annual boiler maintenance', href: '/annual-boiler-maintenance/' }, ' covers what a proper service checks.'] },
+
+      { kind: 'h2', text: 'When to Call a Cincinnati Boiler Technician Right Away' },
+      { kind: 'p', spans: ['Don’t wait for a convenient day if the relief valve is discharging water, the pressure is near 30 psi, you smell gas, the flame is yellow or you see soot, a CO alarm has sounded, water is pooling around the boiler, or the house has no heat in cold weather. For a gas smell or a CO alarm, leave the house first and call 911 or your gas company from outside.'] },
+
+      { kind: 'h2', text: 'Repair or Replace a Cincinnati Boiler?' },
+      { kind: 'p', spans: ['Our view: don’t replace a boiler for a problem that is a part. Most of the signs above, low pressure, a dripping relief valve, a noisy or failed circulator, a stuck zone valve, a bad control, trace back to parts that can be replaced in one visit, and a well-kept boiler typically lasts 15 to 25 years. Replacement is worth pricing when the boiler itself is leaking, the heat exchanger or cast iron sections are cracked, it is past that age range, or repair bills keep stacking up. The ', { link: 'U.S. Department of Energy', href: 'https://www.energy.gov/energysaver/furnaces-and-boilers' }, ' notes that for a boiler that is old, worn out, or badly oversized, replacing it with a high-efficiency model is often the simplest fix. If you are weighing a different system altogether, see ', { link: 'boiler vs. furnace for Cincinnati homes', href: '/boiler-vs-furnace-cincinnati/' }, '.'] },
+
+      { kind: 'h2', text: 'Landlords: Shared Boilers and Cincinnati’s Heat Rule' },
+      { kind: 'p', spans: ['Many older Cincinnati apartment buildings heat every unit from one boiler, so one failure leaves the whole building cold. In units where tenants don’t control their own heat, Cincinnati requires the inside to stay at 70°F or warmer once the outdoor temperature stays below 60°F for 24 hours, with fines of $300 for the first day and $750 for each day after. A pre-season check on a shared boiler is far cheaper than a January outage. Our ', { link: 'landlord guide for when a tenant has no heat', href: '/tenant-has-no-heat-cincinnati-landlord-guide/' }, ' covers what to do if it fails anyway.'] },
+
+      { kind: 'h2', text: 'When You Don’t Need a Technician' },
+      { kind: 'p', spans: ['If bleeding a radiator brought the heat back to the top, the pressure holds steady at 12 to 15 psi cold, there is no water around the boiler, and the flame is blue, you probably don’t need us this week. Book the annual service if it is due, and keep an eye on the gauge through the winter.'] },
+
+      { kind: 'h2', text: 'Boiler Repair in Cincinnati' },
+      { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'boiler repair, maintenance, and replacement', href: '/services/boilers/' }, ' for hot water and steam boilers across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We find the cause, tell you whether it is a part or the boiler, and give you the price before we start. We are family-owned, licensed and insured, with upfront, flat-rate pricing and 24/7 no-heat service. For more on how boilers work, see ', { link: 'what you should know about boilers', href: '/what-you-should-know-about-boilers/' }, '.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'] },
+    ],
+    faqs: [
+      { q: 'What are the signs a boiler needs repair?', a: 'Radiators that stay cold or only warm at the bottom, low or dropping pressure, a dripping relief valve, banging or kettling noises, water around the boiler, short cycling or lockouts, a yellow or flickering flame, and gas bills rising without a change in use.' },
+      { q: 'What should my boiler pressure be?', a: 'Most home hot water boilers should read about 12 to 15 psi when the system is cold, rising somewhat as it heats. The relief valve usually opens at 30 psi. A home steam boiler runs much lower, at about 2 psi or less.' },
+      { q: 'Why does my boiler keep losing pressure?', a: 'Usually a leak at the boiler, a valve, a radiator, or a pipe, sometimes too small to see. A faulty relief valve or expansion tank can cause it too. Refilling it repeatedly brings in fresh water that corrodes the system, so have the leak found.' },
+      { q: 'Why is my boiler relief valve dripping?', a: 'Most often because the expansion tank is waterlogged and can’t absorb the water as it heats, so pressure climbs toward 30 psi and the relief valve opens. A faulty fill valve or a worn relief valve can also cause it. Never cap a dripping relief valve.' },
+      { q: 'What does kettling mean on a boiler?', a: 'A rumbling or boiling sound, like a tea kettle, usually caused by mineral scale on the heat exchanger or poor water flow through the boiler. It gets worse over time and shortens the boiler’s life, so it should be looked at.' },
+      { q: 'When should I test my boiler before winter?', a: 'In late September or early October. Cincinnati’s first freeze comes around October 25 in a typical year and by October 12 in 1 year out of 10. Run the boiler for an hour, check every radiator, and watch the pressure gauge.' },
+      { q: 'Should I repair or replace my boiler?', a: 'Repair it if the problem is a part, like a circulator pump, expansion tank, valve, or control, and the boiler itself is sound. Consider replacement if the boiler is leaking, the heat exchanger or sections are cracked, it is past 15 to 25 years, or repairs keep adding up.' },
+    ],
+  },
 ];
 
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);
