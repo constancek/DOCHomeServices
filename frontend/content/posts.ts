@@ -5262,6 +5262,165 @@ export const posts: Post[] = [
       { q: 'Can I fix furnace short cycling myself?', a: 'Sometimes. Replacing the filter, changing thermostat batteries, opening vents, and clearing snow from the outdoor vent pipes fix many cases. If it keeps short cycling after that, or locks out, call a licensed technician.' },
     ],
   },
+{
+    slug: 'do-heat-pumps-work-in-cincinnati-winters',
+    title: 'Do Heat Pumps Work in Cincinnati Winters?',
+    category: 'Heating',
+    excerpt:
+      'Yes. Cincinnati averages a January low of 23.1°F, well within a modern heat pump’s range. What happens on the coldest nights, and when dual fuel makes sense.',
+    date: '2026-09-30',
+    dateModified: '2026-09-30',
+    readMinutes: 10,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/heat-pumps-cincinnati-winters-hero.webp',
+    imageAlt: 'HVAC technician inspecting an outdoor heat pump unit beside a house in late fall',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Yes, heat pumps work in Cincinnati winters' }, '. January here averages a low of 23.1°F and a high of 39.6°F, and a modern heat pump heats efficiently through most of that.'],
+          [{ strong: 'The truly cold nights are few' }, ': an average of 9.5 nights a year at or below 10°F, and 2.5 at or below 0°F, based on NOAA’s 1991 to 2020 normals.'],
+          [{ strong: 'Buy a cold-climate model or pair it with a gas furnace' }, '. ENERGY STAR cold-climate heat pumps keep at least 70% of their heating capacity at 5°F.'],
+          [{ strong: 'Size it for heating, not cooling' }, '. Cincinnati needs roughly four times as much heating as cooling in a typical year.'],
+        ],
+      },
+      { kind: 'p', spans: ['Yes, heat pumps work in Cincinnati winters. Our winters are cold but not extreme: January, the coldest month, averages a low of ', { strong: '23.1°F' }, ' and a high of ', { strong: '39.6°F' }, ' at the airport, and a modern heat pump heats efficiently well below freezing. The question isn’t whether a heat pump works here. It’s what handles the handful of nights that drop toward zero. A cold-climate heat pump can carry most homes through them on its own, and a heat pump paired with a gas furnace, called dual fuel, hands those nights to the furnace. Here are the numbers, and how to choose.'] },
+
+      { kind: 'h2', text: 'How Cold Cincinnati Winters Actually Get' },
+      { kind: 'p', spans: ['Heat pumps got their bad reputation from older models on the coldest days, so start with how many cold days we actually have. These are the ', { link: 'National Weather Service', href: 'https://www.weather.gov/iln/climate_normals_cvg' }, ' 1991 to 2020 normals for the Cincinnati/Northern Kentucky airport:'] },
+      { kind: 'p', spans: [{ strong: 'December:' }, ' average low 27.9°F, average high 43.3°F.'] },
+      { kind: 'p', spans: [{ strong: 'January:' }, ' average low 23.1°F, average high 39.6°F.'] },
+      { kind: 'p', spans: [{ strong: 'February:' }, ' average low 25.8°F, average high 43.7°F.'] },
+      { kind: 'p', spans: [{ strong: 'Nights at or below freezing:' }, ' 99.8 a year on average.'] },
+      { kind: 'p', spans: [{ strong: 'Nights at or below 10°F:' }, ' 9.5 a year. Nights at or below 0°F: 2.5 a year.'] },
+      { kind: 'p', spans: ['So a Cincinnati winter is mostly days in the 20s, 30s, and 40s. Nights near zero do happen, but they come a few times a year, usually for a few hours before sunrise. That is the range a heat pump has to cover.'] },
+
+      { kind: 'h2', text: 'How a Heat Pump Makes Heat When It’s Cold Outside' },
+      { kind: 'p', spans: ['A heat pump doesn’t burn anything. It uses refrigerant to pull heat out of the outdoor air and move it inside, the same way your air conditioner moves heat out of the house in summer, just in reverse. Even 20°F air holds a lot of heat. The heat pump just has to work harder to collect it.'] },
+      { kind: 'p', spans: ['That is why efficiency drops as it gets colder. Efficiency is measured as COP, the heat delivered for each unit of electricity used. A heat pump on a mild 47°F day often delivers 3 or more units of heat for every unit of electricity. Electric resistance heat, like baseboard heaters or the heat strips in an old electric furnace, delivers exactly 1. As the temperature falls, the heat pump’s COP falls and it puts out less total heat. The ', { link: 'U.S. Department of Energy', href: 'https://www.energy.gov/energysaver/heat-pump-systems' }, ' covers how modern air-source heat pumps have become a practical heating option in colder climates.'] },
+
+      { kind: 'h2', text: 'Standard vs. Cold-Climate Heat Pumps' },
+      { kind: 'p', spans: ['This is the difference that matters most. A standard heat pump works well into the 30s and 20s but loses a large share of its output as the temperature heads toward single digits. A ', { strong: 'cold-climate heat pump' }, ' uses a variable-speed compressor that ramps up as it gets colder. To earn ', { link: 'ENERGY STAR’s cold-climate label', href: 'https://www.energystar.gov/products/air_source_heat_pumps' }, ', a heat pump has to keep at least ', { strong: '70% of its heating capacity at 5°F' }, ' and still reach a COP of at least 1.75 at that temperature. In other words, on one of our coldest nights, it still makes 1.75 times as much heat per unit of electricity as baseboard heat.'] },
+      { kind: 'p', spans: ['If you are putting in a heat pump as your only heat source in Cincinnati, buy a cold-climate model. If it will share the work with a gas furnace, a standard high-efficiency heat pump is usually enough.'] },
+
+      { kind: 'h2', text: 'What Happens on the Coldest Cincinnati Nights' },
+      { kind: 'p', spans: ['Every heat pump has a ', { strong: 'balance point' }, ': the outdoor temperature where the house loses heat as fast as the heat pump can make it. Below that, something has to add heat. There are two ways to do it:'] },
+      { kind: 'p', spans: [{ strong: 'Auxiliary heat strips.' }, ' Electric heating elements in the indoor unit switch on automatically to top up the heat pump. They work, but they are resistance heat, so they cost more to run. On a well-sized cold-climate system in Cincinnati, they should only run a few nights a year.'] },
+      { kind: 'p', spans: [{ strong: 'A gas furnace.' }, ' In a dual fuel system, the thermostat switches from the heat pump to the furnace below a set outdoor temperature, then back again when it warms up.'] },
+      { kind: 'p', spans: ['One setting to know: ', { strong: 'emergency heat' }, ' on your thermostat turns the heat pump off and runs only the backup. It is meant for when the heat pump has failed, not for cold nights. Leaving it on is one of the most common reasons for a surprise electric bill.'] },
+
+      { kind: 'h2', text: 'Dual Fuel vs. All-Electric in Cincinnati' },
+      { kind: 'p', spans: ['If your home already has a gas line and a furnace in decent shape, our view is that dual fuel is the better setup for most Cincinnati homes. The heat pump handles the bulk of the winter, including most of the 99.8 nights a year at or below freezing, and the furnace takes the 9.5 nights at or below 10°F without leaning on expensive heat strips. You get lower heating costs most of the season, and you still have gas heat on the coldest night of the year.'] },
+      { kind: 'p', spans: ['All-electric with a cold-climate heat pump makes more sense if you don’t have gas, you are replacing an electric furnace or baseboard heat, or you want to drop the gas bill entirely. For homes heating with electric resistance now, a heat pump is the biggest heating upgrade you can make. For more on how the two systems split the work, see ', { link: 'air conditioner vs. heat pump', href: '/air-conditioner-vs-heat-pump/' }, '.'] },
+
+      { kind: 'h2', text: 'What a Heat Pump Feels Like in Winter' },
+      { kind: 'p', spans: ['A few things surprise people in their first Cincinnati winter with a heat pump. None of them are problems.'] },
+      { kind: 'p', spans: [{ strong: 'The air feels cooler at the vent.' }, ' Air from a heat pump usually comes out around 90 to 100°F, compared with 120°F or more from a gas furnace. It is still warmer than your body and still heats the room. It just doesn’t feel hot on your hand.'] },
+      { kind: 'p', spans: [{ strong: 'It runs longer.' }, ' A heat pump heats with long, steady cycles instead of short hot blasts. That is normal and efficient, and it keeps the temperature more even.'] },
+      { kind: 'p', spans: [{ strong: 'Steam from the outdoor unit.' }, ' In damp weather near freezing, which is common here, frost builds on the outdoor coil. The heat pump runs a defrost cycle for a few minutes to clear it, and the melting frost can look like smoke. If the unit is encased in ice and stays that way, call us. A light frost that comes and goes is normal.'] },
+
+      { kind: 'h2', text: 'Sizing a Heat Pump for Cincinnati Winters' },
+      { kind: 'p', spans: ['In a typical year, Cincinnati racks up 4,892.3 heating degree days and 1,159.6 cooling degree days, so the house needs roughly four times as much heating as cooling. That matters, because a heat pump sized to replace your old air conditioner can come up short in January. It should be sized from a room-by-room load calculation that accounts for your insulation, windows, and ductwork, and checked against how much heat it delivers at 17°F and 5°F, not just at 47°F. Our post on ', { link: 'whether a heat pump can heat a whole house', href: '/can-a-heat-pump-heat-a-whole-house/' }, ' covers the sizing and installation side in more detail.'] },
+
+      { kind: 'h2', text: 'When a Heat Pump Isn’t the Right Call' },
+      { kind: 'p', spans: ['We install heat pumps, and we still tell people to wait sometimes. If your furnace and air conditioner are both under 10 years old and working, replacing them just to get a heat pump rarely pays back. Plan for one when the air conditioner needs replacing, and add it as dual fuel with your existing furnace. If your house is drafty and under-insulated, fix that first. It lowers the size of heat pump you need and the bills that come with it. And if you want a system that feels hot at the vent, a gas furnace will make you happier.'] },
+
+      { kind: 'h2', text: 'Rebates and Tax Credits in 2026' },
+      { kind: 'p', spans: ['The federal tax credit for qualifying heat pumps ended with systems placed in service by December 31, 2025, so it doesn’t apply to a 2026 install. Duke Energy’s Smart $aver program for Ohio homes has offered rebates on qualifying heat pumps, but programs and amounts change, so check Duke’s current list before you buy. Our post on ', { link: 'what a new furnace costs in Cincinnati', href: '/how-much-does-a-new-furnace-cost/' }, ' covers the 2026 changes in more detail.'] },
+
+      { kind: 'h2', text: 'Get a Heat Pump Sized for Cincinnati Winters' },
+      { kind: 'p', spans: ['Degree of Comfort designs and installs ', { link: 'heat pumps and dual fuel systems', href: '/services/heat-pumps/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We size every system with a load calculation, show you how it performs at 5°F, and tell you plainly if dual fuel or keeping your current system makes more sense. We are family-owned, licensed and insured, with upfront, flat-rate pricing.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'] },
+    ],
+    faqs: [
+      { q: 'Do heat pumps work in Cincinnati winters?', a: 'Yes. January in Cincinnati averages a low of 23.1°F and a high of 39.6°F, and a modern heat pump heats efficiently through most of that. For the few nights near zero, a cold-climate heat pump or a gas furnace backup covers the gap.' },
+      { q: 'At what temperature does a heat pump stop working?', a: 'It doesn’t stop at a set temperature, but its output and efficiency drop as it gets colder. Standard heat pumps lose a lot of capacity in the single digits. ENERGY STAR cold-climate models keep at least 70% of their heating capacity at 5°F, and many keep running well below zero.' },
+      { q: 'How often does Cincinnati get cold enough to matter for a heat pump?', a: 'Not often. Based on NOAA’s 1991 to 2020 normals for the Cincinnati airport, there are an average of 9.5 nights a year at or below 10°F and 2.5 nights at or below 0°F.' },
+      { q: 'Do I need backup heat with a heat pump in Cincinnati?', a: 'Most homes should have it. That can be electric auxiliary heat strips or a gas furnace in a dual fuel system. With a well-sized cold-climate heat pump, the backup should only run a few nights a year.' },
+      { q: 'Is dual fuel better than an all-electric heat pump in Cincinnati?', a: 'For homes that already have gas and a working furnace, usually yes. The heat pump handles most of the winter efficiently and the furnace takes the coldest nights. All-electric makes more sense for homes without gas or homes replacing electric resistance heat.' },
+      { q: 'Why does air from my heat pump feel cool?', a: 'Heat pump air usually comes out around 90 to 100°F, cooler than the 120°F or more from a gas furnace. It still heats the room. It runs longer, steadier cycles instead of short hot blasts.' },
+      { q: 'Why is my heat pump steaming in winter?', a: 'It is most likely running a defrost cycle, which melts frost off the outdoor coil for a few minutes. That is normal in damp weather near freezing. If the unit stays covered in thick ice, call a technician.' },
+      { q: 'Is there a tax credit for heat pumps in 2026?', a: 'No. The federal tax credit ended with systems placed in service by December 31, 2025. Duke Energy’s Smart $aver program has offered rebates on qualifying heat pumps for Ohio homes, so check its current list before you buy.' },
+    ],
+  },
+{
+    slug: 'lower-duke-energy-heating-bill-cincinnati',
+    title: 'How to Lower Your Duke Energy Heating Bill in Cincinnati This Winter',
+    seoTitle: 'Lower Your Duke Energy Heating Bill in Cincinnati',
+    category: 'Heating',
+    excerpt:
+      'Turn the thermostat back, seal the attic, compare your gas price, and use Duke’s free programs. What each step saves on a Cincinnati heating bill this winter.',
+    date: '2026-09-30',
+    dateModified: '2026-09-30',
+    readMinutes: 10,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/lower-heating-bill-cincinnati-hero.webp',
+    imageAlt: 'Row of residential natural gas meters mounted on an outside wall',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Turn the thermostat back 7 to 10°F for 8 hours a day' }, '. The U.S. Department of Energy puts the savings at up to 10% a year on heating and cooling.'],
+          [{ strong: 'Seal air leaks and insulate the attic' }, '. ENERGY STAR estimates an average of 15% off heating and cooling costs.'],
+          [{ strong: 'Check your gas price' }, '. Since April 1, 2026, Duke Energy Ohio’s default gas price changes every month with the market. You can compare it to fixed offers on the state’s Energy Choice Ohio site.'],
+          [{ strong: 'Use the free help first' }, ': Duke’s Budget Billing, its free Home Energy House Call, and Ohio’s HEAP and Winter Crisis Program if you qualify.'],
+        ],
+      },
+      { kind: 'p', spans: ['The fastest ways to lower your Duke Energy heating bill in Cincinnati are to turn the thermostat back while you sleep or are away, replace a dirty furnace filter, and seal the air leaks in your attic and basement. The first costs nothing, the second costs a few dollars, and the third is the biggest long-term saving most homes can make. Beyond that, check what you pay for the gas itself, since Duke Energy Ohio changed how it prices natural gas in 2026, and use the free programs Duke and the state offer. Here is what each step is worth, starting with the ones that cost nothing.'] },
+
+      { kind: 'h2', text: 'Why Cincinnati Heating Bills Peak in January' },
+      { kind: 'p', spans: ['Heating need is measured in heating degree days: the colder the day, the more it counts. Based on NOAA’s 1991 to 2020 normals for the Cincinnati airport, a typical year has 4,892.3 heating degree days, and January alone accounts for 1,042.8 of them. December adds 911.4 and February 846.9. In other words, those three months are where your heating bill is made. Every step below saves the most if it is done before December.'] },
+
+      { kind: 'h2', text: 'Free Ways to Cut Your Heating Bill Today' },
+      { kind: 'h3', text: 'Turn the Thermostat Back at Night and While You’re Out' },
+      { kind: 'p', spans: ['The ', { link: 'U.S. Department of Energy', href: 'https://www.energy.gov/energysaver/programmable-thermostats' }, ' estimates you can save as much as 10% a year on heating and cooling by turning the thermostat back 7 to 10°F for 8 hours a day. A house that sits cooler loses heat more slowly, so the furnace burns less gas overall, even counting the time it takes to warm back up. A setting around 68°F while you are home and 60 to 62°F overnight is a common place to start. A programmable or ', { link: 'smart thermostat', href: '/how-smart-thermostats-save-money-and-improve-comfort/' }, ' does it for you.'] },
+      { kind: 'p', spans: ['One exception: if you heat with a heat pump, keep setbacks small, around 2 to 3°F. A big setback can make the heat pump call for its electric backup heat to catch up in the morning, and that costs more than it saves. Our post on ', { link: 'heat pumps in Cincinnati winters', href: '/do-heat-pumps-work-in-cincinnati-winters/' }, ' explains why.'] },
+      { kind: 'h3', text: 'Let the Sun In, Then Close the Curtains' },
+      { kind: 'p', spans: ['Open south-facing curtains on sunny days and close all of them at dusk. It is free heat in the afternoon and one less cold pane of glass at night.'] },
+      { kind: 'h3', text: 'Keep Vents and Returns Clear' },
+      { kind: 'p', spans: ['Furniture over a register or a rug over a return grille makes the furnace work harder to move the same air. Clear them, and leave vents open even in rooms you don’t use. Closing vents doesn’t save money on most forced-air systems. It raises the pressure in the ducts and can make the furnace overheat and short cycle.'] },
+      { kind: 'h3', text: 'Turn the Water Heater Down to 120°F' },
+      { kind: 'p', spans: ['Water heating is often the second-biggest energy use in a home after heating. Some manufacturers set water heaters to 140°F at the factory. The Department of Energy recommends 120°F for most households, which is hot enough for showers and dishes and cuts standby losses.'] },
+
+      { kind: 'h2', text: 'Low-Cost Fixes That Pay Back in One Winter' },
+      { kind: 'h3', text: 'Replace the Furnace Filter' },
+      { kind: 'p', spans: ['A clogged filter forces the blower to work harder and can make the furnace overheat and shut itself down early. Check it monthly through the winter and change it at least every 3 months. Our guide to ', { link: 'how often to change your furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, ' covers which kind to buy.'] },
+      { kind: 'h3', text: 'Seal the Obvious Air Leaks' },
+      { kind: 'p', spans: ['Weatherstrip doors you can see daylight around, caulk gaps around window trim, and put foam gaskets behind outlet covers on outside walls. In the basement, the rim joist, where the house sits on the foundation, is one of the leakiest spots in older Cincinnati homes, and it can be sealed with caulk or spray foam in an afternoon.'] },
+      { kind: 'h3', text: 'Reverse Your Ceiling Fans' },
+      { kind: 'p', spans: ['Set ceiling fans to spin clockwise on low. It pushes warm air that collects near the ceiling back down without making a draft, which helps most in rooms with high ceilings.'] },
+
+      { kind: 'h2', text: 'Bigger Upgrades Worth Planning in Cincinnati' },
+      { kind: 'p', spans: ['Our view is simple: seal and insulate before you spend money on new equipment. ', { link: 'ENERGY STAR', href: 'https://www.energystar.gov/saveathome/seal_insulate/why-seal-and-insulate' }, ' estimates homeowners save an average of 15% on heating and cooling costs, or 11% on total energy costs, by air sealing and adding insulation in attics, floors over crawl spaces, and basements. That saving applies to whatever furnace you have, and a tighter house can often get by with a smaller, less expensive system when it is time to replace it.'] },
+      { kind: 'p', spans: ['After that, the equipment matters. A yearly ', { link: 'furnace tune-up', href: '/what-is-included-in-a-furnace-tune-up/' }, ' keeps the burner adjusted and the heat exchanger clean. If your furnace is older and in the 80% efficiency range, a 95% or higher model turns more of each dollar of gas into heat. That is a replacement decision, though, not a bill-cutting trick, and it only makes sense when the old furnace is near the end of its 15 to 20 years.'] },
+
+      { kind: 'h2', text: 'Check What You Pay for Gas in Cincinnati' },
+      { kind: 'p', spans: ['Your Duke Energy gas bill has two parts: delivery, which Duke always handles, and the gas itself, which you can buy from Duke or from a competing supplier. On April 1, 2026, Duke Energy Ohio replaced its old gas cost recovery charge with a ', { strong: 'standard service offer' }, '. The price is set through an auction overseen by the Public Utilities Commission of Ohio: each month, it is the market price for natural gas futures plus a fixed $4.00 per dekatherm. That means it moves with the market, and winter months are often the most expensive.'] },
+      { kind: 'p', spans: ['If you would rather lock in a price, you can compare Duke’s current rate with fixed-rate offers on the state’s ', { link: 'Energy Choice Ohio', href: 'https://energychoice.ohio.gov/ApplesToApplesComparision.aspx?Category=NaturalGas&TerritoryId=10&RateCode=1' }, ' comparison chart. Read the terms before you sign. Look at the contract length, the early termination fee, and what the price becomes when the contract ends. A low introductory rate that rolls into a high variable one can cost more than staying with Duke.'] },
+
+      { kind: 'h2', text: 'Free Help From Duke Energy and the State of Ohio' },
+      { kind: 'p', spans: [{ strong: 'Budget Billing.' }, ' Duke averages your bills over 12 months so January doesn’t land all at once. It doesn’t lower what you use, but it takes the spike out of winter.'] },
+      { kind: 'p', spans: [{ strong: 'Home Energy House Call.' }, ' A free in-home energy assessment from Duke for eligible customers, with a report on where your house is losing energy and a kit of basic efficiency products. It has been open to homes with electric heat, an electric water heater, or central air.'] },
+      { kind: 'p', spans: [{ strong: 'Smart $aver rebates.' }, ' Duke’s rebate program for Ohio homes has covered equipment like heat pumps, central air, and smart thermostats. Programs change, so check the current list before you buy.'] },
+      { kind: 'p', spans: [{ strong: 'HEAP and the Winter Crisis Program.' }, ' Ohio’s Home Energy Assistance Program helps eligible households with heating costs, and the Winter Crisis Program runs from November 1 to March 31 for households facing a disconnection. In Hamilton County, applications go through the Cincinnati-Hamilton County Community Action Agency.'] },
+
+      { kind: 'h2', text: 'When You Don’t Need a Contractor' },
+      { kind: 'p', spans: ['Most of this list is yours to do. The thermostat, the filter, the curtains, the fans, the water heater setting, weatherstripping, and shopping for a gas price don’t need us, and together they are where most of the savings are. Call a contractor when the furnace itself is the problem: it short cycles, runs constantly without keeping up, or hasn’t been serviced in years. If your furnace turns on and off every few minutes, our guide to ', { link: 'furnace short cycling', href: '/furnace-short-cycling-cincinnati/' }, ' walks through the causes.'] },
+
+      { kind: 'h2', text: 'Get Your Furnace Ready for a Cincinnati Winter' },
+      { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ', repair, and replacement across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. A tune-up before December is the one professional step on this list, and it keeps the furnace burning clean through the three months that make up most of your bill. We are family-owned, licensed and insured, with upfront, flat-rate pricing.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'] },
+    ],
+    faqs: [
+      { q: 'How can I lower my Duke Energy heating bill?', a: 'Turn the thermostat back 7 to 10°F for 8 hours a day, replace a dirty furnace filter, seal air leaks and insulate the attic, set the water heater to 120°F, and compare your gas price with fixed-rate offers on Energy Choice Ohio. Duke’s Budget Billing spreads the winter cost over the year.' },
+      { q: 'What temperature should I set my thermostat in winter to save money?', a: 'Around 68°F while you are home and awake, and 7 to 10°F lower overnight or while you are out. The Department of Energy estimates that setback saves up to 10% a year on heating and cooling. Heat pump homes should keep setbacks to 2 to 3°F.' },
+      { q: 'Why is my Duke Energy gas bill higher in winter?', a: 'You use more gas when it is colder, and January is Cincinnati’s coldest month, with 1,042.8 of the year’s 4,892.3 heating degree days. Since April 1, 2026, Duke Energy Ohio’s default gas price also changes monthly with the market, and winter prices are often higher.' },
+      { q: 'What is Duke Energy Ohio’s standard service offer for gas?', a: 'It is the default price for natural gas that replaced the gas cost recovery charge on April 1, 2026. It is set through an auction overseen by the PUCO and equals the monthly market price for natural gas futures plus a fixed $4.00 per dekatherm.' },
+      { q: 'Should I switch natural gas suppliers in Cincinnati?', a: 'It can save money if you find a fixed rate below what Duke charges and the terms are fair. Compare offers on the PUCO’s Energy Choice Ohio chart, and check the contract length, cancellation fee, and what happens when the contract ends before you sign.' },
+      { q: 'Does Duke Energy offer Budget Billing?', a: 'Yes. Budget Billing averages your bills over 12 months so winter bills don’t arrive all at once. It evens out what you pay each month, but it doesn’t reduce how much energy you use.' },
+      { q: 'Is there help paying my heating bill in Ohio?', a: 'Yes. Ohio’s Home Energy Assistance Program (HEAP) helps eligible households with heating costs, and the Winter Crisis Program runs from November 1 to March 31 for households facing disconnection. In Hamilton County, apply through the Cincinnati-Hamilton County Community Action Agency.' },
+    ],
+  },
 ];
 
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);
