@@ -5101,6 +5101,167 @@ export const posts: Post[] = [
       { q: 'Does a boiler or a furnace last longer?', a: 'A boiler, usually. Boilers typically last 15 to 25 years with regular service, and furnaces 15 to 20 years.' },
     ],
   },
+{
+    slug: 'annual-boiler-maintenance',
+    title: 'Annual Boiler Maintenance in Cincinnati: What’s Included and Why It Matters',
+    seoTitle: 'Annual Boiler Maintenance in Cincinnati',
+    category: 'Heating',
+    excerpt:
+      'What annual boiler maintenance covers in Cincinnati: safety controls, the burner, water pressure, and venting. Plus what you can do, and when to skip it.',
+    date: '2026-09-30',
+    dateModified: '2026-09-30',
+    readMinutes: 9,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/annual-boiler-maintenance-hero.webp',
+    imageAlt: 'Technician in work gloves checking the circulator pump on a home boiler, with the pressure gauge in view',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Annual boiler maintenance is a safety test, a cleaning, and a performance check' }, ' of the burner, the water side, and the venting. Plan on 60 to 90 minutes.'],
+          [{ strong: 'The safety checks are the reason to do it' }, ': the relief valve, the high limit, the low-water cutoff, and a carbon monoxide test. None of them show a problem until the day they fail.'],
+          [{ strong: 'In Ohio, nobody else inspects a home boiler' }, '. The state exempts private homes and buildings under six units, so the annual service is the only check it gets.'],
+          [{ strong: 'Book it in September or October' }, ', before the first cold night, and check the pressure gauge yourself between visits.'],
+        ],
+      },
+      { kind: 'p', spans: ['Annual boiler maintenance is a once-a-year visit where a technician tests the boiler’s safety controls, cleans and adjusts the burner, checks the water pressure and the parts that move the water, and confirms the venting carries combustion gases outside. A typical visit takes ', { strong: '60 to 90 minutes' }, '. It matters because the parts that keep a boiler safe, like the pressure relief valve and the low-water cutoff, give no warning before they fail, and in Ohio there is no inspector coming to check a home boiler for you. Here is what the visit covers, how it changes for steam, and what you can handle yourself.'] },
+
+      { kind: 'h2', text: 'What’s Included in Annual Boiler Maintenance' },
+      { kind: 'p', spans: ['A proper service works through four areas. If a visit skips any of them, it was a look, not a service.'] },
+      { kind: 'h3', text: 'Safety Controls' },
+      { kind: 'p', spans: ['These come first. The technician checks the ', { strong: 'pressure relief valve' }, ', which opens if pressure climbs too high, usually at 30 psi on a home hot water boiler. They test the ', { strong: 'high limit' }, ', which shuts the burner off before the water overheats, and the ', { strong: 'low-water cutoff' }, ', which stops the burner if the water level drops. A boiler that fires with too little water can crack its heat exchanger in minutes. A relief valve that has seized shut is how a boiler turns into a pressure problem.'] },
+      { kind: 'h3', text: 'Burner, Combustion, and Gas Connections' },
+      { kind: 'p', spans: ['The technician cleans the burner, checks the igniter and flame sensor, and inspects the heat exchanger for cracks, soot, and corrosion. Then they run a combustion analysis, which measures what is actually coming out of the flue, including carbon monoxide, and adjusts the burner so it burns clean. ', { link: 'ENERGY STAR', href: 'https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist' }, ' lists the gas connections, gas pressure, burner combustion, and heat exchanger as the core checks for a gas boiler, because a dirty burner or a cracked heat exchanger makes the boiler run less safely and less efficiently.'] },
+      { kind: 'h3', text: 'The Water Side' },
+      { kind: 'p', spans: ['This is the part a furnace doesn’t have. The technician reads the system pressure, which on most home hot water boilers should sit around 12 to 15 psi when the system is cold. They check the ', { strong: 'expansion tank' }, ', which absorbs the extra volume as the water heats. A waterlogged expansion tank is one of the most common reasons a relief valve starts dripping. They also test the ', { strong: 'circulator pump' }, ', check the zone valves if the house has more than one zone, look for leaks and corrosion at the valves and fittings, and bleed trapped air from the radiators so they heat all the way to the top.'] },
+      { kind: 'h3', text: 'Venting and Condensate' },
+      { kind: 'p', spans: ['The flue or vent pipe has to be clear, sealed, and pitched correctly, so combustion gases leave the house instead of spilling back into the basement. On a high-efficiency condensing boiler, the technician also cleans the condensate trap and checks the neutralizer. A clogged trap can shut the boiler down on a cold night, and it is a five-minute fix during a service visit.'] },
+
+      { kind: 'h2', text: 'Hot Water vs. Steam Boilers in Cincinnati Homes' },
+      { kind: 'p', spans: ['Most of the list above applies to both, but a steam boiler has its own checks. Steam is common in older Cincinnati homes, especially the late-1800s and early-1900s houses in neighborhoods like Clifton, Northside, and Walnut Hills. On a steam system, the technician checks the water level in the sight glass, flushes and tests the low-water cutoff, and confirms the pressure control is set low. A home steam system should run at about 2 psi or less. Higher pressure doesn’t heat the house faster. It wastes fuel and makes the pipes bang. They also check the main vents and radiator vents, since a stuck vent is the usual reason one radiator stays cold while the rest of the house is warm.'] },
+      { kind: 'p', spans: ['If you are not sure which kind you have, look at the gauge on the boiler. A hot water boiler has a pressure and temperature gauge reading in the teens or twenties. A steam boiler has a glass tube showing the water level. For more on how each kind works, see ', { link: 'what you should know about boilers', href: '/what-you-should-know-about-boilers/' }, '.'] },
+
+      { kind: 'h2', text: 'Why Annual Boiler Maintenance Matters in Cincinnati' },
+      { kind: 'p', spans: [{ strong: 'Safety.' }, ' A gas boiler burns fuel in your basement all winter. A cracked heat exchanger or a blocked vent can put carbon monoxide into the house, and you can’t see or smell it. The ', { link: 'U.S. Consumer Product Safety Commission', href: 'https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center' }, ' recommends having heating systems inspected by a qualified technician every year for this reason.'] },
+      { kind: 'p', spans: [{ strong: 'Fewer no-heat calls.' }, ' Most boiler breakdowns start as something small: a failing igniter, a waterlogged expansion tank, a circulator pump getting noisy. Caught in September, each is a scheduled repair. Caught in January, it is a cold house and an emergency call.'] },
+      { kind: 'p', spans: [{ strong: 'Efficiency.' }, ' A burner out of adjustment and a heat exchanger coated in soot both send more of your gas bill up the flue. The combustion analysis is how a technician puts that heat back in the house.'] },
+      { kind: 'p', spans: [{ strong: 'Lifespan and warranty.' }, ' A well-kept boiler typically lasts 15 to 25 years, which is longer than most furnaces. Many manufacturers also require documented annual service to honor the heat exchanger warranty, so keep the paperwork from every visit.'] },
+
+      { kind: 'h2', text: 'Nobody Else Inspects Your Boiler in Cincinnati' },
+      { kind: 'p', spans: ['This part surprises people. Ohio inspects boilers in commercial buildings, but ', { link: 'Ohio Revised Code 4104.04', href: 'https://codes.ohio.gov/ohio-revised-code/section-4104.04' }, ' exempts low-pressure steam and hot water boilers in private homes and in apartment buildings with fewer than six units. In practice, that covers nearly every house and small multi-family building in Cincinnati. No state inspector will ever look at your relief valve or low-water cutoff. If you don’t schedule a service, no one checks them.'] },
+      { kind: 'p', spans: ['Our view: an annual boiler service without a combustion analysis and a test of the safety controls isn’t worth booking. With no state inspection behind it, that one visit is the whole safety net. Landlords with older radiator buildings have extra reason to keep it up, since a boiler that quits in January means tenants without heat. Our ', { link: 'guide for landlords when a tenant has no heat', href: '/tenant-has-no-heat-cincinnati-landlord-guide/' }, ' covers what the city expects.'] },
+
+      { kind: 'h2', text: 'When to Schedule Boiler Maintenance in Cincinnati' },
+      { kind: 'p', spans: ['Early fall, before you need the heat. September and October work best. The boiler has sat idle all summer, which is when circulator pumps stick and relief valves seize, and you want to find that before the first cold night, not on it. Booking early also means you get a time that suits you, before the November rush of no-heat calls. If the fall got away from you, a mid-winter service is still better than skipping the year.'] },
+
+      { kind: 'h2', text: 'What You Can Do Between Visits' },
+      { kind: 'p', spans: ['A few checks are yours to do, and they don’t need a technician:'] },
+      { kind: 'p', spans: [{ strong: 'Watch the pressure gauge.' }, ' On a hot water boiler, note where the needle sits when the system is cold, usually 12 to 15 psi. If it keeps dropping, or climbs toward 30 when the boiler is running, call it in.'] },
+      { kind: 'p', spans: [{ strong: 'Bleed radiators that are cold at the top.' }, ' A radiator key and a rag are all it takes. Open the valve until water comes out, then close it.'] },
+      { kind: 'p', spans: [{ strong: 'Look for water.' }, ' A drip under the relief valve, a damp spot around the boiler, or rust on the fittings are all worth a call before they get worse.'] },
+      { kind: 'p', spans: [{ strong: 'Keep the area clear and test your CO detectors.' }, ' Don’t store paint, cleaners, or boxes against the boiler, and keep a working carbon monoxide detector on every level of the house.'] },
+
+      { kind: 'h2', text: 'When You Don’t Need a Boiler Service' },
+      { kind: 'p', spans: ['Not every boiler needs us this year. If yours was installed in the last 12 months and the installer’s first-year service is still coming, use that visit. If it was already serviced this heating season, a second visit won’t tell you anything new. And if your boiler is past 25 years old and already leaking from the heat exchanger or the cast iron sections, a tune-up won’t fix that. Spend the money on a replacement quote instead, and we will tell you plainly if that is where things stand.'] },
+
+      { kind: 'h2', text: 'Signs Your Boiler Needs Attention Now' },
+      { kind: 'p', spans: ['Don’t wait for the annual visit if you notice any of these: the relief valve dripping or discharging, pressure that won’t hold, banging or kettling noises, radiators that stay cold after bleeding, a yellow or flickering burner flame instead of a steady blue one, soot around the boiler, or a carbon monoxide alarm. If the CO alarm sounds, get everyone outside and call 911 or your gas company first. For the rest, call a technician. Most turn out to be a repair, not a new boiler. If you are weighing a replacement anyway, our comparison of ', { link: 'boilers and furnaces for Cincinnati homes', href: '/boiler-vs-furnace-cincinnati/' }, ' walks through what to consider.'] },
+
+      { kind: 'h2', text: 'Book Boiler Maintenance in Cincinnati With Degree of Comfort' },
+      { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'boiler repair, maintenance, and replacement', href: '/services/boilers/' }, ' for hot water, steam, gas, and oil boilers across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. Every service includes the safety controls, the combustion analysis, and the water side, and we tell you the price before we start. We are family-owned, licensed and insured, with upfront, flat-rate pricing. Heating with a furnace instead? See ', { link: 'what’s included in a furnace tune-up', href: '/what-is-included-in-a-furnace-tune-up/' }, '.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' to book your boiler service before the cold sets in, or ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'] },
+    ],
+    faqs: [
+      { q: 'What is included in annual boiler maintenance?', a: 'A technician tests the safety controls (the pressure relief valve, high limit, and low-water cutoff), cleans and adjusts the burner, runs a combustion analysis that includes a carbon monoxide reading, inspects the heat exchanger, checks the system pressure, expansion tank, and circulator pump, bleeds air from the radiators, and confirms the venting is clear and sealed.' },
+      { q: 'How long does a boiler service take?', a: 'Most annual boiler services take 60 to 90 minutes. It can run longer if the technician finds a part that needs repair or the system needs a lot of air bled out.' },
+      { q: 'How often should a boiler be serviced?', a: 'Once a year, ideally in September or October before heating season. Many manufacturers require documented annual service to keep the heat exchanger warranty valid.' },
+      { q: 'Is annual boiler maintenance really necessary?', a: 'For most homes, yes. The safety controls on a boiler give no warning before they fail, and Ohio does not inspect boilers in private homes or buildings under six units, so the annual service is the only check they get. The exceptions are a boiler installed in the last year that still has its first-year service coming, or one already serviced this season.' },
+      { q: 'What should the pressure be on my boiler?', a: 'Most home hot water boilers should read about 12 to 15 psi when the system is cold, rising somewhat as it heats. The relief valve usually opens at 30 psi. A home steam boiler runs much lower, at about 2 psi or less.' },
+      { q: 'Is steam boiler maintenance different from hot water?', a: 'Yes. On top of the burner, safety, and venting checks, a steam boiler needs its sight glass water level checked, its low-water cutoff flushed and tested, its pressure control set low, and its main and radiator vents checked.' },
+      { q: 'Can I maintain my boiler myself?', a: 'You can watch the pressure gauge, bleed radiators that are cold at the top, look for leaks, and keep the area around the boiler clear. Anything involving the burner, gas connections, combustion, or the safety controls should go to a licensed technician.' },
+    ],
+  },
+{
+    slug: 'furnace-short-cycling-cincinnati',
+    title: 'Furnace Turns On Then Shuts Off: What Short Cycling Means for Cincinnati Homes',
+    seoTitle: 'Furnace Turns On Then Shuts Off in Cincinnati',
+    category: 'Heating',
+    excerpt:
+      'A furnace that turns on then shuts off is short cycling. How to read the timing, the usual causes in Cincinnati homes, and what to check before you call.',
+    date: '2026-09-30',
+    dateModified: '2026-09-30',
+    readMinutes: 9,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/furnace-short-cycling-hero.webp',
+    imageAlt: 'Hand pressing the dial on a wall thermostat',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Short cycling means the furnace shuts off before it finishes heating the house' }, ', then starts again a few minutes later. A normal furnace cycles about 3 to 8 times an hour.'],
+          [{ strong: 'When it shuts off tells you why' }, '. Off within seconds of lighting points to the flame sensor. Off after a few minutes, with the blower still running, points to overheating, usually from a dirty filter.'],
+          [{ strong: 'Check the filter, the thermostat, and the outdoor vent pipes first' }, '. They are the most common causes you can check yourself, in about 15 minutes.'],
+          [{ strong: 'Don’t keep resetting it' }, '. If it trips again after one reset, a safety switch is doing its job, and a technician should find out why.'],
+        ],
+      },
+      { kind: 'p', spans: ['A furnace that turns on and then shuts off after a few seconds or a few minutes is short cycling. It means something is stopping the heating cycle before the house reaches the temperature on your thermostat. The most common causes are a clogged air filter that makes the furnace overheat, a dirty flame sensor that can’t confirm the burners are lit, a blocked vent pipe, and a thermostat in the wrong spot. Less often, the furnace is simply too big for the house. How long it runs before it shuts off is the best clue to which one you have. Here is how to read it, what you can check yourself, and when to call.'] },
+
+      { kind: 'h2', text: 'What Short Cycling Means' },
+      { kind: 'p', spans: ['A healthy furnace runs in steady cycles. The thermostat calls for heat, the burners light, the blower moves warm air through the house, and the furnace shuts off once the room reaches the set temperature. On a cold day, that usually means about ', { strong: '3 to 8 cycles an hour' }, ', each long enough to warm the whole house. It cycles more in a cold snap and less in mild weather.'] },
+      { kind: 'p', spans: ['Short cycling is when the furnace shuts off early, before that job is done, and then starts again a few minutes later. You might hear the burners light and go out again within seconds, or notice the furnace running for two or three minutes at a time all day while the far rooms stay cold. Either way, the furnace is starting and stopping far more than it should.'] },
+
+      { kind: 'h2', text: 'Why Your Furnace Turns On Then Shuts Off: Read the Timing' },
+      { kind: 'p', spans: ['Stand near the furnace through one full cycle and note when it shuts down. That one observation narrows the cause more than anything else.'] },
+      { kind: 'h3', text: 'The Burners Light, Then Go Out Within Seconds' },
+      { kind: 'p', spans: ['This is almost always the ', { strong: 'flame sensor' }, '. It is a thin metal rod that sits in the burner flame and tells the control board the gas has lit. When it gets coated with residue, it can’t detect the flame, so the board shuts the gas off a few seconds after ignition as a safety step. Most furnaces then retry a few times and lock out, on many models for about an hour. A technician cleans or replaces the sensor, usually in one short visit. A weak igniter or low gas pressure can cause the same pattern, which is why it is worth having the whole ignition sequence checked.'] },
+      { kind: 'h3', text: 'It Runs a Few Minutes, the Burners Stop, and the Blower Keeps Going' },
+      { kind: 'p', spans: ['That is the ', { strong: 'high-limit switch' }, ' shutting the burners off because the furnace is overheating. The blower keeps running to cool it down. Overheating almost always comes from too little airflow: a clogged filter, closed or blocked vents, a blocked return grille, or a dirty blower wheel. Start with the filter. If it is gray and matted, that is very likely your answer. Our guide to ', { link: 'how often to change your furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, ' covers what to buy and when.'] },
+      { kind: 'h3', text: 'The Small Fan Starts, but It Never Lights' },
+      { kind: 'p', spans: ['On a high-efficiency furnace, a small inducer fan runs first to clear the vent pipe, and a ', { strong: 'pressure switch' }, ' confirms the vent is clear before the burners light. If the vent pipe is blocked or the condensate drain is clogged, the switch never closes and the furnace shuts down before ignition. Check the two white PVC pipes where they leave the house. Snow, ice, leaves, and nests are the usual culprits.'] },
+      { kind: 'h3', text: 'It Runs Normal Cycles, Just Too Many of Them' },
+      { kind: 'p', spans: ['If each cycle looks normal but they are short and constant, look at the ', { strong: 'thermostat' }, ' first. A thermostat next to a supply register, above a lamp, or in afternoon sun reads warm air and shuts the furnace off before the rest of the house heats. Dead batteries and a wrong cycle-rate setting on a newer thermostat do the same. If the thermostat checks out, the furnace may be oversized for the house.'] },
+
+      { kind: 'h2', text: 'Common Causes of Short Cycling in Cincinnati Homes' },
+      { kind: 'p', spans: ['Two causes come up more here than in milder places. The first is ', { strong: 'snow and ice over the vent pipes' }, '. Many high-efficiency furnaces in the Cincinnati area vent through a side wall close to the ground, and a drift or an ice ridge after a winter storm is enough to block them. The second is ', { strong: 'closed registers in older homes' }, '. People close vents in unused rooms to push heat elsewhere, but each closed vent adds pressure and cuts airflow, which is exactly what makes a furnace overheat and trip its high limit. If you have closed more than a couple, open them all and see if the cycling stops.'] },
+
+      { kind: 'h2', text: 'Is Your Furnace Too Big for Your Cincinnati Home?' },
+      { kind: 'p', spans: ['An oversized furnace heats the air near the thermostat quickly, shuts off, and leaves the rest of the house behind. It is common in homes where the furnace was sized by square footage, or where insulation and new windows were added later and cut the heat the house actually needs. The ', { link: 'U.S. Department of Energy', href: 'https://www.energy.gov/energysaver/furnaces-and-boilers' }, ' notes that even newer systems are often oversized, and that oversizing shortens equipment life and hurts comfort.'] },
+      { kind: 'p', spans: ['Our view: don’t replace a short-cycling furnace until someone has checked the filter, the flame sensor, the vents, and the thermostat. Those account for most short cycling, and they cost far less than a new furnace. If the furnace really is oversized and near the end of its 15 to 20 years anyway, the next one should be sized with a proper load calculation, not matched to the old one.'] },
+
+      { kind: 'h2', text: 'Why Short Cycling Matters' },
+      { kind: 'p', spans: [{ strong: 'Wear.' }, ' The start of each cycle is the hardest moment on a furnace. The igniter, the inducer, the blower motor, and the control board all take a hit every time it starts, so a furnace starting three times as often wears out sooner.'] },
+      { kind: 'p', spans: [{ strong: 'Comfort and bills.' }, ' Short cycles never get warm air to the far rooms, so you turn the thermostat up and burn more gas without the house feeling warmer.'] },
+      { kind: 'p', spans: [{ strong: 'Safety.' }, ' A furnace that keeps overheating puts repeated stress on the heat exchanger, and a cracked heat exchanger can leak carbon monoxide. If the furnace also has a burning smell, a yellow or lifting flame, or soot around the burners, treat it as a safety problem. The ', { link: 'U.S. Consumer Product Safety Commission', href: 'https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center' }, ' recommends a working CO alarm on every level of the home.'] },
+
+      { kind: 'h2', text: 'What to Check Before You Call' },
+      { kind: 'p', spans: ['You can do all of these yourself in about 15 minutes:'] },
+      { kind: 'p', spans: [{ strong: 'Replace the filter.' }, ' ', { link: 'ENERGY STAR', href: 'https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist' }, ' recommends checking it every month in heating season and changing it at least every 3 months.'] },
+      { kind: 'p', spans: [{ strong: 'Check the thermostat.' }, ' Replace the batteries, make sure it is set to heat, and look at what is near it. If a register blows on it or the sun hits it, that is a likely cause.'] },
+      { kind: 'p', spans: [{ strong: 'Open every vent and clear the returns.' }, ' Move furniture and rugs off the registers and the big return grilles.'] },
+      { kind: 'p', spans: [{ strong: 'Clear the outdoor vent pipes.' }, ' On a high-efficiency furnace, brush snow, ice, and leaves away from both PVC pipes.'] },
+      { kind: 'p', spans: [{ strong: 'Read the blink code.' }, ' Most furnaces have a small light on the control board, visible through a window in the lower panel. Count the flashes and match them to the chart on the inside of the panel door. Write the code down; it saves time when the technician arrives.'] },
+      { kind: 'p', spans: ['If the furnace is still short cycling after all five, reset it once by turning the power switch off for a minute. If it goes back to short cycling, stop there. For other no-heat problems, see our ', { link: 'furnace troubleshooting tips', href: '/furnace-not-working-troubleshooting-tips/' }, '.'] },
+
+      { kind: 'h2', text: 'When You Don’t Need a Technician' },
+      { kind: 'p', spans: ['If a new filter, fresh thermostat batteries, or clearing snow off the vent pipes fixed it, you’re done. You don’t need us, and you don’t need a diagnostic visit to confirm it. Watch it for a day. If the cycles stay long and the house heats evenly, the problem is solved.'] },
+
+      { kind: 'h2', text: 'When to Call a Cincinnati Furnace Technician' },
+      { kind: 'p', spans: ['Call if the furnace keeps short cycling after the checks above, if it locks out, if the blink code points to a flame, pressure, or limit fault, or if you have reset it more than once. Call right away if you smell gas or something burning. If your CO alarm sounds, get everyone outside first and call 911 or your gas company from outside. If the furnace is 15 years old or more and this is the latest in a string of repairs, our guide to ', { link: 'whether to repair or replace your furnace', href: '/should-you-repair-or-replace-your-furnace/' }, ' will help you decide. A yearly ', { link: 'furnace tune-up', href: '/what-is-included-in-a-furnace-tune-up/' }, ', which includes cleaning the flame sensor and checking the limit switch, prevents a lot of short cycling in the first place.'] },
+
+      { kind: 'h2', text: 'Get Furnace Short Cycling Fixed in Cincinnati' },
+      { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We find the reason your furnace is short cycling, tell you the price before we start, and fix the cause, not just the symptom. We are family-owned, licensed and insured, with upfront, flat-rate pricing and 24/7 no-heat service.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'] },
+    ],
+    faqs: [
+      { q: 'Why does my furnace turn on then shut off?', a: 'It is short cycling. The most common causes are a clogged air filter that makes the furnace overheat, a dirty flame sensor that can’t confirm the burners are lit, a blocked vent pipe or condensate drain, a badly placed thermostat, and an oversized furnace.' },
+      { q: 'Why does my furnace shut off after a few seconds?', a: 'If the burners light and go out within seconds, the flame sensor is usually dirty and can’t detect the flame, so the control board shuts the gas off for safety. A weak igniter or low gas pressure can cause the same thing. After a few tries, most furnaces lock out.' },
+      { q: 'Why does my furnace run for a few minutes and then stop?', a: 'That usually means the high-limit switch is shutting the burners off because the furnace is overheating. The cause is almost always restricted airflow: a dirty filter, closed vents, blocked returns, or a dirty blower.' },
+      { q: 'How many times an hour should a furnace cycle?', a: 'Roughly 3 to 8 times an hour on a cold day, with each cycle long enough to warm the whole house. It cycles more in very cold weather and less in mild weather.' },
+      { q: 'Is furnace short cycling dangerous?', a: 'It can be. Repeated overheating stresses the heat exchanger, and a cracked heat exchanger can leak carbon monoxide. Keep working CO alarms on every level, and call a technician if short cycling comes with a burning smell, a yellow flame, or soot.' },
+      { q: 'Can a dirty filter cause a furnace to short cycle?', a: 'Yes. It is the most common cause. A clogged filter cuts airflow, the furnace overheats, and the high-limit switch shuts the burners off. Replacing the filter often fixes it.' },
+      { q: 'Can I fix furnace short cycling myself?', a: 'Sometimes. Replacing the filter, changing thermostat batteries, opening vents, and clearing snow from the outdoor vent pipes fix many cases. If it keeps short cycling after that, or locks out, call a licensed technician.' },
+    ],
+  },
 ];
 
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);

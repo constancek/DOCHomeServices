@@ -352,7 +352,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           </aside>
         </div>
       </article>
-      <BlogSections />
+      <BlogSections showVan />
     </>
   );
 }

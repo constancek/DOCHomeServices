@@ -65,11 +65,12 @@ export default function PageSections({
 // Trimmed shared sections for BLOG pages only: "Why Choose", the reviews block,
 // and the "Book Your Service Now! / Areas We Serve" block (with its zigzag top
 // edge).
-export function BlogSections() {
+export function BlogSections({ showVan = false }: { showVan?: boolean }) {
   return (
     <>
       <WhyChoose />
       <ReviewsSection showMarquee={false} />
+      {showVan && <TrustedExperts />}
       <TornEdge fill="#1f48c8" />
       <BookAndAreas />
     </>
