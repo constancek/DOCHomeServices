@@ -5273,7 +5273,7 @@ export const posts: Post[] = [
     readMinutes: 10,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/heat-pumps-cincinnati-winters-hero.webp',
-    imageAlt: 'HVAC technician inspecting an outdoor heat pump unit beside a house in late fall',
+    imageAlt: 'Outdoor heat pump unit on a pad beside a house with vinyl siding',
     content: [
       {
         kind: 'takeaways',
@@ -5661,7 +5661,7 @@ export const posts: Post[] = [
     readMinutes: 9,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/co-detectors-rentals-ohio-hero.webp',
-    imageAlt: 'Man on a ladder mounting a detector on the ceiling of an empty apartment',
+    imageAlt: 'Hands twisting an alarm onto its ceiling mounting plate',
     content: [
       {
         kind: 'takeaways',
