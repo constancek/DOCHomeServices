@@ -36,7 +36,7 @@ export const awards: {
   icon: 'estimate' | 'calendarClock' | 'tag' | 'noFee' | 'card' | 'pin';
   label: string;
 }[] = [
-  { icon: 'estimate', label: 'Free Estimates' },
+  { icon: 'estimate', label: 'Estimates' },
   { icon: 'calendarClock', label: 'Same-Day Service' },
   { icon: 'tag', label: 'Upfront Pricing' },
   { icon: 'noFee', label: 'No Overtime Fees' },

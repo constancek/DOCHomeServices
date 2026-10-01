@@ -13,7 +13,7 @@ const config: ServiceLocationConfig = {
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
   businessType: 'Electrician',
   schemaServiceType: 'Ceiling Fan Installation',
-  ctaLine: 'Want a ceiling fan installed in {neighborhood}? Call for a free estimate',
+  ctaLine: 'Want a ceiling fan installed in {neighborhood}? Call for an estimate',
   heroImage: '/services/ceilingfan-hero.webp',
   introHeading: 'Ceiling Fan Installation in {neighborhood}',
   introParagraphs: [

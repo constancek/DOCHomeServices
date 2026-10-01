@@ -27,8 +27,18 @@ export default function SpecialsPage() {
           {coupons.map((c) => (
             <div
               key={c.title}
-              className="relative overflow-hidden rounded-2xl border-2 border-dashed border-pink-400 bg-white px-6 py-8"
+              className="relative overflow-hidden rounded-2xl border-2 border-dashed border-pink-400 bg-gray-100 px-6 py-8 transition-transform duration-300 ease-out hover:scale-[1.02] motion-reduce:transition-none motion-reduce:hover:scale-100"
             >
+              {/* Mascot watermark behind the offer */}
+              <img
+                src="/bulldog.webp"
+                alt=""
+                aria-hidden="true"
+                width={768}
+                height={768}
+                className="pointer-events-none absolute -top-[8%] right-0 h-[162%] w-auto select-none object-contain opacity-[0.18]"
+              />
+
               {/* Mascot */}
               <img
                 src="/mascot.webp"
@@ -39,13 +49,12 @@ export default function SpecialsPage() {
               />
 
               {/* Offer */}
-              <div className="mx-auto max-w-xl text-center">
+              <div className="relative mx-auto max-w-2xl text-center">
                 <p className="text-xs font-bold uppercase tracking-wide text-brand-700">
                   Hurry, Offer Ends Soon!
                 </p>
-                <div className="mt-1 font-display text-5xl font-black text-ink">{c.price}</div>
-                <h2 className="mt-1 font-display text-lg font-extrabold uppercase text-brand-700">
-                  {c.title}
+                <h2 className="mt-1 font-display text-2xl font-black uppercase leading-tight text-ink md:text-3xl">
+                  {c.price} {c.title}
                 </h2>
                 <p className="mt-1 text-[15px] leading-relaxed text-ink/70">{c.details}</p>
                 <a href={site.primaryPhone.href} className="btn-pink mt-4">

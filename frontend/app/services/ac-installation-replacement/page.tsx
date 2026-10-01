@@ -12,7 +12,7 @@ import { acInstallationCopy } from '@/content/location-copy/ac-installation-repl
 
 export const metadata: Metadata = {
   title: 'AC Installation & Replacement',
-  description: `AC installation and replacement across ${site.serviceArea} from ${site.name} — properly sized, energy-efficient systems with free estimates and financing. Reliable cooling from day one.`,
+  description: `AC installation and replacement across ${site.serviceArea} from ${site.name} — properly sized, energy-efficient systems with estimates and financing. Reliable cooling from day one.`,
   alternates: { canonical: '/services/ac-installation-replacement' },
 };
 
@@ -61,7 +61,7 @@ const whyUs = [
   { icon: 'check' as const, title: 'Proper Sizing', text: 'We size every system to your home so it cools evenly without wasting energy.' },
   { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Certified technicians and careful, code-compliant installation and testing.' },
   { icon: 'star' as const, title: 'Financing Available', text: 'Flexible plans to spread the cost of an energy-efficient upgrade over time.' },
-  { icon: 'badge' as const, title: 'Free Estimates', text: 'Clear recommendations and a free estimate before you decide anything.' },
+  { icon: 'badge' as const, title: 'Estimates', text: 'Clear recommendations and an estimate before you decide anything.' },
 ];
 
 const faqs = [
@@ -69,7 +69,7 @@ const faqs = [
   { q: 'How often should AC systems be replaced?', a: 'Most air conditioners last about 12–15 years. It is worth replacing sooner if your unit uses old R-22 refrigerant, needs frequent repairs, or is driving up your energy bills.' },
   { q: 'Will a new air conditioner lower energy bills?', a: 'Usually, yes. Modern high-efficiency systems use significantly less energy than older units, so a properly sized replacement often pays back part of its cost in lower monthly bills.' },
   { q: 'Are heat pumps a good option for my home?', a: 'Often, yes — a heat pump cools in summer and heats in winter efficiently, and it can pair with a furnace for the coldest days. We help you decide based on your home and goals.' },
-  { q: 'Do you offer free estimates for AC installation?', a: 'Yes. We provide free estimates and clear recommendations so you understand your options before moving forward.' },
+  { q: 'Do you offer estimates for AC installation?', a: 'Yes. We provide estimates and clear recommendations so you understand your options before moving forward.' },
 ];
 
 const serviceSchema = {
@@ -106,7 +106,7 @@ export default function ACInstallationPage() {
       <PageHero
         eyebrow="Air Conditioning"
         title={`AC Installation & Replacement in ${site.serviceArea}`}
-        description="A new, properly sized AC system means more consistent cooling, lower bills, and reliable comfort from day one — with free estimates and financing."
+        description="A new, properly sized AC system means more consistent cooling, lower bills, and reliable comfort from day one — with estimates and financing."
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -308,7 +308,7 @@ export default function ACInstallationPage() {
             ))}
           </ul>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} provides free estimates and clear recommendations to help you understand your
+            {site.name} provides estimates and clear recommendations to help you understand your
             options before moving forward.
           </p>
 
@@ -363,15 +363,15 @@ export default function ACInstallationPage() {
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               If your current system no longer meets your cooling needs, we are ready to help — with a
-              free estimate, proper sizing, and financing options. Call now or request your estimate.
+              estimate, proper sizing, and financing options. Call now or request your estimate.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={site.primaryPhone.href} className="btn-pink text-base">
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+                Request an Estimate
               </Link>
             </div>
           </div>

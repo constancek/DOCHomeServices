@@ -231,7 +231,7 @@ export const nav: NavItem[] = [
     caret: true,
     children: [
       { label: 'Coupons', href: '/specials' },
-      { label: 'Free Estimate', href: '/free-estimate' },
+      { label: 'Request an Estimate', href: '/request-estimate/' },
       { label: 'Join the Comfort Club', href: '/comfort-club' },
       { label: 'Heat Pump Incentives & Costs', href: '/heat-pump-incentives' },
     ],

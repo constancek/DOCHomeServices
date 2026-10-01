@@ -13,7 +13,7 @@ const config: ServiceLocationConfig = {
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
   businessType: 'Electrician',
   schemaServiceType: 'EV Charger Installation',
-  ctaLine: 'Ready to charge your EV at home in {neighborhood}? Call for a free estimate',
+  ctaLine: 'Ready to charge your EV at home in {neighborhood}? Call for an estimate',
   heroImage: '/services/ev-hero.webp',
   introHeading: 'Home EV Charger Installation in {neighborhood}',
   introParagraphs: [

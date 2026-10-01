@@ -47,7 +47,7 @@ export const posts: Post[] = [
           [{ strong: 'Start by checking whether it’s the whole house or one fixture' }, ' — a single weak faucet is usually a clog at that spot, not a house-wide problem.'],
           [{ strong: 'The two free fixes come first' }, ': confirm your main shutoff and meter valve are fully open, and ask a neighbor if their pressure dropped too.'],
           [{ strong: 'A bad pressure regulator or corroded pipes' }, ' are the common culprits when everything is open and the whole home runs weak.'],
-          [{ strong: 'If the easy checks don’t fix it' }, ', a licensed plumber can test your pressure and pinpoint the cause — ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'],
+          [{ strong: 'If the easy checks don’t fix it' }, ', a licensed plumber can test your pressure and pinpoint the cause — ', { link: 'request an estimate', href: '/request-estimate/' }, '.'],
         ],
       },
       { kind: 'p', spans: ['Low water pressure almost always comes down to one of five causes: a problem with the municipal supply, a valve that isn’t fully open, a damaged pressure regulator, clogged pipes, or corrosion inside aging pipes. The good news is that two of those are free to check and often free to fix. The rest need a plumber, but knowing which is which saves you time and money. Here’s how to work through them in order.'] },
@@ -72,7 +72,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['If your whole house is fine but a single faucet dribbles, the fix is usually small and local. A clogged aerator on the tip of the spout, or a supply valve under the sink that isn’t fully open, causes most one-fixture complaints. Unscrewing and rinsing an aerator is a genuine DIY job. And if that same fixture is also dripping when it’s off, our post on ', { link: 'why a faucet drips and how to fix it', href: '/why-is-my-faucet-dripping-how-to-fix-a-leaky-faucet/' }, ' walks through it. No need to call anyone for a five-minute clean.'] },
       { kind: 'h2', text: 'Get to the Bottom of It With Degree of Comfort' },
       { kind: 'p', spans: ['If you’ve checked your valves, asked the neighbors, and the pressure is still weak, it’s time to test rather than guess. Degree of Comfort handles ', { link: 'plumbing repair', href: '/services/plumbing-repair/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — so you know the number before we start.'] },
-      { kind: 'p', spans: ['To find out exactly why your water pressure is low, call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and our team will take it from there.'] },
+      { kind: 'p', spans: ['To find out exactly why your water pressure is low, call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and our team will take it from there.'] },
     ],
     faqs: [
       { q: 'Why is my water pressure suddenly low throughout the whole house?', a: 'A sudden house-wide drop usually points to a partly closed main or meter valve, a municipal supply issue, or a failing pressure regulator. Start by checking that your valves are fully open and asking a neighbor if their pressure fell too. If those come up clean, a plumber can test your pressure and pinpoint the cause.' },
@@ -128,7 +128,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['The traditional combo. The AC cools, the furnace heats, and there is no overlap. If you have a newer furnace you are happy with and just need cooling, adding a straight air conditioner is often the simplest, most affordable move.'] },
       { kind: 'h2', text: 'Get the Right System From Degree of Comfort' },
       { kind: 'p', spans: ['The best way to choose is to have a technician look at your home, your existing equipment, and your energy bills. Degree of Comfort installs and services both ', { link: 'heat pumps', href: '/services/heat-pumps/' }, ' and ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Not sure which setup fits your home? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will help you pick the system that makes sense for your comfort and your budget.'] },
+      { kind: 'p', spans: ['Not sure which setup fits your home? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will help you pick the system that makes sense for your comfort and your budget.'] },
     ],
     faqs: [
       { q: 'What is the difference between a heat pump and an air conditioner?', a: 'An air conditioner only cools by moving heat out of your home, while a heat pump can reverse direction to also pull heat in and warm your home in winter. Same cooling hardware, one extra capability.' },
@@ -160,7 +160,7 @@ export const posts: Post[] = [
           [{ strong: 'HVAC stands for Heating, Ventilation and Air Conditioning' }, ' — the whole system that heats, cools, and moves air through your home.'],
           [{ strong: 'SEER rates cooling efficiency, AFUE rates furnace efficiency' }, '; higher numbers mean lower energy bills. Standard AC starts at SEER 13, Energy Star at 15 or higher.'],
           [{ strong: 'MERV rates how well a filter cleans your air' }, ' on a 1 to 20 scale, and R-value measures how well insulation resists heat.'],
-          [{ strong: 'You don’t need to memorize any of this' }, ' — a good technician will translate every term on your estimate. Ask us for a ', { link: 'free estimate', href: '/free-estimate/' }, '.'],
+          [{ strong: 'You don’t need to memorize any of this' }, ' — a good technician will translate every term on your estimate. Ask us for an ', { link: 'estimate', href: '/request-estimate/' }, '.'],
         ],
       },
       { kind: 'p', spans: ['Here is the short version: most HVAC jargon is just shorthand for how well your equipment heats, cools, or cleans the air, and how much energy it uses to do it. Once you know what a handful of acronyms mean, an estimate stops looking like alphabet soup and starts telling you exactly what you are buying. Below are the terms you will actually run into, in plain English.'] },
@@ -197,7 +197,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Get Straight Answers From Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort installs and services ', { link: 'heating', href: '/services/heating/' }, ' and ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee. No jargon for jargon’s sake — we explain every term on your quote before you sign anything.'] },
-      { kind: 'p', spans: ['Have a question about a rating on your estimate, or ready to price a new system? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and our team will walk you through it in plain English.'] },
+      { kind: 'p', spans: ['Have a question about a rating on your estimate, or ready to price a new system? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and our team will walk you through it in plain English.'] },
     ],
     faqs: [
       { q: 'What does HVAC mean?', a: 'HVAC stands for Heating, Ventilation and Air Conditioning — the complete system that heats, cools, ventilates, and controls the air in your home.' },
@@ -207,7 +207,7 @@ export const posts: Post[] = [
       { q: 'Why is it important to understand HVAC terms?', a: 'Knowing the basics — SEER, AFUE, MERV, R-value — lets you read an estimate, compare equipment, and know exactly what you are paying for.' },
       { q: 'What is indoor air quality in HVAC terms?', a: 'Indoor air quality describes how clean and healthy the air inside your home is, shaped by filtration, ventilation, and humidity control.' },
       { q: 'What does a thermostat do in an HVAC system?', a: 'The thermostat is the control that tells your system when to heat or cool to hold your set temperature; smart models add scheduling and remote control.' },
-      { q: 'Who should I call if I don’t understand my HVAC issues?', a: 'Call a licensed HVAC professional who will explain the problem in plain language before recommending a fix. Degree of Comfort serves Cincinnati and the Tri-State with upfront, flat-rate pricing and free estimates — call (513) 586-5107.' },
+      { q: 'Who should I call if I don’t understand my HVAC issues?', a: 'Call a licensed HVAC professional who will explain the problem in plain language before recommending a fix. Degree of Comfort serves Cincinnati and the Tri-State with upfront, flat-rate pricing and estimates — call (513) 586-5107.' },
     ],
   },
 {
@@ -254,7 +254,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Allergy symptoms are the other big tell. Sneezing, nasal congestion, and eye irritation that get worse indoors usually mean allergens are circulating through the house. If your family’s symptoms ease the moment you leave home, the air inside is likely the culprit. And if you’re constantly dusting and it never seems to matter, a purifier — paired with a fresh ', { link: 'HVAC filter', href: '/7-signs-your-home-air-filter-is-past-its-prime/' }, ' — can break the cycle.'] },
       { kind: 'h2', text: 'Talk to Degree of Comfort About Cleaner Air' },
       { kind: 'p', spans: ['If dust and allergens are wearing you down, the right fix depends on your home — sometimes it’s a whole-home purifier, sometimes it’s sealing ductwork or upgrading filtration. Degree of Comfort installs and services ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we’ll help you figure out what your home actually needs.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we’ll help you figure out what your home actually needs.'] },
     ],
     faqs: [
       { q: 'Would an air purifier help with dust?', a: 'Yes. An air purifier captures airborne dust before it settles on your surfaces, and a model with a true HEPA filter reaches particles as small as 0.3 microns.' },
@@ -314,7 +314,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['When a snake is not enough, the next step is usually hydro jetting — a high-pressure water blast that scours the pipe wall clean, biofilm and all. If you are not sure which your drain needs, ', { link: 'snaking versus hydro jetting', href: '/snaking-vs-hydro-jetting-which-option-is-right-for-you/' }, ' breaks down when each one makes sense. And if more than one drain in the house is slow at the same time, that is a different problem — here is ', { link: 'how to know if your main drain is clogged', href: '/how-do-you-know-if-your-main-drain-is-clogged/' }, '.'] },
       { kind: 'h2', text: 'Skip the Bottle, Call Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We clear the clog, check the pipe the chemicals may have been working on, and leave the drain flowing the way it should — no guesswork, no repeat visits. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Got a drain that keeps coming back? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our licensed plumbers take a look.'] },
+      { kind: 'p', spans: ['Got a drain that keeps coming back? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our licensed plumbers take a look.'] },
     ],
     faqs: [
       { q: 'Do liquid drain cleaners actually unclog drains?', a: 'Sometimes, but usually only partway. They tend to burn a channel through the soft center of a clog while leaving the rest stuck to your pipes, so the drain slows down again soon after.' },
@@ -363,7 +363,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Adding a heat pump is one of several moves that pay you back at sale. If you are working through a list, some ', { link: 'plumbing upgrades', href: '/plumbing-upgrades-to-increase-home-value/' }, ' add value the same way, and ', { link: 'financing', href: '/can-you-finance-an-hvac-system/' }, ' can spread the upfront cost so the monthly savings help cover it.'] },
       { kind: 'h2', text: 'Get a Heat Pump Sized and Installed by Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort installs and services ', { link: 'heat pumps', href: '/services/heat-pumps/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We run the load calculation, do the install right, and stand behind it. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want to know what a heat pump would do for your home and your bills? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will give you a real number.'] },
+      { kind: 'p', spans: ['Want to know what a heat pump would do for your home and your bills? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will give you a real number.'] },
     ],
     faqs: [
       { q: 'Does a heat pump increase home value?', a: 'Yes. A heat pump can add roughly $10,400 to $17,000 to resale value by improving efficiency and lowering heating and cooling costs, and it appeals strongly to today’s buyers.' },
@@ -401,7 +401,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['You can start saving energy today without spending much of anything. Swap in LED bulbs, seal the drafts around your windows and doors, program a smart thermostat, and stay on top of HVAC maintenance. Those four moves cover where most of a home’s energy actually goes. Here are the easy ways to save, from the free habits to the upgrades worth the money.'] },
       { kind: 'h2', text: 'Be Mindful of Your Energy Usage' },
       { kind: 'p', spans: ['The cheapest energy is the energy you never use. Turn off lights when you leave a room, and lean on natural daylight before you flip a switch. Unplug phone and laptop chargers once they are done — they keep drawing a trickle of power as long as they are in the wall.'] },
-      { kind: 'p', spans: ['A few more no-cost habits: wash laundry in cold water when the load allows, since heating the water is where most of a washer’s energy goes. Run the dishwasher and laundry with full loads instead of half-empty ones. None of this is glamorous, but it stacks up over a year.'] },
+      { kind: 'p', spans: ['A few more habits: wash laundry in cold water when the load allows, since heating the water is where most of a washer’s energy goes. Run the dishwasher and laundry with full loads instead of half-empty ones. None of this is glamorous, but it stacks up over a year.'] },
       { kind: 'h2', text: 'Rethink the Light Bulbs You Use' },
       { kind: 'p', spans: ['If you still have incandescent bulbs, replacing them is one of the simplest wins in the house. LED bulbs use roughly ', { strong: '75% less energy' }, ' and last many times longer, so you are paying less to run them and buying replacements far less often. Start with the fixtures you use most — the kitchen, living room, and any light that stays on for hours.'] },
       { kind: 'p', spans: ['While you are at it, seal the leaks that make your HVAC work harder. Weatherstripping around doors and windows is a cheap trip to the hardware store, and it stops the conditioned air you already paid for from slipping outside.'] },
@@ -418,7 +418,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['The obvious reason is a lower monthly bill, and that alone is worth the effort. But saving energy also takes strain off your equipment — a system that isn’t fighting drafts, a dirty filter, or an all-day thermostat setting simply lasts longer. Lower bills and fewer repairs tend to come from the same habits.'] },
       { kind: 'h2', text: 'Keep Your HVAC Running Efficiently With Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort keeps ', { link: 'heating', href: '/services/heating/' }, ' and ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems running at their best across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want your system running as efficiently as it can? Call ', { strong: '(513) 586-5107' }, ' to schedule a tune-up, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Want your system running as efficiently as it can? Call ', { strong: '(513) 586-5107' }, ' to schedule a tune-up, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'What uses the most energy in my home?', a: 'For most homes, heating and cooling is the single largest slice of the energy bill, followed by water heating and major appliances. That is why HVAC maintenance and a smart thermostat give the biggest return.' },
@@ -468,7 +468,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['The best time to schedule it is early fall, before the first real cold snap, when technicians are not yet buried in no-heat emergencies. That yearly visit is where small problems get caught — a hairline crack, a failing igniter, a loose connection — long before they leave you without heat. Our ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ' service covers all of it.'] },
       { kind: 'h2', text: 'Get Your Furnace Ready With Degree of Comfort' },
       { kind: 'p', spans: ['Handle the filter, the eye test, and the cleanup yourself, then let us take care of the annual tune-up. Degree of Comfort keeps furnaces running across Cincinnati and the Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want your furnace checked before winter? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will get you on the schedule.'] },
+      { kind: 'p', spans: ['Want your furnace checked before winter? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will get you on the schedule.'] },
     ],
     faqs: [
       { q: 'How often should you schedule furnace maintenance?', a: 'Once a year, ideally in the fall before the heating season starts. That timing catches wear from the previous winter and gives you a full season of reliable heat.' },
@@ -524,7 +524,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['The honest part: a repair often beats a replacement, and annual maintenance heads off most breakdowns before they start. A few of the same ', { link: 'preventive measures for furnace safety', href: '/5-preventive-measures-for-furnace-safety/' }, ' save you the emergency call entirely. When it is time for a fix, our ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ' team diagnoses the real cause instead of guessing.'] },
       { kind: 'h2', text: 'Call Degree of Comfort for No-Heat Repairs' },
       { kind: 'p', spans: ['If the tips above didn’t bring the heat back, Degree of Comfort handles furnace and ', { link: 'heating', href: '/services/heating/' }, ' repairs across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' for fast, straight answers, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we’ll get your home warm again.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' for fast, straight answers, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we’ll get your home warm again.'] },
     ],
     faqs: [
       { q: 'How can you tell if your furnace is broken?', a: 'Common signs are a furnace that won’t turn on, blows cold air, makes loud or unusual noises, heats rooms unevenly, drives up your energy bills, or cycles on and off constantly.' },
@@ -575,7 +575,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Knowing how the cycle works makes you better at spotting trouble early. Warm air, weak airflow, or a new rattle usually means one part of that heat-moving loop is off. Catching it early tends to be the difference between a small repair and a big one. Regular maintenance helps too — clean coils and filters reduce strain on the system and keep it moving heat efficiently, which is a good chunk of why some units last 17 years and others quit at 12. We make the honest case for it in ', { link: 'whether AC tune-ups are worth it', href: '/do-you-really-need-ac-maintenance-are-ac-tune-ups-worth-it/' }, '. And to be straight with you: if your filter is just dirty, swapping it yourself is a five-minute job that does not need a technician.'] },
       { kind: 'h2', text: 'Get Help From Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort installs, services, and repairs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Whether the air stopped feeling cold or you are weighing a replacement, call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team take a look.'] },
+      { kind: 'p', spans: ['Whether the air stopped feeling cold or you are weighing a replacement, call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team take a look.'] },
     ],
     faqs: [
       { q: 'How does an air conditioner work?', a: 'An air conditioner works by removing heat from inside your home and releasing it outdoors. It uses refrigerant to absorb indoor heat, carries it outside, and moves cooled air back through your ductwork.' },
@@ -628,7 +628,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['If your unit is on its last legs, replacing it on your own schedule beats waiting for it to die. An AC that quits during a heat wave means an emergency call, whatever equipment is in stock, and a rushed decision. Planning ahead lets you compare efficiency options, line up financing, and get the install done on a mild day. A typical replacement takes about ', { strong: 'one day' }, ', though a complex job with ductwork changes can run longer.'] },
       { kind: 'h2', text: 'Get an Honest Assessment From Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort services, sizes, and installs air conditioners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We will tell you straight whether your unit has years left or is due for replacement — no pressure to buy something you do not need. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Wondering how many years your AC has left? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC installation and replacement', href: '/services/ac-installation-replacement/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team take a look.'] },
+      { kind: 'p', spans: ['Wondering how many years your AC has left? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC installation and replacement', href: '/services/ac-installation-replacement/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team take a look.'] },
     ],
     faqs: [
       { q: 'How long do air conditioners typically last?', a: 'Most central air conditioners last 10 to 15 years, and a well-maintained unit can reach 20 or more. Usage, climate, and upkeep all affect the number.' },
@@ -688,7 +688,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Not every problem means replacement. A bad heating element, thermostat, or valve is often a straightforward ', { link: 'water heater repair', href: '/services/water-heater-repair/' }, '. The age of the unit is what tips the decision — on a tank past 10 years, replacement usually makes more sense than repair.'] },
       { kind: 'h2', text: 'Upgrade Your Water Heater With Degree of Comfort' },
       { kind: 'p', spans: ['Whether you need a flush, a repair, or a full ', { link: 'water heater installation', href: '/services/water-heater-installation/' }, ', Degree of Comfort handles it across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Not sure how much life is left in your unit? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ', and we’ll give you a straight answer.'] },
+      { kind: 'p', spans: ['Not sure how much life is left in your unit? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ', and we’ll give you a straight answer.'] },
     ],
     faqs: [
       { q: 'How long does a water heater last on average?', a: 'A traditional tank water heater lasts 8 to 12 years, and up to 15 with regular maintenance. Tankless units last 15 to 20 years or more.' },
@@ -718,7 +718,7 @@ export const posts: Post[] = [
           [{ strong: 'A furnace replacement in Cincinnati typically costs $3,000 to $10,000 installed' }, ', with size, efficiency, venting, and how hard the install is setting where you land.'],
           [{ strong: 'The federal tax credit is gone for 2026' }, '. It covered furnaces installed through December 31, 2025, so don’t count it in your budget this year.'],
           [{ strong: 'The City of Cincinnati requires a mechanical permit' }, ' to replace a furnace. A licensed contractor pulls it, and it should be in the quote.'],
-          [{ strong: 'Only an in-home look gives a real number' }, ', which is why we do a free estimate before quoting any ', { link: 'furnace replacement', href: '/services/furnace-installation-replacement/' }, '.'],
+          [{ strong: 'Only an in-home look gives a real number' }, ', which is why we do an estimate before quoting any ', { link: 'furnace replacement', href: '/services/furnace-installation-replacement/' }, '.'],
         ],
       },
       { kind: 'p', spans: ['A furnace replacement in Cincinnati typically costs $3,000 to $10,000 installed. A straightforward swap of a standard gas furnace sits near the bottom of that range. A high-efficiency unit, a bigger house, or an install that needs new venting or duct changes pushes it toward the top. Two things are different in 2026: the federal tax credit that took up to $600 off an efficient furnace has ended, and a federal rule on furnace efficiency takes effect in 2028. Here is what drives the price, what changed this year, and how to get the exact number for your home.'] },
@@ -767,7 +767,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Get an Exact Furnace Price From Degree of Comfort' },
       { kind: 'p', spans: ['The only way to know what a furnace replacement will cost in your home is to have someone size it, check your venting, and lay out your options side by side. Degree of Comfort handles furnace ', { link: 'repair', href: '/services/furnace-repair/' }, ', replacement, and full ', { link: 'heating', href: '/services/heating/' }, ' service across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want a real number instead of a range? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will give you an honest quote for your home.'] },
+      { kind: 'p', spans: ['Want a real number instead of a range? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will give you an honest quote for your home.'] },
     ],
     faqs: [
       { q: 'How much does a furnace replacement cost in Cincinnati?', a: 'A furnace replacement in Cincinnati typically costs $3,000 to $10,000 installed. Size, efficiency, venting changes, fuel type, and how hard the furnace is to reach decide where you land. The only accurate figure comes from an in-home look.' },
@@ -823,7 +823,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Reach past the bottle of liquid drain cleaner on the store shelf. Most of them rely on sodium hydroxide (lye) or sulfuric acid to dissolve a clog, and that same chemistry slowly corrodes your pipes — especially older metal and PVC. They can also sit on top of a solid clog without clearing it, leaving a caustic pool that makes any follow-up work more dangerous. The baking soda and vinegar route does the gentle chemical work without the damage.'] },
       { kind: 'h2', text: 'Clear Your Clogged Drains With Degree of Comfort' },
       { kind: 'p', spans: ['When the home fixes stop working, Degree of Comfort handles ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — so you know the number before we start, not after.'] },
-      { kind: 'p', spans: ['Tired of a drain that won’t stay clear? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we’ll find the real cause instead of just poking at the symptom.'] },
+      { kind: 'p', spans: ['Tired of a drain that won’t stay clear? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we’ll find the real cause instead of just poking at the symptom.'] },
     ],
     faqs: [
       { q: 'What is the best way to clear a clogged drain naturally?', a: 'Start with boiling water, then a cup of baking soda followed by a cup of vinegar, and finish with a plunger or drain snake if needed — no harsh chemicals required. If those don’t work, the clog is deeper than a home fix can reach.' },
@@ -852,7 +852,7 @@ export const posts: Post[] = [
           [{ strong: 'There are two main fixes' }, ': open-trench repair, where the pipe is dug up, and trenchless repair, which works through small access points instead.'],
           [{ strong: 'Trenchless is faster and easier on your yard' }, ', but it only works when the pipe is intact enough to line or burst.'],
           [{ strong: 'A camera inspection comes first' }, ' — it finds the break, the cause, and the depth so nobody guesses at the repair.'],
-          [{ strong: 'The right method depends on the damage, not a sales pitch' }, '. A ', { link: 'free estimate', href: '/free-estimate/' }, ' with a camera inspection gives you the real answer.'],
+          [{ strong: 'The right method depends on the damage, not a sales pitch' }, '. An ', { link: 'estimate', href: '/request-estimate/' }, ' with a camera inspection gives you the real answer.'],
         ],
       },
       { kind: 'p', spans: ['A broken sewer line is repaired one of two ways. The traditional method is open-trench repair: a crew digs down to the damaged pipe, exposes it, and replaces or patches the bad section. The newer approach is trenchless repair, which restores the line through one or two small access holes instead of a long trench. Which one fits your home comes down to how bad the damage is, where the pipe runs, and what condition the rest of the line is in. A camera inspection settles it.'] },
@@ -876,7 +876,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Every good sewer repair starts with a camera. A plumber feeds a waterproof camera down the line to find the exact break, its cause, and its depth, then recommends the method that fits. That inspection is what keeps you from paying for a full dig you did not need — or from lining a pipe that was too far gone to hold one. It also confirms the work meets code and flags any surprises before the equipment shows up. Guessing on a sewer line is expensive; looking first is not.'] },
       { kind: 'h2', text: 'Get Your Sewer Line Looked At by Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort diagnoses and repairs broken sewer lines across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We start with a camera inspection, tell you plainly whether trench or trenchless is the right call, and handle the ', { link: 'sewer repair and replacement', href: '/services/sewer-repair-replacement/' }, ' from there. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['If your drains are slow, your yard smells, or you have already had a backup, do not wait for a full failure. Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will find out what is really going on down there.'] },
+      { kind: 'p', spans: ['If your drains are slow, your yard smells, or you have already had a backup, do not wait for a full failure. Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will find out what is really going on down there.'] },
     ],
     faqs: [
       { q: 'Is trenchless sewer repair cheaper than digging?', a: 'It often costs less overall because there is less labor and little to no landscaping or driveway restoration afterward, but the pipe has to be sound enough to line or burst.' },
@@ -926,7 +926,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['The tell is usually water where it should not be, or a repair that touches your home’s health and safety. If shutting the isolation valve does not stop it, or shutting the main is your only option, that is your signal to pick up the phone. Our ', { link: 'plumbing services', href: '/services/plumbing/' }, ' team handles the jobs that are past the plunger stage, and catching them early keeps a small leak from becoming a torn-out ceiling.'] },
       { kind: 'h2', text: 'Talk to Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'plumbing', href: '/services/plumbing/' }, ' repairs and installs across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — so you know the number before we start.'] },
-      { kind: 'p', spans: ['Have a problem that is past the DIY line, or want a second set of eyes on aging hoses and valves? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team take it from here.'] },
+      { kind: 'p', spans: ['Have a problem that is past the DIY line, or want a second set of eyes on aging hoses and valves? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team take it from here.'] },
     ],
     faqs: [
       { q: 'Where is my main water shutoff valve located?', a: 'It is usually on an outside wall, in the basement, or near the water meter, and most close by turning clockwise. Find and test yours before an emergency so you can stop water to the whole house in seconds.' },
@@ -980,7 +980,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['The best time to replace a furnace is before it dies — ideally in fall or a stretch of mild weather, not in the middle of a hard freeze. Planning ahead means you compare options calmly instead of paying emergency prices. If your air conditioner is also getting on in years, it is worth asking ', { link: 'whether to replace your AC and furnace together', href: '/should-you-replace-your-ac-and-furnace-at-the-same-time/' }, ', since doing both at once can save on labor. And if the timing is not great for the budget, ', { link: 'financing an HVAC system', href: '/can-you-finance-an-hvac-system/' }, ' can spread the cost out.'] },
       { kind: 'h2', text: 'Get a Straight Answer From Degree of Comfort' },
       { kind: 'p', spans: ['The only way to know for certain is to have someone look at your specific furnace. Degree of Comfort handles ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ' and ', { link: 'furnace installation and replacement', href: '/services/furnace-installation-replacement/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['We will give you the honest recommendation, repair or replace, and never push a new system you do not need. Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will take a look.'] },
+      { kind: 'p', spans: ['We will give you the honest recommendation, repair or replace, and never push a new system you do not need. Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will take a look.'] },
     ],
     faqs: [
       { q: 'Should I repair or replace my furnace?', a: 'Repair it if the unit is under about 10 to 12 years old and the fix is minor. Replace it if it is over 15 years old, breaks down often, or the repair cost is a large share of a new system.' },
@@ -990,7 +990,7 @@ export const posts: Post[] = [
       { q: 'Does furnace age matter when deciding to replace?', a: 'Yes. Furnaces over 15 years old fail more readily and run less efficiently than newer models, so age weighs heavily in the decision.' },
       { q: 'Can replacing my furnace lower my energy bills?', a: 'It can. New high-efficiency furnaces burn less fuel and heat more evenly, so a chunk of the replacement cost comes back to you on monthly utility bills.' },
       { q: 'When is the best time to replace a furnace?', a: 'Before it fails — ideally in fall or a stretch of mild weather, so you avoid emergency prices and can compare options calmly.' },
-      { q: 'Who can help me decide whether to repair or replace my furnace?', a: 'A licensed HVAC professional should evaluate the system before you decide. Degree of Comfort provides honest assessments, upfront flat-rate pricing, and free in-home estimates across the Tri-State — call (513) 586-5107.' },
+      { q: 'Who can help me decide whether to repair or replace my furnace?', a: 'A licensed HVAC professional should evaluate the system before you decide. Degree of Comfort provides honest assessments, upfront flat-rate pricing, and in-home estimates across the Tri-State — call (513) 586-5107.' },
     ],
   },
 {
@@ -1012,7 +1012,7 @@ export const posts: Post[] = [
           [{ strong: 'Weak or warm air from the vents' }, ' is the most common tell — low refrigerant means the system can’t pull heat out of the air.'],
           [{ strong: 'A hissing or bubbling sound near the unit' }, ' points to refrigerant escaping through a crack or worn connection.'],
           [{ strong: 'Ice on the coils and higher electric bills' }, ' both show a system starved of refrigerant and working too hard.'],
-          [{ strong: 'A leak isn’t a DIY fix' }, ' — handling refrigerant takes certification, so the smart move is to ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'],
+          [{ strong: 'A leak isn’t a DIY fix' }, ' — handling refrigerant takes certification, so the smart move is to ', { link: 'request an estimate', href: '/request-estimate/' }, '.'],
         ],
       },
       { kind: 'p', spans: ['Refrigerant is the chemical that actually moves heat out of your house, so when it leaks, your air conditioner loses the one thing it needs to cool. The tricky part is that a leak rarely announces itself — it shows up as a slow drift in how the system runs. These are the five signs worth watching for, and what each one is telling you.'] },
@@ -1041,7 +1041,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Get Your AC Checked by Degree of Comfort' },
       { kind: 'p', spans: ['If your air conditioner is blowing warm, icing up, or driving your bills higher, don’t guess — a technician can confirm a refrigerant leak, seal it, and recharge the system to the right level. Degree of Comfort handles ', { link: 'AC repair', href: '/services/ac-repair/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Think you’ve got a leak? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team track it down.'] },
+      { kind: 'p', spans: ['Think you’ve got a leak? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team track it down.'] },
     ],
     faqs: [
       { q: 'How do you find a refrigerant leak in an air conditioner?', a: 'Finding a refrigerant leak usually takes professional tools — electronic leak detectors, UV fluorescent dye, or pressure testing — because leaks are small and hard to spot by eye.' },
@@ -1108,7 +1108,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Regular maintenance also protects the biggest number on the page — a system that runs clean uses less energy and lasts closer to that full 20-year mark. For a room-by-room walkthrough of what to watch, our guide to ', { link: 'preventive furnace safety', href: '/5-preventive-measures-for-furnace-safety/' }, ' covers the essentials. And if a repair no longer makes sense, knowing ', { link: 'what a new furnace costs', href: '/how-much-does-a-new-furnace-cost/' }, ' up front takes the pressure off the decision.'] },
       { kind: 'h2', text: 'Get Your Heat Back With Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort diagnoses and repairs ', { link: 'heating systems', href: '/services/heating/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — so you know the number before we start.'] },
-      { kind: 'p', spans: ['If your heater is showing the signs above, don’t wait for the coldest night to find out. Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we’ll get your home warm again.'] },
+      { kind: 'p', spans: ['If your heater is showing the signs above, don’t wait for the coldest night to find out. Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we’ll get your home warm again.'] },
     ],
     faqs: [
       { q: 'What are the signs of heater failure?', a: 'The main signs are cold or weak air from the vents, strange banging or squealing noises, uneven heat between rooms, rising energy bills, and frequent on-off cycling. Catching them early usually means a repair instead of a full replacement.' },
@@ -1165,7 +1165,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Clear the Air With Degree of Comfort' },
       { kind: 'p', spans: ['If you are seeing stains at the vents, smelling must in every room, or watching your family fight the same symptoms indoors, get the ducts and the moisture behind them checked. Degree of Comfort inspects ductwork and installs ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' solutions across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Worried about mold in your air? Call ', { strong: '(513) 586-5107' }, ', ask about duct inspection and indoor air quality, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Worried about mold in your air? Call ', { strong: '(513) 586-5107' }, ', ask about duct inspection and indoor air quality, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'What causes mold in air ducts?', a: 'Excess moisture from humidity, condensation, leaks, or poor ventilation, combined with the dust and debris inside the ducts that give spores something to feed on.' },
@@ -1216,7 +1216,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Better Sleep Starts With a Comfortable Home' },
       { kind: 'p', spans: ['If your bedroom never quite hits the right temperature or the air feels stuffy no matter what the thermostat says, the equipment may be the problem, not the settings. Degree of Comfort services and installs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' and ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want a home that stays comfortable through the night? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and our team will help you get there.'] },
+      { kind: 'p', spans: ['Want a home that stays comfortable through the night? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and our team will help you get there.'] },
     ],
     faqs: [
       { q: 'How do HVAC systems affect your sleep?', a: 'Your HVAC controls temperature, humidity, and airflow — the three conditions that most affect rest — and quieter equipment cuts down on disruptions.' },
@@ -1276,7 +1276,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Have your gas appliances and lines checked on a schedule, install carbon monoxide detectors near sleeping areas, and never attempt gas connections or repairs yourself. Our guide to ', { link: 'preventive furnace safety', href: '/5-preventive-measures-for-furnace-safety/' }, ' walks through the appliance most people forget to check. When something feels off, an early inspection almost always beats a middle-of-the-night scare.'] },
       { kind: 'h2', text: 'Keep Your Home Safe With Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort inspects, repairs, and replaces gas lines across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — so you know the number before we start.'] },
-      { kind: 'p', spans: ['If you’ve had a leak shut off and need it found and fixed, or you just want your gas appliances checked before winter, call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and our team will take it from there. If you smell gas right now, put this down, get outside, and call 911 first.'] },
+      { kind: 'p', spans: ['If you’ve had a leak shut off and need it found and fixed, or you just want your gas appliances checked before winter, call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and our team will take it from there. If you smell gas right now, put this down, get outside, and call 911 first.'] },
     ],
     faqs: [
       { q: 'What does a gas leak smell like inside a house?', a: 'It smells like rotten eggs or sulfur. Natural gas is odorless, so utilities add a harmless chemical called mercaptan to make leaks easy to detect. If you notice that smell, leave the home and call for help from outside before doing anything else.' },
@@ -1305,7 +1305,7 @@ export const posts: Post[] = [
           [{ strong: 'Neglected ducts recirculate dust, dander, and allergens' }, ' through every room, so the air you breathe carries whatever is sitting in the system.'],
           [{ strong: 'Restricted airflow raises your energy bills' }, ' because the blower and coil have to fight through the buildup to keep up.'],
           [{ strong: 'Most homes need a cleaning every 3 to 5 years' }, ' — sooner with pets, allergies, or a recent renovation.'],
-          [{ strong: 'Cleaning usually costs a few hundred dollars' }, ', and a ', { link: 'free estimate', href: '/free-estimate/' }, ' is the only way to know the exact number for your home.'],
+          [{ strong: 'Cleaning usually costs a few hundred dollars' }, ', and an ', { link: 'estimate', href: '/request-estimate/' }, ' is the only way to know the exact number for your home.'],
         ],
       },
       { kind: 'p', spans: ['If you never clean your air ducts, the short answer is that nothing dramatic happens on day one — but the slow costs add up. Dust and debris collect inside the ductwork, get pushed back into your rooms, and force your heating and cooling system to work harder for the same result. Over time that means worse air quality, higher bills, and more strain on equipment you would rather not replace early. Here is how each of those plays out.'] },
@@ -1326,7 +1326,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Honest note: duct cleaning is not a subscription you need every year, and anyone telling you otherwise is selling. If your ducts are genuinely dirty, restricting airflow, or feeding allergy symptoms, cleaning is money well spent. If they were done recently and the air is fine, your dollars go further on ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' upgrades or a better filter.'] },
       { kind: 'h2', text: 'Get a Straight Answer From Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort cleans, inspects, and improves ductwork and ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — so you know the number before we start.'] },
-      { kind: 'p', spans: ['Not sure whether your ducts actually need it? That is a fair question, and we will tell you the truth either way. Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will take a look.'] },
+      { kind: 'p', spans: ['Not sure whether your ducts actually need it? That is a fair question, and we will tell you the truth either way. Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will take a look.'] },
     ],
     faqs: [
       { q: 'How do you tell if your air ducts need cleaning?', a: 'Plan on cleaning every 3 to 5 years, or sooner if you notice heavy dust buildup, musty odors, or worsening allergy symptoms. Homes with pets or a recent renovation usually need it more often.' },
@@ -1358,7 +1358,7 @@ export const posts: Post[] = [
           [{ strong: 'A good SEER rating starts around 16 for an air conditioner' }, ' and 18 for a heat pump — both comfortably above the ', { strong: '14 SEER' }, ' federal minimum.'],
           [{ strong: 'Higher SEER means lower energy bills' }, ', because the number tells you how much cooling you get per unit of electricity.'],
           [{ strong: 'Higher-rated units cost more upfront' }, ', so the right rating balances the sticker price against years of savings.'],
-          [{ strong: 'The best rating depends on your home and climate' }, ' — a ', { link: 'free in-home estimate', href: '/free-estimate/' }, ' is the only way to know what fits.'],
+          [{ strong: 'The best rating depends on your home and climate' }, ' — an ', { link: 'in-home estimate', href: '/request-estimate/' }, ' is the only way to know what fits.'],
         ],
       },
       { kind: 'p', spans: ['Here is the short answer: a good SEER rating is ', { strong: '16 or higher' }, ' for a central air conditioner and ', { strong: '18 or higher' }, ' for a heat pump. Both sit well above the federal minimum of ', { strong: '14 SEER' }, ', and both cut into your summer electric bill. Whether you should pay for a higher number than that depends on your home, your climate, and how long you plan to stay. Here is how to think about it.'] },
@@ -1382,7 +1382,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Efficiency savings show up over years, not months. If you plan to stay in your home for a decade or more, a higher SEER rating has time to earn its keep. If you may move in a few years, the payback math is tighter, and a good mid-range rating like 16 often makes more sense. Either way, get the system properly sized first — an oversized high-SEER unit will short-cycle and waste the efficiency you paid for. Our post on ', { link: 'what a new air conditioner costs', href: '/how-much-is-a-new-air-conditioner/' }, ' breaks down the full price picture.'] },
       { kind: 'h2', text: 'Get the Right SEER Rating From Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort sizes and installs high-efficiency ', { link: 'AC systems', href: '/services/ac-installation-replacement/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We run a proper load calculation, match the SEER rating to your home and budget, and give you a straight recommendation instead of upselling efficiency you will not use. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Ready to talk numbers? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and our team will help you pick the right rating for your home.'] },
+      { kind: 'p', spans: ['Ready to talk numbers? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and our team will help you pick the right rating for your home.'] },
     ],
     faqs: [
       { q: 'What is a good SEER rating for an air conditioner?', a: 'For most homes, 16 SEER or higher is a good target for a central air conditioner, and 18 or higher for a heat pump — both above the 14 SEER federal minimum.' },
@@ -1434,7 +1434,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['It also helps to have your ', { link: 'temperature settings dialed in', href: '/what-temperature-should-i-set-my-air-conditioner-to-in-the-summer/' }, ' before you start fiddling with fan modes, because the two work together.'] },
       { kind: 'h2', text: 'Talk to Degree of Comfort' },
       { kind: 'p', spans: ['If fan mode isn’t giving you the even, comfortable home you’re after, the problem is usually somewhere else — and that’s worth a look. Degree of Comfort services and installs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we’ll help you sort out what your home actually needs.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we’ll help you sort out what your home actually needs.'] },
     ],
     faqs: [
       { q: 'What does fan mode do?', a: 'Fan mode runs your air conditioner’s blower to circulate air through the house without engaging the compressor, so no new cooling is produced. It’s useful for evening out temperatures and moving air on mild days.' },
@@ -1492,7 +1492,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Here’s the honest part. If your current furnace is only a few years old and running fine, there’s no reason to tear it out just to change the venting. High-efficiency venting matters when you’re installing a new condensing furnace — retrofitting it onto the wrong equipment doesn’t buy you anything. The right move is a load calculation and an in-home look at your venting options before anyone quotes a system.'] },
       { kind: 'h2', text: 'Get It Vented Right by Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'furnace installation and replacement', href: '/services/furnace-installation-replacement/' }, ' — including the PVC venting, slope, drainage, and code clearances — across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Thinking about a new high-efficiency furnace or worried your venting isn’t up to par? Call ', { strong: '(513) 586-5107' }, ', explore our ', { link: 'heating services', href: '/services/heating/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we’ll take a look.'] },
+      { kind: 'p', spans: ['Thinking about a new high-efficiency furnace or worried your venting isn’t up to par? Call ', { strong: '(513) 586-5107' }, ', explore our ', { link: 'heating services', href: '/services/heating/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we’ll take a look.'] },
     ],
     faqs: [
       { q: 'What is high-efficiency furnace venting?', a: 'It’s the sealed PVC or CPVC piping a condensing furnace uses to exhaust combustion gases and, often, to pull in fresh air. Because a 90-plus AFUE furnace extracts so much heat that its exhaust comes out cool and acidic, it can’t use a metal flue or chimney.' },
@@ -1563,7 +1563,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Book Furnace Maintenance With Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ' the thorough way — inspection, cleaning, and a full safety test — across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee. If the visit turns up something that needs fixing, we handle ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ' too, and we tell you straight when a repair beats a replacement.'] },
-      { kind: 'p', spans: ['Ready to get ahead of winter? Call ', { strong: '(513) 586-5107' }, ', ask about a furnace tune-up, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Ready to get ahead of winter? Call ', { strong: '(513) 586-5107' }, ', ask about a furnace tune-up, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'What is included in a furnace tune-up?', a: 'A tune-up includes a full inspection of parts like the heat exchanger, venting, thermostat, and igniter, a cleaning of the filter and blower, and safety tests for carbon monoxide, electrical connections, and safety controls.' },
@@ -1595,7 +1595,7 @@ export const posts: Post[] = [
           [{ strong: 'Zoning sets different temperatures in different areas' }, ' instead of cooling the whole house to one number.'],
           [{ strong: 'It works with thermostats and dampers' }, ' — one thermostat per zone, and dampers that steer air only where it’s wanted.'],
           [{ strong: 'It can cut energy waste and fix hot and cold spots' }, ', which pays off most in larger or multi-level homes.'],
-          [{ strong: 'It costs more upfront' }, ' because of the extra equipment — a ', { link: 'free in-home estimate', href: '/free-estimate/' }, ' is the only way to know your number.'],
+          [{ strong: 'It costs more upfront' }, ' because of the extra equipment — an ', { link: 'in-home estimate', href: '/request-estimate/' }, ' is the only way to know your number.'],
         ],
       },
       { kind: 'p', spans: ['Zoned air conditioning is a system that cools different parts of your home to different temperatures at the same time. Instead of one thermostat deciding the temperature for every room, a zoned setup uses several thermostats and a set of dampers to direct cool air where you want it. If the upstairs bedrooms run hot while the basement stays cold, zoning is built for exactly that problem.'] },
@@ -1621,7 +1621,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['More parts means more things that can eventually need service. The more components you add to a system, the more components that might break, which can nudge maintenance and repair costs up over the years. Honestly, if your home is a single story with even temperatures room to room, a standard system may serve you fine and cost less — zoning solves a comfort problem, and if you don’t have that problem, you don’t need it.'] },
       { kind: 'h2', text: 'Talk Zoning Over With Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort designs and installs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' and zoned cooling systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Wondering whether zoning makes sense for your home? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ', and we’ll look at your layout and tell you honestly what will and won’t help.'] },
+      { kind: 'p', spans: ['Wondering whether zoning makes sense for your home? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ', and we’ll look at your layout and tell you honestly what will and won’t help.'] },
     ],
     faqs: [
       { q: 'What does zoned air conditioning mean?', a: 'It means dividing your home into separate areas, or zones, each with its own temperature control, so you can cool rooms differently instead of setting one temperature for the whole house.' },
@@ -1673,7 +1673,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Not everything needs a pro. Bleeding a radiator that stays cold at the top is a simple job most homeowners can do with a small key and a few minutes. But anything involving the burner, the pressure system, or a suspected leak should go to a licensed technician. If your system is due, our ', { link: 'heating team', href: '/services/heating/' }, ' can service, repair, or replace it.'] },
       { kind: 'h2', text: 'Get Straight Answers From Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort installs, services, and repairs boilers across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — no surprises when the invoice shows up.'] },
-      { kind: 'p', spans: ['Wondering whether your boiler has years left or it’s time to plan a replacement? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we’ll take a look.'] },
+      { kind: 'p', spans: ['Wondering whether your boiler has years left or it’s time to plan a replacement? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we’ll take a look.'] },
     ],
     faqs: [
       { q: 'How does a boiler heat a house?', a: 'A boiler heats water to about 140°F and a circulator pump pushes it through pipes to radiators, baseboards, or radiant floor tubing, where it gives off heat before returning to be reheated.' },
@@ -1702,7 +1702,7 @@ export const posts: Post[] = [
           [{ strong: 'An AC that turns off too quickly is short cycling' }, ' — it starts, runs a few minutes, shuts off, and repeats without finishing a full cooling cycle.'],
           [{ strong: 'The usual suspects are simple' }, ': a clogged air filter, a thermostat issue, low refrigerant, or a unit that’s oversized for the house.'],
           [{ strong: 'It’s hard on the equipment' }, ' — short cycling drives up energy bills, leaves your home humid, and wears out the compressor early.'],
-          [{ strong: 'Start with the filter, then call a pro' }, ' if it keeps happening — and a ', { link: 'free estimate', href: '/free-estimate/' }, ' gets you a real diagnosis.'],
+          [{ strong: 'Start with the filter, then call a pro' }, ' if it keeps happening — and an ', { link: 'estimate', href: '/request-estimate/' }, ' gets you a real diagnosis.'],
         ],
       },
       { kind: 'p', spans: ['Your air conditioner is short cycling. That’s the term for a system that turns on, runs for only a few minutes, shuts off, and then kicks back on again a short time later — over and over, without ever completing a full cooling cycle. A healthy AC runs in longer, steadier stretches. When it stops and starts constantly, something is cutting the cycle short, and it’s usually one of a handful of causes.'] },
@@ -1735,7 +1735,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Here’s the honest version: if the fix is a new filter or a thawed coil, handle it yourself and save the service call. But if you’ve swapped the filter and the AC is still cycling every few minutes, stop guessing. Refrigerant, capacitors, and electrical faults need a licensed technician and the right tools, and running a struggling system only adds wear. That’s the point to get a professional on it.'] },
       { kind: 'h2', text: 'Get Your AC Diagnosed by Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort diagnoses and repairs short cycling across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We find the actual cause — filter, coil, refrigerant, thermostat, or sizing — and fix it right the first time. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['If your AC keeps turning off, call ', { strong: '(513) 586-5107' }, ', learn more about our ', { link: 'AC repair', href: '/services/ac-repair/' }, ' service, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we’ll get your home comfortable again.'] },
+      { kind: 'p', spans: ['If your AC keeps turning off, call ', { strong: '(513) 586-5107' }, ', learn more about our ', { link: 'AC repair', href: '/services/ac-repair/' }, ' service, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we’ll get your home comfortable again.'] },
     ],
     faqs: [
       { q: 'Why does my air conditioner keep turning off too quickly?', a: 'An AC that turns off too quickly is almost always short cycling. The common causes are a dirty air filter, a thermostat problem, low refrigerant, or a system that’s oversized for your home.' },
@@ -1745,7 +1745,7 @@ export const posts: Post[] = [
       { q: 'Can a dirty air filter cause short cycling?', a: 'Yes. A clogged filter restricts airflow, which can freeze the evaporator coil and make the system overheat and shut off early. Swapping the filter is worth trying first. If the problem continues, something else is causing it.' },
       { q: 'Why is AC maintenance important for preventing short cycling?', a: 'Regular maintenance keeps the coil clean, the refrigerant properly charged, and the airflow clear — the exact conditions that prevent short cycling — while catching small issues before they become failures.' },
       { q: 'Can thermostat issues cause my AC to turn off quickly?', a: 'Yes. A thermostat with faulty wiring, a dead battery, or a poor location like direct sunlight can misread the temperature and cut cooling cycles short.' },
-      { q: 'Who should I call if my AC keeps turning off?', a: 'Call a licensed HVAC professional to diagnose and repair short cycling safely, especially when refrigerant or electrical parts are involved. Degree of Comfort serves Cincinnati and the Tri-State with fast, reliable AC repair — call (513) 586-5107 or request a free estimate.' },
+      { q: 'Who should I call if my AC keeps turning off?', a: 'Call a licensed HVAC professional to diagnose and repair short cycling safely, especially when refrigerant or electrical parts are involved. Degree of Comfort serves Cincinnati and the Tri-State with fast, reliable AC repair — call (513) 586-5107 or request an estimate.' },
     ],
   },
 {
@@ -1791,7 +1791,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['The better fix is not letting it freeze in the first place. A yearly tune-up catches a weak charge, a dirty coil, or a tired blower before they ice the system up on the first 90-degree day. Whether that maintenance is worth it is a fair question — we make the honest case in ', { link: 'are AC tune-ups worth it', href: '/do-you-really-need-ac-maintenance-are-ac-tune-ups-worth-it/' }, '.'] },
       { kind: 'h2', text: 'Get Your AC Back to Cooling With Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort diagnoses and repairs frozen air conditioners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — so you know the cost before we start.'] },
-      { kind: 'p', spans: ['Coil iced over again after you thawed it? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC repair', href: '/services/ac-repair/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will find the real cause and fix it.'] },
+      { kind: 'p', spans: ['Coil iced over again after you thawed it? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC repair', href: '/services/ac-repair/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will find the real cause and fix it.'] },
     ],
     faqs: [
       { q: 'Why is my air conditioner icing over?', a: 'It ices over because the evaporator coil has dropped below freezing, usually from restricted airflow or a low refrigerant charge. A dirty filter or blocked vents starve the coil of warm air, and a leak lets the refrigerant run too cold.' },
@@ -1850,7 +1850,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['If the leak is heavy, near electrical panels or wiring, or coming with other symptoms like weak cooling or strange noises, treat it as urgent. When in doubt, turning the AC off protects both your home and the equipment while you wait for ', { link: 'AC repair', href: '/services/ac-repair/' }, '.'] },
       { kind: 'h2', text: 'Get It Fixed by Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort diagnoses and repairs AC leaks across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee, so you know the cost before we start.'] },
-      { kind: 'p', spans: ['If the water keeps coming back or you would rather not chase it yourself, call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and our team will find the source and fix it right.'] },
+      { kind: 'p', spans: ['If the water keeps coming back or you would rather not chase it yourself, call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and our team will find the source and fix it right.'] },
     ],
     faqs: [
       { q: 'Why is my air conditioner leaking water?', a: 'Condensation that should drain outside is getting trapped inside — most often from a clogged drain line, a frozen coil caused by a dirty filter, or a rusted drain pan.' },
@@ -1882,7 +1882,7 @@ export const posts: Post[] = [
           [{ strong: 'The sound tells you the problem' }, ' — screeching usually means worn belts or bearings, gurgling points to refrigerant or drain-line trouble, and clicking that never stops is often an electrical fault.'],
           [{ strong: 'A soft click at startup and steady airflow are normal' }, '. Loud, sudden, or new noises are not.'],
           [{ strong: 'Small noises get expensive when ignored' }, ' — a worn belt is cheap; the compressor it can damage is not.'],
-          [{ strong: 'Note when and where the sound happens' }, ' before you call, and a technician can diagnose it faster. ', { link: 'Request a free estimate', href: '/free-estimate/' }, ' if it keeps up.'],
+          [{ strong: 'Note when and where the sound happens' }, ' before you call, and a technician can diagnose it faster. ', { link: 'Request an estimate', href: '/request-estimate/' }, ' if it keeps up.'],
         ],
       },
       { kind: 'p', spans: ['Your air conditioner makes some noise every time it runs, and most of it is fine. The faint click as it starts, the low hum of the motor, the steady rush of air through the ducts — those are the sounds of a healthy system. The noises worth worrying about are the new ones: a screech, a rattle, a gurgle, a bang. Each of those points to a different part, and knowing which is which tells you how urgent the fix is.'] },
@@ -1903,7 +1903,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Most of these problems trace back to normal wear that regular service catches early. A tune-up tightens belts, cleans coils, checks the electrical connections, and confirms the refrigerant charge — the same things that cause the noises above. If you are weighing whether it is worth it, we broke down ', { link: 'whether AC tune-ups pay off', href: '/do-you-really-need-ac-maintenance-are-ac-tune-ups-worth-it/' }, ', and there are also simple ', { link: 'habits that extend the life of your AC', href: '/how-to-extend-the-life-of-your-ac-unit/' }, ' between visits.'] },
       { kind: 'h2', text: 'Get a Noisy AC Diagnosed by Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort diagnoses and fixes noisy air conditioners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee, so you know the cost before we start and there are no surprises on the bill.'] },
-      { kind: 'p', spans: ['If your system is screeching, rattling, or gurgling, call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC repair', href: '/services/ac-repair/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will track the sound down for you.'] },
+      { kind: 'p', spans: ['If your system is screeching, rattling, or gurgling, call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC repair', href: '/services/ac-repair/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will track the sound down for you.'] },
     ],
     faqs: [
       { q: 'Why is my air conditioner making noise?', a: 'Most abnormal AC noises come from loose or worn parts, trapped debris, a failing motor, or a refrigerant or drain-line issue. The specific sound points to the cause.' },
@@ -1961,7 +1961,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['If the fan is on AUTO, the filter is clean, the ducts look fine, and the furnace is still blowing cold, it is time to bring someone in. Persistent cold air can signal a cracked heat exchanger, a failing control board, or a gas-supply problem — none of which are safe to chase on your own. And if the unit is well past its prime, our writeup on ', { link: 'how long furnaces last', href: '/how-long-do-furnaces-last/' }, ' can help you weigh repair against replacement.'] },
       { kind: 'h2', text: 'Get Your Heat Back With Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort diagnoses and repairs furnaces across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — so you know the cost before we start.'] },
-      { kind: 'p', spans: ['Still getting cold air from the vents? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will get your heat working right.'] },
+      { kind: 'p', spans: ['Still getting cold air from the vents? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will get your heat working right.'] },
     ],
     faqs: [
       { q: 'Why is my furnace blowing cold air?', a: 'Usually the thermostat fan is set to ON instead of AUTO, so the blower runs even between heating cycles and pushes unheated air. A clogged filter, leaky ducts, or a pilot and flame-sensor problem on gas units are the other common causes.' },
@@ -2015,7 +2015,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Get an Honest Recommendation From Degree of Comfort' },
       { kind: 'p', spans: ['The right answer is different for every home, and it comes down to the real age and condition of your two units — not a rule of thumb. Degree of Comfort evaluates both systems and gives you a straight recommendation, then handles ', { link: 'AC installation', href: '/services/ac-installation-replacement/' }, ' and ', { link: 'furnace installation', href: '/services/furnace-installation-replacement/' }, ' with upfront, flat-rate pricing. We serve Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Wondering whether to replace one or both? Call ', { strong: '(513) 586-5107' }, ', ask for a system evaluation, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Wondering whether to replace one or both? Call ', { strong: '(513) 586-5107' }, ', ask for a system evaluation, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'Should I replace my furnace and AC at the same time?', a: 'If both are near the end of their lives, usually yes — matched systems work better together and often cost less to install than two separate replacements.' },
@@ -2071,7 +2071,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Weather Damage? Call Degree of Comfort' },
       { kind: 'p', spans: ['When a storm or a hard freeze catches your plumbing off guard, fast repair keeps a bad day from becoming an expensive one. Degree of Comfort handles ', { link: 'plumbing', href: '/services/plumbing/' }, ' and ', { link: 'emergency plumbing', href: '/services/emergency-plumbing/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Dealing with weather-related plumbing trouble? Call ', { strong: '(513) 586-5107' }, ', ask about a plumbing inspection, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Dealing with weather-related plumbing trouble? Call ', { strong: '(513) 586-5107' }, ', ask about a plumbing inspection, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
   },
   {
@@ -2115,7 +2115,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Build a Career or Book a Service With Degree of Comfort' },
       { kind: 'p', spans: ['Whether you want to start a career in the trades or just want your home handled by people who are trained to do it right, Degree of Comfort is here. We are family-owned, licensed and insured, serving Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Interested in the program? Visit ', { link: 'Degree of Comfort University', href: '/university' }, '. Need service instead? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Interested in the program? Visit ', { link: 'Degree of Comfort University', href: '/university' }, '. Need service instead? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'What is Degree of Comfort University?', a: 'It is a paid training and apprenticeship program designed to develop skilled HVAC, plumbing, and electrical technicians. It focuses on real-world knowledge, safety, and best practices, which helps Degree of Comfort deliver higher-quality service to homeowners.' },
@@ -2172,7 +2172,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Get Comfortable, Balanced Air With Degree of Comfort' },
       { kind: 'p', spans: ['If your home stays muggy no matter what you try, the fix is usually a properly sized system and the right moisture-control equipment. Degree of Comfort evaluates humidity issues and installs ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' solutions, including whole-house dehumidifiers, across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Tired of sticky, muggy air? Call ', { strong: '(513) 586-5107' }, ', ask about humidity control and indoor air quality, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Tired of sticky, muggy air? Call ', { strong: '(513) 586-5107' }, ', ask about humidity control and indoor air quality, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'How do you fix a humidity problem in your house?', a: 'Improve ventilation, use your AC properly, seal air leaks, and consider a whole-home dehumidifier — persistent humidity usually needs a professional solution.' },
@@ -2226,7 +2226,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Breathe Easier With Degree of Comfort' },
       { kind: 'p', spans: ['Your air conditioner helps your air quality, but keeping it clean — and knowing when to add more — is where a professional comes in. Degree of Comfort maintains and repairs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems and installs full ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' solutions across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want genuinely cleaner air at home? Call ', { strong: '(513) 586-5107' }, ', ask about AC maintenance and indoor air quality, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Want genuinely cleaner air at home? Call ', { strong: '(513) 586-5107' }, ', ask about AC maintenance and indoor air quality, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'Do air conditioners improve indoor air quality?', a: 'They can, by filtering out dust, pollen, and airborne particles as air circulates through the system — but how much depends on filter quality and regular maintenance.' },
@@ -2298,7 +2298,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Keep Your Air Clean With Degree of Comfort' },
       { kind: 'p', spans: ['A fresh filter is the easiest win in home comfort, but if the warning signs stick around after a change, the system itself may need attention. Degree of Comfort handles ', { link: 'HVAC maintenance', href: '/services/furnace-maintenance/' }, ', repairs, and ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want cleaner air and a system that runs right? Call ', { strong: '(513) 586-5107' }, ', ask about a maintenance visit, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Want cleaner air and a system that runs right? Call ', { strong: '(513) 586-5107' }, ', ask about a maintenance visit, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'How often should I change my home air filter?', a: 'Most homeowners should change it every 1 to 3 months, depending on filter type, pets, allergies, and system usage. Regular replacement maintains airflow and efficiency.' },
@@ -2330,7 +2330,7 @@ export const posts: Post[] = [
           [{ strong: 'Total Avg Cost (Equipment and Installation): $9,000' }, ' — though the range is wide, since your home, ductwork, and efficiency choice move the number.'],
           [{ strong: 'Size drives cost' }, ': homes need roughly one ton of cooling per 500 to 600 square feet, and bigger systems cost more.'],
           [{ strong: 'A higher SEER rating costs more upfront' }, ' but lowers your energy bills — going from an old unit to modern efficiency can cut cooling costs by up to 30%.'],
-          [{ strong: 'A free, in-home estimate is the only exact number' }, ' — and ', { link: 'financing', href: '/can-you-finance-an-hvac-system/' }, ' can spread the cost out.'],
+          [{ strong: 'An in-home estimate is the only exact number' }, ' — and ', { link: 'financing', href: '/can-you-finance-an-hvac-system/' }, ' can spread the cost out.'],
         ],
       },
       { kind: 'p', spans: ['There is no single sticker price, but here is a straight answer: a new central air conditioner, equipment and professional installation together, commonly runs somewhere in the neighborhood of ', { strong: '$9,000' }, '. Your actual cost can land well above or below that depending on a few things. Here is what moves the number, and how to figure out where your home falls.'] },
@@ -2345,7 +2345,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Air conditioners are rated by SEER (Seasonal Energy Efficiency Ratio), and higher is more efficient. New units start at a minimum SEER of 13, while models rated 16 or higher are considered highly efficient. A higher SEER costs more upfront but pays you back on every energy bill — upgrading from an older, low-efficiency unit to a modern one can cut annual cooling costs by up to 30%. The right balance depends on how long you plan to stay and how hot your summers run.'] },
 
       { kind: 'h2', text: 'A Realistic Ballpark' },
-      { kind: 'p', spans: ['Putting it together, a typical full replacement — a right-sized, efficient system installed by professionals — tends to average around $9,000. But averages hide a lot: a small home with good ducts and a standard-efficiency unit can come in well under that, while a large home needing ductwork and a high-efficiency system runs higher. The only way to know your number is a ', { link: 'free in-home estimate', href: '/free-estimate/' }, ', where a technician sizes the system to your home and quotes it with upfront, flat-rate pricing — no surprises.'] },
+      { kind: 'p', spans: ['Putting it together, a typical full replacement — a right-sized, efficient system installed by professionals — tends to average around $9,000. But averages hide a lot: a small home with good ducts and a standard-efficiency unit can come in well under that, while a large home needing ductwork and a high-efficiency system runs higher. The only way to know your number is an ', { link: 'in-home estimate', href: '/request-estimate/' }, ', where a technician sizes the system to your home and quotes it with upfront, flat-rate pricing — no surprises.'] },
 
       { kind: 'h2', text: 'Maintenance and Ongoing Costs' },
       { kind: 'p', spans: ['The purchase is not the end of the math. Budget for routine upkeep — an annual tune-up and regular filter changes — which keeps the system efficient and protects its lifespan, so you get the full return on what you paid. Skipping maintenance is the fastest way to shorten an expensive system’s life. Our guide on ', { link: 'whether AC tune-ups are worth it', href: '/do-you-really-need-ac-maintenance-are-ac-tune-ups-worth-it/' }, ' covers why that small yearly cost pays off.'] },
@@ -2354,8 +2354,8 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['If your current unit is on its way out, the question is whether to keep fixing it or start fresh. Repairing makes sense for a newer unit with a small, inexpensive problem. Replacement is usually the better value once a unit is past roughly 12 to 17 years, needs frequent repairs, or has slipped in efficiency — a new system is more reliable and cheaper to run. Our guide on ', { link: 'whether to replace an old air conditioner', href: '/should-i-replace-my-old-air-conditioner/' }, ' walks through how to decide.'] },
 
       { kind: 'h2', text: 'Get an Exact Price From Degree of Comfort' },
-      { kind: 'p', spans: ['The honest answer to what a new AC costs is a number a technician gives you after seeing your home — not a figure off a website. Degree of Comfort sizes and installs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems with upfront, flat-rate pricing and free in-home estimates across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with a satisfaction guarantee, and ', { link: 'financing', href: '/can-you-finance-an-hvac-system/' }, ' is available to spread the cost out.'] },
-      { kind: 'p', spans: ['Ready for a real number? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC installation', href: '/services/ac-installation-replacement/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['The honest answer to what a new AC costs is a number a technician gives you after seeing your home — not a figure off a website. Degree of Comfort sizes and installs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems with upfront, flat-rate pricing and in-home estimates across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with a satisfaction guarantee, and ', { link: 'financing', href: '/can-you-finance-an-hvac-system/' }, ' is available to spread the cost out.'] },
+      { kind: 'p', spans: ['Ready for a real number? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC installation', href: '/services/ac-installation-replacement/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'How much does a new air conditioner unit cost?', a: 'It depends on system size, efficiency rating, and installation needs, but most homeowners can expect to invest several thousand dollars, often around $9,000 installed.' },
@@ -2413,7 +2413,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Dry, Comfortable Air With Degree of Comfort' },
       { kind: 'p', spans: ['If your home feels muggy, smells musty, or you are constantly emptying a portable unit, a whole-home dehumidifier is worth a look. Degree of Comfort sizes and installs whole-home dehumidifiers and indoor air quality systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Ready to dry out the house? Call ', { strong: '(513) 586-5107' }, ', ask about a whole-home dehumidifier and indoor air quality, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Ready to dry out the house? Call ', { strong: '(513) 586-5107' }, ', ask about a whole-home dehumidifier and indoor air quality, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
   },
   {
@@ -2461,7 +2461,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Stay Comfortable and Efficient With Degree of Comfort' },
       { kind: 'p', spans: ['If your AC is struggling to hold the temperature you set, or you want a smart thermostat installed and dialed in, Degree of Comfort can help. We service, repair, and tune ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems and install thermostats across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want a cooler, cheaper summer? Call ', { strong: '(513) 586-5107' }, ', ask about a thermostat upgrade or ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Want a cooler, cheaper summer? Call ', { strong: '(513) 586-5107' }, ', ask about a thermostat upgrade or ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'What temperature should I set my air conditioner to in the summer?', a: 'The recommended setting is 78°F when you are home, which balances comfort and energy efficiency.' },
@@ -2525,7 +2525,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Keep Your Basement Dry With Degree of Comfort' },
       { kind: 'p', spans: ['Some of this is a weekend of gutter-cleaning and caulk; the sump pump and drainage side is where a professional pays off. Degree of Comfort installs and services ', { link: 'sump pumps', href: '/services/sump-pumps/' }, ', clears drains, and handles ', { link: 'plumbing', href: '/services/plumbing/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want your basement ready before summer storms? Call ', { strong: '(513) 586-5107' }, ', ask about a sump pump check, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Want your basement ready before summer storms? Call ', { strong: '(513) 586-5107' }, ', ask about a sump pump check, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'What is the number one cause of basement flooding?', a: 'Sump pump failure is the leading cause of most basement floods, often because the pump is clogged, worn out, or knocked out by a storm-related power outage.' },
@@ -2587,7 +2587,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Get Your Cool Air Back With Degree of Comfort' },
       { kind: 'p', spans: ['If the easy checks did not solve it, Degree of Comfort can diagnose why your ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' is blowing warm and fix it right the first time. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Ready to feel cold air again? Call ', { strong: '(513) 586-5107' }, ', ask about AC repair, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Ready to feel cold air again? Call ', { strong: '(513) 586-5107' }, ', ask about AC repair, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'Why is my air conditioner blowing warm air?', a: 'An air conditioner may blow warm air due to low refrigerant, a dirty air filter, thermostat issues, or a problem with the outdoor unit. Electrical or compressor issues can also be the cause.' },
@@ -2641,7 +2641,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Get Winter-Ready With Degree of Comfort' },
       { kind: 'p', spans: ['A few of these steps you can handle in an afternoon; the tune-up is one to leave to a professional. Degree of Comfort services, repairs, and installs ', { link: 'heating', href: '/services/heating/' }, ' systems and gets them ready for winter across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee. For more on keeping the system running clean, see ', { link: 'how often to change your furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, '.'] },
-      { kind: 'p', spans: ['Want your heat ready before the cold hits? Call ', { strong: '(513) 586-5107' }, ', ask about a fall heating tune-up, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Want your heat ready before the cold hits? Call ', { strong: '(513) 586-5107' }, ', ask about a fall heating tune-up, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'How dangerous is a furnace heating system?', a: 'A furnace is safe when properly maintained, but it can be dangerous if neglected — the risks include gas leaks, carbon monoxide exposure, and fire hazards. Annual professional inspections help prevent these issues.' },
@@ -2701,7 +2701,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Breathe Easier With Degree of Comfort' },
       { kind: 'p', spans: ['If your AC smells musty, your allergies spike whenever it runs, or it has been more than a year since it was serviced, it is worth having a professional look. Degree of Comfort cleans, maintains, and repairs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems and installs indoor air quality upgrades that keep your home healthy. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want cleaner, healthier air at home? Call ', { strong: '(513) 586-5107' }, ', ask about AC maintenance and indoor air quality, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Want cleaner, healthier air at home? Call ', { strong: '(513) 586-5107' }, ', ask about AC maintenance and indoor air quality, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'Can your air conditioner make you sick?', a: 'Yes, if it circulates dirty air, mold, or allergens. Poor maintenance lets contaminants build up in the coils and drain line and spread through your home.' },
@@ -2763,7 +2763,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Thinking About Going Tankless? Talk to Degree of Comfort' },
       { kind: 'p', spans: ['If you are tired of running out of hot water or want back the space a tank is taking up, a ', { link: 'tankless water heater', href: '/services/tankless-water-heater/' }, ' is worth a serious look. Degree of Comfort can size, install, and maintain the right unit for your home. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Ready for endless hot water? Call ', { strong: '(513) 586-5107' }, ', ask about tankless installation, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Ready for endless hot water? Call ', { strong: '(513) 586-5107' }, ', ask about tankless installation, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'How does a tankless water heater work?', a: 'It heats water on demand instead of storing it. When you open a hot tap, a sensor detects the water flow, the gas burner or electric element fires up, the water passes over a heat exchanger that warms it instantly, and the hot water goes straight to your tap.' },
@@ -2822,7 +2822,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Add Whole-Home Comfort With Degree of Comfort' },
       { kind: 'p', spans: ['If dry winter air, static, or cracking woodwork are wearing on your household, a whole-home humidifier is one of the more worthwhile comfort upgrades you can make. Degree of Comfort can recommend, size, and install the right unit for your home. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Ready for comfortable air in every room? Call ', { strong: '(513) 586-5107' }, ', ask about a whole-home humidifier and ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Ready for comfortable air in every room? Call ', { strong: '(513) 586-5107' }, ', ask about a whole-home humidifier and ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'How does a whole-home humidifier work?', a: 'It connects to your HVAC system, water supply, and ductwork. As the furnace moves warm air through the home, the humidifier adds moisture to that airflow — usually across a wet pad — and the ducts carry the humidified air to every room, held at the level you set on a humidistat.' },
@@ -2886,7 +2886,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Not Sure Which You Need? Ask Degree of Comfort' },
       { kind: 'p', spans: ['A quick assessment takes the guesswork out of it. Degree of Comfort runs a camera to see the clog, then clears it the right way — snaking or hydro jetting — without over-selling. We handle all ', { link: 'drain and sewer', href: '/services/drains/' }, ' work for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Got a clog that will not quit? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Got a clog that will not quit? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'Snaking or hydro jetting — which is better?', a: 'Neither is universally better; it depends on the job. Snaking is best for a simple, localized clog and gentler on fragile pipes. Hydro jetting is more thorough for heavy grease, sludge, or roots and lasts longer, but costs more and needs pipes sound enough to take the pressure.' },
@@ -2951,7 +2951,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Time to Replace? Talk to Degree of Comfort' },
       { kind: 'p', spans: ['If your furnace is past 15 years or showing the signs, Degree of Comfort will give you an honest assessment — including when a repair still makes sense. We handle furnace ', { link: 'repair', href: '/services/furnace-repair/' }, ', maintenance, and ', { link: 'replacement', href: '/services/furnace-installation-replacement/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Wondering how much life is left in yours? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'heating', href: '/services/heating/' }, ' service, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will give you a straight answer.'] },
+      { kind: 'p', spans: ['Wondering how much life is left in yours? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'heating', href: '/services/heating/' }, ' service, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will give you a straight answer.'] },
     ],
     faqs: [
       { q: 'How long do furnaces last?', a: 'Most furnaces last 15 to 20 years. Gas units typically run 10 to 20 years and electric ones often longer, with regular maintenance being the biggest factor in reaching the high end of that range.' },
@@ -3012,7 +3012,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Keep Your Pipes Safe With Degree of Comfort' },
       { kind: 'p', spans: ['Whether you want your home winterized or you are dealing with a frozen or burst pipe right now, Degree of Comfort can help. We handle ', { link: 'pipe insulation, repair, and replacement', href: '/services/pipe-repair-replacement/' }, ' for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want peace of mind before the cold hits? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'plumbing', href: '/services/plumbing/' }, ' winterization, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Want peace of mind before the cold hits? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'plumbing', href: '/services/plumbing/' }, ' winterization, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'At what temperature do pipes freeze?', a: 'Pipes are generally at risk once the outside temperature drops below about 20°F for several hours, though poorly insulated pipes in drafty spots can freeze sooner. The colder and longer the freeze, the higher the risk.' },
@@ -3070,7 +3070,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Frozen or Burst Pipe? Call Degree of Comfort' },
       { kind: 'p', spans: ['A frozen pipe can turn into a flooded home fast, and it is not always a job to tackle alone. Degree of Comfort handles frozen, cracked, and burst pipes, and offers ', { link: 'emergency plumbing', href: '/services/emergency-plumbing/' }, ' when you need it most. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Dealing with a frozen or burst pipe? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'plumbing repair', href: '/services/plumbing-repair/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Dealing with a frozen or burst pipe? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'plumbing repair', href: '/services/plumbing-repair/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'Should you turn off the water if pipes are frozen?', a: 'Yes. Shutting off the main water supply relieves the pressure building behind the ice and, if a pipe has already cracked, limits how much water floods your home when it thaws. Leave it off until the pipe is thawed and you have confirmed there is no leak.' },
@@ -3129,7 +3129,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Stop the Leak With Degree of Comfort' },
       { kind: 'p', spans: ['Whether it is a running tank or water pooling at the base, Degree of Comfort can find the source and fix it for good. We handle toilet and all other ', { link: 'plumbing', href: '/services/plumbing/' }, ' repairs for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Dealing with a leaky toilet? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'plumbing repair', href: '/services/plumbing-repair/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Dealing with a leaky toilet? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'plumbing repair', href: '/services/plumbing-repair/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'How do I tell where my toilet is leaking from?', a: 'Look at where the water is. Water on the floor around the base points to a failed wax ring underneath. A toilet that constantly runs or trickles into the bowl points to the flapper or fill valve inside the tank. A dye tablet in the tank confirms a silent tank-to-bowl leak.' },
@@ -3188,7 +3188,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Keep Your AC in Top Shape With Degree of Comfort' },
       { kind: 'p', spans: ['If your air conditioner is due for a tune-up, Degree of Comfort can get it ready before the heat hits — and give you a straight answer on its condition. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Ready to schedule? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Ready to schedule? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'Do you really need AC maintenance?', a: 'For almost every home, yes. Regular professional service prevents breakdowns, keeps energy bills down, and extends the system’s lifespan. Skipping it is what leads to the surprise failures and big repair bills during peak summer.' },
@@ -3248,7 +3248,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Protect Your Sewer Line With Degree of Comfort' },
       { kind: 'p', spans: ['Whether you need a cleanout installed, a line cleared, or a camera inspection to see what is going on, Degree of Comfort can help. We handle ', { link: 'drain', href: '/services/drains/' }, ' and sewer service for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want your sewer line checked or a cleanout installed? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ' and inspections, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Want your sewer line checked or a cleanout installed? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ' and inspections, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'Where is my main drain cleanout located?', a: 'Look for a short capped pipe — usually white PVC or cast iron with a threaded or square cap — in the basement or crawlspace where the main line exits, in the yard between the house and the street, or near the foundation. Some homes have it in the garage or just outside an exterior wall.' },
@@ -3309,7 +3309,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Stop the Drip With Degree of Comfort' },
       { kind: 'p', spans: ['If the drip will not quit or you would rather not take the faucet apart, Degree of Comfort can fix or replace it fast. We handle ', { link: 'faucet repair and replacement', href: '/services/faucet-repair-replacement/' }, ' and all other ', { link: 'plumbing', href: '/services/plumbing/' }, ' needs for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Tired of the drip? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'faucet repair', href: '/services/faucet-repair-replacement/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Tired of the drip? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'faucet repair', href: '/services/faucet-repair-replacement/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'How much water does a dripping faucet waste?', a: 'More than you would think. A faucet dripping about once per second wastes over 3,000 gallons a year, which shows up on your water bill. That is why even a slow drip is worth fixing rather than living with.' },
@@ -3376,7 +3376,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Add Value With Degree of Comfort' },
       { kind: 'p', spans: ['Whether you are preparing to sell or just want a home that runs better, Degree of Comfort can handle the plumbing upgrades that pay off — water heaters, water quality, fixtures, repipes, and more. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Ready to invest in your home? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'plumbing', href: '/services/plumbing/' }, ' upgrades, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Ready to invest in your home? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'plumbing', href: '/services/plumbing/' }, ' upgrades, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'Which plumbing upgrades add the most home value?', a: 'A modern or tankless water heater, a water softener or filtration system, updated fixtures, and sound, leak-free pipes tend to deliver the most. They lower a buyer’s risk and running costs, which is what raises offers and speeds up a sale.' },
@@ -3442,7 +3442,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Breathe Easier With Degree of Comfort' },
       { kind: 'p', spans: ['If dust, allergies, odors, or stuffy air are wearing on your household, a whole-home air purifier is one of the most worthwhile upgrades you can make. Degree of Comfort can assess your air quality and recommend, size, and install the right ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' solution for your home. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Ready to clear the air? Call ', { strong: '(513) 586-5107' }, ', ask about a whole-home air purifier, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Ready to clear the air? Call ', { strong: '(513) 586-5107' }, ', ask about a whole-home air purifier, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'What are the benefits of having an air purifier?', a: 'An air purifier removes airborne pollutants like dust, pollen, pet dander, mold spores, and smoke, which means fewer allergy and asthma triggers, better sleep, neutralized odors, and support for long-term respiratory health. A whole-home unit on your HVAC protects every room.' },
@@ -3515,13 +3515,13 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Keep Your Plumbing Flowing With Degree of Comfort' },
       { kind: 'p', spans: ['A clogged main drain only gets worse and messier the longer it waits. Degree of Comfort can locate the blockage with a camera, clear it with the right equipment, and handle any ', { link: 'sewer line repair', href: '/services/sewer-repair-replacement/' }, ' the inspection turns up. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Seeing the warning signs? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Seeing the warning signs? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'How do I know if it is my main drain or just one fixture?', a: 'Check how many drains are affected. A single slow or clogged sink is a local problem. When multiple fixtures act up at once — slow drains, gurgling toilets, or water backing up when you use another fixture — the blockage is in the main line that serves the whole house.' },
       { q: 'Can I clear a main drain clog myself?', a: 'A main-line clog is generally not a DIY fix. A plunger or hand auger can clear a single fixture, but the main line needs a camera to locate the blockage and a powered auger or hydro jetting to clear it. Avoid chemical drain cleaners, which rarely work on a main clog and can damage pipes.' },
       { q: 'How do plumbers clear a clogged main drain?', a: 'A plumber typically runs a camera down the line to find the blockage, then clears it with a motorized auger or high-pressure hydro jetting. If the camera shows cracked, collapsed, or root-invaded pipe, the fix may be a repair or replacement rather than just a cleaning.' },
-      { q: 'How much does it cost to clear a main sewer line?', a: 'It depends on the cause, the severity, and whether the pipe is damaged, so the range is wide. A camera inspection and a free estimate give you a real number before any work starts.' },
+      { q: 'How much does it cost to clear a main sewer line?', a: 'It depends on the cause, the severity, and whether the pipe is damaged, so the range is wide. A camera inspection and an estimate give you a real number before any work starts.' },
       { q: 'Who should I call for a clogged main drain?', a: 'A licensed plumber with main-line equipment, not a handyman or a bottle of drain cleaner. Degree of Comfort handles main drain and sewer cleaning, camera inspections, and repairs across the Tri-State, with upfront flat-rate pricing and a satisfaction guarantee — call (513) 586-5107.' },
     ],
   },
@@ -3573,7 +3573,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Clear the Air With Degree of Comfort' },
       { kind: 'p', spans: ['If your air conditioner smells bad and a fresh filter has not fixed it, Degree of Comfort can track down the source and clear it safely — from a coil cleaning to a refrigerant or electrical repair. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want it sorted before it spreads? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC maintenance or repair', href: '/services/ac-repair/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Want it sorted before it spreads? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC maintenance or repair', href: '/services/ac-repair/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'Why does my air conditioner smell bad?', a: 'The smell points to the cause: musty means mold or mildew, rotten means a pest died inside, chemical or sweet means a refrigerant leak, burning means an electrical problem, and a stale smell often just means a dirty filter. A professional inspection pinpoints which one you are dealing with.' },
@@ -3649,10 +3649,10 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Thinking About Going Tankless? Call Degree of Comfort' },
       { kind: 'p', spans: ['The best way to know if tankless is worth it for your home is an honest assessment of your hot-water needs and your existing setup. Degree of Comfort installs and services both ', { link: 'tankless', href: '/services/tankless-water-heater/' }, ' and traditional water heaters, and we will tell you straight which one fits your home and budget. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Ready to weigh your options? Call ', { strong: '(513) 586-5107' }, ', ask about a ', { link: 'tankless water heater', href: '/services/tankless-water-heater/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team walk you through it.'] },
+      { kind: 'p', spans: ['Ready to weigh your options? Call ', { strong: '(513) 586-5107' }, ', ask about a ', { link: 'tankless water heater', href: '/services/tankless-water-heater/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team walk you through it.'] },
     ],
     faqs: [
-      { q: 'How much does it cost to install a tankless water heater?', a: 'A tankless unit and its installation cost more upfront than a standard tank, often because of gas, electrical, or venting upgrades. The energy savings and longer lifespan usually offset that over time. A free estimate gives you an exact figure.' },
+      { q: 'How much does it cost to install a tankless water heater?', a: 'A tankless unit and its installation cost more upfront than a standard tank, often because of gas, electrical, or venting upgrades. The energy savings and longer lifespan usually offset that over time. An estimate gives you an exact figure.' },
       { q: 'Can a tankless water heater run out of hot water?', a: 'It will not run out the way a tank does, since it heats continuously. What it can do is hit its flow-rate limit if too many fixtures run at once on an undersized unit. Sizing the heater to your household — or adding a second — keeps every outlet hot.' },
       { q: 'How long does a tankless water heater last?', a: 'A well-maintained tankless unit often lasts 20 years or more, compared with about 10 to 15 for a tank. That longer lifespan is part of why the higher upfront cost tends to pay off over time.' },
       { q: 'Is a tankless water heater worth it for a small household?', a: 'It can be a great fit. Smaller homes benefit from the space savings and lower bills, and an electric tankless model is often simple to install. If your current tank works fine and budget is tight, a standard replacement may still make more sense for now.' },
@@ -3727,11 +3727,11 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Not Sure? Let Degree of Comfort Take a Look' },
       { kind: 'p', spans: ['If you are on the fence, the honest answer comes from an inspection, not a guess — and we will tell you when a repair still makes sense rather than push a sale. Degree of Comfort handles AC repair, replacement, and ', { link: 'installation', href: '/services/ac-installation-replacement/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Wondering if it is time? Call ', { strong: '(513) 586-5107' }, ', ask about a new ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' system, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will give you a straight answer.'] },
+      { kind: 'p', spans: ['Wondering if it is time? Call ', { strong: '(513) 586-5107' }, ', ask about a new ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' system, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will give you a straight answer.'] },
     ],
     faqs: [
       { q: 'Should I replace my old air conditioner?', a: 'If it is roughly 15 to 20 years old, breaking down often, or losing efficiency, replacement is usually the smarter move. A newer unit with a minor problem is worth repairing. A professional inspection is the best way to know which side of the line yours falls on.' },
-      { q: 'How much does it cost to replace an air conditioner?', a: 'It depends on the size and efficiency of the unit and your home, but a full replacement typically runs several thousand dollars. A free in-home estimate gives you an exact figure, and financing can spread the cost into monthly payments.' },
+      { q: 'How much does it cost to replace an air conditioner?', a: 'It depends on the size and efficiency of the unit and your home, but a full replacement typically runs several thousand dollars. An in-home estimate gives you an exact figure, and financing can spread the cost into monthly payments.' },
       { q: 'How long does it take to replace an air conditioner?', a: 'A straightforward AC replacement usually takes about a day. More complex jobs — added ductwork or difficult access — can run longer. We confirm the timeline with you before the work begins.' },
       { q: 'Is it better to repair or replace an old AC?', a: 'Repair makes sense for a newer system with a small, one-time issue. Replacement is the better value for an older unit with recurring problems or a major failure, since modern systems are far more efficient and reliable.' },
       { q: 'Will a new air conditioner lower my energy bills?', a: 'Yes. Modern air conditioners are significantly more efficient than older models, so a new unit usually delivers the same or better cooling while using less electricity — which shows up as lower summer bills.' },
@@ -3789,7 +3789,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Questions About Your Water Heater? Call Degree of Comfort' },
       { kind: 'p', spans: ['Whether you want a more outage-ready water heater or just need yours serviced, Degree of Comfort can help. We handle water heater ', { link: 'repair', href: '/services/water-heater-repair/' }, ', replacement, and installation for tank and tankless systems, and our ', { link: 'plumbing', href: '/services/plumbing/' }, ' and electrical teams can set your home up to handle the next outage. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want to be ready before the next storm? Call ', { strong: '(513) 586-5107' }, ', ask about your ', { link: 'water heater options', href: '/services/water-heater-installation/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Want to be ready before the next storm? Call ', { strong: '(513) 586-5107' }, ', ask about your ', { link: 'water heater options', href: '/services/water-heater-installation/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'Can you take a shower during a power outage?', a: 'In most cases, yes, if your home is on city water and has a tank-style water heater. The city keeps water pressurized, and a tank holds hot water you can use. Homes on a well pump lose water pressure during an outage, so a shower is not possible until power returns.' },
@@ -3866,7 +3866,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Protect Your Basement With Degree of Comfort' },
       { kind: 'p', spans: ['A working sump pump is cheap insurance against an expensive flood. Degree of Comfort repairs, replaces, and maintains ', { link: 'sump pumps', href: '/services/sump-pumps/' }, ', and installs battery backups so yours is ready when the rain comes. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want yours checked before the next storm? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'sump pump service', href: '/services/sump-pumps/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Want yours checked before the next storm? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'sump pump service', href: '/services/sump-pumps/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'Why is my sump pump running but not pumping water?', a: 'If the motor runs but no water leaves the pit, the discharge pipe is usually clogged or frozen, or the impeller is jammed or worn. Clear the discharge line first; if it still will not move water, the pump likely needs professional repair.' },
@@ -3929,7 +3929,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Keep Your Furnace Safe With Degree of Comfort' },
       { kind: 'p', spans: ['The simplest way to check every box on this list is an annual tune-up from a licensed team. Degree of Comfort handles furnace ', { link: 'maintenance', href: '/services/furnace-maintenance/' }, ', repair, and replacement, and we will tell you honestly when a unit is still safe and when it is not. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want peace of mind before winter? Call ', { strong: '(513) 586-5107' }, ', ask about a ', { link: 'furnace safety inspection', href: '/services/furnace-maintenance/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Want peace of mind before winter? Call ', { strong: '(513) 586-5107' }, ', ask about a ', { link: 'furnace safety inspection', href: '/services/furnace-maintenance/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'Do furnaces have safety features?', a: 'Yes. Modern gas furnaces include built-in safeguards like flame sensors and limit switches that shut the system down when temperatures or conditions become unsafe. They only work reliably when the furnace is inspected and maintained, which is why annual service matters.' },
@@ -3995,11 +3995,11 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Upgrade Now, Pay Over Time With Degree of Comfort' },
       { kind: 'p', spans: ['If your system is on its last legs or you are ready to upgrade, you should not have to choose between comfort and affordability. Degree of Comfort offers flexible financing alongside honest, flat-rate pricing. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with a satisfaction guarantee on every job.'] },
-      { kind: 'p', spans: ['Ready to talk options? Call ', { strong: '(513) 586-5107' }, ', explore our ', { link: 'financing', href: '/financing' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will walk you through it.'] },
+      { kind: 'p', spans: ['Ready to talk options? Call ', { strong: '(513) 586-5107' }, ', explore our ', { link: 'financing', href: '/financing' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will walk you through it.'] },
     ],
     faqs: [
       { q: 'Can you finance an HVAC system?', a: 'Yes. You can finance a new HVAC system through your HVAC company, a lender, or a financing partner, which lets you spread the cost over monthly payments instead of paying it all at once. We offer flexible financing with quick approval.' },
-      { q: 'How much does it cost to replace an HVAC system?', a: 'It varies with the type, size, and efficiency of the system and any ductwork involved, but a full replacement typically runs several thousand dollars. A free in-home estimate gives you an exact number, and financing can spread it out.' },
+      { q: 'How much does it cost to replace an HVAC system?', a: 'It varies with the type, size, and efficiency of the system and any ductwork involved, but a full replacement typically runs several thousand dollars. An in-home estimate gives you an exact number, and financing can spread it out.' },
       { q: 'When should you replace an HVAC system?', a: 'Consider replacement when the system is roughly 15 to 20 years old, needs frequent or costly repairs, or no longer heats or cools your home evenly and efficiently. At that point a new, efficient unit often costs less over time than repeated repairs.' },
       { q: 'How long does it take to replace an HVAC system?', a: 'Most replacements take about one to two days, depending on the complexity of the system and whether any ductwork needs modifying. We confirm the timeline with you before the work starts.' },
       { q: 'Does financing an HVAC system cost more long-term?', a: 'Financing includes interest, so the total can be higher than paying cash. But a more efficient system bought sooner lowers your energy bills, and any rebates or incentives help offset the cost, so the gap is often smaller than it first appears.' },
@@ -4070,7 +4070,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Got a Leak? Call Degree of Comfort' },
       { kind: 'p', spans: ['A leaking water heater is one of those problems that only gets more expensive the longer it waits. Degree of Comfort can track down the source, fix what is fixable, and replace the unit when that is the smarter call. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Water where it should not be? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'water heater repair', href: '/services/water-heater-repair/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Water where it should not be? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'water heater repair', href: '/services/water-heater-repair/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'Why is my water heater leaking from the bottom?', a: 'A leak at the bottom is usually a loose or failing drain valve, which is an easy fix, or water running down from a problem higher up. The serious case is corrosion inside the tank leaking through the body — that means the tank needs to be replaced.' },
@@ -4144,7 +4144,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Let Degree of Comfort Keep Your System Running' },
       { kind: 'p', spans: ['If you would rather have a pro handle filters as part of a full system check — or your furnace is already acting up — Degree of Comfort can help. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want your furnace checked and the right filter dialed in? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Want your furnace checked and the right filter dialed in? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'How often should I change my furnace filter?', a: 'Every 1 to 3 months for most homes. Change it more often if you have pets, allergies, or run the system heavily, and less often only with thick high-efficiency filters rated for longer life. Checking monthly is the best way to set your own schedule.' },
@@ -4212,7 +4212,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Get Winter-Ready With Degree of Comfort' },
       { kind: 'p', spans: ['If you would rather have a pro handle it, Degree of Comfort can get your water heater ready before the cold hits, and fix or replace it if it is already struggling. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want it checked before winter sets in? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'water heater maintenance', href: '/services/water-heater-maintenance/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our ', { link: 'plumbing', href: '/services/plumbing/' }, ' team handle it.'] },
+      { kind: 'p', spans: ['Want it checked before winter sets in? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'water heater maintenance', href: '/services/water-heater-maintenance/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our ', { link: 'plumbing', href: '/services/plumbing/' }, ' team handle it.'] },
     ],
     faqs: [
       { q: 'What temperature should I set my water heater to in winter?', a: 'About 120°F suits most homes year-round. It delivers plenty of hot water, reduces the risk of scalding, lowers energy use, and slows mineral buildup compared with the 140°F many units ship at.' },
@@ -4277,7 +4277,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Fix Dry Air for Good With Degree of Comfort' },
       { kind: 'p', spans: ['If you are tired of fighting dry air every winter, Degree of Comfort can assess your home’s humidity and put the right solution in place, from a whole-home humidifier to a heating system tune-up. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Ready to breathe easier this winter? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' and whole-home humidifiers, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Ready to breathe easier this winter? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' and whole-home humidifiers, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'What is dry indoor air?', a: 'Dry indoor air is air with low relative humidity, which is common in winter. Cold outdoor air holds little moisture, and heating it indoors lowers the humidity further, leaving the air far drier than the comfortable range of about 30 to 50 percent.' },
@@ -4350,7 +4350,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Heat pumps deliver even, steady warmth rather than the blasts of hot air a furnace cycles on and off. The result is fewer cold spots, less temperature swing, and a more consistent feel from room to room — which is exactly what whole-home comfort is supposed to mean.'] },
 
       { kind: 'h2', text: 'What About Cost and Energy Savings?' },
-      { kind: 'p', spans: ['A heat pump usually costs more upfront than a basic furnace or AC, and the exact price depends on the type of system, your home, and the installation. The trade-off is on the other side of the ledger: lower monthly energy use over the life of the system, often helped along by utility rebates and tax incentives for high-efficiency equipment. For a home that needs both heating and cooling replaced anyway, a single heat pump can be the more sensible buy than two separate systems. The only way to get a real number is a free, in-home estimate that accounts for your specific space.'] },
+      { kind: 'p', spans: ['A heat pump usually costs more upfront than a basic furnace or AC, and the exact price depends on the type of system, your home, and the installation. The trade-off is on the other side of the ledger: lower monthly energy use over the life of the system, often helped along by utility rebates and tax incentives for high-efficiency equipment. For a home that needs both heating and cooling replaced anyway, a single heat pump can be the more sensible buy than two separate systems. The only way to get a real number is an in-home estimate that accounts for your specific space.'] },
 
       { kind: 'h2', text: 'Is a Whole-Home Heat Pump Right for You?' },
       { kind: 'p', spans: ['A heat pump is a strong fit if you want heating and cooling from one efficient system, your home is reasonably well insulated, and you are looking to lower energy use over time. It is also worth a serious look if your furnace and air conditioner are both aging and due for replacement, since you can consolidate them into one unit.'] },
@@ -4361,13 +4361,13 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Talk to Degree of Comfort About Heat Pumps' },
       { kind: 'p', spans: ['If you are weighing a heat pump for your home, Degree of Comfort can assess your space, size the system correctly, and handle the installation right. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Ready to find out if a heat pump fits your home? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'heat pump installation', href: '/services/heat-pumps/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team walk you through it.'] },
+      { kind: 'p', spans: ['Ready to find out if a heat pump fits your home? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'heat pump installation', href: '/services/heat-pumps/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team walk you through it.'] },
     ],
     faqs: [
       { q: 'Can a heat pump heat a whole house?', a: 'Yes. A heat pump that is correctly sized and professionally installed can heat an entire home year-round, with steady, consistent comfort. How well it performs depends on the home’s size, insulation, and climate.' },
       { q: 'What is a heat pump?', a: 'A heat pump is a system that moves heat rather than generating it — pulling warmth from outside to heat your home in winter and reversing to cool it in summer. One unit handles both heating and cooling efficiently.' },
       { q: 'Do heat pumps work in cold weather?', a: 'Modern cold-climate heat pumps work well in freezing temperatures, including Cincinnati winters. For the rare extreme cold snap, a backup heat source keeps the home comfortable.' },
-      { q: 'How much does a heat pump cost?', a: 'It varies with the type of system, your home, and the installation. The upfront cost is higher than some options, but the energy savings over the system’s life usually offset a good portion of it. A free estimate gives you a real number for your home.' },
+      { q: 'How much does a heat pump cost?', a: 'It varies with the type of system, your home, and the installation. The upfront cost is higher than some options, but the energy savings over the system’s life usually offset a good portion of it. An estimate gives you a real number for your home.' },
       { q: 'How long do heat pumps last?', a: 'Most heat pumps last around 10 to 15 years. Regular maintenance — keeping coils clean and components in good shape — helps them reach the upper end of that range.' },
       { q: 'How is a heat pump installed?', a: 'A typical install involves removing the old equipment, setting the new indoor and outdoor units, making the electrical and refrigerant connections, and testing the system to confirm it heats and cools correctly before we leave.' },
       { q: 'Are heat pumps energy efficient for heating?', a: 'Yes. Because moving heat takes less energy than burning fuel to create it, heat pumps are very efficient for heating and typically lower your utility bills compared with combustion-based systems.' },
@@ -4429,7 +4429,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Keep the Hot Water Coming With Degree of Comfort' },
       { kind: 'p', spans: ['Heading into winter is the right time to get your water heater checked. Degree of Comfort handles maintenance, repair, and replacement for tank and tankless systems alike. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Want it serviced before the cold sets in? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'water heater maintenance', href: '/services/water-heater-maintenance/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our ', { link: 'plumbing', href: '/services/plumbing/' }, ' team handle it.'] },
+      { kind: 'p', spans: ['Want it serviced before the cold sets in? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'water heater maintenance', href: '/services/water-heater-maintenance/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our ', { link: 'plumbing', href: '/services/plumbing/' }, ' team handle it.'] },
     ],
     faqs: [
       { q: 'How often should a water heater be serviced?', a: 'Once a year is the standard. An annual flush and inspection keeps sediment down, catches worn parts early, and is best done in fall so the system is ready before winter demand spikes.' },
@@ -4492,7 +4492,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Get Your AC Running With Degree of Comfort' },
       { kind: 'p', spans: ['If you have worked through the checklist and your air conditioner still will not turn on, Degree of Comfort can get to the bottom of it fast. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Need it looked at today? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'air conditioning repair', href: '/services/air-conditioning/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Need it looked at today? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'air conditioning repair', href: '/services/air-conditioning/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'Why is my air conditioner not turning on?', a: 'The usual causes are a thermostat set wrong or with dead batteries, a tripped breaker, a clogged air filter, a backed-up condensate drain line, or a tripped disconnect at the outdoor unit. Work through those first; if none of them is the problem, it points to an electrical or refrigerant issue that needs a professional.' },
@@ -4556,7 +4556,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Upgrade Your Thermostat With Degree of Comfort' },
       { kind: 'p', spans: ['If you are ready to stop paying to heat and cool an empty house, Degree of Comfort can recommend, install, and set up the right smart thermostat for your system. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Ready to upgrade? Call ', { strong: '(513) 586-5107' }, ', ask about smart thermostat installation with your ', { link: 'heating', href: '/services/heating/' }, ' or ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' service, or ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'] },
+      { kind: 'p', spans: ['Ready to upgrade? Call ', { strong: '(513) 586-5107' }, ', ask about smart thermostat installation with your ', { link: 'heating', href: '/services/heating/' }, ' or ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' service, or ', { link: 'request an estimate', href: '/request-estimate/' }, '.'] },
     ],
     faqs: [
       { q: 'Can smart thermostats be operated manually?', a: 'Yes. Nearly all of them have a touchscreen or buttons, so you can set the temperature by hand and they keep working even if the Wi-Fi goes down.' },
@@ -4622,7 +4622,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Say Goodbye to Hard Water With Degree of Comfort' },
       { kind: 'p', spans: ['If the signs sound familiar, Degree of Comfort can test your water and put the right solution in place. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Tired of spots, scale, and stiff laundry? Call ', { strong: '(513) 586-5107' }, ', ask about a ', { link: 'water quality', href: '/services/water-quality/' }, ' test and treatment, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle it.'] },
+      { kind: 'p', spans: ['Tired of spots, scale, and stiff laundry? Call ', { strong: '(513) 586-5107' }, ', ask about a ', { link: 'water quality', href: '/services/water-quality/' }, ' test and treatment, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
     faqs: [
       { q: 'Is hard water safe to drink?', a: 'Yes. Hard water is safe to drink and even adds trace minerals. The problem is the scale it leaves behind and the wear it puts on plumbing and appliances, not your health.' },
@@ -4669,7 +4669,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Poor attic and wall insulation lets summer heat pour in and cooled air leak out, which is why upstairs rooms and west-facing spaces are so often the warm ones. No amount of AC fully overcomes a room that the heat keeps re-entering.'] },
 
       { kind: 'h2', text: 'How to Even Out the Cooling' },
-      { kind: 'p', spans: ['Start with the easy, no-cost steps before moving to the bigger fixes — sometimes the simple ones are all it takes.'] },
+      { kind: 'p', spans: ['Start with the easy steps before moving to the bigger fixes — sometimes the simple ones are all it takes.'] },
       { kind: 'h3', text: 'Open and Adjust Your Vents' },
       { kind: 'p', spans: ['Make sure nothing is covering the vents, then try partially closing the registers in your coolest rooms to nudge more air toward the warm ones. Adjust gradually rather than slamming any vent fully shut.'] },
       { kind: 'h3', text: 'Set the Thermostat Fan to On' },
@@ -4695,7 +4695,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Trust Degree of Comfort for Even, Reliable Cooling' },
       { kind: 'p', spans: ['If parts of your home never seem to cool down, Degree of Comfort can find out why and fix it. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Ready for the same comfortable temperature in every room? Call ', { strong: '(513) 586-5107' }, ', schedule ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' service or routine ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team even things out.'] },
+      { kind: 'p', spans: ['Ready for the same comfortable temperature in every room? Call ', { strong: '(513) 586-5107' }, ', schedule ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' service or routine ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team even things out.'] },
     ],
     faqs: [
       { q: 'What causes uneven cooling in a house?', a: 'Most often it is poor airflow — blocked vents, a dirty filter, or leaky ducts — along with an improperly sized AC, weak insulation, and strong sun exposure on certain rooms. Together these keep cool air from reaching every space evenly.' },
@@ -4775,7 +4775,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Trust Degree of Comfort to Keep It Running' },
       { kind: 'p', spans: ['Whether your AC needs a seasonal tune-up, a quick fix, or an honest opinion on repair versus replacement, Degree of Comfort is here for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, and we back every job with upfront, flat-rate pricing and a satisfaction guarantee.'] },
-      { kind: 'p', spans: ['Ready to add years to your system? Call ', { strong: '(513) 586-5107' }, ', schedule ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' service or routine ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ', or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team keep your home cool and comfortable for the long haul.'] },
+      { kind: 'p', spans: ['Ready to add years to your system? Call ', { strong: '(513) 586-5107' }, ', schedule ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' service or routine ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team keep your home cool and comfortable for the long haul.'] },
     ],
     faqs: [
       { q: 'What is the average life of an AC unit?', a: 'Most central air conditioners last about 10 to 15 years. A well-maintained system tends to run toward the high end of that range, while a neglected one can fail several years sooner.' },
@@ -4871,7 +4871,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'Trust Degree of Comfort to Do It Right' },
       { kind: 'p', spans: ['If you’re dealing with an electrical issue or planning an upgrade, it’s time to call someone who does this for a living. At Degree of Comfort, we serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. Our licensed, background-checked electricians treat your home with respect — and back every job with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['We’re a family-owned company that cares about helping other families stay safe and comfortable. Whether you need a quick repair, ', { link: 'home rewiring', href: '/services/home-rewiring/' }, ', a ', { link: 'panel upgrade', href: '/services/electrical-panel-replacement/' }, ', ', { link: 'surge protection', href: '/services/surge-protector-installation/' }, ', or a new ', { link: 'EV charger', href: '/services/ev-chargers/' }, ' installed, we’re here to help.'] },
-      { kind: 'p', spans: ['Now that you know the reasons why you shouldn’t DIY electrical work, it’s time to take action. Ready to schedule? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and let our team handle your electrical needs with the experience and care you can count on.'] },
+      { kind: 'p', spans: ['Now that you know the reasons why you shouldn’t DIY electrical work, it’s time to take action. Ready to schedule? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle your electrical needs with the experience and care you can count on.'] },
     ],
   },
   {
@@ -4944,7 +4944,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Need Heat Back On Tonight?' },
       { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'emergency furnace repair', href: '/services/furnace-repair/' }, ' 24/7 across Cincinnati, Northern Kentucky, and Southeast Indiana. We’re family-owned, licensed and insured, and we give you the price before we start, with no overtime or weekend fees. That matters when the call comes in at 9 p.m. on a Saturday.'] },
-      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' and we’ll get a technician to your tenant. For planned work like a replacement or a maintenance plan across several units, ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' and we’ll get a technician to your tenant. For planned work like a replacement or a maintenance plan across several units, ', { link: 'request an estimate', href: '/request-estimate/' }, '.'] },
     ],
     faqs: [
       { q: 'How long does a landlord have to fix the heat in Ohio?', a: 'Under ORC 5321.07, once a tenant who is current on rent gives written notice, the landlord has a reasonable time or 30 days, whichever is sooner. For heat in winter, a reasonable time is usually much shorter than 30 days. In Cincinnati, fines on units where tenants don’t control their own heat start on the first day.' },
@@ -5021,7 +5021,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Get Even Heat in Your Cincinnati Home' },
       { kind: 'p', spans: ['Degree of Comfort finds and fixes uneven heating in older homes across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We check airflow, ducts, and the equipment before recommending anything, with upfront, flat-rate pricing. We are family-owned, licensed and insured.'] },
-      { kind: 'p', spans: ['Tired of the cold room? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will find out where your heat is going.'] },
+      { kind: 'p', spans: ['Tired of the cold room? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will find out where your heat is going.'] },
     ],
     faqs: [
       { q: 'Why is my upstairs colder than downstairs in winter?', a: 'In older homes, the ducts to the upper floors are the longest runs, there is often no return vent upstairs, and the top floor sits under an attic with little insulation. Less heat arrives upstairs and more of it escapes.' },
@@ -5090,7 +5090,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Get Honest Advice From Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort installs and services both. We handle ', { link: 'boiler repair, maintenance, and replacement', href: '/services/boilers/' }, ' and ', { link: 'furnace installation and replacement', href: '/services/furnace-installation-replacement/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing.'] },
-      { kind: 'p', spans: ['Not sure which way to go? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' and we will look at your home and tell you what makes sense.'] },
+      { kind: 'p', spans: ['Not sure which way to go? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will look at your home and tell you what makes sense.'] },
     ],
     faqs: [
       { q: 'Is a boiler or a furnace better?', a: 'Neither is better for every house. A furnace suits a home with ductwork and costs less to install; a boiler suits a home with radiators or radiant floors and gives quieter, more even heat. For most homes, the best choice is the type already installed.' },
@@ -5169,7 +5169,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Book Boiler Maintenance in Cincinnati With Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'boiler repair, maintenance, and replacement', href: '/services/boilers/' }, ' for hot water, steam, gas, and oil boilers across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. Every service includes the safety controls, the combustion analysis, and the water side, and we tell you the price before we start. We are family-owned, licensed and insured, with upfront, flat-rate pricing. Heating with a furnace instead? See ', { link: 'what’s included in a furnace tune-up', href: '/what-is-included-in-a-furnace-tune-up/' }, '.'] },
-      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' to book your boiler service before the cold sets in, or ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' to book your boiler service before the cold sets in, or ', { link: 'request an estimate', href: '/request-estimate/' }, '.'] },
     ],
     faqs: [
       { q: 'What is included in annual boiler maintenance?', a: 'A technician tests the safety controls (the pressure relief valve, high limit, and low-water cutoff), cleans and adjusts the burner, runs a combustion analysis that includes a carbon monoxide reading, inspects the heat exchanger, checks the system pressure, expansion tank, and circulator pump, bleeds air from the radiators, and confirms the venting is clear and sealed.' },
@@ -5250,7 +5250,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Get Furnace Short Cycling Fixed in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We find the reason your furnace is short cycling, tell you the price before we start, and fix the cause, not just the symptom. We are family-owned, licensed and insured, with upfront, flat-rate pricing and 24/7 no-heat service.'] },
-      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, '.'] },
     ],
     faqs: [
       { q: 'Why does my furnace turn on then shut off?', a: 'It is short cycling. The most common causes are a clogged air filter that makes the furnace overheat, a dirty flame sensor that can’t confirm the burners are lit, a blocked vent pipe or condensate drain, a badly placed thermostat, and an oversized furnace.' },
@@ -5330,7 +5330,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Get a Heat Pump Sized for Cincinnati Winters' },
       { kind: 'p', spans: ['Degree of Comfort designs and installs ', { link: 'heat pumps and dual fuel systems', href: '/services/heat-pumps/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We size every system with a load calculation, show you how it performs at 5°F, and tell you plainly if dual fuel or keeping your current system makes more sense. We are family-owned, licensed and insured, with upfront, flat-rate pricing.'] },
-      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, '.'] },
     ],
     faqs: [
       { q: 'Do heat pumps work in Cincinnati winters?', a: 'Yes. January in Cincinnati averages a low of 23.1°F and a high of 39.6°F, and a modern heat pump heats efficiently through most of that. For the few nights near zero, a cold-climate heat pump or a gas furnace backup covers the gap.' },
@@ -5349,7 +5349,7 @@ export const posts: Post[] = [
     seoTitle: 'Lower Your Duke Energy Heating Bill in Cincinnati',
     category: 'Heating',
     excerpt:
-      'Turn the thermostat back, seal the attic, compare your gas price, and use Duke’s free programs. What each step saves on a Cincinnati heating bill this winter.',
+      'Turn the thermostat back, seal the attic, compare your gas price, and use Duke’s assistance programs. What each step saves on a Cincinnati heating bill this winter.',
     date: '2026-09-30',
     dateModified: '2026-09-30',
     readMinutes: 10,
@@ -5363,10 +5363,10 @@ export const posts: Post[] = [
           [{ strong: 'Turn the thermostat back 7 to 10°F for 8 hours a day' }, '. The U.S. Department of Energy puts the savings at up to 10% a year on heating and cooling.'],
           [{ strong: 'Seal air leaks and insulate the attic' }, '. ENERGY STAR estimates an average of 15% off heating and cooling costs.'],
           [{ strong: 'Check your gas price' }, '. Since April 1, 2026, Duke Energy Ohio’s default gas price changes every month with the market. You can compare it to fixed offers on the state’s Energy Choice Ohio site.'],
-          [{ strong: 'Use the free help first' }, ': Duke’s Budget Billing, its free Home Energy House Call, and Ohio’s HEAP and Winter Crisis Program if you qualify.'],
+          [{ strong: 'Use the help that’s available' }, ': Duke’s Budget Billing and Ohio’s HEAP and Winter Crisis Program if you qualify.'],
         ],
       },
-      { kind: 'p', spans: ['The fastest ways to lower your Duke Energy heating bill in Cincinnati are to turn the thermostat back while you sleep or are away, replace a dirty furnace filter, and seal the air leaks in your attic and basement. The first costs nothing, the second costs a few dollars, and the third is the biggest long-term saving most homes can make. Beyond that, check what you pay for the gas itself, since Duke Energy Ohio changed how it prices natural gas in 2026, and use the free programs Duke and the state offer. Here is what each step is worth, starting with the ones that cost nothing.'] },
+      { kind: 'p', spans: ['The fastest ways to lower your Duke Energy heating bill in Cincinnati are to turn the thermostat back while you sleep or are away, replace a dirty furnace filter, and seal the air leaks in your attic and basement. The first costs nothing, the second costs a few dollars, and the third is the biggest long-term saving most homes can make. Beyond that, check what you pay for the gas itself, since Duke Energy Ohio changed how it prices natural gas in 2026, and use the programs Duke and the state offer. Here is what each step is worth, starting with the ones that cost nothing.'] },
 
       { kind: 'h2', text: 'Why Cincinnati Heating Bills Peak in January' },
       { kind: 'p', spans: ['Heating need is measured in heating degree days: the colder the day, the more it counts. Based on NOAA’s 1991 to 2020 normals for the Cincinnati airport, a typical year has 4,892.3 heating degree days, and January alone accounts for 1,042.8 of them. December adds 911.4 and February 846.9. In other words, those three months are where your heating bill is made. Every step below saves the most if it is done before December.'] },
@@ -5398,9 +5398,8 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Your Duke Energy gas bill has two parts: delivery, which Duke always handles, and the gas itself, which you can buy from Duke or from a competing supplier. On April 1, 2026, Duke Energy Ohio replaced its old gas cost recovery charge with a ', { strong: 'standard service offer' }, '. The price is set through an auction overseen by the Public Utilities Commission of Ohio: each month, it is the market price for natural gas futures plus a fixed $4.00 per dekatherm. That means it moves with the market, and winter months are often the most expensive.'] },
       { kind: 'p', spans: ['If you would rather lock in a price, you can compare Duke’s current rate with fixed-rate offers on the state’s ', { link: 'Energy Choice Ohio', href: 'https://energychoice.ohio.gov/ApplesToApplesComparision.aspx?Category=NaturalGas&TerritoryId=10&RateCode=1' }, ' comparison chart. Read the terms before you sign. Look at the contract length, the early termination fee, and what the price becomes when the contract ends. A low introductory rate that rolls into a high variable one can cost more than staying with Duke.'] },
 
-      { kind: 'h2', text: 'Free Help From Duke Energy and the State of Ohio' },
+      { kind: 'h2', text: 'Help From Duke Energy and the State of Ohio' },
       { kind: 'p', spans: [{ strong: 'Budget Billing.' }, ' Duke averages your bills over 12 months so January doesn’t land all at once. It doesn’t lower what you use, but it takes the spike out of winter.'] },
-      { kind: 'p', spans: [{ strong: 'Home Energy House Call.' }, ' A free in-home energy assessment from Duke for eligible customers, with a report on where your house is losing energy and a kit of basic efficiency products. It has been open to homes with electric heat, an electric water heater, or central air.'] },
       { kind: 'p', spans: [{ strong: 'Smart $aver rebates.' }, ' Duke’s rebate program for Ohio homes has covered equipment like heat pumps, central air, and smart thermostats. Programs change, so check the current list before you buy.'] },
       { kind: 'p', spans: [{ strong: 'HEAP and the Winter Crisis Program.' }, ' Ohio’s Home Energy Assistance Program helps eligible households with heating costs, and the Winter Crisis Program runs from November 1 to March 31 for households facing a disconnection. In Hamilton County, applications go through the Cincinnati-Hamilton County Community Action Agency.'] },
 
@@ -5409,7 +5408,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Get Your Furnace Ready for a Cincinnati Winter' },
       { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ', repair, and replacement across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. A tune-up before December is the one professional step on this list, and it keeps the furnace burning clean through the three months that make up most of your bill. We are family-owned, licensed and insured, with upfront, flat-rate pricing.'] },
-      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, '.'] },
     ],
     faqs: [
       { q: 'How can I lower my Duke Energy heating bill?', a: 'Turn the thermostat back 7 to 10°F for 8 hours a day, replace a dirty furnace filter, seal air leaks and insulate the attic, set the water heater to 120°F, and compare your gas price with fixed-rate offers on Energy Choice Ohio. Duke’s Budget Billing spreads the winter cost over the year.' },
@@ -5487,7 +5486,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Carrier Furnace Repair in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort repairs Carrier furnaces across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We read the code, find the cause, tell you whether the part is likely under warranty, and give you the price before we start. We are an independent, family-owned company, not affiliated with Carrier, licensed and insured, with upfront, flat-rate pricing and 24/7 no-heat service. See our ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ' page for more.'] },
-      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, '.'] },
     ],
     faqs: [
       { q: 'Why is my Carrier furnace not turning on?', a: 'Check the thermostat setting and batteries, the furnace power switch and breaker, that the lower blower door is seated firmly on its safety switch, the air filter, and that the gas valve is open. If all of those are fine, read the flash code on the status light through the window in the lower door.' },
@@ -5564,7 +5563,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Schedule Pre-Winter HVAC Service for Your Cincinnati Rentals' },
       { kind: 'p', spans: ['Degree of Comfort services furnaces and boilers in rental homes and apartment buildings across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We can schedule every unit in one visit where access allows, leave a dated report for each system, and flag anything that needs attention before winter. Check our ', { link: 'current specials', href: '/specials/' }, ' for the furnace tune-up offer, and see our ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ' page for details. We are family-owned, licensed and insured, with upfront, flat-rate pricing and 24/7 no-heat service.'] },
-      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' to schedule your units, or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' for a multi-unit building.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' to schedule your units, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' for a multi-unit building.'] },
     ],
     faqs: [
       { q: 'When should landlords schedule furnace maintenance in Cincinnati?', a: 'In September, with every unit done by early October. Cincinnati’s first freeze comes around October 25 in a typical year and by October 12 in 1 year out of 10, and contractors book up quickly after the first cold snap.' },
@@ -5637,7 +5636,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Plan Furnace Replacements for Your Cincinnati Rentals' },
       { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'furnace installation and replacement', href: '/services/furnace-installation-replacement/' }, ' for rental homes and multi-unit buildings across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We can inspect every furnace in your portfolio in one visit, record the age and condition of each, and quote the replacements so you can plan them by year. We pull the permits, and we give you the price before we start. We are family-owned, licensed and insured, with upfront, flat-rate pricing.'] },
-      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' for your properties.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' for your properties.'] },
     ],
     faqs: [
       { q: 'How much should I budget to replace a furnace in a rental?', a: 'In Cincinnati, a furnace replacement typically costs $3,000 to $10,000 installed, depending on size, efficiency, access, and venting. Budget a realistic figure for each property, then divide it by the years the furnace has left to get a yearly reserve.' },
@@ -5714,7 +5713,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Get Your Cincinnati Rentals Checked Before Winter' },
       { kind: 'p', spans: ['Degree of Comfort inspects and services furnaces, boilers, and water heaters in rental homes and apartment buildings across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. Every tune-up includes a carbon monoxide check and a look at the venting, and we will tell you if a unit is missing CO detection where it needs it. We are family-owned, licensed and insured, with upfront, flat-rate pricing and 24/7 service. See our ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ' page for details.'] },
-      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, ' for your properties.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' for your properties.'] },
     ],
     faqs: [
       { q: 'Are carbon monoxide detectors required in Ohio rentals?', a: 'Yes, in most rentals with gas heat or appliances. The Ohio Fire Code requires CO detection in residential buildings, new and existing, when a unit has a fuel-burning appliance, is served by a fuel-burning forced-air furnace, is in a building with a fuel-burning appliance, or is in a building with an attached garage. Existing buildings had until January 1, 2019.' },
@@ -5804,7 +5803,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Rental Turnover Service in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort handles heating, cooling, plumbing, and electrical work, so one call covers every item on this list that you don’t want to do yourself. We work in rental homes and apartment buildings across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We can run a turnover check on all three systems, fix what we find, and leave you a dated report for your records. See our ', { link: 'electrical inspections', href: '/services/electrical-inspections/' }, ' and ', { link: 'plumbing repair', href: '/services/plumbing-repair/' }, ' pages for details. We are family-owned, licensed and insured, with upfront, flat-rate pricing.'] },
-      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, '.'] },
     ],
     faqs: [
       { q: 'What should landlords inspect between tenants?', a: 'Heating and cooling, plumbing, and electrical. Replace the filter, run the heat and air conditioning, and test CO and smoke alarms. Check the water heater, toilets, faucets, drains, and shutoff valves. Test every outlet, switch, and GFCI, look over the panel, and clean the dryer vent.' },
@@ -5881,7 +5880,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Boiler Repair in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'boiler repair, maintenance, and replacement', href: '/services/boilers/' }, ' for hot water and steam boilers across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We find the cause, tell you whether it is a part or the boiler, and give you the price before we start. We are family-owned, licensed and insured, with upfront, flat-rate pricing and 24/7 no-heat service. For more on how boilers work, see ', { link: 'what you should know about boilers', href: '/what-you-should-know-about-boilers/' }, '.'] },
-      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request a free estimate', href: '/free-estimate/' }, '.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, '.'] },
     ],
     faqs: [
       { q: 'What are the signs a boiler needs repair?', a: 'Radiators that stay cold or only warm at the bottom, low or dropping pressure, a dripping relief valve, banging or kettling noises, water around the boiler, short cycling or lockouts, a yellow or flickering flame, and gas bills rising without a change in use.' },
@@ -5891,6 +5890,92 @@ export const posts: Post[] = [
       { q: 'What does kettling mean on a boiler?', a: 'A rumbling or boiling sound, like a tea kettle, usually caused by mineral scale on the heat exchanger or poor water flow through the boiler. It gets worse over time and shortens the boiler’s life, so it should be looked at.' },
       { q: 'When should I test my boiler before winter?', a: 'In late September or early October. Cincinnati’s first freeze comes around October 25 in a typical year and by October 12 in 1 year out of 10. Run the boiler for an hour, check every radiator, and watch the pressure gauge.' },
       { q: 'Should I repair or replace my boiler?', a: 'Repair it if the problem is a part, like a circulator pump, expansion tank, valve, or control, and the boiler itself is sound. Consider replacement if the boiler is leaking, the heat exchanger or sections are cracked, it is past 15 to 25 years, or repairs keep adding up.' },
+    ],
+  },
+{
+    slug: 'rental-property-hvac-maintenance-plan-cincinnati',
+    title: 'Why Cincinnati Landlords Need a Preventive HVAC Maintenance Plan',
+    seoTitle: 'HVAC Maintenance Plan for Cincinnati Rental Properties',
+    category: 'Heating',
+    excerpt:
+      'What a preventive HVAC maintenance plan covers for Cincinnati rental properties, what skipping it costs, a yearly schedule, and when you don’t need one.',
+    date: '2026-10-01',
+    dateModified: '2026-10-01',
+    readMinutes: 9,
+    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    image: '/blog/rental-hvac-maintenance-plan-hero.webp',
+    imageAlt: 'HVAC technician checking refrigerant pressure with gauges on an outdoor air conditioning unit',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'A preventive maintenance plan turns surprise repairs into scheduled visits' }, ': heating checked in the fall, cooling in the spring, and water heaters, drains, and detectors checked once a year.'],
+          [{ strong: 'Skipped maintenance is expensive in Cincinnati' }, '. In units where tenants don’t control their own heat, the city can fine you $300 for the first day without heat and $750 for each day after.'],
+          [{ strong: 'Ohio law already requires the upkeep' }, '. Landlords must keep supplied heating, plumbing, electrical, and air conditioning in good and safe working order.'],
+          [{ strong: 'You may not need a plan' }, ' if you own one newer rental and handle the basics yourself. Past two or three units, a schedule someone else keeps usually pays for itself.'],
+        ],
+      },
+      { kind: 'p', spans: ['Cincinnati landlords need a preventive maintenance plan because the repairs it prevents cost more than the visits it takes. A plan puts every furnace, air conditioner, and water heater on a schedule: heating checked in September or October, cooling in April or May, and plumbing and safety checks once a year. That catches worn parts before they fail on a January night, keeps you inside Ohio’s landlord rules, and stretches a furnace closer to 20 years than 15. Here is what a plan should cover, what skipping it costs, a yearly schedule you can copy, and when a plan isn’t worth paying for.'] },
+
+      { kind: 'h2', text: 'What a Preventive Maintenance Plan Covers in a Cincinnati Rental' },
+      { kind: 'p', spans: ['A good plan covers the systems that cause emergency calls, in the season before they get worked hard. For most Cincinnati rentals, that list is short.'] },
+      { kind: 'h3', text: 'Heating, Every Fall' },
+      { kind: 'p', spans: ['A furnace or boiler tune-up before the first cold snap. The technician checks the burners, ignition, gas pressure, flue venting, and electrical connections, looks over the heat exchanger for cracks, and tests for carbon monoxide. ', { link: 'ENERGY STAR', href: 'https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist' }, ' recommends a contractor check-up on the heating system every fall for the same reasons: a dirty burner or cracked heat exchanger makes the equipment run less safely and less efficiently. Our ', { link: 'furnace maintenance service', href: '/services/furnace-maintenance/' }, ' covers what that visit includes.'] },
+      { kind: 'h3', text: 'Cooling, Every Spring' },
+      { kind: 'p', spans: ['An air conditioner tune-up in April or May: clean the coils, check refrigerant, test the electrical parts, clear the condensate drain, and measure airflow. A plugged condensate drain is a common source of water damage in rentals, and the tenant rarely notices until the ceiling below it stains.'] },
+      { kind: 'h3', text: 'Water Heaters, Drains, and Detectors, Once a Year' },
+      { kind: 'p', spans: ['Inspect each water heater for leaks, rust, and a working relief valve. Dye test the toilets for silent leaks, since you often pay the water bill even when the tenant pays gas. Test every smoke and carbon monoxide alarm and replace batteries. Our post on ', { link: 'carbon monoxide detectors in Ohio rentals', href: '/carbon-monoxide-detectors-rentals-ohio-landlord/' }, ' covers which units need them and where they go.'] },
+      { kind: 'h3', text: 'Filters, on a Schedule Someone Owns' },
+      { kind: 'p', spans: ['ENERGY STAR says to check filters monthly. In a rental, the real question is who does it. Write it into the lease, leave a stack of the right size by the furnace, and check them yourself at every visit. A clogged filter makes a furnace overheat, and its safety switch shuts the burners off, which looks to a tenant exactly like a broken furnace.'] },
+
+      { kind: 'h2', text: 'What Skipping Maintenance Costs Cincinnati Landlords' },
+      { kind: 'p', spans: ['Without a plan, you find out a system is failing when a tenant calls. That call usually comes on the coldest night of the year, when every heating company in Cincinnati is booked and after-hours rates apply.'] },
+      { kind: 'p', spans: ['Here is our view: no rental with gas heat should go into November without a fall tune-up. In Cincinnati units where tenants don’t control their own heat, the city can fine you ', { strong: '$300 for the first day without adequate heat and $750 for each day after' }, '. A three-day wait for a part is $1,800 in fines before you’ve paid for the repair. Our ', { link: 'landlord guide for when a tenant has no heat', href: '/tenant-has-no-heat-cincinnati-landlord-guide/' }, ' walks through that response step by step.'] },
+      { kind: 'p', spans: ['The slower cost is equipment life. Most furnaces last 15 to 20 years. One that gets a tune-up every fall tends to land near 20, and one that never sees a technician tends to land near 15. With a furnace replacement in Cincinnati typically running $3,000 to $10,000 installed, those five years matter. Our guide to ', { link: 'budgeting for furnace replacement across multiple rentals', href: '/budget-furnace-replacement-multiple-rentals-cincinnati/' }, ' shows how to plan for the ones that are due.'] },
+      { kind: 'p', spans: ['Then there are tenants. A tenant who loses heat twice in one winter is less likely to renew, and every vacant month is a month of rent you don’t get back.'] },
+
+      { kind: 'h2', text: 'Ohio and Cincinnati Rules a Maintenance Plan Helps You Meet' },
+      { kind: 'p', spans: ['We are heating contractors, not lawyers, so check the specifics with your attorney. The general rule is in ', { link: 'Ohio Revised Code 5321.04', href: 'https://codes.ohio.gov/ohio-revised-code/section-5321.04' }, '. It requires landlords to keep the premises fit and habitable, to supply reasonable heat and hot water, and to keep the heating, plumbing, electrical, ventilating, and air conditioning fixtures and appliances they supply in good and safe working order. A maintenance plan, with dated records of each visit, is the simplest way to show you did that.'] },
+      { kind: 'p', spans: ['The same law presumes 24 hours is reasonable notice before you enter a unit, except in an emergency. A planned visit gives you time to send that notice. An emergency call doesn’t.'] },
+      { kind: 'p', spans: ['Cincinnati also runs a ', { link: 'Residential Rental Inspection program', href: 'https://www.cincinnati-oh.gov/buildings/property-maintenance-code-enforcement/residential-rental-inspection/' }, ' in seven neighborhoods: Avondale, Clifton-Fairview-University Heights, College Hill, East Price Hill, Madisonville, West Price Hill, and Westwood. Properties with unresolved code violations or a history of health and safety violations can be required to get a rental inspection certificate. If one of your properties there becomes eligible, the city can review your whole portfolio inside city limits. Regular maintenance keeps small problems from turning into violations on the record.'] },
+
+      { kind: 'h2', text: 'A Yearly Maintenance Schedule for Cincinnati Rental Properties' },
+      { kind: 'p', spans: ['Cincinnati’s first freeze comes around October 25 in a typical year, so heating work belongs in September and early October. Here is a schedule that fits most single-family rentals and small multi-unit buildings.'] },
+      { kind: 'p', spans: [{ strong: 'September to early October' }, ': furnace or boiler tune-up, carbon monoxide test, filter change, thermostat check. Test smoke and CO alarms. Shut off and drain outdoor hose bibs. Our ', { link: 'pre-winter HVAC checklist for rental properties', href: '/pre-winter-hvac-checklist-rental-properties-cincinnati/' }, ' lists each item.'] },
+      { kind: 'p', spans: [{ strong: 'January' }, ': filter check or change. Confirm tenants know where the furnace switch and water shutoff are.'] },
+      { kind: 'p', spans: [{ strong: 'April to May' }, ': air conditioner tune-up, condensate drain cleared, filter change. Check the sump pump before spring storms.'] },
+      { kind: 'p', spans: [{ strong: 'Once a year, any season' }, ': water heater inspection, toilet dye test, look for leaks under sinks, and test GFCI outlets.'] },
+      { kind: 'p', spans: [{ strong: 'At every turnover' }, ': a full walk-through of heating, cooling, plumbing, and electrical. Our ', { link: 'rental turnover checklist', href: '/rental-turnover-checklist-hvac-plumbing-electrical-cincinnati/' }, ' covers it.'] },
+      { kind: 'p', spans: ['Keep one record per unit with the equipment ages, filter sizes, and the date and notes from each visit. That record is what makes the plan useful when you are budgeting, selling, or answering a code complaint.'] },
+
+      { kind: 'h2', text: 'Doing It Yourself vs. a Maintenance Membership' },
+      { kind: 'p', spans: ['Some of this is landlord work. Filters, alarm tests, hose bibs, and dye tests take a few minutes each and don’t need a license. Anything involving gas, combustion, refrigerant, or the inside of an electrical panel does. That is the part a maintenance plan with a contractor covers.'] },
+      { kind: 'p', spans: ['You can book those visits one at a time. The catch is remembering to, for every unit, every season, and getting a slot in October when everyone else calls too. A membership solves the scheduling: the contractor calls you, and members get booked first when something breaks.'] },
+
+      { kind: 'h2', text: 'How the Comfort Club Works for Cincinnati Landlords' },
+      { kind: 'p', spans: ['Our ', { link: 'Comfort Club', href: '/comfort-club/' }, ' is the maintenance membership we offer across Cincinnati and the Tri-State. For a landlord, these are the parts that matter:'] },
+      { kind: 'p', spans: [{ strong: 'We schedule it' }, '. We contact you when each tune-up is due, so no unit gets skipped.'] },
+      { kind: 'p', spans: [{ strong: 'Priority service' }, '. When a member calls with a repair, the job is scheduled ahead of non-members. On a no-heat call in a shared-heat unit, that can be the difference between one day of fines and three.'] },
+      { kind: 'p', spans: [{ strong: 'Up to 20% off repairs' }, ' on plumbing, heating, and cooling work from our price book, and reduced diagnostic fees, including nights and weekends.'] },
+      { kind: 'p', spans: [{ strong: 'The heating visit' }, ' includes the burners, flue venting, gas pressure, ignition, electrical controls, a visual check of the heat exchanger, and a carbon monoxide test. ', { strong: 'The plumbing visit' }, ' includes a water heater safety inspection, toilet dye tests, a gas leak check, and a one-time sewer line camera inspection.'] },
+      { kind: 'p', spans: [{ strong: 'Water heater rebates' }, ': $25 off a tank water heater and $50 off a tankless one for each consecutive year of membership, and 5% off list price on a full heating or cooling system.'] },
+      { kind: 'p', spans: ['Membership is billed to your card each month. Call us for pricing on your properties.'] },
+
+      { kind: 'h2', text: 'When You Don’t Need a Maintenance Plan' },
+      { kind: 'p', spans: ['A plan isn’t for every landlord. If you own a single rental with a furnace and air conditioner under five years old, you are comfortable changing filters and testing alarms, and you’ll actually book a tune-up each fall, you can skip the membership and call us for the one visit a year. Newer equipment under warranty rarely needs more than that.'] },
+      { kind: 'p', spans: ['The same goes for a building with its own on-site maintenance tech who is licensed for gas work. You don’t need to pay twice. Where a plan starts paying off is two or three units and up, older equipment, shared-heat buildings, or any rental you don’t visit often.'] },
+
+      { kind: 'h2', text: 'Set Up a Maintenance Plan for Your Cincinnati Rentals' },
+      { kind: 'p', spans: ['Degree of Comfort services rental homes and multi-unit buildings across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We can tune up every unit in your portfolio, record the age and condition of each system, and put them all on one schedule. We are family-owned, licensed and insured, with upfront, flat-rate pricing.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ', ', { link: 'join the Comfort Club', href: '/comfort-club/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' for your properties.'] },
+    ],
+    faqs: [
+      { q: 'What should a preventive maintenance plan for a rental property include?', a: 'A heating tune-up every fall, an air conditioner tune-up every spring, a yearly water heater and plumbing check, smoke and carbon monoxide alarm tests, and filter changes on a set schedule. Keep a dated record of each visit for every unit.' },
+      { q: 'How often should a rental property’s HVAC be serviced?', a: 'Twice a year: the heating system in the fall and the cooling system in the spring. In Cincinnati, book the heating visit in September or early October, before the first freeze around late October.' },
+      { q: 'Are Ohio landlords required to maintain the furnace?', a: 'Yes. Ohio Revised Code 5321.04 requires landlords to supply reasonable heat and keep the heating, plumbing, electrical, and air conditioning they supply in good and safe working order. Check the details with your attorney.' },
+      { q: 'What happens if a Cincinnati rental loses heat?', a: 'In units where tenants don’t control their own heat, the city can fine the landlord $300 for the first day without adequate heat and $750 for each day after. Get a licensed technician out the same day.' },
+      { q: 'Is an HVAC maintenance membership worth it for landlords?', a: 'Usually, once you have two or three units or older equipment. A membership handles the scheduling, puts your repairs ahead of non-members, and discounts repairs. With one newer rental, a single yearly tune-up booked on your own is often enough.' },
+      { q: 'Who changes the furnace filter in a rental, landlord or tenant?', a: 'Whoever the lease says. Many landlords assign monthly checks to the tenant, leave spare filters by the furnace, and check them at each maintenance visit. Put it in writing either way.' },
     ],
   },
 ];

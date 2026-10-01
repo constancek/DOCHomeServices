@@ -18,7 +18,7 @@ const config: ServiceLocationConfig = {
   introHeading: 'Heat Pumps in {neighborhood}',
   introParagraphs: [
     'A heat pump is one efficient system that heats your home in winter and cools it in summer. {brand} repairs, installs, and replaces heat pumps for homeowners in {place} — ductless mini-split and traditional systems alike.',
-    'Whether your existing unit needs a repair or you are weighing a high-efficiency upgrade, our licensed technicians have the specialized heat pump know-how to get it right, with free estimates on installs and financing available.',
+    'Whether your existing unit needs a repair or you are weighing a high-efficiency upgrade, our licensed technicians have the specialized heat pump know-how to get it right, with estimates on installs and financing available.',
   ],
   sidebarSections: [
     {
@@ -57,13 +57,13 @@ const config: ServiceLocationConfig = {
   band2Heading: 'What to Expect From Your Heat Pump Service in {neighborhood}',
   band2Paragraphs: [
     'For a repair, a licensed technician diagnoses the exact cause — refrigerant, a dirty coil, a stuck reversing valve, a thermostat, or an iced-up outdoor unit — and explains the flat-rate price before any work begins.',
-    'For an installation, we start with a free estimate, size the system to your {neighborhood} home, install it to code, and test both heating and cooling end to end so you have year-round comfort from day one.',
+    'For an installation, we start with an estimate, size the system to your {neighborhood} home, install it to code, and test both heating and cooling end to end so you have year-round comfort from day one.',
   ],
   proseSections: [
     { title: 'Heat Pump vs. Furnace', body: 'A furnace burns fuel to create heat, while a heat pump moves heat instead of making it — and cools in summer too — which makes it very efficient in our region’s milder cold. Many {neighborhood} homes pair the two in a dual-fuel setup that runs the heat pump most of the season and switches to the furnace on the coldest days.' },
     { title: 'Understanding SEER and HSPF Efficiency', body: 'SEER measures cooling efficiency and HSPF measures heating efficiency — higher numbers mean the system uses less energy to do the same work, which means lower utility bills. We help you weigh efficiency against budget when choosing a system for your home.' },
     { title: 'Mini-Split & Dual-Fuel Options', body: 'For older {neighborhood} homes without ductwork, a ductless mini-split heat pump heats and cools specific rooms without tearing into walls. For homes that already have a furnace, a dual-fuel heat pump is often the most efficient path to year-round comfort.' },
-    { title: 'Financing Your Heat Pump in {neighborhood}', body: 'A high-efficiency heat pump is a meaningful upgrade, so we offer financing with flexible terms to make it affordable now — and a free estimate so you understand the cost and the long-term savings before you decide.' },
+    { title: 'Financing Your Heat Pump in {neighborhood}', body: 'A high-efficiency heat pump is a meaningful upgrade, so we offer financing with flexible terms to make it affordable now — and an estimate so you understand the cost and the long-term savings before you decide.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Choose Us',
   whyUs: [

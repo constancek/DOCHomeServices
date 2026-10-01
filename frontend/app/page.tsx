@@ -2,6 +2,7 @@ import Link from 'next/link';
 import CouponExpiry from '@/components/CouponExpiry';
 import Icon from '@/components/Icon';
 import TornEdge from '@/components/TornEdge';
+import SlideInRight from '@/components/SlideInRight';
 import {
   IntroColumns,
   WhyChoose,
@@ -143,19 +144,20 @@ function Hero() {
 
       {/* Desktop service buttons — inside hero, bottom-right */}
       <div className="absolute bottom-6 left-[42%] right-4 z-30 hidden gap-3 lg:flex">
-        {pills.map((p) => (
-          <Link
-            key={p.label}
-            href={p.href}
-            className="flex flex-1 items-center justify-center gap-2.5 rounded-xl bg-pink-500 px-3 py-3 shadow-pill transition hover:-translate-y-0.5 hover:bg-pink-600"
-          >
-            <span className="grid h-9 w-9 flex-shrink-0 place-items-center rounded-full bg-white text-pink-500">
-              <Icon name={p.icon} className="h-5 w-5" />
-            </span>
-            <span className="text-sm font-extrabold uppercase tracking-wide text-white">
-              {p.label}
-            </span>
-          </Link>
+        {pills.map((p, i) => (
+          <SlideInRight key={p.label} delay={i * 120} className="flex-1">
+            <Link
+              href={p.href}
+              className="flex w-full items-center justify-center gap-2.5 rounded-xl bg-pink-500 px-3 py-[18px] shadow-pill transition hover:-translate-y-0.5 hover:bg-pink-600"
+            >
+              <span className="grid h-9 w-9 flex-shrink-0 place-items-center rounded-full bg-white text-pink-500">
+                <Icon name={p.icon} className="h-5 w-5" />
+              </span>
+              <span className="text-sm font-extrabold uppercase tracking-wide text-white">
+                {p.label}
+              </span>
+            </Link>
+          </SlideInRight>
         ))}
       </div>
 
@@ -184,19 +186,20 @@ function Hero() {
           />
         </div>
         <div className="mt-8 grid grid-cols-2 gap-3">
-          {pills.map((p) => (
-            <Link
-              key={p.label}
-              href={p.href}
-              className="flex items-center gap-2.5 rounded-xl bg-pink-500 px-3 py-3 transition hover:bg-pink-600"
-            >
-              <span className="grid h-9 w-9 flex-shrink-0 place-items-center rounded-full bg-white text-pink-500">
-                <Icon name={p.icon} className="h-5 w-5" />
-              </span>
-              <span className="text-sm font-extrabold uppercase tracking-wide text-white">
-                {p.label}
-              </span>
-            </Link>
+          {pills.map((p, i) => (
+            <SlideInRight key={p.label} delay={i * 120}>
+              <Link
+                href={p.href}
+                className="flex items-center gap-2.5 rounded-xl bg-pink-500 px-3 py-[18px] transition hover:bg-pink-600"
+              >
+                <span className="grid h-9 w-9 flex-shrink-0 place-items-center rounded-full bg-white text-pink-500">
+                  <Icon name={p.icon} className="h-5 w-5" />
+                </span>
+                <span className="text-sm font-extrabold uppercase tracking-wide text-white">
+                  {p.label}
+                </span>
+              </Link>
+            </SlideInRight>
           ))}
         </div>
       </div>

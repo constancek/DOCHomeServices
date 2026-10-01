@@ -13,7 +13,7 @@ const config: ServiceLocationConfig = {
   parentCrumb: { label: 'Air Conditioning', href: '/services/air-conditioning' },
   businessType: 'HVACBusiness',
   schemaServiceType: 'Ductless Mini-Splits',
-  ctaLine: 'Considering a mini-split in {neighborhood}? Call for a free estimate',
+  ctaLine: 'Considering a mini-split in {neighborhood}? Call for an estimate',
   heroImage: '/services/minisplit-hero.webp',
   introHeading: 'Ductless Mini-Splits in {neighborhood}',
   introParagraphs: [

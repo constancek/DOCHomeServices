@@ -188,7 +188,7 @@ function SubService({ page }: { page: ServicePage }) {
     },
     {
       q: `How much does ${lower} cost?`,
-      a: `Every job is quoted at a flat rate before we begin, based on your home and the work involved. Call for a free, no-obligation estimate.`,
+      a: `Every job is quoted at a flat rate before we begin, based on your home and the work involved. Call to request an estimate.`,
     },
   ];
 

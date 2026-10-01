@@ -25,7 +25,7 @@ const benefits = [
 ];
 
 const process = [
-  'On-site consultation and free estimate',
+  'On-site consultation and estimate',
   'Custom lighting design planning',
   'Professional holiday lighting installation',
   'Secure attachment and safe electrical connections',
@@ -46,7 +46,7 @@ const whyChoose = [
   'High-quality commercial-grade lighting',
   'Custom design options',
   'Safe and secure installation',
-  'Clear pricing and a free estimate',
+  'Clear pricing and an estimate',
   'Scheduled removal after the season',
 ];
 
@@ -62,7 +62,7 @@ const faqs = [
   { q: 'How do custom holiday lights work?', a: 'We create a lighting design tailored to your home or business, install commercial-grade lights, and remove them after the holiday season.' },
   { q: 'Can I choose the design for my lights?', a: 'Yes. You can select color schemes, layout preferences, and specific areas you want highlighted.' },
   { q: 'How long does the installation process take?', a: 'Most homes are a single day. Book early rather than late in the season — the calendar fills from November, and roof work stops being pleasant or safe once there is ice on it. Removal is scheduled at the same time as the install so it does not become your problem in January.' },
-  { q: 'How much will holiday lighting cost me?', a: 'The cost to have holiday lights installed depends on home size, design complexity, and materials. We provide a free estimate to give you clear pricing upfront.' },
+  { q: 'How much will holiday lighting cost me?', a: 'The cost to have holiday lights installed depends on home size, design complexity, and materials. We provide an estimate to give you clear pricing upfront.' },
 ];
 
 const serviceSchema = {
@@ -305,15 +305,15 @@ export default function HolidayLightingPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Holiday Lighting Installation Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Let our team bring your holiday lighting vision to life. {site.name} installs custom holiday
-              displays across {site.serviceArea}. Call now or request a free estimate.
+              displays across {site.serviceArea}. Call now or request an estimate.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={site.primaryPhone.href} className="btn-pink text-base">
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+                Request an Estimate
               </Link>
             </div>
           </div>

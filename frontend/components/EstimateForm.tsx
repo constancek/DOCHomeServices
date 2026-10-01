@@ -31,7 +31,7 @@ const EMPTY = {
 };
 
 export default function EstimateForm({
-  heading = 'Request Your Free Estimate',
+  heading = 'Request an Estimate',
 }: {
   heading?: string;
 }) {
@@ -49,7 +49,7 @@ export default function EstimateForm({
     setSending(true);
     setError(false);
     const result = await submitLead({
-      formName: 'Free Estimate',
+      formName: 'Request an Estimate',
       ...form,
       // Keep sending the combined full name so the existing GHL mapping (name -> First Name)
       // keeps working unchanged; firstName/lastName are also sent for optional separate mapping.
@@ -71,7 +71,7 @@ export default function EstimateForm({
         </span>
         <h2 className="mt-5 font-display text-2xl font-extrabold text-brand-700">Request received!</h2>
         <p className="mx-auto mt-2 max-w-sm text-[15px] leading-relaxed text-ink/70">
-          Thanks — a member of our team will reach out shortly to confirm your free estimate. Need us
+          Thanks — a member of our team will reach out shortly to confirm your estimate. Need us
           sooner? Call us anytime.
         </p>
         <a href={site.primaryPhone.href} className="btn-pink mt-5">

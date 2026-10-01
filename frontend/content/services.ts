@@ -26,7 +26,7 @@ export const services: Service[] = [
     highlights: [
       'Same-day repair on every major brand',
       'Upfront, flat-rate pricing before we start',
-      'Free replacement estimates with financing',
+      'Replacement estimates with financing',
       '21-point precision tune-up',
     ],
     body: [

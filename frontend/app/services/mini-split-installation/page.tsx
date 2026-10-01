@@ -112,7 +112,7 @@ export default function MiniSplitInstallationPage() {
       <PageHero
         eyebrow="Air Conditioning · Mini-Splits"
         title={`Ductless Mini-Split Installation in ${site.serviceArea}`}
-        description="Flexible, efficient cooling and heating without ductwork — properly sized, cleanly installed, and tested, with financing and free estimates."
+        description="Flexible, efficient cooling and heating without ductwork — properly sized, cleanly installed, and tested, with financing and estimates."
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -360,7 +360,7 @@ export default function MiniSplitInstallationPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Get a Mini-Split Installed Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Considering a ductless mini-split installation or replacement? We are ready to help —
-              with the right system, a clean install, and financing options. Call now or request a free
+              with the right system, a clean install, and financing options. Call now or request an
               estimate.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -368,8 +368,8 @@ export default function MiniSplitInstallationPage() {
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+                Request an Estimate
               </Link>
             </div>
           </div>

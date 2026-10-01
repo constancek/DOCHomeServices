@@ -286,8 +286,8 @@ export default function BasementFloodPlumbingPage() {
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+                Request an Estimate
               </Link>
             </div>
           </div>

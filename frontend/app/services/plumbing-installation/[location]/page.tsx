@@ -13,7 +13,7 @@ const config: ServiceLocationConfig = {
   parentCrumb: { label: 'Plumbing', href: '/services/plumbing' },
   businessType: 'Plumber',
   schemaServiceType: 'Plumbing Installation',
-  ctaLine: 'Planning a plumbing install in {neighborhood}? Call for a free estimate',
+  ctaLine: 'Planning a plumbing install in {neighborhood}? Call for an estimate',
   heroImage: '/services/plumbing-installation.webp',
   introHeading: 'Plumbing Installation in {neighborhood}',
   introParagraphs: [
@@ -55,7 +55,7 @@ const config: ServiceLocationConfig = {
   band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Plumbing Installation in {neighborhood}',
   band2Paragraphs: [
-    'We start with a free estimate. A licensed plumber reviews what you want installed, recommends the right equipment for your {neighborhood} home and water, and explains the flat-rate price before any work begins.',
+    'We start with an estimate. A licensed plumber reviews what you want installed, recommends the right equipment for your {neighborhood} home and water, and explains the flat-rate price before any work begins.',
     'On install day, we set the fixture or system with proper connections, pressure-test for leaks, clean up, and confirm everything works exactly as it should before we leave.',
   ],
   proseSections: [

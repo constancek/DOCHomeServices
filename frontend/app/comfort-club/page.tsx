@@ -209,7 +209,7 @@ export default function ComfortClubPage() {
 
           {/* Brochure CTA bar */}
           <a
-            href="/free-estimate"
+            href="/request-estimate/"
             className="mt-8 flex items-center justify-center gap-3 rounded-2xl bg-lime-500 px-6 py-5 text-center text-sm font-extrabold uppercase tracking-wide text-white transition hover:bg-lime-600"
           >
             <Icon name="doc" className="h-5 w-5 flex-shrink-0" />

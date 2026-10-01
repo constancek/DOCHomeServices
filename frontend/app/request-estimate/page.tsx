@@ -6,26 +6,26 @@ import EstimateForm from '@/components/EstimateForm';
 import { site } from '@/content/site';
 
 export const metadata: Metadata = {
-  title: 'Free Estimate',
-  description: `Request a free, no-obligation estimate from ${site.name} on new heating, cooling, and plumbing systems in ${site.serviceArea}.`,
-  alternates: { canonical: '/free-estimate' },
+  title: 'Request an Estimate',
+  description: `Request an estimate from ${site.name} on new heating, cooling, and plumbing systems in ${site.serviceArea}.`,
+  alternates: { canonical: '/request-estimate/' },
 };
 
 const expectations = [
-  'Free, written, no-obligation estimate',
+  'Written, itemized estimate',
   'Honest repair-versus-replace advice',
   'Upfront, flat-rate pricing',
   'Financing options explained',
 ];
 
-export default function FreeEstimatePage() {
+export default function RequestEstimatePage() {
   return (
     <>
       <PageHero
-        eyebrow="No Obligation"
-        title="Request Your Free Estimate"
+        eyebrow="Estimates"
+        title="Request an Estimate"
         description="Transparent residential estimates on new plumbing, heating, and cooling system installations and replacements."
-        crumbs={[{ label: 'Home', href: '/' }, { label: 'Free Estimate' }]}
+        crumbs={[{ label: 'Home', href: '/' }, { label: 'Request an Estimate' }]}
       />
 
       <section className="py-16">

@@ -341,15 +341,15 @@ export default function ACRepairPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your AC Repair Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               If your air conditioner is not cooling properly or has stopped working, professional
-              repair can help. Call now or request a free estimate.
+              repair can help. Call now or request an estimate.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={site.primaryPhone.href} className="btn-pink text-base">
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+                Request an Estimate
               </Link>
             </div>
           </div>

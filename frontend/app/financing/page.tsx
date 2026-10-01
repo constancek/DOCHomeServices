@@ -118,7 +118,7 @@ export default function FinancingPage() {
                   </div>
                 ))}
               </div>
-              <Link href="/free-estimate" className="btn-pink mt-6 w-full text-base">
+              <Link href="/request-estimate/" className="btn-pink mt-6 w-full text-base">
                 Book Now
               </Link>
             </div>

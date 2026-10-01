@@ -63,7 +63,7 @@ const config: ServiceLocationConfig = {
     { title: 'Boiler vs. Furnace', body: 'A furnace heats air and blows it through ducts. A boiler heats water and moves it through radiators or floor tubing, so there is no forced air, less dust, and quieter, even heat. Most {neighborhood} homes with radiators don’t have ductwork, which is why replacing a boiler with a new boiler is usually simpler than switching to a furnace.' },
     { title: 'Hot Water and Steam Boilers', body: 'Hot water boilers circulate water in a closed loop and depend on steady pressure. Steam boilers, common in older homes, turn water to steam that rises to the radiators and returns as condensate. We service both, and the maintenance each needs is different.' },
     { title: 'High-Efficiency Replacement', body: 'A modern high-efficiency boiler runs around 90% efficient, so more of the gas you pay for turns into heat. We size the new boiler to your {neighborhood} home’s heat loss, not just the label on the old unit.' },
-    { title: 'Financing Your Boiler in {neighborhood}', body: 'A boiler replacement is a large expense, so we offer financing with flexible terms and a free estimate, so you know the cost before you decide.' },
+    { title: 'Financing Your Boiler in {neighborhood}', body: 'A boiler replacement is a large expense, so we offer financing with flexible terms and an estimate, so you know the cost before you decide.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Choose Us',
   whyUs: [

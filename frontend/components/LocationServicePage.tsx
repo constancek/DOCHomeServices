@@ -349,7 +349,7 @@ export default function LocationServicePage({
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Need {config.serviceName} in {loc.neighborhood}?</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
-              Call now for fast, licensed service in {place}, or request a free estimate.
+              Call now for fast, licensed service in {place}, or request an estimate.
             </p>
             <a href={site.primaryPhone.href} className="btn-pink mt-6 text-base">
               <Icon name="phone" className="h-5 w-5" />

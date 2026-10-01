@@ -51,7 +51,7 @@ const whyUs = [
 const faqs = [
   { q: 'What does residential plumbing repair include?', a: 'Just about anything inside your home’s plumbing network — leaks, clogged or slow drains, toilet and sink repairs, fixture replacements, water-pressure problems, and appliance hookups.' },
   { q: 'Do your plumbers provide emergency plumbing repair?', a: 'Yes. We are on call 24/7 for urgent repairs like burst pipes, major leaks, and sewer backups, and we reach most homes the same day.' },
-  { q: 'How much does a licensed plumbing repair typically cost?', a: 'Every repair is quoted at a flat rate before we begin, based on your home and the work involved — so there are no surprises. Call for a free, no-obligation estimate.' },
+  { q: 'How much does a licensed plumbing repair typically cost?', a: 'Every repair is quoted at a flat rate before we begin, based on your home and the work involved — so there are no surprises. Call to request an estimate.' },
   { q: 'Do plumbing repair services include toilet repair?', a: 'Yes. We fix running, leaking, and clogged toilets, replace worn internal parts, and install new toilets when a repair no longer makes sense.' },
   { q: 'How fast can a plumber for residential repair respond?', a: 'We staff for demand, so most residential repair calls are handled the same day you reach out — often within hours.' },
 ];
@@ -313,15 +313,15 @@ export default function PlumbingRepairPage() {
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Fast scheduling, clear communication, and repairs built to last. Call now or request a
-              free estimate.
+              estimate.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={site.primaryPhone.href} className="btn-pink text-base">
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+                Request an Estimate
               </Link>
             </div>
           </div>

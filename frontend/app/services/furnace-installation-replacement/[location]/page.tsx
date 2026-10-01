@@ -13,7 +13,7 @@ const config: ServiceLocationConfig = {
   parentCrumb: { label: 'Heating', href: '/services/heating' },
   businessType: 'HVACBusiness',
   schemaServiceType: 'Furnace Installation & Replacement',
-  ctaLine: 'Need a new furnace in {neighborhood}? Get a free estimate',
+  ctaLine: 'Need a new furnace in {neighborhood}? Get an estimate',
   heroImage: '/services/furnace-installation-replacement.webp',
   introHeading: 'Furnace Installation & Replacement in {neighborhood}',
   introParagraphs: [
@@ -54,13 +54,13 @@ const config: ServiceLocationConfig = {
   band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Furnace Installation in {neighborhood}',
   band2Paragraphs: [
-    'We start with a free in-home estimate. A technician sizes the system to your home’s layout and heating load, recommends the right gas or electric furnace, and explains your options and pricing before you decide.',
+    'We start with an in-home estimate. A technician sizes the system to your home’s layout and heating load, recommends the right gas or electric furnace, and explains your options and pricing before you decide.',
     'On installation day, we safely remove the old unit, install the new furnace with proper gas, electrical, and venting connections, test airflow and operation, then clean up and walk you through how it runs.',
   ],
   proseSections: [
     { title: 'Gas vs. Electric Furnaces', body: 'Gas furnaces heat quickly and cost less to run where natural gas is available, which covers most of {neighborhood}. Electric furnaces suit homes without a gas line — they are durable and simple to maintain. We help you weigh fuel availability, efficiency, and budget, and we also lay out heat-pump options when they make sense.' },
     { title: 'Repair or Replace?', body: 'Most furnaces last about 15–20 years. If yours is in that range, breaking down often, or driving up energy bills despite maintenance, replacement is usually the better long-term value. For a newer unit with an isolated problem, we will tell you honestly when a repair makes more sense.' },
-    { title: 'Furnace Installation Cost & Financing', body: 'Cost depends on the furnace type and efficiency, your home’s size, and any ductwork, venting, or fuel-line work. {brand} provides a free estimate up front and offers financing with low rates and fast approval, so an unexpected replacement does not have to be a crisis.' },
+    { title: 'Furnace Installation Cost & Financing', body: 'Cost depends on the furnace type and efficiency, your home’s size, and any ductwork, venting, or fuel-line work. {brand} provides an estimate up front and offers financing with low rates and fast approval, so an unexpected replacement does not have to be a crisis.' },
     { title: 'Emergency Furnace Replacement in {neighborhood}', body: 'When a furnace fails during a cold snap, waiting days for heat is not an option. Our team offers same-day installation whenever possible to get a new, reliable system running and your {neighborhood} home warm again fast.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Choose Us',
