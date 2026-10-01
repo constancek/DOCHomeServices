@@ -34,7 +34,7 @@ export default function RequestEstimatePage() {
 
           <aside className="space-y-6">
             <div>
-              <h2 className="section-title text-brand-700">Transparent Estimates, No Pressure</h2>
+              <h2 className="m-center section-title text-brand-700">Transparent Estimates, No Pressure</h2>
               <p className="mt-3 text-sm leading-relaxed text-ink/70">
                 Tell us about your project and we will assess your home, lay out your options in plain
                 language, and give you a written price. No jargon, no hard sell — just the information
@@ -42,7 +42,7 @@ export default function RequestEstimatePage() {
               </p>
             </div>
 
-            <ul className="space-y-3">
+            <ul className="m-list space-y-3">
               {expectations.map((e) => (
                 <li key={e} className="flex items-center gap-3 text-sm font-semibold text-ink/80">
                   <span className="grid h-7 w-7 flex-shrink-0 place-items-center rounded-full bg-lime-500 text-white">

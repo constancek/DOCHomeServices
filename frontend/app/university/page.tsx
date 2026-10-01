@@ -104,10 +104,10 @@ export default function UniversityPage() {
       {/* Great opportunities intro */}
       <section className="py-14">
         <div className="container-page">
-          <h2 className="font-display text-4xl font-black uppercase leading-[1.05] text-brand-600 sm:text-5xl">
+          <h2 className="m-center font-display text-4xl font-black uppercase leading-[1.05] text-brand-600 sm:text-5xl">
             Great Opportunities at a Great Company.
           </h2>
-          <p className="mt-3 font-display text-xl font-extrabold uppercase tracking-wide text-pink-500 sm:text-2xl">
+          <p className="m-center mt-3 font-display text-xl font-extrabold uppercase tracking-wide text-pink-500 sm:text-2xl">
             Sign Up for {site.name} University Today!
           </p>
           <p className="mt-4 max-w-3xl text-sm leading-relaxed text-ink/70">
@@ -141,10 +141,10 @@ export default function UniversityPage() {
             aria-label="Degree of Comfort University team"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight text-pink-500 sm:text-4xl">
+            <h2 className="m-center font-display text-3xl font-black uppercase leading-tight text-pink-500 sm:text-4xl">
               Why {site.name} University?
             </h2>
-            <ul className="mt-5 grid gap-2.5 sm:grid-cols-2">
+            <ul className="m-list mt-5 grid gap-2.5 sm:grid-cols-2">
               {benefits.map((b) => (
                 <li key={b} className="flex gap-2.5 text-sm font-semibold text-brand-800">
                   <span className="mt-0.5 grid h-5 w-5 flex-shrink-0 place-items-center rounded-full bg-pink-500 text-white">
@@ -161,7 +161,7 @@ export default function UniversityPage() {
       <section className="py-16">
         <MainWithSidebar>
           {/* Program FAQ */}
-          <h2 className="mt-12 section-title text-brand-700">The Program</h2>
+          <h2 className="m-center mt-12 section-title text-brand-700">The Program</h2>
           <div className="mt-4">
             <Accordion items={faqs} variant="bar" defaultOpen={0} />
           </div>

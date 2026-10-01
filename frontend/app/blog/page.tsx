@@ -36,7 +36,7 @@ export default function BlogIndex() {
 
       <section className="py-16 sm:py-20">
         <div className="container-page">
-          <h2 className="font-display text-3xl font-black uppercase leading-tight tracking-tight text-brand-600 sm:text-4xl">
+          <h2 className="m-center font-display text-3xl font-black uppercase leading-tight tracking-tight text-brand-600 sm:text-4xl">
             Welcome to the Degree of Comfort Blog!
           </h2>
           <div className="mt-8 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">

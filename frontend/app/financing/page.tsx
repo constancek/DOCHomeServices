@@ -35,7 +35,7 @@ export default function FinancingPage() {
         <div className="container-page grid gap-10 lg:grid-cols-[1.4fr_1fr] lg:items-start">
           {/* Left */}
           <div>
-            <h2 className="font-display text-4xl font-black uppercase leading-[1.05] text-brand-600 sm:text-5xl">
+            <h2 className="m-center font-display text-4xl font-black uppercase leading-[1.05] text-brand-600 sm:text-5xl">
               Financing Options That Maximize Your Comfort Level.
             </h2>
             <p className="mt-4 text-[15px] leading-relaxed text-ink/75">

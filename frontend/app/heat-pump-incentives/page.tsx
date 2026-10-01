@@ -130,7 +130,7 @@ export default function HeatPumpPage() {
           </div>
 
           {/* Benefits */}
-          <h2 className="mt-14 section-title text-brand-700">More Than a Tax Break</h2>
+          <h2 className="m-center mt-14 section-title text-brand-700">More Than a Tax Break</h2>
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {benefits.map((b) => (
               <div key={b.title} className="card">

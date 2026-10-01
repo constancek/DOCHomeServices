@@ -32,7 +32,7 @@ export default function PageSections({
       {mobileServiceList && (
         <section className="bg-white pb-12 pt-10 lg:hidden">
           <div className="container-page">
-            <h2 className="mb-4 font-display text-xl font-extrabold uppercase text-brand-700">
+            <h2 className="m-center mb-4 font-display text-xl font-extrabold uppercase text-brand-700">
               Our Services
             </h2>
             <ServicesMenu />
@@ -91,11 +91,11 @@ export function OurDifferenceBanner() {
         aria-hidden
       />
       <div className="container-page relative py-20">
-        <div className="max-w-2xl text-white">
+        <div className="m-center max-w-2xl text-white">
           <h2 className="font-display text-4xl font-black uppercase leading-[1.05] text-pink-500 sm:text-5xl">
             Our Difference.
           </h2>
-          <p className="mt-5 text-base leading-relaxed text-white/90 sm:text-base">
+          <p className="m-left mt-5 text-base leading-relaxed text-white/90 sm:text-base">
             We believe one of life&rsquo;s greatest gifts is being part of a thriving community —
             surrounded by family and friends who share the same goals and dreams. We are fortunate to
             live and work across {site.serviceArea} and the surrounding Tri-State, communities that
@@ -160,7 +160,7 @@ export function WhyChoose() {
           {/* Benefits list */}
           {/* The CTA leads on mobile, where the benefits list pushes it far down
               the page; on desktop it sits under the list as a closing step. */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start max-sm:items-center">
             <ul className="space-y-5 lg:space-y-6">
               {benefits.map((b) => (
                 <li key={b.title} className="flex gap-4">
@@ -221,19 +221,19 @@ export function WorkStandsOut() {
           />
         </div>
 
-        <div className="text-white">
+        <div className="m-center text-white">
           <h2 className="section-title">Our Work Stands Out</h2>
           <p className="mt-1 text-lg font-bold uppercase tracking-wide text-pink-400">
             Even more than our shirts
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-brand-100">
+          <p className="m-left mt-4 text-sm leading-relaxed text-brand-100">
             We are a local, family-owned plumbing and HVAC company built on showing up when we say we
             will, quoting the price before we start, and treating your home like our own. Our
             technicians are background-checked, factory-trained, and genuinely happy to help.
           </p>
 
           {/* Testimonial card */}
-          <div className="mt-6 rounded-2xl bg-white p-6 shadow-card">
+          <div className="m-left mt-6 rounded-2xl bg-white p-6 shadow-card">
             <h3 className="font-display text-lg font-extrabold text-brand-700">
               See What Our Happy Customers Say
             </h3>
@@ -267,15 +267,15 @@ export function TrustedExperts() {
   return (
     <section className="bg-white py-16">
       <div className="container-page grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-center">
-        <div>
-          <p className="mb-3 flex items-center gap-2 text-sm font-extrabold uppercase tracking-[0.18em] text-pink-500">
+        <div className="m-center">
+          <p className="mb-3 flex items-center gap-2 text-sm font-extrabold uppercase tracking-[0.18em] text-pink-500 max-sm:justify-center">
             <Icon name="paw" className="h-5 w-5" />
             Spot Our Van Around Cincinnati
           </p>
           <h2 className="section-title text-brand-700">
             Your Trusted Plumbing, HVAC &amp; Electrical Experts in {site.serviceArea}
           </h2>
-          <p className="mt-4 text-sm leading-relaxed text-ink/70">
+          <p className="m-left mt-4 text-sm leading-relaxed text-ink/70">
             From a midsummer AC breakdown to a slow drain that never quite clears, we handle the whole
             home with one trusted crew. Same-day service, upfront flat-rate pricing, and a clean job
             site every time. When something stops working, you get a licensed technician at the door,
@@ -308,14 +308,14 @@ export function GetFunding() {
   return (
     <section className="bg-white py-14">
       <div className="container-page grid gap-8 lg:grid-cols-2 lg:items-center">
-        <div>
+        <div className="m-center">
           <h2 className="section-title text-brand-700">Get Funding Today!</h2>
           <Link href="/financing" className="btn-pink mt-5">
             See If You Qualify Today
             <Icon name="arrow" className="h-4 w-4" />
           </Link>
         </div>
-        <ul className="space-y-3">
+        <ul className="m-list space-y-3">
           {fundingPoints.map((p) => (
             <li key={p} className="flex items-center gap-3 text-sm font-semibold text-ink/80">
               <span className="grid h-7 w-7 flex-shrink-0 place-items-center rounded-full bg-lime-500 text-white">
@@ -335,9 +335,9 @@ export function ComfortClub() {
   return (
     <section className="bg-blue-section">
       <div className="container-page grid items-center gap-10 py-16 lg:grid-cols-2">
-        <div className="text-white">
+        <div className="m-center text-white">
           <h2 className="section-title">Comfort Club</h2>
-          <ul className="mt-6 space-y-3">
+          <ul className="m-list mt-6 space-y-3">
             {clubPerks.map((perk) => (
               <li key={perk} className="flex items-center gap-3 text-sm font-semibold">
                 <span className="grid h-6 w-6 flex-shrink-0 place-items-center rounded-full bg-pink-500">
@@ -371,9 +371,9 @@ export function Community() {
   return (
     <section className="bg-white py-16">
       <div className="container-page grid items-center gap-10 lg:grid-cols-2">
-        <div>
+        <div className="m-center">
           <h2 className="section-title text-brand-700">In the Community</h2>
-          <p className="mt-4 text-sm leading-relaxed text-ink/70">
+          <p className="m-left mt-4 text-sm leading-relaxed text-ink/70">
             We believe a great local company is part of the neighborhood it serves. We sponsor youth
             sports, support local schools and food drives, and show up for the families around us the
             same way we show up for their homes. When you hire us, you are keeping good work and good

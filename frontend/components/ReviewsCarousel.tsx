@@ -91,7 +91,7 @@ export default function ReviewsCarousel({
   return (
     // One review at a time inside a single white card; the arrows sit in the card.
     // min-w-0 stops the wide scrolling track from stretching its grid column.
-    <div className="relative min-w-0 rounded-3xl bg-white p-7 shadow-card ring-1 ring-brand-900/5 sm:p-8">
+    <div className="relative min-w-0 overflow-hidden rounded-3xl bg-white p-7 shadow-card ring-1 ring-brand-900/5 sm:p-8">
       <div
         ref={trackRef}
         className="flex snap-x snap-mandatory gap-6 overflow-x-auto [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
@@ -167,13 +167,14 @@ export default function ReviewsCarousel({
         })}
       </div>
 
-      {/* Controls */}
-      <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
+      {/* Controls: a full-width orange band across the bottom of the card,
+          matching the booking form's header. */}
+      <div className="-mx-7 -mb-7 mt-7 flex flex-wrap items-center justify-center gap-3 bg-pink-500 px-6 py-4 sm:-mx-8 sm:-mb-8">
         <button
           type="button"
           onClick={() => slide(-1)}
           aria-label="Previous reviews"
-          className="grid h-11 w-11 place-items-center rounded-full border-2 border-pink-500 text-pink-500 transition hover:bg-pink-500 hover:text-white"
+          className="grid h-11 w-11 place-items-center rounded-full border-2 border-white text-white transition hover:bg-white hover:text-pink-500"
         >
           <Icon name="chevron" className="h-5 w-5 rotate-180" />
         </button>
@@ -181,12 +182,12 @@ export default function ReviewsCarousel({
           type="button"
           onClick={() => slide(1)}
           aria-label="Next reviews"
-          className="grid h-11 w-11 place-items-center rounded-full border-2 border-pink-500 text-pink-500 transition hover:bg-pink-500 hover:text-white"
+          className="grid h-11 w-11 place-items-center rounded-full border-2 border-white text-white transition hover:bg-white hover:text-pink-500"
         >
           <Icon name="chevron" className="h-5 w-5" />
         </button>
         {showAllLink && (
-          <Link href="/reviews" className="btn-pink ml-2">
+          <Link href="/reviews" className="btn ml-2 bg-white text-pink-500 hover:-translate-y-0.5 hover:bg-pink-light focus-visible:ring-white">
             View all reviews
             <Icon name="arrow" className="h-4 w-4" />
           </Link>

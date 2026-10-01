@@ -111,7 +111,7 @@ function Hero() {
 
       {/* Left copy */}
       <div className="container-page relative z-10">
-        <div className="max-w-md py-12 text-white lg:max-w-[44%] lg:py-24">
+        <div className="m-center max-w-md py-12 text-white max-sm:mx-auto lg:max-w-[44%] lg:py-24">
           <h1 className="font-display text-5xl font-black uppercase leading-[0.9] tracking-tight sm:text-6xl">
             The Color of
             <br />
@@ -120,7 +120,7 @@ function Hero() {
           <p className="mt-4 text-sm font-bold uppercase tracking-wide text-white/90 sm:text-base">
             Proudly servicing {site.serviceArea}
           </p>
-          <ul className="mt-5 space-y-2.5">
+          <ul className="m-list mt-5 space-y-2.5">
             {['Same-Day Service', 'Local, Family Owned & Operated', '100% Satisfaction Guarantee'].map(
               (b) => (
                 <li key={b} className="flex items-center gap-2.5 text-sm font-semibold">
@@ -213,7 +213,7 @@ function SpecialOffers() {
     <section id="offers" className="relative bg-blue-section py-16">
 
       <div className="container-page">
-        <h2 className="section-title text-white">Special Offers</h2>
+        <h2 className="m-center section-title text-white">Special Offers</h2>
 
         <div className="mt-8 grid items-stretch gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {offers.map((o) => (
