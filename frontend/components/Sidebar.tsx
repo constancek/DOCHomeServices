@@ -5,7 +5,7 @@ import { site } from '@/content/site';
 import { coupons } from '@/content/coupons';
 
 // Featured voucher for the sidebar (matches the reference's "$75 off" card).
-const featured = coupons.find((c) => c.price === '$75 OFF') ?? coupons[0];
+const defaultCoupon = coupons.find((c) => c.price === '$75 OFF') ?? coupons[0];
 
 export function MapWidget() {
   return (
@@ -24,7 +24,10 @@ export function MapWidget() {
   );
 }
 
-export function CouponWidget() {
+// `price` picks a specific coupon by its price label (e.g. '$59' for the furnace
+// tune-up on heating posts); without it the sidebar shows the featured one.
+export function CouponWidget({ price }: { price?: string } = {}) {
+  const featured = (price && coupons.find((c) => c.price === price)) || defaultCoupon;
   return (
     <div className="overflow-hidden rounded-2xl border-2 border-dashed border-pink-400 bg-white shadow-card">
       <div className="bg-cobalt py-2 text-center text-xs font-bold uppercase tracking-wide text-white">

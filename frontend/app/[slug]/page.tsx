@@ -6,6 +6,7 @@ import PageHero from '@/components/PageHero';
 import { BlogSections } from '@/components/PageSections';
 import ShareBar from '@/components/ShareBar';
 import BlogFaq from '@/components/BlogFaq';
+import GuideLinks from '@/components/GuideLinks';
 import { MapWidget, CouponWidget } from '@/components/Sidebar';
 import ServicesMenu from '@/components/ServicesMenu';
 import { posts, getPost, type PostBlock, type PostSpan } from '@/content/posts';
@@ -28,8 +29,12 @@ export async function generateMetadata({
   // points at the JPEG twin kept on disk beside each hero.
   const ogImage = post.image?.replace(/\.webp$/, '.jpg');
   const images = ogImage ? [{ url: ogImage, alt: post.imageAlt ?? post.title }] : undefined;
+  // Keep the <title> at 60 characters or less: drop the " | Degree of Comfort"
+  // suffix when it would push the post's title past that.
+  const seoTitle = post.seoTitle ?? post.title;
+  const withSuffix = `${seoTitle} | ${site.name}`;
   return {
-    title: post.seoTitle ?? post.title,
+    title: withSuffix.length <= 60 ? seoTitle : { absolute: seoTitle },
     description: post.excerpt,
     alternates: { canonical: url },
     openGraph: {
@@ -249,6 +254,9 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             {/* FAQ */}
             {post.faqs && post.faqs.length > 0 && <BlogFaq items={post.faqs} />}
 
+            {/* Related guides on the same topic */}
+            <GuideLinks slug={post.slug} />
+
             {/* Inline CTA */}
             <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center">
               <h2 className="text-2xl font-extrabold text-white">Let Degree of Comfort Handle It</h2>
@@ -347,7 +355,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               </ul>
             </div>
             <MapWidget />
-            <CouponWidget />
+            <CouponWidget price={post.category === 'Heating' ? '$59' : undefined} />
             <ServicesMenu />
           </aside>
         </div>

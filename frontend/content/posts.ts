@@ -4881,7 +4881,7 @@ export const posts: Post[] = [
     excerpt:
       'Tenant reporting no heat? Here’s what Cincinnati landlords must do, step by step, plus Ohio and Kentucky heat laws and fines.',
     date: '2026-09-29',
-    dateModified: '2026-09-29',
+    dateModified: '2026-10-02',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/tenant-no-heat-landlord-guide-hero.webp',
@@ -4925,14 +4925,8 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Keep a simple timeline for every no-heat call: when the tenant reported it, when you responded, when the technician arrived, what they found, and when heat came back. Save the texts, the technician’s invoice or written diagnosis, and the receipts for any space heaters or hotel nights.'] },
       { kind: 'p', spans: ['This isn’t paperwork for its own sake. Ohio tenant remedies start with written notice from the tenant, and if a dispute ever reaches a court or the Health Department, the landlord with a clean timeline showing a same-day response is in a very different spot from the one saying “I thought it was handled.”'] },
 
-      { kind: 'h2', text: 'What the Law Expects in Ohio, Cincinnati, and Northern Kentucky' },
-      { kind: 'p', spans: ['We fix furnaces; we’re not lawyers, and this section isn’t legal advice. But these are the rules we see landlords run into most, and it helps to know them before the first cold night.'] },
-      { kind: 'h3', text: 'Ohio' },
-      { kind: 'p', spans: ['Under Ohio Revised Code 5321.04, landlords must keep the heating fixtures and appliances they supply in good and safe working order. If they don’t, ', { link: 'ORC 5321.07', href: 'https://codes.ohio.gov/ohio-revised-code/section-5321.07' }, ' lets a tenant who is current on rent give written notice. If the problem isn’t fixed within a reasonable time, or 30 days, whichever is sooner, the tenant can deposit rent with the local court clerk, ask the court to order the repair, or end the lease. There is an exception for landlords with three or fewer units who state that in the written lease, so check yours.'] },
-      { kind: 'h3', text: 'Cincinnati' },
-      { kind: 'p', spans: ['Cincinnati goes further for units where tenants don’t control their own heat, which usually means buildings on a ', { link: 'shared boiler', href: '/services/boilers/' }, ' or central system. Once the outdoor temperature stays below 60 degrees for 24 consecutive hours, the inside has to stay at 70 degrees or warmer. Fines run $300 for the first day and $750 for each additional day, and landlords who ignore a Board of Health order can face up to 180 days in jail and a $1,000 fine. Tenants report no heat through 311 or the Health Department’s Healthy Homes line, and a sanitarian then contacts the landlord.'] },
-      { kind: 'h3', text: 'Northern Kentucky' },
-      { kind: 'p', spans: ['Kentucky’s landlord-tenant act only applies in cities and counties that have adopted it, so start by finding out whether yours has. Where it does, KRS 383.640 says that if a landlord willfully fails to supply heat, a tenant who has given notice can buy reasonable heat and deduct the cost from rent, or move to substitute housing and owe no rent for that stretch. The word that matters there is willfully. A landlord who has a tech on the way is in a very different position from one who hasn’t called anyone.'] },
+      { kind: 'h2', text: 'What the Law Expects in Ohio and Cincinnati' },
+      { kind: 'p', spans: ['The short version: Ohio Revised Code 5321.04 requires landlords to supply reasonable heat and keep the heating equipment they supply in good and safe working order. In Cincinnati units where tenants don’t control their own heat, the inside must stay at 70 degrees or warmer once the outdoor temperature has been below 60 degrees for 24 hours, with fines of $300 for the first day and $750 for each day after. Tenants who give written notice can use the remedies in ORC 5321.07. Our guide to ', { link: 'Cincinnati landlord heating requirements', href: '/cincinnati-landlord-heating-requirements-ohio-law/' }, ' covers the full law, including the small-landlord exception, the rule against shutting off heat, and Northern Kentucky. We are heating contractors, not lawyers, so confirm the details with your attorney.'] },
 
       { kind: 'h2', text: 'When the Problem Isn’t the Furnace' },
       { kind: 'p', spans: ['Sometimes a no-heat call has nothing to do with the equipment, and a heating company is the wrong first call.'] },
@@ -5900,7 +5894,7 @@ export const posts: Post[] = [
     excerpt:
       'What a preventive HVAC maintenance plan covers for Cincinnati rental properties, what skipping it costs, a yearly schedule, and when you don’t need one.',
     date: '2026-10-01',
-    dateModified: '2026-10-01',
+    dateModified: '2026-10-02',
     readMinutes: 9,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/rental-hvac-maintenance-plan-hero.webp',
@@ -5910,7 +5904,7 @@ export const posts: Post[] = [
         kind: 'takeaways',
         items: [
           [{ strong: 'A preventive maintenance plan turns surprise repairs into scheduled visits' }, ': heating checked in the fall, cooling in the spring, and water heaters, drains, and detectors checked once a year.'],
-          [{ strong: 'Skipped maintenance is expensive in Cincinnati' }, '. In units where tenants don’t control their own heat, the city can fine you $300 for the first day without heat and $750 for each day after.'],
+          [{ strong: 'Skipped maintenance is expensive in Cincinnati' }, '. In units where tenants don’t control their own heat, the city requires 70 degrees inside once it stays below 60 outside for 24 hours, and can fine you $300 for the first day without heat and $750 for each day after.'],
           [{ strong: 'Ohio law already requires the upkeep' }, '. Landlords must keep supplied heating, plumbing, electrical, and air conditioning in good and safe working order.'],
           [{ strong: 'You may not need a plan' }, ' if you own one newer rental and handle the basics yourself. Past two or three units, a schedule someone else keeps usually pays for itself.'],
         ],
@@ -5930,7 +5924,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'What Skipping Maintenance Costs Cincinnati Landlords' },
       { kind: 'p', spans: ['Without a plan, you find out a system is failing when a tenant calls. That call usually comes on the coldest night of the year, when every heating company in Cincinnati is booked and after-hours rates apply.'] },
-      { kind: 'p', spans: ['Here is our view: no rental with gas heat should go into November without a fall tune-up. In Cincinnati units where tenants don’t control their own heat, the city can fine you ', { strong: '$300 for the first day without adequate heat and $750 for each day after' }, '. A three-day wait for a part is $1,800 in fines before you’ve paid for the repair. Our ', { link: 'landlord guide for when a tenant has no heat', href: '/tenant-has-no-heat-cincinnati-landlord-guide/' }, ' walks through that response step by step.'] },
+      { kind: 'p', spans: ['Here is our view: no rental with gas heat should go into November without a fall tune-up. In Cincinnati units where tenants don’t control their own heat, the inside must stay at 70 degrees or warmer once the outdoor temperature has been below 60 degrees for 24 hours, and the city can fine you ', { strong: '$300 for the first day without adequate heat and $750 for each day after' }, '. A three-day wait for a part is $1,800 in fines before you’ve paid for the repair. Our ', { link: 'landlord guide for when a tenant has no heat', href: '/tenant-has-no-heat-cincinnati-landlord-guide/' }, ' walks through that response step by step.'] },
       { kind: 'p', spans: ['The slower cost is equipment life. Most furnaces last 15 to 20 years. One that gets a tune-up every fall tends to land near 20, and one that never sees a technician tends to land near 15. With a furnace replacement in Cincinnati typically running $3,000 to $10,000 installed, those five years matter. Our guide to ', { link: 'budgeting for furnace replacement across multiple rentals', href: '/budget-furnace-replacement-multiple-rentals-cincinnati/' }, ' shows how to plan for the ones that are due.'] },
       { kind: 'p', spans: ['Then there are tenants. A tenant who loses heat twice in one winter is less likely to renew, and every vacant month is a month of rent you don’t get back.'] },
 
@@ -5986,7 +5980,7 @@ export const posts: Post[] = [
     excerpt:
       'What a kettling, banging, or rumbling boiler is telling you, why Cincinnati’s hard water makes it worse, what you can check yourself, and when to call.',
     date: '2026-10-01',
-    dateModified: '2026-10-01',
+    dateModified: '2026-10-02',
     readMinutes: 8,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/boiler-noise-hero.webp',
@@ -6033,7 +6027,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: [{ strong: 'Read the gauge.' }, ' On a hot water boiler, the pressure should be about 12 to 15 psi with the system cold. Low pressure starves the boiler of water flow and can cause kettling. On a steam boiler, the water in the glass sight tube should sit about halfway.'] },
       { kind: 'p', spans: [{ strong: 'Check the radiator valves.' }, ' On one-pipe steam radiators, turn each valve all the way open or all the way closed. Never leave one in between.'] },
       { kind: 'p', spans: [{ strong: 'Check the radiator slope.' }, ' Set a level on top of a one-pipe steam radiator that bangs. It should tilt slightly toward the valve end. A thin shim under the far feet often fixes it.'] },
-      { kind: 'p', spans: [{ strong: 'Bleed the radiators' }, ' on a hot water system if you hear gurgling or a radiator is cool at the top. Then recheck the pressure, since bleeding lets some water out.'] },
+      { kind: 'p', spans: [{ strong: 'Bleed the radiators' }, ' on a hot water system if you hear gurgling or a radiator is cool at the top. Then recheck the pressure, since bleeding lets some water out. Our guide on ', { link: 'how to bleed radiators', href: '/how-to-bleed-radiators-cincinnati/' }, ' walks through it step by step.'] },
       { kind: 'p', spans: ['Don’t drain the boiler, adjust the gas valve, or add chemical treatment yourself. Those are jobs for a licensed technician.'] },
 
       { kind: 'h2', text: 'When a Boiler Noise Is an Emergency' },
@@ -6042,7 +6036,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'How a Cincinnati Boiler Technician Fixes Kettling' },
       { kind: 'p', spans: ['A technician starts by finding out whether the cause is scale, flow, or both. That means checking the circulator pump, the valves, the expansion tank, and the pressure, and looking for the leak if the system keeps taking on water. Scale is cleared by flushing the boiler with a descaling solution, then refilling and treating the water so it doesn’t come back as quickly. A weak pump gets replaced. The leak that was feeding the scale gets fixed, or the problem just returns.'] },
-      { kind: 'p', spans: ['If kettling has gone on for years, the heat exchanger may be damaged. A cracked or leaking heat exchanger usually means replacing the boiler rather than repairing it. Our ', { link: 'annual boiler maintenance', href: '/annual-boiler-maintenance/' }, ' visit is where most of this gets caught early, and our guide on ', { link: 'what you should know about boilers', href: '/what-you-should-know-about-boilers/' }, ' covers how long a boiler typically lasts.'] },
+      { kind: 'p', spans: ['If kettling has gone on for years, the heat exchanger may be damaged. A cracked or leaking heat exchanger usually means replacing the boiler rather than repairing it, and our breakdown of ', { link: 'boiler replacement cost in Cincinnati', href: '/boiler-replacement-cost-cincinnati/' }, ' covers what drives that price. Our ', { link: 'annual boiler maintenance', href: '/annual-boiler-maintenance/' }, ' visit is where most of this gets caught early, and our guide on ', { link: 'what you should know about boilers', href: '/what-you-should-know-about-boilers/' }, ' covers how long a boiler typically lasts.'] },
 
       { kind: 'h2', text: 'When You Don’t Need a Technician' },
       { kind: 'p', spans: ['Some boiler noise is normal. Light ticking as the pipes warm up, a soft hum from the pump, and the hiss of a steam radiator vent letting air out are all signs of a system working. A gurgle that stops once you bleed the radiators doesn’t need a visit either. If the noise is one of those and the house is heating evenly, save the money.'] },
@@ -6068,7 +6062,7 @@ export const posts: Post[] = [
     excerpt:
       'Who changes the furnace filter in a Cincinnati rental, tenant or landlord? What Ohio law says, sample lease wording, and filter systems that actually work.',
     date: '2026-10-01',
-    dateModified: '2026-10-01',
+    dateModified: '2026-10-02',
     readMinutes: 10,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/furnace-filter-rentals-hero.webp',
@@ -6133,7 +6127,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: [{ strong: 'Furnace in a locked or common space' }, '. If each unit has its own furnace but it sits in a locked basement or a hallway closet, the landlord should own the filter. Assigning a task the tenant can’t physically do doesn’t hold up.'] },
       { kind: 'p', spans: [{ strong: 'Filter behind a return grille' }, '. Many apartments have the filter in a wall or ceiling grille inside the unit. Those are easy for tenants to change and fit the supply-and-check system above. Label the grille with the size.'] },
       { kind: 'p', spans: [{ strong: 'Ductless and through-wall units' }, '. Mini-splits and through-wall units often have washable screens. Rinsing them is a reasonable tenant task, written into the lease the same way.'] },
-      { kind: 'p', spans: ['In shared-heat buildings, the Cincinnati heat rule applies to you directly: once the outdoor temperature stays below 60 degrees for 24 consecutive hours, the inside must be 70 degrees or warmer. No lease clause moves that onto a tenant.'] },
+      { kind: 'p', spans: ['Cincinnati’s heat rule applies only to units where tenants don’t control their own heat, which in practice means shared-heat buildings. In those units, once the outdoor temperature stays below 60 degrees for 24 consecutive hours, the inside must be 70 degrees or warmer. No lease clause moves that onto a tenant.'] },
 
       { kind: 'h2', text: 'When You Don’t Need a Technician' },
       { kind: 'p', spans: ['Changing a filter is not a service call. If you or your tenant can open the slot, read the size, and slide a new one in with the arrow pointing toward the furnace, you don’t need us for that, and you shouldn’t pay anyone to do it.'] },
@@ -6160,7 +6154,7 @@ export const posts: Post[] = [
     excerpt:
       'Boiler replacement cost in Cincinnati: 2026 national ranges, steam vs hot water, condensing vs standard, permits, and what a fair quote lists.',
     date: '2026-10-01',
-    dateModified: '2026-10-01',
+    dateModified: '2026-10-02',
     readMinutes: 9,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/boiler-replacement-cost-hero.webp',
@@ -6185,7 +6179,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: [{ strong: 'Combination (combi) boilers' }, ': $2,600 to $10,000 (Fixr, 2026). $3,000 to $7,000 (Today’s Homeowner, 2025).'] },
       { kind: 'p', spans: [{ strong: 'Steam boilers' }, ': $2,500 to $9,000 (Today’s Homeowner, 2025). Its separate steam boiler guide (updated April 9, 2025) gives $3,400 to $9,500.'] },
       { kind: 'p', spans: [{ strong: 'Labor' }, ': $1,000 to $3,500, usually including removal of the old unit (Fixr, 2026). Today’s Homeowner lists labor at $935 to $2,110 and demolition of the old boiler at $820 to $2,650.'] },
-      { kind: 'p', spans: ['The spread between those sources is the point. A like-for-like hot water swap in an open basement sits near the bottom. A steam boiler in a tight Clifton or Walnut Hills basement, with a chimney that needs work and old insulation to deal with, sits near the top.'] },
+      { kind: 'p', spans: ['The spread between those sources is the point. A like-for-like hot water swap in an open basement sits near the bottom. A steam boiler in a tight Clifton or Walnut Hills basement, with a chimney that needs work and old insulation to deal with, sits near the top, and jobs like that can run above these national ranges.'] },
 
       { kind: 'h2', text: 'Hot Water vs. Steam Boiler Replacement in Cincinnati' },
       { kind: 'p', spans: ['Most Cincinnati boilers are one of two kinds. Hot water boilers pump heated water through radiators or baseboard and run at about 12 to 15 psi cold. Steam boilers, common in older homes in Clifton, Northside, and Walnut Hills, boil water and send steam up to the radiators at about 2 psi or less.'] },
@@ -6253,7 +6247,7 @@ export const posts: Post[] = [
     excerpt:
       'Individual furnaces vs. a central boiler for Cincinnati multi-unit buildings: upfront cost, who pays the gas, the city heat rule, and a decision checklist.',
     date: '2026-10-01',
-    dateModified: '2026-10-01',
+    dateModified: '2026-10-02',
     readMinutes: 10,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/furnaces-vs-central-boiler-hero.webp',
@@ -6297,7 +6291,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Maintenance, Inspections, and Lifespan' },
       { kind: 'p', spans: ['One boiler means one tune-up a year. Four furnaces mean four tune-ups, four filters for someone to change, and four tenants to give 24 hours’ notice before entry. On a maintenance schedule, the boiler wins.'] },
-      { kind: 'p', spans: ['It usually wins on lifespan too. Furnaces typically last 15 to 20 years. A well-kept boiler typically lasts 15 to 25, and many run longer. The ', { link: 'Pacific Northwest National Laboratory', href: 'https://basc.pnnl.gov/resource-guides/gas-fired-boilers' }, ', writing for the U.S. Department of Energy’s Building America program, puts the typical life of HVAC equipment at 15 to 20 years and notes that boilers can often last for many decades. Our post on ', { link: 'annual boiler maintenance', href: '/annual-boiler-maintenance/' }, ' covers what that yearly visit includes.'] },
+      { kind: 'p', spans: ['It usually wins on lifespan too. Furnaces typically last 15 to 20 years. A well-kept boiler typically lasts 15 to 25, and many run longer. The ', { link: 'Pacific Northwest National Laboratory', href: 'https://basc.pnnl.gov/resource-guides/gas-fired-boilers' }, ', writing for the U.S. Department of Energy’s Building America program, puts the typical life of HVAC equipment at 15 to 20 years and notes that boilers can often last for many decades. Our post on ', { link: 'annual boiler maintenance', href: '/annual-boiler-maintenance/' }, ' covers what that yearly visit includes, and our ', { link: 'boiler service', href: '/services/boilers/' }, ' handles repair and replacement.'] },
       { kind: 'p', spans: ['On state inspections, building size matters. ', { link: 'Ohio Revised Code 4104.04', href: 'https://codes.ohio.gov/ohio-revised-code/section-4104.04' }, ' exempts steam boilers at 15 psig or less and hot water boilers at 160 psig or less (and 250 degrees or less) from the state’s boiler inspection requirements when they are in private residences or in apartment houses of fewer than six family units. Exempt boilers must still have the safety devices the state board prescribes. In a duplex to five-unit building, that means nobody from the state checks the boiler, and your yearly service is the only check it gets. At six units and up, plan for the state program as well.'] },
 
       { kind: 'h2', text: 'Space, Venting, Comfort, and Noise' },
@@ -6348,7 +6342,7 @@ export const posts: Post[] = [
     excerpt:
       'Heating options for Cincinnati duplexes and small apartment buildings: furnaces, boilers, mini-splits, PTACs, baseboard, and who ends up paying for heat.',
     date: '2026-10-01',
-    dateModified: '2026-10-01',
+    dateModified: '2026-10-02',
     readMinutes: 9,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/duplex-heating-options-hero.webp',
@@ -6377,7 +6371,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Option 2: One Central Boiler for the Whole Building' },
       { kind: 'p', spans: ['This is what many older Cincinnati two-families and small brick apartment buildings already have: one boiler in the basement feeding radiators in every unit. It runs on hot water or steam. Steam heat is common in older homes in Clifton, Northside, and Walnut Hills.'] },
-      { kind: 'p', spans: ['The case for it is simplicity. One appliance, one gas meter, one tune-up a year, and the even, quiet heat radiators are known for. The case against it is everything that sits with you: the full gas bill, the shared-heat rule above, and the fact that one failure leaves every unit cold at once. Tenants who can’t turn the heat down also tend to open windows instead, and you pay for that too.'] },
+      { kind: 'p', spans: ['The case for it is simplicity. One appliance, one gas meter, one tune-up a year, and the even, quiet heat radiators are known for. The case against it is everything that sits with you: the full gas bill, the shared-heat rule above, and the fact that one failure leaves every unit cold at once.'] },
       { kind: 'p', spans: ['Maintenance is steady but not hard. A hot water boiler should read about 12 to 15 psi cold, and its relief valve opens at 30 psi. A home steam boiler runs at about 2 psi or less, with the sight glass about half full. Our ', { link: 'boiler service', href: '/services/boilers/' }, ' covers repair, replacement, and yearly maintenance for both.'] },
       { kind: 'p', spans: ['Choosing between a furnace in every unit and one central boiler is the biggest decision on this list, and we cover it in depth in our post on ', { link: 'individual furnaces vs. a central boiler', href: '/individual-furnaces-vs-central-boiler-multi-unit-cincinnati/' }, '. For the general comparison in a single home, see ', { link: 'boiler vs. furnace for Cincinnati homes', href: '/boiler-vs-furnace-cincinnati/' }, '.'] },
 
@@ -6433,7 +6427,7 @@ export const posts: Post[] = [
     excerpt:
       'How to prevent frozen pipes in vacant rental units in Cincinnati: heat settings, when to winterize, insurance vacancy clauses, check visits, and sensors.',
     date: '2026-10-01',
-    dateModified: '2026-10-01',
+    dateModified: '2026-10-02',
     readMinutes: 10,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/vacant-rental-frozen-pipes-hero.webp',
@@ -6471,7 +6465,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: [{ strong: 'Protect the toilets and drain traps' }, '. Sponge out what is left in each toilet tank and bowl, then pour RV antifreeze into the bowl and into every sink, tub, shower, and floor drain so the trap holds antifreeze instead of water. Use only non-toxic propylene glycol antifreeze sold for RV and marine plumbing. Never use automotive antifreeze.'] },
       { kind: 'p', spans: [{ strong: 'Label it' }, '. Tag the main valve and the kitchen sink: “Winterized, water off, do not turn on.” A drained house with open faucets floods fast if someone turns the water back on.'] },
       { kind: 'h3', text: 'If the Unit Has a Boiler' },
-      { kind: 'p', spans: ['Many older Cincinnati rentals heat with a hot water or steam boiler, and those pipes and radiators hold water too. If the heat will be off, that system has to be drained or filled with boiler-rated antifreeze, then refilled and bled in the spring. That is a job for a heating technician.'] },
+      { kind: 'p', spans: ['Many older Cincinnati rentals heat with a hot water or steam boiler, and those pipes and radiators hold water too. If the heat will be off, that system has to be drained or filled with boiler-rated antifreeze, then refilled and bled in the spring. That is a job for a heating technician, and part of our ', { link: 'boiler service', href: '/services/boilers/' }, '.'] },
 
       { kind: 'h2', text: 'Shutting Off Water With Greater Cincinnati Water Works' },
       { kind: 'p', spans: ['If your inside main valve is seized or leaks by, Greater Cincinnati Water Works can turn the water off at the curb. GCWW asks customers who need service turned off or on to call (513) 591-7700, 7:30 a.m. to 4:30 p.m., Monday through Friday, excluding holidays. Call well before a cold snap, not the day of one.'] },
@@ -6491,7 +6485,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Remote Temperature and Leak Sensors' },
       { kind: 'p', spans: [{ strong: 'A Wi-Fi thermostat' }, ' that sends a low-temperature alert is the most useful single device. If the furnace quits, you hear about it while the house is still above freezing.'] },
-      { kind: 'p', spans: [{ strong: 'Water leak sensors' }, ' are small pucks that sit on the floor under the water heater, the kitchen sink, and the washing machine, and alert your phone when they get wet.'] },
+      { kind: 'p', spans: [{ strong: 'Water leak sensors' }, ' are small pucks that sit on the floor under the water heater, the kitchen sink, and the washing machine, and alert your phone when they get wet. If you suspect a hidden leak after a cold snap, our ', { link: 'leak detection', href: '/services/leak-detection/' }, ' service can track it down.'] },
       { kind: 'p', spans: [{ strong: 'An automatic shutoff valve' }, ' on the main line closes itself when it detects a leak or freezing temperatures. It needs a plumber to install, but it stops the water instead of just reporting it.'] },
       { kind: 'p', spans: ['One catch: most of these need internet, and a vacant unit often has none. Choose devices with a cellular hub or keep a basic internet plan on for the winter, and pick ones that alert you when they go offline.'] },
 
@@ -6504,7 +6498,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'When You Don’t Need a Plumber' },
       { kind: 'p', spans: ['Most of this is landlord work. If the unit has a forced-air furnace, a main valve that closes cleanly, and a tank water heater, you can winterize it yourself with a bucket, a sponge, and a few jugs of RV antifreeze. Hose bibs, thermostat settings, leak sensors, and check visits don’t need a license either. For a short vacancy with the heat on and someone checking weekly, you probably don’t need us.'] },
-      { kind: 'p', spans: ['Call a technician when the unit has a boiler, when the main valve won’t close, when the furnace is old or has been unreliable, when you want an automatic shutoff valve installed, or when a pipe has already frozen or burst.'] },
+      { kind: 'p', spans: ['Call a technician when the unit has a boiler, when the main valve won’t close, when the furnace is old or has been unreliable, when you want an automatic shutoff valve installed, or when a pipe has already frozen or burst. For a burst pipe, shut off the main and call our ', { link: 'emergency plumbing', href: '/services/emergency-plumbing/' }, ' line.'] },
 
       { kind: 'h2', text: 'Protecting Vacant Rentals in Cincinnati This Winter' },
       { kind: 'p', spans: ['Degree of Comfort services rental homes and multi-unit buildings across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We can check the furnace or boiler before a unit goes empty, winterize the plumbing and heating system, install leak shutoff valves, and get everything running again when the next tenant signs. We are family-owned, licensed and insured, with upfront, flat-rate pricing. Landlords on our ', { link: 'Comfort Club', href: '/comfort-club/' }, ' get priority scheduling ahead of non-members and up to 20% off repairs.'] },
@@ -6527,11 +6521,11 @@ export const posts: Post[] = [
     excerpt:
       'How to bleed radiators in a Cincinnati home: the tools, the right order, the pressure check after, why steam radiators are different, and when to call a pro.',
     date: '2026-10-01',
-    dateModified: '2026-10-01',
+    dateModified: '2026-10-02',
     readMinutes: 10,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/bleed-radiators-hero.webp',
-    imageAlt: 'Cast iron radiator under a window in an older home',
+    imageAlt: 'White painted cast iron radiator with a valve on the supply pipe',
     content: [
       {
         kind: 'takeaways',
@@ -6553,11 +6547,11 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Signs a Radiator Needs Bleeding' },
       { kind: 'p', spans: ['Trapped air collects at the highest point in a radiator, so the classic sign is a radiator that is ', { strong: 'warm at the bottom and cool at the top' }, ' while the heat is running. You may also hear gurgling or trickling in the radiators and pipes as the system circulates.'] },
-      { kind: 'p', spans: ['The opposite pattern means something else. ', { link: 'Worcester Bosch’s radiator guide', href: 'https://www.worcester-bosch.co.uk/support/troubleshooting/faqs/all-faqs/how-to-bleed-a-radiator' }, ' notes that a radiator warm at the top and cold at the bottom usually has sludge or debris settled inside, and that needs the system flushed by a professional. Bleeding won’t touch it.'] },
+      { kind: 'p', spans: ['The opposite pattern, warm at the top and cold at the bottom, isn’t air. It usually means sludge has settled inside the radiator or water isn’t flowing through it well. Both need a technician, and bleeding won’t touch either.'] },
 
       { kind: 'h2', text: 'How to Bleed a Hot Water Radiator, Step by Step' },
       { kind: 'h3', text: 'What You Need' },
-      { kind: 'p', spans: ['A radiator key (sold at most hardware stores) or a flat screwdriver if your valves are slotted, an old towel, and a cup or small container.'] },
+      { kind: 'p', spans: ['A radiator key (sold at most hardware stores) or a flat screwdriver if your valves are slotted, an old towel, and a cup or small container. ', { link: 'This Old House’s radiator guide', href: 'https://www.thisoldhouse.com/plumbing/how-to-bleed-a-radiator' }, ' covers the same basic steps if you want a second walkthrough.'] },
       { kind: 'h3', text: 'The Steps' },
       { kind: 'p', spans: [{ strong: '1. Turn the heat off and let it cool' }, '. Set the thermostat down so the boiler stops firing, then wait about 30 minutes. The water inside can be hot enough to scald.'] },
       { kind: 'p', spans: [{ strong: '2. Set up at the bleed valve' }, '. Fold the towel under the valve and hold the cup right under the opening.'] },
@@ -6618,7 +6612,7 @@ export const posts: Post[] = [
     excerpt:
       'Space heater safety rules for Cincinnati rentals: the fire numbers, a tenant-ready list, older wiring limits, lease bans, and what heavy heater use tells you.',
     date: '2026-10-01',
-    dateModified: '2026-10-01',
+    dateModified: '2026-10-02',
     readMinutes: 9,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/space-heater-rental-hero.webp',
@@ -6627,7 +6621,7 @@ export const posts: Post[] = [
       {
         kind: 'takeaways',
         items: [
-          [{ strong: 'Space heaters cause most heating fire deaths' }, '. NFPA found they were behind one-third of home heating equipment fires but nearly nine out of ten of the deaths in 2016 to 2020.'],
+          [{ strong: 'Space heaters cause most heating fire deaths' }, '. NFPA found that space heaters and heating stoves were behind 29% of home heating equipment fires but 77% of the deaths in 2019 to 2023.'],
           [{ strong: 'Give tenants the rules in writing' }, ': 3 feet of clearance, plug straight into a wall outlet, off when leaving or sleeping, tip-over shutoff, a testing lab label, and never an oven or fuel-burning heater for heat.'],
           [{ strong: 'Older Cincinnati wiring sets the limit' }, '. One 1,500-watt heater draws 12.5 amps, most of a 15-amp circuit. One heater per circuit, and a warm outlet means stop.'],
           [{ strong: 'A tenant who runs a space heater every day is telling you something' }, '. The heating system is probably short on heat, and that is a repair, not a lifestyle.'],
@@ -6636,10 +6630,10 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Cincinnati landlords should give every tenant a short, written set of space heater rules before the first cold snap, because space heaters are the most dangerous piece of heating equipment in a home. The rules are simple: keep anything that can burn 3 feet away, plug the heater straight into a wall outlet, turn it off when leaving the room or going to sleep, buy one with a tip-over shutoff and a testing lab label, and never heat with an oven, stove, grill, or fuel-burning heater. Below are the fire numbers, a list you can copy into a tenant letter, what older Cincinnati wiring can handle, what a lease can and can’t do, and when a space heater is a sign the furnace or boiler needs work.'] },
 
       { kind: 'h2', text: 'How Big the Space Heater Fire Risk Is' },
-      { kind: 'p', spans: ['The ', { link: 'National Fire Protection Association’s home heating fires report', href: 'https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/heating-equipment' }, ' covers 2016 to 2020. In those years, U.S. fire departments responded to an estimated annual average of ', { strong: '44,210 home structure fires caused by heating equipment' }, '. Those fires caused an estimated 480 civilian deaths, 1,370 civilian injuries, and more than one billion dollars in direct property damage each year.'] },
-      { kind: 'p', spans: ['Space heaters stand out in that report. They accounted for one-third of the heating equipment fires, but nearly nine out of ten of the deaths and four out of five of the injuries. A furnace fire usually starts in a basement with a metal cabinet around it. A space heater sits a few feet from a bed, a couch, or a pile of laundry.'] },
+      { kind: 'p', spans: ['The ', { link: 'National Fire Protection Association’s home heating fires report', href: 'https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/heating-equipment' }, ' covers 2019 to 2023. In those years, U.S. fire departments responded to an estimated annual average of ', { strong: '38,881 home fires involving heating equipment' }, '. Those fires caused an estimated 432 civilian deaths, 1,352 civilian injuries, and $1.1 billion in direct property damage each year.'] },
+      { kind: 'p', spans: ['Space heaters stand out in that report. Space heaters and heating stoves accounted for 29% of the heating equipment fires, but 77% of the deaths and 71% of the injuries. A furnace fire usually starts in a basement with a metal cabinet around it. A space heater sits a few feet from a bed, a couch, or a pile of laundry.'] },
       { kind: 'p', spans: ['The U.S. Consumer Product Safety Commission puts it in smaller numbers. In a ', { link: 'January 2026 winter safety release', href: 'https://www.cpsc.gov/Newsroom/News-Releases/2026/Keep-Warm-and-Safe-This-Winter-Tips-for-Using-Generators-Furnaces-and-Space-Heaters' }, ', CPSC estimated that portable heaters, including electric space heaters, are involved in an average of 1,600 fires per year, with an average of 70 deaths and 150 injuries a year from 2020 to 2022.'] },
-      { kind: 'p', spans: ['Here is our view: a space heater in a rental should be a stopgap, never the heating plan. When one-third of heating fires cause nearly nine out of ten heating fire deaths, the job is to get the real heating system working and the space heater back in the closet.'] },
+      { kind: 'p', spans: ['Here is our view: a space heater in a rental should be a stopgap, never the heating plan. When 29% of heating fires cause 77% of heating fire deaths, the job is to get the real heating system working and the space heater back in the closet.'] },
 
       { kind: 'h2', text: 'Space Heater Safety Rules to Hand Cincinnati Tenants' },
       { kind: 'p', spans: ['Copy this list into a move-in packet or a fall letter. Keep it short so it gets read.'] },
@@ -6709,7 +6703,7 @@ export const posts: Post[] = [
     excerpt:
       'Which heating upgrades pay back in an older Cincinnati rental, ranked by payback, with who pays the gas bill as the deciding factor, plus what to skip.',
     date: '2026-10-01',
-    dateModified: '2026-10-01',
+    dateModified: '2026-10-02',
     readMinutes: 10,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/older-rental-heating-upgrades-hero.webp',
@@ -6749,7 +6743,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: '4. Replacing an Old Furnace With a 95% Unit' },
       { kind: 'p', spans: ['A new furnace is the right move when the old one is 15 to 20 years old, needs an expensive repair, or has a cracked heat exchanger. It is rarely worth replacing a working 80% furnace for efficiency alone. Going from 80% to 95% efficiency cuts the gas used for heat by about 16%, which takes a long time to recover on a $3,000 to $10,000 job, and longer still if the tenant pays the bill. Our guide to ', { link: 'budgeting for furnace replacement across multiple rentals', href: '/budget-furnace-replacement-multiple-rentals-cincinnati/' }, ' covers how to plan the timing.'] },
-      { kind: 'p', spans: ['When you do replace, a 95% unit is the sensible choice. Most gas furnaces made after December 18, 2028 will have to meet 95% AFUE under the DOE rule, so it is where the market is heading. The City of Cincinnati requires a mechanical permit for the replacement.'] },
+      { kind: 'p', spans: ['When you do replace, a 95% unit is the sensible choice. Under the current DOE rule, most gas furnaces made after December 18, 2028 will have to meet 95% AFUE. A federal court upheld the rule in 2025, and a delay is under review at the DOE, so check its status before you buy. Either way, 95% is where the market is heading. The City of Cincinnati requires a mechanical permit for the replacement.'] },
       { kind: 'h3', text: 'The Orphaned Water Heater Problem' },
       { kind: 'p', spans: ['This is the cost that surprises landlords in older houses. A 95% furnace vents through plastic pipe out the side wall. The old furnace vented up the masonry chimney, usually alongside a gas water heater. Take the furnace off the chimney, and the water heater is left alone in a flue sized for two appliances.'] },
       { kind: 'p', spans: ['A small water heater can’t keep a large, cold chimney warm. The flue gases cool, moisture condenses inside, and the chimney drafts poorly. Over time the acidic condensate breaks down the mortar, and in the worst case exhaust spills back into the basement. The usual fix is a properly sized metal liner run down the chimney for the water heater, or replacing the water heater with a power-vented or direct-vent model. Budget for one or the other in the same job, and put a working carbon monoxide alarm near the basement.'] },
@@ -6757,7 +6751,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: '5. Boiler Options for Older Cincinnati Rentals' },
       { kind: 'p', spans: ['A lot of pre-1950 Cincinnati housing, especially in Clifton, Northside, and Walnut Hills, still heats with steam or hot water radiators. The upgrade choice depends on which you have.'] },
       { kind: 'p', spans: [{ strong: 'Hot water boilers' }, ' can be replaced with a condensing boiler, which can run above 90% efficiency because it recovers heat from the exhaust. It works best at low water temperatures, so insulating first helps.'] },
-      { kind: 'p', spans: [{ strong: 'Steam boilers' }, ' don’t condense. The federal minimum for a new gas steam boiler is 82% AFUE. When a steam boiler fails, replacing it with a correctly sized steam boiler is usually the most practical choice. Converting a steam building to hot water means new piping and often new radiators, and in a rental it rarely pays back.'] },
+      { kind: 'p', spans: [{ strong: 'Steam boilers' }, ' don’t condense. The federal minimum for a new gas steam boiler is 82% AFUE. When a steam boiler fails, replacing it with a correctly sized steam boiler is usually the most practical choice. Converting a steam building to hot water means new piping and often new radiators, and in a rental it rarely pays back. Our ', { link: 'boiler service', href: '/services/boilers/' }, ' covers both kinds. If you own and live in a historic house rather than rent one out, see ', { link: 'converting an old heating system in a historic Cincinnati home', href: '/converting-old-heating-system-historic-cincinnati-home/' }, '.'] },
       { kind: 'p', spans: ['If you are weighing a boiler against ductwork and a furnace, our comparison of ', { link: 'boilers and furnaces for Cincinnati homes', href: '/boiler-vs-furnace-cincinnati/' }, ' lays out the trade-offs.'] },
 
       { kind: 'h2', text: '6. Ductless Mini-Splits for Third Floors and Additions' },
@@ -6765,7 +6759,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Mini-splits run on electricity. Check which meter the outdoor unit will be wired to, and tell the tenant in writing that part of their heat now shows up on the electric bill rather than the gas bill.'] },
 
       { kind: 'h2', text: '7. Whole-House Heat Pumps' },
-      { kind: 'p', spans: ['A heat pump makes the most sense when the air conditioner and furnace are both due at the same time, and the house already has ducts. A heat pump paired with a gas furnace as backup (a dual-fuel system) covers the coldest Cincinnati nights. Our post on ', { link: 'whether heat pumps work in Cincinnati winters', href: '/do-heat-pumps-work-in-cincinnati-winters/' }, ' covers performance in cold weather.'] },
+      { kind: 'p', spans: ['A heat pump makes the most sense when the air conditioner and furnace are both due at the same time, and the house already has ducts. A heat pump paired with a gas furnace as backup (a dual-fuel system) covers the coldest Cincinnati nights. Our post on ', { link: 'whether heat pumps work in Cincinnati winters', href: '/do-heat-pumps-work-in-cincinnati-winters/' }, ' covers performance in cold weather, and our ', { link: 'heat pump service', href: '/services/heat-pumps/' }, ' covers installation.'] },
       { kind: 'p', spans: ['In a leaky, uninsulated house, a heat pump has to be sized for all that heat loss, so it costs more and works harder. Seal and insulate first. And if the tenant pays electric but not gas, switching to a heat pump moves the heating cost from one bill to the other. Say so in the lease.'] },
 
       { kind: 'h2', text: 'Tax Credits and Duke Energy Rebates in 2026' },
@@ -6806,7 +6800,7 @@ export const posts: Post[] = [
     excerpt:
       'Whether to keep or convert the old heating system in a historic Cincinnati home: steam, hot water, mini-splits, asbestos, and historic district approvals.',
     date: '2026-10-01',
-    dateModified: '2026-10-01',
+    dateModified: '2026-10-02',
     readMinutes: 10,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/historic-home-heating-hero.webp',
@@ -6850,7 +6844,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'High-Velocity Small-Duct Systems' },
       { kind: 'p', spans: ['These use small, flexible supply tubes that fit inside walls, closets, and between floor joists, ending in small round outlets instead of large registers. They were made for older homes, and they leave plaster and trim mostly intact. They can heat as well as cool, but many owners keep the radiators for heat and use the small-duct system for cooling only.'] },
       { kind: 'h3', text: 'Ductless Mini-Splits and Heat Pumps' },
-      { kind: 'p', spans: ['A ductless mini-split puts an indoor head in each room or zone, connected by a small refrigerant line to an outdoor unit. It needs only a small hole through the wall. Mini-splits are heat pumps, so they heat as well as cool, and they work well for a third floor or an addition the radiators never reached. Our ', { link: 'mini-split service page', href: '/services/mini-splits/' }, ' covers installation. A ducted heat pump replacing a gravity furnace is another option if you are installing new ducts anyway.'] },
+      { kind: 'p', spans: ['A ductless mini-split puts an indoor head in each room or zone, connected by a small refrigerant line to an outdoor unit. It needs only a small hole through the wall. Mini-splits are heat pumps, so they heat as well as cool, and they work well for a third floor or an addition the radiators never reached. Our ', { link: 'mini-split service page', href: '/services/mini-splits/' }, ' covers installation. A ducted heat pump replacing a gravity furnace is another option if you are installing new ducts anyway. See our ', { link: 'heat pump service', href: '/services/heat-pumps/' }, ' for both. If the house is a rental, our guide to ', { link: 'upgrading heating in an older Cincinnati rental', href: '/upgrading-heating-older-cincinnati-rental/' }, ' ranks upgrades by payback.'] },
       { kind: 'p', spans: ['Here is our view: don’t tear out a working radiator system to add full-size ductwork. According to ', { link: 'ENERGY STAR', href: 'https://www.energystar.gov/saveathome/heating-cooling/duct-sealing' }, ', about 20 to 30 percent of the air moving through a typical duct system is lost to leaks, holes, and poor connections. In a house with plaster walls and balloon framing, new ducts are hard to seal well and often end up in an unconditioned attic. Keep the radiators for heat and add cooling with small ducts or mini-splits.'] },
 
       { kind: 'h2', text: 'Asbestos on Old Pipes and Boilers' },
@@ -6893,7 +6887,7 @@ export const posts: Post[] = [
     excerpt:
       'Cincinnati landlord heating requirements under Ohio law: reasonable heat, the city’s 70-degree rule, tenant rent deposits, and why shutting off heat is illegal.',
     date: '2026-10-01',
-    dateModified: '2026-10-01',
+    dateModified: '2026-10-02',
     readMinutes: 10,
     author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
     image: '/blog/landlord-heating-law-hero.webp',
@@ -6925,9 +6919,9 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Cities fill that gap in their own codes, and the numbers differ. If you own rentals in more than one Ohio city, read each city’s code.'] },
 
       { kind: 'h2', text: 'Cincinnati’s 70-Degree Rule for Units Without Tenant-Controlled Heat' },
-      { kind: 'p', spans: ['The ', { link: 'Cincinnati Health Department’s heat regulations', href: 'https://www.cincinnati-oh.gov/health/news/heat-regulations/' }, ' come from a Board of Health regulation. Once the outdoor temperature stays below 60 degrees for 24 consecutive hours, the inside of the unit must be 70 degrees or warmer. The rule applies to units where tenants don’t control their own heat, which in practice means apartments on a shared boiler or a central system with one thermostat for the building.'] },
+      { kind: 'p', spans: ['The Cincinnati Health Department enforces the rule under a Board of Health regulation, and tenants can report a problem through ', { link: 'the city’s 311 no-heat request', href: 'https://www.cincinnati-oh.gov/311/requests/heat/' }, '. Once the outdoor temperature stays below 60 degrees for 24 consecutive hours, the inside of the unit must be 70 degrees or warmer. The rule applies to units where tenants don’t control their own heat, which in practice means apartments on a shared boiler or a central system with one thermostat for the building.'] },
       { kind: 'h3', text: 'Fines and Enforcement' },
-      { kind: 'p', spans: ['Tenants report through 311 or the Health Department’s Healthy Homes line. An inspector visits and measures the temperature. If it is below 70, the owner is ordered to fix it. The fines are ', { strong: '$300 for the first day and $750 for each additional day' }, ' without adequate heat. A landlord who ignores a Board of Health order can be prosecuted, with up to 180 days in jail.'] },
+      { kind: 'p', spans: ['Tenants report through 311 or the Health Department’s Healthy Homes line. An inspector visits and measures the temperature. If it is below 70, the owner is ordered to fix it. The fines are ', { strong: '$300 for the first day and $750 for each additional day' }, ' without adequate heat. A landlord who ignores a Board of Health order can be prosecuted, with up to 180 days in jail and a fine of up to $1,000.'] },
       { kind: 'h3', text: 'Temporary Heat While Repairs Happen' },
       { kind: 'p', spans: ['While repairs are under way, the city allows two stopgaps: space heaters that keep the living space at 70 degrees or more, or temporary housing such as a short hotel stay. The repair still has to happen.'] },
 
@@ -6955,7 +6949,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A landlord who breaks this rule is liable in a civil case for all damages the tenant suffered, plus reasonable attorney’s fees. In Cincinnati, a shut-off in a shared-heat unit also starts the Health Department’s daily fines.'] },
 
       { kind: 'h2', text: 'Northern Kentucky Rentals Follow Kentucky Law' },
-      { kind: 'p', spans: ['If you own rentals in Covington, Newport, or elsewhere across the river, none of the Ohio sections above apply. Kentucky has its own landlord-tenant statute, and it only takes effect in cities and counties that have adopted it, so the rules can change from one Northern Kentucky city to the next. Check the city’s ordinances and talk to a Kentucky attorney before you rely on anything here for a Kentucky property. The same goes for rentals in Southeast Indiana.'] },
+      { kind: 'p', spans: ['If you own rentals in Covington, Newport, or elsewhere across the river, none of the Ohio sections above apply. Kentucky has its own landlord-tenant statute, and it only takes effect in cities and counties that have adopted it, so the rules can change from one Northern Kentucky city to the next. Where it has been adopted, KRS 383.640 covers heat: if a landlord willfully fails to supply it, a tenant who gives written notice can buy reasonable heat and deduct the cost from rent, recover damages, or move to substitute housing and stop paying rent for that period. Check the city’s ordinances and talk to a Kentucky attorney before you rely on anything here for a Kentucky property. The same goes for rentals in Southeast Indiana.'] },
 
       { kind: 'h2', text: 'How Cincinnati Landlords Stay Within the Heat Rules' },
       { kind: 'p', spans: ['Most heat violations are furnaces and boilers that fail on the first cold weekend with no one booked to look at them. The law gives you little room once that happens, so the work is in the fall.'] },
@@ -6963,7 +6957,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: [{ strong: 'Service every system before November' }, '. Our ', { link: 'pre-winter HVAC checklist for rental properties', href: '/pre-winter-hvac-checklist-rental-properties-cincinnati/' }, ' covers what to check in each unit.'] },
       { kind: 'p', spans: [{ strong: 'Keep dated records' }, '. A record of each tune-up and repair shows you kept the equipment in good and safe working order, which is the 5321.04 standard. A ', { link: 'preventive HVAC maintenance plan for rentals', href: '/rental-property-hvac-maintenance-plan-cincinnati/' }, ' builds that record for you.'] },
       { kind: 'p', spans: [{ strong: 'Spell out heat in the lease' }, '. Say who pays which utility, who changes filters, and how the tenant reports a heating problem. If you want the tenant to provide heating equipment, get it in writing and don’t make it a condition of renting.'] },
-      { kind: 'p', spans: [{ strong: 'Respond to written notice the same day' }, '. Book ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ' or boiler service right away, and keep proof of when you called.'] },
+      { kind: 'p', spans: [{ strong: 'Respond to written notice the same day' }, '. Book ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ' or ', { link: 'boiler service', href: '/services/boilers/' }, ' right away, and keep proof of when you called.'] },
 
       { kind: 'h2', text: 'When You Don’t Need a Heating Contractor' },
       { kind: 'p', spans: ['Not every heat complaint needs us. Legal questions, such as whether your lease qualifies for the three-unit exception or how to answer a notice from the court clerk, go to a landlord-tenant attorney.'] },
