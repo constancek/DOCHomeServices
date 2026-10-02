@@ -71,7 +71,7 @@ export const videoTestimonials: VideoTestimonial[] = [
   },
   {
     id: 'testimonial-2',
-    name: 'Rachel Bennett',
+    name: 'Robert Williams',
     location: 'Mason, OH',
     rating: 5,
     quote:
@@ -82,7 +82,7 @@ export const videoTestimonials: VideoTestimonial[] = [
   },
   {
     id: 'testimonial-3',
-    name: 'Laura Coleman',
+    name: 'Michael Brown',
     location: 'West Chester, OH',
     rating: 5,
     quote:

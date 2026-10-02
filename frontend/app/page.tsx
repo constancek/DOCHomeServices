@@ -15,6 +15,7 @@ import {
 } from '@/components/PageSections';
 import ReviewsSection from '@/components/ReviewsSection';
 import LogoMarquee from '@/components/LogoMarquee';
+import VideoTestimonials from '@/components/VideoTestimonials';
 import { site } from '@/content/site';
 import { services } from '@/content/services';
 import { offers } from '@/content/home';
@@ -22,6 +23,8 @@ import { offers } from '@/content/home';
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'HVACBusiness',
+  // Blog posts reference this @id as their publisher.
+  '@id': `${site.url.replace(/\/$/, '')}/#business`,
   name: site.name,
   description: site.description,
   url: site.url,
@@ -46,6 +49,7 @@ export default function HomePage() {
         </div>
       </section>
       <WhyChoose />
+      <VideoTestimonials />
       <TornEdge fill="#1f48c8" />
       <WorkStandsOut />
       <TrustedExperts />

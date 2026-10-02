@@ -5,7 +5,9 @@ export type PostBlock =
   | { kind: 'h2'; text: string }
   | { kind: 'h3'; text: string }
   | { kind: 'p'; spans: PostSpan[] }
-  | { kind: 'takeaways'; items: PostSpan[][] };
+  | { kind: 'takeaways'; items: PostSpan[][] }
+  // Simple data table; the first cell of each row is the row label.
+  | { kind: 'table'; head: string[]; rows: string[][]; caption?: string };
 
 export type Post = {
   slug: string;
@@ -18,13 +20,20 @@ export type Post = {
   date: string; // ISO — published
   dateModified?: string; // ISO — last updated
   readMinutes: number;
-  author: { name: string; role: string };
+  author: { name: string; role: string; bio?: string };
   image?: string; // featured / OG image (1200x630)
   imageAlt?: string;
   // Older posts use plain paragraphs; newer posts use rich `content` blocks.
   body?: string[];
   content?: PostBlock[];
   faqs?: { q: string; a: string }[];
+};
+
+// Byline author for every post. Shown on each post and in its Person schema.
+const maurice = {
+  name: 'Maurice',
+  role: 'Licensed Lead Technician',
+  bio: '15+ years with Degree of Comfort in Cincinnati',
 };
 
 export const posts: Post[] = [
@@ -37,7 +46,7 @@ export const posts: Post[] = [
     date: '2025-12-04',
     dateModified: '2025-12-04',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/5-common-causes-of-low-water-pressure-hero.webp',
     imageAlt: 'Water flowing from a kitchen faucet',
     content: [
@@ -91,7 +100,7 @@ export const posts: Post[] = [
     date: '2026-02-13',
     dateModified: '2026-03-13',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/air-conditioner-vs-heat-pump-hero.webp',
     imageAlt: 'Outdoor HVAC condenser unit beside a home',
     content: [
@@ -150,7 +159,7 @@ export const posts: Post[] = [
     date: '2026-04-10',
     dateModified: '2026-04-10',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/common-hvac-terms-explained-hero.webp',
     imageAlt: 'HVAC technician holding a clipboard by a unit',
     content: [
@@ -219,7 +228,7 @@ export const posts: Post[] = [
     date: '2026-04-17',
     dateModified: '2026-04-29',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/do-air-purifiers-help-with-dust-hero.webp',
     imageAlt: 'Air purifier running in a living room',
     content: [
@@ -276,7 +285,7 @@ export const posts: Post[] = [
     date: '2025-10-17',
     dateModified: '2025-10-17',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/do-liquid-drain-cleaners-work-hero.webp',
     imageAlt: 'Water pooling in a clogged bathroom sink',
     content: [
@@ -333,7 +342,7 @@ export const posts: Post[] = [
     date: '2026-01-07',
     dateModified: '2026-01-07',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/does-a-heat-pump-increase-home-value-hero.webp',
     imageAlt: 'Heat pump unit outside a modern home',
     content: [
@@ -385,7 +394,7 @@ export const posts: Post[] = [
     date: '2025-09-24',
     dateModified: '2025-09-24',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/easy-ways-to-save-energy-at-home-hero.webp',
     imageAlt: 'Person adjusting a smart thermostat on a wall',
     content: [
@@ -437,7 +446,7 @@ export const posts: Post[] = [
     date: '2025-12-19',
     dateModified: '2026-01-09',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/furnace-maintenance-tips-hero.webp',
     imageAlt: 'Hand replacing a furnace air filter',
     content: [
@@ -490,7 +499,7 @@ export const posts: Post[] = [
     date: '2025-12-23',
     dateModified: '2026-01-16',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/furnace-not-working-troubleshooting-tips-hero.webp',
     imageAlt: 'Person inspecting a furnace in a basement',
     content: [
@@ -545,7 +554,7 @@ export const posts: Post[] = [
     date: '2026-04-23',
     dateModified: '2026-06-01',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/how-does-an-air-conditioner-work-hero.webp',
     imageAlt: 'Outdoor air conditioner condenser unit beside a house',
     content: [
@@ -597,7 +606,7 @@ export const posts: Post[] = [
     date: '2026-03-18',
     dateModified: '2026-03-18',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/how-long-do-air-conditioners-last-hero.webp',
     imageAlt: 'Air conditioner condenser unit in a backyard',
     content: [
@@ -650,7 +659,7 @@ export const posts: Post[] = [
     date: '2025-11-26',
     dateModified: '2025-11-26',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/how-long-does-a-water-heater-last-hero.webp',
     imageAlt: 'Water heater tank in a home basement',
     content: [
@@ -708,7 +717,7 @@ export const posts: Post[] = [
     date: '2026-01-23',
     dateModified: '2026-09-29',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/how-much-does-a-new-furnace-cost-hero.webp',
     imageAlt: 'New gas furnace installed in a home basement',
     content: [
@@ -789,7 +798,7 @@ export const posts: Post[] = [
     date: '2025-10-13',
     dateModified: '2025-10-13',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/how-to-clear-a-clogged-drain-hero.webp',
     imageAlt: 'Water draining slowly in a sink',
     content: [
@@ -842,7 +851,7 @@ export const posts: Post[] = [
     date: '2026-02-20',
     dateModified: '2026-02-24',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/how-to-fix-a-broken-sewer-line-hero.webp',
     imageAlt: 'Excavated trench exposing a sewer pipe',
     content: [
@@ -895,7 +904,7 @@ export const posts: Post[] = [
     date: '2025-12-10',
     dateModified: '2025-12-10',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/plumbing-tips-every-homeowner-should-know-hero.webp',
     imageAlt: 'Plumber working under a kitchen sink',
     content: [
@@ -945,7 +954,7 @@ export const posts: Post[] = [
     date: '2026-02-09',
     dateModified: '2026-04-14',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/should-you-repair-or-replace-your-furnace-hero.webp',
     imageAlt: 'Older gas furnace unit in a home basement',
     content: [
@@ -1002,7 +1011,7 @@ export const posts: Post[] = [
     date: '2026-06-16',
     dateModified: '2026-06-16',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/signs-of-an-ac-refrigerant-leak-hero.webp',
     imageAlt: 'HVAC technician inspecting an air conditioner',
     content: [
@@ -1063,7 +1072,7 @@ export const posts: Post[] = [
     date: '2026-01-29',
     dateModified: '2026-01-29',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/signs-of-heater-failure-hero.webp',
     imageAlt: 'Person wrapped in a blanket staying warm at home',
     content: [
@@ -1129,7 +1138,7 @@ export const posts: Post[] = [
     date: '2026-05-15',
     dateModified: '2026-05-15',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/top-signs-of-air-duct-mold-hero.webp',
     imageAlt: 'Ceiling air vent register in a home',
     content: [
@@ -1187,7 +1196,7 @@ export const posts: Post[] = [
     date: '2026-05-21',
     dateModified: '2026-05-21',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/using-your-hvac-for-better-sleep-hero.webp',
     imageAlt: 'Cozy bedroom with soft evening light',
     content: [
@@ -1238,7 +1247,7 @@ export const posts: Post[] = [
     date: '2025-09-19',
     dateModified: '2025-09-19',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/what-does-a-gas-leak-smell-like-hero.webp',
     imageAlt: 'Blue flame burning on a gas stove burner',
     content: [
@@ -1295,7 +1304,7 @@ export const posts: Post[] = [
     date: '2026-05-22',
     dateModified: '2026-05-22',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/what-happens-if-you-dont-clean-your-air-ducts-hero.webp',
     imageAlt: 'Air duct vent register in a ceiling',
     content: [
@@ -1348,7 +1357,7 @@ export const posts: Post[] = [
     date: '2026-03-26',
     dateModified: '2026-03-26',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/what-is-a-good-seer-rating-hero.webp',
     imageAlt: 'Energy-efficient home with an air conditioner unit',
     content: [
@@ -1401,7 +1410,7 @@ export const posts: Post[] = [
     date: '2026-05-28',
     dateModified: '2026-05-28',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/what-is-ac-fan-mode-hero.webp',
     imageAlt: 'Hand holding an air conditioner remote control',
     content: [
@@ -1456,7 +1465,7 @@ export const posts: Post[] = [
     date: '2026-02-02',
     dateModified: '2026-02-02',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/what-is-high-efficiency-furnace-venting-hero.webp',
     imageAlt: 'White PVC furnace venting pipes on a home exterior',
     content: [
@@ -1514,7 +1523,7 @@ export const posts: Post[] = [
     date: '2026-01-14',
     dateModified: '2026-01-14',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/what-is-included-in-a-furnace-tune-up-hero.webp',
     imageAlt: 'HVAC technician servicing a home furnace',
     content: [
@@ -1585,7 +1594,7 @@ export const posts: Post[] = [
     date: '2025-08-20',
     dateModified: '2025-08-20',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/what-is-zoned-air-conditioning-hero.webp',
     imageAlt: 'Modern open-plan living room interior',
     content: [
@@ -1643,7 +1652,7 @@ export const posts: Post[] = [
     date: '2026-02-05',
     dateModified: '2026-02-05',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/what-you-should-know-about-boilers-hero.webp',
     imageAlt: 'Home boiler heating unit mounted on a wall',
     content: [
@@ -1692,7 +1701,7 @@ export const posts: Post[] = [
     date: '2026-06-05',
     dateModified: '2026-06-05',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/why-does-my-ac-keep-turning-off-hero.webp',
     imageAlt: 'Hand adjusting a wall thermostat',
     content: [
@@ -1757,7 +1766,7 @@ export const posts: Post[] = [
     date: '2026-06-12',
     dateModified: '2026-06-12',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/why-is-my-air-conditioner-icing-over-hero.webp',
     imageAlt: 'Frost and ice on an air conditioner coil',
     content: [
@@ -1813,7 +1822,7 @@ export const posts: Post[] = [
     date: '2026-06-19',
     dateModified: '2026-06-19',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/why-is-my-air-conditioner-leaking-water-hero.webp',
     imageAlt: 'Water dripping from an indoor air conditioning unit',
     content: [
@@ -1872,7 +1881,7 @@ export const posts: Post[] = [
     date: '2026-06-24',
     dateModified: '2026-06-24',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/why-is-my-air-conditioner-making-noise-hero.webp',
     imageAlt: 'Outdoor air conditioning unit beside a home',
     content: [
@@ -1925,7 +1934,7 @@ export const posts: Post[] = [
     date: '2026-01-16',
     dateModified: '2026-01-16',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/why-is-my-furnace-blowing-cold-air-hero.webp',
     imageAlt: 'Person adjusting a home thermostat on the wall',
     content: [
@@ -1983,7 +1992,7 @@ export const posts: Post[] = [
     date: '2026-04-14',
     dateModified: '2026-04-14',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/replace-ac-furnace-together-hero.webp',
     imageAlt: 'Outdoor air conditioner unit beside a home with landscaping',
     content: [
@@ -2037,7 +2046,7 @@ export const posts: Post[] = [
     date: '2026-02-24',
     dateModified: '2026-06-09',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/weather-plumbing-issues-hero.webp',
     imageAlt: 'Old, rusted pipes in a damp basement crawlspace',
     content: [
@@ -2083,7 +2092,7 @@ export const posts: Post[] = [
     date: '2025-08-04',
     dateModified: '2025-08-04',
     readMinutes: 6,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/degree-of-comfort-university-hero.webp',
     imageAlt: 'Outdoor air conditioner condenser unit beside a home',
     content: [
@@ -2137,7 +2146,7 @@ export const posts: Post[] = [
     date: '2026-05-08',
     dateModified: '2026-06-09',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/lower-humidity-in-house-hero.webp',
     imageAlt: 'Man sweating in front of a fan in a humid room',
     content: [
@@ -2194,7 +2203,7 @@ export const posts: Post[] = [
     date: '2026-04-29',
     dateModified: '2026-05-06',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/do-acs-improve-indoor-air-quality-hero.webp',
     imageAlt: 'Technician replacing a home air filter in a ceiling return vent',
     content: [
@@ -2248,7 +2257,7 @@ export const posts: Post[] = [
     date: '2026-02-27',
     dateModified: '2026-06-01',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/air-filter-past-prime-hero.webp',
     imageAlt: 'Man replacing a pleated air filter in a ceiling return vent',
     content: [
@@ -2320,7 +2329,7 @@ export const posts: Post[] = [
     date: '2026-03-13',
     dateModified: '2026-03-13',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/how-much-is-a-new-air-conditioner-hero.webp',
     imageAlt: 'Couple on a couch using a remote for a wall-mounted air conditioner',
     content: [
@@ -2377,7 +2386,7 @@ export const posts: Post[] = [
     date: '2026-05-06',
     dateModified: '2026-06-09',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/whole-home-dehumidifier-water-hero.webp',
     imageAlt: 'Technician adjusting a whole-home dehumidifier in a basement',
     content: [
@@ -2425,7 +2434,7 @@ export const posts: Post[] = [
     date: '2025-08-15',
     dateModified: '2025-08-15',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/ac-temperature-summer-hero.webp',
     imageAlt: 'Woman adjusting a smart thermostat using a phone app',
     content: [
@@ -2483,7 +2492,7 @@ export const posts: Post[] = [
     date: '2026-06-09',
     dateModified: '2026-06-09',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/keep-basement-dry-spring-hero.webp',
     imageAlt: 'Homeowner standing in a flooded basement looking at the water damage',
     content: [
@@ -2545,7 +2554,7 @@ export const posts: Post[] = [
     date: '2026-06-01',
     dateModified: '2026-06-01',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/ac-blowing-warm-air-hero.webp',
     imageAlt: 'Hand checking the airflow from a wall-mounted air conditioner',
     content: [
@@ -2609,7 +2618,7 @@ export const posts: Post[] = [
     date: '2025-09-17',
     dateModified: '2025-09-17',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/fall-heating-safety-efficiency-tips-hero.webp',
     imageAlt: 'Outdoor heat pump unit beside a house with pink flowers in bloom',
     content: [
@@ -2663,7 +2672,7 @@ export const posts: Post[] = [
     date: '2026-05-01',
     dateModified: '2026-05-01',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/can-your-ac-make-you-sick-hero.webp',
     imageAlt: 'Person adjusting a wall-mounted air conditioner with a handheld remote',
     content: [
@@ -2720,7 +2729,7 @@ export const posts: Post[] = [
     date: '2025-11-21',
     dateModified: '2025-11-21',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/how-tankless-water-heater-works-hero.webp',
     imageAlt: 'Wall-mounted tankless water heater with copper supply lines in a basement',
     content: [
@@ -2782,7 +2791,7 @@ export const posts: Post[] = [
     date: '2025-12-26',
     dateModified: '2026-03-20',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/whole-home-humidifier-hero.webp',
     imageAlt: 'Home humidifier releasing mist next to houseplants on a windowsill',
     content: [
@@ -2844,7 +2853,7 @@ export const posts: Post[] = [
     date: '2025-10-10',
     dateModified: '2025-10-10',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/snaking-vs-hydro-jetting-hero.webp',
     imageAlt: 'Plumber running a drain snake into an outdoor drain cleanout',
     content: [
@@ -2905,7 +2914,7 @@ export const posts: Post[] = [
     date: '2026-01-09',
     dateModified: '2026-03-04',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/how-long-furnaces-last-hero.webp',
     imageAlt: 'Residential HVAC system outside a brick home',
     content: [
@@ -2973,7 +2982,7 @@ export const posts: Post[] = [
     date: '2025-11-07',
     dateModified: '2025-11-07',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/prevent-frozen-pipes-hero.webp',
     imageAlt: 'Modern kitchen faucet running water in a bright, warm home',
     content: [
@@ -3031,7 +3040,7 @@ export const posts: Post[] = [
     date: '2025-11-04',
     dateModified: '2025-11-04',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/frozen-pipes-shut-off-water-hero.webp',
     imageAlt: 'Frozen residential water pipe with icicles hanging from it',
     content: [
@@ -3089,7 +3098,7 @@ export const posts: Post[] = [
     date: '2025-12-16',
     dateModified: '2025-12-16',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/toilet-leaking-hero.webp',
     imageAlt: 'Water pooling around the base of a leaking toilet',
     content: [
@@ -3148,7 +3157,7 @@ export const posts: Post[] = [
     date: '2026-03-09',
     dateModified: '2026-03-09',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/ac-maintenance-worth-it-hero.webp',
     imageAlt: 'HVAC technician performing a maintenance tune-up on an air conditioner',
     content: [
@@ -3210,7 +3219,7 @@ export const posts: Post[] = [
     date: '2025-09-26',
     dateModified: '2025-09-26',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/main-drain-cleanout-hero.webp',
     imageAlt: 'Plumber installing PVC sewer pipe and a main drain cleanout',
     content: [
@@ -3267,7 +3276,7 @@ export const posts: Post[] = [
     date: '2025-10-21',
     dateModified: '2025-10-21',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/leaky-faucet-hero.webp',
     imageAlt: 'Hands using a wrench to repair a dripping bathroom faucet',
     content: [
@@ -3328,7 +3337,7 @@ export const posts: Post[] = [
     date: '2025-11-28',
     dateModified: '2025-11-28',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/plumbing-upgrades-hero.webp',
     imageAlt: 'Plumber installing a new toilet during a home plumbing upgrade',
     content: [
@@ -3395,7 +3404,7 @@ export const posts: Post[] = [
     date: '2026-03-20',
     dateModified: '2026-03-20',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/air-purifier-benefits-hero.webp',
     imageAlt: 'Air purifier running in a clean, comfortable living room',
     content: [
@@ -3464,7 +3473,7 @@ export const posts: Post[] = [
     date: '2025-08-07',
     dateModified: '2025-08-07',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/main-drain-clogged-hero.webp',
     imageAlt: 'Plumber inspecting a home main drain and sewer cleanout',
     content: [
@@ -3534,7 +3543,7 @@ export const posts: Post[] = [
     date: '2025-07-23',
     dateModified: '2025-07-23',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/ac-smells-bad-hero.webp',
     imageAlt: 'Two HVAC technicians servicing a wall-mounted air conditioner',
     content: [
@@ -3595,7 +3604,7 @@ export const posts: Post[] = [
     date: '2025-11-18',
     dateModified: '2025-11-18',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/tankless-worth-it-hero.webp',
     imageAlt: 'Wall-mounted tankless water heater installed in a home utility room',
     content: [
@@ -3668,7 +3677,7 @@ export const posts: Post[] = [
     date: '2026-03-04',
     dateModified: '2026-03-04',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/replace-old-ac-hero.webp',
     imageAlt: 'HVAC technician testing an air conditioner with a multimeter',
     content: [
@@ -3749,7 +3758,7 @@ export const posts: Post[] = [
     date: '2025-07-29',
     dateModified: '2025-07-29',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/shower-power-outage-hero.webp',
     imageAlt: 'Shower running in a dimly lit bathroom during a power outage',
     content: [
@@ -3808,7 +3817,7 @@ export const posts: Post[] = [
     date: '2026-04-01',
     dateModified: '2026-04-01',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/sump-pump-hero.webp',
     imageAlt: 'Sump pump sitting in a basement sump pit with discharge piping',
     content: [
@@ -3883,7 +3892,7 @@ export const posts: Post[] = [
     date: '2025-09-12',
     dateModified: '2025-09-12',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/furnace-safety-hero.webp',
     imageAlt: 'Technician inspecting a residential gas furnace for safety',
     content: [
@@ -3951,7 +3960,7 @@ export const posts: Post[] = [
     date: '2026-01-01',
     dateModified: '2026-01-01',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/hvac-financing-hero.webp',
     imageAlt: 'Homeowner reviewing HVAC financing options on a laptop at home',
     content: [
@@ -4017,7 +4026,7 @@ export const posts: Post[] = [
     date: '2025-11-12',
     dateModified: '2025-11-12',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/water-heater-leaking-hero.webp',
     imageAlt: 'Water pooling on the floor beneath a leaking residential water heater',
     content: [
@@ -4087,7 +4096,7 @@ export const posts: Post[] = [
     date: '2025-09-05',
     dateModified: '2025-09-05',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/furnace-filter-hero.webp',
     imageAlt: 'Hand replacing a pleated furnace filter in a home HVAC system',
     content: [
@@ -4166,7 +4175,7 @@ export const posts: Post[] = [
     date: '2025-10-24',
     dateModified: '2025-10-31',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/water-heater-winter-prep-hero.webp',
     imageAlt: 'Water heater with insulated pipes in a basement during winter',
     content: [
@@ -4229,7 +4238,7 @@ export const posts: Post[] = [
     date: '2025-10-03',
     dateModified: '2025-10-03',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/dry-indoor-air-winter-hero.webp',
     imageAlt: 'Cozy living room with a portable humidifier running by a window in winter',
     content: [
@@ -4299,7 +4308,7 @@ export const posts: Post[] = [
     date: '2025-09-02',
     dateModified: '2025-09-02',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/heat-pump-whole-house-hero.webp',
     imageAlt: 'Air-source heat pump unit installed outside a home in winter',
     content: [
@@ -4383,7 +4392,7 @@ export const posts: Post[] = [
     date: '2025-10-31',
     dateModified: '2025-10-31',
     readMinutes: 6,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/water-heater-winter-hero.webp',
     imageAlt: 'Technician inspecting a residential water heater tank',
     content: [
@@ -4447,7 +4456,7 @@ export const posts: Post[] = [
     date: '2025-07-08',
     dateModified: '2025-07-08',
     readMinutes: 6,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/ac-wont-turn-on-hero.webp',
     imageAlt: 'Outdoor air conditioner condenser unit beside a home',
     content: [
@@ -4513,7 +4522,7 @@ export const posts: Post[] = [
     date: '2025-08-11',
     dateModified: '2025-08-11',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/smart-thermostat-hero.webp',
     imageAlt: 'Homeowner adjusting a smart thermostat mounted on the wall',
     content: [
@@ -4574,7 +4583,7 @@ export const posts: Post[] = [
     date: '2025-08-29',
     dateModified: '2025-08-29',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Licensed Plumbers' },
+    author: maurice,
     image: '/blog/hard-water-hero.webp',
     imageAlt: 'Hard water mineral and limescale buildup on a kitchen faucet',
     content: [
@@ -4639,7 +4648,7 @@ export const posts: Post[] = [
     date: '2025-07-11',
     dateModified: '2025-07-11',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/uneven-cooling-hero.webp',
     imageAlt: 'Homeowner relaxing in a comfortably and evenly cooled living room',
     content: [
@@ -4717,7 +4726,7 @@ export const posts: Post[] = [
     date: '2025-07-18',
     dateModified: '2025-07-18',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/extend-ac-life-hero.webp',
     imageAlt: 'Technician performing maintenance on an outdoor AC condenser unit',
     content: [
@@ -4797,7 +4806,7 @@ export const posts: Post[] = [
     date: '2025-08-26',
     dateModified: '2025-08-26',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Licensed Electricians' },
+    author: maurice,
     image: '/blog/diy-electrical-hero.webp',
     imageAlt: 'Licensed electrician working safely inside a home electrical panel',
     content: [
@@ -4880,10 +4889,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'Tenant reporting no heat? Here’s what Cincinnati landlords must do, step by step, plus Ohio and Kentucky heat laws and fines.',
-    date: '2026-09-29',
+    date: '2026-08-03',
     dateModified: '2026-10-02',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/tenant-no-heat-landlord-guide-hero.webp',
     imageAlt: 'Tenant wrapped in a heavy knit blanket on the couch of a cold apartment',
     content: [
@@ -4955,10 +4964,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'Cold upstairs, one freezing room, a warm first floor: why older Cincinnati homes heat unevenly, what you can check yourself, and which fixes actually work.',
-    date: '2026-09-29',
+    date: '2026-08-06',
     dateModified: '2026-09-29',
     readMinutes: 7,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/uneven-heating-older-homes-hero.webp',
     imageAlt: 'Older home basement with overhead ductwork, a gas water heater vent, and an expansion tank',
     content: [
@@ -5033,10 +5042,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'Boilers give quieter, more even heat. Furnaces cost less and share ducts with central air. How to choose in Cincinnati, and why switching rarely pays.',
-    date: '2026-09-29',
+    date: '2026-08-08',
     dateModified: '2026-09-29',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/boiler-vs-furnace-hero.webp',
     imageAlt: 'Refrigerant gauges connected to an outdoor air conditioner beside a house during service',
     content: [
@@ -5102,10 +5111,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'What annual boiler maintenance covers in Cincinnati: safety controls, the burner, water pressure, and venting. Plus what you can do, and when to skip it.',
-    date: '2026-09-30',
+    date: '2026-08-11',
     dateModified: '2026-09-30',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/annual-boiler-maintenance-hero.webp',
     imageAlt: 'Technician in work gloves checking the circulator pump on a home boiler, with the pressure gauge in view',
     content: [
@@ -5182,10 +5191,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'A furnace that turns on then shuts off is short cycling. How to read the timing, the usual causes in Cincinnati homes, and what to check before you call.',
-    date: '2026-09-30',
+    date: '2026-08-13',
     dateModified: '2026-09-30',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/furnace-short-cycling-hero.webp',
     imageAlt: 'Hand pressing the dial on a wall thermostat',
     content: [
@@ -5262,10 +5271,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'Yes. Cincinnati averages a January low of 23.1°F, well within a modern heat pump’s range. What happens on the coldest nights, and when dual fuel makes sense.',
-    date: '2026-09-30',
+    date: '2026-08-16',
     dateModified: '2026-09-30',
     readMinutes: 10,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/heat-pumps-cincinnati-winters-hero.webp',
     imageAlt: 'Outdoor heat pump unit on a pad beside a house with vinyl siding',
     content: [
@@ -5344,10 +5353,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'Turn the thermostat back, seal the attic, compare your gas price, and use Duke’s assistance programs. What each step saves on a Cincinnati heating bill this winter.',
-    date: '2026-09-30',
+    date: '2026-08-18',
     dateModified: '2026-09-30',
     readMinutes: 10,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/lower-heating-bill-cincinnati-hero.webp',
     imageAlt: 'Row of residential natural gas meters mounted on an outside wall',
     content: [
@@ -5421,10 +5430,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'Why a Carrier furnace stops heating, what its status light codes mean, and what you can fix yourself before calling a Cincinnati technician.',
-    date: '2026-09-30',
+    date: '2026-08-21',
     dateModified: '2026-09-30',
     readMinutes: 10,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/carrier-furnace-not-working-hero.webp',
     imageAlt: 'Carrier gas furnace installed in a basement utility room',
     content: [
@@ -5499,10 +5508,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'A 10-step pre-winter HVAC checklist for Cincinnati landlords: tune-ups, filters, CO alarms, boilers, vacant units, and tenant instructions before the freeze.',
-    date: '2026-09-30',
+    date: '2026-08-23',
     dateModified: '2026-09-30',
     readMinutes: 10,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/rental-pre-winter-hvac-checklist-hero.webp',
     imageAlt: 'Red brick apartment building with bare branches and a few yellow leaves in late fall',
     content: [
@@ -5576,10 +5585,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'How Cincinnati landlords can plan furnace replacements across several rentals: an age inventory, a yearly reserve per unit, off-season timing, and tax rules.',
-    date: '2026-09-30',
+    date: '2026-08-26',
     dateModified: '2026-09-30',
     readMinutes: 10,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/budget-furnace-replacement-rentals-hero.webp',
     imageAlt: 'Row of small model houses with one painted red, a house key, and a calculator on a dark table',
     content: [
@@ -5649,10 +5658,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'Which Ohio rentals need carbon monoxide detectors, where they go, and who maintains them. What Cincinnati landlords need to know about the Ohio Fire Code rule.',
-    date: '2026-09-30',
+    date: '2026-08-28',
     dateModified: '2026-09-30',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/co-detectors-rentals-ohio-hero.webp',
     imageAlt: 'Hands twisting an alarm onto its ceiling mounting plate',
     content: [
@@ -5726,10 +5735,10 @@ export const posts: Post[] = [
     category: 'Home Tips',
     excerpt:
       'What to check between tenants in a Cincinnati rental: heating and cooling, water heater, toilets, drains, sewer line, outlets, GFCIs, the panel, and dryer vent.',
-    date: '2026-09-30',
+    date: '2026-08-31',
     dateModified: '2026-09-30',
     readMinutes: 10,
-    author: { name: 'Degree of Comfort', role: 'Heating, Plumbing & Electrical Technicians' },
+    author: maurice,
     image: '/blog/rental-turnover-checklist-hero.webp',
     imageAlt: 'Hands holding a color-coded inspection checklist with interior, plumbing, and electrical sections',
     content: [
@@ -5816,10 +5825,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'Cold radiators, dropping pressure, a dripping relief valve, kettling, leaks, and a yellow flame. The signs a boiler needs repair, and what to do before winter.',
-    date: '2026-09-30',
+    date: '2026-09-02',
     dateModified: '2026-09-30',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/boiler-repair-signs-hero.webp',
     imageAlt: 'Hot water boiler with its circulator pump, pressure and temperature gauges, and valves in a boiler room',
     content: [
@@ -5893,10 +5902,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'What a preventive HVAC maintenance plan covers for Cincinnati rental properties, what skipping it costs, a yearly schedule, and when you don’t need one.',
-    date: '2026-10-01',
+    date: '2026-09-05',
     dateModified: '2026-10-02',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/rental-hvac-maintenance-plan-hero.webp',
     imageAlt: 'HVAC technician checking refrigerant pressure with gauges on an outdoor air conditioning unit',
     content: [
@@ -5979,10 +5988,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'What a kettling, banging, or rumbling boiler is telling you, why Cincinnati’s hard water makes it worse, what you can check yourself, and when to call.',
-    date: '2026-10-01',
+    date: '2026-09-07',
     dateModified: '2026-10-02',
     readMinutes: 8,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/boiler-noise-hero.webp',
     imageAlt: 'Technician in work gloves checking the circulator pump on a boiler',
     content: [
@@ -6061,10 +6070,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'Who changes the furnace filter in a Cincinnati rental, tenant or landlord? What Ohio law says, sample lease wording, and filter systems that actually work.',
-    date: '2026-10-01',
+    date: '2026-09-10',
     dateModified: '2026-10-02',
     readMinutes: 10,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/furnace-filter-rentals-hero.webp',
     imageAlt: 'Person removing a return air grille to change the furnace filter',
     content: [
@@ -6153,10 +6162,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'Boiler replacement cost in Cincinnati: 2026 national ranges, steam vs hot water, condensing vs standard, permits, and what a fair quote lists.',
-    date: '2026-10-01',
+    date: '2026-09-12',
     dateModified: '2026-10-02',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/boiler-replacement-cost-hero.webp',
     imageAlt: 'Technician working on the copper piping of a wall-hung boiler',
     content: [
@@ -6173,12 +6182,19 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'What Boiler Replacement Costs in Cincinnati in 2026' },
       { kind: 'p', spans: ['We don’t publish a boiler price list, because two boilers with the same rating can be very different jobs. These are the national ranges from sources that track installed costs:'] },
-      { kind: 'p', spans: [{ strong: 'Overall' }, ': $3,000 to $8,500, average $6,100 (Fixr, 2026). $3,700 to $12,000, most around $5,900 (Today’s Homeowner, 2025).'] },
-      { kind: 'p', spans: [{ strong: 'Natural gas boilers' }, ', the most common type around Cincinnati: $4,000 to $10,000 (Fixr, 2026).'] },
-      { kind: 'p', spans: [{ strong: 'Condensing (high-efficiency) boilers' }, ': $4,000 to $11,000 (Fixr, 2026).'] },
-      { kind: 'p', spans: [{ strong: 'Combination (combi) boilers' }, ': $2,600 to $10,000 (Fixr, 2026). $3,000 to $7,000 (Today’s Homeowner, 2025).'] },
-      { kind: 'p', spans: [{ strong: 'Steam boilers' }, ': $2,500 to $9,000 (Today’s Homeowner, 2025). Its separate steam boiler guide (updated April 9, 2025) gives $3,400 to $9,500.'] },
-      { kind: 'p', spans: [{ strong: 'Labor' }, ': $1,000 to $3,500, usually including removal of the old unit (Fixr, 2026). Today’s Homeowner lists labor at $935 to $2,110 and demolition of the old boiler at $820 to $2,650.'] },
+      { kind: 'table', head: ['Type of job', 'Installed cost', 'Source'], rows: [
+        ['All boiler replacements', '$3,000 to $8,500 (average $6,100)', 'Fixr, 2026'],
+        ['All boiler replacements', '$3,700 to $12,000 (most around $5,900)', 'Today’s Homeowner, 2025'],
+        ['Natural gas boiler', '$4,000 to $10,000', 'Fixr, 2026'],
+        ['Condensing (high-efficiency) boiler', '$4,000 to $11,000', 'Fixr, 2026'],
+        ['Combi boiler', '$2,600 to $10,000', 'Fixr, 2026'],
+        ['Combi boiler', '$3,000 to $7,000', 'Today’s Homeowner, 2025'],
+        ['Steam boiler', '$2,500 to $9,000', 'Today’s Homeowner, 2025'],
+        ['Steam boiler', '$3,400 to $9,500', 'Today’s Homeowner steam boiler guide, 2025'],
+        ['Labor, including removal of the old unit', '$1,000 to $3,500', 'Fixr, 2026'],
+        ['Labor only', '$935 to $2,110', 'Today’s Homeowner, 2025'],
+        ['Demolition of the old boiler', '$820 to $2,650', 'Today’s Homeowner, 2025'],
+      ], caption: 'National installed-cost ranges. Where a Cincinnati job lands depends on venting, piping, and what comes out with the old boiler.' },
       { kind: 'p', spans: ['The spread between those sources is the point. A like-for-like hot water swap in an open basement sits near the bottom. A steam boiler in a tight Clifton or Walnut Hills basement, with a chimney that needs work and old insulation to deal with, sits near the top, and jobs like that can run above these national ranges.'] },
 
       { kind: 'h2', text: 'Hot Water vs. Steam Boiler Replacement in Cincinnati' },
@@ -6246,10 +6262,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'Individual furnaces vs. a central boiler for Cincinnati multi-unit buildings: upfront cost, who pays the gas, the city heat rule, and a decision checklist.',
-    date: '2026-10-01',
+    date: '2026-09-15',
     dateModified: '2026-10-02',
     readMinutes: 10,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/furnaces-vs-central-boiler-hero.webp',
     imageAlt: 'New high-efficiency gas furnace installed on a concrete floor',
     content: [
@@ -6341,10 +6357,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'Heating options for Cincinnati duplexes and small apartment buildings: furnaces, boilers, mini-splits, PTACs, baseboard, and who ends up paying for heat.',
-    date: '2026-10-01',
+    date: '2026-09-17',
     dateModified: '2026-10-02',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/duplex-heating-options-hero.webp',
     imageAlt: 'Outdoor heat pump unit beside a brick wall',
     content: [
@@ -6426,10 +6442,10 @@ export const posts: Post[] = [
     category: 'Plumbing',
     excerpt:
       'How to prevent frozen pipes in vacant rental units in Cincinnati: heat settings, when to winterize, insurance vacancy clauses, check visits, and sensors.',
-    date: '2026-10-01',
+    date: '2026-09-20',
     dateModified: '2026-10-02',
     readMinutes: 10,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/vacant-rental-frozen-pipes-hero.webp',
     imageAlt: 'Water spraying from a split pipe joint',
     content: [
@@ -6520,10 +6536,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'How to bleed radiators in a Cincinnati home: the tools, the right order, the pressure check after, why steam radiators are different, and when to call a pro.',
-    date: '2026-10-01',
+    date: '2026-09-22',
     dateModified: '2026-10-02',
     readMinutes: 10,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/bleed-radiators-hero.webp',
     imageAlt: 'White painted cast iron radiator with a valve on the supply pipe',
     content: [
@@ -6611,10 +6627,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'Space heater safety rules for Cincinnati rentals: the fire numbers, a tenant-ready list, older wiring limits, lease bans, and what heavy heater use tells you.',
-    date: '2026-10-01',
+    date: '2026-09-25',
     dateModified: '2026-10-02',
     readMinutes: 9,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/space-heater-rental-hero.webp',
     imageAlt: 'Electrician tightening a wall outlet with a screwdriver',
     content: [
@@ -6702,10 +6718,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'Which heating upgrades pay back in an older Cincinnati rental, ranked by payback, with who pays the gas bill as the deciding factor, plus what to skip.',
-    date: '2026-10-01',
+    date: '2026-09-27',
     dateModified: '2026-10-02',
     readMinutes: 10,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/older-rental-heating-upgrades-hero.webp',
     imageAlt: 'Outdoor heat pump unit beside a home',
     content: [
@@ -6799,10 +6815,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'Whether to keep or convert the old heating system in a historic Cincinnati home: steam, hot water, mini-splits, asbestos, and historic district approvals.',
-    date: '2026-10-01',
+    date: '2026-09-30',
     dateModified: '2026-10-02',
     readMinutes: 10,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/historic-home-heating-hero.webp',
     imageAlt: 'Open furnace cabinet showing the burners, blower, and wiring',
     content: [
@@ -6886,10 +6902,10 @@ export const posts: Post[] = [
     category: 'Heating',
     excerpt:
       'Cincinnati landlord heating requirements under Ohio law: reasonable heat, the city’s 70-degree rule, tenant rent deposits, and why shutting off heat is illegal.',
-    date: '2026-10-01',
+    date: '2026-10-02',
     dateModified: '2026-10-02',
     readMinutes: 10,
-    author: { name: 'Degree of Comfort', role: 'Heating & Cooling Technicians' },
+    author: maurice,
     image: '/blog/landlord-heating-law-hero.webp',
     imageAlt: 'Technician checking the wiring inside a furnace',
     content: [
@@ -6975,6 +6991,97 @@ export const posts: Post[] = [
       { q: 'Can a landlord in Ohio turn off a tenant’s heat?', a: 'Not to force the tenant out. ORC 5321.15 bars landlords from terminating utilities to recover possession, and a landlord who does is liable for the tenant’s damages plus reasonable attorney’s fees.' },
       { q: 'Does an Ohio landlord have to pay for the tenant’s heat?', a: 'Only if the lease says so or the landlord supplies the heat, such as a shared boiler on the owner’s meter. If the unit has its own furnace on a utility account in the tenant’s name, the tenant pays, but the landlord still has to keep that furnace in working order.' },
       { q: 'Do Ohio landlord heat laws apply in Northern Kentucky?', a: 'No. Northern Kentucky rentals fall under Kentucky law, which applies differently depending on whether the city has adopted the state landlord-tenant act. Check local ordinances and a Kentucky attorney.' },
+    ],
+  },
+{
+    slug: 'tankless-water-heater-cost-cincinnati',
+    title: 'Tankless Water Heater Cost in Cincinnati (2026): What You’ll Pay',
+    seoTitle: 'Tankless Water Heater Cost in Cincinnati (2026)',
+    category: 'Plumbing',
+    excerpt:
+      'Tankless water heater cost in Cincinnati for 2026: installed price ranges, gas vs electric, conversion costs, hard water upkeep, and when it pays back.',
+    date: '2026-10-02',
+    dateModified: '2026-10-02',
+    readMinutes: 9,
+    author: maurice,
+    image: '/blog/tankless-cost-hero.webp',
+    imageAlt: 'Wall-mounted gas tankless water heater with copper piping in a basement',
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Most tankless installs land between about $1,400 and $5,600' }, ', according to HomeGuide’s 2026 figures. Electric runs $1,400 to $3,000 installed, and gas $2,100 to $5,600.'],
+          [{ strong: 'Switching from a tank costs more than replacing a tankless' }, '. A bigger gas line, new venting, a condensate drain, and an outlet are where the money goes.'],
+          [{ strong: 'Cincinnati’s hard water adds upkeep' }, '. At 7 to 8 grains per gallon, plan on flushing the unit once a year.'],
+          [{ strong: 'The savings are real but slow' }, '. ENERGY STAR puts it at about $95 a year for a family of four over a standard gas tank.'],
+        ],
+      },
+      { kind: 'p', spans: ['A tankless water heater in Cincinnati typically costs about $1,400 to $5,600 installed in 2026, going by HomeGuide’s national figures, and Fixr puts the average for a whole-house gas model at $2,811. Electric units sit at the low end. Gas units cost more, and the biggest jump comes when you are switching from a tank: the gas line often has to be upsized, the old chimney vent can’t be reused, and the unit needs a drain and an outlet. Those are national numbers, not a price list. Here is what moves a Cincinnati job up or down, what it costs to own, and when it pays for itself.'] },
+
+      { kind: 'h2', text: 'What a Tankless Water Heater Costs in Cincinnati in 2026' },
+      { kind: 'p', spans: ['We don’t publish one price, because two tankless jobs can look nothing alike. These are the current ranges from sources that track installed costs:'] },
+      { kind: 'table', head: ['Type of job', 'Cost', 'Source'], rows: [
+        ['Tankless water heater, installed', '$1,400 to $5,600', 'HomeGuide, 2026'],
+        ['Most installs', '$2,500 to $4,500', 'Fixr, 2026'],
+        ['Whole-house gas unit, 150,000 BTU', '$2,811 average', 'Fixr, 2026'],
+        ['Gas tankless, installed', '$2,100 to $5,600', 'HomeGuide, 2026'],
+        ['Electric tankless, installed', '$1,400 to $3,000', 'HomeGuide, 2026'],
+        ['Larger gas line', '$350 to $2,000', 'HomeGuide, 2026'],
+        ['New exhaust venting', '$100 to $600', 'HomeGuide, 2026'],
+        ['Electrical panel upgrade (electric units)', '$500 to $2,000', 'HomeGuide, 2026'],
+        ['Plumber labor', '$75 to $130 an hour, 6 to 10 hours', 'Fixr, 2026'],
+      ], caption: 'National cost ranges. Converting from a tank in an older Cincinnati home lands toward the top.' },
+      { kind: 'p', spans: ['A gas-to-gas swap of an existing tankless unit sits at the bottom of those ranges. A first-time conversion from a 40- or 50-gallon tank, in an older Cincinnati basement where the gas line and chimney were sized decades ago, sits at the top.'] },
+
+      { kind: 'h2', text: 'Gas vs. Electric Tankless Water Heaters' },
+      { kind: 'p', spans: [{ strong: 'Gas' }, ' is the usual choice in Cincinnati homes that already have gas. It handles a whole house, including two showers at once, and it runs on Duke Energy gas rather than electricity. The extra cost is in the gas line and venting.'] },
+      { kind: 'p', spans: [{ strong: 'Electric' }, ' units are cheaper to buy and install, with no venting at all. The catch is power. HomeGuide notes whole-house electric tankless units draw 100 to 200 amps, and an electrical panel upgrade adds $500 to $2,000. Many older Cincinnati homes still have 100-amp service, which can’t carry a whole-house electric unit plus everything else. Small electric units under a sink or for one bathroom are a different story and often make sense.'] },
+      { kind: 'p', spans: ['Our post on ', { link: 'how a tankless water heater works', href: '/how-does-a-tankless-water-heater-work/' }, ' covers the difference between gas and electric in more detail.'] },
+
+      { kind: 'h2', text: 'Converting From a Tank: Where Cincinnati Jobs Get Expensive' },
+      { kind: 'p', spans: ['Most of the price difference between quotes comes from what has to change around the heater, not the heater itself.'] },
+      { kind: 'p', spans: [{ strong: 'The gas line' }, '. A gas tankless unit can need around 150,000 to 199,000 BTU an hour when it fires, several times what a tank water heater draws. The half-inch line that fed your tank often can’t supply that. HomeGuide puts a larger gas line at $350 to $2,000.'] },
+      { kind: 'p', spans: [{ strong: 'Venting' }, '. A gas tankless unit can’t share the old chimney the way the tank did. Condensing models vent through the side wall in PVC pipe, and non-condensing models need special stainless vent pipe. HomeGuide puts new exhaust venting at $100 to $600.'] },
+      { kind: 'p', spans: [{ strong: 'The chimney left behind' }, '. If the old water heater shared a chimney with a furnace, taking it off changes how that chimney drafts. Have it checked, and plan for a liner if the furnace is left alone in a flue sized for two.'] },
+      { kind: 'p', spans: [{ strong: 'A drain and an outlet' }, '. Condensing units make acidic water that has to go to a drain, sometimes through a neutralizer, and they need a standard outlet for their controls and fan.'] },
+      { kind: 'p', spans: [{ strong: 'Isolation valves' }, '. Service valves that let you flush the unit should be part of every install. They cost little and save a lot later.'] },
+
+      { kind: 'h2', text: 'Sizing a Tankless Unit for Cincinnati Winters' },
+      { kind: 'p', spans: ['A tankless heater is sized by flow rate, in gallons per minute, at a given temperature rise. The colder the water coming in, the less hot water the same unit can make. In an Ohio January, water coming into the house can drop into the 40s. Raising that to 120 degrees takes a rise of about 75 degrees, which is much harder work than in a warm-climate state.'] },
+      { kind: 'p', spans: ['That is why a unit that looks big enough on a summer spec sheet can fall short in February. Size it for winter: count the fixtures you run at the same time (a showerhead uses up to 2.5 gallons a minute, or 2.0 for a WaterSense model) and check the unit’s flow at a 70 to 75 degree rise. Undersizing is the most common reason people say their tankless “runs out” or goes lukewarm.'] },
+
+      { kind: 'h2', text: 'Hard Water and Tankless Maintenance in Cincinnati' },
+      { kind: 'p', spans: ['According to the ', { link: 'Greater Cincinnati Water Works water quality report', href: 'https://www.cincinnati-oh.gov/water/water-quality-and-treatment/water-quality-reports/latest/' }, ', Cincinnati water averages 126 to 140 mg per liter of hardness, about 7 to 8 grains per gallon. That is moderately hard. In a tankless unit, the minerals build up as scale inside the heat exchanger, where they cut efficiency and can trigger error codes or shut the unit down.'] },
+      { kind: 'p', spans: ['The fix is a yearly flush: the unit is isolated with its service valves and a descaling solution is pumped through it. Budget for it as part of owning one, along with cleaning the inlet screen. In homes with harder water or heavy use, a water softener or scale-prevention filter in front of the unit stretches the time between flushes. Our post on ', { link: 'signs your home has hard water', href: '/signs-your-home-may-have-hard-water/' }, ' covers what to look for.'] },
+
+      { kind: 'h2', text: 'What a Tankless Water Heater Saves' },
+      { kind: 'p', spans: ['A tankless unit saves energy by not keeping a tank of water hot around the clock. The ', { link: 'U.S. Department of Energy', href: 'https://www.energy.gov/energysaver/tankless-or-demand-type-water-heaters' }, ' says demand water heaters can be 24% to 34% more energy efficient than a standard tank in homes that use 41 gallons of hot water or less a day, and 8% to 14% more efficient in homes that use around 86 gallons a day.'] },
+      { kind: 'p', spans: ['In dollars, ', { link: 'ENERGY STAR', href: 'https://www.energystar.gov/products/whole_home_tankless_gas_water_heaters/benefits-savings' }, ' estimates a certified gas tankless unit saves a family of four about $95 a year, or $1,800 over its life, compared with a standard gas storage tank. ENERGY STAR also puts tankless life expectancy at about 20 years, against 8 to 12 for a typical tank. Our post on ', { link: 'how long a water heater lasts', href: '/how-long-does-a-water-heater-last/' }, ' covers both.'] },
+      { kind: 'p', spans: ['Here is our view: if your gas line has to be upsized, don’t buy a tankless heater to save money. At about $95 a year in savings, a $1,000 gas line upgrade alone takes more than ten years to pay back, before you count the unit, the venting, or the yearly flush. Buy it for endless hot water, the floor space, or the longer life. If your gas line is already big enough, the math is much better.'] },
+
+      { kind: 'h2', text: 'Tax Credits, Rebates, and Cincinnati Permits' },
+      { kind: 'p', spans: [{ strong: 'The federal 25C credit has ended.' }, ' The Energy Efficient Home Improvement Credit used to cover part of a qualifying water heater. According to the ', { link: 'IRS', href: 'https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit' }, ', it is not allowed for property placed in service after December 31, 2025. A unit installed this year doesn’t qualify. We are plumbers, not accountants, so confirm anything tax-related with your tax preparer.'] },
+      { kind: 'p', spans: [{ strong: 'Duke Energy rebates change' }, '. Check Duke Energy’s current Ohio rebate list before you sign, and ask whether the work has to be done by a participating contractor.'] },
+      { kind: 'p', spans: [{ strong: 'Permits' }, '. The City of Cincinnati requires a permit and inspection for new and replacement plumbing installations, and gas line and venting changes are inspected too. Your contractor should pull the permit and include it in the quote. Suburbs, Northern Kentucky, and Southeast Indiana have their own building departments.'] },
+
+      { kind: 'h2', text: 'Tank vs. Tankless: Cost Over the Life of the Heater' },
+      { kind: 'p', spans: ['A standard tank costs less up front, but it lasts 8 to 12 years, so over the 20-year life ENERGY STAR gives a tankless unit, you would likely buy and install two tanks. Add ENERGY STAR’s $1,800 in lifetime gas savings, and a tankless unit that didn’t need a new gas line often comes out ahead over 20 years. One that needed a gas line, venting, and a panel upgrade often doesn’t. Our post on ', { link: 'whether switching to tankless is worth it', href: '/is-it-worth-it-to-switch-to-a-tankless-water-heater/' }, ' covers the non-cost side: endless hot water, space, and the trade-offs.'] },
+
+      { kind: 'h2', text: 'When You Don’t Need a Tankless Water Heater' },
+      { kind: 'p', spans: ['If your tank is under 8 years old, isn’t leaking, and gives you enough hot water, keep it. Replacing a working tank early throws away years of use for savings of about $95 a year. The same goes for a household of one or two people with modest hot water use and a gas line that would need upsizing. A new standard tank, or flushing the one you have, is the better money.'] },
+      { kind: 'p', spans: ['And if your only complaint is running out of hot water, a correctly sized tank, or a tank set a little hotter with a mixing valve, can fix that for less. We’ll tell you which one fits your house.'] },
+
+      { kind: 'h2', text: 'Tankless Water Heater Installation in Cincinnati' },
+      { kind: 'p', spans: ['Degree of Comfort installs and services ', { link: 'tankless water heaters', href: '/services/tankless-water-heater/' }, ' and ', { link: 'standard tank water heaters', href: '/services/water-heater-installation/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We check your gas line, venting, and water hardness before we quote, size the unit for winter, and give you the price before we start. We are family-owned, licensed and insured, with upfront, flat-rate pricing. If you need to spread the cost, see our ', { link: 'financing options', href: '/financing/' }, '.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, '.'] },
+    ],
+    faqs: [
+      { q: 'How much does a tankless water heater cost to install in Cincinnati?', a: 'Most installs land between about $1,400 and $5,600, based on HomeGuide’s 2026 figures. Fixr puts the average for a whole-house gas unit at $2,811. Converting from a tank, with a larger gas line and new venting, pushes a job toward the top of the range.' },
+      { q: 'Is gas or electric tankless better in Cincinnati?', a: 'Gas is usually better for a whole house that already has gas service. Whole-house electric units draw 100 to 200 amps and often need a panel upgrade in older homes. Small electric units for one sink or bathroom can make sense.' },
+      { q: 'Why does switching from a tank to tankless cost more?', a: 'A gas tankless unit often needs a larger gas line, new PVC venting through the wall, a condensate drain, and an outlet. HomeGuide puts a gas line upgrade at $350 to $2,000 and new venting at $100 to $600.' },
+      { q: 'How much does a tankless water heater save?', a: 'ENERGY STAR estimates a certified gas tankless unit saves a family of four about $95 a year, or $1,800 over its life, compared with a standard gas tank. The Department of Energy puts the efficiency gain at 24% to 34% for homes using 41 gallons a day or less.' },
+      { q: 'Do tankless water heaters need maintenance in Cincinnati?', a: 'Yes. Cincinnati water is moderately hard, about 7 to 8 grains per gallon, so plan on flushing the unit with a descaling solution once a year and cleaning the inlet screen. A softener or scale filter can stretch the time between flushes.' },
+      { q: 'Is there a tax credit for a tankless water heater in 2026?', a: 'No. The IRS says the 25C Energy Efficient Home Improvement Credit is not allowed for property placed in service after December 31, 2025. Check Duke Energy’s current rebate list, and confirm tax questions with your tax preparer.' },
     ],
   },
 ];

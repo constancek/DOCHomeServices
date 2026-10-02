@@ -100,6 +100,43 @@ function PostBlockView({ block }: { block: PostBlock }) {
   if (block.kind === 'h3') {
     return <h3 className="pt-2 font-display text-lg font-extrabold text-brand-900 sm:text-xl">{block.text}</h3>;
   }
+  if (block.kind === 'table') {
+    return (
+      <div className="overflow-x-auto rounded-2xl border border-brand-100">
+        <table className="w-full min-w-[480px] border-collapse text-left text-[15px]">
+          {block.caption && (
+            <caption className="caption-bottom px-4 py-3 text-left text-sm text-ink/60">{block.caption}</caption>
+          )}
+          <thead className="bg-brand-50 text-brand-800">
+            <tr>
+              {block.head.map((h) => (
+                <th key={h} scope="col" className="px-4 py-3 font-display font-extrabold">
+                  {h}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {block.rows.map((row, r) => (
+              <tr key={r} className="border-t border-brand-100">
+                {row.map((cell, c) =>
+                  c === 0 ? (
+                    <th key={c} scope="row" className="px-4 py-3 font-semibold text-brand-900">
+                      {cell}
+                    </th>
+                  ) : (
+                    <td key={c} className="px-4 py-3 text-brand-800">
+                      {cell}
+                    </td>
+                  ),
+                )}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    );
+  }
   if (block.kind === 'takeaways') {
     return (
       <div className="rounded-2xl border border-brand-100 bg-brand-50/60 p-6 sm:p-7">
@@ -124,11 +161,13 @@ function PostBlockView({ block }: { block: PostBlock }) {
   );
 }
 
+// Readers see month and year only; the full ISO dates stay in the schema and
+// sitemap for search engines. UTC keeps "2026-10-01" from rendering as September.
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
-    day: 'numeric',
+    timeZone: 'UTC',
   });
 }
 
@@ -152,6 +191,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   const nextPost = idx >= 0 && idx < ordered.length - 1 ? ordered[idx + 1] : null;
   const shareUrl = `${site.url}/${post.slug}`;
 
+  const siteRoot = site.url.replace(/\/$/, '');
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
@@ -163,22 +203,35 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     author:
       post.author.name === site.name
         ? { '@type': 'Organization', name: post.author.name }
-        : { '@type': 'Person', name: post.author.name, jobTitle: post.author.role },
+        : {
+            '@type': 'Person',
+            name: post.author.name,
+            jobTitle: post.author.role,
+            ...(post.author.bio ? { description: post.author.bio } : {}),
+            worksFor: { '@id': `${siteRoot}/#business` },
+          },
+    // Same @id as the HVACBusiness entity on the homepage, so search engines and
+    // AI tools tie each post to the business, its phone, and its service area.
     publisher: {
-      '@type': 'Organization',
+      '@type': 'HVACBusiness',
+      '@id': `${siteRoot}/#business`,
       name: site.name,
-      logo: { '@type': 'ImageObject', url: `${site.url}/mascot.webp` },
+      url: `${siteRoot}/`,
+      telephone: site.primaryPhone.number,
+      areaServed: site.serviceArea,
+      logo: { '@type': 'ImageObject', url: `${siteRoot}/mascot.webp` },
     },
-    mainEntityOfPage: `${site.url}/${post.slug}`,
+    mainEntityOfPage: `${siteRoot}/${post.slug}/`,
   };
 
+  // URLs match the canonical form (trailing slash).
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-      { '@type': 'ListItem', position: 2, name: 'Blog', item: `${site.url}/blog` },
-      { '@type': 'ListItem', position: 3, name: post.title, item: `${site.url}/${post.slug}` },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteRoot}/` },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: `${siteRoot}/blog/` },
+      { '@type': 'ListItem', position: 3, name: post.title, item: `${siteRoot}/${post.slug}/` },
     ],
   };
 
@@ -220,8 +273,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         byline={
           <p className="text-sm text-white">
             {post.author.name === site.name
-              ? `${post.author.name} · ${formatDate(post.date)} · ${post.readMinutes} min read`
-              : `${post.author.name} · ${post.author.role} · ${formatDate(post.date)} · ${post.readMinutes} min read`}
+              ? `${post.author.name} · Updated ${formatDate(post.dateModified ?? post.date)} · ${post.readMinutes} min read`
+              : `By ${post.author.name}, ${post.author.role} · Updated ${formatDate(post.dateModified ?? post.date)} · ${post.readMinutes} min read`}
           </p>
         }
       />

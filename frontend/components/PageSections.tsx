@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Icon from './Icon';
 import TornEdge from './TornEdge';
 import LogoMarquee from './LogoMarquee';
-import WhyChooseVideos from './WhyChooseVideos';
+import VideoTestimonials from './VideoTestimonials';
 import ReviewsSection from './ReviewsSection';
 import EstimateForm from './EstimateForm';
 import ServicesMenu from './ServicesMenu';
@@ -49,6 +49,7 @@ export default function PageSections({
         </section>
       )}
       <WhyChoose />
+      <VideoTestimonials />
       <TornEdge fill="#1f48c8" />
       <WorkStandsOut />
       <TrustedExperts />
@@ -69,6 +70,7 @@ export function BlogSections({ showVan = false }: { showVan?: boolean }) {
   return (
     <>
       <WhyChoose />
+      <VideoTestimonials />
       <ReviewsSection showMarquee={false} />
       {showVan && <TrustedExperts />}
       <TornEdge fill="#1f48c8" />
@@ -147,47 +149,8 @@ export function WhyChoose() {
   return (
     <section id="why" className="bg-white pb-16 pt-10 sm:pt-16">
       <div className="container-page">
-        {/* Mobile gets sentence case, centred, and a smaller size — the full
-            uppercase headline runs to six lines on a phone. */}
-        <h2 className="section-title max-w-5xl text-balance text-center text-2xl normal-case text-brand-700 sm:text-left sm:text-4xl sm:uppercase lg:text-[32px]">
-          {`Why Choose ${site.name} as Your Residential HVAC, Plumbing & Electrical Contractors?`}
-        </h2>
-
-        <div className="mt-10 grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-center">
-          {/* Video carousel */}
-          <WhyChooseVideos />
-
-          {/* Benefits list */}
-          {/* The CTA leads on mobile, where the benefits list pushes it far down
-              the page; on desktop it sits under the list as a closing step. */}
-          <div className="flex flex-col items-start max-sm:items-center">
-            <ul className="space-y-5 lg:space-y-6">
-              {benefits.map((b) => (
-                <li key={b.title} className="flex gap-4">
-                  <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                    <Icon name={b.icon} className="h-[22px] w-[22px]" />
-                  </span>
-                  <div>
-                    <h3 className="font-display text-[17px] font-extrabold text-brand-700">{b.title}</h3>
-                    <p className="text-[15px] leading-relaxed text-ink/70">{b.text}</p>
-                  </div>
-                </li>
-              ))}
-            </ul>
-            <Link
-              href="/video-testimonials"
-              className="btn-pink order-first mb-8 py-3 pl-3 pr-7 text-[15px] lg:order-none lg:mb-0 lg:mt-9"
-            >
-              <span className="grid h-8 w-8 place-items-center rounded-full bg-white text-pink-500">
-                <Icon name="play" className="h-4 w-4 translate-x-px fill-current" />
-              </span>
-              Hear It Straight From Our Customers
-            </Link>
-          </div>
-        </div>
-
         {/* Trust-seal medallions */}
-        <div className="mt-12 flex flex-wrap items-center justify-center gap-5 sm:gap-8">
+        <div className="mb-16 flex flex-wrap items-center justify-center gap-5 sm:mb-20 sm:gap-8">
           {awards.map((a) => (
             <div
               key={a.label}
@@ -200,6 +163,25 @@ export function WhyChoose() {
             </div>
           ))}
         </div>
+
+        {/* Mobile gets sentence case, centred, and a smaller size — the full
+            uppercase headline runs to six lines on a phone. */}
+        <h2 className="section-title mx-auto max-w-5xl text-balance text-center text-2xl normal-case text-brand-700 sm:text-4xl sm:uppercase lg:text-[32px]">
+          {`Why Choose ${site.name} as Your Residential HVAC, Plumbing & Electrical Contractors?`}
+        </h2>
+
+        {/* Benefits: one row of five on desktop */}
+        <ul className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-6">
+          {benefits.map((b) => (
+            <li key={b.title} className="flex flex-col items-center text-center">
+              <span className="grid h-12 w-12 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
+                <Icon name={b.icon} className="h-6 w-6" />
+              </span>
+              <h3 className="mt-4 font-display text-[17px] font-extrabold text-brand-700">{b.title}</h3>
+              <p className="mt-1.5 text-[15px] leading-relaxed text-ink/70">{b.text}</p>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );

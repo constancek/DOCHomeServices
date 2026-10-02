@@ -15,10 +15,11 @@ export const metadata: Metadata = {
 };
 
 function formatDate(iso: string) {
+  // Month and year only; full dates stay in each post's schema and the sitemap.
   return new Date(iso).toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
-    day: 'numeric',
+    timeZone: 'UTC',
   });
 }
 
