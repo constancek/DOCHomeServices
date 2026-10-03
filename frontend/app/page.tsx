@@ -104,12 +104,17 @@ function Hero() {
           className="absolute inset-0 bg-brand-700"
           style={{ clipPath: 'polygon(6% 0, 100% 0, 100% 100%, 0 100%)' }}
         />
-        <div
-          className="absolute inset-0 bg-brand-300 bg-cover bg-center"
-          style={{
-            backgroundImage: 'url(/happy-family.webp)',
-            clipPath: 'polygon(9% 0, 100% 0, 100% 100%, 3% 100%)',
-          }}
+        {/* A real <img> with high fetch priority (not a CSS background), so the
+            browser finds and loads the hero photo as early as possible. */}
+        <img
+          src="/happy-family.webp"
+          alt=""
+          width={1600}
+          height={1067}
+          fetchPriority="high"
+          decoding="async"
+          className="absolute inset-0 h-full w-full bg-brand-300 object-cover object-center"
+          style={{ clipPath: 'polygon(9% 0, 100% 0, 100% 100%, 3% 100%)' }}
         />
       </div>
 
@@ -177,9 +182,14 @@ function Hero() {
       {/* Mobile photo + buttons */}
       <div className="container-page relative z-10 pb-10 lg:hidden">
         <div className="relative">
-          <div
-            className="aspect-[4/3] rounded-2xl bg-brand-300 bg-cover bg-center ring-1 ring-white/30"
-            style={{ backgroundImage: 'url(/happy-family.webp)' }}
+          <img
+            src="/happy-family.webp"
+            alt="Family relaxing together at home"
+            width={1600}
+            height={1067}
+            fetchPriority="high"
+            decoding="async"
+            className="aspect-[4/3] w-full rounded-2xl bg-brand-300 object-cover object-center ring-1 ring-white/30"
           />
           <img
             src="/mascot.webp"
@@ -214,7 +224,7 @@ function Hero() {
 /* ─────────────── Special offers ─────────────── */
 function SpecialOffers() {
   return (
-    <section id="offers" className="relative bg-blue-section py-16">
+    <section id="offers" className="cv-auto relative bg-blue-section py-16">
 
       <div className="container-page">
         <h2 className="m-center section-title text-white">Special Offers</h2>

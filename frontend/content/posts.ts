@@ -7084,6 +7084,93 @@ export const posts: Post[] = [
       { q: 'Is there a tax credit for a tankless water heater in 2026?', a: 'No. The IRS says the 25C Energy Efficient Home Improvement Credit is not allowed for property placed in service after December 31, 2025. Check Duke Energy’s current rebate list, and confirm tax questions with your tax preparer.' },
     ],
   },
+// TODO hero image: /blog/furnace-repair-cost-hero.webp + .jpg, 1200x630, alt: "Technician testing the wiring on the control board of an open gas furnace"
+{
+    slug: 'furnace-repair-cost-cincinnati',
+    title: 'Furnace Repair Cost in Cincinnati (2026): Prices by Repair',
+    seoTitle: 'Furnace Repair Cost in Cincinnati (2026)',
+    category: 'Heating',
+    excerpt:
+      'Furnace repair cost in Cincinnati for 2026: national prices by repair, service call fees, warranty rules, and when a repair isn’t worth paying for.',
+    date: '2026-10-03',
+    dateModified: '2026-10-03',
+    readMinutes: 7,
+    author: maurice,
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'Most furnace repairs cost a few hundred dollars' }, '. HomeAdvisor puts the national average at $318, and Fixr’s 2025 figure is $485.'],
+          [{ strong: 'The part decides the price' }, '. A flame sensor or ignitor is usually under $250. A blower motor, control board or gas valve runs several hundred. A heat exchanger can pass $2,500.'],
+          [{ strong: 'A registered furnace may cover the part, not the labor' }, '. Carrier and Trane both cut parts coverage from 10 years to 5 if the furnace wasn’t registered after install.'],
+          [{ strong: 'Past 15 years old, compare before you repair' }, '. If a repair approaches half the price of a new furnace, Carrier says to weigh replacement first.'],
+        ],
+      },
+      { kind: 'p', spans: ['A furnace repair in Cincinnati usually costs a few hundred dollars. National cost guides put the average between $318 (HomeAdvisor) and $485 (', { link: 'Fixr, 2025', href: 'https://www.fixr.com/costs/repair-furnace' }, '), with small parts like a flame sensor or ignitor at the low end and a heat exchanger at the high end. What you pay depends on which part failed, how old the furnace is, whether it’s still under warranty, and when the call happens. Below are the national prices by repair, what changes them here, and the point where a repair stops being worth it.'] },
+
+      { kind: 'h2', text: 'What a Furnace Service Call Costs' },
+      { kind: 'p', spans: ['Every repair starts with a diagnosis. Trane’s 2024 guide puts the service call fee at $50 to $200 on average, with hourly labor at $75 to $150, and emergency calls at double or triple the standard rate. Fixr’s 2025 figures put labor at $87 to $162 an hour.'] },
+      { kind: 'p', spans: ['Ask two things before anyone comes out: is the diagnostic fee credited toward the repair if you go ahead, and does the price change at night or on a weekend? At Degree of Comfort the price is quoted and approved before work starts, and there are no overtime fees. That matters when the call comes in at 9 p.m. on a Saturday.'] },
+
+      { kind: 'h2', text: 'Furnace Repair Cost by Part' },
+      { kind: 'p', spans: ['These are national installed prices, part and labor, from cost guides that publish their figures. Use them as a guide. Cincinnati prices for the same part vary with access, brand and timing.'] },
+      { kind: 'table', head: ['Repair', 'National installed cost', 'Source'], rows: [
+        ['Flame sensor (clean or replace)', '$68 to $127', 'Fixr, 2025'],
+        ['Limit switch', '$66 to $122', 'Fixr, 2025'],
+        ['Hot surface ignitor', '$96 to $178', 'Fixr, 2025'],
+        ['Hot surface ignitor', '$100 to $250', 'Trane, 2024'],
+        ['Thermostat', '$91 to $169', 'Fixr, 2025'],
+        ['Gas valve', '$300 to $750', 'Today’s Homeowner, 2025'],
+        ['Control board', '$390 to $725', 'Fixr, 2025'],
+        ['Draft inducer motor', '$400 to $1,100', 'Trane, 2024'],
+        ['Blower motor', '$562 to $1,045', 'Fixr, 2025'],
+        ['Blower motor (PSC / ECM)', 'about $575 / about $875', 'This Old House, 2026'],
+        ['Heat exchanger', '$1,346 to $2,673', 'Fixr, 2025'],
+        ['Heat exchanger', '$1,000 to $3,000', 'Trane, 2024'],
+      ], caption: 'National installed-cost ranges, part and labor. Not Degree of Comfort prices.' },
+      { kind: 'p', spans: ['A furnace runs its parts in a fixed order: the draft inducer starts, a pressure switch proves the vent is clear, the ignitor heats, the gas valve opens, the flame sensor confirms flame, then the blower comes on. HVAC School, a training resource for technicians, teaches diagnosing in that same order. That is why one cheap part can stop the whole furnace, and why a good technician tests before replacing anything.'] },
+      { kind: 'p', spans: ['A flame sensor is the clearest example. HVAC School notes that a dirty sensor is often cleaned rather than replaced, and that grounding or polarity can cause the same symptom. If your furnace lights and shuts off a few seconds later, that is the first thing to check. Our guide to ', { link: 'troubleshooting a furnace that isn’t working', href: '/furnace-not-working-troubleshooting-tips/' }, ' walks through the symptoms.'] },
+
+      { kind: 'h2', text: 'What Makes a Cincinnati Furnace Repair Cost More' },
+      { kind: 'p', spans: [{ strong: 'Timing' }, '. Furnaces fail most in the coldest stretches, when they run nonstop. In January 2026, the National Weather Service recorded a low of -3 degrees at the Cincinnati airport, and temperatures stayed below freezing for the whole last week of the month. Companies that charge after-hours rates charge them most in weeks like that.'] },
+      { kind: 'p', spans: [{ strong: 'Furnace type' }, '. High-efficiency furnaces add parts a standard furnace doesn’t have, such as a condensate drain and a second heat exchanger. Variable-speed models use costlier control boards and ECM blower motors.'] },
+      { kind: 'p', spans: [{ strong: 'Access' }, '. A furnace in an attic, crawl space or tight closet takes longer to work on than one in an open basement.'] },
+      { kind: 'p', spans: [{ strong: 'Warranty status' }, '. A covered part can turn an expensive repair into a labor-only bill.'] },
+
+      { kind: 'h2', text: 'Is Your Furnace Repair Covered by Warranty?' },
+      { kind: 'p', spans: ['Maybe the part, rarely the labor. Carrier requires registration within 90 days of installation and Trane within 60. Registered furnaces get 10 years of parts coverage. Unregistered ones fall back to 5. ', { link: 'Trane’s warranty guide', href: 'https://www.trane.com/residential/en/resources/blog/trane-warranties-explained/' }, ' lists 20 years on the heat exchanger, and says its warranties cover parts but not the labor to install them. It also notes that DIY repair can void the warranty.'] },
+      { kind: 'p', spans: ['Before you approve a big repair, find the furnace’s model and serial number on the label inside the door and check its status on the manufacturer’s site. A part under warranty changes the repair-or-replace math.'] },
+
+      { kind: 'h2', text: 'Cracked Heat Exchanger: When a Repair Becomes a Safety Call' },
+      { kind: 'p', spans: ['A cracked heat exchanger is the one diagnosis that should stop the furnace. Carrier warns that a crack can let combustion gases into the home’s air and says not to run a furnace a qualified professional has declared unsafe. The U.S. Consumer Product Safety Commission recommends a yearly professional inspection of fuel-burning heating equipment and a carbon monoxide alarm near every sleeping area.'] },
+      { kind: 'p', spans: ['Here is our view: never pay for a heat exchanger or a new furnace on someone’s word alone. At $1,000 to $3,000 for the part and labor (Trane, 2024), ask to see the crack in a photo or a combustion reading that shows the problem. A technician who found a crack can usually show it. Get a second opinion if they can’t.'] },
+      { kind: 'p', spans: ['That advice has a local track record. WCPO’s consumer reporter covered a Cincinnati homeowner who was quoted about $2,500 in parts and pitched a new furnace. A second company found a loose fan and fixed it in 10 minutes at no charge. The FTC’s home repair guidance adds the red flags to watch for: pressure to decide on the spot, cash-only payment, and no written estimate.'] },
+
+      { kind: 'h2', text: 'Repair or Replace Your Furnace in Cincinnati?' },
+      { kind: 'p', spans: ['Carrier puts gas furnace life at 15 to 20 years and gives a simple rule: if a repair approaches 50% of the cost of a new system, compare it with replacement before committing. ', { link: 'ENERGY STAR', href: 'https://www.energystar.gov/saveathome/heating-cooling/replace' }, ' suggests looking at replacement once a furnace is more than 15 years old, especially with frequent repairs or rising bills.'] },
+      { kind: 'p', spans: ['Age alone isn’t a reason to replace. A Department of Energy field study of furnaces with 15 to 24 years of service found no loss of efficiency over an average 19-year life when they were set up correctly. A $150 ignitor on a 16-year-old furnace with a clean heat exchanger is usually worth doing. A $1,000 inducer motor on the same furnace usually isn’t. Our guides on ', { link: 'whether to repair or replace your furnace', href: '/should-you-repair-or-replace-your-furnace/' }, ' and ', { link: 'what a new furnace costs in Cincinnati', href: '/how-much-does-a-new-furnace-cost/' }, ' cover the other side of that decision.'] },
+      { kind: 'p', spans: ['Two 2026 changes affect the math. The federal 25C tax credit ended for anything installed after December 31, 2025, according to the IRS, and repairs never qualified. And the federal rule requiring 95% efficiency for gas furnaces made after December 18, 2028 is back in court after a June 2026 Supreme Court order, but ACCA reports it remains in effect for now. We fix furnaces; we’re not tax advisers, so confirm credits with yours.'] },
+
+      { kind: 'h2', text: 'When You Don’t Need a Furnace Repair' },
+      { kind: 'p', spans: ['Check these before you pay for a service call. A clogged filter can trip the furnace’s safety switch. A thermostat set to cool, or with dead batteries, looks exactly like a dead furnace. The furnace power switch looks like a light switch and gets flipped off by accident. A tripped breaker can be reset once. On a high-efficiency furnace, make sure snow or leaves aren’t blocking the plastic intake and exhaust pipes outside.'] },
+      { kind: 'p', spans: ['If one of these brings the heat back and it stays on, you don’t need us. If you smell gas, leave the house first and call Duke Energy or 911 from outside. If a carbon monoxide alarm sounds, get everyone out before doing anything else.'] },
+
+      { kind: 'h2', text: 'How to Keep Furnace Repair Costs Down' },
+      { kind: 'p', spans: ['Change the filter on schedule and book a tune-up before the first cold snap, when parts that are wearing out can be replaced on your timing instead of a January night. Our ', { link: 'furnace tune-up checklist', href: '/what-is-included-in-a-furnace-tune-up/' }, ' shows what that visit covers, and current tune-up pricing is on our specials page. Members of our Comfort Club get priority scheduling, reduced diagnostic fees, and up to 20% off repairs.'] },
+
+      { kind: 'h2', text: 'Furnace Repair in Cincinnati' },
+      { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We diagnose first, show you what failed, and give you the price before we start. Most calls are handled the same day, and there are no overtime fees. We are family-owned, licensed and insured.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, '.'] },
+    ],
+    faqs: [
+      { q: 'How much does furnace repair cost in Cincinnati?', a: 'Most furnace repairs cost a few hundred dollars. National averages run from $318 (HomeAdvisor) to $485 (Fixr, 2025). Small parts like a flame sensor or ignitor are usually under $250, while a heat exchanger can run $1,000 to $3,000.' },
+      { q: 'How much is a furnace service call?', a: 'Trane’s 2024 guide puts the average service call fee at $50 to $200, with emergency calls at double or triple the standard rate. Ask whether the fee is credited toward the repair and whether nights or weekends cost more.' },
+      { q: 'How much does it cost to replace a furnace blower motor?', a: 'Fixr’s 2025 figures put a blower motor replacement at $562 to $1,045. This Old House puts a standard PSC motor at about $575 and a variable-speed ECM motor at about $875.' },
+      { q: 'Is a cracked heat exchanger worth repairing?', a: 'A cracked heat exchanger can let combustion gases into the home, so the furnace should not run until it’s fixed. The repair runs $1,000 to $3,000 (Trane, 2024). If the part is under warranty and the furnace is young, repair can make sense. Otherwise compare it with replacement, and ask to see proof of the crack first.' },
+      { q: 'Does a furnace warranty cover repair costs?', a: 'Usually the part, not the labor. Carrier and Trane give 10 years of parts coverage on registered furnaces and 5 years on unregistered ones, and Trane covers heat exchangers for 20 years. Labor is billed separately.' },
+      { q: 'Should I repair or replace a 15-year-old furnace?', a: 'Compare first. Carrier suggests weighing replacement when a repair approaches 50% of the cost of a new furnace, and ENERGY STAR suggests considering it after 15 years. A small repair on a sound furnace is usually still worth doing.' },
+    ],
+  },
 ];
 
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);

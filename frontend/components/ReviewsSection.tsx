@@ -16,7 +16,7 @@ export default function ReviewsSection({
   showAllLink?: boolean;
 }) {
   return (
-    <section className="bg-cream py-16 sm:py-20">
+    <section className="cv-auto bg-cream py-16 sm:py-20">
       <div className="container-page grid grid-cols-1 items-center gap-10 lg:grid-cols-[1.15fr_1fr] lg:gap-14">
         {/* Heading block */}
         <div className="text-center">

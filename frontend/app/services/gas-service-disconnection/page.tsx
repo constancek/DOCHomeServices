@@ -44,7 +44,7 @@ const whyUs = [
   { icon: 'clock' as const, title: 'We Move Fast on These', text: 'A house with no gas has no hot water and, in winter, no heat. It gets treated that way.' },
   { icon: 'shield' as const, title: 'Licensed Gas Plumbers', text: 'Only a licensed trade can do the repair Duke is waiting on.' },
   { icon: 'badge' as const, title: 'We Deal With the Utility', text: 'We handle the test, the paperwork, and the reconnect scheduling so you are not on hold.' },
-  { icon: 'house' as const, title: 'Family-Owned Since 2009', text: `${site.yearsExperience} years on Cincinnati homes, with crews who live here.` },
+  { icon: 'house' as const, title: `Family-Owned Since ${site.founded}`, text: `${site.yearsExperience} years on Cincinnati homes, with crews who live here.` },
 ];
 
 const faqs = [

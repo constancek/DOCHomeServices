@@ -33,7 +33,7 @@ export default function VideoTestimonials() {
   if (!t) return null;
 
   return (
-    <section className="bg-cream py-14 sm:py-16">
+    <section className="cv-auto bg-cream py-14 sm:py-16">
       <div className="container-page">
         <div className="text-center">
           <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-pink-500">

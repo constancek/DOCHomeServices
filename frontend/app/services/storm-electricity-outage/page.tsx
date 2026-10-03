@@ -42,7 +42,7 @@ const whyUs = [
   { icon: 'clock' as const, title: 'Storm-Week Scheduling', text: 'When the weather turns we staff for it, because everyone needs the same repair on the same day.' },
   { icon: 'shield' as const, title: 'Licensed for Service Work', text: 'Mast, meter base, and entrance cable repair is licensed, permitted work.' },
   { icon: 'badge' as const, title: 'We Handle the Inspection', text: 'We pull the permit and meet the inspector so Duke can reconnect without another delay.' },
-  { icon: 'house' as const, title: 'Local Since 2009', text: `${site.yearsExperience} years of Ohio River valley storms and the damage they do.` },
+  { icon: 'house' as const, title: `Local Since ${site.founded}`, text: `${site.yearsExperience} years of Ohio River valley storms and the damage they do.` },
 ];
 
 const faqs = [

@@ -44,7 +44,7 @@ const whyUs = [
   { icon: 'clock' as const, title: 'We Move Fast on These', text: 'No power means no heat, no fridge, no sump pump. It gets treated as the emergency it is.' },
   { icon: 'shield' as const, title: 'Licensed Electricians', text: 'Only a licensed trade can do the repair Duke is waiting on.' },
   { icon: 'badge' as const, title: 'We Handle the Inspection', text: 'We pull the permit and meet the inspector, which is what usually holds these up.' },
-  { icon: 'house' as const, title: 'Family-Owned Since 2009', text: `${site.yearsExperience} years on Cincinnati homes, with crews who live here.` },
+  { icon: 'house' as const, title: `Family-Owned Since ${site.founded}`, text: `${site.yearsExperience} years on Cincinnati homes, with crews who live here.` },
 ];
 
 const faqs = [

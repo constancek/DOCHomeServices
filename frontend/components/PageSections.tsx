@@ -82,7 +82,7 @@ export function BlogSections({ showVan = false }: { showVan?: boolean }) {
 /* ─────────────── Our Difference banner ─────────────── */
 export function OurDifferenceBanner() {
   return (
-    <section className="relative overflow-hidden bg-brand-900">
+    <section className="cv-auto relative overflow-hidden bg-brand-900">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: 'url(/our-difference.jpg)' }}
@@ -190,7 +190,7 @@ export function WhyChoose() {
 /* ─────────────── Work stands out ─────────────── */
 export function WorkStandsOut() {
   return (
-    <section className="relative bg-blue-section pb-16 pt-12">
+    <section className="cv-auto relative bg-blue-section pb-16 pt-12">
       <div className="container-page grid gap-10 lg:grid-cols-2 lg:items-center">
         {/* Branded shirt */}
         <div className="aspect-[4/3] overflow-hidden rounded-2xl bg-white/10 ring-1 ring-white/20">
@@ -249,7 +249,7 @@ export function WorkStandsOut() {
 /* ─────────────── Trusted experts ─────────────── */
 export function TrustedExperts() {
   return (
-    <section className="bg-white py-16">
+    <section className="cv-auto bg-white py-16">
       <div className="container-page grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-center">
         <div className="m-center">
           <p className="mb-3 flex items-center gap-2 text-sm font-extrabold uppercase tracking-[0.18em] text-pink-500 max-sm:justify-center">
@@ -267,10 +267,9 @@ export function TrustedExperts() {
           </p>
           <Link
             href="/services"
-            aria-label="Read more about our services"
             className="mt-6 inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-wide text-pink-500"
           >
-            Read More
+            Explore Our Services
             <Icon name="arrow" className="h-4 w-4" />
           </Link>
         </div>
@@ -293,7 +292,7 @@ export function TrustedExperts() {
 /* ─────────────── Get funding ─────────────── */
 export function GetFunding() {
   return (
-    <section className="bg-white py-14">
+    <section className="cv-auto bg-white py-14">
       <div className="container-page grid gap-8 lg:grid-cols-2 lg:items-center">
         <div className="m-center">
           <h2 className="section-title text-brand-700">Get Funding Today!</h2>
@@ -320,7 +319,7 @@ export function GetFunding() {
 /* ─────────────── Comfort club ─────────────── */
 export function ComfortClub() {
   return (
-    <section className="bg-blue-section">
+    <section className="cv-auto bg-blue-section">
       <div className="container-page grid items-center gap-10 py-16 lg:grid-cols-2">
         <div className="m-center text-white">
           <h2 className="section-title">Comfort Club</h2>
@@ -358,7 +357,7 @@ export function ComfortClub() {
 /* ─────────────── Community ─────────────── */
 export function Community() {
   return (
-    <section className="bg-white py-16">
+    <section className="cv-auto bg-white py-16">
       <div className="container-page grid items-center gap-10 lg:grid-cols-2">
         <div className="m-center">
           <h2 className="section-title text-brand-700">In the Community</h2>
@@ -368,8 +367,8 @@ export function Community() {
             same way we show up for their homes. When you hire us, you are keeping good work and good
             people right here in the community.
           </p>
-          <Link href="/about" aria-label="Learn more about Degree of Comfort" className="btn-pink mt-6">
-            Learn More
+          <Link href="/about" className="btn-pink mt-6">
+            About Our Team
             <Icon name="arrow" className="h-4 w-4" />
           </Link>
         </div>
