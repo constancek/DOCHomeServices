@@ -16,6 +16,10 @@ type Review = {
 // opens the full text in place. Roughly the length that fits five lines.
 const CLAMP_CHARS = 240;
 
+// The five-paw rating as one repeating background image (one paw per 30px
+// tile), instead of five inline SVGs per card. Same look, far fewer elements.
+const PAWS_BG = `url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='24' viewBox='0 0 30 24'><g fill='%23f97316'><ellipse cx='12' cy='15.5' rx='4.3' ry='3.6'/><circle cx='6.3' cy='10' r='1.9'/><circle cx='9.8' cy='6.6' r='2'/><circle cx='14.2' cy='6.6' r='2'/><circle cx='17.7' cy='10' r='1.9'/></g></svg>")`;
+
 export default function ReviewsCarousel({
   reviews,
   showAllLink = false,
@@ -104,11 +108,12 @@ export default function ReviewsCarousel({
               key={i}
               className="flex w-full shrink-0 snap-start flex-col"
             >
-              <div className="flex gap-1.5 text-pink-500">
-                {Array.from({ length: 5 }).map((_, p) => (
-                  <Icon key={p} name="paw" className="h-6 w-6" />
-                ))}
-              </div>
+              <span
+                role="img"
+                aria-label="5 out of 5 paws"
+                className="block h-6 w-[144px] bg-repeat-x"
+                style={{ backgroundImage: PAWS_BG }}
+              />
 
               <blockquote
                 className={`mt-4 text-[15px] italic leading-relaxed text-ink/75 ${

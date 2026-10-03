@@ -197,8 +197,10 @@ export function WorkStandsOut() {
           <img
             src="/orange-shirt.webp"
             alt="Degree of Comfort technicians in branded shirts"
-            width={960}
-            height={640}
+            width={1000}
+            height={714}
+            loading="lazy"
+            decoding="async"
             className="h-full w-full object-cover"
           />
         </div>
@@ -265,6 +267,7 @@ export function TrustedExperts() {
           </p>
           <Link
             href="/services"
+            aria-label="Read more about our services"
             className="mt-6 inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-wide text-pink-500"
           >
             Read More
@@ -275,8 +278,10 @@ export function TrustedExperts() {
           <img
             src="/van.webp"
             alt="Degree of Comfort service van"
-            width={1557}
-            height={672}
+            width={1100}
+            height={475}
+            loading="lazy"
+            decoding="async"
             className="h-full w-full object-cover"
           />
         </div>
@@ -338,8 +343,10 @@ export function ComfortClub() {
           <img
             src="/orange-club.webp"
             alt="Degree of Comfort Comfort Club members"
-            width={960}
-            height={600}
+            width={1000}
+            height={726}
+            loading="lazy"
+            decoding="async"
             className="h-full w-full object-cover"
           />
         </div>
@@ -361,7 +368,7 @@ export function Community() {
             same way we show up for their homes. When you hire us, you are keeping good work and good
             people right here in the community.
           </p>
-          <Link href="/about" className="btn-pink mt-6">
+          <Link href="/about" aria-label="Learn more about Degree of Comfort" className="btn-pink mt-6">
             Learn More
             <Icon name="arrow" className="h-4 w-4" />
           </Link>
@@ -370,8 +377,10 @@ export function Community() {
           <img
             src="/community-club.webp"
             alt="The Degree of Comfort team — family owned with 30+ years of experience"
-            width={1200}
-            height={800}
+            width={1000}
+            height={667}
+            loading="lazy"
+            decoding="async"
             className="h-full w-full object-cover"
           />
         </div>

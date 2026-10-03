@@ -117,7 +117,7 @@ export default function VideoTestimonials() {
                 </h3>
                 <p className="mt-1 text-sm font-medium text-ink/50">{t.location}</p>
               </div>
-              <div className="flex gap-1" aria-label={`${t.rating} out of 5 stars`}>
+              <div className="flex gap-1" role="img" aria-label={`${t.rating} out of 5 stars`}>
                 {Array.from({ length: t.rating }).map((_, i) => (
                   <Icon key={i} name="star" className="h-5 w-5 fill-pink-500 text-pink-500" />
                 ))}

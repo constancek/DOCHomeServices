@@ -104,10 +104,10 @@ export default function ServicesMenu() {
               <div className="bg-white p-4">
                 <ul className="columns-2 gap-x-3">
                   {cat.items.map((item) => (
-                    <li key={item.label} className="mb-2 break-inside-avoid">
+                    <li key={item.label} className="mb-0.5 break-inside-avoid">
                       <Link
                         href={item.href}
-                        className="flex gap-1.5 text-xs font-semibold leading-tight text-brand-600 transition hover:text-pink-500"
+                        className="flex gap-1.5 py-1.5 text-xs font-semibold leading-tight text-brand-600 transition hover:text-pink-500"
                       >
                         <span aria-hidden="true">-</span>
                         <span>{item.label}</span>

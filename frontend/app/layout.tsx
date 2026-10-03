@@ -62,11 +62,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${inter.variable} ${montserrat.variable} ${merriweather.variable}`}>
       <body>
         {/* Google Analytics */}
+        {/* Loaded after the page finishes loading (lazyOnload) so it doesn't
+            block the main thread while the page is rendering. */}
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
