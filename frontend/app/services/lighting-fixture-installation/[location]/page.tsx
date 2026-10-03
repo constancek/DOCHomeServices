@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Light Fixture Installation',
   ctaLine: 'Installing or replacing a light fixture in {neighborhood}? Call today',
-  heroImage: '/services/fixture-hero.jpg',
+  heroImage: '/services/fixture-hero.webp',
   introHeading: 'Light Fixture Installation in {neighborhood}',
   introParagraphs: [
     'The right fixture changes how a {neighborhood} room looks and works — better light over the kitchen island, a brighter vanity, a dining fixture that finishes the space. {brand} installs and replaces light fixtures across {place}, from pendants and chandeliers to ceiling and wall-mounted lighting, all wired safely by licensed electricians.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'led-lighting', title: 'LED Lighting' },
     { slug: 'ceiling-fan-installation', title: 'Ceiling Fans' },
   ],
-  band1Image: '/services/fixture-types.jpg',
+  band1Image: '/services/fixture-types.webp',
   band1Heading: 'Fixtures We Install and Replace in {neighborhood}',
   commonSituations: [
     'Replacing an outdated or damaged fixture',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A heavy fixture that needs a properly rated box',
   ],
   trustedBanner: 'Your Local & Trusted Light Fixture Installation Pros in {neighborhood}',
-  band2Image: '/services/lighting-fixture-installation.jpg',
+  band2Image: '/services/lighting-fixture-installation.webp',
   band2Heading: 'Our Light Fixture Installation Process in {neighborhood}',
   band2Paragraphs: [
     'We review the room and the fixture, safely remove the old one, and explain the flat-rate price before any work begins.',

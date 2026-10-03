@@ -20,9 +20,9 @@ export default function PageHero({
   return (
     <section className="relative overflow-hidden bg-blue-section">
       <div className="container-page relative z-10 flex flex-col gap-6 py-12 sm:py-16 lg:flex-row lg:items-center lg:gap-8 lg:py-20">
-        <div className="min-w-0 flex-1">
+        <div className="m-center min-w-0 flex-1">
         <nav aria-label="Breadcrumb">
-          <ol className="flex flex-wrap items-center gap-1.5 text-xs font-medium text-brand-100">
+          <ol className="flex flex-wrap items-center gap-1.5 text-xs font-medium text-brand-100 max-sm:justify-center">
             {crumbs.map((c, i) => (
               <li key={c.label} className="flex items-center gap-1.5">
                 {c.href ? (
@@ -54,7 +54,7 @@ export default function PageHero({
 
         {/* Bulldog mascot — scales with screen, sits beside the text */}
         <img
-          src="/bulldog.png"
+          src="/bulldog.webp"
           alt=""
           aria-hidden="true"
           className="pointer-events-none w-44 shrink-0 self-center object-contain sm:w-56 lg:w-72 lg:self-end xl:w-80"

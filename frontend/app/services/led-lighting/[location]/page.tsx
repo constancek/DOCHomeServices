@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'LED Light Installation',
   ctaLine: 'Want to cut energy use in your {neighborhood} home with LED? Call today',
-  heroImage: '/services/led-hero.jpg',
+  heroImage: '/services/led-hero.webp',
   introHeading: 'LED Light Installation in {neighborhood}',
   introParagraphs: [
     'LED lighting is one of the simplest upgrades a {neighborhood} homeowner can make — it uses far less electricity, lasts for years, and gives steady, even brightness. {brand} installs recessed, under-cabinet, and strip LED lighting across {place}, with safe, code-compliant wiring.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'lighting-fixture-installation', title: 'Lighting Fixtures' },
     { slug: 'basement-lighting', title: 'Basement Lighting' },
   ],
-  band1Image: '/services/led-signs.jpg',
+  band1Image: '/services/led-signs.webp',
   band1Heading: 'Signs You Need LED Lighting in {neighborhood}',
   commonSituations: [
     'High energy bills from inefficient lighting',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A wish to adjust brightness or color temperature',
   ],
   trustedBanner: 'Your Local & Trusted LED Lighting Pros in {neighborhood}',
-  band2Image: '/services/led-lighting.jpg',
+  band2Image: '/services/led-lighting.webp',
   band2Heading: 'Our LED Light Installation Process in {neighborhood}',
   band2Paragraphs: [
     'We review your lighting goals and existing fixtures, recommend the right LED solution, and explain the flat-rate price before any work begins.',

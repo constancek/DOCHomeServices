@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'HVACBusiness',
   schemaServiceType: 'Furnace Repair',
   ctaLine: 'No heat in {neighborhood}? Call for immediate service',
-  heroImage: '/services/furnace-repair-hero.jpg',
+  heroImage: '/services/furnace-repair-hero.webp',
   introHeading: 'Furnace Repair in {neighborhood}',
   introParagraphs: [
     'When cold weather settles over {neighborhood}, a broken furnace is not just a problem — it is an emergency. {brand} is your trusted choice for furnace repair, and our licensed HVAC technicians respond quickly, fix the problem right the first time, and restore comfort to your home.',
@@ -35,7 +35,7 @@ const config: ServiceLocationConfig = {
     { slug: 'heat-pumps', title: 'Heat Pumps' },
     { slug: 'indoor-air-quality', title: 'Indoor Air Quality' },
   ],
-  band1Image: '/services/furnace-repair.jpg',
+  band1Image: '/services/furnace-repair.webp',
   band1Heading: 'Most Common Furnace Problems in {neighborhood} Homes',
   commonSituations: [
     'Uneven heating or cold rooms throughout the home',
@@ -47,7 +47,7 @@ const config: ServiceLocationConfig = {
     'The furnace blowing cool or lukewarm air',
   ],
   trustedBanner: 'Your Local & Trusted Furnace Repair Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect During a Furnace Repair in {neighborhood}',
   band2Paragraphs: [
     'A furnace repair begins with a thorough inspection to identify the cause of the problem. The technician evaluates system components, tests performance, and pinpoints any faulty parts or safety concerns.',

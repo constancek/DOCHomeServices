@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Recessed Lighting Installation',
   ctaLine: 'Want cleaner, brighter ceilings in your {neighborhood} home? Call today',
-  heroImage: '/services/recessed-hero.jpg',
+  heroImage: '/services/recessed-hero.webp',
   introHeading: 'Recessed Lighting Installation in {neighborhood}',
   introParagraphs: [
     'Recessed lighting brightens a {neighborhood} home without bulky fixtures — the cans sit flush in the ceiling and spread light evenly across kitchens, hallways, and living rooms. {brand} installs recessed lighting for homeowners across {place}, with safe, code-compliant wiring and balanced placement.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'lighting-fixture-installation', title: 'Lighting Fixtures' },
     { slug: 'basement-lighting', title: 'Basement Lighting' },
   ],
-  band1Image: '/services/recessed-signs.jpg',
+  band1Image: '/services/recessed-signs.webp',
   band1Heading: 'Signs You Need Recessed Lighting in {neighborhood}',
   commonSituations: [
     'Dark areas in kitchens, hallways, or living rooms',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Older fixtures still running inefficient bulbs',
   ],
   trustedBanner: 'Your Local & Trusted Recessed Lighting Pros in {neighborhood}',
-  band2Image: '/services/recessed-lighting.jpg',
+  band2Image: '/services/recessed-lighting.webp',
   band2Heading: 'Our Recessed Lighting Process in {neighborhood}',
   band2Paragraphs: [
     'We review the room and ceiling, plan a layout with proper spacing, and explain the flat-rate price before any work begins.',

@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Tankless Water Heater Services',
   ctaLine: 'Tankless water heater service in {neighborhood}? Call today',
-  heroImage: '/services/tankless-hero.jpg',
+  heroImage: '/services/tankless-hero.webp',
   introHeading: 'Tankless Water Heaters in {neighborhood}',
   introParagraphs: [
     'A tankless water heater heats water on demand instead of storing it, giving your home endless hot water and lower energy bills. {brand} installs, repairs, and maintains tankless systems for homeowners in {place} — every major brand, gas or electric, sized to your home’s real demand.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'water-heater-maintenance', title: 'Water Heater Maintenance' },
     { slug: 'water-quality', title: 'Water Quality' },
   ],
-  band1Image: '/services/tankless-unit.jpg',
+  band1Image: '/services/tankless-unit.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs Tankless Service',
   commonSituations: [
     'Inconsistent or fluctuating hot water, even after repairs',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A unit over 15–20 years old that no longer keeps up',
   ],
   trustedBanner: 'Your Local & Trusted Tankless Water Heater Pros in {neighborhood}',
-  band2Image: '/services/water-heater-repair.jpg',
+  band2Image: '/services/water-heater-repair.webp',
   band2Heading: 'What to Expect From Your Tankless Service in {neighborhood}',
   band2Paragraphs: [
     'For an install, we size the unit to your household’s demand and check your gas, electrical, and venting — then explain the flat-rate price before any work begins.',

@@ -10,7 +10,7 @@ export default function LogoMarquee({ className = '' }: { className?: string }) 
           {[...IMAGES, ...IMAGES].map((n, i) => (
             <img
               key={i}
-              src={`/carousel/${n}.png`}
+              src={`/carousel/${n}.webp`}
               alt=""
               aria-hidden="true"
               className="h-20 w-auto shrink-0 object-contain sm:h-24"

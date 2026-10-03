@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'HVACBusiness',
   schemaServiceType: 'Indoor Air Quality',
   ctaLine: 'Worried about your air quality in {neighborhood}? Call to schedule a test',
-  heroImage: '/services/iaq-hero.jpg',
+  heroImage: '/services/iaq-hero.webp',
   introHeading: 'Indoor Air Quality Services in {neighborhood}',
   introParagraphs: [
     'Cleaner, healthier air at home starts with knowing what is actually in it. {brand} tests indoor air and installs whole-home filtration, purifiers, humidifiers, and dehumidifiers for homeowners in {place} — tailored to your home rather than a one-size-fits-all box off the shelf.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'heat-pumps', title: 'Heat Pumps' },
     { slug: 'water-quality', title: 'Water Quality' },
   ],
-  band1Image: '/services/iaq-benefits.jpg',
+  band1Image: '/services/iaq-benefits.webp',
   band1Heading: 'Signs Your {neighborhood} Home Has an Air Quality Problem',
   commonSituations: [
     'Allergy or asthma flare-ups that feel worse indoors',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A new pet, baby, or family member with breathing issues',
   ],
   trustedBanner: 'Your Local & Trusted Indoor Air Quality Pros in {neighborhood}',
-  band2Image: '/services/furnace-filters.jpg',
+  band2Image: '/services/furnace-filters.webp',
   band2Heading: 'What to Expect From Your Air Quality Service in {neighborhood}',
   band2Paragraphs: [
     'We start with an indoor air quality test to find what is actually in your air — allergens, humidity levels, odors, or airborne contaminants — then explain the results and the flat-rate price before any work begins.',

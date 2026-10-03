@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'HVACBusiness',
   schemaServiceType: 'AC Maintenance',
   ctaLine: 'Ready for an AC tune-up in {neighborhood}? Call to schedule',
-  heroImage: '/services/ac-maintenance.jpg',
+  heroImage: '/services/ac-maintenance.webp',
   introHeading: 'AC Maintenance in {neighborhood}',
   introParagraphs: [
     'A yearly tune-up is the cheapest way to keep an air conditioner efficient, reliable, and out of breakdown territory. {brand} provides AC maintenance for homeowners in {place} — cleaning, inspection, and testing that keeps your cooling system ready for summer.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'mini-splits', title: 'Ductless Mini-Splits' },
     { slug: 'indoor-air-quality', title: 'Indoor Air Quality' },
   ],
-  band1Image: '/services/ac-repair.jpg',
+  band1Image: '/services/ac-repair.webp',
   band1Heading: 'Signs Your {neighborhood} AC Is Due for a Tune-Up',
   commonSituations: [
     'Weak airflow coming from the vents',
@@ -51,7 +51,7 @@ const config: ServiceLocationConfig = {
     'New or unusual noises during operation',
   ],
   trustedBanner: 'Your Local & Trusted AC Maintenance Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your AC Tune-Up in {neighborhood}',
   band2Paragraphs: [
     'A technician arrives, runs a multi-point inspection, and cleans the parts of the system that collect buildup over a {neighborhood} summer — coils, the filter, and the condenser. We test electrical connections, controls, and refrigerant levels to confirm everything is operating as it should.',

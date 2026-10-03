@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Leak Detection',
   ctaLine: 'Think you have a hidden leak in {neighborhood}? Call today',
-  heroImage: '/services/leak-hero.jpg',
+  heroImage: '/services/leak-hero.webp',
   introHeading: 'Leak Detection in {neighborhood}',
   introParagraphs: [
     'The worst leaks are the ones you cannot see — behind a wall, under the slab, or inside a ceiling — quietly causing damage for weeks. {brand} finds them fast for homeowners in {place}, using acoustic, thermal, and camera tools that pinpoint the exact source without tearing up your home.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'sewer-repair-replacement', title: 'Sewer Repair' },
     { slug: 'emergency-plumbing', title: 'Emergency Plumbing' },
   ],
-  band1Image: '/services/leak-signs.jpg',
+  band1Image: '/services/leak-signs.webp',
   band1Heading: 'Signs of a Hidden Leak in Your {neighborhood} Home',
   commonSituations: [
     'An unexplained jump in your water bill',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A suspected slab leak under the foundation',
   ],
   trustedBanner: 'Your Local & Trusted Leak Detection Pros in {neighborhood}',
-  band2Image: '/services/leak-tools.jpg',
+  band2Image: '/services/leak-tools.webp',
   band2Heading: 'Our Leak Detection Process in {neighborhood}',
   band2Paragraphs: [
     'We listen to what you have observed, then use acoustic, thermal, and camera tools to locate the leak precisely, and explain the flat-rate price before any work begins.',

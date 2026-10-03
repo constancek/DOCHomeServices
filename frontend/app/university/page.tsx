@@ -80,7 +80,7 @@ const faqs = [
   {
     title: 'Do I Have a Job After I Complete the Program?',
     body: (
-      <p className="text-sm leading-relaxed text-ink/75">
+      <p className="text-[15px] leading-relaxed text-ink/75">
         Learn from the best and become one of the best. The goal of the program is to hire the right
         people with the right attitude, a willingness to learn, and a want to provide the best
         customer service to every customer. After completing the program, you get the keys to your
@@ -104,10 +104,10 @@ export default function UniversityPage() {
       {/* Great opportunities intro */}
       <section className="py-14">
         <div className="container-page">
-          <h2 className="font-display text-4xl font-black uppercase leading-[1.05] text-brand-600 sm:text-5xl">
+          <h2 className="m-center font-display text-4xl font-black uppercase leading-[1.05] text-brand-600 sm:text-5xl">
             Great Opportunities at a Great Company.
           </h2>
-          <p className="mt-3 font-display text-xl font-extrabold uppercase tracking-wide text-pink-500 sm:text-2xl">
+          <p className="m-center mt-3 font-display text-xl font-extrabold uppercase tracking-wide text-pink-500 sm:text-2xl">
             Sign Up for {site.name} University Today!
           </p>
           <p className="mt-4 max-w-3xl text-sm leading-relaxed text-ink/70">
@@ -121,7 +121,7 @@ export default function UniversityPage() {
                 key={a.label}
                 className="flex h-20 w-20 flex-col items-center justify-center gap-1 rounded-full bg-brand-50 px-2 text-center ring-2 ring-brand-100 sm:h-24 sm:w-24"
               >
-                <Icon name={a.icon} className="h-6 w-6 text-pink-500" />
+                <Icon name={a.icon} className="h-[31px] w-[31px] text-pink-500" />
                 <span className="text-[8px] font-extrabold uppercase leading-tight tracking-wide text-brand-700 sm:text-[9px]">
                   {a.label}
                 </span>
@@ -136,15 +136,15 @@ export default function UniversityPage() {
         <div className="container-page grid gap-10 lg:grid-cols-2 lg:items-center">
           <div
             className="aspect-[4/3] rounded-2xl bg-brand-200 bg-cover bg-center shadow-card"
-            style={{ backgroundImage: 'url(/orange-shirt.png)' }}
+            style={{ backgroundImage: 'url(/orange-shirt.webp)' }}
             role="img"
             aria-label="Degree of Comfort University team"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight text-pink-500 sm:text-4xl">
+            <h2 className="m-center font-display text-3xl font-black uppercase leading-tight text-pink-500 sm:text-4xl">
               Why {site.name} University?
             </h2>
-            <ul className="mt-5 grid gap-2.5 sm:grid-cols-2">
+            <ul className="m-list mt-5 grid gap-2.5 sm:grid-cols-2">
               {benefits.map((b) => (
                 <li key={b} className="flex gap-2.5 text-sm font-semibold text-brand-800">
                   <span className="mt-0.5 grid h-5 w-5 flex-shrink-0 place-items-center rounded-full bg-pink-500 text-white">
@@ -161,7 +161,7 @@ export default function UniversityPage() {
       <section className="py-16">
         <MainWithSidebar>
           {/* Program FAQ */}
-          <h2 className="mt-12 section-title text-brand-700">The Program</h2>
+          <h2 className="m-center mt-12 section-title text-brand-700">The Program</h2>
           <div className="mt-4">
             <Accordion items={faqs} variant="bar" defaultOpen={0} />
           </div>
@@ -188,7 +188,7 @@ export default function UniversityPage() {
             <h2 className="font-display text-4xl font-black uppercase leading-[1.05] text-pink-500 sm:text-5xl">
               When You Apply, We Promise Confidentiality.
             </h2>
-            <p className="mt-5 text-sm leading-relaxed text-white/90 sm:text-base">
+            <p className="mt-5 text-base leading-relaxed text-white/90 sm:text-base">
               We promise complete confidentiality and privacy, and we will not contact your current
               or previous employer without your permission. Reaching out to us never affects your
               current job. Send us your resume today — we look forward to meeting you soon!

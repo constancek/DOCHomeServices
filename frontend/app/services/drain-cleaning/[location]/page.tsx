@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Drain Cleaning',
   ctaLine: 'Drain backing up in {neighborhood}? Call for same-day service',
-  heroImage: '/services/drain-cleaning-hero.jpg',
+  heroImage: '/services/drain-cleaning-hero.webp',
   introHeading: 'Drain Cleaning in {neighborhood}',
   introParagraphs: [
     'A slow or backed-up drain rarely fixes itself. {brand} provides professional drain cleaning for homeowners in {place} — snaking, hydro jetting, and camera inspection to clear stubborn clogs for good.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'leak-detection', title: 'Leak Detection' },
     { slug: 'emergency-plumbing', title: 'Emergency Plumbing' },
   ],
-  band1Image: '/services/drain-cleaning.jpg',
+  band1Image: '/services/drain-cleaning.webp',
   band1Heading: 'Signs You Need Drain Cleaning in {neighborhood}',
   commonSituations: [
     'Slow drainage at one or more fixtures',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Several drains acting up at the same time',
   ],
   trustedBanner: 'Your Local & Trusted Drain Cleaning Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Drain Service in {neighborhood}',
   band2Paragraphs: [
     'Every drain call starts with finding the real cause. We inspect the problem and, when needed, run a camera down the line to pinpoint the exact location and type of clog before we touch anything.',

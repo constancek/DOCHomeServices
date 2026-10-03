@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Sump Pump Installation & Repair',
   ctaLine: 'Sump pump failing in {neighborhood}? Call before the next storm',
-  heroImage: '/services/sump-hero.jpg',
+  heroImage: '/services/sump-hero.webp',
   introHeading: 'Sump Pumps in {neighborhood}',
   introParagraphs: [
     'A working sump pump is the difference between a dry basement and thousands of dollars in water damage. {brand} installs, repairs, and replaces sump pumps for homeowners in {place} — including battery-backup systems that keep running when the power goes out mid-storm.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'plumbing-repair', title: 'Plumbing Repair' },
     { slug: 'drain-cleaning', title: 'Drain Cleaning' },
   ],
-  band1Image: '/services/sump-signs.jpg',
+  band1Image: '/services/sump-signs.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs Sump Pump Service',
   commonSituations: [
     'Water pooling in the basement or crawl space after rain',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A discharge line that freezes or clogs in winter',
   ],
   trustedBanner: 'Your Local & Trusted Sump Pump Pros in {neighborhood}',
-  band2Image: '/services/sump-pumps.jpg',
+  band2Image: '/services/sump-pumps.webp',
   band2Heading: 'What to Expect From Your Sump Pump Service in {neighborhood}',
   band2Paragraphs: [
     'We start by checking the pit, the pump, the float switch, the check valve, and where the discharge sends the water — then explain the flat-rate price before any work begins.',

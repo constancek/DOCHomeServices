@@ -1,6 +1,8 @@
 import Link from 'next/link';
+import CouponExpiry from '@/components/CouponExpiry';
 import Icon from '@/components/Icon';
 import TornEdge from '@/components/TornEdge';
+import SlideInRight from '@/components/SlideInRight';
 import {
   IntroColumns,
   WhyChoose,
@@ -11,7 +13,9 @@ import {
   Community,
   BookAndAreas,
 } from '@/components/PageSections';
+import ReviewsSection from '@/components/ReviewsSection';
 import LogoMarquee from '@/components/LogoMarquee';
+import VideoTestimonials from '@/components/VideoTestimonials';
 import { site } from '@/content/site';
 import { services } from '@/content/services';
 import { offers } from '@/content/home';
@@ -19,6 +23,8 @@ import { offers } from '@/content/home';
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'HVACBusiness',
+  // Blog posts reference this @id as their publisher.
+  '@id': `${site.url.replace(/\/$/, '')}/#business`,
   name: site.name,
   description: site.description,
   url: site.url,
@@ -37,12 +43,13 @@ export default function HomePage() {
       <PromoBar />
       <Hero />
       <IntroColumns />
-      <section className="bg-white pb-12">
+      <section className="bg-white pb-4 sm:pb-12">
         <div className="container-page">
           <LogoMarquee />
         </div>
       </section>
       <WhyChoose />
+      <VideoTestimonials />
       <TornEdge fill="#1f48c8" />
       <WorkStandsOut />
       <TrustedExperts />
@@ -50,6 +57,7 @@ export default function HomePage() {
       <GetFunding />
       <ComfortClub />
       <Community />
+      <ReviewsSection showMarquee={false} />
       <TornEdge fill="#1f48c8" />
       <BookAndAreas />
     </>
@@ -63,7 +71,7 @@ function PromoBar() {
       {/* Large snowflake on the left */}
       <Icon
         name="snowflake"
-        className="absolute left-[4%] top-1/2 hidden h-24 w-24 -translate-y-1/2 text-white/85 sm:block lg:left-[14%] lg:h-28 lg:w-28"
+        className="absolute left-4 top-1/2 hidden h-24 w-24 -translate-y-1/2 text-white/85 sm:block lg:left-10 lg:h-28 lg:w-28 xl:left-[8%]"
       />
 
       {/* Centered headline + CTA */}
@@ -71,7 +79,7 @@ function PromoBar() {
         <h2 className="font-display text-3xl font-extrabold uppercase leading-[1.05] tracking-tight text-white sm:text-4xl lg:text-[42px]">
           $89 Happy House Cooling Checkup
         </h2>
-        <a href={site.primaryPhone.href} className="btn-pink px-7 py-3 text-sm">
+        <a href="#areas" className="btn-pink px-7 py-3 text-sm">
           Get Offer Now
           <Icon name="chevron" className="h-4 w-4" />
         </a>
@@ -99,7 +107,7 @@ function Hero() {
         <div
           className="absolute inset-0 bg-brand-300 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(/happy-family.jpg)',
+            backgroundImage: 'url(/happy-family.webp)',
             clipPath: 'polygon(9% 0, 100% 0, 100% 100%, 3% 100%)',
           }}
         />
@@ -107,7 +115,7 @@ function Hero() {
 
       {/* Left copy */}
       <div className="container-page relative z-10">
-        <div className="max-w-md py-12 text-white lg:max-w-[44%] lg:py-24">
+        <div className="m-center max-w-md py-12 text-white max-sm:mx-auto lg:max-w-[44%] lg:py-24">
           <h1 className="font-display text-5xl font-black uppercase leading-[0.9] tracking-tight sm:text-6xl">
             The Color of
             <br />
@@ -116,7 +124,7 @@ function Hero() {
           <p className="mt-4 text-sm font-bold uppercase tracking-wide text-white/90 sm:text-base">
             Proudly servicing {site.serviceArea}
           </p>
-          <ul className="mt-5 space-y-2.5">
+          <ul className="m-list mt-5 space-y-2.5">
             {['Same-Day Service', 'Local, Family Owned & Operated', '100% Satisfaction Guarantee'].map(
               (b) => (
                 <li key={b} className="flex items-center gap-2.5 text-sm font-semibold">
@@ -140,25 +148,26 @@ function Hero() {
 
       {/* Desktop service buttons — inside hero, bottom-right */}
       <div className="absolute bottom-6 left-[42%] right-4 z-30 hidden gap-3 lg:flex">
-        {pills.map((p) => (
-          <Link
-            key={p.label}
-            href={p.href}
-            className="flex flex-1 items-center justify-center gap-2.5 rounded-xl bg-pink-500 px-3 py-3 shadow-pill transition hover:-translate-y-0.5 hover:bg-pink-600"
-          >
-            <span className="grid h-9 w-9 flex-shrink-0 place-items-center rounded-full bg-white text-pink-500">
-              <Icon name={p.icon} className="h-5 w-5" />
-            </span>
-            <span className="text-sm font-extrabold uppercase tracking-wide text-white">
-              {p.label}
-            </span>
-          </Link>
+        {pills.map((p, i) => (
+          <SlideInRight key={p.label} delay={i * 120} className="flex-1">
+            <Link
+              href={p.href}
+              className="flex w-full items-center justify-center gap-2.5 rounded-xl bg-pink-500 px-3 py-[18px] shadow-pill transition hover:-translate-y-0.5 hover:bg-pink-600"
+            >
+              <span className="grid h-9 w-9 flex-shrink-0 place-items-center rounded-full bg-white text-pink-500">
+                <Icon name={p.icon} className="h-5 w-5" />
+              </span>
+              <span className="text-sm font-extrabold uppercase tracking-wide text-white">
+                {p.label}
+              </span>
+            </Link>
+          </SlideInRight>
         ))}
       </div>
 
       {/* Desktop mascot */}
       <img
-        src="/mascot.png"
+        src="/mascot.webp"
         alt="Degree of Comfort mascot"
         width={200}
         height={200}
@@ -170,10 +179,10 @@ function Hero() {
         <div className="relative">
           <div
             className="aspect-[4/3] rounded-2xl bg-brand-300 bg-cover bg-center ring-1 ring-white/30"
-            style={{ backgroundImage: 'url(/happy-family.jpg)' }}
+            style={{ backgroundImage: 'url(/happy-family.webp)' }}
           />
           <img
-            src="/mascot.png"
+            src="/mascot.webp"
             alt="Degree of Comfort mascot"
             width={120}
             height={120}
@@ -181,19 +190,20 @@ function Hero() {
           />
         </div>
         <div className="mt-8 grid grid-cols-2 gap-3">
-          {pills.map((p) => (
-            <Link
-              key={p.label}
-              href={p.href}
-              className="flex items-center gap-2.5 rounded-xl bg-pink-500 px-3 py-3 transition hover:bg-pink-600"
-            >
-              <span className="grid h-9 w-9 flex-shrink-0 place-items-center rounded-full bg-white text-pink-500">
-                <Icon name={p.icon} className="h-5 w-5" />
-              </span>
-              <span className="text-sm font-extrabold uppercase tracking-wide text-white">
-                {p.label}
-              </span>
-            </Link>
+          {pills.map((p, i) => (
+            <SlideInRight key={p.label} delay={i * 120}>
+              <Link
+                href={p.href}
+                className="flex items-center gap-2.5 rounded-xl bg-pink-500 px-3 py-[18px] transition hover:bg-pink-600"
+              >
+                <span className="grid h-9 w-9 flex-shrink-0 place-items-center rounded-full bg-white text-pink-500">
+                  <Icon name={p.icon} className="h-5 w-5" />
+                </span>
+                <span className="text-sm font-extrabold uppercase tracking-wide text-white">
+                  {p.label}
+                </span>
+              </Link>
+            </SlideInRight>
           ))}
         </div>
       </div>
@@ -207,7 +217,7 @@ function SpecialOffers() {
     <section id="offers" className="relative bg-blue-section py-16">
 
       <div className="container-page">
-        <h2 className="section-title text-white">Special Offers</h2>
+        <h2 className="m-center section-title text-white">Special Offers</h2>
 
         <div className="mt-8 grid items-stretch gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {offers.map((o) => (
@@ -226,7 +236,9 @@ function SpecialOffers() {
               <a href={site.primaryPhone.href} className="btn-lime mt-4 w-full text-xs">
                 Schedule Now
               </a>
-              <span className="mt-2 text-[11px] text-ink/40">{o.expires}</span>
+              <span className="mt-2 text-[11px] text-ink/40">
+                Expires <CouponExpiry kind="rolling" initial={o.expires} short />
+              </span>
             </div>
           ))}
         </div>

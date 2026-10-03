@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Water Quality & Filtration',
   ctaLine: 'Water quality concerns in {neighborhood}? Call to schedule a test',
-  heroImage: '/services/wq-hero.jpg',
+  heroImage: '/services/wq-hero.webp',
   introHeading: 'Water Quality Services in {neighborhood}',
   introParagraphs: [
     'Bad taste, hard-water buildup, or staining? {brand} tests your water and installs whole-house filtration and softeners for homeowners in {place} — cleaner, better-tasting water at every tap, not just the kitchen sink.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'faucet-repair-replacement', title: 'Faucet Repair & Replacement' },
     { slug: 'leak-repair', title: 'Leak Repair' },
   ],
-  band1Image: '/services/wq-signs.jpg',
+  band1Image: '/services/wq-signs.webp',
   band1Heading: 'Signs of Poor Water Quality in Your {neighborhood} Home',
   commonSituations: [
     'Unpleasant taste or odor in your tap water',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Scale shortening the life of your water heater',
   ],
   trustedBanner: 'Your Local & Trusted Water Quality Pros in {neighborhood}',
-  band2Image: '/services/water-quality.jpg',
+  band2Image: '/services/water-quality.webp',
   band2Heading: 'What to Expect From Your Water Service in {neighborhood}',
   band2Paragraphs: [
     'We start by testing your water to see exactly what is in it — hardness, chlorine, sediment, metals — then explain the results and quote a flat rate before any work begins.',

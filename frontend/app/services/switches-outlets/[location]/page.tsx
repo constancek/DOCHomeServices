@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Switch & Outlet Installation',
   ctaLine: 'Need outlets or switches fixed or added in {neighborhood}? Call today',
-  heroImage: '/services/outlets-hero.jpg',
+  heroImage: '/services/outlets-hero.webp',
   introHeading: 'Switches & Outlets in {neighborhood}',
   introParagraphs: [
     'Outlets and switches are the parts of your electrical system you touch every day — and even small problems can be a real headache or a safety risk. {brand} installs, replaces, and repairs switches and outlets for homeowners in {place}, wired safely and to code.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'surge-protector-installation', title: 'Surge Protection' },
     { slug: 'electrical-inspections', title: 'Electrical Inspections' },
   ],
-  band1Image: '/services/outlets-signs.jpg',
+  band1Image: '/services/outlets-signs.webp',
   band1Heading: 'Common Outlet & Switch Problems in {neighborhood} Homes',
   commonSituations: [
     'Broken, loose, or scorched outlets',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A want for modern USB or smart switches',
   ],
   trustedBanner: 'Your Local & Trusted Switch & Outlet Pros in {neighborhood}',
-  band2Image: '/services/outlets-hero.jpg',
+  band2Image: '/services/outlets-hero.webp',
   band2Heading: 'What to Expect From Your Service in {neighborhood}',
   band2Paragraphs: [
     'We assess your existing outlets and switches, check the wiring and panel capacity, and recommend what your {neighborhood} home actually needs — then explain the flat-rate price before any work begins.',

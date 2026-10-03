@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Indoor Lighting Installation',
   ctaLine: 'Want brighter rooms in your {neighborhood} home? Call today',
-  heroImage: '/services/indoor-hero.jpg',
+  heroImage: '/services/indoor-hero.webp',
   introHeading: 'Indoor Lighting Installation in {neighborhood}',
   introParagraphs: [
     'Good indoor lighting changes how a {neighborhood} home looks and feels — brighter rooms, fewer shadows, and lighting that fits how each space is used. {brand} installs recessed, LED, basement, and garage lighting for homeowners across {place}, with safe, code-compliant wiring.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'basement-lighting', title: 'Basement Lighting' },
     { slug: 'garage-lighting', title: 'Garage Lighting' },
   ],
-  band1Image: '/services/indoor-signs.jpg',
+  band1Image: '/services/indoor-signs.webp',
   band1Heading: 'Signs You Need New Indoor Lighting in {neighborhood}',
   commonSituations: [
     'Rooms that feel dim or unevenly lit',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A finished basement or room addition that needs lighting',
   ],
   trustedBanner: 'Your Local & Trusted Indoor Lighting Pros in {neighborhood}',
-  band2Image: '/services/indoor-lighting.jpg',
+  band2Image: '/services/indoor-lighting.webp',
   band2Heading: 'Our Indoor Lighting Process in {neighborhood}',
   band2Paragraphs: [
     'We start by understanding how you use each room, review your current lighting, and explain the flat-rate price before any work begins.',

@@ -1820,7 +1820,9 @@ export const locations: Location[] = [
     localFaqs: [{ q: 'How fast can you reach North Bend?', a: 'North Bend is part of our far-west river service area. We are on call 24/7 and aim for same-day arrival.' }],
   },
   {
-    slug: 'loveland', neighborhood: 'Loveland', state: 'OH', zip: '45140', county: 'Hamilton County, OH',
+    // Loveland spans three counties — primarily Clermont, part Warren, and a
+    // small portion Hamilton. Grouped under Clermont, the largest share.
+    slug: 'loveland', neighborhood: 'Loveland', state: 'OH', zip: '45140', county: 'Clermont County, OH',
     intro: 'Plumbing emergency in Loveland? Our licensed plumbers are on call 24/7 and reach this historic city on the Little Miami River the same day. Call (513) 586-5107.',
     relevance: [
       'Loveland (ZIP 45140) is a historic city straddling the Little Miami River and the Loveland Bike Trail, with a charming older downtown and a mix of historic and newer homes.',

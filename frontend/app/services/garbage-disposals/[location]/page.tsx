@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Garbage Disposal Repair & Installation',
   ctaLine: 'Garbage disposal jammed or leaking in {neighborhood}? Call today',
-  heroImage: '/services/disposal-hero.jpg',
+  heroImage: '/services/disposal-hero.webp',
   introHeading: 'Garbage Disposal Repair & Installation in {neighborhood}',
   introParagraphs: [
     'A working garbage disposal keeps a {neighborhood} kitchen clean and the drains clear — and when it jams, leaks, or quits, everyday cleanup turns into a hassle. {brand} repairs, replaces, and installs disposals for homeowners in {place}, with proper drain and dishwasher connections, leak-tested before we leave.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'faucet-repair-replacement', title: 'Faucet Repair' },
     { slug: 'plumbing-installation', title: 'Plumbing Installation' },
   ],
-  band1Image: '/services/disposal-signs.jpg',
+  band1Image: '/services/disposal-signs.webp',
   band1Heading: 'Signs of a Failing Garbage Disposal in {neighborhood}',
   commonSituations: [
     'Rattling or unusually loud noises',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Adding a disposal to a sink that never had one',
   ],
   trustedBanner: 'Your Local & Trusted Garbage Disposal Pros in {neighborhood}',
-  band2Image: '/services/garbage-disposals.jpg',
+  band2Image: '/services/garbage-disposals.webp',
   band2Heading: 'Our Garbage Disposal Process in {neighborhood}',
   band2Paragraphs: [
     'We find out what is wrong — motor, pipe, gasket, or connection — and explain the flat-rate price and whether repair or replacement is the better call before any work begins.',

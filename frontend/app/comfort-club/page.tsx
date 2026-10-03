@@ -151,10 +151,10 @@ export default function ComfortClubPage() {
         </div>
         <div className="container-page grid gap-10 py-14 lg:grid-cols-2 lg:items-center">
           <div>
-            <h2 className="font-display text-4xl font-black uppercase leading-[1.05] text-lime-600 sm:text-5xl">
+            <h2 className="m-center font-display text-4xl font-black uppercase leading-[1.05] text-lime-600 sm:text-5xl">
               $18.99/Month Draft* for One System**
             </h2>
-            <p className="mt-3 font-display text-lg font-extrabold uppercase tracking-wide text-brand-600">
+            <p className="m-center mt-3 font-display text-lg font-extrabold uppercase tracking-wide text-brand-600">
               Each Additional System $5/Month.
             </p>
             <p className="mt-6 text-xs italic leading-relaxed text-ink/60">
@@ -209,7 +209,7 @@ export default function ComfortClubPage() {
 
           {/* Brochure CTA bar */}
           <a
-            href="/free-estimate"
+            href="/request-estimate/"
             className="mt-8 flex items-center justify-center gap-3 rounded-2xl bg-lime-500 px-6 py-5 text-center text-sm font-extrabold uppercase tracking-wide text-white transition hover:bg-lime-600"
           >
             <Icon name="doc" className="h-5 w-5 flex-shrink-0" />

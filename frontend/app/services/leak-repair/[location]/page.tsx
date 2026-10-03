@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Leak Repair',
   ctaLine: 'Leak in {neighborhood}? Call for same-day service',
-  heroImage: '/services/leak-repair.jpg',
+  heroImage: '/services/leak-repair.webp',
   introHeading: 'Leak Repair in {neighborhood}',
   introParagraphs: [
     'A leak rarely fixes itself, and the longer it runs the more it costs. {brand} provides professional leak repair for homeowners in {place} — pipe, slab, toilet, kitchen, and bathroom leaks fixed at the source, not just patched at the surface.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'water-heater-repair', title: 'Water Heater Repair' },
     { slug: 'emergency-plumbing', title: 'Emergency Plumbing' },
   ],
-  band1Image: '/services/leak-detection.jpg',
+  band1Image: '/services/leak-detection.webp',
   band1Heading: 'Signs of a Hidden Leak in Your {neighborhood} Home',
   commonSituations: [
     'A sudden or unexplained jump in your water bill',
@@ -52,7 +52,7 @@ const config: ServiceLocationConfig = {
     'An ongoing loss of water pressure',
   ],
   trustedBanner: 'Your Local & Trusted Leak Repair Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Leak Repair in {neighborhood}',
   band2Paragraphs: [
     'We start with a thorough assessment, checking visible plumbing and the spots that are easy to overlook — crawl spaces, basement walls, behind appliances — then use leak-detection equipment to pinpoint the source without unnecessary demolition.',

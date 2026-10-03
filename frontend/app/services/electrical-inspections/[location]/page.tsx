@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Electrical Inspections',
   ctaLine: 'Need an electrical inspection in {neighborhood}? Call to schedule',
-  heroImage: '/services/inspect-hero.jpg',
+  heroImage: '/services/inspect-hero.webp',
   introHeading: 'Electrical Inspections in {neighborhood}',
   introParagraphs: [
     'Your home’s electrical system powers everything you use — and over time wiring and breakers wear down, connections loosen, and panels age. {brand} performs thorough electrical inspections for homeowners in {place}, checking the panel, wiring, grounding, and safety devices, and giving you a clear written report.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'switches-outlets', title: 'Switches & Outlets' },
     { slug: 'surge-protector-installation', title: 'Surge Protection' },
   ],
-  band1Image: '/services/electrical-inspections.jpg',
+  band1Image: '/services/electrical-inspections.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs an Inspection',
   commonSituations: [
     'Lights that flicker or dim',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A home more than 25 years old',
   ],
   trustedBanner: 'Your Local & Trusted Electrical Inspection Pros in {neighborhood}',
-  band2Image: '/services/inspect-hero.jpg',
+  band2Image: '/services/inspect-hero.webp',
   band2Heading: 'Our Inspection Process in {neighborhood}',
   band2Paragraphs: [
     'We follow a clear checklist so nothing is missed — examining the panel, reviewing wiring and circuit load, testing outlets and switches, and verifying GFCI/AFCI protection and code compliance on any recent work.',

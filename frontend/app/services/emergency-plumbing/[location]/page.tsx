@@ -13,7 +13,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Emergency Plumbing',
   ctaLine: 'Plumbing emergency in {neighborhood}? Call for immediate service',
-  heroImage: '/services/emergency-hero.jpg',
+  heroImage: '/services/emergency-hero.webp',
   introHeading: 'Plumbing Emergencies We Fix Fast in {neighborhood}',
   introParagraphs: [
     'When a plumbing emergency strikes in {neighborhood}, every minute counts — and problems rarely happen on a convenient schedule. That is why {brand} offers 24/7 service for every emergency across {place}, with licensed plumbers who handle each situation with speed and precision.',
@@ -34,7 +34,7 @@ const config: ServiceLocationConfig = {
     { slug: 'water-heater-repair', title: 'Water Heater Repair' },
     { slug: 'drain-cleaning', title: 'Drain Cleaning' },
   ],
-  band1Image: '/services/emergency-situations.jpg',
+  band1Image: '/services/emergency-situations.webp',
   band1Heading: 'Most Common Emergencies in {neighborhood} Homes',
   commonSituations: [
     'Burst or leaking pipes that can quickly flood your home',
@@ -46,7 +46,7 @@ const config: ServiceLocationConfig = {
     'Failed sump pumps during heavy rain',
   ],
   trustedBanner: 'Your Local & Trusted Emergency Plumbers in {neighborhood}',
-  band2Image: '/services/emergency-expect.jpg',
+  band2Image: '/services/emergency-expect.webp',
   band2Heading: 'What to Expect When We Arrive in {neighborhood}',
   band2Paragraphs: [
     'When you call for emergency plumbing service, the priority is to respond quickly and limit damage to your home. A licensed plumber arrives promptly, assesses the situation, and takes immediate steps to stop active leaks, backups, or flooding.',

@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Plumbing Repair',
   ctaLine: 'Plumbing problem in {neighborhood}? Call for same-day service',
-  heroImage: '/services/plumbing-repair-hero.jpg',
+  heroImage: '/services/plumbing-repair-hero.webp',
   introHeading: 'Plumbing Repair in {neighborhood}',
   introParagraphs: [
     'From a dripping faucet to a pipe that finally gave out, plumbing problems do not fix themselves. {brand} provides professional plumbing repair for homeowners in {place} — leaks, clogs, fixtures, and water-pressure issues, fixed at the root cause.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'water-heater-repair', title: 'Water Heater Repair' },
     { slug: 'faucet-repair-replacement', title: 'Faucet Repair & Replacement' },
   ],
-  band1Image: '/services/plumbing-repair.jpg',
+  band1Image: '/services/plumbing-repair.webp',
   band1Heading: 'Signs You Need a Plumber in {neighborhood}',
   commonSituations: [
     'Persistent leaks from pipes, faucets, or fixtures',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Discolored water or foul odors from drains',
   ],
   trustedBanner: 'Your Local & Trusted Plumbing Repair Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Plumbing Repair in {neighborhood}',
   band2Paragraphs: [
     'A licensed plumber arrives, diagnoses the cause rather than guessing, and explains the recommended repair and the flat-rate price before any work begins — you approve it first.',
@@ -77,7 +77,7 @@ const config: ServiceLocationConfig = {
   sharedFaqs: [
     { q: 'What does residential plumbing repair include?', a: 'Just about anything inside your home’s plumbing network — leaks, clogged or slow drains, toilet and sink repairs, fixture replacements, water-pressure problems, and appliance hookups.' },
     { q: 'Do your plumbers provide emergency plumbing repair?', a: 'Yes. We are on call 24/7 for urgent repairs like burst pipes, major leaks, and sewer backups, and we reach most homes the same day.' },
-    { q: 'How much does a licensed plumbing repair typically cost?', a: 'Every repair is quoted at a flat rate before we begin, based on your home and the work involved — so there are no surprises. Call for a free, no-obligation estimate.' },
+    { q: 'How much does a licensed plumbing repair typically cost?', a: 'Every repair is quoted at a flat rate before we begin, based on your home and the work involved — so there are no surprises. Call to request an estimate.' },
     { q: 'Do plumbing repair services include toilet repair?', a: 'Yes. We fix running, leaking, and clogged toilets, replace worn internal parts, and install new toilets when a repair no longer makes sense.' },
     { q: 'How fast can a plumber respond?', a: 'We staff for demand, so most residential repair calls are handled the same day you reach out — often within hours.' },
   ],

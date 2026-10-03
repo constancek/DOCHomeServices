@@ -24,7 +24,12 @@ export type IconName =
   | 'pin'
   | 'house'
   | 'paw'
-  | 'doc';
+  | 'doc'
+  | 'estimate'
+  | 'calendarClock'
+  | 'tag'
+  | 'noFee'
+  | 'card';
 
 const paths: Record<IconName, ReactNode> = {
   snowflake: (
@@ -61,7 +66,9 @@ const paths: Record<IconName, ReactNode> = {
       <path d="M8.5 14 7 22l5-3 5 3-1.5-8" />
     </>
   ),
-  heart: <path d="M12 21s-7-4.6-9.5-9C1 9 2.5 5.5 6 5.5c2 0 3.2 1.2 4 2.3.8-1.1 2-2.3 4-2.3 3.5 0 5 3.5 3.5 6.5C19 16.4 12 21 12 21z" />,
+  heart: (
+    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z" />
+  ),
   arrow: <path d="M5 12h14M13 6l6 6-6 6" />,
   check: <path d="M20 6 9 17l-5-5" />,
   menu: <path d="M3 6h18M3 12h18M3 18h18" />,
@@ -93,6 +100,40 @@ const paths: Record<IconName, ReactNode> = {
     <>
       <path d="M6 2h7l5 5v15H6z" />
       <path d="M13 2v5h5" />
+    </>
+  ),
+  estimate: (
+    <>
+      <rect x="8" y="2" width="8" height="4" rx="1" />
+      <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+      <path d="M12 9.5v10M14.5 11h-3.25a1.75 1.75 0 0 0 0 3.5h1.5a1.75 1.75 0 0 1 0 3.5H9.5" />
+    </>
+  ),
+  calendarClock: (
+    <>
+      <path d="M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5" />
+      <path d="M16 2v4M8 2v4M3 10h5" />
+      <circle cx="16" cy="16" r="6" />
+      <path d="M16 14v2.3l1.5 1.2" />
+    </>
+  ),
+  tag: (
+    <>
+      <path d="M12.6 2.6A2 2 0 0 0 11.2 2H4a2 2 0 0 0-2 2v7.2a2 2 0 0 0 .6 1.4l8.7 8.7a2.4 2.4 0 0 0 3.4 0l6.6-6.6a2.4 2.4 0 0 0 0-3.4z" />
+      <circle cx="7.5" cy="7.5" r="1" fill="currentColor" />
+    </>
+  ),
+  noFee: (
+    <>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 6.5v11M14.5 8.5h-3.25a1.75 1.75 0 0 0 0 3.5h1.5a1.75 1.75 0 0 1 0 3.5H9.5" />
+      <path d="M5.6 5.6l12.8 12.8" />
+    </>
+  ),
+  card: (
+    <>
+      <rect x="2" y="5" width="20" height="14" rx="2" />
+      <path d="M2 10h20M6 15h4" />
     </>
   ),
   paw: (
