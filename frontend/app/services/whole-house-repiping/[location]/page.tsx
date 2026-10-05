@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Whole-House Repiping',
   ctaLine: 'Tired of leaks and rusty water in your {neighborhood} home? Call today',
-  heroImage: '/services/repiping-hero.jpg',
+  heroImage: '/services/repiping-hero.webp',
   introHeading: 'Whole-House Repiping in {neighborhood}',
   introParagraphs: [
     'Old water pipes do not last forever — over time they corrode, narrow, and start to leak, hurting water quality, pressure, and peace of mind. {brand} repipes homes in {place}, replacing aging galvanized steel and polybutylene supply lines with modern PEX or copper built to last.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'water-quality', title: 'Water Quality' },
     { slug: 'plumbing-installation', title: 'Plumbing Installation' },
   ],
-  band1Image: '/services/repiping-signs.jpg',
+  band1Image: '/services/repiping-signs.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs Repiping',
   commonSituations: [
     'Frequent or repeat leaks throughout the house',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A remodel or addition that is the right time to repipe',
   ],
   trustedBanner: 'Your Local & Trusted Repiping Pros in {neighborhood}',
-  band2Image: '/services/whole-house-repiping.jpg',
+  band2Image: '/services/whole-house-repiping.webp',
   band2Heading: 'Our Whole-House Repiping Process in {neighborhood}',
   band2Paragraphs: [
     'We assess the whole plumbing system, build a plan around your home’s layout, and give you an upfront estimate before any work begins.',
@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Whole-House Repiping in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Whole-House Repiping in ${loc.neighborhood}, ${loc.state}`,
     description: `Whole-house repiping in ${place} — licensed plumbers replace old, corroded, or failing water pipes with modern PEX or copper. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/whole-house-repiping/${loc.slug}` },
     openGraph: {

@@ -51,7 +51,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
       'Mature trees on those established lots send roots into the cracks, and the line clogs and backs up. A camera inspection confirms whether it is roots, a break, or a bellied section from soil settling, and where the run allows we trenchless-replace the line rather than trench the lawn.',
     ],
     commonIntro: "Across White Oak’s mid-century homes with aging laterals under mature trees, the sewer problems we handle most often are:",
-    localFaqs: [{ q: 'How fast can you reach a White Oak sewer backup?', a: 'White Oak is well within our northwest-side service area in Green Township, and we keep crews on call 24/7. We camera-inspect the lateral and aim for same-day service on active backups.' }],
+    localFaqs: [{ q: 'How fast can you reach a White Oak sewer backup?', a: 'White Oak is well within our northwest-side service area in Green Township, and we keep crews on call 7 days a week from 8am to 8pm. We camera-inspect the lateral and aim for same-day service on active backups.' }],
   },
   'forestville': {
     intro: 'Main sewer line backing up at a Forestville home, or one that clogs again and again? We camera-inspect the lateral and repair or trenchless-replace it across this east-side Anderson Township community, same day. Call (513) 586-5107.',
@@ -168,7 +168,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
       'Mature trees on the residential lots drive that root intrusion, while the commercial and industrial buildings carry larger lines with their own failures. A camera inspection identifies the cause either way, and trenchless relining renews a residential lateral without trenching the yard.',
     ],
     commonIntro: "Across Sharonville’s mid-century homes and commercial buildings with aging laterals, the sewer problems we see most often are:",
-    localFaqs: [{ q: 'How fast can you reach a Sharonville sewer backup?', a: 'Sharonville is well within our north-side service area, and we keep crews on call 24/7. We camera-inspect the lateral and aim for same-day service on active backups, for homes and businesses alike.' }],
+    localFaqs: [{ q: 'How fast can you reach a Sharonville sewer backup?', a: 'Sharonville is well within our north-side service area, and we keep crews on call 7 days a week from 8am to 8pm. We camera-inspect the lateral and aim for same-day service on active backups, for homes and businesses alike.' }],
   },
   'northgate': {
     intro: 'Main sewer line clogging or backing up at a Northgate home? We camera-inspect the lateral and repair or trenchless-replace it across this northwest Colerain Township area, same day. Call (513) 586-5107.',

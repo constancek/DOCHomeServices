@@ -1,12 +1,56 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import Icon from './Icon';
 import { site, nav } from '@/content/site';
 
+// How long an open menu lingers after the cursor leaves it. Moving to another
+// menu closes the first one instantly — the delay only covers leaving the nav.
+const CLOSE_DELAY = 1000;
+
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  // One open path at a time, tracked in state rather than by CSS :hover. Two
+  // panels can never be visible together, not even during a fade, because
+  // opening one sets the value that closes the other in the same render.
+  const [openMenu, setOpenMenu] = useState<string | null>(null);
+  const [openSub, setOpenSub] = useState<string | null>(null);
+  const [openSub2, setOpenSub2] = useState<string | null>(null);
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  function cancelClose() {
+    if (closeTimer.current) {
+      clearTimeout(closeTimer.current);
+      closeTimer.current = null;
+    }
+  }
+  function openTop(label: string) {
+    cancelClose();
+    setOpenMenu(label);
+    setOpenSub(null);
+    setOpenSub2(null);
+  }
+  function hoverChild(label: string | null) {
+    cancelClose();
+    setOpenSub(label);
+    setOpenSub2(null);
+  }
+  function hoverSub(label: string | null) {
+    cancelClose();
+    setOpenSub2(label);
+  }
+  function scheduleClose() {
+    cancelClose();
+    closeTimer.current = setTimeout(() => {
+      setOpenMenu(null);
+      setOpenSub(null);
+      setOpenSub2(null);
+    }, CLOSE_DELAY);
+  }
+
+  useEffect(() => cancelClose, []);
 
   return (
     <header>
@@ -68,10 +112,19 @@ export default function Header() {
           <nav className="hidden items-center gap-0.5 xl:flex">
             {nav.map((item) =>
               item.children ? (
-                <div key={item.label} className="group relative">
+                <div
+                  key={item.label}
+                  className="relative"
+                  onMouseEnter={() => openTop(item.label)}
+                  onMouseLeave={scheduleClose}
+                  onFocus={() => openTop(item.label)}
+                  onBlur={scheduleClose}
+                >
                   <Link
                     href={item.href}
-                    className="flex items-center gap-1 whitespace-nowrap rounded-md px-2 py-2 text-xs font-bold uppercase tracking-wide text-ink transition group-hover:text-pink-500"
+                    className={`flex items-center gap-1 whitespace-nowrap rounded-md px-2 py-2 text-xs font-bold uppercase tracking-wide transition ${
+                      openMenu === item.label ? 'text-pink-500' : 'text-ink'
+                    }`}
                   >
                     {item.label}
                     {item.caret && (
@@ -79,33 +132,83 @@ export default function Header() {
                     )}
                   </Link>
 
-                  {/* Hover dropdown */}
-                  <div className="invisible absolute left-0 top-full z-50 w-72 translate-y-1 pt-1 opacity-0 transition-all duration-150 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                    <div className="rounded-b-lg border border-brand-100 bg-white shadow-card">
-                      {item.children.map((child) =>
+                  {/* Dropdown — long menus (Plumbing, Electrical) run two columns */}
+                  <div
+                    className={`absolute left-0 top-full z-50 pt-1 transition-all duration-150 ${
+                      openMenu === item.label
+                        ? 'visible translate-y-0 opacity-100'
+                        : 'invisible pointer-events-none translate-y-1 opacity-0'
+                    } ${item.columns === 2 ? 'w-[34rem]' : 'w-72'}`}
+                  >
+                    <div
+                      className={`rounded-b-lg border border-brand-100 bg-white shadow-card ${
+                        item.columns === 2 ? 'grid grid-cols-2' : ''
+                      }`}
+                    >
+                      {item.children.map((child, ci) =>
                         child.children ? (
-                          <div key={child.label} className="group/sub relative">
+                          <div
+                            key={child.label}
+                            className={`relative ${
+                              item.columns === 2 && ci % 2 === 0
+                                ? 'border-r border-r-brand-300'
+                                : ''
+                            }`}
+                            onMouseEnter={() => hoverChild(child.label)}
+                          >
                             <Link
                               href={child.href}
-                              className="flex items-center justify-between border-b border-brand-100 px-5 py-2.5 text-sm font-semibold text-brand-900 transition group-hover/sub:bg-pink-500 group-hover/sub:text-white"
+                              className={`flex h-full items-center justify-between gap-2 border-b border-brand-100 px-5 py-2.5 text-sm font-semibold transition ${
+                                openSub === child.label
+                                  ? 'bg-pink-500 text-white'
+                                  : 'text-brand-900'
+                              }`}
                             >
                               {child.label}
-                              <Icon name="chevron" className="h-3.5 w-3.5 rotate-180" />
+                              <Icon name="chevron" className="h-3.5 w-3.5 flex-shrink-0 rotate-180" />
                             </Link>
-                            {/* Nested flyout — opens to the left */}
-                            <div className="invisible absolute right-full top-0 z-50 w-72 opacity-0 transition-all duration-150 group-hover/sub:visible group-hover/sub:opacity-100">
-                              <div className="mr-px rounded-l-lg border border-brand-100 bg-white shadow-card">
+                            {/* Nested flyout — opens away from the panel edge */}
+                            <div
+                              className={`absolute top-0 z-50 w-72 transition-all duration-150 ${
+                                openSub === child.label
+                                  ? 'visible opacity-100'
+                                  : 'invisible pointer-events-none opacity-0'
+                              } ${
+                                item.columns === 2 && ci % 2 === 1 ? 'left-full' : 'right-full'
+                              }`}
+                            >
+                              <div
+                                className={`border border-brand-100 bg-white shadow-card ${
+                                  item.columns === 2 && ci % 2 === 1
+                                    ? 'ml-px rounded-r-lg'
+                                    : 'mr-px rounded-l-lg'
+                                }`}
+                              >
                                 {child.children.map((sub) =>
                                   sub.children ? (
-                                    <div key={sub.label} className="group/sub2 relative">
+                                    <div
+                                      key={sub.label}
+                                      className="relative"
+                                      onMouseEnter={() => hoverSub(sub.label)}
+                                    >
                                       <Link
                                         href={sub.href}
-                                        className="flex items-center justify-between border-b border-brand-100 px-5 py-2.5 text-sm font-semibold text-brand-900 transition last:border-b-0 group-hover/sub2:bg-pink-500 group-hover/sub2:text-white"
+                                        className={`flex items-center justify-between border-b border-brand-100 px-5 py-2.5 text-sm font-semibold transition last:border-b-0 ${
+                                          openSub2 === sub.label
+                                            ? 'bg-pink-500 text-white'
+                                            : 'text-brand-900'
+                                        }`}
                                       >
                                         {sub.label}
                                         <Icon name="chevron" className="h-3.5 w-3.5 rotate-180" />
                                       </Link>
-                                      <div className="invisible absolute right-full top-0 z-50 w-72 opacity-0 transition-all duration-150 group-hover/sub2:visible group-hover/sub2:opacity-100">
+                                      <div
+                                        className={`absolute right-full top-0 z-50 w-72 transition-all duration-150 ${
+                                          openSub2 === sub.label
+                                            ? 'visible opacity-100'
+                                            : 'invisible pointer-events-none opacity-0'
+                                        }`}
+                                      >
                                         <div className="mr-px rounded-l-lg border border-brand-100 bg-white shadow-card">
                                           {sub.children.map((leaf) => (
                                             <Link
@@ -126,6 +229,7 @@ export default function Header() {
                                     <Link
                                       key={sub.label}
                                       href={sub.href}
+                                      onMouseEnter={() => hoverSub(null)}
                                       className="flex items-center justify-between border-b border-brand-100 px-5 py-2.5 text-sm font-semibold text-brand-900 transition last:border-b-0 hover:bg-brand-50 hover:text-pink-500"
                                     >
                                       {sub.label}
@@ -142,11 +246,18 @@ export default function Header() {
                           <Link
                             key={child.label}
                             href={child.href}
-                            className="flex items-center justify-between border-b border-brand-100 px-5 py-2.5 text-sm font-semibold text-brand-900 transition last:rounded-b-lg last:border-b-0 hover:bg-brand-50 hover:text-pink-500"
+                            onMouseEnter={() => hoverChild(null)}
+                            className={`flex items-center justify-between gap-2 border-b border-brand-100 px-5 py-2.5 text-sm font-semibold text-brand-900 transition hover:bg-brand-50 hover:text-pink-500 ${
+                              item.columns === 2
+                                ? ci % 2 === 0
+                                  ? 'border-r border-r-brand-300'
+                                  : ''
+                                : 'last:rounded-b-lg last:border-b-0'
+                            }`}
                           >
                             {child.label}
                             {child.arrow && (
-                              <Icon name="chevron" className="h-3.5 w-3.5 text-brand-400" />
+                              <Icon name="chevron" className="h-3.5 w-3.5 flex-shrink-0 text-brand-400" />
                             )}
                           </Link>
                         )
@@ -275,9 +386,9 @@ function MobileNavNode({
 function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2.5">
-      {/* Save the bulldog mascot as public/mascot.png */}
+      {/* Save the bulldog mascot as public/mascot.webp */}
       <img
-        src="/mascot.png"
+        src="/mascot.webp"
         alt="Degree of Comfort mascot"
         width={56}
         height={56}

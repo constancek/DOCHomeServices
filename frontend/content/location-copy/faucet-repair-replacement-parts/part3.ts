@@ -1,7 +1,7 @@
 ﻿export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
     intro:
-      'Faucet dripping around the clock or barely pushing out a stream in Villages of Roll Hill? Our licensed plumbers rebuild or swap kitchen and bath faucets the same day across this west-side hilltop community. Call (513) 586-5107.',
+      'Faucet dripping 7 days a week from 8am to 8pm or barely pushing out a stream in Villages of Roll Hill? Our licensed plumbers rebuild or swap kitchen and bath faucets the same day across this west-side hilltop community. Call (513) 586-5107.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. In stacked housing like that, the same builder-grade faucets were installed across dozens of units, so when cartridges wear out they tend to start dripping building-wide within a few years of each other.',
       'Because so many units share the same plumbing vintage, the steady drip and stiff handle we fix in one apartment usually shows up two doors down. We shut off the line feeding a single unit, replace the worn cartridge or set a new faucet, and leave the rest of the buildingâ€™s water on while we work.',

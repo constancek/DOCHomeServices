@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'HVACBusiness',
   schemaServiceType: 'Air Conditioning Repair',
   ctaLine: 'AC not cooling in {neighborhood}? Call for immediate service',
-  heroImage: '/services/ac-repair-hero.jpg',
+  heroImage: '/services/ac-repair-hero.webp',
   promo: 'Save $75 on same-day AC repairs in {neighborhood} — book now, offer ends soon',
   introHeading: 'AC Repair in {neighborhood}',
   introParagraphs: [
@@ -30,9 +30,9 @@ const config: ServiceLocationConfig = {
       ],
     },
     {
-      title: '24/7 Emergency AC Repair Available',
+      title: 'Seven-Day Emergency AC Repair Available',
       body: [
-        'Air conditioning problems do not follow a schedule. {brand} offers 24/7 emergency AC repair for urgent issues affecting comfort or safety in {place}, with technicians available nights, weekends, and holidays.',
+        'Air conditioning problems do not follow a schedule. {brand} offers 7-day emergency AC repair for urgent issues affecting comfort or safety in {place}, with technicians available nights, weekends, and holidays.',
         'Emergency service focuses on restoring cooling as quickly as possible while protecting the AC unit from further damage. Fast repairs reduce safety risks and bring your home back to a comfortable temperature.',
       ],
     },
@@ -43,7 +43,7 @@ const config: ServiceLocationConfig = {
     { slug: 'mini-split-repair', title: 'Mini-Split Repair' },
     { slug: 'indoor-air-quality', title: 'Indoor Air Quality' },
   ],
-  band1Image: '/services/ac-repair.jpg',
+  band1Image: '/services/ac-repair.webp',
   band1Heading: 'Most Common AC Problems in {neighborhood} Homes',
   commonSituations: [
     'Warm air coming from the vents',
@@ -55,7 +55,7 @@ const config: ServiceLocationConfig = {
     'A sudden spike in the electric bill',
   ],
   trustedBanner: 'Your Local & Trusted AC Repair Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect When We Arrive in {neighborhood}',
   band2Paragraphs: [
     'When you call for AC repair, a licensed technician arrives promptly, diagnoses the cause, and explains the recommended repair and the flat-rate price before any work begins — you approve it first.',
@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `AC Repair in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `AC Repair in ${loc.neighborhood}, ${loc.state}`,
     description: `Same-day AC repair in ${place}. Warm air, frozen coils, or an AC that won’t turn on — licensed HVAC techs, upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/ac-repair/${loc.slug}` },
     openGraph: {

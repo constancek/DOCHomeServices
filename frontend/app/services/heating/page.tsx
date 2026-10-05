@@ -10,7 +10,7 @@ import { servicePages } from '@/content/servicePages';
 
 export const metadata: Metadata = {
   title: 'Heating Services',
-  description: `Heating services across ${site.serviceArea} from ${site.name} — furnace installation, repair, maintenance, and heat pumps. Upfront pricing, 24/7 no-heat emergency service.`,
+  description: `Heating services across ${site.serviceArea} from ${site.name} — furnace installation, repair, maintenance, and heat pumps. Upfront pricing, 7-day no-heat emergency service.`,
   alternates: { canonical: '/services/heating' },
 };
 
@@ -28,7 +28,7 @@ const signs = [
 
 const whyUs = [
   { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked technicians and safe, code-compliant work.' },
-  { icon: 'clock' as const, title: '24/7 No-Heat Service', text: 'Lost heat overnight or on the coldest day? We respond around the clock.' },
+  { icon: 'clock' as const, title: 'Seven-Day No-Heat Service', text: 'Lost heat overnight or on the coldest day? We respond 7 days a week from 8am to 8pm.' },
   { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
   { icon: 'heart' as const, title: 'Locally Owned', text: 'A family-run team that treats your home and your comfort with respect.' },
 ];
@@ -38,7 +38,7 @@ const faqs = [
   { q: 'How do I know if my furnace needs maintenance?', a: 'An annual tune-up is recommended. Tell-tale signs in between: short cycling, new noises, weak or uneven heat, rising bills, or simply not having had it serviced in over a year.' },
   { q: 'How often should I replace my furnace filter?', a: 'Every 1–3 months for a standard 1-inch filter — more often with pets or heavy use. Thicker media filters can last several months. A clean filter is the single easiest way to protect efficiency.' },
   { q: 'Can I install a new heating system myself?', a: 'No — heating installation involves gas, electrical, venting, and permits, and a mistake is a real safety risk. A professional install also keeps your manufacturer warranty intact.' },
-  { q: 'What should I do if my heating system stops working at night?', a: 'Check that the thermostat is set to heat and the breaker has not tripped, then give us a call — we offer 24/7 emergency no-heat service and reach most homes the same day.' },
+  { q: 'What should I do if my heating system stops working at night?', a: 'Check that the thermostat is set to heat and the breaker has not tripped, then give us a call — we offer 7-day emergency no-heat service and reach most homes the same day.' },
   { q: 'How can I reduce my heating costs?', a: 'Annual maintenance, a programmable thermostat, fresh filters, sealing drafts, and — if your furnace is old and inefficient — upgrading to a high-efficiency system all help bring the bill down.' },
   { q: 'Are there financing options available for new heating systems?', a: 'Yes. We offer financing with a quick application and flexible terms so a new furnace or heat pump does not have to wait.' },
   { q: 'What is the difference between a furnace and a heat pump?', a: 'A furnace burns fuel (usually gas) to create heat. A heat pump moves heat instead of making it — and it cools your home in summer too — which makes it very efficient in milder cold. We help you choose the right fit.' },
@@ -77,7 +77,7 @@ export default function HeatingPage() {
       <PageHero
         eyebrow="Heating"
         title={`Heating Services in ${site.serviceArea}`}
-        description="Furnaces and heat pumps installed, repaired, and maintained by licensed technicians — with upfront pricing and 24/7 no-heat emergency service."
+        description="Furnaces and heat pumps installed, repaired, and maintained by licensed technicians — with upfront pricing and 7-day no-heat emergency service."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Services', href: '/services' }, { label: 'Heating' }]}
       />
 
@@ -101,7 +101,7 @@ export default function HeatingPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/heating-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/heating-hero.webp)' }}
             role="img"
             aria-label="Home heating system"
           />
@@ -123,7 +123,7 @@ export default function HeatingPage() {
 
           {/* Services grid */}
           <h2 className="mt-12 section-title text-brand-700">Our Heating Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Explore any service below for details, or call us and we will point you to the right fix.
           </p>
           <ul className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
@@ -132,7 +132,7 @@ export default function HeatingPage() {
                 <Link href={`/services/${s.slug}`} className="group relative block aspect-[4/3] overflow-hidden rounded-xl">
                   <span
                     className="absolute inset-0 bg-brand-200 bg-cover bg-center transition duration-300 group-hover:scale-105"
-                    style={{ backgroundImage: `url(/services/${s.slug}.jpg)` }}
+                    style={{ backgroundImage: `url(${s.heroImage ?? `/services/${s.slug}.webp`})` }}
                   />
                   <span className="absolute inset-0 bg-gradient-to-t from-pink-600/90 via-pink-500/45 to-transparent transition group-hover:from-pink-600" />
                   <span className="absolute inset-0 grid place-items-center p-3 text-center">
@@ -167,7 +167,7 @@ export default function HeatingPage() {
           {/* No-heat banner */}
           <div className="mt-8 flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
             <h2 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">
-              No heat right now? We answer 24/7.
+              No heat right now? We answer 7 days a week from 8am to 8pm.
             </h2>
             <Link href="/services/furnace-repair" className="btn-pink flex-shrink-0">
               Furnace Repair
@@ -184,7 +184,7 @@ export default function HeatingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -196,7 +196,7 @@ export default function HeatingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -207,17 +207,17 @@ export default function HeatingPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Stay Warm — Book Heating Service Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Furnace or heat pump, repair or replacement — licensed technicians, upfront pricing, and
-              24/7 no-heat service. Call now or request a free estimate.
+              7-day no-heat service. Call now or request an estimate.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={site.primaryPhone.href} className="btn-pink text-base">
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+                Request an Estimate
               </Link>
             </div>
           </div>

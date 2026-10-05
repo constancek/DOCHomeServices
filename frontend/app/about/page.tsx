@@ -7,12 +7,12 @@ import { site } from '@/content/site';
 
 export const metadata: Metadata = {
   title: 'About Us',
-  description: `${site.name} is a family-owned heating, cooling, plumbing, and electrical company serving ${site.serviceArea}. Meet the team and our story.`,
+  description: `${site.name} is a family-owned heating, cooling, plumbing, and electrical company founded in ${site.founded}, serving ${site.serviceArea}. Meet the team and our story.`,
   alternates: { canonical: '/about' },
 };
 
 const values = [
-  { icon: 'heart' as const, title: 'Family Owned & Operated', text: 'Locally owned, with the same family values we started with.' },
+  { icon: 'heart' as const, title: `Family Owned Since ${site.founded}`, text: 'Locally owned, with the same family values we started with.' },
   { icon: 'clock' as const, title: 'Same-Day Service', text: 'We staff for demand so most calls are handled the same day.' },
   { icon: 'badge' as const, title: 'Upfront, Flat-Rate Pricing', text: 'You approve the price before any work begins.' },
   { icon: 'shield' as const, title: 'Satisfaction Guaranteed', text: 'If you are not happy, we make it right.' },
@@ -30,16 +30,16 @@ export default function AboutPage() {
       {/* Welcome to the family */}
       <section className="py-16">
         <MainWithSidebar>
-          <h2 className="font-display text-4xl font-black uppercase leading-[1.02] text-pink-500 sm:text-5xl">
+          <h2 className="m-center font-display text-4xl font-black uppercase leading-[1.02] text-pink-500 sm:text-5xl">
             Welcome to the Family. We&rsquo;re Glad You&rsquo;re Here.
           </h2>
-          <h3 className="mt-4 font-display text-xl font-extrabold text-brand-950 sm:text-2xl">
+          <h3 className="m-center mt-4 font-display text-xl font-extrabold text-brand-950 sm:text-2xl">
             How {site.name} turned a passion into a business.
           </h3>
 
           <div className="mt-5 space-y-4 text-[17px] leading-relaxed text-ink/75">
             <p>
-              {site.name} began with a simple love for the trade and a desire to help people when
+              {site.name} began in {site.founded} with a simple love for the trade and a desire to help people when
               they need it most. What started as a passion for keeping homes comfortable grew into a
               family-owned company built to treat every customer like a neighbor.
             </p>
@@ -72,7 +72,7 @@ export default function AboutPage() {
                 </span>
                 <div>
                   <h4 className="font-display text-base font-extrabold text-brand-700">{v.title}</h4>
-                  <p className="text-sm text-ink/70">{v.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{v.text}</p>
                 </div>
               </div>
             ))}
@@ -96,7 +96,7 @@ export default function AboutPage() {
             <h2 className="font-display text-4xl font-black uppercase text-pink-500 sm:text-5xl">
               Why We Wear Orange.
             </h2>
-            <p className="mt-5 text-sm leading-relaxed text-white/90 sm:text-base">
+            <p className="mt-5 text-base leading-relaxed text-white/90 sm:text-base">
               Our team wears orange to stand out and be memorable. It is part of a business model
               driven by building strong relationships with our customers through efficient,
               exceptional service. To us, orange stands for energy, warmth, and a genuine desire to

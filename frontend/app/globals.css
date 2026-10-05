@@ -75,6 +75,30 @@
   .card-hover:hover {
     @apply -translate-y-1.5 shadow-card-hover;
   }
+
+  /* Below-the-fold sections: the browser skips layout and paint for them until
+     they near the viewport, which shortens initial rendering. The HTML is
+     still complete for search engines. The intrinsic size is a placeholder
+     height so the scrollbar doesn't jump. */
+  .cv-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 800px;
+  }
+
+  /* Phone alignment. Short marketing blocks (headings, eyebrows, short
+     intros, buttons) center on phones; desktop keeps its own layout. */
+  .m-center {
+    @apply max-sm:text-center;
+  }
+  /* Check/icon lists: the list sits centered as a block on phones, but its
+     items stay left-aligned so the icons line up. */
+  .m-list {
+    @apply max-sm:mx-auto max-sm:w-fit max-sm:text-left;
+  }
+  /* Paragraphs of four or more lines stay left on phones for readability. */
+  .m-left {
+    @apply max-sm:text-left;
+  }
 }
 
 @layer utilities {

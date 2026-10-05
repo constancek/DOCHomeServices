@@ -26,7 +26,7 @@ export const services: Service[] = [
     highlights: [
       'Same-day repair on every major brand',
       'Upfront, flat-rate pricing before we start',
-      'Free replacement estimates with financing',
+      'Replacement estimates with financing',
       '21-point precision tune-up',
     ],
     body: [
@@ -53,22 +53,22 @@ export const services: Service[] = [
     accent: 'from-accent-400 to-accent-600',
     tagline: 'Reliable heat when you need it most',
     summary:
-      'Furnace, heat pump, and boiler repair and installation. Emergency no-heat service is available 24 hours a day.',
+      'Furnace, heat pump, and boiler repair and installation. Emergency no-heat service is available 7 days a week from 8am to 8pm.',
     highlights: [
-      '24/7 emergency no-heat service',
+      'Seven-day emergency no-heat service',
       'Furnace, heat pump & boiler experts',
       'Carbon monoxide safety inspection included',
       'High-efficiency upgrades that lower bills',
     ],
     body: [
-      'A furnace almost never quits on a mild afternoon. It quits at 2am on the coldest night of the year, which is exactly when our emergency line is staffed. We treat a house with no heat and small kids inside as the emergency it is.',
+      'A furnace almost never quits on a mild afternoon. It quits on the coldest night of the year, which is why our emergency line is staffed 7 days a week from 8am to 8pm. We treat a house with no heat and small kids inside as the emergency it is.',
       'Every heating repair includes a combustion and carbon monoxide check at no extra charge, because a cracked heat exchanger is a safety issue first and a comfort issue second. If we find one, we show you the reading and explain your options plainly.',
       'When it is time for a new system, we size it by the house, not by the old unit. An oversized furnace short-cycles, wastes fuel, and leaves cold spots. We run the load calculation so the replacement is matched to your home.',
     ],
     faqs: [
       {
         q: 'Do you offer emergency heating repair?',
-        a: 'Yes. No-heat calls are handled around the clock, every day of the year, including holidays.',
+        a: 'Yes. No-heat calls are handled 7 days a week from 8am to 8pm.',
       },
       {
         q: 'How often should a furnace be serviced?',
@@ -98,8 +98,8 @@ export const services: Service[] = [
     ],
     faqs: [
       {
-        q: 'Do you charge extra for nights and weekends?',
-        a: 'No. Our pricing is flat-rate and the same regardless of the day or hour, so there is never an overtime penalty for a weekend emergency.',
+        q: 'Do you charge extra for weekends?',
+        a: 'No. Our pricing is flat-rate and the same any day of the week, so there is never an overtime penalty for a weekend emergency.',
       },
       {
         q: 'How long does a water heater installation take?',

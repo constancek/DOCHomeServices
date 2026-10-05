@@ -228,14 +228,14 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'Restroom or kitchen exhaust struggling in a Queensgate building? We install and repair exhaust fans across this commercial and industrial district west of downtown, sized to the space and vented outdoors with code-compliant wiring. Call (513) 586-5107.',
     relevance: [
       'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. The exhaust work here leans commercial: restroom fans, kitchen and break-room ventilation, and older units that have lost suction or run loud in buildings that were not built around them.',
-      'Many of these older structures sit on low ground near the Mill Creek that is prone to flooding, and damp air in an under-ventilated space takes a toll on finishes and stored goods. We size fans to the room or restroom, route ducting to a proper exterior cap, and wire it to code. We respond across Queensgate around the clock.',
+      'Many of these older structures sit on low ground near the Mill Creek that is prone to flooding, and damp air in an under-ventilated space takes a toll on finishes and stored goods. We size fans to the room or restroom, route ducting to a proper exterior cap, and wire it to code. We respond across Queensgate 7 days a week from 8am to 8pm.',
     ],
     commonIntro:
       'In Queensgate’s commercial and industrial buildings, the exhaust-fan work we handle most often comes from worn or undersized restroom and kitchen ventilation:',
     localFaqs: [
       {
         q: 'Do you handle exhaust fans for commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we install and repair restroom and kitchen exhaust fans there as well as in homes, sized to the space and vented outdoors. We respond around the clock.',
+        a: 'Yes. Queensgate is mostly commercial and industrial, and we install and repair restroom and kitchen exhaust fans there as well as in homes, sized to the space and vented outdoors. We respond 7 days a week from 8am to 8pm.',
       },
     ],
   },
@@ -244,14 +244,14 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'Steamy bathroom in a CUF rental near UC, or a worn fan that drones all night? We install and repair exhaust fans across Clifton Heights, University Heights, and Fairview, sized to the room and vented outdoors with code-compliant wiring. Call (513) 586-5107.',
     relevance: [
       'CUF (ZIP 45219) covers Clifton Heights, University Heights, and Fairview, the dense hilltop neighborhoods packed against the University of Cincinnati, full of 19th- and early-1900s homes now largely converted to student rentals. The small old bathrooms in those subdivided houses often run on a worn fan or none at all, so shower steam from heavy daily use sits on aging plaster and tile.',
-      'In rentals where bathrooms were added or split during conversion, fans were frequently vented into the attic or a shared wall cavity rather than fully outdoors, which spreads moisture between units. We size a fan to the actual bathroom, run a dedicated duct to a proper exterior cap, and wire it to code so mildew does not move from one apartment to the next. We respond fast, day or night.',
+      'In rentals where bathrooms were added or split during conversion, fans were frequently vented into the attic or a shared wall cavity rather than fully outdoors, which spreads moisture between units. We size a fan to the actual bathroom, run a dedicated duct to a proper exterior cap, and wire it to code so mildew does not move from one apartment to the next. We respond fast, 7 days a week from 8am to 8pm.',
     ],
     commonIntro:
       'In CUF’s dense, older student-rental housing near UC, the exhaust-fan work we see most often comes from small bathrooms with worn or poorly vented fans:',
     localFaqs: [
       {
         q: 'Do you fix or add bathroom fans in CUF student rentals near UC?',
-        a: 'Yes. We work on the older homes and rentals throughout Clifton Heights, University Heights, and Fairview, replacing worn fans and venting them outdoors instead of into the attic or a shared wall. We respond day or night.',
+        a: 'Yes. We work on the older homes and rentals throughout Clifton Heights, University Heights, and Fairview, replacing worn fans and venting them outdoors instead of into the attic or a shared wall. We respond 7 days a week from 8am to 8pm.',
       },
     ],
   },
@@ -260,7 +260,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'Old Camp Washington bathroom with no fan, or steam that hangs in the room? We install and repair exhaust fans in this Mill Creek valley neighborhood, sized to the room and vented outdoors with proper wiring. Call (513) 586-5107.',
     relevance: [
       'Camp Washington (ZIP 45225) is a historic working neighborhood in the Mill Creek valley, known for its industry, the American Sign Museum, and a tight mix of old worker housing and factories. The compact worker homes here were built before bath fans were standard, so a daily shower leaves moisture on the plaster with nowhere to go.',
-      'The low valley ground keeps the air damp, which makes ventilating a bathroom properly matter more than it might elsewhere. We size a fan to the room and run the duct to a proper exterior cap rather than into the attic, then wire it to code so moisture clears instead of feeding mildew. We respond around the clock.',
+      'The low valley ground keeps the air damp, which makes ventilating a bathroom properly matter more than it might elsewhere. We size a fan to the room and run the duct to a proper exterior cap rather than into the attic, then wire it to code so moisture clears instead of feeding mildew. We respond 7 days a week from 8am to 8pm.',
     ],
     commonIntro:
       'In Camp Washington’s older homes down in the valley, the exhaust-fan work we see most often comes from fan-less bathrooms in damp valley air:',
@@ -324,7 +324,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'Old Evanston bathroom near Xavier that fogs and stays damp? We install and repair exhaust fans here, sized to the room and vented outdoors with code-compliant wiring. Call (513) 586-5107.',
     relevance: [
       'Evanston (ZIP 45207) is an east-side neighborhood next to Xavier University, with streets of early-1900s homes and apartment buildings, some now student housing. The older bathrooms here often run on worn fans or none at all, so shower steam lingers on aging plaster and tile.',
-      'In the densely built rentals near campus, heavy daily use wears fans out fast, and many were vented into the attic rather than fully outdoors. We size the fan to the room, run a dedicated duct to a proper exterior cap, and wire it to code so moisture leaves the building instead of feeding mildew. We respond around the clock.',
+      'In the densely built rentals near campus, heavy daily use wears fans out fast, and many were vented into the attic rather than fully outdoors. We size the fan to the room, run a dedicated duct to a proper exterior cap, and wire it to code so moisture leaves the building instead of feeding mildew. We respond 7 days a week from 8am to 8pm.',
     ],
     commonIntro:
       'In Evanston’s early-1900s homes near Xavier, the exhaust-fan work we see most often comes from worn fans and heavy rental use:',

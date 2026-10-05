@@ -219,7 +219,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach Golf Manor for a mini-split?',
-        a: 'Golf Manor is centrally located, surrounded by Cincinnati, so it is a quick reach for us. We install and repair ductless mini-splits across this small north-side village and offer a free estimate on new systems.',
+        a: 'Golf Manor is centrally located, surrounded by Cincinnati, so it is a quick reach for us. We install and repair ductless mini-splits across this small north-side village and offer an estimate on new systems.',
       },
     ],
   },

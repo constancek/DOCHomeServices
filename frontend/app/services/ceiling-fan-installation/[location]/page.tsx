@@ -13,8 +13,8 @@ const config: ServiceLocationConfig = {
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
   businessType: 'Electrician',
   schemaServiceType: 'Ceiling Fan Installation',
-  ctaLine: 'Want a ceiling fan installed in {neighborhood}? Call for a free estimate',
-  heroImage: '/services/ceilingfan-hero.jpg',
+  ctaLine: 'Want a ceiling fan installed in {neighborhood}? Call for an estimate',
+  heroImage: '/services/ceilingfan-hero.webp',
   introHeading: 'Ceiling Fan Installation in {neighborhood}',
   introParagraphs: [
     'A properly installed ceiling fan improves comfort, airflow, and energy efficiency all year. {brand} installs and replaces ceiling fans for homeowners in {place} — fan-rated mounting, safe wiring, and balanced, quiet operation by licensed electricians.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'switches-outlets', title: 'Switches & Outlets' },
     { slug: 'electrical-panel-replacement', title: 'Panel Replacement' },
   ],
-  band1Image: '/services/ceiling-fan-installation.jpg',
+  band1Image: '/services/ceiling-fan-installation.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs Ceiling Fan Service',
   commonSituations: [
     'Wobbling or shaking during operation',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'An outdated style that no longer fits the room',
   ],
   trustedBanner: 'Your Local & Trusted Ceiling Fan Pros in {neighborhood}',
-  band2Image: '/services/ceilingfan-hero.jpg',
+  band2Image: '/services/ceilingfan-hero.webp',
   band2Heading: 'Our Ceiling Fan Installation Process in {neighborhood}',
   band2Paragraphs: [
     'We start by checking the ceiling box — confirming it is rated for a fan’s weight and motion — then secure the mount, complete the wiring to your switches and controls, and explain the flat-rate price before any work begins.',
@@ -103,7 +103,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Ceiling Fan Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Ceiling Fan Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Ceiling fan installation and replacement in ${place} — fan-rated mounting, safe wiring, and balanced, quiet operation by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/ceiling-fan-installation/${loc.slug}` },
     openGraph: {

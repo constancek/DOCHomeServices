@@ -11,17 +11,17 @@ export const site = {
   url: 'https://www.cincydegreeofcomfort.com',
   description:
     'Heating, cooling, plumbing, and electrical for the Tri-State area. Same-day service, upfront pricing, and a satisfaction guarantee on every job.',
-  email: 'cincydegreeofcomfort@gmail.com',
+  email: 'admin@cincydegreeofcomfort.com',
   // Zapier "Catch Hook" webhook that forms POST to. Zapier then forwards the
   // submission to GoHighLevel. Paste the Catch Hook URL here (or set
   // NEXT_PUBLIC_FORM_WEBHOOK_URL at build time). Empty = forms run in demo mode.
   formWebhookUrl:
     process.env.NEXT_PUBLIC_FORM_WEBHOOK_URL ??
     'https://services.leadconnectorhq.com/hooks/Gf0JzWoHH620Euo1oWww/webhook-trigger/40b69dfc-a036-4f08-a8b0-43065f4cfd1b',
-  founded: 2009,
+  founded: 1993,
   rating: 4.9,
   reviewCount: 6000,
-  yearsExperience: new Date().getFullYear() - 2009,
+  yearsExperience: new Date().getFullYear() - 1993,
 
   phones: [
     { label: '', number: '(513) 586-5107', href: 'tel:+15135865107' },
@@ -33,15 +33,17 @@ export const site = {
 
   offices: [
     {
-      city: 'Cincinnati, OH',
-      street: '',
-      region: '',
-      mapHref: 'https://maps.google.com/?q=Cincinnati,OH',
+      street: '5325 Deerfield Blvd Ste 219',
+      city: 'Mason',
+      region: 'OH',
+      postalCode: '45040',
+      full: '5325 Deerfield Blvd Ste 219, Mason, OH 45040',
+      mapHref: 'https://maps.google.com/?q=5325+Deerfield+Blvd+Ste+219,+Mason,+OH+45040',
     },
   ],
 
   hours: 'Mon–Sun: 8am–8pm',
-  serviceArea: 'Cincinnati and surrounding areas',
+  serviceArea: 'Cincinnati and Northern Kentucky',
 
   social: [
     { label: 'Facebook', href: 'https://facebook.com' },
@@ -67,6 +69,9 @@ export type NavItem = {
   caret?: boolean;
   children?: NavChild[];
   cta?: NavChild;
+  // Long menus render their dropdown in two columns so every item stays on
+  // screen. Short menus stay single-column.
+  columns?: 2;
 };
 
 export const nav: NavItem[] = [
@@ -74,6 +79,7 @@ export const nav: NavItem[] = [
     label: 'Plumbing',
     href: '/services/plumbing',
     caret: true,
+    columns: 2,
     children: [
       {
         label: 'Drains',
@@ -82,6 +88,27 @@ export const nav: NavItem[] = [
         children: [{ label: 'Drain Cleaning', href: '/services/drain-cleaning' }],
       },
       { label: 'Emergency Plumbing', href: '/services/emergency-plumbing' },
+      {
+        label: 'Water Damage Restoration',
+        href: '/services/water-damage-restoration',
+        arrow: true,
+        children: [
+          { label: 'Emergency Water Extraction', href: '/services/emergency-water-extraction' },
+          { label: 'Structural Drying', href: '/services/structural-drying' },
+          { label: 'Mold Prevention & Remediation', href: '/services/mold-prevention-remediation' },
+        ],
+      },
+      {
+        label: 'After Flood Plumbing',
+        href: '/services/after-flood-plumbing',
+        arrow: true,
+        children: [
+          { label: 'Sewer Backup Repair', href: '/services/sewer-backup-repair' },
+          // Points at the existing Sump Pumps master page rather than a duplicate.
+          { label: 'Sump Pump Repair & Installation', href: '/services/sump-pumps' },
+          { label: 'Basement Flood Plumbing', href: '/services/basement-flood-plumbing' },
+        ],
+      },
       { label: 'Faucet Repair & Replacement', href: '/services/faucet-repair-replacement' },
       { label: 'Leak Detection', href: '/services/leak-detection' },
       { label: 'Leak Repair', href: '/services/leak-repair' },
@@ -90,6 +117,7 @@ export const nav: NavItem[] = [
       { label: 'Sewer Repair & Replacement', href: '/services/sewer-repair-replacement' },
       { label: 'Whole-House Repiping', href: '/services/whole-house-repiping' },
       { label: 'Gas Line Repair & Replacement', href: '/services/gas-line-repair-replacement' },
+      { label: 'Gas Service Disconnection (Duke Energy)', href: '/services/gas-service-disconnection' },
       { label: 'Pipe Repair & Replacement', href: '/services/pipe-repair-replacement' },
       { label: 'Garbage Disposals', href: '/services/garbage-disposals' },
       { label: 'Sump Pumps', href: '/services/sump-pumps' },
@@ -99,13 +127,13 @@ export const nav: NavItem[] = [
       { label: 'Water Heater Repair', href: '/services/water-heater-repair' },
       { label: 'Water Quality', href: '/services/water-quality' },
     ],
-    cta: { label: 'Get Water Heater Quote', href: '/free-estimate' },
   },
   {
     label: 'Heating',
     href: '/services/heating',
     caret: true,
     children: [
+      { label: 'Boiler Repair, Maintenance & Replacement', href: '/services/boilers' },
       { label: 'Furnace Installation & Replacement', href: '/services/furnace-installation-replacement' },
       { label: 'Furnace Maintenance', href: '/services/furnace-maintenance' },
       { label: 'Furnace Repair', href: '/services/furnace-repair' },
@@ -113,7 +141,6 @@ export const nav: NavItem[] = [
       { label: 'Indoor Air Quality', href: '/services/indoor-air-quality' },
       { label: 'Shop Furnace Filters', href: '/services/furnace-filters' },
     ],
-    cta: { label: 'Get Furnace Quote', href: '/free-estimate' },
   },
   {
     label: 'Air Conditioning',
@@ -135,12 +162,12 @@ export const nav: NavItem[] = [
       { label: 'Indoor Air Quality', href: '/services/indoor-air-quality' },
       { label: 'Shop Air Filters', href: '/services/air-filters' },
     ],
-    cta: { label: 'Get AC Quote', href: '/free-estimate' },
   },
   {
     label: 'Electrical',
     href: '/services/electrical',
     caret: true,
+    columns: 2,
     children: [
       {
         label: 'Lighting',
@@ -181,6 +208,8 @@ export const nav: NavItem[] = [
       { label: 'Electrical Panel Replacement', href: '/services/electrical-panel-replacement' },
       { label: 'Switches & Outlets', href: '/services/switches-outlets' },
       { label: 'Electrical Mast Repair', href: '/services/electrical-mast-repair' },
+      { label: 'Electricity Disconnection (Duke Energy)', href: '/services/electricity-disconnection' },
+      { label: 'Storm Electricity Outage', href: '/services/storm-electricity-outage' },
     ],
   },
   {
@@ -188,21 +217,14 @@ export const nav: NavItem[] = [
     href: '/about',
     caret: true,
     children: [
-      { label: "We're Hiring! Apply Today", href: '/careers' },
-      { label: 'Financing', href: '/financing' },
-      {
-        label: 'The Degree of Comfort Difference',
-        href: '/difference',
-        arrow: true,
-        children: [
-          { label: 'Customer Success Stories', href: '/customer-success-stories' },
-          { label: 'Reviews', href: '/reviews' },
-        ],
-      },
-      { label: 'Referral Program', href: '/referrals' },
-      { label: 'Degree of Comfort University', href: '/university' },
+      { label: 'Video Testimonials', href: '/video-testimonials' },
+      { label: 'Reviews', href: '/reviews' },
+      { label: 'Customer Success Stories', href: '/customer-success-stories' },
       { label: 'Blog', href: '/blog' },
-      { label: 'FAQ', href: '/faq' },
+      { label: 'Financing', href: '/financing' },
+      { label: 'Degree of Comfort University', href: '/university' },
+      { label: 'Referral Program', href: '/referrals' },
+      { label: "We're Hiring! Apply Today", href: '/careers' },
     ],
   },
   {
@@ -211,7 +233,7 @@ export const nav: NavItem[] = [
     caret: true,
     children: [
       { label: 'Coupons', href: '/specials' },
-      { label: 'Free Estimate', href: '/free-estimate' },
+      { label: 'Request an Estimate', href: '/request-estimate/' },
       { label: 'Join the Comfort Club', href: '/comfort-club' },
       { label: 'Heat Pump Incentives & Costs', href: '/heat-pump-incentives' },
     ],

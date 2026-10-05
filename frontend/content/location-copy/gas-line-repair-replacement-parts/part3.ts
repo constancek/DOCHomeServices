@@ -107,7 +107,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a gas line problem in Roselawn?',
-        a: 'Roselawn is well within our north-side service area along Reading Road. Our licensed plumbers are on call 24/7 for gas-line concerns, repair or replace the line, and pressure-test it to confirm it is code-compliant.',
+        a: 'Roselawn is well within our north-side service area along Reading Road. Our licensed plumbers are on call 7 days a week from 8am to 8pm for gas-line concerns, repair or replace the line, and pressure-test it to confirm it is code-compliant.',
       },
     ],
   },
@@ -299,7 +299,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a gas line problem in Finneytown?',
-        a: 'Finneytown is well within our north-side service area in Springfield Township. Our licensed plumbers are on call 24/7, repair or replace the line, and pressure-test it so the work is left code-compliant.',
+        a: 'Finneytown is well within our north-side service area in Springfield Township. Our licensed plumbers are on call 7 days a week from 8am to 8pm, repair or replace the line, and pressure-test it so the work is left code-compliant.',
       },
     ],
   },
@@ -395,7 +395,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a gas line problem in Silverton?',
-        a: 'Silverton is well within our east-side service area along Montgomery Road. Our licensed plumbers are on call 24/7, repair or replace the line, and pressure-test it so the work is left code-compliant.',
+        a: 'Silverton is well within our east-side service area along Montgomery Road. Our licensed plumbers are on call 7 days a week from 8am to 8pm, repair or replace the line, and pressure-test it so the work is left code-compliant.',
       },
     ],
   },

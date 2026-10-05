@@ -12,7 +12,7 @@ import { furnaceRepairCopy } from '@/content/location-copy/furnace-repair';
 
 export const metadata: Metadata = {
   title: 'Furnace Repair',
-  description: `24/7 furnace repair across ${site.serviceArea} from ${site.name} — gas and electric, on all major brands. Fast response, upfront pricing, and repairs that fix the root cause.`,
+  description: `Seven-day furnace repair across ${site.serviceArea} from ${site.name} — gas and electric, on all major brands. Fast response, upfront pricing, and repairs that fix the root cause.`,
   alternates: { canonical: '/services/furnace-repair' },
 };
 
@@ -41,7 +41,7 @@ const otherServices = [
 ];
 
 const whyUs = [
-  { icon: 'clock' as const, title: '24/7 Emergency Repair', text: 'When the heat goes out below freezing, our rescue team is on standby day or night.' },
+  { icon: 'clock' as const, title: 'Seven-Day Emergency Repair', text: 'When the heat goes out below freezing, our rescue team is on standby 7 days a week from 8am to 8pm.' },
   { icon: 'check' as const, title: 'Gas & Electric', text: 'Certified repair for gas and electric furnaces on all major brands.' },
   { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked technicians and safe, code-compliant work.' },
   { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
@@ -60,7 +60,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   serviceType: 'Furnace Repair',
-  description: '24/7 gas and electric furnace repair on all major brands.',
+  description: 'Seven-day gas and electric furnace repair on all major brands.',
   provider: { '@type': 'Organization', name: site.name, telephone: site.primaryPhone.number },
   areaServed: site.serviceArea,
 };
@@ -90,7 +90,7 @@ export default function FurnaceRepairPage() {
       <PageHero
         eyebrow="Heating"
         title={`Furnace Repair in ${site.serviceArea}`}
-        description="No heat, weak airflow, or strange noises? Our licensed HVAC technicians respond fast and fix the problem right the first time — gas or electric, 24/7."
+        description="No heat, weak airflow, or strange noises? Our licensed HVAC technicians respond fast and fix the problem right the first time — gas or electric, 7 days a week from 8am to 8pm."
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -120,7 +120,7 @@ export default function FurnaceRepairPage() {
         <MainWithSidebar>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/furnace-repair-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/furnace-repair-hero.webp)' }}
             role="img"
             aria-label="Technician repairing a furnace"
           />
@@ -140,19 +140,19 @@ export default function FurnaceRepairPage() {
 
           {/* Most common problems */}
           <h2 className="mt-10 section-title text-brand-700">Most Common Furnace Problems</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Furnaces can fail for many reasons, especially during the harsh Ohio River Valley winters.
             Some of the most common issues our technicians fix include:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {problems.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             If your heating system is struggling, do not wait — small issues become expensive failures
             fast. Schedule a furnace repair today.
           </p>
@@ -164,7 +164,7 @@ export default function FurnaceRepairPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/furnace-repair.jpg)' }}
+            style={{ backgroundImage: 'url(/services/furnace-repair.webp)' }}
             role="img"
             aria-label="Technician diagnosing a furnace"
           />
@@ -172,7 +172,7 @@ export default function FurnaceRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               Signs You Need a Furnace Repair
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Furnace problems often appear gradually, but ignoring the warning signs can lead to
               system failure or safety concerns. Recognizing these issues early helps prevent more
               expensive repairs and unexpected breakdowns:
@@ -185,7 +185,7 @@ export default function FurnaceRepairPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If you notice any of these signs, professional furnace repair with {site.name} can help
               restore reliable and safe heating.
             </p>
@@ -200,12 +200,12 @@ export default function FurnaceRepairPage() {
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
               What to Expect During a Furnace Repair
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A furnace repair begins with a thorough inspection to identify the cause of the problem.
               The technician evaluates system components, tests performance, and pinpoints any faulty
               parts or safety concerns.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Once the issue is identified, the recommended repair is explained before work begins.
               After the repair, the furnace is tested to confirm it is operating properly and safely,
               and the technician reviews next steps or maintenance recommendations to help prevent
@@ -214,7 +214,7 @@ export default function FurnaceRepairPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Technician explaining a furnace repair to a homeowner"
           />
@@ -247,7 +247,7 @@ export default function FurnaceRepairPage() {
 
           {/* Repair or replace */}
           <h2 className="mt-12 section-title text-brand-700">Repair or Replace?</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Most furnaces last 10–15 years with regular maintenance. If your unit is older, breaking
             down often, or driving up your energy bills, replacement may be the smarter choice. Our
             team walks you through the decision and provides options that fit your budget.
@@ -255,11 +255,11 @@ export default function FurnaceRepairPage() {
 
           {/* Cost */}
           <h2 className="mt-12 section-title text-brand-700">Furnace Repair Cost</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Repair prices depend on the issue, the type of furnace, and the parts required. A simple
             fix like thermostat calibration costs less, while replacing a motor or igniter costs more.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The good news: {site.name} provides upfront pricing, so there are no surprises — and we
             will always tell you honestly whether a repair or a replacement is the better long-term
             value.
@@ -267,14 +267,14 @@ export default function FurnaceRepairPage() {
 
           {/* Emergency */}
           <h2 className="mt-12 section-title text-brand-700">Emergency Furnace Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             When your furnace fails without warning, every minute without heat matters. When
             temperatures drop below freezing, you need help fast — our rescue team is on standby with
-            24/7 service to restore heat quickly so your family stays safe and warm.
+            7-day service to restore heat quickly so your family stays safe and warm.
           </p>
           <div className="mt-6 flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
             <h3 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">
-              No heat right now? We answer 24/7.
+              No heat right now? We answer 7 days a week from 8am to 8pm.
             </h3>
             <a href={site.primaryPhone.href} className="btn-pink flex-shrink-0">
               <Icon name="phone" className="h-4 w-4" />
@@ -284,12 +284,12 @@ export default function FurnaceRepairPage() {
 
           {/* Other services */}
           <h2 className="mt-12 section-title text-brand-700">Other Heating Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Beyond repairs, {site.name} offers a full range of heating and cooling solutions:
           </p>
           <ul className="mt-4 space-y-2">
             {otherServices.map((o) => (
-              <li key={o.label} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={o.label} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <Link href={o.href} className="hover:text-pink-600">
                   {o.label}
@@ -300,13 +300,13 @@ export default function FurnaceRepairPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Furnace Repair</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             As a family-owned and operated business, we put our customers first — if you are not happy,
             we are not happy. Furnace repairs take experience and careful attention to keep your system
             operating safely and efficiently, and {site.name} focuses on restoring reliable heat while
             addressing the root cause of the problem.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             With skilled technicians, clear communication, and dependable scheduling, we make furnace
             repair straightforward and stress-free — every repair completed with long-term performance
             and home comfort in mind.
@@ -319,7 +319,7 @@ export default function FurnaceRepairPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -331,7 +331,7 @@ export default function FurnaceRepairPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -340,17 +340,17 @@ export default function FurnaceRepairPage() {
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Furnace Repair Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Fast response, honest recommendations, and repairs that fix the root cause. Call now or
-              request a free estimate.
+              request an estimate.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={site.primaryPhone.href} className="btn-pink text-base">
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+                Request an Estimate
               </Link>
             </div>
           </div>
@@ -361,7 +361,7 @@ export default function FurnaceRepairPage() {
       <section className="pb-16">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Furnace repair by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We repair furnaces across {site.serviceArea} —{' '}
             {locations.filter((l) => furnaceRepairCopy[l.slug]).length} neighborhoods and counting. For
             local detail on response times and the heating issues common to homes in your area, find yours

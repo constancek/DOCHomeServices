@@ -228,14 +228,14 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'A leaking faucet in a Queensgate office or a worn fixture in a commercial restroom? We repair cartridges and replace kitchen, restroom, and utility faucets across this commercial and industrial district, with same-day service. Call (513) 586-5107.',
     relevance: [
       'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Faucet work here is mostly commercial: restroom and break-room fixtures that see heavy daily use, which wears cartridges and washers faster than a home faucet ever would, and that is the source of the constant drips and weak streams we get called for.',
-      'Many of these older industrial buildings run on aging supply lines that shed scale and grit, clogging aerators and faucet screens, so a commercial fixture that has slowed is often a line-and-aerator problem rather than a faulty faucet. We clear the screens, replace worn cartridges, and fit durable commercial-grade fixtures built for the use these buildings put on them. Queensgate is mostly commercial and industrial, and we handle faucet repairs and replacements for those buildings around the clock.',
+      'Many of these older industrial buildings run on aging supply lines that shed scale and grit, clogging aerators and faucet screens, so a commercial fixture that has slowed is often a line-and-aerator problem rather than a faulty faucet. We clear the screens, replace worn cartridges, and fit durable commercial-grade fixtures built for the use these buildings put on them. Queensgate is mostly commercial and industrial, and we handle faucet repairs and replacements for those buildings 7 days a week from 8am to 8pm.',
     ],
     commonIntro:
       'In Queensgate’s commercial and industrial buildings, the faucet problems we handle most often are heavy-use restroom fixtures wearing out and screens clogged with scale from aging lines:',
     localFaqs: [
       {
         q: 'Do you replace heavy-use restroom faucets in Queensgate commercial buildings?',
-        a: 'Yes. Queensgate is mostly commercial, and high-traffic restroom and break-room faucets wear out fast. We fit durable commercial-grade fixtures and clear scale-clogged screens, and we handle these jobs 24/7.',
+        a: 'Yes. Queensgate is mostly commercial, and high-traffic restroom and break-room faucets wear out fast. We fit durable commercial-grade fixtures and clear scale-clogged screens, and we handle these jobs 7 days a week from 8am to 8pm.',
       },
     ],
   },
@@ -244,14 +244,14 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'A dripping faucet or weak kitchen tap in a CUF rental near UC? We repair cartridges and replace worn kitchen and bath fixtures across Clifton Heights, University Heights, and Fairview, with same-day service. Call (513) 586-5107.',
     relevance: [
       'CUF (ZIP 45219) covers Clifton Heights, University Heights, and Fairview — the dense hilltop neighborhoods packed against the University of Cincinnati, full of 19th- and early-1900s homes now largely converted to student rentals. Faucets in these houses take heavy, careless use from a rotating cast of tenants, so worn cartridges, snapped handles, and steady spout drips are constant, and they sit on aging galvanized lines that feed grit into the aerators and slow the flow.',
-      'Because so many CUF houses are subdivided into rental units sharing old supply stacks, a faucet job here often means confirming which valve shuts off the right kitchen or bath before any work starts. We replace worn fixtures with durable units that stand up to rental use, clear the aerators that hard-used kitchens clog fastest, and renew the under-sink shutoffs that seize in homes this old. CUF sits right by campus and is one of the faster areas for us to reach, day or night.',
+      'Because so many CUF houses are subdivided into rental units sharing old supply stacks, a faucet job here often means confirming which valve shuts off the right kitchen or bath before any work starts. We replace worn fixtures with durable units that stand up to rental use, clear the aerators that hard-used kitchens clog fastest, and renew the under-sink shutoffs that seize in homes this old. CUF sits right by campus and is one of the faster areas for us to reach, 7 days a week from 8am to 8pm.',
     ],
     commonIntro:
       'In CUF’s dense, older student-rental housing near UC, the faucet problems we see most often are heavily used cartridges and handles wearing out and aerators clogged by grit from aging galvanized lines:',
     localFaqs: [
       {
         q: 'Do you replace worn-out faucets in CUF student rentals near UC?',
-        a: 'Yes. We work on the older homes and rentals throughout Clifton Heights, University Heights, and Fairview, and we fit durable fixtures that hold up to heavy tenant use. CUF is a fast reach for us, day or night.',
+        a: 'Yes. We work on the older homes and rentals throughout Clifton Heights, University Heights, and Fairview, and we fit durable fixtures that hold up to heavy tenant use. CUF is a fast reach for us, 7 days a week from 8am to 8pm.',
       },
     ],
   },
@@ -260,7 +260,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'A dripping faucet or low pressure at the sink in a Camp Washington home or shop? We repair cartridges, clear clogged aerators, and replace worn fixtures across this Mill Creek valley neighborhood, with same-day service. Call (513) 586-5107.',
     relevance: [
       'Camp Washington (ZIP 45225) is a historic working neighborhood in the Mill Creek valley, known for its industry, the American Sign Museum, and a tight mix of old worker housing and factories. Faucets in the older worker homes here sit on aging supply lines that corrode and shed grit, clogging aerators and slowing the stream, so a fixture that has gone weak is often a line problem as much as a faucet one. We test for both before recommending a repair.',
-      'The two-handle fixtures common in these older homes rely on washers and seats that harden and split with age, which is why the steady spout drip is the usual complaint. On a faucet that is past sensible repair, a single-cartridge replacement ends the cycle, and on the commercial side of the neighborhood we fit durable fixtures built for heavy use. Camp Washington sits centrally in the Mill Creek valley and is a quick reach for us around the clock.',
+      'The two-handle fixtures common in these older homes rely on washers and seats that harden and split with age, which is why the steady spout drip is the usual complaint. On a faucet that is past sensible repair, a single-cartridge replacement ends the cycle, and on the commercial side of the neighborhood we fit durable fixtures built for heavy use. Camp Washington sits centrally in the Mill Creek valley and is a quick reach for us 7 days a week from 8am to 8pm.',
     ],
     commonIntro:
       'In Camp Washington’s older homes and buildings down in the valley, the faucet problems we handle most often are worn washers dripping at the spout and aerators clogged by grit from aging lines:',

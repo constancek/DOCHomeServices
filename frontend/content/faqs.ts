@@ -5,7 +5,7 @@ export const faqGroups: { category: string; items: { q: string; a: string }[] }[
   {
     category: 'AC Repair',
     items: [
-      { q: 'How much does AC repair cost?', a: 'It depends on the part and the problem — small fixes like a capacitor are inexpensive, while a compressor or coil costs more. We quote a flat rate before any work starts, so call for a free estimate.' },
+      { q: 'How much does AC repair cost?', a: 'It depends on the part and the problem — small fixes like a capacitor are inexpensive, while a compressor or coil costs more. We quote a flat rate before any work starts, so call for an estimate.' },
       { q: "Does homeowner's insurance cover AC repair?", a: 'Most policies cover damage from sudden events (like a power surge or storm) but not normal wear or breakdowns. Check your policy and ask your insurer.' },
       { q: 'How long does it take to cool the house after AC repair?', a: 'Most homes drop a few degrees within an hour of a completed repair, though reaching full comfort on a hot day can take several hours.' },
       { q: 'How much does it cost to repair an AC unit?', a: 'It varies by the failed component — a contactor or capacitor is modest, a compressor is much more. You always get an upfront, flat-rate price first.' },
@@ -29,9 +29,9 @@ export const faqGroups: { category: string; items: { q: string; a: string }[] }[
   {
     category: 'AC Installation',
     items: [
-      { q: "What's the cost of installing an AC system?", a: 'Cost depends on system size, efficiency rating, and your home. We provide a free written estimate and financing options.' },
+      { q: "What's the cost of installing an AC system?", a: 'Cost depends on system size, efficiency rating, and your home. We provide a written estimate and financing options.' },
       { q: "What's the cost of installing a central air conditioning system?", a: 'Central AC pricing varies with tonnage and any ductwork needs. We size it properly and quote upfront.' },
-      { q: 'Is installing a new air conditioning unit more complex in an old home?', a: 'It can be, if ductwork or electrical needs updating. We assess all of that during the free estimate.' },
+      { q: 'Is installing a new air conditioning unit more complex in an old home?', a: 'It can be, if ductwork or electrical needs updating. We assess all of that during the estimate.' },
       { q: 'What size air conditioning unit do I need for my home?', a: 'Size is based on a load calculation — square footage, insulation, windows, and layout — not a guess. We run that calculation for you.' },
       { q: 'How long does it take to install a new air conditioning unit?', a: 'A straightforward replacement is usually completed in a single day.' },
     ],
@@ -64,7 +64,7 @@ export const faqGroups: { category: string; items: { q: string; a: string }[] }[
     items: [
       { q: 'What are the most common types of heating problems?', a: 'No heat, uneven heating, short cycling, strange noises, and an unresponsive thermostat.' },
       { q: 'How much does it cost to repair my heating system?', a: 'It varies by the failed part. You get a flat-rate price before we start.' },
-      { q: "What do I do if my heat isn't working?", a: 'Check the thermostat, breaker, and air filter first. If it still will not run, call us — no-heat calls are handled around the clock.' },
+      { q: "What do I do if my heat isn't working?", a: 'Check the thermostat, breaker, and air filter first. If it still will not run, call us — no-heat calls are handled 7 days a week from 8am to 8pm.' },
       { q: 'What does heating maintenance mean?', a: 'A seasonal inspection and tune-up that keeps your furnace or heat pump safe, efficient, and reliable.' },
       { q: 'How often should I service my heating?', a: 'Once a year, in the fall before the first cold snap.' },
       { q: 'What happens during heating maintenance?', a: 'We inspect and clean key components, test safety controls, check the heat exchanger, and run a carbon monoxide test.' },
