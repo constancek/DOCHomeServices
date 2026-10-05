@@ -103,7 +103,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Leak Repair in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Leak Repair in ${loc.neighborhood}, ${loc.state}`,
     description: `Same-day leak repair in ${place} — pipe, slab, toilet, and fixture leaks found and fixed at the source. Upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/leak-repair/${loc.slug}` },
     openGraph: {

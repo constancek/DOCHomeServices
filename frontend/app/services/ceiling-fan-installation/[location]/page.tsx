@@ -103,7 +103,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Ceiling Fan Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Ceiling Fan Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Ceiling fan installation and replacement in ${place} — fan-rated mounting, safe wiring, and balanced, quiet operation by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/ceiling-fan-installation/${loc.slug}` },
     openGraph: {

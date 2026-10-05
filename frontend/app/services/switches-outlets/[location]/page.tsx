@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Switches & Outlets in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Switches & Outlets in ${loc.neighborhood}, ${loc.state}`,
     description: `Switch and outlet installation in ${place} — outlet replacement, GFCI and USB upgrades, and switch repair by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/switches-outlets/${loc.slug}` },
     openGraph: {

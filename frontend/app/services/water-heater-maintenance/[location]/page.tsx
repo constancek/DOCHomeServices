@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Water Heater Maintenance in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Water Heater Maintenance in ${loc.neighborhood}, ${loc.state}`,
     description: `Water heater maintenance and tune-ups in ${place} — tank flush, anode-rod checks, and safety inspections for tank and tankless systems. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/water-heater-maintenance/${loc.slug}` },
     openGraph: {

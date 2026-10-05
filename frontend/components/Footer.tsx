@@ -53,7 +53,7 @@ export default function Footer() {
               <li>
                 <a href={site.offices[0].mapHref} className="flex items-center gap-2.5 transition hover:text-white">
                   <Icon name="pin" className="h-4 w-4 flex-shrink-0 text-brand-300" />
-                  <span>{site.location}</span>
+                  <address className="not-italic">{site.offices[0].full}</address>
                 </a>
               </li>
               <li className="flex items-center gap-2.5">

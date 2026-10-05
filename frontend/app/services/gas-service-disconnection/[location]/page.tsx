@@ -118,7 +118,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Gas Service Disconnection in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Gas Service Disconnection in ${loc.neighborhood}, ${loc.state}`,
     description: `Gas shut off in ${place}? It will not be restored until the fault is repaired and the piping passes a pressure test. Licensed gas plumbers, upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/gas-service-disconnection/${loc.slug}` },
     openGraph: {

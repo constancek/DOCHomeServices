@@ -12,7 +12,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     intro: 'Hot upper floor or a chilly back room in Park Hills? A ductless mini-split puts a dedicated zone wherever an older home runs uneven. We install and repair them on the hillside near Devou Park. Call (513) 586-5107.',
     relevance: [
       'Park Hills (ZIP 41011) is a hillside Kenton County city beside Devou Park, known for its early-1900s homes on steep, tree-lined streets above Covington. Houses that age tend to heat and cool unevenly, with a hot top floor in summer and a cold finished attic in winter, and a mini-split zone fixes the problem room without reworking the whole system.',
-      'The hillside setting also shapes the install. Steep lots and tight side yards decide where the small outdoor unit sits and how the line set runs down to it, so we plan placement on site rather than guess. When an existing mini-split needs repair, we service the wall heads and the condenser the same way, day or night.',
+      'The hillside setting also shapes the install. Steep lots and tight side yards decide where the small outdoor unit sits and how the line set runs down to it, so we plan placement on site rather than guess. When an existing mini-split needs repair, we service the wall heads and the condenser the same way, 7 days a week from 8am to 8pm.',
     ],
     commonIntro: "In Park Hills' older hillside homes, the common reason to add a mini-split is a single room the central system never reaches:",
     localFaqs: [{ q: 'Can a mini-split fix a hot upper floor in a Park Hills home?', a: 'Yes. A wall head in the hot room gives it its own thermostat, so the upper floor of a Park Hills home stops fighting the rest of the house. We will look at the layout and price the zone.' }],
@@ -138,7 +138,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     intro: 'Adding a zone to a home or a commercial space in Wilder? A ductless mini-split conditions it without a duct project. We install and repair them across this Campbell County city. Call (513) 586-5107.',
     relevance: [
       'Wilder (ZIP 41076) is a Campbell County city along the Licking River corridor, with a commercial and industrial base alongside residential neighborhoods. That mix makes mini-splits useful both ways: a bonus room in a mid-century home and a separately controlled office or workspace in a commercial building are both straightforward single-zone jobs.',
-      'For the homes, a mini-split covers a finished basement or addition that the central system can’t reach; for the commercial spaces, it gives a room its own thermostat without tying into the building’s system. Both run efficiently as heat pumps, and we repair what we install across Wilder, day or night.',
+      'For the homes, a mini-split covers a finished basement or addition that the central system can’t reach; for the commercial spaces, it gives a room its own thermostat without tying into the building’s system. Both run efficiently as heat pumps, and we repair what we install across Wilder, 7 days a week from 8am to 8pm.',
     ],
     commonIntro: "Across Wilder's homes and businesses, a mini-split usually goes in to give one room or unit independent temperature control:",
     localFaqs: [{ q: 'Can you install a mini-split in a Wilder commercial space?', a: 'Yes. A single-zone mini-split is a common fit for an office, workspace, or back room in Wilder’s commercial buildings, since it runs on its own thermostat. We will assess the space and quote it.' }],
@@ -237,7 +237,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     intro: 'Adding a zone to a home or a commercial unit along Ohio Pike in Withamsville? A ductless mini-split conditions it without ductwork. We install and repair them across this Union Township community. Call (513) 586-5107.',
     relevance: [
       'Withamsville, OH (ZIP 45245) is a Union Township community along the Ohio Pike corridor in western Clermont County, with a mix of suburban homes and commercial strips. That mix makes mini-splits useful both ways: a finished basement or bonus room in a mid-century home and a separately controlled office or back room in a commercial strip are both single-zone jobs.',
-      'For the homes, a mini-split covers a space the central system can’t reach; for the commercial units, it gives a room its own thermostat without tying into the building’s system. Both run efficiently as heat pumps, and we repair what we install across Withamsville, day or night.',
+      'For the homes, a mini-split covers a space the central system can’t reach; for the commercial units, it gives a room its own thermostat without tying into the building’s system. Both run efficiently as heat pumps, and we repair what we install across Withamsville, 7 days a week from 8am to 8pm.',
     ],
     commonIntro: "Across Withamsville's homes and businesses, a mini-split usually goes in to give one room or unit independent temperature control:",
     localFaqs: [{ q: 'Can you install a mini-split in a Withamsville commercial unit?', a: 'Yes. A single-zone mini-split is a common fit for an office or back room in the Ohio Pike strips in Withamsville, since it runs on its own thermostat. We will assess the space and quote it.' }],

@@ -107,7 +107,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you check a suspected gas leak in Lakeside Park?',
-        a: 'Lakeside Park is well within our Northern Kentucky service area, and we are on call 24/7. We pressure-test the line to pinpoint the leak and repair or replace the failing run to code, often the same day.',
+        a: 'Lakeside Park is well within our Northern Kentucky service area, and we are on call 7 days a week from 8am to 8pm. We pressure-test the line to pinpoint the leak and repair or replace the failing run to code, often the same day.',
       },
     ],
   },
@@ -235,7 +235,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you check a gas leak in Southgate?',
-        a: 'Southgate is well within our Northern Kentucky service area near Newport, and we are on call 24/7. We pressure-test the line to pinpoint the leak and repair or replace the failing run to code, often the same day.',
+        a: 'Southgate is well within our Northern Kentucky service area near Newport, and we are on call 7 days a week from 8am to 8pm. We pressure-test the line to pinpoint the leak and repair or replace the failing run to code, often the same day.',
       },
     ],
   },
@@ -395,7 +395,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you check a gas leak in Mount Carmel?',
-        a: 'Mount Carmel is well within our east-side service area in Union Township, and we are on call 24/7. We pressure-test the line to pinpoint the leak and repair or replace the failing run to code.',
+        a: 'Mount Carmel is well within our east-side service area in Union Township, and we are on call 7 days a week from 8am to 8pm. We pressure-test the line to pinpoint the leak and repair or replace the failing run to code.',
       },
     ],
   },

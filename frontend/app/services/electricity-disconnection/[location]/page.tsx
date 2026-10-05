@@ -113,7 +113,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Electricity Disconnection in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Electricity Disconnection in ${loc.neighborhood}, ${loc.state}`,
     description: `Power disconnected in ${place}? Duke will not reconnect until your meter base, mast, or panel is repaired and inspected. Licensed electricians, upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/electricity-disconnection/${loc.slug}` },
     openGraph: {

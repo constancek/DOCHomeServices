@@ -9,7 +9,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "Reading runs its own water and sewer — does that hold up extraction?",
-        a: "No. Reading is its own city, but pulling standing water out of your basement is not utility work and does not wait on any permit or the city's schedule. We are on call 24/7 and get the pumps running the same day.",
+        a: "No. Reading is its own city, but pulling standing water out of your basement is not utility work and does not wait on any permit or the city's schedule. We are on call 7 days a week from 8am to 8pm and get the pumps running the same day.",
       },
     ],
   },
@@ -23,7 +23,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach Dent for standing water?",
-        a: "Dent is well within our west-side service area in Green Township. Active flooding is an emergency, not a booking — we are on call 24/7 and aim to have pumps on the floor the same day.",
+        a: "Dent is well within our west-side service area in Green Township. Active flooding is an emergency, not a booking — we are on call 7 days a week from 8am to 8pm and aim to have pumps on the floor the same day.",
       },
     ],
   },
@@ -37,7 +37,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "Deer Park is its own city — does that slow you down?",
-        a: "No. Deer Park runs its own water and sewer, but extracting standing water is not utility work and does not wait on the city. We are on call 24/7 and reach the east side the same day.",
+        a: "No. Deer Park runs its own water and sewer, but extracting standing water is not utility work and does not wait on the city. We are on call 7 days a week from 8am to 8pm and reach the east side the same day.",
       },
     ],
   },
@@ -65,7 +65,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach Dry Run with extraction gear?",
-        a: "Dry Run is well within our east-side service area in Anderson Township. We treat standing water as an emergency and are on call 24/7, aiming to have pumps and extractors on site the same day.",
+        a: "Dry Run is well within our east-side service area in Anderson Township. We treat standing water as an emergency and are on call 7 days a week from 8am to 8pm, aiming to have pumps and extractors on site the same day.",
       },
     ],
   },
@@ -93,7 +93,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How much of my Forestville lower level can be saved after a water heater fails?",
-        a: "It depends on how fast the water comes off it. Getting the standing water out and pulling it from the carpet and pad in the first hours is what decides whether the flooring dries out or has to be replaced. We are on call 24/7 and treat it as an emergency.",
+        a: "It depends on how fast the water comes off it. Getting the standing water out and pulling it from the carpet and pad in the first hours is what decides whether the flooring dries out or has to be replaced. We are on call 7 days a week from 8am to 8pm and treat it as an emergency.",
       },
     ],
   },
@@ -107,7 +107,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach Cherry Grove for standing water?",
-        a: "Cherry Grove is well within our east-side service area in Anderson Township. We are on call 24/7 and aim to have extractors on the floor the same day.",
+        a: "Cherry Grove is well within our east-side service area in Anderson Township. We are on call 7 days a week from 8am to 8pm and aim to have extractors on the floor the same day.",
       },
     ],
   },
@@ -121,7 +121,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "Water came through my Kenwood ceiling — do you extract on both floors?",
-        a: "Yes. Water that starts upstairs soaks the level below through the ceiling, so we pull it from the carpet and pad on the lower floor and check the upper floor it came from. We are on call 24/7 with same-day extraction.",
+        a: "Yes. Water that starts upstairs soaks the level below through the ceiling, so we pull it from the carpet and pad on the lower floor and check the upper floor it came from. We are on call 7 days a week from 8am to 8pm with same-day extraction.",
       },
     ],
   },
@@ -135,7 +135,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "Lincoln Heights runs its own government — does that hold up the extraction?",
-        a: "No. A sewer line repair might route through the village's own utility, but pulling contaminated standing water out of your basement is not utility work and does not wait on any permit or schedule. We are on call 24/7 and reach the valley the same day.",
+        a: "No. A sewer line repair might route through the village's own utility, but pulling contaminated standing water out of your basement is not utility work and does not wait on any permit or schedule. We are on call 7 days a week from 8am to 8pm and reach the valley the same day.",
       },
     ],
   },
@@ -205,7 +205,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "A line ran for hours in my Northbrook home before I found it — does the delay matter?",
-        a: "It does. The longer clean water sits, the deeper it wicks into pad and subfloor, and the more of it has to be pulled or removed instead of dried. Getting extraction started in the first hours is what keeps a soaked floor from becoming a replaced one. We are on call 24/7.",
+        a: "It does. The longer clean water sits, the deeper it wicks into pad and subfloor, and the more of it has to be pulled or removed instead of dried. Getting extraction started in the first hours is what keeps a soaked floor from becoming a replaced one. We are on call 7 days a week from 8am to 8pm.",
       },
     ],
   },
@@ -219,7 +219,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "My Indian Hill lower level is large — can you extract the whole thing the same day?",
-        a: "Yes. We bring enough pump and extractor capacity to cover a big finished level and pull water from carpet and pad across the whole space. We are on call 24/7 and reach the estates the same day.",
+        a: "Yes. We bring enough pump and extractor capacity to cover a big finished level and pull water from carpet and pad across the whole space. We are on call 7 days a week from 8am to 8pm and reach the estates the same day.",
       },
     ],
   },
@@ -233,7 +233,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach Evendale for standing water?",
-        a: "Evendale is well within our north-side service area, and active flooding is an emergency. We are on call 24/7 and aim to have pumps and extractors on site the same day, home or commercial building.",
+        a: "Evendale is well within our north-side service area, and active flooding is an emergency. We are on call 7 days a week from 8am to 8pm and aim to have pumps and extractors on site the same day, home or commercial building.",
       },
     ],
   },
@@ -261,7 +261,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "Sharonville runs its own water and sewer — does that slow the extraction?",
-        a: "No. Sharonville is its own city, but pulling standing water out of a basement or back room is not utility work and does not wait on any permit. We are on call 24/7 with same-day extraction, home or business.",
+        a: "No. Sharonville is its own city, but pulling standing water out of a basement or back room is not utility work and does not wait on any permit. We are on call 7 days a week from 8am to 8pm with same-day extraction, home or business.",
       },
     ],
   },
@@ -275,7 +275,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach Northgate when the basement is filling?",
-        a: "Northgate is well within our northwest service area in Colerain Township. A basement taking on water is an emergency, not a booking — we are on call 24/7 and aim to have pumps running the same day.",
+        a: "Northgate is well within our northwest service area in Colerain Township. A basement taking on water is an emergency, not a booking — we are on call 7 days a week from 8am to 8pm and aim to have pumps running the same day.",
       },
     ],
   },
@@ -289,7 +289,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "Springdale is its own city — will that slow the extraction?",
-        a: "No. Springdale issues its own permits, but pulling standing water out is not permit work and does not wait on the city. We are on call 24/7 and reach the north side the same day.",
+        a: "No. Springdale issues its own permits, but pulling standing water out is not permit work and does not wait on the city. We are on call 7 days a week from 8am to 8pm and reach the north side the same day.",
       },
     ],
   },
@@ -303,7 +303,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach Miamitown once the river drops?",
-        a: "Miamitown is on our far-west river route, and a basement full of contaminated river water is an emergency. We are on call 24/7 and aim for same-day arrival with pumps as soon as it is safe to work.",
+        a: "Miamitown is on our far-west river route, and a basement full of contaminated river water is an emergency. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival with pumps as soon as it is safe to work.",
       },
     ],
   },
@@ -317,7 +317,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "Forest Park is its own city — does that slow the extraction?",
-        a: "No. Forest Park runs its own utilities, but pumping standing water out of your basement is not utility work and does not wait. We are on call 24/7 with same-day extraction.",
+        a: "No. Forest Park runs its own utilities, but pumping standing water out of your basement is not utility work and does not wait. We are on call 7 days a week from 8am to 8pm with same-day extraction.",
       },
     ],
   },
@@ -331,7 +331,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach Pleasant Run with extraction gear?",
-        a: "Pleasant Run is well within our north-side service area in Springfield Township. We treat standing water as an emergency and are on call 24/7, aiming for same-day arrival.",
+        a: "Pleasant Run is well within our north-side service area in Springfield Township. We treat standing water as an emergency and are on call 7 days a week from 8am to 8pm, aiming for same-day arrival.",
       },
     ],
   },
@@ -345,7 +345,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach Cleves once the river recedes?",
-        a: "Cleves is on our far-west river route, and a basement of contaminated river water is an emergency. We are on call 24/7 and aim for same-day arrival with pumps as soon as it is safe to work.",
+        a: "Cleves is on our far-west river route, and a basement of contaminated river water is an emergency. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival with pumps as soon as it is safe to work.",
       },
     ],
   },
@@ -359,7 +359,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "The line ran while we were out all day — is the water too far gone to extract?",
-        a: "Not usually. Even after hours, pumping and extracting fast still pulls water out of carpet, pad, and subfloor before the boards cup, which is what decides whether the floor is dried or replaced. The sooner we start, the more comes back.",
+        a: "Not usually. Pumping and extracting fast still pulls water out of carpet, pad, and subfloor before the boards cup, which is what decides whether the floor is dried or replaced. The sooner we start, the more comes back.",
       },
     ],
   },
@@ -373,7 +373,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach Loveland with pumps?",
-        a: "Loveland is within our service area along the Little Miami. Active flooding is an emergency, not a booking — we are on call 24/7 and aim for same-day arrival.",
+        a: "Loveland is within our service area along the Little Miami. Active flooding is an emergency, not a booking — we are on call 7 days a week from 8am to 8pm and aim for same-day arrival.",
       },
     ],
   },
@@ -387,7 +387,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "Harrison is its own city — does that slow the extraction?",
-        a: "No. Harrison runs its own utilities near the Indiana line, but pulling standing water out is not utility work and does not wait on a permit. We are on call 24/7 with same-day extraction.",
+        a: "No. Harrison runs its own utilities near the Indiana line, but pulling standing water out is not utility work and does not wait on a permit. We are on call 7 days a week from 8am to 8pm with same-day extraction.",
       },
     ],
   },

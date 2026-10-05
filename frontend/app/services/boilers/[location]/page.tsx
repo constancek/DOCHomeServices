@@ -18,7 +18,7 @@ const config: ServiceLocationConfig = {
   introHeading: 'Boiler Service in {neighborhood}',
   introParagraphs: [
     'A boiler heats water to roughly 140°F and sends it through radiators, baseboards, or tubing under the floor. {brand} repairs, maintains, and replaces boilers for homes and rental buildings in {place}: hot water, steam, gas-fired, oil-fired, combi, and cast iron.',
-    'If your building’s boiler is under a service contract with another company, call them first so you don’t pay twice. For everything else, our licensed technicians handle 24/7 no-heat calls, annual tune-ups, and replacement quotes, with the price up front.',
+    'If your building’s boiler is under a service contract with another company, call them first so you don’t pay twice. For everything else, our licensed technicians handle 7-day no-heat calls, annual tune-ups, and replacement quotes, with the price up front.',
   ],
   sidebarSections: [
     {
@@ -67,7 +67,7 @@ const config: ServiceLocationConfig = {
   ],
   whyTitle: 'Why {neighborhood} Homeowners Choose Us',
   whyUs: [
-    { icon: 'clock', title: '24/7 No-Heat Service', text: 'A boiler that quits overnight gets a technician around the clock.' },
+    { icon: 'clock', title: 'Seven-Day No-Heat Service', text: 'A boiler that quits gets a technician the same day, 7 days a week from 8am to 8pm.' },
     { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start, with no overtime or weekend fees.' },
     { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked technicians and code-compliant gas and venting work.' },
     { icon: 'star', title: 'Financing Available', text: 'Flexible plans when a replacement makes more sense than another repair.' },
@@ -106,7 +106,7 @@ export async function generateMetadata({
   return {
     // The root layout template appends " | Degree of Comfort".
     title: `Boiler Repair in ${loc.neighborhood}, ${loc.state}`,
-    description: `Boiler repair, tune-ups, and replacement in ${place}. Hot water, steam, gas, and oil boilers, with 24/7 no-heat service.`,
+    description: `Boiler repair, tune-ups, and replacement in ${place}. Hot water, steam, gas, and oil boilers, with 7-day no-heat service.`,
     alternates: { canonical: `/services/boilers/${loc.slug}` },
     openGraph: {
       title: `Boiler Service in ${place} | ${site.name}`,

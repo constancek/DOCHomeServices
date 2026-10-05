@@ -60,9 +60,9 @@ export const offers = [
     expires: formatExpiryShort(rollingExpiry()),
   },
   {
-    title: '$89',
-    subtitle: 'Cooling Checkup',
-    detail: 'Full 21-point AC tune-up before the summer rush.',
+    title: '$59',
+    subtitle: 'Furnace Tune-Up',
+    detail: '21-point heating safety inspection before the cold sets in.',
     expires: formatExpiryShort(rollingExpiry()),
   },
 ];

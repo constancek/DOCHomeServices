@@ -102,7 +102,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Furnace Installation & Replacement in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Furnace Installation & Replacement in ${loc.neighborhood}, ${loc.state}`,
     description: `Furnace installation and replacement in ${place} — gas and electric, properly sized and to code, with financing and same-day installs. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/furnace-installation-replacement/${loc.slug}` },
     openGraph: {

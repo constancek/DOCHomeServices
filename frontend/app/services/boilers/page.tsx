@@ -12,7 +12,7 @@ import { boilersCopy } from '@/content/location-copy/boilers';
 
 export const metadata: Metadata = {
   title: 'Boiler Repair, Maintenance & Replacement',
-  description: 'Boiler repair, tune-ups, and replacement in Cincinnati and the Tri-State. Hot water, steam, gas, and oil boilers, with 24/7 no-heat service.',
+  description: 'Boiler repair, tune-ups, and replacement in Cincinnati and the Tri-State. Hot water, steam, gas, and oil boilers, with 7-day no-heat service.',
   alternates: { canonical: '/services/boilers' },
 };
 
@@ -50,7 +50,7 @@ const repairReplace = [
 ];
 
 const whyUs = [
-  { icon: 'clock' as const, title: '24/7 No-Heat Service', text: 'A boiler that quits overnight gets a technician around the clock.' },
+  { icon: 'clock' as const, title: 'Seven-Day No-Heat Service', text: 'A boiler that quits gets a technician the same day, 7 days a week from 8am to 8pm.' },
   { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start, with no overtime or weekend fees.' },
   { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked technicians and code-compliant gas and venting work.' },
   { icon: 'star' as const, title: 'Financing Available', text: 'Flexible plans when a replacement makes more sense than another repair.' },
@@ -167,7 +167,7 @@ export default function BoilersPage() {
           </p>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             No heat on a cold night is an emergency, and we treat it that way. Boiler no-heat calls
-            are covered by the same 24/7 service as our{' '}
+            are covered by the same 7-day service as our{' '}
             <Link href="/services/furnace-repair" className="font-semibold text-pink-600 hover:underline">
               furnace repair
             </Link>

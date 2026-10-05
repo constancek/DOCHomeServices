@@ -1,6 +1,6 @@
 export const part5: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'ludlow': {
-    intro: 'Radiators cold in your Ludlow Victorian? That usually points to the boiler in the basement, not the radiators themselves. We repair, maintain, and replace hot water and steam boilers on the streets off Elm Street and along the Ohio River, and we answer no-heat calls 24/7. Call (513) 586-5107.',
+    intro: 'Radiators cold in your Ludlow Victorian? That usually points to the boiler in the basement, not the radiators themselves. We repair, maintain, and replace hot water and steam boilers on the streets off Elm Street and along the Ohio River, and we answer no-heat calls 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Ludlow (ZIP 41016) is a historic river town in Kenton County, Kentucky, with a walkable Elm Street business district and streets of well-preserved Victorian and early-1900s homes. Houses of that age often still heat with radiators fed by a hot water or steam boiler, and plenty of those boilers are heavy cast-iron units that have been running for decades. Old cast iron can keep going a long time, but it gets harder to find parts, and small leaks at fittings start to show up.',
       'The riverfront adds its own wrinkle. Basements close to the Ohio sit damp, and a boiler that has seen standing water at its base needs a look at the burner, controls, and wiring before it fires again. When a Ludlow boiler is past saving, we size the replacement to the house and its radiators, not the old unit’s nameplate. A high-efficiency boiler runs around 90% efficient and keeps the radiators you already have.',
@@ -24,7 +24,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'bromley': {
-    intro: 'Did high water reach the boiler in your Bromley basement? Don’t fire it back up until someone checks the burner and controls. We repair, maintain, and replace boilers in this small village on low ground beside the Ohio River, and we take no-heat calls 24/7. Call (513) 586-5107.',
+    intro: 'Did high water reach the boiler in your Bromley basement? Don’t fire it back up until someone checks the burner and controls. We repair, maintain, and replace boilers in this small village on low ground beside the Ohio River, and we take no-heat calls 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Bromley (ZIP 41016) is a small river village in Kenton County, Kentucky, right next to Ludlow, with older homes on low ground beside the Ohio River. Older houses like these often came with radiator heat and a hot water or steam boiler, and some still have one in the basement. Others were converted to forced air years ago, so it is worth knowing which you have before calling anyone. A quick look at the basement usually answers that.',
       'The river is the bigger issue here. A boiler that has sat in floodwater can have damaged gas valves, corroded controls, and wet wiring, and running it before those parts are checked is a real safety risk. After high water we inspect, dry out, and replace what the water ruined, or tell you plainly when replacement makes more sense than repair. If you are replacing, raising the new boiler off the basement floor is worth talking about on a lot this close to the river.',
@@ -70,7 +70,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'lakeside-park': {
-    intro: 'Hot water baseboard in your Lakeside Park ranch not warming up? The fix is often at the boiler, not the baseboard. Most homes on these quiet streets run furnaces, but for those with a boiler, we repair, maintain, and replace it. We also answer no-heat calls 24/7. Call (513) 586-5107.',
+    intro: 'Hot water baseboard in your Lakeside Park ranch not warming up? The fix is often at the boiler, not the baseboard. Most homes on these quiet streets run furnaces, but for those with a boiler, we repair, maintain, and replace it. We also answer no-heat calls 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Lakeside Park (ZIP 41017) is a small, settled city in Kenton County, Kentucky, made up largely of mid-century single-family homes on quiet streets. Most houses of that era went up with forced-air furnaces, so if you have vents in the floor, you probably don’t need us for heat. A smaller share were built with hot water baseboard heat and a gas-fired boiler, and those are the homes this page is for.',
       'A mid-century boiler that is still original is well past the 15 to 25 years a well-maintained boiler usually lasts. Many have been swapped once already, and those replacements are now reaching their own age. Common trouble is a worn circulator pump, a waterlogged expansion tank that makes pressure swing, or a relief valve that drips. We fix what is fixable and give you a straight answer when a new high-efficiency boiler makes more sense.',
@@ -81,7 +81,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'crescent-springs': {
-    intro: 'Not sure the boiler in your Crescent Springs basement is worth another winter? A 60-to-90-minute service visit will tell you. We repair, maintain, and replace boilers across this suburban Kenton County city, though most homes here heat with furnaces. No-heat calls get answered 24/7. Call (513) 586-5107.',
+    intro: 'Not sure the boiler in your Crescent Springs basement is worth another winter? A 60-to-90-minute service visit will tell you. We repair, maintain, and replace boilers across this suburban Kenton County city, though most homes here heat with furnaces. No-heat calls get answered 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Crescent Springs (ZIP 41017) is a suburban city in Kenton County, Kentucky, with established neighborhoods of mid-century and newer homes. Most homes of those eras rely on forced-air furnaces, so boilers are the minority here. If your heat comes through ducts, call about the furnace instead, and we will say so if you call us first. Before we send anyone, we ask how the heat reaches your rooms: vents, baseboard, radiators, or warm floors. That one question saves most people a wasted visit.',
       'The homes that do have a boiler tend to fall into two groups: older houses with hot water baseboard from the original build, and newer homes where an owner chose radiant floor heat or a combi boiler that handles both heat and hot water. Both need an annual check of the burner, pressure, expansion tank, and circulator. A high-efficiency boiler runs around 90% efficient, which is worth weighing if yours is old and your gas bills keep climbing.',
@@ -95,15 +95,15 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     intro: 'Boiler lockout at a Crestview Hills home or business? A lockout means the boiler shut itself down for a reason, and resetting it over and over hides the cause. We repair, maintain, and replace residential and commercial boilers near Thomas More University. Call (513) 586-5107.',
     relevance: [
       'Crestview Hills (ZIP 41017) is a city in Kenton County, Kentucky, home to Thomas More University and the Crestview Hills mall, with residential neighborhoods alongside a commercial corridor. The mid-century and newer homes here mostly run forced-air furnaces, so boilers are not the norm on residential streets. Homeowners with ducted heat should call about the furnace, not the boiler. The mall and the offices along the corridor are a different story, and so are a handful of custom homes.',
-      'Boilers show up more on the commercial side and in some custom homes with radiant floor heat. A commercial building on a central boiler has more people depending on it, and a no-heat call there affects every space it serves, which is why we handle those 24/7. For homes, a combi or radiant system needs the same yearly care as any boiler. A well-maintained boiler lasts 15 to 25 years, and regular service is most of what gets it there.',
+      'Boilers show up more on the commercial side and in some custom homes with radiant floor heat. A commercial building on a central boiler has more people depending on it, and a no-heat call there affects every space it serves, which is why we handle those 7 days a week from 8am to 8pm. For homes, a combi or radiant system needs the same yearly care as any boiler. A well-maintained boiler lasts 15 to 25 years, and regular service is most of what gets it there.',
     ],
     commonIntro: 'Across Crestview Hills homes with radiant heat and commercial buildings on central boilers, the problems we see most are:',
     localFaqs: [
-      { q: 'Do you service boilers in commercial buildings in Crestview Hills?', a: 'Yes. We repair and maintain boilers for commercial buildings along the Crestview Hills corridor and answer no-heat calls 24/7, since one central boiler failure can leave a whole building cold.' },
+      { q: 'Do you service boilers in commercial buildings in Crestview Hills?', a: 'Yes. We repair and maintain boilers for commercial buildings along the Crestview Hills corridor and answer no-heat calls 7 days a week from 8am to 8pm, since one central boiler failure can leave a whole building cold.' },
     ],
   },
   'edgewood': {
-    intro: 'Hearing a kettle-like rumble from the boiler in your Edgewood home? That sound usually means scale or sediment on the heat exchanger. Most houses here run furnaces, but for those with a boiler, we repair, maintain, and replace it. No-heat calls get answered 24/7. Call (513) 586-5107.',
+    intro: 'Hearing a kettle-like rumble from the boiler in your Edgewood home? That sound usually means scale or sediment on the heat exchanger. Most houses here run furnaces, but for those with a boiler, we repair, maintain, and replace it. No-heat calls get answered 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Edgewood (ZIP 41017) is a residential city in Kenton County, Kentucky, home to St. Elizabeth Healthcare, with established neighborhoods of mid-century and newer homes. Most houses built in those years heat with forced-air furnaces, so boilers are the exception rather than the rule here. If yours is a furnace, our furnace team can help, and we will point you there. A quick way to tell: boilers heat through baseboard, radiators, or warm floors, never through vents.',
       'For the Edgewood homes that do run a boiler, whether hot water baseboard in a mid-century house or radiant floor heat in a newer one, the basics are the same. The water runs around 140°F through a closed loop, and the system needs steady pressure, a working expansion tank, and air-free piping. Rumbling or kettling is often the first sign of trouble. A flush and an annual service, which takes 60 to 90 minutes, fix a lot of it before it becomes a no-heat call.',
@@ -114,7 +114,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'taylor-mill': {
-    intro: 'Radiant floor in your Taylor Mill basement gone cold? Check the boiler pressure first, then call us. Most homes on this hilltop south of Covington heat with furnaces, but we repair, maintain, and replace the boilers that are here. We take no-heat calls 24/7 too. Call (513) 586-5107.',
+    intro: 'Radiant floor in your Taylor Mill basement gone cold? Check the boiler pressure first, then call us. Most homes on this hilltop south of Covington heat with furnaces, but we repair, maintain, and replace the boilers that are here. We take no-heat calls 7 days a week from 8am to 8pm too. Call (513) 586-5107.',
     relevance: [
       'Taylor Mill (ZIP 41015) is a hilltop residential city in Kenton County, Kentucky, south of Covington, made up largely of mid-century and newer single-family homes. Houses from those decades mostly heat with forced-air furnaces, so boilers are less common here, and if your house has ducts you likely need a furnace tech rather than us. We ask how your heat reaches the rooms before we book a visit, so nobody pays for a trip they did not need.',
       'Where boilers do show up in Taylor Mill, it is often radiant floor heat in a finished basement or a newer custom build, or a combi boiler handling both the heat and the hot water. Some older homes still have hot water baseboard. A single cold zone usually traces to a stuck zone valve, a failed circulator, or air in that loop, not the boiler itself. A well-maintained boiler lasts 15 to 25 years, and a yearly check keeps those zones balanced.',
@@ -125,7 +125,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'elsmere': {
-    intro: 'Radiators upstairs in your Elsmere house colder than the ones downstairs? Low boiler pressure is the usual cause. We repair, maintain, and replace boilers in the older and mid-century homes along Dixie Highway near Erlanger, with 24/7 no-heat service. Most of the time it is a quick fix. Call (513) 586-5107.',
+    intro: 'Radiators upstairs in your Elsmere house colder than the ones downstairs? Low boiler pressure is the usual cause. We repair, maintain, and replace boilers in the older and mid-century homes along Dixie Highway near Erlanger, with 7-day no-heat service. Most of the time it is a quick fix. Call (513) 586-5107.',
     relevance: [
       'Elsmere (ZIP 41018) is an established city in Kenton County, Kentucky, along the Dixie Highway corridor near Erlanger, with a mix of older and mid-century homes. The older houses are the ones most likely to have radiators and a hot water boiler, sometimes a cast-iron unit that has been in the basement for a long time. Many mid-century homes here run forced-air furnaces instead, and if that is you, call about the furnace.',
       'For the Elsmere homes still on a boiler, pressure is the most common complaint. A slow leak at a radiator valve, a failed expansion tank, or a sticking fill valve can drop the pressure until the far rooms go cold. Bleeding radiators helps with trapped air but does not fix a leak. When an older cast-iron boiler is past repair, we size a new high-efficiency unit to the house and keep the radiators.',
@@ -137,7 +137,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'independence': {
-    intro: 'Old boiler in the Independence historic core, or radiant heat in a newer build? Either way, we repair, maintain, and replace it across the Kenton County seat, though most homes in the newer subdivisions run furnaces instead. No-heat calls get answered day or night. Call (513) 586-5107.',
+    intro: 'Old boiler in the Independence historic core, or radiant heat in a newer build? Either way, we repair, maintain, and replace it across the Kenton County seat, though most homes in the newer subdivisions run furnaces instead. No-heat calls get answered 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Independence (ZIP 41051) is the Kenton County seat and one of the faster-growing cities in Northern Kentucky, with a historic core surrounded by newer subdivisions. The subdivisions are mostly forced-air furnace territory, so if you live in one and your heat comes through vents, a boiler tech is not who you need. Those newer homes were built around ductwork and a furnace, with central air sharing the same system. We would rather send you to the right tech than sell you a service you do not need.',
       'The older homes in the historic core are a different story. Houses of that age often heat, or once heated, with radiators and a hot water or steam boiler, and some still have an aging cast-iron unit doing the work. Those need attention to pressure, leaks at old fittings, and radiators that need bleeding. In the newer builds, a few owners have chosen radiant floor heat or a combi boiler. We service all of them, and a well-maintained boiler lasts 15 to 25 years.',
@@ -161,7 +161,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'southgate': {
-    intro: 'Is the boiler in your Southgate home still the one it came with? Many houses here run furnaces, but the mid-century homes with baseboard heat are often on their second or third boiler by now. We repair, maintain, and replace them. No-heat calls get answered 24/7. Call (513) 586-5107.',
+    intro: 'Is the boiler in your Southgate home still the one it came with? Many houses here run furnaces, but the mid-century homes with baseboard heat are often on their second or third boiler by now. We repair, maintain, and replace them. No-heat calls get answered 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Southgate (ZIP 41071) is a small city in Campbell County, Kentucky, between Newport and Fort Thomas, with established neighborhoods of mid-century homes. Houses of that era mostly went up with forced-air furnaces and ductwork, so boilers are less common here. If your home has vents rather than baseboard or radiators, you want a furnace tech, and we will tell you that up front. A quick look at how the rooms are heated settles it in a minute.',
       'The Southgate homes that do heat with water usually have hot water baseboard running off a gas-fired boiler in the basement. Those systems are simple and quiet when they work, but after decades of use the circulator pump, expansion tank, and relief valve wear out. A well-maintained boiler lasts 15 to 25 years. If yours is past that and needs a major part, a new high-efficiency unit, running around 90% efficient, is usually the better spend.',
@@ -172,18 +172,18 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'wilder': {
-    intro: 'Central boiler down at a Wilder business or apartment building? One failure leaves everyone in the building cold, so we answer those calls 24/7. We repair, maintain, and replace commercial and residential boilers along the Licking River corridor. We handle the occasional home boiler too. Call (513) 586-5107.',
+    intro: 'Central boiler down at a Wilder business or apartment building? One failure leaves everyone in the building cold, so we answer those calls 7 days a week from 8am to 8pm. We repair, maintain, and replace commercial and residential boilers along the Licking River corridor. We handle the occasional home boiler too. Call (513) 586-5107.',
     relevance: [
       'Wilder (ZIP 41076) is a city in Campbell County, Kentucky, along the Licking River corridor, with a commercial and industrial base alongside residential neighborhoods. Most homes here heat with forced-air furnaces, so residential boilers are not common. If your house has ducts, a boiler tech is not the call. Most of the residential neighborhoods here went up with ductwork and a furnace, and that is who you should call when the heat stops. We would rather say that plainly than book a visit that goes nowhere.',
       'Boilers matter more on the commercial side. Some commercial and multi-unit buildings run on a central boiler, and when it locks out, every space on that loop loses heat at once. Regular service is how you avoid that: a check of the burner, safety controls, pressure, and circulators each year. Annual service on a residential boiler takes 60 to 90 minutes, and larger commercial units take longer. We also handle the occasional home boiler or radiant floor system in Wilder.',
     ],
     commonIntro: 'Across Wilder’s commercial buildings on central boilers and the homes that heat with hot water, the calls we get most are:',
     localFaqs: [
-      { q: 'Can you do scheduled boiler maintenance for my Wilder business?', a: 'Yes. We set up yearly service before the heating season and handle no-heat calls 24/7, which keeps a central boiler from surprising your tenants or staff.' },
+      { q: 'Can you do scheduled boiler maintenance for my Wilder business?', a: 'Yes. We set up yearly service before the heating season and handle no-heat calls 7 days a week from 8am to 8pm, which keeps a central boiler from surprising your tenants or staff.' },
     ],
   },
   'highland-heights': {
-    intro: 'Landlord with a boiler-heated rental near NKU? When that boiler fails, every tenant calls at once. We repair, maintain, and replace boilers in Highland Heights rentals and homes, and we answer no-heat calls 24/7. A yearly check before the fall semester is the simplest way to avoid that call. Call (513) 586-5107.',
+    intro: 'Landlord with a boiler-heated rental near NKU? When that boiler fails, every tenant calls at once. We repair, maintain, and replace boilers in Highland Heights rentals and homes, and we answer no-heat calls 7 days a week from 8am to 8pm. A yearly check before the fall semester is the simplest way to avoid that call. Call (513) 586-5107.',
     relevance: [
       'Highland Heights (ZIP 41076) is a city in Campbell County, Kentucky, home to Northern Kentucky University, with a mix of residential neighborhoods and student housing. Most of the single-family homes here run forced-air furnaces, so a boiler is not the default. Some rentals and multi-unit buildings do heat with a shared or central boiler, and that is where we get called most. Those are the buildings where one failure turns into several phone calls.',
       'A shared boiler serving several units puts more wear on the system and more pressure on the landlord when it fails. Tenants may not report a slow leak or a lukewarm radiator until it becomes a no-heat call. A yearly service before the fall semester, which takes 60 to 90 minutes on a typical residential boiler, catches most of that. When a boiler is past its useful life, we size the replacement to the building so every unit heats evenly.',
@@ -194,7 +194,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'cold-spring': {
-    intro: 'Thinking about a combi boiler for your Cold Spring home? It only makes sense if you already heat with hot water. Most houses along US-27 run furnaces, but for those on a boiler, we repair, maintain, and replace it. No-heat calls get answered 24/7. Call (513) 586-5107.',
+    intro: 'Thinking about a combi boiler for your Cold Spring home? It only makes sense if you already heat with hot water. Most houses along US-27 run furnaces, but for those on a boiler, we repair, maintain, and replace it. No-heat calls get answered 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Cold Spring (ZIP 41076) is a growing city in Campbell County, Kentucky, along the US-27 corridor, with a mix of established neighborhoods and newer subdivisions. Most homes in both groups heat with forced-air furnaces, so boilers are the minority here. If your heat comes through vents, we will point you to our furnace team rather than sell you on a boiler. Tell us how your heat reaches the rooms and we can usually sort it out in one phone call.',
       'The Cold Spring homes that do have boilers are usually older houses in the established neighborhoods with hot water baseboard, or newer homes with radiant floor heat. Some owners replacing an old boiler and an old water heater at the same time go with a combi unit that does both. A high-efficiency boiler runs around 90% efficient. We size it to the house, not to the old unit, since older boilers were often oversized.',
@@ -217,7 +217,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'melbourne': {
-    intro: 'Boiler acting up in a Melbourne riverside home after a wet spring? Damp basements are hard on burners and controls. We repair, maintain, and replace boilers in this small village on the Ohio east of Newport, with 24/7 no-heat service. Older cast-iron units are part of the job. Call (513) 586-5107.',
+    intro: 'Boiler acting up in a Melbourne riverside home after a wet spring? Damp basements are hard on burners and controls. We repair, maintain, and replace boilers in this small village on the Ohio east of Newport, with 7-day no-heat service. Older cast-iron units are part of the job. Call (513) 586-5107.',
     relevance: [
       'Melbourne (ZIP 41059) is a small village in Campbell County, Kentucky, along the Ohio River east of Newport, with older homes on low riverside ground. Older houses like these sometimes still heat with radiators and a hot water boiler, while others were converted to forced air along the way. Knowing which system you have saves a wasted trip. If the rooms have radiators or baseboard, it is a boiler. If they have floor or wall vents, it is a furnace, and our furnace team is the call.',
       'For the Melbourne homes on a boiler, the river is the main concern. Basements here can take on water, and a boiler that has been wet at its base may have damaged controls, gas valves, or wiring. We check those before the boiler runs again. Otherwise the usual issues apply: low pressure, air in the radiators, and older units nearing the end of the 15 to 25 years a well-maintained boiler lasts. If you replace, consider raising the new unit off the floor.',
@@ -229,7 +229,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'hebron': {
-    intro: 'Rural home near CVG heated by a boiler? We service gas and oil-fired units out past the subdivisions. Most newer homes in Hebron run furnaces, but for the ones with a boiler or radiant floors, we repair, maintain, and replace it. No-heat calls get answered 24/7. Call (513) 586-5107.',
+    intro: 'Rural home near CVG heated by a boiler? We service gas and oil-fired units out past the subdivisions. Most newer homes in Hebron run furnaces, but for the ones with a boiler or radiant floors, we repair, maintain, and replace it. No-heat calls get answered 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Hebron (ZIP 41048) is a community in Boone County, Kentucky, near the Cincinnati/Northern Kentucky airport (CVG), with a mix of newer subdivisions and established semi-rural homes. The newer subdivisions are mostly forced-air furnace homes, so boilers are uncommon there. If you have vents in the floor, we are probably not your call for heat. Those homes pair the furnace with central air on the same ductwork, and we would rather say so than book a visit for the wrong equipment.',
       'Boilers are more likely on the established semi-rural properties and in some newer custom builds with radiant floor heat. Rural homes may run gas-fired or oil-fired boilers depending on what fuel reaches the property. Radiant systems run cooler water than radiators but depend just as much on steady pressure and working circulators. Annual service takes 60 to 90 minutes and covers the burner, controls, pressure, and expansion tank. A rural boiler that fails in January means a long, cold wait, so a fall check is worth the time.',
@@ -240,7 +240,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'burlington': {
-    intro: 'Old boiler in a house near the Burlington courthouse? Homes that age often still run radiators, and we work on them. We repair, maintain, and replace boilers across the Boone County seat, though most of the newer subdivisions heat with furnaces. No-heat calls get answered 24/7. Call (513) 586-5107.',
+    intro: 'Old boiler in a house near the Burlington courthouse? Homes that age often still run radiators, and we work on them. We repair, maintain, and replace boilers across the Boone County seat, though most of the newer subdivisions heat with furnaces. No-heat calls get answered 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Burlington (ZIP 41005) is the Boone County seat in Kentucky, with a historic core around the old courthouse surrounded by fast-growing newer subdivisions. The subdivisions mostly run forced-air furnaces, so boiler work there is rare. If your newer home has vents, call about the furnace. Those homes were built with ductwork and usually pair the furnace with central air, and that is who you should call when the heat quits. We would rather point you there on the phone than send a truck for nothing.',
       'The historic core is where boilers still turn up. Older homes of that era often heat with radiators fed by a hot water or steam boiler, sometimes a cast-iron unit that has been in service for a long time. Common calls are low pressure, cold radiators that need bleeding, and leaks at old valves and fittings. Rural homes around Burlington may run their own boilers too. When replacement makes sense, we size a high-efficiency boiler to the house.',
@@ -263,7 +263,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'walton': {
-    intro: 'Farmhouse boiler outside Walton giving you trouble? We service older gas and oil-fired units as well as newer ones. Most homes in the newer subdivisions run furnaces, but for the ones on a boiler, we repair, maintain, and replace it. No-heat calls get answered 24/7. Call (513) 586-5107.',
+    intro: 'Farmhouse boiler outside Walton giving you trouble? We service older gas and oil-fired units as well as newer ones. Most homes in the newer subdivisions run furnaces, but for the ones on a boiler, we repair, maintain, and replace it. No-heat calls get answered 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Walton (ZIP 41094) is a small, growing town at the southern edge of the Boone County metro in Kentucky, with a historic core and newer subdivisions plus surrounding rural homes. The newer subdivisions mostly heat with forced-air furnaces, so if that is your house, a furnace tech is who you need. Those homes were built around ductwork, with central air sharing the same system. Older houses in the core and rural homes out past town are a different case, and those are the ones this page is really for.',
       'Older homes in the Walton core and on the surrounding rural properties are more likely to have a boiler, whether radiators on a hot water or steam system or baseboard off a gas-fired or oil-fired unit. Older boilers out here can be hard to reach for parts, and a unit past the 15 to 25 years a well-maintained boiler lasts is worth planning around. We size replacements to the house, and a high-efficiency boiler runs around 90% efficient.',
@@ -275,7 +275,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'mount-carmel': {
-    intro: 'Is it a boiler or a furnace in your Mount Carmel house? Most homes near I-275 run furnaces, so check before calling. If yours heats with baseboard, radiators, or radiant floors, we repair, maintain, and replace the boiler behind it. No-heat calls get answered 24/7. Call (513) 586-5107.',
+    intro: 'Is it a boiler or a furnace in your Mount Carmel house? Most homes near I-275 run furnaces, so check before calling. If yours heats with baseboard, radiators, or radiant floors, we repair, maintain, and replace the boiler behind it. No-heat calls get answered 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Mount Carmel (ZIP 45244) is a Union Township community in Clermont County, Ohio, on the east side near the I-275 corridor, with established neighborhoods of mid-century and newer homes. Houses of those decades mostly heat with forced-air furnaces, so boilers are less common here, and a home with floor vents needs a furnace tech rather than us. A quick way to check: baseboard, radiators, or warm floors with no vents mean a boiler, and vents mean a furnace.',
       'A few Mount Carmel homes do heat with water: mid-century houses built with hot water baseboard, and some newer ones with radiant floor heat or a combi boiler. Those systems work well for decades if the pressure stays steady and the expansion tank, circulator, and relief valve are in good shape. Annual service takes 60 to 90 minutes and checks all of that, plus the burner and flue. If the boiler is getting old, we will tell you where it sits in the 15 to 25 years a well-maintained unit lasts.',
@@ -286,7 +286,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'summerside': {
-    intro: 'Relief valve dripping on the boiler in your Summerside home? Pressure that keeps climbing usually means a failed expansion tank or fill valve. Most homes here run furnaces, but for those on a boiler, we repair, maintain, and replace it, and we take no-heat calls 24/7. Call (513) 586-5107.',
+    intro: 'Relief valve dripping on the boiler in your Summerside home? Pressure that keeps climbing usually means a failed expansion tank or fill valve. Most homes here run furnaces, but for those on a boiler, we repair, maintain, and replace it, and we take no-heat calls 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Summerside (ZIP 45245) is a Union Township community in western Clermont County, Ohio, with suburban neighborhoods of mid-century and newer homes. Most of those homes heat with forced-air furnaces, so boilers are the exception. If your heat comes through ducts, call about the furnace instead. Those homes were built around ducts that also carry central air, which is why hot water heat is rare on these streets. We would rather tell you that up front than send someone out to look at the wrong system.',
       'The Summerside homes with boilers usually have hot water baseboard from the original build or radiant floor heat added later. High pressure is a common complaint on older systems: when the expansion tank fails, water has nowhere to go as it heats, and the relief valve starts to drip. Low pressure has the opposite effect and leaves rooms cold. We test both, replace what failed, and let you know if the boiler itself is near the end of its 15 to 25 years.',
@@ -297,7 +297,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'withamsville': {
-    intro: 'Running a shop or office along Ohio Pike with boiler heat? A central boiler failure shuts down comfort for the whole building. We repair, maintain, and replace commercial and residential boilers in Withamsville, with 24/7 no-heat service. Home boilers and radiant floors are part of the job too. Call (513) 586-5107.',
+    intro: 'Running a shop or office along Ohio Pike with boiler heat? A central boiler failure shuts down comfort for the whole building. We repair, maintain, and replace commercial and residential boilers in Withamsville, with 7-day no-heat service. Home boilers and radiant floors are part of the job too. Call (513) 586-5107.',
     relevance: [
       'Withamsville (ZIP 45245) is a Union Township community in western Clermont County, Ohio, along the Ohio Pike corridor, with a mix of suburban homes and commercial strips. The mid-century and newer homes here mostly heat with forced-air furnaces, so residential boilers are uncommon, and a homeowner with vents should call about the furnace. The commercial strips are a different mix, and boilers are more likely there. A quick call usually tells us which system you have.',
       'Commercial buildings are more likely to run on a boiler, and some homes still have hot water baseboard or radiant floors. For a business, the priority is keeping the boiler from locking out on a cold morning, which is what yearly service is for: burner, flue, safety controls, pressure, and circulators all get checked. For homes, the same checks apply at a smaller scale. A high-efficiency boiler runs around 90% efficient when replacement comes up.',
@@ -316,7 +316,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     commonIntro: 'In Milford’s 19th-century homes and Main Street buildings heated by radiators and older boilers, the calls we get most are:',
     localFaqs: [
       { q: 'Can you replace the boiler in an old Main Street building in Milford without replacing the radiators?', a: 'Yes. We size the new boiler to the building and connect it to the existing radiators and piping, which keeps the original heat distribution in place.' },
-      { q: 'One boiler heats the shops and apartments in my Milford Main Street building. What should the owner plan for?', a: 'Plan for yearly service and a clear path to the boiler room. When one old boiler heats a whole 19th-century building in Milford, a failure leaves every tenant cold at once. Annual service takes 60 to 90 minutes, and we offer 24/7 no-heat service. If the boiler sits on low ground near the Little Miami, keep its base dry.' },
+      { q: 'One boiler heats the shops and apartments in my Milford Main Street building. What should the owner plan for?', a: 'Plan for yearly service and a clear path to the boiler room. When one old boiler heats a whole 19th-century building in Milford, a failure leaves every tenant cold at once. Annual service takes 60 to 90 minutes, and we offer 7-day no-heat service. If the boiler sits on low ground near the Little Miami, keep its base dry.' },
     ],
   },
 };

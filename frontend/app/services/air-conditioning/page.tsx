@@ -10,7 +10,7 @@ import { servicePages } from '@/content/servicePages';
 
 export const metadata: Metadata = {
   title: 'Air Conditioning Services',
-  description: `Air conditioning services across ${site.serviceArea} from ${site.name} — AC repair, installation, maintenance, and ductless mini-splits. Upfront pricing, 24/7 emergency cooling.`,
+  description: `Air conditioning services across ${site.serviceArea} from ${site.name} — AC repair, installation, maintenance, and ductless mini-splits. Upfront pricing, 7-day emergency cooling.`,
   alternates: { canonical: '/services/air-conditioning' },
 };
 
@@ -59,14 +59,14 @@ const expectations = [
 ];
 
 const whyUs = [
-  { icon: 'clock' as const, title: '24/7 Emergency Cooling', text: 'Lost AC in the heat? We respond around the clock to restore cooling fast.' },
+  { icon: 'clock' as const, title: 'Seven-Day Emergency Cooling', text: 'Lost AC in the heat? We respond 7 days a week from 8am to 8pm to restore cooling fast.' },
   { icon: 'badge' as const, title: 'All AC Systems', text: 'Central air, ductless mini-splits, and heat pumps on all major brands.' },
   { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked technicians and safe, code-compliant work.' },
   { icon: 'check' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
 ];
 
 const faqs = [
-  { q: 'Do you offer emergency AC services?', a: 'Yes. We provide 24/7 emergency air conditioning service to restore cooling as quickly as possible when your system fails during the heat.' },
+  { q: 'Do you offer emergency AC services?', a: 'Yes. We provide 7-day emergency air conditioning service to restore cooling as quickly as possible when your system fails during the heat.' },
   { q: 'What kinds of AC systems do you service?', a: 'We service central air conditioners, ductless mini-splits, and heat pumps from all major brands — repair, maintenance, and installation.' },
   { q: 'What air conditioning services do you offer?', a: 'AC repair, installation and replacement, tune-ups and maintenance, and ductless mini-split services for targeted cooling and heating.' },
   { q: 'Can you help finance a new AC system?', a: 'Yes. We offer financing with a quick application and flexible terms so a new system does not have to wait for the budget.' },
@@ -108,7 +108,7 @@ export default function AirConditioningPage() {
       <PageHero
         eyebrow="Air Conditioning"
         title={`Air Conditioning Services in ${site.serviceArea}`}
-        description="Repair, installation, maintenance, and ductless mini-splits — keeping your home cool, efficient, and reliable all cooling season, with 24/7 emergency service."
+        description="Repair, installation, maintenance, and ductless mini-splits — keeping your home cool, efficient, and reliable all cooling season, with 7-day emergency service."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Services', href: '/services' }, { label: 'Air Conditioning' }]}
       />
 
@@ -223,12 +223,12 @@ export default function AirConditioningPage() {
         </div>
       </section>
 
-      {/* Band: 24/7 emergency (photo right) */}
+      {/* Band: 7-day emergency (photo right) */}
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
-              24/7 Emergency AC Support Is Available
+              7-Day Emergency AC Support Is Available
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
               Air conditioning problems do not wait for business hours. A loss of cooling during
@@ -236,7 +236,7 @@ export default function AirConditioningPage() {
               adults.
             </p>
             <p className="mt-4 text-base leading-relaxed text-white/90">
-              {site.name} offers 24/7 emergency AC service to restore cooling as quickly as possible.
+              {site.name} offers 7-day emergency AC service to restore cooling as quickly as possible.
               Our technicians respond to urgent issues with a focus on safe operation and dependable
               results, helping prevent further damage and reduce stress during high-heat situations.
             </p>

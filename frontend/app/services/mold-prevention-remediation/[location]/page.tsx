@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Mold Prevention & Remediation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Mold Prevention & Remediation in ${loc.neighborhood}, ${loc.state}`,
     description: `Mold containment, removal, and repair of the moisture source causing it in ${place}. Upfront pricing, no overtime fees. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/mold-prevention-remediation/${loc.slug}` },
     openGraph: {

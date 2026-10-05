@@ -30,7 +30,23 @@ const localBusinessSchema = {
   url: site.url,
   telephone: site.primaryPhone.number,
   email: site.email,
+  foundingDate: String(site.founded),
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: site.offices[0].street,
+    addressLocality: site.offices[0].city,
+    addressRegion: site.offices[0].region,
+    postalCode: site.offices[0].postalCode,
+    addressCountry: 'US',
+  },
   areaServed: site.serviceArea,
+  // Matches site.hours (Mon–Sun: 8am–8pm)
+  openingHoursSpecification: {
+    '@type': 'OpeningHoursSpecification',
+    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+    opens: '08:00',
+    closes: '20:00',
+  },
 };
 
 export default function HomePage() {
@@ -68,16 +84,16 @@ export default function HomePage() {
 function PromoBar() {
   return (
     <div className="relative overflow-hidden bg-cobalt py-10 sm:py-12">
-      {/* Large snowflake on the left */}
+      {/* Large flame on the left */}
       <Icon
-        name="snowflake"
+        name="flame"
         className="absolute left-4 top-1/2 hidden h-24 w-24 -translate-y-1/2 text-white/85 sm:block lg:left-10 lg:h-28 lg:w-28 xl:left-[8%]"
       />
 
       {/* Centered headline + CTA */}
       <div className="container-page relative z-10 flex flex-col items-center gap-5 text-center">
         <h2 className="font-display text-3xl font-extrabold uppercase leading-[1.05] tracking-tight text-white sm:text-4xl lg:text-[42px]">
-          $89 Happy House Cooling Checkup
+          $59 Furnace Tune-Up
         </h2>
         <a href="#areas" className="btn-pink px-7 py-3 text-sm">
           Get Offer Now
@@ -121,16 +137,16 @@ function Hero() {
       {/* Left copy */}
       <div className="container-page relative z-10">
         <div className="m-center max-w-md py-12 text-white max-sm:mx-auto lg:max-w-[44%] lg:py-24">
-          <h1 className="font-display text-5xl font-black uppercase leading-[0.9] tracking-tight sm:text-6xl">
+          <p className="font-display text-5xl font-black uppercase leading-[0.9] tracking-tight sm:text-6xl">
             The Color of
             <br />
             Comfort.
-          </h1>
-          <p className="mt-4 text-sm font-bold uppercase tracking-wide text-white/90 sm:text-base">
-            Proudly servicing {site.serviceArea}
           </p>
+          <h1 className="mt-4 text-sm font-bold uppercase tracking-wide text-white/90 sm:text-base">
+            Heating, Cooling, Plumbing &amp; Electrical in {site.serviceArea}
+          </h1>
           <ul className="m-list mt-5 space-y-2.5">
-            {['Same-Day Service', 'Local, Family Owned & Operated', '100% Satisfaction Guarantee'].map(
+            {['Same-Day Service', `Family Owned Since ${site.founded}`, '100% Satisfaction Guarantee'].map(
               (b) => (
                 <li key={b} className="flex items-center gap-2.5 text-sm font-semibold">
                   <span className="grid h-5 w-5 flex-shrink-0 place-items-center rounded-full bg-white">

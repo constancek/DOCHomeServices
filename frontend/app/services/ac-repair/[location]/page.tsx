@@ -30,9 +30,9 @@ const config: ServiceLocationConfig = {
       ],
     },
     {
-      title: '24/7 Emergency AC Repair Available',
+      title: 'Seven-Day Emergency AC Repair Available',
       body: [
-        'Air conditioning problems do not follow a schedule. {brand} offers 24/7 emergency AC repair for urgent issues affecting comfort or safety in {place}, with technicians available nights, weekends, and holidays.',
+        'Air conditioning problems do not follow a schedule. {brand} offers 7-day emergency AC repair for urgent issues affecting comfort or safety in {place}, with technicians available nights, weekends, and holidays.',
         'Emergency service focuses on restoring cooling as quickly as possible while protecting the AC unit from further damage. Fast repairs reduce safety risks and bring your home back to a comfortable temperature.',
       ],
     },
@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `AC Repair in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `AC Repair in ${loc.neighborhood}, ${loc.state}`,
     description: `Same-day AC repair in ${place}. Warm air, frozen coils, or an AC that won’t turn on — licensed HVAC techs, upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/ac-repair/${loc.slug}` },
     openGraph: {

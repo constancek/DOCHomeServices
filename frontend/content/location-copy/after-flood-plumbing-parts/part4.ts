@@ -177,7 +177,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you get to Addyston once the river drops?",
-        a: "Addyston is on our far-west river route, and a house you cannot safely run water in is an emergency. We are on call 24/7 and aim for same-day, checking the heater and gas connections first so nothing unsafe gets relit.",
+        a: "Addyston is on our far-west river route, and a house you cannot safely run water in is an emergency. We are on call 7 days a week from 8am to 8pm and aim for same-day, checking the heater and gas connections first so nothing unsafe gets relit.",
       },
     ],
   },
@@ -233,7 +233,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach Evendale after a flood?",
-        a: "Evendale is well within our north-side service area, and a home you cannot safely use water in is an emergency. We are on call 24/7 and inspect the gas connections and water heater the same day, before anything is relit.",
+        a: "Evendale is well within our north-side service area, and a home you cannot safely use water in is an emergency. We are on call 7 days a week from 8am to 8pm and inspect the gas connections and water heater the same day, before anything is relit.",
       },
     ],
   },

@@ -7,7 +7,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'In Ludlow’s historic riverfront homes, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'Do you serve Ludlow across the river from Cincinnati?', a: 'Yes. Ludlow is a core part of our Northern Kentucky service area, and crossing the river is routine for us. We are on call 24/7 with same-day water extraction.' },
+      { q: 'Do you serve Ludlow across the river from Cincinnati?', a: 'Yes. Ludlow is a core part of our Northern Kentucky service area, and crossing the river is routine for us. We are on call 7 days a week from 8am to 8pm with same-day water extraction.' },
       { q: 'Who handles water and sewer permitting in Ludlow?', a: 'Ludlow is served by Northern Kentucky Water District for supply and SD1 for sanitation, not Cincinnati or MSD. When a repair behind a water loss needs a permit, we pull it through the city of Ludlow and the right district.' },
     ],
   },
@@ -19,7 +19,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'In Park Hills’ older hillside homes, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'Do you serve Park Hills from the Cincinnati side?', a: 'Yes. Park Hills is well within our Northern Kentucky service area near Covington, and we cross the river daily. We are on call 24/7 with same-day response.' },
+      { q: 'Do you serve Park Hills from the Cincinnati side?', a: 'Yes. Park Hills is well within our Northern Kentucky service area near Covington, and we cross the river daily. We are on call 7 days a week from 8am to 8pm with same-day response.' },
       { q: 'Which water district covers Park Hills?', a: 'Park Hills is on Northern Kentucky Water District with SD1 handling sanitation, not MSD. Any permitted repair after a water loss goes through the city of Park Hills and the correct district.' },
     ],
   },
@@ -43,7 +43,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'Across Fort Wright’s homes, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'Do you serve Fort Wright from across the river?', a: 'Yes. Fort Wright is well within our Northern Kentucky service area, and crossing the river is part of a normal day for us. We are on call 24/7 with same-day service.' },
+      { q: 'Do you serve Fort Wright from across the river?', a: 'Yes. Fort Wright is well within our Northern Kentucky service area, and crossing the river is part of a normal day for us. We are on call 7 days a week from 8am to 8pm with same-day service.' },
       { q: 'Which utility covers Fort Wright?', a: 'Fort Wright is on Northern Kentucky Water District with SD1 for sanitation, not Cincinnati or MSD. Permitted repairs after a water loss go through the city and the right district.' },
     ],
   },
@@ -55,7 +55,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'Across Fort Mitchell’s homes, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'Do you serve Fort Mitchell across the river?', a: 'Yes. Fort Mitchell along Dixie Highway is well within our Northern Kentucky service area, and we cross the river daily. We are on call 24/7 with same-day response.' },
+      { q: 'Do you serve Fort Mitchell across the river?', a: 'Yes. Fort Mitchell along Dixie Highway is well within our Northern Kentucky service area, and we cross the river daily. We are on call 7 days a week from 8am to 8pm with same-day response.' },
       { q: 'Who handles water permitting in Fort Mitchell?', a: 'Fort Mitchell is served by Northern Kentucky Water District and SD1 for sanitation, not MSD. Any permitted repair after a water loss goes through the city and the correct district.' },
     ],
   },
@@ -79,7 +79,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'Across Lakeside Park’s mid-century homes, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'Do you serve Lakeside Park across the river?', a: 'Yes. Lakeside Park is well within our Northern Kentucky service area, and we are there routinely. We are on call 24/7 with same-day water extraction.' },
+      { q: 'Do you serve Lakeside Park across the river?', a: 'Yes. Lakeside Park is well within our Northern Kentucky service area, and we are there routinely. We are on call 7 days a week from 8am to 8pm with same-day water extraction.' },
       { q: 'Who permits plumbing work in Lakeside Park?', a: 'Lakeside Park is served by Northern Kentucky Water District and SD1 for sanitation, not MSD. Permitted repairs after a water loss go through the city and the correct district.' },
     ],
   },
@@ -91,7 +91,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'Across Crescent Springs’ homes, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'Do you serve Crescent Springs from the Cincinnati side?', a: 'Yes. Crescent Springs is well within our Northern Kentucky service area, and crossing the river is routine. We are on call 24/7 and aim for same-day arrival.' },
+      { q: 'Do you serve Crescent Springs from the Cincinnati side?', a: 'Yes. Crescent Springs is well within our Northern Kentucky service area, and crossing the river is routine. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival.' },
       { q: 'Which water district covers Crescent Springs?', a: 'Crescent Springs is on Northern Kentucky Water District with SD1 for sanitation, not Cincinnati or MSD. Permitted repairs behind a water loss go through the city and the right district.' },
     ],
   },
@@ -115,7 +115,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'Across Edgewood’s homes, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'Do you serve Edgewood across the river?', a: 'Yes. Edgewood is well within our Northern Kentucky service area, and we cross the river daily. We are on call 24/7 and aim for same-day extraction.' },
+      { q: 'Do you serve Edgewood across the river?', a: 'Yes. Edgewood is well within our Northern Kentucky service area, and we cross the river daily. We are on call 7 days a week from 8am to 8pm and aim for same-day extraction.' },
       { q: 'Which water district serves Edgewood?', a: 'Edgewood is on Northern Kentucky Water District with SD1 for sanitation, not Cincinnati or MSD. Permitted repairs behind a water loss go through the city and the right district.' },
     ],
   },
@@ -139,7 +139,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'Across Elsmere’s older and mid-century homes, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'Do you serve Elsmere across the river?', a: 'Yes. Elsmere along Dixie Highway is well within our Northern Kentucky service area, and we cross the river daily. We are on call 24/7 with same-day response.' },
+      { q: 'Do you serve Elsmere across the river?', a: 'Yes. Elsmere along Dixie Highway is well within our Northern Kentucky service area, and we cross the river daily. We are on call 7 days a week from 8am to 8pm with same-day response.' },
       { q: 'Which water district covers Elsmere?', a: 'Elsmere is on Northern Kentucky Water District with SD1 for sanitation, not Cincinnati or MSD. Permitted repairs behind a water loss go through the city and the right district.' },
     ],
   },
@@ -151,7 +151,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'Across Independence’s newer subdivisions and older core, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'Do you serve Independence from the Cincinnati side?', a: 'Yes. Independence is part of our Northern Kentucky service area, and crossing the river is routine. We are on call 24/7 and aim for same-day arrival.' },
+      { q: 'Do you serve Independence from the Cincinnati side?', a: 'Yes. Independence is part of our Northern Kentucky service area, and crossing the river is routine. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival.' },
       { q: 'Who handles water permitting in Independence?', a: 'Independence is served by Northern Kentucky Water District and SD1 for sanitation, not MSD. Permitted repairs after a water loss go through the city and the correct district.' },
     ],
   },
@@ -163,7 +163,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'In Dayton’s historic riverfront homes, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'Do you cross the river to reach Dayton, KY?', a: 'Yes. Dayton is a core part of our Northern Kentucky river service area, and we are there routinely. We are on call 24/7 with same-day water extraction.' },
+      { q: 'Do you cross the river to reach Dayton, KY?', a: 'Yes. Dayton is a core part of our Northern Kentucky river service area, and we are there routinely. We are on call 7 days a week from 8am to 8pm with same-day water extraction.' },
       { q: 'Which utility serves Dayton, KY?', a: 'Dayton is on Northern Kentucky Water District with SD1 for sanitation, not Cincinnati or MSD. Permitted repairs behind a water loss go through the city and the correct district.' },
     ],
   },
@@ -175,7 +175,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'Across Southgate’s mid-century homes, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'Do you serve Southgate across the river?', a: 'Yes. Southgate near Newport is well within our Northern Kentucky service area, and we cross the river daily. We are on call 24/7 with same-day response.' },
+      { q: 'Do you serve Southgate across the river?', a: 'Yes. Southgate near Newport is well within our Northern Kentucky service area, and we cross the river daily. We are on call 7 days a week from 8am to 8pm with same-day response.' },
       { q: 'Who permits plumbing repairs in Southgate?', a: 'Southgate is served by Northern Kentucky Water District and SD1 for sanitation, not MSD. Permitted repairs after a water loss go through the city and the correct district.' },
     ],
   },
@@ -187,7 +187,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'Across Wilder’s homes and businesses, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'How fast can you get to a flooded building in Wilder?', a: 'We are on call 24/7 and aim for same-day arrival across the Licking River corridor. A burst line in a commercial or industrial building cannot wait, so we extract and start drying the day we get there.' },
+      { q: 'How fast can you get to a flooded building in Wilder?', a: 'We are on call 7 days a week from 8am to 8pm and aim for same-day arrival across the Licking River corridor. A burst line in a commercial or industrial building cannot wait, so we extract and start drying the day we get there.' },
       { q: 'Which water district covers Wilder?', a: 'Wilder is on Northern Kentucky Water District with SD1 for sanitation, not Cincinnati or MSD. Permitted repairs behind a water loss go through the city and the correct district, and we cross the river to reach you.' },
     ],
   },
@@ -199,7 +199,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'Across Highland Heights’ homes and rentals near NKU, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'Do you handle water damage in student rentals near NKU?', a: 'Yes. We work on the homes and rentals around the university, extracting water and repairing the plumbing behind it, and we are available 24/7 for burst pipes and water heater failures.' },
+      { q: 'Do you handle water damage in student rentals near NKU?', a: 'Yes. We work on the homes and rentals around the university, extracting water and repairing the plumbing behind it, and we are available 7 days a week from 8am to 8pm for burst pipes and water heater failures.' },
       { q: 'Who permits plumbing repairs in Highland Heights?', a: 'Highland Heights is served by Northern Kentucky Water District and SD1 for sanitation, not MSD. Permitted repairs after a water loss go through the city and the correct district.' },
     ],
   },
@@ -211,7 +211,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'Across Cold Spring’s homes, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'Do you serve Cold Spring from the Cincinnati side?', a: 'Yes. Cold Spring along US-27 is within our Northern Kentucky service area, and crossing the river is routine. We are on call 24/7 and aim for same-day arrival.' },
+      { q: 'Do you serve Cold Spring from the Cincinnati side?', a: 'Yes. Cold Spring along US-27 is within our Northern Kentucky service area, and crossing the river is routine. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival.' },
       { q: 'Which water district serves Cold Spring?', a: 'Cold Spring is on Northern Kentucky Water District with SD1 for sanitation, not Cincinnati or MSD. Permitted repairs behind a water loss go through the city and the right district.' },
     ],
   },
@@ -235,7 +235,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'In Melbourne’s older riverside homes, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'Can you still reach Melbourne when the river is high?', a: 'Yes. Melbourne is within our Northern Kentucky river service area, and we cross the river routinely, high water or not. We are on call 24/7 and aim for same-day extraction once a home is safe to enter.' },
+      { q: 'Can you still reach Melbourne when the river is high?', a: 'Yes. Melbourne is within our Northern Kentucky river service area, and we cross the river routinely, high water or not. We are on call 7 days a week from 8am to 8pm and aim for same-day extraction once a home is safe to enter.' },
       { q: 'Which utility serves Melbourne?', a: 'Melbourne is on Northern Kentucky Water District with SD1 for sanitation, not Cincinnati or MSD. Permitted repairs behind a water loss go through the city and the correct district.' },
     ],
   },
@@ -247,7 +247,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'Across Hebron’s newer and rural homes, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'Do you serve Hebron near the airport?', a: 'Yes. Hebron is part of our Boone County service area near CVG, and we reach it routinely. We are on call 24/7 and aim for same-day arrival.' },
+      { q: 'Do you serve Hebron near the airport?', a: 'Yes. Hebron is part of our Boone County service area near CVG, and we reach it routinely. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival.' },
       { q: 'Which water district covers Hebron?', a: 'Hebron is served by Northern Kentucky Water District with SD1 for sanitation, not Cincinnati or MSD. Permitted repairs behind a water loss go through the county and the correct district.' },
     ],
   },
@@ -271,7 +271,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'Across Union’s newer subdivisions, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'Do you serve Union in Boone County?', a: 'Yes. Union is part of our Boone County service area, and we reach it routinely. We are on call 24/7 and aim for same-day arrival.' },
+      { q: 'Do you serve Union in Boone County?', a: 'Yes. Union is part of our Boone County service area, and we reach it routinely. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival.' },
       { q: 'Which water district serves Union?', a: 'Union is on Northern Kentucky Water District with SD1 for sanitation, not Cincinnati or MSD. Permitted repairs behind a water loss go through the city and the right district.' },
     ],
   },
@@ -295,7 +295,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'Across Mount Carmel’s homes, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'How fast can you reach Mount Carmel for water damage?', a: 'Mount Carmel is well within our east-side service area in Union Township. We are on call 24/7 and aim for same-day water extraction.' },
+      { q: 'How fast can you reach Mount Carmel for water damage?', a: 'Mount Carmel is well within our east-side service area in Union Township. We are on call 7 days a week from 8am to 8pm and aim for same-day water extraction.' },
       { q: 'Who handles water and sewer service in Mount Carmel?', a: 'Mount Carmel is served by Clermont County utilities in Union Township, not the city of Cincinnati or MSD. Permitted repairs after a water loss go through the township and county.' },
     ],
   },
@@ -319,7 +319,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'Across Withamsville’s homes and businesses, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'A business on Ohio Pike flooded over the weekend. How fast can you respond?', a: 'We are on call 24/7 with same-day response along the Ohio Pike corridor. A leak in a closed storefront spreads for as long as it runs, so we extract and start drying as soon as we are in the door, one crew for the repair and the drying both.' },
+      { q: 'A business on Ohio Pike flooded over the weekend. How fast can you respond?', a: 'We are on call 7 days a week from 8am to 8pm with same-day response along the Ohio Pike corridor. A leak in a closed storefront spreads for as long as it runs, so we extract and start drying as soon as we are in the door, one crew for the repair and the drying both.' },
       { q: 'Who provides water and sewer in Withamsville?', a: 'Withamsville is served by Clermont County utilities in Union Township, not Cincinnati or MSD. Any permitted repair after a water loss goes through the township and county.' },
     ],
   },
@@ -331,7 +331,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro: 'In Milford’s historic downtown and older homes, the water damage we handle most often comes from:',
     localFaqs: [
-      { q: 'How fast can you reach Milford for water damage?', a: 'Milford is within our east-side service area along the Little Miami River. We are on call 24/7 and aim for same-day water extraction.' },
+      { q: 'How fast can you reach Milford for water damage?', a: 'Milford is within our east-side service area along the Little Miami River. We are on call 7 days a week from 8am to 8pm and aim for same-day water extraction.' },
       { q: 'Who handles water and sewer in Milford?', a: 'Milford is served by Clermont County utilities and the city of Milford, not Cincinnati or MSD. Permitted repairs behind a water loss go through the city and county.' },
     ],
   },

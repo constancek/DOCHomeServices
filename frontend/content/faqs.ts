@@ -64,7 +64,7 @@ export const faqGroups: { category: string; items: { q: string; a: string }[] }[
     items: [
       { q: 'What are the most common types of heating problems?', a: 'No heat, uneven heating, short cycling, strange noises, and an unresponsive thermostat.' },
       { q: 'How much does it cost to repair my heating system?', a: 'It varies by the failed part. You get a flat-rate price before we start.' },
-      { q: "What do I do if my heat isn't working?", a: 'Check the thermostat, breaker, and air filter first. If it still will not run, call us — no-heat calls are handled around the clock.' },
+      { q: "What do I do if my heat isn't working?", a: 'Check the thermostat, breaker, and air filter first. If it still will not run, call us — no-heat calls are handled 7 days a week from 8am to 8pm.' },
       { q: 'What does heating maintenance mean?', a: 'A seasonal inspection and tune-up that keeps your furnace or heat pump safe, efficient, and reliable.' },
       { q: 'How often should I service my heating?', a: 'Once a year, in the fall before the first cold snap.' },
       { q: 'What happens during heating maintenance?', a: 'We inspect and clean key components, test safety controls, check the heat exchanger, and run a carbon monoxide test.' },

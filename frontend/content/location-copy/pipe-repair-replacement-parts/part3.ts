@@ -63,7 +63,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro:
       'In Winton Hills’ homes and multi-unit buildings, the pipe problems we handle most often come from aging, shared lines:',
-    localFaqs: [{ q: 'How fast can you find a leaking pipe at a Winton Hills building?', a: 'We camera the line to locate the failure quickly, then replace that section and contain the work to one unit. Winton Hills is in our north-side service area near Winton Road, on call 24/7.' }],
+    localFaqs: [{ q: 'How fast can you find a leaking pipe at a Winton Hills building?', a: 'We camera the line to locate the failure quickly, then replace that section and contain the work to one unit. Winton Hills is in our north-side service area near Winton Road, on call 7 days a week from 8am to 8pm.' }],
   },
   'roselawn': {
     intro:
@@ -173,7 +173,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
     commonIntro:
       'Across Mack’s mid-century and newer homes, the pipe problems we handle most often range from corroded older lines to burst joints:',
-    localFaqs: [{ q: 'A pipe burst in my Mack home — how fast can you find and replace it?', a: 'We locate the break with a camera and leak-detection tools, then replace that section the same day where we can. Mack is in our west-side service area in Green Township, on call 24/7.' }],
+    localFaqs: [{ q: 'A pipe burst in my Mack home — how fast can you find and replace it?', a: 'We locate the break with a camera and leak-detection tools, then replace that section the same day where we can. Mack is in our west-side service area in Green Township, on call 7 days a week from 8am to 8pm.' }],
   },
   'monfort-heights': {
     intro:

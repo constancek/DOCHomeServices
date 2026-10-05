@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Sump Pumps in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Sump Pumps in ${loc.neighborhood}, ${loc.state}`,
     description: `Sump pump installation, repair, and replacement in ${place} — including battery-backup systems to keep your basement dry. Same-day service. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/sump-pumps/${loc.slug}` },
     openGraph: {

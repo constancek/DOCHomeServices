@@ -177,7 +177,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you get to Addyston once the river drops?",
-        a: "Addyston is part of our far-west river service area, and we are on call 24/7. We cannot camera a main that is still underwater, so we come as soon as the water recedes and go straight to jetting the settled silt out.",
+        a: "Addyston is part of our far-west river service area, and we are on call 7 days a week from 8am to 8pm. We cannot camera a main that is still underwater, so we come as soon as the water recedes and go straight to jetting the settled silt out.",
       },
     ],
   },

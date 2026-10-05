@@ -164,7 +164,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'Central air not cooling in Erlanger? We repair and service AC across this Kenton County city near the airport and reach most homes the same day. Call (513) 586-5107.',
     relevance: [
       'Erlanger (ZIP 41018) is an established Kenton County city near the airport, with settled mid-century neighborhoods and a mix of older and newer homes. The mid-1900s houses are the ones where central air was added later, and the condensers serving them are now commonly old enough that compressors weaken and capacitors give out under summer load.',
-      'When one of those aging systems fails, it usually does it on the hottest afternoon, because that is when an old compressor is pushed hardest. Those are the calls we answer most in Erlanger — a unit that worked last summer and now can’t hold the house, which typically traces to a tired component or low refrigerant rather than the ductwork. We handle them day or night across the city.',
+      'When one of those aging systems fails, it usually does it on the hottest afternoon, because that is when an old compressor is pushed hardest. Those are the calls we answer most in Erlanger — a unit that worked last summer and now can’t hold the house, which typically traces to a tired component or low refrigerant rather than the ductwork. We handle them 7 days a week from 8am to 8pm across the city.',
     ],
     commonIntro:
       'Across Erlanger’s mid-century homes, the AC problems we handle most often come from condensers that have aged past their reliable years:',
@@ -196,7 +196,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'Central air down in a West Chester subdivision? We repair and service AC across this Butler County community along I-75 and reach most homes the same day. Call (513) 586-5107.',
     relevance: [
       'West Chester (ZIP 45069) is a large, fast-growing Butler County community between Cincinnati and Dayton, made up largely of subdivisions built from the 1990s onward along the I-75 corridor. These newer homes are now old enough that the condensers and capacitors installed when they were built are reaching the age where they fail, typically on the first stretch of 90-degree weather when the system runs hardest.',
-      'The larger two-story homes that fill these subdivisions are also the ones a single undersized condenser struggles to cool evenly, leaving upstairs bedrooms warm while the main floor stays comfortable. That is the call we answer most here — equipment at the end of its first life, or a system that was never zoned for the square footage. We respond day or night across the township.',
+      'The larger two-story homes that fill these subdivisions are also the ones a single undersized condenser struggles to cool evenly, leaving upstairs bedrooms warm while the main floor stays comfortable. That is the call we answer most here — equipment at the end of its first life, or a system that was never zoned for the square footage. We respond 7 days a week from 8am to 8pm across the township.',
     ],
     commonIntro:
       'Across West Chester’s newer subdivisions, the AC problems we handle most often involve original equipment reaching failure age and larger homes that need zoning to cool evenly:',
@@ -228,7 +228,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'Cooling down in a Queensgate building? We repair and service AC across this commercial and industrial district west of downtown and reach most buildings the same day. Call (513) 586-5107.',
     relevance: [
       'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Cooling here is mostly commercial — rooftop units and packaged systems serving older industrial buildings rather than home central air, and those units take a beating in summer heat.',
-      'In an aging commercial building, a failed rooftop unit can leave a whole floor or workspace without cooling on the hottest day, so a fast response keeps a business running. We handle those commercial systems alongside any homes in the district, and the low ground near the Mill Creek means equipment placement and drainage are worth getting right. We respond around the clock.',
+      'In an aging commercial building, a failed rooftop unit can leave a whole floor or workspace without cooling on the hottest day, so a fast response keeps a business running. We handle those commercial systems alongside any homes in the district, and the low ground near the Mill Creek means equipment placement and drainage are worth getting right. We respond 7 days a week from 8am to 8pm.',
     ],
     commonIntro:
       'In Queensgate’s commercial and industrial buildings, the AC problems we handle most often are the rooftop and packaged-unit failures common in older industrial space:',
@@ -260,7 +260,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'AC quit in a Camp Washington home or building? We repair and service central air in this Mill Creek valley neighborhood and reach most properties the same day. Call (513) 586-5107.',
     relevance: [
       'Camp Washington (ZIP 45225) is a historic working neighborhood in the Mill Creek valley, known for its industry, the American Sign Museum, and a tight mix of old worker housing and factories. The valley floor traps heat and humidity in summer, so cooling systems here carry a heavier load than homes up on the hills, and an aging unit falls behind on the worst days.',
-      'The old worker housing was built well before central air, so what cooling exists is retrofitted in — often a single older condenser per house, or window units in the tightest homes. When one of those fails in a valley heat pocket, a fast response matters, and we service homes and the area’s older buildings alike around the clock.',
+      'The old worker housing was built well before central air, so what cooling exists is retrofitted in — often a single older condenser per house, or window units in the tightest homes. When one of those fails in a valley heat pocket, a fast response matters, and we service homes and the area’s older buildings alike 7 days a week from 8am to 8pm.',
     ],
     commonIntro:
       'In Camp Washington’s older homes and buildings down in the valley, the AC problems we handle most often pair valley heat with cooling retrofitted into old housing:',
@@ -324,7 +324,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'AC out in an Evanston home near Xavier? We repair and service central air across this east-side neighborhood and reach most homes the same day. Call (513) 586-5107.',
     relevance: [
       'Evanston (ZIP 45207) is an east-side neighborhood next to Xavier University, with streets of early-1900s homes and apartment buildings, some now student housing. The early-1900s homes were built before central air, so cooling is a retrofit, and the condensers serving them are often well past their reliable years.',
-      'The densely built rentals and apartments near campus add heavy use to that aging equipment, so window units run flat out and shared systems wear quickly. When one fails on a hot day, a fast response matters, and in subdivided houses we take care that a repair restores cooling without leaving the rest of the building warm. We respond around the clock.',
+      'The densely built rentals and apartments near campus add heavy use to that aging equipment, so window units run flat out and shared systems wear quickly. When one fails on a hot day, a fast response matters, and in subdivided houses we take care that a repair restores cooling without leaving the rest of the building warm. We respond 7 days a week from 8am to 8pm.',
     ],
     commonIntro:
       'In Evanston’s early-1900s homes near Xavier, the AC problems we handle most often come from aging cooling under heavy rental use:',
@@ -356,7 +356,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'AC struggling in an English Woods hilltop home? We repair and service central air in this west-side neighborhood overlooking the Mill Creek valley and reach most homes the same day. Call (513) 586-5107.',
     relevance: [
       'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. Homes on the hilltop sit exposed to long afternoon sun, and that heat load can push a cooling system past what it can hold in the late-day hours.',
-      'The older homes here were built before central air, so the systems in them are retrofits, typically aging condensers past their reliable years, while the redeveloped homes run newer equipment that is now entering the age where parts fail. Across both, an afternoon that the unit can’t keep up with is the call we answer most, and we respond day or night.',
+      'The older homes here were built before central air, so the systems in them are retrofits, typically aging condensers past their reliable years, while the redeveloped homes run newer equipment that is now entering the age where parts fail. Across both, an afternoon that the unit can’t keep up with is the call we answer most, and we respond 7 days a week from 8am to 8pm.',
     ],
     commonIntro:
       'In English Woods’ older hilltop homes, the AC problems we handle most often combine afternoon sun with aging cooling retrofitted into older houses:',
@@ -388,7 +388,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'AC out in Millvale? We repair and service central air in this Mill Creek valley neighborhood and reach most homes the same day. Call (513) 586-5107.',
     relevance: [
       'Millvale (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, a compact, largely residential community. The low valley setting holds summer heat and humidity, so cooling systems here run under a heavier load than homes up on the surrounding hills, and an aging unit struggles to keep pace on the hottest days.',
-      'The older housing predates central air, so the systems in these homes are retrofits, often an aging condenser well past its reliable years. Combined with the valley heat, the call we answer most is a unit that can’t hold the house once the temperature climbs. We respond around the clock to restore it.',
+      'The older housing predates central air, so the systems in these homes are retrofits, often an aging condenser well past its reliable years. Combined with the valley heat, the call we answer most is a unit that can’t hold the house once the temperature climbs. We respond 7 days a week from 8am to 8pm to restore it.',
     ],
     commonIntro:
       'In Millvale’s valley homes, the AC problems we handle most often pair valley heat with aging cooling retrofitted into older houses:',
@@ -420,7 +420,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'AC not keeping up in Spring Grove Village? We repair and service central air for the homes near Spring Grove Cemetery and reach most the same day. Call (513) 586-5107.',
     relevance: [
       'Spring Grove Village (ZIP 45232) sits in the Mill Creek valley around the historic Spring Grove Cemetery and Arboretum, one of the largest cemeteries in the country, with a mix of older homes and industry. The valley floor holds summer heat and humidity, raising the cooling load on every system, so an older or undersized unit struggles to keep a house comfortable on the worst days.',
-      'The neighborhood’s older housing predates central air, so the systems in those homes are retrofits, typically aging condensers past their reliable years. Combined with the valley humidity, the call we answer most is a unit that runs constantly and still can’t dry out and cool the house. We respond around the clock to restore it.',
+      'The neighborhood’s older housing predates central air, so the systems in those homes are retrofits, typically aging condensers past their reliable years. Combined with the valley humidity, the call we answer most is a unit that runs constantly and still can’t dry out and cool the house. We respond 7 days a week from 8am to 8pm to restore it.',
     ],
     commonIntro:
       'In Spring Grove Village’s older valley homes, the AC problems we handle most often combine valley heat with aging cooling retrofitted into older houses:',
@@ -452,7 +452,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'Central air quit in Bond Hill during the heat? We repair and service AC for the homes along Reading Road and reach most of them the same day. Call (513) 586-5107.',
     relevance: [
       'Bond Hill (ZIP 45237) is a north-side neighborhood along Reading Road, with established streets of early-1900s and mid-century single-family homes. The mid-century houses are the ones where central air was added later, and the condensers serving them are now commonly fifteen to twenty-plus years old — old enough that compressors strain and capacitors fail under summer load.',
-      'When one of those aging systems gives out, it tends to do it on the hottest afternoon of the year, because that is when an old compressor is pushed hardest. That is the call we answer most in Bond Hill — a unit that cooled fine last summer and now can’t hold the house, which usually points to a worn component or low refrigerant rather than the ductwork. We handle them day or night.',
+      'When one of those aging systems gives out, it tends to do it on the hottest afternoon of the year, because that is when an old compressor is pushed hardest. That is the call we answer most in Bond Hill — a unit that cooled fine last summer and now can’t hold the house, which usually points to a worn component or low refrigerant rather than the ductwork. We handle them 7 days a week from 8am to 8pm.',
     ],
     commonIntro:
       'Across Bond Hill’s older and mid-century homes, the AC problems we handle most often come from aging condensers retrofitted into older houses:',

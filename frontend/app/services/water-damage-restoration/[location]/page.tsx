@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Water Damage Restoration in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Water Damage Restoration in ${loc.neighborhood}, ${loc.state}`,
     description: `Water extraction, structural drying, and plumbing repair in ${place}. Same-day response, upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/water-damage-restoration/${loc.slug}` },
     openGraph: {

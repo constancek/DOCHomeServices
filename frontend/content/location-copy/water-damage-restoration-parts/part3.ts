@@ -207,7 +207,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
       'The pump comes first, because drying a basement that is still taking on water is wasted effort. We repair or replace it, extract what is standing, and dry the framing and subfloor to measured readings. If the water rose through a drain rather than in clean past the pump, we treat it as contaminated and pull the porous materials it soaked.',
     ],
     commonIntro: "In Arlington Heights' older valley homes, the water damage we dry out most often comes from:",
-    localFaqs: [{ q: 'How fast can you reach Arlington Heights after a basement floods?', a: 'Arlington Heights sits within our service area in the Mill Creek valley, and we are on call around the clock. Because the first 24 hours decide how much dries rather than gets replaced, we aim to be extracting water the same day you call.' }],
+    localFaqs: [{ q: 'How fast can you reach Arlington Heights after a basement floods?', a: 'Arlington Heights sits within our service area in the Mill Creek valley, and we are on call 7 days a week from 8am to 8pm. Because the first 24 hours decide how much dries rather than gets replaced, we aim to be extracting water the same day you call.' }],
   },
   'north-college-hill': {
     intro:

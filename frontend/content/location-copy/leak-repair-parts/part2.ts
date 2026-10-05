@@ -27,7 +27,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'There’s a water stain on my Wyoming home’s plaster ceiling — can you find the leak without tearing it apart?',
-        a: 'Yes. In Wyoming’s older homes a ceiling stain often comes from a pipe a floor or two above it, so we use leak-detection tools to pinpoint the source and open only the small area needed to repair it. We are on call 24/7 and aim for same-day arrival.',
+        a: 'Yes. In Wyoming’s older homes a ceiling stain often comes from a pipe a floor or two above it, so we use leak-detection tools to pinpoint the source and open only the small area needed to repair it. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival.',
       },
     ],
   },
@@ -267,7 +267,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My Camp Washington basement is damp — is it a leak or just the valley ground?',
-        a: 'Both are common down in the Mill Creek valley, so we use leak detection to tell a seeping supply line from groundwater dampness before we repair anything. We are on call 24/7 and aim for same-day arrival.',
+        a: 'Both are common down in the Mill Creek valley, so we use leak detection to tell a seeping supply line from groundwater dampness before we repair anything. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival.',
       },
     ],
   },
@@ -299,7 +299,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My East End cottage near the river stays damp — is it a leak?',
-        a: 'Riverside dampness and a slow supply-line leak look alike along Eastern Avenue, so we use leak detection to tell them apart before repairing. We are on call 24/7 and aim for same-day arrival.',
+        a: 'Riverside dampness and a slow supply-line leak look alike along Eastern Avenue, so we use leak detection to tell them apart before repairing. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival.',
       },
     ],
   },
@@ -379,7 +379,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'There’s a water stain on the ceiling of my North Avondale home — can you find the source?',
-        a: 'In North Avondale’s large older homes a ceiling stain often comes from a pipe a floor or more above it, so we use leak detection to pinpoint the source and open only what the repair needs. North Avondale is centrally located, and we are on call 24/7 with same-day service.',
+        a: 'In North Avondale’s large older homes a ceiling stain often comes from a pipe a floor or more above it, so we use leak detection to pinpoint the source and open only what the repair needs. North Avondale is centrally located, and we are on call 7 days a week from 8am to 8pm with same-day service.',
       },
     ],
   },

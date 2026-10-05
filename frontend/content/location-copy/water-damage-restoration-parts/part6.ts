@@ -175,7 +175,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Do you come this far out to Bethel and southeastern Clermont County?',
-        a: 'Yes. Bethel and the rural stretch of southeastern Clermont County around it are squarely in our service area. We are on call around the clock with same-day response for active water damage, whether the home runs on a well or on municipal water.',
+        a: 'Yes. Bethel and the rural stretch of southeastern Clermont County around it are squarely in our service area. We are on call 7 days a week from 8am to 8pm with same-day response for active water damage, whether the home runs on a well or on municipal water.',
       },
     ],
   },

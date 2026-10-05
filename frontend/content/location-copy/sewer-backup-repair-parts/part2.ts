@@ -235,7 +235,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Do you clear sewer backups in commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we camera, jet, and repair backed-up laterals in those buildings around the clock. We show you the footage and price the repair before we start.',
+        a: 'Yes. Queensgate is mostly commercial and industrial, and we camera, jet, and repair backed-up laterals in those buildings 7 days a week from 8am to 8pm. We show you the footage and price the repair before we start.',
       },
     ],
   },

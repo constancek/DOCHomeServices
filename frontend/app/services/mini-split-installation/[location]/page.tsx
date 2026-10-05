@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Mini-Split Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Mini-Split Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Ductless mini-split installation in ${place} — efficient, properly sized, zoned cooling and heating without ductwork. Financing available. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/mini-split-installation/${loc.slug}` },
     openGraph: {

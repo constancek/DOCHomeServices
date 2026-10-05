@@ -195,7 +195,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
       },
       {
         q: 'How fast can you get to a backup in Edgewood?',
-        a: 'Edgewood is well within our Kenton County area near St. Elizabeth Healthcare, and we are on call around the clock. Because sewage is contaminated, we treat a backup as urgent and keep people and pets out of the affected area until the line is open.',
+        a: 'Edgewood is well within our Kenton County area near St. Elizabeth Healthcare, and we are on call 7 days a week from 8am to 8pm. Because sewage is contaminated, we treat a backup as urgent and keep people and pets out of the affected area until the line is open.',
       },
     ],
   },
@@ -311,7 +311,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'A backup has shut my Wilder restaurant. How fast can you get here?',
-        a: 'We treat a commercial backup as urgent, because a closed line stops the business. We are on call around the clock, camera the line on arrival, and jet the grease out fully so you are not shut again next week. We also tell you whether it is your line or the SD1 main.',
+        a: 'We treat a commercial backup as urgent, because a closed line stops the business. We are on call 7 days a week from 8am to 8pm, camera the line on arrival, and jet the grease out fully so you are not shut again next week. We also tell you whether it is your line or the SD1 main.',
       },
       {
         q: 'Who runs the sewer in Wilder?',
@@ -335,7 +335,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
       },
       {
         q: 'Who runs the sewer in Highland Heights?',
-        a: 'Highland Heights is on SD1 for sanitation, not Cincinnati or MSD, with city and Campbell County permitting. We serve across the river and are available around the clock.',
+        a: 'Highland Heights is on SD1 for sanitation, not Cincinnati or MSD, with city and Campbell County permitting. We serve across the river and are available 7 days a week from 8am to 8pm.',
       },
     ],
   },

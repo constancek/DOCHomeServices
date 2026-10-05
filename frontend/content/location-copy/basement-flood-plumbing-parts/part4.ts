@@ -93,7 +93,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you get to Forestville for a flooding basement?",
-        a: "Forestville sits well inside our east-side Anderson Township area, and we are on call 24/7 with same-day arrival for most homes, because a basement filling right now cannot wait for a slot next week.",
+        a: "Forestville sits well inside our east-side Anderson Township area, and we are on call 7 days a week from 8am to 8pm with same-day arrival for most homes, because a basement filling right now cannot wait for a slot next week.",
       },
     ],
   },
@@ -121,7 +121,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach Kenwood for a flooded basement?",
-        a: "Kenwood is well within our east-side service area around the Towne Centre. We are on call 24/7 with same-day service, and we trace the source before pricing anything.",
+        a: "Kenwood is well within our east-side service area around the Towne Centre. We are on call 7 days a week from 8am to 8pm with same-day service, and we trace the source before pricing anything.",
       },
     ],
   },
@@ -149,7 +149,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How quickly can you reach Dillonvale for a basement flood?",
-        a: "Dillonvale sits well inside our east-side area near Kenwood, and we are on call 24/7 with same-day service. We trace which failure caused the flood before quoting, so the repair is aimed at the right thing from the start.",
+        a: "Dillonvale sits well inside our east-side area near Kenwood, and we are on call 7 days a week from 8am to 8pm with same-day service. We trace which failure caused the flood before quoting, so the repair is aimed at the right thing from the start.",
       },
     ],
   },
@@ -219,7 +219,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "Do you handle the long drain runs and septic systems on Indian Hill estates?",
-        a: "Yes. We camera long under-slab runs to locate a break on estate-scale homes and repair it, and we are on call 24/7. If the trouble turns out to be a private septic field rather than a house drain, we will tell you honestly, because that is a different trade.",
+        a: "Yes. We camera long under-slab runs to locate a break on estate-scale homes and repair it, and we are on call 7 days a week from 8am to 8pm. If the trouble turns out to be a private septic field rather than a house drain, we will tell you honestly, because that is a different trade.",
       },
     ],
   },
@@ -331,7 +331,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How soon can you reach Pleasant Run when a basement is flooding?",
-        a: "Pleasant Run sits well inside our north-side Springfield Township area, and we are on call 24/7 with same-day arrival. We trace the failure before quoting, so the repair goes to the right thing from the start.",
+        a: "Pleasant Run sits well inside our north-side Springfield Township area, and we are on call 7 days a week from 8am to 8pm with same-day arrival. We trace the failure before quoting, so the repair goes to the right thing from the start.",
       },
     ],
   },
@@ -387,7 +387,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "Harrison sits on the Indiana line — are you still local enough to come fast?",
-        a: "Yes. Harrison is part of our far-west service area, and we are on call 24/7 with same-day arrival. The camera work that finds a sewer blockage is same-day, and only the stretch out to the public main runs through Harrison's own utility and permitting, which we handle.",
+        a: "Yes. Harrison is part of our far-west service area, and we are on call 7 days a week from 8am to 8pm with same-day arrival. The camera work that finds a sewer blockage is same-day, and only the stretch out to the public main runs through Harrison's own utility and permitting, which we handle.",
       },
     ],
   },

@@ -118,7 +118,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Storm Electricity Outage Repair in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Storm Electricity Outage Repair in ${loc.neighborhood}, ${loc.state}`,
     description: `Storm-damaged mast, weatherhead, or meter base in ${place}? Duke will not reconnect until it is repaired and inspected. Licensed electricians, upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/storm-electricity-outage/${loc.slug}` },
     openGraph: {

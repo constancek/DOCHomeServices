@@ -106,7 +106,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Structural Drying in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Structural Drying in ${loc.neighborhood}, ${loc.state}`,
     description: `Air movers, dehumidifiers, and daily moisture readings in ${place} until framing, subfloor, and drywall are genuinely dry. Upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/structural-drying/${loc.slug}` },
     openGraph: {

@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Pipe Repair & Replacement in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Pipe Repair & Replacement in ${loc.neighborhood}, ${loc.state}`,
     description: `Pipe repair and replacement in ${place} — licensed plumbers fix leaks, clear damaged drain lines, and replace failing pipes, including trenchless options. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/pipe-repair-replacement/${loc.slug}` },
     openGraph: {

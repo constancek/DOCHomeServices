@@ -33,15 +33,17 @@ export const site = {
 
   offices: [
     {
-      city: 'Cincinnati, OH',
-      street: '',
-      region: '',
-      mapHref: 'https://maps.google.com/?q=Cincinnati,OH',
+      street: '5325 Deerfield Blvd Ste 219',
+      city: 'Mason',
+      region: 'OH',
+      postalCode: '45040',
+      full: '5325 Deerfield Blvd Ste 219, Mason, OH 45040',
+      mapHref: 'https://maps.google.com/?q=5325+Deerfield+Blvd+Ste+219,+Mason,+OH+45040',
     },
   ],
 
   hours: 'Mon–Sun: 8am–8pm',
-  serviceArea: 'Cincinnati and surrounding areas',
+  serviceArea: 'Cincinnati and Northern Kentucky',
 
   social: [
     { label: 'Facebook', href: 'https://facebook.com' },

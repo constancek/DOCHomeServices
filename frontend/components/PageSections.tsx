@@ -116,7 +116,7 @@ export function IntroColumns() {
     {
       icon: 'house' as const,
       title: 'What We Do',
-      text: `At ${site.name}, it all starts with passion. We are a family-owned business specializing in heating, cooling, plumbing, and electrical service. With years of experience and a team of certified residential technicians, we provide reliable service that homeowners can depend on.`,
+      text: `At ${site.name}, it all starts with passion. We are a family-owned business, founded in ${site.founded}, specializing in heating, cooling, plumbing, and electrical service. With ${site.yearsExperience} years of experience and a team of certified residential technicians, we provide reliable service that homeowners can depend on.`,
     },
     {
       icon: 'pin' as const,
@@ -375,7 +375,7 @@ export function Community() {
         <div className="overflow-hidden rounded-2xl shadow-card ring-1 ring-brand-100">
           <img
             src="/community-club.webp"
-            alt="The Degree of Comfort team — family owned with 30+ years of experience"
+            alt={`The Degree of Comfort team — family owned since ${site.founded}`}
             width={1000}
             height={667}
             loading="lazy"

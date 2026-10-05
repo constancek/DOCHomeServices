@@ -67,7 +67,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
       "We diagnose the source first, because the puddle from a failed heater looks identical to one from a burst line or a backed-up drain. We replace the heater that let go, check the connections and shutoff the water reached, and clear the floor drain the flood ran toward. If the basement takes water at the wall base every heavy rain and the plumbing is sound, that is a drainage and grading problem outside, and a waterproofing contractor is the right call rather than us.",
     ],
     commonIntro: "Across Roselawn's mid-century homes and apartments, the failure behind a flooded basement is most often:",
-    localFaqs: [{ q: "How fast can you get to a flooded basement in Roselawn?", a: "Roselawn is well within our north-side area along Reading Road, and we are on call 24/7 with same-day service. Cut the power to the flooded level before you go down, and leave the diagnosis to us." }],
+    localFaqs: [{ q: "How fast can you get to a flooded basement in Roselawn?", a: "Roselawn is well within our north-side area along Reading Road, and we are on call 7 days a week from 8am to 8pm with same-day service. Cut the power to the flooded level before you go down, and leave the diagnosis to us." }],
   },
   'mount-airy': {
     intro:

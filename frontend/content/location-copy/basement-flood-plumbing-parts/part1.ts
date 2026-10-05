@@ -139,7 +139,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach the West End when a basement is filling?",
-        a: "The West End sits right next to downtown and is one of the quickest areas for us to reach, and we are on call 24/7. Get the power to that level off before anyone goes down, and we will trace whether it is a backup or a burst line as soon as we arrive.",
+        a: "The West End sits right next to downtown and is one of the quickest areas for us to reach, and we are on call 7 days a week from 8am to 8pm. Get the power to that level off before anyone goes down, and we will trace whether it is a backup or a burst line as soon as we arrive.",
       },
     ],
   },
@@ -203,7 +203,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "I manage a Corryville rental — the tenants said the basement flooded from the water heater. Can you handle it same-day?",
-        a: "Yes, and we are on call 24/7 for exactly this. We confirm whether it is the tank or a fitting, close the supply, and either repair or replace so you are only paying for what failed. In a shared building we keep the other units in water while we work.",
+        a: "Yes, and we are on call 7 days a week from 8am to 8pm for exactly this. We confirm whether it is the tank or a fitting, close the supply, and either repair or replace so you are only paying for what failed. In a shared building we keep the other units in water while we work.",
       },
     ],
   },
@@ -283,7 +283,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach Avondale when a building's basement is flooding?",
-        a: "Avondale is in the central uptown area near the hospitals, so it is a fast reach, and we are on call 24/7. Get the power to that level off before anyone goes down, and we will trace the split and isolate it so only the affected line loses water.",
+        a: "Avondale is in the central uptown area near the hospitals, so it is a fast reach, and we are on call 7 days a week from 8am to 8pm. Get the power to that level off before anyone goes down, and we will trace the split and isolate it so only the affected line loses water.",
       },
     ],
   },
@@ -419,7 +419,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach Westwood, and what should I do first?",
-        a: "Westwood is a large west-side neighborhood well within our service area, and we are on call 24/7. First, get the power to the flooded level off — do not stand in water to reach a panel. If you can see the water heater is the source, shut its supply, and we will confirm the tank against the fittings when we arrive.",
+        a: "Westwood is a large west-side neighborhood well within our service area, and we are on call 7 days a week from 8am to 8pm. First, get the power to the flooded level off — do not stand in water to reach a panel. If you can see the water heater is the source, shut its supply, and we will confirm the tank against the fittings when we arrive.",
       },
     ],
   },

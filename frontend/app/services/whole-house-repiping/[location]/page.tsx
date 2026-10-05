@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Whole-House Repiping in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Whole-House Repiping in ${loc.neighborhood}, ${loc.state}`,
     description: `Whole-house repiping in ${place} — licensed plumbers replace old, corroded, or failing water pipes with modern PEX or copper. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/whole-house-repiping/${loc.slug}` },
     openGraph: {

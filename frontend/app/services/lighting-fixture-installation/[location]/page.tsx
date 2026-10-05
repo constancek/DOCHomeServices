@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Light Fixture Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Light Fixture Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Light fixture installation in ${place} — kitchen, bathroom, dining, pendant, and ceiling fixtures installed and replaced by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/lighting-fixture-installation/${loc.slug}` },
     openGraph: {

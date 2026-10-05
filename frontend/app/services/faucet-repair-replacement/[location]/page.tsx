@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Faucet Repair & Replacement in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Faucet Repair & Replacement in ${loc.neighborhood}, ${loc.state}`,
     description: `Faucet repair and replacement in ${place} — stop drips, fix low pressure, and install new kitchen and bathroom faucets. Same-day service. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/faucet-repair-replacement/${loc.slug}` },
     openGraph: {

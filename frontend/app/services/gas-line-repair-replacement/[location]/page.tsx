@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Gas Line Repair & Replacement in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Gas Line Repair & Replacement in ${loc.neighborhood}, ${loc.state}`,
     description: `Gas line repair, replacement, and installation in ${place} — licensed plumbers, code-compliant and pressure-tested work. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/gas-line-repair-replacement/${loc.slug}` },
     openGraph: {

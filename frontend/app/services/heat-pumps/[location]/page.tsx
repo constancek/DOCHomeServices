@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Heat Pumps in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Heat Pumps in ${loc.neighborhood}, ${loc.state}`,
     description: `Heat pump repair, installation, and replacement in ${place} — ductless mini-split and traditional systems, year-round comfort, financing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/heat-pumps/${loc.slug}` },
     openGraph: {

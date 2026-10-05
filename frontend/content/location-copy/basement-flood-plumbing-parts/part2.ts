@@ -235,7 +235,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "Do you handle backups in Queensgate commercial buildings?",
-        a: "Yes. Queensgate is mostly commercial and industrial on low ground, and we camera and clear the mains in those buildings the same way we do in homes, around the clock.",
+        a: "Yes. Queensgate is mostly commercial and industrial on low ground, and we camera and clear the mains in those buildings the same way we do in homes, 7 days a week from 8am to 8pm.",
       },
     ],
   },
@@ -379,7 +379,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach North Avondale?",
-        a: "North Avondale is centrally located and quick for us to reach. We are on call 24/7 and trace the source the same day so the leak does not sit behind your walls.",
+        a: "North Avondale is centrally located and quick for us to reach. We are on call 7 days a week from 8am to 8pm and trace the source the same day so the leak does not sit behind your walls.",
       },
     ],
   },

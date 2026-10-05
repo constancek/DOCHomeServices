@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Indoor Air Quality in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Indoor Air Quality in ${loc.neighborhood}, ${loc.state}`,
     description: `Indoor air quality services in ${place} — air testing, whole-home filtration, purifiers, and humidifiers for cleaner, healthier air. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/indoor-air-quality/${loc.slug}` },
     openGraph: {

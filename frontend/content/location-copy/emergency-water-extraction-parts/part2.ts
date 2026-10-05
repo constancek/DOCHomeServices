@@ -59,7 +59,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'The backup filled the shared basement of my Cheviot two-family — do you handle that?',
-        a: 'Yes. We pump out the contaminated water and extract from the shared finished space, lifting the soaked pad and porous material both units depend on. Cheviot is a compact west-side city we reach fast, day or night.',
+        a: 'Yes. We pump out the contaminated water and extract from the shared finished space, lifting the soaked pad and porous material both units depend on. Cheviot is a compact west-side city we reach fast, 7 days a week from 8am to 8pm.',
       },
     ],
   },
@@ -251,7 +251,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'An overflow ran between units in a CUF rental — how fast can you get here?',
-        a: 'CUF sits right against UC and is quick for us to reach, day or night. We pull the standing water out of the carpet and stair treads and set drying, and we will tell the landlord plainly if it was small enough for a shop vac.',
+        a: 'CUF sits right against UC and is quick for us to reach, 7 days a week from 8am to 8pm. We pull the standing water out of the carpet and stair treads and set drying, and we will tell the landlord plainly if it was small enough for a shop vac.',
       },
     ],
   },
@@ -331,7 +331,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'When is a leak between Evanston units too small to call you for?',
-        a: 'If it was clean water on a sealed floor that a tenant mopped within the hour, a shop vac finishes it. Once it is into the carpet, the pad, or the ceiling below, that is ours. Evanston is central and quick for us to reach, day or night.',
+        a: 'If it was clean water on a sealed floor that a tenant mopped within the hour, a shop vac finishes it. Once it is into the carpet, the pad, or the ceiling below, that is ours. Evanston is central and quick for us to reach, 7 days a week from 8am to 8pm.',
       },
     ],
   },

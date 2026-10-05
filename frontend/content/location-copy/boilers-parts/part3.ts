@@ -1,13 +1,13 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
-    intro: 'Radiators cold in every apartment on the floor at once? In the multi-unit buildings of the Villages of Roll Hill, that usually points to one shared boiler, not a dozen separate problems. We repair, maintain, and replace boilers on this west-side hilltop above the Mill Creek valley, with 24/7 no-heat service for tenants and building owners. Call (513) 586-5107.',
+    intro: 'Radiators cold in every apartment on the floor at once? In the multi-unit buildings of the Villages of Roll Hill, that usually points to one shared boiler, not a dozen separate problems. We repair, maintain, and replace boilers on this west-side hilltop above the Mill Creek valley, with 7-day no-heat service for tenants and building owners. Call (513) 586-5107.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop community in Cincinnati overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. Buildings like these often heat several units from one central boiler, so when it locks out or loses pressure, the no-heat call comes from the whole building, not one tenant. We start in the boiler room with the burner, controls, pressure, circulator pumps, and the zone valves that split heat between units, then work outward to the apartments that are still cold.',
       'An exposed hilltop takes the full force of winter wind, and a building up here asks more of its boiler on the coldest nights than one on a sheltered street would. That is the argument for annual service before the season starts, a 60 to 90 minute visit that catches a weak igniter or a tired pump while it is still a small fix. For owners and managers, we also give a straight answer on repair against replacement when a central boiler is near the end of its 15 to 25 year life.',
     ],
     commonIntro: 'In Roll Hill’s apartment buildings, where one boiler can carry several units, these are the problems we are called for most:',
     localFaqs: [
-      { q: 'My whole Roll Hill building lost heat overnight. Who should call?', a: 'Usually the landlord or property manager, because a central boiler belongs to the building. We offer 24/7 no-heat service and work with whoever is responsible for the equipment.' },
+      { q: 'My whole Roll Hill building lost heat overnight. Who should call?', a: 'Usually the landlord or property manager, because a central boiler belongs to the building. We offer 7-day no-heat service and work with whoever is responsible for the equipment.' },
     ],
   },
   'east-westwood': {
@@ -23,7 +23,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'western-hills': {
-    intro: 'Western Hills radiator knocking when the heat kicks on? Around Western Hills Plaza and Glenway Avenue, the older homes that still run on boilers are now old enough for noise, leaks, and pressure trouble to show up. We repair, maintain, and replace hot water and steam boilers across the west side, with 24/7 no-heat service. Call (513) 586-5107.',
+    intro: 'Western Hills radiator knocking when the heat kicks on? Around Western Hills Plaza and Glenway Avenue, the older homes that still run on boilers are now old enough for noise, leaks, and pressure trouble to show up. We repair, maintain, and replace hot water and steam boilers across the west side, with 7-day no-heat service. Call (513) 586-5107.',
     relevance: [
       'Western Hills (ZIP 45211) is the established west-side Cincinnati area around Western Hills Plaza and Glenway Avenue, with neighborhoods of early-1900s through mid-century single-family homes. That spread matters for heating. The earliest houses often still have radiators and a boiler in the basement, some steam and some hot water. The mid-century homes built later are far more likely to run a forced-air furnace, and if yours does, you need a furnace tech rather than us.',
       'Knocking in a steam system usually means water is trapped in a pipe that has lost its pitch or a radiator tipped the wrong way. In a hot water system, gurgling points to air, and a relief valve dripping onto the floor points to pressure. These are fixable, and most of them show up on a 60 to 90 minute annual service before they turn into a cold night. When the boiler itself is failing, we quote a replacement sized to the house, not to the old unit’s nameplate.',
@@ -59,14 +59,14 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'winton-hills': {
-    intro: 'Is one boiler heating several units in your Winton Hills building? Near Winton Road, multi-unit buildings like these often share a central boiler, so a single failure can leave a whole building cold. We repair, maintain, and replace boilers in this north-side neighborhood and offer 24/7 no-heat service to owners and managers. Call (513) 586-5107.',
+    intro: 'Is one boiler heating several units in your Winton Hills building? Near Winton Road, multi-unit buildings like these often share a central boiler, so a single failure can leave a whole building cold. We repair, maintain, and replace boilers in this north-side neighborhood and offer 7-day no-heat service to owners and managers. Call (513) 586-5107.',
     relevance: [
       'Winton Hills (ZIP 45232) is a north-side Cincinnati neighborhood near Winton Road, with a mix of residential and industrial areas that includes multi-unit housing. In older multi-unit buildings, heat commonly comes from a central boiler in the basement feeding radiators or baseboard in each unit. When it goes down in January, the calls come from every floor at once, and the owner needs the fault found fast, not a guess and a parts list.',
       'Our first stop is the boiler itself: whether it has locked out, what the pressure gauge reads, whether the circulator is moving water, and whether the burner lights and stays lit. Many no-heat calls in buildings like these come down to one failed part, not a failed boiler. When the unit is near the end of its 15 to 25 year life, we lay out repair against replacement for the owner in plain terms, so a building does not end up paying for the same emergency every winter.',
     ],
     commonIntro: 'In Winton Hills’ multi-unit buildings, where one boiler often heats several homes, these are the calls we get most:',
     localFaqs: [
-      { q: 'I rent in Winton Hills and my radiators are cold. Can I call you directly?', a: 'You can, but in most rentals the boiler belongs to the building, so your landlord or manager has to approve the repair. Call them first, and they can reach us for 24/7 no-heat service.' },
+      { q: 'I rent in Winton Hills and my radiators are cold. Can I call you directly?', a: 'You can, but in most rentals the boiler belongs to the building, so your landlord or manager has to approve the repair. Call them first, and they can reach us for 7-day no-heat service.' },
       { q: 'Why is one unit cold when the rest of my Winton Hills building has heat from the same boiler?', a: 'If the boiler is running and other units are warm, the problem is usually in that unit’s piece of the system, such as trapped air, a stuck zone valve, a closed radiator valve, or a failed thermostat. In Winton Hills’ multi-unit buildings, we trace the loop that feeds the cold unit before touching the boiler itself.' },
     ],
   },
@@ -94,7 +94,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'hartwell': {
-    intro: 'Still heating a Hartwell Victorian with the original radiators? Many Victorian and early-1900s homes on Hartwell’s tree-lined streets kept their boiler systems, and those systems need someone who knows old steam and hot water piping. We repair, maintain, and replace boilers across this historic north-side streetcar neighborhood, with 24/7 no-heat service. Call (513) 586-5107.',
+    intro: 'Still heating a Hartwell Victorian with the original radiators? Many Victorian and early-1900s homes on Hartwell’s tree-lined streets kept their boiler systems, and those systems need someone who knows old steam and hot water piping. We repair, maintain, and replace boilers across this historic north-side streetcar neighborhood, with 7-day no-heat service. Call (513) 586-5107.',
     relevance: [
       'Hartwell (ZIP 45215) is a historic north-side Cincinnati neighborhood that grew as a streetcar suburb, known for its Victorian and early-1900s homes on tree-lined streets. Houses of that age were commonly built with radiators fed by a steam or hot water boiler, and the radiators are often worth keeping. They last far longer than the boiler that feeds them, and a well-balanced system gives the even, quiet heat people in these houses tend to want.',
       'The boiler is the part that wears out. An old cast-iron unit may still run but burn far more gas than it should. A high-efficiency replacement runs around 90% and can be sized to the actual radiators in the house, which matters because older boilers were often oversized. We also handle the smaller jobs that keep an old system going: bleeding radiators, fixing sticking steam vents, replacing relief valves, and chasing down leaks with care for the plaster and trim these homes are known for.',
@@ -118,7 +118,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'st-bernard': {
-    intro: 'Boiler quit in your St. Bernard home on a cold morning? In this independent city built up around the Procter & Gamble Ivorydale complex, homes on the dense early-1900s grid often still heat with a boiler and radiators. We repair, maintain, and replace boilers across St. Bernard, with 24/7 no-heat service. Call (513) 586-5107.',
+    intro: 'Boiler quit in your St. Bernard home on a cold morning? In this independent city built up around the Procter & Gamble Ivorydale complex, homes on the dense early-1900s grid often still heat with a boiler and radiators. We repair, maintain, and replace boilers across St. Bernard, with 7-day no-heat service. Call (513) 586-5107.',
     relevance: [
       'St. Bernard (ZIP 45217) is its own city in Hamilton County, completely surrounded by Cincinnati, built up around the Procter & Gamble Ivorydale complex with a dense grid of early-1900s homes. Houses of that age were commonly built with radiators and a boiler in the basement, and some still run on older cast-iron units. Cast iron is durable, but after decades of heating and cooling, sections can crack, gaskets can seep, and a boiler that once ran quiet starts to rumble or leak.',
       'On small, tightly packed lots, the boiler room is often cramped, which matters when you replace an old boiler with a high-efficiency one that vents differently. We plan the venting and the fit before quoting, and size the new boiler to the house instead of copying the old one. If you own a two-family or rent out part of a house here, a boiler that serves both units puts two households out of heat at once, which is a good reason for annual service before winter.',
@@ -138,7 +138,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     commonIntro: 'In Elmwood Place’s dense early-1900s valley homes, these are the boiler problems we see most:',
     localFaqs: [
       { q: 'Should I move my boiler off the basement floor in Elmwood Place?', a: 'If your basement has taken on water before, raising the boiler or replacing it with a wall-mounted unit is worth considering. We can look at your space and tell you what fits.' },
-      { q: 'Water from a backup reached my boiler in Elmwood Place. Can I turn it back on once the basement dries?', a: 'No. A flooded boiler must be inspected by a technician before it is restarted, even if it looks dry. In Elmwood Place’s low valley basements, backup water can reach the gas valve, burner, and wiring, and damage there is not always visible. Leave it off and call (513) 586-5107 for 24/7 no-heat service.' },
+      { q: 'Water from a backup reached my boiler in Elmwood Place. Can I turn it back on once the basement dries?', a: 'No. A flooded boiler must be inspected by a technician before it is restarted, even if it looks dry. In Elmwood Place’s low valley basements, backup water can reach the gas valve, burner, and wiring, and damage there is not always visible. Leave it off and call (513) 586-5107 for 7-day no-heat service.' },
     ],
   },
   'delhi-hills': {
@@ -153,7 +153,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'golf-manor': {
-    intro: 'Radiators or registers in your Golf Manor house? That one question decides whether you need us. Most of the modest mid-century homes in this small village run forced-air furnaces, but for the ones that heat with a boiler, we repair, maintain, and replace them, with 24/7 no-heat service. Call (513) 586-5107.',
+    intro: 'Radiators or registers in your Golf Manor house? That one question decides whether you need us. Most of the modest mid-century homes in this small village run forced-air furnaces, but for the ones that heat with a boiler, we repair, maintain, and replace them, with 7-day no-heat service. Call (513) 586-5107.',
     relevance: [
       'Golf Manor (ZIP 45237) is a small Hamilton County village completely surrounded by Cincinnati on the north side, with a compact grid of modest mid-century homes. Houses built in that period were mostly heated with forced-air furnaces, so boiler calls here are less common than in the older neighborhoods around it. If your home has ducts and vents, your furnace is the thing to service, and we will tell you so when you call rather than send out the wrong tech.',
       'Some homes on the grid do run hot water baseboard or radiators, from the original build or a later change. Those systems tend to be simple: a small boiler, one or two zones, a circulator, and an expansion tank. The common faults are simple too, like air in the lines, a failed pump, a waterlogged expansion tank, or a pressure relief valve that drips. We fix those, and when the boiler is worn out, we replace it with a high-efficiency unit that runs around 90%.',
@@ -176,7 +176,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'mack': {
-    intro: 'Looking for boiler service in Mack? Check what heats your house first, because most of the mid-century and newer homes in this Green Township community run furnaces. If yours heats with baseboard hot water, radiators, or radiant floors, we repair, maintain, and replace boilers on the west side, with 24/7 no-heat service. Call (513) 586-5107.',
+    intro: 'Looking for boiler service in Mack? Check what heats your house first, because most of the mid-century and newer homes in this Green Township community run furnaces. If yours heats with baseboard hot water, radiators, or radiant floors, we repair, maintain, and replace boilers on the west side, with 7-day no-heat service. Call (513) 586-5107.',
     relevance: [
       'Mack (ZIP 45248) is an established community in Green Township on Cincinnati’s west side, with neighborhoods of mid-century and newer single-family homes. Houses of those eras were mostly built with forced-air furnaces and ductwork, often paired with central air. So boilers are less common here than in the city’s older neighborhoods, and if your home has floor or wall registers, we are probably not the right call for your heat.',
       'The boiler homes we do see in and around Mack tend to fall into two groups. Some newer or custom houses were built with radiant floor heat, sometimes in a basement slab or a single addition, fed by a small boiler. Others have hot water baseboard from the original build. Both need the same basics: correct pressure, a working expansion tank, clean combustion, and a circulator that moves water. Annual service takes 60 to 90 minutes and covers all of it.',
@@ -198,7 +198,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'bridgetown': {
-    intro: 'No heat and a boiler in the basement of your Bridgetown house? It is less common here than in older neighborhoods, but when it happens you need someone who knows boilers, not just furnaces. We repair, maintain, and replace boilers across this west-side Green Township community, with 24/7 no-heat service. Call (513) 586-5107.',
+    intro: 'No heat and a boiler in the basement of your Bridgetown house? It is less common here than in older neighborhoods, but when it happens you need someone who knows boilers, not just furnaces. We repair, maintain, and replace boilers across this west-side Green Township community, with 7-day no-heat service. Call (513) 586-5107.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community on Cincinnati’s west side, with established neighborhoods of mid-century and newer homes. Most houses of those eras heat with forced-air furnaces, so if yours has registers in the floors or walls, a furnace call will serve you better than a boiler one. We would rather point you the right way than take a visit that does not help. The homes that do run a boiler usually show it plainly: radiators, hot water baseboard along the walls, or warm floors with no vents at all.',
       'For those homes, a no-heat call often comes down to a handful of causes: a boiler in lockout, pressure too low to fire, a failed circulator, or a thermostat or zone valve that is not calling for heat. We check them in that order and fix what is broken rather than selling a new boiler. If the boiler is worn out, a high-efficiency replacement runs around 90% and is sized to your house. Annual service, 60 to 90 minutes, catches most of these before winter.',
@@ -220,7 +220,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'amberley': {
-    intro: 'Warm floors that suddenly are not? In Amberley Village, large homes on big, wooded lots can heat with radiant floors or multi-zone hot water, and those systems lean on a boiler. We repair, maintain, and replace boilers across this north-side village, including combi units and multi-zone setups, with 24/7 no-heat service. Call (513) 586-5107.',
+    intro: 'Warm floors that suddenly are not? In Amberley Village, large homes on big, wooded lots can heat with radiant floors or multi-zone hot water, and those systems lean on a boiler. We repair, maintain, and replace boilers across this north-side village, including combi units and multi-zone setups, with 7-day no-heat service. Call (513) 586-5107.',
     relevance: [
       'Amberley Village (ZIP 45237) is an affluent north-side Hamilton County village known for its large homes on big, wooded lots along winding streets. Many homes here heat with forced-air systems, and if yours does, you need a furnace service rather than us. Larger custom homes, though, are where radiant floor heat and multi-zone hot water systems tend to show up, often alongside a separate air system for cooling. A bigger house with many zones puts more demand on the boiler, the pumps, and the controls that tie them together.',
       'Radiant systems run low and slow, so a problem often shows up as floors that take longer to warm or one zone lagging behind the rest. The usual causes are a failing circulator, a mixing valve out of adjustment, air in the loops, or a control fault. On wooded lots, leaves and debris can also block a high-efficiency boiler’s intake or vent. Annual service takes 60 to 90 minutes and covers the boiler, the pumps, and the venting. When replacement comes up, we size the new boiler to every zone.',
@@ -239,7 +239,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     commonIntro: 'In Arlington Heights’ older valley homes, these are the boiler problems we handle most:',
     localFaqs: [
       { q: 'What is the rumbling sound from my Arlington Heights boiler?', a: 'Often it is kettling, caused by scale or sediment on the heat exchanger that makes water flash to steam. Flushing can help, but on an older boiler it can also be a sign the unit is wearing out.' },
-      { q: 'My Arlington Heights boiler stopped on a cold night. What can I check before I call?', a: 'Check that the thermostat is set to heat and above room temperature, the boiler’s power switch is on, and the breaker has not tripped. Look at the pressure gauge too. If none of that brings the heat back in your Arlington Heights home, call (513) 586-5107 for 24/7 no-heat service rather than resetting it over and over.' },
+      { q: 'My Arlington Heights boiler stopped on a cold night. What can I check before I call?', a: 'Check that the thermostat is set to heat and above room temperature, the boiler’s power switch is on, and the breaker has not tripped. Look at the pressure gauge too. If none of that brings the heat back in your Arlington Heights home, call (513) 586-5107 for 7-day no-heat service rather than resetting it over and over.' },
     ],
   },
   'north-college-hill': {
@@ -290,7 +290,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'lockland': {
-    intro: 'Cold radiators in an older Lockland worker house? This historic Mill Creek valley village grew up around its mills, and the closely spaced homes built for those workers often still heat with a boiler. We repair, maintain, and replace boilers in Lockland, including older cast-iron units, with 24/7 no-heat service. Call (513) 586-5107.',
+    intro: 'Cold radiators in an older Lockland worker house? This historic Mill Creek valley village grew up around its mills, and the closely spaced homes built for those workers often still heat with a boiler. We repair, maintain, and replace boilers in Lockland, including older cast-iron units, with 7-day no-heat service. Call (513) 586-5107.',
     relevance: [
       'Lockland (ZIP 45215) is a historic Hamilton County village in the Mill Creek valley north of Cincinnati, built up around mills and industry, with closely spaced older worker housing. Homes of that age and type often heat with radiators fed by a boiler, sometimes a small cast-iron unit that has been patched for years. Where a house has been divided into rentals, one boiler may be heating more than one household, and a single failure leaves all of them cold.',
       'The valley floor adds risk: heavy rain can bring backups into basements, and a boiler that has been in water needs checking before it fires. The everyday calls are about age. Radiators need bleeding, pressure drifts, circulators wear out, and relief valves start to drip. On tight lots with small basements, a wall-mounted high-efficiency boiler, around 90%, often fits better than the floor-standing unit it replaces. We size it to the house and plan the venting before quoting.',
@@ -298,11 +298,11 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     commonIntro: 'In Lockland’s older valley homes, these are the boiler problems we see most:',
     localFaqs: [
       { q: 'I rent out a Lockland house heated by an old boiler. What should I do before winter?', a: 'Book annual service in the fall. It takes 60 to 90 minutes and catches worn parts before a tenant loses heat on a cold night.' },
-      { q: 'My Lockland tenant says the boiler quit overnight. What should I do first?', a: 'Call us at (513) 586-5107 for 24/7 no-heat service, and tell your tenant to leave the boiler off rather than keep resetting it. In Lockland’s older rental homes, a quick approval from you lets us start the repair as soon as we arrive. Check your lease and local rules for how fast heat has to be restored.' },
+      { q: 'My Lockland tenant says the boiler quit overnight. What should I do first?', a: 'Call us at (513) 586-5107 for 7-day no-heat service, and tell your tenant to leave the boiler off rather than keep resetting it. In Lockland’s older rental homes, a quick approval from you lets us start the repair as soon as we arrive. Check your lease and local rules for how fast heat has to be restored.' },
     ],
   },
   'groesbeck': {
-    intro: 'Hot water baseboard in your Groesbeck house? Then you have a boiler, and in this Colerain Township community of mid-century homes, that makes you the exception, since most houses here heat with furnaces. We repair, maintain, and replace boilers on the northwest side, with 24/7 no-heat service. Call (513) 586-5107.',
+    intro: 'Hot water baseboard in your Groesbeck house? Then you have a boiler, and in this Colerain Township community of mid-century homes, that makes you the exception, since most houses here heat with furnaces. We repair, maintain, and replace boilers on the northwest side, with 7-day no-heat service. Call (513) 586-5107.',
     relevance: [
       'Groesbeck (ZIP 45239) is a settled Colerain Township community on Cincinnati’s northwest side, made up largely of mid-century single-family homes. Houses of that era were mostly built with forced-air furnaces and ducts. If that is what you have, a furnace service fits better than a boiler visit, and we will say so. The homes that do call us usually have hot water baseboard running along the outside walls, fed by a small boiler in the basement or utility room.',
       'Baseboard systems are simple and reliable, but they depend on a few parts that wear out. The circulator pump moves water through the loops, the expansion tank absorbs pressure as the water heats to around 140°F, and the relief valve protects the boiler. When the expansion tank fails, pressure swings and the relief valve drips. When the pump fails, the boiler runs and the house stays cold. We check each of these on a 60 to 90 minute annual service.',
@@ -313,7 +313,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'mount-healthy': {
-    intro: 'Which heat does your Mount Healthy home have, radiators or ducts? In this historic small city, the early-1900s houses near the old town center often still run on a boiler, while the mid-century streets mostly use furnaces. We repair, maintain, and replace boilers in Mount Healthy, with 24/7 no-heat service. Call (513) 586-5107.',
+    intro: 'Which heat does your Mount Healthy home have, radiators or ducts? In this historic small city, the early-1900s houses near the old town center often still run on a boiler, while the mid-century streets mostly use furnaces. We repair, maintain, and replace boilers in Mount Healthy, with 7-day no-heat service. Call (513) 586-5107.',
     relevance: [
       'Mount Healthy (ZIP 45231) is a historic small Hamilton County city on the north side, with an old town center and streets of early-1900s and mid-century homes. The early houses were commonly built with radiators and a hot water or steam boiler, and some still have the original cast-iron unit or its first replacement. The mid-century homes are more likely to run forced-air furnaces, and if yours does, you need a furnace service rather than us.',
       'For the radiator homes, an old boiler usually tells you it is failing before it quits: more frequent lockouts, pressure that will not hold, water around the base, or radiators that take longer to warm. Some of that is fixable with a new circulator, expansion tank, or valve. A cracked cast-iron section is not. When replacement makes sense, a high-efficiency boiler runs around 90%, and we size it to the radiators so the house heats as evenly as it did before.',

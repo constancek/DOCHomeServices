@@ -105,7 +105,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Sewer Backup Repair in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Sewer Backup Repair in ${loc.neighborhood}, ${loc.state}`,
     description: `Camera-diagnosed sewer backup clearing and permanent line repair in ${place}. Same-day response, upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/sewer-backup-repair/${loc.slug}` },
     openGraph: {

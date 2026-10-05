@@ -12,7 +12,7 @@ import { acRepairCopy } from '@/content/location-copy/ac-repair';
 
 export const metadata: Metadata = {
   title: 'AC Repair',
-  description: `24/7 AC repair across ${site.serviceArea} from ${site.name} — central air, heat pumps, and mini-splits on all major brands. Fast diagnosis and upfront pricing.`,
+  description: `Seven-Day AC repair across ${site.serviceArea} from ${site.name} — central air, heat pumps, and mini-splits on all major brands. Fast diagnosis and upfront pricing.`,
   alternates: { canonical: '/services/ac-repair' },
 };
 
@@ -50,7 +50,7 @@ const effHelps = [
 ];
 
 const whyUs = [
-  { icon: 'clock' as const, title: '24/7 Emergency Repair', text: 'Available nights, weekends, and holidays to restore cooling fast.' },
+  { icon: 'clock' as const, title: 'Seven-Day Emergency Repair', text: 'Available nights, weekends, and holidays to restore cooling fast.' },
   { icon: 'badge' as const, title: 'All Cooling Systems', text: 'Central air, heat pumps, and ductless mini-splits on all major brands.' },
   { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked technicians and safe, certified refrigerant handling.' },
   { icon: 'check' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
@@ -68,7 +68,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   serviceType: 'AC Repair',
-  description: '24/7 air conditioning repair for central air, heat pumps, and mini-splits.',
+  description: 'Seven-day air conditioning repair for central air, heat pumps, and mini-splits.',
   provider: { '@type': 'Organization', name: site.name, telephone: site.primaryPhone.number },
   areaServed: site.serviceArea,
 };
@@ -98,7 +98,7 @@ export default function ACRepairPage() {
       <PageHero
         eyebrow="Air Conditioning"
         title={`AC Repair in ${site.serviceArea}`}
-        description="Warm air, weak airflow, or a system that quit? Our licensed technicians find the cause and restore cooling fast — central air, heat pumps, and mini-splits, 24/7."
+        description="Warm air, weak airflow, or a system that quit? Our licensed technicians find the cause and restore cooling fast — central air, heat pumps, and mini-splits, 7 days a week from 8am to 8pm."
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -164,12 +164,11 @@ export default function ACRepairPage() {
             correctly and reduce the chance it comes back.
           </p>
 
-          {/* 24/7 Emergency */}
-          <h2 className="mt-10 section-title text-brand-700">24/7 Emergency AC Repair Available</h2>
+          {/* 7-Day Emergency */}
+          <h2 className="mt-10 section-title text-brand-700">7-Day Emergency AC Repair Available</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Air conditioning problems do not follow a schedule. {site.name} offers 24/7 emergency AC
-            repair for urgent issues affecting comfort or safety, with technicians available nights,
-            weekends, and holidays.
+            Air conditioning problems do not follow a schedule. {site.name} offers 7-day emergency AC
+            repair for urgent issues affecting comfort or safety, with technicians available 7 days a week from 8am to 8pm.
           </p>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Emergency service focuses on restoring cooling as quickly as possible while protecting the

@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Electrical Mast Repair in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Electrical Mast Repair in ${loc.neighborhood}, ${loc.state}`,
     description: `Electrical service mast repair and replacement in ${place} — masts, risers, and entrance cables restored by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/electrical-mast-repair/${loc.slug}` },
     openGraph: {

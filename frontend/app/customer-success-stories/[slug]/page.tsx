@@ -21,7 +21,7 @@ export async function generateMetadata({
   const story = getStory(slug);
   if (!story) return {};
   return {
-    title: `${story.serviceTag} — ${story.name}'s Story | ${site.name}`,
+    title: `${story.serviceTag} — ${story.name}'s Story`,
     description: `A ${story.serviceTag.toLowerCase()} success story from ${story.name}, a Degree of Comfort customer in ${site.serviceArea}. ${story.cardQuote}`,
     alternates: { canonical: `/customer-success-stories/${story.slug}` },
     openGraph: {

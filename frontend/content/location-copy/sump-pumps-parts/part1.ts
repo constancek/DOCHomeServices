@@ -105,7 +105,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
       'In homes that age, the original sump pump has often worn out, the float sticks, or the discharge line dumps too close to the foundation. We replace the pump with one sized to the home, fix the line and float, and add a battery backup so a storm outage does not leave the pit full in a finished or rented basement.',
     ],
     commonIntro: 'In Clifton’s large Victorian and early-1900s homes, the sump pump problems we are called for most often are:',
-    localFaqs: [{ q: 'Do you service sump pumps in Clifton student rentals near UC?', a: 'Yes. We work on the older homes and rentals throughout Clifton and the university area, and we are available 24/7 for failed pumps in finished or rented basements. Same-day in most cases.' }],
+    localFaqs: [{ q: 'Do you service sump pumps in Clifton student rentals near UC?', a: 'Yes. We work on the older homes and rentals throughout Clifton and the university area, and we are available 7 days a week from 8am to 8pm for failed pumps in finished or rented basements. Same-day in most cases.' }],
   },
   'corryville': {
     intro: 'A flooded basement in a dense Corryville rental near campus, or a sump pump that has stopped? We install, repair, and replace pumps and backups around Short Vine, most the same day. Call (513) 586-5107.',
@@ -132,7 +132,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
       'In homes this age, the sump pump has often aged out, the float switch sticks, or the discharge line dumps too close to the house. We replace the pump with one sized to the home, fix the float and line, and add a battery backup so a storm outage does not leave the pit full in a finished lower level.',
     ],
     commonIntro: 'Across College Hill’s older and mid-century homes, the sump pump problems we are called for most often are:',
-    localFaqs: [{ q: 'How fast can you replace a sump pump in College Hill?', a: 'College Hill is well within our service area along Hamilton Avenue. We keep plumbers on call around the clock and aim to replace or install a pump and backup the same day.' }],
+    localFaqs: [{ q: 'How fast can you replace a sump pump in College Hill?', a: 'College Hill is well within our service area along Hamilton Avenue. We keep plumbers on call 7 days a week from 8am to 8pm and aim to replace or install a pump and backup the same day.' }],
   },
   'walnut-hills': {
     intro: 'A seeping basement in a historic Walnut Hills home, or a sump pump serving units that has failed? We install, repair, and replace pumps and backups around Peebles Corner and McMillan Street, most the same day. Call (513) 586-5107.',
@@ -159,7 +159,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
       'In closely built homes and multi-unit buildings, one flooded basement spreads between properties. We set a pump sized to the basement, route the discharge clear of the foundation, and add a battery backup so a storm outage does not leave a shared lower level full.',
     ],
     commonIntro: 'In Avondale’s older homes and apartment buildings, the sump pump problems we see most often are:',
-    localFaqs: [{ q: 'How fast can you replace a failed sump pump in Avondale?', a: 'Avondale is in the central uptown area near the hospitals, so it is a fast reach for us. We are on call 24/7 and aim to replace or install a pump and backup the same day.' }],
+    localFaqs: [{ q: 'How fast can you replace a failed sump pump in Avondale?', a: 'Avondale is in the central uptown area near the hospitals, so it is a fast reach for us. We are on call 7 days a week from 8am to 8pm and aim to replace or install a pump and backup the same day.' }],
   },
   'hyde-park': {
     intro: 'A finished basement at risk in a large Hyde Park home, or a sump pump that has aged out before storm season? We install, repair, and replace pumps and backups around Hyde Park Square and Erie Avenue, most the same day. Call (513) 586-5107.',
@@ -204,7 +204,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
       'In homes this age the sump pump has often worn out, the float sticks, or the discharge line dumps too close to the foundation. We replace the pump with one sized to the home, fix the line and float, and add a battery backup so a storm outage does not leave the pit full.',
     ],
     commonIntro: 'Across Mount Washington’s older and mid-century homes, the sump pump problems we are called for most often are:',
-    localFaqs: [{ q: 'How fast can you replace a sump pump in Mount Washington?', a: 'Mount Washington is squarely in our service area along Beechmont Avenue. We are on call 24/7 and aim to replace or install a pump and backup the same day.' }],
+    localFaqs: [{ q: 'How fast can you replace a sump pump in Mount Washington?', a: 'Mount Washington is squarely in our service area along Beechmont Avenue. We are on call 7 days a week from 8am to 8pm and aim to replace or install a pump and backup the same day.' }],
   },
   'madisonville': {
     intro: 'A basement that takes on water in an older Madisonville home, or a sump pump that has stopped? We install, repair, and replace pumps and backups around Madison Road and Whetsel Avenue, most the same day. Call (513) 586-5107.',
@@ -231,7 +231,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
       'In homes from these eras the sump pump has often worn out, the float sticks, or the discharge line dumps too close to the foundation. We replace the pump with one sized to the home, fix the line and float, and add a battery backup so a storm outage does not leave the pit full.',
     ],
     commonIntro: 'Across Westwood’s older and mid-century homes, the sump pump problems we see most often are:',
-    localFaqs: [{ q: 'How fast can you replace a sump pump in Westwood?', a: 'Westwood is a large west-side neighborhood well within our service area. We are on call 24/7 and aim to replace or install a pump and backup the same day along Harrison Avenue and beyond.' }],
+    localFaqs: [{ q: 'How fast can you replace a sump pump in Westwood?', a: 'Westwood is a large west-side neighborhood well within our service area. We are on call 7 days a week from 8am to 8pm and aim to replace or install a pump and backup the same day along Harrison Avenue and beyond.' }],
   },
   'norwood': {
     intro: 'A basement that takes on water in a dense Norwood home, or a sump pump that has failed? We install, repair, and replace pumps and backups around Surrey Square and Montgomery Road, most the same day. Call (513) 586-5107.',
@@ -240,7 +240,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
       'On closely built lots, one flooded basement spreads toward the next home, and in homes this age the pump has often aged out or the discharge dumps too near the foundation. We replace the pump with one sized to the home, route the discharge clear of the neighboring house, and add a battery backup so a storm outage does not leave the pit full.',
     ],
     commonIntro: 'In Norwood’s dense, early-1900s homes and two-families, the sump pump problems we are called for most often are:',
-    localFaqs: [{ q: 'How fast can you reach Norwood to replace a sump pump?', a: 'Norwood sits right in the middle of our service area, surrounded by Cincinnati, so it is a fast reach. We are on call 24/7 and aim to replace or install a pump and backup the same day.' }],
+    localFaqs: [{ q: 'How fast can you reach Norwood to replace a sump pump?', a: 'Norwood sits right in the middle of our service area, surrounded by Cincinnati, so it is a fast reach. We are on call 7 days a week from 8am to 8pm and aim to replace or install a pump and backup the same day.' }],
   },
   'blue-ash': {
     intro: 'A sump pump near the end of its life in a Blue Ash home, or a basement that takes on water? We install, repair, and replace pumps and backups across this northeast-side city, most the same day. Call (513) 586-5107.',

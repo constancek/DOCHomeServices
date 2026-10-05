@@ -75,7 +75,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a backup in Carthage?',
-        a: 'Carthage is within our north-side service area along Vine Street, and we are on call 24/7 with same-day service for backups. Stop running water before we arrive so nothing more is added to what has come up.',
+        a: 'Carthage is within our north-side service area along Vine Street, and we are on call 7 days a week from 8am to 8pm with same-day service for backups. Stop running water before we arrive so nothing more is added to what has come up.',
       },
     ],
   },
@@ -107,7 +107,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a backup in Roselawn?',
-        a: 'Roselawn is well within our north-side service area along Reading Road, and we are on call 24/7 with same-day service. Stop running water everywhere in the home or building before we arrive.',
+        a: 'Roselawn is well within our north-side service area along Reading Road, and we are on call 7 days a week from 8am to 8pm with same-day service. Stop running water everywhere in the home or building before we arrive.',
       },
     ],
   },
@@ -155,7 +155,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a backup in Kennedy Heights?',
-        a: 'Kennedy Heights is well within our east-side service area, and we are on call 24/7 with same-day service for backups. Stop running water before we arrive, since everything sent down while the line is blocked comes back up.',
+        a: 'Kennedy Heights is well within our east-side service area, and we are on call 7 days a week from 8am to 8pm with same-day service for backups. Stop running water before we arrive, since everything sent down while the line is blocked comes back up.',
       },
     ],
   },
@@ -251,7 +251,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a backup in Mack?',
-        a: 'Mack is well inside our west-side service area in Green Township, and we are on call around the clock with same-day service for backups. Stop running water everywhere in the house before we arrive, since anything sent down a blocked line only adds to what has already come up.',
+        a: 'Mack is well inside our west-side service area in Green Township, and we are on call 7 days a week from 8am to 8pm with same-day service for backups. Stop running water everywhere in the house before we arrive, since anything sent down a blocked line only adds to what has already come up.',
       },
     ],
   },
@@ -379,7 +379,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a backup in Turpin Hills?',
-        a: 'Turpin Hills is well within our east-side service area in Anderson Township, and we are on call 24/7 with same-day service. Stop running water before we arrive so nothing more is added to what has come up.',
+        a: 'Turpin Hills is well within our east-side service area in Anderson Township, and we are on call 7 days a week from 8am to 8pm with same-day service. Stop running water before we arrive so nothing more is added to what has come up.',
       },
     ],
   },

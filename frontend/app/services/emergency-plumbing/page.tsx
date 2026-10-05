@@ -12,7 +12,7 @@ import { locations } from '@/content/locations';
 
 export const metadata: Metadata = {
   title: 'Emergency Plumbing',
-  description: `24/7 emergency plumbing from ${site.name} — burst pipes, sewer backups, water heater failures, and more, across ${site.serviceArea}. Call now for immediate service.`,
+  description: `Seven-day emergency plumbing from ${site.name} — burst pipes, sewer backups, water heater failures, and more, across ${site.serviceArea}. Call now for immediate service.`,
   alternates: { canonical: '/services/emergency-plumbing' },
 };
 
@@ -35,7 +35,7 @@ const commonSituations = [
 ];
 
 const whyUs = [
-  { icon: 'clock' as const, title: 'Fast, Same-Day Response', text: 'We answer 24/7 and reach most homes the same day, often within hours.' },
+  { icon: 'clock' as const, title: 'Fast, Same-Day Response', text: 'We answer 7 days a week from 8am to 8pm and reach most homes the same day, often within hours.' },
   { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked, licensed plumbers you can trust in your home.' },
   { icon: 'badge' as const, title: 'Upfront Pricing', text: 'Flat-rate quotes approved before we start — no overtime or weekend fees.' },
   { icon: 'check' as const, title: 'Repairs That Last', text: 'We fix the real cause, not just the symptom, so it stays fixed.' },
@@ -61,7 +61,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   serviceType: 'Emergency Plumbing',
-  description: '24/7 emergency plumbing repair for burst pipes, sewer backups, and water heater failures.',
+  description: 'Seven-day emergency plumbing repair for burst pipes, sewer backups, and water heater failures.',
   provider: { '@type': 'Organization', name: site.name, telephone: site.primaryPhone.number },
   areaServed: site.serviceArea,
 };
@@ -90,8 +90,8 @@ export default function EmergencyPlumbingPage() {
 
       <PageHero
         eyebrow="Plumbing"
-        title={`24/7 Emergency Plumbing in ${site.serviceArea}`}
-        description="Burst pipe? No water? Sewer backup? Our licensed plumbers are on call around the clock and reach most homes the same day."
+        title={`Seven-Day Emergency Plumbing in ${site.serviceArea}`}
+        description="Burst pipe? No water? Sewer backup? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach most homes the same day."
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -130,7 +130,7 @@ export default function EmergencyPlumbingPage() {
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             When a plumbing emergency strikes, every minute counts — and problems rarely happen on a
-            convenient schedule. That is why {site.name} offers 24/7 service for every emergency
+            convenient schedule. That is why {site.name} offers 7-day service for every emergency
             across {site.serviceArea}. From a minor leak to a major water line failure, our licensed
             plumbers handle each situation with speed and precision. Common emergencies we fix
             include:
@@ -276,10 +276,10 @@ export default function EmergencyPlumbingPage() {
             </div>
 
             <div>
-              <h2 className="section-title text-brand-700">24-Hour Plumber in {site.serviceArea}</h2>
+              <h2 className="section-title text-brand-700">7-Day Plumber in {site.serviceArea}</h2>
               <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
                 Plumbing disasters do not wait for business hours, which is why we are available
-                around the clock. As your trusted 24-hour plumber across {site.serviceArea}, we
+                7 days a week from 8am to 8pm. As your trusted 7-day plumber across {site.serviceArea}, we
                 respond promptly to minimize damage and restore comfort to your home. We arrive with
                 the tools, expertise, and dedication to fix the issue quickly — and the trust of
                 homeowners across the area backs up our work.

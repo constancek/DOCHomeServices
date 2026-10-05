@@ -184,7 +184,7 @@ export default function PlumbingInstallationPage() {
               or a sewer backup all call for quick action to help prevent damage to your home.
             </p>
             <p className="mt-4 text-base leading-relaxed text-white/90">
-              {site.name} offers emergency plumbing installation 24 hours a day, seven days a week.
+              {site.name} offers emergency plumbing installation 7 days a week from 8am to 8pm.
               Our team responds promptly, assesses the situation, and performs the installations or
               repairs that restore your home to safe, working order.
             </p>

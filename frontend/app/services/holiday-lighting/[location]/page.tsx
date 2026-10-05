@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Holiday Lighting Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Holiday Lighting Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Holiday and Christmas light installation in ${place} — custom displays, commercial-grade materials, safe install and scheduled removal. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/holiday-lighting/${loc.slug}` },
     openGraph: {

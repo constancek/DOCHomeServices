@@ -44,7 +44,7 @@ const specialized = [
   { title: 'Main Line Cleaning', text: 'Clears the main sewer line that every drain in your home feeds into — the source of the worst backups.' },
   { title: 'Bathroom & Toilet Drains', text: 'Sinks, tubs, showers, and toilets, where hair and soap scum build up fastest.' },
   { title: 'Kitchen Sink Drains', text: 'Grease, food scraps, and disposal lines that clog more often than any other drain in the house.' },
-  { title: 'Emergency & Same-Day', text: 'A drain backing up now? We answer 24/7 and reach most homes the same day.' },
+  { title: 'Emergency & Same-Day', text: 'A drain backing up now? We answer 7 days a week from 8am to 8pm and reach most homes the same day.' },
 ];
 
 const whyUs = [
@@ -237,7 +237,7 @@ export default function DrainCleaningPage() {
           {/* Emergency banner */}
           <div className="mt-10 flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
             <h2 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">
-              Drain backing up right now? We answer 24/7.
+              Drain backing up right now? We answer 7 days a week from 8am to 8pm.
             </h2>
             <Link href="/services/emergency-plumbing" className="btn-pink flex-shrink-0">
               Emergency Plumbing

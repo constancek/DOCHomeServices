@@ -50,7 +50,7 @@ const whyUs = [
 
 const faqs = [
   { q: 'What does residential plumbing repair include?', a: 'Just about anything inside your home’s plumbing network — leaks, clogged or slow drains, toilet and sink repairs, fixture replacements, water-pressure problems, and appliance hookups.' },
-  { q: 'Do your plumbers provide emergency plumbing repair?', a: 'Yes. We are on call 24/7 for urgent repairs like burst pipes, major leaks, and sewer backups, and we reach most homes the same day.' },
+  { q: 'Do your plumbers provide emergency plumbing repair?', a: 'Yes. We are on call 7 days a week from 8am to 8pm for urgent repairs like burst pipes, major leaks, and sewer backups, and we reach most homes the same day.' },
   { q: 'How much does a licensed plumbing repair typically cost?', a: 'Every repair is quoted at a flat rate before we begin, based on your home and the work involved — so there are no surprises. Call to request an estimate.' },
   { q: 'Do plumbing repair services include toilet repair?', a: 'Yes. We fix running, leaking, and clogged toilets, replace worn internal parts, and install new toilets when a repair no longer makes sense.' },
   { q: 'How fast can a plumber for residential repair respond?', a: 'We staff for demand, so most residential repair calls are handled the same day you reach out — often within hours.' },

@@ -10,7 +10,7 @@ import { servicePages } from '@/content/servicePages';
 
 export const metadata: Metadata = {
   title: 'Electrical Services',
-  description: `Licensed electrical services across ${site.serviceArea} from ${site.name} — panel upgrades, rewiring, lighting, EV chargers, surge protection, and inspections. 24/7 emergency service.`,
+  description: `Licensed electrical services across ${site.serviceArea} from ${site.name} — panel upgrades, rewiring, lighting, EV chargers, surge protection, and inspections. Seven-day emergency service.`,
   alternates: { canonical: '/services/electrical' },
 };
 
@@ -78,7 +78,7 @@ const whyChoose = [
 
 const whyUs = [
   { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Trained, background-checked electricians on every job.' },
-  { icon: 'clock' as const, title: '24/7 Emergency Service', text: 'Burning smell, dead power, or a tripping breaker? We respond fast.' },
+  { icon: 'clock' as const, title: 'Seven-Day Emergency Service', text: 'Burning smell, dead power, or a tripping breaker? We respond fast.' },
   { icon: 'badge' as const, title: 'Transparent Pricing', text: 'Clear, upfront quotes you approve before any work begins.' },
   { icon: 'check' as const, title: 'Code-Compliant Work', text: 'Every install and repair completed to current electrical code.' },
 ];
@@ -86,7 +86,7 @@ const whyUs = [
 const faqs = [
   { q: 'What electrical services do you offer?', a: 'We handle repairs, panel upgrades, whole-home and targeted rewiring, lighting and fixture installation, ceiling and exhaust fans, EV chargers, whole-home surge protection, switches and outlets, and electrical inspections.' },
   { q: 'Are your electricians certified?', a: 'Yes. Our electricians are licensed and insured, and every project is completed to current electrical code.' },
-  { q: 'Do you provide emergency electrical services?', a: 'Yes. We offer 24/7 emergency electrical service for urgent safety issues like power loss, breakers that will not reset, overheated outlets, or burning smells.' },
+  { q: 'Do you provide emergency electrical services?', a: 'Yes. We offer 7-day emergency electrical service for urgent safety issues like power loss, breakers that will not reset, overheated outlets, or burning smells.' },
   { q: 'What areas do you serve?', a: `We provide electrical services across ${site.serviceArea}.` },
   { q: 'How often should I schedule an electrical inspection?', a: 'Every few years is reasonable for most homes, and it is smart to inspect when buying a home or after any electrical problem. Older homes benefit from more frequent checks.' },
   { q: 'What financing options are available for electrical projects?', a: 'For larger projects — panel upgrades, rewiring, or EV charger installation — we offer financing with a quick application and flexible terms.' },
@@ -125,7 +125,7 @@ export default function ElectricalPage() {
       <PageHero
         eyebrow="Electrical"
         title={`Electrical Services in ${site.serviceArea}`}
-        description="Repairs, panel upgrades, rewiring, lighting, EV chargers, and inspections — by licensed electricians, built to code and to last, with 24/7 emergency service."
+        description="Repairs, panel upgrades, rewiring, lighting, EV chargers, and inspections — by licensed electricians, built to code and to last, with 7-day emergency service."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Services', href: '/services' }, { label: 'Electrical' }]}
       />
 
@@ -227,12 +227,12 @@ export default function ElectricalPage() {
         </div>
       </section>
 
-      {/* Band: 24/7 emergency (photo right) */}
+      {/* Band: 7-day emergency (photo right) */}
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
             <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
-              24/7 Emergency Electrical Support
+              7-Day Emergency Electrical Support
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
               Electrical problems can become dangerous quickly. If you notice flickering lights,

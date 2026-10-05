@@ -132,7 +132,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
       'In homes this age, the original clay and cast-iron sewer laterals are the usual culprits behind a recurring backup — they crack and take on roots from the established trees over them, and the line narrows until it clogs. A camera inspection separates a soft clog we can cable from a root-bound run that needs hydro jetting, so the fix lasts.',
     ],
     commonIntro: 'Across College Hill’s older and mid-century homes with aging clay and cast-iron laterals, the drain problems we are called for most often are:',
-    localFaqs: [{ q: 'Why does my College Hill sewer line keep backing up?', a: 'College Hill’s older homes along Hamilton Avenue run on clay and cast-iron laterals that crack and take on roots over time, so the line narrows and backs up repeatedly. We camera to confirm and hydro jet it clear, on call around the clock.' }],
+    localFaqs: [{ q: 'Why does my College Hill sewer line keep backing up?', a: 'College Hill’s older homes along Hamilton Avenue run on clay and cast-iron laterals that crack and take on roots over time, so the line narrows and backs up repeatedly. We camera to confirm and hydro jet it clear, on call 7 days a week from 8am to 8pm.' }],
   },
   'walnut-hills': {
     intro: 'A shared sewer line backing up or a slow drain in Walnut Hills? Our licensed plumbers clear it with snaking and hydro jetting and reach the homes around Peebles Corner and McMillan Street the same day. Call (513) 586-5107.',
@@ -159,7 +159,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
       'A lot of Avondale’s housing is older and densely built, much of it rental, which means aging cast-iron drains under heavy daily use. Full households pushing grease and debris through century-old lines that share stacks between units is what drives the backups we see — so we camera the line, clear the blockage, and keep one slow drain from reaching the next apartment.',
     ],
     commonIntro: 'In Avondale’s older homes and apartment buildings under heavy use, the drain problems we see most often are:',
-    localFaqs: [{ q: 'Why do drains clog so often in Avondale?', a: 'Much of Avondale’s older uptown housing is densely built rental property, so aging cast-iron drains carry heavy daily use and grease and clog repeatedly. We jet the line back to full width and are on call 24/7 with same-day service.' }],
+    localFaqs: [{ q: 'Why do drains clog so often in Avondale?', a: 'Much of Avondale’s older uptown housing is densely built rental property, so aging cast-iron drains carry heavy daily use and grease and clog repeatedly. We jet the line back to full width and are on call 7 days a week from 8am to 8pm with same-day service.' }],
   },
   'hyde-park': {
     intro: 'A sewer lateral clogging with roots or a slow drain in Hyde Park? Our licensed plumbers clear it with snaking and hydro jetting and reach the homes around Hyde Park Square and Erie Avenue the same day. Call (513) 586-5107.',
@@ -249,7 +249,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
       'Even the newer housing here is now decades old, so the mid-century homes run on aging drain lines where grease and debris build up until a kitchen or main line clogs. Along the commercial corridor, restaurant and business kitchens drive grease-heavy lines that need hydro jetting rather than cabling. A camera shows us the cause before we clear it, for homes and businesses alike.',
     ],
     commonIntro: 'Across Blue Ash’s mid-century homes, newer subdivisions, and busy commercial kitchens, the drain problems we handle most often are:',
-    localFaqs: [{ q: 'Why does my Blue Ash drain keep clogging?', a: 'Blue Ash’s mid-century homes run on aging drain lines, and its commercial corridor sends grease-heavy waste through kitchen lines, so both clog repeatedly. Hydro jetting clears the pipe back to full width, and we are on call 24/7 for homes and businesses.' }],
+    localFaqs: [{ q: 'Why does my Blue Ash drain keep clogging?', a: 'Blue Ash’s mid-century homes run on aging drain lines, and its commercial corridor sends grease-heavy waste through kitchen lines, so both clog repeatedly. Hydro jetting clears the pipe back to full width, and we are on call 7 days a week from 8am to 8pm for homes and businesses.' }],
   },
   'montgomery': {
     intro: 'A slow drain or a sewer line backing up in Montgomery? Our licensed plumbers clear it with snaking and hydro jetting and reach homes around the historic district and Montgomery Road the same day. Call (513) 586-5107.',

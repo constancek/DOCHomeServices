@@ -239,7 +239,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a flooded Southgate home?',
-        a: 'Southgate is well within our Campbell County service area near Newport, and we are on call 24/7 with same-day arrival for after-flood work. The city is on Northern Kentucky Water District and SD1 for sanitation, not Cincinnati or MSD, and we cross the river to pull the permits the work requires.',
+        a: 'Southgate is well within our Campbell County service area near Newport, and we are on call 7 days a week from 8am to 8pm with same-day arrival for after-flood work. The city is on Northern Kentucky Water District and SD1 for sanitation, not Cincinnati or MSD, and we cross the river to pull the permits the work requires.',
       },
     ],
   },
@@ -271,7 +271,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Do you handle flooded student rentals near NKU, and how fast can you get there?',
-        a: 'Yes, we work on the homes and rentals around the university and are on call 24/7 with same-day arrival for a flooded property. Highland Heights is on Northern Kentucky Water District and SD1 for sanitation, not Cincinnati or MSD, and we pull the local permits a flooded water heater and gas connections require.',
+        a: 'Yes, we work on the homes and rentals around the university and are on call 7 days a week from 8am to 8pm with same-day arrival for a flooded property. Highland Heights is on Northern Kentucky Water District and SD1 for sanitation, not Cincinnati or MSD, and we pull the local permits a flooded water heater and gas connections require.',
       },
     ],
   },
@@ -319,7 +319,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach Melbourne after the river comes up?',
-        a: 'Melbourne is part of our Northern Kentucky river service area, and we are on call 24/7 with same-day arrival for flooded homes here. The village is on Northern Kentucky Water District and SD1 for sanitation, not Cincinnati or MSD, and we cross the river to pull the permits a flooded water heater and gas connections require.',
+        a: 'Melbourne is part of our Northern Kentucky river service area, and we are on call 7 days a week from 8am to 8pm with same-day arrival for flooded homes here. The village is on Northern Kentucky Water District and SD1 for sanitation, not Cincinnati or MSD, and we cross the river to pull the permits a flooded water heater and gas connections require.',
       },
     ],
   },

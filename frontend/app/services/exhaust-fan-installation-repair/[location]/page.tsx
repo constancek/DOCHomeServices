@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Exhaust Fan Installation & Repair in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Exhaust Fan Installation & Repair in ${loc.neighborhood}, ${loc.state}`,
     description: `Bathroom and kitchen exhaust fan installation and repair in ${place} — better airflow, quieter operation, and venting that carries moisture outdoors. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/exhaust-fan-installation-repair/${loc.slug}` },
     openGraph: {

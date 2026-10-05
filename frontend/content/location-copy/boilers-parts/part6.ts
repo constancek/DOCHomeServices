@@ -68,7 +68,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'owensville': {
-    intro: 'Radiators lukewarm in your Owensville village home or farmhouse? That is often low boiler pressure or air in the system, and it rarely fixes itself. We repair, maintain, and replace boilers across this eastern Clermont County village and the rural roads around it, with 24/7 no-heat service. Call (513) 586-5107.',
+    intro: 'Radiators lukewarm in your Owensville village home or farmhouse? That is often low boiler pressure or air in the system, and it rarely fixes itself. We repair, maintain, and replace boilers across this eastern Clermont County village and the rural roads around it, with 7-day no-heat service. Call (513) 586-5107.',
     relevance: [
       'Owensville (ZIP 45160) is a small village in eastern Clermont County, with a historic core and rural and suburban homes spread around it. The older houses in the village are the kind that often still heat with radiators and a hot water or steam boiler. Out on rural properties, some homes run a boiler on oil or propane because they sit away from gas service. The suburban homes are mostly on forced-air furnaces, and for those we will point you to our furnace team.',
       'Older boilers in the village tend to show their age through pressure that will not hold, radiators that need bleeding every season, and relief valves that start to drip. Rural systems are often larger and farther from help, so a lockout on a cold night is a bigger deal out here. Annual service, 60 to 90 minutes, catches most of it. When a unit is past saving, we install a high-efficiency boiler sized to the house, and we work on oil-fired, gas-fired, and cast-iron systems alike.',
@@ -94,7 +94,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     intro: 'Did high water reach the basement where your Moscow boiler sits? Before you fire it again, have it checked, because river water in a burner or gas valve is a safety problem. We repair, maintain, and replace boilers in this Ohio River village in southeastern Clermont County. Call (513) 586-5107.',
     relevance: [
       'Moscow (ZIP 45153) is a small Ohio River village in southeastern Clermont County, with older homes sitting on low riverside ground. Homes of that age often still heat with radiators and a hot water or steam boiler, and the boiler usually lives in the basement, the first place high water goes. That combination means boiler work here is often about recovery as much as repair: drying out controls, replacing a flooded gas valve or circulator, and deciding whether the unit is worth saving.',
-      'Older cast-iron boilers can be tough, but damp basements and age catch up with them. We see rusted jackets, weeping relief valves, low pressure, and radiators that need bleeding every fall. If the boiler is past saving, we replace it with a high-efficiency unit sized to the house, and where it makes sense we can talk about mounting it higher to keep it clear of future high water. We also run 24/7 no-heat service, which matters when an old house goes cold overnight.',
+      'Older cast-iron boilers can be tough, but damp basements and age catch up with them. We see rusted jackets, weeping relief valves, low pressure, and radiators that need bleeding every fall. If the boiler is past saving, we replace it with a high-efficiency unit sized to the house, and where it makes sense we can talk about mounting it higher to keep it clear of future high water. We also run 7-day no-heat service, which matters when an old house goes cold overnight.',
     ],
     commonIntro: 'In Moscow’s older riverside homes that heat with radiators, the boiler problems we see most often are:',
     localFaqs: [
@@ -103,7 +103,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'newtonsville': {
-    intro: 'No heat in Newtonsville and an old boiler that will not relight? We take 24/7 no-heat calls out to this small village in northeastern Clermont County and the rural roads around it. We repair, maintain, and replace hot water, steam, gas-fired, and oil-fired boilers here. Call (513) 586-5107.',
+    intro: 'No heat in Newtonsville and an old boiler that will not relight? We take 7-day no-heat calls out to this small village in northeastern Clermont County and the rural roads around it. We repair, maintain, and replace hot water, steam, gas-fired, and oil-fired boilers here. Call (513) 586-5107.',
     relevance: [
       'Newtonsville (ZIP 45158) is a small rural village in northeastern Clermont County, with older homes in town and rural properties around it, many on wells and septic. Older village houses are the type that often heated with radiators from the start, and some of those systems still run on a boiler. Out on the rural properties, homes away from gas lines may heat with an oil-fired or propane boiler instead. Newer rural builds more often use a furnace or heat pump, and for those we are not the boiler crew you need.',
       'Rural boilers work hard. A larger, draftier farmhouse asks more of the burner, and an oil unit needs its nozzle, filter, and combustion checked every year to run clean. We do that in a 60 to 90 minute annual service, along with pressure, relief valve, and expansion tank checks. When a cast-iron boiler has cracked or an old unit is burning far more fuel than it should, we replace it with a high-efficiency boiler, around 90%, sized to the house.',
@@ -111,7 +111,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     commonIntro: 'Across Newtonsville’s older village homes and rural properties on boiler heat, the problems we see most often are:',
     localFaqs: [
       { q: 'How often should an oil boiler in Newtonsville be serviced?', a: 'Once a year, before the heating season. Oil burners soot up and nozzles and filters wear, and a yearly service keeps the boiler lighting reliably through the winter.' },
-      { q: 'My Newtonsville oil boiler ran out of fuel. Will it start again once the tank is filled?', a: 'Sometimes, but often not on its own. When an oil tank runs dry, air gets into the fuel line and sludge from the tank bottom can clog the filter. The line usually has to be bled and the filter checked before the burner will stay lit, so avoid pressing reset over and over. We take 24/7 no-heat calls in Newtonsville for this.' },
+      { q: 'My Newtonsville oil boiler ran out of fuel. Will it start again once the tank is filled?', a: 'Sometimes, but often not on its own. When an oil tank runs dry, air gets into the fuel line and sludge from the tank bottom can clog the filter. The line usually has to be bled and the filter checked before the burner will stay lit, so avoid pressing reset over and over. We take 7-day no-heat calls in Newtonsville for this.' },
     ],
   },
   'williamsburg': {
@@ -142,7 +142,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     intro: 'Rural home in Ross Township with a boiler that locks out on the coldest nights? A lockout usually traces back to ignition, fuel supply, or low water, and we sort out which one. We repair, maintain, and replace boilers across Ross and the land along the Great Miami. Call (513) 586-5107.',
     relevance: [
       'Ross (ZIP 45061) is a Ross Township community in southwestern Butler County along the Great Miami River, with a mix of small-town and rural homes, some on wells and septic. Boilers are not the main heat source here; plenty of homes run furnaces or heat pumps, and if yours does, call about that instead. Where boilers do appear, it is usually in an older small-town house with radiators or baseboard, or in a rural home away from gas lines running an oil-fired or propane unit.',
-      'Those rural systems carry more of the load in a larger, draftier house, and a missed annual service shows up as soot, short-cycling, or a burner that will not light. We handle lockouts, low pressure, leaking relief valves, and circulator failures, and we run 24/7 no-heat service. The low ground near the river can also put water in a basement in heavy rain, so we check controls after any flooding. When an old boiler is spent, we size a high-efficiency replacement to the house.',
+      'Those rural systems carry more of the load in a larger, draftier house, and a missed annual service shows up as soot, short-cycling, or a burner that will not light. We handle lockouts, low pressure, leaking relief valves, and circulator failures, and we run 7-day no-heat service. The low ground near the river can also put water in a basement in heavy rain, so we check controls after any flooding. When an old boiler is spent, we size a high-efficiency replacement to the house.',
     ],
     commonIntro: 'For the Ross homes that heat with a boiler, from older small-town houses to rural properties, the problems we see most often are:',
     localFaqs: [
@@ -184,7 +184,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'hamilton': {
-    intro: 'Living in a German Village or Dayton Lane house in Hamilton with radiators in every room? Homes of that age often still heat with a steam or hot water boiler, and we work on both. We repair, maintain, and replace boilers across Hamilton, including 24/7 no-heat service. Call (513) 586-5107.',
+    intro: 'Living in a German Village or Dayton Lane house in Hamilton with radiators in every room? Homes of that age often still heat with a steam or hot water boiler, and we work on both. We repair, maintain, and replace boilers across Hamilton, including 7-day no-heat service. Call (513) 586-5107.',
     relevance: [
       'Hamilton (ZIP 45011) is the Butler County seat, straddling the Great Miami River, with historic districts like German Village and Dayton Lane full of 19th-century and early-1900s homes. Houses of that age often still heat with cast-iron radiators fed by a hot water or steam boiler. Some of those boilers are old cast-iron units that have run for decades; others were swapped out at some point and sized by guesswork. Either way, radiator systems reward regular care and punish neglect.',
       'The work here is familiar: bleeding radiators that heat only halfway, setting pressure on hot water systems, replacing stuck steam vents, and checking low-water cutoffs. Where an old house has been split into apartments, one boiler going down can leave several households cold, so landlords should not skip the annual service. Low ground near the river adds flood risk for basement boilers. When a cast-iron unit is cracked or spent, we replace it with a high-efficiency boiler sized to the house.',
@@ -204,11 +204,11 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     commonIntro: 'Across Millville’s older village homes and rural properties on boiler heat, the problems we see most often are:',
     localFaqs: [
       { q: 'What is that gurgling in my Millville baseboard heat?', a: 'Air in the lines, most of the time. Bleeding the system and checking the boiler pressure usually quiets it; if it keeps coming back, the air vent or expansion tank may need replacing.' },
-      { q: 'My rural Millville boiler also heats our water. What happens if it quits?', a: 'You lose hot water as well as heat, which is why a no-heat call on these systems is urgent. Many older and rural Millville homes use a coil inside the boiler or a separate tank heated by it. When we service or replace the boiler, we check that hot water side too, and we run 24/7 no-heat service.' },
+      { q: 'My rural Millville boiler also heats our water. What happens if it quits?', a: 'You lose hot water as well as heat, which is why a no-heat call on these systems is urgent. Many older and rural Millville homes use a coil inside the boiler or a separate tank heated by it. When we service or replace the boiler, we check that hot water side too, and we run 7-day no-heat service.' },
     ],
   },
   'new-miami': {
-    intro: 'Renting out an older house in New Miami and fielding a no-heat call from the tenant? We take those calls 24/7 and work on the aging boilers that closely spaced mill-town homes often run on. We repair, maintain, and replace boilers across this village on the Great Miami. Call (513) 586-5107.',
+    intro: 'Renting out an older house in New Miami and fielding a no-heat call from the tenant? We take those calls 7 days a week from 8am to 8pm and work on the aging boilers that closely spaced mill-town homes often run on. We repair, maintain, and replace boilers across this village on the Great Miami. Call (513) 586-5107.',
     relevance: [
       'New Miami (ZIP 45011) is a small village on the Great Miami River just north of Hamilton, an old mill community of closely spaced older homes. Houses of that age often heat with radiators or baseboard off a hot water boiler, and in some cases a steam system that has been there a very long time. Where homes are rented out, a boiler that fails means a tenant without heat and a landlord who needs someone out quickly.',
       'The low riverside ground brings a real backup risk in heavy rain, and a boiler sitting in a wet basement can lose its controls, circulator, or gas valve. We check those after any water, bleed and repressurize systems, and replace failed relief valves and expansion tanks. For landlords, an annual service of 60 to 90 minutes is the simplest way to cut down on mid-winter calls. When an old cast-iron unit is done, we replace it with a high-efficiency boiler sized to the house.',
@@ -268,7 +268,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     intro: 'When did the boiler in your Pleasant Plain home last get a proper service? If you cannot remember, it is due, and the first cold week is a bad time to find out. We repair, maintain, and replace boilers in this southeastern Warren County village and on the rural properties around it. Call (513) 586-5107.',
     relevance: [
       'Pleasant Plain (ZIP 45162) is a small village in southeastern Warren County, with older homes and rural properties around it, many on wells and septic. Older village houses are the type that often heat with a hot water boiler and radiators or baseboard, and rural homes that sit away from gas lines may use an oil-fired or propane boiler. Some newer rural builds use furnaces or heat pumps instead, and for those, we are not the right call.',
-      'Our annual service takes 60 to 90 minutes. We check the burner and combustion, pressure, expansion tank, relief valve, and circulator, and on oil units we change the nozzle and filter. That visit is what keeps a well-maintained boiler running for 15 to 25 years. If yours is cracked, leaking, or burning far more fuel than it should, we replace it with a high-efficiency boiler sized to the house, and we run 24/7 no-heat service when one fails in the middle of winter.',
+      'Our annual service takes 60 to 90 minutes. We check the burner and combustion, pressure, expansion tank, relief valve, and circulator, and on oil units we change the nozzle and filter. That visit is what keeps a well-maintained boiler running for 15 to 25 years. If yours is cracked, leaking, or burning far more fuel than it should, we replace it with a high-efficiency boiler sized to the house, and we run 7-day no-heat service when one fails in the middle of winter.',
     ],
     commonIntro: 'Across Pleasant Plain’s older village homes and rural properties on boiler heat, the problems we see most often are:',
     localFaqs: [
@@ -289,14 +289,14 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'lawrenceburg': {
-    intro: 'Heat out in a century-old building in downtown Lawrenceburg? Older homes and buildings behind the levee often run on steam or hot water boilers, and one failure can leave a whole building cold. We repair, maintain, and replace boilers across this Indiana river city, with 24/7 no-heat service. Call (513) 586-5107.',
+    intro: 'Heat out in a century-old building in downtown Lawrenceburg? Older homes and buildings behind the levee often run on steam or hot water boilers, and one failure can leave a whole building cold. We repair, maintain, and replace boilers across this Indiana river city, with 7-day no-heat service. Call (513) 586-5107.',
     relevance: [
       'Lawrenceburg (ZIP 47025) is a historic Ohio River city in Dearborn County, Indiana, known for its distilling heritage and a downtown of 19th-century buildings protected by a riverfront levee. Buildings of that age often still heat with radiators fed by a steam or hot water boiler, sometimes a large cast-iron unit serving more than one apartment or storefront. When a shared boiler goes down, several tenants lose heat at once, and the landlord hears about it right away.',
       'Our work downtown includes steam controls and low-water cutoffs, radiator vents, pressure and bleeding on hot water systems, and relief valves and expansion tanks. The low riverside setting makes basement water a risk in high water, so we check burners and controls after any flooding. When an old cast-iron boiler is cracked or spent, we replace it with a high-efficiency unit sized to the building, and we service every type: gas-fired, oil-fired, steam, and hot water.',
     ],
     commonIntro: 'In Lawrenceburg’s historic downtown homes and buildings on radiator heat, the boiler problems we see most often are:',
     localFaqs: [
-      { q: 'Do you come out to Lawrenceburg, Indiana, for boiler repair?', a: 'Yes. We cover Lawrenceburg and the rest of Dearborn County for boiler repair, annual service, and replacement, with 24/7 no-heat service.' },
+      { q: 'Do you come out to Lawrenceburg, Indiana, for boiler repair?', a: 'Yes. We cover Lawrenceburg and the rest of Dearborn County for boiler repair, annual service, and replacement, with 7-day no-heat service.' },
       { q: 'How do I tell if my downtown Lawrenceburg building has steam or hot water heat?', a: 'Look at the boiler and the radiators. Steam boilers have a glass tube showing the water level, and steam radiators usually have a small vent on the side. Hot water systems have a gauge showing pressure and temperature, and bleed valves at the top of each radiator. If you are not sure in a Lawrenceburg building, we can tell you in minutes.' },
     ],
   },

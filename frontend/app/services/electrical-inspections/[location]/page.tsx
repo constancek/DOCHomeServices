@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Electrical Inspections in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Electrical Inspections in ${loc.neighborhood}, ${loc.state}`,
     description: `Professional electrical inspections in ${place} — panel, wiring, grounding, and safety-device checks with a detailed written report. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/electrical-inspections/${loc.slug}` },
     openGraph: {

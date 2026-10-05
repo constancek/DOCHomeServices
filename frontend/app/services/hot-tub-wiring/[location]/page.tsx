@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Hot Tub Wiring in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Hot Tub Wiring in ${loc.neighborhood}, ${loc.state}`,
     description: `Hot tub and spa wiring in ${place} — dedicated 240V circuits, GFCI protection, and code-compliant installation by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/hot-tub-wiring/${loc.slug}` },
     openGraph: {

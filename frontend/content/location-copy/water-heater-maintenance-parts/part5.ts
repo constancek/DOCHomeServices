@@ -96,7 +96,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
       'A yearly flush clears that sediment before it wastes gas and bakes onto the bottom of the tank, and an anode-rod inspection catches a dissolving rod while there is still time to replace it. Because Taylor Mill sits on a grade, a slow tank leak runs to the lowest basement corner, so a fitting and relief-valve check on the same visit is worth doing. That routine keeps a Taylor Mill tank on track for its full life.',
     ],
     commonIntro: "Across Taylor Mill's mid-century and newer homes, a tune-up keeps a builder-grade tank efficient by clearing sediment and checking the anode rod:",
-    localFaqs: [{ q: 'My Taylor Mill water heater has never been flushed — is it too late?', a: 'Usually not. We can flush a heavily settled tank and check the anode rod; if the tank is still sound, that maintenance can add years. We cover Taylor Mill day or night.' }],
+    localFaqs: [{ q: 'My Taylor Mill water heater has never been flushed — is it too late?', a: 'Usually not. We can flush a heavily settled tank and check the anode rod; if the tank is still sound, that maintenance can add years. We cover Taylor Mill 7 days a week from 8am to 8pm.' }],
   },
   'elsmere': {
     intro: 'A yearly water heater flush in Elsmere keeps an older tank efficient and lasting longer. We tune up heaters along the Dixie Highway corridor and across the city. Call (513) 586-5107.',

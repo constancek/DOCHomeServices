@@ -33,7 +33,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'deer-park': {
     intro:
-      'Faucet dripping around the clock or a handle that spins without shutting off in Deer Park? We repair and replace faucets the same day on the city’s older fixtures. Call (513) 586-5107.',
+      'Faucet dripping 7 days a week from 8am to 8pm or a handle that spins without shutting off in Deer Park? We repair and replace faucets the same day on the city’s older fixtures. Call (513) 586-5107.',
     relevance: [
       'Deer Park (ZIP 45236) is a small, settled east-side city made up largely of mid-century single-family homes on quiet streets. Faucets in these houses are frequently two-handle compression models from the original build or an early remodel, and after this many decades the rubber washers and brass seats inside them are simply worn out. A drip you can hear at night usually means the seat is pitted, not just the washer, which is the kind of thing we sort out on the spot.',
       'Because so much of Deer Park’s housing dates to the same mid-century era, the kitchen and bath faucets often reach end of life around the same time. We see homeowners here repair one fixture only to call back weeks later about another. When the faucets are all original, it is worth talking through replacing the worst offenders together rather than paying for separate visits, and we will lay out that option without pushing it.',
@@ -244,14 +244,14 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
       'Faucet trouble in a large Indian Hill home? With more fixtures than most houses, a single drip can hide for a while — we repair and replace faucets the same day across the village. Call (513) 586-5107.',
     relevance: [
       'Indian Hill (ZIP 45243) is an affluent east-side village known for its large estates and homes on multi-acre, wooded lots, many set well back from the road. These big houses carry far more faucets than a typical home — multiple full baths, kitchen and prep sinks, wet bars, and outdoor fixtures — and they are often high-end brands worth rebuilding rather than tearing out. We come prepared to repair premium fixtures with the right cartridges, and to track down which of many faucets is the one dripping.',
-      'The scale of these properties shapes the work in other ways too. Long water runs and large plumbing systems mean a leaking fixture can waste water quietly for a while before anyone notices, and some Indian Hill homes draw on private wells, where untreated water can be harder on faucet cartridges and seats. We factor that in when advising whether to rebuild or replace, and we are on call around the clock for the homes and estates here.',
+      'The scale of these properties shapes the work in other ways too. Long water runs and large plumbing systems mean a leaking fixture can waste water quietly for a while before anyone notices, and some Indian Hill homes draw on private wells, where untreated water can be harder on faucet cartridges and seats. We factor that in when advising whether to rebuild or replace, and we are on call 7 days a week from 8am to 8pm for the homes and estates here.',
     ],
     commonIntro:
       "On Indian Hill's large estates, the faucet problems we handle most often involve the many high-end fixtures these homes carry and the wear that well water can add:",
     localFaqs: [
       {
         q: 'We have many faucets across our Indian Hill home — can you service all of them?',
-        a: 'Yes. Indian Hill’s large estates often have a dozen or more fixtures, and we can repair or replace several in one visit, including high-end brands. We are on call around the clock.',
+        a: 'Yes. Indian Hill’s large estates often have a dozen or more fixtures, and we can repair or replace several in one visit, including high-end brands. We are on call 7 days a week from 8am to 8pm.',
       },
     ],
   },

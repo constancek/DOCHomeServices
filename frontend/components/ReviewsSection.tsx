@@ -39,7 +39,7 @@ export default function ReviewsSection({
               name="paw"
               className="mr-2 inline-block h-5 w-5 align-[-4px] text-pink-500"
             />
-            Family owned with 30+ years of experience
+            Family owned since {site.founded}, {site.yearsExperience} years of experience
           </p>
         </div>
 

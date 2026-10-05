@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Water Quality Services in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Water Quality Services in ${loc.neighborhood}, ${loc.state}`,
     description: `Water testing, whole-house filtration, and softeners in ${place} — cleaner, better-tasting water at every tap. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/water-quality/${loc.slug}` },
     openGraph: {

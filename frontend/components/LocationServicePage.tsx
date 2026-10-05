@@ -274,12 +274,6 @@ export default function LocationServicePage({
                 </span>
               ))}
             </div>
-            <figure className="mt-5 border-l-4 border-pink-400 pl-4">
-              <blockquote className="text-[15px] italic leading-relaxed text-ink/75">&ldquo;{config.proofQuote}&rdquo;</blockquote>
-              <figcaption className="mt-2 text-xs font-semibold text-ink/50">
-                Sample review — replace with a real {loc.neighborhood} customer review
-              </figcaption>
-            </figure>
           </div>
 
           {/* FAQ */}

@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Patio Lighting Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Patio Lighting Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Patio lighting installation in ${place} — custom, outdoor-rated deck and patio lighting installed by licensed electricians for safety and atmosphere. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/patio-lighting/${loc.slug}` },
     openGraph: {

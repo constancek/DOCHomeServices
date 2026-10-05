@@ -103,7 +103,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Plumbing Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Plumbing Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Plumbing installation in ${place} — fixtures, water heaters, sump pumps, filtration, and softeners installed leak-free and to code. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/plumbing-installation/${loc.slug}` },
     openGraph: {

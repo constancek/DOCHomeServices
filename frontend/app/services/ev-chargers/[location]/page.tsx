@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `EV Charger Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `EV Charger Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Home Level 2 EV charger installation in ${place} — panel evaluation and code-compliant wiring by licensed electricians. Financing available. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/ev-chargers/${loc.slug}` },
     openGraph: {

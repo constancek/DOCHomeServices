@@ -103,7 +103,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Emergency Water Extraction in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Emergency Water Extraction in ${loc.neighborhood}, ${loc.state}`,
     description: `Same-day pumps and extractors for standing water in ${place}. We shut the source down and get the water out fast. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/emergency-water-extraction/${loc.slug}` },
     openGraph: {

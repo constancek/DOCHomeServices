@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Electrical Panel Replacement in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Electrical Panel Replacement in ${loc.neighborhood}, ${loc.state}`,
     description: `Electrical panel replacement and upgrades in ${place} — breaker panel and fuse-box replacement by licensed electricians, sized for modern demand. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/electrical-panel-replacement/${loc.slug}` },
     openGraph: {

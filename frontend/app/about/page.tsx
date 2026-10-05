@@ -7,12 +7,12 @@ import { site } from '@/content/site';
 
 export const metadata: Metadata = {
   title: 'About Us',
-  description: `${site.name} is a family-owned heating, cooling, plumbing, and electrical company serving ${site.serviceArea}. Meet the team and our story.`,
+  description: `${site.name} is a family-owned heating, cooling, plumbing, and electrical company founded in ${site.founded}, serving ${site.serviceArea}. Meet the team and our story.`,
   alternates: { canonical: '/about' },
 };
 
 const values = [
-  { icon: 'heart' as const, title: 'Family Owned & Operated', text: 'Locally owned, with the same family values we started with.' },
+  { icon: 'heart' as const, title: `Family Owned Since ${site.founded}`, text: 'Locally owned, with the same family values we started with.' },
   { icon: 'clock' as const, title: 'Same-Day Service', text: 'We staff for demand so most calls are handled the same day.' },
   { icon: 'badge' as const, title: 'Upfront, Flat-Rate Pricing', text: 'You approve the price before any work begins.' },
   { icon: 'shield' as const, title: 'Satisfaction Guaranteed', text: 'If you are not happy, we make it right.' },
@@ -39,7 +39,7 @@ export default function AboutPage() {
 
           <div className="mt-5 space-y-4 text-[17px] leading-relaxed text-ink/75">
             <p>
-              {site.name} began with a simple love for the trade and a desire to help people when
+              {site.name} began in {site.founded} with a simple love for the trade and a desire to help people when
               they need it most. What started as a passion for keeping homes comfortable grew into a
               family-owned company built to treat every customer like a neighbor.
             </p>

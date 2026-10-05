@@ -62,7 +62,7 @@ const config: ServiceLocationConfig = {
   proseSections: [
     { title: 'Common Plumbing Repairs in Older {neighborhood} Homes', body: 'Older homes in {neighborhood} tend to need the same handful of repairs — corroded galvanized supply lines that drop water pressure, worn shut-off valves and faucet cartridges, slow drains in original cast-iron lines, and running toilets with worn internal parts. We fix the immediate problem and flag aging components worth watching.' },
     { title: 'We Fix the Root Cause', body: 'Low pressure at one faucet might be the aerator, or it might be a failing line feeding the whole house. A recurring clog might be the trap, or a deeper issue in the drain. We diagnose which it is so the repair actually holds instead of returning in a month.' },
-    { title: 'Emergency & Same-Day Plumbing Repair in {neighborhood}', body: 'Burst pipes, major leaks, and sewer backups cannot wait. We are on call 24/7 for urgent repairs and reach most {neighborhood} homes the same day to stop the damage and make the fix.' },
+    { title: 'Emergency & Same-Day Plumbing Repair in {neighborhood}', body: 'Burst pipes, major leaks, and sewer backups cannot wait. We are on call 7 days a week from 8am to 8pm for urgent repairs and reach most {neighborhood} homes the same day to stop the damage and make the fix.' },
     { title: 'Related Plumbing Services', body: 'Beyond everyday repairs, we also handle pipe repair and replacement for aging lines, sump-pump service to protect basements, and garbage-disposal repair and installation — so one call covers the whole system.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
@@ -76,7 +76,7 @@ const config: ServiceLocationConfig = {
     'Had low pressure and a leak under the sink. They traced it to a corroded shut-off, replaced the valve and supply lines, and pressure came right back — done in one visit.',
   sharedFaqs: [
     { q: 'What does residential plumbing repair include?', a: 'Just about anything inside your home’s plumbing network — leaks, clogged or slow drains, toilet and sink repairs, fixture replacements, water-pressure problems, and appliance hookups.' },
-    { q: 'Do your plumbers provide emergency plumbing repair?', a: 'Yes. We are on call 24/7 for urgent repairs like burst pipes, major leaks, and sewer backups, and we reach most homes the same day.' },
+    { q: 'Do your plumbers provide emergency plumbing repair?', a: 'Yes. We are on call 7 days a week from 8am to 8pm for urgent repairs like burst pipes, major leaks, and sewer backups, and we reach most homes the same day.' },
     { q: 'How much does a licensed plumbing repair typically cost?', a: 'Every repair is quoted at a flat rate before we begin, based on your home and the work involved — so there are no surprises. Call to request an estimate.' },
     { q: 'Do plumbing repair services include toilet repair?', a: 'Yes. We fix running, leaking, and clogged toilets, replace worn internal parts, and install new toilets when a repair no longer makes sense.' },
     { q: 'How fast can a plumber respond?', a: 'We staff for demand, so most residential repair calls are handled the same day you reach out — often within hours.' },
@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Plumbing Repair in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Plumbing Repair in ${loc.neighborhood}, ${loc.state}`,
     description: `Same-day plumbing repair in ${place} — leaks, clogs, fixtures, and water-pressure issues fixed at the root cause. Upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/plumbing-repair/${loc.slug}` },
     openGraph: {

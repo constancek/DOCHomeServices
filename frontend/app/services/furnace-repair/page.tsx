@@ -12,7 +12,7 @@ import { furnaceRepairCopy } from '@/content/location-copy/furnace-repair';
 
 export const metadata: Metadata = {
   title: 'Furnace Repair',
-  description: `24/7 furnace repair across ${site.serviceArea} from ${site.name} — gas and electric, on all major brands. Fast response, upfront pricing, and repairs that fix the root cause.`,
+  description: `Seven-day furnace repair across ${site.serviceArea} from ${site.name} — gas and electric, on all major brands. Fast response, upfront pricing, and repairs that fix the root cause.`,
   alternates: { canonical: '/services/furnace-repair' },
 };
 
@@ -41,7 +41,7 @@ const otherServices = [
 ];
 
 const whyUs = [
-  { icon: 'clock' as const, title: '24/7 Emergency Repair', text: 'When the heat goes out below freezing, our rescue team is on standby day or night.' },
+  { icon: 'clock' as const, title: 'Seven-Day Emergency Repair', text: 'When the heat goes out below freezing, our rescue team is on standby 7 days a week from 8am to 8pm.' },
   { icon: 'check' as const, title: 'Gas & Electric', text: 'Certified repair for gas and electric furnaces on all major brands.' },
   { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked technicians and safe, code-compliant work.' },
   { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
@@ -60,7 +60,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   serviceType: 'Furnace Repair',
-  description: '24/7 gas and electric furnace repair on all major brands.',
+  description: 'Seven-day gas and electric furnace repair on all major brands.',
   provider: { '@type': 'Organization', name: site.name, telephone: site.primaryPhone.number },
   areaServed: site.serviceArea,
 };
@@ -90,7 +90,7 @@ export default function FurnaceRepairPage() {
       <PageHero
         eyebrow="Heating"
         title={`Furnace Repair in ${site.serviceArea}`}
-        description="No heat, weak airflow, or strange noises? Our licensed HVAC technicians respond fast and fix the problem right the first time — gas or electric, 24/7."
+        description="No heat, weak airflow, or strange noises? Our licensed HVAC technicians respond fast and fix the problem right the first time — gas or electric, 7 days a week from 8am to 8pm."
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -270,11 +270,11 @@ export default function FurnaceRepairPage() {
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             When your furnace fails without warning, every minute without heat matters. When
             temperatures drop below freezing, you need help fast — our rescue team is on standby with
-            24/7 service to restore heat quickly so your family stays safe and warm.
+            7-day service to restore heat quickly so your family stays safe and warm.
           </p>
           <div className="mt-6 flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
             <h3 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">
-              No heat right now? We answer 24/7.
+              No heat right now? We answer 7 days a week from 8am to 8pm.
             </h3>
             <a href={site.primaryPhone.href} className="btn-pink flex-shrink-0">
               <Icon name="phone" className="h-4 w-4" />

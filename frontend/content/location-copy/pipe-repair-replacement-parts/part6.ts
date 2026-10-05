@@ -42,7 +42,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
       'A pipe problem here usually starts small — a damp spot, weak flow, a drain that gurgles — and worsens until a line lets go. We camera-inspect a buried drain to confirm whether it is roots, a crack, or a belly before any digging, and on a wall or supply line we trace the leak to its source. Where the run allows on an Amelia lot, we trenchless-replace the line so the yard stays intact.',
     ],
     commonIntro: "Across Amelia’s mid-century and newer homes, the pipe problems we see most often are:",
-    localFaqs: [{ q: 'How fast can you reach Amelia for a leaking pipe?', a: 'Amelia is within our east-side service area along Ohio Pike. Our licensed plumbers are on call 24/7, camera-inspect to find the failed section, and aim for same-day repair or replacement.' }],
+    localFaqs: [{ q: 'How fast can you reach Amelia for a leaking pipe?', a: 'Amelia is within our east-side service area along Ohio Pike. Our licensed plumbers are on call 7 days a week from 8am to 8pm, camera-inspect to find the failed section, and aim for same-day repair or replacement.' }],
   },
   'batavia': {
     intro: 'Leaky pipe or a failing drain line in Batavia? Our licensed plumbers camera-inspect the line and repair or replace it for the Clermont County seat, same day. Call (513) 586-5107.',
@@ -123,7 +123,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
       'Because the housing spans several decades, the source of a leak varies block to block. We camera-inspect a buried drain to confirm whether it is roots, a belly, or a crack, and on a supply or wall line we trace the leak to its source before opening anything. Where a Fairfield lot allows, we trenchless-replace the run so the yard and drive stay intact.',
     ],
     commonIntro: "Across Fairfield’s mid-century and newer homes, the pipe problems we handle most often are:",
-    localFaqs: [{ q: 'How fast can you reach Fairfield for a leaking or cracked pipe?', a: 'Fairfield is part of our Butler County service area. Our licensed plumbers are on call 24/7, camera-inspect to find the failed section, and aim for same-day repair or replacement.' }],
+    localFaqs: [{ q: 'How fast can you reach Fairfield for a leaking or cracked pipe?', a: 'Fairfield is part of our Butler County service area. Our licensed plumbers are on call 7 days a week from 8am to 8pm, camera-inspect to find the failed section, and aim for same-day repair or replacement.' }],
   },
   'beckett-ridge': {
     intro: 'Leaking pipe or a slab leak in Beckett Ridge? Our licensed plumbers leak-detect and camera-inspect the line, then repair or replace it for this West Chester community, same day. Call (513) 586-5107.',
@@ -177,7 +177,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
       'Because the source of a leak depends on which part of town you are in, we start with a camera inspection on a buried drain or leak detection on a supply line before opening anything. In the newer subdivisions a hidden slab or in-wall leak gets pinpointed and repaired; in the older core we replace failed cast-iron or galvanized sections. Where a Monroe lot allows, we trenchless-replace a buried run so the yard stays intact.',
     ],
     commonIntro: "Across Monroe’s newer subdivisions and older core, the pipe problems we handle most often are:",
-    localFaqs: [{ q: 'How fast can you reach Monroe for a leaking or cracked pipe?', a: 'Monroe is part of our service area along the I-75 corridor. Our licensed plumbers are on call 24/7, camera-inspect or leak-detect to find the failed section, and aim for same-day repair or replacement.' }],
+    localFaqs: [{ q: 'How fast can you reach Monroe for a leaking or cracked pipe?', a: 'Monroe is part of our service area along the I-75 corridor. Our licensed plumbers are on call 7 days a week from 8am to 8pm, camera-inspect or leak-detect to find the failed section, and aim for same-day repair or replacement.' }],
   },
   'landen': {
     intro: 'Hidden leak or a cracked buried line in Landen? Our licensed plumbers leak-detect and camera-inspect the line, then repair or replace it for this planned Warren County community, same day. Call (513) 586-5107.',
@@ -195,7 +195,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
       'The low ground near the Little Miami adds a backup and leak risk in heavy rain, since saturated soil presses on buried drain pipe. We camera-inspect the line to pinpoint the failed section rather than guess, then spot-repair or trenchless-replace the run. Where a Loveland Park lot allows, trenchless keeps the established lawn and drive intact.',
     ],
     commonIntro: "Across Loveland Park’s mid-century homes, the pipe problems we handle most often are:",
-    localFaqs: [{ q: 'How fast can you reach Loveland Park for a leaking pipe?', a: 'Loveland Park is within our service area near Loveland and the Little Miami. Our licensed plumbers are on call 24/7, camera-inspect to find the failed section, and aim for same-day repair.' }],
+    localFaqs: [{ q: 'How fast can you reach Loveland Park for a leaking pipe?', a: 'Loveland Park is within our service area near Loveland and the Little Miami. Our licensed plumbers are on call 7 days a week from 8am to 8pm, camera-inspect to find the failed section, and aim for same-day repair.' }],
   },
   'maineville': {
     intro: 'Leaky pipe or a failing buried drain run in Maineville? Our licensed plumbers camera-inspect the line and repair or replace it for this growing Warren County town, same day. Call (513) 586-5107.',
@@ -222,7 +222,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
       'The low riverside ground adds a backup and leak risk in heavy rain, since saturated soil presses on buried drain pipe near the Little Miami. We camera-inspect a buried drain or leak-detect a supply line to find the failed section before opening anything, then spot-repair or trenchless-replace the run. In the newer subdivisions we pinpoint a hidden slab or in-wall leak; in the older core we replace failed cast-iron or galvanized sections.',
     ],
     commonIntro: "Across South Lebanon’s newer subdivisions and older core, the pipe problems we see most often are:",
-    localFaqs: [{ q: 'How fast can you reach South Lebanon for a cracked or leaking pipe?', a: 'South Lebanon is part of our Warren County service area along the Little Miami. Our licensed plumbers are on call 24/7, camera-inspect or leak-detect to find the failed section, and aim for same-day repair.' }],
+    localFaqs: [{ q: 'How fast can you reach South Lebanon for a cracked or leaking pipe?', a: 'South Lebanon is part of our Warren County service area along the Little Miami. Our licensed plumbers are on call 7 days a week from 8am to 8pm, camera-inspect or leak-detect to find the failed section, and aim for same-day repair.' }],
   },
   'lawrenceburg': {
     intro: 'Burst or corroded pipe in a historic Lawrenceburg home? Our licensed plumbers camera-inspect the aging line and repair or replace it for this historic Ohio River city, same day. Call (513) 586-5107.',

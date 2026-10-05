@@ -12,7 +12,7 @@ import { miniSplitRepairCopy } from '@/content/location-copy/mini-split-repair';
 
 export const metadata: Metadata = {
   title: 'Mini-Split Repair',
-  description: `Ductless mini-split repair across ${site.serviceArea} from ${site.name} — weak cooling, leaks, ice, and error codes fixed on all major brands. 24/7 emergency service, upfront pricing.`,
+  description: `Ductless mini-split repair across ${site.serviceArea} from ${site.name} — weak cooling, leaks, ice, and error codes fixed on all major brands. Seven-day emergency service, upfront pricing.`,
   alternates: { canonical: '/services/mini-split-repair' },
 };
 
@@ -52,7 +52,7 @@ const prevent = [
 const whyUs = [
   { icon: 'badge' as const, title: 'All Major Brands', text: 'We repair single- and multi-zone mini-splits from every major brand.' },
   { icon: 'shield' as const, title: 'Refrigerant-Certified', text: 'Licensed technicians who handle refrigerant safely and to code.' },
-  { icon: 'clock' as const, title: '24/7 Emergency Service', text: 'Lost cooling or heating after hours? We respond day or night.' },
+  { icon: 'clock' as const, title: 'Seven-Day Emergency Service', text: 'Lost cooling or heating? We respond 7 days a week from 8am to 8pm.' },
   { icon: 'check' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
 ];
 
@@ -99,7 +99,7 @@ export default function MiniSplitRepairPage() {
       <PageHero
         eyebrow="Air Conditioning · Mini-Splits"
         title={`Ductless Mini-Split Repair in ${site.serviceArea}`}
-        description="Weak cooling, leaks, odors, or error codes? Our licensed technicians diagnose and repair ductless mini-splits fast — all major brands, with 24/7 emergency service."
+        description="Weak cooling, leaks, odors, or error codes? Our licensed technicians diagnose and repair ductless mini-splits fast — all major brands, with 7-day emergency service."
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -244,16 +244,16 @@ export default function MiniSplitRepairPage() {
           </p>
 
           {/* Emergency */}
-          <h2 className="mt-12 section-title text-brand-700">Emergency Mini-Split Repair, 24/7</h2>
+          <h2 className="mt-12 section-title text-brand-700">Emergency Mini-Split Repair, 7 days a week from 8am to 8pm</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Mini-split problems do not always happen during business hours, and a loss of cooling or
-            heating can quickly affect comfort and safety inside the home. {site.name} offers 24/7
+            heating can quickly affect comfort and safety inside the home. {site.name} offers 7 days a week from 8am to 8pm
             emergency mini-split repair for urgent situations — focused on restoring comfort as quickly
             as possible while helping prevent further damage to the system.
           </p>
           <div className="mt-6 flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
             <h3 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">
-              No cooling or heating right now? We answer 24/7.
+              No cooling or heating right now? We answer 7 days a week from 8am to 8pm.
             </h3>
             <a href={site.primaryPhone.href} className="btn-pink flex-shrink-0">
               <Icon name="phone" className="h-4 w-4" />

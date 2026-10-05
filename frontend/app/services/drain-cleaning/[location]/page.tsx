@@ -25,7 +25,7 @@ const config: ServiceLocationConfig = {
       title: 'Drains We Clean in {neighborhood}',
       body: [
         'From a single slow sink to a main line backing up the whole house, we clear every drain in {neighborhood} homes — main sewer lines that every fixture feeds into, bathroom and toilet drains where hair and soap scum build up fastest, and kitchen lines clogged with grease and food scraps.',
-        'A drain backing up right now is an emergency, and we answer 24/7 with same-day service on most calls.',
+        'A drain backing up right now is an emergency, and we answer 7 days a week from 8am to 8pm with same-day service on most calls.',
       ],
     },
     {
@@ -63,7 +63,7 @@ const config: ServiceLocationConfig = {
     { title: 'Snaking vs. Hydro Jetting', body: 'For a localized clog, a drain snake breaks through and clears the line quickly. For stubborn, grease-heavy, or recurring blockages — and for main lines — hydro jetting uses high-pressure water to scour the pipe walls clean, which removes far more buildup than a snake alone. We choose the right method for your {neighborhood} home’s situation rather than forcing one tool on every job.' },
     { title: 'Why We Skip Chemical Drain Cleaners', body: 'Store-bought chemical cleaners usually clear only a small channel through a clog rather than removing it, and they corrode pipes over time — especially the older lines common in many {neighborhood} homes. Professional cleaning is safer for your plumbing and far more thorough.' },
     { title: 'Recurring Clogs and Camera Inspection', body: 'A clog that keeps coming back often points to a deeper issue — grease and buildup, root intrusion, or a damaged, sagging line. A camera inspection shows us exactly what is happening inside the pipe, so we fix the real problem instead of clearing the same clog again next month.' },
-    { title: 'Emergency & Same-Day Drain Cleaning in {neighborhood}', body: 'A drain backing up into your sinks, tub, or floor drains cannot wait. Our team answers 24/7 and reaches most {neighborhood} homes the same day to clear the blockage and get your plumbing working again.' },
+    { title: 'Emergency & Same-Day Drain Cleaning in {neighborhood}', body: 'A drain backing up into your sinks, tub, or floor drains cannot wait. Our team answers 7 days a week from 8am to 8pm and reaches most {neighborhood} homes the same day to clear the blockage and get your plumbing working again.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
   whyUs: [
@@ -102,7 +102,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Drain Cleaning in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Drain Cleaning in ${loc.neighborhood}, ${loc.state}`,
     description: `Same-day drain cleaning in ${place}. Slow drains, recurring clogs, and main-line backups cleared with snaking or hydro jetting. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/drain-cleaning/${loc.slug}` },
     openGraph: {

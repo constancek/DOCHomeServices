@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Whole-Home Surge Protector Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Whole-Home Surge Protector Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Whole-home surge protector installation in ${place} — panel-level protection for appliances, HVAC, and electronics by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/surge-protector-installation/${loc.slug}` },
     openGraph: {

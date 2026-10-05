@@ -235,7 +235,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "Do you handle water extraction for commercial buildings in Queensgate?",
-        a: "Yes. Queensgate is mostly commercial and industrial, and we extract, dry, and repair the failed plumbing in those buildings as well as homes, around the clock.",
+        a: "Yes. Queensgate is mostly commercial and industrial, and we extract, dry, and repair the failed plumbing in those buildings as well as homes, 7 days a week from 8am to 8pm.",
       },
     ],
   },
@@ -251,7 +251,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "A pipe burst in a CUF rental and hit more than one unit. Can you handle it fast?",
-        a: "Yes. We work the older homes and rentals throughout Clifton Heights, University Heights, and Fairview, and we are available around the clock to stop the source, extract the water, and dry each unit.",
+        a: "Yes. We work the older homes and rentals throughout Clifton Heights, University Heights, and Fairview, and we are available 7 days a week from 8am to 8pm to stop the source, extract the water, and dry each unit.",
       },
     ],
   },
@@ -331,7 +331,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach Evanston after a leak?",
-        a: "Evanston is centrally located on the east side near Xavier and quick for us to reach. We are on call around the clock and start drying the same visit we repair the source.",
+        a: "Evanston is centrally located on the east side near Xavier and quick for us to reach. We are on call 7 days a week from 8am to 8pm and start drying the same visit we repair the source.",
       },
     ],
   },

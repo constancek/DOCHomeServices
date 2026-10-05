@@ -78,7 +78,7 @@ const faqs = [
   { q: 'How does a leak detection service work?', a: 'We use non-invasive tools — acoustic listening devices, thermal imaging, moisture meters, pressure tests, and pipe cameras — to pinpoint a leak’s exact location before opening anything up, so the repair is targeted and the mess is minimal.' },
   { q: 'What are the signs I might need water leak detection?', a: 'Watch for an unexplained jump in your water bill, stains or discoloration, mold or a musty smell, the sound of running water when nothing is on, low pressure, or warm and damp spots on the floor.' },
   { q: 'Can small leaks really cause big damage?', a: 'Yes. A slow, hidden leak can rot framing, ruin drywall and flooring, and grow mold over weeks or months — while wasting thousands of gallons of water. Finding it early is far cheaper than the repairs that follow.' },
-  { q: 'Do you offer emergency leak detection services?', a: 'Yes. We are on call 24/7 for active leaks, flooding, and suspected slab leaks, and we reach most homes the same day.' },
+  { q: 'Do you offer emergency leak detection services?', a: 'Yes. We are on call 7 days a week from 8am to 8pm for active leaks, flooding, and suspected slab leaks, and we reach most homes the same day.' },
   { q: 'What areas of my home are most susceptible to leaks?', a: 'The most common spots are under slabs, behind walls, under sinks and toilets, at the water heater, along supply lines, and in outdoor or irrigation lines. We check them all.' },
 ];
 
@@ -291,7 +291,7 @@ export default function LeakDetectionPage() {
           </ul>
           <div className="mt-6 flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
             <h3 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">
-              Active leak right now? We answer 24/7.
+              Active leak right now? We answer 7 days a week from 8am to 8pm.
             </h3>
             <Link href="/services/emergency-plumbing" className="btn-pink flex-shrink-0">
               Emergency Plumbing

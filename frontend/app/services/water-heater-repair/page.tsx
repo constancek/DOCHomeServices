@@ -12,7 +12,7 @@ import { waterHeaterRepairCopy } from '@/content/location-copy/water-heater-repa
 
 export const metadata: Metadata = {
   title: 'Water Heater Repair',
-  description: `Fast water heater repair across ${site.serviceArea} from ${site.name} — no hot water, leaks, noises, and pilot or element issues, on all major brands. 24/7 emergency service.`,
+  description: `Fast water heater repair across ${site.serviceArea} from ${site.name} — no hot water, leaks, noises, and pilot or element issues, on all major brands. Seven-day emergency service.`,
   alternates: { canonical: '/services/water-heater-repair' },
 };
 
@@ -38,7 +38,7 @@ const problems = [
 
 const whyUs = [
   { icon: 'badge' as const, title: 'All Major Brands', text: 'We repair gas, electric, and tankless water heaters from every major brand.' },
-  { icon: 'clock' as const, title: '24/7 Emergency Repair', text: 'A leak or no hot water after hours? We respond day or night.' },
+  { icon: 'clock' as const, title: 'Seven-Day Emergency Repair', text: 'A leak or no hot water? We respond 7 days a week from 8am to 8pm.' },
   { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked technicians who diagnose accurately and fix it right.' },
   { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
 ];
@@ -46,7 +46,7 @@ const whyUs = [
 const faqs = [
   { q: 'Why is my water heater not producing hot water?', a: 'On an electric unit it is usually a failed heating element or thermostat; on a gas unit it is often a pilot, ignition, or gas-supply issue. A tank thick with sediment can also struggle to heat. We diagnose which it is and fix it.' },
   { q: 'What causes a leaking water heater?', a: 'Leaks come from a failing temperature-and-pressure relief valve, loose fittings, or corrosion inside the tank. A valve or fitting leak is usually a quick repair; a tank that is rusted through means it is time to replace.' },
-  { q: 'How fast can you repair a water heater?', a: 'Most repairs are handled the same day — we carry common parts — and we are on call 24/7 for emergencies like a leak or a total loss of hot water.' },
+  { q: 'How fast can you repair a water heater?', a: 'Most repairs are handled the same day — we carry common parts — and we are on call 7 days a week from 8am to 8pm for emergencies like a leak or a total loss of hot water.' },
   { q: 'Do you repair gas and electric water heaters?', a: 'Yes — gas, electric, and tankless, on all major brands.' },
   { q: 'How do I know if I should repair or replace?', a: 'If the unit is under about 10 years old and the issue is isolated, a repair makes sense. If it is older, leaking from the tank, or failing repeatedly, replacement is usually the better long-term value — and we will tell you honestly which we would do.' },
 ];
@@ -130,7 +130,7 @@ export default function WaterHeaterRepairPage() {
           </p>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We diagnose the real cause, explain it clearly, and quote a flat rate before any work
-            begins — with 24/7 availability when a failure cannot wait.
+            begins — with 7-day availability when a failure cannot wait.
           </p>
         </MainWithSidebar>
       </section>
@@ -232,7 +232,7 @@ export default function WaterHeaterRepairPage() {
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Some problems need immediate attention. A leaking water heater, a total loss of hot water,
             or a gas-related concern can quickly become a property or safety risk. {site.name} offers
-            emergency water heater repair with 24/7 availability across {site.serviceArea}.
+            emergency water heater repair with 7-day availability across {site.serviceArea}.
           </p>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             If your water heater fails outside normal business hours, our team is available day or
@@ -242,7 +242,7 @@ export default function WaterHeaterRepairPage() {
           </p>
           <div className="mt-6 flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
             <h3 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">
-              Water heater emergency? We answer 24/7.
+              Water heater emergency? We answer 7 days a week from 8am to 8pm.
             </h3>
             <Link href="/services/emergency-plumbing" className="btn-pink flex-shrink-0">
               Emergency Plumbing

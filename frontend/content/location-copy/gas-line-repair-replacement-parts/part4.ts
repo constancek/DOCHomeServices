@@ -65,7 +65,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a gas-line emergency in Dry Run?',
-        a: 'Dry Run is well within our east-side service area in Anderson Township. Our licensed plumbers are on call 24/7 for gas-line concerns and aim for same-day arrival, with every repair pressure-tested to code.',
+        a: 'Dry Run is well within our east-side service area in Anderson Township. Our licensed plumbers are on call 7 days a week from 8am to 8pm for gas-line concerns and aim for same-day arrival, with every repair pressure-tested to code.',
       },
     ],
   },
@@ -115,7 +115,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     intro: 'Adding a gas range, pool heater, or generator in Kenwood? Our licensed plumbers run new code-compliant gas lines, repair aging piping, and pressure-test the work. Call (513) 586-5107.',
     relevance: [
       'Kenwood (ZIP 45236) is an upscale, unincorporated community on the east side around Kenwood Towne Centre, with mid-century homes alongside newer, larger houses. The larger homes are exactly where bigger gas projects land — a high-output range, a fireplace or two, a pool heater, a standby generator — loads the original piping was never sized to carry. We run new lines sized for the demand and pressure-test the whole system.',
-      'The mid-century houses in Kenwood, meanwhile, are at the age where original gas connections loosen and buried service lines corrode. Whether the job is a hidden leak in an older home or a full new line for an addition, it has to be done by a licensed plumber and tested before the gas goes on. We handle both, day or night.',
+      'The mid-century houses in Kenwood, meanwhile, are at the age where original gas connections loosen and buried service lines corrode. Whether the job is a hidden leak in an older home or a full new line for an addition, it has to be done by a licensed plumber and tested before the gas goes on. We handle both, 7 days a week from 8am to 8pm.',
     ],
     commonIntro: 'Across Kenwood’s mid-century and larger homes, gas-line work ranges from aging connections in older houses to new high-load lines for ranges, pool heaters, and generators.',
     localFaqs: [
@@ -289,7 +289,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a gas-line concern in Springdale?',
-        a: 'Springdale is well within our north-side service area. Our licensed plumbers are on call 24/7 for gas-line concerns and aim for same-day arrival, with every repair pressure-tested to code.',
+        a: 'Springdale is well within our north-side service area. Our licensed plumbers are on call 7 days a week from 8am to 8pm for gas-line concerns and aim for same-day arrival, with every repair pressure-tested to code.',
       },
     ],
   },

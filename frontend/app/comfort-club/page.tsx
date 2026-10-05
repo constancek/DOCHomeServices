@@ -38,7 +38,7 @@ const perks = [
   },
   {
     title: 'Reduced Diagnostic Fees',
-    text: 'Never pay full price, even on nights and weekends, for both HVAC and plumbing service appointments.',
+    text: 'Never pay full price, even on weekends, for both HVAC and plumbing service appointments.',
   },
   {
     title: 'Easy Payment',

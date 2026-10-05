@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Water Heater Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Water Heater Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Water heater installation and replacement in ${place} — tank or tankless, sized right and installed to code. Financing and same-day service. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/water-heater-installation/${loc.slug}` },
     openGraph: {

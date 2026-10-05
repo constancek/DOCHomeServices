@@ -27,7 +27,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Can you find a leak under the slab in my Dent home?',
-        a: 'Yes. Slab and under-floor leaks are common in the mid-century homes around Dent, and we use leak detection to pinpoint the run before opening anything up. We are on call 24/7 and aim for same-day arrival in Green Township.',
+        a: 'Yes. Slab and under-floor leaks are common in the mid-century homes around Dent, and we use leak detection to pinpoint the run before opening anything up. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival in Green Township.',
       },
     ],
   },
@@ -75,7 +75,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Could high water pressure be causing leaks in my Dry Run home?',
-        a: 'It can. In Anderson Township subdivisions like Dry Run, high pressure puts steady strain on joints and fittings, so we check pressure while we locate and repair the leak. We are on call 24/7 with same-day service.',
+        a: 'It can. In Anderson Township subdivisions like Dry Run, high pressure puts steady strain on joints and fittings, so we check pressure while we locate and repair the leak. We are on call 7 days a week from 8am to 8pm with same-day service.',
       },
     ],
   },
@@ -139,7 +139,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My large Kenwood home has a leak somewhere — can you narrow it down?',
-        a: 'Yes. Larger Kenwood homes have long supply runs, so we use leak detection to pinpoint the spot across the floor plan instead of opening multiple walls. We are on call 24/7 with same-day service.',
+        a: 'Yes. Larger Kenwood homes have long supply runs, so we use leak detection to pinpoint the spot across the floor plan instead of opening multiple walls. We are on call 7 days a week from 8am to 8pm with same-day service.',
       },
     ],
   },
@@ -155,7 +155,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Is the water in my Lincoln Heights basement a leak or the high water table?',
-        a: 'In the low Mill Creek valley it can be either, so we use leak detection to tell a failing pipe from groundwater seepage before we repair anything. We are on call 24/7 and aim for same-day arrival.',
+        a: 'In the low Mill Creek valley it can be either, so we use leak detection to tell a failing pipe from groundwater seepage before we repair anything. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival.',
       },
     ],
   },
@@ -203,7 +203,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Is my wet Addyston basement a pipe leak or the river?',
-        a: 'Along the Ohio River in Addyston it can be either, so we use leak detection to tell a failing pipe from river-driven damp before we repair. We are on call 24/7 and aim for same-day arrival on the far west side.',
+        a: 'Along the Ohio River in Addyston it can be either, so we use leak detection to tell a failing pipe from river-driven damp before we repair. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival on the far west side.',
       },
     ],
   },
@@ -251,7 +251,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Can you find a leak on a long buried line on my Indian Hill property?',
-        a: 'Yes. Indian Hill’s large estates have long water and sewer runs, so we use leak detection to pinpoint a buried or distant leak before we dig or open anything. We are on call 24/7 with same-day service.',
+        a: 'Yes. Indian Hill’s large estates have long water and sewer runs, so we use leak detection to pinpoint a buried or distant leak before we dig or open anything. We are on call 7 days a week from 8am to 8pm with same-day service.',
       },
     ],
   },
@@ -267,7 +267,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Do you handle leak repair for commercial buildings in Evendale?',
-        a: 'Yes. Evendale has a large commercial and industrial base, and we use leak detection to locate failures on larger systems quickly to limit downtime. We are on call 24/7 with same-day service for homes and businesses.',
+        a: 'Yes. Evendale has a large commercial and industrial base, and we use leak detection to locate failures on larger systems quickly to limit downtime. We are on call 7 days a week from 8am to 8pm with same-day service for homes and businesses.',
       },
     ],
   },
@@ -299,7 +299,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Can you handle a leak at my Sharonville business as well as my home?',
-        a: 'Yes. Sharonville has a large commercial base alongside its neighborhoods, and we use leak detection on both to locate the source fast. We are on call 24/7 with same-day service.',
+        a: 'Yes. Sharonville has a large commercial base alongside its neighborhoods, and we use leak detection on both to locate the source fast. We are on call 7 days a week from 8am to 8pm with same-day service.',
       },
     ],
   },
@@ -395,7 +395,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My Cleves basement is wet — is it a leak or the river?',
-        a: 'Near where the Great Miami meets the Ohio in Cleves it can be either, so we use leak detection to tell a failing pipe from river-driven damp before we repair. We are on call 24/7 with same-day service.',
+        a: 'Near where the Great Miami meets the Ohio in Cleves it can be either, so we use leak detection to tell a failing pipe from river-driven damp before we repair. We are on call 7 days a week from 8am to 8pm with same-day service.',
       },
     ],
   },
@@ -427,7 +427,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Is the water in my Loveland basement a leak or the Little Miami?',
-        a: 'Along the Little Miami in Loveland it can be either, so we use leak detection to tell a failing pipe from river-driven damp before we repair. We are on call 24/7 and aim for same-day arrival.',
+        a: 'Along the Little Miami in Loveland it can be either, so we use leak detection to tell a failing pipe from river-driven damp before we repair. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival.',
       },
     ],
   },

@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Home Rewiring in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Home Rewiring in ${loc.neighborhood}, ${loc.state}`,
     description: `Partial and whole-home electrical rewiring in ${place} — knob-and-tube and aluminum-wire replacement by licensed electricians, code-compliant and built for modern demand. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/home-rewiring/${loc.slug}` },
     openGraph: {

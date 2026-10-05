@@ -75,7 +75,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you camera a sewer line in Covedale?',
-        a: 'Covedale is well within our west-side service area, and we keep technicians on call 24/7. We can usually camera the lateral the same day, locate the break, and recommend whether a trenchless repair fits.',
+        a: 'Covedale is well within our west-side service area, and we keep technicians on call 7 days a week from 8am to 8pm. We can usually camera the lateral the same day, locate the break, and recommend whether a trenchless repair fits.',
       },
     ],
   },
@@ -139,7 +139,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you camera a sewer line in Fort Thomas?',
-        a: 'Fort Thomas is well within our Northern Kentucky service area, and we keep technicians on call 24/7. We can usually camera the lateral the same day, locate the break, and recommend whether a trenchless replacement fits.',
+        a: 'Fort Thomas is well within our Northern Kentucky service area, and we keep technicians on call 7 days a week from 8am to 8pm. We can usually camera the lateral the same day, locate the break, and recommend whether a trenchless replacement fits.',
       },
     ],
   },
@@ -155,7 +155,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you camera a sewer line in Florence?',
-        a: 'Florence is a key part of our Boone County service area, and we keep technicians on call 24/7. We can usually camera the lateral the same day, locate the issue, and tell you whether a trenchless repair fits.',
+        a: 'Florence is a key part of our Boone County service area, and we keep technicians on call 7 days a week from 8am to 8pm. We can usually camera the lateral the same day, locate the issue, and tell you whether a trenchless repair fits.',
       },
     ],
   },
@@ -219,7 +219,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you camera the sewer line at a Pendleton building?',
-        a: 'Pendleton sits right beside downtown and OTR, so it is one of the fastest areas for us to reach. We keep technicians on call 24/7 and can usually camera the lateral the same day to locate the break.',
+        a: 'Pendleton sits right beside downtown and OTR, so it is one of the fastest areas for us to reach. We keep technicians on call 7 days a week from 8am to 8pm and can usually camera the lateral the same day to locate the break.',
       },
     ],
   },
@@ -235,7 +235,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Do you replace sewer lines for commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we camera and replace the larger laterals those buildings run on, trenchless where the line allows. We are on call 24/7 for same-day inspection.',
+        a: 'Yes. Queensgate is mostly commercial and industrial, and we camera and replace the larger laterals those buildings run on, trenchless where the line allows. We are on call 7 days a week from 8am to 8pm for same-day inspection.',
       },
     ],
   },
@@ -251,7 +251,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Do you replace sewer lines for the older rentals in the CUF area?',
-        a: 'Yes. We camera the lateral first and can line or pipe-burst a failed line trenchlessly, which suits the tight hillside lots throughout Clifton Heights, University Heights, and Fairview. We are on call 24/7 for same-day inspection.',
+        a: 'Yes. We camera the lateral first and can line or pipe-burst a failed line trenchlessly, which suits the tight hillside lots throughout Clifton Heights, University Heights, and Fairview. We are on call 7 days a week from 8am to 8pm for same-day inspection.',
       },
     ],
   },
@@ -267,7 +267,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My Camp Washington sewer line backs up in heavy rain — can you help?',
-        a: 'Heavy rain saturates the valley soil and pushes groundwater into cracked laterals. We camera the line to find the break or sag and can replace the section trenchlessly. We are on call 24/7 for same-day work in the Mill Creek valley.',
+        a: 'Heavy rain saturates the valley soil and pushes groundwater into cracked laterals. We camera the line to find the break or sag and can replace the section trenchlessly. We are on call 7 days a week from 8am to 8pm for same-day work in the Mill Creek valley.',
       },
     ],
   },
@@ -283,7 +283,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you camera a sewer line in South Fairmount?',
-        a: 'South Fairmount is well within our west-side service area along Queen City Avenue, and we keep technicians on call 24/7. We can usually camera the lateral the same day, locate the break, and recommend a trenchless repair where it fits.',
+        a: 'South Fairmount is well within our west-side service area along Queen City Avenue, and we keep technicians on call 7 days a week from 8am to 8pm. We can usually camera the lateral the same day, locate the break, and recommend a trenchless repair where it fits.',
       },
     ],
   },
@@ -299,7 +299,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My East End home backs up with sewage when the river is high — can you help?',
-        a: 'Yes. High water saturates the ground and pushes into cracked laterals along Eastern Avenue. We camera the line to find the break and can replace the section trenchlessly. We are on call 24/7 for same-day arrival.',
+        a: 'Yes. High water saturates the ground and pushes into cracked laterals along Eastern Avenue. We camera the line to find the break and can replace the section trenchlessly. We are on call 7 days a week from 8am to 8pm for same-day arrival.',
       },
     ],
   },
@@ -315,7 +315,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you camera a sewer line in North Fairmount?',
-        a: 'North Fairmount is within our west-side service area, and we keep technicians on call 24/7. We can usually camera the lateral the same day, locate the break or sag, and recommend a trenchless repair where it fits.',
+        a: 'North Fairmount is within our west-side service area, and we keep technicians on call 7 days a week from 8am to 8pm. We can usually camera the lateral the same day, locate the break or sag, and recommend a trenchless repair where it fits.',
       },
     ],
   },
@@ -347,7 +347,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you camera a sewer line in South Cumminsville?',
-        a: 'South Cumminsville is within our service area in the Mill Creek valley, and we keep technicians on call 24/7. We can usually camera the lateral the same day, locate the break or sag, and recommend a trenchless repair where it fits.',
+        a: 'South Cumminsville is within our service area in the Mill Creek valley, and we keep technicians on call 7 days a week from 8am to 8pm. We can usually camera the lateral the same day, locate the break or sag, and recommend a trenchless repair where it fits.',
       },
     ],
   },
@@ -363,7 +363,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you camera a sewer line in English Woods?',
-        a: 'English Woods is within our west-side service area, and we keep technicians on call 24/7. We can usually camera the lateral the same day, locate the break or sag, and recommend a trenchless repair where it fits.',
+        a: 'English Woods is within our west-side service area, and we keep technicians on call 7 days a week from 8am to 8pm. We can usually camera the lateral the same day, locate the break or sag, and recommend a trenchless repair where it fits.',
       },
     ],
   },
@@ -395,7 +395,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you camera a sewer line in Millvale?',
-        a: 'Millvale is within our service area in the Mill Creek valley, and we keep technicians on call 24/7. We can usually camera the lateral the same day, locate the break or sag, and recommend a trenchless repair where it fits.',
+        a: 'Millvale is within our service area in the Mill Creek valley, and we keep technicians on call 7 days a week from 8am to 8pm. We can usually camera the lateral the same day, locate the break or sag, and recommend a trenchless repair where it fits.',
       },
     ],
   },
@@ -427,7 +427,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you camera a sewer line in Spring Grove Village?',
-        a: 'Spring Grove Village is within our service area in the Mill Creek valley, and we keep technicians on call 24/7. We can usually camera the lateral the same day, locate the break or roots, and recommend a trenchless repair where it fits.',
+        a: 'Spring Grove Village is within our service area in the Mill Creek valley, and we keep technicians on call 7 days a week from 8am to 8pm. We can usually camera the lateral the same day, locate the break or roots, and recommend a trenchless repair where it fits.',
       },
     ],
   },

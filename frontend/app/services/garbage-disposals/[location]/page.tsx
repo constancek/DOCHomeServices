@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Garbage Disposal Repair & Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Garbage Disposal Repair & Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Garbage disposal repair, replacement, and installation in ${place} — licensed plumbers with proper drain and dishwasher connections, leak-tested. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/garbage-disposals/${loc.slug}` },
     openGraph: {

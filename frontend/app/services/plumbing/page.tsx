@@ -163,7 +163,7 @@ export default function PlumbingPage() {
           {/* Emergency banner */}
           <div className="mt-8 flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
             <h2 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">
-              Plumbing emergency? We answer 24/7.
+              Plumbing emergency? We answer 7 days a week from 8am to 8pm.
             </h2>
             <Link href="/services/emergency-plumbing" className="btn-pink flex-shrink-0">
               Emergency Plumbing
