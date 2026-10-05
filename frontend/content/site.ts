@@ -11,7 +11,7 @@ export const site = {
   url: 'https://www.cincydegreeofcomfort.com',
   description:
     'Heating, cooling, plumbing, and electrical for the Tri-State area. Same-day service, upfront pricing, and a satisfaction guarantee on every job.',
-  email: 'cincydegreeofcomfort@gmail.com',
+  email: 'admin@cincydegreeofcomfort.com',
   // Zapier "Catch Hook" webhook that forms POST to. Zapier then forwards the
   // submission to GoHighLevel. Paste the Catch Hook URL here (or set
   // NEXT_PUBLIC_FORM_WEBHOOK_URL at build time). Empty = forms run in demo mode.
