@@ -24,10 +24,10 @@ export function MapWidget() {
   );
 }
 
-// `price` picks a specific coupon by its price label (e.g. '$59' for the furnace
-// tune-up on heating posts); without it the sidebar shows the featured one.
-export function CouponWidget({ price }: { price?: string } = {}) {
-  const featured = (price && coupons.find((c) => c.price === price)) || defaultCoupon;
+// `title` picks a specific coupon by its title (e.g. 'Furnace Tune-Up' on heating
+// posts); without it the sidebar shows the featured one.
+export function CouponWidget({ title }: { title?: string } = {}) {
+  const featured = (title && coupons.find((c) => c.title === title)) || defaultCoupon;
   return (
     <div className="overflow-hidden rounded-2xl border-2 border-dashed border-pink-400 bg-white shadow-card">
       <div className="bg-cobalt py-2 text-center text-xs font-bold uppercase tracking-wide text-white">
@@ -56,18 +56,21 @@ export function CouponWidget({ price }: { price?: string } = {}) {
 // The standard sidebar: optional page-specific widgets, then map + voucher.
 // `hideMenuOnMobile` keeps the services menu in the sidebar on desktop but hides
 // it on mobile, for pages that render the menu lower down (above Our Difference).
+// `couponTitle` swaps the featured voucher for one matching the page's trade.
 export function Sidebar({
   extras,
   hideMenuOnMobile = false,
+  couponTitle,
 }: {
   extras?: ReactNode;
   hideMenuOnMobile?: boolean;
+  couponTitle?: string;
 }) {
   return (
     <aside className="space-y-6 lg:self-start">
       {extras}
       <MapWidget />
-      <CouponWidget />
+      <CouponWidget title={couponTitle} />
       <div className={hideMenuOnMobile ? 'hidden lg:block' : undefined}>
         <ServicesMenu />
       </div>
@@ -80,15 +83,17 @@ export default function MainWithSidebar({
   children,
   extras,
   hideMenuOnMobile = false,
+  couponTitle,
 }: {
   children: ReactNode;
   extras?: ReactNode;
   hideMenuOnMobile?: boolean;
+  couponTitle?: string;
 }) {
   return (
     <div className="container-page grid gap-10 lg:grid-cols-[1fr_340px] lg:items-start">
       <div className="min-w-0">{children}</div>
-      <Sidebar extras={extras} hideMenuOnMobile={hideMenuOnMobile} />
+      <Sidebar extras={extras} hideMenuOnMobile={hideMenuOnMobile} couponTitle={couponTitle} />
     </div>
   );
 }

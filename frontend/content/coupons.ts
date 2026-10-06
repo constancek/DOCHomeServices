@@ -44,7 +44,7 @@ const catalogue: Omit<Coupon, 'expires'>[] = [
     expiryKind: 'rolling',
   },
   {
-    price: '$59',
+    price: '$89',
     title: 'Furnace Tune-Up',
     details: '21-point heating safety inspection before the cold sets in.',
     expiryKind: 'furnace',

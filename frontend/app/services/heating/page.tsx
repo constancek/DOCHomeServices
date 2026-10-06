@@ -5,6 +5,7 @@ import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
+import BrandsWeService from '@/components/BrandsWeService';
 import { site } from '@/content/site';
 import { servicePages } from '@/content/servicePages';
 
@@ -98,7 +99,7 @@ export default function HeatingPage() {
       </section>
 
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/heating-hero.webp)' }}
@@ -189,6 +190,8 @@ export default function HeatingPage() {
               </div>
             ))}
           </div>
+
+          <BrandsWeService equipment="furnaces, boilers and heat pumps" />
 
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Heating FAQs</h2>

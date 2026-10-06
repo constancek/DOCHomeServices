@@ -30,6 +30,20 @@ export default function Footer() {
               </span>
             </Link>
 
+            <div className="mt-5 flex gap-2.5">
+              {site.social.map((s) => (
+                <a
+                  key={s.label}
+                  href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`${site.name} on ${s.label}`}
+                  className="grid h-10 w-10 place-items-center rounded-full bg-white/10 text-white transition hover:bg-pink-500"
+                >
+                  <Icon name={s.icon} className="h-5 w-5" />
+                </a>
+              ))}
+            </div>
           </div>
 
           {/* Contact */}

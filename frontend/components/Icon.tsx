@@ -29,7 +29,8 @@ export type IconName =
   | 'calendarClock'
   | 'tag'
   | 'noFee'
-  | 'card';
+  | 'card'
+  | 'facebook';
 
 const paths: Record<IconName, ReactNode> = {
   snowflake: (
@@ -39,7 +40,7 @@ const paths: Record<IconName, ReactNode> = {
     </>
   ),
   flame: (
-    <path d="M12 2c1 3-2 4-2 7a3 3 0 0 0 6 0c0-1-.3-1.8-.7-2.5C17 9 18 11.5 18 14a6 6 0 1 1-12 0c0-4 3-6 4-9 .5 2 1.5 2.5 2 3z" />
+    <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.07-2.14-.22-4.05 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.15.43-2.29 1-3a2.5 2.5 0 0 0 2.5 2.5z" />
   ),
   droplet: <path d="M12 2.5S5.5 9.5 5.5 14a6.5 6.5 0 0 0 13 0C18.5 9.5 12 2.5 12 2.5z" />,
   bolt: <path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z" />,
@@ -136,6 +137,7 @@ const paths: Record<IconName, ReactNode> = {
       <path d="M2 10h20M6 15h4" />
     </>
   ),
+  facebook: <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />,
   paw: (
     <g fill="currentColor" stroke="none">
       <ellipse cx="12" cy="15.5" rx="4.3" ry="3.6" />

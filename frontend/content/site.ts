@@ -45,15 +45,10 @@ export const site = {
   hours: 'Mon–Sun: 8am–8pm',
   serviceArea: 'Cincinnati and Northern Kentucky',
 
+  // Real profiles only. Also fed into the business schema as sameAs.
   social: [
-    { label: 'Facebook', href: 'https://facebook.com' },
-    { label: 'Instagram', href: 'https://instagram.com' },
-    { label: 'YouTube', href: 'https://youtube.com' },
-    { label: 'LinkedIn', href: 'https://linkedin.com' },
-    { label: 'Yelp', href: 'https://yelp.com' },
+    { label: 'Facebook', icon: 'facebook' as const, href: 'https://www.facebook.com/cincydegreeofcomfort/' },
   ],
-
-  licenses: ['KY HVAC #M12345', 'OH Plumbing #PL48820', 'KY Electrical #CE99041'],
 };
 
 export type NavChild = {

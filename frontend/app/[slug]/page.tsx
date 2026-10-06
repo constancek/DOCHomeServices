@@ -408,7 +408,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               </ul>
             </div>
             <MapWidget />
-            <CouponWidget price={post.category === 'Heating' ? '$59' : undefined} />
+            <CouponWidget title={post.category === 'Heating' ? 'Furnace Tune-Up' : undefined} />
             <ServicesMenu />
           </aside>
         </div>

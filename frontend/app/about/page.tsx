@@ -63,6 +63,22 @@ export default function AboutPage() {
             </p>
           </div>
 
+          {/* Social */}
+          <div className="mt-6 flex flex-wrap gap-3">
+            {site.social.map((s) => (
+              <a
+                key={s.label}
+                href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn gap-2 border-2 border-brand-700 text-brand-700 hover:bg-brand-700 hover:text-white"
+              >
+                <Icon name={s.icon} className="h-5 w-5" />
+                Follow us on {s.label}
+              </a>
+            ))}
+          </div>
+
           {/* Values */}
           <div className="mt-12 grid gap-6 sm:grid-cols-2">
             {values.map((v) => (

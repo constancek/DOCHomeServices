@@ -47,6 +47,7 @@ const localBusinessSchema = {
     opens: '08:00',
     closes: '20:00',
   },
+  sameAs: site.social.map((s) => s.href),
 };
 
 export default function HomePage() {
@@ -92,8 +93,10 @@ function PromoBar() {
 
       {/* Centered headline + CTA */}
       <div className="container-page relative z-10 flex flex-col items-center gap-5 text-center">
+        {/* On mobile the flame sits above the headline instead of on the left */}
+        <Icon name="flame" className="h-14 w-14 text-white/85 sm:hidden" />
         <h2 className="font-display text-3xl font-extrabold uppercase leading-[1.05] tracking-tight text-white sm:text-4xl lg:text-[42px]">
-          $59 Furnace Tune-Up
+          $89 Furnace Tune-Up
         </h2>
         <a href="#areas" className="btn-pink px-7 py-3 text-sm">
           Get Offer Now

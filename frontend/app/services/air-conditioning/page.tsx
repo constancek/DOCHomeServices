@@ -5,6 +5,7 @@ import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
+import BrandsWeService from '@/components/BrandsWeService';
 import { site } from '@/content/site';
 import { servicePages } from '@/content/servicePages';
 
@@ -361,6 +362,8 @@ export default function AirConditioningPage() {
               </div>
             ))}
           </div>
+
+          <BrandsWeService equipment="central air conditioners, heat pumps and ductless mini-splits" />
 
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Air Conditioning FAQs</h2>
