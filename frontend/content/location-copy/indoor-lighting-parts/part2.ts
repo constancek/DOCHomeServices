@@ -244,7 +244,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'Dim rooms in an older CUF rental or home near UC, or tired fixtures you want updated to safe LED lighting? We are licensed electricians installing indoor lighting to code across Clifton Heights, University Heights, and Fairview. Call (513) 586-5107.',
     relevance: [
       'CUF (ZIP 45219) covers Clifton Heights, University Heights, and Fairview, the dense hilltop neighborhoods packed against the University of Cincinnati, full of 19th- and early-1900s homes now largely converted to student rentals. Those older houses were wired sparingly, often with one fixture per room and original lines under heavy use, so rooms run dark and the fixtures are worn from years of turnover. Adding recessed cans or replacing fixtures here means inspecting and updating the aging wiring as part of the job.',
-      'In CUF we brighten dim rooms with recessed and replacement lighting, light dark stairs and hallways common in these subdivided houses, and update tired fixtures to LED, leaving the circuits to code. In a multi-unit, we plan the work so it stays within the unit. CUF is central and quick for us to reach, day or night.',
+      'In CUF we brighten dim rooms with recessed and replacement lighting, light dark stairs and hallways common in these subdivided houses, and update tired fixtures to LED, leaving the circuits to code. In a multi-unit, we plan the work so it stays within the unit. CUF is central and quick for us to reach, 7 days a week from 8am to 8pm.',
     ],
     commonIntro:
       'In CUF’s dense, older housing near UC, the indoor-lighting work we see most often is brightening worn rooms and stairwells while updating heavily used wiring:',

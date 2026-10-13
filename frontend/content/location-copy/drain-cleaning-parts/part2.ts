@@ -11,7 +11,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My Madeira kitchen sink drains slowly and keeps clogging — can you come today?',
-        a: 'A line that repeatedly clogs usually has grease or scale built up along an aging drain rather than a single blockage. Madeira is well within our east-side service area, and we keep technicians on call 24/7 to clear it the same day.',
+        a: 'A line that repeatedly clogs usually has grease or scale built up along an aging drain rather than a single blockage. Madeira is well within our east-side service area, and we keep technicians on call 7 days a week from 8am to 8pm to clear it the same day.',
       },
     ],
   },
@@ -27,7 +27,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My Wyoming home’s sewer line keeps backing up every few months — why?',
-        a: 'Recurring backups in a century-old Wyoming home usually mean roots are re-entering an original clay or cast-iron lateral through cracked joints. We are on call 24/7, can clear it the same day, and can camera the line to find where the roots get in.',
+        a: 'Recurring backups in a century-old Wyoming home usually mean roots are re-entering an original clay or cast-iron lateral through cracked joints. We are on call 7 days a week from 8am to 8pm, can clear it the same day, and can camera the line to find where the roots get in.',
       },
     ],
   },
@@ -43,7 +43,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Do you clear sewer lines in the historic homes in Mariemont?',
-        a: 'Yes. We clear roots and blockages in the original laterals under Mariemont’s 1920s Tudor homes and take care not to disturb the village’s protected character. We are on call 24/7 and aim for same-day service.',
+        a: 'Yes. We clear roots and blockages in the original laterals under Mariemont’s 1920s Tudor homes and take care not to disturb the village’s protected character. We are on call 7 days a week from 8am to 8pm and aim for same-day service.',
       },
     ],
   },
@@ -59,7 +59,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'The drains in my Cheviot two-family back up in both units — can you help?',
-        a: 'A backup that hits both units usually sits in the shared stack or lateral below the point where the two lines join. Cheviot is well within our west-side service area, and we are on call 24/7 to clear it the same day.',
+        a: 'A backup that hits both units usually sits in the shared stack or lateral below the point where the two lines join. Cheviot is well within our west-side service area, and we are on call 7 days a week from 8am to 8pm to clear it the same day.',
       },
     ],
   },
@@ -75,7 +75,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My Covedale sewer line keeps clogging with roots — can you clear it for good?',
-        a: 'Roots re-enter a cracked clay or cast-iron lateral through the joints, so jetting clears them better than a cable, and a camera shows whether the pipe needs a repair. Covedale is in our west-side service area, and we are on call 24/7 for same-day service.',
+        a: 'Roots re-enter a cracked clay or cast-iron lateral through the joints, so jetting clears them better than a cable, and a camera shows whether the pipe needs a repair. Covedale is in our west-side service area, and we are on call 7 days a week from 8am to 8pm for same-day service.',
       },
     ],
   },
@@ -91,7 +91,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Do you cross the river to clear drains in Covington?',
-        a: 'Yes. Covington is a core part of our service area, just across the river from downtown, and we serve all of Kenton County. We are on call 24/7 and aim for same-day arrival.',
+        a: 'Yes. Covington is a core part of our service area, just across the river from downtown, and we serve all of Kenton County. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival.',
       },
     ],
   },
@@ -107,7 +107,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Do you clear sewer lines in the historic East Row homes in Newport?',
-        a: 'Yes. We clear roots and blockages in the original laterals throughout the East Row and the rest of Newport, in Campbell County, and take care not to damage original features. We are on call 24/7 for same-day service.',
+        a: 'Yes. We clear roots and blockages in the original laterals throughout the East Row and the rest of Newport, in Campbell County, and take care not to damage original features. We are on call 7 days a week from 8am to 8pm for same-day service.',
       },
     ],
   },
@@ -123,7 +123,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My Bellevue basement drain backs up when the river is high — can you help?',
-        a: 'High water can surcharge the sewer and push back toward your lowest drain. We clear the backup and can recommend a backwater valve for riverfront homes near Fairfield Avenue, in Campbell County. We are on call 24/7 for same-day service.',
+        a: 'High water can surcharge the sewer and push back toward your lowest drain. We clear the backup and can recommend a backwater valve for riverfront homes near Fairfield Avenue, in Campbell County. We are on call 7 days a week from 8am to 8pm for same-day service.',
       },
     ],
   },
@@ -139,7 +139,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My Fort Thomas sewer line keeps clogging with roots — can you clear it for good?',
-        a: 'Roots re-enter an old clay or cast-iron lateral through cracked joints, so jetting clears them more thoroughly than a cable and a camera shows whether the pipe needs repair. Fort Thomas is in our Campbell County service area, and we are on call 24/7 for same-day service.',
+        a: 'Roots re-enter an old clay or cast-iron lateral through cracked joints, so jetting clears them more thoroughly than a cable and a camera shows whether the pipe needs repair. Fort Thomas is in our Campbell County service area, and we are on call 7 days a week from 8am to 8pm for same-day service.',
       },
     ],
   },
@@ -155,7 +155,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you clear a clogged drain in Florence?',
-        a: 'Florence is a key part of our Boone County service area. We keep technicians on call 24/7 and aim for same-day arrival to clear a clogged drain or main-line backup.',
+        a: 'Florence is a key part of our Boone County service area. We keep technicians on call 7 days a week from 8am to 8pm and aim for same-day arrival to clear a clogged drain or main-line backup.',
       },
     ],
   },
@@ -171,7 +171,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a clogged drain in Erlanger?',
-        a: 'Erlanger is well within our Northern Kentucky service area in Kenton County. We are on call 24/7 and aim for same-day arrival to clear blocked drains and sewer backups.',
+        a: 'Erlanger is well within our Northern Kentucky service area in Kenton County. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival to clear blocked drains and sewer backups.',
       },
     ],
   },
@@ -187,7 +187,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you clear a clogged drain in Mason?',
-        a: 'Mason is part of our northern service area in Warren County. We keep technicians on call 24/7 and aim for same-day arrival to clear a clogged drain or main-line backup.',
+        a: 'Mason is part of our northern service area in Warren County. We keep technicians on call 7 days a week from 8am to 8pm and aim for same-day arrival to clear a clogged drain or main-line backup.',
       },
     ],
   },
@@ -203,7 +203,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you clear a clogged drain in West Chester?',
-        a: 'West Chester is part of our northern service area along I-75 in Butler County. We are on call 24/7 and aim for same-day arrival to clear blocked drains and main-line backups.',
+        a: 'West Chester is part of our northern service area along I-75 in Butler County. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival to clear blocked drains and main-line backups.',
       },
     ],
   },
@@ -219,7 +219,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'A drain backs up across more than one unit in my Pendleton building — can you help?',
-        a: 'A backup hitting several units usually sits in the shared stack or lateral below where the lines join. Pendleton sits right beside downtown and OTR, so it is a fast reach for us, and we are on call 24/7 for same-day service.',
+        a: 'A backup hitting several units usually sits in the shared stack or lateral below where the lines join. Pendleton sits right beside downtown and OTR, so it is a fast reach for us, and we are on call 7 days a week from 8am to 8pm for same-day service.',
       },
     ],
   },
@@ -235,7 +235,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Do you clear drains in commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we clear floor drains, grease-laden waste lines, and main-line backups in those buildings as well as homes. We are on call 24/7 for same-day service.',
+        a: 'Yes. Queensgate is mostly commercial and industrial, and we clear floor drains, grease-laden waste lines, and main-line backups in those buildings as well as homes. We are on call 7 days a week from 8am to 8pm for same-day service.',
       },
     ],
   },
@@ -251,7 +251,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Do you clear drains in student rentals in the CUF area?',
-        a: 'Yes. We clear clogged kitchen lines and shared-stack backups throughout Clifton Heights, University Heights, and Fairview, and we can isolate which unit a problem starts in. We are on call 24/7 for same-day service.',
+        a: 'Yes. We clear clogged kitchen lines and shared-stack backups throughout Clifton Heights, University Heights, and Fairview, and we can isolate which unit a problem starts in. We are on call 7 days a week from 8am to 8pm for same-day service.',
       },
     ],
   },
@@ -267,7 +267,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My Camp Washington floor drain backs up in heavy rain — can you help?',
-        a: 'Heavy rain can surcharge the sewer in the Mill Creek valley and push water back through your lowest drain. We clear the backup and can advise on a backwater valve or sump setup. We are on call 24/7 for same-day service.',
+        a: 'Heavy rain can surcharge the sewer in the Mill Creek valley and push water back through your lowest drain. We clear the backup and can advise on a backwater valve or sump setup. We are on call 7 days a week from 8am to 8pm for same-day service.',
       },
     ],
   },
@@ -283,7 +283,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My South Fairmount drains back up when it rains hard — can you help?',
-        a: 'The Lick Run valley still sees wet-weather backups when heavy rain overwhelms the system. We clear the line the same day and can recommend a backwater valve for low-lying homes along Queen City Avenue. We are on call 24/7.',
+        a: 'The Lick Run valley still sees wet-weather backups when heavy rain overwhelms the system. We clear the line the same day and can recommend a backwater valve for low-lying homes along Queen City Avenue. We are on call 7 days a week from 8am to 8pm.',
       },
     ],
   },
@@ -299,7 +299,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My East End drain backs up when the river is high — can you help?',
-        a: 'High water can surcharge the sewer and push back through your lowest drain. We clear the backup and can recommend a backwater valve suited to riverfront homes along Eastern Avenue. We are on call 24/7 for same-day service.',
+        a: 'High water can surcharge the sewer and push back through your lowest drain. We clear the backup and can recommend a backwater valve suited to riverfront homes along Eastern Avenue. We are on call 7 days a week from 8am to 8pm for same-day service.',
       },
     ],
   },
@@ -315,7 +315,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you clear a clogged drain in North Fairmount?',
-        a: 'North Fairmount is within our west-side service area above the Mill Creek valley. We are on call 24/7 and aim for same-day arrival to clear blocked drains and main-line backups.',
+        a: 'North Fairmount is within our west-side service area above the Mill Creek valley. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival to clear blocked drains and main-line backups.',
       },
     ],
   },
@@ -331,7 +331,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you clear a clogged drain in Evanston?',
-        a: 'Evanston is centrally located on the east side near Xavier and quick for us to reach. We are on call 24/7 and aim for same-day arrival to clear clogged drains and main-line backups.',
+        a: 'Evanston is centrally located on the east side near Xavier and quick for us to reach. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival to clear clogged drains and main-line backups.',
       },
     ],
   },
@@ -347,7 +347,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My South Cumminsville floor drain backs up in heavy rain — can you help?',
-        a: 'Heavy rain can surcharge the sewer in the Mill Creek valley and push water back through your lowest drain. We clear the backup and can advise on a backwater valve or sump setup. We are on call 24/7 for same-day service.',
+        a: 'Heavy rain can surcharge the sewer in the Mill Creek valley and push water back through your lowest drain. We clear the backup and can advise on a backwater valve or sump setup. We are on call 7 days a week from 8am to 8pm for same-day service.',
       },
     ],
   },
@@ -363,7 +363,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you clear a clogged drain in English Woods?',
-        a: 'English Woods is within our west-side service area above the Mill Creek valley. We are on call 24/7 and aim for same-day arrival to clear blocked drains and main-line backups.',
+        a: 'English Woods is within our west-side service area above the Mill Creek valley. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival to clear blocked drains and main-line backups.',
       },
     ],
   },
@@ -379,7 +379,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My North Avondale sewer line keeps clogging with roots — can you clear it for good?',
-        a: 'Roots re-enter an old clay or cast-iron lateral through the joints, so jetting clears them more thoroughly than a cable and a camera shows whether the pipe needs repair. North Avondale is centrally located and quick for us to reach, and we are on call 24/7 for same-day service.',
+        a: 'Roots re-enter an old clay or cast-iron lateral through the joints, so jetting clears them more thoroughly than a cable and a camera shows whether the pipe needs repair. North Avondale is centrally located and quick for us to reach, and we are on call 7 days a week from 8am to 8pm for same-day service.',
       },
     ],
   },
@@ -395,7 +395,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My Millvale drain backs up when it rains hard — can you help?',
-        a: 'Heavy rain can surcharge the sewer in the Mill Creek valley and push water back through your lowest drain. We clear the backup the same day and can advise on a backwater valve. We are on call 24/7.',
+        a: 'Heavy rain can surcharge the sewer in the Mill Creek valley and push water back through your lowest drain. We clear the backup the same day and can advise on a backwater valve. We are on call 7 days a week from 8am to 8pm.',
       },
     ],
   },
@@ -411,7 +411,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you clear a clogged drain in Paddock Hills?',
-        a: 'Paddock Hills is centrally located near Paddock Road and quick for us to reach. We are on call 24/7 and aim for same-day arrival to clear blocked drains and main-line backups.',
+        a: 'Paddock Hills is centrally located near Paddock Road and quick for us to reach. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival to clear blocked drains and main-line backups.',
       },
     ],
   },
@@ -427,7 +427,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My Spring Grove Village drain backs up in heavy rain — can you help?',
-        a: 'Heavy rain can surcharge the sewer in the Mill Creek valley and push water back through your lowest drain. We clear the backup and can advise on a backwater valve. We are on call 24/7 for same-day service.',
+        a: 'Heavy rain can surcharge the sewer in the Mill Creek valley and push water back through your lowest drain. We clear the backup and can advise on a backwater valve. We are on call 7 days a week from 8am to 8pm for same-day service.',
       },
     ],
   },
@@ -443,7 +443,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My Linwood drain backs up when the river is high — can you help?',
-        a: 'High water near the river bottoms can surcharge the sewer and push back through your lowest drain. We clear the backup and can recommend a backwater valve. Linwood is in our east-side service area near Lunken, and we are on call 24/7.',
+        a: 'High water near the river bottoms can surcharge the sewer and push back through your lowest drain. We clear the backup and can recommend a backwater valve. Linwood is in our east-side service area near Lunken, and we are on call 7 days a week from 8am to 8pm.',
       },
     ],
   },
@@ -459,7 +459,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you clear a clogged drain in Bond Hill?',
-        a: 'Bond Hill is well within our north-side service area along Reading Road. We are on call 24/7 and aim for same-day arrival to clear blocked drains and main-line backups.',
+        a: 'Bond Hill is well within our north-side service area along Reading Road. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival to clear blocked drains and main-line backups.',
       },
     ],
   },

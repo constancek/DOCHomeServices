@@ -25,9 +25,9 @@ export const successStories: SuccessStory[] = [
   {
     slug: 'emily-same-day-ac-repair',
     name: 'Emily Parker',
-    avatar: '/people/emily.jpg',
+    avatar: '/people/emily.webp',
     serviceTag: 'AC Repair',
-    cardImage: '/services/ac-repair-hero.jpg',
+    cardImage: '/services/ac-repair-hero.webp',
     cardQuote: 'The speed and efficiency of the service exceeded my expectations.',
     heroQuote:
       'The speed and efficiency of the service exceeded my expectations. The technicians worked quickly while making sure every detail was handled properly.',
@@ -116,9 +116,9 @@ export const successStories: SuccessStory[] = [
   {
     slug: 'noah-fuel-oil-to-electric-furnace',
     name: 'Noah Smith',
-    avatar: '/people/noah.jpg',
+    avatar: '/people/noah.webp',
     serviceTag: 'Furnace Replacement & Indoor Air Quality',
-    cardImage: '/services/furnace-installation-replacement.jpg',
+    cardImage: '/services/furnace-installation-replacement.webp',
     cardQuote: 'The entire process improved our home comfort and air quality significantly.',
     heroQuote:
       'Replaced fuel oil burning furnace with an electric furnace. The entire process improved our home comfort and air quality significantly.',
@@ -209,9 +209,9 @@ export const successStories: SuccessStory[] = [
   {
     slug: 'trevor-allen-tankless-water-heater',
     name: 'Trevor Allen',
-    avatar: '/people/trevor.jpg',
+    avatar: '/people/trevor.webp',
     serviceTag: 'Tankless Water Heater',
-    cardImage: '/services/tankless-hero.jpg',
+    cardImage: '/services/tankless-hero.webp',
     cardQuote: 'Replaced our water heater with a tankless water heater.',
     heroQuote: 'Replaced our water heater with a tankless water heater.',
     blocks: [
@@ -292,9 +292,9 @@ export const successStories: SuccessStory[] = [
   {
     slug: 'brian-washington-furnace-replacement',
     name: 'Brian Washington',
-    avatar: '/people/brian.jpg',
+    avatar: '/people/brian.webp',
     serviceTag: 'Furnace Replacement',
-    cardImage: '/services/furnace-install-hero.jpg',
+    cardImage: '/services/furnace-install-hero.webp',
     cardQuote: 'Their commitment to quality and professional approach really stood out.',
     heroQuote: 'Yes, without hesitation. Their commitment to quality and professional approach really stood out.',
     blocks: [
@@ -360,9 +360,9 @@ export const successStories: SuccessStory[] = [
   {
     slug: 'chris-brown-full-hvac-replacement',
     name: 'Chris Brown',
-    avatar: '/people/chris.jpg',
+    avatar: '/people/chris.webp',
     serviceTag: 'Full HVAC System Replacement',
-    cardImage: '/services/heating-hero.jpg',
+    cardImage: '/services/heating-hero.webp',
     cardQuote: 'They stayed on top of everything and kept the project moving smoothly.',
     heroQuote:
       'The team was excellent at overcoming any challenges that came up. They stayed on top of everything and kept the project moving smoothly.',
@@ -437,9 +437,9 @@ export const successStories: SuccessStory[] = [
   {
     slug: 'ben-kennedy-furnace-and-ac-replacement',
     name: 'Ben Keneddy',
-    avatar: '/people/ben.jpg',
+    avatar: '/people/ben.webp',
     serviceTag: 'Furnace & AC Replacement',
-    cardImage: '/services/ac-install-hero.jpg',
+    cardImage: '/services/ac-install-hero.webp',
     cardQuote:
       'The team handled everything smoothly. There were no major issues during the replacement, and they kept me informed throughout the process.',
     heroQuote:

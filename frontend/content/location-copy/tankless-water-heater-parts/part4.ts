@@ -280,7 +280,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you service a tankless unit in Sharonville?',
-        a: 'Sharonville is well within our north-side service area, and we keep plumbers on call 24/7. We can usually handle a tankless repair or descaling tune-up the same day you call.',
+        a: 'Sharonville is well within our north-side service area, and we keep plumbers on call 7 days a week from 8am to 8pm. We can usually handle a tankless repair or descaling tune-up the same day you call.',
       },
     ],
   },
@@ -415,7 +415,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach Harrison for a tankless install or repair?',
-        a: 'Harrison is part of our far-west service area near the Indiana line, and we are on call 24/7. We aim for same-day service on tankless repairs and can usually complete an upgrade in a single day.',
+        a: 'Harrison is part of our far-west service area near the Indiana line, and we are on call 7 days a week from 8am to 8pm. We aim for same-day service on tankless repairs and can usually complete an upgrade in a single day.',
       },
     ],
   },

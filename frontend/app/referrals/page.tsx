@@ -5,12 +5,13 @@ import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Referral Program',
   description: `Refer a friend to ${site.name} and earn $50 when they have a qualifying HVAC or tankless system installed.`,
   alternates: { canonical: '/referrals' },
-};
+});
 
 const inputClass =
   'w-full rounded-lg border border-brand-200 px-4 py-3 text-sm outline-none focus:border-pink-400';
@@ -110,7 +111,7 @@ export default function ReferralsPage() {
           </div>
 
           {/* How it works */}
-          <h2 className="mt-10 section-title text-brand-700">How It Works</h2>
+          <h2 className="m-center mt-10 section-title text-brand-700">How It Works</h2>
           <div className="mt-4 space-y-3">
             <p className="flex gap-3 text-sm text-ink/75">
               <span className="grid h-6 w-6 flex-shrink-0 place-items-center rounded-full bg-pink-500 text-xs font-bold text-white">
@@ -153,7 +154,7 @@ export default function ReferralsPage() {
           </div>
 
           {/* FAQ */}
-          <h2 className="mt-10 section-title text-brand-700">Referral FAQs</h2>
+          <h2 className="m-center mt-10 section-title text-brand-700">Referral FAQs</h2>
           <div className="mt-4">
             <Accordion items={faqs} defaultOpen={-1} />
           </div>

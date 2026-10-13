@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Landscape Lighting Installation',
   ctaLine: 'Want to light up your {neighborhood} landscape? Call today',
-  heroImage: '/services/landscape-hero.jpg',
+  heroImage: '/services/landscape-hero.webp',
   introHeading: 'Landscape Lighting Installation in {neighborhood}',
   introParagraphs: [
     'A well-designed landscape lighting system changes how a {neighborhood} property looks after sunset — safer paths, highlighted trees and stonework, and a warmer feel without glare. {brand} designs and installs custom low-voltage and line-voltage lighting for homeowners across {place}, with weather-rated fixtures and safe electrical connections.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'holiday-lighting', title: 'Holiday Lighting' },
     { slug: 'hot-tub-wiring', title: 'Hot Tub Wiring' },
   ],
-  band1Image: '/services/landscape-benefits.jpg',
+  band1Image: '/services/landscape-benefits.webp',
   band1Heading: 'Signs It Is Time for Landscape Lighting in {neighborhood}',
   commonSituations: [
     'Dark paths, driveways, or stairs that are a trip hazard',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Stonework or architectural features worth highlighting',
   ],
   trustedBanner: 'Your Local & Trusted Landscape Lighting Pros in {neighborhood}',
-  band2Image: '/services/landscape-lighting.jpg',
+  band2Image: '/services/landscape-lighting.webp',
   band2Heading: 'Our Landscape Lighting Process in {neighborhood}',
   band2Paragraphs: [
     'We start with an on-site walk-through, plan a layout that fits how you use the yard, and explain the flat-rate price before any work begins.',
@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Landscape Lighting Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Landscape Lighting Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Landscape lighting installation in ${place} — custom, energy-efficient low-voltage systems installed by licensed electricians for safety and curb appeal. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/landscape-lighting/${loc.slug}` },
     openGraph: {

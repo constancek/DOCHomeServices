@@ -25,7 +25,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you replace a failed sump pump in Mount Repose?',
-        a: 'Mount Repose is within our east-side service area near Milford, and we keep replacement pumps on the truck. We are on call 24/7 and can usually swap a dead pump the same day you call.',
+        a: 'Mount Repose is within our east-side service area near Milford, and we keep replacement pumps on the truck. We are on call 7 days a week from 8am to 8pm and can usually swap a dead pump the same day you call.',
       },
     ],
   },
@@ -70,7 +70,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach Amelia to deal with a failed sump pump?',
-        a: 'Amelia is within our east-side service area along Ohio Pike. We are on call 24/7 and carry replacement pumps, so we can usually have a dead pump swapped the same day.',
+        a: 'Amelia is within our east-side service area along Ohio Pike. We are on call 7 days a week from 8am to 8pm and carry replacement pumps, so we can usually have a dead pump swapped the same day.',
       },
     ],
   },
@@ -85,7 +85,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My older Batavia home near the East Fork backs up in heavy rain — can a sump pump help?',
-        a: 'For the lower-lying homes near the East Fork, a properly sized pump with a battery backup is the difference between a dry basement and a flooded one when the water table rises. We serve Batavia day or night and can install or replace one the same day.',
+        a: 'For the lower-lying homes near the East Fork, a properly sized pump with a battery backup is the difference between a dry basement and a flooded one when the water table rises. We serve Batavia 7 days a week from 8am to 8pm and can install or replace one the same day.',
       },
     ],
   },
@@ -115,7 +115,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you get to Goshen for a sump-pump replacement?',
-        a: 'Goshen is part of our northern Clermont County service area. We are on call 24/7 and carry replacement pumps, so we can usually swap a failed unit the same day you call.',
+        a: 'Goshen is part of our northern Clermont County service area. We are on call 7 days a week from 8am to 8pm and carry replacement pumps, so we can usually swap a failed unit the same day you call.',
       },
     ],
   },
@@ -145,7 +145,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach Newtonsville for a sump-pump problem?',
-        a: 'Newtonsville is part of our eastern Clermont County service area. We are on call 24/7 with same-day service and carry replacement pumps, so a failed unit is usually fixed the day you call.',
+        a: 'Newtonsville is part of our eastern Clermont County service area. We are on call 7 days a week from 8am to 8pm with same-day service and carry replacement pumps, so a failed unit is usually fixed the day you call.',
       },
     ],
   },
@@ -205,7 +205,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you replace a sump pump in Fairfield?',
-        a: 'Fairfield is part of our Butler County service area, and we keep replacement pumps on the truck. We are on call 24/7 and can usually swap a failed pump the same day you call.',
+        a: 'Fairfield is part of our Butler County service area, and we keep replacement pumps on the truck. We are on call 7 days a week from 8am to 8pm and can usually swap a failed pump the same day you call.',
       },
     ],
   },
@@ -250,7 +250,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My historic Hamilton basement floods when the Great Miami is high — will a backup pump help?',
-        a: 'Yes. For low-lying homes near the Great Miami, a battery-backup pump keeps the pit clear when a storm raises the river and cuts the power at the same time. We serve Hamilton day or night and can install one the same day.',
+        a: 'Yes. For low-lying homes near the Great Miami, a battery-backup pump keeps the pit clear when a storm raises the river and cuts the power at the same time. We serve Hamilton 7 days a week from 8am to 8pm and can install one the same day.',
       },
     ],
   },
@@ -265,7 +265,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach Millville for a failed sump pump?',
-        a: 'Millville is part of our Butler County service area near Hamilton. We are on call 24/7 and carry replacement pumps, so we can usually swap a dead unit the same day you call.',
+        a: 'Millville is part of our Butler County service area near Hamilton. We are on call 7 days a week from 8am to 8pm and carry replacement pumps, so we can usually swap a dead unit the same day you call.',
       },
     ],
   },
@@ -310,7 +310,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you replace a sump pump in Landen?',
-        a: 'Landen is part of our Warren County service area near Mason. We are on call 24/7 and carry replacement pumps, so we can usually swap a failed unit the same day you call.',
+        a: 'Landen is part of our Warren County service area near Mason. We are on call 7 days a week from 8am to 8pm and carry replacement pumps, so we can usually swap a failed unit the same day you call.',
       },
     ],
   },

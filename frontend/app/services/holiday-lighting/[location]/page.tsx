@@ -14,17 +14,17 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Holiday Lighting Installation',
   ctaLine: 'Want to skip the ladder this holiday season in {neighborhood}? Call today',
-  heroImage: '/services/holiday-lighting-hero.jpg',
+  heroImage: '/services/holiday-lighting-hero.webp',
   introHeading: 'Holiday Lighting Installation in {neighborhood}',
   introParagraphs: [
     'A professional holiday lighting install lets a {neighborhood} home stand out for the season without anyone climbing a ladder in the cold or untangling cords. {brand} designs, installs, and removes custom Christmas and holiday displays for homeowners across {place} — with commercial-grade materials and safe electrical connections.',
-    'Our team plans a layout that fits your roofline and landscaping, installs it neatly, and takes it down after the season — with a free estimate and clear pricing up front.',
+    'Our team plans a layout that fits your roofline and landscaping, installs it neatly, and takes it down after the season — with an estimate and clear pricing up front.',
   ],
   sidebarSections: [
     {
       title: 'What the Service Includes',
       body: [
-        'For {neighborhood} homes we start with an on-site consultation and free estimate, plan a custom design, install commercial-grade lighting with secure attachment and safe connections, handle in-season maintenance if needed, and return for scheduled removal after the holidays.',
+        'For {neighborhood} homes we start with an on-site consultation and estimate, plan a custom design, install commercial-grade lighting with secure attachment and safe connections, handle in-season maintenance if needed, and return for scheduled removal after the holidays.',
         'We balance the electrical load so the display runs without tripping breakers or overloading outdoor circuits.',
       ],
     },
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'patio-lighting', title: 'Patio Lighting' },
     { slug: 'lighting-fixture-installation', title: 'Lighting Fixtures' },
   ],
-  band1Image: '/services/holiday-lighting-benefits.jpg',
+  band1Image: '/services/holiday-lighting-benefits.webp',
   band1Heading: 'Reasons {neighborhood} Homeowners Hire a Pro for Holiday Lights',
   commonSituations: [
     'Steep rooflines or tall homes that are unsafe to climb',
@@ -53,10 +53,10 @@ const config: ServiceLocationConfig = {
     'A custom roofline, tree, and walkway design for the season',
   ],
   trustedBanner: 'Your Local & Trusted Holiday Lighting Pros in {neighborhood}',
-  band2Image: '/services/holiday-lighting.jpg',
+  band2Image: '/services/holiday-lighting.webp',
   band2Heading: 'Our Holiday Lighting Process in {neighborhood}',
   band2Paragraphs: [
-    'We start with an on-site consultation, plan a design that fits your home and landscaping, and give you a free estimate before any work begins.',
+    'We start with an on-site consultation, plan a design that fits your home and landscaping, and give you an estimate before any work begins.',
     'We install commercial-grade lighting with secure attachment and safe connections, maintain it through the season if needed, and return for scheduled removal so your {neighborhood} home looks great without the hassle.',
   ],
   proseSections: [
@@ -79,7 +79,7 @@ const config: ServiceLocationConfig = {
     { q: 'How do custom holiday lights work?', a: 'We create a lighting design tailored to your home or business, install commercial-grade lights, and remove them after the holiday season.' },
     { q: 'Can I choose the design for my lights?', a: 'Yes. You can select color schemes, layout preferences, and specific areas you want highlighted.' },
     { q: 'How long does the installation process take?', a: 'Most holiday light installation projects are completed in one day, depending on property size and design complexity.' },
-    { q: 'How much will holiday lighting cost me?', a: 'The cost depends on home size, design complexity, and materials. We provide a free estimate to give you clear pricing upfront.' },
+    { q: 'How much will holiday lighting cost me?', a: 'The cost depends on home size, design complexity, and materials. We provide an estimate to give you clear pricing upfront.' },
   ],
   related: [
     { label: 'Holiday Lighting (overview)', href: '/services/holiday-lighting' },
@@ -104,7 +104,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Holiday Lighting Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Holiday Lighting Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Holiday and Christmas light installation in ${place} — custom displays, commercial-grade materials, safe install and scheduled removal. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/holiday-lighting/${loc.slug}` },
     openGraph: {

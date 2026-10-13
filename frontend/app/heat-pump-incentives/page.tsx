@@ -5,12 +5,13 @@ import PageSections from '@/components/PageSections';
 import Accordion from '@/components/Accordion';
 import MainWithSidebar from '@/components/Sidebar';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Heat Pump Incentives & Costs',
   description: `Federal heat pump rebates and tax credits for ${site.serviceArea}. See what you may qualify for and what a new high-efficiency system costs.`,
   alternates: { canonical: '/heat-pump-incentives' },
-};
+});
 
 const benefits = [
   { icon: 'snowflake' as const, title: 'Versatile Heating & Cooling', text: 'One efficient system that both heats and cools your home all year.' },
@@ -115,7 +116,7 @@ export default function HeatPumpPage() {
       />
 
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Furnace Tune-Up">
           <div className="mx-auto max-w-3xl text-center text-[17px] leading-relaxed text-ink/75">
             <p>
               A heat pump heats and cools your home from one efficient system, and right now federal
@@ -130,7 +131,7 @@ export default function HeatPumpPage() {
           </div>
 
           {/* Benefits */}
-          <h2 className="mt-14 section-title text-brand-700">More Than a Tax Break</h2>
+          <h2 className="m-center mt-14 section-title text-brand-700">More Than a Tax Break</h2>
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {benefits.map((b) => (
               <div key={b.title} className="card">
@@ -138,7 +139,7 @@ export default function HeatPumpPage() {
                   <Icon name={b.icon} className="h-6 w-6" />
                 </span>
                 <h3 className="mt-4 font-display text-base font-extrabold text-brand-700">{b.title}</h3>
-                <p className="mt-1.5 text-sm text-ink/70">{b.text}</p>
+                <p className="mt-1.5 text-[15px] leading-relaxed text-ink/70">{b.text}</p>
               </div>
             ))}
           </div>
@@ -148,7 +149,7 @@ export default function HeatPumpPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Find Out What You Qualify For
             </h2>
-            <p className="mx-auto mt-3 max-w-2xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-2xl text-[15px] leading-relaxed text-brand-100">
               Rebate and credit amounts depend on your income, equipment, and current programs. We
               will help you find every incentive you qualify for — and we always recommend confirming
               tax credits with a tax professional.

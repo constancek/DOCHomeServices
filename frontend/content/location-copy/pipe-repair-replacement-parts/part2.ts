@@ -235,7 +235,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Do you handle commercial pipe replacement in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and our licensed plumbers camera the larger supply and drain runs in those buildings to find the failure, then repair or replace it around the clock.',
+        a: 'Yes. Queensgate is mostly commercial and industrial, and our licensed plumbers camera the larger supply and drain runs in those buildings to find the failure, then repair or replace it 7 days a week from 8am to 8pm.',
       },
     ],
   },
@@ -267,7 +267,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My Camp Washington drain line keeps cracking in the valley — can you replace it?',
-        a: 'Yes. The low Mill Creek valley ground works at old buried lines in Camp Washington. Our licensed plumbers camera the lateral to find the break and can replace that section trenchlessly, around the clock.',
+        a: 'Yes. The low Mill Creek valley ground works at old buried lines in Camp Washington. Our licensed plumbers camera the lateral to find the break and can replace that section trenchlessly, 7 days a week from 8am to 8pm.',
       },
     ],
   },

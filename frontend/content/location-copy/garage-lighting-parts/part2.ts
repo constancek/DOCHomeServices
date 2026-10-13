@@ -260,7 +260,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       'Garage and shop lighting in Camp Washington? We are a licensed electrical contractor installing bright, even LED fixtures and code-compliant circuits in this Mill Creek valley neighborhood. Call (513) 586-5107.',
     relevance: [
       'Camp Washington (ZIP 45225) is a historic working neighborhood in the Mill Creek valley, known for its industry, the American Sign Museum, and a tight mix of old worker housing and factories. Garages here are often older detached structures or shop bays, lit by a single fixture that leaves a workbench in shadow; we install rows of LED shop lighting that cover the whole space evenly.',
-      'The age of the buildings means wiring rarely sized for a modern shop load, and the low valley ground makes weather-rated exterior fixtures worthwhile. We bring the circuit up to code, add a dedicated outlet circuit for tools and bright overhead LED panels, and set motion-activated, weather-rated lighting at the entry so a Camp Washington garage is fully lit day or night.',
+      'The age of the buildings means wiring rarely sized for a modern shop load, and the low valley ground makes weather-rated exterior fixtures worthwhile. We bring the circuit up to code, add a dedicated outlet circuit for tools and bright overhead LED panels, and set motion-activated, weather-rated lighting at the entry so a Camp Washington garage is fully lit 7 days a week from 8am to 8pm.',
     ],
     commonIntro:
       'In Camp Washington’s older homes and shop buildings down in the valley, the garage lighting we install most often is even LED fixtures, a dedicated shop circuit, and weather-rated entry lighting.',

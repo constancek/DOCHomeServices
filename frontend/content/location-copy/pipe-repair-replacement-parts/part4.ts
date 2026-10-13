@@ -387,7 +387,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you camera-inspect and fix a pipe in Harrison?',
-        a: 'Harrison is part of our far-west service area near the Indiana line. Our licensed plumbers are on call day or night to camera the line, find the failure, and repair or replace the pipe.',
+        a: 'Harrison is part of our far-west service area near the Indiana line. Our licensed plumbers are on call 7 days a week from 8am to 8pm to camera the line, find the failure, and repair or replace the pipe.',
       },
     ],
   },

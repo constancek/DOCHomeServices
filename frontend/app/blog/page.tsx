@@ -5,20 +5,22 @@ import PageHero from '@/components/PageHero';
 import { BlogSections } from '@/components/PageSections';
 import { posts } from '@/content/posts';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Home Comfort Blog',
   description:
     'Practical heating, cooling, plumbing, and electrical tips from the licensed technicians at ' +
     site.name + '.',
   alternates: { canonical: '/blog' },
-};
+});
 
 function formatDate(iso: string) {
+  // Month and year only; full dates stay in each post's schema and the sitemap.
   return new Date(iso).toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
-    day: 'numeric',
+    timeZone: 'UTC',
   });
 }
 
@@ -36,7 +38,7 @@ export default function BlogIndex() {
 
       <section className="py-16 sm:py-20">
         <div className="container-page">
-          <h2 className="font-display text-3xl font-black uppercase leading-tight tracking-tight text-brand-600 sm:text-4xl">
+          <h2 className="m-center font-display text-3xl font-black uppercase leading-tight tracking-tight text-brand-600 sm:text-4xl">
             Welcome to the Degree of Comfort Blog!
           </h2>
           <div className="mt-8 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">

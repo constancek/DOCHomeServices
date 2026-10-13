@@ -4,12 +4,13 @@ import PageSections from '@/components/PageSections';
 import SuccessStoriesGrid from '@/components/SuccessStoriesGrid';
 import { site } from '@/content/site';
 import { successStories } from '@/content/successStories';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Customer Success Stories',
   description: `Real customer success stories from ${site.name} — HVAC and plumbing projects across ${site.serviceArea}, in our customers' own words.`,
   alternates: { canonical: '/customer-success-stories' },
-};
+});
 
 export default function SuccessStoriesPage() {
   return (
@@ -20,7 +21,6 @@ export default function SuccessStoriesPage() {
         description={`Real projects, real results — in our customers' own words, across ${site.serviceArea}.`}
         crumbs={[
           { label: 'Home', href: '/' },
-          { label: 'The Degree of Comfort Difference', href: '/difference' },
           { label: 'Customer Success Stories' },
         ]}
       />

@@ -443,7 +443,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach Harrison for a plumbing repair?',
-        a: 'Harrison is part of our far-west service area near the Indiana line. We are on call to diagnose the root cause and aim for same-day repair, day or night.',
+        a: 'Harrison is part of our far-west service area near the Indiana line. We are on call to diagnose the root cause and aim for same-day repair, 7 days a week from 8am to 8pm.',
       },
     ],
   },

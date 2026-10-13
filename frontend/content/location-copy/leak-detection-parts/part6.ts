@@ -60,7 +60,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
       'We match the method to the home. On a finished house we lead with acoustic detection and thermal imaging; on a well-fed rural property we pressure-test the line and walk it with acoustic gear, so a licensed plumber can mark the leak and keep any digging to the smallest possible spot.',
     ],
     commonIntro: 'Across Owensville’s older and rural homes, the leak signs we see most often run from corroded fittings in village houses to buried-line pressure loss on well-fed rural lots.',
-    localFaqs: [{ q: 'How fast can you reach Owensville for a suspected hidden leak?', a: 'Owensville is part of our eastern Clermont County service area, and we are on call 24/7 with same-day service. Our licensed plumbers bring acoustic and pressure-testing gear to pinpoint the leak on the first visit.' }],
+    localFaqs: [{ q: 'How fast can you reach Owensville for a suspected hidden leak?', a: 'Owensville is part of our eastern Clermont County service area, and we are on call 7 days a week from 8am to 8pm with same-day service. Our licensed plumbers bring acoustic and pressure-testing gear to pinpoint the leak on the first visit.' }],
   },
   'goshen': {
     intro: 'A leak under a Goshen slab or out along a well line rarely announces itself. Our licensed plumbers find it with acoustic sensors, thermal imaging, and pressure testing. Call (513) 586-5107.',
@@ -114,7 +114,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
       'We sort it out without guesswork. Moisture mapping shows where water gathers, acoustic detection finds pressurized leaks in supply lines, and pressure testing checks buried well runs, so a licensed plumber can tell a plumbing leak from a high water table before opening a wall or digging a trench.',
     ],
     commonIntro: 'Across Ross’s small-town and rural homes, the leak signs we see most often range from aging fittings and buried well lines to damp basements on low ground near the Great Miami.',
-    localFaqs: [{ q: 'How fast can you reach Ross for a hidden leak?', a: 'Ross is part of our Butler County service area along the Great Miami, and we are on call 24/7 with same-day service. Our licensed plumbers bring acoustic and pressure-testing gear to pinpoint the leak on the first visit.' }],
+    localFaqs: [{ q: 'How fast can you reach Ross for a hidden leak?', a: 'Ross is part of our Butler County service area along the Great Miami, and we are on call 7 days a week from 8am to 8pm with same-day service. Our licensed plumbers bring acoustic and pressure-testing gear to pinpoint the leak on the first visit.' }],
   },
   'fairfield': {
     intro: 'A hidden leak in Fairfield often shows first as a rising bill, not a puddle. Our licensed plumbers pinpoint it behind walls and under slabs with acoustic sensors and thermal imaging. Call (513) 586-5107.',
@@ -159,7 +159,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
       'We adjust the tools to the property. Inside an older home we lead with acoustic detection and thermal imaging; on a well-fed rural lot we pressure-test the line and follow it with acoustic gear, so a licensed plumber marks the exact spot before opening a wall or digging.',
     ],
     commonIntro: 'Across Millville’s older and rural homes, the leak signs we handle most often run from corroded joints in village houses to buried-line pressure loss on well-fed lots.',
-    localFaqs: [{ q: 'How fast can you reach Millville to find a hidden leak?', a: 'Millville is part of our Butler County service area near Hamilton, and we are on call 24/7 with same-day service. Our licensed plumbers bring acoustic and pressure-testing gear to pinpoint the leak on the first visit.' }],
+    localFaqs: [{ q: 'How fast can you reach Millville to find a hidden leak?', a: 'Millville is part of our Butler County service area near Hamilton, and we are on call 7 days a week from 8am to 8pm with same-day service. Our licensed plumbers bring acoustic and pressure-testing gear to pinpoint the leak on the first visit.' }],
   },
   'new-miami': {
     intro: 'In New Miami’s riverside homes, a slow leak hides easily against damp basements. Our licensed plumbers separate plumbing leaks from ground water with moisture meters and acoustic detection. Call (513) 586-5107.',
@@ -231,7 +231,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
       'We separate the two and pinpoint the source before cutting anything. Acoustic sensors find pressurized water through old walls, thermal imaging reads a hidden line, and moisture meters tell a plumbing leak from levee-side damp, so a licensed plumber opens only what the repair requires.',
     ],
     commonIntro: 'In Lawrenceburg’s historic riverfront homes, the leak signs we handle most often come from corroded original lines and damp basements behind the levee where leaks and ground water blur together.',
-    localFaqs: [{ q: 'How fast can you reach Lawrenceburg for a hidden leak?', a: 'Lawrenceburg is part of our far-west river service area in Dearborn County, and we are on call 24/7 with same-day service. Our licensed plumbers bring acoustic and moisture-mapping tools to pinpoint the leak without tearing into old walls.' }],
+    localFaqs: [{ q: 'How fast can you reach Lawrenceburg for a hidden leak?', a: 'Lawrenceburg is part of our far-west river service area in Dearborn County, and we are on call 7 days a week from 8am to 8pm with same-day service. Our licensed plumbers bring acoustic and moisture-mapping tools to pinpoint the leak without tearing into old walls.' }],
   },
   'greendale': {
     intro: 'On Greendale’s hillside above the river, hidden leaks add to the load on basement drains. Our licensed plumbers pinpoint them with acoustic sensors, thermal imaging, and a pipe camera. Call (513) 586-5107.',

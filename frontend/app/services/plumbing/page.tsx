@@ -7,12 +7,14 @@ import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { servicePages } from '@/content/servicePages';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Plumbing Services',
-  description: `Licensed plumbing services across ${site.serviceArea} from ${site.name} — drain cleaning, leak repair, water heaters, sewer lines, and more. Upfront pricing and same-day service.`,
+export const metadata: Metadata = withSocial({
+  title: 'Plumbing Services in Cincinnati & NKY',
+  description:
+    'Licensed, same-day plumbers in Cincinnati and Northern Kentucky for drains, leaks, water heaters and sewer lines. Upfront, flat-rate pricing.',
   alternates: { canonical: '/services/plumbing' },
-};
+});
 
 // Plumbing sub-services for the services grid + internal-link mesh.
 const plumbingServices = servicePages.filter((s) => s.category === 'Plumbing');
@@ -111,12 +113,12 @@ export default function PlumbingPage() {
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We handle the full range of residential plumbing — from the small annoyances to the big
             projects — and we treat your home with respect, cleaning up before we leave. No hourly
-            surprises, and no overtime fees on nights or weekends.
+            surprises, and no overtime fees on evenings or weekends.
           </p>
 
           {/* Services grid */}
           <h2 className="mt-12 section-title text-brand-700">Our Plumbing Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Explore any service below for details, or call us and we will point you to the right fix.
           </p>
           <ul className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
@@ -128,7 +130,7 @@ export default function PlumbingPage() {
                 >
                   <span
                     className="absolute inset-0 bg-brand-200 bg-cover bg-center transition duration-300 group-hover:scale-105"
-                    style={{ backgroundImage: `url(/services/${s.slug}.jpg)` }}
+                    style={{ backgroundImage: `url(${s.heroImage ?? `/services/${s.slug}.webp`})` }}
                   />
                   <span className="absolute inset-0 bg-gradient-to-t from-pink-600/90 via-pink-500/45 to-transparent transition group-hover:from-pink-600" />
                   <span className="absolute inset-0 grid place-items-center p-3 text-center">
@@ -163,7 +165,7 @@ export default function PlumbingPage() {
           {/* Emergency banner */}
           <div className="mt-8 flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
             <h2 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">
-              Plumbing emergency? We answer 24/7.
+              Plumbing emergency? We answer 7 days a week from 8am to 8pm.
             </h2>
             <Link href="/services/emergency-plumbing" className="btn-pink flex-shrink-0">
               Emergency Plumbing
@@ -214,7 +216,7 @@ export default function PlumbingPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
                 </div>
               </div>
             ))}
@@ -226,7 +228,7 @@ export default function PlumbingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -237,17 +239,17 @@ export default function PlumbingPage() {
             <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
               Book a Plumber in {site.serviceArea}
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Same-day service, upfront pricing, and licensed plumbers who put homeowners first. Call
-              now or request a free estimate.
+              now or request an estimate.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={site.primaryPhone.href} className="btn-pink text-base">
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+                Request an Estimate
               </Link>
             </div>
           </div>

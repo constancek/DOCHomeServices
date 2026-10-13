@@ -105,7 +105,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
       'Many of those big older houses have stood over a century with original overhead service, and a fair number are now rentals near campus where a damaged mast needs a quick, licensed fix. We replace the mast in weather-rated materials, reseal the roof flashing, and ground the service entrance to code.',
     ],
     commonIntro: 'In Clifton’s large Victorian and early-1900s homes on tree-lined streets with overhead service, the mast problems we are called for most often are:',
-    localFaqs: [{ q: 'A storm dropped a limb on the service mast at my Clifton rental — can you fix it?', a: 'Yes. With the mature trees on Clifton’s streets, limb-damaged masts are common around the university area. We coordinate the utility disconnect, replace the mast and entrance cable, and reseal the roof, day or night.' }],
+    localFaqs: [{ q: 'A storm dropped a limb on the service mast at my Clifton rental — can you fix it?', a: 'Yes. With the mature trees on Clifton’s streets, limb-damaged masts are common around the university area. We coordinate the utility disconnect, replace the mast and entrance cable, and reseal the roof, 7 days a week from 8am to 8pm.' }],
   },
   'corryville': {
     intro: 'Storm-bent mast or frayed entrance cable on your Corryville home near UC? Our licensed electricians repair and replace service masts, risers, and weatherheads around the Short Vine corridor, and coordinate the utility disconnect. Call (513) 586-5107.',
