@@ -104,11 +104,6 @@ const businessSchema = {
     addressRegion: 'OH',
     addressCountry: 'US',
   },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: site.rating,
-    reviewCount: site.reviewCount,
-  },
 };
 const serviceSchema = {
   '@context': 'https://schema.org',
@@ -341,8 +336,7 @@ export default function StormElectricityOutagePage() {
 
           <h2 className="mt-12 section-title text-brand-700">Why Homeowners Call {site.name}</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Family-owned since {site.founded}, roughly {site.reviewCount.toLocaleString()} reviews averaging{' '}
-            {site.rating}, and crews who have worked every bad storm this valley has thrown at us. We will
+            Family-owned since {site.founded}, with crews who have worked every bad storm this valley has thrown at us. We will
             also tell you plainly when the problem is Duke&rsquo;s and there is nothing to buy.
           </p>
           <div className="mt-6 grid gap-4 sm:grid-cols-2">

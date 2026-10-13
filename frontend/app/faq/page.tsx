@@ -5,12 +5,13 @@ import MainWithSidebar from '@/components/Sidebar';
 import FaqTabs from '@/components/FaqTabs';
 import { site } from '@/content/site';
 import { faqGroups } from '@/content/faqs';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Frequently Asked Questions',
   description: `Answers to common heating, cooling, plumbing, and electrical questions from ${site.name} in ${site.serviceArea}.`,
   alternates: { canonical: '/faq' },
-};
+});
 
 const faqSchema = {
   '@context': 'https://schema.org',

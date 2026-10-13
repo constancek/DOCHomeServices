@@ -61,3 +61,27 @@ export const coupons: Coupon[] = catalogue.map((c) => ({
   ...c,
   expires: formatExpiry(expiryFor(c.expiryKind)),
 }));
+
+// HVAC service slugs. Their sidebars feature the furnace tune-up in place of the
+// default plumbing voucher.
+const HVAC_SLUGS = new Set([
+  'heating',
+  'boilers',
+  'furnace-installation-replacement',
+  'furnace-maintenance',
+  'furnace-repair',
+  'furnace-filters',
+  'heat-pumps',
+  'indoor-air-quality',
+  'air-conditioning',
+  'ac-repair',
+  'ac-installation-replacement',
+  'ac-maintenance',
+  'air-filters',
+  'mini-splits',
+  'mini-split-installation',
+  'mini-split-repair',
+]);
+
+export const sidebarCouponFor = (slug: string) =>
+  HVAC_SLUGS.has(slug) ? 'Furnace Tune-Up' : undefined;

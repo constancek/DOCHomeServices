@@ -66,11 +66,11 @@ const config: ServiceLocationConfig = {
     { icon: 'check', title: 'Repairs That Last', text: 'We fix the real cause, not just the symptom, so it stays fixed.' },
   ],
   proofQuote:
-    'Called late at night with water coming up the basement drain. They walked me through shutting off the water, showed up fast, and had it cleared the same night. No overtime charge for the late hour either.',
+    'Called on a Sunday evening with water coming up the basement drain. They walked me through shutting off the water, showed up fast, and had it cleared the same evening. No overtime charge for the weekend either.',
   sharedFaqs: [
     { q: 'What is a plumbing emergency?', a: 'Any situation that threatens your home, health, or safety due to water or sewer issues — burst pipes, overflowing water heaters, sewer backups, and major leaks all qualify. If water is spreading and you cannot stop it, call us.' },
     { q: 'What should I do before the plumber arrives?', a: 'Shut off the main water supply to limit flooding, avoid using the affected fixtures, and clear the area so we can work. Then call us and we will talk you through the rest.' },
-    { q: 'Do you charge extra for nights or weekends?', a: 'No. Our flat-rate pricing is the same any day or hour, with no overtime surcharges.' },
+    { q: 'Do you charge extra for evenings or weekends?', a: 'No. Our flat-rate pricing is the same any day of the week, 8am to 8pm, with no overtime surcharges.' },
   ],
   related: [
     { label: 'Emergency Plumbing (overview)', href: '/services/emergency-plumbing' },

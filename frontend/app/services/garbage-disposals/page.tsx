@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { garbageDisposalsCopy } from '@/content/location-copy/garbage-disposals';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Garbage Disposal Repair & Installation',
   description: `Garbage disposal repair and installation across ${site.serviceArea} from ${site.name} — licensed plumbers install, repair, and replace disposals with proper drain and dishwasher connections.`,
   alternates: { canonical: '/services/garbage-disposals' },
-};
+});
 
 const signs = [
   { lead: 'Weird Noises', text: 'If it’s rattling or making more noise than usual, something’s off. This could be due to loose parts or trapped debris.' },

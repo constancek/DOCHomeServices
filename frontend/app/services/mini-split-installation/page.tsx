@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { miniSplitInstallationCopy } from '@/content/location-copy/mini-split-installation';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Mini-Split Installation',
   description: `Ductless mini-split installation across ${site.serviceArea} from ${site.name} — efficient, properly sized cooling and heating for additions, basements, and homes without ducts. Financing available.`,
   alternates: { canonical: '/services/mini-split-installation' },
-};
+});
 
 const signs = [
   'Rooms that no longer cool or heat evenly',
@@ -140,7 +141,7 @@ export default function MiniSplitInstallationPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/minisplit-install-hero.webp)' }}

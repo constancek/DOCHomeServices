@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { gasLineCopy } from '@/content/location-copy/gas-line-repair-replacement';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Gas Line Repair & Replacement',
   description: `Gas line repair and replacement across ${site.serviceArea} from ${site.name} — licensed plumbers diagnose, repair, and install gas lines safely and to code.`,
   alternates: { canonical: '/services/gas-line-repair-replacement' },
-};
+});
 
 const signs = [
   { lead: 'Rotten Egg Smell', text: 'Natural gas has a very distinct odor that’s hard to miss. If you catch a whiff, don’t ignore it.' },

@@ -6,15 +6,16 @@ import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import { services } from '@/content/services';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Our Services',
   description:
     'Heating, cooling, plumbing, and electrical services from ' +
     site.name +
     '. Licensed technicians, upfront pricing, same-day service.',
   alternates: { canonical: '/services' },
-};
+});
 
 export default function ServicesIndex() {
   return (

@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { faucetCopy } from '@/content/location-copy/faucet-repair-replacement';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Faucet Repair & Replacement',
   description: `Faucet repair and replacement across ${site.serviceArea} from ${site.name} — stop drips, fix low pressure, and install new kitchen and bathroom faucets. Upfront pricing, same-day service.`,
   alternates: { canonical: '/services/faucet-repair-replacement' },
-};
+});
 
 const benefits = [
   { lead: 'Stop wasting water', text: 'a steady drip can waste thousands of gallons a year — and run up your bill — until it is fixed.' },

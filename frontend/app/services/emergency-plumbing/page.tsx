@@ -9,12 +9,14 @@ import Link from 'next/link';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Emergency Plumbing',
-  description: `Seven-day emergency plumbing from ${site.name} — burst pipes, sewer backups, water heater failures, and more, across ${site.serviceArea}. Call now for immediate service.`,
+export const metadata: Metadata = withSocial({
+  title: 'Emergency Plumber in Cincinnati & NKY',
+  description:
+    'Emergency plumbing in Cincinnati and Northern Kentucky, 7 days a week from 8am to 8pm: burst pipes, sewer backups, failed water heaters. No overtime fees.',
   alternates: { canonical: '/services/emergency-plumbing' },
-};
+});
 
 const fixFast = [
   'Burst pipes and water line breaks',
@@ -47,7 +49,7 @@ const faqs = [
   { q: 'What should I do if a pipe bursts in my home?', a: 'Shut off the main water supply immediately to prevent flooding, avoid using affected fixtures, and call our team for emergency repair. Our licensed plumbers handle the rest.' },
   { q: 'Can you fix clogged drains quickly?', a: 'Yes. We provide fast drain clearing and emergency service, getting your plumbing functional again without delay — and a camera inspection if clogs keep returning.' },
   { q: 'What services do you offer for water heaters?', a: 'We provide repair, replacement, and installation for all types of water heaters, including tankless and traditional models, and can handle urgent water heater issues the same day.' },
-  { q: 'Do you charge extra for nights or weekends?', a: 'No. Our flat-rate pricing is the same any day or hour, with no overtime surcharges.' },
+  { q: 'Do you charge extra for evenings or weekends?', a: 'No. Our flat-rate pricing is the same any day of the week, 8am to 8pm, with no overtime surcharges.' },
 ];
 
 const relatedCards = [

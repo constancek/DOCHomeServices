@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { sumpPumpsCopy } from '@/content/location-copy/sump-pumps';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Sump Pumps',
   description: `Sump pump installation, repair, and replacement across ${site.serviceArea} from ${site.name} — including battery backup systems to keep your basement dry. Upfront pricing, same-day service.`,
   alternates: { canonical: '/services/sump-pumps' },
-};
+});
 
 const signs = [
   'Water pooling in the basement or crawl space after rain',

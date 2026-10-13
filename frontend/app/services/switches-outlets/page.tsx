@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { switchesOutletsCopy } from '@/content/location-copy/switches-outlets';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Switches & Outlets',
   description: `Switch and outlet installation across ${site.serviceArea} from ${site.name} — outlet replacement, GFCI and USB upgrades, and switch repair by licensed electricians.`,
   alternates: { canonical: '/services/switches-outlets' },
-};
+});
 
 const problems = [
   { lead: 'Broken Outlets', text: 'These often result from wear and tear or accidental damage. We replace damaged outlets with durable, high-quality options.' },

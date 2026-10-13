@@ -4,12 +4,13 @@ import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'About Us',
   description: `${site.name} is a family-owned heating, cooling, plumbing, and electrical company founded in ${site.founded}, serving ${site.serviceArea}. Meet the team and our story.`,
   alternates: { canonical: '/about' },
-};
+});
 
 const values = [
   { icon: 'heart' as const, title: `Family Owned Since ${site.founded}`, text: 'Locally owned, with the same family values we started with.' },

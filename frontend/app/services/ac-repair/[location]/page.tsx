@@ -32,7 +32,7 @@ const config: ServiceLocationConfig = {
     {
       title: 'Seven-Day Emergency AC Repair Available',
       body: [
-        'Air conditioning problems do not follow a schedule. {brand} offers 7-day emergency AC repair for urgent issues affecting comfort or safety in {place}, with technicians available nights, weekends, and holidays.',
+        'Air conditioning problems do not follow a schedule. {brand} offers 7-day emergency AC repair for urgent issues affecting comfort or safety in {place}, with technicians available 7 days a week from 8am to 8pm.',
         'Emergency service focuses on restoring cooling as quickly as possible while protecting the AC unit from further damage. Fast repairs reduce safety risks and bring your home back to a comfortable temperature.',
       ],
     },

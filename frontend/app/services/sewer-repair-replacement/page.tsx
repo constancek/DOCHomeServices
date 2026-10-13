@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { sewerRepairCopy } from '@/content/location-copy/sewer-repair-replacement';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Sewer Repair & Replacement',
   description: `Sewer line repair, replacement, and trenchless service across ${site.serviceArea} from ${site.name} — camera inspection, cleanouts, and to-code installation. Same-day and emergency service.`,
   alternates: { canonical: '/services/sewer-repair-replacement' },
-};
+});
 
 const problems = [
   { lead: 'Tree root intrusion', text: 'roots grow into the pipe, causing blockages or even breaking the line.' },

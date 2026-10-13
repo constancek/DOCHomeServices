@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { electricalInspectionsCopy } from '@/content/location-copy/electrical-inspections';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Electrical Inspections',
   description: `Professional electrical inspections across ${site.serviceArea} from ${site.name} — panel, wiring, grounding, and safety-device checks with a detailed report. Licensed electricians.`,
   alternates: { canonical: '/services/electrical-inspections' },
-};
+});
 
 const signs = [
   'Lights that flicker or dim',

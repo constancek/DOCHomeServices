@@ -5,12 +5,13 @@ import PageSections from '@/components/PageSections';
 import Accordion from '@/components/Accordion';
 import MainWithSidebar from '@/components/Sidebar';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Heat Pump Incentives & Costs',
   description: `Federal heat pump rebates and tax credits for ${site.serviceArea}. See what you may qualify for and what a new high-efficiency system costs.`,
   alternates: { canonical: '/heat-pump-incentives' },
-};
+});
 
 const benefits = [
   { icon: 'snowflake' as const, title: 'Versatile Heating & Cooling', text: 'One efficient system that both heats and cools your home all year.' },
@@ -115,7 +116,7 @@ export default function HeatPumpPage() {
       />
 
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Furnace Tune-Up">
           <div className="mx-auto max-w-3xl text-center text-[17px] leading-relaxed text-ink/75">
             <p>
               A heat pump heats and cools your home from one efficient system, and right now federal

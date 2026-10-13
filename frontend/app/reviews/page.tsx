@@ -3,12 +3,13 @@ import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import ReviewsSection from '@/components/ReviewsSection';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Reviews',
   description: `See what homeowners across ${site.serviceArea} are saying about ${site.name}.`,
   alternates: { canonical: '/reviews' },
-};
+});
 
 export default function ReviewsPage() {
   return (

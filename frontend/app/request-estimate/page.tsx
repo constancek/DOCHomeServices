@@ -4,12 +4,13 @@ import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import EstimateForm from '@/components/EstimateForm';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Request an Estimate',
   description: `Request an estimate from ${site.name} on new heating, cooling, and plumbing systems in ${site.serviceArea}.`,
   alternates: { canonical: '/request-estimate/' },
-};
+});
 
 const expectations = [
   'Written, itemized estimate',

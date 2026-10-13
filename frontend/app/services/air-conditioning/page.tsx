@@ -8,12 +8,14 @@ import Accordion from '@/components/Accordion';
 import BrandsWeService from '@/components/BrandsWeService';
 import { site } from '@/content/site';
 import { servicePages } from '@/content/servicePages';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Air Conditioning Services',
-  description: `Air conditioning services across ${site.serviceArea} from ${site.name} — AC repair, installation, maintenance, and ductless mini-splits. Upfront pricing, 7-day emergency cooling.`,
+export const metadata: Metadata = withSocial({
+  title: 'Air Conditioning in Cincinnati & NKY',
+  description:
+    'Same-day AC repair, installation, maintenance and ductless mini-splits in Cincinnati and Northern Kentucky. Upfront pricing, 7 days a week.',
   alternates: { canonical: '/services/air-conditioning' },
-};
+});
 
 const acCards = servicePages.filter((s) => s.category === 'Cooling' && s.slug !== 'air-filters');
 
@@ -131,7 +133,7 @@ export default function AirConditioningPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/ac-hero.webp)' }}

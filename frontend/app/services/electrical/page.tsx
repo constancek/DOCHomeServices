@@ -7,12 +7,14 @@ import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { servicePages } from '@/content/servicePages';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Electrical Services',
-  description: `Licensed electrical services across ${site.serviceArea} from ${site.name} — panel upgrades, rewiring, lighting, EV chargers, surge protection, and inspections. Seven-day emergency service.`,
+export const metadata: Metadata = withSocial({
+  title: 'Electrical Services in Cincinnati & NKY',
+  description:
+    'Licensed electricians in Cincinnati and Northern Kentucky for panel upgrades, rewiring, lighting, EV chargers and surge protection. Upfront pricing.',
   alternates: { canonical: '/services/electrical' },
-};
+});
 
 const electricalServices = servicePages.filter((s) => s.category === 'Electrical');
 

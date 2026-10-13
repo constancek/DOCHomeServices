@@ -8,12 +8,14 @@ import Accordion from '@/components/Accordion';
 import BrandsWeService from '@/components/BrandsWeService';
 import { site } from '@/content/site';
 import { servicePages } from '@/content/servicePages';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Heating Services',
-  description: `Heating services across ${site.serviceArea} from ${site.name} — furnace installation, repair, maintenance, and heat pumps. Upfront pricing, 7-day no-heat emergency service.`,
+export const metadata: Metadata = withSocial({
+  title: 'Heating Services in Cincinnati & NKY',
+  description:
+    'Same-day furnace, boiler and heat pump repair, installation and tune-ups in Cincinnati and Northern Kentucky. Upfront pricing, 7 days a week.',
   alternates: { canonical: '/services/heating' },
-};
+});
 
 const heatingServices = servicePages.filter((s) => s.category === 'Heating');
 

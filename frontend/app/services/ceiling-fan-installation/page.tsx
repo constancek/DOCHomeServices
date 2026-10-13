@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { ceilingFanCopy } from '@/content/location-copy/ceiling-fan-installation';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Ceiling Fan Installation',
   description: `Ceiling fan installation and replacement across ${site.serviceArea} from ${site.name} — fan-rated mounting, safe wiring, and balanced, quiet operation by licensed electricians.`,
   alternates: { canonical: '/services/ceiling-fan-installation' },
-};
+});
 
 const signs = [
   'Wobbling or shaking during operation',

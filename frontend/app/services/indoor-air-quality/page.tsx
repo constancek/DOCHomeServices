@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { indoorAirQualityCopy } from '@/content/location-copy/indoor-air-quality';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Indoor Air Quality',
   description: `Indoor air quality services across ${site.serviceArea} from ${site.name} — air testing, whole-home filtration, purifiers, and humidifiers for cleaner, healthier air. Upfront pricing.`,
   alternates: { canonical: '/services/indoor-air-quality' },
-};
+});
 
 const concerns = [
   { icon: 'shield' as const, title: 'Germs & Infectious Agents', text: 'Bacteria and viruses can sneak into your home and make you sick even when you take precautions. An air filtration system helps eliminate harmful germs like mold and viruses.' },
@@ -115,7 +116,7 @@ export default function IndoorAirQualityPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/iaq-hero.webp)' }}

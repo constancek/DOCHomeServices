@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { acInstallationCopy } from '@/content/location-copy/ac-installation-replacement';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'AC Installation & Replacement',
   description: `AC installation and replacement across ${site.serviceArea} from ${site.name} — properly sized, energy-efficient systems with estimates and financing. Reliable cooling from day one.`,
   alternates: { canonical: '/services/ac-installation-replacement' },
-};
+});
 
 const signs = [
   'Uneven temperatures from room to room',
@@ -133,7 +134,7 @@ export default function ACInstallationPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/ac-install-hero.webp)' }}

@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { garageLightingCopy } from '@/content/location-copy/garage-lighting';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Garage Lighting Installation',
   description: `Garage lighting installation across ${site.serviceArea} from ${site.name} — durable LED garage lights and exterior fixtures installed by licensed electricians for bright, usable space.`,
   alternates: { canonical: '/services/garage-lighting' },
-};
+});
 
 const signs = [
   'Dark areas around shelving or storage spaces',

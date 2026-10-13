@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { pipeRepairCopy } from '@/content/location-copy/pipe-repair-replacement';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Pipe Repair & Replacement',
   description: `Pipe repair and replacement across ${site.serviceArea} from ${site.name} — licensed plumbers fix leaks, clear damaged drain lines, and replace failing pipes, including trenchless options.`,
   alternates: { canonical: '/services/pipe-repair-replacement' },
-};
+});
 
 const dangers = [
   { lead: 'Water Damage to Your Home’s Structure', text: 'Water can warp hardwood floors, weaken drywall, and leave permanent stains. Left alone, it damages the integrity of your home’s construction.' },

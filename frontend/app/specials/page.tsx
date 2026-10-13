@@ -5,12 +5,13 @@ import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import { site } from '@/content/site';
 import { coupons } from '@/content/coupons';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Coupons & Specials',
   description: `Current coupons and special offers from ${site.name} on heating, cooling, plumbing, and electrical service in ${site.serviceArea}.`,
   alternates: { canonical: '/specials' },
-};
+});
 
 export default function SpecialsPage() {
   return (

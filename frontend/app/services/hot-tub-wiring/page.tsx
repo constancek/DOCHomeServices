@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { hotTubWiringCopy } from '@/content/location-copy/hot-tub-wiring';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Hot Tub Wiring',
   description: `Professional hot tub wiring across ${site.serviceArea} from ${site.name} — dedicated 240V circuits, GFCI protection, and code-compliant spa electrical installation by licensed electricians.`,
   alternates: { canonical: '/services/hot-tub-wiring' },
-};
+});
 
 const signs = [
   'Your breaker panel does not have space for a dedicated spa circuit',

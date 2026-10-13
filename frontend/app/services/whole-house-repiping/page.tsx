@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { wholeHouseRepipingCopy } from '@/content/location-copy/whole-house-repiping';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Whole-House Repiping',
   description: `Whole-house repiping across ${site.serviceArea} from ${site.name} — licensed plumbers replace old, corroded, or failing water pipes with modern PEX or copper.`,
   alternates: { canonical: '/services/whole-house-repiping' },
-};
+});
 
 const signs = [
   { lead: 'Frequent Leaks', text: 'If you’re constantly dealing with leaks, it might indicate that your pipes are deteriorating and need replacement.' },

@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { waterHeaterMaintenanceCopy } from '@/content/location-copy/water-heater-maintenance';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Water Heater Maintenance',
   description: `Water heater maintenance and tune-ups across ${site.serviceArea} from ${site.name} — flushing, anode-rod checks, and safety inspections for tank and tankless systems. Upfront pricing.`,
   alternates: { canonical: '/services/water-heater-maintenance' },
-};
+});
 
 const signs = [
   'Hot water runs out faster than usual',

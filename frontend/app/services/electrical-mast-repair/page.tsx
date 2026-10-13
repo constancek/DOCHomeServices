@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { mastRepairCopy } from '@/content/location-copy/electrical-mast-repair';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Electrical Mast Repair',
   description: `Electrical service mast repair across ${site.serviceArea} from ${site.name} — licensed electricians repair and replace damaged service masts, risers, and entrance cables.`,
   alternates: { canonical: '/services/electrical-mast-repair' },
-};
+});
 
 const signs = [
   { lead: 'Damaged or Leaning Mast', text: 'A mast that’s leaning or visibly bent could indicate structural damage that may compromise your electrical connection.' },

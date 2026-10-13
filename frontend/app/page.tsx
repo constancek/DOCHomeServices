@@ -127,7 +127,7 @@ function Hero() {
             browser finds and loads the hero photo as early as possible. */}
         <img
           src="/happy-family.webp"
-          alt=""
+          alt="Smiling family of four sitting together by a sunny window at home"
           width={1600}
           height={1067}
           fetchPriority="high"

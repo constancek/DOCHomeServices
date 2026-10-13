@@ -9,12 +9,14 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { waterHeaterRepairCopy } from '@/content/location-copy/water-heater-repair';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Water Heater Repair',
-  description: `Fast water heater repair across ${site.serviceArea} from ${site.name} — no hot water, leaks, noises, and pilot or element issues, on all major brands. Seven-day emergency service.`,
+export const metadata: Metadata = withSocial({
+  title: 'Water Heater Repair in Cincinnati & NKY',
+  description:
+    'Same-day water heater repair in Cincinnati and Northern Kentucky: no hot water, leaks, pilot and element problems, all major brands. Upfront pricing.',
   alternates: { canonical: '/services/water-heater-repair' },
-};
+});
 
 const signs = [
   'No hot water or only cold water coming from taps',

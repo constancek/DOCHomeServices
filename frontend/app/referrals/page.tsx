@@ -5,12 +5,13 @@ import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Referral Program',
   description: `Refer a friend to ${site.name} and earn $50 when they have a qualifying HVAC or tankless system installed.`,
   alternates: { canonical: '/referrals' },
-};
+});
 
 const inputClass =
   'w-full rounded-lg border border-brand-200 px-4 py-3 text-sm outline-none focus:border-pink-400';

@@ -4,12 +4,13 @@ import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import ClubForm from '@/components/ClubForm';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Join the Comfort Club',
   description: `Join the ${site.name} Comfort Club for priority service, member discounts, and seasonal tune-ups on your home's heating, cooling, and plumbing.`,
   alternates: { canonical: '/comfort-club' },
-};
+});
 
 const perks = [
   {

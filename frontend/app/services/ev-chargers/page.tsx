@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { evChargersCopy } from '@/content/location-copy/ev-chargers';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'EV Charger Installation',
   description: `Home EV charger installation across ${site.serviceArea} from ${site.name} — Level 2 chargers installed by licensed electricians, with panel evaluation and code-compliant wiring.`,
   alternates: { canonical: '/services/ev-chargers' },
-};
+});
 
 const benefits = [
   { lead: 'Faster Charging Times', text: 'Level 2 chargers charge significantly faster than standard outlets. You gain more miles per charge, reducing downtime and making daily driving easier.' },

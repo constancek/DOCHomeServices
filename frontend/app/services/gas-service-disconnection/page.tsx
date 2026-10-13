@@ -99,11 +99,6 @@ const businessSchema = {
     addressRegion: 'OH',
     addressCountry: 'US',
   },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: site.rating,
-    reviewCount: site.reviewCount,
-  },
 };
 const serviceSchema = {
   '@context': 'https://schema.org',
@@ -322,8 +317,7 @@ export default function GasServiceDisconnectionPage() {
 
           <h2 className="mt-12 section-title text-brand-700">Why Homeowners Call {site.name}</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Family-owned since {site.founded}, with roughly {site.reviewCount.toLocaleString()} reviews
-            averaging {site.rating}. Most people who call us about a shutoff have already spent a day being
+            Family-owned since {site.founded}. Most people who call us about a shutoff have already spent a day being
             passed between the utility and the internet. The first thing we do is tell you plainly what is
             wrong and what it takes to fix it.
           </p>

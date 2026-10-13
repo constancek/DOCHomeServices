@@ -6,12 +6,13 @@ import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Drain Services',
   description: `Professional drain services across ${site.serviceArea} from ${site.name} — drain cleaning, clog clearing, drain installation, and replacement. Upfront pricing, same-day service.`,
   alternates: { canonical: '/services/drains' },
-};
+});
 
 const relatedCards = [
   { slug: 'drain-cleaning', title: 'Drain Cleaning' },

@@ -5,12 +5,13 @@ import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import { site } from '@/content/site';
 import { serviceCounties, serviceCommunities, communityCount } from '@/content/areas';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Areas We Serve',
   description: `${site.name} provides heating, cooling, plumbing, and electrical service to ${communityCount}+ communities across ${serviceCounties.length} counties in the Greater Cincinnati area.`,
   alternates: { canonical: '/areas' },
-};
+});
 
 const areaSchema = {
   '@context': 'https://schema.org',

@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { furnaceInstallationCopy } from '@/content/location-copy/furnace-installation-replacement';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Furnace Installation & Replacement',
   description: `Furnace installation and replacement across ${site.serviceArea} from ${site.name} — gas and electric, properly sized and to code, with financing and same-day installs.`,
   alternates: { canonical: '/services/furnace-installation-replacement' },
-};
+});
 
 const signs = [
   'Frequent breakdowns or rising repair costs',
@@ -113,7 +114,7 @@ export default function FurnaceInstallationPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/furnace-install-hero.webp)' }}

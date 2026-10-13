@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { tanklessCopy } from '@/content/location-copy/tankless-water-heater';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Tankless Water Heaters',
   description: `Tankless water heater installation, repair, and maintenance across ${site.serviceArea} from ${site.name} — endless hot water, all major brands, properly sized. Upfront pricing.`,
   alternates: { canonical: '/services/tankless-water-heater' },
-};
+});
 
 const signs = [
   'Inconsistent or fluctuating hot water, even after repairs',

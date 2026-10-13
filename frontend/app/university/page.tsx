@@ -7,12 +7,13 @@ import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { awards } from '@/content/home';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Degree of Comfort University',
   description: `${site.name} University is our paid apprenticeship program that trains the next generation of HVAC, plumbing, and electrical professionals — no experience needed.`,
   alternates: { canonical: '/university' },
-};
+});
 
 const benefits = [
   'We are very involved in the communities we serve',

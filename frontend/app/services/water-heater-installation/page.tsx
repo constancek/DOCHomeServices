@@ -9,12 +9,14 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { waterHeaterInstallationCopy } from '@/content/location-copy/water-heater-installation';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Water Heater Installation',
-  description: `Water heater installation and replacement across ${site.serviceArea} from ${site.name} — proper sizing, code-compliant install, and financing. Tank and tankless. Same-day service.`,
+export const metadata: Metadata = withSocial({
+  title: 'Water Heater Installation in Cincinnati',
+  description:
+    'Tank and tankless water heater installation in Cincinnati and Northern Kentucky, sized right and installed to code. Upfront pricing and financing.',
   alternates: { canonical: '/services/water-heater-installation' },
-};
+});
 
 const signs = [
   'Inconsistent or lukewarm hot water',

@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { leakRepairCopy } from '@/content/location-copy/leak-repair';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Leak Repair',
   description: `Professional leak repair across ${site.serviceArea} from ${site.name} — pipe, slab, toilet, kitchen, and bathroom leaks fixed at the source. Upfront pricing, same-day and emergency service.`,
   alternates: { canonical: '/services/leak-repair' },
-};
+});
 
 const signs = [
   'Sudden or unexplained increases in your water bill',

@@ -9,7 +9,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'My Reading basement drain backs up when it rains hard — can you clear it?', a: 'Yes. We clear storm-driven main line and floor-drain backups throughout the Mill Creek valley in Hamilton County, and we keep crews on call 7 days a week from 8am to 8pm for same-day service.' }],
   },
   'dent': {
-    intro: 'Recurring clog or a slow main line in Dent? We clear blocked drains and sewer lines and offer same-day, around-the-clock service across this Green Township community. Call (513) 586-5107.',
+    intro: 'Recurring clog or a slow main line in Dent? We clear blocked drains and sewer lines and offer same-day service 7 days a week from 8am to 8pm across this Green Township community. Call (513) 586-5107.',
     relevance: [
       'Dent (ZIP 45247) is an established Green Township community on the west side, and its mix of mid-century and newer homes shapes the drain calls we get. Homes from the middle of the century are old enough that their cast-iron drains have started to scale and corrode inside, which narrows the pipe and gives grease and soap buildup somewhere to grab.',
       'The newer subdivisions here are not immune either. PVC laterals stay smooth longer, but they still pick up root intrusion at joints and from the wipes and grease that no drain handles well. We cable kitchen and tub lines, jet a greased-up main, and camera a sewer that keeps clogging so the fix sticks instead of recurring.',
@@ -81,7 +81,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How fast can you clear a drain in Kenwood?', a: 'Kenwood is well within our east-side service area in Hamilton County, near Kenwood Towne Centre. We keep crews on call 7 days a week from 8am to 8pm with same-day drain service.' }],
   },
   'lincoln-heights': {
-    intro: 'Recurring clog or a main line backing up in Lincoln Heights? We clear blocked drains and sewer lines and offer same-day, around-the-clock service across this historic Mill Creek valley community. Call (513) 586-5107.',
+    intro: 'Recurring clog or a main line backing up in Lincoln Heights? We clear blocked drains and sewer lines and offer same-day service 7 days a week from 8am to 8pm across this historic Mill Creek valley community. Call (513) 586-5107.',
     relevance: [
       'Lincoln Heights (ZIP 45215) sits low in the Mill Creek valley north of the city — one of the first self-governed Black municipalities in the northern United States — and the valley setting drives many of its drain calls. When heavy rain saturates the valley floor, sewer and storm flow back up through floor drains and low fixtures, so a main that runs fine on a dry day can clog and overflow during a storm.',
       'The community’s older, modest homes add the second factor. Decades-old clay and cast-iron drain lines scale, narrow, and crack at the joints, which is exactly where grease and roots take hold and turn a slow drain into a repeat backup. We cable and jet those lines and run a camera when a clog keeps returning.',
@@ -216,7 +216,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How fast can you clear a drain in Pleasant Run?', a: 'Pleasant Run is well within our north-side service area in Springfield Township, Hamilton County. We are on call 7 days a week from 8am to 8pm with same-day service.' }],
   },
   'cleves': {
-    intro: 'Slow drains or a sewer backup in Cleves? We clear clogged drains and main lines and offer same-day, around-the-clock service across this far-west river village. Call (513) 586-5107.',
+    intro: 'Slow drains or a sewer backup in Cleves? We clear clogged drains and main lines and offer same-day service 7 days a week from 8am to 8pm across this far-west river village. Call (513) 586-5107.',
     relevance: [
       'Cleves (ZIP 45002) is a far-west village near where the Great Miami River meets the Ohio, with older homes set on low ground prone to flooding. Sitting between two rivers is the defining drain concern here: when either river runs high and the ground stays saturated, sewer lines drain slowly and the low fixtures in these homes are the first to back up.',
       'The age of the housing is the second factor. These older homes carry aging clay and cast-iron drain lines that have scaled and cracked over the years, which is where roots and grease take hold and turn a slow drain into a repeat backup. We jet the main, camera it to find the fouled or broken section, and clear it so the next high-water spell does not put it straight back.',
@@ -243,7 +243,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How fast can you clear a drain in Loveland?', a: 'Loveland is within our service area along the Little Miami River in Hamilton County. We are on call 7 days a week from 8am to 8pm and aim for same-day drain clearing.' }],
   },
   'harrison': {
-    intro: 'Recurring clog or a main line backing up in Harrison? We clear blocked drains and sewer lines and offer same-day, around-the-clock service in this far-west city on the Indiana line. Call (513) 586-5107.',
+    intro: 'Recurring clog or a main line backing up in Harrison? We clear blocked drains and sewer lines and offer same-day service 7 days a week from 8am to 8pm in this far-west city on the Indiana line. Call (513) 586-5107.',
     relevance: [
       'Harrison (ZIP 45030) is a far-west city on the Indiana state line along the Whitewater River, with an older downtown and a growing mix of established and newer homes. The older homes carry aging clay and cast-iron drain lines that have scaled and cracked over the years, where grease and roots take hold and turn a slow drain into a repeat backup, while the newer subdivisions still see branch lines slow with everyday buildup.',
       'The Whitewater River is the second factor. When it runs high and the low ground near downtown stays saturated, sewer lines drain slower and the low fixtures back up first. We cable and jet the lines, camera a main that keeps clogging, and clear it so the next wet spell does not put the backup straight back.',

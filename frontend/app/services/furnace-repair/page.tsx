@@ -9,12 +9,14 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { furnaceRepairCopy } from '@/content/location-copy/furnace-repair';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Furnace Repair',
-  description: `Seven-day furnace repair across ${site.serviceArea} from ${site.name} — gas and electric, on all major brands. Fast response, upfront pricing, and repairs that fix the root cause.`,
+export const metadata: Metadata = withSocial({
+  title: 'Furnace Repair in Cincinnati & NKY',
+  description:
+    'Same-day furnace repair in Cincinnati and Northern Kentucky, gas and electric, all major brands. Upfront pricing and no overtime fees, 7 days a week.',
   alternates: { canonical: '/services/furnace-repair' },
-};
+});
 
 const signs = [
   'Uneven heating or cold rooms throughout the home',
@@ -117,7 +119,7 @@ export default function FurnaceRepairPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/furnace-repair-hero.webp)' }}

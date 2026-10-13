@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { leakDetectionCopy } from '@/content/location-copy/leak-detection';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Leak Detection',
   description: `Professional leak detection across ${site.serviceArea} from ${site.name} — find hidden water and slab leaks fast with acoustic, thermal, and camera tools, without tearing up your home. Same-day service.`,
   alternates: { canonical: '/services/leak-detection' },
-};
+});
 
 const benefits = [
   { lead: 'Stop hidden damage early', text: 'a slow leak rots framing, ruins drywall, and grows mold long before you can see it.' },

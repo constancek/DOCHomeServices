@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { ledLightingCopy } from '@/content/location-copy/led-lighting';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'LED Light Installation',
   description: `LED light installation across ${site.serviceArea} from ${site.name} — recessed, under-cabinet, and strip LED lighting installed by licensed electricians for efficiency and comfort.`,
   alternates: { canonical: '/services/led-lighting' },
-};
+});
 
 const signs = [
   'High energy bills caused by inefficient lighting',

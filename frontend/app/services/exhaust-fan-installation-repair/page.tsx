@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { exhaustFanCopy } from '@/content/location-copy/exhaust-fan-installation-repair';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Exhaust Fan Installation & Repair',
   description: `Bathroom and kitchen exhaust fan installation and repair across ${site.serviceArea} from ${site.name} — better airflow, quieter operation, and proper venting for moisture control.`,
   alternates: { canonical: '/services/exhaust-fan-installation-repair' },
-};
+});
 
 const repairSigns = [
   'The fan makes buzzing, grinding, or rattling noises',

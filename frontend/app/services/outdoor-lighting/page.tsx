@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { outdoorLightingCopy } from '@/content/location-copy/outdoor-lighting';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Outdoor Lighting Installation',
   description: `Outdoor lighting installation across ${site.serviceArea} from ${site.name} — landscape, patio, holiday, security, and spa lighting installed by licensed electricians, built for Midwest weather.`,
   alternates: { canonical: '/services/outdoor-lighting' },
-};
+});
 
 const benefits = [
   { lead: 'Improved Visibility', text: 'Landscape lighting illuminates stairs, walkways, and driveways to reduce trip hazards.' },

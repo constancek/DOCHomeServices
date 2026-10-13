@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { plumbingInstallationCopy } from '@/content/location-copy/plumbing-installation';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Plumbing Installation',
   description: `Professional plumbing installation across ${site.serviceArea} from ${site.name} — fixtures, water heaters, sump pumps, sewer lines, filtration, and softeners installed leak-free. Upfront pricing.`,
   alternates: { canonical: '/services/plumbing-installation' },
-};
+});
 
 const signs = [
   { lead: 'Persistent leaks or drips', text: 'even small leaks cause damage over time — warped floors, ruined cabinets, and mold.' },

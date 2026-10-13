@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { drainCleaningCopy } from '@/content/location-copy/drain-cleaning';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Drain Cleaning',
   description: `Professional drain cleaning across ${site.serviceArea} from ${site.name} — snaking, hydro jetting, and camera inspection to clear stubborn clogs for good. Upfront pricing, same-day service.`,
   alternates: { canonical: '/services/drain-cleaning' },
-};
+});
 
 const benefits = [
   { lead: 'Full flow restored', text: 'we clear the entire clog, not just poke a hole through it, so water drains the way it should.' },

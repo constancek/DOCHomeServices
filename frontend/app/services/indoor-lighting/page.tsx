@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { indoorLightingCopy } from '@/content/location-copy/indoor-lighting';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Indoor Lighting Installation',
   description: `Indoor lighting installation across ${site.serviceArea} from ${site.name} — recessed, LED, basement, and garage lighting installed by licensed electricians for comfort and efficiency.`,
   alternates: { canonical: '/services/indoor-lighting' },
-};
+});
 
 const signs = [
   'Rooms that feel dim or unevenly lit',

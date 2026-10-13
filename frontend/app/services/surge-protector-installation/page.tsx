@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { surgeProtectorCopy } from '@/content/location-copy/surge-protector-installation';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Whole-Home Surge Protector Installation',
   description: `Whole-home surge protector installation across ${site.serviceArea} from ${site.name} — panel-level protection for appliances, HVAC, and electronics. Licensed electricians, financing available.`,
   alternates: { canonical: '/services/surge-protector-installation' },
-};
+});
 
 const signs = [
   'Flickering or dimming lights',

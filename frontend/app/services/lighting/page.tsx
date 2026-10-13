@@ -6,12 +6,13 @@ import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Lighting Installation',
   description: `Indoor and outdoor lighting installation across ${site.serviceArea} from ${site.name} — recessed, LED, fixture, landscape, and patio lighting by licensed electricians.`,
   alternates: { canonical: '/services/lighting' },
-};
+});
 
 const signs = [
   'Rooms that feel dim or unevenly lit',

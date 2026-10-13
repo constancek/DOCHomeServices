@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { homeRewiringCopy } from '@/content/location-copy/home-rewiring';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Home Rewiring',
   description: `Professional home rewiring across ${site.serviceArea} from ${site.name} — partial and whole-home electrical rewiring by licensed electricians, code-compliant and built for modern demand.`,
   alternates: { canonical: '/services/home-rewiring' },
-};
+});
 
 const benefits = [
   'Reduce fire risk from faulty wiring',

@@ -9,12 +9,13 @@ import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { boilersCopy } from '@/content/location-copy/boilers';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Boiler Repair, Maintenance & Replacement',
   description: 'Boiler repair, tune-ups, and replacement in Cincinnati and the Tri-State. Hot water, steam, gas, and oil boilers, with 7-day no-heat service.',
   alternates: { canonical: '/services/boilers' },
-};
+});
 
 const boilerTypes = [
   'Hot water boilers',
@@ -125,7 +126,7 @@ export default function BoilersPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/boiler-hero.webp)' }}

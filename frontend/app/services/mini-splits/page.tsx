@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { miniSplitsCopy } from '@/content/location-copy/mini-splits';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Mini-Splits',
   description: `Ductless mini-split installation and repair across ${site.serviceArea} from ${site.name} — flexible, efficient cooling and heating without ductwork. Upfront pricing.`,
   alternates: { canonical: '/services/mini-splits' },
-};
+});
 
 const cards = [
   { slug: 'mini-split-installation', title: 'Mini-Split Installation' },
@@ -122,7 +123,7 @@ export default function MiniSplitsPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/minisplit-hero.webp)' }}

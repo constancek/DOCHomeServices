@@ -5,6 +5,7 @@ import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import { MapWidget, CouponWidget } from '@/components/Sidebar';
+import { sidebarCouponFor } from '@/content/coupons';
 import ServicesMenu from '@/components/ServicesMenu';
 import { services, getService, type Service } from '@/content/services';
 import { servicePages, getServicePage, type ServicePage } from '@/content/servicePages';
@@ -153,7 +154,7 @@ function MainService({ service }: { service: Service }) {
               </ul>
             </div>
             <MapWidget />
-            <CouponWidget />
+            <CouponWidget title={sidebarCouponFor(service.slug)} />
             <ServicesMenu />
           </aside>
         </div>
@@ -170,7 +171,7 @@ function SubService({ page }: { page: ServicePage }) {
 
   const body = [
     `${page.blurb} Our team provides ${lower} for homeowners across ${site.serviceArea}, with same-day availability and a flat-rate price you approve before we start.`,
-    `Every job is handled by a licensed, background-checked technician who treats your home with respect and cleans up before leaving. No hourly surprises, and no overtime fees on nights or weekends.`,
+    `Every job is handled by a licensed, background-checked technician who treats your home with respect and cleans up before leaving. No hourly surprises, and no overtime fees on evenings or weekends.`,
     `Not sure ${lower} is what you need? Call us and we will give you honest advice — even if that means a smaller, less expensive fix.`,
   ];
 
@@ -289,7 +290,7 @@ function SubService({ page }: { page: ServicePage }) {
               </ul>
             </div>
             <MapWidget />
-            <CouponWidget />
+            <CouponWidget title={sidebarCouponFor(page.slug)} />
             <ServicesMenu />
           </aside>
         </div>

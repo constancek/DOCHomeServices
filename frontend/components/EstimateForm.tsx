@@ -72,7 +72,7 @@ export default function EstimateForm({
         <h2 className="mt-5 font-display text-2xl font-extrabold text-brand-700">Request received!</h2>
         <p className="mx-auto mt-2 max-w-sm text-[15px] leading-relaxed text-ink/70">
           Thanks — a member of our team will reach out shortly to confirm your estimate. Need us
-          sooner? Call us anytime.
+          sooner? Call us 7 days a week, 8am to 8pm.
         </p>
         <a href={site.primaryPhone.href} className="btn-pink mt-5">
           <Icon name="phone" className="h-4 w-4" />

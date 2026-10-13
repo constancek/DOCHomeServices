@@ -5,14 +5,15 @@ import PageHero from '@/components/PageHero';
 import { BlogSections } from '@/components/PageSections';
 import { posts } from '@/content/posts';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Home Comfort Blog',
   description:
     'Practical heating, cooling, plumbing, and electrical tips from the licensed technicians at ' +
     site.name + '.',
   alternates: { canonical: '/blog' },
-};
+});
 
 function formatDate(iso: string) {
   // Month and year only; full dates stay in each post's schema and the sitemap.

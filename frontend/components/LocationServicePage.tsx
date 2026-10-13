@@ -3,6 +3,7 @@ import Icon, { type IconName } from './Icon';
 import PageHero from './PageHero';
 import PageSections from './PageSections';
 import MainWithSidebar from './Sidebar';
+import { sidebarCouponFor } from '@/content/coupons';
 import Accordion from './Accordion';
 import { site } from '@/content/site';
 import type { Location, Adjacent } from '@/content/locations';
@@ -150,7 +151,7 @@ export default function LocationServicePage({
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar hideMenuOnMobile>
+        <MainWithSidebar hideMenuOnMobile couponTitle={sidebarCouponFor(config.slug)}>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: `url(${config.heroImage})` }}

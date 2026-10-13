@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { landscapeLightingCopy } from '@/content/location-copy/landscape-lighting';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Landscape Lighting Installation',
   description: `Landscape lighting installation across ${site.serviceArea} from ${site.name} — custom, energy-efficient low-voltage systems installed by licensed electricians for safety and curb appeal.`,
   alternates: { canonical: '/services/landscape-lighting' },
-};
+});
 
 const benefits = [
   'Improves visibility along paths, driveways, and stairs to reduce trip hazards',

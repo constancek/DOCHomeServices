@@ -5,12 +5,13 @@ import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Careers',
   description: `Join the ${site.name} team. Great pay, real benefits, and a family-owned culture serving ${site.serviceArea}.`,
   alternates: { canonical: '/careers' },
-};
+});
 
 // NOTE: confirm these reflect the benefits you actually offer before going live.
 const benefits = [

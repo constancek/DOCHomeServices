@@ -4,12 +4,13 @@ import PageSections from '@/components/PageSections';
 import VideoTestimonialRows from '@/components/VideoTestimonialRows';
 import { site } from '@/content/site';
 import { videoTestimonials } from '@/content/videoTestimonials';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Video Testimonials',
   description: `Watch ${site.name} customers across ${site.serviceArea} talk about the work we did for them, in their own words.`,
   alternates: { canonical: '/video-testimonials' },
-};
+});
 
 export default function VideoTestimonialsPage() {
   return (

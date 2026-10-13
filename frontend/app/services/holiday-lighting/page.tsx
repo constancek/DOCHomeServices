@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { holidayLightingCopy } from '@/content/location-copy/holiday-lighting';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Holiday Lighting Installation',
   description: `Professional holiday lighting installation across ${site.serviceArea} from ${site.name} — custom Christmas light displays, commercial-grade materials, safe install and scheduled removal.`,
   alternates: { canonical: '/services/holiday-lighting' },
-};
+});
 
 const benefits = [
   { lead: 'Safety First', text: 'Professional holiday light installation eliminates the risks of climbing ladders, walking roofs, and handling electrical connections in cold weather.' },

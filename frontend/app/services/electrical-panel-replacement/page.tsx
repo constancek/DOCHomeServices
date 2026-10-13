@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { panelReplacementCopy } from '@/content/location-copy/electrical-panel-replacement';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Electrical Panel Replacement',
   description: `Electrical panel replacement and repair across ${site.serviceArea} from ${site.name} — breaker panel upgrades and fuse-box replacements by licensed electricians, with minimal disruption.`,
   alternates: { canonical: '/services/electrical-panel-replacement' },
-};
+});
 
 const signs = [
   { lead: 'Frequent Circuit Breaker Trips', text: 'If your breakers are constantly tripping, it could be a sign that your panel is struggling to keep up with your home’s power needs.' },

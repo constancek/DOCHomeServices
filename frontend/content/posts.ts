@@ -3458,7 +3458,7 @@ export const posts: Post[] = [
       { q: 'Do air purifiers help with allergies?', a: 'Yes. A HEPA filter captures the pollen, dust mites, and pet dander that set off most allergy symptoms, so pulling them from the air reduces sneezing, congestion, and irritation, especially during allergy season.' },
       { q: 'Can an air purifier help with mold?', a: 'It helps by trapping airborne mold spores before they spread and settle, which lowers your exposure. It will not remove existing mold growth on surfaces, though — that needs to be cleaned and the moisture source fixed.' },
       { q: 'How long does it take to notice the benefits of an air purifier?', a: 'Many people notice cleaner-feeling air and fewer symptoms within a few days to a couple of weeks, depending on the starting air quality, the size of the space, and the type of system.' },
-      { q: 'Are air purifiers safe to run all the time?', a: 'Yes. Air purifiers are designed for continuous operation, and running one 7 days a week from 8am to 8pm keeps the air consistently clean. A whole-home unit simply works whenever your HVAC system moves air.' },
+      { q: 'Are air purifiers safe to run all the time?', a: 'Yes. Air purifiers are designed for continuous operation, and running one around the clock keeps the air consistently clean. A whole-home unit simply works whenever your HVAC system moves air.' },
       { q: 'Do whole-home air purifiers work better than portable units?', a: 'For treating an entire home, yes. A whole-home purifier integrates with your HVAC and cleans all the air the system circulates, while a portable unit only handles the room it is in. Portables are a fine fit for a single bedroom or office.' },
       { q: 'Can air purifiers reduce odors?', a: 'Yes, when they include an activated carbon filter. Carbon absorbs odors and chemical fumes from cooking, pets, smoke, and cleaning products that a particle filter alone cannot catch.' },
       { q: 'Who should install an air purifier?', a: 'A portable unit you can set up yourself, but a whole-home purifier should be installed by a licensed HVAC professional so it integrates correctly with your system and is sized to your home. Degree of Comfort installs and services whole-home air quality systems across the Tri-State with upfront, flat-rate pricing.' },
@@ -4946,7 +4946,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Filters are the other half. Tenants rarely change them, so either put filter changes on your own calendar or leave a stack of the right size next to the furnace with the date written on the edge. It’s the cheapest heating repair there is.'] },
 
       { kind: 'h2', text: 'Need Heat Back On Tonight?' },
-      { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'emergency furnace repair', href: '/services/furnace-repair/' }, ' Seven days a week from 8am to 8pm across Cincinnati, Northern Kentucky, and Southeast Indiana. We’re family-owned, licensed and insured, and we give you the price before we start, with no overtime or weekend fees. That matters when the call comes in at 9 p.m. on a Saturday.'] },
+      { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'emergency furnace repair', href: '/services/furnace-repair/' }, ' Seven days a week from 8am to 8pm across Cincinnati, Northern Kentucky, and Southeast Indiana. We’re family-owned, licensed and insured, and we give you the price before we start, with no overtime or weekend fees. That matters when the call comes in at 7 p.m. on a Saturday.'] },
       { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' and we’ll get a technician to your tenant. For planned work like a replacement or a maintenance plan across several units, ', { link: 'request an estimate', href: '/request-estimate/' }, '.'] },
     ],
     faqs: [
@@ -5550,7 +5550,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: '9. Give Tenants a One-Page Winter Sheet' },
       { kind: 'p', spans: ['Put it on the fridge or send it by text. Include your emergency number and your HVAC contractor’s number, the three checks to try first (thermostat, furnace power switch and breaker, filter), a reminder to keep vents clear, and a plain rule: never heat the unit with the oven, stove, grill, or a generator. The fewer calls that start with "I didn’t know," the better.'] },
       { kind: 'h3', text: '10. Line Up Emergency Service and Backup Heat' },
-      { kind: 'p', spans: ['Decide now who you will call at 9 p.m. on a Saturday in January, and make sure they can get into the building. Keep two or three electric space heaters with tip-over and overheat shutoff on hand for tenants while a part is on order. Our ', { link: 'landlord guide for when a tenant has no heat', href: '/tenant-has-no-heat-cincinnati-landlord-guide/' }, ' walks through the response step by step.'] },
+      { kind: 'p', spans: ['Decide now who you will call at 7 p.m. on a Saturday in January, and make sure they can get into the building. Keep two or three electric space heaters with tip-over and overheat shutoff on hand for tenants while a part is on order. Our ', { link: 'landlord guide for when a tenant has no heat', href: '/tenant-has-no-heat-cincinnati-landlord-guide/' }, ' walks through the response step by step.'] },
 
       { kind: 'h2', text: 'What Ohio Law Expects From Landlords' },
       { kind: 'p', spans: ['We are heating contractors, not lawyers, and this isn’t legal advice. But one statute sets the baseline. ', { link: 'Ohio Revised Code 5321.04', href: 'https://codes.ohio.gov/ohio-revised-code/section-5321.04' }, ' requires landlords to keep the heating fixtures and appliances they supply in good and safe working order, and to supply reasonable heat at all times, except where the tenant controls the heat through their own utility connection. A pre-winter inspection with a dated service report is the simplest way to show you met that duty.'] },
@@ -7110,7 +7110,7 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'What a Furnace Service Call Costs' },
       { kind: 'p', spans: ['Every repair starts with a diagnosis. Trane’s 2024 guide puts the service call fee at $50 to $200 on average, with hourly labor at $75 to $150, and emergency calls at double or triple the standard rate. Fixr’s 2025 figures put labor at $87 to $162 an hour.'] },
-      { kind: 'p', spans: ['Ask two things before anyone comes out: is the diagnostic fee credited toward the repair if you go ahead, and does the price change at night or on a weekend? At Degree of Comfort the price is quoted and approved before work starts, and there are no overtime fees. That matters when the call comes in at 9 p.m. on a Saturday.'] },
+      { kind: 'p', spans: ['Ask two things before anyone comes out: is the diagnostic fee credited toward the repair if you go ahead, and does the price change at night or on a weekend? At Degree of Comfort the price is quoted and approved before work starts, and there are no overtime fees. That matters when the call comes in at 7 p.m. on a Saturday.'] },
 
       { kind: 'h2', text: 'Furnace Repair Cost by Part' },
       { kind: 'p', spans: ['These are national installed prices, part and labor, from cost guides that publish their figures. Use them as a guide. Cincinnati prices for the same part vary with access, brand and timing.'] },
@@ -7169,6 +7169,103 @@ export const posts: Post[] = [
       { q: 'Is a cracked heat exchanger worth repairing?', a: 'A cracked heat exchanger can let combustion gases into the home, so the furnace should not run until it’s fixed. The repair runs $1,000 to $3,000 (Trane, 2024). If the part is under warranty and the furnace is young, repair can make sense. Otherwise compare it with replacement, and ask to see proof of the crack first.' },
       { q: 'Does a furnace warranty cover repair costs?', a: 'Usually the part, not the labor. Carrier and Trane give 10 years of parts coverage on registered furnaces and 5 years on unregistered ones, and Trane covers heat exchangers for 20 years. Labor is billed separately.' },
       { q: 'Should I repair or replace a 15-year-old furnace?', a: 'Compare first. Carrier suggests weighing replacement when a repair approaches 50% of the cost of a new furnace, and ENERGY STAR suggests considering it after 15 years. A small repair on a sound furnace is usually still worth doing.' },
+    ],
+  },
+// TODO hero image: /blog/furnace-making-noise-hero.webp + .jpg, 1200x630, alt: "Open gas furnace in a basement with the front access panel removed"
+{
+    slug: 'furnace-making-noise-cincinnati',
+    title: 'Furnace Making Noise? What Each Sound Means in Cincinnati Homes',
+    seoTitle: 'Furnace Making Noise in Cincinnati? What It Means',
+    category: 'Heating',
+    excerpt:
+      'Furnace making noise? What banging, squealing, rattling, buzzing, clicking and whistling mean, which sounds are normal, and what each repair costs.',
+    date: '2026-10-13',
+    dateModified: '2026-10-13',
+    readMinutes: 7,
+    author: maurice,
+    content: [
+      {
+        kind: 'takeaways',
+        items: [
+          [{ strong: 'A bang when the burners light needs attention now' }, '. It usually points to a dirty burner or an air-to-fuel problem. Turn the furnace off and call a technician.'],
+          [{ strong: 'Some furnace noise is normal' }, '. A low hum while it runs, and ducts that tick or pop as they warm up and cool down, are not problems.'],
+          [{ strong: 'Squealing, grinding and scraping come from moving parts' }, '. Shut the furnace off for scraping. A blower motor runs $562 to $1,045 installed, according to Fixr.'],
+          [{ strong: 'A noise with a gas smell or a CO alarm means leave first' }, '. Call 911 or Duke Energy at 1-800-634-4300 from outside.'],
+        ],
+      },
+      { kind: 'p', spans: ['A furnace making noise is telling you which part is struggling. A loud bang or boom when it starts is the one to act on today, because it usually means gas is building up before it lights. Squealing, grinding, scraping, buzzing, and clicking with no heat point to a part that is wearing out and needs a technician soon. A low hum, and ductwork that ticks or pops as it warms and cools, are normal.'] },
+      { kind: 'p', spans: ['The National Weather Service puts Cincinnati’s normal first freeze at October 25. That first cold week is when a furnace that sat all summer brings back an old noise or starts a new one.'] },
+
+      { kind: 'h2', text: 'Furnace Noises and What They Mean in Cincinnati Homes' },
+      { kind: 'table', head: ['Sound', 'When you hear it', 'Likely cause', 'What to do'], rows: [
+        ['Bang or boom', 'As the burners light', 'Dirty burner, air-to-fuel imbalance', 'Turn it off, call a technician'],
+        ['Popping or ticking', 'As the heat starts and stops', 'Metal ducts expanding and cooling', 'Nothing, it’s normal'],
+        ['Squealing or screeching', 'While the blower runs', 'Blower belt or motor bearings', 'Call soon'],
+        ['Scraping or grinding', 'While the blower runs', 'Loose or broken blower wheel, worn bearings', 'Turn it off, call'],
+        ['Rattling', 'While it runs', 'Loose vent cover, panel or screw', 'Tighten the panel, call if it’s inside'],
+        ['Humming', 'While it runs', 'Normal if low; a loud hum can mean a clogged filter', 'Change the filter if it’s loud'],
+        ['Buzzing', 'While it runs', 'An electrical part or a motor', 'Change the filter, then call'],
+        ['Tapping or whirring', 'Before the burners light', 'Draft inducer motor wearing out', 'Call soon'],
+        ['Clicking, no heat', 'At startup', 'Ignitor, flame sensor or relay failing to light it', 'Check the filter and thermostat, then call'],
+        ['Whistling', 'While it runs', 'Clogged filter, blocked return or closed register', 'Change the filter'],
+      ], caption: 'Causes from Bob Vila, This Old House and Family Handyman.' },
+
+      { kind: 'h2', text: 'Banging or Booming When the Furnace Starts' },
+      { kind: 'p', spans: ['A single loud bang or boom right as the burners light usually means gas is collecting for a moment before it catches, then lighting at once. Bob Vila points to a dirty burner or an unbalanced air-to-fuel ratio, and says both are jobs for a licensed technician, not a homeowner.'] },
+      { kind: 'p', spans: ['There is a more serious possibility. Bob Vila also notes that a cracked heat exchanger can make loud noises as hot air hits the cracks, and that it can release carbon monoxide into the home. ', { link: 'ENERGY STAR’s maintenance checklist', href: 'https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist' }, ' has a contractor check burner combustion and the heat exchanger at the yearly heating check-up.'] },
+      { kind: 'p', spans: ['Here is our view: a bang at startup is a turn-it-off noise, not a wait-and-see noise. Finding out which problem it is costs one service call. Fixr puts a burner repair at $87 to $162 and a heat exchanger at $1,346 to $2,673, and the CDC counts more than 400 deaths a year from carbon monoxide not linked to fires. Don’t keep restarting it to see if it happens again.'] },
+
+      { kind: 'h2', text: 'Popping or Ticking From the Ductwork' },
+      { kind: 'p', spans: ['Ticking or popping in the walls and ceilings when the heat comes on, and again when it shuts off, is the ductwork. This Old House’s Richard Trethewey explains that hot air rushing into a cold duct makes the metal expand, and it pops against the wood framing as it heats and again as it cools. If it bothers you, rubber pads between the duct and the framing, a clean filter and an unblocked return can quiet it.'] },
+
+      { kind: 'h2', text: 'Squealing, Grinding or Scraping' },
+      { kind: 'p', spans: ['A high squeal while the blower runs usually means a weakening blower belt, according to Bob Vila, who advises leaving the replacement to a professional. Family Handyman says grinding or screeching means worn bearings or dirt in the motor. Fixr puts a blower motor at $562 to $1,045 installed.'] },
+      { kind: 'p', spans: ['Scraping that sounds like metal on metal is a different problem. Bob Vila describes it as a loose or broken blower wheel, and says to shut the furnace off right away and call a professional.'] },
+
+      { kind: 'h2', text: 'Rattling' },
+      { kind: 'p', spans: ['The simplest rattle is a loose vent cover. Bob Vila’s fix is to snug its screws, without overtightening. Check that the furnace door is seated and its screws are tight too. If the rattle comes from inside the cabinet, or comes with a bang at startup, leave it to a technician.'] },
+
+      { kind: 'h2', text: 'Humming, Buzzing or Tapping' },
+      { kind: 'p', spans: ['A low, steady hum from the blower is the sound of a furnace running. A loud hum is different. Bob Vila says a clogged filter can cause a loud humming or whistling noise, so change the filter first. If a buzz is still there with a new filter, have a technician look at it.'] },
+      { kind: 'p', spans: ['Tapping, humming or whirring before the burners light often comes from the draft inducer, the small fan that clears the vent before ignition. Family Handyman calls those sounds the first sign of an inducer problem.'] },
+
+      { kind: 'h2', text: 'Clicking but No Heat' },
+      { kind: 'p', spans: ['One click when the thermostat calls for heat is a relay doing its job. Clicking over and over with no flame means the furnace is trying to light and failing. The usual suspects are the ignitor, the flame sensor or a relay, and all three are parts for a technician to test, not guess at.'] },
+
+      { kind: 'h2', text: 'Whistling' },
+      { kind: 'p', spans: ['A whistle almost always means the furnace is short of air: a clogged filter, a blocked return grille or a closed register. Change the filter first. Bob Vila recommends replacing 1- to 2-inch filters every 1 to 3 months, and ENERGY STAR says to check the filter once a month. Our post on ', { link: 'how often to change your furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, ' covers sizes and schedules.'] },
+
+      { kind: 'h2', text: 'When a Furnace Noise Is a Safety Problem in Cincinnati' },
+      { kind: 'p', spans: ['Stop troubleshooting and get out if a noise comes with a gas smell or a carbon monoxide alarm. Duke Energy, which serves both Ohio and Northern Kentucky, tells customers to leave the area first, then call 1-800-634-4300 or 911 from a safe place.'] },
+      { kind: 'p', spans: ['Carbon monoxide has no smell. The ', { link: 'CDC', href: 'https://www.cdc.gov/carbon-monoxide/about/index.html' }, ' counts more than 400 deaths and more than 100,000 emergency room visits a year in the U.S. from carbon monoxide not linked to fires, and the Cincinnati Fire Department has said its CO cases rise from December to February. The CPSC recommends CO alarms on every level of the home and outside sleeping areas, tested monthly. Landlords can find the Ohio rules in our post on ', { link: 'carbon monoxide detectors in rentals', href: '/carbon-monoxide-detectors-rentals-ohio-landlord/' }, '.'] },
+
+      { kind: 'h2', text: 'What Noisy Furnace Repairs Cost in Cincinnati' },
+      { kind: 'p', spans: ['These are national installed prices, part and labor, not our prices. Our post on ', { link: 'furnace repair cost in Cincinnati', href: '/furnace-repair-cost-cincinnati/' }, ' breaks down more parts.'] },
+      { kind: 'table', head: ['Repair', 'National cost', 'Source'], rows: [
+        ['Service call', '$70 to $200', 'Fixr, 2026'],
+        ['Flame sensor', '$68 to $127', 'Fixr, 2025'],
+        ['Burner', '$87 to $162', 'Fixr, 2025'],
+        ['Hot surface ignitor', '$96 to $178', 'Fixr, 2025'],
+        ['Blower motor', '$562 to $1,045', 'Fixr, 2025'],
+        ['Heat exchanger', '$1,346 to $2,673', 'Fixr, 2025'],
+      ], caption: 'National cost ranges. Not Degree of Comfort prices.' },
+      { kind: 'p', spans: ['', { link: 'Fixr', href: 'https://www.fixr.com/costs/repair-furnace' }, ' puts the average furnace repair at $485. Age matters too: ENERGY STAR suggests considering replacement when heating equipment is more than 10 years old and showing signs of failure. On an older furnace with a heat exchanger problem, price a replacement before you pay for the repair.'] },
+
+      { kind: 'h2', text: 'When You Don’t Need a Furnace Repair' },
+      { kind: 'p', spans: ['You don’t need us for a soft hum, for ducts that tick as they warm and cool, or for one click when the heat kicks on. Those are the sounds of a furnace working. A whistle that stops after a filter change, or a rattle that stops once you snug the panel screws, is fixed. That’s the whole job.'] },
+      { kind: 'p', spans: ['Call when the noise is new and stays, when it’s a bang, scrape, grind or squeal, or when the house isn’t warming up.'] },
+
+      { kind: 'h2', text: 'Furnace Repair in Cincinnati' },
+      { kind: 'p', spans: ['Degree of Comfort diagnoses and fixes noisy furnaces across Cincinnati, Northern Kentucky and Southeast Indiana. We find the cause before we replace anything, give you the price before we start, and don’t charge overtime fees. We’re family-owned, licensed and insured, and most calls are handled the same day. See our ', { link: 'furnace repair service', href: '/services/furnace-repair/' }, '.'] },
+      { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ', 7 days a week from 8am to 8pm, or ', { link: 'request an estimate', href: '/request-estimate/' }, '.'] },
+    ],
+    faqs: [
+      { q: 'Why is my furnace making a loud noise when it turns on?', a: 'A bang or boom as the burners light usually points to a dirty burner or an air-to-fuel problem that delays ignition. Turn the furnace off and have a technician check the burners and the heat exchanger.' },
+      { q: 'Is it normal for a furnace to make noise?', a: 'Some noise is normal. A low, steady hum from the blower, and ductwork that ticks or pops as the metal expands and cools, are expected. Banging, scraping, grinding, squealing, buzzing and repeated clicking are not.' },
+      { q: 'Why is my furnace squealing?', a: 'Squealing usually comes from a weakening blower belt or worn blower motor bearings. It won’t fix itself, and Fixr puts a blower motor replacement at $562 to $1,045 installed, so it’s worth having checked early.' },
+      { q: 'Can a noisy furnace leak carbon monoxide?', a: 'It can. A cracked heat exchanger can make loud noises and can release carbon monoxide into the home. Keep CO alarms on every level, and leave and call 911 if one sounds.' },
+      { q: 'Why is my furnace clicking but not turning on?', a: 'Repeated clicking with no flame means the furnace is trying to light and failing, usually because of the ignitor, the flame sensor or a relay. Check that the thermostat is set to heat and the filter is clean, then call a technician.' },
+      { q: 'How much does it cost to fix a noisy furnace?', a: 'It depends on the part. Fixr’s national figures run from $68 to $127 for a flame sensor to $562 to $1,045 for a blower motor and $1,346 to $2,673 for a heat exchanger. A service call runs $70 to $200.' },
     ],
   },
 ];

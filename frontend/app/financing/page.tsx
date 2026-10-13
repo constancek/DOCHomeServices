@@ -4,12 +4,13 @@ import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Financing',
   description: `Flexible financing options from ${site.name} so you never have to choose between comfort and affordability. Apply for home comfort financing today.`,
   alternates: { canonical: '/financing' },
-};
+});
 
 const applyBenefits = [
   'Immediate credit upon approval',

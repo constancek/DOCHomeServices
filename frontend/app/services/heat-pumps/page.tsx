@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { heatPumpsCopy } from '@/content/location-copy/heat-pumps';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Heat Pumps',
   description: `Heat pump repair, installation, and replacement across ${site.serviceArea} from ${site.name} — year-round heating and cooling, mini-split and traditional systems. Financing available.`,
   alternates: { canonical: '/services/heat-pumps' },
-};
+});
 
 const signs = [
   'Inconsistent temperatures or rooms that will not heat or cool properly',
@@ -107,7 +108,7 @@ export default function HeatPumpsPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/heat-pump-hero.webp)' }}

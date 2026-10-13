@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { recessedLightingCopy } from '@/content/location-copy/recessed-lighting';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Recessed Lighting Installation',
   description: `Recessed lighting installation across ${site.serviceArea} from ${site.name} — clean, even ceiling lighting for kitchens, hallways, living rooms, and basements by licensed electricians.`,
   alternates: { canonical: '/services/recessed-lighting' },
-};
+});
 
 const signs = [
   'Dark areas in kitchens, hallways, or living rooms',

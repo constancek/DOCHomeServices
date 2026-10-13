@@ -7,12 +7,14 @@ import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { servicePages } from '@/content/servicePages';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Plumbing Services',
-  description: `Licensed plumbing services across ${site.serviceArea} from ${site.name} — drain cleaning, leak repair, water heaters, sewer lines, and more. Upfront pricing and same-day service.`,
+export const metadata: Metadata = withSocial({
+  title: 'Plumbing Services in Cincinnati & NKY',
+  description:
+    'Licensed, same-day plumbers in Cincinnati and Northern Kentucky for drains, leaks, water heaters and sewer lines. Upfront, flat-rate pricing.',
   alternates: { canonical: '/services/plumbing' },
-};
+});
 
 // Plumbing sub-services for the services grid + internal-link mesh.
 const plumbingServices = servicePages.filter((s) => s.category === 'Plumbing');
@@ -111,7 +113,7 @@ export default function PlumbingPage() {
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We handle the full range of residential plumbing — from the small annoyances to the big
             projects — and we treat your home with respect, cleaning up before we leave. No hourly
-            surprises, and no overtime fees on nights or weekends.
+            surprises, and no overtime fees on evenings or weekends.
           </p>
 
           {/* Services grid */}

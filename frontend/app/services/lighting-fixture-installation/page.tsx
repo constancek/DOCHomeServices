@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { lightingFixtureCopy } from '@/content/location-copy/lighting-fixture-installation';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Light Fixture Installation',
   description: `Light fixture installation across ${site.serviceArea} from ${site.name} — kitchen, bathroom, dining, pendant, and ceiling fixtures installed and replaced by licensed electricians.`,
   alternates: { canonical: '/services/lighting-fixture-installation' },
-};
+});
 
 const types = [
   'Bathroom light fixtures designed for mirrors and vanity areas',

@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { furnaceMaintenanceCopy } from '@/content/location-copy/furnace-maintenance';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Furnace Maintenance',
   description: `Furnace tune-ups and maintenance across ${site.serviceArea} from ${site.name} — safety checks, cleaning, and filter service for gas and electric furnaces. Upfront pricing.`,
   alternates: { canonical: '/services/furnace-maintenance' },
-};
+});
 
 const benefits = [
   { lead: 'Fewer unexpected breakdowns', text: 'catching small issues early prevents costly emergencies.' },
@@ -135,7 +136,7 @@ export default function FurnaceMaintenancePage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/furnace-maint-hero.webp)' }}

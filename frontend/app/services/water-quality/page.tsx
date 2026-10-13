@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { waterQualityCopy } from '@/content/location-copy/water-quality';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Water Quality',
   description: `Water quality services across ${site.serviceArea} from ${site.name} — whole-house filtration, water softeners, and water testing for cleaner, better-tasting water. Upfront pricing.`,
   alternates: { canonical: '/services/water-quality' },
-};
+});
 
 const benefits = [
   { lead: 'Protects family health', text: 'keeps out chlorine, heavy metals like lead or mercury, and bacteria that can cause illness.' },

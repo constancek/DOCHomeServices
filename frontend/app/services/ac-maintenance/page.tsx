@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { acMaintenanceCopy } from '@/content/location-copy/ac-maintenance';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'AC Maintenance',
   description: `AC tune-ups and maintenance across ${site.serviceArea} from ${site.name} — cleaning, inspection, and testing to keep your cooling system efficient and reliable all summer. Upfront pricing.`,
   alternates: { canonical: '/services/ac-maintenance' },
-};
+});
 
 const signs = [
   'Weak airflow coming from vents',
@@ -125,7 +126,7 @@ export default function ACMaintenancePage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/ac-maint-hero.webp)' }}

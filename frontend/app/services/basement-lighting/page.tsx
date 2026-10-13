@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { basementLightingCopy } from '@/content/location-copy/basement-lighting';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Basement Lighting Installation',
   description: `Basement lighting installation across ${site.serviceArea} from ${site.name} — recessed and LED basement lighting installed by licensed electricians to brighten finished and unfinished spaces.`,
   alternates: { canonical: '/services/basement-lighting' },
-};
+});
 
 const signs = [
   'Dark corners or uneven lighting',

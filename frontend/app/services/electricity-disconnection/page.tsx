@@ -99,11 +99,6 @@ const businessSchema = {
     addressRegion: 'OH',
     addressCountry: 'US',
   },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: site.rating,
-    reviewCount: site.reviewCount,
-  },
 };
 const serviceSchema = {
   '@context': 'https://schema.org',
@@ -353,8 +348,7 @@ export default function ElectricityDisconnectionPage() {
 
           <h2 className="mt-12 section-title text-brand-700">Why Homeowners Call {site.name}</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Family-owned since {site.founded}, with roughly {site.reviewCount.toLocaleString()} reviews
-            averaging {site.rating}. Service-entrance work is where shortcuts show up years later in someone
+            Family-owned since {site.founded}. Service-entrance work is where shortcuts show up years later in someone
             else&rsquo;s house fire, so we do it the long way, and we tell you plainly when the problem is
             not ours to fix.
           </p>

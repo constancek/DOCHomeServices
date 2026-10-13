@@ -9,12 +9,14 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { acRepairCopy } from '@/content/location-copy/ac-repair';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'AC Repair',
-  description: `Seven-Day AC repair across ${site.serviceArea} from ${site.name} — central air, heat pumps, and mini-splits on all major brands. Fast diagnosis and upfront pricing.`,
+export const metadata: Metadata = withSocial({
+  title: 'AC Repair in Cincinnati & NKY',
+  description:
+    'Same-day AC repair in Cincinnati and Northern Kentucky for central air, heat pumps and mini-splits. Upfront pricing and no overtime fees.',
   alternates: { canonical: '/services/ac-repair' },
-};
+});
 
 const signs = [
   'Warm air coming from vents',
@@ -50,7 +52,7 @@ const effHelps = [
 ];
 
 const whyUs = [
-  { icon: 'clock' as const, title: 'Seven-Day Emergency Repair', text: 'Available nights, weekends, and holidays to restore cooling fast.' },
+  { icon: 'clock' as const, title: 'Seven-Day Emergency Repair', text: 'Available 7 days a week from 8am to 8pm to restore cooling fast.' },
   { icon: 'badge' as const, title: 'All Cooling Systems', text: 'Central air, heat pumps, and ductless mini-splits on all major brands.' },
   { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked technicians and safe, certified refrigerant handling.' },
   { icon: 'check' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
@@ -125,7 +127,7 @@ export default function ACRepairPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/ac-repair-hero.webp)' }}

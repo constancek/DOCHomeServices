@@ -94,7 +94,7 @@ export const services: Service[] = [
     body: [
       'A slow drain is annoying. A burst supply line behind a wall is a flood. We handle both with the same urgency because water damage gets more expensive by the hour, and we would rather fix the small thing before it becomes the big one.',
       'For recurring clogs we send a camera down the line so you can see the actual cause, whether it is roots, grease, or a bellied pipe, instead of paying for a snake that only buys a few weeks of relief.',
-      'On water heaters we install both tank and tankless, walk you through the real trade-offs, and haul the old unit away. The price you are quoted is the price you pay, with no weekend or after-hours surcharge.',
+      'On water heaters we install both tank and tankless, walk you through the real trade-offs, and haul the old unit away. The price you are quoted is the price you pay, with no weekend surcharge.',
     ],
     faqs: [
       {

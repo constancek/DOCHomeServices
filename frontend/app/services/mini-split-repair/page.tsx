@@ -9,12 +9,13 @@ import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { miniSplitRepairCopy } from '@/content/location-copy/mini-split-repair';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Mini-Split Repair',
   description: `Ductless mini-split repair across ${site.serviceArea} from ${site.name} — weak cooling, leaks, ice, and error codes fixed on all major brands. Seven-day emergency service, upfront pricing.`,
   alternates: { canonical: '/services/mini-split-repair' },
-};
+});
 
 const signs = [
   'Uneven cooling or heating between rooms',
@@ -127,7 +128,7 @@ export default function MiniSplitRepairPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/minisplit-repair-hero.webp)' }}
