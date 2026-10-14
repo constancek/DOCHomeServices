@@ -60,7 +60,7 @@ export const offers = [
     expires: formatExpiryShort(rollingExpiry()),
   },
   {
-    title: '$89',
+    title: '$39',
     subtitle: 'Furnace Tune-Up',
     detail: '21-point heating safety inspection before the cold sets in.',
     expires: formatExpiryShort(rollingExpiry()),
