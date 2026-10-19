@@ -306,7 +306,7 @@ export default function WaterQualityPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="water-quality" />
     </>
   );
 }

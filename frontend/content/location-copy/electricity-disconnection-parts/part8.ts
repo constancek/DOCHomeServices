@@ -5,7 +5,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part8: Record<string, LocationServiceCopy> = {
   withamsville: {
     intro:
-      'Power disconnected in Withamsville? Clermont County and Union Township issue the permit. Call (513) 586-5107.',
+      'Withamsville and Summerside share a ZIP and the same township, so at least the answer is consistent here: Union Township and Clermont County issue the permit for a disconnection repair along Ohio Pike. Call (513) 586-5107.',
     relevance: [
       'Withamsville (ZIP 45245) is a Union Township community in western Clermont County along the Ohio Pike corridor, and the permit and inspection go through Clermont County and Union Township rather than Hamilton County or the city. It shares its ZIP with Summerside, which is the same township — so at least the answer is consistent within this postal code, which is not something we can say everywhere.',
       'The housing is suburban mid-century and newer, and the causes split accordingly. On the older streets the service is frequently original, sized for its era, and now carrying central air, a finished lower level and modern appliances — which shows as heat damage at the connections rather than as a tripped breaker. On the newer streets the panels are adequate and a disconnection is usually one identifiable fault.',
@@ -22,7 +22,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   milford: {
     intro:
-      'Power disconnected on your Milford property? Main Street buildings often share one service. Call (513) 586-5107.',
+      'A Main Street building in Milford often has a shop downstairs and living space above on one service. A disconnection takes them all off together, and the building owner owns the equipment. We work with the owner on the repair. Call (513) 586-5107.',
     relevance: [
       'Milford (ZIP 45150) straddles the Little Miami with a preserved old Main Street district around it, and those buildings change what a disconnection means. Many have a business at ground level and residential space above, running from one service entrance and a shared meter bank — so the disconnection takes a shop and one or more households off together, and the equipment belongs to the building owner rather than any occupant.',
       'Milford is a city and issues its own permits, while the surrounding communities in the same ZIP are township — so the filing follows the address. The Little Miami adds the physical cause: it rises quickly after heavy rain and the low ground near the old core is where water goes, and a submerged panel is replaced rather than dried out however it looks once the water has gone.',
@@ -39,7 +39,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   mulberry: {
     intro:
-      'Power disconnected in Mulberry? Your ZIP covers four communities across city and township. Call (513) 586-5107.',
+      'Is your Mulberry address inside Milford city limits or in the township? That decides which office handles the permit, since ZIP 45150 covers four communities. We check before repairing the disconnected service. Call (513) 586-5107.',
     relevance: [
       'Mulberry (ZIP 45150) is a suburban community in the Milford area of western Clermont County, and that postal code covers Milford, Mulberry, Mount Repose and Day Heights between them. Milford is a city issuing its own permits; the others are township. So whether your address is inside the city or in the surrounding township changes which office handles the filing, and a permit sent to the wrong one sits while it is redone.',
       'The housing is mid-century and newer on suburban lots. On the older streets the services are frequently original, sized for their era and now carrying rather more, with heat damage at the connections the usual finding. Where the newer sections were built with underground supply the causes narrow to the meter base, the buried run, or a panel that will not pass inspection.',
@@ -56,7 +56,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   'mount-repose': {
     intro:
-      'Power disconnected in Mount Repose? Higher ground than the valley, so wear rather than water. Call (513) 586-5107.',
+      'Up above the Little Miami valley, Mount Repose disconnections come from wear rather than water. Services went in with the houses and were never replaced because nothing failed. Now they carry far more load. Call (513) 586-5107.',
     relevance: [
       'Mount Repose (ZIP 45150) sits on higher ground above the Little Miami valley in the Milford area, and the elevation is what separates it from its neighbours in practice. Down in the valley the recurring cause of disconnection is water reaching a basement panel. Up here it is wear: services installed with the houses, never replaced because nothing failed, and now carrying loads well beyond their intended range.',
       'That is the finding an inspector or a utility technician reaches when they finally examine one — grounding to a superseded standard, corrosion at the meter base, heat damage where connections have worked too hard for decades. Permits go through Clermont County and the township rather than the city of Milford, despite sharing Milford’s postal code, which is worth confirming before anything is filed.',
@@ -73,7 +73,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   'day-heights': {
     intro:
-      'Power disconnected at your Day Heights property? On a well, no power means no water. Call (513) 586-5107.',
+      'Lost power on a Day Heights property with a well? You’ve lost water too. Rural lots here sit back on long private runs, so the fault may be along the line. We start there after a disconnection. Call (513) 586-5107.',
     relevance: [
       'Day Heights (ZIP 45150) mixes suburban streets with genuinely semi-rural property in the Milford area of Clermont County, and the rural edge is where a disconnection behaves differently. Those properties sit well back from the road on long private service runs, so the fault may be along the line rather than at the house, and a number are on private wells.',
       'That last point changes the urgency rather than the work: a well pump is electric, so losing power means losing water for washing, flushing and drinking, and a septic pump stops too. It is not something we can tell from an address, so mention it on the phone. Closer in the suburban streets are conventional, and the permit goes through Clermont County and the township rather than the city.',
@@ -90,7 +90,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   'new-richmond': {
     intro:
-      'Power disconnected in New Richmond? A 19th-century riverfront village with its own permits. Call (513) 586-5107.',
+      'New Richmond’s 19th-century riverfront houses often have original services, or ones reworked long ago, plus a history of retrofits the inspector will examine. The village sits low, too. We handle the disconnection repair and the village permit. Call (513) 586-5107.',
     relevance: [
       'New Richmond (ZIP 45157) is a historic Ohio River village in Clermont County with 19th-century houses lining the riverfront, and it issues its own permits and inspections. Two things follow for a disconnection. The houses are genuinely old, so services are frequently original or reworked once a long time ago, with long histories of retrofits that an inspector will examine once clearing a tag.',
       'And the village sits low on the river, so water reaching a basement panel is a recurring cause — and a submerged panel is replaced rather than dried out, because water gets behind the bus bars and into the breakers and corrosion continues after the surface dries. Being a small municipality, the inspection queue is short when the filing goes to the right office rather than to the county.',
@@ -107,7 +107,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   amelia: {
     intro:
-      'Power disconnected in Amelia? Clermont County permits, and mid-century services under modern loads. Call (513) 586-5107.',
+      'Amelia homes along Ohio Pike file with Clermont County, not Hamilton County or the city. Older streets mostly run mid-century services under modern load, the usual reason the power gets disconnected. We confirm the office first. Call (513) 586-5107.',
     relevance: [
       'Amelia (ZIP 45102) sits along the Ohio Pike corridor in Clermont County, in established neighborhoods of mid-century and newer homes, and permits and inspections go through Clermont County rather than Hamilton County or the city. Worth confirming before work is booked, because contractors working mostly on the Cincinnati side file with the wrong authority out of habit.',
       'The housing is largely of one era on the older streets, with services installed when the houses went up and frequently never replaced. Sixty or a hundred amps suited a house of that period and does not suit central air, a finished lower level and a modern kitchen, let alone a car charger. Run near the ceiling for years, those connections degrade and heat damage at the meter socket is what stops a reconnection.',
@@ -124,7 +124,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   batavia: {
     intro:
-      'Power disconnected in Batavia? Inside the village or outside changes who issues the permit. Call (513) 586-5107.',
+      'Inside the Batavia village line, the village issues your permit. Outside it, the township and county do. Being the county seat doesn’t change that. We settle it before filing a disconnection repair. Call (513) 586-5107.',
     relevance: [
       'Batavia (ZIP 45103) is the Clermont County seat, with a historic village core and newer development around it, and being the county seat causes a predictable confusion. County offices are here, so people assume the county handles their permit — but if your address is inside the village, the village does. Outside it, the township and county do. That is worth settling before anything is filed.',
       'The East Fork of the Little Miami is the physical factor. It responds quickly to heavy rain and the older village housing sits low near it, so water reaches basement panels and a submerged panel is replaced rather than dried out. Where wear is the cause instead, the village housing is old enough that the findings are the usual ones — grounding to a superseded standard and corrosion at the meter base.',
@@ -141,7 +141,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   owensville: {
     intro:
-      'Power disconnected in Owensville? A small village with its own permits, rural properties around it. Call (513) 586-5107.',
+      'Owensville is small and well east of the metro, so we settle the details on the phone before driving out. The village issues its own permits. On rural properties, a disconnection may also mean a well with no pump. Call (513) 586-5107.',
     relevance: [
       'Owensville (ZIP 45160) is a small village in eastern Clermont County with a historic core and rural and suburban property around it, and it issues its own permits and inspections. Being small means the queue is short when the filing is right, and being well east of the metro means a distance for anyone to travel — so getting the details settled on the phone matters more here than closer in.',
       'On the rural properties there is the well question: a private well pump is electric, so a disconnection takes the water with it, and long private service runs mean the fault may be along the line rather than at the house. In the village core the housing is older with services frequently never brought forward, so the findings are the usual age-related ones once anyone examines them.',
@@ -158,7 +158,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   goshen: {
     intro:
-      'Power disconnected in Goshen? Township and county permits, and rural wells. Call (513) 586-5107.',
+      'Goshen is township and county, not a village or city, so Goshen Township and Clermont County handle the permit. On rural lots, a disconnection can be more urgent than the wiring suggests. Call (513) 586-5107.',
     relevance: [
       'Goshen (ZIP 45122) is a township community in northern Clermont County with a mix of suburban and genuinely rural property, and the first thing to settle is the paperwork: this is township and county rather than a village or city, so permits and inspections go through Goshen Township and Clermont County. A contractor used to the cities closer in can file with the wrong authority.',
       'On the rural side a disconnection is a bigger event than it sounds. Properties sit well back on long private service runs, so the fault may be somewhere along the line, and a good number are on wells — meaning no power is also no water, since the pump is electric, with septic pumps affected the same way. Both are worth saying on the phone so we arrive equipped to trace and prioritise properly.',
@@ -175,7 +175,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   moscow: {
     intro:
-      'Power disconnected in Moscow? Much of the housing here is newer than the village looks. Call (513) 586-5107.',
+      'Much of Moscow was rebuilt after the March 2012 tornado, so many homes have modern service equipment. A disconnection here is less likely to be an age problem. The low ground on the river hasn’t changed. Call (513) 586-5107.',
     relevance: [
       'Moscow (ZIP 45153) is a small Ohio River village in southeastern Clermont County, and a meaningful share of its housing and service equipment dates from rebuilding after the tornado that struck in March 2012. That works in a homeowner’s favour for a disconnection: rebuilt properties generally have modern service equipment and properly sized panels, so the classic age-related findings are less likely.',
       'What has not changed is the river. The village sits low on the Ohio, so water reaching a basement panel remains a cause, and a submerged panel is replaced rather than dried out. Where a house is on older equipment the usual findings apply. The village issues its own permits and inspections, and being well downstream means it is a distance out — worth settling details on the phone.',
@@ -192,7 +192,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   newtonsville: {
     intro:
-      'Power disconnected in Newtonsville? Rural, far east, and often on a well. Call (513) 586-5107.',
+      'Newtonsville is about as rural as our Ohio side gets. Long private runs mean the fault can be anywhere on the line, and on a well and septic a power disconnection stops the water too. The village issues the permit. Call (513) 586-5107.',
     relevance: [
       'Newtonsville (ZIP 45158) is a small rural village in northeastern Clermont County, about as rural as our service area gets on the Ohio side, and it issues its own permits and inspections. The properties are spread out, frequently set well back from the road on long private service runs where a fault can be anywhere along the line rather than at the house.',
       'A good number are on wells and septic, which turns a disconnection into a water problem as well as a power one, since the pump is electric. Say so when you call, because it changes the priority and we cannot tell from an address. The housing is older with services frequently never brought forward, so where wear is the cause the findings are the usual age-related ones.',
@@ -209,7 +209,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   williamsburg: {
     intro:
-      'Power disconnected in Williamsburg? A 19th-century core on the East Fork, with village permits. Call (513) 586-5107.',
+      'Tall, close-set 19th-century buildings in Williamsburg’s core often run the service through the roof. Replacing that mast after a disconnection means resealing the flashing, which we do as part of the electrical job. Call (513) 586-5107.',
     relevance: [
       'Williamsburg (ZIP 45176) is a historic village on the East Fork of the Little Miami with a 19th-century core and rural property around it, and it issues its own permits and inspections. The old core is the part that shapes a repair: the buildings are tall for their footprint and close together, so service entrances sit high on the wall and often run through the roof, which makes the flashing at that penetration part of the electrical work.',
       'The East Fork adds water to the low ground near it — it responds quickly to heavy rain, so flooding can coincide with the storm rather than following it — and a submerged panel is replaced rather than dried out. On the rural properties around the village there is the well question, where a disconnection also takes the water. Being well east, it is a distance out.',
@@ -226,7 +226,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   bethel: {
     intro:
-      'Power disconnected in Bethel? Village permits, historic core, rural edges, and a distance out. Call (513) 586-5107.',
+      'Bethel is among the farthest points east we serve, so tell us what you can see before we set out. A disconnection in the old village core usually involves older overhead services. The village issues the permit. Call (513) 586-5107.',
     relevance: [
       'Bethel (ZIP 45106) is a historic village in southeastern Clermont County with a 19th-century core and rural and small-town property around it, and it issues its own permits and inspections. Distance is the practical factor — this is among the farthest points east we serve — so settling the details on the phone means we arrive equipped rather than making a second journey.',
       'The village core has older overhead services, some original and some reworked decades ago, on buildings tall enough that the entrance may pass through the roof. The rural property around it brings the well question, where a disconnection takes the water too because the pump is electric. Both are worth mentioning when you call so the visit is planned properly rather than optimistically.',
@@ -243,7 +243,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   ross: {
     intro:
-      'Power disconnected in Ross? Butler County and Ross Township permits, and rural wells. Call (513) 586-5107.',
+      'Ross Township and Butler County, not Hamilton County, issue the permit in Ross. The Great Miami can reach low ground here after your weather clears, and a flooded panel stays disconnected until it’s replaced. Call (513) 586-5107.',
     relevance: [
       'Ross (ZIP 45061) is a Ross Township community in southwestern Butler County along the Great Miami, mixing small-town and rural property, and permits and inspections go through Ross Township and Butler County rather than Hamilton County. Worth settling before work is scheduled rather than after.',
       'The Great Miami drains a large area upstream, so water can reach the low ground here after your local weather has cleared — which means a flooded panel on a schedule that does not match the storm. Submerged panels are replaced rather than dried out. On the rural properties there is the well question, and long private service runs mean the fault may be along the line rather than at the house.',
@@ -260,7 +260,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   fairfield: {
     intro:
-      'Power disconnected in Fairfield? Its own city permits, with mid-century and newer services. Call (513) 586-5107.',
+      'Fairfield is a large Butler County city with its own permit office, used to volume. Mid-century streets carry original services and newer subdivisions don’t. We tell you which case your disconnection falls into. Call (513) 586-5107.',
     relevance: [
       'Fairfield (ZIP 45014) is a large Butler County city with established mid-century neighborhoods, newer subdivisions and a busy commercial corridor, and it issues its own permits and inspections rather than the county doing it. Being a city of this size means the office is used to volume, which helps when the filing is right.',
       'The housing gives two answers. Mid-century streets have services largely original to the houses, sized for their era and now carrying central air, finished lower levels and increasingly car charging — heat damage at the connections is the usual finding. Newer subdivisions have modern panels and adequate capacity, where a disconnection is generally one identifiable fault rather than the whole assembly.',
@@ -277,7 +277,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   'beckett-ridge': {
     intro:
-      'Power disconnected in Beckett Ridge? Underground-fed streets narrow the causes considerably. Call (513) 586-5107.',
+      'Built around a golf course from the 1980s on, Beckett Ridge is largely underground-fed. No failing mast or weathered socket here, so a disconnection is usually the meter base, the buried run or the panel. Call (513) 586-5107.',
     relevance: [
       'Beckett Ridge (ZIP 45069) is a planned West Chester community built around a golf course, largely homes from the 1980s onward, and a good deal of it was laid out with underground supply. That removes the mast and weatherhead, so the causes that dominate older neighborhoods simply do not apply here — no failing mast, no weathered meter socket at the top of a wall.',
       'What remains is narrower: a fault at the meter base, damage in the buried run, a panel that will not pass inspection, or a load problem where a car charger has been added without a proper calculation. That last one is increasingly why we are called out to communities like this. Permits go through West Chester Township and Butler County rather than any city office.',
@@ -294,7 +294,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   wetherington: {
     intro:
-      'Power disconnected in Wetherington? Large homes with a great deal of equipment on the service. Call (513) 586-5107.',
+      'Load, not decay, brings us to Wetherington. These larger homes run several HVAC zones and car charging, and a charger added without a calculation can lead to a disconnection. We size the service properly. Call (513) 586-5107.',
     relevance: [
       'Wetherington (ZIP 45069) is an upscale West Chester community built around a golf course, with larger homes from the 1980s and 90s onward, much of it underground-fed. The service arrangement removes the usual age-related causes, so what brings us out here is load rather than decay: houses of this size run multiple HVAC zones, finished lower levels, serious kitchens and increasingly car charging.',
       'Where a charger or a second cooling zone has been added without a load calculation, the whole service can sit near its ceiling, and that shows as heat at the connections rather than as a tripped breaker. The proper response is a load calculation first and then either an uprated service or a managed circuit. Permits go through West Chester Township and Butler County.',
@@ -311,7 +311,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   hamilton: {
     intro:
-      'Power disconnected in Hamilton? Much of the city is on its own municipal electric utility, not Duke. Call (513) 586-5107.',
+      'Much of Hamilton is served by the city’s own municipal electric utility, not Duke Energy. Your bill tells you who handles the disconnection, the inspection and the reconnect. We repair the equipment you own either way. Call (513) 586-5107.',
     relevance: [
       'Hamilton (ZIP 45011) is the Butler County seat, and the most important local fact for a disconnection has nothing to do with the housing: much of Hamilton is served by the city’s own municipal electric utility rather than by Duke Energy. That changes who you deal with about the disconnection, who inspects, and who comes back to reconnect the meter — so checking your bill is the first step rather than an afterthought.',
       'The rest works the same way regardless of which utility it is. The mast, weatherhead, entrance cable, meter box and panel are yours, and they will not reconnect to a red-tagged or failed service until a licensed electrician has repaired it and it has been inspected. In the historic districts the houses are tall with entrances that often pass through the roof, and the Great Miami puts water into low levels where panels sit.',
@@ -328,7 +328,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   millville: {
     intro:
-      'Power disconnected in Millville? Check which utility serves you — Hamilton’s is next door. Call (513) 586-5107.',
+      'Millville sits right beside Hamilton’s municipal electric territory, so check your bill before making calls about a disconnection. Beyond that, it’s older homes and rural property, and we repair the service on your side. Call (513) 586-5107.',
     relevance: [
       'Millville (ZIP 45013) is a small Butler County village west of Hamilton with older homes and rural property around it, and its position beside Hamilton raises the first question. Much of Hamilton is served by the city’s own municipal electric utility rather than Duke Energy, and being immediately next to that territory means it is genuinely worth checking your bill before you start making calls.',
       'Beyond that this is rural and small-village territory. Properties set back on long private runs mean the fault can be anywhere along the line, and a good number are on private wells — so a disconnection takes the water with it since the pump is electric. Permits go through the village or Butler County depending on the address, which we confirm before filing.',

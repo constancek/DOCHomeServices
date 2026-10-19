@@ -6,7 +6,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part6: Record<string, LocationServiceCopy> = {
   'western-hills': {
     intro:
-      'Storm damage at the mast or meter base in Western Hills? Duke restores the line and stops there. We repair the rest around Glenway Avenue the same day. Call (513) 586-5107.',
+      'Wind decides storm damage in Western Hills street by street: ridge-line houses around Glenway Avenue take it unbroken across the valley, while homes tucked into the shoulders can come through untouched. If yours took a hit to the mast or meter base, we repair it. Call (513) 586-5107.',
     relevance: [
       'Western Hills (ZIP 45211) is the established area around Western Hills Plaza and Glenway Avenue, and it is spread across the ridge and shoulders of the west-side hills rather than laid out on one flat grid. That is the thing that decides your storm exposure here, street by street. Houses along the ridge lines take wind that has crossed the valley with nothing to break it. Houses tucked into the shoulders a few streets away are genuinely sheltered, and can come through the same storm untouched.',
       'The housing runs early-1900s through mid-century, so services span two eras — original entrances on the older streets, and mid-century equipment on the rest, much of it still in place and sized for the loads of its time. Where a storm damages something already marginal, the decision worth making is whether to rebuild it as it was or bring it up to what the house now draws, since the labour, the permit, and the inspection cost the same either way.',
@@ -23,7 +23,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   california: {
     intro:
-      'Storm damage or a flooded panel in California? This is the city’s lowest riverfront ground. We repair masts, meter bases, and panels along Kellogg. Call (513) 586-5107.',
+      'California sits on some of the lowest ground in Cincinnati, beside the Ohio along Kellogg Avenue, so panels in low levels here have often been under water more than once. We repair storm and flood damage to panels, masts and meter bases. Call (513) 586-5107.',
     relevance: [
       'California (ZIP 45230) is Cincinnati’s far-east riverfront neighborhood along Kellogg Avenue, near Riverbend and the old Coney Island grounds, sitting on some of the lowest ground in the city right beside the Ohio. Two consequences follow from that, and they compound each other. Flooding here is not a rare event, so panels in low levels have often been under water more than once. And being at the far eastern edge means that in a regional storm this is commonly among the later areas reached, so the wait is longer before anyone even looks at it.',
       'The rule on submerged equipment does not bend for how often it happens. A panel that has stood in water is replaced rather than dried and re-energised, because water gets behind the bus bars and into the breakers and corrosion continues long after the surface looks fine. An inspector will check for that before Duke reconnects. If your panel has been replaced once already for the same reason, it is worth asking whether it can be relocated higher while we are there.',
@@ -40,7 +40,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   carthage: {
     intro:
-      'Storm-damaged service on your Carthage home? We repair masts and meter bases along Vine Street and handle the inspection Duke needs. Call (513) 586-5107.',
+      'The open Hamilton County Fairgrounds gives wind a run-up before it reaches the tight Carthage streets on the other side. Houses facing that opening take more storm damage than you would expect, and we repair their masts and meter bases along Vine Street. Call (513) 586-5107.',
     relevance: [
       'Carthage (ZIP 45215) is a north-side neighborhood along Vine Street, a former village that now holds the Hamilton County Fairgrounds. That combination — a tight old village grid with a large open site beside it — is what shapes storm damage here. The fairgrounds is a substantial clear area, and open ground gives wind a run-up before it reaches the closely built streets on the other side. Houses on the blocks facing that opening take more than their position in a sheltered north-side neighborhood would suggest.',
       'The housing is older early-1900s stock on a village grid, which means houses close together, short overhead spans, and service entrances that are frequently original or reworked once decades ago. Short spans are an advantage — less line for a limb to catch — but an old entrance in a strong gust can still be pulled out of true or have its fixings worked loose, and that is enough to stop a reconnect.',
@@ -57,7 +57,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'winton-hills': {
     intro:
-      'Storm damage to the electrical service in Winton Hills? On multi-unit property the equipment belongs to the owner, not the resident. Call (513) 586-5107.',
+      'In a Winton Hills multi-unit building, storm-damaged service equipment belongs to the owner, so the repair has to start with them. For owners and single-family homes near Winton Road, we repair the mast, meter bank or panel and coordinate the reconnect. Call (513) 586-5107.',
     relevance: [
       'Winton Hills (ZIP 45232) is a north-side neighborhood near Winton Road with a mix of residential and industrial areas, including a good deal of multi-unit housing. The residential and industrial boundary runs through the neighborhood, and that has a real effect on how quickly the lines come back: circuits serving industrial premises are sometimes restored on a different schedule from purely residential streets, so which side of that boundary you sit on can matter more than how far you are from the substation.',
       'On the multi-unit housing the ownership question comes first regardless. Service entrances, meter banks, and the distribution feeding each building belong to the property rather than to any resident, so the repair is authorised and paid for by the owner or management, and a resident cannot get it started by calling an electrician directly. What residents can do is report accurately — how many buildings are dark, and whether the street lights are on — because that is what separates a utility outage from damage to the property’s own equipment.',
@@ -74,7 +74,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   roselawn: {
     intro:
-      'Storm damage to a service or meter bank in Roselawn? We repair both, along Reading Road, and handle the permit and inspection. Call (513) 586-5107.',
+      'An original meter bank on a mid-century Roselawn apartment building often has to be replaced whole after storm damage, because the parts are long obsolete. We do that work, and single-house service repairs, along Reading Road with the permit and inspection handled. Call (513) 586-5107.',
     relevance: [
       'Roselawn (ZIP 45237) runs along Reading Road in settled streets of mid-century single-family homes mixed with apartment buildings from the same era. Those apartment buildings are the thing worth understanding here, because a meter bank is a different proposition from a single service. Where a mid-century building still has its original bank — and many do — storm damage frequently means replacing the whole assembly rather than one meter socket, because the parts are long obsolete and the enclosure itself is sixty years old.',
       'That changes both the cost and the timeline, and it changes who has to act. A bank serving eight units comes off as one piece and goes back as one piece, so all eight households are out together and back together, on one permit and one inspection. It is faster and cheaper than eight separate jobs, but it needs the building owner to authorise it. On the single-family streets the picture is simpler: mid-century services, many original, sized for mid-century loads.',
@@ -91,7 +91,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'mount-airy': {
     intro:
-      'Storm damage at the service on your Mount Airy home? Beside one of the country’s largest city forests, limb damage is the norm here. Call (513) 586-5107.',
+      'Woodland runs right through the streets beside Mount Airy Forest, so service drops in Mount Airy hang under full-grown hardwoods and limb damage is the normal storm call. We repair the mast or meter base it takes out and coordinate the reconnect. Call (513) 586-5107.',
     relevance: [
       'Mount Airy (ZIP 45239) sits beside Mount Airy Forest, one of the largest city parks in the country, in mid-century single-family homes on hilly, wooded streets. This is not a neighborhood with a tree-lined street or two — the woodland is the setting, and it continues through the residential streets rather than stopping at a park boundary. Overhead service drops here run under genuine forest canopy, and the trees are full-grown hardwoods rather than the ornamental planting on a suburban verge.',
       'That means limb damage is the routine call in Mount Airy rather than the unusual one, and the limbs are bigger than the equivalent elsewhere. Combined with hilly terrain that puts drops across a grade, the load on a mast when something lands is substantial. The mid-century housing adds the second half: services from that era, many still original, sized for the loads of the 1950s and not for what these houses now run.',
@@ -108,7 +108,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   hartwell: {
     intro:
-      'Storm damage to the service on your Hartwell home? We repair masts, weatherheads, and meter bases on the old streetcar streets the same day. Call (513) 586-5107.',
+      'Short spans from pole to house help Hartwell homes, but tall houses and full-grown streetcar-era trees over both line and roof work against them. When a storm bends your mast or tears the weatherhead, we repair it and handle the inspection. Call (513) 586-5107.',
     relevance: [
       'Hartwell (ZIP 45215) grew as a streetcar suburb, and the lot pattern that produced still shapes the neighborhood: narrow, deep lots laid out along the old line, with Victorian and early-1900s houses set close to the street and long gardens behind. That has a specific effect on storm damage. The overhead span from the pole to the house is short, which is an advantage — but the houses are tall, close together, and the street trees planted with the suburb are now full-grown directly over both the line and the roofs.',
       'On a tall Victorian the service entrance sits high on the wall, and often runs up through the roof rather than stopping at the eaves. When a limb bends a mast at a roof penetration you have an electrical problem and a hole in the roof at the same time, which is why we treat the flashing and the seal there as part of the repair rather than a roofer’s follow-up. Doing the wiring and leaving the penetration is how a storm repair becomes a ceiling stain by January.',
@@ -125,7 +125,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'kennedy-heights': {
     intro:
-      'Storm-damaged mast or meter base in Kennedy Heights? We repair it, handle the permit and inspection, and coordinate the reconnect on the hilltop. Call (513) 586-5107.',
+      'Kennedy Heights started as a Victorian-era resort, and its century-old specimen trees grow heavier limbs than ordinary street trees. When a storm brings one down on the service drop, we repair the mast or meter base, handle the permit and coordinate the reconnect. Call (513) 586-5107.',
     relevance: [
       'Kennedy Heights (ZIP 45213) began as a Victorian-era resort community on the east-side hilltop, and that origin left a particular kind of housing behind: large early-1900s houses on generous lots, with mature ornamental planting that was chosen for a resort rather than a subdivision. Those trees are now a century old and standing over the service drops, and they are specimen planting rather than street trees — bigger, heavier limbs than the same species would grow on a verge.',
       'Being on a hilltop puts the wind behind them. The houses are also large and tall enough that the service entrance sits high on the wall, so a repair here is a proper job with a proper setup rather than an hour off a ladder. Inside, houses of this size commonly run multiple heating zones, finished lower levels, and a lot of equipment on control boards — all of which a surge from a nearby strike goes through at once, frequently costing more than the mast that got the power back on.',
@@ -142,7 +142,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'st-bernard': {
     intro:
-      'Storm damage to your service in St. Bernard? St. Bernard is its own city with its own permits. We handle that and coordinate the Duke reconnect. Call (513) 586-5107.',
+      'St. Bernard is its own city, so storm repairs need a St. Bernard permit rather than a Cincinnati one, and restoration around the Ivorydale complex follows industrial priorities. If your house stays dark after the lines return, we repair the service. Call (513) 586-5107.',
     relevance: [
       'St. Bernard (ZIP 45217) is its own city, completely surrounded by Cincinnati, built up around the Procter & Gamble Ivorydale complex in a dense grid of early-1900s homes on small valley lots. Sitting alongside a major industrial site has an effect on outages that is worth understanding: the circuits through this area serve substantial industrial load as well as houses, and industrial restoration priorities do not always line up with residential streets. Sometimes that works in your favour and sometimes it does not.',
       'What is entirely in your favour is that the permit and the inspection go through St. Bernard rather than Cincinnati, on a much smaller municipal schedule. After a storm that hit the whole region, a small queue can move considerably faster than the city’s — provided the paperwork went to the right office first time. Electricians who work mostly downtown sometimes file with Cincinnati out of habit and lose a day finding out, so it is a fair question to ask before booking.',
@@ -159,7 +159,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'elmwood-place': {
     intro:
-      'Storm damage or a flooded panel in Elmwood Place? Closely spaced houses on low valley ground get both. We repair both. Call (513) 586-5107.',
+      'A single tree falling in Elmwood Place can reach across two or three narrow lots and take several service drops with it. We repair the storm-damaged masts and meter bases on these closely spaced houses, along with panels flooded on the low valley ground. Call (513) 586-5107.',
     relevance: [
       'Elmwood Place (ZIP 45216) is a tiny, densely built village in the Mill Creek valley, with early-1900s houses spaced about as closely as anywhere in the county. That density is the storm factor. When a tree comes down here it does not affect one property — it reaches across two or three narrow lots, taking multiple service drops with it, and in a village this small that can be a meaningful share of the whole place at once.',
       'The valley underneath supplies the second problem. Low ground means basements take water in the same storms, and the panel is nearly always in the basement, and submerged electrical equipment gets replaced rather than dried out. So the common Elmwood Place pattern is several neighbouring houses each needing a mast rebuilt and a panel replaced at the same time. Calling early genuinely matters here, because a small village competing for the same inspection slots is a real constraint.',
@@ -176,7 +176,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'delhi-hills': {
     intro:
-      'Storm damage at the service on your Delhi Hills home? We repair masts and meter bases on the hilly streets above the river. Call (513) 586-5107.',
+      'Some Delhi Hills properties still carry their own old supply to an outbuilding, former greenhouse or detached garage, and after a storm that secondary line is often what fails. We repair it, along with masts and meter bases on the hilly streets above the river. Call (513) 586-5107.',
     relevance: [
       'Delhi Hills (ZIP 45233) sits in Delhi Township on the west side above the Ohio, an area with deep ties to greenhouse and floral growing, in established mid-century homes on hilly streets. That growing heritage leaves a practical wrinkle on some properties: outbuildings, former greenhouse structures, and detached garages that were given their own supply, sometimes decades ago and sometimes not to any standard you would recognise now. After a storm those secondary supplies are frequently what fails, and they are frequently what an inspector takes an interest in.',
       'The main service is more straightforward — mid-century equipment, plenty of it original, on streets hilly enough that drops run across a grade rather than level. Being in Delhi Township means the permit and inspection go through the township rather than the city, which is worth confirming before work is scheduled. If you have an outbuilding on its own supply, mention it when you call, because it changes what we need to look at.',
@@ -193,7 +193,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'golf-manor': {
     intro:
-      'Storm-damaged service on your Golf Manor home? Duke will not reconnect until it is repaired and inspected. Golf Manor runs its own permits. Call (513) 586-5107.',
+      'Many Golf Manor houses still run on the small electrical services they were built with, so rebuilding one exactly as it was after storm damage puts you back on something too small. We talk that through, repair it and file on the village permit. Call (513) 586-5107.',
     relevance: [
       'Golf Manor (ZIP 45237) is a small village entirely surrounded by Cincinnati, laid out as a compact grid of modest mid-century houses. Modest is the operative word for a storm repair. These homes were built with genuinely small electrical services — adequate for a house with a few lights, a stove, and not much else — and a great many are still on that original equipment. That matters because when a storm damages an already-minimal service, rebuilding it exactly as it was puts you back on something that was inadequate before the storm arrived.',
       'The houses being modest also means the entrances are low and accessible, so the physical repair is usually straightforward compared with a tall Victorian. The permit and inspection go through Golf Manor rather than Cincinnati, on a village schedule, which after a regional storm can be quicker than the city — as long as the filing goes to the right office. Worth asking any electrician whether they have worked in the village before.',
@@ -210,7 +210,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   fairfax: {
     intro:
-      'Storm damage to the mast or meter base on your Fairfax home? Straightforward repair, village permit, and we coordinate the reconnect. Call (513) 586-5107.',
+      'Unlike Mariemont next door, Fairfax has no historic designation, so a storm repair here is exactly what it looks like: rebuild the service entrance properly, get it inspected and get the meter back. We do that along Wooster Pike. Call (513) 586-5107.',
     relevance: [
       'Fairfax (ZIP 45227) is a small east-side village along Wooster Pike, immediately next to Mariemont, in established early- and mid-1900s homes. The contrast with its neighbour is genuinely useful to know. Mariemont is a National Historic Landmark where the visible exterior is regulated village-wide, so a service mast there involves more than an electrical permit. Fairfax has no such designation, which means a storm repair here is exactly what it looks like: rebuild the entrance properly, get it inspected, get the meter back in.',
       'That makes Fairfax one of the more straightforward places we work, and it is worth saying so plainly rather than implying every job is complicated. What does apply is that Fairfax is its own village, so the permit and inspection go through Fairfax rather than Hamilton County or Cincinnati. The housing is early- and mid-1900s, with services of both eras, and street trees now well above roof height.',
@@ -227,7 +227,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   mack: {
     intro:
-      'Storm damage at the service on your Mack home? We repair masts, meter bases, and panels across Green Township and handle the inspection. Call (513) 586-5107.',
+      'Asking whether Mack has power back tells you little, because Duke restores Green Township in sections. Compare the houses on either side of yours. If they’re lit and you’re not, the storm damage is on your equipment, and we repair it. Call (513) 586-5107.',
     relevance: [
       'Mack (ZIP 45248) is an established community in Green Township on the west side, with mid-century and newer single-family homes. Green Township is large — large enough that Duke restores it in sections after a major storm, which means the question "is Mack back on?" tells you very little. One part of the community can be lit while another waits, and the useful comparison is always the two houses immediately either side of yours rather than anything a few streets over.',
       'The housing spans enough years that the answer varies too. Mid-century streets are overhead with masts to lose and services sized for their era. Newer sections were frequently developed with underground supply, so those houses have no mast or weatherhead at all and only lose power when the utility does, or when there is a fault at the meter or in the panel. Permits and inspections go through the township rather than the city, which is worth establishing before scheduling.',
@@ -244,7 +244,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'monfort-heights': {
     intro:
-      'Storm-damaged mast or meter base in Monfort Heights? We repair it, file with the township, and coordinate the Duke reconnect. Call (513) 586-5107.',
+      'Monfort Heights houses went up in a similar period with similar services, so storm damage on one usually means the neighbours’ equipment is the same age. We repair storm-damaged masts and meter bases and file with the township. Call (513) 586-5107.',
     relevance: [
       'Monfort Heights (ZIP 45247) is a settled Green Township suburb made up almost entirely of mid-century single-family homes, and that uniformity is unusual enough to matter. In most neighborhoods we work in, the services on one street span decades. Here they largely do not — the houses went up in a comparable period, were given comparable electrical services, and those services have aged at the same rate. When a storm comes through, the equipment across the neighborhood is at a similar point in its life.',
       'The practical effect is that damage here tends to be less about which house was unlucky and more about which drops had a limb over them. The trees planted with those subdivisions are now full-grown and standing over the lines. It also means that if your neighbour has recently had to rebuild a service after a storm, yours is likely to be the same vintage and the same condition, which is useful information rather than a sales pitch.',
@@ -261,7 +261,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   bridgetown: {
     intro:
-      'Storm damage to the service on your Bridgetown home? We repair masts and meter bases across Green Township the same day. Call (513) 586-5107.',
+      'Bridgetown homes sit back on wide lots, so the overhead service drop often crosses a long open span that gives a falling limb more line to catch. That is how a house loses its own equipment while the road stays lit. We repair the storm damage. Call (513) 586-5107.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community of mid-century and newer homes on the wide suburban lots typical of that side of the county. Wide lots and long driveways mean the overhead service drop often crosses open ground between the pole at the road and the house set back from it — a longer span than anything in the city grid, and a longer span is simply more line for a falling limb to catch. It is the single clearest reason houses out here lose their own equipment while the street stays lit.',
       'The mixed housing ages give two different answers on the same road. Mid-century streets are overhead with services from their era, plenty of them original. Newer building was frequently done with underground supply, and those houses have no mast to lose at all. We establish which you have before quoting, because the likely repair and the reconnect timeline are genuinely different — Duke schedules underground work with more lead time than overhead.',
@@ -278,7 +278,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   finneytown: {
     intro:
-      'Storm damage at the mast or meter base in Finneytown? We repair it, file with Springfield Township, and coordinate the reconnect. Call (513) 586-5107.',
+      'Finneytown permits go through Springfield Township, not Green Township or the city, and filing in the wrong place costs a day. We get that right, repair the storm-damaged mast or meter base on your wooded street and coordinate the reconnect. Call (513) 586-5107.',
     relevance: [
       'Finneytown (ZIP 45231) is a settled Springfield Township community on the north side, largely mid-century single-family homes on wooded streets. The township is the first thing to establish for the paperwork: Springfield Township is a different authority from Green Township on the west side and from the city, and permits and inspections go through it. An electrician who works across the county needs to file in the right place, and getting it wrong costs a day at exactly the point you cannot afford one.',
       'The setting is well-treed and the housing is uniformly of an era, so the storm pattern is limb damage to services that are mostly original and sized for mid-century loads. Where a limb has damaged an already-marginal service, the choice is between rebuilding it as it was and bringing it up to what the house now draws. The labour, the permit, and the inspection are the same either way, which is what makes the second option worth pricing.',
@@ -295,7 +295,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   amberley: {
     intro:
-      'Storm damage at the service on your Amberley Village home? Long drops through woodland make this a limb-damage neighborhood. We repair it. Call (513) 586-5107.',
+      'Big wooded lots in Amberley Village put long service drops under mature trees, close to a worst case for overhead power in a storm. We find where the damage is, repair the mast or meter base and coordinate the reconnect. Call (513) 586-5107.',
     relevance: [
       'Amberley Village (ZIP 45237) is known for large homes on big, wooded lots along winding streets, and that description is close to a worst case for overhead electrical service. Big lots mean the house sits well back from the road, so the drop from the pole runs a long way. Wooded lots mean that run passes under mature trees rather than open sky. And winding streets mean the poles and the spans do not follow a straight predictable line, so the exposure varies property to property in ways that are hard to eyeball.',
       'Put together, it is why Amberley houses lose their own equipment in storms that leave the street lit. The houses are also large, frequently with multiple heating and cooling zones, finished lower levels, and a great deal of equipment running on control boards. A surge from a nearby strike goes through all of it at once, and on a house this size that bill routinely exceeds the cost of the mast repair that restored the power.',
@@ -312,7 +312,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'arlington-heights': {
     intro:
-      'Storm damage or a flooded panel in Arlington Heights? One of the smallest villages we work in, on low valley ground. We repair both. Call (513) 586-5107.',
+      'Utility power usually comes back quickly in Arlington Heights because the village is so small, but its permit and inspection capacity is minimal too. We repair storm-damaged masts, meter bases and flooded panels and get you into that queue. Call (513) 586-5107.',
     relevance: [
       'Arlington Heights (ZIP 45215) is a small village in the Mill Creek valley with a compact grid of older homes — one of the smallest municipalities we work in anywhere around Cincinnati. Being this small changes two things after a storm. A single damaged pole line can affect a large share of the village at once, so utility restoration here is usually quick because there is not much of it. And the village’s own permit and inspection capacity is minimal, which becomes the constraint on how fast individual repairs actually finish.',
       'The valley supplies the water. Low ground means basements take it in the same storms that bring wind, and panels are usually in basements, and a panel that has stood in water gets replaced rather than dried out. On these streets the pattern is often several neighbouring houses needing the same two repairs at once, which is exactly when calling early rather than after clearing the yard makes a measurable difference.',
@@ -329,7 +329,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'north-college-hill': {
     intro:
-      'Storm damage to your service in North College Hill? Despite the name, this is its own city with its own permits — not College Hill. Call (513) 586-5107.',
+      'North College Hill is its own city, not part of Cincinnati’s College Hill, and its storm repair permits come from its own office. We file with the right one, repair your damaged mast or meter base and coordinate the Duke reconnect. Call (513) 586-5107.',
     relevance: [
       'North College Hill (ZIP 45239) is a small, densely built city immediately north of Cincinnati’s College Hill neighborhood, and the name causes a genuine practical problem after a storm. People assume the two are the same place administratively. They are not: College Hill is a Cincinnati neighborhood and permits go through the city, while North College Hill is a separate municipality that issues its own. An electrician filing for the wrong one does not fail an inspection — the paperwork comes back and you wait while it is refiled.',
       'The housing is a tight grid of early- and mid-1900s homes, closely spaced, with short overhead spans and services of both eras. Close spacing means one tree reaches several roofs, so damage tends to cluster on a block rather than scatter across the city. Being a small municipality, the inspection queue is short when the paperwork is right, which after a regional storm is a real advantage over waiting on the city.',

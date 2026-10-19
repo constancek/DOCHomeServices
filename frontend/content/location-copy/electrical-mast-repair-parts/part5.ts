@@ -1,7 +1,7 @@
 export const part5: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'ludlow': {
     intro:
-      'A bent service mast, a leaning weatherhead, or a utility red tag on a Ludlow home? We repair and replace overhead service entrances — mast pipe, meter base, and service-entrance cable — and coordinate the Duke Energy disconnect, with licensed crews across this river town. Call (513) 586-5107.',
+      'A bent service mast, a leaning weatherhead, or a utility red tag on a Ludlow home? We repair and replace overhead service entrances, including mast pipe, meter base, and service-entrance cable, and coordinate the Duke Energy disconnect, with licensed crews across this river town. Call (513) 586-5107.',
     relevance: [
       'Ludlow, KY (ZIP 41016) is a historic Northern Kentucky river town with a walkable Elm Street district and streets of well-preserved Victorian and early-1900s homes. Houses that old were wired decades ago and many still take their power overhead, so the weatherheads and meter risers are original or near it. Galvanized mast pipe rusts at the roof line, the service cable insulation cracks in the sun, and the whole assembly works loose where it bolts to century-old framing.',
       'The riverfront setting along the Ohio is the other half of the story. Storms tracking up the valley hit these older roofs hard, and a falling limb or a sustained gust can pull a loose mast out of plumb or rip the weatherhead seal open. Once water runs down the riser into the meter base, the utility will red-tag the service until it is corrected. We straighten or replace the mast, reseal the roof flashing, re-ground the entrance, and schedule the disconnect and reconnect so the repair passes inspection the first time.',
@@ -17,7 +17,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'park-hills': {
     intro:
-      'Leaning mast or a cracked weatherhead on a Park Hills home? We repair overhead service entrances — mast pipe, meter riser, and service cable — and handle the utility disconnect, with licensed crews working the steep streets near Devou Park. Call (513) 586-5107.',
+      'Leaning mast or a cracked weatherhead on a Park Hills home? We repair overhead service entrances, including mast pipe, meter riser, and service cable, and handle the utility disconnect, with licensed crews working the steep streets near Devou Park. Call (513) 586-5107.',
     relevance: [
       'Park Hills, KY (ZIP 41011) is a hillside city beside Devou Park, known for early-1900s homes on steep, tree-lined streets above Covington. The mature trees that shade those streets are the main threat to an overhead service mast: a heavy limb coming down in a storm lands on the drop or the riser and bends the pipe at the roof penetration. On a steep lot the service often runs up a tall mast to clear the grade, which gives the wind more force to work it loose.',
       'The age of the housing compounds it. A weatherhead and meter base installed on a century-old home decades ago has corroded fittings and brittle cable insulation, so even a moderate ice load or windstorm can finish a marginal mast. When the pipe shifts, the roof flashing fails and water tracks into the meter base, which is the point the utility steps in. We reset or replace the mast, reflash and seal the roof, verify the grounding, and coordinate the disconnect so a tree-strike repair on these hillside lots is done right.',
@@ -49,7 +49,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-wright': {
     intro:
-      'Bent mast or red-tagged service on a Fort Wright home? We repair overhead service entrances — mast, meter base, and service cable — and coordinate the utility disconnect, with licensed crews across this hilltop Kenton County city. Call (513) 586-5107.',
+      'Bent mast or red-tagged service on a Fort Wright home? We repair overhead service entrances, including mast, meter base, and service cable, and coordinate the utility disconnect, with licensed crews across this hilltop Kenton County city. Call (513) 586-5107.',
     relevance: [
       'Fort Wright, KY (ZIP 41011) is a hilltop Kenton County city above the river, with established neighborhoods of mid-century and newer homes. A lot of those mid-century houses still run overhead service, and the masts on them are now decades old: the pipe has rusted at the roof, the weatherhead gasket has dried out, and the fittings have loosened where they meet older roof framing.',
       'The hilltop exposure is what pushes a marginal mast over the edge. Wind and ice loads are heavier up on the ridge, and a storm that drops a limb on the service drop can bend the riser or pull it out of plumb. When the mast shifts the roof flashing fails, water enters the meter base, and the utility tags the service. We straighten or replace the mast, reflash and seal the roof penetration, confirm the grounding electrode and bonding, and coordinate the disconnect so the repair is inspected and signed off.',
@@ -81,7 +81,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'villa-hills': {
     intro:
-      'Storm damage to your service mast or a utility red tag in Villa Hills? We repair overhead service entrances — mast, riser, and meter base — and coordinate the disconnect, with licensed crews across this hilltop city. Call (513) 586-5107.',
+      'Storm damage to your service mast or a utility red tag in Villa Hills? We repair overhead service entrances, including mast, riser, and meter base, and coordinate the disconnect, with licensed crews across this hilltop city. Call (513) 586-5107.',
     relevance: [
       'Villa Hills, KY (ZIP 41017) is a hilltop residential Kenton County city above the river, made up largely of mid-century and newer single-family homes. Even the newer homes here are reaching the point where an overhead service mast installed at construction shows its age — the weatherhead gasket dries out, the riser fittings loosen, and the roof seal around the pipe begins to fail.',
       'The hilltop position raises wind and ice loads, and Villa Hills sits among mature trees, so a falling limb or a sustained gust can bend a mast or tear the drop loose. The moment the riser shifts and the flashing fails, water runs into the meter base and the utility tags the service. We straighten or replace the mast, reflash and seal the roof penetration, check the grounding, and coordinate the disconnect so the repair is done to code and reconnected.',
@@ -193,7 +193,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'independence': {
     intro:
-      'Bent mast or a utility red tag in Independence? We repair overhead service entrances — mast, meter base, and service cable — and coordinate the disconnect, with licensed crews across this fast-growing Kenton County city. Call (513) 586-5107.',
+      'Bent mast or a utility red tag in Independence? We repair overhead service entrances, including mast, meter base, and service cable, and coordinate the disconnect, with licensed crews across this fast-growing Kenton County city. Call (513) 586-5107.',
     relevance: [
       'Independence, KY (ZIP 41051) is the Kenton County seat and one of the faster-growing cities in Northern Kentucky, with a historic core surrounded by newer subdivisions. In the older core, overhead service is common and the masts and weatherheads have aged in place; in the newer subdivisions, the masts installed at construction are now reaching the age where the weatherhead seal and roof flashing start to fail.',
       'Across both, the recurring threat is storm damage. Independence sits on open, rolling ground where wind and ice loads are heavy, and a falling limb or a strong gust can bend a riser or pull a mast out of plumb. A shifted mast lets water into the meter base, and the utility red-tags the service. We straighten or replace the mast, reseal the roof, verify grounding and bonding, and coordinate the disconnect and reconnect so the repair clears inspection.',
@@ -321,7 +321,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hebron': {
     intro:
-      'Bent mast or a utility red tag in Hebron? We repair overhead service entrances — mast, meter base, and service cable — and coordinate the disconnect, with licensed crews across this Boone County community near CVG. Call (513) 586-5107.',
+      'Bent mast or a utility red tag in Hebron? We repair overhead service entrances, including mast, meter base, and service cable, and coordinate the disconnect, with licensed crews across this Boone County community near CVG. Call (513) 586-5107.',
     relevance: [
       'Hebron, KY (ZIP 41048) is a Boone County community near the Cincinnati/Northern Kentucky airport (CVG), with a mix of newer subdivisions and established semi-rural homes. The semi-rural homes commonly run overhead service on aging masts, while the newer subdivision homes have masts installed at construction that are now reaching the age where the weatherhead seal and roof flashing begin to fail.',
       'The open ground around Hebron means masts are exposed to heavy wind and ice, and storms can bend a riser or pull a service drop loose on either a newer or an older home. A shifted mast lets water into the meter base, and the utility red-tags the service. We straighten or replace the mast, reflash and seal the roof penetration, verify grounding and bonding, and coordinate the disconnect and reconnect so the repair passes inspection across Hebron.',

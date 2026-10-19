@@ -1,6 +1,6 @@
 export const part1: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'sedamsville': {
-    intro: 'Cutting energy use in an older Sedamsville home? Our licensed electricians install efficient LED lighting that brightens dim rooms and lowers bills — recessed, under-cabinet, and strip LED for homes along River Road and the hillside above it. Call (513) 586-5107.',
+    intro: 'Cutting energy use in an older Sedamsville home? Our licensed electricians install efficient LED lighting that brightens dim rooms and lowers bills: recessed, under-cabinet, and strip LED for homes along River Road and the hillside above it. Call (513) 586-5107.',
     relevance: [
       'Sedamsville (ZIP 45204) is a historic riverside neighborhood on Cincinnati’s west side, sitting between Riverside and Sayler Park, with housing that climbs the hillside above River Road and dates to the late 1800s and early 1900s. Homes that old often still run inefficient incandescent or fluorescent fixtures, so an LED upgrade cuts energy use and brightens rooms that were never well lit.',
       'Smaller rooms and finished lower levels are common in these century-old hillside homes, where LED recessed cans and strip lighting add even, low-heat light without the constant bulb changes. We bring older wiring up to code and tune the color temperature room by room.',
@@ -9,7 +9,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Will LED lighting cut energy use in an older Sedamsville home?', a: 'Yes. Many of Sedamsville’s early-1900s homes still run inefficient fixtures, and switching to LED lowers energy use while brightening the space. We check the older wiring along River Road and the hillside above it and bring connections up to code as we go.' }],
   },
   'sayler-park': {
-    intro: 'Tired of changing bulbs and running up the bill in a Sayler Park frame house? Our licensed electricians install efficient LED lighting — recessed cans, under-cabinet, and accent strips — from the riverfront streets to the homes up the hill. Call (513) 586-5107.',
+    intro: 'Tired of changing bulbs and running up the bill in a Sayler Park frame house? Our licensed electricians install efficient LED lighting, including recessed cans, under-cabinet, and accent strips, from the riverfront streets to the homes up the hill. Call (513) 586-5107.',
     relevance: [
       'Sayler Park (ZIP 45233) is Cincinnati’s westernmost neighborhood, strung along the Ohio River past Riverside and annexed from the old village of Home City in the early 1900s. Its rows of Victorian and early-1900s frame houses still carry dated incandescent and fluorescent fixtures, which an LED swap replaces with brighter, far more efficient light.',
       'The original wiring in these century-old frame homes was never built for the lighting people want today, so we install LED recessed and under-cabinet fixtures and bring the connections up to code. LED also runs cooler and lasts far longer, which means fewer bulb changes in the tree-lined streets that give the neighborhood its character.',
@@ -27,7 +27,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can LED lighting brighten a dark Riverside basement?', a: 'Yes. LED recessed cans and strip lighting put even, low-heat light into the lower levels common in Riverside’s low River Road homes. We install them as licensed electricians and bring the older basement wiring up to code.' }],
   },
   'east-price-hill': {
-    intro: 'Replacing dated fixtures in a dense East Price Hill two-family? Our licensed electricians install efficient LED lighting — recessed, under-cabinet, and accent — for the early-1900s homes around Warsaw Avenue and the Incline District. Call (513) 586-5107.',
+    intro: 'Replacing dated fixtures in a dense East Price Hill two-family? Our licensed electricians install efficient LED lighting, including recessed, under-cabinet, and accent, for the early-1900s homes around Warsaw Avenue and the Incline District. Call (513) 586-5107.',
     relevance: [
       'East Price Hill (ZIP 45205) sits on the bluff above the west-side river flats, the neighborhood the old Price Hill Incline once carried residents up to. Its streets around Warsaw Avenue and the Incline District are packed with dense early-1900s housing — two- and three-story frame homes and brick two-families built close together — most still running inefficient incandescent and fluorescent fixtures.',
       'In these tightly built two- and three-family homes, rooms are often small and shared walls make them dark, so LED recessed cans and strip lighting add bright, even, low-heat light without overloading aging circuits. We can upgrade one unit at a time and bring the century-old wiring up to code as we go.',
@@ -36,7 +36,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you upgrade LED lighting in an East Price Hill two-family?', a: 'Yes. We work on the multi-unit and two-family homes around Warsaw Avenue regularly and can upgrade one unit to LED without disturbing the next, bringing the older wiring up to code as we go.' }],
   },
   'west-price-hill': {
-    intro: 'Cutting the lighting bill in a mid-century West Price Hill home? Our licensed electricians install efficient LED — recessed cans, under-cabinet, and garage lighting — for the single-family homes along Glenway Avenue. Call (513) 586-5107.',
+    intro: 'Cutting the lighting bill in a mid-century West Price Hill home? Our licensed electricians install efficient LED, including recessed cans, under-cabinet, and garage lighting, for the single-family homes along Glenway Avenue. Call (513) 586-5107.',
     relevance: [
       'West Price Hill (ZIP 45238) is the larger, more residential stretch of the west side, running out along Glenway Avenue toward Covedale, with a lot of 1920s through 1950s single-family homes. That mid-century housing still leans on decades-old incandescent and fluorescent fixtures, and an LED upgrade cuts energy use while brightening kitchens, basements, and garages.',
       'Homes from that era often have dim attached garages and dated kitchens that never got even lighting, so under-cabinet LED and recessed cans make a real difference. We replace failing fixtures with longer-life LED and bring the older single-family wiring up to code.',
@@ -45,7 +45,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Will LED lighting lower energy use in a mid-century West Price Hill home?', a: 'Yes. The 1920s-to-1950s single-family homes along Glenway Avenue still run inefficient fixtures, and switching to LED lowers energy use while brightening kitchens, basements, and garages. We handle the work as licensed electricians and bring older wiring up to code.' }],
   },
   'lower-price-hill': {
-    intro: 'Brightening a historic Lower Price Hill rowhouse without the heat of old fixtures? Our licensed electricians install efficient LED — recessed, under-cabinet, and accent — for the 19th-century homes around State Avenue. Call (513) 586-5107.',
+    intro: 'Brightening a historic Lower Price Hill rowhouse without the heat of old fixtures? Our licensed electricians install efficient LED, including recessed, under-cabinet, and accent, for the 19th-century homes around State Avenue. Call (513) 586-5107.',
     relevance: [
       'Lower Price Hill (ZIP 45204) is the compact neighborhood at the foot of Price Hill, down in the Mill Creek valley near the river and the industrial bottoms around State Avenue. It holds one of Cincinnati’s most intact stretches of 19th-century Italianate brick rowhouses, most still lit by inefficient incandescent and fluorescent fixtures that an LED upgrade replaces with brighter, cooler light.',
       'These mid-1800s rowhouses were built long before modern wiring, with tall, narrow rooms that were never evenly lit. LED recessed cans and accent strips add low-heat light without harming original features, and we bring the old wiring up to code as we work.',
@@ -99,7 +99,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can LED lighting brighten a grand old Mount Auburn home?', a: 'Yes. The Victorian-era homes and subdivided mansions just north of downtown often have tall, dark rooms, and LED recessed cans and accent strips brighten them efficiently. We bring the century-old wiring up to code as licensed electricians.' }],
   },
   'clifton': {
-    intro: 'Cutting energy use in a large Clifton Victorian? Our licensed electricians install efficient LED — recessed cans, under-cabinet, and accent — for the homes around Ludlow Avenue and the Gaslight District. Call (513) 586-5107.',
+    intro: 'Cutting energy use in a large Clifton Victorian? Our licensed electricians install efficient LED, including recessed cans, under-cabinet, and accent, for the homes around Ludlow Avenue and the Gaslight District. Call (513) 586-5107.',
     relevance: [
       'Clifton (ZIP 45220) is the leafy hilltop neighborhood near the University of Cincinnati, known for its Ludlow Avenue Gaslight District and large Victorian and early-1900s homes on tree-lined streets. Many of those big older houses have been here over a century and still run inefficient fixtures, so an LED upgrade cuts energy use and brightens rooms that were never well lit.',
       'A fair number of Clifton’s large homes are now rentals near campus where fixtures burn out under heavy use, and LED’s long life means far fewer bulb changes. We install recessed cans, under-cabinet, and accent LED and bring the aging wiring in these older homes up to code.',
@@ -108,7 +108,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Will LED lighting cut energy use in a large Clifton Victorian?', a: 'Yes. Clifton’s big Victorian and early-1900s homes around Ludlow Avenue often still run inefficient fixtures, and switching to LED lowers energy use and bulb changes alike. We handle the work as licensed electricians and bring older wiring up to code.' }],
   },
   'corryville': {
-    intro: 'Done changing burned-out bulbs in a Corryville rental near UC? Our licensed electricians install long-life LED — recessed cans, under-cabinet, and accent — around the Short Vine corridor. Call (513) 586-5107.',
+    intro: 'Done changing burned-out bulbs in a Corryville rental near UC? Our licensed electricians install long-life LED, including recessed cans, under-cabinet, and accent, around the Short Vine corridor. Call (513) 586-5107.',
     relevance: [
       'Corryville (ZIP 45219) sits right at the edge of the University of Cincinnati around the Short Vine corridor, a dense mix of early-1900s homes, apartments, and student rentals. Much of that older, densely packed housing still runs inefficient fixtures under heavy use, so an LED upgrade cuts energy use and the constant bulb changes those homes demand.',
       'Because so many units here are rentals with shared walls and dark, well-used rooms, LED recessed cans and accent strips add bright, even, low-heat light that lasts far longer. We can upgrade one unit at a time and bring the aging wiring up to code as we work.',
@@ -126,7 +126,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can LED lighting brighten an older Northside home?', a: 'Yes. The late-1800s and early-1900s homes along Hamilton Avenue often still run inefficient fixtures, and LED brightens dim basements and back rooms while using less energy. We bring the older wiring up to code as licensed electricians.' }],
   },
   'college-hill': {
-    intro: 'Cutting the lighting bill in an older College Hill home? Our licensed electricians install efficient LED — recessed cans, under-cabinet, and accent — for the homes along Hamilton Avenue and Belmont. Call (513) 586-5107.',
+    intro: 'Cutting the lighting bill in an older College Hill home? Our licensed electricians install efficient LED, including recessed cans, under-cabinet, and accent, for the homes along Hamilton Avenue and Belmont. Call (513) 586-5107.',
     relevance: [
       'College Hill (ZIP 45224) is a hilltop neighborhood on the northwest side along Hamilton Avenue, with a mix of large early-1900s homes, mid-century houses, and a revitalizing business district. Homes of that age usually still run dated incandescent and fluorescent fixtures, so an LED upgrade cuts energy use and brightens rooms that were never well lit.',
       'The large old houses and mid-century homes here often have dim kitchens and basements that dated fixtures never lit evenly, where under-cabinet and recessed LED make a clear difference. We replace failing fixtures with longer-life LED and bring the older wiring up to code.',
@@ -153,7 +153,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can LED lighting brighten a stately East Walnut Hills home?', a: 'Yes. The large early-1900s homes around Woodburn Avenue and DeSales Corner often have tall, dim rooms, and LED recessed cans and accent strips brighten them efficiently. We bring the older wiring up to code as licensed electricians.' }],
   },
   'avondale': {
-    intro: 'Done with burned-out bulbs in an older Avondale home or apartment? Our licensed electricians install long-life LED — recessed cans, under-cabinet, and accent — near the hospitals and the zoo. Call (513) 586-5107.',
+    intro: 'Done with burned-out bulbs in an older Avondale home or apartment? Our licensed electricians install long-life LED, including recessed cans, under-cabinet, and accent, near the hospitals and the zoo. Call (513) 586-5107.',
     relevance: [
       'Avondale (ZIP 45229) sits in the uptown core near the major hospitals and the Cincinnati Zoo, with historic early-1900s homes and apartment buildings throughout. A lot of that housing is older and densely built, much of it rental, and still runs inefficient fixtures under heavy use that an LED upgrade replaces with longer-life, lower-energy light.',
       'In these densely built, well-used homes and apartments, LED recessed cans and accent strips add bright, even, low-heat light while cutting the constant bulb changes. We can upgrade one unit at a time and bring the aging wiring up to code as we work.',
@@ -252,7 +252,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Will LED lighting cut energy use in a Blue Ash home?', a: 'Yes. Many Blue Ash homes, from mid-century neighborhoods to decades-old subdivisions, still run inefficient fixtures, and switching to LED lowers energy use while brightening the space. Our licensed electricians handle the install to code.' }],
   },
   'montgomery': {
-    intro: 'Upgrading lighting across a Montgomery home, from the historic district to a newer subdivision? Our licensed electricians install efficient LED — recessed cans, under-cabinet, and accent — around the historic district and Montgomery Road. Call (513) 586-5107.',
+    intro: 'Upgrading lighting across a Montgomery home, from the historic district to a newer subdivision? Our licensed electricians install efficient LED, including recessed cans, under-cabinet, and accent, around the historic district and Montgomery Road. Call (513) 586-5107.',
     relevance: [
       'Montgomery (ZIP 45242) is an upscale northeast-side city with a preserved historic district of 19th-century buildings and surrounding neighborhoods of established and newer homes. From century-old structures in the historic core to decades-old subdivisions, much of that housing still runs dated fixtures that an LED upgrade replaces with brighter, more efficient light.',
       'Whether a historic home near the core or an established subdivision house, dim kitchens and basements are common, where under-cabinet and recessed LED add even, low-heat light. We tune color temperature room by room and bring the older wiring up to code as we work.',

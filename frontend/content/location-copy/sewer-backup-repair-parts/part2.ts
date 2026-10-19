@@ -17,7 +17,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   wyoming: {
     intro:
-      'Sewer backup in Wyoming? Do not send another gallon down the drain — call and we will camera the line first. We reach this historic suburb’s tree-shaded streets the same day. Call (513) 586-5107.',
+      'Sewer backup in Wyoming? Do not send another gallon down the drain. Call and we will camera the line first. We reach this historic suburb’s tree-shaded streets the same day. Call (513) 586-5107.',
     relevance: [
       'Wyoming is a historic suburb of grand Victorian and early-1900s homes, many still running on their original clay and cast-iron sewer laterals. After a century in the ground, those old pipes crack and separate at the joints, and a collapsed or offset section is a common cause of the backups we find under these large houses.',
       'Because cabling cannot open a pipe that has already broken, we camera the line before pricing anything. Where the lateral is sound we clear it; where a section has collapsed we replace that length with as little disturbance to the property as the repair allows. Sewage is contaminated, so we keep people out of the affected area while we work.',

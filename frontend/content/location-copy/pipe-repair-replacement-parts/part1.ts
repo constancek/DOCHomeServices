@@ -1,6 +1,6 @@
 export const part1: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'sedamsville': {
-    intro: 'Leaky or corroded pipe in a Sedamsville home? Our licensed plumbers find the real problem with camera inspection and repair or replace the line — trenchless where it fits — for homes along River Road and the hillside above it. Call (513) 586-5107.',
+    intro: 'Leaky or corroded pipe in a Sedamsville home? Our licensed plumbers find the real problem with camera inspection and repair or replace the line, trenchless where it fits, for homes along River Road and the hillside above it. Call (513) 586-5107.',
     relevance: [
       'Sedamsville (ZIP 45204) is a historic riverside neighborhood on Cincinnati’s west side, sitting between Riverside and Sayler Park, where much of the housing climbs the hillside above River Road and dates to the late 1800s and early 1900s. Original cast-iron drains and galvanized supply lines in housing this old corrode and fail, which is exactly what we inspect, repair, or replace.',
       'On the hillside above River Road, mature trees send roots into old clay and cast-iron drain lines, and shifting ground cracks buried pipe. We camera-scope to confirm whether it is roots, a crack, or a collapse, and use trenchless methods where the layout allows.',
@@ -9,7 +9,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Do older Sedamsville homes need pipe replacement or just repair?', a: 'It depends on the line. Many of Sedamsville’s early-1900s homes have corroded cast-iron or galvanized pipe, so we camera-inspect first and repair a section when it holds or replace the run when it is past saving.' }],
   },
   'sayler-park': {
-    intro: 'A pinhole leak in a galvanized line or a root-clogged drain in Sayler Park? Our licensed plumbers camera-inspect the pipe and repair or replace it — trenchless where it fits — for homes from the riverfront to the streets up the hill. Call (513) 586-5107.',
+    intro: 'A pinhole leak in a galvanized line or a root-clogged drain in Sayler Park? Our licensed plumbers camera-inspect the pipe and repair or replace it, trenchless where it fits, for homes from the riverfront to the streets up the hill. Call (513) 586-5107.',
     relevance: [
       'Sayler Park (ZIP 45233) is Cincinnati’s westernmost neighborhood, strung along the Ohio River past Riverside. It was its own village — originally Home City — before annexation in the early 1900s, and its tree-lined streets are lined with Victorian and early-1900s frame houses whose galvanized supply lines and original drains have been in service for a century.',
       'Two local traits drive pipe failures here. The riverfront sits in the Ohio River floodplain, where high water and saturated ground stress buried lines, and the decades-old trees over those drain lines push roots into every gap. A camera inspection tells us whether the pipe has corroded through, cracked, or filled with roots, and trenchless replacement spares the established yards.',
@@ -18,7 +18,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Why do pipes fail in older Sayler Park homes?', a: 'Sayler Park’s century-old frame houses run original galvanized supply lines and old drains, and decades of tree roots plus saturated floodplain ground crack and corrode them. We camera-inspect to confirm the cause and repair or trenchless-replace the line.' }],
   },
   'riverside': {
-    intro: 'Burst pipe in a flooded lower level, or a drain line that keeps backing up in Riverside? Our licensed plumbers camera-inspect and repair or replace the line — trenchless where it fits — for homes along River Road. Call (513) 586-5107.',
+    intro: 'Burst pipe in a flooded lower level, or a drain line that keeps backing up in Riverside? Our licensed plumbers camera-inspect and repair or replace the line, trenchless where it fits, for homes along River Road. Call (513) 586-5107.',
     relevance: [
       'Riverside (ZIP 45204) is the narrow strip of Cincinnati that runs along River Road and US-50, tucked between Sedamsville to the east and Sayler Park to the west, with the hillside on one side and the Ohio River on the other. Together with Sedamsville it forms one of the oldest riverfront communities on the city’s west side, with older homes and original drain lines.',
       'Because so many homes here sit on low Ohio River bottomland, high groundwater works against buried pipe and basement drains all year. Combine that with aging cast-iron and galvanized lines, and a single heavy rain can turn a slow, root-filled drain into a flooded lower level fast. We camera-scope to find the break and replace the run, trenchless where the layout allows.',
@@ -27,7 +27,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you replace a Riverside drain line without digging up the yard?', a: 'Often, yes. Where the line allows, we reline or replace it trenchless, which matters on Riverside’s tight riverfront lots. We camera-inspect first to confirm whether the pipe is cracked, corroded, or root-blocked.' }],
   },
   'east-price-hill': {
-    intro: 'Corroded supply line or a cracked drain in an East Price Hill two-family? Our licensed plumbers camera-inspect and repair or replace the pipe — trenchless where it fits — around Warsaw Avenue and the Incline District. Call (513) 586-5107.',
+    intro: 'Corroded supply line or a cracked drain in an East Price Hill two-family? Our licensed plumbers camera-inspect and repair or replace the pipe, trenchless where it fits, around Warsaw Avenue and the Incline District. Call (513) 586-5107.',
     relevance: [
       'East Price Hill (ZIP 45205) sits on the bluff above the west-side river flats, the neighborhood the old Price Hill Incline once carried residents up to. Its streets around Warsaw Avenue and the Incline District are packed with dense early-1900s housing — two- and three-story frame homes and brick two-families built close together — most still on original cast-iron and galvanized pipe.',
       'That dense, century-old plumbing is brittle with age, and shared walls and tight lots mean a leak or cracked drain in one unit can reach the next. The hillside grade also puts pressure on buried lines and basement drains during heavy rain. We camera-scope to locate the failure and replace the run, trenchless where the layout allows.',
@@ -36,7 +36,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Do older East Price Hill homes need full pipe replacement?', a: 'Not always. Many of East Price Hill’s early-1900s frame and brick homes have brittle cast-iron and galvanized pipe, so we camera-inspect first and repair a sound section or replace the run when corrosion has gone too far.' }],
   },
   'west-price-hill': {
-    intro: 'Galvanized supply line closing up, or a cracked sewer lateral in West Price Hill? Our licensed plumbers camera-inspect and repair or replace the pipe — trenchless where it fits — out along Glenway Avenue toward Covedale. Call (513) 586-5107.',
+    intro: 'Galvanized supply line closing up, or a cracked sewer lateral in West Price Hill? Our licensed plumbers camera-inspect and repair or replace the pipe, trenchless where it fits, out along Glenway Avenue toward Covedale. Call (513) 586-5107.',
     relevance: [
       'West Price Hill (ZIP 45238) is the larger, more residential stretch of the west side, running out along Glenway Avenue toward Covedale. Its housing leans a little newer than the river neighborhoods — a lot of 1920s through 1950s single-family homes — but plumbing of that era is still many decades old.',
       'In homes from those decades we routinely find original galvanized supply lines slowly closing up with corrosion and clay or cast-iron sewer laterals that crack or fill with roots. A camera inspection shows whether the line is restricted, cracked, or root-blocked, and we repair the section or replace the run, trenchless where the grade allows.',
@@ -45,7 +45,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Are West Price Hill homes too new to need pipe replacement?', a: 'No. Even West Price Hill’s 1920s-to-1950s homes have galvanized supply lines and clay laterals that corrode, crack, or fill with roots. We camera-inspect to confirm the condition and repair or replace accordingly.' }],
   },
   'lower-price-hill': {
-    intro: 'A galvanized line letting go or a cast-iron drain failing in a Lower Price Hill rowhouse? Our licensed plumbers camera-inspect and repair or replace the pipe — trenchless where it fits — near State Avenue and the valley floor. Call (513) 586-5107.',
+    intro: 'A galvanized line letting go or a cast-iron drain failing in a Lower Price Hill rowhouse? Our licensed plumbers camera-inspect and repair or replace the pipe, trenchless where it fits, near State Avenue and the valley floor. Call (513) 586-5107.',
     relevance: [
       'Lower Price Hill (ZIP 45204) is the compact neighborhood at the foot of Price Hill, down in the Mill Creek valley near the river and the industrial bottoms around State Avenue. It holds one of Cincinnati’s most intact stretches of 19th-century Italianate brick rowhouses — beautiful, and full of original plumbing.',
       'Those mid-1800s rowhouses were built long before modern plumbing codes, so many still run old galvanized supply lines and cast-iron drains that fail without warning. The low valley location adds a second problem: when Mill Creek and the river run high, saturated ground works against buried drain lines. We camera-scope to find the break and replace the run, trenchless where it fits a historic lower level.',
@@ -72,7 +72,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How do you find a hidden pipe leak in a Downtown high-rise?', a: 'We use leak detection and camera inspection to trace the line and find the failed section without opening every wall — useful in Downtown’s stacked towers and converted loft buildings where a leak can travel several floors.' }],
   },
   'west-end': {
-    intro: 'A corroded line in a West End rowhouse or a drain backing up near the Mill Creek basin? Our licensed plumbers camera-inspect and repair or replace the pipe — trenchless where it fits — just west of downtown. Call (513) 586-5107.',
+    intro: 'A corroded line in a West End rowhouse or a drain backing up near the Mill Creek basin? Our licensed plumbers camera-inspect and repair or replace the pipe, trenchless where it fits, just west of downtown. Call (513) 586-5107.',
     relevance: [
       'The West End (ZIP 45203) is one of Cincinnati’s oldest neighborhoods, sitting just west of downtown near TQL Stadium. It holds historic Italianate rowhouses and brick homes alongside mid-century housing, with newer development now mixed in.',
       'The older brick homes here carry decades-old galvanized and cast-iron plumbing that fails without much warning, while the low ground near the Mill Creek basin works against buried drain lines during heavy rain. We camera-scope to confirm whether the pipe is corroded, cracked, or root-blocked, and repair the section or replace the run, trenchless where the layout allows.',
@@ -81,7 +81,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Do older West End homes need pipe replacement or repair?', a: 'It depends on the line. The West End’s historic rowhouses often have corroded galvanized and cast-iron pipe, so we camera-inspect first and repair a sound section or replace the run when it is past saving.' }],
   },
   'mount-adams': {
-    intro: 'An old supply line leaking or a drain failing in a Mount Adams rowhouse on the hill? Our licensed plumbers camera-inspect and repair or replace the pipe — trenchless where the grade allows — above downtown and Eden Park. Call (513) 586-5107.',
+    intro: 'An old supply line leaking or a drain failing in a Mount Adams rowhouse on the hill? Our licensed plumbers camera-inspect and repair or replace the pipe, trenchless where the grade allows, above downtown and Eden Park. Call (513) 586-5107.',
     relevance: [
       'Mount Adams (ZIP 45202) is the dense hilltop neighborhood above downtown and Eden Park, known for its steep grades, narrow streets, and tightly packed 19th-century rowhouses and townhomes.',
       'The age of the housing and the hillside both drive pipe failures: old supply and drain lines in century-old rowhouses corrode and crack, and the steep terrain puts pressure on buried sewer laterals and basement drains during heavy rain. Tight access means it pays to call a crew that knows the hill. We camera-scope to find the failure and replace the line trenchless where the grade allows.',
@@ -99,7 +99,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Do Mount Auburn’s old Victorians need full pipe replacement?', a: 'Often a section, not the whole house. Mount Auburn’s Victorian-era homes carry corroded cast-iron and galvanized pipe, so we camera-inspect to find the failed run and repair or replace just what is past saving.' }],
   },
   'clifton': {
-    intro: 'A root-clogged sewer lateral or an aging supply line failing in a Clifton Victorian? Our licensed plumbers camera-inspect and repair or replace the pipe — trenchless where it fits — near the Ludlow Avenue Gaslight District. Call (513) 586-5107.',
+    intro: 'A root-clogged sewer lateral or an aging supply line failing in a Clifton Victorian? Our licensed plumbers camera-inspect and repair or replace the pipe, trenchless where it fits, near the Ludlow Avenue Gaslight District. Call (513) 586-5107.',
     relevance: [
       'Clifton (ZIP 45220) is the leafy hilltop neighborhood near the University of Cincinnati, known for its Ludlow Avenue Gaslight District and large Victorian and early-1900s homes on tree-lined streets.',
       'Many of those big, older houses have stood for over a century with original plumbing still in service, and a fair number are now rentals near campus where a failed line needs a quick fix. The two issues we see most are aging galvanized supply lines and mature trees sending roots into old sewer laterals. We camera-scope to confirm the cause and replace the run trenchless where the lot allows.',
@@ -117,7 +117,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Why do pipes fail so often in Corryville rentals?', a: 'Corryville’s early-1900s rentals run aging galvanized and cast-iron pipe under heavy, constant use, so corrosion and clogs are common. We camera-inspect the shared lines to find the failed section and repair or replace it.' }],
   },
   'northside': {
-    intro: 'A corroded galvanized line or a drain backing up near the Mill Creek valley in Northside? Our licensed plumbers camera-inspect and repair or replace the pipe — trenchless where it fits — along Hamilton Avenue. Call (513) 586-5107.',
+    intro: 'A corroded galvanized line or a drain backing up near the Mill Creek valley in Northside? Our licensed plumbers camera-inspect and repair or replace the pipe, trenchless where it fits, along Hamilton Avenue. Call (513) 586-5107.',
     relevance: [
       'Northside (ZIP 45223) is the eclectic neighborhood along Hamilton Avenue, with a walkable business district and streets of late-1800s and early-1900s homes running down toward the Mill Creek valley.',
       'The age of the housing means original galvanized and cast-iron plumbing is common, and the low ground near Mill Creek works against buried drain lines during heavy rain. We camera-scope to confirm whether the pipe is corroded, cracked, or root-blocked, then repair the section or replace the run, trenchless where the grade allows.',
@@ -126,7 +126,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Do older Northside homes need pipe replacement or repair?', a: 'It depends on the line. Northside’s late-1800s and early-1900s homes often have corroded galvanized and cast-iron pipe, so we camera-inspect first and repair a sound section or replace the run when it is past saving.' }],
   },
   'college-hill': {
-    intro: 'A galvanized supply line corroding or a root-filled sewer lateral in College Hill? Our licensed plumbers camera-inspect and repair or replace the pipe — trenchless where it fits — along Hamilton Avenue. Call (513) 586-5107.',
+    intro: 'A galvanized supply line corroding or a root-filled sewer lateral in College Hill? Our licensed plumbers camera-inspect and repair or replace the pipe, trenchless where it fits, along Hamilton Avenue. Call (513) 586-5107.',
     relevance: [
       'College Hill (ZIP 45224) is a hilltop neighborhood on the northwest side along Hamilton Avenue, with a mix of large early-1900s homes, mid-century houses, and a revitalizing business district.',
       'In homes this age, slowly corroding galvanized supply lines are the usual culprit behind a sudden leak, and older clay or cast-iron sewer laterals are prone to root intrusion. We camera-scope to confirm whether it is corrosion, a crack, or roots, and repair the section or replace the run, trenchless where the lot allows.',
@@ -162,7 +162,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Do older Avondale homes need pipe replacement or repair?', a: 'It depends on the line. Avondale’s early-1900s homes and rentals often have corroded galvanized and cast-iron pipe under heavy use, so we camera-inspect first and repair a sound section or replace the run when it is past saving.' }],
   },
   'hyde-park': {
-    intro: 'A hidden leak in a finished Hyde Park basement, or a root-filled sewer lateral? Our licensed plumbers run leak detection and camera inspection, then repair or replace the pipe — trenchless where it fits — around Hyde Park Square. Call (513) 586-5107.',
+    intro: 'A hidden leak in a finished Hyde Park basement, or a root-filled sewer lateral? Our licensed plumbers run leak detection and camera inspection, then repair or replace the pipe, trenchless where it fits, around Hyde Park Square. Call (513) 586-5107.',
     relevance: [
       'Hyde Park (ZIP 45208) is an affluent east-side neighborhood built around Hyde Park Square, lined with large early-1900s homes — Tudors, colonials, and brick foursquares — on established, tree-shaded streets.',
       'These big older homes are exactly the kind where a hidden leak or a failing supply line can do expensive damage to finished basements and original details before it is noticed, and the mature trees over old sewer laterals invite root intrusion. We use leak detection and camera inspection to find the failure and replace the line trenchless where the lot allows.',
@@ -180,7 +180,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Do Oakley bungalows need pipe replacement or just repair?', a: 'It depends on the line. Oakley’s early-1900s bungalows often have corroded galvanized supply lines and cast-iron drains, so we camera-inspect first and repair a sound section or replace the run when it is past saving.' }],
   },
   'mount-lookout': {
-    intro: 'A cracked sewer lateral or a corroded line on a Mount Lookout hillside lot? Our licensed plumbers camera-inspect and repair or replace the pipe — trenchless where the grade allows — near Mount Lookout Square and Ault Park. Call (513) 586-5107.',
+    intro: 'A cracked sewer lateral or a corroded line on a Mount Lookout hillside lot? Our licensed plumbers camera-inspect and repair or replace the pipe, trenchless where the grade allows, near Mount Lookout Square and Ault Park. Call (513) 586-5107.',
     relevance: [
       'Mount Lookout (ZIP 45226) is an east-side hilltop neighborhood around Mount Lookout Square, near Ault Park, with a mix of early-1900s homes and larger houses on quiet, hilly streets.',
       'The older homes here carry decades-old plumbing, and the hillside grade puts extra demand on buried sewer laterals and basement drains, where shifting ground cracks old pipe. We camera-scope to find the break and replace the line trenchless where the grade allows.',
@@ -189,7 +189,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you replace a Mount Lookout pipe on a steep hillside lot?', a: 'Usually, yes. Where the line allows, we replace it trenchless, which avoids trenching Mount Lookout’s hilly lots. We camera-inspect first to confirm whether the pipe is cracked, corroded, or root-blocked.' }],
   },
   'columbia-tusculum': {
-    intro: 'Original plumbing failing in a Columbia-Tusculum Painted Lady, or a drain backing up near the river? Our licensed plumbers camera-inspect and repair or replace the pipe — trenchless where it fits — on the east side near the Ohio River. Call (513) 586-5107.',
+    intro: 'Original plumbing failing in a Columbia-Tusculum Painted Lady, or a drain backing up near the river? Our licensed plumbers camera-inspect and repair or replace the pipe, trenchless where it fits, on the east side near the Ohio River. Call (513) 586-5107.',
     relevance: [
       'Columbia-Tusculum (ZIP 45226) is Cincinnati’s oldest neighborhood, settled in 1788, and is known for its colorful Painted Ladies — restored Victorian homes — on the east side near the Ohio River.',
       'Two things drive pipe failures here: the age of those Victorian and early homes, whose original galvanized and cast-iron lines are well past their service life, and the low riverside ground, where high water works against buried drain lines. We camera-scope to find the failure and replace the run trenchless where it fits, protecting these historic interiors.',
@@ -198,7 +198,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you replace pipe in a historic Columbia-Tusculum home without harming the interior?', a: 'Where the line allows, yes — trenchless relining lets us replace a run without opening historic floors and walls. We camera-inspect Columbia-Tusculum’s old galvanized and cast-iron lines first to plan the least invasive fix.' }],
   },
   'mount-washington': {
-    intro: 'A corroded galvanized line or a root-filled sewer lateral in Mount Washington? Our licensed plumbers camera-inspect and repair or replace the pipe — trenchless where it fits — along Beechmont Avenue. Call (513) 586-5107.',
+    intro: 'A corroded galvanized line or a root-filled sewer lateral in Mount Washington? Our licensed plumbers camera-inspect and repair or replace the pipe, trenchless where it fits, along Beechmont Avenue. Call (513) 586-5107.',
     relevance: [
       'Mount Washington (ZIP 45230) is a far-east-side neighborhood along Beechmont Avenue, with a settled mix of early-1900s through mid-century single-family homes.',
       'In homes of that era, original galvanized supply lines are the usual source of a sudden corrosion leak, and older sewer laterals can crack or fill with roots. We camera-scope to confirm whether it is corrosion, a crack, or roots, then repair the section or replace the run, trenchless where the lot allows.',
@@ -225,7 +225,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How does pipe repair work in a Pleasant Ridge two-family?', a: 'We camera-inspect the galvanized and cast-iron lines to isolate the failed section, then repair or replace it with as little disruption to the other unit as possible — important in Pleasant Ridge’s shared brick two-families.' }],
   },
   'westwood': {
-    intro: 'A galvanized supply line closing up or a cast-iron drain backing up in Westwood? Our licensed plumbers camera-inspect and repair or replace the pipe — trenchless where it fits — along Harrison Avenue. Call (513) 586-5107.',
+    intro: 'A galvanized supply line closing up or a cast-iron drain backing up in Westwood? Our licensed plumbers camera-inspect and repair or replace the pipe, trenchless where it fits, along Harrison Avenue. Call (513) 586-5107.',
     relevance: [
       'Westwood (ZIP 45211) is the largest neighborhood in Cincinnati by population, spread across the west side along Harrison Avenue, with everything from historic homes near the Westwood Town Hall to streets of early-1900s and mid-century houses.',
       'Across that range of older housing, the common thread is aging plumbing — galvanized supply lines closing up with corrosion and cast-iron drains prone to cracks and backups. We camera-scope to confirm the condition and repair the section or replace the run, trenchless where the lot allows.',
@@ -234,7 +234,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Do older Westwood homes need pipe replacement or repair?', a: 'It depends on the line. Westwood’s early-1900s and mid-century homes often have corroded galvanized supply lines and cast-iron drains, so we camera-inspect first and repair a sound section or replace the run when it is past saving.' }],
   },
   'norwood': {
-    intro: 'A corroded galvanized line or a shared lateral failing on a tight Norwood lot? Our licensed plumbers camera-inspect and repair or replace the pipe — trenchless where it fits — across the city surrounded by Cincinnati. Call (513) 586-5107.',
+    intro: 'A corroded galvanized line or a shared lateral failing on a tight Norwood lot? Our licensed plumbers camera-inspect and repair or replace the pipe, trenchless where it fits, across the city surrounded by Cincinnati. Call (513) 586-5107.',
     relevance: [
       'Norwood (ZIP 45212) is its own city, completely surrounded by Cincinnati, with a dense grid of early-1900s homes and brick two-families built during its days as a streetcar and factory town.',
       'That tightly packed, century-old housing is exactly where pipe failures cluster: corroded galvanized lines, aging cast-iron drains, and shared laterals on small lots. We camera-scope to isolate the failed section and repair or replace it — trenchless where the lot allows — before it spreads between closely built homes.',

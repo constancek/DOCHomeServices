@@ -295,7 +295,7 @@ export default function PlumbingInstallationPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="plumbing-installation" />
     </>
   );
 }

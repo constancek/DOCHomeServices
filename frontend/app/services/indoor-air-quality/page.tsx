@@ -319,7 +319,7 @@ export default function IndoorAirQualityPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="indoor-air-quality" />
     </>
   );
 }

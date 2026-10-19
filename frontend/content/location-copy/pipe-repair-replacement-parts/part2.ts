@@ -1,7 +1,7 @@
 export const part2: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'madeira': {
     intro:
-      'Leaking, corroded, or cracked pipe in a Madeira home? Our licensed plumbers run a camera inspection to find the failure, then repair or replace the line — trenchless where the route allows — across this east-side city. Call (513) 586-5107.',
+      'Leaking, corroded, or cracked pipe in a Madeira home? Our licensed plumbers run a camera inspection to find the failure, then repair or replace the line, trenchless where the route allows, across this east-side city. Call (513) 586-5107.',
     relevance: [
       'Madeira (ZIP 45243) is an established east-side city of mostly mid-century single-family homes on quiet, tree-lined streets. Houses from the mid-1900s were plumbed with galvanized steel supply lines and cast-iron drains, and both fail predictably with age: galvanized closes up with rust until a pinhole becomes a spray, and cast-iron stacks crack and scale until a drain runs slow or splits open behind a wall.',
       'Those tree-lined streets are the second pipe problem here. The mature trees that shade Madeira yards send roots toward the moisture seeping from an aging drain lateral, and a cracked clay or cast-iron section will keep taking on roots until it is replaced. We camera the line to locate the break before we open anything, then pipe-burst or line the bad section so the front yard does not have to be trenched end to end.',
@@ -17,7 +17,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'wyoming': {
     intro:
-      'Hidden leak or failing pipe in a Wyoming home? Our licensed plumbers use camera inspection and leak detection to find it without tearing the house apart, then repair or replace the line — trenchless where it fits. Call (513) 586-5107.',
+      'Hidden leak or failing pipe in a Wyoming home? Our licensed plumbers use camera inspection and leak detection to find it without tearing the house apart, then repair or replace the line, trenchless where it fits. Call (513) 586-5107.',
     relevance: [
       'Wyoming (ZIP 45215) is a historic, affluent suburb north of the city, known for its grand Victorian and early-1900s homes on established, tree-shaded streets. Houses that old still carry stretches of original galvanized supply line and cast-iron drain, and in a large home a slow leak inside a wall or under a finished floor can run for weeks before anyone sees the stain.',
       'The size of these century-old houses is exactly what makes pipe work here worth doing right. A corroded riser or a cracked drain stack behind plaster can ruin original woodwork and finished spaces, so we lead with leak detection and a camera to pinpoint the failure rather than guessing. From there we replace the failed run cleanly, matching the repair to the home rather than opening walls we do not need to touch.',

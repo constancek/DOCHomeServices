@@ -274,7 +274,7 @@ export default function PipeRepairReplacementPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="pipe-repair-replacement" />
     </>
   );
 }

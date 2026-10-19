@@ -315,7 +315,7 @@ export default function MoldPreventionRemediationPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="mold-prevention-remediation" />
     </>
   );
 }

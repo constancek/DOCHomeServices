@@ -363,7 +363,7 @@ export default function EmergencyPlumbingPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="emergency-plumbing" />
     </>
   );
 }

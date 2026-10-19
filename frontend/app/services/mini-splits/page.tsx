@@ -374,7 +374,7 @@ export default function MiniSplitsPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="mini-splits" />
     </>
   );
 }

@@ -373,7 +373,7 @@ export default function FurnaceRepairPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="furnace-repair" />
     </>
   );
 }

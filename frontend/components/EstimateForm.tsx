@@ -85,8 +85,8 @@ export default function EstimateForm({
   return (
     <div className="overflow-hidden rounded-2xl bg-white shadow-card ring-1 ring-brand-100">
       <div className="bg-pink-500 px-6 py-4">
-        <h2 className="font-display text-xl font-extrabold text-white">{heading}</h2>
-        <p className="text-xs font-semibold text-white/80">Step {step} of 2</p>
+        {heading && <h2 className="font-display text-xl font-extrabold text-white">{heading}</h2>}
+        <p className={`${heading ? 'mt-1 ' : ''}text-base font-bold text-white/90`}>Step {step} of 2</p>
         <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-white/30">
           <div
             className="h-full rounded-full bg-white transition-all"

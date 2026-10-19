@@ -1,6 +1,6 @@
 export const part5: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'ludlow': {
-    intro: 'A hidden water leak in a Ludlow home rarely announces itself — you notice the water bill first, or a stain on a plaster wall. Our licensed plumbers pinpoint leaks behind walls and under floors with acoustic sensors and thermal imaging, no demolition guesswork. Call (513) 586-5107.',
+    intro: 'A hidden water leak in a Ludlow home rarely announces itself: you notice the water bill first, or a stain on a plaster wall. Our licensed plumbers pinpoint leaks behind walls and under floors with acoustic sensors and thermal imaging, no demolition guesswork. Call (513) 586-5107.',
     relevance: [
       'Ludlow (ZIP 41016) is a historic Northern Kentucky river town off Elm Street, full of well-preserved Victorian and early-1900s homes. Houses that old still run on original galvanized and cast-iron lines, and those metals fail from the inside out — a pinhole weep behind plaster can run for months before the drywall stains or the floor cups. That is exactly the kind of slow leak our moisture meters and acoustic equipment are built to find.',
       'The riverfront setting adds a second layer. When the Ohio runs high, ground stays saturated and basements stay damp, which masks a genuine supply-line or slab leak as ordinary moisture. We use thermal imaging and pipe cameras to separate a real plumbing leak from groundwater so you are not tearing out a wall on a guess.',

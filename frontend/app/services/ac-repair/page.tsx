@@ -127,16 +127,13 @@ export default function ACRepairPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar couponTitle="Furnace Tune-Up">
+        <MainWithSidebar couponTitle="Same-Day AC Repair">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/ac-repair-hero.webp)' }}
             role="img"
             aria-label="Technician repairing an air conditioner"
           />
-          <div className="mb-5 rounded-2xl bg-lime-500 px-5 py-3 text-center font-display text-sm font-extrabold uppercase tracking-wide text-white sm:text-base">
-            Save $75 on same-day AC repairs — book now, offer ends soon!
-          </div>
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
             AC Repair
           </h2>
@@ -370,7 +367,7 @@ export default function ACRepairPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="ac-repair" />
     </>
   );
 }

@@ -384,7 +384,7 @@ export default function SewerPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="sewer-repair-replacement" />
     </>
   );
 }

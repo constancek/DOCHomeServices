@@ -85,14 +85,14 @@ export default function Header() {
         {/* Full-width split CTA buttons */}
         <div className="grid grid-cols-2">
           <a
-            href="#areas"
+            href="/request-estimate/"
             className="flex h-11 items-center justify-center gap-2 bg-pink-500 px-3 text-center text-xs font-extrabold uppercase tracking-wide text-white transition hover:bg-pink-600 sm:text-sm"
           >
             Get Instant Estimate
             <Icon name="clock" className="h-4 w-4 flex-shrink-0" />
           </a>
           <a
-            href="#areas"
+            href="/request-estimate/"
             className="flex h-11 items-center justify-center gap-2 bg-lime-500 px-3 text-center text-xs font-extrabold uppercase tracking-wide text-white transition hover:bg-lime-600 sm:text-sm"
           >
             <Icon name="calendar" className="h-4 w-4 flex-shrink-0" />

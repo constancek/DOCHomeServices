@@ -293,7 +293,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hyde-park': {
     intro:
-      'Water damage in a Hyde Park home? We extract the water, dry the structure, and repair the plumbing that caused it — usually reaching homes around Hyde Park Square the same day. Call (513) 586-5107.',
+      'Water damage in a Hyde Park home? We extract the water, dry the structure, and repair the plumbing that caused it, usually reaching homes around Hyde Park Square the same day. Call (513) 586-5107.',
     relevance: [
       'Hyde Park (ZIP 45208) is built around large early-1900s homes — Tudors, colonials, and brick foursquares — and a great many of them have finished lower levels holding carpet, drywall, and cabinetry. That is the worst possible material mix to leave wet, and it is why water damage here gets expensive faster than the square footage suggests.',
       'The other Hyde Park factor is original detail. Oak flooring, plaster, and century-old millwork can often be dried and saved, but only if the water comes out quickly and the drying is measured rather than guessed at. Left a few days, the same materials cup, split, and turn into replacement work costing many times what the drying would have.',

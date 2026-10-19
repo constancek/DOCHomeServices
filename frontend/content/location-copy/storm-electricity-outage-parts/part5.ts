@@ -5,7 +5,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part5: Record<string, LocationServiceCopy> = {
   mason: {
     intro:
-      'Storm damage at the service on your Mason home? Duke restores the line and stops at the meter. We repair the rest across Warren County the same day. Call (513) 586-5107.',
+      'Most Mason subdivisions are fed underground, so a storm outage there is either a utility problem or a fault at the meter or panel. The older town center still has overhead masts and drops. We repair storm damage on both across Warren County. Call (513) 586-5107.',
     relevance: [
       'Mason (ZIP 45040) is a fast-growing Warren County city near Kings Island, built mostly of subdivisions from the 1990s onward around an older town center. That split decides what a storm does to you here. The subdivision streets were largely developed with underground service, so there is no mast or weatherhead to lose — when those houses go dark it is either a genuine utility outage or a fault at the meter or in the panel. The older town center is overhead, with masts and drops that behave like any century-old service.',
       'Mason being in Warren County is the paperwork half. Permits and inspections do not go through Hamilton County or the city of Cincinnati, and an electrician who works mostly in town can file with the wrong authority out of habit and cost you a day. We establish which service arrangement your address has and which office the permit goes to before quoting a start date, because in Mason both answers vary within a few miles.',
@@ -22,7 +22,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'west-chester': {
     intro:
-      'Storm-damaged mast or meter base in West Chester? We repair it, file with the township, and coordinate the Duke reconnect. Call (513) 586-5107.',
+      'West Chester is a township, so the permit for a storm repair goes through Butler County and the township, not a Cincinnati office. We confirm that first, repair the damaged mast or meter base, and coordinate the Duke reconnect. Call (513) 586-5107.',
     relevance: [
       'West Chester (ZIP 45069) is a large Butler County community along the I-75 corridor, made up largely of subdivisions built from the 1990s onward. Two things follow. Being a township rather than a city changes where the permit goes — Butler County and the township rather than any Cincinnati or Hamilton County office — and that is worth confirming before work is scheduled rather than after. And being newer means most of these houses have modern services, frequently underground, sized for the loads a 1990s house was built to draw.',
       'The corridor itself is the other factor. This is open, largely flat ground either side of I-75, without the hillsides and mature canopy that shelter the older neighborhoods closer in. That produces wind-driven damage rather than limb strikes: fixings worked loose, a mast pulled out of plumb, a weatherhead no longer shedding water properly. None of it looks dramatic from the ground, and all of it will stop Duke reconnecting.',
@@ -39,7 +39,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   pendleton: {
     intro:
-      'Storm damage to the service on your Pendleton building? We repair masts and meter stacks in the arts district, and deal with the association or owner. Call (513) 586-5107.',
+      'Almost nothing in Pendleton has street frontage to work from, so a storm repair starts with how we reach a service mounted high on masonry off an alley or rear court. We repair masts and meter stacks and deal with the association or owner. Call (513) 586-5107.',
     relevance: [
       'Pendleton (ZIP 45202) is a small historic arts district against the eastern edge of Over-the-Rhine, full of restored 19th-century Italianate buildings and converted lofts and condos. It is compact enough that almost nothing here has usable street frontage to work from. Service equipment is fed from narrow alleys and rear courts, mounted high on masonry, and reached through a shared passage rather than from a driveway — which means a storm repair in Pendleton begins with working out how we physically get to the equipment.',
       'The ownership question is the other half, and it comes first. In a converted building the service entrance and the meter stack are common elements belonging to the building or the association rather than to the unit owner whose lights are off. We establish who owns the damaged equipment before quoting, because in a district of small converted buildings the person who calls is very often not the person who can authorise the work or sign for the permit.',
@@ -56,7 +56,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   queensgate: {
     intro:
-      'Storm damage to electrical service on a Queensgate property? We handle smaller commercial services and will tell you plainly when yours needs a larger contractor. Call (513) 586-5107.',
+      'Many Queensgate buildings run three-phase service with switchgear, which is a different job from a house mast and meter. We handle storm damage on smaller commercial services and tell you plainly when yours needs a larger contractor. Call (513) 586-5107.',
     relevance: [
       'Queensgate (ZIP 45203) is the largely commercial and industrial district west of downtown, near the rail yards and the Mill Creek — warehouses, offices, and light-industrial buildings rather than housing. That changes the nature of a storm outage here. Commercial and industrial buildings commonly run three-phase service with switchgear rather than the single-phase mast, meter, and panel arrangement on a house, and the equipment is bigger, the disconnect procedure is different, and the inspection requirements are heavier.',
       'We are straightforward about the line. Smaller commercial services — a light-industrial unit, an office, a small warehouse — are work we do. A large three-phase service with a utility transformer, primary metering, or a substation-scale disconnect is a different trade, and sending us to look at it wastes your time in a week when time is what you do not have. Tell us what the building is on the phone and we will tell you honestly whether we are the right call.',
@@ -73,7 +73,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   cuf: {
     intro:
-      'Storm damage to the service on your CUF building? We work Clifton Heights, University Heights, and Fairview, and deal with the owner on rental property. Call (513) 586-5107.',
+      'Some Fairview streets in CUF are linked by public stairways, so after storm damage the ladder setup can take longer than the repair itself. We fix masts and meter banks across Clifton Heights, University Heights and Fairview, working with owners on rentals. Call (513) 586-5107.',
     relevance: [
       'CUF (ZIP 45219) covers three distinct hilltop neighborhoods packed against the University of Cincinnati — Clifton Heights, University Heights, and Fairview — and Fairview in particular is steep enough that some streets are connected by public stairways rather than roads. That terrain decides access. On the steepest blocks there may be nowhere to place a ladder at the angle we need, and the service entrance on a tall subdivided house sits high on the wall, so the setup takes longer than the repair.',
       'Almost all of this housing is 19th- and early-1900s homes long since converted to student rentals, which means multiple meters per building and, more importantly, owners who are frequently not on site. The fastest version of a storm repair here is a property manager calling with the address and authorisation in one conversation. A tenant calling gets the same look and the same honest assessment, but the permit and the reconnect both need the owner.',
@@ -90,7 +90,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'camp-washington': {
     intro:
-      'Storm damage at the meter or a flooded panel in Camp Washington? We repair both in the Mill Creek valley and handle the inspection. Call (513) 586-5107.',
+      'Camp Washington’s worker cottages were built with small electrical services, and many still run on them. When a storm damages one, patching it back as it was rarely makes sense. We repair masts, meter bases and flooded panels in the Mill Creek valley. Call (513) 586-5107.',
     relevance: [
       'Camp Washington (ZIP 45225) is a historic working neighborhood down in the Mill Creek valley, a tight mix of old worker housing and factories. The housing is small — compact cottages and modest frame homes built for factory workers — and that means the original electrical services were small too, sized for a house with a few lights and little else. Many are still running on services that were marginal decades ago, and a storm that damages one is the moment that becomes unavoidable.',
       'The valley is the other factor, and it works against you twice. Low ground means water in basements during the same storms that bring the wind, and the panel is usually in the basement. Submerged electrical equipment is replaced rather than dried out, because water gets behind the bus and into the breakers and keeps corroding after the surface looks fine. We look at the entrance above and the panel below together rather than fixing one and finding the other.',
@@ -107,7 +107,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'south-fairmount': {
     intro:
-      'Storm damage or a flooded panel in South Fairmount? We repair masts, meter bases, and panels along the Lick Run valley. Call (513) 586-5107.',
+      'The Lick Run Greenway handles surface water far better than what came before, but South Fairmount’s housing still sits low, and a basement panel can still flood in a serious storm. We repair storm-damaged masts, meter bases and panels along Queen City Avenue. Call (513) 586-5107.',
     relevance: [
       'South Fairmount (ZIP 45205) sits in the Lick Run valley along Queen City Avenue, and the neighborhood was substantially rebuilt around the Lick Run Greenway — a stormwater project undertaken precisely because this valley had flooded for generations. That history is the useful context for a storm here. The Greenway handles surface water far better than what came before it, but the housing that remains still sits low, and a panel in a low basement is still a panel in a low basement when a serious storm arrives.',
       'So the two failure modes both apply, and they need different answers. Wind damage to a mast or weatherhead is rebuilt and inspected. A panel that has stood in water is replaced, not dried and re-energised, and an inspector will look for that before Duke puts the meter back. On these streets we assess both in one visit as a matter of course rather than treating the flooded basement as a separate call from the dark house.',
@@ -124,7 +124,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'east-end': {
     intro:
-      'Storm damage at the service on your East End home? Squeezed between the hillside and the river, you can get both wind and water. We repair both. Call (513) 586-5107.',
+      'In the East End, the wooded hillside drops limbs on service equipment while the river puts water into low levels, sometimes at the same address on the same night. We repair storm damage of both kinds along Eastern Avenue. Call (513) 586-5107.',
     relevance: [
       'The East End (ZIP 45226) is a narrow riverfront strip running east of downtown along Eastern Avenue, below Columbia Parkway, with historic river cottages and newer condos wedged between the hillside and the Ohio. There is barely any neighborhood between those two hazards, and that is exactly the point: the wooded hillside directly above drops limbs onto service equipment, while the river directly below puts water into low levels. A single storm can deliver both to the same address on the same night.',
       'The housing splits how that plays out. The older river cottages are low, with short overhead spans and services often original, and their vulnerability is water. The newer condos are taller, frequently with the service arrangement of a modern building and sometimes fed underground, and their vulnerability is what a surge does to everything inside. We ask which you have before quoting, because the likely repair is genuinely different.',
@@ -141,7 +141,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'north-fairmount': {
     intro:
-      'Only your North Fairmount house is dark after the storm? That is your own equipment. We work the hillside above the Mill Creek valley the same day. Call (513) 586-5107.',
+      'Utility restoration in North Fairmount is often quick because the neighborhood is small, so a house still dark afterwards stands out. That means the storm damage is on your own mast or meter base, and we repair it on the hillside above the Mill Creek valley. Call (513) 586-5107.',
     relevance: [
       'North Fairmount (ZIP 45225) is a small west-side hillside neighborhood on the slope above the Mill Creek valley, with streets of older early-1900s homes. Being both small and on a hillside has a specific consequence after a storm. A single damaged pole line can take out a large share of the neighborhood at once, which means the utility restoration here is often quick — there is not much of it to restore. That is good news, and it is also why homeowners here get caught out.',
       'When the lines come back fast and one house stays dark, the remaining fault is on that homeowner’s own equipment, and no further waiting will change it. On early-1900s houses that usually means the mast, the weatherhead, or the meter box, all of which Duke will not reconnect to once damaged. The window test is the whole diagnosis: if the neighbours have lights and you do not, stop waiting and call someone.',
@@ -158,7 +158,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   evanston: {
     intro:
-      'Storm damage to the service on your Evanston home? We repair masts and meter banks near Xavier and handle the inspection Duke needs. Call (513) 586-5107.',
+      'On an Evanston rental near Xavier, storm damage can sit for days because the tenant can’t approve the repair and the owner may be elsewhere. We work with owners and owner-occupants alike to fix the mast or meter bank and get Duke to reconnect. Call (513) 586-5107.',
     relevance: [
       'Evanston (ZIP 45207) sits next to Xavier University in streets of early-1900s houses and apartment buildings, with a good deal of it now student housing mixed in among long-term owner-occupied homes. That mix is the practical thing here, because it decides how fast a storm repair actually moves. On an owner-occupied house the decision is made by whoever is standing in the driveway. On the rental next door the tenant has no authority, the owner may be elsewhere, and the same damage can sit for days.',
       'If you own your Evanston home, that works in your favour and it is worth using. Call the morning it happens rather than waiting, because the queue after a regional storm is first come and a large share of the housing around you will be slower to act for reasons that have nothing to do with the damage. The equipment itself is what you would expect from early-1900s stock: original or reworked entrances, and meter banks on the buildings that have been divided.',
@@ -175,7 +175,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'south-cumminsville': {
     intro:
-      'Storm damage or a flooded panel in South Cumminsville? We repair both in the Mill Creek valley and coordinate the reconnect. Call (513) 586-5107.',
+      'Fewer trees line South Cumminsville’s industrial corridors, so limb strikes are less common here than on the hillsides above. Valley water is the bigger storm risk. We repair flooded panels and damaged meter bases and coordinate the reconnect. Call (513) 586-5107.',
     relevance: [
       'South Cumminsville (ZIP 45225) is a small west-side neighborhood down in the Mill Creek valley, with older homes set among industrial corridors. Being surrounded by industry rather than more housing has an odd effect on storm outages: the circuits through here often serve commercial and industrial premises as well as homes, and the poles run along corridors rather than tree-lined residential streets. Less canopy means fewer limb strikes than the hillside neighborhoods above, but the valley brings its own problem.',
       'That problem is water. Low ground means basements take water in the same storms that bring wind, and the panel is nearly always in the basement. Submerged electrical equipment is replaced rather than dried out — water gets behind the bus bars and into the breakers and keeps corroding long after the surface dries — and an inspector will check for exactly that before Duke reconnects. On these streets we look at the panel as a matter of course, not only the entrance outside.',
@@ -192,7 +192,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'english-woods': {
     intro:
-      'Storm damage at the service on your English Woods home? We repair masts, meter bases, and panels on the hilltop above the valley. Call (513) 586-5107.',
+      'Newer homes in English Woods are mostly fed underground and have no mast to lose, while the older housing is still overhead. After a storm, which kind you live in decides the repair. We fix both on the hilltop above the valley. Call (513) 586-5107.',
     relevance: [
       'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, and it has seen substantial redevelopment in recent years. That redevelopment is what makes the storm answer here different from house to house. Newer construction is typically fed underground with a modern panel, and those homes have no mast or weatherhead to lose — when they go dark it is either a genuine utility outage or a fault at the meter or in the panel. What remains of the older housing is overhead, with entrances that may be original.',
       'Being on the hilltop means wind exposure without the shelter the valley gets, so the older overhead services here take the load. The practical advice is the same either way and starts at the window: if the neighbours have lights and you do not, the fault is on your side of the meter and Duke will not reconnect to it until a licensed electrician has repaired it and it has been inspected.',
@@ -209,7 +209,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'north-avondale': {
     intro:
-      'Storm damage to the mast or meter base on your North Avondale home? We repair it, handle the permit and inspection, and coordinate the reconnect. Call (513) 586-5107.',
+      'Grand North Avondale houses sit well back on large lots, so their service drops run long spans under mature specimen trees, the riskiest setup there is in a storm. We repair the damaged mast or meter base and coordinate the reconnect near Rockdale Avenue. Call (513) 586-5107.',
     relevance: [
       'North Avondale (ZIP 45229) is a leafy historic neighborhood of grand early-1900s houses on large, tree-shaded lots near Rockdale Avenue, and the size of those lots is the storm factor people underestimate. Houses set well back from the street mean long overhead service drops running across the front garden — and in this neighborhood that garden is full of mature specimen trees. A longer span under heavy canopy is the highest-risk arrangement there is, and it is why damage here tends to be the drop and the mast rather than anything at the pole.',
       'The houses are also tall enough that the entrance sits high on the wall or passes through the roof, which makes the flashing and the seal at the penetration part of the electrical repair rather than a roofer’s afterthought. And what is inside these homes matters: multiple HVAC zones, finished lower levels, and a great deal of equipment on control boards, all of which a surge from a nearby strike goes through at once.',
@@ -226,7 +226,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   millvale: {
     intro:
-      'Storm damage or water at the panel in Millvale? We repair masts, meter bases, and panels in the Mill Creek valley. Call (513) 586-5107.',
+      'Millvale is compact and low, so a storm tends to hit the whole neighborhood at once, and every house being dark does not prove the utility is at fault. Water at the panel is common here. We repair storm-damaged panels, masts and meter bases. Call (513) 586-5107.',
     relevance: [
       'Millvale (ZIP 45225) is a small, compact residential neighborhood on low ground in the Mill Creek valley. Compact and low together mean that when weather affects Millvale it tends to affect the whole of it at once rather than picking off individual houses — the same rain reaches the same basements on the same streets. That is worth knowing because it changes what your neighbours tell you. On a street where everyone has water in the basement, the fact that everyone is also dark does not mean the utility is the problem.',
       'The two have to be separated. If the lines are restored and your house alone stays off, the fault is on your equipment. If your panel stood in water, it is being replaced regardless of what the mast looks like, because water gets behind the bus and into the breakers and corrosion continues after everything appears dry. An inspector checks for that before the meter goes back, so we assess the panel here as standard rather than only what is visible outside.',
@@ -243,7 +243,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'paddock-hills': {
     intro:
-      'Storm-damaged service on your Paddock Hills home? Duke will not reconnect until it is repaired and inspected. Same-day work near Paddock Road. Call (513) 586-5107.',
+      'The Norwood Lateral cuts an open corridor past Paddock Hills, and it channels wind onto the nearest streets. Storm damage to a mast or meter base is more common there than the neighborhood’s size suggests. We repair it near Paddock Road. Call (513) 586-5107.',
     relevance: [
       'Paddock Hills (ZIP 45229) is a small, well-kept residential pocket on the north side near Paddock Road and the Norwood Lateral, with streets of early- and mid-1900s homes. Sitting against a major highway corridor changes the wind picture: the Lateral is an open cut through what is otherwise a sheltered part of the city, and open corridors channel wind rather than breaking it up. Houses on the streets nearest it take more of that than the neighborhood’s size would suggest.',
       'The housing is a mix of early- and mid-1900s, which means services of two different vintages on the same streets — original entrances on the older houses, and mid-century equipment on the rest, much of it still in place and sized for the loads of the time. When a storm damages an already-marginal service, the decision worth making is whether to rebuild it as it was or bring it up to what the house now draws, since the labour, permit, and inspection cost the same either way.',
@@ -260,7 +260,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'spring-grove-village': {
     intro:
-      'Storm damage at the service on your Spring Grove Village home? We repair masts and meter bases beside the Arboretum and handle the inspection. Call (513) 586-5107.',
+      'Homes along the Spring Grove Cemetery and Arboretum boundary sit beside specimen trees that drop limbs on a scale street trees don’t. When a storm brings one down on your service in Spring Grove Village, we repair the mast or meter base and handle the inspection. Call (513) 586-5107.',
     relevance: [
       'Spring Grove Village (ZIP 45232) sits in the Mill Creek valley around Spring Grove Cemetery and Arboretum — one of the largest cemeteries in the country and a genuine arboretum, holding specimen trees far bigger and older than anything on an ordinary residential street. Living beside a collection like that is pleasant for eleven months of the year and a specific hazard in a storm. Mature specimen trees drop limbs on a scale that street trees do not, and the properties along the boundary carry that exposure.',
       'The valley adds the second problem underneath. Low ground means basements take water in the same storms, and panels are usually in basements, and submerged electrical equipment gets replaced rather than dried out. So on the streets nearest the Arboretum we expect to look at two things: what a large limb did to the service entrance above, and what the water did to the panel below.',
@@ -277,7 +277,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   linwood: {
     intro:
-      'Storm damage at the service on your Linwood home? Open river bottomland brings wind and water together. We repair both. Call (513) 586-5107.',
+      'Storm damage in Linwood is often quiet: wind across the open river bottomland near Lunken loosens fixings and pulls a mast out of plumb without snapping anything. We find and repair it, along with water damage in low panels. Call (513) 586-5107.',
     relevance: [
       'Linwood (ZIP 45226) is one of Cincinnati’s smaller east-side neighborhoods, along Eastern Avenue near Lunken Airport and the river bottoms. That setting is unusual for the city — flat, open bottomland rather than hillside or dense grid — and it produces a different kind of storm damage. There is little canopy and little shelter, so wind arrives across open ground and works on the equipment itself: fixings loosened, a mast pulled out of plumb, a weatherhead no longer sitting square. Nothing dramatic to photograph, and enough to stop Duke reconnecting.',
       'The bottomland is the other half. Low, flat ground next to the river means water, and the panel is usually in the lowest part of the house. Those two failure modes have different remedies — a mast is rebuilt and inspected, a submerged panel is replaced — and on these streets it is common to have one of each from the same storm. We look at both rather than fixing the visible problem and returning for the other.',
@@ -294,7 +294,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'bond-hill': {
     intro:
-      'Storm-damaged mast or meter base in Bond Hill? We repair it, pull the permit, and coordinate the Duke reconnect along Reading Road. Call (513) 586-5107.',
+      'Many Bond Hill services were already replaced once, in the 1960s or 70s, and those upgrades are now at the end of their life. They are what storms damage today. We repair or replace the service along Reading Road and coordinate the Duke reconnect. Call (513) 586-5107.',
     relevance: [
       'Bond Hill (ZIP 45237) is an established north-side neighborhood along Reading Road, with streets of early-1900s and mid-century single-family homes. There is a pattern here worth naming, because it catches people out. A great many services in Bond Hill are not original — they were upgraded once, in the 1960s or 70s, when the houses were modernised. That felt like a permanent fix at the time. Fifty years on, those replacement services are themselves at the end of their life, and they are what storms are now damaging.',
       'It matters because homeowners reasonably believe the service has already been dealt with. What is actually on the wall is second-generation equipment, decades old, sized for the loads of its own era rather than the original one or today’s. When a limb damages it, rebuilding it exactly as it is means fitting equipment that was already near the end of its useful life. We will price both options and explain which parts are genuinely worn rather than only broken.',
@@ -311,7 +311,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'villages-of-roll-hill': {
     intro:
-      'Storm damage to the electrical service at Villages of Roll Hill? The service equipment is the property’s, not any resident’s. We deal with management. Call (513) 586-5107.',
+      'At Villages of Roll Hill, the service entrances and meter banks belong to the property, not to residents, so storm repair has to be authorised by management. Residents should report the outage there first. We do the repair once management calls. Call (513) 586-5107.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. That is the whole of the practical picture after a storm: essentially none of the electrical service equipment here belongs to a resident. The service entrances, the meter banks, and the distribution feeding each building are the property’s, so the repair is authorised and paid for by management, and a resident calling an electrician directly cannot get it started.',
       'What residents can usefully do is report it accurately and quickly. Whether one building is out or several, and whether the street lights are on, are the details that tell management and us whether this is a utility restoration or damage to the property’s own equipment. Where it is the latter, a single point of contact for the whole site is far faster than several separate calls — one permit, one inspection, one Duke visit rather than three of each.',
@@ -328,7 +328,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'east-westwood': {
     intro:
-      'Only your East Westwood house is dark after the storm? That points at your own mast or meter base. Same-day repair on the slopes. Call (513) 586-5107.',
+      'Service drops on East Westwood’s slopes often run across the grade, under more tension than on flat ground, so anything landing on the line loads the mast hard. If storm damage left your house dark while neighbours have power, we repair it. Call (513) 586-5107.',
     relevance: [
       'East Westwood (ZIP 45211) sits on the slopes between Westwood above and the Mill Creek valley below, in streets of early- and mid-1900s homes. Being mid-slope rather than on a hilltop or a valley floor is its own condition. Service drops here frequently run across the grade rather than along it, so the span between pole and house is at an angle and under more tension than the same length on flat ground — which puts extra load on the mast whenever anything lands on the line.',
       'The slope also means the neighborhood does not share one restoration fate. Streets higher up can come back at a different time from streets lower down, so what the house at the top of the hill tells you may not apply to you. Judge it by the two houses either side: if they have lights and you do not, the remaining fault is on your own equipment and Duke will not reconnect to it until a licensed electrician has repaired it and it has been inspected.',

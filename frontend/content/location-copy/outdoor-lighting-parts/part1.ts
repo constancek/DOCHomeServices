@@ -1,6 +1,6 @@
 export const part1: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'sedamsville': {
-    intro: 'Lighting a hillside yard in Sedamsville? Our licensed electricians design outdoor lighting that makes the steps and paths safe after dark — weather-rated fixtures, code-compliant wiring, and even, glare-free light for homes along River Road and the slope above it. Call (513) 586-5107.',
+    intro: 'Lighting a hillside yard in Sedamsville? Our licensed electricians design outdoor lighting that makes the steps and paths safe after dark. Weather-rated fixtures, code-compliant wiring, and even, glare-free light for homes along River Road and the slope above it. Call (513) 586-5107.',
     relevance: [
       'Sedamsville (ZIP 45204) is a historic riverside neighborhood on Cincinnati’s west side, with homes built into the hillside above River Road. Sloped lots mean stairs and walkways that are easy to misjudge at night, so path and step lighting is usually the first priority here.',
       'The neighborhood’s late-1800s and early-1900s houses have architectural detail worth accenting, and many sit on lots with mature trees. We use outdoor-rated wiring and sealed fittings so uplights and path lights stand up to the river-valley weather year-round.',

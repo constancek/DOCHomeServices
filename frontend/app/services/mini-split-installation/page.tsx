@@ -390,7 +390,7 @@ export default function MiniSplitInstallationPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="mini-split-installation" />
     </>
   );
 }

@@ -295,7 +295,7 @@ export default function GasLinePage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="gas-line-repair-replacement" />
     </>
   );
 }

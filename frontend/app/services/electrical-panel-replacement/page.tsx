@@ -110,7 +110,7 @@ export default function ElectricalPanelReplacementPage() {
       </section>
 
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Any Electrical Service">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/panel-hero.webp)' }}
@@ -312,7 +312,7 @@ export default function ElectricalPanelReplacementPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="electrical-panel-replacement" />
     </>
   );
 }

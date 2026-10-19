@@ -160,7 +160,7 @@ export default function ElectricalInspectionsPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Any Electrical Service">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/inspect-hero.webp)' }}
@@ -427,7 +427,7 @@ export default function ElectricalInspectionsPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="electrical-inspections" />
     </>
   );
 }

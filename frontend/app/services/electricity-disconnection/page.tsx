@@ -158,7 +158,7 @@ export default function ElectricityDisconnectionPage() {
       </section>
 
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Any Electrical Service">
           <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/panel-hero.webp)' }} role="img" aria-label="Residential electric meter and service equipment" />
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
             Your Power Is Off. Here Is What Happens Next.
@@ -408,7 +408,7 @@ export default function ElectricityDisconnectionPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="electricity-disconnection" />
     </>
   );
 }

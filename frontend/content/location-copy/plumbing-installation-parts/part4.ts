@@ -72,7 +72,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Will whole-home filtration help with hard water in Cherry Grove?', a: 'It can — a softener or filtration system protects new fixtures and water heaters from the scaling that shortens their life in Cherry Grove homes. We size and install it to code.' }],
   },
   'kenwood': {
-    intro: 'Upgrading plumbing in a Kenwood home — new water heater, fixtures, or whole-home filtration? We install leak-free and to code around Kenwood Towne Centre. Call (513) 586-5107.',
+    intro: 'Upgrading plumbing in a Kenwood home: new water heater, fixtures, or whole-home filtration? We install leak-free and to code around Kenwood Towne Centre. Call (513) 586-5107.',
     relevance: [
       'Kenwood (ZIP 45236) is an upscale, unincorporated east-side community around Kenwood Towne Centre, with mid-century homes alongside newer, larger houses. The larger homes carry more fixtures, multiple bathrooms, and bigger water-heating demand, so installs here run from second tanks to whole-home filtration.',
       'The mid-century Kenwood homes face the usual end-of-life water heater and dated-fixture replacements, while the larger and newer houses often want softening or filtration to protect that investment from hard water. We size every install to the home and bring the connections to code so they are leak-free, with an estimate.',
@@ -135,7 +135,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Will a water softener help in my Northbrook home?', a: 'If your Northbrook fixtures and water heater scale up fast, a softener protects them and extends their life. We size and install it to code.' }],
   },
   'indian-hill': {
-    intro: 'Upgrading plumbing on an Indian Hill estate — new water heaters, multiple bathrooms, or whole-home filtration? We install leak-free and to code across this east-side village, with an estimate. Call (513) 586-5107.',
+    intro: 'Upgrading plumbing on an Indian Hill estate: new water heaters, multiple bathrooms, or whole-home filtration? We install leak-free and to code across this east-side village, with an estimate. Call (513) 586-5107.',
     relevance: [
       'Indian Hill (ZIP 45243) is an affluent east-side village known for large estates and homes on multi-acre, wooded lots, many set well back from the road. Big properties mean long water and sewer runs and large plumbing systems, so installs here often involve multiple bathrooms, second water heaters, and whole-home filtration sized to real demand.',
       'Some Indian Hill homes also rely on private wells, where filtration and softening matter even more for protecting fixtures and appliances. We size and install heaters, fixtures, and treatment systems to handle the long runs and high demand on these properties, bringing every connection to code so it is leak-free.',

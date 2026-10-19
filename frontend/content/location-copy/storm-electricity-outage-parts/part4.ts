@@ -6,7 +6,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part4: Record<string, LocationServiceCopy> = {
   wyoming: {
     intro:
-      'Storm damage to the service on your Wyoming home? Duke restores the line and stops at the meter. We repair the mast, weatherhead, and meter base the same day. Call (513) 586-5107.',
+      'On Wyoming’s three-storey Victorians the service mast often runs up through the roof, so a storm limb that bends it leaves a way in for water too. We repair the mast and the roof penetration, then coordinate the Duke reconnect. Call (513) 586-5107.',
     relevance: [
       'Wyoming (ZIP 45215) is a historic suburb north of the city, built out in grand Victorian and early-1900s houses on established, tree-shaded streets. Those houses are tall, and on a three-storey Victorian the service mast frequently runs up through the roof rather than stopping at a wall — which changes what storm damage costs you. When a limb bends a mast at the roof penetration, you do not just have an electrical problem. You have a hole in the roof with a bent pipe in it, and water will find it before anyone gets to the wiring.',
       'That is why we treat the roof penetration as part of the electrical repair rather than someone else’s problem. The mast gets replaced, the flashing and the seal at the roof get done properly, and the whole thing gets inspected. Doing the electrical half and leaving the roof to a second trade is how a storm repair turns into a ceiling stain in the winter. Wyoming is also its own city, so the permit and inspection go through Wyoming rather than the county.',
@@ -23,7 +23,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   mariemont: {
     intro:
-      'Storm damage at the service on your Mariemont home? We repair masts and meter bases with the village’s historic requirements in mind, then handle the inspection. Call (513) 586-5107.',
+      'Every Mariemont house sits inside a National Historic Landmark village, so a storm-damaged service has to pass inspection and still look the way the village requires. We repair masts and meter bases on these Tudor Revival homes with that in mind. Call (513) 586-5107.',
     relevance: [
       'Mariemont (ZIP 45227) is a planned garden community laid out in the 1920s and now a National Historic Landmark, and that designation covers the village rather than a single downtown block. It is the strictest setting we work in around Cincinnati. A service mast, its conduit, and the meter box are all visible exterior, so on a Tudor Revival house in Mariemont the question is not only whether the repair is safe and code-compliant but whether it looks the way the village requires.',
       'The architecture adds its own difficulty. Tudor Revival means steep roof pitches, half-timbering, and stucco or brick walls — none of which take a service mast the way a flat clapboard wall does. Anchoring into that properly, and sealing where the conduit meets it, is slower and needs more care than the same job on a post-war house. We plan the fixings and the route before starting, and we would rather raise a design constraint at the estimate than discover it with the wall open.',
@@ -40,7 +40,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   cheviot: {
     intro:
-      'Storm damage to your service in Cheviot? Cheviot is its own city with its own permits and inspector. We handle that and coordinate the Duke reconnect. Call (513) 586-5107.',
+      'Cheviot runs its own permits and inspections, and on its brick two-families the meter bank often sits in a side gap barely wide enough to stand in. We handle the paperwork and the tight repair after storm damage, then coordinate the Duke reconnect. Call (513) 586-5107.',
     relevance: [
       'Cheviot (ZIP 45211) is a small, densely built city on the west side along Harrison Avenue, completely surrounded by Cincinnati, in a grid of early-1900s homes and brick two-families. The practical constraint here is space. On these lots the gap between one house and the next is often barely wide enough to stand in, and that is exactly where the meter bank and the service entrance sit on a brick two-family. Storm damage in a gap that narrow is awkward to assess and awkward to repair, and it is one reason we look at access before quoting a date.',
       'Being its own city also means the permit and the inspection go through Cheviot rather than Cincinnati, on Cheviot’s own schedule. Electricians who work mostly in the city sometimes file with the wrong authority out of habit and lose a day finding out. After a storm that hit the whole region, a smaller municipal queue can also work in your favour, provided the paperwork went to the right place first time.',
@@ -57,7 +57,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   covedale: {
     intro:
-      'Storm-damaged mast or meter base in Covedale? We repair it, file with the right authority for your address, and coordinate the reconnect. Call (513) 586-5107.',
+      'The Cincinnati and Green Township line runs right through Covedale, and the permit for a storm repair follows your address. We confirm which authority you answer to, repair the damaged mast or meter base, and coordinate the reconnect. Call (513) 586-5107.',
     relevance: [
       'Covedale (ZIP 45238) sits on the western edge of the city along Glenway and Cleves Warsaw, right where Cincinnati meets Green Township — and that boundary runs through the neighborhood rather than around it. For a storm repair it is the first thing we establish, because the permit and the inspection follow the address. Two houses a few hundred feet apart on the same road can answer to different authorities, and filing with the wrong one does not fail the inspection so much as delay it entirely while the paperwork is redone.',
       'The housing itself is early-1900s through mid-century single-family, so the services range from original entrances well past their intended life to mid-century equipment sized for mid-century loads. The trees planted with those streets are now over the drops. None of that is unusual for the west side; what is specific to Covedale is checking which side of the line you are on before anything is filed.',
@@ -74,7 +74,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   covington: {
     intro:
-      'Storm damage to your service in Covington? Northern Kentucky is Duke Energy Kentucky, not Ohio. We repair the mast or meter base and coordinate the reconnect. Call (513) 586-5107.',
+      'Covington is on Duke Energy Kentucky, a separate company from Duke Energy Ohio with its own crews and schedule. For storm damage to your mast or meter base, we do the repair on your side of the meter and coordinate the reconnect. Call (513) 586-5107.',
     relevance: [
       'Covington (ZIP 41011) sits directly across the Ohio River from downtown Cincinnati, with historic districts like MainStrasse Village and Licking Riverside full of 19th-century rowhouses and brick homes. The first thing worth knowing here has nothing to do with the houses: Northern Kentucky is served by Duke Energy Kentucky, a separate entity from Duke Energy Ohio, with its own crews and its own scheduling, and the regulator is the Kentucky Public Service Commission rather than Ohio’s PUCO. If you have read Ohio-focused advice about outages, some of the process details do not carry across the river.',
       'What does carry across is the ownership split, which works the same way: Duke owns the line and the meter, you own the mast, the weatherhead, the cable, and the meter box. Covington adds two rivers to the problem. Sitting low near both the Ohio and the Licking, storms that bring high water as well as wind put water into basements where panels live, and submerged electrical equipment is replaced rather than dried out. On a rowhouse the entrance is often on a party wall, so one repair frequently covers more than one household.',
@@ -91,7 +91,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   newport: {
     intro:
-      'Storm damage to the service on your Newport home? We repair masts and meter banks in the East Row and along the riverfront, and handle the inspection. Call (513) 586-5107.',
+      'Newport’s East Row Victorians stand shoulder to shoulder, so storm damage to one service entrance on a shared wall can take more than one household dark. We repair masts and meter banks there and along the riverfront, and handle the inspection. Call (513) 586-5107.',
     relevance: [
       'Newport (ZIP 41071) holds the East Row Historic District, one of the largest Victorian historic districts in Kentucky — hundreds of 19th-century houses standing shoulder to shoulder. That form decides how storm damage behaves. Where houses share party walls, service entrances are commonly mounted on those shared walls or fed from the rear, several meters sit together, and there is no side yard to work from. One damaged entrance takes more than one household dark, and the repair belongs to whoever owns that wall rather than to whoever noticed first.',
       'A district of that size also means a lot of protected exterior. The mast, its conduit, and the meter box are all visible, so a repair that would pass anywhere else can still be the wrong answer on an East Row street. We plan the route and the fixings with that in mind. And as everywhere in Northern Kentucky, the utility here is Duke Energy Kentucky rather than Duke Energy Ohio, with its own crews and its own restoration schedule.',
@@ -108,7 +108,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   bellevue: {
     intro:
-      'Street back on but your Bellevue home still dark? That is your own mast or meter base. We work the streets off Fairfield Avenue the same day. Call (513) 586-5107.',
+      'Short overhead spans make outright mast destruction less common in Bellevue, but water in a low basement panel is more common after a storm. We repair either problem in the close-set streets off Fairfield Avenue. Call (513) 586-5107.',
     relevance: [
       'Bellevue (ZIP 41073) is a compact river city with a historic Fairfield Avenue business district and tight streets of well-preserved late-1800s houses. Compact is the operative word. The lots are narrow, the houses are close, and the whole city sits low against the Ohio — which produces a particular combination after a storm. The overhead spans between poles and houses are short, so outright mast destruction is less common here than in the wide-lot suburbs, but water in low basements is far more common, and that is where the panel usually is.',
       'The two problems have different rules and it is worth knowing which you have. A bent mast is rebuilt and inspected. A panel that has stood in water is replaced, because water gets behind the bus and into the breakers and keeps corroding long after the surface dries. An inspector will check for exactly that before Duke Energy Kentucky reconnects, so on the low streets we look at both ends of the system in one visit rather than repairing above and discovering below.',
@@ -125,7 +125,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   'fort-thomas': {
     intro:
-      'Storm damage to the mast or meter base on your Fort Thomas home? We repair it, handle the inspection, and coordinate the reconnect above the river. Call (513) 586-5107.',
+      'Some of the largest trees in Northern Kentucky grow around the old Army post in Fort Thomas, and wind crosses the valley unbroken to reach the bluff. When storm damage takes out your mast or meter base, we repair it and coordinate the reconnect. Call (513) 586-5107.',
     relevance: [
       'Fort Thomas (ZIP 41075) grew up around a former U.S. Army post, and the trees planted on and around that reservation more than a century ago are now some of the largest in Northern Kentucky. Combine that canopy with the city’s position on the bluff above the Ohio, where the wind comes across the valley unbroken, and you have the two conditions that produce storm damage to service equipment: big limbs directly overhead and enough wind to bring them down.',
       'The houses are stately early-1900s homes on tree-lined streets, tall enough that the service entrance sits high on the wall and sometimes through the roof. That makes the repair a proper job rather than a ladder-and-an-hour, and it makes the roof penetration part of the electrical work — flashing and sealing included, because a mast replaced without them is a leak waiting for the winter. As throughout Northern Kentucky, the utility is Duke Energy Kentucky.',
@@ -142,7 +142,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   florence: {
     intro:
-      'Storm-damaged service on your Florence home? Duke Energy Kentucky restores the line, then a licensed electrician repairs your equipment before they reconnect. Call (513) 586-5107.',
+      'Florence houses a mile apart can have opposite storm outcomes: an older overhead entrance loses its mast, while a newer underground-fed home only goes dark when the utility does. We repair the storm damage on whichever you have and work with Duke Energy Kentucky. Call (513) 586-5107.',
     relevance: [
       'Florence (ZIP 41042) is the largest city in Boone County and among the fastest-growing in Northern Kentucky, which means the housing spans a wider range of service ages than almost anywhere we work — mid-century neighborhoods with original overhead entrances alongside subdivisions built recently enough to be fed underground. Two houses a mile apart can have entirely different storm outcomes: one loses a mast to a limb, the other has no mast at all and only ever loses power when the utility does.',
       'Florence being in Boone County matters for the paperwork. Permits and inspections here do not go through Kenton County or through any Ohio authority, and the utility is Duke Energy Kentucky rather than Duke Energy Ohio. Growth also means the city is large enough that restoration happens in sections after a big storm, so the neighborhood being back on tells you less than the two houses either side of you do.',
@@ -159,7 +159,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   erlanger: {
     intro:
-      'Storm damage at the service on your Erlanger home? We repair masts, meter bases, and panels across Kenton County and handle the inspection. Call (513) 586-5107.',
+      'Out on Erlanger’s flat, open ground near the airport, storm damage usually comes from wind working on a sixty-year-old mast, not a falling limb. Loose fixings and a weatherhead pulled out of true are easy to miss, and we repair them. Call (513) 586-5107.',
     relevance: [
       'Erlanger (ZIP 41018) sits near the airport in Kenton County, in settled mid-century neighborhoods, and the terrain here is noticeably flatter and more open than the river cities to the north. That changes the damage we see. In the wooded bluff neighborhoods the usual culprit is a limb landing on a drop. Out on this open ground it is more often the wind itself — sustained gusts working on a mast that has been in place sixty years, loosening fixings and pulling a weatherhead out of true rather than snapping anything outright.',
       'That kind of damage is easy to miss, which is the practical point. There is no dramatic broken pipe to photograph; there is a mast standing slightly wrong and a weatherhead no longer shedding water the way it should. It still means Duke Energy Kentucky will not reconnect, and it still needs a licensed repair and an inspection. If your power is out and nothing looks obviously destroyed, that is worth a proper look rather than an assumption that the utility will sort it.',

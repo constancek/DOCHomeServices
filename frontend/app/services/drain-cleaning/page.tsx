@@ -308,7 +308,7 @@ export default function DrainCleaningPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="drain-cleaning" />
     </>
   );
 }

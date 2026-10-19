@@ -401,7 +401,7 @@ export default function TanklessPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="tankless-water-heater" />
     </>
   );
 }

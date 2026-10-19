@@ -307,7 +307,7 @@ export default function BasementFloodPlumbingPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="basement-flood-plumbing" />
     </>
   );
 }

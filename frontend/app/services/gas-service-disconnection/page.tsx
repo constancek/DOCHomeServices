@@ -393,7 +393,7 @@ export default function GasServiceDisconnectionPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="gas-service-disconnection" />
     </>
   );
 }

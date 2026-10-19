@@ -1,7 +1,7 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
     intro:
-      'Gas line trouble in Villages of Roll Hill — a leak you can smell, a corroded connection, or a new line for a range or water heater? Our licensed plumbers handle gas line repair, replacement, and new installation across this west-side hilltop community, every line pressure-tested and left code-compliant. Call (513) 586-5107.',
+      'Gas line trouble in Villages of Roll Hill: a leak you can smell, a corroded connection, or a new line for a range or water heater? Our licensed plumbers handle gas line repair, replacement, and new installation across this west-side hilltop community, every line pressure-tested and left code-compliant. Call (513) 586-5107.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop residential community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. In densely built multi-unit housing, gas lines are often shared through walls and basements, so a leak or a corroded fitting in one building can put several units at risk at once. That is why we shut down, isolate, and test the affected run before anyone’s gas comes back on.',
       'The age of these buildings matters for gas work as much as for water. Older steel supply lines and aging threaded connections loosen and corrode over decades, and a service line feeding a row of units gets worked hard. When we repair or replace a line here, we pressure-test the whole run and leave it code-compliant rather than patching a single joint and hoping the next one holds.',
@@ -49,7 +49,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'california': {
     intro:
-      'Gas line problem in the California neighborhood — a leak, a corroded line, or a new line for a generator or water heater? Our licensed plumbers cover the riverfront homes along Kellogg Avenue, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
+      'Gas line problem in the California neighborhood: a leak, a corroded line, or a new line for a generator or water heater? Our licensed plumbers cover the riverfront homes along Kellogg Avenue, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
     relevance: [
       'California (ZIP 45230) is Cincinnati’s far-east riverfront neighborhood along Kellogg Avenue, near Riverbend and the old Coney Island grounds, set on low ground beside the Ohio River. That low, damp ground beside the river is hard on buried gas lines: persistent moisture and shifting soil accelerate corrosion on steel service lines and stress the connections where a line enters the house. We find and repair those leaks, then pressure-test the run.',
       'High water is part of life here, and homes on this kind of riverfront ground sometimes add a standby generator that needs a dedicated gas line. We size and run those lines properly and test them, and we treat any line on low ground near the river with extra care, since damp soil and settling are exactly what loosen aging gas connections over time. Every repair or new line is left code-compliant.',
@@ -81,7 +81,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'winton-hills': {
     intro:
-      'Gas line trouble in Winton Hills — a leak, a corroded line, or a new appliance line? Our licensed plumbers serve this north-side neighborhood near Winton Road, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
+      'Gas line trouble in Winton Hills: a leak, a corroded line, or a new appliance line? Our licensed plumbers serve this north-side neighborhood near Winton Road, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
     relevance: [
       'Winton Hills (ZIP 45232) is a north-side neighborhood near Winton Road, with a mix of residential and industrial areas including multi-unit housing. In densely built multi-unit homes, gas lines run through shared walls and basements, so a corroded fitting or a leak in one unit needs to be isolated and tested before gas comes back on for the neighbors. We shut down the affected run, repair it, and pressure-test it.',
       'The mix of older buildings here means a mix of older gas piping. Steel lines that have served apartments and homes for decades thin and corrode at their joints, and the heavier wear in multi-unit housing only speeds that along. When we replace a line in Winton Hills, we size it for the load and leave it code-compliant, rather than re-using pipe that is already at the end of its life.',
@@ -113,7 +113,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-airy': {
     intro:
-      'Gas line trouble in Mount Airy — a leak, a corroded buried line, or a new line for a range or fireplace? Our licensed plumbers serve the homes near Mount Airy Forest, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
+      'Gas line trouble in Mount Airy: a leak, a corroded buried line, or a new line for a range or fireplace? Our licensed plumbers serve the homes near Mount Airy Forest, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
     relevance: [
       'Mount Airy (ZIP 45239) is a northwest-side neighborhood beside Mount Airy Forest, one of the largest city parks in the country, with mid-century single-family homes on hilly, wooded streets. The wooded lots that make this area pleasant are also a real hazard for buried gas lines: mature tree roots reach for any line in the ground and can press on or shift an underground service line over the years. We trace and repair the damaged section, then test it.',
       'These mid-century homes were piped in steel that is now decades old, and the hilltop terrain adds settling and runoff that stress the connections where a line enters the house. Many of these ranches are also gaining gas appliances — a fireplace insert, a new range — that need a properly sized line. Whether repairing a corroded line or running a new one, we pressure-test it and leave it code-compliant.',
@@ -145,7 +145,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'kennedy-heights': {
     intro:
-      'Gas line trouble in Kennedy Heights — a leak, a corroded line, or a new appliance line? Our licensed plumbers serve this historic east-side hilltop neighborhood, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
+      'Gas line trouble in Kennedy Heights: a leak, a corroded line, or a new appliance line? Our licensed plumbers serve this historic east-side hilltop neighborhood, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
     relevance: [
       'Kennedy Heights (ZIP 45213) is a historic east-side hilltop neighborhood that began as a Victorian-era resort community, now known for its arts center and large early-1900s homes. The age of those homes means original steel gas piping is common, and a century of expansion and contraction loosens threaded connections and corrodes the steel from within. A faint gas smell near an old furnace or range is usually one of those aging joints.',
       'Large early-1900s homes carry more piping and more appliances than a small house, so there are more connections to age and more chances for a hidden leak. The hilltop setting adds settling that stresses where a buried line enters the house. When we repair or replace a line in Kennedy Heights, we pressure-test the whole affected run and leave it code-compliant.',
@@ -177,7 +177,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'elmwood-place': {
     intro:
-      'Gas line trouble in Elmwood Place — a leak, a corroded line, or a new appliance line? Our licensed plumbers serve this small inner-ring village in the Mill Creek valley, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
+      'Gas line trouble in Elmwood Place: a leak, a corroded line, or a new appliance line? Our licensed plumbers serve this small inner-ring village in the Mill Creek valley, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
     relevance: [
       'Elmwood Place (ZIP 45216) is a tiny, densely built village in the Mill Creek valley north of the city, with closely spaced early-1900s homes. On the low valley ground here, persistent moisture in the soil is hard on buried steel gas lines, accelerating corrosion on a service line and the connection where it enters the house. We find and repair those leaks, then pressure-test the run before restoring gas.',
       'With homes packed closely together on small lots, a gas concern in one early-1900s house is worth attending to quickly, and the century-old steel piping inside corrodes at its threaded joints over the decades. When we replace a line in Elmwood Place, we size it properly, pressure-test it, and leave it code-compliant rather than re-using brittle old pipe.',
@@ -209,7 +209,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'golf-manor': {
     intro:
-      'Gas line trouble in Golf Manor — a leak, a corroded line, or a new appliance line? Our licensed plumbers serve this small inner-ring village, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
+      'Gas line trouble in Golf Manor: a leak, a corroded line, or a new appliance line? Our licensed plumbers serve this small inner-ring village, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
     relevance: [
       'Golf Manor (ZIP 45237) is a small village completely surrounded by Cincinnati on the north side, with a compact grid of modest mid-century homes. Homes of that era are now at the age where the original steel gas piping corrodes at its joints and the connections feeding a furnace or water heater loosen with years of heat and expansion. Those aging joints are the slow leaks we are most often called to track down.',
       'On the compact lots here, these modest ranches and bungalows were rarely piped for more than the appliances they were built with, so adding a gas range or dryer means a new, properly sized line rather than overloading the old run. Being surrounded by Cincinnati makes Golf Manor a quick reach for us. Every repair or new line is pressure-tested and left code-compliant.',
@@ -241,7 +241,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mack': {
     intro:
-      'Gas line trouble in Mack — a leak, a corroded line, or a new line for a range or generator? Our licensed plumbers serve this west-side Green Township community, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
+      'Gas line trouble in Mack: a leak, a corroded line, or a new line for a range or generator? Our licensed plumbers serve this west-side Green Township community, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
     relevance: [
       'Mack (ZIP 45248) is an established community in Green Township on the west side, with neighborhoods of mid-century and newer single-family homes. Even the newer homes here are now old enough for gas connections and appliance lines to age, while the mid-century houses see the corrosion typical of decades-old steel piping. The connections feeding a furnace, range, or water heater are usually where a slow leak begins.',
       'A lot of homeowners in Mack add gas appliances over time — a range, a dryer, a standby generator — and a line that was sized for a 1960s house often was not built for the added load. We size and run new lines properly rather than tapping an already-loaded run, and whether we are repairing a corroded line or installing a new one, we pressure-test it and leave it code-compliant.',
@@ -273,7 +273,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bridgetown': {
     intro:
-      'Gas line trouble in Bridgetown — a leak, a corroded line, or a new appliance line? Our licensed plumbers serve this west-side Green Township community, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
+      'Gas line trouble in Bridgetown: a leak, a corroded line, or a new appliance line? Our licensed plumbers serve this west-side Green Township community, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. Even the newer homes here are now old enough that gas connections and appliance lines have aged, while the mid-century houses carry the corrosion typical of decades-old steel piping. The joints feeding a furnace, range, or water heater are where a slow leak usually starts.',
       'As homeowners in Bridgetown add or replace gas appliances over the years, a line sized for the original house often was not built for the extra load. We size and run new lines properly, and whether we are repairing a corroded connection or running a new line, we pressure-test the work and leave it code-compliant rather than overloading an aging run.',
@@ -305,7 +305,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'amberley': {
     intro:
-      'Gas line trouble in Amberley Village — a hidden leak, a corroded line, or a new line for a generator or fireplace? Our licensed plumbers serve this wooded north-side village, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
+      'Gas line trouble in Amberley Village: a hidden leak, a corroded line, or a new line for a generator or fireplace? Our licensed plumbers serve this wooded north-side village, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
     relevance: [
       'Amberley Village (ZIP 45237) is an affluent north-side village known for its large homes on big, wooded lots along winding streets. Larger homes mean larger gas systems — more piping, more appliances, and more connections that can age and leak. A hidden leak on an aging line in a big house can go unnoticed for a while, which is why finding and repairing it quickly matters here.',
       'The big, wooded lots that give Amberley its character also mean mature tree roots near any buried gas line, and a long run from the meter to a large home leaves more buried pipe exposed to settling soil and root pressure. These homes often add gas appliances — a fireplace, a standby generator — that need a properly sized line. Every repair or new line is pressure-tested and left code-compliant.',
@@ -337,7 +337,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-college-hill': {
     intro:
-      'Gas line trouble in North College Hill — a leak, a corroded line, or a new appliance line? Our licensed plumbers serve this small north-side city, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
+      'Gas line trouble in North College Hill: a leak, a corroded line, or a new appliance line? Our licensed plumbers serve this small north-side city, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
     relevance: [
       'North College Hill (ZIP 45239) is a small, densely built city just north of College Hill, with a grid of early- and mid-1900s homes. That older, tightly packed housing was piped in steel decades ago, and steel gas lines corrode at their threaded joints and thin from the inside long before a leak is obvious. The connections feeding a furnace, range, or water heater are usually the first to go.',
       'On the close-set lots of this grid, homes sit near enough that a gas concern in one is worth fast attention, and decades of small repairs leave older houses with a patchwork of old and newer line. When we repair a leak here, we pressure-test the whole affected run, and any replacement line is sized properly and left code-compliant.',
@@ -353,7 +353,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newtown': {
     intro:
-      'Gas line trouble in Newtown — a leak, a corroded buried line, or a new appliance line? Our licensed plumbers reach this east-side village near the Little Miami River, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
+      'Gas line trouble in Newtown: a leak, a corroded buried line, or a new appliance line? Our licensed plumbers reach this east-side village near the Little Miami River, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
     relevance: [
       'Newtown (ZIP 45244) is a small east-side village near the Little Miami River, with older homes set on low river-bottom ground. That low, damp river-bottom ground is hard on buried gas lines: persistent moisture and shifting soil accelerate corrosion on steel service lines and stress the connection where a line enters the house. We trace and repair those leaks, then pressure-test the run.',
       'The older homes here carry decades-old steel gas piping that corrodes at its threaded joints inside as well, and a standby generator is a common addition for homes on ground that floods. When we run a new line for an appliance or generator, we size and pressure-test it, and any repair or replacement near the river is left code-compliant rather than re-using brittle old pipe.',
@@ -401,7 +401,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lockland': {
     intro:
-      'Gas line trouble in Lockland — a leak, a corroded buried line, or a new appliance line? Our licensed plumbers serve this historic Mill Creek valley village, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
+      'Gas line trouble in Lockland: a leak, a corroded buried line, or a new appliance line? Our licensed plumbers serve this historic Mill Creek valley village, pressure-testing every line and leaving it code-compliant. Call (513) 586-5107.',
     relevance: [
       'Lockland (ZIP 45215) is a historic village in the Mill Creek valley north of the city, built up around mills and industry, with closely spaced older worker housing. On the low valley ground here, persistent moisture in the soil accelerates corrosion on buried steel gas lines and the connection where a line enters the house. We find and repair those leaks, then pressure-test the run.',
       'The old, tightly packed worker homes were piped in steel that is now decades old, and they sit close enough that a gas concern in one warrants fast attention. Steel lines that age corrode at their threaded joints inside as well. When we repair or replace a line in Lockland, we test the whole affected run and leave it code-compliant rather than re-using brittle old pipe.',

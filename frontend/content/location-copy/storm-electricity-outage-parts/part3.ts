@@ -6,7 +6,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part3: Record<string, LocationServiceCopy> = {
   'mount-lookout': {
     intro:
-      'Storm damage to the mast or meter base on your Mount Lookout home? Duke restores the line and stops there. We repair the rest, near Mount Lookout Square and Ault Park. Call (513) 586-5107.',
+      'Service drops on Mount Lookout’s hillside lots span an awkward grade, and the streets backing onto Ault Park sit under heavy canopy. When a storm brings a limb down on yours, we repair the mast or meter base and get you reconnected. Call (513) 586-5107.',
     relevance: [
       'Mount Lookout (ZIP 45226) sits on the east-side hilltop around Mount Lookout Square, with Ault Park on its edge and quiet, genuinely hilly streets running off it. Two features of that terrain shape the storm calls. Ault Park holds a large stand of mature trees right against the residential streets, so the neighborhood carries heavy canopy on its park side rather than only the street trees you would expect. And the hillside lots mean service drops frequently span an awkward grade, running further and at a steeper angle than the same drop on flat ground.',
       'A longer span at an angle puts more load on the mast when anything lands on the line, which is why the damage here tends to be the mast and its mounting rather than the cable. On a sloped lot it also affects how we work: where the pole is uphill or downhill of the house, the reach and the setup change, and we would rather look at that before scheduling than send a crew that cannot get a ladder where it needs to be.',
@@ -23,7 +23,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'columbia-tusculum': {
     intro:
-      'Storm damage at the service on your Columbia-Tusculum home? We repair masts and meter bases on Cincinnati’s oldest streets without wrecking restored trim. Call (513) 586-5107.',
+      'The quick version of a storm mast repair leaves conduit and sealant across restored clapboard, and on a Columbia-Tusculum Painted Lady that is a real loss. We repair storm-damaged services in Cincinnati’s oldest neighborhood without wrecking the trim. Call (513) 586-5107.',
     relevance: [
       'Columbia-Tusculum (ZIP 45226) is the oldest neighborhood in Cincinnati, settled in 1788, and it is known for its Painted Ladies — Victorian houses whose owners have put serious money into restoring the exteriors. That is the thing to understand about a storm repair here. A service mast has to be anchored into a wall, sealed where it passes through, and flashed properly, and the quick version of that job leaves fixings, sealant, and conduit straight across restored clapboard and decorative trim that took someone a fortune to bring back.',
       'So we plan the fixings and the route before we start, use the existing penetrations where they are sound, and reseal in a way that will not be the reason paint starts lifting next summer. The neighborhood also sits low near the Ohio River, which means storms that bring high water as well as wind put water into basements where panels sit — and submerged electrical equipment is replaced rather than dried out, whatever it looks like on the surface.',
@@ -40,7 +40,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'mount-washington': {
     intro:
-      'Street back on but your Mount Washington home still dark? That is your own equipment. We reach the far east side along Beechmont Avenue the same day. Call (513) 586-5107.',
+      'Restoration after a regional storm works outward, so Mount Washington, on the city’s eastern edge, is often reached later than the uptown core. If your street comes back and your house doesn’t, the fault is your own equipment and we repair it. Call (513) 586-5107.',
     relevance: [
       'Mount Washington (ZIP 45230) is a settled far-east-side neighborhood along Beechmont Avenue, built out in single-family homes running from the early 1900s through the mid-century. Its position on the eastern edge of the city has a practical consequence in a regional storm: when weather crosses the whole Tri-State, restoration works outward, and the neighborhoods at the edges are commonly reached later than the uptown core. That is not a complaint about Duke, it is how a large restoration is sequenced — but it means a Mount Washington homeowner can spend an extra day assuming the utility will get to them when the remaining fault is actually on their own mast.',
       'The housing reinforces it. Homes from that era were given electrical services sized for the loads of the time, and plenty here are still on original or first-replacement equipment. A storm that damages an already-marginal service is the moment to decide whether to rebuild it as it was or bring it up to what the house now draws, because the labour, the permit, and the inspection cost the same either way.',
@@ -57,7 +57,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   madisonville: {
     intro:
-      'Storm-damaged mast or meter base in Madisonville? We repair it, pull the permit, and coordinate the reconnect along Madison Road and Whetsel Avenue. Call (513) 586-5107.',
+      'A renovated Madisonville house often has a modern panel inside and the original mast and entrance cable outside. Storms find that old outside part. We repair the storm damage, pull the permit and coordinate the reconnect along Madison Road. Call (513) 586-5107.',
     relevance: [
       'Madisonville (ZIP 45227) has seen steady reinvestment along Madison Road, and that produces a specific situation we run into here more than in most neighborhoods. A great many of these early-1900s houses have been renovated in the last decade or two, and a renovation usually replaces the panel inside while leaving the service entrance outside exactly as it was. The homeowner reasonably believes the electrical system is modern, because the part they can see is. The mast, the weatherhead, and the entrance cable are frequently still the originals.',
       'Storms find that mismatch. The new panel is fine and the hundred-year-old entrance above it is what fails, and Duke will not reconnect to it. The reverse also happens on the newer infill houses mixed into these streets, where there is no mast at all and the fault is at the meter or in the panel. Either way we look at the whole path from the drop to the breakers rather than the one part that was obviously replaced recently.',
@@ -74,7 +74,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'pleasant-ridge': {
     intro:
-      'Storm damage to the service on your Pleasant Ridge home or two-family? We repair masts, entrance cables, and meter banks off Montgomery Road the same day. Call (513) 586-5107.',
+      'Check the back of the house. On Pleasant Ridge’s brick two-families the service usually comes in off the alley, so storm damage there can go unnoticed from the street for most of a day. We repair it and handle the Duke reconnect. Call (513) 586-5107.',
     relevance: [
       'Pleasant Ridge (ZIP 45213) is a walkable neighborhood along Montgomery Road, with tree-lined streets of early-1900s houses and a large number of classic Cincinnati brick two-families. On that two-family form the electrical service commonly comes in at the rear, off the alley, rather than at the front of the house — and that is the detail worth knowing after a storm. Damage to a rear-fed service entrance is invisible from the street and from the sidewalk, so it frequently goes unnoticed for the best part of a day while the owner assumes the outage is the utility’s.',
       'If your lights are out and the neighbours have theirs, it is worth walking round the back and looking up before you call anyone. A meter box hanging away from the wall, a bent length of conduit, or a cable pulled loose at the weatherhead tells you immediately that this is a repair rather than a wait. On a two-family it also tells you the other unit is probably out for the same reason, which is one repair rather than two.',
@@ -91,7 +91,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   westwood: {
     intro:
-      'Only your Westwood house is dark after the storm? Check your immediate neighbours, not the neighborhood. We cover the west side along Harrison Avenue the same day. Call (513) 586-5107.',
+      'Duke restores Westwood in sections because it is Cincinnati’s largest neighborhood by population, so the useful question is whether your immediate neighbours have power. If they do and you don’t, the storm damage is on your equipment, and we repair it. Call (513) 586-5107.',
     relevance: [
       'Westwood (ZIP 45211) is the largest neighborhood in Cincinnati by population, spread right across the west side along Harrison Avenue, from the historic homes near Westwood Town Hall out to street after street of early-1900s and mid-century houses. Its size changes how you should read an outage here. Duke restores an area this large in sections, so it is entirely normal for one part of Westwood to have power back while another part is still waiting — which makes "is Westwood back on?" the wrong question to ask.',
       'The window test still works, but you have to apply it to the houses either side of you rather than to the neighborhood as a whole. If the two homes next door are lit and yours is not, the remaining fault is on your own equipment and no amount of waiting will fix it. If your whole block is dark, it is still a utility restoration and your section has not been reached yet. Getting that right is the difference between calling an electrician today and calling one in three days.',
@@ -108,7 +108,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   norwood: {
     intro:
-      'Storm damage to your service in Norwood? Norwood is its own city with its own permits and inspector — we handle that, and coordinate the Duke reconnect. Call (513) 586-5107.',
+      'Norwood is its own city, so a storm repair here needs a Norwood permit and the Norwood inspector, not Cincinnati’s. We file with the right office, repair the mast or meter base and coordinate the Duke reconnect. Call (513) 586-5107.',
     relevance: [
       'Norwood (ZIP 45212) is its own city, completely surrounded by Cincinnati, and after a storm that separateness is the single most practical thing to know. Electrical permits and inspections here go through Norwood, not through Cincinnati, and the two do not share a queue or a schedule. An electrician who works mostly downtown and files the paperwork out of habit can lose you a day finding that out. We pull Norwood permits and deal with the Norwood inspector, and after a regional storm the smaller queue can genuinely work in your favour.',
       'The housing is dense early-1900s homes and brick two-families on small lots, laid out when this was a streetcar and factory town. Tight spacing means one tree reaches several roofs, and rear-fed services on narrow lots leave little room to work. Where a two-family runs several meters from one entrance, one repair covers both households — worth establishing early, because it decides who authorises the work and how the cost falls.',
@@ -125,7 +125,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'blue-ash': {
     intro:
-      'Storm damage at the mast or meter base in Blue Ash? We repair it, handle the city permit and inspection, and coordinate the Duke reconnect. Call (513) 586-5107.',
+      'Wide Blue Ash lots mean longer service drops, and the mid-century street trees above them are now full height. That is why storm damage here hits single houses rather than whole blocks. We repair the mast or meter base and handle the city inspection. Call (513) 586-5107.',
     relevance: [
       'Blue Ash (ZIP 45242) is a northeast-side city of established mid-century neighborhoods alongside newer subdivisions, on lots noticeably wider than the city grid closer in. Wide lots mean longer service drops — more span between the pole and the house, and more span for a falling limb to catch. The trees planted when those mid-century streets went in are now at full height directly over those runs, which is why the storm damage here clusters on individual houses rather than whole blocks.',
       'The newer subdivisions behave differently. A lot of recent building in Blue Ash was done with underground service, and those houses have no mast or weatherhead to lose. When they go dark in a storm it is either a genuine utility outage or a fault at the meter or in the panel, and Duke schedules underground work with more lead time than overhead. Permits and inspections here go through Blue Ash rather than Hamilton County or the city, which is one more reason to have someone who has done it before.',
@@ -142,7 +142,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   montgomery: {
     intro:
-      'Storm damage to the service on your Montgomery home? We repair masts and meter bases, including in the historic district where the exterior matters. Call (513) 586-5107.',
+      'Inside Montgomery’s historic district, the mast, conduit and meter box all count as visible exterior, so a storm repair should replace like for like in the same position. We repair storm damage in the district and on the newer streets around it. Call (513) 586-5107.',
     relevance: [
       'Montgomery (ZIP 45242) has a preserved historic district of 19th-century buildings at its core, with established and newer neighborhoods around it. That historic designation is worth raising before work starts rather than after, because in a designated district the visible exterior is regulated — and a service mast, its conduit, and the meter box are all visible exterior. Replacing like for like in the same position is generally the straightforward path; moving a service entrance or changing how it looks from the street can involve more than an electrical permit.',
       'Outside the historic core the housing runs from decades-old subdivisions to newer building, so the answer changes street to street: older overhead services with masts to lose, and newer sections frequently fed underground with nothing overhead at all. Permits and inspections are Montgomery’s own rather than the county’s. We establish which situation your house is in, and whether the historic district applies, before quoting anything.',
@@ -159,7 +159,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   madeira: {
     intro:
-      'Storm-damaged service on your Madeira home? Duke will not reconnect until it is repaired and inspected — and Madeira runs its own inspections. Call (513) 586-5107.',
+      'The electrical repair after a storm in Madeira usually takes a day. The wait is for the inspection, because a small city building department has to fit every damaged house into the same slots. We repair the service and get you into that queue. Call (513) 586-5107.',
     relevance: [
       'Madeira (ZIP 45243) is an established east-side city built largely of mid-century single-family homes on quiet, tree-lined streets, and it is small enough that its building department is small too. That is the local factor that actually decides how long a Madeira outage lasts. The electrical repair is usually a day. The inspection has to fit into the schedule of a compact municipal department, and after a storm that hit the whole region every damaged house in the city is trying to book the same slots.',
       'So the sequencing matters more here than the labour does. We pull the Madeira permit and book the inspection at the same time as scheduling the work rather than once the work is finished, which is the single thing that most shortens the wait. The housing itself is straightforward — mid-century services, many still original, on lots with trees planted when the streets went in and now standing over the drops.',

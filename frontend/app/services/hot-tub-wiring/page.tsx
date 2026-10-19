@@ -144,7 +144,7 @@ export default function HotTubWiringPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Any Electrical Service">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/hottub-hero.webp)' }}
@@ -359,7 +359,7 @@ export default function HotTubWiringPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="hot-tub-wiring" />
     </>
   );
 }

@@ -136,7 +136,7 @@ export default function LightingFixtureInstallationPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Any Electrical Service">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/fixture-hero.webp)' }}
@@ -387,7 +387,7 @@ export default function LightingFixtureInstallationPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="lighting-fixture-installation" />
     </>
   );
 }

@@ -376,7 +376,7 @@ export default function MiniSplitRepairPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="mini-split-repair" />
     </>
   );
 }

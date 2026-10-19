@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Icon from './Icon';
 import { videoTestimonials } from '@/content/videoTestimonials';
 
@@ -8,15 +8,32 @@ import { videoTestimonials } from '@/content/videoTestimonials';
 // (six visible, four on phones, looping, with arrows), then the selected customer's name,
 // rating, and words beside their playable video. Driven by
 // content/videoTestimonials.ts, the same source as /video-testimonials.
-// Video bytes only download when the visitor presses play (preload="none").
+// Video bytes only download once the video scrolls into view (preload="none").
 const ITEMS = videoTestimonials;
 const N = ITEMS.length;
 const STRIP_COUNT = Math.min(6, N);
 
 export default function VideoTestimonials() {
   const [active, setActive] = useState(0);
-  const [playing, setPlaying] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
+
+  // Plays the selected video muted (controls let visitors unmute) while it is
+  // on screen and pauses it when it leaves. Re-attaches when a new customer is
+  // picked, so their video starts straight away. Skipped for reduced motion.
+  useEffect(() => {
+    const el = videoRef.current;
+    if (!el || !('IntersectionObserver' in window)) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) el.play().catch(() => {});
+        else el.pause();
+      },
+      { threshold: 0.4 }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [active]);
 
   // The strip opens on the first testimonial. The arrows walk it one
   // tile at a time and wrap at either end; clicking a tile selects it.
@@ -26,7 +43,6 @@ export default function VideoTestimonials() {
 
   function select(i: number) {
     setActive(i);
-    setPlaying(false);
   }
 
   const t = ITEMS[active];
@@ -141,25 +157,13 @@ export default function VideoTestimonials() {
               src={t.video}
               poster={t.poster}
               className="h-full w-full object-cover"
+              aria-label={`Video testimonial from ${t.name}`}
+              muted
+              loop
               playsInline
               preload="none"
-              controls={playing}
-              onPlay={() => setPlaying(true)}
-              onPause={() => setPlaying(false)}
-              onEnded={() => setPlaying(false)}
+              controls
             />
-            {!playing && (
-              <button
-                type="button"
-                onClick={() => videoRef.current?.play()}
-                aria-label={`Play testimonial from ${t.name}`}
-                className="absolute inset-0 grid place-items-center bg-brand-900/10 transition hover:bg-brand-900/20"
-              >
-                <span className="grid h-16 w-16 place-items-center rounded-full bg-white text-pink-500 shadow-card transition hover:scale-105">
-                  <Icon name="play" className="h-7 w-7 translate-x-0.5 fill-current" />
-                </span>
-              </button>
-            )}
           </div>
         </div>
         </div>

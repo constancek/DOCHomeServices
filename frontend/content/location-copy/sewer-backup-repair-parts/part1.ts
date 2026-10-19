@@ -289,7 +289,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hyde-park': {
     intro:
-      'Sewage backing up in a Hyde Park home is almost always tree roots in the lateral. We put a camera down the line first, show you what is in it, then clear or repair it — usually reaching homes around Hyde Park Square the same day. Call (513) 586-5107.',
+      'Sewage backing up in a Hyde Park home is almost always tree roots in the lateral. We put a camera down the line first, show you what is in it, then clear or repair it, usually reaching homes around Hyde Park Square the same day. Call (513) 586-5107.',
     relevance: [
       'Hyde Park (ZIP 45208) has the two things that guarantee root intrusion: century-old clay sewer laterals and mature, established trees lining nearly every street. Clay pipe is laid in short sections with joints every few feet, and a root only needs a hair-width gap at one of those joints to find water. Once it is inside, it fans out into a mat that catches paper and grease until the line closes.',
       'What makes it expensive here is the finished lower level. These large early-1900s Tudors, colonials, and brick foursquares mostly have basements that were converted into living space, so when the lateral backs up the waste comes through the lowest floor drain into carpet, drywall, and cabinetry rather than onto bare concrete. That is contaminated porous material and it comes out, which is why a Hyde Park backup costs more than the same blockage two neighborhoods over.',
@@ -425,7 +425,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   norwood: {
     intro:
-      'Sewer backup in Norwood? We camera the line before quoting, and we know Norwood is its own city with its own sewer and permitting authority — which changes who to call and what the repair takes. Call (513) 586-5107.',
+      'Sewer backup in Norwood? We camera the line before quoting, and we know Norwood is its own city with its own sewer and permitting authority, which changes who to call and what the repair takes. Call (513) 586-5107.',
     relevance: [
       'Norwood (ZIP 45212) is a separate city entirely surrounded by Cincinnati, with its own sewer and permitting authority. That matters more on sewer work than on almost any other job: a lateral repair here goes through Norwood, not through Cincinnati, and a contractor who pulls the wrong permit or skips it because they assume Norwood is Cincinnati creates a problem you inherit at resale.',
       'The housing stock adds a second problem. Norwood was built dense in the streetcar and factory years — small lots, early-1900s homes and brick two-families packed close together — and on some of those lots the sewer laterals are shared between neighbouring houses. When a shared lateral blocks, the backup surfaces in whichever house sits lowest, which is frequently not the house that caused it. The aging cast-iron drains inside those homes scale up internally with age too, so the branch lines narrow while the main quietly gets worse.',

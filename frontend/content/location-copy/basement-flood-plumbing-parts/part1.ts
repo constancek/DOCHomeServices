@@ -1,7 +1,7 @@
 export const part1: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   sedamsville: {
     intro:
-      "Water in a Sedamsville basement is more often a split supply line than the river — the hillside homes above River Road run on galvanized risers a century past their prime. Turn the power to that level off, then find which pipe let go. Call (513) 586-5107.",
+      "Water in a Sedamsville basement is more often a split supply line than the river. The hillside homes above River Road run on galvanized risers a century past their prime. Turn the power to that level off, then find which pipe let go. Call (513) 586-5107.",
     relevance: [
       "Sedamsville (ZIP 45204) climbs the hillside above River Road on housing built in the late 1800s and early 1900s, and the original galvanized supply lines inside those homes are the weak point. Galvanized corrodes from the inside until a riser or a horizontal run behind a wall gives way, and it tends to do that all at once rather than dripping first. The water lands on the basement floor looking exactly like a groundwater problem, which is how the wrong repair gets ordered.",
       "We do not guess. Power off, we trace the flood back to the pipe that failed — a burst riser, a split feed to the water heater, a pinhole that finally opened — and repair that run rather than the first thing we see. If the water turns out to be coming up the drain instead, that is a different job, and we will tell you before anyone quotes it.",
@@ -17,7 +17,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'sayler-park': {
     intro:
-      "A flooded basement in Sayler Park near the river is often a sewer or storm backup, not clean water — and backed-up water is contaminated. Keep everyone off the flooded level until the power is off. Call (513) 586-5107.",
+      "A flooded basement in Sayler Park near the river is often a sewer or storm backup, not clean water, and backed-up water is contaminated. Keep everyone off the flooded level until the power is off. Call (513) 586-5107.",
     relevance: [
       "Sayler Park (ZIP 45233) is Cincinnati's westernmost neighborhood, strung along the Ohio River past Riverside, and its riverfront streets sit in the floodplain. When the river runs high and the ground saturates, the sewer and storm system backs up, and the first place it shows is the basement floor drain. That water is not the same as a burst pipe — it comes up dirty, and it is a health problem as much as a plumbing one.",
       "We start by working out whether the water rose from the drain or came from somewhere clean, because the two need opposite responses. If it is a backup, we camera the line to find where it blocked, clear it, and talk to you about a backwater valve so the next high-river week does not put the sewer back in your basement. If your home is up the hill away from the floodplain, the cause is usually different, and we look there instead.",
@@ -33,7 +33,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   riverside: {
     intro:
-      "A flooded basement in Riverside usually comes down to the sump pump — on this low river bottomland the pump is the one thing standing between the water table and your floor. Turn the power to that level off first. Call (513) 586-5107.",
+      "A flooded basement in Riverside usually comes down to the sump pump. On this low river bottomland the pump is the one thing standing between the water table and your floor. Turn the power to that level off first. Call (513) 586-5107.",
     relevance: [
       "Riverside (ZIP 45204) is the narrow strip along River Road and US-50, and many of its homes sit on low Ohio River bottomland where the water table is close to the surface. Basements here depend on a sump pump running correctly, and a flood is most often the pump failing at the worst moment — a stuck float switch, a check valve that lets the pit refill, or a pump that simply wore out and quit mid-storm. Everything looks fine until the power flickers or the float sticks, and then the pit overflows.",
       "We test the pump under real flow rather than tipping a bucket in and calling it good. If the float, the check valve, or the pump itself is the failure, we replace the part that quit and talk to you about a battery backup, because on this ground a power cut during a storm is when most Riverside pits overflow. If the water is instead coming up the drain, that is a backup and a different fix, and we will say so.",
@@ -49,7 +49,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-price-hill': {
     intro:
-      "In an East Price Hill two-family, a flooded basement is often a burst supply line in a shared wall — and the split can be feeding water into the unit next door too. Cut the power to the flooded level first. Call (513) 586-5107.",
+      "In an East Price Hill two-family, a flooded basement is often a burst supply line in a shared wall, and the split can be feeding water into the unit next door too. Cut the power to the flooded level first. Call (513) 586-5107.",
     relevance: [
       "East Price Hill (ZIP 45205) sits on the bluff above the west-side flats, the neighborhood the old Price Hill Incline once served, and its streets around Warsaw Avenue are packed with dense two- and three-story frame and brick two-families built close together in the early 1900s. Those buildings share walls and stacks, and the plumbing inside them is original — brittle galvanized and cast-iron that splits with age. When a supply line lets go inside a shared wall, the water does not stay in one unit; it runs down the framing into whichever basement is lowest.",
       "We find the exact run that failed and isolate it, so one burst line does not mean shutting water off to the whole building. On a two-family that means tracing which unit's line split before opening a wall, then repairing that section. If the flooding turns out to be coming up a shared floor drain rather than down from a pipe, that points to the lateral, and we camera it before quoting.",
@@ -65,7 +65,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-price-hill': {
     intro:
-      "A flooded West Price Hill basement is frequently a water heater that let go at the base — the tanks in these Glenway Avenue homes are often as old as the plumbing around them. Power to that level off first. Call (513) 586-5107.",
+      "A flooded West Price Hill basement is frequently a water heater that let go at the base. The tanks in these Glenway Avenue homes are often as old as the plumbing around them. Power to that level off first. Call (513) 586-5107.",
     relevance: [
       "West Price Hill (ZIP 45238) is the larger, more residential stretch of the west side running out Glenway Avenue toward Covedale, built mostly with single-family homes from the 1920s through the 1950s. A tank water heater lasts perhaps a decade or so, which means the one in a house like this has usually been replaced once and is due again — and when a tank corrodes through at the base, it does not drip, it empties its full contents onto the basement floor and keeps refilling and dumping until someone shuts the supply.",
       "We confirm the heater is the source before touching anything else, close the supply, and drain it down safely. If the tank is done, we tell you plainly and replace it; if it was a fitting or the relief line rather than the tank body, that is a smaller repair, and we will not upsell you a new unit you do not need. Where the water instead traces to a supply line or a drain, we follow it there.",
@@ -81,7 +81,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lower-price-hill': {
     intro:
-      "Down in the Mill Creek valley, a flooded Lower Price Hill basement is often a sewer backup coming up the floor drain — dirty water, not clean. Keep off the flooded level until the power is off. Call (513) 586-5107.",
+      "Down in the Mill Creek valley, a flooded Lower Price Hill basement is often a sewer backup coming up the floor drain: dirty water, not clean. Keep off the flooded level until the power is off. Call (513) 586-5107.",
     relevance: [
       "Lower Price Hill (ZIP 45204) sits at the foot of Price Hill in the Mill Creek valley near the river, holding one of the city's most intact stretches of 19th-century Italianate brick rowhouses around State Avenue. The low valley ground is the problem: when Mill Creek and the river run high, the sewer system surcharges, and the water backs up into the lowest basements through the floor drains. It arrives contaminated, which makes it a health issue on top of a wet floor.",
       "We establish first whether the water rose from the drain or came from a failed pipe, because a backup and a burst line need opposite work. For a backup we camera the line to find where it blocked, clear it, and discuss a backwater valve suited to these valley rowhouses so a high creek does not put the sewer back inside. We repair these homes without tearing up original features to reach the pipe.",
@@ -113,7 +113,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   downtown: {
     intro:
-      "In a downtown condo or loft, a flooded lower level often traces to a water heater that let go — and in a stacked building the water can travel down several floors before you see it. Turn the power off first. Call (513) 586-5107.",
+      "In a downtown condo or loft, a flooded lower level often traces to a water heater that let go, and in a stacked building the water can travel down several floors before you see it. Turn the power off first. Call (513) 586-5107.",
     relevance: [
       "Downtown Cincinnati (ZIP 45202) mixes high-rise condos and converted loft buildings with century-old commercial structures across the central business district. Many units run on their own tank or compact water heater tucked in a closet or utility space, and when one corrodes through at the base it empties onto the floor and keeps refilling. In a stacked building that water does not stay put — it finds the floor slab and travels, so the unit that floods is often not the one where the heater failed.",
       "We locate the actual source rather than starting where the water pooled, close the supply, and drain the unit down safely. In a tower that means coordinating access and shutoffs so a repair on one floor does not disrupt the building, and telling you plainly whether the tank is finished or a fitting failed. If the water came from a supply line or a stack instead, we trace it there.",
@@ -177,7 +177,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   clifton: {
     intro:
-      "A flooded Clifton basement that comes up the floor drain is usually roots in the sewer lateral — the big trees along these streets have been working into century-old pipe for decades. Turn the power to that level off. Call (513) 586-5107.",
+      "A flooded Clifton basement that comes up the floor drain is usually roots in the sewer lateral. The big trees along these streets have been working into century-old pipe for decades. Turn the power to that level off. Call (513) 586-5107.",
     relevance: [
       "Clifton (ZIP 45220) is the leafy hilltop near the University of Cincinnati, known for the Ludlow Avenue Gaslight District and large Victorian and early-1900s homes on mature, tree-lined streets. Those trees are the issue underground: their roots find the joints in old clay sewer laterals, the line slows and then blocks, and the first sign is water rising at the basement floor drain during a heavy rain. It reads as a flood but it is a sewer problem, and it comes up contaminated.",
       "We camera the lateral before quoting, because the difference between a clearing and a lateral replacement is decided by what the camera shows, not by how bad the flood looked. If roots are the cause we clear them and tell you honestly whether the pipe has years left or needs lining. Many of these homes are now rentals near campus, and we work around tenants to get water and drains back the same day.",
@@ -209,7 +209,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   northside: {
     intro:
-      "A flooded Northside basement near the Mill Creek valley usually means the sump pump quit — on this low ground it is doing constant work. Turn the power to that level off first. Call (513) 586-5107.",
+      "A flooded Northside basement near the Mill Creek valley usually means the sump pump quit. On this low ground it is doing constant work. Turn the power to that level off first. Call (513) 586-5107.",
     relevance: [
       "Northside (ZIP 45223) runs along Hamilton Avenue with streets of late-1800s and early-1900s homes dropping toward the Mill Creek valley. The lower-lying streets keep their sump pumps busy, and the pump is what fails when the basement floods — a float switch that sticks, a check valve that lets the pit refill, or a worn pump that quits mid-storm. When the pit is working this hard, one failed part is all it takes for the water to rise over the top.",
       "We load-test the pump under real flow, check the float and the check valve, and camera the discharge to be sure the water it moves is actually leaving the property. If the pump is the failure we replace what quit and fit a battery backup for the power cuts that catch most people. If the water is instead rising up the drain, that is a Mill Creek backup and a different fix, and we camera the line to confirm.",
@@ -289,7 +289,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hyde-park': {
     intro:
-      'Water in a Hyde Park basement? Turn the power to that level off, then call (513) 586-5107. We trace which failure let the water in — pump, drain, supply line, or sewer lateral — and repair that one rather than guessing.',
+      'Water in a Hyde Park basement? Turn the power to that level off, then call (513) 586-5107. We trace which failure let the water in, whether pump, drain, supply line, or sewer lateral, and repair that one rather than guessing.',
     relevance: [
       'Hyde Park (ZIP 45208) runs on large early-1900s homes — Tudors, colonials, and brick foursquares — and a great many of them have finished lower levels holding carpet, drywall, and cabinetry. A flooded basement here is not a wet concrete floor you sweep out. It is finished space, which is why finding the actual source in the first hour matters more in Hyde Park than almost anywhere we work.',
       'The other Hyde Park factor is above ground: mature trees standing over century-old sewer laterals. Roots find the joints in old clay pipe, the lateral slows, and the first sign is water coming up at the basement floor drain during a heavy rain. That is a sewer problem wearing a groundwater costume, and the repair is nothing like a sump pump.',
@@ -325,7 +325,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-lookout': {
     intro:
-      "If your Mount Lookout basement takes water at the wall base every heavy rain, that is usually groundwater, not a plumbing failure — and the fix is outside the house. We will tell you which one you have before quoting. Call (513) 586-5107.",
+      "If your Mount Lookout basement takes water at the wall base every heavy rain, that is usually groundwater, not a plumbing failure, and the fix is outside the house. We will tell you which one you have before quoting. Call (513) 586-5107.",
     relevance: [
       "Mount Lookout (ZIP 45226) is an east-side hilltop neighborhood around Mount Lookout Square near Ault Park, with older homes on quiet, hilly streets. On this kind of grade, heavy rain sheets downhill and soaks the ground against foundations, and water pushes in at the base of the basement walls or the floor-to-wall joint. That is not a burst pipe or a failed pump — it is surface water and groundwater finding its way through the foundation, and no plumbing repair inside the house will stop it.",
       "This is the honest part of the job: if the drains and the pump test sound and the water only shows at the wall base after hard rain, we tell you it is a drainage and grading problem for a waterproofing contractor, not us. We would rather give you that answer than sell you a pump you do not need. Where the water is instead coming from a pipe, a pump, or the drain, that is our work, and we trace it to the failure.",
@@ -341,7 +341,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'columbia-tusculum': {
     intro:
-      "In Columbia-Tusculum near the river, a flooded basement is often the sewer backing up when the water is high — not clean water. Keep off the flooded level until the power is off. Call (513) 586-5107.",
+      "In Columbia-Tusculum near the river, a flooded basement is often the sewer backing up when the water is high, not clean water. Keep off the flooded level until the power is off. Call (513) 586-5107.",
     relevance: [
       "Columbia-Tusculum (ZIP 45226) is Cincinnati's oldest neighborhood, settled in 1788, known for its restored Victorian Painted Ladies on the east side near the Ohio River. The low riverside ground is the driver: when the river and the water table run high, the sewer system surcharges and backs up into the lowest basements through the floor drains. It comes up contaminated, and in these historic homes it threatens original interiors as well as making a mess.",
       "We establish whether the water rose from the drain or fell from a failed pipe before quoting, since the two need opposite work. For a backup we camera the line to find the blockage, clear it, and discuss a backwater valve for the riverside streets so high water does not put the sewer back inside. We work these Victorian homes carefully, reaching the lines through cleanouts rather than opening original features wherever we can.",
@@ -373,7 +373,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   madisonville: {
     intro:
-      'Basement flooding in Madisonville? Cut the power to that level, then call (513) 586-5107. We trace the source — pump, drain, supply line, or lateral — before we quote, for homes around Madison Road and Whetsel Avenue.',
+      'Basement flooding in Madisonville? Cut the power to that level, then call (513) 586-5107. We trace the source, whether pump, drain, supply line, or lateral, before we quote, for homes around Madison Road and Whetsel Avenue.',
     relevance: [
       'Madisonville (ZIP 45227) has seen steady reinvestment, and the classic failure here comes straight out of that: a newly finished basement sitting on original, untouched plumbing. The framing, the flooring, and the drywall are two years old. The cast-iron drain line and the sump setup underneath them are a hundred. When the old work finally goes, it goes into the new work.',
       'The mix runs both directions on Madison Road and Whetsel Avenue — early-1900s homes next to newer infill — and they fail differently. Older houses lose a drain line or a corroded supply. Newer builds tend to fail at the pump: a stuck float, a check valve that lets the pit refill, or a discharge that was never carried far enough from the house.',
@@ -409,7 +409,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   westwood: {
     intro:
-      "In Westwood, a flooded basement is commonly a water heater that let go at the base — across this many older homes, tanks reaching the end of their life are the steady cause. Power to that level off first. Call (513) 586-5107.",
+      "In Westwood, a flooded basement is commonly a water heater that let go at the base. Across this many older homes, tanks reaching the end of their life are the steady cause. Power to that level off first. Call (513) 586-5107.",
     relevance: [
       "Westwood (ZIP 45211) is the largest neighborhood in Cincinnati by population, spread across the west side along Harrison Avenue, with everything from historic homes near the Westwood Town Hall to streets of early-1900s and mid-century houses. Across that range the common thread is aging equipment, and the tank water heater is the piece that fails wettest: when one corrodes through at the base it empties onto the floor and keeps refilling from the supply. In a big neighborhood of older homes, that is the flood we get called for again and again.",
       "We confirm the heater is the source, close the supply, and drain it down before deciding anything. A spent tank gets replaced; a failed fitting or relief line is a smaller repair, and we will not sell a new unit you do not need. Because Westwood's housing ranges so widely, we do not assume — if the water traces to a supply line, a pump, or a drain instead, we follow it to the actual failure.",
@@ -425,7 +425,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   norwood: {
     intro:
-      'Flooded basement in Norwood? Power to that level off first, then call (513) 586-5107. We find which failure let the water in and repair it, and we pull Norwood permits through Norwood — it is its own city, not part of Cincinnati.',
+      'Flooded basement in Norwood? Power to that level off first, then call (513) 586-5107. We find which failure let the water in and repair it, and we pull Norwood permits through Norwood: it is its own city, not part of Cincinnati.',
     relevance: [
       'Norwood (ZIP 45212) is a separate city entirely surrounded by Cincinnati, with its own sewer and permitting authority. That is not trivia when your basement floods. A lateral repair or a new discharge line goes through Norwood, and contractors who work mostly in Cincinnati regularly pull the wrong permit here or skip it altogether.',
       'The housing is a dense grid of early-1900s homes and brick two-families from the streetcar and factory years, on small lots. Small lots are the practical problem: there is often very little room to route a sump discharge far enough from the foundation, so the water gets pumped out and walks straight back in. Shared laterals between neighbouring properties are common too, and water leaving one basement frequently ends up heading toward the next.',
@@ -461,7 +461,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   montgomery: {
     intro:
-      "If your Montgomery basement takes water at the wall base after heavy rain and the plumbing tests sound, that is groundwater, not a pipe — and the fix is outside the house. We will tell you which you have before quoting. Call (513) 586-5107.",
+      "If your Montgomery basement takes water at the wall base after heavy rain and the plumbing tests sound, that is groundwater, not a pipe, and the fix is outside the house. We will tell you which you have before quoting. Call (513) 586-5107.",
     relevance: [
       "Montgomery (ZIP 45242) is an upscale northeast-side city with a preserved historic district of 19th-century buildings and surrounding neighborhoods of established and newer homes, many with finished basements. On established, well-treed lots like these, heavy rain saturates the ground and pushes water in at the base of the basement walls or the floor-to-wall joint. That is surface and groundwater working through the foundation — not a burst pipe, not a failed pump — and no plumbing repair inside will stop it.",
       "Here is where we tell people not to hire us: if the drains and the pump test sound and the water only appears at the wall base after hard rain, the problem is exterior drainage and grading, and the right call is a waterproofing contractor rather than a plumber. We would rather confirm that for you than sell a pump you do not need. When the water does come from a pipe, a water heater, a pump, or the drain, that is our work, and we trace it to the failure before quoting.",

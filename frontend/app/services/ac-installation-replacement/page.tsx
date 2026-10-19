@@ -392,7 +392,7 @@ export default function ACInstallationPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="ac-installation-replacement" />
     </>
   );
 }

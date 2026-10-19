@@ -312,7 +312,7 @@ export default function SewerBackupRepairPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="sewer-backup-repair" />
     </>
   );
 }

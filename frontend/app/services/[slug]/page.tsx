@@ -56,7 +56,7 @@ export default async function ServiceRoute({ params }: { params: Promise<{ slug:
   return (
     <>
       {service ? <MainService service={service} /> : <SubService page={sub!} />}
-      <PageSections />
+      <PageSections service={slug} />
     </>
   );
 }

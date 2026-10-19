@@ -1,6 +1,6 @@
 export const part1: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'sedamsville': {
-    intro: 'Basement taking on water in Sedamsville, or a sump pump that quits when you need it? We install, repair, and replace sump pumps — including battery backups — for homes along River Road and the hillside above it, most the same day. Call (513) 586-5107.',
+    intro: 'Basement taking on water in Sedamsville, or a sump pump that quits when you need it? We install, repair, and replace sump pumps, including battery backups, for homes along River Road and the hillside above it, most the same day. Call (513) 586-5107.',
     relevance: [
       'Sedamsville (ZIP 45204) is a historic riverside neighborhood on Cincinnati’s west side, sitting between Riverside and Sayler Park, with much of its housing on low ground near River Road and the Ohio River. That position puts basements at real risk when the river runs high or a storm dumps fast, and a working sump pump is the first line of defense.',
       'The homes here date to the late 1800s and early 1900s, with stone-and-block basements that seep through the walls and floor. We size a pump to the water you actually get, route the discharge well away from the foundation, and add a battery backup so the pit stays clear when a storm takes the power out.',

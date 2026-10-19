@@ -5,7 +5,7 @@ import { site } from '@/content/site';
 import { coupons } from '@/content/coupons';
 
 // Featured voucher for the sidebar (matches the reference's "$75 off" card).
-const defaultCoupon = coupons.find((c) => c.price === '$75 OFF') ?? coupons[0];
+const defaultCoupon = coupons.find((c) => c.title === 'Any Plumbing Repair') ?? coupons[0];
 
 export function MapWidget() {
   return (
@@ -57,13 +57,16 @@ export function CouponWidget({ title }: { title?: string } = {}) {
 // `hideMenuOnMobile` keeps the services menu in the sidebar on desktop but hides
 // it on mobile, for pages that render the menu lower down (above Our Difference).
 // `couponTitle` swaps the featured voucher for one matching the page's trade.
+// `hideMenu` leaves the services menu out entirely (location pages).
 export function Sidebar({
   extras,
   hideMenuOnMobile = false,
+  hideMenu = false,
   couponTitle,
 }: {
   extras?: ReactNode;
   hideMenuOnMobile?: boolean;
+  hideMenu?: boolean;
   couponTitle?: string;
 }) {
   return (
@@ -71,9 +74,11 @@ export function Sidebar({
       {extras}
       <MapWidget />
       <CouponWidget title={couponTitle} />
-      <div className={hideMenuOnMobile ? 'hidden lg:block' : undefined}>
-        <ServicesMenu />
-      </div>
+      {!hideMenu && (
+        <div className={hideMenuOnMobile ? 'hidden lg:block' : undefined}>
+          <ServicesMenu />
+        </div>
+      )}
     </aside>
   );
 }
@@ -83,17 +88,19 @@ export default function MainWithSidebar({
   children,
   extras,
   hideMenuOnMobile = false,
+  hideMenu = false,
   couponTitle,
 }: {
   children: ReactNode;
   extras?: ReactNode;
   hideMenuOnMobile?: boolean;
+  hideMenu?: boolean;
   couponTitle?: string;
 }) {
   return (
     <div className="container-page grid gap-10 lg:grid-cols-[1fr_340px] lg:items-start">
       <div className="min-w-0">{children}</div>
-      <Sidebar extras={extras} hideMenuOnMobile={hideMenuOnMobile} couponTitle={couponTitle} />
+      <Sidebar extras={extras} hideMenuOnMobile={hideMenuOnMobile} hideMenu={hideMenu} couponTitle={couponTitle} />
     </div>
   );
 }

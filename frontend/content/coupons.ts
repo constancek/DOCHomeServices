@@ -26,6 +26,12 @@ const catalogue: Omit<Coupon, 'expires'>[] = [
     expiryKind: 'rolling',
   },
   {
+    price: '$75 OFF',
+    title: 'Same-Day AC Repair',
+    details: 'Save on any same-day air conditioning repair.',
+    expiryKind: 'rolling',
+  },
+  {
     price: '$98',
     title: 'Drain Unclog',
     details: 'Clear one slow or clogged drain. Camera inspection available.',
@@ -83,5 +89,39 @@ const HVAC_SLUGS = new Set([
   'mini-split-repair',
 ]);
 
+// Electrical service slugs. Their sidebars feature the electrical voucher.
+const ELECTRICAL_SLUGS = new Set([
+  'electrical',
+  'electrical-inspections',
+  'electrical-mast-repair',
+  'electrical-panel-replacement',
+  'electricity-disconnection',
+  'ev-chargers',
+  'exhaust-fan-installation-repair',
+  'ceiling-fan-installation',
+  'home-rewiring',
+  'hot-tub-wiring',
+  'storm-electricity-outage',
+  'surge-protector-installation',
+  'switches-outlets',
+  'lighting',
+  'basement-lighting',
+  'garage-lighting',
+  'holiday-lighting',
+  'indoor-lighting',
+  'landscape-lighting',
+  'led-lighting',
+  'lighting-fixture-installation',
+  'outdoor-lighting',
+  'patio-lighting',
+  'recessed-lighting',
+]);
+
 export const sidebarCouponFor = (slug: string) =>
-  HVAC_SLUGS.has(slug) ? 'Furnace Tune-Up' : undefined;
+  slug === 'ac-repair'
+    ? 'Same-Day AC Repair'
+    : HVAC_SLUGS.has(slug)
+    ? 'Furnace Tune-Up'
+    : ELECTRICAL_SLUGS.has(slug)
+      ? 'Any Electrical Service'
+      : undefined;

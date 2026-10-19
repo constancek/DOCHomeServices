@@ -1,7 +1,7 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
     intro:
-      'Planning new plumbing in a Villages of Roll Hill building — fixtures, a water heater, or upgraded supply risers? We install leak-free and to code across this west-side hilltop community. Call (513) 586-5107.',
+      'Planning new plumbing in a Villages of Roll Hill building: fixtures, a water heater, or upgraded supply risers? We install leak-free and to code across this west-side hilltop community. Call (513) 586-5107.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. In housing built around shared stacks and common supply lines, a fixture or water-heater install has to be planned so the new work ties into the existing risers cleanly and one unit’s upgrade does not leave the next without water.',
       'When several units feed off the same lines, the right approach is often a per-unit shutoff and a properly sized water heater for the demand, rather than dropping in whatever fits. We size the unit, run new supply where the old galvanized has closed up, and pressure-test every joint so the install is leak-free and passes inspection the first time.',
@@ -23,7 +23,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'western-hills': {
     intro:
-      'Installing new plumbing in Western Hills — fixtures, a water heater, or a softener? We do it leak-free and to code around Western Hills Plaza and Glenway Avenue. Call (513) 586-5107.',
+      'Installing new plumbing in Western Hills: fixtures, a water heater, or a softener? We do it leak-free and to code around Western Hills Plaza and Glenway Avenue. Call (513) 586-5107.',
     relevance: [
       'Western Hills (ZIP 45211) is the established west-side area around Western Hills Plaza and Glenway Avenue, with neighborhoods of early-1900s through mid-century single-family homes. Across that span of older housing, the galvanized supply lines are corroding from the inside and the original water heaters are long past their service life, so most installs here start with replacing pipe and tank that should have been swapped years ago.',
       'Greater Cincinnati water runs hard, and in homes this age the scale buildup shows up first as poor flow at fixtures and short water-heater life. Adding a water softener as part of a heater or fixture install protects the new equipment and the supply lines feeding it. We size the softener to the household, plumb in a bypass, and leave the system to code.',
@@ -78,7 +78,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-airy': {
     intro:
-      'Installing new plumbing near Mount Airy Forest — fixtures, a water heater, or a sump system? We do it leak-free and to code on these hilly, wooded streets, with an estimate first. Call (513) 586-5107.',
+      'Installing new plumbing near Mount Airy Forest: fixtures, a water heater, or a sump system? We do it leak-free and to code on these hilly, wooded streets, with an estimate first. Call (513) 586-5107.',
     relevance: [
       'Mount Airy (ZIP 45239) is a northwest-side neighborhood beside Mount Airy Forest, one of the largest city parks in the country, with mid-century single-family homes on hilly, wooded streets. Homes of that era carry original supply lines now corroding from the inside, so a fixture upgrade is the right time to repipe the feed rather than tie new fittings to a half-blocked galvanized run.',
       'The hilltop terrain puts extra demand on basement drains in heavy rain, which makes a properly installed sump pump worth folding into any lower-level plumbing work. We size the pump and basin, set the check valve, replace failing supply lines as needed, and pressure-test the whole job so it is leak-free and to code.',
@@ -111,7 +111,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'st-bernard': {
     intro:
-      'Installing new plumbing in St. Bernard — fixtures, a water heater, or fresh supply lines? We do it leak-free and to code across this independent city. Call (513) 586-5107.',
+      'Installing new plumbing in St. Bernard: fixtures, a water heater, or fresh supply lines? We do it leak-free and to code across this independent city. Call (513) 586-5107.',
     relevance: [
       'St. Bernard (ZIP 45217) is its own city, completely surrounded by Cincinnati, built up around the Procter & Gamble Ivorydale complex with a dense grid of early-1900s homes. In tightly packed century-old housing like this, the galvanized supply lines and cast-iron drains are corroding on small valley lots, so a fixture upgrade is the right time to replace the feed behind it rather than connect new work to failing pipe.',
       'Those homes were plumbed long before current code, which makes an install a chance to bring shutoffs and connections up to standard within the close quarters of a small lot. We repipe in PEX or copper, size the water heater to the home, and pressure-test the work so the install is leak-free and passes inspection in this independent city.',
@@ -133,7 +133,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'delhi-hills': {
     intro:
-      'Installing new plumbing in Delhi Hills — fixtures, a water heater, or a sump system? We do it leak-free and to code on these hilly west-side streets. Call (513) 586-5107.',
+      'Installing new plumbing in Delhi Hills: fixtures, a water heater, or a sump system? We do it leak-free and to code on these hilly west-side streets. Call (513) 586-5107.',
     relevance: [
       'Delhi Hills (ZIP 45233) sits in Delhi Township on the west side above the Ohio River — an area with deep ties to greenhouse and floral growing, with established mid-century homes on hilly streets. Homes of that era carry original supply lines now corroding and water heaters past their service life, so an install here often pairs a new tank with repiping the worn feed.',
       'The hillside grade adds demand on basement drains in heavy rain, which makes a properly installed sump pump worth folding into lower-level work above the river. We size the pump and basin, set the water heater for the household, and pressure-test the install so the whole job is leak-free and to code.',
@@ -166,7 +166,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mack': {
     intro:
-      'Installing new plumbing in Mack — fixtures, a water heater, or a sump pump? We do it leak-free and to code across this west-side Green Township community, with an estimate first. Call (513) 586-5107.',
+      'Installing new plumbing in Mack: fixtures, a water heater, or a sump pump? We do it leak-free and to code across this west-side Green Township community, with an estimate first. Call (513) 586-5107.',
     relevance: [
       'Mack (ZIP 45248) is an established community in Green Township on the west side, with neighborhoods of mid-century and newer single-family homes. Even the newer homes here are now old enough for water heaters and supply lines to reach the end of their life, so an install often means swapping out original equipment that has quietly aged out.',
       'In the older Mack homes, the galvanized supply is corroding and the cast-iron is past its prime, so a fixture upgrade is the time to repipe the run behind it. We size the water heater to the household, replace failing supply or add a sump where the basement needs one, and pressure-test the work so it is leak-free and to code.',
@@ -188,7 +188,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bridgetown': {
     intro:
-      'Installing new plumbing in Bridgetown — fixtures, a water heater, or a sump pump? We do it leak-free and to code across this west-side Green Township community, with an estimate up front. Call (513) 586-5107.',
+      'Installing new plumbing in Bridgetown: fixtures, a water heater, or a sump pump? We do it leak-free and to code across this west-side Green Township community, with an estimate up front. Call (513) 586-5107.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. Across that housing, aging water heaters and worn supply lines are the equipment most due for replacement, so an install here often means swapping out original gear that has quietly reached the end of its life.',
       'On Greater Cincinnati’s hard water, mid-century water heaters scale up and fail early, which makes a softener worth installing alongside a new tank to protect it. We size the heater to the household, add a softener where the water calls for it, and pressure-test the install so the whole job is leak-free and to code.',
@@ -210,7 +210,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'amberley': {
     intro:
-      'Installing new plumbing in Amberley Village — fixtures, a water heater, or whole-home filtration? We do it leak-free and to code on these big, wooded lots, with an estimate first. Call (513) 586-5107.',
+      'Installing new plumbing in Amberley Village: fixtures, a water heater, or whole-home filtration? We do it leak-free and to code on these big, wooded lots, with an estimate first. Call (513) 586-5107.',
     relevance: [
       'Amberley Village (ZIP 45237) is an affluent north-side village known for its large homes on big, wooded lots along winding streets. Larger homes mean larger plumbing systems — more bathrooms, longer runs, and higher peak demand — so a water-heater install here has to be sized to the household rather than dropped in by default.',
       'Big older homes are also where homeowners often add whole-home filtration or a softener to protect a sizable plumbing system and the fixtures throughout it. We size the heater or filtration to the home, run new supply where needed, and pressure-test the install so the whole job is leak-free and to code across these wooded streets.',
@@ -243,7 +243,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newtown': {
     intro:
-      'Installing new plumbing in Newtown — fixtures, a water heater, or a sump system? We do it leak-free and to code for these homes near the Little Miami River, with an estimate first. Call (513) 586-5107.',
+      'Installing new plumbing in Newtown: fixtures, a water heater, or a sump system? We do it leak-free and to code for these homes near the Little Miami River, with an estimate first. Call (513) 586-5107.',
     relevance: [
       'Newtown (ZIP 45244) is a small east-side village near the Little Miami River, with older homes set on low river-bottom ground. That low ground brings a real risk of flooding in heavy rain, so a properly installed sump pump and basin — ideally with battery backup — is the foundation of any lower-level plumbing work in the village.',
       'The older homes here also carry aging supply lines due for replacement, so a fixture or water-heater install is a chance to set things up for the conditions near the river. We add the sump and a backwater valve where the layout allows, size the heater to the household, and pressure-test the install so the whole job is leak-free and to code.',
@@ -254,7 +254,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'turpin-hills': {
     intro:
-      'Installing new plumbing in Turpin Hills — fixtures, a water heater, or a sump pump? We do it leak-free and to code across this east-side Anderson Township community, with an estimate up front. Call (513) 586-5107.',
+      'Installing new plumbing in Turpin Hills: fixtures, a water heater, or a sump pump? We do it leak-free and to code across this east-side Anderson Township community, with an estimate up front. Call (513) 586-5107.',
     relevance: [
       'Turpin Hills (ZIP 45244) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. Across that housing, aging water heaters, worn supply lines, and failing sump pumps are the equipment most due for replacement, so an install here often means swapping out original gear that has reached the end of its life.',
       'A failing sump pump in a finished lower level is a common reason for an install in this part of Anderson Township, where heavy rain tests basement systems. We replace the pump with a properly sized unit and check valve, size the water heater to the household, and pressure-test the work so the whole job is leak-free and to code.',

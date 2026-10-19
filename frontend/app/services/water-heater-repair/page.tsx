@@ -322,7 +322,7 @@ export default function WaterHeaterRepairPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="water-heater-repair" />
     </>
   );
 }

@@ -103,3 +103,24 @@ export const videoTestimonials: VideoTestimonial[] = [
     avatar: '/videos/testimonial-1-avatar.webp',
   },
 ];
+
+// Picks the one video shown on a service × location page: a customer from the
+// same neighborhood first, then the same county, then the service's trade.
+const TRADE_VIDEO: Record<string, string> = {
+  Electrician: 'testimonial-8',
+  Plumber: 'testimonial-4',
+};
+
+export function videoForLocation(
+  neighborhood: string,
+  county: string | undefined,
+  businessType: string,
+): VideoTestimonial {
+  const town = (t: VideoTestimonial) => t.location.split(',')[0].trim().toLowerCase();
+  return (
+    videoTestimonials.find((t) => town(t) === neighborhood.toLowerCase()) ??
+    videoTestimonials.find((t) => county && t.location === county) ??
+    videoTestimonials.find((t) => t.id === (TRADE_VIDEO[businessType] ?? 'testimonial-7')) ??
+    videoTestimonials[0]
+  );
+}

@@ -7,7 +7,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part7: Record<string, LocationServiceCopy> = {
   'lakeside-park': {
     intro:
-      'Gas shut off in Lakeside Park? Kentucky inspects gas piping at state level. Call (513) 586-5107.',
+      'Lakeside Park shares ZIP 41017 with three other cities, which on the Ohio side would mean four permit offices. Kentucky inspects gas piping under the state plumbing code, so that risk is smaller here. We repair the shutoff and arrange the reconnect. Call (513) 586-5107.',
     relevance: [
       'Lakeside Park (ZIP 41017) is a small residential Kenton County city of largely mid-century homes, and it shares its ZIP with Crescent Springs, Crestview Hills and Edgewood — four separate cities in one postal boundary. On the Ohio side that would mean four different permit offices and a genuine risk of filing with the wrong one. Here it matters less, because gas piping in Kentucky falls under the state plumbing code and inspection runs through the Kentucky Division of Plumbing rather than a city building department.',
       'What that does not remove is the vintage question. These systems are original black iron sized for the appliances of their day, now feeding equipment replaced once or twice since — so a pressure test tells you whether the system leaks, and a separate measurement at the appliances tells you whether the run can actually deliver what the house now demands. Your gas comes from Duke Energy Kentucky rather than the Ohio company.',
@@ -24,7 +24,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   'crescent-springs': {
     intro:
-      'Gas shut off in Crescent Springs? Piping is black iron or CSST, not both. Call (513) 586-5107.',
+      'Crescent Springs has old housing near its original centre and newer subdivisions around it, and the gas pipe differs between them. Black iron fails at old joints, while CSST gets held up on bonding. We find which applies and restore your gas. Call (513) 586-5107.',
     relevance: [
       'Crescent Springs (ZIP 41017) spans older housing near its original centre and newer subdivision streets, and the era of your house decides the likely finding. On the older side, rigid black iron altered in stages, where a pressure test turns up aged joints and capped stubs from appliances removed decades ago. On the newer side, CSST — flexible tubing with a yellow jacket — where the usual issue is bonding to the electrical grounding system rather than a leak at all.',
       'Those are not comparable pieces of work, which is why we test before quoting rather than after. Your gas comes from Duke Energy Kentucky under the Kentucky Public Service Commission, and gas piping inspection runs under the state plumbing code rather than through a city building department.',
@@ -41,7 +41,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   'crestview-hills': {
     intro:
-      'Gas shut off in Crestview Hills? A red-tagged appliance is the usual cause. Call (513) 586-5107.',
+      'A red-tagged furnace or water heater, not the pipe, is the usual reason gas goes off in Crestview Hills subdivisions built after the 1960s. Where the piping is sound, we replace the appliance, pass the test and get service restored. Call (513) 586-5107.',
     relevance: [
       'Crestview Hills (ZIP 41017) is largely post-1960s Kenton County subdivision housing, and the most common route to a shutoff here is an appliance rather than the pipe. A furnace with a cracked heat exchanger or a water heater with a failed gas control gets red-tagged, and service stays off until it is corrected and the system passes a test.',
       'Where the piping is sound that is a contained job — replace the appliance, pass the test, get it signed off, and Duke Energy Kentucky reconnects. Occasionally the test finds something the appliance failure had been masking, which grows the scope, and that is why we test before quoting rather than starting work and coming back with a revised figure.',
@@ -58,7 +58,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   edgewood: {
     intro:
-      'Gas shut off in Edgewood? Larger newer homes carry more system to test. Call (513) 586-5107.',
+      'Generous Edgewood homes often add fireplaces, a standby generator or an outdoor kitchen to the usual gas appliances. A pressure test after a shutoff covers every branch together, so finding the fault takes longer. We trace it and restore service. Call (513) 586-5107.',
     relevance: [
       'Edgewood (ZIP 41017) is one of the larger Kenton County cities, mostly post-1960 subdivision housing with a good deal of it built to a generous size. Houses like that tend to carry more gas system than an older modest home — a furnace, a water heater, a range, gas fireplaces, sometimes a standby generator or an outdoor kitchen added later — and a pressure test covers every branch together.',
       'That makes diagnosing a shutoff slower here, simply because there is more to isolate. Outdoor and later-added branches are also the ones most often installed without a permit, so they are worth mentioning when you call. Your gas comes from Duke Energy Kentucky, and piping inspection runs under the Kentucky state plumbing code rather than a city building department.',
@@ -75,7 +75,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   'taylor-mill': {
     intro:
-      'Gas shut off in Taylor Mill? Most systems here share one vintage. Call (513) 586-5107.',
+      'Taylor Mill’s older streets were piped the same way in the same decades, so what we find on one usually holds for the next. If a test fails after a gas shutoff, a section replacement is often the fix. We do it and restore service. Call (513) 586-5107.',
     relevance: [
       'Taylor Mill (ZIP 41015) is a Kenton County city built out largely across the mid-century decades, with newer pockets added since, and the older streets are consistent enough that findings on one hold for the next. The houses were piped the same way at the same time and have aged at a similar rate.',
       'That does not mean your system is failing. It means that if something does stop a reconnection, a section replacement is a more likely remedy here than a patch on one joint — worth knowing before you are quoted. Your gas comes from Duke Energy Kentucky under the Kentucky Public Service Commission, and gas piping is inspected under the state plumbing code.',
@@ -92,7 +92,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   elsmere: {
     intro:
-      'Gas shut off in Elsmere? Honest repair-or-replace numbers on older appliances. Call (513) 586-5107.',
+      'Elsmere homes along the Dixie Highway corridor tend to lose gas when an old furnace or water heater gets red-tagged. Before you replace anything, we put repair and replacement numbers side by side, then restore service. Call (513) 586-5107.',
     relevance: [
       'Elsmere (ZIP 41018) is a modest Kenton County city along the Dixie Highway corridor with older housing, and the shutoffs we are called for here are mostly appliance-driven: a furnace or water heater well past its expected life gets red-tagged, and service stays off until it is corrected.',
       'On a house with sound piping that is a contained job, and the conversation worth having is repair against replacement with real numbers rather than a default to the bigger sale. Sometimes a gas control valve genuinely fixes it. Sometimes it is money spent on an appliance with a year left, and we will say so. Your gas comes from Duke Energy Kentucky, and gas piping inspection runs under the Kentucky state plumbing code.',
@@ -109,7 +109,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   independence: {
     intro:
-      'Gas shut off in Independence? On the rural edges it may be propane, not mains. Call (513) 586-5107.',
+      'First question on an Independence gas shutoff: meter or propane tank? In the subdivisions it is Duke Energy Kentucky, cleared by testing, repair and inspection. On the rural edges it may be propane, which is a different job. Call (513) 586-5107.',
     relevance: [
       'Independence (ZIP 41051) is the Kenton County seat and has grown fast, so it spans dense newer subdivisions and genuinely rural land on its outer edges — and that distinction matters before anything else. In the subdivisions your gas comes from Duke Energy Kentucky through a meter, and a shutoff is a utility disconnection resolved by testing, repairing and getting the system inspected.',
       'On the rural edges some properties are on a propane tank instead, with no gas main involved. If that is you, a loss of gas is a supply or tank issue for your propane company rather than a utility disconnection, and we will say so on the phone rather than send someone out to tell you. Where it is a genuine gas system, the subdivision housing here is mostly CSST, where the common finding is bonding to the electrical grounding system.',
@@ -126,7 +126,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   'dayton-ky': {
     intro:
-      'Gas shut off in Dayton? Low river ground puts appliance controls under water. Call (513) 586-5107.',
+      'Behind the floodwall in Dayton, Kentucky, older houses sit on low ground, and flooding is the usual reason gas goes off. Submerged furnace and water heater controls get replaced, not relit. We test the lines and get your gas restored. Call (513) 586-5107.',
     relevance: [
       'Dayton (ZIP 41074) is a dense Campbell County river city on low ground behind the floodwall, with old, closely spaced housing, and water is the recurring reason gas goes off here. Where a furnace, boiler or water heater has been submerged, the gas control valve and burner controls are replaced rather than dried out and relit — the corrosion is internal, nothing shows from outside, and a control that works today can fail unsafely later.',
       'Because the housing is genuinely old, the piping carries a century of alterations, including lines capped at the wall when electric lighting arrived rather than removed. Those are still on the system a pressure test covers. Your gas comes from Duke Energy Kentucky, and gas piping is inspected under the Kentucky state plumbing code rather than by a city building department.',
@@ -143,7 +143,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   southgate: {
     intro:
-      'Gas shut off in Southgate? Older houses often still have gas-lighting pipe. Call (513) 586-5107.',
+      'Southgate’s older hillside houses above Newport were built when homes were lit by gas, and those lines were capped at the wall. They are still connected, and a failed cap can block your gas from being restored. We find it and fix it. Call (513) 586-5107.',
     relevance: [
       'Southgate (ZIP 41071) is a small Campbell County city on the hillsides above Newport, with a good deal of older housing from an era when houses were lit by gas. Those lighting lines were usually capped at the wall rather than removed when electric arrived, because taking them out meant opening plaster throughout — so a century later they are still part of the system.',
       'A pressure test tests them along with everything else, which is why a test can fail with every appliance in the house working perfectly. Locating one takes patience: we isolate sections rather than opening original plaster on a hunch. Your gas comes from Duke Energy Kentucky, and gas piping inspection runs under the state plumbing code.',
@@ -160,7 +160,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   wilder: {
     intro:
-      'Gas shut off in Wilder? Residential and plant gas work are different trades. Call (513) 586-5107.',
+      'Residential gas shutoffs in Wilder are our work. Industrial meter sets and process piping along the Licking River are a different trade, and we will say so. On the houses we test, fix and inspect, and Duke Energy Kentucky reconnects. Call (513) 586-5107.',
     relevance: [
       'Wilder (ZIP 41076) is a small Campbell County city on low ground along the Licking River, with residential streets sitting alongside industrial and warehouse property, and the two need saying apart. On the houses a gas shutoff is the ordinary job: test the system, correct what fails, get it inspected, and Duke Energy Kentucky reconnects.',
       'Large industrial meter sets and process piping are a different trade with different certification, and if that is what you have we will tell you on the phone rather than send someone out. The low ground brings the other recurring cause — where an appliance has been submerged, the gas control valve is replaced rather than dried out, because the damage is internal with nothing visible outside.',
@@ -177,7 +177,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   'highland-heights': {
     intro:
-      'Gas shut off in Highland Heights? On a rental the owner authorises the work. Call (513) 586-5107.',
+      'Renting near the university in Highland Heights means the gas system is your landlord’s, and only the owner can authorise a repair after a shutoff. Where one system serves several units, everyone stays off until it passes. Call (513) 586-5107.',
     relevance: [
       'Highland Heights (ZIP 41076) is a Campbell County city built around the university, which means a large share of the housing is rented rather than owner-occupied — and on a rental the gas system is the owner’s. A tenant cannot start the work by calling a plumber, and where one system serves several units in a building, a pressure test covers all of it and every household stays off until it passes.',
       'What tenants can usefully do is tell the landlord how many units are affected and whether it is one building or several, because that is what determines the scope. Restoring several units together on one permit and one inspection is cheaper and faster than piecemeal, but it needs the owner to act. Your gas comes from Duke Energy Kentucky, and gas piping is inspected under the Kentucky state plumbing code.',
@@ -194,7 +194,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   'cold-spring': {
     intro:
-      'Gas shut off in Cold Spring? Newer subdivisions mean CSST and bonding. Call (513) 586-5107.',
+      'Cold Spring has grown fast, and the newer houses mostly run CSST. When an inspector holds up a gas reconnection here, bonding to the electrical ground is more likely than a leak. We fix the bond, test the system and restore service. Call (513) 586-5107.',
     relevance: [
       'Cold Spring (ZIP 41076) has grown substantially, so a good share of the housing is newer subdivision stock, and the piping reflects that. Rather than the rigid black iron of the older river cities, these houses are commonly run in CSST — flexible tubing with a yellow jacket — where the issue that most often turns up on inspection is bonding to the electrical grounding system rather than a leak.',
       'That bond exists so a nearby lightning strike cannot arc through the tubing wall, and where it is missing or has been disturbed by later work it has to be corrected before a sign-off. It is a smaller job than repiping, which is worth knowing before assuming the worst. Your gas comes from Duke Energy Kentucky under the Kentucky Public Service Commission.',
@@ -211,7 +211,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   alexandria: {
     intro:
-      'Gas shut off in Alexandria? Outside town some properties run on propane. Call (513) 586-5107.',
+      'Town or country decides the job on an Alexandria gas shutoff. In the core, Duke Energy Kentucky supplies the meter and we clear it by testing and repair. Further out, a property may be on propane with no main involved. Call (513) 586-5107.',
     relevance: [
       'Alexandria (ZIP 41001) sits in southern Campbell County, where a compact town core gives way to genuinely rural land, and the first question is which of the two you are on. In town your gas comes from Duke Energy Kentucky through a meter, and a shutoff is a utility disconnection cleared by testing, repairing and getting the system inspected.',
       'Further out some properties are on a propane tank with no gas main involved, and a loss of gas there is a supply or tank matter for your propane company rather than something we reconnect. We will say so on the phone rather than send someone out to tell you. Rural properties here also tend to have outbuildings — barns, workshops, garages — on their own gas runs, and those are part of what a pressure test covers.',
@@ -228,7 +228,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   melbourne: {
     intro:
-      'Gas shut off in Melbourne? A tiny river village on ground that floods. Call (513) 586-5107.',
+      'Melbourne sits on some of the lowest ground on the Kentucky side, right on the river, so gas usually goes off after high water. A submerged control valve is replaced, because it can fail unsafely later. Then we test and restore service. Call (513) 586-5107.',
     relevance: [
       'Melbourne (ZIP 41059) is a very small Campbell County village directly on the Ohio River, on some of the lowest ground on the Kentucky side, and high water is the recurring reason gas goes off. Where a furnace, boiler or water heater has been submerged, the gas control valve is replaced rather than dried out and relit, because the corrosion is internal and a control that works today can fail unsafely later.',
       'Because it is not a rare event here, plenty of properties are on their second or third water heater in the same position, so the useful question during a replacement is whether the appliance can be raised. Venting is the limit. Where a platform above the historic water line works, the cycle ends; where it does not, we will say so rather than build something that creates a different problem. Your gas comes from Duke Energy Kentucky, which reconnects on the strength of the inspection sign-off.',
@@ -245,7 +245,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   hebron: {
     intro:
-      'Gas shut off in Hebron? Newer subdivisions, and warehouses we do not cover. Call (513) 586-5107.',
+      'Hebron mixes newer subdivisions with warehouses around the airport. We restore gas at the houses: test, repair, inspect, reconnect. Large industrial meter sets need different certification, and we tell you if yours is one of those. Call (513) 586-5107.',
     relevance: [
       'Hebron (ZIP 41048) is Boone County land around the airport, mixing newer residential subdivisions with a substantial amount of warehouse and distribution property, and the two are different pieces of work. On the houses a gas shutoff is the ordinary job — test, repair, inspect, and Duke Energy Kentucky reconnects.',
       'Large industrial meter sets and process piping need different certification, and if that is what you have we will say so on the phone rather than send someone out. On the residential side the piping is mostly CSST, flexible tubing in a yellow jacket, where the common finding on inspection is bonding to the electrical grounding system rather than a leak — a smaller correction than most people fear.',
@@ -262,7 +262,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   burlington: {
     intro:
-      'Gas shut off in Burlington? An old core, newer subdivisions, rural edges. Call (513) 586-5107.',
+      'Burlington has three gas pictures: an old core with capped lighting lines, newer subdivisions on CSST, and rural edges beyond them. Knowing which you are in tells us where a shutoff starts. We fix it and restore service. Call (513) 586-5107.',
     relevance: [
       'Burlington (ZIP 41005) is the Boone County seat, and it covers three quite different housing situations. The historic core has genuinely old properties where the piping carries a century of alterations, including lines capped at the wall when electric lighting arrived. The newer subdivisions around it are mostly CSST, where the common inspection finding is bonding to the electrical grounding system.',
       'The rural edges are the third case, where some properties are on a propane tank rather than a gas main — and a loss of gas there is a supply matter for your propane company rather than a utility disconnection we can clear. We establish which of the three you are before quoting, because the work and the cost are not comparable. Your gas, where it is mains gas, comes from Duke Energy Kentucky.',
@@ -279,7 +279,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   union: {
     intro:
-      'Gas shut off in Union? Large newer homes carry more system to test. Call (513) 586-5107.',
+      'Large newer homes in Union carry more gas system than most, often with a tankless unit, fireplaces and a generator or outdoor kitchen added later. A shutoff test covers every branch, so it takes longer. We isolate the fault and restore service. Call (513) 586-5107.',
     relevance: [
       'Union (ZIP 41091) is one of the faster-growing parts of Boone County, with a great deal of large, newer housing, and houses like that carry more gas system than most — a furnace, sometimes two zones, a water heater or a tankless unit, a range, gas fireplaces, and often a standby generator or an outdoor kitchen added after the build.',
       'A pressure test covers every branch together, so diagnosing a shutoff takes longer simply because there is more to isolate. The piping is mostly CSST, where the common inspection finding is bonding to the electrical grounding system, and later-added branches are the ones most likely to have gone in without a permit — so mention what is out there when you call. Your gas comes from Duke Energy Kentucky, which reconnects once the work is signed off.',
@@ -296,7 +296,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   walton: {
     intro:
-      'Gas shut off in Walton? An old town core with rural land beyond it. Call (513) 586-5107.',
+      'In Walton’s old town core, a gas test can fail with every appliance working, because of capped stubs and a century of alterations. Out on the rural land some homes run on propane instead. We sort out which applies and restore service. Call (513) 586-5107.',
     relevance: [
       'Walton (ZIP 41094) sits at the southern end of Boone County, with an old small-town core and rural land around it, and the two need separating. In the core the housing is genuinely old, with piping altered in stages over a century and capped stubs left wherever an appliance was removed — so a pressure test can fail with every appliance in the house working fine.',
       'Beyond the town some properties are on a propane tank rather than a gas main, and a loss of gas there is a supply or tank matter for your propane company rather than a utility disconnection we can clear. We would rather tell you that on the phone than charge you for a visit to say it. Where it is mains gas, your supply is Duke Energy Kentucky and the piping is inspected under the state plumbing code.',
@@ -313,7 +313,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   'mount-carmel': {
     intro:
-      'Gas shut off in Mount Carmel? Your ZIP spans two counties. Call (513) 586-5107.',
+      'ZIP 45244 crosses a county line, and Mount Carmel is on the Clermont side, so Clermont County inspects your gas repair. Filing with Hamilton County because of the postal code delays the reconnect. We file correctly and restore service. Call (513) 586-5107.',
     relevance: [
       'Mount Carmel (ZIP 45244) is in Union Township, Clermont County, and the ZIP is a genuine trap because 45244 also covers Newtown and Turpin Hills, which are in Hamilton County. That means the same postal code sits across a county line, with different building departments on either side — and the address rather than the ZIP decides who inspects your gas work.',
       'For Mount Carmel that is Clermont County. A contractor going off the postal code can file with Hamilton County, which is a delay rather than a failure — the paperwork comes back and is redone while the house sits without hot water. Your gas comes from Duke Energy Ohio under the Public Utilities Commission of Ohio, and the housing is mid-century and later, so both leaks and CSST bonding turn up depending on the street.',
@@ -330,7 +330,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   summerside: {
     intro:
-      'Gas shut off in Summerside? Clermont County inspects, not Hamilton. Call (513) 586-5107.',
+      'Clermont County inspects gas repairs in Summerside, not Hamilton County or the city, and plenty of east-side contractors default to Hamilton. The utility waits on the correct sign-off, so we file in Clermont and get your gas restored. Call (513) 586-5107.',
     relevance: [
       'Summerside (ZIP 45245) is a mid-century and later community in Union Township, Clermont County, and the jurisdiction is worth stating plainly: permits and inspections go through Clermont County rather than Hamilton County or the city of Cincinnati. Plenty of contractors working the east side default to Hamilton, and the utility waits on the correct sign-off before it will reconnect.',
       'The housing spans enough years that the piping does too. On the older streets it is rigid black iron installed with the house, where a pressure test finds aged joints and capped stubs from appliances removed decades ago. On the newer streets it is often CSST, where the common finding is bonding to the electrical grounding system rather than a leak.',

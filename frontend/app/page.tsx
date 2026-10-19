@@ -11,7 +11,7 @@ import {
   GetFunding,
   ComfortClub,
   Community,
-  BookAndAreas,
+  BookAndContact,
 } from '@/components/PageSections';
 import ReviewsSection from '@/components/ReviewsSection';
 import LogoMarquee from '@/components/LogoMarquee';
@@ -76,7 +76,7 @@ export default function HomePage() {
       <Community />
       <ReviewsSection showMarquee={false} />
       <TornEdge fill="#1f48c8" />
-      <BookAndAreas />
+      <BookAndContact />
     </>
   );
 }
@@ -98,7 +98,7 @@ function PromoBar() {
         <h2 className="font-display text-3xl font-extrabold uppercase leading-[1.05] tracking-tight text-white sm:text-4xl lg:text-[42px]">
           $39 Furnace Tune-Up
         </h2>
-        <a href="#areas" className="btn-pink px-7 py-3 text-sm">
+        <a href="/request-estimate/" className="btn-pink px-7 py-3 text-sm">
           Get Offer Now
           <Icon name="chevron" className="h-4 w-4" />
         </a>

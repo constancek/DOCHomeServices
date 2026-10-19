@@ -5,7 +5,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part9: Record<string, LocationServiceCopy> = {
   'lakeside-park': {
     intro:
-      'Storm damage at the service on your Lakeside Park home? Your ZIP covers several separate cities, so we confirm the right permit office. Call (513) 586-5107.',
+      'Lakeside Park shares ZIP 41017 with four other cities, so the ZIP alone won’t tell an electrician where to file a storm repair permit. We confirm the right city office, repair the damaged mast or meter base and coordinate the reconnect. Call (513) 586-5107.',
     relevance: [
       'Lakeside Park (ZIP 41017) is a small, settled Kenton County city of mid-century homes on quiet streets, and it shares its ZIP code with Crescent Springs, Crestview Hills, Edgewood and Fort Mitchell. That is the single most useful thing to know about a repair here. A ZIP code tells you nothing about which authority issues your permit, and five separate cities inside one ZIP means an electrician working from the postal address alone has a good chance of filing in the wrong place.',
       'Getting it wrong does not fail an inspection — the paperwork comes back and you wait while it is refiled, at exactly the point in the week when a day costs you most. We confirm the city for the specific address before anything goes in. The housing itself is straightforward: mid-century services, many still original, under street trees planted with the subdivisions and now standing over the drops. The utility throughout is Duke Energy Kentucky.',
@@ -22,7 +22,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   'crescent-springs': {
     intro:
-      'Storm-damaged mast or meter base in Crescent Springs? Long suburban drops are the usual casualty. We repair it and handle the inspection. Call (513) 586-5107.',
+      'When a Crescent Springs house goes dark and the street lights stay on, the usual cause is a long service drop across a wide lot that caught a falling limb. We repair the storm-damaged mast or meter base and handle the inspection. Call (513) 586-5107.',
     relevance: [
       'Crescent Springs (ZIP 41017) is a suburban Kenton County city of mid-century and newer homes on lots noticeably wider than the river cities down the hill. Wide lots mean long overhead drops — more span between the pole at the road and a house set back from it, and more line for a falling limb to catch. That is the clearest reason houses out here lose their own service equipment while the street lights stay on.',
       'The newer sections change the answer. A good deal of recent building here was done with underground supply, which removes the mast and weatherhead entirely, so those houses only lose power when the utility does or to a fault at the meter or in the panel. We establish which arrangement your address has before quoting, because Duke Energy Kentucky schedules underground work with more lead time than overhead and the timelines are not comparable.',
@@ -39,7 +39,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   'crestview-hills': {
     intro:
-      'Storm damage at the service on your Crestview Hills home? University and retail circuits come back first — yours may still be your own equipment. Call (513) 586-5107.',
+      'Thomas More University and the retail corridor are restored first in Crestview Hills, so the campus and shops often light up while houses a few blocks back wait. Once your street is on, a dark house means storm damage to your own service. We repair it. Call (513) 586-5107.',
     relevance: [
       'Crestview Hills (ZIP 41017) holds both Thomas More University and a substantial retail corridor, and institutional and commercial load like that is restored as a priority. So the practical experience of a storm here is often watching the campus and the shops light up while residential streets a few blocks back are still dark. That ordering is normal and it says nothing about your street, but it does make it obvious sooner when your own house is the problem.',
       'Once the lines near you are back, the test is narrow: if the two houses either side have lights and you do not, the remaining fault is on equipment you own — the mast, the weatherhead, the meter box, or the panel — and Duke Energy Kentucky cannot reconnect to any of it until a licensed electrician has repaired it and it has been inspected. Note also that this ZIP covers several separate cities, so the permit office depends on the specific address.',
@@ -56,7 +56,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   edgewood: {
     intro:
-      'Storm damage at the service on your Edgewood home? Hospital circuits are restored first here, so a dark house usually means your own equipment. Call (513) 586-5107.',
+      'Lines near St. Elizabeth Healthcare in Edgewood are restored ahead of almost everything else, so you find out quickly whether the problem is yours. If neighbours have power and you don’t, we repair the storm-damaged mast, meter base or panel. Call (513) 586-5107.',
     relevance: [
       'Edgewood (ZIP 41017) is a residential Kenton County city and home to St. Elizabeth Healthcare, and living beside a hospital changes the shape of a storm outage in a way worth understanding. Utilities restore circuits serving hospitals and other critical facilities ahead of everything else — as they should — so the lines through this part of Edgewood commonly come back quickly. The result is that a homeowner here reaches the moment of clarity faster than almost anywhere else we work.',
       'That clarity is the useful part. When the lines near you are live within hours and your house is still dark, there is no ambiguity left: the fault is on equipment you own, and Duke Energy Kentucky will not reconnect to a damaged mast, weatherhead or meter box regardless of how quickly they restored the line. Calling that morning rather than waiting another day is the whole difference, because the queue for repairs is first come.',
@@ -73,7 +73,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   'taylor-mill': {
     intro:
-      'Storm damage at the mast or meter base in Taylor Mill? Newer sections have no mast to lose; the older ones do. Call (513) 586-5107.',
+      'Much of Taylor Mill’s newer housing is fed underground, so there is no mast or weatherhead to lose and an outage is usually the utility’s. Older overhead homes are different. We repair storm damage to masts, meter bases and panels on both. Call (513) 586-5107.',
     relevance: [
       'Taylor Mill (ZIP 41015) is a hilltop residential city south of Covington, and a large share of it is comparatively recent development rather than pre-war housing. That matters because much of the newer building here was done with underground supply, which removes the two components that account for most storm damage to residential service — the mast and the weatherhead. Those houses lose power when the utility does, or to a fault at the meter base or in the panel, and not much else.',
       'The older mid-century sections are conventional overhead, and being on the ridge means wind arrives with little to break it. Sustained gusts on a mast that has been in place for decades work fixings loose and pull a weatherhead out of true without necessarily breaking anything visibly. So the two halves of this city fail in genuinely different ways, and it is worth telling us which you have when you call.',
@@ -90,7 +90,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   elsmere: {
     intro:
-      'Storm damage at the service on your Elsmere home? Elsmere and Erlanger share a ZIP but not a permit office. Call (513) 586-5107.',
+      'Elsmere and Erlanger share a ZIP code but are separate cities, and a storm repair permit filed with the wrong one comes back while you wait. We confirm the city for your address, repair the damaged mast or meter base and coordinate the reconnect. Call (513) 586-5107.',
     relevance: [
       'Elsmere (ZIP 41018) sits along the Dixie Highway corridor immediately beside Erlanger, and the two share a ZIP code while being entirely separate cities. That is the trap here. An electrician working from the postal address will file with whichever city they assume, and filing with Erlanger for an Elsmere property means the paperwork comes back and you wait while it is redone. We confirm the city for the specific address before anything goes in.',
       'The housing is a mix of older and mid-century homes, so services span two eras — original entrances on the older streets and mid-century equipment on the rest, much of it still in place. The Dixie corridor carries commercial load, which is restored as a priority, so the businesses along it are frequently lit before the residential streets behind. That order is normal and tells you nothing about your own street.',
@@ -107,7 +107,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   independence: {
     intro:
-      'Storm damage at the service on your Independence home? The county seat, but the city issues the permit. We handle both. Call (513) 586-5107.',
+      'Kenton County’s offices are in Independence, but the city issues its own permits, and that mix-up can cost a storm repair a day. We file with the city, repair the damaged mast or meter base and coordinate the reconnect with Duke Energy Kentucky. Call (513) 586-5107.',
     relevance: [
       'Independence (ZIP 41051) is the Kenton County seat and one of the faster-growing cities in Northern Kentucky, and being the county seat causes a specific confusion. County offices are located here, so people reasonably assume the county handles the permit — but Independence is a city and issues its own. That assumption sends paperwork to the wrong desk, and the cost is a day of waiting while it is refiled rather than any dispute about the work.',
       'The growth means the housing spans a wide range. The historic core has older services, some original. The newer subdivisions around it were largely developed with underground supply, so those houses have no mast or weatherhead to lose and only go dark when the utility does or when there is a fault at the meter or in the panel. Two houses a mile apart genuinely have different likely failures and different reconnect timelines.',
@@ -124,7 +124,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   'dayton-ky': {
     intro:
-      'Storm damage at the service on your Dayton home? Tall Victorians on narrow riverfront lots, often with the mast through the roof. Call (513) 586-5107.',
+      'Dayton’s tall late-1800s houses sit close on narrow riverfront lots, with the service mast often passing up through the roof. A storm limb that bends it lets water in. We repair the mast, seal the roof penetration and coordinate the reconnect. Call (513) 586-5107.',
     relevance: [
       'Dayton (ZIP 41074) shares the same narrow riverfront strip as Bellevue next door, in tight streets of well-preserved late-1800s and early-1900s houses. Those houses are tall for their footprint and close together, which puts the service entrance high on the wall and frequently running up through the roof rather than stopping at the eaves. When a limb bends a mast at a roof penetration you have a wiring problem and an opening in the roof at the same time, and water finds the second one long before anyone worries about the first.',
       'So the flashing and the seal at that penetration are part of the electrical repair here rather than a roofer’s follow-up. Sharing the strip with Bellevue also means the two cities are commonly restored together, so what your neighbours across the boundary report applies to you. The low riverfront ground adds water to the same storms, and a submerged panel is replaced rather than dried out — something an inspector checks before Duke Energy Kentucky reconnects.',
@@ -141,7 +141,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   southgate: {
     intro:
-      'Storm damage at the mast or meter base in Southgate? On the slope between the river flats and the bluff. We repair it. Call (513) 586-5107.',
+      'Southgate sits on the slope between Newport’s river flats and the Fort Thomas bluff, so it gets more wind than the riverfront, and its drops run across a grade. We repair storm-damaged masts and meter bases and coordinate the reconnect. Call (513) 586-5107.',
     relevance: [
       'Southgate (ZIP 41071) sits between Newport below and Fort Thomas above, which puts it on the transition slope rather than on either the river flats or the bluff top. That middle position gives it a bit of both and neither in full: more wind than the sheltered riverfront streets, less than the exposed bluff, and enough grade that service drops run across a slope rather than level. A span under tension puts more load on the mast when a limb lands on it.',
       'It also means the neighborhood does not share one restoration fate with either neighbour. Streets higher up can come back at a different time from streets lower down, so what Newport or Fort Thomas is reporting may not apply to you. The housing is mid-century, with services largely of that era and many still original, and the utility is Duke Energy Kentucky rather than Duke Energy Ohio.',
@@ -158,7 +158,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   wilder: {
     intro:
-      'Storm damage to a service in Wilder? Industrial circuits along the Licking come back early. We repair residential and smaller commercial. Call (513) 586-5107.',
+      'Industrial circuits along the Licking River corridor are usually restored early, which helps Wilder homes nearby until the lines are live and your house is still dark. Then it’s your own equipment. We repair storm damage on homes and smaller commercial services. Call (513) 586-5107.',
     relevance: [
       'Wilder (ZIP 41076) runs along the Licking River corridor with a commercial and industrial base alongside its residential neighborhoods. That industrial load has a real effect on restoration: circuits carrying it are prioritised, so the lines near the corridor frequently come back well before purely residential streets elsewhere would. Living close to that is an advantage in a storm, right up to the point where the lines are live and your own house is still dark.',
       'At that point the fault is on your equipment, and Duke Energy Kentucky will not reconnect to a damaged mast, weatherhead or meter box regardless of how fast they restored the line. The Licking adds water to the low ground along the corridor, and a panel that has stood in water gets replaced rather than dried out. On the commercial side we handle smaller services and will tell you honestly when a building needs a larger contractor.',
@@ -175,7 +175,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   'highland-heights': {
     intro:
-      'Storm damage at the service on your Highland Heights property? On rental property the owner has to authorise the repair. Call (513) 586-5107.',
+      'Near Northern Kentucky University, a Highland Heights rental with storm damage can sit dark for days, because the tenant can’t authorise the repair. Once the owner approves it, we repair the mast or meter base and coordinate the reconnect. Call (513) 586-5107.',
     relevance: [
       'Highland Heights (ZIP 41076) is home to Northern Kentucky University, and the housing around it is a mix of mid-century family homes and student rentals. Those two behave completely differently after a storm, and not because of the wiring. On an owner-occupied house the decision to proceed is made by whoever is standing in the driveway. On the rental next door the tenant cannot authorise anything, the owner may be elsewhere, and identical damage can sit for days.',
       'The campus itself carries institutional load, which is restored as a priority, so the lines through parts of this city often come back early. That is useful information rather than a complaint: once those lines are live, a house still in the dark has a fault on its own equipment, and Duke Energy Kentucky cannot reconnect to it. If you own your home here, calling the same morning is the single thing most within your control.',
@@ -192,7 +192,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   'cold-spring': {
     intro:
-      'Storm damage at the service on your Cold Spring home? Growth means overhead and underground on the same road. Call (513) 586-5107.',
+      'Cold Spring has grown along US-27, so overhead streets with masts sit near newer underground-fed subdivisions that have none. Storm damage depends on which you have. We check, repair the mast, meter base or panel, and coordinate the reconnect. Call (513) 586-5107.',
     relevance: [
       'Cold Spring (ZIP 41076) has grown steadily along the US-27 corridor, and the result is a city where the service arrangement changes with the age of the street rather than being uniform. Established neighborhoods are conventional overhead, with masts and drops and services largely of their era. The newer subdivisions were frequently developed with underground supply, so those houses have no mast or weatherhead to lose at all.',
       'That produces genuinely different outcomes from one storm. An overhead house a few streets from an underground one can need a full entrance rebuild while its neighbour was never at risk of that particular failure. The corridor itself carries commercial load which is restored as a priority, so the businesses along US-27 are commonly lit before residential streets behind them — normal, and not an indication of anything about your own supply.',
@@ -209,7 +209,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   alexandria: {
     intro:
-      'Storm damage at the service on your Alexandria home? On a well, an outage means no water either. We repair masts, meter bases, and panels. Call (513) 586-5107.',
+      'On Alexandria’s semi-rural edge, many homes are on private wells, so a storm outage cuts off water as well as lights, and septic pumps stop too. We find the damage along long private service runs and repair it. Call (513) 586-5107.',
     relevance: [
       'Alexandria (ZIP 41001) is the Campbell County seat, with a historic core surrounded by newer subdivisions and a semi-rural edge. It is that rural edge that changes the urgency of a storm call. Properties out there frequently sit well back from the road on long private service runs, and a good number are on private wells — which means losing power means losing water, because a well pump runs on electricity. Septic systems with pumps are affected the same way.',
       'That is worth saying on the phone, because we cannot tell it from an address. A long private run also means the damage may be somewhere out along the line rather than at the house, so finding it is the first task. Closer in, the historic core has older services and the newer subdivisions are often underground with no mast to lose. Alexandria is a city and issues its own permits despite being the county seat.',
@@ -226,7 +226,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   melbourne: {
     intro:
-      'Storm damage or a flooded panel in Melbourne? A small river village a long way east. We repair both and handle the inspection. Call (513) 586-5107.',
+      'Melbourne is about as far east as we go on the Kentucky side, so restoration reaches it late after a regional storm. If neighbours have power and you don’t, your repair doesn’t have to wait for a utility crew. We fix the mast, meter base or flooded panel. Call (513) 586-5107.',
     relevance: [
       'Melbourne (ZIP 41059) is a small Campbell County village on the Ohio well east of Newport, and it is about as far from the core of the metro as we go on the Kentucky side. Restoration works outward, so the lines here are commonly among the later ones reached in a regional storm — which makes the window test more valuable rather than less. If the neighbours have lights and you do not, the remaining fault is on your own equipment and that repair does not have to wait for a utility crew to arrive.',
       'The riverside position supplies the other problem. Older houses on low ground put panels where water reaches them, and submerged electrical equipment is replaced rather than dried out, because water gets behind the bus bars and into the breakers and keeps corroding after the surface dries. An inspector checks for that before Duke Energy Kentucky reconnects, so we look at the panel as standard here and not only what is visible outside.',
@@ -243,7 +243,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   hebron: {
     intro:
-      'Storm damage at the service on your Hebron home? Rural properties on wells lose water with the power. We repair both ends. Call (513) 586-5107.',
+      'Rural Hebron properties near the airport often sit on long private service runs, with wells and septic, so a storm outage can mean no water at all. The damage may be out along the run, not at the house. We find it and repair it. Call (513) 586-5107.',
     relevance: [
       'Hebron (ZIP 41048) sits in Boone County near the airport, mixing newer subdivisions with established semi-rural properties, and those two need different conversations. The rural properties often sit well back from the road with long private service runs, and a number are on wells and septic — so an outage there means no water at all rather than just no lights, and the damage may be somewhere out along the run rather than at the house.',
       'The subdivisions are a different picture: frequently underground supply, no mast or weatherhead to lose, and power that goes only when the utility’s does or when there is a fault at the meter or in the panel. The airport-area ground is also flat and open, so where houses are overhead the failure mode tends to be wind working on fixings rather than limbs breaking things — damage that looks like nothing from the ground and still stops a reconnect.',
@@ -260,7 +260,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   burlington: {
     intro:
-      'Storm damage at the service on your Burlington home? Old courthouse core or newer subdivision — different repairs. Call (513) 586-5107.',
+      'Around Burlington’s old courthouse, mature trees hang over the overhead drops and the service entrances can be decades older than those in the newer subdivisions. Storm repairs differ between the two, and we handle both. Call (513) 586-5107.',
     relevance: [
       'Burlington (ZIP 41005) is the Boone County seat, with a historic core around the old courthouse surrounded by fast-growing newer subdivisions. The contrast between those two is sharp. Around the courthouse the buildings are older and the trees are genuinely mature — planted long before the subdivisions existed — so overhead drops there run under heavy canopy and the service entrances can be decades older than anything in the newer developments.',
       'The subdivisions were largely built with underground supply, so those houses have no mast or weatherhead at all, and the trees planted with them are still comparatively small. The result is that the same storm produces limb damage and torn-off entrances in the old core while the newer streets lose nothing but the utility feed. We establish which you have before quoting, because the likely repair and the reconnect timeline are not comparable.',
@@ -277,7 +277,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   union: {
     intro:
-      'Power out in Union after a storm? On these newer streets it is usually the utility, not your equipment. We will tell you straight. Call (513) 586-5107.',
+      'Most Union homes are fed underground, so if the power is out after a storm, it is most likely a utility outage and not your equipment. We’ll tell you that straight. If it is your meter base or surge damage in the panel, we repair it. Call (513) 586-5107.',
     relevance: [
       'Union (ZIP 41091) is one of the fastest-growing cities in Boone County, made up largely of subdivisions built from the 1990s onward — and it is worth being straightforward about what that means. Most of this housing was developed with underground supply, which removes the mast and the weatherhead, the two components responsible for the large majority of storm damage to residential electrical service. If your power is out in Union, the most likely explanation is a genuine utility outage rather than anything of yours being broken.',
       'So this is a neighborhood where we frequently tell people they do not need us. What remains possible is a fault at the meter base, damage in the underground run itself, or surge damage inside the panel from a nearby strike — and the line feeding your subdivision from the main road is often still overhead, so a tree can take out the whole street even where individual houses are underground. Worth a call to describe it, and often not worth a visit.',
@@ -294,7 +294,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   walton: {
     intro:
-      'Storm damage at the service on your Walton home? Southern edge of the metro, so lines come back late. We repair your side now. Call (513) 586-5107.',
+      'Walton sits at the southern edge of the Boone County metro, so the lines here come back late after a regional storm. Your own repair doesn’t depend on that. We fix storm-damaged masts, meter bases and panels on your side of the meter. Call (513) 586-5107.',
     relevance: [
       'Walton (ZIP 41094) sits at the southern edge of the Boone County metro, with a historic core, newer subdivisions, and rural properties around them. Being at the edge has a consistent effect: restoration works outward from the denser areas, so the lines here are commonly among the later ones reached after a regional storm. That is worth planning around rather than waiting on, because the repair to your own equipment does not depend on the utility arriving.',
       'The three kinds of property need three different conversations. The historic core has older overhead services, some original. The subdivisions are frequently underground with no mast to lose. The rural properties sit back from the road on long private runs, and some are on wells — where losing power means losing water too, since a well pump is electric. Tell us which you have when you call and we will arrive equipped for it.',
@@ -311,7 +311,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   'mount-carmel': {
     intro:
-      'Storm-damaged mast or meter base in Mount Carmel? Clermont County and Union Township handle the permit, not Hamilton. Call (513) 586-5107.',
+      'Mount Carmel is in Clermont County, so storm repair permits go through Clermont County and Union Township, not Hamilton County. Duke looks for that sign-off before reconnecting. We file it correctly and repair the damaged mast or meter base. Call (513) 586-5107.',
     relevance: [
       'Mount Carmel (ZIP 45244) is a Union Township community in Clermont County near the I-275 corridor, and the county line is the first thing to establish. Permits and inspections here go through Clermont County and Union Township rather than Hamilton County or the city of Cincinnati, and an electrician who works mostly on the Hamilton County side can file out of habit with the wrong authority. Duke will be looking for the sign-off before reconnecting, so a misfiled permit means waiting while it is redone.',
       'The housing is established mid-century and newer, so services span both overhead and underground arrangements depending on the age of the street. Sitting near the I-275 corridor also means more open ground than the older inner neighborhoods, so where houses are overhead the wind tends to work on fixings and pull entrances out of true rather than limbs snapping things outright — damage that looks like nothing and still stops a reconnect.',
@@ -328,7 +328,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   summerside: {
     intro:
-      'Storm damage at the service on your Summerside home? Wide suburban lots mean long drops. Clermont County handles the permit. Call (513) 586-5107.',
+      'Summerside’s wide suburban lots set houses back from the road, so long service drops give falling limbs more line to catch. We repair storm-damaged masts and meter bases in this part of western Clermont County and file with the right office. Call (513) 586-5107.',
     relevance: [
       'Summerside (ZIP 45245) is a Union Township community in western Clermont County, in suburban neighborhoods of mid-century and newer homes on lots considerably wider than the city grid. Wide lots mean long overhead drops — more span between the pole at the road and a house set back from it — and a longer span is simply more line for a falling limb to catch. It is the clearest reason suburban houses lose their own equipment while the street stays lit.',
       'The permit and inspection go through Clermont County and Union Township rather than Hamilton County, which is worth confirming before work is scheduled rather than after. Where the newer sections were developed with underground supply there is no mast or weatherhead to lose at all, so those houses only go dark when the utility does or when there is a fault at the meter or in the panel.',

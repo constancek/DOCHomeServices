@@ -1,6 +1,6 @@
 export const part1: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'sedamsville': {
-    intro: 'Lighting a hillside yard in Sedamsville? Our licensed electricians design layered landscape lighting that makes the steps safe and brings the trees and stonework into focus — weather-rated fixtures and concealed wiring for homes along River Road and the slope above it. Call (513) 586-5107.',
+    intro: 'Lighting a hillside yard in Sedamsville? Our licensed electricians design layered landscape lighting that makes the steps safe and brings the trees and stonework into focus. Weather-rated fixtures and concealed wiring for homes along River Road and the slope above it. Call (513) 586-5107.',
     relevance: [
       'Sedamsville (ZIP 45204) is a historic riverside neighborhood on Cincinnati’s west side, with homes built into the hillside above River Road. Sloped lots mean stairs and walkways that are easy to misjudge at night, so path and step lighting usually anchors the design here.',
       'Many lots carry mature trees and the late-1800s houses have architectural detail worth accenting. We use weather-rated fixtures and conceal the low-voltage wiring so uplights and path lights stand up to the river-valley seasons.',
@@ -27,7 +27,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'What landscape lighting works on a low-lying Riverside lot?', a: 'On Riverside’s low River Road lots we keep transformers mounted clear of grade and bury concealed wiring suited to wet ground. Path lighting along the walkway and uplighting on trees give these riverfront homes depth at night, all with weather-rated fixtures.' }],
   },
   'east-price-hill': {
-    intro: 'Lighting a hilltop yard in East Price Hill? Our licensed electricians design landscape lighting for the dense streets around Warsaw Avenue and the Incline District — accenting the early-1900s frame and brick homes with weather-rated fixtures and concealed wiring. Call (513) 586-5107.',
+    intro: 'Lighting a hilltop yard in East Price Hill? Our licensed electricians design landscape lighting for the dense streets around Warsaw Avenue and the Incline District, accenting the early-1900s frame and brick homes with weather-rated fixtures and concealed wiring. Call (513) 586-5107.',
     relevance: [
       'East Price Hill (ZIP 45205) sits on the bluff above the west-side river flats — the neighborhood the old Price Hill Incline once carried residents up to. The streets around Warsaw Avenue and the Incline District are packed with dense early-1900s housing: two- and three-story frame homes and brick two-families built close together, with tall facades that take well to grazing and uplighting.',
       'Tight lots and shared property lines mean precise aiming and shielding matter, so light lands on your own facade and steps rather than the neighbors’ windows. The hillside grade puts steps and entries at a premium, so step lighting and a clearly lit path are where plans here usually begin, all on concealed, weather-rated low-voltage runs.',
@@ -45,7 +45,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'What landscape lighting suits a West Price Hill yard?', a: 'The roomier lots off Glenway Avenue suit a layered plan — path lights, uplit trees, and accent light on the house. We size the transformer for the larger yard and use weather-rated fixtures with concealed wiring built for the Midwest seasons.' }],
   },
   'lower-price-hill': {
-    intro: 'Accenting a brick rowhouse in Lower Price Hill? Our licensed electricians light the 19th-century Italianate facades around State Avenue with grazing and accent fixtures — weather-rated and concealed for the Mill Creek valley setting. Call (513) 586-5107.',
+    intro: 'Accenting a brick rowhouse in Lower Price Hill? Our licensed electricians light the 19th-century Italianate facades around State Avenue with grazing and accent fixtures, weather-rated and concealed for the Mill Creek valley setting. Call (513) 586-5107.',
     relevance: [
       'Lower Price Hill (ZIP 45204) is the compact neighborhood at the foot of Price Hill, down in the Mill Creek valley near the river and the industrial bottoms around State Avenue. It holds one of Cincinnati’s most intact stretches of 19th-century Italianate brick rowhouses — facades with cornices, hoods, and stoops that grazing light brings out beautifully.',
       'The lots here are compact and the buildings sit close to the sidewalk, so wall-grazing and tightly aimed accent light do more than sprawling yard lighting. The low-lying valley near Mill Creek and the river means damp ground, so we keep transformers clear of grade and conceal weather-rated wiring suited to that location.',
@@ -54,7 +54,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'What landscape lighting works for a Lower Price Hill rowhouse?', a: 'Wall-grazing and tightly aimed accent light suit the 19th-century Italianate facades around State Avenue better than sprawling yard lighting. Given the damp Mill Creek valley ground, we keep transformers clear of grade and conceal weather-rated wiring.' }],
   },
   'over-the-rhine': {
-    intro: 'Accenting a 19th-century facade in Over-the-Rhine? Our licensed electricians light the Italianate brick around Vine Street and Findlay Market with grazing and accent fixtures — weather-rated and concealed for these historic blocks. Call (513) 586-5107.',
+    intro: 'Accenting a 19th-century facade in Over-the-Rhine? Our licensed electricians light the Italianate brick around Vine Street and Findlay Market with grazing and accent fixtures, weather-rated and concealed for these historic blocks. Call (513) 586-5107.',
     relevance: [
       'Over-the-Rhine (ZIP 45202) holds one of the largest intact collections of 19th-century Italianate architecture in the country — block after block of brick tenements, storefronts, and rowhouses around Vine Street and Findlay Market, most built between the 1850s and 1880s. That cornice, hood, and storefront detail is exactly what grazing and accent light is for.',
       'With buildings set right at the sidewalk and many split into condos, the work here is facade lighting and small courtyard or stoop spaces rather than open yards. We graze the brick, light entries for security, and conceal weather-rated low-voltage wiring so the historic fronts read well without altering the architecture.',

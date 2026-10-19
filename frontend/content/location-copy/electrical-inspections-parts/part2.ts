@@ -113,7 +113,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bellevue': {
     intro:
-      'Own a late-1800s home in Bellevue, KY? A licensed electrical inspection documents the panel, wiring, and grounding in a written report — useful before a sale, renovation, or a high-water check. Call (513) 586-5107.',
+      'Own a late-1800s home in Bellevue, KY? A licensed electrical inspection documents the panel, wiring, and grounding in a written report, useful before a sale, renovation, or a high-water check. Call (513) 586-5107.',
     relevance: [
       'Bellevue (ZIP 41073) is a compact Northern Kentucky river city with a historic Fairfield Avenue business district and tight streets of well-preserved late-1800s homes. Homes that age carry wiring installed and patched across more than a century, often with original ungrounded circuits and panels that were never modernized, so a documented inspection is the clearest way to understand a home before buying or remodeling it.',
       'Bellevue’s riverfront location means high water is part of the picture, and homes that have seen flooding can have corroded panels and compromised grounding that need verification afterward. A licensed inspection checks the service, grounding, and GFCI and AFCI protection and produces a written report suited to a pre-purchase review, a permit file, or a post-storm assessment.',

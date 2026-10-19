@@ -15,7 +15,6 @@ const config: ServiceLocationConfig = {
   schemaServiceType: 'Air Conditioning Repair',
   ctaLine: 'AC not cooling in {neighborhood}? Call for immediate service',
   heroImage: '/services/ac-repair-hero.webp',
-  promo: 'Save $75 on same-day AC repairs in {neighborhood} — book now, offer ends soon',
   introHeading: 'AC Repair in {neighborhood}',
   introParagraphs: [
     'When an air conditioning system stops working, comfort changes quickly — and during hot weather, a broken AC can create real safety concerns inside the home. {brand} provides professional AC repair for homeowners in {place}.',

@@ -46,7 +46,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'new-richmond': {
     intro:
-      'When the Ohio River backs into a New Richmond home, mold can follow within a day or two — we dry the flooded material fast to stay ahead of it, in this historic riverfront village. Call (513) 586-5107.',
+      'When the Ohio River backs into a New Richmond home, mold can follow within a day or two. We dry the flooded material fast to stay ahead of it, in this historic riverfront village. Call (513) 586-5107.',
     relevance: [
       'Along the Ohio in Clermont County, New Richmond (ZIP 45157) is a historic river village whose 19th-century homes line the waterfront. Flood water is dirty and soaks into everything porous it reaches, and in warm weather mold can establish in that wet drywall and framing inside 24 to 48 hours, so a home flooded last week becomes a mold job this week.',
       'Speed is what decides how big this gets. Call while the material is still wet and fast measured drying usually leaves nothing to remediate at all. Where growth has already started, we seal the area behind full poly sheeting and run a negative-air machine vented outside, lift the carpet and discard the pad, cut the drywall to a set height and pull the insulation, then HEPA-vacuum and treat the framing and dry to readings. Spotting on the bathroom tile from shower steam is a different thing — wipe it down, run the exhaust fan, and there is nothing here to remediate.',
@@ -121,7 +121,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   moscow: {
     intro:
-      'When the Ohio backs into a Moscow home, mold takes hold in the material that stayed wet — we dry it down and remediate in this low riverside village. Call (513) 586-5107.',
+      'When the Ohio backs into a Moscow home, mold takes hold in the material that stayed wet. We dry it down and remediate in this low riverside village. Call (513) 586-5107.',
     relevance: [
       'Set on low riverside ground in southeastern Clermont County, Moscow (ZIP 45153) sits close enough to the Ohio that the river itself is the flood when the gauge climbs. River water soaks the older homes here through, and in warm weather mold can establish in the damp drywall and framing inside a day or two, so last week\'s flood becomes this week\'s growth.',
       'Catching it wet is far cheaper than remediating it later — measured drying inside the first day or two often means nothing has to come out. Where mold has set in, we tape off the area, run a HEPA air scrubber, pull the soaked drywall to a line and bag the wet insulation, then treat the framing and dry to readings so the conditions are gone. A little mildew on the shower grout from steam is not this at all; that is a wipe-down and a working fan, not a remediation.',
@@ -136,7 +136,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   newtonsville: {
     intro:
-      'A musty smell in a Newtonsville home with no mold in sight often traces under the floor — we inspect the crawlspace and deal with the ground moisture, in this rural northeastern Clermont village. Call (513) 586-5107.',
+      'A musty smell in a Newtonsville home with no mold in sight often traces under the floor. We inspect the crawlspace and deal with the ground moisture, in this rural northeastern Clermont village. Call (513) 586-5107.',
     relevance: [
       'Newtonsville (ZIP 45158) is a small rural village in northeastern Clermont County where the older homes sit well back from any city line, many of them over crawlspaces on damp ground. Where the vapor barrier has failed or was never laid, ground moisture keeps the joists and subfloor above it wet, and mold grows on the wood beneath the house unseen.',
       'We correct the source — bare earth, poor drainage, a torn barrier — before remediating, then tape off the crawlspace, run a HEPA air scrubber, HEPA-vacuum and treat the framing, and remove any porous material that has rotted through, drying to measured readings. Surface mold on the bathroom grout from steam is a separate, smaller thing: a clean and a working fan, not a remediation job.',
@@ -181,7 +181,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   ross: {
     intro:
-      'When the Great Miami tops its banks into Ross, mold takes hold in the material that stayed wet — we dry it down and remediate in this Butler County township. Call (513) 586-5107.',
+      'When the Great Miami tops its banks into Ross, mold takes hold in the material that stayed wet. We dry it down and remediate in this Butler County township. Call (513) 586-5107.',
     relevance: [
       'Ross (ZIP 45061) spreads across Ross Township in southwestern Butler County along the Great Miami, its small-town and rural homes sitting near the water. When the river tops its banks it soaks the drywall and framing of the low homes, and in warm weather mold can establish in that wet material inside a day or two, so the flood becomes a mold problem within the week.',
       'The cheaper outcome depends on the call coming early. While the drywall and framing are still wet, measured drying often ends the job before any tear-out. Where growth has begun, we close the space off with full poly sheeting and a negative-air machine exhausting outdoors, cut the wet drywall, then HEPA-vacuum and treat the framing that stays sound with an antimicrobial, and dry to readings. If what you have is a patch of grout mildew from a steamy shower, that is a maintenance clean on a non-porous surface, and we will tell you so rather than book a containment.',
@@ -211,7 +211,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'beckett-ridge': {
     intro:
-      'Musty smell in a Beckett Ridge lower level? A newer home grows mold too when the basement stays damp — we find the source in this West Chester golf-course community. Call (513) 586-5107.',
+      'Musty smell in a Beckett Ridge lower level? A newer home grows mold too when the basement stays damp. We find the source in this West Chester golf-course community. Call (513) 586-5107.',
     relevance: [
       'Laid out around its golf course, Beckett Ridge (ZIP 45069) is a planned West Chester community in Butler County whose homes date from the 1980s onward, most with a finished lower level. A newer house is no safer than an old one: a foundation crack, a failed sump, or summer humidity keeps that finished basement damp, and mold grows behind the baseboards where the smell reaches you before the sight does.',
       'We find the real source — a crack, a failed sump, or humidity — and fix it before remediating, then seal the area with full poly sheeting and a negative-air machine vented outside, cut the drywall behind the baseboards, pull the insulation, and HEPA-vacuum and treat the framing, drying to measured readings and often leaving a dehumidifier to hold the space. A patch of black on the bathroom grout upstairs from steam is not this; clean it, run the fan, and there is no remediation to do.',
@@ -226,7 +226,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   wetherington: {
     intro:
-      'Mold behind a wall in a Wetherington home? A hidden leak in a large house does real damage before anyone sees it — we trace it in this upscale West Chester community. Call (513) 586-5107.',
+      'Mold behind a wall in a Wetherington home? A hidden leak in a large house does real damage before anyone sees it. We trace it in this upscale West Chester community. Call (513) 586-5107.',
     relevance: [
       'Built around a golf course, Wetherington (ZIP 45069) is an upscale West Chester community in Butler County whose larger homes date from the 1980s and 90s onward and carry long plumbing runs. In a house that size a slow leak inside a wall or ceiling can travel a long way before a stain appears, and the cavity behind it grows mold on the drywall and framing the whole time.',
       'As plumbers we trace and repair the hidden supply run first, because remove the growth without the leak and it returns. Then we seal the area with full poly sheeting and a negative-air machine vented outside, open the ceiling or wall cavity, pull the wet insulation, and cut the drywall back to dry, drying to measured readings. If what you have is surface mold on the bathroom tile from steam, that is a maintenance clean and a working fan, and we will tell you so rather than contain a room.',
@@ -271,7 +271,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'new-miami': {
     intro:
-      'When the Great Miami floods New Miami, mold follows in the low homes that stayed wet — we dry the source and remediate in this old mill village. Call (513) 586-5107.',
+      'When the Great Miami floods New Miami, mold follows in the low homes that stayed wet. We dry the source and remediate in this old mill village. Call (513) 586-5107.',
     relevance: [
       'An old mill community on the Great Miami just north of Hamilton, New Miami (ZIP 45011) is a village of closely spaced older homes on low riverside ground. When the river backs into those basements it soaks the drywall, framing, and everything stored down there, and in warm weather mold can establish in that wet material inside a day or two.',
       'Getting to it before it dries in place is the whole game — early measured drying often leaves nothing to remediate. Where mold has set in, we tape off the area, run a HEPA air scrubber, lift and discard the carpet and pad, and cut the drywall, then treat the framing and dry to readings. Because it is the river that put the water there, we also look at keeping it out next time with a backwater valve or better drainage. Grout mildew from bathroom steam is not part of a flood job; clean it, run the fan, and leave it there.',
@@ -301,7 +301,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   landen: {
     intro:
-      'Musty smell in a Landen lower level? A planned-community home grows mold too when the basement stays damp — we find the source near the lake. Call (513) 586-5107.',
+      'Musty smell in a Landen lower level? A planned-community home grows mold too when the basement stays damp. We find the source near the lake. Call (513) 586-5107.',
     relevance: [
       'Planned out from the 1970s and 80s around its lake and common areas, Landen (ZIP 45040) is a Warren County community near Maineville and Mason, most homes carrying a finished lower level. The age of the house does not spare it: a foundation crack, a tired sump, or summer humidity keeps that basement damp, and mold grows behind the drywall and under the carpet where the smell finds you first.',
       'We find the real source — a crack, a sump, or humidity — and fix it before remediating, then tape off the space, run a HEPA air scrubber, lift the carpet and discard the pad, and cut the drywall low on the wall, drying to measured readings and often leaving a dehumidifier to hold the room. A patch of black on the bathroom grout from steam is not this; clean it, run the fan, and there is nothing to remediate.',
@@ -361,7 +361,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-lebanon': {
     intro:
-      'When the Little Miami floods South Lebanon, mold follows in whatever stayed wet — we dry the source fast and remediate in this growing riverside town. Call (513) 586-5107.',
+      'When the Little Miami floods South Lebanon, mold follows in whatever stayed wet. We dry the source fast and remediate in this growing riverside town. Call (513) 586-5107.',
     relevance: [
       'Grown fast along the Little Miami in Warren County, South Lebanon (ZIP 45065) pushes new subdivisions out from a historic core on low riverside ground. When the river comes up, flood water soaks the drywall and framing of both the old homes and the new builds, and in warm weather mold can establish in that wet material inside a day or two.',
       'The difference between a drying bill and a remediation bill is how fast you call. Reach us while it is still wet and measured drying usually settles it. Where growth has begun, we put up full poly sheeting with a negative-air machine vented outside, cut the drywall to a set height, pull the insulation, and HEPA-vacuum and treat the studs, drying to readings. Surface mildew on the shower grout from steam is not a flood problem; that is a maintenance wipe and a working exhaust fan.',
@@ -406,7 +406,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   aurora: {
     intro:
-      'When the Ohio River comes up over Aurora, mold follows in the riverfront homes that stayed wet — we dry the source and remediate below Hillforest. Call (513) 586-5107.',
+      'When the Ohio River comes up over Aurora, mold follows in the riverfront homes that stayed wet. We dry the source and remediate below Hillforest. Call (513) 586-5107.',
     relevance: [
       'A historic Ohio River town in Dearborn County, Indiana, Aurora (ZIP 47001) keeps a riverfront downtown of 19th-century homes on low ground below the Hillforest Victorian mansion. A river flood soaks those old homes through, and in warm weather mold can establish in the damp drywall and framing inside a day or two, turning a receding flood into a mold job within the week.',
       'The less expensive path is to dry it before mold takes hold — call while the material is still wet and measured drying often leaves nothing to remediate. Where growth has started, we contain the area behind poly sheeting with a negative-air machine vented outside, lift the carpet and pad, cut the drywall, and HEPA-vacuum and treat the framing, drying to readings so the conditions are gone. A spot of mildew on the bathroom tile from steam is a maintenance clean on a non-porous surface, not a remediation.',

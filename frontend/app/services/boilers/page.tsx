@@ -349,7 +349,7 @@ export default function BoilersPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="boilers" />
     </>
   );
 }

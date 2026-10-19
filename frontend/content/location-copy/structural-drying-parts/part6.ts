@@ -46,7 +46,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'new-richmond': {
     intro:
-      "After the Ohio River backs into a New Richmond home, the days that follow are about drying the structure the flood left behind — we bring air movers and dehumidifiers to this historic riverfront village. Call (513) 586-5107.",
+      "After the Ohio River backs into a New Richmond home, the days that follow are about drying the structure the flood left behind. We bring air movers and dehumidifiers to this historic riverfront village. Call (513) 586-5107.",
     relevance: [
       "New Richmond (ZIP 45157) is a historic Ohio River village in Clermont County with 19th-century homes lined along the riverfront. When the river floods a home, the water is contaminated, so the porous material it soaked — carpet, pad, saturated drywall and insulation — comes out rather than gets dried in place; what stays is the old framing, subfloor, and plaster the house is built from.",
       "Once the ruined material is removed, we dry that structure to measured readings. Air movers and dehumidifiers run continuously on the framing and subfloor, and we meter daily against a dry standard until the numbers hold. Century-old framing and plaster give up water more slowly than modern drywall, so we read it rather than guess, and the equipment stays until the readings say the structure is dry.",
@@ -121,7 +121,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   moscow: {
     intro:
-      "After the Ohio comes up over Moscow, the work that follows is drying the old riverside structure the flood soaked — we bring air movers and dehumidifiers to this low riverside village. Call (513) 586-5107.",
+      "After the Ohio comes up over Moscow, the work that follows is drying the old riverside structure the flood soaked. We bring air movers and dehumidifiers to this low riverside village. Call (513) 586-5107.",
     relevance: [
       "Moscow (ZIP 45153) sits on the low southeastern edge of Clermont County, close enough to the Ohio that when the gauge climbs the river itself is the flood. In the older homes near the bank it soaks floorboards, the base of the walls, and anything porous it reaches. Because river water is contaminated, the ruined porous material comes out rather than gets dried in place.",
       "What we dry is the old framing and floorboards left behind once the pad, wet insulation, and saturated drywall are removed. Older solid boards and framing give up water slowly, so we meter them daily against a dry standard elsewhere in the house and run air movers and dehumidifiers continuously until the readings hold. Drying finishes when the numbers say so, not on a set schedule.",
@@ -376,7 +376,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   lawrenceburg: {
     intro:
-      "After high water gets behind the Lawrenceburg levee, the days that follow are about drying the old downtown structure the flood soaked — we cross into Indiana with air movers and dehumidifiers. Call (513) 586-5107.",
+      "After high water gets behind the Lawrenceburg levee, the days that follow are about drying the old downtown structure the flood soaked. We cross into Indiana with air movers and dehumidifiers. Call (513) 586-5107.",
     relevance: [
       "A riverfront levee holds the Ohio back from downtown Lawrenceburg most of the year, but when high water gets behind it, contaminated river water reaches the 19th-century buildings the city grew from. Lawrenceburg (ZIP 47025) is a historic river city in southeastern Indiana with a distilling heritage, and its old plaster, masonry, and framing hold flood water deep once the porous material it ruined is removed.",
       "We dry that old structure to measured readings. Plaster and masonry give up water slowly, so air movers and dehumidifiers run continuously and we meter daily against a dry standard from an unaffected part of the building until the numbers hold. Drying finishes when the readings say so, not on a schedule, and you get the log for your insurer.",
@@ -406,7 +406,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   aurora: {
     intro:
-      "After the Ohio comes up over Aurora, the work that follows is drying the old riverfront structure the flood soaked — we cross into Indiana with air movers and dehumidifiers. Call (513) 586-5107.",
+      "After the Ohio comes up over Aurora, the work that follows is drying the old riverfront structure the flood soaked. We cross into Indiana with air movers and dehumidifiers. Call (513) 586-5107.",
     relevance: [
       "Below the Hillforest Victorian mansion, the Aurora riverfront runs right along the Ohio, a historic Dearborn County, Indiana town of 19th-century homes on low ground. When the gauge climbs, contaminated river water soaks the original solid hardwood, the framing, and anything porous it reaches. The pad, wet insulation, and saturated drywall come out rather than get dried in place.",
       "What we dry is the old hardwood and framing left behind. Solid boards over an old subfloor give up water slowly, so we set specialty mats where the floor can be saved, run dehumidifiers alongside, and meter daily against a dry standard from an unaffected part of the house. The equipment stays until the readings hold, because old wood that reads dry on the surface is often still wet through.",

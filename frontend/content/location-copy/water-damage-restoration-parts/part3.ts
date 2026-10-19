@@ -1,7 +1,7 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
     intro:
-      'Water spreading through a unit at Villages of Roll Hill? Our licensed plumbers extract the water, dry the structure to measured readings, and repair the line that failed — one crew for both halves. Call (513) 586-5107.',
+      'Water spreading through a unit at Villages of Roll Hill? Our licensed plumbers extract the water, dry the structure to measured readings, and repair the line that failed: one crew for both halves. Call (513) 586-5107.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. In stacked housing like that, a supply line that lets go on an upper floor can soak the units below it before anyone finds the source, and the first 24 hours decide how much of that framing and subfloor can be dried rather than replaced.',
       'We handle both halves of the job. We shut off and repair the failed line, then pump out the water and dry the structure across the affected units to measured moisture content, not a guess. Most restoration firms are not plumbers and have to wait on a second contractor to stop the water — we do not.',

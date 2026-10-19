@@ -229,7 +229,7 @@ export default function HeatingPage() {
         </MainWithSidebar>
       </section>
 
-      <PageSections />
+      <PageSections service="heating" />
     </>
   );
 }

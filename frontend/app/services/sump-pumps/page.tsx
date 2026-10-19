@@ -309,7 +309,7 @@ export default function SumpPumpsPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="sump-pumps" />
     </>
   );
 }

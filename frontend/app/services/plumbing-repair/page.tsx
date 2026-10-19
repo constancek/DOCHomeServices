@@ -342,7 +342,7 @@ export default function PlumbingRepairPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="plumbing-repair" />
     </>
   );
 }

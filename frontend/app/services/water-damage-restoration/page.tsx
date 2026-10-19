@@ -328,7 +328,7 @@ export default function WaterDamageRestorationPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="water-damage-restoration" />
     </>
   );
 }

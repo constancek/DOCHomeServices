@@ -136,7 +136,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   newtonsville: {
     intro:
-      'Water damage in Newtonsville? A failed well line or a burst supply can flood a floor while the house sits empty — we repair the source and dry the structure in this rural village. Call (513) 586-5107.',
+      'Water damage in Newtonsville? A failed well line or a burst supply can flood a floor while the house sits empty. We repair the source and dry the structure in this rural village. Call (513) 586-5107.',
     relevance: [
       'A pressure tank splits or a well line lets go on a Newtonsville (ZIP 45158) lot, and because the house is often empty during the day out here, the water runs for hours before anyone sees it. This is a small rural village in northeastern Clermont County where the older homes carry aging plumbing and many properties sit on wells and septic rather than city lines.',
       'The first day decides how much is saved, so speed matters more than anything. We shut off and repair the source, extract the standing water, then run air movers and dehumidifiers to a measured reading rather than a fixed schedule. The readings and photos go to your insurer written up.',
@@ -151,7 +151,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   williamsburg: {
     intro:
-      'Water damage in Williamsburg? The 19th-century homes here run on original plumbing that fails without warning — we repair the line and dry what it soaked in one visit. Call (513) 586-5107.',
+      'Water damage in Williamsburg? The 19th-century homes here run on original plumbing that fails without warning. We repair the line and dry what it soaked in one visit. Call (513) 586-5107.',
     relevance: [
       'Williamsburg (ZIP 45176) grew up as a 19th-century village on the East Fork of the Little Miami in Clermont County, and its old core is full of homes still carrying original galvanized and cast-iron lines. Those lines corrode from the inside and let go without warning, often into a finished lower level where the water reaches subfloor and drywall before anyone notices. Rural homes ring the village with their own aging systems.',
       'We handle the pipe and the drying as one job. Because we are plumbers, the failed original line gets cut out and replaced rather than left for a second contractor, and then we extract, dry framing and subfloor to a measured reading, and document it for your claim. The East Fork can still back a drain up in a hard rain, and we treat that contaminated water differently.',
@@ -166,7 +166,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   bethel: {
     intro:
-      'Water damage in Bethel? A burst line or a failed pressure tank can run for hours in an empty house — we repair the source and dry the structure across this historic village. Call (513) 586-5107.',
+      'Water damage in Bethel? A burst line or a failed pressure tank can run for hours in an empty house. We repair the source and dry the structure across this historic village. Call (513) 586-5107.',
     relevance: [
       'A supply line lets go in a Bethel (ZIP 45106) home, or a pressure tank fails on one of the rural lots around it, and the water spreads across a floor long before anyone is home to shut it off. This is a historic village in southeastern Clermont County with a 19th-century core, ringed by rural and small-town properties that mostly run on wells and septic.',
       'We are plumbers first, so the source gets shut off and repaired before anything else — drying a room while it is still filling is wasted work. Then we extract, dry framing and subfloor to a measured reading, and hand over the numbers and photos your claim will need.',
@@ -181,7 +181,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   ross: {
     intro:
-      'Water damage in Ross? Along the Great Miami in southwestern Butler County, both a burst line and river backup are live risks — we handle either and repair the plumbing behind it. Call (513) 586-5107.',
+      'Water damage in Ross? Along the Great Miami in southwestern Butler County, both a burst line and river backup are live risks. We handle either and repair the plumbing behind it. Call (513) 586-5107.',
     relevance: [
       'The Great Miami runs along Ross (ZIP 45061), a Ross Township community in southwestern Butler County of small-town and rural homes. Low ground near the river brings two kinds of trouble in a hard rain: a drain that surcharges and pushes contaminated water up through the floor, and, in a bad year, the river coming over the bank as overland floodwater. The older homes and their aging plumbing, plus the well-and-septic rural lots, add the everyday failures.',
       'The category of water decides everything. Clean supply-line water we dry and save; a drain backup or river overland flood is contaminated, so the porous materials come out and the space is cleaned before drying begins. Either way we repair the source, extract, dry to a reading, and document it for insurance.',
@@ -211,7 +211,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'beckett-ridge': {
     intro:
-      'Water damage in Beckett Ridge? Finished basements and 1980s plumbing meet here — we repair the source and dry the structure across this planned West Chester community. Call (513) 586-5107.',
+      'Water damage in Beckett Ridge? Finished basements and 1980s plumbing meet here. We repair the source and dry the structure across this planned West Chester community. Call (513) 586-5107.',
     relevance: [
       'Beckett Ridge (ZIP 45069) is a planned West Chester community in Butler County built around a golf course, largely homes from the 1980s onward. That vintage has reached the age where water heaters give out, supply lines fail, and sump pumps quit under a storm — and many of these homes have finished basements, which is exactly where a failed pump or burst line does the most expensive damage.',
       'The first 24 hours decide how much of a finished basement survives, so we move quickly: shut off and repair the source, extract the standing water, then dry framing, subfloor, and drywall to a measured reading rather than a guess. Everything is written up for your insurer.',
@@ -226,7 +226,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   wetherington: {
     intro:
-      'Water damage in Wetherington? Larger homes mean larger plumbing and a leak can run a while before it is found — we extract, dry, and repair the source in this upscale West Chester community. Call (513) 586-5107.',
+      'Water damage in Wetherington? Larger homes mean larger plumbing and a leak can run a while before it is found. We extract, dry, and repair the source in this upscale West Chester community. Call (513) 586-5107.',
     relevance: [
       'Wetherington (ZIP 45069) is an upscale West Chester community in Butler County built around a golf course, larger homes from the 1980s and 90s onward. Larger homes mean larger plumbing systems, and a hidden leak behind a wall or under a slab can run for days before it surfaces, by which time it has soaked framing and subfloor across a wide area. Water heaters and sump pumps in these homes are also reaching the end of their life.',
       'The size of the home is the reason the drying has to be measured, not guessed — a wall that feels dry on the surface can still be wet inside. We repair the source, extract, run structural drying to a reading over several days, and hand you the moisture log for your claim.',
@@ -241,7 +241,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   hamilton: {
     intro:
-      'Flooded in Hamilton? Straddling the Great Miami, with century-old homes in German Village and Dayton Lane, this is a city where high water and old plumbing meet — we handle both. Call (513) 586-5107.',
+      'Flooded in Hamilton? Straddling the Great Miami, with century-old homes in German Village and Dayton Lane, this is a city where high water and old plumbing meet. We handle both. Call (513) 586-5107.',
     relevance: [
       'Hamilton (ZIP 45011) is the Butler County seat, straddling the Great Miami River, with historic districts like German Village and Dayton Lane full of 19th-century and early-1900s homes. Those homes carry original galvanized and cast-iron plumbing that fails without warning, and the low ground near the river adds a real flood and backup risk in heavy rain — Hamilton knows what the Great Miami can do.',
       'River flooding is contaminated water, handled differently from a burst pipe: we extract it, remove the porous materials it soaked, clean the space, then dry to a measured reading. A supply-line break in one of the old homes is clean water we can dry and save. As its own city, Hamilton runs its own water and permitting, and we work to it — repair, extract, dry, and document for insurance.',
@@ -256,7 +256,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   millville: {
     intro:
-      'Water damage in Millville? A burst line or a failed pressure tank floods fast in an empty house — we repair the source and dry the structure in this village west of Hamilton. Call (513) 586-5107.',
+      'Water damage in Millville? A burst line or a failed pressure tank floods fast in an empty house. We repair the source and dry the structure in this village west of Hamilton. Call (513) 586-5107.',
     relevance: [
       'A well line bursts or a pressure tank splits in a Millville (ZIP 45013) home, and with the house empty the water has hours to spread before it is found. This is a small Butler County village west of Hamilton, older homes ringed by rural properties that mostly run on wells and septic rather than city water.',
       'We shut off and repair the source first, then extract the standing water and dry framing and subfloor to a measured reading. Every reading and photo is written up as we go, so an insurance claim is not held over a missing record.',
@@ -271,7 +271,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'new-miami': {
     intro:
-      'Flooded in New Miami? An old mill village of closely spaced homes on low ground by the Great Miami — we extract, dry, and repair the plumbing behind it. Call (513) 586-5107.',
+      'Flooded in New Miami? An old mill village of closely spaced homes on low ground by the Great Miami. We extract, dry, and repair the plumbing behind it. Call (513) 586-5107.',
     relevance: [
       'New Miami (ZIP 45011) is a small village on the Great Miami just north of Hamilton, an old mill community where the older homes sit close together on low riverside ground. That low ground is the problem in a hard rain: a drain surcharges and pushes contaminated water up through the basement floor, rather than clean water coming down from a burst pipe. The aging plumbing in these homes is the second, year-round source.',
       'The category of water decides the work. A supply-line break is clean water we dry and save; a drain backup off the river is contaminated, so the porous materials come out and the space is cleaned before drying. We repair the source, extract, dry to a reading, and document it for insurance.',
@@ -286,7 +286,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   monroe: {
     intro:
-      'Water damage in Monroe? A fast-growing city on the I-75 corridor that runs its own water — we repair the failed line and dry what it soaked, same visit. Call (513) 586-5107.',
+      'Water damage in Monroe? A fast-growing city on the I-75 corridor that runs its own water. We repair the failed line and dry what it soaked, same visit. Call (513) 586-5107.',
     relevance: [
       'Monroe (ZIP 45050) is a fast-growing city straddling Butler and Warren Counties along the I-75 corridor between Cincinnati and Dayton, and it runs its own water and permitting as its own city. The newer subdivisions bring failed sump pumps and burst feed lines; the older town core carries aging plumbing that lets go. A tank or a pump that fails in a finished basement soaks carpet and drywall before anyone finds it.',
       'We are a plumbing company, so the failed line or pump is repaired on the same job rather than left for a second contractor. Then we extract, run structural drying to measured moisture content, and document the work — and where the repair needs a permit, we pull it through Monroe.',
@@ -301,7 +301,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   landen: {
     intro:
-      'Water damage in Landen? The 1970s and 80s plumbing in this planned Warren County community is at the age it fails — we repair the source and dry the structure. Call (513) 586-5107.',
+      'Water damage in Landen? The 1970s and 80s plumbing in this planned Warren County community is at the age it fails. We repair the source and dry the structure. Call (513) 586-5107.',
     relevance: [
       'Landen (ZIP 45040) is a planned Warren County community near Maineville and Mason, largely homes built from the 1970s and 80s onward around its lake and common areas. That vintage has reached the age where water heaters, supply lines, and sump pumps fail, and many of these homes have finished lower levels where a failed pump or burst line does the most damage before it is caught.',
       'We move fast because the first 24 hours decide how much survives: shut off and repair the source, extract, then dry framing, subfloor, and drywall to a measured reading. The moisture log and photos go to your insurer written up.',
@@ -316,7 +316,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'loveland-park': {
     intro:
-      'Water damage in Loveland Park? A storm overwhelms a drain near the Little Miami and it comes up through the floor — we handle the backup, and the burst-pipe jobs too. Call (513) 586-5107.',
+      'Water damage in Loveland Park? A storm overwhelms a drain near the Little Miami and it comes up through the floor. We handle the backup, and the burst-pipe jobs too. Call (513) 586-5107.',
     relevance: [
       'A hard storm hits Loveland Park (ZIP 45140) and the low ground near the Little Miami does the rest: a drain surcharges and pushes contaminated water up through a basement floor. This is a Warren County community just north of Loveland, established neighborhoods of mid-century homes where supply lines corrode and water heaters fail the rest of the year.',
       'The kind of water decides the work. A corroded supply line is clean water we dry and save; a storm backup is contaminated, so the porous materials come out and the space is cleaned before drying. Either way we repair the source, extract, dry to a reading, and document it for insurance.',
@@ -346,7 +346,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pleasant-plain': {
     intro:
-      'Water damage in Pleasant Plain? A supply line that lets go while the house is empty can run for hours — we repair the source and dry the structure in this rural village. Call (513) 586-5107.',
+      'Water damage in Pleasant Plain? A supply line that lets go while the house is empty can run for hours. We repair the source and dry the structure in this rural village. Call (513) 586-5107.',
     relevance: [
       'A fixture supply or a well line gives way in a Pleasant Plain (ZIP 45162) home while everyone is out, and by the time it is found the water has soaked well into subfloor and framing. This is a small village in southeastern Warren County, older homes with rural properties around them that mostly run on wells and septic.',
       'The longer clean water sits, the more it soaks in, and after about a day it turns from a mop-up into a drying job. We shut off and repair the source, extract, then run structural drying to a measured reading and document it for your claim.',
@@ -361,7 +361,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-lebanon': {
     intro:
-      'Water damage in South Lebanon? On the Little Miami, a river backup and a burst line are both live risks in this growing town — we handle either and repair the plumbing behind it. Call (513) 586-5107.',
+      'Water damage in South Lebanon? On the Little Miami, a river backup and a burst line are both live risks in this growing town. We handle either and repair the plumbing behind it. Call (513) 586-5107.',
     relevance: [
       'South Lebanon (ZIP 45065) sits on the Little Miami River in Warren County, a historic core with fast-expanding subdivisions around it. The low riverside ground is the risk in a hard rain: a drain surcharges and pushes contaminated water up through the floor, and in a bad year the river itself comes over into the low streets. The newer subdivisions bring their own failed sump pumps and burst lines, and the older core its aging plumbing.',
       'The category of water decides the work. A burst line is clean water we dry and save; a drain backup or river water is contaminated, so the porous materials come out and the space is cleaned before drying. We repair the source, extract, dry to a reading, and document it for insurance.',
@@ -376,7 +376,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   lawrenceburg: {
     intro:
-      'Flooded in Lawrenceburg? A historic Ohio River city behind its levee, this is a place where high water is a known risk — we extract, dry, and repair the plumbing behind it. Call (513) 586-5107.',
+      'Flooded in Lawrenceburg? A historic Ohio River city behind its levee, this is a place where high water is a known risk. We extract, dry, and repair the plumbing behind it. Call (513) 586-5107.',
     relevance: [
       'A riverfront levee is the reason Lawrenceburg (ZIP 47025) stands as it does: a historic Ohio River city in southeastern Indiana, known for its distilling heritage, with a downtown of 19th-century buildings the levee is built to protect. When the river runs high, water that gets past the levee or backs up behind it is contaminated floodwater, and the century-old buildings carry aging plumbing on top of that.',
       'We treat river flooding as contaminated water: extract it, pull the porous materials it soaked, clean the space, then dry back to a measured reading. A supply-line break in one of the old downtown homes is clean water we can dry and save. Everything is documented for your insurer, and yes, we cross the state line into Indiana to do it.',
@@ -391,7 +391,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   greendale: {
     intro:
-      'Water damage in Greendale? Climbing the hillside above the Ohio next to Lawrenceburg, this is a spot where basement drains take a beating in heavy rain — we extract, dry, and repair the source. Call (513) 586-5107.',
+      'Water damage in Greendale? Climbing the hillside above the Ohio next to Lawrenceburg, this is a spot where basement drains take a beating in heavy rain. We extract, dry, and repair the source. Call (513) 586-5107.',
     relevance: [
       'Greendale (ZIP 47025) is a Dearborn County city adjoining Lawrenceburg, climbing the hillside above the Ohio River, with older and mid-century homes. The older homes carry aging plumbing, and the hillside grade puts heavy demand on basement drains in heavy rain — stormwater running downhill overwhelms a drain, and it surcharges and pushes contaminated water back up into the basement.',
       'A drain backup is contaminated water, handled differently from a burst pipe: the porous materials it soaked come out, the space is cleaned, and then it is dried to a measured reading. We repair the source and check the drain the water came up through, then document the job for insurance. We cross into southeast Indiana to do it.',
@@ -406,7 +406,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   aurora: {
     intro:
-      'Flooded in Aurora? A historic Ohio River town below the Hillforest mansion, with a 19th-century riverfront downtown where high water recurs — we handle it. Call (513) 586-5107.',
+      'Flooded in Aurora? A historic Ohio River town below the Hillforest mansion, with a 19th-century riverfront downtown where high water recurs. We handle it. Call (513) 586-5107.',
     relevance: [
       'Aurora (ZIP 47001) is a historic Ohio River town in Dearborn County, Indiana, watched over by the Hillforest Victorian mansion on the hill above its 19th-century riverfront downtown. Those century-old homes carry original plumbing, and the riverside setting makes high water a recurring risk — when the Ohio comes up, the water that reaches downtown is contaminated floodwater, not the clean water a burst pipe leaves.',
       'We treat river flooding as contaminated water: extract it, pull the porous materials it soaked, clean the space, then dry back to a measured reading. On the old homes we also check the original plumbing and the sewer lateral the flood pushed silt into. Everything is documented for your insurer.',

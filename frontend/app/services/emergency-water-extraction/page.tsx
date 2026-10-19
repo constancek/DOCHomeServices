@@ -305,7 +305,7 @@ export default function EmergencyWaterExtractionPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="emergency-water-extraction" />
     </>
   );
 }

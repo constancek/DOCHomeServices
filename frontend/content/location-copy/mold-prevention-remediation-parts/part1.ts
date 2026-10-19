@@ -1,7 +1,7 @@
 export const part1: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   sedamsville: {
     intro:
-      'Mold in a Sedamsville home is a water problem first. We find and fix the moisture source, contain and remove what has growth through it, and dry to measured readings — reaching the hillside streets above River Road the same day. Call (513) 586-5107.',
+      'Mold in a Sedamsville home is a water problem first. We find and fix the moisture source, contain and remove what has growth through it, and dry to measured readings, reaching the hillside streets above River Road the same day. Call (513) 586-5107.',
     relevance: [
       'Sedamsville (ZIP 45204) climbs the hillside above River Road in frame houses from the late 1800s and early 1900s, and most of them sit on old stone or rubble foundations. Those walls were never sealed the way a modern basement is, so groundwater off the hill wicks straight through the stone and the lower level stays damp for weeks at a time. Damp masonry against stored boxes, framing, and the back of any finished wall is exactly the standing condition mold needs, and the first sign is usually a smell rather than a stain.',
       'Our job in a house like this is to separate what is a plumbing problem from what is a foundation problem. If a weeping supply line or a leaking drain is adding to the damp, we repair it, because we are plumbers before we are a remediation crew. Then we contain the affected area with sheeting and negative air, take out the porous material that has growth through it, HEPA-vacuum and treat the masonry that stays, and dry the space to a reading rather than to the touch so it does not come straight back.',
@@ -289,7 +289,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hyde-park': {
     intro:
-      'Mold in a Hyde Park home is a water problem before it is a mold problem. We find and repair the leak feeding it, contain and remove what cannot be cleaned, and dry the space to measured readings — usually reaching homes around Hyde Park Square the same day. Call (513) 586-5107.',
+      'Mold in a Hyde Park home is a water problem before it is a mold problem. We find and repair the leak feeding it, contain and remove what cannot be cleaned, and dry the space to measured readings, usually reaching homes around Hyde Park Square the same day. Call (513) 586-5107.',
     relevance: [
       'Hyde Park (ZIP 45208) is built around large early-1900s homes — Tudors, colonials, and brick foursquares — and most of them have a below-grade lower level that runs humid for months at a time. When those lower levels were finished with drywall, carpet, and built-in cabinetry, the house gained a room and lost the ability to notice a slow leak. Growth starts behind the finish and the first sign is a smell.',
       'The second Hyde Park factor is plaster and original millwork. Plaster hides moisture well and gives very little warning, so by the time staining shows at a baseboard the framing behind it has often been damp for a long while. That is worth knowing because it changes what we open up: on these houses we take readings through the wall before we cut anything, rather than stripping trim that took a craftsman a week to install.',

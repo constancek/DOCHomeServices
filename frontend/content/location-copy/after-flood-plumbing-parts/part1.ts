@@ -1,7 +1,7 @@
 export const part1: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   sedamsville: {
     intro:
-      'Flooded in Sedamsville? Before you turn the water back on, we go through the plumbing the flood left behind — water heater, sewer lateral, and shutoffs — for the homes along River Road and the hillside above it. Call (513) 586-5107.',
+      'Flooded in Sedamsville? Before you turn the water back on, we go through the plumbing the flood left behind, including the water heater, sewer lateral, and shutoffs, for the homes along River Road and the hillside above it. Call (513) 586-5107.',
     relevance: [
       'Sedamsville (ZIP 45204) sits low along River Road where the Ohio River and a hard rain both find the basements first, and the housing climbing the hill above dates to the late 1800s and early 1900s. When water gets into a lower level here it reaches original cast-iron drains and galvanized supply lines that were already thin, and usually the water heater and gas controls sitting on the floor beside them.',
       'We inspect what the water actually touched rather than everything at once. If the burner assembly and gas valve went under, that heater is a replacement and we will say so; if the base stayed dry, it is fine and we will say that too. We camera the cast-iron main for the silt a flood packs into it, and we test the shutoff valves that sat in dirty water and now refuse to turn.',
@@ -33,7 +33,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   riverside: {
     intro:
-      'Flooded in Riverside? Before you turn the water back on, we go through the plumbing the Ohio River left behind — water heater, main, shutoffs, and sump pump — for the homes along River Road. Call (513) 586-5107.',
+      'Flooded in Riverside? Before you turn the water back on, we go through the plumbing the Ohio River left behind, including the water heater, main, shutoffs, and sump pump, for the homes along River Road. Call (513) 586-5107.',
     relevance: [
       'Riverside (ZIP 45204) is the narrow strip of low Ohio River bottomland running along River Road and US-50, where flooding and high groundwater are a constant backdrop rather than a rare event. Homes here already lean on backwater valves, sump pumps, and basement drains, and a flood puts every one of those to the test at once.',
       'Our post-flood work here starts with the parts that carried the water: the sump pump and check valve, the backwater valve that either held or did not, and the water heater if the base went under. We camera the main for silt, because a Riverside lateral that took on flood mud is the one that backs the lower level up again a week later.',
@@ -65,7 +65,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-price-hill': {
     intro:
-      'Flooded in West Price Hill? Before you go back to normal water use, we check the plumbing the flood left behind — water heater, shutoffs, drains, and sump pump — for the homes along Glenway Avenue. Call (513) 586-5107.',
+      'Flooded in West Price Hill? Before you go back to normal water use, we check the plumbing the flood left behind, including the water heater, shutoffs, drains, and sump pump, for the homes along Glenway Avenue. Call (513) 586-5107.',
     relevance: [
       'West Price Hill (ZIP 45238) is the larger, more residential stretch of the west side out along Glenway Avenue toward Covedale, built mostly with 1920s through 1950s single-family homes. That housing puts the water heater, the shutoffs, and the appliance connections down in a basement, which is exactly where storm water and backups collect.',
       'After a flood we go through those basement components in order: the water heater burner and gas controls if the base went under, the supply lines and shutoff valves that sat in dirty water and seize, and the floor drains and traps packed with debris. Where the main is slow we camera it rather than snake it twice.',
@@ -129,7 +129,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-end': {
     intro:
-      'Flooded in the West End? Before you turn the water back on, we go through the plumbing the flood left behind — water heater, main, and shutoffs — for the homes around TQL Stadium and Linn Street. Call (513) 586-5107.',
+      'Flooded in the West End? Before you turn the water back on, we go through the plumbing the flood left behind, including the water heater, main, and shutoffs, for the homes around TQL Stadium and Linn Street. Call (513) 586-5107.',
     relevance: [
       'The West End (ZIP 45203) is one of Cincinnati’s oldest neighborhoods, near TQL Stadium and Linn Street, with historic Italianate rowhouses and brick homes on low ground near the Mill Creek basin. That low ground raises the risk of drain and sewer backups in heavy rain, and the older homes carry decades-old galvanized and cast-iron plumbing the flood water reaches.',
       'After the water drops we camera the main for the silt a basin flood pushes in, check the water heater and gas controls if the base went under, and test the shutoffs and supply lines that sat in dirty water. Where a rowhouse shares a lateral, we locate the actual blockage before anyone starts digging.',
@@ -289,7 +289,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hyde-park': {
     intro:
-      'Flooded in Hyde Park? We go through the plumbing a flood left behind — water heater, sewer main, shutoffs, sump pump — before you turn the water back on. Call (513) 586-5107.',
+      'Flooded in Hyde Park? We go through the plumbing a flood left behind, including the water heater, sewer main, shutoffs, and sump pump, before you turn the water back on. Call (513) 586-5107.',
     relevance: [
       'Hyde Park (ZIP 45208) is large early-1900s houses — Tudors, colonials, brick foursquares — and most of them keep the mechanical room in a lower level that is now finished. When water gets down there it reaches the water heater base, the gas controls, and the main shutoff at the same time, which is three separate problems arriving on one visit.',
       'The other thing about Hyde Park is the trees. Mature root systems sit over sewer laterals that were laid a century ago, and a lateral already narrowed by roots is the one that packs solid when a flood pushes silt into it. The drain runs slowly for a week, then backs up the first time somebody runs a full load of laundry.',
@@ -445,7 +445,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'blue-ash': {
     intro:
-      'Flooded in Blue Ash? Before you go back to normal water use, we check the plumbing the flood left behind — water heater, shutoffs, drains, and sump pump — for homes and businesses across the northeast side. Call (513) 586-5107.',
+      'Flooded in Blue Ash? Before you go back to normal water use, we check the plumbing the flood left behind, including the water heater, shutoffs, drains, and sump pump, for homes and businesses across the northeast side. Call (513) 586-5107.',
     relevance: [
       'Blue Ash (ZIP 45242) is a northeast-side city and business hub, with established mid-century neighborhoods alongside newer subdivisions. Even the newer housing here is now decades old, and its finished basements rely on a sump pump to stay dry, so a storm flood tends to reach the water heater, the shutoffs, and the pump all at once.',
       'Our post-flood work starts with the sump pump and check valve, since that is the component that carried the flood and the one you find out about in the next storm. We check the water heater and gas controls if the base went under, test the shutoffs that soaked in dirty water, and camera the main where the drains run slow.',

@@ -241,7 +241,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'indian-hill': {
     intro:
-      'Faucet trouble in a large Indian Hill home? With more fixtures than most houses, a single drip can hide for a while — we repair and replace faucets the same day across the village. Call (513) 586-5107.',
+      'Faucet trouble in a large Indian Hill home? With more fixtures than most houses, a single drip can hide for a while. We repair and replace faucets the same day across the village. Call (513) 586-5107.',
     relevance: [
       'Indian Hill (ZIP 45243) is an affluent east-side village known for its large estates and homes on multi-acre, wooded lots, many set well back from the road. These big houses carry far more faucets than a typical home — multiple full baths, kitchen and prep sinks, wet bars, and outdoor fixtures — and they are often high-end brands worth rebuilding rather than tearing out. We come prepared to repair premium fixtures with the right cartridges, and to track down which of many faucets is the one dripping.',
       'The scale of these properties shapes the work in other ways too. Long water runs and large plumbing systems mean a leaking fixture can waste water quietly for a while before anyone notices, and some Indian Hill homes draw on private wells, where untreated water can be harder on faucet cartridges and seats. We factor that in when advising whether to rebuild or replace, and we are on call 7 days a week from 8am to 8pm for the homes and estates here.',

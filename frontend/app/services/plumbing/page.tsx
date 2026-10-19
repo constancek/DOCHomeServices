@@ -256,7 +256,7 @@ export default function PlumbingPage() {
         </MainWithSidebar>
       </section>
 
-      <PageSections />
+      <PageSections service="plumbing" />
     </>
   );
 }

@@ -1,6 +1,6 @@
 export const part1: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'sedamsville': {
-    intro: 'Replacing a single dim ceiling light in a Sedamsville home? Our licensed electricians install recessed cans that spread light evenly and keep the ceiling clean — careful work in older plaster ceilings for homes along River Road and the hillside above it. Call (513) 586-5107.',
+    intro: 'Replacing a single dim ceiling light in a Sedamsville home? Our licensed electricians install recessed cans that spread light evenly and keep the ceiling clean. Careful work in older plaster ceilings for homes along River Road and the hillside above it. Call (513) 586-5107.',
     relevance: [
       'Sedamsville (ZIP 45204) is a historic riverside neighborhood on Cincinnati’s west side, sitting between Riverside and Sayler Park, with housing that climbs the hillside above River Road and dates to the late 1800s and early 1900s. Homes that old usually have one fixture per room and plaster ceilings, so we plan the can layout and cut carefully to avoid cracking the plaster.',
       'Smaller rooms and low ceilings are common in these century-old houses, where flush recessed cans brighten a space without bulky hardware that hangs into the room. We protect the older wiring, bring connections up to code, and can switch the whole room over to efficient LED cans.',

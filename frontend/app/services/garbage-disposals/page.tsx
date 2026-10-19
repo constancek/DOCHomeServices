@@ -271,7 +271,7 @@ export default function GarbageDisposalsPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="garbage-disposals" />
     </>
   );
 }

@@ -373,7 +373,7 @@ export default function LeakDetectionPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="leak-detection" />
     </>
   );
 }

@@ -12,13 +12,13 @@ export default function Footer() {
         <div className="grid gap-10 lg:grid-cols-[1.3fr_1fr_1fr]">
           {/* Brand */}
           <div>
-            <Link href="/" className="flex items-center gap-2.5">
+            <Link href="/" className="inline-flex flex-col items-start gap-3">
               <img
                 src="/mascot.webp"
                 alt="Degree of Comfort mascot"
-                width={48}
-                height={48}
-                className="h-12 w-12 flex-shrink-0 object-contain"
+                width={112}
+                height={112}
+                className="h-28 w-28 flex-shrink-0 object-contain"
               />
               <span className="leading-none">
                 <span className="block whitespace-nowrap font-logo text-xl font-black tracking-tight text-white">
@@ -109,9 +109,6 @@ export default function Footer() {
           <div className="flex gap-4">
             <Link href="/sitemap.xml" className="transition hover:text-white">
               Site Map
-            </Link>
-            <Link href="/" className="transition hover:text-white">
-              Privacy Policy
             </Link>
           </div>
         </div>

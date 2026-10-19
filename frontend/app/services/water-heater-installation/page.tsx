@@ -381,7 +381,7 @@ export default function WaterHeaterInstallationPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="water-heater-installation" />
     </>
   );
 }

@@ -346,7 +346,7 @@ export default function ACMaintenancePage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="ac-maintenance" />
     </>
   );
 }

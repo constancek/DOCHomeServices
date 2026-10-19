@@ -6,7 +6,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part8: Record<string, LocationServiceCopy> = {
   withamsville: {
     intro:
-      'Gas shut off in Withamsville? Clermont County inspects, not Hamilton. Call (513) 586-5107.',
+      'Along the State Route 125 corridor, Withamsville homes are in Clermont County, which handles the permit and inspection after a gas shutoff. Filing with Hamilton County out of habit costs time. We file correctly and get service restored. Call (513) 586-5107.',
     relevance: [
       'Withamsville (ZIP 45245) is a Union Township community in Clermont County along the State Route 125 corridor, and the jurisdiction is the first thing to settle: permits and inspections go through Clermont County rather than Hamilton County or the city of Cincinnati. Contractors who work mostly on the Hamilton County side default there out of habit, and the utility waits on the correct sign-off before it will reconnect.',
       'The housing spans a range of years, so the piping does too. On the older streets it is rigid black iron installed with the house, where a pressure test finds aged joints and capped stubs from appliances removed decades ago. On the newer streets it is often CSST, where the common finding is bonding to the electrical grounding system rather than a leak at all.',
@@ -23,7 +23,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   milford: {
     intro:
-      'Gas shut off in Milford? One city across two counties, on the Little Miami. Call (513) 586-5107.',
+      'Milford is its own city, mostly in Clermont with a portion in Hamilton, and it issues the gas permit on both sides of the county line. Assuming a township or county office is the usual mistake. We file with Milford and restore service. Call (513) 586-5107.',
     relevance: [
       'Milford (ZIP 45150) is its own city and it straddles a county line — mostly Clermont, with a portion in Hamilton. Inside the city limits, Milford issues the permit and inspection regardless of which county your address falls in, so the county line is less of a trap than people expect. What does catch contractors out is assuming a township or county office when it is the city’s.',
       'The other local factor is the Little Miami. On the low ground near the river and the historic downtown, submerged appliance controls are a recurring cause of shutoffs, and a gas control valve that has been under water is replaced rather than dried out — the corrosion is internal, nothing shows from outside, and a control that works today can fail unsafely later.',
@@ -40,7 +40,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   mulberry: {
     intro:
-      'Gas shut off in Mulberry? Miami Township and Clermont County sign it off. Call (513) 586-5107.',
+      'Mulberry shares ZIP 45150 with the city of Milford, but its gas permits come from Miami Township and Clermont County. We file by address, test the piping, repair what fails and get your service restored. Call (513) 586-5107.',
     relevance: [
       'Mulberry (ZIP 45150) is an unincorporated Miami Township community in Clermont County, and it shares its ZIP with the city of Milford — which issues its own permits. Mulberry does not: permits and inspections here go through Miami Township and Clermont County, so the address rather than the postal code decides the office.',
       'The housing is largely mid-century and later, and on the older streets the piping is original black iron sized for the appliances of its day. That makes two diagnoses worth separating at a shutoff. A pressure test says whether the system leaks. A measurement at the appliances with several drawing at once says whether the run can deliver what the house now demands — and a system can pass the test and still be too small.',
@@ -57,7 +57,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   'mount-repose': {
     intro:
-      'Gas shut off in Mount Repose? Capped lines from removed appliances fail tests. Call (513) 586-5107.',
+      'Old dryer lines, retired space heaters and removed fireplace log sets each left a capped stub in many Mount Repose homes. Those stubs stay on the gas system, and a pressure test after a shutoff finds a weak one. We fix it and restore service. Call (513) 586-5107.',
     relevance: [
       'Mount Repose (ZIP 45150) is a Miami Township community in Clermont County of mid-century and later single-family homes, and the systems have been altered enough over the decades to accumulate loose ends. A gas dryer swapped for electric, a decommissioned space heater, a fireplace log set taken out during a remodel — each usually left a capped stub rather than a line taken back to the source.',
       'Those stubs are still on the system a pressure test covers, so a house where nothing has changed in years can fail a test on a cap installed in the 1970s. Locating one means isolating sections in sequence rather than opening walls on a hunch, and on a house where every appliance is fine it is often the whole job. Permits and inspections go through Miami Township and Clermont County.',
@@ -74,7 +74,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   'day-heights': {
     intro:
-      'Gas shut off in Day Heights? A red-tagged appliance is the usual cause. Call (513) 586-5107.',
+      'Day Heights gas shutoffs usually start with a red-tagged furnace or water heater. If the piping is sound it is a contained job: replace the appliance, pass the test, reconnect. If it is not, we tell you before work starts. Call (513) 586-5107.',
     relevance: [
       'Day Heights (ZIP 45150) is a Miami Township community in Clermont County of mid-century and later homes, and the most common route to a shutoff here is an appliance rather than the pipe. A furnace with a cracked heat exchanger or a water heater with a failed gas control gets red-tagged, and service stays off until it is corrected and the system passes a test.',
       'Where the piping is sound that is a contained job — replace the appliance, pass the test, get it inspected, and Duke Energy Ohio reconnects. Occasionally the test finds a piping fault the appliance failure had been masking, which grows the scope, and that is why we test before quoting rather than starting work and coming back with a revised figure. Permits go through Miami Township and Clermont County.',
@@ -91,7 +91,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   'new-richmond': {
     intro:
-      'Gas shut off in New Richmond? Ohio River flooding reaches gas appliances. Call (513) 586-5107.',
+      'Right on the Ohio, New Richmond’s old houses sit on low ground, and high water is the usual reason the gas gets shut off. Submerged furnace and water heater controls are replaced, then we test the piping and restore service. Call (513) 586-5107.',
     relevance: [
       'New Richmond (ZIP 45157) is a Clermont County village directly on the Ohio River, with old housing on genuinely low ground, and high water is the recurring reason gas goes off here. Where a furnace, boiler or water heater has been submerged, the gas control valve and burner controls are replaced rather than dried out and relit — the corrosion is internal, nothing shows from outside, and a control that works today can fail unsafely later.',
       'Because it is not a rare event, plenty of properties are on their second or third water heater in the same position, so the useful question during a replacement is whether the appliance can be raised. Venting is the limit. New Richmond issues its own permits and inspections, and being a small village that queue rather than the plumbing usually decides how quickly the gas comes back.',
@@ -108,7 +108,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   amelia: {
     intro:
-      'Gas shut off in Amelia? There is no village office any more — it is the county. Call (513) 586-5107.',
+      'Amelia no longer has a village government, so gas permits now go through Clermont County and Batavia or Pierce Township. Anyone filing with a village office gets sent back. We file correctly, repair the shutoff and restore service. Call (513) 586-5107.',
     relevance: [
       'Amelia (ZIP 45102) is a genuine jurisdiction trap, because it no longer has a village government. The village dissolved and its territory reverted to Batavia and Pierce Townships, so permits and inspections for gas work now go through Clermont County and the township rather than a village office. Anyone working from an older list of Clermont municipalities can still try to file with Amelia.',
       'That is a delay rather than a failure — the paperwork comes back and is redone while the house sits without hot water — but it is avoidable by asking. The housing is mid-century and later, so a pressure test turns up either aged black iron and capped stubs on the older streets or a CSST bonding issue on the newer ones, and we establish which before quoting.',
@@ -125,7 +125,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   batavia: {
     intro:
-      'Gas shut off in Batavia? The county seat, and the village issues its own permits. Call (513) 586-5107.',
+      'Being the Clermont County seat does not mean the county issues your Batavia gas permit. Inside the village it is Batavia’s, and outside it is the township’s and county’s. We confirm which applies, repair the shutoff and get gas restored. Call (513) 586-5107.',
     relevance: [
       'Batavia (ZIP 45103) is the Clermont County seat and its own village, so a point worth making plainly: being where the county offices sit does not mean the county issues your permit. Inside the village, permits and inspections are Batavia’s. Outside it, they are the township’s and the county’s — and the boundary matters more than the address looks like it should.',
       'The East Fork of the Little Miami runs through, and on the low ground near it submerged appliance controls are a recurring cause of shutoffs. A gas control valve that has been under water is replaced rather than dried out, because the damage is internal corrosion with nothing visible outside. The older housing near the village centre also carries a century of alterations and the capped stubs that come with them.',
@@ -142,7 +142,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   owensville: {
     intro:
-      'Gas shut off in Owensville? An old village core with a century of alterations. Call (513) 586-5107.',
+      'Owensville’s old village core has a century of gas changes in it, with capped lines left wherever an appliance came out. A pressure test after a shutoff checks every one of them. We find the leak and restore service. Call (513) 586-5107.',
     relevance: [
       'Owensville (ZIP 45160) is a small Clermont County village in Stonelick Township with a genuinely old core, and the gas systems there carry a century of changes. Every time an appliance was removed — a space heater, a dryer moved to electric, a decommissioned boiler — the line was usually capped where it stood rather than taken back to the source, and those stubs are still connected.',
       'A pressure test covers all of them at once, which is why a test can fail with every appliance in the house working perfectly. Owensville issues its own permits and inspections inside the village, and being small, that queue rather than the plumbing often sets how quickly the gas comes back — so we file and book it when the work is scheduled.',
@@ -159,7 +159,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   goshen: {
     intro:
-      'Gas shut off in Goshen? On rural land some properties run on propane. Call (513) 586-5107.',
+      'Out in Goshen, check whether you have a meter or a propane tank. With a meter, Duke Energy Ohio supplies the gas and a shutoff is cleared by testing, repair and inspection. With propane, no gas main is involved. Call (513) 586-5107.',
     relevance: [
       'Goshen (ZIP 45122) is a Clermont County township community where suburban streets give way to genuinely rural land, and the first question is which you are on. Where there is a meter, your gas comes from Duke Energy Ohio and a shutoff is a utility disconnection cleared by testing, repairing and getting the system inspected.',
       'Further out some properties are on a propane tank with no gas main involved, and a loss of gas there is a supply or tank matter for your propane company rather than something we reconnect. We will say so on the phone rather than send someone out to tell you. Rural properties here also tend to have barns, workshops and garages on their own gas runs, and those are part of what a pressure test covers.',
@@ -176,7 +176,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   moscow: {
     intro:
-      'Gas shut off in Moscow? A tiny river village on very low ground. Call (513) 586-5107.',
+      'Moscow has taken high water and the 2012 tornado, and flooding is still the usual cause of a gas shutoff in this small river village. Submerged control valves are replaced, not dried. We test the piping and restore service. Call (513) 586-5107.',
     relevance: [
       'Moscow (ZIP 45153) is a very small Clermont County village directly on the Ohio River, and it has taken more than its share — high water on the low ground and the 2012 tornado that went through the village. For gas work the recurring cause is water: a submerged furnace or water heater has its gas control valve replaced rather than dried out, because the corrosion is internal and a control that works today can fail unsafely later.',
       'Being this small means minimal local inspection capacity, and that queue rather than the plumbing usually decides how quickly the gas comes back. Where several neighbouring properties need the same work after the same high water — which happens because the housing is uniformly low — handling them together saves days rather than each waiting separately.',
@@ -193,7 +193,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   newtonsville: {
     intro:
-      'Gas shut off in Newtonsville? A very small village with a small inspection queue. Call (513) 586-5107.',
+      'Testing and repair after a gas shutoff in Newtonsville is often a single day. What you wait on is the inspection and the utility’s reconnect, so we book the inspection when the work is scheduled, not after. Call (513) 586-5107.',
     relevance: [
       'Newtonsville (ZIP 45158) is one of the smallest villages in Clermont County, a compact old core with rural land around it, and scale is what shapes the timeline on a gas shutoff. The testing and repair are frequently a single day. The inspection and then the utility’s reconnect visit are what you actually wait on, so we file and book the inspection when the work is scheduled rather than once it is finished.',
       'The housing in the core is old, with piping altered in stages and capped stubs left wherever an appliance was removed. On the rural land around it, some properties are on a propane tank rather than a gas main — and a loss of gas there is a supply matter for your propane company rather than a utility disconnection we can clear.',
@@ -210,7 +210,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   williamsburg: {
     intro:
-      'Gas shut off in Williamsburg? Old houses often still have gas-lighting pipe. Call (513) 586-5107.',
+      'Williamsburg is one of Clermont County’s older settlements, and many houses on the East Fork were lit by gas. Those lines were capped at the wall and are still connected, so a failed cap can keep the gas off. We find it and fix it. Call (513) 586-5107.',
     relevance: [
       'Williamsburg (ZIP 45176) is one of the older settlements in Clermont County, a village on the East Fork with genuinely old housing, and plenty of those houses were originally lit by gas. When electric lighting arrived those lines were capped at the wall rather than removed, because taking them out meant opening plaster throughout — so a century and a half later they are still on the system.',
       'A pressure test tests them along with everything else, which is why a test can fail with every appliance in the house working perfectly. Locating one takes patience: we isolate sections rather than opening original plaster speculatively. Williamsburg issues its own permits and inspections inside the village.',
@@ -227,7 +227,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   bethel: {
     intro:
-      'Gas shut off in Bethel? Honest repair-or-replace numbers on older appliances. Call (513) 586-5107.',
+      'Most gas shutoffs in Bethel come from a furnace or water heater well past its expected life. With sound piping it is a contained job, and the real question is repair or replace. We give you the numbers and restore service. Call (513) 586-5107.',
     relevance: [
       'Bethel (ZIP 45106) is a village in southern Clermont County with older housing and rural land around it, and the shutoffs we are called for here are mostly appliance-driven: a furnace or water heater well past its expected life gets red-tagged, and service stays off until it is corrected and the system passes a test.',
       'On a house with sound piping that is a contained job, and the conversation worth having is repair against replacement with real numbers rather than a default to the bigger sale. Sometimes a gas control valve genuinely fixes it. Sometimes it is money spent on an appliance with a year left, and we will say so. Bethel issues its own permits inside the village; outside it, the township and Clermont County do.',
@@ -244,7 +244,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   ross: {
     intro:
-      'Gas shut off in Ross? Butler County signs it off, and outbuildings count. Call (513) 586-5107.',
+      'Barns, workshops and garages often share the gas system on Ross properties, and they all get tested after a shutoff. Butler County and Ross Township handle permits, not Hamilton County. We file there, fix the fault and restore gas. Call (513) 586-5107.',
     relevance: [
       'Ross (ZIP 45061) is a Ross Township community in Butler County where suburban streets meet farmland, and two things follow. Permits and inspections go through Butler County and the township rather than any Hamilton County office, which catches out contractors coming up from the city.',
       'And properties out here often have more than a house on the gas system — barns, workshops, garages and older outbuildings with their own runs, frequently installed decades ago to a standard that would not pass now. A pressure test covers every one of those branches, so they are worth mentioning when you call rather than discovering with the job half done. On the rural edges some properties are on propane instead, which is a different situation entirely.',
@@ -261,7 +261,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   fairfield: {
     intro:
-      'Gas shut off in Fairfield? Its own city building department, and mixed piping ages. Call (513) 586-5107.',
+      'Fairfield has its own building department, so gas permits go to the city, not Butler County. The city built out over several decades, and the piping varies with it. We file with Fairfield, fix the shutoff and restore service. Call (513) 586-5107.',
     relevance: [
       'Fairfield (ZIP 45014) is a large Butler County city with its own building department, so permits and inspections go through the city rather than the county — a distinction worth confirming, because plenty of contractors default to Butler County for anything north of the line.',
       'The city built out across several decades, so the piping does too. On the older streets it is rigid black iron installed with the house, where a pressure test turns up aged joints and capped stubs from appliances removed long ago. On the newer streets it is often CSST — flexible tubing in a yellow jacket — where the common finding is bonding to the electrical grounding system rather than a leak. Those are not comparable jobs, so we test before quoting.',
@@ -278,7 +278,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   'beckett-ridge': {
     intro:
-      'Gas shut off in Beckett Ridge? Newer subdivisions mean CSST and bonding. Call (513) 586-5107.',
+      'Around the Beckett Ridge golf course, the newer homes are mostly piped in CSST, and after a gas shutoff the inspector usually looks for bonding before anything else. We check the bond, find any leak and get service restored. Call (513) 586-5107.',
     relevance: [
       'Beckett Ridge (ZIP 45069) is a West Chester Township community of newer subdivision housing built around the golf course, and the piping reflects the era. Rather than the rigid black iron of the older neighborhoods, these houses are commonly run in CSST — flexible tubing with a yellow jacket — where the issue that most often turns up on inspection is bonding to the electrical grounding system rather than a leak.',
       'That bond exists so a nearby lightning strike cannot arc through the tubing wall, and where it is missing or has been disturbed by later work it has to be corrected before the sign-off the utility waits on. It is a smaller job than repiping, which is worth knowing before you assume the worst. Permits and inspections go through West Chester Township and Butler County.',
@@ -295,7 +295,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   wetherington: {
     intro:
-      'Gas shut off in Wetherington? Large homes carry more system to test. Call (513) 586-5107.',
+      'Several gas fireplaces, two heating zones and often a generator: Wetherington homes carry a lot of gas system. After a shutoff the pressure test covers every branch at once, so we isolate them in turn before service comes back. Call (513) 586-5107.',
     relevance: [
       'Wetherington (ZIP 45069) is a West Chester Township community of large newer homes, and houses at that scale carry more gas system than most — a furnace and often two zones, a water heater or a tankless unit, a range, several gas fireplaces, and frequently a standby generator or an outdoor kitchen added after the build.',
       'A pressure test covers every branch together, so diagnosing a shutoff takes longer here simply because there is more to isolate. The piping is mostly CSST, where the common inspection finding is bonding to the electrical grounding system, and later-added branches — generators and outdoor runs in particular — are the ones most likely to have gone in without a permit. Mention what is out there when you call. Permits go through West Chester Township and Butler County.',
@@ -312,7 +312,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   hamilton: {
     intro:
-      'Gas shut off in Hamilton? The city utility supplies gas here, not Duke. Call (513) 586-5107.',
+      'Inside the city of Hamilton, natural gas comes from the city utilities department, not Duke Energy. That changes who handles the reconnect after a gas shutoff, so check your bill. The testing and repair are the same, and we handle those. Call (513) 586-5107.',
     relevance: [
       'Hamilton (ZIP 45011) is unusual in Ohio: the city runs its own utilities department, and inside the city natural gas comes from the city rather than Duke Energy. For a shutoff that changes who you deal with for the reconnect and whose process the timing follows — worth checking your bill, because the boundary of municipal service does not always match what people assume from the address.',
       'What does not change is the plumbing. The system is tested, the fault is repaired, it is inspected, and the supplier reconnects on the strength of the sign-off. Hamilton has its own building department, so permits and inspections go through the city rather than Butler County. The housing runs from genuinely old near the centre to mid-century and later further out, so the findings vary by street.',
@@ -329,7 +329,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   millville: {
     intro:
-      'Gas shut off in Millville? Your postal address says Hamilton, but you are not in it. Call (513) 586-5107.',
+      'Millville has a Hamilton postal address but sits outside the city, so Hamilton’s building department does not issue your gas permit, and your supplier may differ too. We confirm both, repair the shutoff and get service restored. Call (513) 586-5107.',
     relevance: [
       'Millville (ZIP 45013) is a small Butler County village west of Hamilton, and it shares a Hamilton postal address — which causes two separate mix-ups. Millville is its own village outside the city limits, so the permit and inspection do not go through the city of Hamilton’s building department. And because Hamilton runs its own municipal gas utility inside the city, your supplier out here may not be the same one, so it is worth checking your bill rather than assuming.',
       'Neither is a hard problem, but both cost days if a contractor works off the postal address. The housing is a small old core with rural land around it, so a pressure test turns up either capped stubs and aged joints in the core, or a secondary run out to a barn or workshop on the properties beyond it.',

@@ -316,7 +316,7 @@ export default function HeatPumpsPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="heat-pumps" />
     </>
   );
 }

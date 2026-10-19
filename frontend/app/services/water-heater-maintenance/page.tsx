@@ -319,7 +319,7 @@ export default function WaterHeaterMaintenancePage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="water-heater-maintenance" />
     </>
   );
 }

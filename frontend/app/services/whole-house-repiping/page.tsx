@@ -292,7 +292,7 @@ export default function WholeHouseRepipingPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="whole-house-repiping" />
     </>
   );
 }

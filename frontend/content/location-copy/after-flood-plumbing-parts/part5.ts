@@ -21,7 +21,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'park-hills': {
     intro:
-      'Flood or heavy backup in Park Hills? We inspect the plumbing it left behind — water heater, drains, and shutoffs — in the hillside homes below Devou Park before you turn the water on. Call (513) 586-5107.',
+      'Flood or heavy backup in Park Hills? We inspect the plumbing it left behind, including the water heater, drains, and shutoffs, in the hillside homes below Devou Park before you turn the water on. Call (513) 586-5107.',
     relevance: [
       'Park Hills (ZIP 41011) climbs the hillside beneath Devou Park in early-1900s homes on steep streets above Covington. Flooding here is usually storm runoff and sewer backup forced up through basement floor drains rather than river water, and it lands in lower levels where the water heater, the laundry connections, and the older drain lines sit.',
       'Our after-flood work starts with the components that water reaches first on a hillside lot. We check whether the water heater base and its gas controls went under, camera the main if a floor drain backed up so the silt does not resurface later, and test whether the shutoffs and traps that sat in dirty water still work. If the water stayed shallow and never reached the heater or the drains, we will tell you there is nothing here worth paying for.',

@@ -391,7 +391,7 @@ export default function FurnaceMaintenancePage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="furnace-maintenance" />
     </>
   );
 }

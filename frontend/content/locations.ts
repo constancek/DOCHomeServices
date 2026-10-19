@@ -45,7 +45,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45204',
     intro:
-      'Burst pipe, no water, or a sewer backup in Sedamsville? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach most homes along River Road and the hillside above it the same day. Call (513) 586-5107.',
+      'In Sedamsville’s hillside homes above River Road, a pinhole leak in an old galvanized riser can become a burst line overnight. Our emergency plumbers work 7 days a week, 8am to 8pm, and reach most homes on the hill the same day. Call (513) 586-5107.',
     relevance: [
       "Sedamsville (ZIP 45204) is one of Cincinnati's historic riverside neighborhoods, sitting on the west side between Riverside and Sayler Park. Much of its housing climbs the hillside above River Road and dates to the late 1800s and early 1900s, which means aging galvanized supply lines, original cast-iron drains, and water lines that were never built to last a century.",
       'In homes that old, plumbing tends to fail suddenly and all at once — a pinhole leak in a galvanized riser becomes a burst line overnight, or a root-clogged cast-iron lateral backs a whole basement up after heavy rain off the hill. That is why a fast, local response matters here: the sooner the water is shut off, the less damage to original woodwork and finished lower levels.',
@@ -71,7 +71,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45233',
     intro:
-      "Plumbing emergency in Sayler Park? From the riverfront streets to the homes up the hill, our licensed plumbers are on call 7 days a week from 8am to 8pm and reach Cincinnati's westernmost neighborhood the same day. Call (513) 586-5107.",
+      'Sayler Park sits in the Ohio River floodplain, so a sewer backup in a low-lying home is a common call after high water. Emergency plumbing help reaches Cincinnati’s westernmost neighborhood the same day on most calls, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       "Sayler Park (ZIP 45233) is Cincinnati's westernmost neighborhood, strung along the Ohio River past Riverside. It was its own village — originally Home City — before it was annexed by Cincinnati in the early 1900s, and it still reads that way: tree-lined streets and rows of Victorian and early-1900s frame houses.",
       'Two local factors drive emergency plumbing calls here. The riverfront sits in the Ohio River floodplain, so high water and saturated ground raise the risk of sewer and storm backups in low-lying homes. And the original plumbing in those century-old frame houses — galvanized supply lines and old drains — is well past its service life, so leaks and pipe failures arrive without warning.',
@@ -96,7 +96,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45204',
     intro:
-      'Burst pipe or backed-up drain in Riverside? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes along River Road the same day. Call (513) 586-5107.',
+      'On the low bottomland along River Road, one heavy rain can turn a slow drain into a flooded lower level. If that happens in Riverside, an emergency plumber can be at your door the same day, any day from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Riverside (ZIP 45204) is the narrow strip of Cincinnati that runs along River Road and US-50, tucked between Sedamsville to the east and Sayler Park to the west, with the hillside on one side and the Ohio River on the other. Together with Sedamsville it forms one of the oldest riverfront communities on the city’s west side.',
       'Because so many homes here sit on low Ohio River bottomland, flooding and high groundwater are a constant backdrop — backwater valves, sump pumps, and basement drains all matter more in Riverside than they do up on the hill. Combine that with older housing and original drain lines, and a single heavy rain can turn a slow drain into a flooded lower level fast.',
@@ -121,7 +121,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45205',
     intro:
-      'Plumbing emergency in East Price Hill? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the hilltop streets around Warsaw Avenue and the Incline District the same day. Call (513) 586-5107.',
+      'Shared walls in East Price Hill mean a burst line in one unit can soak the next. Our emergency plumbers reach the streets around Warsaw Avenue and the Incline District the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'East Price Hill (ZIP 45205) sits on the bluff above the west-side river flats — the neighborhood the old Price Hill Incline once carried residents up to. Its streets around Warsaw Avenue and the Incline District are packed with dense early-1900s housing: two- and three-story frame homes and brick two-families built close together.',
       'That dense, century-old housing stock is exactly what keeps emergency plumbers busy. Shared walls and tight lots mean a burst line or sewer backup in one unit can affect the next, original cast-iron and galvanized plumbing is brittle with age, and the hillside grade puts real pressure on basement drains during heavy rain.',
@@ -147,7 +147,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45238',
     intro:
-      'Need an emergency plumber in West Price Hill? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the neighborhoods along Glenway Avenue the same day. Call (513) 586-5107.',
+      'Plenty of West Price Hill homes date from the 1920s through the 1950s, and their original galvanized lines are closing up with corrosion. When one gives out, we send an emergency plumber along Glenway Avenue the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'West Price Hill (ZIP 45238) is the larger, more residential stretch of the west side, running out along Glenway Avenue toward Covedale. Its housing leans a little newer than the river neighborhoods — a lot of 1920s through 1950s single-family homes — but "newer" here still means plumbing that is many decades old.',
       'In homes from that era we routinely find the original galvanized supply lines slowly closing up with corrosion, aging water heaters reaching the end of their life, and clay or cast-iron sewer laterals that crack or fill with roots. Any of those can go from a minor annoyance to an emergency overnight, which is why same-day service matters even in a quieter neighborhood like this one.',
@@ -172,7 +172,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45204',
     intro:
-      'Plumbing emergency in Lower Price Hill? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the historic streets around State Avenue the same day. Call (513) 586-5107.',
+      'Lower Price Hill’s 1800s Italianate rowhouses still run on old galvanized and cast-iron pipe, and the Mill Creek valley floor backs up when the river runs high. Most emergency plumbing calls here get a same-day visit, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       "Lower Price Hill (ZIP 45204) is the compact neighborhood at the foot of Price Hill, down in the Mill Creek valley near the river and the industrial bottoms around State Avenue. It holds one of Cincinnati's most intact stretches of 19th-century Italianate brick rowhouses — beautiful, and full of original plumbing.",
       'Those mid-1800s rowhouses were built long before modern plumbing codes, so many still run on old galvanized and cast-iron systems that fail without warning. The low-lying valley location adds a second problem: when Mill Creek and the river run high, the risk of sewer and storm backups in basements climbs sharply. Fast shutoff and cleanup are what keep a backup from ruining a historic lower level.',
@@ -199,7 +199,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45202',
     intro:
-      'Plumbing emergency in Over-the-Rhine? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the historic blocks around Findlay Market and Vine Street the same day. Call (513) 586-5107.',
+      'In an Over-the-Rhine building split into apartments, one cracked cast-iron stack can reach several units at once. We send emergency plumbers to the blocks around Vine Street and Findlay Market the same day, 7 days a week between 8am and 8pm. Call (513) 586-5107.',
     relevance: [
       'Over-the-Rhine (ZIP 45202) holds one of the largest intact collections of 19th-century Italianate architecture in the country — block after block of brick tenements, storefronts, and rowhouses around Vine Street and Findlay Market, most of them built between the 1850s and 1880s.',
       'Buildings that old, many now split into apartments and condos, run on a patchwork of original and retrofitted plumbing: brittle cast-iron stacks, galvanized risers, and shared lines where a single failure can affect several units at once. That makes fast shutoff and an experienced hand essential when a pipe lets go in OTR.',
@@ -225,7 +225,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45202',
     intro:
-      'Plumbing emergency downtown? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the central business district and its condos and lofts the same day. Call (513) 586-5107.',
+      'A leak several floors up in a downtown Cincinnati condo or loft travels fast, so the shutoff matters as much as the repair. Our emergency plumbers cover the central business district the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       "Downtown Cincinnati (ZIP 45202) mixes high-rise condos and converted loft buildings with century-old commercial structures across the central business district between the river and Over-the-Rhine.",
       'Plumbing here ranges from modern stacked risers in towers to original lines in early-1900s buildings turned residential. In either case, a leak several floors up can travel fast, so a quick response and a clean shutoff matter as much as the repair itself.',
@@ -250,7 +250,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45203',
     intro:
-      'Need an emergency plumber in the West End? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the neighborhood around TQL Stadium and Linn Street the same day. Call (513) 586-5107.',
+      'Low ground near the Mill Creek basin puts West End basements at risk of drain and sewer backups in heavy rain. For emergency plumbing near TQL Stadium, we arrive the same day on most calls, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'The West End (ZIP 45203) is one of Cincinnati’s oldest neighborhoods, sitting just west of downtown near TQL Stadium. It holds historic Italianate rowhouses and brick homes alongside mid-century housing, with newer development now mixed in.',
       'The older brick homes here carry decades-old galvanized and cast-iron plumbing that fails without much warning, while the low ground near the Mill Creek basin raises the risk of drain and sewer backups during heavy rain.',
@@ -275,7 +275,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45202',
     intro:
-      'Plumbing emergency in Mount Adams? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the steep, narrow streets of the hilltop the same day. Call (513) 586-5107.',
+      'Tight access on the steep, narrow streets is part of every emergency plumbing call in Mount Adams. Our plumbers know the hill and reach its 19th-century rowhouses the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       "Mount Adams (ZIP 45202) is the dense hilltop neighborhood above downtown and Eden Park, known for its steep grades, narrow streets, and tightly packed 19th-century rowhouses and townhomes.",
       'That hillside setting and the age of the housing both drive plumbing emergencies: old supply and drain lines in century-old rowhouses, plus steep terrain that puts pressure on sewer laterals and basement drains during heavy rain. Tight access also means it pays to call a crew that knows the hill.',
@@ -300,7 +300,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45219',
     intro:
-      'Plumbing emergency in Mount Auburn? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach one of Cincinnati’s oldest hilltop neighborhoods the same day. Call (513) 586-5107.',
+      'Victorian homes in Mount Auburn carry some of the oldest plumbing in Cincinnati, and many are now split into apartments. When a line bursts, an emergency plumber gets there the same day, any day of the week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Mount Auburn (ZIP 45219) is one of Cincinnati’s oldest hilltop neighborhoods, rising just north of downtown and Over-the-Rhine. It is lined with grand 19th-century homes and historic mansions, many now divided into apartments.',
       'Those Victorian-era homes carry some of the oldest plumbing in the city — original cast-iron drains and galvanized supply lines that corrode and fail with age. In subdivided houses, one burst line can affect several units, so a quick, knowledgeable response keeps the damage contained.',
@@ -326,7 +326,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45220',
     intro:
-      'Plumbing emergency in Clifton? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the Gaslight District and the homes around Ludlow Avenue the same day. Call (513) 586-5107.',
+      'Mature trees over old sewer laterals and century-old supply lines are what break most often in Clifton. For emergency plumbing in the Gaslight District or around Ludlow Avenue, we come the same day, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Clifton (ZIP 45220) is the leafy hilltop neighborhood near the University of Cincinnati, famous for its Ludlow Avenue Gaslight District and large Victorian and early-1900s homes on tree-lined streets.',
       'Many of those big, older houses have been here for over a century, with plenty of original plumbing still in service — and a fair number are now rentals near campus, where a burst pipe or failed water heater needs a fast fix. Aging supply lines and mature trees over old sewer laterals are the two issues we see most.',
@@ -352,7 +352,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45219',
     intro:
-      'Plumbing emergency in Corryville? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the Short Vine area near UC the same day. Call (513) 586-5107.',
+      'Student rentals around Short Vine put heavy use on old pipes, and a burst line in Corryville can spread through shared walls and stacks. Our emergency plumbers come the same day near UC, from 8am to 8pm every day of the week. Call (513) 586-5107.',
     relevance: [
       'Corryville (ZIP 45219) sits right at the edge of the University of Cincinnati around the Short Vine corridor, a dense mix of early-1900s homes, apartments, and student rentals.',
       'With so much older, densely packed housing turned into rentals, plumbing here takes heavy use on aging lines. Burst pipes, failed water heaters, and clogged drains are common, and because units share walls and stacks, a fast response keeps one problem from spreading.',
@@ -378,7 +378,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45223',
     intro:
-      'Plumbing emergency in Northside? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes around Hamilton Avenue and the Mill Creek valley the same day. Call (513) 586-5107.',
+      'Northside’s low ground near Mill Creek means heavy rain can push a sewer backup into an older basement. Emergency plumbing help reaches Hamilton Avenue and the streets below it the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Northside (ZIP 45223) is the eclectic neighborhood along Hamilton Avenue, with a walkable business district and streets of late-1800s and early-1900s homes running down toward the Mill Creek valley.',
       'The age of the housing means original galvanized and cast-iron plumbing is common, and the low ground near Mill Creek adds a real risk of drain and sewer backups during heavy rain. Both are emergencies where shutting things down quickly limits the damage.',
@@ -403,7 +403,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45224',
     intro:
-      'Plumbing emergency in College Hill? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes along Hamilton Avenue and Belmont the same day. Call (513) 586-5107.',
+      'If a College Hill water heater gives out or a root-filled clay lateral backs up, call before the water spreads. We send emergency plumbers along Hamilton Avenue and Belmont the same day, 7 days a week between 8am and 8pm. Call (513) 586-5107.',
     relevance: [
       'College Hill (ZIP 45224) is a hilltop neighborhood on the northwest side along Hamilton Avenue, with a mix of large early-1900s homes, mid-century houses, and a revitalizing business district.',
       'In homes this age, slowly corroding galvanized supply lines and aging water heaters are the usual culprits behind a sudden emergency, and older clay or cast-iron sewer laterals are prone to root intrusion. We handle both 7 days a week from 8am to 8pm.',
@@ -428,7 +428,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45206',
     intro:
-      'Plumbing emergency in Walnut Hills? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes around Peebles Corner and McMillan Street the same day. Call (513) 586-5107.',
+      'Walnut Hills apartment buildings near Peebles Corner share old cast-iron and galvanized lines, so one burst pipe can affect several units. An emergency plumber can reach you the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Walnut Hills (ZIP 45206) is a historic hilltop neighborhood just northeast of downtown, with grand 19th-century homes and apartment buildings around the Peebles Corner business district.',
       'Its century-old housing — much of it now split into units — runs on aging cast-iron and galvanized plumbing that fails with little warning. In multi-unit buildings, one burst line can affect several apartments, so quick shutoff and an experienced repair matter.',
@@ -454,7 +454,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45206',
     intro:
-      'Plumbing emergency in East Walnut Hills? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes around Woodburn Avenue and DeSales Corner the same day. Call (513) 586-5107.',
+      'Stately early-1900s homes around Woodburn Avenue and DeSales Corner often still have their original pipes. When one leaks in East Walnut Hills, we send an emergency plumber the same day to protect the woodwork, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'East Walnut Hills (ZIP 45206) is a historic east-side neighborhood around Woodburn Avenue and DeSales Corner, known for stately early-1900s homes, brick apartment buildings, and tree-lined streets.',
       'The large, century-old houses here often still carry original plumbing, where corroded galvanized lines and aging drains lead to sudden leaks. We respond fast to protect the original woodwork and finished spaces these homes are known for.',
@@ -480,7 +480,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45229',
     intro:
-      'Plumbing emergency in Avondale? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the neighborhood around the hospitals and the zoo the same day. Call (513) 586-5107.',
+      'Burst pipes and dead water heaters in older Avondale rentals near the hospitals and the zoo are most of what we’re called for. Our emergency plumbers come the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Avondale (ZIP 45229) sits in the uptown core near the major hospitals and the Cincinnati Zoo, with historic early-1900s homes and apartment buildings throughout.',
       'A lot of Avondale’s housing is older and densely built, much of it rental, which means aging plumbing under heavy use. Burst pipes, water heater failures, and drain backups are the emergencies we are called for most, and we respond 7 days a week from 8am to 8pm.',
@@ -507,7 +507,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45208',
     intro:
-      'Plumbing emergency in Hyde Park? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes around Hyde Park Square and Erie Avenue the same day. Call (513) 586-5107.',
+      'A hidden leak in a big Hyde Park Tudor or foursquare can ruin a finished basement before anyone notices it. Our emergency plumbers reach the streets around Hyde Park Square and Erie Avenue the same day, from 8am to 8pm all week. Call (513) 586-5107.',
     relevance: [
       'Hyde Park (ZIP 45208) is an affluent east-side neighborhood built around Hyde Park Square, lined with large early-1900s homes — Tudors, colonials, and brick foursquares — on established, tree-shaded streets.',
       'These big older homes are exactly the kind where a hidden leak or a failing supply line can do expensive damage to finished basements and original details before it is noticed. Aging plumbing and mature trees over old sewer laterals are the issues we handle most here.',
@@ -533,7 +533,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45209',
     intro:
-      'Plumbing emergency in Oakley? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes around Oakley Square and Madison Road the same day. Call (513) 586-5107.',
+      'Oakley bungalows built with galvanized supply lines and cast-iron drains are past their prime, and corrosion leaks are the result. Emergency plumbing service around Oakley Square and Madison Road is same-day on most calls, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Oakley (ZIP 45209) is a popular east-side neighborhood around Oakley Square and Madison Road, with streets of early-1900s bungalows and brick homes alongside newer development.',
       'The older bungalows that fill much of Oakley were built with galvanized supply lines and cast-iron drains that are now well past their prime, so corrosion leaks and aging water heaters are the emergencies we see most. We are on call to handle them 7 days a week from 8am to 8pm.',
@@ -559,7 +559,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45226',
     intro:
-      'Plumbing emergency in Mount Lookout? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes around Mount Lookout Square and Ault Park the same day. Call (513) 586-5107.',
+      'Hilly streets near Ault Park put extra load on Mount Lookout basement drains and sewer laterals when it pours. Ask for an emergency plumber and we can usually be there the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Mount Lookout (ZIP 45226) is an east-side hilltop neighborhood around Mount Lookout Square, near Ault Park, with a mix of early-1900s homes and larger houses on quiet, hilly streets.',
       'The older homes here carry decades-old plumbing, and the hillside grade puts extra demand on basement drains and sewer laterals during heavy rain. Both can turn into emergencies fast, which is why same-day response matters.',
@@ -585,7 +585,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45226',
     intro:
-      'Plumbing emergency in Columbia-Tusculum? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach Cincinnati’s oldest neighborhood near the river the same day. Call (513) 586-5107.',
+      'Settled in 1788, Columbia-Tusculum is Cincinnati’s oldest neighborhood, and its Painted Ladies sit on low ground near the Ohio River. We handle emergency plumbing here the same day, 7 days a week from 8am to 8pm, and shut the water off fast to protect historic interiors. Call (513) 586-5107.',
     relevance: [
       'Columbia-Tusculum (ZIP 45226) is Cincinnati’s oldest neighborhood, settled in 1788, and is known for its colorful "Painted Ladies" — restored Victorian homes — on the east side near the Ohio River.',
       'Two things drive emergency calls here: the age of those Victorian and early homes, with original plumbing well past its service life, and the low riverside ground, where high water raises the risk of basement and sewer backups. Fast shutoff protects historic interiors.',
@@ -610,7 +610,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45230',
     intro:
-      'Plumbing emergency in Mount Washington? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes along Beechmont Avenue the same day. Call (513) 586-5107.',
+      'Original galvanized lines and tired water heaters cause most sudden plumbing failures in Mount Washington homes along Beechmont Avenue. Our emergency plumbers come out the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Mount Washington (ZIP 45230) is a far-east-side neighborhood along Beechmont Avenue, with a settled mix of early-1900s through mid-century single-family homes.',
       'In homes of that era, the original galvanized supply lines and aging water heaters are the usual sources of a sudden emergency, and older sewer laterals can crack or fill with roots. We respond 7 days a week from 8am to 8pm to keep the damage contained.',
@@ -635,7 +635,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45227',
     intro:
-      'Plumbing emergency in Madisonville? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes around Madison Road and Whetsel Avenue the same day. Call (513) 586-5107.',
+      'Madisonville’s older houses along Madison Road run on aging galvanized and cast-iron pipe, and that is where most of our emergency plumbing calls start. We get there the same day on most calls, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Madisonville (ZIP 45227) is an east-side neighborhood along Madison Road that has seen steady reinvestment, with streets of early-1900s homes alongside newer infill.',
       'The older houses that make up much of Madisonville run on aging galvanized and cast-iron plumbing, so corrosion leaks, failing water heaters, and clogged drains are the emergencies we are called for most. We handle them 7 days a week from 8am to 8pm.',
@@ -661,7 +661,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45213',
     intro:
-      'Plumbing emergency in Pleasant Ridge? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes along Montgomery Road the same day. Call (513) 586-5107.',
+      'In a Pleasant Ridge brick two-family, one failed line can flood both units. We send an emergency plumber along Montgomery Road the same day, 7 days a week between 8am and 8pm. Call (513) 586-5107.',
     relevance: [
       'Pleasant Ridge (ZIP 45213) is a walkable east-side neighborhood along Montgomery Road, with tree-lined streets of early-1900s homes and classic Cincinnati brick two-families.',
       'Those older single- and two-family homes carry decades-old plumbing, where corroded galvanized lines and aging drains lead to sudden leaks and backups. In two-families, one failure can affect both units, so a quick response keeps it contained.',
@@ -687,7 +687,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45211',
     intro:
-      'Plumbing emergency in Westwood? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach Cincinnati’s largest neighborhood along Harrison Avenue the same day. Call (513) 586-5107.',
+      'Westwood is Cincinnati’s largest neighborhood, and across its older homes the same failures repeat: galvanized lines closing up and water heaters at the end of their life. Emergency plumbers reach Harrison Avenue and the streets around it the same day, from 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Westwood (ZIP 45211) is the largest neighborhood in Cincinnati by population, spread across the west side along Harrison Avenue, with everything from historic homes near the Westwood Town Hall to streets of early-1900s and mid-century houses.',
       'Across that range of older housing, the common thread is aging plumbing — galvanized supply lines closing up with corrosion, water heaters at the end of their life, and cast-iron drains prone to backups. Those are the emergencies we are called for most.',
@@ -714,7 +714,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45212',
     intro:
-      'Plumbing emergency in Norwood? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes around Surrey Square and Montgomery Road the same day. Call (513) 586-5107.',
+      'Norwood’s dense grid of early-1900s homes and shared laterals on small lots means a backup rarely stays in one house. Our emergency plumbers reach Surrey Square and Montgomery Road the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Norwood (ZIP 45212) is its own city, completely surrounded by Cincinnati, with a dense grid of early-1900s homes and brick two-families built during its days as a streetcar and factory town.',
       'That tightly packed, century-old housing is exactly where plumbing emergencies cluster: corroded galvanized lines, aging cast-iron drains, and shared laterals on small lots. We respond fast to keep a burst pipe or backup from spreading between closely built homes.',
@@ -739,7 +739,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45242',
     intro:
-      'Plumbing emergency in Blue Ash? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach homes and businesses across this northeast-side city the same day. Call (513) 586-5107.',
+      'Even the newer Blue Ash subdivisions are decades old now, so worn-out water heaters and sump pumps top our list of calls. Homes and businesses get emergency plumbing service the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Blue Ash (ZIP 45242) is a thriving northeast-side city and business hub, with established mid-century neighborhoods alongside newer subdivisions and a large commercial corridor.',
       'Even the "newer" housing here is now decades old, so aging water heaters, worn supply lines, and failing sump pumps are the emergencies we see most. We respond 7 days a week from 8am to 8pm to homes and businesses alike.',
@@ -763,7 +763,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45242',
     intro:
-      'Plumbing emergency in Montgomery? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach homes around the historic district and Montgomery Road the same day. Call (513) 586-5107.',
+      'From the 19th-century buildings in Montgomery’s historic district to its decades-old subdivisions, aging water heaters and burst pipes are what we see. Our emergency plumbers reach homes near Montgomery Road the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Montgomery (ZIP 45242) is an upscale northeast-side city with a preserved historic district of 19th-century buildings and surrounding neighborhoods of established and newer homes.',
       'From century-old structures in the historic core to decades-old subdivisions, the plumbing here spans a wide range — but aging water heaters, worn supply lines, and the occasional burst pipe are the emergencies we respond to most. We are available 7 days a week from 8am to 8pm.',
@@ -787,7 +787,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45243',
     intro:
-      'Plumbing emergency in Madeira? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach homes around Miami and Euclid Avenues the same day. Call (513) 586-5107.',
+      'Mid-century homes in Madeira are at the age where original galvanized pipe corrodes and cast-iron drains back up. For emergency plumbing around Miami and Euclid Avenues, we come the same day, any day from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Madeira (ZIP 45243) is an established east-side city with a small-town feel, built largely of mid-century single-family homes on quiet, tree-lined streets.',
       'Homes from the mid-1900s are now well into the age where original galvanized supply lines corrode, water heaters fail, and cast-iron drains back up. Those are the emergencies we are called for most in Madeira, and we handle them 7 days a week from 8am to 8pm.',
@@ -811,7 +811,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45215',
     intro:
-      'Plumbing emergency in Wyoming? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic suburb’s tree-lined streets the same day. Call (513) 586-5107.',
+      'A corroded supply line in one of Wyoming’s Victorian homes can damage finished rooms before you catch it. Our emergency plumbers reach the suburb’s tree-lined streets the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Wyoming (ZIP 45215) is a historic, affluent suburb north of the city, known for its grand Victorian and early-1900s homes on established, tree-shaded streets.',
       'Those large, century-old houses often still run on original plumbing, where a corroded supply line or aging drain can cause expensive damage to finished spaces before it is caught. We respond fast to protect the historic interiors these homes are known for.',
@@ -835,7 +835,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45227',
     intro:
-      'Plumbing emergency in Mariemont? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic planned village the same day. Call (513) 586-5107.',
+      'Mariemont was laid out in the 1920s, so its Tudor Revival homes carry close to a century of plumbing wear. We answer emergency plumbing calls in the village the same day, 7 days a week from 8am to 8pm, and repair with the historic character in mind. Call (513) 586-5107.',
     relevance: [
       'Mariemont (ZIP 45227) is a planned "garden community" laid out in the 1920s and now a National Historic Landmark, known for its Tudor Revival architecture and village square on the east side.',
       'Because so much of Mariemont dates to the 1920s and 30s, its homes carry nearly a century of plumbing wear — original galvanized lines and aging drains that fail with little warning. We take care to make repairs that respect the village’s historic character.',
@@ -859,7 +859,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45211',
     intro:
-      'Plumbing emergency in Cheviot? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this west-side city along Harrison Avenue the same day. Call (513) 586-5107.',
+      'Cheviot is packed tight along Harrison Avenue, and a burst pipe in one older home can reach the next. An emergency plumber can usually be there the same day, from 8am to 8pm 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Cheviot (ZIP 45211) is a small, densely built city on the west side, completely surrounded by Cincinnati, with a grid of early-1900s homes and brick two-families along Harrison Avenue.',
       'That older, tightly packed housing runs on aging galvanized and cast-iron plumbing, so corrosion leaks, burst pipes, and drain backups are the emergencies we are called for most. We respond fast to keep one home’s problem from reaching the next.',
@@ -884,7 +884,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45238',
     intro:
-      'Plumbing emergency in Covedale? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes along Glenway and Cleves Warsaw the same day. Call (513) 586-5107.',
+      'Clay sewer laterals full of roots and aging water heaters are the overnight emergencies we see most in Covedale. Our emergency plumbers reach homes along Glenway and Cleves Warsaw the same day, 7 days a week between 8am and 8pm. Call (513) 586-5107.',
     relevance: [
       'Covedale (ZIP 45238) is a settled west-side community on the edge of the city near Green Township, with neighborhoods of early-1900s through mid-century single-family homes.',
       'Homes of that age commonly have corroding galvanized supply lines, aging water heaters, and clay or cast-iron sewer laterals prone to roots — all of which can become emergencies overnight. We handle them 7 days a week from 8am to 8pm.',
@@ -911,7 +911,7 @@ export const locations: Location[] = [
     state: 'KY',
     zip: '41011',
     intro:
-      'Plumbing emergency in Covington? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the historic riverfront and MainStrasse Village the same day. Call (513) 586-5107.',
+      'Covington’s 19th-century rowhouses in MainStrasse Village and Licking Riverside sit on low ground near two rivers. When high water pushes a sewer backup into the basement, our emergency plumbers come the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Covington (ZIP 41011) sits directly across the Ohio River from downtown Cincinnati, with historic districts like MainStrasse Village and Licking Riverside full of 19th-century rowhouses and brick homes.',
       'Those century-old riverfront homes carry original cast-iron and galvanized plumbing, and the low ground near the Ohio and Licking Rivers adds a real risk of sewer and basement backups during high water. Both make a fast local response essential.',
@@ -935,7 +935,7 @@ export const locations: Location[] = [
     state: 'KY',
     zip: '41071',
     intro:
-      'Plumbing emergency in Newport? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes around the East Row Historic District and the riverfront the same day. Call (513) 586-5107.',
+      'The East Row Historic District gives Newport hundreds of 19th-century homes, and they run on original plumbing well past its service life. We handle emergency plumbing there and along the riverfront the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Newport (ZIP 41071) is a Northern Kentucky river city across from downtown Cincinnati, home to the East Row Historic District — one of the largest Victorian historic districts in the state — along with the Levee riverfront.',
       'The hundreds of 19th-century homes in the East Row run on original plumbing well past its service life, and the low riverfront ground raises the risk of backups when the river is high. We respond fast and repair with care for the historic details.',
@@ -960,7 +960,7 @@ export const locations: Location[] = [
     state: 'KY',
     zip: '41073',
     intro:
-      'Plumbing emergency in Bellevue? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes around Fairfield Avenue near the river the same day. Call (513) 586-5107.',
+      'Late-1800s homes near Fairfield Avenue in Bellevue still run on galvanized and cast-iron pipe, and the riverfront can push water into basements when the Ohio is high. Emergency plumbing help arrives the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Bellevue (ZIP 41073) is a compact Northern Kentucky river city with a historic Fairfield Avenue business district and tight streets of well-preserved late-1800s homes.',
       'Its century-old housing carries original galvanized and cast-iron plumbing, and the riverfront location means high water can drive basement and sewer backups. We respond 7 days a week from 8am to 8pm to keep the damage contained.',
@@ -985,7 +985,7 @@ export const locations: Location[] = [
     state: 'KY',
     zip: '41075',
     intro:
-      'Plumbing emergency in Fort Thomas? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes along the historic military reservation and Fort Thomas Avenue the same day. Call (513) 586-5107.',
+      'Fort Thomas grew up around a former U.S. Army post, and many of its early-1900s homes above the river still have original pipes. When one fails, an emergency plumber gets there the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Fort Thomas (ZIP 41075) is a historic Northern Kentucky city built around a former U.S. Army post, with stately early-1900s homes on tree-lined streets above the river.',
       'Many of these large, established homes still carry original plumbing, where corroded supply lines and aging drains can do real damage before they are noticed. We respond fast and make repairs built to last.',
@@ -1009,7 +1009,7 @@ export const locations: Location[] = [
     state: 'KY',
     zip: '41042',
     intro:
-      'Plumbing emergency in Florence? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach homes across this fast-growing Boone County city the same day. Call (513) 586-5107.',
+      'Florence is Boone County’s largest city, with mid-century streets and newer subdivisions around the Florence Mall area. Both now see failing water heaters and supply lines, and our emergency plumbers handle them the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Florence (ZIP 41042) is the largest city in Boone County and one of the fastest-growing in Northern Kentucky, with a wide mix of mid-century neighborhoods and newer subdivisions around the Florence Mall area.',
       'Even the newer homes here are now old enough for water heaters and supply lines to start failing, while the mid-century neighborhoods see the corrosion leaks and drain backups typical of older plumbing. We respond 7 days a week from 8am to 8pm to both.',
@@ -1030,7 +1030,7 @@ export const locations: Location[] = [
     state: 'KY',
     zip: '41018',
     intro:
-      'Plumbing emergency in Erlanger? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach homes across this Kenton County city the same day. Call (513) 586-5107.',
+      'Near the airport, Erlanger’s mid-century neighborhoods are at the age where supply lines corrode and sewer laterals back up. Emergency plumbing service here is same-day on most calls, from 8am to 8pm every day. Call (513) 586-5107.',
     relevance: [
       'Erlanger (ZIP 41018) is an established Kenton County city near the airport, with settled mid-century neighborhoods and a mix of older and newer homes.',
       'Homes from the mid-1900s are now at the age where original supply lines corrode, water heaters fail, and sewer laterals back up. Those are the emergencies we are called for most in Erlanger, and we handle them 7 days a week from 8am to 8pm.',
@@ -1053,7 +1053,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45040',
     intro:
-      'Plumbing emergency in Mason? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach homes across this fast-growing Warren County city the same day. Call (513) 586-5107.',
+      'Mason subdivisions built from the 1990s onward are hitting the age where water heaters and sump pumps quit. Our emergency plumbers cover the city near Kings Island and the older town center the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Mason (ZIP 45040) is a fast-growing Warren County city north of Cincinnati, near Kings Island, with large subdivisions of homes built mostly from the 1990s onward alongside an older town center.',
       'Even in newer subdivisions, water heaters, sump pumps, and supply lines reach the end of their life on a predictable schedule, and the older town center sees the issues typical of decades-old plumbing. We respond 7 days a week from 8am to 8pm across the city.',
@@ -1074,7 +1074,7 @@ export const locations: Location[] = [
     state: 'OH',
     zip: '45069',
     intro:
-      'Plumbing emergency in West Chester? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach homes across this Butler County township the same day. Call (513) 586-5107.',
+      'Much of West Chester went up from the 1990s on along I-75, and now those water heaters and sump pumps are wearing out. We send emergency plumbers across the township the same day, 7 days a week between 8am and 8pm. Call (513) 586-5107.',
     relevance: [
       'West Chester (ZIP 45069) is a large, fast-growing Butler County community between Cincinnati and Dayton, made up largely of subdivisions built from the 1990s onward along the I-75 corridor.',
       'These newer homes are now old enough that water heaters fail, sump pumps wear out, and supply lines spring leaks — the emergencies we are called for most here. We respond 7 days a week from 8am to 8pm across the township.',
@@ -1094,7 +1094,8 @@ export const locations: Location[] = [
   {
     slug: 'pendleton', neighborhood: 'Pendleton', city: 'Cincinnati', state: 'OH', zip: '45202',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Pendleton? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic district next to Over-the-Rhine the same day. Call (513) 586-5107.',
+    intro:
+      'Pendleton’s restored Italianate buildings and loft condos share brittle cast-iron stacks, so one failure can reach several units. Emergency plumbing calls in this arts district beside Over-the-Rhine get a same-day visit, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Pendleton (ZIP 45202) is a small, historic arts district tucked against the eastern edge of Over-the-Rhine, full of restored 19th-century Italianate buildings and converted lofts and condos.',
       'Those mid-1800s buildings run on a mix of original and retrofitted plumbing — brittle cast-iron stacks and old risers — where one failure can reach several units. Fast shutoff is key in such tightly built historic blocks.',
@@ -1105,7 +1106,8 @@ export const locations: Location[] = [
   {
     slug: 'queensgate', neighborhood: 'Queensgate', city: 'Cincinnati', state: 'OH', zip: '45203',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Queensgate? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this commercial and industrial district west of downtown the same day. Call (513) 586-5107.',
+    intro:
+      'Most emergencies in Queensgate are commercial: a burst supply line in a warehouse or a backup in an older building on low ground near Mill Creek. We send emergency plumbers the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings.',
       'Plumbing emergencies here tend to be commercial: burst supply lines, failed water heaters, and backups in older industrial buildings on low ground prone to flooding. We respond 7 days a week from 8am to 8pm.',
@@ -1116,7 +1118,8 @@ export const locations: Location[] = [
   {
     slug: 'cuf', neighborhood: 'CUF (Clifton Heights, University Heights & Fairview)', city: 'Cincinnati', state: 'OH', zip: '45219',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in CUF near UC? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach Clifton Heights, University Heights, and Fairview the same day. Call (513) 586-5107.',
+    intro:
+      'In the student rentals of Clifton Heights, University Heights and Fairview (CUF), shared stacks mean one burst pipe can hit several units. Our emergency plumbers reach the UC area the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'CUF (ZIP 45219) covers Clifton Heights, University Heights, and Fairview — the dense hilltop neighborhoods packed against the University of Cincinnati, full of 19th- and early-1900s homes now largely converted to student rentals.',
       'Heavy use on old plumbing is the story here: aging galvanized lines, overworked water heaters, and shared stacks in subdivided houses, where a burst pipe can hit several units at once. We respond fast, 7 days a week from 8am to 8pm.',
@@ -1127,7 +1130,8 @@ export const locations: Location[] = [
   {
     slug: 'camp-washington', neighborhood: 'Camp Washington', city: 'Cincinnati', state: 'OH', zip: '45225',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Camp Washington? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic Mill Creek valley neighborhood the same day. Call (513) 586-5107.',
+    intro:
+      'Camp Washington sits low in the Mill Creek valley, so heavy rain brings drain and sewer backups into older homes and buildings. We answer emergency plumbing calls near the American Sign Museum the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Camp Washington (ZIP 45225) is a historic working neighborhood in the Mill Creek valley, known for its industry, the American Sign Museum, and a tight mix of old worker housing and factories.',
       'The low valley ground raises the risk of drain and sewer backups during heavy rain, and the older homes and buildings here run on aging plumbing prone to sudden leaks. We respond 7 days a week from 8am to 8pm.',
@@ -1138,7 +1142,8 @@ export const locations: Location[] = [
   {
     slug: 'south-fairmount', neighborhood: 'South Fairmount', city: 'Cincinnati', state: 'OH', zip: '45205',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in South Fairmount? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes along Queen City Avenue the same day. Call (513) 586-5107.',
+    intro:
+      'South Fairmount has a long history of valley flooding, which is why the Lick Run Greenway was built. Sewer backups still hit older homes along Queen City Avenue, and our emergency plumbers come the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'South Fairmount (ZIP 45205) sits in the Lick Run valley along Queen City Avenue on the west side — the area rebuilt around the Lick Run Greenway stormwater project after a long history of valley flooding.',
       'That low-lying valley setting and the neighborhood’s older housing make sewer and drain backups a recurring emergency, alongside the burst pipes typical of aging plumbing. We respond fast to limit the damage.',
@@ -1149,7 +1154,8 @@ export const locations: Location[] = [
   {
     slug: 'east-end', neighborhood: 'East End', city: 'Cincinnati', state: 'OH', zip: '45226',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in the East End? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the riverfront homes along Eastern Avenue the same day. Call (513) 586-5107.',
+    intro:
+      'Between Columbia Parkway and the Ohio River, the East End’s river cottages and condos sit low enough for high water to cause backups. Emergency plumbers reach Eastern Avenue the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'The East End (ZIP 45226) is a narrow riverfront neighborhood stretching east of downtown along Eastern Avenue, below Columbia Parkway, with historic river cottages and newer condos squeezed between the hillside and the Ohio River.',
       'Its low position right on the river means high water and backups are a real risk, and the older cottages carry decades-old plumbing. Both make a quick local response important.',
@@ -1160,7 +1166,8 @@ export const locations: Location[] = [
   {
     slug: 'north-fairmount', neighborhood: 'North Fairmount', city: 'Cincinnati', state: 'OH', zip: '45225',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in North Fairmount? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this west-side hillside neighborhood the same day. Call (513) 586-5107.',
+    intro:
+      'On North Fairmount’s hillside above the Mill Creek valley, heavy rain strains basement drains in early-1900s homes. Our emergency plumbers can usually reach you the same day, any day from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'North Fairmount (ZIP 45225) is a west-side hillside neighborhood above the Mill Creek valley, with streets of older early-1900s homes.',
       'The age of the housing means aging galvanized and cast-iron plumbing is common, and the hillside grade puts extra demand on basement drains during heavy rain — both frequent sources of emergencies.',
@@ -1171,7 +1178,8 @@ export const locations: Location[] = [
   {
     slug: 'evanston', neighborhood: 'Evanston', city: 'Cincinnati', state: 'OH', zip: '45207',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Evanston? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes near Xavier University the same day. Call (513) 586-5107.',
+    intro:
+      'Older homes and student housing next to Xavier University keep Evanston plumbing under heavy wear. When a pipe leaks or a drain backs up, we send an emergency plumber the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Evanston (ZIP 45207) is an east-side neighborhood next to Xavier University, with streets of early-1900s homes and apartment buildings, some now student housing.',
       'The older homes here carry aging plumbing prone to corrosion leaks and drain backups, and densely built rentals add heavy wear. We respond 7 days a week from 8am to 8pm.',
@@ -1182,7 +1190,8 @@ export const locations: Location[] = [
   {
     slug: 'south-cumminsville', neighborhood: 'South Cumminsville', city: 'Cincinnati', state: 'OH', zip: '45225',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in South Cumminsville? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Mill Creek valley neighborhood the same day. Call (513) 586-5107.',
+    intro:
+      'South Cumminsville’s older homes sit among industrial corridors on low Mill Creek valley ground, where heavy rain can back up a sewer. Emergency plumbing service arrives the same day on most calls, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'South Cumminsville (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, with older homes set among industrial corridors.',
       'The low valley ground brings a real risk of sewer and drain backups in heavy rain, and the older housing runs on aging plumbing that fails without warning. We respond fast to contain the damage.',
@@ -1193,7 +1202,8 @@ export const locations: Location[] = [
   {
     slug: 'english-woods', neighborhood: 'English Woods', city: 'Cincinnati', state: 'OH', zip: '45225',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in English Woods? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this west-side hilltop neighborhood the same day. Call (513) 586-5107.',
+    intro:
+      'English Woods overlooks the Mill Creek valley from the hilltop, and that slope strains older drains during heavy rain. Our emergency plumbers reach the neighborhood the same day, from 8am to 8pm 7 days a week. Call (513) 586-5107.',
     relevance: [
       'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years.',
       'Older homes here run on aging plumbing, and the hillside setting adds strain to drains during heavy rain — both common sources of an emergency call. We respond 7 days a week from 8am to 8pm.',
@@ -1204,7 +1214,8 @@ export const locations: Location[] = [
   {
     slug: 'north-avondale', neighborhood: 'North Avondale', city: 'Cincinnati', state: 'OH', zip: '45229',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in North Avondale? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes around Rockdale and Reading Road the same day. Call (513) 586-5107.',
+    intro:
+      'North Avondale’s grand early-1900s homes near Rockdale Avenue often still have original plumbing, and a hidden leak there gets expensive fast. We handle emergency plumbing in the neighborhood the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'North Avondale (ZIP 45229) is a historic, leafy neighborhood known for its grand early-1900s homes on large, tree-shaded lots near Rockdale Avenue.',
       'Those big, century-old houses often still carry original plumbing, where a hidden leak or failing supply line can do expensive damage before it is noticed. We respond fast to protect the finished spaces these homes are known for.',
@@ -1215,7 +1226,8 @@ export const locations: Location[] = [
   {
     slug: 'millvale', neighborhood: 'Millvale', city: 'Cincinnati', state: 'OH', zip: '45225',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Millvale? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Mill Creek valley neighborhood the same day. Call (513) 586-5107.',
+    intro:
+      'Millvale is a compact residential neighborhood on low Mill Creek valley ground, which raises the risk of sewer backups in heavy rain. Our emergency plumbers come the same day, 7 days a week between 8am and 8pm. Call (513) 586-5107.',
     relevance: [
       'Millvale (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, a compact, largely residential community.',
       'The low-lying ground raises the risk of drain and sewer backups during heavy rain, and older housing here runs on aging plumbing prone to leaks. We respond 7 days a week from 8am to 8pm.',
@@ -1226,7 +1238,8 @@ export const locations: Location[] = [
   {
     slug: 'paddock-hills', neighborhood: 'Paddock Hills', city: 'Cincinnati', state: 'OH', zip: '45229',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Paddock Hills? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this north-side neighborhood near Paddock Road the same day. Call (513) 586-5107.',
+    intro:
+      'Paddock Hills homes near Paddock Road and the Norwood Lateral date to the early and mid-1900s, so corroding supply lines and old water heaters fail with little warning. We send emergency plumbers the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Paddock Hills (ZIP 45229) is a small, well-kept north-side residential pocket near Paddock Road and the Norwood Lateral, with streets of early- and mid-1900s homes.',
       'Homes of that era commonly have corroding galvanized supply lines and aging water heaters that fail without much warning — the emergencies we are called for most here.',
@@ -1237,7 +1250,8 @@ export const locations: Location[] = [
   {
     slug: 'spring-grove-village', neighborhood: 'Spring Grove Village', city: 'Cincinnati', state: 'OH', zip: '45232',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Spring Grove Village? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes near Spring Grove Cemetery the same day. Call (513) 586-5107.',
+    intro:
+      'Around Spring Grove Cemetery, the low valley ground and older housing in Spring Grove Village make backups and sudden leaks the usual calls. Emergency plumbing help gets there the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Spring Grove Village (ZIP 45232) sits in the Mill Creek valley around the historic Spring Grove Cemetery and Arboretum, one of the largest cemeteries in the country, with a mix of older homes and industry.',
       'The low valley ground brings a real risk of backups in heavy rain, and the neighborhood’s older housing runs on aging plumbing prone to sudden leaks. We respond 7 days a week from 8am to 8pm.',
@@ -1248,7 +1262,8 @@ export const locations: Location[] = [
   {
     slug: 'linwood', neighborhood: 'Linwood', city: 'Cincinnati', state: 'OH', zip: '45226',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Linwood? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this small east-side neighborhood near Lunken the same day. Call (513) 586-5107.',
+    intro:
+      'Linwood is small and sits on the river bottoms near Lunken Airport, so high water can mean backups in older homes. Our emergency plumbers reach Eastern Avenue the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Linwood (ZIP 45226) is one of Cincinnati’s smaller east-side neighborhoods, set along Eastern Avenue near Lunken Airport and the river bottoms.',
       'Its low riverside position raises the risk of backups in high water, and the older homes here carry aging plumbing prone to leaks. Both make a fast local response worthwhile.',
@@ -1259,7 +1274,8 @@ export const locations: Location[] = [
   {
     slug: 'bond-hill', neighborhood: 'Bond Hill', city: 'Cincinnati', state: 'OH', zip: '45237',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Bond Hill? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes along Reading Road the same day. Call (513) 586-5107.',
+    intro:
+      'Corroded supply lines and worn-out water heaters in Bond Hill’s early-1900s and mid-century homes tend to fail without warning. We send an emergency plumber along Reading Road the same day, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Bond Hill (ZIP 45237) is a north-side neighborhood along Reading Road, with established streets of early-1900s and mid-century single-family homes.',
       'Homes of that age carry decades-old plumbing, where corroded supply lines, aging water heaters, and clogged drains turn into emergencies without warning. We handle them 7 days a week from 8am to 8pm.',
@@ -1270,7 +1286,8 @@ export const locations: Location[] = [
   {
     slug: 'villages-of-roll-hill', neighborhood: 'Villages of Roll Hill', city: 'Cincinnati', state: 'OH', zip: '45225',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Villages of Roll Hill? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this west-side hilltop community the same day. Call (513) 586-5107.',
+    intro:
+      'Villages of Roll Hill is mostly multi-unit apartment buildings, where a single burst pipe can reach several units quickly. Our emergency plumbers come to this west-side hilltop community the same day, from 8am to 8pm every day. Call (513) 586-5107.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop residential community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings.',
       'In densely built multi-unit housing, a single burst pipe or backup can affect several units quickly, so fast shutoff and repair matter. We respond 7 days a week from 8am to 8pm.',
@@ -1281,7 +1298,8 @@ export const locations: Location[] = [
   {
     slug: 'east-westwood', neighborhood: 'East Westwood', city: 'Cincinnati', state: 'OH', zip: '45211',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in East Westwood? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this west-side neighborhood the same day. Call (513) 586-5107.',
+    intro:
+      'East Westwood sits on the slopes between Westwood and the Mill Creek valley, and heavy rain puts extra demand on basement drains. We answer emergency plumbing calls here the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'East Westwood (ZIP 45211) is a west-side neighborhood on the slopes between Westwood and the Mill Creek valley, with streets of early- and mid-1900s homes.',
       'The older homes carry aging plumbing prone to corrosion leaks, and the hillside grade adds demand on basement drains in heavy rain. We respond fast, 7 days a week from 8am to 8pm.',
@@ -1292,7 +1310,8 @@ export const locations: Location[] = [
   {
     slug: 'western-hills', neighborhood: 'Western Hills', city: 'Cincinnati', state: 'OH', zip: '45211',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Western Hills? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes around Western Hills Plaza and Glenway the same day. Call (513) 586-5107.',
+    intro:
+      'Around Western Hills Plaza and Glenway Avenue, the usual emergencies come from corroding galvanized lines and root-prone sewer laterals. Our emergency plumbers reach Western Hills homes the same day, 7 days a week between 8am and 8pm. Call (513) 586-5107.',
     relevance: [
       'Western Hills (ZIP 45211) is the established west-side area around Western Hills Plaza and Glenway Avenue, with neighborhoods of early-1900s through mid-century single-family homes.',
       'Across that older housing, corroding galvanized lines, aging water heaters, and clay or cast-iron sewer laterals are the common sources of an emergency. We handle them 7 days a week from 8am to 8pm.',
@@ -1303,7 +1322,8 @@ export const locations: Location[] = [
   {
     slug: 'california', neighborhood: 'California', city: 'Cincinnati', state: 'OH', zip: '45230',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in the California neighborhood? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the riverfront homes along Kellogg Avenue the same day. Call (513) 586-5107.',
+    intro:
+      'California is Cincinnati’s far-east riverfront neighborhood on Kellogg Avenue, and its low ground makes basement backups a repeat problem. Emergency plumbers reach the California neighborhood the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'California (ZIP 45230) is Cincinnati’s far-east riverfront neighborhood along Kellogg Avenue, near Riverbend and the old Coney Island grounds, set on low ground beside the Ohio River.',
       'That riverside position makes high water and backups a recurring risk, and the older homes here carry aging plumbing. A fast local response keeps a backup from ruining a lower level.',
@@ -1314,7 +1334,8 @@ export const locations: Location[] = [
   {
     slug: 'carthage', neighborhood: 'Carthage', city: 'Cincinnati', state: 'OH', zip: '45215',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Carthage? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes along Vine Street the same day. Call (513) 586-5107.',
+    intro:
+      'Carthage, home to the Hamilton County Fairgrounds, has early-1900s homes on galvanized and cast-iron plumbing that leaks and backs up with age. Our emergency plumbers reach homes along Vine Street the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Carthage (ZIP 45215) is a north-side neighborhood along Vine Street, a former village now home to the Hamilton County Fairgrounds, with older early-1900s homes.',
       'The age of the housing means aging galvanized and cast-iron plumbing is common, with corrosion leaks and drain backups the usual emergencies. We respond 7 days a week from 8am to 8pm.',
@@ -1325,7 +1346,8 @@ export const locations: Location[] = [
   {
     slug: 'winton-hills', neighborhood: 'Winton Hills', city: 'Cincinnati', state: 'OH', zip: '45232',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Winton Hills? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this north-side neighborhood near Winton Road the same day. Call (513) 586-5107.',
+    intro:
+      'Multi-unit housing near Winton Road means a burst pipe in Winton Hills can spread to the neighbors quickly. We send emergency plumbers the same day, 7 days a week from 8am to 8pm, to keep it contained. Call (513) 586-5107.',
     relevance: [
       'Winton Hills (ZIP 45232) is a north-side neighborhood near Winton Road, with a mix of residential and industrial areas including multi-unit housing.',
       'Densely built multi-unit homes mean a burst pipe or backup can affect several units, and older buildings run on aging plumbing. We respond 7 days a week from 8am to 8pm to keep problems contained.',
@@ -1336,7 +1358,8 @@ export const locations: Location[] = [
   {
     slug: 'roselawn', neighborhood: 'Roselawn', city: 'Cincinnati', state: 'OH', zip: '45237',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Roselawn? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes along Reading Road the same day. Call (513) 586-5107.',
+    intro:
+      'Roselawn’s mid-century homes and apartment buildings along Reading Road are at the age where supply lines corrode and water heaters quit. Emergency plumbing help arrives the same day on most calls, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Roselawn (ZIP 45237) is a north-side neighborhood along Reading Road, with settled streets of mid-century single-family homes and apartment buildings.',
       'Homes from the mid-1900s are now well into the age where supply lines corrode and water heaters fail, while older apartments add heavy plumbing wear. We respond 7 days a week from 8am to 8pm.',
@@ -1347,7 +1370,8 @@ export const locations: Location[] = [
   {
     slug: 'mount-airy', neighborhood: 'Mount Airy', city: 'Cincinnati', state: 'OH', zip: '45239',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Mount Airy? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes near Mount Airy Forest the same day. Call (513) 586-5107.',
+    intro:
+      'Next to Mount Airy Forest, the hilly, wooded streets of Mount Airy put extra strain on drains when heavy rain comes. Our emergency plumbers fix failing water heaters and corrosion leaks here the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Mount Airy (ZIP 45239) is a northwest-side neighborhood beside Mount Airy Forest, one of the largest city parks in the country, with mid-century single-family homes on hilly, wooded streets.',
       'Homes of that era carry aging plumbing prone to corrosion leaks and failing water heaters, and the hilltop terrain adds strain on drains during heavy rain. We respond 7 days a week from 8am to 8pm.',
@@ -1358,7 +1382,8 @@ export const locations: Location[] = [
   {
     slug: 'hartwell', neighborhood: 'Hartwell', city: 'Cincinnati', state: 'OH', zip: '45215',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Hartwell? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic streetcar neighborhood the same day. Call (513) 586-5107.',
+    intro:
+      'Hartwell grew as a streetcar suburb, and many of its Victorian homes still run on original supply lines and drains. When one leaks, an emergency plumber can be there the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Hartwell (ZIP 45215) is a historic north-side neighborhood that grew as a streetcar suburb, known for its Victorian and early-1900s homes on tree-lined streets.',
       'Those century-old homes often still carry original plumbing, where corroded supply lines and aging drains lead to sudden leaks. We respond fast to protect their historic details.',
@@ -1369,7 +1394,8 @@ export const locations: Location[] = [
   {
     slug: 'kennedy-heights', neighborhood: 'Kennedy Heights', city: 'Cincinnati', state: 'OH', zip: '45213',
     county: 'Cincinnati Neighborhoods',
-    intro: 'Plumbing emergency in Kennedy Heights? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic east-side hilltop neighborhood the same day. Call (513) 586-5107.',
+    intro:
+      'Kennedy Heights started as a Victorian-era resort community, and its large early-1900s homes still have plenty of original plumbing. We handle emergency plumbing on the hilltop the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Kennedy Heights (ZIP 45213) is a historic east-side hilltop neighborhood that began as a Victorian-era resort community, now known for its arts center and large early-1900s homes.',
       'The age of the housing means original plumbing is common, with corrosion leaks and aging drains the usual emergencies. We respond 7 days a week from 8am to 8pm to keep the damage contained.',
@@ -1381,7 +1407,8 @@ export const locations: Location[] = [
   // ── Hamilton County, OH suburbs ───────────────────────────────────────
   {
     slug: 'st-bernard', neighborhood: 'St. Bernard', state: 'OH', zip: '45217', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in St. Bernard? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this independent city the same day. Call (513) 586-5107.',
+    intro:
+      'St. Bernard grew up around the Procter & Gamble Ivorydale complex, and its dense grid of early-1900s homes runs on corroded galvanized and cast-iron lines. Emergency plumbers reach this independent city the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'St. Bernard (ZIP 45217) is its own city, completely surrounded by Cincinnati, built up around the Procter & Gamble Ivorydale complex with a dense grid of early-1900s homes.',
       'That tightly packed, century-old housing is where plumbing emergencies cluster — corroded galvanized lines and aging cast-iron drains on small valley lots. We respond fast to keep one home’s problem from reaching the next.',
@@ -1391,7 +1418,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'elmwood-place', neighborhood: 'Elmwood Place', state: 'OH', zip: '45216', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Elmwood Place? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this small inner-ring village the same day. Call (513) 586-5107.',
+    intro:
+      'Elmwood Place is a tiny village of closely spaced early-1900s homes on low Mill Creek valley ground, where heavy rain brings backups. Our emergency plumbers get there the same day, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Elmwood Place (ZIP 45216) is a tiny, densely built village in the Mill Creek valley north of the city, with closely spaced early-1900s homes.',
       'The low valley ground brings a real risk of backups in heavy rain, and the old, tightly packed housing runs on aging plumbing. We respond 7 days a week from 8am to 8pm.',
@@ -1401,7 +1429,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'delhi-hills', neighborhood: 'Delhi Hills', state: 'OH', zip: '45233', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Delhi Hills? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this west-side township community above the river the same day. Call (513) 586-5107.',
+    intro:
+      'Delhi Hills, known for its greenhouse and floral growing roots, has mid-century homes on hilly streets above the Ohio River. Failing water heaters and corrosion leaks are the usual emergency plumbing calls, and we handle them the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Delhi Hills (ZIP 45233) sits in Delhi Township on the west side above the Ohio River — an area with deep ties to greenhouse and floral growing, with established mid-century homes on hilly streets.',
       'Homes of that era carry aging plumbing prone to corrosion leaks and failing water heaters, and the hillside grade adds demand on drains during heavy rain. We respond 7 days a week from 8am to 8pm.',
@@ -1411,7 +1440,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'golf-manor', neighborhood: 'Golf Manor', state: 'OH', zip: '45237', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Golf Manor? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this small inner-ring village the same day. Call (513) 586-5107.',
+    intro:
+      'Golf Manor is a small village of modest mid-century homes, and those homes are at the age where supply lines corrode and water heaters fail. We send an emergency plumber the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Golf Manor (ZIP 45237) is a small village completely surrounded by Cincinnati on the north side, with a compact grid of modest mid-century homes.',
       'Homes of that era are now at the age where supply lines corrode and water heaters fail, the emergencies we are called for most. We respond 7 days a week from 8am to 8pm.',
@@ -1421,7 +1451,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'fairfax', neighborhood: 'Fairfax', state: 'OH', zip: '45227', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Fairfax? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this small east-side village along Wooster Pike the same day. Call (513) 586-5107.',
+    intro:
+      'Fairfax’s early- and mid-1900s homes along Wooster Pike near Mariemont see corrosion leaks and failing water heaters most. Emergency plumbing service here is same-day on most calls, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Fairfax (ZIP 45227) is a small east-side village along Wooster Pike near Mariemont, with established early- and mid-1900s homes.',
       'The age of the housing means aging plumbing is common, with corrosion leaks and failing water heaters the usual emergencies. We respond 7 days a week from 8am to 8pm.',
@@ -1431,7 +1462,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'mack', neighborhood: 'Mack', state: 'OH', zip: '45248', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Mack? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this west-side Green Township community the same day. Call (513) 586-5107.',
+    intro:
+      'In Mack, the newer Green Township homes now have water heaters old enough to fail, and the mid-century houses get corrosion leaks. Our emergency plumbers come out the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Mack (ZIP 45248) is an established community in Green Township on the west side, with neighborhoods of mid-century and newer single-family homes.',
       'Even newer homes here are now old enough for water heaters and supply lines to fail, while older houses see the corrosion leaks typical of aging plumbing. We respond 7 days a week from 8am to 8pm.',
@@ -1441,7 +1473,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'monfort-heights', neighborhood: 'Monfort Heights', state: 'OH', zip: '45247', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Monfort Heights? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this west-side Green Township suburb the same day. Call (513) 586-5107.',
+    intro:
+      'Sewer laterals backing up and corroded supply lines are typical in Monfort Heights, where most homes date to the mid-1900s. We handle emergency plumbing in this Green Township suburb the same day, 7 days a week between 8am and 8pm. Call (513) 586-5107.',
     relevance: [
       'Monfort Heights (ZIP 45247) is a settled Green Township suburb on the west side, made up largely of mid-century single-family homes.',
       'Homes from the mid-1900s are now well into the age where supply lines corrode, water heaters fail, and sewer laterals back up. We handle those emergencies 7 days a week from 8am to 8pm.',
@@ -1451,7 +1484,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'bridgetown', neighborhood: 'Bridgetown', state: 'OH', zip: '45248', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Bridgetown? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this west-side Green Township community the same day. Call (513) 586-5107.',
+    intro:
+      'When a water heater dies or a pipe bursts in Bridgetown, we can usually have an emergency plumber there the same day. We work 7 days a week from 8am to 8pm across this Green Township community. Call (513) 586-5107.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes.',
       'Aging water heaters, worn supply lines, and the occasional burst pipe are the emergencies we are called for most here. We respond 7 days a week from 8am to 8pm.',
@@ -1461,7 +1495,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'finneytown', neighborhood: 'Finneytown', state: 'OH', zip: '45231', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Finneytown? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this north-side Springfield Township community the same day. Call (513) 586-5107.',
+    intro:
+      'Finneytown’s mid-century homes in Springfield Township are prone to corrosion leaks and water heaters that give out. Our emergency plumbers respond the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Finneytown (ZIP 45231) is a settled Springfield Township community on the north side, made up largely of mid-century single-family homes.',
       'Homes of that era carry aging plumbing prone to corrosion leaks and failing water heaters, the emergencies we handle most. We respond 7 days a week from 8am to 8pm.',
@@ -1471,7 +1506,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'amberley', neighborhood: 'Amberley', state: 'OH', zip: '45237', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Amberley Village? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this wooded north-side village the same day. Call (513) 586-5107.',
+    intro:
+      'On Amberley Village’s big wooded lots, larger homes mean larger plumbing systems and leaks that can hide for a while. We send an emergency plumber the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Amberley Village (ZIP 45237) is an affluent north-side village known for its large homes on big, wooded lots along winding streets.',
       'Larger homes mean larger plumbing systems, where a hidden leak or failing line can do real damage before it is noticed. We respond fast to limit it.',
@@ -1481,7 +1517,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'arlington-heights', neighborhood: 'Arlington Heights', state: 'OH', zip: '45215', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Arlington Heights? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this small Mill Creek valley village the same day. Call (513) 586-5107.',
+    intro:
+      'Arlington Heights is a small Mill Creek valley village with a compact grid of older homes, so heavy rain can bring sewer backups. Emergency plumbing help arrives the same day, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Arlington Heights (ZIP 45215) is a small village in the Mill Creek valley north of the city, with a compact grid of older homes.',
       'The low valley ground raises the risk of backups in heavy rain, and the older housing runs on aging plumbing. We respond 7 days a week from 8am to 8pm.',
@@ -1491,7 +1528,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'north-college-hill', neighborhood: 'North College Hill', state: 'OH', zip: '45239', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in North College Hill? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this small north-side city the same day. Call (513) 586-5107.',
+    intro:
+      'Tightly packed early- and mid-1900s homes in North College Hill run on aging galvanized and cast-iron plumbing that leaks and backs up. Our emergency plumbers come the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'North College Hill (ZIP 45239) is a small, densely built city just north of College Hill, with a grid of early- and mid-1900s homes.',
       'That older, tightly packed housing runs on aging galvanized and cast-iron plumbing, so corrosion leaks and drain backups are the emergencies we are called for most. We respond 7 days a week from 8am to 8pm.',
@@ -1501,7 +1539,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'newtown', neighborhood: 'Newtown', state: 'OH', zip: '45244', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Newtown? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this east-side village near the Little Miami River the same day. Call (513) 586-5107.',
+    intro:
+      'Newtown’s older homes sit on low river-bottom ground near the Little Miami River, so heavy rain brings a real risk of flooding and backups. Emergency plumbers reach the village the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Newtown (ZIP 45244) is a small east-side village near the Little Miami River, with older homes set on low river-bottom ground.',
       'That low ground brings a real risk of flooding and backups in heavy rain, and the older homes carry aging plumbing. A fast response keeps the damage contained.',
@@ -1511,7 +1550,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'turpin-hills', neighborhood: 'Turpin Hills', state: 'OH', zip: '45244', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Turpin Hills? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this east-side Anderson Township community the same day. Call (513) 586-5107.',
+    intro:
+      'Worn supply lines and failing sump pumps account for most emergency plumbing calls in Turpin Hills. We reach this Anderson Township community the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Turpin Hills (ZIP 45244) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes.',
       'Aging water heaters, worn supply lines, and failing sump pumps are the emergencies we are called for most here. We respond 7 days a week from 8am to 8pm.',
@@ -1521,7 +1561,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'silverton', neighborhood: 'Silverton', state: 'OH', zip: '45236', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Silverton? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes along Montgomery Road the same day. Call (513) 586-5107.',
+    intro:
+      'Silverton is a small city on Montgomery Road with early- and mid-1900s homes, where corrosion leaks and failing water heaters are routine. Emergency plumbing service arrives the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Silverton (ZIP 45236) is a small city along Montgomery Road on the east side, with established streets of early- and mid-1900s homes.',
       'The age of the housing means aging plumbing is common, with corrosion leaks and failing water heaters the usual emergencies. We respond 7 days a week from 8am to 8pm.',
@@ -1531,7 +1572,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'lockland', neighborhood: 'Lockland', state: 'OH', zip: '45215', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Lockland? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic Mill Creek valley village the same day. Call (513) 586-5107.',
+    intro:
+      'Lockland was built around mills, and its closely spaced worker housing sits on low Mill Creek valley ground that backs up in heavy rain. Our emergency plumbers come the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Lockland (ZIP 45215) is a historic village in the Mill Creek valley north of the city, built up around mills and industry, with closely spaced older worker housing.',
       'The low valley ground brings a real risk of backups in heavy rain, and the old, tightly packed homes run on aging plumbing prone to leaks. We respond 7 days a week from 8am to 8pm.',
@@ -1541,7 +1583,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'groesbeck', neighborhood: 'Groesbeck', state: 'OH', zip: '45239', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Groesbeck? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this northwest Colerain Township community the same day. Call (513) 586-5107.',
+    intro:
+      'Groesbeck is mostly mid-century houses in Colerain Township, and their aging plumbing shows up as corrosion leaks and dead water heaters. Emergency plumbers reach you the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Groesbeck (ZIP 45239) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes.',
       'Homes of that era carry aging plumbing prone to corrosion leaks and failing water heaters — the emergencies we handle most. We respond 7 days a week from 8am to 8pm.',
@@ -1551,7 +1594,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'mount-healthy', neighborhood: 'Mount Healthy', state: 'OH', zip: '45231', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Mount Healthy? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic north-side city the same day. Call (513) 586-5107.',
+    intro:
+      'Mount Healthy’s old town center and early-1900s streets carry plenty of galvanized and cast-iron pipe. When it leaks or a drain backs up, our emergency plumbers come the same day, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Mount Healthy (ZIP 45231) is a historic small city on the north side, with an old town center and streets of early-1900s and mid-century homes.',
       'The age of the housing means aging galvanized and cast-iron plumbing is common, with corrosion leaks and drain backups the usual emergencies. We respond 7 days a week from 8am to 8pm.',
@@ -1561,7 +1605,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'reading', neighborhood: 'Reading', state: 'OH', zip: '45215', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Reading? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Mill Creek valley city the same day. Call (513) 586-5107.',
+    intro:
+      'Reading, known for its bridal-shop district, sits in the Mill Creek valley, where heavy rain can back up sewers in older homes. We answer emergency plumbing calls here the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Reading (ZIP 45215) is a city in the Mill Creek valley north of Cincinnati, known for its bridal-shop district and a settled mix of older and mid-century homes.',
       'The low valley ground raises the risk of backups in heavy rain, and the older housing runs on aging plumbing prone to leaks. We respond 7 days a week from 8am to 8pm.',
@@ -1571,7 +1616,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'dent', neighborhood: 'Dent', state: 'OH', zip: '45247', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Dent? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this west-side Green Township community the same day. Call (513) 586-5107.',
+    intro:
+      'Dent homes range from mid-century to newer, and the emergencies we see most are aging water heaters and the occasional burst pipe. Our emergency plumbers reach this Green Township community the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Dent (ZIP 45247) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes.',
       'Aging water heaters, worn supply lines, and the occasional burst pipe are the emergencies we are called for most here. We respond 7 days a week from 8am to 8pm.',
@@ -1581,7 +1627,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'deer-park', neighborhood: 'Deer Park', state: 'OH', zip: '45236', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Deer Park? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this small east-side city the same day. Call (513) 586-5107.',
+    intro:
+      'Quiet streets of mid-century homes make up most of Deer Park, and those homes are at the age where supply lines corrode. We send emergency plumbers the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Deer Park (ZIP 45236) is a small, settled city on the east side, made up largely of mid-century single-family homes on quiet streets.',
       'Homes of that era are now at the age where supply lines corrode and water heaters fail, the emergencies we are called for most. We respond 7 days a week from 8am to 8pm.',
@@ -1591,7 +1638,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'terrace-park', neighborhood: 'Terrace Park', state: 'OH', zip: '45174', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Terrace Park? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this east-side village near the Little Miami the same day. Call (513) 586-5107.',
+    intro:
+      'Terrace Park’s early-1900s homes near the Little Miami River face both aging plumbing and flood risk in heavy rain. Emergency plumbing help arrives the same day, 7 days a week between 8am and 8pm, to protect finished spaces. Call (513) 586-5107.',
     relevance: [
       'Terrace Park (ZIP 45174) is an affluent east-side village near the Little Miami River, known for its established early-1900s homes and tree-lined streets.',
       'The older homes here carry aging plumbing, and the low ground near the river adds a flood and backup risk in heavy rain. We respond fast to protect finished spaces.',
@@ -1601,7 +1649,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'dry-run', neighborhood: 'Dry Run', state: 'OH', zip: '45244', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Dry Run? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this east-side Anderson Township community the same day. Call (513) 586-5107.',
+    intro:
+      'Even the newer homes in Dry Run are old enough for water heaters and sump pumps to fail. Our emergency plumbers cover this Anderson Township community the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Dry Run (ZIP 45244) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes.',
       'Even newer homes here are old enough for water heaters and sump pumps to fail, while older houses see corrosion leaks. We respond 7 days a week from 8am to 8pm.',
@@ -1611,7 +1660,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'white-oak', neighborhood: 'White Oak', state: 'OH', zip: '45247', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in White Oak? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this northwest-side Green Township community the same day. Call (513) 586-5107.',
+    intro:
+      'Failing sump pumps and worn supply lines are the calls we get most from White Oak. Emergency plumbers reach this Green Township community the same day, from 8am to 8pm every day of the week. Call (513) 586-5107.',
     relevance: [
       'White Oak (ZIP 45247) is a settled Green Township community on the northwest side, made up largely of mid-century and newer single-family homes.',
       'Aging water heaters, worn supply lines, and failing sump pumps are the emergencies we are called for most here. We respond 7 days a week from 8am to 8pm.',
@@ -1621,7 +1671,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'forestville', neighborhood: 'Forestville', state: 'OH', zip: '45230', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Forestville? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this east-side Anderson Township community the same day. Call (513) 586-5107.',
+    intro:
+      'Forestville homes from the mid-century on have reached the age where water heaters and sump pumps give out. We send emergency plumbers to this Anderson Township community the same day, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Forestville (ZIP 45230) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes.',
       'Homes of that era reach the age where water heaters, supply lines, and sump pumps fail — the emergencies we are called for most. We respond 7 days a week from 8am to 8pm.',
@@ -1631,7 +1682,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'cherry-grove', neighborhood: 'Cherry Grove', state: 'OH', zip: '45230', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Cherry Grove? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this east-side Anderson Township community the same day. Call (513) 586-5107.',
+    intro:
+      'A burst pipe or a dead water heater in Cherry Grove gets an emergency plumber the same day on most calls. We cover this Anderson Township community 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Cherry Grove (ZIP 45230) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes.',
       'Aging water heaters, worn supply lines, and the occasional burst pipe are the emergencies we are called for most here. We respond 7 days a week from 8am to 8pm.',
@@ -1641,7 +1693,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'kenwood', neighborhood: 'Kenwood', state: 'OH', zip: '45236', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Kenwood? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the homes around Kenwood Towne Centre the same day. Call (513) 586-5107.',
+    intro:
+      'Around Kenwood Towne Centre, both mid-century homes and newer, larger houses can spring a hidden leak or lose a water heater without warning. Our emergency plumbers come the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Kenwood (ZIP 45236) is an upscale, unincorporated community on the east side around Kenwood Towne Centre, with mid-century homes alongside newer, larger houses.',
       'Larger and older homes both have plumbing that can fail without warning — aging supply lines, water heaters, and hidden leaks. We respond 7 days a week from 8am to 8pm.',
@@ -1651,7 +1704,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'lincoln-heights', neighborhood: 'Lincoln Heights', state: 'OH', zip: '45215', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Lincoln Heights? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic Mill Creek valley community the same day. Call (513) 586-5107.',
+    intro:
+      'Lincoln Heights was one of the first self-governed Black municipalities in the northern United States, and its modest older homes sit on low Mill Creek valley ground. When heavy rain backs up a drain, our emergency plumbers come the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Lincoln Heights (ZIP 45215) is a historic community in the Mill Creek valley north of the city — one of the first self-governed Black municipalities in the northern United States — with older, modest homes.',
       'The low valley ground brings a real risk of backups in heavy rain, and the older housing runs on aging plumbing prone to leaks. We respond 7 days a week from 8am to 8pm.',
@@ -1661,7 +1715,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'dillonvale', neighborhood: 'Dillonvale', state: 'OH', zip: '45236', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Dillonvale? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this east-side Sycamore Township community the same day. Call (513) 586-5107.',
+    intro:
+      'Dillonvale, near Kenwood in Sycamore Township, is mostly mid-century homes now at the age where supply lines corrode and water heaters fail. Emergency plumbing service arrives the same day, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Dillonvale (ZIP 45236) is a Sycamore Township community on the east side near Kenwood, with settled neighborhoods of mid-century homes.',
       'Homes of that era are now at the age where supply lines corrode and water heaters fail, the emergencies we are called for most. We respond 7 days a week from 8am to 8pm.',
@@ -1671,7 +1726,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'woodlawn', neighborhood: 'Woodlawn', state: 'OH', zip: '45215', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Woodlawn? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Mill Creek valley village the same day. Call (513) 586-5107.',
+    intro:
+      'Woodlawn mixes homes with industrial corridors on low Mill Creek valley ground, so heavy rain can mean sewer backups. Our emergency plumbers get to the village the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Woodlawn (ZIP 45215) is a village in the Mill Creek valley north of the city, with a mix of residential streets and industrial corridors.',
       'The low valley ground raises the risk of backups in heavy rain, and the older homes run on aging plumbing prone to leaks. We respond 7 days a week from 8am to 8pm.',
@@ -1681,7 +1737,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'addyston', neighborhood: 'Addyston', state: 'OH', zip: '45001', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Addyston? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this far-west river village the same day. Call (513) 586-5107.',
+    intro:
+      'Addyston is an old mill town on the Ohio River, and its century-old worker homes sit where high water can push backups into basements. We handle emergency plumbing here the same day, from 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Addyston (ZIP 45001) is a small village on the far west side along the Ohio River, an old mill town with closely spaced older worker homes.',
       'Its riverside position makes high water and backups a real risk, and the century-old homes carry aging plumbing. A fast response keeps the damage contained.',
@@ -1691,7 +1748,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'greenhills', neighborhood: 'Greenhills', state: 'OH', zip: '45218', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Greenhills? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic planned village the same day. Call (513) 586-5107.',
+    intro:
+      'Greenhills was built in the 1930s as a New Deal Greenbelt town, and its original cottages carry close to a century of plumbing wear. Our emergency plumbers come the same day, 7 days a week from 8am to 8pm, and repair without disturbing the historic character. Call (513) 586-5107.',
     relevance: [
       'Greenhills (ZIP 45218) is a historic planned "Greenbelt" town built in the 1930s as a New Deal project, now a National Historic Landmark district, with its original cottages and townhomes still in use.',
       'Those 1930s-era homes carry close to a century of plumbing wear — original supply lines and drains that fail with little warning. We take care to repair them without disturbing the historic character.',
@@ -1701,7 +1759,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'northbrook', neighborhood: 'Northbrook', state: 'OH', zip: '45251', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Northbrook? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this northwest Colerain Township community the same day. Call (513) 586-5107.',
+    intro:
+      'Northbrook’s Colerain Township streets are mostly mid-century houses, where corrosion leaks and aging water heaters cause most emergencies. Emergency plumbers reach you the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Northbrook (ZIP 45251) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes.',
       'Homes of that era carry aging plumbing prone to corrosion leaks and failing water heaters — the emergencies we handle most. We respond 7 days a week from 8am to 8pm.',
@@ -1711,7 +1770,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'indian-hill', neighborhood: 'Indian Hill', state: 'OH', zip: '45243', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Indian Hill? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach the estates of this east-side village the same day. Call (513) 586-5107.',
+    intro:
+      'Indian Hill estates sit on multi-acre lots with long water and sewer runs, and some rely on private wells and septic. A leak can do real damage before anyone finds it, so we send emergency plumbers the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Indian Hill (ZIP 45243) is an affluent east-side village known for its large estates and homes on multi-acre, wooded lots, many set well back from the road.',
       'Big properties mean long water and sewer runs and large plumbing systems, where a leak or line failure can do real damage before it is found — and some homes rely on private wells and septic. We respond 7 days a week from 8am to 8pm.',
@@ -1721,7 +1781,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'evendale', neighborhood: 'Evendale', state: 'OH', zip: '45241', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Evendale? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this north-side village the same day. Call (513) 586-5107.',
+    intro:
+      'Evendale has GE Aerospace and other industry alongside its mid-century neighborhoods, and both see burst pipes and worn water heaters. Our emergency plumbers come to homes and businesses the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Evendale (ZIP 45241) is a north-side village with a large industrial base, including GE Aerospace, alongside established residential neighborhoods.',
       'From mid-century homes to commercial and industrial buildings, the plumbing here spans a wide range, but aging water heaters, worn supply lines, and burst pipes are the emergencies we respond to most. We are available 7 days a week from 8am to 8pm.',
@@ -1731,7 +1792,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'glendale', neighborhood: 'Glendale', state: 'OH', zip: '45246', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Glendale? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic railroad-suburb village the same day. Call (513) 586-5107.',
+    intro:
+      'Glendale was one of the country’s earliest planned railroad suburbs, and its Victorian homes often keep their original pipes. When one leaks, we send an emergency plumber the same day, 8am to 8pm, 7 days a week, and repair with care for the details. Call (513) 586-5107.',
     relevance: [
       'Glendale (ZIP 45246) is a historic village and one of the country’s earliest planned railroad suburbs — a National Historic Landmark — known for its preserved Victorian homes and winding, tree-lined streets.',
       'Those 19th-century homes often still carry original plumbing, where corroded supply lines and aging drains lead to sudden leaks. We repair with care for the historic details.',
@@ -1741,7 +1803,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'sharonville', neighborhood: 'Sharonville', state: 'OH', zip: '45241', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Sharonville? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach homes and businesses across this north-side city the same day. Call (513) 586-5107.',
+    intro:
+      'Sharonville has mid-century homes near Sharon Woods that are at the age where supply lines corrode, plus commercial buildings with their own emergencies. Our emergency plumbers handle both the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Sharonville (ZIP 45241) is a north-side city near Sharon Woods, with a mix of established residential neighborhoods, the convention center, and industrial corridors.',
       'Mid-century homes here reach the age where supply lines corrode and water heaters fail, and commercial buildings add their own emergencies. We respond 7 days a week from 8am to 8pm to both.',
@@ -1751,7 +1814,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'northgate', neighborhood: 'Northgate', state: 'OH', zip: '45251', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Northgate? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this northwest Colerain Township area the same day. Call (513) 586-5107.',
+    intro:
+      'Around the Northgate Mall corridor, mid-century and newer homes are wearing out water heaters and sump pumps. We send an emergency plumber to Northgate the same day, 7 days a week between 8am and 8pm. Call (513) 586-5107.',
     relevance: [
       'Northgate (ZIP 45251) is a Colerain Township area on the northwest side around the Northgate Mall corridor, with neighborhoods of mid-century and newer homes.',
       'Aging water heaters, worn supply lines, and failing sump pumps are the emergencies we are called for most here. We respond 7 days a week from 8am to 8pm.',
@@ -1761,7 +1825,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'springdale', neighborhood: 'Springdale', state: 'OH', zip: '45246', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Springdale? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach homes and businesses across this north-side city the same day. Call (513) 586-5107.',
+    intro:
+      'Springdale’s mid-century neighborhoods along the Tri-County corridor are at the age where supply lines corrode, and its retail buildings have emergencies of their own. Emergency plumbing help arrives the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Springdale (ZIP 45246) is a north-side city along the Tri-County corridor, with established mid-century neighborhoods alongside a large commercial and retail base.',
       'Mid-century homes here are now at the age where supply lines corrode and water heaters fail, and commercial buildings add their own emergencies. We respond 7 days a week from 8am to 8pm.',
@@ -1771,7 +1836,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'miamitown', neighborhood: 'Miamitown', state: 'OH', zip: '45041', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Miamitown? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this far-west community on the Great Miami River the same day. Call (513) 586-5107.',
+    intro:
+      'Low river-bottom ground along the Great Miami River puts Miamitown’s older homes at risk of flooding and backups in heavy rain. Our emergency plumbers reach this far-west community the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Miamitown (ZIP 45041) is a small far-west community on the Great Miami River, with older homes set on low river-bottom ground.',
       'That low ground brings a real risk of flooding and backups in heavy rain, and the older homes carry aging plumbing. A fast response keeps the damage contained.',
@@ -1781,7 +1847,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'forest-park', neighborhood: 'Forest Park', state: 'OH', zip: '45240', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Forest Park? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this planned north-side city the same day. Call (513) 586-5107.',
+    intro:
+      'Forest Park was planned from the 1960s, and those mid-century homes are now well into the age of corroded supply lines and worn-out sump pumps. We answer emergency plumbing calls the same day, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Forest Park (ZIP 45240) is a north-side city developed as a planned community from the 1960s, with neighborhoods of mid-century single-family homes.',
       'Homes built in that era are now well into the age where supply lines corrode, water heaters fail, and sump pumps wear out. We handle those emergencies 7 days a week from 8am to 8pm.',
@@ -1791,7 +1858,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'pleasant-run', neighborhood: 'Pleasant Run', state: 'OH', zip: '45240', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Pleasant Run? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this north-side Springfield Township community the same day. Call (513) 586-5107.',
+    intro:
+      'Pleasant Run sees failing sump pumps and aging water heaters more than anything else. Emergency plumbers reach this Springfield Township community the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Pleasant Run (ZIP 45240) is a Springfield Township community on the north side, with settled neighborhoods of mid-century and newer homes.',
       'Aging water heaters, worn supply lines, and failing sump pumps are the emergencies we are called for most here. We respond 7 days a week from 8am to 8pm.',
@@ -1801,7 +1869,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'cleves', neighborhood: 'Cleves', state: 'OH', zip: '45002', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Cleves? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this far-west river village the same day. Call (513) 586-5107.',
+    intro:
+      'Cleves sits near where the Great Miami River meets the Ohio, and its older homes on low ground flood and back up in high water. Emergency plumbers can be there the same day, 7 days a week from 8am to 8pm, before a backup ruins a lower level. Call (513) 586-5107.',
     relevance: [
       'Cleves (ZIP 45002) is a far-west village near where the Great Miami River meets the Ohio, with older homes on low ground prone to flooding.',
       'That riverside position makes high water and backups a recurring risk, and the older housing carries aging plumbing. A fast local response keeps a backup from ruining a lower level.',
@@ -1811,7 +1880,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'north-bend', neighborhood: 'North Bend', state: 'OH', zip: '45052', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in North Bend? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic far-west river village the same day. Call (513) 586-5107.',
+    intro:
+      'North Bend, the burial place of President William Henry Harrison, has older homes on low ground beside the Ohio River. When high water causes a backup, our emergency plumbers come the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'North Bend (ZIP 45052) is a historic far-west village on the Ohio River — the burial place of President William Henry Harrison — with older homes set on low riverside ground.',
       'Its riverfront position makes high water and backups a real risk, and the older homes carry aging plumbing. We respond fast to keep the damage contained.',
@@ -1823,7 +1893,8 @@ export const locations: Location[] = [
     // Loveland spans three counties — primarily Clermont, part Warren, and a
     // small portion Hamilton. Grouped under Clermont, the largest share.
     slug: 'loveland', neighborhood: 'Loveland', state: 'OH', zip: '45140', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in Loveland? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic city on the Little Miami River the same day. Call (513) 586-5107.',
+    intro:
+      'Loveland straddles the Little Miami River and the bike trail, and the older homes near the water face both aging pipes and flood risk. Emergency plumbing help reaches you the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Loveland (ZIP 45140) is a historic city straddling the Little Miami River and the Loveland Bike Trail, with a charming older downtown and a mix of historic and newer homes.',
       'The older homes near the river carry aging plumbing, and the low riverside ground adds a flood and backup risk in heavy rain. We respond 7 days a week from 8am to 8pm.',
@@ -1833,7 +1904,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'harrison', neighborhood: 'Harrison', state: 'OH', zip: '45030', county: 'Hamilton County, OH',
-    intro: 'Plumbing emergency in Harrison? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this far-west city on the Indiana line the same day. Call (513) 586-5107.',
+    intro:
+      'Out on the Indiana line, Harrison’s older homes near the Whitewater River deal with leaky plumbing and rain-driven backups. Our emergency plumbers come the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Harrison (ZIP 45030) is a far-west city on the Indiana state line along the Whitewater River, with an older downtown and a growing mix of established and newer homes.',
       'The older homes carry aging plumbing prone to leaks, and the low ground near the Whitewater adds a backup risk in heavy rain. We respond 7 days a week from 8am to 8pm.',
@@ -1845,7 +1917,8 @@ export const locations: Location[] = [
   // ── Kenton County, KY ─────────────────────────────────────────────────
   {
     slug: 'ludlow', neighborhood: 'Ludlow', state: 'KY', zip: '41016', county: 'Kenton County, KY',
-    intro: 'Plumbing emergency in Ludlow? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic riverfront town the same day. Call (513) 586-5107.',
+    intro:
+      'Ludlow’s Victorian and early-1900s homes near Elm Street still carry galvanized and cast-iron pipe, and the riverfront adds backup risk when the Ohio runs high. Emergency plumbers reach Ludlow the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Ludlow (ZIP 41016) is a historic Northern Kentucky river town with a walkable Elm Street business district and streets of well-preserved Victorian and early-1900s homes.',
       'Those century-old homes carry original galvanized and cast-iron plumbing, and the riverfront location adds a backup risk when the Ohio runs high. We respond 7 days a week from 8am to 8pm.',
@@ -1855,7 +1928,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'park-hills', neighborhood: 'Park Hills', state: 'KY', zip: '41011', county: 'Kenton County, KY',
-    intro: 'Plumbing emergency in Park Hills? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this hillside city near Devou Park the same day. Call (513) 586-5107.',
+    intro:
+      'Park Hills’ early-1900s homes sit on steep streets beside Devou Park, where heavy rain hits basement drains hard. We handle emergency plumbing there the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Park Hills (ZIP 41011) is a hillside Northern Kentucky city beside Devou Park, known for its early-1900s homes on steep, tree-lined streets above Covington.',
       'The older homes carry aging plumbing prone to leaks, and the hillside grade adds demand on basement drains in heavy rain. We respond 7 days a week from 8am to 8pm.',
@@ -1865,7 +1939,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'bromley', neighborhood: 'Bromley', state: 'KY', zip: '41016', county: 'Kenton County, KY',
-    intro: 'Plumbing emergency in Bromley? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this small riverfront village the same day. Call (513) 586-5107.',
+    intro:
+      'Bromley is a small river village next to Ludlow, and its older homes sit low enough for high water to cause backups. We send emergency plumbers the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Bromley (ZIP 41016) is a small Northern Kentucky river village next to Ludlow, with older homes on low ground beside the Ohio River.',
       'Its riverside position makes high water and backups a real risk, and the older homes carry aging plumbing. A fast response keeps the damage contained.',
@@ -1875,7 +1950,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'fort-wright', neighborhood: 'Fort Wright', state: 'KY', zip: '41011', county: 'Kenton County, KY',
-    intro: 'Plumbing emergency in Fort Wright? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this hilltop Kenton County city the same day. Call (513) 586-5107.',
+    intro:
+      'On the hilltop above the river, Fort Wright’s mid-century homes are hitting the age of corroded supply lines and failing water heaters. Emergency plumbing service is same-day on most calls, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Fort Wright (ZIP 41011) is a hilltop Kenton County city above the river, with established neighborhoods of mid-century and newer homes.',
       'Mid-century homes here reach the age where supply lines corrode and water heaters fail, and the hillside terrain adds demand on drains in heavy rain. We respond 7 days a week from 8am to 8pm.',
@@ -1885,7 +1961,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'fort-mitchell', neighborhood: 'Fort Mitchell', state: 'KY', zip: '41017', county: 'Kenton County, KY',
-    intro: 'Plumbing emergency in Fort Mitchell? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this established city along Dixie Highway the same day. Call (513) 586-5107.',
+    intro:
+      'Historic and mid-century homes along the Dixie Highway in Fort Mitchell see corrosion leaks and water heater failures most often. We send emergency plumbers the same day, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Fort Mitchell (ZIP 41017) is an established Kenton County city along the Dixie Highway corridor, with a mix of historic and mid-century homes on settled streets.',
       'The older and mid-century homes here carry aging plumbing, with corrosion leaks and failing water heaters the usual emergencies. We respond 7 days a week from 8am to 8pm.',
@@ -1895,7 +1972,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'villa-hills', neighborhood: 'Villa Hills', state: 'KY', zip: '41017', county: 'Kenton County, KY',
-    intro: 'Plumbing emergency in Villa Hills? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this hilltop residential city the same day. Call (513) 586-5107.',
+    intro:
+      'Villa Hills’ hilltop grade puts extra demand on sump pumps and drains, and even its newer homes are old enough for water heaters to fail. Our emergency plumbers arrive the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Villa Hills (ZIP 41017) is a hilltop residential Kenton County city above the river, made up largely of mid-century and newer single-family homes.',
       'Even newer homes here reach the age where water heaters and supply lines fail, and the hillside grade adds demand on sump pumps and drains. We respond 7 days a week from 8am to 8pm.',
@@ -1905,7 +1983,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'lakeside-park', neighborhood: 'Lakeside Park', state: 'KY', zip: '41017', county: 'Kenton County, KY',
-    intro: 'Plumbing emergency in Lakeside Park? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this small Kenton County city the same day. Call (513) 586-5107.',
+    intro:
+      'Supply lines corrode and water heaters fail in Lakeside Park’s mid-century homes, and those are the emergency plumbing calls we take most. We come the same day, 7 days a week between 8am and 8pm. Call (513) 586-5107.',
     relevance: [
       'Lakeside Park (ZIP 41017) is a small, settled Kenton County city, made up largely of mid-century single-family homes on quiet streets.',
       'Homes of that era are now at the age where supply lines corrode and water heaters fail, the emergencies we are called for most. We respond 7 days a week from 8am to 8pm.',
@@ -1915,7 +1994,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'crescent-springs', neighborhood: 'Crescent Springs', state: 'KY', zip: '41017', county: 'Kenton County, KY',
-    intro: 'Plumbing emergency in Crescent Springs? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this suburban Kenton County city the same day. Call (513) 586-5107.',
+    intro:
+      'If your sump pump fails or a supply line starts leaking in Crescent Springs, an emergency plumber can usually be there the same day. We work 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Crescent Springs (ZIP 41017) is a suburban Kenton County city, with established neighborhoods of mid-century and newer homes.',
       'Aging water heaters, worn supply lines, and failing sump pumps are the emergencies we are called for most here. We respond 7 days a week from 8am to 8pm.',
@@ -1925,7 +2005,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'crestview-hills', neighborhood: 'Crestview Hills', state: 'KY', zip: '41017', county: 'Kenton County, KY',
-    intro: 'Plumbing emergency in Crestview Hills? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach homes and businesses across this Kenton County city the same day. Call (513) 586-5107.',
+    intro:
+      'Crestview Hills, home to Thomas More University, mixes residential streets with a commercial corridor by the mall. We handle emergency plumbing for homes and businesses the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Crestview Hills (ZIP 41017) is a Kenton County city home to Thomas More University and the Crestview Hills mall, with residential neighborhoods alongside a commercial corridor.',
       'Mid-century and newer homes here reach the age where water heaters and supply lines fail, and commercial buildings add their own emergencies. We respond 7 days a week from 8am to 8pm.',
@@ -1935,7 +2016,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'edgewood', neighborhood: 'Edgewood', state: 'KY', zip: '41017', county: 'Kenton County, KY',
-    intro: 'Plumbing emergency in Edgewood? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this residential Kenton County city the same day. Call (513) 586-5107.',
+    intro:
+      'Edgewood, home of St. Elizabeth Healthcare, has neighborhoods where water heaters are failing and sump pumps are wearing out. Our emergency plumbers come the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Edgewood (ZIP 41017) is a residential Kenton County city, home to St. Elizabeth Healthcare, with established neighborhoods of mid-century and newer homes.',
       'Homes of that era are now at the age where supply lines corrode, water heaters fail, and sump pumps wear out. We handle those emergencies 7 days a week from 8am to 8pm.',
@@ -1945,7 +2027,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'taylor-mill', neighborhood: 'Taylor Mill', state: 'KY', zip: '41015', county: 'Kenton County, KY',
-    intro: 'Plumbing emergency in Taylor Mill? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this hilltop Kenton County city the same day. Call (513) 586-5107.',
+    intro:
+      'South of Covington, Taylor Mill’s hilltop homes put extra demand on sump pumps and drains when it rains hard. We send an emergency plumber the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Taylor Mill (ZIP 41015) is a hilltop residential Kenton County city south of Covington, made up largely of mid-century and newer single-family homes.',
       'Even newer homes here reach the age where water heaters and supply lines fail, and the hillside grade adds demand on sump pumps and drains. We respond 7 days a week from 8am to 8pm.',
@@ -1955,7 +2038,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'elsmere', neighborhood: 'Elsmere', state: 'KY', zip: '41018', county: 'Kenton County, KY',
-    intro: 'Plumbing emergency in Elsmere? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Kenton County city along Dixie Highway the same day. Call (513) 586-5107.',
+    intro:
+      'Elsmere’s older and mid-century homes along Dixie Highway near Erlanger see corrosion leaks and failing water heaters. Emergency plumbers reach you the same day, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Elsmere (ZIP 41018) is an established Kenton County city along the Dixie Highway corridor near Erlanger, with a mix of older and mid-century homes.',
       'The age of the housing means aging plumbing is common, with corrosion leaks and failing water heaters the usual emergencies. We respond 7 days a week from 8am to 8pm.',
@@ -1965,7 +2049,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'independence', neighborhood: 'Independence', state: 'KY', zip: '41051', county: 'Kenton County, KY',
-    intro: 'Plumbing emergency in Independence? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this fast-growing Kenton County city the same day. Call (513) 586-5107.',
+    intro:
+      'As Kenton County’s seat, Independence has an older core with aging pipes and newer subdivisions where water heaters and sump pumps are wearing out. We handle emergency plumbing in both the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Independence (ZIP 41051) is the Kenton County seat and one of the faster-growing cities in Northern Kentucky, with a historic core surrounded by newer subdivisions.',
       'Even in newer subdivisions, water heaters, sump pumps, and supply lines reach the end of their life on a predictable schedule, while the older core sees the issues typical of aging plumbing. We respond 7 days a week from 8am to 8pm.',
@@ -1977,7 +2062,8 @@ export const locations: Location[] = [
   // ── Campbell County, KY ───────────────────────────────────────────────
   {
     slug: 'dayton-ky', neighborhood: 'Dayton', city: 'Dayton', state: 'KY', zip: '41074', county: 'Campbell County, KY',
-    intro: 'Plumbing emergency in Dayton, KY? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this riverfront city next to Bellevue the same day. Call (513) 586-5107.',
+    intro:
+      'Dayton, KY sits beside Bellevue on the Ohio River, with late-1800s and early-1900s homes on galvanized and cast-iron pipe. High water can bring backups, and our emergency plumbers come the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Dayton (ZIP 41074) is a Northern Kentucky river city next to Bellevue, with tight streets of well-preserved late-1800s and early-1900s homes near the Ohio River.',
       'Those century-old homes carry original galvanized and cast-iron plumbing, and the riverfront location adds a backup risk when the river runs high. We respond 7 days a week from 8am to 8pm.',
@@ -1987,7 +2073,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'southgate', neighborhood: 'Southgate', state: 'KY', zip: '41071', county: 'Campbell County, KY',
-    intro: 'Plumbing emergency in Southgate? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Campbell County city near Newport the same day. Call (513) 586-5107.',
+    intro:
+      'Between Newport and Fort Thomas, Southgate’s mid-century homes have reached the age where supply lines corrode and water heaters give out. Emergency plumbing help arrives the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Southgate (ZIP 41071) is a small Campbell County city between Newport and Fort Thomas, with established neighborhoods of mid-century homes.',
       'Homes of that era are now at the age where supply lines corrode and water heaters fail, the emergencies we are called for most. We respond 7 days a week from 8am to 8pm.',
@@ -1997,7 +2084,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'wilder', neighborhood: 'Wilder', state: 'KY', zip: '41076', county: 'Campbell County, KY',
-    intro: 'Plumbing emergency in Wilder? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach homes and businesses across this Campbell County city the same day. Call (513) 586-5107.',
+    intro:
+      'Along the Licking River corridor, Wilder’s homes and commercial buildings see burst pipes and worn water heaters most. We send emergency plumbers the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Wilder (ZIP 41076) is a Campbell County city along the Licking River corridor, with a commercial and industrial base alongside residential neighborhoods.',
       'From mid-century homes to commercial buildings, aging water heaters, worn supply lines, and burst pipes are the emergencies we respond to most. We are available 7 days a week from 8am to 8pm.',
@@ -2007,7 +2095,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'highland-heights', neighborhood: 'Highland Heights', state: 'KY', zip: '41076', county: 'Campbell County, KY',
-    intro: 'Plumbing emergency in Highland Heights? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Campbell County city near NKU the same day. Call (513) 586-5107.',
+    intro:
+      'Student rentals near Northern Kentucky University take hard use, and in Highland Heights that means burst pipes and clogged drains. Our emergency plumbers come the same day, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Highland Heights (ZIP 41076) is a Campbell County city home to Northern Kentucky University, with a mix of residential neighborhoods and student housing.',
       'Densely used student rentals and mid-century homes both run on plumbing that fails under wear — burst pipes, water heater failures, and clogged drains. We respond 7 days a week from 8am to 8pm.',
@@ -2017,7 +2106,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'cold-spring', neighborhood: 'Cold Spring', state: 'KY', zip: '41076', county: 'Campbell County, KY',
-    intro: 'Plumbing emergency in Cold Spring? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this growing Campbell County city along US-27 the same day. Call (513) 586-5107.',
+    intro:
+      'Cold Spring keeps growing along US-27, and its older houses get corrosion leaks while newer ones lose water heaters. Emergency plumbers reach you the same day, from 8am to 8pm 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Cold Spring (ZIP 41076) is a growing Campbell County city along the US-27 corridor, with a mix of established neighborhoods and newer subdivisions.',
       'Even newer homes here reach the age where water heaters and supply lines fail, while older houses see corrosion leaks. We respond 7 days a week from 8am to 8pm.',
@@ -2027,7 +2117,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'alexandria', neighborhood: 'Alexandria', state: 'KY', zip: '41001', county: 'Campbell County, KY',
-    intro: 'Plumbing emergency in Alexandria? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Campbell County seat the same day. Call (513) 586-5107.',
+    intro:
+      'Alexandria’s semi-rural homes sometimes need a well or septic fix, while its newer subdivisions lose water heaters and sump pumps. We answer emergency plumbing calls across the Campbell County seat the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Alexandria (ZIP 41001) is the Campbell County seat, a growing southern community with a historic core surrounded by newer subdivisions and some semi-rural homes.',
       'Newer subdivisions reach the age where water heaters and sump pumps fail, while the older core and rural homes see aging plumbing and the occasional well or septic issue. We respond 7 days a week from 8am to 8pm.',
@@ -2037,7 +2128,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'melbourne', neighborhood: 'Melbourne', state: 'KY', zip: '41059', county: 'Campbell County, KY',
-    intro: 'Plumbing emergency in Melbourne? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this small river village the same day. Call (513) 586-5107.',
+    intro:
+      'Melbourne’s older homes sit on low ground along the Ohio east of Newport, so high water brings a real backup risk. Our emergency plumbers come the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Melbourne (ZIP 41059) is a small Campbell County village along the Ohio River east of Newport, with older homes on low riverside ground.',
       'Its riverside position makes high water and backups a real risk, and the older homes carry aging plumbing. A fast response keeps the damage contained.',
@@ -2049,7 +2141,8 @@ export const locations: Location[] = [
   // ── Boone County, KY ──────────────────────────────────────────────────
   {
     slug: 'hebron', neighborhood: 'Hebron', state: 'KY', zip: '41048', county: 'Boone County, KY',
-    intro: 'Plumbing emergency in Hebron? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Boone County community near the airport the same day. Call (513) 586-5107.',
+    intro:
+      'Near CVG airport, Hebron has newer subdivisions with aging water heaters and semi-rural homes, some on wells and septic that need fast attention when they fail. We send emergency plumbers the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Hebron (ZIP 41048) is a Boone County community near the Cincinnati/Northern Kentucky airport (CVG), with a mix of newer subdivisions and established semi-rural homes.',
       'Newer homes reach the age where water heaters and sump pumps fail, while rural properties may run on wells and septic that need fast attention when they fail. We respond 7 days a week from 8am to 8pm.',
@@ -2059,7 +2152,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'burlington', neighborhood: 'Burlington', state: 'KY', zip: '41005', county: 'Boone County, KY',
-    intro: 'Plumbing emergency in Burlington? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Boone County seat the same day. Call (513) 586-5107.',
+    intro:
+      'Burlington’s historic core around the old courthouse has aging pipes, and the fast-growing subdivisions around it are wearing out water heaters and sump pumps. Emergency plumbing service is same-day on most calls, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Burlington (ZIP 41005) is the Boone County seat, with a historic core around the old courthouse surrounded by fast-growing newer subdivisions.',
       'Newer subdivisions reach the age where water heaters and sump pumps fail, while the historic core and rural homes see aging plumbing. We respond 7 days a week from 8am to 8pm.',
@@ -2069,7 +2163,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'union', neighborhood: 'Union', state: 'KY', zip: '41091', county: 'Boone County, KY',
-    intro: 'Plumbing emergency in Union? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this fast-growing Boone County city the same day. Call (513) 586-5107.',
+    intro:
+      'Union grew fast from the 1990s on, and those subdivision homes are now replacing water heaters and sump pumps on a predictable schedule. When one fails, an emergency plumber can be there the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Union (ZIP 41091) is one of the fastest-growing cities in Boone County, made up largely of newer subdivisions built from the 1990s onward.',
       'Even in newer homes, water heaters, sump pumps, and supply lines reach the end of their life on a predictable schedule — the emergencies we are called for most here. We respond 7 days a week from 8am to 8pm.',
@@ -2079,7 +2174,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'walton', neighborhood: 'Walton', state: 'KY', zip: '41094', county: 'Boone County, KY',
-    intro: 'Plumbing emergency in Walton? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this southern Boone County town the same day. Call (513) 586-5107.',
+    intro:
+      'At the southern edge of Boone County, Walton’s rural homes can need a well or septic fix and its newer homes lose sump pumps. Our emergency plumbers come the same day, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Walton (ZIP 41094) is a small, growing town at the southern edge of the Boone County metro, with a historic core and newer subdivisions plus surrounding rural homes.',
       'Newer homes reach the age where water heaters and sump pumps fail, while older and rural properties see aging plumbing and the occasional well or septic issue. We respond 7 days a week from 8am to 8pm.',
@@ -2091,7 +2187,8 @@ export const locations: Location[] = [
   // ── Clermont County, OH ───────────────────────────────────────────────
   {
     slug: 'mount-carmel', neighborhood: 'Mount Carmel', state: 'OH', zip: '45244', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in Mount Carmel? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this east-side Union Township community the same day. Call (513) 586-5107.',
+    intro:
+      'Off the I-275 corridor, Mount Carmel’s mid-century and newer homes see failing sump pumps and worn supply lines most. Emergency plumbers reach this Union Township community the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Mount Carmel (ZIP 45244) is a Union Township community on the east side near the I-275 corridor, with established neighborhoods of mid-century and newer homes.',
       'Aging water heaters, worn supply lines, and failing sump pumps are the emergencies we are called for most here. We respond 7 days a week from 8am to 8pm.',
@@ -2101,7 +2198,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'summerside', neighborhood: 'Summerside', state: 'OH', zip: '45245', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in Summerside? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Union Township community the same day. Call (513) 586-5107.',
+    intro:
+      'Summerside’s suburban homes in western Clermont County are at the age where water heaters and sump pumps fail. We send an emergency plumber the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Summerside (ZIP 45245) is a Union Township community in western Clermont County, with suburban neighborhoods of mid-century and newer homes.',
       'Homes of that era reach the age where water heaters, supply lines, and sump pumps fail — the emergencies we are called for most. We respond 7 days a week from 8am to 8pm.',
@@ -2111,7 +2209,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'withamsville', neighborhood: 'Withamsville', state: 'OH', zip: '45245', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in Withamsville? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this community along Ohio Pike the same day. Call (513) 586-5107.',
+    intro:
+      'Along Ohio Pike, Withamsville’s homes and commercial strips see water heaters and supply lines fail as they age. Our emergency plumbers come the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Withamsville (ZIP 45245) is a Union Township community along the Ohio Pike corridor in western Clermont County, with a mix of suburban homes and commercial strips.',
       'Mid-century and newer homes here reach the age where water heaters and supply lines fail, and commercial buildings add their own emergencies. We respond 7 days a week from 8am to 8pm.',
@@ -2121,7 +2220,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'milford', neighborhood: 'Milford', state: 'OH', zip: '45150', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in Milford? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic city on the Little Miami River the same day. Call (513) 586-5107.',
+    intro:
+      'Milford’s old Main Street district has 19th-century buildings on aging plumbing, and the Little Miami River adds flood risk in heavy rain. Emergency plumbing help arrives the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Milford (ZIP 45150) is a historic city straddling the Little Miami River, with a preserved old Main Street district of 19th-century buildings and surrounding older homes.',
       'Those century-old buildings carry aging plumbing, and the low ground near the river adds a flood and backup risk in heavy rain. We respond fast to limit the damage.',
@@ -2131,7 +2231,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'mulberry', neighborhood: 'Mulberry', state: 'OH', zip: '45150', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in Mulberry? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this community near Milford the same day. Call (513) 586-5107.',
+    intro:
+      'Sump pump failures and worn supply lines are the usual emergency plumbing calls from Mulberry, near Milford. We come the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Mulberry (ZIP 45150) is a community in the Milford area of western Clermont County, with suburban neighborhoods of mid-century and newer homes.',
       'Aging water heaters, worn supply lines, and failing sump pumps are the emergencies we are called for most here. We respond 7 days a week from 8am to 8pm.',
@@ -2141,7 +2242,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'mount-repose', neighborhood: 'Mount Repose', state: 'OH', zip: '45150', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in Mount Repose? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this community near Milford the same day. Call (513) 586-5107.',
+    intro:
+      'Mount Repose homes near Milford are reaching the age where water heaters and sump pumps fail. Emergency plumbers reach you the same day, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Mount Repose (ZIP 45150) is a community in the Milford area of Clermont County, with suburban neighborhoods of mid-century and newer homes.',
       'Homes of that era reach the age where water heaters, supply lines, and sump pumps fail — the emergencies we are called for most. We respond 7 days a week from 8am to 8pm.',
@@ -2151,7 +2253,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'day-heights', neighborhood: 'Day Heights', state: 'OH', zip: '45150', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in Day Heights? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this community near Milford the same day. Call (513) 586-5107.',
+    intro:
+      'Some Day Heights properties run on wells and septic, and the suburban homes lose water heaters and sump pumps with age. We handle emergency plumbing for both the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Day Heights (ZIP 45150) is a community in the Milford area of Clermont County, with suburban and semi-rural homes.',
       'Mid-century and newer homes reach the age where water heaters and sump pumps fail, while rural properties may run on wells and septic. We respond 7 days a week from 8am to 8pm.',
@@ -2161,7 +2264,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'new-richmond', neighborhood: 'New Richmond', state: 'OH', zip: '45157', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in New Richmond? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic Ohio River village the same day. Call (513) 586-5107.',
+    intro:
+      'New Richmond has deep roots in the abolitionist movement and a riverfront of 19th-century homes still on original plumbing. When high water causes a backup, our emergency plumbers come the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'New Richmond (ZIP 45157) is a historic Ohio River village in Clermont County with deep roots in the abolitionist movement, lined with 19th-century homes along the riverfront.',
       'Those century-old homes carry original plumbing, and the riverside location makes high water and backups a recurring risk. We respond fast to keep the damage contained.',
@@ -2171,7 +2275,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'amelia', neighborhood: 'Amelia', state: 'OH', zip: '45102', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in Amelia? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this community along Ohio Pike the same day. Call (513) 586-5107.',
+    intro:
+      'Amelia homes along Ohio Pike are at the age where water heaters and sump pumps give out. When that happens, an emergency plumber can usually be there the same day, any day from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Amelia (ZIP 45102) is a community along the Ohio Pike corridor in Clermont County, with established neighborhoods of mid-century and newer homes.',
       'Homes of that era reach the age where water heaters, supply lines, and sump pumps fail — the emergencies we are called for most. We respond 7 days a week from 8am to 8pm.',
@@ -2181,7 +2286,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'batavia', neighborhood: 'Batavia', state: 'OH', zip: '45103', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in Batavia? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Clermont County seat the same day. Call (513) 586-5107.',
+    intro:
+      'Batavia, the Clermont County seat, sits on the East Fork of the Little Miami River, and its older village homes face backups in heavy rain. Our emergency plumbers come the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Batavia (ZIP 45103) is the Clermont County seat, set on the East Fork of the Little Miami River, with a historic village core and surrounding newer development.',
       'The older village homes carry aging plumbing, and the low ground near the river adds a backup risk in heavy rain. We respond 7 days a week from 8am to 8pm.',
@@ -2191,7 +2297,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'owensville', neighborhood: 'Owensville', state: 'OH', zip: '45160', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in Owensville? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Clermont County village the same day. Call (513) 586-5107.',
+    intro:
+      'Rural properties around Owensville may run on wells and septic, and those need fast attention when they fail. We send emergency plumbers to the village and its rural homes the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Owensville (ZIP 45160) is a small village in eastern Clermont County, with a historic core and surrounding rural and suburban homes.',
       'Older homes carry aging plumbing, and rural properties may run on wells and septic that need fast attention when they fail. We respond 7 days a week from 8am to 8pm.',
@@ -2201,7 +2308,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'goshen', neighborhood: 'Goshen', state: 'OH', zip: '45122', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in Goshen? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Clermont County township community the same day. Call (513) 586-5107.',
+    intro:
+      'Goshen’s suburban homes lose water heaters and sump pumps with age, and its rural properties may rely on wells and septic. Our emergency plumbers handle both the same day, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Goshen (ZIP 45122) is a township community in northern Clermont County, with a mix of suburban and rural homes.',
       'Suburban homes reach the age where water heaters and sump pumps fail, while rural properties may rely on wells and septic. We respond 7 days a week from 8am to 8pm.',
@@ -2211,7 +2319,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'moscow', neighborhood: 'Moscow', state: 'OH', zip: '45153', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in Moscow? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this small Ohio River village the same day. Call (513) 586-5107.',
+    intro:
+      'Low riverside ground in Moscow means high water can push a backup into older homes. We answer emergency plumbing calls in this Clermont County village the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Moscow (ZIP 45153) is a small Ohio River village in southeastern Clermont County, with older homes on low riverside ground.',
       'Its riverside position makes high water and backups a real risk, and the older homes carry aging plumbing. A fast response keeps the damage contained.',
@@ -2221,7 +2330,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'newtonsville', neighborhood: 'Newtonsville', state: 'OH', zip: '45158', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in Newtonsville? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this small Clermont County village the same day. Call (513) 586-5107.',
+    intro:
+      'Many rural properties near Newtonsville run on wells and septic, which need fast attention when they fail. Our emergency plumbers come the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Newtonsville (ZIP 45158) is a small rural village in northeastern Clermont County, with older homes and surrounding rural properties.',
       'Older homes carry aging plumbing, and many rural properties run on wells and septic that need fast attention when they fail. We respond 7 days a week from 8am to 8pm.',
@@ -2231,7 +2341,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'williamsburg', neighborhood: 'Williamsburg', state: 'OH', zip: '45176', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in Williamsburg? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic Clermont County village the same day. Call (513) 586-5107.',
+    intro:
+      'Williamsburg’s 19th-century village core sits near the East Fork of the Little Miami River, where heavy rain can bring backups. Emergency plumbers reach you the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Williamsburg (ZIP 45176) is a historic village on the East Fork of the Little Miami River in Clermont County, with a 19th-century core and surrounding rural homes.',
       'The older village homes carry aging plumbing, and the low ground near the river adds a backup risk in heavy rain. We respond 7 days a week from 8am to 8pm.',
@@ -2241,7 +2352,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'bethel', neighborhood: 'Bethel', state: 'OH', zip: '45106', county: 'Clermont County, OH',
-    intro: 'Plumbing emergency in Bethel? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic Clermont County village the same day. Call (513) 586-5107.',
+    intro:
+      'Bethel’s 19th-century core has aging pipes, and rural homes nearby may run on wells and septic. We handle emergency plumbing in both the same day, 7 days a week between 8am and 8pm. Call (513) 586-5107.',
     relevance: [
       'Bethel (ZIP 45106) is a historic village in southeastern Clermont County, with a 19th-century core and surrounding rural and small-town homes.',
       'Older homes carry aging plumbing, and rural properties may run on wells and septic that need fast attention when they fail. We respond 7 days a week from 8am to 8pm.',
@@ -2253,7 +2365,8 @@ export const locations: Location[] = [
   // ── Butler County, OH ─────────────────────────────────────────────────
   {
     slug: 'ross', neighborhood: 'Ross', state: 'OH', zip: '45061', county: 'Butler County, OH',
-    intro: 'Plumbing emergency in Ross? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Butler County township on the Great Miami the same day. Call (513) 586-5107.',
+    intro:
+      'Ross Township sits along the Great Miami River, so older homes face backups in heavy rain and rural ones may rely on wells and septic. Our emergency plumbers come the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Ross (ZIP 45061) is a Ross Township community in southwestern Butler County along the Great Miami River, with a mix of small-town and rural homes.',
       'Older homes carry aging plumbing, rural properties may run on wells and septic, and the low ground near the river adds a backup risk in heavy rain. We respond 7 days a week from 8am to 8pm.',
@@ -2263,7 +2376,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'fairfield', neighborhood: 'Fairfield', state: 'OH', zip: '45014', county: 'Butler County, OH',
-    intro: 'Plumbing emergency in Fairfield? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach homes across this Butler County city the same day. Call (513) 586-5107.',
+    intro:
+      'Fairfield’s mid-century neighborhoods are at the age where supply lines corrode, and its newer subdivisions have their own wear. Emergency plumbing help arrives the same day across the city, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Fairfield (ZIP 45014) is a large Butler County city north of Cincinnati, with established mid-century neighborhoods alongside newer subdivisions and a busy commercial corridor.',
       'Mid-century homes here reach the age where supply lines corrode and water heaters fail, while newer homes see their own wear. We respond 7 days a week from 8am to 8pm.',
@@ -2273,7 +2387,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'beckett-ridge', neighborhood: 'Beckett Ridge', state: 'OH', zip: '45069', county: 'Butler County, OH',
-    intro: 'Plumbing emergency in Beckett Ridge? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this West Chester community the same day. Call (513) 586-5107.',
+    intro:
+      'Built around a golf course from the 1980s on, Beckett Ridge has homes now old enough for water heaters and sump pumps to fail. We send emergency plumbers to this West Chester community the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Beckett Ridge (ZIP 45069) is a planned West Chester community in Butler County built around a golf course, made up largely of homes from the 1980s onward.',
       'Homes from that era reach the age where water heaters, supply lines, and sump pumps fail — the emergencies we are called for most. We respond 7 days a week from 8am to 8pm.',
@@ -2283,7 +2398,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'wetherington', neighborhood: 'Wetherington', state: 'OH', zip: '45069', county: 'Butler County, OH',
-    intro: 'Plumbing emergency in Wetherington? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this West Chester community the same day. Call (513) 586-5107.',
+    intro:
+      'Wetherington’s larger homes mean larger plumbing systems, where a hidden leak can do damage before anyone notices. Our emergency plumbers reach this West Chester golf community the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Wetherington (ZIP 45069) is an upscale West Chester community in Butler County built around a golf course, with larger homes from the 1980s and 90s onward.',
       'Larger homes mean larger plumbing systems, where a hidden leak or failing line can do real damage before it is noticed, and water heaters and sump pumps reach the end of their life. We respond 7 days a week from 8am to 8pm.',
@@ -2293,7 +2409,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'hamilton', neighborhood: 'Hamilton', state: 'OH', zip: '45011', county: 'Butler County, OH',
-    intro: 'Plumbing emergency in Hamilton? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic Butler County seat on the Great Miami the same day. Call (513) 586-5107.',
+    intro:
+      'Hamilton’s German Village and Dayton Lane districts are full of 19th-century homes on original galvanized and cast-iron pipe, close to the Great Miami River. Emergency plumbing help reaches the Butler County seat the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Hamilton (ZIP 45011) is the Butler County seat, straddling the Great Miami River, with historic districts like German Village and Dayton Lane full of 19th-century and early-1900s homes.',
       'Those century-old homes carry original galvanized and cast-iron plumbing, and the low ground near the river adds a flood and backup risk in heavy rain. We respond fast to limit the damage.',
@@ -2303,7 +2420,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'millville', neighborhood: 'Millville', state: 'OH', zip: '45013', county: 'Butler County, OH',
-    intro: 'Plumbing emergency in Millville? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this small Butler County village near Hamilton the same day. Call (513) 586-5107.',
+    intro:
+      'West of Hamilton, Millville’s older homes have aging pipes and its rural properties may run on wells and septic. Our emergency plumbers come the same day, 7 days a week, 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Millville (ZIP 45013) is a small Butler County village west of Hamilton, with older homes and surrounding rural properties.',
       'Older homes carry aging plumbing, and rural properties may run on wells and septic that need fast attention when they fail. We respond 7 days a week from 8am to 8pm.',
@@ -2313,7 +2431,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'new-miami', neighborhood: 'New Miami', state: 'OH', zip: '45011', county: 'Butler County, OH',
-    intro: 'Plumbing emergency in New Miami? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this small village on the Great Miami the same day. Call (513) 586-5107.',
+    intro:
+      'Just north of Hamilton, New Miami’s closely spaced mill homes sit on low riverside ground that backs up in heavy rain. Emergency plumbers reach the village the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'New Miami (ZIP 45011) is a small village on the Great Miami River just north of Hamilton, an old mill community with closely spaced older homes.',
       'The low riverside ground brings a real backup risk in heavy rain, and the older homes run on aging plumbing prone to leaks. We respond 7 days a week from 8am to 8pm.',
@@ -2323,7 +2442,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'monroe', neighborhood: 'Monroe', state: 'OH', zip: '45050', county: 'Butler County, OH',
-    intro: 'Plumbing emergency in Monroe? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this growing city along I-75 the same day. Call (513) 586-5107.',
+    intro:
+      'Monroe straddles Butler and Warren Counties on I-75, with newer subdivisions losing water heaters and sump pumps and an older core on aging plumbing. We answer emergency plumbing calls the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Monroe (ZIP 45050) is a fast-growing city straddling Butler and Warren Counties along the I-75 corridor between Cincinnati and Dayton, with newer subdivisions and an older town core.',
       'Newer subdivisions reach the age where water heaters and sump pumps fail, while the older core sees aging plumbing. We respond 7 days a week from 8am to 8pm.',
@@ -2335,7 +2455,8 @@ export const locations: Location[] = [
   // ── Warren County, OH ─────────────────────────────────────────────────
   {
     slug: 'landen', neighborhood: 'Landen', state: 'OH', zip: '45040', county: 'Warren County, OH',
-    intro: 'Plumbing emergency in Landen? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this planned Warren County community the same day. Call (513) 586-5107.',
+    intro:
+      'Landen’s homes around the lake date from the 1970s and 80s on, and that is the age when water heaters and sump pumps fail. Our emergency plumbers come to this planned Warren County community the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Landen (ZIP 45040) is a planned Warren County community near Maineville and Mason, made up largely of homes built from the 1970s and 80s onward around its lake and common areas.',
       'Homes from that era reach the age where water heaters, supply lines, and sump pumps fail — the emergencies we are called for most. We respond 7 days a week from 8am to 8pm.',
@@ -2345,7 +2466,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'loveland-park', neighborhood: 'Loveland Park', state: 'OH', zip: '45140', county: 'Warren County, OH',
-    intro: 'Plumbing emergency in Loveland Park? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Warren County community near Loveland the same day. Call (513) 586-5107.',
+    intro:
+      'Just north of Loveland, Loveland Park’s mid-century homes have corroding supply lines, and the low ground near the Little Miami adds backup risk. Emergency plumbers reach you the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Loveland Park (ZIP 45140) is a Warren County community just north of Loveland near the Little Miami River, with established neighborhoods of mid-century homes.',
       'Homes of that era reach the age where supply lines corrode and water heaters fail, and the low ground near the river adds a backup risk in heavy rain. We respond 7 days a week from 8am to 8pm.',
@@ -2355,7 +2477,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'maineville', neighborhood: 'Maineville', state: 'OH', zip: '45039', county: 'Warren County, OH',
-    intro: 'Plumbing emergency in Maineville? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this growing Warren County town the same day. Call (513) 586-5107.',
+    intro:
+      'Newer Maineville subdivisions lose water heaters and sump pumps, while rural homes around the town have the odd well or septic problem. We send emergency plumbers the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Maineville (ZIP 45039) is a growing town in southern Warren County, with a small historic core surrounded by newer subdivisions and rural homes.',
       'Newer homes reach the age where water heaters and sump pumps fail, while older and rural properties see aging plumbing and the occasional well or septic issue. We respond 7 days a week from 8am to 8pm.',
@@ -2365,7 +2488,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'pleasant-plain', neighborhood: 'Pleasant Plain', state: 'OH', zip: '45162', county: 'Warren County, OH',
-    intro: 'Plumbing emergency in Pleasant Plain? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this small Warren County village the same day. Call (513) 586-5107.',
+    intro:
+      'Wells and septic serve many rural properties around Pleasant Plain, and when they fail they need fast attention. Our emergency plumbers come the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Pleasant Plain (ZIP 45162) is a small village in southeastern Warren County, with older homes and surrounding rural properties.',
       'Older homes carry aging plumbing, and many rural properties run on wells and septic that need fast attention when they fail. We respond 7 days a week from 8am to 8pm.',
@@ -2375,7 +2499,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'south-lebanon', neighborhood: 'South Lebanon', state: 'OH', zip: '45065', county: 'Warren County, OH',
-    intro: 'Plumbing emergency in South Lebanon? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this growing town on the Little Miami River the same day. Call (513) 586-5107.',
+    intro:
+      'South Lebanon sits on the Little Miami River with an older core and fast-expanding subdivisions, so we see both backups and failed sump pumps. Emergency plumbing service arrives the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'South Lebanon (ZIP 45065) is a growing town on the Little Miami River in Warren County, with a historic core and fast-expanding newer subdivisions.',
       'Newer subdivisions reach the age where water heaters and sump pumps fail, while the older core and low riverside ground add aging plumbing and backup risks. We respond 7 days a week from 8am to 8pm.',
@@ -2387,7 +2512,8 @@ export const locations: Location[] = [
   // ── Dearborn County, IN ───────────────────────────────────────────────
   {
     slug: 'lawrenceburg', neighborhood: 'Lawrenceburg', state: 'IN', zip: '47025', county: 'Dearborn County, IN',
-    intro: 'Plumbing emergency in Lawrenceburg? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic Ohio River city the same day. Call (513) 586-5107.',
+    intro:
+      'Lawrenceburg’s 19th-century downtown sits behind a riverfront levee, and its old buildings carry aging plumbing that can back up in high water. Our emergency plumbers cross into Indiana the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Lawrenceburg (ZIP 47025) is a historic Ohio River city in southeastern Indiana, known for its distilling heritage and a downtown of 19th-century buildings protected by a riverfront levee.',
       'Those century-old buildings carry aging plumbing, and the low riverside setting makes backups a real risk in high water. We respond 7 days a week from 8am to 8pm.',
@@ -2397,7 +2523,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'greendale', neighborhood: 'Greendale', state: 'IN', zip: '47025', county: 'Dearborn County, IN',
-    intro: 'Plumbing emergency in Greendale? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this Dearborn County city next to Lawrenceburg the same day. Call (513) 586-5107.',
+    intro:
+      'Greendale climbs the hillside above the Ohio next to Lawrenceburg, and heavy rain puts real demand on basement drains in its older homes. We send emergency plumbers the same day, 7 days a week from 8am to 8pm. Call (513) 586-5107.',
     relevance: [
       'Greendale (ZIP 47025) is a Dearborn County city adjoining Lawrenceburg, climbing the hillside above the Ohio River, with a mix of older and mid-century homes.',
       'Older homes carry aging plumbing, and the hillside grade adds demand on basement drains in heavy rain. We respond 7 days a week from 8am to 8pm.',
@@ -2407,7 +2534,8 @@ export const locations: Location[] = [
   },
   {
     slug: 'aurora', neighborhood: 'Aurora', state: 'IN', zip: '47001', county: 'Dearborn County, IN',
-    intro: 'Plumbing emergency in Aurora? Our licensed plumbers are on call 7 days a week from 8am to 8pm and reach this historic Ohio River town the same day. Call (513) 586-5107.',
+    intro:
+      'Aurora, home to the Hillforest Victorian mansion, has a riverfront downtown of 19th-century homes still on original plumbing. High water brings backups, and our emergency plumbers come the same day, 8am to 8pm, 7 days a week. Call (513) 586-5107.',
     relevance: [
       'Aurora (ZIP 47001) is a historic Ohio River town in Dearborn County, home to the Hillforest Victorian mansion, with a riverfront downtown of 19th-century homes and buildings.',
       'Those century-old homes carry original plumbing, and the riverside location makes high water and backups a recurring risk. We respond fast to keep the damage contained.',

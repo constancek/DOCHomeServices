@@ -323,7 +323,7 @@ export default function LeakRepairPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="leak-repair" />
     </>
   );
 }

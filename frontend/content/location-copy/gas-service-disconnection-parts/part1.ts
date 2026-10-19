@@ -6,7 +6,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part1: Record<string, LocationServiceCopy> = {
   sedamsville: {
     intro:
-      'Gas shut off at your Sedamsville home? It will not be restored until the fault is repaired and the piping holds pressure. Same-day work above River Road. Call (513) 586-5107.',
+      'In Sedamsville’s century-old frame houses above River Road, a gas shutoff usually means hunting a leak in black iron that has been threaded together for a hundred years. We test section by section until it holds, then get service restored. Call (513) 586-5107.',
     relevance: [
       'Sedamsville (ZIP 45204) is frame housing from the late 1800s and early 1900s climbing the hillside above River Road, and the gas piping inside those houses is the reason shutoffs here are rarely quick to clear. Houses of that age were piped in black iron, run through basements and up through floors, and joined with threaded fittings that have been in place for a century. Nothing about that is unsafe in principle. What matters is that a hundred years of settling, damp and alteration leaves a system that frequently will not hold a pressure test the first time it is checked.',
       'So the honest expectation on a house like this is that finding the leak takes longer than fixing it. We isolate sections and work through the system rather than guessing, because a house piped in stages over decades has joints in places nobody would put them now. Where a run is corroded rather than simply leaking at one fitting, replacing that section is the repair — patching a threaded joint on pipe that has thinned is a false economy the test will find again.',
@@ -23,7 +23,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'sayler-park': {
     intro:
-      'Gas off in Sayler Park after high water? Submerged furnaces and water heaters are replaced, not relit. Call (513) 586-5107.',
+      'If high water reached your Sayler Park basement, the gas stays off until any furnace or water heater that sat under water has its controls replaced. We tell you which appliances must go, test the piping and arrange the reconnect. Call (513) 586-5107.',
     relevance: [
       'Sayler Park (ZIP 45233) has low riverfront streets sitting in the Ohio River floodplain, and that produces the clearest and least negotiable kind of gas shutoff. Where a furnace, water heater or boiler has been under water, the gas control valve and the burner controls are replaced rather than dried out and relit. Water damages those components internally in ways that are not visible from the outside, and manufacturers are unambiguous about it.',
       'That is worth understanding early, because it is where homeowners here lose the most time. A submerged water heater that looks fine, fires up and appears to work is not evidence that it is safe — the control valve is the part in question, not the tank. We will tell you plainly which appliances have to be replaced and which can stay, and the piping still has to hold a pressure test before the utility restores service either way.',
@@ -40,7 +40,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   riverside: {
     intro:
-      'Gas shut off at your Riverside home? We repair the piping, pass the pressure test, and get service restored. Call (513) 586-5107.',
+      'Riverside houses on the River Road bottomland can lose a water heater to flooding more than once, and the gas stays off each time until the replacement passes a pressure test. We restore service and look at raising the new unit above the water line. Call (513) 586-5107.',
     relevance: [
       'Riverside (ZIP 45204) sits on low Ohio River bottomland along River Road, and the pattern here is repetition. Where water reaches a basement more than once, the same gas appliances get condemned more than once — the furnace and water heater sit at the lowest point in the house, and their controls are the first thing water ruins. Plenty of properties on these streets are on their second or third water heater for exactly that reason.',
       'When we are out for a shutoff here, the more useful question than "can this be saved" is whether the appliance can be raised. A water heater set on a properly built platform above the historic water line survives events that would condemn one sitting on the floor. It is not always practical, because venting and connections constrain how high a unit can go, but where it is possible it turns a recurring replacement into a one-off.',
@@ -57,7 +57,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'east-price-hill': {
     intro:
-      'Gas shut off in your East Price Hill two-family? One meter bank often serves both units. Call (513) 586-5107.',
+      'Before anyone can restore gas to an East Price Hill two- or three-family, someone has to work out whether one meter feeds the whole building or each unit has its own line. That decides who authorises the repair, so we settle it first. Call (513) 586-5107.',
     relevance: [
       'East Price Hill (ZIP 45205) is dense early-1900s housing around Warsaw Avenue and the Incline District, with a great many two- and three-family buildings. On those buildings the gas arrangement matters more than the plumbing does: there may be one meter serving the whole building, or a bank of meters with separate house lines, and which you have decides whose shutoff it is and who has to authorise the repair.',
       'The other thing we find in converted two-families here is gas work done when units were split — a line run to a new kitchen, an appliance added, a connector fitted by whoever was cheapest. None of it was permitted or tested, and it surfaces the moment a pressure test is run on the whole system. That is the usual reason a shutoff here turns out to involve more than the fault that caused it, and it is better established at the estimate than discovered with the gas already off.',
@@ -74,7 +74,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'west-price-hill': {
     intro:
-      'Gas shut off at your West Price Hill home? An aging furnace or water heater is the usual cause. Call (513) 586-5107.',
+      'Most gas shutoffs we see in West Price Hill start with a red-tagged appliance, not the pipe: a cracked heat exchanger, a failed water heater control or a flue that stopped drawing. Correct that, test the piping in your Glenway-era house, and service comes back. Call (513) 586-5107.',
     relevance: [
       'West Price Hill (ZIP 45238) is largely single-family housing from the 1920s through the 1950s out along Glenway Avenue, and in homes of that era the gas shutoff usually starts with an appliance rather than the piping. A furnace with a cracked heat exchanger, a water heater with a failed control, or a flue that is no longer drawing properly gets red-tagged, and the gas comes off until it is corrected.',
       'That distinction matters for what the repair costs. Where the piping is sound and one appliance is the problem, replacing that appliance and passing a pressure test is a contained job. Where the appliance failure has been masking a piping problem — and on original systems that is common — the test finds it and the scope grows. We test first and quote after, rather than the other way round.',
@@ -91,7 +91,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'lower-price-hill': {
     intro:
-      'Gas shut off on your Lower Price Hill rowhouse? Party-wall meters and shared house lines shape the job. Call (513) 586-5107.',
+      'On the Italianate rowhouses around State Avenue, gas meters often sit banked on a party wall, so restoring gas in Lower Price Hill starts with proving which house line is yours. Then we test it, repair it and book the inspection. Call (513) 586-5107.',
     relevance: [
       'Lower Price Hill (ZIP 45204) holds one of the most intact stretches of 19th-century Italianate brick rowhouses in Cincinnati, down in the Mill Creek valley around State Avenue. On rowhouses the gas meters are frequently banked on a party wall or in a shared basement area, with house lines running off in different directions — and there is no side yard to work from, so access is arranged rather than assumed.',
       'Buildings of this age also carry the longest gas histories we deal with: piping installed when the houses were lit by it, extended for cooking, extended again for central heating, and altered whenever a unit changed. A pressure test on a system like that finds what a century of alterations left behind, which is why the scope on these jobs is established after testing rather than promised before it.',
@@ -108,7 +108,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'over-the-rhine': {
     intro:
-      'Gas shut off in your Over-the-Rhine building? The riser is usually a common element. Start with your association. Call (513) 586-5107.',
+      'Your Over-the-Rhine condo almost certainly does not own the gas riser. In these 1850s to 1880s buildings the risers belong to the building or the association, so a gas shutoff is cleared through them first, then tested and repaired. Call (513) 586-5107.',
     relevance: [
       'Over-the-Rhine (ZIP 45202) is block after block of 1850s to 1880s Italianate buildings, most now split into apartments and condominiums, and the gas arrangement follows the conversion rather than the original building. Typically a bank of meters in a basement or rear area feeds risers up through the building, and those risers are common elements belonging to the building or the association rather than to the unit whose gas is off.',
       'So the first question here is what failed and whose it is. A fault on a riser is the building’s to repair and authorise; a fault on the branch inside your unit is yours. The neighborhood has also seen enormous renovation, some of it excellent and some done piecemeal over decades, and a pressure test on a shared system finds whatever the piecemeal work left behind.',
@@ -125,7 +125,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   downtown: {
     intro:
-      'Gas shut off in a downtown building? Much of the residential stock here has no gas at all. Call (513) 586-5107.',
+      'Plenty of downtown Cincinnati condos and lofts are all-electric, so check for a gas line before you book anyone. Where a building does have gas, the meter bank and risers belong to the building, and management arranges the shutoff repair with us. Call (513) 586-5107.',
     relevance: [
       'Downtown Cincinnati (ZIP 45202) is high-rise condominiums and converted loft buildings, and it is worth saying plainly that a good deal of this housing is all-electric — no gas appliances, no house line, nothing for us to test. Where gas is present it is usually building infrastructure: a meter bank and risers serving the building, with cooking gas branched off to units.',
       'That means a resident essentially never owns the equipment that gets shut off, and the useful first call is to building management rather than to a plumber. Where we are genuinely needed is on the smaller converted buildings whose gas systems were installed for a different use entirely, and inside units where a range connection or a branch line has failed. Tell us on the phone what appliances you actually run on gas and we will tell you whether this is ours.',
@@ -142,7 +142,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'west-end': {
     intro:
-      'Gas shut off at your West End home? A house that stood empty needs testing, not just switching on. Call (513) 586-5107.',
+      'A West End property that has sat empty will not have its gas switched back on until someone can vouch for the piping. We pressure test the whole system, fix what fails and book the inspection so the utility can restore service. Call (513) 586-5107.',
     relevance: [
       'The West End (ZIP 45203) runs from historic Italianate rowhouses through mid-century blocks to recent development, and it has seen considerable vacancy alongside the redevelopment. That combination produces the most common gas shutoff we attend here: a property that has been off for a long stretch, where the utility will not simply restore service because nobody can vouch for what has happened to the piping in the meantime.',
       'The answer is a pressure test, and on older housing that has sat unused it frequently does not pass first time. Piping that was holding perfectly well when the house was occupied can fail once nothing has been through it for years, particularly where damp has been working on threaded joints in a basement. It is a formality when the system is sound and a genuine repair when it is not — and it is the standard surprise for anyone buying a long-empty house here.',
@@ -159,7 +159,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'mount-adams': {
     intro:
-      'Gas shut off on your Mount Adams rowhouse? Steep access and party-wall meters shape the visit. Call (513) 586-5107.',
+      'Steep, narrow streets and party-wall meters mean the first job on a Mount Adams gas shutoff is reaching the meter and confirming which house line serves your rowhouse. After that we find the fault and get the gas restored. Call (513) 586-5107.',
     relevance: [
       'Mount Adams (ZIP 45202) is dense 19th-century rowhouses and townhomes on steep, narrow streets, and both features affect a gas shutoff. The meters are frequently on party walls or in shared basement areas rather than in an accessible side yard, so establishing which house line is yours comes before establishing what is wrong with it.',
       'Access is a real constraint here rather than an excuse. On the tightest lanes there is nowhere to leave a vehicle without blocking the street, and equipment has to be carried in. We plan that before scheduling, because a crew that arrives and cannot get to the meter has cost you a day with no hot water. Mention your street when you call and we will allow for it.',
@@ -176,7 +176,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'mount-auburn': {
     intro:
-      'Gas shut off in your Mount Auburn building? One original house line often serves several units. Call (513) 586-5107.',
+      'Subdivided mansions on the Mount Auburn hilltop often run several apartments off one original house line, so a failed gas test can leave every unit without service. We find the leak across the whole system and get the building restored together. Call (513) 586-5107.',
     relevance: [
       'Mount Auburn (ZIP 45219) is grand 19th-century houses and mansions on the hilltop above downtown, a great many divided into apartments decades ago. When a house that size is subdivided the gas rarely gets rebuilt properly — more often the original house line is extended and branched to serve kitchens and heating in the new units, on piping that was installed when the building was one home.',
       'A pressure test on a system like that tests every one of those extensions at once, which is why a shutoff in a subdivided Mount Auburn house frequently involves more than the fault that triggered it. The equipment also belongs to the building rather than to the households without gas, so the repair needs the owner to authorise it even where tenants are the ones with no hot water.',
@@ -193,7 +193,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   clifton: {
     intro:
-      'Gas shut off at a Clifton property? On rental housing the owner has to authorise the repair. Call (513) 586-5107.',
+      'Tenants in Clifton can report a gas shutoff, but only the owner can authorise the repair or sign for the permit. If you own a rental near UC, we test the house line, fix what fails and book the inspection. Call (513) 586-5107.',
     relevance: [
       'Clifton (ZIP 45220) is large Victorian and early-1900s houses on the hilltop by the University of Cincinnati, and a substantial share are rentals. That decides how quickly a gas shutoff gets cleared, and it has nothing to do with the piping: a tenant cannot authorise work on a house line or sign for a permit, and the owner may not be in the city.',
       'The housing contributes too. Houses this size converted to multiple tenancies have gas piping that was extended for each conversion, frequently without permits or testing, and a pressure test finds all of it at once. Where a house has been off for the summer between tenancies, the test is required before restoration anyway. The fastest version here is a property manager calling with the address and authorisation in one conversation.',
@@ -210,7 +210,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   corryville: {
     intro:
-      'Gas shut off in your Corryville building? Several units usually share one system. Call (513) 586-5107.',
+      'Corryville buildings along Short Vine usually run several units on one gas system, extended over decades of conversions. When the gas is shut off, the pressure test covers every unit at once, and we work through it until the whole building passes. Call (513) 586-5107.',
     relevance: [
       'Corryville (ZIP 45219) is about as densely built as Cincinnati gets, packed against the university along Short Vine, and almost all of it is tenanted. The gas arrangements reflect decades of conversion: meters banked in basements or rear areas, house lines extended to serve kitchens in units that did not exist when the piping went in, and connectors fitted at various points by various people.',
       'A pressure test on that finds the accumulated history rather than one fault, which is why a Corryville shutoff is often larger than the trigger suggests. The equipment belongs to the building owner, not the tenants without hot water, so authorisation is the usual delay. Where the building has been empty over a summer, testing before restoration is required regardless of whether anything is wrong.',
@@ -227,7 +227,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   northside: {
     intro:
-      'Gas shut off at your Northside home? New appliances above original piping is the usual cause. Call (513) 586-5107.',
+      'A Northside rehab usually replaced the furnace and water heater but left the old basement piping feeding them. That piping is what fails the pressure test after a gas shutoff, and it is what we repair before service is restored. Call (513) 586-5107.',
     relevance: [
       'Northside (ZIP 45223) is late-1800s and early-1900s housing along Hamilton Avenue that has seen a great deal of renovation, and that produces a specific and very common gas situation. A rehab replaces the furnace and the water heater, because those are visible and quotable. It rarely replaces the house piping running to them, because that is buried in a basement and nobody asks about it.',
       'So the homeowner reasonably believes the gas system is modern. What is actually there is a modern appliance connected to piping installed when the house was lit by gas, and when a pressure test is run it is the old piping that fails. On the lower streets running toward the Mill Creek valley there is a second cause — appliances that have been under water, where the gas controls are replaced rather than dried out.',
@@ -244,7 +244,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'college-hill': {
     intro:
-      'Gas shut off at your College Hill home? We find the fault, pass the test, and relight everything. Call (513) 586-5107.',
+      'College Hill’s large early-1900s houses carry piping laid for gas lighting, then cooking, then central heating, and the test after a gas shutoff finds whatever each stage left behind. We trace it through the house and get service restored. Call (513) 586-5107.',
     relevance: [
       'College Hill (ZIP 45224) mixes large early-1900s houses with mid-century homes along Hamilton Avenue and Belmont, and the two eras fail differently. The older houses have the longest gas histories — piping installed for lighting, extended for cooking, extended again for central heating — and a pressure test finds whatever those stages left behind.',
       'The mid-century houses are simpler systems but not exempt: original piping, now feeding appliances several generations newer than it was designed for, with threaded joints that have been through decades of basement humidity. Either way the useful sequence is the same. Test first to establish what is actually wrong, then quote, rather than quoting on the visible fault and revising once the gauge tells the truth.',
@@ -261,7 +261,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'walnut-hills': {
     intro:
-      'Gas shut off in your Walnut Hills building? Banked meters and extended house lines shape the repair. Call (513) 586-5107.',
+      'Restoring gas to a divided house near Peebles Corner means testing every branch the conversions added, not only the unit that reported the problem. In Walnut Hills that is often a basement meter bank and a century of extensions. Call (513) 586-5107.',
     relevance: [
       'Walnut Hills (ZIP 45206) is grand 19th-century houses and apartment buildings around Peebles Corner, much of it divided into units, and the gas systems follow those divisions rather than the original buildings. Meters banked in a basement, house lines extended and branched for each conversion, and connectors added at various points over a century.',
       'A pressure test checks all of it at once, which is why a shutoff in a subdivided building here frequently involves more than the fault that triggered it. These are also masonry buildings, so where piping has to be re-run it means working through or along brick rather than through frame — slower work, and worth knowing when a quote comes in unusually low.',
@@ -278,7 +278,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'east-walnut-hills': {
     intro:
-      'Gas shut off at your East Walnut Hills home? More gas appliances means more joints to test. Call (513) 586-5107.',
+      'The bigger the house, the more joints a gas pressure test checks, and East Walnut Hills homes around Woodburn Avenue often add fireplaces and a second heating zone to the usual furnace and range. We isolate branches until the leak shows, then restore service. Call (513) 586-5107.',
     relevance: [
       'East Walnut Hills (ZIP 45206) is stately early-1900s houses around Woodburn Avenue and DeSales Corner, and the houses are large enough that the gas system is genuinely extensive. A furnace, a water heater, a range, sometimes a second heating zone, and frequently gas fireplaces added at some point — every one of those is a branch, and every branch is joints.',
       'A pressure test does not care how new the appliances are; it tests the whole system, and a house with eight branches has more places to leak than one with two. That is why shutoffs on large houses here take longer to diagnose than on a modest one, and why we isolate and test in sections rather than looking for one obvious fault. Gas fireplaces are worth mentioning when you call, because they are the branch most often added without a permit.',
@@ -295,7 +295,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   avondale: {
     intro:
-      'Gas shut off at your Avondale property? On rental housing the owner authorises the repair. Call (513) 586-5107.',
+      'Landlords in Avondale decide how fast a gas shutoff gets cleared, because tenants cannot authorise work on the house line. Once the owner signs off, we test the early-1900s piping, repair it and get the hot water back on. Call (513) 586-5107.',
     relevance: [
       'Avondale (ZIP 45229) is densely built early-1900s houses and apartment buildings in the uptown core near the hospitals, with a large share tenanted. That shapes the timeline more than the gas work does: a tenant cannot authorise a repair to a house line or sign for a permit, and where an owner is slow to respond a house sits without hot water.',
       'The buildings add the technical half. Houses of this age carrying multiple households have gas piping that was extended for each conversion, and a pressure test finds the accumulated result. Where a property has been vacant between tenancies, testing is required before restoration regardless of whether anything is wrong. We establish ownership and scope before quoting, because on tenanted buildings both involve someone not on site.',
@@ -312,7 +312,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'hyde-park': {
     intro:
-      'Gas shut off at your Hyde Park home? Extensive systems take longer to test. Call (513) 586-5107.',
+      'Hyde Park houses around the Square have grown their gas systems over the years, with fireplaces, outdoor kitchens and pool heaters added to the furnace and range. A shutoff test covers all of it together, so finding the fault here takes longer. Call (513) 586-5107.',
     relevance: [
       'Hyde Park (ZIP 45208) is large early-1900s houses around Hyde Park Square — Tudors, colonials and brick foursquares — and the gas systems in them have grown considerably since they were installed. A furnace and water heater, a range, gas fireplaces, sometimes an outdoor kitchen or a pool heater added in recent years. Each is a branch, and a pressure test checks all of them together.',
       'The other common trigger in this neighborhood is a sale. A point-of-sale inspection or an insurer’s survey turns up unpermitted gas work — an outdoor line, a fireplace, a range connection — and the transaction stalls until it is corrected and tested. Both situations are better handled by testing the whole system properly than by fixing the one item that was flagged, because the next survey will find the rest.',
@@ -329,7 +329,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   oakley: {
     intro:
-      'Gas shut off at your Oakley home? Bungalow piping was sized for far less. Call (513) 586-5107.',
+      'Sometimes an Oakley bungalow loses its gas because piping sized a century ago cannot feed a modern furnace, a tankless heater and a range at once, not because it leaks. We check sizing and leaks separately before service is restored. Call (513) 586-5107.',
     relevance: [
       'Oakley (ZIP 45209) is streets of early-1900s bungalows and brick homes around Oakley Square, with newer development mixed in. The bungalows are the ones we are usually called to, and the issue is often sizing rather than leaking. A house piped in 1915 for a cooker and perhaps a heater has piping sized accordingly, and a modern furnace, a tankless water heater and a range all drawing at once can exceed what that piping can actually deliver.',
       'That shows up as appliances that will not run properly rather than as a leak, and it is a common finding once someone tests and measures rather than assuming. Where it applies, the repair is upsizing the run rather than chasing a fault that is not there. On the newer infill houses on the same streets the systems are modern and adequately sized, and a shutoff is usually about one specific thing.',

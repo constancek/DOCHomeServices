@@ -313,7 +313,7 @@ export default function StructuralDryingPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="structural-drying" />
     </>
   );
 }

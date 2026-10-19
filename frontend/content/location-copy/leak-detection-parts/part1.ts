@@ -1,6 +1,6 @@
 export const part1: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'sedamsville': {
-    intro: 'Higher water bill or a stain spreading in a Sedamsville home? Our licensed plumbers find hidden leaks with acoustic, thermal, and camera tools — no tearing up the house — for homes along River Road and the hillside above it. Call (513) 586-5107.',
+    intro: 'Higher water bill or a stain spreading in a Sedamsville home? Our licensed plumbers find hidden leaks with acoustic, thermal, and camera tools, no tearing up the house, for homes along River Road and the hillside above it. Call (513) 586-5107.',
     relevance: [
       'Sedamsville (ZIP 45204) is a historic riverside neighborhood on Cincinnati’s west side, with late-1800s and early-1900s homes climbing the hillside above River Road. Supply lines in housing this old are often aging galvanized or early copper that develops pinhole leaks behind plaster, which we trace before they rot framing or drywall.',
       'On the hillside above the river, ground movement and steady moisture can mask where a leak actually starts, so we use moisture meters and thermal imaging to separate a pipe leak from damp soil and pinpoint the source. We open up only the spot we need to and explain the fix before starting.',
@@ -9,7 +9,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you find a slab leak in a Sedamsville home without tearing up the floor?', a: 'Yes. We use acoustic sensors and thermal imaging to pinpoint slab and supply-line leaks in Sedamsville homes before opening anything, so the repair is targeted and the mess stays minimal.' }],
   },
   'sayler-park': {
-    intro: 'Water bill creeping up or a damp spot you can’t explain in Sayler Park? Our licensed plumbers pinpoint hidden leaks with moisture meters, thermal imaging, and acoustic sensors — from the riverfront streets to the homes up the hill. Call (513) 586-5107.',
+    intro: 'Water bill creeping up or a damp spot you can’t explain in Sayler Park? Our licensed plumbers pinpoint hidden leaks with moisture meters, thermal imaging, and acoustic sensors, from the riverfront streets to the homes up the hill. Call (513) 586-5107.',
     relevance: [
       'Sayler Park (ZIP 45233) is Cincinnati’s westernmost neighborhood, strung along the Ohio River past Riverside. It was its own village before annexation in the early 1900s, and its streets are still lined with Victorian and early-1900s frame houses — the kind where century-old galvanized supply lines quietly leak inside walls and crawl spaces.',
       'The riverfront sits in the Ohio River floodplain, so saturated ground and high water keep low-lying basements damp, and a slow leak can hide in that moisture for a long time. We use moisture readings and acoustic detection to tell a true pipe leak from groundwater, then mark the exact spot.',
@@ -18,7 +18,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How do you tell a pipe leak from flood-zone dampness in a Sayler Park basement?', a: 'In Sayler Park’s riverfront homes we use moisture meters and acoustic listening to separate a leaking supply line from groundwater coming through the floodplain, then pinpoint the actual source the same day.' }],
   },
   'riverside': {
-    intro: 'Unexplained wet spot or a water bill that won’t settle down in Riverside? Our licensed plumbers locate the hidden leak with acoustic and thermal tools — no guesswork, no needless digging — for the homes along River Road. Call (513) 586-5107.',
+    intro: 'Unexplained wet spot or a water bill that won’t settle down in Riverside? Our licensed plumbers locate the hidden leak with acoustic and thermal tools, no guesswork, no needless digging, for the homes along River Road. Call (513) 586-5107.',
     relevance: [
       'Riverside (ZIP 45204) is the narrow strip of Cincinnati running along River Road and US-50, wedged between Sedamsville and Sayler Park with the hillside on one side and the Ohio River on the other. Many homes sit on low river bottomland, where high groundwater keeps basements and crawl spaces damp and makes a slow supply-line leak easy to miss.',
       'The neighborhood shares the oldest riverfront housing on the west side with Sedamsville, so original galvanized supply lines and aging drain joints are common and develop pinhole and seam leaks as they corrode. We pinpoint the source with moisture meters and acoustic sensors rather than guessing, which keeps low-lying lower levels from soaking longer than they have to.',

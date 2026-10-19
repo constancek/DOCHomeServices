@@ -350,7 +350,7 @@ export default function FaucetPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="faucet-repair-replacement" />
     </>
   );
 }

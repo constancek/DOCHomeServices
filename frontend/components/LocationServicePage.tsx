@@ -1,10 +1,14 @@
 import Link from 'next/link';
 import Icon, { type IconName } from './Icon';
-import PageHero from './PageHero';
-import PageSections from './PageSections';
+import LocationHero from './LocationHero';
+import { LocationSections } from './PageSections';
 import MainWithSidebar from './Sidebar';
 import { sidebarCouponFor } from '@/content/coupons';
 import Accordion from './Accordion';
+import LocationVideoProof from './LocationVideoProof';
+import LogoMarquee from './LogoMarquee';
+import LocationTeamPhotos from './LocationTeamPhotos';
+import { videoForLocation } from '@/content/videoTestimonials';
 import { site } from '@/content/site';
 import type { Location, Adjacent } from '@/content/locations';
 
@@ -133,7 +137,13 @@ export default function LocationServicePage({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Hero + intro (unique) */}
-      <PageHero eyebrow={config.eyebrow} title={`${config.serviceName} in ${place}`} description={copy.intro} crumbs={crumbs} />
+      <LocationHero
+        title={`${config.serviceName} in ${place}`}
+        intro={copy.intro}
+        crumbs={crumbs}
+        image={config.heroImage}
+        imageAlt={`${config.serviceName} in ${loc.neighborhood}`}
+      />
 
       {/* Orange call banner */}
       <section className="bg-hero-pink">
@@ -149,15 +159,22 @@ export default function LocationServicePage({
         </div>
       </section>
 
+      {/* One local customer video */}
+      <LocationVideoProof
+        neighborhood={loc.neighborhood}
+        video={videoForLocation(loc.neighborhood, loc.county, config.businessType)}
+      />
+
+      {/* Awards strip, right under the customer video */}
+      <section className="bg-cream pb-16">
+        <div className="container-page">
+          <LogoMarquee />
+        </div>
+      </section>
+
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar hideMenuOnMobile couponTitle={sidebarCouponFor(config.slug)}>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: `url(${config.heroImage})` }}
-            role="img"
-            aria-label={`${config.serviceName} in ${loc.neighborhood}`}
-          />
+        <MainWithSidebar hideMenu couponTitle={sidebarCouponFor(config.slug)}>
           {config.promo && (
             <div className="mb-5 rounded-2xl bg-lime-500 px-5 py-3 text-center font-display text-sm font-extrabold uppercase tracking-wide text-white sm:text-base">
               {fill(config.promo)}
@@ -216,23 +233,10 @@ export default function LocationServicePage({
         <div className="container-page">
           <div className="flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
             <h2 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">{fill(config.trustedBanner)}</h2>
-            <a href="#areas" className="btn-pink flex-shrink-0">
+            <a href="/request-estimate/" className="btn-pink flex-shrink-0">
               Get Peace of Mind Today
             </a>
           </div>
-        </div>
-      </section>
-
-      {/* Band 2: what to expect (photo right) */}
-      <section className="bg-hero-pink text-white">
-        <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">{fill(config.band2Heading)}</h2>
-            {config.band2Paragraphs.map((p, i) => (
-              <p key={i} className="mt-4 text-base leading-relaxed text-white/90">{fill(p)}</p>
-            ))}
-          </div>
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: `url(${config.band2Image})` }} role="img" aria-label={`${config.serviceName} service in ${loc.neighborhood}`} />
         </div>
       </section>
 
@@ -264,80 +268,21 @@ export default function LocationServicePage({
             ))}
           </div>
 
-          {/* Local proof */}
-          <div className="mt-12 rounded-3xl border border-brand-100 bg-white p-7 sm:p-8">
-            <h2 className="section-title text-brand-700">Trusted across {site.serviceArea}</h2>
-            <div className="mt-4 flex flex-wrap gap-2">
-              {['Licensed & insured', 'Upfront flat-rate pricing', 'Same-day service'].map((chip) => (
-                <span key={chip} className="inline-flex items-center gap-1.5 rounded-full bg-brand-50 px-3.5 py-1.5 text-xs font-bold text-brand-700">
-                  <Icon name="check" className="h-3.5 w-3.5 text-lime-500" />
-                  {chip}
-                </span>
-              ))}
-            </div>
-          </div>
+        </div>
+      </section>
 
+      {/* Van, tech and team photos, in a full-width blue band */}
+      <LocationTeamPhotos neighborhood={loc.neighborhood} />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
-          <h2 className="mt-12 section-title text-brand-700">{config.serviceName} FAQs — {loc.neighborhood}</h2>
+          <h2 className="section-title text-brand-700">{config.serviceName} FAQs — {loc.neighborhood}</h2>
           <div className="mt-4">
             <Accordion
               items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))}
               defaultOpen={0}
             />
-          </div>
-
-          {/* Related services — image cards. Sits below the FAQ so the page
-              answers the visitor's question before offering them somewhere else
-              to go. */}
-          {config.relatedCards.length > 0 && (
-            <>
-              <h2 className="mt-12 section-title text-brand-700">Related Services</h2>
-              <ul className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
-                {config.relatedCards.map((s) => (
-                  <li key={s.slug}>
-                    <Link href={`/services/${s.slug}`} className="group relative block aspect-[4/3] overflow-hidden rounded-xl">
-                      <span className="absolute inset-0 bg-brand-200 bg-cover bg-center transition duration-300 group-hover:scale-105" style={{ backgroundImage: `url(/services/${s.slug}.webp)` }} />
-                      <span className="absolute inset-0 bg-gradient-to-t from-pink-600/90 via-pink-500/45 to-transparent transition group-hover:from-pink-600" />
-                      <span className="absolute inset-0 grid place-items-center p-3 text-center">
-                        <span className="font-display text-[13px] font-extrabold uppercase leading-tight tracking-wide text-white [text-shadow:0_2px_6px_rgba(0,0,0,0.85)] sm:text-sm">
-                          {s.title}
-                        </span>
-                      </span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </>
-          )}
-
-          {/* Internal-links module */}
-          <div className="mt-12 grid gap-8 sm:grid-cols-2">
-            {nearby.length > 0 && (
-              <div>
-                <h2 className="font-display text-sm font-bold uppercase tracking-wider text-brand-500">{config.hubLabel} in nearby areas</h2>
-                <ul className="mt-3 space-y-1.5">
-                  {nearby.map((a) => (
-                    <li key={a.slug}>
-                      <Link href={`/services/${config.slug}/${a.slug}`} className="text-sm font-semibold text-brand-800 hover:text-pink-600">
-                        {config.serviceName} in {a.name} &rarr;
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            <div>
-              <h2 className="font-display text-sm font-bold uppercase tracking-wider text-brand-500">Related services</h2>
-              <ul className="mt-3 space-y-1.5">
-                {config.related.map((s) => (
-                  <li key={s.href}>
-                    <Link href={s.href} className="text-sm font-semibold text-brand-800 hover:text-pink-600">
-                      {s.label} &rarr;
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
           </div>
 
           {/* Bottom CTA */}
@@ -354,7 +299,32 @@ export default function LocationServicePage({
         </div>
       </section>
 
-      <PageSections mobileServiceList />
+      <LocationSections neighborhood={loc.neighborhood} seed={config.slug} />
+
+      {/* Related services — image cards, below the booking form so the page
+          gets the visitor to book before offering them somewhere else to go. */}
+      {config.relatedCards.length > 0 && (
+        <section className="py-14">
+          <div className="container-page max-w-4xl">
+              <h2 className="section-title text-brand-700">Related Services</h2>
+              <ul className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
+                {config.relatedCards.map((s) => (
+                  <li key={s.slug}>
+                    <Link href={`/services/${s.slug}`} className="group relative block aspect-[4/3] overflow-hidden rounded-xl">
+                      <span className="absolute inset-0 bg-brand-200 bg-cover bg-center transition duration-300 group-hover:scale-105" style={{ backgroundImage: `url(/services/${s.slug}.webp)` }} />
+                      <span className="absolute inset-0 bg-gradient-to-t from-pink-600/90 via-pink-500/45 to-transparent transition group-hover:from-pink-600" />
+                      <span className="absolute inset-0 grid place-items-center p-3 text-center">
+                        <span className="font-display text-[13px] font-extrabold uppercase leading-tight tracking-wide text-white [text-shadow:0_2px_6px_rgba(0,0,0,0.85)] sm:text-sm">
+                          {s.title}
+                        </span>
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+          </div>
+        </section>
+      )}
     </>
   );
 }

@@ -137,7 +137,7 @@ export default function RecessedLightingPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Any Electrical Service">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/recessed-hero.webp)' }}
@@ -370,7 +370,7 @@ export default function RecessedLightingPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="recessed-lighting" />
     </>
   );
 }

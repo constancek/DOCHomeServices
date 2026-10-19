@@ -6,7 +6,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part2: Record<string, LocationServiceCopy> = {
   'mount-lookout': {
     intro:
-      'Gas shut off at your Mount Lookout home? Additions add gas branches, and every branch gets tested. Call (513) 586-5107.',
+      'Every addition that touched gas in a Mount Lookout home added a branch, and the pressure test after a shutoff checks all of them at once, not just the newest work. We find which branch is leaking and get the gas restored. Call (513) 586-5107.',
     relevance: [
       'Mount Lookout (ZIP 45226) is early-1900s houses and larger homes around Mount Lookout Square, and a great many have been extended — kitchens rebuilt, lower levels finished, second heating zones added. Each of those projects that touched gas added a branch to the system, and a pressure test does not check the newest work in isolation. It tests everything at once.',
       'That is why a shutoff on an extended house here frequently traces to a branch nobody thinks about — a capped line where an old appliance was removed, a run to a converted space, a connector fitted during a remodel by whoever was on site. None of it caused trouble while gas was flowing. It shows up the moment someone puts a gauge on the system, and it is better established by testing than by assuming the newest work is the problem.',
@@ -23,7 +23,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   'columbia-tusculum': {
     intro:
-      'Gas shut off at your Columbia-Tusculum home? Re-running pipe through restored interiors needs care. Call (513) 586-5107.',
+      'Replacing a gas run inside a restored Painted Lady takes planning, because the obvious route crosses plaster and woodwork someone paid a lot to bring back. In Columbia-Tusculum we agree the route with you before any pipe goes in, then restore service. Call (513) 586-5107.',
     relevance: [
       'Columbia-Tusculum (ZIP 45226) is Cincinnati’s oldest neighborhood, known for its restored Painted Ladies, and the restoration is what shapes a gas repair here. Where a run of piping has to be replaced rather than repaired at a joint, it has to go somewhere — and the obvious route frequently crosses restored plaster, original woodwork or a finished ceiling that cost someone a great deal to bring back.',
       'So we plan the route before opening anything, use existing chases and basement runs where they exist, and tell you honestly where a wall has to be opened rather than discovering it mid-job. The houses also carry the longest gas histories in the city, from an era when they were lit by it, so a pressure test on one of these systems is testing decades of accumulated alterations rather than a single installation.',
@@ -40,7 +40,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   'mount-washington': {
     intro:
-      'Gas shut off at your Mount Washington home? A decades-old furnace or water heater is the usual trigger. Call (513) 586-5107.',
+      'After twenty-five or thirty years of reliable service, the furnace or water heater in a Mount Washington home finally gets red-tagged and the gas goes off. We tell you whether it is worth repairing, replace what has to go and get service restored. Call (513) 586-5107.',
     relevance: [
       'Mount Washington (ZIP 45230) is settled single-family housing from the early 1900s through the mid-century along Beechmont Avenue, and a great many of these homes have been in the same hands a long time. That produces a particular kind of gas shutoff: an appliance that has run reliably for twenty-five or thirty years finally develops a fault that gets it red-tagged, and the gas comes off until it is dealt with.',
       'A furnace of that age with a cracked heat exchanger is not repairable in any meaningful sense — the exchanger is the appliance. What matters for the shutoff is that replacing it is only half the job: the piping feeding it still has to hold a pressure test, and on a system of the same vintage that is not a formality. We test before quoting so the number covers both rather than one.',
@@ -57,7 +57,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   madisonville: {
     intro:
-      'Gas shut off at your Madisonville home? Capped lines from removed appliances are a common finding. Call (513) 586-5107.',
+      'Old capped lines are a common reason Madisonville homes fail the gas test after a shutoff: a range switched to electric, a dryer removed, a space heater taken out. We find the cap that is leaking, fix it properly and get the gas back on. Call (513) 586-5107.',
     relevance: [
       'Madisonville (ZIP 45227) has seen steady reinvestment along Madison Road, and a lot of that work has involved changing what runs on gas. A gas range swapped for electric, a gas dryer removed, an old space heater taken out when central heating went in — each of those leaves a line that was capped rather than removed, because removing it properly means opening walls.',
       'A cap that was done well holds indefinitely. A cap that was a fitting screwed on quickly does not, and it leaks slowly enough that nobody notices while gas is flowing through the rest of the system. A pressure test finds every one of them at once, which is why a shutoff on a renovated house here often traces to an appliance that has not existed for fifteen years. Once located it is a contained repair rather than a re-pipe.',
@@ -74,7 +74,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   'pleasant-ridge': {
     intro:
-      'Gas shut off on your Pleasant Ridge two-family? The meters are usually at the rear, off the alley. Call (513) 586-5107.',
+      'Pleasant Ridge brick two-families usually have their gas meters at the rear off the alley, so access gets arranged before we can restore anything. Whether it is one meter or a bank also decides whose shutoff it is and who signs for the repair. Call (513) 586-5107.',
     relevance: [
       'Pleasant Ridge (ZIP 45213) has a large stock of classic Cincinnati brick two-families, and on that form the gas meters are commonly at the rear off the alley rather than at the front. That matters twice. Access has to be arranged rather than assumed, and the arrangement — one meter for the building or a bank with separate house lines — decides whose shutoff it is and who authorises the repair.',
       'The winter urgency is worth stating plainly on these buildings. With no gas there is no hot water and no heat, and on a two-family that affects two households rather than one. Where the building runs on a single meter and one house line, both units are out until the system passes a test, which is a strong argument for the owner acting the same day rather than waiting to see.',
@@ -91,7 +91,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   westwood: {
     intro:
-      'Gas shut off at your Westwood home? Piping vintage varies street to street here. Call (513) 586-5107.',
+      'There is no single answer for a gas shutoff in Westwood, because the piping changes from one street to the next. Older streets near the Town Hall have black iron; further out it is mid-century runs. We test what you have and restore service. Call (513) 586-5107.',
     relevance: [
       'Westwood (ZIP 45211) is the largest neighborhood in Cincinnati by population, spread right across the west side, and it runs from historic homes near the Town Hall out to street after street of early-1900s and mid-century houses. There is no single Westwood answer to a gas shutoff, because the piping vintage genuinely changes from one street to the next.',
       'On the older streets it is black iron installed when the houses were built, altered in stages, and a pressure test finds the accumulated result. On the mid-century streets the systems are simpler but the piping is still original and now feeding appliances several generations newer. What is consistent is the sequence: test first to find out what is actually wrong, then quote, rather than quoting on the visible fault and revising when the gauge disagrees.',
@@ -108,7 +108,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   norwood: {
     intro:
-      'Gas shut off in Norwood? Norwood is its own city with its own permits and inspector. Call (513) 586-5107.',
+      'Norwood is its own city, so a gas shutoff repair here is permitted and inspected by Norwood, not Cincinnati. We file with Norwood, fix the fault and get the gas restored. Call (513) 586-5107.',
     relevance: [
       'Norwood (ZIP 45212) is its own city, completely surrounded by Cincinnati, and for a gas shutoff that is the first practical fact. Permits and inspections go through Norwood rather than Cincinnati, on Norwood’s own schedule, and the utility will be waiting for that sign-off before restoring service. An electrician or plumber who files with the city out of habit costs you a day with no hot water.',
       'The housing is dense early-1900s homes and brick two-families on small lots from the streetcar and factory era. Small lots mean the meter sits in a narrow gap with barely room to work, and two-families mean establishing whether one meter serves the building or a bank serves separate house lines. Conversion work done without permits over the decades is common, and a pressure test finds it.',
@@ -125,7 +125,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   'blue-ash': {
     intro:
-      'Gas shut off at your Blue Ash home? Newer houses often use CSST, which needs proper bonding. Call (513) 586-5107.',
+      'Newer Blue Ash subdivisions often run yellow-jacketed CSST, and missing bonding to the electrical ground is a common hold-up on a gas reconnection. The mid-century streets are black iron instead. We fix whichever you have and restore service. Call (513) 586-5107.',
     relevance: [
       'Blue Ash (ZIP 45242) is established mid-century neighborhoods alongside newer subdivisions, and the two are piped in genuinely different materials. The mid-century houses are black iron, original, now feeding appliances several generations newer. The newer subdivisions frequently use corrugated stainless steel tubing — CSST — the flexible yellow-jacketed pipe used widely since the 1990s.',
       'CSST is a good product installed correctly, and installed correctly includes being properly bonded to the electrical grounding system. That bonding is what an inspector looks for, and it is the thing most often missing or incomplete on installations from the earlier years of its use. On a newer Blue Ash house a gas shutoff cleared by inspection frequently comes down to bonding rather than a leak. The city issues its own permits.',
@@ -142,7 +142,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   montgomery: {
     intro:
-      'Gas shut off at your Montgomery home? In the historic district the meter position is regulated. Call (513) 586-5107.',
+      'Repairing gas in place is simple anywhere in Montgomery. Moving a meter or adding exterior pipe inside the historic district is not, because the visible exterior is regulated. We plan around that and get your gas service restored. Call (513) 586-5107.',
     relevance: [
       'Montgomery (ZIP 45242) has a preserved historic district of 19th-century buildings at its core, and in a designated district the visible exterior is regulated — which includes the gas meter, its riser and any exterior piping. Rebuilding in the same position is normally straightforward. Relocating a meter, or running new exterior pipe where none was visible before, can involve more than a plumbing permit.',
       'Inside, the buildings in the core are old enough to carry long gas histories, so a pressure test checks decades of alterations rather than one installation. Outside the core the housing is newer and the systems are simpler, with some sections likely piped in CSST rather than black iron. Permits and inspections are Montgomery’s own rather than the county’s, which is worth confirming before anything is filed.',
@@ -159,7 +159,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   madeira: {
     intro:
-      'Gas shut off at your Madeira home? The inspection queue is the constraint, not the repair. Call (513) 586-5107.',
+      'Finding and fixing the leak after a Madeira gas shutoff is often a single day. The wait is the inspection, because a small city has a small building department, so we pull the permit and book it early to get service restored sooner. Call (513) 586-5107.',
     relevance: [
       'Madeira (ZIP 45243) is largely mid-century single-family housing, and it is a small city with a correspondingly small building department. That is what actually determines how long a gas shutoff lasts here. Finding a leak and repairing it is frequently a single day. Getting the inspection scheduled has to fit a compact municipal department’s diary, and that is where the time goes.',
       'So we pull the Madeira permit and book the inspection alongside scheduling the work rather than once it is finished — the single thing that most shortens the wait. The systems themselves are what you would expect of the era: black iron installed with the houses, feeding appliances that have been replaced once or twice since, with the piping itself frequently untouched throughout.',
@@ -176,7 +176,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   wyoming: {
     intro:
-      'Gas shut off at your Wyoming home? Victorian houses often still have gas-lighting pipe in the walls. Call (513) 586-5107.',
+      'Gas-lighting pipe capped inside the walls is a common reason a Wyoming Victorian fails its pressure test after the gas is shut off. Those lines are still connected a century later. We find the failed cap, fix it and get service back. Call (513) 586-5107.',
     relevance: [
       'Wyoming (ZIP 45215) is grand Victorian and early-1900s houses on established streets, and houses of that age were originally lit by gas. When electric lighting arrived those gas-light lines were not usually removed — they were capped at the wall and left in place, because taking them out meant opening plaster throughout the house.',
       'A century later those abandoned runs are still connected to the system, and a pressure test tests them along with everything else. A cap that has held for decades can start weeping, and because the pipe is behind finished plaster in a house people have invested in preserving, locating it takes patience rather than force. It is one of the more genuinely interesting problems we deal with, and it is specific to houses of this era and this quality. Wyoming issues its own permits.',
@@ -193,7 +193,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   mariemont: {
     intro:
-      'Gas shut off at your Mariemont home? A National Historic Landmark village, and the meter is exterior. Call (513) 586-5107.',
+      'Mariemont is a National Historic Landmark village, and your gas meter is on the outside of the house where the village regulates appearance. A repair in place is a plain plumbing job; a relocation is not. We sort out which you need and restore gas. Call (513) 586-5107.',
     relevance: [
       'Mariemont (ZIP 45227) is a planned 1920s garden community and a National Historic Landmark, with the designation covering the village rather than one block. For a gas repair that matters where the exterior is affected: the meter, its riser and any exterior piping are visible, and the village regulates appearance. Repairing in place is straightforward; relocating a meter or adding an exterior run is not simply a plumbing permit.',
       'Inside, these are 1920s and 30s houses piped in black iron, with a century of alterations behind them, and Tudor Revival construction means solid walls and finished plaster rather than easy chases. Where a run has to be replaced the routing needs planning so it does not cross rooms nobody wants opened. We work that out before starting rather than discovering it with the gas already off.',
@@ -210,7 +210,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   cheviot: {
     intro:
-      'Gas shut off in Cheviot? Its own city permits, and the meter sits in a narrow gap. Call (513) 586-5107.',
+      'The gap between Cheviot houses is often barely wide enough to stand in, and that is where the gas meter sits. Work there is slower, not harder. Cheviot issues its own permits, and we file there to get your gas restored. Call (513) 586-5107.',
     relevance: [
       'Cheviot (ZIP 45211) is a small, densely built city surrounded by Cincinnati, in a grid of early-1900s homes and brick two-families along Harrison Avenue. Space is the practical constraint: the gap between one house and the next is often barely wide enough to stand in, and that is where the gas meter and riser sit. Working on a meter set in a gap that narrow is slower rather than harder.',
       'Being its own city means the permit and inspection go through Cheviot rather than Cincinnati, on Cheviot’s own schedule. On the two-families, establishing whether one meter serves the building or a bank serves separate house lines comes first, because it decides whose shutoff it is. Conversion work done without permits over the decades is common here and a pressure test finds it.',
@@ -227,7 +227,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   covedale: {
     intro:
-      'Gas shut off at your Covedale home? The city and township line runs through here. Call (513) 586-5107.',
+      'Two Covedale houses a few hundred feet apart can answer to different inspectors, because the Cincinnati and Green Township line runs through the neighborhood. We file the gas repair with the right one so the utility can restore service without a wasted day. Call (513) 586-5107.',
     relevance: [
       'Covedale (ZIP 45238) sits where Cincinnati meets Green Township along Glenway and Cleves Warsaw, and that boundary runs through the neighborhood rather than around it. For a gas shutoff the permit and inspection follow the address, so two houses a few hundred feet apart on the same road can answer to different authorities — and the utility waits for the correct sign-off before restoring service.',
       'The housing is early-1900s through mid-century single-family, so the piping ranges from original black iron altered over a century to simpler mid-century runs now feeding much newer appliances. Neither is unusual. What is specific to Covedale is checking which side of the line you are on before anything is submitted, because a misfiled permit means waiting with no hot water.',
@@ -244,7 +244,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   covington: {
     intro:
-      'Gas shut off in Covington? Northern Kentucky is Duke Energy Kentucky, not Ohio. Call (513) 586-5107.',
+      'Gas in Covington comes from Duke Energy Kentucky, a separate company from Duke Energy Ohio with its own crews and schedule. The steps to restore a shutoff are the same: find the fault, repair it, pass the test and get the reconnect. Call (513) 586-5107.',
     relevance: [
       'Covington (ZIP 41011) sits across the Ohio from downtown Cincinnati, and the first thing to know has nothing to do with the piping: Northern Kentucky is served by Duke Energy Kentucky, a separate operating company from Duke Energy Ohio, with its own crews and its own scheduling, regulated by the Kentucky Public Service Commission rather than Ohio’s PUCO.',
       'The process is the same either side of the river. On the 19th-century rowhouses in MainStrasse and Licking Riverside the meters are frequently banked on a party wall or in a shared basement, so establishing which house line is yours comes first. Sitting low near two rivers adds the other common cause: gas appliances that have been under water, where the control valves are replaced rather than dried out and relit.',
@@ -261,7 +261,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   newport: {
     intro:
-      'Gas shut off in your Newport home? East Row party walls mean shared meter banks. Call (513) 586-5107.',
+      'East Row houses in Newport share party walls, so their gas meters are often banked together. Before we test anything after a shutoff, we confirm which house line is yours, then repair it and get service restored. Call (513) 586-5107.',
     relevance: [
       'Newport (ZIP 41071) holds the East Row Historic District, hundreds of 19th-century houses standing shoulder to shoulder, and that form shapes every gas repair here. Where houses share party walls the meters are commonly banked together or in shared basement areas, with house lines running off in different directions — so the first job is establishing which line is yours before testing anything.',
       'These are also among the oldest gas installations in Northern Kentucky, from an era when the houses were lit by gas, extended for cooking and again for central heating. A pressure test finds what those stages left behind, including capped lighting runs still connected in the walls. The utility is Duke Energy Kentucky rather than Duke Energy Ohio, and the historic district means exterior meter work is regulated.',
@@ -278,7 +278,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   bellevue: {
     intro:
-      'Gas shut off in Bellevue after high water? Submerged gas controls are replaced, not dried. Call (513) 586-5107.',
+      'Once a gas control valve has been under water it gets replaced, even if the Bellevue furnace or water heater still lights. Water damages it inside with no outward sign. We replace the controls, test the piping and arrange the reconnect. Call (513) 586-5107.',
     relevance: [
       'Bellevue (ZIP 41073) is a compact river city of well-preserved late-1800s houses on narrow lots, sitting low against the Ohio, and that position produces the least negotiable kind of gas shutoff. Where a furnace, water heater or boiler has been under water, the gas control valve and burner controls are replaced rather than dried out and relit. Water damages those components internally with no outward sign.',
       'That is settled before any argument starts, and it is where homeowners here lose the most time hoping otherwise. The houses add the second factor: tall for their footprint, close together, with piping installed when they were lit by gas and altered ever since. Duke Energy Kentucky is the utility, and it will not restore service until the piping passes a pressure test regardless of which appliances were replaced.',
@@ -295,7 +295,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   'fort-thomas': {
     intro:
-      'Gas shut off at your Fort Thomas home? Large houses mean extensive systems and more joints. Call (513) 586-5107.',
+      'Large Fort Thomas houses above the river often have a second heating zone and gas fireplaces on top of the furnace, water heater and range. After a gas shutoff the pressure test checks every branch, so we isolate them one at a time and then restore service. Call (513) 586-5107.',
     relevance: [
       'Fort Thomas (ZIP 41075) is stately early-1900s houses on tree-lined streets above the river, and the houses are large enough that the gas systems in them are genuinely extensive. A furnace, a water heater, a range, frequently a second heating zone and gas fireplaces added at some point — each is a branch, and every branch is joints that a pressure test checks together.',
       'That is why diagnosing a shutoff on a large house here takes longer than on a modest one: there are simply more places for it to be. We isolate and test in sections rather than looking for one obvious fault. Gas fireplaces are worth mentioning when you call, because they are the branch most often added without a permit. The utility is Duke Energy Kentucky rather than Duke Energy Ohio.',
@@ -312,7 +312,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   florence: {
     intro:
-      'Gas shut off in Florence? Boone County permits, and newer homes often use CSST. Call (513) 586-5107.',
+      'Florence gas systems range from original black iron in mid-century neighborhoods to CSST in subdivisions built since the 1990s. Boone County handles the permit after a shutoff, and on CSST the bonding is what gets checked. We handle both kinds. Call (513) 586-5107.',
     relevance: [
       'Florence (ZIP 41042) is the largest city in Boone County and has grown fast, which means the gas systems here span a wider range than almost anywhere we work. Mid-century neighborhoods are black iron, original, now feeding much newer appliances. Subdivisions built since the 1990s frequently use corrugated stainless steel tubing — CSST — the flexible yellow-jacketed pipe.',
       'CSST is sound installed correctly, and correctly includes proper bonding to the electrical grounding system. Incomplete bonding is the most common issue we find on earlier installations, and it is what an inspector looks for. Permits and inspections go through Boone County and the city rather than any Ohio authority, and the utility is Duke Energy Kentucky with its own reconnect scheduling.',
@@ -329,7 +329,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   erlanger: {
     intro:
-      'Gas shut off in Erlanger? Erlanger and Elsmere share a ZIP but not a permit office. Call (513) 586-5107.',
+      'Erlanger shares ZIP 41018 with Elsmere, but the two cities have separate permit offices, and the utility waits for the right sign-off before restoring gas. We file by address, not postal code, then test and repair the mid-century black iron. Call (513) 586-5107.',
     relevance: [
       'Erlanger (ZIP 41018) is settled mid-century housing in Kenton County near the airport, and it shares its ZIP with Elsmere — a separate city with its own permit office. The filing follows the address rather than the postal code, and the utility waits for the correct sign-off before restoring gas, so getting that wrong means a day without hot water.',
       'The systems here are largely of one era: black iron installed with the houses and, in a great many cases, never replaced. The appliances have been replaced once or twice since, so what fails a pressure test is usually the piping rather than anything new. Duke Energy Kentucky is the utility, with its own crews and reconnect scheduling.',

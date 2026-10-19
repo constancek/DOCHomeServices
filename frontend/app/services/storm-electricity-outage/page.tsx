@@ -163,7 +163,7 @@ export default function StormElectricityOutagePage() {
       </section>
 
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Any Electrical Service">
           <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/storm-outage-hero.webp)' }} role="img" aria-label="Fallen tree across a residential street with downed power lines and a snapped utility pole" />
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
             When the Lights Come Back On Everywhere Except Your House
@@ -395,7 +395,7 @@ export default function StormElectricityOutagePage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="storm-electricity-outage" />
     </>
   );
 }

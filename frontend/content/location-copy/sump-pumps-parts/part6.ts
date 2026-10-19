@@ -46,7 +46,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'new-richmond': {
     intro:
-      'In New Richmond, a working sump pump is not optional — it is the line between a dry basement and a flooded one. We install, repair, and replace pumps and battery backups along the riverfront, same day. Call (513) 586-5107.',
+      'In New Richmond, a working sump pump is not optional: it is the line between a dry basement and a flooded one. We install, repair, and replace pumps and battery backups along the riverfront, same day. Call (513) 586-5107.',
     relevance: [
       'New Richmond (ZIP 45157) is a historic Ohio River village in Clermont County, lined with 19th-century homes along the riverfront. Homes that sit on low ground this close to the Ohio see high water and a rising water table whenever the river comes up, which puts a steady, serious demand on the sump pump that few inland homes ever face.',
       'A single pump with no backup is a real liability here, because the storms that raise the river are the same storms that knock out power. We install battery-backup systems, replace undersized or failing pumps, and check that discharge lines carry water well clear of the foundation, so a New Richmond basement is not relying on one motor and a working grid during high water.',

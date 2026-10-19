@@ -17,7 +17,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'wyoming': {
     intro:
-      'Upgrading the plumbing in a historic Wyoming home — new fixtures, a water heater, or whole-house filtration? We install everything leak-free and to code on this suburb’s tree-lined streets, with an estimate first. Call (513) 586-5107.',
+      'Upgrading the plumbing in a historic Wyoming home: new fixtures, a water heater, or whole-house filtration? We install everything leak-free and to code on this suburb’s tree-lined streets, with an estimate first. Call (513) 586-5107.',
     relevance: [
       'Wyoming (ZIP 45215) is a historic, affluent suburb north of the city, known for its grand Victorian and early-1900s homes on established, tree-shaded streets. Houses that old were built long before modern plumbing, so the work we install most here is the careful replacement of original fixtures and the addition of whole-house filtration that gives cleaner water without disturbing the home’s period finishes.',
       'Those century-old houses often still run on original supply lines, and a new high-end faucet or soaking tub deserves piping that can actually feed it. Before we set fixtures in a Wyoming home we confirm the supply runs are sound and repipe what is not, so the upgrade looks right and holds up to a code inspection. We take the same care routing a new water heater or filter so it fits the home discreetly.',
@@ -97,7 +97,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newport': {
     intro:
-      'Upgrading the plumbing in a Victorian East Row home in Newport — new fixtures, a water heater, or filtration? We install everything leak-free and to code across the historic district and riverfront, with an estimate. Call (513) 586-5107.',
+      'Upgrading the plumbing in a Victorian East Row home in Newport: new fixtures, a water heater, or filtration? We install everything leak-free and to code across the historic district and riverfront, with an estimate. Call (513) 586-5107.',
     relevance: [
       'Newport, KY (ZIP 41071) is a river city across from downtown Cincinnati, home to the East Row Historic District — one of the largest Victorian historic districts in the state — along with the Levee riverfront. The hundreds of 19th-century homes in the East Row run on original plumbing well past its service life, so the upgrades we install most are replacement fixtures and the repiping of corroded supply runs.',
       'The low riverfront ground gives Newport homes a second priority: a well-installed sump pump and backwater valve protect a finished lower level when the river is high. Whether we are setting new fixtures in an East Row Victorian or adding a pump, we keep the install clean, to code, and respectful of the home’s original detail.',
@@ -225,7 +225,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'queensgate': {
     intro:
-      'Upgrading the plumbing in a Queensgate commercial or industrial building — new fixtures, a water heater, or a sump pump? We install everything leak-free and to code west of downtown, with an estimate. Call (513) 586-5107.',
+      'Upgrading the plumbing in a Queensgate commercial or industrial building: new fixtures, a water heater, or a sump pump? We install everything leak-free and to code west of downtown, with an estimate. Call (513) 586-5107.',
     relevance: [
       'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. The installs we handle most here are commercial: replacement water heaters, new restroom and break-room fixtures, and supply-line upgrades in older buildings.',
       'The low ground near the Mill Creek makes a properly installed sump pump and backwater valve worthwhile in buildings prone to flooding. Whether we are setting commercial-grade fixtures or adding a pump, we size and install the work to code so a Queensgate building stays leak-free and inspection-ready.',

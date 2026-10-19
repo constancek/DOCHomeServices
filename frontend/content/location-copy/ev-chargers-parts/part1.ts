@@ -1,6 +1,6 @@
 export const part1: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'sedamsville': {
-    intro: 'Want to charge your EV at home in Sedamsville instead of hunting for a public station? Our licensed electricians install Level 2 chargers — with a panel check first — for homes along River Road and the hillside above it. Call (513) 586-5107.',
+    intro: 'Want to charge your EV at home in Sedamsville instead of hunting for a public station? Our licensed electricians install Level 2 chargers, with a panel check first, for homes along River Road and the hillside above it. Call (513) 586-5107.',
     relevance: [
       'Sedamsville (ZIP 45204) is a historic riverside neighborhood on Cincinnati’s west side, sitting between Riverside and Sayler Park, with housing that dates to the late 1800s and early 1900s. Homes this old often run older, smaller panels, so the first step in an EV charger install here is confirming the service can handle a Level 2 charger’s load.',
       'Parking varies on the hillside streets above River Road — some homes have a garage, others a driveway or pad — so we plan the mounting and circuit run to fit. We size a dedicated 240-volt circuit, evaluate whether the panel needs an upgrade, and install to code.',
@@ -54,7 +54,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can a historic brick rowhouse in Lower Price Hill support a Level 2 EV charger?', a: 'Often, but these mid-1800s rowhouses around State Avenue predate modern electrical loads, so we evaluate the panel and parking first. If an upgrade is needed we explain it, then install the charger to code.' }],
   },
   'over-the-rhine': {
-    intro: 'Adding home EV charging in Over-the-Rhine is tricky in a 19th-century building — but doable with the right panel work. Our licensed electricians evaluate the service and install Level 2 chargers around Vine Street and Findlay Market. Call (513) 586-5107.',
+    intro: 'Adding home EV charging in Over-the-Rhine is tricky in a 19th-century building, but doable with the right panel work. Our licensed electricians evaluate the service and install Level 2 chargers around Vine Street and Findlay Market. Call (513) 586-5107.',
     relevance: [
       'Over-the-Rhine (ZIP 45202) holds one of the largest intact collections of 19th-century Italianate architecture in the country — block after block of brick tenements, storefronts, and rowhouses built between the 1850s and 1880s. Buildings that old, many now split into condos and apartments, run on a patchwork of original and retrofitted wiring, so a careful panel and load evaluation comes before any Level 2 charger.',
       'Off-street parking and panel space are both scarce in OTR, which makes circuit routing and charger placement the central planning question. We size a dedicated 240-volt circuit, work out the mounting for a garage spot or an assigned space, and install to code, isolating the work to your unit where the building is divided.',
@@ -162,7 +162,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can an older Avondale home support a Level 2 EV charger?', a: 'Often, but the neighborhood’s early-1900s homes near the hospitals can have older panels and tight parking, so we evaluate the service and space first. We then run a dedicated circuit and install to code.' }],
   },
   'hyde-park': {
-    intro: 'Adding a second EV in Hyde Park usually means a second Level 2 charger — and a fresh look at the panel. Our licensed electricians install around Hyde Park Square after evaluating your service. Call (513) 586-5107.',
+    intro: 'Adding a second EV in Hyde Park usually means a second Level 2 charger, and a fresh look at the panel. Our licensed electricians install around Hyde Park Square after evaluating your service. Call (513) 586-5107.',
     relevance: [
       'Hyde Park (ZIP 45208) is an affluent east-side neighborhood built around Hyde Park Square, lined with large early-1900s homes — Tudors, colonials, and brick foursquares — on established, tree-shaded streets. These big older homes often need a panel and load evaluation before a Level 2 charger, especially when a household is adding a second EV.',
       'Most homes here have a garage or driveway with room to mount one or two chargers and route clean circuit runs. We size a dedicated 240-volt circuit per charger, evaluate whether the older panel has the capacity, and recommend an upgrade only when the load truly calls for it.',
@@ -243,7 +243,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can an early-1900s Norwood home support a Level 2 EV charger?', a: 'Often, but the city’s century-old homes and two-families around Montgomery Road can have older, smaller panels, so we evaluate the service first. If an upgrade is needed we explain it, then install to code.' }],
   },
   'blue-ash': {
-    intro: 'Charging an EV at home in Blue Ash? Our licensed electricians install Level 2 chargers — after a panel check — for homes across this northeast-side city, with code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Charging an EV at home in Blue Ash? Our licensed electricians install Level 2 chargers, after a panel check, for homes across this northeast-side city, with code-compliant wiring. Call (513) 586-5107.',
     relevance: [
       'Blue Ash (ZIP 45242) is a thriving northeast-side city with established mid-century neighborhoods alongside newer subdivisions. Even the newer housing here is decades old now, so before a Level 2 charger goes in we confirm the panel has the capacity to add that load safely.',
       'Most homes in Blue Ash have an attached garage or a driveway with room to mount a charger and route a clean circuit. We size a dedicated 240-volt circuit, evaluate the service, and recommend a panel upgrade only when the numbers call for it.',

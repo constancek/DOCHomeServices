@@ -399,7 +399,7 @@ export default function AirConditioningPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="air-conditioning" />
     </>
   );
 }

@@ -7,8 +7,8 @@ import ReviewsSection from './ReviewsSection';
 import EstimateForm from './EstimateForm';
 import ServicesMenu from './ServicesMenu';
 import { site } from '@/content/site';
-import { benefits, awards, clubPerks, fundingPoints, serviceAreas } from '@/content/home';
-import { communityCount } from '@/content/areas';
+import { benefits, awards, clubPerks, fundingPoints } from '@/content/home';
+import { bookingLabels } from '@/content/bookingLabels';
 
 // Shared marketing sections reused across the homepage and every interior page.
 // `hideMarquee` lets a page that already shows the image strip (e.g. /reviews)
@@ -19,8 +19,11 @@ export default function PageSections({
   hideMarquee = false,
   hideReviews = false,
   mobileServiceList = false,
+  service,
 }: {
   hideMarquee?: boolean;
+  // Service slug on service pages, so the booking form heading names the service.
+  service?: string;
   hideReviews?: boolean;
   // When set, the services menu is shown here on mobile only, just above the
   // Our Difference banner (collapsed). Used by pages whose sidebar menu is
@@ -58,13 +61,13 @@ export default function PageSections({
       <Community />
       {!hideReviews && <ReviewsSection showMarquee={false} />}
       <TornEdge fill="#1f48c8" />
-      <BookAndAreas />
+      <BookAndContact service={service} />
     </>
   );
 }
 
 // Trimmed shared sections for BLOG pages only: "Why Choose", the reviews block,
-// and the "Book Your Service Now! / Areas We Serve" block (with its zigzag top
+// and the "Book Your Service Now!" + contact block (with its zigzag top
 // edge).
 export function BlogSections({ showVan = false }: { showVan?: boolean }) {
   return (
@@ -74,7 +77,19 @@ export function BlogSections({ showVan = false }: { showVan?: boolean }) {
       <ReviewsSection showMarquee={false} />
       {showVan && <TrustedExperts />}
       <TornEdge fill="#1f48c8" />
-      <BookAndAreas />
+      <BookAndContact />
+    </>
+  );
+}
+
+// Trimmed shared sections for service × neighborhood pages: no reviews and no
+// repeated company blurbs, so each page's own local copy makes up more of it.
+// Keeps the brand strip and the booking form.
+export function LocationSections({ neighborhood, seed }: { neighborhood: string; seed: string }) {
+  return (
+    <>
+      <TornEdge fill="#1f48c8" />
+      <BookAndContact neighborhood={neighborhood} seed={seed} service={seed} />
     </>
   );
 }
@@ -388,30 +403,104 @@ export function Community() {
   );
 }
 
-/* ─────────────── Book + areas ─────────────── */
-export function BookAndAreas() {
-  return (
-    <section id="areas" className="scroll-mt-44 bg-blue-section pb-16 pt-6">
-      <div className="container-page grid gap-6 lg:grid-cols-2">
-        {/* Booking form — the real, GHL-linked estimate form (heading only differs) */}
-        <EstimateForm heading="Book Your Service Now!" />
+/* ─────────────── Book + contact ─────────────── */
+// Heading variants for neighborhood pages, picked from the page's seed
+// (service + neighborhood), so pages for the same town or the same service
+// mostly read differently.
+const contactHeadings = [
+  (n: string) => `Tell us what’s wrong in ${n}. We’ll take it from there.`,
+  (n: string) => `Book a visit in ${n}. We’ll handle the rest.`,
+  (n: string) => `Tell us what broke in ${n} and we’ll call you back.`,
+  (n: string) => `Send us the details. We’ll get a tech to ${n}.`,
+  (n: string) => `Let us know what’s wrong at your ${n} home.`,
+  (n: string) => `Start your ${n} service call here.`,
+];
+// Same idea for service × neighborhood pages, naming the service too. `l` is
+// the booking label from content/bookingLabels.ts ("Furnace Repair",
+// "an Electrician"), so each line reads with any label.
+const serviceContactHeadings = [
+  (l: string, n: string) => `Need ${l} in ${n}? Start here.`,
+  (l: string, n: string) => `Get ${l} in ${n}. We’ll handle the rest.`,
+  (l: string, n: string) => `Request ${l} in ${n}. We’ll call you back.`,
+  (l: string, n: string) => `Need ${l} in ${n}? Tell us what’s going on.`,
+  (l: string, n: string) => `Schedule ${l} in ${n} here.`,
+  (l: string, n: string) => `Line up ${l} in ${n} today.`,
+];
+const hash = (s: string) => {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+  return h;
+};
 
-        {/* Areas we serve */}
-        <div className="rounded-2xl bg-white p-6 shadow-card">
-          <h2 className="font-display text-2xl font-extrabold uppercase text-brand-700">Areas We Serve</h2>
-          <div className="mt-4 grid grid-cols-2 gap-x-6 gap-y-2.5">
-            {[...serviceAreas.left, ...serviceAreas.right].map((county) => (
-              <div key={county} className="flex items-center gap-2 text-sm font-medium text-ink/75">
-                <Icon name="check" className="h-4 w-4 flex-shrink-0 text-lime-500" />
-                {county}
-              </div>
-            ))}
-          </div>
-          <Link href="/areas" className="btn-pink mt-6 text-sm">
-            View All {communityCount}+ Neighborhoods We Serve
-            <Icon name="arrow" className="h-4 w-4" />
-          </Link>
+// Booking form beside contact copy. Neighborhood pages pass the neighborhood
+// (and a seed) so the heading names it; everywhere else it uses the general
+// wording. Same name, address and phone on every page is a basic local search
+// signal.
+export function BookAndContact({
+  neighborhood,
+  seed = '',
+  service,
+}: { neighborhood?: string; seed?: string; service?: string } = {}) {
+  const office = site.offices[0];
+  // The heading names the service (and the neighborhood on location pages).
+  const label = service ? bookingLabels[service] : undefined;
+  const heading =
+    label && neighborhood
+      ? serviceContactHeadings[hash(seed + neighborhood) % serviceContactHeadings.length](label, neighborhood)
+      : label
+        ? `Need ${label}? Tell us what’s going on.`
+        : neighborhood
+          ? contactHeadings[hash(seed + neighborhood) % contactHeadings.length](neighborhood)
+          : 'Tell us what’s wrong. We’ll take it from there.';
+  return (
+    <section id="book" className="scroll-mt-44 bg-blue-section pb-16 pt-6">
+      <div className="container-page grid gap-10 lg:grid-cols-2 lg:gap-14">
+        {/* Contact copy — sits straight on the blue, no card */}
+        <div className="text-white lg:pt-6">
+          <h2 className="text-balance font-display text-3xl font-black uppercase leading-[1.05] text-white sm:text-4xl">
+            {heading}
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="mt-6 inline-flex items-center gap-3 font-display text-2xl font-extrabold text-white transition hover:text-pink-400"
+          >
+            <Icon name="phone" className="h-5 w-5 text-pink-400" />
+            {site.primaryPhone.number}
+          </a>
+          <p className="mt-1 text-base text-brand-200">Call &middot; {site.hours}</p>
+          <ul className="mt-6 space-y-3 text-base text-brand-100">
+            <li>
+              <a
+                href={office.mapHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-start gap-3 transition hover:text-white"
+              >
+                <Icon name="pin" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-400" />
+                {office.full}
+              </a>
+            </li>
+            <li>
+              <a href={`mailto:${site.email}`} className="inline-flex items-center gap-3 break-all transition hover:text-white">
+                <Icon name="mail" className="h-5 w-5 flex-shrink-0 text-pink-400" />
+                {site.email}
+              </a>
+            </li>
+          </ul>
+          {/* Mascot fills the space beside the form on desktop only */}
+          <img
+            src="/bulldog.webp"
+            alt="Degree of Comfort bulldog mascot giving a thumbs up"
+            width={768}
+            height={768}
+            loading="lazy"
+            decoding="async"
+            className="mt-6 hidden h-auto w-72 lg:block xl:w-80"
+          />
         </div>
+
+        {/* Booking form — the real, GHL-linked estimate form (heading only differs) */}
+        <EstimateForm heading="" />
       </div>
     </section>
   );

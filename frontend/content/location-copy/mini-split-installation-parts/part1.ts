@@ -1,6 +1,6 @@
 export const part1: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'sedamsville': {
-    intro: 'Adding air conditioning to an old Sedamsville home with no ductwork, or conditioning a converted upper floor? We install ductless mini-splits — properly sized and cleanly run — for homes along River Road and the hillside above it, with estimates and financing. Call (513) 586-5107.',
+    intro: 'Adding air conditioning to an old Sedamsville home with no ductwork, or conditioning a converted upper floor? We install ductless mini-splits, properly sized and cleanly run, for homes along River Road and the hillside above it, with estimates and financing. Call (513) 586-5107.',
     relevance: [
       'Sedamsville (ZIP 45204) is a historic riverside neighborhood on Cincinnati’s west side, with housing that dates to the late 1800s and early 1900s. Homes built this long ago were never set up for ducts, so a mini-split install adds cooling and heating without the cost and mess of cutting ductwork into old plaster walls.',
       'Much of the housing climbs the hillside above River Road, where converted attics and additions are common and hard for a central system to serve. We size a single- or multi-zone system to those specific rooms and run the line set cleanly through a small wall opening, so the space is comfortable without overworking anything else.',

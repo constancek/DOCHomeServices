@@ -382,7 +382,7 @@ export default function DrainsPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="drains" />
     </>
   );
 }

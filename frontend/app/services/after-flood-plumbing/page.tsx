@@ -320,7 +320,7 @@ export default function AfterFloodPlumbingPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="after-flood-plumbing" />
     </>
   );
 }

@@ -289,7 +289,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hyde-park': {
     intro:
-      'Standing water in a Hyde Park home? We bring pumps and extractors, shut the source down, and pull the water out the same day — usually within hours of the call around Hyde Park Square. Call (513) 586-5107.',
+      'Standing water in a Hyde Park home? We bring pumps and extractors, shut the source down, and pull the water out the same day, usually within hours of the call around Hyde Park Square. Call (513) 586-5107.',
     relevance: [
       'Hyde Park (ZIP 45208) homes are large, and the lower levels are almost always finished. Carpet with pad under it, drywall down to the slab, built-in cabinetry along the walls. All of it holds water, and all of it holds it out of reach of anything you own. The volume that ends up inside those materials is routinely more than what is visible on the floor, which is why the pump is only half the visit.',
       'The reason speed matters more here than the square footage suggests is the original detail. Solid oak flooring and century-old plaster in these Tudors, colonials, and brick foursquares can usually be saved — but the window is measured in hours, not days. Get the standing water off the boards and out of the pad early and you are drying. Leave it over a weekend and you are replacing.',

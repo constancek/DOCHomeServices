@@ -339,7 +339,7 @@ export default function FurnaceInstallationPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="furnace-installation-replacement" />
     </>
   );
 }

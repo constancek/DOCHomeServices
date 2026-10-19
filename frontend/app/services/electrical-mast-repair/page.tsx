@@ -108,7 +108,7 @@ export default function ElectricalMastRepairPage() {
       </section>
 
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Any Electrical Service">
           <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/mast-hero.webp)' }} role="img" aria-label="Electrical service mast on a home exterior" />
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
             Professional Electrical Mast Repair
@@ -287,7 +287,7 @@ export default function ElectricalMastRepairPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="electrical-mast-repair" />
     </>
   );
 }

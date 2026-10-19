@@ -142,7 +142,7 @@ export default function SwitchesOutletsPage() {
       </section>
 
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar couponTitle="Any Electrical Service">
           <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/outlets-hero.webp)' }} role="img" aria-label="Electrician installing a wall outlet" />
           <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
             Switch & Outlet Installation
@@ -304,7 +304,7 @@ export default function SwitchesOutletsPage() {
         </div>
       </section>
 
-      <PageSections />
+      <PageSections service="switches-outlets" />
     </>
   );
 }
