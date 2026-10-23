@@ -6,7 +6,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part1: Record<string, LocationServiceCopy> = {
   sedamsville: {
     intro:
-      'A fuse panel on a pre-war Sedamsville frame house is often why Duke cut the power, and why it stays off. We repair the service above River Road, get the disconnection cleared by the inspector, and arrange the reconnect. Call (513) 586-5107.',
+      'A power disconnection on a pre-war Sedamsville frame house usually traces back to a fuse panel or a service sized for a few lights and an iron. Above River Road, the inspector looks at the whole service, so we price a targeted repair and a proper replacement side by side.',
     relevance: [
       'Sedamsville (ZIP 45204) is frame housing from the late 1800s and early 1900s climbing the hillside above River Road, and the electrical services in those houses are the reason disconnections here are rarely a surprise once someone looks properly. A house built before the war was given a service sized for a few lights and an iron. Many have been reworked once, decades ago, and plenty still run a fuse panel or a service well under what the house now draws.',
       'Equipment like that is what gets red-tagged. Not because anything dramatic happened, but because an inspector or a utility technician looked at exposed conductors, a corroded meter socket, or grounding that was never brought up to standard, and declined to energise it. The tag does not lift when the immediate hazard is tidied away. It lifts when the cause is corrected and an inspector signs it off, and on a house this age that usually means the service rather than one component.',
@@ -23,7 +23,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'sayler-park': {
     intro:
-      'If high water reached your Sayler Park basement panel, it gets replaced, not dried out. Duke won’t end the disconnection until it is. We do the replacement, meet the inspector, and tell you whether the panel can move higher. Call (513) 586-5107.',
+      'After high water, a power disconnection in Sayler Park almost always means a new panel, because a flooded one cannot be dried out and re-approved. Corrosion keeps working behind the bus bars. We replace it, meet the inspector, and tell you whether the panel can sit higher this time.',
     relevance: [
       'Sayler Park (ZIP 45233) has low riverfront streets sitting in the Ohio River floodplain, and that produces a specific kind of disconnection that catches people out. Where water has reached a basement panel, the utility will not re-energise it, and no amount of drying changes that. Water gets behind the bus bars and into the breakers, and corrosion carries on invisibly long after the surface looks and feels dry.',
       'So the answer on a flooded service is replacement rather than restoration, and an inspector will be looking specifically for signs of submersion before the meter goes back in. That is worth understanding early, because homeowners frequently spend a week trying to get a panel dried and re-approved when the outcome was never in doubt. If yours has been under before, it is also the moment to ask whether it can be relocated higher rather than replaced in the same spot.',
@@ -40,7 +40,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   riverside: {
     intro:
-      'Riverside panels along River Road tend to flood, get replaced in the same low spot, and flood again. When your power is disconnected after high water, ask us whether the panel can be moved before it’s renewed. Call (513) 586-5107.',
+      'In Riverside, a power disconnection after flooding often means the second or third panel in the same low spot on River Road. Replacing it where it was sets up the same result next time. We look at whether the panel can move up before we renew the service.',
     relevance: [
       'Riverside (ZIP 45204) sits on low Ohio River bottomland along River Road, and the recurring pattern here is a panel that has been under water more than once. Each time, the service is disconnected, the equipment is replaced, and the position it sits in stays exactly the same — so the next high water produces the same outcome. That cycle is expensive, and it is worth breaking rather than repeating.',
       'When we are called out for a disconnection on these streets, the first question is whether the panel can be moved rather than simply renewed. It is not always possible, because the service entrance position and the run to the meter constrain where a panel can go. Where it is possible, relocating it higher up the wall or into a different room turns a recurring replacement into a one-off. Where it is not, we say so plainly rather than quoting for something that will not work.',
@@ -57,7 +57,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'east-price-hill': {
     intro:
-      'On an East Price Hill two- or three-family, one service entrance usually feeds a bank of meters, so a disconnection takes every unit off together. The building owner authorises the repair. We handle the permit and the reconnect. Call (513) 586-5107.',
+      'Most East Price Hill electricity disconnections we see are on two- and three-family buildings, where one service entrance feeds a bank of meters. Every unit goes dark together, and only the building owner can authorise the repair. We handle the permit, the inspection and the reconnect from there.',
     relevance: [
       'East Price Hill (ZIP 45205) is dense early-1900s housing around Warsaw Avenue and the Incline District, with a great many two- and three-family buildings among the single homes. On those buildings the electrical service is usually one entrance feeding a bank of meters, and that has two consequences when the power is cut. Every household in the building goes off together, and the equipment that failed belongs to whoever owns the building rather than to any of the occupants.',
       'The other thing we find in converted two-families here is work that was done at some point without a permit — a unit split, a sub-panel added, a circuit run to a converted attic. None of it was inspected, and it surfaces when a utility technician or an inspector finally looks at the service. That is the most common reason a disconnection here turns out to be larger than the homeowner expected, and it is better established at the estimate than discovered mid-job.',
@@ -74,7 +74,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'west-price-hill': {
     intro:
-      'Sixty or a hundred amps was plenty for a 1920s West Price Hill house off Glenway Avenue. With central air and a modern kitchen on it, the connections overheat, and that is usually why the power gets disconnected. We fix the service and get it reconnected. Call (513) 586-5107.',
+      'Sixty or a hundred amps was plenty when a West Price Hill house off Glenway Avenue was built. Add central air and a modern kitchen and the connections overheat, which is the usual cause of a power disconnection. A scorched meter socket is the common sign. We repair the service.',
     relevance: [
       'West Price Hill (ZIP 45238) is largely single-family housing from the 1920s through the 1950s out along Glenway Avenue, and the services in those homes were sized for the loads of their era. Sixty or a hundred amps was generous for a house with a stove and a radio. It is not generous for a house with central air, a heat pump, a modern kitchen and possibly a car charging in the garage, and a service running permanently near its limit is how heat damage starts at the meter socket.',
       'That is the disconnection we see most here: not storm damage, but a socket or a panel showing signs of running hot for years, which a utility technician will not reconnect to. When that happens the decision worth making is whether to refit the same capacity or bring the service up to what the house actually draws. The labour, the permit and the inspection cost the same either way, which is what makes the second option worth pricing rather than assuming.',
@@ -91,7 +91,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'lower-price-hill': {
     intro:
-      'Most Lower Price Hill rowhouses near State Avenue take their service off a party wall, with several meters in one bank. That makes a power disconnection a shared repair, owned by whoever owns the wall. We work out who that is, then fix it. Call (513) 586-5107.',
+      'Electricity disconnection in Lower Price Hill is rarely one household’s problem. The 19th-century rowhouses near State Avenue often take their service off a party wall, with several meters in one bank, and that equipment belongs to whoever owns the wall. We work out who that is before the repair.',
     relevance: [
       'Lower Price Hill (ZIP 45204) holds one of Cincinnati’s most intact stretches of 19th-century Italianate brick rowhouses, down in the Mill Creek valley around State Avenue. On rowhouses the service entrance is frequently mounted on a party wall or run up shared masonry, with several meters together in a bank — so a disconnection is rarely one household’s problem, and the equipment belongs to whoever owns that wall.',
       'Buildings of this age also carry a long history of retrofitted electrical work, much of it never permitted. When a utility technician or an inspector finally examines the service, that history is what determines the scope: not simply the fault that caused the disconnection, but whatever else is visible once the cover is off. We establish ownership and scope before quoting, because on a rowhouse both answers involve more than one party.',
@@ -108,7 +108,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'over-the-rhine': {
     intro:
-      'Start with your association. In Over-the-Rhine’s Italianate buildings the service entrance and meter stack are common elements, so a unit owner rarely owns what was disconnected. We work with the building on the repair and the reconnect. Call (513) 586-5107.',
+      'For a power disconnection in an Over-the-Rhine condo, the association is usually the first stop. In these 1850s to 1880s Italianate buildings, the service entrance and meter stack are common elements, so a unit owner rarely owns what was cut off. We work with the building on the repair.',
     relevance: [
       'Over-the-Rhine (ZIP 45202) is block after block of 1850s to 1880s Italianate buildings, most of them now split into apartments and condominiums, and almost none of the electrical service belongs to an individual unit owner. The entrance is typically high on a four-storey masonry wall or fed from the alley behind, with a stack of meters serving the building, and all of that is a common element belonging to the building or the association.',
       'The neighborhood has also seen an enormous amount of renovation, which cuts both ways. Buildings brought up to standard properly have modern services and clean paperwork. Buildings where work was done piecemeal over decades, some of it unpermitted, are where a disconnection turns into a larger conversation — because once an inspector is looking at the service to clear it, they are looking at what the retrofits left behind.',
@@ -125,7 +125,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   downtown: {
     intro:
-      'If your condo in Downtown Cincinnati is dark while the building next door is lit, call management first. Residents almost never own the switchgear or meter stack that was disconnected. We repair the parts inside your unit that are yours. Call (513) 586-5107.',
+      'When a Downtown condo or loft loses power to a disconnection while the building stays lit, management comes first. Residents almost never own the switchgear or the meter stack. What we repair is the wiring inside your unit that is yours, and we tell you which part that is.',
     relevance: [
       'Downtown Cincinnati (ZIP 45202) is high-rise condominiums and converted loft buildings, and the electrical service to a building like that is infrastructure — one large entrance, switchgear, and a stack of meters. A resident essentially never owns the equipment that gets disconnected. What a resident experiences is a dark unit while the building next door is lit, and the useful first call is to management rather than to an electrician.',
       'Where we are genuinely needed downtown is inside the unit, and on the smaller converted buildings where the service is still an original arrangement on a roof or up a light well. Those were not designed as residential services, and a disconnection there frequently surfaces problems that have been marginal for years. We repair the entrance, bring the grounding to current code, and get it inspected so the meter can go back in.',
@@ -142,7 +142,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'west-end': {
     intro:
-      'Two West End houses on the same street can need completely different work after a power disconnection: a 19th-century party-wall service with decades of retrofits, or a new build with a modern panel. We look first, then quote. Call (513) 586-5107.',
+      'Two West End houses on one street can need very different work after a power disconnection. One may be a 19th-century party-wall service with decades of retrofits behind it, the next a recent build with a modern panel. We look at the service first and quote after that.',
     relevance: [
       'The West End (ZIP 45203) runs from historic Italianate rowhouses through mid-century blocks to recent development, and that spread means two houses on the same street can present completely different problems. One may be a 19th-century building on a party-wall service with decades of retrofits behind it. The other may be a new build with a modern panel and clean documentation. The disconnection reason, the scope and the paperwork differ accordingly.',
       'The other factor here is turnover. Where a property has stood vacant for a long stretch — and parts of this neighborhood have seen plenty of that alongside the redevelopment — the utility treats reconnection with more caution, because nobody can vouch for what has happened to the service in the meantime. Sometimes a short inspection clears it. Sometimes it turns into a panel replacement, and that is better established before the work than during it.',
@@ -159,7 +159,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'mount-adams': {
     intro:
-      'Getting a Mount Adams rowhouse reconnected starts with who owns the damaged equipment, since entrances often sit on party walls or up a shared stair. The steep, narrow streets shape the access too. We plan for both before the disconnection repair starts. Call (513) 586-5107.',
+      'Clearing a power disconnection on a Mount Adams rowhouse starts with ownership, since the service entrance often sits on a party wall or up a shared stair. The steep, narrow streets above downtown shape the access too. We sort out both before any repair work on the service begins.',
     relevance: [
       'Mount Adams (ZIP 45202) is dense 19th-century rowhouses and townhomes on steep, narrow streets above downtown, and both features shape a disconnection repair. The service entrances are frequently on party walls or reached through a shared stair rather than from an open side yard, so establishing who owns the damaged equipment comes before establishing what is wrong with it.',
       'Access is the other constraint, and it is a genuine one rather than an excuse. On the tightest lanes there is often nowhere to place a ladder at the angle we would want, and nowhere to leave a vehicle without blocking the street. We look at how we will reach the work before scheduling it, because a crew that arrives and cannot get to the service has cost you a day. Mention your street when you call and we will plan the visit around it.',
@@ -176,7 +176,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'mount-auburn': {
     intro:
-      'Many of Mount Auburn’s 19th-century mansions were split into apartments, and one original entrance now feeds a bank of meters it was never designed for. That overload is behind a lot of disconnections on the hilltop. We repair it and handle the inspection. Call (513) 586-5107.',
+      'Many of Mount Auburn’s 19th-century mansions were split into apartments decades ago, and one original entrance now feeds a bank of meters it was never built for. That overload sits behind a lot of electricity disconnections on the hilltop. We repair the service and handle the inspection with the owner.',
     relevance: [
       'Mount Auburn (ZIP 45219) is grand 19th-century houses and mansions on the hilltop above downtown, a great many of them divided into apartments decades ago. When a house is subdivided the electrical service is subdivided with it, and what that usually means in practice is one original entrance now feeding a bank of meters — equipment that was never designed for the number of households now hanging off it.',
       'That is the disconnection we see most here. Not a single dramatic fault, but a service running well beyond what it was built for, showing heat damage at the socket or failing an inspection on grounding that predates modern standards. Where the subdivision was done without permits — and on conversions of this age that is common — clearing the disconnection means addressing what those retrofits left behind rather than only the fault that stopped the meter.',
@@ -193,7 +193,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   clifton: {
     intro:
-      'Tenants in Clifton can’t authorise work on a disconnected service or sign for a permit. The owner can, and the owner may not live in the city. Get them on the phone early, and we’ll handle the old Victorian service from there. Call (513) 586-5107.',
+      'Tenants in Clifton cannot authorise work on a disconnected service or sign for the permit. The owner can, and with so many rentals near the university, the owner may live elsewhere. Getting them involved early decides how fast the power returns. We handle the old Victorian service from there.',
     relevance: [
       'Clifton (ZIP 45220) is large Victorian and early-1900s houses on the hilltop by the University of Cincinnati, and a substantial share of them are rentals. That is the single biggest factor in how quickly a disconnection here gets resolved, and it has nothing to do with the wiring. A tenant cannot authorise work on a service or sign for a permit. The owner can, and the owner may not be in the city.',
       'The housing itself contributes too. Houses this size converted to multiple tenancies frequently run more load than the original service was built for, and conversions done over the years were not always permitted. When a utility technician declines to reconnect, or an inspector red-tags the service, what surfaces is often that history rather than a single failure. The fastest version of this is a property manager calling with the address and authorisation in one conversation.',
@@ -210,7 +210,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   corryville: {
     intro:
-      'Corryville buildings along Short Vine run several meters off one entrance squeezed into a side gap or rear alley. When that service is disconnected, every household goes dark and none of them owns the equipment. We work with the owner to fix it. Call (513) 586-5107.',
+      'Corryville buildings along Short Vine often run several meters off one entrance squeezed into a side gap or rear alley. When that service is disconnected, every household goes dark and none of them owns the equipment. We work with the building owner on the repair and the reconnect.',
     relevance: [
       'Corryville (ZIP 45219) is about as densely built as Cincinnati gets, packed against the university along Short Vine, and almost all of it is tenanted. Electrically that means multiple meters per building, service entrances squeezed into narrow side gaps and rear alleys, and shared stacks — so when the power goes off it rarely affects one household and the equipment is rarely the occupant’s.',
       'Heavy, continuous use on old services is the other half. Buildings converted to student tenancies decades ago run more load than they were built for, year after year, and heat damage at a meter socket is the usual result. That is what stops a reconnection. Where the conversion work itself was never permitted, clearing the disconnection means dealing with what the inspector finds rather than only the socket that failed.',
@@ -227,7 +227,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   northside: {
     intro:
-      'Your Northside rehab probably got a new panel inside and kept the old service entrance outside. That original mast and meter base is often what fails and gets the power disconnected. We repair it, pass the inspection, and coordinate the reconnect. Call (513) 586-5107.',
+      'A renovated Northside house usually got a new panel inside and kept its old service entrance outside. That original mast and meter base is often what fails and leads to the power disconnection. We repair the part the rehab skipped, pass the inspection and coordinate the reconnect with Duke.',
     relevance: [
       'Northside (ZIP 45223) is late-1800s and early-1900s housing along Hamilton Avenue with streets running down toward the Mill Creek valley, and it has seen a great deal of renovation over the last couple of decades. That renovation is the thing worth knowing about here, because a rehab almost always replaces the panel inside and frequently leaves the service entrance outside exactly as it was.',
       'The homeowner reasonably believes the electrical system is modern, because the part they can see is. When a disconnection happens it is the hundred-year-old entrance above the new panel that failed, or grounding that the rehab never addressed, and the utility will not reconnect to it. On the lower streets there is a second cause: a panel that has been under water, which is replaced rather than dried out however good it looks.',
@@ -244,7 +244,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'college-hill': {
     intro:
-      'Knob and tube in an attic corner is the kind of thing an inspector finds when clearing a disconnection on an early-1900s College Hill house. The mid-century homes along Belmont fail for other reasons. We tell you which you have, then fix it. Call (513) 586-5107.',
+      'Knob and tube in an attic corner is what an inspector tends to find when clearing a power disconnection on an early-1900s College Hill house. The mid-century homes along Belmont fail for other reasons. We tell you which kind of service you have and what has to change before reconnection.',
     relevance: [
       'College Hill (ZIP 45224) mixes large early-1900s houses with mid-century homes along Hamilton Avenue and Belmont, and the two eras fail for different reasons. The older houses are where original wiring survives in places — knob and tube in an attic corner, a service that predates any modern standard — and that is what an inspector finds when they examine a service to clear a disconnection.',
       'The mid-century houses are simpler but not exempt: services sized for their era, many still original, now running loads nobody anticipated. Either way the useful question after a disconnection is not only what failed but what the inspector will look at once they are there, because that determines the scope and the cost. We assess the whole service rather than the single fault, and tell you which parts are genuinely worn rather than merely broken.',
@@ -261,7 +261,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'walnut-hills': {
     intro:
-      'Brick is what makes a Walnut Hills disconnection repair different. The big houses around Peebles Corner are mostly divided into units on one original entrance, and anchoring and sealing that into old masonry has to be done properly. Call (513) 586-5107.',
+      'Brick changes how an electricity disconnection repair goes in Walnut Hills. Most of the big houses around Peebles Corner are now divided into units on one original entrance, and anchoring and sealing a new service into old masonry has to be done properly. The equipment belongs to the building owner.',
     relevance: [
       'Walnut Hills (ZIP 45206) is grand 19th-century houses and apartment buildings around Peebles Corner, much of it long since divided into units. As elsewhere on the hilltops, that means one original service entrance feeding a bank of meters, and equipment that belongs to the building rather than to the households without power.',
       'What is particular here is the masonry. These are brick buildings, and a service entrance anchored into brick is a different repair from one lagged to a frame wall — masonry fixings, proper sealing where the conduit enters, flashing suited to the wall. Done carelessly it becomes the reason water starts tracking inside a wall that has stood for a century, and an inspector will look at it. If you are comparing quotes and one is notably cheaper, ask how they intend to anchor and seal it.',
@@ -278,7 +278,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'east-walnut-hills': {
     intro:
-      'Multiple heating zones, a finished lower level and a car charger on a service that was generous in 1915: that load is the usual story behind a disconnection in East Walnut Hills. We repair the heat damage and size the service properly. Call (513) 586-5107.',
+      'In East Walnut Hills, a power disconnection on one of the large early-1900s houses is usually about load. Several heating zones, a finished lower level and often a car charger all hang off a service that was generous in 1915. We repair the heat damage and size the service properly.',
     relevance: [
       'East Walnut Hills (ZIP 45206) is stately early-1900s houses and brick apartment buildings around Woodburn Avenue and DeSales Corner, and the houses are large enough that load is the recurring theme. Multiple heating and cooling zones, finished lower levels, a modern kitchen and often a car charger, all hanging off a service that was generous in 1915 and is marginal now.',
       'A service running near its limit for years shows it at the connections, and heat damage at a meter socket is what stops a reconnection. The fix is rarely just the socket. On a house this size the sensible question is what the property actually draws, because refitting the same capacity means the same problem returns. On the apartment buildings the equipment is the building’s, on masonry walls, and the repair needs the owner to authorise it.',
@@ -295,7 +295,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   avondale: {
     intro:
-      'In Avondale, the timeline after a power disconnection depends more on the owner than the wiring. Much of the housing near the hospitals is rented, and a tenant can’t authorise the repair or sign for a permit. We start when the owner calls. Call (513) 586-5107.',
+      'In Avondale, how long a power disconnection lasts depends more on the owner than on the wiring. Much of the housing near the hospitals is rented, and a tenant cannot authorise the repair or sign for a permit. Once the owner signs off, we repair the service and arrange reconnection.',
     relevance: [
       'Avondale (ZIP 45229) is densely built early-1900s houses and apartment buildings in the uptown core near the hospitals, and a large share of it is tenanted. That shapes the timeline more than the electrical work does: a tenant cannot authorise a repair to a service or sign for a permit, and where an owner is slow to respond identical damage can sit for days.',
       'The housing adds the technical half. Buildings of this age carrying multiple households run services that were never intended for the load, and where units were added over the years without permits, an inspector examining the service to clear a disconnection is looking at all of it rather than the single fault. We establish ownership and scope before quoting, because on a tenanted building both answers involve someone who is not on site.',
@@ -312,7 +312,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   'hyde-park': {
     intro:
-      'The Tudors and foursquares around Hyde Park Square now carry far more than their services were sized for. Run near capacity for years, the connections overheat, and that is what gets the power disconnected. We repair the service and arrange the reconnect. Call (513) 586-5107.',
+      'The Tudors, colonials and brick foursquares around Hyde Park Square now carry far more than their services were sized for. Years near capacity overheat the connections, and that is behind most power disconnections in Hyde Park. We repair the service, handle the permit and coordinate the reconnect with Duke.',
     relevance: [
       'Hyde Park (ZIP 45208) is large early-1900s houses around Hyde Park Square — Tudors, colonials and brick foursquares — and what these homes now draw is the story behind most disconnections here. Multiple HVAC zones, a finished lower level, a serious kitchen, and often car charging, all on a service that was sized when a house had far fewer demands on it.',
       'A service run near capacity for years fails at the connections rather than dramatically, and heat damage at the meter socket is what a utility technician refuses to reconnect to. The other common trigger in this neighborhood is a sale: a point-of-sale inspection or an insurer’s survey turns up a service or panel that will not pass, and the transaction stalls until it is corrected. Both are better addressed with capacity in mind rather than by refitting what was already inadequate.',
@@ -329,7 +329,7 @@ export const part1: Record<string, LocationServiceCopy> = {
 
   oakley: {
     intro:
-      'A 1915 Oakley bungalow was given a small service, and plenty still run on something close to it. After a century of added kitchens and air conditioning, it fails slowly at the connections until the power is disconnected. We fix that and pull the permit. Call (513) 586-5107.',
+      'A 1915 Oakley bungalow got a small electrical service, and plenty still run on something close to it. After a century of added kitchens and air conditioning, the connections fail slowly until the power is disconnected. We repair or upgrade the service and pull the permit so reconnection can follow.',
     relevance: [
       'Oakley (ZIP 45209) is streets of early-1900s bungalows and brick homes around Oakley Square, with newer development mixed in. The bungalows are the ones we are usually called to, and the reason is capacity: a bungalow built in 1915 was given a genuinely small service, and a great many are still running on something close to it after a century of added kitchens, air conditioning and appliances.',
       'That produces a slow failure rather than a sudden one — a meter socket that has been running warm for years, a panel with no room left, grounding that predates any modern standard — and eventually a utility technician or an inspector who declines to energise it. The newer infill houses on the same streets are a different conversation entirely: modern panels, clean documentation, and disconnections that are usually about something specific rather than the whole service.',

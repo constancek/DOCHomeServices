@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Adding a Disposal Where There Was None', body: 'Putting a disposal in a sink that never had one takes both plumbing and electrical work. We handle the wiring and the drain tie-in for {neighborhood} homes and test the finished install end to end.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Experienced plumbers who install and repair disposals safely.' },
-    { icon: 'check', title: 'Repair First', text: 'We recommend repair before replacement when it is the better value.' },
-    { icon: 'badge', title: 'Right-Sized Models', text: 'Help choosing a disposal that fits your sink and household.' },
-    { icon: 'house', title: 'Leak-Tested', text: 'Proper connections, tested before we leave.' },
-  ],
+  whyParagraph: 'If repairing your disposal is the better value, that’s what we recommend. When a {neighborhood} kitchen does need a new unit, experienced plumbers size it to your sink and household, then test the connections for leaks before leaving.',
   proofQuote:
     'Disposal was humming but not spinning and leaking at the bottom. They cleared the jam, found the gasket was shot, and swapped the unit for a quieter one. Connected it to the dishwasher line, leak-tested it, and cleaned up. Done in one visit.',
   sharedFaqs: [

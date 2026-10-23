@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
@@ -50,20 +50,7 @@ const proBenefits = [
   'Lighting systems designed for basement layouts',
 ];
 
-const whyChoose = [
-  'Licensed electricians with indoor lighting experience',
-  'High-quality lighting fixtures',
-  'Safe and code-compliant electrical work',
-  'Clear pricing and reliable scheduling',
-  'Lighting solutions designed for long-term performance',
-];
 
-const whyUs = [
-  { icon: 'shield' as const, title: 'Licensed Electricians', text: 'Experienced indoor-lighting pros handling every connection safely.' },
-  { icon: 'check' as const, title: 'Code-Compliant Work', text: 'Wiring and fixtures installed to current electrical code.' },
-  { icon: 'badge' as const, title: 'Quality Fixtures', text: 'Durable fixtures and energy-efficient LED basement lights.' },
-  { icon: 'house' as const, title: 'Layout-Specific Design', text: 'Lighting planned around how you actually use the basement.' },
-];
 
 const faqs = [
   { q: 'What types of basement lighting options do you offer?', a: 'We install recessed lighting, LED basement lights, ceiling fixtures, and other lighting solutions designed for basement spaces.' },
@@ -120,32 +107,16 @@ export default function BasementLightingPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Turn a dim basement into usable space.
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar couponTitle="Any Electrical Service">
+        <MainWithSidebar mascot couponTitle="Any Electrical Service">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/basement-hero.webp)' }}
             role="img"
             aria-label="Finished basement with recessed ceiling lighting"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Professional Basement Lighting Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -179,7 +150,7 @@ export default function BasementLightingPage() {
             aria-label="Modern finished basement living area"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs It’s Time to Upgrade Your Basement Lighting
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -189,7 +160,7 @@ export default function BasementLightingPage() {
             </p>
             <ul className="mt-4 grid gap-1.5">
               {signs.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
+                <li key={s} className="flex gap-2 text-base font-medium">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
@@ -209,7 +180,7 @@ export default function BasementLightingPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               The Basement Lighting Installation Process
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -219,7 +190,7 @@ export default function BasementLightingPage() {
             </p>
             <ul className="mt-4 grid gap-1.5">
               {process.map((p) => (
-                <li key={p} className="flex gap-2 text-sm font-medium">
+                <li key={p} className="flex gap-2 text-base font-medium">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   {p}
                 </li>
@@ -236,6 +207,24 @@ export default function BasementLightingPage() {
             role="img"
             aria-label="Electrician planning a basement lighting layout"
           />
+        </div>
+      </section>
+
+      <ServiceReviews service="basement-lighting" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Turn a dim basement into usable space.
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -282,7 +271,7 @@ export default function BasementLightingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {layouts.map((l) => (
-              <li key={l} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={l} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {l}
               </li>
@@ -301,7 +290,7 @@ export default function BasementLightingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {proBenefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {b}
               </li>
@@ -315,35 +304,18 @@ export default function BasementLightingPage() {
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Basement Lights</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Homeowners across {site.serviceArea} trust {site.name} for dependable electrical services and
-            professional lighting installation. When you work with our team, you receive:
-          </p>
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
-                <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
-                {w}
-              </li>
-            ))}
-          </ul>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
-            Our goal is to install basement lighting systems that improve visibility, comfort, and
-            everyday usability.
+            Basements bring damp spots and low ceilings, so fixtures need the right rating and
+            careful placement. {site.name} sends licensed electricians who plan the lighting around
+            how you use the room, and you approve the price first.
           </p>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Basement Lighting FAQs</h2>
           <div className="mt-4">
@@ -358,7 +330,7 @@ export default function BasementLightingPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Basement Light Installation Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule Your Basement Light Installation Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to brighten your basement? {site.name} installs basement lighting across{' '}
               {site.serviceArea}. Call now or request an estimate.
@@ -376,20 +348,20 @@ export default function BasementLightingPage() {
         </div>
       </section>
 
-      {/* Basement lighting by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Basement lighting by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We install basement lighting across {site.serviceArea} —{' '}
-            {locations.filter((l) => basementLightingCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on the homes and basements in your area.
-          </p>
-          <NeighborhoodLinks copy={basementLightingCopy} basePath="/services/basement-lighting" linkPrefix="Basement lighting" />
-        </div>
-      </section>
-
-      <PageSections service="basement-lighting" />
+      <ServiceSections service="basement-lighting">
+        {/* Basement lighting by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Basement lighting by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We install basement lighting across {site.serviceArea} —{' '}
+              {locations.filter((l) => basementLightingCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on the homes and basements in your area.
+            </p>
+            <NeighborhoodLinks copy={basementLightingCopy} basePath="/services/basement-lighting" linkPrefix="Basement lighting" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

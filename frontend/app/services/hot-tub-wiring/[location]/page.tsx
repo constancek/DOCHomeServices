@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Built for the Backyard', body: 'A spa install lives outdoors year-round, so we use weather-rated fittings and conduit that stand up to moisture and the {neighborhood} seasons. The result is a clean, durable hookup that keeps the pumps, heater, and control board running reliably.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Safety-First Approach', text: 'Every spa install treated as a safety priority, not just another service call.' },
-    { icon: 'check', title: 'NEC-Compliant Work', text: 'GFCI protection, proper bonding, and a code-required disconnect within sight.' },
-    { icon: 'badge', title: 'Experienced Electricians', text: 'Licensed pros who specialize in hot tub and jacuzzi wiring.' },
-    { icon: 'house', title: 'Honest Panel Advice', text: 'A thorough panel evaluation and upfront answers on any upgrade.' },
-  ],
+  whyParagraph: 'Every spa or jacuzzi we wire in {neighborhood} gets GFCI protection, proper bonding and a disconnect within sight of the tub, as the NEC requires. Before any of that, we evaluate your panel and give you upfront answers on upgrades.',
   proofQuote:
     'New hot tub on the patio and our panel was nearly full. They sized a dedicated 240V GFCI circuit, added the disconnect, bonded everything, and walked us through the startup. Clean conduit run and it has not tripped once.',
   sharedFaqs: [

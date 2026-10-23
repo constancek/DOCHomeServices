@@ -25,7 +25,7 @@ export default function ReviewsSection({
             Happy Homeowners
           </p>
           {/* Non-breaking space keeps "the Board." on one line when it wraps. */}
-          <h2 className="mt-3 font-logo text-4xl font-black uppercase leading-[1.05] text-brand-900 sm:text-5xl lg:text-6xl">
+          <h2 className="mt-3 font-logo text-4xl font-black leading-[1.05] text-brand-900 sm:text-5xl lg:text-6xl">
             Five Paws Across the{' '}Board.
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-ink/65 sm:text-lg">

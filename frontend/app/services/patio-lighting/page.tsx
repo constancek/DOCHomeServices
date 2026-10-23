@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
@@ -42,20 +42,7 @@ const options = [
   'Accent lights for nearby features',
 ];
 
-const whyChoose = [
-  'Licensed electricians with outdoor lighting experience',
-  'Custom patio lighting design',
-  'High-quality outdoor fixtures',
-  'Safe and code-compliant electrical work',
-  'Clear pricing and reliable scheduling',
-];
 
-const whyUs = [
-  { icon: 'shield' as const, title: 'Licensed Electricians', text: 'Experienced pros who handle every outdoor connection safely.' },
-  { icon: 'check' as const, title: 'Code-Compliant Work', text: 'Outdoor-rated wiring tested for safe, reliable operation.' },
-  { icon: 'badge' as const, title: 'Quality Fixtures', text: 'Durable, weather-ready fixtures built for outdoor use.' },
-  { icon: 'house' as const, title: 'Custom Design', text: 'Balanced layouts tailored to how you use your patio.' },
-];
 
 const faqs = [
   { q: 'How long does the patio lighting installation take?', a: 'Most patio lighting installations are completed in a single day, depending on the size of the space and the number of fixtures.' },
@@ -112,32 +99,16 @@ export default function PatioLightingPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Enjoy your patio after sunset.
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar couponTitle="Any Electrical Service">
+        <MainWithSidebar mascot couponTitle="Any Electrical Service">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/patio-hero.webp)' }}
             role="img"
             aria-label="Patio with string lights in the evening"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Professional Patio Lighting Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -171,7 +142,7 @@ export default function PatioLightingPage() {
             aria-label="Backyard patio with warm evening lighting"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Benefits of Custom Patio Lighting
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -179,7 +150,7 @@ export default function PatioLightingPage() {
             </p>
             <ul className="mt-4 grid gap-1.5">
               {benefits.map((b) => (
-                <li key={b} className="flex gap-2 text-sm font-medium">
+                <li key={b} className="flex gap-2 text-base font-medium">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   {b}
                 </li>
@@ -204,7 +175,7 @@ export default function PatioLightingPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Our Patio Lighting Installation Process
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -213,7 +184,7 @@ export default function PatioLightingPage() {
             </p>
             <ul className="mt-4 grid gap-1.5">
               {process.map((p) => (
-                <li key={p} className="flex gap-2 text-sm font-medium">
+                <li key={p} className="flex gap-2 text-base font-medium">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   {p}
                 </li>
@@ -233,6 +204,24 @@ export default function PatioLightingPage() {
         </div>
       </section>
 
+      <ServiceReviews service="patio-lighting" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Enjoy your patio after sunset.
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
+        </div>
+      </section>
+
       {/* Long-form content */}
       <section className="py-14">
         <div className="container-page max-w-4xl">
@@ -249,7 +238,7 @@ export default function PatioLightingPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {options.map((o) => (
-              <li key={o} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={o} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {o}
               </li>
@@ -262,34 +251,16 @@ export default function PatioLightingPage() {
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Patio Lighting Installation</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Homeowners across {site.serviceArea} trust {site.name} for professional outdoor lighting
-            installation. When you work with our team, you receive:
-          </p>
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
-                <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
-                {w}
-              </li>
-            ))}
-          </ul>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
-            Our goal is to install lighting that looks great and performs reliably for years.
+            Outdoor lighting has to survive rain and frost, so every circuit we add runs on GFCI protection and outdoor-rated wiring. If you only want plug-in string lights on an existing receptacle, you do not need us.
           </p>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Patio Lighting FAQs</h2>
           <div className="mt-4">
@@ -304,7 +275,7 @@ export default function PatioLightingPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Patio Lighting Installation Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule Patio Lighting Installation Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to light up your patio? {site.name} designs and installs patio lighting across{' '}
               {site.serviceArea}. Call now or request an estimate.
@@ -322,20 +293,20 @@ export default function PatioLightingPage() {
         </div>
       </section>
 
-      {/* Patio lighting by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Patio lighting by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We design and install patio and deck lighting across {site.serviceArea} —{' '}
-            {locations.filter((l) => patioLightingCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on the decks and patios in your area.
-          </p>
-          <NeighborhoodLinks copy={patioLightingCopy} basePath="/services/patio-lighting" linkPrefix="Patio lighting" />
-        </div>
-      </section>
-
-      <PageSections service="patio-lighting" />
+      <ServiceSections service="patio-lighting">
+        {/* Patio lighting by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Patio lighting by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We design and install patio and deck lighting across {site.serviceArea} —{' '}
+              {locations.filter((l) => patioLightingCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on the decks and patios in your area.
+            </p>
+            <NeighborhoodLinks copy={patioLightingCopy} basePath="/services/patio-lighting" linkPrefix="Patio lighting" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

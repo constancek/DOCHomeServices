@@ -1,6 +1,6 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
-    intro: 'Standing water in your unit in Villages of Roll Hill, coming down from the apartment above? We reach this hilltop community overlooking the Mill Creek valley the same day with pumps and extractors to pull it out. Call (513) 586-5107.',
+    intro: 'Water extraction at Villages of Roll Hill usually means water coming through your ceiling from the apartment above. In these close-packed hilltop buildings, a failed supply line upstairs soaks carpet, closets and pad in the unit below. We bring pumps and extractors the same day and stop it spreading.',
     relevance: [
       'Villages of Roll Hill sits on a west-side hilltop above the Mill Creek valley, built largely as multi-unit apartment buildings packed close together. When a supply line lets go in an upstairs unit, the water does not stay upstairs — it finds the ceiling below and comes through into carpet, closets, and the pad underneath.',
       'On these calls we get the standing water off the lower unit fast, then extract what has soaked into carpet and pad before it wicks into the subfloor. If the leak crossed more than one unit, we can work both without waiting. Once the water is out we set air movers and hand the space to drying.',
@@ -11,7 +11,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'east-westwood': {
-    intro: 'A supply line let go in your East Westwood home and ran before anyone noticed? We reach the slopes between Westwood and the Mill Creek valley the same day to pump and extract the standing water. Call (513) 586-5107.',
+    intro: 'Gravity shapes water extraction in East Westwood. On the slopes between Westwood and the Mill Creek valley, a burst supply line in an older house runs unseen for hours and the water settles on the lowest level, across finished floors and carpet. We pump and extract it the same day.',
     relevance: [
       'East Westwood runs down the hillside grade between Westwood and the Mill Creek valley, with streets of early- and mid-1900s houses. A burst supply line in an older home can run for hours unseen, and gravity carries that water down to the lowest level, where it pools across finished floors and soaks into carpet.',
       'We arrive with a plumber on the truck, so the failed line gets isolated instead of left running while we work. Then the standing water comes out and we extract from carpet, pad, and subfloor before the volume spreads further downhill inside the walls. Drying equipment goes in the same visit.',
@@ -22,7 +22,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'western-hills': {
-    intro: 'A water heater failed and emptied its tank across your floor near Western Hills Plaza? We reach the homes off Glenway Avenue the same day to pump the standing water and extract what soaked in. Call (513) 586-5107.',
+    intro: 'An old water heater splitting in a basement or utility room is a common Western Hills water extraction job. Near Western Hills Plaza and off Glenway Avenue, one failed tank dumps forty or more gallons onto whatever is stored below. We pump and extract it the same day.',
     relevance: [
       'Western Hills, the established west-side area around Western Hills Plaza and Glenway Avenue, is built of early-1900s through mid-century homes. Water heaters live in basements and utility rooms here, and when an old tank splits it dumps forty or more gallons at once onto whatever is stored down there.',
       'On these calls the first hours decide what is saved. We pump the bulk volume, extract from any carpet or boxes the water reached, and lift saturated material off the slab so it does not slow the drying that follows. What cannot be dried in place comes up now.',
@@ -33,7 +33,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'california': {
-    intro: 'A storm pushed water into your basement in the California neighborhood along Kellogg Avenue? We reach these riverfront homes near Riverbend the same day with pumps to get it out. Call (513) 586-5107.',
+    intro: 'Storm water and high river levels drive water extraction in California. These riverfront homes along Kellogg Avenue near Riverbend sit on low ground, so water reaches lower levels fast and dirty rather than as a slow seep. We get pumps there the same day and get it out.',
     relevance: [
       'California is Cincinnati’s far-east riverfront neighborhood, set on low ground beside the Ohio River near Riverbend and the old Coney Island grounds. When the river runs high or a hard rain hits, that low-lying position pushes water into lower levels, and it arrives fast and dirty rather than as a slow seep.',
       'We move the standing water out with submersible pumps first, because on a river-bottom lot the volume is the problem. Storm water that came in from outside is treated as contaminated, so saturated pad and porous material come up rather than getting dried in place. Then we extract and set drying.',
@@ -44,7 +44,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'carthage': {
-    intro: 'A drain backed up and pushed contaminated water across your floor in Carthage? We reach the homes along Vine Street near the Hamilton County Fairgrounds the same day to extract it. Call (513) 586-5107.',
+    intro: 'Contaminated water from an aging cast-iron drain is the usual Carthage water extraction job. In the older homes along Vine Street, a backup comes through the floor drain, and every hour it sits means more porous material removed instead of dried. We extract it the same day.',
     relevance: [
       'Carthage is a north-side neighborhood along Vine Street, a former village of older early-1900s homes that still run on aging cast-iron drains. When one of those lines backs up, the water that comes through a floor drain is contaminated, and every hour it sits is more porous material that has to be removed instead of dried.',
       'We extract the standing water and pull it out of carpet and pad, working in protective gear because a sewer backup is not clean water. Saturated, contaminated material comes up now rather than later, because leaving it in slows every day of drying that follows and leaves the smell behind.',
@@ -55,7 +55,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'winton-hills': {
-    intro: 'Water coming into your Winton Hills unit from the apartment upstairs? We reach this north-side neighborhood near Winton Road the same day to extract the standing water. Call (513) 586-5107.',
+    intro: 'Water extraction in Winton Hills often means a failed line in the apartment upstairs. Near Winton Road, the dense multi-unit buildings run on aging plumbing, and water drops straight into the ceiling, walls and carpet of the unit below. We extract the standing water there, usually the same day.',
     relevance: [
       'Winton Hills, near Winton Road on the north side, mixes residential and industrial blocks and includes densely built multi-unit housing on aging plumbing. In a stacked building, a failed line one floor up drops water straight into the ceiling and walls of the unit below, where it saturates carpet and pad fast.',
       'We get the standing water off the lower unit first, then extract from the carpet and pad before it works into the subfloor. If more than one unit is affected we handle them in the same visit. Once the water is out, drying equipment goes in so it starts immediately.',
@@ -66,7 +66,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'roselawn': {
-    intro: 'An overflowed washing machine or dishwasher line flooded a room in your Roselawn home along Reading Road? We reach this north-side neighborhood the same day to extract the water. Call (513) 586-5107.',
+    intro: 'In Roselawn, many water extraction jobs start with a washer hose or supply valve. Along Reading Road, in mid-century homes and older apartment buildings, the water runs onto a laundry or kitchen floor and spreads under cabinets into the next room. We extract it the same day.',
     relevance: [
       'Roselawn runs along Reading Road with settled streets of mid-century single-family homes and older apartment buildings. Appliance lines are a common source of a flood here — a washer hose or supply valve lets go and runs onto a laundry-room or kitchen floor, then spreads under cabinets and into the next room before anyone notices.',
       'Appliance water carries detergent and food waste, so it is not clean water. We extract the standing volume and pull it out of carpet and pad, and where it soaked into the base of drywall or cabinet kick, that porous material comes up. Drying equipment goes in before we leave.',
@@ -77,7 +77,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'mount-airy': {
-    intro: 'A water heater failed and emptied its tank in your Mount Airy home near the forest? We reach these northwest-side hilltop streets the same day to pump and extract the water. Call (513) 586-5107.',
+    intro: 'Mount Airy water heaters are well past their years, and a split tank on the lowest level drives much of our water extraction here. On the hilly, wooded streets beside Mount Airy Forest, one failure puts the whole tank across the floor. We pump and extract it the same day.',
     relevance: [
       'Mount Airy sits beside Mount Airy Forest on hilly, wooded streets of mid-century single-family homes. Those homes are now old enough that water heaters are well past their years, and when a tank on the lowest level splits it releases its whole volume at once across the floor.',
       'We pump the standing water, then extract from anything porous the water reached — carpet, stored boxes, the base of finished walls. On a hillside lot the water runs to the lowest point and pools there, so we work that low corner first and set drying once it is dry to the touch.',
@@ -88,7 +88,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'hartwell': {
-    intro: 'A corroded supply line burst in your century-old Hartwell home and ran before you caught it? We reach this historic streetcar neighborhood the same day to extract the standing water. Call (513) 586-5107.',
+    intro: 'Original supply lines in Hartwell’s Victorian and early-1900s homes corrode through and burst, and that drives most water extraction in this old streetcar suburb. The water runs for hours through original hardwood and plaster before anyone notices. We extract it the same day to give the floor a chance.',
     relevance: [
       'Hartwell grew as a streetcar suburb and kept its Victorian and early-1900s homes on tree-lined streets, many still on their original supply lines. When one of those old lines corrodes through and bursts, it can run for hours before anyone notices, sending water down through original hardwood and plaster.',
       'Speed protects the historic details here. We shut and isolate the failed line, pump the standing water, and extract from flooring and any carpet or rug before the water works deeper into old-growth wood. Saturated material that cannot be dried comes up now so drying can start the same visit.',
@@ -99,7 +99,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'kennedy-heights': {
-    intro: 'A supply line let go on an upper floor of your Kennedy Heights home and water is coming down through the ceiling? We reach this historic east-side hilltop neighborhood the same day to extract it off both levels. Call (513) 586-5107.',
+    intro: 'In Kennedy Heights, water extraction often covers two floors. The large early-1900s homes on this hilltop run two and three storeys, so a failed bathroom line or fixture upstairs drops water through the ceiling into rooms below. We extract both levels the same day.',
     relevance: [
       'The large early-1900s homes of Kennedy Heights, a hilltop neighborhood that began as a Victorian-era resort and still centers on its arts center, run two and three stories. When a bathroom supply line or a fixture on an upper floor lets go, the water does not stay on that floor — it finds the ceiling and drops into the rooms below, soaking carpet and pad on two levels at once.',
       'We extract on the floor where the water started, then chase what came through into the ceiling and the lower-floor carpet with a weighted extractor, because water driven into pad and subfloor will not lift off a surface. A clean overflow you wiped off a sealed floor within the hour does not need us; water that traveled through the ceiling into the rooms below does. Air movers go in once both levels are down to damp.',
@@ -110,7 +110,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'st-bernard': {
-    intro: 'A drain backed up and pushed contaminated water across your floor in St. Bernard, near the Ivorydale complex? We reach this independent city the same day to extract it. Call (513) 586-5107.',
+    intro: 'Drain backups bring most of our water extraction work in St. Bernard. This independent city around the Ivorydale complex is a dense grid of early-1900s homes on small valley lots, and a backup pushes contaminated water across the floor. We extract it the same day, as we do across Cincinnati.',
     relevance: [
       'St. Bernard is its own city, completely surrounded by Cincinnati and built up around the Procter & Gamble Ivorydale complex on small valley lots with a dense grid of early-1900s homes. Those tightly packed houses run on aging cast-iron drains, and on low ground a backup comes up through a basement floor drain carrying contaminated water.',
       'We extract the standing water in protective gear, because a sewer backup is not clean, and pull it out of any carpet and pad it reached. Saturated, contaminated porous material comes up now rather than getting dried in place. Once the water is out we set drying and hand it off.',
@@ -121,7 +121,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'elmwood-place': {
-    intro: 'A hard rain pushed water into your basement in Elmwood Place, down in the Mill Creek valley? We reach this small village the same day with pumps to get it out. Call (513) 586-5107.',
+    intro: 'Storm water collects on the valley floor in Elmwood Place, so water extraction here usually follows heavy rain. The closely spaced early-1900s homes take on volume fast rather than a slow leak. We get pumps to this small Mill Creek valley village the same day to get it out.',
     relevance: [
       'Elmwood Place is a tiny, densely built village on low ground in the Mill Creek valley, with closely spaced early-1900s homes. That valley floor is where storm water collects, and in heavy rain it backs up into basements fast, arriving as volume rather than a slow leak.',
       'We move the standing water out with pumps first, since on valley ground the amount of water is the whole problem. Storm water from outside is treated as contaminated, so soaked pad and porous material come up instead of getting dried. Then we extract and set drying equipment before we leave.',
@@ -132,7 +132,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'delhi-hills': {
-    intro: 'A water heater failed and emptied its tank in your Delhi Hills home above the river? We reach this Delhi Township community the same day to pump and extract the water. Call (513) 586-5107.',
+    intro: 'A failed water heater is the usual water extraction job in Delhi Hills. The mid-century homes on these hilly Delhi Township streets above the Ohio have tanks well past their years, and a split one dumps its whole volume at once. We extract it the same day.',
     relevance: [
       'Delhi Hills sits in Delhi Township on the west side above the Ohio River, an area with deep ties to greenhouse and floral growing, with established mid-century homes on hilly streets. Water heaters in those homes are now well past their years, and a split tank dumps its full volume onto a basement or utility floor at once.',
       'We pump the standing water, then extract from carpet, stored items, and the base of any finished wall the water reached. On a hillside lot the water runs to the lowest point, so we clear that corner first. Saturated material that cannot be dried comes up, and drying equipment goes in the same visit.',
@@ -143,7 +143,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'golf-manor': {
-    intro: 'A supply line burst in your Golf Manor home and ran before you found it? We reach this small village surrounded by Cincinnati the same day to extract the standing water. Call (513) 586-5107.',
+    intro: 'Water extraction in Golf Manor usually follows a corroded supply line. The modest mid-century homes in this small village are old enough for lines behind walls or under sinks to fail and run a long time before showing. We extract the standing water the same day.',
     relevance: [
       'Golf Manor is a small village completely surrounded by Cincinnati on the north side, with a compact grid of modest mid-century homes. Supply lines in those homes are old enough now to corrode and fail, and a line that lets go behind a wall or under a sink can run a long time before it shows.',
       'We bring a plumber on the truck, so the burst line gets shut and isolated rather than left running. Then we pump the standing water and extract from carpet, pad, and subfloor where the volume actually settles. Anything too saturated to dry comes up, and drying starts before we leave.',
@@ -154,7 +154,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'fairfax': {
-    intro: 'A water heater failed and emptied its tank in your Fairfax home along Wooster Pike? We reach this small village near Mariemont the same day to pump and extract the water. Call (513) 586-5107.',
+    intro: 'In Fairfax, an old water heater splitting is the most common water extraction job. The early- and mid-1900s homes along Wooster Pike near Mariemont have tanks well into their years, and one failure empties the whole tank before anyone hears it. We pump and extract it the same day.',
     relevance: [
       'Fairfax is a small east-side village along Wooster Pike near Mariemont, with established early- and mid-1900s homes. The water heaters in those homes are well into their years, and when an old tank splits it empties its whole volume onto a basement or utility floor before anyone hears it.',
       'The first hours decide what is saved. We pump the standing water, extract from any carpet or stored material it reached, and lift saturated items off the floor so they do not hold water against the slab. What cannot be dried comes up now, and drying equipment goes in the same visit.',
@@ -165,7 +165,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'mack': {
-    intro: 'An overflowed appliance line flooded a room in your Mack home in Green Township? We reach this west-side community the same day to extract the water. Call (513) 586-5107.',
+    intro: 'Appliance lines cause most water extraction in Mack. Even the newer homes in this Green Township community are old enough for a washer hose, dishwasher supply or ice-maker line to fail, and the water spreads under cabinets before anyone notices. We extract it the same day.',
     relevance: [
       'Mack is an established Green Township community on the west side, with mid-century and newer single-family homes. Even the newer houses here are old enough for an appliance line to fail — a washer hose, a dishwasher supply, an ice-maker line — and that water runs onto the floor and spreads under cabinets before it is noticed.',
       'Appliance water carries detergent and food waste, so it is not clean. We extract the standing volume and pull it from carpet and pad, and where it soaked into cabinet kick or the base of drywall, that porous material comes up. Drying equipment goes in before we leave the first visit.',
@@ -176,7 +176,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'monfort-heights': {
-    intro: 'A sewer lateral backed up and pushed contaminated water into your Monfort Heights basement? We reach this Green Township suburb the same day to extract it. Call (513) 586-5107.',
+    intro: 'Contaminated backups from aging sewer laterals drive most water extraction in Monfort Heights. The mid-century homes in this Green Township suburb are at the age where laterals back up, pushing water up through the basement floor drain. We extract it the same day.',
     relevance: [
       'Monfort Heights is a settled Green Township suburb of mostly mid-century single-family homes. The sewer laterals serving those homes are now well into the age where they back up, and when one does the water that comes up through a basement floor drain is contaminated rather than clean.',
       'We extract the standing water in protective gear and pull it out of any carpet and pad it reached. A sewer backup means more porous material has to come up rather than get dried in place, so saturated, contaminated material is removed now. Once the water is out, drying equipment goes in.',
@@ -187,7 +187,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'bridgetown': {
-    intro: 'A supply line burst in your Bridgetown home and ran before anyone noticed? We reach this Green Township community the same day to extract the standing water. Call (513) 586-5107.',
+    intro: 'Bridgetown water extraction usually follows a burst supply line behind a wall, under a sink or feeding a toilet. In these Green Township mid-century and newer homes, the water runs for hours and settles on the lowest finished level across the carpet. We extract it, usually the same day.',
     relevance: [
       'Bridgetown is a Green Township community on the west side of established mid-century and newer homes. A burst supply line — behind a wall, under a sink, feeding a toilet — can run for hours in a home like these, and gravity carries the water down to the lowest finished level where it pools across carpet.',
       'We arrive with a plumber, so the failed line is shut and isolated instead of left running while we work. Then we pump the standing water and extract from carpet, pad, and subfloor, where the volume actually collects. Saturated material that cannot be saved comes up, and drying starts the same visit.',
@@ -198,7 +198,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'finneytown': {
-    intro: 'A water heater failed and emptied its tank in your Finneytown home? We reach this Springfield Township community the same day to pump and extract the water. Call (513) 586-5107.',
+    intro: 'Most Finneytown water extraction comes from water heaters past their expected years. The mid-century homes in this Springfield Township community keep tanks in basements and utility rooms, and a split one releases its whole volume in one go. We pump and extract the water the same day.',
     relevance: [
       'Finneytown is a settled Springfield Township community on the north side, made up largely of mid-century single-family homes. The water heaters in those homes are past their expected years, and an old tank that splits releases its whole volume onto a basement or utility floor in one go.',
       'The first hours are what matter. We pump the standing water, extract from carpet and any stored material the water touched, and lift saturated items off the slab so they stop holding water. What is too soaked to dry comes up now, and drying equipment goes in before we leave.',
@@ -209,7 +209,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'amberley': {
-    intro: 'A supply line burst somewhere in your large Amberley Village home and ran unseen? We reach this wooded north-side village the same day to extract the standing water. Call (513) 586-5107.',
+    intro: 'In Amberley Village, water extraction often covers several rooms. The large homes on wooded lots have long plumbing runs and plenty of space for a burst supply line to hide, so it soaks more before it is found. We extract all of it the same day where we can.',
     relevance: [
       'Amberley Village is an affluent north-side village of large homes on big, wooded lots along winding streets. Bigger houses mean longer runs of plumbing and more square footage a leak can hide in, so a burst supply line can run a long way through the house before it is found — and the more it runs, the more it soaks.',
       'We shut and isolate the failed line, then pump the standing water and extract from carpet, pad, and subfloor across every room the water reached. In a large home the water spreads wide, so we work each affected area before it settles deeper. Drying equipment goes in the same visit.',
@@ -220,7 +220,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'arlington-heights': {
-    intro: 'A hard rain pushed water into your basement in Arlington Heights, down in the Mill Creek valley? We reach this small village the same day with pumps to get it out. Call (513) 586-5107.',
+    intro: 'Storm water backing into basements is the usual water extraction job in Arlington Heights. This small village sits on low Mill Creek valley ground, and in heavy rain the water arrives as volume that pools deep in older homes. We get pumps there the same day.',
     relevance: [
       'Arlington Heights is a small village on low ground in the Mill Creek valley, with a compact grid of older homes. That valley floor collects storm water, and in heavy rain it backs into basements quickly, arriving as volume that pools deep rather than a slow seep.',
       'We move the standing water out with pumps first, because on valley ground the amount of water is the problem to solve. Storm water from outside is contaminated, so soaked pad and porous material come up rather than getting dried in place. Then we extract what remains and set drying before we leave.',
@@ -231,7 +231,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'north-college-hill': {
-    intro: 'A supply line let go and ran through your North College Hill home before anyone caught it? We reach this small city just north of College Hill the same day to extract the water. Call (513) 586-5107.',
+    intro: 'A corroded riser or split supply line behind a wall drives most North College Hill water extraction. In this small city of early- and mid-1900s homes, the water runs for hours and comes through a ceiling into the rooms below. We extract every level it reached, usually the same day.',
     relevance: [
       'North College Hill is a small, densely built city of early- and mid-1900s homes running on decades-old supply lines. A corroded riser or a split line behind a wall can run clean water for hours unnoticed, coming through a ceiling and down into the rooms below before anyone is home to close the valve.',
       'Clean water still has to come out fast before it wicks. We shut the line at the main, pump and extract from the carpet, pad, and subfloor it reached, and take down a ceiling that took the water from above rather than leaving it to sag and hold. Drying equipment goes in the same visit; the pipe repair itself is a separate job.',
@@ -242,7 +242,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'newtown': {
-    intro: 'A storm pushed water into your basement in Newtown, near the Little Miami River? We reach this east-side village on the river bottom the same day with pumps to get it out. Call (513) 586-5107.',
+    intro: 'Storm flooding on low river-bottom ground is the usual Newtown water extraction job. Near the Little Miami, older homes take water into lower levels fast when the river runs high, as volume rather than a slow leak. We get pumps to this east-side village the same day.',
     relevance: [
       'Newtown is a small east-side village near the Little Miami River, with older homes set on low river-bottom ground. That low ground floods in heavy rain, and when the river runs high the water backs into lower levels fast, arriving as volume rather than a slow leak.',
       'We move the standing water out with pumps first, because on river-bottom ground the amount of water is the whole job. Water that came in from outside is contaminated, so soaked pad and porous material come up rather than getting dried. Then we extract what remains and set drying before we leave.',
@@ -253,7 +253,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'turpin-hills': {
-    intro: 'A water heater failed and emptied its tank in your Turpin Hills home? We reach this Anderson Township community the same day to pump and extract the water. Call (513) 586-5107.',
+    intro: 'Failed water heaters drive much of the water extraction in Turpin Hills. The mid-century and newer homes in this Anderson Township community have tanks old enough to fail, and a split one releases its full volume at once. We pump and extract it the same day.',
     relevance: [
       'Turpin Hills is a suburban Anderson Township community on the east side, with established mid-century and newer homes. The water heaters in those homes are old enough to fail, and when a tank splits in a basement or utility room it releases its full volume onto the floor at once.',
       'The first hours decide what is saved. We pump the standing water, extract from any carpet and stored material it reached, and lift saturated items off the slab so they stop holding water against it. What cannot be dried comes up now, and drying equipment goes in the same visit.',
@@ -264,7 +264,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'silverton': {
-    intro: 'An overflowed tub, toilet, or appliance flooded a room in your Silverton home along Montgomery Road? We reach this east-side city the same day to extract the water. Call (513) 586-5107.',
+    intro: 'Overflows are the usual Silverton water extraction job: a tub left running, a stuck toilet valve, an appliance that let go. In the early- and mid-1900s homes along Montgomery Road, the water travels through the floor into the level below. We extract it, usually the same day.',
     relevance: [
       'Silverton is a small city along Montgomery Road on the east side, with established early- and mid-1900s homes. An overflow in one of these houses — a tub left running, a stuck toilet valve, an appliance that let go — floods a bathroom or laundry floor and travels down through the structure into the level below.',
       'We extract the standing water where it started, then chase what dropped through into ceilings and lower-floor carpet. Water sitting on a floor is easy; water inside pad and subfloor needs extraction equipment to pull it back out. Saturated material that cannot be dried comes up, and drying goes in before we leave.',
@@ -275,7 +275,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'lockland': {
-    intro: 'A water heater let go and emptied across your Lockland basement? We reach this historic mill village the same day to pump and extract it. Call (513) 586-5107.',
+    intro: 'Water heaters long past replacement age drive water extraction in Lockland. The closely spaced worker houses of this old mill village keep tanks in basements and utility rooms, and a split tank empties and keeps refilling until the supply is shut. We pump and extract it the same day.',
     relevance: [
       'Lockland grew up around mills and industry on the valley floor, and its closely spaced worker houses still run water heaters long past their replacement age. When one of those old tanks splits, a full tank empties across a basement or utility floor at once, and it keeps refilling and letting go until someone shuts the supply.',
       'The first hours decide how much is saved. We shut the supply to the heater, pump and extract the standing water, and pull it from carpet, pad, and the base of any finished wall before it wicks upward. Saturated material comes up and drying equipment goes in the same visit. Swapping the failed heater is a separate job from the extraction.',
@@ -286,7 +286,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'groesbeck': {
-    intro: 'A storm outran the sump and left standing water across your Groesbeck basement? We reach this Colerain Township community the same day with pumps to get it out. Call (513) 586-5107.',
+    intro: 'In Groesbeck, water extraction usually follows a storm the sump could not keep up with. A hard rain in Colerain Township puts more water into a mid-century basement than an aging pump can move, especially if the power drops. We get the standing water out the same day.',
     relevance: [
       'Groesbeck spreads across Colerain Township on the northwest side, where a hard, fast rain can put more water into a mid-century basement than an aging sump was built to move. When the pump falls behind or the power drops in the middle of the storm, the water climbs across the floor while the house is asleep or empty.',
       'Speed is the whole job here. We run submersible pumps for the bulk water and truck-mounted extractors to pull what has already wicked into carpet, pad, and the bottom of the drywall, then lift whatever was stored on the slab. Repairing or upsizing the sump is a separate visit; the priority on the day is getting the standing water out before it rises up the walls.',
@@ -297,7 +297,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'mount-healthy': {
-    intro: 'A drain backed up and pushed contaminated water across your floor in Mount Healthy? We reach this historic north-side city near the old town center the same day to extract it. Call (513) 586-5107.',
+    intro: 'Drain backups bring most water extraction work in Mount Healthy. The early-1900s and mid-century homes around the old town center run on aging galvanized and cast-iron plumbing, and a backup sends contaminated water across the basement floor fast. We extract it the same day.',
     relevance: [
       'Mount Healthy is a historic small city with an old town center and streets of early-1900s and mid-century homes on aging galvanized and cast-iron plumbing. When one of those old drains backs up, the water that comes up through a basement floor drain is contaminated, and it spreads across the floor fast.',
       'We extract the standing water in protective gear, because a backup is not clean water, and pull it from any carpet and pad it soaked. Contaminated porous material comes up rather than getting dried in place. Once the water and soaked material are out, drying equipment goes in the same visit.',

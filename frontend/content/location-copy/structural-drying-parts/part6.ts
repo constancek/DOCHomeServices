@@ -1,7 +1,7 @@
 export const part6: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   mulberry: {
     intro:
-      "A finished basement in Mulberry that took on water a few days ago and still smells damp? That is a drying job, not an extraction, and we bring air movers and dehumidifiers to this Milford-area community off Ohio 131. Call (513) 586-5107.",
+      'A finished basement that still smells damp days after taking on water is a structural drying job in Mulberry, not an extraction. In these Milford-area homes, pad and the bottom foot of drywall hold water, so we meter daily and run equipment until it matches a dry reading.',
     relevance: [
       "Mulberry (ZIP 45150) is a run of mid-century and newer homes in the Milford area of western Clermont County, and most finished the lowest floor with carpet over pad and drywall run down to the slab. When that level gets wet, the carpet dries on top within a day while the pad underneath and the bottom foot of the drywall keep holding water you cannot see or feel.",
       "We meter that material daily against a dry reading taken from an unaffected part of the same house, and set air movers and dehumidifiers that run continuously until the numbers match. Carpet pad that stayed clean can often be floated and dried in place, and drywall that only wicked water can usually be dried rather than cut out. We pull the equipment when the readings reach the dry standard, not after a set number of days, and hand you the log.",
@@ -16,7 +16,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-repose': {
     intro:
-      "Laminate or engineered plank in your Mount Repose home that got wet and is lifting at the seams? We dry the slab and what sits on it to measured readings across this Milford-area community. Call (513) 586-5107.",
+      'Laminate or engineered plank lifting at the seams is a frequent structural drying job in Mount Repose. In these Milford-area homes, water sits between plank and slab, so we meter both and dry them, and reaching it early decides how much floor stays down.',
     relevance: [
       "Mount Repose is a Milford-area community of mid-century and newer homes, many with engineered or laminate plank over a slab on the lowest floor. Water works in through the seams and sits between the plank and the concrete, where the surface can feel dry while the slab and the plank core stay wet for days.",
       "We meter the slab and the flooring against a dry reading from elsewhere in the house and run air movers and a dehumidifier on both. Laminate that has already swelled at the joints comes up; engineered plank caught early over a slab we dry often stays down. Reaching it early is what decides that, so the sooner the equipment runs, the more of the floor comes back.",
@@ -31,7 +31,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'day-heights': {
     intro:
-      "A wall in your Day Heights home that looks dry but reads wet on a meter? The water is inside the cavity, and we dry the insulation and framing behind it to measured readings across these suburban and semi-rural lots. Call (513) 586-5107.",
+      'A Day Heights wall that looks dry but reads wet on a meter needs structural drying inside the cavity. On these suburban and semi-rural lots, we cut small inspection openings where the reading warrants, aim air movers at the insulation and framing and stop on a dry reading.',
     relevance: [
       "Day Heights mixes suburban houses with semi-rural properties in the Milford area. When water runs down inside a wall, it soaks the insulation and framing while the paint on the outside dries first, so the surface looks fine and the inside of the wall holds water for a week or more.",
       "We meter into the cavity, not just the surface, and where the reading calls for it we cut small inspection openings so air movers can reach the insulation and framing directly, with a dehumidifier taking the released moisture out of the air. We read those points daily and pull the equipment when the cavity holds a dry reading, not when the wall feels dry to the hand.",
@@ -46,7 +46,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'new-richmond': {
     intro:
-      "After the Ohio River backs into a New Richmond home, the days that follow are about drying the structure the flood left behind. We bring air movers and dehumidifiers to this historic riverfront village. Call (513) 586-5107.",
+      'After the Ohio floods a New Richmond home, structural drying is about the old framing, subfloor and plaster left once contaminated porous material comes out. In these 19th-century riverfront houses, we run air movers and dehumidifiers continuously and meter daily until the numbers hold.',
     relevance: [
       "New Richmond (ZIP 45157) is a historic Ohio River village in Clermont County with 19th-century homes lined along the riverfront. When the river floods a home, the water is contaminated, so the porous material it soaked — carpet, pad, saturated drywall and insulation — comes out rather than gets dried in place; what stays is the old framing, subfloor, and plaster the house is built from.",
       "Once the ruined material is removed, we dry that structure to measured readings. Air movers and dehumidifiers run continuously on the framing and subfloor, and we meter daily against a dry standard until the numbers hold. Century-old framing and plaster give up water more slowly than modern drywall, so we read it rather than guess, and the equipment stays until the readings say the structure is dry.",
@@ -61,7 +61,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   amelia: {
     intro:
-      "Solid hardwood in an Amelia home that got wet and is starting to cup? We dry it with hardwood drying mats and measured readings, along the Ohio Pike corridor. Call (513) 586-5107.",
+      'Solid hardwood starting to cup is a common structural drying job in Amelia. In the mid-century and newer homes along the Ohio Pike corridor, specialty drying mats pull moisture straight up through the boards with dehumidifiers behind them, metered daily against an unaffected part of the floor.',
     relevance: [
       "Amelia (ZIP 45102) strings along the Ohio Pike corridor in Clermont County, established mid-century and newer neighborhoods, many with solid hardwood on the main floor. Hardwood holds water in the boards and the subfloor under it, and the surface can feel dry while the wood underneath is still wet enough to cup and crown for weeks.",
       "Caught early, solid hardwood can often be dried in place with specialty drying mats that pull moisture straight up through the boards, backed by dehumidifiers. We meter the wood daily against a dry standard taken from an unaffected part of the same floor, and the mats and equipment stay until the readings match. Left to a household fan, the surface dries and the boards keep their water and warp.",
@@ -76,7 +76,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   batavia: {
     intro:
-      "An older Batavia home with plaster walls that still read damp days after a leak? Plaster holds water deep, and we dry it to measured readings here at the county seat on the East Fork. Call (513) 586-5107.",
+      'Plaster walls that still read damp days after a leak are the usual structural drying job in Batavia’s older homes. On the low ground along the East Fork, we run a low-grain dehumidifier continuously and read the lath with a pin meter against an untouched wall.',
     relevance: [
       "Batavia is the Clermont County seat, its historic core set on the low ground along the East Fork of the Little Miami. Many of the older houses have plaster-and-lath walls, and plaster holds water far deeper and longer than drywall, so the surface can dry to the touch while the coat and the lath behind it stay saturated.",
       "We run a low-grain dehumidifier continuously and hold air movers on the wall, because plaster does not dry on a fan's timetable, and we read the lath with a pin meter against an untouched wall in the same house. Where the lath behind the plaster still reads wet, we dry the cavity rather than call a dry face a dry wall. The equipment comes out when the readings hold, not on a schedule.",
@@ -91,7 +91,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   owensville: {
     intro:
-      "A fitting off the well tank let go and soaked several rooms of your Owensville home before anyone noticed? We map how far it went and dry the whole footprint to measured readings across these rural lots. Call (513) 586-5107.",
+      'A split fitting off a well tank can wet several rooms of an Owensville home before anyone notices, so structural drying starts by metering out to the real edge. We stage air movers and dehumidifiers across every room inside that line and remove them as each reads dry.',
     relevance: [
       "The rural properties around Owensville, a small eastern Clermont County village, often draw water from a private well and a pressure tank in the basement. When a fitting off that tank splits, clean water runs for hours across the floor and spreads under the walls into more than one room, wetting subfloor and the base of the framing well past where it started.",
       "A wide spread is a metering job before it is a drying job. We map how far the water actually travelled, which is always further along the subfloor and inside the walls than the wet patch on the surface, then stage air movers and dehumidifiers across every room inside that line and read each one daily. The equipment comes out room by room as each reaches a dry reading.",
@@ -106,7 +106,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   goshen: {
     intro:
-      "A Goshen basement that flooded when the sump gave out and still smells even though the carpet feels dry? The smell is trapped water, and we dry the pad, subfloor, and drywall to measured readings across this township. Call (513) 586-5107.",
+      'A Goshen basement that flooded when the sump gave out and still smells needs structural drying, even if the carpet feels dry. In these township homes we float clean carpet, dry the pad in place and meter pad, subfloor and drywall daily until the moisture and the smell are gone.',
     relevance: [
       "Goshen is a northern Clermont County township of suburban builds and rural lots, many with a basement finished in carpet over pad and drywall to the slab. When a long storm outruns the sump pump, water rises across that level, and the carpet surface dries in a day while the pad, the subfloor, and the bottom of the drywall keep holding it and start to smell.",
       "We float the carpet and run air movers under it to dry the pad in place where it stayed clean, with a dehumidifier holding the room, and read the pad, subfloor, and drywall daily against a dry reading. The smell is trapped moisture and it clears when the material genuinely reads dry, which is not the same day the carpet feels dry underfoot.",
@@ -121,7 +121,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   moscow: {
     intro:
-      "After the Ohio comes up over Moscow, the work that follows is drying the old riverside structure the flood soaked. We bring air movers and dehumidifiers to this low riverside village. Call (513) 586-5107.",
+      'When the Ohio rises over Moscow, structural drying follows in the old riverside houses once ruined porous material is out. We dry the framing and floorboards left behind, metering them daily against a dry standard and running air movers and dehumidifiers continuously until the readings hold.',
     relevance: [
       "Moscow (ZIP 45153) sits on the low southeastern edge of Clermont County, close enough to the Ohio that when the gauge climbs the river itself is the flood. In the older homes near the bank it soaks floorboards, the base of the walls, and anything porous it reaches. Because river water is contaminated, the ruined porous material comes out rather than gets dried in place.",
       "What we dry is the old framing and floorboards left behind once the pad, wet insulation, and saturated drywall are removed. Older solid boards and framing give up water slowly, so we meter them daily against a dry standard elsewhere in the house and run air movers and dehumidifiers continuously until the readings hold. Drying finishes when the numbers say so, not on a set schedule.",
@@ -136,7 +136,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   newtonsville: {
     intro:
-      "A wall in your Newtonsville home that dried on the surface but reads wet inside the cavity? We dry the insulation and framing behind it to measured readings in this rural corner of the county. Call (513) 586-5107.",
+      'In Newtonsville, structural drying often means a wall that dried on the surface but reads wet inside. In the older homes and rural properties of this small village, we drill vent holes behind the base trim and dry the cavity, replacing insulation that is soaked and matted.',
     relevance: [
       "Newtonsville is a small village in the northeastern corner of Clermont County, older homes and rural properties spread out from a small core. When water gets inside a wall here, it soaks the insulation and framing while the drywall face dries first, so the wall looks fine while the cavity behind it stays wet enough to hold mold.",
       "We drill small vent holes behind the base trim so air movers can dry the cavity without cutting the wall open, and a dehumidifier keeps the released moisture from settling back in. Insulation that is only damp dries in place; insulation that is soaked and matted comes out so the framing can dry. We read the framing daily and stop on a dry reading.",
@@ -151,7 +151,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   williamsburg: {
     intro:
-      "Original hardwood in your Williamsburg home that got wet and is cupping across the boards? We dry the wood and the old subfloor under it to measured readings in this historic village on the East Fork. Call (513) 586-5107.",
+      'Original hardwood cupping across the boards is common structural drying work in Williamsburg. In this historic village on the East Fork, mats pull water up through the boards and a pin meter reads both the hardwood and the old plank subfloor until each matches a dry reference.',
     relevance: [
       "Williamsburg is a historic village on the East Fork of the Little Miami, a 19th-century core with rural homes around it. Many keep their original solid hardwood over an old plank subfloor, and both layers hold water deep, so the surface can feel dry while the boards and the subfloor beneath them stay wet enough to cup for weeks.",
       "Reached early, we lay drying mats that pull moisture up through the boards, backed by a dehumidifier pulling it out of the air, and we read both the hardwood and the subfloor with a pin meter against an unaffected part of the same floor. The mats stay down until both layers match the reference, because a dry board over a wet subfloor cups again.",
@@ -166,7 +166,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   bethel: {
     intro:
-      "An older Bethel home with plaster walls that still read wet days after a leak? A fan will not touch water that deep, and we dry the plaster and the lath behind it to measured readings across the county's southeast corner. Call (513) 586-5107.",
+      'Plaster in an older Bethel home can still read wet days after a leak, deeper than any fan reaches, so structural drying brings a desiccant dehumidifier. In these 19th-century and small-town houses we read the lath with a pin meter and dry the cavity until the reading holds.',
     relevance: [
       "Bethel grew up around a 19th-century core in southeastern Clermont County, with rural and small-town homes spread out from it. Many of the older houses carry plaster-and-lath walls, and plaster takes water in deep and lets it go slowly, so the painted face dries first while the coat and the wood lath behind it stay saturated well after.",
       "For plaster that dense we bring a desiccant dehumidifier, which dries the air far below what a household fan or a standard unit manages and keeps pulling water out of the coat, with air movers along the wall. We read the lath with a pin meter against an untouched wall and dry the cavity where the lath is still wet. The equipment stays until the reading holds.",
@@ -181,7 +181,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   ross: {
     intro:
-      "After the Great Miami tops its banks at Ross, the days that follow are about drying the structure the flood soaked, not extracting the water that is already gone. We bring air movers and dehumidifiers to this Butler County township. Call (513) 586-5107.",
+      'After the Great Miami tops its banks at Ross, structural drying deals with the framing and subfloor left once contaminated porous material is cleared. In these small-town and rural homes, air movers and a dehumidifier run continuously until daily readings match an unaffected part of the house.',
     relevance: [
       "Ross Township spreads across southwestern Butler County, small-town homes near the Great Miami and rural properties behind them. When the river over-tops its banks, the low homes take on contaminated water that soaks the subfloor, the base of the walls, and everything porous it reaches, and that porous material comes out rather than getting dried in place.",
       "Once the ruined material is cleared, we dry the framing and subfloor that remain. Air movers and a dehumidifier run continuously, and we meter daily against a dry reading from an unaffected part of the house until the numbers hold. The structure is savable when it is dried properly; left to dry on its own is how framing rots and mold sets in behind new work.",
@@ -196,7 +196,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   fairfield: {
     intro:
-      "A supply line let go behind a Fairfield wall and the drywall face is dry while the cavity still reads wet? We dry the insulation and framing inside it to measured readings across this Butler County city. Call (513) 586-5107.",
+      'Corroded supply lines in Fairfield’s mid-century homes leave wall cavities wet behind dry drywall, which is where structural drying comes in. A wall-drying system feeds dry air through small ports to the insulation and framing without opening the wall, and we stop on a dry reading.',
     relevance: [
       "Fairfield is a large Butler County city north of Cincinnati whose mid-century neighborhoods have reached the age where supply lines corrode and fail. When one lets go behind a wall, clean water runs unseen down inside the cavity, soaking the insulation and framing while the painted drywall dries on the outside and looks untouched.",
       "We feed dry air straight into the cavity through small ports with a wall-drying system, so the air reaches the wet insulation and framing without opening the whole wall, and a dehumidifier pulls the moisture out of the room. We read those points daily and stop when the cavity holds a dry reading, not when the wall feels dry to the touch.",
@@ -211,7 +211,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'beckett-ridge': {
     intro:
-      "A finished lower level in Beckett Ridge that flooded and now reads wet under newer flooring and drywall? Newer materials hold water just as stubbornly, and we dry them to measured readings across this West Chester community. Call (513) 586-5107.",
+      'Newer materials hold water just as stubbornly, so structural drying in Beckett Ridge treats a flooded lower level the same as an old one. In these 1980s-onward West Chester homes, we meter engineered flooring, pad and drywall daily and dry what wicked clean water in place.',
     relevance: [
       "Beckett Ridge is a planned West Chester community laid out around its golf course, most homes built from the 1980s onward with a finished lower level. Newer build materials are no easier to dry than old ones: engineered flooring, carpet pad, and paper-faced drywall all soak water up and read wet long after the surface feels dry.",
       "We meter that material daily against a dry reading from an unaffected part of the house and run a low-grain dehumidifier with air movers until the numbers match. Pad and drywall that only wicked clean water can usually be dried in place rather than replaced. We pull the equipment on the readings, not on a set number of days, and hand you the log.",
@@ -226,7 +226,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   wetherington: {
     intro:
-      "A hidden line let go on an upper floor of a Wetherington home and put water down through two levels? We dry the whole affected footprint to measured readings, in this upscale West Chester golf-course community. Call (513) 586-5107.",
+      'A hidden line on an upper floor can put water down through two levels of a Wetherington home, so structural drying starts with mapping. In these larger West Chester golf-course homes, we meter each floor and wall, stage equipment across every affected room and remove it as areas dry.',
     relevance: [
       "Wetherington (ZIP 45069) is an upscale West Chester community in Butler County built around a golf course, with larger homes from the 1980s and 90s onward carrying larger plumbing systems. In a house that size a line can run behind a wall or on an upper floor and put water down across two levels — ceilings, wall cavities, subfloor, and flooring — before anyone is home to hear it.",
       "A spread that crosses more than one level is a mapping job first. We meter how far the water travelled through each floor and wall, then stage air movers and dehumidifiers across every affected room and ceiling and read the same points daily. The equipment runs continuously and comes out area by area as each one reaches the dry standard, rather than all at once on a guess.",
@@ -241,7 +241,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   hamilton: {
     intro:
-      "A 19th-century Hamilton home with plaster walls that still read wet after a leak? We dry the plaster and the lath behind it to measured readings in the historic districts along the Great Miami. Call (513) 586-5107.",
+      'Structural drying in Hamilton’s historic districts means plaster over lath. In German Village and Dayton Lane, the painted face dries first while the coat and lath stay wet, so we open a small section where a pin meter shows the lath still wet and read against an untouched wall.',
     relevance: [
       "Hamilton is the Butler County seat on the Great Miami, and its historic districts like German Village and Dayton Lane are full of 19th-century homes on plaster-and-lath walls. Plaster carries water deep and gives it up slowly, so the painted face dries first while the coat and the wood lath behind it stay saturated for days.",
       "We hold air movers along the wall face and run a dehumidifier continuously, and where a pin meter shows the lath behind the plaster is still wet we open a small section so the air can reach it rather than trust a dry face. We read against an untouched wall in the same house and stop when the numbers hold.",
@@ -256,7 +256,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   millville: {
     intro:
-      "A Millville basement that flooded and still reads wet in the pad, subfloor, and drywall days later? We dry it to measured readings west of Hamilton and keep out of it what does not have to be torn out. Call (513) 586-5107.",
+      'A Millville basement that still reads wet in the pad, subfloor and drywall days after a flood is a structural drying job, and most of it can stay. West of Hamilton, we run a low-grain dehumidifier and air movers until those materials match a dry reading.',
     relevance: [
       "West of Hamilton, Millville is a small Butler County village where older homes give way to rural properties, many with a basement finished in carpet over pad and drywall to the slab. After a flood the carpet surface dries in a day, while the pad, the subfloor, and the bottom of the drywall keep holding water and start to smell.",
       "We meter the pad, subfloor, and drywall daily against a dry reading from an unaffected part of the house and run a low-grain dehumidifier with air movers until they match. Pad and drywall that only wicked clean water usually dry in place; only what will not come down to the reference comes out. The sooner the equipment runs, the more of the finished basement stays.",
@@ -271,7 +271,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'new-miami': {
     intro:
-      "After the Great Miami backs into New Miami, the work that follows is drying the old structure the flood soaked. We stage air movers and dehumidifiers into this tightly packed mill village north of Hamilton. Call (513) 586-5107.",
+      'When the Great Miami pushes up through New Miami floor drains, structural drying follows once the contaminated material is out. On these tight mill-village lots we stage equipment where it fits, run hose to the basement and dry the framing and subfloor until they read dry.',
     relevance: [
       "New Miami is an old mill community of closely spaced homes on low riverside ground just north of Hamilton. When the Great Miami runs high it pushes back up through the basement floor drains, and the contaminated water soaks the subfloor, the base of the walls, and stored belongings, all of which come out rather than get dried in place.",
       "Once the ruined material is cleared, we dry the framing and subfloor that remain, running air movers and a dehumidifier continuously and metering daily against a dry reading until the numbers hold. On these tight lots we run hose and stage equipment to reach basements a truck cannot pull up beside, and dry the structure until it reads dry rather than looks dry.",
@@ -286,7 +286,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   monroe: {
     intro:
-      "A newer Monroe home that flooded and now reads wet under the flooring and drywall? We dry the newer build materials to measured readings across this fast-growing city and tell you what can stay. Call (513) 586-5107.",
+      'Newer flooring and drywall in a Monroe home read wet long after the surface feels dry, and structural drying measures them out. In this fast-growing city we meter daily, dry clean-water material in place, remove what stayed saturated or took dirty water and give you the log for your insurer.',
     relevance: [
       "Monroe has grown fast on the county line between Butler and Warren, so newer subdivisions sit beside an older town core. Newer build materials hold water as stubbornly as old ones: engineered flooring, carpet pad, and paper-faced drywall all soak it up and read wet on a meter long after the surface feels dry.",
       "We meter that material daily against a dry reading from an unaffected part of the house and run air movers and a dehumidifier until the numbers match. Material that only wicked clean water can usually be dried in place; what stays saturated or took dirty water comes out. We pull the equipment on the readings and hand you the log for your insurer.",
@@ -301,7 +301,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   landen: {
     intro:
-      "Laminate or engineered plank in your Landen home that got wet and is lifting at the seams? We dry the slab and the floor above it to measured readings across this planned community near the lake. Call (513) 586-5107.",
+      'A wet slab under laminate or engineered plank is often where structural drying in Landen starts. In this planned community near the lake, we seal the edges of a floating floor and pull air across the slab beneath it under a slight vacuum, lifting only laminate that has swelled.',
     relevance: [
       "Landen was planned out from the 1970s and 80s around its lake and common areas, near Mason and Maineville. Many homes run engineered or laminate plank over a slab downstairs, and water works under it through the seams and sits on the concrete, where the surface feels dry while the slab and the plank core stay wet for days.",
       "Where the floating floor can be saved we seal its edges and pull air across the slab beneath it under a slight vacuum, drying the concrete without lifting every board, and a dehumidifier takes the moisture out of the room. Laminate that has swelled at the joints comes up. We read the slab daily and stop on a dry reading.",
@@ -316,7 +316,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'loveland-park': {
     intro:
-      "A supply line let go behind a Loveland Park wall and the surface dried while the cavity still reads wet? We dry the insulation and framing inside it to measured readings just north of Loveland. Call (513) 586-5107.",
+      'Behind a Loveland Park wall, a corroded supply line leaves the cavity wet while the paint looks untouched, and structural drying has to reach it. In these mid-century homes north of Loveland, we pull the baseboard so air movers reach the bottom of the cavity and read into the framing.',
     relevance: [
       "Loveland Park sits just north of Loveland near the Little Miami, a Warren County community of mid-century homes old enough that their supply lines have started to corrode. When one lets go behind a wall, clean water runs down inside the cavity and soaks the insulation and framing while the painted drywall dries on the outside and looks untouched.",
       "We pull the baseboard off the wet section so air movers can reach the bottom of the cavity where the water settles, with a dehumidifier taking it out of the room, and read into the framing rather than off the face. The equipment stays until the cavity holds a dry reading, not until the wall feels dry to the hand.",
@@ -331,7 +331,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   maineville: {
     intro:
-      "Solid hardwood in your Maineville home that got wet from an appliance overflow and is starting to cup? We dry it in place with mats and measured readings across this growing Warren County town. Call (513) 586-5107.",
+      'An appliance overflow across solid hardwood is a frequent structural drying job in Maineville. In this growing Warren County town, mats pull moisture up through the boards with a dehumidifier behind them, and a pin meter reads wood and subfloor until they match an unaffected part of the floor.',
     relevance: [
       "Maineville is a growing town in southern Warren County, a small historic core ringed by newer subdivisions and rural homes, many with solid hardwood on the main floor. When a dishwasher or ice-maker line overflows, the water runs flat across the boards and soaks in, so the surface can feel dry while the wood and subfloor underneath stay wet enough to cup for weeks.",
       "Caught early, we lay drying mats that pull the moisture up through the boards, backed by a dehumidifier, and read the wood and subfloor with a pin meter against an unaffected part of the same floor until they match. A household fan dries the surface and lets the boards keep their water and warp.",
@@ -346,7 +346,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pleasant-plain': {
     intro:
-      "A well line let go and soaked several rooms of your Pleasant Plain home before the pressure dropped? We dry the whole footprint the water reached to measured readings out in this southeastern corner. Call (513) 586-5107.",
+      'A split well line can soak several rooms of a Pleasant Plain home before the pressure drops, so structural drying covers the whole footprint. In this southeastern Warren County village, we meter out from the source and dry every room that reads high, not just the one with the leak.',
     relevance: [
       "Pleasant Plain is a small village in southeastern Warren County, older homes and rural properties on private wells. When a stuck pump or a split line off the pressure tank runs, it puts clean water across the basement floor and spreads under the walls into more than one room, wetting subfloor and the base of the framing well past the room it started in.",
       "We meter out from the source to find where the water actually stopped, then stage air movers and dehumidifiers across every room inside that line and read each one daily against a dry reading. A room can look untouched and still have a wet subfloor carrying water in from next door, so we dry to the readings, not to the room where the leak started.",
@@ -361,7 +361,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-lebanon': {
     intro:
-      "After the Little Miami floods a South Lebanon home, the days that follow are about drying the structure the flood left behind. We bring air movers and dehumidifiers to this growing river town. Call (513) 586-5107.",
+      'After the Little Miami floods a South Lebanon home, structural drying follows once the contaminated porous material is out, new house or old. We dry the framing and subfloor that remain, running air movers and a dehumidifier continuously and metering daily until the numbers hold.',
     relevance: [
       "South Lebanon has grown fast along the Little Miami, new subdivisions pushing out from a historic core on low riverside ground. When the river comes up, the low levels take on contaminated water that soaks newer build materials, engineered flooring and paper-faced drywall, as readily as old ones, and that porous material comes out rather than getting dried in place.",
       "Once the ruined material is cleared, we dry the framing and subfloor that remain, running air movers and a dehumidifier continuously and metering daily against a dry reading until the numbers hold. A newer home dries no faster on its own than an older one, so we read it rather than guess and pull the equipment on the numbers.",
@@ -376,7 +376,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   lawrenceburg: {
     intro:
-      "After high water gets behind the Lawrenceburg levee, the days that follow are about drying the old downtown structure the flood soaked. We cross into Indiana with air movers and dehumidifiers. Call (513) 586-5107.",
+      'When high water gets behind the Lawrenceburg levee, structural drying deals with old downtown plaster, masonry and framing that hold flood water deep. Across the state line in Indiana, we run air movers and dehumidifiers continuously, meter daily and give you the log for your insurer.',
     relevance: [
       "A riverfront levee holds the Ohio back from downtown Lawrenceburg most of the year, but when high water gets behind it, contaminated river water reaches the 19th-century buildings the city grew from. Lawrenceburg (ZIP 47025) is a historic river city in southeastern Indiana with a distilling heritage, and its old plaster, masonry, and framing hold flood water deep once the porous material it ruined is removed.",
       "We dry that old structure to measured readings. Plaster and masonry give up water slowly, so air movers and dehumidifiers run continuously and we meter daily against a dry standard from an unaffected part of the building until the numbers hold. Drying finishes when the readings say so, not on a schedule, and you get the log for your insurer.",
@@ -391,7 +391,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   greendale: {
     intro:
-      "After a drain backs up under hillside runoff in your Greendale basement, we dry the structure the dirty water soaked. We cross into Indiana with air movers and dehumidifiers, next to Lawrenceburg. Call (513) 586-5107.",
+      'A basement drain backing up under hillside runoff is the usual start of structural drying in Greendale. The dirty water means pad and lower drywall come out first, then we dry the subfloor and framing in these older and mid-century Indiana homes until daily readings hold.',
     relevance: [
       "Greendale climbs the hillside above the Ohio next to Lawrenceburg, a Dearborn County city of older and mid-century homes, many with a finished basement. The grade drives heavy rain at the basement drains, and when one backs up under that load the contaminated water soaks the carpet pad, the bottom of the drywall, and the subfloor.",
       "A backed-up drain is dirty water, so the porous material it soaked comes out rather than getting dried in place, and we dry the subfloor and framing that remain. Air movers and a dehumidifier run continuously, and we meter daily against a dry reading from an unaffected part of the house until the numbers hold.",
@@ -406,7 +406,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   aurora: {
     intro:
-      "After the Ohio comes up over Aurora, the work that follows is drying the old riverfront structure the flood soaked. We cross into Indiana with air movers and dehumidifiers. Call (513) 586-5107.",
+      'When the Ohio rises over Aurora’s riverfront, structural drying saves the old hardwood and framing left once contaminated porous material is out. In these 19th-century homes below Hillforest, we set specialty mats where the floor can be saved and meter daily against a dry standard.',
     relevance: [
       "Below the Hillforest Victorian mansion, the Aurora riverfront runs right along the Ohio, a historic Dearborn County, Indiana town of 19th-century homes on low ground. When the gauge climbs, contaminated river water soaks the original solid hardwood, the framing, and anything porous it reaches. The pad, wet insulation, and saturated drywall come out rather than get dried in place.",
       "What we dry is the old hardwood and framing left behind. Solid boards over an old subfloor give up water slowly, so we set specialty mats where the floor can be saved, run dehumidifiers alongside, and meter daily against a dry standard from an unaffected part of the house. The equipment stays until the readings hold, because old wood that reads dry on the surface is often still wet through.",

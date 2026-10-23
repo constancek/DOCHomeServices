@@ -75,12 +75,7 @@ const config: ServiceLocationConfig = {
     },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'clock', title: 'We Move Fast on These', text: 'No power means no heat, no fridge, no sump pump. It gets treated as the emergency it is.' },
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Only a licensed trade can do the repair the utility is waiting on.' },
-    { icon: 'badge', title: 'We Handle the Inspection', text: 'We pull the permit and meet the inspector, which is what usually holds these up.' },
-    { icon: 'house', title: `Family-Owned Since ${site.founded}`, text: `${site.yearsExperience} years on Cincinnati homes, with crews who live here.` },
-  ],
+  whyParagraph: 'Losing power in {neighborhood} means no heat and no sump pump, so we treat it as an emergency. Our licensed electricians make the repair the utility is waiting on, and we pull the permit and meet the inspector.',
   proofQuote:
     'The meter had been pulled and nobody would tell us what we actually needed. They looked at it, explained the red tag in plain English, replaced the panel and the meter base, got it inspected, and we were back on the next day.',
   sharedFaqs: [

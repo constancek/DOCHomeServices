@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Powering the System Safely', body: 'Many patios lack an outlet or circuit for lighting, and overloading an existing one causes trips and failures. We add or extend power the right way so a {neighborhood} patio lighting system runs steadily without straining the panel.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Experienced pros who handle every outdoor connection safely.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Outdoor-rated wiring tested for safe, reliable operation.' },
-    { icon: 'badge', title: 'Quality Fixtures', text: 'Durable, weather-ready fixtures built for outdoor use.' },
-    { icon: 'house', title: 'Custom Design', text: 'Balanced layouts tailored to how you use your patio.' },
-  ],
+  whyParagraph: 'Our licensed electricians lay out patio lights around how you use the space, so the light stays balanced across the patio. Every circuit we wire in {neighborhood} is tested before we leave, and the fixtures are built for weather.',
   proofQuote:
     'They hung string lights over the patio, added under-rail lights on the steps, and ran a new outdoor circuit so nothing trips. We use the patio every evening now. Clean install and a fair price.',
   sharedFaqs: [

@@ -1,7 +1,7 @@
 export const part1: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   sedamsville: {
     intro:
-      'Flooded in Sedamsville? Before you turn the water back on, we go through the plumbing the flood left behind, including the water heater, sewer lateral, and shutoffs, for the homes along River Road and the hillside above it. Call (513) 586-5107.',
+      'Post-flood plumbing in Sedamsville means checking what the river or a hard rain reached along River Road. In these late-1800s hillside homes that is usually the water heater and gas controls on the basement floor, thin galvanized supply lines, and a cast-iron main packed with silt.',
     relevance: [
       'Sedamsville (ZIP 45204) sits low along River Road where the Ohio River and a hard rain both find the basements first, and the housing climbing the hill above dates to the late 1800s and early 1900s. When water gets into a lower level here it reaches original cast-iron drains and galvanized supply lines that were already thin, and usually the water heater and gas controls sitting on the floor beside them.',
       'We inspect what the water actually touched rather than everything at once. If the burner assembly and gas valve went under, that heater is a replacement and we will say so; if the base stayed dry, it is fine and we will say that too. We camera the cast-iron main for the silt a flood packs into it, and we test the shutoff valves that sat in dirty water and now refuse to turn.',
@@ -17,7 +17,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'sayler-park': {
     intro:
-      'Flooded in Sayler Park? We inspect and repair the plumbing the water left behind before you resume normal use, from the riverfront streets to the homes up the hill. Call (513) 586-5107.',
+      'Sayler Park sits in the Ohio River floodplain, so after-flood plumbing here is a regular job. In these century-old frame houses we check the water heater if it went under, the galvanized supply and shutoffs that soaked, and the sump pump that worked hardest and often fails afterward.',
     relevance: [
       "Sayler Park (ZIP 45233) is Cincinnati's westernmost neighborhood, strung along the Ohio River in the floodplain, and its frame houses were built when it was still the village of Home City before annexation in the early 1900s. Those century-old homes sit in the path of high water, and the plumbing inside them — old galvanized supply and original drains — is exactly what a flood finds.",
       'After the water drops we go through the system the flood ran through: the water heater if it went under, the supply lines and shutoffs that soaked in dirty water, and the sump pump that worked hardest during the event and often dies right after it. Where the main shows any sign of backing up, we camera it instead of snaking blind.',
@@ -33,7 +33,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   riverside: {
     intro:
-      'Flooded in Riverside? Before you turn the water back on, we go through the plumbing the Ohio River left behind, including the water heater, main, shutoffs, and sump pump, for the homes along River Road. Call (513) 586-5107.',
+      'On Riverside’s low bottomland along River Road, after-flood plumbing starts with the parts that carried the water: the sump pump and check valve, the backwater valve, and the water heater if its base went under. We camera the main too, because flood mud backs it up a week later.',
     relevance: [
       'Riverside (ZIP 45204) is the narrow strip of low Ohio River bottomland running along River Road and US-50, where flooding and high groundwater are a constant backdrop rather than a rare event. Homes here already lean on backwater valves, sump pumps, and basement drains, and a flood puts every one of those to the test at once.',
       'Our post-flood work here starts with the parts that carried the water: the sump pump and check valve, the backwater valve that either held or did not, and the water heater if the base went under. We camera the main for silt, because a Riverside lateral that took on flood mud is the one that backs the lower level up again a week later.',
@@ -49,7 +49,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-price-hill': {
     intro:
-      'Flooded in East Price Hill? We inspect and repair the plumbing a flood left behind before you resume normal water use, for the dense homes around Warsaw Avenue and the Incline District. Call (513) 586-5107.',
+      'After-flood plumbing in East Price Hill often means two inspections under one roof. The early-1900s two-families here keep a water heater and gas controls per unit, so we check each side on its own, then camera the shared cast-iron main for silt and test the soaked shutoffs.',
     relevance: [
       'East Price Hill (ZIP 45205) is packed with two- and three-story frame homes and brick two-families built close together in the early 1900s on the bluff above the river flats. When a storm or a backup floods a lower level here, the shared walls and tight lots mean the water in one basement is often sitting against the same original cast-iron and galvanized plumbing next door.',
       'In a two-family we inspect each side separately, because the flood may have reached one unit’s water heater and gas controls and not the other’s. We camera the main for flood silt, check the shutoffs that soaked in dirty water, and isolate a repair to the affected unit rather than shutting the whole building down.',
@@ -65,7 +65,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-price-hill': {
     intro:
-      'Flooded in West Price Hill? Before you go back to normal water use, we check the plumbing the flood left behind, including the water heater, shutoffs, drains, and sump pump, for the homes along Glenway Avenue. Call (513) 586-5107.',
+      'Post-flood plumbing work in West Price Hill centers on the basement, where these 1920s to 1950s homes along Glenway Avenue keep the water heater, shutoffs, and appliance connections. We check the burner and gas controls, free seized shutoff valves, and clear floor drains and traps packed with debris.',
     relevance: [
       'West Price Hill (ZIP 45238) is the larger, more residential stretch of the west side out along Glenway Avenue toward Covedale, built mostly with 1920s through 1950s single-family homes. That housing puts the water heater, the shutoffs, and the appliance connections down in a basement, which is exactly where storm water and backups collect.',
       'After a flood we go through those basement components in order: the water heater burner and gas controls if the base went under, the supply lines and shutoff valves that sat in dirty water and seize, and the floor drains and traps packed with debris. Where the main is slow we camera it rather than snake it twice.',
@@ -81,7 +81,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lower-price-hill': {
     intro:
-      'Flooded in Lower Price Hill? We inspect and repair the plumbing the flood left behind before you turn the water back on, for the historic rowhouses around State Avenue. Call (513) 586-5107.',
+      'After-flood plumbing in Lower Price Hill usually starts at the cast-iron main, because high water on Mill Creek and the river pushes silt back into these 19th-century rowhouses near State Avenue. We camera the line, check the water heater and gas controls, and test shutoffs that soaked.',
     relevance: [
       "Lower Price Hill (ZIP 45204) sits down in the Mill Creek valley near the river and the industrial bottoms around State Avenue, where high water on the creek and the river both raise the risk of sewer and storm backups. Its 19th-century Italianate brick rowhouses were built long before modern codes and still run on old galvanized and cast-iron systems the flood water sits against.",
       'Our post-flood work in these rowhouses is careful because the finishes are original. We camera the cast-iron main for the silt a valley flood packs in, check the water heater and gas controls if the base went under, and test the shutoffs that soaked in dirty water, repairing what failed without tearing into original woodwork to do it.',
@@ -97,7 +97,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'over-the-rhine': {
     intro:
-      'Flooded in Over-the-Rhine? We inspect and repair the plumbing a flood left behind before you resume normal use, for the historic buildings around Vine Street and Findlay Market. Call (513) 586-5107.',
+      'In Over-the-Rhine, after-flood plumbing is mostly a multi-unit job. These 1850s to 1880s Italianate buildings run several apartments off shared cast-iron stacks, so we check each water heater whose base went under, camera the shared stack for silt, and test soaked shutoffs one unit at a time.',
     relevance: [
       'Over-the-Rhine (ZIP 45202) holds block after block of Italianate brick buildings from the 1850s to the 1880s, most now split into apartments and condos running on a patchwork of brittle cast-iron stacks, galvanized risers, and shared lines. When a lower level or a shared basement floods here, the water reaches mechanical equipment and shared plumbing that serves several units at once.',
       'We inspect per unit and per shared line. The water heater and gas controls are checked where the base went under, the shared sewer stack is cameraed for flood silt, and the shutoffs that soaked in dirty water are tested before anyone turns the building back on. A repair gets isolated to the affected unit rather than shutting water to the whole building.',
@@ -113,7 +113,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   downtown: {
     intro:
-      'Flooded in a downtown condo or loft? We inspect and repair the plumbing a flood left behind before you resume normal use, across the central business district. Call (513) 586-5107.',
+      'Downtown flooding is usually a burst line or a backed-up stack, not river water, so after-flood plumbing in these condos and lofts means tracing where the water went. We follow it down from the failed line through the units below, checking water heaters, supply lines, and shutoffs it reached.',
     relevance: [
       'Downtown Cincinnati (ZIP 45202) mixes high-rise condos and converted loft buildings with century-old commercial structures turned residential. A flood here is usually a burst line or a backed-up stack rather than river water, and in a building this tall the water travels — a failure several floors up lands in the units and mechanical spaces below it.',
       'We trace what the water reached: the water heater and gas or electric controls if the unit went under, the supply lines and shutoffs that soaked, and the stack the water backed up through. In a tower we coordinate access and the building shutoff so the inspection and repair on one floor do not disrupt the rest of the building.',
@@ -129,7 +129,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-end': {
     intro:
-      'Flooded in the West End? Before you turn the water back on, we go through the plumbing the flood left behind, including the water heater, main, and shutoffs, for the homes around TQL Stadium and Linn Street. Call (513) 586-5107.',
+      'After-flood plumbing in the West End starts at the main. These historic rowhouses near Linn Street sit on low ground by the Mill Creek basin, so a heavy rain pushes silt into old cast-iron laterals. We camera the line, then check water heaters and the shutoffs that soaked.',
     relevance: [
       'The West End (ZIP 45203) is one of Cincinnati’s oldest neighborhoods, near TQL Stadium and Linn Street, with historic Italianate rowhouses and brick homes on low ground near the Mill Creek basin. That low ground raises the risk of drain and sewer backups in heavy rain, and the older homes carry decades-old galvanized and cast-iron plumbing the flood water reaches.',
       'After the water drops we camera the main for the silt a basin flood pushes in, check the water heater and gas controls if the base went under, and test the shutoffs and supply lines that sat in dirty water. Where a rowhouse shares a lateral, we locate the actual blockage before anyone starts digging.',
@@ -145,7 +145,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-adams': {
     intro:
-      'Flooded in Mount Adams? We inspect and repair the plumbing a flood left behind before you resume normal use, on the steep, narrow streets of the hilltop. Call (513) 586-5107.',
+      'Mount Adams after-flood plumbing is shaped by the hill. The grade sends storm water into the lowest basements of these 19th-century rowhouses and drives silt into laterals already under pressure, so we camera the lateral, check the water heater and gas controls, and test shutoffs that soaked.',
     relevance: [
       'Mount Adams (ZIP 45202) is a dense hilltop of 19th-century rowhouses and townhomes above downtown and Eden Park, where the steep grade sends storm water straight downhill into the lowest basements and puts real pressure on sewer laterals during heavy rain. When one of those lower levels floods, it reaches century-old plumbing and whatever mechanical equipment lives down there.',
       'Our post-flood work here handles the tight, steep access the hill is known for and goes through the components the water touched: the water heater and gas controls if the base went under, the shutoffs that soaked, and the lateral, which we camera for flood silt because a hillside line under that much pressure fails at the worst time.',
@@ -161,7 +161,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-auburn': {
     intro:
-      'Flooded in Mount Auburn? We inspect and repair the plumbing a flood left behind before you resume normal use, in one of Cincinnati’s oldest hilltop neighborhoods. Call (513) 586-5107.',
+      'Post-flood plumbing in Mount Auburn tends to involve shared lines, since many of its grand 19th-century homes are now split into apartments. We check each water heater whose base went under, camera the shared stack for silt, and test soaked shutoffs, keeping repairs to the flooded unit.',
     relevance: [
       'Mount Auburn (ZIP 45219) rises just north of downtown and Over-the-Rhine, lined with grand 19th-century homes and mansions, many now divided into apartments. Those Victorian-era houses carry some of the oldest plumbing in the city — original cast-iron drains and galvanized supply — and when a subdivided home floods, the water reaches shared lines that serve several units.',
       'We inspect per unit and per shared line, checking the water heaters whose bases went under, cameraing the shared stack for flood silt, and testing the shutoffs that soaked in dirty water. A repair gets isolated to the affected apartment rather than shutting off water to the whole house.',
@@ -177,7 +177,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   clifton: {
     intro:
-      'Flooded in Clifton? We inspect and repair the plumbing a flood left behind before you turn the water back on, for the homes around Ludlow Avenue and the Gaslight District. Call (513) 586-5107.',
+      'Clifton’s mature trees shape most of our after-flood plumbing work there. Roots already narrow the century-old laterals under these Victorians near Ludlow Avenue, and flood silt packs against them, so we camera the line first. Then we check the water heater, gas controls, and any shutoffs that soaked.',
     relevance: [
       'Clifton (ZIP 45220) is the leafy hilltop near the University of Cincinnati, with large Victorian and early-1900s homes on tree-lined streets, plenty of them now rentals. The mature trees are the tell: root systems sit over sewer laterals laid a century ago, and a lateral already narrowed by roots is the one that packs solid when a flood pushes silt into it.',
       'After a flood we camera the lateral, because in Clifton the drain that runs slow for a week is the one that backs up the first time somebody runs a full load of laundry. We also check the water heater and gas controls if the base went under, and the shutoffs that soaked in dirty water and now will not turn.',
@@ -193,7 +193,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   corryville: {
     intro:
-      'Flooded in Corryville? We inspect and repair the plumbing a flood left behind before you resume normal use, in the Short Vine area near UC. Call (513) 586-5107.',
+      'Flood-damaged plumbing in Corryville usually sits in dense early-1900s student rentals near Short Vine, where several units share one stack. We check the water heater and gas controls of any unit that went under, camera the shared stack for silt, and test the shutoffs before tenants rely on them.',
     relevance: [
       'Corryville (ZIP 45219) sits right at the edge of the University of Cincinnati around the Short Vine corridor, a dense mix of early-1900s homes, apartments, and student rentals that share walls and stacks. When a lower level floods here, the water reaches aging plumbing under heavy year-round use and the shared lines running between units.',
       'We inspect the water heater and gas controls of any unit whose base went under, camera the shared stack for flood silt, and test the shutoffs that soaked in dirty water. In a rental packed with tenants, we isolate the repair to the affected unit so the rest of the building keeps its water.',
@@ -209,7 +209,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   northside: {
     intro:
-      'Flooded in Northside? We inspect and repair the plumbing a flood left behind before you turn the water back on, for the homes near Hamilton Avenue and the Mill Creek valley. Call (513) 586-5107.',
+      'Northside homes near the Mill Creek valley take on sewer backups in heavy rain, so our after-flood plumbing there begins with a camera down the main. These late-1800s houses still run original galvanized and cast iron. Next come the water heater, soaked shutoffs, and the sump pump and check valve.',
     relevance: [
       'Northside (ZIP 45223) runs along Hamilton Avenue down toward the Mill Creek valley, where the low ground raises a real risk of drain and sewer backups in heavy rain. The late-1800s and early-1900s homes here carry original galvanized and cast-iron plumbing, so a flood reaches lines that were already near the end of their service life.',
       'Our post-flood work starts at the main, which we camera for the silt a valley flood packs in, then moves to the water heater and gas controls if the base went under and the shutoffs that soaked in dirty water. Where the water came up through the drains rather than in from the rain, the sump pump and its check valve get tested too.',
@@ -225,7 +225,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'college-hill': {
     intro:
-      'Flooded in College Hill? We inspect and repair the plumbing a flood left behind before you resume normal use, for the homes along Hamilton Avenue and Belmont. Call (513) 586-5107.',
+      'Old clay and cast-iron laterals set the agenda for after-flood plumbing in College Hill. Many already carry roots, and flood silt turns a partial restriction into a blockage, so we camera the line before anything else. Then we check the water heater, gas controls, and the shutoffs that soaked.',
     relevance: [
       'College Hill (ZIP 45224) is a hilltop neighborhood on the northwest side along Hamilton Avenue, with large early-1900s homes, mid-century houses, and older clay or cast-iron sewer laterals prone to root intrusion. A lateral already carrying roots is the one that packs solid when a flood pushes silt into it, so a slow drain after the water drops is worth taking seriously here.',
       'After a flood we camera the lateral to see whether the flood silt clears or a section has failed, check the water heater and gas controls if the base went under, and test the shutoffs and supply lines that soaked in dirty water. What failed gets a flat-rate repair; what merely got wet we leave alone.',
@@ -241,7 +241,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'walnut-hills': {
     intro:
-      'Flooded in Walnut Hills? We inspect and repair the plumbing a flood left behind before you resume normal use, for the homes and apartment buildings around Peebles Corner and McMillan Street. Call (513) 586-5107.',
+      'Walnut Hills after-flood plumbing usually means a shared basement. Around Peebles Corner, grand 19th-century homes and apartment buildings run several units off aging cast-iron and galvanized lines, so we check each water heater whose base went under, camera the shared stack, and test the shutoffs that soaked.',
     relevance: [
       'Walnut Hills (ZIP 45206) is a historic hilltop just northeast of downtown, with grand 19th-century homes and apartment buildings around Peebles Corner, much of it now split into units on aging cast-iron and galvanized plumbing. When a lower level or a shared basement floods, the water reaches shared lines that serve several apartments at once.',
       'We inspect per unit and per shared line: the water heaters whose bases went under, the shared stack cameraed for flood silt, and the shutoffs that soaked in dirty water. A repair is isolated to the affected apartment so the rest of the building keeps its water on.',
@@ -257,7 +257,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-walnut-hills': {
     intro:
-      'Flooded in East Walnut Hills? We inspect and repair the plumbing a flood left behind before you resume normal use, for the stately homes around Woodburn Avenue and DeSales Corner. Call (513) 586-5107.',
+      'For after-flood plumbing in East Walnut Hills, the finished lower level is the main concern. These early-1900s homes around Woodburn Avenue keep original plumbing under costly finishes, so we camera the main through a cleanout, check the water heater and gas controls, and test corroded shutoffs before opening any wall.',
     relevance: [
       'East Walnut Hills (ZIP 45206) is a historic east-side neighborhood around Woodburn Avenue and DeSales Corner, known for stately early-1900s homes and brick apartment buildings with original woodwork and finished lower levels. When one of those lower levels floods, the water reaches original plumbing and lands in finishes that cost real money to redo.',
       'We inspect carefully to protect those interiors: the water heater and gas controls if the base went under, the corroded galvanized lines and shutoffs the water soaked, and the main, which we camera for flood silt rather than tear open a finished wall to reach. What actually failed gets repaired, and we say plainly what only got wet.',
@@ -273,7 +273,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   avondale: {
     intro:
-      'Flooded in Avondale? We inspect and repair the plumbing a flood left behind before you resume normal use, near the hospitals and the Cincinnati Zoo. Call (513) 586-5107.',
+      'After-flood plumbing in Avondale often means older apartment buildings near the hospitals, where worn lines and shared stacks serve several units. We check each water heater and gas control the water reached, camera the stack for silt, test soaked shutoffs, and keep repairs to the flooded unit.',
     relevance: [
       'Avondale (ZIP 45229) sits in the uptown core near the major hospitals and the zoo, with older, densely built early-1900s homes and apartment buildings, much of it rental on aging plumbing under heavy use. When a lower level floods here, the water reaches lines that were already worn and, in the multi-units, the shared stacks between apartments.',
       'Our post-flood work checks the water heater and gas controls if the base went under, cameras the main or shared stack for flood silt, and tests the shutoffs that soaked in dirty water. In a rental we isolate the repair to the affected unit so the rest of the building keeps running.',
@@ -289,7 +289,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hyde-park': {
     intro:
-      'Flooded in Hyde Park? We go through the plumbing a flood left behind, including the water heater, sewer main, shutoffs, and sump pump, before you turn the water back on. Call (513) 586-5107.',
+      'A Hyde Park flood usually reaches a finished lower level where the water heater base, gas controls, and main shutoff sit side by side, so post-flood plumbing here is three checks in one visit. Mature trees over century-old laterals mean we camera the sewer line as well.',
     relevance: [
       'Hyde Park (ZIP 45208) is large early-1900s houses — Tudors, colonials, brick foursquares — and most of them keep the mechanical room in a lower level that is now finished. When water gets down there it reaches the water heater base, the gas controls, and the main shutoff at the same time, which is three separate problems arriving on one visit.',
       'The other thing about Hyde Park is the trees. Mature root systems sit over sewer laterals that were laid a century ago, and a lateral already narrowed by roots is the one that packs solid when a flood pushes silt into it. The drain runs slowly for a week, then backs up the first time somebody runs a full load of laundry.',
@@ -309,7 +309,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   oakley: {
     intro:
-      'Flooded in Oakley? We inspect and repair the plumbing a flood left behind before you resume normal use, for the homes around Oakley Square and Madison Road. Call (513) 586-5107.',
+      'Oakley’s early-1900s bungalows around Oakley Square run galvanized supply and cast-iron drains well past their prime, and that is what flood plumbing repair there mostly comes down to. We check the water heater and gas controls, free the corroded shutoffs that seized, and camera slow mains for silt.',
     relevance: [
       'Oakley (ZIP 45209) is an east-side neighborhood around Oakley Square and Madison Road, with streets of early-1900s bungalows and brick homes alongside newer development. The bungalows were built with galvanized supply and cast-iron drains now well past their prime, so a flood reaches lines that were already narrowing from the inside.',
       'After a flood we check the components the water touched: the water heater and gas controls if the base went under, the corroded shutoffs that soaked in dirty water and now will not turn, and the main, which we camera for flood silt where the bungalow drains run slow. What failed gets a flat-rate repair; what merely got wet we leave.',
@@ -325,7 +325,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-lookout': {
     intro:
-      'Flooded in Mount Lookout? We inspect and repair the plumbing a flood left behind before you resume normal use, for the homes around Mount Lookout Square and Ault Park. Call (513) 586-5107.',
+      'Storm water off the hills around Mount Lookout Square finds the lowest basements, so post-flood plumbing here focuses on lines under pressure. We camera the lateral for silt the grade pushes in, check the water heater and gas controls, test soaked shutoffs, and run the sump pump and check valve.',
     relevance: [
       'Mount Lookout (ZIP 45226) is an east-side hilltop around Mount Lookout Square near Ault Park, with older homes and larger houses on quiet, hilly streets. The hillside grade puts extra demand on basement drains and sewer laterals in heavy rain, so storm water tends to find the lowest basements and drive silt into lines already under pressure.',
       'Our post-flood work here cameras the lateral for the flood silt the grade pushes in, checks the water heater and gas controls if the base went under, and tests the shutoffs that soaked in dirty water. Where the water came up through the drains, the sump pump and check valve get tested before the next storm.',
@@ -341,7 +341,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'columbia-tusculum': {
     intro:
-      'Flooded in Columbia-Tusculum? We inspect and repair the plumbing a flood left behind before you turn the water back on, in Cincinnati’s oldest neighborhood near the river. Call (513) 586-5107.',
+      'Columbia-Tusculum is Cincinnati’s oldest neighborhood, and its Victorian Painted Ladies sit on low ground near the Ohio River, so after-flood plumbing here means working around original finishes. We camera the main through a cleanout, check the water heater and gas controls, and test the aging shutoffs river water soaked.',
     relevance: [
       'Columbia-Tusculum (ZIP 45226) is Cincinnati’s oldest neighborhood, settled in 1788, known for its restored Victorian Painted Ladies on low riverside ground near the Ohio River. That low ground raises the risk of basement and sewer backups when the river runs high, and the Victorian homes still carry original plumbing well past its service life.',
       'We inspect carefully to protect those historic interiors: the water heater and gas controls if the base went under, the aging supply lines and shutoffs the river water soaked, and the main, which we camera for flood silt rather than tear into original finishes. What failed gets repaired; what only got wet we say so.',
@@ -357,7 +357,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-washington': {
     intro:
-      'Flooded in Mount Washington? Before the water goes back on, we go through what the flood left in the basement, starting with a water heater whose burner and gas controls may have gone under, for homes along Beechmont Avenue. Call (513) 586-5107.',
+      'Nearly every Mount Washington home keeps a gas water heater on the basement floor, so after-flood plumbing here starts with the burner and gas control valve. If the water reached them, the heater is a replacement. Older laterals along Beechmont Avenue get a camera if drains run slow.',
     relevance: [
       'Mount Washington (ZIP 45230) built out from the early 1900s into the mid-century as single-family homes on the far east side, and almost every one of them keeps the gas water heater on the basement floor. When storm water or a backed-up drain rises even a foot down there, the burner assembly and the gas control valve are the first things it reaches.',
       'A heater that took water into its burner and controls is a replacement, not a relight, because the controls corrode inside the housing and a gas valve that fails after a soaking fails unsafely. We say so when the base went under, and we say the opposite when the water stayed below it and the unit is fine. The older sewer laterals along Beechmont Avenue can crack or fill with roots, so if the drains run slow afterward we camera the line rather than guess.',
@@ -373,7 +373,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   madisonville: {
     intro:
-      'Flooded in Madisonville? We check the water heater, the sewer main, the shutoffs, and the sump pump before you go back to normal water use, for homes around Madison Road and Whetsel Avenue. Call (513) 586-5107.',
+      'Madisonville’s after-flood plumbing splits two ways. Older homes along Madison Road and Whetsel Avenue run corroded galvanized supply and cast-iron mains that silt up, while newer infill fails at appliance connections and seized shutoffs. Renovated houses with finished lower levels on original plumbing are where a flood costs most.',
     relevance: [
       'Madisonville (ZIP 45227) has two kinds of plumbing sitting side by side, and floods find both. The older stock along Madison Road and Whetsel Avenue still runs on galvanized supply and cast-iron drain lines, which corrode from the inside and are already narrowed before a flood adds silt to them. Newer infill fails somewhere else entirely, usually at appliance connections and shutoff valves that sat in dirty water and then seized.',
       'The renovated houses are the ones that catch people out. Years of steady reinvestment here mean a lot of homes have a new kitchen and a finished lower level sitting on original plumbing nobody replaced. After a flood the old cast-iron main is the component that fails, and the water it puts back into the house lands in finishes installed recently rather than in a bare cellar.',
@@ -393,7 +393,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pleasant-ridge': {
     intro:
-      'Flooded in Pleasant Ridge? We inspect and repair the plumbing a flood left behind before you resume normal use, for the homes along Montgomery Road. Call (513) 586-5107.',
+      'Brick two-families along Montgomery Road make post-flood plumbing in Pleasant Ridge a two-sided job. Their laterals are often shared or closely spaced, so we camera from a cleanout to find where the blockage sits, check each unit’s water heater and gas controls separately, and test soaked shutoffs.',
     relevance: [
       'Pleasant Ridge (ZIP 45213) is a walkable east-side neighborhood along Montgomery Road, with tree-lined streets of early-1900s homes and classic Cincinnati brick two-families. Those two-families carry decades-old plumbing and often share or closely space their sewer laterals, so when one basement floods the fault is frequently downstream of both units.',
       'We inspect each side of a two-family on its own, since the flood may have reached one unit’s water heater and gas controls and not the other’s. We camera the lateral for flood silt to find where the blockage actually sits, and we test the shutoffs that soaked in dirty water before anyone turns the water back on.',
@@ -409,7 +409,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   westwood: {
     intro:
-      'Flooded in Westwood? Before you turn the water back on, we check what the flood left behind, the shutoffs and supply lines that sat in dirty water and seized, across Cincinnati’s largest neighborhood along Harrison Avenue. Call (513) 586-5107.',
+      'Shutoff valves are the part of after-flood plumbing that Westwood homeowners miss. In basements across Cincinnati’s largest neighborhood, a valve that spent a day underwater turns fine now and seizes weeks later. We work every shutoff, test soaked supply lines, check the water heater, and camera slow mains.',
     relevance: [
       'Westwood (ZIP 45211) is the largest neighborhood in Cincinnati by population, spread across the west side along Harrison Avenue from the historic blocks near the Westwood Town Hall out to streets of early-1900s and mid-century houses. Spread that wide, the one thing the homes share is a basement where the shutoff valves, supply lines, and water heater sit low enough for a flood to reach.',
       'A shutoff that spent a day underwater is the part people miss. The valve turns fine now, then seizes solid weeks later, and the one you reach for in the next emergency is the one that will not move. We work the main and fixture shutoffs, test the supply lines the dirty water soaked, and check the water heater and gas controls where the base went under. Where the drains run slow we camera the cast-iron main for flood silt rather than snake it twice.',
@@ -425,7 +425,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   norwood: {
     intro:
-      'Flooded in Norwood? We inspect and repair the plumbing the water left behind before you resume normal use. Norwood sits in the middle of our service area, so we reach most homes the same day. Call (513) 586-5107.',
+      'Norwood is its own city, so after-flood plumbing repairs there are permitted through Norwood, not Cincinnati. Its dense early-1900s homes and brick two-families often share sewer laterals, which means a backup after a flood can sit downstream of both units. We camera the line before anyone digs.',
     relevance: [
       'Norwood (ZIP 45212) is its own city, entirely surrounded by Cincinnati, and that matters more after a flood than at any other time. Water and sewer service and the permits for anything that touches them run through Norwood, not Cincinnati. Homeowners here regularly get a contractor who pulls a Cincinnati permit for a lateral repair, or pulls nothing at all, and the problem surfaces at resale.',
       'The housing is a dense grid of early-1900s homes and brick two-families from the streetcar and factory years — small lots, shared walls, and in a lot of cases shared or closely spaced sewer laterals. A blockage after a flood is often not confined to the house that noticed it. When one side of a two-family backs up, the fault is frequently downstream of both.',
@@ -445,7 +445,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'blue-ash': {
     intro:
-      'Flooded in Blue Ash? Before you go back to normal water use, we check the plumbing the flood left behind, including the water heater, shutoffs, drains, and sump pump, for homes and businesses across the northeast side. Call (513) 586-5107.',
+      'In Blue Ash, after-flood plumbing usually starts at the sump pump. The finished basements in these mid-century and newer subdivisions depend on it, and a pump that ran flat out may have burned its motor or float. We also check the water heater, soaked shutoffs, and slow mains.',
     relevance: [
       'Blue Ash (ZIP 45242) is a northeast-side city and business hub, with established mid-century neighborhoods alongside newer subdivisions. Even the newer housing here is now decades old, and its finished basements rely on a sump pump to stay dry, so a storm flood tends to reach the water heater, the shutoffs, and the pump all at once.',
       'Our post-flood work starts with the sump pump and check valve, since that is the component that carried the flood and the one you find out about in the next storm. We check the water heater and gas controls if the base went under, test the shutoffs that soaked in dirty water, and camera the main where the drains run slow.',
@@ -461,7 +461,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   montgomery: {
     intro:
-      'Flooded in Montgomery? We inspect and repair the plumbing a flood left behind before you resume normal use, for homes around the historic district and Montgomery Road. Call (513) 586-5107.',
+      'Post-flood plumbing in Montgomery covers a wide spread of systems, from original lines in the 19th-century historic district to decades-old pipes in the subdivisions. We check the water heater and gas controls, test soaked shutoffs and supply lines, camera slow mains, and test the sump pump in finished basements.',
     relevance: [
       'Montgomery (ZIP 45242) is an upscale northeast-side city with a preserved historic district of 19th-century buildings and surrounding neighborhoods of established and newer homes. The plumbing spans a wide range — original lines in the historic core, decades-old systems in the subdivisions — and a flood finds whichever is weakest in a given house.',
       'After a flood we check the water heater and gas controls if the base went under, test the shutoffs and supply lines that soaked in dirty water, and camera the main for silt where the drains run slow. In the finished basements common here, the sump pump and check valve get tested before the next storm.',

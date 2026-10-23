@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Maintenance Plans & Simple Upkeep', body: 'Between visits, replace your filter every 1–3 months, keep vents and registers clear, listen for unusual noises, and make sure the thermostat is reading right. For {neighborhood} homeowners who would rather not track it, our maintenance plans schedule the tune-ups and document the service for warranty purposes.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Choose Us',
-  whyUs: [
-    { icon: 'badge', title: 'Thorough Tune-Ups', text: 'Detailed multi-point inspections that catch small issues before they become repairs.' },
-    { icon: 'check', title: 'Gas & Electric', text: 'We maintain both gas and electric furnaces with the right care for each.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked technicians and a real safety check every visit.' },
-    { icon: 'clock', title: 'Upfront Flat-Rate Pricing', text: 'Affordable, transparent pricing and maintenance plans available.' },
-  ],
+  whyParagraph: 'Our multi-point furnace tune-up includes a real safety check and catches small faults before they become repairs. Licensed technicians service gas and electric furnaces across {neighborhood}, with flat-rate pricing and maintenance plans available.',
   proofQuote:
     'The fall tune-up turned up a hairline crack starting in the heat exchanger. They caught it before it became a carbon-monoxide problem and we sorted it out safely before winter.',
   sharedFaqs: [

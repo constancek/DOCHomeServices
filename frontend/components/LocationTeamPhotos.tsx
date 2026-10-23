@@ -16,6 +16,10 @@ const PHOTOS = [
   { src: '/community-club.webp', width: 1000, height: 667, alt: () => `The ${site.name} team, family owned since ${site.founded}` },
 ];
 
+// Each photo is an instant-print: thick white border, square corners, its own
+// slight tilt, and a small overlap with its neighbour on wider screens.
+const PRINT_TILT = ['rotate-[4deg] md:translate-x-5', 'z-10 -rotate-[6deg] md:mt-5', 'rotate-[5deg] md:-translate-x-1'];
+
 const WORD_STEP = 90; // ms between heading words
 const PHOTO_STEP = 250; // ms between photos
 
@@ -28,7 +32,7 @@ export default function LocationTeamPhotos({ neighborhood }: { neighborhood: str
       <RevealGroup className="container-page">
         {(shown) => (
           <>
-            <h2 className="text-center font-display text-3xl font-black uppercase leading-tight text-white sm:text-4xl lg:text-5xl">
+            <h2 className="text-center font-display text-3xl font-black leading-tight text-white sm:text-4xl lg:text-5xl">
               {words.map((w, i) => (
                 <span key={i} className="inline-block overflow-hidden pb-1 align-bottom">
                   <span
@@ -43,13 +47,13 @@ export default function LocationTeamPhotos({ neighborhood }: { neighborhood: str
                 </span>
               ))}
             </h2>
-            <ul className="mt-10 grid gap-5 md:grid-cols-[2fr_1.5fr_1.6fr]">
+            <ul className="mt-12 grid gap-8 md:grid-cols-3 md:items-start md:gap-2 md:px-4">
               {PHOTOS.map((p, i) => (
                 <li
                   key={p.src}
                   style={{ transitionDelay: shown ? `${photosStart + i * PHOTO_STEP}ms` : '0ms' }}
-                  className={`overflow-hidden rounded-2xl shadow-2xl ring-1 ring-white/20 transition-all duration-700 ease-out ${
-                    shown ? 'translate-y-0 scale-100 opacity-100' : 'translate-y-10 scale-95 opacity-0'
+                  className={`relative bg-white p-4 shadow-[0_24px_45px_-14px_rgba(0,0,0,0.65)] transition-all duration-[1100ms] ease-[cubic-bezier(0.34,1.45,0.64,1)] sm:p-5 ${PRINT_TILT[i]} ${
+                    shown ? 'translate-y-0 opacity-100' : 'translate-y-32 opacity-0'
                   }`}
                 >
                   <img
@@ -59,7 +63,7 @@ export default function LocationTeamPhotos({ neighborhood }: { neighborhood: str
                     height={p.height}
                     loading="lazy"
                     decoding="async"
-                    className="h-auto w-full object-cover md:h-48 lg:h-60 xl:h-64"
+                    className="aspect-[4/3] h-auto w-full object-cover"
                   />
                 </li>
               ))}

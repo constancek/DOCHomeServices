@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Same-Day Sump Pump Service in {neighborhood}', body: 'A dead pump with rain in the forecast cannot wait. We staff for demand and reach most {neighborhood} homes the same day to repair or replace a failed pump before the water rises.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Battery Backup Options', text: 'We install backup systems so your pump keeps working during a storm-time power outage.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-    { icon: 'clock', title: 'Same-Day Service', text: 'A failed pump before a storm cannot wait — we reach most homes the same day.' },
-    { icon: 'check', title: 'Licensed & Insured', text: 'Background-checked plumbers and installations sized correctly for your home.' },
-  ],
+  whyParagraph: 'A pump that fails before a storm can’t wait, so we reach most {neighborhood} homes the same day. Licensed plumbers size the pump to your home, a battery backup runs it through outages, and you approve the price first.',
   proofQuote:
     'Our pump died the week before a big storm and the basement had flooded once before. They replaced it the same day and added a battery backup — basement stayed bone dry through the rain.',
   sharedFaqs: [

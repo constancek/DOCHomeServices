@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
@@ -37,12 +37,6 @@ const steps = [
   { lead: 'Repair and reconnect', text: 'once the structure is dry we put the plumbing right and hand you documentation of the readings for your insurer.' },
 ];
 
-const whyUs = [
-  { icon: 'clock' as const, title: 'Same-Day Response', text: 'Water damage compounds by the hour. We reach most homes the same day you call.' },
-  { icon: 'shield' as const, title: 'Licensed Plumbers On Site', text: 'We fix the cause, not just the puddle — the failed line gets repaired as part of the job.' },
-  { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start, with no overtime or weekend surcharge.' },
-  { icon: 'doc' as const, title: 'Documented for Insurance', text: 'Moisture readings and photos, written up so your claim is not held over a missing record.' },
-];
 
 const faqs = [
   {
@@ -119,32 +113,16 @@ export default function WaterDamageRestorationPage() {
         ]}
       />
 
-      {/* Top CTA banner */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Water in your home right now? Call before it spreads
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/water-damage-restoration-hero.webp)' }}
             role="img"
             aria-label="A suburban house surrounded by high floodwater after heavy rain"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Water Damage Restoration
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -172,7 +150,7 @@ export default function WaterDamageRestorationPage() {
             aria-label="Moisture beading across a damp interior wall surface"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs You Need Water Damage Restoration
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -180,10 +158,10 @@ export default function WaterDamageRestorationPage() {
               reach materials that hold it, drying it properly stops being a mop-and-fan job. Call if
               you are seeing any of these:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {signs.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={s} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
               ))}
@@ -193,6 +171,24 @@ export default function WaterDamageRestorationPage() {
               drain problem, and that changes how the cleanup has to be handled.
             </p>
           </div>
+        </div>
+      </section>
+
+      <ServiceReviews service="water-damage-restoration" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Water in your home right now? Call before it spreads
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -206,7 +202,7 @@ export default function WaterDamageRestorationPage() {
           </p>
           <ul className="mt-4 space-y-2">
             {steps.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}:</span> {b.text}
@@ -234,23 +230,8 @@ export default function WaterDamageRestorationPage() {
             Why Choose {site.name} for Water Damage Restoration
           </h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Water damage is stressful in a way most plumbing problems are not. Your floor is ruined,
-            you do not know how far it went, and the insurance side is its own headache. We try to
-            take all three off your plate at once.
+            Water damage is stressful in a way most plumbing problems are not. The floor is ruined, you cannot see how far the water went, and the insurance claim is waiting. We try to handle all three at once.
           </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
           {/* Related */}
           <h2 className="mt-12 section-title text-brand-700">Related Plumbing Services</h2>
@@ -275,6 +256,13 @@ export default function WaterDamageRestorationPage() {
             to stop the basement filling again next storm.
           </p>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Water Damage Restoration FAQs</h2>
           <div className="mt-4">
@@ -289,7 +277,7 @@ export default function WaterDamageRestorationPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
+            <h2 className="text-2xl font-extrabold sm:text-3xl">
               Get the Water Out Today
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
@@ -310,25 +298,25 @@ export default function WaterDamageRestorationPage() {
         </div>
       </section>
 
-      {/* Water damage restoration by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Water damage restoration by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We extract water, dry the structure, and repair the plumbing behind it across{' '}
-            {site.serviceArea} — {locations.filter((l) => waterDamageRestorationCopy[l.slug]).length}{' '}
-            neighborhoods and counting. Find yours below for local detail on the water damage we see
-            in your area.
-          </p>
-          <NeighborhoodLinks
-            copy={waterDamageRestorationCopy}
-            basePath="/services/water-damage-restoration"
-            linkPrefix="Water damage restoration"
-          />
-        </div>
-      </section>
-
-      <PageSections service="water-damage-restoration" />
+      <ServiceSections service="water-damage-restoration">
+        {/* Water damage restoration by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Water damage restoration by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We extract water, dry the structure, and repair the plumbing behind it across{' '}
+              {site.serviceArea} — {locations.filter((l) => waterDamageRestorationCopy[l.slug]).length}{' '}
+              neighborhoods and counting. Find yours below for local detail on the water damage we see
+              in your area.
+            </p>
+            <NeighborhoodLinks
+              copy={waterDamageRestorationCopy}
+              basePath="/services/water-damage-restoration"
+              linkPrefix="Water damage restoration"
+            />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

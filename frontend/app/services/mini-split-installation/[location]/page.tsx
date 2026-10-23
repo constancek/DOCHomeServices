@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Financing and Estimates in {neighborhood}', body: 'A ductless system is an investment in comfort, and it does not have to wait on budget. We offer flexible financing and estimates, so a {neighborhood} homeowner can move forward with the right system on a payment plan that fits.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'check', title: 'Right-Sized Zones', text: 'We size the system and indoor heads to your home so it performs efficiently.' },
-    { icon: 'badge', title: 'Clean, Tidy Install', text: 'A small line-set penetration — no tearing into walls for ductwork.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked technicians and code-compliant, tested installs.' },
-    { icon: 'star', title: 'Financing Available', text: 'Flexible plans so an efficient upgrade fits your budget.' },
-  ],
+  whyParagraph: 'We size the outdoor unit and each indoor head to your {neighborhood} home, so the system runs efficiently. The install needs only a small hole for the line set, not new ductwork, and financing is available to spread the cost.',
   proofQuote:
     'They installed a single-zone mini-split in our converted attic office. Sized it right, kept the line set tidy, and tested everything before leaving. The room finally stays comfortable year-round and the unit is almost silent.',
   sharedFaqs: [

@@ -50,7 +50,7 @@ export default function ShareBar({ url, title }: { url: string; title: string })
 
   return (
     <div className="mt-12">
-      <h2 className="flex items-center gap-3 font-display text-xl font-extrabold uppercase tracking-wide text-brand-700">
+      <h2 className="flex items-center gap-3 font-display text-xl font-extrabold tracking-wide text-brand-700">
         Sharing Is Caring
         <span className="h-1 w-24 flex-shrink-0 rounded-full bg-pink-500" />
       </h2>

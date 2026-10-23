@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Same-Day Faucet Service in {neighborhood}', body: 'A faucet that will not stop dripping or has quit entirely does not need to wait. We staff for demand and handle most faucet repairs and installs the same day you call across {neighborhood}.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked, licensed plumbers you can trust in your home.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-    { icon: 'clock', title: 'Same-Day Service', text: 'Most faucet repairs and installs are handled the same day you call.' },
-    { icon: 'check', title: 'Clean, Leak-Free Work', text: 'We test every connection and leave the area cleaner than we found it.' },
-  ],
+  whyParagraph: 'Most faucet repairs and installs in {neighborhood} are done the same day you call, by licensed, background-checked plumbers. You approve a flat-rate price first, and we leave the work area cleaner than we found it.',
   proofQuote:
     'Kitchen faucet had been dripping for months and the handle was stiff with buildup. They swapped the cartridge, cleared the aerator, and it works like new — done in under an hour.',
   sharedFaqs: [

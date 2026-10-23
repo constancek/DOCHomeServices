@@ -1,7 +1,7 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
     intro:
-      'Leaking or burst pipe in a Villages of Roll Hill building? Our licensed plumbers camera the line to find the failure, then repair or replace the cracked section, trenchless where the layout allows, across this west-side hilltop community. Call (513) 586-5107.',
+      'Villages of Roll Hill pipe repair is mostly multi-unit work, where many apartments share buried supply and drain lines. One corroded riser can soak more than one unit. We camera the suspect line to find the leak, replace the failed run, and keep the rest of the building in water.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. When many units share buried supply and drain lines, a single corroded riser or cracked branch can soak more than one apartment before anyone spots it, so finding the exact failure quickly matters as much as the repair.',
       'In stacked, densely built housing like this, we run a camera through the suspect line to pinpoint a pinhole leak, a split joint, or a collapsed section without opening every wall. From there we cut out and replace the failed run and isolate the work to one unit, so the rest of the building keeps water while we fix the break.',
@@ -12,7 +12,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-westwood': {
     intro:
-      'Leaky or corroded pipe in an East Westwood home? Our licensed plumbers locate the failure with a camera, then repair or replace the cracked line across this west-side neighborhood. Call (513) 586-5107.',
+      'East Westwood pipe replacement usually involves original galvanized supply lines and cast-iron drains in early and mid-1900s homes. On the slopes toward the Mill Creek valley, downhill drain lines settle and pull joints apart. We camera the run to find the break before digging, trenchless where the grade allows.',
     relevance: [
       'East Westwood (ZIP 45211) sits on the slopes between Westwood and the Mill Creek valley, with streets of early- and mid-1900s homes. Houses that old were plumbed with galvanized supply lines that close up and pit with corrosion and cast-iron drains that crack with age, so the pipe we are replacing is usually original to the home.',
       'The hillside grade is the second factor here. A drain line running downhill off the slope tends to settle into low spots and pull joints apart over the decades, which is where leaks and cracks start. We camera the run to find the exact break before we dig, then replace the failed section, using trenchless methods where the yard and grade allow.',
@@ -23,7 +23,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'western-hills': {
     intro:
-      'Corroded or leaking pipe in Western Hills? Our licensed plumbers camera the line, locate the failure, and replace aging supply and drain pipe around Western Hills Plaza and Glenway. Call (513) 586-5107.',
+      'Root intrusion in clay and cast-iron sewer laterals drives a lot of the pipe repair we do around Western Hills Plaza and Glenway. Older galvanized water lines here have also spent decades narrowing with rust. We camera the line to see where roots entered, then line or pipe-burst that section.',
     relevance: [
       'Western Hills (ZIP 45211) is the established west-side area around Western Hills Plaza and Glenway Avenue, with neighborhoods of early-1900s through mid-century single-family homes. Across that range, the galvanized water lines have spent decades narrowing with rust, and the clay or cast-iron sewer laterals are the era when root intrusion and cracked joints became routine.',
       'Mature trees along these older streets send roots toward any seam in a buried lateral, and once they are in, the line cracks wider every season. We camera the sewer line to see exactly where the roots entered and where the pipe has failed, then replace that section, lining or pipe-bursting it where the route allows so we avoid trenching the whole yard.',
@@ -34,7 +34,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'california': {
     intro:
-      'Leaking, cracked, or backed-up pipe in the California neighborhood? Our licensed plumbers camera the line and replace failing pipe in the riverfront homes along Kellogg Avenue. Call (513) 586-5107.',
+      'California sits on low ground beside the Ohio River, so pipe repair there often follows high water. Saturated soil shifts buried laterals and cracks them, and the older homes carry corroded supply lines. We camera the line to tell a clog from a collapsed pipe, then replace the failed section.',
     relevance: [
       'California (ZIP 45230) is Cincinnati’s far-east riverfront neighborhood along Kellogg Avenue, near Riverbend and the old Coney Island grounds, set on low ground beside the Ohio River. Buried drain and sewer pipe on that low river-bottom ground sits in soil that saturates and shifts with high water, which works joints loose and cracks aging laterals over time.',
       'The older homes here carry plumbing that predates current materials, so corroded metal supply lines and brittle drain pipe are common. When the river is up and the ground is soaked, a cracked lateral lets groundwater push in and a backup follows. We camera the line to separate a clog from a collapsed pipe, then replace the failed section so the line holds the next time the water rises.',
@@ -45,7 +45,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'carthage': {
     intro:
-      'Corroded or leaking pipe in Carthage? Our licensed plumbers camera the line, find the break, and replace aging galvanized and cast-iron pipe in the homes along Vine Street. Call (513) 586-5107.',
+      'Carthage homes along Vine Street are largely a century old, and pipe repair there centers on the original galvanized supply lines and cast-iron drains corroding from the inside. We camera the suspect line to find where it has split, then replace that run without disturbing the rest of the system.',
     relevance: [
       'Carthage (ZIP 45215) is a north-side neighborhood along Vine Street, a former village now home to the Hamilton County Fairgrounds, with older early-1900s homes. Houses from that era were built with galvanized supply lines and cast-iron drains, both of which corrode from the inside until a pinhole becomes a steady leak or a drain cracks through.',
       'Because this housing stock is largely a century old, the failures cluster in the original buried and in-wall pipe rather than anything recent. We camera the suspect line to locate the exact spot it has corroded or split, then cut out and replace that run with modern pipe so the rest of the system is not disturbed.',
@@ -56,18 +56,18 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'winton-hills': {
     intro:
-      'Leaking or burst pipe in Winton Hills? Our licensed plumbers camera the line to find the failure, then repair or replace the cracked pipe near Winton Road. Call (513) 586-5107.',
+      'Shared supply and drain pipe in Winton Hills apartment buildings means one corroded riser can leak into several units, which shapes our pipe repair. The older buildings run plumbing past its service life. We camera the line, replace the failed section and keep the work isolated to one unit.',
     relevance: [
       'Winton Hills (ZIP 45232) is a north-side neighborhood near Winton Road, with a mix of residential and industrial areas including multi-unit housing. In densely built apartment buildings, several homes feed shared supply and drain pipe, so one corroded riser or cracked branch can leak into more than one unit before it is found.',
       'The older buildings here run on plumbing that has aged past its service life, where metal lines pit and joints work loose. We camera the line to pinpoint the leak or break without opening every wall, then replace the failed section and keep the work isolated to one unit so the rest of the building stays in service.',
     ],
     commonIntro:
       'In Winton Hills’ homes and multi-unit buildings, the pipe problems we handle most often come from aging, shared lines:',
-    localFaqs: [{ q: 'How fast can you find a leaking pipe at a Winton Hills building?', a: 'We camera the line to locate the failure quickly, then replace that section and contain the work to one unit. Winton Hills is in our north-side service area near Winton Road, on call 7 days a week from 8am to 8pm.' }],
+    localFaqs: [{ q: 'How fast can you find a leaking pipe at a Winton Hills building?', a: 'We camera the line to locate the failure quickly, then replace that section and contain the work to one unit. Winton Hills is in our north-side service area near Winton Road, on call 7 days a week.' }],
   },
   'roselawn': {
     intro:
-      'Corroded supply line or leaking pipe in Roselawn? Our licensed plumbers locate the failure with a camera and replace aging pipe in the homes along Reading Road. Call (513) 586-5107.',
+      'Roselawn pipe replacement often covers mid-century homes along Reading Road whose galvanized supply lines have closed up with rust and whose drains are cracking at the joints. We camera the run to separate a clog from a cracked pipe, then replace the failed length.',
     relevance: [
       'Roselawn (ZIP 45237) is a north-side neighborhood along Reading Road, with settled streets of mid-century single-family homes and apartment buildings. Homes from the mid-1900s are now well into the age where galvanized supply lines have closed up with rust and original drain pipe has begun to crack at the joints.',
       'The older apartment buildings here add a second pattern: heavy daily use on plumbing that is decades old wears lines faster and exposes weak joints. We camera the suspect run to separate a simple clog from a cracked or corroded pipe, then replace the failed length with modern pipe so the line stops leaking for good.',
@@ -78,7 +78,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-airy': {
     intro:
-      'Leaking or cracked pipe in Mount Airy? Our licensed plumbers camera the line, locate the break, and replace failing pipe in the homes near Mount Airy Forest. Call (513) 586-5107.',
+      'Pipe repair around Mount Airy Forest usually comes down to roots and slope. Mature trees crack buried laterals under mid-century homes, and drain lines on the hilly streets settle and pull joints apart. We camera the run to see where it split, then replace that section.',
     relevance: [
       'Mount Airy (ZIP 45239) is a northwest-side neighborhood beside Mount Airy Forest, one of the largest city parks in the country, with mid-century single-family homes on hilly, wooded streets. The mature trees that give the area its character also send roots toward any seam in a buried lateral, cracking aging drain pipe open over the years.',
       'The hilltop terrain compounds it: a drain line running down the slope settles into low spots and pulls joints apart, and the mid-century supply lines corrode from the inside on top of that. We camera the run to see exactly where roots broke in or the pipe split, then replace that section, trenchless where the wooded yard and grade allow.',
@@ -89,7 +89,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hartwell': {
     intro:
-      'Leaking original pipe in a Hartwell home? Our licensed plumbers camera the line and replace corroded supply and drain pipe in this historic streetcar neighborhood. Call (513) 586-5107.',
+      'Hartwell’s Victorian and early-1900s homes often still run their original galvanized supply lines and cast-iron drains, so pipe replacement here usually means corrosion leaks and root-cracked laterals under tree-lined streets. We camera the line to find the failure, then replace the section carefully to protect original woodwork.',
     relevance: [
       'Hartwell (ZIP 45215) is a historic north-side neighborhood that grew as a streetcar suburb, known for its Victorian and early-1900s homes on tree-lined streets. Those century-old houses often still run on the original galvanized supply lines and cast-iron drains they were built with, both well past the point where corrosion turns into leaks.',
       'The tree-lined streets that make Hartwell attractive also mean mature roots pressing on old buried laterals, cracking them at the joints. We camera the line to pinpoint a corroded supply run or a root-cracked drain, then replace that section carefully so we protect the original woodwork and finishes these homes are known for.',
@@ -100,7 +100,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'kennedy-heights': {
     intro:
-      'Corroded or leaking pipe in Kennedy Heights? Our licensed plumbers camera the line, find the failure, and replace aging pipe in this historic east-side hilltop neighborhood. Call (513) 586-5107.',
+      'In Kennedy Heights, pipe repair often means original plumbing in large early-1900s homes: galvanized supply lines corroding closed and cast-iron drains cracking through. On the hilltop, buried drains settle and pull apart. We camera and leak-test the suspect line to find a hidden leak, then replace the failed section.',
     relevance: [
       'Kennedy Heights (ZIP 45213) is a historic east-side hilltop neighborhood that began as a Victorian-era resort community, now known for its arts center and large early-1900s homes. The age of those houses means original plumbing is common, where galvanized supply lines corrode closed and cast-iron drains crack through after a century in the ground.',
       'The hilltop setting adds load on buried drain pipe, which settles and pulls joints apart on the grade over the decades. In a large older home, a hidden leak in a wall or under a finished space can run a while before it shows, so we camera and leak-test the suspect line to find it precisely, then replace the failed section.',
@@ -111,7 +111,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'st-bernard': {
     intro:
-      'Corroded or leaking pipe in St. Bernard? Our licensed plumbers camera the line, find the break, and replace aging galvanized and cast-iron pipe in this independent city. Call (513) 586-5107.',
+      'St. Bernard pipe repairs mostly involve galvanized supply lines and cast-iron drains in the dense grid of early-1900s homes around Ivorydale. Laterals run side by side on small lots, so a failing pipe is often feet from the next house. We camera the line and replace just the bad run.',
     relevance: [
       'St. Bernard (ZIP 45217) is its own city, completely surrounded by Cincinnati, built up around the Procter & Gamble Ivorydale complex with a dense grid of early-1900s homes. That tightly packed, century-old housing was plumbed with galvanized supply lines and cast-iron drains, both of which corrode from the inside until they leak or crack.',
       'On the small valley lots here, homes sit close together and buried laterals run short distances side by side, so a failing pipe in one house can be feet from the next. We camera the line to locate the corroded or cracked section exactly, then replace that run with modern pipe rather than disturbing the whole system.',
@@ -122,7 +122,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'elmwood-place': {
     intro:
-      'Cracked, leaking, or backed-up pipe in Elmwood Place? Our licensed plumbers camera the line and replace failing pipe in this small inner-ring village. Call (513) 586-5107.',
+      'Elmwood Place pipe replacement is shaped by wet Mill Creek valley ground, which loosens buried drain joints and lets groundwater into cracked laterals. The closely spaced early-1900s homes also run brittle cast-iron drains. We camera the line to tell a clog from a collapsed pipe, then replace the failed section.',
     relevance: [
       'Elmwood Place (ZIP 45216) is a tiny, densely built village in the Mill Creek valley north of the city, with closely spaced early-1900s homes. The low valley ground stays wet, and that saturated soil works the joints of buried drain pipe loose and lets groundwater push in through any crack in an aging lateral.',
       'The old, tightly packed housing runs on plumbing well past its service life, so corroded metal supply lines and brittle cast-iron drains are the norm. We camera the line to tell a clog apart from a cracked or collapsed pipe, then replace the failed section so the line holds up the next time the valley ground saturates.',
@@ -133,7 +133,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'delhi-hills': {
     intro:
-      'Leaking or corroded pipe in Delhi Hills? Our licensed plumbers camera the line, locate the failure, and replace aging pipe in this west-side township community above the river. Call (513) 586-5107.',
+      'Delhi Hills pipe repair usually involves mid-century homes on hilly streets above the Ohio River, with galvanized supply lines corroded over the decades. Drain lines running down the slope settle and work joints apart. We camera the run to find the failure before digging, trenchless where the lot allows.',
     relevance: [
       'Delhi Hills (ZIP 45233) sits in Delhi Township on the west side above the Ohio River, an area with deep ties to greenhouse and floral growing, with established mid-century homes on hilly streets. Homes of that era carry galvanized supply lines that have corroded over the decades and drain pipe that has begun to crack at the joints.',
       'The hillside grade is the local wrinkle: a drain line running down the slope settles into low spots and works joints apart over time, and that is where leaks and cracks start. We camera the run to find the exact failure before digging, then replace the section, using trenchless methods where the hilly lot allows so we avoid trenching the yard.',
@@ -144,7 +144,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'golf-manor': {
     intro:
-      'Corroded supply line or leaking pipe in Golf Manor? Our licensed plumbers camera the line and replace aging pipe in this small inner-ring village. Call (513) 586-5107.',
+      'Golf Manor’s modest mid-century homes have reached the age where galvanized supply lines narrow with rust and original drain pipe cracks, which is most of our pipe repair there. The failing pipe is usually the original run. We camera the line to find the split, then replace just that section.',
     relevance: [
       'Golf Manor (ZIP 45237) is a small village completely surrounded by Cincinnati on the north side, with a compact grid of modest mid-century homes. Houses from that era are now at the age where galvanized supply lines have narrowed with rust and the original drain pipe has started to crack and leak.',
       'On these modest lots, the failing pipe is usually the home’s original supply or drain run rather than anything added later. We camera the suspect line to pinpoint where it has corroded or split, then cut out and replace that section with modern pipe so the rest of the plumbing is left alone.',
@@ -155,7 +155,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fairfax': {
     intro:
-      'Leaking or corroded pipe in Fairfax? Our licensed plumbers camera the line, find the break, and replace aging pipe in this small east-side village along Wooster Pike. Call (513) 586-5107.',
+      'Fairfax pipe replacement mostly deals with original galvanized supply lines and cast-iron drains in early and mid-1900s homes along Wooster Pike. Both corrode from the inside until a pinhole leak or cracked drain appears. We camera the suspect line, then replace that run without disturbing the surrounding plumbing.',
     relevance: [
       'Fairfax (ZIP 45227) is a small east-side village along Wooster Pike near Mariemont, with established early- and mid-1900s homes. Houses of that age were plumbed with galvanized supply lines and cast-iron drains, both of which corrode from the inside until a pinhole leak or a cracked drain appears.',
       'Because the housing stock here is decades old, the failures show up in the original buried and in-wall pipe rather than recent work. We camera the suspect line to locate the corroded or split section exactly, then replace that run with modern pipe so the surrounding plumbing stays undisturbed.',
@@ -166,18 +166,18 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mack': {
     intro:
-      'Leaking or burst pipe in Mack? Our licensed plumbers camera the line, locate the failure, and replace cracked pipe in this west-side Green Township community. Call (513) 586-5107.',
+      'A burst line in a finished basement or under a slab is the pipe repair that does the most damage in Mack homes. Older houses see galvanized and cast-iron corrosion leaks, and newer ones have aging joints. We camera and leak-test the run, then replace only the failed section.',
     relevance: [
       'Mack (ZIP 45248) is an established community in Green Township on the west side, with neighborhoods of mid-century and newer single-family homes. Even the newer homes here are now old enough for supply lines and joints to give out, while the older houses see the corrosion leaks typical of aging galvanized and cast-iron pipe.',
       'A burst line in a finished basement or under a slab is the kind of failure that does damage fast in these homes, so locating it quickly is half the job. We camera and leak-test the suspect run to find the exact break, then replace the failed section so we are not opening more wall or floor than the repair requires.',
     ],
     commonIntro:
       'Across Mack’s mid-century and newer homes, the pipe problems we handle most often range from corroded older lines to burst joints:',
-    localFaqs: [{ q: 'A pipe burst in my Mack home — how fast can you find and replace it?', a: 'We locate the break with a camera and leak-detection tools, then replace that section the same day where we can. Mack is in our west-side service area in Green Township, on call 7 days a week from 8am to 8pm.' }],
+    localFaqs: [{ q: 'A pipe burst in my Mack home — how fast can you find and replace it?', a: 'We locate the break with a camera and leak-detection tools, then replace that section the same day where we can. Mack is in our west-side service area in Green Township, on call 7 days a week.' }],
   },
   'monfort-heights': {
     intro:
-      'Corroded or leaking pipe in Monfort Heights? Our licensed plumbers camera the line, find the break, and replace aging supply and drain pipe in this west-side Green Township suburb. Call (513) 586-5107.',
+      'Monfort Heights pipe repair often starts with a slow or recurring backup from a cracked cast-iron sewer lateral under a mid-century home. Galvanized supply lines in these houses have corroded closed too. We camera the line to separate a clog from a failed pipe, then replace it, trenchless where possible.',
     relevance: [
       'Monfort Heights (ZIP 45247) is a settled Green Township suburb on the west side, made up largely of mid-century single-family homes. Homes from the mid-1900s are now well into the age where galvanized supply lines have corroded closed and cast-iron sewer laterals crack and back up.',
       'A cracked lateral here often shows first as a slow or recurring backup before the leak is obvious. We camera the line to separate a simple clog from a failed pipe, then replace the cracked or corroded section, using trenchless methods where the lot allows so the yard stays intact.',
@@ -188,7 +188,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bridgetown': {
     intro:
-      'Leaking, corroded, or burst pipe in Bridgetown? Our licensed plumbers camera the line and replace failing pipe in this west-side Green Township community. Call (513) 586-5107.',
+      'Pipe replacement in Bridgetown mostly involves mid-century homes whose galvanized supply lines and drain pipe have aged past their service life, where worn joints become leaks and the occasional burst. Even the newer homes are old enough for joints to fail. We camera and leak-test the run first.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. The mid-century houses run on galvanized supply lines and drain pipe that have aged past their service life, where corrosion and worn joints turn into leaks and the occasional burst.',
       'Even the newer homes here are now old enough that supply joints and aging pipe start to fail. We camera and leak-test the suspect run to pinpoint the failure, then cut out and replace that section with modern pipe so the rest of the system is left alone.',
@@ -199,7 +199,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'finneytown': {
     intro:
-      'Corroded or leaking pipe in Finneytown? Our licensed plumbers camera the line, locate the failure, and replace aging pipe in this north-side Springfield Township community. Call (513) 586-5107.',
+      'Finneytown pipe repairs usually trace back to the original supply or drain run in a mid-century home, with galvanized lines corroded and drain joints cracking. A hidden leak can run a while before it shows. We camera and leak-test the suspect line, then replace the section with modern pipe.',
     relevance: [
       'Finneytown (ZIP 45231) is a settled Springfield Township community on the north side, made up largely of mid-century single-family homes. Houses of that era carry galvanized supply lines that have corroded over the decades and original drain pipe that has begun to crack at the joints.',
       'On these established lots, the failing pipe is usually the home’s original supply or drain run, and a hidden leak can run a while before it shows. We camera and leak-test the suspect line to find the exact spot it has corroded or split, then replace that section with modern pipe.',
@@ -210,7 +210,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'amberley': {
     intro:
-      'Hidden leak or failing pipe in your Amberley Village home? Our licensed plumbers camera the line, locate the failure, and replace cracked or corroded pipe across this wooded north-side village. Call (513) 586-5107.',
+      'Amberley homes are large, with long and complex pipe runs, so pipe repair there often starts with a hidden leak in a wall, under a slab or along a buried line. Mature trees on the wooded lots also crack laterals. We camera and leak-test before replacing anything, trenchless where possible.',
     relevance: [
       'Amberley Village (ZIP 45237) is an affluent north-side village known for its large homes on big, wooded lots along winding streets. Larger homes mean longer, more complex pipe runs, so a hidden leak in a wall, under a slab, or out along a buried line can do real damage before anyone notices.',
       'The big, wooded lots add mature trees whose roots press on long buried laterals, cracking them at the joints. We camera and leak-test the system to find the exact failure on a large home rather than guessing, then replace the cracked or corroded section, using trenchless methods where the long yard runs allow.',
@@ -221,7 +221,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'arlington-heights': {
     intro:
-      'Cracked, leaking, or backed-up pipe in Arlington Heights? Our licensed plumbers camera the line and replace failing pipe in this small Mill Creek valley village. Call (513) 586-5107.',
+      'Wet Mill Creek valley soil is behind much of the pipe repair in Arlington Heights, loosening buried drain joints and letting groundwater into cracked laterals. The compact grid of older homes runs corroded supply lines and brittle drain pipe. We camera the line, then replace the failed section.',
     relevance: [
       'Arlington Heights (ZIP 45215) is a small village in the Mill Creek valley north of the city, with a compact grid of older homes. The low valley ground stays wet, and that saturated soil works the joints of buried drain pipe loose and lets groundwater seep in through any crack in an aging lateral.',
       'The older housing here runs on plumbing past its service life, so corroded metal supply lines and brittle drain pipe are common. We camera the line to tell a clog apart from a cracked or collapsed pipe, then replace the failed section so the line holds the next time the valley ground saturates.',
@@ -232,7 +232,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-college-hill': {
     intro:
-      'Corroded or leaking pipe in North College Hill? Our licensed plumbers camera the line, find the break, and replace aging galvanized and cast-iron pipe in this small north-side city. Call (513) 586-5107.',
+      'North College Hill pipe replacement usually involves galvanized supply lines and cast-iron drains in its tightly packed early and mid-1900s homes. Buried laterals run short distances between houses on the close-set lots. We camera the line to find the corroded or cracked section, then replace only that run.',
     relevance: [
       'North College Hill (ZIP 45239) is a small, densely built city just north of College Hill, with a grid of early- and mid-1900s homes. That older, tightly packed housing was plumbed with galvanized supply lines and cast-iron drains, both of which corrode from the inside until they leak or crack through.',
       'On the close-set lots here, buried laterals run short distances between homes, so a failing pipe in one house is feet from the next. We camera the line to locate the corroded or cracked section exactly, then replace that run with modern pipe rather than disturbing the rest of the system.',
@@ -243,7 +243,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newtown': {
     intro:
-      'Cracked, leaking, or backed-up pipe in Newtown? Our licensed plumbers camera the line and replace failing pipe in this east-side village near the Little Miami River. Call (513) 586-5107.',
+      'Newtown homes near the Little Miami River sit on low ground that saturates and shifts with high water, cracking aging laterals, and that drives most pipe repair there. Older supply lines corrode too. We camera the line to separate a clog from a collapsed pipe, then replace the failed section.',
     relevance: [
       'Newtown (ZIP 45244) is a small east-side village near the Little Miami River, with older homes set on low river-bottom ground. Buried drain and sewer pipe on that low ground sits in soil that saturates and shifts with high water, working joints loose and cracking aging laterals over time.',
       'The older homes here carry plumbing that predates current materials, so corroded supply lines and brittle drain pipe are common. When the river is up and the ground is soaked, a cracked lateral lets groundwater push in and a backup follows. We camera the line to separate a clog from a collapsed pipe, then replace the failed section so it holds the next time the water rises.',
@@ -254,7 +254,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'turpin-hills': {
     intro:
-      'Leaking, corroded, or burst pipe in Turpin Hills? Our licensed plumbers camera the line and replace failing pipe in this east-side Anderson Township community. Call (513) 586-5107.',
+      'Turpin Hills pipe repair covers mid-century homes with galvanized supply lines and drain pipe past their service life, plus newer homes now old enough for joints to fail. A burst line in a finished basement does damage fast. We camera and leak-test the run, then replace that section.',
     relevance: [
       'Turpin Hills (ZIP 45244) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. The mid-century houses run on galvanized supply lines and drain pipe that have aged past their service life, where corrosion and worn joints turn into leaks.',
       'Even the newer homes here are now old enough for supply joints and aging pipe to fail, and a burst line in a finished basement does damage fast. We camera and leak-test the suspect run to pinpoint the break, then replace that section so we open only what the repair needs.',
@@ -265,7 +265,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'silverton': {
     intro:
-      'Corroded or leaking pipe in Silverton? Our licensed plumbers camera the line, find the break, and replace aging pipe in the homes along Montgomery Road. Call (513) 586-5107.',
+      'Silverton pipe replacement mostly involves the original galvanized supply lines and cast-iron drains in early and mid-1900s homes along Montgomery Road. Both corrode from the inside until a pinhole leak or cracked drain shows up. We camera the suspect line, then replace that run with modern pipe.',
     relevance: [
       'Silverton (ZIP 45236) is a small city along Montgomery Road on the east side, with established streets of early- and mid-1900s homes. Houses of that age were plumbed with galvanized supply lines and cast-iron drains, both of which corrode from the inside until a pinhole leak or a cracked drain appears.',
       'Because the housing here is decades old, the failures show up in the original buried and in-wall pipe rather than recent work. We camera the suspect line to locate the corroded or split section exactly, then replace that run with modern pipe so the surrounding plumbing stays undisturbed.',
@@ -276,7 +276,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lockland': {
     intro:
-      'Cracked, leaking, or backed-up pipe in Lockland? Our licensed plumbers camera the line and replace failing pipe in this historic Mill Creek valley village. Call (513) 586-5107.',
+      'Lockland’s old worker housing in the Mill Creek valley runs corroded supply lines and brittle drain pipe, and the wet valley ground loosens buried drain joints. Most pipe repair there involves both. We camera the line to tell a clog from a cracked pipe, then replace the failed section.',
     relevance: [
       'Lockland (ZIP 45215) is a historic village in the Mill Creek valley north of the city, built up around mills and industry, with closely spaced older worker housing. The low valley ground stays wet, and that saturated soil works the joints of buried drain pipe loose and lets groundwater seep in through any crack in an aging lateral.',
       'The old, tightly packed homes run on plumbing prone to leaks, with corroded metal supply lines and brittle drain pipe well past their service life. We camera the line to tell a clog from a cracked or collapsed pipe, then replace the failed section so it holds the next time the valley ground saturates.',
@@ -287,7 +287,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'groesbeck': {
     intro:
-      'Corroded or leaking pipe in Groesbeck? Our licensed plumbers camera the line, locate the failure, and replace aging pipe in this northwest Colerain Township community. Call (513) 586-5107.',
+      'Groesbeck pipe repair is usually about the original supply or drain run in a mid-century Colerain Township home, where galvanized lines have corroded and drain joints are cracking. Hidden leaks can go unnoticed for a while. We camera and leak-test the suspect line, then replace the section.',
     relevance: [
       'Groesbeck (ZIP 45239) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. Houses of that era carry galvanized supply lines that have corroded over the decades and original drain pipe that has begun to crack at the joints.',
       'On these established lots, the failing pipe is usually the home’s original supply or drain run, and a hidden leak can go unnoticed for a while. We camera and leak-test the suspect line to find the exact spot it has corroded or split, then replace that section with modern pipe.',
@@ -298,7 +298,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-healthy': {
     intro:
-      'Corroded or leaking pipe in Mount Healthy? Our licensed plumbers camera the line, find the break, and replace aging galvanized and cast-iron pipe in this historic north-side city. Call (513) 586-5107.',
+      'Mount Healthy pipe replacement mostly involves galvanized supply lines and cast-iron drains in early-1900s and mid-century homes around the old town center. Failures show up as corrosion leaks or cracked, root-filled laterals. We camera the line to find the break, then replace that section, trenchless where the lot allows.',
     relevance: [
       'Mount Healthy (ZIP 45231) is a historic small city on the north side, with an old town center and streets of early-1900s and mid-century homes. Houses of that age were plumbed with galvanized supply lines and cast-iron drains, both of which corrode from the inside until they leak or crack through.',
       'The mix of early-1900s and mid-century housing means the original buried and in-wall pipe is where the failures cluster, often as a corrosion leak or a cracked, root-filled lateral. We camera the line to locate the failure exactly, then replace that section with modern pipe, trenchless where the lot allows.',

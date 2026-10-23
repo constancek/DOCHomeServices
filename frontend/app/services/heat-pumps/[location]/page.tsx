@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Financing Your Heat Pump in {neighborhood}', body: 'A high-efficiency heat pump is a meaningful upgrade, so we offer financing with flexible terms to make it affordable now — and an estimate so you understand the cost and the long-term savings before you decide.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Choose Us',
-  whyUs: [
-    { icon: 'check', title: 'Year-Round Comfort', text: 'One system that heats in winter and cools in summer, serviced for both.' },
-    { icon: 'badge', title: 'Mini-Split & Traditional', text: 'We install and repair ductless mini-splits and conventional heat pump systems.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked technicians with the specialized heat pump know-how it takes.' },
-    { icon: 'star', title: 'Financing Available', text: 'Flexible plans so an energy-efficient upgrade is affordable now.' },
-  ],
+  whyParagraph: 'One heat pump heats your {neighborhood} home in winter and cools it in summer, and we service it for both seasons. Background-checked technicians install and repair ductless mini-splits as well as conventional systems, and financing is available.',
   proofQuote:
     'We replaced an old AC and furnace with a dual-fuel heat pump. The house is comfortable year-round now and our winter bills dropped noticeably.',
   sharedFaqs: [

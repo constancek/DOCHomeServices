@@ -6,7 +6,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part6: Record<string, LocationServiceCopy> = {
   northbrook: {
     intro:
-      'Northbrook shares a ZIP with Northgate, and permits for both go through Colerain Township and Hamilton County. The mid-century services here are mostly one era, and their age is usually why the power is disconnected. Call (513) 586-5107.',
+      'Northbrook shares a ZIP with Northgate, and permits for both go through Colerain Township and Hamilton County when a power disconnection needs clearing. The mid-century services here are mostly one era, and their age is usually why the power gets cut, even where nothing ever tripped.',
     relevance: [
       'Northbrook (ZIP 45251) is a settled Colerain Township community on the northwest side, largely mid-century single-family homes, and it shares its ZIP with Northgate. Permits and inspections go through Colerain Township and Hamilton County rather than the city, which is worth confirming rather than assuming — a contractor who works mostly in town files with the city out of habit.',
       'The services here are mostly of one era, installed with the houses and in a great many cases never replaced. Sized for a mid-century household, they now carry central air, a finished lower level, modern appliances and increasingly a car charger. Run near their ceiling for years they degrade at the connections rather than tripping breakers, and heat damage at the meter socket is what a technician declines to re-energise.',
@@ -23,7 +23,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'indian-hill': {
     intro:
-      'On a multi-acre Indian Hill estate, the service run can be several hundred feet and often underground. When the power is disconnected and the fault sits along that run, finding it is the first job. We trace it, then repair. Call (513) 586-5107.',
+      'On a multi-acre Indian Hill estate, the service run from the road can be several hundred feet and often underground. When a power disconnection traces to a fault along that run, finding it is the first job. We trace the run, then repair the fault and the service.',
     relevance: [
       'Indian Hill (ZIP 45243) is estates and large homes on multi-acre wooded lots, many set well back from the road, and that geometry changes a disconnection repair fundamentally. The service run from the road to the house can be several hundred feet, frequently underground, and where the fault lies along that run rather than at either end, locating it is the first job rather than an afterthought.',
       'Properties of this size also carry more than one supply. Guest houses, barns, pool equipment, gates and outbuildings often have their own feeds, some installed decades ago to standards that would not pass now — and once an inspector is on site examining the main service they may take an interest in those too. A number of homes here are also on private wells, which means a disconnection takes the water with it, since the pump is electric.',
@@ -40,7 +40,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   evendale: {
     intro:
-      'GE Aerospace and a large industrial base share Evendale with its residential streets, so local circuits carry heavy commercial load. A disconnection at your house is still about the equipment you own. The village issues the permit. Call (513) 586-5107.',
+      'GE Aerospace and a large industrial base share Evendale with its residential streets, so local circuits carry heavy commercial load. A power disconnection at your house is still about the equipment you own. The village issues the permit, and we also handle commercial services in Evendale.',
     relevance: [
       'Evendale (ZIP 45241) is a village with a large industrial base, including GE Aerospace, alongside established residential neighborhoods, and it issues its own permits and inspections. The industrial presence has one practical effect worth knowing: circuits through parts of the village carry very substantial commercial load, and the technicians attending and the priorities they work to are not always the residential ones.',
       'On the residential side the picture is conventional — mid-century homes with services largely of that era, many never replaced, now carrying loads nobody planned for. On the commercial side we are straightforward about our limits: smaller commercial services are work we do, and a large three-phase installation with primary metering or a site transformer is a specialist contractor’s job. Describe what you have on the phone and we will tell you honestly.',
@@ -57,7 +57,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   glendale: {
     intro:
-      'Glendale’s preserved Victorian houses sit in one of the country’s earliest planned railroad suburbs, a National Historic Landmark. A service mast and meter box are regulated exterior, so clearing a disconnection involves the village as well as the inspector. Call (513) 586-5107.',
+      'Glendale’s preserved Victorian houses sit in one of the country’s earliest planned railroad suburbs, a National Historic Landmark. A service mast and meter box are regulated exterior, so clearing a power disconnection here involves the village as well as the electrical inspector. We plan the repair around both.',
     relevance: [
       'Glendale (ZIP 45246) is one of the country’s earliest planned railroad suburbs and a National Historic Landmark, known for preserved Victorian houses on winding, tree-lined streets. The designation is the first thing to raise, because a service entrance, its conduit and the meter box are all visible exterior in a village where appearance is regulated — and it issues its own permits and inspections as well.',
       'The houses themselves are among the oldest we work on, with long histories of retrofitted electrical work behind them. Once an inspector is examining a service to clear a tag, that history determines the scope rather than the single fault that stopped the meter. Rebuilding in the same position and form is normally the cleanest route; where a properly sized modern service would look different from the street, there is more to agree than the electrical permit.',
@@ -74,7 +74,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   sharonville: {
     intro:
-      'Sharonville and Evendale share ZIP 45241 but have separate permit offices. A filing sent to the wrong one gets refiled while your power stays disconnected. Most Sharonville homes are mid-century, on services largely original. Call (513) 586-5107.',
+      'Sharonville and Evendale share ZIP 45241 but have separate permit offices. A power disconnection filing sent to the wrong one gets refiled while your power stays off. Most Sharonville homes are mid-century, on services largely original, so we file with Sharonville and repair what the inspector will check.',
     relevance: [
       'Sharonville (ZIP 45241) is a north-side city with residential neighborhoods, the convention centre and industrial corridors, and it issues its own permits and inspections. It shares that ZIP with Evendale, which is a separate village with its own office — so the filing follows the address rather than the postal code, and getting that wrong means waiting while it is refiled.',
       'The housing is mid-century, with services largely installed when the houses went up and frequently never replaced. Where a house has since gained central air, a finished lower level and modern appliances, the original service has been working beyond its intended range for years. Heat damage at the connections is the usual finding, and it stops a reconnection without anything dramatic having happened.',
@@ -91,7 +91,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   northgate: {
     intro:
-      'Around the Northgate Mall corridor, housing runs from mid-century to newer, so the cause of a disconnection varies by street. Permits go through Colerain Township and Hamilton County. We confirm that and do the repair. Call (513) 586-5107.',
+      'Around the Northgate Mall corridor, housing runs from mid-century to newer, so the cause of a power disconnection varies from street to street. Permits go through Colerain Township and Hamilton County, not the city. We confirm the filing and repair the service on your house.',
     relevance: [
       'Northgate (ZIP 45251) is a Colerain Township area around the Northgate Mall corridor, sharing its ZIP with Northbrook, and permits go through Colerain Township and Hamilton County rather than the city. Colerain is one of the largest townships in Ohio, which means the township office rather than any village or city handles the filing and the inspection.',
       'The housing runs mid-century through newer, so the answer varies by street. Mid-century services are frequently original and now working past their intended range, showing heat damage at the connections. Newer sections have modern panels and adequate capacity, where a disconnection is usually one identifiable thing. The retail corridor also means commercial circuits nearby, restored and attended on a different basis from residential streets.',
@@ -108,7 +108,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   springdale: {
     intro:
-      'Springdale shares a ZIP with Glendale, and the two could not be more different on paper. Springdale is a city that issues its own permits. We file your disconnection repair there, not in Glendale. Call (513) 586-5107.',
+      'Springdale shares a ZIP with Glendale, and the two could not be more different on paper. Springdale is a city that issues its own permits, with no historic exterior rules. We file your power disconnection repair there, not in Glendale, and repair the mid-century service.',
     relevance: [
       'Springdale (ZIP 45246) is a north-side city along the Tri-County corridor with established mid-century neighborhoods and a large commercial base, and it issues its own permits and inspections. It shares that ZIP with Glendale — a National Historic Landmark village with its own office and its own exterior requirements — so the two could not be more different administratively despite the same postal code.',
       'The residential picture in Springdale is mid-century: services installed with the houses, many still original, sized for their era and now carrying central air, finished lower levels and modern appliances. Heat damage at the connections is the usual finding. The commercial base means larger services nearby, and we are straightforward about which of those we handle and which need a specialist contractor.',
@@ -125,7 +125,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   miamitown: {
     intro:
-      'The Great Miami drains a large area upstream, so water can reach a Miamitown basement panel a day after local weather clears. A submerged panel is replaced rather than dried, and the disconnection stays until it is. Call (513) 586-5107.',
+      'The Great Miami drains a large area upstream, so water can reach a Miamitown basement panel a day after local weather clears. A submerged panel is replaced rather than dried, and the power disconnection stays until it is. We replace it on these older bottomland homes.',
     relevance: [
       'Miamitown (ZIP 45041) is a small far-west community on the Great Miami, with older homes set on low river-bottom ground. The river is the recurring cause of disconnections here, and it works on a delay worth understanding: the Great Miami drains a large area upstream, so water can arrive after your local weather has cleared and reach a basement panel a day later than you would expect.',
       'A submerged panel is replaced rather than dried out, whenever the water arrived, and an inspector will look for the signs before the meter goes back in. The housing supplies the other half — older homes with services that are frequently original and have never been brought forward, so grounding to a superseded standard and corrosion at the meter base are common findings once anyone examines them properly.',
@@ -142,7 +142,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'forest-park': {
     intro:
-      'Forest Park went up as a planned community from the 1960s, which puts many homes in the 1965 to 1973 aluminium wiring window. That wiring can come up when a disconnection is being cleared, and with insurers. Call (513) 586-5107.',
+      'Forest Park went up as a planned community from the 1960s, which puts many homes in the 1965 to 1973 aluminium wiring window. That wiring can come up when a power disconnection is being cleared, and with insurers. We check it alongside the service and quote what actually needs doing.',
     relevance: [
       'Forest Park (ZIP 45240) was developed as a planned community from the 1960s, and that gives it an unusual uniformity: the housing went up in a comparable period, was given comparable services, and those have aged at the same rate. It also puts a great deal of this city squarely in the window where aluminium branch circuit wiring was commonly used — roughly 1965 to 1973.',
       'That matters for disconnections and for insurance. Aluminium expands and contracts more than copper, so terminations loosen and overheat over time, and an inspector clearing a tag will look closely at every one. The recognised remedy is properly rated connectors at the terminations rather than a full rewire, which is worth knowing before anyone quotes you for the latter. The city issues its own permits and inspections, and it shares its ZIP with Pleasant Run.',
@@ -159,7 +159,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'pleasant-run': {
     intro:
-      'Same postal code, two authorities. Pleasant Run falls to Springfield Township, while Forest Park issues its own permits, and mixing them up is how a disconnection repair here loses a day. Call (513) 586-5107.',
+      'Same postal code, two authorities. Pleasant Run falls to Springfield Township and Hamilton County, while Forest Park issues its own permits, and mixing them up is how a power disconnection repair here loses a day. We file in the right place and repair the service.',
     relevance: [
       'Pleasant Run (ZIP 45240) is a Springfield Township community on the north side, sharing its ZIP with Forest Park — which is a city issuing its own permits, while Pleasant Run falls to Springfield Township and Hamilton County. Same postal code, two different authorities, and that is the most common way a repair here loses a day.',
       'The housing is mid-century and newer. On the older streets the services are frequently original and now carrying loads well beyond their intended range, which shows as heat damage at the connections rather than as a tripped breaker. Houses from the late 1960s and early 70s may also have aluminium branch circuits, which an inspector will examine at the terminations and which insurers ask about at renewal.',
@@ -176,7 +176,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   cleves: {
     intro:
-      'Near where the Great Miami meets the Ohio, Cleves can flood from either river on a schedule that doesn’t match your storm. A submerged basement panel means a disconnection until it’s replaced. The village issues the permit. Call (513) 586-5107.',
+      'Near where the Great Miami meets the Ohio, Cleves can flood from either river on a timetable that does not match your storm. A submerged basement panel means a power disconnection until it is replaced. The village issues its own permit, and we file there and do the replacement.',
     relevance: [
       'Cleves (ZIP 45002) is a far-west village near where the Great Miami meets the Ohio, and it issues its own permits and inspections. That confluence position is the physical factor: water can back up from either river, so the low ground here floods on a schedule that does not always match the storm you actually experienced, and basement panels are what it reaches.',
       'A submerged panel is replaced rather than dried out — water gets behind the bus bars and into the breakers and corrosion continues after everything looks dry — and an inspector checks for that before the meter goes back in. The housing is older, with services frequently original and never brought forward, so where water is not the cause the findings are grounding to a superseded standard and corrosion at the meter base.',
@@ -193,7 +193,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'north-bend': {
     intro:
-      'North Bend is small and a long way out at the far west end, so getting the paperwork right the first time matters more here. Low river ground is the usual cause of a power disconnection. We file with the village. Call (513) 586-5107.',
+      'North Bend is small and a long way out at the far west end, so getting the paperwork for a power disconnection repair right the first time matters more here. Low river ground is the usual cause. We file with the village and repair the service.',
     relevance: [
       'North Bend (ZIP 45052) is a small village on the Ohio at the far west end of our area, and it issues its own permits and inspections. Being both very small and a long way out has a consistent effect: the municipal queue is short when the filing is right, and there is a real distance for anyone to travel, so getting the paperwork correct first time matters more here than closer in.',
       'The village sits low on the river, so water reaching a basement panel is a recurring cause, and a submerged panel is replaced rather than dried out. The housing is older with services that are frequently original — never brought forward because nothing ever failed — which is exactly the service that turns out to be furthest behind current requirements when a technician finally examines it.',
@@ -210,7 +210,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   loveland: {
     intro:
-      'Loveland spans three counties: mostly Clermont, part Warren and a small piece of Hamilton. For a disconnection repair that decides which county is involved alongside the city, and assuming Hamilton is often wrong. Call (513) 586-5107.',
+      'Loveland spans three counties: mostly Clermont, part Warren and a small piece of Hamilton. For a power disconnection repair, that decides which county is involved alongside the city, and assuming Hamilton is often wrong. We confirm your address before filing and repairing the service.',
     relevance: [
       'Loveland (ZIP 45140) is a historic city on the Little Miami, and it is one of very few places where the city itself spans three counties — primarily Clermont, part Warren, and a small portion Hamilton. For a disconnection that is not a technicality: it determines which county is involved alongside the city, and an electrician assuming Hamilton because Cincinnati is nearby has a good chance of being wrong.',
       'The Little Miami is the physical factor. It has a steep catchment and rises quickly, so on the low ground near the river water can reach a basement panel during the same storm rather than a day later. A submerged panel is replaced rather than dried out. In the older downtown the housing is genuinely old, with services carrying long histories of retrofits that an inspector will examine once clearing a tag.',
@@ -227,7 +227,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   harrison: {
     intro:
-      'Check your bill before anything else. On the Indiana line, a Harrison address could be Duke Energy Ohio or Duke Energy Indiana, and the utility decides who handles the disconnection and the reconnect. We repair your side either way. Call (513) 586-5107.',
+      'Before a power disconnection repair in Harrison, check your bill. On the Indiana line, an address could be Duke Energy Ohio or Duke Energy Indiana, and the utility decides who handles the disconnection and the reconnect. We repair your side of the meter either way and file correctly.',
     relevance: [
       'Harrison (ZIP 45030) is a far-west city on the Indiana state line, and that position raises the question that matters most here before anything else: which utility actually serves your address. Ohio is Duke Energy Ohio; across the line is Duke Energy Indiana, a separate operating company with its own crews and its own scheduling, regulated by the Indiana Utility Regulatory Commission rather than Ohio’s PUCO.',
       'On a boundary like this the answer is not obvious from a map, and telling the wrong utility about a disconnection wastes time you do not have. Harrison itself is in Ohio and issues its own city permits. The housing is a mix of older and newer, so the findings range from original services never brought forward to modern panels where a disconnection is about one identifiable fault.',
@@ -244,7 +244,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   ludlow: {
     intro:
-      'Ludlow is Duke Energy Kentucky territory, regulated by the Kentucky Public Service Commission, and the city issues its own permits. The older river-city houses are where we usually find the cause of a disconnection. Call (513) 586-5107.',
+      'Ludlow is Duke Energy Kentucky territory, regulated by the Kentucky Public Service Commission, and the city issues its own permits. In its older river-city houses on narrow lots, that is where we usually find the cause of a power disconnection. We repair the service and file with Ludlow.',
     relevance: [
       'Ludlow (ZIP 41016) is a Northern Kentucky river city, and two jurisdictional facts come first. The utility is Duke Energy Kentucky — a separate operating company from Duke Energy Ohio with its own crews and scheduling, regulated by the Kentucky Public Service Commission rather than PUCO. And Ludlow issues its own permits and inspections, sharing its ZIP with Bromley next door.',
       'The housing is older river-city stock on narrow lots, close together, with services that are frequently original or replaced once a long time ago. Sitting low near the Ohio means water reaching basement panels is a recurring cause, and a submerged panel is replaced rather than dried out. Where wear is the issue instead, the findings are grounding to a superseded standard and connections that have worked too hard for decades.',
@@ -261,7 +261,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'park-hills': {
     intro:
-      'Park Hills shares Covington’s ZIP but issues its own permits. An electrician working from the postal address files with Covington, and the house sits disconnected while it comes back. We file in Park Hills. Call (513) 586-5107.',
+      'Park Hills shares Covington’s ZIP but issues its own permits. An electrician working from the postal address files a power disconnection repair with Covington, and the house sits without power while it comes back. We file in Park Hills and repair the service on these hillside homes.',
     relevance: [
       'Park Hills (ZIP 41011) is a small Kenton County city on the hillside above Covington, and it shares Covington’s ZIP while issuing its own permits and inspections. That is the trap here — an electrician working from the postal address will assume Covington, file there, and the paperwork comes back while the house sits without power. The utility is Duke Energy Kentucky rather than Duke Energy Ohio.',
       'Being up the hillside rather than down on the riverfront changes the failure pattern too. The flooded-panel problem that dominates the river cities below is much less common here; what we find instead is wear — services installed with the houses and never brought forward, grounding to a superseded standard, and connections that have carried modern loads for decades on equipment sized for far less.',
@@ -278,7 +278,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   bromley: {
     intro:
-      'Low on the Ohio, Bromley sees water reach basement panels, and that panel gets replaced before Duke Energy Kentucky ends the disconnection. Bromley and Ludlow share a ZIP but file separately. Call (513) 586-5107.',
+      'Low on the Ohio, Bromley sees water reach basement panels, and that panel gets replaced before Duke Energy Kentucky ends the power disconnection. Bromley and Ludlow share a ZIP but file separately. We replace the panel, file with Bromley, and work through it when a whole street floods.',
     relevance: [
       'Bromley (ZIP 41016) is a small Northern Kentucky river city sharing its ZIP with Ludlow, and both issue their own permits and inspections — so the filing follows the address. The utility is Duke Energy Kentucky, with its own crews and scheduling and the Kentucky Public Service Commission as regulator.',
       'The village sits low on the Ohio, and that is the recurring cause of disconnections: water reaching basement panels, which are then replaced rather than dried out because water gets behind the bus bars and into the breakers. Being a very small municipality, the inspection queue is short when the filing is right, which after a flooding event affecting several properties is worth having on your side.',
@@ -295,7 +295,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'fort-wright': {
     intro:
-      'Three cities, one ZIP: Fort Wright, Covington and Park Hills each issue their own permits. Up on the hillside, flooding is rarely the cause here, and a disconnection usually traces to heat damage on a mid-century service. Call (513) 586-5107.',
+      'Three cities, one ZIP: Fort Wright, Covington and Park Hills each issue their own permits. Up on the hillside, flooding is rarely the cause here, and a power disconnection in Fort Wright usually traces to heat damage on a mid-century service. We repair it and file correctly.',
     relevance: [
       'Fort Wright (ZIP 41011) is a Kenton County city on the hillside, sharing its ZIP with Covington and Park Hills — three separate municipalities in one postal code, each issuing its own permits and inspections. Working from the ZIP will send a filing to the wrong office more often than not, and the utility waits for the correct sign-off before reconnecting.',
       'Being up on the hillside rather than on the riverfront means the flooded-panel problem is far less common than in the cities below. What we find instead is accumulated wear on mid-century services: installed with the houses, never replaced because nothing failed, and now carrying central air, finished lower levels and increasingly car charging. Heat damage at the connections is the usual finding. The utility is Duke Energy Kentucky.',
@@ -312,7 +312,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'fort-mitchell': {
     intro:
-      'Five cities share ZIP 41017, and Fort Mitchell is where filings most often go astray. Each city has its own permit office, and the utility waits for the right sign-off to end a disconnection. We confirm it first. Call (513) 586-5107.',
+      'Five cities share ZIP 41017, and Fort Mitchell is where power disconnection filings most often go astray. Each city has its own permit office, and the utility waits for the right sign-off before reconnecting. We confirm Fort Mitchell first, then repair the service on your older or mid-century home.',
     relevance: [
       'Fort Mitchell (ZIP 41017) is a Kenton County city sharing its ZIP with Lakeside Park, Crescent Springs, Crestview Hills and Edgewood — five separate cities in one postal code, each issuing its own permits and inspections. It is the clearest example in our whole service area of why a ZIP tells you nothing about jurisdiction, and it is where filings most often go astray.',
       'The housing is a settled mix of older and mid-century homes on the hillside above the river cities, so flooded panels are much less common here than below. The findings are wear-based: services installed with the houses and never brought forward, grounding to the standard of the day, and connections carrying modern loads on equipment sized for far less. The utility throughout is Duke Energy Kentucky.',
@@ -329,7 +329,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'villa-hills': {
     intro:
-      'Villa Hills is almost entirely residential, so the utility side of a disconnection is unlikely to be quick. That makes getting your own repair done and inspected while you wait more valuable here, not less. Call (513) 586-5107.',
+      'Villa Hills is almost entirely residential, so the utility side of a power disconnection is unlikely to move quickly. That makes getting your own repair done and inspected while you wait more valuable here, not less. We repair the service and file with the city.',
     relevance: [
       'Villa Hills (ZIP 41017) is a residential Kenton County city on the hillside above the river, and it is almost entirely residential — there is very little commercial or institutional load in the city. That matters for one specific reason: circuits carrying hospitals, retail or industry get restoration priority, and a purely residential city has none of that to sit alongside.',
       'For a disconnection the practical consequence is that the utility side is unlikely to be quick, which makes getting your own repair done and inspected while you wait more valuable rather than less. The housing is mid-century and newer, so services are frequently original and now carrying loads beyond their intended range. Villa Hills shares ZIP 41017 with four other cities, and issues its own permits.',

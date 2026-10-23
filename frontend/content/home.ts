@@ -25,7 +25,7 @@ export const benefits = [
   {
     icon: 'star' as const,
     title: 'Satisfaction Guarantee',
-    text: 'We are happy until you are happy — every job comes with a satisfaction guarantee.',
+    text: 'We are only happy when you are happy. Every job comes with a satisfaction guarantee.',
   },
 ];
 

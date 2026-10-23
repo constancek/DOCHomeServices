@@ -64,12 +64,7 @@ const config: ServiceLocationConfig = {
     { title: 'Emergency Furnace Replacement in {neighborhood}', body: 'When a furnace fails during a cold snap, waiting days for heat is not an option. Our team offers same-day installation whenever possible to get a new, reliable system running and your {neighborhood} home warm again fast.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Choose Us',
-  whyUs: [
-    { icon: 'check', title: 'Proper Sizing', text: 'We load-size every install so your furnace heats evenly without wasting energy.' },
-    { icon: 'shield', title: 'Licensed & To Code', text: 'Background-checked technicians and safe, code-compliant gas and electrical work.' },
-    { icon: 'star', title: 'Financing Available', text: 'Low rates and fast approval so an unexpected replacement is not a crisis.' },
-    { icon: 'clock', title: 'Same-Day Installs', text: 'Furnace failed in a cold snap? We can install and test a new unit fast.' },
-  ],
+  whyParagraph: 'If your furnace fails in a cold snap, we can install and test a new one in your {neighborhood} home fast, load-sized so it heats evenly. Financing with fast approval keeps an unexpected replacement from becoming a crisis.',
   proofQuote:
     'Our 20-year-old furnace quit in January. They came out same day, sized and installed a new high-efficiency gas unit, and had the house warm again by evening.',
   sharedFaqs: [

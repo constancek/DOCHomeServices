@@ -17,7 +17,7 @@ const config: ServiceLocationConfig = {
   heroImage: '/services/minisplit-repair-hero.webp',
   introHeading: 'Ductless Mini-Split Repair in {neighborhood}',
   introParagraphs: [
-    'When a ductless mini-split stops cooling or heating, comfort changes fast — a room goes uneven, airflow weakens, or the unit quits responding. {brand} diagnoses and repairs mini-splits for homeowners in {place}, on every major brand, with 7-day emergency service.',
+    'When a ductless mini-split stops cooling or heating, comfort changes fast — a room goes uneven, airflow weakens, or the unit quits responding. {brand} diagnoses and repairs mini-splits for homeowners in {place}, on every major brand, with emergency service any day of the week.',
     'Because mini-splits work differently from central HVAC, the fix often takes specialized diagnosis — our refrigerant-certified technicians know these systems and resolve the problem without guesswork, with upfront flat-rate pricing.',
   ],
   sidebarSections: [
@@ -29,9 +29,9 @@ const config: ServiceLocationConfig = {
       ],
     },
     {
-      title: 'Seven-Day Emergency Service',
+      title: 'Emergency Service, Weekends Included',
       body: [
-        'A mini-split that quits in a heat wave or a cold snap cannot wait, especially when it is the only conditioning a {neighborhood} room has. We answer 7 days a week from 8am to 8pm and work to restore comfort fast while preventing further damage.',
+        'A mini-split that quits in a heat wave or a cold snap cannot wait, especially when it is the only conditioning a {neighborhood} room has. We answer every day, weekends too, and work to restore comfort fast while preventing further damage.',
       ],
     },
   ],
@@ -63,15 +63,10 @@ const config: ServiceLocationConfig = {
     { title: 'Why Is My Mini-Split Not Cooling?', body: 'In a {neighborhood} home the usual culprits are low refrigerant from a slow leak, a dirty filter choking airflow, a frozen coil, or a failing sensor or control board. We diagnose the exact cause instead of guessing, because topping off refrigerant without finding the leak just delays the next failure.' },
     { title: 'Leaks, Ice, and Odors', body: 'Water dripping from the indoor head is usually a clogged condensate drain or a coil that froze and is thawing; a musty smell points to moisture and buildup inside the unit. These are common calls across {neighborhood}, and we clear the drain, address the underlying cause, and confirm the head drains properly before we go.' },
     { title: 'Repair or Replace?', body: 'A mini-split that is relatively new with an isolated fault is worth repairing. One that is aging or failing repeatedly is often better replaced — and we will tell you honestly which makes sense for your {neighborhood} home rather than selling you a system you do not need.' },
-    { title: 'Seven-Day Emergency Repair in {neighborhood}', body: 'Mini-split failures do not keep business hours, and losing the only conditioning in a room is a real problem in a {neighborhood} heat wave or cold snap. We answer 7 days a week from 8am to 8pm and focus on restoring comfort quickly while preventing further damage to the system.' },
+    { title: 'Emergency Repair Any Day in {neighborhood}', body: 'Mini-split failures do not keep business hours, and losing the only conditioning in a room is a real problem in a {neighborhood} heat wave or cold snap. We pick up on Saturdays and Sundays as well as weekdays, and focus on restoring comfort quickly while preventing further damage to the system.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'badge', title: 'All Major Brands', text: 'We repair single- and multi-zone mini-splits from every major brand.' },
-    { icon: 'shield', title: 'Refrigerant-Certified', text: 'Licensed technicians who handle refrigerant safely and to code.' },
-    { icon: 'clock', title: 'Seven-Day Emergency Service', text: 'Lost cooling or heating? We respond 7 days a week from 8am to 8pm.' },
-    { icon: 'check', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-  ],
+  whyParagraph: 'We repair single and multi-zone mini-splits from every major brand, seven days a week. Our licensed technicians handle refrigerant safely, and {neighborhood} customers approve a flat price before work starts, with no overtime fees.',
   proofQuote:
     'Our mini-split started leaking water and throwing an error code in the middle of a heat wave. They came out same day, found a clogged drain and a low charge, fixed both, and explained exactly what went wrong. Cooling came right back.',
   sharedFaqs: [
@@ -105,7 +100,7 @@ export async function generateMetadata({
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
     title: `Mini-Split Repair in ${loc.neighborhood}, ${loc.state}`,
-    description: `Ductless mini-split repair in ${place} — weak cooling, leaks, ice, and error codes fixed on all major brands. Seven-day emergency service. Call ${site.primaryPhone.number}.`,
+    description: `Ductless mini-split repair in ${place} — weak cooling, leaks, ice, and error codes fixed on all major brands. Emergency service every day of the week. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/mini-split-repair/${loc.slug}` },
     openGraph: {
       title: `Mini-Split Repair in ${place} | ${site.name}`,

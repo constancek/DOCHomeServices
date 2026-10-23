@@ -6,7 +6,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part3: Record<string, LocationServiceCopy> = {
   mason: {
     intro:
-      'Mason permits go through Warren County, not Hamilton County or Cincinnati. An electrician filing out of habit costs you a day while the power stays disconnected. We file with the right office and handle the repair. Call (513) 586-5107.',
+      'Clearing a power disconnection in Mason means a Warren County permit, not a Hamilton County or Cincinnati one. An electrician filing out of habit costs you a day while the power stays off. We file with the right office and repair the service, whether 1990s subdivision or older town center.',
     relevance: [
       'Mason (ZIP 45040) is mostly subdivisions from the 1990s onward around an older town center, and the first practical point is jurisdictional: permits and inspections go through Warren County rather than Hamilton County or the city of Cincinnati. An electrician who works mostly in town can file out of habit with the wrong authority, and the utility will be waiting for the correct sign-off before reconnecting.',
       'The housing itself is now old enough to matter. A subdivision built in 1995 has a panel that is thirty years old, and thirty years is when breakers start to behave inconsistently and when the load a family puts on a house has changed beyond what anyone planned for. Disconnections on these streets are less about decayed old equipment and more about capacity and specific faults — which is a cheaper conversation, but still one that needs a permit and an inspection.',
@@ -23,7 +23,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'west-chester': {
     intro:
-      'Adding a Level 2 car charger to a 1990s West Chester service can push it past what it was sized to carry. Where that happened without a load calculation, it’s a common reason the power gets disconnected. We fix the service. Call (513) 586-5107.',
+      'Adding a Level 2 car charger to a 1990s West Chester service can push the total load past what the panel and service were sized to carry. Where that happened without a load calculation, it is a common reason for a power disconnection. We repair the service and size it.',
     relevance: [
       'West Chester (ZIP 45069) is largely subdivisions built from the 1990s onward, and the most common reason we are called here has arrived only in the last few years: electric vehicle charging. A Level 2 charger is a substantial continuous load, and on a service that was calculated for a 1990s household it can push the total past what the panel and the service were sized to carry.',
       'Where a charger has been fitted without a proper load calculation — and plenty have — the result is a service running at its ceiling, heat at the connections, and eventually a technician or an inspector who will not sign it off. That is the disconnection. The fix is a load calculation first and then either a service upgrade or a managed circuit, rather than replacing the damaged part and repeating the problem. Permits go through the township and Butler County.',
@@ -40,7 +40,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   pendleton: {
     intro:
-      'A Pendleton loft building that used to be a workshop or warehouse kept a service sized for that use, then gained several residential units. That gap shows up when the power is disconnected. We assess the entrance and fix it properly. Call (513) 586-5107.',
+      'A Pendleton loft building that used to be a workshop or warehouse kept a service sized for that use, then gained several residential units. That gap tends to surface as a power disconnection. We assess the entrance, work with the building on ownership, and repair it properly.',
     relevance: [
       'Pendleton (ZIP 45202) is a small arts district of restored 19th-century buildings converted into lofts and condominiums, and the conversions are the point. A building that was a workshop, a warehouse or a storefront was given a service to suit that use, and turning it into residential units multiplies the number of separate supplies hanging off it without necessarily uprating the entrance.',
       'That is what surfaces when a disconnection happens here. Not a single fault but a service doing a job it was never designed for, with a meter stack added at some point and distribution that grew piecemeal. Because the entrance and the stack are common elements belonging to the building rather than to any unit owner, the repair needs the association or owner to authorise it — which is the first thing to establish rather than the last.',
@@ -57,7 +57,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   queensgate: {
     intro:
-      'We handle smaller commercial disconnections in Queensgate and tell you plainly when a building needs more. Many warehouses near the rail yards run three-phase service with switchgear, and that is heavier work with heavier inspection. Call (513) 586-5107.',
+      'We handle smaller commercial power disconnections in Queensgate and say plainly when a building needs more than we do. Many warehouses and light-industrial buildings near the rail yards run three-phase service with switchgear, and that means heavier work and a heavier inspection than any house.',
     relevance: [
       'Queensgate (ZIP 45203) is largely commercial and industrial — warehouses, offices and light-industrial buildings near the rail yards and the Mill Creek. Disconnections here are a different animal from residential ones. Commercial buildings commonly run three-phase service with switchgear rather than a mast, meter and panel, and the inspection requirements, the disconnect procedure and the equipment are all heavier.',
       'We are straightforward about where our line is. Smaller commercial services — a light-industrial unit, an office, a small warehouse — are work we do, permits and inspections included. A large three-phase installation with primary metering or a utility transformer on site is a specialist contractor’s job, and sending us to look at it wastes your time. Describe the building and the service on the phone and we will tell you honestly whether we are the right call.',
@@ -74,7 +74,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   cuf: {
     intro:
-      'One CUF house built for a single family can feed ten or more meters. When that entrance is disconnected, every tenancy in Clifton Heights, University Heights or Fairview goes dark together. The owner authorises the repair, and we do the rest. Call (513) 586-5107.',
+      'In CUF, one house built for a single family can feed ten or more meters. When that entrance suffers a power disconnection, every tenancy in Clifton Heights, University Heights or Fairview goes dark together. The owner authorises the repair, and we handle the service work and inspection.',
     relevance: [
       'CUF (ZIP 45219) covers Clifton Heights, University Heights and Fairview, packed against the University of Cincinnati, and the housing has been subdivided about as far as it can go. It is common here for one original service entrance to feed ten or more separate meters on a house that was built for a single family — and every one of those tenancies goes dark together when the service fails.',
       'A service carrying that many households, continuously, for decades, is the most reliably overloaded equipment we deal with anywhere in the city. Heat damage at the bank is the usual finding, and replacing a bank of that size is a substantial job rather than a socket swap. It also needs the building owner, who is frequently not local, and on the steeper Fairview streets it needs planning for access before anything is scheduled.',
@@ -91,7 +91,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'camp-washington': {
     intro:
-      'Small worker cottages in Camp Washington got small electrical services, and many are still close to what was installed. A service that suited the house as built struggles with today’s load, which is why the power ends up disconnected. Call (513) 586-5107.',
+      'Small worker cottages in Camp Washington were given small electrical services, and many are still close to what went in. A service that suited the house as built struggles under today’s load, which is how the power ends up disconnected. We repair it or size it up.',
     relevance: [
       'Camp Washington (ZIP 45225) is a working neighborhood in the Mill Creek valley, a tight mix of old worker housing and factories, and the houses are small — compact cottages and modest frame homes built for factory workers. The electrical services they were given were correspondingly small, and a great many are still close to what was installed.',
       'That produces a specific disconnection: a service that was adequate for a house with a few lights and is now carrying a modern kitchen, window units or central air, and heating controls. It fails at the connections rather than at the breakers, and a technician who finds heat damage will not re-energise it. The valley adds a second cause — panels in low basements that have been under water, which are replaced rather than dried out.',
@@ -108,7 +108,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'south-fairmount': {
     intro:
-      'Since the Lick Run Greenway rebuild, South Fairmount has newer services on some properties and very old ones on others, often on the same street. The fix after a disconnection depends on which you have. We check before quoting. Call (513) 586-5107.',
+      'Since the Lick Run Greenway rebuild, South Fairmount has newer services on some properties and very old ones on others, often on the same street. What clears a power disconnection depends on which you have, so we check the service and its paperwork before we quote anything.',
     relevance: [
       'South Fairmount (ZIP 45205) was substantially rebuilt around the Lick Run Greenway, the stormwater project undertaken because this valley flooded for generations, and that leaves an unusually mixed picture. Properties affected by the rebuild frequently have newer services and clean documentation. Houses that were not have services as old as anything on the west side, and the two sit on the same streets.',
       'So the answer to a disconnection here genuinely depends on which category your house is in, and it is worth establishing before quoting rather than assuming. Where the service is older the usual findings apply: heat damage, grounding that predates current requirements, a panel with nothing left. Where the house still sits low, a panel that has been under water is replaced rather than dried out, whatever the Greenway has done for surface water.',
@@ -125,7 +125,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'east-end': {
     intro:
-      'River cottage or condominium? In the East End along Eastern Avenue, a cottage owner usually owns a small, low service that water has reached before, while a condo’s disconnected service is building infrastructure. We handle the cottages directly. Call (513) 586-5107.',
+      'An East End power disconnection plays out differently in a river cottage and a condominium. A cottage along Eastern Avenue usually has a small, low service that water has reached before, and the owner owns it. In a condo, the service is building infrastructure. We handle the cottages directly.',
     relevance: [
       'The East End (ZIP 45226) is a narrow riverfront strip along Eastern Avenue with historic river cottages and newer condominiums wedged between the hillside and the Ohio, and those two housing types produce opposite conversations. On a cottage the service is the homeowner’s, frequently original, small, and low enough that water has reached the panel more than once. On a condominium the service is building infrastructure and the resident owns none of it.',
       'That means the first question here is not what failed but who owns it. A cottage owner can authorise work on the phone. A condominium resident needs to go to their association, and an individual owner commissioning work on shared equipment creates problems later. We establish which situation applies before quoting, because getting that wrong wastes a day at the point where days matter.',
@@ -142,7 +142,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'north-fairmount': {
     intro:
-      'Long-held North Fairmount houses have services that never needed attention, so they were never brought forward. Once the power is disconnected, an inspector judges them against current requirements, and that’s where the gap shows. We close it. Call (513) 586-5107.',
+      'Long-held North Fairmount houses often have services that never needed attention, so nobody brought them forward. Once the power is disconnected, an inspector judges that service against current requirements, and that is where the gap shows. We close it on these early-1900s hillside homes.',
     relevance: [
       'North Fairmount (ZIP 45225) is a small hillside neighborhood of older early-1900s houses above the Mill Creek valley, and a good number have been in the same hands for a very long time. That sounds like a good thing and is, until someone examines the electrical service. A service that has never needed attention is also a service that has never been brought forward, and it can be decades behind current requirements while working perfectly.',
       'The trigger is external rather than a failure: a utility technician replacing a meter, a survey before a sale, an insurer asking questions. What they find is grounding that predates modern standards, a fuse panel, or corrosion inside the meter base — and the reconnection stops there. It is worth knowing that this is not a judgement on the house. It is the difference between the standard when it was installed and the standard applied today.',
@@ -159,7 +159,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   evanston: {
     intro:
-      'Sub-panels added when Evanston houses near Xavier were divided into units were often never permitted. Nobody looks until a disconnection has to be cleared, and then the inspector does. We find that work and bring it up to standard. Call (513) 586-5107.',
+      'Sub-panels added when Evanston houses near Xavier were divided into units were often never permitted. Nobody looks until a power disconnection has to be cleared, and then the inspector does. We find that unpermitted work, bring it up to standard and get the service signed off.',
     relevance: [
       'Evanston (ZIP 45207) sits next to Xavier University in early-1900s houses and apartment buildings, and a great many of the houses were divided into units over the decades. Each division usually meant a sub-panel and a set of circuits added to serve the new tenancy, and a good deal of that work was never permitted or inspected — it simply worked, so nobody looked.',
       'It gets looked at when a disconnection has to be cleared. An inspector examining the service finds sub-panels without proper bonding, circuits shared between what are now separate households, or a service feeding more units than it was ever calculated for. That is why an Evanston disconnection frequently turns out to be a larger job than the original fault suggested, and why establishing the scope at the estimate matters more here than in a single-family neighborhood.',
@@ -176,7 +176,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'south-cumminsville': {
     intro:
-      'South Cumminsville sits among industrial corridors in the Mill Creek valley, so local circuits carry industrial load too. The more common cause of a power disconnection is the valley itself: low basements where water reaches the panel. Call (513) 586-5107.',
+      'Water is the most common cause of a power disconnection in South Cumminsville, where older homes sit on low Mill Creek valley ground and basement panels flood. The circuits here carry industrial load too. We replace a flooded panel and look at whether it can be moved higher.',
     relevance: [
       'South Cumminsville (ZIP 45225) is a small neighborhood of older homes set among industrial corridors in the Mill Creek valley, and both halves of that description matter. The circuits through here carry industrial as well as residential load, so restoration priorities and the technicians who attend are not always the same as on a purely residential street.',
       'The valley supplies the more common cause. Low ground means basements take water, panels are nearly always in basements, and a panel that has stood in water is replaced rather than dried out — water reaches behind the bus bars and into the breakers and corrosion continues after everything looks dry. An inspector checks for exactly that before the meter goes back in, so on these streets we assess the panel as a matter of course rather than only the entrance.',
@@ -193,7 +193,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'english-woods': {
     intro:
-      'New construction in English Woods usually has one identifiable fault behind a disconnection, like a damaged meter base. Older homes on the same hilltop streets tend to need the whole service looked at. We tell you which applies. Call (513) 586-5107.',
+      'A power disconnection on new construction in English Woods usually comes down to one identifiable fault, such as a damaged meter base. Older homes on the same hilltop streets tend to need the whole service looked at. We tell you which applies before quoting.',
     relevance: [
       'English Woods (ZIP 45225) is a hilltop neighborhood above the Mill Creek valley that has seen substantial redevelopment, and that produces two very different disconnections on the same streets. Newer construction has a modern panel, adequate capacity and clean documentation, so a disconnection there is usually about one identifiable thing — a damaged meter base, a fault found during other work, or an inspection on a property that has been empty.',
       'What remains of the older housing is the opposite: services that may be original, grounding that predates current requirements, and panels with nothing left in them. The same utility technician applying the same standard reaches a different conclusion on the two. We establish which you have before quoting, because the scope and the cost are not comparable and it is unhelpful to imply otherwise.',
@@ -210,7 +210,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'north-avondale': {
     intro:
-      'Set well back on large lots near Rockdale Avenue, North Avondale houses have long service runs and a lot of equipment inside. When that service is disconnected, we check the whole run, repair the fault and arrange the reconnect. Call (513) 586-5107.',
+      'Set well back on large lots near Rockdale Avenue, North Avondale houses have long service runs and heavy loads on century-old services. When that service is disconnected, we check the whole run as well as the panel, repair the fault and arrange the reconnect.',
     relevance: [
       'North Avondale (ZIP 45229) is grand early-1900s houses on large, tree-shaded lots near Rockdale Avenue, and the size of both the houses and the lots matters. A house set well back from the street has a long service run to it, and a house of this scale now carries multiple heating and cooling zones, a finished lower level, a serious kitchen and often car charging — on a service that was generous when it was installed and is marginal now.',
       'Run near its ceiling for years, it degrades at the connections rather than failing outright, and heat damage at the meter socket is what a technician refuses to re-energise. On houses of this character the repair also has to be sympathetic: a properly sized modern service still has to be routed and mounted on a building people have spent money preserving. We plan that before starting rather than improvising on the day.',
@@ -227,7 +227,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   millvale: {
     intro:
-      'Water, not wear, is the usual cause of a power disconnection in Millvale. Panels sit in low Mill Creek valley basements, and once one has been submerged the utility will not re-energise it. We replace it and get it inspected. Call (513) 586-5107.',
+      'Water, not wear, causes most power disconnections in Millvale. Panels sit in low basements on Mill Creek valley ground, and once one has been submerged the utility will not re-energise it. We replace the panel, get it inspected, and work through it when several houses flood together.',
     relevance: [
       'Millvale (ZIP 45225) is a small, compact residential neighborhood on low ground in the Mill Creek valley, and the recurring cause of disconnections here is water rather than wear. Panels sit in low basements, water reaches them, and the utility will not re-energise a panel that has been submerged. That is settled before the argument starts: water gets behind the bus bars and into the breakers, and corrosion continues long after the surface dries.',
       'Because the neighborhood is compact and uniformly low, this tends to affect several houses at once rather than one unlucky property — which means neighbours competing for the same inspection slots. Calling early genuinely helps. Where a panel has been replaced once for the same reason, the more useful question is whether it can be relocated higher rather than renewed in the same position.',
@@ -244,7 +244,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'paddock-hills': {
     intro:
-      'Homes wired roughly between 1965 and 1973, including some in Paddock Hills, often have aluminium branch circuits that loosen and overheat at the terminations. After a disconnection, an inspector may look at that wiring too. We check it. Call (513) 586-5107.',
+      'Some Paddock Hills homes were wired roughly between 1965 and 1973, when aluminium branch circuits were common, and those connections loosen and overheat over time. After a power disconnection, the inspector may look at that wiring as well as the service. We check both and quote what needs doing.',
     relevance: [
       'Paddock Hills (ZIP 45229) is a small pocket of early- and mid-1900s homes near Paddock Road, and the later houses fall into a period worth knowing about. Homes wired roughly between 1965 and 1973 were often given aluminium branch circuit wiring, which behaves differently from copper at the terminations — it expands and contracts more, and connections can loosen and overheat over time.',
       'That matters for disconnections and for insurance. An inspector or a technician who identifies aluminium branch wiring will look closely at the terminations, and insurers frequently ask about it. The remedy is not usually a whole rewire: properly rated connectors at the terminations, done thoroughly, is the recognised approach. What causes trouble is aluminium terminated into devices never rated for it, which is common where circuits have been altered over the years.',
@@ -261,7 +261,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'spring-grove-village': {
     intro:
-      'Low ground around the cemetery and arboretum puts panels where water reaches them. In Spring Grove Village a submerged panel is replaced, and the inspector checks for signs of submersion before the disconnection is lifted. Call (513) 586-5107.',
+      'In Spring Grove Village, a power disconnection after flooding means a new panel. Low ground around the cemetery and arboretum puts basement panels where water reaches them, and the inspector checks for signs of submersion before the disconnection is lifted. We handle the replacement and that inspection.',
     relevance: [
       'Spring Grove Village (ZIP 45232) sits in the Mill Creek valley around the historic cemetery and arboretum, with older homes mixed among industry. The valley is the recurring factor: low ground, panels in low basements, and water reaching equipment that then has to be replaced rather than dried out. An inspector will look specifically for signs of submersion before the meter goes back in.',
       'The industrial mix adds a second thread. Circuits here carry commercial and industrial load alongside houses, and where a residential property sits on the same infrastructure the technicians who attend and the priorities they work to are not always the residential ones. None of that changes the ownership split — the mast, meter box and panel are yours, and the utility will not reconnect to them until a licensed repair has been inspected.',
@@ -278,7 +278,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   linwood: {
     intro:
-      'Linwood sits on the river bottoms near Lunken Airport, and the panel is usually in the lowest part of the house. After high water, a submerged panel means a disconnection that only ends with replacement. We do that work. Call (513) 586-5107.',
+      'Linwood sits on the river bottoms near Lunken Airport, and the panel is usually in the lowest part of the house. After high water, a submerged panel means a power disconnection that only ends with replacement, even if it only looks damp. We replace it and handle the inspection.',
     relevance: [
       'Linwood (ZIP 45226) is a small east-side neighborhood along Eastern Avenue near Lunken Airport, on the river bottoms, and the two causes of disconnection here both follow from that position. Low, flat ground next to the river means water reaches the lowest part of the house, which is where the panel usually is — and a submerged panel is replaced rather than dried out, whatever it looks like once the water has gone.',
       'The second is age. These are older houses, many long-held, with services that have not been touched because nothing ever went wrong. That is exactly the service that turns out to be furthest behind current requirements when a technician replacing a meter finally examines it. Grounding that predates modern standards and corrosion inside the meter base are the usual findings, and neither is a judgement on the house.',
@@ -295,7 +295,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'bond-hill': {
     intro:
-      'The service your Bond Hill house got in the 1960s or 70s felt like a permanent fix. Fifty years on, that equipment is obsolete itself, and it’s what most disconnections along Reading Road now turn on. Call (513) 586-5107.',
+      'The replacement service your Bond Hill house got in the 1960s or 70s felt permanent at the time. Fifty years on, that equipment is obsolete itself, sometimes with aluminium branch wiring, and it is what most power disconnections along Reading Road now come down to. We repair or replace it.',
     relevance: [
       'Bond Hill (ZIP 45237) is established housing along Reading Road, and there is a pattern here that catches people out. A great many services in this neighborhood are not original — they were replaced once, in the 1960s or 70s, when the houses were modernised. That felt like a permanent fix. Fifty years on, that replacement equipment is itself obsolete, and it is what disconnections now turn on.',
       'The era matters for a second reason. Houses wired or rewired roughly between 1965 and 1973 frequently have aluminium branch circuits, which loosen and overheat at the terminations in a way copper does not. Where a 1960s panel and aluminium branch wiring appear together — and in this neighborhood they often do — an inspector clearing a tag will look at both. The remedy for the wiring is usually properly rated connectors rather than a full rewire.',
@@ -312,7 +312,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'villages-of-roll-hill': {
     intro:
-      'Residents at Villages of Roll Hill don’t own the entrances or meter banks, so nobody living there can start a disconnection repair by calling an electrician. Management authorises and pays for it. Property managers can reach us directly. Call (513) 586-5107.',
+      'At Villages of Roll Hill, a power disconnection is the property’s repair, not a resident’s. The entrances and meter banks serving the apartment buildings belong to the owner, so management authorises and pays for the work. We deal with property managers directly on the repair and inspection.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a hilltop community made up largely of multi-unit apartment buildings, and essentially none of the electrical service equipment belongs to a resident. The entrances, the meter banks and the distribution feeding each building are the property’s, so a disconnection is authorised and paid for by the owner or management, and a resident cannot start the process by calling an electrician.',
       'The scale is the other factor. Where a building runs a bank serving many units, the parts are frequently obsolete and the enclosure is as old as the parts — so clearing a disconnection means replacing the assembly rather than a component, and every household on that bank comes off and goes back together. That is a bigger job than a single service, and it is considerably cheaper handled as one than piecemeal.',
@@ -329,7 +329,7 @@ export const part3: Record<string, LocationServiceCopy> = {
 
   'east-westwood': {
     intro:
-      'Modest houses on the slopes between Westwood and the Mill Creek valley got modest services. In East Westwood many are still near original, so after a power disconnection the real question is whether to refit the same size. Call (513) 586-5107.',
+      'Modest houses on the slopes between Westwood and the Mill Creek valley got modest services, and in East Westwood many are still near original. After a power disconnection, the real question is whether to refit the same size or upgrade. We price both so the choice is clear.',
     relevance: [
       'East Westwood (ZIP 45211) is early- and mid-1900s housing on the slopes between Westwood and the Mill Creek valley, and the houses are modest. That matters because the services they were given were modest too, and a great many are still close to the original — adequate for the house as built, and carrying rather more than that now.',
       'When a technician or an inspector declines to re-energise one, the underlying question is whether to refit the same capacity or bring the service up to what the house actually draws. The costs that dominate this job are the labour, the permit and the inspection, and those are the same either way, which is what makes the second option worth pricing rather than assuming it is out of reach. We quote both and explain which parts are genuinely worn.',

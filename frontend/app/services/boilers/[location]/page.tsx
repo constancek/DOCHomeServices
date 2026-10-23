@@ -18,7 +18,7 @@ const config: ServiceLocationConfig = {
   introHeading: 'Boiler Service in {neighborhood}',
   introParagraphs: [
     'A boiler heats water to roughly 140°F and sends it through radiators, baseboards, or tubing under the floor. {brand} repairs, maintains, and replaces boilers for homes and rental buildings in {place}: hot water, steam, gas-fired, oil-fired, combi, and cast iron.',
-    'If your building’s boiler is under a service contract with another company, call them first so you don’t pay twice. For everything else, our licensed technicians handle 7-day no-heat calls, annual tune-ups, and replacement quotes, with the price up front.',
+    'If your building’s boiler is under a service contract with another company, call them first so you don’t pay twice. For everything else, our licensed technicians handle no-heat calls any day of the week, annual tune-ups, and replacement quotes, with the price up front.',
   ],
   sidebarSections: [
     {
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Financing Your Boiler in {neighborhood}', body: 'A boiler replacement is a large expense, so we offer financing with flexible terms and an estimate, so you know the cost before you decide.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Choose Us',
-  whyUs: [
-    { icon: 'clock', title: 'Seven-Day No-Heat Service', text: 'A boiler that quits gets a technician the same day, 7 days a week from 8am to 8pm.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start, with no overtime or weekend fees.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked technicians and code-compliant gas and venting work.' },
-    { icon: 'star', title: 'Financing Available', text: 'Flexible plans when a replacement makes more sense than another repair.' },
-  ],
+  whyParagraph: 'When a boiler quits in {neighborhood}, a technician comes out the same day, any day of the week. You approve the price before work begins, and financing helps when replacing makes more sense than repairing again.',
   proofQuote:
     'Our old boiler kept losing pressure every winter. They found the leak, fixed it, and explained what to watch for. The radiators have been hot since.',
   sharedFaqs: [
@@ -106,7 +101,7 @@ export async function generateMetadata({
   return {
     // The root layout template appends " | Degree of Comfort".
     title: `Boiler Repair in ${loc.neighborhood}, ${loc.state}`,
-    description: `Boiler repair, tune-ups, and replacement in ${place}. Hot water, steam, gas, and oil boilers, with 7-day no-heat service.`,
+    description: `Boiler repair, tune-ups, and replacement in ${place}. Hot water, steam, gas, and oil boilers, with no-heat service every day, weekends included.`,
     alternates: { canonical: `/services/boilers/${loc.slug}` },
     openGraph: {
       title: `Boiler Service in ${place} | ${site.name}`,

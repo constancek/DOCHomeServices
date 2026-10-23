@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Safer Home, Higher Value', body: 'A modern panel ends the nuisance trips and the safety risks of an overloaded or aging system, and it is a genuine selling point in {neighborhood}. Many insurers now require an updated panel to keep coverage, so the upgrade pays off in more ways than one.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'High-voltage panel work handled safely by trained pros.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Permitted installs that pass final inspection.' },
-    { icon: 'badge', title: 'Right-Sized Amperage', text: 'A panel sized for your home’s real electrical demand.' },
-    { icon: 'house', title: 'Minimal Disruption', text: 'A smooth process that respects your home and time.' },
-  ],
+  whyParagraph: 'Your new panel is sized to the electrical demand your {neighborhood} home really has. Licensed electricians handle the high-voltage work safely, the install is permitted and inspected, and we keep the disruption to your day small.',
   proofQuote:
     'Our 1960s house still had the original panel and breakers tripped constantly. They upgraded us to 200A, labeled everything, pulled the permit, and passed inspection same week. No more flickering lights, and we can finally run the AC and oven at once.',
   sharedFaqs: [

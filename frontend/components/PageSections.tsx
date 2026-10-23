@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import type { ReactNode } from 'react';
 import Icon from './Icon';
 import TornEdge from './TornEdge';
 import LogoMarquee from './LogoMarquee';
@@ -6,8 +7,12 @@ import VideoTestimonials from './VideoTestimonials';
 import ReviewsSection from './ReviewsSection';
 import EstimateForm from './EstimateForm';
 import ServicesMenu from './ServicesMenu';
+import { MapWidget } from './Sidebar';
+import LocationVideoProof from './LocationVideoProof';
+import LocationTeamPhotos from './LocationTeamPhotos';
+import { videoForService } from '@/content/videoTestimonials';
 import { site } from '@/content/site';
-import { benefits, awards, clubPerks, fundingPoints } from '@/content/home';
+import { benefits, clubPerks, fundingPoints } from '@/content/home';
 import { bookingLabels } from '@/content/bookingLabels';
 
 // Shared marketing sections reused across the homepage and every interior page.
@@ -35,7 +40,7 @@ export default function PageSections({
       {mobileServiceList && (
         <section className="bg-white pb-12 pt-10 lg:hidden">
           <div className="container-page">
-            <h2 className="m-center mb-4 font-display text-xl font-extrabold uppercase text-brand-700">
+            <h2 className="m-center mb-4 font-display text-xl font-extrabold text-brand-700">
               Our Services
             </h2>
             <ServicesMenu />
@@ -84,7 +89,7 @@ export function BlogSections({ showVan = false }: { showVan?: boolean }) {
 
 // Trimmed shared sections for service × neighborhood pages: no reviews and no
 // repeated company blurbs, so each page's own local copy makes up more of it.
-// Keeps the brand strip and the booking form.
+// Just the booking form; the video, awards and photo band sit higher up.
 export function LocationSections({ neighborhood, seed }: { neighborhood: string; seed: string }) {
   return (
     <>
@@ -92,6 +97,56 @@ export function LocationSections({ neighborhood, seed }: { neighborhood: string;
       <BookAndContact neighborhood={neighborhood} seed={seed} service={seed} />
     </>
   );
+}
+
+// Shared closing sections for service master pages, using the location-page
+// blocks instead of the homepage ones: the trade-matched customer video,
+// the awards strip, the van/tech/team photo band, then the booking form.
+// Anything passed as children (the page's "by neighborhood" links) renders
+// below the form.
+// Service pages place the review and photo blocks where location pages do:
+// ServiceReviews after the pink band(s), ServicePhotoBand just above the FAQs.
+// `withProof` puts both at the bottom instead, for pages without that layout.
+export function ServiceSections({
+  service,
+  withProof = false,
+  children,
+}: {
+  service: string;
+  withProof?: boolean;
+  children?: ReactNode;
+}) {
+  return (
+    <>
+      {withProof && (
+        <>
+          <ServiceReviews service={service} />
+          <ServicePhotoBand />
+        </>
+      )}
+      <BookAndContact service={service} />
+      {children}
+    </>
+  );
+}
+
+// Trade-matched customer video plus the awards strip under it.
+export function ServiceReviews({ service }: { service: string }) {
+  return (
+    <>
+      <LocationVideoProof neighborhood="Cincinnati" video={videoForService(service)} />
+      <section className="bg-cream pb-16">
+        <div className="container-page">
+          <LogoMarquee />
+        </div>
+      </section>
+    </>
+  );
+}
+
+// "Degree of Comfort in Cincinnati" band with the three framed photos.
+export function ServicePhotoBand() {
+  return <LocationTeamPhotos neighborhood="Cincinnati" />;
 }
 
 /* ─────────────── Our Difference banner ─────────────── */
@@ -109,7 +164,7 @@ export function OurDifferenceBanner() {
       />
       <div className="container-page relative py-20">
         <div className="m-center max-w-2xl text-white">
-          <h2 className="font-display text-4xl font-black uppercase leading-[1.05] text-pink-500 sm:text-5xl">
+          <h2 className="font-display text-4xl font-black leading-[1.05] text-pink-500 sm:text-5xl">
             Our Difference.
           </h2>
           <p className="m-left mt-5 text-base leading-relaxed text-white/90 sm:text-base">
@@ -162,35 +217,20 @@ export function IntroColumns() {
 /* ─────────────── Why choose ─────────────── */
 export function WhyChoose() {
   return (
-    <section id="why" className="bg-white pb-16 pt-10 sm:pt-16">
+    <section id="why" className="bg-blue-section pb-16 pt-10 sm:pt-16">
       <div className="container-page">
-        {/* Trust-seal medallions */}
-        <div className="mb-16 flex flex-wrap items-center justify-center gap-5 sm:mb-20 sm:gap-8">
-          {awards.map((a) => (
-            <div
-              key={a.label}
-              className="flex h-24 w-24 flex-col items-center justify-center gap-1.5 rounded-full bg-brand-50 px-3 text-center ring-4 ring-brand-100 sm:h-28 sm:w-28"
-            >
-              <Icon name={a.icon} className="h-[31px] w-[31px] text-pink-500" />
-              <span className="text-[9px] font-extrabold uppercase leading-tight tracking-wide text-brand-700 sm:text-[10px]">
-                {a.label}
-              </span>
-            </div>
-          ))}
-        </div>
-
         {/* Mobile gets sentence case, centred, and a smaller size — the full
             uppercase headline runs to six lines on a phone. */}
-        <h2 className="section-title mx-auto max-w-5xl text-balance text-center text-2xl normal-case text-brand-700 sm:text-4xl sm:uppercase lg:text-[32px]">
+        <h2 className="section-title mx-auto max-w-5xl text-balance text-center text-2xl text-white sm:text-4xl lg:text-[32px]">
           {`Why Choose ${site.name} as Your Residential HVAC, Plumbing & Electrical Contractors?`}
         </h2>
 
         {/* Benefits: one row of five on desktop */}
-        <ul className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-6">
+        <ul className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
           {benefits.map((b) => (
-            <li key={b.title} className="flex flex-col items-center text-center">
-              <span className="grid h-12 w-12 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                <Icon name={b.icon} className="h-6 w-6" />
+            <li key={b.title} className="flex flex-col items-center rounded-2xl bg-white px-5 py-7 text-center shadow-card transition duration-300 hover:-translate-y-1">
+              <span className="grid h-16 w-16 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
+                <Icon name={b.icon} className="h-8 w-8" />
               </span>
               <h3 className="mt-4 font-display text-[17px] font-extrabold text-brand-700">{b.title}</h3>
               <p className="mt-1.5 text-[15px] leading-relaxed text-ink/70">{b.text}</p>
@@ -318,7 +358,7 @@ export function GetFunding() {
         </div>
         <ul className="m-list space-y-3">
           {fundingPoints.map((p) => (
-            <li key={p} className="flex items-center gap-3 text-sm font-semibold text-ink/80">
+            <li key={p} className="flex items-center gap-3 text-base font-semibold text-ink/80">
               <span className="grid h-7 w-7 flex-shrink-0 place-items-center rounded-full bg-lime-500 text-white">
                 <Icon name="check" className="h-4 w-4" />
               </span>
@@ -335,12 +375,12 @@ export function GetFunding() {
 export function ComfortClub() {
   return (
     <section className="cv-auto bg-blue-section">
-      <div className="container-page grid items-center gap-10 py-16 lg:grid-cols-2">
+      <div className="container-page grid items-center gap-10 py-16 lg:grid-cols-[auto_1fr] lg:gap-16">
         <div className="m-center text-white">
           <h2 className="section-title">Comfort Club</h2>
           <ul className="m-list mt-6 space-y-3">
             {clubPerks.map((perk) => (
-              <li key={perk} className="flex items-center gap-3 text-sm font-semibold">
+              <li key={perk} className="flex items-center gap-3 text-base font-semibold">
                 <span className="grid h-6 w-6 flex-shrink-0 place-items-center rounded-full bg-pink-500">
                   <Icon name="check" className="h-3.5 w-3.5 text-white" />
                 </span>
@@ -353,7 +393,7 @@ export function ComfortClub() {
             <Icon name="arrow" className="h-4 w-4" />
           </Link>
         </div>
-        <div className="aspect-[16/10] overflow-hidden rounded-2xl bg-white/10 ring-1 ring-white/20 lg:ml-auto lg:w-[120%]">
+        <div className="aspect-[16/10] lg:aspect-[16/9] overflow-hidden rounded-2xl bg-white/10 ring-1 ring-white/20">
           <img
             src="/orange-club.webp"
             alt="Degree of Comfort Comfort Club members"
@@ -457,7 +497,7 @@ export function BookAndContact({
       <div className="container-page grid gap-10 lg:grid-cols-2 lg:gap-14">
         {/* Contact copy — sits straight on the blue, no card */}
         <div className="text-white lg:pt-6">
-          <h2 className="text-balance font-display text-3xl font-black uppercase leading-[1.05] text-white sm:text-4xl">
+          <h2 className="text-balance font-display text-3xl font-black leading-[1.05] text-white sm:text-4xl">
             {heading}
           </h2>
           <a
@@ -487,16 +527,10 @@ export function BookAndContact({
               </a>
             </li>
           </ul>
-          {/* Mascot fills the space beside the form on desktop only */}
-          <img
-            src="/bulldog.webp"
-            alt="Degree of Comfort bulldog mascot giving a thumbs up"
-            width={768}
-            height={768}
-            loading="lazy"
-            decoding="async"
-            className="mt-6 hidden h-auto w-72 lg:block xl:w-80"
-          />
+          {/* Service-area map beside the form */}
+          <div className="mt-8 max-w-md">
+            <MapWidget />
+          </div>
         </div>
 
         {/* Booking form — the real, GHL-linked estimate form (heading only differs) */}

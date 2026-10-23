@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
@@ -13,7 +13,7 @@ import { withSocial } from '@/lib/seo';
 
 export const metadata: Metadata = withSocial({
   title: 'Mini-Split Repair',
-  description: `Ductless mini-split repair across ${site.serviceArea} from ${site.name} — weak cooling, leaks, ice, and error codes fixed on all major brands. Seven-day emergency service, upfront pricing.`,
+  description: `Ductless mini-split repair across ${site.serviceArea} from ${site.name} — weak cooling, leaks, ice, and error codes fixed on all major brands. Emergency service every day, upfront pricing.`,
   alternates: { canonical: '/services/mini-split-repair' },
 });
 
@@ -50,12 +50,6 @@ const prevent = [
   'Address performance changes early',
 ];
 
-const whyUs = [
-  { icon: 'badge' as const, title: 'All Major Brands', text: 'We repair single- and multi-zone mini-splits from every major brand.' },
-  { icon: 'shield' as const, title: 'Refrigerant-Certified', text: 'Licensed technicians who handle refrigerant safely and to code.' },
-  { icon: 'clock' as const, title: 'Seven-Day Emergency Service', text: 'Lost cooling or heating? We respond 7 days a week from 8am to 8pm.' },
-  { icon: 'check' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-];
 
 const faqs = [
   { q: 'Why is my mini-split not cooling?', a: 'The usual causes are low refrigerant, a dirty filter choking airflow, a frozen coil, or a faulty sensor or control board. We diagnose the exact cause and fix it rather than guessing.' },
@@ -100,7 +94,7 @@ export default function MiniSplitRepairPage() {
       <PageHero
         eyebrow="Air Conditioning · Mini-Splits"
         title={`Ductless Mini-Split Repair in ${site.serviceArea}`}
-        description="Weak cooling, leaks, odors, or error codes? Our licensed technicians diagnose and repair ductless mini-splits fast — all major brands, with 7-day emergency service."
+        description="Weak cooling, leaks, odors, or error codes? Our licensed technicians diagnose and repair ductless mini-splits fast — all major brands, with emergency service weekends included."
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -110,32 +104,16 @@ export default function MiniSplitRepairPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Mini-split not working in {site.serviceArea}? Call for service
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar couponTitle="Furnace Tune-Up">
+        <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/minisplit-repair-hero.webp)' }}
             role="img"
             aria-label="Technician repairing a ductless mini-split"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Ductless Mini-Split Repair
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -170,17 +148,17 @@ export default function MiniSplitRepairPage() {
             aria-label="Ductless mini-split being repaired"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs Your Mini-Split Needs Repair
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
               Mini-split issues often start small — subtle performance changes can signal a larger
               problem if left unaddressed. Common signs your ductless system may need repair include:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {signs.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={s} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
               ))}
@@ -197,7 +175,7 @@ export default function MiniSplitRepairPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Mini-Split Repair Process
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -234,7 +212,7 @@ export default function MiniSplitRepairPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {commonRepairs.map((c) => (
-              <li key={c} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={c} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {c}
               </li>
@@ -244,17 +222,40 @@ export default function MiniSplitRepairPage() {
             Timely repair helps keep your mini-split system running smoothly and efficiently.
           </p>
 
+        </div>
+      </section>
+
+      <ServiceReviews service="mini-split-repair" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Mini-split not working in {site.serviceArea}? Call for service
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
+        </div>
+      </section>
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* Emergency */}
-          <h2 className="mt-12 section-title text-brand-700">Emergency Mini-Split Repair, 7 days a week from 8am to 8pm</h2>
+          <h2 className="mt-12 section-title text-brand-700">Emergency Mini-Split Repair, 7 days a week</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Mini-split problems do not always happen during business hours, and a loss of cooling or
-            heating can quickly affect comfort and safety inside the home. {site.name} offers 7 days a week from 8am to 8pm
+            heating can quickly affect comfort and safety inside the home. {site.name} offers 7 days a week
             emergency mini-split repair for urgent situations — focused on restoring comfort as quickly
             as possible while helping prevent further damage to the system.
           </p>
           <div className="mt-6 flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
             <h3 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">
-              No cooling or heating right now? We answer 7 days a week from 8am to 8pm.
+              No cooling or heating right now? We answer 7 days a week.
             </h3>
             <a href={site.primaryPhone.href} className="btn-pink flex-shrink-0">
               <Icon name="phone" className="h-4 w-4" />
@@ -271,7 +272,7 @@ export default function MiniSplitRepairPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {b}
               </li>
@@ -299,7 +300,7 @@ export default function MiniSplitRepairPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {prevent.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
@@ -312,25 +313,18 @@ export default function MiniSplitRepairPage() {
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Mini-Split Repair</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Homeowners across {site.serviceArea} trust {site.name} for professional cooling and heating
-            services. Our mini-split repairs are performed by trained technicians who prioritize
-            accuracy, safety, and clear communication — we take the time to diagnose issues correctly
-            and complete repairs with care, so your system performs reliably.
+            A mini-split repair is only as good as the diagnosis behind it. Our trained
+            technicians find the actual fault first, then repair it safely and explain what
+            failed, so you pay only for the fix your system needs.
           </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Mini-Split Repair FAQs</h2>
           <div className="mt-4">
@@ -345,7 +339,7 @@ export default function MiniSplitRepairPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Mini-Split Repair Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule Your Mini-Split Repair Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               If your ductless mini-split is not cooling or heating properly, professional repair can
               help. Call now or request an estimate.
@@ -363,20 +357,20 @@ export default function MiniSplitRepairPage() {
         </div>
       </section>
 
-      {/* Mini-split repair by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Mini-split repair by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We repair ductless mini-splits across {site.serviceArea} —{' '}
-            {locations.filter((l) => miniSplitRepairCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on the homes and spaces in your area.
-          </p>
-          <NeighborhoodLinks copy={miniSplitRepairCopy} basePath="/services/mini-split-repair" linkPrefix="Mini-split repair" />
-        </div>
-      </section>
-
-      <PageSections service="mini-split-repair" />
+      <ServiceSections service="mini-split-repair">
+        {/* Mini-split repair by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Mini-split repair by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We repair ductless mini-splits across {site.serviceArea} —{' '}
+              {locations.filter((l) => miniSplitRepairCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on the homes and spaces in your area.
+            </p>
+            <NeighborhoodLinks copy={miniSplitRepairCopy} basePath="/services/mini-split-repair" linkPrefix="Mini-split repair" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

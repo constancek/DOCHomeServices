@@ -152,7 +152,7 @@ export default function ComfortClubPage() {
         </div>
         <div className="container-page grid gap-10 py-14 lg:grid-cols-2 lg:items-center">
           <div>
-            <h2 className="m-center font-display text-4xl font-black uppercase leading-[1.05] text-lime-600 sm:text-5xl">
+            <h2 className="m-center font-display text-4xl font-black leading-[1.05] text-lime-600 sm:text-5xl">
               $18.99/Month Draft* for One System**
             </h2>
             <p className="m-center mt-3 font-display text-lg font-extrabold uppercase tracking-wide text-brand-600">
@@ -194,7 +194,7 @@ export default function ComfortClubPage() {
                 <div className="mt-4 rounded-2xl bg-white p-5">
                   <ul className="space-y-2.5">
                     {card.items.map((item) => (
-                      <li key={item} className="flex gap-2.5 text-sm font-semibold text-brand-900">
+                      <li key={item} className="flex gap-2.5 text-base font-semibold text-brand-900">
                         <span className="mt-0.5 grid h-4 w-4 flex-shrink-0 place-items-center rounded-full bg-cobalt text-white">
                           <Icon name="check" className="h-2.5 w-2.5" />
                         </span>

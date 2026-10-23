@@ -6,7 +6,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part9: Record<string, LocationServiceCopy> = {
   'new-miami': {
     intro:
-      'New Miami sits on low ground beside the Great Miami River just north of Hamilton, so flooding is what usually shuts off the gas. Submerged controls are replaced, not relit. We test the system and restore service. Call (513) 586-5107.',
+      'New Miami sits on low ground beside the Great Miami River just north of Hamilton, so flooding is what usually causes a gas shutoff. Submerged furnace and water heater controls are replaced, not relit, because the corrosion is internal. We test the system and restore service.',
     relevance: [
       'New Miami (ZIP 45011) is a small Butler County village on low ground beside the Great Miami River just north of Hamilton, and water is the recurring reason gas goes off here. Where a furnace, boiler or water heater has been submerged, the gas control valve and burner controls are replaced rather than dried out and relit — the corrosion is internal, nothing shows from outside, and a control that works today can fail unsafely later.',
       'New Miami is its own village outside the Hamilton city limits, even though it shares a Hamilton postal address, so permits and inspections do not go through the city’s building department. Being a small village, the inspection queue rather than the plumbing usually decides how quickly the gas comes back, which is why we file and book it when the work is scheduled rather than at the end.',
@@ -23,7 +23,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   monroe: {
     intro:
-      'Monroe sits in both Butler and Warren counties, and the city issues gas permits on either side. Defaulting to a county office is the mistake we see. We file with Monroe, repair the shutoff and get your gas restored. Call (513) 586-5107.',
+      'Monroe sits in both Butler and Warren counties, and the city issues the permit for a gas shutoff repair on either side. Defaulting to a county office is the mistake we see most. We file with Monroe, repair the fault and get your gas restored.',
     relevance: [
       'Monroe (ZIP 45050) is its own city and it straddles a county line, sitting in both Butler and Warren counties. Inside the city limits Monroe issues the permit and inspection regardless of which county your address falls in, so the county line is less of a trap than it looks. What does catch contractors out is defaulting to a county office when it is the city’s.',
       'The city has grown a great deal, so much of the housing is newer subdivision stock piped in CSST — flexible tubing in a yellow jacket — where the common inspection finding is bonding to the electrical grounding system rather than a leak. On the older streets near the original centre it is rigid black iron, where a pressure test turns up aged joints and capped stubs instead.',
@@ -40,7 +40,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   landen: {
     intro:
-      'Landen homes have a Mason ZIP, but Mason does not inspect them. Deerfield Township and Warren County handle the permit for gas repairs here. We file by address, fix the shutoff and get the utility to restore service. Call (513) 586-5107.',
+      'Landen homes have a Mason ZIP, but Mason does not inspect their gas shutoff repairs. Deerfield Township and Warren County handle the permit for these homes. We file by street address, fix the fault and get the utility to restore service.',
     relevance: [
       'Landen (ZIP 45040) is an unincorporated Deerfield Township community in Warren County, and it shares its postal code with the city of Mason — which issues its own permits. Landen does not: permits and inspections here go through Deerfield Township and Warren County, so the address rather than the ZIP decides the office, and a contractor filing off the postal code files with the wrong one.',
       'The housing is largely 1970s through 1990s subdivision stock, which puts it in the era where CSST began appearing alongside black iron. On the CSST houses the common inspection finding is bonding to the electrical grounding system rather than a leak — a smaller correction than most people fear. We establish which you have before quoting, because the two are not comparable jobs.',
@@ -57,7 +57,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   'loveland-park': {
     intro:
-      'Despite the name, Loveland Park is not in the city of Loveland, so the township and Warren County handle permits for gas repairs. Filing with the city sends the paperwork back. We file correctly and restore service after a shutoff. Call (513) 586-5107.',
+      'Despite the name, Loveland Park is not in the city of Loveland, so the township and Warren County handle permits for a gas shutoff repair. Filing with the city sends the paperwork back. We file correctly, repair what fails and restore service.',
     relevance: [
       'Loveland Park (ZIP 45140) is an unincorporated Warren County community sharing a postal address with the city of Loveland, and the name makes the mix-up worse than the ZIP alone would. The city of Loveland issues its own permits and inspections. Loveland Park is not in the city, so yours go through the township and Warren County instead.',
       'A plumber filing for the wrong one does not fail an inspection — the paperwork comes back and is refiled while the house sits without hot water. It is worth asking before you book. The housing is mid-century and later, so a pressure test turns up either aged black iron and capped stubs from appliances long removed, or a CSST bonding issue on the newer streets.',
@@ -74,7 +74,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   maineville: {
     intro:
-      'In the Maineville village core, gas piping altered over a century can fail a pressure test even with every appliance working. Beyond the village some homes are on propane. We sort out which you have and restore service after a shutoff. Call (513) 586-5107.',
+      'In the Maineville village core, gas piping altered over a century can fail its test after a gas shutoff even with every appliance working. Beyond the village, some homes on the rural land are on propane. We sort out which you have and restore service.',
     relevance: [
       'Maineville (ZIP 45039) is a small Warren County village with an old core and rural land around it, and the two need separating. In the core the housing is old, with piping altered in stages over a century and capped stubs left wherever an appliance was removed — so a pressure test can fail with every appliance in the house working perfectly.',
       'Beyond the village some properties are on a propane tank rather than a gas main, and a loss of gas there is a supply or tank matter for your propane company rather than a utility disconnection we can clear. We would rather tell you that on the phone than charge you for a visit to say it. Inside the village Maineville issues its own permits; outside it, the township and Warren County do.',
@@ -91,7 +91,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   'pleasant-plain': {
     intro:
-      'Pleasant Plain is one of the smallest villages in Warren County, so the inspection and reconnect visit set the timeline after a gas shutoff, not the repair. We book the inspection when the work is scheduled. Call (513) 586-5107.',
+      'Pleasant Plain is one of the smallest villages in Warren County, so after a gas shutoff the inspection and the reconnect visit set the timeline, not the repair. The testing and repair are often a single day, and we file for the inspection when the work is arranged.',
     relevance: [
       'Pleasant Plain (ZIP 45162) is one of the smallest villages in Warren County, an old core surrounded by farmland, and scale is what shapes a gas shutoff here. The testing and repair are frequently a single day. What you actually wait on is the inspection and then the utility’s reconnect visit, so we file and book the inspection when the work is scheduled rather than once it is finished.',
       'On the rural land around the village, some properties are on a propane tank rather than a gas main — a loss of gas there is a supply matter for your propane company rather than something we reconnect, and we will say so on the phone. Where there is a meter, the older core housing means capped stubs and aged joints, and outbuildings with their own runs are part of what a test covers.',
@@ -108,7 +108,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   'south-lebanon': {
     intro:
-      'On low ground near the Little Miami in South Lebanon, a flooded gas control valve is replaced rather than dried out, since it can fail unsafely later. After the swap we test the lines and get your gas service restored. Call (513) 586-5107.',
+      'On low ground near the Little Miami in South Lebanon, a gas shutoff often follows a flooded control valve. That valve is replaced rather than dried out, since it can fail unsafely later. After the swap we test the lines and get your gas service restored.',
     relevance: [
       'South Lebanon (ZIP 45065) is a Warren County village on the Little Miami River, and on the low ground near the water submerged appliance controls are a recurring cause of gas shutoffs. A gas control valve that has been under water is replaced rather than dried out and relit, because the corrosion is internal, nothing shows from outside, and a control that works today can fail unsafely later.',
       'Where a property has flooded more than once, the useful question during a replacement is whether the appliance can be raised — venting is the constraint, and where a platform above the historic water line works, the cycle ends. South Lebanon issues its own permits and inspections inside the village, and the newer subdivisions on the higher ground are a different picture again, mostly CSST with bonding as the common finding.',
@@ -125,7 +125,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   lawrenceburg: {
     intro:
-      'Across the state line in Lawrenceburg, Indiana code, Indiana plumbing licences and an Indiana-regulated utility apply to a gas shutoff, and the city issues the permit. We check who supplies your gas, repair the fault and restore service. Call (513) 586-5107.',
+      'Across the state line in Lawrenceburg, a gas shutoff falls under Indiana code, Indiana plumbing licences and an Indiana-regulated utility, and the city issues the permit. We check your bill for who actually supplies your gas, repair the fault and restore service.',
     relevance: [
       'Lawrenceburg (ZIP 47025) is in Dearborn County, Indiana, and almost everything administrative changes at the state line. Your gas comes from an Indiana utility regulated by the Indiana Utility Regulatory Commission rather than Duke Energy Ohio and PUCO — worth checking your bill for who actually supplies you. The code is Indiana’s, plumbers are licensed by Indiana, and the permit and inspection go through the city of Lawrenceburg rather than any Ohio authority.',
       'A contractor who works only the Ohio side can get the filing wrong, and that is a delay rather than a failed inspection — the paperwork comes back and is redone while the house sits without hot water. The local factor is the river: on the low ground behind the floodwall, submerged appliance controls are a recurring cause and they are replaced rather than dried out.',
@@ -142,7 +142,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   greendale: {
     intro:
-      'Greendale shares ZIP 47025 with Lawrenceburg but issues its own gas permits, so filing off the postal code goes to the wrong office. Indiana code and licensing apply. We file with Greendale, repair the shutoff and restore service. Call (513) 586-5107.',
+      'Greendale shares ZIP 47025 with Lawrenceburg but issues its own permits, so filing a gas shutoff repair off the postal code goes to the wrong office. Indiana code and licensing apply here too. We file with Greendale, repair the fault and restore service.',
     relevance: [
       'Greendale (ZIP 47025) is a Dearborn County town next to Lawrenceburg, and it shares the postal code with the city — but not the permit office. Greendale issues its own, so a contractor filing off the ZIP files with the wrong one. On top of that everything is Indiana: Indiana code, Indiana plumbing licensure, and a utility answering to the Indiana Utility Regulatory Commission rather than PUCO.',
       'None of that changes the plumbing. The system is tested, the fault is repaired, it is inspected, and the supplier reconnects on the strength of the sign-off. What it changes is who signs and who is allowed to file, which is where the days get lost if the wrong assumptions are made. The housing spans older river-town stock and newer streets on the hillside, so the findings vary by era.',
@@ -159,7 +159,7 @@ export const part9: Record<string, LocationServiceCopy> = {
 
   aurora: {
     intro:
-      'Nineteenth-century river houses in Aurora often still have capped gas-lighting lines, and a pressure test after a shutoff tests them with everything else. Indiana code applies here. We find the leak and restore service. Call (513) 586-5107.',
+      'Nineteenth-century river houses in Aurora often still have capped gas-lighting lines, and a pressure test after a gas shutoff checks them with everything else. That is why a test can fail with every appliance working. Indiana code applies here. We find the leak and restore service.',
     relevance: [
       'Aurora (ZIP 47001) is a Dearborn County river city with genuinely old housing, much of it from the nineteenth century, and two things follow. The systems carry a century and a half of alterations, including lines capped at the wall when electric lighting arrived rather than removed — those are still connected, and a pressure test tests them along with everything else, which is why a test can fail with every appliance working perfectly.',
       'The other is that this is Indiana. The code is Indiana’s, plumbers are licensed by the state, the permit and inspection go through the city of Aurora, and your supplier answers to the Indiana Utility Regulatory Commission rather than PUCO. A Cincinnati plumber who has not worked this side of the line can get the filing wrong, which costs days. On the low riverfront ground, submerged appliance controls are the other recurring cause.',

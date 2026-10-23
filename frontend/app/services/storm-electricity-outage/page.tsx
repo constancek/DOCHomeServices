@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
@@ -38,12 +38,6 @@ const damageWeRepair = [
   { lead: 'Surge Damage Inside the Panel', text: 'A nearby strike can take out breakers and the panel bus while leaving the outside looking untouched.' },
 ];
 
-const whyUs = [
-  { icon: 'clock' as const, title: 'Storm-Week Scheduling', text: 'When the weather turns we staff for it, because everyone needs the same repair on the same day.' },
-  { icon: 'shield' as const, title: 'Licensed for Service Work', text: 'Mast, meter base, and entrance cable repair is licensed, permitted work.' },
-  { icon: 'badge' as const, title: 'We Handle the Inspection', text: 'We pull the permit and meet the inspector so Duke can reconnect without another delay.' },
-  { icon: 'house' as const, title: `Local Since ${site.founded}`, text: `${site.yearsExperience} years of Ohio River valley storms and the damage they do.` },
-];
 
 const faqs = [
   {
@@ -150,22 +144,10 @@ export default function StormElectricityOutagePage() {
         ]}
       />
 
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Storm damage at your meter or mast?
-          </h2>
-          <a href={site.primaryPhone.href} className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600">
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       <section className="py-16">
-        <MainWithSidebar couponTitle="Any Electrical Service">
+        <MainWithSidebar mascot couponTitle="Any Electrical Service">
           <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/storm-outage-hero.webp)' }} role="img" aria-label="Fallen tree across a residential street with downed power lines and a snapped utility pole" />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             When the Lights Come Back On Everywhere Except Your House
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -203,7 +185,7 @@ export default function StormElectricityOutagePage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Storm Damage We Repair
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -226,7 +208,7 @@ export default function StormElectricityOutagePage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/storm-outage-crews.webp)' }} role="img" aria-label="Utility bucket trucks restoring overhead power lines after a storm" />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Who Owns What
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -245,6 +227,20 @@ export default function StormElectricityOutagePage() {
               Duke Restores the Line. We Restore Your Connection to It.
             </p>
           </div>
+        </div>
+      </section>
+
+      <ServiceReviews service="storm-electricity-outage" />
+
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Storm damage at your meter or mast?
+          </h2>
+          <a href={site.primaryPhone.href} className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600">
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -339,27 +335,21 @@ export default function StormElectricityOutagePage() {
             Family-owned since {site.founded}, with crews who have worked every bad storm this valley has thrown at us. We will
             also tell you plainly when the problem is Duke&rsquo;s and there is nothing to buy.
           </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Storm Outage FAQs</h2>
           <div className="mt-4">
             <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Get Your Power Back On</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Get Your Power Back On</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               If your house is dark and the street is not, call now. We repair the damage, handle the
               inspection, and coordinate the Duke Energy reconnect across {site.serviceArea}.
@@ -377,25 +367,25 @@ export default function StormElectricityOutagePage() {
         </div>
       </section>
 
-      {/* Storm outage repair by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Storm outage repair by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Storm damage is local. Tree cover, terrain, and how old the service entrances are decide
-            which streets stay dark once Duke has restored the line — all {locations.length}{' '}
-            neighborhoods we cover are below, each with the detail that matters where you live.
-          </p>
-          <NeighborhoodLinks
-            copy={stormElectricityOutageCopy}
-            basePath="/services/storm-electricity-outage"
-            linkPrefix="Storm outage repair"
-            listAll
-          />
-        </div>
-      </section>
-
-      <PageSections service="storm-electricity-outage" />
+      <ServiceSections service="storm-electricity-outage">
+        {/* Storm outage repair by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Storm outage repair by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              Storm damage is local. Tree cover, terrain, and how old the service entrances are decide
+              which streets stay dark once Duke has restored the line — all {locations.length}{' '}
+              neighborhoods we cover are below, each with the detail that matters where you live.
+            </p>
+            <NeighborhoodLinks
+              copy={stormElectricityOutageCopy}
+              basePath="/services/storm-electricity-outage"
+              linkPrefix="Storm outage repair"
+              listAll
+            />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

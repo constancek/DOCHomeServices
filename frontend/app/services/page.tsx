@@ -55,7 +55,7 @@ export default function ServicesIndex() {
                   {s.highlights.slice(0, 3).map((h) => (
                     <li
                       key={h}
-                      className="flex items-center gap-2 text-sm font-medium text-brand-700"
+                      className="flex items-center gap-2 text-base font-medium text-brand-700"
                     >
                       <Icon name="check" className="h-4 w-4 text-brand-500" />
                       {h}

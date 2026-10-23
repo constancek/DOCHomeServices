@@ -1,7 +1,7 @@
 export const part2: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'madeira': {
     intro:
-      'Basement taking on water after a storm in Madeira, or a sump pump that no longer keeps up? We install, repair, and replace sump pumps across this east-side city and reach most homes around Miami and Euclid Avenues the same day. Call (513) 586-5107.',
+      'A stuck float switch is the most common reason a Madeira basement floods with the sump pump sitting right there. In these mid-century homes we test the float, check the discharge line for clogs and freezing, replace pumps a decade old or more and add a battery backup.',
     relevance: [
       'Madeira (ZIP 45243) is an established east-side city built largely of mid-century single-family homes on quiet, tree-lined streets. A sump pump set into a 1950s or 1960s basement is rarely the original unit any more, but plenty have been in the pit a decade or longer, which is well past the point where the motor, float, and check valve start to give out. When that happens during a hard rain, the pit fills and the water has nowhere to go but the basement floor.',
       'The mature trees that shade Madeira’s streets also mean a lot of finished lower levels and stored belongings sitting on slabs that were never fully sealed against groundwater. A pump that runs constantly through a wet spring is a pump that fails early, and a stuck float switch is the single most common reason a Madeira basement floods with the pump sitting right there. We test the float, check the discharge line for clogs and freezing, and recommend a battery backup so a power cut during the storm does not leave the pit unattended.',
@@ -17,7 +17,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'wyoming': {
     intro:
-      'Water seeping into a finished basement in Wyoming, or an old sump pump you are not sure still works? We install, repair, and replace sump pumps throughout this historic suburb and reach most homes the same day. Call (513) 586-5107.',
+      'Stone-and-block foundations in Wyoming’s Victorian and early-1900s homes seep at the joints, so a sump pump often stands between groundwater and a finished lower level. Many run a single pump with no backup, so we size the pump, add a battery backup and route the discharge away.',
     relevance: [
       'Wyoming (ZIP 45215) is a historic, affluent suburb north of the city, known for its grand Victorian and early-1900s homes on established, tree-shaded streets. Houses that old were built with stone-and-block foundations that seep at the joints and the floor seam, so a working sump pump is often the only thing standing between groundwater and a finished lower level. In a home where the basement holds a media room, a wine cellar, or original millwork, a failed pump turns into an expensive cleanup fast.',
       'A century-old house also tends to have a sump system that was added long after the home was built, sometimes decades ago, with a single pump and no backup. When a summer storm knocks the power out across Wyoming’s tree-lined streets, that lone pump goes quiet at exactly the moment the pit is filling. We size a pump to the home, add a battery-backup unit so an outage does not mean a flood, and route the discharge line well away from the foundation so the water does not circle straight back into the pit.',
@@ -33,7 +33,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mariemont': {
     intro:
-      'Damp basement or a sump pump that has stopped cycling in Mariemont? We install, repair, and replace sump pumps throughout this historic planned village and reach most homes the same day. Call (513) 586-5107.',
+      'Sump pumps in Mariemont’s 1920s Tudor Revival homes are often the last line of defense against mortar joints that seep. We test the pit, replace worn pumps, sticking floats and failed check valves, and can fit a battery backup with care for the village’s historic character.',
     relevance: [
       'Mariemont (ZIP 45227) is a planned "garden community" laid out in the 1920s and now a National Historic Landmark, known for its Tudor Revival architecture and village square. Because so much of the village dates to the 1920s and 30s, its basements sit behind nearly a century-old foundation walls that seep at the mortar joints, and a sump pump is usually the last line of defense before water reaches the floor. The pump itself is often far newer than the house, but few homeowners know how old the one in their pit actually is until it quits.',
       'These Tudor homes were not built around modern waterproofing, so a working pit and a clear discharge line matter more here than in a newer subdivision. A stuck float, a seized motor, or a check valve that lets water run back down can all leave the basement wet even though a pump is sitting in the hole. We test the system, replace what has worn out, and can fit a battery backup so a Mariemont basement is not left unattended during a storm, all with care for the village’s historic character.',
@@ -49,7 +49,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cheviot': {
     intro:
-      'Basement flooding after heavy rain in Cheviot, or a sump pump that trips and quits? We install, repair, and replace sump pumps across this west-side city along Harrison Avenue and reach most homes the same day. Call (513) 586-5107.',
+      'Single sump pumps that have sat in the pit for years are the usual problem in Cheviot’s early-1900s homes and brick two-families. We replace the worn unit, clear and re-pitch the discharge away from the foundation and recommend a battery backup for storms that cut the power.',
     relevance: [
       'Cheviot (ZIP 45211) is a small, densely built city on the west side, completely surrounded by Cincinnati, with a grid of early-1900s homes and brick two-families. Those century-old houses sit on small lots with block-and-stone basements that take on groundwater through the floor seam, and many run a single sump pump that has been in the pit for years. On tightly packed streets, a failed pump in one half of a brick two-family can mean water on both sides of a shared basement wall.',
       'The age of Cheviot’s housing is the main driver of the calls we get here. A pump motor wears out, a float switch sticks against the pit wall, or a discharge line clogs, and the next hard rain off Harrison Avenue puts water on the floor. We replace the worn unit, clear and re-pitch the discharge so it drains away from the foundation, and recommend a battery backup since the same storms that fill the pit are the ones most likely to cut the power.',
@@ -65,7 +65,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covedale': {
     intro:
-      'Sump pump not keeping up in Covedale, or a basement that takes water every spring? We install, repair, and replace sump pumps along Glenway and Cleves Warsaw and reach most homes the same day. Call (513) 586-5107.',
+      'Heavy clay soil holds water against Covedale foundations long after a storm, so sump pumps here cycle often and wear out early. Along Glenway and Cleves Warsaw we replace failing units, add a check valve so water does not run back and recommend a battery backup.',
     relevance: [
       'Covedale (ZIP 45238) is a settled west-side community on the edge of the city near Green Township, with neighborhoods of early-1900s through mid-century single-family homes. The heavy clay soil common across this part of the west side holds water against foundations long after a storm passes, so basements here lean on their sump pumps through every wet stretch. A pump that has sat in the pit since the last owner is exactly the kind that quits when it is finally asked to work hard.',
       'Because Covedale’s housing spans several decades, we see everything from original pits with no backup to newer pumps installed without a check valve. Clay soil keeps the groundwater high, the pump cycles often, and frequent cycling shortens its life, so worn motors and stuck floats are routine here. We replace the failing unit, add a check valve so water does not run back into the pit, and recommend a battery backup so a power cut during a storm does not leave the clay-bound basement defenseless.',
@@ -81,7 +81,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covington': {
     intro:
-      'Basement backing up near the river in Covington, or a sump pump that failed in the last storm? We install, repair, and replace sump pumps across the historic riverfront and MainStrasse Village and reach most homes the same day. Call (513) 586-5107.',
+      'On Covington’s low ground near the Ohio and the Licking, the water table rises with the rivers and a sump pump does real work. In MainStrasse Village and Licking Riverside we size the pump for these old stone-and-brick basements and add a battery backup for storm outages.',
     relevance: [
       'Covington (ZIP 41011) sits directly across the Ohio River from downtown Cincinnati, with historic districts like MainStrasse Village and Licking Riverside full of 19th-century rowhouses and brick homes. Those riverfront blocks sit on low ground near both the Ohio and the Licking, where the water table rises with the rivers, so a sump pump in a Covington basement is doing real work whenever high water pushes groundwater up through the floor. A century-old stone-and-brick basement seeps badly under that pressure, and a single pump is often all that is between it and a flooded lower level.',
       'The other side of life on low ground is power. The storms that drive the river up are the same ones that knock out electricity across the riverfront, and a sump pump with no battery backup is just a quiet box in the pit when that happens. We size the pump to the load these riverside homes carry, add a battery-backup unit, and route the discharge line so the pumped water clears the foundation instead of soaking straight back down. Covington is a core part of our service area just across the river, so we get there fast.',
@@ -97,7 +97,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newport': {
     intro:
-      'Water in a Victorian basement in Newport, or a sump pump that cannot keep up when the river rises? We install, repair, and replace sump pumps around the East Row Historic District and the riverfront and reach most homes the same day. Call (513) 586-5107.',
+      'In Newport’s East Row Victorians, a sump pump is what keeps groundwater out of stone-and-brick foundations as the Ohio rises. On the lower streets we replace worn pumps and floats, add a battery backup and route the discharge clear, with care for the historic detail.',
     relevance: [
       'Newport (ZIP 41071) is a Northern Kentucky river city across from downtown Cincinnati, home to the East Row Historic District, one of the largest Victorian historic districts in the state, along with the Levee riverfront. The hundreds of 19th-century homes in the East Row sit on stone-and-brick foundations that were never built to hold back groundwater, so a working sump pump is essential, especially on the lower streets where the water table climbs as the Ohio rises. A failed pump in one of these homes puts original woodwork and finished basements at real risk.',
       'On Newport’s low riverfront ground, the two things that beat a sump system are high water and lost power, and a strong storm brings both at once. A pump with no backup goes silent in an outage right as the pit is filling, and a worn motor or stuck float on a decades-old install does the same. We test the system, replace what has aged out, add a battery backup, and make sure the discharge line carries the water clear of the foundation, all with care for the historic detail these Victorian homes are known for.',
@@ -113,7 +113,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bellevue': {
     intro:
-      'Basement seeping or a sump pump that quit in Bellevue? We install, repair, and replace sump pumps around Fairfield Avenue near the river and reach most homes the same day. Call (513) 586-5107.',
+      'Bellevue’s late-1800s homes sit close together on low riverfront ground, and many still run an older single sump pump with no backup. Off Fairfield Avenue we replace worn pumps, fit a check valve so water does not drain back and add a battery backup.',
     relevance: [
       'Bellevue (ZIP 41073) is a compact Northern Kentucky river city with a historic Fairfield Avenue business district and tight streets of well-preserved late-1800s homes. Those century-old houses sit close together on low riverfront ground, behind stone-and-block basement walls that seep when the groundwater rises with the Ohio. On streets this tightly built, a sump pump is the practical line of defense, and many here are older single units with no backup.',
       'High water and storm outages are the recurring threat in a riverside city like Bellevue. When the river comes up the pit fills faster, and the same weather that drives it up often cuts the power that runs the pump. We replace worn pumps, fit a check valve so water does not drain back into the pit, and add a battery-backup system so a Bellevue basement is not left unattended in the storm. Bellevue is a core part of our Northern Kentucky service area, so we reach it quickly.',
@@ -129,7 +129,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-thomas': {
     intro:
-      'Old sump pump in a Fort Thomas basement, or water finding its way in after a storm? We install, repair, and replace sump pumps along Fort Thomas Avenue and the historic military reservation and reach most homes the same day. Call (513) 586-5107.',
+      'Up on the bluff, Fort Thomas homes avoid river flooding but still get hillside groundwater draining against their foundations, so sump pumps matter. In these early-1900s homes we replace worn motors, stuck floats and failed check valves and add a battery backup.',
     relevance: [
       'Fort Thomas (ZIP 41075) is a historic Northern Kentucky city built around a former U.S. Army post, with stately early-1900s homes on tree-lined streets above the river. Sitting up on the bluff, these homes are less exposed to river flooding than the cities below, but the trade-off is hillside groundwater that drains down through the slope and collects against foundations and in basements during a heavy rain. A century-old home up here still leans on its sump pump, and many of those pumps are well past their service life.',
       'In Fort Thomas’ large, established homes, a failed pump tends to do quiet, expensive damage to finished lower levels before anyone notices. Worn motors, stuck floats, and check valves that have given out are what we find most. We test the system, replace what has aged out, and add a battery backup, since the summer storms that roll across the tree-lined streets here regularly take the power with them. We make repairs built to last.',
@@ -145,7 +145,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'florence': {
     intro:
-      'Sump pump wearing out in Florence, KY, or a basement that takes water in a storm? We install, repair, and replace sump pumps across this fast-growing Boone County city and reach most homes the same day. Call (513) 586-5107.',
+      'Builder-grade sump pumps in Florence subdivisions usually last seven to ten years, so the one that came with the house is often due. Across this Boone County city we replace worn pumps, add a check valve and a battery backup and route the discharge clear of the foundation.',
     relevance: [
       'Florence, KY (ZIP 41042) is the largest city in Boone County and one of the fastest-growing in Northern Kentucky, with a wide mix of mid-century neighborhoods and newer subdivisions around the Florence Mall area. Even the newer homes here are now old enough that the builder-grade sump pump set into the basement years ago is reaching the end of its life, and the mid-century neighborhoods run pumps far older than that. A pump rarely warns you before it quits, which is usually during the storm that finally tests it.',
       'Across Florence’s subdivisions, the sump pump is standard equipment because so many homes have basements that take on groundwater, and a builder-grade unit is built to a price, not to last. Stuck floats, worn motors, and discharge lines that clog or freeze are the routine failures we find. We replace the pump with a properly sized unit, add a check valve and a battery backup, and route the discharge well clear of the foundation so the water does not circle back. Florence is a key part of our Boone County service area.',
@@ -161,10 +161,10 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'erlanger': {
     intro:
-      'Basement getting water in Erlanger, KY, or a sump pump that no longer keeps the pit dry? We install, repair, and replace sump pumps across this Kenton County city and reach most homes the same day. Call (513) 586-5107.',
+      'Mid-century Erlanger homes often run a sump pump that has been in the pit a decade or more, and that pump falling behind is the most common reason a basement floods here. We replace worn units, fit a check valve and recommend a battery backup.',
     relevance: [
       'Erlanger, KY (ZIP 41018) is an established Kenton County city near the airport, with settled mid-century neighborhoods and a mix of older and newer homes. Homes from the mid-1900s here are now at the age where a sump pump that has been in the pit for a decade or more is overdue for replacement, and the basements they sit in take on groundwater whenever a heavy rain saturates the ground. A pump that cannot keep up with that is the most common reason an Erlanger basement floods.',
-      'Because Erlanger’s housing spans several decades, we find original pits with no backup alongside newer pumps installed without a check valve. Worn motors, stuck float switches, and discharge lines that have clogged are the failures we handle most. We replace the worn unit, fit a check valve so pumped water does not drain back, and recommend a battery backup, since the storms that fill the pit are the same ones that tend to cut the power. We are out across Erlanger 7 days a week from 8am to 8pm.',
+      'Because Erlanger’s housing spans several decades, we find original pits with no backup alongside newer pumps installed without a check valve. Worn motors, stuck float switches, and discharge lines that have clogged are the failures we handle most. We replace the worn unit, fit a check valve so pumped water does not drain back, and recommend a battery backup, since the storms that fill the pit are the same ones that tend to cut the power. We are out across Erlanger 7 days a week.',
     ],
     commonIntro:
       'Across Erlanger’s mid-century homes, the sump-pump problems we handle most often are aging pumps and stuck float switches in basements that take on groundwater:',
@@ -177,10 +177,10 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mason': {
     intro:
-      'Sump pump aging out in a Mason, OH home, or a basement that takes water in a storm? We install, repair, and replace sump pumps across this fast-growing Warren County city and reach most homes the same day. Call (513) 586-5107.',
+      'A stuck float or a builder-grade sump pump past seven to ten years is behind most basement floods in Mason’s 1990s and 2000s subdivisions. Near Kings Island and in the older town center, we replace worn pumps, check the discharge line and add a battery backup.',
     relevance: [
       'Mason, OH (ZIP 45040) is a fast-growing Warren County city north of Cincinnati, near Kings Island, with large subdivisions of homes built mostly from the 1990s onward alongside an older town center. The builder-grade sump pumps set into those 1990s and 2000s basements are now well past the point where the motor, float, and check valve start to fail, and most homeowners do not think about the pump until the pit overflows during a hard rain. In a subdivision full of finished basements, that is an expensive surprise.',
-      'Even in newer Mason homes, sump pumps reach the end of their life on a predictable schedule, and the older town center runs pumps older still. A pump that cycles through every wet spring wears out faster, and a stuck float is the single most common reason a basement floods with the pump right there in the pit. We replace the worn unit, add a battery backup so a storm outage does not leave the basement unattended, and check the discharge line for clogs and freezing. We respond 7 days a week from 8am to 8pm across the city.',
+      'Even in newer Mason homes, sump pumps reach the end of their life on a predictable schedule, and the older town center runs pumps older still. A pump that cycles through every wet spring wears out faster, and a stuck float is the single most common reason a basement floods with the pump right there in the pit. We replace the worn unit, add a battery backup so a storm outage does not leave the basement unattended, and check the discharge line for clogs and freezing. We respond 7 days a week across the city.',
     ],
     commonIntro:
       'Across Mason’s newer subdivisions and older town center, the sump-pump problems we see most often are builder-grade pumps reaching end of life and stuck float switches:',
@@ -193,10 +193,10 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-chester': {
     intro:
-      'Builder-grade sump pump failing in West Chester, OH, or a basement that takes water after heavy rain? We install, repair, and replace sump pumps across this Butler County township and reach most homes the same day. Call (513) 586-5107.',
+      'West Chester subdivisions from the 1990s on are at the age where builder-grade sump pumps fail, often during the storm that tests them. Along the I-75 corridor we replace worn pumps, re-pitch discharge lines that freeze in winter and add a check valve and battery backup.',
     relevance: [
       'West Chester, OH (ZIP 45069) is a large, fast-growing Butler County community between Cincinnati and Dayton, made up largely of subdivisions built from the 1990s onward along the I-75 corridor. The sump pumps that came with those homes are now old enough to fail, and they tend to do it during the storm that finally tests them. Across a township of finished basements, a single failed pump can mean thousands in water damage before anyone is home to notice.',
-      'These newer homes are at the age where water heaters fail, supply lines spring leaks, and sump pumps wear out, and the pump is the one whose failure floods the basement. Worn motors, stuck floats, and discharge lines that clog or freeze in winter are the routine problems we find here. We replace the pump with a properly sized unit, add a check valve and a battery backup, and route the discharge clear of the foundation. We respond 7 days a week from 8am to 8pm across the township.',
+      'These newer homes are at the age where water heaters fail, supply lines spring leaks, and sump pumps wear out, and the pump is the one whose failure floods the basement. Worn motors, stuck floats, and discharge lines that clog or freeze in winter are the routine problems we find here. We replace the pump with a properly sized unit, add a check valve and a battery backup, and route the discharge clear of the foundation. We respond 7 days a week across the township.',
     ],
     commonIntro:
       'Across West Chester’s newer subdivisions, the sump-pump problems we handle most often are builder-grade pumps reaching end of life and frozen or clogged discharge lines:',
@@ -209,7 +209,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pendleton': {
     intro:
-      'Water in a converted-loft basement in Pendleton, or a sump pump that has stopped cycling? We install, repair, and replace sump pumps in this historic district next to Over-the-Rhine and reach most buildings the same day. Call (513) 586-5107.',
+      'Below-grade space under Pendleton’s mid-1800s stone and brick foundations relies on a sump pump, and in a converted loft building one failure can reach several units. We replace worn pumps, sticking floats and check valves and can add a battery backup.',
     relevance: [
       'Pendleton (ZIP 45202) is a small, historic arts district tucked against the eastern edge of Over-the-Rhine, full of restored 19th-century Italianate buildings and converted lofts and condos. The mid-1800s foundations under these buildings are stone and brick, and they seep, so any below-grade space relies on a sump pump to keep the floor dry. In a converted loft building, a failed pump can put water into more than one unit’s storage or mechanical space before it is caught.',
       'These tightly built historic blocks were never designed around modern waterproofing, so a working pit and a clear discharge line are what keep the lowest level usable. Worn pumps, stuck floats, and check valves that let water run back down are the failures we find in buildings this old. We test the system, replace what has aged out, and can add a battery backup so a storm outage does not leave the pit unattended, with fast shutoff coordination since one failure here can reach several units.',
@@ -219,16 +219,16 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach Pendleton for a sump pump that has stopped working?',
-        a: 'Pendleton sits right beside downtown and OTR, so it is one of the fastest areas for us to reach. We are on call 7 days a week from 8am to 8pm and can often replace a failed pump the same day.',
+        a: 'Pendleton sits right beside downtown and OTR, so it is one of the fastest areas for us to reach. We are on call 7 days a week and can often replace a failed pump the same day.',
       },
     ],
   },
   'queensgate': {
     intro:
-      'Sump pump failing in a Queensgate building on low ground, or water collecting after heavy rain? We install, repair, and replace sump pumps across this commercial and industrial district west of downtown and reach most properties the same day. Call (513) 586-5107.',
+      'Sump pumps in Queensgate’s warehouses and light-industrial buildings work hard on the low Mill Creek ground near the rail yards. A single pump with no backup is a common setup, so we size the pump to the building’s load, add a battery backup and clear the discharge route.',
     relevance: [
       'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. The low ground along the Mill Creek means a high water table and a real flood risk in heavy rain, so the sump pumps and pits in these buildings are doing serious work. A failed pump in a warehouse or mechanical room can put water across a floor and into stock or equipment fast.',
-      'In older industrial buildings on ground this low, the pump is often the only thing keeping a basement or below-grade level dry, and a single unit with no backup is a common setup. Worn motors, clogged pits, and discharge lines that cannot keep up with the volume are what we find. We size the pump to the building’s load, add a battery backup, and clear and route the discharge to carry the water well clear. We handle commercial properties as well as homes, 7 days a week from 8am to 8pm.',
+      'In older industrial buildings on ground this low, the pump is often the only thing keeping a basement or below-grade level dry, and a single unit with no backup is a common setup. Worn motors, clogged pits, and discharge lines that cannot keep up with the volume are what we find. We size the pump to the building’s load, add a battery backup, and clear and route the discharge to carry the water well clear. We handle commercial properties as well as homes, 7 days a week.',
     ],
     commonIntro:
       'In Queensgate’s commercial and industrial buildings on low Mill Creek ground, the sump-pump problems we handle most often are undersized pumps and overwhelmed pits in heavy rain:',
@@ -241,10 +241,10 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cuf': {
     intro:
-      'Sump pump out in a CUF rental basement near UC, or water seeping into a divided house? We install, repair, and replace sump pumps across Clifton Heights, University Heights, and Fairview and reach most homes the same day. Call (513) 586-5107.',
+      'Across CUF, many subdivided student rentals run a single aging sump pump nobody has checked in years. In Clifton Heights, University Heights and Fairview, hillside groundwater reaches seeping stone-and-block basements, so we replace worn pumps and add a battery backup, working around tenants.',
     relevance: [
       'CUF (ZIP 45219) covers Clifton Heights, University Heights, and Fairview, the dense hilltop neighborhoods packed against the University of Cincinnati, full of 19th- and early-1900s homes now largely converted to student rentals. The stone-and-block basements under these century-old houses seep, and the hillside grade sends groundwater down through the slope and against foundations during heavy rain. A sump pump is what keeps those lower levels usable, and in a busy rental a failed one often goes unnoticed until water is standing.',
-      'Heavy use on old systems is the story across CUF. Many of these subdivided houses run a single aging pump that nobody has checked in years, with no backup and a discharge line that has clogged. Worn motors and stuck floats are routine. We test the system, replace what has aged out, add a battery backup, and route the discharge clear of the foundation, working around tenants and tight access. We respond fast, 7 days a week from 8am to 8pm.',
+      'Heavy use on old systems is the story across CUF. Many of these subdivided houses run a single aging pump that nobody has checked in years, with no backup and a discharge line that has clogged. Worn motors and stuck floats are routine. We test the system, replace what has aged out, add a battery backup, and route the discharge clear of the foundation, working around tenants and tight access. We respond fast, 7 days a week.',
     ],
     commonIntro:
       'In CUF’s dense, older student-rental housing on the hillside near UC, the sump-pump problems we see most often are neglected single pumps and hillside groundwater overwhelming a worn unit:',
@@ -257,10 +257,10 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'camp-washington': {
     intro:
-      'Basement backing up in Camp Washington after heavy rain, or a sump pump that cannot keep the pit down? We install, repair, and replace sump pumps in this Mill Creek valley neighborhood and reach most homes the same day. Call (513) 586-5107.',
+      'Constant cycling against high valley groundwater wears out sump pumps early in Camp Washington. In the older worker homes of this Mill Creek neighborhood, we replace the worn single unit, re-pitch the discharge clear of the foundation and add a battery backup for storms that cut the power.',
     relevance: [
       'Camp Washington (ZIP 45225) is a historic working neighborhood in the Mill Creek valley, known for its industry, the American Sign Museum, and a tight mix of old worker housing and factories. The low valley ground keeps the water table high, so heavy rain pushes groundwater up through basement floors and a sump pump is doing constant work to stay ahead of it. In the older worker homes here, that pump is often an aging single unit with no backup.',
-      'Down in the valley, the pump is the practical line of defense against the backups and seepage that come with every hard rain. Frequent cycling against high groundwater wears a pump out early, and a stuck float or a clogged discharge line leaves the basement wet even with a pump in the pit. We replace the worn unit, clear and re-pitch the discharge to carry water well clear of the foundation, and add a battery backup, since valley storms tend to take the power with them. We respond 7 days a week from 8am to 8pm.',
+      'Down in the valley, the pump is the practical line of defense against the backups and seepage that come with every hard rain. Frequent cycling against high groundwater wears a pump out early, and a stuck float or a clogged discharge line leaves the basement wet even with a pump in the pit. We replace the worn unit, clear and re-pitch the discharge to carry water well clear of the foundation, and add a battery backup, since valley storms tend to take the power with them. We respond 7 days a week.',
     ],
     commonIntro:
       'In Camp Washington’s older homes down in the Mill Creek valley, the sump-pump problems we handle most often are pumps worn out from constant cycling and overwhelmed pits in heavy rain:',
@@ -273,7 +273,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-fairmount': {
     intro:
-      'Sump pump struggling in South Fairmount, or a basement that floods every wet spell? We install, repair, and replace sump pumps along Queen City Avenue and reach most homes the same day. Call (513) 586-5107.',
+      'Even with the Lick Run Greenway handling surface water, groundwater still rises against South Fairmount foundations, so the sump pump is one of the hardest-working machines in the house. Along Queen City Avenue we fit a properly sized primary pump with a battery backup.',
     relevance: [
       'South Fairmount (ZIP 45205) sits in the Lick Run valley along Queen City Avenue on the west side, the area rebuilt around the Lick Run Greenway stormwater project after a long history of valley flooding. That history is the point: the ground here holds water and the valley floods, so a sump pump in a South Fairmount basement is among the hardest-working pieces of equipment in the house. Even with the greenway managing surface stormwater, groundwater still rises against foundations in heavy rain.',
       'In a valley with a record of water intrusion, a failed pump is not a minor inconvenience, and the older housing here runs pumps that are well past their prime. Worn motors, stuck floats, and discharge lines that cannot keep up are what we see most. We size the pump to the load these valley basements carry, route the discharge clear of the foundation, and add a battery backup so a storm outage does not leave the basement defenseless. We respond fast to limit the damage.',
@@ -289,7 +289,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-end': {
     intro:
-      'Riverfront basement taking water in the East End, or a sump pump that quit when the river came up? We install, repair, and replace sump pumps along Eastern Avenue and reach most homes the same day. Call (513) 586-5107.',
+      'When the Ohio rises, East End basements along Eastern Avenue fill fast, and many older river cottages run one aging sump pump with no backup. We size the pump to these riverside homes, add a battery backup for storm outages and route the discharge clear.',
     relevance: [
       'The East End (ZIP 45226) is a narrow riverfront neighborhood stretching east of downtown along Eastern Avenue, below Columbia Parkway, with historic river cottages and newer condos squeezed between the hillside and the Ohio River. Its low position right on the river means the water table climbs whenever the Ohio rises, pushing groundwater up against foundations and into basements. A sump pump here is essential equipment, and in the older cottages it is often a single aging unit with no backup.',
       'Living this close to the river means the worst storms bring high water and lost power at the same time, and a pump with no battery backup goes silent in an outage right as the pit is filling. We size the pump to the load these riverside homes carry, add a battery-backup system, and route the discharge so the water clears the foundation instead of soaking back down. A quick local response is what keeps a backup from ruining a lower level along Eastern Avenue.',
@@ -305,7 +305,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-fairmount': {
     intro:
-      'Sump pump failing in a North Fairmount hillside home, or a basement that takes water in heavy rain? We install, repair, and replace sump pumps in this west-side neighborhood and reach most homes the same day. Call (513) 586-5107.',
+      'Hillside groundwater drains against North Fairmount foundations, so even up the slope above the Mill Creek valley these early-1900s homes with seeping basements lean on a sump pump. We replace pumps past their service life, re-pitch and clear the discharge and add a battery backup.',
     relevance: [
       'North Fairmount (ZIP 45225) is a west-side hillside neighborhood above the Mill Creek valley, with streets of older early-1900s homes. The hillside grade is the local issue: groundwater drains down through the slope and collects against foundations and in basements during a heavy rain, so even up off the valley floor these homes lean on a sump pump. The century-old stone-and-block basements under them seep, which only adds to what the pump has to move.',
       'In housing this old, the sump pump is rarely the original, but it is often well past its service life, and a single unit with no backup is common. Worn motors, stuck float switches, and clogged discharge lines are the failures we find. We replace the worn pump, re-pitch and clear the discharge to carry hillside runoff well clear of the foundation, and add a battery backup so a storm outage does not leave the basement unattended. We respond fast across the west side.',
@@ -321,10 +321,10 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'evanston': {
     intro:
-      'Old sump pump in an Evanston basement near Xavier, or water seeping in after a storm? We install, repair, and replace sump pumps in this east-side neighborhood and reach most homes the same day. Call (513) 586-5107.',
+      'Aging, unchecked sump pumps are common in Evanston’s early-1900s homes and rentals near Xavier. Their stone-and-block basements seep at the joints, so we test the system, replace what has aged out and add a check valve and battery backup, usually the same day.',
     relevance: [
       'Evanston (ZIP 45207) is an east-side neighborhood next to Xavier University, with streets of early-1900s homes and apartment buildings, some now student housing. The century-old houses here sit on stone-and-block basements that seep at the joints, so a sump pump is what keeps the lower level dry through a wet spring. In a divided house or a rental, that pump is often aging and unchecked, and a failure goes unnoticed until water is standing on the floor.',
-      'The age of Evanston’s housing is the main driver of the calls we get. A pump that has been in the pit for years is overdue, and densely built rentals near Xavier add heavy wear with little maintenance. Worn motors, stuck floats, and clogged discharge lines are routine here. We test the system, replace what has aged out, add a check valve and a battery backup, and route the discharge clear of the foundation. We respond 7 days a week from 8am to 8pm.',
+      'The age of Evanston’s housing is the main driver of the calls we get. A pump that has been in the pit for years is overdue, and densely built rentals near Xavier add heavy wear with little maintenance. Worn motors, stuck floats, and clogged discharge lines are routine here. We test the system, replace what has aged out, add a check valve and a battery backup, and route the discharge clear of the foundation. We respond 7 days a week.',
     ],
     commonIntro:
       'In Evanston’s early-1900s homes near Xavier with seeping stone-and-block basements, the sump-pump problems we handle most often are aging, unchecked pumps and stuck floats:',
@@ -337,7 +337,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-cumminsville': {
     intro:
-      'Basement backing up in South Cumminsville after heavy rain, or a sump pump that cannot keep the pit down? We install, repair, and replace sump pumps in this Mill Creek valley neighborhood and reach most homes the same day. Call (513) 586-5107.',
+      'Down in the Mill Creek valley, South Cumminsville basements take groundwater through the floor in heavy rain and the sump pump never gets much rest. In the older homes among the industrial corridors, we replace worn single units, clear the discharge and add a battery backup.',
     relevance: [
       'South Cumminsville (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, with older homes set among industrial corridors. The low valley ground keeps the water table high, so heavy rain pushes groundwater up through basement floors and a sump pump is doing constant work to stay ahead of it. In the older homes here, that is often an aging single unit with no backup.',
       'Down on the valley floor, sewer and drain backups are a real risk in a hard rain, and a working pump and clear discharge line are what keep a basement usable. Frequent cycling against high groundwater wears a pump out early, and a stuck float or clogged discharge leaves the floor wet even with a pump in the pit. We replace the worn unit, route the discharge clear of the foundation, and add a battery backup, since valley storms tend to cut the power. We respond fast to contain the damage.',
@@ -353,10 +353,10 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'english-woods': {
     intro:
-      'Sump pump failing in an English Woods hilltop home, or a basement that takes water in heavy rain? We install, repair, and replace sump pumps in this west-side neighborhood and reach most homes the same day. Call (513) 586-5107.',
+      'Hillside runoff on the English Woods hilltop strains basement drains and sump pumps in a heavy storm. In the older homes above the Mill Creek valley, we replace worn pumps, re-pitch and clear the discharge so runoff goes well clear and add a battery backup.',
     relevance: [
       'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The hilltop setting is the local issue for basements: rain drains down through the slope and collects against foundations, putting strain on basement drains and the sump pump during a heavy storm. The older homes here run pumps that are often well past their prime.',
-      'In housing this age, the sump pump is the practical line of defense against the water that hillside runoff drives toward the foundation. Worn motors, stuck floats, and clogged discharge lines are the failures we find. We replace the worn unit, re-pitch and clear the discharge so it carries runoff well clear of the foundation, and add a battery backup so a storm outage does not leave the basement unattended. We respond 7 days a week from 8am to 8pm.',
+      'In housing this age, the sump pump is the practical line of defense against the water that hillside runoff drives toward the foundation. Worn motors, stuck floats, and clogged discharge lines are the failures we find. We replace the worn unit, re-pitch and clear the discharge so it carries runoff well clear of the foundation, and add a battery backup so a storm outage does not leave the basement unattended. We respond 7 days a week.',
     ],
     commonIntro:
       'In English Woods’ older hilltop homes above the Mill Creek valley, the sump-pump problems we handle most often are aging pumps and hillside runoff straining a worn unit:',
@@ -369,7 +369,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-avondale': {
     intro:
-      'Water threatening a finished basement in North Avondale, or an old sump pump you are not sure still runs? We install, repair, and replace sump pumps around Rockdale and Reading Road and reach most homes the same day. Call (513) 586-5107.',
+      'In North Avondale’s grand early-1900s homes, a working sump pump is the difference between a dry finished basement and an expensive cleanup. Around Rockdale Avenue, many pumps have sat in the pit a decade or more, so we test, replace and add a battery backup.',
     relevance: [
       'North Avondale (ZIP 45229) is a historic, leafy neighborhood known for its grand early-1900s homes on large, tree-shaded lots near Rockdale Avenue. Those big, century-old houses sit on stone-and-block basements that seep, and in homes where the lower level is finished, a working sump pump is the difference between a dry basement and an expensive cleanup. The pump is usually far newer than the house, but many here have been in the pit a decade or more.',
       'The mature trees that shade North Avondale’s lots mean a lot of finished space and stored belongings below grade, and a hidden pump failure can do real damage before it is noticed. Worn motors, stuck floats, and check valves that have given out are what we find most. We test the system, replace what has aged out, and add a battery backup, since the summer storms that roll across these tree-lined streets regularly take the power with them. We respond fast to protect the finished spaces these homes are known for.',
@@ -385,10 +385,10 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'millvale': {
     intro:
-      'Basement taking water in Millvale after heavy rain, or a sump pump that cannot keep the pit down? We install, repair, and replace sump pumps in this Mill Creek valley neighborhood and reach most homes the same day. Call (513) 586-5107.',
+      'Millvale’s low valley ground keeps groundwater high, so sump pumps in this compact Mill Creek neighborhood cycle hard and wear out early. In the older homes, often running one aging pump with no backup, we replace the unit, clear the discharge and add a battery backup.',
     relevance: [
       'Millvale (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, a compact, largely residential community. The low-lying valley ground keeps the water table high, so a heavy rain pushes groundwater up through basement floors and a sump pump is doing real work to stay ahead of it. The older homes here run pumps that are often aging single units with no backup.',
-      'On the valley floor, drain and sewer backups are a recurring risk in a hard rain, and a working pump with a clear discharge line is what keeps a basement usable. Frequent cycling against high groundwater wears a pump out early, and a stuck float or clogged discharge leaves the floor wet even with a pump in the pit. We replace the worn unit, route the discharge clear of the foundation, and add a battery backup, since valley storms tend to cut the power. We respond 7 days a week from 8am to 8pm.',
+      'On the valley floor, drain and sewer backups are a recurring risk in a hard rain, and a working pump with a clear discharge line is what keeps a basement usable. Frequent cycling against high groundwater wears a pump out early, and a stuck float or clogged discharge leaves the floor wet even with a pump in the pit. We replace the worn unit, route the discharge clear of the foundation, and add a battery backup, since valley storms tend to cut the power. We respond 7 days a week.',
     ],
     commonIntro:
       'In Millvale’s valley homes on low Mill Creek ground, the sump-pump problems we handle most often are pumps worn out from constant cycling and overwhelmed pits in heavy rain:',
@@ -401,10 +401,10 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'paddock-hills': {
     intro:
-      'Old sump pump in a Paddock Hills basement, or water finding its way in after a storm? We install, repair, and replace sump pumps in this north-side neighborhood near Paddock Road and reach most homes the same day. Call (513) 586-5107.',
+      'A worn motor or a stuck float is the usual reason a Paddock Hills basement floods with the sump pump right there. In these early- and mid-1900s homes near Paddock Road, we test the float and check valve, replace aged pumps and route the discharge clear.',
     relevance: [
       'Paddock Hills (ZIP 45229) is a small, well-kept north-side residential pocket near Paddock Road and the Norwood Lateral, with streets of early- and mid-1900s homes. Homes of that era sit on basements that take on groundwater in a wet spell, and the sump pump that handles it has usually been in the pit for years. A pump that age is overdue, and it tends to fail during the storm that finally tests it.',
-      'In Paddock Hills’ early- and mid-1900s homes, a worn motor or a stuck float switch is the most common reason a basement floods with the pump sitting right there. We test the float and check valve, replace what has aged out, and recommend a battery backup so a power cut during a storm does not leave the pit unattended. We also check the discharge line for clogs and route it clear of the foundation. We are on call 7 days a week from 8am to 8pm.',
+      'In Paddock Hills’ early- and mid-1900s homes, a worn motor or a stuck float switch is the most common reason a basement floods with the pump sitting right there. We test the float and check valve, replace what has aged out, and recommend a battery backup so a power cut during a storm does not leave the pit unattended. We also check the discharge line for clogs and route it clear of the foundation. We are on call 7 days a week.',
     ],
     commonIntro:
       'In Paddock Hills’ early- and mid-1900s homes, the sump-pump problems we see most often are aging pumps and stuck float switches in basements that take on groundwater:',
@@ -417,10 +417,10 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'spring-grove-village': {
     intro:
-      'Basement backing up in Spring Grove Village after heavy rain, or a sump pump that cannot keep up? We install, repair, and replace sump pumps near Spring Grove Cemetery and reach most homes the same day. Call (513) 586-5107.',
+      'Sump pumps in Spring Grove Village work against a high water table on the low valley ground around the cemetery. In the older homes here, often running a single aging pump, we replace worn units, clear the discharge line and add a battery backup for storm outages.',
     relevance: [
       'Spring Grove Village (ZIP 45232) sits in the Mill Creek valley around the historic Spring Grove Cemetery and Arboretum, one of the largest cemeteries in the country, with a mix of older homes and industry. The low valley ground keeps the water table high, so heavy rain pushes groundwater up through basement floors and a sump pump is doing constant work to stay ahead of it. The older homes here run pumps that are often aging single units with no backup.',
-      'Down in the valley, the pump and its discharge line are what keep a basement usable through every wet spell, and backups are a real risk in a hard rain. Frequent cycling against high groundwater wears a pump out early, and a stuck float or clogged discharge leaves the floor wet even with a pump in the pit. We replace the worn unit, route the discharge clear of the foundation, and add a battery backup, since valley storms tend to cut the power. We respond 7 days a week from 8am to 8pm.',
+      'Down in the valley, the pump and its discharge line are what keep a basement usable through every wet spell, and backups are a real risk in a hard rain. Frequent cycling against high groundwater wears a pump out early, and a stuck float or clogged discharge leaves the floor wet even with a pump in the pit. We replace the worn unit, route the discharge clear of the foundation, and add a battery backup, since valley storms tend to cut the power. We respond 7 days a week.',
     ],
     commonIntro:
       'In Spring Grove Village’s older homes down in the Mill Creek valley, the sump-pump problems we handle most often are pumps worn out from constant cycling and overwhelmed pits in heavy rain:',
@@ -433,7 +433,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'linwood': {
     intro:
-      'Riverside basement taking water in Linwood, or a sump pump that quit when the river came up? We install, repair, and replace sump pumps in this east-side neighborhood near Lunken and reach most homes the same day. Call (513) 586-5107.',
+      'Linwood’s low river-bottom setting near Lunken means the water table climbs with the river, and older homes often run one aging sump pump with no backup. Along Eastern Avenue we size the pump to the load, add a battery backup and route the discharge clear.',
     relevance: [
       'Linwood (ZIP 45226) is one of Cincinnati’s smaller east-side neighborhoods, set along Eastern Avenue near Lunken Airport and the river bottoms. Its low riverside position means the water table climbs whenever the river rises, pushing groundwater up against foundations and into basements. A sump pump here is essential equipment, and in the older homes it is often a single aging unit with no backup.',
       'Living down in the river bottoms means the worst storms bring high water and lost power together, and a pump with no battery backup goes silent in an outage right as the pit is filling. We size the pump to the load these riverside basements carry, add a battery backup, and route the discharge so the water clears the foundation instead of soaking back down. A fast local response is what keeps a backup from ruining a lower level near Lunken.',
@@ -449,10 +449,10 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bond-hill': {
     intro:
-      'Old sump pump in a Bond Hill basement, or water finding its way in during heavy rain? We install, repair, and replace sump pumps along Reading Road and reach most homes the same day. Call (513) 586-5107.',
+      'Bond Hill sump pumps in the early-1900s and mid-century homes along Reading Road have usually sat in the pit for years, and a worn motor or stuck float is what floods the basement. We test the float and check valve, replace what has aged out and add a battery backup.',
     relevance: [
       'Bond Hill (ZIP 45237) is a north-side neighborhood along Reading Road, with established streets of early-1900s and mid-century single-family homes. Basements in homes of that age take on groundwater in a wet spell, and the sump pump that handles it has usually been in the pit for years, well past the point where the motor, float, and check valve start to give out. A pump that age tends to fail during the storm that finally tests it.',
-      'Across Bond Hill’s older and mid-century homes, a worn motor or a stuck float switch is the most common reason a basement floods with the pump sitting right there. We test the float and check valve, replace what has aged out, and recommend a battery backup so a power cut during a storm does not leave the pit unattended. We also clear the discharge line and route it clear of the foundation so the pumped water does not circle back. We handle it 7 days a week from 8am to 8pm.',
+      'Across Bond Hill’s older and mid-century homes, a worn motor or a stuck float switch is the most common reason a basement floods with the pump sitting right there. We test the float and check valve, replace what has aged out, and recommend a battery backup so a power cut during a storm does not leave the pit unattended. We also clear the discharge line and route it clear of the foundation so the pumped water does not circle back. We handle it 7 days a week.',
     ],
     commonIntro:
       'Across Bond Hill’s older and mid-century homes, the sump-pump problems we handle most often are aging pumps and stuck float switches in basements that take on groundwater:',

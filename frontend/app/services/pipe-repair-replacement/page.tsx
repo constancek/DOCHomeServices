@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
@@ -25,20 +25,7 @@ const dangers = [
   { lead: 'Health Concerns', text: 'Mold spores, bacteria in standing water, and unpleasant odors can all create an uncomfortable and potentially unsafe living environment.' },
 ];
 
-const whyChoose = [
-  'Licensed and experienced plumbers',
-  'Camera inspection and advanced leak detection',
-  'Trenchless replacement where it fits',
-  'Customer-first communication',
-  'A satisfaction guarantee on every job',
-];
 
-const whyUs = [
-  { icon: 'shield' as const, title: 'Licensed Plumbers', text: 'Experienced pros who diagnose the real cause before they dig.' },
-  { icon: 'check' as const, title: 'Minimally Invasive', text: 'Camera inspection and trenchless methods protect your property.' },
-  { icon: 'badge' as const, title: 'Repair or Replace', text: 'Honest guidance on the most cost-effective fix.' },
-  { icon: 'clock' as const, title: 'Emergency Service', text: 'Fast help when a leak or burst pipe can’t wait.' },
-];
 
 const faqs = [
   { q: 'How do I know if I need drain pipe repair or full pipe replacement?', a: 'If you’re noticing frequent clogs, slow drainage, or standing water, it may point to a damaged or aging drain line. Minor issues like buildup can be repaired, while broken, sagging, or heavily corroded pipes typically need full replacement. A professional inspection determines the best approach.' },
@@ -91,22 +78,10 @@ export default function PipeRepairReplacementPage() {
         ]}
       />
 
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Dealing with a leak or damaged pipe?
-          </h2>
-          <a href={site.primaryPhone.href} className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600">
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot>
           <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/pipe-hero.webp)' }} role="img" aria-label="Plumber repairing a pipe" />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Professional Pipe Repair & Replacement
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -129,7 +104,7 @@ export default function PipeRepairReplacementPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/pipe-signs.webp)' }} role="img" aria-label="Leaking water pipe" />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               The Dangers of Ignoring Leaky Pipes
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -153,7 +128,7 @@ export default function PipeRepairReplacementPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Drain Pipe Repair
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -169,6 +144,20 @@ export default function PipeRepairReplacementPage() {
             </p>
           </div>
           <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }} role="img" aria-label="Plumber reviewing a drain pipe repair" />
+        </div>
+      </section>
+
+      <ServiceReviews service="pipe-repair-replacement" />
+
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Dealing with a leak or damaged pipe?
+          </h2>
+          <a href={site.primaryPhone.href} className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600">
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -211,38 +200,23 @@ export default function PipeRepairReplacementPage() {
 
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Pipe Repair</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Homeowners across {site.serviceArea} trust {site.name} for dependable plumbing. When you work
-            with our team, you receive:
+            We find the leak before we open a wall or dig a yard. A camera inspection shows whether you have copper with decades left or galvanized steel near the end, and that decides repair versus replacement.
           </p>
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
-                <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
-                {w}
-              </li>
-            ))}
-          </ul>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Pipe Repair & Replacement FAQs</h2>
           <div className="mt-4">
             <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Pipe Repair or Replacement Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule Your Pipe Repair or Replacement Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Clogs, leaks, or signs a pipe is giving out don’t get better on their own — the sooner we
               take a look, the easier it is to fix. {site.name} serves {site.serviceArea}. Call now or
@@ -261,20 +235,20 @@ export default function PipeRepairReplacementPage() {
         </div>
       </section>
 
-      {/* Pipe repair by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Pipe repair &amp; replacement by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We repair and replace pipes across {site.serviceArea} —{' '}
-            {locations.filter((l) => pipeRepairCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on the homes and plumbing in your area.
-          </p>
-          <NeighborhoodLinks copy={pipeRepairCopy} basePath="/services/pipe-repair-replacement" linkPrefix="Pipe repair" />
-        </div>
-      </section>
-
-      <PageSections service="pipe-repair-replacement" />
+      <ServiceSections service="pipe-repair-replacement">
+        {/* Pipe repair by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Pipe repair &amp; replacement by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We repair and replace pipes across {site.serviceArea} —{' '}
+              {locations.filter((l) => pipeRepairCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on the homes and plumbing in your area.
+            </p>
+            <NeighborhoodLinks copy={pipeRepairCopy} basePath="/services/pipe-repair-replacement" linkPrefix="Pipe repair" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

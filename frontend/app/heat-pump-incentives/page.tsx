@@ -146,7 +146,7 @@ export default function HeatPumpPage() {
 
           {/* Disclaimer + CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
+            <h2 className="text-2xl font-extrabold sm:text-3xl">
               Find Out What You Qualify For
             </h2>
             <p className="mx-auto mt-3 max-w-2xl text-[15px] leading-relaxed text-brand-100">

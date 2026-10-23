@@ -1,7 +1,7 @@
 export const part2: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'madeira': {
     intro:
-      'Bathroom fan in your Madeira home that rattles, barely moves air, or dumps moisture straight into the attic? We install and repair bath and kitchen exhaust fans across this east-side city, sized to the room and vented outdoors, with code-compliant wiring. Call (513) 586-5107.',
+      'A Madeira bathroom finished in the 1950s or 60s often got a small, underpowered exhaust fan or none, so steam grows mildew along the grout and trim. A fan vented into the attic is just as common. We size the replacement and run a dedicated duct to an exterior cap.',
     relevance: [
       'Madeira (ZIP 45243) is an established east-side city built largely of mid-century single-family homes on quiet, tree-lined streets. A bathroom finished in the 1950s or 60s often got a small, underpowered fan, or no fan at all, so steam sits on the ceiling and walls long enough to grow mildew along the grout and trim.',
       'Just as common in these mid-century houses is a fan that was vented into the attic rather than through the roof or soffit, which only moves the moisture problem out of sight. We size the replacement to the bathroom, run a dedicated duct to a proper exterior cap, and wire it to code. Madeira sits well within our east-side service area.',
@@ -17,7 +17,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'wyoming': {
     intro:
-      'Old Wyoming bathroom with no fan, or a worn motor that groans every morning? We install and repair exhaust fans across this historic suburb, sizing them to the room and venting them outdoors with proper wiring. Call (513) 586-5107.',
+      'Many bathrooms in Wyoming’s Victorian and early-1900s homes were never built with an exhaust fan and rely on a window to clear steam. Adding one takes care around tight plaster ceilings, finished attics and historic trim. We size the fan and route it to a discreet roof or soffit cap.',
     relevance: [
       'Wyoming (ZIP 45215) is a historic, affluent suburb north of the city, known for its grand Victorian and early-1900s homes on established, tree-shaded streets. Many of those bathrooms were carved out of houses built before mechanical ventilation was standard, so they rely on a single window, or nothing, to clear steam from a daily shower.',
       'Adding a fan to a century-old bathroom takes care: tight plaster ceilings, finished attics, and historic trim all limit where a duct can run. We size the fan to the space, route it to a discreet roof or soffit cap rather than into the attic, and wire it to code so the moisture leaves the house instead of soaking into old wood. Wyoming is well within our northern service area.',
@@ -33,7 +33,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mariemont': {
     intro:
-      'Steam fogging the mirror in your Mariemont bathroom, or a Tudor that never had a fan? We install and repair exhaust fans across this historic village, sized to the room and vented outdoors, with wiring done to code. Call (513) 586-5107.',
+      'Mariemont’s 1920s Tudor Revival homes were rarely built with a bathroom fan, so a hot shower leaves moisture on plaster and period tile. Where a fan exists, it is often an original unit that hums or vents into the attic. We fit a quiet replacement vented to an exterior cap.',
     relevance: [
       'Mariemont (ZIP 45227) is a planned garden community laid out in the 1920s and now a National Historic Landmark, known for its Tudor Revival architecture and village square on the east side. Bathrooms in homes this old were rarely built with mechanical ventilation, so a hot shower leaves moisture clinging to plaster and the period tile work these houses are prized for.',
       'Because so much of Mariemont dates to the 1920s and 30s, where a fan does exist it is often an original or worn unit that hums, vibrates, or quietly pushes damp air into the attic. We size a quiet replacement to the bathroom, vent it through a proper exterior cap, and make the change without disturbing the village’s historic character.',
@@ -49,7 +49,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cheviot': {
     intro:
-      'Noisy bathroom fan or a damp ceiling in your Cheviot home? We install and repair exhaust fans across this west-side city along Harrison Avenue, sized to the room and vented outdoors with code-compliant wiring. Call (513) 586-5107.',
+      'Small bathrooms in Cheviot’s early-1900s homes and brick two-families fill with steam fast, and an undersized or worn exhaust fan never quite clears it. Fans added later often vent into a shared attic or wall cavity. We size the fan to the room and run a dedicated duct outdoors.',
     relevance: [
       'Cheviot (ZIP 45211) is a small, densely built city on the west side, completely surrounded by Cincinnati, with a grid of early-1900s homes and brick two-families along Harrison Avenue. The bathrooms in that older, tightly packed housing tend to be small, so shower steam builds up fast and an undersized or worn fan never quite clears it.',
       'In the brick two-families that fill Cheviot’s streets, fans were often added later and vented into a shared attic or a wall cavity rather than fully outdoors. We size the fan to the actual bathroom, run a dedicated duct to an exterior cap, and wire it to code so moisture from one unit is not feeding mildew next door. Cheviot is a compact west-side city well within our service area.',
@@ -65,7 +65,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covedale': {
     intro:
-      'Weak bathroom fan or mildew creeping along the grout in your Covedale home? We install and repair exhaust fans along Glenway and Cleves Warsaw, sizing them to the room and venting them outdoors. Call (513) 586-5107.',
+      'Covedale bathrooms in early-1900s through mid-century homes often run on an original exhaust fan that has lost suction, so mildew turns up along the grout. Mid-century fans were often vented into the attic. We size the replacement and route a dedicated duct to a roof or soffit cap.',
     relevance: [
       'Covedale (ZIP 45238) is a settled west-side community on the edge of the city near Green Township, with neighborhoods of early-1900s through mid-century single-family homes. Bathrooms from that range often run on original or first-generation fans that have lost suction, so steam lingers and mildew turns up along the grout and ceiling line.',
       'In the mid-century houses especially, fans were frequently vented into the attic, which traps the moisture in the framing instead of clearing it. We size the replacement to the bathroom, route a dedicated duct to a roof or soffit cap, and wire it to code. Covedale is well within our west-side service area.',
@@ -81,7 +81,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covington': {
     intro:
-      'Historic Covington bathroom with no fan, or steam soaking the plaster? We install and repair exhaust fans across the riverfront and MainStrasse Village, sized to the room and vented outdoors with code-compliant wiring. Call (513) 586-5107.',
+      'Historic Covington rowhouses in MainStrasse Village and Licking Riverside were rarely built with a bathroom exhaust fan, so shower moisture goes into old plaster and trim. Low ground near two rivers keeps the air humid. We size a fan to the bathroom and run the duct to an exterior cap.',
     relevance: [
       'Covington, KY (ZIP 41011) sits directly across the Ohio River from downtown Cincinnati, with historic districts like MainStrasse Village and Licking Riverside full of 19th-century rowhouses and brick homes. Bathrooms in those century-old houses were rarely built with fans, so shower moisture has nowhere to go but into old plaster, trim, and the walls between tightly built rowhouses.',
       'The low ground near the Ohio and Licking Rivers keeps Covington humid, which makes proper venting matter even more here than in drier spots. We size a fan to the bathroom and run the duct to an exterior cap rather than into a shared attic, so damp air leaves the house instead of feeding mildew. Covington is a core part of our Northern Kentucky service area, just across the river from downtown.',
@@ -97,7 +97,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newport': {
     intro:
-      'Victorian Newport bathroom that fogs up and stays damp? We install and repair exhaust fans across the East Row Historic District and the riverfront, sized to the room and vented outdoors with proper wiring. Call (513) 586-5107.',
+      'The 19th-century homes in Newport’s East Row Historic District were built long before bathroom fans, so showers leave moisture on original plaster and woodwork. The riverfront keeps the air damp. We fit a quiet fan sized to the room and run a dedicated duct to an exterior cap.',
     relevance: [
       'Newport, KY (ZIP 41071) is a Northern Kentucky river city across from downtown Cincinnati, home to the East Row Historic District, one of the largest Victorian historic districts in the state, along with the Levee riverfront. The hundreds of 19th-century homes in the East Row were built long before bath fans, so showers leave moisture on original plaster, tall windows, and period woodwork.',
       'Sitting right on the riverfront keeps the air here damp, and a bathroom that cannot clear steam quickly is where mildew starts. We size a quiet fan to the room, run a dedicated duct to an exterior cap instead of the attic, and wire it to code so we protect the historic details rather than trap moisture against them.',
@@ -113,7 +113,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bellevue': {
     intro:
-      'Old Bellevue bathroom with a window but no fan, or a worn motor that drones? We install and repair exhaust fans around Fairfield Avenue, sized to the room and vented outdoors with code-compliant wiring. Call (513) 586-5107.',
+      'Bathrooms in Bellevue’s late-1800s homes near Fairfield Avenue are often small and built without an exhaust fan, so a hot shower leaves moisture on the plaster. The riverfront keeps humidity high. We size the unit to the bathroom and route the duct to a proper exterior cap.',
     relevance: [
       'Bellevue, KY (ZIP 41073) is a compact Northern Kentucky river city with a historic Fairfield Avenue business district and tight streets of well-preserved late-1800s homes. Bathrooms in those century-old houses are often small and were built without fans, so a hot shower fogs the room and leaves moisture on the plaster long after.',
       'Bellevue’s riverfront location keeps humidity high, which makes a fan that actually vents outside worth doing right. We size the unit to the bathroom and route the duct to a proper exterior cap rather than into a wall or attic, then wire it to code. Bellevue is a core part of our Northern Kentucky service area along the river.',
@@ -129,7 +129,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-thomas': {
     intro:
-      'Steam clinging to the ceiling in your Fort Thomas bathroom, or an original fan on its way out? We install and repair exhaust fans along Fort Thomas Avenue, sized to the room and vented outdoors with proper wiring. Call (513) 586-5107.',
+      'The large bathrooms in Fort Thomas’ early-1900s homes often run on an original exhaust fan that no longer clears a daily shower. A weak or attic-vented fan leaves moisture working at the plaster and trim. We size the replacement and run a dedicated duct to a roof or soffit cap.',
     relevance: [
       'Fort Thomas, KY (ZIP 41075) is a historic Northern Kentucky city built around a former U.S. Army post, with stately early-1900s homes on tree-lined streets above the river. The large bathrooms in those established homes often run on original or first-generation fans that no longer move enough air to clear a daily shower.',
       'A fan that is too weak, or one that was vented into the attic, leaves moisture working at the plaster and trim these homes are known for. We size the replacement to the actual room, run a dedicated duct to a roof or soffit cap, and wire it to code so the repair lasts. Fort Thomas is well within our Northern Kentucky service area.',
@@ -145,7 +145,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'florence': {
     intro:
-      'Bathroom fan in your Florence home that rattles or never cleared the steam? We install and repair exhaust fans across this Boone County city, sized to the room and vented outdoors with code-compliant wiring. Call (513) 586-5107.',
+      'In Florence, even the newer homes have builder-grade bathroom fans old enough to lose suction, get noisy or clog with lint. Mid-century neighborhoods add fans vented into the attic, which traps moisture in the framing. We size the fan and route a dedicated duct to an exterior cap.',
     relevance: [
       'Florence, KY (ZIP 41042) is the largest city in Boone County and one of the fastest-growing in Northern Kentucky, with a wide mix of mid-century neighborhoods and newer subdivisions around the Florence Mall area. Even in the newer homes, the original builder-grade bath fans are now old enough to lose suction, get noisy, or clog with lint, so steam lingers and mildew shows up along the ceiling.',
       'In the mid-century neighborhoods, fans were sometimes vented into the attic, which traps moisture in the framing instead of clearing it. We size the fan to the bathroom, route a dedicated duct to a proper exterior cap, and wire it to code. Florence is a key part of our Boone County service area.',
@@ -161,7 +161,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'erlanger': {
     intro:
-      'Worn bathroom fan or a damp ceiling in your Erlanger home? We install and repair exhaust fans across this Kenton County city, sized to the room and vented outdoors with code-compliant wiring. Call (513) 586-5107.',
+      'Bathroom fans in Erlanger’s mid-century homes have often lost their pull, so steam from a daily shower works at the paint and grout. Many were vented into the attic rather than through the roof or soffit. We size the fan to the bathroom and run a dedicated duct outdoors.',
     relevance: [
       'Erlanger, KY (ZIP 41018) is an established Kenton County city near the airport, with settled mid-century neighborhoods and a mix of older and newer homes. Bathrooms in the mid-1900s houses often run on original fans that have lost their pull, so steam from a daily shower hangs in the room and works at the paint and grout.',
       'Those same older homes frequently have a fan that was vented into the attic rather than through the roof or soffit, which only relocates the moisture problem. We size the fan to the bathroom, run a dedicated duct to a proper exterior cap, and wire it to code. Erlanger is well within our Northern Kentucky service area.',
@@ -177,7 +177,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mason': {
     intro:
-      'Loud builder-grade bathroom fan in your Mason home, or a kitchen that holds onto cooking moisture? We install and repair exhaust fans across this Warren County city, sized to the room and vented outdoors. Call (513) 586-5107.',
+      'The builder-grade bathroom fans in Mason’s 1990s-onward subdivisions are now old enough to get noisy, lose suction and clog with lint. In the older town center, fans are first-generation or vent into the attic. We fit a properly sized, quieter fan with a duct to an exterior cap.',
     relevance: [
       'Mason, OH (ZIP 45040) is a fast-growing Warren County city north of Cincinnati, near Kings Island, with large subdivisions of homes built mostly from the 1990s onward alongside an older town center. The original builder-grade bath fans in those subdivisions are now old enough to get noisy, lose suction, and clog with lint, so they no longer clear shower steam the way they should.',
       'In the older town center, bathrooms often run on first-generation fans or were vented into the attic, which traps moisture in the framing. We size the fan to the room, route the duct to a proper exterior cap, and wire it to code. Mason is part of our northern service area.',
@@ -193,7 +193,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-chester': {
     intro:
-      'Builder-grade bathroom fan in your West Chester home that drones or barely pulls air? We install and repair exhaust fans across this Butler County township, sized to the room and vented outdoors. Call (513) 586-5107.',
+      'Original bathroom fans in West Chester’s 1990s-onward subdivisions now rattle, lose suction and clog with lint. A weak fan often turns out to be undersized or running through a crushed or attic-dead-ended duct. We size the replacement and run a dedicated duct to an exterior cap.',
     relevance: [
       'West Chester, OH (ZIP 45069) is a large, fast-growing Butler County community between Cincinnati and Dayton, made up largely of subdivisions built from the 1990s onward along the I-75 corridor. The original bath fans in those homes are now old enough to lose suction, rattle, and clog with lint, so a daily shower leaves moisture on the ceiling and walls.',
       'A weak or noisy fan often turns out to be undersized for the bathroom or running through a crushed or attic-dead-ended duct. We size the replacement to the room, route a dedicated duct to a proper exterior cap, and wire it to code. West Chester is part of our northern service area along I-75.',
@@ -209,7 +209,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pendleton': {
     intro:
-      'Converted Pendleton loft with a fogged bathroom, or a 19th-century unit with no fan? We install and repair exhaust fans in this historic district beside OTR, sized to the room and vented outdoors. Call (513) 586-5107.',
+      'Bathrooms carved into Pendleton’s mid-1800s buildings and lofts were never designed for an exhaust fan, so shower steam settles on brick and plaster. Ducting through a tightly built historic block takes planning, since walls back onto the next unit. We route each fan to an exterior cap.',
     relevance: [
       'Pendleton (ZIP 45202) is a small, historic arts district tucked against the eastern edge of Over-the-Rhine, full of restored 19th-century Italianate buildings and converted lofts and condos. Bathrooms carved into those mid-1800s buildings were never designed for fans, so shower steam settles on brick, plaster, and the finishes that make these conversions worth living in.',
       'Running a duct through a tightly built historic block takes planning, since one wall often backs onto the next unit and roof access is shared. We size a quiet fan to the bathroom and route it to an exterior cap rather than venting into a shared cavity or attic, then wire it to code. Pendleton sits right beside downtown and OTR, so it is one of the fastest areas for us to reach.',
@@ -225,42 +225,42 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'queensgate': {
     intro:
-      'Restroom or kitchen exhaust struggling in a Queensgate building? We install and repair exhaust fans across this commercial and industrial district west of downtown, sized to the space and vented outdoors with code-compliant wiring. Call (513) 586-5107.',
+      'Exhaust fan work in Queensgate leans commercial: restroom fans, kitchen and break-room ventilation, and older units that run loud or have lost suction. Many buildings sit on low ground near Mill Creek, where damp air takes a toll. We size each fan to the space and vent it outdoors.',
     relevance: [
       'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. The exhaust work here leans commercial: restroom fans, kitchen and break-room ventilation, and older units that have lost suction or run loud in buildings that were not built around them.',
-      'Many of these older structures sit on low ground near the Mill Creek that is prone to flooding, and damp air in an under-ventilated space takes a toll on finishes and stored goods. We size fans to the room or restroom, route ducting to a proper exterior cap, and wire it to code. We respond across Queensgate 7 days a week from 8am to 8pm.',
+      'Many of these older structures sit on low ground near the Mill Creek that is prone to flooding, and damp air in an under-ventilated space takes a toll on finishes and stored goods. We size fans to the room or restroom, route ducting to a proper exterior cap, and wire it to code. We respond across Queensgate 7 days a week.',
     ],
     commonIntro:
       'In Queensgate’s commercial and industrial buildings, the exhaust-fan work we handle most often comes from worn or undersized restroom and kitchen ventilation:',
     localFaqs: [
       {
         q: 'Do you handle exhaust fans for commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we install and repair restroom and kitchen exhaust fans there as well as in homes, sized to the space and vented outdoors. We respond 7 days a week from 8am to 8pm.',
+        a: 'Yes. Queensgate is mostly commercial and industrial, and we install and repair restroom and kitchen exhaust fans there as well as in homes, sized to the space and vented outdoors. We respond every day.',
       },
     ],
   },
   'cuf': {
     intro:
-      'Steamy bathroom in a CUF rental near UC, or a worn fan that drones all night? We install and repair exhaust fans across Clifton Heights, University Heights, and Fairview, sized to the room and vented outdoors with code-compliant wiring. Call (513) 586-5107.',
+      'Small old bathrooms in CUF student rentals often have a worn exhaust fan or none, and heavy daily use leaves steam on aging plaster and tile. Where baths were added during conversion, fans often vent into the attic or a shared wall. We run a dedicated duct outdoors.',
     relevance: [
       'CUF (ZIP 45219) covers Clifton Heights, University Heights, and Fairview, the dense hilltop neighborhoods packed against the University of Cincinnati, full of 19th- and early-1900s homes now largely converted to student rentals. The small old bathrooms in those subdivided houses often run on a worn fan or none at all, so shower steam from heavy daily use sits on aging plaster and tile.',
-      'In rentals where bathrooms were added or split during conversion, fans were frequently vented into the attic or a shared wall cavity rather than fully outdoors, which spreads moisture between units. We size a fan to the actual bathroom, run a dedicated duct to a proper exterior cap, and wire it to code so mildew does not move from one apartment to the next. We respond fast, 7 days a week from 8am to 8pm.',
+      'In rentals where bathrooms were added or split during conversion, fans were frequently vented into the attic or a shared wall cavity rather than fully outdoors, which spreads moisture between units. We size a fan to the actual bathroom, run a dedicated duct to a proper exterior cap, and wire it to code so mildew does not move from one apartment to the next. We respond fast, 7 days a week.',
     ],
     commonIntro:
       'In CUF’s dense, older student-rental housing near UC, the exhaust-fan work we see most often comes from small bathrooms with worn or poorly vented fans:',
     localFaqs: [
       {
         q: 'Do you fix or add bathroom fans in CUF student rentals near UC?',
-        a: 'Yes. We work on the older homes and rentals throughout Clifton Heights, University Heights, and Fairview, replacing worn fans and venting them outdoors instead of into the attic or a shared wall. We respond 7 days a week from 8am to 8pm.',
+        a: 'Yes. We work on the older homes and rentals throughout Clifton Heights, University Heights, and Fairview, replacing worn fans and venting them outdoors instead of into the attic or a shared wall. We respond every day, weekends included.',
       },
     ],
   },
   'camp-washington': {
     intro:
-      'Old Camp Washington bathroom with no fan, or steam that hangs in the room? We install and repair exhaust fans in this Mill Creek valley neighborhood, sized to the room and vented outdoors with proper wiring. Call (513) 586-5107.',
+      'The compact worker homes in Camp Washington were built before bathroom fans were standard, so exhaust fan installation is the main job here. Low Mill Creek valley ground keeps the air damp. We size a fan to the room and run the duct to a proper exterior cap.',
     relevance: [
       'Camp Washington (ZIP 45225) is a historic working neighborhood in the Mill Creek valley, known for its industry, the American Sign Museum, and a tight mix of old worker housing and factories. The compact worker homes here were built before bath fans were standard, so a daily shower leaves moisture on the plaster with nowhere to go.',
-      'The low valley ground keeps the air damp, which makes ventilating a bathroom properly matter more than it might elsewhere. We size a fan to the room and run the duct to a proper exterior cap rather than into the attic, then wire it to code so moisture clears instead of feeding mildew. We respond 7 days a week from 8am to 8pm.',
+      'The low valley ground keeps the air damp, which makes ventilating a bathroom properly matter more than it might elsewhere. We size a fan to the room and run the duct to a proper exterior cap rather than into the attic, then wire it to code so moisture clears instead of feeding mildew. We respond 7 days a week.',
     ],
     commonIntro:
       'In Camp Washington’s older homes down in the valley, the exhaust-fan work we see most often comes from fan-less bathrooms in damp valley air:',
@@ -273,7 +273,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-fairmount': {
     intro:
-      'Damp, fan-less bathroom in your South Fairmount home along Queen City Avenue? We install and repair exhaust fans here, sized to the room and vented outdoors with code-compliant wiring. Call (513) 586-5107.',
+      'Older homes along Queen City Avenue in South Fairmount were built before bathroom fans were common, so many baths rely on a window. The damp Lick Run valley makes good ventilation more important. We size a fan and route the duct to an exterior cap, not the attic.',
     relevance: [
       'South Fairmount (ZIP 45205) sits in the Lick Run valley along Queen City Avenue on the west side, the area rebuilt around the Lick Run Greenway stormwater project after a long history of valley flooding. The older homes here were built before bath fans were common, so shower steam clings to plaster in bathrooms that rely on a window, or nothing, to clear it.',
       'A low, damp valley setting makes good ventilation more important, not less, since moisture has a harder time leaving on its own. We size a fan to the bathroom and route the duct to a proper exterior cap rather than into the attic, then wire it to code. South Fairmount is well within our west-side service area along Queen City Avenue.',
@@ -289,7 +289,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-end': {
     intro:
-      'River cottage in the East End with a fogged, fan-less bathroom? We install and repair exhaust fans along Eastern Avenue, sized to the room and vented outdoors with proper wiring. Call (513) 586-5107.',
+      'The older river cottages in the East End were built before bathroom exhaust fans, so shower moisture settles into decades-old plaster and trim. Sitting on the Ohio River along Eastern Avenue keeps the air damp. We size a fan to the room and route the duct to an exterior cap.',
     relevance: [
       'The East End (ZIP 45226) is a narrow riverfront neighborhood stretching east of downtown along Eastern Avenue, below Columbia Parkway, with historic river cottages and newer condos squeezed between the hillside and the Ohio River. The older cottages were built before bath fans, so shower moisture settles into decades-old plaster and trim.',
       'Sitting right on the river keeps the air damp, and a bathroom that cannot clear steam quickly is where mildew takes hold. We size a fan to the room and route the duct to a proper exterior cap rather than the attic, then wire it to code. A quick local response matters along these tightly built riverfront streets.',
@@ -305,7 +305,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-fairmount': {
     intro:
-      'Worn bathroom fan or a damp ceiling in your North Fairmount home? We install and repair exhaust fans in this west-side hillside neighborhood, sized to the room and vented outdoors. Call (513) 586-5107.',
+      'Bathrooms in North Fairmount’s early-1900s homes often have no exhaust fan or an original one that has lost its pull. On a hillside above a humid valley, an attic-vented fan only hides the problem. We size a fan to the room and route the duct to an exterior cap.',
     relevance: [
       'North Fairmount (ZIP 45225) is a west-side hillside neighborhood above the Mill Creek valley, with streets of older early-1900s homes. Bathrooms in those century-old houses often have no fan or an original one that has lost its pull, so a hot shower leaves moisture clinging to the plaster.',
       'On a hillside above a humid valley, a bathroom that cannot clear steam quickly is where mildew starts, and a fan vented into the attic only moves the problem out of sight. We size a fan to the room and route the duct to a proper exterior cap, then wire it to code. North Fairmount is within our west-side service area.',
@@ -321,10 +321,10 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'evanston': {
     intro:
-      'Old Evanston bathroom near Xavier that fogs and stays damp? We install and repair exhaust fans here, sized to the room and vented outdoors with code-compliant wiring. Call (513) 586-5107.',
+      'Older bathrooms in Evanston, next to Xavier University, often run on a worn exhaust fan or none, and rental use wears fans out fast. Many were vented into the attic rather than outdoors. We size the fan to the room and run a dedicated duct to an exterior cap.',
     relevance: [
       'Evanston (ZIP 45207) is an east-side neighborhood next to Xavier University, with streets of early-1900s homes and apartment buildings, some now student housing. The older bathrooms here often run on worn fans or none at all, so shower steam lingers on aging plaster and tile.',
-      'In the densely built rentals near campus, heavy daily use wears fans out fast, and many were vented into the attic rather than fully outdoors. We size the fan to the room, run a dedicated duct to a proper exterior cap, and wire it to code so moisture leaves the building instead of feeding mildew. We respond 7 days a week from 8am to 8pm.',
+      'In the densely built rentals near campus, heavy daily use wears fans out fast, and many were vented into the attic rather than fully outdoors. We size the fan to the room, run a dedicated duct to a proper exterior cap, and wire it to code so moisture leaves the building instead of feeding mildew. We respond 7 days a week.',
     ],
     commonIntro:
       'In Evanston’s early-1900s homes near Xavier, the exhaust-fan work we see most often comes from worn fans and heavy rental use:',
@@ -337,7 +337,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-cumminsville': {
     intro:
-      'Damp, under-ventilated bathroom in your South Cumminsville home? We install and repair exhaust fans in this Mill Creek valley neighborhood, sized to the room and vented outdoors. Call (513) 586-5107.',
+      'Bathrooms in South Cumminsville’s older homes often have a worn exhaust fan or none at all, so a daily shower leaves moisture on the plaster. The low Mill Creek valley ground keeps the air damp. We size a fan to the room and run the duct to an exterior cap.',
     relevance: [
       'South Cumminsville (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, with older homes set among industrial corridors. Bathrooms in that older housing often have a worn fan or none at all, so a daily shower leaves moisture on plaster with no quick way out.',
       'The low valley ground keeps the air damp, which makes proper venting matter more here than in drier spots. We size a fan to the room and run the duct to a proper exterior cap rather than into the attic, then wire it to code. South Cumminsville is within our service area in the Mill Creek valley.',
@@ -353,7 +353,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'english-woods': {
     intro:
-      'Worn bathroom fan or a fan-less bath in your English Woods home? We install and repair exhaust fans in this west-side hilltop neighborhood, sized to the room and vented outdoors. Call (513) 586-5107.',
+      'Aging bathroom fans that have lost suction are the usual exhaust fan job in English Woods, where shower steam hangs in the room and works at paint and grout. On a hilltop above a humid valley, an attic-vented fan makes things worse. We run a dedicated duct outdoors.',
     relevance: [
       'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here often run on aging bath fans that have lost suction, so shower steam hangs in the room and works at the paint and grout.',
       'On a hilltop above a humid valley, clearing that moisture quickly keeps mildew down, and a fan vented into the attic does the opposite. We size a fan to the bathroom, route a dedicated duct to a proper exterior cap, and wire it to code. English Woods is within our west-side service area.',
@@ -369,7 +369,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-avondale': {
     intro:
-      'Grand North Avondale home with a fan-less bath, or an original unit that hums? We install and repair exhaust fans around Rockdale and Reading Road, sized to the room and vented outdoors. Call (513) 586-5107.',
+      'The large bathrooms in North Avondale’s early-1900s homes were often built without an exhaust fan, or still have a weak original unit. Moisture can quietly damage plaster before anyone notices. We size the fan to the room and duct it to a roof or soffit cap.',
     relevance: [
       'North Avondale (ZIP 45229) is a historic, leafy neighborhood known for its grand early-1900s homes on large, tree-shaded lots near Rockdale Avenue. The large bathrooms in those century-old houses were often built without fans or carry an original unit that no longer moves enough air to clear a daily shower.',
       'In a big older home, moisture from a weak or attic-vented fan can quietly damage plaster and finished detail before it is noticed. We size the fan to the actual room, run a dedicated duct to a roof or soffit cap, and wire it to code to protect the finished spaces these homes are known for. North Avondale is centrally located and quick for us to reach.',
@@ -385,7 +385,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'millvale': {
     intro:
-      'Damp, under-ventilated bathroom in your Millvale home? We install and repair exhaust fans in this Mill Creek valley neighborhood, sized to the room and vented outdoors. Call (513) 586-5107.',
+      'Millvale’s older valley homes often have a worn bathroom fan or no fan at all, so moisture clings to the plaster after every shower. Low-lying Mill Creek ground keeps the air damp. We size a fan to the room and run the duct to a proper exterior cap.',
     relevance: [
       'Millvale (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, a compact, largely residential community. The older homes here often have a worn fan or no fan at all, so a daily shower leaves moisture clinging to the plaster.',
       'The low-lying valley ground keeps the air damp, which makes venting a bathroom properly worth doing right. We size a fan to the room and run the duct to a proper exterior cap rather than into the attic, then wire it to code. Millvale is within our service area in the Mill Creek valley.',
@@ -401,7 +401,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'paddock-hills': {
     intro:
-      'Bathroom fan in your Paddock Hills home that drones or barely clears the steam? We install and repair exhaust fans near Paddock Road, sized to the room and vented outdoors with code-compliant wiring. Call (513) 586-5107.',
+      'Original bathroom fans in Paddock Hills’ early- and mid-1900s homes near Paddock Road have often lost suction and turned noisy. Many were vented into the attic, which traps damp air in the framing. We fit a properly sized, quieter unit and route a dedicated duct to an exterior cap.',
     relevance: [
       'Paddock Hills (ZIP 45229) is a small, well-kept north-side residential pocket near Paddock Road and the Norwood Lateral, with streets of early- and mid-1900s homes. Bathrooms from that era commonly run on original or first-generation fans that have lost suction and turned noisy, so a daily shower leaves moisture on the ceiling.',
       'Those same older homes often had fans vented into the attic rather than through the roof or soffit, which traps damp air in the framing. We size the fan to the bathroom, route a dedicated duct to a proper exterior cap, and wire it to code. Paddock Hills is centrally located near Paddock Road and quick for us to reach.',
@@ -417,7 +417,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'spring-grove-village': {
     intro:
-      'Damp, fan-less bathroom in your Spring Grove Village home? We install and repair exhaust fans near Spring Grove Cemetery, sized to the room and vented outdoors. Call (513) 586-5107.',
+      'Older houses near Spring Grove Cemetery often have a worn exhaust fan or none, so steam lingers on aging plaster in Spring Grove Village bathrooms. The low valley ground keeps the air damp. We size a fan to the room and vent it to an exterior cap.',
     relevance: [
       'Spring Grove Village (ZIP 45232) sits in the Mill Creek valley around the historic Spring Grove Cemetery and Arboretum, one of the largest cemeteries in the country, with a mix of older homes and industry. The older houses here often have a worn fan or none at all, so shower steam lingers on aging plaster.',
       'The low valley ground keeps the air damp, which makes good ventilation matter more, not less. We size a fan to the room and run the duct to a proper exterior cap rather than into the attic, then wire it to code so moisture clears the house. Spring Grove Village is within our service area in the Mill Creek valley.',
@@ -433,7 +433,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'linwood': {
     intro:
-      'Old riverside Linwood bathroom that stays humid? We install and repair exhaust fans near Lunken and Eastern Avenue, sized to the room and vented outdoors with proper wiring. Call (513) 586-5107.',
+      'Linwood’s older homes near Lunken Airport were built before bathroom fans were standard, so shower moisture settles into decades-old plaster. The low river bottoms along Eastern Avenue keep the air damp. We size a fan to the room and route the duct to an exterior cap rather than the attic.',
     relevance: [
       'Linwood (ZIP 45226) is one of Cincinnati’s smaller east-side neighborhoods, set along Eastern Avenue near Lunken Airport and the river bottoms. The older homes here were built before bath fans were standard, so shower moisture settles into decades-old plaster with no quick way out.',
       'Its low riverside position keeps the air damp, which makes a bathroom that clears steam quickly matter more than it might on higher, drier ground. We size a fan to the room and route the duct to a proper exterior cap rather than the attic, then wire it to code. Linwood is within our east-side service area near Lunken.',
@@ -449,7 +449,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bond-hill': {
     intro:
-      'Worn bathroom fan or a damp ceiling in your Bond Hill home along Reading Road? We install and repair exhaust fans here, sized to the room and vented outdoors with code-compliant wiring. Call (513) 586-5107.',
+      'Bathroom fans in Bond Hill’s early-1900s and mid-century homes along Reading Road have often lost their pull, leaving moisture at the paint and grout. Mid-century fans were frequently vented into the attic. We size the fan to the bathroom and reroute the duct to a proper exterior cap.',
     relevance: [
       'Bond Hill (ZIP 45237) is a north-side neighborhood along Reading Road, with established streets of early-1900s and mid-century single-family homes. Bathrooms from that range often run on original or first-generation fans that have lost their pull, so a daily shower leaves moisture working at the paint and grout.',
       'In the mid-century houses especially, fans were frequently vented into the attic rather than through the roof or soffit, which traps moisture in the framing. We size the fan to the bathroom, route a dedicated duct to a proper exterior cap, and wire it to code. Bond Hill is well within our north-side service area along Reading Road.',

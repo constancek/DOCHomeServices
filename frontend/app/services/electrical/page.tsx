@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
@@ -69,26 +69,12 @@ const inspections = [
   'Safety compliance review',
 ];
 
-const whyChoose = [
-  'Licensed and insured electricians',
-  'Reliable electrical solutions',
-  'Transparent pricing',
-  'Prompt service calls',
-  'Safe and code-compliant installations',
-  'Long-term peace of mind',
-];
 
-const whyUs = [
-  { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Trained, background-checked electricians on every job.' },
-  { icon: 'clock' as const, title: 'Seven-Day Emergency Service', text: 'Burning smell, dead power, or a tripping breaker? We respond fast.' },
-  { icon: 'badge' as const, title: 'Transparent Pricing', text: 'Clear, upfront quotes you approve before any work begins.' },
-  { icon: 'check' as const, title: 'Code-Compliant Work', text: 'Every install and repair completed to current electrical code.' },
-];
 
 const faqs = [
   { q: 'What electrical services do you offer?', a: 'We handle repairs, panel upgrades, whole-home and targeted rewiring, lighting and fixture installation, ceiling and exhaust fans, EV chargers, whole-home surge protection, switches and outlets, and electrical inspections.' },
   { q: 'Are your electricians certified?', a: 'Yes. Our electricians are licensed and insured, and every project is completed to current electrical code.' },
-  { q: 'Do you provide emergency electrical services?', a: 'Yes. We offer 7-day emergency electrical service for urgent safety issues like power loss, breakers that will not reset, overheated outlets, or burning smells.' },
+  { q: 'Do you provide emergency electrical services?', a: 'Yes. We offer emergency electrical service any day of the week for urgent safety issues like power loss, breakers that will not reset, overheated outlets, or burning smells.' },
   { q: 'What areas do you serve?', a: `We provide electrical services across ${site.serviceArea}.` },
   { q: 'How often should I schedule an electrical inspection?', a: 'Every few years is reasonable for most homes, and it is smart to inspect when buying a home or after any electrical problem. Older homes benefit from more frequent checks.' },
   { q: 'What financing options are available for electrical projects?', a: 'For larger projects — panel upgrades, rewiring, or EV charger installation — we offer financing with a quick application and flexible terms.' },
@@ -127,36 +113,20 @@ export default function ElectricalPage() {
       <PageHero
         eyebrow="Electrical"
         title={`Electrical Services in ${site.serviceArea}`}
-        description="Repairs, panel upgrades, rewiring, lighting, EV chargers, and inspections — by licensed electricians, built to code and to last, with 7-day emergency service."
+        description="Repairs, panel upgrades, rewiring, lighting, EV chargers, and inspections — by licensed electricians, built to code and to last, with emergency service on weekends too."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Services', href: '/services' }, { label: 'Electrical' }]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Electrical problem in {site.serviceArea}? Call for immediate service
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar couponTitle="Any Electrical Service">
+        <MainWithSidebar mascot couponTitle="Any Electrical Service">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/electrical-hero.webp)' }}
             role="img"
             aria-label="Licensed electrician working on an electrical panel"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Professional Electrical Services
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -207,17 +177,17 @@ export default function ElectricalPage() {
             aria-label="Electrical wiring work"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Common Electrical Problems We Resolve
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
               Electrical issues often start small, but over time they can signal larger problems in
               your home’s system. We commonly resolve:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {commonProblems.map((p) => (
-                <li key={p} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={p} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {p}
                 </li>
               ))}
@@ -229,22 +199,22 @@ export default function ElectricalPage() {
         </div>
       </section>
 
-      {/* Band: 7-day emergency (photo right) */}
+      {/* Band: emergency, any day (photo right) */}
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
-              7-Day Emergency Electrical Support
+            <h2 className="section-title">
+              Emergency Electrical Help, Any Day of the Week
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
               Electrical problems can become dangerous quickly. If you notice flickering lights,
               repeated breaker trips, burning smells, or sudden power loss, it is important to act
               fast. We provide emergency electrical service for urgent concerns such as:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {emergencyConcerns.map((c) => (
-                <li key={c} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={c} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {c}
                 </li>
               ))}
@@ -260,6 +230,24 @@ export default function ElectricalPage() {
             role="img"
             aria-label="Electrical panel"
           />
+        </div>
+      </section>
+
+      <ServiceReviews service="electrical" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Electrical problem in {site.serviceArea}? Call for immediate service
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -288,7 +276,7 @@ export default function ElectricalPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {lighting.map((l) => (
-              <li key={l} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={l} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {l}
               </li>
@@ -307,7 +295,7 @@ export default function ElectricalPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {panelSigns.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
@@ -327,7 +315,7 @@ export default function ElectricalPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {wiring.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {w}
               </li>
@@ -346,7 +334,7 @@ export default function ElectricalPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {inspections.map((i) => (
-              <li key={i} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={i} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {i}
               </li>
@@ -364,28 +352,14 @@ export default function ElectricalPage() {
             code. Working with licensed electricians ensures the job is done correctly the first time.
             Homeowners choose {site.name} because we deliver:
           </p>
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
-                <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
-                {w}
-              </li>
-            ))}
-          </ul>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Electrical FAQs</h2>
           <div className="mt-4">
@@ -400,7 +374,7 @@ export default function ElectricalPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Electrical Service Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule Electrical Service Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Repairs, panel upgrades, lighting, surge protection, inspections, fans, EV chargers, or
               rewiring — our licensed electricians are ready to help. Call now or request an
@@ -419,7 +393,7 @@ export default function ElectricalPage() {
         </div>
       </section>
 
-      <PageSections service="electrical" />
+      <ServiceSections service="electrical" />
     </>
   );
 }

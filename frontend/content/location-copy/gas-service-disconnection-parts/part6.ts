@@ -8,7 +8,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part6: Record<string, LocationServiceCopy> = {
   northbrook: {
     intro:
-      'Northbrook gas repairs are permitted by Colerain Township and Hamilton County, so the paperwork is the first thing we settle after a shutoff. Then we test the piping, fix what fails and get service restored. Call (513) 586-5107.',
+      'Colerain Township and Hamilton County permit gas shutoff repairs in Northbrook, so the paperwork is the first thing we settle. A filing sent to the wrong office costs days without hot water. Then we test the mid-century piping, fix what fails and restore service.',
     relevance: [
       'Northbrook (ZIP 45251) is a settled Colerain Township community of mid-century and later single-family homes, and the paperwork question comes first on a shutoff: permits and inspections go through Colerain Township and Hamilton County rather than the city of Cincinnati. The utility waits on the correct sign-off, so a filing sent to the wrong office costs you days with no hot water.',
       'The housing spans enough years that the piping does too. On the older streets it is rigid black iron installed with the house, where a pressure test finds aged joints and capped stubs from appliances removed decades ago. On the later streets it is often CSST, flexible tubing with a yellow jacket, where the common inspection finding is bonding to the electrical grounding system rather than a leak at all.',
@@ -25,7 +25,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'indian-hill': {
     intro:
-      'On multi-acre Indian Hill lots, the gas line from the meter is often long, and it may feed a pool heater, guest house, barn or generator too. A shutoff pressure test covers all of it, so diagnosis takes longer. We trace it and restore service. Call (513) 586-5107.',
+      'Long gas lines are part of most Indian Hill shutoff calls. On multi-acre lots the run from the meter is often long, and it may also feed a pool heater, guest house, barn or generator. The pressure test covers all of it, so we trace the fault and restore service.',
     relevance: [
       'Indian Hill (ZIP 45243) is large houses on multi-acre wooded lots, and the scale changes the job in two concrete ways. The run from the meter to the house is often long, and the system rarely stops at the house — pool heaters, guest houses, garages, barns, outdoor kitchens and standby generators are commonly on gas, each a branch with joints and a valve.',
       'A pressure test covers all of it together, so diagnosing a shutoff here takes longer than on a suburban lot simply because there is more system to isolate. Outbuilding and outdoor runs are also the ones most often added without a permit over the years, which makes them both a likely source and a likely inspection issue. Tell us what is out there when you call. The village runs its own building department and inspections rather than the county.',
@@ -42,7 +42,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   evendale: {
     intro:
-      'We restore gas at Evendale homes, not at the industrial site. Residential shutoffs here are the ordinary job: test, fix, inspect. Large industrial meter sets and process piping need a different trade, and we will tell you if that is what you have. Call (513) 586-5107.',
+      'We handle residential gas shutoffs in Evendale, not the industrial site. On the village’s modest residential streets it is the ordinary job of testing, fixing and inspecting. Large industrial meter sets and process piping need a different trade, and we will tell you if that is what you have.',
     relevance: [
       'Evendale (ZIP 45241) is a village of modest residential streets alongside one of the largest industrial sites in the region, and the two need saying apart. On the houses a gas shutoff is the ordinary job — test the system, correct what fails, get it inspected, and the utility reconnects.',
       'Large industrial meter sets and process piping are a different trade with different certification, and if that is what you have we will say so on the phone rather than send someone out to look. Our work here is residential and light commercial. Evendale is its own village and issues its own permits and inspections, and ZIP 45241 also covers Sharonville, which is a separate city with its own office.',
@@ -59,7 +59,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   glendale: {
     intro:
-      'Glendale is a National Historic Landmark district, so anything visible from the street matters on a gas repair. Interior work after a shutoff is routine. Moving a meter or running exterior pipe needs checking before the route is designed. Call (513) 586-5107.',
+      'Glendale is a National Historic Landmark district, so anything visible from the street matters on a gas shutoff repair. Interior work in the Victorian and early-1900s houses is routine. Moving a meter or running exterior pipe needs checking before any route is designed.',
     relevance: [
       'Glendale (ZIP 45246) is a National Historic Landmark district — one of the earliest planned suburbs in the country — and that shapes what can be done outside a house. Interior gas work is a normal job: test, repair, inspect. Anything visible from the street, particularly relocating a meter or running new pipe on an exterior wall, needs establishing before it is designed rather than after a route is agreed.',
       'The houses themselves are large Victorians and early-1900s homes, which means extensive systems and, in many cases, gas lines that were capped at the wall when electric lighting arrived rather than removed. Those runs are still connected a century later, and a cap that has held for decades can begin to weep. Locating one means isolating sections rather than opening original plaster on a hunch. Glendale issues its own permits and inspections.',
@@ -76,7 +76,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   sharonville: {
     intro:
-      'Sharonville issues its own gas permits, and the era of your street sets the likely finding. Near the historic centre it is old black iron with capped stubs; in the newer subdivisions it is CSST bonding. We fix either and restore gas. Call (513) 586-5107.',
+      'Sharonville issues its own permits for gas shutoff repairs, and the era of your street sets the likely finding. Near the historic centre it is old black iron with capped stubs, while the newer subdivisions run CSST, where bonding is the usual issue. We fix either and restore gas.',
     relevance: [
       'Sharonville (ZIP 45241) is its own city, spanning older housing near the historic centre and newer subdivisions further out, and the era of your street decides the likely finding. On the older side, rigid black iron altered in stages, where a test turns up aged joints and capped stubs from appliances long gone. On the newer side, CSST, where the usual issue is bonding to the electrical grounding system.',
       'Those are not comparable pieces of work, so we test before quoting rather than after. Sharonville issues its own permits and inspections, and 45241 also covers Evendale, a separate village with its own office — so the address decides the authority rather than the postal code.',
@@ -93,7 +93,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   northgate: {
     intro:
-      'Because Northgate was built out in one mid-century push, gas piping on one street tends to behave like the next. If a test fails after a shutoff, replacing a section is often the better remedy than chasing joints. Then service is restored. Call (513) 586-5107.',
+      'Because Northgate was built in one mid-century push, gas piping on one street tends to behave like the next. If the test fails after a gas shutoff, replacing a section is often a better remedy than chasing joints one at a time. Then service is restored.',
     relevance: [
       'Northgate (ZIP 45251) is a Colerain Township community built out largely in one mid-century push, and that uniformity is genuinely useful. The houses were piped the same way at the same time and have aged at a similar rate, so the findings on one street tend to hold for the next.',
       'It does not mean your system is failing. It means that if something does stop a reconnection, a section replacement is a more likely remedy here than a patch on a single joint, and it is worth knowing that before you are quoted. Permits and inspections go through Colerain Township and Hamilton County rather than the city.',
@@ -110,7 +110,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   springdale: {
     intro:
-      'Apartment residents in Springdale cannot authorise gas repairs; the building owner does. When one system serves several units, every household stays off until the whole test passes, then comes back on together under one permit. Call (513) 586-5107.',
+      'Springdale apartment residents cannot authorise gas shutoff repairs, because the system belongs to the building owner. When one system serves several units, every household stays off until the whole test passes, then comes back on together under one permit and one inspection.',
     relevance: [
       'Springdale (ZIP 45246) is its own city, mixing mid-century single-family streets with a substantial amount of apartment housing, and on the apartments none of the gas system belongs to a resident. Where one system serves several units, a pressure test covers all of it and every household stays off until it passes — restored together on one permit and one inspection, which is cheaper than piecemeal but needs the building owner to act.',
       'What residents can usefully do is report how many units are affected and whether it is one building or several, because that tells management and us what the job actually is. On the single-family streets the picture is the ordinary one: original mid-century piping now feeding much newer appliances, with sizing worth checking alongside leaks. Springdale issues its own permits and inspections.',
@@ -127,7 +127,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   miamitown: {
     intro:
-      'Great Miami River flooding is what usually shuts off gas in Miamitown. A furnace, boiler or water heater that sat in water gets a new control valve, because the corrosion is internal. We replace it, test the lines and restore service. Call (513) 586-5107.',
+      'Great Miami River flooding is what usually leads to a gas shutoff in Miamitown. A furnace, boiler or water heater that sat in water gets a new control valve, because the corrosion is internal and invisible. We replace it, test the lines and restore service.',
     relevance: [
       'Miamitown (ZIP 45041) sits on the Great Miami River in Whitewater Township, on low ground where flooding is a recurring event, and that is what most often takes the gas off. Where a furnace, boiler or water heater has been submerged, the gas control valve is replaced rather than dried out and relit — the damage is internal corrosion with nothing visible from outside, and a control that works today can fail unsafely later.',
       'Because it happens more than once here, plenty of properties are on their second or third water heater in the same spot, so the useful question during a replacement is whether the appliance can be raised. Venting is the constraint. Where a platform above the historic water line works, the cycle ends; where it does not, we will say so rather than build something that creates a different problem. Permits go through Whitewater Township and Hamilton County.',
@@ -144,7 +144,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'forest-park': {
     intro:
-      'Forest Park was planned and built from the 1950s on, so most houses were piped to a similar standard and have aged together. After a gas shutoff, whether the pipe is big enough matters as much as whether it leaks, and we check both. Call (513) 586-5107.',
+      'Forest Park was planned and built from the 1950s on, so most houses got gas piping of a similar standard that has aged together. After a shutoff, whether the pipe is big enough matters as much as whether it leaks, and we check both before restoring service.',
     relevance: [
       'Forest Park (ZIP 45240) was laid out and built as a planned community from the 1950s onward, which makes it unusually consistent. Most houses were piped in a comparable period to a comparable standard, so unlike the older neighborhoods where one street spans decades, the systems here have aged together.',
       'The practical consequence at a shutoff is that a sizing question is as worth asking as a leak question. A run adequate for the furnace, water heater and cooker of the original build may not supply a modern furnace and a tankless heater drawing at the same time — and that shows up as appliances misbehaving rather than as a failed pressure test. The two need different repairs. Forest Park is its own city with its own permits and inspections.',
@@ -161,7 +161,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'pleasant-run': {
     intro:
-      'Pleasant Run shares ZIP 45240 with Forest Park, but Springfield Township inspects gas work here. The utility waits for that sign-off before it reconnects, so we file with the township from the start and get your gas restored. Call (513) 586-5107.',
+      'Pleasant Run shares ZIP 45240 with Forest Park, but Springfield Township inspects gas shutoff repairs here. The utility waits for that sign-off before it reconnects, so we file with the township from the start, repair the mid-century piping and get your gas restored.',
     relevance: [
       'Pleasant Run (ZIP 45240) is a Springfield Township community of mid-century single-family homes, and the jurisdiction is worth naming because it is a separate authority from the west-side townships and from Forest Park, which shares the ZIP. Permits and inspections go through Springfield Township, and the utility waits on that sign-off before it will reconnect.',
       'The housing is consistent enough that the findings are predictable — original black iron installed with the houses, still in place, now feeding appliances replaced once or twice since. What a pressure test turns up here is the pipe rather than anything recent, and the accumulated capped stubs from appliances removed over sixty years are a frequent culprit.',
@@ -178,7 +178,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   cleves: {
     intro:
-      'High water on low ground is the usual cause of a Cleves gas shutoff. Controls that were submerged can fail closed or fail to shut, so they are replaced, not dried. We do that, test the piping and arrange the reconnect. Call (513) 586-5107.',
+      'High water on low ground is the usual cause of a Cleves gas shutoff. Controls that were submerged can fail closed or fail to shut when they should, so they are replaced, not dried out. We do that, test the piping and arrange the reconnect.',
     relevance: [
       'Cleves (ZIP 45002) is a small Ohio River village on the western edge of the county, on low ground where high water is a recurring event rather than a rarity. Where a furnace, boiler or water heater has been submerged, the gas control valve and burner controls are replaced rather than dried out — water corrodes them internally with nothing visible outside, and a control can fail closed or fail to shut when it should.',
       'Cleves issues its own permits and inspections, and being a small village the inspection queue rather than the plumbing usually decides how quickly gas comes back — which is why we file and book it when the work is scheduled rather than once it is finished. Where several neighbouring properties need the same work after the same high water, handling them together saves days.',
@@ -195,7 +195,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'north-bend': {
     intro:
-      'Two things shape a gas shutoff in North Bend: river water and village size. Submerged controls are replaced, and with a very small permit office, the inspection sets the pace. We file early and get your gas restored. Call (513) 586-5107.',
+      'Two things shape a gas shutoff in North Bend: river water and village size. Submerged appliance controls are replaced rather than dried out, and with a very small permit office, the inspection sets the pace. We file early and get your gas restored.',
     relevance: [
       'North Bend (ZIP 45052) is a small Ohio River village on low ground west of the city, and the two things that shape a gas shutoff here are water and scale. Submerged appliance controls are a recurring cause and they are replaced rather than dried out, because the corrosion is internal and a control that works today can fail unsafely later.',
       'The scale matters because North Bend issues its own permits and inspections with minimal capacity, and that queue rather than the plumbing usually sets the timeline. The plumbing side is frequently a single day. That is why the inspection is filed and booked when the work is scheduled, not after it is finished — and why coordinating neighbouring properties after the same high water is worth doing.',
@@ -212,7 +212,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   loveland: {
     intro:
-      'Loveland spans Clermont, Warren and Hamilton counties, but the city issues the permit for a gas repair whichever county you are in. Contractors who file with a township or county lose time. We file with Loveland and restore service. Call (513) 586-5107.',
+      'Loveland spans Clermont, Warren and Hamilton counties, but the city issues the permit for a gas shutoff repair whichever county you are in. Contractors who file with a township or county office lose time. We file with Loveland, fix the fault and restore service.',
     relevance: [
       'Loveland (ZIP 45140) is unusual in that the city spans three counties — mostly Clermont, partly Warren, with a small portion in Hamilton. For a gas shutoff the city of Loveland issues the permit and inspection regardless of which county your address falls in, so the county line is less of a trap than people expect. What does catch contractors out is assuming a township or county office when it is the city’s.',
       'The housing runs from old properties near the historic centre and the Little Miami through to newer subdivisions, so the piping spans eras. Older systems mean aged joints and capped stubs from appliances long removed; newer ones mean CSST, where the common inspection finding is bonding to the electrical grounding system rather than a leak.',
@@ -229,7 +229,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   harrison: {
     intro:
-      'On the Ohio side of Harrison, your gas is Duke Energy Ohio and the city issues the permit. A few minutes west is Indiana, with a different utility and code. We confirm which side you are on, repair the fault and restore gas. Call (513) 586-5107.',
+      'On the Ohio side of Harrison, a gas shutoff runs through Duke Energy Ohio, and the city issues the permit. A few minutes west is Indiana, with a different utility, regulator and code. We confirm which side you are on, repair the fault and restore gas.',
     relevance: [
       'Harrison (ZIP 45030) sits right on the Indiana state line, and that matters more for gas than for most trades. On the Ohio side you are served by Duke Energy Ohio under the Public Utilities Commission of Ohio, on Ohio code, with the city of Harrison issuing the permit and inspection. A few minutes west across the line is a different state, a different utility company, a different regulator in the Indiana Utility Regulatory Commission, and different inspecting authorities.',
       'A plumber who has only worked one side can get the filing wrong, and that is a delay rather than a failed inspection — the paperwork comes back and is redone while the house sits without hot water. Otherwise the housing here spans older properties near the centre and newer subdivisions, so a pressure test finds either aged black iron and capped stubs or a CSST bonding issue.',
@@ -246,7 +246,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   ludlow: {
     intro:
-      'Kentucky inspects gas piping under the state plumbing code, so a Ludlow repair after a shutoff goes through the Kentucky Division of Plumbing, not a city office. Duke Energy Kentucky handles the reconnect, and we do the repair in between. Call (513) 586-5107.',
+      'Kentucky inspects gas piping under the state plumbing code, so a Ludlow gas shutoff repair goes through the Kentucky Division of Plumbing rather than a city office. Duke Energy Kentucky handles the reconnect, and we test and repair the old river-town piping in between.',
     relevance: [
       'Ludlow (ZIP 41016) is a dense old river town in Kenton County, and two things differ from the Ohio side. Your gas comes from Duke Energy Kentucky, a separate operating company regulated by the Kentucky Public Service Commission rather than PUCO. And gas piping in Kentucky falls under the state plumbing code, with inspection running through the Kentucky Division of Plumbing rather than a city building department — a different process, and one a plumber who works mostly across the river can get wrong.',
       'The housing is genuinely old and closely spaced, much of it from an era when houses were lit by gas. Those lighting lines were usually capped at the wall rather than removed, so they are still on the system a pressure test covers, and a cap that has held for a century can begin to weep.',
@@ -263,7 +263,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'park-hills': {
     intro:
-      'Substantial older homes around Devou Park carry big gas systems, and in Park Hills a shutoff test checks every branch together. Isolating the fault takes longer here than on a modest house. We do it properly and get service restored. Call (513) 586-5107.',
+      'Substantial older homes around Devou Park carry big gas systems, so a Park Hills gas shutoff test checks a furnace, water heater, range and fireplaces together, sometimes old lighting lines too. Isolating the fault takes longer than on a modest house. We do it properly and restore service.',
     relevance: [
       'Park Hills (ZIP 41011) is a small Kenton County city of substantial older homes on the hillsides around Devou Park, and houses of that scale and age carry more gas system than a modest house does — a furnace, sometimes two zones, a water heater, a range, and fireplaces added at various points. A pressure test covers every branch together, so isolating a fault takes longer here.',
       'The age brings the other issue: houses from this era were often lit by gas, and those lines were capped at the wall rather than removed when electric arrived. They are still connected behind original plaster. Your gas comes from Duke Energy Kentucky under the Kentucky Public Service Commission, and piping inspection runs through the state plumbing code rather than a city building department.',
@@ -280,7 +280,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   bromley: {
     intro:
-      'Bromley is a very small river city on low ground, and high water is what usually takes the gas off. Submerged controls are replaced rather than relit, then the system is tested and inspected before service is restored. Call (513) 586-5107.',
+      'Bromley is a very small river city on low ground, and high water is what usually causes a gas shutoff here. Submerged furnace and water heater controls are replaced rather than relit, then the system is tested and inspected before service is restored.',
     relevance: [
       'Bromley (ZIP 41016) is a very small Kenton County river city on low ground, and high water is the recurring reason gas goes off. Where a furnace or water heater has been submerged, the gas control valve is replaced rather than dried out and relit — the corrosion is internal, nothing shows from outside, and a control that works today can fail unsafely later.',
       'Being this small means limited local capacity, and Kentucky adds its own process: gas piping is inspected under the state plumbing code through the Kentucky Division of Plumbing rather than a city building department, and the gas itself comes from Duke Energy Kentucky. Where several neighbouring properties need the same work after the same high water, handling them together saves days rather than each waiting separately.',
@@ -297,7 +297,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'fort-wright': {
     intro:
-      'Fort Wright’s mid-century hillside homes mostly still have original black iron, now feeding appliances replaced once or twice. After a gas shutoff we check sizing as well as leaks, and Duke Energy Kentucky restores service once it passes. Call (513) 586-5107.',
+      'Fort Wright’s mid-century hillside homes mostly still have original black iron gas piping, now feeding appliances replaced once or twice. After a shutoff on these Kenton County streets we check sizing as well as leaks, and Duke Energy Kentucky restores service once the system passes.',
     relevance: [
       'Fort Wright (ZIP 41011) is a Kenton County city of largely mid-century homes on the hillsides above the river, and the systems are consistent enough that the findings are predictable — original black iron sized for its era, now feeding appliances replaced once or twice since. Your gas comes from Duke Energy Kentucky rather than the Ohio company, under the Kentucky Public Service Commission.',
       'That vintage makes a sizing question worth asking alongside a leak question. A pressure test says whether the system holds. A measurement at the appliances with several drawing at once says whether the run can deliver what the house now demands, and a system can pass the test and still be too small. They need different repairs. Piping inspection here runs under the Kentucky state plumbing code.',
@@ -314,7 +314,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'fort-mitchell': {
     intro:
-      'Near the Dixie Highway, older Fort Mitchell homes have black iron with aged joints and capped stubs. On the newer subdivision streets it is CSST, where bonding is the usual hold-up. Either way we fix the cause and get gas restored. Call (513) 586-5107.',
+      'Near the Dixie Highway, older Fort Mitchell homes have black iron with aged joints and capped stubs, and that is what a gas shutoff test usually finds. On the newer subdivision streets it is CSST, where bonding is the hold-up. Either way we fix the cause and restore gas.',
     relevance: [
       'Fort Mitchell (ZIP 41017) spans older housing near the Dixie Highway corridor and much newer subdivision streets, and which era your house belongs to decides the likely finding. On the older side, rigid black iron altered in stages, where a pressure test turns up aged joints and capped stubs from appliances removed decades ago. On the newer side, CSST — flexible tubing with a yellow jacket — where the usual issue is bonding to the electrical grounding system rather than a leak.',
       'Those are not comparable pieces of work, so we test before quoting. Your gas comes from Duke Energy Kentucky under the Kentucky Public Service Commission, and gas piping is inspected under the state plumbing code through the Kentucky Division of Plumbing rather than a city building department.',
@@ -331,7 +331,7 @@ export const part6: Record<string, LocationServiceCopy> = {
 
   'villa-hills': {
     intro:
-      'Villa Hills homes on the bluffs are mostly newer, with CSST instead of black iron, and bonding is what inspectors look at most after a gas shutoff. A leak is the less likely finding. We correct the bond and restore service. Call (513) 586-5107.',
+      'Bonding, not leaks, is what inspectors check most after a gas shutoff in Villa Hills. Homes on these Kenton County bluffs are mostly newer and run CSST instead of black iron, and that tubing has to be bonded to the electrical ground. We correct the bond and restore service.',
     relevance: [
       'Villa Hills (ZIP 41017) is largely newer subdivision housing on the Kenton County bluffs above the Ohio, and the piping reflects that. Rather than the rigid black iron of the older river towns, these houses are commonly run in CSST — flexible tubing with a yellow jacket — where the issue that most often shows up on inspection is bonding to the electrical grounding system rather than a leak.',
       'That bond exists so a nearby lightning strike cannot arc through the tubing wall, and where it is missing or has been disturbed by later work it has to be corrected before a sign-off. It is a smaller job than repiping, which is worth knowing before assuming the worst. Your gas comes from Duke Energy Kentucky under the Kentucky Public Service Commission, and piping inspection runs under the state plumbing code.',

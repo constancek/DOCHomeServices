@@ -65,12 +65,7 @@ const config: ServiceLocationConfig = {
     { title: 'When You Do Not Need Us', body: 'A small clean-water spill on tile or sealed vinyl, caught within the hour, is a mop and a fan. A shop vac handles more than people expect on hard flooring. If the water never left the room, never reached carpet or drywall, and is already up, you are done — calling us would be paying for equipment you do not need. The threshold is porous material: once water is in carpet pad, subfloor, or the bottom of a drywall sheet, household tools cannot reach it.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us First',
-  whyUs: [
-    { icon: 'clock', title: 'Same-Day On Site', text: 'Extraction is a race. Every hour of standing water is more material that cannot be saved.' },
-    { icon: 'shield', title: 'Licensed Plumbers On the Truck', text: 'We stop the source as part of the same visit, not after a second contractor arrives.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start, with no overtime or weekend surcharge.' },
-    { icon: 'doc', title: 'Documented for Insurance', text: 'Photos and moisture readings from the first visit, written up for your claim.' },
-  ],
+  whyParagraph: 'Every hour water sits is more material that can’t be saved, so we aim to be at your {neighborhood} home the same day. You approve the price first, and we take photos and moisture readings for your insurance claim.',
   proofQuote:
     'A supply line let go while we were out and there was standing water across the lower level when we got back. They were there that afternoon with pumps, had the water out and the pad up the same visit, and shut off the line that caused it before they left.',
   sharedFaqs: [

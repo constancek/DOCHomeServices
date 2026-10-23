@@ -9,7 +9,7 @@ export default function BlogFaq({ items }: { items: { q: string; a: string }[] }
 
   return (
     <section id="faq" className="mt-14">
-      <h2 className="font-display text-3xl font-black uppercase tracking-tight text-pink-600 sm:text-4xl">
+      <h2 className="font-display text-3xl font-black tracking-tight text-pink-600 sm:text-4xl">
         Frequently Asked Questions
       </h2>
       <div className="mt-6 space-y-4">

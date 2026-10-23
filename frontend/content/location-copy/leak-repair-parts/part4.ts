@@ -1,7 +1,7 @@
 export const part4: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'reading': {
     intro:
-      'Water staining a ceiling or pooling under a fixture in Reading? We offer same-day leak repair and trace the problem back to its source before we patch anything. Call (513) 586-5107.',
+      'In Reading, leak repair starts with the valley ground. When the Mill Creek water table rises after heavy rain, basement seepage gets mistaken for a plumbing leak, so we sort groundwater from a failing line first. The older and mid-century homes also have decades-old supply lines that drip behind walls.',
     relevance: [
       'Reading (ZIP 45215) sits low in the Mill Creek valley north of Cincinnati, and that valley ground is the first thing we think about on a leak call here. When the water table rises after heavy rain, slow basement seepage and weeping foundation joints get mistaken for plumbing leaks, so the first job is sorting groundwater from a failing supply or drain line. Getting that diagnosis right saves a homeowner from paying to fix the wrong thing.',
       'The other half of the story is the age of the housing. Reading’s settled mix of older and mid-century homes runs on supply lines and drains that have had decades to corrode, and a pinhole leak in an aging line can drip behind a wall for weeks before it shows. We use leak detection to pin the exact spot rather than opening up drywall on a guess, then repair the line itself so it does not surface again two feet over.',
@@ -17,7 +17,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'dent': {
     intro:
-      'Hidden leak or a line dripping behind a wall in Dent? We provide same-day leak repair and find the source first so the fix actually holds. Call (513) 586-5107.',
+      'Dent leak repair usually involves mid-century homes in Green Township where supply lines have started to pinhole and original water-heater connections weep. Much of the housing has slabs and finished lower levels, so a leak under the floor can travel a long way before the first stain appears.',
     relevance: [
       'Dent (ZIP 45247) is a Green Township community on the west side built out largely with mid-century and newer single-family homes. Mid-century houses are now at the age where supply lines develop pinhole leaks and the original water-heater connections start to weep, often where the line runs under a slab or through a finished lower level where it is hard to spot.',
       'Because much of Dent sits on slab and finished-basement construction, a leak under the floor can travel a long way before the first stain appears. We use electronic leak detection to locate the exact run rather than chasing the water across a ceiling, then repair the line at the source so the same spot does not fail again.',
@@ -27,13 +27,13 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Can you find a leak under the slab in my Dent home?',
-        a: 'Yes. Slab and under-floor leaks are common in the mid-century homes around Dent, and we use leak detection to pinpoint the run before opening anything up. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival in Green Township.',
+        a: 'Yes. Slab and under-floor leaks are common in the mid-century homes around Dent, and we use leak detection to pinpoint the run before opening anything up. We are on call 7 days a week and aim for same-day arrival in Green Township.',
       },
     ],
   },
   'deer-park': {
     intro:
-      'A leak surfacing in Deer Park, on the ceiling, the floor, or your water bill? We offer same-day leak repair and trace it to the source before we cut into anything. Call (513) 586-5107.',
+      'A corrosion pinhole in a decades-old supply line is the leak repair we see most in Deer Park. These mid-century homes often sit on slab or have finished lower levels, so a small leak can drip unseen for weeks before a stain or higher bill appears.',
     relevance: [
       'Deer Park (ZIP 45236) is a small, settled east-side city made up largely of mid-century single-family homes on quiet streets. Houses of that vintage were plumbed with supply lines that are now decades old, and the most common leak we find is a corrosion pinhole that has been dripping behind plaster or under a slab long enough to show up as a stain or a creeping water bill.',
       'Many of these homes sit on slab or have finished lower levels, so a small leak can run unseen for weeks. We use leak detection to find the precise location instead of opening up a whole wall, and we repair the failing section of line itself rather than patching the symptom, which is the only way to keep it from resurfacing nearby.',
@@ -49,7 +49,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'terrace-park': {
     intro:
-      'Leak threatening the finished spaces of your Terrace Park home? We provide same-day leak repair and find the source before any water reaches original woodwork. Call (513) 586-5107.',
+      'Leak repair in Terrace Park is about protecting finished interiors. A slow leak in the aging supply lines of these early-1900s homes can damage plaster, hardwood and original detail, and the low ground near the Little Miami can push damp into lower levels that looks like a leak.',
     relevance: [
       'Terrace Park (ZIP 45174) is an affluent east-side village near the Little Miami River, known for established early-1900s homes with finished interiors worth protecting. In houses that old, a slow leak in an aging supply line or drain can damage plaster, hardwood, and original detail before anyone notices, so speed and precise location matter more here than almost anywhere.',
       'The village’s low ground near the Little Miami adds a second factor. After heavy rain, the rising water table can push damp into lower levels, and that seepage is easy to confuse with a pipe leak. We use leak detection to separate groundwater from a true plumbing failure, then repair the line at its source to keep finished basements dry.',
@@ -65,7 +65,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'dry-run': {
     intro:
-      'Spotted a leak or a stain spreading in your Dry Run home? We offer same-day leak repair and trace it to the source so the patch is not just temporary. Call (513) 586-5107.',
+      'Many Dry Run subdivision homes were plumbed with higher water pressure, and that strain on joints drives a lot of our leak repair here. Older homes add corrosion pinholes in decades-old lines, and newer ones have water-heater connections starting to weep. We check pressure while we work.',
     relevance: [
       'Dry Run (ZIP 45244) is a suburban Anderson Township community on the east side built out with mid-century and newer single-family homes. Even the newer houses here are now old enough for supply-line fittings and water-heater connections to develop slow leaks, while the older homes see the corrosion pinholes typical of decades-old lines.',
       'Newer subdivision homes in areas like this were often plumbed with higher water pressure, which puts steady stress on joints and can turn a weeping fitting into a steady drip behind a wall. We use leak detection to find the exact point, check the home’s pressure while we are there, and repair the line at the source so the same joint does not give out again.',
@@ -75,13 +75,13 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Could high water pressure be causing leaks in my Dry Run home?',
-        a: 'It can. In Anderson Township subdivisions like Dry Run, high pressure puts steady strain on joints and fittings, so we check pressure while we locate and repair the leak. We are on call 7 days a week from 8am to 8pm with same-day service.',
+        a: 'It can. In Anderson Township subdivisions like Dry Run, high pressure puts steady strain on joints and fittings, so we check pressure while we locate and repair the leak. We are on call 7 days a week with same-day service.',
       },
     ],
   },
   'white-oak': {
     intro:
-      'Hidden leak running up your water bill in White Oak? We provide same-day leak repair and locate the source before we open a single wall. Call (513) 586-5107.',
+      'White Oak leak repair usually means a mid-century supply line corroding into pinhole leaks under a slab or behind a finished basement wall. In homes like these the water rarely shows up where the leak starts, so we pinpoint the run electronically before opening anything in this Green Township community.',
     relevance: [
       'White Oak (ZIP 45247) is a settled Green Township community on the northwest side made up largely of mid-century and newer single-family homes. The mid-century houses are at the age where supply lines corrode and develop pinhole leaks, and many sit on slab or have finished basements where a small leak can run unseen for a long stretch.',
       'A leak under a slab or behind a finished wall rarely shows where it starts, so guessing wastes both drywall and money. We use electronic leak detection to pinpoint the run, then repair the failing section of line itself rather than the spot where the water happened to surface, which is what keeps it from coming back nearby.',
@@ -97,7 +97,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'forestville': {
     intro:
-      'Leak showing up on a ceiling or in your basement in Forestville? We offer same-day leak repair and trace it to the source before we patch a thing. Call (513) 586-5107.',
+      'Leak repair in Forestville tends to involve water surfacing far from the failing line. The mid-century and newer homes in this Anderson Township community have supply lines with corrosion leaks and water-heater connections that weep, often in runs under a slab or through a finished lower level.',
     relevance: [
       'Forestville (ZIP 45230) is a suburban Anderson Township community on the east side with established neighborhoods of mid-century and newer homes. Houses of that era have reached the point where supply lines develop corrosion leaks and water-heater connections start to weep, often in lines that run under a slab or through a finished lower level.',
       'Because the water surfaces far from where the line is actually failing, we use leak detection to find the exact spot instead of opening up a ceiling on a hunch. Then we repair the line at its source, which is the only way to stop the same run from leaking again a short distance over.',
@@ -113,7 +113,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cherry-grove': {
     intro:
-      'Unexplained damp or a dripping line in your Cherry Grove home? We provide same-day leak repair and find the source first so the fix holds. Call (513) 586-5107.',
+      'In Cherry Grove, leak repair usually comes down to a pinhole in a decades-old supply line or a slow weep at an aging water-heater connection. Many of these mid-century Anderson Township homes are on slab or have finished basements, so a leak can travel before the first stain appears.',
     relevance: [
       'Cherry Grove (ZIP 45230) is a suburban Anderson Township community on the east side built out with mid-century and newer single-family homes. The most common leak we find here is a corrosion pinhole in a decades-old supply line, or a slow weep at an aging water-heater connection that has been damp long before it ever drips visibly.',
       'Many homes here are on slab or have finished basements, so a small leak can travel through the structure before the first stain appears. We use leak detection to pinpoint the run rather than guessing, and we repair the failing section of pipe itself so the problem does not resurface a couple of feet away.',
@@ -129,7 +129,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'kenwood': {
     intro:
-      'Hidden leak in a larger Kenwood home? We offer same-day leak repair and trace it to the source before any water reaches your finished spaces. Call (513) 586-5107.',
+      'Kenwood leak repair splits by house. Mid-century homes near Kenwood Towne Centre develop the usual corrosion pinholes, while the newer, larger houses leak at stressed fittings on long supply runs. In a big floor plan, a leak has more places to hide, so we find the exact point first.',
     relevance: [
       'Kenwood (ZIP 45236) is an upscale, unincorporated east-side community around Kenwood Towne Centre, with mid-century homes alongside newer, larger houses. The larger homes carry longer supply runs and more fixtures, which means more joints and fittings where a leak can start and more square footage for it to hide behind before anyone notices.',
       'In the mid-century homes, decades-old supply lines develop the usual corrosion pinholes, while the newer large homes tend to leak at stressed fittings on long runs. Either way, we use leak detection to find the exact point across a big floor plan rather than opening up multiple walls, then repair the line at the source.',
@@ -139,13 +139,13 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My large Kenwood home has a leak somewhere — can you narrow it down?',
-        a: 'Yes. Larger Kenwood homes have long supply runs, so we use leak detection to pinpoint the spot across the floor plan instead of opening multiple walls. We are on call 7 days a week from 8am to 8pm with same-day service.',
+        a: 'Yes. Larger Kenwood homes have long supply runs, so we use leak detection to pinpoint the spot across the floor plan instead of opening multiple walls. We are on call 7 days a week with same-day service.',
       },
     ],
   },
   'lincoln-heights': {
     intro:
-      'Leak or water damage in your Lincoln Heights home? We provide same-day leak repair and find the source before the water spreads. Call (513) 586-5107.',
+      'Leak repair in Lincoln Heights, one of the first self-governed Black municipalities in the northern United States, involves older, modest homes with aging supply lines and drains. Corrosion pinholes behind walls are the most common find, and the Mill Creek valley ground can make basement seepage look like a leak.',
     relevance: [
       'Lincoln Heights (ZIP 45215) is a historic Mill Creek valley community north of the city — one of the first self-governed Black municipalities in the northern United States — with older, modest homes. That older housing runs on supply lines and drains that have aged for decades, so a corrosion pinhole leaking behind a wall is one of the most common calls we get here.',
       'The low valley ground adds a second concern. When heavy rain raises the water table, basement seepage gets confused with a true pipe leak, so the first step is sorting one from the other. We use leak detection to confirm the source, then repair the failing line itself so a small drip does not turn into ongoing damage.',
@@ -155,13 +155,13 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Is the water in my Lincoln Heights basement a leak or the high water table?',
-        a: 'In the low Mill Creek valley it can be either, so we use leak detection to tell a failing pipe from groundwater seepage before we repair anything. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival.',
+        a: 'In the low Mill Creek valley it can be either, so we use leak detection to tell a failing pipe from groundwater seepage before we repair anything. We are on call 7 days a week and aim for same-day arrival.',
       },
     ],
   },
   'dillonvale': {
     intro:
-      'Hidden leak or a ceiling stain in your Dillonvale home? We offer same-day leak repair and trace it to the source so the patch is not temporary. Call (513) 586-5107.',
+      'Dillonvale leak repair mostly involves mid-century homes near Kenwood whose supply lines are well past their prime, leaving corrosion pinholes behind plaster or under a slab. Because many of these Sycamore Township houses have slabs or finished lower levels, the water often shows up far from the failing line.',
     relevance: [
       'Dillonvale (ZIP 45236) is a Sycamore Township community on the east side near Kenwood, with settled neighborhoods of mid-century homes. Houses of that age were plumbed with supply lines that are now well past their prime, and the leak we find most often is a corrosion pinhole that has been dripping behind plaster or under a slab before showing as a stain.',
       'Because so many of these homes sit on slab or have finished lower levels, the water surfaces far from where the line is actually failing. We use leak detection to find the precise spot rather than opening up a wall on a guess, then repair the section of pipe itself so the same run does not leak again nearby.',
@@ -177,7 +177,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'woodlawn': {
     intro:
-      'Leak or unexplained damp in your Woodlawn home? We provide same-day leak repair and find the source before the water does more damage. Call (513) 586-5107.',
+      'For leak repair in Woodlawn, the low Mill Creek valley ground is the first thing we account for. A rising water table after heavy rain can soak a basement and read like a pipe leak, while the older homes run aging supply lines and drains that corrode and leak.',
     relevance: [
       'Woodlawn (ZIP 45215) is a Mill Creek valley village north of the city with a mix of residential streets and industrial corridors. The low valley ground is the first thing we account for on a leak call, because a rising water table after heavy rain can soak a basement and read like a pipe leak when it is really seepage.',
       'The older homes here also run on aging supply lines and drains prone to corrosion leaks, so part of the job is sorting a true plumbing failure from valley groundwater. We use leak detection to confirm which it is, then repair the failing line at its source so it does not surface again somewhere else.',
@@ -193,7 +193,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'addyston': {
     intro:
-      'Leak or a damp basement in your Addyston home? We offer same-day leak repair and trace the water to its source before we patch anything. Call (513) 586-5107.',
+      'Leak repair in Addyston, an old mill town on the Ohio River, starts with sorting river seepage from a real plumbing leak. The century-old worker homes still run original galvanized supply lines and old drains that corrode and leak, and on tight lots one home’s leak is hard to isolate.',
     relevance: [
       'Addyston (ZIP 45001) is a small village on the far west side along the Ohio River, an old mill town with closely spaced older worker homes. The riverside position is central to almost every leak call here: when the river runs high, damp ground pushes into low basements, and that seepage is routinely mistaken for a plumbing leak. We start by sorting the two so a homeowner does not pay to fix the wrong thing.',
       'The century-old worker homes add the second layer. Their original galvanized supply lines and old drains corrode and leak with little warning, and on small, tightly spaced lots a leak in one home can be hard to isolate from the next. We use leak detection to find the exact source, then repair the aging line itself to keep a damp basement from getting worse.',
@@ -203,13 +203,13 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Is my wet Addyston basement a pipe leak or the river?',
-        a: 'Along the Ohio River in Addyston it can be either, so we use leak detection to tell a failing pipe from river-driven damp before we repair. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival on the far west side.',
+        a: 'Along the Ohio River in Addyston it can be either, so we use leak detection to tell a failing pipe from river-driven damp before we repair. We are on call 7 days a week and aim for same-day arrival on the far west side.',
       },
     ],
   },
   'greenhills': {
     intro:
-      'Leak in a historic Greenhills home? We provide same-day leak repair and find the source while protecting the original character of the house. Call (513) 586-5107.',
+      'Greenhills is a 1930s Greenbelt town and a National Historic Landmark district, so leak repair in its original cottages and townhomes has to open as little as possible. Nearly a century of wear on the first supply lines and drains means leaks arrive with little warning once corrosion sets in.',
     relevance: [
       'Greenhills (ZIP 45218) is a planned "Greenbelt" town built in the 1930s as a New Deal project and now a National Historic Landmark district, with its original cottages and townhomes still in use. Those 1930s-era homes carry close to a century of plumbing wear, and the supply lines and drains installed when the community was built leak with little warning once corrosion sets in.',
       'Repairing a leak in a designated historic home means opening up as little as possible, so guesswork is not an option. We use leak detection to pinpoint the failing line behind original plaster or under a slab, then repair the line at its source and disturb only the spot that needs it, keeping the Greenbelt-era character intact.',
@@ -225,7 +225,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'northbrook': {
     intro:
-      'Hidden leak or a creeping water bill in Northbrook? We offer same-day leak repair and trace it to the source before we open a wall. Call (513) 586-5107.',
+      'Northbrook leak repair mostly means mid-century Colerain Township homes whose supply lines have started to corrode into pinhole leaks. Many runs pass under a slab or through a finished basement, so the stain or higher bill rarely sits where the pipe is failing. We find the run first.',
     relevance: [
       'Northbrook (ZIP 45251) is a settled Colerain Township community on the northwest side made up largely of mid-century single-family homes. Houses of that vintage are now at the age where supply lines corrode and develop pinhole leaks, often in runs that pass under a slab or through a finished basement where the drip stays hidden.',
       'A leak that surfaces as a stain or a rising water bill is rarely failing where the water shows, so we use leak detection to find the precise location instead of opening up a wall on a guess. We then repair the failing section of pipe at its source, which is what keeps the same run from leaking again a short distance away.',
@@ -241,7 +241,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'indian-hill': {
     intro:
-      'Hidden leak on a large Indian Hill property? We provide same-day leak repair and pinpoint the source across long service runs before the water spreads. Call (513) 586-5107.',
+      'On Indian Hill’s multi-acre estates, leak repair often means a long buried supply run or a far wing of a large house, where water can travel a long way before it shows. Some homes here also rely on private wells and septic, which add their own failure points.',
     relevance: [
       'Indian Hill (ZIP 45243) is an affluent east-side village of large estates and homes on multi-acre, wooded lots, many set well back from the road. Those big properties carry long water and sewer runs and large plumbing systems, which means more line to fail and more distance for a leak to travel before it ever shows inside the house.',
       'On a property this size, a leak on a buried supply run or in a far wing can do real damage before it is found, and some homes here rely on private wells and septic that add their own failure points. We use leak detection to locate the exact spot across long runs rather than digging or opening walls on a guess, then repair the line at its source.',
@@ -251,13 +251,13 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Can you find a leak on a long buried line on my Indian Hill property?',
-        a: 'Yes. Indian Hill’s large estates have long water and sewer runs, so we use leak detection to pinpoint a buried or distant leak before we dig or open anything. We are on call 7 days a week from 8am to 8pm with same-day service.',
+        a: 'Yes. Indian Hill’s large estates have long water and sewer runs, so we use leak detection to pinpoint a buried or distant leak before we dig or open anything. We are on call 7 days a week with same-day service.',
       },
     ],
   },
   'evendale': {
     intro:
-      'Leak in a home or commercial building in Evendale? We offer same-day leak repair and trace the water to its source before we patch anything. Call (513) 586-5107.',
+      'Evendale leak repair ranges from corroded supply lines in mid-century homes to larger commercial systems near GE Aerospace, and the approach has to fit the building. In houses, pinholes hide behind walls and under slabs. In commercial buildings, leaks show up on longer runs where downtime costs money.',
     relevance: [
       'Evendale (ZIP 45241) is a north-side village with a large industrial base, including GE Aerospace, alongside established residential neighborhoods. That mix means leaks here span everything from corroded supply lines in mid-century homes to larger commercial systems, and the approach has to match the building.',
       'In the residential neighborhoods, decades-old supply lines develop the usual corrosion pinholes that hide behind walls and under slabs. In commercial and industrial buildings, leaks tend to surface on longer runs and larger systems where downtime is costly. We use leak detection in both cases to find the exact point fast, then repair the failing line at its source.',
@@ -267,13 +267,13 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Do you handle leak repair for commercial buildings in Evendale?',
-        a: 'Yes. Evendale has a large commercial and industrial base, and we use leak detection to locate failures on larger systems quickly to limit downtime. We are on call 7 days a week from 8am to 8pm with same-day service for homes and businesses.',
+        a: 'Yes. Evendale has a large commercial and industrial base, and we use leak detection to locate failures on larger systems quickly to limit downtime. We are on call 7 days a week with same-day service for homes and businesses.',
       },
     ],
   },
   'glendale': {
     intro:
-      'Leak in a historic Glendale home? We provide same-day leak repair and find the source while protecting the home’s original Victorian details. Call (513) 586-5107.',
+      'Glendale is a National Historic Landmark railroad suburb, and leak repair in its preserved Victorian homes means cutting as little as possible. Original supply lines and aging drains in these 19th-century houses fail suddenly behind plaster and woodwork, so locating the leak precisely is half the job.',
     relevance: [
       'Glendale (ZIP 45246) is a historic village and one of the country’s earliest planned railroad suburbs — a National Historic Landmark — known for preserved Victorian homes on winding, tree-lined streets. Those 19th-century homes often still carry original plumbing, where corroded supply lines and aging drains lead to sudden leaks behind plaster and original woodwork.',
       'Repairing a leak in a preserved Victorian means cutting as little as possible, so locating it precisely is half the job. We use leak detection to pinpoint the failing line, then repair it at the source and open up only the spot that needs it, keeping the historic detail Glendale is known for intact.',
@@ -289,7 +289,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'sharonville': {
     intro:
-      'Leak in a home or business in Sharonville? We offer same-day leak repair and trace it to the source before we open a wall. Call (513) 586-5107.',
+      'In Sharonville, leak repair splits between mid-century homes near Sharon Woods and the commercial buildings along the industrial corridors. The houses have supply lines corroding into pinhole leaks under slabs and behind finished walls, while the larger commercial systems can run up costs quickly when a leak stays hidden.',
     relevance: [
       'Sharonville (ZIP 45241) is a north-side city near Sharon Woods, with established residential neighborhoods alongside the convention center and industrial corridors. The mid-century homes here have reached the age where supply lines corrode and develop pinhole leaks, often in runs hidden under a slab or behind a finished wall.',
       'The commercial side of Sharonville adds its own leaks on larger systems where a hidden failure can run up costs quickly. In both settings we use leak detection to find the exact point rather than guessing, then repair the failing line at its source so it does not resurface nearby.',
@@ -299,13 +299,13 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Can you handle a leak at my Sharonville business as well as my home?',
-        a: 'Yes. Sharonville has a large commercial base alongside its neighborhoods, and we use leak detection on both to locate the source fast. We are on call 7 days a week from 8am to 8pm with same-day service.',
+        a: 'Yes. Sharonville has a large commercial base alongside its neighborhoods, and we use leak detection on both to locate the source fast. We are on call 7 days a week with same-day service.',
       },
     ],
   },
   'northgate': {
     intro:
-      'Hidden leak driving up your water bill in Northgate? We provide same-day leak repair and find the source before we cut into anything. Call (513) 586-5107.',
+      'Northgate leak repair, around the Northgate Mall corridor, usually starts with a stain or a climbing water bill. Mid-century homes here have corroding supply lines and weeping water-heater connections, newer ones leak at stressed fittings, and many sit on slab or have finished basements that hide the drip.',
     relevance: [
       'Northgate (ZIP 45251) is a Colerain Township area on the northwest side around the Northgate Mall corridor, with neighborhoods of mid-century and newer homes. The mid-century houses are now at the age where supply lines corrode and water-heater connections weep, while the leaks in newer homes tend to show up at stressed fittings.',
       'Many of these homes sit on slab or have finished basements, so a leak runs unseen until it surfaces as a stain or a climbing water bill. We use leak detection to pinpoint the run rather than opening up a wall on a guess, then repair the failing section of pipe at its source so the same line does not leak again nearby.',
@@ -321,7 +321,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'springdale': {
     intro:
-      'Leak in a home or business in Springdale? We offer same-day leak repair and trace it to the source so the fix actually holds. Call (513) 586-5107.',
+      'Leak repair in Springdale covers both the mid-century neighborhoods and the commercial base along the Tri-County corridor. The homes have supply lines corroding into pinhole leaks under slabs or behind finished walls, and in the retail buildings a hidden failure on a larger system runs up costs fast.',
     relevance: [
       'Springdale (ZIP 45246) is a north-side city along the Tri-County corridor, with established mid-century neighborhoods alongside a large commercial and retail base. The mid-century homes have reached the age where supply lines corrode and develop pinhole leaks, often in runs hidden under a slab or behind a finished wall.',
       'The heavy commercial presence along the corridor adds leaks on larger systems where a hidden failure runs up costs fast. In both the homes and the businesses, we use leak detection to find the exact point rather than guessing, then repair the failing line at its source.',
@@ -337,7 +337,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'miamitown': {
     intro:
-      'Leak or a damp basement in your Miamitown home? We provide same-day leak repair and trace the water to its source before we patch anything. Call (513) 586-5107.',
+      'Miamitown sits on low river-bottom ground along the Great Miami River, so leak repair here starts with ruling out river seepage. When the water table rises, basements get damp in a way that looks like a pipe leak, and the older homes also have aging supply lines prone to corrosion.',
     relevance: [
       'Miamitown (ZIP 45041) is a small far-west community on the Great Miami River, with older homes set on low river-bottom ground. That low ground is the first thing we account for on a leak call here, because when the river runs high the rising water table pushes damp into basements, and that seepage is easy to mistake for a pipe leak.',
       'The older homes add aging supply lines and drains prone to corrosion leaks, so part of the job is sorting a true plumbing failure from river-driven damp. We use leak detection to confirm the source, then repair the failing line itself so a small problem does not turn into ongoing water damage in a low-lying lower level.',
@@ -353,7 +353,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'forest-park': {
     intro:
-      'Hidden leak or a stain spreading in your Forest Park home? We offer same-day leak repair and find the source before we open a wall. Call (513) 586-5107.',
+      'Forest Park was built as a planned community from the 1960s, and leak repair here mostly involves those mid-century homes. Supply lines are corroding, fittings weep and original water-heater connections are starting to leak, often under a slab or behind a finished lower-level wall where nobody sees it.',
     relevance: [
       'Forest Park (ZIP 45240) is a north-side city developed as a planned community from the 1960s, with neighborhoods of mid-century single-family homes built on a coordinated plan. Homes of that era are now well into the age where supply lines corrode, fittings weep, and the original water-heater connections start to leak.',
       'Because so many of these planned-era homes sit on slab or have finished lower levels, a leak runs unseen until it shows as a stain or a rising bill. We use leak detection to pinpoint the run rather than opening up a wall on a guess, then repair the failing section of pipe at its source so the same line does not leak again nearby.',
@@ -369,7 +369,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pleasant-run': {
     intro:
-      'Leak or unexplained damp in your Pleasant Run home? We provide same-day leak repair and trace it to the source so the patch is not just temporary. Call (513) 586-5107.',
+      'Most leak repair in Pleasant Run splits between mid-century homes with corroding supply lines and newer homes leaking at fittings and water-heater connections. Many houses in this Springfield Township community sit on slab or have finished basements, so a small leak runs unseen for a long stretch.',
     relevance: [
       'Pleasant Run (ZIP 45240) is a Springfield Township community on the north side with settled neighborhoods of mid-century and newer homes. The mid-century houses are at the age where supply lines corrode and develop pinhole leaks, while the newer homes tend to leak at fittings and water-heater connections.',
       'Many of these homes sit on slab or have finished basements, so a small leak can run unseen for a long stretch before it surfaces. We use leak detection to find the precise location rather than opening up a whole wall, then repair the failing line at its source to keep it from resurfacing nearby.',
@@ -385,7 +385,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cleves': {
     intro:
-      'Leak or a flooded lower level in your Cleves home? We offer same-day leak repair and trace the water to its source before we patch anything. Call (513) 586-5107.',
+      'Cleves sits near where the Great Miami River meets the Ohio, and leak repair here starts with sorting river damp from a true pipe leak. When the rivers run high, low basements soak, and the older homes also have aging supply lines and drains that fail with little warning.',
     relevance: [
       'Cleves (ZIP 45002) is a far-west village near where the Great Miami River meets the Ohio, with older homes set on low ground prone to flooding. That riverside position is central to most leak calls here: when the rivers run high, the rising water table soaks low basements, and that damp is routinely confused with a true pipe leak. We start by sorting one from the other.',
       'The older homes add aging supply lines and drains that corrode and leak with little warning. We use leak detection to confirm whether the water is coming from a failing line or the high ground at the river confluence, then repair the line at its source so a backup or leak does not ruin a low-lying lower level.',
@@ -395,13 +395,13 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'My Cleves basement is wet — is it a leak or the river?',
-        a: 'Near where the Great Miami meets the Ohio in Cleves it can be either, so we use leak detection to tell a failing pipe from river-driven damp before we repair. We are on call 7 days a week from 8am to 8pm with same-day service.',
+        a: 'Near where the Great Miami meets the Ohio in Cleves it can be either, so we use leak detection to tell a failing pipe from river-driven damp before we repair. We are on call 7 days a week with same-day service.',
       },
     ],
   },
   'north-bend': {
     intro:
-      'Leak or a damp basement in your North Bend home? We provide same-day leak repair and find the source before the water does more damage. Call (513) 586-5107.',
+      'Leak repair in North Bend, the historic Ohio River village where William Henry Harrison is buried, usually begins with telling river seepage from a failing pipe. The older homes sit on low riverside ground and carry aging supply lines and drains prone to corrosion leaks.',
     relevance: [
       'North Bend (ZIP 45052) is a historic far-west village on the Ohio River — the burial place of President William Henry Harrison — with older homes set on low riverside ground. The riverfront position drives most leak calls here, because when the river runs high the damp ground pushes into low basements and reads like a pipe leak when it is really seepage.',
       'The older homes carry aging supply lines and drains prone to corrosion leaks, so the first step is separating a true plumbing failure from river damp. We use leak detection to confirm the source, then repair the failing line itself to keep a small drip from turning into ongoing water damage in a low-lying home.',
@@ -417,7 +417,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'loveland': {
     intro:
-      'Leak in a historic or riverside Loveland home? We offer same-day leak repair and trace it to the source before any water reaches your finished spaces. Call (513) 586-5107.',
+      'Loveland leak repair depends on which side of town. Older homes near the Little Miami River have aging supply lines and drains that leak behind plaster with little warning, and when the river runs high, damp pushing into lower levels can be mistaken for a pipe leak.',
     relevance: [
       'Loveland (ZIP 45140) is a historic city straddling the Little Miami River and the Loveland Bike Trail, with a charming older downtown and a mix of historic and newer homes. The older homes near the river carry aging supply lines and drains that corrode and leak with little warning, often behind plaster in homes worth protecting.',
       'The low riverside ground adds a second factor, because when the Little Miami runs high the damp can push into lower levels and get confused with a true pipe leak. We use leak detection to separate groundwater from a plumbing failure, then repair the line at its source so finished basements near the river stay dry.',
@@ -427,13 +427,13 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Is the water in my Loveland basement a leak or the Little Miami?',
-        a: 'Along the Little Miami in Loveland it can be either, so we use leak detection to tell a failing pipe from river-driven damp before we repair. We are on call 7 days a week from 8am to 8pm and aim for same-day arrival.',
+        a: 'Along the Little Miami in Loveland it can be either, so we use leak detection to tell a failing pipe from river-driven damp before we repair. We are on call 7 days a week and aim for same-day arrival.',
       },
     ],
   },
   'harrison': {
     intro:
-      'Leak or unexplained damp in your Harrison home? We provide same-day leak repair and trace the water to its source so the fix actually holds. Call (513) 586-5107.',
+      'Harrison sits on the Indiana line along the Whitewater River, and leak repair here covers older downtown homes with corroding supply lines and newer homes leaking at stressed fittings. In heavy rain, the low ground near the river can push in seepage that looks like a plumbing leak.',
     relevance: [
       'Harrison (ZIP 45030) is a far-west city on the Indiana state line along the Whitewater River, with an older downtown and a growing mix of established and newer homes. The older homes carry aging supply lines and drains prone to corrosion leaks, while the newer homes tend to leak at stressed fittings.',
       'The low ground near the Whitewater adds a backup and damp risk in heavy rain, and that seepage is easy to mistake for a pipe leak. We use leak detection to confirm whether the water comes from a failing line or the river-driven damp, then repair the line at its source so a small problem does not spread.',

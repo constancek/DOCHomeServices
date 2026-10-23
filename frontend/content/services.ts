@@ -53,22 +53,22 @@ export const services: Service[] = [
     accent: 'from-accent-400 to-accent-600',
     tagline: 'Reliable heat when you need it most',
     summary:
-      'Furnace, heat pump, and boiler repair and installation. Emergency no-heat service is available 7 days a week from 8am to 8pm.',
+      'Furnace, heat pump, and boiler repair and installation. Emergency no-heat service is available 7 days a week.',
     highlights: [
-      'Seven-day emergency no-heat service',
+      'Emergency no-heat service, weekends included',
       'Furnace, heat pump & boiler experts',
       'Carbon monoxide safety inspection included',
       'High-efficiency upgrades that lower bills',
     ],
     body: [
-      'A furnace almost never quits on a mild afternoon. It quits on the coldest night of the year, which is why our emergency line is staffed 7 days a week from 8am to 8pm. We treat a house with no heat and small kids inside as the emergency it is.',
+      'A furnace almost never quits on a mild afternoon. It quits on the coldest night of the year, which is why our emergency line is staffed 7 days a week. We treat a house with no heat and small kids inside as the emergency it is.',
       'Every heating repair includes a combustion and carbon monoxide check at no extra charge, because a cracked heat exchanger is a safety issue first and a comfort issue second. If we find one, we show you the reading and explain your options plainly.',
       'When it is time for a new system, we size it by the house, not by the old unit. An oversized furnace short-cycles, wastes fuel, and leaves cold spots. We run the load calculation so the replacement is matched to your home.',
     ],
     faqs: [
       {
         q: 'Do you offer emergency heating repair?',
-        a: 'Yes. No-heat calls are handled 7 days a week from 8am to 8pm.',
+        a: 'Yes. No-heat calls are handled 7 days a week.',
       },
       {
         q: 'How often should a furnace be serviced?',

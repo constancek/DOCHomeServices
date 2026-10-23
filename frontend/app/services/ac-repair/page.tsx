@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
@@ -18,14 +18,12 @@ export const metadata: Metadata = withSocial({
   alternates: { canonical: '/services/ac-repair' },
 });
 
+// Four signs (page-format.md): the ones a homeowner can see or feel.
 const signs = [
   'Warm air coming from vents',
   'Weak or uneven airflow in the home',
-  'New noises during operation',
-  'Frequent system cycling or shutdowns',
-  'Higher energy bills without added usage',
   'Ice on the AC unit or refrigerant lines',
-  'Moisture or refrigerant leaking near the equipment',
+  'Water or refrigerant leaking near the equipment',
 ];
 
 const problems = [
@@ -44,23 +42,10 @@ const effIssues = [
   'Electrical problems that prevent normal operation',
 ];
 
-const effHelps = [
-  'Improve overall system efficiency',
-  'Reduce strain on HVAC equipment',
-  'Support more consistent cooling throughout the home',
-  'Help keep energy bills more stable',
-];
 
-const whyUs = [
-  { icon: 'clock' as const, title: 'Seven-Day Emergency Repair', text: 'Available 7 days a week from 8am to 8pm to restore cooling fast.' },
-  { icon: 'badge' as const, title: 'All Cooling Systems', text: 'Central air, heat pumps, and ductless mini-splits on all major brands.' },
-  { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked technicians and safe, certified refrigerant handling.' },
-  { icon: 'check' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-];
 
 const faqs = [
-  { q: 'What are common AC problems you repair?', a: 'Refrigerant leaks, electrical and thermostat issues, frozen evaporator coils, blower-motor and fan failures, restricted airflow from dirty filters, and drainage or moisture problems are the ones we see most.' },
-  { q: 'Do you work with all AC brands?', a: 'Yes — central air conditioners, heat pumps, and ductless mini-splits from all major brands.' },
+  { q: 'Do you work with all AC brands?', a: 'Yes. We repair central air conditioners, heat pumps and ductless mini-splits from all major brands.' },
   { q: 'What causes an AC unit to stop cooling?', a: 'The usual causes are low refrigerant, a frozen coil, a failed compressor or capacitor, a thermostat problem, or a dirty filter choking airflow. We diagnose the exact cause rather than guessing.' },
   { q: 'How can I tell if my AC has a refrigerant leak?', a: 'Weak cooling, ice on the refrigerant lines, a hissing sound, or rising energy bills can all point to a leak. Refrigerant is regulated, so a licensed technician should confirm and repair it.' },
   { q: 'Why is my AC making strange sounds?', a: 'Buzzing or clicking often means an electrical issue; grinding or squealing points to a motor or bearing; rattling usually means a loose part or debris. Any new noise is worth a look before it becomes a bigger repair.' },
@@ -70,7 +55,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   serviceType: 'AC Repair',
-  description: 'Seven-day air conditioning repair for central air, heat pumps, and mini-splits.',
+  description: 'Air conditioning repair any day of the week for central air, heat pumps, and mini-splits.',
   provider: { '@type': 'Organization', name: site.name, telephone: site.primaryPhone.number },
   areaServed: site.serviceArea,
 };
@@ -100,7 +85,7 @@ export default function ACRepairPage() {
       <PageHero
         eyebrow="Air Conditioning"
         title={`AC Repair in ${site.serviceArea}`}
-        description="Warm air, weak airflow, or a system that quit? Our licensed technicians find the cause and restore cooling fast — central air, heat pumps, and mini-splits, 7 days a week from 8am to 8pm."
+        description="Warm air, weak airflow or a system that quit? Our licensed technicians find the cause and get central air, heat pumps and mini-splits cooling again, every day."
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -109,70 +94,36 @@ export default function ACRepairPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            AC not cooling in {site.serviceArea}? Call for immediate service
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar couponTitle="Same-Day AC Repair">
+        <MainWithSidebar mascot couponTitle="Same-Day AC Repair">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/ac-repair-hero.webp)' }}
             role="img"
             aria-label="Technician repairing an air conditioner"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
-            AC Repair
+          {/* One-format top section: local pros + emergency, one paragraph each */}
+          <h2 className="section-title text-brand-700">
+            Local AC Repair Pros Who Know {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            When an air conditioning system stops working, comfort changes quickly — and during hot
-            weather, a broken AC can create real safety concerns inside the home. {site.name} provides
-            professional AC repair for homeowners across {site.serviceArea}.
+            AC repair across {site.serviceArea} usually comes down to a handful of causes: a failed
+            capacitor, low refrigerant, a frozen coil, a clogged drain line or a dirty filter. We repair
+            central air, heat pumps and ductless mini-splits from all major brands, and every visit
+            checks airflow, electrical connections and refrigerant charge, not just the part that
+            failed. Our licensed technicians find the actual cause before replacing anything, so you pay
+            for one repair, not three.
           </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency AC Repair in {site.serviceArea}
+          </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Homeowners call us for many reasons — a unit that stops producing cool air, strange
-            sounds, or a system that shuts down without warning. Our technicians take the time to
-            identify the root cause and complete the repair to restore cooling and ensure safe
-            operation, focusing on solutions that get your system running properly again.
-          </p>
-
-          {/* Expert AC repair */}
-          <h2 className="mt-10 section-title text-brand-700">Expert AC Repair for Today’s Home Cooling Systems</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Modern HVAC systems are built for efficiency, but even minor issues can affect performance.
-            Trouble with airflow, electrical parts, or refrigerant levels reduces comfort and strains
-            the system. Our technicians are trained to repair central air conditioners, heat pumps, and
-            mini-split systems commonly used in today’s homes.
-          </p>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Our AC repair covers the entire cooling system — we inspect airflow, check electrical
-            connections, and confirm the refrigerant level. That approach helps us fix the problem
-            correctly and reduce the chance it comes back.
-          </p>
-
-          {/* 7-Day Emergency */}
-          <h2 className="mt-10 section-title text-brand-700">7-Day Emergency AC Repair Available</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Air conditioning problems do not follow a schedule. {site.name} offers 7-day emergency AC
-            repair for urgent issues affecting comfort or safety, with technicians available 7 days a week from 8am to 8pm.
-          </p>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Emergency service focuses on restoring cooling as quickly as possible while protecting the
-            AC unit from further damage. Fast repairs reduce safety risks and help bring your home back
-            to a comfortable temperature.
+            A dead AC is urgent when someone in the house is at risk from the heat: an older relative,
+            a baby or a heat advisory outside. The National Weather Service counts about 21 days a year
+            at 90 degrees or higher in Cincinnati. Technicians are out every day, weekends included,
+            and most calls are handled the same day.
           </p>
         </MainWithSidebar>
       </section>
@@ -187,25 +138,23 @@ export default function ACRepairPage() {
             aria-label="Air conditioner being repaired"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs Your AC Needs a Repair
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
-              Many air conditioning problems start small and become worse over time. Paying attention
-              to early signs can help prevent larger repairs later. Common signs your AC may need
-              repair include:
+              These are the signs that usually mean a repair is due:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {signs.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={s} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
               ))}
             </ul>
             <p className="mt-4 text-base leading-relaxed text-white/90">
-              If these issues are ignored, they place stress on the cooling system. Prompt AC repair
-              helps restore normal operation and comfort.
+              If the only symptom is weak airflow, change the filter first. That fixes it more often
+              than you’d think, and you won’t need us.
             </p>
           </div>
         </div>
@@ -215,19 +164,15 @@ export default function ACRepairPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Our AC Repair Process
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
-              {site.name} follows a clear process for every AC repair. First, a technician inspects the
-              AC unit and related HVAC components — the air filter, electrical system, and refrigerant
-              level. Once the issue is identified, we explain what is causing the problem and discuss
-              repair options.
+              Every repair follows the same four steps. We inspect the system and find the cause. We
+              explain it and give you the price before any work starts. Once you approve, we repair it
+              with the right parts, then test it and stay until it’s cooling properly.
             </p>
-            <p className="mt-4 text-base leading-relaxed text-white/90">
-              After approval, the repair is completed using proper tools and parts. The system is then
-              tested to confirm safe operation and to ensure steady, cool air throughout the home.
-            </p>
+
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
@@ -244,54 +189,59 @@ export default function ACRepairPage() {
           {/* Common problems */}
           <h2 className="section-title text-brand-700">Common AC Problems We Repair</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Our technicians repair many common air conditioning issues, including:
+            The repairs we make most often:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {problems.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            These problems affect comfort, energy use, and indoor air quality. Repairing them early
-            keeps the cooling system working as intended.
-          </p>
 
+        </div>
+      </section>
+
+      <ServiceReviews service="ac-repair" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            AC not cooling in {site.serviceArea}? Call for immediate service
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
+        </div>
+      </section>
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* Repair or replace */}
           <h2 className="mt-12 section-title text-brand-700">Repair or Replace Your AC System?</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            In many cases, repair is the right place to start. When an issue is limited and the system
-            is otherwise in good condition, a repair restores reliable cooling and helps extend the
-            equipment’s lifespan — most common problems can be corrected without replacing the whole
-            system.
+            Repair first when the system is otherwise sound. Most failures, like a capacitor, contactor
+            or fan motor, are one-part fixes. Replacement makes sense when the same system keeps
+            failing, needs a compressor, or no longer cools the house. We’ll tell you which one you’re
+            looking at and why.
           </p>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            If a system keeps having problems or no longer cools the home effectively, replacement may
-            be worth considering. When that happens, our team explains the system’s condition and
-            reviews your options so you can make an informed decision.
-          </p>
+
 
           {/* Efficiency */}
           <h2 className="mt-12 section-title text-brand-700">How AC Repair Lowers Energy Bills</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            When an AC system is not working properly, it often uses more energy than necessary.
-            Professional repair corrects the issues that drive up energy use, including:
+            A struggling AC runs longer to do the same job. These are the faults that push bills up:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {effIssues.map((e) => (
-              <li key={e} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={e} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
-                {e}
-              </li>
-            ))}
-          </ul>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">By fixing these issues, AC repair can help:</p>
-          <ul className="mt-3 grid gap-2 sm:grid-cols-2">
-            {effHelps.map((e) => (
-              <li key={e} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
-                <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {e}
               </li>
             ))}
@@ -300,28 +250,18 @@ export default function ACRepairPage() {
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for AC Repair</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Homeowners across {site.serviceArea} trust {site.name} for cooling services. Our AC repair
-            is performed by trained technicians focused on clear communication and reliable results.
+            We find the actual cause before we replace anything, because a wrong diagnosis is how a
+            simple AC repair turns into a second visit. You approve the price first, and most calls
+            are handled the same day.
           </p>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We take the time to diagnose problems correctly, and repairs are completed with care and
-            attention to safety. The goal is simple: restore cooling and help your system operate
-            reliably.
-          </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">AC Repair FAQs</h2>
           <div className="mt-4">
@@ -336,10 +276,9 @@ export default function ACRepairPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your AC Repair Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule Your AC Repair Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
-              If your air conditioner is not cooling properly or has stopped working, professional
-              repair can help. Call now or request an estimate.
+              If your air conditioner has stopped cooling or is struggling, call now or request an estimate.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={site.primaryPhone.href} className="btn-pink text-base">
@@ -354,20 +293,20 @@ export default function ACRepairPage() {
         </div>
       </section>
 
-      {/* AC repair by neighborhood — links DOWN to location pages (internal-link mesh) */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">AC repair by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We repair air conditioning across {site.serviceArea} —{' '}
-            {locations.filter((l) => acRepairCopy[l.slug]).length} neighborhoods and counting. For local
-            detail on response times and the cooling issues common to homes in your area, find yours below.
-          </p>
-          <NeighborhoodLinks copy={acRepairCopy} basePath="/services/ac-repair" linkPrefix="AC repair" />
-        </div>
-      </section>
-
-      <PageSections service="ac-repair" />
+      <ServiceSections service="ac-repair">
+        {/* AC repair by neighborhood — links DOWN to location pages (internal-link mesh) */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">AC repair by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We repair air conditioning across {site.serviceArea}, in{' '}
+              {locations.filter((l) => acRepairCopy[l.slug]).length} neighborhoods and counting. For local
+              detail on response times and the cooling issues common to homes in your area, find yours below.
+            </p>
+            <NeighborhoodLinks copy={acRepairCopy} basePath="/services/ac-repair" linkPrefix="AC repair" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

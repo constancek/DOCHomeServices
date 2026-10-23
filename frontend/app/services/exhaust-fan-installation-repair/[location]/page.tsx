@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Kitchen Exhaust Too', body: 'Cooking throws steam, heat, and airborne grease into the air that settles on cabinets and surfaces. We install and repair kitchen exhaust fans for {neighborhood} homes as well, improving comfort and keeping surfaces cleaner with proper, vented-outside ventilation.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Code-compliant wiring and safe, secure connections.' },
-    { icon: 'check', title: 'Vented Outdoors', text: 'We confirm ducts vent outside — not into the attic — for real moisture control.' },
-    { icon: 'badge', title: 'Honest Repair vs. Replace', text: 'We evaluate airflow and venting before recommending the right solution.' },
-    { icon: 'star', title: 'Financing Available', text: 'Flexible options for qualifying homeowners.' },
-  ],
+  whyParagraph: 'A fan only controls moisture if its duct ends outdoors, so we confirm that in every {neighborhood} home we work in. Licensed electricians wire it to code, and financing is available for homeowners who qualify.',
   proofQuote:
     'Our bathroom stayed steamy for an hour after every shower and paint was peeling by the vent. Turned out the old fan dumped into the attic. They put in a properly sized fan, ran the duct outside, and the room clears in minutes now — and it is quiet.',
   sharedFaqs: [

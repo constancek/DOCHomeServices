@@ -33,7 +33,7 @@ function Bullets({ items }: { items: string[] }) {
   return (
     <ul className="space-y-2">
       {items.map((t) => (
-        <li key={t} className="flex gap-2.5 text-sm text-ink/75">
+        <li key={t} className="flex gap-2.5 text-base text-ink/75">
           <span className="mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-brand-600" />
           {t}
         </li>
@@ -105,7 +105,7 @@ export default function UniversityPage() {
       {/* Great opportunities intro */}
       <section className="py-14">
         <div className="container-page">
-          <h2 className="m-center font-display text-4xl font-black uppercase leading-[1.05] text-brand-600 sm:text-5xl">
+          <h2 className="m-center font-display text-4xl font-black leading-[1.05] text-brand-600 sm:text-5xl">
             Great Opportunities at a Great Company.
           </h2>
           <p className="m-center mt-3 font-display text-xl font-extrabold uppercase tracking-wide text-pink-500 sm:text-2xl">
@@ -142,12 +142,12 @@ export default function UniversityPage() {
             aria-label="Degree of Comfort University team"
           />
           <div>
-            <h2 className="m-center font-display text-3xl font-black uppercase leading-tight text-pink-500 sm:text-4xl">
+            <h2 className="m-center font-display text-3xl font-black leading-tight text-pink-500 sm:text-4xl">
               Why {site.name} University?
             </h2>
             <ul className="m-list mt-5 grid gap-2.5 sm:grid-cols-2">
               {benefits.map((b) => (
-                <li key={b} className="flex gap-2.5 text-sm font-semibold text-brand-800">
+                <li key={b} className="flex gap-2.5 text-base font-semibold text-brand-800">
                   <span className="mt-0.5 grid h-5 w-5 flex-shrink-0 place-items-center rounded-full bg-pink-500 text-white">
                     <Icon name="check" className="h-3.5 w-3.5" />
                   </span>
@@ -186,7 +186,7 @@ export default function UniversityPage() {
         />
         <div className="container-page relative py-20">
           <div className="max-w-2xl text-white">
-            <h2 className="font-display text-4xl font-black uppercase leading-[1.05] text-pink-500 sm:text-5xl">
+            <h2 className="font-display text-4xl font-black leading-[1.05] text-pink-500 sm:text-5xl">
               When You Apply, We Promise Confidentiality.
             </h2>
             <p className="mt-5 text-base leading-relaxed text-white/90 sm:text-base">

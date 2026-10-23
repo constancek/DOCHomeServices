@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Energy-Efficient LED Systems', body: 'Modern LED fixtures use far less power and last much longer than older bulbs, which matters on a system that runs every night. We install efficient LED landscape lighting so {neighborhood} homeowners get steady, lasting brightness with lower running costs.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Oversight', text: 'Every system installed and inspected under licensed electrician oversight.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Safe wiring, proper spacing, and balanced design that meets code.' },
-    { icon: 'badge', title: 'Durable Fixtures', text: 'Weather-rated, energy-efficient fixtures built for long-term outdoor use.' },
-    { icon: 'house', title: 'Custom Design', text: 'Layered layouts tailored to how you use your property.' },
-  ],
+  whyParagraph: 'A licensed electrician oversees and inspects every landscape lighting system we put in around {neighborhood}. The wiring meets code, the fixtures are weather-rated for long-term outdoor use, and the layout follows how you actually use the yard after dark.',
   proofQuote:
     'They lit the front walk and uplit the big maples, then ran path lights along the drive. No glare, no dark stretches, and the wiring is completely hidden. It has run through two winters without a problem.',
   sharedFaqs: [

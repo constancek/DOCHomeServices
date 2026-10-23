@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Aging Pipes in Older Homes', body: 'Cast iron can last 50 to 100 years and copper longer, but many older {neighborhood} homes are past due for an inspection. We assess what is left of the original plumbing and lay out a clear plan — section repair now, or replacement before the next failure.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Plumbers', text: 'Experienced pros who diagnose the real cause before they dig.' },
-    { icon: 'check', title: 'Minimally Invasive', text: 'Camera inspection and trenchless methods protect your property.' },
-    { icon: 'badge', title: 'Repair or Replace', text: 'Honest guidance on the most cost-effective fix.' },
-    { icon: 'clock', title: 'Emergency Service', text: 'Fast help when a leak or burst pipe cannot wait.' },
-  ],
+  whyParagraph: 'Our licensed plumbers work out why a {neighborhood} pipe failed before anyone digs. Camera inspection and trenchless methods spare your yard where possible, and we tell you plainly whether repair or replacement costs less. Burst pipes get emergency help.',
   proofQuote:
     'Slow drains and a stain on the basement ceiling. They camera-scoped the line, found a corroded cast-iron section and a leaking joint, and replaced just those runs trenchless where they could. Walked us through repair versus replacement honestly. No torn-up yard.',
   sharedFaqs: [

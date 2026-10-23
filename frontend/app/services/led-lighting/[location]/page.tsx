@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Safe Connections and Older Wiring', body: 'Swapping to LED sometimes means updating older fixtures, switches, or wiring. We make sure every connection meets current code in {neighborhood} homes so the new lighting runs reliably and safely for the long term.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Experienced pros who install LED systems safely and correctly.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Every install meets current electrical safety codes.' },
-    { icon: 'badge', title: 'Quality LED Products', text: 'Long-lasting, energy-efficient fixtures and lighting.' },
-    { icon: 'house', title: 'Custom Recommendations', text: 'Brightness and color temperature tuned to each room.' },
-  ],
+  whyParagraph: 'Our licensed electricians set the brightness and color temperature of each LED install to suit the room it lights in your {neighborhood} home. The fixtures are long-lasting and energy-efficient, and the wiring meets current electrical safety codes.',
   proofQuote:
     'They swapped our whole main floor to LED — recessed cans in the living room and under-cabinet strips in the kitchen. It is brighter, the bills dropped, and they tuned the color so it is warm where we want it. Clean work and a fair price.',
   sharedFaqs: [

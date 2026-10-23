@@ -1,7 +1,7 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
     intro:
-      'Looking at a heat pump for a Villages of Roll Hill apartment or thinking about a repair? A heat pump handles heating and cooling from one outdoor unit, and we offer an estimate on this west-side hilltop. Call (513) 586-5107.',
+      'Before quoting heat pump work at Villages of Roll Hill, we confirm whether the fault is the unit you reported or a shared line set. In these multi-unit buildings the outdoor units sit close together and carry year-round load on an exposed hilltop above the Mill Creek valley.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. In housing like this, a heat pump that serves one unit can sit close to systems feeding the next, so when one stops heating or cooling we work out whether the fault is the unit you called about or a shared line set before we quote anything.',
       'On an exposed hilltop with little tree cover, an outdoor heat pump runs through summer sun and winter wind with nothing to shield it, which is hard on the compressor and the defrost cycle. We can repair the unit that is down without touching the rest of the building, and when a system is past saving we walk the math on a replacement that heats and cools from the one box.',
@@ -17,7 +17,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-westwood': {
     intro:
-      'Thinking about a heat pump in East Westwood, or have one that quit heating? A single heat pump covers both seasons, and we give an estimate across this west-side slope. Call (513) 586-5107.',
+      'Older East Westwood homes with a separate furnace and AC can add a heat pump when the AC is on its last legs, sharing the existing ducts and keeping the furnace as backup for the coldest nights. Houses with no ducts on these slopes suit a ductless system.',
     relevance: [
       'East Westwood (ZIP 45211) sits on the slopes between Westwood and the Mill Creek valley, with streets of early- and mid-1900s homes. Plenty of those houses still run a separate furnace and air conditioner, and when the AC is on its last legs a heat pump can replace it while sharing the existing ductwork, with the old furnace kept on as backup for the coldest nights.',
       'The hillside grade here means outdoor units sit on uneven ground and basements stay cool and damp, which matters for where a heat pump and its condensate line go. For the oldest homes that were never ducted, a ductless mini-split heat pump heats and cools without tearing into plaster. We lay out both paths on an estimate before any work starts.',
@@ -33,7 +33,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'western-hills': {
     intro:
-      'Upgrading to a heat pump in Western Hills, or need one repaired? Heat pumps heat and cool from one system, and we offer an estimate around Western Hills Plaza and Glenway. Call (513) 586-5107.',
+      'Dual-fuel heat pumps are the usual upgrade in Western Hills homes now on their second or third furnace and AC pairing. The heat pump runs most of the year and the furnace steps in below freezing, replacing both systems in one go around Western Hills Plaza and Glenway Avenue.',
     relevance: [
       'Western Hills (ZIP 45211) is the established west-side area around Western Hills Plaza and Glenway Avenue, with neighborhoods of early-1900s through mid-century single-family homes. A lot of those houses are now on their second or third furnace-and-AC pairing, and when both are aging at once a dual-fuel setup — a heat pump for most of the year with the furnace stepping in below freezing — replaces the whole lot in one go.',
       'Mid-century ranch and single-family homes here usually have full ductwork already in place, which makes them straightforward candidates for a high-efficiency heat pump that drops the summer electric bill and carries most of the winter on its own. We size the system to the house rather than the old equipment’s nameplate.',
@@ -49,7 +49,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'california': {
     intro:
-      'Considering a heat pump for a California neighborhood riverfront home, or need a repair? One heat pump handles heating and cooling, and we give an estimate along Kellogg Avenue. Call (513) 586-5107.',
+      'Getting the outdoor unit clear of high water comes first on a heat pump in California. This far-east riverfront neighborhood along Kellogg Avenue sits on low ground, so the unit goes up off damp soil and the condensate path drains cleanly. One system then handles heating and cooling.',
     relevance: [
       'California (ZIP 45230) is Cincinnati’s far-east riverfront neighborhood along Kellogg Avenue, near Riverbend and the old Coney Island grounds, set on low ground beside the Ohio River. Outdoor heat pump placement matters more here than in most areas, since equipment on low riverside lots needs to sit clear of high water and damp ground, and the condensate path has to drain cleanly.',
       'The older homes along this stretch often run an aging furnace and AC that can be replaced together with a heat pump, keeping the furnace as backup for the handful of truly cold nights. With the milder winters this far south in the county, a heat pump carries the heating load most of the season on its own. We work the placement and the backup plan into an estimate.',
@@ -65,7 +65,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'carthage': {
     intro:
-      'Heat pump on your mind in Carthage, or one that stopped working? A heat pump heats and cools from a single system, and we offer an estimate along Vine Street. Call (513) 586-5107.',
+      'Plenty of early-1900s homes in Carthage still have no ductwork, so a heat pump there is often a ductless mini-split that heats and cools room by room. It avoids opening century-old walls in this former village along Vine Street, home to the Hamilton County Fairgrounds.',
     relevance: [
       'Carthage (ZIP 45215) is a north-side neighborhood along Vine Street, a former village now home to the Hamilton County Fairgrounds, with older early-1900s homes. Many of those houses were heated long before central air existed, so a fair number still have no ductwork — and a ductless mini-split heat pump can add real heating and cooling room by room without opening up century-old walls.',
       'Where a home does have ducts from a later furnace, a heat pump can share them and take over both seasons, with the furnace held in reserve for the coldest snaps. The age of the housing means we check the electrical panel can carry a heat pump before we recommend one. All of that goes into an estimate.',
@@ -81,7 +81,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'winton-hills': {
     intro:
-      'Looking at a heat pump in Winton Hills, or need one fixed? Heat pumps cover heating and cooling in one unit, and we give an estimate near Winton Road. Call (513) 586-5107.',
+      'Winton Hills heat pump repairs in multi-unit buildings start with pinning the fault to the right unit, because outdoor units serving different homes sit close together. Once we confirm which one has failed, we work out whether repair or replacement makes sense near Winton Road.',
     relevance: [
       'Winton Hills (ZIP 45232) is a north-side neighborhood near Winton Road, with a mix of residential and industrial areas including multi-unit housing. In closely grouped multi-unit buildings, a heat pump serving one home sits near the systems feeding others, so when one stops working we confirm which unit is at fault before quoting a repair or replacement.',
       'Older buildings here often run on equipment that has carried both heating and cooling loads for years, and when a unit reaches the end we can swap it for a heat pump that does both from a single outdoor box. We isolate and repair the unit that is down without disrupting the rest of the building.',
@@ -97,7 +97,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'roselawn': {
     intro:
-      'Thinking about a heat pump in Roselawn, or have one that quit? A single heat pump handles year-round comfort, and we offer an estimate along Reading Road. Call (513) 586-5107.',
+      'Full ductwork in most mid-century Roselawn homes makes them ready for a high-efficiency heat pump that takes over from both the furnace and the AC. Gas backup is optional. On Reading Road’s apartment buildings and single-family streets alike, the summer electric bill usually comes down.',
     relevance: [
       'Roselawn (ZIP 45237) is a north-side neighborhood along Reading Road, with settled streets of mid-century single-family homes and apartment buildings. The mid-1900s single-family homes here typically have full ductwork, which makes them ready for a high-efficiency heat pump that takes over both the furnace and the AC and trims the summer electric bill.',
       'The older apartment buildings put heavier wear on heating and cooling equipment, so when a unit there fails a heat pump replacement that does both seasons from one box is often the cleaner fix. For homes that want to keep gas heat for the coldest nights, a dual-fuel pairing leaves the furnace as backup. We map out the options on an estimate.',
@@ -113,7 +113,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-airy': {
     intro:
-      'Considering a heat pump in Mount Airy, or need one repaired? Heat pumps heat and cool from one system, and we give an estimate near Mount Airy Forest. Call (513) 586-5107.',
+      'Mid-century ranches and split-levels beside Mount Airy Forest generally have the ductwork a heat pump needs, so retiring an aging furnace and AC for one system is a straightforward swap in Mount Airy. The outdoor unit goes clear of falling leaves and the slope.',
     relevance: [
       'Mount Airy (ZIP 45239) is a northwest-side neighborhood beside Mount Airy Forest, one of the largest city parks in the country, with mid-century single-family homes on hilly, wooded streets. Those mid-century ranches and split-levels generally have the ductwork a high-efficiency heat pump needs, making them good candidates to retire an aging furnace-and-AC pair for one system.',
       'The wooded, hilly setting means outdoor units collect leaves and sit on uneven grade, both of which affect airflow and the winter defrost cycle, so placement and clearance matter when we install. With the tree cover here keeping summers a touch cooler, a properly sized heat pump runs efficiently for most of the year. We sort placement and sizing on an estimate.',
@@ -129,7 +129,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hartwell': {
     intro:
-      'Heat pump on your mind in Hartwell, or one that stopped working? A heat pump heats and cools from a single system, and we offer an estimate in this historic streetcar neighborhood. Call (513) 586-5107.',
+      'Protecting historic finishes usually points a Hartwell heat pump toward a ductless mini-split. Many of the Victorian and early-1900s homes in this old streetcar suburb were never fully ducted, and a mini-split adds even heating and cooling without cutting into plaster, trim or hardwood.',
     relevance: [
       'Hartwell (ZIP 45215) is a historic north-side neighborhood that grew as a streetcar suburb, known for its Victorian and early-1900s homes on tree-lined streets. A good share of those century-old homes were never fully ducted, and a ductless mini-split heat pump can add even heating and cooling without cutting into original plaster, trim, or hardwood.',
       'Where a later furnace brought ductwork in, a heat pump can share it and take over both seasons, with the furnace kept on for the coldest nights. Because these houses are old, we check the electrical service can carry a heat pump and plan the line set to keep the historic exterior tidy. Everything goes into an estimate.',
@@ -145,7 +145,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'kennedy-heights': {
     intro:
-      'Thinking about a heat pump in Kennedy Heights, or have one that quit? One heat pump covers heating and cooling, and we give an estimate on this historic east-side hilltop. Call (513) 586-5107.',
+      'Large homes from the Victorian-era resort days often run an aging furnace and AC, and a dual-fuel heat pump is a common replacement in Kennedy Heights. The heat pump handles most of the year and the furnace covers the coldest nights. Unducted rooms can take a ductless mini-split.',
     relevance: [
       'Kennedy Heights (ZIP 45213) is a historic east-side hilltop neighborhood that began as a Victorian-era resort community, now known for its arts center and large early-1900s homes. Those big older houses often run an aging furnace and AC, and replacing both with a dual-fuel heat pump — pump for most of the year, furnace for the coldest nights — covers a large home from one system.',
       'Some of the oldest homes here were never ducted throughout, and a ductless mini-split heat pump can condition the additions and converted spaces these grand houses tend to have. The hilltop position exposes outdoor units to wind, so placement matters for the winter defrost cycle. We work the layout into an estimate.',
@@ -161,7 +161,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'st-bernard': {
     intro:
-      'Looking at a heat pump in St. Bernard, or need one repaired? A heat pump heats and cools from one unit, and we offer an estimate across this independent city. Call (513) 586-5107.',
+      'Finding outdoor clearance is half of any heat pump install in St. Bernard. The early-1900s homes around Ivorydale sit on small, packed valley lots, so the unit needs airflow and a drain path for condensate without crowding the next house. Whether ducts exist decides the rest.',
     relevance: [
       'St. Bernard (ZIP 45217) is its own city, completely surrounded by Cincinnati, built up around the Procter & Gamble Ivorydale complex with a dense grid of early-1900s homes. On small valley lots packed close together, where the outdoor heat pump sits is half the job — it needs clearance for airflow and a path to drain condensate without crowding the next house.',
       'Many of these century-old homes still run a separate furnace and AC, and a heat pump can replace the cooling side while sharing existing ducts, with the furnace held as backup. For the homes that were never ducted, a ductless mini-split heat pump fits the tight floor plans without a duct chase. We sort placement and ducting on an estimate.',
@@ -177,7 +177,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'elmwood-place': {
     intro:
-      'Considering a heat pump in Elmwood Place, or have one that quit? A single heat pump handles both seasons, and we give an estimate across this small inner-ring village. Call (513) 586-5107.',
+      'On the small valley lots of Elmwood Place, a heat pump has to be placed for airflow without crowding the neighbours, and on low ground it sits on a raised pad clear of water. In these closely spaced early-1900s homes, a ductless system is often the fit.',
     relevance: [
       'Elmwood Place (ZIP 45216) is a tiny, densely built village in the Mill Creek valley north of the city, with closely spaced early-1900s homes. On these small valley lots, an outdoor heat pump has to be placed for airflow without crowding the neighbors, and on low ground the unit sits on a raised pad so it stays clear of water and damp.',
       'The old, tightly packed housing here often lacks the ductwork a central system needs, and a ductless mini-split heat pump heats and cools room by room without a duct chase through century-old framing. Where ducts do exist, a heat pump can share them and carry both seasons with a furnace as backup. We lay out the fit on an estimate.',
@@ -193,7 +193,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'delhi-hills': {
     intro:
-      'Thinking about a heat pump in Delhi Hills, or need one fixed? Heat pumps heat and cool from one system, and we offer an estimate across this west-side township community above the river. Call (513) 586-5107.',
+      'Established mid-century homes in Delhi Hills generally have ductwork in place, which makes them ready for a high-efficiency heat pump that replaces an aging furnace and AC in one move. Keeping the furnace as backup is an option on these hilly streets above the river.',
     relevance: [
       'Delhi Hills (ZIP 45233) sits in Delhi Township on the west side above the Ohio River — an area with deep ties to greenhouse and floral growing — with established mid-century homes on hilly streets. Those mid-century houses generally have ductwork in place, which makes them ready for a high-efficiency heat pump to replace an aging furnace-and-AC pair in one move.',
       'The hillside grade means outdoor units sit on uneven ground and basements run cool, both of which factor into placement and the condensate line. With milder winters this far south above the river, a heat pump carries most of the heating season, and a furnace can stay on as backup for the coldest nights. We plan it on an estimate.',
@@ -209,7 +209,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'golf-manor': {
     intro:
-      'Looking at a heat pump in Golf Manor, or have one that quit? A heat pump covers heating and cooling in one unit, and we give an estimate across this small inner-ring village. Call (513) 586-5107.',
+      'Right-sizing matters on a Golf Manor heat pump. These modest mid-century homes usually have ductwork from the existing furnace, and an oversized unit wastes energy in a smaller house. On a compact lot, finding clearance for the outdoor unit also takes some care.',
     relevance: [
       'Golf Manor (ZIP 45237) is a small village completely surrounded by Cincinnati on the north side, with a compact grid of modest mid-century homes. Those modest mid-century houses usually have ductwork from an existing furnace, so a right-sized heat pump can take over both heating and cooling without the oversized equipment that wastes energy in a smaller home.',
       'On the compact lots here, outdoor unit placement and clearance matter, since the next house is close by. For an aging furnace-and-AC pair reaching the end together, a dual-fuel heat pump replaces both — pump for most of the year, furnace for the deep cold. We size to the actual home, not the old nameplate, on an estimate.',
@@ -225,7 +225,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fairfax': {
     intro:
-      'Considering a heat pump in Fairfax, or need one repaired? A single heat pump handles year-round comfort, and we offer an estimate along Wooster Pike. Call (513) 586-5107.',
+      'Ductwork decides the heat pump in Fairfax. The mid-century houses along Wooster Pike generally have ducts, so one system can retire an aging furnace and AC together, while the oldest unducted early-1900s homes in the village suit a ductless mini-split.',
     relevance: [
       'Fairfax (ZIP 45227) is a small east-side village along Wooster Pike near Mariemont, with established early- and mid-1900s homes. The mid-century houses here generally have ductwork, making them ready for a heat pump that retires an aging furnace and AC together, while the oldest unducted homes are candidates for a ductless mini-split.',
       'As a small village surrounded by larger neighbors, Fairfax has a tidy, established housing stock where a high-efficiency heat pump cuts the summer electric bill and carries most of the winter. For homeowners who want to keep gas heat for the coldest stretch, a dual-fuel pairing leaves the furnace as backup. We map the options on an estimate.',
@@ -241,7 +241,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mack': {
     intro:
-      'Thinking about a heat pump in Mack, or have one that quit? Heat pumps heat and cool from one system, and we give an estimate across this west-side Green Township community. Call (513) 586-5107.',
+      'In Mack, the first furnace and AC in many newer Green Township homes are now wearing out, and a heat pump can replace both. With full ductwork already in place, it is a clean swap in the mid-century and newer houses alike. We repair existing systems too.',
     relevance: [
       'Mack (ZIP 45248) is an established community in Green Township on the west side, with neighborhoods of mid-century and newer single-family homes. The newer homes here are now old enough that the first furnace and AC are wearing out, and at that point one heat pump can replace both — a clean swap on homes that already have full ductwork.',
       'The mid-century houses in Mack are prime candidates for a high-efficiency heat pump that drops the summer electric bill and handles most of the winter, with a furnace as backup for the coldest nights. Because the lots are roomy here, outdoor placement is rarely a problem. We size the system to the home on an estimate.',
@@ -257,7 +257,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'monfort-heights': {
     intro:
-      'Looking at a heat pump in Monfort Heights, or need one repaired? A heat pump covers heating and cooling in one unit, and we offer an estimate across this west-side Green Township suburb. Call (513) 586-5107.',
+      'The original furnace and AC in Monfort Heights homes are now both due, which is the natural moment to switch to one high-efficiency heat pump on the existing ductwork. Nearly every house in this Green Township suburb is mid-century, so the job is similar street to street.',
     relevance: [
       'Monfort Heights (ZIP 45247) is a settled Green Township suburb on the west side, made up largely of mid-century single-family homes. Homes from the mid-1900s are now at the age where the original furnace and AC are both due, which is the natural moment to replace them with one high-efficiency heat pump on the existing ductwork.',
       'These ranch and split-level homes were built with central ducting, so a heat pump ties in without major remodeling and can run as dual-fuel — pump most of the year, furnace for the deep cold. With roomy suburban lots, outdoor placement is straightforward. We size to the house, not the old equipment, on an estimate.',
@@ -273,7 +273,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bridgetown': {
     intro:
-      'Considering a heat pump in Bridgetown, or have one that quit? A single heat pump handles both seasons, and we give an estimate across this west-side Green Township community. Call (513) 586-5107.',
+      'Some Bridgetown homes are reaching their first equipment replacement and others their second, and in both cases a heat pump can take over heating and cooling from one outdoor unit on the existing ducts. Sizing it to these well-built Green Township houses matters.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. The mix here means some houses are reaching their first equipment replacement while others are on their second, and in both cases a heat pump can take over heating and cooling from a single outdoor unit on the existing ducts.',
       'The newer homes give a heat pump a tight, well-built envelope to work with, which lets a right-sized unit run efficiently year-round. Where homeowners want gas heat for the coldest nights, a dual-fuel pairing keeps the furnace as backup. With suburban lots, outdoor placement is rarely a constraint. We size and quote on an estimate.',
@@ -289,7 +289,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'finneytown': {
     intro:
-      'Thinking about a heat pump in Finneytown, or need one fixed? Heat pumps heat and cool from one system, and we offer an estimate across this north-side Springfield Township community. Call (513) 586-5107.',
+      'Central ductwork in Finneytown’s mid-century ranches and split-levels means a heat pump can retire an aging furnace and AC in one step. A dual-fuel setup keeps the furnace for the coldest nights. We install and repair across this Springfield Township community.',
     relevance: [
       'Finneytown (ZIP 45231) is a settled Springfield Township community on the north side, made up largely of mid-century single-family homes. Those mid-1900s ranches and split-levels were built with central ductwork, so they are ready for a high-efficiency heat pump to retire an aging furnace and AC in one step.',
       'Homes of this era are at the point where both pieces of equipment are due at once, which is the natural time to consolidate to a heat pump that does both seasons. For the colder Springfield Township nights, a furnace stays on as backup in a dual-fuel setup. We size the system to the home on an estimate.',
@@ -305,7 +305,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'amberley': {
     intro:
-      'Considering a heat pump for an Amberley Village home, or need one repaired? A heat pump heats and cools from one system, and we give an estimate across this wooded north-side village. Call (513) 586-5107.',
+      'Large homes in Amberley Village often need zoned heating and cooling, and a heat pump, or a pair feeding separate zones, can replace an aging furnace and AC across a big floor plan. Placing the outdoor units clear of mature trees on these wooded lots matters too.',
     relevance: [
       'Amberley Village (ZIP 45237) is an affluent north-side village known for its large homes on big, wooded lots along winding streets. Larger homes need larger or zoned heating and cooling, and a heat pump — or a pair of them feeding separate zones — can replace an aging furnace and AC across a big floor plan while keeping each wing comfortable.',
       'The wooded lots mean outdoor units collect leaves and sit among mature trees, so placement and clearance matter for airflow and the winter defrost cycle. Big homes also reward a dual-fuel setup, with the heat pump carrying most of the year and a furnace handling the deepest cold. We size to the home and plan zoning on an estimate.',
@@ -321,7 +321,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'arlington-heights': {
     intro:
-      'Looking at a heat pump in Arlington Heights, or have one that quit? A single heat pump handles year-round comfort, and we offer an estimate across this small Mill Creek valley village. Call (513) 586-5107.',
+      'Low valley ground shapes a heat pump in Arlington Heights. The outdoor unit sits on a raised pad clear of water and damp, and on tight lots it is placed for airflow without crowding the next house. Older homes in the village often suit a ductless system.',
     relevance: [
       'Arlington Heights (ZIP 45215) is a small village in the Mill Creek valley north of the city, with a compact grid of older homes. On the low valley ground here, an outdoor heat pump sits on a raised pad so it stays clear of water and damp, and on tight lots it needs placing for airflow without crowding the next house.',
       'The older, compact housing often lacks full ductwork, and a ductless mini-split heat pump heats and cools room by room without a duct chase through old framing. Where ducts exist, a heat pump can share them with a furnace as backup. We sort placement and the right system on an estimate.',
@@ -337,7 +337,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-college-hill': {
     intro:
-      'Thinking about a heat pump in North College Hill, or need one repaired? Heat pumps heat and cool from one system, and we give an estimate across this small north-side city. Call (513) 586-5107.',
+      'North College Hill heat pump work splits by house age. Early-1900s homes were often heated before central air and may lack ductwork, which suits a ductless mini-split, while the mid-century houses in this small city generally have ducts ready for a central unit.',
     relevance: [
       'North College Hill (ZIP 45239) is a small, densely built city just north of College Hill, with a grid of early- and mid-1900s homes. The early-1900s homes here were often heated before central air, so some lack ductwork and suit a ductless mini-split heat pump, while the mid-century houses generally have ducts ready for a central heat pump.',
       'On the tight, gridded lots here, outdoor unit placement and clearance need planning so the equipment has airflow without crowding the neighbor. For homes with an aging furnace and AC, a dual-fuel heat pump replaces both, with the furnace held for the coldest nights. We work out the right system on an estimate.',
@@ -353,7 +353,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newtown': {
     intro:
-      'Considering a heat pump in Newtown, or have one that quit? A single heat pump handles both seasons, and we offer an estimate across this east-side village near the Little Miami River. Call (513) 586-5107.',
+      'Raising the outdoor unit above flood-prone ground is the key concern on a Newtown heat pump. Older homes in this village near the Little Miami River sit on low river-bottom ground, so the unit goes on a raised pad and the condensate line drains away from the house.',
     relevance: [
       'Newtown (ZIP 45244) is a small east-side village near the Little Miami River, with older homes set on low river-bottom ground. That low ground is the key heat pump concern here — the outdoor unit goes on a raised pad clear of flood-prone soil, and the condensate line is routed to drain away from the home.',
       'The older homes along the river often run an aging furnace and AC, and a heat pump can replace both, with a furnace kept as backup for the coldest nights. With milder winters this far down in the valley, the heat pump carries most of the season. We plan the raised placement and backup on an estimate.',
@@ -369,7 +369,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'turpin-hills': {
     intro:
-      'Looking at a heat pump in Turpin Hills, or need one repaired? A heat pump covers heating and cooling in one unit, and we give an estimate across this east-side Anderson Township community. Call (513) 586-5107.',
+      'Mid-century houses in Turpin Hills have central ductwork, so a high-efficiency heat pump can replace an aging furnace and AC together. It needs sizing to a well-built suburban home, not just matching the old equipment. We install and repair across this Anderson Township community.',
     relevance: [
       'Turpin Hills (ZIP 45244) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. The mid-century houses here have central ductwork, making them ready for a high-efficiency heat pump to replace an aging furnace and AC together.',
       'The newer homes give a heat pump a tight envelope to work with, so a right-sized unit runs efficiently across both seasons, with a furnace kept as backup for the deepest cold in a dual-fuel setup. Roomy suburban lots keep outdoor placement simple. We size to the home on an estimate.',
@@ -385,7 +385,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'silverton': {
     intro:
-      'Thinking about a heat pump in Silverton, or have one that quit? Heat pumps heat and cool from one system, and we offer an estimate along Montgomery Road. Call (513) 586-5107.',
+      'Along Montgomery Road, Silverton homes split two ways for a heat pump. The mid-century houses generally have ductwork ready for a central system, while the oldest unducted early-1900s homes suit a ductless mini-split that adds heating and cooling without opening walls.',
     relevance: [
       'Silverton (ZIP 45236) is a small city along Montgomery Road on the east side, with established streets of early- and mid-1900s homes. The mid-century homes here generally have ductwork ready for a central heat pump, while the oldest unducted houses suit a ductless mini-split that adds heating and cooling without opening up walls.',
       'As a compact city of older homes, Silverton has plenty of furnace-and-AC pairs reaching the end together, which is the natural point to consolidate to one heat pump. A dual-fuel setup leaves the furnace as backup for the coldest nights. We work out the right approach on an estimate.',
@@ -401,7 +401,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lockland': {
     intro:
-      'Considering a heat pump in Lockland, or need one repaired? A single heat pump handles year-round comfort, and we give an estimate across this historic Mill Creek valley village. Call (513) 586-5107.',
+      'Tight, century-old worker housing in Lockland often lacks ductwork, so a heat pump here is usually a ductless mini-split that heats and cools room by room without a duct chase through old framing. In this Mill Creek valley mill village, the outdoor unit goes up off damp ground.',
     relevance: [
       'Lockland (ZIP 45215) is a historic village in the Mill Creek valley north of the city, built up around mills and industry, with closely spaced older worker housing. That tight, century-old housing often lacks ductwork, and a ductless mini-split heat pump heats and cools room by room without a duct chase through old framing.',
       'On the low valley ground here, an outdoor heat pump sits on a raised pad clear of damp and water, and on the closely spaced lots it needs placing for airflow without crowding the next home. Where ducts exist, a heat pump can share them with a furnace as backup. We sort the system and placement on an estimate.',
@@ -417,7 +417,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'groesbeck': {
     intro:
-      'Looking at a heat pump in Groesbeck, or have one that quit? Heat pumps heat and cool from one system, and we offer an estimate across this northwest Colerain Township community. Call (513) 586-5107.',
+      'Central ductwork in Groesbeck’s mid-century ranches and split-levels means one high-efficiency heat pump can replace an aging furnace and AC in a single step. A dual-fuel setup keeps the furnace for the coldest nights. We install and repair across this Colerain Township community.',
     relevance: [
       'Groesbeck (ZIP 45239) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. Those mid-1900s ranches and split-levels were built with central ductwork, so they are ready for a high-efficiency heat pump to replace an aging furnace and AC in one step.',
       'Homes of this era usually have both pieces of equipment coming due at once, which is the natural moment to consolidate to a heat pump that does both seasons. For the colder Colerain Township nights, a furnace stays on as backup in a dual-fuel setup. Roomy suburban lots keep placement simple. We size to the home on an estimate.',
@@ -433,7 +433,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-healthy': {
     intro:
-      'Thinking about a heat pump in Mount Healthy, or need one fixed? A heat pump covers heating and cooling in one unit, and we give an estimate across this historic north-side city. Call (513) 586-5107.',
+      'Mount Healthy heat pump work depends on the house. Early-1900s homes near the old town center were often heated before central air and may lack ducts, so a ductless mini-split suits them, while the mid-century houses generally have ducts ready for a central unit.',
     relevance: [
       'Mount Healthy (ZIP 45231) is a historic small city on the north side, with an old town center and streets of early-1900s and mid-century homes. The early-1900s homes here were often heated before central air and may lack ductwork, suiting a ductless mini-split heat pump, while the mid-century houses generally have ducts ready for a central unit.',
       'In a city with this range of housing ages, a fair number of homes run an aging furnace and AC that a heat pump can replace, with the furnace kept on for the coldest nights in a dual-fuel setup. We check the electrical service in the older homes and pick the right system for the house on an estimate.',

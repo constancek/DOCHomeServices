@@ -57,21 +57,16 @@ const config: ServiceLocationConfig = {
     { title: 'Gas, Electric & Tankless Water Heater Repair', body: 'We repair gas, electric, and tankless water heaters from all major brands. Our technicians handle burners, pilots, igniters, heating elements, thermostats, and relief valves on tank units, and sensor and flow-rate problems on tankless systems — diagnosing the real cause rather than guessing.' },
     { title: 'Repair or Replace?', body: 'If your unit is under about 10 years old and the issue is isolated, a repair makes sense. If it is older, leaking from the tank itself, or failing repeatedly, replacement is usually the better long-term value — and we will tell you honestly which we would do for your {neighborhood} home.' },
     { title: 'Water Heater Repair Cost', body: 'Repair prices depend on the part and the type of unit — a thermostat or element costs less than a gas valve or control board. {brand} provides upfront, flat-rate pricing, so there are no surprises before we begin.' },
-    { title: 'Emergency Water Heater Repair in {neighborhood}', body: 'A leak or a total loss of hot water does not wait for business hours. Our team is on call 7 days a week from 8am to 8pm to shut off the water, contain the leak, and restore hot water as quickly as possible.' },
+    { title: 'Emergency Water Heater Repair in {neighborhood}', body: 'A leak or a total loss of hot water does not wait for business hours. Our team is on call every day, Sundays included to shut off the water, contain the leak, and restore hot water as quickly as possible.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'badge', title: 'All Major Brands', text: 'We repair gas, electric, and tankless water heaters from every major brand.' },
-    { icon: 'clock', title: 'Seven-Day Emergency Repair', text: 'A leak or no hot water? We respond 7 days a week from 8am to 8pm.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked technicians who diagnose accurately and fix it right.' },
-    { icon: 'check', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-  ],
+  whyParagraph: 'We repair gas, electric and tankless water heaters from every major brand, seven days a week. Background-checked technicians diagnose the fault in your {neighborhood} home before fixing it, and the flat price has no overtime fees.',
   proofQuote:
     'Woke up to no hot water and a puddle under the tank. They came out the same morning, replaced the valve, and flushed the sediment — hot water back by lunch.',
   sharedFaqs: [
     { q: 'Why is my water heater not producing hot water?', a: 'On an electric unit it is usually a failed heating element or thermostat; on a gas unit it is often a pilot, ignition, or gas-supply issue. A tank thick with sediment can also struggle to heat. We diagnose which it is and fix it.' },
     { q: 'What causes a leaking water heater?', a: 'Leaks come from a failing temperature-and-pressure relief valve, loose fittings, or corrosion inside the tank. A valve or fitting leak is usually a quick repair; a tank that is rusted through means it is time to replace.' },
-    { q: 'How fast can you repair a water heater?', a: 'Most repairs are handled the same day — we carry common parts — and we are on call 7 days a week from 8am to 8pm for emergencies like a leak or a total loss of hot water.' },
+    { q: 'How fast can you repair a water heater?', a: 'Most repairs are handled the same day — we carry common parts — and we are on call any day of the week for emergencies like a leak or a total loss of hot water.' },
     { q: 'Do you repair gas and electric water heaters?', a: 'Yes — gas, electric, and tankless, on all major brands.' },
     { q: 'How do I know if I should repair or replace?', a: 'If the unit is under about 10 years old and the issue is isolated, a repair makes sense. If it is older, leaking from the tank, or failing repeatedly, replacement is usually the better long-term value — and we will tell you honestly which we would do.' },
   ],
@@ -103,7 +98,7 @@ export async function generateMetadata({
     alternates: { canonical: `/services/water-heater-repair/${loc.slug}` },
     openGraph: {
       title: `Water Heater Repair in ${place} | ${site.name}`,
-      description: `Licensed, 7-day water heater repair serving ${place} and nearby areas.`,
+      description: `Licensed water heater repair, open every day, serving ${place} and nearby areas.`,
     },
   };
 }

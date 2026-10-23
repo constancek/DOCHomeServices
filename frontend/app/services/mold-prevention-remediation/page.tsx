@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
@@ -37,12 +37,6 @@ const process = [
   { lead: 'Dry and verify', text: 'the area is dried to measured readings, because leaving it damp restarts the whole process.' },
 ];
 
-const whyUs = [
-  { icon: 'shield' as const, title: 'We Fix the Source', text: 'We are plumbers first. The leak feeding the mold gets repaired as part of the same job.' },
-  { icon: 'check' as const, title: 'Proper Containment', text: 'Sheeting, negative air, and HEPA filtration — so remediation does not spread the problem.' },
-  { icon: 'doc' as const, title: 'Documented Throughout', text: 'Photos and moisture readings written up for your insurer or a future buyer.' },
-  { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start, with no overtime or weekend fees.' },
-];
 
 const faqs = [
   {
@@ -121,30 +115,15 @@ export default function MoldPreventionRemediationPage() {
         ]}
       />
 
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Musty smell or visible growth? Get it looked at
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/mold-hero.webp)' }}
             role="img"
             aria-label="Close-up of an aged, moss-covered brick wall"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Mold Is a Water Problem
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -171,17 +150,17 @@ export default function MoldPreventionRemediationPage() {
             aria-label="Close-up of a stone wall covered in moss and lichen"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs You Have a Mold Problem
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
               Most mold is found by smell before it is found by sight, because the growth is usually
               behind something:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {signs.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={s} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
               ))}
@@ -194,6 +173,23 @@ export default function MoldPreventionRemediationPage() {
         </div>
       </section>
 
+      <ServiceReviews service="mold-prevention-remediation" />
+
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Musty smell or visible growth? Get it looked at
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
+        </div>
+      </section>
+
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">How Remediation Works</h2>
@@ -203,7 +199,7 @@ export default function MoldPreventionRemediationPage() {
           </p>
           <ul className="mt-4 space-y-2">
             {process.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}:</span> {b.text}
@@ -229,24 +225,10 @@ export default function MoldPreventionRemediationPage() {
             Why Choose {site.name} for Mold Work
           </h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Mold is the easiest service in this trade to sell on fear. We would rather tell you that
-            what you have is a bathroom ventilation problem than contain and strip a room that did
-            not need it — and because we are plumbers, we can actually fix the leak that started it
-            rather than handing you back a clean wall and the same drip.
+            Mold is the easiest service in this trade to sell on fear. If what you have is a
+            bathroom ventilation problem, we’ll say so, and because we’re plumbers, we fix the
+            leak that started it.
           </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
           <h2 className="mt-12 section-title text-brand-700">Related Services</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
@@ -269,6 +251,13 @@ export default function MoldPreventionRemediationPage() {
             comes first.
           </p>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Mold FAQs</h2>
           <div className="mt-4">
             <Accordion
@@ -281,7 +270,7 @@ export default function MoldPreventionRemediationPage() {
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
+            <h2 className="text-2xl font-extrabold sm:text-3xl">
               Deal With It Before It Spreads
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
@@ -302,20 +291,20 @@ export default function MoldPreventionRemediationPage() {
         </div>
       </section>
 
-      {/* Mold prevention & remediation by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Mold prevention & remediation by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We stop mold before it establishes and remove it properly across {site.serviceArea} —{' '}
-            {locations.filter((l) => moldPreventionRemediationCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on your area.
-          </p>
-          <NeighborhoodLinks copy={moldPreventionRemediationCopy} basePath="/services/mold-prevention-remediation" linkPrefix="Mold prevention & remediation" />
-        </div>
-      </section>
-
-      <PageSections service="mold-prevention-remediation" />
+      <ServiceSections service="mold-prevention-remediation">
+        {/* Mold prevention & remediation by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Mold prevention & remediation by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We stop mold before it establishes and remove it properly across {site.serviceArea} —{' '}
+              {locations.filter((l) => moldPreventionRemediationCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on your area.
+            </p>
+            <NeighborhoodLinks copy={moldPreventionRemediationCopy} basePath="/services/mold-prevention-remediation" linkPrefix="Mold prevention & remediation" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

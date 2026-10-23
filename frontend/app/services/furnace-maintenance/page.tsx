@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
@@ -59,12 +59,6 @@ const problems = [
   'Inconsistent heating performance',
 ];
 
-const whyUs = [
-  { icon: 'badge' as const, title: 'Thorough Tune-Ups', text: 'Detailed multi-point inspections that catch small issues before they become repairs.' },
-  { icon: 'check' as const, title: 'Gas & Electric', text: 'We maintain both gas and electric furnaces with the right care for each.' },
-  { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked technicians and a real safety check every visit.' },
-  { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'Affordable, transparent pricing and maintenance plans available.' },
-];
 
 const faqs = [
   { q: 'What does furnace maintenance include?', a: 'A full tune-up covers a filter check and replacement, blower and fan inspection, thermostat and controls testing, an electrical and safety-control check, and an inspection of the combustion chamber, burners, and heat exchanger.' },
@@ -118,32 +112,16 @@ export default function FurnaceMaintenancePage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Due for a furnace tune-up in {site.serviceArea}?
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar couponTitle="Furnace Tune-Up">
+        <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/furnace-maint-hero.webp)' }}
             role="img"
             aria-label="Technician performing a furnace tune-up"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Professional Furnace Tune-Up Services
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -169,7 +147,7 @@ export default function FurnaceMaintenancePage() {
           </p>
           <ul className="mt-4 space-y-2.5">
             {benefits.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}:</span> {b.text}
@@ -194,7 +172,7 @@ export default function FurnaceMaintenancePage() {
             aria-label="Technician inspecting a furnace"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs You Need a Furnace Tune-Up
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -202,10 +180,10 @@ export default function FurnaceMaintenancePage() {
               unexpected breakdowns. These warning signs can mean it is time for a professional
               tune-up:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {signs.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={s} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
               ))}
@@ -222,7 +200,7 @@ export default function FurnaceMaintenancePage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               What to Expect From a Furnace Tune-Up
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -231,8 +209,8 @@ export default function FurnaceMaintenancePage() {
             </p>
             <ul className="mt-4 space-y-1.5">
               {tuneup.map((t) => (
-                <li key={t} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={t} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {t}
                 </li>
               ))}
@@ -250,6 +228,24 @@ export default function FurnaceMaintenancePage() {
         </div>
       </section>
 
+      <ServiceReviews service="furnace-maintenance" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Due for a furnace tune-up in {site.serviceArea}?
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
+        </div>
+      </section>
+
       {/* Long-form content */}
       <section className="py-14">
         <div className="container-page max-w-4xl">
@@ -259,7 +255,7 @@ export default function FurnaceMaintenancePage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {diy.map((d) => (
-              <li key={d} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={d} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {d}
               </li>
@@ -277,7 +273,7 @@ export default function FurnaceMaintenancePage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {problems.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
@@ -292,8 +288,8 @@ export default function FurnaceMaintenancePage() {
           <h2 className="mt-12 section-title text-brand-700">Gas & Electric Furnace Maintenance</h2>
           <div className="mt-5 grid gap-5 sm:grid-cols-2">
             <div className="card">
-              <h3 className="font-display text-base font-extrabold text-brand-700">Gas Furnace Maintenance</h3>
-              <p className="mt-2 text-sm leading-relaxed text-ink/70">
+              <h3 className="font-display text-lg font-extrabold text-brand-700">Gas Furnace Maintenance</h3>
+              <p className="mt-2 text-[17px] leading-relaxed text-ink/75">
                 Gas furnaces are common across the area but need expert attention to stay safe and
                 efficient. We inspect gas lines, burners, and the heat exchanger to keep your unit
                 running smoothly — reducing risks like carbon monoxide leaks and maintaining reliable
@@ -301,8 +297,8 @@ export default function FurnaceMaintenancePage() {
               </p>
             </div>
             <div className="card">
-              <h3 className="font-display text-base font-extrabold text-brand-700">Electric Furnace Maintenance</h3>
-              <p className="mt-2 text-sm leading-relaxed text-ink/70">
+              <h3 className="font-display text-lg font-extrabold text-brand-700">Electric Furnace Maintenance</h3>
+              <p className="mt-2 text-[17px] leading-relaxed text-ink/75">
                 Electric furnaces are dependable but still need regular maintenance to perform their
                 best. Our tune-up checks heating elements, electrical connections, and airflow to
                 improve efficiency and prevent extra strain on the system.
@@ -322,29 +318,18 @@ export default function FurnaceMaintenancePage() {
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Your Furnace Tune-Up</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            A furnace tune-up is one of the best ways to improve performance and avoid unexpected
-            heating issues. {site.name} provides thorough tune-ups designed to keep your equipment
-            running efficiently, safely, and reliably.
+            A tune-up is where small furnace problems get caught before they turn into a no-heat
+            call in January. {site.name} technicians give you clear recommendations afterward,
+            including telling you when your furnace needs nothing beyond the tune-up itself.
           </p>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            With experienced technicians, detailed inspections, and clear recommendations, we help
-            identify small issues before they turn into costly repairs — supporting better energy
-            efficiency, a longer system lifespan, and consistent comfort throughout your home.
-          </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Furnace Maintenance FAQs</h2>
           <div className="mt-4">
@@ -359,7 +344,7 @@ export default function FurnaceMaintenancePage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Furnace Tune-Up Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule Your Furnace Tune-Up Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Do not wait for your furnace to break down. Staying on top of annual maintenance keeps
               your system running smoothly, saves on energy, and helps avoid expensive repairs. Call
@@ -378,20 +363,20 @@ export default function FurnaceMaintenancePage() {
         </div>
       </section>
 
-      {/* Furnace maintenance by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Furnace maintenance by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We tune up and service furnaces across {site.serviceArea} —{' '}
-            {locations.filter((l) => furnaceMaintenanceCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on keeping your heating safe and efficient.
-          </p>
-          <NeighborhoodLinks copy={furnaceMaintenanceCopy} basePath="/services/furnace-maintenance" linkPrefix="Furnace maintenance" />
-        </div>
-      </section>
-
-      <PageSections service="furnace-maintenance" />
+      <ServiceSections service="furnace-maintenance">
+        {/* Furnace maintenance by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Furnace maintenance by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We tune up and service furnaces across {site.serviceArea} —{' '}
+              {locations.filter((l) => furnaceMaintenanceCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on keeping your heating safe and efficient.
+            </p>
+            <NeighborhoodLinks copy={furnaceMaintenanceCopy} basePath="/services/furnace-maintenance" linkPrefix="Furnace maintenance" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

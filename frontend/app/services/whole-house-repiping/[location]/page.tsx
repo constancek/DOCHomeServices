@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Repipe vs. Targeted Repair', body: 'If only one run is failing, a targeted pipe repair may be the smarter spend. We inspect the whole system in a {neighborhood} home and tell you honestly whether a full repipe or a focused repair is the better long-term value.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Plumbers', text: 'Experienced pros who repipe homes cleanly and to code.' },
-    { icon: 'check', title: 'Quality Materials', text: 'Durable PEX or copper sized for your home.' },
-    { icon: 'badge', title: 'Upfront Estimates', text: 'A clear quote after we inspect your system.' },
-    { icon: 'house', title: 'Thorough Cleanup', text: 'Leak-tested results and a tidy finish.' },
-  ],
+  whyParagraph: 'We inspect your {neighborhood} plumbing first, then give you a clear quote for the repipe. Licensed plumbers run durable PEX or copper sized to the house, leak-test every line, and leave the work area tidy when they finish.',
   proofQuote:
     'Galvanized lines, rusty water, and a leak every few months. They mapped out the whole house, repiped it in PEX over a few days, and kept the water on at night. Pressure is back, the water runs clear, and they cleaned up like they were never here.',
   sharedFaqs: [

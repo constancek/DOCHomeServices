@@ -1,7 +1,7 @@
 export const part2: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   madeira: {
     intro:
-      "When a pipe lets go in a Madeira home near Miami and Euclid Avenues, the water is in the subfloor before the mop comes out. We extract it, dry the structure, and repair the line that failed. Call (513) 586-5107.",
+      "Madeira water damage restoration usually starts with an original galvanized supply line or cast-iron drain that split without warning in a mid-century home near Miami and Euclid Avenues. Finished basements and hardwood sit in the path. We repair the line first, then dry the subfloor to measured readings.",
     relevance: [
       "Madeira is an established east-side city of mid-century single-family homes on quiet, tree-lined streets. The original galvanized supply lines and cast-iron drains in houses that age are exactly the parts that split or back up without warning, and a mid-century floor plan puts finished basements and hardwood right in the path of the water.",
       "We handle both halves of that in one visit. We shut off and repair the failed line first, pull the standing water, then dry the framing and subfloor to measured moisture readings rather than a guess. Because we are licensed plumbers, the corroded supply line that caused the flood gets fixed on the same job, not left for a second contractor while the damage spreads.",
@@ -17,7 +17,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   wyoming: {
     intro:
-      "In Wyoming's grand Victorian and early-1900s homes, a hidden supply-line leak can soak finished plaster and hardwood before anyone sees a stain. We dry it out and repair the pipe that caused it. Call (513) 586-5107.",
+      "Hidden supply-line leaks are behind much of the water damage restoration we do in Wyoming, soaking plaster and hardwood in grand Victorian and early-1900s homes before a stain appears. We repair the source, extract the water and dry the framing to readings taken over several days.",
     relevance: [
       "Wyoming is a historic suburb north of the city, known for large century-old houses on tree-shaded streets, many still running on original plumbing. In a house that size, a corroded line behind a wall can run for hours into finished spaces, and the older the material the more water the plaster and wood hold before it shows.",
       "We work the sequence that protects those interiors: stop and repair the source, extract the water, then run air movers and dehumidifiers until the framing reads dry, taking readings over several days because a wall that feels dry on the surface can still be wet inside. Everything is photographed and documented so a claim on an older home is not held up over a missing record.",
@@ -33,7 +33,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   mariemont: {
     intro:
-      "A leak in one of Mariemont's 1920s Tudor homes near the village square soaks nearly a century of plaster and framing before it surfaces. We extract, dry, and repair the plumbing behind it. Call (513) 586-5107.",
+      "In Mariemont’s 1920s Tudor homes, water damage restoration means drying lath, plaster and hardwood that hold moisture long after the surface looks dry. Original galvanized lines and aging drains fail with little warning. We repair the line first and dry to measured readings before any finish work.",
     relevance: [
       "Mariemont is a planned garden community laid out in the 1920s and now a National Historic Landmark, full of Tudor Revival homes with original galvanized lines and aging drains. Plumbing that old fails with little warning, and in these tightly finished houses the water reaches lath, plaster, and hardwood that hold moisture long after the surface looks dry.",
       "We repair the failed line first, then dry to measured readings so the structure is genuinely dry before any finish work, which is what stops the musty smell that shows up months later in older homes. We take care to make repairs that respect the village's historic character and document the readings for your insurer.",
@@ -49,7 +49,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   cheviot: {
     intro:
-      "In Cheviot's dense early-1900s homes along Harrison Avenue, a burst line or drain backup in one brick two-family can push water toward the next. We extract it and repair the cause. Call (513) 586-5107.",
+      "Cheviot water damage restoration starts by sorting the water type, since a drain backup in an early-1900s brick two-family along Harrison Avenue is grey or contaminated. We extract, remove porous material that cannot be safely dried and repair the cause before it soaks into the shared wall.",
     relevance: [
       "Cheviot is a small, densely built west-side city completely surrounded by Cincinnati, with a grid of early-1900s homes and brick two-families on aging galvanized and cast-iron plumbing. When water comes up from a backed-up drain rather than down from a supply line, it is grey or contaminated and has to be handled differently than a clean-water break.",
       "We sort the water type first, then extract, dry to readings, and repair, removing porous material where a backup means it cannot be safely dried. Because the housing is packed so tightly, we work fast to keep one unit's problem from soaking into the wall it shares with the next.",
@@ -65,7 +65,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   covedale: {
     intro:
-      "In Covedale, a clay sewer lateral choked by roots can back water up through a basement drain along Glenway or Cleves Warsaw. We extract the contaminated water and repair the line. Call (513) 586-5107.",
+      "Root-choked clay sewer laterals cause much of the water damage restoration we do in Covedale, backing contaminated water up through basement drains along Glenway and Cleves Warsaw. We extract it, remove porous material that cannot be safely dried, repair the lateral and dry to measured readings.",
     relevance: [
       "Covedale is a settled west-side community on the edge of the city near Green Township, with early-1900s through mid-century homes on clay and cast-iron sewer laterals prone to root intrusion. A root-blocked lateral backs up as contaminated water, which soaks into basement flooring and requires different handling than a clean-water leak.",
       "We identify the water as contaminated, extract it, remove porous material that cannot be safely dried, and repair the sewer lateral that failed, all as one crew. The structure is then dried to measured readings and the whole job documented so your claim has the record an adjuster asks for.",
@@ -81,7 +81,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   covington: {
     intro:
-      "In Covington's historic MainStrasse and Licking Riverside homes, high water on the Ohio and Licking can drive a sewer backup into a 19th-century basement. We extract it and repair the cause. Call (513) 586-5107.",
+      "High water on the Ohio and Licking can drive a contaminated sewer backup into a 19th-century basement, and that shapes Covington water damage restoration in MainStrasse and Licking Riverside. Backup water cannot be dried in place. We remove porous material, dry to measured readings and repair the plumbing.",
     relevance: [
       "Covington sits directly across the Ohio River from downtown Cincinnati, with historic districts of 19th-century rowhouses on low ground between the Ohio and Licking Rivers. That setting makes basement and sewer backups a real risk in high water, and backup water is contaminated, so it cannot simply be dried in place the way a clean supply-line break can.",
       "We treat it as contaminated, extract it, remove porous material that has to go, then dry the structure to measured readings and repair the original cast-iron or galvanized plumbing behind it. One crew handles the water and the pipe, and we document the work for your claim.",
@@ -97,7 +97,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   newport: {
     intro:
-      "In Newport's East Row, a failed line in a Victorian house soaks original plaster before it shows, and high water off the Levee can back a drain up. We dry it and repair the cause. Call (513) 586-5107.",
+      "Newport water damage restoration in the East Row Historic District can mean clean water from a failed line in a Victorian house or contaminated water from a backup when the river is high. We sort which it is, dry to measured readings and repair with care for original detail.",
     relevance: [
       "Newport is a Northern Kentucky river city home to the East Row Historic District, one of the largest Victorian districts in the state, on low ground near the riverfront. The hundreds of 19th-century homes here run on plumbing well past its service life, and the low ground raises the backup risk when the river is high, so a job may be clean water from a broken line or contaminated water from a backup.",
       "We sort which it is, extract, dry to measured readings, and repair with care for the East Row's original detail. Because we are plumbers, the failed riser or lateral is fixed on the same visit, and every reading and photo is written up for your insurer.",
@@ -113,7 +113,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   bellevue: {
     intro:
-      "In Bellevue's late-1800s homes off Fairfield Avenue, original cast-iron plumbing fails and river high water can back a basement up. We extract, dry, and repair the line. Call (513) 586-5107.",
+      "Bellevue water damage restoration in late-1800s homes off Fairfield Avenue deals with original cast-iron plumbing that splits without warning and river high water that backs basements up. We identify the water type, pull porous material where needed, dry to measured readings and repair the line.",
     relevance: [
       "Bellevue is a compact Northern Kentucky river city with tight streets of well-preserved late-1800s homes near the river. Century-old galvanized and cast-iron plumbing splits without warning, and the riverfront location means high water can drive basement and sewer backups, which come in as contaminated rather than clean water.",
       "We identify the water type, extract it, and dry the structure to measured readings, pulling porous material where a backup means it cannot be safely saved. The failed line is repaired on the same job and the work documented, so you deal with one crew keeping the damage contained rather than two.",
@@ -129,7 +129,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "fort-thomas": {
     intro:
-      "In Fort Thomas's stately early-1900s homes above the river, a corroded supply line can run for hours into finished space before a stain appears. We dry it and repair the pipe. Call (513) 586-5107.",
+      "A corroded supply line running for hours into finished space is the usual Fort Thomas water damage restoration job, in stately early-1900s homes above the river. Plaster and hardwood hold a lot of water. We repair the source and dry framing to readings taken over several days.",
     relevance: [
       "Fort Thomas is a historic Northern Kentucky city built around a former U.S. Army post, with large early-1900s homes on tree-lined streets above the river. In houses that size, a hidden clean-water leak from an original line soaks plaster and hardwood well before anyone notices, and the more water the material holds, the longer real drying takes.",
       "We stop and repair the source first, extract the water, then dry the framing and subfloor to measured readings taken over several days rather than pulling equipment on a fixed schedule. Because we are plumbers, the aging line is fixed as part of the same visit and the readings documented for your insurer.",
@@ -145,7 +145,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   florence: {
     intro:
-      "In Florence, even the newer subdivisions around the Florence Mall are old enough for water heaters and supply lines to fail and flood a finished basement. We extract and repair. Call (513) 586-5107.",
+      "Florence water damage restoration often follows a water heater or supply line that failed in a finished basement, even in newer subdivisions around the Florence Mall area. A failure can put dozens of gallons into carpet and drywall in minutes. We repair it, extract and dry to measured readings.",
     relevance: [
       "Florence is the largest city in Boone County and one of the fastest-growing in Northern Kentucky, with mid-century neighborhoods and newer subdivisions around the Florence Mall area. A tank water heater or a supply line reaches the end of its life on a predictable schedule, and in a finished newer basement a failure can dump dozens of gallons into carpet and drywall in minutes.",
       "We shut off and repair the failed heater or line, extract the water, and dry the structure to measured readings so nothing porous stays wet, which is what stops mold that can begin within 24 to 48 hours. It is one crew for the water and the plumbing, documented for your claim.",
@@ -161,7 +161,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   erlanger: {
     intro:
-      "In Erlanger's mid-century homes near the airport, an original supply line corrodes or a sewer lateral backs up and the basement takes the water. We extract, dry, and repair. Call (513) 586-5107.",
+      "Erlanger water damage restoration in mid-century homes near the airport usually traces to a corroded supply line or a backed-up sewer lateral. Clean and contaminated water are handled very differently, so we sort that first, then extract, dry to measured readings and repair the line or lateral.",
     relevance: [
       "Erlanger is an established Kenton County city near the airport, with settled mid-century neighborhoods on plumbing now at the age where supply lines corrode and sewer laterals back up. A clean-water line break and a contaminated sewer backup are handled very differently, and knowing which you have is the first step in doing the cleanup right.",
       "We sort the water type, extract it, and dry the structure to measured readings, removing porous material where a backup means it cannot be saved. The corroded line or blocked lateral is repaired on the same visit, and everything is written up for your insurer.",
@@ -177,7 +177,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   mason: {
     intro:
-      "In Mason's subdivisions near Kings Island, a failed sump pump or a burst supply line floods a finished basement fast. We extract the water and repair the plumbing behind it. Call (513) 586-5107.",
+      "Mason water damage restoration often follows a failed sump pump during a storm, which can put several inches of water across a finished lower level in a 1990s-onward subdivision near Kings Island. We repair or replace the pump or line, extract and dry to measured readings.",
     relevance: [
       "Mason is a fast-growing Warren County city north of Cincinnati, with large subdivisions built mostly from the 1990s onward alongside an older town center. Even newer homes reach the point where sump pumps wear out, water heaters go, and supply lines spring leaks, and a failed sump during a storm can put several inches of water across a finished lower level.",
       "We repair or replace the failed pump or line first, extract the water, and dry the structure to measured readings so the carpet, drywall, and subfloor are genuinely dry before any rebuild. One crew handles the cause and the cleanup, and the readings are documented for your claim.",
@@ -193,7 +193,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "west-chester": {
     intro:
-      "In West Chester's 1990s subdivisions along the I-75 corridor, a worn sump pump or a burst line can flood a finished basement overnight. We extract and repair the cause. Call (513) 586-5107.",
+      "West Chester water damage restoration mostly reaches 1990s-onward subdivision homes along I-75, where a worn sump pump, failed water heater or leaking supply line floods a finished basement overnight. We repair the cause first, extract the water and dry framing and subfloor to measured readings.",
     relevance: [
       "West Chester is a large, fast-growing Butler County community made up largely of subdivisions built from the 1990s onward. Those homes are now old enough that water heaters fail, sump pumps wear out, and supply lines spring leaks, and a finished basement takes the damage first when one lets go.",
       "We repair the failed pump, heater, or line first, extract the standing water, and dry the framing and subfloor to measured readings rather than guessing when it is done. Because we are licensed plumbers, the cause and the cleanup are one visit and one invoice, documented for your insurer.",
@@ -209,7 +209,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   pendleton: {
     intro:
-      "In Pendleton's restored 19th-century buildings beside OTR, a brittle cast-iron stack can fail on an upper floor and soak several units below. We extract and repair, fast. Call (513) 586-5107.",
+      "Pendleton water damage restoration usually starts with a brittle cast-iron stack or old riser that failed on an upper floor of a restored 19th-century building and soaked several units below. We shut off and repair it, then dry each unit to measured readings and document them separately.",
     relevance: [
       "Pendleton is a small historic arts district against the eastern edge of Over-the-Rhine, full of restored Italianate buildings and converted lofts and condos on a mix of original and retrofitted plumbing. One failed cast-iron stack or old riser can run water down through several stacked units before anyone reaches a shutoff.",
       "Fast shutoff and repair is the first thing we do, then we extract and dry each affected unit to measured readings so water trapped in a shared floor assembly does not sit and grow mold. We document the work unit by unit, which matters when more than one owner's insurer is involved.",
@@ -225,7 +225,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   queensgate: {
     intro:
-      "In Queensgate's warehouses and offices near the rail yards, a burst supply line or a backup on low ground can flood a commercial floor overnight. We extract and repair. Call (513) 586-5107.",
+      "Queensgate water damage restoration is mostly commercial: a burst line or storm backup spreading across the slab of a warehouse or office near the rail yards. We repair the source, extract with commercial pumps, sort clean from contaminated water and dry the structure to measured readings.",
     relevance: [
       "Queensgate is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings on low ground prone to flooding. A burst line or a storm backup in a large open building spreads across a slab fast and reaches stock, equipment, and wall cavities before anyone is on site.",
       "We shut off and repair the source, extract the water with commercial pumps, and dry the structure to measured readings, sorting clean water from contaminated backup water because they are handled differently. It is one crew for the plumbing and the drying, documented for a commercial claim.",
@@ -235,13 +235,13 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "Do you handle water extraction for commercial buildings in Queensgate?",
-        a: "Yes. Queensgate is mostly commercial and industrial, and we extract, dry, and repair the failed plumbing in those buildings as well as homes, 7 days a week from 8am to 8pm.",
+        a: "Yes. Queensgate is mostly commercial and industrial, and we extract, dry, and repair the failed plumbing in those buildings as well as homes, 7 days a week.",
       },
     ],
   },
   cuf: {
     intro:
-      "In CUF's subdivided student houses near UC, a burst line on old shared plumbing can hit several units at once. We extract the water and repair the pipe. Call (513) 586-5107.",
+      "Subdivided student houses near UC make CUF water damage restoration a multi-unit job, since a burst line on old shared plumbing in Clifton Heights, University Heights or Fairview can hit several units at once. We repair the line first, then dry each unit to measured readings.",
     relevance: [
       "CUF covers Clifton Heights, University Heights, and Fairview, the dense hilltop neighborhoods packed against the University of Cincinnati, full of 19th- and early-1900s homes largely converted to student rentals. Heavy use on aging galvanized lines and shared stacks means a burst pipe in a subdivided house can send water into several units before a shutoff is found.",
       "We shut off and repair the failed line first, then extract and dry each affected unit to measured readings so water trapped between floors does not sit and grow mold within 24 to 48 hours. Because we are plumbers, the cause is fixed on the same visit and the work documented for the owner's claim.",
@@ -251,13 +251,13 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "A pipe burst in a CUF rental and hit more than one unit. Can you handle it fast?",
-        a: "Yes. We work the older homes and rentals throughout Clifton Heights, University Heights, and Fairview, and we are available 7 days a week from 8am to 8pm to stop the source, extract the water, and dry each unit.",
+        a: "Yes. We work the older homes and rentals throughout Clifton Heights, University Heights, and Fairview, and we are available 7 days a week to stop the source, extract the water, and dry each unit.",
       },
     ],
   },
   "camp-washington": {
     intro:
-      "In Camp Washington, down in the Mill Creek valley near the American Sign Museum, heavy rain backs drains up into old worker housing. We extract the contaminated water and repair the cause. Call (513) 586-5107.",
+      "Heavy rain backing drains up into old worker housing in the low Mill Creek valley is the common Camp Washington water damage restoration job. Backup water is contaminated, so porous material comes out before we dry to measured readings. We repair the drain and can advise on a backwater valve.",
     relevance: [
       "Camp Washington is a historic working neighborhood in the low Mill Creek valley, a tight mix of old worker housing and factories where heavy rain raises the risk of drain and sewer backups. Backup water is contaminated, so it cannot be dried in place the way a clean supply-line leak can, and the older buildings here add sudden pipe failures on top.",
       "We sort the water type, extract it, and remove porous material that a backup has contaminated, then dry the structure to measured readings and repair the failed line or drain. On this low valley ground we can also advise on a backwater valve and sump setup to keep the next storm out.",
@@ -273,7 +273,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "south-fairmount": {
     intro:
-      "In South Fairmount, in the Lick Run valley along Queen City Avenue, valley flooding and old plumbing back drains up into older homes. We extract and repair the cause. Call (513) 586-5107.",
+      "Valley flooding in the Lick Run valley along Queen City Avenue makes sewer and drain backups the main South Fairmount water damage restoration job. That water is contaminated. We remove porous material that cannot be safely dried, dry the structure to measured readings and repair the failed line.",
     relevance: [
       "South Fairmount sits in the Lick Run valley along Queen City Avenue, an area rebuilt around the Lick Run Greenway stormwater project after a long history of valley flooding. That low-lying setting makes sewer and drain backups a recurring emergency, and backup water is contaminated and has to be handled differently than a clean-water break.",
       "We identify the water as contaminated, extract it, remove porous material that cannot be safely dried, then dry the structure to measured readings and repair the failed line. One crew handles the water and the plumbing, and we document the readings and photos for your claim.",
@@ -289,7 +289,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "east-end": {
     intro:
-      "In the East End, along Eastern Avenue below Columbia Parkway, high water on the Ohio can back a drain up into a riverfront cottage. We extract it and repair the cause. Call (513) 586-5107.",
+      "High water on the Ohio can back a drain up into an East End river cottage along Eastern Avenue, and that drives most water damage restoration here. We sort clean from contaminated water, remove ruined porous material, dry to measured readings and can recommend a backwater valve and sump.",
     relevance: [
       "The East End is a narrow riverfront neighborhood east of downtown along Eastern Avenue, with historic river cottages and newer condos squeezed between the hillside and the Ohio River. Its low position right on the river means high water and backups are a real risk, and a backup brings in contaminated water that the older cottages' aging plumbing makes worse.",
       "We sort clean water from contaminated backup water, extract it, and remove porous material a backup has ruined, then dry the structure to measured readings and repair the failed plumbing. On riverfront homes we can also recommend a backwater valve and sump setup so the next high water stays out.",
@@ -305,7 +305,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "north-fairmount": {
     intro:
-      "In North Fairmount's older hillside homes above the Mill Creek valley, heavy rain overloads basement drains and old lines split. We extract the water and repair the cause. Call (513) 586-5107.",
+      "Heavy rain overloading basement drains on the hillside above the Mill Creek valley is a typical North Fairmount water damage restoration job, along with old galvanized lines that split. We sort clean from contaminated water, dry to measured readings and repair the line or drain.",
     relevance: [
       "North Fairmount is a west-side hillside neighborhood above the Mill Creek valley, with streets of early-1900s homes on aging galvanized and cast-iron plumbing. The hillside grade sends a lot of water toward basement drains in heavy rain, and when a drain cannot keep up, water backs into the lowest finished space.",
       "We extract the water, sorting clean from contaminated because they are dried and cleaned differently, then bring the structure back to measured moisture readings and repair the failed line or drain. Because we are plumbers, the cause is fixed on the same visit and the work documented for your insurer.",
@@ -321,7 +321,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   evanston: {
     intro:
-      "In Evanston's early-1900s homes near Xavier, a corroded line or a drain backup soaks aging plaster and floors. We extract, dry, and repair the plumbing behind it. Call (513) 586-5107.",
+      "Evanston water damage restoration near Xavier tends to follow a corroded line or drain backup in an early-1900s home or rental, where heavy use turns a small failure into a soaked wall fast. We repair the line, extract and dry the framing and subfloor to measured readings.",
     relevance: [
       "Evanston is an east-side neighborhood next to Xavier University, with early-1900s homes and apartment buildings, some now student housing on heavily used, aging plumbing. Corrosion leaks and drain backups are common, and the dense rentals add wear that turns a small failure into a soaked wall cavity fast.",
       "We shut off and repair the failed line, extract the water, and dry the framing and subfloor to measured readings so nothing porous stays wet long enough for mold to start. One crew handles the water and the plumbing, and the readings are written up for the owner's claim.",
@@ -331,13 +331,13 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach Evanston after a leak?",
-        a: "Evanston is centrally located on the east side near Xavier and quick for us to reach. We are on call 7 days a week from 8am to 8pm and start drying the same visit we repair the source.",
+        a: "Evanston is centrally located on the east side near Xavier and quick for us to reach. We are on call 7 days a week and start drying the same visit we repair the source.",
       },
     ],
   },
   "south-cumminsville": {
     intro:
-      "When a storm backs a drain up in South Cumminsville, the water on the floor is not clean, and it does not wait. We extract it, dry the structure to measured readings, and repair the line behind it in this Mill Creek valley neighborhood, the same day. Call (513) 586-5107.",
+      "Storm water coming up through a floor drain is what South Cumminsville water damage restoration deals with most, on the low Mill Creek valley floor. That grey or black water cannot be dried in place, so carpet, pad and lower drywall come out before we disinfect and dry.",
     relevance: [
       "South Cumminsville sits on the low floor of the Mill Creek valley, wedged among the industrial corridors on the west side, and low ground is where water comes up through a floor drain rather than down from a pipe. When a hard rain overwhelms the sewer, it backs into the older homes here as grey or black water, not the clean water a supply-line break leaves behind. That distinction decides the whole cleanup.",
       "Contaminated backup water cannot simply be dried in place. We identify what came in, extract it, and remove the porous materials it soaked — carpet, pad, the lower edges of drywall, saturated insulation — before we disinfect the surfaces underneath and dry the framing and subfloor to measured readings. Because we are plumbers, the drain or lateral that failed is cleared and repaired on the same visit, and the readings and photos are documented for your claim.",
@@ -353,7 +353,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "english-woods": {
     intro:
-      "In English Woods, on the hilltop above the Mill Creek valley, heavy rain overloads basement drains and old lines fail. We extract the water and repair the cause. Call (513) 586-5107.",
+      "English Woods water damage restoration on the hilltop above the Mill Creek valley usually traces to heavy rain overloading basement drains or an aging line failing in an older home. We sort clean from contaminated water and dry to readings taken over several days, then repair the cause.",
     relevance: [
       "English Woods is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area with older homes and some recent redevelopment. The hillside setting puts extra demand on drains during heavy rain, and the older housing runs on aging plumbing prone to sudden leaks.",
       "We extract the water, sort clean from contaminated because each is handled differently, and dry the structure to measured readings taken over several days rather than a guess. The failed line or overloaded drain is repaired on the same visit and the work documented for your insurer.",
@@ -369,7 +369,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "north-avondale": {
     intro:
-      "In North Avondale's grand early-1900s homes near Rockdale Avenue, a hidden supply line can run for hours into finished space before a stain shows. We dry it and repair the pipe. Call (513) 586-5107.",
+      "A hidden supply line running for hours into finished space is the classic North Avondale water damage restoration job, in grand early-1900s homes near Rockdale Avenue. Plaster, hardwood and framing soak before a stain shows. We repair the source and dry to readings taken over several days.",
     relevance: [
       "North Avondale is a historic, leafy neighborhood known for grand early-1900s homes on large, tree-shaded lots near Rockdale Avenue, many still on original plumbing. In houses that size a hidden clean-water leak soaks plaster, hardwood, and framing well before anyone notices, and the more it holds the longer real drying takes.",
       "We stop and repair the source first, extract the water, then dry to measured readings taken over several days, because a wall that feels dry on the surface can still be wet inside. Everything is photographed and documented so a claim on a larger home is not held up over a missing record.",
@@ -385,7 +385,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   millvale: {
     intro:
-      "A pipe that lets go in a Millvale home floods the lowest level fast, and the clock on what can be saved starts the moment it does. We extract the water, dry the structure, and repair the line behind it, the same day you call. Call (513) 586-5107.",
+      "Millvale water damage restoration is a race, since a corroded supply line in an older valley home puts clean water across a floor in minutes and mold can start within roughly 24 to 48 hours. We repair the line first, extract and dry the framing to metered readings.",
     relevance: [
       "Compact and almost entirely residential, Millvale sits low on the floor of the Mill Creek valley on the west side. Its older homes run on aging galvanized and cast-iron plumbing, and pipe that age tends to fail all at once — a corroded supply line splits and puts clean water across a floor in minutes rather than seeping slowly. The low ground adds a second route in during heavy rain, when a backed-up drain can bring contaminated water up from below.",
       "We repair the failed line first, because drying a room that is still filling is wasted work, then extract the standing water and dry the framing and subfloor to metered readings taken over several days. Speed is the whole job here: damp drywall and framing can start growing mold within roughly 24 to 48 hours, so the difference between drying material and replacing it is usually decided in the first day. As plumbers we fix the pipe and dry the structure on one visit and document all of it for your insurer.",
@@ -401,7 +401,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "paddock-hills": {
     intro:
-      "In Paddock Hills's early- and mid-1900s homes near Paddock Road, a corroded supply line or failed water heater floods a lower level. We extract and repair. Call (513) 586-5107.",
+      "Corroding galvanized lines and aging water heaters cause most Paddock Hills water damage restoration in the early- and mid-1900s homes near Paddock Road. Either can dump clean water into finished space in minutes. We repair the heater or line, extract and dry to measured readings.",
     relevance: [
       "Paddock Hills is a small, well-kept north-side residential pocket near Paddock Road and the Norwood Lateral, with early- and mid-1900s homes. Plumbing that age commonly has corroding galvanized supply lines and aging water heaters that fail without much warning, dumping clean water into a finished space in minutes.",
       "We shut off and repair the failed heater or line, extract the water, and dry the framing and subfloor to measured readings so nothing porous stays wet long enough for mold to take hold. Because we are plumbers, the cause and the cleanup are one visit, documented for your insurer.",
@@ -417,7 +417,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "spring-grove-village": {
     intro:
-      "A failed water heater in a Spring Grove Village home can empty a full tank into a finished room overnight. We extract the water, dry the structure to measured readings, and repair or replace the unit behind it, the same day. Call (513) 586-5107.",
+      "Spring Grove Village water damage restoration most often follows a water heater or appliance line that emptied into a utility room overnight. The low valley ground near the cemetery adds backup risk in heavy rain. We repair the source, dry to metered readings and log everything for the claim.",
     relevance: [
       "The homes of Spring Grove Village sit low in the Mill Creek valley around the grounds of the historic Spring Grove Cemetery and Arboretum, one of the largest cemeteries in the country, among a mix of older housing and industry. In houses this age the water damage we answer most starts with a tank water heater or a worn appliance line that gives out — dozens of gallons of clean water into a utility room or kitchen while no one is awake to catch it. The valley ground adds a backup risk on top of that when the drains cannot keep up in heavy rain.",
       "We shut off and repair or replace the failed heater or line first, extract the standing water, then dry the framing and subfloor to metered readings rather than a guess. The part owners overlook is the paperwork: a claim moves faster when the source is photographed and the moisture readings are logged, so we document the cause, the water type, and the drying from the first visit to the last. One crew handles the plumbing and the drying, and you keep the record your adjuster asks for.",
@@ -433,7 +433,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   linwood: {
     intro:
-      "When the river runs high near Lunken, a Linwood basement can take water back up through the drains before the rain even stops. We extract it, dry the structure, and repair the plumbing behind it, the same day. Call (513) 586-5107.",
+      "River backups through basement drains near Lunken drive much of the water damage restoration in Linwood, one of the lowest east-side neighborhoods. Backup water means porous material comes out and surfaces are disinfected. We dry to metered readings and can fit a backwater valve and sump.",
     relevance: [
       "Down in the river bottoms along Eastern Avenue near Lunken Airport, Linwood is one of Cincinnati's smaller east-side neighborhoods and one of its lowest. That low position shapes the water-damage jobs here: when the river runs high, saturated ground and high water push backups up through basement drains, and that water is contaminated rather than clean. The older homes along these streets add aging plumbing that springs its own leaks on the drier days.",
       "Which kind of water it is decides how we work. A backup means the saturated porous material comes out and the surfaces are disinfected before we dry; a clean supply-line break leans toward saving material. Either way we extract fast and dry the framing and subfloor to metered readings, and because we are plumbers we repair the failed line or fit a backwater valve and sump setup so the next high water is less likely to end up inside. It is one crew for the water and the plumbing.",
@@ -449,7 +449,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "bond-hill": {
     intro:
-      "In Bond Hill's early-1900s and mid-century homes along Reading Road, a corroded supply line or aging water heater floods a finished space. We extract and repair. Call (513) 586-5107.",
+      "Bond Hill water damage restoration along Reading Road usually starts with a corroded supply line, aging water heater or clogged drain in an early-1900s or mid-century home. Clean and contaminated water are handled differently, so we sort that first, then repair the source and dry to measured readings.",
     relevance: [
       "Bond Hill is a north-side neighborhood along Reading Road, with established streets of early-1900s and mid-century single-family homes on decades-old plumbing. Corroded supply lines, aging water heaters, and clogged drains turn into water damage without warning, and a clean-water break and a contaminated backup are handled very differently.",
       "We sort the water type, shut off and repair the source, extract the water, and dry the framing and subfloor to measured readings so nothing porous stays wet. One crew handles the plumbing and the drying, documented for your insurer.",

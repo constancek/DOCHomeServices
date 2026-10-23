@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
@@ -50,20 +50,7 @@ const designSpaces = [
   'Hallways and entryways that need improved visibility',
 ];
 
-const whyChoose = [
-  'Licensed electricians with installation experience',
-  'Professional light fixture installation services',
-  'Safe and code-compliant electrical work',
-  'High-quality lighting fixture options',
-  'Reliable scheduling and clear pricing',
-];
 
-const whyUs = [
-  { icon: 'shield' as const, title: 'Licensed Electricians', text: 'Experienced pros who wire and mount every fixture safely.' },
-  { icon: 'check' as const, title: 'Code-Compliant Work', text: 'Secure mounting and connections that meet electrical code.' },
-  { icon: 'badge' as const, title: 'Quality Fixtures', text: 'High-quality, energy-efficient fixture and LED options.' },
-  { icon: 'house' as const, title: 'Financing Available', text: 'Flexible financing to upgrade lighting across multiple rooms.' },
-];
 
 const faqs = [
   { q: 'What types of lighting fixtures do you install?', a: 'We install many types of fixtures including bathroom light fixtures, kitchen light fixtures, dining room light fixtures, ceiling lights, and wall-mounted lighting.' },
@@ -118,32 +105,16 @@ export default function LightingFixtureInstallationPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Installing or replacing a light fixture?
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar couponTitle="Any Electrical Service">
+        <MainWithSidebar mascot couponTitle="Any Electrical Service">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/fixture-hero.webp)' }}
             role="img"
             aria-label="Pendant light fixtures over a kitchen island"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Professional Light Fixture Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -183,7 +154,7 @@ export default function LightingFixtureInstallationPage() {
             aria-label="Dining room with a decorative light fixture"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Types of Light Fixtures We Install
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -194,7 +165,7 @@ export default function LightingFixtureInstallationPage() {
             </p>
             <ul className="mt-4 grid gap-1.5">
               {types.map((t) => (
-                <li key={t} className="flex gap-2 text-sm font-medium">
+                <li key={t} className="flex gap-2 text-base font-medium">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   {t}
                 </li>
@@ -216,7 +187,7 @@ export default function LightingFixtureInstallationPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Our Light Fixture Installation Process
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -226,7 +197,7 @@ export default function LightingFixtureInstallationPage() {
             </p>
             <ul className="mt-4 grid gap-1.5">
               {process.map((p) => (
-                <li key={p} className="flex gap-2 text-sm font-medium">
+                <li key={p} className="flex gap-2 text-base font-medium">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   {p}
                 </li>
@@ -243,6 +214,24 @@ export default function LightingFixtureInstallationPage() {
             role="img"
             aria-label="Electrician planning a light fixture installation"
           />
+        </div>
+      </section>
+
+      <ServiceReviews service="lighting-fixture-installation" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Installing or replacing a light fixture?
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -266,7 +255,7 @@ export default function LightingFixtureInstallationPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {ledBenefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {b}
               </li>
@@ -300,7 +289,7 @@ export default function LightingFixtureInstallationPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {designSpaces.map((d) => (
-              <li key={d} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={d} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {d}
               </li>
@@ -313,35 +302,18 @@ export default function LightingFixtureInstallationPage() {
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Light Fixture Installation</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Homeowners throughout {site.serviceArea} trust {site.name} for reliable electrical services
-            and lighting installation. When you work with our electricians, you receive:
-          </p>
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
-                <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
-                {w}
-              </li>
-            ))}
-          </ul>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <p className="mt-6 text-[17px] leading-relaxed text-ink/75">
-            Our goal is simple. We install lighting fixtures that improve both the appearance and function
-            of your home.
+            Swapping a light for a similar one on an existing box is a fair DIY job. Call us
+            when a heavy fixture or fan needs a rated box, the ceiling has no ground wire, or
+            it’s a brand-new location.
           </p>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Light Fixture Installation FAQs</h2>
           <div className="mt-4">
@@ -356,7 +328,7 @@ export default function LightingFixtureInstallationPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Light Fixture Installation Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule Light Fixture Installation Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to install or replace a fixture? {site.name} installs light fixtures across{' '}
               {site.serviceArea}. Call now or request an estimate.
@@ -374,20 +346,20 @@ export default function LightingFixtureInstallationPage() {
         </div>
       </section>
 
-      {/* Light fixture installation by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Light fixture installation by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We install and replace light fixtures across {site.serviceArea} —{' '}
-            {locations.filter((l) => lightingFixtureCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on the homes in your area.
-          </p>
-          <NeighborhoodLinks copy={lightingFixtureCopy} basePath="/services/lighting-fixture-installation" linkPrefix="Light fixture installation" />
-        </div>
-      </section>
-
-      <PageSections service="lighting-fixture-installation" />
+      <ServiceSections service="lighting-fixture-installation">
+        {/* Light fixture installation by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Light fixture installation by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We install and replace light fixtures across {site.serviceArea} —{' '}
+              {locations.filter((l) => lightingFixtureCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on the homes in your area.
+            </p>
+            <NeighborhoodLinks copy={lightingFixtureCopy} basePath="/services/lighting-fixture-installation" linkPrefix="Light fixture installation" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

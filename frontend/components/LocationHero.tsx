@@ -1,24 +1,18 @@
 import Link from 'next/link';
-import { Fragment } from 'react';
 import Icon from './Icon';
-import SlideInRight from './SlideInRight';
-import { site } from '@/content/site';
 
 type Crumb = { label: string; href?: string };
 
-// Location-page hero in two screens. Screen one: the service photo, one full
-// screen tall, slowly zooming, with only the breadcrumb and
-// the H1 on it. Screen two: the intro paragraph in large type on white, with
-// the bulldog sliding in beside it once the visitor scrolls down.
+// Location-page hero: the service photo, one full screen tall, slowly zooming,
+// with only the breadcrumb and the H1 on it. The intro paragraph and bulldog
+// open the main content section below (LocationServicePage).
 export default function LocationHero({
   title,
-  intro,
   crumbs,
   image,
   imageAlt,
 }: {
   title: string;
-  intro: string;
   crumbs: Crumb[];
   image: string;
   imageAlt: string;
@@ -63,31 +57,6 @@ export default function LocationHero({
         </div>
       </section>
 
-      <section className="flex min-h-[60svh] items-center overflow-hidden bg-white lg:min-h-[calc(100svh-168px)]">
-        <div className="container-page grid items-center gap-10 py-16 lg:grid-cols-[1fr_auto] lg:gap-16">
-          <p className="text-center font-display text-2xl font-bold leading-snug text-brand-900 sm:text-3xl lg:text-left xl:text-4xl xl:leading-tight">
-            {/* Keep the phone number on one line. */}
-            {intro.split(site.primaryPhone.number).map((part, i, all) => (
-              <Fragment key={i}>
-                {part}
-                {i < all.length - 1 && <span className="whitespace-nowrap">{site.primaryPhone.number}</span>}
-              </Fragment>
-            ))}
-          </p>
-          <SlideInRight className="mx-auto">
-            <img
-              src="/bulldog.webp"
-              alt=""
-              aria-hidden="true"
-              width={768}
-              height={768}
-              loading="lazy"
-              decoding="async"
-              className="pointer-events-none h-auto w-48 sm:w-60 lg:w-72 xl:w-80"
-            />
-          </SlideInRight>
-        </div>
-      </section>
     </>
   );
 }

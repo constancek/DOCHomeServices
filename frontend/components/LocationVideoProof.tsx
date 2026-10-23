@@ -62,10 +62,10 @@ export default function LocationVideoProof({
             <Icon name="paw" className="h-6 w-6" />
             Happy Homeowners
           </p>
-          <h2 className="mx-auto mt-4 max-w-3xl font-logo text-4xl font-black uppercase leading-[1.05] text-brand-900 sm:text-5xl lg:text-6xl">
+          <h2 className="mx-auto mt-4 max-w-3xl font-logo text-4xl font-black leading-[1.05] text-brand-900 sm:text-5xl lg:text-6xl">
             Why {neighborhood} Homeowners Choose {site.name}
           </h2>
-          <p className="mt-8 font-logo text-3xl font-black uppercase text-pink-500 sm:text-4xl">
+          <p className="mt-8 font-logo text-3xl font-black text-pink-500 sm:text-4xl">
             Five Paws Across the{' '}Board.
           </p>
           <p className="mt-8 text-base font-extrabold uppercase tracking-wide text-brand-700 sm:text-lg">

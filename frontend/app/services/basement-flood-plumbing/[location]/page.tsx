@@ -67,12 +67,7 @@ const config: ServiceLocationConfig = {
     { title: 'Same-Day Response Across {neighborhood}', body: 'A basement filling now cannot wait for a slot next week, and we reach most {neighborhood} homes the same day. If what you describe on the phone is exterior drainage rather than plumbing, we will say so then rather than send a truck to sell you a pump.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'clock', title: 'Same-Day Response', text: 'A basement filling now cannot wait for a slot next week. We reach most homes the same day.' },
-    { icon: 'check', title: 'We Find the Source', text: 'Diagnosis first. Fixing the wrong thing is the most expensive outcome in a flooded basement.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked plumbers, permits where the code calls for them.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start, with no overtime or weekend fees.' },
-  ],
+  whyParagraph: 'We find the source before we fix anything, because repairing the wrong thing is the most expensive outcome in a flooded basement. Most {neighborhood} homes get a licensed plumber the same day, with no overtime or weekend fees.',
   proofQuote:
     'The basement had a few inches in it and two other companies wanted to sell us a bigger pump. These guys put a camera down the discharge, found it blocked solid, cleared it and rerouted the end of the line. It has stayed dry through every storm since.',
   sharedFaqs: [

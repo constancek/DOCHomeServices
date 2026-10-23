@@ -1,7 +1,7 @@
 export const part2: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'madeira': {
     intro:
-      'Tired of a single dim bulb in your Madeira, OH garage? We are a licensed electrical contractor installing bright, even LED garage lighting and code-compliant dedicated circuits across this east-side city. Call (513) 586-5107.',
+      'Madeira’s mid-century homes usually came with one garage bulb meant only to find the car door, so garage lighting here means rows of shop-style LED fixtures. These garages often share a circuit with the door opener, so we add a dedicated 20-amp circuit and a side-door motion light.',
     relevance: [
       'Madeira (ZIP 45243) is an established east-side city built largely of mid-century single-family homes on quiet, tree-lined streets, and those homes typically came with one ceiling bulb meant only to find the car door. We replace that with rows of shop-style LED fixtures that light a whole bay evenly, so a workbench or storage shelf along the wall no longer sits in shadow.',
       'Garages from the mid-1900s usually run on the same overworked circuit as the door opener and a couple of outlets, which flickers the moment a saw or compressor starts. We add a dedicated 20-amp circuit for shop use, mount LED panels overhead, and put motion-activated lighting at the side door so stepping into a dark Madeira garage at night is no longer a hazard.',
@@ -17,7 +17,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'wyoming': {
     intro:
-      'Lighting a carriage-house or detached garage in Wyoming, OH takes a careful hand. As a licensed electrical contractor, we install bright, even LED garage lighting and code-compliant circuits on the city’s historic streets. Call (513) 586-5107.',
+      'Garage lighting in Wyoming often means a detached or carriage-house garage behind a Victorian or early-1900s home, rarely wired for more than a bulb or two. We run a fresh feed to code, mount LED fixtures across the whole space and put motion lights over the drive.',
     relevance: [
       'Wyoming (ZIP 45215) is a historic, affluent suburb north of the city, known for its grand Victorian and early-1900s homes on tree-shaded streets, and many of those properties have older detached or carriage-house garages set back off the drive. Those structures were rarely wired for more than a bulb or two, so we run fresh, code-compliant feeds and mount LED fixtures that finally light the full space evenly.',
       'Because these garages are often a century old and separated from the house, the buried or overhead feed and the interior wiring frequently predate any modern shop load. We update the circuit to code, add bright overhead LED lighting for parking and storage, and set weather-rated, motion-activated fixtures over the drive and side entry so the path between a detached Wyoming garage and the house is lit through four-season weather.',
@@ -33,7 +33,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mariemont': {
     intro:
-      'Garage lighting in Mariemont, OH means working respectfully around a National Historic Landmark. We are a licensed electrical contractor installing bright, even LED lighting and code-compliant circuits in this planned village. Call (513) 586-5107.',
+      'Mariemont’s 1920s Tudor Revival homes have compact garages, often detached at the rear of the lot, with wiring nearly a century old. Garage lighting here means LED panels across the whole footprint, a dedicated outlet circuit for shop tools and weather-rated entry fixtures that suit the village’s historic character.',
     relevance: [
       'Mariemont (ZIP 45227) is a planned garden community laid out in the 1920s and now a National Historic Landmark, known for its Tudor Revival architecture and tucked-away garages, many of them detached or set at the rear of the lot. Those compact, older garages were never wired for shop use, so a lone bulb leaves the corners dark; we install LED panels that light the whole footprint evenly for parking and storage.',
       'Because so much of Mariemont dates to the 1920s and 30s, the wiring serving these garages is nearly a century old and rarely sized for a modern workbench or freezer. We update the circuit to code, add a dedicated outlet circuit for shop tools, and set weather-rated, motion-activated fixtures at the entry so the lighting holds up through wet, freezing Midwest winters without disturbing the village’s historic character.',
@@ -49,7 +49,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cheviot': {
     intro:
-      'Brighter garage lighting in Cheviot, OH? We are a licensed electrical contractor installing even LED fixtures and code-compliant circuits for the city’s older garages along Harrison Avenue. Call (513) 586-5107.',
+      'Cheviot garages are often small and detached, down a narrow drive or alley behind an early-1900s home or brick two-family on Harrison Avenue. Garage lighting work means compact LED shop fixtures, a dedicated 20-amp circuit for heaters or tools and a motion light at the side door.',
     relevance: [
       'Cheviot (ZIP 45211) is a small, densely built city on the west side, completely surrounded by Cincinnati, with a grid of early-1900s homes and brick two-families along Harrison Avenue. On those tight lots, garages are often small, detached, and reached down a narrow drive or alley, with a single bulb that leaves no room to work; we install compact LED shop fixtures that light the whole bay evenly for parking and storage.',
       'Those early-1900s garages were wired long before anyone ran a shop or a gym out of them, so the original circuit struggles the moment a heater or power tool kicks on. We add a dedicated 20-amp circuit, mount bright overhead LED lighting, and put a motion-activated, weather-rated fixture at the side door so coming back to a dark Cheviot garage at night is safer.',
@@ -65,7 +65,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covedale': {
     intro:
-      'Planning brighter garage lighting in Covedale, OH? We are a licensed electrical contractor installing even LED fixtures and code-compliant dedicated circuits along Glenway and Cleves Warsaw. Call (513) 586-5107.',
+      'Covedale homes from the early 1900s through mid-century often have attached garages that hold a workbench as much as a car, with one fixture leaving the back wall dark. We install rows of LED shop lights, add a dedicated circuit apart from the opener and light the drive.',
     relevance: [
       'Covedale (ZIP 45238) is a settled west-side community on the edge of the city near Green Township, with neighborhoods of early-1900s through mid-century single-family homes. Many of those homes have attached garages used as much for a workbench or storage as for the car, where one fixture leaves the back wall dark; we install rows of LED shop lights that spread even light across the full space.',
       'Garages of this age commonly share a single circuit with the door opener and a few outlets, which dims when a tool or freezer draws power. We add a dedicated circuit for shop use, mount bright LED panels overhead, and set motion-activated, weather-rated lighting at the entry and over the drive so a Covedale garage is lit safely year-round.',
@@ -81,7 +81,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covington': {
     intro:
-      'Brightening a garage in Covington, KY? We are a licensed electrical contractor installing even LED lighting and code-compliant circuits for the city’s historic riverfront garages and alley structures. Call (513) 586-5107.',
+      'In Covington, garage lighting usually means an old detached structure off a rear alley behind a 19th-century rowhouse, wired long ago for one bulb. We fit LED shop fixtures for parking or a workbench, bring the feed up to code and add weather-rated motion lights at the alley entry.',
     relevance: [
       'Covington (ZIP 41011) sits directly across the Ohio River from downtown Cincinnati, with historic districts like MainStrasse Village and Licking Riverside full of 19th-century rowhouses and brick homes. Garages here are frequently old detached structures off a rear alley, wired generations ago for a single bulb; we install LED shop fixtures that light the whole bay evenly for parking, storage, or a workbench.',
       'Because these riverfront garages are over a century old, the feed running to them rarely supports a modern shop load, and the low ground near the rivers makes weather-rated exterior fixtures worthwhile. We update the circuit to code, add bright overhead LED lighting, and set motion-activated, weather-rated lights at the alley entry so a Covington garage is safe to reach after dark.',
@@ -97,7 +97,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newport': {
     intro:
-      'Garage lighting in Newport, KY, from the East Row to the riverfront? We are a licensed electrical contractor installing bright, even LED fixtures and code-compliant circuits. Call (513) 586-5107.',
+      'Newport garage lighting work often happens in the East Row Historic District, where detached and carriage garages off the alley were wired for little more than a bulb. We update the circuit to code, fit LED panels and a dedicated outlet circuit and add weather-rated entry lights.',
     relevance: [
       'Newport (ZIP 41071) is a Northern Kentucky river city across from downtown Cincinnati, home to the East Row Historic District — one of the largest Victorian historic districts in the state. The hundreds of 19th-century homes there often have small detached or carriage garages off the alley, wired generations ago for little more than a bulb; we install even LED shop fixtures that light the full space for parking and storage.',
       'Those Victorian-era garages run on wiring well past its service life and rarely sized for a workbench or a gym setup. We update the circuit to code, add a dedicated outlet circuit and bright overhead LED panels, and set weather-rated, motion-activated lighting at the entry, repaired with care for the historic detail the East Row is known for.',
@@ -113,7 +113,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bellevue': {
     intro:
-      'Brighter garage lighting in Bellevue, KY? We are a licensed electrical contractor installing even LED fixtures and code-compliant circuits for the city’s tight-lot garages near Fairfield Avenue. Call (513) 586-5107.',
+      'Bellevue’s late-1800s homes near Fairfield Avenue sit on narrow lots, so garages tend to be small, detached and down an alley with one bulb. Garage lighting here means compact LED shop fixtures, a dedicated circuit for tools or a freezer and a weather-rated motion light at the alley.',
     relevance: [
       'Bellevue (ZIP 41073) is a compact Northern Kentucky river city with a historic Fairfield Avenue business district and tight streets of well-preserved late-1800s homes. On those narrow lots, garages tend to be small and detached, set down an alley with a single bulb that leaves no room to see a workbench; we fit compact LED shop fixtures that light the whole bay evenly.',
       'These late-1800s garages carry original wiring rarely sized for shop tools or a freezer, and the riverfront setting makes weather-rated exterior fixtures sensible. We add a dedicated code-compliant circuit, mount bright LED lighting overhead, and set a motion-activated, weather-rated light at the alley entry so a Bellevue garage is safe to reach at night.',
@@ -129,7 +129,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-thomas': {
     intro:
-      'Lighting a garage in Fort Thomas, KY? We are a licensed electrical contractor installing bright, even LED fixtures and code-compliant circuits for the city’s stately homes above the river. Call (513) 586-5107.',
+      'The stately early-1900s homes in Fort Thomas often have detached or deep attached garages used for storage and projects, lit by a lone bulb. Garage lighting here means rows of LED shop fixtures, a dedicated 20-amp circuit for power tools and weather-rated motion lights over the drive and side entry.',
     relevance: [
       'Fort Thomas (ZIP 41075) is a historic Northern Kentucky city built around a former U.S. Army post, with stately early-1900s homes on tree-lined streets above the river. Many of those large homes have detached or deep attached garages used for storage and projects, where a lone bulb leaves the corners dark; we install rows of LED shop fixtures that light the entire bay evenly.',
       'Garages on these century-old properties often run on original circuits never meant for a modern workbench or power tools. We add a dedicated 20-amp circuit, mount bright overhead LED lighting, and set weather-rated, motion-activated fixtures over the drive and side entry so the path to a Fort Thomas garage is lit through four-season Midwest weather.',
@@ -145,7 +145,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'florence': {
     intro:
-      'Brighter garage lighting in Florence, KY? We are a licensed electrical contractor installing even LED fixtures and code-compliant dedicated circuits across this fast-growing Boone County city. Call (513) 586-5107.',
+      'Florence garage lighting depends on the house. Newer subdivisions have big two- and three-car garages lit by a couple of builder fixtures, while mid-century homes have smaller detached garages on one shared circuit. Either way, we add rows of LED panels, a dedicated circuit and motion lights at the entry.',
     relevance: [
       'Florence (ZIP 41042) is the largest city in Boone County and one of the fastest-growing in Northern Kentucky, with a wide mix of mid-century neighborhoods and newer subdivisions around the Florence Mall area. The newer subdivisions have big attached two- and three-car garages that builders lit with just a couple of fixtures, leaving workbenches and storage in shadow; we add rows of LED panels for even, full-bay light.',
       'In the mid-century neighborhoods, garages tend to be smaller and detached, often on a single overloaded circuit shared with the opener. Whether the home is newer or older, we add a dedicated circuit for shop use, mount bright LED lighting, and set motion-activated, weather-rated fixtures at the entry so a Florence garage is lit safely whatever the year it was built.',
@@ -161,7 +161,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'erlanger': {
     intro:
-      'Planning brighter garage lighting in Erlanger, KY? We are a licensed electrical contractor installing even LED fixtures and code-compliant circuits across this Kenton County city. Call (513) 586-5107.',
+      'Erlanger’s mid-century homes usually came with an attached garage on a single bulb, now used as a shop or for storage. Garage lighting here means rows of LED shop fixtures across the bay, a dedicated 20-amp circuit apart from the opener and a weather-rated side-door motion light.',
     relevance: [
       'Erlanger (ZIP 41018) is an established Kenton County city near the airport, with settled mid-century neighborhoods and a mix of older and newer homes. The mid-1900s homes here usually came with a single-bulb attached garage that families now use as a shop or extra storage, where the back wall stays dark; we install rows of LED shop fixtures for even light across the whole bay.',
       'Garages from that era commonly share one circuit with the opener and a couple of outlets, which dims when a saw or compressor starts. We add a dedicated 20-amp circuit, mount bright overhead LED lighting, and set a motion-activated, weather-rated fixture at the side door so a dark Erlanger garage is no longer a hazard at night.',
@@ -177,7 +177,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mason': {
     intro:
-      'Lighting a big attached garage in Mason, OH? We are a licensed electrical contractor installing bright, even LED fixtures and code-compliant dedicated circuits across this Warren County city. Call (513) 586-5107.',
+      'Mason homes built from the 1990s onward have big two- and three-car attached garages where the builder hung only a few fixtures, leaving the far bay dark. Garage lighting here means rows of LED panels, a dedicated 20-amp circuit for tools and motion lights at the service door.',
     relevance: [
       'Mason (ZIP 45040) is a fast-growing Warren County city north of Cincinnati, near Kings Island, with large subdivisions of homes built mostly from the 1990s onward. Those newer homes have big two- and three-car attached garages, and builders typically hung just a few fixtures, leaving the workbench, storage racks, and far bay in shadow; we add rows of LED panels for even, full-bay light.',
       'Even in newer Mason garages, the existing lighting often shares a circuit with the openers and outlets, so it dims under a shop load. We add a dedicated 20-amp circuit for tools, mount bright overhead LED lighting, and set motion-activated, weather-rated fixtures at the service door and over the drive so the space works for parking, a gym, or a workshop.',
@@ -193,7 +193,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-chester': {
     intro:
-      'Brighter garage lighting in West Chester, OH? We are a licensed electrical contractor installing even LED fixtures and code-compliant dedicated circuits across this Butler County township. Call (513) 586-5107.',
+      'Garage lighting in West Chester usually means a large attached garage in a 1990s-or-newer subdivision, lit by a couple of builder fixtures on a circuit shared with the openers. We add rows of LED panels for even light, a dedicated 20-amp circuit for shop use and weather-rated motion lights.',
     relevance: [
       'West Chester (ZIP 45069) is a large, fast-growing Butler County community between Cincinnati and Dayton, made up largely of subdivisions built from the 1990s onward along the I-75 corridor. Those homes have big attached garages that builders lit with a couple of fixtures, which leaves storage racks and a workbench in shadow; we add rows of LED panels so the full bay is evenly lit.',
       'These newer garages usually run their lighting off a shared circuit with the openers and outlets, so it dims the moment a tool or freezer draws power. We add a dedicated 20-amp circuit for shop use, mount bright overhead LED lighting, and set motion-activated, weather-rated fixtures at the service door and over the drive so a West Chester garage works for parking, projects, or a home gym.',
@@ -209,7 +209,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pendleton': {
     intro:
-      'Garage and parking lighting in Pendleton near OTR? We are a licensed electrical contractor installing bright, even LED fixtures and code-compliant circuits in this historic district. Call (513) 586-5107.',
+      'In Pendleton, garage lighting usually means a shared rear lot or tight ground-floor bay behind a restored 19th-century Italianate building, lit by one fixture. Wiring in these buildings mixes original and retrofitted runs, so we update the circuit to code, fit LED panels and add motion lights at the entry.',
     relevance: [
       'Pendleton (ZIP 45202) is a small, historic arts district tucked against the eastern edge of Over-the-Rhine, full of restored 19th-century Italianate buildings and converted lofts and condos. Parking here is often a shared rear lot or a tight ground-floor garage bay, lit by a single fixture; we install even LED lighting that covers the whole space for safe parking and access.',
       'Those mid-1800s buildings run on a mix of original and retrofitted wiring, where one garage or parking circuit can be tied into the rest of the structure. We update that circuit to code, add bright LED panels, and set motion-activated, weather-rated fixtures at the entry so the tightly built historic blocks of Pendleton are lit safely after dark.',
@@ -225,7 +225,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'queensgate': {
     intro:
-      'Garage and shop-bay lighting in Queensgate? We are a licensed electrical contractor installing bright, even LED fixtures and code-compliant circuits in this commercial and industrial district. Call (513) 586-5107.',
+      'Queensgate garage lighting work is mostly in large, older shop bays in warehouses and light-industrial buildings near the rail yards, lit by a few fading fixtures. We install rows of high-output LED shop lighting, bring aging circuits up to code and fit weather-rated motion lights at the doors.',
     relevance: [
       'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Garage and shop bays here are often large, older spaces lit by a handful of fading fixtures; we install rows of high-output LED shop lighting that cover the full bay evenly for vehicle and equipment work.',
       'Many of these buildings run on aging circuits never updated for modern LED loads or added shop equipment, and the low ground near Mill Creek makes weather-rated exterior fixtures worthwhile. We bring the lighting circuit up to code, add bright overhead LED panels, and set motion-activated, weather-rated lights at the overhead and service doors so a Queensgate bay is safe and fully lit.',
@@ -241,7 +241,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cuf': {
     intro:
-      'Brighter garage lighting in the CUF area near UC? We are a licensed electrical contractor installing even LED fixtures and code-compliant circuits across Clifton Heights, University Heights, and Fairview. Call (513) 586-5107.',
+      'CUF garage lighting covers small detached garages and shared rear pads behind the older rentals of Clifton Heights, University Heights and Fairview, often on one old bulb. We bring the original wiring up to code, fit LED fixtures and add motion lights so a dark alley pad gets lit.',
     relevance: [
       'CUF (ZIP 45219) covers Clifton Heights, University Heights, and Fairview — the dense hilltop neighborhoods packed against the University of Cincinnati, full of 19th- and early-1900s homes now largely converted to student rentals. Parking and garages here are tight: small detached structures off an alley or a shared rear pad, often lit by a single old bulb. We install even LED fixtures that light the whole space for safe parking and storage.',
       'Those older garages carry original wiring that was never sized for a modern load, and on these crowded hilltop lots a dark alley or pad is a real safety concern. We bring the circuit up to code, add bright LED lighting, and set motion-activated, weather-rated fixtures at the entry so a CUF garage near campus is safe to reach at night.',
@@ -257,10 +257,10 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'camp-washington': {
     intro:
-      'Garage and shop lighting in Camp Washington? We are a licensed electrical contractor installing bright, even LED fixtures and code-compliant circuits in this Mill Creek valley neighborhood. Call (513) 586-5107.',
+      'Garage lighting in Camp Washington tends to mean an older detached garage or shop bay among the Mill Creek valley’s worker housing and factories, lit by one fixture. We install rows of LED shop lighting, a dedicated outlet circuit for tools and weather-rated entry lights for the low valley ground.',
     relevance: [
       'Camp Washington (ZIP 45225) is a historic working neighborhood in the Mill Creek valley, known for its industry, the American Sign Museum, and a tight mix of old worker housing and factories. Garages here are often older detached structures or shop bays, lit by a single fixture that leaves a workbench in shadow; we install rows of LED shop lighting that cover the whole space evenly.',
-      'The age of the buildings means wiring rarely sized for a modern shop load, and the low valley ground makes weather-rated exterior fixtures worthwhile. We bring the circuit up to code, add a dedicated outlet circuit for tools and bright overhead LED panels, and set motion-activated, weather-rated lighting at the entry so a Camp Washington garage is fully lit 7 days a week from 8am to 8pm.',
+      'The age of the buildings means wiring rarely sized for a modern shop load, and the low valley ground makes weather-rated exterior fixtures worthwhile. We bring the circuit up to code, add a dedicated outlet circuit for tools and bright overhead LED panels, and set motion-activated, weather-rated lighting at the entry so a Camp Washington garage is fully lit 7 days a week.',
     ],
     commonIntro:
       'In Camp Washington’s older homes and shop buildings down in the valley, the garage lighting we install most often is even LED fixtures, a dedicated shop circuit, and weather-rated entry lighting.',
@@ -273,7 +273,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-fairmount': {
     intro:
-      'Brighter garage lighting in South Fairmount? We are a licensed electrical contractor installing even LED fixtures and code-compliant circuits along Queen City Avenue. Call (513) 586-5107.',
+      'South Fairmount garages along Queen City Avenue are typically older detached structures off the alley, lit by a single bulb that leaves the corners dark. Garage lighting here means LED fixtures for the whole bay, wiring brought up to code and weather-rated motion lights for the low Lick Run valley.',
     relevance: [
       'South Fairmount (ZIP 45205) sits in the Lick Run valley along Queen City Avenue on the west side, an area of older housing rebuilt around the Lick Run Greenway stormwater project. Garages here are typically older detached structures off the alley, lit by a single bulb that leaves the corners dark; we install even LED fixtures so the whole bay is usable for parking and storage.',
       'The age of the housing means original wiring that was never sized for a workbench or freezer, and the low-lying valley setting makes weather-rated exterior fixtures sensible. We bring the circuit up to code, add bright overhead LED lighting, and set motion-activated, weather-rated lights at the entry so a South Fairmount garage is safe to reach at night.',
@@ -289,7 +289,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-end': {
     intro:
-      'Garage and driveway lighting in the East End? We are a licensed electrical contractor installing bright, even LED fixtures and weather-rated, code-compliant circuits along Eastern Avenue. Call (513) 586-5107.',
+      'East End garage lighting usually means a tight detached garage on a low riverside lot below Columbia Parkway, next to an older river cottage with decades-old wiring. We bring the circuit up to code, add LED lighting for the full bay and fit grounded, weather-rated motion lights along the drive.',
     relevance: [
       'The East End (ZIP 45226) is a narrow riverfront neighborhood stretching east of downtown along Eastern Avenue, below Columbia Parkway, with historic river cottages and newer condos squeezed between the hillside and the Ohio River. Garages and parking here are tight and often detached, set on low riverside lots; we install even LED fixtures that light the full bay for safe parking and storage.',
       'The older cottages carry decades-old wiring rarely sized for a shop load, and the low position right on the river makes weather-rated, properly grounded exterior fixtures important. We bring the circuit up to code, add bright LED lighting, and set motion-activated, weather-rated lights along the drive and at the entry so an East End garage is lit through damp riverfront conditions.',
@@ -305,7 +305,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-fairmount': {
     intro:
-      'Brighter garage lighting in North Fairmount? We are a licensed electrical contractor installing even LED fixtures and code-compliant circuits in this west-side hillside neighborhood. Call (513) 586-5107.',
+      'On North Fairmount’s hillside lots, garages are often detached and reached down a sloping drive or alley, lit by one bulb. Garage lighting here means LED fixtures for the bay, original wiring brought up to code and motion lights along the drive so the walk to the house is lit.',
     relevance: [
       'North Fairmount (ZIP 45225) is a west-side hillside neighborhood above the Mill Creek valley, with streets of older early-1900s homes. On the hillside lots, garages are often detached and reached down a sloping drive or alley, lit by a single bulb; we install even LED fixtures so the whole bay is usable and the drive is no longer pitch dark.',
       'The age of the housing means original wiring that struggles under any added shop load, and the steep grade makes a lit path between the garage and the house worthwhile. We bring the circuit up to code, add bright overhead LED lighting, and set motion-activated, weather-rated fixtures at the entry and along the drive so a North Fairmount garage is safe to reach at night.',
@@ -321,7 +321,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'evanston': {
     intro:
-      'Brighter garage lighting in Evanston near Xavier? We are a licensed electrical contractor installing even LED fixtures and code-compliant circuits in this east-side neighborhood. Call (513) 586-5107.',
+      'Evanston garages near Xavier are typically older detached structures off the alley, behind early-1900s homes and apartment buildings, lit by a single bulb. Garage lighting work here means LED fixtures for the whole bay, aging wiring brought up to code and weather-rated motion lights at the alley entry.',
     relevance: [
       'Evanston (ZIP 45207) is an east-side neighborhood next to Xavier University, with streets of early-1900s homes and apartment buildings, some now student housing. Garages here are typically older detached structures off the alley, lit by a single bulb that leaves a workbench or storage in shadow; we install even LED fixtures so the whole bay is usable.',
       'Those early-1900s garages carry aging wiring rarely sized for shop tools, and on a densely built block a dark alley garage is a real safety concern. We bring the circuit up to code, add bright overhead LED lighting, and set motion-activated, weather-rated fixtures at the entry so an Evanston garage near Xavier is safe to reach at night.',
@@ -337,7 +337,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-cumminsville': {
     intro:
-      'Brighter garage lighting in South Cumminsville? We are a licensed electrical contractor installing even LED fixtures and code-compliant circuits in this Mill Creek valley neighborhood. Call (513) 586-5107.',
+      'South Cumminsville garage lighting is usually an older detached garage among the Mill Creek valley’s industrial corridors, on a single bulb. We install LED shop fixtures so the bay works for parking or a workbench, add a dedicated outlet circuit for tools and fit weather-rated entry lights.',
     relevance: [
       'South Cumminsville (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, with older homes set among industrial corridors. Garages here are often older detached structures, lit by a single bulb that leaves the corners dark; we install even LED shop fixtures so the whole bay works for parking, storage, or a workbench.',
       'The age of the housing means original wiring rarely sized for a modern shop load, and the low valley ground makes weather-rated exterior fixtures worthwhile. We bring the circuit up to code, add a dedicated outlet circuit for tools and bright overhead LED panels, and set motion-activated, weather-rated lights at the entry so a South Cumminsville garage is fully lit at night.',
@@ -353,7 +353,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'english-woods': {
     intro:
-      'Brighter garage lighting in English Woods? We are a licensed electrical contractor installing even LED fixtures and code-compliant circuits in this west-side hilltop neighborhood. Call (513) 586-5107.',
+      'In English Woods, garage lighting work tends to start with a detached garage down a sloping drive on the hilltop above the Mill Creek valley, lit by one bulb. We fit LED fixtures inside, bring aging wiring up to code and add motion lights along the drive to the house.',
     relevance: [
       'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. Garages here are often detached and reached down a sloping drive, lit by a single bulb; we install even LED fixtures so the whole bay is usable and the drive is no longer dark.',
       'Older homes here run on aging wiring that strains under any added shop load, and the hillside setting makes a lit path between the garage and the house worthwhile. We bring the circuit up to code, add bright overhead LED lighting, and set motion-activated, weather-rated fixtures at the entry and along the drive so an English Woods garage is safe to reach after dark.',
@@ -369,7 +369,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-avondale': {
     intro:
-      'Lighting a garage in North Avondale? We are a licensed electrical contractor installing bright, even LED fixtures and code-compliant circuits for the city’s grand homes near Rockdale Avenue. Call (513) 586-5107.',
+      'North Avondale garage lighting often means an older detached or carriage-house garage set back off a long drive behind a grand early-1900s home near Rockdale Avenue. These run on original feeds, so we update the circuit to code, fit rows of LED fixtures and light the drive with motion fixtures.',
     relevance: [
       'North Avondale (ZIP 45229) is a historic, leafy neighborhood known for its grand early-1900s homes on large, tree-shaded lots near Rockdale Avenue. Many of those properties have older detached or carriage-house garages set back off a long drive, where a single bulb leaves the space dim; we install rows of LED fixtures that light the full bay evenly for parking, storage, or a workbench.',
       'Garages on these century-old lots often run on original feeds never sized for a modern shop load. We update the circuit to code, add bright overhead LED lighting, and set weather-rated, motion-activated fixtures over the long drive and side entry so the path to a North Avondale garage is lit through four-season weather.',
@@ -385,7 +385,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'millvale': {
     intro:
-      'Brighter garage lighting in Millvale? We are a licensed electrical contractor installing even LED fixtures and code-compliant circuits in this Mill Creek valley neighborhood. Call (513) 586-5107.',
+      'Millvale is a compact, mostly residential Mill Creek valley neighborhood, and its garages are typically older and detached with a single bulb. Garage lighting here means LED fixtures so the whole bay works for parking and storage, wiring brought up to code and weather-rated lights at the entry.',
     relevance: [
       'Millvale (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, a compact, largely residential community. Garages here are typically older and detached, lit by a single bulb that leaves the corners dark; we install even LED fixtures so the whole bay works for parking and storage.',
       'The age of the housing means original wiring rarely sized for a shop load, and the low-lying valley ground makes weather-rated exterior fixtures worthwhile. We bring the circuit up to code, add bright overhead LED lighting, and set motion-activated, weather-rated lights at the entry so a Millvale garage is safe to reach at night.',
@@ -401,7 +401,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'paddock-hills': {
     intro:
-      'Brighter garage lighting in Paddock Hills? We are a licensed electrical contractor installing even LED fixtures and code-compliant circuits near Paddock Road. Call (513) 586-5107.',
+      'Paddock Hills homes near Paddock Road, built in the early and mid-1900s, usually have a single-bulb garage now used for storage and projects. Garage lighting work means rows of LED shop fixtures, a dedicated 20-amp circuit separate from the opener and a weather-rated motion light at the side door.',
     relevance: [
       'Paddock Hills (ZIP 45229) is a small, well-kept north-side residential pocket near Paddock Road and the Norwood Lateral, with streets of early- and mid-1900s homes. Those homes typically have a single-bulb attached or detached garage that families now use for storage and projects, where the back wall stays dark; we install rows of LED shop fixtures for even, full-bay light.',
       'Garages of that era commonly share one circuit with the opener and a couple of outlets, which dims when a tool or freezer draws power. We add a dedicated 20-amp circuit, mount bright overhead LED lighting, and set a motion-activated, weather-rated fixture at the side door so a Paddock Hills garage is safe to use at night.',
@@ -417,7 +417,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'spring-grove-village': {
     intro:
-      'Brighter garage lighting in Spring Grove Village? We are a licensed electrical contractor installing even LED fixtures and code-compliant circuits near Spring Grove Cemetery. Call (513) 586-5107.',
+      'Around Spring Grove Cemetery, Spring Grove Village garages are often older detached structures or shop bays lit by one fixture. Garage lighting here means rows of LED shop lighting, a dedicated outlet circuit for tools on wiring brought up to code and weather-rated entry lights for the low valley ground.',
     relevance: [
       'Spring Grove Village (ZIP 45232) sits in the Mill Creek valley around the historic Spring Grove Cemetery and Arboretum, with a mix of older homes and industry. Garages here are often older detached structures or shop bays, lit by a single fixture that leaves a workbench in shadow; we install rows of LED shop lighting that cover the whole space evenly.',
       'The age of the buildings means wiring rarely sized for a modern shop load, and the low valley ground makes weather-rated exterior fixtures worthwhile. We bring the circuit up to code, add a dedicated outlet circuit for tools and bright overhead LED panels, and set motion-activated, weather-rated lighting at the entry so a Spring Grove Village garage is fully lit at night.',
@@ -433,7 +433,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'linwood': {
     intro:
-      'Garage and driveway lighting in Linwood near Lunken? We are a licensed electrical contractor installing bright, even LED fixtures and weather-rated, code-compliant circuits along Eastern Avenue. Call (513) 586-5107.',
+      'Linwood garage lighting usually involves an older detached garage on a low lot along Eastern Avenue near Lunken Airport, lit by a single bulb. We bring aging wiring up to code, add LED lighting for the full bay and fit grounded, weather-rated motion lights for the damp river bottoms.',
     relevance: [
       'Linwood (ZIP 45226) is one of Cincinnati’s smaller east-side neighborhoods, set along Eastern Avenue near Lunken Airport and the river bottoms. Garages here are often older detached structures on low riverside lots, lit by a single bulb; we install even LED fixtures that light the full bay for safe parking and storage.',
       'The older homes carry aging wiring rarely sized for a shop load, and the low position near the river bottoms makes weather-rated, properly grounded exterior fixtures important. We bring the circuit up to code, add bright LED lighting, and set motion-activated, weather-rated lights along the drive and at the entry so a Linwood garage is lit through damp riverside conditions.',
@@ -449,7 +449,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bond-hill': {
     intro:
-      'Brighter garage lighting in Bond Hill? We are a licensed electrical contractor installing even LED fixtures and code-compliant dedicated circuits along Reading Road. Call (513) 586-5107.',
+      'Bond Hill’s early-1900s and mid-century homes along Reading Road usually came with a single-bulb garage, now often a shop or storage space. Garage lighting here means rows of LED shop fixtures, a dedicated 20-amp circuit so a saw does not dim the lights and a side-door motion light.',
     relevance: [
       'Bond Hill (ZIP 45237) is a north-side neighborhood along Reading Road, with established streets of early-1900s and mid-century single-family homes. Those homes usually came with a single-bulb attached or detached garage that families now use as a shop or for storage, where the back wall stays dark; we install rows of LED shop fixtures for even, full-bay light.',
       'Garages of that age commonly share one circuit with the opener and a few outlets, which dims when a saw or compressor starts. We add a dedicated 20-amp circuit, mount bright overhead LED lighting, and set a motion-activated, weather-rated fixture at the side door so a dark Bond Hill garage is no longer a hazard at night.',

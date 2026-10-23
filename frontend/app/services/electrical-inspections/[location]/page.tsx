@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'When to Schedule One', body: 'Inspections are not just for emergencies. They make sense before buying or selling a {neighborhood} home, after a major renovation, when adding HVAC or large appliances, after a severe storm or lightning, when upgrading the panel, or simply when the home is more than 25 years old. Insurers and real-estate deals often ask for the documentation, too.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'badge', title: 'Detailed Reports', text: 'A clear, written summary of your system’s condition and any recommended fixes.' },
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Trained, experienced electricians who safely access internal components.' },
-    { icon: 'check', title: 'Code-Compliant', text: 'Recommendations aligned with current local electrical code.' },
-    { icon: 'clock', title: 'Honest Pricing', text: 'Clear, upfront pricing with no surprises.' },
-  ],
+  whyParagraph: 'You get a written summary of your electrical system’s condition and any fixes we recommend, matched to current local code. Licensed electricians check the internal components safely, and {neighborhood} homeowners see the price upfront with no surprises.',
   proofQuote:
     'Had them inspect before we bought an older home. They opened the panel, found double-tapped breakers and a grounding issue the listing never mentioned, and gave us a written report we used in the deal. Thorough and clearly explained.',
   sharedFaqs: [

@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'New Lines for Appliances and Additions', body: 'Adding a gas range, a generator, a fireplace, or a water heater means running a properly sized line. We plan and install new gas lines for {neighborhood} homes to handle the load safely and pass inspection.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Safety-First Work', text: 'Qualified pros who follow strict gas safety protocols.' },
-    { icon: 'check', title: 'Code-Compliant', text: 'Proper sealing, materials, and pressure testing every time.' },
-    { icon: 'badge', title: 'Repair or Replace', text: 'Honest guidance on the right fix for your situation.' },
-    { icon: 'clock', title: 'Fast Response', text: 'Prompt service when you suspect a gas line problem.' },
-  ],
+  whyParagraph: 'We respond promptly when a {neighborhood} homeowner suspects a gas line problem, and qualified pros follow strict safety protocols. Every repair uses proper materials and sealing, then a pressure test, and you get honest advice on repair versus replacement.',
   proofQuote:
     'Smelled gas near the water heater and the bill had crept up. They found a corroded section, walked us through repair versus replacement, and re-ran that line. Pressure-tested it, confirmed no leaks, and explained everything. Felt safe the whole time.',
   sharedFaqs: [

@@ -65,12 +65,7 @@ const config: ServiceLocationConfig = {
     { title: 'Financing & Same-Day Installs', body: 'Most fixture and water-heater installs can be handled the same day you call. For larger projects — water heaters, sewer lines, or whole-home work — we offer financing with a quick application and flexible terms.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Choose Us',
-  whyUs: [
-    { icon: 'heart', title: 'Family-Run & Local', text: 'A local team that genuinely cares about your home and your time.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked, licensed plumbers and to-code installations.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'Transparent estimates you approve before any work begins.' },
-    { icon: 'check', title: 'Satisfaction Guarantee', text: 'We are not done until your new fixture works exactly as it should.' },
-  ],
+  whyParagraph: 'We’re a local, family-run plumbing company, and every fixture we install in {neighborhood} goes in to code by licensed, background-checked plumbers. You approve the estimate before work begins, and we stay until the new fixture works the way it should.',
   proofQuote:
     'Had them install a new water softener and replace two old toilets. Clean work, no leaks, and they walked me through everything before they started.',
   sharedFaqs: [

@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Safe Wiring in Older Homes', body: 'Many {neighborhood} homes have older wiring that needs care when adding fixtures or circuits. We make sure every connection meets current code, update what needs updating, and install lighting that runs reliably for the long term.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Professionals', text: 'Experienced lighting pros handling every connection safely.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Each install meets current electrical safety standards.' },
-    { icon: 'badge', title: 'Energy-Efficient Options', text: 'LED upgrades that cut energy use and last longer.' },
-    { icon: 'house', title: 'Custom Design', text: 'Lighting layouts tailored to how you use each room.' },
-  ],
+  whyParagraph: 'Our licensed electricians plan each {neighborhood} lighting job around how you use the room, then make every connection to current electrical code. Where it fits, we suggest LED fixtures, which use less energy and last longer than older bulbs.',
   proofQuote:
     'They added recessed lights through the kitchen and living room and swapped everything to LED. The whole floor is brighter, no more dim corners, and the switches were laid out exactly how we use the rooms. Clean work and a fair price.',
   sharedFaqs: [

@@ -65,12 +65,7 @@ const config: ServiceLocationConfig = {
     { title: 'Prevention Is the Cheaper Half', body: 'Mold can begin establishing in damp material within roughly 24 to 48 hours, given the right temperature and something organic to grow on — which describes drywall paper and framing exactly. Most of the remediation we do could have been prevented by drying that started a day or two earlier. If you have had water damage in {neighborhood} in the last few days, the cheapest version of this conversation is happening now.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'We Fix the Source', text: 'We are plumbers first. The leak feeding the mold gets repaired as part of the same job.' },
-    { icon: 'check', title: 'Proper Containment', text: 'Sheeting, negative air, and HEPA filtration — so remediation does not spread the problem.' },
-    { icon: 'doc', title: 'Documented Throughout', text: 'Photos and moisture readings written up for your insurer or a future buyer.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start, with no overtime or weekend fees.' },
-  ],
+  whyParagraph: 'We’re plumbers first, so the leak feeding the mold in your {neighborhood} home gets repaired on the same job. Sheeting, negative air and HEPA filtration keep the spores contained, and we record photos and moisture readings for your insurer.',
   proofQuote:
     'We had been cleaning the same wall for two years. They found the drain joint behind it in an afternoon, repaired it, took out the drywall that was actually gone, and it has stayed clean since.',
   sharedFaqs: [

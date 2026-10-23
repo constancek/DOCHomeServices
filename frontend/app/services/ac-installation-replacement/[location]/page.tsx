@@ -64,12 +64,7 @@ const config: ServiceLocationConfig = {
     { title: 'Heat Pump Options for {neighborhood} Homes', body: 'A heat pump cools in summer and heats efficiently in the milder parts of winter, and it can pair with a furnace for the coldest stretches. For many {neighborhood} homes it is an efficient, all-in-one option worth considering when you replace your AC.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Choose Us',
-  whyUs: [
-    { icon: 'check', title: 'Proper Sizing', text: 'We size every system to your home so it cools evenly without wasting energy.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Certified technicians and careful, code-compliant installation and testing.' },
-    { icon: 'star', title: 'Financing Available', text: 'Flexible plans to spread the cost of an energy-efficient upgrade over time.' },
-    { icon: 'badge', title: 'Estimates', text: 'Clear recommendations and an estimate before you decide anything.' },
-  ],
+  whyParagraph: 'Every system we put in a {neighborhood} home is sized to that house, so it cools evenly without wasting energy. Licensed technicians install and test it to code, and financing can spread the cost of an efficient upgrade.',
   proofQuote:
     'Our 18-year-old AC finally died. They sized a new high-efficiency system for the house, installed it in a day, and our upstairs is finally as cool as the first floor.',
   sharedFaqs: [

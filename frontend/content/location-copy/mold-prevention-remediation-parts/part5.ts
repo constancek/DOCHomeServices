@@ -1,7 +1,7 @@
 export const part5: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   ludlow: {
     intro:
-      "When mold turns up in a historic home off Elm Street in Ludlow, the humidity that fed it usually came in off the river. We fix the moisture source first, then contain and remove the growth. Call (513) 586-5107.",
+      'Ludlow mold remediation is usually the slow kind. Victorian and early-1900s homes around the Elm Street district sit low beside the Ohio and stay damp for weeks. We find why the space stays wet, such as a seeping foundation, failed sump or old drip, correct it, and remove affected material.',
     relevance: [
       "Ludlow's walkable Elm Street district is ringed by well-preserved Victorian and early-1900s homes on low ground beside the Ohio. River-town homes like these run damp for weeks at a stretch, and once the indoor humidity stays high, the organic paper on drywall and the wood framing behind it are all mold needs to establish. This is the slow version of the problem — no burst pipe, just a house that never fully dries out.",
       "Because we are plumbers, we start by finding why the space stays wet, whether that is a seeping foundation, a failed sump, or an old drip inside a wall, and we correct it. Then we sheet off the area under negative air, take out the porous material the growth has gone through, and run HEPA filtration and an antimicrobial across the hard surfaces before drying the space to measured readings so it does not come back. We serve Ludlow across the river as part of our core Northern Kentucky area. If what you have is a small patch of surface mold on the shower tile or grout from steam, that is a maintenance wipe-down and a working exhaust fan, not a remediation job.",
@@ -16,7 +16,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   "park-hills": {
     intro:
-      "Mold in a Park Hills home near Devou Park usually traces back to a damp basement. We are plumbers first, so we fix why it is wet before we touch the growth. Call (513) 586-5107.",
+      'Old stone and block foundations under early-1900s homes near Devou Park drive most Park Hills mold remediation. Downhill lots seep after heavy rain and keep lower framing damp. We correct the cracked joint, grading or sump, remove porous material under negative air, and dry to a measured reading.',
     relevance: [
       "The hillside streets above Covington near Devou Park hold early-1900s homes built over old stone and block foundations. Those walls seep, especially on a downhill lot after heavy rain, and water sitting against the block keeps the lower framing, stored boxes, and any finished wall down there damp enough for mold to take hold along the base.",
       "We trace the water — a cracked joint, grading that drains toward the wall, a sump that quit — and correct it, because clearing the growth while the block keeps seeping just buys a few months. Then we contain the area with sheeting and negative air, pull the porous material the mold has grown through, HEPA-vacuum and treat the hard surfaces, and dry to measured readings. Park Hills is well within our Northern Kentucky service area. A little surface spotting on non-porous basement tile that wipes clean and stays clean is maintenance, not a job worth containing a room for.",
@@ -31,7 +31,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   bromley: {
     intro:
-      "When mold shows up in a low-lying Bromley home by the river, chronic damp is almost always behind it. We correct the moisture, then contain and remove the growth. Call (513) 586-5107.",
+      'Bromley homes sit low beside the Ohio next to Ludlow, and mold remediation here usually comes from humidity that never clears, with no leak at all. We find what keeps the air damp, such as river backup or a seeping foundation, add a dehumidifier, and remove porous growth.',
     relevance: [
       "Bromley sits on low ground next to Ludlow along the Ohio, and its older homes hold humidity long after the weather clears. When the air inside a house stays that damp for weeks, mold does not need a leak — it establishes on the drywall paper, closet walls, and framing wherever the moisture settles and the air does not move.",
       "We look for what is keeping the humidity up, from river backup that was never dried out to a foundation that seeps, and we address it, often adding a dehumidifier so the space holds a dry level afterward. Inside the containment we remove porous material with growth through it, run HEPA filtration and antimicrobial on the hard surfaces, and dry to measured readings. We serve Bromley across the river as part of our Northern Kentucky area. A steam-fed patch on bathroom tile or grout is not remediation — clean it and run the fan and it stays gone.",
@@ -46,7 +46,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   "fort-wright": {
     intro:
-      "Mold in a Fort Wright basement almost always follows a flood that was never fully dried. We fix the source, then remediate what the damp material grew. Call (513) 586-5107.",
+      'Fort Wright mold remediation almost always follows a finished basement flood that only felt dry a day later. The pad and the bottom foot of drywall stay wet and grow mold behind the baseboard. We stop the source, remove that material under negative air, and dry to measured readings.',
     relevance: [
       "The hilltop neighborhoods above the river in Fort Wright hold mid-century and newer homes with finished basements. When water gets in down there and the room only feels dry a day later, the carpet pad and the bottom foot of drywall stay wet inside, and within a couple of weeks that trapped moisture becomes mold behind the baseboard where nobody sees it.",
       "We confirm the water is actually stopped — a failed sump, a seep, a drain backup — and repair it, then contain the affected wall under negative air. Pad and drywall the growth has gone through come out, the framing gets HEPA-vacuumed and treated, and we dry to measured readings taken against a dry part of the same basement. Fort Wright is well within our Northern Kentucky service area. If it is a small non-porous patch on tile or sealed concrete, wipe it and improve the airflow — that is a maintenance clean, not a remediation.",
@@ -61,7 +61,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   "fort-mitchell": {
     intro:
-      "Mold inside a wall of an older Fort Mitchell home along Dixie Highway usually means a hidden leak has been feeding it. We find and fix the leak first. Call (513) 586-5107.",
+      'In older Fort Mitchell homes along the Dixie Highway corridor, mold remediation usually starts with a slow leak on an aging supply or drain joint inside a wall. As plumbers we locate and repair it before opening the wall under containment, then remove affected material and dry the cavity.',
     relevance: [
       "Fort Mitchell's settled streets along the Dixie Highway corridor mix historic and mid-century homes, and their aging supply and drain lines run inside the walls. A slow leak on one of those joints can wet the cavity for months before anything shows on the surface, and by the time a musty smell or a stain appears, the mold is already growing on the back of the drywall and the framing.",
       "As plumbers we locate the leak, repair it, and only then open the wall under containment to deal with what it grew. Porous material with growth through it comes out, hard surfaces get HEPA filtration and an antimicrobial, and we dry the cavity to measured readings so the conditions are gone. Fort Mitchell is well within our Northern Kentucky service area. A bit of surface mold on the shower grout is a different thing entirely — that is steam and ventilation, a wipe-down job, not remediation.",
@@ -76,7 +76,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   "villa-hills": {
     intro:
-      "Mold in a Villa Hills home often comes down to a bathroom or kitchen that cannot clear its own moisture. We sort the ventilation and the source, then remediate. Call (513) 586-5107.",
+      'Villa Hills mold remediation often comes down to bathroom or kitchen exhaust that runs weak or vents into a dead space in these hilltop homes. We check whether the real issue is ventilation or a leak under the sink, fix it, and remove growth that reached drywall or trim.',
     relevance: [
       "Villa Hills is a hilltop residential city of mid-century and newer single-family homes, and in a lot of them the bathroom or kitchen exhaust either runs weak or vents into a dead space. When steam and cooking moisture have nowhere to go, they settle into the ceiling, the wall behind the vanity, and any porous trim, and mold follows in the spots that never dry.",
       "We check whether the real problem is ventilation or a plumbing leak under the sink, fix what we find, and where growth has gone into porous material we contain the area, remove it, and treat and dry the rest to measured readings. Villa Hills is well within our Northern Kentucky service area. Here is the honest line, though: a small dark patch on non-porous tile or grout from shower steam is a maintenance clean and a better fan, not a remediation, and paying to contain a bathroom for it is money wasted.",
@@ -91,7 +91,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   "lakeside-park": {
     intro:
-      "The mold under a Lakeside Park home usually starts in the crawlspace, where bare ground gives up moisture into the floor framing. Because we are plumbers, we dry and seal the crawl before we clear anything. Call (513) 586-5107.",
+      'Lakeside Park mold remediation usually happens in the crawlspace, where exposed earth under mid-century homes breathes damp air into the subfloor and joists. We correct the source, usually with a sealed vapor barrier and a dehumidifier, then pull wet insulation and treat the joists to a meter reading.',
     relevance: [
       "Plenty of the mid-century houses in this small, settled city sit on crawlspaces instead of full basements, and a crawlspace with exposed earth breathes damp air upward all year. Without a vapor barrier laid over the dirt, that moisture collects on the subfloor and the underside of the joists, and mold gets a foothold beneath the floor long before the smell reaches the living room.",
       "We track down what feeds it — ground evaporation, a sweating supply line, or standing water from a drainage problem — and correct it, usually by laying a sealed vapor barrier and setting a dehumidifier to hold the crawl dry. Then we tape off the access, run a HEPA air scrubber, pull the wet fiberglass insulation and any porous material the growth has entered, HEPA-vacuum and treat the joists with an antimicrobial, and dry the wood to a meter reading. We work Lakeside Park as part of our Northern Kentucky area. A spot on a non-porous tile floor upstairs that wipes off and stays off is a maintenance clean, not a crawlspace job.",
@@ -106,7 +106,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   "crescent-springs": {
     intro:
-      "Mold in a Crescent Springs home often means a fitting has been dripping inside a wall for months. We are plumbers, so we trace and repair the leak before opening anything for the mold. Call (513) 586-5107.",
+      'A fitting dripping inside a wall for months is the usual start of Crescent Springs mold remediation. We find the leak with a moisture meter and repair the line before cutting in, then work under negative air to cut the wet drywall back, treat the framing, and dry the cavity.',
     relevance: [
       "The plumbing in this suburban city's mid-century and newer homes runs where nobody looks — behind drywall, under floors, above finished ceilings. A weep at a joint can keep a wall cavity damp for a long stretch, and the first anyone knows of it is a musty draft or a soft patch, by which point the back of the drywall already carries growth.",
       "We find the leak with a moisture meter, repair the line, and only then cut into the wall. We hang poly sheeting and run a negative-air machine vented outside so the work does not carry spores through the house, cut the wet drywall back to a set height above the damp line, HEPA-vacuum and treat the framing with an antimicrobial, and dry the cavity to a meter reading before it is closed up. Crescent Springs is well within our Northern Kentucky service area. A patch of surface growth on non-porous bathroom tile is not this — wipe it, run the fan, and it stays gone.",
@@ -121,7 +121,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   "crestview-hills": {
     intro:
-      "Mold in a Crestview Hills basement near Thomas More usually goes back to a flood that dried at the surface and stayed wet underneath. We stop the water, then take out what it grew. Call (513) 586-5107.",
+      'Crestview Hills mold remediation near Thomas More mostly follows a finished basement that looked dry a day after taking on water while the pad and lower drywall stayed wet. We stop the water, discard the pad, cut the drywall above the wet line, and treat the studs.',
     relevance: [
       "Around Thomas More University and the Crestview Hills mall, the residential streets hold mid-century and newer homes, and a lot of them finished their lower levels. When a finished basement takes on water and looks dry within a day, the carpet pad and the bottom of the drywall are still holding moisture inside, and mold sets in behind the baseboard inside a couple of weeks.",
       "We make sure the water is actually stopped and repair whatever let it in, then sheet off the wall under negative air. We lift the carpet and discard the soaked pad, cut the drywall back above the wet line, HEPA-vacuum and treat the studs, and dry to readings we check against a dry part of the same basement so we know it is done. Crestview Hills is well within our Northern Kentucky service area. A small non-porous spot on tile or sealed concrete that wipes clean does not need a containment built around it.",
@@ -136,7 +136,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   edgewood: {
     intro:
-      "Mold in an Edgewood home near St. Elizabeth often comes from a bathroom or kitchen that traps its own moisture. We sort the source, then handle any growth that has gone into the material. Call (513) 586-5107.",
+      'Edgewood mold remediation around St. Elizabeth Healthcare often involves an undersized bath or kitchen exhaust, so steam settles into the ceiling and the wall behind fixtures. We work out whether it is ventilation or a plumbing leak, fix it, and remove growth that has reached drywall or trim.',
     relevance: [
       "Edgewood is a residential city of mid-century and newer homes around St. Elizabeth Healthcare. In many of them the bath or kitchen exhaust is undersized or vents somewhere it should not, so steam and cooking moisture keep settling into the ceiling and the wall behind the fixtures, and mold takes hold in the spots that never get a chance to dry.",
       "We work out whether it is ventilation or an actual plumbing leak, fix what we find, and where the growth has moved into porous drywall or trim we contain, remove it, and treat and dry the rest to measured readings. Edgewood is well within our Northern Kentucky service area. The honest version: a small patch on non-porous tile or grout fed by shower steam is a maintenance wipe and a better fan, not a remediation, and we will tell you so rather than sell you a containment.",
@@ -151,7 +151,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   "taylor-mill": {
     intro:
-      "Mold in a Taylor Mill basement usually follows water that got in on the downhill side and was never dried past the surface. We fix the source, then remove the material it grew. Call (513) 586-5107.",
+      'Downhill-side lower levels in Taylor Mill take on water, and mold remediation follows when a flood dries only on the surface. The pad and lower foot of drywall stay damp behind the trim. We repair the sump, seep or drain, then remove that material and treat the framing.',
     relevance: [
       "This hilltop city south of Covington is mostly mid-century and newer homes, many with a lower level finished on the downhill side where water tends to arrive. Once a flood there dries on the surface, the pad and the lower foot of drywall stay damp out of sight, and within a couple of weeks the growth is behind the trim.",
       "We confirm the water has stopped — a sump that quit, a seep, a backed-up drain — and repair it, then tape off the affected wall and run a HEPA air scrubber to hold the dust down. The soaked pad and baseboard come out, the drywall is cut back above the wet line, and the framing gets a HEPA-vacuum, an antimicrobial, and drying to a meter reading. Taylor Mill is well within our Northern Kentucky service area. A little surface growth on non-porous tile or sealed concrete that wipes clean and stays clean is maintenance, not a remediation.",
@@ -166,7 +166,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   elsmere: {
     intro:
-      "Mold in an older Elsmere home along Dixie Highway often starts against a seeping basement wall. We fix why it is wet before we touch the growth. Call (513) 586-5107.",
+      'Aging block and stone foundations along the Dixie Highway corridor drive Elsmere mold remediation. Water stands against the wall after heavy rain and keeps lower framing and stored material damp. We correct the cracked joint, grading or sump first, then remove porous growth and dry to measured readings.',
     relevance: [
       "Elsmere is an established city along the Dixie Highway corridor near Erlanger, with older and mid-century homes built over aging block and stone foundations. Those walls take on water in heavy rain, and moisture standing against the block keeps the lower framing and any stored material damp enough for mold to grow along the base, out of sight.",
       "We trace the water to its cause — a cracked joint, poor grading, a failed sump — and correct it, since clearing growth off a wall that keeps seeping only delays the same problem. Then we contain the area, remove the porous material the mold has run through, HEPA-vacuum and treat the hard surfaces, and dry to measured readings. Elsmere is well within our Northern Kentucky service area. A surface patch on non-porous tile in the bath is a wipe-down and a working fan, not a remediation job.",
@@ -181,7 +181,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   independence: {
     intro:
-      "Mold in a newer Independence home usually starts fast, when a fresh leak soaks into paper-faced drywall that holds the water inside. We repair the leak, then contain and remove the growth. Call (513) 586-5107.",
+      'Newer homes in Independence grow mold fast after a supply-line pop or failed appliance hose, because paper-faced drywall holds the water inside. Remediation means repairing the leak, cutting wet drywall to a set height, removing saturated engineered flooring and pad, and treating the framing under negative air.',
     relevance: [
       "The county seat has filled in with newer subdivisions around its older core, and those newer houses are built from paper-faced drywall, engineered flooring, and dimensional framing. A supply-line pop or a failed appliance hose soaks straight into that material and holds the water where the surface still reads dry, and the paper only needs a few days of that to grow mold.",
       "We find and repair the leak, then sheet off the area under a negative-air machine vented outside. The wet drywall is cut back to a set height, saturated engineered flooring and pad come out, the framing is HEPA-vacuumed and treated, and we dry to a meter reading so the conditions that fed it are gone. Independence is part of our Northern Kentucky service area. A small patch of steam growth on non-porous bathroom tile is a maintenance clean and a better fan, not a remediation.",
@@ -196,7 +196,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   "dayton-ky": {
     intro:
-      "Mold in a historic Dayton, KY home by the river usually comes from months of damp air, not a single leak. We bring the moisture down first, then contain and clear the growth. Call (513) 586-5107.",
+      'Months of damp air near the Ohio, not one leak, drive most mold remediation in Dayton. Its late-1800s and early-1900s homes sit on low ground beside Bellevue. We address river backup, foundation seepage or dead air, remove porous growth, treat the masonry, and add a dehumidifier.',
     relevance: [
       "The tight streets of well-kept late-1800s and early-1900s homes next to Bellevue sit on low ground close to the Ohio, and homes that near the river hold humidity for weeks at a time. When the indoor air stays that damp, mold does not wait for a leak — it settles onto plaster, closet walls, and framing wherever the air is still and the moisture lingers.",
       "We look for whatever keeps the space wet — river backup that was never dried out, a foundation that seeps, dead air in a low room — and address it, usually with a dehumidifier sized to hold a dry level afterward. Inside a taped-off zone with a HEPA scrubber we remove the porous material the growth has entered, wire-brush and treat the masonry and sound framing with an antimicrobial, and dry to a meter reading. We serve Dayton across the river as part of our core Northern Kentucky area. A steam-fed spot on the shower tile is a wipe-down, not remediation.",
@@ -211,7 +211,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   southgate: {
     intro:
-      "Mold in a Southgate home usually points to a slow leak inside a wall that has been wet for months. We locate and repair the pipe before we remediate. Call (513) 586-5107.",
+      'Southgate mold remediation in mid-century homes between Newport and Fort Thomas usually starts with a slow leak on an aging joint inside a wall or under a floor. As plumbers we locate and repair it, open only the section we have to, and treat and dry the framing.',
     relevance: [
       "Between Newport and Fort Thomas, Southgate's established mid-century blocks run their supply and drain lines inside the walls and under the floors. A slow leak on an aging joint keeps a cavity damp long enough to grow mold on the back of the drywall before any stain or smell reaches the room.",
       "As plumbers we locate the leak, repair it, and open only the section we have to. We tape off the work area and run a HEPA air scrubber, take out the porous material the growth has gone through, HEPA-vacuum and treat the framing with an antimicrobial, and dry the cavity to a meter reading. Southgate is well within our Northern Kentucky service area near Newport. Surface growth on non-porous bathroom tile is a different thing — clean it, run the fan, and it stays away.",
@@ -226,7 +226,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   wilder: {
     intro:
-      "Mold in a Wilder home or building often traces to a room that cannot vent its own steam and humidity. We fix the ventilation or the leak behind it, then remediate. Call (513) 586-5107.",
+      'Wilder mold remediation, in homes and commercial spaces along the Licking River corridor, often traces to a back bathroom, break area or utility room that cannot vent. We fix the ventilation or the leak, often by adding or rerouting an exhaust fan, then remove porous drywall or ceiling tile.',
     relevance: [
       "Along the Licking River corridor, Wilder mixes mid-century homes with a commercial and industrial base, and in both a poorly vented room — a back bathroom, a break area, a utility space — traps steam and humidity against the ceiling and walls. Mold settles into the porous surfaces that never fully dry between uses.",
       "We work out whether the cause is weak ventilation or an actual leak, correct it — often by adding or rerouting an exhaust fan so the moisture leaves the building — and where growth has gone into porous drywall or ceiling tile we tape off the area, run a HEPA scrubber, remove it, and treat and dry the rest to a meter reading. Wilder is well within our Northern Kentucky service area, homes and commercial spaces alike. A dark patch on non-porous tile or grout from steam is a maintenance clean and a better fan, and we will say so.",
@@ -241,7 +241,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   "highland-heights": {
     intro:
-      "Mold in a Highland Heights rental near NKU often traces to a hidden leak in a hard-used wall. We find and repair it, then remediate. Call (513) 586-5107.",
+      'Highland Heights rentals near NKU run their plumbing hard, so mold remediation here often means a supply or drain leak inside a wall that went unreported for months. We locate and repair it, open the wall under negative air, remove the porous material, and dry to measured readings.',
     relevance: [
       "Highland Heights is home to Northern Kentucky University, with mid-century homes and densely used student rentals. Those rentals run their plumbing hard, and a slow leak on a supply line or a drain inside the wall can go unreported for months, keeping the cavity damp and growing mold on the back of the drywall while tenants only notice a musty smell.",
       "We locate the leak, repair it, and open the wall under sheeting and negative air, removing the porous material the growth has run through, treating the hard surfaces with HEPA filtration and an antimicrobial, and drying to measured readings. Highland Heights is well within our Northern Kentucky service area, and we work on the rentals and homes around the university. A surface patch on non-porous bathroom tile from steam is a maintenance wipe, not a remediation.",
@@ -256,7 +256,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   "cold-spring": {
     intro:
-      "Mold in a newer Cold Spring home along US-27 usually follows a fresh leak that soaked into modern materials and stayed hidden. We repair the leak, then contain and remove the growth. Call (513) 586-5107.",
+      'Newer subdivisions along US-27 make Cold Spring mold remediation a fast-moving job, because engineered flooring and paper-faced drywall hold leak water out of sight. We repair the burst line or hose, discard soaked flooring and pad, cut the drywall above the damp line, and treat the framing.',
     relevance: [
       "Growth along the US-27 corridor has added subdivisions of newer homes to Cold Spring's older neighborhoods, and the newer builds are paper-faced drywall, engineered flooring, and dimensional framing. A burst supply line or a leaking hose runs into that material and holds the moisture inside while the surface looks fine, and the paper grows mold within a few days.",
       "We find and repair the leak, then tape off the area and run a HEPA air scrubber. We lift and discard the soaked engineered flooring and pad, cut the wet drywall back above the damp line, HEPA-vacuum and treat the framing, and dry to a meter reading. Cold Spring is within our Northern Kentucky service area along US-27. A small patch of steam growth on non-porous bathroom tile is a maintenance clean and a working fan, not a job for containment.",
@@ -271,7 +271,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   alexandria: {
     intro:
-      "Mold in an Alexandria home often starts in a crawlspace under a semi-rural property and works up into the floor. We dry and seal the crawl first, then clear the growth. Call (513) 586-5107.",
+      'Alexandria mold remediation in older and semi-rural homes often starts in a crawlspace, where bare earth with no vapor barrier sends moisture into the subfloor and joists. We correct the source with a vapor barrier and a dehumidifier, pull wet insulation, and treat the sound wood to a meter reading.',
     relevance: [
       "The Campbell County seat runs from a historic core to newer subdivisions and semi-rural homes, and a good share of the older and rural houses sit over crawlspaces. Bare earth down there gives off moisture the year round, and with no vapor barrier the damp rises into the subfloor and joists, where mold takes hold under the house before anything shows upstairs.",
       "We find the source — ground evaporation, a leak in the crawl, or standing water from poor drainage — and correct it, laying a vapor barrier and setting a dehumidifier where the crawl runs wet. Then we contain the access, pull the wet insulation and porous framing material the growth has run through, HEPA-vacuum and treat the sound wood, and dry to a meter reading. Alexandria is part of our southern Campbell County service area. A surface spot on non-porous tile upstairs that wipes off and stays off is maintenance, not a remediation.",
@@ -286,7 +286,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   melbourne: {
     intro:
-      "Mold in a small Melbourne home by the river usually comes from steady damp, not one leak. We bring the humidity down, then contain and remove the growth. Call (513) 586-5107.",
+      'Melbourne mold usually comes from steady river damp in older homes on low ground east of Newport, not from one leak. Remediation starts with whatever keeps the space wet, then we discard porous storage and material the growth entered, treat the framing, and add a dehumidifier to hold it dry.',
     relevance: [
       "Melbourne is a small river village east of Newport, its older homes set on low riverside ground where the air holds moisture for weeks on end. When the inside of a house stays that damp, mold establishes on plaster, closet walls, and framing wherever the air does not move — a leak is not required.",
       "We look for what keeps the space wet — river backup left undried, a seeping foundation, still air in a low room — and address it, usually adding a dehumidifier to hold a dry level. Under poly sheeting with a negative-air machine vented outside we discard the porous storage and material the growth has entered, wire-brush and treat the framing with an antimicrobial, and dry to a meter reading. We serve Melbourne across the river as part of our Northern Kentucky area. A steam-fed patch on the shower tile is a wipe-down, not remediation.",
@@ -301,7 +301,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   hebron: {
     intro:
-      "Mold in a newer Hebron home near the airport usually follows a fresh leak that soaked into modern materials. We repair the leak, then remove what it grew. Call (513) 586-5107.",
+      'Hebron mold remediation near the CVG airport mostly involves newer builds where a supply-line pop or leaking appliance hose soaked into paper-faced drywall and engineered flooring. We repair the leak, cut the wet drywall back, pull soaked insulation, and treat the framing under negative air.',
     relevance: [
       "Out by the CVG airport in Boone County, Hebron mixes newer subdivisions with established rural homes. In the newer builds — paper-faced drywall, engineered flooring, dimensional framing — a supply-line pop or a leaking appliance hose soaks in and holds the water where the surface reads dry, and the damp paper grows mold within a few days.",
       "We find and repair the leak, then hang sheeting under a negative-air machine vented outside, cut the wet drywall back to a set height, pull the soaked insulation behind it, HEPA-vacuum and treat the framing, and dry to a meter reading. Hebron is part of our Boone County service area near the airport. A small patch of steam growth on non-porous bathroom tile is a maintenance clean and a working fan, not a remediation.",
@@ -316,7 +316,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   burlington: {
     intro:
-      "Mold in a Burlington subdivision home often follows a finished-basement flood that dried on top and stayed wet beneath. We stop the source, then take out the material it grew. Call (513) 586-5107.",
+      'Finished basements in Burlington subdivisions are where most mold remediation starts, after a flood that felt dry the next day while pad and lower drywall stayed wet. We repair the failed sump, seep or backed-up drain, discard the pad, cut the drywall above the wet line, and treat the framing.',
     relevance: [
       "Burlington has grown around its historic courthouse core with newer subdivisions, and many of those homes finished their basements. When one takes on water and feels dry the next day, the carpet pad and the lower drywall are still wet inside, and mold sets up behind the baseboard within a couple of weeks.",
       "We confirm the water is stopped — a failed sump, a seep, a backed-up drain — and repair it, then sheet off the wall under negative air vented outside. We lift the carpet and discard the pad, cut the drywall back above the wet line, HEPA-vacuum and treat the framing, and dry to readings checked against a dry part of the same level. Burlington is part of our Boone County service area. A small non-porous spot on tile or sealed concrete that wipes clean is maintenance, not a job to contain a room for.",
@@ -331,7 +331,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   union: {
     intro:
-      "Mold in a newer Union home usually starts with a fresh leak that soaked into paper-faced drywall and held the water inside. We repair the leak, then contain and remove the growth. Call (513) 586-5107.",
+      'Union subdivisions built from the 1990s onward use paper-faced drywall and engineered flooring that hold leak water inside, so mold remediation follows a supply-line pop or appliance hose quickly. We repair the leak, remove soaked flooring and pad, cut wet drywall to a set height, and treat the framing.',
     relevance: [
       "One of the fastest-growing cities in Boone County, Union is mostly subdivisions built from the 1990s onward — paper-faced drywall, engineered flooring, dimensional framing. All of it takes on water from a supply-line pop or an appliance hose and holds it inside while the surface looks fine, and the paper needs only a few days to grow mold.",
       "We find and repair the leak, then tape off the area and run a HEPA air scrubber. The soaked engineered flooring and pad come out, the wet drywall is cut back to a set height, the framing is HEPA-vacuumed and treated, and we dry to a meter reading. Union is part of our Boone County service area. A small patch of steam growth on non-porous bathroom tile is a maintenance clean and a working exhaust fan, not a remediation.",
@@ -346,7 +346,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   walton: {
     intro:
-      "Mold in a Walton home often starts in a crawlspace under an older or rural property. We dry and seal the crawl first, then clear the growth. Call (513) 586-5107.",
+      'Walton mold remediation often begins in the crawlspace of a rural home, where bare earth with no vapor barrier lets damp climb into the subfloor and joists. We fix the source with a vapor barrier and dehumidification, pull wet insulation, and treat the sound wood to a meter reading.',
     relevance: [
       "At the southern edge of the Boone County metro, Walton keeps a historic core, newer subdivisions, and surrounding rural homes, a number of them over crawlspaces. Bare earth under the floor gives off moisture the year round, and with no vapor barrier the damp climbs into the subfloor and joists, where mold takes hold under the house well before it shows upstairs.",
       "We find the source — ground evaporation, a leak in the crawl, or standing water from poor drainage — and correct it, laying a vapor barrier and dehumidifying where the crawl stays wet. Under sheeting with a negative-air machine we pull the wet insulation and porous framing material the growth has run through, HEPA-vacuum and treat the sound wood, and dry to a meter reading. Walton is at the southern edge of our Boone County service area. A surface spot on non-porous tile upstairs that wipes off and stays off is a maintenance clean.",
@@ -361,7 +361,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   "mount-carmel": {
     intro:
-      "Mold in a Mount Carmel home near I-275 usually means a leak has been wetting a wall cavity out of sight. We are plumbers, so we find and repair it before remediating. Call (513) 586-5107.",
+      'Mount Carmel mold remediation near I-275 usually traces to a slow leak on an aging joint that has kept a wall cavity damp for months. As plumbers we locate and repair it, open only what we must, cut the wet drywall back under negative air, and dry the cavity.',
     relevance: [
       "On the east side near the I-275 corridor, this Union Township community holds established mid-century and newer homes whose supply and drain lines run inside the walls and under the floors. A slow leak on an aging joint keeps a cavity damp for months, growing mold on the back of the drywall before a stain or a musty smell reaches the room.",
       "As plumbers we locate the leak, repair it, and open only what we must. We hang sheeting under a negative-air machine vented outside, cut the wet drywall back to a set height, HEPA-vacuum and treat the framing with an antimicrobial, and dry the cavity to a meter reading. Mount Carmel is well within our east-side service area in Union Township. A patch of steam growth on non-porous bathroom tile is a maintenance wipe and a working fan, not a remediation.",
@@ -376,7 +376,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   summerside: {
     intro:
-      "A musty smell rising into a Summerside home from below the floor? Ground moisture under the crawlspace feeds mold you smell before you see it. Call (513) 586-5107.",
+      'Summerside mold remediation often starts under the floor, where damp earth below a crawlspace with no vapor barrier keeps joists and subfloor humid and sends a musty smell upstairs. We meter the wood, lay or repair the vapor barrier, add a dehumidifier, and treat framing that already carries growth.',
     relevance: [
       "Summerside, a Union Township community in western Clermont County, has suburban homes over crawlspaces and slabs where ground moisture is the quiet driver. Damp earth under a crawlspace with no vapor barrier keeps the joists and subfloor above it humid, and mold grows on that framing out of sight, sending its smell up into the rooms.",
       "We check the crawlspace and meter the moisture in the wood, lay or repair a vapor barrier and add a dehumidifier so the ground stops feeding the space, and where the framing already carries growth we HEPA-vacuum and treat it under containment and dry it to a reading. If your only sign is a spot of mildew on a bathroom tile, that is a ventilation clean, not a crawlspace job. Summerside is in our east-side service area in Union Township.",
@@ -391,7 +391,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   withamsville: {
     intro:
-      "A dark bloom on a Withamsville kitchen or bath wall along Ohio Pike, with no spill to explain it? A supply line is often weeping inside the wall. Call (513) 586-5107.",
+      'Withamsville mold remediation along Ohio Pike usually involves a supply line weeping at a fitting inside a kitchen or bath wall for months. We meter the wall to see how far the moisture reaches, open only that section, repair the line, and cut out the wet drywall under containment.',
     relevance: [
       "Along the Ohio Pike corridor in western Clermont County, Withamsville's suburban homes hide their supply and drain lines in the walls behind kitchens and baths. A slow weep at a fitting can run for months unseen, wetting the drywall and framing from behind and feeding mold in the cavity before anything shows on the painted surface.",
       "We meter the wall to find how far the moisture reaches, open only that section, and repair the line so the water stops. Then, contained under a HEPA scrubber, we cut out the wet drywall, treat and dry the framing behind it to a meter reading, and close it back up. A little steam spotting on the bathroom tile is a different thing entirely: clean it, improve the fan, and there is nothing to remediate. Withamsville is in our east-side service area along Ohio Pike.",
@@ -406,7 +406,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   milford: {
     intro:
-      "Mold in a historic Milford building near the Little Miami usually comes from months of damp on low ground. We bring the moisture down, then contain and clear the growth. Call (513) 586-5107.",
+      'Low ground along the Little Miami keeps buildings on and around the preserved Main Street damp for long stretches, and that steady humidity is behind most Milford mold remediation. We address undried flood water, foundation seepage or dead air, remove porous growth, treat the masonry, and add a dehumidifier.',
     relevance: [
       "Milford straddles the Little Miami River, with a preserved Main Street of 19th-century buildings and older homes on low ground around it. Buildings that close to the river hold humidity for long stretches, and when the indoor air stays damp week after week, mold establishes on plaster, lower walls, and framing wherever the air is still.",
       "We look for what keeps the space wet — flood water left undried, a seeping foundation, dead air in a low basement — and address it, usually with a dehumidifier to hold a dry level. Inside a taped-off zone with a HEPA scrubber we discard the porous material the growth has entered, wire-brush and treat the masonry and framing with an antimicrobial, and dry to a meter reading. Milford is within our east-side service area along the Little Miami River. A steam-fed patch on the shower tile is a wipe-down, not remediation.",

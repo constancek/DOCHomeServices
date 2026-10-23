@@ -45,7 +45,7 @@ export default function RequestEstimatePage() {
 
             <ul className="m-list space-y-3">
               {expectations.map((e) => (
-                <li key={e} className="flex items-center gap-3 text-sm font-semibold text-ink/80">
+                <li key={e} className="flex items-center gap-3 text-base font-semibold text-ink/80">
                   <span className="grid h-7 w-7 flex-shrink-0 place-items-center rounded-full bg-lime-500 text-white">
                     <Icon name="check" className="h-4 w-4" />
                   </span>

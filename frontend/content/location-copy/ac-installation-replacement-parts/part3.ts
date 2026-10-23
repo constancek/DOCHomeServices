@@ -1,7 +1,7 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
     intro:
-      'Replacing the AC in a Villages of Roll Hill building, or adding cooling where there was none? We size and install energy-efficient systems for multi-unit housing on this west-side hilltop. Call (513) 586-5107.',
+      'Villages of Roll Hill AC replacement usually involves closely grouped condensers and long line sets serving the multi-unit apartment buildings on this west-side hilltop. When a unit reaches replacement age, the better approach is to right-size each system for the apartment it serves.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. Cooling in housing like this usually runs through closely grouped condensers and long line sets, and when a unit reaches replacement age the smart move is to right-size each system for the apartment it serves rather than carry over whatever was installed last time.',
       'On a hilltop with little tree cover, those condensers sit in direct afternoon sun, which makes proper sizing and condenser placement matter more than they would on a shaded lot. We measure the load before we quote, recommend an efficient condenser and coil matched to the space, and can replace one building’s equipment without disrupting the rest.',
@@ -17,7 +17,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-westwood': {
     intro:
-      'Old AC failing in East Westwood, or no central air at all? We install properly sized, energy-efficient systems for this west-side neighborhood. Call (513) 586-5107.',
+      'AC replacement in East Westwood is often really a retrofit. Many early- and mid-1900s homes on the slopes toward the Mill Creek valley have ductwork that was added later or sized for a furnace rather than for cooling, so the new system has to fit what is there.',
     relevance: [
       'East Westwood (ZIP 45211) sits on the slopes between Westwood and the Mill Creek valley, with streets of early- and mid-1900s homes. Many of those houses were built before central air was standard, so a replacement here is often really a retrofit — fitting a system into a home whose ductwork was added later or sized for a furnace, not for cooling.',
       'The hillside grade also shapes the job: condensers on a graded lot need a level, well-drained pad, and the upper-floor heat load common in older two-story homes drives how we size the equipment. We check the ductwork and the load before quoting, then recommend either a right-sized central system or ductless where running new ducts is not practical.',
@@ -33,7 +33,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'western-hills': {
     intro:
-      'AC on its last summer in Western Hills? We replace aging systems and install efficient new ones around Western Hills Plaza and Glenway, with an estimate and proper load sizing. Call (513) 586-5107.',
+      'Western Hills AC replacement mostly involves mid-century homes around Western Hills Plaza and Glenway Avenue where central air is well past the 12-to-15-year mark. Condensers and coils start failing at that age, and some systems still run on the old R-22 refrigerant.',
     relevance: [
       'Western Hills (ZIP 45211) is the established west-side area around Western Hills Plaza and Glenway Avenue, with neighborhoods of early-1900s through mid-century single-family homes. A lot of the central air in those mid-century houses is now well past the 12-to-15-year mark where condensers and coils start failing, and some still run on the old R-22 refrigerant that is no longer produced.',
       'When a system is that old, repeated repairs usually cost more over a couple of seasons than a planned replacement. We size the new equipment to the house rather than just matching the old tonnage, which on these decades-old homes often means correcting a unit that was oversized to begin with.',
@@ -49,7 +49,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'california': {
     intro:
-      'Replacing the AC at your California riverfront home along Kellogg Avenue? We install efficient, properly sized systems. Call (513) 586-5107.',
+      'In California, the riverfront neighborhood along Kellogg Avenue, AC installation starts with where the condenser goes. On low riverside lots, a new unit should sit on a raised, level pad clear of where water collects, not in the spot the last installer picked.',
     relevance: [
       'California (ZIP 45230) is Cincinnati’s far-east riverfront neighborhood along Kellogg Avenue, near Riverbend and the old Coney Island grounds, set on low ground beside the Ohio River. On low riverside lots, condenser placement is part of the job — a new unit should sit on a raised, level pad clear of where water collects, not in the spot the last installer happened to pick.',
       'The older homes here also tend to carry a heavy summer load, with full afternoon sun off the open river and decades-old equipment that was likely sized by rule of thumb. We measure the actual load before quoting and set the new condenser where high water is least likely to reach it.',
@@ -65,7 +65,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'carthage': {
     intro:
-      'Old AC quitting in Carthage, or no central air in your older home along Vine Street? We retrofit and replace with right-sized, efficient systems. Call (513) 586-5107.',
+      'Replacing or adding AC in Carthage often means working around tight chases and ductwork retrofitted into early-1900s homes along Vine Street. Houses from that era were built long before central air, so ductless can make more sense than forcing ducts through.',
     relevance: [
       'Carthage (ZIP 45215) is a north-side neighborhood along Vine Street, a former village now home to the Hamilton County Fairgrounds, with older early-1900s homes. Houses from that era were built long before central air, so adding or replacing cooling often means working around tight chases and ductwork that was retrofitted later — the kind of job where ductless can make more sense than tearing into plaster.',
       'Where central air already exists, it tends to be on aging equipment that was sized for the home decades ago and may no longer match how the rooms are used. We assess the existing ducts and the load before quoting, then recommend the system that actually fits the house.',
@@ -81,7 +81,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'winton-hills': {
     intro:
-      'Replacing the AC in a Winton Hills building near Winton Road? We size and install efficient cooling for homes and multi-unit housing. Call (513) 586-5107.',
+      'AC replacement in Winton Hills multi-unit buildings is rarely a single unit. Systems are often grouped, so a sound plan sizes each apartment’s cooling correctly rather than carrying over an old, uneven setup, and much of the older housing here needs the same care.',
     relevance: [
       'Winton Hills (ZIP 45232) is a north-side neighborhood near Winton Road, with a mix of residential and industrial areas including multi-unit housing. In multi-unit buildings, replacement is rarely a single unit — systems are often grouped, so a sound plan sizes each apartment’s cooling correctly rather than carrying over an old, uneven setup.',
       'Much of the older housing here runs on equipment well past its service life, where one more season of repairs costs more than a planned swap. We size each system to the space it serves and can replace the equipment that is down without disrupting the rest of the building.',
@@ -97,7 +97,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'roselawn': {
     intro:
-      'Mid-century AC giving out in Roselawn along Reading Road? We replace tired systems and install efficient, properly sized ones, with an estimate. Call (513) 586-5107.',
+      'Along Reading Road in Roselawn, AC replacement usually involves mid-1900s homes and apartment buildings where central air is past the 12-to-15-year window. Condensers and coils start to fail at that age, and a fair number of older systems still run on R-22, which is no longer produced.',
     relevance: [
       'Roselawn (ZIP 45237) is a north-side neighborhood along Reading Road, with settled streets of mid-century single-family homes and apartment buildings. The central air in those mid-1900s houses is largely past the 12-to-15-year window where condensers and coils start to fail, and a fair number of older systems still run on R-22 that is no longer produced.',
       'In the apartment buildings, heavy use shortens equipment life further, so replacement timing comes up sooner than it would on a single-family home. We size each new system to the space rather than the old nameplate tonnage, which on these decades-old homes often corrects an oversized unit.',
@@ -113,7 +113,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-airy': {
     intro:
-      'AC failing in Mount Airy near the forest? We replace aging systems and install efficient cooling sized for hilltop, wooded lots, with an estimate. Call (513) 586-5107.',
+      'Near Mount Airy Forest, AC replacement comes up across a neighborhood of mid-century homes on hilly, wooded streets. Many of those systems are past the 12-to-15-year mark where condensers wear out, and the terrain shapes where a new unit can sit.',
     relevance: [
       'Mount Airy (ZIP 45239) is a northwest-side neighborhood beside Mount Airy Forest, one of the largest city parks in the country, with mid-century single-family homes on hilly, wooded streets. The cooling in many of those mid-1900s homes is now past the 12-to-15-year mark where condensers wear out, so replacement comes up across the neighborhood.',
       'The terrain shapes the install: a graded, wooded lot needs a level pad and clearance around the condenser so leaf litter and shade do not choke airflow, and the heat load on a two-story home near the tree line differs from an open lot. We size to the actual load and place the new unit for good airflow.',
@@ -129,7 +129,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hartwell': {
     intro:
-      'Old home in Hartwell with failing or no central air? We retrofit and replace with right-sized, efficient systems built for these streetcar-era houses. Call (513) 586-5107.',
+      'Hartwell AC replacement is often a retrofit. The Victorian and early-1900s homes on the tree-lined streets of this old streetcar suburb were built well before central air, and where running new ductwork through finished plaster is not practical, ductless cooling fits the house.',
     relevance: [
       'Hartwell (ZIP 45215) is a historic north-side neighborhood that grew as a streetcar suburb, known for its Victorian and early-1900s homes on tree-lined streets. Those century-old houses were built well before central air, so a replacement is often a retrofit — and where running new ductwork through finished plaster is not practical, ductless cooling fits the house without tearing it apart.',
       'Where central air was added later, it tends to be undersized in some rooms and oversized in others because it was never planned for the home’s layout. We assess the ducts and the room-by-room load before quoting, then recommend central or ductless to match.',
@@ -145,7 +145,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'kennedy-heights': {
     intro:
-      'Aging AC in your Kennedy Heights home, or none at all? We retrofit and replace with properly sized, efficient systems for these historic hilltop houses, with an estimate. Call (513) 586-5107.',
+      'AC replacement in Kennedy Heights often means fitting a system to a big early-1900s floor plan with retrofitted ducts. On this hilltop that began as a Victorian-era resort community, ductless units can cool the rooms the existing ducts do not reach.',
     relevance: [
       'Kennedy Heights (ZIP 45213) is a historic east-side hilltop neighborhood that began as a Victorian-era resort community, now known for its arts center and large early-1900s homes. Large, century-old houses were not built for central air, so replacement here often means fitting a system to a big floor plan with retrofitted ducts — or using ductless to cool the rooms that actually need it.',
       'Size matters more on a large old home: an undersized system never keeps the upper floors comfortable, while an oversized one short-cycles and runs up the bills. We measure the load room by room before quoting and set the condenser well on the hillside lot.',
@@ -161,7 +161,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'st-bernard': {
     intro:
-      'Old AC failing in St. Bernard, or no central air in your early-1900s home? We retrofit and replace with right-sized, efficient systems in this independent city. Call (513) 586-5107.',
+      'In St. Bernard, a new AC installation often cannot go where the old one sat. The dense grid of early-1900s homes around Ivorydale leaves tight valley lots, and a condenser needs clearance from the neighbor’s wall and the house for proper airflow.',
     relevance: [
       'St. Bernard (ZIP 45217) is its own city, completely surrounded by Cincinnati, built up around the Procter & Gamble Ivorydale complex with a dense grid of early-1900s homes. On small, tightly packed valley lots, condenser placement is a real constraint — a new unit needs clearance from the neighbor’s wall and the house for proper airflow, which often rules out a like-for-like swap into the old spot.',
       'Those century-old homes were also built before central air, so many have ductwork added later or none at all, making ductless a practical option. We check the lot, the ducts, and the load before quoting so the new system fits a close-set city home.',
@@ -177,7 +177,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'elmwood-place': {
     intro:
-      'Replacing the AC in your Elmwood Place home, or adding cooling to an older house? We size and install efficient systems in this small inner-ring village. Call (513) 586-5107.',
+      'Where the condenser goes is half of any AC replacement in Elmwood Place. Closely spaced early-1900s homes in this tiny Mill Creek valley village leave little room, so a new unit needs clearance from the next house, and these homes predate central air.',
     relevance: [
       'Elmwood Place (ZIP 45216) is a tiny, densely built village in the Mill Creek valley north of the city, with closely spaced early-1900s homes. On lots this tight, where the new condenser goes is half the job — it needs clearance from the next house for airflow, so we rarely just drop a replacement into the old spot without checking it.',
       'Those early-1900s homes predate central air, so cooling here was usually retrofitted, and ductless often fits a small, close-set village home better than new ductwork through finished walls. We measure the load and the lot before quoting.',
@@ -193,7 +193,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'delhi-hills': {
     intro:
-      'Mid-century AC giving out in Delhi Hills above the river? We replace tired systems and install efficient ones sized for hillside homes, with an estimate. Call (513) 586-5107.',
+      'Delhi Hills AC replacement is the common job in mid-century homes on hilly streets above the Ohio River. Central air there is largely past the 12-to-15-year mark where condensers and coils fail, and the hillside grade shapes where the new unit sits.',
     relevance: [
       'Delhi Hills (ZIP 45233) sits in Delhi Township on the west side above the Ohio River, an area with deep ties to greenhouse and floral growing, with established mid-century homes on hilly streets. The central air in those mid-1900s houses is largely past the 12-to-15-year mark where condensers and coils fail, so replacement is the common job here.',
       'The hillside grade shapes the install — a new condenser needs a level, well-drained pad on a sloped lot, and a two-story home with afternoon sun carries an upper-floor heat load that the sizing has to account for. We measure the load and place the unit for the terrain before quoting.',
@@ -209,7 +209,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'golf-manor': {
     intro:
-      'Old AC failing in your Golf Manor home? We replace aging systems and install efficient, right-sized ones in this small inner-ring village, with an estimate. Call (513) 586-5107.',
+      'Golf Manor AC replacement comes up across a compact grid of modest mid-century homes whose cooling is past the 12-to-15-year window. On houses this size packed close together, the most common mistake is replacing with a unit that is the wrong size.',
     relevance: [
       'Golf Manor (ZIP 45237) is a small village completely surrounded by Cincinnati on the north side, with a compact grid of modest mid-century homes. The cooling in those mid-1900s houses is now largely past the 12-to-15-year window where condensers wear out, so replacement comes up across the village.',
       'On modest homes packed close together, the most common mistake is replacing an oversized unit with another oversized unit — bigger is not better, since an oversized system short-cycles and runs up the bills. We size to the actual load, which usually means a smaller, more efficient unit than the one coming out.',
@@ -225,7 +225,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fairfax': {
     intro:
-      'Aging AC in your Fairfax home along Wooster Pike? We replace tired systems and install efficient, properly sized ones in this small east-side village, with an estimate. Call (513) 586-5107.',
+      'AC replacement in Fairfax covers two kinds of homes along Wooster Pike. Early-1900s houses have retrofitted central air, so replacement is often a retrofit job, while mid-century systems are past the 12-to-15-year mark where condensers and coils start to fail.',
     relevance: [
       'Fairfax (ZIP 45227) is a small east-side village along Wooster Pike near Mariemont, with established early- and mid-1900s homes. Cooling in homes of that range spans retrofitted central air in the older houses and mid-century systems now past the 12-to-15-year mark where condensers and coils start to fail.',
       'In the early-1900s homes, replacement is often a retrofit where ductless can fit better than new ducts; in the mid-century houses, it is usually swapping out worn equipment for a right-sized efficient unit. We assess the house before quoting so the new system matches it.',
@@ -241,7 +241,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mack': {
     intro:
-      'AC reaching the end of its life in Mack? We replace aging systems and install efficient ones across this Green Township community, with an estimate. Call (513) 586-5107.',
+      'Mack AC replacement usually starts with a repair-or-replace decision. Mid-century homes in this Green Township community are well past the 12-to-15-year mark where condensers and coils give out, and even the newer houses are now old enough for a first replacement.',
     relevance: [
       'Mack (ZIP 45248) is an established community in Green Township on the west side, with neighborhoods of mid-century and newer single-family homes. Even the newer houses here are now old enough for a first AC replacement, and the mid-century homes are well past the 12-to-15-year mark where condensers and coils give out.',
       'The most common decision in this kind of suburb is whether to keep repairing a 15-plus-year-old unit or replace it with an efficient one that costs less to run each summer. We size the new system to the home rather than the old nameplate and lay out the numbers.',
@@ -257,7 +257,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'monfort-heights': {
     intro:
-      'Mid-century AC giving out in Monfort Heights? We replace tired systems and install efficient, right-sized ones across this Green Township suburb, with an estimate. Call (513) 586-5107.',
+      'Replacement is the typical AC job in Monfort Heights, a Green Township suburb of mid-century homes. Central air here is well past the 12-to-15-year window where condensers and coils fail, and some older systems still run on R-22, which is no longer produced.',
     relevance: [
       'Monfort Heights (ZIP 45247) is a settled Green Township suburb on the west side, made up largely of mid-century single-family homes. The central air in those mid-1900s houses is now well past the 12-to-15-year window where condensers and coils fail, so replacement is the typical job here, and some older systems still run on R-22 that is no longer produced.',
       'When a system is that old, repeated repairs add up faster than a planned replacement, especially on an R-22 unit where refrigerant is costly. We size the new equipment to the house, which on these decades-old homes often corrects an oversized original.',
@@ -273,7 +273,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bridgetown': {
     intro:
-      'AC at the end of its life in Bridgetown? We replace aging systems and install efficient ones across this Green Township community, with an estimate. Call (513) 586-5107.',
+      'Bridgetown AC replacement usually comes down to repair versus replace. Mid-century houses run cooling largely past the 12-to-15-year mark where condensers and coils fail, and even the newer homes in this west-side Green Township community are now reaching their first replacement.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. The mid-century houses here run cooling that is largely past the 12-to-15-year mark where condensers and coils fail, while even the newer homes are now reaching a first replacement.',
       'The decision in a suburb like this is usually repair-versus-replace on an aging unit, and the right answer depends on the system’s age, refrigerant, and how often it has needed work. We size the new equipment to the home rather than the old tonnage and show the numbers.',
@@ -289,7 +289,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'finneytown': {
     intro:
-      'Mid-century AC failing in Finneytown? We replace tired systems and install efficient, properly sized ones across this Springfield Township community, with an estimate. Call (513) 586-5107.',
+      'In Finneytown, AC replacement is the common job on mid-century homes whose central air is past the 12-to-15-year window. Condensers and coils start to fail at that age, and a number of older systems in this Springfield Township community still run on R-22.',
     relevance: [
       'Finneytown (ZIP 45231) is a settled Springfield Township community on the north side, made up largely of mid-century single-family homes. The central air in those mid-1900s houses is now well past the 12-to-15-year window where condensers and coils start to fail, so replacement is the common job, and a number of older systems still run on R-22.',
       'On these decades-old homes, the original unit was often sized by rule of thumb and runs oversized, which short-cycles and wears the compressor. We measure the actual load before quoting and usually fit a right-sized, more efficient system.',
@@ -305,7 +305,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'amberley': {
     intro:
-      'Aging AC in your Amberley Village home, or cooling that never reached the whole house? We size and install efficient systems for large, wooded-lot homes, with an estimate. Call (513) 586-5107.',
+      'AC replacement in Amberley is often the moment to add zoning or a second system. Large homes on big, wooded lots carry large cooling loads, and a single undersized system rarely keeps a big floor plan even, so swapping the old box alone usually falls short.',
     relevance: [
       'Amberley Village (ZIP 45237) is an affluent north-side village known for its large homes on big, wooded lots along winding streets. Larger homes mean larger cooling loads, and a single undersized system rarely keeps a big floor plan even — which is why replacement here is often the moment to consider zoning or a second system rather than just swapping the old box.',
       'On wooded lots, the condenser also needs clearance from shade and leaf litter for good airflow, and a sprawling home’s load has to be measured room by room rather than guessed from square footage. We do that load calculation before quoting and recommend the system, or systems, that fit the house.',
@@ -321,7 +321,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'arlington-heights': {
     intro:
-      'Replacing the AC in your Arlington Heights home, or adding cooling to an older house? We size and install efficient systems in this small Mill Creek valley village. Call (513) 586-5107.',
+      'Arlington Heights AC replacement is rarely a drop-in to the old spot. On the close-set lots of this small Mill Creek valley village, the new condenser needs clearance from the next house, and the older homes predate standard central air.',
     relevance: [
       'Arlington Heights (ZIP 45215) is a small village in the Mill Creek valley north of the city, with a compact grid of older homes. On the close-set lots typical of a small valley village, the new condenser needs clearance from the next house for airflow, so a replacement is rarely a thoughtless drop-in to the old spot.',
       'The older housing here predates standard central air, so cooling was usually retrofitted, and ductless can fit a tight village home better than new ductwork through finished walls. We check the lot, the ducts, and the load before quoting.',
@@ -337,7 +337,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-college-hill': {
     intro:
-      'Old AC failing in North College Hill, or no central air in your older home? We retrofit and replace with right-sized, efficient systems in this small north-side city. Call (513) 586-5107.',
+      'North College Hill AC installation often depends on where the new condenser can go. On the tightly packed lots of this small city it needs clearance from the neighbor’s house, which often rules out a like-for-like swap, and the early-1900s homes here predate central air.',
     relevance: [
       'North College Hill (ZIP 45239) is a small, densely built city just north of College Hill, with a grid of early- and mid-1900s homes. On tightly packed lots, where the new condenser sits matters — it needs clearance from the neighbor’s house for airflow, which often rules out a like-for-like swap into the old position.',
       'The early-1900s homes predate central air, so cooling here was retrofitted and ductless is often the better fit, while the mid-century houses tend to be past the 12-to-15-year mark where equipment fails. We assess the lot, the ducts, and the load before quoting.',
@@ -353,7 +353,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newtown': {
     intro:
-      'Replacing the AC at your Newtown home near the Little Miami? We install efficient, properly sized systems for low river-bottom lots. Call (513) 586-5107.',
+      'In Newtown, condenser placement is part of any AC replacement. Older homes on low river-bottom ground near the Little Miami need the new unit on a raised, level pad clear of where water collects, and much of the equipment here is well past its service life.',
     relevance: [
       'Newtown (ZIP 45244) is a small east-side village near the Little Miami River, with older homes set on low river-bottom ground. On low ground near the river, condenser placement is part of the design — a new unit should sit on a raised, level pad clear of where water collects, not in whatever low spot the old one occupied.',
       'The older homes here also carry equipment well past its service life, often retrofitted into houses built before central air. We measure the load, check the ductwork, and set the new condenser where high water is least likely to reach it.',
@@ -369,7 +369,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'turpin-hills': {
     intro:
-      'AC at the end of its life in Turpin Hills? We replace aging systems and install efficient ones across this Anderson Township community, with an estimate. Call (513) 586-5107.',
+      'Turpin Hills AC replacement is usually a repair-or-replace question. Mid-century houses in this east-side Anderson Township community run cooling largely past the 12-to-15-year mark where condensers and coils fail, and even the newer homes in the established neighborhoods are reaching a first replacement.',
     relevance: [
       'Turpin Hills (ZIP 45244) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. The mid-century houses here run cooling largely past the 12-to-15-year mark where condensers and coils fail, while even the newer homes are now reaching a first replacement.',
       'In a suburb like this the question is usually repair-versus-replace, and the answer turns on the system’s age, refrigerant, and repair history. We size the new equipment to the home rather than the old tonnage and show the numbers.',
@@ -385,7 +385,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'silverton': {
     intro:
-      'Aging AC in your Silverton home along Montgomery Road? We replace tired systems and install efficient, properly sized ones in this small city, with an estimate. Call (513) 586-5107.',
+      'Silverton AC replacement takes two approaches along Montgomery Road. Early-1900s homes have retrofitted central air, where ductless often fits better than new ducts, and mid-century systems are past the 12-to-15-year window where condensers and coils start to fail and replacement beats repair.',
     relevance: [
       'Silverton (ZIP 45236) is a small city along Montgomery Road on the east side, with established streets of early- and mid-1900s homes. Cooling here spans retrofitted central air in the older houses and mid-century systems now past the 12-to-15-year window where condensers and coils start to fail.',
       'In the early-1900s homes, replacement often means a retrofit where ductless fits better than new ducts; in the mid-century houses, it is usually swapping worn equipment for a right-sized efficient unit. We assess the house before quoting so the new system matches it.',
@@ -401,7 +401,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lockland': {
     intro:
-      'Old AC failing in Lockland, or no central air in your worker-era home? We retrofit and replace with right-sized, efficient systems in this Mill Creek valley village. Call (513) 586-5107.',
+      'Lockland AC replacement is often a retrofit. Compact, century-old worker homes in this Mill Creek valley village predate central air and sit on tight lots, so the new condenser needs clearance from the next house for airflow, and sizing has to match the small footprint.',
     relevance: [
       'Lockland (ZIP 45215) is a historic village in the Mill Creek valley north of the city, built up around mills and industry, with closely spaced older worker housing. Those compact, century-old homes predate central air and sit on tight lots, so a replacement is often a retrofit where the condenser needs clearance from the next house for airflow.',
       'On homes this size and age, ductless frequently fits better than running new ductwork through finished walls, and the system has to be sized to a small floor plan rather than a generic tonnage. We check the lot, the ducts, and the load before quoting.',
@@ -417,7 +417,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'groesbeck': {
     intro:
-      'Mid-century AC giving out in Groesbeck? We replace tired systems and install efficient, right-sized ones across this Colerain Township community, with an estimate. Call (513) 586-5107.',
+      'Groesbeck AC replacement is the common job across this northwest Colerain Township community of mid-century single-family homes. Central air here is well past the 12-to-15-year window where condensers and coils fail, and some older systems still run on R-22, which is no longer produced.',
     relevance: [
       'Groesbeck (ZIP 45239) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. The central air in those mid-1900s houses is now well past the 12-to-15-year window where condensers and coils fail, so replacement is the common job here, and some older systems still run on R-22.',
       'On these decades-old homes the original unit was often oversized, which short-cycles and wears the compressor. We measure the actual load before quoting and usually fit a right-sized, more efficient system.',
@@ -433,7 +433,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-healthy': {
     intro:
-      'Old AC failing in Mount Healthy, or no central air in your early-1900s home? We retrofit and replace with right-sized, efficient systems in this historic north-side city. Call (513) 586-5107.',
+      'In Mount Healthy, AC replacement depends on the age of the house. Early-1900s homes near the old town center had cooling retrofitted later, so ductless often fits better than new ductwork through finished walls, while mid-century homes are past the 12-to-15-year mark.',
     relevance: [
       'Mount Healthy (ZIP 45231) is a historic small city on the north side, with an old town center and streets of early-1900s and mid-century homes. The early-1900s houses predate central air, so cooling was retrofitted later and ductless often fits better than new ductwork through finished walls.',
       'The mid-century homes, by contrast, tend to be past the 12-to-15-year mark where equipment fails, so replacement there is usually swapping a worn unit for a right-sized efficient one. We assess the ducts and the load before quoting so the new system fits the house.',

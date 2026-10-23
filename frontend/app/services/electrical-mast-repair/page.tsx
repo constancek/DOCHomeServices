@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
@@ -25,20 +25,7 @@ const signs = [
   { lead: 'Storm Damage', text: 'After a strong storm, check for fallen branches, dents, or other damage to your service mast.' },
 ];
 
-const whyChoose = [
-  'Licensed and experienced electricians',
-  'Repairs and full mast replacements',
-  'Quality, weather-rated materials',
-  'Code-compliant installation',
-  'A satisfaction guarantee on every job',
-];
 
-const whyUs = [
-  { icon: 'shield' as const, title: 'Family-Owned & Operated', text: 'A local team that takes care of your home like its own.' },
-  { icon: 'badge' as const, title: 'Experienced Electricians', text: 'Trained pros who handle service-entrance work safely.' },
-  { icon: 'check' as const, title: 'Code-Compliant Work', text: 'Proper flashing, sealing, and grounding that meets code.' },
-  { icon: 'house' as const, title: 'Satisfaction Guarantee', text: 'We’re not done until your power is safe and reliable.' },
-];
 
 const faqs = [
   { q: 'How do I know if I need an electrical mast repair?', a: 'A mast that has gone out of plumb, a weatherhead pulled away from the wall, cracked or brittle insulation on the conductors, rust streaks running down from the fittings, or a meter box no longer flat against the siding. One thing that is not a mast problem: the whole street being dark. That is a utility outage, and no electrician can shorten it.' },
@@ -95,22 +82,10 @@ export default function ElectricalMastRepairPage() {
         ]}
       />
 
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Storm-damaged or leaning service mast?
-          </h2>
-          <a href={site.primaryPhone.href} className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600">
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       <section className="py-16">
-        <MainWithSidebar couponTitle="Any Electrical Service">
+        <MainWithSidebar mascot couponTitle="Any Electrical Service">
           <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/mast-hero.webp)' }} role="img" aria-label="Electrical service mast on a home exterior" />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Professional Electrical Mast Repair
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -134,7 +109,7 @@ export default function ElectricalMastRepairPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/mast-signs.webp)' }} role="img" aria-label="Utility power line connection to a home" />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs You Need Service Mast Repair
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -160,7 +135,7 @@ export default function ElectricalMastRepairPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Electrical Mast Repair Services
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -175,6 +150,20 @@ export default function ElectricalMastRepairPage() {
             </p>
           </div>
           <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }} role="img" aria-label="Electrician reviewing mast repair work" />
+        </div>
+      </section>
+
+      <ServiceReviews service="electrical-mast-repair" />
+
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Storm-damaged or leaning service mast?
+          </h2>
+          <a href={site.primaryPhone.href} className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600">
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -225,38 +214,25 @@ export default function ElectricalMastRepairPage() {
 
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Mast Repair</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Homeowners across {site.serviceArea} choose {site.name} for safety, quality, and customer
-            satisfaction. When you work with our team, you receive:
+            The mast and weatherhead belong to you, not the utility, and water past a loose
+            weatherhead corrodes the meter box and panel. {site.name} repairs or replaces the mast
+            to code and files the permit when you book.
           </p>
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
-                <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
-                {w}
-              </li>
-            ))}
-          </ul>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Electrical Mast Repair FAQs</h2>
           <div className="mt-4">
             <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Mast Repair or Replacement Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule Mast Repair or Replacement Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Noticing problems with your electrical mast? {site.name} repairs and replaces masts across{' '}
               {site.serviceArea}. Call now or request an estimate.
@@ -274,20 +250,20 @@ export default function ElectricalMastRepairPage() {
         </div>
       </section>
 
-      {/* Electrical mast repair by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Electrical mast repair by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We repair and replace service masts across {site.serviceArea} —{' '}
-            {locations.filter((l) => mastRepairCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on the homes and storm exposure in your area.
-          </p>
-          <NeighborhoodLinks copy={mastRepairCopy} basePath="/services/electrical-mast-repair" linkPrefix="Mast repair" />
-        </div>
-      </section>
-
-      <PageSections service="electrical-mast-repair" />
+      <ServiceSections service="electrical-mast-repair">
+        {/* Electrical mast repair by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Electrical mast repair by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We repair and replace service masts across {site.serviceArea} —{' '}
+              {locations.filter((l) => mastRepairCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on the homes and storm exposure in your area.
+            </p>
+            <NeighborhoodLinks copy={mastRepairCopy} basePath="/services/electrical-mast-repair" linkPrefix="Mast repair" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

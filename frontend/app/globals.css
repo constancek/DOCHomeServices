@@ -32,7 +32,7 @@
 
   /* Headline treatment used across blue/pink sections */
   .section-title {
-    @apply font-display text-3xl font-extrabold uppercase leading-[1.05] tracking-tight sm:text-4xl;
+    @apply font-display text-2xl font-extrabold leading-[1.15] tracking-tight sm:text-[28px];
   }
 
   .btn {

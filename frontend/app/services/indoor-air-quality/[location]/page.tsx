@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Cleaner Air, Longer HVAC Life', body: 'Poor air quality is hard on equipment: dust and debris coat the coils and blower, force the system to work harder, and shorten its life. Better filtration in your {neighborhood} home means cleaner air to breathe and less strain on the furnace and AC, which means fewer breakdowns and lower bills.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'badge', title: 'Air Quality Testing', text: 'We test your indoor air to pinpoint the exact cause before recommending a solution.' },
-    { icon: 'check', title: 'Filtration & Humidifiers', text: 'Whole-home air purifiers, filters, humidifiers, and dehumidifiers — installed right.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked technicians and properly installed, lasting systems.' },
-    { icon: 'star', title: 'Satisfaction Guarantee', text: 'If you are not happy, neither are we — we stand behind every job.' },
-  ],
+  whyParagraph: 'We test the air in your {neighborhood} home to find the exact cause before suggesting anything, then install the right purifier, filter, humidifier or dehumidifier. If you aren’t happy with the job, we make it right or you don’t pay.',
   proofQuote:
     'Our allergies were brutal indoors and the winter air was painfully dry. They tested the air, put in a whole-home purifier and a humidifier on the furnace, and the difference was real — less dust, easier breathing, no more static shocks.',
   sharedFaqs: [

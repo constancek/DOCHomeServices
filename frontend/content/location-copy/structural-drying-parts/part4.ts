@@ -1,6 +1,6 @@
 export const part4: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'reading': {
-    intro: "Water is gone from your Reading basement but the carpet pad and the bottom of the drywall are still wet? We dry framing, subfloor, and drywall to measured readings across this Mill Creek valley city near the bridal-shop district. Call (513) 586-5107.",
+    intro: 'Once the water is out of a Reading basement, structural drying deals with what stays wet: carpet pad, subfloor and the bottom foot of drywall. In this low Mill Creek valley city we meter them daily against an unaffected part of the house and run equipment until they match.',
     relevance: [
       "Reading (ZIP 45215) sits low in the Mill Creek valley, so the water that reaches basements here comes up through a floor drain and settles into finished space — carpet, the pad beneath it, and the bottom foot of drywall. Those materials look dry on the surface long before they are dry inside, which is how a basement that feels fine in a week starts to smell in a month.",
       "We dry to numbers, not to a schedule. Once the standing water is out, we meter the pad, subfloor, and drywall daily against a dry reading taken from an unaffected part of the same house, then run air movers and dehumidifiers continuously until the affected material matches. Drywall that was wet but not contaminated usually dries in place; contaminated pad comes out. If a clean spill on your sealed basement floor was wiped up within the hour, nothing porous took it on and there is nothing for us to dry — open a window and move on.",
@@ -14,7 +14,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dent': {
-    intro: "Wall feels dry in your Dent home but there is still water behind it? We dry wall cavities, framing, and insulation to measured readings across this west-side Green Township community. Call (513) 586-5107.",
+    intro: 'A wall that feels dry can still hold water in the stud bay, and that is most structural drying in Dent. In these Green Township homes we meter into the cavity, make small openings where the reading warrants it and dry the framing and insulation to the house’s dry standard.',
     relevance: [
       "Dent (ZIP 45247) is a Green Township community of mid-century and newer homes, where a supply line that let go behind a wall soaks the cavity, the framing, and the insulation inside it. The painted surface dries first and hides the rest, so the wall passes a hand test while the stud bay behind it stays wet — the exact spot where mold starts if it is left alone.",
       "We do not guess at a cavity from the outside. We meter into the wall, and where the reading calls for it we make small controlled openings rather than tearing out the whole wall, then run air movers and dehumidifiers into the cavity continuously until the framing and insulation reach the same dry standard as the rest of the house. A household fan pointed at the wall only dries the paint; it cannot pull water out of insulation, which is why the wall reads wet again the morning after you switch the fan off. If a small clean spill wiped off a sealed floor within the hour never reached a wall, there is nothing inside to dry and you do not need us.",
@@ -28,7 +28,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'deer-park': {
-    intro: "Hardwood floor in your Deer Park home taken on water and starting to feel spongy? We dry solid hardwood and the subfloor under it to a measured moisture content across this small east-side city. Call (513) 586-5107.",
+    intro: 'Solid hardwood that has taken on water is common structural drying work in Deer Park. In this small city’s mid-century homes, drying mats pull water up through the boards, a low-grain dehumidifier keeps it from settling back, and a pin meter decides when the floor matches a dry room.',
     relevance: [
       "Deer Park (ZIP 45236) is a settled city of mid-century single-family homes, most still on the solid hardwood the builders laid. Hardwood does not advertise how wet it is — the boards look flat for a day or two, then cup along their edges once the moisture has already worked deep into the wood and the subfloor.",
       "We work off a pin meter pushed into the boards, not off how the surface looks. Drying mats sit flat on the floor and draw the water up through the wood, and a low-grain-refrigerant dehumidifier keeps the room air dry enough that the moisture leaves the boards instead of settling back into them. We read the same boards each day, compare them to hardwood in a room that never got wet, and stop when the two match. If a glass of clean water spilled on a sealed finish and you wiped it up within the hour, the wood never took it on and there is nothing to dry.",
@@ -42,7 +42,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'terrace-park': {
-    intro: "Water spread across several rooms of your Terrace Park home near the Little Miami? We dry framing, subfloor, and drywall across a wide affected area to measured readings. Call (513) 586-5107.",
+    intro: 'Water rarely stays in one room in Terrace Park, so structural drying here covers the whole wet footprint. In the large early-1900s homes near the Little Miami, we map moisture across every affected room and run equipment until each matches a dry standard from the same house.',
     relevance: [
       "Terrace Park (ZIP 45174) is an affluent village of early-1900s homes on low ground near the Little Miami, and many have large finished footprints where water does not stay in one room. It travels under walls and along the subfloor into adjoining spaces, so the wet area is almost always bigger than the room where the water started.",
       "A spread that wide needs enough equipment in the right places, not a couple of fans in the obvious room. We map the moisture across every affected room, meter each daily against a dry standard from the same house, and run air movers and dehumidifiers continuously across the whole footprint until every reading matches. Sizing the equipment to the real wet area is what keeps a far corner from staying damp behind a wall for months. If the water stayed on sealed tile in one room and came up within the hour, there is nothing spread and nothing to dry.",
@@ -56,7 +56,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dry-run': {
-    intro: "Laminate or engineered floor over a Dry Run slab gone wet underneath? We dry the slab and the flooring bonded to it to measured readings across this east-side Anderson Township community. Call (513) 586-5107.",
+    intro: 'Laminate or engineered flooring over a wet slab is a regular structural drying job in Dry Run. In these Anderson Township homes, water sits between plank and concrete for weeks, so we meter both daily and lift what traps moisture rather than leaving it sealed down.',
     relevance: [
       "Dry Run (ZIP 45244) is a suburban Anderson Township community of mid-century and newer homes, many built with engineered wood or laminate laid over a concrete slab. Water gets under that flooring through the seams and has nowhere to go — it sits between the plank and the slab, where the surface can feel dry underfoot while the layer beneath stays wet for weeks.",
       "Concrete holds water and gives it up slowly, so drying a slab is measured work, not a matter of a fan and a few days. We meter the slab and the flooring daily, run dehumidifiers and air movers continuously, and where the plank traps moisture against the concrete we lift what has to come up rather than pretend it will dry sealed down. The readings, not the calendar, tell us when it is done. A clean splash on a sealed floor you dried within the hour never got under the plank, and that does not need us.",
@@ -70,7 +70,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'white-oak': {
-    intro: "Finished basement in your White Oak home soaked through after a leak? We dry drywall, carpet pad, and subfloor to measured readings across this northwest-side Green Township community. Call (513) 586-5107.",
+    intro: 'Finished basements soaked after a leak make up much of the structural drying in White Oak. In these Green Township homes we meter drywall at several heights to see how far water climbed, dry clean-water drywall in place and pull pad that soaked through.',
     relevance: [
       "White Oak (ZIP 45247) is a Green Township community of mid-century and newer homes, many with finished basements — carpet over pad and drywall running to the floor. When water gets in, the drywall wicks it up well past the visible line and the pad holds it against the slab, so the room can look dry while both are still wet.",
       "We meter the drywall at a few heights up from the floor to see how far the water climbed, set air movers low along the base of the wall, and run a dehumidifier to carry the moisture off. Drywall that was wet with clean water usually dries in place, so we would rather dry it than bill you to hang new sheets; pad that soaked through comes out. We make a flood cut only where the reading shows the sheet will not come back. A clean spill mopped off a sealed floor within the hour reached none of that and does not need us.",
@@ -84,7 +84,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'forestville': {
-    intro: "Wall in your Forestville home dry to the touch but still wet inside? We dry wall cavities, framing, and insulation to measured readings across this east-side Anderson Township community. Call (513) 586-5107.",
+    intro: 'Forestville walls can feel dry within a day while the cavity stays wet, so structural drying here reads inside the bay. In these Anderson Township homes we make small low openings where the meter shows water, aim air movers into the bay and hold until it matches the house.',
     relevance: [
       "Forestville (ZIP 45230) built out as an Anderson Township suburb of mid-century and newer homes, where a failed line or appliance sends water into a wall and soaks the cavity behind a surface that dries fast on its own. Within a day the paint and the face of the drywall feel fine, while the framing and the insulation inside the bay are still holding water.",
       "We meter into the cavity rather than across the surface, and where the reading calls for it we make small controlled openings low on the wall and direct air movers into the bay itself, with a dehumidifier carrying the moisture off. The equipment stays until the framing and insulation inside read as dry as the rest of the house, not until the surface feels right. Wet insulation is the part no surface test will find, which is why a wall that passed a hand check reads wet the next morning. A clean spill wiped off a sealed floor within the hour that never reached a wall leaves nothing inside to dry.",
@@ -98,7 +98,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'cherry-grove': {
-    intro: "Hardwood in your Cherry Grove home already cupping at the edges? We dry solid hardwood and its subfloor to a measured moisture content across this east-side Anderson Township community. Call (513) 586-5107.",
+    intro: 'How far hardwood has cupped tells us how much structural drying in Cherry Grove can save. In these Anderson Township mid-century homes, mats and evenly spaced air movers dry the boards, and those that flatten back to a dry reading stay.',
     relevance: [
       "Cherry Grove (ZIP 45230) is an Anderson Township community of mid-century single-family homes, many with solid hardwood underfoot. Once water is under those boards they start to cup — the edges lift while the centre stays low — and how far that cupping has gone tells us how much of the floor is still worth saving.",
       "We lay drying mats over the wet boards and set air movers along the length of the run so the airflow is even from wall to wall rather than blasting one corner, with a refrigerant dehumidifier carrying the moisture out of the room. Each day we meter the boards and watch whether the cupping is easing as they dry. Boards that flatten back are kept; boards that stay deformed after they reach a dry reading are the ones that come up. A few minutes of clean water wiped off a sealed finish is not a drying job and does not need us.",
@@ -112,7 +112,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'kenwood': {
-    intro: "Water off an upper floor spread through your Kenwood home? We dry framing, subfloor, and drywall across a wide affected area to measured readings, near Kenwood Towne Centre. Call (513) 586-5107.",
+    intro: 'Water from an upper floor in a larger Kenwood home usually spans two floors before anyone finds it, so structural drying here maps both levels. Near Kenwood Towne Centre we meter every affected room daily and run equipment across the whole area until the numbers match.',
     relevance: [
       "Kenwood (ZIP 45236) mixes mid-century homes with newer, larger houses around Kenwood Towne Centre, and in a two-story or larger home water from an upper floor runs down through the ceiling and across the level below before anyone finds it. The wet area ends up spanning two floors and several rooms, not the one spot where it started.",
       "A spread that size needs the equipment placed to the readings, not to guesswork. We map the moisture across both floors and every affected room, meter each daily against a dry standard from the same house, and run air movers and dehumidifiers continuously across the whole area until the numbers match. Sizing to the true wet footprint is what stops a ceiling cavity two rooms away from staying damp for months. If a clean spill was wiped off a sealed floor within the hour, nothing spread and there is nothing to dry.",
@@ -126,7 +126,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'lincoln-heights': {
-    intro: "Plaster walls in your Lincoln Heights home soaked through? We dry plaster, lath, and framing to measured readings across this historic Mill Creek valley community. Call (513) 586-5107.",
+    intro: 'Plaster-and-lath walls set the pace for structural drying in Lincoln Heights. In the older, modest homes on the Mill Creek valley floor, plaster soaks well up from the floor and dries far slower than drywall, so we meter it daily and give it the time it needs.',
     relevance: [
       "Lincoln Heights (ZIP 45215) was one of the first self-governed Black municipalities in the northern United States, a community of older, modest homes on the low floor of the Mill Creek valley. Those homes carry plaster-and-lath walls, and plaster holds water deep — it soaks well up from the floor and dries far more slowly than modern drywall, staying wet inside long after the surface feels dry.",
       "Plaster is worth drying rather than replacing, so we take the time it needs. We meter the plaster and the framing behind it daily against a dry standard from the same house and run air movers and dehumidifiers continuously until the readings match, which takes longer with plaster than with drywall. A fan in the room dries the plaster face and leaves the lath and framing wet behind it, which is how the wall reads dry and is not. If a clean spill on a sealed floor came up within the hour and never reached a wall, there is nothing soaked and you do not need us.",
@@ -140,7 +140,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dillonvale': {
-    intro: "Laminate over a Dillonvale slab wet underneath? We dry the slab and the flooring on it to measured readings across this east-side Sycamore Township community near Kenwood. Call (513) 586-5107.",
+    intro: 'Laminate over a Dillonvale slab hides wet concrete underneath, which structural drying has to reach. In these Sycamore Township homes near Kenwood, we lift plank that traps water, set air movers and a dehumidifier and meter the slab daily until it reads dry.',
     relevance: [
       "Dillonvale (ZIP 45236) is a Sycamore Township community of mid-century homes near Kenwood, and many lower levels run engineered wood or laminate over a concrete slab. Water finds the seams and sits between the plank and the slab, where the surface feels dry underfoot while the concrete beneath holds moisture for weeks.",
       "Concrete releases water slowly, so this is metered work, not a fan and a hopeful few days. We set air movers across the floor and a dehumidifier to take the moisture off, and where the plank is trapping water against the slab we lift it rather than sealing the water in. We meter the slab itself daily and keep going until it reads dry. A clean splash you dried off a sealed floor within the hour never got under the plank and does not need us.",
@@ -154,7 +154,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'woodlawn': {
-    intro: "Basement backup in your Woodlawn home left the drywall and pad soaked? We dry the framing and subfloor to measured readings and pull what a dirty backup ruined, across this Mill Creek valley village. Call (513) 586-5107.",
+    intro: 'A dirty basement backup changes structural drying in Woodlawn. On the Mill Creek valley floor, contaminated pad and lower drywall come out first, then we dry the framing behind them to a measured standard. Clean-water drywall we would dry in place instead.',
     relevance: [
       "Woodlawn (ZIP 45215) runs its residential streets among industrial corridors on the low floor of the Mill Creek valley, where basements take on water that comes up through a floor drain. A drain backup is rarely clean, and that changes the job: the water carries contamination into everything porous it touches.",
       "Where the backup was dirty, the carpet pad and the soaked lower drywall come out rather than being dried and kept, and we dry the framing behind them to a measured standard with air movers and a dehumidifier once the wet material is gone. Clean water is a different call — clean, wet drywall we would dry in place. Either way we read the framing daily against a dry part of the house and stop on the numbers. A clean spill wiped off a sealed floor within the hour did not reach any of it and does not need us.",
@@ -168,7 +168,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'addyston': {
-    intro: "Plaster walls in your Addyston home soaked after the river came up? We dry plaster, lath, and framing to measured readings across this far-west Ohio River village. Call (513) 586-5107.",
+    intro: 'River water in century-old plaster is what structural drying in Addyston usually faces. In this far-west mill town, a desiccant dehumidifier pulls the air dry enough to keep drawing water from plaster and lath, and contaminated material that cannot be cleaned comes out.',
     relevance: [
       "Addyston (ZIP 45001) is an old mill town of closely spaced, century-old worker homes on the far west side along the Ohio River. Those homes carry plaster over wood lath, and plaster holds water deeper and lets it go slower than any modern wall material — it stays wet an inch in long after the face feels dry.",
       "Dense wet plaster needs air drier than a standard dehumidifier delivers, so we run a desiccant unit that pulls the room to a very low humidity and keeps drawing moisture out of the wall, with air movers moving it off the surface. We meter the plaster and the framing behind it daily against a dry standard from the same house and give it the longer time plaster takes. Where flood water was contaminated, saturated material that cannot be cleaned comes out — but a clean spill wiped off a sealed floor within the hour never soaked a wall and does not need us.",
@@ -182,7 +182,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'greenhills': {
-    intro: "Historic Greenhills cottage taken on water? We dry the original framing, subfloor, and plaster to measured readings without disturbing its Greenbelt-era character. Call (513) 586-5107.",
+    intro: 'Structural drying in a historic Greenhills cottage aims to save original framing and plaster in place. In this 1930s Greenbelt town, now a National Historic Landmark district, we use mats, air movers and dehumidifiers and make only the smallest openings the readings demand.',
     relevance: [
       "Greenhills (ZIP 45218) was laid out in the 1930s as a New Deal Greenbelt town and is now a National Historic Landmark district, its original cottages still standing on their modest basements. The materials are close to a century old and worth keeping, which makes drying them in place the goal rather than opening walls that carry historic detail.",
       "We work to the least-invasive method the readings allow — mats on wet floors, air movers and dehumidifiers on the framing and plaster, and only the smallest openings the numbers demand rather than cutting into original fabric. We meter each material daily against a dry standard from the same home and hold the equipment until the structure reads genuinely dry, not dry on the surface. A clean spill wiped off a sealed floor within the hour never reached the structure and does not need us.",
@@ -196,7 +196,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'northbrook': {
-    intro: "Wall in your Northbrook home dry on the surface but wet in the bay behind it? We dry wall cavities, framing, and insulation to a measured standard across this northwest Colerain Township community. Call (513) 586-5107.",
+    intro: 'Northbrook walls hide water in the stud bay after a corroded supply line splits, so structural drying here works from inside. In these Colerain Township homes, a cavity drying system feeds dry air through small low ports until the bay matches a wall that never got wet.',
     relevance: [
       "Northbrook (ZIP 45251) is a Colerain Township community of mid-century single-family homes, where a supply line that corroded and split behind a wall soaks the cavity, the framing, and the insulation in it. The visible surface dries within a day, while the stud bay behind holds water no hand test will catch.",
       "Rather than open the whole wall, we use a cavity drying system that feeds dry air into the stud bay through small ports low on the wall, with a dehumidifier pulling the moisture back out, so the framing and insulation dry from the inside. We meter the same point in the cavity each day and set the dry standard from a wall that never got wet — the equipment stays until the wet bay matches that number. A clean spill wiped off a sealed floor within the hour that never reached a wall leaves nothing in the bay to dry.",
@@ -210,7 +210,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'indian-hill': {
-    intro: "Water spread across a large Indian Hill estate? We dry framing, subfloor, and drywall across a wide affected area to measured readings, on the village's multi-acre properties. Call (513) 586-5107.",
+    intro: 'Large estates mean structural drying in Indian Hill covers a lot of square footage. On these multi-acre properties, water in a big finished lower level travels under walls and along the subfloor, so we map the whole level and run equipment until every room matches a dry standard.',
     relevance: [
       "Indian Hill (ZIP 45243) is a village of large estates on multi-acre, wooded lots, many with big finished lower levels of carpet, millwork, and drywall running across a lot of square footage. Water in a space that size does not stay put — it travels under walls and along the subfloor into rooms well away from where it started.",
       "A footprint that large needs equipment sized and placed to the readings, not a handful of fans in the obvious room. We map the moisture across the whole level, meter every affected room daily against a dry standard from the same house, and run air movers and dehumidifiers continuously until each reading matches. Covering the true wet area is what keeps a far room from staying damp behind its walls for months. If the water stayed on a sealed floor in one room and came up within the hour, nothing spread and there is nothing to dry.",
@@ -224,7 +224,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'evendale': {
-    intro: "Slab-level floor in an Evendale home or building wet underneath? We dry the slab and the flooring on it to measured readings across this north-side village near GE Aerospace. Call (513) 586-5107.",
+    intro: 'Slab floors in Evendale homes and commercial buildings trap water underneath, and structural drying has to reach the concrete. Near GE Aerospace, we size dehumidifier capacity to the floor, lift coverings that seal water in and stop on the slab reading.',
     relevance: [
       "Evendale (ZIP 45241) mixes mid-century homes with a large industrial base including GE Aerospace, and much of the flooring here — residential laminate, commercial vinyl, engineered plank — is laid over concrete slab. Water works under it through the seams and sits against the concrete, where the surface feels dry while the slab beneath holds moisture for weeks.",
       "This is metered work scaled to the floor, whether a house or a commercial space. We size enough dehumidifier capacity to hold the room air low so the slab keeps giving up its moisture, set air movers across the floor, and lift the covering where it traps water rather than sealing it under. The slab reading, not the calendar, says when it is dry. A clean spill dried off a sealed floor within the hour never got under the covering and does not need us.",
@@ -238,7 +238,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'glendale': {
-    intro: "Historic Glendale Victorian taken on water? We find where it went and dry the original hardwood, plaster, and framing to measured readings without disturbing the period detail. Call (513) 586-5107.",
+    intro: 'Finding where the water went without opening walls is the first step of structural drying in Glendale. In these preserved Victorians in a National Historic Landmark suburb, a thermal camera and meters map the wet plaster and framing before we dry them in place.',
     relevance: [
       "Glendale (ZIP 45246) is a National Historic Landmark, one of the country's first planned railroad suburbs, and its preserved Victorian homes carry original hardwood, plaster, and framing worth saving. In a house like this the first job is finding where the water travelled without opening walls to look.",
       "We map the wet area with a thermal camera and confirm it with moisture meters, so we know exactly where the water is before we touch anything, then dry the hardwood, plaster, and framing in place with air movers and dehumidifiers, opening only the spots the readings demand. We meter each material daily against a dry standard from the same home and stop on the numbers. A clean spill wiped off a sealed floor within the hour never reached the structure and does not need us.",
@@ -252,7 +252,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'sharonville': {
-    intro: "Finished basement in a Sharonville home or a back room at the shop soaked through? We size the drying equipment to the space and dry drywall, pad, and subfloor to measured readings, near Sharon Woods. Call (513) 586-5107.",
+    intro: 'Structural drying in Sharonville can mean a basement rec room near Sharon Woods or a larger commercial floor by the convention center. We size the air movers and dehumidifier to the square footage that took on water, dry clean drywall in place and pull pad that soaked through.',
     relevance: [
       "Sharonville (ZIP 45241) runs from established homes near Sharon Woods to commercial buildings by the convention center, and a wet finished space here can be a basement rec room or a larger commercial floor. The bigger the wet area, the more air movers and dehumidifier capacity it takes to dry evenly rather than leaving a far corner damp.",
       "We count the equipment to the square footage that actually took on water, set air movers along the wet walls, and run the dehumidifier to match. Clean, wet drywall dries in place; pad that soaked through comes out. We read fixed points daily against a dry standard and pull the gear when they match. The equipment does run continuously, including overnight, because drying stops the moment it does. A clean spill wiped off a sealed floor within the hour reached none of it and does not need us.",
@@ -266,7 +266,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'northgate': {
-    intro: "Wall dry on the surface in a Northgate home but wet behind the baseboard? We dry wall cavities, framing, and insulation to measured readings near the Northgate Mall corridor. Call (513) 586-5107.",
+    intro: 'Walls near the Northgate Mall corridor often dry on the face while the bay behind the baseboard stays wet, which is where structural drying in Northgate starts. We pull the base trim, drill small vent holes low in the drywall and push air through the cavity.',
     relevance: [
       "Around the Northgate Mall corridor in Colerain Township, ZIP 45251 runs to mid-century and newer homes where water from a failed line pools inside a wall behind a surface that dries fast on its own. The face of the drywall reads fine within a day while the bay behind it stays wet.",
       "To dry the bay without tearing out the wall, we pull the base trim and drill small vent holes low in the drywall, then push air through the cavity and run a dehumidifier to take the moisture off. We meter inside daily against a dry standard from the rest of the house. Leave it to a household fan and the wall reads wet again every morning, because the fan dries the face overnight while the insulation behind stays soaked. A clean spill wiped off a sealed floor within the hour that never reached a wall leaves nothing behind the surface to dry.",
@@ -280,7 +280,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'springdale': {
-    intro: "Hardwood floor in a Springdale home holding water days after the leak? We dry solid hardwood and the subfloor beneath it to a measured moisture content on this north-side Tri-County city. Call (513) 586-5107.",
+    intro: 'Solid hardwood is usually the slowest part of structural drying in a Springdale home. In these mid-century houses near the Tri-County corridor, we tent the wet section of floor so the dehumidifier works a small pocket of air, with drying mats drawing moisture up until the wood reads dry.',
     relevance: [
       "Springdale (ZIP 45246) sets mid-century neighborhoods against the commercial base of the Tri-County corridor, and its older homes tend to have solid hardwood floors. Wood gives up water slowly, so a hardwood floor is usually the longest part of a house to dry — the boards can feel fine on top while the core is still wet.",
       "To speed that along we tent the affected section of floor with sheeting so the dehumidifier is working a small pocket of air instead of the whole room, with drying mats underneath drawing the moisture up. We track the humidity inside that pocket and the moisture content of the boards together, and the floor is done when the wood reads dry, not when the tent has been up a set number of days. A clean splash wiped off a sealed finish within the hour never soaked in and does not need us.",
@@ -294,7 +294,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'miamitown': {
-    intro: "Plaster walls in a Miamitown home soaked after the Great Miami came up? We dry plaster, lath, and framing to measured readings across this far-west river community. Call (513) 586-5107.",
+    intro: 'Soaked plaster after the Great Miami comes up is the usual structural drying job in Miamitown. In these older river-bottom homes we meter the plaster face and the framing behind it daily, because the gap between those readings shows the wall is still wet inside.',
     relevance: [
       "Miamitown (ZIP 45041) sits on low river-bottom ground beside the Great Miami, and its older homes carry plaster over lath that rising water soaks from the floor up. Plaster gives up water slowly, so the face of a wall can feel dry while the lath and framing behind it stay wet for a good while yet.",
       "We run air movers along the wall with refrigerant dehumidifiers carrying the moisture off, and we plan for the longer runtime plaster needs rather than pulling the gear early. Each day we meter the face of the plaster and the framing behind it — the gap between those two readings is what tells us the wall is still wet inside even when the surface has dried. Where flood water was contaminated, material that cannot be cleaned comes out; a clean spill wiped off a sealed floor within the hour never soaked a wall and does not need us.",
@@ -308,7 +308,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'forest-park': {
-    intro: "Slab-level floor in a Forest Park home feels dry on top but is wet underneath? We dry the slab and the flooring on it to measured readings across this planned north-side city. Call (513) 586-5107.",
+    intro: 'A Forest Park floor can feel dry on top while the slab beneath stays wet, and structural drying has to reach the concrete. In this 1960s planned city, a low-grain dehumidifier keeps the slab releasing, and plank that seals water in comes up.',
     relevance: [
       "Forest Park (ZIP 45240) went up as a planned city through the 1960s, and much of its flooring — laminate and engineered plank in later updates over concrete slab — traps water when it gets in through the seams. It sits between the plank and the slab, where the surface feels dry underfoot while the concrete beneath stays wet.",
       "We run a low-grain-refrigerant dehumidifier to keep the air dry enough that the slab keeps releasing moisture, with air movers across the floor, and we meter the slab to decide the call — plank that lets the slab dry beneath it can stay down, plank that seals the water in comes up. The reading in the concrete tells us when it is done, not how the surface feels. A clean splash dried off a sealed floor within the hour never got under the plank and does not need us.",
@@ -322,10 +322,10 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'pleasant-run': {
-    intro: "Finished lower level in a Pleasant Run home soaked and you are worried about the power bill to dry it? We dry drywall, pad, and subfloor to measured readings across this north-side Springfield Township community. Call (513) 586-5107.",
+    intro: 'Structural drying in Pleasant Run usually means a finished lower level with wet pad and drywall. In these Springfield Township homes the equipment draws power while it runs, so daily readings let us pull it the moment the space matches a dry standard.',
     relevance: [
       "Pleasant Run (ZIP 45240) is a Springfield Township community of mid-century and newer homes, many with finished lower levels of carpet over pad and drywall to the floor. When water gets in, the drywall wicks it above the visible line and the pad traps it against the slab, so the room can look dry while both hold water.",
-      "We set air movers along the wall base and run a dehumidifier continuously until the readings match a dry part of the house — pad out, clean drywall dried in place. The equipment does draw power 7 days a week from 8am to 8pm while it runs, and that is the trade for drying the structure properly instead of leaving moisture behind the baseboard; the daily readings are what let us pull it as soon as the space is genuinely dry rather than running it longer than it needs. A clean spill mopped off a sealed floor within the hour reached none of it and does not need us.",
+      "We set air movers along the wall base and run a dehumidifier continuously until the readings match a dry part of the house — pad out, clean drywall dried in place. The equipment does draw power 7 days a week while it runs, and that is the trade for drying the structure properly instead of leaving moisture behind the baseboard; the daily readings are what let us pull it as soon as the space is genuinely dry rather than running it longer than it needs. A clean spill mopped off a sealed floor within the hour reached none of it and does not need us.",
     ],
     commonIntro: "Across Pleasant Run's finished lower levels, the drying we handle most often covers wet drywall and carpet pad:",
     localFaqs: [
@@ -336,7 +336,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'cleves': {
-    intro: "Plaster walls in a Cleves home soaked after the rivers came up? We dry plaster, lath, and framing to measured readings across this far-west village near the Great Miami and the Ohio. Call (513) 586-5107.",
+    intro: 'Plaster soaked when the rivers rise near Cleves has to earn its place before structural drying commits to it. In these older homes by the Great Miami and the Ohio, plaster drying steadily toward the dry standard stays, while sections that stay saturated or met contaminated water come out.',
     relevance: [
       "Cleves (ZIP 45002) sits on low ground near where the Great Miami meets the Ohio, and its older homes carry plaster over lath that rising water soaks from the floor up. Plaster is worth saving where we can, but it holds water deep and a soaked wall has to earn its place before we commit to drying it rather than opening it.",
       "We run a low-grain-refrigerant dehumidifier to push drier air at the slow-releasing plaster, with air movers along the wall, and meter the plaster and framing daily. The readings decide the call: plaster that is drying steadily toward the dry standard stays and gets the time it needs, while a section that stays saturated or was hit by contaminated flood water comes out. A clean spill wiped off a sealed floor within the hour never soaked a wall and does not need us.",
@@ -350,7 +350,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'north-bend': {
-    intro: "Hardwood in a North Bend home dry on top but soft underfoot? We dry the boards and the subfloor beneath them to a measured moisture content across this historic Ohio River village. Call (513) 586-5107.",
+    intro: 'Structural drying in North Bend works hardwood from both sides. In the older homes of this historic Ohio River village, mats draw moisture up through the boards while air movers and a dehumidifier dry the subfloor from the basement or crawlspace, and both layers are metered separately.',
     relevance: [
       "North Bend (ZIP 45052) is a historic Ohio River village, the burial place of President William Henry Harrison, with older homes on the low riverside. Many keep solid hardwood, and when it takes on water the subfloor underneath holds moisture longer than the boards you can see — dry the surface alone and the floor cups again from below.",
       "So we dry the floor from both sides. Mats draw moisture up through the boards, and where a basement or crawlspace sits under the room we aim air movers and a dehumidifier at the underside of the subfloor as well. We meter the subfloor separately from the surface and hold the equipment until both layers reach a dry standard, because the surface reading on its own does not prove the floor is done. If clean water sat on a sealed finish for minutes and you wiped it, nothing soaked through and there is nothing to dry.",
@@ -364,7 +364,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'loveland': {
-    intro: "Historic Loveland home near the Little Miami taken on water? We dry the original hardwood, plaster, and framing to measured readings without disturbing the period detail. Call (513) 586-5107.",
+    intro: 'Historic homes near the Little Miami in Loveland need structural drying that is gentle on old finishes. We balance air movers across the rooms rather than aiming them hard at hardwood and plaster, and the daily readings sort what dries back from what has to come out.',
     relevance: [
       "Loveland (ZIP 45140) straddles the Little Miami and the Loveland Bike Trail, with a charming older downtown and historic homes near the water that carry original hardwood, plaster, and framing. Those materials hold water deep and dry slowly, and each one comes back on its own terms — some can be dried and kept, some cannot.",
       "We balance the air movers gently across the rooms rather than aiming them hard at old finishes that can lift or crack, run dehumidifiers to carry the moisture off, and meter each material daily against a dry standard from the same home. The readings sort what stays from what goes — hardwood and plaster that dry back to the standard are kept, and only what will not recover comes out. A clean spill wiped off a sealed floor within the hour never reached the structure and does not need us.",
@@ -378,7 +378,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'harrison': {
-    intro: "Wall dry to the hand in a Harrison home but still wet where you cannot see? We trace the water and dry the cavity, framing, and insulation to measured readings on this far-west city at the Indiana line. Call (513) 586-5107.",
+    intro: 'Water wicks sideways along the framing, so structural drying in Harrison starts with a thermal camera. In this far-west city at the Indiana line, we trace how far the water ran inside the wall, open only what the readings demand and dry the full wet run.',
     relevance: [
       "Harrison (ZIP 45030) is a far-west city on the Whitewater River at the Indiana state line, with an older downtown and a mix of established and newer homes. Water from a failed line or a backup runs into a wall and wicks sideways along the framing, so the wet area is often wider than the spot where it started and none of it shows on the surface.",
       "We run a thermal camera across the wall to see how far the water travelled, confirm it with a meter, and open only the spots the readings call for before directing air movers into the cavity with a dehumidifier alongside. That way we dry the whole wet run instead of the one obvious patch, and we hold the equipment until the framing and insulation read dry. A clean spill wiped off a sealed floor within the hour that never reached a wall leaves nothing inside to dry.",

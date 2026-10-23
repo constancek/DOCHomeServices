@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Repair, Replace, or Tune Up', body: 'A unit under 10 years old with an isolated fault is usually worth repairing. One that is racking up repairs, losing efficiency, or no longer meeting demand is often better replaced. And a healthy system just needs an annual descaling to stay efficient and keep its warranty intact. We tell you honestly which fits your {neighborhood} home.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'badge', title: 'All Major Brands', text: 'Our licensed technicians work with every major tankless brand, gas or electric.' },
-    { icon: 'check', title: 'Properly Sized', text: 'We evaluate flow rate, demand, and utility access so the system heats without strain.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked plumbers and installations done to code.' },
-    { icon: 'clock', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-  ],
+  whyParagraph: 'Our licensed plumbers install gas and electric tankless units from every major brand in {neighborhood}. We check flow rate, demand and utility access first, so the unit heats without strain, and you approve a flat price with no overtime fees.',
   proofQuote:
     'Switched from an old tank to a tankless unit and freed up half the utility closet. They sized it right for our family, handled the gas line upgrade, and walked us through the annual flush. Endless hot water now.',
   sharedFaqs: [

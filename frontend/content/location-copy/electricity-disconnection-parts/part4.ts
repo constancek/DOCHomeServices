@@ -6,7 +6,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part4: Record<string, LocationServiceCopy> = {
   'western-hills': {
     intro:
-      'Corrosion in the meter base, connections that ran warm for years, grounding to an old standard: Western Hills disconnections around Glenway Avenue are usually accumulated wear. We repair what the inspector will check and get you reconnected. Call (513) 586-5107.',
+      'Most Western Hills power disconnections around Glenway Avenue come from accumulated wear: corrosion inside the meter base, connections that ran warm for years, grounding to an old standard. We repair what the inspector will check on these early-1900s and mid-century homes and get you reconnected.',
     relevance: [
       'Western Hills (ZIP 45211) covers a broad stretch of established housing around Western Hills Plaza and Glenway Avenue, running from early-1900s homes through to mid-century, and the disconnections we attend here are usually the result of accumulated wear rather than any single event. Corrosion inside a meter base, connections that have run warm for years, grounding installed to a standard that no longer applies.',
       'What brings it to a head is almost always someone external looking at the service — a technician swapping a meter, a survey before a sale, or an insurer asking questions at renewal. That last one has become more common. Insurers increasingly ask about panel age and type, and a policy declined or non-renewed over an electrical service is a growing reason homeowners here call us before anything has actually failed.',
@@ -23,7 +23,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   california: {
     intro:
-      'California sits on some of the lowest ground in Cincinnati, along Kellogg Avenue. A panel that has been submerged stays disconnected until it’s replaced, however dry it looks. We replace it and meet the inspector. Call (513) 586-5107.',
+      'California sits on some of the lowest ground in Cincinnati, along Kellogg Avenue, and water causes most power disconnections here. A panel that has been submerged stays disconnected until it is replaced, however dry it looks. We replace it, meet the inspector, and look at raising it.',
     relevance: [
       'California (ZIP 45230) is Cincinnati’s far-east riverfront neighborhood along Kellogg Avenue, on some of the lowest ground in the city, and the recurring cause of disconnections here is water rather than wear. Where a panel has been submerged the utility will not re-energise it, and drying is not an option — water reaches behind the bus bars and into the breakers and corrosion continues long after the surface looks dry.',
       'Because flooding here is not a rare event, plenty of properties are on their second or third panel in the same position, which is an expensive cycle to keep repeating. When we are out for a replacement the more useful question is whether the panel can be relocated higher rather than simply renewed. It is not always possible — the entrance position and the run to the meter constrain it — but where it is, the cycle ends.',
@@ -40,7 +40,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   carthage: {
     intro:
-      'Carthage was a village on a tight grid along Vine Street, and many services sit in a narrow gap between houses. That makes a disconnection repair slower than on an open lot, which is worth knowing if a quote looks high. Call (513) 586-5107.',
+      'Carthage was a village on a tight grid along Vine Street, and many services sit in a narrow gap between houses. That makes a power disconnection repair slower than on an open lot, which is worth knowing if a quote looks higher than you expected for the work.',
     relevance: [
       'Carthage (ZIP 45215) is a former village along Vine Street, now a north-side neighborhood, built out in older early-1900s housing on a tight grid. Houses on small village lots sit close together and the service commonly occupies a narrow gap between buildings, which makes assessment and repair slower than the same work on an open lot — worth knowing when a quote seems higher than expected.',
       'The services themselves are the usual story for housing of this age: original or replaced once decades ago, grounding installed to a standard long superseded, and corrosion where the meter base has been exposed to weather for a century. None of that stops a house working. It stops a reconnection, because the technician or inspector clearing it applies today’s requirements rather than the ones in force when it went in.',
@@ -57,7 +57,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   'winton-hills': {
     intro:
-      'For multi-unit housing in Winton Hills, the owner authorises and pays for a disconnection repair, since residents don’t own the entrances or meter banks. Owners and managers can have us repair it and handle the inspection. Call (513) 586-5107.',
+      'For multi-unit housing in Winton Hills, the owner authorises and pays for a power disconnection repair, since residents do not own the entrances or meter banks. Owners and managers can have us repair the service and handle the inspection, and we explain how the units come back on.',
     relevance: [
       'Winton Hills (ZIP 45232) mixes residential and industrial areas near Winton Road, including a good deal of multi-unit housing, and on that housing essentially none of the service equipment belongs to a resident. Entrances, meter banks and the distribution feeding each building are the property’s, so the repair is authorised and paid for by the owner and a resident cannot start it by calling an electrician.',
       'Where a building runs a bank serving several units, the scale changes too. Parts for an older bank are frequently obsolete and the enclosure is as old as the parts, so clearing a disconnection means replacing the assembly rather than a component — every household on it comes off and goes back together, on one permit and one inspection. That is a bigger job than a single service and much cheaper handled as one than piecemeal.',
@@ -74,7 +74,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   roselawn: {
     intro:
-      'Roselawn apartment buildings that still have their original mid-century meter bank usually need the whole assembly replaced after a disconnection. The parts are long obsolete and the enclosure is as old as the parts. We quote it straight. Call (513) 586-5107.',
+      'Roselawn apartment buildings that still have their original mid-century meter bank usually need the whole assembly replaced after a power disconnection. The parts are long obsolete and the enclosure is as old as the parts, so replacing one socket rarely works. We quote that plainly.',
     relevance: [
       'Roselawn (ZIP 45237) runs along Reading Road in mid-century single-family homes mixed with apartment buildings of the same era, and those apartment buildings raise a specific problem. Where a building still has its original meter bank — and many do — a disconnection frequently means replacing the whole assembly rather than one socket, because the parts are long obsolete and the enclosure is as old as the parts.',
       'That changes the cost, the timeline and who has to act. A bank serving eight units comes off and goes back as one piece, so all eight households are affected together, on one permit and one inspection. It is considerably cheaper than eight separate jobs and it needs the building owner to authorise it. On the single-family streets the picture is simpler: mid-century services, many original, now carrying loads nobody planned for.',
@@ -91,7 +91,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   'mount-airy': {
     intro:
-      'Beside Mount Airy Forest, the mid-century houses mostly kept the service they were built with. A car charging in the driveway on top of central air often tips it into heat damage and a power disconnection. We repair and resize it. Call (513) 586-5107.',
+      'Beside Mount Airy Forest, the mid-century houses mostly kept the service they were built with. A car charging in the driveway on top of central air often tips that service into heat damage and a power disconnection. We repair and resize it, and check for aluminium branch wiring.',
     relevance: [
       'Mount Airy (ZIP 45239) is mid-century single-family housing on hilly, wooded streets beside Mount Airy Forest, and the services here are largely of one era — installed with the houses and, in a great many cases, never replaced. Sixty or a hundred amps suited a house of that period. It does not suit central air, a finished basement, a modern kitchen and increasingly a car charging in the driveway.',
       'A service carrying that for decades degrades at the connections rather than tripping, and heat damage at the meter socket is what a technician will not re-energise. Houses from this period are also the ones where aluminium branch wiring can appear, particularly if they were built or rewired between roughly 1965 and 1973 — worth checking, because it affects what an inspector looks at and what an insurer asks about.',
@@ -108,7 +108,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   hartwell: {
     intro:
-      'Hartwell’s streetcar-suburb Victorians are tall and close to the street, and the service often runs up through the roof. Replacing the mast after a disconnection means resealing that penetration, so we treat the flashing as part of the job. Call (513) 586-5107.',
+      'Hartwell’s streetcar-suburb Victorians are tall and close to the street, and the service often runs up through the roof. Replacing the mast after a power disconnection means opening and resealing that penetration, so we treat the flashing as part of the electrical job, not an extra.',
     relevance: [
       'Hartwell (ZIP 45215) grew as a streetcar suburb, and the Victorian and early-1900s houses that came with it are tall and set close to the street on narrow, deep lots. On houses that tall the service entrance frequently runs up through the roof rather than stopping at the eaves, which changes what clearing a disconnection involves: replacing the mast means opening and resealing a roof penetration, and that flashing is part of the electrical work.',
       'The services are also among the oldest in the north-side neighborhoods, with long histories of retrofitting behind them. Once an inspector is examining one to clear a tag, that history is what determines the scope — not simply the fault that stopped the meter but whatever else is visible with the cover off. We assess the whole entrance and panel rather than the single component, and say which parts are genuinely worn.',
@@ -125,7 +125,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   'kennedy-heights': {
     intro:
-      'Kennedy Heights started as a Victorian-era resort, and its large hilltop houses now run multiple zones and big kitchens on services that are marginal today. Heat damage at the connections is the usual reason for a disconnection. Call (513) 586-5107.',
+      'Kennedy Heights started as a Victorian-era resort, and its large hilltop houses now run several heating and cooling zones and big kitchens on services that are marginal today. Heat damage at the connections is the usual reason for a power disconnection. We repair it and size it up.',
     relevance: [
       'Kennedy Heights (ZIP 45213) began as a Victorian-era resort community, and the housing it left behind is large early-1900s homes on generous hilltop lots. Houses of that scale now run multiple heating and cooling zones, finished lower levels and serious kitchens, all on services that were ample when installed and are marginal today.',
       'Run near the ceiling for years, a service degrades at the connections, and heat damage at the meter socket is the finding that stops a reconnection. On houses like these the repair also has to suit the building — a properly sized modern entrance still has to be routed and mounted on a house people have invested in preserving — so we plan the route and fixings before starting rather than improvising on the day.',
@@ -142,7 +142,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   'st-bernard': {
     intro:
-      'Permits for a St. Bernard disconnection repair go through St. Bernard, not Cincinnati. It’s a small municipal schedule, and the utility waits for that sign-off before reconnecting the dense grid of homes around Ivorydale. Call (513) 586-5107.',
+      'Permits for a St. Bernard power disconnection repair go through St. Bernard, not Cincinnati. It is a small municipal queue, and the utility waits for that sign-off before reconnecting the dense grid of early-1900s homes around Ivorydale. We file there and repair the service.',
     relevance: [
       'St. Bernard (ZIP 45217) is its own city, entirely surrounded by Cincinnati, built up around the Ivorydale complex in a dense grid of early-1900s homes on small valley lots. For a disconnection the jurisdiction comes first: permits and inspections go through St. Bernard rather than Cincinnati, on a much smaller municipal schedule, and the utility will be waiting for that sign-off before reconnecting.',
       'That is usually to your advantage — a small queue moves faster than the city’s — provided the paperwork went to the right office first time. Electricians who work mostly downtown sometimes file with Cincinnati out of habit and lose a day. The housing is the usual pattern for the era and the lot sizes are small, so services sit in narrow gaps where the setup takes longer than the repair.',
@@ -159,7 +159,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   'elmwood-place': {
     intro:
-      'Elmwood Place is tiny, so its inspection capacity is minimal, and that sets the pace more than the electrical work does. Low valley ground is the usual reason the power gets disconnected. We file early and keep it moving. Call (513) 586-5107.',
+      'Elmwood Place is tiny, so its inspection capacity is minimal, and that sets the pace of a power disconnection repair more than the electrical work does. Low valley ground is the usual cause. We file early, keep it moving, and coordinate when several houses on a street need work.',
     relevance: [
       'Elmwood Place (ZIP 45216) is a tiny, densely built village in the Mill Creek valley, with early-1900s houses spaced about as closely as anywhere in the county. Two things follow for a disconnection. The village is small enough that its permit and inspection capacity is minimal, which becomes the constraint on how fast a repair actually finishes rather than the electrical work.',
       'And the valley puts panels where water reaches them. Where a panel has been submerged it is replaced rather than dried out, and an inspector will look for the signs before the meter goes back in. Because the housing is uniformly low and closely packed, that tends to affect several neighbouring houses at once — which is exactly when having one electrician handle them together saves everyone days in the queue.',
@@ -176,7 +176,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   'delhi-hills': {
     intro:
-      'Old greenhouse buildings, barns and detached garages on Delhi Hills properties often have their own supply, installed decades ago. Those are what an inspector flags when clearing a power disconnection. We bring them up to standard. Call (513) 586-5107.',
+      'Old greenhouse buildings, barns and detached garages on Delhi Hills properties often have their own supply, installed decades ago. Those are what an inspector flags when clearing a power disconnection on these mid-century homes. We bring the outbuilding wiring up to standard along with the main service.',
     relevance: [
       'Delhi Hills (ZIP 45233) sits in Delhi Township above the Ohio, an area with deep ties to greenhouse and floral growing, and that heritage leaves a practical wrinkle. A fair number of properties have outbuildings — former greenhouse structures, barns, detached garages — that were given their own supply, sometimes decades ago and often not to any standard you would recognise now.',
       'Those secondary supplies are what an inspector takes an interest in once they are on site examining the main service to clear a tag. It does not have to derail the job, but discovering it midway is worse than planning for it, so mention any outbuilding on its own power when you call. The main services are otherwise the usual mid-century picture, and permits go through Delhi Township rather than the city.',
@@ -193,7 +193,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   'golf-manor': {
     intro:
-      'Refitting the same small service often isn’t worth it in Golf Manor. These modest mid-century houses got services sized for a stove and a few lights, so after a disconnection we price both a repair and a proper upgrade. Call (513) 586-5107.',
+      'Refitting the same small service often is not worth it in Golf Manor. These modest mid-century houses got services sized for a stove and a few lights, so after a power disconnection we price both a repair and a proper upgrade and let you compare the two.',
     relevance: [
       'Golf Manor (ZIP 45237) is a small village entirely surrounded by Cincinnati, laid out as a compact grid of modest mid-century houses, and modest is the operative word for a service repair. These homes were given genuinely small services — adequate for a house with a stove and a few lights — and a great many are still running close to that.',
       'So when a technician declines to re-energise one, refitting the same capacity puts you back on something that was already inadequate. The costs that dominate this job are the labour, the permit and the inspection, and they do not change with the size of the service, which is what makes a properly sized replacement worth pricing. Permits go through Golf Manor rather than Cincinnati, on a village schedule that is often quicker than the city’s.',
@@ -210,7 +210,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   fairfax: {
     intro:
-      'Unlike Mariemont next door, Fairfax has no historic designation. Clearing a power disconnection here is what it looks like: repair the service, pass the electrical inspection, and get reconnected. Call (513) 586-5107.',
+      'Unlike Mariemont next door, Fairfax has no historic designation, so clearing a power disconnection here is simple. We repair the service on your early- or mid-1900s house along Wooster Pike, pass the electrical inspection, and get the power reconnected without village approval of the exterior.',
     relevance: [
       'Fairfax (ZIP 45227) is a small village along Wooster Pike immediately next to Mariemont, and the contrast with its neighbour is genuinely useful. Mariemont is a National Historic Landmark where the visible exterior is regulated village-wide, so a service there involves more than an electrical permit. Fairfax has no such designation, which means clearing a disconnection here is exactly what it looks like: repair the service properly, get it inspected, get the meter back in.',
       'That makes Fairfax one of the more straightforward places we work, and it is worth saying rather than implying every job is complicated. What does apply is that Fairfax is its own village, so the permit and inspection go through Fairfax rather than Hamilton County or Cincinnati. The housing is early- and mid-1900s with services of both eras, and the usual wear findings for each.',
@@ -227,7 +227,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   mack: {
     intro:
-      'Green Township and Hamilton County, not the city, handle permits in Mack. A contractor used to Cincinnati can file in the wrong place while your power stays disconnected. We confirm the office before anything is filed. Call (513) 586-5107.',
+      'In Mack, Green Township and Hamilton County handle the permit for a power disconnection repair, not the city. A contractor used to Cincinnati can file in the wrong place while your power stays off. We confirm the right office before anything is filed, then repair the service.',
     relevance: [
       'Mack (ZIP 45248) is an established Green Township community of mid-century and newer single-family homes, and the first thing to settle is where the paperwork goes: permits and inspections are the township’s and Hamilton County’s rather than the city of Cincinnati’s. A contractor who works mostly in town can file with the wrong authority, and the utility looks for the correct sign-off before reconnecting.',
       'The housing spans enough years that the answer varies street to street. Mid-century services, many still original, sized for their era and now carrying central air and modern kitchens — those show heat damage at the connections. Newer sections have modern panels and clean documentation, where a disconnection is usually about one identifiable thing rather than the whole assembly.',
@@ -244,7 +244,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   'monfort-heights': {
     intro:
-      'If your Monfort Heights neighbour had their service replaced, take note. These mid-century houses went up together and their services aged at the same rate, so a disconnection next door often points to your own. Call (513) 586-5107.',
+      'If a Monfort Heights neighbour had their service replaced after a power disconnection, take note. These mid-century houses went up together and their services aged at the same rate, so a failure next door often points to your own. We check yours before it reaches that point.',
     relevance: [
       'Monfort Heights (ZIP 45247) is a Green Township suburb made up almost entirely of mid-century single-family homes, and that uniformity is genuinely unusual. In most neighborhoods the services on one street span decades. Here they largely do not — the houses went up in a comparable period, were given comparable services, and those services have aged at the same rate.',
       'The practical consequence is that if a neighbour has recently had to replace a service to clear a disconnection, yours is likely the same vintage and the same condition. That is useful information rather than a sales pitch: it does not mean yours is failing, it means that if something does stop a reconnection the sensible repair is more likely to be a replacement than a patch. Permits go through the township.',
@@ -261,7 +261,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   bridgetown: {
     intro:
-      'Bridgetown has two kinds of disconnection. Mid-century streets show heat damage at original connections, while newer streets have modern panels and narrower faults. Permits go through Green Township either way. Call (513) 586-5107.',
+      'Bridgetown has two kinds of power disconnection. Mid-century streets show heat damage at original connections, while newer streets have modern panels and narrower faults. Permits go through Green Township either way, and we tell you whether the service needs replacing or repairing.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community of mid-century and newer homes on wide suburban lots, and the mixed ages mean two different conversations. On the mid-century streets the service is frequently original, sized for its era, and now carrying a good deal more — which shows as heat damage at the connections rather than as a tripped breaker.',
       'On the newer streets the panels are modern and adequately sized, so a disconnection is usually something specific: a damaged meter base, a fault found during other work, or an inspection required because a property stood empty. We establish which you have before quoting, because the scope is not comparable. Permits and inspections go through Green Township and Hamilton County rather than the city.',
@@ -278,7 +278,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   finneytown: {
     intro:
-      'Springfield Township, not the city or the west-side townships, issues permits in Finneytown. That catches contractors out and leaves homes disconnected while paperwork is refiled. We file there the first time. Call (513) 586-5107.',
+      'For a power disconnection repair in Finneytown, Springfield Township issues the permit, not the city or the west-side townships. That catches contractors out and leaves homes without power while paperwork is refiled. We file there the first time and repair the mid-century service.',
     relevance: [
       'Finneytown (ZIP 45231) is a settled Springfield Township community of largely mid-century single-family homes, and the jurisdiction is worth stating plainly because it catches contractors out: Springfield Township is a different authority from the townships on the west side and from the city, and permits and inspections go through it. Filing in the wrong place means the paperwork comes back while you wait without power.',
       'The housing is uniformly of an era, so the findings are consistent: services installed with the houses and frequently never replaced, sized for mid-century loads, now carrying whatever has been added since. Houses built or rewired between roughly 1965 and 1973 may also have aluminium branch circuits, which an inspector will look at closely at the terminations and which insurers increasingly ask about.',
@@ -295,7 +295,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   amberley: {
     intro:
-      'Big wooded lots in Amberley Village mean long service runs, and the houses carry pools, outbuildings, several HVAC zones and car charging. When that service is disconnected, we check the whole run as well as the panel. Call (513) 586-5107.',
+      'Big wooded lots in Amberley Village mean long service runs, and the houses carry pools, outbuildings, several HVAC zones and car charging. When that service is disconnected, we check the whole run to the road as well as the panel, then repair the fault and arrange reconnection.',
     relevance: [
       'Amberley Village (ZIP 45237) is large homes on big, wooded lots along winding streets, and the scale of the houses is what drives disconnections here. Multiple heating and cooling zones, finished lower levels, serious kitchens, pool and outbuilding supplies in places, and increasingly car charging — all on services that were generous when installed and are working hard now.',
       'Houses set well back also have long service runs, and where those are underground the fault can be somewhere along the run rather than at either end, which changes how the repair starts. The village issues its own permits and inspections rather than the county. On a property of this size the sensible starting point is a load calculation, because refitting the same capacity on a house that has outgrown it repeats the problem.',
@@ -312,7 +312,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   'arlington-heights': {
     intro:
-      'One of the smallest villages we work in, Arlington Heights has minimal permit and inspection capacity. That sets how fast a disconnection repair finishes more than the wiring does. Low valley ground is the usual cause. Call (513) 586-5107.',
+      'Arlington Heights is one of the smallest villages we work in, with minimal permit and inspection capacity. That sets how fast a power disconnection repair finishes more than the wiring does. Low valley ground is the usual cause, and we file early to keep things moving.',
     relevance: [
       'Arlington Heights (ZIP 45215) is a small village in the Mill Creek valley with a compact grid of older homes — one of the smallest municipalities we work in anywhere around Cincinnati. Being this small has a direct consequence: the village’s own permit and inspection capacity is minimal, and that is what determines how quickly a repair finishes rather than the electrical work itself.',
       'The valley supplies the usual cause. Low ground means basements take water, panels are almost always in basements, and a submerged panel is replaced rather than dried out. Where several neighbouring houses need the same work after the same flooding — which happens here because the housing is uniformly low — coordinating them through one electrician saves days in a queue that has very little slack in it.',
@@ -329,7 +329,7 @@ export const part4: Record<string, LocationServiceCopy> = {
 
   'north-college-hill': {
     intro:
-      'Despite the name, North College Hill is a separate city from College Hill, with its own permits. An electrician filing with Cincinnati for your disconnection repair costs you a day. We file with the right office. Call (513) 586-5107.',
+      'Despite the name, North College Hill is a separate city from College Hill, with its own permits. An electrician filing with Cincinnati for your power disconnection repair costs you a day. We file with the right office and repair the service on these early- and mid-1900s homes.',
     relevance: [
       'North College Hill (ZIP 45239) is a small, densely built city immediately north of Cincinnati’s College Hill neighborhood, and the name causes a genuine practical problem. People assume the two are the same place administratively. They are not: College Hill is a Cincinnati neighborhood and its permits go through the city, while North College Hill is a separate municipality issuing its own.',
       'An electrician filing for the wrong one does not fail an inspection — the paperwork comes back and is refiled while the house sits without power. It is the most common mix-up we see out here and it is worth asking about directly. The housing is a tight grid of early- and mid-1900s homes on small lots, so services sit in narrow gaps, and the findings are the usual ones for those eras.',

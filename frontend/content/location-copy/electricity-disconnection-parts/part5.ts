@@ -6,7 +6,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part5: Record<string, LocationServiceCopy> = {
   newtown: {
     intro:
-      'Newtown issues its own permits as a village, and the utility waits for that sign-off before reconnecting. The Little Miami is the physical risk, reaching low basement panels. We handle the filing and the disconnection repair. Call (513) 586-5107.',
+      'Newtown issues its own permits as a village, and the utility waits for that sign-off before ending a power disconnection. The Little Miami is the physical risk here, reaching low basement panels in older homes. We handle the filing with Newtown and the repair itself.',
     relevance: [
       'Newtown (ZIP 45244) is an east-side village near the Little Miami, and being a village rather than part of a township or the city decides where the paperwork goes. Permits and inspections are Newtown’s own, and the utility will be waiting for that sign-off before it reconnects — so an electrician who files with Hamilton County or Cincinnati out of habit costs you a day.',
       'The Little Miami is the physical factor. It has a steep catchment and rises quickly after heavy rain, so on the low ground here water can reach a basement panel during the storm rather than a day later. A panel that has been submerged is replaced rather than dried out, because water gets behind the bus bars and into the breakers and corrosion continues after the surface dries. An inspector checks for that before the meter goes back.',
@@ -23,7 +23,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'turpin-hills': {
     intro:
-      'Anderson Township and Hamilton County handle permits in Turpin Hills, not the city. Several communities share ZIP codes out here, so a postal address won’t tell you. We confirm it before repairing the disconnected service. Call (513) 586-5107.',
+      'Anderson Township and Hamilton County handle permits for a power disconnection repair in Turpin Hills, not the city. Several communities share ZIP codes out here, so a postal address will not settle it. We confirm the right office before repairing the service on these post-war homes.',
     relevance: [
       'Turpin Hills (ZIP 45244) is an Anderson Township community on the east side, and the jurisdiction is the first thing to settle: permits and inspections go through Anderson Township and Hamilton County rather than the city of Cincinnati. Several communities out here share that arrangement and share ZIP codes with each other, so working from a postal address is not reliable.',
       'The housing is largely post-war single-family on generous lots, which means services installed with the houses and in many cases never replaced. Sized for their era, they now carry central air, finished lower levels and increasingly car charging. That combination degrades at the connections rather than tripping breakers, and heat damage at the meter socket is what a technician declines to re-energise.',
@@ -40,7 +40,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   silverton: {
     intro:
-      'Four places share ZIP 45236, and Silverton is one of only two that issue their own permits. Getting that wrong is the most common way a disconnection repair here loses a day. We file with Silverton directly. Call (513) 586-5107.',
+      'Four places share ZIP 45236, and Silverton is one of only two that issue their own permits. Filing in the wrong office is the most common way a power disconnection repair here loses a day. We file with Silverton directly and repair the service.',
     relevance: [
       'Silverton (ZIP 45236) is its own small city along Montgomery Road, and it shares that ZIP with Deer Park, Kenwood and Dillonvale — four separate places, only two of which are cities issuing their own permits. That makes the postal code useless for working out which office handles your filing, and it is the single most common way a repair here loses a day.',
       'The housing is a settled mix of older and mid-century homes, so the findings run the usual range: services installed with the houses and never replaced, grounding predating current requirements, corrosion at the meter base. Where the house dates from the late 1960s or early 70s, aluminium branch wiring may also be present, which an inspector will examine closely at the terminations.',
@@ -57,7 +57,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   lockland: {
     intro:
-      'Lockland’s old mill-village housing sits close together on low valley ground. The village issues its own permits, so the queue is short when the filing is right and stalls when it isn’t. We get it right and repair the disconnection. Call (513) 586-5107.',
+      'Lockland’s old mill-village housing sits close together on low valley ground, and the village issues its own permits for a power disconnection repair. The queue is short when the filing is right and stalls when it is not. We file it correctly and repair the service.',
     relevance: [
       'Lockland (ZIP 45215) is a historic village in the Mill Creek valley built up around mills and industry, with closely spaced older worker housing. Two constraints shape a repair here. It is a small municipality issuing its own permits and inspections, so the queue is short when the filing is right and the whole job stalls when it is not — and ZIP 45215 covers Lockland, Reading, Woodlawn, Lincoln Heights and Arlington Heights between them.',
       'The valley supplies the recurring cause. Panels sit in low basements, water reaches them, and a submerged panel is replaced rather than dried out. The housing adds the other half: worker homes were given small services to begin with, and a great many are close to what was installed, so where wear rather than water is the problem it is usually heat damage at connections that have been working too hard for decades.',
@@ -74,7 +74,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   groesbeck: {
     intro:
-      'Colerain Township, one of the largest in Ohio, issues the permit in Groesbeck. The mid-century houses mostly run on services installed when they went up, and that age is usually why the power is disconnected. Call (513) 586-5107.',
+      'In Groesbeck, Colerain Township issues the permit to clear a power disconnection, not Cincinnati. The mid-century houses here mostly run on services installed when they went up, and that age is usually why the power gets cut. We repair or replace the service and file with the township.',
     relevance: [
       'Groesbeck (ZIP 45239) is a Colerain Township community on the northwest side, and Colerain is one of the largest townships in Ohio — large enough that the township, rather than the city or any village, handles permits and inspections, and large enough that nothing about your street tells you much about anyone else’s.',
       'The housing is mid-century single-family, largely on services installed when the houses went up. Sixty or a hundred amps suited a house of that period and does not suit central air, a finished basement and a modern kitchen, let alone a car charger. Run near the ceiling for years, a service fails at the connections rather than at the breakers, and heat damage at the meter socket is what stops a reconnection.',
@@ -91,7 +91,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'mount-healthy': {
     intro:
-      'A small municipal queue usually moves faster than Cincinnati’s, which helps Mount Healthy homeowners after a power disconnection. That only holds if the permit goes to Mount Healthy rather than the county. We make sure it does. Call (513) 586-5107.',
+      'Mount Healthy issues its own permits, and a small municipal queue usually moves faster than Cincinnati’s after a power disconnection. That only holds if the filing goes to Mount Healthy rather than the county. We make sure it does, then repair the service on your older house.',
     relevance: [
       'Mount Healthy (ZIP 45231) is a historic north-side city, and being a city rather than a township community means the permit and inspection go through Mount Healthy itself. That is usually to your advantage after a disconnection — a small municipal queue moves faster than the city of Cincinnati’s — provided the filing went to the right office rather than being sent to the county out of habit.',
       'The housing is older, and the services reflect it: original or replaced once decades ago, grounding installed to a standard long superseded, corrosion where a meter base has weathered a century. None of that prevents a house working, which is exactly why it goes unnoticed until a technician replacing a meter or an inspector clearing a tag applies today’s requirements.',
@@ -108,7 +108,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   reading: {
     intro:
-      'Reading issues its own permits, but its ZIP neighbours don’t all work the same way, so the filing follows your address. Low Mill Creek valley ground is the usual reason a Reading panel gets disconnected. Call (513) 586-5107.',
+      'Low Mill Creek valley ground is the usual reason a Reading panel ends in a power disconnection, once water reaches it. Reading issues its own permits, but its ZIP neighbours do not all work the same way, so the filing follows your address. We also look at moving it higher.',
     relevance: [
       'Reading (ZIP 45215) is a city in the Mill Creek valley with a settled mix of older and mid-century homes, and it shares its ZIP with Lockland, Woodlawn, Lincoln Heights and Arlington Heights. Reading issues its own permits and inspections, but the neighbours in that ZIP do not all work the same way, so the filing follows the address rather than the postal code.',
       'The valley position is the recurring physical cause. Low ground means water reaches basement panels, and a submerged panel is replaced rather than dried out — an inspector will look for the signs before the meter goes back in. Where wear rather than water is the issue, the findings are the usual ones for the housing: original or once-replaced services now carrying loads nobody planned for.',
@@ -125,7 +125,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   dent: {
     intro:
-      'Dent, White Oak and Monfort Heights share a ZIP and all fall to Green Township for permits. We still confirm before filing a disconnection repair, because contractors who mostly work in the city file with the city. Call (513) 586-5107.',
+      'Dent, White Oak and Monfort Heights share a ZIP and all fall to Green Township for permits. We still confirm before filing a power disconnection repair, because contractors who mostly work in the city file with the city. Then we repair the service on your mid-century or newer house.',
     relevance: [
       'Dent (ZIP 45247) is a Green Township community on the west side, sharing its ZIP with White Oak and Monfort Heights. All three fall to Green Township and Hamilton County for permits rather than the city, which at least makes the answer consistent here — but it is still worth confirming rather than assuming, because contractors who work mostly in the city file with the city.',
       'The housing is mid-century and newer single-family. On the mid-century streets the service is frequently original, sized for its era, and now carrying central air, a finished lower level and modern appliances — which shows as heat damage at the connections rather than as a tripped breaker. Newer sections have modern panels and adequate capacity, where a disconnection is usually one identifiable fault.',
@@ -142,7 +142,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'deer-park': {
     intro:
-      'Working from ZIP 45236 alone sends a Deer Park filing to the wrong desk about as often as the right one. Deer Park issues its own permits, and the utility waits for that sign-off before ending a disconnection. Call (513) 586-5107.',
+      'Working from ZIP 45236 alone sends a Deer Park power disconnection filing to the wrong desk about as often as the right one. Deer Park issues its own permits, and the utility waits for that sign-off before reconnecting. We file with Deer Park and repair the service.',
     relevance: [
       'Deer Park (ZIP 45236) is a small east-side city, and it shares its ZIP with Silverton, Kenwood and Dillonvale — a mix of cities, a township community and an unincorporated area. Deer Park issues its own permits and inspections. Working from the postal code alone will send a filing to the wrong desk about as often as the right one, and the utility waits for the correct sign-off before reconnecting.',
       'The housing is largely modest post-war single-family, which means services that were small when installed and in many cases have never been replaced. Where a house has since gained central air and a modern kitchen, the original service has been working beyond its intended range for years, and heat damage at the connections is the finding that stops a reconnection.',
@@ -159,7 +159,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'terrace-park': {
     intro:
-      'Terrace Park’s large, long-held houses often have a service that was generous when installed and never replaced because it never failed. That’s the one an inspector finds behind a disconnection. The village issues the permit. Call (513) 586-5107.',
+      'Terrace Park’s large, long-held houses often have a service that was generous when installed and never replaced because it never failed. That is the service an inspector finds behind a power disconnection, now carrying several zones and often car charging. The village issues the permit, and we file there.',
     relevance: [
       'Terrace Park (ZIP 45174) is an affluent east-side village of established early-1900s homes on tree-lined streets near the Little Miami, and it issues its own permits and inspections as a village rather than going through the township or county. The houses are large and long-held, which produces a particular kind of disconnection: a service that was generous when installed, never replaced because it never failed, and now carrying multiple zones, a finished lower level and often car charging.',
       'The Little Miami adds the second cause. It rises quickly after heavy rain, and on the low ground here water can reach a basement panel during the same storm. A submerged panel is replaced rather than dried out, and an inspector checks for it before the meter goes back in. On houses of this character the replacement also has to be routed and mounted sympathetically, which we plan rather than improvise.',
@@ -176,7 +176,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'dry-run': {
     intro:
-      'The 45244 ZIP tells you nothing useful in Dry Run. Newtown is a village, Mount Carmel is in Clermont County, and Dry Run falls to Anderson Township. We file your disconnection repair with the right one. Call (513) 586-5107.',
+      'For a power disconnection repair in Dry Run, the 45244 ZIP tells you nothing useful. Newtown is a village, Mount Carmel is in Clermont County, and Dry Run falls to Anderson Township and Hamilton County. We file with that one and repair the service.',
     relevance: [
       'Dry Run (ZIP 45244) is an Anderson Township community on the east side, sharing its ZIP with Newtown, Turpin Hills and Mount Carmel — and those are not all the same jurisdiction. Newtown is a village issuing its own permits, Mount Carmel is in Clermont County, and Dry Run falls to Anderson Township and Hamilton County. The postal code genuinely tells you nothing useful here.',
       'The housing is post-war and newer single-family on generous lots. On the older streets the services are frequently original and sized for their period, so heat damage at the connections under modern load is the usual finding. On the newer streets the panels are modern and the disconnection is more often something specific — a damaged meter base, or an inspection required after a property stood empty.',
@@ -193,7 +193,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'white-oak': {
     intro:
-      'White Oak services are mostly one era: capacity sized for the 1950s or 60s, grounding to that day’s standard, and connections worked hard since. When the power is disconnected, the findings are consistent, so we know what to look for. Call (513) 586-5107.',
+      'White Oak services are mostly one era: capacity sized for the 1950s or 60s, grounding to that day’s standard, and connections worked hard since. When a power disconnection happens on these Green Township homes, the findings are consistent, so we know what to look for.',
     relevance: [
       'White Oak (ZIP 45247) is a Green Township community on the northwest side, largely mid-century single-family housing, and the services here are mostly of one era — installed with the houses and, in a great many cases, never replaced since. That uniformity means the findings are consistent rather than varied: capacity sized for the 1950s or 60s, grounding to the standard of the day, and connections that have been working hard for decades.',
       'Houses built or rewired between roughly 1965 and 1973 may also carry aluminium branch circuits, which loosen and overheat at the terminations in a way copper does not. Where that is present an inspector will look closely at every termination, and insurers ask about it. The recognised remedy is properly rated connectors rather than a full rewire, which is worth knowing before anyone quotes you for the latter.',
@@ -210,7 +210,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   forestville: {
     intro:
-      'Post-war Forestville houses mostly kept their original services, now carrying modern loads. ZIP 45230 spans township and city addresses, so the permit to clear a disconnection follows the address, not the postal code. Call (513) 586-5107.',
+      'Post-war Forestville houses mostly kept their original services, now carrying modern loads, and that is the usual source of a power disconnection. ZIP 45230 spans township and city addresses, so the permit follows the address, not the postal code. We file with Anderson Township and repair the service.',
     relevance: [
       'Forestville (ZIP 45230) is an Anderson Township community on the east side, sharing its ZIP with Cherry Grove, Mount Washington and California — the first two in the township, the others Cincinnati neighborhoods. So the permit authority differs within one postal code, and the filing follows the address rather than the ZIP.',
       'The housing is post-war single-family, and the services are largely original to the houses. Sized for their era and now carrying central air, finished lower levels and increasingly car charging, they degrade at the connections rather than tripping. Heat damage at the meter socket is what a technician will not re-energise, and the useful decision at that point is whether to refit the same capacity or bring the service up to what the house draws.',
@@ -227,7 +227,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'cherry-grove': {
     intro:
-      'No mast, no weatherhead. Many newer Cherry Grove streets are fed underground, so a disconnection there is usually something specific, like a damaged meter base. Anderson Township issues the permit. Call (513) 586-5107.',
+      'No mast, no weatherhead. Many newer Cherry Grove streets are fed underground, so a power disconnection there usually comes down to something specific, such as a damaged meter base or a fault found during other work. Anderson Township issues the permit, and we file with it directly.',
     relevance: [
       'Cherry Grove (ZIP 45230) is an Anderson Township community of post-war and newer housing, and it is worth being straightforward about what that means. A good deal of the newer building here was done with underground supply, so there is no mast or weatherhead — and disconnections on those streets are usually about something specific rather than the whole service: a damaged meter base, a fault found during other work, or an inspection after a property stood empty.',
       'On the older post-war streets the picture is conventional: services installed with the houses, sized for their period, and now carrying loads nobody planned for. Heat damage at the connections is the usual finding there. Permits and inspections go through Anderson Township and Hamilton County rather than the city, despite the shared ZIP with two Cincinnati neighborhoods.',
@@ -244,7 +244,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   kenwood: {
     intro:
-      'There is no city hall in Kenwood. It’s unincorporated, so a permit to clear a power disconnection goes through the township and Hamilton County. Filing at the wrong desk costs a day. Call (513) 586-5107.',
+      'There is no city hall in Kenwood. It is unincorporated, so a permit to clear a power disconnection goes through the township and Hamilton County. Filing at the wrong desk costs a day. We file in the right place and repair the service on your mid-century or newer home.',
     relevance: [
       'Kenwood (ZIP 45236) is an upscale unincorporated community around Kenwood Towne Centre, and unincorporated is the operative word for a repair. There is no city hall here to issue a permit — it goes through the township and Hamilton County. People reasonably assume a place this well known has its own offices, and it does not, which is a small distinction that costs a day when a filing goes to the wrong desk.',
       'The housing is mid-century homes alongside newer, larger houses, so the findings split. The mid-century services are frequently original and now working well beyond their intended range. The larger newer houses have adequate capacity but a great deal of equipment on it — multiple zones, finished lower levels, car charging — which makes a load calculation the sensible starting point rather than refitting whatever was there.',
@@ -261,7 +261,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'lincoln-heights': {
     intro:
-      'Lincoln Heights, one of the first self-governed Black municipalities in the northern United States, issues its own permits. Older, modest homes on valley ground are behind most disconnections. We file with the village and do the repair. Call (513) 586-5107.',
+      'Lincoln Heights, one of the first self-governed Black municipalities in the northern United States, issues its own permits for a power disconnection repair. Older, modest homes on low valley ground sit behind most of the disconnections we see here. We file with the village and do the repair.',
     relevance: [
       'Lincoln Heights (ZIP 45215) is a historic Mill Creek valley community — one of the first self-governed Black municipalities in the northern United States — with older, modest homes. It issues its own permits and inspections as a municipality, and it shares that ZIP with Lockland, Reading, Woodlawn and Arlington Heights, so the filing follows the address rather than the postal code.',
       'The housing and the valley between them account for most disconnections here. Modest older homes were given small services, many still close to the original, and where a house has gained central air and a modern kitchen those connections have been working beyond their range for years. The low ground adds the other cause: panels in basements that water reaches, which are replaced rather than dried out.',
@@ -278,7 +278,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   dillonvale: {
     intro:
-      'Four places, three arrangements, one postal code. Dillonvale falls to Sycamore Township and Hamilton County, while Silverton and Deer Park issue their own permits. We confirm before filing your disconnection repair. Call (513) 586-5107.',
+      'Four places, three arrangements, one postal code. Dillonvale falls to Sycamore Township and Hamilton County for a power disconnection repair, while Silverton and Deer Park issue their own permits. We confirm the right office before filing, then repair the service on your post-war Dillonvale home.',
     relevance: [
       'Dillonvale (ZIP 45236) is a Sycamore Township community on the east side, and it shares its ZIP with Silverton, Deer Park and Kenwood — two of which are cities with their own permit offices, while Dillonvale falls to Sycamore Township and Hamilton County. Four places, three different arrangements, one postal code. It is the clearest example we deal with of why an address matters and a ZIP does not.',
       'The housing is largely modest post-war single-family, so the services were small when installed and a great many have never been replaced. Where the house has since gained central air, a finished basement and modern appliances, those connections have been working past their intended range for decades — and heat damage at the meter socket is what stops the reconnection rather than anything sudden.',
@@ -295,7 +295,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   woodlawn: {
     intro:
-      'Parts of Woodlawn share circuits with industrial corridors, so the crews and priorities you see aren’t always residential ones. A disconnection at a house is still about the equipment you own. The village issues the permit. Call (513) 586-5107.',
+      'Parts of Woodlawn share circuits with industrial corridors, so the utility crews and priorities you see are not always residential ones. A power disconnection at your house is still about the equipment you own. The village issues the permit, and we handle small commercial services there too.',
     relevance: [
       'Woodlawn (ZIP 45215) is a Mill Creek valley village with residential streets alongside industrial corridors, and it issues its own permits and inspections. The industrial presence matters in one practical way: circuits through parts of the village carry commercial and industrial load as well as houses, so the technicians who attend and the priorities they work to are not always the residential ones.',
       'The valley accounts for the rest. Low ground means water reaches basement panels, and a submerged panel is replaced rather than dried out, whatever it looks like once dry. Where wear rather than water is the cause, the housing is older and the services are frequently original — grounding to a superseded standard, corrosion at the meter base, connections that have been working too hard for decades.',
@@ -312,7 +312,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   addyston: {
     intro:
-      'Addyston is a small old mill town on the Ohio, with its own permits and inspections. Water reaching a basement panel is the usual cause of a power disconnection, and that panel gets replaced. We file with the village. Call (513) 586-5107.',
+      'Addyston is a small old mill town on the Ohio, with its own permits and inspections. Water reaching a basement panel is the usual cause of a power disconnection in its closely spaced homes, and that panel gets replaced. We file with the village.',
     relevance: [
       'Addyston (ZIP 45001) is a small far-west village along the Ohio, an old mill town of closely spaced older worker homes, and it issues its own permits and inspections. Being a very small municipality means the inspection queue is short when the filing is right — and that the whole job stalls if the paperwork goes to Hamilton County or the city instead.',
       'The village sits low on the river, so water reaching a basement panel is a recurring cause of disconnection, and a submerged panel is replaced rather than dried out. The housing supplies the other half: worker homes given small services to begin with, most still close to the original, now carrying central air and modern appliances. Heat damage at connections that have worked too hard is the usual finding.',
@@ -329,7 +329,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   greenhills: {
     intro:
-      'Greenhills was built in the 1930s as a New Deal Greenbelt town and is now a National Historic Landmark district. The service entrance and meter box are regulated exterior, so raise that before a disconnection repair starts. Call (513) 586-5107.',
+      'Greenhills was built in the 1930s as a New Deal Greenbelt town and is now a National Historic Landmark district. The service entrance, conduit and meter box are regulated exterior, so we raise that before a power disconnection repair starts on any of its original cottages or townhomes.',
     relevance: [
       'Greenhills (ZIP 45218) is a planned Greenbelt town built in the 1930s as a New Deal project and now a National Historic Landmark district, with its original cottages and townhomes still in use. That designation is the thing to raise before work starts, because a service entrance, its conduit and the meter box are all visible exterior in a district where appearance is regulated.',
       'The buildings add their own constraint. These are 1930s cottages and townhomes, modest in scale, with services sized accordingly — and where units share walls the entrance may serve more than one household. Rebuilding in the same position and form is normally the cleanest route, since the exterior does not change. Where a properly sized modern service would look different from the street, there may be more to agree than an electrical permit.',

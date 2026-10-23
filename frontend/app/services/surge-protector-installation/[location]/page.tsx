@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Licensed, Code-Compliant Install', body: 'A whole-home surge device ties directly into the electrical panel — high-voltage work that is not a DIY job. Our licensed electricians install it to code and the manufacturer’s guidelines in your {neighborhood} home, with financing available so protecting your equipment does not have to wait.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Whole-Panel Protection', text: 'Protection installed at the source, guarding everything connected to your wiring.' },
-    { icon: 'check', title: 'Licensed Electricians', text: 'Experienced with surge protection devices and your panel.' },
-    { icon: 'badge', title: 'Code-Compliant Install', text: 'Installed to local code and the manufacturer’s guidelines.' },
-    { icon: 'star', title: 'Financing Available', text: 'Flexible options for qualifying homeowners.' },
-  ],
+  whyParagraph: 'A whole-home surge protector goes in at your panel, so it guards everything wired into your {neighborhood} home. Our licensed electricians install it to local code and the manufacturer’s guidelines, and financing is available for qualifying homeowners.',
   proofQuote:
     'After a storm took out our TV and a couple of devices, they installed a whole-home surge protector at the panel and explained how it covers the HVAC and appliances too. Clean install, fair price, and real peace of mind next time the lights flicker.',
   sharedFaqs: [

@@ -94,7 +94,7 @@ const paths: Record<IconName, ReactNode> = {
     <>
       <path d="M4 11l8-7 8 7" />
       <path d="M6 10v9h12v-9" />
-      <path d="M12 17c-1.3-1-2.4-1.8-2.4-3a1.3 1.3 0 0 1 2.4-.7 1.3 1.3 0 0 1 2.4.7c0 1.2-1.1 2-2.4 3z" />
+      <path d="M10 19v-5h4v5" />
     </>
   ),
   doc: (

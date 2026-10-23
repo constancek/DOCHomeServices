@@ -5,7 +5,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part8: Record<string, LocationServiceCopy> = {
   northbrook: {
     intro:
-      'Northbrook sits in the outer reaches of Colerain Township, which Duke often works later in a large restoration. Don’t lose a day assuming your house is just waiting with the rest. If neighbours have power and you don’t, we repair your storm-damaged service. Call (513) 586-5107.',
+      'Northbrook sits in the outer reaches of Colerain Township, which Duke often works later in a large storm restoration. Don’t lose a day assuming your house is just waiting with the rest. If neighbours have power and you don’t, we repair your damaged service.',
     relevance: [
       'Northbrook (ZIP 45251) is a settled Colerain Township community towards the northern reach of the township, made up largely of mid-century single-family homes. Colerain is one of the largest townships in Ohio and Duke restores it in sections after a major storm, which means position within the township matters: the outer reaches are commonly worked later than the areas closer in. That is not a complaint, it is how a large restoration is sequenced, and it means a Northbrook homeowner can lose an extra day assuming the utility is still coming when the remaining fault is their own.',
       'The housing is uniformly mid-century, so the services here are mostly of one era and have aged at one rate — many still original and sized for the loads of the time. The trees planted with those subdivisions are now full-grown over the drops. Where a limb damages a service that was already marginal, the sensible question is whether to rebuild it as it was or bring it up to what the house now draws, since the labour, permit and inspection are the same either way.',
@@ -22,7 +22,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   'indian-hill': {
     intro:
-      'Indian Hill estates have the longest overhead service runs in our area, sometimes on private poles, so storm damage is often out along the run. Many homes are on wells, so an outage means no water too. We find the break and repair it. Call (513) 586-5107.',
+      'Storm outages in Indian Hill often start somewhere out along the longest overhead service runs in our area, sometimes on private poles, rather than at the house. Many homes are on wells, so no power means no water. We find the break and repair it.',
     relevance: [
       'Indian Hill (ZIP 45243) is a village of large estates on multi-acre wooded lots, with many houses set a long way back from the road. That produces the longest overhead service runs anywhere in our area — hundreds of feet of line crossing woodland to reach a house, sometimes on private poles. Every additional span is more line for a falling limb to catch, and on lots this size the damage is frequently somewhere out along the run rather than at the house, which makes finding it the first job.',
       'The more urgent point is what an outage means here. A good number of these properties are on private wells, and a well pump needs electricity — so losing power means losing water, not just lighting. Septic systems with pumps are affected the same way. That changes the priority of a repair considerably compared with a house on city water, and it is worth saying so when you call rather than assuming we know.',
@@ -39,7 +39,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   evendale: {
     intro:
-      'Lines near GE Aerospace and Evendale’s industrial base are restored as a priority, so nearby power often returns early. A home still dark after that has storm damage on its own service, and we repair it on the village permit. Call (513) 586-5107.',
+      'Lines near GE Aerospace and Evendale’s industrial base are restored as a priority after a storm, so nearby power often returns early. A home still dark after that has damage on its own service, and we repair it on the Evendale village permit.',
     relevance: [
       'Evendale (ZIP 45241) is a north-side village with an industrial base large enough to include GE Aerospace, sitting alongside established residential neighborhoods. Living next to industrial load on that scale has a real effect on outages. Circuits carrying major industrial customers are restored as a priority, so the lines near you frequently come back sooner than a purely residential village would expect — which is genuinely good, and is also exactly how homeowners here get caught out.',
       'When the lines are back quickly and one house stays dark, the remaining fault is on that homeowner’s own equipment. Duke cannot reconnect to a damaged mast, weatherhead or meter box no matter how fast they restored the line to the pole. Evendale issues its own permits rather than going through the county, and being a small village the inspection queue is short when the filing is right and slow when it goes to the wrong office.',
@@ -56,7 +56,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   glendale: {
     intro:
-      'Glendale’s curving streets wind through plantings dating from the 1850s on, so the poles follow irregular lines and the trees are heavy. Limb damage is the routine storm call, and on these preserved Victorians we repair the service with the exterior in mind. Call (513) 586-5107.',
+      'Glendale’s curving streets wind through plantings dating from the 1850s on, so storm limbs are heavy and the poles follow irregular lines. On these preserved Victorians in a National Historic Landmark village, we repair the service with the exterior in mind, roof flashing included.',
     relevance: [
       'Glendale (ZIP 45246) is one of the country’s earliest planned railroad suburbs and a National Historic Landmark, laid out in winding, tree-lined streets around preserved Victorian houses. That layout is the storm story. The streets were designed to curve through planted grounds rather than run on a grid, so poles and spans follow irregular lines and the trees are specimen planting from the 1850s onward — considerably older and heavier than anything on a modern verge. Limb damage here is the routine call, and the limbs are large.',
       'The landmark designation puts constraints on the repair itself. A mast, its conduit, and the meter box are visible exterior, so on a preserved Victorian the question is not only whether the work is sound and to code but whether it is acceptable in a protected village. Rebuilding in the same position and form is usually the cleanest route. These houses are also tall, so the entrance often passes through the roof, which makes the flashing and seal part of our job rather than a roofer’s.',
@@ -73,7 +73,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   sharonville: {
     intro:
-      'How fast power returns in Sharonville depends on whether you live near the convention centre, the industrial corridors or a purely residential street. If your street is lit and your house isn’t, we repair the storm damage, residential or smaller commercial. Call (513) 586-5107.',
+      'How fast power returns after a storm in Sharonville depends on what sits nearest your house: the convention centre, the industrial corridors or purely residential streets. If your street is lit and your house isn’t, we repair the damage, residential or smaller commercial.',
     relevance: [
       'Sharonville (ZIP 45241) is a north-side city with three quite different kinds of area inside it: established residential neighborhoods, the convention centre and its commercial surroundings, and industrial corridors. That mix determines how restoration reaches you. Circuits carrying convention, retail and industrial load are prioritised differently from purely residential streets, so which of those three your house sits nearest genuinely affects when the lines come back.',
       'Sharon Woods on the city’s edge supplies the other half. It is mature parkland rather than street planting, so properties along that boundary carry heavier canopy over their service drops than the subdivision streets further in. The housing is largely mid-century, with services of that era and many still original. Sharonville issues its own permits rather than going through Hamilton County — worth confirming before anything is filed.',
@@ -90,7 +90,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   northgate: {
     intro:
-      'Circuits along the Northgate Mall corridor come back first, so the shops can light up while streets behind them wait. If your street is lit and your house isn’t, the storm damage is on your mast or meter base. We repair it and file with Colerain Township. Call (513) 586-5107.',
+      'Circuits along the Northgate Mall corridor come back first after a storm, so the shops can light up while streets behind them wait. If your street is lit and your house isn’t, the damage is on your mast or meter base. We repair it and file with Colerain Township.',
     relevance: [
       'Northgate (ZIP 45251) is the Colerain Township area around the Northgate Mall corridor, in neighborhoods of mid-century and newer homes. Sitting beside a major retail corridor changes restoration order: circuits carrying substantial commercial load are prioritised over purely residential streets, so the lines close to the corridor frequently come back before the streets further back from it. If you are a few streets away and watching the shops light up, that is why.',
       'The housing splits the answer once the lines are back. Mid-century streets are conventional overhead with masts and drops to lose, and services largely of their era. The newer sections were often built with underground supply, so there is no mast or weatherhead at all — those houses lose power when the utility does, or to a fault at the meter or in the panel. Colerain Township handles permits and inspections either way.',
@@ -107,7 +107,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   springdale: {
     intro:
-      'The Tri-County corridor is usually lit well before Springdale’s residential streets are finished, because commercial restoration comes first. Once your street is back, a dark house means storm damage on your own equipment, and we repair it. Call (513) 586-5107.',
+      'The Tri-County corridor is usually lit well before Springdale’s residential streets after a storm, because commercial restoration comes first. Once your street is back, a dark house means damage on your own mast, meter box or panel, and we repair it under a Springdale permit.',
     relevance: [
       'Springdale (ZIP 45246) sits along the Tri-County corridor, one of the largest concentrations of retail and commercial property in the region, with established mid-century residential neighborhoods behind it. That is a lot of commercial load on the circuits through this city, and commercial restoration is prioritised — so the corridor is typically lit well before the residential streets behind it are finished. Watching that happen from a dark house is frustrating and it is not an indication that anyone has forgotten you.',
       'Once the lines are back the ordinary rule applies: if your house alone is dark, the fault is on your own equipment and no further waiting helps. The housing is mid-century, with services largely of that era and plenty still original, sized for the loads of the time. Springdale issues its own permits rather than going through Hamilton County, and a city queue of this size generally moves reasonably after a storm.',
@@ -124,7 +124,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   miamitown: {
     intro:
-      'Rain far upstream can put the Great Miami into Miamitown’s bottoms after the storm has passed and the sky has cleared. We repair storm-damaged masts and meter bases, and panels flooded by that later water. Call (513) 586-5107.',
+      'Rain far upstream can put the Great Miami into Miamitown’s bottoms after the storm has passed and the sky has cleared. We repair storm-damaged masts and meter bases, replace panels flooded by that later water, and look at both in one visit.',
     relevance: [
       'Miamitown (ZIP 45041) is a small far-west community on low river-bottom ground beside the Great Miami. The Great Miami is a substantial river with a large catchment upstream, so heavy rain well away from here can put water into these bottoms — which means flooding is not always tied to the storm you actually experienced. That catches people out: the wind passes, the sky clears, and the water arrives afterwards from rainfall upstream.',
       'For electrical purposes the consequence is straightforward. Panels in low levels get submerged, and submerged equipment is replaced rather than dried out, because water reaches the breakers and the bus behind the panel face and corrosion continues after everything appears dry. An inspector checks for it before Duke reconnects. Where a service entrance was also damaged by wind, both need doing, and we would rather assess them together than fix one and return for the other.',
@@ -141,7 +141,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   'forest-park': {
     intro:
-      'Forest Park was built as a planned city from the 1960s, so its electrical services were installed together and have aged together. When storm damage hits one, the neighbours’ equipment is likely the same age. We repair the mast or meter base. Call (513) 586-5107.',
+      'Storm damage in Forest Park tends to arrive in clusters, because this 1960s planned city had its services installed together and its trees planted together. When one service fails, the neighbours’ is likely the same age. We repair the mast or meter base and price a proper upgrade.',
     relevance: [
       'Forest Park (ZIP 45240) was developed as a planned community from the 1960s, and the result is an unusually uniform city: streets laid out together, houses built together, and electrical services installed together to the same specification. Sixty years on, that uniformity cuts both ways. It means the equipment across the city is at a comparable point in its life — so when a storm damages one service, the neighbours are frequently running something of identical age and condition.',
       'It also means the trees planted as part of that original design are all mature at once, standing over the drops on street after street. Storm damage here tends to arrive in clusters rather than isolated incidents. Where a limb has damaged a service that was fitted in the 1960s and never touched since, rebuilding it exactly as it was means refitting equipment that was already at the end of its useful life, which is worth pricing against a proper upgrade.',
@@ -158,7 +158,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   'pleasant-run': {
     intro:
-      'Pleasant Run homes along the creek corridor can get both storm problems at once: limbs from the wooded banks and water in low basements. Higher streets nearby often come through untouched. We repair storm-damaged masts, meter bases and flooded panels. Call (513) 586-5107.',
+      'Pleasant Run homes along the creek corridor can get both storm problems at once: limbs from the wooded banks and water in low basements. Higher streets nearby often come through untouched. We repair damaged masts and meter bases, replace flooded panels and file with Springfield Township.',
     relevance: [
       'Pleasant Run (ZIP 45240) takes its name from the creek running through this part of Springfield Township, and the creek corridor is what makes exposure uneven here. Properties along it sit lower and carry wooded banks, so they get both problems from one storm — limbs off the trees following the watercourse, and water reaching low basements. Streets on the higher ground a short distance away can come through the same night untouched.',
       'The two failure modes need different work. A mast is rebuilt and inspected. A panel that has stood in water is replaced, because water gets behind the bus bars and into the breakers and keeps corroding after the surface dries — and an inspector looks for exactly that before Duke reconnects. Springfield Township handles the permit and inspection, which is a different authority from the Green and Colerain townships on the west side.',
@@ -175,7 +175,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   cleves: {
     intro:
-      'When the Ohio runs high near Cleves, it can hold back the Great Miami so water backs up instead of draining, and panels in low basements pay for it. We repair flood-damaged panels and storm-damaged masts and meter bases. Call (513) 586-5107.',
+      'When the Ohio runs high near Cleves, it can hold back the Great Miami so storm water backs up instead of draining, and panels in low basements pay for it. We replace flood-damaged panels, repair masts and meter bases, and look at relocating panels higher.',
     relevance: [
       'Cleves (ZIP 45002) sits near where the Great Miami meets the Ohio, and a confluence behaves differently from a single river. When the Ohio runs high it can hold back the Great Miami’s flow, so water backs up rather than draining away — which means the flooding here does not depend only on how much rain fell locally or upstream on one river, but on what both are doing at once. Two moderate events can combine into something worse than either alone.',
       'That is why panels in low levels here have often been under water more than once. Submerged equipment gets replaced rather than dried out, because water reaches the breakers and behind the bus and keeps corroding invisibly. If yours has been replaced before for the same reason, ask us whether relocating it higher is practical while we are on site — the service entrance position constrains it, but where it can be done it turns a recurring cost into a one-off.',
@@ -192,7 +192,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   'north-bend': {
     intro:
-      'The wide floodplain at North Bend usually gives more warning than a flashier river, but once water arrives it covers more ground. We repair storm-damaged masts, meter bases and panels in this far-west village. Call (513) 586-5107.',
+      'The wide floodplain at North Bend usually gives more storm warning than a flashier river, but once water arrives it covers more ground. We repair damaged masts, meter bases and panels in this far-west village, and our side of the repair need not wait on the utility.',
     relevance: [
       'North Bend (ZIP 45052) is a historic far-west village on the Ohio, sitting where the river takes a broad bend and the floodplain widens accordingly. A wide floodplain behaves differently from a narrow one: water spreads out rather than rising fast in a confined channel, which usually means more warning than the flashier tributaries give but a larger area affected once it comes. For homeowners that is the difference between minutes and hours to move things out of a basement.',
       'Being at the far western end of the service area is the other factor. Restoration works outward from the core, so the lines out here are commonly among the later ones reached in a regional storm. That makes the window test more valuable, not less: if the neighbours have lights and you do not, the remaining fault is your own equipment, and that repair does not have to wait on a utility crew reaching the village. North Bend issues its own permits rather than going through the county.',
@@ -209,7 +209,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   loveland: {
     intro:
-      'Loveland spreads across more than one county, so the permit for a storm repair depends on which part of the city you live in. We confirm the authority for your address, repair the damaged service and coordinate the Duke reconnect. Call (513) 586-5107.',
+      'Loveland spreads across more than one county, so the permit for a storm repair depends on which part of the city you live in. We confirm the authority for your address, repair the damaged service, check low panels near the Little Miami and coordinate the Duke reconnect.',
     relevance: [
       'Loveland (ZIP 45140) straddles the Little Miami and extends across more than one county, which makes it one of the few places where the permit authority genuinely depends on which part of the same city you live in. That is not a technicality after a storm — filing with the wrong county office does not fail an inspection, it means the paperwork comes back and you wait while it is redone, at the point when a day matters most. We confirm the authority for your specific address before anything is filed.',
       'The Little Miami supplies the physical hazard. It has a steep catchment and responds quickly to heavy rain, so water can arrive during the same storm rather than a day later, and the older housing near the river and the downtown sits low. Away from the river the housing runs from historic to recently built, so services span a wide range of ages and arrangements — some overhead with masts to lose, some newer and fed underground.',
@@ -226,7 +226,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   harrison: {
     intro:
-      'Harrison sits on the Indiana line, where houses a short distance apart can be on Duke Energy Ohio or Duke Energy Indiana under different rules. We sort out which applies, repair the storm-damaged mast or meter base and coordinate the reconnect. Call (513) 586-5107.',
+      'Harrison sits on the Indiana line, where houses a short distance apart can be on Duke Energy Ohio or Duke Energy Indiana under different rules after a storm. We sort out which applies, repair the damaged mast or meter base and coordinate the reconnect.',
     relevance: [
       'Harrison (ZIP 45030) sits on the Indiana state line along the Whitewater River, and that position produces a genuinely unusual situation: houses a short distance apart can be in different states, served by different Duke Energy entities, under different state rules and different inspection regimes. Duke Energy Ohio and Duke Energy Indiana are separate operating companies with separate crews and separate regulators. A neighbour across the line being restored on a different timetable is not favouritism, it is a different utility.',
       'For your own repair what matters is establishing which side you are on before anything is filed, because the permit and inspection follow the state and locality rather than the postal address alone. The Whitewater adds the physical risk to the low ground near it, and the older downtown housing carries services of considerable age. Away from the river the newer development is a mix of overhead and underground.',
@@ -243,7 +243,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   ludlow: {
     intro:
-      'On Ludlow’s tall, narrow Victorians the service mast often runs up through the roof, so a storm limb that bends it opens the roof too. We repair the mast and flashing, then coordinate the reconnect with Duke Energy Kentucky. Call (513) 586-5107.',
+      'On Ludlow’s tall, narrow Victorians the service mast often runs up through the roof, so a storm limb that bends it opens the roof too. We repair the mast and flashing, check low riverfront panels for water, then coordinate the reconnect with Duke Energy Kentucky.',
     relevance: [
       'Ludlow (ZIP 41016) is a historic Northern Kentucky river town with a walkable Elm Street district and streets of well-preserved Victorian and early-1900s houses. Those houses are tall for their footprint, close together, and set on narrow lots, which means the service entrance sits high on the wall and frequently runs up through the roof rather than stopping at the eaves. When a limb bends a mast at a roof penetration you have a wiring problem and a hole in the roof at the same time, and the flashing is part of the electrical repair rather than a roofer’s follow-up.',
       'The utility here is Duke Energy Kentucky rather than Duke Energy Ohio — separate crews, separate scheduling, and the Kentucky Public Service Commission rather than PUCO as the regulator. The riverfront position adds water to the low streets, and a panel that has been submerged is replaced rather than dried out, which an inspector will check before the meter goes back in.',
@@ -260,7 +260,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   'park-hills': {
     intro:
-      'The canopy over Park Hills’ steep streets beside Devou Park is real forest, and limbs that size take a mast off a wall rather than just pulling a cable loose. We repair that storm damage and coordinate the reconnect. Call (513) 586-5107.',
+      'The canopy over Park Hills’ steep streets beside Devou Park is real forest, and storm limbs that size take a mast off a wall rather than just pulling a cable loose. We repair that damage, allow for the slow ladder setup on steep lanes, and coordinate the reconnect.',
     relevance: [
       'Park Hills (ZIP 41011) climbs the hillside beside Devou Park above Covington, in early-1900s houses on steep, tree-lined streets. Devou is a large park with genuinely mature woodland, and the residential streets run right against it, so the canopy over the service drops on the park side is forest rather than street planting. What comes down from trees that size takes a mast off a wall rather than pulling a cable loose.',
       'The steepness compounds it in two ways. Drops run across a grade rather than level, which puts them under more tension and gives a limb more leverage. And access is genuinely difficult on the steepest lanes — there may be nowhere to place a ladder at the angle we want, so the setup takes longer than the repair. Worth mentioning your street when you call. The utility is Duke Energy Kentucky, with its own crews and scheduling.',
@@ -277,7 +277,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   bromley: {
     intro:
-      'Bromley is small enough that utility restoration often comes fast, which makes it obvious when one house is still dark. That remaining storm damage is usually your own mast, meter base or a flooded panel on this low river ground, and we repair it. Call (513) 586-5107.',
+      'Bromley is small enough that utility restoration after a storm often comes fast, which makes it obvious when one house is still dark. That remaining damage is usually your own mast, meter base or a flooded panel on this low river ground, and we repair it.',
     relevance: [
       'Bromley (ZIP 41016) is a small Northern Kentucky river village next to Ludlow, with older houses on low ground beside the Ohio. Being both very small and very low is the whole of the picture. Small means a single damaged pole line can affect a large share of the village at once, so the utility restoration is often quick — there is not much of it — and that speed is precisely what exposes the house whose own equipment is the remaining problem.',
       'Low means water. Panels sit in the lowest part of these houses, and a panel that has stood in water is replaced rather than dried out, because water gets behind the bus bars and into the breakers and corrosion continues after the surface looks fine. An inspector checks for it before Duke Energy Kentucky reconnects. On a village street where several neighbours have the same two problems, going in as a group saves everyone time in the queue.',
@@ -294,7 +294,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   'fort-wright': {
     intro:
-      'Wind coming up the Ohio valley reaches Fort Wright’s hilltop with nothing to slow it, so masts on the exposed side of the street take the full load. We repair storm-damaged masts and meter bases and coordinate the reconnect with Duke Energy Kentucky. Call (513) 586-5107.',
+      'Storm wind coming up the Ohio valley reaches Fort Wright’s hilltop with nothing to slow it, so masts on the exposed side of the street take the full load. We repair the damaged masts and meter bases, including loose fixings that look like nothing from the ground.',
     relevance: [
       'Fort Wright (ZIP 41011) sits on the hilltop above the river in established mid-century and newer neighborhoods, and the elevation is what shapes storm damage here. Wind coming up the Ohio valley arrives at the top of the hill having had nothing to slow it, so the gusts reaching these streets are stronger than what the river cities below experience from the same storm. Service masts on the exposed side of a street take that load directly.',
       'The housing is largely mid-century, with services of that era and many still original — equipment that was sized for the loads of its time and has now been on the wall for decades. Sustained wind on an old mast works fixings loose and pulls a weatherhead out of true without necessarily snapping anything, which is damage that looks like nothing from the ground and still stops Duke Energy Kentucky reconnecting.',
@@ -311,7 +311,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   'fort-mitchell': {
     intro:
-      'Businesses along the Dixie Highway in Fort Mitchell often get power back while streets a few blocks behind still wait. Once your street is lit and your house isn’t, the storm damage is on your mast or meter base, and we repair it. Call (513) 586-5107.',
+      'Businesses along the Dixie Highway in Fort Mitchell often get power back after a storm while streets a few blocks behind still wait. Once your street is lit and your house isn’t, the damage is on your mast or meter base, and we repair it.',
     relevance: [
       'Fort Mitchell (ZIP 41017) is an established Kenton County city along the Dixie Highway corridor, with historic houses and mid-century homes on settled streets. The corridor carries substantial commercial load, and commercial circuits are restored as a priority — so the businesses along Dixie are frequently lit while residential streets a few blocks back are still waiting. That ordering is normal and tells you nothing about your own street.',
       'The housing gives two different repairs. The historic houses are tall, with entrances high on the wall or through the roof, and services that may be original or reworked once decades ago — those need judging as a whole assembly rather than patched. The mid-century streets are more straightforward: known arrangements, equipment of one era, many still original. The utility throughout is Duke Energy Kentucky rather than Duke Energy Ohio.',
@@ -328,7 +328,7 @@ export const part8: Record<string, LocationServiceCopy> = {
 
   'villa-hills': {
     intro:
-      'With almost no commercial load to pull it up the list, Villa Hills is restored purely as residential, usually later after a regional storm. You can’t speed that up, but if your neighbours are back on and you aren’t, we repair your storm-damaged service. Call (513) 586-5107.',
+      'With almost no commercial load to pull it up the list, Villa Hills is restored purely as residential after a regional storm, usually later. You can’t speed that up, but if your neighbours are back on and you aren’t, we repair your damaged service.',
     relevance: [
       'Villa Hills (ZIP 41017) is a hilltop residential city above the river, made up almost entirely of mid-century and newer single-family homes with essentially no commercial base. That is worth understanding because commercial load is what pulls a circuit up the restoration priority list. With none of it here, Villa Hills is restored purely as residential, which after a regional storm generally means later rather than sooner — and there is nothing a homeowner can do to change that part.',
       'What you can control is your own equipment. The hilltop position means wind arrives off the valley with little to break it, working on masts that in many cases have been in place since the house was built. And the newer sections were frequently developed with underground supply, so those houses have no mast to lose at all — worth establishing which arrangement you have, since it changes both the likely repair and how Duke Energy Kentucky schedules the reconnect.',

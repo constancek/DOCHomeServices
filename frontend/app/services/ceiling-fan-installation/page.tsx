@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
@@ -55,20 +55,7 @@ const winter = [
   'Even air distribution enhances overall comfort',
 ];
 
-const whyChoose = [
-  'Licensed electricians with years of experience',
-  'Safe, code-compliant installation',
-  'Support with lighting fixture installation and recessed lighting',
-  'Clear communication and upfront pricing',
-  'A commitment to doing a great job every time',
-];
 
-const whyUs = [
-  { icon: 'shield' as const, title: 'Fan-Rated Mounting', text: 'We anchor to a fan-rated box so your fan stays secure and wobble-free.' },
-  { icon: 'check' as const, title: 'Licensed Electricians', text: 'Safe, code-compliant wiring and controls every time.' },
-  { icon: 'badge' as const, title: 'Balanced & Quiet', text: 'We balance the blades and test every speed for smooth, quiet operation.' },
-  { icon: 'badge' as const, title: 'Upfront Pricing', text: 'Clear quotes you approve before any work begins.' },
-];
 
 const faqs = [
   { q: 'Do you offer financing for ceiling fan installation?', a: 'Yes — we offer financing for qualifying homeowners, which is handy when you are combining a fan with other electrical work like lighting or a switch upgrade.' },
@@ -120,32 +107,16 @@ export default function CeilingFanPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Want a ceiling fan installed in {site.serviceArea}?
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar couponTitle="Any Electrical Service">
+        <MainWithSidebar mascot couponTitle="Any Electrical Service">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/ceilingfan-hero.webp)' }}
             role="img"
             aria-label="Ceiling fan in a living room"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Ceiling Fan Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -176,17 +147,17 @@ export default function CeilingFanPage() {
             aria-label="Ceiling fan"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs You Need a New Ceiling Fan
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
               Ceiling fans are built for durability, but over time wear and electrical issues can
               affect performance and safety. You may need a ceiling fan replacement if you notice:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {signs.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={s} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
               ))}
@@ -203,7 +174,7 @@ export default function CeilingFanPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Our Ceiling Fan Installation Process
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -213,7 +184,7 @@ export default function CeilingFanPage() {
             <ul className="mt-4 space-y-2">
               {process.map((p) => (
                 <li key={p.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{p.lead}:</span> {p.text}
                   </span>
@@ -234,6 +205,24 @@ export default function CeilingFanPage() {
         </div>
       </section>
 
+      <ServiceReviews service="ceiling-fan-installation" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Want a ceiling fan installed in {site.serviceArea}?
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
+        </div>
+      </section>
+
       {/* Long-form content */}
       <section className="py-14">
         <div className="container-page max-w-4xl">
@@ -245,7 +234,7 @@ export default function CeilingFanPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {diyBenefits.map((d) => (
-              <li key={d} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={d} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {d}
               </li>
@@ -271,7 +260,7 @@ export default function CeilingFanPage() {
           </p>
           <ul className="mt-4 space-y-2.5">
             {choosing.map((c) => (
-              <li key={c.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={c.lead} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{c.lead}:</span> {c.text}
@@ -287,7 +276,7 @@ export default function CeilingFanPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {winter.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {w}
               </li>
@@ -300,31 +289,18 @@ export default function CeilingFanPage() {
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Ceiling Fan Installation</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Homeowners across {site.serviceArea} choose {site.name} for reliable electrical services and
-            friendly service. When you work with us, you can expect:
+            A ceiling fan is heavier than a light fixture and moves constantly, which is why one
+            hung from an old light box tends to wobble or work loose. {site.name} electricians check
+            the box and wiring before mounting anything.
           </p>
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
-                <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
-                {w}
-              </li>
-            ))}
-          </ul>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Ceiling Fan Installation FAQs</h2>
           <div className="mt-4">
@@ -339,7 +315,7 @@ export default function CeilingFanPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule a Ceiling Fan Installation Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule a Ceiling Fan Installation Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to upgrade your space or replace an outdated unit? Enjoy improved airflow and
               comfort. Call now or request an estimate.
@@ -357,20 +333,20 @@ export default function CeilingFanPage() {
         </div>
       </section>
 
-      {/* Ceiling fan installation by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Ceiling fan installation by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We install and replace ceiling fans across {site.serviceArea} —{' '}
-            {locations.filter((l) => ceilingFanCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on the homes and ceilings in your area.
-          </p>
-          <NeighborhoodLinks copy={ceilingFanCopy} basePath="/services/ceiling-fan-installation" linkPrefix="Ceiling fan installation" />
-        </div>
-      </section>
-
-      <PageSections service="ceiling-fan-installation" />
+      <ServiceSections service="ceiling-fan-installation">
+        {/* Ceiling fan installation by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Ceiling fan installation by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We install and replace ceiling fans across {site.serviceArea} —{' '}
+              {locations.filter((l) => ceilingFanCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on the homes and ceilings in your area.
+            </p>
+            <NeighborhoodLinks copy={ceilingFanCopy} basePath="/services/ceiling-fan-installation" linkPrefix="Ceiling fan installation" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

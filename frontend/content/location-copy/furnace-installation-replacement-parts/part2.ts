@@ -1,7 +1,7 @@
 export const part2: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'madeira': {
     intro:
-      'If the furnace in your Madeira, OH home is short-cycling or limping through another winter, replacing it before it quits beats a no-heat emergency in January. We size every furnace to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'Furnace replacement in Madeira usually means a mid-century home with a furnace 15 to 20 years old that costs more to run each season. Additions, finished basements and new windows change the heating load, so we start with a fresh load calculation instead of copying the old size.',
     relevance: [
       'Madeira (ZIP 45243) is an established east-side city built largely of mid-century single-family homes on quiet, tree-lined streets. A lot of those houses are running furnaces that are 15 to 20-plus years old — units that were efficient when installed but now cost more to run each season and are one cracked heat exchanger away from a shutdown.',
       'When we replace a furnace in a Madeira home of that era, the first job is a fresh load calculation rather than swapping in whatever size came out. Mid-century additions, finished basements, and replaced windows change the heating load, so a properly sized high-efficiency furnace usually heats more evenly and quietly than the oversized one it replaces.',
@@ -17,7 +17,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'wyoming': {
     intro:
-      'Heating a grand older home in Wyoming, OH with a furnace that is past its prime gets expensive fast, and a mid-winter failure puts the finished interiors at risk. We size replacements properly, give estimates, and offer financing. Call (513) 586-5107.',
+      'Cold upstairs bedrooms are the usual reason for furnace replacement in Wyoming’s Victorian and early-1900s homes, which were converted from boilers or coal to forced air. We run a load calculation for the real square footage and ceiling height and check that the old ducts can carry the airflow.',
     relevance: [
       'Wyoming (ZIP 45215) is a historic, affluent suburb north of the city, known for its grand Victorian and early-1900s homes on established, tree-shaded streets. Many of those large houses were converted from old boilers or coal systems to forced air decades ago, and the ductwork and furnace sizing that came with that conversion was rarely matched to the rooms it serves.',
       'Replacing a furnace in a century-old Wyoming home is as much about getting the sizing and air distribution right as it is the equipment. We run a load calculation for the actual square footage and ceiling height, check that the existing ducts can carry the airflow, and set up a high-efficiency furnace so the upstairs bedrooms stop running cold while the first floor overheats.',
@@ -33,7 +33,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mariemont': {
     intro:
-      'When the furnace in your Mariemont, OH home is nearly as old as the village itself, planning a replacement beats waiting for it to fail on the coldest night. We size each unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'Mariemont furnace replacement in 1920s and 30s Tudor homes takes planning. Small, tight basements and original chimney chases were never designed for high-efficiency furnaces and PVC venting, so we route venting to respect the historic exterior and size the unit to the real heating load.',
     relevance: [
       'Mariemont (ZIP 45227) is a planned garden community laid out in the 1920s and now a National Historic Landmark, known for its Tudor Revival homes and village square. Because so much of the housing dates to the 1920s and 30s, many of these homes have small, tight basements and original chimney chases that were never designed around modern high-efficiency furnaces and their PVC venting.',
       'Replacing a furnace in a 1920s Mariemont Tudor takes some planning around those constraints. We work out venting routes that respect the historic exterior, size the furnace to the real heating load rather than the old equipment, and lay out the install so a high-efficiency unit fits the cramped basement without disturbing the home’s historic character.',
@@ -49,7 +49,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cheviot': {
     intro:
-      'If your Cheviot, OH furnace is breaking down every winter, replacing it is usually cheaper over a couple of seasons than the running repairs. We size each new furnace to the home, give estimates, and offer financing. Call (513) 586-5107.',
+      'Cheviot’s furnace replacements are spread across early-1900s homes and brick two-families on Harrison Avenue, often with one furnace per side. We size each furnace to the unit it heats, not the whole building, and confirm the gas line and venting can support a modern high-efficiency unit.',
     relevance: [
       'Cheviot (ZIP 45211) is a small, densely built city on the west side, completely surrounded by Cincinnati, with a grid of early-1900s homes and brick two-families along Harrison Avenue. The two-families in particular often run on furnaces that have been patched for years, and the tight basements leave little room for oversized equipment.',
       'When we replace a furnace in a Cheviot home, we size it to the unit it actually heats — important in the brick two-families where one furnace per side is common — and confirm the existing gas line and venting can support a modern high-efficiency unit. Getting the size right keeps both the running cost and the noise down in these compact houses.',
@@ -65,7 +65,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covedale': {
     intro:
-      'A furnace from the 1990s or earlier in your Covedale, OH home is well past the point where replacement pays off in lower bills and reliable heat. We size every unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'Covedale furnace replacement is usually a gas-to-gas swap, since the area has natural gas throughout. Furnaces installed in the 80s and 90s are now 15 to 30 years old, and we size the new condensing furnace to the home so it does not end up oversized and short-cycling.',
     relevance: [
       'Covedale (ZIP 45238) is a settled west-side community on the edge of the city near Green Township, with neighborhoods of early-1900s through mid-century single-family homes. Many of these houses are on their second or third furnace, and the ones installed in the 80s and 90s are now 15 to 30 years old and running far below the efficiency available today.',
       'Covedale sits in an area with natural gas service throughout, so most replacements here are gas-to-gas swaps where a high-efficiency condensing furnace makes the most sense. We run a load calculation for the home, confirm the gas line and venting, and size the furnace correctly so it is not the oversized, short-cycling unit that often gets installed by default.',
@@ -81,7 +81,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covington': {
     intro:
-      'Replacing an old furnace in a historic Covington, KY rowhouse beats discovering it has failed during a January cold snap. We size each unit to the home, give estimates, and offer financing. Call (513) 586-5107.',
+      'Across the river in Covington, furnace replacement often means 19th-century rowhouses in MainStrasse Village and Licking Riverside converted from coal or boiler heat. We start with a load calculation, check that the retrofitted ductwork can carry the airflow and plan venting in tight basements.',
     relevance: [
       'Covington (ZIP 41011) sits directly across the Ohio River from downtown Cincinnati, with historic districts like MainStrasse Village and Licking Riverside full of 19th-century rowhouses and brick homes. A lot of these were converted from coal or boiler heat to forced air over the years, and the furnace sizing and ductwork that came with those conversions is often a poor match for the rooms.',
       'When we replace a furnace in a century-old Covington home, we start with a load calculation rather than copying the old unit, and we check that the retrofitted ductwork can actually carry the airflow a new furnace needs. In the tight basements of these riverfront rowhouses, fitting and venting a high-efficiency unit takes planning, which is why an in-home estimate matters before any work starts.',
@@ -97,7 +97,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newport': {
     intro:
-      'If the furnace in your Newport, KY home is original to a long-ago conversion, replacing it now avoids a no-heat call in the dead of winter. We size each unit to the home, give estimates, and offer financing. Call (513) 586-5107.',
+      'Newport furnace replacement centers on the East Row Historic District, where forced-air furnaces were added to 19th-century homes without a proper load calculation. We size for tall ceilings and large rooms, check the existing ductwork and route venting to respect the historic exterior.',
     relevance: [
       'Newport (ZIP 41071) is a Northern Kentucky river city across from downtown Cincinnati, home to the East Row Historic District, one of the largest Victorian historic districts in the state. The hundreds of 19th-century homes in the East Row were built around radiant or coal heat, and the forced-air furnaces added later were often sized and ducted without a proper load calculation.',
       'Replacing a furnace in a Newport Victorian works best when we treat the sizing as a fresh problem: a load calculation for the tall ceilings and large rooms, a check of the existing ductwork, and venting routed to respect the historic exterior. A correctly sized high-efficiency furnace heats these big old rooms far more evenly than the oversized unit it usually replaces.',
@@ -113,7 +113,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bellevue': {
     intro:
-      'A furnace squeezed into the tight basement of a late-1800s Bellevue, KY home is often overdue for replacement before it leaves you without heat. We size each unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'Furnace replacement in Bellevue is partly a fit-and-venting problem. Late-1800s homes off Fairfield Avenue have small basements and furnaces crammed into corners, so we size the unit to the heating load, plan a venting route that works and confirm the gas line can handle a high-efficiency furnace.',
     relevance: [
       'Bellevue (ZIP 41073) is a compact Northern Kentucky river city with a historic Fairfield Avenue business district and tight streets of well-preserved late-1800s homes. Those homes have small basements and were heated by coal or boilers before forced air, so the furnaces in them now are often crammed into corners with awkward venting.',
       'Replacing a furnace in one of these Bellevue homes is partly a fit-and-venting problem. We size the unit to the actual heating load, plan a venting route that works in the cramped basement, and confirm the gas line is adequate for a modern high-efficiency furnace. Getting the size right keeps the running cost down through Northern Kentucky cold winters.',
@@ -129,7 +129,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-thomas': {
     intro:
-      'When the furnace in your Fort Thomas, KY home is over 15 years old, replacing it ahead of a failure protects the finished spaces these stately houses are known for. We size each unit to the home, give estimates, and offer financing. Call (513) 586-5107.',
+      'Large early-1900s homes with finished basements and several floors make furnace replacement in Fort Thomas a sizing and ductwork question more than raw capacity. We run a load calculation for the full square footage and look at how the ducts move air between floors before choosing the unit.',
     relevance: [
       'Fort Thomas (ZIP 41075) is a historic Northern Kentucky city built around a former U.S. Army post, with stately early-1900s homes on tree-lined streets above the river. Many of these large houses have finished basements and multiple floors, which makes a properly sized furnace and balanced ductwork far more important than raw heating capacity.',
       'Replacing a furnace in a Fort Thomas home of this size starts with a load calculation for the full square footage and a look at how the existing ducts distribute air across floors. A right-sized high-efficiency furnace, sometimes paired with airflow adjustments, keeps the upper bedrooms and the finished lower level comfortable through a cold-winter load instead of overheating the middle of the house.',
@@ -145,7 +145,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'florence': {
     intro:
-      'Even the 1990s homes around Florence, KY are now old enough that the original furnace is due for replacement. We size each unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'Florence furnace replacement covers newer subdivisions near the Florence Mall, where original furnaces are 20 years old or more, and mid-century neighborhoods with older units still. Most are gas-to-gas swaps, and we size by load calculation instead of reusing the builder-grade size.',
     relevance: [
       'Florence (ZIP 41042) is the largest city in Boone County and one of the fastest-growing in Northern Kentucky, with a wide mix of mid-century neighborhoods and newer subdivisions around the Florence Mall area. The newer subdivisions are reaching the point where original furnaces are 20-plus years old, while the mid-century neighborhoods run furnaces older still.',
       'Florence has natural gas service across most of the city, so the majority of replacements here are gas-to-gas swaps where a high-efficiency condensing furnace pays off over a heating season. We run a load calculation for the specific home rather than reusing the builder-grade size, which on many subdivision houses means a better-matched, quieter, more efficient unit than the original.',
@@ -161,7 +161,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'erlanger': {
     intro:
-      'A mid-century furnace in your Erlanger, KY home that is 15 to 20-plus years old is living on borrowed time, and replacing it beats a no-heat morning. We size each unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'Erlanger’s mid-century homes near the airport are the ones most often running furnaces past their efficient years. Furnace replacement there is usually a high-efficiency gas unit, and where a home has no gas line we can lay out a dual-fuel or heat-pump option. Each one gets a load calculation first.',
     relevance: [
       'Erlanger (ZIP 41018) is an established Kenton County city near the airport, with settled mid-century neighborhoods and a mix of older and newer homes. The mid-1900s houses here are the ones most often running furnaces well past their efficient years, costing more to heat each winter.',
       'Erlanger has natural gas service through most neighborhoods, so a high-efficiency gas furnace is the usual replacement, though for homes without a gas line we can lay out a dual-fuel or heat-pump alternative. Either way we run a load calculation for the home first, because the right-sized unit heats more evenly and cycles less than the oversized furnaces often installed by default.',
@@ -177,7 +177,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mason': {
     intro:
-      'Many of the 1990s-and-later homes in Mason, OH are now on furnaces old enough to replace, ideally before the first hard freeze. We size each unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'In Mason, furnace replacement is a chance to fix builder-grade furnaces sized in a hurry in 1990s and newer subdivisions, some now 25 years old or more. We run a load calculation that counts finished basements and added space, then size a high-efficiency gas furnace to match.',
     relevance: [
       'Mason (ZIP 45040) is a fast-growing Warren County city north of Cincinnati, near Kings Island, with large subdivisions of homes built mostly from the 1990s onward alongside an older town center. The earliest of those subdivision homes now have furnaces 25-plus years old, and the older town center houses have furnaces older still.',
       'Most Mason subdivisions were built with builder-grade furnaces sized in a hurry, so a replacement is a good chance to fix that. We run a load calculation for the actual home, factoring in finished basements and any added square footage, then size a high-efficiency furnace to match. On natural gas, which serves the city, that usually means lower bills and quieter, more even heat than the original.',
@@ -193,7 +193,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-chester': {
     intro:
-      'The 1990s-and-newer homes across West Chester, OH are reaching the age where the original furnace is worth replacing before it fails. We size each unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'Original furnaces in West Chester’s subdivisions along I-75 are now 25 years old or more, which makes furnace replacement the time to right-size builder-grade equipment. Finished basements and bonus rooms change the load calculation, and a high-efficiency gas furnace is the usual choice.',
     relevance: [
       'West Chester (ZIP 45069) is a large, fast-growing Butler County community between Cincinnati and Dayton, made up largely of subdivisions built from the 1990s onward along the I-75 corridor. The earliest of those homes now carry furnaces 25-plus years old, and an original furnace nearing the end of its life rarely fails at a convenient time.',
       'Because most West Chester homes were built with builder-grade equipment, a replacement is the moment to right-size. We run a load calculation for the specific house — finished basements and bonus rooms change the number — and the township has natural gas service throughout, so a high-efficiency gas furnace is the usual choice. A properly sized unit cycles less and costs less to run than the original.',
@@ -209,7 +209,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pendleton': {
     intro:
-      'Replacing an aging furnace in a converted Pendleton, Cincinnati loft beats a heat outage that affects the units around you. We size each unit to the space, give estimates, and offer financing. Call (513) 586-5107.',
+      'Furnace replacement in Pendleton means converted lofts and condos in restored 19th-century Italianate buildings, where sizing and venting were set by what the building allowed. We size the new furnace to the actual conditioned space, tall ceilings included, and confirm venting and gas routing work inside the historic shell.',
     relevance: [
       'Pendleton (ZIP 45202) is a small, historic arts district tucked against the eastern edge of Over-the-Rhine, full of restored 19th-century Italianate buildings and converted lofts and condos. The furnaces in these conversions were fitted into existing structures, so sizing and venting were often dictated by what the building allowed rather than what the unit needs.',
       'When we replace a furnace in a Pendleton loft or condo, we size it to the actual conditioned space — which in a loft with tall ceilings is not always obvious — and confirm the venting and gas routing work within the historic shell. In tightly built blocks like these, a clean, correctly sized install matters as much as the equipment itself.',
@@ -225,7 +225,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'queensgate': {
     intro:
-      'When the heating in your Queensgate, Cincinnati commercial building is failing, a properly sized furnace or rooftop replacement keeps the space usable through winter. We size to the building, give estimates, and offer financing. Call (513) 586-5107.',
+      'Queensgate furnace replacement is mostly commercial: older furnaces and unit heaters in warehouses, offices and light-industrial buildings near the rail yards. We size to how the space is used now, confirm gas supply and venting, and keep equipment clear of flood risk on low Mill Creek ground where we can.',
     relevance: [
       'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Heating equipment here tends to be older commercial units sized for layouts that have since been reconfigured.',
       'Replacing a furnace or unit heater in a Queensgate building starts with the real heat load for how the space is used now, not how it was decades ago. We confirm gas supply and venting for the larger commercial units these buildings need, and on the low ground near the Mill Creek we keep equipment and intakes clear of flood risk where we can.',
@@ -241,7 +241,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cuf': {
     intro:
-      'An old furnace heating a subdivided rental in CUF near UC is overdue for replacement when it is patched every winter. We size each unit to the space it serves, give estimates, and offer financing. Call (513) 586-5107.',
+      'Furnace replacement in CUF (Clifton Heights, University Heights & Fairview) usually involves student rentals where furnaces were sized and ducted cheaply during conversion and worn out by heavy use. We size each new furnace to the unit or zone it heats and check the venting and gas line.',
     relevance: [
       'CUF (ZIP 45219) covers Clifton Heights, University Heights, and Fairview — the dense hilltop neighborhoods packed against the University of Cincinnati, full of 19th- and early-1900s homes now largely converted to student rentals. Many of these houses were split into units with furnaces sized and ducted on the cheap during conversion, and years of heavy tenant use wears them out fast.',
       'When we replace a furnace in a CUF rental, we size it to the unit or zone it actually heats rather than the whole original house, and confirm the venting and gas line suit a modern unit. For owners juggling several units, getting the size right keeps both reliability and heating costs in check across a building full of students.',
@@ -257,7 +257,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'camp-washington': {
     intro:
-      'A furnace nursed through years in an older Camp Washington, Cincinnati home or building is a candidate for replacement before it quits in the cold. We size each unit to the space, give estimates, and offer financing. Call (513) 586-5107.',
+      'Camp Washington’s small frame worker houses have cramped basements and old masonry chimneys, so furnace replacement there means planning the fit. We size the unit to the small house instead of overshooting, route PVC venting where a condensing furnace needs it and position equipment with valley flooding in mind.',
     relevance: [
       'Camp Washington (ZIP 45225) is a historic working neighborhood in the Mill Creek valley, known for its industry and a tight mix of old worker housing and factories. The small frame worker houses here often have cramped basements and original chimney venting that complicate dropping in a modern furnace.',
       'Replacing a furnace in a Camp Washington home means planning around those tight spaces: sizing the unit to the small house rather than overshooting, and routing high-efficiency PVC venting where the old masonry chimney no longer suits a condensing furnace. On the low valley ground we also keep the furnace and any intakes positioned with flooding in mind.',
@@ -273,7 +273,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-fairmount': {
     intro:
-      'If the furnace in your South Fairmount, Cincinnati home is old and unreliable, replacing it before winter beats a cold-weather breakdown. We size each unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'Homes along Queen City Avenue in South Fairmount sit in the Lick Run valley, which has a long flood history, so furnace replacement there includes choosing where the unit sits. We size it with a load calculation and position the furnace and venting to reduce risk to the equipment.',
     relevance: [
       'South Fairmount (ZIP 45205) sits in the Lick Run valley along Queen City Avenue on the west side, an area rebuilt around the Lick Run Greenway after a long history of valley flooding. The older homes here have basements where heating equipment sits low, so flood history is worth factoring into where a new furnace goes.',
       'When we replace a furnace in a South Fairmount home, we size it to the house with a load calculation and, given the valley flood history, position the unit and its venting to reduce the risk to the equipment. A correctly sized high-efficiency furnace then handles the cold-winter load without the short-cycling common in oversized installs.',
@@ -289,7 +289,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-end': {
     intro:
-      'Replacing the aging furnace in your East End, Cincinnati riverfront home beats losing heat on a cold night by the water. We size each unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'Along Eastern Avenue, furnace replacement in the East End splits between river cottages with decades-old furnaces sitting low beside the Ohio and newer condos that need a fresh load calculation for a smaller space. In the cottages, we place the unit and venting clear of high water where possible.',
     relevance: [
       'The East End (ZIP 45226) is a narrow riverfront neighborhood stretching east of downtown along Eastern Avenue, below Columbia Parkway, with historic river cottages and newer condos squeezed between the hillside and the Ohio River. The older cottages carry decades-old furnaces, and their low position right on the river matters for where heating equipment sits.',
       'When we replace a furnace in an East End cottage, we size it to the home and, given the riverfront flood risk, place the unit and venting to keep them clear of high water where the layout allows. The newer condos along here are a different job — often a fresh load calculation and a high-efficiency unit matched to the smaller conditioned space.',
@@ -305,7 +305,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-fairmount': {
     intro:
-      'A worn furnace in your North Fairmount, Cincinnati hillside home is worth replacing before it fails in the cold. We size each unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'On the hillside above the Mill Creek valley, North Fairmount furnace replacement usually involves early-1900s homes with small basements and furnaces sized long ago, often oversized. We run a fresh load calculation, confirm the venting suits a modern unit and size a high-efficiency furnace to stop the short-cycling.',
     relevance: [
       'North Fairmount (ZIP 45225) is a west-side hillside neighborhood above the Mill Creek valley, with streets of older early-1900s homes. Those century-old houses commonly have small basements and furnaces that were sized and installed long ago without much regard to the actual heating load.',
       'Replacing a furnace in a North Fairmount home is a good moment to correct that. We run a load calculation for the home rather than matching the old nameplate, confirm the venting suits a modern unit, and size a high-efficiency furnace that heats the house evenly through the cold-winter load instead of short-cycling.',
@@ -321,7 +321,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'evanston': {
     intro:
-      'If the furnace in your Evanston, Cincinnati home near Xavier is aging out, replacing it beats a no-heat call mid-semester. We size each unit to the space, give estimates, and offer financing. Call (513) 586-5107.',
+      'Evanston furnace replacement near Xavier University covers early-1900s homes past their efficient years and rentals that wear out equipment faster. We size each furnace to the unit it actually heats and confirm the venting and gas line suit a modern high-efficiency model.',
     relevance: [
       'Evanston (ZIP 45207) is an east-side neighborhood next to Xavier University, with streets of early-1900s homes and apartment buildings, some now student housing. The older homes carry furnaces well past their efficient years, and the densely used rentals near campus wear their equipment harder than a single-family home would.',
       'When we replace a furnace in an Evanston home or rental, we size it to the unit it actually heats and confirm the venting and gas line suit a modern high-efficiency furnace. In the converted multi-units near Xavier, sizing each unit correctly keeps heating costs and reliability in line across a building.',
@@ -337,7 +337,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-cumminsville': {
     intro:
-      'A failing furnace in your South Cumminsville, Cincinnati home is worth replacing before the coldest stretch of winter. We size each unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'The valley floor shapes furnace replacement in South Cumminsville, where older homes among industrial corridors have low basements in an area with a flood history. We size the new furnace with a load calculation and position the unit and venting to stay clear of high water where the basement allows.',
     relevance: [
       'South Cumminsville (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, with older homes set among industrial corridors. The valley homes here often have low basements where heating equipment sits, and flood history in the valley is worth factoring into a replacement.',
       'When we replace a furnace in a South Cumminsville home, we size it to the house with a load calculation and, given the low valley ground, position the unit and venting to keep them clear of high water where the basement allows. A right-sized high-efficiency furnace then handles the cold-winter load without short-cycling.',
@@ -353,7 +353,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'english-woods': {
     intro:
-      'Replacing the aging furnace in your English Woods, Cincinnati hilltop home beats losing heat on a cold night. We size each unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'English Woods furnace replacement covers older hilltop homes with furnaces past their prime and redeveloped properties with newer units we assess on their own terms. We run a load calculation instead of matching the old unit, confirm the venting and size a high-efficiency furnace to the home.',
     relevance: [
       'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here run furnaces well past their prime, while redeveloped properties may have newer units worth assessing on their own terms.',
       'When we replace a furnace in an English Woods home, we run a load calculation rather than matching the old unit, confirm the venting suits a modern furnace, and size a high-efficiency unit to the hilltop home. Right-sizing keeps the furnace from short-cycling and holds down the cost of heating through the cold-winter load.',
@@ -369,7 +369,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-avondale': {
     intro:
-      'When the furnace in your grand North Avondale, Cincinnati home is past its prime, replacing it protects the finished spaces these houses are known for. We size each unit to the home, give estimates, and offer financing. Call (513) 586-5107.',
+      'When a furnace needs replacing in North Avondale, it is usually in a grand early-1900s home near Rockdale Avenue with original forced-air or converted-boiler ductwork. We run a load calculation for the full square footage and check how the ducts spread air across the floors before sizing the unit.',
     relevance: [
       'North Avondale (ZIP 45229) is a historic, leafy neighborhood known for its grand early-1900s homes on large, tree-shaded lots near Rockdale Avenue. Those big houses have substantial heating loads and often the original forced-air or converted-boiler ductwork, so furnace sizing and air distribution matter more than raw capacity.',
       'Replacing a furnace in a large North Avondale home starts with a load calculation for the full square footage and a look at how the existing ducts spread air across the floors. A right-sized high-efficiency furnace, sometimes with airflow adjustments, keeps the upper bedrooms and main floors comfortable instead of overheating the center of the house.',
@@ -385,7 +385,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'millvale': {
     intro:
-      'A worn furnace in your Millvale, Cincinnati home is worth replacing before the coldest part of winter. We size each unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'Millvale is a compact valley neighborhood where furnace replacement means aging furnaces in basements that high water can reach. We size the new furnace to the house with a load calculation and position the unit and venting to reduce flood risk where the basement allows.',
     relevance: [
       'Millvale (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, a compact, largely residential community. The older homes here run aging furnaces, and the low-lying valley ground means basement heating equipment sits where high water can reach it.',
       'When we replace a furnace in a Millvale home, we size it to the house with a load calculation and, given the valley setting, position the unit and venting to reduce flood risk where the basement allows. A correctly sized high-efficiency furnace then carries the cold-winter load without the short-cycling of an oversized unit.',
@@ -401,7 +401,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'paddock-hills': {
     intro:
-      'An early- or mid-1900s furnace in your Paddock Hills, Cincinnati home is well into the age where replacement pays off. We size each unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'Paddock Hills furnace replacement usually involves early- and mid-1900s homes near Paddock Road with furnaces 15 to 20 years old or more. We run a load calculation rather than matching the old nameplate, confirm the gas line and venting and fit a high-efficiency furnace that cycles less.',
     relevance: [
       'Paddock Hills (ZIP 45229) is a small, well-kept north-side residential pocket near Paddock Road and the Norwood Lateral, with streets of early- and mid-1900s homes. Houses of that era are often on a furnace 15 to 20-plus years old, running below the efficiency available today.',
       'Replacing a furnace in a Paddock Hills home is a chance to right-size. We run a load calculation rather than matching the old nameplate, confirm the gas line and venting suit a modern unit, and put in a high-efficiency furnace that heats the house evenly and cycles less than the one it replaces.',
@@ -417,7 +417,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'spring-grove-village': {
     intro:
-      'A failing furnace in your Spring Grove Village, Cincinnati home is worth replacing before the deep cold sets in. We size each unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'Around Spring Grove Cemetery and Arboretum, furnace replacement in Spring Grove Village means older valley homes where basement equipment can sit in reach of high water during heavy rain. We size the new unit with a load calculation and position it and its venting to reduce flood risk.',
     relevance: [
       'Spring Grove Village (ZIP 45232) sits in the Mill Creek valley around the historic Spring Grove Cemetery and Arboretum, with a mix of older homes and industry. The older valley homes run aging furnaces, and the low ground means basement heating equipment can sit where high water reaches in heavy rain.',
       'When we replace a furnace in a Spring Grove Village home, we size it to the house with a load calculation and, given the valley location, position the unit and venting to reduce flood risk where the basement layout allows. A right-sized high-efficiency furnace then handles the cold-winter load without short-cycling.',
@@ -433,7 +433,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'linwood': {
     intro:
-      'Replacing the aging furnace in your Linwood, Cincinnati home beats a cold-night failure near the river bottoms. We size each unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'Down on the river bottoms near Lunken Airport, Linwood furnace replacement means older homes where the basement furnace sits low. We size the new unit with a load calculation and place it and its venting clear of high water where the layout allows.',
     relevance: [
       'Linwood (ZIP 45226) is one of Cincinnati’s smaller east-side neighborhoods, set along Eastern Avenue near Lunken Airport and the river bottoms. The older homes here carry aging furnaces, and the low riverside position matters for where heating equipment sits in a basement.',
       'When we replace a furnace in a Linwood home, we size it to the house with a load calculation and, given the river-bottom setting, place the unit and venting to keep them clear of high water where the layout allows. A correctly sized high-efficiency furnace then carries the cold-winter load without the short-cycling of an oversized one.',
@@ -449,7 +449,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bond-hill': {
     intro:
-      'A furnace from the last century in your Bond Hill, Cincinnati home is well past the point where replacement pays off in lower bills and steady heat. We size each unit to the house, give estimates, and offer financing. Call (513) 586-5107.',
+      'Bond Hill furnace replacement along Reading Road usually swaps out a furnace 15 to 20 years old or more in an early-1900s or mid-century home. We correct the sizing with a load calculation, confirm the gas line and venting and fit a high-efficiency furnace that heats evenly.',
     relevance: [
       'Bond Hill (ZIP 45237) is a north-side neighborhood along Reading Road, with established streets of early-1900s and mid-century single-family homes. Many of those houses are on a furnace 15 to 20-plus years old, running well below the efficiency available today.',
       'Replacing a furnace in a Bond Hill home is a chance to correct the sizing. We run a load calculation for the actual home rather than matching the old nameplate, confirm the gas line and venting suit a modern unit, and install a high-efficiency furnace that heats evenly and cycles less than the one it replaces.',

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Icon, { type IconName } from './Icon';
+import Icon from './Icon';
 import LocationHero from './LocationHero';
 import { LocationSections } from './PageSections';
 import MainWithSidebar from './Sidebar';
@@ -16,11 +16,35 @@ import type { Location, Adjacent } from '@/content/locations';
 // (Sections that must be unique: intro, the local-relevance moat, the
 // common-problems lead-in, and at least one localized FAQ.)
 export type LocationServiceCopy = {
-  intro: string;
-  relevance: string[];
+  // Legacy layout only (towns not yet on the one-format layout).
+  intro?: string;
+  relevance?: string[];
   commonIntro: string;
   localFaqs: { q: string; a: string }[];
+  // One-format layout (see page-format.md): when both are set, the intro
+  // section is just "Local [Service] Pros Who Know [Town]" + localParagraph
+  // (70-90 words) and "Emergency [Service] in [Town]" + emergencyParagraph
+  // (45-60 words), replacing the intro heading, relevance and sidebar sections.
+  localParagraph?: string;
+  emergencyParagraph?: string;
+  // Fully localized towns replace the service's shared sections with their own
+  // versions (same topics, written for that town). Anything left out falls back
+  // to the shared config.
+  overrides?: Partial<Pick<ServiceLocationConfig, LocalizableField>>;
 };
+
+type LocalizableField =
+  | 'ctaLine'
+  | 'introHeading'
+  | 'introParagraphs'
+  | 'sidebarSections'
+  | 'band1Heading'
+  | 'commonSituations'
+  | 'trustedBanner'
+  | 'proseSections'
+  | 'whyTitle'
+  | 'whyParagraph'
+  | 'sharedFaqs';
 
 // Reusable, write-once-per-service config — mirrors that service's MASTER page
 // so location pages carry the full experience (banners, sidebar, photo bands,
@@ -50,14 +74,14 @@ export type ServiceLocationConfig = {
   band2Paragraphs: string[];
   proseSections: { title: string; body: string }[];
   whyTitle: string;
-  whyUs: { icon: IconName; title: string; text: string }[];
+  whyParagraph: string; // 30-40 words under whyTitle; may use {neighborhood}
   proofQuote: string;
   sharedFaqs: { q: string; a: string }[];
   related: { label: string; href: string }[];
 };
 
 export default function LocationServicePage({
-  config,
+  config: baseConfig,
   loc,
   copy,
   nearby,
@@ -67,6 +91,7 @@ export default function LocationServicePage({
   copy: LocationServiceCopy;
   nearby: Adjacent[];
 }) {
+  const config: ServiceLocationConfig = { ...baseConfig, ...copy.overrides };
   const place = loc.city
     ? `${loc.neighborhood}, ${loc.city}, ${loc.state}`
     : `${loc.neighborhood}, ${loc.state}`;
@@ -139,27 +164,83 @@ export default function LocationServicePage({
       {/* Hero + intro (unique) */}
       <LocationHero
         title={`${config.serviceName} in ${place}`}
-        intro={copy.intro}
         crumbs={crumbs}
         image={config.heroImage}
         imageAlt={`${config.serviceName} in ${loc.neighborhood}`}
       />
 
-      {/* Orange call banner */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-8 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">{fill(config.ctaLine)}</h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
+      {/* Intro + sidebar */}
+      <section className="py-16">
+        <MainWithSidebar hideMenu mascot place={loc.neighborhood} couponTitle={sidebarCouponFor(config.slug)}>
+          {config.promo && (
+            <div className="mb-5 rounded-2xl bg-lime-500 px-5 py-3 text-center font-display text-sm font-extrabold uppercase tracking-wide text-white sm:text-base">
+              {fill(config.promo)}
+            </div>
+          )}
+          {copy.localParagraph && copy.emergencyParagraph ? (
+            <>
+              {/* One-format layout: two headings, one paragraph each. */}
+              <h2 className="section-title text-brand-700">
+                Local {config.serviceName} Pros Who Know {loc.neighborhood}
+              </h2>
+              <p className="mt-4 text-[17px] leading-relaxed text-ink/75">{copy.localParagraph}</p>
+              <h2 className="mt-10 section-title text-brand-700">
+                Emergency {config.serviceName} in {loc.neighborhood}
+              </h2>
+              <p className="mt-4 text-[17px] leading-relaxed text-ink/75">{copy.emergencyParagraph}</p>
+            </>
+          ) : (
+            <>
+              <h2 className="section-title text-brand-700">
+                {fill(config.introHeading)}
+              </h2>
+              {/* Opening paragraph: the town intro. */}
+              <p className="mt-4 text-[17px] leading-relaxed text-ink/75">{copy.intro}</p>
+
+              {/* Local relevance — THE MOAT (unique) */}
+              <h2 className="mt-10 section-title text-brand-700">
+                Local {config.serviceName} Pros Who Know {loc.neighborhood}
+              </h2>
+              <div className="mt-4 space-y-4 text-[17px] leading-relaxed text-ink/80">
+                {(copy.relevance ?? []).map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+              </div>
+
+              {config.sidebarSections?.map((sec) => (
+                <div key={sec.title}>
+                  <h2 className="mt-10 section-title text-brand-700">{fill(sec.title)}</h2>
+                  {sec.body.map((p, i) => (
+                    <p key={i} className="mt-3 text-[17px] leading-relaxed text-ink/75">{fill(p)}</p>
+                  ))}
+                </div>
+              ))}
+            </>
+          )}
+
+        </MainWithSidebar>
+      </section>
+
+      {/* Band 1: common problems (photo left) — localized lead */}
+      <section className="bg-hero-pink text-white">
+        <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: `url(${config.band1Image})` }} role="img" aria-label={`${config.serviceName} in ${loc.neighborhood}`} />
+          <div>
+            <h2 className="section-title">{fill(config.band1Heading)}</h2>
+            <p className="mt-4 text-base leading-relaxed text-white/90">{copy.commonIntro}</p>
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
+              {config.commonSituations.slice(0, 4).map((c) => (
+                <li key={c} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
+                  {c}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </section>
 
-      {/* One local customer video */}
+      {/* Reviews: one local customer video, right after the common problems */}
       <LocationVideoProof
         neighborhood={loc.neighborhood}
         video={videoForLocation(loc.neighborhood, loc.county, config.businessType)}
@@ -172,71 +253,17 @@ export default function LocationServicePage({
         </div>
       </section>
 
-      {/* Intro + sidebar */}
-      <section className="py-16">
-        <MainWithSidebar hideMenu couponTitle={sidebarCouponFor(config.slug)}>
-          {config.promo && (
-            <div className="mb-5 rounded-2xl bg-lime-500 px-5 py-3 text-center font-display text-sm font-extrabold uppercase tracking-wide text-white sm:text-base">
-              {fill(config.promo)}
-            </div>
-          )}
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
-            {fill(config.introHeading)}
-          </h2>
-          {config.introParagraphs.map((p, i) => (
-            <p key={i} className="mt-4 text-[17px] leading-relaxed text-ink/75">{fill(p)}</p>
-          ))}
-
-          {/* Local relevance — THE MOAT (unique) */}
-          <h2 className="mt-10 section-title text-brand-700">
-            Local {config.serviceName.toLowerCase()} pros who know {loc.neighborhood}
-          </h2>
-          <div className="mt-4 space-y-4 text-[17px] leading-relaxed text-ink/80">
-            {copy.relevance.map((para, i) => (
-              <p key={i}>{para}</p>
-            ))}
-          </div>
-
-          {config.sidebarSections?.map((sec) => (
-            <div key={sec.title}>
-              <h2 className="mt-10 section-title text-brand-700">{fill(sec.title)}</h2>
-              {sec.body.map((p, i) => (
-                <p key={i} className="mt-3 text-[17px] leading-relaxed text-ink/75">{fill(p)}</p>
-              ))}
-            </div>
-          ))}
-
-        </MainWithSidebar>
-      </section>
-
-      {/* Band 1: common problems (photo left) — localized lead */}
-      <section className="bg-hero-pink text-white">
-        <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: `url(${config.band1Image})` }} role="img" aria-label={`${config.serviceName} in ${loc.neighborhood}`} />
-          <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">{fill(config.band1Heading)}</h2>
-            <p className="mt-4 text-base leading-relaxed text-white/90">{copy.commonIntro}</p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
-              {config.commonSituations.map((c) => (
-                <li key={c} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
-                  {c}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* Trusted banner */}
-      <section className="py-12">
-        <div className="container-page">
-          <div className="flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
-            <h2 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">{fill(config.trustedBanner)}</h2>
-            <a href="/request-estimate/" className="btn-pink flex-shrink-0">
-              Get Peace of Mind Today
-            </a>
-          </div>
+      {/* Orange call banner, right under the awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-8 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">{fill(config.ctaLine)}</h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -254,19 +281,7 @@ export default function LocationServicePage({
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">{fill(config.whyTitle)}</h2>
-          <div className="mt-5 grid gap-4 sm:grid-cols-2">
-            {config.whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">{fill(config.whyParagraph)}</p>
 
         </div>
       </section>
@@ -277,7 +292,7 @@ export default function LocationServicePage({
       <section className="py-14">
         <div className="container-page max-w-4xl">
           {/* FAQ */}
-          <h2 className="section-title text-brand-700">{config.serviceName} FAQs — {loc.neighborhood}</h2>
+          <h2 className="section-title text-brand-700">{config.serviceName} FAQs for {loc.neighborhood}</h2>
           <div className="mt-4">
             <Accordion
               items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))}
@@ -287,7 +302,7 @@ export default function LocationServicePage({
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Need {config.serviceName} in {loc.neighborhood}?</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Need {config.serviceName} in {loc.neighborhood}?</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Call now for fast, licensed service in {place}, or request an estimate.
             </p>
@@ -301,23 +316,17 @@ export default function LocationServicePage({
 
       <LocationSections neighborhood={loc.neighborhood} seed={config.slug} />
 
-      {/* Related services — image cards, below the booking form so the page
+      {/* Related services — pills, below the booking form so the page
           gets the visitor to book before offering them somewhere else to go. */}
       {config.relatedCards.length > 0 && (
         <section className="py-14">
           <div className="container-page max-w-4xl">
               <h2 className="section-title text-brand-700">Related Services</h2>
-              <ul className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
+              <ul className="mt-5 flex flex-wrap gap-3">
                 {config.relatedCards.map((s) => (
                   <li key={s.slug}>
-                    <Link href={`/services/${s.slug}`} className="group relative block aspect-[4/3] overflow-hidden rounded-xl">
-                      <span className="absolute inset-0 bg-brand-200 bg-cover bg-center transition duration-300 group-hover:scale-105" style={{ backgroundImage: `url(/services/${s.slug}.webp)` }} />
-                      <span className="absolute inset-0 bg-gradient-to-t from-pink-600/90 via-pink-500/45 to-transparent transition group-hover:from-pink-600" />
-                      <span className="absolute inset-0 grid place-items-center p-3 text-center">
-                        <span className="font-display text-[13px] font-extrabold uppercase leading-tight tracking-wide text-white [text-shadow:0_2px_6px_rgba(0,0,0,0.85)] sm:text-sm">
-                          {s.title}
-                        </span>
-                      </span>
+                    <Link href={`/services/${s.slug}`} className="inline-block rounded-full bg-white px-5 py-2.5 font-display text-sm font-extrabold text-brand-600 ring-1 ring-brand-100 transition hover:bg-brand-50">
+                      {s.title}
                     </Link>
                   </li>
                 ))}

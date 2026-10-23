@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'When You Do Not Need Us', body: 'Clean water on a hard, sealed floor that you wiped up within the hour does not need structural drying. Nothing porous took it on, so there is nothing left to dry — open a window and move on. A damp patch that has been there for years in a basement that has always been humid is also not a drying job. That is an ongoing moisture source, groundwater or a failed gutter or poor grading, and running equipment on it just runs your meter. Find the source first, and if it is not plumbing we will tell you on the phone rather than send a truck.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'check', title: 'Measured, Not Guessed', text: 'Daily meter readings in fixed locations. We can show you the numbers rather than tell you it feels dry.' },
-    { icon: 'clock', title: 'Equipment Same Day', text: 'Drying starts the visit we arrive. Days of delay here turn into weeks of problems later.' },
-    { icon: 'doc', title: 'Documented for Insurance', text: 'The reading log is exactly what adjusters ask for, and having it prevents most disputes.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start, with no overtime or weekend fees.' },
-  ],
+  whyParagraph: 'Drying equipment goes in on our first visit to your {neighborhood} home. We take meter readings in the same spots every day, so you see numbers instead of a guess, and that log is what your adjuster asks for.',
   proofQuote:
     'They put the equipment in the same afternoon and then actually came back every day with a meter. When I asked whether it was done they showed me the readings next to a room that never got wet. Nobody has ever shown me numbers before.',
   sharedFaqs: [

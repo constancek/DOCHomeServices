@@ -6,7 +6,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part2: Record<string, LocationServiceCopy> = {
   'mount-auburn': {
     intro:
-      'When storm damage hits a Mount Auburn house that was split into apartments, one original service entrance can take several households dark at once. The repair belongs to the building owner, and we work with them to fix the mast and get Duke to reconnect. Call (513) 586-5107.',
+      'A storm-damaged service entrance on a subdivided Mount Auburn house can take several apartments dark at once, because one original mast feeds a bank of meters. The repair belongs to the building owner. We assess it, price the whole entrance, and work with the owner to get Duke reconnecting.',
     relevance: [
       'Mount Auburn (ZIP 45219) is one of Cincinnati’s oldest hilltop neighborhoods, rising north of downtown and Over-the-Rhine in grand 19th-century homes and historic mansions. What matters after a storm is that a great many of those houses were divided into apartments decades ago, and the electrical service was divided with them. A single original service entrance on a tall masonry wall now feeds a bank of meters, so one damaged mast takes several households dark at once and the repair belongs to whoever owns the building rather than to whoever noticed first.',
       'The buildings themselves are also taller than the frame houses on most Cincinnati streets, which puts the weatherhead well up a three- or four-storey wall and often above roof level. That is not a ladder job, and on the hilltop the wind that damaged it in the first place is the same wind we have to work in. We assess from the ground, establish who owns the equipment, and price the whole entrance rather than the visible break.',
@@ -23,7 +23,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   clifton: {
     intro:
-      'Clifton produces more single-house storm outages than almost anywhere we work, because the Gaslight District canopy closes over the service drops around Ludlow Avenue. If one heavy limb took down your mast or weatherhead, we repair it and coordinate the reconnect. Call (513) 586-5107.',
+      'Clifton produces more single-house storm outages than almost anywhere we work, because the Gaslight District canopy around Ludlow Avenue closes over the service drops. When one heavy limb takes down a mast or weatherhead, we repair it once the owner gives the go-ahead, then coordinate the reconnect.',
     relevance: [
       'Clifton (ZIP 45220) is the leafy hilltop by the University of Cincinnati, and "leafy" is not a decoration here — it is the reason this neighborhood produces more single-house outages than almost anywhere we work. The Gaslight District streets around Ludlow Avenue were laid out with trees more than a century ago, and that canopy now closes over the roadway and the overhead service drops together. A summer squall does not need to fell a whole tree in Clifton. One heavy limb coming down onto a drop is enough, and the drops here are the ones sitting directly underneath.',
       'The houses add to it. These are large Victorian and early-1900s homes, tall enough that the service entrance is high on the wall, and a good number of them are rentals near campus. That combination slows repairs down for a reason that has nothing to do with electrical work: the person who calls is often a tenant who cannot authorise anything. We will look at the damage and quote it, but the owner has to give us the go-ahead before Duke will see a permit.',
@@ -40,7 +40,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   corryville: {
     intro:
-      'Corryville’s tightly packed buildings along Short Vine put several meters on one service entrance, often squeezed into a side gap or rear alley. When a storm damages it, more than one household loses power, and we repair it with the owner’s go-ahead. Call (513) 586-5107.',
+      'A storm outage in Corryville rarely hits one household, because the packed buildings along Short Vine run several meters from one service entrance, often squeezed into a side gap or rear alley. We repair that damage with the property owner’s go-ahead, which is what the permit and reconnect need.',
     relevance: [
       'Corryville (ZIP 45219) sits right against the University of Cincinnati along the Short Vine corridor, and it is about as densely built as Cincinnati gets — early-1900s houses, purpose-built apartments, and student rentals packed tight with shared walls and shared stacks. Electrically, that density means multiple meters per building and service entrances squeezed into narrow side gaps and rear alleys. When a storm damages one, the outage is rarely confined to a single household, and the access to fix it is rarely straightforward.',
       'Almost everything here is tenanted, which shapes how these jobs actually run. We are usually called by a resident who has no authority to approve work, on a building owned by someone who may not be in the city. The fastest version of this is a property manager calling us with the address and the go-ahead in the same conversation. We will still take the call from a tenant and look at it, but the permit and the reconnect both need the owner.',
@@ -57,7 +57,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   northside: {
     intro:
-      'A bad storm in Northside often brings two problems to one house: wind damage to the service entrance and water in the low basement where the panel sits. We check both, repair what failed, and handle the inspection before Duke reconnects. Call (513) 586-5107.',
+      'A bad storm in Northside often brings two electrical problems to one house: wind damage to the service entrance and water in the low basement where the panel sits. We check both on the same visit, repair or replace what failed, and handle the inspection before Duke reconnects.',
     relevance: [
       'Northside (ZIP 45223) runs along Hamilton Avenue in late-1800s and early-1900s homes, and its streets fall away toward the Mill Creek valley. That slope is what makes storm calls here different from the hilltop neighborhoods. A bad storm in Northside frequently brings two problems to the same house — wind damage to the service entrance above, and water in the low basement where the panel lives — and homeowners tend to report only the one they noticed first.',
       'The distinction matters because the repairs follow different rules. A bent mast is rebuilt and inspected. A panel that has been standing in water is replaced, not dried out and re-energised, because water gets into the breakers and behind the bus where it keeps corroding long after the surface looks fine. An inspector will check for exactly that before Duke puts the meter back, so on the lower streets we look at both ends of the system in one visit rather than fixing the roof and discovering the basement afterwards.',
@@ -74,7 +74,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   'college-hill': {
     intro:
-      'On a single College Hill street, an early-1900s home with a tall, reworked entrance can sit beside a mid-century house with a simple low one. They need different storm repairs. We look at yours, fix the damaged service and coordinate the Duke reconnect. Call (513) 586-5107.',
+      'Storm repairs in College Hill depend on the age of the house. An early-1900s home with a tall, reworked entrance can sit beside a mid-century house still on its original low service. We fix the damaged mast or weatherhead, quote an upgrade where it makes sense, and coordinate the reconnect.',
     relevance: [
       'College Hill (ZIP 45224) is a hilltop neighborhood on the northwest side along Hamilton Avenue, and its housing splits two ways: large early-1900s homes alongside mid-century houses built decades later. That mix is the practical thing to know after a storm, because two houses on the same College Hill street can have entirely different service arrangements and need entirely different repairs. The older homes carry tall entrances high on the wall, often reworked more than once. The mid-century houses have lower, simpler services, frequently still the original equipment and sized for the loads of the 1950s.',
       'Being on the hilltop means the wind arrives with little to break it, and the trees planted with the mid-century streets are now full-grown over the drops. We see the same pattern here every storm season: not widespread damage, but individual houses losing a mast or a weatherhead while the rest of the street is untouched. Those are the outages people assume the utility will handle, and then wait days on.',
@@ -91,7 +91,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   'walnut-hills': {
     intro:
-      'Several Walnut Hills apartments going dark together after a storm usually means one original service entrance, feeding a bank of meters, has failed. None of the residents owns that equipment, so we work with the building owner near Peebles Corner to repair it. Call (513) 586-5107.',
+      'Several Walnut Hills apartments going dark together after a storm usually means one original service entrance feeding a bank of meters has failed. None of the residents owns that equipment, so we work with the building owner near Peebles Corner, anchoring the new mast into masonry and resealing it properly.',
     relevance: [
       'Walnut Hills (ZIP 45206) is a historic hilltop neighborhood northeast of downtown, built out in grand 19th-century homes and apartment buildings around the Peebles Corner business district. Much of that housing has been split into units, and the electrical service was split with it — one original entrance now feeding a bank of meters. After a storm that has a specific consequence worth understanding: several apartments go dark together, and none of the residents owns the equipment that failed.',
       'The buildings are also masonry rather than frame, which changes the repair itself. A mast anchored into brick is a different job from one lagged to a wooden wall — the fixings, the sealing where the conduit passes through, and the flashing all have to be done for masonry, and doing it the quick way is how water starts tracking down inside a wall that has stood for a century. We repair it properly and reseal it, because the inspector will look and because the alternative shows up as a damp problem two years later.',
@@ -108,7 +108,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   'east-walnut-hills': {
     intro:
-      'Storm repair in East Walnut Hills usually starts high on the wall, because the houses are tall and the brick apartment buildings need the mast anchored into masonry. We fix that damage around Woodburn Avenue and DeSales Corner and coordinate the reconnect. Call (513) 586-5107.',
+      'Storm outage repair in East Walnut Hills usually starts high on the wall, because the houses are tall and the brick apartment buildings need the mast anchored into masonry. We fix that damage around Woodburn Avenue and DeSales Corner and check for surge damage to furnace and heat pump boards.',
     relevance: [
       'East Walnut Hills (ZIP 45206) is the east-side neighborhood around Woodburn Avenue and DeSales Corner, known for stately early-1900s houses, brick apartment buildings, and tree-lined streets. Those three facts combine into a specific storm profile. The canopy over the streets puts mature limbs directly above the overhead drops. The houses are tall, so the service entrance sits high. And the apartment buildings are masonry, so a mast repair here means masonry anchoring and proper sealing rather than a straightforward swap.',
       'The other thing about these houses is what is inside them. Large early-1900s homes in this neighborhood tend to have finished lower levels, original woodwork, and a lot of expensive equipment on the electrical system — furnaces with control boards, heat pumps with inverters, and whole-house electronics. A near strike that puts a surge through the panel can leave the outside looking untouched and still cost more than the mast repair that got the lights back on. That is the case for whole-home surge protection at the panel, and this is the neighborhood where the sums most clearly favour it.',
@@ -125,7 +125,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   avondale: {
     intro:
-      'Lines near Avondale’s hospitals are restored early after a storm, which makes it obvious fast when one house or building stays dark. That points to damaged equipment on your side of the meter, and we repair it so Duke can reconnect. Call (513) 586-5107.',
+      'Lines near Avondale’s hospitals come back early after a storm, so it is obvious fast when one house or building stays dark. That outage points to damaged equipment on your side of the meter, often a bent mast or loose meter box, and we repair it so Duke can reconnect.',
     relevance: [
       'Avondale (ZIP 45229) sits in the uptown core beside the major hospitals and the Cincinnati Zoo, in densely built early-1900s houses and apartment buildings, a good deal of it rental. Being next to critical facilities has an effect on storm outages that most people never hear explained: utilities restore the circuits feeding hospitals and other essential services first. That is the right priority, and for Avondale residents it often means the lines nearby come back quickly — which makes it much more obvious, much sooner, when your own house is the one still dark.',
       'And when that happens the reason is almost always your own equipment. A drop restored to the pole is no use if the mast it attaches to is bent or the meter box has come away from the wall, and Duke will not reconnect to either. On the denser blocks the additional wrinkle is that many buildings run several meters from one entrance and are tenant-occupied, so the repair needs the owner to authorise it even though the residents are the ones without power.',
@@ -142,7 +142,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   'hyde-park': {
     intro:
-      'Limb damage to overhead service equipment is the routine storm call in Hyde Park, where big old trees shade the streets around Hyde Park Square. On these tall Tudors and foursquares we re-anchor and seal the mast properly, then coordinate the Duke reconnect. Call (513) 586-5107.',
+      'Limb damage to overhead service equipment is the routine storm outage job in Hyde Park, where big old trees shade the streets around Hyde Park Square. On these tall Tudors and foursquares we re-anchor and seal the mast properly, then talk through surge protection for the equipment inside.',
     relevance: [
       'Hyde Park (ZIP 45208) is built around Hyde Park Square along Erie Avenue in large early-1900s houses — Tudors, colonials, and brick foursquares — on established, tree-shaded streets. Those trees are old enough and big enough that limb damage to overhead service equipment is the routine storm call here, not the unusual one. The houses are tall and often masonry or part-masonry, so the entrance sits high and the repair needs proper anchoring and sealing rather than a quick refit.',
       'What sets Hyde Park apart is the value sitting on the electrical system. Homes this size commonly run multiple HVAC zones, finished lower levels, and a great deal of equipment with control boards in it, and a surge from a nearby strike goes through all of it at once. We have replaced a mast for a few hundred and then watched the same homeowner spend several thousand on furnace boards, a heat pump inverter, and appliances a week later. Whole-home surge protection at the panel is the cheapest thing we install, and in this neighborhood it is the one most likely to pay for itself.',
@@ -159,7 +159,7 @@ export const part2: Record<string, LocationServiceCopy> = {
 
   oakley: {
     intro:
-      'Good news if you own an Oakley bungalow: the short, side-mounted mast takes less strain when a limb lands, so storm repairs tend to be straightforward. If your house is dark while Madison Road is lit, we fix the mast, meter base or panel. Call (513) 586-5107.',
+      'Storm repairs on an Oakley bungalow tend to be straightforward, because the short, side-mounted mast takes less strain when a limb lands. Newer houses near Madison Road often have underground service, with no mast at all. We tell you which you have, then fix the mast, meter base or panel.',
     relevance: [
       'Oakley (ZIP 45209) runs around Oakley Square and Madison Road in streets of early-1900s bungalows and brick homes, with newer development mixed in. The bungalows have a particular storm profile worth knowing about. Their rooflines are low, so the service mast is short and often mounted on the side wall rather than run up through the roof — which is generally good news, because a shorter mast has less leverage on it when a limb lands and the repair is more straightforward than on a tall three-storey entrance.',
       'The newer development changes the answer on the same street, though. Recent building in Oakley frequently has underground service, and that has no mast to break at all. When those houses lose power in a storm it is either a genuine utility outage or a fault at the meter or panel rather than anything overhead. Duke also schedules underground work differently and with more lead time, so the repair can be simpler while the reconnect takes longer. We tell you which arrangement you have before quoting, because the timelines are not comparable.',

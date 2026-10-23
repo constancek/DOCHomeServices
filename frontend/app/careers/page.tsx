@@ -83,7 +83,7 @@ export default function CareersPage() {
           <div className="bg-pink-500 p-8">
             <ul className="grid gap-x-6 gap-y-4 sm:grid-cols-2">
               {benefits.map((b) => (
-                <li key={b} className="flex gap-2.5 text-sm font-semibold text-white">
+                <li key={b} className="flex gap-2.5 text-base font-semibold text-white">
                   <span className="mt-0.5 grid h-5 w-5 flex-shrink-0 place-items-center rounded-full bg-white/25">
                     <Icon name="check" className="h-3.5 w-3.5 text-white" />
                   </span>
@@ -150,7 +150,7 @@ export default function CareersPage() {
         />
         <div className="container-page relative py-20">
           <div className="max-w-2xl text-white">
-            <h2 className="font-display text-4xl font-black uppercase leading-[1.05] text-pink-500 sm:text-5xl">
+            <h2 className="font-display text-4xl font-black leading-[1.05] text-pink-500 sm:text-5xl">
               When You Apply, We Promise Confidentiality.
             </h2>
             <p className="mt-5 text-base leading-relaxed text-white/90 sm:text-base">

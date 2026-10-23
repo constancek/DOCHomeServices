@@ -3,8 +3,8 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
-import { MapWidget, CouponWidget } from '@/components/Sidebar';
+import { ServiceSections } from '@/components/PageSections';
+import { CouponWidget } from '@/components/Sidebar';
 import { sidebarCouponFor } from '@/content/coupons';
 import ServicesMenu from '@/components/ServicesMenu';
 import { services, getService, type Service } from '@/content/services';
@@ -56,7 +56,7 @@ export default async function ServiceRoute({ params }: { params: Promise<{ slug:
   return (
     <>
       {service ? <MainService service={service} /> : <SubService page={sub!} />}
-      <PageSections service={slug} />
+      <ServiceSections service={slug} withProof />
     </>
   );
 }
@@ -139,7 +139,7 @@ function MainService({ service }: { service: Service }) {
           <aside className="space-y-6 lg:self-start">
             <BookCard title={service.title} />
             <div className="card">
-              <h2 className="text-sm font-bold uppercase tracking-wider text-brand-500">Other services</h2>
+              <h2 className="text-sm font-bold tracking-wider text-brand-500">Other services</h2>
               <ul className="mt-4 space-y-2">
                 {others.map((o) => (
                   <li key={o.slug}>
@@ -153,7 +153,6 @@ function MainService({ service }: { service: Service }) {
                 ))}
               </ul>
             </div>
-            <MapWidget />
             <CouponWidget title={sidebarCouponFor(service.slug)} />
             <ServicesMenu />
           </aside>
@@ -271,7 +270,7 @@ function SubService({ page }: { page: ServicePage }) {
           <aside className="space-y-6 lg:self-start">
             <BookCard title={page.title} />
             <div className="card">
-              <h2 className="text-sm font-bold uppercase tracking-wider text-brand-500">
+              <h2 className="text-sm font-bold tracking-wider text-brand-500">
                 More {parentTitle.toLowerCase()} services
               </h2>
               <ul className="mt-4 space-y-1">
@@ -289,7 +288,6 @@ function SubService({ page }: { page: ServicePage }) {
                 ))}
               </ul>
             </div>
-            <MapWidget />
             <CouponWidget title={sidebarCouponFor(page.slug)} />
             <ServicesMenu />
           </aside>

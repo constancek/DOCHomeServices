@@ -137,7 +137,7 @@ export default async function StoryPage({ params }: { params: Promise<{ slug: st
                 return (
                   <ul key={i} className="mt-4 space-y-2">
                     {block.items.map((item) => (
-                      <li key={item} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+                      <li key={item} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                         <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                         {item}
                       </li>
@@ -164,7 +164,7 @@ export default async function StoryPage({ params }: { params: Promise<{ slug: st
 
           {/* CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Start Your Own Success Story</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Start Your Own Success Story</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Same problem, or something else entirely? Call now or request an estimate and we will take care of it.
             </p>
@@ -184,7 +184,7 @@ export default async function StoryPage({ params }: { params: Promise<{ slug: st
       {/* More stories */}
       <section className="bg-brand-50 py-16">
         <div className="container-page">
-          <h2 className="text-center font-display text-2xl font-black uppercase text-brand-700 sm:text-3xl">
+          <h2 className="text-center font-display text-2xl font-black text-brand-700 sm:text-3xl">
             More Customer Success Stories
           </h2>
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
@@ -40,12 +40,6 @@ const whatWeHandle = [
   'Energising circuit by circuit once Duke restores the meter',
 ];
 
-const whyUs = [
-  { icon: 'clock' as const, title: 'We Move Fast on These', text: 'No power means no heat, no fridge, no sump pump. It gets treated as the emergency it is.' },
-  { icon: 'shield' as const, title: 'Licensed Electricians', text: 'Only a licensed trade can do the repair Duke is waiting on.' },
-  { icon: 'badge' as const, title: 'We Handle the Inspection', text: 'We pull the permit and meet the inspector, which is what usually holds these up.' },
-  { icon: 'house' as const, title: `Family-Owned Since ${site.founded}`, text: `${site.yearsExperience} years on Cincinnati homes, with crews who live here.` },
-];
 
 const faqs = [
   {
@@ -145,22 +139,10 @@ export default function ElectricityDisconnectionPage() {
         ]}
       />
 
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            No power and Duke will not reconnect?
-          </h2>
-          <a href={site.primaryPhone.href} className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600">
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       <section className="py-16">
-        <MainWithSidebar couponTitle="Any Electrical Service">
+        <MainWithSidebar mascot couponTitle="Any Electrical Service">
           <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/panel-hero.webp)' }} role="img" aria-label="Residential electric meter and service equipment" />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Your Power Is Off. Here Is What Happens Next.
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -188,7 +170,7 @@ export default function ElectricityDisconnectionPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/panel-signs.webp)' }} role="img" aria-label="Electrician inspecting a damaged electrical service" />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Why Your Power Was Disconnected
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -213,7 +195,7 @@ export default function ElectricityDisconnectionPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               What We Handle
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -230,6 +212,20 @@ export default function ElectricityDisconnectionPage() {
             </ul>
           </div>
           <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/inspect-hero.webp)' }} role="img" aria-label="Electrical inspection of residential service equipment" />
+        </div>
+      </section>
+
+      <ServiceReviews service="electricity-disconnection" />
+
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            No power and Duke will not reconnect?
+          </h2>
+          <a href={site.primaryPhone.href} className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600">
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -352,27 +348,21 @@ export default function ElectricityDisconnectionPage() {
             else&rsquo;s house fire, so we do it the long way, and we tell you plainly when the problem is
             not ours to fix.
           </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Electricity Disconnection FAQs</h2>
           <div className="mt-4">
             <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Get Your Power Back On</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Get Your Power Back On</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Tell us what Duke told you and we will tell you what it takes to fix it. Diagnosis, repair,
               inspection, and reconnect across {site.serviceArea}.
@@ -390,25 +380,25 @@ export default function ElectricityDisconnectionPage() {
         </div>
       </section>
 
-      {/* Electricity disconnection by neighborhood */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Electricity disconnection by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Housing age decides most of this — how old the panel is, whether the meter base has ever
-            been replaced, and what an inspector will want to see before Duke reconnects. All{' '}
-            {locations.length} neighborhoods we cover are below.
-          </p>
-          <NeighborhoodLinks
-            copy={electricityDisconnectionCopy}
-            basePath="/services/electricity-disconnection"
-            linkPrefix="Electricity disconnection"
-            listAll
-          />
-        </div>
-      </section>
-
-      <PageSections service="electricity-disconnection" />
+      <ServiceSections service="electricity-disconnection">
+        {/* Electricity disconnection by neighborhood */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Electricity disconnection by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              Housing age decides most of this — how old the panel is, whether the meter base has ever
+              been replaced, and what an inspector will want to see before Duke reconnects. All{' '}
+              {locations.length} neighborhoods we cover are below.
+            </p>
+            <NeighborhoodLinks
+              copy={electricityDisconnectionCopy}
+              basePath="/services/electricity-disconnection"
+              linkPrefix="Electricity disconnection"
+              listAll
+            />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

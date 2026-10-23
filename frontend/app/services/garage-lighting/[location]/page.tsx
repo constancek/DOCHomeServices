@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Durable Fixtures, Less Maintenance', body: 'Garage fixtures take dust, temperature swings, and the occasional bump. We install durable, energy-efficient LED lighting in {neighborhood} garages so it stays bright with fewer bulb changes and dependable performance year-round.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Experienced lighting pros handling every connection safely.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Wiring and fixtures installed to electrical safety standards.' },
-    { icon: 'badge', title: 'Durable Fixtures', text: 'High-quality, energy-efficient LED garage lighting.' },
-    { icon: 'house', title: 'Even Coverage', text: 'Placement planned to eliminate shadows and dark corners.' },
-  ],
+  whyParagraph: 'We place each fixture so the light reaches the corners of your {neighborhood} garage without leaving shadows. Experienced electricians make every connection safely and to code, using durable LED fixtures that use less power.',
   proofQuote:
     'We use the garage as a workshop and the one old bulb was useless. They put up LED shop panels, added an exterior light over the door, and ran a dedicated circuit so it never trips. The whole space is bright now, corners included.',
   sharedFaqs: [

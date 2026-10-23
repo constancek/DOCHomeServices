@@ -1,7 +1,7 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
     intro:
-      'Sewer backing up in a Villages of Roll Hill apartment above the Mill Creek valley? Stop running water in the building and call (513) 586-5107.',
+      'Sewer backups in the Villages of Roll Hill apartment buildings usually trace to years of kitchen grease in the shared drain stacks and building lateral. One full load of laundry or dishes then sends waste into the lowest units. Stop running water in the building while we camera the line.',
     relevance: [
       'Villages of Roll Hill sits on a west-side hilltop overlooking the Mill Creek valley and was built largely as multi-unit apartment buildings. In shared buildings, years of kitchen grease collect in the common drain stacks and the building lateral, narrowing the pipe until one full load of laundry or dishes sends waste back up into the lowest units.',
       'We camera the shared line before quoting anything, so you know whether the blockage is grease in the building lateral or something structural, and we tell you which side of the property line it sits on. Sewage that comes back up is contaminated, so the first move is to stop water to the affected stack; from there we clear the grease and, where the pipe is damaged, repair that section rather than cabling the same spot every few months.',
@@ -17,7 +17,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-westwood': {
     intro:
-      'Sewage coming up in a basement on the slopes of East Westwood above the Mill Creek valley? Stop using water and call (513) 586-5107.',
+      'An East Westwood sewer backup on the slopes above the Mill Creek valley often comes from short clay sections that have sheared apart at a joint on the steep grade. The lip catches paper and solids until the flow stops. We camera the line before quoting any repair.',
     relevance: [
       'The homes on the East Westwood hillside, between Westwood and the Mill Creek valley, mostly went up in the early and mid-1900s, and their sewer laterals were run in short lengths of clay. On a grade that steep the ground never sits still, and over the decades two sections shear apart at a joint, leaving a lip that catches paper and solids until the flow out of the house stops and waste rises back up the drains.',
       'An offset joint does not clear with a cable, so before we quote we send a camera down the line and find the exact spot where the pipe has stepped out of line. Where the rest of the lateral is sound, the fix is a spot excavation down to that one joint to reset it, not a new line end to end. Sewage that has come up is contaminated, so keep people and pets off the affected floor until it is cleaned.',
@@ -33,7 +33,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'western-hills': {
     intro:
-      'Sewer backing up in Western Hills near Western Hills Plaza or Glenway Avenue? Stop running water and call (513) 586-5107.',
+      'Root intrusion causes most sewer backups in Western Hills, where mature trees on the older streets near Western Hills Plaza and Glenway send roots into the joints of clay and cast-iron laterals. We camera the line before quoting so you see the roots and the pipe condition yourself.',
     relevance: [
       'Western Hills is the established west-side area around Western Hills Plaza and Glenway, with early-1900s through mid-century homes on older tree-lined streets. Those mature trees are the problem: their roots find the smallest gap in a clay or cast-iron lateral joint and grow into the line, and root intrusion is the single most common backup cause we find across older Cincinnati streets.',
       'We camera the lateral before quoting so you can see the roots on screen rather than take our word for it. Cutting them clears the line for now, but if the joint keeps letting them back in we tell you that and price the fix for the failing section. We are honest about which side of the line the roots are in before you spend anything.',
@@ -49,7 +49,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   california: {
     intro:
-      'Sewer backing up in a riverfront home along Kellogg Avenue in California? Stop using water and call (513) 586-5107.',
+      'Backups in California’s riverfront homes along Kellogg Avenue often start out in the street: when the river is up and a hard rain lands, the public main surcharges and pushes waste into the lowest homes on the line. We camera your lateral to show whether the problem is yours.',
     relevance: [
       'California runs along Kellogg Avenue on Cincinnati’s far-east riverfront, near Riverbend and the old Coney Island grounds, on low ground right beside the Ohio. When the river comes up and a hard rain lands on top of it, the public main can fill faster than it drains, and that surcharge pushes water and waste backward into the lowest homes on the line. The trouble starts out in the street, not in your basement.',
       'We do not guess at that. Before quoting we camera your lateral all the way to the city tap, and if your line runs clear while the main is the one overloaded, there is nothing on your property worth digging up. We tell you to report it to the city rather than sell you a repair you do not need. If the blockage is in your lateral, we clear it and show you what it was.',
@@ -65,7 +65,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   carthage: {
     intro:
-      'Sewer backing up in a Carthage home near Vine Street or the Hamilton County Fairgrounds? Stop running water and call (513) 586-5107.',
+      'Sewer backups in Carthage homes near Vine Street and the Hamilton County Fairgrounds are most often root intrusion, with mature street trees sending roots into every open joint in the old clay and cast-iron laterals. We camera the line before quoting, then clear and repair it.',
     relevance: [
       'Carthage is a north-side former village along Vine Street, home to the Hamilton County Fairgrounds, with older early-1900s houses on settled tree-lined streets. Laterals here are clay or cast iron, and the mature trees along those streets send roots into every open joint, which is why root intrusion is the backup we find most in this neighborhood.',
       'We camera the line first so you can see whether it is roots, and where in the run they have taken hold. Cutting them opens the line; a joint that keeps admitting them gets flagged and priced separately, not snaked again and again. We tell you plainly which side of the property line the roots sit on before quoting.',
@@ -75,13 +75,13 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a backup in Carthage?',
-        a: 'Carthage is within our north-side service area along Vine Street, and we are on call 7 days a week from 8am to 8pm with same-day service for backups. Stop running water before we arrive so nothing more is added to what has come up.',
+        a: 'Carthage is within our north-side service area along Vine Street, and we are on call 7 days a week with same-day service for backups. Stop running water before we arrive so nothing more is added to what has come up.',
       },
     ],
   },
   'winton-hills': {
     intro:
-      'Sewer backing up in a Winton Hills home or building near Winton Road? Stop using water and call (513) 586-5107.',
+      'Winton Hills sewer backups in shared and multi-unit buildings near Winton Road usually come from kitchen grease built up in the drain stacks and lateral for years. One heavy day of use closes it. Stop using water in the building, and we camera the line before quoting a repair.',
     relevance: [
       'Winton Hills is a north-side neighborhood near Winton Road with a mix of residential streets, multi-unit housing, and industrial ground. In the shared and multi-unit buildings, kitchen grease builds up in the drain stacks and lateral for years, thinning the pipe until one heavy day of use closes it and pushes waste back into the lowest fixtures.',
       'We camera the line before quoting to confirm it is grease and not a broken pipe, and to see how far the buildup runs. We clear the grease and, where the pipe has been damaged behind it, repair that length rather than returning to cable it again. If the blockage is on the public main, we tell you before you spend anything.',
@@ -97,7 +97,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   roselawn: {
     intro:
-      'Sewer backing up in a Roselawn home or apartment along Reading Road? Stop running water and call (513) 586-5107.',
+      'Grease is behind many sewer backups in Roselawn’s apartment buildings along Reading Road, where several kitchens send years of it through one shared lateral. The pipe narrows until a full load of cooking, dishes and laundry backs up into the lowest units. We camera the line before quoting.',
     relevance: [
       'Roselawn runs along Reading Road on the north side, with mid-century single-family homes and older apartment buildings. The apartments in particular put years of kitchen grease through a single shared lateral, and that grease narrows the pipe until a full load of cooking, dishes, and laundry finally backs waste up into the lowest units.',
       'We camera the line before quoting so you see whether the cause is grease, roots, or a damaged section, and where it sits. We clear the grease, and where the pipe behind it has failed we repair that length instead of cabling the same spot on repeat. We are clear about which side of the line the blockage is on before any work.',
@@ -107,13 +107,13 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a backup in Roselawn?',
-        a: 'Roselawn is well within our north-side service area along Reading Road, and we are on call 7 days a week from 8am to 8pm with same-day service. Stop running water everywhere in the home or building before we arrive.',
+        a: 'Roselawn is well within our north-side service area along Reading Road, and we are on call 7 days a week with same-day service. Stop running water everywhere in the home or building before we arrive.',
       },
     ],
   },
   'mount-airy': {
     intro:
-      'Sewer backing up in a Mount Airy home near Mount Airy Forest? Stop using water and call (513) 586-5107.',
+      'A Mount Airy sewer line that backs up every few weeks, no matter how often it is snaked, usually has a belly. On the wooded lots beside Mount Airy Forest, soil settles until the lateral sags into a dip that traps solids. We camera it to find the low spot.',
     relevance: [
       'A Mount Airy line that gurgles and backs up every few weeks, no matter how often it is snaked, usually has a belly. The mid-century homes here sit on hilly, wooded lots beside Mount Airy Forest, and on that ground the soil settles unevenly year after year until a length of the lateral sags into a dip that holds standing water and traps every solid that reaches it.',
       'That is a grade problem, not a clog, so cabling it buys a few weeks and no more. We camera the line to find the low section and see how much it holds, then tell you straight whether it needs regrading or a replacement of that length to actually stop backing up. If the pipe only needs a clearing, we say that instead and leave it alone.',
@@ -129,7 +129,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   hartwell: {
     intro:
-      'Sewer backing up in a Hartwell home on one of its old streetcar-suburb streets? Stop running water and call (513) 586-5107.',
+      'Root intrusion is the most common sewer backup we clear in Hartwell, where Victorian and early-1900s homes still run on original clay laterals under mature street trees. Clay has a joint every few feet, and each one lets roots in. We camera the line, then clear and repair it.',
     relevance: [
       'Hartwell grew up as a streetcar suburb, and its Victorian and early-1900s homes still stand on tree-lined streets under the same mature trees. Those houses largely run on their original clay laterals, and clay joins in short lengths with a joint every few feet, every joint a doorway for a root feeling for water. Root intrusion is the single most common backup we clear on these blocks.',
       'We camera the lateral before pricing anything, so you see the roots on the screen and the joint they came through rather than take our word for it. Cutting them with a cable opens the line for now; where one joint keeps letting them back in, we can reline that section from the inside so the pipe stays sealed instead of returning to cut roots every season. We are straight about whether the roots sit in your lateral or past the property line before you spend.',
@@ -145,7 +145,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'kennedy-heights': {
     intro:
-      'Sewer backing up in a Kennedy Heights home near the Kennedy Heights Arts Center? Stop using water and call (513) 586-5107.',
+      'Kennedy Heights homes back up most often from root intrusion, because the large early-1900s houses here run long clay sewer laterals under mature trees, and roots work into the joints along that length. We camera the line before quoting, then clear and repair whatever the footage shows.',
     relevance: [
       'Kennedy Heights is a historic east-side hilltop neighborhood that began as a Victorian-era resort, now known for its arts center and large early-1900s homes. Those big older houses run long clay laterals under mature trees, and roots work into the joints along that length, making root intrusion the most common reason a line here backs up.',
       'We camera the full run before quoting so you see where the roots are and how much of the line they affect. Cutting them clears the backup; a joint that keeps admitting them gets identified and priced for repair rather than snaked repeatedly. We are honest about whether the roots are in your lateral or past the property line before any work.',
@@ -155,13 +155,13 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a backup in Kennedy Heights?',
-        a: 'Kennedy Heights is well within our east-side service area, and we are on call 7 days a week from 8am to 8pm with same-day service for backups. Stop running water before we arrive, since everything sent down while the line is blocked comes back up.',
+        a: 'Kennedy Heights is well within our east-side service area, and we are on call 7 days a week with same-day service for backups. Stop running water before we arrive, since everything sent down while the line is blocked comes back up.',
       },
     ],
   },
   'st-bernard': {
     intro:
-      'Sewer backing up in a St. Bernard home near the Ivorydale complex? Stop running water and call (513) 586-5107.',
+      'St. Bernard sewer backups usually come from century-old clay or early cast-iron laterals that have cracked and separated in shifting valley ground until a section collapses and closes the line. The dense grid of homes near Ivorydale sits on small lots. We camera the line before quoting.',
     relevance: [
       'St. Bernard is its own city, surrounded by Cincinnati and built up around the Procter & Gamble Ivorydale complex, with a dense grid of early-1900s homes on small valley lots. Laterals of that age are clay or early cast iron, and after a century in shifting valley ground they crack and separate until a section collapses and closes the line entirely.',
       'A collapsed pipe will not open with a cable, so we camera the line to find whether a section has cracked or caved in before quoting. Where the pipe is sound we clear it; where it has failed we replace only the bad length. On these tight lots we work to keep one home’s backup from reaching the next.',
@@ -177,7 +177,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'elmwood-place': {
     intro:
-      'Sewer backing up in an Elmwood Place home down in the Mill Creek valley? Stop using water and call (513) 586-5107.',
+      'Elmwood Place sits low in the Mill Creek valley, and a sewer backup here is often silt and grit that a hard rain washed into the main, building along the pipe. An ordinary evening of dishes and laundry then backs it up. We camera the line before quoting.',
     relevance: [
       'Elmwood Place is a village of its own, tightly built in the Mill Creek valley just north of the city, its early-1900s homes packed close on low ground. Sitting that low is the catch: a hard rain washes silt and grit down into the main, where it drops out of the slowing water and builds along the bottom of the pipe until an ordinary evening of dishes and laundry backs the line up into the basement.',
       'A silt-packed line still passes a trickle, so it reads fine right up until it does not, which is why we camera the whole run before quoting rather than clearing the first clog we reach. When we find the buildup we hydro-jet it out, scouring the pipe wall instead of poking a hole through the middle. Sewage that comes up is contaminated, so keep the affected area shut off until it is cleared.',
@@ -193,7 +193,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'delhi-hills': {
     intro:
-      'Sewer backing up in a Delhi Hills home on the hills above the Ohio River? Stop running water and call (513) 586-5107.',
+      'Sewer backups in Delhi Hills’ mid-century homes on the sloping lots above the Ohio River often come from a belly, where slow settling has dropped a stretch of the lateral into a low spot that holds water and gathers solids. We camera the line before quoting to find the dip.',
     relevance: [
       'Delhi Hills sits up in Delhi Township on the west side, on the hills above the Ohio River in country long known for its greenhouses and flower growers. The mid-century houses here are set on sloping lots, and slow settling over the decades can drop a stretch of the sewer lateral into a belly, a low spot that holds water and gathers the solids that should have kept moving.',
       'Because a belly is a fault in the grade and not a blockage, we camera the line to pinpoint the sag before we quote, rather than snaking a symptom that returns within weeks. Where the dip is genuine, the honest fix is to open the ground over that one section and reset it to fall; where the line only needs a clearing, we say so and skip the dig. We tell you which side of the property line the fault is on before any work.',
@@ -209,7 +209,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'golf-manor': {
     intro:
-      'Sewer backing up in a Golf Manor home in the village surrounded by Cincinnati’s north side? Stop using water and call (513) 586-5107.',
+      'The cast-iron laterals under Golf Manor’s compact grid of mid-century homes are reaching the end of their service life, and a sewer backup here is often a length that has rusted thin, cracked and caved in. We camera the line before quoting so you see the break first.',
     relevance: [
       'The cast-iron sewer laterals under Golf Manor’s compact grid of mid-century homes are reaching the end of their service life. This small village is wrapped entirely by Cincinnati’s north side, its houses close together on modest lots, and once a length of that old iron rusts thin and cracks it can cave in, closing the line and forcing waste back up into the lowest drains in the house.',
       'A caved section stops a camera cold, which is how we tell a collapse from an ordinary clog before quoting; a cable will never open it. Where the rest of the lateral is solid, we dig to that one failed length and replace it, not the entire run. Sewage backing up is contaminated, so keep people and pets clear of the affected area until we have it cleaned.',
@@ -225,7 +225,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   fairfax: {
     intro:
-      'Sewer backing up in a Fairfax home along Wooster Pike near Mariemont? Stop running water and call (513) 586-5107.',
+      'Fairfax sewer backups along Wooster Pike usually come from roots in the original clay laterals under these early- and mid-1900s homes. Mature street trees push into the joints and spread into a mat that catches paper and grease. We camera the line before quoting, then clear and repair it.',
     relevance: [
       'The early- and mid-1900s homes of this small east-side village along Wooster Pike near Mariemont still drain through their original clay laterals. Clay is laid in short lengths with a joint every few feet, and the mature trees along the street have pushed roots into those joints over the decades, where they spread into a mat that catches paper and grease until the line stops draining and waste rises back into the house.',
       'We put a camera down the lateral before quoting so you see the roots and the joint they came through rather than pay for a guess. Cutting them with a cable opens the line for a season, but where a joint keeps letting them back in we would rather line that length from the inside so the pipe stays sealed than return to cut roots every year. Whatever has surfaced is contaminated, so keep it off skin and away from children and pets, and we tell you whether the roots sit in your lateral or past the property line before you spend anything.',
@@ -241,7 +241,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   mack: {
     intro:
-      'Sewer backing up in a Mack home in Green Township on the west side? Stop using water and call (513) 586-5107.',
+      'Ground settling under Mack’s mid-century and newer homes in Green Township can drop a sewer lateral into a belly, and that is a common cause of backups here. The low spot holds standing water and gathers solids until the line closes. We camera the line before quoting to find it.',
     relevance: [
       'Mack, out in Green Township on the west side, is a mix of mid-century and newer single-family homes, and even the newer ones have now stood long enough for the ground beneath them to settle. When it settles unevenly under a sewer lateral, the pipe can dip into a belly that holds standing water and gathers solids until the line closes and backs up into the house.',
       'A belly is a matter of grade rather than a blockage, so we camera the line to find the low point before we quote, instead of snaking a symptom that returns. Where the sag is real, we tell you plainly what setting it right involves; where the line simply needs clearing, we do that and leave the ground alone. We are clear about which side of the line the fault sits on first.',
@@ -251,13 +251,13 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a backup in Mack?',
-        a: 'Mack is well inside our west-side service area in Green Township, and we are on call 7 days a week from 8am to 8pm with same-day service for backups. Stop running water everywhere in the house before we arrive, since anything sent down a blocked line only adds to what has already come up.',
+        a: 'Mack is well inside our west-side service area in Green Township, and we are on call 7 days a week with same-day service for backups. Stop running water everywhere in the house before we arrive, since anything sent down a blocked line only adds to what has already come up.',
       },
     ],
   },
   'monfort-heights': {
     intro:
-      'Sewer backing up in a Monfort Heights home in Green Township? Stop running water and call (513) 586-5107.',
+      'Monfort Heights homes from the mid-century often back up when a cracked or corroded section of the clay or cast-iron sewer lateral has shifted and collapsed. Once that happens the line is closed. We camera it before quoting so the repair targets the broken section.',
     relevance: [
       'Monfort Heights is a settled Green Township suburb of mid-century homes, and the clay and cast-iron laterals laid with them are now decades into the ground. A section that has cracked or corroded through can shift and collapse, and once it does the line is closed, so waste has nowhere to go but back up into the lowest drains in the house.',
       'You cannot tell a collapse from a clog standing in the basement, so we camera the line before quoting. A clog clears with a cable and stays clear; a broken length jams the camera and keeps backing up no matter how often it is snaked. Where the pipe is sound we clear it and leave it; where a section has failed we replace that length alone, not the whole run.',
@@ -273,7 +273,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   bridgetown: {
     intro:
-      'Sewer backing up in a Bridgetown home in Green Township? Stop using water and call (513) 586-5107.',
+      'If a Bridgetown basement backs up only during hard storms and stays dry the rest of the year, your sewer is probably not blocked. The public main surcharges under heavy rain and drives water toward the lowest houses. We camera your lateral to confirm which side it is.',
     relevance: [
       'A Bridgetown basement that backs up only during a hard storm and stays dry the rest of the year is usually not telling you your sewer is blocked. This Green Township community of mid-century and newer homes drains into a public main, and when that main surcharges under a heavy rain across the whole street, it drives water back toward the lowest houses tied to it.',
       'So before we quote we camera your lateral to see whether it is actually clear. If your line is fine and the storm main is the problem, there is nothing on your property worth paying to repair, and we say so plainly. If the backup is in your lateral after all, we clear it and put the cause on the screen for you.',
@@ -289,7 +289,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   finneytown: {
     intro:
-      'Sewer backing up in a Finneytown home in Springfield Township? Stop running water and call (513) 586-5107.',
+      'Roots cause many sewer backups in Finneytown, where grown trees over these mid-century streets follow moisture to the lateral and work in through an offset joint. The mass spreads and snags everything passing until the line closes. We camera the line before quoting, then clear and repair it.',
     relevance: [
       'Finneytown is a settled Springfield Township community on the north side, its mid-century homes lining older streets under grown trees. Those trees are patient: their roots follow the moisture to a sewer lateral and work in through an offset joint, spreading into a mat that snags everything passing until the line backs up into the house.',
       'We camera the lateral before quoting so you can see the mass and the joint it came through rather than pay for a guess. Rather than shave a channel with a cable, we hydro-jet the line to scour the roots back to the pipe wall, then look again to judge whether that joint needs a repair to keep them out. Whatever has come up is contaminated sewage, so keep it off skin and away from children and pets until it is cleaned.',
@@ -305,7 +305,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   amberley: {
     intro:
-      'Sewer backing up in an Amberley Village home on one of its big wooded lots? Stop using water and call (513) 586-5107.',
+      'Amberley Village homes on big wooded lots have long sewer laterals under mature trees, and root intrusion along that length is the most common reason a line backs up here. Long runs mean many joints. We camera the whole line before quoting, then clear and repair what the footage shows.',
     relevance: [
       'Amberley Village is an affluent north-side village of large homes on big, wooded lots along winding streets. Those long lots mean long sewer laterals running under mature trees, and roots work into the joints all along that distance, making root intrusion the most common reason a line here backs up.',
       'We camera the full length before quoting so you can see where the roots have entered rather than paying for a guess on a long run. We cut them to open the line, and where a joint keeps letting them in we identify that section for repair instead of returning to cable it. We tell you honestly whether the roots are in your lateral or past the property line.',
@@ -321,7 +321,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'arlington-heights': {
     intro:
-      'Sewer backing up in an Arlington Heights home in the Mill Creek valley? Stop running water and call (513) 586-5107.',
+      'Arlington Heights sits low on the Mill Creek valley floor, and a sewer backup here in a hard rain often starts in the public main, which surcharges and pushes water toward the lowest houses. We camera your lateral first to show whether the trouble is yours or the street’s.',
     relevance: [
       'Arlington Heights runs its own affairs as a village, a compact grid of older homes on low ground down on the Mill Creek valley floor north of the city. Sitting that low is the catch: the public main the whole street ties into can take on more storm water than it carries, and when it surcharges under a hard rain it drives water and waste backward toward the lowest houses on the line. The trouble then starts out in the street, not in your basement.',
       'We do not guess at that. Before quoting we camera your lateral out to the village tap, and if your line runs clear while the main is the one overwhelmed, there is nothing on your property worth digging up. That is a case where we tell you not to hire us and to report it to the village instead, because a surcharged public main is not yours to pay for. If the blockage is genuinely in your lateral we clear it and show you the cause on the screen; either way the sewage that came up is contaminated, so keep the affected floor shut off until it is cleaned.',
@@ -337,7 +337,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-college-hill': {
     intro:
-      'Sewer backing up in a North College Hill home just north of College Hill? Stop using water and call (513) 586-5107.',
+      'Root intrusion is the sewer backup we see most in North College Hill, where old clay and cast-iron laterals run under mature street trees on tight lots. Roots find the joints and close the line. We camera it before quoting, then clear the roots and repair or line the pipe.',
     relevance: [
       'North College Hill is a small, densely built city just north of College Hill, with a grid of early- and mid-1900s homes on tight lots. Laterals here are old clay and cast iron running under mature street trees, and roots find the joints, which makes root intrusion the backup we are called for most in this city.',
       'We camera the lateral before quoting so you see the roots and where they got in rather than paying for a guess. Cutting them opens the line; a joint that keeps admitting them gets flagged for repair instead of being cabled again each season. On these close lots we are careful to keep one home’s backup from reaching the next.',
@@ -353,7 +353,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   newtown: {
     intro:
-      'Sewer backing up in a Newtown home on the river-bottom near the Little Miami? Stop using water and call (513) 586-5107.',
+      'Newtown homes on the low river-bottom ground near the Little Miami often back up from silt that rising water carried into the sewer main, where it settles along the bottom. An ordinary evening of dishes and laundry then meets a half-closed line. We camera it before quoting any repair.',
     relevance: [
       'The low river-bottom ground beside the Little Miami River, where this small east-side village of older homes sits, is exactly why its sewers foul. When the river rises or a hard rain lands, storm water carries silt and fine grit down into the main, the flow slows, and the sediment drops out along the bottom of the pipe. It builds up unseen until an ordinary evening of dishes and laundry meets a half-closed line and backs up into the house.',
       'A silt-packed line still passes a trickle, so it reads normal right up until it does not, which is why we camera the full run before quoting instead of clearing the first thing we reach. When we find the buildup we hydro-jet it, scouring the sediment off the pipe wall rather than punching a hole through the middle for it to close again. Sewage that comes up is contaminated, so keep people and pets off the affected floor, and we tell you whether the fouling is in your lateral or the public main before any work.',
@@ -369,7 +369,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'turpin-hills': {
     intro:
-      'Sewer backing up in a Turpin Hills home in Anderson Township? Stop using water and call (513) 586-5107.',
+      'Sewer backups in Turpin Hills often come from a bellied lateral, because the ground under these mid-century and newer homes on rolling Anderson Township lots settles unevenly over the years. The low section holds water and traps solids. We camera the line before quoting to find the sag.',
     relevance: [
       'Turpin Hills is a suburban Anderson Township community on the east side, with mid-century and newer homes on rolling lots. On this terrain the ground settles unevenly over the years, and a lateral can drop into a belly, a low section that holds standing water and traps solids until the line backs up into the house.',
       'A belly is a grade fault, not a clog, so we camera the line to locate the low spot before quoting rather than snaking a symptom that keeps coming back. Where the sag is real we tell you what fixing it takes; where the line only needs clearing we say that. We are clear about which side of the line the problem is on before any work.',
@@ -379,13 +379,13 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a backup in Turpin Hills?',
-        a: 'Turpin Hills is well within our east-side service area in Anderson Township, and we are on call 7 days a week from 8am to 8pm with same-day service. Stop running water before we arrive so nothing more is added to what has come up.',
+        a: 'Turpin Hills is well within our east-side service area in Anderson Township, and we are on call 7 days a week with same-day service. Stop running water before we arrive so nothing more is added to what has come up.',
       },
     ],
   },
   silverton: {
     intro:
-      'Sewer backing up in a Silverton home along Montgomery Road? Stop running water and call (513) 586-5107.',
+      'Silverton’s early- and mid-1900s homes along Montgomery Road sit on clay and cast-iron laterals nearing a century old, so a sewer backup is often a section that has cracked or corroded through and collapsed. We camera the line before quoting and show you the break before any repair.',
     relevance: [
       'Silverton is a small city along Montgomery Road on the east side, with early- and mid-1900s homes. The clay and cast-iron laterals under those homes have been in the ground for the better part of a century, and once a section cracks or corrodes through it can collapse, closing the line and pushing waste back up into the lowest drains.',
       'A collapsed pipe does not open with a cable, so we camera the line before quoting to see whether a section is cracked or fully caved in. Where the pipe is sound we clear it; where it has failed we replace only that length rather than the whole run. Sewage is contaminated, so keep the affected area closed off until we have cleared it.',
@@ -401,7 +401,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   lockland: {
     intro:
-      'Sewer backing up in a Lockland home down in the Mill Creek valley? Stop using water and call (513) 586-5107.',
+      'A Lockland sewer line that slows every few weeks, then backs up no matter how often it is snaked, usually has a belly. The worker housing here sits on low, made-up ground that settles until the lateral sags into a dip. We camera the line to find it.',
     relevance: [
       'A Lockland line that gurgles and slows every few weeks, then backs up no matter how often it is snaked, usually has a belly. This historic mill village packs closely spaced worker housing onto low, made-up ground in the Mill Creek valley, and ground like that settles unevenly for a century, until a length of the old lateral sags into a dip. The low spot holds standing water and traps every solid that reaches it, so the line closes on its own schedule.',
       'That is a fault in the grade, not a clog, so cabling it buys a couple of weeks and no more. We camera the run before quoting to find the sag and see how much it holds, then tell you straight whether that length has to be dug up and reset to fall or whether the pipe only needs a clearing. Where a dig is the only real fix it is one section, not the whole yard, and the sewage that has come up is contaminated, so keep the area shut off until we clear it.',
@@ -417,7 +417,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   groesbeck: {
     intro:
-      'Sewer backing up in a Groesbeck home in Colerain Township? Stop running water and call (513) 586-5107.',
+      'Groesbeck sewer backups often come from the cast-iron laterals laid with these mid-century Colerain Township homes, which corrode from the inside until a wall cracks and a section caves in. Then the line is closed. We camera it before quoting so you see the failed section first.',
     relevance: [
       'Groesbeck built out across Colerain Township on the northwest side in the middle of the last century, and the sewer laterals run in with those mid-century homes were cast iron. Iron corrodes from the inside over the decades until a wall thins and a length cracks, and once a section finally caves in the line is closed, so waste has nowhere to go but back up into the lowest drains in the house.',
       'A caved pipe stops a camera cold, and that is how we tell a collapse from an ordinary clog before quoting, because a cable will never open it. Where the rest of the lateral is solid we dig down to that one failed length and replace it, not the entire run. What has backed up is contaminated sewage rather than water, and we tell you whether the break is on your side of the tap or out in the public main before any work.',
@@ -433,7 +433,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-healthy': {
     intro:
-      'Sewer backing up in a Mount Healthy home near the old town center? Stop using water and call (513) 586-5107.',
+      'Root intrusion is the sewer backup cause we find most across Mount Healthy, where clay laterals under the older homes near the old town center run beneath mature trees. Roots push into the joints until the line closes. We camera it before quoting, then clear and repair it.',
     relevance: [
       'Mount Healthy is a historic small city on the north side, with an old town center and streets of early-1900s and mid-century homes. The clay laterals under those older houses run beneath mature trees, and roots push into the joints, which makes root intrusion the backup cause we find most across this city.',
       'We camera the lateral before quoting so you can see the roots and where they entered rather than paying for a guess. Cutting them opens the line, and where a joint keeps admitting them we flag that section for repair instead of cabling it season after season. We tell you honestly which side of the line the roots are on before any work.',

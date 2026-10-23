@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
@@ -48,12 +48,6 @@ const installTypes = [
   'Washing machine hook-ups',
 ];
 
-const whyUs = [
-  { icon: 'badge' as const, title: 'Camera Inspection', text: 'We find the real cause of the clog instead of guessing, so it stays fixed.' },
-  { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked, licensed plumbers you can trust in your home.' },
-  { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-  { icon: 'clock' as const, title: 'Same-Day Service', text: 'Most drain calls are handled the same day you reach out.' },
-];
 
 const faqs = [
   { q: 'What causes frequent drain clogs?', a: 'Most recurring clogs come from grease, soap scum, hair, and food debris building up inside the pipe over time. Routine cleaning clears that buildup before it turns into a full blockage.' },
@@ -106,32 +100,16 @@ export default function DrainsPage() {
         ]}
       />
 
-      {/* Top CTA banner */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-8 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase sm:text-2xl">
-            Clogged or slow drain in {site.serviceArea}?
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/drains-hero.webp)' }}
             role="img"
             aria-label="Licensed plumber clearing a drain line"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Professional Drain Services
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -151,7 +129,7 @@ export default function DrainsPage() {
           <h2 className="mt-10 section-title text-brand-700">The Benefits of Professional Drain Service</h2>
           <ul className="mt-4 space-y-2.5">
             {benefits.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}</span> — {b.text}
@@ -193,7 +171,7 @@ export default function DrainsPage() {
             aria-label="Plumber inspecting and clearing a drain line"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs You Need Drain Replacement
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -226,7 +204,7 @@ export default function DrainsPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Drain Installation
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -241,7 +219,7 @@ export default function DrainsPage() {
             </p>
             <ul className="mt-3 grid gap-1.5 sm:grid-cols-2">
               {installTypes.map((t) => (
-                <li key={t} className="flex gap-2 text-sm font-medium text-white/90">
+                <li key={t} className="flex gap-2 text-base font-medium text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   {t}
                 </li>
@@ -295,8 +273,8 @@ export default function DrainsPage() {
       <section className="pb-2">
         <div className="container-page">
           <div className="flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
-            <h2 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">
-              Drain backing up right now? We answer 7 days a week from 8am to 8pm.
+            <h2 className="font-display text-xl font-extrabold text-white sm:text-2xl">
+              Drain backing up right now? We answer 7 days a week.
             </h2>
             <Link href="/services/emergency-plumbing" className="btn-pink flex-shrink-0">
               Emergency Plumbing
@@ -305,23 +283,31 @@ export default function DrainsPage() {
         </div>
       </section>
 
+      <ServiceReviews service="drains" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-8 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold sm:text-2xl">
+            Clogged or slow drain in {site.serviceArea}?
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
+        </div>
+      </section>
+
       {/* Why us */}
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Why Choose {site.name} for Drains</h2>
-          <div className="mt-5 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            We run a camera down the line to find what is actually causing the clog, so it stays cleared. Most drain calls are handled the same day, and you approve a flat-rate price before we start.
+          </p>
 
           {/* Bathroom & Kitchen drains */}
           <div className="mt-12 grid gap-8 sm:grid-cols-2">
@@ -350,6 +336,13 @@ export default function DrainsPage() {
             </div>
           </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Drain Service FAQs</h2>
           <div className="mt-4">
@@ -364,7 +357,7 @@ export default function DrainsPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Clear That Drain for Good</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Clear That Drain for Good</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Same-day service, upfront pricing, and a camera inspection to find the real cause. Call
               now or request an estimate.
@@ -382,7 +375,7 @@ export default function DrainsPage() {
         </div>
       </section>
 
-      <PageSections service="drains" />
+      <ServiceSections service="drains" />
     </>
   );
 }

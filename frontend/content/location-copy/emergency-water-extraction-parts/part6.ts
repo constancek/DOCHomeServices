@@ -1,7 +1,7 @@
 export const part6: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   mulberry: {
     intro:
-      "A supply line let go in a Mulberry basement? We are on the truck the same day with pumps and extractors to pull the standing water out before it climbs into more of the finished level off Ohio 131. Call (513) 586-5107.",
+      'Most water extraction in Mulberry follows a supply line letting go in a finished basement. These mid-century and newer homes keep the washer, water heater and lines on the lowest floor, and clean water wicks up drywall for hours before anyone is home. We extract it the same day.',
     relevance: [
       "Mulberry (ZIP 45150) is a run of mid-century and newer homes in the Milford area of western Clermont County, and most finished the basement and ran the washer, water heater, and supply lines down on that lowest floor. When a supply line behind a wall or under a sink lets go, clean water spreads across carpet and pad and wicks up the drywall for hours before anyone is home to catch it.",
       "Speed is the whole job here. We pump the standing water, run extractors through the carpet and pad to pull out what a mop leaves, lift the saturated pad that cannot be saved, and set air movers and dehumidifiers before we leave so drying starts the same visit. We are plumbers, so the burst line gets shut off at the source rather than left running while we work.",
@@ -16,7 +16,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-repose': {
     intro:
-      "Water heater dumped its tank across a Mount Repose basement? We bring pumps and extractors the same day to get the standing water out of this Milford-area community along Ohio 131. Call (513) 586-5107.",
+      'A forty- or fifty-gallon water heater rusting through is the usual Mount Repose water extraction job. The whole volume runs across the slab, into the carpet and under boxed storage in these Milford-area homes. We bring pumps and extractors the same day, even where the floor is tile.',
     relevance: [
       "Mount Repose (ZIP 45150) is a Milford-area community of mid-century and newer homes in Clermont County, most with a forty- or fifty-gallon water heater standing on the lowest floor. When the tank rusts through and empties at once, the whole volume runs out across the slab, into the carpet, and under the boxed storage and shelving that tends to fill a basement corner.",
       "The clock is what matters. We pump the water down, extract it back out of carpet, pad, and the subfloor it soaked, lift what has to come up, and set drying equipment on the same visit. Because a licensed plumber is on the truck, the failed heater is isolated and the supply capped rather than left dripping into the room we are drying.",
@@ -31,7 +31,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'day-heights': {
     intro:
-      "Storm water standing in a Day Heights basement? We are out the same day with pumps and extractors to move it before it climbs, across the subdivisions and semi-rural lots off Ohio 131. Call (513) 586-5107.",
+      'Heavy storms that outrun the sump drive most water extraction in Day Heights. On the lower-lying suburban and semi-rural lots, water rises across the slab into laminate and framing, and the materials hold more than the puddle suggests. We pump it out the same day.',
     relevance: [
       "Day Heights (ZIP 45150) mixes suburban homes with semi-rural properties in the Milford area of Clermont County, and the lower-lying lots take on water when a heavy storm outruns the sump pump. Storm water rises across the slab into laminate flooring and up the framing, and a basement that fills a few inches deep holds more water in its materials than the puddle on the floor suggests.",
       "We pump the standing water first because it is the fastest-moving part, then extract what soaked into the flooring and the base of the walls, pull saturated material that will not dry in place, and set air movers before we go. Tell us the source when you call, because storm water that crossed the yard is treated as contaminated from the first minute on site.",
@@ -46,7 +46,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'new-richmond': {
     intro:
-      "When the Ohio River backs into New Richmond, we bring pumps and extractors the same day to pull the standing water out of this historic riverfront village before it sits any longer. Call (513) 586-5107.",
+      'When the Ohio backs into New Richmond, water extraction means contaminated river water in the basements of 19th-century riverfront homes. It soaks carpet, drywall and belongings and comes up every floor drain it reaches. We bring pumps and extractors to the village the same day.',
     relevance: [
       "New Richmond (ZIP 45157) is a historic Ohio River village in Clermont County with 19th-century homes lined right along the riverfront, and here the flood is often the river itself. River water is contaminated, and when it stands in a basement it soaks carpet, drywall, and stored belongings while backing up through every floor drain it reaches.",
       "The first hours decide how much comes back. We pump the river water out, extract what soaked the subfloor and the base of the walls, and lift the porous material a contaminated flood ruins outright rather than trying to dry it. Because the water is dirty, we run it as a contaminated job from the start, in the protective gear that calls for, and set drying only once the standing water and the ruined material are gone.",
@@ -61,7 +61,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   amelia: {
     intro:
-      "An overflowed washer or dishwasher spreading across an Amelia kitchen? We are out the same day with a portable extractor to pull the water back out before it works under the cabinets, along the Ohio Pike corridor. Call (513) 586-5107.",
+      'An overflowed washer or dishwasher on the main floor is the usual Amelia water extraction job. In these Ohio Pike homes, the water runs across hardwood and under the cabinet kickboards, carrying detergent and food waste. We pull it back out the same day with a portable extractor.',
     relevance: [
       "Amelia (ZIP 45102) strings along the Ohio Pike corridor in Clermont County, established mid-century and newer neighborhoods where the laundry and kitchen sit on the main floor. When a washer hose or dishwasher connection lets go, the water runs flat across hardwood and slips under the cabinet kickboards, and appliance water carries detergent and food waste that make it dirtier than a plain supply leak.",
       "The trick is reaching what the flooring hides. We run a portable extractor across the boards, wick the water back out from under the kickboards and the cabinet toe space, and lift any saturated material that will not dry where it sits before setting air movers the same visit. Where a spill stayed small and you caught it on sealed floor within the hour, a towel and a fan finish it and we will say so.",
@@ -76,7 +76,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   batavia: {
     intro:
-      "A sewer backup coming up the basement drain in Batavia? We bring a submersible pump and truck-mount extractor the same day to get the contaminated water out, here at the Clermont County seat on the East Fork. Call (513) 586-5107.",
+      'Sewer backups through the lowest floor drain cause most water extraction in Batavia. The historic core of the Clermont County seat sits on low ground beside the East Fork, and saturated soil pushes black water across finished basements. We bring a submersible pump and truck-mount extractor the same day.',
     relevance: [
       "Batavia (ZIP 45103) is the Clermont County seat, its historic core set on the low ground the East Fork of the Little Miami pushes against in a hard rain. When that ground saturates, the city sewer can back up through the lowest floor drain, and the black water that comes up spreads across a finished basement carrying everything a sewer carries.",
       "Contaminated water changes the job from drying to removal. We drop a submersible pump for the bulk, run the truck-mount extractor over the carpet and hard floor, and take the pad and any porous material it soaked out to the curb rather than trying to clean it in place. We work in the protective gear a sewer job calls for, and drying equipment goes in only after the dirty water and ruined material are gone.",
@@ -91,7 +91,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   owensville: {
     intro:
-      "A well line split and running across an Owensville basement? We are out the same day with pumps and extractors to move the standing water, across the rural lots along the US 50 corridor. Call (513) 586-5107.",
+      'Around Owensville, many water extraction jobs start at the well. Rural lots draw from a private well with a pressure tank in the basement, and a split fitting or stuck pump feeds clean water across the floor for hours. We pump out the standing water the same day.',
     relevance: [
       "Most of the rural lots around Owensville (ZIP 45160), a small eastern Clermont County village with a historic core, draw their water from a private well and a pressure tank in the basement. When a fitting off that tank splits or the pump sticks on, it feeds clean water across the floor for hours, long after the pressure has dropped, before anyone thinks to check the basement.",
       "We shut the well supply at the source first, then pump the standing water and work a weighted extractor across the slab and into the boxed storage that fills a basement corner. Once the water is off the floor and out of the subfloor, we set air movers and dehumidifiers and hand the drying off — the extraction is the first hours, not the week that follows.",
@@ -106,7 +106,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   goshen: {
     intro:
-      "Sump pump overwhelmed and a Goshen basement filling in a storm? We are out the same day with pumps and extractors to pull the standing water out, across this township community along Ohio 28. Call (513) 586-5107.",
+      'In Goshen, water extraction usually follows a long storm that outran or burned out the sump pump overnight. Across the township’s suburban builds and rural lots, the water rises across carpet, pad and drywall faster than a recovered pump can catch up. We pull it out the same day.',
     relevance: [
       "By the time most Goshen homeowners find it, the water is already a few inches up the finished basement wall and climbing. Goshen (ZIP 45122) is a northern Clermont County township of suburban builds and rural lots where a long storm outruns the sump pump or burns out its motor overnight, and once the pit overflows the water rises across carpet, pad, and the bottom of the drywall faster than a recovered pump can catch up.",
       "The first hours are what you can still save. We pump the standing water down, run extractors through the carpet and lift the saturated pad that will not dry back, and pull the water out of the subfloor before it wicks higher up the drywall. Tell us the source when you call, because storm water that crossed the yard is treated as contaminated from the first minute on site.",
@@ -121,7 +121,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   moscow: {
     intro:
-      "When the Ohio comes up over Moscow, we bring pumps and extractors the same day to get the standing river water out of this low riverside village. Call (513) 586-5107.",
+      'River flooding drives water extraction in Moscow. The village sits on the low southeastern edge of Clermont County, and when the Ohio climbs, the river water stands deepest and longest in the older homes near the bank. We bring pumps and extractors the same day.',
     relevance: [
       "Moscow (ZIP 45153) sits on the low southeastern edge of Clermont County, close enough to the Ohio that when the gauge climbs the river itself is the flood. It stands deepest and longest in the older homes near the bank, soaking floorboards, the base of the walls, and anything stored low before it slowly drops back.",
       "River water is dirty, so the first hours are about getting it and the material it ruined out, not drying it. We move the bulk with a submersible pump, extract what soaked the subfloor and the wall base, and pull the porous material outright rather than try to bring it back to clean. We run it in the protective gear a contaminated flood calls for and set drying only once the water and ruined material are gone.",
@@ -136,7 +136,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   newtonsville: {
     intro:
-      "A septic backup standing in a Newtonsville basement? We are out the same day with pumps and extractors to move the contaminated water, in this rural northeastern Clermont village. Call (513) 586-5107.",
+      'A septic backup standing in the basement is a common Newtonsville water extraction job. The older homes in this rural village drain to their own septic fields, and a saturated field or blocked line pushes contaminated water up the lowest drain. We extract it the same day.',
     relevance: [
       "Newtonsville (ZIP 45158) is a small village in the northeastern corner of Clermont County, far enough from any city line that the older homes here drain to their own septic fields. When a field saturates in a wet stretch or a line blocks, the backup comes up the lowest drain and stands across the basement floor, carrying what a septic system carries.",
       "This is dirty water, so we extract and remove rather than dry. We pump the standing backup, work a portable extractor over the floor and into the subfloor where a truck line will not reach in a tight rural basement, and take out the porous material outright. A licensed plumber is on the truck, so we can tell whether the backup is still feeding the floor and stop it before drying equipment goes in.",
@@ -151,7 +151,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   williamsburg: {
     intro:
-      "A water heater that let go across a Williamsburg floor? We bring pumps and extractors the same day to pull the standing water out of this historic village on the East Fork. Call (513) 586-5107.",
+      'Old water heaters sitting low in historic homes drive much of the water extraction in Williamsburg. In the 19th-century village core on the East Fork, a tank that rusts through empties across original hardwood and an old subfloor. We pull the standing water out the same day.',
     relevance: [
       "Williamsburg (ZIP 45176) is a historic village on the East Fork of the Little Miami River in Clermont County, with a 19th-century core and rural homes around it. In the older homes a water heater tends to sit low, and when its tank rusts through and empties, the whole volume runs out across original hardwood and an old subfloor that soaks it up quickly.",
       "Speed is the job. We pump the water off the floor, extract it back out of the hardwood, the subfloor, and the base of the walls, lift what cannot be dried in place, and set air movers the same visit. Because a plumber is on the truck, the failed heater is isolated and the supply capped rather than left dripping while we dry the room.",
@@ -166,7 +166,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   bethel: {
     intro:
-      "A well supply line let go under a Bethel home? We are out the same day with pumps and extractors to move the standing water, along the Ohio 125 corridor. Call (513) 586-5107.",
+      'Well supply lines splitting under the house drive a lot of water extraction in Bethel. Many older homes here run a private well with the pressure tank in a basement or crawlspace, and a split fitting feeds water for hours. We move the standing water out the same day.',
     relevance: [
       "Bethel (ZIP 45106) grew up around a 19th-century core in southeastern Clermont County, with rural and small-town homes spread out from it, a good share of them on a private well. In the older houses the pressure tank and its lines sit in a basement or crawlspace, and a split fitting can feed clean water across that floor for hours before the drop in pressure gives it away.",
       "We isolate the well supply at the source, then pump the standing water and work the extractor across the floor and into the crawlspace where the water tends to pool out of sight. Saturated material that will not dry in place comes up. A short clean run you caught quickly on a sealed floor is a shop-vac job and we will say so, but water that ran while nobody was home has gone into the subfloor and needs the equipment.",
@@ -181,7 +181,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   ross: {
     intro:
-      "When the Great Miami tops its banks at Ross, we bring pumps and extractors the same day to pull the standing water out of this Butler County township. Call (513) 586-5107.",
+      'When the Great Miami tops its banks, Ross water extraction means contaminated water standing across the floors of the low small-town homes. It soaks every porous thing it reaches before draining off the land, along with the mud. We bring pumps and extractors to the township the same day.',
     relevance: [
       "Ross (ZIP 45061) spreads across Ross Township in southwestern Butler County, small-town homes near the Great Miami and rural properties set back behind them. When the river over-tops its banks, the low homes take on contaminated water that stands across the floor and soaks every porous thing it reaches before it drains back off the land.",
       "The first hours decide what comes back. We move the bulk with a submersible pump, extract what soaked the subfloor and the base of the walls, and remove the porous material the flood ruined rather than dry it. It is contaminated water, so we work it in the right protective gear and set drying only once the standing water and ruined material are out.",
@@ -196,7 +196,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   fairfield: {
     intro:
-      "A supply line burst behind a Fairfield wall? We are out the same day with a truck-mount extractor to pull the standing water out before it climbs the drywall, across this Butler County city off Route 4. Call (513) 586-5107.",
+      'Corroded supply lines in mid-century homes cause most water extraction in Fairfield. When one lets go behind a wall or under a fixture in this large Butler County city, clean water runs for hours and wicks up drywall beyond the room. We bring a truck-mount extractor the same day.',
     relevance: [
       "Fairfield (ZIP 45014) is a large Butler County city north of Cincinnati whose mid-century neighborhoods have reached the age where supply lines corrode to the point of failure. When one lets go behind a wall or under a fixture, clean water runs unseen for hours, spreading across the finished level and wicking up the drywall well beyond the room it started in.",
       "We pump the standing water, run the truck-mount extractor through the carpet and pad, and pull what soaked the subfloor before it climbs any higher into the walls. A licensed plumber is on the truck, so the burst line is shut off and capped at the source rather than left running while we work the water it already put down.",
@@ -211,7 +211,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'beckett-ridge': {
     intro:
-      "Storm water rising in a Beckett Ridge lower level? We bring pumps and extractors the same day to move it, across this West Chester golf-course community. Call (513) 586-5107.",
+      'A sump that a heavy storm outran or burned out is the usual Beckett Ridge water extraction job. Homes in this West Chester golf-course community date from the 1980s on, with finished lower levels. We pump it out the same day and handle the drying.',
     relevance: [
       "Beckett Ridge (ZIP 45069) is a planned West Chester community in Butler County laid out around its golf course, most of its homes built from the 1980s onward with a finished lower level and a sump pump to keep it dry. When a heavy storm outruns or burns out that pump, water rises across carpet, drywall, and furniture that soak it up fast.",
       "We pump the standing water down, run extractors through the carpet and lift the pad that cannot be saved, then pull what soaked the subfloor. Once the water is out we set air movers and dehumidifiers and hand the drying off, because the extraction is the first-hours job and the drying is the stage that follows. Tell us the source, since storm water from outside is handled as contaminated from the first minute.",
@@ -226,7 +226,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   wetherington: {
     intro:
-      "A hidden supply line running behind a wall in a Wetherington home? We are out the same day with pumps and extractors to pull the standing water out of this upscale West Chester golf-course community. Call (513) 586-5107.",
+      'In Wetherington, water extraction often covers two floors. The larger 1980s and 90s homes in this West Chester golf-course community have bigger plumbing systems, and a hidden burst line behind a wall or upstairs soaks two levels before anyone hears it. We extract both the same day.',
     relevance: [
       "Wetherington (ZIP 45069) is an upscale West Chester community in Butler County built around a golf course, with larger homes from the 1980s and 90s onward carrying larger plumbing systems. In a house that size a burst line or failing connection can run behind a wall or on an upper floor and put water down across two levels before anyone is home to hear it.",
       "The more square footage the water crosses, the more the first hours matter. We pump the standing water, extract it out of the carpet, pad, subfloor, and ceilings it ran through, lift saturated material, and stage air movers across every affected room. A licensed plumber is on the truck, so the source line is shut off and repaired rather than left feeding the flood.",
@@ -241,7 +241,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   hamilton: {
     intro:
-      "Sewage backing up into a Hamilton basement? We bring a submersible pump and truck-mount extractor the same day to get the contaminated water out, in the historic districts along the Great Miami. Call (513) 586-5107.",
+      'Sewer backups in the historic districts drive most water extraction in Hamilton. German Village and Dayton Lane hold 19th-century homes on low ground beside the Great Miami, and saturated soil pushes black water up the lowest floor drain. We bring a submersible pump and truck-mount the same day.',
     relevance: [
       "Hamilton (ZIP 45011) is the Butler County seat, straddling the Great Miami, and its historic districts like German Village and Dayton Lane are full of 19th-century homes on low ground. When heavy rain saturates that ground, the city sewer backs up through the lowest floor drain, and the black water stands across old basements carrying everything a sewer carries.",
       "Speed and hygiene both count on a contaminated job. We move the bulk with a submersible pump, run the truck-mount extractor over the floor and subfloor, and take the porous material out rather than dry it. We work in the protective gear the job calls for, and drying equipment goes in only after the dirty water and ruined material are gone.",
@@ -256,7 +256,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   millville: {
     intro:
-      "A well line failure flooding a Millville basement? We are out the same day with pumps and a portable extractor to move the standing water, west of Hamilton off Millville-Oxford Road. Call (513) 586-5107.",
+      'Well line failures cause a lot of water extraction in Millville. West of Hamilton, many older homes and rural properties run a private well with the pressure tank low, and a split line or stuck pump runs water for hours. We move the standing water the same day.',
     relevance: [
       "West of Hamilton, Millville (ZIP 45013) is a small Butler County village where older homes give way to rural properties, a good share of them on a private well. The pressure tank sits low, and when a supply line off it splits or the pump sticks on, clean water runs for hours across a basement or crawlspace before the pressure drop gives it away.",
       "We isolate the well supply at the source, then pump the standing water and work a portable extractor across the floor and into the crawlspace and subfloor the water reached. A plumber is on the truck, so the failed line or pump is stopped on the same visit rather than left running while we clear what it left.",
@@ -271,7 +271,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'new-miami': {
     intro:
-      "When the Great Miami backs into New Miami, we bring pumps and extractors the same day to pull the standing water out of this old mill village north of Hamilton. Call (513) 586-5107.",
+      'Great Miami flooding drives water extraction in New Miami. The closely spaced mill-village homes sit on low riverside ground north of Hamilton, and high water pushes back up through basement floor drains, contaminated and deep. We bring pumps and extractors the same day.',
     relevance: [
       "New Miami (ZIP 45011) is an old mill community of closely spaced homes on low riverside ground just north of Hamilton. When the Great Miami runs high, it does not just crest the bank — it pushes back up through the basement floor drains, and the contaminated water stands deep and soaks everything porous it reaches before it slowly drops.",
       "The first hours decide what comes back. We move the bulk with a submersible pump, extract what soaked the subfloor and the wall base, and remove the porous material the flood ruined rather than dry it. On these tight lots we stage hose to reach basements a truck cannot pull up beside, and we work it in the protective gear a contaminated flood calls for.",
@@ -286,7 +286,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   monroe: {
     intro:
-      "A water heater that emptied its tank across a Monroe basement? We are out the same day with pumps and extractors to move the standing water, across this growing city along I-75. Call (513) 586-5107.",
+      'A water heater emptying its tank across the basement is a common Monroe water extraction job, in the newer subdivisions and the older town core alike. When the tank rusts through, forty or fifty gallons run across the slab into carpet and storage. We pump it out the same day.',
     relevance: [
       "Monroe (ZIP 45050) straddles the Butler and Warren County line along the I-75 corridor and has grown fast, so newer subdivisions sit beside an older town core. In both, a forty- or fifty-gallon water heater stands on the lowest floor, and when the tank finally rusts through it empties all at once across the slab, into carpet and boxed storage.",
       "Speed is the job. We pump the water off the floor, extract it back out of carpet, pad, and subfloor, lift what cannot be dried, and set air movers and dehumidifiers on the same visit. A licensed plumber is on the truck, so the failed heater is isolated and the supply capped rather than left dripping while we dry the room.",
@@ -301,7 +301,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   landen: {
     intro:
-      "Storm water rising in a Landen lower level? We bring pumps and extractors the same day to move it, across this planned Warren County community around its lake. Call (513) 586-5107.",
+      'Sump failure in a storm drives most water extraction in Landen. Most homes in this planned Warren County community around the lake have finished lower levels on a sump, and once it burns out water rises across carpet, pad and drywall. We bring pumps and extractors the same day.',
     relevance: [
       "Landen (ZIP 45040) was planned out from the 1970s and 80s onward around its lake and common areas, a Warren County community near Mason and Maineville where most homes finished the lower level and lean on a sump pump. When a heavy storm outruns or burns out that pump, water rises across carpet, pad, and drywall faster than the pump can ever catch back up.",
       "We pump the standing water down, run extractors through the carpet and lift the pad that cannot be saved, then pull what soaked the subfloor and the base of the drywall. If the water never left one room and never reached carpet or drywall, a shop vac and a fan finish it, and we will tell you that rather than sell you equipment you do not need.",
@@ -316,7 +316,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'loveland-park': {
     intro:
-      "A supply line let go in a Loveland Park home? We are out the same day with pumps and a truck-mount extractor to pull the standing water out, just north of Loveland near the Little Miami. Call (513) 586-5107.",
+      'Corroding supply lines in mid-century homes cause most water extraction in Loveland Park. Just north of Loveland near the Little Miami, a line behind a wall or under a sink runs across the floor and up the drywall for hours. We pull the standing water out the same day.',
     relevance: [
       "Loveland Park (ZIP 45140) sits just north of Loveland near the Little Miami River, a Warren County community of mid-century homes old enough that their supply lines have started to corrode. When one lets go behind a wall or under a sink, clean water runs across the floor and up the drywall for hours before anyone is home to catch it.",
       "We pump the standing water, run the truck-mount extractor through the carpet and pad, and pull what soaked the subfloor before it climbs the walls. A licensed plumber is on the truck, so the burst line is shut off at the source and repaired rather than left running while we work the water it put down.",
@@ -331,7 +331,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   maineville: {
     intro:
-      "An overflowed washer or dishwasher spreading across a Maineville floor? We are out the same day with a portable extractor to pull the water back out, across this growing Warren County town along Ohio 48. Call (513) 586-5107.",
+      'Washer hoses, dishwashers and ice-maker lines cause much of the water extraction in Maineville, across the historic core, newer subdivisions and rural homes. Appliance water carries detergent and food waste, so it is dirtier than it looks. We pull it back out the same day.',
     relevance: [
       "Maineville (ZIP 45039) is a growing town in southern Warren County, a small historic core ringed by newer subdivisions and rural homes. In any of them a washer hose, dishwasher, or ice-maker line can let go and run across the kitchen or laundry, and clean-looking appliance water carries detergent and food waste that make it dirtier than a plain supply leak.",
       "We run a portable extractor across the flooring, wick the water back from under the cabinet kickboards, and pull what soaked the subfloor before setting air movers the same visit. Because appliance water carries waste, we handle it as a step above clean from the start rather than treat it like a supply-line spill, and we lift any saturated material that will not dry where it sits.",
@@ -346,7 +346,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pleasant-plain': {
     intro:
-      "A well pump that stuck on and flooded a Pleasant Plain basement? We are out the same day with pumps and extractors to move the standing water, out along Ohio 132. Call (513) 586-5107.",
+      'A stuck well pump or split pressure-tank line is the usual Pleasant Plain water extraction job. The older homes and rural properties in this small Warren County village run on private wells, so clean water covers the basement before the pressure drops. We pump it out the same day.',
     relevance: [
       "By the time the pressure drops enough to notice, a stuck well pump has usually put clean water across the whole basement floor. Pleasant Plain (ZIP 45162) is a small village in southeastern Warren County, older homes and rural properties spread out on private wells, where a split line off the pressure tank or a pump that will not shut off can run for hours unseen.",
       "We isolate the well supply at the source, drop a submersible pump for the bulk, and extract what soaked the floor, the subfloor, and the crawlspace it reached. A plumber is on the truck, so the failed line or pump is stopped on the same visit rather than left feeding the flood while we work.",
@@ -361,7 +361,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-lebanon': {
     intro:
-      "Storm water standing in a South Lebanon basement? We bring pumps and extractors the same day to move it, in this growing town on the Little Miami River. Call (513) 586-5107.",
+      'Storm water in low basements drives most water extraction in South Lebanon. On the riverside ground along the Little Miami, heavy rain raises the river, and new and old basements alike take on water across carpet, pad and drywall. We bring pumps and extractors the same day.',
     relevance: [
       "South Lebanon (ZIP 45065) has grown fast along the Little Miami in Warren County, new subdivisions pushing out from a historic core on low riverside ground. When heavy rain brings the river up, the low basements take on storm water that rises across carpet, pad, and drywall, and a newer basement holds as much water in its materials as an older one does.",
       "We pump the standing water down, run extractors through the carpet and lift the pad that cannot be saved, then pull what soaked the subfloor. Once the water is out we set air movers and dehumidifiers and hand the drying off. Tell us the source when you call, because storm water that came up off the river is treated as contaminated from the first minute on site.",
@@ -376,7 +376,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   lawrenceburg: {
     intro:
-      "When high water gets behind the Lawrenceburg levee, we bring pumps and extractors the same day to pull the standing water out of this historic Indiana river city. Call (513) 586-5107.",
+      'When high water gets behind the levee, Lawrenceburg water extraction means contaminated river water in the 19th-century buildings of the low downtown. It stands deep, soaking floors, walls and stored belongings. We cross into Indiana with pumps and extractors the same day.',
     relevance: [
       "A riverfront levee holds the Ohio back from downtown Lawrenceburg most of the year, but when high water gets behind it, contaminated river water reaches the 19th-century buildings the city grew from. Lawrenceburg (ZIP 47025) is a historic river city in southeastern Indiana with a distilling heritage, and that water stands deep in the low downtown, soaking floors, walls, and stored belongings.",
       "The first hours decide what is saved. We move the bulk with a submersible pump, extract what soaked the subfloor and the wall base, and remove the porous material the flood ruined rather than try to dry it. It is contaminated water, so we work it in the right protective gear and set drying only once the standing water and ruined material are gone.",
@@ -391,7 +391,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   greendale: {
     intro:
-      "Hillside runoff backing up a Greendale basement drain? We are out the same day with pumps and extractors to get the contaminated water out, on the slope above the Ohio next to Lawrenceburg. Call (513) 586-5107.",
+      'Hillside runoff backing up a basement drain is the usual Greendale water extraction job. On the slope above the Ohio next to Lawrenceburg, the grade drives heavy rain at the drains, and the backup pushes dirty water across the lowest floor. We extract it the same day.',
     relevance: [
       "Greendale (ZIP 47025) climbs the hillside above the Ohio next to Lawrenceburg, a Dearborn County, Indiana city of older and mid-century homes. The grade drives heavy rain straight down at the basement drains, and when a drain backs up under that load it pushes dirty water out across the lowest floor faster than it can clear.",
       "This is a contaminated extraction. We pump the standing water, run a portable extractor over the floor and subfloor, and take the porous material out rather than dry it back to clean. A plumber is on the truck, so we can tell whether the drain is still backing up and stop it before drying equipment goes in.",
@@ -406,7 +406,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   aurora: {
     intro:
-      "When the Ohio comes up over Aurora, we bring pumps and extractors the same day to pull the standing water out of this historic river town below Hillforest. Call (513) 586-5107.",
+      'River flooding drives water extraction in Aurora. Below Hillforest, the 19th-century homes on the low riverfront take contaminated Ohio water that stands longest there, soaking floors, walls and anything stored low. We bring pumps and extractors to this Indiana river town the same day.',
     relevance: [
       "Below the Hillforest Victorian mansion, the Aurora riverfront runs right along the Ohio, a historic Dearborn County, Indiana town of 19th-century homes on low ground the river reaches when the gauge climbs. That water is contaminated, and it stands longest in the old riverfront homes, soaking floors, walls, and anything stored low before it drains back.",
       "The first hours decide what comes back. We move the bulk with a submersible pump, extract what soaked the subfloor and the wall base, and remove the porous material the flood ruined rather than dry it. It is contaminated water, so we run it in the right protective gear and set drying only after the standing water and ruined material are gone.",

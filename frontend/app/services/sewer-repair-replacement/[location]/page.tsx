@@ -65,12 +65,7 @@ const config: ServiceLocationConfig = {
     { title: 'Emergency Sewer Service in {neighborhood}', body: 'A main-line backup pushing sewage into your home cannot wait. Our team responds fast and reaches most {neighborhood} homes the same day to clear the blockage, assess the line, and make the repair.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'badge', title: 'Camera-Diagnosed', text: 'We inspect the line first so the fix matches the actual problem.' },
-    { icon: 'check', title: 'Trenchless Available', text: 'We replace lines without tearing up your yard whenever possible.' },
-    { icon: 'shield', title: 'Licensed & To Code', text: 'Background-checked plumbers and installations that meet local code.' },
-    { icon: 'clock', title: 'Same-Day & Emergency', text: 'We respond fast when a main line backs up — no overtime or weekend fees.' },
-  ],
+  whyParagraph: 'When a main line backs up in {neighborhood}, we respond fast and charge no overtime or weekend fees. A camera inspection comes first so the fix matches the problem, and trenchless replacement spares your yard whenever possible.',
   proofQuote:
     'Sewage started backing up into the basement floor drain. They camera-scoped the line, found roots in the old clay lateral, and relined it trenchless without digging up the yard.',
   sharedFaqs: [

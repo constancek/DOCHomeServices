@@ -7,7 +7,7 @@ import { BlogSections } from '@/components/PageSections';
 import ShareBar from '@/components/ShareBar';
 import BlogFaq from '@/components/BlogFaq';
 import GuideLinks from '@/components/GuideLinks';
-import { MapWidget, CouponWidget } from '@/components/Sidebar';
+import { CouponWidget } from '@/components/Sidebar';
 import ServicesMenu from '@/components/ServicesMenu';
 import { posts, getPost, type PostBlock, type PostSpan } from '@/content/posts';
 import { site } from '@/content/site';
@@ -140,7 +140,7 @@ function PostBlockView({ block }: { block: PostBlock }) {
   if (block.kind === 'takeaways') {
     return (
       <div className="rounded-2xl border border-brand-100 bg-brand-50/60 p-6 sm:p-7">
-        <h2 className="font-display text-2xl font-extrabold uppercase tracking-wide text-brand-700">Key Takeaways</h2>
+        <h2 className="font-display text-2xl font-extrabold tracking-wide text-brand-700">Key Takeaways</h2>
         <ul className="mt-4 space-y-3">
           {block.items.map((item, i) => (
             <li key={i} className="flex gap-2.5 text-lg leading-relaxed text-brand-800">
@@ -361,7 +361,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           {/* Sidebar */}
           <aside className="space-y-8 lg:self-start">
             <div className="card">
-              <h2 className="text-sm font-bold uppercase tracking-wider text-brand-500">
+              <h2 className="text-sm font-bold tracking-wider text-brand-500">
                 On this page
               </h2>
               <ul className="mt-4 space-y-2 text-sm">
@@ -391,7 +391,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             </div>
 
             <div className="card">
-              <h2 className="text-sm font-bold uppercase tracking-wider text-brand-500">
+              <h2 className="text-sm font-bold tracking-wider text-brand-500">
                 Keep reading
               </h2>
               <ul className="mt-4 space-y-4">
@@ -407,7 +407,6 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 ))}
               </ul>
             </div>
-            <MapWidget />
             <CouponWidget title={post.category === 'Heating' ? 'Furnace Tune-Up' : undefined} />
             <ServicesMenu />
           </aside>

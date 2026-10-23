@@ -6,7 +6,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part7: Record<string, LocationServiceCopy> = {
   newtown: {
     intro:
-      'The Little Miami rises and falls fast, so in Newtown the water can reach a low panel during the same hours as the wind. We repair storm-damaged masts and meter bases and flooded panels on this bottomland. Call (513) 586-5107.',
+      'The Little Miami rises and falls fast, so in a Newtown storm the water can reach a low panel during the same hours as the wind. We repair storm-damaged masts and meter bases and replace flooded panels on this bottomland, checking both in one visit.',
     relevance: [
       'Newtown (ZIP 45244) is a small east-side village on low bottomland beside the Little Miami River, and the Little Miami behaves differently from the Ohio. It is a smaller river with a steeper catchment, so it responds to heavy rain faster and falls again faster — which means the water can arrive during the same few hours as the wind rather than a day later as the Ohio crests. For a homeowner that removes the gap you would otherwise have to move things or make a decision.',
       'The practical consequence is that we frequently find both problems here from one storm: a service entrance damaged above and a panel that has been in water below. They have different remedies. A mast is rebuilt and inspected. A submerged panel is replaced, because water gets behind the bus bars and into the breakers and corrosion continues long after everything looks dry. An inspector checks for that before Duke reconnects, so we look at both in one visit as standard.',
@@ -23,7 +23,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   'turpin-hills': {
     intro:
-      'On Turpin Hills’ rolling streets the drop often runs uphill or downhill to the house, which adds tension and lets a falling limb pull harder on the mast. We repair storm damage to masts and meter bases across this part of Anderson Township. Call (513) 586-5107.',
+      'On Turpin Hills’ rolling streets the drop often runs uphill or downhill to the house, which adds tension and lets a falling storm limb pull harder on the mast. We repair damage to masts and meter bases across this part of Anderson Township.',
     relevance: [
       'Turpin Hills (ZIP 45244) is an Anderson Township community on genuinely rolling east-side terrain, in established mid-century and newer neighborhoods. The name is accurate: these are hills rather than a flat suburban plat, and that changes the geometry of the overhead service. Where the pole sits uphill or downhill of the house, the drop runs across a grade rather than level, which puts it under more tension and gives a falling limb more leverage on the mast when it lands.',
       'The terrain also affects how we work. On the steeper lots the ladder position we would want is often not available, and the setup takes longer than the repair itself — worth mentioning when you call so the visit is scheduled with enough time. Anderson Township handles the permit and inspection rather than the city or any of the small east-side municipalities nearby, and it is a large township, so restoration after a big storm proceeds in sections.',
@@ -40,7 +40,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   silverton: {
     intro:
-      'Silverton sits inside a patchwork of Deer Park, Kenwood, Dillonvale and Sycamore Township, and each handles permits differently. We file storm repairs with Silverton, fix the damaged mast or meter base and coordinate the Duke reconnect. Call (513) 586-5107.',
+      'Silverton storm repairs go through Silverton’s own permit office, even though the city sits inside a patchwork of Deer Park, Kenwood, Dillonvale and Sycamore Township. We confirm the authority for your address, fix the damaged mast or meter base and coordinate the Duke reconnect.',
     relevance: [
       'Silverton (ZIP 45236) is a small city along Montgomery Road, and it sits in the middle of what is genuinely a patchwork of authorities. Within a few miles of here you have Silverton, Deer Park, Kenwood, Dillonvale and Sycamore Township, and every one of them handles permits and inspections differently — some as cities, one as unincorporated county, others as township. Addresses on adjacent roads can answer to different offices, and after a storm that difference is measured in days rather than principle.',
       'So the first thing we do on an east-side job is confirm which authority the address falls under before anything is filed. The housing itself is early- and mid-1900s along established streets, with services of both eras and street trees now well above roof height. Straightforward work — the complication here is administrative rather than electrical, and it is entirely avoidable if it is checked at the start.',
@@ -57,7 +57,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   lockland: {
     intro:
-      'Storm damage in Lockland tends to come in clusters along a block, because one falling tree reaches several narrow lots. The service usually sits in a gap barely wide enough to work in. We repair it, along with water-damaged panels, on the village permit. Call (513) 586-5107.',
+      'Storm damage in Lockland tends to come in clusters along a block, because one falling tree reaches several narrow lots. The service usually sits in a gap barely wide enough to work in. We repair it, along with water-damaged panels, on the village permit.',
     relevance: [
       'Lockland (ZIP 45215) is a historic village in the Mill Creek valley that grew up around mills and industry, with worker housing spaced about as tightly as anywhere in the county. Those narrow lots mean the gap between one house and the next is barely wide enough to work in — and that is where the service entrance and meter usually sit. It also means one falling tree reaches several properties, so damage here comes in clusters along a block rather than as isolated incidents.',
       'The valley adds water to the same storm, and the panel is nearly always in a low basement. Submerged equipment gets replaced rather than dried out, which on a street of closely spaced houses often means several neighbours needing the same two repairs at once. Lockland issues its own permits rather than going through Cincinnati or the county, and a small village queue moves quickly when the filing is right and slowly when it is not.',
@@ -74,7 +74,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   groesbeck: {
     intro:
-      'Hearing that Colerain has power back says little about your Groesbeck street, since Duke restores a township this large in sections. If the houses either side of you are lit, the storm damage is yours. We repair it and file with the township. Call (513) 586-5107.',
+      'Hearing that Colerain has power back after a storm says little about your Groesbeck street, since Duke restores a township this large in sections. If the houses either side of you are lit, the damage is on your equipment. We repair it and file with the township.',
     relevance: [
       'Groesbeck (ZIP 45239) is a settled Colerain Township community on the northwest side, largely mid-century single-family homes. Colerain is one of the largest townships in Ohio, and size is the thing that matters after a storm: Duke restores an area this big in sections, so hearing that "Colerain has power back" tells you essentially nothing about your street. The only comparison that helps is the two houses immediately either side of yours.',
       'Permits and inspections go through Colerain Township, which is a different authority again from Green Township on the west side, Springfield to the north, and any of the small cities nearby. The housing is uniformly of an era, so services here are mostly mid-century, many still original, sized for the loads of their time — and the trees planted with those subdivisions are now standing over the drops.',
@@ -91,7 +91,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   'mount-healthy': {
     intro:
-      'Mount Healthy has two sets of storm conditions within a short walk: close, tall buildings with old entrances in the town center, and wider lots with longer drops on the streets around it. We repair storm damage in both and handle the inspection. Call (513) 586-5107.',
+      'Storm damage in Mount Healthy comes in two kinds within a short walk: old entrances on close, tall buildings in the town center, and longer drops on the wider lots around it. We repair both and file Mount Healthy’s own permit rather than the county’s.',
     relevance: [
       'Mount Healthy (ZIP 45231) is a historic small city on the north side with a genuine old town center and streets of early-1900s and mid-century homes around it. That produces two distinct sets of conditions within a short walk. In the old core the buildings are close together and tall for their footprint, with service entrances that are frequently original or reworked once decades ago, and short overhead spans between them. On the newer streets around it the lots are wider, the drops longer, and the services mid-century.',
       'Both fail in storms, but not in the same way. The old core loses entrances to wind working on aged fixings; the newer streets lose drops and masts to limbs off full-grown subdivision trees. Mount Healthy issues its own permits rather than going through Hamilton County, and being a small city, the inspection queue is short when the paperwork is right.',
@@ -108,7 +108,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   reading: {
     intro:
-      'On Reading’s bridal-shop streets, one service often feeds a shop below and flats above, so storm damage takes a business and several homes off together. We repair those smaller commercial services and residential ones across the valley. Call (513) 586-5107.',
+      'On Reading’s bridal-shop streets, one service often feeds a shop below and flats above, so a storm outage takes a business and several homes off together. We repair those smaller commercial services with the building owner, plus residential ones and flooded panels across the valley.',
     relevance: [
       'Reading (ZIP 45215) is a city in the Mill Creek valley known for its bridal-shop district, and that commercial main street mixed into a residential city changes the kind of call we get here. Along the shopping streets the buildings frequently have a shop at ground level and flats above, which means one service entrance and a meter bank serving both a business and residential tenants. Storm damage there takes a shop and several homes off together, and the repair belongs to the building owner rather than to any of the occupants.',
       'It also means the timing pressure is different. A closed shop is losing money by the day in a way a dark house is not, and owners of mixed-use buildings are usually the fastest to authorise work — which is worth knowing if you rent a flat above one. The valley supplies the other half of the problem: low ground, water in basements, and panels that get replaced rather than dried out once they have been under.',
@@ -125,7 +125,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   dent: {
     intro:
-      'Dent sits near the western edge of the built-up area, where open ground gives wind a longer run before it reaches the first houses. Those homes take more storm damage to masts and meter bases than neighbours further in. We repair it and file with Green Township. Call (513) 586-5107.',
+      'Dent sits near the western edge of the built-up area, where open ground gives storm wind a longer run before it reaches the first houses. Those homes take more damage to masts and meter bases than neighbours further in. We repair it and file with Green Township.',
     relevance: [
       'Dent (ZIP 45247) is a Green Township community towards the western edge of the built-up area, in established mid-century and newer neighborhoods. Being near that edge matters for wind. Further in, the suburbs shelter each other — street after street of houses and mature trees breaks up a gust before it travels far. Out here the open ground to the west gives wind a longer run before it reaches the first houses, and the properties on that side take more of it than their neighbours a mile further in.',
       'The housing gives two answers. Mid-century streets are overhead, with services of that era and plenty still original. Newer building was frequently done with underground supply, and those houses have no mast or weatherhead to lose at all. We establish which arrangement your address has before quoting, since Duke schedules underground work with more lead time than overhead and the timelines are not comparable.',
@@ -142,7 +142,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   'deer-park': {
     intro:
-      'Limb damage to single houses is the routine storm call in Deer Park, where full-grown trees stand over the service drops. The city is small, so inspection capacity is limited too. We repair the mast or meter base and file on the city permit. Call (513) 586-5107.',
+      'Limb damage to single houses is the routine storm outage in Deer Park, where full-grown trees stand over the service drops. The city is small, so inspection capacity is limited too. We repair the mast or meter base and request the inspection alongside the work.',
     relevance: [
       'Deer Park (ZIP 45236) is a small, entirely residential city on the east side, made up largely of mid-century single-family homes on quiet streets. Two things follow from being small and residential. The trees planted when those streets were laid out are now full-grown and standing directly over the service drops, so limb damage to individual houses is the routine storm call rather than widespread failure. And the city has no commercial base to support a large municipal department, so the permit and inspection capacity is modest.',
       'That second point is what actually determines how long you are without power. The electrical repair is usually a day. After a storm that hit the whole region, every damaged property in the city is competing for a small number of inspection slots, which is why we book the inspection alongside scheduling the work rather than once it is finished. Deer Park also issues its own permits rather than going through the county — worth confirming before anything is filed.',
@@ -159,7 +159,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   'terrace-park': {
     intro:
-      'Mature hardwoods cover Terrace Park village-wide, and the limbs they drop in a storm are heavy enough to take a mast off a wall. We repair that damage near the Little Miami, plus water-damaged panels, and coordinate the reconnect. Call (513) 586-5107.',
+      'Mature hardwoods cover Terrace Park village-wide, and the limbs they drop in a storm are heavy enough to take a mast off a wall. We repair that damage near the Little Miami, replace water-damaged low panels, and coordinate the reconnect.',
     relevance: [
       'Terrace Park (ZIP 45174) is an east-side village near the Little Miami, known for established early-1900s homes and a tree canopy that covers the village rather than lining a street or two. That canopy is the reason storm damage here is so consistently limb-related. Overhead drops run under mature hardwoods on nearly every street, and the trees are old enough that what comes down is heavy — not the twig fall that clears itself, but limbs with enough mass to take a mast off a wall.',
       'The river adds the second hazard to the low-lying parts of the village. The Little Miami has a steep catchment and responds quickly to heavy rain, so water can arrive during the same storm rather than a day later. Where a panel sits low and has been under, it is replaced rather than dried out. On the older houses the entrance also frequently sits high or passes through the roof, which makes the flashing and the seal part of the electrical repair.',
@@ -176,7 +176,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   'dry-run': {
     intro:
-      'In Dry Run, homes in the low pockets along the creek can flood while houses a few streets up stay dry. We repair storm damage of either kind: water at the panel down low, or a damaged mast or meter base on higher ground. Call (513) 586-5107.',
+      'In Dry Run, a storm can flood homes in the low pockets along the creek while houses a few streets up stay dry. We repair either kind of damage: water at the panel down low, or a damaged mast or meter base on higher ground.',
     relevance: [
       'Dry Run (ZIP 45244) takes its name from the creek that runs through this part of Anderson Township, and the creek is the thing that decides your storm exposure here. The community is mostly mid-century and newer housing on ordinary suburban lots, but the ground is not uniform — properties in the low pockets along the run behave completely differently in heavy rain from those on the higher ground a few streets away. Two houses in the same neighborhood can have entirely different problems from the same storm.',
       'On the higher ground the failure mode is overhead: limbs onto drops, masts pulled out of true, weatherheads no longer shedding water. In the low pockets it is the panel, because water reaches basements and submerged electrical equipment gets replaced rather than dried out. Anderson Township handles the permit and inspection, and it is a large township, so restoration proceeds in sections after a major event.',
@@ -193,7 +193,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   'white-oak': {
     intro:
-      'Oaks shed less often than maples, but when one lets go of a limb in White Oak it is heavy enough to take the mast rather than just pull the cable. We repair that storm damage and handle the inspection. Call (513) 586-5107.',
+      'Oaks shed less often than maples, but when one drops a limb in a White Oak storm it is heavy enough to take the mast rather than just pull the cable. We rebuild those service entrances, file with Green Township and handle the inspection.',
     relevance: [
       'White Oak (ZIP 45247) is a settled Green Township community on the northwest side, largely mid-century and newer single-family homes, and the name reflects what is actually growing here. Oaks are the heaviest common shade tree in this region — dense, hard wood that does not shed small branches the way a maple or an ash does. When an oak gives up a limb it gives up something substantial, and a substantial limb landing on a service drop takes the mast rather than just pulling the cable.',
       'That is why the repairs here tend to be full entrance rebuilds rather than adjustments. The mid-century housing means many of those entrances were original and already at the end of their useful life before anything landed on them. Green Township handles the permit and inspection, and where the newer sections were built with underground supply there is no mast to lose in the first place — worth establishing which you have before we quote.',
@@ -210,7 +210,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   forestville: {
     intro:
-      'Forestville has an older village core inside Anderson Township, so service ages vary more here than in the newer subdivisions around it. We check what you have, repair the storm-damaged mast or meter base and handle the inspection. Call (513) 586-5107.',
+      'Storm repairs in Forestville start with judging the service’s age, because the older village core inside Anderson Township has entrances decades older than the subdivisions around it. We check whether the whole assembly is sound, then repair the mast or meter base and handle the inspection.',
     relevance: [
       'Forestville (ZIP 45230) is one of the older parts of Anderson Township, with a genuine village core rather than being purely post-war subdivision, and that gives it a wider spread of service ages than the newer communities around it. On the older streets near the core the entrances can be decades older than anything in the surrounding developments, sometimes original and sometimes reworked once a long time ago. A few streets away the housing is straightforwardly mid-century or newer.',
       'For a storm repair that means the assessment matters more here than the labour does. An entrance that is genuinely original needs judging on whether the whole assembly is sound rather than only fixing what visibly broke, because Duke inspects what they reconnect to and a patch on tired equipment fails the same way in the next storm. Anderson Township handles permits and inspections, and it is large enough that restoration runs in sections.',
@@ -227,7 +227,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   'cherry-grove': {
     intro:
-      'Newer sections of Cherry Grove are fed underground, with no mast or weatherhead to lose, while the mid-century streets are still overhead. Storm damage looks different on each, and we repair both, from masts and meter bases to surge-damaged panels. Call (513) 586-5107.',
+      'Newer sections of Cherry Grove are fed underground, with no mast or weatherhead to lose in a storm, while the mid-century streets are still overhead. The damage looks different on each, and we repair both, from masts and meter bases to surge-damaged panels.',
     relevance: [
       'Cherry Grove (ZIP 45230) is an Anderson Township community of mid-century and newer single-family homes, and the newer sections are the part worth understanding. A good deal of the recent building here was done with underground supply, which removes the mast and weatherhead entirely — the two things that account for most storm damage to residential service. Those houses lose power when the utility does, or to a fault at the meter base, in the underground run, or from surge damage inside the panel.',
       'The mid-century streets are conventional overhead, with services of their era and subdivision trees now standing over the drops. So on the same road you can have one house needing a full entrance rebuild and another that was never going to lose one. We ask which you have on the phone, because it changes what we bring and how the reconnect is scheduled — Duke handles underground work with more lead time than overhead.',
@@ -244,7 +244,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   kenwood: {
     intro:
-      'There is no city of Kenwood, so permits for a storm repair go through the township and county, not a municipal office like Deer Park’s. We file it correctly, repair the damaged mast or meter base and coordinate the reconnect. Call (513) 586-5107.',
+      'There is no city of Kenwood, so permits for a storm repair go through the township and county, not a municipal office like Deer Park’s. We file it correctly, repair the damaged mast or meter base and coordinate the Duke reconnect.',
     relevance: [
       'Kenwood (ZIP 45236) is an upscale unincorporated community around Kenwood Towne Centre, and the unincorporated part surprises people. There is no city of Kenwood — the area is governed at township and county level, so permits and inspections do not go through a municipal office the way they do in Deer Park or Silverton a couple of miles away. An electrician who assumes Kenwood works like the small cities around it files in the wrong place and costs you a day.',
       'The housing is mid-century homes alongside newer, larger houses, and the larger ones carry the usual exposure of a big house on a treed lot: long overhead drops, high service entrances, and a great deal of equipment inside on control boards. Being next to a major retail centre also means the circuits through parts of Kenwood serve substantial commercial load, and commercial restoration priorities do not always match residential streets.',
@@ -261,7 +261,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   'lincoln-heights': {
     intro:
-      'Lincoln Heights is its own village, one of the first self-governed Black municipalities in the northern United States, and storm repair permits go through it rather than the county. We file there and repair damaged masts, meter bases and flooded panels. Call (513) 586-5107.',
+      'Lincoln Heights is its own village, one of the first self-governed Black municipalities in the northern United States, and storm repair permits go through it rather than the county. We file there and repair damaged masts, meter bases and flooded panels.',
     relevance: [
       'Lincoln Heights (ZIP 45215) is a historic Mill Creek valley community and one of the first self-governed Black municipalities in the northern United States. Being its own village matters practically as well as historically: permits and inspections go through Lincoln Heights rather than Cincinnati or Hamilton County, and an electrician filing out of habit with the county will cost you time you do not have after a storm.',
       'The housing is older and modest, which means the original electrical services were small — sized for a house with a few lights and little else — and many are still in place. When a storm damages an already-minimal service, rebuilding it exactly as it was puts you back on something that was inadequate before the storm. The valley adds water: low ground, basements that take it, and panels that get replaced rather than dried out once submerged. We look at both ends of the system in one visit.',
@@ -278,7 +278,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   dillonvale: {
     intro:
-      'Four or five permit authorities meet within a couple of miles around Dillonvale, and storm repairs here go through Sycamore Township. We confirm that for your address, repair the mast or meter base and coordinate the Duke reconnect. Call (513) 586-5107.',
+      'Storm repairs around Dillonvale go through Sycamore Township, even though four or five permit authorities meet within a couple of miles. We confirm that for your address, repair the damaged mast or meter base and coordinate the Duke reconnect once the lines near you are back.',
     relevance: [
       'Dillonvale (ZIP 45236) is a Sycamore Township community on the east side just beyond Kenwood, in settled mid-century neighborhoods. The permit goes through Sycamore Township — not through Kenwood, which is unincorporated and handled differently, and not through Deer Park or Silverton, which are their own cities. On this part of the east side four or five authorities meet inside a couple of miles, and confirming which one your address falls under is the first thing that should happen.',
       'Being adjacent to the commercial density around Kenwood has a second effect. Circuits through this area carry retail and office load as well as houses, and commercial restoration is not always sequenced the same way as residential streets — so the lines near you may come back sooner or later than the pattern you would expect. What does not change is that once they are back, a damaged mast or meter box on your house still stops the reconnect until it is repaired and inspected.',
@@ -295,7 +295,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   woodlawn: {
     intro:
-      'Industrial circuits through Woodlawn are often restored early, so lines near you may come back before you expect. If your house is still dark then, the storm damage is on your mast, meter base or panel, and we repair it on the village permit. Call (513) 586-5107.',
+      'Industrial circuits through Woodlawn are often restored early after a storm, so lines near you may come back before you expect. If your house is still dark then, the damage is on your mast, meter base or panel, and we repair it on the village permit.',
     relevance: [
       'Woodlawn (ZIP 45215) is a Mill Creek valley village with residential streets alongside substantial industrial corridors — a lot of industry relative to the size of the village. That ratio affects restoration. Circuits serving significant industrial load are often prioritised, which can mean the lines near you come back sooner than a purely residential village would expect. It is genuinely good news, and it is also why homeowners here get caught waiting.',
       'When the lines come back quickly and one house stays dark, the remaining fault is on that homeowner’s own equipment, and Duke cannot reconnect to a damaged mast or meter box no matter how fast they restored the line. The valley supplies the other half: low ground, water in basements, and a panel that has been submerged gets replaced rather than dried out. Woodlawn issues its own permits rather than going through the county.',
@@ -312,7 +312,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   addyston: {
     intro:
-      'Addyston is at the far western end of where we work, an old mill town on the river where restoration arrives late and water reaches basement panels. We repair storm-damaged masts, meter bases and flooded panels and file on the village permit. Call (513) 586-5107.',
+      'Addyston is at the far western end of where we work, an old mill town on the river where storm restoration arrives late and water reaches basement panels. We repair damaged masts and meter bases, replace flooded panels and file on the village permit.',
     relevance: [
       'Addyston (ZIP 45001) is a small village at the far western end of our service area, an old mill town on the Ohio River with closely spaced worker homes. Two things about that position matter after a storm. Being at the edge means that in a regional event this is among the later areas reached — restoration works outward, and there is not much out here to work outward to. And being on the river means water, in basements where the panels are.',
       'The housing is century-old worker homes on narrow lots, so the services are old and small, the spans between houses are short, and one falling tree reaches several properties at once. Submerged panels are replaced rather than dried out, and on a street where several neighbours have the same two problems, calling early makes a real difference. Addyston issues its own permits rather than going through the county.',
@@ -329,7 +329,7 @@ export const part7: Record<string, LocationServiceCopy> = {
 
   greenhills: {
     intro:
-      'The original Greenhills Greenbelt village is a National Historic Landmark district, so a storm-damaged mast, conduit or meter box has to look right from the street as well as pass inspection. We repair them on the 1930s cottages and townhomes. Call (513) 586-5107.',
+      'The original Greenhills Greenbelt village is a National Historic Landmark district, so a storm-damaged mast, conduit or meter box has to look right from the street as well as pass inspection. We repair them on the 1930s cottages and townhomes, confirming who owns shared walls first.',
     relevance: [
       'Greenhills (ZIP 45218) is one of only a handful of Greenbelt towns built as New Deal projects in the 1930s, and the original village is a National Historic Landmark district with its cottages and townhomes still in use. That designation puts it in the same category as Mariemont for a service repair: the mast, its conduit, and the meter box are all visible exterior, so what a repair looks like from the outside is a real constraint rather than an afterthought.',
       'The 1930s townhomes add a second complication. Where houses share walls, the service entrance is frequently on a party wall or a shared elevation, and several units may run from one arrangement — so one storm can take out more than one household and the repair belongs to whoever owns that wall. The original services were also small, built for a 1930s cottage, and many are still in place. We establish the designation constraints and the ownership before quoting anything.',

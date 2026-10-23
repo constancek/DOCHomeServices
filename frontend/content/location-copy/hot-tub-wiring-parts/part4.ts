@@ -1,6 +1,6 @@
 export const part4: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'reading': {
-    intro: 'After heavy rain, patios in Reading’s part of the Mill Creek valley often hold standing water. That is exactly why your hot tub wiring needs weather-rated conduit and a GFCI disconnect within sight of the spa. Call (513) 586-5107.',
+    intro: 'Hot tub wiring in Reading starts with the panel, since many older and mid-century homes in this Mill Creek valley city run smaller service that was never sized for a spa heater and pump. Patios here often hold standing water after rain, so the circuit goes in weather-rated conduit.',
     relevance: [
       'Reading (ZIP 45215) is a city in the Mill Creek valley north of Cincinnati, with a settled mix of older and mid-century homes. Houses of that age often run smaller service panels that were never sized for a spa’s heater and pump, so the first step in any hot tub job here is confirming the panel can carry the added 240-volt load.',
       'The low valley ground means standing water and wet patios are common after heavy rain, which is exactly why a spa circuit out here needs weather-rated conduit, proper bonding and grounding, and a GFCI disconnect within sight of the tub. We evaluate the panel, run the dedicated circuit, and wire it all to code.',
@@ -9,7 +9,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can an older Reading home handle a hot tub circuit?', a: 'Often yes, but many homes in the Mill Creek valley run smaller panels, so we evaluate the service first. If there is capacity we run the dedicated 240-volt GFCI circuit to code; if not, we explain an upgrade before any work begins.' }],
   },
   'dent': {
-    intro: 'A hot tub in Dent draws a steady 240-volt load through its heater and pump, all while sitting outdoors. We wire the spa for both, on a dedicated circuit in weather-rated conduit. Call (513) 586-5107.',
+    intro: 'A hot tub in Dent draws a steady 240-volt load through its heater and pump, and the mid-century panels in this Green Township community often have little headroom. We check capacity before sizing the circuit, then run it in weather-rated conduit with bonding and a GFCI disconnect.',
     relevance: [
       'Dent (ZIP 45247) is a Green Township community on the west side, with established neighborhoods of mid-century and newer single-family homes. Those backyards and patios are well suited to a spa, but mid-century panels often have little headroom left, so we check capacity before sizing the circuit.',
       'A hot tub draws a steady 240-volt load through both its heater and pump, and it sits outdoors in the weather. That means weather-rated conduit, bonding and grounding done right, and a GFCI disconnect mounted within sight of the tub. We handle the licensed work end to end.',
@@ -18,7 +18,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How fast can you wire a hot tub in Dent?', a: 'Dent is well within our west-side service area in Green Township. We evaluate the panel, run the dedicated 240-volt GFCI circuit, and complete the bonding and disconnect to code.' }],
   },
   'deer-park': {
-    intro: 'Compact Deer Park backyards keep the tub close to the house, which keeps the circuit run short. It also makes the GFCI disconnect placement matter more in your hot tub wiring. Call (513) 586-5107.',
+    intro: 'Compact Deer Park backyards keep a hot tub close to the house, which keeps the run short but makes the GFCI disconnect placement matter more. The mid-century panels may have no spare capacity, so we start with a load evaluation before the dedicated 240-volt circuit goes in.',
     relevance: [
       'Deer Park (ZIP 45236) is a small, settled city on the east side, made up largely of mid-century single-family homes on quiet streets. Homes of that era are at the age where the original panel may have no spare capacity for a spa, so we start with a load evaluation.',
       'The compact backyards common here put the tub close to the house, which keeps the circuit run short but makes the GFCI disconnect placement and weather-rated conduit all the more important. We size the dedicated circuit, bond the spa, and install the disconnect within sight as the code requires.',
@@ -27,7 +27,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can a mid-century Deer Park home support a hot tub?', a: 'Usually, but older Deer Park panels often have little spare capacity, so we evaluate the service first. We then run the dedicated 240-volt GFCI circuit and complete the bonding to code.' }],
   },
   'terrace-park': {
-    intro: 'Low ground near the Little Miami keeps things damp around an outdoor tub in Terrace Park. Spa wiring there gets weather-rated conduit and careful grounding, with a GFCI disconnect within sight of the water. Call (513) 586-5107.',
+    intro: 'Larger Terrace Park homes near the Little Miami often have decks built for a hot tub and already carry several 240-volt loads, so we evaluate the panel before adding one more. The low ground near the river stays damp, which calls for weather-rated conduit and careful grounding.',
     relevance: [
       'Terrace Park (ZIP 45174) is an affluent east-side village near the Little Miami River, known for its established early-1900s homes and tree-lined streets. Larger homes here often have decks and patios built for a spa, and frequently carry other 240-volt loads already, so we evaluate the panel to be sure it can take one more.',
       'The low ground near the river means damp conditions are common around an outdoor tub, which makes weather-rated conduit, careful bonding and grounding, and a GFCI disconnect within sight non-negotiable. We handle the licensed install from panel to disconnect.',
@@ -36,7 +36,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Do you wire hot tubs on larger Terrace Park properties?', a: 'Yes. Larger Terrace Park homes often already run several 240-volt loads, so we evaluate the panel first, then run the dedicated GFCI spa circuit with weather-rated conduit and a code-compliant disconnect.' }],
   },
   'dry-run': {
-    intro: 'Dry Run hot tubs run outdoors all year in Anderson Township. The spa wiring needs weather-rated conduit and proper bonding of the tub’s metal parts, with a GFCI disconnect mounted in sight. Call (513) 586-5107.',
+    intro: 'Dry Run’s roomy backyards in Anderson Township suit a hot tub, but even newer panels get a load check before the spa circuit goes in. The tub runs outdoors year-round, so we use weather-rated conduit, bond its metal parts and mount the GFCI disconnect in sight.',
     relevance: [
       'Dry Run (ZIP 45244) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. The roomy backyards here are a natural fit for a spa, but even newer panels need a load check before a hot tub circuit is added.',
       'A spa runs outdoors year-round, so the circuit calls for weather-rated conduit, proper bonding of the tub’s metal parts, and a GFCI disconnect mounted within sight. We size the dedicated 240-volt circuit and complete the licensed work to code.',
@@ -45,7 +45,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How fast can you wire a hot tub in Dry Run?', a: 'Dry Run is well within our east-side service area in Anderson Township. We evaluate the panel, run the dedicated 240-volt GFCI circuit, and complete the bonding and disconnect to code.' }],
   },
   'white-oak': {
-    intro: 'Because a White Oak hot tub lives outdoors, its wiring needs weather-rated conduit and correct bonding. We also add a GFCI disconnect within sight of the spa. Call (513) 586-5107.',
+    intro: 'White Oak homes have the patio and yard space a hot tub needs, but mid-century panels in this Green Township community often have limited room for the 240-volt load. We evaluate the service first. Because the tub lives outdoors, the circuit gets weather-rated conduit and correct bonding.',
     relevance: [
       'White Oak (ZIP 45247) is a settled Green Township community on the northwest side, made up largely of mid-century and newer single-family homes. Those homes have the patio and yard space a spa needs, but mid-century panels often have limited room for the added 240-volt load.',
       'Because the tub lives outdoors, the circuit needs weather-rated conduit, bonding and grounding done correctly, and a GFCI disconnect within sight of the spa. We evaluate the panel first, then run the dedicated circuit and wire the disconnect to code.',
@@ -54,7 +54,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can a White Oak home support a hot tub circuit?', a: 'Often yes, but many White Oak panels are decades old and may have little spare capacity, so we evaluate the service first, then run the dedicated 240-volt GFCI circuit to code.' }],
   },
   'forestville': {
-    intro: 'Forestville homeowners in Anderson Township put spas on decks and backyard pads alike. Either way, the heater and pump pull sustained 240-volt current, and the hot tub wiring has to be built for it outdoors. Call (513) 586-5107.',
+    intro: 'Forestville homeowners in Anderson Township put hot tubs on decks and backyard pads alike. Homes here are at the age where the panel should be checked before the load goes on. The heater and pump pull sustained 240-volt current, so the outdoor wiring is built for it.',
     relevance: [
       'Forestville (ZIP 45230) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. The backyards here suit a spa well, and homes of this age are at the point where the panel should be checked before a hot tub load is added.',
       'A spa heater and pump pull a sustained 240-volt current outdoors, so the install needs weather-rated conduit, proper bonding, and a GFCI disconnect within sight of the tub. We handle the licensed work from the panel out.',
@@ -63,7 +63,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How fast can you wire a hot tub in Forestville?', a: 'Forestville is well within our east-side service area in Anderson Township. We evaluate the panel, run the dedicated 240-volt GFCI circuit, and complete the bonding and disconnect to code.' }],
   },
   'cherry-grove': {
-    intro: 'Whatever the weather in Cherry Grove, a hot tub sits outside in it. We wire the spa with weather-rated conduit and careful grounding, plus a GFCI disconnect within sight. Call (513) 586-5107.',
+    intro: 'Cherry Grove homes usually have the yard and patio space a hot tub calls for, but many still run original service, so the panel gets checked first. The tub sits outside in all weather, so we wire it in weather-rated conduit with careful grounding and a GFCI disconnect.',
     relevance: [
       'Cherry Grove (ZIP 45230) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. These homes typically have the yard and patio space a spa calls for, but the existing panel still needs a load check before the circuit is added.',
       'Because a hot tub sits outdoors in all weather, its circuit needs weather-rated conduit, careful bonding and grounding, and a GFCI disconnect within sight of the tub. We size the dedicated 240-volt circuit and complete the licensed install to code.',
@@ -72,7 +72,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can a Cherry Grove home handle a hot tub circuit?', a: 'Usually, but we evaluate the panel first, since many Cherry Grove homes still run their original service. We then run the dedicated 240-volt GFCI circuit and bond the spa to code.' }],
   },
   'kenwood': {
-    intro: 'Deck or backyard pad, a Kenwood spa needs weather-rated conduit and a GFCI disconnect within sight. We handle that hot tub wiring for mid-century and newer homes near Kenwood Towne Centre. Call (513) 586-5107.',
+    intro: 'Larger Kenwood homes near Kenwood Towne Centre often run several 240-volt loads already, so a hot tub starts with a panel evaluation before one more goes on. Deck or backyard pad, the spa then gets weather-rated conduit, proper bonding and a GFCI disconnect within sight.',
     relevance: [
       'Kenwood (ZIP 45236) is an upscale, unincorporated community on the east side around Kenwood Towne Centre, with mid-century homes alongside newer, larger houses. The larger homes often carry several 240-volt loads already, and many have decks or patios suited to a spa, so we evaluate the panel before adding a hot tub circuit.',
       'A spa needs weather-rated conduit, proper bonding and grounding, and a GFCI disconnect mounted within sight of the tub, whether it sits on a deck or a backyard pad. We confirm panel capacity, run the dedicated circuit, and wire the disconnect to code.',
@@ -81,7 +81,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Do you wire hot tubs in the larger Kenwood homes?', a: 'Yes. Larger Kenwood homes often already run multiple 240-volt loads, so we evaluate the panel first, then run the dedicated spa circuit with weather-rated conduit and a code-compliant disconnect.' }],
   },
   'lincoln-heights': {
-    intro: 'Lincoln Heights, one of the first self-governed Black municipalities in the northern United States, sits on low Mill Creek ground that stays damp after rain. Hot tub wiring there needs careful bonding and a GFCI disconnect in sight. Call (513) 586-5107.',
+    intro: 'Lincoln Heights, one of the first self-governed Black municipalities in the northern United States, has older, modest homes with smaller panels, so hot tub wiring starts with a load evaluation. The low Mill Creek ground stays damp after rain, which makes careful bonding and a GFCI disconnect matter.',
     relevance: [
       'Lincoln Heights (ZIP 45215) is a historic community in the Mill Creek valley north of the city — one of the first self-governed Black municipalities in the northern United States — with older, modest homes. Those homes often run smaller, older service panels, so the first step in a hot tub job here is a load evaluation.',
       'The low valley ground stays damp after heavy rain, which makes weather-rated conduit, careful bonding of the spa, and a GFCI disconnect within sight all the more important for an outdoor tub. We handle the licensed install from the panel out.',
@@ -90,7 +90,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can an older Lincoln Heights home support a hot tub?', a: 'Often, but many homes in the valley run smaller, older panels, so we evaluate the service first. If there is capacity we run the dedicated 240-volt GFCI circuit to code; if not, we explain an upgrade up front.' }],
   },
   'dillonvale': {
-    intro: 'Dillonvale’s mid-century homes near Kenwood can take a hot tub when the wiring is done right. That means a sustained 240-volt circuit in weather-rated conduit, with the spa disconnect mounted within sight. Call (513) 586-5107.',
+    intro: 'Dillonvale’s mid-century homes near Kenwood can take a hot tub when the wiring is done right. The original panels often have little headroom, so we check capacity first. Then the sustained 240-volt circuit goes in weather-rated conduit with bonding and a disconnect within sight.',
     relevance: [
       'Dillonvale (ZIP 45236) is a Sycamore Township community on the east side near Kenwood, with settled neighborhoods of mid-century homes. Homes of that era are at the age where the original panel often has little headroom, so we check capacity before adding a spa circuit.',
       'A hot tub runs a sustained 240-volt load outdoors, which calls for weather-rated conduit, proper bonding and grounding, and a GFCI disconnect mounted within sight of the tub. We evaluate the panel, run the dedicated circuit, and complete the licensed work to code.',
@@ -99,7 +99,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How fast can you wire a hot tub in Dillonvale?', a: 'Dillonvale is well within our east-side service area near Kenwood. We evaluate the panel, run the dedicated 240-volt GFCI circuit, and complete the bonding and disconnect to code.' }],
   },
   'woodlawn': {
-    intro: 'Wet ground around an outdoor tub is common in Woodlawn, down in the Mill Creek valley. We wire the spa with weather-rated conduit and proper bonding, and place the GFCI disconnect where you can see it. Call (513) 586-5107.',
+    intro: 'Wet ground around an outdoor hot tub is common in Woodlawn, down in the Mill Creek valley. The older homes there often run aging panels, so we confirm the service can take the spa first, then wire it in weather-rated conduit with proper bonding and a visible GFCI disconnect.',
     relevance: [
       'Woodlawn (ZIP 45215) is a village in the Mill Creek valley north of the city, with a mix of residential streets and industrial corridors. The older homes here often run aging service panels, so a hot tub job starts with a load evaluation to confirm the panel can take the spa.',
       'The low valley ground means wet conditions around an outdoor tub are common, which makes weather-rated conduit, proper bonding, and a GFCI disconnect within sight essential. We size the dedicated 240-volt circuit and wire it all to code.',
@@ -108,7 +108,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can a Woodlawn home support a hot tub circuit?', a: 'Often yes, but many older homes in the valley run aging panels, so we evaluate the service first, then run the dedicated 240-volt GFCI circuit and bond the spa to code.' }],
   },
   'addyston': {
-    intro: 'Addyston is an old mill town on the Ohio River, where damp ground and high water are real concerns. Spa wiring there gets weather-rated conduit and a GFCI disconnect within sight of the hot tub. Call (513) 586-5107.',
+    intro: 'Addyston is an old mill town on the Ohio River, and its century-old worker homes tend to have small, dated panels, so hot tub wiring starts with a capacity check. Damp ground and high water are real concerns there, so the circuit gets weather-rated conduit and a GFCI disconnect.',
     relevance: [
       'Addyston (ZIP 45001) is a small village on the far west side along the Ohio River, an old mill town with closely spaced older worker homes. Century-old homes here tend to run small, dated panels, so the first step in a spa install is confirming the service can carry a 240-volt heater and pump.',
       'Its riverside position means damp ground and high water are real concerns, so an outdoor spa circuit out here needs weather-rated conduit, careful bonding and grounding, and a GFCI disconnect within sight of the tub. We handle the licensed work from panel to disconnect.',
@@ -117,7 +117,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can an older Addyston home handle a hot tub?', a: 'Often the panel needs review first, since many of Addyston’s century-old homes run small, dated service. We evaluate capacity, then run the dedicated 240-volt GFCI circuit with weather-rated conduit to code.' }],
   },
   'greenhills': {
-    intro: 'Greenhills was built in the 1930s as a New Deal Greenbelt town, and its original lots are compact. We plan the hot tub wiring to fit the lot without disturbing the historic character. Call (513) 586-5107.',
+    intro: 'Greenhills was built in the 1930s as a New Deal Greenbelt town, and its original homes almost always carry dated panels, so a hot tub starts with a load evaluation. The lots are compact, and we plan the spa circuit to fit without disturbing the historic character.',
     relevance: [
       'Greenhills (ZIP 45218) is a historic planned "Greenbelt" town built in the 1930s as a New Deal project, now a National Historic Landmark district, with its original cottages and townhomes still in use. Homes that old almost always carry dated service panels, so a hot tub job here begins with a load evaluation.',
       'A spa needs weather-rated conduit, proper bonding of its metal parts, and a GFCI disconnect within sight, and on these compact original lots we plan the run to fit without disturbing the historic character. We confirm panel capacity and wire the dedicated circuit to code.',
@@ -126,7 +126,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can a historic Greenhills home support a hot tub circuit?', a: 'Often the original panel needs review first, since these 1930s Greenbelt homes carry dated service. We evaluate capacity, then run the dedicated 240-volt GFCI circuit to code without disturbing the historic character.' }],
   },
   'northbrook': {
-    intro: 'Northbrook is a Colerain Township community of mid-century homes, and its hot tubs sit outdoors in all weather. We wire each spa with weather-rated conduit and a GFCI disconnect within sight. Call (513) 586-5107.',
+    intro: 'Northbrook is a Colerain Township community of mid-century homes with backyards a hot tub calls for. Those decades-old panels often have limited capacity, so we check the load first. The tub sits outdoors in all weather, so the circuit gets weather-rated conduit and a GFCI disconnect.',
     relevance: [
       'Northbrook (ZIP 45251) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. Those homes have the backyards a spa calls for, but mid-century panels often have limited capacity, so we check the load before adding a hot tub circuit.',
       'Because the tub sits outdoors in the weather, its circuit needs weather-rated conduit, proper bonding and grounding, and a GFCI disconnect within sight. We evaluate the panel, run the dedicated 240-volt circuit, and complete the licensed install to code.',
@@ -135,7 +135,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can a Northbrook home support a hot tub circuit?', a: 'Often yes, but many Northbrook panels are decades old, so we evaluate the service first, then run the dedicated 240-volt GFCI circuit and bond the spa to code.' }],
   },
   'indian-hill': {
-    intro: 'On a multi-acre Indian Hill lot, the spa can sit a long way from the house. We size the conductors and conduit for that distance, then finish the hot tub wiring with a GFCI disconnect in sight. Call (513) 586-5107.',
+    intro: 'On a multi-acre Indian Hill lot, a hot tub can sit a long way from the house, and estate homes often run several 240-volt loads already. We evaluate panel capacity, size the conductors and conduit for the longer run and finish with a GFCI disconnect within sight of the spa.',
     relevance: [
       'Indian Hill (ZIP 45243) is an affluent east-side village known for its large estates and homes on multi-acre, wooded lots, many set well back from the road. Estate homes frequently run several 240-volt loads already and place spas far from the panel, so we evaluate capacity and plan the circuit run carefully.',
       'A long run across a large property means we size the conductors and conduit for the distance, use weather-rated hardware, and bond and ground the spa correctly, with a GFCI disconnect within sight of the tub. We handle the licensed work end to end.',
@@ -144,7 +144,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Do you wire hot tubs on the large Indian Hill estates?', a: 'Yes. Estate properties often place the spa far from the panel and already carry several 240-volt loads, so we evaluate capacity, size the longer run, and install the dedicated GFCI circuit and disconnect to code.' }],
   },
   'evendale': {
-    intro: 'Evendale is known for GE Aerospace, but its residential streets have plenty of backyards for a hot tub. We wire the spa for year-round outdoor use, with weather-rated conduit and proper bonding. Call (513) 586-5107.',
+    intro: 'Evendale is known for GE Aerospace, but its mid-century residential streets have plenty of backyards for a hot tub. We check the panel’s capacity before adding the 240-volt load, then wire the spa for year-round outdoor use with weather-rated conduit, proper bonding and a GFCI disconnect.',
     relevance: [
       'Evendale (ZIP 45241) is a north-side village with a large industrial base, including GE Aerospace, alongside established residential neighborhoods. The mid-century homes here have the yard space a spa needs, and we check the panel’s capacity before adding the 240-volt load.',
       'A hot tub runs outdoors year-round, so its circuit needs weather-rated conduit, proper bonding, and a GFCI disconnect within sight of the tub. We evaluate the panel, run the dedicated circuit, and complete the licensed install to code.',
@@ -153,7 +153,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How fast can you wire a hot tub in Evendale?', a: 'Evendale is well within our north-side service area. We evaluate the panel, run the dedicated 240-volt GFCI circuit, and complete the bonding and disconnect to code.' }],
   },
   'glendale': {
-    intro: 'Glendale is a National Historic Landmark railroad suburb with preserved Victorian homes. When we wire a hot tub on one of those properties, the spa circuit is planned to respect the house. Call (513) 586-5107.',
+    intro: 'Glendale is a National Historic Landmark railroad suburb, and its preserved Victorian homes often carry dated service panels, so a hot tub starts with a load evaluation. On those properties we plan the spa circuit to respect the house, then run it to code with a GFCI disconnect.',
     relevance: [
       'Glendale (ZIP 45246) is a historic village and one of the country’s earliest planned railroad suburbs — a National Historic Landmark — known for its preserved Victorian homes and winding, tree-lined streets. Those 19th-century homes often carry dated service panels, so a spa install here begins with a load evaluation.',
       'On these older properties we plan a circuit that respects the home’s character, using weather-rated conduit, proper bonding and grounding, and a GFCI disconnect within sight of the tub. We confirm panel capacity and wire the dedicated 240-volt circuit to code.',
@@ -162,7 +162,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can a historic Glendale home support a hot tub circuit?', a: 'Often the original panel needs review first, since Glendale’s Victorian homes carry dated service. We evaluate capacity, then run the dedicated 240-volt GFCI circuit to code with care for the historic character.' }],
   },
   'sharonville': {
-    intro: 'Near Sharon Woods, Sharonville’s residential neighborhoods have room for a backyard hot tub. Since it sits outdoors, the spa wiring goes in weather-rated conduit with a GFCI disconnect within sight. Call (513) 586-5107.',
+    intro: 'Near Sharon Woods, Sharonville’s mid-century neighborhoods have room for a backyard hot tub, and those homes are at the age where the panel should be checked before a 240-volt load goes on. The spa sits outdoors, so the wiring goes in weather-rated conduit with a visible GFCI disconnect.',
     relevance: [
       'Sharonville (ZIP 45241) is a north-side city near Sharon Woods, with a mix of established residential neighborhoods, the convention center, and industrial corridors. The mid-century homes here are at the age where the panel should be checked before a spa’s 240-volt load is added.',
       'Because a hot tub sits outdoors in the weather, its circuit needs weather-rated conduit, proper bonding, and a GFCI disconnect within sight of the tub. We evaluate the panel, run the dedicated circuit, and complete the licensed work to code.',
@@ -171,7 +171,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How fast can you wire a hot tub in Sharonville?', a: 'Sharonville is well within our north-side service area. We evaluate the panel, run the dedicated 240-volt GFCI circuit, and complete the bonding and disconnect to code.' }],
   },
   'northgate': {
-    intro: 'Northgate homes around the mall corridor in Colerain Township range from mid-century to newer. Whatever the age, a hot tub heater and pump pull steady 240-volt current, and we wire the spa for it outdoors. Call (513) 586-5107.',
+    intro: 'Northgate homes around the mall corridor in Colerain Township range from mid-century to newer, and the older panels often have limited headroom for a hot tub. We check the load first. The heater and pump pull steady 240-volt current outdoors, so the circuit is built for it.',
     relevance: [
       'Northgate (ZIP 45251) is a Colerain Township area on the northwest side around the Northgate Mall corridor, with neighborhoods of mid-century and newer homes. The backyards here suit a spa well, but mid-century panels often have limited headroom, so we check the load before adding a hot tub circuit.',
       'A spa heater and pump pull a steady 240-volt current outdoors, so the install needs weather-rated conduit, proper bonding and grounding, and a GFCI disconnect within sight of the tub. We size the dedicated circuit and complete the licensed work to code.',
@@ -180,7 +180,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can a Northgate home support a hot tub circuit?', a: 'Often yes, but many Northgate panels are decades old, so we evaluate the service first, then run the dedicated 240-volt GFCI circuit and bond the spa to code.' }],
   },
   'springdale': {
-    intro: 'Springdale has a big Tri-County commercial base, but its mid-century neighborhoods are where the hot tubs go. We wire each spa for year-round outdoor use, with proper bonding and a GFCI disconnect in sight. Call (513) 586-5107.',
+    intro: 'Springdale has a big Tri-County commercial base, but its mid-century neighborhoods are where the hot tubs go. Panels there often have little spare capacity, so we evaluate the load first, then wire the spa for year-round outdoor use with proper bonding and a GFCI disconnect in sight.',
     relevance: [
       'Springdale (ZIP 45246) is a north-side city along the Tri-County corridor, with established mid-century neighborhoods alongside a large commercial and retail base. The mid-century homes here are at the age where the panel often has little spare capacity, so we evaluate the load before adding a spa.',
       'A hot tub runs outdoors year-round, so its circuit needs weather-rated conduit, proper bonding, and a GFCI disconnect within sight of the tub. We confirm panel capacity, run the dedicated 240-volt circuit, and complete the licensed install to code.',
@@ -189,7 +189,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can a mid-century Springdale home handle a hot tub?', a: 'Usually, but older Springdale panels often have little spare capacity, so we evaluate the service first, then run the dedicated 240-volt GFCI circuit and bond the spa to code.' }],
   },
   'miamitown': {
-    intro: 'Miamitown’s older homes sit on low Great Miami River bottom ground that floods in heavy rain. That makes careful grounding and a GFCI disconnect within sight the core of any hot tub wiring there. Call (513) 586-5107.',
+    intro: 'Miamitown’s older homes sit on low Great Miami River bottom ground that stays wet and floods in heavy rain, so hot tub wiring there needs more care than usual. Many run dated panels. We check capacity first, then use weather-rated conduit, careful grounding and a GFCI disconnect within sight.',
     relevance: [
       'Miamitown (ZIP 45041) is a small far-west community on the Great Miami River, with older homes set on low river-bottom ground. Those older homes often run dated service panels, so the first step in a spa install is confirming the panel can take a 240-volt heater and pump.',
       'The low river-bottom ground stays wet and floods in heavy rain, which makes weather-rated conduit, careful bonding and grounding, and a GFCI disconnect within sight of the tub all the more important. We handle the licensed work from the panel out.',
@@ -198,7 +198,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Is the wet ground in Miamitown a problem for hot tub wiring?', a: 'It is exactly why the work has to be done right. We use weather-rated conduit, bond and ground the spa correctly, and mount the GFCI disconnect within sight, after evaluating the panel.' }],
   },
   'forest-park': {
-    intro: 'Forest Park was planned from the 1960s, so most homes are mid-century single-family houses. A hot tub there sits outdoors year-round, and we wire it with weather-rated conduit and proper bonding. Call (513) 586-5107.',
+    intro: 'Forest Park was planned from the 1960s, so a hot tub there usually means a mid-century panel with little headroom left. We start with a capacity check. The tub sits outdoors year-round, so we wire it with weather-rated conduit, proper bonding and a GFCI disconnect.',
     relevance: [
       'Forest Park (ZIP 45240) is a north-side city developed as a planned community from the 1960s, with neighborhoods of mid-century single-family homes. Homes built in that era are well into the age where the panel has little headroom, so we check capacity before adding a spa circuit.',
       'A hot tub sits outdoors year-round, so its circuit needs weather-rated conduit, proper bonding, and a GFCI disconnect within sight of the tub. We evaluate the panel, run the dedicated 240-volt circuit, and complete the licensed install to code.',
@@ -207,7 +207,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can a 1960s Forest Park home support a hot tub circuit?', a: 'Often yes, but panels from the planned-community era frequently have little spare capacity, so we evaluate the service first, then run the dedicated 240-volt GFCI circuit to code.' }],
   },
   'pleasant-run': {
-    intro: 'Pleasant Run, in Springfield Township, has settled mid-century and newer homes. We wire hot tubs there for outdoor life, with weather-rated conduit and a GFCI disconnect within sight of the spa. Call (513) 586-5107.',
+    intro: 'Pleasant Run backyards in Springfield Township suit a hot tub, but mid-century panels often have limited capacity, so we check the load before adding the circuit. Because the tub lives outdoors, we run it in weather-rated conduit with proper bonding and a GFCI disconnect within sight.',
     relevance: [
       'Pleasant Run (ZIP 45240) is a Springfield Township community on the north side, with settled neighborhoods of mid-century and newer homes. The backyards here suit a spa well, but mid-century panels often have limited capacity, so we check the load before adding a hot tub circuit.',
       'Because the tub lives outdoors, the circuit needs weather-rated conduit, proper bonding and grounding, and a GFCI disconnect within sight of the spa. We evaluate the panel, run the dedicated 240-volt circuit, and complete the licensed work to code.',
@@ -216,7 +216,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How fast can you wire a hot tub in Pleasant Run?', a: 'Pleasant Run is well within our north-side service area in Springfield Township. We evaluate the panel, run the dedicated 240-volt GFCI circuit, and complete the bonding and disconnect to code.' }],
   },
   'cleves': {
-    intro: 'Cleves sits near where the Great Miami meets the Ohio, on low ground that floods. For an outdoor spa there, the hot tub wiring needs weather-rated conduit and careful grounding. Call (513) 586-5107.',
+    intro: 'Cleves sits near where the Great Miami meets the Ohio, on low ground that floods, so hot tub wiring there has to be weather-rated and carefully grounded. Its older homes often run dated panels, so we first confirm the service can carry a 240-volt heater and pump.',
     relevance: [
       'Cleves (ZIP 45002) is a far-west village near where the Great Miami River meets the Ohio, with older homes on low ground prone to flooding. Those older homes often run dated panels, so the first step in a spa install is confirming the service can carry a 240-volt heater and pump.',
       'The low ground and recurring high water make weather-rated conduit, careful bonding and grounding, and a GFCI disconnect within sight of the tub essential for an outdoor spa here. We handle the licensed work from panel to disconnect.',
@@ -225,7 +225,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Is the flood-prone ground in Cleves a problem for hot tub wiring?', a: 'It is the reason the work has to be done right. We use weather-rated conduit, bond and ground the spa properly, and mount the GFCI disconnect within sight, after evaluating the panel.' }],
   },
   'north-bend': {
-    intro: 'North Bend, burial place of President William Henry Harrison, has older homes on low riverside ground. High water is a real concern, so our hot tub wiring there uses weather-rated conduit and proper bonding. Call (513) 586-5107.',
+    intro: 'North Bend, burial place of President William Henry Harrison, has older homes on low riverside ground where hot tub wiring starts with a capacity check on dated panels. High water is a real concern there, so the circuit goes in weather-rated conduit with proper bonding and a GFCI disconnect.',
     relevance: [
       'North Bend (ZIP 45052) is a historic far-west village on the Ohio River — the burial place of President William Henry Harrison — with older homes set on low riverside ground. Those older homes often carry dated panels, so we confirm capacity before adding a spa’s 240-volt load.',
       'Its riverfront position makes high water and damp ground a real concern, so an outdoor spa circuit out here needs weather-rated conduit, proper bonding, and a GFCI disconnect within sight of the tub. We handle the licensed install from the panel out.',
@@ -234,7 +234,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can an older North Bend home support a hot tub?', a: 'Often the panel needs review first, since many of North Bend’s riverside homes run dated service. We evaluate capacity, then run the dedicated 240-volt GFCI circuit with weather-rated conduit to code.' }],
   },
   'loveland': {
-    intro: 'Loveland straddles the Little Miami and the bike trail, and the low riverside ground stays damp. If your spa sits near there, the hot tub wiring needs careful grounding and a GFCI disconnect within sight. Call (513) 586-5107.',
+    intro: 'Loveland straddles the Little Miami and the bike trail, and its older homes near the river often run dated panels, so a hot tub starts with a load evaluation. The low riverside ground stays damp, so the spa wiring needs careful grounding and a GFCI disconnect within sight.',
     relevance: [
       'Loveland (ZIP 45140) is a historic city straddling the Little Miami River and the Loveland Bike Trail, with a charming older downtown and a mix of historic and newer homes. The older homes near the river often run dated panels, so a spa install begins with a load evaluation.',
       'The low riverside ground stays damp and adds a flood risk in heavy rain, which makes weather-rated conduit, careful bonding and grounding, and a GFCI disconnect within sight of the tub all the more important. We confirm panel capacity and wire the dedicated 240-volt circuit to code.',
@@ -243,7 +243,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can an older Loveland home near the river support a hot tub?', a: 'Often the panel needs review first, since the older homes near the Little Miami run dated service. We evaluate capacity, then run the dedicated 240-volt GFCI circuit with weather-rated conduit to code.' }],
   },
   'harrison': {
-    intro: 'Harrison sits on the Indiana line along the Whitewater River, where low ground stays damp. An outdoor hot tub there needs spa wiring in weather-rated conduit, properly bonded. Call (513) 586-5107.',
+    intro: 'Harrison sits on the Indiana line along the Whitewater River, and hot tub wiring there depends on the house. Newer subdivisions usually have the panel headroom, while older homes near downtown need a review first. The low ground stays damp, so the run gets weather-rated conduit.',
     relevance: [
       'Harrison (ZIP 45030) is a far-west city on the Indiana state line along the Whitewater River, with an older downtown and a growing mix of established and newer homes. The older homes often carry dated panels, so we confirm capacity before adding a spa’s 240-volt load, while newer subdivisions usually have the headroom for it.',
       'The low ground near the Whitewater stays damp and adds a backup risk in heavy rain, so an outdoor spa circuit here needs weather-rated conduit, proper bonding, and a GFCI disconnect within sight of the tub. We handle the licensed work from panel to disconnect.',

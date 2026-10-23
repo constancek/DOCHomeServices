@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Layered Lighting by Room', body: 'A kitchen often pairs overhead light with pendants over the island; a living room layers ambient and accent fixtures. We plan fixture choices and placement so each {neighborhood} room is lit for how it is actually used.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Experienced pros who wire and mount every fixture safely.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Secure mounting and connections that meet electrical code.' },
-    { icon: 'badge', title: 'Quality Fixtures', text: 'High-quality, energy-efficient fixture and LED options.' },
-    { icon: 'house', title: 'Financing Available', text: 'Flexible financing to upgrade lighting across multiple rooms.' },
-  ],
+  whyParagraph: 'Every fixture we hang in {neighborhood} is wired and mounted by a licensed electrician, with secure connections that meet electrical code. Energy-efficient LED options are available, and if you’re replacing lights in several rooms, financing can spread the cost.',
   proofQuote:
     'They hung a heavy chandelier over the stairwell, added pendants above the island, and swapped the old vanity lights. Everything is mounted solid, wired right, and the switches all work as expected. Clean, careful work.',
   sharedFaqs: [

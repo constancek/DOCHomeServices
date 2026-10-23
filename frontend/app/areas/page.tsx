@@ -83,7 +83,7 @@ export default function AreasPage() {
                   {group.places.map((place) => (
                     <li
                       key={place}
-                      className="mb-1.5 flex break-inside-avoid gap-2 text-sm text-ink/75"
+                      className="mb-1.5 flex break-inside-avoid gap-2 text-base text-ink/75"
                     >
                       <Icon name="check" className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-lime-500" />
                       {place}
@@ -96,7 +96,7 @@ export default function AreasPage() {
 
           {/* CTA */}
           <div className="mt-16 rounded-3xl bg-blue-section px-6 py-12 text-center">
-            <h2 className="text-2xl font-extrabold uppercase text-white sm:text-3xl">
+            <h2 className="text-2xl font-extrabold text-white sm:text-3xl">
               Don&rsquo;t see your area?
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-brand-100">

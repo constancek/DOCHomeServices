@@ -27,7 +27,7 @@ export default function GuideLinks({ slug }: { slug: string }) {
           aria-label={g.title}
           className="rounded-2xl border border-brand-100 bg-brand-50/60 p-6"
         >
-          <h2 className="font-display text-lg font-extrabold uppercase tracking-wide text-brand-700">
+          <h2 className="font-display text-lg font-extrabold tracking-wide text-brand-700">
             {g.title}
           </h2>
           <ul className="mt-4 grid gap-x-6 gap-y-2.5 sm:grid-cols-2">

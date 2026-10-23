@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
@@ -38,17 +38,11 @@ const problems = [
   'Tankless issues related to sensors or flow rate',
 ];
 
-const whyUs = [
-  { icon: 'badge' as const, title: 'All Major Brands', text: 'We repair gas, electric, and tankless water heaters from every major brand.' },
-  { icon: 'clock' as const, title: 'Seven-Day Emergency Repair', text: 'A leak or no hot water? We respond 7 days a week from 8am to 8pm.' },
-  { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked technicians who diagnose accurately and fix it right.' },
-  { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-];
 
 const faqs = [
   { q: 'Why is my water heater not producing hot water?', a: 'On an electric unit it is usually a failed heating element or thermostat; on a gas unit it is often a pilot, ignition, or gas-supply issue. A tank thick with sediment can also struggle to heat. We diagnose which it is and fix it.' },
   { q: 'What causes a leaking water heater?', a: 'Leaks come from a failing temperature-and-pressure relief valve, loose fittings, or corrosion inside the tank. A valve or fitting leak is usually a quick repair; a tank that is rusted through means it is time to replace.' },
-  { q: 'How fast can you repair a water heater?', a: 'Most repairs are handled the same day — we carry common parts — and we are on call 7 days a week from 8am to 8pm for emergencies like a leak or a total loss of hot water.' },
+  { q: 'How fast can you repair a water heater?', a: 'Most repairs are handled the same day — we carry common parts — and we are on call 7 days a week for emergencies like a leak or a total loss of hot water.' },
   { q: 'Do you repair gas and electric water heaters?', a: 'Yes — gas, electric, and tankless, on all major brands.' },
   { q: 'How do I know if I should repair or replace?', a: 'If the unit is under about 10 years old and the issue is isolated, a repair makes sense. If it is older, leaking from the tank, or failing repeatedly, replacement is usually the better long-term value — and we will tell you honestly which we would do.' },
 ];
@@ -96,32 +90,16 @@ export default function WaterHeaterRepairPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            No hot water in {site.serviceArea}? Call for immediate service
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/wh-hero.webp)' }}
             role="img"
             aria-label="Technician repairing a water heater"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Water Heater Repair
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -132,7 +110,7 @@ export default function WaterHeaterRepairPage() {
           </p>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We diagnose the real cause, explain it clearly, and quote a flat rate before any work
-            begins — with 7-day availability when a failure cannot wait.
+            begins, and we come out any day of the week when a failure cannot wait.
           </p>
         </MainWithSidebar>
       </section>
@@ -147,7 +125,7 @@ export default function WaterHeaterRepairPage() {
             aria-label="Technician servicing a water heater"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs You Need Water Heater Repair
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -159,10 +137,10 @@ export default function WaterHeaterRepairPage() {
               problems early helps prevent water damage, higher repair costs, and a sudden loss of hot
               water. Common signs you may need repair:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {signs.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={s} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
               ))}
@@ -179,7 +157,7 @@ export default function WaterHeaterRepairPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               What to Expect During Water Heater Repair
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -218,7 +196,7 @@ export default function WaterHeaterRepairPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {problems.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
@@ -229,12 +207,35 @@ export default function WaterHeaterRepairPage() {
             hot water and protects your system from further damage.
           </p>
 
+        </div>
+      </section>
+
+      <ServiceReviews service="water-heater-repair" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            No hot water in {site.serviceArea}? Call for immediate service
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
+        </div>
+      </section>
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* Emergency */}
           <h2 className="mt-12 section-title text-brand-700">Emergency Water Heater Repair</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Some problems need immediate attention. A leaking water heater, a total loss of hot water,
             or a gas-related concern can quickly become a property or safety risk. {site.name} offers
-            emergency water heater repair with 7-day availability across {site.serviceArea}.
+            emergency water heater repair every day, Saturdays and Sundays included, across {site.serviceArea}.
           </p>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             If your water heater fails outside normal business hours, our team is available day or
@@ -244,7 +245,7 @@ export default function WaterHeaterRepairPage() {
           </p>
           <div className="mt-6 flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
             <h3 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">
-              Water heater emergency? We answer 7 days a week from 8am to 8pm.
+              Water heater emergency? We answer 7 days a week.
             </h3>
             <Link href="/services/emergency-plumbing" className="btn-pink flex-shrink-0">
               Emergency Plumbing
@@ -254,26 +255,16 @@ export default function WaterHeaterRepairPage() {
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Water Heater Repair</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            {site.name} provides fast, reliable water heater repair from licensed technicians who know
-            how to diagnose problems accurately and fix them the right way. We service all major
-            brands and address issues quickly to restore hot water and prevent further damage. Our
-            team explains the problem clearly, offers honest recommendations, and focuses on repairs
-            that improve safety and efficiency.
+            No hot water usually means a failed element or thermostat on an electric unit, or a pilot or ignition fault on gas. If the tank itself is leaking, replacement is usually the better value, and we will say so.
           </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Water Heater Repair FAQs</h2>
           <div className="mt-4">
@@ -288,7 +279,7 @@ export default function WaterHeaterRepairPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
+            <h2 className="text-2xl font-extrabold sm:text-3xl">
               Get Fast, Reliable Water Heater Repair Today
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
@@ -308,21 +299,21 @@ export default function WaterHeaterRepairPage() {
         </div>
       </section>
 
-      {/* Water heater repair by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Water heater repair by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We repair water heaters across {site.serviceArea} —{' '}
-            {locations.filter((l) => waterHeaterRepairCopy[l.slug]).length} neighborhoods and counting.
-            For local detail on response times and the issues common to homes in your area, find yours
-            below.
-          </p>
-          <NeighborhoodLinks copy={waterHeaterRepairCopy} basePath="/services/water-heater-repair" linkPrefix="Water heater repair" />
-        </div>
-      </section>
-
-      <PageSections service="water-heater-repair" />
+      <ServiceSections service="water-heater-repair">
+        {/* Water heater repair by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Water heater repair by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We repair water heaters across {site.serviceArea} —{' '}
+              {locations.filter((l) => waterHeaterRepairCopy[l.slug]).length} neighborhoods and counting.
+              For local detail on response times and the issues common to homes in your area, find yours
+              below.
+            </p>
+            <NeighborhoodLinks copy={waterHeaterRepairCopy} basePath="/services/water-heater-repair" linkPrefix="Water heater repair" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
@@ -47,12 +47,6 @@ const goodFit = [
   'Uneven temperatures throughout the house',
 ];
 
-const whyUs = [
-  { icon: 'check' as const, title: 'Cooling & Heating', text: 'One efficient ductless system that keeps your space comfortable all year.' },
-  { icon: 'badge' as const, title: 'Right-Sized Zones', text: 'We size the system and indoor heads to your home and how you use it.' },
-  { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked technicians and clean, code-compliant work.' },
-  { icon: 'star' as const, title: 'Financing Available', text: 'Flexible plans so an efficient upgrade fits your budget.' },
-];
 
 const faqs = [
   { q: 'What is a ductless mini-split system?', a: 'A mini-split pairs an outdoor compressor with one or more indoor units (heads) that mount on a wall or ceiling. It cools and heats your home without any ductwork — perfect for spaces a central system cannot reach well.' },
@@ -105,32 +99,16 @@ export default function MiniSplitsPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Considering a mini-split in {site.serviceArea}?
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar couponTitle="Furnace Tune-Up">
+        <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/minisplit-hero.webp)' }}
             role="img"
             aria-label="Ductless mini-split indoor unit"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Ductless Mini-Split Systems
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -208,7 +186,7 @@ export default function MiniSplitsPage() {
             aria-label="Ductless mini-split outdoor unit"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs You Need a Ductless Mini-Split
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -216,10 +194,10 @@ export default function MiniSplitsPage() {
               Addressing issues early can help prevent discomfort and system strain. Common signs
               include:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {signs.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={s} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
               ))}
@@ -236,7 +214,7 @@ export default function MiniSplitsPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               How a Ductless Mini-Split System Works
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -267,6 +245,24 @@ export default function MiniSplitsPage() {
         </div>
       </section>
 
+      <ServiceReviews service="mini-splits" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Considering a mini-split in {site.serviceArea}?
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
+        </div>
+      </section>
+
       {/* Long-form content */}
       <section className="py-14">
         <div className="container-page max-w-4xl">
@@ -277,7 +273,7 @@ export default function MiniSplitsPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {b}
               </li>
@@ -296,7 +292,7 @@ export default function MiniSplitsPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {goodFit.map((g) => (
-              <li key={g} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={g} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {g}
               </li>
@@ -310,25 +306,18 @@ export default function MiniSplitsPage() {
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Mini-Splits</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Homeowners across {site.serviceArea} trust {site.name} for professional cooling and heating
-            services. Our team focuses on clear communication, accurate recommendations, and dependable
-            workmanship — helping you understand your options and delivering service built for
-            long-term comfort and reliability.
+            A mini-split makes sense for some rooms and not for others, and we’ll tell you
+            which. {site.name} explains your options plainly, recommends what fits how you use
+            the space, and builds the install to last.
           </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Mini-Split FAQs</h2>
           <div className="mt-4">
@@ -343,7 +332,7 @@ export default function MiniSplitsPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule a Mini-Split Service Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule a Mini-Split Service Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Considering a new ductless system or need service for an existing one? We are ready to
               help. Call now or request an estimate.
@@ -361,20 +350,20 @@ export default function MiniSplitsPage() {
         </div>
       </section>
 
-      {/* Mini-splits by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Mini-splits by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We install and repair ductless mini-splits across {site.serviceArea} —{' '}
-            {locations.filter((l) => miniSplitsCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on the homes and spaces in your area.
-          </p>
-          <NeighborhoodLinks copy={miniSplitsCopy} basePath="/services/mini-splits" linkPrefix="Mini-splits" />
-        </div>
-      </section>
-
-      <PageSections service="mini-splits" />
+      <ServiceSections service="mini-splits">
+        {/* Mini-splits by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Mini-splits by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We install and repair ductless mini-splits across {site.serviceArea} —{' '}
+              {locations.filter((l) => miniSplitsCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on the homes and spaces in your area.
+            </p>
+            <NeighborhoodLinks copy={miniSplitsCopy} basePath="/services/mini-splits" linkPrefix="Mini-splits" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

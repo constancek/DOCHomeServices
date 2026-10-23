@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Same-Day Response Across {neighborhood}', body: 'We treat active water damage as an emergency rather than a booking, and reach most {neighborhood} homes the same day. If what you have is a small clean-water spill on a sealed floor that you have already mopped up, we will say so on the phone rather than send a truck.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'clock', title: 'Same-Day Response', text: 'Water damage compounds by the hour. We reach most homes the same day you call.' },
-    { icon: 'shield', title: 'Licensed Plumbers On Site', text: 'We fix the cause, not just the puddle — the failed line gets repaired as part of the job.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start, with no overtime or weekend surcharge.' },
-    { icon: 'doc', title: 'Documented for Insurance', text: 'Moisture readings and photos, written up so your claim is not held over a missing record.' },
-  ],
+  whyParagraph: 'Water damage gets worse by the hour, so we reach most {neighborhood} homes the same day. Licensed plumbers repair the failed line on the same job, and we write up photos and moisture readings so your claim isn’t held up.',
   proofQuote:
     'A supply line let go while we were at work and the lower level was soaked by the time we got home. They had the water out that evening, found the failed fitting, and kept coming back with readings until it was properly dry.',
   sharedFaqs: [

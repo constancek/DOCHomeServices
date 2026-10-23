@@ -31,7 +31,7 @@ export default function AboutPage() {
       {/* Welcome to the family */}
       <section className="py-16">
         <MainWithSidebar>
-          <h2 className="m-center font-display text-4xl font-black uppercase leading-[1.02] text-pink-500 sm:text-5xl">
+          <h2 className="m-center font-display text-4xl font-black leading-[1.02] text-pink-500 sm:text-5xl">
             Welcome to the Family. We&rsquo;re Glad You&rsquo;re Here.
           </h2>
           <h3 className="m-center mt-4 font-display text-xl font-extrabold text-brand-950 sm:text-2xl">
@@ -110,7 +110,7 @@ export default function AboutPage() {
         />
         <div className="container-page relative py-20">
           <div className="max-w-2xl text-white">
-            <h2 className="font-display text-4xl font-black uppercase text-pink-500 sm:text-5xl">
+            <h2 className="font-display text-4xl font-black text-pink-500 sm:text-5xl">
               Why We Wear Orange.
             </h2>
             <p className="mt-5 text-base leading-relaxed text-white/90 sm:text-base">

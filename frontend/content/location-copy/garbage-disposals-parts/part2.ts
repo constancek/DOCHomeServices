@@ -1,7 +1,7 @@
 export const part2: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'madeira': {
     intro:
-      'Garbage disposal jammed, humming, or leaking under the sink in Madeira? Our licensed plumbers repair and replace disposals and handle the drain and dishwasher connections that come with them. Call (513) 586-5107.',
+      'Many Madeira kitchens in mid-century homes still run the original garbage disposal or a worn builder-grade replacement that hums without spinning or weeps at the flange. These units often tie into older cast-iron drains that clog easily, so a backup is sometimes the drain rather than the motor.',
     relevance: [
       'Madeira (ZIP 45243) is an established east-side city of mostly mid-century single-family homes on quiet, tree-lined streets. Many of those kitchens still run the original disposal, or a builder-grade replacement that is now well past its service life — the kind that hums without spinning, trips its reset, or starts to weep at the drain flange.',
       'Mid-1900s plumbing also means the disposal often ties into older cast-iron drain lines that clog more easily, so a unit that backs up is sometimes the drain rather than the motor. We diagnose which it is, size the right replacement for the cabinet, and reconnect the dishwasher drain so it discharges cleanly.',
@@ -17,7 +17,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'wyoming': {
     intro:
-      'Disposal leaking, stuck, or tripping the breaker in Wyoming, OH? Our licensed plumbers repair, replace, and install garbage disposals and tie them cleanly into the drain and dishwasher line. Call (513) 586-5107.',
+      'Garbage disposals in Wyoming’s Victorian and early-1900s homes were usually retrofitted long after the house was built, hanging off old drain plumbing and a flange never sized for them. That setup is prone to slow leaks that damage cabinetry, and a humming unit often means a failing motor.',
     relevance: [
       'Wyoming (ZIP 45215) is a historic, affluent suburb north of the city, known for grand Victorian and early-1900s homes on tree-shaded streets. Many of those large kitchens were retrofitted with a disposal long after the house was built, so the unit hangs off old drain plumbing and a flange that was never sized for it — a setup prone to slow leaks that damage cabinetry below.',
       'In houses this age, a humming-not-spinning disposal or a tripped reset is often the first sign the motor is failing, and the original drain line behind it may be undersized or corroded. We match a quieter, properly rated unit to the cabinet and reconnect the trap and dishwasher drain so nothing seeps onto finished woodwork.',
@@ -33,7 +33,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mariemont': {
     intro:
-      'Garbage disposal trouble in Mariemont, OH? Our licensed plumbers repair, replace, and install disposals and reconnect the drain and dishwasher lines that go with them. Call (513) 586-5107.',
+      'Mariemont’s 1920s and 1930s Tudor Revival kitchens carry nearly a century of plumbing wear, and any garbage disposal is bolted to original galvanized or cast-iron drains. Under-sink space is often tight and the drain layout was never built for a disposal, so jams and leaks often trace back to it.',
     relevance: [
       'Mariemont (ZIP 45227) is a planned garden community laid out in the 1920s and now a National Historic Landmark, with Tudor Revival homes around its village square. Kitchens here carry nearly a century of plumbing wear, and any disposal is bolted onto original galvanized or cast-iron drain plumbing that clogs and corrodes more readily than modern PVC.',
       'Because the homes date to the 1920s and 30s, under-sink space is often tight and the existing drain geometry was never built for a disposal, so a jam or leak frequently traces back to a poorly fitted older install. We fit the right-sized unit to the cabinet and make the drain and dishwasher connections with care for the village’s historic character.',
@@ -49,7 +49,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cheviot': {
     intro:
-      'Disposal jammed, humming, or leaking in Cheviot, OH? Our licensed plumbers repair and replace garbage disposals and handle the drain and dishwasher connections that come with them. Call (513) 586-5107.',
+      'Cheviot garbage disposal work is often in the rental kitchens of brick two-families along Harrison Avenue, where units take more abuse than in a single-family home and fail sooner. The older housing drains through aging galvanized and cast-iron lines, so a backup is frequently the line behind the unit.',
     relevance: [
       'Cheviot (ZIP 45211) is a small, densely built city completely surrounded by Cincinnati, with a grid of early-1900s homes and brick two-families along Harrison Avenue. Those two-families often have hard-used disposals in rental kitchens, where the unit takes far more abuse than a single-family home and fails sooner — jams, odors, and tripped resets are routine.',
       'The older, tightly packed housing runs on aging galvanized and cast-iron drains, so a disposal that backs up here is frequently the line behind it rather than the motor. We tell you which it is, replace the unit when it is spent, and reconnect the dishwasher drain so a two-family kitchen drains cleanly.',
@@ -65,7 +65,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covedale': {
     intro:
-      'Garbage disposal leaking, stuck, or tripping the reset in Covedale, OH? Our licensed plumbers repair, replace, and install disposals and tie them into the drain and dishwasher line. Call (513) 586-5107.',
+      'Covedale kitchens in early-1900s through mid-century homes often run a garbage disposal that has been in service for decades, draining into clay or cast-iron laterals prone to roots. A unit that hums or leaks at the flange is usually worn out, while a backup can point to the lateral.',
     relevance: [
       'Covedale (ZIP 45238) is a settled west-side community on the edge of the city near Green Township, made up of early-1900s through mid-century single-family homes along Glenway and Cleves Warsaw. Many of those kitchens run a disposal that has been in service for decades, and the clay or cast-iron sewer laterals these homes drain into are prone to roots and slow flow.',
       'In homes of that age, a disposal that hums without spinning or starts leaking at the flange usually means the unit is worn out, while a backed-up disposal often points to the older drain line behind it. We diagnose the difference, size a replacement to the cabinet, and reconnect the dishwasher drain so it discharges properly.',
@@ -81,7 +81,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covington': {
     intro:
-      'Disposal jammed, humming, or leaking in Covington, KY? Our licensed plumbers repair, replace, and install garbage disposals and reconnect the drain and dishwasher lines. Call (513) 586-5107.',
+      'Many Covington kitchens in 19th-century rowhouses never had a garbage disposal originally, so one added later is bolted onto cast-iron or galvanized drains never sized for it. In MainStrasse and Licking Riverside homes, that tends to mean flange leaks, backups into an undersized line and tight under-sink space.',
     relevance: [
       'Covington (ZIP 41011) sits directly across the Ohio River from downtown Cincinnati, with historic districts like MainStrasse Village and Licking Riverside full of 19th-century rowhouses and brick homes. Many of those kitchens never had a disposal originally, so when one was added it was bolted onto original cast-iron or galvanized drain plumbing that was never sized for it.',
       'A disposal added to a century-old riverfront rowhouse tends to leak at the flange or back up into an undersized older line, and tight under-sink space in these homes makes a clean install harder. We adapt the older drain, fit the right unit, and reconnect the dishwasher line, all as licensed plumbers working across the river.',
@@ -97,7 +97,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newport': {
     intro:
-      'Garbage disposal trouble in Newport, KY? Our licensed plumbers repair, replace, and install disposals and handle the drain and dishwasher connections. Call (513) 586-5107.',
+      'Newport garbage disposal jobs often happen in the East Row Historic District, where 19th-century homes run on original plumbing well past its service life. A backed-up unit there is often the old drain line rather than the motor, and many tight kitchens were never built for a disposal.',
     relevance: [
       'Newport (ZIP 41071) is a Northern Kentucky river city across from downtown Cincinnati, home to the East Row Historic District — one of the largest Victorian historic districts in the state. Hundreds of those 19th-century homes run on original plumbing, so any disposal hangs off old drain lines well past their service life, and a backed-up unit is often the line rather than the motor.',
       'Many East Row kitchens are tight and were never built for a disposal, so a humming, leaking, or jammed unit frequently traces back to an older retrofit done in cramped space. We fit a properly sized unit, adapt the aging drain, and reconnect the dishwasher line with care for the historic details.',
@@ -113,7 +113,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bellevue': {
     intro:
-      'Disposal jammed, leaking, or tripping the breaker in Bellevue, KY? Our licensed plumbers repair, replace, and install garbage disposals and reconnect the drain and dishwasher lines. Call (513) 586-5107.',
+      'Bellevue’s late-1800s homes have small kitchens with little room under the sink, so a garbage disposal is often crammed against old galvanized or cast-iron drains. That setup leaks and jams more than it should. A humming unit usually means a worn motor, while slow draining points to the drain.',
     relevance: [
       'Bellevue (ZIP 41073) is a compact Northern Kentucky river city with a historic Fairfield Avenue business district and tight streets of well-preserved late-1800s homes. Those small, century-old kitchens have little room under the sink, so a disposal added to one is often crammed against old galvanized or cast-iron drain plumbing — a setup that leaks and jams more than it should.',
       'In homes this age, a disposal that hums without spinning usually means a worn motor, while a slow or backing-up unit points to the older drain line behind it. We size a unit that fits the cabinet, adapt the aging connections, and reconnect the dishwasher drain so a tight Bellevue kitchen runs clean.',
@@ -129,7 +129,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-thomas': {
     intro:
-      'Garbage disposal leaking, stuck, or humming in Fort Thomas, KY? Our licensed plumbers repair, replace, and install disposals and tie them into the drain and dishwasher line. Call (513) 586-5107.',
+      'Fort Thomas garbage disposals in large early-1900s kitchens often hang off corroded supply and aging drain lines, where a slow leak can damage cabinetry before it is caught. A unit that hums without spinning or trips its reset usually has a worn motor, and the drain may need attention too.',
     relevance: [
       'Fort Thomas (ZIP 41075) is a historic Northern Kentucky city built around a former U.S. Army post, with stately early-1900s homes on tree-lined streets above the river. Many of those large kitchens still carry original plumbing, and a disposal added later hangs off corroded supply and aging drain lines where a slow leak can damage finished cabinetry before it is caught.',
       'In established homes like these, a humming-not-spinning disposal or a tripped reset is usually a worn motor, and the original drain behind it may be undersized for the load. We match a quieter, properly rated unit to the cabinet and reconnect the trap and dishwasher drain so the install lasts.',
@@ -145,7 +145,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'florence': {
     intro:
-      'Disposal jammed, leaking, or tripping the reset in Florence, KY? Our licensed plumbers repair, replace, and install garbage disposals and handle the drain and dishwasher connections. Call (513) 586-5107.',
+      'Florence garbage disposal work splits by neighborhood. Newer suburban kitchens near the Florence Mall are old enough that builder-grade units are wearing out, and many owners upgrade to a quieter one. In mid-century neighborhoods, the disposal ties into older drains, so a backup is sometimes the line.',
     relevance: [
       'Florence (ZIP 41042) is the largest city in Boone County and one of the fastest-growing in Northern Kentucky, with mid-century neighborhoods and newer subdivisions around the Florence Mall area. The newer suburban kitchens here are now old enough that a builder-grade disposal is wearing out, and many owners want to upgrade to a quieter, more powerful unit.',
       'In the mid-century neighborhoods, by contrast, the disposal often ties into older drain plumbing that clogs and corrodes, so a backed-up unit is sometimes the line rather than the motor. We size the right replacement for the cabinet, reconnect the dishwasher drain, and work both the newer and older homes across the city.',
@@ -161,7 +161,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'erlanger': {
     intro:
-      'Garbage disposal trouble in Erlanger, KY? Our licensed plumbers repair, replace, and install disposals and reconnect the drain and dishwasher lines. Call (513) 586-5107.',
+      'Erlanger’s mid-century kitchens often still run a long-serving garbage disposal that now hums without spinning, trips its reset or leaks at the flange. These homes drain into older sewer laterals prone to slow flow, so a unit that backs up is sometimes the line behind it rather than the motor.',
     relevance: [
       'Erlanger (ZIP 41018) is an established Kenton County city near the airport, with settled mid-century neighborhoods and a mix of older and newer homes. Many of those mid-1900s kitchens still run a long-serving disposal that now hums without spinning, trips its reset, or leaks at the flange — the predictable end of a unit that has been in service for decades.',
       'Homes of that age also drain into older sewer laterals prone to slow flow, so a disposal that backs up is sometimes the line behind it rather than the motor. We diagnose which it is, size the right replacement for the cabinet, and reconnect the dishwasher drain so it discharges cleanly.',
@@ -177,7 +177,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mason': {
     intro:
-      'Disposal jammed, leaking, or tripping the breaker in Mason, OH? Our licensed plumbers repair, replace, and install garbage disposals and handle the drain and dishwasher connections. Call (513) 586-5107.',
+      'Mason kitchens built from the 1990s onward have modern drains, but their original builder-grade garbage disposals are reaching the end of their life, and many owners want a quieter, stronger unit. In the older town center, disposals tie into decades-old drains, so a backup there can be the line.',
     relevance: [
       'Mason (ZIP 45040) is a fast-growing Warren County city north of Cincinnati near Kings Island, with large subdivisions of homes built mostly from the 1990s onward alongside an older town center. The newer kitchens have modern drain plumbing, but the original builder-grade disposals are now reaching the end of their life, and many owners want a quieter, more powerful upgrade.',
       'In the older town center, the disposal often ties into decades-old drain plumbing that clogs more easily, so a backed-up unit there can be the line rather than the motor. We size the right unit to the cabinet across both the subdivisions and the older core, and reconnect the dishwasher drain so it runs clean.',
@@ -193,7 +193,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-chester': {
     intro:
-      'Garbage disposal humming, leaking, or stuck in West Chester, OH? Our licensed plumbers repair, replace, and install disposals and tie them into the drain and dishwasher line. Call (513) 586-5107.',
+      'West Chester kitchens in 1990s-and-newer subdivisions were built with a garbage disposal from the start, and those original units are now old enough to jam, leak at the flange or trip the reset. The fix is usually a swap for a quieter, higher-horsepower model rather than a drain repair.',
     relevance: [
       'West Chester (ZIP 45069) is a large, fast-growing Butler County township between Cincinnati and Dayton, made up largely of subdivisions built from the 1990s onward along the I-75 corridor. These modern kitchens were built with a disposal from the start, and those original units are now old enough to jam, leak at the flange, or trip the reset.',
       'Because the homes are newer, the fix is usually a straightforward swap of a worn unit for a quieter, higher-horsepower model rather than a drain repair — and many owners take the chance to upgrade. We size the right unit to the cabinet and reconnect the dishwasher drain across the township.',
@@ -209,7 +209,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pendleton': {
     intro:
-      'Disposal jammed, leaking, or humming in Pendleton? Our licensed plumbers repair, replace, and install garbage disposals and reconnect the drain and dishwasher lines. Call (513) 586-5107.',
+      'Pendleton garbage disposals are usually later additions to mid-1800s Italianate buildings and converted lofts, bolted onto brittle cast-iron stacks and old risers. On a tightly built historic block, a leaking or backed-up unit can affect a line shared with other units, and under-sink space is often cramped.',
     relevance: [
       'Pendleton (ZIP 45202) is a small, historic arts district tucked against the eastern edge of Over-the-Rhine, full of restored 19th-century Italianate buildings and converted lofts and condos. Disposals here are usually later additions to mid-1800s buildings, bolted onto brittle cast-iron stacks and old risers that were never built for the load.',
       'In a tightly built historic block like this, a leaking or backed-up disposal can affect the line shared with other units, and under-sink space in a converted loft is often cramped. We fit the right unit, adapt the older drain, and reconnect the dishwasher line as licensed plumbers used to these buildings.',
@@ -225,7 +225,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'queensgate': {
     intro:
-      'Garbage disposal trouble in a Queensgate kitchen or breakroom? Our licensed plumbers repair, replace, and install disposals and handle the drain and dishwasher connections. Call (513) 586-5107.',
+      'Queensgate garbage disposal work turns up in office breakrooms and the few residential pockets, often on older building drains that clog and corrode. The district sits on low ground prone to flooding, so a unit that backs up after heavy rain can be the building line rather than the disposal.',
     relevance: [
       'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Disposals here turn up in office breakrooms and the few residential pockets, often on older building drain plumbing that clogs and corrodes.',
       'Because the district sits on low ground prone to flooding, a disposal that backs up can be the building line rather than the unit, especially after heavy rain. We diagnose which it is, replace the disposal when needed, and reconnect the dishwasher drain — handling commercial buildings as readily as homes.',
@@ -241,7 +241,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cuf': {
     intro:
-      'Disposal jammed, humming, or leaking in CUF near UC? Our licensed plumbers repair, replace, and install garbage disposals and reconnect the drain and dishwasher lines across Clifton Heights, University Heights, and Fairview. Call (513) 586-5107.',
+      'CUF garbage disposals sit in the student rental kitchens of Clifton Heights, University Heights and Fairview, where heavy, careless use brings jams, odors and tripped resets sooner. Many houses are subdivided and share aging drain stacks, so a backup can be the shared line rather than the unit.',
     relevance: [
       'CUF (ZIP 45219) covers Clifton Heights, University Heights, and Fairview — dense hilltop neighborhoods packed against the University of Cincinnati, full of 19th- and early-1900s homes now largely converted to student rentals. Disposals in those rental kitchens take heavy, careless use, so jams, odors, and tripped resets come around far faster than in an owner-occupied home.',
       'Many of these houses are subdivided and share aging drain stacks, so a disposal that backs up can be the line shared between units rather than the motor, and the older galvanized plumbing behind it clogs easily. We diagnose the difference, replace the unit when it is spent, and reconnect the dishwasher drain for the landlords and tenants we work with here.',
@@ -257,7 +257,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'camp-washington': {
     intro:
-      'Garbage disposal leaking, stuck, or backing up in Camp Washington? Our licensed plumbers repair, replace, and install disposals and handle the drain and dishwasher connections. Call (513) 586-5107.',
+      'Camp Washington’s older worker housing runs on aging drains, so a garbage disposal that backs up is often the line behind it rather than the unit. The low Mill Creek valley ground adds backup risk in heavy rain, and we find out whether the motor or drain is at fault.',
     relevance: [
       'Camp Washington (ZIP 45225) is a historic working neighborhood in the Mill Creek valley, known for its industry, the American Sign Museum, and a tight mix of old worker housing and factories. The older homes here run on aging drain plumbing, so a disposal that backs up is often the line behind it rather than the unit itself.',
       'The low valley ground raises the risk of drain and sewer backups in heavy rain, which can leave a disposal gurgling or refusing to clear even when the motor is fine. We tell you whether it is the unit or the line, replace a worn disposal when needed, and reconnect the dishwasher drain so the kitchen runs clean.',
@@ -273,7 +273,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-fairmount': {
     intro:
-      'Disposal jammed, humming, or leaking in South Fairmount? Our licensed plumbers repair, replace, and install garbage disposals and reconnect the drain and dishwasher lines. Call (513) 586-5107.',
+      'South Fairmount’s older homes in the Lick Run valley along Queen City Avenue tie their garbage disposals into aging drains. Sewer and drain backups recur in this low area, so a unit that gurgles or will not clear is often the line behind it, and we check the drain first.',
     relevance: [
       'South Fairmount (ZIP 45205) sits in the Lick Run valley along Queen City Avenue on the west side, the area rebuilt around the Lick Run Greenway stormwater project after a long history of valley flooding. A disposal in one of these older valley homes ties into aging drain plumbing, so a backing-up unit is frequently the line rather than the motor.',
       'The low-lying setting means sewer and drain backups recur here, and a disposal can gurgle or refuse to clear when the line behind it is the real problem. We diagnose the difference, replace a worn unit when needed, and reconnect the dishwasher drain so it discharges properly.',
@@ -289,7 +289,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-end': {
     intro:
-      'Garbage disposal leaking, stuck, or backing up in the East End? Our licensed plumbers repair, replace, and install disposals and tie them into the drain and dishwasher line. Call (513) 586-5107.',
+      'East End garbage disposal work often means an older river cottage along Eastern Avenue with decades-old drain plumbing that was never built for a disposal. The homes sit low on the river, where high water and backups are a real risk, so a gurgling unit can be the line.',
     relevance: [
       'The East End (ZIP 45226) is a narrow riverfront neighborhood stretching east of downtown along Eastern Avenue, below Columbia Parkway, with historic river cottages and newer condos squeezed between the hillside and the Ohio River. The older cottages carry decades-old drain plumbing, so a disposal added to one of those kitchens often hangs off lines that were never built for it.',
       'Because the homes sit low right on the river, high water and backups are a real risk, and a disposal that gurgles or refuses to clear can be the line rather than the motor. We diagnose which it is, replace a worn unit when needed, and reconnect the dishwasher drain.',
@@ -305,7 +305,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-fairmount': {
     intro:
-      'Disposal jammed, humming, or leaking in North Fairmount? Our licensed plumbers repair, replace, and install garbage disposals and reconnect the drain and dishwasher lines. Call (513) 586-5107.',
+      'Many North Fairmount kitchens in early-1900s homes never had a garbage disposal originally, so one added later sits on galvanized or cast-iron drains not sized for it. A unit that hums without spinning usually has a worn motor, while backups usually come from the older drain behind it.',
     relevance: [
       'North Fairmount (ZIP 45225) is a west-side hillside neighborhood above the Mill Creek valley, with streets of older early-1900s homes. Many of those kitchens never had a disposal originally, so when one was added it was bolted onto aging galvanized or cast-iron drain plumbing that was not sized for it.',
       'The age of the housing means a humming-not-spinning disposal usually points to a worn motor, while the older drain behind it clogs easily and can leave a unit backing up. We diagnose the difference, fit the right unit to the cabinet, and reconnect the dishwasher drain.',
@@ -321,7 +321,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'evanston': {
     intro:
-      'Garbage disposal trouble near Xavier in Evanston? Our licensed plumbers repair, replace, and install disposals and handle the drain and dishwasher connections. Call (513) 586-5107.',
+      'Evanston garbage disposals near Xavier take heavy use in densely built student rentals, so jams, odors and tripped resets show up faster than in an owner-occupied home. The early-1900s homes carry aging plumbing prone to corrosion, so a backup is sometimes the line rather than the motor.',
     relevance: [
       'Evanston (ZIP 45207) is an east-side neighborhood next to Xavier University, with streets of early-1900s homes and apartment buildings, some now student housing. Disposals in those densely built rentals take heavy use, so jams, odors, and tripped resets show up faster than in an owner-occupied home.',
       'The older homes here carry aging plumbing prone to corrosion and drain backups, so a disposal that backs up is sometimes the line rather than the motor. We diagnose which it is, replace a worn unit when needed, and reconnect the dishwasher drain for the homes and rentals we work near campus.',
@@ -337,7 +337,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-cumminsville': {
     intro:
-      'Disposal jammed, leaking, or backing up in South Cumminsville? Our licensed plumbers repair, replace, and install garbage disposals and reconnect the drain and dishwasher lines. Call (513) 586-5107.',
+      'South Cumminsville homes among the Mill Creek valley’s industrial corridors have aging drains that clog and corrode, so a garbage disposal that backs up is often the line rather than the unit. Heavy rain adds backup risk on the low ground, so we check which it is before replacing anything.',
     relevance: [
       'South Cumminsville (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, with older homes set among industrial corridors. The aging drain plumbing in those homes clogs and corrodes, so a disposal that backs up here is often the line behind it rather than the unit.',
       'The low valley ground brings a real risk of sewer and drain backups in heavy rain, which can leave a disposal gurgling even when the motor is fine. We diagnose which it is, replace a worn disposal when needed, and reconnect the dishwasher drain so the kitchen runs clean.',
@@ -353,7 +353,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'english-woods': {
     intro:
-      'Garbage disposal humming, leaking, or stuck in English Woods? Our licensed plumbers repair, replace, and install disposals and tie them into the drain and dishwasher line. Call (513) 586-5107.',
+      'English Woods garbage disposal jobs usually involve an older home on the hilltop above the Mill Creek valley, with aging drains never built for a disposal. Heavy rain strains the hillside drains, so a unit that backs up can be the line rather than the motor.',
     relevance: [
       'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. Older homes here run on aging drain plumbing, so a disposal added to one of these kitchens often hangs off lines that were never built for it.',
       'The hillside setting adds strain to drains during heavy rain, so a disposal that backs up can be the line rather than the motor. We diagnose which it is, fit the right unit to the cabinet, and reconnect the dishwasher drain so it discharges properly.',
@@ -369,7 +369,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-avondale': {
     intro:
-      'Disposal leaking, jammed, or tripping the reset in North Avondale? Our licensed plumbers repair, replace, and install garbage disposals and reconnect the drain and dishwasher lines. Call (513) 586-5107.',
+      'North Avondale’s grand early-1900s homes near Rockdale Avenue often carry original plumbing, and a garbage disposal added later hangs off aging drains where a slow flange leak can damage finished cabinetry. A humming unit usually means a worn motor, while the drain behind it may be undersized.',
     relevance: [
       'North Avondale (ZIP 45229) is a historic, leafy neighborhood known for grand early-1900s homes on large, tree-shaded lots near Rockdale Avenue. Many of those big kitchens carry original plumbing, and a disposal added later hangs off aging drain lines where a slow leak at the flange can damage finished cabinetry before it is noticed.',
       'In houses this age, a humming-not-spinning disposal usually means a worn motor, while the older drain behind it may be undersized for the load. We match a properly rated unit to the cabinet, adapt the older connections, and reconnect the dishwasher drain so the install lasts.',
@@ -385,7 +385,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'millvale': {
     intro:
-      'Garbage disposal jammed, leaking, or backing up in Millvale? Our licensed plumbers repair, replace, and install disposals and handle the drain and dishwasher connections. Call (513) 586-5107.',
+      'Millvale is a compact Mill Creek valley neighborhood whose older homes run on aging drain plumbing, so a garbage disposal that backs up is often the line rather than the motor. Heavy rain raises backup risk on the low ground, which can leave a working disposal gurgling.',
     relevance: [
       'Millvale (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, a compact, largely residential community. The older homes here run on aging drain plumbing, so a disposal that backs up is often the line behind it rather than the motor.',
       'The low-lying valley ground raises the risk of drain and sewer backups during heavy rain, which can leave a disposal gurgling even when it is working. We diagnose which it is, replace a worn unit when needed, and reconnect the dishwasher drain so it discharges cleanly.',
@@ -401,7 +401,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'paddock-hills': {
     intro:
-      'Disposal humming, leaking, or tripping the reset in Paddock Hills? Our licensed plumbers repair, replace, and install garbage disposals and reconnect the drain and dishwasher lines. Call (513) 586-5107.',
+      'Paddock Hills homes from the early and mid-1900s often run a garbage disposal that has been in service for decades and now hums, trips its reset or weeps at the flange. Corroding galvanized lines and older drains are common, so a backup can be the line rather than the motor.',
     relevance: [
       'Paddock Hills (ZIP 45229) is a small, well-kept north-side residential pocket near Paddock Road and the Norwood Lateral, with streets of early- and mid-1900s homes. Many of those kitchens run a disposal that has been in service for decades and is now at the age where it hums without spinning, trips its reset, or weeps at the flange.',
       'Homes of that era commonly have corroding galvanized supply lines and older drains, so a disposal that backs up can be the line rather than the motor. We diagnose which it is, size the right replacement for the cabinet, and reconnect the dishwasher drain so it runs clean.',
@@ -417,7 +417,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'spring-grove-village': {
     intro:
-      'Garbage disposal leaking, stuck, or backing up in Spring Grove Village? Our licensed plumbers repair, replace, and install disposals and tie them into the drain and dishwasher line. Call (513) 586-5107.',
+      'Near Spring Grove Cemetery, older Spring Grove Village homes tie their garbage disposals into drains that clog and corrode. Backups after heavy rain are a real risk on this low valley ground, so a gurgling disposal is sometimes fine and the line behind it is the problem.',
     relevance: [
       'Spring Grove Village (ZIP 45232) sits in the Mill Creek valley around the historic Spring Grove Cemetery and Arboretum, with a mix of older homes and industry. The aging plumbing in those older homes means a disposal often ties into drain lines that clog and corrode, so a backed-up unit is sometimes the line rather than the motor.',
       'The low valley ground brings a real risk of backups in heavy rain, which can leave a disposal gurgling even when it is fine. We diagnose which it is, replace a worn disposal when needed, and reconnect the dishwasher drain so the kitchen drains properly.',
@@ -433,7 +433,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'linwood': {
     intro:
-      'Disposal jammed, humming, or leaking in Linwood near Lunken? Our licensed plumbers repair, replace, and install garbage disposals and reconnect the drain and dishwasher lines. Call (513) 586-5107.',
+      'Linwood garbage disposals in older homes along Eastern Avenue near Lunken Airport often hang off aging drains never built for them. The low riverside position raises the risk of backups in high water, so a unit that gurgles or will not clear can be the line behind it.',
     relevance: [
       'Linwood (ZIP 45226) is one of Cincinnati’s smaller east-side neighborhoods, set along Eastern Avenue near Lunken Airport and the river bottoms. The older homes here carry aging drain plumbing, so a disposal added to one of these kitchens often hangs off lines that were never built for it.',
       'Its low riverside position raises the risk of backups in high water, which can leave a disposal gurgling or refusing to clear when the line behind it is the real problem. We diagnose which it is, replace a worn unit when needed, and reconnect the dishwasher drain.',
@@ -449,7 +449,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bond-hill': {
     intro:
-      'Garbage disposal leaking, stuck, or tripping the reset in Bond Hill? Our licensed plumbers repair, replace, and install disposals and handle the drain and dishwasher connections. Call (513) 586-5107.',
+      'Bond Hill kitchens in early-1900s and mid-century homes along Reading Road often run a long-serving garbage disposal that now hums, trips its reset or leaks at the flange. Corroded lines and clogged drains in homes this age can also leave a disposal backing up when the motor is fine.',
     relevance: [
       'Bond Hill (ZIP 45237) is a north-side neighborhood along Reading Road, with established streets of early-1900s and mid-century single-family homes. Many of those kitchens run a long-serving disposal that now hums without spinning, trips its reset, or leaks at the flange — the predictable end of a unit decades in service.',
       'Homes of that age carry decades-old drain plumbing, where corroded lines and clogged drains can leave a disposal backing up even when the motor is fine. We diagnose which it is, size the right replacement for the cabinet, and reconnect the dishwasher drain so it discharges cleanly.',

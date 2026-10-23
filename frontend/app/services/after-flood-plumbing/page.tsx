@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
@@ -37,12 +37,6 @@ const risks = [
   { lead: 'Corroding shutoffs', text: 'valves that sat in dirty water seize up. The one you need in an emergency is the one that will not turn.' },
 ];
 
-const whyUs = [
-  { icon: 'check' as const, title: 'Full System Inspection', text: 'We check the whole system, not just the fixture you noticed — floods do damage in places you would not look.' },
-  { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked plumbers who pull permits where the code calls for it, including gas work.' },
-  { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start, with no overtime or weekend fees.' },
-  { icon: 'clock' as const, title: 'Same-Day Service', text: 'A house you cannot safely use water in is an emergency. We reach most homes the same day.' },
-];
 
 const faqs = [
   {
@@ -119,32 +113,16 @@ export default function AfterFloodPlumbingPage() {
         ]}
       />
 
-      {/* Top CTA banner */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Flooded home in {site.serviceArea}? Get the plumbing checked
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/after-flood-hero.webp)' }}
             role="img"
             aria-label="Technician inspecting and repairing a heating system"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Plumbing Inspection After a Flood
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -172,17 +150,17 @@ export default function AfterFloodPlumbingPage() {
             aria-label="Plumber fitting a pipe connection with specialized tools"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               What We Check After a Flood
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
               Flood damage to plumbing is mostly invisible from where you are standing. These are the
               components that fail after a flood, in roughly the order they cause trouble:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {checks.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={s} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
               ))}
@@ -192,6 +170,24 @@ export default function AfterFloodPlumbingPage() {
               line after a flood is how people end up snaking the same pipe three times.
             </p>
           </div>
+        </div>
+      </section>
+
+      <ServiceReviews service="after-flood-plumbing" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Flooded home in {site.serviceArea}? Get the plumbing checked
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -205,7 +201,7 @@ export default function AfterFloodPlumbingPage() {
           </p>
           <ul className="mt-4 space-y-2">
             {risks.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}:</span> {b.text}
@@ -232,23 +228,10 @@ export default function AfterFloodPlumbingPage() {
             Why Choose {site.name} After a Flood
           </h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            After a flood you are getting a lot of advice from a lot of contractors, much of it
-            pointing at the most expensive option. We give you the reading, show you the line, and
-            separate what actually failed from what merely got wet.
+            After a flood, much of the advice you hear points at the most expensive option. We take
+            readings, show you what we found, and separate what actually failed from what only got
+            wet before recommending a fix.
           </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
           {/* Related */}
           <h2 className="mt-12 section-title text-brand-700">Related Plumbing Services</h2>
@@ -272,6 +255,13 @@ export default function AfterFloodPlumbingPage() {
             to replace the one that gave out.
           </p>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">After Flood Plumbing FAQs</h2>
           <div className="mt-4">
@@ -286,7 +276,7 @@ export default function AfterFloodPlumbingPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
+            <h2 className="text-2xl font-extrabold sm:text-3xl">
               Book Your Post-Flood Plumbing Check
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
@@ -307,20 +297,20 @@ export default function AfterFloodPlumbingPage() {
         </div>
       </section>
 
-      {/* After flood plumbing by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">After flood plumbing by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We inspect and repair the plumbing a flood left behind across {site.serviceArea} —{' '}
-            {locations.filter((l) => afterFloodPlumbingCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on your area.
-          </p>
-          <NeighborhoodLinks copy={afterFloodPlumbingCopy} basePath="/services/after-flood-plumbing" linkPrefix="After flood plumbing" />
-        </div>
-      </section>
-
-      <PageSections service="after-flood-plumbing" />
+      <ServiceSections service="after-flood-plumbing">
+        {/* After flood plumbing by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">After flood plumbing by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We inspect and repair the plumbing a flood left behind across {site.serviceArea} —{' '}
+              {locations.filter((l) => afterFloodPlumbingCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on your area.
+            </p>
+            <NeighborhoodLinks copy={afterFloodPlumbingCopy} basePath="/services/after-flood-plumbing" linkPrefix="After flood plumbing" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Energy-Efficient LED Systems', body: 'Modern LED fixtures use a fraction of the power of older bulbs and last far longer, which matters on a system that runs every night. We install efficient LED lighting so {neighborhood} homeowners get the look they want with lower running costs and less maintenance.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Experienced pros handling every outdoor connection safely.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Moisture-rated wiring and connections that meet code.' },
-    { icon: 'badge', title: 'Durable Fixtures', text: 'High-quality products rated to perform in Midwest weather.' },
-    { icon: 'clock', title: 'Reliable Scheduling', text: 'Transparent pricing and dependable timelines.' },
-  ],
+  whyParagraph: 'Outdoor wiring around {neighborhood} homes takes rain and frost, so our licensed electricians use moisture-rated wire and connections that meet code. The fixtures are rated for Midwest weather, and you get a clear price and a timeline we stick to.',
   proofQuote:
     'They mapped out the whole yard, lit the front path and the steps, and added uplights on the trees. No glare, no dark corners, and it has run through two winters without a hiccup. Clean wiring and a fair price.',
   sharedFaqs: [

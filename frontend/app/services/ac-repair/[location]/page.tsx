@@ -29,9 +29,9 @@ const config: ServiceLocationConfig = {
       ],
     },
     {
-      title: 'Seven-Day Emergency AC Repair Available',
+      title: 'Emergency AC Repair, Weekends Included',
       body: [
-        'Air conditioning problems do not follow a schedule. {brand} offers 7-day emergency AC repair for urgent issues affecting comfort or safety in {place}, with technicians available 7 days a week from 8am to 8pm.',
+        'Air conditioning problems do not follow a schedule. {brand} handles emergency AC repair for urgent issues affecting comfort or safety in {place}, with technicians out every day, Saturdays and Sundays included.',
         'Emergency service focuses on restoring cooling as quickly as possible while protecting the AC unit from further damage. Fast repairs reduce safety risks and bring your home back to a comfortable temperature.',
       ],
     },
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Same-Day Service to Beat the Heat', body: 'During a heat wave, a broken AC is more than an inconvenience. We provide same-day service whenever possible, reduce disruption, and complete every job with care and attention to detail so your cooling keeps working through the hottest stretch of summer.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'clock', title: 'Same-Day Service', text: 'We answer fast and reach most homes the same day, often within hours.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked, licensed HVAC techs you can trust in your home.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no surprises or overtime fees.' },
-    { icon: 'check', title: 'Repairs That Last', text: 'We fix the root cause, not just the symptom, so your home stays cool.' },
-  ],
+  whyParagraph: 'Most AC calls in {neighborhood} get a licensed, background-checked technician the same day. We fix the root cause rather than the symptom, and you approve a flat-rate price before work starts, with no overtime fees.',
   proofQuote:
     'Our AC quit during the first heat wave. They came out the same day, found a failed capacitor, and had us cool again within the hour.',
   sharedFaqs: [

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
@@ -30,12 +30,6 @@ const warningSigns = [
   'Rusty or discolored water at the tap',
 ];
 
-const whyUs = [
-  { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked, licensed plumbers you can trust in your home.' },
-  { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-  { icon: 'clock' as const, title: 'Same-Day Service', text: 'We staff for demand so most calls are handled the same day you reach out.' },
-  { icon: 'heart' as const, title: 'Locally Owned', text: 'A local company that treats your home and your time with respect.' },
-];
 
 const faqs = [
   { q: 'What kind of financing options are available for plumbing services?', a: `We know plumbing repairs and installations can be a big investment, so we offer financing with quick approvals and flexible terms. There is no minimum purchase required, which makes it easier to get the plumbing work your home needs across ${site.serviceArea}.` },
@@ -85,7 +79,7 @@ export default function PlumbingPage() {
       {/* Top CTA banner (full width) */}
       <section className="bg-hero-pink">
         <div className="container-page flex flex-col items-center gap-4 py-8 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase sm:text-2xl">
+          <h2 className="font-display text-xl font-extrabold sm:text-2xl">
             Need a plumber in {site.serviceArea}?
           </h2>
           <a
@@ -99,9 +93,9 @@ export default function PlumbingPage() {
       </section>
 
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot>
           {/* Overview */}
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Trusted Plumbers in {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -145,17 +139,17 @@ export default function PlumbingPage() {
 
           {/* Warning signs — pink band */}
           <div className="mt-12 overflow-hidden rounded-3xl bg-hero-pink p-7 text-white sm:p-9">
-            <h2 className="font-display text-2xl font-black uppercase leading-tight sm:text-3xl">
+            <h2 className="font-display text-2xl font-black leading-tight sm:text-3xl">
               Signs It Is Time to Call a Plumber
             </h2>
             <p className="mt-3 text-sm text-white/90">
               Small plumbing problems rarely fix themselves. Catching these early signs can save you
               from a much bigger repair down the line:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {warningSigns.map((w) => (
-                <li key={w} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={w} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {w}
                 </li>
               ))}
@@ -164,8 +158,8 @@ export default function PlumbingPage() {
 
           {/* Emergency banner */}
           <div className="mt-8 flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
-            <h2 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">
-              Plumbing emergency? We answer 7 days a week from 8am to 8pm.
+            <h2 className="font-display text-xl font-extrabold text-white sm:text-2xl">
+              Plumbing emergency? We answer 7 days a week.
             </h2>
             <Link href="/services/emergency-plumbing" className="btn-pink flex-shrink-0">
               Emergency Plumbing
@@ -174,7 +168,7 @@ export default function PlumbingPage() {
 
           {/* What to expect — pink band */}
           <div className="mt-8 overflow-hidden rounded-3xl bg-hero-pink p-7 text-white sm:p-9">
-            <h2 className="font-display text-2xl font-black uppercase leading-tight sm:text-3xl">
+            <h2 className="font-display text-2xl font-black leading-tight sm:text-3xl">
               What to Expect From Our Plumbers
             </h2>
             <p className="mt-3 text-sm text-white/90">
@@ -208,19 +202,9 @@ export default function PlumbingPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Plumbing</h2>
-          <div className="mt-5 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            Most plumbing calls are handled the same day because we staff for demand. Our plumbers are licensed and background checked, and you approve a flat-rate price before we start any work.
+          </p>
 
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Plumbing FAQs</h2>
@@ -236,7 +220,7 @@ export default function PlumbingPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
+            <h2 className="text-2xl font-extrabold sm:text-3xl">
               Book a Plumber in {site.serviceArea}
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
@@ -256,7 +240,7 @@ export default function PlumbingPage() {
         </MainWithSidebar>
       </section>
 
-      <PageSections service="plumbing" />
+      <ServiceSections service="plumbing" withProof />
     </>
   );
 }

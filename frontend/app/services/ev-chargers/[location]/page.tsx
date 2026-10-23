@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Cost, Financing, and Home Value', body: 'Install cost depends on the charger, the wiring distance, and whether the panel needs work — we give a {neighborhood} homeowner clear pricing up front and offer financing. A home charging station also reads as a real plus to future buyers as more drivers go electric.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Pros with EV charger experience who size the circuit correctly.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Every charger is installed to meet current electrical code.' },
-    { icon: 'badge', title: 'Clear Pricing & Financing', text: 'Upfront cost explanations and financing options before work begins.' },
-    { icon: 'house', title: 'Honest Panel Advice', text: 'Straight answers on whether your panel needs an upgrade.' },
-  ],
+  whyParagraph: 'Before quoting, licensed electricians look at whether your {neighborhood} panel can carry a charger or needs an upgrade. They size the circuit correctly and install to current code, and financing options are laid out before work begins.',
   proofQuote:
     'Bought an EV and needed a Level 2 charger in the garage. They checked the panel, found we had room, and installed it on a dedicated circuit in an afternoon. Clean wiring, fair price, and the car charges overnight now.',
   sharedFaqs: [

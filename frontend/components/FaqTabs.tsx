@@ -54,7 +54,7 @@ export default function FaqTabs() {
       <div className="mt-10 space-y-10">
         {groups.map((group) => (
           <div key={group.category}>
-            <h2 className="mb-4 font-display text-xl font-extrabold uppercase tracking-wide text-pink-500">
+            <h2 className="mb-4 font-display text-xl font-extrabold tracking-wide text-pink-500">
               {group.category}
             </h2>
             <Accordion

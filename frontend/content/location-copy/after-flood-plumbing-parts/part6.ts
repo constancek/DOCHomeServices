@@ -1,7 +1,7 @@
 export const part6: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   mulberry: {
     intro:
-      'Flood receding in Mulberry? Before you turn the water back on, we inspect and repair the plumbing it left behind across this Milford-area community off Ohio 131. Call (513) 586-5107.',
+      'Mulberry homes in the Milford area mostly have finished basements with gas water heaters on the lowest floor, so post-flood plumbing here begins with whether the burner and gas control went under. If they did, we replace the heater. Then we camera the sewer main and test every soaked shutoff.',
     relevance: [
       'Mulberry (ZIP 45150) is a run of mid-century and newer homes in the Milford area of western Clermont County, most with finished basements and gas water heaters sitting on the lowest floor. When water rises past that base, the burner assembly and gas control valve go under, and a unit that gets relit in that state fails unsafely rather than simply not working.',
       'We do not extract or dry — we check the plumbing a flood damages and leaves for later. That means a submerged water heater condemned and replaced instead of relit, a camera down the sewer main to find the silt a flood pushes in, and every shutoff valve that sat in dirty water tested so the one you need next time still turns.',
@@ -16,7 +16,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-repose': {
     intro:
-      'Water gone from a Mount Repose basement? We inspect the plumbing it damaged before you use it again, across this Milford-area community along Ohio 131. Call (513) 586-5107.',
+      'In Mount Repose, after-flood plumbing usually starts with the sump pump, which ran through the flood and often died in it. We bench-test the pump and check valve, camera the main for the silt a flood drives into the lateral, and check the shutoffs and supply lines that sat submerged.',
     relevance: [
       'Mount Repose (ZIP 45150) is a Milford-area community of mid-century and newer homes in Clermont County, and the sump pump that ran through the flood is usually the part that quietly died in it. A pump that pushed water for hours often burns out, and the check valve above it can clog or stick, so the next storm comes up through the floor with nothing to stop it.',
       'This service is the inspection and repair a flood leaves behind, not the clean-up. We bench-test the sump pump and check valve, camera the main for the silt a flood drives into the lateral, and check the shutoff valves and supply lines that sat submerged, because those are what seize a week later when nobody is watching.',
@@ -31,7 +31,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'day-heights': {
     intro:
-      'After a flood in Day Heights, we check the plumbing it left behind before you turn the water on, from the subdivisions to the semi-rural lots off Ohio 131. Call (513) 586-5107.',
+      'Day Heights mixes subdivisions with semi-rural lots on private wells and septic, and post-flood plumbing on those lots starts with the well. We pull a sample for contamination testing before anyone drinks. In the subdivision homes we replace a submerged water heater, camera the sewer main, and test shutoffs.',
     relevance: [
       'Day Heights (ZIP 45150) mixes suburban homes with semi-rural properties in the Milford area of Clermont County, and the rural lots run on private wells and septic. When flood water gets into a well or an open supply line, it carries bacteria and whatever was in the ground straight toward the tap, and that cannot be judged by looking at it.',
       'We inspect the plumbing a flood compromises rather than dry the house out. On well properties that means pulling a sample for contamination testing before anyone drinks, and on the subdivision homes it means condemning a submerged water heater, cameraing the sewer main for silt, and confirming the shutoffs still turn.',
@@ -46,7 +46,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'new-richmond': {
     intro:
-      'When the Ohio River backs into New Richmond, we inspect and repair the plumbing it leaves behind before the water goes back on in this historic riverfront village. Call (513) 586-5107.',
+      'New Richmond’s 19th-century homes line the Ohio riverfront, so flood plumbing repair in the village usually follows river water, not a burst pipe. We camera the lateral the river silted, replace any water heater whose burner sat under, clear traps and floor drains, and free seized shutoffs.',
     relevance: [
       'New Richmond (ZIP 45157) is a historic Ohio River village in Clermont County with 19th-century homes lined right along the riverfront, and here the flood is often the river itself, not a burst pipe. River flood water is dirty, and when it recedes it leaves silt packed into the sewer lateral and standing filth around every water heater and floor drain it touched.',
       'This is post-flood plumbing, not extraction. We camera the lateral the river silted, condemn any water heater whose burner sat under river water, clear the traps and floor drains packed with debris, and free the shutoffs and supply lines that seized in the muck, so the first heavy use does not back the whole thing up into the house.',
@@ -61,7 +61,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   amelia: {
     intro:
-      'After a flood in Amelia, we inspect the plumbing it left behind before you use it, across this community along the Ohio Pike corridor. Call (513) 586-5107.',
+      'Amelia’s mid-century and newer homes along Ohio Pike have water heaters and shutoffs old enough that a flood finishes them off, so after-flood plumbing here focuses on both. We exercise and replace seized shutoffs, replace a heater whose gas controls went under, and camera the main for silt.',
     relevance: [
       'Amelia (ZIP 45102) runs along the Ohio Pike corridor in Clermont County, an area of established mid-century and newer neighborhoods where the water heaters and shutoff valves have reached the age when flood water finishes them off. A valve that sat in dirty water corrodes and seizes, and the one you reach for in the next emergency is the one that will not turn.',
       'We check the plumbing a flood plants problems in rather than dry the structure. That means exercising and replacing seized shutoffs, condemning a water heater whose gas controls went under, and running a camera down the main for the silt a flood drives into it, so the recovery does not become a second flood inside.',
@@ -76,7 +76,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   batavia: {
     intro:
-      'When the East Fork floods Batavia, we inspect and repair the plumbing it leaves behind before you turn the water on in the county seat. Call (513) 586-5107.',
+      'Batavia’s historic village core sits on low ground along the East Fork, and after-flood plumbing in the county seat usually means silted laterals and submerged water heaters. We camera the main, replace heaters whose burners went under, clear traps and floor drains, and pull the village permit on gas work.',
     relevance: [
       'Batavia (ZIP 45103) is the Clermont County seat set on the East Fork of the Little Miami River, with a historic village core on low ground that the river reaches in heavy rain. When it does, it leaves silt in the sewer laterals of the older homes and dirty water around water heaters and floor drains that were never meant to sit submerged.',
       'This service inspects the plumbing a flood damages, not the clean-up. We camera the silted main, condemn heaters whose burners went under, clear the debris-packed traps and floor drains, and where the code calls for it we pull the village permit on the gas work rather than leave a submerged connection to fail later.',
@@ -91,7 +91,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   owensville: {
     intro:
-      'After a flood in Owensville, the plumbing worth checking first is the well and septic the water reached, before anyone drinks or the supply goes back on along the US 50 corridor. Call (513) 586-5107.',
+      'Owensville’s rural lots mostly draw from a private well and drain to septic, so after-flood plumbing there starts with both. A flooded well gets a sample tested before anyone drinks, and the septic gets checked for backflow. In the village core we replace submerged water heaters and camera the main.',
     relevance: [
       'Owensville (ZIP 45160) sits in eastern Clermont County, a small village with a historic core and rural lots spread around it, and most of those lots draw from a private well and drain to a septic field. Flood water that climbs to a well head or tops that field carries ground bacteria toward the tap and can push septic waste back toward the house, and none of it shows in how the water looks.',
       'On the rural lots the well the flood reached gets a sample pulled and tested before anyone drinks, and the septic gets checked for backflow toward the house. In the older village core a submerged water heater is condemned rather than relit, and the main goes on camera for the silt the water drove in. We handle the plumbing a flood leaves, not the drying.',
@@ -106,7 +106,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   goshen: {
     intro:
-      'After a flood in Goshen, we check the plumbing the water left behind before you use it, from the township wells to the subdivision sump pits along Ohio 28. Call (513) 586-5107.',
+      'The sump pump that ran all night through a Goshen storm is usually the part that gave out, so after-flood plumbing in this township starts there. We bench-test the pump and check valve, test any rural well the water reached before anyone drinks, and camera the main for silt.',
     relevance: [
       'The sump pump that ran all night through a Goshen storm is usually the part that quietly gave out in it. Goshen (ZIP 45122) is a township community in northern Clermont County, suburban builds mixed with rural lots, and a pump that pushed water for hours often cooks its motor while the check valve above it sticks, so the next storm comes up through the floor with nothing holding it back.',
       'We bench-test the sump pump and check valve under load before you trust them to the next storm, test any rural well the water reached before anyone drinks, and camera the main for silt. None of that is extraction or drying; it is the plumbing a flood leaves for later.',
@@ -121,7 +121,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   moscow: {
     intro:
-      'When the Ohio River comes up over Moscow, we inspect and repair the plumbing it leaves in the ground before the water goes back on in this low riverside village. Call (513) 586-5107.',
+      'Moscow sits on low riverside ground close to the Ohio, so after-flood plumbing in the village usually follows river water that packs the sewer lateral with silt. We camera the lateral first, replace any water heater whose burner went under, and clear traps and floor drains.',
     relevance: [
       'Moscow (ZIP 45153) sits on low riverside ground in southeastern Clermont County, close enough to the Ohio that the river itself is the flood when the gauge climbs. River water is dirty water, and when it drops it leaves the sewer lateral packed with silt while the older homes here run on lines that were never built to sit under it.',
       'The silted lateral goes on camera first, so we can tell whether it jets clean or a section has to come out. Any water heater whose burner went under the Ohio is condemned rather than relit, and the traps and floor drains are cleared of the debris the current carried in. This is the plumbing side of a flood, not the clean-up.',
@@ -136,7 +136,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   newtonsville: {
     intro:
-      'After a flood in Newtonsville, we inspect the well, the septic, and the plumbing the water left behind before you drink or turn the supply on in this rural Clermont village. Call (513) 586-5107.',
+      'Private wells and septic serve most of Newtonsville, so after-flood plumbing there starts below ground. A flooded septic field can push waste back into the lowest fixtures, so we check it and the floor drains for backflow, test the well before anyone drinks, and replace submerged water heaters.',
     relevance: [
       'Private wells and septic run most of Newtonsville, a small rural village (ZIP 45158) in northeastern Clermont County where the older homes sit well back from any city line. When a flood tops a septic field, the ground stops taking waste and the system can push it back up the lateral into the lowest fixtures in the house, and a flooded well takes on bacteria at the same time.',
       'The septic and the floor drains get checked for backflow before anyone runs water into them, the well gets a tested sample before anyone drinks, and a water heater whose controls went under is condemned rather than relit. We handle the plumbing a flood leaves behind, not the drying.',
@@ -151,7 +151,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   williamsburg: {
     intro:
-      'When the East Fork floods Williamsburg, we inspect and repair the plumbing it leaves behind before you use it in this historic village. Call (513) 586-5107.',
+      'Williamsburg’s 19th-century core sits on low ground along the East Fork, with rural homes on wells around it, so after-flood plumbing covers both. We camera silted laterals in the village, test flooded wells before anyone drinks, replace water heaters whose gas controls went under, and clear packed traps and drains.',
     relevance: [
       'Williamsburg (ZIP 45176) is a historic village on the East Fork of the Little Miami River in Clermont County, with a 19th-century core on low ground the river reaches in heavy rain and surrounding rural homes on wells. A flood here leaves silt in the old sewer laterals, contaminates flooded wells, and drowns water heaters that sit on the lowest floor.',
       'We inspect the plumbing a flood leaves rather than dry the structure. That means cameraing the silted lateral on the village homes, testing flooded wells on the rural lots before anyone drinks, condemning any water heater whose gas controls went under, and clearing the traps and floor drains a flood packs with debris.',
@@ -166,7 +166,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   bethel: {
     intro:
-      'After a flood in Bethel, we inspect the well, septic, and plumbing the water left behind before anyone drinks or uses the supply, along the Ohio 125 corridor. Call (513) 586-5107.',
+      'Bethel homes spread out from a 19th-century core, and many still use private wells and septic, so after-flood plumbing there often starts with a well sample before anyone drinks and a septic check for backflow. In the village we replace submerged water heaters, clear floor drains, and camera the main.',
     relevance: [
       'Bethel (ZIP 45106) grew up around a 19th-century core in southeastern Clermont County, with rural and small-town homes spread out from it, many still on private wells and septic. Those old lines and the wells that feed them are what a flood reaches first: water over a well head carries bacteria into the supply, and a topped septic field can back up into the house.',
       'On the rural lots we pull a well sample for testing before anyone drinks and check the septic for backflow. In the village a submerged water heater is condemned, the floor drains are cleared, and the main is put on camera for silt. All of it is post-flood plumbing, not clean-up.',
@@ -181,7 +181,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   ross: {
     intro:
-      'When the Great Miami floods Ross, we inspect and repair the plumbing it leaves behind before the supply goes back on in this Butler County township. Call (513) 586-5107.',
+      'When the Great Miami tops its banks, after-flood plumbing in Ross splits two ways. Low homes near the river take a water heater under, so we replace it and camera the silted lateral. Rural properties behind them have wells, and any well the flood reached gets tested before anyone drinks.',
     relevance: [
       'Ross (ZIP 45061) spreads across Ross Township in southwestern Butler County along the Great Miami River, small-town homes near the water and rural properties on wells and septic behind them. When the Great Miami tops its banks, the low homes take a water heater under the river while the rural wells behind them take on whatever the flood carried across the ground.',
       'A water heater whose burner went under the Great Miami is condemned and replaced, the silted lateral is put on camera, and any well the flood reached is sampled and tested before anyone drinks. That is the plumbing a flood leaves, not the water it dumped.',
@@ -196,7 +196,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   fairfield: {
     intro:
-      'After a flood in Fairfield, we inspect and repair the plumbing the water left behind before you use it, across this Butler County city off Route 4. Call (513) 586-5107.',
+      'Fairfield runs its own water and sewer, so a flood can bring a city boil advisory, but after-flood plumbing inside the house is a separate check. In these mid-century and newer homes we replace a submerged water heater, pull the city gas permit, camera the main, and test soaked shutoffs.',
     relevance: [
       'Fairfield (ZIP 45014) is a large Butler County city north of Cincinnati that runs its own water and sewer, which means a flood that compromises the supply brings a city boil advisory of its own. Its mid-century neighborhoods and newer subdivisions all sit on that city system, and when flood water reaches a gas water heater or an appliance gas connection, setting it right is permitted work, not a relight.',
       'We condemn and replace a submerged water heater rather than relight it, pull the city permit on the gas work where the code calls for it, camera the main for silt, and test the shutoffs that sat in dirty water. It is the plumbing a flood damages that we handle, not the structure.',
@@ -211,7 +211,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'beckett-ridge': {
     intro:
-      'After a flood in Beckett Ridge, we inspect the plumbing the water left behind before the supply goes back on in this West Chester golf-course community. Call (513) 586-5107.',
+      'Most Beckett Ridge homes went up from the 1980s onward with a gas water heater in a finished lower level, so after-flood plumbing starts there and at the sump pump. We bench-test the pump and check valve, replace a submerged heater, camera the main, and test shutoffs.',
     relevance: [
       'Most of Beckett Ridge went up from the 1980s onward, a planned West Chester community (ZIP 45069) in Butler County laid out around its golf course, and those homes put a finished lower level and a gas water heater on the lowest floor. When a storm floods that level, the burner and gas controls go under, and the sump pump that ran through the night often burns out doing its job.',
       'We bench-test the sump pump and check valve before the next storm arrives, condemn a submerged water heater rather than relight it, camera the main for silt, and confirm the shutoffs that sat in dirty water still turn. This is the plumbing a flood leaves, not the extraction.',
@@ -226,7 +226,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   wetherington: {
     intro:
-      'After a flood in Wetherington, we inspect the plumbing it left behind before you use it in this upscale West Chester golf-course community. Call (513) 586-5107.',
+      'Wetherington’s larger homes from the 1980s and 1990s carry larger plumbing systems, so after-flood plumbing here covers more water heaters, more shutoffs, and longer sewer runs. We replace any submerged heater, camera the main for silt, test every shutoff and supply line that went under, and check the sump pump.',
     relevance: [
       'Wetherington (ZIP 45069) is an upscale West Chester community in Butler County built around a golf course, with larger homes from the 1980s and 90s onward carrying larger plumbing systems. A flood in a house that size touches more water heaters, more shutoffs, and longer sewer runs, so more of the system sits in dirty water and more of it can seize or silt up unnoticed.',
       'We inspect the plumbing a flood leaves rather than dry it out. That means condemning any submerged water heater, cameraing the longer main for silt, testing every shutoff and supply line that went under, and checking the sump pump and check valve, so a large house does not spring a second flood from a part nobody thought to look at.',
@@ -241,7 +241,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   hamilton: {
     intro:
-      'When the Great Miami floods Hamilton, we inspect and repair the plumbing it leaves in the ground before the supply goes back on in this historic county seat. Call (513) 586-5107.',
+      'Hamilton’s German Village and Dayton Lane homes sit on low ground by the Great Miami, and after-flood plumbing in these 19th-century and early-1900s houses starts with silt in original galvanized and cast-iron laterals. We camera the line, replace a submerged water heater, and clear traps and drains.',
     relevance: [
       'Hamilton (ZIP 45011) is the Butler County seat, straddling the Great Miami River, and its historic districts like German Village and Dayton Lane are full of 19th-century and early-1900s homes on low riverside ground. A river flood packs silt into their original galvanized and cast-iron laterals, and because Hamilton runs its own city utility, the same flood can bring a boil advisory when the supply is compromised.',
       'On these century-old homes the silted lateral is put on camera, a water heater whose burner went under the Great Miami is condemned, the traps and floor drains are cleared of debris, and the gas work is permitted through the city where the code calls for it. Post-flood plumbing, not the clean-up.',
@@ -256,7 +256,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   millville: {
     intro:
-      'After a flood in Millville, we inspect the well, septic, and plumbing the water left behind before anyone drinks or the supply goes back on, west of Hamilton off Millville-Oxford Road. Call (513) 586-5107.',
+      'Millville’s older homes and rural properties largely draw from private wells and drain to septic, so after-flood plumbing west of Hamilton starts with testing a flooded well before anyone drinks and checking septic for backflow. In the village we replace submerged water heaters, clear floor drains, and camera the main.',
     relevance: [
       'West of Hamilton, Millville (ZIP 45013) is a small Butler County village where older homes give way to rural properties, and a good share of both draw from a private well and drain to septic. When a flood reaches a well head or tops a septic field, it carries bacteria toward the tap and can back the septic up into the house, and the water shows no sign of either.',
       'On the rural lots we test a flooded well before anyone drinks and check the septic for backflow. In the village a submerged water heater is condemned, the floor drains are cleared, and the main is cameraed for silt. We inspect the plumbing a flood compromises, not the house.',
@@ -271,7 +271,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'new-miami': {
     intro:
-      'When the Great Miami floods New Miami, we inspect and repair the plumbing it leaves behind before you use it in this old mill village north of Hamilton. Call (513) 586-5107.',
+      'New Miami is an old mill village on low ground by the Great Miami, and after-flood plumbing in its closely spaced homes starts at the floor drains and traps the river packed with mud. We clear them, camera the silted lateral, and replace any water heater whose burner went under.',
     relevance: [
       'New Miami (ZIP 45011) is an old mill community on the Great Miami just north of Hamilton, a village of closely spaced older homes on low riverside ground. When the river backs into those basements, it forces mud and grit down every floor drain and trap it reaches, and those fixtures sit lower than anything else in the house.',
       'The floor drains and traps are cleared of the debris the current packed in, the silted lateral is put on camera, and any water heater whose burner went under the Great Miami is condemned instead of relit. This is the plumbing a river flood leaves, not the house it filled.',
@@ -286,7 +286,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   monroe: {
     intro:
-      'After a flood in Monroe, we inspect and repair the plumbing the water left behind before the supply goes back on, across this growing city along I-75. Call (513) 586-5107.',
+      'Monroe is nearly all on city water and sewer, so after-flood plumbing there is permitted work when a gas water heater goes under or silt reaches the main. We replace submerged heaters, camera the main, pull the gas permit, and bench-test the sump pump and check valve in newer subdivisions.',
     relevance: [
       'Monroe (ZIP 45050) straddles the Butler and Warren County line along the I-75 corridor and has grown fast, so newer subdivisions sit beside an older town core, nearly all of it on city water and sewer. When a flood submerges a gas water heater or drives silt into the sewer main, putting it right is permitted work, and the city utility issues a boil advisory when its supply is compromised.',
       'In the newer subdivisions we bench-test the flooded sump pump and check valve; across the city we condemn submerged water heaters, camera the main for silt, and pull the permit on gas work where the code requires it. It is the plumbing a flood damages we inspect, not the structure.',
@@ -301,7 +301,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   landen: {
     intro:
-      'After a flood in Landen, we inspect the plumbing the water left behind before you use it in this planned Warren County community around its lake. Call (513) 586-5107.',
+      'Landen homes from the 1970s and 1980s have a finished lower level with a gas water heater, so after-flood plumbing in this planned community starts with the burner, gas controls, and sump pump. We bench-test the pump and check valve, replace a submerged heater, camera the main, and test shutoffs.',
     relevance: [
       'Landen (ZIP 45040) was planned out from the 1970s and 80s onward around its lake and common areas, a Warren County community near Maineville and Mason, and most of its homes finished the lower level and set a gas water heater down there. A storm that floods that level puts the burner and gas controls under water and leans hard on the sump pump, which often burns out running through it.',
       'We bench-test the sump pump and check valve before the next storm, condemn a submerged water heater rather than relight it, camera the main for silt, and confirm the shutoffs still turn. Post-flood plumbing inspection, not extraction.',
@@ -316,7 +316,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'loveland-park': {
     intro:
-      'When the Little Miami floods Loveland Park, we inspect and repair the plumbing it leaves behind before the supply goes back on, just north of Loveland. Call (513) 586-5107.',
+      'Loveland Park sits on low ground near the Little Miami, and after-flood plumbing in its mid-century homes comes down to shutoffs and supply lines already near the end. We exercise every valve that went under and replace the seized ones, camera the silted lateral, and replace a submerged water heater.',
     relevance: [
       'Loveland Park (ZIP 45140) sits just north of Loveland near the Little Miami River in Warren County, on low ground the river reaches in heavy rain. Its mid-century homes have shutoff valves and supply lines that were already near the end of their service, and a soak in dirty flood water is what finishes them: they corrode and seize, so the one you reach for in the next emergency will not turn.',
       'Every shutoff and supply line that went under is exercised and, where it has seized, replaced. The silted lateral is put on camera, and a water heater whose burner went under the Little Miami is condemned rather than relit. We handle the plumbing a flood leaves, not the house it soaked.',
@@ -331,7 +331,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   maineville: {
     intro:
-      'After a flood in Maineville, we inspect the plumbing the water left behind before you use it, from the rural wells to the subdivision sump pits along Ohio 48. Call (513) 586-5107.',
+      'A flood does two things in Maineville, and after-flood plumbing follows both. On rural lots it reaches a well or septic field, so we test the well before anyone drinks and check septic for backflow. In subdivisions it drowns water heaters and sump pumps, so we replace and bench-test those.',
     relevance: [
       'Maineville (ZIP 45039) is a growing town in southern Warren County, a small historic core ringed by newer subdivisions and rural homes on wells and septic. A single flood does two different things here: on the rural lots it reaches a well head or septic field and carries bacteria toward the tap, and in the subdivisions it drowns a water heater and burns out a sump pump.',
       'On the rural properties we test a flooded well before anyone drinks and check the septic for backflow; in the subdivisions we condemn a submerged water heater, bench-test the sump pump and check valve, and camera the main for silt. That is the plumbing a flood leaves, not the clean-up.',
@@ -346,7 +346,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pleasant-plain': {
     intro:
-      'After a flood in Pleasant Plain, we inspect the well, septic, and plumbing the water left behind before anyone drinks or the supply goes on, along Ohio 132. Call (513) 586-5107.',
+      'Most Pleasant Plain properties run on a private well and septic field, so after-flood plumbing in this Warren County village starts with a tested well sample before anyone drinks. We check the septic and floor drains for backflow, replace a submerged water heater, and test the supply valves that soaked.',
     relevance: [
       'Out in southeastern Warren County, Pleasant Plain (ZIP 45162) is a small village of older homes and rural properties, most of them on a private well and septic field. A flood over the well head carries bacteria straight to the tap, and one that tops the septic field can push waste back into the house, and neither clears on its own or shows in the water.',
       'The well gets a sample tested before anyone drinks, the septic and floor drains get checked for backflow, a submerged water heater is condemned rather than relit, and the supply valves that sat in dirty water are tested. It is post-flood plumbing inspection, not drying.',
@@ -361,7 +361,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-lebanon': {
     intro:
-      'When the Little Miami floods South Lebanon, we inspect and repair the plumbing it leaves behind before you use it in this growing riverside town. Call (513) 586-5107.',
+      'South Lebanon has grown along the Little Miami from a historic core on low ground, so after-flood plumbing there covers old homes and new builds. We bench-test sump pumps and check valves, replace water heaters whose burners went under, camera silted laterals in the older core, and free seized shutoffs.',
     relevance: [
       'South Lebanon (ZIP 45065) has grown fast along the Little Miami River in Warren County, new subdivisions pushing out from a historic core that sits on low riverside ground. When the river comes up, it drowns sump pumps and water heaters across both the old homes and the new builds, and leaves silt in the sewer laterals of the older core.',
       'In the newer homes the sump pump and check valve are bench-tested; a water heater whose burner went under the Little Miami is condemned, the silted lateral is put on camera, and the shutoffs that seized in dirty water are freed. This is the plumbing a flood leaves, not the house it filled.',
@@ -376,7 +376,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   lawrenceburg: {
     intro:
-      'When water gets behind the Lawrenceburg levee, we inspect and repair the plumbing a flood leaves behind before the supply goes on in this historic Indiana river city. Call (513) 586-5107.',
+      'When water gets behind the levee, after-flood plumbing in Lawrenceburg reaches the 19th-century buildings the city grew from. It runs its own Indiana utility and permitting, so we replace any submerged water heater or gas connection under a city permit, camera the silted lateral, and clear traps and floor drains.',
     relevance: [
       'A riverfront levee holds the Ohio back from downtown Lawrenceburg most of the time, but when high water gets behind it, the flood reaches the 19th-century buildings the city grew from. Lawrenceburg (ZIP 47025) is a historic river city in southeastern Indiana with a distilling heritage, and it runs its own utility and permitting in Dearborn County, so a flooded gas heater is Indiana permitted work.',
       'Any water heater or appliance gas connection the water reached is condemned rather than relit, the gas work is permitted through the city where the code calls for it, the silted lateral is cameraed, and the traps and floor drains are cleared. Post-flood plumbing, not the clean-up.',
@@ -391,7 +391,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   greendale: {
     intro:
-      'After a flood in Greendale, we inspect and repair the plumbing it left behind before you use it, on the hillside above the Ohio River next to Lawrenceburg. Call (513) 586-5107.',
+      'Greendale climbs the hillside above the Ohio next to Lawrenceburg, and heavy rain loads its basement drains hard, so after-flood plumbing here usually starts with a silted or overloaded lateral. We camera it, replace a submerged water heater, test the sump pump and check valve, and free seized shutoffs.',
     relevance: [
       'Greendale (ZIP 47025) is a Dearborn County city adjoining Lawrenceburg, climbing the hillside above the Ohio River, with older and mid-century homes. The hillside grade loads the basement drains hard in heavy rain, and when they back up or the low homes take on water, silt packs the laterals and the water heaters sit in dirty water.',
       'This service inspects the plumbing a flood leaves rather than dry the structure. We camera the silted or overloaded lateral, condemn a submerged water heater, test the sump pump and check valve that fought the hillside runoff, and free the shutoffs that seized in dirty water before you go back to normal use.',
@@ -406,7 +406,7 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
   },
   aurora: {
     intro:
-      'When the Ohio River comes up over Aurora, we inspect and repair the plumbing it leaves behind before you use it in this historic river town below Hillforest. Call (513) 586-5107.',
+      'Aurora’s 19th-century riverfront homes below Hillforest sit on low ground the Ohio reaches, so after-flood plumbing there usually follows river silt in original sewer laterals. We camera the lateral, replace any water heater whose burner went under, clear traps and floor drains, and free shutoffs that seized.',
     relevance: [
       'Below the Hillforest Victorian mansion, the Aurora riverfront runs right along the Ohio, a historic Dearborn County town (ZIP 47001) of 19th-century homes on low ground the river reaches when the gauge climbs. A river flood here leaves silt packed into the original sewer laterals and dirty water standing around water heaters and floor drains built for none of it.',
       'The silted lateral on these century-old homes is put on camera, any water heater whose burner went under the Ohio is condemned, the traps and floor drains are cleared of debris, and the shutoffs that seized in the muck are freed, so the line does not back up a week after everyone thinks it is over. This is post-flood plumbing, not extraction.',

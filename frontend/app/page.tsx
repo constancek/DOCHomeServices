@@ -95,7 +95,7 @@ function PromoBar() {
       <div className="container-page relative z-10 flex flex-col items-center gap-5 text-center">
         {/* On mobile the flame sits above the headline instead of on the left */}
         <Icon name="flame" className="h-14 w-14 text-white/85 sm:hidden" />
-        <h2 className="font-display text-3xl font-extrabold uppercase leading-[1.05] tracking-tight text-white sm:text-4xl lg:text-[42px]">
+        <h2 className="font-display text-3xl font-extrabold leading-[1.05] tracking-tight text-white sm:text-4xl lg:text-[42px]">
           $39 Furnace Tune-Up
         </h2>
         <a href="/request-estimate/" className="btn-pink px-7 py-3 text-sm">
@@ -151,7 +151,7 @@ function Hero() {
           <ul className="m-list mt-5 space-y-2.5">
             {['Same-Day Service', `Family Owned Since ${site.founded}`, '100% Satisfaction Guarantee'].map(
               (b) => (
-                <li key={b} className="flex items-center gap-2.5 text-sm font-semibold">
+                <li key={b} className="flex items-center gap-2.5 text-base font-semibold">
                   <span className="grid h-5 w-5 flex-shrink-0 place-items-center rounded-full bg-white">
                     <Icon name="check" className="h-3.5 w-3.5 text-pink-500" />
                   </span>

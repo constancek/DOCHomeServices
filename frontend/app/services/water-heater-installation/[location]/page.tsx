@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Financing and Same-Day Service in {neighborhood}', body: 'A failed water heater does not have to wait on budget or schedule. We offer financing so you can move forward without a large upfront cost, and we staff for demand to reach most {neighborhood} homes the same day you call.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'check', title: 'Proper Sizing', text: 'We match the system to your household so you get enough hot water without strain.' },
-    { icon: 'shield', title: 'Licensed & To Code', text: 'Background-checked plumbers and code-compliant installation from day one.' },
-    { icon: 'star', title: 'Financing Available', text: 'Move forward with installation now without a large upfront cost.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-  ],
+  whyParagraph: 'We match each new water heater to the size of your {neighborhood} household, so hot water lasts without the unit straining. Licensed plumbers install it to code, you approve a flat price first, and financing can spread the cost.',
   proofQuote:
     'Our 14-year-old tank finally gave out and they had a new one sized, installed, and tested the same afternoon. Walked us through tank versus tankless without any pressure, and the price was exactly what they quoted.',
   sharedFaqs: [

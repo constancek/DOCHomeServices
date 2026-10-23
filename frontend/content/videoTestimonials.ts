@@ -124,3 +124,27 @@ export function videoForLocation(
     videoTestimonials[0]
   );
 }
+
+// Service master pages have no town, so they pick by trade alone: electrical
+// services get Matthew, plumbing and water services Diane, heating and
+// cooling Dennis & Gail.
+const ELECTRICAL_SERVICES = new Set([
+  'electrical', 'lighting', 'basement-lighting', 'ceiling-fan-installation', 'electrical-inspections',
+  'electrical-mast-repair', 'electrical-panel-replacement', 'electricity-disconnection', 'ev-chargers',
+  'exhaust-fan-installation-repair', 'garage-lighting', 'holiday-lighting', 'home-rewiring', 'hot-tub-wiring',
+  'indoor-lighting', 'landscape-lighting', 'led-lighting', 'lighting-fixture-installation', 'outdoor-lighting',
+  'patio-lighting', 'recessed-lighting', 'storm-electricity-outage', 'surge-protector-installation',
+  'switches-outlets',
+]);
+const HVAC_SERVICES = new Set([
+  'air-conditioning', 'heating', 'ac-installation-replacement', 'ac-maintenance', 'ac-repair', 'boilers',
+  'furnace-installation-replacement', 'furnace-maintenance', 'furnace-repair', 'heat-pumps',
+  'indoor-air-quality', 'mini-split-installation', 'mini-split-repair', 'mini-splits',
+]);
+
+export function videoForService(slug: string): VideoTestimonial {
+  const trade = ELECTRICAL_SERVICES.has(slug) ? 'Electrician' : HVAC_SERVICES.has(slug) ? 'HVACBusiness' : 'Plumber';
+  return (
+    videoTestimonials.find((t) => t.id === (TRADE_VIDEO[trade] ?? 'testimonial-7')) ?? videoTestimonials[0]
+  );
+}

@@ -79,12 +79,7 @@ const config: ServiceLocationConfig = {
     },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us After a Storm',
-  whyUs: [
-    { icon: 'clock', title: 'Storm-Week Scheduling', text: 'When the weather turns we staff for it, because everyone needs the same repair on the same morning.' },
-    { icon: 'shield', title: 'Licensed for Service Work', text: 'Mast, meter base, and entrance cable repair is licensed, permitted work.' },
-    { icon: 'doc', title: 'Documented for Your Insurer', text: 'Photographs of the damage and an itemised invoice, which is what an adjuster asks for.' },
-    { icon: 'badge', title: 'We Handle the Inspection', text: 'We pull the permit and meet the inspector so Duke can reconnect without another delay.' },
-  ],
+  whyParagraph: 'When storms hit {neighborhood}, we staff up, since everyone needs the same repair the same morning. Mast, meter base and entrance cable repair is licensed work. We meet the inspector so Duke can reconnect, and photograph damage for your insurer.',
   proofQuote:
     'A limb took the mast off the side of the house and Duke told us they could not touch it. These guys had it rebuilt and inspected the next day, and the power was back on that evening.',
   sharedFaqs: [

@@ -27,7 +27,7 @@ export default function VideoTestimonialsPage() {
 
       <section className="bg-white pt-16">
         <div className="container-page max-w-4xl text-center">
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-700 sm:text-4xl lg:text-5xl">
+          <h2 className="font-display text-3xl font-black leading-tight text-brand-700 sm:text-4xl lg:text-5xl">
             Hear It Straight From Our Customers
           </h2>
           <p className="mx-auto mt-6 max-w-3xl text-base leading-relaxed text-ink/75 sm:text-lg">

@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'DIY vs. a Licensed Electrician', body: 'Hanging a fan looks simple until you hit the wiring and the structural support. A bad install in a {neighborhood} home leads to wobble, noise, or a safety hazard overhead. Our licensed electricians handle the box, wiring, balancing, and controls so it is secure and code-compliant from day one.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Fan-Rated Mounting', text: 'We anchor to a fan-rated box so your fan stays secure and wobble-free.' },
-    { icon: 'check', title: 'Licensed Electricians', text: 'Safe, code-compliant wiring and controls every time.' },
-    { icon: 'badge', title: 'Balanced & Quiet', text: 'We balance the blades and test every speed for smooth, quiet operation.' },
-    { icon: 'clock', title: 'Upfront Pricing', text: 'Clear quotes you approve before any work begins.' },
-  ],
+  whyParagraph: 'Your fan gets anchored to a fan-rated box, so it stays secure in your {neighborhood} home instead of wobbling loose. Licensed electricians wire it to code, balance the blades and test every speed, at a price you approve first.',
   proofQuote:
     'Our old fan wobbled and rattled for years — turned out it was hung on a regular light box. They put in a fan-rated box, mounted a new fan, balanced it, and it runs dead quiet now. Clean work and a fair, upfront price.',
   sharedFaqs: [

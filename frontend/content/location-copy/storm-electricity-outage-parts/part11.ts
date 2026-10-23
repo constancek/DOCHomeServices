@@ -6,7 +6,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part11: Record<string, LocationServiceCopy> = {
   'new-miami': {
     intro:
-      'New Miami shares Hamilton’s ZIP, and much of Hamilton runs on the city’s own utility, so confirm on your bill who supplies you before reporting an outage. For storm damage to the service on these old mill-village homes, we do the repair. Call (513) 586-5107.',
+      'New Miami shares Hamilton’s ZIP, and much of Hamilton runs on the city’s own utility, so confirm who supplies you before reporting a storm outage. On these closely spaced mill-village homes we repair damaged services, often several on a street, and replace flooded panels.',
     relevance: [
       'New Miami (ZIP 45011) is a small village on the Great Miami just north of Hamilton, an old mill community of closely spaced older homes. It shares Hamilton’s ZIP code, and that is worth pausing on, because much of Hamilton is served by the city’s own municipal electric utility rather than Duke Energy. Sitting immediately beside that territory means it is genuinely worth checking your bill before you report an outage, since telling the wrong utility costs you time at the worst possible moment.',
       'Beyond that, the village’s own character does the rest. Mill-community lots are narrow, so houses sit close together with short overhead spans, and one falling tree reaches several properties at once — damage here arrives in clusters along a street rather than singly. The Great Miami puts water into low levels where panels sit, and a panel that has been submerged is replaced rather than dried out, whichever utility is coming back to reconnect the meter.',
@@ -23,7 +23,7 @@ export const part11: Record<string, LocationServiceCopy> = {
 
   monroe: {
     intro:
-      'Monroe straddles Butler and Warren counties, so a storm repair permit goes to whichever county your part of town is in. We confirm that for your address, repair the damaged mast or meter base and coordinate the Duke reconnect. Call (513) 586-5107.',
+      'Monroe straddles Butler and Warren counties, so a storm repair permit goes to whichever county your part of town is in. We confirm that for your address, repair the damaged mast or meter base in the older town core and coordinate the Duke reconnect.',
     relevance: [
       'Monroe (ZIP 45050) straddles Butler and Warren counties along the I-75 corridor, which makes it one of the few cities where the county on your paperwork depends on which part of town you live in. After a storm that is not a technicality — a permit filed with the wrong county comes back and is refiled while you wait, at the point in the week when a day costs most. We confirm the authority for the specific address before anything goes in.',
       'The housing gives two different answers as well. The older town core has overhead services, some original, on tighter lots. The newer subdivisions along the corridor were largely developed with underground supply, so those houses have no mast or weatherhead to lose at all. The corridor itself is open ground, so where houses are overhead the wind tends to work fixings loose rather than limbs snapping things outright — damage that looks like nothing and still stops a reconnect.',
@@ -40,7 +40,7 @@ export const part11: Record<string, LocationServiceCopy> = {
 
   landen: {
     intro:
-      'Landen was largely built with underground supply, so after a storm a dark house usually means a utility outage, not broken equipment. Wiring in the common areas belongs to the association. For a fault at your meter base or panel, we repair it. Call (513) 586-5107.',
+      'Landen was largely built with underground supply, so after a storm a dark house usually means a utility outage, not broken equipment. Wiring in the common areas belongs to the association. For a fault at your meter base or panel, we repair it.',
     relevance: [
       'Landen (ZIP 45040) is a planned Warren County community built from the 1970s and 80s onward around its lake and common areas, and both halves of that description matter. A development of that era was frequently laid out with underground supply, which removes the mast and the weatherhead — the two components behind most storm damage to residential service. If your power is out here, a genuine utility outage is the most likely explanation rather than anything of yours being broken.',
       'The common areas raise a second point. Lighting, pump equipment and any service feeding shared facilities belong to the homeowners association rather than to any individual owner, so damage to those is the association’s to authorise and pay for. If what is dark is the common area rather than your house, the useful call is to the association. We are happy to deal with them directly, and we would rather tell you that than send someone to look at equipment you do not own.',
@@ -57,7 +57,7 @@ export const part11: Record<string, LocationServiceCopy> = {
 
   'loveland-park': {
     intro:
-      'Loveland Park shares Loveland’s ZIP but sits in Warren County, so a storm repair permit filed the Loveland way comes back. We confirm the county for your address, repair the damaged mast or meter base and coordinate the reconnect. Call (513) 586-5107.',
+      'Loveland Park shares Loveland’s ZIP but sits in Warren County, so a storm repair permit filed the Loveland way comes back. We confirm the county for your address, repair the damaged mast or meter base, check low panels near the Little Miami and coordinate the reconnect.',
     relevance: [
       'Loveland Park (ZIP 45140) sits just north of Loveland near the Little Miami, and it shares Loveland’s ZIP while being in Warren County. That combination is exactly the kind of thing that costs a day after a storm: a contractor working from the postal address assumes the Loveland answer, files with the wrong county, and the paperwork comes back. We confirm the authority for the specific address before submitting anything.',
       'The Little Miami supplies the physical risk to the low ground here. It has a steep catchment and responds quickly to heavy rain, so water can arrive during the same storm rather than a day afterwards, and it reaches the levels where panels sit. Submerged equipment is replaced rather than dried out. The housing is mid-century, with services largely of that era and many still original under trees now well above roof height.',
@@ -74,7 +74,7 @@ export const part11: Record<string, LocationServiceCopy> = {
 
   maineville: {
     intro:
-      'A storm repair in Maineville depends on where you live: older overhead services in the historic core, or underground-fed homes with no mast in the newer subdivisions. We sort out which you have and repair the damage. Call (513) 586-5107.',
+      'A storm repair in Maineville depends on where you live: older overhead services in the historic core, underground-fed homes with no mast in the newer subdivisions, or long private runs on rural land. We sort out which you have and repair the damage.',
     relevance: [
       'Maineville (ZIP 45039) is a growing town in southern Warren County with a small historic core, newer subdivisions around it, and rural property beyond that — three genuinely different situations for a storm repair. The historic core has older overhead services, some original, on buildings tall enough that the entrance may pass through the roof. The subdivisions were frequently developed with underground supply and have no mast to lose at all.',
       'The rural properties are the ones worth flagging on the phone. They sit back from the road on long private service runs, so damage can be anywhere along the line rather than at the house, and a good number are on private wells — meaning an outage takes your water with it, because the pump is electric. Septic pumps stop too. None of that is something we can tell from an address, and all of it changes how we prioritise and equip the visit.',
@@ -91,7 +91,7 @@ export const part11: Record<string, LocationServiceCopy> = {
 
   'pleasant-plain': {
     intro:
-      'Pleasant Plain is among the most rural places we serve, so the utility lines here come back late in a regional storm. Your own repair doesn’t have to wait for them. We fix storm damage to the mast, meter base or panel on your side. Call (513) 586-5107.',
+      'Pleasant Plain is among the most rural places we serve, so the utility lines here come back late in a regional storm. Your own repair doesn’t have to wait for them. We fix damage to the mast, meter base or panel on your side of the meter.',
     relevance: [
       'Pleasant Plain (ZIP 45162) is a small village in southeastern Warren County with older homes and rural property around it, and it is among the most rural places we serve. Restoration works outward from the denser areas, so the lines here are consistently late in a regional storm — there is simply a long way to come. Planning around that beats waiting on it, because your own repair does not depend on a utility crew arriving.',
       'The rural property brings the well question, which changes the urgency considerably. A private well pump is electric, so no power means no water for washing, flushing or drinking, and a septic pump stops as well. Long private service runs also mean the damage may be somewhere out along the line rather than at the house. Both are worth saying on the phone so we arrive with the right expectations and the right equipment.',
@@ -108,7 +108,7 @@ export const part11: Record<string, LocationServiceCopy> = {
 
   'south-lebanon': {
     intro:
-      'In South Lebanon, a house in the 19th-century core may be on a decades-old service entrance while one nearby is five years old and fed underground. Storm repairs differ between them, and we handle both. Call (513) 586-5107.',
+      'In South Lebanon, a house in the 19th-century core may be on a decades-old service entrance while one nearby is five years old and fed underground, so storm repairs differ between them. We handle both, plus flooded panels near the Little Miami.',
     relevance: [
       'South Lebanon (ZIP 45065) sits on the Little Miami in Warren County, with a historic core and subdivisions expanding fast around it — and that produces about the widest span of service ages we deal with anywhere. Houses in the old core may be on entrances that are original or reworked decades ago. Houses a short distance away may be five years old, fed underground, with a modern panel and no mast or weatherhead in existence.',
       'The same storm therefore produces completely different outcomes within the same town. Old core: a limb takes an entrance off a wall, and the repair is a full rebuild with an inspection. New subdivision: nothing overhead to lose, and any outage is the utility’s or a fault at the meter or in the panel. The Little Miami adds water to the low ground near it, responding quickly to heavy rain, and a submerged panel is replaced rather than dried out.',
@@ -125,7 +125,7 @@ export const part11: Record<string, LocationServiceCopy> = {
 
   lawrenceburg: {
     intro:
-      'Lawrenceburg is in Indiana, served by Duke Energy Indiana under Indiana rules, not Duke Energy Ohio. For storm damage to the service on a 19th-century downtown building or a home behind the levee, we repair it and coordinate the reconnect. Call (513) 586-5107.',
+      'Lawrenceburg is in Indiana, served by Duke Energy Indiana under Indiana rules, so storm outage restoration and permits differ from Ohio. For damage to the service on a 19th-century downtown building or a home behind the levee, we repair it and coordinate the reconnect.',
     relevance: [
       'Lawrenceburg (ZIP 47025) is a historic Ohio River city in southeastern Indiana, with a downtown of 19th-century buildings behind a riverfront levee. The first thing to know is jurisdictional: Indiana is served by Duke Energy Indiana, a separate operating company from Duke Energy Ohio, with its own crews, its own restoration sequencing, and the Indiana Utility Regulatory Commission rather than PUCO as regulator. Permits and inspections follow Indiana rules and the local authority here, not Ohio’s.',
       'The levee changes the flood picture in a way worth understanding. It protects the downtown from the river itself, but any levee system relies on moving interior water out — and pumps need electricity. So a power outage arriving at the same time as high water is a compounding problem here rather than two separate ones, and that applies to your own sump pump as much as anything larger. The 19th-century buildings themselves have tall entrances, frequently through the roof.',
@@ -142,7 +142,7 @@ export const part11: Record<string, LocationServiceCopy> = {
 
   greendale: {
     intro:
-      'Greendale climbs the wooded hillside above Lawrenceburg, so storm damage here is wind and limbs rather than flood water. Drops crossing the grade let a falling limb pull harder on the mast. We repair the mast or meter base and coordinate the reconnect. Call (513) 586-5107.',
+      'Greendale climbs the wooded hillside above Lawrenceburg, so storm damage here is wind and limbs rather than flood water. Drops crossing the grade let a falling limb pull harder on the mast. We repair the mast or meter base and coordinate the Duke Energy Indiana reconnect.',
     relevance: [
       'Greendale (ZIP 47025) adjoins Lawrenceburg but climbs the hillside above the Ohio, and that elevation inverts the problem. Down in Lawrenceburg the recurring risk is water and what it does to panels in low levels. Up here it is wind and limbs — the slope is wooded, the exposure is higher, and service drops run across a grade rather than level, which puts them under more tension and gives a falling limb more leverage on the mast.',
       'The steepness affects access as well as damage. On the steeper streets there may be nowhere to place a ladder at the angle we would want, so the setup can take longer than the repair — worth mentioning your street when you call so the visit is scheduled with enough time. As throughout Indiana, the utility is Duke Energy Indiana rather than Duke Energy Ohio, with separate crews and its own restoration sequence.',
@@ -159,7 +159,7 @@ export const part11: Record<string, LocationServiceCopy> = {
 
   aurora: {
     intro:
-      'Aurora’s 19th-century riverfront homes are tall for their footprint, so the service entrance sits high or runs through the roof. A storm-bent mast there opens the roof too. We repair it, seal the flashing, and coordinate the reconnect. Call (513) 586-5107.',
+      'Aurora’s 19th-century riverfront homes are tall for their footprint, so the service entrance sits high or runs through the roof, and a storm-bent mast there opens the roof too. We repair it, seal the flashing, replace flooded panels and coordinate the reconnect.',
     relevance: [
       'Aurora (ZIP 47001) is a historic Ohio River town in Dearborn County, with a riverfront downtown of 19th-century homes and buildings and the Hillforest mansion above it. Two things shape storm repairs here. The houses are genuinely old and tall for their footprint, so the service entrance sits high on the wall or passes up through the roof — and when a limb bends a mast at a roof penetration you have a wiring problem and an opening in the roof at the same time. The flashing and the seal are part of our job, not a roofer’s follow-up.',
       'The second is position. This is among the farthest points downstream we serve, in Indiana, which means Duke Energy Indiana — separate crews, separate sequencing, and restoration working outward from population centres well away from here. The low riverfront ground puts water into the levels where panels live, and submerged equipment is replaced rather than dried out. Both of those argue for getting your own repair started before the line comes back.',

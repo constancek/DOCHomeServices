@@ -1,7 +1,7 @@
 export const part2: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   madeira: {
     intro:
-      "Basement flooded in Madeira? We find which failure let the water in before we fix anything, from the homes around Miami and Euclid Avenues out to the quieter side streets. Call (513) 586-5107.",
+      'Madeira basement flooding on a dry night usually means the sump pump in the corner of a finished mid-century basement failed. A seized pump, a stuck float, or a check valve letting water run back is the usual cause. We load-test the pump and camera the discharge line.',
     relevance: [
       "Madeira is an established east-side city of mid-century homes, most with a finished basement and a sump pit tucked in the corner. When one of these basements floods on a dry night, a seized pump, a stuck float, or a check valve that let the water run back is usually what did it, and the pump gives no warning when it goes.",
       "Cut the power to the basement level before you go down, then call us. We load-test the pump, watch the float travel, and camera the discharge line for the blockage that sends pumped water straight back inside, so the part we replace is the part that actually failed.",
@@ -17,7 +17,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   wyoming: {
     intro:
-      "When a basement floods in one of Wyoming's grand Victorian homes north of the city, we trace where the water came in before quoting a repair. Call (513) 586-5107.",
+      'In Wyoming’s large Victorian homes, basement flooding can come from above, when a split copper or galvanized line in the ceiling soaks a finished lower level. Clean water points to a supply line or water heater, so we trace whether it came up or down and repair the burst run.',
     relevance: [
       "Wyoming is a historic suburb of large Victorian and early-1900s houses, many with finished lower levels and original supply lines running through the ceilings and walls above them. A split copper or corroded galvanized line up there can flood a basement from above, and the water looks the same on the floor as a pump failure does.",
       "We do not guess. We trace the water back to whether it came up from the floor or down from a ceiling line, isolate the burst run, and repair it, so the finished lower level these homes are known for does not get torn open for the wrong pipe.",
@@ -33,7 +33,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   mariemont: {
     intro:
-      "Basement flooding in Mariemont? We find the failure behind it before we touch anything, from the streets around the village square out through the Tudor blocks. Call (513) 586-5107.",
+      'Mariemont’s 1920s Tudor homes sit on original cast-iron drains, and basement flooding there often comes from a line that cracked under the slab. With no visible pipe to point to, we camera the under-slab drains to find the break and repair it without disturbing the historic homes.',
     relevance: [
       "Mariemont was laid out in the 1920s and is now a National Historic Landmark, so its Tudor Revival homes are approaching a century of wear. Under those basement slabs, the original cast-iron drain lines crack and separate at the joints, and a broken line under the floor floods the basement from below with no visible pipe to point to.",
       "We camera the under-slab drains to find the break rather than opening concrete on a guess, then repair the separated line. On homes this age we work to keep the village's historic character intact while we do it.",
@@ -49,7 +49,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   cheviot: {
     intro:
-      "Basement flooded in Cheviot? We work out which failure let the water in before we fix it, across the brick two-families and older homes along Harrison Avenue. Call (513) 586-5107.",
+      'Dark, foul water in a Cheviot basement usually means a backed-up floor drain or main sewer line in these early-1900s brick two-families, and it is contaminated. Basement flood repair here means snaking and cameraing the main, clearing the blockage, and checking for roots or a collapsed section.',
     relevance: [
       "Cheviot is a dense, early-1900s west-side city of brick two-families running on aging cast-iron drains and clay laterals. When one of these basements floods with dark, foul water, it is usually a backed-up floor drain or main sewer line, and that water is contaminated the moment it comes up the drain.",
       "Treat that water as a health hazard and keep off it. We snake and camera the main to find the blockage, clear it, and check whether roots or a collapsed section will bring it back, so you are not mopping the same sewage in a month.",
@@ -65,7 +65,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   covedale: {
     intro:
-      "When a Covedale basement floods on a dry night, the water heater is the first thing we check, from the homes along Glenway and Cleves Warsaw out to the Green Township edge. Call (513) 586-5107.",
+      'Nearly every Covedale home keeps its water heater on the basement floor, and a tank that rusts through at the base often floods the basement. It dumps forty gallons and keeps feeding. We check the base, shut the water and gas, and replace it.',
     relevance: [
       "Nearly every Covedale home, from the early-1900s houses to the mid-century ones near Green Township, keeps its water heater down on the basement floor. When the steel tank rusts through at the base, it lets go of forty or more gallons at once and then keeps feeding the floor from the supply line above it, so the flood traces back to the one appliance nobody thinks to watch.",
       "We check the base of the tank and the burner compartment for the rot that gives it away, shut the water and gas to it, and replace what failed. If the water is instead seeping in low at the walls after rain with the tank dry, that is groundwater and grading rather than plumbing, and we will say so before you pay for a heater you did not need.",
@@ -81,7 +81,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   covington: {
     intro:
-      "Basement flooded in Covington? We trace which failure let the water in, from the rowhouses of MainStrasse Village to the homes along Licking Riverside. Call (513) 586-5107.",
+      'Covington basement flooding near MainStrasse Village and Licking Riverside is usually the sewer backing up when the Ohio and Licking run high. These 19th-century homes sit on original cast-iron mains, and the backup water is contaminated. We camera the lateral, clear the blockage, and discuss a backwater valve.',
     relevance: [
       "Covington's historic districts sit on low ground where the Ohio and Licking Rivers meet, so when the water is high the sewer has nowhere to drain and backs up into riverfront basements. The 19th-century homes here run on original cast-iron mains, which makes those backups both more likely and messier.",
       "That backup water is contaminated, so stay off it. We camera the lateral to find where it is choking, clear it, and talk you through a backwater valve suited to a home this close to the river, so the next high water does not come up the drain.",
@@ -97,7 +97,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   newport: {
     intro:
-      "Basement flooding in Newport? We find which failure let the water in before we quote a repair, from the Victorian streets of the East Row to the homes near the Levee. Call (513) 586-5107.",
+      'Storms drive more water at Newport’s riverfront basements than one sump can move, so flooding in the East Row often means a pump that quit or lost power. We load-test the pump, watch the float, and check the check valve. Water through the foundation is a drainage job instead.',
     relevance: [
       "Storms drive more water at Newport's low riverfront basements than a single sump can move, and the failure hides until the water is already down. In the East Row, one of the largest Victorian districts in Kentucky, a pump that quit partway through the storm or lost power at the worst moment is the common reason a basement floods here.",
       "Kill the power to the basement level before you go down, then call. We load-test the pump against real flow, watch the float travel, and check the check valve, and if a power cut was what caught you we size a battery backup for the next one, all while keeping the East Row's original details intact. If the plumbing is sound and water is coming through the old foundation instead, that is a drainage job, not ours.",
@@ -113,7 +113,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   bellevue: {
     intro:
-      "Basement flooded in Bellevue? We trace which failure let the water in, across the tight streets and late-1800s homes near Fairfield Avenue. Call (513) 586-5107.",
+      'Bellevue’s late-1800s homes sit on low ground near the Ohio, and basement flooding there is usually the sewer backing up through the floor drain when the river runs high. We camera the main, clear the blockage, and check whether the old cast iron will clog again.',
     relevance: [
       "Bellevue is a compact river city of well-preserved late-1800s homes on low ground close to the Ohio. When the river runs high, the sewer backs up into these old basements through the floor drain, and the century-old cast-iron mains here clog easily on top of it.",
       "That water is contaminated, so keep off it and ventilate the level. We camera the main to find the blockage, clear it, and check whether the age of the pipe means it will keep happening, so the fix holds past the next high water.",
@@ -129,7 +129,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "fort-thomas": {
     intro:
-      "Basement taking water in Fort Thomas? We find out whether it is a plumbing failure or something outside the house before quoting a fix, on the streets around Fort Thomas Avenue and the old Army post. Call (513) 586-5107.",
+      'Many wet basements in Fort Thomas are not a basement flood plumbing job. On these hills, water seeping in at the wall base after heavy rain is groundwater and grading, which a waterproofing contractor fixes. If a supply line or drain failed, we trace and repair it.',
     relevance: [
       "Fort Thomas sits high above the river on the hills around the former Army post, so many wet basements here are not a plumbing problem at all. When water seeps in at the base of the walls after heavy rain on ground that slopes toward the house, that is groundwater and grading, not a pipe.",
       "We tell you that plainly. If your plumbing is sound and the water is coming through the foundation, the right call is a waterproofing or drainage contractor, not us, and that honest answer is worth more than a pump you did not need. If a supply line or drain did fail, we trace it and repair it.",
@@ -145,7 +145,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   florence: {
     intro:
-      "Basement flooding in Florence? We find the failure behind it before we fix it, across the mid-century neighborhoods and newer subdivisions around the Florence Mall area. Call (513) 586-5107.",
+      'Florence basement flooding often starts with a water heater, since even newer subdivision tanks are aging out. One that rusts through at the base floods the floor quietly overnight. We check the tank base, shut the water and gas, and replace it.',
     relevance: [
       "Florence is one of the fastest-growing cities in Boone County, and even its newer subdivision homes are now old enough for the basement water heater to reach the end of its life. A tank that rusts through at the base floods the basement quietly overnight, feeding the floor from the supply line until someone finds it.",
       "We check the tank base and burner area for the corrosion that gives it away, shut the water and gas, and replace what let go. If the water came from a pump or a drain instead, we trace that rather than default to the heater.",
@@ -161,7 +161,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   erlanger: {
     intro:
-      "Basement flooded in Erlanger? We work out which failure let the water in before we fix it, across the mid-century neighborhoods near the airport. Call (513) 586-5107.",
+      'Dark water at the floor drain is the sign of basement flooding in Erlanger, where mid-century homes run on decades-old sewer laterals prone to roots and settling. That backup is contaminated. We camera the lateral, clear the blockage or break, and say whether lining or a spot repair is due.',
     relevance: [
       "Erlanger's settled mid-century homes in Kenton County run on sewer laterals that are decades old, and roots and settling leave them prone to backing up. When one of these basements floods with dark water at the floor drain, the lateral is usually the culprit, and that backup water is contaminated.",
       "Keep off it and let us camera the lateral to find the blockage or break, clear it, and tell you whether the age of the pipe means a lining or spot repair is due, so you are not cleaning up the same backup next season.",
@@ -177,7 +177,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   mason: {
     intro:
-      "Basement flooding in Mason? We find the failure that let the water in before we fix it, across the newer subdivisions near Kings Island and the older town center. Call (513) 586-5107.",
+      'Mason’s subdivisions were mostly built from the 1990s onward, and their basements rely on a single sump pump, so basement flooding there usually means it failed. A worn pump, a hung float, or a bad check valve lets the pit overflow. We test all three and recommend a battery backup.',
     relevance: [
       "Mason's large subdivisions were built mostly from the 1990s onward, and those homes rely on a single sump pump to keep the basement dry. A pump that wears out, a float that hangs up, or a check valve that fails lets the pit overflow during the next storm, and the pump gives no notice before it quits.",
       "Shut the power to the basement before going down, then call. We load-test the pump, check the float and check valve, and clear the discharge line, then recommend a battery backup for the power-loss storms that catch most subdivision homes.",
@@ -193,7 +193,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "west-chester": {
     intro:
-      "Basement flooded in West Chester? We trace which failure let the water in before we fix it, across the subdivisions along the I-75 corridor. Call (513) 586-5107.",
+      'Flooded basements in West Chester subdivisions often come from above, where supply lines run through finished ceilings and utility walls. A split line or failed fitting stays hidden behind drywall, so we shut the main, follow the water to the split without opening the whole ceiling, and repair that run.',
     relevance: [
       "West Chester grew fast from the 1990s onward, and those newer homes run supply lines through finished basement ceilings and utility walls. A split line or a failed fitting up there floods the basement from above, and on a finished lower level the source is hidden behind drywall until someone traces it.",
       "We follow the water back to the split rather than opening the whole ceiling, isolate that run, and repair it. Cutting the water at the main first keeps the damage from spreading while we find it.",
@@ -209,7 +209,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   pendleton: {
     intro:
-      "Basement flooding in a Pendleton building? We find which failure let the water in before we fix it, across the restored Italianate blocks on the edge of Over-the-Rhine. Call (513) 586-5107.",
+      'Pendleton’s 1800s Italianate lofts and condos sit on original drain lines under their basement floors, and a cracked cast-iron line under the slab can flood the lowest level from below. We camera the under-slab drains to find the break instead of opening a shared basement floor, then repair that section.',
     relevance: [
       "Pendleton's mid-1800s Italianate buildings, now lofts and condos, sit on original drain lines run under their basement floors. A cracked or separated cast-iron line under the slab floods the lowest level from below and can reach several units, with no visible pipe overhead to explain it.",
       "We camera the under-slab drains to locate the break instead of opening floor across a shared basement, then repair the separated section. In tightly built historic blocks, finding the exact point matters more than anywhere.",
@@ -225,7 +225,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   queensgate: {
     intro:
-      "Basement or lower-level flooding in Queensgate? We find which failure let the water in before we fix it, across the industrial buildings near the rail yards and the Mill Creek. Call (513) 586-5107.",
+      'Lower-level flooding in Queensgate’s older industrial buildings is usually a sewer or storm backup, since the district sits low along the Mill Creek. Water rising through a floor drain is contaminated. We camera the main, clear the blockage, and talk through a backwater valve suited to a low-lying commercial building.',
     relevance: [
       "Queensgate is the low, largely industrial district west of downtown along the Mill Creek, and that low ground floods readily. When water comes up through a floor drain in one of these older buildings during heavy rain, it is a sewer or storm backup, and that water is contaminated.",
       "Keep people off the flooded level and cut the power to it. We camera the main to find where it is backing up, clear it, and talk through a backwater valve suited to a low-lying commercial building, so the next storm does not push the drain back inside.",
@@ -235,13 +235,13 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "Do you handle backups in Queensgate commercial buildings?",
-        a: "Yes. Queensgate is mostly commercial and industrial on low ground, and we camera and clear the mains in those buildings the same way we do in homes, 7 days a week from 8am to 8pm.",
+        a: "Yes. Queensgate is mostly commercial and industrial on low ground, and we camera and clear the mains in those buildings the same way we do in homes, 7 days a week.",
       },
     ],
   },
   cuf: {
     intro:
-      "Basement flooded in a CUF rental near UC? We find which failure let the water in before we fix it, across Clifton Heights, University Heights, and Fairview. Call (513) 586-5107.",
+      'In CUF’s subdivided student rentals near UC, basement flooding often comes from a shared water heater worked past its size. A tank that rusts through at the base cuts hot water to several units. We confirm it is the heater, not a stack, then replace it.',
     relevance: [
       "CUF's older homes near the University of Cincinnati are largely subdivided into student rentals, and the shared water heaters in them run flat out for far more people than they were sized for. An overworked tank that rusts through at the base floods the basement and can leave several units without hot water at once.",
       "We check the tank base and burner compartment for the corrosion behind it, shut the water and gas, and replace what failed. In a house split into units, we confirm the flood is the heater and not a shared stack before swapping anything.",
@@ -257,7 +257,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "camp-washington": {
     intro:
-      "Basement flooded in Camp Washington? We work out which failure let the water in before we touch anything, across the old worker housing down in the Mill Creek valley near the American Sign Museum. Call (513) 586-5107.",
+      'Camp Washington sits low in the Mill Creek valley, so basement flooding there is usually a hard rain pushing the sewer back up through floor drains in old worker housing. That water is sewage. We camera the main, clear the blockage, and fit a backwater valve.',
     relevance: [
       "Down in the Mill Creek valley, Camp Washington sits low enough that a hard rain overwhelms the sewer and pushes it back up through the basement floor drains in the old worker housing and factories here. That backup is sewage the moment it clears the drain, and the neighborhood's age means the mains carrying it already clog easily.",
       "Stay off the flooded level and let us camera the main to find the blockage or the point where the storm sewer backed it up, then clear it and fit a backwater valve suited to this low valley ground. If the water is clean and coming in at the walls instead, that points to grading, not the sewer, and we will tell you.",
@@ -273,7 +273,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "south-fairmount": {
     intro:
-      "Basement taking water in South Fairmount? We find out whether it is a plumbing failure or the valley itself before quoting a fix, in the homes along Queen City Avenue near the Lick Run Greenway. Call (513) 586-5107.",
+      'Much of the basement flooding in South Fairmount is not a plumbing problem. In the Lick Run valley, runoff that seeps in low at the walls is groundwater and grading, a job for a waterproofing contractor. We dye-test the drains to confirm and repair any line that did fail.',
     relevance: [
       "South Fairmount sits in the Lick Run valley, rebuilt around the Lick Run Greenway stormwater project after a long history of valley flooding, and much of the water that reaches these basements is not a plumbing problem at all. When storm runoff finds the foundation and seeps in low at the walls, that is groundwater and grading, not a failed pipe, and no amount of new plumbing will hold it back.",
       "We say that plainly. We read where the water is entering and dye-test the drains to confirm the plumbing is sound, and if it is, the right call is a waterproofing or drainage contractor rather than us. If a supply line or drain did fail, we trace it and repair it instead of selling you a pump you do not need.",
@@ -289,7 +289,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "east-end": {
     intro:
-      "Basement flooding in the East End? We find which failure let the water in before we fix it, in the riverfront homes along Eastern Avenue below Columbia Parkway. Call (513) 586-5107.",
+      'Along the river below Columbia Parkway, East End basement flooding usually means the sewer backing up through the floor drain when the Ohio runs high. That backup is contaminated. We camera and clear the main, then fit a backwater valve sized for the house.',
     relevance: [
       "The East End runs in a narrow strip right on the Ohio River below Columbia Parkway, so when the river is high the sewer cannot drain and backs up into these low riverfront basements through the floor drain. That backup water is contaminated, and the older cottages here sit closest to the water.",
       "Keep off the flooded level and let us camera the main to find where it is choking, clear it, and fit a backwater valve suited to a home this close to the river, so high water does not keep coming up the drain.",
@@ -305,7 +305,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "north-fairmount": {
     intro:
-      "Basement taking water in North Fairmount? We find whether it is a plumbing failure or something outside the house before quoting a fix, on the hillside streets above the Mill Creek valley. Call (513) 586-5107.",
+      'On North Fairmount’s hillside, a lot of basement flooding is storm runoff seeping in at the wall base, a grading issue for a waterproofing contractor, not plumbing. If a drain or supply line in these early-1900s homes failed, we trace and fix it.',
     relevance: [
       "North Fairmount's early-1900s homes sit on a hillside above the Mill Creek valley, and much of the water that reaches these basements is not a plumbing problem. On a downhill grade, storm runoff finds the foundation and seeps in at the wall base, which is a grading and drainage issue rather than a failed pipe.",
       "We tell you that straight. If your plumbing is sound and the water is groundwater coming through the foundation, a waterproofing or drainage contractor is the right call, not us. If a drain or supply line did fail, we trace it and repair it instead of selling you a pump.",
@@ -321,7 +321,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   evanston: {
     intro:
-      "Basement flooded in Evanston? We trace which failure let the water in before we open anything, in the early-1900s homes near Xavier University. Call (513) 586-5107.",
+      'Evanston’s early-1900s homes near Xavier carry aging galvanized supply lines, and a split one is a common cause of basement flooding from above. In the denser rentals that leak can run for hours unnoticed. We follow the clean water to the split, shut the main, and replace the failed run.',
     relevance: [
       "The early-1900s homes near Xavier carry aging galvanized supply lines, and decades of corrosion leave them thin enough to split. When one lets go in a basement ceiling or wall it floods the level from above, and in the denser rentals around here that hidden leak can run for hours before anyone is home to notice.",
       "We follow the clean water back to the split rather than opening the whole ceiling, shut the water at the main to stop the spread, and replace the failed run. If the water came up dark from the floor instead of down from above, that is a drain, not a supply line, and we chase that lead instead.",
@@ -337,7 +337,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "south-cumminsville": {
     intro:
-      "Basement flooding in South Cumminsville with no pipe in sight leaking? We find which failure let the water in before we cut anything, in the older homes down in the Mill Creek valley. Call (513) 586-5107.",
+      'When a South Cumminsville basement floods with nothing dripping overhead, the cause is often a cracked cast-iron drain under the slab. These older homes among the Mill Creek valley’s industrial corridors have drains that separate at the joints, so we camera the line and cut concrete only over the break.',
     relevance: [
       "When a South Cumminsville basement floods and nothing overhead is dripping, the trouble is often under the slab. In these older homes set among the valley's industrial corridors, the cast-iron drain lines buried beneath the floor crack and separate at the joints over the decades, and a broken line down there floods the basement from below with no visible pipe to point to.",
       "We camera the under-slab drains to locate the break rather than opening concrete on a guess, then repair the separated section so any floor we do cut is over the actual failure. If the water is clean and rising broadly through the slab after rain instead, that is groundwater, a drainage job outside the house, and we will point you there.",
@@ -353,7 +353,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "english-woods": {
     intro:
-      "Basement flooding in English Woods? We find which failure let the water in before we fix it, in the older homes on the hilltop overlooking the Mill Creek valley. Call (513) 586-5107.",
+      'English Woods basement flooding with no pipe in sight points under the floor. The older hilltop homes here run cast-iron drains beneath their slabs, and when one cracks or separates at a joint the basement floods from below. We camera the drains to find the break before opening any floor.',
     relevance: [
       "English Woods sits on a hilltop above the Mill Creek valley, and its older homes run drain lines under their basement slabs. When one of those cast-iron lines cracks or separates at a joint, the basement floods from below with no pipe overhead to point at, and the break stays hidden under the concrete.",
       "We camera the under-slab drains to locate the break rather than opening floor on a guess, then repair the separated section, so any concrete we do cut is over the actual failure.",
@@ -369,7 +369,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "north-avondale": {
     intro:
-      "Basement flooding in North Avondale? We find which failure let the water in before we fix it, in the grand early-1900s homes around Rockdale and Reading Road. Call (513) 586-5107.",
+      'North Avondale’s grand early-1900s houses hold long runs of original supply line through their walls and finished lower levels, and a hidden split in one causes much of the basement flooding there. We trace the water to the split, shut the main, and repair only that run.',
     relevance: [
       "North Avondale's grand early-1900s houses sit on large lots and hold long runs of original supply line through their walls and finished lower levels. A hidden split in one of those lines floods the basement from above and can do expensive damage before anyone notices, because it is behind plaster on a finished level.",
       "We trace the water to the split rather than opening every wall, shut the main to stop the damage spreading, and repair the failed run, so the finished spaces these homes are known for are not torn open for the wrong pipe.",
@@ -379,13 +379,13 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: "How fast can you reach North Avondale?",
-        a: "North Avondale is centrally located and quick for us to reach. We are on call 7 days a week from 8am to 8pm and trace the source the same day so the leak does not sit behind your walls.",
+        a: "North Avondale is centrally located and quick for us to reach. We are on call 7 days a week and trace the source the same day so the leak does not sit behind your walls.",
       },
     ],
   },
   millvale: {
     intro:
-      "Basement flooded in Millvale? We work out which failure let the water in before we fix it, in the compact homes down in the Mill Creek valley. Call (513) 586-5107.",
+      'In Millvale’s compact valley homes, basement flooding often happens because a hard storm sends more water at the pit than one sump can move. We watch the float, time the refill against the pump’s capacity, and clear the discharge, then size a stronger or second pump.',
     relevance: [
       "Millvale's compact homes sit low in the Mill Creek valley, where a hard storm can send more water at a basement than one sump was ever sized to move. The pit fills faster than the pump can empty it, and whether the pump simply could not keep up or gave out along the way, you rarely know until the water is already across the floor.",
       "Cut the power to the basement before going down, then call. We watch the float travel, time how fast the pit refills against what the pump can move, and clear the discharge, then size a stronger or second pump if the valley's volume is more than the current one can handle. If the water is instead coming through the foundation wall, that is drainage, and we will say so.",
@@ -401,7 +401,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "paddock-hills": {
     intro:
-      "Basement flooding in Paddock Hills? We find which failure let the water in before we cut anything, in the early- and mid-1900s homes near Paddock Road and the Norwood Lateral. Call (513) 586-5107.",
+      'Building drains under Paddock Hills slabs have been settling for a century, and one that pulls apart at a joint floods the basement from below while every visible pipe stays dry. We dye-test the fixtures and camera the drain to find the separation, then open only the concrete over it.',
     relevance: [
       "The early- and mid-1900s homes around Paddock Road have building drains that have been settling under their slabs for the better part of a century. When one of those runs pulls apart at a joint, groundwater and waste trade places beneath the floor, and the basement floods from below while every pipe you can see stays dry.",
       "We dye-test the suspect fixtures and camera the under-slab drain to find exactly where it separated, then open only the concrete over that point to repair it. If the water is clean and pushing up broadly through the slab after rain instead, that is groundwater rather than a broken drain, and that is a drainage contractor's job, not ours.",
@@ -417,7 +417,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "spring-grove-village": {
     intro:
-      "Basement flooded in Spring Grove Village? We trace which failure let the water in before we fix it, in the older homes near Spring Grove Cemetery and Arboretum. Call (513) 586-5107.",
+      'Spring Grove Village sits low in the Mill Creek valley, and its basement flooding is usually a clogged main backing up through the floor drain in a storm. We snake and camera the main, clear it, and check for a collapsed section.',
     relevance: [
       "Ringed by the historic Spring Grove Cemetery and Arboretum, one of the largest in the country, this neighborhood sits low in the Mill Creek valley among older homes and industry. The aging mains here clog with roots and grease, and when a storm loads them on top of that, the sewer backs up through the basement floor drain as contaminated water.",
       "Keep off the flooded level and let us snake and camera the main to find the clog or the collapsed section, clear it, and check whether the age of the pipe means it will return. If the water is clean and seeping in at the walls instead, that is groundwater, a drainage problem, and we will point you to the right trade.",
@@ -433,7 +433,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   linwood: {
     intro:
-      "Basement flooding in Linwood? We find which failure let the water in before we fix it, in the older homes along Eastern Avenue near Lunken Airport. Call (513) 586-5107.",
+      'Linwood’s river-bottom homes along Eastern Avenue often flood even while the sump pump runs, because the discharge line blocks or freezes and sends water back into the pit. For basement flooding here we camera the discharge end to end, check the check valve, and clear or re-route the line.',
     relevance: [
       "Linwood runs low along Eastern Avenue in the river bottoms near Lunken, where a pump can run the whole storm and the basement still floods. Down here the usual culprit is not the motor but the discharge, a line that blocks or freezes at the outlet and sends the pumped water straight back into the pit it just left.",
       "Cut the power to the basement before you enter, then call. We camera the discharge line end to end for the block or the frozen section, check the check valve that should stop the backflow, and clear or re-route what is failing. If the water is coming through the foundation instead of up from the pit, that is drainage, and we will tell you straight.",
@@ -449,7 +449,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   "bond-hill": {
     intro:
-      "Basement flooding in Bond Hill? We find which failure let the water in before we fix it, in the older and mid-century homes along Reading Road. Call (513) 586-5107.",
+      'Bond Hill homes along Reading Road run old galvanized supply lines, and a corroded joint or a hard freeze can split one and flood the basement from behind a finished wall. We shut the main and isolate the lines zone by zone to find the split, then replace that section.',
     relevance: [
       "Along Reading Road, Bond Hill's early-1900s and mid-century homes still run decades-old galvanized supply lines, and a corroded joint or a hard freeze can split one without warning. A line that lets go behind a finished basement wall floods the level from above and can hide behind the drywall for a while before the water finds the floor.",
       "We shut the main, then isolate the supply lines zone by zone to pin the split to one run rather than opening every wall to find it. Once it is located we replace that section. If the water rose dark from a floor drain instead, that is a backup, a different repair, and where clean water is seeping through the foundation it is drainage, not plumbing, and we will say so.",

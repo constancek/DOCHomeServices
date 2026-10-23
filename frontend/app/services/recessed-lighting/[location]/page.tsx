@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'New Rooms and Finished Ceilings', body: 'Adding cans during a renovation is straightforward with the ceiling open, while a finished {neighborhood} ceiling needs careful access and extra wiring. We evaluate the room first and recommend the right number of fixtures for balanced lighting either way.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Experienced lighting pros handling every connection safely.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Proper spacing, secure cans, and wiring that meets code.' },
-    { icon: 'badge', title: 'Quality Fixtures', text: 'Energy-efficient LED cans built to last for years.' },
-    { icon: 'house', title: 'Balanced Layout', text: 'Placement planned to spread light evenly and remove shadows.' },
-  ],
+  whyParagraph: 'We space each recessed can in your {neighborhood} ceiling so light spreads evenly without shadows. Licensed electricians secure the cans and wire them to code, and the LED fixtures we fit are energy-efficient and built to last for years.',
   proofQuote:
     'They laid out recessed cans across the kitchen and living room, spaced them so there are no dark spots, and switched it all to LED. The whole floor is brighter and the ceiling looks clean. Careful work and a fair price.',
   sharedFaqs: [

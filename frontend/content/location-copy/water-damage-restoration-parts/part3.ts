@@ -1,7 +1,7 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
     intro:
-      'Water spreading through a unit at Villages of Roll Hill? Our licensed plumbers extract the water, dry the structure to measured readings, and repair the line that failed: one crew for both halves. Call (513) 586-5107.',
+      'Stacked apartments make Villages of Roll Hill water damage restoration a multi-unit job, since a supply line that fails upstairs soaks the units below. The first 24 hours decide what can be dried. We shut off and repair the line, then dry each affected unit to measured readings.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. In stacked housing like that, a supply line that lets go on an upper floor can soak the units below it before anyone finds the source, and the first 24 hours decide how much of that framing and subfloor can be dried rather than replaced.',
       'We handle both halves of the job. We shut off and repair the failed line, then pump out the water and dry the structure across the affected units to measured moisture content, not a guess. Most restoration firms are not plumbers and have to wait on a second contractor to stop the water — we do not.',
@@ -11,7 +11,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-westwood': {
     intro:
-      'Standing water or a soaked wall in East Westwood? Our licensed plumbers extract it, dry the framing to measured readings, and repair the corroded line behind it. Call (513) 586-5107.',
+      'An aging galvanized or copper line letting go inside a wall is a frequent East Westwood water damage restoration job on the slopes toward the Mill Creek valley. The water follows the grade and pools at the low end. We repair the line and dry the framing to measured readings.',
     relevance: [
       'East Westwood (ZIP 45211) sits on the slopes between Westwood and the Mill Creek valley, with streets of early- and mid-1900s homes. Aging galvanized and copper lines from that era let go inside a wall or above a basement, and on the hillside grade the water follows the slope and pools at the low end before it shows. Mold can begin establishing in that damp framing within roughly 24 to 48 hours.',
       'We repair the failed line first, because drying a room that is still filling is wasted work. Then we extract the standing water and dry the subfloor and framing to measured moisture content, taking readings over several days rather than pulling the equipment on a fixed schedule.',
@@ -21,7 +21,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'western-hills': {
     intro:
-      'Burst line or a backup flooding your Western Hills home? Our licensed plumbers extract the water, dry the structure, and repair the pipe or lateral that caused it. Call (513) 586-5107.',
+      'Clean or contaminated is the first question in Western Hills water damage restoration, since homes near Glenway Avenue carry original galvanized supply lines and clay or cast-iron sewer laterals. A burst line dries differently from a lateral backup. We sort it, dry to measured readings and repair the cause.',
     relevance: [
       'Western Hills (ZIP 45211) is the established west-side area around Western Hills Plaza and Glenway Avenue, with homes running from the early 1900s through mid-century. Many still carry original galvanized supply lines and clay or cast-iron sewer laterals. A burst supply line is clean water; a backed-up lateral is contaminated, and the two are not dried the same way.',
       'We sort clean water from contaminated before anything else, because that decides what can be dried and what has to come out. Then we extract, dry framing and subfloor to measured readings, and repair the line or lateral that failed — with the photos and moisture logs your insurer will ask for.',
@@ -31,7 +31,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'california': {
     intro:
-      'Floodwater in the lower level of your California riverfront home? Our licensed plumbers pull the water out, dry the structure to measured readings, and repair the drain or line behind it. Call (513) 586-5107.',
+      'Water arriving from below through a floor drain is the usual California water damage restoration job along Kellogg Avenue, on low riverfront ground near Riverbend. That water is contaminated. We remove porous materials it soaked, dry the framing to measured readings and repair the drain or backwater line.',
     relevance: [
       'On the low riverfront ground along Kellogg Avenue, water tends to arrive from below rather than from a pipe. California (ZIP 45230) is Cincinnati’s far-east riverfront neighborhood near Riverbend and the old Coney Island grounds, set beside the Ohio River, and when the river runs high or a storm overwhelms the drains, water pushes up through a basement floor drain. That water is contaminated, not the clean water of a supply leak, and it is not dried the same way.',
       'What comes up a floor drain has to be treated as contaminated from the first minute. We extract it, take out the porous materials it soaked that cannot be salvaged, then dry the framing and subfloor that remain to measured readings and repair the drain or backwater line. The first 24 hours decide how much of a lower level survives, so we begin pulling water the same visit.',
@@ -41,7 +41,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'carthage': {
     intro:
-      'Burst pipe or a flooded basement in Carthage? Our licensed plumbers pull the water, dry the structure to measured readings, and repair the aging line behind it. Call (513) 586-5107.',
+      'Galvanized and cast-iron lines corroding through in early-1900s homes along Vine Street cause most Carthage water damage restoration, flooding a basement or wall cavity fast. We repair the pipe on the same visit, extract the water and dry the framing and subfloor to measured moisture content.',
     relevance: [
       'Carthage (ZIP 45215) is a north-side neighborhood along Vine Street, a former village now home to the Hamilton County Fairgrounds, with older early-1900s homes. Plumbing of that age runs on galvanized and cast-iron that corrodes through, and when a line lets go it floods a basement or wall cavity fast.',
       'Because we are plumbers, the pipe that failed gets repaired as part of the same visit, not left for a second contractor while the damage spreads. We extract the water, dry framing and subfloor to measured moisture content, and hand you the readings for your insurer.',
@@ -51,7 +51,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'winton-hills': {
     intro:
-      'Water spreading through a home or unit in Winton Hills? Our licensed plumbers extract it, dry the structure to measured readings, and repair the line that failed. Call (513) 586-5107.',
+      'Stacked and closely built buildings near Winton Road mean Winton Hills water damage restoration can involve more than one unit from a single burst pipe or backup. We repair the source first, then extract and dry framing and subfloor to measured readings so moisture does not sit behind a wall.',
     relevance: [
       'Winton Hills (ZIP 45232) is a north-side neighborhood near Winton Road, with a mix of residential and industrial areas including multi-unit housing. In closely built and stacked buildings, a single burst pipe or backup can soak more than one unit before it is caught, and the older buildings run on aging plumbing.',
       'We stop and repair the source first, then extract the water and dry framing and subfloor to measured readings so the moisture does not sit behind a wall and turn into a smell months later. One crew handles both the repair and the drying.',
@@ -61,7 +61,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'roselawn': {
     intro:
-      'Failed water heater or a burst line flooding your Roselawn home? Our licensed plumbers extract the water, dry the structure, and repair what caused it. Call (513) 586-5107.',
+      'A failed water heater flooding a utility room and everything downhill of it is a frequent Roselawn water damage restoration job in mid-century homes along Reading Road. Corroded supply lines are close behind. We repair the heater or line first, then dry the structure to measured readings.',
     relevance: [
       'Roselawn (ZIP 45237) is a north-side neighborhood along Reading Road, with settled streets of mid-century single-family homes and apartment buildings. Homes from the mid-1900s are now well into the age where supply lines corrode and water heaters fail, and a heater that lets go floods a utility room and everything downhill of it.',
       'We repair the failed heater or line first, then extract the water and dry the structure to measured readings — surface-dry is not dry, and a wall can hold water inside long after it feels dry to the touch. It all gets documented for your insurer.',
@@ -71,7 +71,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-airy': {
     intro:
-      'Water heater let go and flooded a lower level near Mount Airy Forest? Our licensed plumbers extract the water, dry the structure to measured readings, and repair or replace the tank behind it. Call (513) 586-5107.',
+      'A water heater failing in a utility room starts much Mount Airy water damage restoration in the mid-century homes near Mount Airy Forest. On the hilly grade, the water runs downhill through the framing before anyone sees it. We replace the heater and dry to readings taken over several days.',
     relevance: [
       'A water heater in a utility room fails without warning, and a full tank on the floor finds the lowest point of the house. Mount Airy (ZIP 45239) sits on the northwest side beside Mount Airy Forest, one of the largest city parks in the country, with mid-century homes on hilly, wooded streets. Tanks and supply lines of that age are now old enough to give out, and on the hilltop grade the water runs downhill through the framing before anyone sees it.',
       'We replace or repair the failed heater, extract the water, and dry the framing and subfloor to measured readings taken over several days. A wall that feels dry on the surface can still hold water inside, which is what turns into the smell and the buckled floor months later.',
@@ -81,7 +81,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hartwell': {
     intro:
-      'Water damage in a historic Hartwell home? Our licensed plumbers extract the water, dry the structure to measured readings, and repair the aging line behind it. Call (513) 586-5107.',
+      'Saving lath-and-plaster walls and hardwood floors is what Hartwell water damage restoration is about, in Victorian and early-1900s homes on original plumbing. When a corroded line lets go, the first 24 hours matter. We repair the line, extract fast and dry the original material to measured readings.',
     relevance: [
       'Hartwell (ZIP 45215) is a historic north-side neighborhood that grew as a streetcar suburb, known for its Victorian and early-1900s homes on tree-lined streets. Those century-old houses often still carry original plumbing, and when a corroded line lets go the water soaks lath-and-plaster walls and hardwood floors that are expensive to replace and hard to match.',
       'That is exactly why the first 24 hours matter here. We repair the failed line, extract the water fast, and dry the plaster, framing, and flooring to measured readings so the original material can be saved rather than torn out.',
@@ -91,7 +91,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'kennedy-heights': {
     intro:
-      'Hidden leak or a burst line flooding your Kennedy Heights home? Our licensed plumbers extract the water, dry the structure to measured readings, and repair the source. Call (513) 586-5107.',
+      'A line failing in a rarely used part of a large early-1900s house is the typical Kennedy Heights water damage restoration job, and it can do real damage before anyone notices. We find and repair the line, extract the water and dry to readings taken over several days.',
     relevance: [
       'Kennedy Heights (ZIP 45213) is a historic east-side hilltop neighborhood that began as a Victorian-era resort community, now known for its arts center and large early-1900s homes. Large old houses mean large plumbing systems, and a line that fails in a rarely used part of the house can do real damage before anyone notices the water.',
       'We find and repair the failed line, extract what it left, and dry the framing and subfloor to measured readings. The bigger the house, the more the drying has to be measured rather than guessed, so we take readings over several days before pulling the equipment.',
@@ -101,7 +101,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'st-bernard': {
     intro:
-      'Burst pipe or a backup flooding your St. Bernard home? Our licensed plumbers extract the water, dry the structure to measured readings, and repair the line behind it. Call (513) 586-5107.',
+      'Dense early-1900s homes near Ivorydale bring corroded galvanized lines, aging cast-iron drains and low-lot backups to St. Bernard water damage restoration. We tell clean water from contaminated first, then extract, dry to measured readings and repair the line or drain.',
     relevance: [
       'St. Bernard (ZIP 45217) is its own city, completely surrounded by Cincinnati, built up around the Procter & Gamble Ivorydale complex with a dense grid of early-1900s homes on small valley lots. That tightly packed, century-old housing runs on corroded galvanized lines and aging cast-iron drains, and the low valley lots raise the odds of a backup in heavy rain.',
       'We tell clean water from a contaminated backup before we start, extract it, dry framing and subfloor to measured readings, and repair the failed line or drain — one crew for the whole job, with the record your insurer wants.',
@@ -111,7 +111,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'elmwood-place': {
     intro:
-      'Backup coming up through the basement floor in Elmwood Place? Our licensed plumbers extract the water, dry the structure to measured readings, and repair the drain or line behind it. Call (513) 586-5107.',
+      'Storm sewers filling and pushing water up through basement floor drains is the main Elmwood Place water damage restoration job, on low Mill Creek valley ground. That water is contaminated, so the porous materials it touched come out. We dry what remains to measured readings and repair the drain.',
     relevance: [
       'Down in the Mill Creek valley, a hard rain has nowhere to go but back up through the drains. Elmwood Place (ZIP 45216) is a tiny, densely built village on that low valley ground north of the city, with closely spaced early-1900s homes, and when the storm sewers fill, water rises through a basement floor drain. That water is contaminated, so it is handled nothing like a clean pipe leak.',
       'A contaminated backup means the porous materials it touched come out, not just dry. We extract the water, remove what cannot be saved, dry the framing and subfloor that remain to measured readings, and repair the drain or line — documented start to finish for your claim.',
@@ -121,7 +121,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'delhi-hills': {
     intro:
-      'Dishwasher or washer line let go and soaked your Delhi Hills kitchen? Our licensed plumbers extract the water, dry the structure to measured readings, and repair the appliance line behind it. Call (513) 586-5107.',
+      'A split dishwasher or washing machine line is a common Delhi Hills water damage restoration job in mid-century homes above the river, running for hours into the subfloor and level below. We replace the line on the same visit and dry to readings taken over several days.',
     relevance: [
       'A braided supply line behind a dishwasher or washing machine splits, and it can run for hours before anyone walks in and finds the floor under water. Delhi Hills (ZIP 45233) sits in Delhi Township on the west side above the Ohio River, a place with deep ties to greenhouse and floral growing, with established mid-century homes on hilly streets. In those homes an appliance line under constant pressure floods the floor and works down into the subfloor and the level below.',
       'Because we plumb as well as dry, the split line is replaced on the same visit, not left for a second contractor while the floor keeps taking on water. We extract, then dry the subfloor and framing to measured readings, reading moisture over several days rather than pulling the fans when the surface feels dry.',
@@ -131,7 +131,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'golf-manor': {
     intro:
-      'Failed water heater or a burst line flooding your Golf Manor home? Our licensed plumbers extract the water, dry the structure, and repair the source. Call (513) 586-5107.',
+      'Corroded supply lines and failed water heaters cause most Golf Manor water damage restoration in the modest mid-century homes of this small village, flooding a utility room or basement. We repair the heater or line first, then extract the water and dry the structure to measured readings.',
     relevance: [
       'Golf Manor (ZIP 45237) is a small village completely surrounded by Cincinnati on the north side, with a compact grid of modest mid-century homes. Homes of that era are now at the age where supply lines corrode and water heaters fail, and either one floods a utility room or basement quickly.',
       'We repair the failed heater or line first, then extract the water and dry the structure to measured readings. Because we are plumbers, both halves happen on one visit instead of waiting on a second contractor while the water spreads.',
@@ -141,7 +141,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fairfax': {
     intro:
-      'Burst supply line behind a wall in your Fairfax home? Our licensed plumbers extract the water, dry the structure to measured readings, and repair the line behind it. Call (513) 586-5107.',
+      'A supply line corroding through inside a wall, with the first sign a spreading stain, is a typical Fairfax water damage restoration job in early- and mid-1900s homes along Wooster Pike. We open the wall, repair the line and dry framing and subfloor to several days of readings.',
     relevance: [
       'A supply line inside a wall corrodes through and sprays into the cavity, and the first sign is often a stain spreading across the drywall. Fairfax (ZIP 45227) is a small east-side village along Wooster Pike near Mariemont, with established early- and mid-1900s homes whose original plumbing is well past the age where fittings and supply lines give out. Water in a wall cavity soaks studs and insulation before it ever reaches the floor.',
       'One crew handles both halves. We open the wall, repair the failed line, then extract and dry the framing and subfloor to measured moisture content — several days of readings, not a fixed schedule. Most restoration firms cannot touch the plumbing, which leaves you waiting on a separate plumber while the wall stays wet.',
@@ -151,7 +151,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mack': {
     intro:
-      'Standing water or a failed heater flooding your Mack home? Our licensed plumbers extract it, dry the structure, and repair what caused it. Call (513) 586-5107.',
+      'Water heaters and supply lines in mid-century and newer Mack homes are now old enough to fail, and that drives most water damage restoration here. Either floods a lower level fast. We repair the failed part, extract and dry framing and subfloor to measured readings.',
     relevance: [
       'Mack (ZIP 45248) is an established community in Green Township on the west side, with neighborhoods of mid-century and newer single-family homes. Even the newer houses here are now old enough for water heaters and supply lines to fail, and either one floods a lower level fast.',
       'We repair the failed line or heater, extract the water, and dry framing and subfloor to measured readings. Surface-dry is not dry — a wall can hold water inside long after it feels dry, which is why we measure rather than guess.',
@@ -161,7 +161,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'monfort-heights': {
     intro:
-      'Burst line or a backup flooding your Monfort Heights home? Our licensed plumbers extract the water, dry the structure to measured readings, and repair the source. Call (513) 586-5107.',
+      'Corroded supply lines, failed water heaters and contaminated sewer lateral backups all show up in Monfort Heights water damage restoration in mid-century homes. We sort clean from contaminated first, then extract, dry framing and subfloor to measured readings and repair what failed.',
     relevance: [
       'Monfort Heights (ZIP 45247) is a settled Green Township suburb on the west side, made up largely of mid-century single-family homes. Homes from the mid-1900s are now well into the age where supply lines corrode, water heaters fail, and sewer laterals back up — and a lateral backup is contaminated, not clean.',
       'We sort clean water from a contaminated backup first, because that decides what dries and what comes out. Then we extract, dry framing and subfloor to measured readings, and repair the line or lateral that failed.',
@@ -171,7 +171,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bridgetown': {
     intro:
-      'Failed water heater or a burst pipe flooding your Bridgetown home? Our licensed plumbers extract it, dry the structure, and repair what caused it. Call (513) 586-5107.',
+      'Aging water heaters, worn supply lines and the occasional burst pipe start most Bridgetown water damage restoration in mid-century and newer homes, and any of them can soak a finished lower level in an afternoon. We repair the source and dry to readings taken over several days.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. Aging water heaters, worn supply lines, and the occasional burst pipe are the usual source of a flood here, and any of them can soak a finished lower level in an afternoon.',
       'We repair the failed line or heater, extract the water, and dry the structure to measured readings taken over several days. The equipment comes out when the numbers say the framing is dry, not on a fixed schedule.',
@@ -181,7 +181,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'finneytown': {
     intro:
-      'A second-floor line let go and water is coming through the ceiling in Finneytown? Our licensed plumbers extract it, dry the structure to measured readings, and repair the line behind it. Call (513) 586-5107.',
+      'Water coming through a first-floor ceiling from a failed upstairs line is a common Finneytown water damage restoration job, since many mid-century homes here are two-story. We repair the line, then dry both levels to measured readings, including the ceiling cavity that holds water longest.',
     relevance: [
       'When a bathroom or laundry supply line fails on the second floor, the water does not stay up there — it runs down inside the walls and drops through the first-floor ceiling. Finneytown (ZIP 45231) is a settled Springfield Township community on the north side, made up largely of mid-century single-family homes, many of them two-story, where an upstairs line can soak two floors before it is found.',
       'We repair the failed line, then extract and dry both levels to measured moisture content — the ceiling cavity between the floors holds water longest and is the part most often missed. We take readings over several days and photograph the source, because a paper trail is what an insurer wants to see.',
@@ -191,7 +191,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'amberley': {
     intro:
-      'Hidden leak or a burst line flooding your Amberley Village home? Our licensed plumbers extract the water, dry the structure to measured readings, and repair the source. Call (513) 586-5107.',
+      'Amberley Village water damage restoration in large homes on wooded lots often starts with a hidden leak that soaked a finished lower level before anyone noticed. We find and repair the line, extract the water and map the drying with readings across the whole affected area.',
     relevance: [
       'Amberley Village (ZIP 45237) is an affluent north-side village known for its large homes on big, wooded lots along winding streets. Larger homes mean larger plumbing systems and, often, finished lower levels — so a hidden leak or failing line can do real damage before anyone notices the water.',
       'We find and repair the failed line, extract what it left, and dry the framing and finished materials to measured readings. In a big house the drying has to be mapped with readings across the whole affected area rather than guessed room by room.',
@@ -201,17 +201,17 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'arlington-heights': {
     intro:
-      'Sump quit during the storm and flooded your Arlington Heights basement? Our licensed plumbers extract the water, dry the structure to measured readings, and repair or replace the pump. Call (513) 586-5107.',
+      'A sump pump quitting mid-storm is the flood behind most Arlington Heights water damage restoration, in older homes on low Mill Creek valley ground. We repair or replace the pump first, extract and dry to measured readings, treating water that rose through a drain as contaminated.',
     relevance: [
       'When the sump pump quits in the middle of a downpour, a low-lying basement fills within the hour. Arlington Heights (ZIP 45215) is a small village in the Mill Creek valley north of the city, a compact grid of older homes on ground where storm water collects, so a failed pump or an overwhelmed drain is the flood we are called for most in heavy rain.',
       'The pump comes first, because drying a basement that is still taking on water is wasted effort. We repair or replace it, extract what is standing, and dry the framing and subfloor to measured readings. If the water rose through a drain rather than in clean past the pump, we treat it as contaminated and pull the porous materials it soaked.',
     ],
     commonIntro: "In Arlington Heights' older valley homes, the water damage we dry out most often comes from:",
-    localFaqs: [{ q: 'How fast can you reach Arlington Heights after a basement floods?', a: 'Arlington Heights sits within our service area in the Mill Creek valley, and we are on call 7 days a week from 8am to 8pm. Because the first 24 hours decide how much dries rather than gets replaced, we aim to be extracting water the same day you call.' }],
+    localFaqs: [{ q: 'How fast can you reach Arlington Heights after a basement floods?', a: 'Arlington Heights sits within our service area in the Mill Creek valley, and we are on call 7 days a week. Because the first 24 hours decide how much dries rather than gets replaced, we aim to be extracting water the same day you call.' }],
   },
   'north-college-hill': {
     intro:
-      'Drain backing up or a line burst in your North College Hill home? Our licensed plumbers extract the water, dry the structure to measured readings, and repair the source. Call (513) 586-5107.',
+      'North College Hill water damage restoration starts by telling a clean supply-line break from a contaminated cast-iron drain backup, in dense early- and mid-1900s homes past their service life. That decides what dries and what comes out. We dry to measured readings and repair the line or drain.',
     relevance: [
       'The tightly packed housing in North College Hill runs on plumbing that is decades past its service life. North College Hill (ZIP 45239) is a small, densely built city just north of College Hill, with a grid of early- and mid-1900s homes on aging galvanized and cast-iron. A corroded supply line lets go clean; a backed-up cast-iron drain comes up contaminated — and the two are not dried the same way.',
       'So we tell them apart before anything else, because that decides what dries and what has to come out. We extract, dry the framing and subfloor to measured readings, and repair the failed line or drain — one crew for both halves, with the readings written up for your insurer.',
@@ -221,7 +221,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newtown': {
     intro:
-      'River water in the lower level of your Newtown home? Our licensed plumbers extract it, dry the structure to measured readings, and repair the drain or line behind it. Call (513) 586-5107.',
+      'River and storm water pushing up through floor drains on low ground near the Little Miami is what Newtown water damage restoration mostly handles. That water is contaminated. We extract it, remove ruined porous materials, dry the framing to measured readings and repair the drain or line.',
     relevance: [
       'Set on the low river-bottom ground near the Little Miami, Newtown homes take on water from the ground up in a hard rain. Newtown (ZIP 45244) is a small east-side village where the older houses sit low enough that storm or river water pushes up through a floor drain — contaminated water, handled nothing like a clean supply leak.',
       'We extract the floodwater, remove the porous materials it ruined, then dry the framing and subfloor that remain to measured readings and repair the drain or line. The longer that water stands the less of a lower level survives, so we begin the same visit rather than the next day.',
@@ -231,7 +231,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'turpin-hills': {
     intro:
-      'Sump pump failure or a burst line flooding your Turpin Hills basement? Our licensed plumbers extract the water, dry the structure, and repair the source. Call (513) 586-5107.',
+      'Failing sump pumps are a common source of Turpin Hills water damage restoration, along with aging water heaters and worn supply lines in mid-century and newer homes. We repair or replace the pump or line first, then extract and dry framing and subfloor to measured readings.',
     relevance: [
       'Turpin Hills (ZIP 45244) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. Failing sump pumps are a common flood source here — when a pump quits during a storm, the basement fills — alongside aging water heaters and worn supply lines.',
       'We repair or replace the failed pump or line, extract the standing water, and dry framing and subfloor to measured readings. Getting the source fixed first matters, because drying a basement that is still taking on water is wasted work.',
@@ -241,7 +241,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'silverton': {
     intro:
-      'Corroded line split behind a wall in your Silverton home? Our licensed plumbers extract the water, dry the structure to measured readings, and repair the line behind it. Call (513) 586-5107.',
+      'A corroded fitting splitting behind a wall or under a floor is the typical Silverton water damage restoration job in early- and mid-1900s homes along Montgomery Road. The framing is wet before a stain shows. We fix the line and dry to several days of readings.',
     relevance: [
       'A corroded fitting behind a wall or under a floor splits, and by the time the stain shows the framing has been wet for a while. Silverton (ZIP 45236) is a small city along Montgomery Road on the east side, with established streets of early- and mid-1900s homes whose original supply lines develop corrosion leaks at the joints. A line that lets go floods a wall cavity or the floor beneath it before anyone notices.',
       'The repair comes first, then the drying. We fix the failed line, extract the water, and dry the framing and subfloor to measured moisture content over several days. The equipment comes out when the readings say the structure is dry, not on a set schedule, and it is all documented for your insurer.',
@@ -251,7 +251,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lockland': {
     intro:
-      'Storm flooded a basement in Lockland when the sump gave out? Our licensed plumbers extract the water, dry the structure to measured readings, and repair or replace the pump. Call (513) 586-5107.',
+      'A failed sump in a downpour sets off most Lockland water damage restoration, flooding older worker housing on low Mill Creek valley ground. We repair or replace the pump first, extract and dry to measured readings, and treat water that rose through a drain as contaminated.',
     relevance: [
       'Built low in the Mill Creek valley, Lockland floods from the ground up when a downpour outpaces the sump. Lockland (ZIP 45215) is a historic village that grew up around its mills and industry, with closely spaced older worker housing on ground that collects storm water — so a failed pump or an overwhelmed drain is the emergency we see most in heavy rain.',
       'We start with the pump, because a basement still taking on water cannot be dried. We repair or replace it, extract what is standing, and dry the framing and subfloor to measured readings. If the water rose through a drain instead of past the pump, we treat it as contaminated and remove the porous materials it soaked.',
@@ -261,7 +261,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'groesbeck': {
     intro:
-      'Burst supply line flooding your Groesbeck home? Our licensed plumbers extract the water, dry the structure to measured readings, and repair the line behind it. Call (513) 586-5107.',
+      'Corroded supply lines and worn shutoffs flooding a utility room or basement start most Groesbeck water damage restoration in mid-century homes. We repair the line on the same visit as the extraction, then dry the framing and subfloor to readings taken over several days.',
     relevance: [
       'The mid-century homes across Groesbeck run on supply lines that have been under pressure for decades. Groesbeck (ZIP 45239) is a settled Colerain Township community on the northwest side, made up largely of single-family homes of that era, where a corroded line or a worn shutoff lets go and floods a utility room or basement in a hurry.',
       'Because we plumb and dry, the burst line is repaired on the same visit as the extraction and drying, with no wait on a second contractor. We fix the line, pump out the water, and dry the framing and subfloor to measured readings over several days before the equipment comes out.',
@@ -271,7 +271,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-healthy': {
     intro:
-      'Water heater flooded a lower level in your Mount Healthy home? Our licensed plumbers extract the water, dry the structure to measured readings, and repair or replace the tank. Call (513) 586-5107.',
+      'A water heater rusting through at the base overnight is a frequent Mount Healthy water damage restoration job in early-1900s and mid-century homes around the old town center. The water works into subfloor and framing by morning. We replace the heater and dry to measured readings.',
     relevance: [
       'A water heater rusts through at the base and empties its tank onto the floor, often overnight with no one awake to catch it. Mount Healthy (ZIP 45231) is a historic small city on the north side, with an old town center and streets of early-1900s and mid-century homes where tanks and supply lines have aged well past their service life. A full tank on the floor works into the subfloor and framing before morning.',
       'We replace or repair the failed heater, extract the water, and dry the framing and subfloor to measured readings. Surface-dry is not dry — a wall can hold water inside long after it feels dry to the touch, which is why we measure rather than guess.',

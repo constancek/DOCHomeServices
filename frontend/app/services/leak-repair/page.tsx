@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
@@ -43,12 +43,6 @@ const kinds = [
   'Water-line & supply pipe leaks',
 ];
 
-const whyUs = [
-  { icon: 'check' as const, title: 'We Fix the Source', text: 'We repair the actual cause of the leak, not just the visible damage, so it does not return.' },
-  { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked, licensed plumbers you can trust in your home.' },
-  { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-  { icon: 'clock' as const, title: 'Same-Day & Emergency', text: 'We respond fast and reach most homes the same day you call.' },
-];
 
 const faqs = [
   { q: 'What should I do if I suspect a water leak in my home?', a: 'If the leak is active, shut off the main water supply and avoid using the affected fixtures, then call us. The sooner we locate the source, the less damage it can do — and the smaller the repair tends to be.' },
@@ -101,32 +95,16 @@ export default function LeakRepairPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Have a leak? Call for immediate service
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/leakrepair-hero.webp)' }}
             role="img"
             aria-label="Plumber repairing a pipe leak"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Professional Leak Repair
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -166,7 +144,7 @@ export default function LeakRepairPage() {
             aria-label="Water stains on a ceiling from a leak"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs You Have a Leak
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -174,10 +152,10 @@ export default function LeakRepairPage() {
               while others hide behind walls, floors, or ceilings. Common signs that may mean you need
               professional leak repair include:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {signs.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={s} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
               ))}
@@ -194,7 +172,7 @@ export default function LeakRepairPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Emergency Repair Services Are Available
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -213,6 +191,24 @@ export default function LeakRepairPage() {
             role="img"
             aria-label="Plumber reviewing a leak repair with a homeowner"
           />
+        </div>
+      </section>
+
+      <ServiceReviews service="leak-repair" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Have a leak? Call for immediate service
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -244,7 +240,7 @@ export default function LeakRepairPage() {
           <h2 className="mt-12 section-title text-brand-700">Kinds of Leaks We Repair</h2>
           <ul className="mt-4 grid gap-2.5 sm:grid-cols-2">
             {kinds.map((k) => (
-              <li key={k} className="flex items-start gap-2.5 rounded-xl bg-brand-50 px-4 py-3 text-sm font-semibold text-brand-800">
+              <li key={k} className="flex items-start gap-2.5 rounded-xl bg-brand-50 px-4 py-3 text-base font-semibold text-brand-800">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {k}
               </li>
@@ -254,30 +250,18 @@ export default function LeakRepairPage() {
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Leak Repair</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Leak repair takes accuracy, experience, and the right approach to prevent repeat issues.
-            {' '}{site.name} provides professional leak repair that fixes the source of the problem —
-            not just the visible damage.
+            A patched stain with the same drip behind it is not a repair. Our licensed plumbers
+            trace every leak to its cause and repair that, so it doesn’t come back after the
+            drywall is patched.
           </p>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            With skilled technicians, clear communication, and dependable scheduling, we make sure
-            repairs are completed efficiently and correctly. From minor pipe leaks to more complex
-            jobs, every service is designed to protect your home and restore your plumbing with
-            long-term results in mind.
-          </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Leak Repair FAQs</h2>
           <div className="mt-4">
@@ -292,7 +276,7 @@ export default function LeakRepairPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your Leak Repair Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule Your Leak Repair Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Fix the leak at the source before it becomes a bigger problem. Same-day and emergency
               service, upfront pricing. Call now or request an estimate.
@@ -310,20 +294,20 @@ export default function LeakRepairPage() {
         </div>
       </section>
 
-      {/* Leak repair by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Leak repair by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We find and fix leaks across {site.serviceArea} —{' '}
-            {locations.filter((l) => leakRepairCopy[l.slug]).length} neighborhoods and counting. For local
-            detail on the leaks common to homes in your area, find yours below.
-          </p>
-          <NeighborhoodLinks copy={leakRepairCopy} basePath="/services/leak-repair" linkPrefix="Leak repair" />
-        </div>
-      </section>
-
-      <PageSections service="leak-repair" />
+      <ServiceSections service="leak-repair">
+        {/* Leak repair by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Leak repair by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We find and fix leaks across {site.serviceArea} —{' '}
+              {locations.filter((l) => leakRepairCopy[l.slug]).length} neighborhoods and counting. For local
+              detail on the leaks common to homes in your area, find yours below.
+            </p>
+            <NeighborhoodLinks copy={leakRepairCopy} basePath="/services/leak-repair" linkPrefix="Leak repair" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

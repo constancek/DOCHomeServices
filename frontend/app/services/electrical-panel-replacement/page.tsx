@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
@@ -31,20 +31,7 @@ const related = [
   { lead: 'Electrical Inspection', href: '/services/electrical-inspections', text: 'We confirm that your electrical system is up to code and functioning properly.' },
 ];
 
-const whyChoose = [
-  'Licensed and experienced electricians',
-  'Breaker panel upgrades with minimal disruption',
-  'Correct amperage sizing for your home',
-  'Clear, upfront pricing',
-  'A satisfaction guarantee on every job',
-];
 
-const whyUs = [
-  { icon: 'shield' as const, title: 'Licensed Electricians', text: 'High-voltage panel work handled safely by trained pros.' },
-  { icon: 'check' as const, title: 'Code-Compliant Work', text: 'Permitted installs that pass final inspection.' },
-  { icon: 'badge' as const, title: 'Right-Sized Amperage', text: 'A panel sized for your home’s real electrical demand.' },
-  { icon: 'house' as const, title: 'Minimal Disruption', text: 'A smooth process that respects your home and time.' },
-];
 
 const faqs = [
   { q: 'What are the common signs that my electrical panel needs to be replaced?', a: 'Look for frequent breaker trips, flickering or dimming lights, buzzing sounds, burning smells, scorch marks, warm or hot panel surfaces, and an inability to support new high-demand appliances.' },
@@ -97,27 +84,15 @@ export default function ElectricalPanelReplacementPage() {
         ]}
       />
 
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Outgrowing your old electrical panel?
-          </h2>
-          <a href={site.primaryPhone.href} className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600">
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       <section className="py-16">
-        <MainWithSidebar couponTitle="Any Electrical Service">
+        <MainWithSidebar mascot couponTitle="Any Electrical Service">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/panel-hero.webp)' }}
             role="img"
             aria-label="Modern electrical panel with breakers"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Professional Electrical Panel Replacement
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -141,7 +116,7 @@ export default function ElectricalPanelReplacementPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/panel-signs.webp)' }} role="img" aria-label="Open electrical breaker panel" />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs Your Electrical Panel Needs Replacing
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -170,7 +145,7 @@ export default function ElectricalPanelReplacementPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Benefits of an Electrical Panel Upgrade
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -190,6 +165,20 @@ export default function ElectricalPanelReplacementPage() {
             </p>
           </div>
           <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }} role="img" aria-label="Electrician reviewing a panel upgrade plan" />
+        </div>
+      </section>
+
+      <ServiceReviews service="electrical-panel-replacement" />
+
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Outgrowing your old electrical panel?
+          </h2>
+          <a href={site.primaryPhone.href} className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600">
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -225,7 +214,7 @@ export default function ElectricalPanelReplacementPage() {
           </p>
           <ul className="mt-4 space-y-2">
             {related.map((r) => (
-              <li key={r.href} className="flex gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={r.href} className="flex gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <span>
                   <Link href={r.href} className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
@@ -250,38 +239,25 @@ export default function ElectricalPanelReplacementPage() {
 
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Panel Replacement</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We’ve built our reputation on high-quality service and treating every customer like family.
-            Homeowners across {site.serviceArea} rely on us because we provide:
+            A new panel should be sized to what your home actually draws, not just matched to the
+            old one. {site.name} electricians pull the permit, the work passes final inspection, and
+            you approve an upfront price before anything starts.
           </p>
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
-                <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
-                {w}
-              </li>
-            ))}
-          </ul>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Electrical Panel Replacement FAQs</h2>
           <div className="mt-4">
             <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Panel Replacement Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule Panel Replacement Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Worried about an aging panel? {site.name} replaces and repairs electrical panels across{' '}
               {site.serviceArea}. Call now or request an estimate.
@@ -299,20 +275,20 @@ export default function ElectricalPanelReplacementPage() {
         </div>
       </section>
 
-      {/* Electrical panel replacement by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Electrical panel replacement by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We replace and upgrade electrical panels across {site.serviceArea} —{' '}
-            {locations.filter((l) => panelReplacementCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on the homes and electrical loads in your area.
-          </p>
-          <NeighborhoodLinks copy={panelReplacementCopy} basePath="/services/electrical-panel-replacement" linkPrefix="Panel replacement" />
-        </div>
-      </section>
-
-      <PageSections service="electrical-panel-replacement" />
+      <ServiceSections service="electrical-panel-replacement">
+        {/* Electrical panel replacement by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Electrical panel replacement by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We replace and upgrade electrical panels across {site.serviceArea} —{' '}
+              {locations.filter((l) => panelReplacementCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on the homes and electrical loads in your area.
+            </p>
+            <NeighborhoodLinks copy={panelReplacementCopy} basePath="/services/electrical-panel-replacement" linkPrefix="Panel replacement" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

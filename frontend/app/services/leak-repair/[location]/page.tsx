@@ -65,12 +65,7 @@ const config: ServiceLocationConfig = {
     { title: 'Emergency & Same-Day Leak Repair in {neighborhood}', body: 'An active leak cannot wait. If water is spreading, shut off the main supply and call us — our team responds fast and reaches most {neighborhood} homes the same day to stop the leak and make the repair.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'check', title: 'We Fix the Source', text: 'We repair the actual cause of the leak, not just the visible damage, so it does not return.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked, licensed plumbers you can trust in your home.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-    { icon: 'clock', title: 'Same-Day & Emergency', text: 'We respond fast and reach most homes the same day you call.' },
-  ],
+  whyParagraph: 'Most {neighborhood} leak calls get a licensed, background-checked plumber the same day you phone. We repair the part that failed, not just the water damage, and you approve a flat price with no overtime or weekend fees before work starts.',
   proofQuote:
     'Water bill doubled with no explanation. They found a slab leak under the kitchen with acoustic gear, fixed it without tearing up the whole floor, and the bill went right back to normal.',
   sharedFaqs: [

@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Same-Day Response Across {neighborhood}', body: 'Sewage in the house is a health issue rather than an inconvenience, so we treat an active backup as an emergency and reach most {neighborhood} homes the same day. Stop running water before we get there — no toilets, sinks, laundry, or dishwasher. Every gallon you send down adds to what comes up.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'clock', title: 'Same-Day Response', text: 'Sewage in the house is a health issue, not an inconvenience. We reach most homes the same day.' },
-    { icon: 'check', title: 'Camera Diagnosis First', text: 'We look at the line before quoting. You see the actual cause on screen rather than taking our word for it.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked plumbers, permits pulled where the code requires them.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start, with no overtime or weekend surcharge.' },
-  ],
+  whyParagraph: 'Sewage in the house is a health problem, so we reach most {neighborhood} homes the same day. We run a camera before quoting and you see the cause on screen. Licensed plumbers pull permits where code requires them.',
   proofQuote:
     'Waste came up through the basement floor drain on a Saturday. They had a camera down the line that afternoon, showed us the roots on screen, and cleared it — then told us straight which part of the pipe actually needed replacing and which part did not.',
   sharedFaqs: [

@@ -1,7 +1,7 @@
 export const part1: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   sedamsville: {
     intro:
-      'Standing water in a Sedamsville home? We bring pumps and extractors to the hillside streets above River Road, shut the source down, and pull the water out the same day. Call (513) 586-5107.',
+      'Most water extraction jobs in Sedamsville start with an old galvanized supply line that split behind a wall in a frame house above River Road. It runs for hours before water shows at the foot of the stairs. We shut the source and usually clear it the same day.',
     relevance: [
       'Sedamsville (ZIP 45204) climbs the hillside above River Road in frame houses that date to the late 1800s and early 1900s. The supply lines in those homes are old galvanized, and when one splits it does not announce itself — it runs behind a wall or under a first floor for hours before the water shows at the base of the stairs, so the volume standing in the lower level is well past a mop by the time anyone calls.',
       'Our work here is the first hours only: pump the standing water off the floor, then pull what has soaked into carpet, pad, and the old plank subfloor before it wicks up into the plaster. Century-old woodwork survives water but does not survive water left sitting. We get it out and set air movers so drying can start, then hand that part off.',
@@ -17,7 +17,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'sayler-park': {
     intro:
-      "Water rising in a Sayler Park basement after a storm? We reach Cincinnati's westernmost neighborhood the same day with pumps and extraction gear and get the standing water out. Call (513) 586-5107.",
+      'Emergency water extraction in Sayler Park usually follows a storm with the Ohio running high. The low riverfront streets sit partly in the floodplain, so water comes up through basement floors and walls and can stand several inches deep. We pump it out, usually the same day.',
     relevance: [
       'Sayler Park (ZIP 45233), the old village of Home City strung along the river past Riverside, sits partly in the Ohio River floodplain. When the river is high and the ground is saturated, the low riverfront streets take on water through the basement floor and walls, and a storm can put several inches across a lower level before it crests.',
       'Storm water in a basement is often the contaminated kind, so our extraction here is more than pumping. We pump the standing water, then lift the saturated pad and porous material that cannot be dried back to clean, and extract what soaked into the subfloor. We photograph the source and take readings for the claim, get drying equipment running, and hand off.',
@@ -33,7 +33,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   riverside: {
     intro:
-      'Sewage or drain water coming up a floor drain in Riverside? We arrive the same day with pumps and extractors for the low homes along River Road and get the contaminated water out. Call (513) 586-5107.',
+      'Water extraction in Riverside is often a contaminated job. On the low bottomland along River Road, heavy rain overwhelms the drains and pushes water back up through basement floor drains, and that water is not clean. We pump it out with the right equipment, usually the same day.',
     relevance: [
       'Riverside (ZIP 45204) is the narrow strip of bottomland between the hillside and the Ohio River along River Road. On ground that low, heavy rain overwhelms the drains and pushes water back up through basement floor drains — and once it comes up that way it is contaminated, not clean.',
       'A backup changes the job. We pump the standing water, but the porous material it touched — pad, the bottom of the drywall, anything soft on the floor — comes up and out rather than getting dried in place, because contaminated water in those materials is a health problem, not a drying one. We extract the hard surfaces, set drying, and document the source for your claim.',
@@ -49,7 +49,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-price-hill': {
     intro:
-      'A leak upstairs flooding the unit below in East Price Hill? We reach the two-families around Warsaw Avenue and the Incline District the same day and pull the water out of both levels. Call (513) 586-5107.',
+      'In East Price Hill, emergency water extraction often means two flooded levels from one failure. The stacked two- and three-families around Warsaw Avenue and the Incline District send upstairs water down the wall cavity into the unit below. We extract both levels, usually the same day.',
     relevance: [
       'East Price Hill (ZIP 45205) is packed with dense early-1900s two- and three-family frame homes on tight lots around Warsaw Avenue and the Incline District. In a stacked building, water from a failure on an upper floor does not stay upstairs — it finds the ceiling below, runs down the wall cavity, and stands on the floor of the unit underneath, so one failure becomes two flooded levels.',
       'We pump and extract on every level the water reached, not just where it started, because a dry-looking lower unit with a soaked ceiling above it is still a wet building. Extraction from the ceiling cavity and the floor below in the first hours is what saves the drywall and the framing between the units. Then drying equipment goes in.',
@@ -65,7 +65,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-price-hill': {
     intro:
-      'Water heater let go and emptied across a West Price Hill basement? We reach homes along Glenway Avenue the same day with pumps and extractors. Call (513) 586-5107.',
+      'A failed water heater is the most common reason for water extraction in West Price Hill. In the 1920s to 1950s homes along Glenway Avenue, the tank sits in a finished or half-finished basement and dumps forty or more gallons at once. We pump it out, usually the same day.',
     relevance: [
       'West Price Hill (ZIP 45238) runs out along Glenway Avenue toward Covedale in 1920s-through-1950s single-family homes, and in houses that age the water heater usually sits in a finished or half-finished basement. When a tank fails it does not drip — it dumps forty or more gallons at once and keeps feeding from the supply until someone shuts the valve, so the floor is covered before anyone hears it.',
       'A tank failure is clean water, which means the flooring and drywall are savable if we move fast. We pump the standing water, extract it back out of the carpet and pad, and pull it from the subfloor before it wicks into the base of the walls. The first hours decide whether that finished basement dries or gets torn out.',
@@ -81,7 +81,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lower-price-hill': {
     intro:
-      'Standing water in a Lower Price Hill rowhouse after heavy rain? We reach the historic blocks around State Avenue the same day and pump the water out. Call (513) 586-5107.',
+      'Lower Price Hill water extraction usually follows high water. The 19th-century brick rowhouses around State Avenue sit low in the Mill Creek valley, and when the creek and the river run high, water pushes into the historic basements first. We pump it out, usually the same day.',
     relevance: [
       "Lower Price Hill (ZIP 45204) sits down in the Mill Creek valley near the industrial bottoms around State Avenue, in one of Cincinnati's most intact stretches of 19th-century Italianate brick rowhouses. That low valley ground is the problem: when Mill Creek and the river run high, water pushes into the rowhouse basements, and the historic lower levels take it first.",
       'These are old buildings with original features worth protecting, so we pump fast and extract from the floor and any porous material before the water climbs the brick and the plaster. Valley storm water can be contaminated, so saturated pad and soft material come out rather than dry in place. We extract, document, and set drying.',
@@ -97,7 +97,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'over-the-rhine': {
     intro:
-      'A pipe failed upstairs and flooded the unit below in Over-the-Rhine? We reach the converted buildings around Vine Street and Findlay Market the same day and extract every level the water reached. Call (513) 586-5107.',
+      'Emergency water extraction in Over-the-Rhine often covers several units from one broken line. The 1850s to 1880s Italianate buildings are split into apartments and condos on shared stacks, so water from two floors up stands in units below. We extract every level it reached.',
     relevance: [
       'Over-the-Rhine (ZIP 45202) is block after block of 1850s-through-1880s Italianate buildings, most now split into apartments and condos on shared stacks. When a line lets go two floors up, the water travels down through the old floors and stands in units that had nothing to do with the failure, so a single break can wet three units in one column.',
       'Extraction in a converted OTR building means working the whole vertical path, not one apartment. We pump and extract where the water is standing and pull it from the ceiling and floor cavities between units before it soaks the century-old joists. Coordinating access across units in the first hours is the difference between drying and rebuilding.',
@@ -113,7 +113,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   downtown: {
     intro:
-      'Standing water in a downtown condo or loft? We reach the central business district the same day, shut the source, and extract before the water travels further down the building. Call (513) 586-5107.',
+      'Water extraction in a Downtown condo tower or converted loft usually starts several floors up. A burst supply line in an empty unit can run unnoticed for hours and work down through the stack. We shut the source, extract each affected floor, and usually start the same day.',
     relevance: [
       'Downtown Cincinnati (ZIP 45202) mixes high-rise condos with converted early-1900s loft buildings between the river and Over-the-Rhine. In a tower, a burst supply line on a vacant floor or an unoccupied unit can run unnoticed for hours, and the water works down through the stack, so by the time it is found several floors are involved.',
       'We coordinate building access and shutoffs, pump the standing water, and extract from carpet, pad, and subfloor on each affected floor before it reaches the ceiling below. Speed here is about stopping the vertical spread — the sooner the water is out of one floor, the fewer floors join the job. Then drying equipment goes in.',
@@ -129,7 +129,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-end': {
     intro:
-      'Drain water backing up into a West End basement? We reach the neighborhood around TQL Stadium and Linn Street the same day with a submersible pump and extractors and get the contaminated water out. Call (513) 586-5107.',
+      'Most emergency water extraction in the West End involves contaminated water. On the low ground near the Mill Creek basin, by TQL Stadium and Linn Street, heavy rain overwhelms the sewers and backs water up through basement floor drains. We pump it out with a submersible pump and extractors.',
     relevance: [
       'The West End (ZIP 45203) sits on low ground near the Mill Creek basin just west of downtown, near TQL Stadium and Linn Street, in historic Italianate rowhouses and brick homes. On ground this low a heavy rain overwhelms the sewers and pushes water back up through the basement floor drains, and that backup is contaminated from the moment it arrives.',
       'Because it is contaminated, the job is pump-and-remove rather than dry-in-place. We drop a submersible pump for the standing water, then lift the pad and the porous material the water reached, extract the hard surfaces back to clean, and take the soft material out. We document the source and the readings for the claim and set drying on what remains.',
@@ -145,7 +145,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-adams': {
     intro:
-      'Overflowed tub or toilet flooding a Mount Adams rowhouse? We bring pumps and extractors up the steep streets the same day and get the water out. Call (513) 586-5107.',
+      'Water extraction in a Mount Adams rowhouse often means two or three floors of standing water from one overflowing tub or toilet upstairs. These tall, narrow homes on steep streets above Eden Park send water down through every level. We carry the equipment up and extract it.',
     relevance: [
       'Mount Adams (ZIP 45202) is dense hilltop rowhouses and townhomes on steep, narrow streets above Eden Park. An overflowing tub or toilet on an upper floor of a tall, skinny rowhouse sends water down through every level below it, so a fixture that ran over upstairs becomes standing water two or three floors down.',
       'The steep streets and tight parking are the local wrinkle — we ask about access on the phone so the right hose length comes off the truck the first time rather than the second. Once on site we pump and extract on every floor the water reached, pulling it from the stair treads, the floors, and the subfloor before it soaks the framing. Then drying goes in.',
@@ -161,7 +161,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-auburn': {
     intro:
-      'A burst line flooding a subdivided Mount Auburn house? We reach the hilltop just north of downtown the same day and extract every unit the water reached. Call (513) 586-5107.',
+      'One burst line can mean water extraction in several units of a subdivided Mount Auburn house. The grand 19th-century homes on this hilltop are now apartments, and water from an upper floor runs down the old staircase and ceilings. We extract every unit the water reached.',
     relevance: [
       "Mount Auburn (ZIP 45219) is one of Cincinnati's oldest hilltop neighborhoods, full of grand 19th-century homes and mansions now divided into apartments. In a subdivided house, one burst supply line on an upper floor runs down through the old grand staircase and ceilings, so a single failure can put standing water in several units at once.",
       'We pump and extract across every unit the water touched, not just the one that failed, because a wet ceiling over a dry-looking apartment is still a wet building. Pulling the water from the old plaster and the wide-plank subfloor in the first hours is what keeps the original detail these homes are known for. Then we set drying.',
@@ -177,7 +177,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   clifton: {
     intro:
-      'Water heater emptied into a Clifton basement? We reach the homes around Ludlow Avenue and the Gaslight District the same day with pumps and extractors. Call (513) 586-5107.',
+      'A failed water heater is a common Clifton water extraction job. The large Victorian houses near UC and the Ludlow Avenue Gaslight District keep their tanks in deep basements, and in an empty rental one can run for hours over a weekend. We pump and extract, usually the same day.',
     relevance: [
       'Clifton (ZIP 45220) is large Victorian and early-1900s houses on tree-lined streets near UC, many of them now rentals around the Ludlow Avenue Gaslight District. The water heaters in these big old houses sit in deep basements, and when a tank fails over a weekend in a rental it can empty and keep feeding for hours with no one home, covering a large finished floor before it is found.',
       'Tank water is clean, so the flooring and anything stored down there is savable if we move quickly. We pump the standing water, extract it from carpet, pad, and subfloor, and pull it back from the base of the walls before it wicks. The first hours decide how much of that big basement dries rather than comes out. Then drying goes in.',
@@ -193,7 +193,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   corryville: {
     intro:
-      'Overflowed toilet or appliance line in a Corryville rental? We reach the Short Vine area near UC the same day and extract before it spreads to the unit below. Call (513) 586-5107.',
+      'Corryville water extraction jobs mostly come from overflowing toilets, washing-machine lines and dishwasher connections in busy rentals around Short Vine. In buildings that share walls and stacks, the overflow reaches the next unit before anyone reports it. We extract before it spreads further, usually the same day.',
     relevance: [
       'Corryville (ZIP 45219) is dense early-1900s housing and student rentals packed around the Short Vine corridor at the edge of UC. Overflowing toilets, washing-machine lines, and dishwasher connections are constant in heavily used rentals, and in buildings that share walls and stacks the overflow from one unit runs into the next before anyone reports it.',
       'We pump and extract fast in the unit that flooded and check the one below and beside it, because in this dense housing the water rarely stops at one apartment. Pulling it from carpet, pad, and subfloor in the first hours is what keeps a small overflow from becoming a multi-unit tear-out. Then drying goes in.',
@@ -209,7 +209,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   northside: {
     intro:
-      'Storm water standing in a Northside basement? We reach the homes around Hamilton Avenue and the Mill Creek valley the same day and pump it out. Call (513) 586-5107.',
+      'Storm water is what brings most emergency water extraction jobs in Northside. On the streets nearest the Mill Creek valley, a heavy rain saturates the ground and pushes water into basements, sometimes several inches across a lower level. We pump it out the same day.',
     relevance: [
       'Northside (ZIP 45223) runs along Hamilton Avenue down toward the low ground of the Mill Creek valley. On the streets nearest the creek, a heavy rain saturates the ground and pushes water into the basements, and a hard storm can put several inches across a lower level before it drains.',
       'Storm water is often contaminated, so our extraction is pump-then-remove: we pump the standing water, lift the saturated pad and soft material rather than dry it in place, and extract the hard surfaces back to clean. We take photos and readings for the claim, get air movers running, and hand off to drying.',
@@ -225,7 +225,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'college-hill': {
     intro:
-      'A corroded supply line let go in a College Hill basement? We reach homes along Hamilton Avenue and Belmont the same day with pumps and extractors and pull the water out. Call (513) 586-5107.',
+      'Many water extraction jobs in College Hill start with a galvanized supply line in an older house splitting behind a wall or under the first floor. Clean water runs unseen for hours and spreads across the lower level. We extract it and handle the drying too.',
     relevance: [
       'College Hill (ZIP 45224) is a mix of large early-1900s houses and mid-century homes on the northwest hilltop along Hamilton Avenue and Belmont, and the galvanized supply lines in the older ones have been closing up with corrosion for decades. When one finally splits behind a wall or under a first floor, clean water runs unseen for hours and spreads across the lower level before anyone finds it.',
       'Our work here is the first hours only. We pump the standing water, extract it from the carpet, pad, and subfloor, and pull it back from the base of the walls before it wicks up the drywall. Once the water is out we set air movers and hand the drying off — the extraction is what decides whether that lower level dries or gets torn out.',
@@ -241,7 +241,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'walnut-hills': {
     intro:
-      'A burst line flooding a Walnut Hills apartment building? We reach the homes around Peebles Corner and McMillan Street the same day and extract every unit the water reached. Call (513) 586-5107.',
+      'Water extraction in Walnut Hills often covers several apartments from a single burst line. The 19th-century homes and buildings around Peebles Corner and McMillan Street are split into units on shared stacks, and water stands in the units below. We extract each one without shutting the whole building down.',
     relevance: [
       'Walnut Hills (ZIP 45206) is grand 19th-century homes and apartment buildings around the Peebles Corner district and McMillan Street, much of it split into units on shared stacks. One burst line on an upper floor runs down through the old ceilings and stands in the apartments below, so a single failure often means several wet units.',
       'We work the whole vertical path — pumping and extracting on each floor the water reached, and pulling it from the ceiling and floor cavities between units before it soaks the century-old framing. Coordinating access across apartments in the first hours is what keeps the damage contained. Then drying equipment goes in.',
@@ -257,7 +257,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-walnut-hills': {
     intro:
-      'A supply line let go unnoticed in an East Walnut Hills home? We reach the streets around Woodburn Avenue and DeSales Corner the same day, shut it off, and extract. Call (513) 586-5107.',
+      'A corroded supply line in a wall or under the first floor causes most water extraction jobs in East Walnut Hills. It runs for hours behind the finish before the water shows in a finished lower level. We shut it off and extract the same day.',
     relevance: [
       'East Walnut Hills (ZIP 45206) is stately early-1900s houses on tree-lined streets around Woodburn Avenue and DeSales Corner, most with finished lower levels and original woodwork. A corroded supply line in a wall or under a first floor can run for hours behind the finish before the water shows, so the volume standing in the lower level is well past a mop by the time it is found.',
       'The original oak and plaster in these homes survive water but not standing water, so our first hours are about getting it off the floor and out of the pad and subfloor before it wicks into the walls. We pump, extract from the porous material, and pull what we can from below, then set drying and hand off.',
@@ -273,7 +273,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   avondale: {
     intro:
-      'Overflowed appliance line or fixture flooding an Avondale apartment? We reach the neighborhood near the hospitals and the zoo the same day and extract before it spreads. Call (513) 586-5107.',
+      'Washing-machine lines, dishwashers and overflowing fixtures drive most water extraction jobs in Avondale. The dense rental apartments near the uptown hospitals and the zoo see heavy use, and in shared-wall buildings one unit’s overflow reaches the next. We extract it before it spreads, usually the same day.',
     relevance: [
       'Avondale (ZIP 45229) is dense, older housing near the uptown hospitals and the Cincinnati Zoo, much of it rental apartments under heavy use. Washing-machine lines, dishwashers, and overflowing fixtures fail often in buildings that busy, and in shared-wall housing the overflow from one unit runs into the next before it is reported.',
       'We pump and extract fast in the flooded unit and check the ones below and beside it, because the water rarely stays put in this kind of housing. Pulling it from carpet, pad, and subfloor in the first hours is what keeps one overflow from becoming a several-unit job. Then drying goes in.',
@@ -289,7 +289,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hyde-park': {
     intro:
-      'Standing water in a Hyde Park home? We bring pumps and extractors, shut the source down, and pull the water out the same day, usually within hours of the call around Hyde Park Square. Call (513) 586-5107.',
+      'Water extraction in Hyde Park almost always means a finished lower level: carpet over pad, drywall to the slab, built-in cabinetry along the walls. We bring pumps and extractors to homes around Hyde Park Square, shut the source, and usually have the water coming out within hours.',
     relevance: [
       'Hyde Park (ZIP 45208) homes are large, and the lower levels are almost always finished. Carpet with pad under it, drywall down to the slab, built-in cabinetry along the walls. All of it holds water, and all of it holds it out of reach of anything you own. The volume that ends up inside those materials is routinely more than what is visible on the floor, which is why the pump is only half the visit.',
       'The reason speed matters more here than the square footage suggests is the original detail. Solid oak flooring and century-old plaster in these Tudors, colonials, and brick foursquares can usually be saved — but the window is measured in hours, not days. Get the standing water off the boards and out of the pad early and you are drying. Leave it over a weekend and you are replacing.',
@@ -309,7 +309,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   oakley: {
     intro:
-      'Water heater emptied into an Oakley basement? We reach the homes around Oakley Square and Madison Road the same day with pumps and a truck-mount extractor. Call (513) 586-5107.',
+      'A water heater that split and emptied forty or more gallons is the usual Oakley water extraction job. In the bungalows and brick homes around Oakley Square and Madison Road, the tank sits in a partly finished basement. We pump it out with a truck-mount extractor, usually the same day.',
     relevance: [
       'Oakley (ZIP 45209) is streets of early-1900s bungalows and brick homes around Oakley Square and Madison Road, most with the water heater in a basement that has been at least partly finished over the years. An aging tank fails all at once — it splits, empties forty or more gallons, and keeps feeding from the supply until the valve is shut, covering the floor before anyone hears it.',
       'Tank water is clean, so a fast response saves the flooring and whatever is stored down there. We pump the standing water, run the truck-mount extractor through the carpet and pad, and pull it back from the wall base before it wicks up the drywall. The first hours decide whether the basement dries or comes out.',
@@ -325,7 +325,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-lookout': {
     intro:
-      'Storm water in a Mount Lookout basement? We reach the homes around Mount Lookout Square and Ault Park the same day and pump the standing water out. Call (513) 586-5107.',
+      'The hills drive most emergency water extraction in Mount Lookout. Heavy rain runs downhill toward the lower homes around Mount Lookout Square and Ault Park, overwhelms basement drains, and pushes water up through the floor. We pump the standing water out, usually the same day.',
     relevance: [
       'Mount Lookout (ZIP 45226) is older hilltop homes on hilly streets around Mount Lookout Square and near Ault Park. The grade is the local factor: heavy rain runs downhill toward the lower homes and overwhelms basement drains, so a hard storm can push water up through the floor and stand it across a lower level.',
       'Storm water can be contaminated, so we pump the standing water and lift the saturated pad and soft material rather than dry it in place, then extract the hard surfaces back to clean. We document the source and readings for the claim, set air movers, and hand off to drying.',
@@ -341,7 +341,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'columbia-tusculum': {
     intro:
-      "Drain water backing up into a Columbia-Tusculum basement when the river is high? We reach Cincinnati's oldest neighborhood near the river the same day and extract the standing water. Call (513) 586-5107.",
+      'In Columbia-Tusculum, a water extraction job is usually a contaminated drain backup. The Painted Lady Victorians of Cincinnati’s oldest neighborhood sit on low ground near the Ohio, and high river water plus heavy rain push water up through basement floor drains. We extract it with care around original features.',
     relevance: [
       "Columbia-Tusculum (ZIP 45226) is Cincinnati's oldest neighborhood, its Painted Lady Victorians standing on low ground near the Ohio. When the river runs high and a heavy rain overwhelms the sewers, water pushes back up through the basement floor drains, and that backup is contaminated the moment it arrives.",
       'A backup is a removal job, not just a pump job, and these homes have original features worth protecting. We pump the standing water, lift the pad and porous material it reached rather than dry it, and extract the hard surfaces back to clean while working carefully around the historic woodwork and trim. We document the source and set drying on what remains.',
@@ -357,7 +357,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-washington': {
     intro:
-      'Water heater let go in a Mount Washington basement? We reach the homes along Beechmont Avenue the same day with pumps and extractors. Call (513) 586-5107.',
+      'In Mount Washington, many water extraction jobs come from water heaters at the end of their life. In the early-1900s to mid-century homes along Beechmont Avenue, a failed tank dumps its full contents and keeps feeding until the valve is shut. We pump the basement out, usually the same day.',
     relevance: [
       'Mount Washington (ZIP 45230) is a settled mix of early-1900s through mid-century single-family homes strung along Beechmont Avenue. The water heaters in these houses are often at the end of their service life, and when a tank fails it dumps its full contents at once and keeps feeding from the supply until the valve is shut.',
       'Tank water is clean, so the flooring and drywall are savable with a fast response. We pump the standing water, extract it out of the carpet, pad, and subfloor, and pull it back from the wall base before it climbs. What decides whether that lower level dries rather than gets replaced is the first few hours, not the water itself. Then we set drying and hand off.',
@@ -373,7 +373,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   madisonville: {
     intro:
-      'Standing water in Madisonville? Same-day pumps and extractors for homes around Madison Road and Whetsel Avenue, with the failed line shut off and repaired on the same visit. Call (513) 586-5107.',
+      'Water extraction in Madisonville splits two ways. Renovated homes around Madison Road flood from modern failures such as a fridge line or laundry connection, while houses still on galvanized plumbing flood from old pipe. We extract the same day and repair the failed line on the same visit.',
     relevance: [
       'Madisonville (ZIP 45227) has had years of steady reinvestment, which means two very different kinds of flood on the same street. In the renovated and newly built houses it is almost always a modern failure — a refrigerator supply line, a laundry connection, a water heater that emptied its tank into a finished room. Those run at full pressure and unattended, so the volume on the floor when you find it is large.',
       'In the homes that have not been touched, it is aging galvanized letting go, and it tends to be found later. Either way the extraction problem is the same and it is about hours. A renovated Madisonville basement flooded on a Friday is mostly salvageable if we pump it Friday. The same water found Monday has been in the pad, the bottom of the drywall, and the subfloor for three days, and that is a demolition conversation rather than an extraction one.',
@@ -393,7 +393,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pleasant-ridge': {
     intro:
-      'A leak spreading between the halves of a Pleasant Ridge two-family? We reach the homes along Montgomery Road the same day and extract both units. Call (513) 586-5107.',
+      'Emergency water extraction in a Pleasant Ridge two-family often covers both halves. Water from one side runs along the shared wall cavity into the other, so two units are holding water by the time anyone notices. We extract both, in the brick two-families and older homes along Montgomery Road.',
     relevance: [
       'Pleasant Ridge (ZIP 45213) is tree-lined streets of early-1900s homes and classic Cincinnati brick two-families along Montgomery Road. In a two-family, water from a failure on one side runs along the shared wall cavity into the other half, so by the time it is noticed there are two units holding water instead of one.',
       'We pump and extract on both sides where the water travelled, not just where it started, because pumping one half while the other still holds water lets it come back through the shared wall. Pulling it from carpet, pad, and subfloor on both sides in the first hours is what keeps it a drying job. Then drying equipment goes in.',
@@ -409,7 +409,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   westwood: {
     intro:
-      "Drain water backing up into a Westwood basement? We reach Cincinnati's largest neighborhood along Harrison Avenue the same day and extract the standing water. Call (513) 586-5107.",
+      'Aging cast-iron drains are behind many Westwood water extraction jobs. In the older housing along Harrison Avenue, heavy rain overwhelms those lines and pushes water back up through basement floor drains, and that water is contaminated. We extract it the same day in most cases.',
     relevance: [
       "Westwood (ZIP 45211) is the city's largest neighborhood by population, spread along Harrison Avenue near the Westwood Town Hall, with a lot of older housing on aging cast-iron drains. When a heavy rain overwhelms those old lines, water backs up through basement floor drains — and once it comes up that way it is contaminated, not clean.",
       'A backup is a removal job. We pump the standing water, lift the pad and porous material it reached rather than dry it, and extract the hard surfaces back to clean. We document the source and readings for the claim and set drying on what remains. The porous material has to go; the structure gets dried.',
@@ -425,7 +425,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   norwood: {
     intro:
-      'Flooded in Norwood? We arrive with pumps and extraction equipment, stop the source, and get the standing water out the same day. Norwood sits in the middle of our service area. Call (513) 586-5107.',
+      'Water extraction in Norwood often reaches past the house where it started. On the tight grid of early-1900s homes and brick two-families, small lots and shared walls let water travel next door. We stop the source and pump out the standing water, usually the same day.',
     relevance: [
       'Norwood (ZIP 45212) is its own city, entirely surrounded by Cincinnati, laid out as a streetcar and factory town on a tight grid of early-1900s homes and brick two-families. Small lots and shared walls change extraction in a specific way: water does not stay where it started. It runs along a shared wall cavity into the other half of a two-family, or into the house four feet away, and by the time anyone notices there are two floors to pump instead of one.',
       'Tight access is the other Norwood reality. Narrow drives, back-of-lot entrances, and basement stairs that will not take a wide hose run all add minutes, and minutes are the whole point of this job. We ask about access on the phone so the right pump and hose length come off the truck the first time rather than the second.',
@@ -445,7 +445,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   'blue-ash': {
     intro:
-      'Sump pump failed and the basement is filling in Blue Ash? We reach homes across the northeast-side city the same day and pump the standing water out. Call (513) 586-5107.',
+      'A failed sump pump causes most emergency water extraction jobs in Blue Ash. A dead motor, a stuck float or a power cut during a storm lets water rise through the pit and flood a finished basement fast. We pump it out across the mid-century neighborhoods and newer subdivisions.',
     relevance: [
       'Blue Ash (ZIP 45242) is mid-century neighborhoods and newer subdivisions across the northeast side, and in a lot of these homes a sump pump is what keeps the finished basement dry. When that pump fails during a storm — a dead motor, a stuck float, a power cut — the water it should have moved rises through the pit and floods the lower level fast.',
       'We pump the standing water, then extract it from carpet, pad, and subfloor before it wicks up the finished walls, because a sump failure usually hits a basement that is fully finished. The first hours decide how much of that flooring and drywall survives. We set drying equipment and hand off.',
@@ -461,7 +461,7 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
   },
   montgomery: {
     intro:
-      'A burst supply line running through a Montgomery home? We reach homes around the historic district and Montgomery Road the same day with pumps and extractors and shut the source down. Call (513) 586-5107.',
+      'Burst supply lines account for most water extraction work in Montgomery. From the historic district to the older subdivisions along Montgomery Road, worn lines give way behind a wall or upstairs and soak a finished level before anyone is home. We shut the source down and extract the same day.',
     relevance: [
       'Montgomery (ZIP 45242) is an upscale northeast-side city, from 19th-century buildings in the preserved historic district to decades-old subdivisions along Montgomery Road. The worn supply lines across that range give way without warning, and a burst line behind a wall or on an upper floor can put water down across a finished level before anyone is home to hear it.',
       'We pump the standing water, extract it from the carpet, pad, and subfloor, and pull it back from the wall base before it wicks. A licensed plumber is on the truck, so the burst line is shut off and capped at the source rather than left feeding the flood while we work. The first hours are what decide whether the finished level dries or gets torn out.',

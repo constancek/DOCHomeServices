@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Install, Maintenance, and Removal', body: 'We handle the full season — install, any in-season fixes, and scheduled takedown after the holidays. That means a {neighborhood} homeowner gets the look without storing tangled lights or climbing back up to pull them down in January.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Experienced Installers', text: 'Trained installers who handle every detail safely.' },
-    { icon: 'badge', title: 'Commercial-Grade Lighting', text: 'High-quality materials built to withstand winter weather.' },
-    { icon: 'check', title: 'Custom Design Options', text: 'Layouts tailored to your home, landscaping, and style.' },
-    { icon: 'clock', title: 'Install & Removal', text: 'We handle setup and scheduled takedown after the season.' },
-  ],
+  whyParagraph: 'Trained installers hang commercial-grade lights made to hold up through {neighborhood} winters, in a layout designed around your home and landscaping. After the season, we come back on a scheduled date and take everything down.',
   proofQuote:
     'They designed the roofline and wrapped the front trees, ran it all off a balanced circuit so nothing tripped, and came back in January to take it down. Straight lines, no tangles, and we never touched a ladder.',
   sharedFaqs: [

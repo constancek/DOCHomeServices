@@ -79,12 +79,7 @@ const config: ServiceLocationConfig = {
     },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'clock', title: 'We Move Fast on These', text: 'No gas means no hot water and, in winter, no heat. It gets treated that way.' },
-    { icon: 'shield', title: 'Licensed Gas Plumbers', text: 'Only a licensed trade can do the repair the utility is waiting on.' },
-    { icon: 'badge', title: 'We Deal With the Utility', text: 'We handle the test, the paperwork and the reconnect scheduling so you are not on hold.' },
-    { icon: 'check', title: 'Relight Included', text: 'Every appliance relit and checked before we leave, not billed as a second trip.' },
-  ],
+  whyParagraph: 'No gas in {neighborhood} means no hot water and, in winter, no heat, so we move fast. Licensed gas plumbers make the repair and handle the test and paperwork for the utility, and every appliance is relit before we leave.',
   proofQuote:
     'They found the leak in an afternoon, passed the test the same day, and had the furnace and water heater lit before they left. The utility had told us nothing except that they could not touch it.',
   sharedFaqs: [

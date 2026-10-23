@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Safer Home, Ready for Modern Demand', body: 'Faulty wiring is a leading cause of house fires, and overloaded circuits and worn insulation only raise the risk. Rewiring a {neighborhood} home removes the damaged wiring, increases circuit capacity, and prepares the house for smart devices, new lighting, and larger appliances without strain.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Trained pros who understand grounding and load balance.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Every rewire is installed to meet current safety code.' },
-    { icon: 'badge', title: 'Clear Estimates', text: 'Upfront pricing on your rewiring cost before work begins.' },
-    { icon: 'clock', title: 'Reliable Scheduling', text: 'Dependable timelines and tidy, professional service.' },
-  ],
+  whyParagraph: 'Our licensed electricians understand grounding and load balance, and every rewire in {neighborhood} is installed to current safety code. You see the rewiring cost upfront, and we keep to the schedule we give you and leave the house tidy.',
   proofQuote:
     'Our 1920s house still had knob-and-tube and two-prong outlets everywhere. They walked us through a whole-home rewire, kept the power planned around our schedule, and passed inspection. Lights are steady and we can finally run everything at once.',
   sharedFaqs: [

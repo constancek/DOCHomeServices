@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'When You Do Not Need Us in {neighborhood}', body: 'If the water stayed outside the house, or came in shallow and never reached the water heater base, the shutoffs, or a floor drain, there may be nothing here worth paying us for. Clean water from a burst supply line inside the home is a different job — a repair and a dry-out, not a full post-flood inspection. Tell us what the water did and how high it got when you call. If the answer is that you do not need us, we would rather say it on the phone than send a truck.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'check', title: 'Full System Inspection', text: 'We check the whole system, not just the fixture you noticed — floods do damage in places you would not look.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked plumbers who pull permits where the code calls for it, including gas work.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start, with no overtime or weekend fees.' },
-    { icon: 'clock', title: 'Same-Day Service', text: 'A house you cannot safely use water in is an emergency. We reach most homes the same day.' },
-  ],
+  whyParagraph: 'Floods damage pipes in places you would not look, so we check the whole system in your {neighborhood} home, not only the fixture you noticed. Licensed plumbers reach most homes the same day, at a price you approve first.',
   proofQuote:
     'The basement took on water and everything looked fine once it drained. They found the main was half full of silt and the water heater controls had gone under. Both would have turned up the hard way a week later.',
   sharedFaqs: [

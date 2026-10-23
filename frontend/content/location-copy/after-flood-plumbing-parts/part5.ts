@@ -1,7 +1,7 @@
 export const part5: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   ludlow: {
     intro:
-      'After a flood in Ludlow, the plumbing needs checking before the water goes back on, not after. We inspect the water heater, sewer main, and shutoffs in the older homes off Elm Street and along the riverfront. Call (513) 586-5107.',
+      'Ludlow sits low against the Ohio, and after-flood plumbing in the Victorian and early-1900s homes off Elm Street starts at the water heater on the lowest floor. If its burner and gas valve went under, it is replaced. We camera the sewer main, test shutoffs, and check the sump pump.',
     relevance: [
       'Ludlow (ZIP 41016) sits low against the Ohio River, and when the river comes up it reaches basements and crawlspaces in the Victorian and early-1900s homes off Elm Street. Those houses run original galvanized supply lines and cast-iron drains, and the water heater is usually set on the lowest floor — exactly where floodwater collects and where the burner assembly and gas control valve go under.',
       'We go through what the flood left behind before you turn anything back on. That means confirming whether the water heater sat in water and needs replacing rather than relighting, cameraing the sewer main for the silt a river backup packs into it, and checking whether the shutoff valves and supply lines that sat in dirty water still turn and hold. On the low riverfront lots we also test the sump pump and its check valve, since both took the brunt of the event.',
@@ -21,7 +21,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'park-hills': {
     intro:
-      'Flood or heavy backup in Park Hills? We inspect the plumbing it left behind, including the water heater, drains, and shutoffs, in the hillside homes below Devou Park before you turn the water on. Call (513) 586-5107.',
+      'In Park Hills, flooding is storm runoff and sewer backup forced up through floor drains, so after-flood plumbing in these early-1900s hillside homes below Devou Park starts there. We check the water heater base and gas controls, camera the main if a drain backed up, and test shutoffs and traps.',
     relevance: [
       'Park Hills (ZIP 41011) climbs the hillside beneath Devou Park in early-1900s homes on steep streets above Covington. Flooding here is usually storm runoff and sewer backup forced up through basement floor drains rather than river water, and it lands in lower levels where the water heater, the laundry connections, and the older drain lines sit.',
       'Our after-flood work starts with the components that water reaches first on a hillside lot. We check whether the water heater base and its gas controls went under, camera the main if a floor drain backed up so the silt does not resurface later, and test whether the shutoffs and traps that sat in dirty water still work. If the water stayed shallow and never reached the heater or the drains, we will tell you there is nothing here worth paying for.',
@@ -37,7 +37,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   bromley: {
     intro:
-      'A flood in Bromley leaves plumbing that has to be checked before the water goes back on. In the older homes on the low ground beside the Ohio, we start with the water heater, then the sewer main and the valves. Call (513) 586-5107.',
+      'When the Ohio climbs into Bromley, the water heater on the basement floor goes under first, so after-flood plumbing in this Kenton County river village starts there. A heater that sat in floodwater is replaced, not relit. Then we camera the sewer main and test seized shutoffs and supply lines.',
     relevance: [
       'When the Ohio climbs into Bromley (ZIP 41016), it reaches the water heater before it reaches anything you would notice upstairs. This small Kenton County river village next to Ludlow sits on low ground, and the older homes keep the heater on the basement floor, so the burner assembly and gas control valve are the first parts to go under.',
       'A water heater that sat in floodwater is replaced, not relit, because the gas controls corrode where you cannot see them and a valve that fails after a flood fails unsafely. From there we camera the sewer main for the silt a river backup packs in, and test the shutoff valves and supply lines that seized after sitting in dirty water. If the water never reached the heater base or the shutoffs, we will tell you there is nothing here worth paying for.',
@@ -53,7 +53,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-wright': {
     intro:
-      'After a flood or backup in Fort Wright, we inspect the plumbing it left behind before the water goes back on, across the hilltop streets above the river. Call (513) 586-5107.',
+      'Fort Wright sits on high ground, so after-flood plumbing there deals with storm and sewer backup into finished basements, not river water. The sump pump worked hardest, so it and the check valve come first. Then we check the water heater and gas controls, camera the main, and test shutoffs.',
     relevance: [
       'Fort Wright (ZIP 41011) sits on high ground above the river, so the flooding we see here is storm and sewer backup into finished basements rather than river water. Its mid-century and newer homes reach the age where the water heater lives downstairs beside the sump and the laundry drain, which is the corner a backup fills first.',
       'We check the parts of the system a basement flood actually reaches. If the water heater base and gas controls went under they get replaced, the main gets cameraed when a drain backed up so silt does not cause a second backup, and the shutoffs and supply lines that sat in the water get tested. On a hilltop lot the sump pump is the part that worked hardest, so its function and check valve come first.',
@@ -69,7 +69,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-mitchell': {
     intro:
-      'A flooded basement in Fort Mitchell leaves plumbing to inspect before you turn the water back on. In the homes along the Dixie Highway corridor we start with the shutoff valves and supply lines that sat in dirty water. Call (513) 586-5107.',
+      'Fort Mitchell basements along Dixie Highway take sewer and storm backups that stand around the shutoffs and supply lines, so after-flood plumbing here starts with the valves. Brass and galvanized fittings seize after hours in dirty water. We test and replace them, check the water heater, and camera the main.',
     relevance: [
       'Fort Mitchell (ZIP 41017) is an established Kenton County city along Dixie Highway with a mix of historic and mid-century homes, and a sewer or storm backup here comes up through a basement drain and stands around the shutoffs and supply lines. Brass and galvanized fittings that spend hours in dirty water seize, so the valve you reach for in the next emergency will not turn.',
       'We test every shutoff and supply line that sat in the water and replace the ones that no longer turn or hold, because a seized main shutoff is the difference between stopping the next leak and watching it run. From there the water heater and its gas controls are checked if they went under, and the main is cameraed if a floor drain backed up so the silt does not clog it later.',
@@ -85,7 +85,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'villa-hills': {
     intro:
-      'After a flood in Villa Hills, we check the plumbing it left behind before the water goes back on. On the hilltop lots above the river, that starts with the sump pump and check valve that carried the storm. Call (513) 586-5107.',
+      'Villa Hills floods are storm and sewer backups, not river water, and after-flood plumbing in these hilltop homes starts with the sump pump in the lowest corner. We confirm it still cycles and the check valve holds, then check the water heater, camera the main, and test shutoffs.',
     relevance: [
       'Villa Hills (ZIP 41017) is a hilltop residential Kenton County city above the river, made up mostly of mid-century and newer single-family homes, and the flooding here is storm and sewer backup rather than river water. Even the newer houses put the sump pump in the lowest corner, where it runs for hours during a storm and where its check valve either holds or lets the discharge drain straight back down.',
       'We verify the sump pump still cycles and the check valve holds before the next storm, because a pump that ran flat out through one event is the part most likely to quit during the next. Then the water heater and its controls are checked if they went under, the main is cameraed if a drain backed up, and the shutoffs that sat in dirty water are tested for seizing.',
@@ -101,7 +101,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lakeside-park': {
     intro:
-      'After a basement flood in Lakeside Park, we inspect the plumbing it left behind before you turn the water on, across the quiet mid-century streets. Call (513) 586-5107.',
+      'Post-flood plumbing in Lakeside Park usually follows a storm or sewer backup into a mid-century basement, where the water heater, floor drain, and aging supply lines sit at the low point. A submerged heater is replaced rather than relit, the main gets a camera, and shutoffs get tested.',
     relevance: [
       'Lakeside Park (ZIP 41017) is a small, settled city of mid-century single-family homes on quiet streets. Flooding here is a storm or sewer backup into the basement, and homes of that era put the water heater, the floor drain, and aging supply lines at the low point where the water gathers.',
       'We check the components a backup actually reaches rather than the whole house. A water heater whose burner and gas valve went under is replaced instead of relit, the main gets a camera when a drain backed up so silt does not cause a repeat, and the shutoffs that sat in dirty water get tested for seizing. If the water never reached any of these, that is worth a phone call, not a truck.',
@@ -117,7 +117,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'crescent-springs': {
     intro:
-      'Flood or backup in Crescent Springs? We inspect the plumbing it left behind before you turn the water back on, across this suburban Kenton County city. Call (513) 586-5107.',
+      'Crescent Springs flooding is a sewer or storm backup rising through a basement drain, and after-flood plumbing in these mid-century and newer homes covers what it reached. We confirm whether the water heater controls went under, camera the main, test seized shutoffs, and check the sump pump and check valve.',
     relevance: [
       'Crescent Springs (ZIP 41017) is a suburban city of mid-century and newer homes. Flooding here is generally a sewer or storm backup rising through a basement drain, and it reaches the finished lower levels where the water heater, the sump, and the laundry connections sit.',
       'Our work is the inspection and repair of what the water touched, not the extraction and drying. We confirm whether the water heater controls went under, camera the main if a drain backed up so silt does not resurface, and test the shutoff valves and supply lines that seize after sitting in flood water. The sump pump and check valve get checked because they carried the storm.',
@@ -133,7 +133,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'crestview-hills': {
     intro:
-      'After a flood in Crestview Hills, the plumbing it left behind gets inspected before the water goes back on. Near Thomas More University and the Crestview Hills mall, in homes and commercial buildings, we start with the floor drains a flood packs with debris. Call (513) 586-5107.',
+      'Crestview Hills after-flood plumbing often starts with floor drains, since homes and the commercial buildings near Thomas More University and the mall have drains a backup packs with grit. We clear the drains and traps, replace a water heater with submerged gas controls, camera the main, and test shutoffs.',
     relevance: [
       'Crestview Hills (ZIP 41017) sits around Thomas More University and the Crestview Hills mall, with residential streets beside a commercial corridor, and a backup here fills the floor drains that a store or an office building has in every back room. Each drain holds the grit the flood pushed in, and it surfaces the first time the floor is washed or the next hard rain runs.',
       'We pull and clear the floor drains and traps the flood packed with silt, so the water does not come back up through them later. From there a water heater with submerged gas controls is replaced rather than relit, the main is cameraed so backup silt does not clog it, and the shutoffs that sat in dirty water are tested. If the water stayed shallow and reached none of this, we will say so.',
@@ -149,7 +149,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   edgewood: {
     intro:
-      'A flooded basement in Edgewood leaves plumbing to inspect before you turn the water on. In the neighborhoods near St. Elizabeth Healthcare we start with the gas connections and appliance controls that sat in the water. Call (513) 586-5107.',
+      'Edgewood homes near St. Elizabeth Healthcare keep the water heater, furnace, and other gas appliances in the basement, so after-flood plumbing here starts with the gas connections and controls that sat in the water. We check each one, replace a submerged heater, camera the main if needed, and test shutoffs.',
     relevance: [
       'Edgewood (ZIP 41017) is a residential Kenton County city around St. Elizabeth Healthcare, with mid-century and newer homes that keep the water heater, the furnace, and other gas appliances in the basement. When a storm or sewer backup fills that basement, the gas connections and the control valves on those appliances are what spend hours submerged.',
       'We check every gas connection and appliance control that went under, because a control that corroded in floodwater can fail open, and that is not a risk you run to save a service call. From there the main is cameraed if a drain backed up so silt does not clog it later, and the shutoffs and supply lines that sat in dirty water are tested. If the water stayed shallow and reached none of the mechanicals, there is nothing here to fix.',
@@ -165,7 +165,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'taylor-mill': {
     intro:
-      'After a flood in Taylor Mill, we check the plumbing it left behind before the water goes back on. On the hilltop lots south of Covington that starts with the sump pump and check valve. Call (513) 586-5107.',
+      'Taylor Mill floods are storm and sewer backups pooling in the lowest basement corner, where the sump pump sits, so post-flood plumbing in these hilltop homes south of Covington begins with that pump and its check valve. Then we replace a submerged water heater, camera the main, and test shutoffs.',
     relevance: [
       'Taylor Mill (ZIP 41015) is a hilltop residential Kenton County city south of Covington, made up largely of mid-century and newer single-family homes, so the flooding here is storm and sewer backup pooling in the lowest corner of the basement. That corner holds the sump pump, which runs hard through the storm and depends on a check valve that quietly wears out.',
       'We start by confirming the sump pump still cycles and the check valve holds, since a pump that carried one storm is the part most likely to fail during the next. Then a water heater that went under is replaced rather than relit, the main is cameraed if a floor drain backed up, and the shutoffs that sat in dirty water are tested for seizing.',
@@ -181,7 +181,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   elsmere: {
     intro:
-      'A flood or backup in Elsmere leaves plumbing to inspect before you turn the water on. In the older and mid-century homes along Dixie Highway we start with the gas connections that sat in the water. Call (513) 586-5107.',
+      'Gas connections come first in Elsmere after-flood plumbing. The older and mid-century homes along Dixie Highway keep the water heater and furnace in the basement, where a backup leaves their controls in dirty water. We check each control, replace a submerged heater, camera the main, and test shutoffs.',
     relevance: [
       'Elsmere (ZIP 41018) is an established Kenton County city along the Dixie Highway corridor near Erlanger, with a mix of older and mid-century homes that keep the water heater and furnace in the basement. A storm or sewer backup rising through a basement drain leaves those gas appliances and their controls standing in dirty water.',
       'We check the gas connections and appliance controls that went under first, because a corroded gas valve is the one after-flood problem that does not wait politely for a second visit. From there a submerged water heater is replaced rather than relit, the main is cameraed if a drain backed up, and the shutoffs and supply lines that sat in the water are tested.',
@@ -197,7 +197,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   independence: {
     intro:
-      'After a flood in Independence, the plumbing it left behind gets inspected before the water goes back on. From the historic core to the newer subdivisions, we camera the sewer main for the silt a backup packs in. Call (513) 586-5107.',
+      'Independence homes, from the historic core to the newer subdivisions, take sewer backups that push silt into the main, so after-flood plumbing here starts with a camera rather than a blind snake. We clear the line once, replace a water heater that went under, and test seized shutoffs.',
     relevance: [
       'Independence (ZIP 41051) is the Kenton County seat, one of the faster-growing cities in Northern Kentucky, with a historic core wrapped in newer subdivisions. A sewer backup here pushes silt into the main whether the house is a hundred years old or twenty, and the line looks clear until the first heavy use puts water back on the floor.',
       'We camera the main to see the silt a backup left rather than snake it blind, so the line is cleared once instead of clogging again the first laundry day. From there a water heater that went under is replaced rather than relit, and the shutoffs that seized after sitting in dirty water are tested. If the water stayed shallow and touched none of this, we will tell you on the phone before we send a truck.',
@@ -213,7 +213,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'dayton-ky': {
     intro:
-      'After the Ohio backs into a Dayton home, the plumbing it left behind gets inspected before you turn the water on. On the tight streets near the river we camera the sewer main first, then check the water heater and valves. Call (513) 586-5107.',
+      'Dayton’s late-1800s and early-1900s homes near the river have old cast-iron and galvanized drains that a river backup fills with silt, so after-flood plumbing there starts at the sewer main. We camera it, check whether the water heater needs replacing, test shutoffs, and check the sump pump.',
     relevance: [
       'Dayton, KY (ZIP 41074) is a river city next to Bellevue with tight streets of late-1800s and early-1900s homes, and a river backup fills their old cast-iron and galvanized drains with silt. The line will look fine the day the water drops and then clog the first time laundry runs, which is why the sewer main comes first here.',
       'We run a camera down the main to see the silt a river backup packs in, rather than snake it blind and call it clear. After that we confirm whether the water heater sat in water and needs replacing rather than relighting, and test the shutoffs and supply lines that corrode after sitting submerged. On these low lots the sump pump and its check valve are checked before the next high water.',
@@ -229,7 +229,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   southgate: {
     intro:
-      'A flooded basement in Southgate leaves plumbing to inspect before you turn the water on. In the mid-century homes between Newport and Fort Thomas we start with the shutoff valves that sat in dirty water. Call (513) 586-5107.',
+      'Southgate after-flood plumbing usually starts with the main shutoff. In these mid-century Campbell County homes between Newport and Fort Thomas, a backup stands around the valves and braided supply lines, which seize after hours in dirty water. We test and replace them, check the water heater, and camera the main.',
     relevance: [
       'Southgate (ZIP 41071) is a small Campbell County city between Newport and Fort Thomas, with established neighborhoods of mid-century homes, and a storm or sewer backup here stands around the main shutoff and the fixture supply lines in the basement. Valves and braided lines that spend hours in dirty water seize, and a shutoff that will not turn is a problem you only discover during the next leak.',
       'We test the main shutoff, the fixture valves, and the supply lines that sat in the water, and replace the ones that no longer turn or hold. From there the water heater is checked if its burner and controls went under, and the main is cameraed if a floor drain backed up so silt does not clog it later.',
@@ -239,13 +239,13 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach a flooded Southgate home?',
-        a: 'Southgate is well within our Campbell County service area near Newport, and we are on call 7 days a week from 8am to 8pm with same-day arrival for after-flood work. The city is on Northern Kentucky Water District and SD1 for sanitation, not Cincinnati or MSD, and we cross the river to pull the permits the work requires.',
+        a: 'Southgate is well within our Campbell County service area near Newport, and we are on call 7 days a week with same-day arrival for after-flood work. The city is on Northern Kentucky Water District and SD1 for sanitation, not Cincinnati or MSD, and we cross the river to pull the permits the work requires.',
       },
     ],
   },
   wilder: {
     intro:
-      'A flood in Wilder leaves plumbing to inspect before the water goes back on. Along the Licking River corridor, in homes and commercial buildings alike, we clear the floor drains and traps first, then check the heater and main. Call (513) 586-5107.',
+      'Wilder runs along the Licking River with businesses beside its neighborhoods, and after-flood plumbing there often means a dozen floor drains packed with grit. We clear the drains and traps in homes and commercial buildings alike, replace water heaters with submerged gas controls, camera the main, and test shutoffs.',
     relevance: [
       'Wilder (ZIP 41076) runs along the Licking River corridor with a commercial and industrial base beside its neighborhoods, and low ground near the Licking means a backup pushes debris into every floor drain and trap in the building. In a warehouse or a shop that is a dozen drains, and each one holds the grit that will surface the next time the floor is hosed down.',
       'We pull and clear the floor drains and traps a flood packs with silt and debris, so the next wash-down does not put water back on the floor. From there a water heater with submerged gas controls is replaced rather than relit, the sewer main is cameraed for the silt a backup leaves, and the shutoffs that sat in dirty water are tested. The work is the plumbing the flood left behind, not the extraction and drying.',
@@ -261,7 +261,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'highland-heights': {
     intro:
-      'A flood or backup near NKU in Highland Heights leaves plumbing to inspect before the water goes back on. In the homes and student rentals around the university we camera the sewer main first. Call (513) 586-5107.',
+      'Highland Heights homes and student rentals near NKU run laundry and showers all day, so after-flood plumbing here starts with a camera down the silted main before anyone uses water. Then we replace a water heater with submerged gas controls and test the shutoffs and floor drains that soaked.',
     relevance: [
       'Highland Heights (ZIP 41076) is home to Northern Kentucky University, with mid-century homes and densely used student rentals, and a sewer backup packs the main with silt in a house where laundry and showers run all day. Push that use through a silted line and the flood turns straight into a second backup.',
       'We camera the main to see the silt a backup left before anyone runs water through it again, rather than snake it blind and hope. From there a water heater with submerged gas controls is replaced rather than relit, and the shutoffs and floor drains that sat in dirty water are tested and cleared. In a rental full of tenants, that order is what keeps the second backup from happening.',
@@ -271,13 +271,13 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'Do you handle flooded student rentals near NKU, and how fast can you get there?',
-        a: 'Yes, we work on the homes and rentals around the university and are on call 7 days a week from 8am to 8pm with same-day arrival for a flooded property. Highland Heights is on Northern Kentucky Water District and SD1 for sanitation, not Cincinnati or MSD, and we pull the local permits a flooded water heater and gas connections require.',
+        a: 'Yes, we work on the homes and rentals around the university and are on call 7 days a week with same-day arrival for a flooded property. Highland Heights is on Northern Kentucky Water District and SD1 for sanitation, not Cincinnati or MSD, and we pull the local permits a flooded water heater and gas connections require.',
       },
     ],
   },
   'cold-spring': {
     intro:
-      'After a flood in Cold Spring, we inspect the plumbing it left behind before you turn the water on. Along the US-27 corridor that starts with the gas connections and appliance controls that sat in the water. Call (513) 586-5107.',
+      'Cold Spring homes along US-27 keep the water heater and furnace in a basement that a backup can fill, so after-flood plumbing here starts with gas connections and appliance controls. We check each one that went under, replace a submerged heater, camera the main, and test shutoffs.',
     relevance: [
       'Cold Spring (ZIP 41076) is a growing Campbell County city along the US-27 corridor, mixing established neighborhoods with newer subdivisions, and both keep the water heater and furnace in a basement that a storm or sewer backup fills. The gas connections and appliance controls are what stand submerged while the water sits.',
       'We check the gas connections and appliance controls that went under, because a control that corroded in floodwater is the one thing here that cannot wait for a follow-up visit. From there a submerged water heater is replaced rather than relit, the main is cameraed if a drain backed up, and the shutoffs that sat in dirty water are tested. Where the water stayed below the mechanicals, there is nothing to fix.',
@@ -293,7 +293,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   alexandria: {
     intro:
-      'After a flood in Alexandria, the plumbing it left behind gets inspected before the water goes back on. On the semi-rural lots around the county seat that starts with a well and septic system that took floodwater. Call (513) 586-5107.',
+      'On Alexandria’s semi-rural lots, after-flood plumbing often starts with a private well and septic system that took floodwater. A flooded well needs testing before anyone drinks from it, so we check those components and direct the testing. In town we replace submerged water heaters and camera the main.',
     relevance: [
       'Alexandria (ZIP 41001) is the Campbell County seat, a growing southern community with a historic core, newer subdivisions, and semi-rural homes on the edges. Those outer lots run on private wells and septic, and floodwater over a wellhead or a leach field is a contamination problem, not just a wet basement.',
       'A well that took floodwater needs testing before anyone drinks from it, because floodwater carries bacteria and whatever was in the ground around the casing, and optimism is not a test. We check the well and septic components a flood reaches and direct the testing. In town, where homes are on city water, we replace a submerged water heater rather than relight it and camera the main for backup silt.',
@@ -309,7 +309,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   melbourne: {
     intro:
-      'When the river floods a Melbourne home, we check the plumbing it left behind before the water goes back on. On the low riverside ground east of Newport we start with the sump pump and check valve, then the heater and drains. Call (513) 586-5107.',
+      'Melbourne sits on low ground along the Ohio east of Newport, and the sump pump carries a river event here, so after-flood plumbing starts with the pump and check valve. Then a water heater that went under is replaced, the sewer main gets a camera, and shutoffs get tested.',
     relevance: [
       'Melbourne (ZIP 41059) is a small Campbell County village on low ground along the Ohio east of Newport, and the sump pump is the part that carries a river event here. It runs for hours against rising water, and the check valve that is supposed to stop the discharge from draining back is exactly what fails when it matters.',
       'We confirm the sump pump still cycles and the check valve holds before the next high water, since a pump that survived one flood is not guaranteed to survive the next. Then a water heater that went under is replaced rather than relit, the sewer main is cameraed for river silt, and the shutoffs that sat in dirty water are tested. Where the water stayed in the yard and never reached the basement mechanicals, there is nothing here to fix.',
@@ -319,13 +319,13 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach Melbourne after the river comes up?',
-        a: 'Melbourne is part of our Northern Kentucky river service area, and we are on call 7 days a week from 8am to 8pm with same-day arrival for flooded homes here. The village is on Northern Kentucky Water District and SD1 for sanitation, not Cincinnati or MSD, and we cross the river to pull the permits a flooded water heater and gas connections require.',
+        a: 'Melbourne is part of our Northern Kentucky river service area, and we are on call 7 days a week with same-day arrival for flooded homes here. The village is on Northern Kentucky Water District and SD1 for sanitation, not Cincinnati or MSD, and we cross the river to pull the permits a flooded water heater and gas connections require.',
       },
     ],
   },
   hebron: {
     intro:
-      'A flood in Hebron leaves plumbing to inspect before the water goes back on. On the semi-rural lots near the airport that starts with the well and septic system the flood reached. Call (513) 586-5107.',
+      'Hebron’s rural properties near the airport run on wells and septic, and after-flood plumbing there starts with both. A flooded well needs testing before anyone drinks from it, and a saturated septic field needs checking before use. In the subdivisions we replace submerged water heaters and camera the main.',
     relevance: [
       'Hebron (ZIP 41048) is a Boone County community near the Cincinnati/Northern Kentucky airport, mixing newer subdivisions with established semi-rural homes. The rural properties run on wells and septic, and a flood that stands over a wellhead or a drain field puts contamination underground where a wet-vac does nothing.',
       'A flooded well needs testing before anyone drinks from it, and the septic components a flood reaches need checking before the system goes back into use, because pushing waste into a saturated field just backs it up into the house. We inspect both and direct the testing. In the subdivisions on city water, a submerged water heater is replaced rather than relit and the main is cameraed for backup silt.',
@@ -341,7 +341,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   burlington: {
     intro:
-      'After a flood in Burlington, we inspect the plumbing it left behind before you turn the water on. From the historic core around the old courthouse to the rural lots, that can start with a flooded well and septic. Call (513) 586-5107.',
+      'Burlington after-flood plumbing looks different in town and on the rural edges. Around the old courthouse it is a basement backup, so we replace a submerged water heater and camera the main. On rural lots it is a well and drain field, and the well needs testing before anyone drinks.',
     relevance: [
       'Burlington (ZIP 41005) is the Boone County seat, with a historic core around the old courthouse and fast-growing subdivisions, plus rural homes on the edges that run on wells and septic. A flood in town is a basement backup; on the rural lots it is a well and a drain field standing in contaminated water.',
       'A flooded well needs testing before anyone drinks from it, and the septic field needs checking before the system goes back into use. In town, a submerged water heater is replaced rather than relit and the main is cameraed for backup silt. Where the water stayed shallow, reached none of the mechanicals, and the well sits high and dry, there is nothing here worth paying for, and we will say so.',
@@ -357,7 +357,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   union: {
     intro:
-      'After a flood in Union, we check the plumbing it left behind before the water goes back on. In the newer subdivisions built from the 1990s onward that starts with the sump pump and check valve. Call (513) 586-5107.',
+      'Union is mostly subdivisions built from the 1990s onward, so after-flood plumbing there deals with storm and sewer backup into finished basements. Newer construction does not spare the sump pump, so we confirm it cycles and the check valve holds, then replace a submerged water heater and camera the main.',
     relevance: [
       'Union (ZIP 41091) is one of the fastest-growing cities in Boone County, made up largely of subdivisions built from the 1990s onward, so the flooding here is storm and sewer backup into finished basements. Newer construction does not spare the sump pump, which runs flat out through the storm and rides on a check valve that is easy to forget until it fails.',
       'We confirm the sump pump still cycles and the check valve holds before the next storm, because a pump that just carried one event is the part most likely to quit during the next. From there a water heater that went under is replaced rather than relit, the main is cameraed if a drain backed up, and the shutoffs and supply lines that sat in dirty water are tested.',
@@ -373,7 +373,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   walton: {
     intro:
-      'After a flood in Walton, we inspect the plumbing it left behind before you turn the water on. From the historic core to the surrounding rural lots, that can start with a well and septic system the flood reached. Call (513) 586-5107.',
+      'Walton’s rural properties run on private wells and septic, and after-flood plumbing on those lots starts with testing a well that took floodwater before anyone drinks from it. We check the septic components the flood reached too. In the subdivisions we replace submerged water heaters and camera the main.',
     relevance: [
       'Walton (ZIP 41094) sits at the southern edge of the Boone County metro, with a historic core, newer subdivisions, and rural homes around them. The rural properties run on private wells and septic, and floodwater over a wellhead or a leach field is a contamination problem that a dry basement floor hides.',
       'A well that took floodwater needs testing before anyone drinks from it, and the septic components a flood reaches need checking before the system runs again. We inspect both and direct the testing. In the subdivisions on city water, a submerged water heater is replaced rather than relit and the main is cameraed for the silt a backup leaves.',
@@ -389,7 +389,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-carmel': {
     intro:
-      'A flooded basement in Mount Carmel leaves plumbing to inspect before the water goes back on. In the neighborhoods near the I-275 corridor we start with the shutoff valves that sat in dirty water. Call (513) 586-5107.',
+      'Mount Carmel after-flood plumbing starts with the shutoffs. In these Union Township homes near I-275, a storm or sewer backup stands around the main shutoff and supply lines, and valves that sit in dirty water seize. We test and replace them, swap a submerged water heater, and camera the main.',
     relevance: [
       'Mount Carmel (ZIP 45244) is a Union Township community on the east side near the I-275 corridor, with established mid-century and newer homes. A storm or sewer backup here fills the basement and stands around the main shutoff and the fixture supply lines, and valves that spend hours in dirty water seize.',
       'We test the main shutoff, the fixture valves, and the supply lines that sat in the water, and replace the ones that no longer turn or hold, since a seized shutoff is what fails you during the next leak. From there a submerged water heater is replaced rather than relit, and the main is cameraed if a floor drain backed up so silt does not clog it later.',
@@ -405,7 +405,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   summerside: {
     intro:
-      'After a flood in Summerside, we check the plumbing it left behind before you turn the water on. In the suburban neighborhoods of western Clermont County that starts with the sump pump and check valve. Call (513) 586-5107.',
+      'Summerside floods are storm and sewer backups into the basement, so after-flood plumbing in these western Clermont County homes starts with the sump pump in the low corner. We verify it still cycles and the check valve holds, then replace a submerged water heater, camera the main, and test shutoffs.',
     relevance: [
       'Summerside (ZIP 45245) is a Union Township community in western Clermont County, with suburban neighborhoods of mid-century and newer homes, so the flooding here is storm and sewer backup into the basement. The sump pump in the low corner runs hard through the storm, and its check valve is the quiet part that decides whether the water stays out.',
       'We verify the sump pump still cycles and the check valve holds before the next storm, because a pump that just carried one event is the part most likely to quit during the next. From there a water heater that went under is replaced rather than relit, the main is cameraed if a drain backed up, and the shutoffs that sat in dirty water are tested. If the water stayed below all of it, there is nothing to fix.',
@@ -421,7 +421,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   withamsville: {
     intro:
-      'A flood in Withamsville leaves plumbing to inspect before the water goes back on. Along the Ohio Pike corridor, in homes and businesses, we clear the floor drains and traps a flood packs with debris. Call (513) 586-5107.',
+      'Withamsville after-flood plumbing along Ohio Pike often means floor drains, because the shops and restaurants there have one in every back room and a backup packs each with grit. We clear drains and traps in homes and businesses, replace water heaters with submerged gas controls, and camera the main.',
     relevance: [
       'Withamsville (ZIP 45245) runs along the Ohio Pike corridor in western Clermont County, mixing suburban homes with commercial strips, and a backup here fills the floor drains a shop or a restaurant has in every back room. Each drain holds the grit the flood pushed in, and it surfaces the next time the floor is washed.',
       'We pull and clear the floor drains and traps the flood packed with silt and debris, so water does not come back up through them later. From there a water heater with submerged gas controls is replaced rather than relit, the main is cameraed for backup silt, and the shutoffs that sat in dirty water are tested. The work is the plumbing the flood left behind, not the extraction and drying.',
@@ -437,7 +437,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   milford: {
     intro:
-      'After the Little Miami or a backup floods a Milford property, the plumbing it left behind gets checked before you turn the water on. From the old Main Street buildings to the older homes nearby, we start with the water heater. Call (513) 586-5107.',
+      'Milford’s Main Street buildings sit on low ground by the Little Miami, with the water heater on the lowest floor, so after-flood plumbing there starts with a burner and gas controls that went under. We replace that heater, camera the sewer main, and test shutoffs and the sump pump.',
     relevance: [
       'Milford (ZIP 45150) straddles the Little Miami River, and its preserved old Main Street district of 19th-century buildings sits on low ground where the river reaches basements directly. Those buildings keep the water heater on the lowest floor, so when the Little Miami comes up the burner and gas controls are under before anyone thinks to move anything.',
       'A water heater that went under is replaced, not relit, because a gas valve that corroded in floodwater fails unsafely and you cannot see it from outside. After that the sewer main is cameraed for river silt, and the shutoff valves and supply lines that sat in dirty water are tested. On the low riverside lots the sump pump and check valve are checked before the next high water. If the flood stayed below the heater base, we will say so rather than sell an inspection.',

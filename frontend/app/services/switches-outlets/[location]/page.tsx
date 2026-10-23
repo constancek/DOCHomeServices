@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'When an Outlet Job Points to Bigger Work', body: 'Sometimes replacing outlets reveals an overloaded panel or aging wiring that cannot safely support more load. When that happens in a {neighborhood} home we will tell you honestly, and we can handle the panel upgrade or rewiring so the whole system is safe — not just the one outlet.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Trained pros who wire every device safely and to code.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Proper grounding and stable connections, tested before we leave.' },
-    { icon: 'badge', title: 'Modern Upgrades', text: 'USB and GFCI outlets for added convenience and safety.' },
-    { icon: 'house', title: 'Tidy Installs', text: 'Minimal disruption and a clean workspace when we finish.' },
-  ],
+  whyParagraph: 'Our licensed electricians wire every switch and outlet in your {neighborhood} home with proper grounding, then test it before leaving. We can add USB or GFCI outlets where they help, and we clean up the workspace when we finish.',
   proofQuote:
     'Our 1940s house had two-prong outlets everywhere and not enough of them. They added grounded outlets, put GFCIs in the kitchen and bath, and fixed a switch that always buzzed. Clean work and they tested every one before leaving.',
   sharedFaqs: [

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
@@ -38,12 +38,6 @@ const advantages = [
   'Improved safety features and reliable performance',
 ];
 
-const whyUs = [
-  { icon: 'check' as const, title: 'Proper Sizing', text: 'We load-size every install so your furnace heats evenly without wasting energy.' },
-  { icon: 'shield' as const, title: 'Licensed & To Code', text: 'Background-checked technicians and safe, code-compliant gas and electrical work.' },
-  { icon: 'star' as const, title: 'Financing Available', text: 'Low rates and fast approval so an unexpected replacement is not a crisis.' },
-  { icon: 'clock' as const, title: 'Same-Day Installs', text: 'Furnace failed in a cold snap? Our team can install and test a new unit fast.' },
-];
 
 const faqs = [
   { q: 'What does a professional furnace installation include?', a: 'We size the system to your home, safely remove the old unit, install the new furnace with proper gas, electrical, and venting connections, test airflow and operation, then clean up and walk you through how it runs.' },
@@ -96,32 +90,16 @@ export default function FurnaceInstallationPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Need a new furnace in {site.serviceArea}?
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar couponTitle="Furnace Tune-Up">
+        <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/furnace-install-hero.webp)' }}
             role="img"
             aria-label="Technician installing a new furnace"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Furnace Installation & Replacement
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -143,7 +121,7 @@ export default function FurnaceInstallationPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {advantages.map((a) => (
-              <li key={a} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={a} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {a}
               </li>
@@ -178,7 +156,7 @@ export default function FurnaceInstallationPage() {
             aria-label="Technician inspecting a furnace with a homeowner"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs It’s Time for a New Furnace
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -187,7 +165,7 @@ export default function FurnaceInstallationPage() {
             </p>
             <ul className="mt-4 space-y-1.5">
               {signs.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
+                <li key={s} className="flex gap-2 text-base font-medium">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
@@ -205,7 +183,7 @@ export default function FurnaceInstallationPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               What to Expect During a New Furnace Installation
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -229,6 +207,24 @@ export default function FurnaceInstallationPage() {
         </div>
       </section>
 
+      <ServiceReviews service="furnace-installation-replacement" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Need a new furnace in {site.serviceArea}?
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
+        </div>
+      </section>
+
       {/* Long-form content */}
       <section className="py-14">
         <div className="container-page max-w-4xl">
@@ -247,7 +243,7 @@ export default function FurnaceInstallationPage() {
           </p>
           <ul className="mt-4 space-y-2.5">
             {fuelTypes.map((f) => (
-              <li key={f.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={f.lead} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{f.lead}:</span> {f.text}
@@ -273,27 +269,18 @@ export default function FurnaceInstallationPage() {
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Furnace Installation</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Installing a new furnace is a significant investment, and proper installation is the key to
-            long-term performance and efficiency. {site.name} provides professional furnace
-            installation designed to keep your system operating safely and reliably from day one. With
-            experienced technicians, careful attention to detail, and clear communication throughout,
-            we help you choose the right furnace and handle everything from system selection to final
-            testing — for dependable comfort, energy efficiency, and lasting results.
+            A furnace that is the wrong size for your home costs you in comfort and gas bills for
+            years, so we size every install first. {site.name} handles everything from picking the
+            unit to the final test.
           </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Furnace Installation FAQs</h2>
           <div className="mt-4">
@@ -308,7 +295,7 @@ export default function FurnaceInstallationPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Install a New Furnace Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Install a New Furnace Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Do not let an old or unreliable heating system compromise your comfort. We will help you
               find the perfect furnace. Call now or request an estimate.
@@ -326,20 +313,20 @@ export default function FurnaceInstallationPage() {
         </div>
       </section>
 
-      {/* Furnace installation by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Furnace installation & replacement by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We install and replace furnaces across {site.serviceArea} —{' '}
-            {locations.filter((l) => furnaceInstallationCopy[l.slug]).length} neighborhoods and counting.
-            For local detail on the systems that fit homes in your area, find yours below.
-          </p>
-          <NeighborhoodLinks copy={furnaceInstallationCopy} basePath="/services/furnace-installation-replacement" linkPrefix="Furnace installation" />
-        </div>
-      </section>
-
-      <PageSections service="furnace-installation-replacement" />
+      <ServiceSections service="furnace-installation-replacement">
+        {/* Furnace installation by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Furnace installation & replacement by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We install and replace furnaces across {site.serviceArea} —{' '}
+              {locations.filter((l) => furnaceInstallationCopy[l.slug]).length} neighborhoods and counting.
+              For local detail on the systems that fit homes in your area, find yours below.
+            </p>
+            <NeighborhoodLinks copy={furnaceInstallationCopy} basePath="/services/furnace-installation-replacement" linkPrefix="Furnace installation" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

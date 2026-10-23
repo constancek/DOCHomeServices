@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Repair, Replace, and Coordinate the Utility', body: 'Minor damage to a sound mast is often a targeted repair. A bent, corroded, or storm-wrecked mast usually needs full replacement, which means coordinating the utility disconnect and reconnect. We handle that scheduling for your {neighborhood} home and complete most replacements in a day, finishing with an inspection.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Family-Owned & Operated', text: 'A local team that takes care of your home like its own.' },
-    { icon: 'badge', title: 'Experienced Electricians', text: 'Trained pros who handle service-entrance work safely.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Proper flashing, sealing, and grounding that meets code.' },
-    { icon: 'house', title: 'Satisfaction Guarantee', text: 'We’re not done until your power is safe and reliable.' },
-  ],
+  whyParagraph: 'We flash and seal the mast properly and ground it to code, and the job isn’t done until power to your {neighborhood} home is safe and reliable. Our family-owned team sends trained electricians for service-entrance work.',
   proofQuote:
     'A storm took a big limb down and it bent our service mast right off the roofline. They came out fast, coordinated the power shutoff with the utility, replaced the mast and resealed the roof, and had us back on by evening. Clean, safe work.',
   sharedFaqs: [

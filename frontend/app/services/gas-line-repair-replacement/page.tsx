@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
@@ -40,20 +40,7 @@ const causes = [
   'Tree root interference underground',
 ];
 
-const whyChoose = [
-  'Licensed and experienced plumbers',
-  'Gas line repair and full replacement',
-  'Code-compliant, pressure-tested work',
-  'Clear communication and upfront pricing',
-  'A satisfaction guarantee on every job',
-];
 
-const whyUs = [
-  { icon: 'shield' as const, title: 'Safety-First Work', text: 'Qualified pros who follow strict gas safety protocols.' },
-  { icon: 'check' as const, title: 'Code-Compliant', text: 'Proper sealing, materials, and pressure testing every time.' },
-  { icon: 'badge' as const, title: 'Repair or Replace', text: 'Honest guidance on the right fix for your situation.' },
-  { icon: 'clock' as const, title: 'Fast Response', text: 'Prompt service when you suspect a gas line problem.' },
-];
 
 const faqs = [
   { q: 'How can I identify gas line problems?', a: 'The rotten-egg smell is mercaptan, added to natural gas precisely so you notice it. Also worth acting on: hissing near a line or appliance, a dead patch of grass over a buried run, soot marks around a burner, or pilots that will not stay lit. If you can smell gas, leave on foot first — do not flip switches or use your phone indoors — then call 911 and Duke Energy from outside. Diagnosis comes after everyone is out.' },
@@ -106,22 +93,10 @@ export default function GasLinePage() {
         ]}
       />
 
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Suspect a gas line problem?
-          </h2>
-          <a href={site.primaryPhone.href} className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600">
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot>
           <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/gasline-hero.webp)' }} role="img" aria-label="Gas line piping and valve" />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Professional Gas Line Repair & Replacement
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -146,7 +121,7 @@ export default function GasLinePage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/gasline-signs.webp)' }} role="img" aria-label="Plumber working on a gas pipe" />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs of a Problem With Your Gas Line
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -175,7 +150,7 @@ export default function GasLinePage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Schedule Your Gas Line Repair or Replacement Today
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -195,6 +170,20 @@ export default function GasLinePage() {
         </div>
       </section>
 
+      <ServiceReviews service="gas-line-repair-replacement" />
+
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Suspect a gas line problem?
+          </h2>
+          <a href={site.primaryPhone.href} className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600">
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
+        </div>
+      </section>
+
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Our Gas Line Installation Process</h2>
@@ -203,7 +192,7 @@ export default function GasLinePage() {
           </p>
           <ul className="mt-4 space-y-2">
             {process.map((p) => (
-              <li key={p.lead} className="flex gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={p.lead} className="flex gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <span><span className="font-bold text-brand-700">{p.lead}:</span> {p.text}</span>
               </li>
@@ -224,7 +213,7 @@ export default function GasLinePage() {
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">Leaks usually trace back to one of these causes:</p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {causes.map((c) => (
-              <li key={c} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={c} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {c}
               </li>
@@ -233,38 +222,25 @@ export default function GasLinePage() {
 
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Gas Line Service</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Homeowners across {site.serviceArea} trust {site.name} for dependable plumbing. When you work
-            with our team, you receive:
+            With gas, a bad joint doesn’t announce itself the way a water leak does. So our
+            licensed plumbers pressure-test every repair and replacement before calling it
+            finished, and tell you when a repair is all your line needs.
           </p>
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
-                <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
-                {w}
-              </li>
-            ))}
-          </ul>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Gas Line FAQs</h2>
           <div className="mt-4">
             <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Gas Line Service Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule Gas Line Service Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Need a gas line repaired or installed? {site.name} serves {site.serviceArea}. Call now or
               request an estimate.
@@ -282,20 +258,20 @@ export default function GasLinePage() {
         </div>
       </section>
 
-      {/* Gas line service by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Gas line service by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We repair, replace, and install gas lines across {site.serviceArea} —{' '}
-            {locations.filter((l) => gasLineCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on the homes and lines in your area.
-          </p>
-          <NeighborhoodLinks copy={gasLineCopy} basePath="/services/gas-line-repair-replacement" linkPrefix="Gas line service" />
-        </div>
-      </section>
-
-      <PageSections service="gas-line-repair-replacement" />
+      <ServiceSections service="gas-line-repair-replacement">
+        {/* Gas line service by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Gas line service by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We repair, replace, and install gas lines across {site.serviceArea} —{' '}
+              {locations.filter((l) => gasLineCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on the homes and lines in your area.
+            </p>
+            <NeighborhoodLinks copy={gasLineCopy} basePath="/services/gas-line-repair-replacement" linkPrefix="Gas line service" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

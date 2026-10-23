@@ -54,7 +54,7 @@ export default function SpecialsPage() {
                 <p className="text-xs font-bold uppercase tracking-wide text-brand-700">
                   Hurry, Offer Ends Soon!
                 </p>
-                <h2 className="mt-1 font-display text-2xl font-black uppercase leading-tight text-ink md:text-3xl">
+                <h2 className="mt-1 font-display text-2xl font-black leading-tight text-ink md:text-3xl">
                   {c.price} {c.title}
                 </h2>
                 <p className="mt-1 text-[15px] leading-relaxed text-ink/70">{c.details}</p>

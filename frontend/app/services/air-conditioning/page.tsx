@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import BrandsWeService from '@/components/BrandsWeService';
@@ -54,22 +54,10 @@ const miniUses = [
   'Older homes without existing ducts',
 ];
 
-const expectations = [
-  'High-quality service from trained technicians',
-  'Clear explanations and practical recommendations',
-  'Respect for your home and your schedule',
-  'Reliable solutions for your cooling needs',
-];
 
-const whyUs = [
-  { icon: 'clock' as const, title: 'Seven-Day Emergency Cooling', text: 'Lost AC in the heat? We respond 7 days a week from 8am to 8pm to restore cooling fast.' },
-  { icon: 'badge' as const, title: 'All AC Systems', text: 'Central air, ductless mini-splits, and heat pumps on all major brands.' },
-  { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked technicians and safe, code-compliant work.' },
-  { icon: 'check' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-];
 
 const faqs = [
-  { q: 'Do you offer emergency AC services?', a: 'Yes. We provide 7-day emergency air conditioning service to restore cooling as quickly as possible when your system fails during the heat.' },
+  { q: 'Do you offer emergency AC services?', a: 'Yes. We provide emergency air conditioning service every day, weekends included, to restore cooling as quickly as possible when your system fails during the heat.' },
   { q: 'What kinds of AC systems do you service?', a: 'We service central air conditioners, ductless mini-splits, and heat pumps from all major brands — repair, maintenance, and installation.' },
   { q: 'What air conditioning services do you offer?', a: 'AC repair, installation and replacement, tune-ups and maintenance, and ductless mini-split services for targeted cooling and heating.' },
   { q: 'Can you help finance a new AC system?', a: 'Yes. We offer financing with a quick application and flexible terms so a new system does not have to wait for the budget.' },
@@ -111,36 +99,20 @@ export default function AirConditioningPage() {
       <PageHero
         eyebrow="Air Conditioning"
         title={`Air Conditioning Services in ${site.serviceArea}`}
-        description="Repair, installation, maintenance, and ductless mini-splits — keeping your home cool, efficient, and reliable all cooling season, with 7-day emergency service."
+        description="Repair, installation, maintenance, and ductless mini-splits — keeping your home cool, efficient, and reliable all cooling season, with emergency service any day of the week."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Services', href: '/services' }, { label: 'Air Conditioning' }]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            AC trouble in {site.serviceArea}? Call for immediate service
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar couponTitle="Furnace Tune-Up">
+        <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/ac-hero.webp)' }}
             role="img"
             aria-label="Home air conditioning unit"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Air Conditioning Services
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -182,7 +154,7 @@ export default function AirConditioningPage() {
           </ul>
           <ul className="mt-5 space-y-2">
             {serviceLines.map((s) => (
-              <li key={s.label} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={s.label} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <Link href={s.href} className="hover:text-pink-600">
                   {s.label}
@@ -203,17 +175,17 @@ export default function AirConditioningPage() {
             aria-label="Air conditioner being serviced"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Do You Have One of These Common AC Problems?
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
               Many homeowners notice small changes before a major AC issue develops. Catching the
               early signs can help prevent bigger repairs. Common concerns include:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {problems.map((p) => (
-                <li key={p} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={p} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {p}
                 </li>
               ))}
@@ -226,12 +198,12 @@ export default function AirConditioningPage() {
         </div>
       </section>
 
-      {/* Band: 7-day emergency (photo right) */}
+      {/* Band: emergency, any day (photo right) */}
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
-              7-Day Emergency AC Support Is Available
+            <h2 className="section-title">
+              Emergency AC Help, Saturdays and Sundays Too
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
               Air conditioning problems do not wait for business hours. A loss of cooling during
@@ -239,7 +211,7 @@ export default function AirConditioningPage() {
               adults.
             </p>
             <p className="mt-4 text-base leading-relaxed text-white/90">
-              {site.name} offers 7-day emergency AC service to restore cooling as quickly as possible.
+              {site.name} answers emergency AC calls every day of the week to restore cooling as quickly as possible.
               Our technicians respond to urgent issues with a focus on safe operation and dependable
               results, helping prevent further damage and reduce stress during high-heat situations.
             </p>
@@ -250,6 +222,24 @@ export default function AirConditioningPage() {
             role="img"
             aria-label="Technician on an emergency AC call"
           />
+        </div>
+      </section>
+
+      <ServiceReviews service="air-conditioning" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            AC trouble in {site.serviceArea}? Call for immediate service
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -267,7 +257,7 @@ export default function AirConditioningPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {tuneup.map((t) => (
-              <li key={t} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={t} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {t}
               </li>
@@ -302,7 +292,7 @@ export default function AirConditioningPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {installPoints.map((p) => (
-              <li key={p} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={p} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {p}
               </li>
@@ -325,7 +315,7 @@ export default function AirConditioningPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {miniUses.map((m) => (
-              <li key={m} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={m} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {m}
               </li>
@@ -339,34 +329,19 @@ export default function AirConditioningPage() {
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Air Conditioning</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Homeowners across {site.serviceArea} trust {site.name} for dependable cooling. Our team
-            focuses on honest communication, careful workmanship, and solutions that support long-term
-            comfort. When you choose us, you can expect:
+            {site.name} repairs and installs central air, heat pumps and ductless mini-splits across
+            {site.serviceArea}. We explain what we find in plain terms and recommend the fix that will last.
           </p>
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {expectations.map((e) => (
-              <li key={e} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
-                <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
-                {e}
-              </li>
-            ))}
-          </ul>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
           <BrandsWeService equipment="central air conditioners, heat pumps and ductless mini-splits" />
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Air Conditioning FAQs</h2>
           <div className="mt-4">
@@ -381,7 +356,7 @@ export default function AirConditioningPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Your AC Service Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule Your AC Service Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Repair, maintenance, or help planning an upgrade — we support comfort, efficiency, and
               reliable performance all cooling season. Call now or request an estimate.
@@ -399,7 +374,7 @@ export default function AirConditioningPage() {
         </div>
       </section>
 
-      <PageSections service="air-conditioning" />
+      <ServiceSections service="air-conditioning" />
     </>
   );
 }

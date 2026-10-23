@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
@@ -59,12 +59,6 @@ const replaceIf = [
   'Safety concerns are present',
 ];
 
-const whyUs = [
-  { icon: 'check' as const, title: 'Proper Sizing', text: 'We match the system to your household so you get enough hot water without strain.' },
-  { icon: 'shield' as const, title: 'Licensed & To Code', text: 'Background-checked plumbers and code-compliant installation from day one.' },
-  { icon: 'star' as const, title: 'Financing Available', text: 'Move forward with installation now without a large upfront cost.' },
-  { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-];
 
 const faqs = [
   { q: 'What shortens the life of a water heater?', a: 'The biggest factors are sediment and scale buildup from hard water, water pressure that is set too high, skipped annual flushes, and corrosion once the anode rod wears out. Routine maintenance addresses most of them.' },
@@ -117,32 +111,16 @@ export default function WaterHeaterInstallationPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Need a new water heater in {site.serviceArea}?
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/wh-hero.webp)' }}
             role="img"
             aria-label="New water heater installed by a licensed plumber"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Water Heater Installation & Replacement
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -167,7 +145,7 @@ export default function WaterHeaterInstallationPage() {
             aria-label="Plumber inspecting a water heater"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs You Need to Replace Your Water Heater
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -175,10 +153,10 @@ export default function WaterHeaterInstallationPage() {
               early can help you avoid an emergency replacement and potential water damage. Common
               signs you may need a replacement:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {signs.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={s} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
               ))}
@@ -195,7 +173,7 @@ export default function WaterHeaterInstallationPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Our Water Heater Installation Process
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -204,8 +182,8 @@ export default function WaterHeaterInstallationPage() {
             </p>
             <ul className="mt-4 space-y-1.5">
               {installSteps.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={s} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
               ))}
@@ -223,6 +201,24 @@ export default function WaterHeaterInstallationPage() {
         </div>
       </section>
 
+      <ServiceReviews service="water-heater-installation" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Need a new water heater in {site.serviceArea}?
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
+        </div>
+      </section>
+
       {/* Long-form content */}
       <section className="py-14">
         <div className="container-page max-w-4xl">
@@ -234,7 +230,7 @@ export default function WaterHeaterInstallationPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {b}
               </li>
@@ -274,7 +270,7 @@ export default function WaterHeaterInstallationPage() {
               <h3 className="font-display text-base font-extrabold text-brand-700">Repair may make sense if…</h3>
               <ul className="mt-3 space-y-1.5">
                 {repairIf.map((r) => (
-                  <li key={r} className="flex gap-2 text-sm text-ink/75">
+                  <li key={r} className="flex gap-2 text-base text-ink/75">
                     <Icon name="check" className="mt-0.5 h-4 w-4 flex-shrink-0 text-lime-500" />
                     {r}
                   </li>
@@ -285,7 +281,7 @@ export default function WaterHeaterInstallationPage() {
               <h3 className="font-display text-base font-extrabold text-brand-700">Replacement is often better if…</h3>
               <ul className="mt-3 space-y-1.5">
                 {replaceIf.map((r) => (
-                  <li key={r} className="flex gap-2 text-sm text-ink/75">
+                  <li key={r} className="flex gap-2 text-base text-ink/75">
                     <Icon name="check" className="mt-0.5 h-4 w-4 flex-shrink-0 text-pink-500" />
                     {r}
                   </li>
@@ -313,27 +309,16 @@ export default function WaterHeaterInstallationPage() {
             Why Choose {site.name} for Water Heater Installation
           </h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            {site.name} delivers dependable water heater installation backed by skilled workmanship
-            and local expertise. Our licensed technicians help you choose the right system, handle
-            proper sizing and code-compliant installation, and make sure everything is set up for
-            safe, efficient operation from day one — with clear communication, upfront
-            recommendations, and clean, professional work, plus reliable scheduling and support after
-            the install.
+            A water heater sized wrong either runs out mid-shower or costs you to heat water nobody uses. If yours is not yet 10 years old and only one part has failed, ask us about a repair first.
           </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Water Heater Installation FAQs</h2>
           <div className="mt-4">
@@ -348,7 +333,7 @@ export default function WaterHeaterInstallationPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
+            <h2 className="text-2xl font-extrabold sm:text-3xl">
               Schedule Your Water Heater Installation Today
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
@@ -368,20 +353,20 @@ export default function WaterHeaterInstallationPage() {
         </div>
       </section>
 
-      {/* Water heater installation by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Water heater installation by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We install and replace water heaters across {site.serviceArea} —{' '}
-            {locations.filter((l) => waterHeaterInstallationCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on sizing, hard water, and the homes in your area.
-          </p>
-          <NeighborhoodLinks copy={waterHeaterInstallationCopy} basePath="/services/water-heater-installation" linkPrefix="Water heater installation" />
-        </div>
-      </section>
-
-      <PageSections service="water-heater-installation" />
+      <ServiceSections service="water-heater-installation">
+        {/* Water heater installation by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Water heater installation by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We install and replace water heaters across {site.serviceArea} —{' '}
+              {locations.filter((l) => waterHeaterInstallationCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on sizing, hard water, and the homes in your area.
+            </p>
+            <NeighborhoodLinks copy={waterHeaterInstallationCopy} basePath="/services/water-heater-installation" linkPrefix="Water heater installation" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

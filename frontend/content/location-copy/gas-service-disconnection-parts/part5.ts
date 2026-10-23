@@ -7,7 +7,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 export const part5: Record<string, LocationServiceCopy> = {
   newtown: {
     intro:
-      'Little Miami River flooding is the recurring reason gas goes off in Newtown. Submerged furnace, boiler and water heater controls are replaced rather than dried, since they can fail to shut when they should. We test the lines and restore service. Call (513) 586-5107.',
+      'Little Miami River flooding is the recurring reason for a gas shutoff in Newtown. Submerged furnace, boiler and water heater controls are replaced rather than dried out, because they can fail to shut when they should. Then we test the piping and restore service.',
     relevance: [
       'Newtown (ZIP 45244) is a village on the Little Miami River east of the city, and the river is the recurring reason gas goes off here. Where a furnace, boiler or water heater has been submerged, the gas control valve and burner controls are replaced rather than dried out and relit — water damages them internally and they can fail closed or, worse, fail to shut when they should.',
       'Because this is not a once-a-decade event on the low ground, plenty of properties are on their second or third water heater in the same spot. The question worth asking during a replacement is whether the appliance can be raised. Venting is the constraint — a unit can only go so high before the flue run stops working properly — but where a platform above the historic water line is achievable, the cycle ends. Newtown is its own village, so permits and inspections go through Newtown rather than the county.',
@@ -24,7 +24,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'turpin-hills': {
     intro:
-      'Your ZIP, 45244, does not tell you who inspects gas work in Turpin Hills. Anderson Township and Hamilton County do, while Newtown in the same ZIP has its own office. We file by address and get your gas restored after the repair. Call (513) 586-5107.',
+      'For a gas shutoff in Turpin Hills, ZIP 45244 does not tell you who inspects the repair. Anderson Township and Hamilton County do, while Newtown in the same ZIP has its own office. We file by street address, repair the mid-century piping and restore gas.',
     relevance: [
       'Turpin Hills (ZIP 45244) is an established Anderson Township community of mid-century single-family homes, and the first thing to settle on a shutoff is where the paperwork goes: permits and inspections are Anderson Township’s and Hamilton County’s rather than the city of Cincinnati’s. ZIP 45244 also covers Newtown, which is a separate village with its own office — so the ZIP does not tell you the authority, the address does.',
       'The housing is largely of one era, which makes the findings predictable. Original black iron installed with the houses, now feeding a furnace, water heater and range that have all been replaced once or twice since. That makes the sizing question worth checking alongside the leak question, because a run adequate for the appliances of 1960 may not supply a modern furnace and a tankless heater drawing together.',
@@ -41,7 +41,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   silverton: {
     intro:
-      'Every appliance removed from a Silverton house over the past century usually left a capped stub behind, and those stubs are still connected. When the gas is shut off, the test checks every one. We find the leak and restore service. Call (513) 586-5107.',
+      'Capped stubs are a common reason a Silverton home fails its test after a gas shutoff. Every appliance removed from these houses along Montgomery Road usually left a capped line behind, still connected decades later. The pressure test checks every one, so we find the leaking stub and restore service.',
     relevance: [
       'Silverton (ZIP 45236) is its own city along Montgomery Road, built out in older early- and mid-1900s housing, and the systems here carry a century of alterations. Every time an appliance was removed — a space heater, a dryer moved to electric, a decommissioned boiler — the line was usually capped where it was rather than taken back to the source, and those stubs are still connected.',
       'A pressure test tests all of them at once, which is why a test can fail with every appliance in the house working perfectly. Finding the one that has begun to weep means isolating sections rather than opening walls speculatively. Silverton issues its own permits and inspections, on a small municipal schedule that is often quicker than the city’s.',
@@ -58,7 +58,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   lockland: {
     intro:
-      'Water reaches gas appliances in Lockland more often than in most of the county, down on the low Mill Creek ground. Submerged controls are replaced, and the village’s own permit office signs off before service is restored. Call (513) 586-5107.',
+      'Water reaches gas appliances in Lockland more often than in most of the county, so a gas shutoff here often follows a flood on the low Mill Creek ground. Submerged controls are replaced, the piping is tested, and the village’s own permit office signs off before service is restored.',
     relevance: [
       'Lockland (ZIP 45215) is a small, densely built village on the low ground of the Mill Creek valley beside the rail and industrial corridor, with housing that is old and closely spaced. Water reaches gas appliances here more often than in most of the county, and where a furnace or water heater has been submerged, the control valve is replaced rather than dried out.',
       'Lockland issues its own permits and inspections, and being this small means minimal capacity — which is what usually determines how quickly gas comes back, not the plumbing. Because the housing is uniformly low and packed together, several neighbouring properties tend to need the same work after the same flooding, and handling them together saves days in a queue with very little slack in it.',
@@ -75,7 +75,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   groesbeck: {
     intro:
-      'Colerain Township and Hamilton County inspect gas repairs in Groesbeck, not the city, and a filing sent to the wrong office costs days. We file correctly, fix the mid-century piping and get the utility to restore service. Call (513) 586-5107.',
+      'Colerain Township and Hamilton County inspect gas shutoff repairs in Groesbeck, not the city, and a filing sent to the wrong office costs days without gas. We file correctly, fix the mid-century piping and get the utility to restore service.',
     relevance: [
       'Groesbeck (ZIP 45239) is a settled Colerain Township community of largely mid-century single-family homes, and the jurisdiction is worth stating because it catches out contractors who work mostly in town: permits and inspections go through Colerain Township and Hamilton County, not the city. The utility waits on the correct sign-off, so a filing sent to the wrong office costs you days.',
       'The housing went up over a comparable period and was piped the same way, so the systems have aged at a similar rate. That is useful information rather than a warning: it does not mean yours is failing, only that if something does stop a reconnection, a section replacement is a more likely remedy here than a patch on one joint.',
@@ -92,7 +92,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'mount-healthy': {
     intro:
-      'Inside the house, restoring gas in Mount Healthy is the same job as anywhere. Outside, the historic district along Hamilton Avenue adds rules for moving a meter or running pipe on an exterior wall, so we plan for that before we start. Call (513) 586-5107.',
+      'Inside the house, restoring gas after a Mount Healthy shutoff is the same test, repair and inspection as anywhere. Outside, the historic district along Hamilton Avenue adds rules for moving a meter or running pipe on an exterior wall, so we plan for that before work starts.',
     relevance: [
       'Mount Healthy (ZIP 45231) is one of the oldest settlements in the county, founded in the 1810s, and its core along Hamilton Avenue carries historic-district designation. For most gas work that changes nothing — testing, repairing and inspecting an interior system is the same job here as anywhere. Where it does matter is anything visible from the street, particularly relocating a meter or running new pipe on an exterior wall.',
       'That is worth establishing before work is planned rather than after a design has been agreed, because a route that is fine on one street may need a different approach a few doors down. Mount Healthy is its own city and issues its own permits and inspections. The housing runs from genuinely old to mid-century, so the piping varies street to street and a pressure test is what tells us what we actually have.',
@@ -109,7 +109,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   reading: {
     intro:
-      'Apartments above the Benson Street storefronts in Reading often share one gas system with the business below. A shutoff takes out the whole building and the pressure test covers all of it, so the owner arranges the repair with us. Call (513) 586-5107.',
+      'Apartments above the Benson Street storefronts in Reading often share one gas system with the business below. A gas shutoff takes out the whole building and the pressure test covers all of it, so the owner arranges the repair with us and every unit comes back together.',
     relevance: [
       'Reading (ZIP 45215) is its own city, and alongside its residential streets it has a genuine main-street building stock — the Benson Street bridal shops and the older commercial blocks around them, with apartments above the storefronts. Where one gas system serves both the business below and the flats above, a shutoff takes out all of it and the pressure test covers the whole building.',
       'That makes the job the building owner’s to authorise rather than any one tenant’s, and it usually means restoring everything together on one permit and one inspection — cheaper and faster than doing it unit by unit, but slower to start. On the residential streets the picture is the ordinary one for older housing: original piping altered in stages, with capped stubs left from appliances long removed.',
@@ -126,7 +126,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   dent: {
     intro:
-      'Which era your Dent house belongs to tells us what the gas shutoff probably is. Older streets have black iron with aged joints and capped stubs. Newer subdivisions have CSST, where bonding is the usual finding. We fix either and restore service. Call (513) 586-5107.',
+      'Which era your Dent house belongs to tells us what the gas shutoff probably is. Older Green Township streets have black iron with aged joints and capped stubs. Newer subdivisions have CSST, where bonding is the usual finding. We fix either and restore service.',
     relevance: [
       'Dent (ZIP 45247) is a Green Township community spanning mid-century housing and much newer subdivisions, and which era your house belongs to changes the likely finding. On the older streets the piping is rigid black iron installed with the house, and what a pressure test turns up is leaks at aged joints and capped stubs from appliances removed decades ago.',
       'On the newer streets the piping is often CSST — flexible tubing with a yellow jacket — where the usual inspection issue is bonding to the electrical grounding system rather than a leak at all. Those are not comparable pieces of work, so we establish which you have before quoting. Permits and inspections go through Green Township and Hamilton County rather than the city.',
@@ -143,7 +143,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'deer-park': {
     intro:
-      'Compact Deer Park homes were piped for a heater and a cooker. With a modern furnace and gas range on the same run, a shutoff can mean a leak, undersized pipe or both. We diagnose them separately and get gas restored. Call (513) 586-5107.',
+      'Compact Deer Park homes got gas piping sized for a heater and a cooker, and many runs are close to original. With a modern furnace and range on the same line, a shutoff can mean a leak, undersized pipe or both. We diagnose each separately and restore gas.',
     relevance: [
       'Deer Park (ZIP 45236) is a small city of compact mid-century homes, and modest describes the gas system as much as the houses. These were piped for a heater and a cooker, and a great many runs are close to what was originally installed — which was adequate then and is a real question now.',
       'Where a house has since gained a modern furnace, a water heater and a gas range, a shutoff raises two separate diagnoses: whether there is a leak, and whether the run can deliver what everything drawing at once demands. A system can hold pressure perfectly and still be too small. They need different repairs, and telling them apart means measuring at the appliances rather than assuming. Deer Park issues its own permits and inspections.',
@@ -160,7 +160,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'terrace-park': {
     intro:
-      'Large Terrace Park homes between Wooster Pike and the Little Miami can carry gas to two heating zones, fireplaces and sometimes a garage. A shutoff test covers every branch, which takes longer. We isolate the fault and restore service. Call (513) 586-5107.',
+      'Large Terrace Park homes between Wooster Pike and the Little Miami can carry gas to two heating zones, fireplaces and sometimes a garage or outbuilding. A gas shutoff test covers every branch together, which takes longer. We isolate the fault and restore service.',
     relevance: [
       'Terrace Park (ZIP 45174) is a village of large older homes on wooded lots between Wooster Pike and the Little Miami, and houses of this scale carry more gas system than a modest house does — two heating zones in some, a water heater, a range, fireplaces added at various points, sometimes a supply to a garage or outbuilding. A pressure test covers every branch together, so diagnosing a shutoff here takes longer simply because there is more to isolate.',
       'The river bottoms are the other factor. On the low ground toward the Little Miami, submerged appliance controls are a recurring cause and they are replaced rather than dried out. Terrace Park is its own village with its own permits and inspections, and it has one ZIP to itself, which at least removes the jurisdiction guesswork.',
@@ -177,7 +177,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'dry-run': {
     intro:
-      'Built mostly from the 1990s on, Dry Run homes usually run CSST, and the inspection after a gas shutoff tends to find a bonding problem rather than a leak. We correct the bond, test the system and get service restored. Call (513) 586-5107.',
+      'Built mostly from the 1990s on, Dry Run homes usually run CSST, and the inspection after a gas shutoff tends to find a bonding problem rather than a leak. In these Anderson Township subdivisions we correct the bond to the electrical ground, test the system and restore service.',
     relevance: [
       'Dry Run (ZIP 45244) is one of Anderson Township’s newer areas, largely subdivision housing from the 1990s onward, and the gas piping reflects that. Rather than the rigid black iron of the older neighborhoods, these houses are commonly run in CSST — flexible tubing with a yellow jacket — and the issue that most often shows up on inspection is bonding to the electrical grounding system rather than a leak.',
       'That bond exists so a nearby lightning strike cannot arc through the tubing wall, and where it is missing or has been disturbed by later work, it has to be corrected before a sign-off. It is a smaller job than repiping, which is worth knowing before you assume the worst. Permits and inspections go through Anderson Township and Hamilton County, not the city.',
@@ -194,7 +194,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'white-oak': {
     intro:
-      'Sound piping keeps a White Oak gas shutoff simple: replace the red-tagged furnace or water heater, pass the test, get the reconnect. When the piping fails too, the job grows, and we tell you before anything starts. Call (513) 586-5107.',
+      'Sound piping keeps a White Oak gas shutoff simple: replace the red-tagged furnace or water heater, pass the test, get the reconnect. In these mid-century Green Township homes that is the usual route. When the piping fails too, the job grows, and we say so first.',
     relevance: [
       'White Oak (ZIP 45247) is a settled Green Township community of largely mid-century single-family homes, and the most common route to a shutoff here is an appliance rather than the pipe. A furnace with a cracked heat exchanger or a water heater with a failed control gets red-tagged, and the gas stays off until it is corrected.',
       'Where the piping is sound, that is a contained job — replace the appliance, pass the test, get it inspected. Where an original system had been quietly masked by the appliance failure, the pressure test finds it and the scope grows. That is why we test before quoting rather than after: one number is more useful than a revision partway through. Permits go through Green Township and Hamilton County.',
@@ -211,7 +211,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   forestville: {
     intro:
-      'A worn-out water heater is what usually takes the gas off in Forestville. Replace it, pass the pressure test and service comes back, a day’s work where the piping is sound. You get the price upfront before we start. Call (513) 586-5107.',
+      'A worn-out water heater is what usually triggers a gas shutoff in Forestville. A failed gas control or a leaking tank gets it condemned, and service stays off until it is replaced and the system passes a test. Where the piping is sound, that is a day’s work.',
     relevance: [
       'Forestville (ZIP 45230) is an established Anderson Township community of mid-century and newer single-family homes, and what most often takes the gas off is a water heater that has reached the end of its life. A failed gas control or a leaking tank gets the appliance condemned, and service stays off until it is replaced and the system passes a test.',
       'On a house where the piping is sound that is a contained day’s work. Worth knowing is that a water heater rarely fails alone in a house of one build era — the furnace was often installed at the same time, and if it is the same age it is worth looking at while we are there rather than paying for a second visit in six months. Permits and inspections go through Anderson Township and Hamilton County.',
@@ -228,7 +228,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'cherry-grove': {
     intro:
-      'Sixty years of remodels in Cherry Grove left capped stubs from old dryers, space heaters and fireplace log sets. They are still on the gas system, and a pressure test after a shutoff finds them. We fix the failed cap and restore service. Call (513) 586-5107.',
+      'Sixty years of remodels in Cherry Grove left capped gas stubs from old dryers, space heaters and fireplace log sets. Those stubs are still connected, and the pressure test after a shutoff finds them. We fix the failed cap and get service restored.',
     relevance: [
       'Cherry Grove (ZIP 45230) is a mid-century Anderson Township community of single-family homes, and the systems have been altered enough over sixty years to accumulate loose ends. A gas dryer swapped for electric, a decommissioned space heater, a fireplace log set removed during a remodel — each usually left a capped stub rather than a line taken back to the source.',
       'Those stubs are still on the system a pressure test covers, so a house where nothing has changed in years can fail a test on a cap installed in 1978. Locating one means isolating sections in sequence rather than opening walls on a hunch, and it is often the whole job on a house where the appliances are all fine. Permits go through Anderson Township and Hamilton County.',
@@ -245,7 +245,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   kenwood: {
     intro:
-      'Own a Kenwood condo? Piping inside your unit is generally yours, but the risers and common runs belong to the association, which has to approve that part of a gas shutoff repair. We work with both and get service restored. Call (513) 586-5107.',
+      'Kenwood condo owners usually share a gas shutoff repair with the association. Piping inside your unit is generally yours, but the risers and common runs belong to the association, which has to approve that part. On the mid-century houses it is simpler. We work with both and restore service.',
     relevance: [
       'Kenwood (ZIP 45236) mixes mid-century single-family homes with a good deal of condominium and multi-unit housing around the retail core, and on the condos the ownership question comes before the plumbing question. Piping inside your unit is generally yours; the risers and common runs feeding several units are the association’s, and a resident cannot start work on those by calling a plumber.',
       'Where one system serves several units, a pressure test covers all of it and every household is off until it passes — restored together on one permit and one inspection, which is cheaper than piecemeal but needs the association to act. Kenwood is unincorporated Sycamore Township, so permits and inspections go through the township and Hamilton County. ZIP 45236 also covers Silverton and Deer Park, which are separate cities with their own offices.',
@@ -262,7 +262,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   'lincoln-heights': {
     intro:
-      'Older furnaces and water heaters past their expected life cause most gas shutoffs in Lincoln Heights. When one gets red-tagged, we give you real repair and replacement numbers and restore service once the system passes. Call (513) 586-5107.',
+      'Older furnaces and water heaters past their expected life cause most gas shutoffs in Lincoln Heights. When one gets red-tagged in these modest older homes, we give you real repair and replacement numbers, fix what is needed and restore service once the system passes its test.',
     relevance: [
       'Lincoln Heights (ZIP 45215) is a small village in the Mill Creek corridor, incorporated in 1946 as one of the first self-governing Black communities north of the Ohio River, with modest older housing on a compact grid. The gas shutoffs we are called for here are mostly appliance-driven: a furnace or water heater well past its expected life gets red-tagged, and service stays off until it is corrected.',
       'On a house with sound piping that is a contained job, and the conversation worth having is repair against replacement with real numbers rather than a default to the bigger sale. Sometimes a control valve genuinely fixes it. Sometimes it is money spent on an appliance with a year left, and we will say so. Lincoln Heights issues its own permits and inspections, and being a small village the inspection queue is often what sets the timeline.',
@@ -279,7 +279,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   dillonvale: {
     intro:
-      'Dillonvale homes in Sycamore Township still have original black iron sized for the appliances of their day. After a gas shutoff we run two checks, a pressure test for leaks and a measurement at the appliance, before service is restored. Call (513) 586-5107.',
+      'Dillonvale homes in Sycamore Township still have original black iron gas piping sized for the appliances of their day. After a shutoff we run two checks, a pressure test for leaks and a measurement at the appliance for sizing, before the gas is restored.',
     relevance: [
       'Dillonvale (ZIP 45236) is a compact mid-century subdivision area in Sycamore Township, and the housing is consistent enough that the gas findings are too. Original black iron sized for the appliances of the day, still in place, now feeding equipment that has been replaced once or twice since.',
       'That makes two diagnoses worth separating at a shutoff. A pressure test says whether the system leaks. A measurement at the appliances with several drawing at once says whether the run can actually deliver — and a system can hold pressure perfectly while still being too small for a modern furnace and a tankless heater together. Permits and inspections go through Sycamore Township and Hamilton County, not the city.',
@@ -296,7 +296,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   woodlawn: {
     intro:
-      'House or warehouse? In Woodlawn that changes the gas shutoff completely. On the mid-century homes it is the ordinary test, repair and inspection. Larger commercial meter sets need different handling, and we say when it is not our job. Call (513) 586-5107.',
+      'House or warehouse changes everything about a Woodlawn gas shutoff. On the mid-century homes it is the ordinary job of testing, repairing and getting the inspection. Larger commercial meter sets on the industrial corridor need different handling, and we say when it is not our job.',
     relevance: [
       'Woodlawn (ZIP 45215) is a village of modest mid-century housing alongside a substantial warehouse and light-industrial corridor, and the two need saying apart. On the houses a gas shutoff is the ordinary job: test the system, fix what fails, get it inspected, and the utility reconnects.',
       'On the commercial side the meter sets are larger, the pressures and pipe sizes are different, and the inspection expectations are not the same — so it is worth being clear that our work here is residential and light commercial rather than plant systems. Woodlawn issues its own permits and inspections, and 45215 covers several separate municipalities, so the address rather than the postal code decides the office.',
@@ -313,7 +313,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   addyston: {
     intro:
-      'Flooding on the low riverbank is what usually cuts the gas in Addyston. Submerged furnaces, boilers and water heaters get new gas control valves, because the damage is internal and can fail unsafely later. We restore service once it tests. Call (513) 586-5107.',
+      'Flooding on the low riverbank is what usually brings a gas shutoff in Addyston. Submerged furnaces, boilers and water heaters get new gas control valves, because the damage is internal and a control that works today can fail unsafely later. We restore service once it tests.',
     relevance: [
       'Addyston (ZIP 45001) is a small Ohio River village on the western edge of the county, on low ground where flooding is a recurring event rather than a rarity, and that is what most often takes gas off here. Submerged furnaces, boilers and water heaters have their gas control valves replaced rather than dried out — the damage is internal, with nothing visible from outside, and a control that works today can fail unsafely later.',
       'Addyston is its own incorporated village rather than part of a township, so permits and inspections go through the village rather than Hamilton County — worth confirming, because contractors covering the far west side often default to the county out of habit. Being a small village, the inspection queue rather than the plumbing usually sets how quickly the gas comes back, which is why we file and book it when the work is scheduled rather than once it is finished.',
@@ -330,7 +330,7 @@ export const part5: Record<string, LocationServiceCopy> = {
 
   greenhills: {
     intro:
-      'Greenhills was built in 1938 as a New Deal greenbelt town, and some attached original units share gas piping. A shutoff and pressure test can involve more than one household, so the owners need to agree before we repair and restore service. Call (513) 586-5107.',
+      'Greenhills was built in 1938 as a New Deal greenbelt town, and some of the attached original units share gas piping. A gas shutoff and pressure test can involve more than one household, so the owners need to agree before we repair the system and restore service.',
     relevance: [
       'Greenhills (ZIP 45218) was built in 1938 as one of three New Deal greenbelt towns, and its original core is a designated historic district of houses and attached row-style units around a central green. Two things follow for gas work. Where units are attached and were built together, piping arrangements can be shared, so a shutoff and a pressure test can involve more than one household and needs the owner or owners to authorise it.',
       'The other is the designation. Interior testing and repair is a normal job here, but anything visible from the street — relocating a meter, running new pipe on an exterior wall — needs checking before it is designed rather than after. Greenhills issues its own permits and inspections. The piping is genuinely old in the original units, so a test finds accumulated alterations rather than anything recent.',

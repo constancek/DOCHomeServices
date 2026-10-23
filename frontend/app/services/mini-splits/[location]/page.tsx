@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Right-Sizing the Zones', body: 'A single head handles one room; a multi-zone system runs several heads off one outdoor unit. Getting the count and placement right is what makes a mini-split comfortable instead of noisy and overworked, so we size it to your {neighborhood} home and how you actually live in it.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'check', title: 'Cooling & Heating', text: 'One efficient ductless system that keeps your space comfortable all year.' },
-    { icon: 'badge', title: 'Right-Sized Zones', text: 'We size the system and indoor heads to your home and how you use it.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked technicians and clean, code-compliant work.' },
-    { icon: 'star', title: 'Financing Available', text: 'Flexible plans so an efficient upgrade fits your budget.' },
-  ],
+  whyParagraph: 'One ductless system can cool and heat your {neighborhood} home all year. We size the outdoor unit and indoor heads to the house and how you use it, and background-checked technicians do clean, code-compliant work. Financing is available.',
   proofQuote:
     'Our 1920s house had a third floor that was unbearable every summer. They put in a two-zone mini-split, sized it right, and now those rooms finally hold temperature. Clean install and no ductwork tearing up the walls.',
   sharedFaqs: [

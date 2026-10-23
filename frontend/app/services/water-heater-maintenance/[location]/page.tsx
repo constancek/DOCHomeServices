@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Catch Small Problems Before They Cost', body: 'A worn relief valve, a corroding fitting, or a thermostat drifting out of range is cheap to fix during a tune-up and expensive to ignore. Regular maintenance on your {neighborhood} home catches these early, lowers the odds of a surprise breakdown, and helps keep the manufacturer’s warranty intact.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'badge', title: 'Tank & Tankless', text: 'We service both traditional tank and tankless systems.' },
-    { icon: 'check', title: 'Manufacturer-Recommended Service', text: 'We follow the practices that help extend system life and protect your warranty.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked technicians and detailed, careful inspections.' },
-    { icon: 'clock', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-  ],
+  whyParagraph: 'We service tank and tankless water heaters in {neighborhood} using the manufacturer’s recommended steps, which helps the unit last and protects the warranty. A background-checked technician inspects it carefully, and you approve a flat price before work starts.',
   proofQuote:
     'Booked a tune-up after years of skipping it. They flushed out a shocking amount of sediment, replaced the worn anode rod, and the hot water lasts noticeably longer now. Straightforward pricing, no upsell.',
   sharedFaqs: [

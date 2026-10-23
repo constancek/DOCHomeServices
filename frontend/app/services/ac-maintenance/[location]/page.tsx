@@ -64,12 +64,7 @@ const config: ServiceLocationConfig = {
     { title: 'Schedule Before Summer in {neighborhood}', body: 'The best time for an AC tune-up is spring, before the cooling season starts. Booking ahead means your system is ready when the first heat wave hits and you are not waiting in line behind emergency calls.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Choose Us',
-  whyUs: [
-    { icon: 'badge', title: 'Thorough Inspections', text: 'Detailed multi-point tune-ups that catch small issues before they become repairs.' },
-    { icon: 'clock', title: 'Pre-Season Ready', text: 'Spring tune-ups get your system prepared before the summer heat arrives.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Experienced HVAC technicians and clear communication every visit.' },
-    { icon: 'check', title: 'Upfront Flat-Rate Pricing', text: 'Affordable, transparent pricing and maintenance plans available.' },
-  ],
+  whyParagraph: 'A spring tune-up gets your {neighborhood} air conditioner ready before the summer heat, and the multi-point inspection finds small issues before they turn into repairs. Licensed HVAC technicians explain what they find, and you pay a flat rate.',
   proofQuote:
     'Signed up for the spring tune-up and they caught a weak capacitor before it failed. The AC ran all summer without a hiccup and our bills were lower.',
   sharedFaqs: [

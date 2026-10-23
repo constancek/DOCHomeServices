@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Safe Wiring and Circuit Capacity', body: 'Adding lighting to a {neighborhood} basement can push an older circuit past its limit. We check the panel, add capacity where it is needed, and wire every fixture to code so the system runs reliably without nuisance trips.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Experienced indoor-lighting pros handling every connection safely.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Wiring and fixtures installed to current electrical code.' },
-    { icon: 'badge', title: 'Quality Fixtures', text: 'Durable fixtures and energy-efficient LED basement lights.' },
-    { icon: 'house', title: 'Layout-Specific Design', text: 'Lighting planned around how you actually use the basement.' },
-  ],
+  whyParagraph: 'We plan the lighting around how you actually use your {neighborhood} basement, then fit durable, energy-efficient LED fixtures. Licensed electricians make every connection and install the wiring to current electrical code.',
   proofQuote:
     'Our finished basement always felt like a cave. They ran recessed LED cans across the whole ceiling, added task lighting at the desk, and put it on its own circuit. It is bright and even now, and the low ceiling still feels open. Clean work.',
   sharedFaqs: [

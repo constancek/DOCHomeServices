@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
@@ -32,12 +32,6 @@ const repairReplace = [
   { lead: 'Replace', text: 'worth considering if the system is 10–15 years old, repair costs are high, or comfort and efficiency have dropped.' },
 ];
 
-const whyUs = [
-  { icon: 'check' as const, title: 'Year-Round Comfort', text: 'One system that heats in winter and cools in summer, serviced for both.' },
-  { icon: 'badge' as const, title: 'Mini-Split & Traditional', text: 'We install and repair ductless mini-splits and conventional heat pump systems.' },
-  { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked technicians with the specialized heat pump know-how it takes.' },
-  { icon: 'star' as const, title: 'Financing Available', text: 'Flexible plans so an energy-efficient upgrade is affordable now.' },
-];
 
 const faqs = [
   { q: 'What is the difference between a heat pump and a furnace?', a: 'A furnace burns fuel (usually gas) to create heat. A heat pump moves heat instead of making it — and it cools your home in summer too — which makes it very efficient in our milder cold. Many homes pair the two in a dual-fuel setup.' },
@@ -90,32 +84,16 @@ export default function HeatPumpsPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Heat pump trouble in {site.serviceArea}? Call for service
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar couponTitle="Furnace Tune-Up">
+        <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/heat-pump-hero.webp)' }}
             role="img"
             aria-label="Heat pump system at a home"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Heat Pump Repair & Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -160,7 +138,7 @@ export default function HeatPumpsPage() {
             aria-label="Outdoor heat pump unit"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs You Need a Heat Pump Repair
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -168,10 +146,10 @@ export default function HeatPumpsPage() {
               affect comfort and efficiency. Recognizing the warning signs early helps prevent larger
               system problems and unexpected breakdowns:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {signs.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={s} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
               ))}
@@ -188,7 +166,7 @@ export default function HeatPumpsPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               What to Expect During Your Heat Pump Service
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -213,6 +191,24 @@ export default function HeatPumpsPage() {
         </div>
       </section>
 
+      <ServiceReviews service="heat-pumps" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Heat pump trouble in {site.serviceArea}? Call for service
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
+        </div>
+      </section>
+
       {/* Long-form content */}
       <section className="py-14">
         <div className="container-page max-w-4xl">
@@ -224,7 +220,7 @@ export default function HeatPumpsPage() {
           </p>
           <ul className="mt-4 space-y-2.5">
             {repairReplace.map((r) => (
-              <li key={r.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={r.lead} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{r.lead}:</span> {r.text}
@@ -248,29 +244,18 @@ export default function HeatPumpsPage() {
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Heat Pump Services</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Heat pumps require specialized knowledge to operate efficiently year-round. {site.name}{' '}
-            provides professional heat pump services designed to support reliable heating and cooling
-            performance in every season.
+            Heat pumps take specific know-how because one system does both the heating and the
+            cooling. {site.name} evaluates the whole system before recommending anything, then
+            repairs or replaces it with energy use and long-term reliability in mind.
           </p>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            With experienced technicians, thorough system evaluations, and clear communication, we help
-            homeowners maintain, repair, or replace heat pump systems with confidence — with the focus
-            on energy efficiency, long-term reliability, and consistent comfort throughout your home.
-          </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Heat Pump FAQs</h2>
           <div className="mt-4">
@@ -285,7 +270,7 @@ export default function HeatPumpsPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule a Heat Pump Service Today</h2>
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule a Heat Pump Service Today</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Repair, maintenance, or a high-efficiency upgrade — one call keeps your home comfortable
               all year. Call now or request an estimate.
@@ -303,20 +288,20 @@ export default function HeatPumpsPage() {
         </div>
       </section>
 
-      {/* Heat pumps by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Heat pumps by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We repair and install heat pumps across {site.serviceArea} —{' '}
-            {locations.filter((l) => heatPumpsCopy[l.slug]).length} neighborhoods and counting. For local
-            detail on the systems that fit homes in your area, find yours below.
-          </p>
-          <NeighborhoodLinks copy={heatPumpsCopy} basePath="/services/heat-pumps" linkPrefix="Heat pumps" />
-        </div>
-      </section>
-
-      <PageSections service="heat-pumps" />
+      <ServiceSections service="heat-pumps">
+        {/* Heat pumps by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Heat pumps by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We repair and install heat pumps across {site.serviceArea} —{' '}
+              {locations.filter((l) => heatPumpsCopy[l.slug]).length} neighborhoods and counting. For local
+              detail on the systems that fit homes in your area, find yours below.
+            </p>
+            <NeighborhoodLinks copy={heatPumpsCopy} basePath="/services/heat-pumps" linkPrefix="Heat pumps" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

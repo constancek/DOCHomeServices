@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
@@ -51,12 +51,6 @@ const process = [
   { title: 'Final Inspection & Cleanup', text: 'We re-inspect with the camera to confirm the line is clean and flowing, then tidy up and get your system back to normal.' },
 ];
 
-const whyUs = [
-  { icon: 'badge' as const, title: 'Camera-Diagnosed', text: 'We inspect the line first so the fix matches the actual problem.' },
-  { icon: 'check' as const, title: 'Trenchless Available', text: 'We replace lines without tearing up your yard whenever possible.' },
-  { icon: 'shield' as const, title: 'Licensed & To Code', text: 'Background-checked plumbers and installations that meet local code.' },
-  { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-];
 
 const faqs = [
   { q: 'Can I get financing for my sewer line repair or replacement?', a: 'Yes. Sewer work is a bigger investment, so we offer financing with a quick application and flexible terms — your home does not have to wait for a repair it needs now.' },
@@ -111,32 +105,16 @@ export default function SewerPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Sewer backup in {site.serviceArea}? Call for immediate service
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/sewer-hero.webp)' }}
             role="img"
             aria-label="Sewer line repair work"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Sewer Line Repair & Replacement
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -165,7 +143,7 @@ export default function SewerPage() {
             aria-label="Underground sewer pipes"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Most Common Types of Sewer Line Problems
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -191,7 +169,7 @@ export default function SewerPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Sewer Line Installation in {site.serviceArea}
             </h2>
             <p className="mt-4 text-base leading-relaxed text-white/90">
@@ -215,6 +193,24 @@ export default function SewerPage() {
         </div>
       </section>
 
+      <ServiceReviews service="sewer-repair-replacement" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Sewer backup in {site.serviceArea}? Call for immediate service
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
+        </div>
+      </section>
+
       {/* Long-form content */}
       <section className="py-14">
         <div className="container-page max-w-4xl">
@@ -235,7 +231,7 @@ export default function SewerPage() {
           </p>
           <ul className="mt-4 space-y-2">
             {signs.map((s) => (
-              <li key={s.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={s.lead} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{s.lead}:</span> {s.text}
@@ -288,7 +284,7 @@ export default function SewerPage() {
           </p>
           <ul className="mt-4 space-y-2">
             {benefits.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-[15px] leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}:</span> {b.text}
@@ -314,29 +310,16 @@ export default function SewerPage() {
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Sewer Line Service</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Sewer line work is a major project that takes proper planning, precise workmanship, and
-            experienced pros. {site.name} provides reliable repair, replacement, and installation
-            designed to keep your system running efficiently and meeting local code.
+            Sewer line work is a major project, and the planning matters as much as the digging. We evaluate the line and local code requirements first, then test the finished work before calling the job done.
           </p>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            With trained technicians, careful workmanship, and clear communication throughout, we help
-            homeowners avoid future sewer issues and costly repairs. From the initial evaluation to
-            final testing, the focus is on long-term performance and dependable results.
-          </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-[15px] leading-relaxed text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Sewer Line FAQs</h2>
           <div className="mt-4">
@@ -351,7 +334,7 @@ export default function SewerPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
+            <h2 className="text-2xl font-extrabold sm:text-3xl">
               Schedule Your Sewer Line Service Today
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
@@ -371,20 +354,20 @@ export default function SewerPage() {
         </div>
       </section>
 
-      {/* Sewer service by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Sewer repair & replacement by neighborhood</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            We repair and replace sewer lines across {site.serviceArea} —{' '}
-            {locations.filter((l) => sewerRepairCopy[l.slug]).length} neighborhoods and counting. For local
-            detail on the sewer issues common to homes in your area, find yours below.
-          </p>
-          <NeighborhoodLinks copy={sewerRepairCopy} basePath="/services/sewer-repair-replacement" linkPrefix="Sewer repair" />
-        </div>
-      </section>
-
-      <PageSections service="sewer-repair-replacement" />
+      <ServiceSections service="sewer-repair-replacement">
+        {/* Sewer service by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Sewer repair & replacement by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We repair and replace sewer lines across {site.serviceArea} —{' '}
+              {locations.filter((l) => sewerRepairCopy[l.slug]).length} neighborhoods and counting. For local
+              detail on the sewer issues common to homes in your area, find yours below.
+            </p>
+            <NeighborhoodLinks copy={sewerRepairCopy} basePath="/services/sewer-repair-replacement" linkPrefix="Sewer repair" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

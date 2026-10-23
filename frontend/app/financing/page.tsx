@@ -36,7 +36,7 @@ export default function FinancingPage() {
         <div className="container-page grid gap-10 lg:grid-cols-[1.4fr_1fr] lg:items-start">
           {/* Left */}
           <div>
-            <h2 className="m-center font-display text-4xl font-black uppercase leading-[1.05] text-brand-600 sm:text-5xl">
+            <h2 className="m-center font-display text-4xl font-black leading-[1.05] text-brand-600 sm:text-5xl">
               Financing Options That Maximize Your Comfort Level.
             </h2>
             <p className="mt-4 text-[15px] leading-relaxed text-ink/75">
@@ -74,7 +74,7 @@ export default function FinancingPage() {
               <div>
                 <ul className="space-y-2.5">
                   {applyBenefits.map((b) => (
-                    <li key={b} className="flex items-center gap-2.5 text-sm font-semibold text-ink/80">
+                    <li key={b} className="flex items-center gap-2.5 text-base font-semibold text-ink/80">
                       <span className="grid h-5 w-5 flex-shrink-0 place-items-center rounded-full bg-pink-500 text-white">
                         <Icon name="check" className="h-3 w-3" />
                       </span>

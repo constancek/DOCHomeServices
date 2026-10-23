@@ -28,7 +28,7 @@ export default function SuccessStoriesPage() {
       {/* Intro */}
       <section className="pt-16">
         <div className="container-page max-w-4xl text-center">
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-700 sm:text-4xl lg:text-5xl">
+          <h2 className="font-display text-3xl font-black leading-tight text-brand-700 sm:text-4xl lg:text-5xl">
             Hear From Our Wonderful Clients in Cincinnati and Surrounding Areas
           </h2>
           <p className="mx-auto mt-6 max-w-3xl text-base leading-relaxed text-ink/75 sm:text-lg">
