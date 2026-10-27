@@ -7,7 +7,7 @@ import { site } from '@/content/site';
 
 const config: ServiceLocationConfig = {
   slug: 'heat-pumps',
-  serviceName: 'Heat Pumps',
+  serviceName: 'Heat Pump Repair',
   eyebrow: 'Heating',
   hubLabel: 'Heat Pumps',
   parentCrumb: { label: 'Heating', href: '/services/heating' },
@@ -99,11 +99,11 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Heat Pumps in ${loc.neighborhood}, ${loc.state}`,
+    title: `Heat Pump Repair in ${loc.neighborhood}, ${loc.state}`,
     description: `Heat pump repair, installation, and replacement in ${place} — ductless mini-split and traditional systems, year-round comfort, financing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/heat-pumps/${loc.slug}` },
     openGraph: {
-      title: `Heat Pumps in ${place} | ${site.name}`,
+      title: `Heat Pump Repair in ${place} | ${site.name}`,
       description: `Heat pump repair and installation serving ${place} and nearby areas.`,
     },
   };
