@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Leak Repair',
   ctaLine: 'Leak in {neighborhood}? Call for same-day service',
-  heroImage: '/services/leak-repair.jpg',
+  heroImage: '/services/leak-repair.webp',
   introHeading: 'Leak Repair in {neighborhood}',
   introParagraphs: [
     'A leak rarely fixes itself, and the longer it runs the more it costs. {brand} provides professional leak repair for homeowners in {place} — pipe, slab, toilet, kitchen, and bathroom leaks fixed at the source, not just patched at the surface.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'water-heater-repair', title: 'Water Heater Repair' },
     { slug: 'emergency-plumbing', title: 'Emergency Plumbing' },
   ],
-  band1Image: '/services/leak-detection.jpg',
+  band1Image: '/services/leak-detection.webp',
   band1Heading: 'Signs of a Hidden Leak in Your {neighborhood} Home',
   commonSituations: [
     'A sudden or unexplained jump in your water bill',
@@ -52,7 +52,7 @@ const config: ServiceLocationConfig = {
     'An ongoing loss of water pressure',
   ],
   trustedBanner: 'Your Local & Trusted Leak Repair Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Leak Repair in {neighborhood}',
   band2Paragraphs: [
     'We start with a thorough assessment, checking visible plumbing and the spots that are easy to overlook — crawl spaces, basement walls, behind appliances — then use leak-detection equipment to pinpoint the source without unnecessary demolition.',
@@ -65,12 +65,7 @@ const config: ServiceLocationConfig = {
     { title: 'Emergency & Same-Day Leak Repair in {neighborhood}', body: 'An active leak cannot wait. If water is spreading, shut off the main supply and call us — our team responds fast and reaches most {neighborhood} homes the same day to stop the leak and make the repair.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'check', title: 'We Fix the Source', text: 'We repair the actual cause of the leak, not just the visible damage, so it does not return.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked, licensed plumbers you can trust in your home.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-    { icon: 'clock', title: 'Same-Day & Emergency', text: 'We respond fast and reach most homes the same day you call.' },
-  ],
+  whyParagraph: 'Most {neighborhood} leak calls get a licensed, background-checked plumber the same day you phone. We repair the part that failed, not just the water damage, and you approve a flat price with no overtime or weekend fees before work starts.',
   proofQuote:
     'Water bill doubled with no explanation. They found a slab leak under the kitchen with acoustic gear, fixed it without tearing up the whole floor, and the bill went right back to normal.',
   sharedFaqs: [
@@ -103,7 +98,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Leak Repair in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Leak Repair in ${loc.neighborhood}, ${loc.state}`,
     description: `Same-day leak repair in ${place} — pipe, slab, toilet, and fixture leaks found and fixed at the source. Upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/leak-repair/${loc.slug}` },
     openGraph: {

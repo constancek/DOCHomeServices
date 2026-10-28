@@ -3,18 +3,19 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { plumbingInstallationCopy } from '@/content/location-copy/plumbing-installation';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Plumbing Installation',
   description: `Professional plumbing installation across ${site.serviceArea} from ${site.name} — fixtures, water heaters, sump pumps, sewer lines, filtration, and softeners installed leak-free. Upfront pricing.`,
   alternates: { canonical: '/services/plumbing-installation' },
-};
+});
 
 const signs = [
   { lead: 'Persistent leaks or drips', text: 'even small leaks cause damage over time — warped floors, ruined cabinets, and mold.' },
@@ -35,12 +36,6 @@ const fixtures = [
   { title: 'Water Softener Systems', text: 'Remove hard-water minerals to protect appliances and extend the life of your plumbing.' },
 ];
 
-const whyUs = [
-  { icon: 'heart' as const, title: 'Family-Run & Local', text: 'A local team that genuinely cares about your home and your time.' },
-  { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked, licensed plumbers and to-code installations.' },
-  { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'Transparent estimates you approve before any work begins.' },
-  { icon: 'check' as const, title: 'Satisfaction Guarantee', text: 'We are not done until your new fixture works exactly as it should.' },
-];
 
 const faqs = [
   { q: 'How do I know if I need a new plumbing installation or just repairs?', a: 'If a fixture or pipe is old, corroded, or repeatedly failing, a new installation is often cheaper than paying for the same repair again and again. We assess what you have and tell you honestly which is the better value.' },
@@ -94,32 +89,16 @@ export default function PlumbingInstallationPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Planning a plumbing installation? Call for service
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/plumbing-install-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/plumbing-install-hero.webp)' }}
             role="img"
             aria-label="Licensed plumber installing a new fixture"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Professional Plumbing Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -140,22 +119,22 @@ export default function PlumbingInstallationPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/plumbing-install-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/plumbing-install-signs.webp)' }}
             role="img"
             aria-label="Plumber discussing fixture options with a homeowner"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs It’s Time to Replace Your Plumbing Fixtures
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Even high-quality fixtures eventually wear down. Replacing old or broken fixtures can
               stop water damage and lower your utility bills, making your home more comfortable and
               efficient. Common signs it may be time for a new installation:
             </p>
             <ul className="mt-4 space-y-2">
               {signs.map((s) => (
-                <li key={s.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={s.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{s.lead}:</span> {s.text}
@@ -163,7 +142,7 @@ export default function PlumbingInstallationPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               {site.name} can check your home, find the problem areas, and recommend the best
               solution — whether that is replacing one fixture or a complete installation — with
               transparent estimates before any work begins.
@@ -176,15 +155,15 @@ export default function PlumbingInstallationPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Emergency Plumbing Installation Services
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Plumbing emergencies can strike at any time. A broken water line, a failed water heater,
               or a sewer backup all call for quick action to help prevent damage to your home.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
-              {site.name} offers emergency plumbing installation 24 hours a day, seven days a week.
+            <p className="mt-4 text-base leading-relaxed text-white/90">
+              {site.name} offers emergency plumbing installation 7 days a week.
               Our team responds promptly, assesses the situation, and performs the installations or
               repairs that restore your home to safe, working order.
             </p>
@@ -194,10 +173,28 @@ export default function PlumbingInstallationPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Plumber responding to an emergency installation"
           />
+        </div>
+      </section>
+
+      <ServiceReviews service="plumbing-installation" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Planning a plumbing installation? Call for service
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -205,7 +202,7 @@ export default function PlumbingInstallationPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Types of Plumbing Fixtures We Install</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install a wide range of plumbing fixtures and systems, each set up to prevent leaks,
             improve efficiency, and add to the comfort of your home:
           </p>
@@ -222,38 +219,24 @@ export default function PlumbingInstallationPage() {
           <h2 className="mt-12 section-title text-brand-700">
             Why Choose {site.name} for Your Plumbing Installation
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            We are more than your average plumbing company — a family-run business dedicated to
-            exceptional service. When you choose {site.name} for your plumbing installation across{' '}
-            {site.serviceArea}, you get a team that genuinely cares about your home.
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            Our plumbers install kitchen and bathroom fixtures, and they also handle water heaters, repairs and drain service across {site.serviceArea}. One family-run company for the whole house means you are not juggling contractors on one remodel.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            Our plumbers do not just handle kitchen and bathroom fixtures — we are also here for water
-            heater installation, plumbing repairs, and drain service. Whether it is a leaky pipe or a
-            clogged drain, we bring the same expertise to every job, and our satisfaction guarantee
-            means we are not finished until you are happy.
-          </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Plumbing Installation FAQs</h2>
           <div className="mt-4">
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -261,40 +244,40 @@ export default function PlumbingInstallationPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
+            <h2 className="text-2xl font-extrabold sm:text-3xl">
               Schedule Your Plumbing Installation Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               From choosing the right fixture to the final leak check, we handle every detail. Call
-              now or request a free estimate — we are happy to answer your questions.
+              now or request an estimate — we are happy to answer your questions.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={site.primaryPhone.href} className="btn-pink text-base">
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+                Request an Estimate
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Plumbing installation by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Plumbing installation by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            We install fixtures and systems across {site.serviceArea} —{' '}
-            {locations.filter((l) => plumbingInstallationCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on the upgrades that fit homes in your area.
-          </p>
-          <NeighborhoodLinks copy={plumbingInstallationCopy} basePath="/services/plumbing-installation" linkPrefix="Plumbing installation" />
-        </div>
-      </section>
-
-      <PageSections />
+      <ServiceSections service="plumbing-installation">
+        {/* Plumbing installation by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Plumbing installation by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We install fixtures and systems across {site.serviceArea} —{' '}
+              {locations.filter((l) => plumbingInstallationCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on the upgrades that fit homes in your area.
+            </p>
+            <NeighborhoodLinks copy={plumbingInstallationCopy} basePath="/services/plumbing-installation" linkPrefix="Plumbing installation" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

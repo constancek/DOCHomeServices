@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Water Heater Maintenance',
   ctaLine: 'Time for a water heater tune-up in {neighborhood}? Call to schedule',
-  heroImage: '/services/wh-hero.jpg',
+  heroImage: '/services/wh-hero.webp',
   introHeading: 'Water Heater Maintenance in {neighborhood}',
   introParagraphs: [
     'A yearly tune-up keeps your water heater efficient, safe, and lasting longer. {brand} flushes the tank, checks the anode rod, and inspects every safety part for homeowners in {place} — on tank and tankless systems alike.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'tankless-water-heater', title: 'Tankless Water Heaters' },
     { slug: 'water-quality', title: 'Water Quality' },
   ],
-  band1Image: '/services/wh-signs.jpg',
+  band1Image: '/services/wh-signs.webp',
   band1Heading: 'Signs Your {neighborhood} Water Heater Needs a Tune-Up',
   commonSituations: [
     'Hot water runs out faster than it used to',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'No professional service in over a year',
   ],
   trustedBanner: 'Your Local & Trusted Water Heater Maintenance Pros in {neighborhood}',
-  band2Image: '/services/water-heater-repair.jpg',
+  band2Image: '/services/water-heater-repair.webp',
   band2Heading: 'What to Expect From Your Tune-Up in {neighborhood}',
   band2Paragraphs: [
     'We start by checking the overall condition of the unit — age, performance, and the safety parts — then explain the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Catch Small Problems Before They Cost', body: 'A worn relief valve, a corroding fitting, or a thermostat drifting out of range is cheap to fix during a tune-up and expensive to ignore. Regular maintenance on your {neighborhood} home catches these early, lowers the odds of a surprise breakdown, and helps keep the manufacturer’s warranty intact.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'badge', title: 'Tank & Tankless', text: 'We service both traditional tank and tankless systems.' },
-    { icon: 'check', title: 'Manufacturer-Recommended Service', text: 'We follow the practices that help extend system life and protect your warranty.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked technicians and detailed, careful inspections.' },
-    { icon: 'clock', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-  ],
+  whyParagraph: 'We service tank and tankless water heaters in {neighborhood} using the manufacturer’s recommended steps, which helps the unit last and protects the warranty. A background-checked technician inspects it carefully, and you approve a flat price before work starts.',
   proofQuote:
     'Booked a tune-up after years of skipping it. They flushed out a shocking amount of sediment, replaced the worn anode rod, and the hot water lasts noticeably longer now. Straightforward pricing, no upsell.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Water Heater Maintenance in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Water Heater Maintenance in ${loc.neighborhood}, ${loc.state}`,
     description: `Water heater maintenance and tune-ups in ${place} — tank flush, anode-rod checks, and safety inspections for tank and tankless systems. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/water-heater-maintenance/${loc.slug}` },
     openGraph: {

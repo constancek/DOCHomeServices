@@ -3,18 +3,19 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { leakDetectionCopy } from '@/content/location-copy/leak-detection';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Leak Detection',
   description: `Professional leak detection across ${site.serviceArea} from ${site.name} — find hidden water and slab leaks fast with acoustic, thermal, and camera tools, without tearing up your home. Same-day service.`,
   alternates: { canonical: '/services/leak-detection' },
-};
+});
 
 const benefits = [
   { lead: 'Stop hidden damage early', text: 'a slow leak rots framing, ruins drywall, and grows mold long before you can see it.' },
@@ -67,18 +68,12 @@ const emergencyScenarios = [
   'Hidden leaks damaging floors, walls, or foundations',
 ];
 
-const whyUs = [
-  { icon: 'badge' as const, title: 'Non-Invasive Tools', text: 'Acoustic, thermal, and camera equipment finds the leak without guesswork or demolition.' },
-  { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked, licensed plumbers you can trust in your home.' },
-  { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-  { icon: 'clock' as const, title: 'Same-Day Service', text: 'Most leak calls are handled the same day you reach out.' },
-];
 
 const faqs = [
   { q: 'How does a leak detection service work?', a: 'We use non-invasive tools — acoustic listening devices, thermal imaging, moisture meters, pressure tests, and pipe cameras — to pinpoint a leak’s exact location before opening anything up, so the repair is targeted and the mess is minimal.' },
   { q: 'What are the signs I might need water leak detection?', a: 'Watch for an unexplained jump in your water bill, stains or discoloration, mold or a musty smell, the sound of running water when nothing is on, low pressure, or warm and damp spots on the floor.' },
   { q: 'Can small leaks really cause big damage?', a: 'Yes. A slow, hidden leak can rot framing, ruin drywall and flooring, and grow mold over weeks or months — while wasting thousands of gallons of water. Finding it early is far cheaper than the repairs that follow.' },
-  { q: 'Do you offer emergency leak detection services?', a: 'Yes. We are on call 24/7 for active leaks, flooding, and suspected slab leaks, and we reach most homes the same day.' },
+  { q: 'Do you offer emergency leak detection services?', a: 'Yes. We are on call 7 days a week for active leaks, flooding, and suspected slab leaks, and we reach most homes the same day.' },
   { q: 'What areas of my home are most susceptible to leaks?', a: 'The most common spots are under slabs, behind walls, under sinks and toilets, at the water heater, along supply lines, and in outdoor or irrigation lines. We check them all.' },
 ];
 
@@ -125,32 +120,16 @@ export default function LeakDetectionPage() {
         ]}
       />
 
-      {/* Top CTA banner */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-8 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase sm:text-2xl">
-            Think you have a hidden leak in {site.serviceArea}?
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/leak-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/leak-hero.webp)' }}
             role="img"
             aria-label="Plumber locating a hidden water leak"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Professional Leak Detection
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -168,7 +147,7 @@ export default function LeakDetectionPage() {
           <h2 className="mt-10 section-title text-brand-700">Why Early Leak Detection Matters</h2>
           <ul className="mt-4 space-y-2.5">
             {benefits.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}</span> — {b.text}
@@ -184,22 +163,22 @@ export default function LeakDetectionPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/leak-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/leak-signs.webp)' }}
             role="img"
             aria-label="Water damage from a hidden leak"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               What Professional Leak Detection Can Uncover
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Water leaks can be sneaky, often hiding behind walls or under floors until they cause
               real damage. Professional leak detection uncovers these hidden issues before they
               escalate:
             </p>
             <ul className="mt-4 space-y-2">
               {uncover.map((u) => (
-                <li key={u.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={u.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{u.lead}:</span> {u.text}
@@ -215,16 +194,16 @@ export default function LeakDetectionPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Water Leak Detection Experts
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Leaks do not just waste water — they eat away at your floors, ruin drywall, and create
               the perfect conditions for mold. That is why our team takes water leak detection
               seriously. Every technician is trained to look past the obvious and find the source of
               the issue before it gets worse.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               That reputation does not happen by accident. It comes from paying attention to the small
               stuff, showing up on time, and keeping our word — and homeowners across {site.serviceArea}{' '}
               tell us again and again that the way we care is what sets us apart.
@@ -232,10 +211,28 @@ export default function LeakDetectionPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Plumber reviewing leak detection findings with a homeowner"
           />
+        </div>
+      </section>
+
+      <ServiceReviews service="leak-detection" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-8 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold sm:text-2xl">
+            Think you have a hidden leak in {site.serviceArea}?
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -243,7 +240,7 @@ export default function LeakDetectionPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">What to Expect During Professional Leak Detection</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Hidden leaks can do serious damage — warped wood, cracked concrete, mold, and higher water
             bills. Whether it is a dripping faucet, a toilet leak, a kitchen leak, or a slab leak,
             finding the source quickly is critical. Our leak detection across {site.serviceArea} is
@@ -258,18 +255,18 @@ export default function LeakDetectionPage() {
                 </span>
                 <div>
                   <h3 className="font-display text-base font-extrabold text-brand-700">{s.title}</h3>
-                  <p className="mt-1.5 text-sm leading-relaxed text-ink/75">{s.intro}</p>
+                  <p className="mt-1.5 text-[15px] leading-relaxed text-ink/75">{s.intro}</p>
                   {s.bullets.length > 0 && (
                     <ul className="mt-2 grid gap-1.5 sm:grid-cols-2">
                       {s.bullets.map((b) => (
-                        <li key={b} className="flex gap-2 text-sm text-ink/75">
+                        <li key={b} className="flex gap-2 text-base text-ink/75">
                           <Icon name="check" className="mt-0.5 h-4 w-4 flex-shrink-0 text-pink-500" />
                           {b}
                         </li>
                       ))}
                     </ul>
                   )}
-                  {s.outro && <p className="mt-2 text-sm leading-relaxed text-ink/75">{s.outro}</p>}
+                  {s.outro && <p className="mt-2 text-[15px] leading-relaxed text-ink/75">{s.outro}</p>}
                 </div>
               </div>
             ))}
@@ -277,13 +274,13 @@ export default function LeakDetectionPage() {
 
           {/* Emergency */}
           <h2 className="mt-12 section-title text-brand-700">Same-Day & Emergency Leak Detection</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Water leaks do not follow a schedule, so our same-day and emergency leak detection across{' '}
             {site.serviceArea} is built to respond fast. Call us right away for:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {emergencyScenarios.map((e) => (
-              <li key={e} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={e} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="clock" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {e}
               </li>
@@ -291,7 +288,7 @@ export default function LeakDetectionPage() {
           </ul>
           <div className="mt-6 flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
             <h3 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">
-              Active leak right now? We answer 24/7.
+              Active leak right now? We answer 7 days a week.
             </h3>
             <Link href="/services/emergency-plumbing" className="btn-pink flex-shrink-0">
               Emergency Plumbing
@@ -300,38 +297,26 @@ export default function LeakDetectionPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Leak Detection</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            Undetected leaks lead to water damage, higher utility bills, and costly repairs.{' '}
-            {site.name} provides professional leak detection designed to locate hidden leaks quickly
-            and accurately — even behind walls, under floors, or below concrete slabs.
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            Hidden leaks behind walls, under floors and below slabs raise your water bill and
+            cause damage long before you see them. We pinpoint the source without opening more
+            of your home than needed, so it gets fixed once.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            With experienced technicians and proven detection methods, we identify the source without
-            unnecessary disruption to your home. Clear communication, reliable scheduling, and a focus
-            on long-term solutions mean leak issues are handled efficiently and correctly the first
-            time.
-          </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Leak Detection FAQs</h2>
           <div className="mt-4">
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -339,40 +324,40 @@ export default function LeakDetectionPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
+            <h2 className="text-2xl font-extrabold sm:text-3xl">
               Schedule Your Leak Detection Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Find the leak before it finds your floors. Same-day service, upfront pricing, and no
-              needless demolition. Call now or request a free estimate.
+              needless demolition. Call now or request an estimate.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={site.primaryPhone.href} className="btn-pink text-base">
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+                Request an Estimate
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Leak detection by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Leak detection by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            We find hidden leaks across {site.serviceArea} —{' '}
-            {locations.filter((l) => leakDetectionCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on the homes and plumbing in your area.
-          </p>
-          <NeighborhoodLinks copy={leakDetectionCopy} basePath="/services/leak-detection" linkPrefix="Leak detection" />
-        </div>
-      </section>
-
-      <PageSections />
+      <ServiceSections service="leak-detection">
+        {/* Leak detection by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Leak detection by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We find hidden leaks across {site.serviceArea} —{' '}
+              {locations.filter((l) => leakDetectionCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on the homes and plumbing in your area.
+            </p>
+            <NeighborhoodLinks copy={leakDetectionCopy} basePath="/services/leak-detection" linkPrefix="Leak detection" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

@@ -1,7 +1,7 @@
 export const part4: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'reading': {
     intro:
-      'Thinking about endless hot water in Reading, or already running a tankless unit that needs a descaling tune-up? We install, repair, and service tankless water heaters across this Mill Creek valley city, often the same day. Call (513) 586-5107.',
+      'Many Reading homes in the Mill Creek valley are still on an aging tank that takes up floor space in a small basement, which is where a wall-hung tankless water heater earns its keep. Hard water buildup means these units need regular descaling.',
     relevance: [
       'Reading (ZIP 45215) sits in the Mill Creek valley north of Cincinnati, with a settled mix of older and mid-century homes around its bridal-shop district. A lot of those homes are still on an aging tank that eats up floor space in a small valley basement, which is exactly where a wall-hung tankless unit earns its keep — it frees up the corner and stops the slow rusting that happens to a tank sitting on a damp floor.',
       'Greater Cincinnati water runs hard, and that mineral content is what scales the heat exchanger inside a tankless unit. On a tank-to-tankless upgrade here we size the unit to the home’s bath count and flow, check whether the gas line and venting can carry the higher burner load, and set up an annual descaling flush so the exchanger keeps its efficiency instead of clogging up over a few years.',
@@ -16,7 +16,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'dent': {
     intro:
-      'Want endless hot water in Dent, or need a tankless unit repaired or descaled? We install and service tankless water heaters across this west-side Green Township community, often the same day. Call (513) 586-5107.',
+      'Dent’s mid-century homes are on their second or third tank, and owners replacing one often switch to a tankless water heater to reclaim the basement footprint and stop budgeting for a new tank every decade. Newer homes in this Green Township community get annual descaling.',
     relevance: [
       'Dent (ZIP 45247) is a Green Township community on the west side with established neighborhoods of mid-century and newer homes. The mid-century houses here are now on their second or third tank, and homeowners replacing one often switch to tankless to reclaim the basement footprint and stop budgeting for a new tank every decade.',
       'Hard water is the catch with any tankless unit in this part of Hamilton County — minerals settle on the heat exchanger and drag down efficiency if they are left alone. We size the unit gas or electric to match the home, confirm the supply can carry the load, and put a yearly descaling flush on the calendar so the unit keeps heating at full rate.',
@@ -31,7 +31,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'deer-park': {
     intro:
-      'Replacing an old tank in Deer Park, or running a tankless unit that needs servicing? We install, repair, and descale tankless water heaters across this small east-side city, often the same day. Call (513) 586-5107.',
+      'Deer Park’s mid-century homes were built around a standard tank in a compact utility space, so a wall-hung tankless water heater is a natural fit when the old tank fails. It gives the space back and delivers hot water on demand.',
     relevance: [
       'Deer Park (ZIP 45236) is a small, settled city on the east side made up largely of mid-century single-family homes on quiet streets. Those homes were built around a standard tank in a compact utility space, and a wall-hung tankless unit is a natural fit when the old tank fails — it gives the space back and delivers hot water that does not run out partway through the second shower.',
       'The trade-off in this corner of Hamilton County is hard water scaling the heat exchanger over time. When we put a tankless unit into a mid-century Deer Park home we size it gas or electric to the household’s demand, verify the existing line can feed it, and schedule an annual descaling flush so mineral buildup never gets ahead of the unit.',
@@ -46,7 +46,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'terrace-park': {
     intro:
-      'Want endless hot water for a larger Terrace Park home, or need a tankless unit serviced? We install, repair, and descale tankless water heaters across this east-side village near the Little Miami, often the same day. Call (513) 586-5107.',
+      'Larger early-1900s homes in Terrace Park often have several bathrooms drawing on one aging tank, and a properly sized tankless water heater lets two or three baths run hot at once. This affluent village sits near the Little Miami River on established, tree-lined streets.',
     relevance: [
       'Terrace Park (ZIP 45174) is an affluent east-side village near the Little Miami River, known for its established early-1900s homes and tree-lined streets. Those larger older homes often have multiple bathrooms drawing on a single aging tank, and a properly sized tankless unit is what lets two or three baths run hot at once without the tank emptying out.',
       'The low ground near the river is part of the picture here. A tank sitting in a basement that can take on water during heavy rain corrodes from the base up, while a wall-mounted tankless unit sits clear of standing water. We size the unit to the home’s demand, confirm the gas and venting, and set a yearly descaling flush against the area’s hard water.',
@@ -61,7 +61,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'dry-run': {
     intro:
-      'Adding tankless to a Dry Run home for efficiency, or need a unit repaired and descaled? We install and service tankless water heaters across this east-side Anderson Township community, often the same day. Call (513) 586-5107.',
+      'Dry Run owners who want lower running costs and a smaller footprint often upgrade to a tankless water heater when the original tank gives out. Even the newer Anderson Township homes here are reaching that age, and every unit needs regular descaling.',
     relevance: [
       'Dry Run (ZIP 45244) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. Even the newer homes here are reaching the age where the original tank is due, and owners who want lower running costs and a smaller footprint are upgrading to tankless when that tank goes.',
       'The hard water common across Hamilton County is what we plan around on any tankless install. We size the unit gas or electric to the household, confirm the existing supply can carry it, and schedule an annual descaling flush so the heat exchanger stays clear and the unit holds its efficiency over the years.',
@@ -76,7 +76,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'white-oak': {
     intro:
-      'Upgrading an aging tank in White Oak, or running a tankless unit that needs a descaling tune-up? We install and service tankless water heaters across this northwest-side Green Township community, often the same day. Call (513) 586-5107.',
+      'Mid-century houses in White Oak have had their tanks replaced once or twice, and a wall-hung tankless water heater is a common upgrade when the next one is due. It clears the utility corner in these Green Township homes and needs annual descaling.',
     relevance: [
       'White Oak (ZIP 45247) is a settled Green Township community on the northwest side, made up largely of mid-century and newer single-family homes. The mid-century houses here are on tanks that have been replaced once or twice, and a wall-hung tankless unit is a common upgrade when the next one is due — it clears the utility corner and stops the every-decade tank replacement.',
       'Hard water is the standing concern on the northwest side. Minerals scale the heat exchanger inside a tankless unit, so we size each install gas or electric to the home, verify the line and venting can carry the burner, and set up an annual descaling flush so the buildup never costs you efficiency.',
@@ -91,7 +91,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'forestville': {
     intro:
-      'Want endless hot water in Forestville, or need a tankless unit repaired or serviced? We install and descale tankless water heaters across this east-side Anderson Township community, often the same day. Call (513) 586-5107.',
+      'When the original tank gives out in a Forestville home, many owners switch to a tankless water heater for endless hot water and the floor space a wall-mounted unit frees. These Anderson Township homes are mid-century and newer, and each unit needs regular descaling.',
     relevance: [
       'Forestville (ZIP 45230) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. Homes of that era are now at the point where the original tank gives out, and many owners take the chance to switch to tankless for endless hot water and the floor space a wall-mounted unit gives back.',
       'The hard water across this part of Hamilton County scales the heat exchanger over time, which is the main thing we plan around. We size the unit gas or electric to the household demand, confirm the existing supply can feed it, and schedule a yearly descaling flush so the unit keeps its efficiency well past the life of a tank.',
@@ -106,7 +106,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cherry-grove': {
     intro:
-      'Replacing an old tank in Cherry Grove, or running a tankless unit that needs descaling? We install, repair, and service tankless water heaters across this east-side Anderson Township community, often the same day. Call (513) 586-5107.',
+      'The aging tank in a Cherry Grove home is often tucked into a tight utility space, so a compact wall-hung tankless water heater is the natural replacement there. It gives the corner back, and we keep it running with descaling tune-ups.',
     relevance: [
       'Cherry Grove (ZIP 45230) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. The aging tank in a Cherry Grove home is often tucked into a tight utility space, and a compact wall-hung tankless unit is the natural replacement — it gives the corner back and delivers hot water on demand.',
       'Greater Cincinnati’s hard water is what scales a tankless heat exchanger over the years, so it sits at the center of how we plan an install here. We size the unit gas or electric to your peak demand, confirm the line and venting can carry it, and set up an annual descaling flush so the buildup never drags down the unit.',
@@ -121,7 +121,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'kenwood': {
     intro:
-      'Want endless hot water across a larger Kenwood home, or need a tankless unit serviced? We install, repair, and descale tankless water heaters around Kenwood Towne Centre, often the same day. Call (513) 586-5107.',
+      'Larger Kenwood homes near Kenwood Towne Centre often have several bathrooms and high hot water demand, which is where a correctly sized tankless water heater keeps multiple baths hot at once. Mid-century homes nearby use one to replace aging tanks.',
     relevance: [
       'Kenwood (ZIP 45236) is an upscale, unincorporated community on the east side around Kenwood Towne Centre, with mid-century homes alongside newer, larger houses. The larger homes here often run several bathrooms and high hot-water demand, which is exactly where a correctly sized tankless unit shines — it keeps multiple baths hot at once where a single tank would run dry.',
       'Sizing is everything in these homes, and so is planning for the area’s hard water. We match the tankless unit gas or electric to the home’s peak flow, confirm the gas line and venting can carry a higher burner load, and set up an annual descaling flush so the heat exchanger does not scale up and lose capacity.',
@@ -136,7 +136,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lincoln-heights': {
     intro:
-      'Upgrading an old tank in Lincoln Heights, or need a tankless unit repaired and descaled? We install and service tankless water heaters across this historic Mill Creek valley community, often the same day. Call (513) 586-5107.',
+      'In a smaller Lincoln Heights home, a tank takes up valuable floor space, and a compact wall-hung tankless water heater gives that space back. This Mill Creek valley community, one of the first self-governed Black municipalities in the northern United States, has older, modest homes.',
     relevance: [
       'Lincoln Heights (ZIP 45215) is a historic community in the Mill Creek valley north of the city — one of the first self-governed Black municipalities in the northern United States — with older, modest homes. In a smaller home like these, a tank takes up valuable floor space, and a compact wall-hung tankless unit gives that space back while ending the wait for the tank to reheat.',
       'The low valley ground here means a basement can take on water in heavy rain, which corrodes a floor-standing tank from the base up — a wall-mounted tankless unit sits clear of that. We size the unit to the home, confirm the existing line can carry it, and schedule a yearly descaling flush against the area’s hard water.',
@@ -151,7 +151,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'dillonvale': {
     intro:
-      'Replacing an aging tank in Dillonvale, or running a tankless unit that needs servicing? We install, repair, and descale tankless water heaters across this east-side Sycamore Township community near Kenwood, often the same day. Call (513) 586-5107.',
+      'Dillonvale homes near Kenwood are on tanks that have been replaced once or twice, and a tankless water heater is a common move when the next one is due. It frees the utility space in these mid-century homes and delivers hot water on demand.',
     relevance: [
       'Dillonvale (ZIP 45236) is a Sycamore Township community on the east side near Kenwood, with settled neighborhoods of mid-century homes. Those homes are now on a tank that has been replaced once or twice, and a tankless upgrade is a common move when the next one is due — it frees the utility space and delivers hot water on demand.',
       'The hard water across this stretch of Hamilton County scales the heat exchanger inside a tankless unit, which is the main thing we plan for. We size the unit gas or electric to the household, confirm the supply line can carry it, and set up an annual descaling flush so the unit holds its efficiency for the long run.',
@@ -166,7 +166,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'woodlawn': {
     intro:
-      'Want endless hot water in Woodlawn, or need a tankless unit repaired or descaled? We install and service tankless water heaters across this Mill Creek valley village, often the same day. Call (513) 586-5107.',
+      'Older Woodlawn homes run on tanks that take up basement floor space, and a wall-hung tankless water heater clears the corner and stops the slow corrosion a tank suffers on a damp floor. The village mixes homes with industrial corridors in the Mill Creek valley.',
     relevance: [
       'Woodlawn (ZIP 45215) is a village in the Mill Creek valley north of the city, with a mix of residential streets and industrial corridors. The older homes here run on tanks that take up basement floor space, and a wall-hung tankless unit is a clean upgrade — it clears the corner and stops the slow corrosion a tank suffers on a damp valley floor.',
       'Because the low valley ground can leave a basement floor wet in heavy rain, keeping the heater up off the floor matters, and the area’s hard water means descaling does too. We size the tankless unit to the home, confirm the line and venting, and schedule a yearly descaling flush so the heat exchanger stays clear.',
@@ -181,7 +181,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'addyston': {
     intro:
-      'Upgrading an old tank in Addyston, or need a tankless unit repaired and descaled? We install and service tankless water heaters across this far-west river village, often the same day. Call (513) 586-5107.',
+      'Addyston’s compact century-old worker homes have little spare room, so a wall-hung tankless water heater that frees the floor where a tank once stood is a real gain. It also ends the wait for a small tank to recover in this old mill town on the Ohio River.',
     relevance: [
       'Addyston (ZIP 45001) is a small village on the far west side along the Ohio River, an old mill town with closely spaced older worker homes. Those compact century-old homes have little spare room, so a wall-hung tankless unit that frees the floor where a tank once stood is a real gain — and it ends the wait for a small tank to reheat.',
       'The riverside position means high water can leave a basement wet, which corrodes a floor-standing tank fast, while a wall-mounted tankless unit sits above it. We size the unit to the home, check whether the older gas line can carry a tankless burner, and set up a yearly descaling flush against the hard water here.',
@@ -196,7 +196,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'greenhills': {
     intro:
-      'Replacing an aging tank in a historic Greenhills home, or need a tankless unit serviced? We install, repair, and descale tankless water heaters across this 1930s planned village, often the same day. Call (513) 586-5107.',
+      'Greenhills was built in the 1930s as a New Deal Greenbelt town, and its compact cottages and townhomes have small utility spaces where a tankless water heater fits better than a tank. These original homes, still in use in a National Historic Landmark district, need careful upgrades.',
     relevance: [
       'Greenhills (ZIP 45218) is a historic planned Greenbelt town built in the 1930s as a New Deal project, now a National Historic Landmark district, with its original cottages and townhomes still in use. Those compact 1930s homes were built around small utility spaces, so a wall-hung tankless unit fits where a tank crowds the room and gives endless hot water without enlarging anything.',
       'The original gas lines and venting in homes this old often need attention before a tankless burner can run, so we check the supply first. We size the unit to the home, plan the install to leave the historic character undisturbed, and schedule a yearly descaling flush against the area’s hard water so the unit keeps its efficiency.',
@@ -211,7 +211,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'northbrook': {
     intro:
-      'Want endless hot water in Northbrook, or need a tankless unit repaired or descaled? We install and service tankless water heaters across this northwest Colerain Township community, often the same day. Call (513) 586-5107.',
+      'Northbrook’s mid-century homes are on tanks that have been swapped once or twice, and a tankless water heater is a popular move when the next replacement comes due. It reclaims the utility footprint in these Colerain Township homes and gets an annual descaling for hard water.',
     relevance: [
       'Northbrook (ZIP 45251) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. Those homes are on tanks that have been swapped once or twice, and a tankless upgrade is a popular move when the next replacement comes due — it reclaims the utility footprint and removes the every-decade tank cost.',
       'Hard water on the northwest side scales the heat exchanger inside a tankless unit over time, so it sits at the center of how we plan. We size the unit gas or electric to the home’s demand, confirm the line can carry it, and set up an annual descaling flush so mineral buildup never costs you efficiency.',
@@ -226,7 +226,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'indian-hill': {
     intro:
-      'Want endless hot water across a large Indian Hill estate, or need a tankless system serviced? We install, repair, and descale tankless water heaters for this east-side village, often the same day. Call (513) 586-5107.',
+      'Indian Hill estates run high hot water demand across many bathrooms, and a sized tankless water heater system, often more than one unit, keeps every bath hot at once where a tank would run short. These homes sit on multi-acre, wooded lots.',
     relevance: [
       'Indian Hill (ZIP 45243) is an affluent east-side village known for its large estates and homes on multi-acre, wooded lots, many set well back from the road. These big homes run high hot-water demand across many bathrooms, and a sized tankless system — often more than one unit — keeps every bath hot at once where a tank would empty in minutes.',
       'Long service runs and large plumbing systems are part of estate life here, and some homes rely on private wells, which carry their own mineral load on top of the region’s hard water. We size the tankless capacity to the home, confirm the gas supply can carry the burners, and set up regular descaling flushes so the heat exchangers stay clear under heavy use.',
@@ -241,7 +241,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'evendale': {
     intro:
-      'Upgrading a tank in Evendale, or need a tankless unit repaired or descaled? We install and service tankless water heaters for homes and buildings across this north-side village, often the same day. Call (513) 586-5107.',
+      'Evendale’s mid-century homes are on aging tanks, and a tankless water heater frees the utility space while delivering hot water on demand. The same upgrade suits the smaller commercial buildings in this village known for its industrial base, including GE Aerospace.',
     relevance: [
       'Evendale (ZIP 45241) is a north-side village with a large industrial base, including GE Aerospace, alongside established residential neighborhoods. The mid-century homes here are on aging tanks, and a tankless upgrade frees the utility space while delivering hot water on demand — useful in both the houses and the smaller commercial buildings we serve.',
       'Whether the unit is gas or electric, the area’s hard water scales the heat exchanger over time, so we plan around it. We size the tankless unit to the building’s demand, confirm the existing line and venting can carry the burner load, and schedule a yearly descaling flush so the unit holds its efficiency.',
@@ -256,7 +256,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'glendale': {
     intro:
-      'Replacing an aging tank in a historic Glendale home, or need a tankless unit serviced? We install, repair, and descale tankless water heaters across this railroad-suburb village, often the same day. Call (513) 586-5107.',
+      'Glendale is one of the country’s earliest planned railroad suburbs, and its preserved Victorian homes were never built around modern equipment, so a compact tankless water heater frees space without crowding original rooms. Upgrades on these winding, tree-lined streets need a careful hand.',
     relevance: [
       'Glendale (ZIP 45246) is a historic village and one of the country’s earliest planned railroad suburbs — a National Historic Landmark — known for its preserved Victorian homes and winding, tree-lined streets. Those 19th-century homes were never built around modern equipment, so a compact wall-hung tankless unit frees space a bulky tank crowds and adds endless hot water without altering the historic interior.',
       'Older gas lines and venting in homes this age often need an upgrade before a tankless burner can run, so we check the supply first. We size the unit to the home, plan the install to leave original features undisturbed, and set up a yearly descaling flush against the area’s hard water so the heat exchanger stays clear.',
@@ -271,7 +271,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'sharonville': {
     intro:
-      'Want endless hot water in Sharonville, or need a tankless unit repaired or descaled? We install and service tankless water heaters for homes and businesses across this north-side city near Sharon Woods, often the same day. Call (513) 586-5107.',
+      'Sharonville’s mid-century homes near Sharon Woods are reaching the age where the original tank is due, and a tankless water heater frees the utility space while giving hot water on demand. Businesses near the convention center and industrial corridors use them too.',
     relevance: [
       'Sharonville (ZIP 45241) is a north-side city near Sharon Woods, with a mix of established residential neighborhoods, the convention center, and industrial corridors. The mid-century homes here are reaching the age where the original tank is due, and a tankless upgrade frees the utility space while giving hot water on demand — a fit for the homes and the smaller commercial buildings alike.',
       'Hard water on the north side scales the heat exchanger inside any tankless unit, so it shapes how we plan an install. We size the unit gas or electric to the demand, confirm the line and venting can carry the burner, and schedule a yearly descaling flush so the unit keeps its efficiency over the long run.',
@@ -280,13 +280,13 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you service a tankless unit in Sharonville?',
-        a: 'Sharonville is well within our north-side service area, and we keep plumbers on call 24/7. We can usually handle a tankless repair or descaling tune-up the same day you call.',
+        a: 'Sharonville is well within our north-side service area, and we keep plumbers on call 7 days a week. We can usually handle a tankless repair or descaling tune-up the same day you call.',
       },
     ],
   },
   'northgate': {
     intro:
-      'Upgrading an old tank in Northgate, or running a tankless unit that needs descaling? We install, repair, and service tankless water heaters across this northwest Colerain Township area, often the same day. Call (513) 586-5107.',
+      'Around the Northgate Mall corridor, Northgate’s mid-century houses are on aging tanks, and a wall-hung tankless water heater reclaims the utility corner and ends the every-decade tank replacement. Newer homes in this Colerain Township area get the same unit and regular descaling.',
     relevance: [
       'Northgate (ZIP 45251) is a Colerain Township area on the northwest side around the Northgate Mall corridor, with neighborhoods of mid-century and newer homes. The mid-century houses here are on aging tanks, and a wall-hung tankless unit is a common upgrade that reclaims the utility corner and ends the every-decade tank replacement.',
       'The hard water across the northwest side scales a tankless heat exchanger over time, which is the main thing we plan for. We size the unit gas or electric to the household demand, confirm the existing line can feed it, and set up an annual descaling flush so the buildup never drags the unit down.',
@@ -301,7 +301,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'springdale': {
     intro:
-      'Want endless hot water in Springdale, or need a tankless unit repaired or descaled? We install and service tankless water heaters for homes and businesses across this north-side city, often the same day. Call (513) 586-5107.',
+      'Springdale’s mid-century homes along the Tri-County corridor are on aging tanks, and a tankless water heater frees the utility footprint while giving on-demand hot water. The same upgrade fits businesses in the city’s large commercial and retail base, with descaling to keep units running.',
     relevance: [
       'Springdale (ZIP 45246) is a north-side city along the Tri-County corridor, with established mid-century neighborhoods alongside a large commercial and retail base. The mid-century homes are now on aging tanks, and a tankless upgrade frees the utility footprint while giving on-demand hot water — a fit for the houses and the area’s many smaller commercial buildings.',
       'Hard water along the Tri-County corridor scales the heat exchanger inside a tankless unit, so we plan around it. We size the unit gas or electric to the building’s demand, confirm the line and venting can carry the burner load, and schedule a yearly descaling flush so the unit keeps its efficiency.',
@@ -316,7 +316,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'miamitown': {
     intro:
-      'Upgrading an old tank in Miamitown, or need a tankless unit repaired and descaled? We install and service tankless water heaters across this far-west community on the Great Miami River, often the same day. Call (513) 586-5107.',
+      'Tankless water heater installs in Miamitown suit older homes on low river-bottom ground along the Great Miami River, where a tank on a basement floor that takes on water corrodes from the base up. A wall-hung unit that sits clear of the floor avoids that.',
     relevance: [
       'Miamitown (ZIP 45041) is a small far-west community on the Great Miami River, with older homes set on low river-bottom ground. A tank standing on a basement floor that can take on water in heavy rain corrodes from the base up, so a wall-hung tankless unit that sits clear of the floor is a sound choice in these riverside homes.',
       'The older homes here also tend to have aging gas lines, which we check before fitting a tankless burner, and the region’s hard water means descaling matters. We size the unit to the home, confirm the supply can carry it, and set up a yearly descaling flush so the heat exchanger stays clear.',
@@ -331,7 +331,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'forest-park': {
     intro:
-      'Replacing an aging tank in Forest Park, or running a tankless unit that needs descaling? We install, repair, and service tankless water heaters across this planned north-side city, often the same day. Call (513) 586-5107.',
+      'Forest Park was developed as a planned community from the 1960s, and its homes are on their second or third tank, so a tankless water heater is a common move when the next one is due. It reclaims the utility footprint and needs annual descaling.',
     relevance: [
       'Forest Park (ZIP 45240) is a north-side city developed as a planned community from the 1960s, with neighborhoods of mid-century single-family homes. Those 1960s-era homes are now on their second or third tank, and a tankless upgrade is a common move when the next one is due — it reclaims the utility footprint and ends the every-decade replacement cycle.',
       'The hard water on the north side scales the heat exchanger inside a tankless unit over time, so it sits at the center of our planning. We size the unit gas or electric to the household demand, confirm the existing line can carry it, and schedule a yearly descaling flush so the unit holds its efficiency.',
@@ -346,7 +346,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pleasant-run': {
     intro:
-      'Want endless hot water in Pleasant Run, or need a tankless unit repaired or descaled? We install and service tankless water heaters across this north-side Springfield Township community, often the same day. Call (513) 586-5107.',
+      'Mid-century houses in Pleasant Run are on aging tanks, and a wall-hung tankless water heater is a common upgrade that frees the utility corner and delivers hot water on demand. Hard water across the north side means each unit needs descaling.',
     relevance: [
       'Pleasant Run (ZIP 45240) is a Springfield Township community on the north side, with settled neighborhoods of mid-century and newer homes. The mid-century houses here are on aging tanks, and a wall-hung tankless unit is a common upgrade that frees the utility corner and delivers hot water on demand.',
       'Hard water across the north side scales the heat exchanger inside a tankless unit, so we plan around it. We size the unit gas or electric to the household, confirm the line can carry it, and set up an annual descaling flush so the buildup never costs the unit its efficiency.',
@@ -361,7 +361,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cleves': {
     intro:
-      'Upgrading an aging tank in Cleves, or need a tankless unit repaired and descaled? We install and service tankless water heaters across this far-west river village, often the same day. Call (513) 586-5107.',
+      'Cleves sits near where the Great Miami River meets the Ohio, and its older homes on low, flood-prone ground suit a tankless water heater mounted above the floor. A floor-standing tank in a basement that takes on water corrodes from the base up.',
     relevance: [
       'Cleves (ZIP 45002) is a far-west village near where the Great Miami River meets the Ohio, with older homes on low ground prone to flooding. A floor-standing tank in a basement that can take on water corrodes from the base up, so a wall-mounted tankless unit that sits above the floor is a smart choice in these riverside homes.',
       'The older homes here often carry aging gas lines we check before fitting a tankless burner, and the region’s hard water means descaling matters. We size the unit to the home, confirm the supply can carry it, and set up a yearly descaling flush so the heat exchanger stays clear.',
@@ -376,7 +376,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-bend': {
     intro:
-      'Replacing an old tank in North Bend, or running a tankless unit that needs servicing? We install, repair, and descale tankless water heaters across this historic far-west river village, often the same day. Call (513) 586-5107.',
+      'A tankless water heater on the wall is a sound upgrade in North Bend, the burial place of President William Henry Harrison, where older homes sit on low riverside ground. A tank on the basement floor corrodes fast in high water, while a wall unit stays clear.',
     relevance: [
       'North Bend (ZIP 45052) is a historic far-west village on the Ohio River — the burial place of President William Henry Harrison — with older homes set on low riverside ground. A tank on a basement floor that can take on water in high water corrodes fast, so a wall-hung tankless unit clear of the floor is a sound upgrade in these riverside homes.',
       'The older homes here tend to have aging gas lines we check before fitting a tankless burner, and the area’s hard water means a regular flush matters. We size the unit to the home, confirm the supply can carry it, and schedule a yearly descaling flush so the heat exchanger stays clear.',
@@ -391,7 +391,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'loveland': {
     intro:
-      'Want endless hot water in Loveland, or need a tankless unit repaired or descaled? We install and service tankless water heaters across this historic city on the Little Miami River, often the same day. Call (513) 586-5107.',
+      'Loveland homes split two ways for a tankless water heater: older downtown houses near the Little Miami River with aging tanks tight on space, and newer homes that are good candidates for tankless from the start. Both gain from a wall-hung unit and regular descaling.',
     relevance: [
       'Loveland (ZIP 45140) is a historic city straddling the Little Miami River and the Loveland Bike Trail, with a charming older downtown and a mix of historic and newer homes. The older downtown homes are on aging tanks tight on space, while newer homes are good candidates for tankless from the start — both gain from a wall-hung unit that delivers hot water on demand.',
       'The low riverside ground near the Little Miami means a basement can take on water in heavy rain, which corrodes a floor-standing tank, while a wall-mounted tankless unit stays clear of it. We size the unit to the home, confirm the line and venting can carry the burner, and schedule a yearly descaling flush against the area’s hard water.',
@@ -406,7 +406,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'harrison': {
     intro:
-      'Upgrading an aging tank in Harrison, or need a tankless unit repaired and descaled? We install and service tankless water heaters across this far-west city on the Indiana line, often the same day. Call (513) 586-5107.',
+      'In Harrison, on the Indiana state line along the Whitewater River, a tankless water heater replaces aging tanks tight on space in the older downtown homes. The growing newer neighborhoods are strong candidates for tankless from the start, and both get regular descaling.',
     relevance: [
       'Harrison (ZIP 45030) is a far-west city on the Indiana state line along the Whitewater River, with an older downtown and a growing mix of established and newer homes. The older downtown homes are on aging tanks tight on space, while the growing newer neighborhoods are strong candidates for tankless from the start — both gain endless hot water from a compact wall-hung unit.',
       'The low ground near the Whitewater means a basement can take on water in heavy rain, which corrodes a floor-standing tank, so a wall-mounted tankless unit clear of the floor is a sound choice. We size the unit gas or electric to the home, confirm the supply can carry it, and set up a yearly descaling flush against the region’s hard water.',
@@ -415,7 +415,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach Harrison for a tankless install or repair?',
-        a: 'Harrison is part of our far-west service area near the Indiana line, and we are on call 24/7. We aim for same-day service on tankless repairs and can usually complete an upgrade in a single day.',
+        a: 'Harrison is part of our far-west service area near the Indiana line, and we are on call 7 days a week. We aim for same-day service on tankless repairs and can usually complete an upgrade in a single day.',
       },
     ],
   },

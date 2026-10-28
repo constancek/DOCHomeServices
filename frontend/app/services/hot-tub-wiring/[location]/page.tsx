@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Hot Tub Wiring',
   ctaLine: 'Wiring a new spa in {neighborhood}? Do it safely — call today',
-  heroImage: '/services/hottub-hero.jpg',
+  heroImage: '/services/hottub-hero.webp',
   introHeading: 'Hot Tub Wiring in {neighborhood}',
   introParagraphs: [
     'A hot tub combines water, heat, and high-voltage electricity, so the wiring has to be done right. {brand} handles hot tub and spa electrical wiring for homeowners in {place} — dedicated 240V circuits, GFCI protection, proper bonding, and a code-required disconnect within sight of the spa.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'outdoor-lighting', title: 'Outdoor Lighting' },
     { slug: 'electrical-inspections', title: 'Electrical Inspections' },
   ],
-  band1Image: '/services/hottub-signs.jpg',
+  band1Image: '/services/hottub-signs.webp',
   band1Heading: 'Signs You Need Expert Hot Tub Wiring in {neighborhood}',
   commonSituations: [
     'Installing a new 240V hot tub or spa',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Uncertainty about the right amp rating or wire gauge',
   ],
   trustedBanner: 'Your Local & Trusted Hot Tub Wiring Pros in {neighborhood}',
-  band2Image: '/services/hottub-hero.jpg',
+  band2Image: '/services/hottub-hero.webp',
   band2Heading: 'Our Hot Tub Wiring Process in {neighborhood}',
   band2Paragraphs: [
     'We inspect your panel capacity and service load, confirm the spa manufacturer’s electrical requirements, and explain the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Built for the Backyard', body: 'A spa install lives outdoors year-round, so we use weather-rated fittings and conduit that stand up to moisture and the {neighborhood} seasons. The result is a clean, durable hookup that keeps the pumps, heater, and control board running reliably.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Safety-First Approach', text: 'Every spa install treated as a safety priority, not just another service call.' },
-    { icon: 'check', title: 'NEC-Compliant Work', text: 'GFCI protection, proper bonding, and a code-required disconnect within sight.' },
-    { icon: 'badge', title: 'Experienced Electricians', text: 'Licensed pros who specialize in hot tub and jacuzzi wiring.' },
-    { icon: 'house', title: 'Honest Panel Advice', text: 'A thorough panel evaluation and upfront answers on any upgrade.' },
-  ],
+  whyParagraph: 'Every spa or jacuzzi we wire in {neighborhood} gets GFCI protection, proper bonding and a disconnect within sight of the tub, as the NEC requires. Before any of that, we evaluate your panel and give you upfront answers on upgrades.',
   proofQuote:
     'New hot tub on the patio and our panel was nearly full. They sized a dedicated 240V GFCI circuit, added the disconnect, bonded everything, and walked us through the startup. Clean conduit run and it has not tripped once.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Hot Tub Wiring in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Hot Tub Wiring in ${loc.neighborhood}, ${loc.state}`,
     description: `Hot tub and spa wiring in ${place} — dedicated 240V circuits, GFCI protection, and code-compliant installation by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/hot-tub-wiring/${loc.slug}` },
     openGraph: {

@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Basement Lighting Installation',
   ctaLine: 'Want to turn a dim {neighborhood} basement into usable space? Call today',
-  heroImage: '/services/basement-hero.jpg',
+  heroImage: '/services/basement-hero.webp',
   introHeading: 'Basement Lighting Installation in {neighborhood}',
   introParagraphs: [
     'Basements get little natural light, so the right lighting is what turns a dim {neighborhood} lower level into real living space. {brand} installs recessed and LED basement lighting across {place} — even, bright coverage for finished rooms, work areas, and storage, all wired safely.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'led-lighting', title: 'LED Lighting' },
     { slug: 'lighting-fixture-installation', title: 'Lighting Fixtures' },
   ],
-  band1Image: '/services/basement-signs.jpg',
+  band1Image: '/services/basement-signs.webp',
   band1Heading: 'Signs It Is Time to Upgrade Basement Lighting in {neighborhood}',
   commonSituations: [
     'Dark corners or uneven lighting',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A newly finished lower level with no real lighting plan',
   ],
   trustedBanner: 'Your Local & Trusted Basement Lighting Pros in {neighborhood}',
-  band2Image: '/services/basement-lighting.jpg',
+  band2Image: '/services/basement-lighting.webp',
   band2Heading: 'Our Basement Lighting Process in {neighborhood}',
   band2Paragraphs: [
     'We review how the basement will be used, plan fixture placement for even brightness, and explain the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Safe Wiring and Circuit Capacity', body: 'Adding lighting to a {neighborhood} basement can push an older circuit past its limit. We check the panel, add capacity where it is needed, and wire every fixture to code so the system runs reliably without nuisance trips.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Experienced indoor-lighting pros handling every connection safely.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Wiring and fixtures installed to current electrical code.' },
-    { icon: 'badge', title: 'Quality Fixtures', text: 'Durable fixtures and energy-efficient LED basement lights.' },
-    { icon: 'house', title: 'Layout-Specific Design', text: 'Lighting planned around how you actually use the basement.' },
-  ],
+  whyParagraph: 'We plan the lighting around how you actually use your {neighborhood} basement, then fit durable, energy-efficient LED fixtures. Licensed electricians make every connection and install the wiring to current electrical code.',
   proofQuote:
     'Our finished basement always felt like a cave. They ran recessed LED cans across the whole ceiling, added task lighting at the desk, and put it on its own circuit. It is bright and even now, and the low ceiling still feels open. Clean work.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Basement Lighting Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Basement Lighting Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Basement lighting installation in ${place} — recessed and LED basement lighting installed by licensed electricians to brighten finished and unfinished spaces. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/basement-lighting/${loc.slug}` },
     openGraph: {

@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Whole-House Repiping',
   ctaLine: 'Tired of leaks and rusty water in your {neighborhood} home? Call today',
-  heroImage: '/services/repiping-hero.jpg',
+  heroImage: '/services/repiping-hero.webp',
   introHeading: 'Whole-House Repiping in {neighborhood}',
   introParagraphs: [
     'Old water pipes do not last forever — over time they corrode, narrow, and start to leak, hurting water quality, pressure, and peace of mind. {brand} repipes homes in {place}, replacing aging galvanized steel and polybutylene supply lines with modern PEX or copper built to last.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'water-quality', title: 'Water Quality' },
     { slug: 'plumbing-installation', title: 'Plumbing Installation' },
   ],
-  band1Image: '/services/repiping-signs.jpg',
+  band1Image: '/services/repiping-signs.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs Repiping',
   commonSituations: [
     'Frequent or repeat leaks throughout the house',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A remodel or addition that is the right time to repipe',
   ],
   trustedBanner: 'Your Local & Trusted Repiping Pros in {neighborhood}',
-  band2Image: '/services/whole-house-repiping.jpg',
+  band2Image: '/services/whole-house-repiping.webp',
   band2Heading: 'Our Whole-House Repiping Process in {neighborhood}',
   band2Paragraphs: [
     'We assess the whole plumbing system, build a plan around your home’s layout, and give you an upfront estimate before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Repipe vs. Targeted Repair', body: 'If only one run is failing, a targeted pipe repair may be the smarter spend. We inspect the whole system in a {neighborhood} home and tell you honestly whether a full repipe or a focused repair is the better long-term value.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Plumbers', text: 'Experienced pros who repipe homes cleanly and to code.' },
-    { icon: 'check', title: 'Quality Materials', text: 'Durable PEX or copper sized for your home.' },
-    { icon: 'badge', title: 'Upfront Estimates', text: 'A clear quote after we inspect your system.' },
-    { icon: 'house', title: 'Thorough Cleanup', text: 'Leak-tested results and a tidy finish.' },
-  ],
+  whyParagraph: 'We inspect your {neighborhood} plumbing first, then give you a clear quote for the repipe. Licensed plumbers run durable PEX or copper sized to the house, leak-test every line, and leave the work area tidy when they finish.',
   proofQuote:
     'Galvanized lines, rusty water, and a leak every few months. They mapped out the whole house, repiped it in PEX over a few days, and kept the water on at night. Pressure is back, the water runs clear, and they cleaned up like they were never here.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Whole-House Repiping in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Whole-House Repiping in ${loc.neighborhood}, ${loc.state}`,
     description: `Whole-house repiping in ${place} — licensed plumbers replace old, corroded, or failing water pipes with modern PEX or copper. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/whole-house-repiping/${loc.slug}` },
     openGraph: {

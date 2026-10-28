@@ -3,18 +3,19 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { landscapeLightingCopy } from '@/content/location-copy/landscape-lighting';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Landscape Lighting Installation',
   description: `Landscape lighting installation across ${site.serviceArea} from ${site.name} — custom, energy-efficient low-voltage systems installed by licensed electricians for safety and curb appeal.`,
   alternates: { canonical: '/services/landscape-lighting' },
-};
+});
 
 const benefits = [
   'Improves visibility along paths, driveways, and stairs to reduce trip hazards',
@@ -50,28 +51,14 @@ const lights = [
   'Wall-mounted fixtures',
 ];
 
-const whyChoose = [
-  'Licensed electrician oversight',
-  'Customized lighting design',
-  'Energy-efficient lighting options',
-  'Safe and code-compliant installation',
-  'High-quality light fixtures',
-  'Transparent pricing',
-];
 
-const whyUs = [
-  { icon: 'shield' as const, title: 'Licensed Oversight', text: 'Every system installed and inspected under licensed electrician oversight.' },
-  { icon: 'check' as const, title: 'Code-Compliant Work', text: 'Safe wiring, proper spacing, and balanced design that meets code.' },
-  { icon: 'badge' as const, title: 'Durable Fixtures', text: 'Weather-rated, energy-efficient fixtures built for long-term outdoor use.' },
-  { icon: 'house' as const, title: 'Custom Design', text: 'Layered layouts tailored to how you use your property.' },
-];
 
 const faqs = [
-  { q: 'How expensive is it to install landscape lighting?', a: 'Costs depend on property size, fixture quantity, wiring requirements, and system type. Low-voltage systems are often more cost-effective for residential properties.' },
+  { q: 'How expensive is it to install landscape lighting?', a: 'It scales with fixture count and how far the wire has to run, not with the size of the property as such. Most homes here go low-voltage, which runs on a 12-volt transformer and is cheaper to install and safer to work around than line-voltage fixtures. We quote a flat rate after walking the property, because the layout drives the number more than anything else.' },
   { q: 'What types of landscape lights are available?', a: 'Options include path lights, spotlights, flood lights, well lights, and step lights. Each serves a specific purpose within a lighting system.' },
-  { q: 'Are LED landscape lights worth it?', a: 'Yes. LED lighting is energy efficient, long lasting, and provides consistent brightness.' },
-  { q: 'Why hire professional landscape lighting installers?', a: 'Professional installers ensure safe wiring, proper spacing, and balanced design that performs reliably.' },
-  { q: 'Is landscape lighting weather-resistant?', a: 'Yes. Outdoor lighting systems use weather-rated components designed to withstand moisture and seasonal conditions.' },
+  { q: 'Are LED landscape lights worth it?', a: 'Yes, and for one reason beyond efficiency: a low-voltage LED draws so little current that voltage drop over a long run stops being the problem it was with halogen. That is what used to make the last fixtures on a line look dim and yellow. LED also means you are not out replacing buried bulbs every couple of seasons.' },
+  { q: 'Why hire professional landscape lighting installers?', a: 'The failure we get called to fix most is not the fixtures — it is the connections. Cheap twist-on connectors buried in wet soil corrode within a season or two, and then fixtures start dropping off one at a time. Proper waterproof connections, direct-burial cable at the right gauge for the run, and a transformer with capacity to spare are what make the difference between a system that lasts and one you rewire in three years.' },
+  { q: 'Is landscape lighting weather-resistant?', a: 'The fixtures and cable are, provided they are the right ones — direct-burial cable, wet-location fixtures, and sealed connections. What is not weatherproof is a transformer mounted where snow piles against it or an indoor-rated connector someone used underground. Our winters here are hard on the cheap parts specifically.' },
 ];
 
 const serviceSchema = {
@@ -121,32 +108,16 @@ export default function LandscapeLightingPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Transform your yard after sunset.
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot couponTitle="Any Electrical Service">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/landscape-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/landscape-hero.webp)' }}
             role="img"
             aria-label="Garden path illuminated with landscape lighting at night"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Professional Landscape Lighting Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -175,26 +146,26 @@ export default function LandscapeLightingPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/landscape-benefits.jpg)' }}
+            style={{ backgroundImage: 'url(/services/landscape-benefits.webp)' }}
             role="img"
             aria-label="Illuminated garden trees and landscaping"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Benefits of Landscape Lighting for Your Home
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Outdoor lighting installation provides both visual and practical advantages.
             </p>
             <ul className="mt-4 grid gap-1.5">
               {benefits.map((b) => (
-                <li key={b} className="flex gap-2 text-sm font-medium">
+                <li key={b} className="flex gap-2 text-base font-medium">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   {b}
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A well-designed system improves safety and comfort without creating glare or uneven
               brightness.
             </p>
@@ -209,32 +180,50 @@ export default function LandscapeLightingPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Our Landscape Lighting Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Every lighting installation begins with a consultation to review your property and lighting
               goals. Our process includes:
             </p>
             <ul className="mt-4 grid gap-1.5">
               {process.map((p) => (
-                <li key={p} className="flex gap-2 text-sm font-medium">
+                <li key={p} className="flex gap-2 text-base font-medium">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   {p}
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Our team ensures every system is installed safely, performs reliably, and meets electrical
               code requirements.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician planning a landscape lighting layout"
           />
+        </div>
+      </section>
+
+      <ServiceReviews service="landscape-lighting" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Transform your yard after sunset.
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -242,11 +231,11 @@ export default function LandscapeLightingPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Lighting Solutions Designed for You</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Lighting should reflect how you use your property. Some homeowners prefer subtle accent
             lighting, while others want brighter illumination for entertaining or added security.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We design layered systems that create balance and visual depth. Accent lighting highlights
             trees and architectural features. Path lighting improves navigation. Feature lighting adds
             dimension to stonework and landscaping. Lighting should feel natural, not overwhelming.
@@ -254,43 +243,43 @@ export default function LandscapeLightingPage() {
 
           {/* Specialized features */}
           <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">Specialized Features to Suit Your Lifestyle</h3>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">Modern systems can include:</p>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">Modern systems can include:</p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {features.map((f) => (
-              <li key={f} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={f} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {f}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             These features let you adjust brightness and energy use based on season or preference.
           </p>
 
           {/* Lights we install */}
           <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">Lights We Install</h3>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We install a wide range of landscape lights, including:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {lights.map((l) => (
-              <li key={l} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={l} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {l}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Each fixture is selected for durability, brightness, and long-term outdoor performance.
           </p>
 
           {/* Low vs line voltage */}
           <h2 className="mt-12 section-title text-brand-700">Low Voltage vs. Line Voltage Lighting</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Low-voltage systems use a transformer to reduce power levels. They are energy efficient and
             ideal for most residential properties.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Line-voltage lighting operates at standard household voltage. Because it involves more
             complex electrical work, installation should always be handled by a licensed electrician. Our
             team reviews both options and helps you choose the right system for your property.
@@ -298,42 +287,26 @@ export default function LandscapeLightingPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Landscape Lighting</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            Homeowners throughout {site.serviceArea} choose {site.name} because we combine design
-            expertise with safe installation practices. When you work with our installers, you receive:
-          </p>
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
-                <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
-                {w}
-              </li>
-            ))}
-          </ul>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
-            We focus on long-term performance and professional workmanship.
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            Most homes here go low-voltage on a 12-volt transformer, which is cheaper to run and
+            safer to work around. What makes it last is how we install it: sealed connections,
+            the right cable gauge and a transformer with spare capacity.
           </p>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Landscape Lighting FAQs</h2>
           <div className="mt-4">
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -341,38 +314,38 @@ export default function LandscapeLightingPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Landscape Lighting Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule Landscape Lighting Installation Today</h2>
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to light up your landscape? {site.name} designs and installs landscape lighting across{' '}
-              {site.serviceArea}. Call now or request a free estimate.
+              {site.serviceArea}. Call now or request an estimate.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={site.primaryPhone.href} className="btn-pink text-base">
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+                Request an Estimate
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Landscape lighting by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Landscape lighting by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            We design and install landscape lighting across {site.serviceArea} —{' '}
-            {locations.filter((l) => landscapeLightingCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on the yards and homes in your area.
-          </p>
-          <NeighborhoodLinks copy={landscapeLightingCopy} basePath="/services/landscape-lighting" linkPrefix="Landscape lighting" />
-        </div>
-      </section>
-
-      <PageSections />
+      <ServiceSections service="landscape-lighting">
+        {/* Landscape lighting by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Landscape lighting by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We design and install landscape lighting across {site.serviceArea} —{' '}
+              {locations.filter((l) => landscapeLightingCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on the yards and homes in your area.
+            </p>
+            <NeighborhoodLinks copy={landscapeLightingCopy} basePath="/services/landscape-lighting" linkPrefix="Landscape lighting" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

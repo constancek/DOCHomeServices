@@ -13,8 +13,8 @@ const config: ServiceLocationConfig = {
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
   businessType: 'Electrician',
   schemaServiceType: 'Home Rewiring',
-  ctaLine: 'Worried about old wiring in your {neighborhood} home? Call for a free estimate',
-  heroImage: '/services/rewiring-hero.jpg',
+  ctaLine: 'Worried about old wiring in your {neighborhood} home? Call for an estimate',
+  heroImage: '/services/rewiring-hero.webp',
   introHeading: 'Home Rewiring in {neighborhood}',
   introParagraphs: [
     'Old wiring puts a home at risk — insulation breaks down, connections loosen, and circuits struggle with modern demand, showing up as flickering lights, tripping breakers, and warm outlets. {brand} handles partial and whole-home rewiring for homeowners in {place}, replacing unsafe wiring with modern materials.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'electrical-mast-repair', title: 'Mast Repair' },
     { slug: 'electrical-inspections', title: 'Electrical Inspections' },
   ],
-  band1Image: '/services/rewiring-signs.jpg',
+  band1Image: '/services/rewiring-signs.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs Rewiring',
   commonSituations: [
     'Flickering or dimming lights',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A home more than 30 years old never updated',
   ],
   trustedBanner: 'Your Local & Trusted Home Rewiring Pros in {neighborhood}',
-  band2Image: '/services/rewiring-hero.jpg',
+  band2Image: '/services/rewiring-hero.webp',
   band2Heading: 'Our Rewiring Process in {neighborhood}',
   band2Paragraphs: [
     'We review your electrical system to find the weak spots, lay out a clear scope and timeline, and explain any temporary power interruptions and the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Safer Home, Ready for Modern Demand', body: 'Faulty wiring is a leading cause of house fires, and overloaded circuits and worn insulation only raise the risk. Rewiring a {neighborhood} home removes the damaged wiring, increases circuit capacity, and prepares the house for smart devices, new lighting, and larger appliances without strain.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Trained pros who understand grounding and load balance.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Every rewire is installed to meet current safety code.' },
-    { icon: 'badge', title: 'Clear Estimates', text: 'Upfront pricing on your rewiring cost before work begins.' },
-    { icon: 'clock', title: 'Reliable Scheduling', text: 'Dependable timelines and tidy, professional service.' },
-  ],
+  whyParagraph: 'Our licensed electricians understand grounding and load balance, and every rewire in {neighborhood} is installed to current safety code. You see the rewiring cost upfront, and we keep to the schedule we give you and leave the house tidy.',
   proofQuote:
     'Our 1920s house still had knob-and-tube and two-prong outlets everywhere. They walked us through a whole-home rewire, kept the power planned around our schedule, and passed inspection. Lights are steady and we can finally run everything at once.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Home Rewiring in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Home Rewiring in ${loc.neighborhood}, ${loc.state}`,
     description: `Partial and whole-home electrical rewiring in ${place} — knob-and-tube and aluminum-wire replacement by licensed electricians, code-compliant and built for modern demand. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/home-rewiring/${loc.slug}` },
     openGraph: {

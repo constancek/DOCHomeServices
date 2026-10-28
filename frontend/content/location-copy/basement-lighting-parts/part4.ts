@@ -1,6 +1,6 @@
 export const part4: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'reading': {
-    intro: 'Brightening a dim basement in Reading so the lower level actually gets used? Our licensed electricians install recessed cans and LED fixtures on properly sized circuits, all wired to code. Call (513) 586-5107.',
+    intro: 'Reading sits in the Mill Creek valley, so basement lighting in its older and mid-century homes goes into rooms that run cooler and damper than most. We use sealed, damp-rated fixtures where moisture is a factor, slim LED cans for low spots, and confirm the basement circuit has capacity.',
     relevance: [
       'Reading (ZIP 45215) sits in the Mill Creek valley north of Cincinnati, with a settled mix of older and mid-century homes. That low valley ground keeps basements cooler and damper than most, so we use sealed, damp-rated fixtures where moisture is a factor and route the wiring to keep junctions out of harm’s way.',
       'Many of these homes have low basement ceilings and old service panels that were never set up for a full lighting plan downstairs. We work with shallow-profile flush mounts and slim LED cans for the low spots, lay out even coverage so there are no dark corners, and confirm the basement circuit has the capacity before anything goes in.',
@@ -9,7 +9,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you light a damp Reading basement safely?', a: 'Yes. In the Mill Creek valley we use damp-rated fixtures where moisture is present and keep all wiring and junctions to code, so a Reading basement gets brighter without inviting a safety problem.' }],
   },
   'dent': {
-    intro: 'Turning a dark Green Township basement in Dent into a usable room? Our licensed electricians install recessed LED cans and task lighting on circuits sized to handle the load, all to code. Call (513) 586-5107.',
+    intro: 'Dent basements in these mid-century and newer Green Township homes are often finished into family rooms and offices, and basement lighting is usually the weak point, with one bare fixture for the whole floor. We lay out recessed cans, add task and accent lighting, and switch to LED.',
     relevance: [
       'Dent (ZIP 45247) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. A lot of those basements are partly or fully finished into family rooms and offices, and the lighting is often the weak point — one bare fixture trying to cover the whole floor.',
       'We replace that with a recessed-can layout planned for even coverage, add task lighting over a desk or workbench and accent lighting where it earns its keep, and switch older bulbs to LED so the basement draws less and runs cooler. The new circuit is checked against the panel’s capacity before we finish.',
@@ -18,7 +18,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Do you light finished basements in Dent?', a: 'Yes. We work throughout Dent and Green Township installing recessed cans, LED fixtures, and task lighting in finished basements, all wired to code on a properly sized circuit.' }],
   },
   'deer-park': {
-    intro: 'Lighting a finished basement in Deer Park so the lower level matches the rest of the house? Our licensed electricians install recessed cans and LED fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Deer Park’s mid-century ranches and capes tend to have low basement ceilings with exposed joists, where deep recessed cans do not fit. Basement lighting there means shallow LED disc lights and flush mounts that sit tight to the ceiling, plus dimmable or task lighting for a media corner or office.',
     relevance: [
       'Deer Park (ZIP 45236) is a small, settled city on the east side made up largely of mid-century single-family homes on quiet streets. Those mid-century ranches and capes tend to have basements with low ceilings and exposed joists, where deep recessed cans simply do not fit.',
       'For that, we use shallow-profile LED disc lights and flush mounts that sit tight to the ceiling and still spread even light across the room. Where an owner wants a media corner or a home office downstairs, we add dimmable LED and separate task lighting, then confirm the basement circuit can carry the added load.',
@@ -27,7 +27,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'My Deer Park basement ceiling is low — what lighting works?', a: 'Shallow LED disc lights and flush mounts are built for exactly that. We use them throughout Deer Park’s mid-century homes to brighten low basements without losing headroom, all wired to code.' }],
   },
   'terrace-park': {
-    intro: 'Lighting a finished basement in Terrace Park so the lower level of an older home feels bright and current? Our licensed electricians install recessed LED cans and accent lighting to code. Call (513) 586-5107.',
+    intro: 'Terrace Park’s early-1900s homes have large lower levels that owners finish into media rooms and gyms, and basement lighting there has to handle damp near the Little Miami. We use damp-rated fixtures where needed, lay out recessed cans with dimmable accent lighting, and check the panel’s capacity.',
     relevance: [
       'Terrace Park (ZIP 45174) is an affluent east-side village near the Little Miami River, known for its established early-1900s homes and tree-lined streets. The big older houses here often have large lower levels that owners are finishing into media rooms and gyms, where dim, dated lighting holds the space back.',
       'Because the village sits on low ground near the river, those basements can run damp, so we use damp-rated fixtures where needed and keep wiring well away from moisture. We lay out recessed cans for even coverage, add dimmable accent lighting for a media corner, and verify the panel and basement circuit are sized for the new load.',
@@ -36,7 +36,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you light a damp older basement in Terrace Park?', a: 'Yes. Near the Little Miami, Terrace Park basements can run damp, so we use damp-rated fixtures where moisture is present and keep all wiring to code while brightening the lower level.' }],
   },
   'dry-run': {
-    intro: 'Brightening a dim basement in Dry Run so the family can actually use the lower level? Our licensed electricians install recessed LED cans and task lighting on properly sized circuits, all to code. Call (513) 586-5107.',
+    intro: 'Dry Run basement lighting is usually an afterthought: a couple of fixtures left over from when the finished basement was storage. In these mid-century and newer Anderson Township homes we lay out recessed cans for even coverage, add task lighting for a gym or office, and move everything to LED.',
     relevance: [
       'Dry Run (ZIP 45244) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. Many of those basements are finished or partly finished, and the lighting is usually an afterthought — a couple of fixtures left over from when it was storage.',
       'We replace that with a planned recessed-can layout for even coverage, add task lighting over a workout area or office and accent lighting where it helps, and move everything to LED so it runs cooler and cheaper. The basement circuit is checked against the panel before we wrap up.',
@@ -45,7 +45,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How fast can you light a basement in Dry Run?', a: 'Dry Run is well within our east-side service area in Anderson Township. We schedule basement lighting installs promptly and wire every recessed can and fixture to code.' }],
   },
   'white-oak': {
-    intro: 'Lighting a finished basement in White Oak so the lower level is bright and even? Our licensed electricians install recessed LED cans and flush fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'White Oak’s mid-century homes often have low basement ceilings and older wiring never set up for a full lighting plan, so basement lighting there starts with a capacity check. We fit shallow LED cans and flush mounts around the low ceilings and lay them out with no dark corners.',
     relevance: [
       'White Oak (ZIP 45247) is a settled Green Township community on the northwest side, made up largely of mid-century and newer single-family homes. Those mid-century basements often have low ceilings and older wiring that was never set up to run a full lighting plan downstairs.',
       'We work around the low ceilings with shallow LED cans and flush mounts, lay out even coverage so there are no dark corners, and switch older fixtures to LED to cut the draw. Before any of it goes live, we confirm the basement circuit and panel can carry the new load.',
@@ -54,7 +54,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you add basement lighting to an older White Oak home?', a: 'Yes. We work throughout White Oak and Green Township adding recessed cans and LED fixtures to older basements, sizing the circuit and wiring everything to code.' }],
   },
   'forestville': {
-    intro: 'Brightening a finished basement in Forestville so the lower level gets daily use? Our licensed electricians install recessed LED cans and task lighting on properly sized circuits, all to code. Call (513) 586-5107.',
+    intro: 'Plenty of Forestville basements have been finished into family rooms, gyms, and offices, and the original basement lighting falls short of how they are used. In these Anderson Township homes we lay out recessed cans, add dimmable accent and task lighting, and move older fixtures to LED.',
     relevance: [
       'Forestville (ZIP 45230) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. Plenty of those basements have been finished into family rooms, home gyms, and offices, where the original lighting falls short of what the space is now used for.',
       'We plan a recessed-can layout for even coverage, add dimmable accent lighting for a media corner and task lighting over a desk or bench, and move older fixtures to LED. The basement circuit is checked against the panel capacity before we sign off.',
@@ -63,7 +63,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Do you install basement gym and office lighting in Forestville?', a: 'Yes. We light home gyms, offices, and media rooms in finished Forestville basements with recessed cans and task lighting, all wired to code on a circuit sized for the load.' }],
   },
   'cherry-grove': {
-    intro: 'Lighting a dim basement in Cherry Grove so the lower level feels like part of the house? Our licensed electricians install recessed LED cans and flush fixtures to code. Call (513) 586-5107.',
+    intro: 'Cherry Grove’s mid-century Anderson Township homes often pair low basement ceilings with one or two fixtures that never covered the floor, so basement lighting there means shallow LED cans and flush mounts laid out evenly. We add task lighting for a workout or home office corner and size each run.',
     relevance: [
       'Cherry Grove (ZIP 45230) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. Those mid-century basements often combine low ceilings with one or two fixtures that were never enough to cover the whole floor.',
       'We fix that with shallow LED cans and flush mounts that fit tight ceilings, a layout planned for even coverage, and task lighting where someone works out or works from home. Every new run is sized against the basement circuit and panel before it goes live.',
@@ -72,7 +72,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'My Cherry Grove basement is dark and low — can you help?', a: 'Yes. We brighten low, dim Cherry Grove basements with shallow LED cans and flush mounts, laid out for even coverage and wired to code on a properly sized circuit.' }],
   },
   'kenwood': {
-    intro: 'Lighting a large finished basement in Kenwood so a media room or gym is properly lit? Our licensed electricians install recessed LED cans and dimmable accent lighting to code. Call (513) 586-5107.',
+    intro: 'Kenwood’s larger homes around Kenwood Towne Centre tend to have big finished basements with media rooms, gyms, and wet bars, and basement lighting there needs a real plan. We lay out recessed LED cans, zone dimmable accent lighting for the media area, and size the circuits for the full load.',
     relevance: [
       'Kenwood (ZIP 45236) is an upscale, unincorporated community on the east side around Kenwood Towne Centre, with mid-century homes alongside newer, larger houses. Those larger homes tend to have big finished basements — media rooms, home gyms, wet bars — that need a real lighting plan, not a few scattered cans.',
       'We lay out recessed LED cans for even coverage across the whole level, zone dimmable accent lighting for the media area, and add task lighting over a bar or workout space. With a basement that size, we size the circuits carefully and confirm the panel can carry the full lighting load before we finish.',
@@ -81,7 +81,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you light a large media-room basement in Kenwood?', a: 'Yes. Kenwood’s larger homes often have media rooms and gyms downstairs, and we light them with zoned, dimmable recessed cans on properly sized circuits, all to code.' }],
   },
   'lincoln-heights': {
-    intro: 'Brightening a basement in Lincoln Heights so the lower level is safe and usable? Our licensed electricians install LED fixtures and recessed cans on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Lincoln Heights’ older, modest homes in the Mill Creek valley often have small, dim basements on dated wiring, and basement lighting there has to suit damp valley ground. We use damp-rated fixtures where moisture shows, add LED cans or flush mounts, and confirm the circuit can carry the load.',
     relevance: [
       'Lincoln Heights (ZIP 45215) is a historic community in the Mill Creek valley north of the city — one of the first self-governed Black municipalities in the northern United States — with older, modest homes. Those older houses often have small, dim basements running on dated wiring that was never set up for proper lighting.',
       'Because the valley ground keeps basements damp, we use damp-rated fixtures where moisture shows up and keep wiring clear of it. We add LED cans or flush mounts for even, brighter coverage and switch older bulbs to LED to cut the draw, confirming the circuit can carry the new load first.',
@@ -90,7 +90,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you upgrade old basement wiring for lighting in Lincoln Heights?', a: 'Yes. In Lincoln Heights’ older valley homes we add LED basement lighting on circuits checked for capacity, using damp-rated fixtures where needed and wiring everything to code.' }],
   },
   'dillonvale': {
-    intro: 'Lighting a finished basement in Dillonvale so the lower level is bright and even? Our licensed electricians install recessed LED cans and flush fixtures to code. Call (513) 586-5107.',
+    intro: 'Dillonvale’s mid-century Sycamore Township homes near Kenwood tend to have low basement ceilings and original lighting that leaves half the floor in shadow. Basement lighting there means shallow LED cans and flush mounts in an even layout, with task lighting for a desk or workout corner.',
     relevance: [
       'Dillonvale (ZIP 45236) is a Sycamore Township community on the east side near Kenwood, with settled neighborhoods of mid-century homes. Those mid-century basements tend to have low ceilings and original lighting that leaves half the floor in shadow.',
       'We use shallow LED cans and flush mounts to clear the low ceilings, plan a layout for even coverage, and add task lighting where there is a desk or workout corner. The basement circuit is checked against the panel before any new fixtures go live.',
@@ -99,7 +99,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How quickly can you light a basement in Dillonvale?', a: 'Dillonvale is well within our east-side service area near Kenwood. We schedule basement lighting installs promptly and wire every fixture to code on a properly sized circuit.' }],
   },
   'woodlawn': {
-    intro: 'Brightening a dim basement in Woodlawn so the lower level finally gets used? Our licensed electricians install recessed LED cans and flush fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Woodlawn sits on low Mill Creek valley ground, so basement lighting in the village has to use damp-rated fixtures where moisture is present and keep junctions clear of it. We lay out LED cans and flush mounts for even coverage, add task lighting where needed, and check the circuit.',
     relevance: [
       'Woodlawn (ZIP 45215) is a village in the Mill Creek valley north of the city, with a mix of residential streets and industrial corridors. The low valley ground keeps basements damp, so any lighting work has to use damp-rated fixtures where moisture is present and keep junctions clear of it.',
       'We brighten those lower levels with LED cans and flush mounts laid out for even coverage, switch older bulbs to LED to cut the draw, and add task lighting where someone works downstairs. The basement circuit is checked for capacity before anything goes live.',
@@ -108,7 +108,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you light a damp Woodlawn basement safely?', a: 'Yes. In the Mill Creek valley we use damp-rated fixtures where moisture is present and keep all wiring to code, so a Woodlawn basement gets brighter without a safety risk.' }],
   },
   'addyston': {
-    intro: 'Lighting a basement in Addyston so an old riverside home’s lower level is brighter and safer? Our licensed electricians install LED fixtures and recessed cans to code. Call (513) 586-5107.',
+    intro: 'Addyston’s century-old mill-worker homes along the Ohio often have stone or block basements that run damp, with original wiring never meant for proper basement lighting. We use damp-rated fixtures where moisture shows on the block, add LED cans or flush mounts, and confirm the circuit can carry the load.',
     relevance: [
       'Addyston (ZIP 45001) is a small village on the far west side along the Ohio River, an old mill town with closely spaced older worker homes. Many of those century-old houses have stone or block basements that run damp, with original wiring never meant to support proper lighting.',
       'We treat those below-grade conditions with care, using damp-rated fixtures where moisture shows on the block and keeping wiring well clear of it. We add LED cans or flush mounts for even, brighter coverage and confirm the basement circuit can carry the load before any fixture goes live.',
@@ -117,7 +117,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you light a stone or block basement in Addyston?', a: 'Yes. Addyston’s older riverside homes often have stone or block basements, and we light them with damp-rated LED fixtures on code-compliant wiring sized for the load.' }],
   },
   'greenhills': {
-    intro: 'Lighting a basement in a historic Greenhills home so the lower level is brighter without disturbing its character? Our licensed electricians install recessed LED cans and flush fixtures to code. Call (513) 586-5107.',
+    intro: 'Greenhills’ 1930s Greenbelt cottages and townhomes have small basements with low ceilings and nearly a century of wiring, so basement lighting there starts with a careful circuit check. We fit shallow LED cans and flush mounts, update old fixtures to LED, and bring the wiring up to code.',
     relevance: [
       'Greenhills (ZIP 45218) is a historic planned Greenbelt town built in the 1930s as a New Deal project, now a National Historic Landmark district, with its original cottages and townhomes still in use. Those 1930s homes have small basements with low ceilings and close to a century of wiring behind them.',
       'We work around the low ceilings with shallow LED cans and flush mounts, lay out even coverage so the space reads brighter, and update old fixtures to LED. Because the wiring is original, we check the basement circuit carefully and bring everything up to code before it goes live.',
@@ -126,7 +126,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you add basement lighting to a historic Greenhills home?', a: 'Yes. We work throughout the Greenhills historic district adding LED basement lighting, sizing the circuit and bringing the original wiring up to code without disturbing the home’s character.' }],
   },
   'northbrook': {
-    intro: 'Brightening a finished basement in Northbrook so the lower level is bright and even? Our licensed electricians install recessed LED cans and task lighting on properly sized circuits, all to code. Call (513) 586-5107.',
+    intro: 'Northbrook’s mid-century Colerain Township homes often have low basement ceilings and original lighting that leaves the floor patchy and dim. Basement lighting there means shallow LED cans and flush mounts in an even layout, task lighting over a desk or workout area, and a capacity check on the panel.',
     relevance: [
       'Northbrook (ZIP 45251) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. Those mid-century basements often have low ceilings and original lighting that leaves the floor patchy and dim.',
       'We use shallow LED cans and flush mounts to fit the low ceilings, plan a layout for even coverage, and add task lighting over a desk or workout area. The basement circuit is checked against the panel capacity before the new fixtures go live.',
@@ -135,7 +135,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How fast can you light a basement in Northbrook?', a: 'Northbrook is well within our northwest service area in Colerain Township. We schedule basement lighting installs promptly and wire every fixture to code.' }],
   },
   'indian-hill': {
-    intro: 'Lighting a large estate basement in Indian Hill so a media room, gym, or lower level is properly lit? Our licensed electricians install recessed LED cans and zoned accent lighting to code. Call (513) 586-5107.',
+    intro: 'Indian Hill estates often have expansive finished basements with media rooms, gyms, and wine rooms, where basement lighting has to be planned across the whole level. We lay out recessed LED cans, zone dimmable accent lighting, add task lighting over bars and gyms, and size circuits for the full load.',
     relevance: [
       'Indian Hill (ZIP 45243) is an affluent east-side village known for its large estates and homes on multi-acre, wooded lots, many set well back from the road. Those estates often have expansive finished basements — media rooms, gyms, wine rooms — where the lighting needs to be planned across the whole level, not patched in.',
       'We lay out recessed LED cans for even coverage across a large floor, zone dimmable accent lighting for media and display areas, and add task lighting over bars and workout spaces. Given the size of these systems, we size the circuits carefully and confirm the panel can carry the full lighting load before we finish.',
@@ -144,7 +144,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you light a large estate basement in Indian Hill?', a: 'Yes. We plan and install lighting for the large finished basements common on Indian Hill estates, with zoned recessed cans and accent lighting on properly sized circuits, all to code.' }],
   },
   'evendale': {
-    intro: 'Lighting a finished basement in Evendale so the lower level is bright and even? Our licensed electricians install recessed LED cans and task lighting on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Evendale’s residential basements are mostly mid-century and finished into family rooms and offices that outgrew their original basement lighting. We plan a recessed-can layout for even coverage, add task lighting over a workspace and dimmable accent lighting where it helps, and move older fixtures to LED.',
     relevance: [
       'Evendale (ZIP 45241) is a north-side village with a large industrial base, including GE Aerospace, alongside established residential neighborhoods. The plumbing and wiring here span a wide range, but the residential basements are mostly mid-century and finished into family rooms and offices that outgrew their original lighting.',
       'We plan a recessed-can layout for even coverage, add task lighting over a workspace and dimmable accent lighting where it helps, and move older fixtures to LED. The basement circuit is checked against the panel before anything goes live.',
@@ -153,7 +153,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How fast can you light a basement in Evendale?', a: 'Evendale is well within our north-side service area. We schedule basement lighting installs promptly and wire every recessed can and fixture to code.' }],
   },
   'glendale': {
-    intro: 'Lighting a basement in a historic Glendale home so the lower level is brighter without disturbing its character? Our licensed electricians install recessed LED cans and flush fixtures to code. Call (513) 586-5107.',
+    intro: 'Glendale’s preserved Victorian homes often have stone or brick basements with low headroom and original wiring, and basement lighting there has to be handled carefully. We use damp-rated fixtures where the stone runs damp, shallow LED cans where the ceiling is low, and update the circuit.',
     relevance: [
       'Glendale (ZIP 45246) is a historic village and one of the country’s earliest planned railroad suburbs — a National Historic Landmark — known for its preserved Victorian homes and winding, tree-lined streets. Those 19th-century homes often have stone or brick basements with low headroom and original wiring.',
       'We treat those below-grade spaces carefully, using damp-rated fixtures where the stone runs damp and shallow LED cans and flush mounts where the ceiling is low. We lay out even coverage to brighten the floor and bring the basement circuit up to code before any new fixture goes live.',
@@ -162,7 +162,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you light a Victorian-era basement in Glendale?', a: 'Yes. We work throughout the Glendale historic district lighting stone and brick basements with damp-rated, low-profile LED fixtures, all on code-compliant wiring.' }],
   },
   'sharonville': {
-    intro: 'Lighting a finished basement in Sharonville so the lower level is bright and even? Our licensed electricians install recessed LED cans and task lighting on properly sized circuits, all to code. Call (513) 586-5107.',
+    intro: 'Sharonville’s mid-century homes near Sharon Woods have basements that owners finish into family rooms, offices, and gyms, where the original basement lighting comes up short. We plan recessed cans for even coverage, add task and dimmable accent lighting, and switch older fixtures to LED.',
     relevance: [
       'Sharonville (ZIP 45241) is a north-side city near Sharon Woods, with a mix of established residential neighborhoods, the convention center, and industrial corridors. The mid-century homes here have basements that owners finish into family rooms, offices, and gyms, where the original lighting comes up short.',
       'We plan a recessed-can layout for even coverage, add task lighting over a desk or workout area and dimmable accent lighting where it earns its place, and switch older fixtures to LED. The basement circuit is checked against the panel before we finish.',
@@ -171,7 +171,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Do you light finished basements in Sharonville?', a: 'Yes. We install recessed cans, LED fixtures, and task lighting in finished Sharonville basements, all wired to code on a circuit sized for the load.' }],
   },
   'northgate': {
-    intro: 'Brightening a basement in Northgate so the lower level is usable and even? Our licensed electricians install recessed LED cans and flush fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Northgate’s mid-century and newer homes around the mall corridor often have low basement ceilings and lighting never planned for a finished space. Basement lighting there means shallow LED cans and flush mounts in an even layout, task lighting where someone works or works out, and a circuit check.',
     relevance: [
       'Northgate (ZIP 45251) is a Colerain Township area on the northwest side around the Northgate Mall corridor, with neighborhoods of mid-century and newer homes. Those mid-century basements often have low ceilings and lighting that was never planned for a finished space.',
       'We use shallow LED cans and flush mounts to fit the low ceilings, plan a layout for even coverage, and add task lighting where someone works or works out. The basement circuit is checked for capacity before the new fixtures go live.',
@@ -180,7 +180,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How fast can you light a basement in Northgate?', a: 'Northgate is well within our northwest service area in Colerain Township. We schedule basement lighting installs promptly and wire every fixture to code.' }],
   },
   'springdale': {
-    intro: 'Lighting a finished basement in Springdale so the lower level is bright and even? Our licensed electricians install recessed LED cans and task lighting on properly sized circuits, all to code. Call (513) 586-5107.',
+    intro: 'Springdale’s mid-century homes along the Tri-County corridor have basements that owners finish into family rooms, offices, and gyms, and the original basement lighting falls short. We plan recessed cans for even coverage, add task and dimmable accent lighting, and move older fixtures to LED.',
     relevance: [
       'Springdale (ZIP 45246) is a north-side city along the Tri-County corridor, with established mid-century neighborhoods alongside a large commercial and retail base. The mid-century homes here have basements that owners finish into family rooms, offices, and gyms, where the original lighting falls short.',
       'We plan a recessed-can layout for even coverage, add task lighting over a workspace and dimmable accent lighting where it helps, and move older fixtures to LED to cut the draw. The basement circuit is checked against the panel before any of it goes live.',
@@ -189,7 +189,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Do you light finished basements in Springdale?', a: 'Yes. We install recessed cans, LED fixtures, and task lighting in finished Springdale basements, all wired to code on a circuit sized for the load.' }],
   },
   'miamitown': {
-    intro: 'Lighting a basement in Miamitown so an older riverside home’s lower level is brighter and safer? Our licensed electricians install LED fixtures and recessed cans to code. Call (513) 586-5107.',
+    intro: 'On low river-bottom ground beside the Great Miami, Miamitown’s older homes have damp basements, and basement lighting there has to suit them. We use damp-rated LED cans and flush mounts where moisture is present, keep junctions out of the damp zones, and check circuit capacity first.',
     relevance: [
       'Miamitown (ZIP 45041) is a small far-west community on the Great Miami River, with older homes set on low river-bottom ground. That low ground keeps basements damp, so any lighting work has to use damp-rated fixtures where moisture is present and keep wiring well clear of it.',
       'We brighten those lower levels with damp-rated LED cans and flush mounts laid out for even coverage, and we keep the junctions and circuit clear of the damp zones. The basement circuit is checked for capacity before any new fixture goes live.',
@@ -198,7 +198,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you light a damp riverside basement in Miamitown?', a: 'Yes. Near the Great Miami River, Miamitown basements run damp, so we use damp-rated fixtures where moisture is present and keep all wiring to code while brightening the space.' }],
   },
   'forest-park': {
-    intro: 'Brightening a finished basement in Forest Park so the lower level is bright and even? Our licensed electricians install recessed LED cans and task lighting on properly sized circuits, all to code. Call (513) 586-5107.',
+    intro: 'Forest Park’s 1960s planned-community homes rarely came with a real basement lighting plan, so finished lower levels often run on a few scattered fixtures. We replace them with a recessed-can layout for even coverage, add task lighting over a desk or workout corner, and switch older bulbs to LED.',
     relevance: [
       'Forest Park (ZIP 45240) is a north-side city developed as a planned community from the 1960s, with neighborhoods of mid-century single-family homes. Those 1960s-era basements were rarely set up with a real lighting plan, so finished lower levels often run on a few scattered fixtures.',
       'We replace that with a recessed-can layout planned for even coverage, add task lighting over a desk or workout corner, and switch older bulbs to LED so the basement runs cooler and cheaper. The basement circuit is checked against the panel capacity before we finish.',
@@ -207,7 +207,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How fast can you light a basement in Forest Park?', a: 'Forest Park is well within our north-side service area. We schedule basement lighting installs promptly and wire every recessed can and fixture to code.' }],
   },
   'pleasant-run': {
-    intro: 'Lighting a finished basement in Pleasant Run so the lower level is bright and even? Our licensed electricians install recessed LED cans and flush fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Pleasant Run’s mid-century Springfield Township homes often have low basement ceilings and original lighting that leaves the floor uneven and dim. Basement lighting there means shallow LED cans and flush mounts in an even layout, with task lighting where there is a workspace or workout area.',
     relevance: [
       'Pleasant Run (ZIP 45240) is a Springfield Township community on the north side, with settled neighborhoods of mid-century and newer homes. Those mid-century basements often have low ceilings and original lighting that leaves the floor uneven and dim.',
       'We use shallow LED cans and flush mounts to fit the low ceilings, plan a layout for even coverage, and add task lighting where there is a workspace or workout area. The basement circuit is checked for capacity before any new fixture goes live.',
@@ -216,7 +216,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'How fast can you light a basement in Pleasant Run?', a: 'Pleasant Run is well within our north-side service area in Springfield Township. We schedule basement lighting installs promptly and wire every fixture to code.' }],
   },
   'cleves': {
-    intro: 'Lighting a basement in Cleves so an older riverside home’s lower level is brighter and safer? Our licensed electricians install LED fixtures and recessed cans to code. Call (513) 586-5107.',
+    intro: 'Cleves’ older homes sit on low, flood-prone ground near where the Great Miami meets the Ohio, so basement lighting there goes into damp rooms. We use damp-rated LED cans and flush mounts where moisture is present, keep junctions out of the damp zones, and check circuit capacity.',
     relevance: [
       'Cleves (ZIP 45002) is a far-west village near where the Great Miami River meets the Ohio, with older homes on low ground prone to flooding. Those low-lying basements run damp, so lighting work here calls for damp-rated fixtures where moisture is present and wiring kept well clear of it.',
       'We brighten those lower levels with damp-rated LED cans and flush mounts laid out for even coverage, keep the junctions out of the damp zones, and switch older bulbs to LED. The basement circuit is checked for capacity before any new fixture goes live.',
@@ -225,7 +225,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you light a damp basement in Cleves safely?', a: 'Yes. Cleves homes near the rivers sit on low, damp ground, so we use damp-rated fixtures where moisture is present and keep all wiring to code while brightening the basement.' }],
   },
   'north-bend': {
-    intro: 'Lighting a basement in North Bend so an older riverside home’s lower level is brighter and safer? Our licensed electricians install LED fixtures and recessed cans to code. Call (513) 586-5107.',
+    intro: 'North Bend’s older homes sit on low Ohio riverside ground, so basement lighting in the village goes into damp basements that often have dated wiring. We use damp-rated LED cans and flush mounts where moisture is present, bring the old wiring up to code, and check circuit capacity first.',
     relevance: [
       'North Bend (ZIP 45052) is a historic far-west village on the Ohio River — the burial place of President William Henry Harrison — with older homes set on low riverside ground. Those low basements run damp, so lighting work here uses damp-rated fixtures where moisture is present and keeps wiring well clear of it.',
       'We brighten those lower levels with damp-rated LED cans and flush mounts laid out for even coverage, and many of these older homes have dated wiring we bring up to code as part of the job. The basement circuit is checked for capacity before any new fixture goes live.',
@@ -234,7 +234,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you light a damp riverside basement in North Bend?', a: 'Yes. North Bend’s older homes sit on low riverside ground, so we use damp-rated fixtures where moisture is present and bring older wiring up to code while brightening the basement.' }],
   },
   'loveland': {
-    intro: 'Lighting a basement in Loveland so a historic riverside home’s lower level is brighter and usable? Our licensed electricians install recessed LED cans and flush fixtures to code. Call (513) 586-5107.',
+    intro: 'Loveland basement lighting differs by house. Older homes near the Little Miami have damp basements that need damp-rated fixtures with wiring kept clear of moisture, while newer homes have finished lower levels that suit recessed LED cans and task lighting. Either way we check the circuit.',
     relevance: [
       'Loveland (ZIP 45140) is a historic city straddling the Little Miami River and the Loveland Bike Trail, with a charming older downtown and a mix of historic and newer homes. The older homes near the river have basements that run damp, while newer homes have finished lower levels that owners want lit properly.',
       'For the older, damp basements we use damp-rated fixtures and keep wiring clear of moisture; for finished basements we lay out recessed LED cans for even coverage and add task lighting where it is needed. Either way, the basement circuit is checked against the panel before any new fixture goes live.',
@@ -243,7 +243,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [{ q: 'Can you light both old and finished basements in Loveland?', a: 'Yes. Near the Little Miami we use damp-rated fixtures in older basements and full recessed LED layouts in finished ones, all wired to code on a properly sized circuit.' }],
   },
   'harrison': {
-    intro: 'Lighting a basement in Harrison so the lower level is brighter and usable? Our licensed electricians install recessed LED cans and flush fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Harrison basement lighting ranges from damp basements in older homes near the Whitewater River, where we use damp-rated fixtures and keep wiring clear of moisture, to finished lower levels in newer homes that get recessed LED cans and task lighting. Both start with a circuit check.',
     relevance: [
       'Harrison (ZIP 45030) is a far-west city on the Indiana state line along the Whitewater River, with an older downtown and a growing mix of established and newer homes. The older homes near the river have basements that can run damp, while the newer homes have finished lower levels owners want lit properly.',
       'For damp older basements we use damp-rated fixtures and keep wiring clear of moisture; for finished basements we lay out recessed LED cans for even coverage and add task lighting where needed. The basement circuit is checked for capacity before any new fixture goes live.',

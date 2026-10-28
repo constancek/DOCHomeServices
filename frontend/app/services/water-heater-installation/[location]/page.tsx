@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Water Heater Installation & Replacement',
   ctaLine: 'Need a new water heater in {neighborhood}? Call for same-day service',
-  heroImage: '/services/wh-hero.jpg',
+  heroImage: '/services/wh-hero.webp',
   introHeading: 'Water Heater Installation in {neighborhood}',
   introParagraphs: [
     'When it is time for dependable hot water, {brand} installs and replaces water heaters for homeowners in {place} — tank or tankless, sized to your household and installed to code. We help you choose the right system and handle every step from removal to testing.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'water-heater-maintenance', title: 'Water Heater Maintenance' },
     { slug: 'water-quality', title: 'Water Quality' },
   ],
-  band1Image: '/services/wh-signs.jpg',
+  band1Image: '/services/wh-signs.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs a New Water Heater',
   commonSituations: [
     'Inconsistent, lukewarm, or quickly-running-out hot water',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Repairs that are becoming more frequent',
   ],
   trustedBanner: 'Your Local & Trusted Water Heater Installers in {neighborhood}',
-  band2Image: '/services/water-heater-repair.jpg',
+  band2Image: '/services/water-heater-repair.webp',
   band2Heading: 'What to Expect From Your Installation in {neighborhood}',
   band2Paragraphs: [
     'We start by sizing the system to your household and checking your existing connections, gas or electric supply, and venting — then explain the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Financing and Same-Day Service in {neighborhood}', body: 'A failed water heater does not have to wait on budget or schedule. We offer financing so you can move forward without a large upfront cost, and we staff for demand to reach most {neighborhood} homes the same day you call.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'check', title: 'Proper Sizing', text: 'We match the system to your household so you get enough hot water without strain.' },
-    { icon: 'shield', title: 'Licensed & To Code', text: 'Background-checked plumbers and code-compliant installation from day one.' },
-    { icon: 'star', title: 'Financing Available', text: 'Move forward with installation now without a large upfront cost.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-  ],
+  whyParagraph: 'We match each new water heater to the size of your {neighborhood} household, so hot water lasts without the unit straining. Licensed plumbers install it to code, you approve a flat price first, and financing can spread the cost.',
   proofQuote:
     'Our 14-year-old tank finally gave out and they had a new one sized, installed, and tested the same afternoon. Walked us through tank versus tankless without any pressure, and the price was exactly what they quoted.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Water Heater Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Water Heater Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Water heater installation and replacement in ${place} — tank or tankless, sized right and installed to code. Financing and same-day service. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/water-heater-installation/${loc.slug}` },
     openGraph: {

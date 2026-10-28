@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Leak Detection',
   ctaLine: 'Think you have a hidden leak in {neighborhood}? Call today',
-  heroImage: '/services/leak-hero.jpg',
+  heroImage: '/services/leak-hero.webp',
   introHeading: 'Leak Detection in {neighborhood}',
   introParagraphs: [
     'The worst leaks are the ones you cannot see — behind a wall, under the slab, or inside a ceiling — quietly causing damage for weeks. {brand} finds them fast for homeowners in {place}, using acoustic, thermal, and camera tools that pinpoint the exact source without tearing up your home.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'sewer-repair-replacement', title: 'Sewer Repair' },
     { slug: 'emergency-plumbing', title: 'Emergency Plumbing' },
   ],
-  band1Image: '/services/leak-signs.jpg',
+  band1Image: '/services/leak-signs.webp',
   band1Heading: 'Signs of a Hidden Leak in Your {neighborhood} Home',
   commonSituations: [
     'An unexplained jump in your water bill',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A suspected slab leak under the foundation',
   ],
   trustedBanner: 'Your Local & Trusted Leak Detection Pros in {neighborhood}',
-  band2Image: '/services/leak-tools.jpg',
+  band2Image: '/services/leak-tools.webp',
   band2Heading: 'Our Leak Detection Process in {neighborhood}',
   band2Paragraphs: [
     'We listen to what you have observed, then use acoustic, thermal, and camera tools to locate the leak precisely, and explain the flat-rate price before any work begins.',
@@ -66,19 +66,14 @@ const config: ServiceLocationConfig = {
     { title: 'Same-Day and Emergency Response', body: 'Leaks do not wait, and neither do we. For active leaks, flooding, or a suspected slab leak in {neighborhood}, we are on call and reach most homes the same day to stop the damage and find the source.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'badge', title: 'Non-Invasive Tools', text: 'Acoustic, thermal, and camera equipment finds the leak without guesswork or demolition.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked, licensed plumbers you can trust in your home.' },
-    { icon: 'check', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-    { icon: 'clock', title: 'Same-Day Service', text: 'Most leak calls are handled the same day you reach out.' },
-  ],
+  whyParagraph: 'We find leaks in {neighborhood} homes with acoustic and thermal equipment and a camera, so nobody guesses or opens a wall to look. Most leak calls are handled the same day, and you approve a flat price before we start.',
   proofQuote:
     'Our water bill doubled with no explanation. They listened around the house, used the acoustic gear, and found a supply line leaking under the slab. Pinpointed it exactly, opened up only that spot, and fixed it the same week. No guesswork.',
   sharedFaqs: [
     { q: 'How does a leak detection service work?', a: 'We use non-invasive tools — acoustic listening devices, thermal imaging, moisture meters, pressure tests, and pipe cameras — to pinpoint a leak’s exact location before opening anything up, so the repair is targeted and the mess is minimal.' },
     { q: 'What are the signs I might need water leak detection?', a: 'Watch for an unexplained jump in your water bill, stains or discoloration, mold or a musty smell, the sound of running water when nothing is on, low pressure, or warm and damp spots on the floor.' },
     { q: 'Can small leaks really cause big damage?', a: 'Yes. A slow, hidden leak can rot framing, ruin drywall and flooring, and grow mold over weeks or months — while wasting thousands of gallons of water. Finding it early is far cheaper than the repairs that follow.' },
-    { q: 'Do you offer emergency leak detection services?', a: 'Yes. We are on call 24/7 for active leaks, flooding, and suspected slab leaks, and we reach most homes the same day.' },
+    { q: 'Do you offer emergency leak detection services?', a: 'Yes. We are on call every day, including Saturdays and Sundays for active leaks, flooding, and suspected slab leaks, and we reach most homes the same day.' },
     { q: 'What areas of my home are most susceptible to leaks?', a: 'The most common spots are under slabs, behind walls, under sinks and toilets, at the water heater, along supply lines, and in outdoor or irrigation lines. We check them all.' },
   ],
   related: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Leak Detection in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Leak Detection in ${loc.neighborhood}, ${loc.state}`,
     description: `Hidden water and slab leak detection in ${place} — acoustic, thermal, and camera tools find the source fast without tearing up your home. Same-day service. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/leak-detection/${loc.slug}` },
     openGraph: {

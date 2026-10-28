@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Indoor Lighting Installation',
   ctaLine: 'Want brighter rooms in your {neighborhood} home? Call today',
-  heroImage: '/services/indoor-hero.jpg',
+  heroImage: '/services/indoor-hero.webp',
   introHeading: 'Indoor Lighting Installation in {neighborhood}',
   introParagraphs: [
     'Good indoor lighting changes how a {neighborhood} home looks and feels — brighter rooms, fewer shadows, and lighting that fits how each space is used. {brand} installs recessed, LED, basement, and garage lighting for homeowners across {place}, with safe, code-compliant wiring.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'basement-lighting', title: 'Basement Lighting' },
     { slug: 'garage-lighting', title: 'Garage Lighting' },
   ],
-  band1Image: '/services/indoor-signs.jpg',
+  band1Image: '/services/indoor-signs.webp',
   band1Heading: 'Signs You Need New Indoor Lighting in {neighborhood}',
   commonSituations: [
     'Rooms that feel dim or unevenly lit',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A finished basement or room addition that needs lighting',
   ],
   trustedBanner: 'Your Local & Trusted Indoor Lighting Pros in {neighborhood}',
-  band2Image: '/services/indoor-lighting.jpg',
+  band2Image: '/services/indoor-lighting.webp',
   band2Heading: 'Our Indoor Lighting Process in {neighborhood}',
   band2Paragraphs: [
     'We start by understanding how you use each room, review your current lighting, and explain the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Safe Wiring in Older Homes', body: 'Many {neighborhood} homes have older wiring that needs care when adding fixtures or circuits. We make sure every connection meets current code, update what needs updating, and install lighting that runs reliably for the long term.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Professionals', text: 'Experienced lighting pros handling every connection safely.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Each install meets current electrical safety standards.' },
-    { icon: 'badge', title: 'Energy-Efficient Options', text: 'LED upgrades that cut energy use and last longer.' },
-    { icon: 'house', title: 'Custom Design', text: 'Lighting layouts tailored to how you use each room.' },
-  ],
+  whyParagraph: 'Our licensed electricians plan each {neighborhood} lighting job around how you use the room, then make every connection to current electrical code. Where it fits, we suggest LED fixtures, which use less energy and last longer than older bulbs.',
   proofQuote:
     'They added recessed lights through the kitchen and living room and swapped everything to LED. The whole floor is brighter, no more dim corners, and the switches were laid out exactly how we use the rooms. Clean work and a fair price.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Indoor Lighting Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Indoor Lighting Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Indoor lighting installation in ${place} — recessed, LED, basement, and garage lighting installed by licensed electricians for comfort and efficiency. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/indoor-lighting/${loc.slug}` },
     openGraph: {

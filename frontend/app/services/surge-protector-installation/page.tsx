@@ -3,18 +3,19 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { surgeProtectorCopy } from '@/content/location-copy/surge-protector-installation';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Whole-Home Surge Protector Installation',
   description: `Whole-home surge protector installation across ${site.serviceArea} from ${site.name} — panel-level protection for appliances, HVAC, and electronics. Licensed electricians, financing available.`,
   alternates: { canonical: '/services/surge-protector-installation' },
-};
+});
 
 const signs = [
   'Flickering or dimming lights',
@@ -41,24 +42,11 @@ const benefits = [
   'Providing peace of mind during lightning storms',
 ];
 
-const whyChoose = [
-  'Licensed electricians experienced with surge protectors',
-  'Code-compliant installation at your electrical panel',
-  'Clear pricing and honest recommendations',
-  `Reliable service throughout ${site.serviceArea}`,
-  'Professional surge protection tailored to your home',
-];
 
-const whyUs = [
-  { icon: 'shield' as const, title: 'Whole-Panel Protection', text: 'Protection installed at the source, guarding everything connected to your wiring.' },
-  { icon: 'check' as const, title: 'Licensed Electricians', text: 'Experienced with surge protection devices and your panel.' },
-  { icon: 'badge' as const, title: 'Code-Compliant Install', text: 'Installed to local code and the manufacturer’s guidelines.' },
-  { icon: 'star' as const, title: 'Financing Available', text: 'Flexible options for qualifying homeowners.' },
-];
 
 const faqs = [
   { q: 'What is a whole-home surge protector?', a: 'It is a device installed at your electrical panel that diverts excess voltage safely into the ground before it reaches your circuits, appliances, and connected equipment.' },
-  { q: 'Will a whole-home surge protector cover all my electronics?', a: 'It protects everything connected to your home’s wiring at the panel level. Pairing it with point-of-use protectors on your most sensitive devices adds a helpful second layer of defense.' },
+  { q: 'Will a whole-home surge protector cover all my electronics?', a: 'Not entirely, and we would rather say so than oversell it. A panel-level device is at its best against surges arriving on the service — utility switching and nearby lightning activity, the events that take out several appliances at once. It does less about a transient created downstream by a compressor or motor starting on the same branch circuit, and nothing at all about a surge coming in on a coax or ethernet line. Point-of-use protection on the sensitive equipment is a genuine second layer rather than an add-on.' },
   { q: 'Do I still need power strips with surge protection?', a: 'Whole-home protection handles the large surges at the source, while plug-in power strips add point-of-use protection for sensitive electronics. The two work well together.' },
   { q: 'Will surge protection increase the value of my home?', a: 'It can be an attractive feature for buyers and it protects valuable systems, but its main benefit is preventing the costly damage a surge can cause.' },
   { q: 'Can I install a surge protector myself?', a: 'No. A whole-home surge protector wires directly into your electrical panel and should be installed by a licensed electrician for safety and to meet code.' },
@@ -107,32 +95,16 @@ export default function SurgeProtectorPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Protect your home from power surges in {site.serviceArea}
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot couponTitle="Any Electrical Service">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/surge-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/surge-hero.webp)' }}
             role="img"
             aria-label="Electrical panel with surge protection"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Whole-Home Surge Protector Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -156,28 +128,28 @@ export default function SurgeProtectorPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/surge-protector-installation.jpg)' }}
+            style={{ backgroundImage: 'url(/services/surge-protector-installation.webp)' }}
             role="img"
             aria-label="Electrical panel"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs You Need Whole-House Surge Protection
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many electrical surges are small and frequent, not just dramatic lightning strikes. Over
               time, repeated surges can weaken or destroy sensitive electronics and major systems. You
               may benefit from whole-home surge protection if you notice:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {signs.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={s} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If your home depends on modern electronics and connected systems, comprehensive
               protection at the electrical panel is one of the most effective ways to prevent damage.
             </p>
@@ -189,34 +161,52 @@ export default function SurgeProtectorPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Our Surge Protector Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               A whole-house surge protector connects directly to your electrical panel — it is not a
               plug-in solution, and it must be installed correctly to protect your entire system:
             </p>
             <ul className="mt-4 space-y-2">
               {process.map((p) => (
-                <li key={p.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={p.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   <span>
                     <span className="font-bold text-white">{p.lead}:</span> {p.text}
                   </span>
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Professional surge protection provides centralized defense against electrical surges
               before they spread through your home.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician reviewing surge protection with a homeowner"
           />
+        </div>
+      </section>
+
+      <ServiceReviews service="surge-protector-installation" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Protect your home from power surges in {site.serviceArea}
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -224,31 +214,31 @@ export default function SurgeProtectorPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Benefits of Surge Protection</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Whole-home surge protectors provide comprehensive protection for your home’s electrical
             system. Benefits include:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 {b}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Surge protection is especially important in homes with multiple electronics and sensitive
             equipment — installing a whole-home surge protector helps prevent damage before it occurs.
           </p>
 
           {/* Defend */}
           <h2 className="mt-12 section-title text-brand-700">Defend Your Home Against Power Surges</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Your electrical panel distributes power throughout your home. When a surge protection
             device is installed at this central point, it intercepts excess voltage before it reaches
             your branch circuits.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Instead of relying only on outlet surge protectors, whole-home surge protection works at
             the source — protecting everything connected to your system, from kitchen appliances to
             air conditioners. For dependable protection against lightning and everyday voltage
@@ -257,7 +247,7 @@ export default function SurgeProtectorPage() {
 
           {/* Financing */}
           <h2 className="mt-12 section-title text-brand-700">Financing a Whole-Home Surge Protector</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             The cost depends on your electrical panel configuration and installation requirements.
             {' '}{site.name} offers financing for qualifying homeowners to make installation more
             manageable. Do not wait until a surge causes costly damage — our team can review your
@@ -266,39 +256,24 @@ export default function SurgeProtectorPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Surge Protection</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            Homeowners across {site.serviceArea} choose {site.name} because we prioritize safe
-            electrical work and long-term reliability. When you work with us, you receive:
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            A panel-level device stops the big surges arriving on the service, but it does not cover everything, and we say so up front. Plug-in strips on sensitive electronics are still a worthwhile second layer.
           </p>
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
-                <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
-                {w}
-              </li>
-            ))}
-          </ul>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Surge Protection FAQs</h2>
           <div className="mt-4">
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -306,40 +281,40 @@ export default function SurgeProtectorPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
+            <h2 className="text-2xl font-extrabold sm:text-3xl">
               Schedule Whole-Home Surge Protection Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Protect your home from electrical surges and excess voltage before they cause costly
-              damage. Call now or request a free estimate.
+              damage. Call now or request an estimate.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={site.primaryPhone.href} className="btn-pink text-base">
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+                Request an Estimate
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Surge protection by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Whole-home surge protection by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            We install whole-home surge protectors across {site.serviceArea} —{' '}
-            {locations.filter((l) => surgeProtectorCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on the homes and electrical systems in your area.
-          </p>
-          <NeighborhoodLinks copy={surgeProtectorCopy} basePath="/services/surge-protector-installation" linkPrefix="Surge protection" />
-        </div>
-      </section>
-
-      <PageSections />
+      <ServiceSections service="surge-protector-installation">
+        {/* Surge protection by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Whole-home surge protection by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We install whole-home surge protectors across {site.serviceArea} —{' '}
+              {locations.filter((l) => surgeProtectorCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on the homes and electrical systems in your area.
+            </p>
+            <NeighborhoodLinks copy={surgeProtectorCopy} basePath="/services/surge-protector-installation" linkPrefix="Surge protection" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

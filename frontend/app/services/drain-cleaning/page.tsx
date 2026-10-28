@@ -3,18 +3,19 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { drainCleaningCopy } from '@/content/location-copy/drain-cleaning';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Drain Cleaning',
   description: `Professional drain cleaning across ${site.serviceArea} from ${site.name} — snaking, hydro jetting, and camera inspection to clear stubborn clogs for good. Upfront pricing, same-day service.`,
   alternates: { canonical: '/services/drain-cleaning' },
-};
+});
 
 const benefits = [
   { lead: 'Full flow restored', text: 'we clear the entire clog, not just poke a hole through it, so water drains the way it should.' },
@@ -44,15 +45,9 @@ const specialized = [
   { title: 'Main Line Cleaning', text: 'Clears the main sewer line that every drain in your home feeds into — the source of the worst backups.' },
   { title: 'Bathroom & Toilet Drains', text: 'Sinks, tubs, showers, and toilets, where hair and soap scum build up fastest.' },
   { title: 'Kitchen Sink Drains', text: 'Grease, food scraps, and disposal lines that clog more often than any other drain in the house.' },
-  { title: 'Emergency & Same-Day', text: 'A drain backing up now? We answer 24/7 and reach most homes the same day.' },
+  { title: 'Emergency & Same-Day', text: 'A drain backing up now? We answer 7 days a week and reach most homes the same day.' },
 ];
 
-const whyUs = [
-  { icon: 'badge' as const, title: 'Camera Inspection', text: 'We find the real cause of the clog instead of guessing, so it stays fixed.' },
-  { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked, licensed plumbers you can trust in your home.' },
-  { icon: 'badge' as const, title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-  { icon: 'clock' as const, title: 'Same-Day Service', text: 'Most drain calls are handled the same day you reach out.' },
-];
 
 const faqs = [
   { q: 'How often should I schedule professional drain cleaning?', a: 'For most homes, about once a year keeps drains flowing freely. Schedule more often if you have an older home, a large household, big trees near the sewer line, or a history of recurring clogs.' },
@@ -107,32 +102,16 @@ export default function DrainCleaningPage() {
         ]}
       />
 
-      {/* Top CTA banner */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-8 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase sm:text-2xl">
-            Clogged drain in {site.serviceArea}?
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/drain-cleaning-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/drain-cleaning-hero.webp)' }}
             role="img"
             aria-label="Licensed plumber cleaning a clogged drain"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Professional Drain Cleaning
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -151,7 +130,7 @@ export default function DrainCleaningPage() {
           <h2 className="mt-10 section-title text-brand-700">Why Professional Drain Cleaning Matters</h2>
           <ul className="mt-4 space-y-2.5">
             {benefits.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}</span> — {b.text}
@@ -167,22 +146,22 @@ export default function DrainCleaningPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/drains-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/drains-signs.webp)' }}
             role="img"
             aria-label="Plumber clearing a clogged drain line"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs You Need Drain Cleaning
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Drains rarely fail without warning. If you notice any of these, it is time for a
               cleaning before a slow drain turns into a backup:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {signs.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={s} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
               ))}
@@ -195,7 +174,7 @@ export default function DrainCleaningPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Our Drain Cleaning Process
             </h2>
             <div className="mt-5 space-y-4">
@@ -206,7 +185,7 @@ export default function DrainCleaningPage() {
                   </span>
                   <div>
                     <h3 className="font-display text-base font-extrabold uppercase">{p.title}</h3>
-                    <p className="mt-1 text-sm leading-relaxed text-white/90">{p.text}</p>
+                    <p className="mt-1 text-base leading-relaxed text-white/90">{p.text}</p>
                   </div>
                 </div>
               ))}
@@ -214,10 +193,28 @@ export default function DrainCleaningPage() {
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/drain-cleaning-process.jpg)' }}
+            style={{ backgroundImage: 'url(/services/drain-cleaning-process.webp)' }}
             role="img"
             aria-label="Drain cleaning equipment in use"
           />
+        </div>
+      </section>
+
+      <ServiceReviews service="drain-cleaning" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-8 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold sm:text-2xl">
+            Clogged drain in {site.serviceArea}?
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -236,8 +233,8 @@ export default function DrainCleaningPage() {
 
           {/* Emergency banner */}
           <div className="mt-10 flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
-            <h2 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">
-              Drain backing up right now? We answer 24/7.
+            <h2 className="font-display text-xl font-extrabold text-white sm:text-2xl">
+              Drain backing up right now? We answer 7 days a week.
             </h2>
             <Link href="/services/emergency-plumbing" className="btn-pink flex-shrink-0">
               Emergency Plumbing
@@ -246,27 +243,24 @@ export default function DrainCleaningPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Drain Cleaning</h2>
-          <div className="mt-5 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            Snaking a drain without seeing inside it is guessing, so we use a camera to find the real cause of the clog. Most calls are handled the same day, at a flat-rate price you approve first.
+          </p>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Drain Cleaning FAQs</h2>
           <div className="mt-4">
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -274,40 +268,40 @@ export default function DrainCleaningPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
+            <h2 className="text-2xl font-extrabold sm:text-3xl">
               Schedule Your Drain Cleaning Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Same-day service, upfront pricing, and a camera inspection to clear that clog for good.
-              Call now or request a free estimate.
+              Call now or request an estimate.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={site.primaryPhone.href} className="btn-pink text-base">
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+                Request an Estimate
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Drain cleaning by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Drain cleaning by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            We clear drains across {site.serviceArea} —{' '}
-            {locations.filter((l) => drainCleaningCopy[l.slug]).length} neighborhoods and counting. For
-            local detail on response times and the clogs common to homes in your area, find yours below.
-          </p>
-          <NeighborhoodLinks copy={drainCleaningCopy} basePath="/services/drain-cleaning" linkPrefix="Drain cleaning" />
-        </div>
-      </section>
-
-      <PageSections />
+      <ServiceSections service="drain-cleaning">
+        {/* Drain cleaning by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Drain cleaning by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We clear drains across {site.serviceArea} —{' '}
+              {locations.filter((l) => drainCleaningCopy[l.slug]).length} neighborhoods and counting. For
+              local detail on response times and the clogs common to homes in your area, find yours below.
+            </p>
+            <NeighborhoodLinks copy={drainCleaningCopy} basePath="/services/drain-cleaning" linkPrefix="Drain cleaning" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

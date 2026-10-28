@@ -13,8 +13,8 @@ const config: ServiceLocationConfig = {
   parentCrumb: { label: 'Air Conditioning', href: '/services/air-conditioning' },
   businessType: 'HVACBusiness',
   schemaServiceType: 'Ductless Mini-Splits',
-  ctaLine: 'Considering a mini-split in {neighborhood}? Call for a free estimate',
-  heroImage: '/services/minisplit-hero.jpg',
+  ctaLine: 'Considering a mini-split in {neighborhood}? Call for an estimate',
+  heroImage: '/services/minisplit-hero.webp',
   introHeading: 'Ductless Mini-Splits in {neighborhood}',
   introParagraphs: [
     'A ductless mini-split delivers flexible cooling and heating without ductwork — targeted comfort for the rooms a central system never quite reaches. {brand} installs and repairs mini-splits for homeowners in {place}, pairing an outdoor unit with one or more indoor heads sized to how you actually use your home.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'ac-installation-replacement', title: 'AC Installation & Replacement' },
     { slug: 'heat-pumps', title: 'Heat Pumps' },
   ],
-  band1Image: '/services/mini-splits.jpg',
+  band1Image: '/services/mini-splits.webp',
   band1Heading: 'Signs a Mini-Split Makes Sense for Your {neighborhood} Home',
   commonSituations: [
     'Rooms or additions a central system never cools or heats evenly',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A mini-split that shuts down or responds slowly',
   ],
   trustedBanner: 'Your Local & Trusted Mini-Split Pros in {neighborhood}',
-  band2Image: '/services/mini-split-installation.jpg',
+  band2Image: '/services/mini-split-installation.webp',
   band2Heading: 'What to Expect From Your Mini-Split Service in {neighborhood}',
   band2Paragraphs: [
     'For an install, we walk the space, size the system to your rooms and how you use them, and recommend single- or multi-zone — then explain the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Right-Sizing the Zones', body: 'A single head handles one room; a multi-zone system runs several heads off one outdoor unit. Getting the count and placement right is what makes a mini-split comfortable instead of noisy and overworked, so we size it to your {neighborhood} home and how you actually live in it.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'check', title: 'Cooling & Heating', text: 'One efficient ductless system that keeps your space comfortable all year.' },
-    { icon: 'badge', title: 'Right-Sized Zones', text: 'We size the system and indoor heads to your home and how you use it.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked technicians and clean, code-compliant work.' },
-    { icon: 'star', title: 'Financing Available', text: 'Flexible plans so an efficient upgrade fits your budget.' },
-  ],
+  whyParagraph: 'One ductless system can cool and heat your {neighborhood} home all year. We size the outdoor unit and indoor heads to the house and how you use it, and background-checked technicians do clean, code-compliant work. Financing is available.',
   proofQuote:
     'Our 1920s house had a third floor that was unbearable every summer. They put in a two-zone mini-split, sized it right, and now those rooms finally hold temperature. Clean install and no ductwork tearing up the walls.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Ductless Mini-Splits in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Ductless Mini-Splits in ${loc.neighborhood}, ${loc.state}`,
     description: `Ductless mini-split installation and repair in ${place} — flexible, efficient cooling and heating without ductwork. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/mini-splits/${loc.slug}` },
     openGraph: {

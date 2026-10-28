@@ -1,7 +1,7 @@
 export const part4: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'reading': {
     intro:
-      'Thinking about a ductless mini-split for your Reading home? We install and repair mini-splits that heat and cool a single room or a whole floor without any ductwork. Call (513) 586-5107.',
+      'Reading’s older and mid-century homes in the Mill Creek valley often have undersized ductwork or none, so a ductless mini-split goes into the finished attic, back addition or finished basement the main system barely reaches. We mount the outdoor unit clear of valley runoff.',
     relevance: [
       'Reading (ZIP 45215) is a city in the Mill Creek valley north of Cincinnati, with a settled mix of older and mid-century homes. A lot of those houses were built before central air or run on undersized ductwork, so a finished attic or a back addition never gets comfortable — a mini-split puts heating and cooling directly in that room without tearing into walls to run new ducts.',
       'The low valley ground here keeps basements and crawl spaces cool and damp, and a single-zone mini-split is a clean way to condition a finished basement that the main system barely reaches. We mount the outdoor unit clear of valley runoff and route the line set so a downstairs office or rec room holds its own temperature year round.',
@@ -17,7 +17,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'dent': {
     intro:
-      'Considering a ductless mini-split in Dent? We install and repair mini-splits that bring zoned heating and cooling to a room your main system never quite handles. Call (513) 586-5107.',
+      'Dent’s mid-century homes in Green Township often have a hot upper floor or converted attic bedroom the original system cannot keep up with, and a ductless mini-split gives that room its own thermostat. Newer homes use one for a bonus room over the garage or a sunroom.',
     relevance: [
       'Dent (ZIP 45247) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. Those mid-century houses often have a hot upper floor or a converted attic bedroom that the original system cannot keep up with, and a mini-split adds quiet, even comfort to that one space without reworking the whole system.',
       'Newer Dent homes tend to have a bonus room over the garage or a sunroom that sits a few degrees off from the rest of the house all year. A single-zone or multi-zone mini-split lets you set that room on its own thermostat, so it is comfortable on its own schedule instead of dragging the central system around.',
@@ -33,7 +33,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'deer-park': {
     intro:
-      'Looking at a ductless mini-split in Deer Park? We install and repair mini-splits that heat and cool one room cleanly, no ducts required. Call (513) 586-5107.',
+      'Deer Park’s mid-century homes often have an attic finished into a bedroom or office, or an added back room, that the original system was never sized for, and a ductless mini-split heats and cools it directly. Running ducts up there is rarely worth the disruption.',
     relevance: [
       'Deer Park (ZIP 45236) is a small, settled city on the east side, made up largely of mid-century single-family homes on quiet streets. Homes of that era often have an unconditioned attic that was later finished into a bedroom or office, and running ducts up there is rarely worth the disruption — a mini-split heats and cools that room directly.',
       'Many of these mid-century houses run on systems that were sized for the original footprint, so an added back room or enclosed porch ends up too cold in winter and too warm in summer. A single-zone mini-split gives that space its own quiet heating and cooling without touching the rest of the home.',
@@ -49,7 +49,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'terrace-park': {
     intro:
-      'Thinking about a ductless mini-split for your Terrace Park home? We install and repair mini-splits that add quiet, zoned comfort to older homes with no good place for ducts. Call (513) 586-5107.',
+      'Terrace Park’s early-1900s homes near the Little Miami River often have plaster walls and no ducts to a third floor or back room, so a ductless mini-split is the least invasive way to add heating and cooling. Sunrooms, studies and converted carriage spaces can each get a head.',
     relevance: [
       'Terrace Park (ZIP 45174) is an affluent east-side village near the Little Miami River, known for its established early-1900s homes and tree-lined streets. Houses that old often have plaster walls and no central ducting to a third floor or a back room, and a mini-split is the least invasive way to add real heating and cooling without opening up original walls.',
       'Larger homes here frequently have a sunroom, a study, or a converted carriage space that wants its own temperature, and the low ground near the river keeps some lower levels cool and damp. A multi-zone mini-split can put separate heads in two or three of those rooms, each on its own setting, while the main system handles the core of the house.',
@@ -65,7 +65,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'dry-run': {
     intro:
-      'Considering a ductless mini-split in Dry Run? We install and repair mini-splits that bring zoned heating and cooling to the room your main system skips. Call (513) 586-5107.',
+      'Bonus rooms over the garage and finished basements are the usual ductless mini-split jobs in Dry Run, even in newer Anderson Township homes. In older houses it is an attic conversion or added family room at the far end of duct runs never sized for it.',
     relevance: [
       'Dry Run (ZIP 45244) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. Even the newer homes here often have a bonus room over the garage or a finished basement that runs warm or cold compared to the rest of the house, and a mini-split lets you set that space on its own zone.',
       'In the older Dry Run houses, an attic conversion or an added family room sits at the far end of duct runs that were never sized for it. A single-zone mini-split delivers consistent comfort to that room directly, so you stop fighting the thermostat for the rest of the home.',
@@ -81,7 +81,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'white-oak': {
     intro:
-      'Looking at a ductless mini-split in White Oak? We install and repair mini-splits that heat and cool a single room without adding ductwork. Call (513) 586-5107.',
+      'White Oak’s mid-century homes in Green Township often run hot on the upper floor, where the original system cannot push enough air, and a ductless mini-split fixes that one room. Finished basements and garage workshops get one too, so the space stays usable in any season.',
     relevance: [
       'White Oak (ZIP 45247) is a settled Green Township community on the northwest side, made up largely of mid-century and newer single-family homes. The mid-century homes here often run hot on the upper floor in summer, where the original system simply cannot push enough conditioned air, and a mini-split solves that one room without a larger overhaul.',
       'A lot of White Oak homes have a finished basement or a garage workshop that the central system was never asked to handle. A single-zone mini-split adds efficient heat-pump heating and cooling to that space, so a downstairs office or shop stays usable in any season.',
@@ -97,7 +97,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'forestville': {
     intro:
-      'Thinking about a ductless mini-split in Forestville? We install and repair mini-splits that bring zoned comfort to additions, attics, and bonus rooms. Call (513) 586-5107.',
+      'Forestville homes often have a back addition or converted porch a few degrees off the rest of the house, and a ductless mini-split puts heating and cooling right in that room. Newer houses in this Anderson Township community add a bonus room over the garage to the list.',
     relevance: [
       'Forestville (ZIP 45230) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. Those homes commonly have a back addition or a converted porch that sits a few degrees off from the rest of the house, and a mini-split puts heating and cooling right in that room without extending the duct system.',
       'Many newer Forestville houses have a bonus room over the garage that the central air struggles to reach. A single-zone mini-split sets that room on its own thermostat, while a multi-zone setup can cover a bonus room and a finished basement at the same time on heat-pump efficiency.',
@@ -113,7 +113,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cherry-grove': {
     intro:
-      'Considering a ductless mini-split in Cherry Grove? We install and repair mini-splits that heat and cool one room cleanly, with no ducts to run. Call (513) 586-5107.',
+      'Upper floors in Cherry Grove’s mid-century homes often run warm because the original system was sized for the main level, and a ductless mini-split adds cooling to that floor on its own zone. Newer homes use one for a bonus room or finished basement.',
     relevance: [
       'Cherry Grove (ZIP 45230) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. The mid-century homes here often have an upper floor that runs warm in summer because the original system was sized for the main level, and a mini-split adds the cooling that floor needs on its own zone.',
       'Newer homes in Cherry Grove tend to include a bonus room or a finished basement that the central system treats as an afterthought. A single-zone mini-split gives that space efficient heat-pump heating and cooling without touching the rest of the house.',
@@ -129,7 +129,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'kenwood': {
     intro:
-      'Looking at a ductless mini-split for your Kenwood home? We install and repair multi-zone mini-splits that let larger homes set each room on its own temperature. Call (513) 586-5107.',
+      'Kenwood’s larger homes near Kenwood Towne Centre often have a sunroom, bonus room or finished lower level one central system cannot keep even, and a multi-zone ductless mini-split puts each on its own thermostat. Mid-century houses usually need a single zone for a converted attic or added suite.',
     relevance: [
       'Kenwood (ZIP 45236) is an upscale, unincorporated community on the east side around Kenwood Towne Centre, with mid-century homes alongside newer, larger houses. The larger homes here often have a sunroom, a bonus room, or a finished lower level that a single central system cannot keep even, and a multi-zone mini-split puts each of those rooms on its own thermostat.',
       'In the mid-century Kenwood houses, a converted attic or an added master suite tends to sit at the far end of the duct run and never quite matches the rest of the home. A single-zone mini-split conditions that room directly, on heat-pump efficiency, without reworking the existing system.',
@@ -145,7 +145,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lincoln-heights': {
     intro:
-      'Thinking about a ductless mini-split in Lincoln Heights? We install and repair mini-splits that add heating and cooling to older homes with no ductwork. Call (513) 586-5107.',
+      'A single-zone ductless mini-split is often the most practical heating and cooling for Lincoln Heights’ older, modest homes, many built without ductwork in the Mill Creek valley. It replaces window units, and heat-pump efficiency keeps operating costs down in a smaller home.',
     relevance: [
       'Lincoln Heights (ZIP 45215) is a historic community in the Mill Creek valley north of the city — one of the first self-governed Black municipalities in the northern United States — with older, modest homes. Many of those homes were built without central ductwork, so a single-zone mini-split is often the most practical way to add real heating and cooling instead of relying on window units.',
       'The low valley ground keeps these homes cool and damp below grade, and a mini-split runs on heat-pump efficiency, which keeps operating costs down in a modest home. We size and place the system so one head can cover the main living space without the cost of a full duct retrofit.',
@@ -161,7 +161,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'dillonvale': {
     intro:
-      'Considering a ductless mini-split in Dillonvale? We install and repair mini-splits that bring zoned comfort to a room the central system skips. Call (513) 586-5107.',
+      'Ductless mini-splits in Dillonvale mostly go into mid-century homes near Kenwood with a finished basement, converted attic or hot upper floor the original system never reached. Each room gets its own thermostat and heat-pump heating and cooling, with no ductwork extended into finished space.',
     relevance: [
       'Dillonvale (ZIP 45236) is a Sycamore Township community on the east side near Kenwood, with settled neighborhoods of mid-century homes. Houses from that era often have a finished basement or a converted attic that the original system was never sized to reach, and a single-zone mini-split conditions that room directly without extending the ducts.',
       'A hot upper floor is a common complaint in these mid-century Dillonvale homes, where the main system handles the first floor but loses ground upstairs in summer. A mini-split adds cooling exactly where it is needed, on its own thermostat and on heat-pump efficiency.',
@@ -177,7 +177,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'woodlawn': {
     intro:
-      'Looking at a ductless mini-split in Woodlawn? We install and repair mini-splits that heat and cool a room without adding ductwork. Call (513) 586-5107.',
+      'Woodlawn’s older homes in the Mill Creek valley often have dated systems or none in added rooms, so a single-zone ductless mini-split covers a back room, attic or converted porch without a full retrofit. Finished basements, cool and damp on valley ground, are another common spot.',
     relevance: [
       'Woodlawn (ZIP 45215) is a village in the Mill Creek valley north of the city, with a mix of residential streets and industrial corridors. The older homes here often run on dated systems or none at all in added rooms, and a single-zone mini-split adds efficient heating and cooling to a back room, an attic, or a converted porch without a full retrofit.',
       'The low valley ground keeps lower levels cool and damp, so a finished basement in Woodlawn is a natural place for a mini-split that the central system never reached well. We set the outdoor unit clear of runoff and run the line set so that downstairs space stays comfortable in every season.',
@@ -193,7 +193,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'addyston': {
     intro:
-      'Thinking about a ductless mini-split in Addyston? We install and repair mini-splits that add heating and cooling to older homes with no ductwork. Call (513) 586-5107.',
+      'Addyston is an old mill town on the Ohio River with closely spaced worker homes that were rarely built with ducts, so a single-zone ductless mini-split adds heating and cooling without losing floor space. We mount the outdoor unit on higher ground away from the river.',
     relevance: [
       'Addyston (ZIP 45001) is a small village on the far west side along the Ohio River, an old mill town with closely spaced older worker homes. Those compact older homes were rarely built with central ducting, so a single-zone mini-split is often the cleanest way to add real heating and cooling to a tight floor plan without losing space to ductwork.',
       'The riverside location keeps lower levels cool and damp, and a mini-split runs on heat-pump efficiency, which suits a smaller home where every dollar of operating cost counts. We mount the outdoor unit on higher ground away from the river’s reach and condition the main living space with one head.',
@@ -209,7 +209,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'greenhills': {
     intro:
-      'Considering a ductless mini-split in Greenhills? We install and repair mini-splits that add comfort to historic homes without disturbing original walls. Call (513) 586-5107.',
+      'Greenhills was built in the 1930s as a New Deal Greenbelt town, and its original cottages and townhomes were never ducted, so a ductless mini-split adds heating and cooling through one small line-set penetration. A converted attic or small upper room gets its own zone.',
     relevance: [
       'Greenhills (ZIP 45218) is a historic planned Greenbelt town built in the 1930s as a New Deal project, now a National Historic Landmark district, with its original cottages and townhomes still in use. Those 1930s homes were built without central ducting, and a ductless mini-split adds heating and cooling with only a small line-set penetration, so it suits a home where the historic character matters.',
       'The original cottages here are compact, and a converted attic or a small upper room can be hard to condition through the main system. A single-zone mini-split heats and cools that room directly, on heat-pump efficiency, without the disruption of opening walls to run ducts.',
@@ -225,7 +225,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'northbrook': {
     intro:
-      'Looking at a ductless mini-split in Northbrook? We install and repair mini-splits that bring zoned heating and cooling to a room your system skips. Call (513) 586-5107.',
+      'In many Northbrook houses, a converted attic or added family room sits at the far end of duct runs sized for the original layout, and a ductless mini-split conditions it directly. This Colerain Township community’s mid-century homes also use one for a hot upper floor or cold basement.',
     relevance: [
       'Northbrook (ZIP 45251) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. Those homes often have a hot upper floor in summer or a finished basement that runs cold, and a single-zone mini-split adds the heating and cooling that one room needs on its own thermostat.',
       'In a lot of Northbrook houses, a converted attic or an added family room sits at the far end of duct runs sized for the original layout. A mini-split conditions that room directly, on heat-pump efficiency, so the rest of the home is no longer fighting to keep it comfortable.',
@@ -241,7 +241,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'indian-hill': {
     intro:
-      'Thinking about a ductless mini-split for your Indian Hill home? We install and repair multi-zone mini-splits that give large homes room-by-room comfort control. Call (513) 586-5107.',
+      'Indian Hill estates on multi-acre wooded lots often have a sunroom, far wing or guest suite one central system cannot keep even, and a multi-zone ductless mini-split puts each room on its own thermostat. Pool houses, studios over garages and finished lower levels can each get a zone too.',
     relevance: [
       'Indian Hill (ZIP 45243) is an affluent east-side village known for its large estates and homes on multi-acre, wooded lots, many set well back from the road. In homes that big, a single central system rarely keeps a sunroom, a far wing, or a guest suite even with the rest of the house — a multi-zone mini-split puts each of those rooms on its own thermostat.',
       'These estates often include detached or converted spaces — a pool house, a studio over a garage, a finished lower level — that were never tied into the main ductwork. A mini-split conditions each space independently on heat-pump efficiency, which matters across the large square footage these properties carry.',
@@ -257,7 +257,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'evendale': {
     intro:
-      'Considering a ductless mini-split in Evendale? We install and repair mini-splits for homes and light commercial spaces, no ductwork required. Call (513) 586-5107.',
+      'Evendale mixes established homes with a large industrial base, including GE Aerospace, and ductless mini-splits serve both: a hot upper floor or added room in a mid-century house, or a server room or back office apart from a building system. Each runs on its own heat-pump zone.',
     relevance: [
       'Evendale (ZIP 45241) is a north-side village with a large industrial base, including GE Aerospace, alongside established residential neighborhoods. The mid-century homes here often have an added room or a hot upper floor the central system cannot keep up with, and a single-zone mini-split conditions that space directly without extending the ducts.',
       'Evendale also has plenty of offices and light commercial spaces where a server room, a back office, or a converted area needs its own cooling apart from the building system. A mini-split delivers that targeted, zoned comfort on heat-pump efficiency, and we install and service both residential and light commercial units.',
@@ -273,7 +273,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'glendale': {
     intro:
-      'Looking at a ductless mini-split for your Glendale home? We install and repair mini-splits that add comfort to historic homes without disturbing original details. Call (513) 586-5107.',
+      'Glendale, one of the country’s earliest planned railroad suburbs, has preserved Victorian homes built long before ductwork, and a ductless mini-split adds heating and cooling through one small line-set penetration. A third floor or back room gets its own zone while plaster and original trim stay intact.',
     relevance: [
       'Glendale (ZIP 45246) is a historic village and one of the country’s earliest planned railroad suburbs, a National Historic Landmark, known for its preserved Victorian homes and winding, tree-lined streets. Those 19th-century homes were built long before central ducting, and a ductless mini-split adds heating and cooling with only a small line-set penetration rather than the wall openings ducts require.',
       'The large Victorian houses here often have a third floor or a back room that the main system cannot reach, and opening up plaster and original trim to run ducts is rarely worth it. A single-zone mini-split conditions that room directly, on heat-pump efficiency, while keeping the historic interior intact.',
@@ -289,7 +289,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'sharonville': {
     intro:
-      'Thinking about a ductless mini-split in Sharonville? We install and repair mini-splits for homes and businesses, with no ductwork to run. Call (513) 586-5107.',
+      'Sharonville homes near Sharon Woods often have a finished basement or converted attic running off the rest of the house, and a ductless mini-split conditions that room without extending ducts. Businesses here use one for an office, meeting room or server area apart from the building system.',
     relevance: [
       'Sharonville (ZIP 45241) is a north-side city near Sharon Woods, with a mix of established residential neighborhoods, the convention center, and industrial corridors. The mid-century homes here often have a finished basement or a converted attic that runs off-temperature from the rest of the house, and a single-zone mini-split conditions that room directly without extending the ducts.',
       'Sharonville also has many businesses and commercial spaces where one office, a meeting room, or a server area needs cooling apart from the building system. A mini-split delivers that targeted, zoned comfort on heat-pump efficiency, and we install and service both residential and light commercial units.',
@@ -305,7 +305,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'northgate': {
     intro:
-      'Considering a ductless mini-split in Northgate? We install and repair mini-splits that bring zoned heating and cooling to a room your system skips. Call (513) 586-5107.',
+      'Northgate’s mid-century homes around the Northgate Mall corridor often have a hot upper floor because the original system was sized for the main level, and a ductless mini-split cools that floor on its own thermostat. Newer homes use one for a bonus room over the garage or finished basement.',
     relevance: [
       'Northgate (ZIP 45251) is a Colerain Township area on the northwest side around the Northgate Mall corridor, with neighborhoods of mid-century and newer homes. The mid-century homes often have a hot upper floor in summer, where the original system was sized for the main level, and a single-zone mini-split adds the cooling that floor needs on its own thermostat.',
       'Newer Northgate homes tend to include a bonus room over the garage or a finished basement the central system treats as an afterthought. A mini-split conditions that space on heat-pump efficiency, so a downstairs office or upstairs bonus room stays comfortable without dragging the main system around.',
@@ -321,7 +321,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'springdale': {
     intro:
-      'Looking at a ductless mini-split in Springdale? We install and repair mini-splits for homes and businesses, with no ductwork required. Call (513) 586-5107.',
+      'Springdale’s mid-century neighborhoods along the Tri-County corridor have converted attics and added rooms the original system was never sized to reach, and a ductless mini-split conditions them directly. Its large commercial and retail base also has offices and back areas that need cooling apart from the building.',
     relevance: [
       'Springdale (ZIP 45246) is a north-side city along the Tri-County corridor, with established mid-century neighborhoods alongside a large commercial and retail base. The mid-century homes here often have a converted attic or an added room that the original system was never sized to reach, and a single-zone mini-split conditions that space directly without extending the ducts.',
       'With its large commercial and retail base, Springdale also has plenty of spaces where one office or a back area needs cooling apart from the building system. A mini-split delivers targeted, zoned comfort on heat-pump efficiency, and we install and service both residential and light commercial units.',
@@ -337,7 +337,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'miamitown': {
     intro:
-      'Thinking about a ductless mini-split in Miamitown? We install and repair mini-splits that add heating and cooling to older homes with no ductwork. Call (513) 586-5107.',
+      'Miamitown’s older homes on low river-bottom ground along the Great Miami River were rarely built with ducts, and a single-zone ductless mini-split adds heating and cooling to the main living space without a retrofit. We mount the outdoor unit on higher ground clear of the river.',
     relevance: [
       'Miamitown (ZIP 45041) is a small far-west community on the Great Miami River, with older homes set on low river-bottom ground. Those older homes were rarely built with central ducting, so a single-zone mini-split is often the cleanest way to add real heating and cooling to the main living space without a full duct retrofit.',
       'The low river-bottom ground keeps lower levels cool and damp, so we mount the outdoor unit on higher ground clear of the river’s reach and route the line set accordingly. A mini-split runs on heat-pump efficiency, which suits a smaller older home where operating cost matters.',
@@ -353,7 +353,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'forest-park': {
     intro:
-      'Considering a ductless mini-split in Forest Park? We install and repair mini-splits that bring zoned heating and cooling to a room your system skips. Call (513) 586-5107.',
+      'A ductless mini-split puts the hot upper floor or end-of-run family room in a Forest Park home on its own thermostat. This planned community, developed from the 1960s, has similar mid-century layouts where the original system was never sized for those rooms.',
     relevance: [
       'Forest Park (ZIP 45240) is a north-side city developed as a planned community from the 1960s, with neighborhoods of mid-century single-family homes. Houses from that era commonly have a hot upper floor or a finished basement the original system was never sized to handle, and a single-zone mini-split conditions that room directly without extending the ducts.',
       'Many of these planned-era Forest Park homes share similar layouts, with an added family room or converted space that sits at the end of the duct run. A mini-split puts that room on its own thermostat, on heat-pump efficiency, so the rest of the home is no longer working to keep it comfortable.',
@@ -369,7 +369,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pleasant-run': {
     intro:
-      'Looking at a ductless mini-split in Pleasant Run? We install and repair mini-splits that add zoned comfort to additions, attics, and bonus rooms. Call (513) 586-5107.',
+      'Pleasant Run’s mid-century homes in Springfield Township often have a converted attic or added room the original system never reached, and a ductless mini-split conditions it directly. Newer homes here use one for a bonus room over the garage or a finished basement running off-temperature.',
     relevance: [
       'Pleasant Run (ZIP 45240) is a Springfield Township community on the north side, with settled neighborhoods of mid-century and newer homes. The mid-century homes here often have a converted attic or an added room the original system never reached, and a single-zone mini-split conditions that space directly without extending the ducts.',
       'Newer Pleasant Run homes tend to include a bonus room over the garage or a finished basement that runs off-temperature from the rest of the house. A mini-split sets that room on its own thermostat, on heat-pump efficiency, so it stays comfortable on its own schedule.',
@@ -385,7 +385,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cleves': {
     intro:
-      'Thinking about a ductless mini-split in Cleves? We install and repair mini-splits that add heating and cooling to older homes with no ductwork. Call (513) 586-5107.',
+      'Cleves sits near where the Great Miami River meets the Ohio, and its older homes on flood-prone low ground were rarely built with ducts, so a single-zone ductless mini-split is the practical way to add heating and cooling. We mount the outdoor unit on higher ground clear of both rivers.',
     relevance: [
       'Cleves (ZIP 45002) is a far-west village near where the Great Miami River meets the Ohio, with older homes on low ground prone to flooding. Those older homes were rarely built with central ducting, so a single-zone mini-split is often the most practical way to add real heating and cooling without a full duct retrofit.',
       'Because the low ground keeps lower levels damp and at flood risk, we mount the outdoor unit on higher ground clear of the rivers and route the line set accordingly. A mini-split runs on heat-pump efficiency, which suits a smaller older home where keeping operating costs down matters.',
@@ -401,7 +401,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-bend': {
     intro:
-      'Considering a ductless mini-split in North Bend? We install and repair mini-splits that add heating and cooling to older homes with no ductwork. Call (513) 586-5107.',
+      'A single-zone ductless mini-split is often the cleanest heating and cooling for North Bend’s older homes on low riverside ground, which usually have no central ducting. This historic Ohio River village is the burial place of President William Henry Harrison, and we set outdoor units on higher ground.',
     relevance: [
       'North Bend (ZIP 45052) is a historic far-west village on the Ohio River — the burial place of President William Henry Harrison — with older homes set on low riverside ground. Those older homes often have no central ducting, so a single-zone mini-split is often the cleanest way to add real heating and cooling to the main living space.',
       'The low riverside ground keeps lower levels cool and damp, so we mount the outdoor unit on higher ground clear of the river and route the line set accordingly. A mini-split runs on heat-pump efficiency, which suits a smaller older home where operating cost counts.',
@@ -417,7 +417,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'loveland': {
     intro:
-      'Looking at a ductless mini-split in Loveland? We install and repair mini-splits that add zoned comfort to historic homes and rooms the main system skips. Call (513) 586-5107.',
+      'Loveland straddles the Little Miami River and the Loveland Bike Trail, and its older homes near downtown were often built without ducts, so a ductless mini-split adds heating and cooling through one small line-set penetration. Newer Loveland homes use one for a bonus room or sunroom.',
     relevance: [
       'Loveland (ZIP 45140) is a historic city straddling the Little Miami River and the Loveland Bike Trail, with a charming older downtown and a mix of historic and newer homes. The older homes near downtown were often built without central ducting, so a single-zone mini-split adds heating and cooling with only a small line-set penetration rather than opening up walls for ducts.',
       'The low riverside ground keeps some lower levels cool and damp, and a finished basement or a converted upstairs room is a natural place for a mini-split the central system never reached well. Newer Loveland homes more often want a mini-split for a bonus room or sunroom on its own zone, on heat-pump efficiency.',
@@ -433,7 +433,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'harrison': {
     intro:
-      'Thinking about a ductless mini-split in Harrison? We install and repair mini-splits that add zoned heating and cooling to older and newer homes alike. Call (513) 586-5107.',
+      'Ductless mini-split work in Harrison splits between older downtown homes built without ducts and newer homes with a bonus room or finished basement the central system neglects. Either way that room gets its own heat-pump thermostat, with the outdoor unit kept off low ground near the Whitewater River.',
     relevance: [
       'Harrison (ZIP 45030) is a far-west city on the Indiana state line along the Whitewater River, with an older downtown and a growing mix of established and newer homes. The older downtown homes were often built without central ducting, so a single-zone mini-split is a clean way to add heating and cooling without a full duct retrofit.',
       'The growing supply of newer Harrison homes more often wants a mini-split for a bonus room over the garage or a finished basement that the central system treats as an afterthought. Either way, a mini-split runs on heat-pump efficiency and sets that room on its own thermostat, and we keep the outdoor unit clear of the low ground near the Whitewater.',

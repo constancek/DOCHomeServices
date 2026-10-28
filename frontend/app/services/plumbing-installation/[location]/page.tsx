@@ -13,8 +13,8 @@ const config: ServiceLocationConfig = {
   parentCrumb: { label: 'Plumbing', href: '/services/plumbing' },
   businessType: 'Plumber',
   schemaServiceType: 'Plumbing Installation',
-  ctaLine: 'Planning a plumbing install in {neighborhood}? Call for a free estimate',
-  heroImage: '/services/plumbing-installation.jpg',
+  ctaLine: 'Planning a plumbing install in {neighborhood}? Call for an estimate',
+  heroImage: '/services/plumbing-installation.webp',
   introHeading: 'Plumbing Installation in {neighborhood}',
   introParagraphs: [
     'Whether you are upgrading a tired fixture or adding a water softener, the install has to be done right or it leaks. {brand} provides professional plumbing installation for homeowners in {place} — fixtures, water heaters, sump pumps, sewer lines, filtration, and softeners, installed leak-free and to code.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'tankless-water-heater', title: 'Tankless Water Heater' },
     { slug: 'plumbing-repair', title: 'Plumbing Repair' },
   ],
-  band1Image: '/services/plumbing-repair.jpg',
+  band1Image: '/services/plumbing-repair.webp',
   band1Heading: 'Signs It’s Time to Upgrade Your {neighborhood} Plumbing',
   commonSituations: [
     'Persistent leaks or drips',
@@ -52,10 +52,10 @@ const config: ServiceLocationConfig = {
     'Frequent repairs that add up',
   ],
   trustedBanner: 'Your Local & Trusted Plumbing Installation Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Plumbing Installation in {neighborhood}',
   band2Paragraphs: [
-    'We start with a free estimate. A licensed plumber reviews what you want installed, recommends the right equipment for your {neighborhood} home and water, and explains the flat-rate price before any work begins.',
+    'We start with an estimate. A licensed plumber reviews what you want installed, recommends the right equipment for your {neighborhood} home and water, and explains the flat-rate price before any work begins.',
     'On install day, we set the fixture or system with proper connections, pressure-test for leaks, clean up, and confirm everything works exactly as it should before we leave.',
   ],
   proseSections: [
@@ -65,12 +65,7 @@ const config: ServiceLocationConfig = {
     { title: 'Financing & Same-Day Installs', body: 'Most fixture and water-heater installs can be handled the same day you call. For larger projects — water heaters, sewer lines, or whole-home work — we offer financing with a quick application and flexible terms.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Choose Us',
-  whyUs: [
-    { icon: 'heart', title: 'Family-Run & Local', text: 'A local team that genuinely cares about your home and your time.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked, licensed plumbers and to-code installations.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'Transparent estimates you approve before any work begins.' },
-    { icon: 'check', title: 'Satisfaction Guarantee', text: 'We are not done until your new fixture works exactly as it should.' },
-  ],
+  whyParagraph: 'We’re a local, family-run plumbing company, and every fixture we install in {neighborhood} goes in to code by licensed, background-checked plumbers. You approve the estimate before work begins, and we stay until the new fixture works the way it should.',
   proofQuote:
     'Had them install a new water softener and replace two old toilets. Clean work, no leaks, and they walked me through everything before they started.',
   sharedFaqs: [
@@ -103,7 +98,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Plumbing Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Plumbing Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Plumbing installation in ${place} — fixtures, water heaters, sump pumps, filtration, and softeners installed leak-free and to code. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/plumbing-installation/${loc.slug}` },
     openGraph: {

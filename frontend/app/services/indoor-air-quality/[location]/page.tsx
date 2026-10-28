@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'HVACBusiness',
   schemaServiceType: 'Indoor Air Quality',
   ctaLine: 'Worried about your air quality in {neighborhood}? Call to schedule a test',
-  heroImage: '/services/iaq-hero.jpg',
+  heroImage: '/services/iaq-hero.webp',
   introHeading: 'Indoor Air Quality Services in {neighborhood}',
   introParagraphs: [
     'Cleaner, healthier air at home starts with knowing what is actually in it. {brand} tests indoor air and installs whole-home filtration, purifiers, humidifiers, and dehumidifiers for homeowners in {place} — tailored to your home rather than a one-size-fits-all box off the shelf.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'heat-pumps', title: 'Heat Pumps' },
     { slug: 'water-quality', title: 'Water Quality' },
   ],
-  band1Image: '/services/iaq-benefits.jpg',
+  band1Image: '/services/iaq-benefits.webp',
   band1Heading: 'Signs Your {neighborhood} Home Has an Air Quality Problem',
   commonSituations: [
     'Allergy or asthma flare-ups that feel worse indoors',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A new pet, baby, or family member with breathing issues',
   ],
   trustedBanner: 'Your Local & Trusted Indoor Air Quality Pros in {neighborhood}',
-  band2Image: '/services/furnace-filters.jpg',
+  band2Image: '/services/furnace-filters.webp',
   band2Heading: 'What to Expect From Your Air Quality Service in {neighborhood}',
   band2Paragraphs: [
     'We start with an indoor air quality test to find what is actually in your air — allergens, humidity levels, odors, or airborne contaminants — then explain the results and the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Cleaner Air, Longer HVAC Life', body: 'Poor air quality is hard on equipment: dust and debris coat the coils and blower, force the system to work harder, and shorten its life. Better filtration in your {neighborhood} home means cleaner air to breathe and less strain on the furnace and AC, which means fewer breakdowns and lower bills.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'badge', title: 'Air Quality Testing', text: 'We test your indoor air to pinpoint the exact cause before recommending a solution.' },
-    { icon: 'check', title: 'Filtration & Humidifiers', text: 'Whole-home air purifiers, filters, humidifiers, and dehumidifiers — installed right.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked technicians and properly installed, lasting systems.' },
-    { icon: 'star', title: 'Satisfaction Guarantee', text: 'If you are not happy, neither are we — we stand behind every job.' },
-  ],
+  whyParagraph: 'We test the air in your {neighborhood} home to find the exact cause before suggesting anything, then install the right purifier, filter, humidifier or dehumidifier. If you aren’t happy with the job, we make it right or you don’t pay.',
   proofQuote:
     'Our allergies were brutal indoors and the winter air was painfully dry. They tested the air, put in a whole-home purifier and a humidifier on the furnace, and the difference was real — less dust, easier breathing, no more static shocks.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Indoor Air Quality in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Indoor Air Quality in ${loc.neighborhood}, ${loc.state}`,
     description: `Indoor air quality services in ${place} — air testing, whole-home filtration, purifiers, and humidifiers for cleaner, healthier air. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/indoor-air-quality/${loc.slug}` },
     openGraph: {

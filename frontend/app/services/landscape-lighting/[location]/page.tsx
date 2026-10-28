@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Landscape Lighting Installation',
   ctaLine: 'Want to light up your {neighborhood} landscape? Call today',
-  heroImage: '/services/landscape-hero.jpg',
+  heroImage: '/services/landscape-hero.webp',
   introHeading: 'Landscape Lighting Installation in {neighborhood}',
   introParagraphs: [
     'A well-designed landscape lighting system changes how a {neighborhood} property looks after sunset — safer paths, highlighted trees and stonework, and a warmer feel without glare. {brand} designs and installs custom low-voltage and line-voltage lighting for homeowners across {place}, with weather-rated fixtures and safe electrical connections.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'holiday-lighting', title: 'Holiday Lighting' },
     { slug: 'hot-tub-wiring', title: 'Hot Tub Wiring' },
   ],
-  band1Image: '/services/landscape-benefits.jpg',
+  band1Image: '/services/landscape-benefits.webp',
   band1Heading: 'Signs It Is Time for Landscape Lighting in {neighborhood}',
   commonSituations: [
     'Dark paths, driveways, or stairs that are a trip hazard',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Stonework or architectural features worth highlighting',
   ],
   trustedBanner: 'Your Local & Trusted Landscape Lighting Pros in {neighborhood}',
-  band2Image: '/services/landscape-lighting.jpg',
+  band2Image: '/services/landscape-lighting.webp',
   band2Heading: 'Our Landscape Lighting Process in {neighborhood}',
   band2Paragraphs: [
     'We start with an on-site walk-through, plan a layout that fits how you use the yard, and explain the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Energy-Efficient LED Systems', body: 'Modern LED fixtures use far less power and last much longer than older bulbs, which matters on a system that runs every night. We install efficient LED landscape lighting so {neighborhood} homeowners get steady, lasting brightness with lower running costs.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Oversight', text: 'Every system installed and inspected under licensed electrician oversight.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Safe wiring, proper spacing, and balanced design that meets code.' },
-    { icon: 'badge', title: 'Durable Fixtures', text: 'Weather-rated, energy-efficient fixtures built for long-term outdoor use.' },
-    { icon: 'house', title: 'Custom Design', text: 'Layered layouts tailored to how you use your property.' },
-  ],
+  whyParagraph: 'A licensed electrician oversees and inspects every landscape lighting system we put in around {neighborhood}. The wiring meets code, the fixtures are weather-rated for long-term outdoor use, and the layout follows how you actually use the yard after dark.',
   proofQuote:
     'They lit the front walk and uplit the big maples, then ran path lights along the drive. No glare, no dark stretches, and the wiring is completely hidden. It has run through two winters without a problem.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Landscape Lighting Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Landscape Lighting Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Landscape lighting installation in ${place} — custom, energy-efficient low-voltage systems installed by licensed electricians for safety and curb appeal. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/landscape-lighting/${loc.slug}` },
     openGraph: {

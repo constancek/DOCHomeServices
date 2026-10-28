@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Light Fixture Installation',
   ctaLine: 'Installing or replacing a light fixture in {neighborhood}? Call today',
-  heroImage: '/services/fixture-hero.jpg',
+  heroImage: '/services/fixture-hero.webp',
   introHeading: 'Light Fixture Installation in {neighborhood}',
   introParagraphs: [
     'The right fixture changes how a {neighborhood} room looks and works — better light over the kitchen island, a brighter vanity, a dining fixture that finishes the space. {brand} installs and replaces light fixtures across {place}, from pendants and chandeliers to ceiling and wall-mounted lighting, all wired safely by licensed electricians.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'led-lighting', title: 'LED Lighting' },
     { slug: 'ceiling-fan-installation', title: 'Ceiling Fans' },
   ],
-  band1Image: '/services/fixture-types.jpg',
+  band1Image: '/services/fixture-types.webp',
   band1Heading: 'Fixtures We Install and Replace in {neighborhood}',
   commonSituations: [
     'Replacing an outdated or damaged fixture',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A heavy fixture that needs a properly rated box',
   ],
   trustedBanner: 'Your Local & Trusted Light Fixture Installation Pros in {neighborhood}',
-  band2Image: '/services/lighting-fixture-installation.jpg',
+  band2Image: '/services/lighting-fixture-installation.webp',
   band2Heading: 'Our Light Fixture Installation Process in {neighborhood}',
   band2Paragraphs: [
     'We review the room and the fixture, safely remove the old one, and explain the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Layered Lighting by Room', body: 'A kitchen often pairs overhead light with pendants over the island; a living room layers ambient and accent fixtures. We plan fixture choices and placement so each {neighborhood} room is lit for how it is actually used.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Experienced pros who wire and mount every fixture safely.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Secure mounting and connections that meet electrical code.' },
-    { icon: 'badge', title: 'Quality Fixtures', text: 'High-quality, energy-efficient fixture and LED options.' },
-    { icon: 'house', title: 'Financing Available', text: 'Flexible financing to upgrade lighting across multiple rooms.' },
-  ],
+  whyParagraph: 'Every fixture we hang in {neighborhood} is wired and mounted by a licensed electrician, with secure connections that meet electrical code. Energy-efficient LED options are available, and if you’re replacing lights in several rooms, financing can spread the cost.',
   proofQuote:
     'They hung a heavy chandelier over the stairwell, added pendants above the island, and swapped the old vanity lights. Everything is mounted solid, wired right, and the switches all work as expected. Clean, careful work.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Light Fixture Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Light Fixture Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Light fixture installation in ${place} — kitchen, bathroom, dining, pendant, and ceiling fixtures installed and replaced by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/lighting-fixture-installation/${loc.slug}` },
     openGraph: {

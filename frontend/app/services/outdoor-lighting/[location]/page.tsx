@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Outdoor Lighting Installation',
   ctaLine: 'Want to light up your {neighborhood} yard the right way? Call today',
-  heroImage: '/services/outdoor-lighting-hero.jpg',
+  heroImage: '/services/outdoor-lighting-hero.webp',
   introHeading: 'Outdoor Lighting Installation in {neighborhood}',
   introParagraphs: [
     'A well-planned outdoor lighting system makes a {neighborhood} home safer after dark, highlights the landscaping, and extends how long you can use the yard. {brand} designs and installs landscape, patio, holiday, and security lighting for homeowners across {place} — with durable, weather-rated fixtures and code-compliant wiring.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'holiday-lighting', title: 'Holiday Lighting' },
     { slug: 'hot-tub-wiring', title: 'Hot Tub Wiring' },
   ],
-  band1Image: '/services/outdoor-lighting-benefits.jpg',
+  band1Image: '/services/outdoor-lighting-benefits.webp',
   band1Heading: 'Signs It Is Time for Outdoor Lighting in {neighborhood}',
   commonSituations: [
     'Dark walkways, stairs, or driveways that are a trip hazard',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Seasonal holiday displays you would rather not climb a ladder for',
   ],
   trustedBanner: 'Your Local & Trusted Outdoor Lighting Pros in {neighborhood}',
-  band2Image: '/services/outdoor-lighting.jpg',
+  band2Image: '/services/outdoor-lighting.webp',
   band2Heading: 'Our Outdoor Lighting Process in {neighborhood}',
   band2Paragraphs: [
     'We walk the property with you, plan a layout that fits how you use the yard, and explain the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Energy-Efficient LED Systems', body: 'Modern LED fixtures use a fraction of the power of older bulbs and last far longer, which matters on a system that runs every night. We install efficient LED lighting so {neighborhood} homeowners get the look they want with lower running costs and less maintenance.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Experienced pros handling every outdoor connection safely.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Moisture-rated wiring and connections that meet code.' },
-    { icon: 'badge', title: 'Durable Fixtures', text: 'High-quality products rated to perform in Midwest weather.' },
-    { icon: 'clock', title: 'Reliable Scheduling', text: 'Transparent pricing and dependable timelines.' },
-  ],
+  whyParagraph: 'Outdoor wiring around {neighborhood} homes takes rain and frost, so our licensed electricians use moisture-rated wire and connections that meet code. The fixtures are rated for Midwest weather, and you get a clear price and a timeline we stick to.',
   proofQuote:
     'They mapped out the whole yard, lit the front path and the steps, and added uplights on the trees. No glare, no dark corners, and it has run through two winters without a hiccup. Clean wiring and a fair price.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Outdoor Lighting Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Outdoor Lighting Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Outdoor lighting installation in ${place} — landscape, patio, holiday, and security lighting installed by licensed electricians, built for Midwest weather. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/outdoor-lighting/${loc.slug}` },
     openGraph: {

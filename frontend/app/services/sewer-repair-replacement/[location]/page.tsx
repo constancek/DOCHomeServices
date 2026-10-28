@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Sewer Line Repair & Replacement',
   ctaLine: 'Sewer backup in {neighborhood}? Call for same-day service',
-  heroImage: '/services/sewer-repair-replacement.jpg',
+  heroImage: '/services/sewer-repair-replacement.webp',
   introHeading: 'Sewer Repair & Replacement in {neighborhood}',
   introParagraphs: [
     'When the main sewer line fails, every drain in the house stops working — and the mess does not wait. {brand} provides sewer line repair, trenchless replacement, and camera inspection for homeowners in {place}, fixing the problem at the source.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'leak-detection', title: 'Leak Detection' },
     { slug: 'emergency-plumbing', title: 'Emergency Plumbing' },
   ],
-  band1Image: '/services/drain-cleaning.jpg',
+  band1Image: '/services/drain-cleaning.webp',
   band1Heading: 'Signs Your {neighborhood} Sewer Line Needs Attention',
   commonSituations: [
     'Slow drains across several fixtures at once',
@@ -52,7 +52,7 @@ const config: ServiceLocationConfig = {
     'A sudden spike in your water bill',
   ],
   trustedBanner: 'Your Local & Trusted Sewer Line Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Sewer Service in {neighborhood}',
   band2Paragraphs: [
     'We start with a full camera inspection to see what is happening underground — blockages, cracks, roots — for the complete picture. If there is a clog, we clear it, then walk you through the findings and explain whether a spot repair or full line work is the right call.',
@@ -65,12 +65,7 @@ const config: ServiceLocationConfig = {
     { title: 'Emergency Sewer Service in {neighborhood}', body: 'A main-line backup pushing sewage into your home cannot wait. Our team responds fast and reaches most {neighborhood} homes the same day to clear the blockage, assess the line, and make the repair.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'badge', title: 'Camera-Diagnosed', text: 'We inspect the line first so the fix matches the actual problem.' },
-    { icon: 'check', title: 'Trenchless Available', text: 'We replace lines without tearing up your yard whenever possible.' },
-    { icon: 'shield', title: 'Licensed & To Code', text: 'Background-checked plumbers and installations that meet local code.' },
-    { icon: 'clock', title: 'Same-Day & Emergency', text: 'We respond fast when a main line backs up — no overtime or weekend fees.' },
-  ],
+  whyParagraph: 'When a main line backs up in {neighborhood}, we respond fast and charge no overtime or weekend fees. A camera inspection comes first so the fix matches the problem, and trenchless replacement spares your yard whenever possible.',
   proofQuote:
     'Sewage started backing up into the basement floor drain. They camera-scoped the line, found roots in the old clay lateral, and relined it trenchless without digging up the yard.',
   sharedFaqs: [
@@ -103,7 +98,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Sewer Repair & Replacement in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Sewer Repair & Replacement in ${loc.neighborhood}, ${loc.state}`,
     description: `Sewer line repair, trenchless replacement, and camera inspection in ${place}. Backups, roots, and broken lines fixed at the source. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/sewer-repair-replacement/${loc.slug}` },
     openGraph: {

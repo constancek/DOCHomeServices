@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'HVACBusiness',
   schemaServiceType: 'Furnace Maintenance',
   ctaLine: 'Ready for a furnace tune-up in {neighborhood}? Call to schedule',
-  heroImage: '/services/furnace-maintenance.jpg',
+  heroImage: '/services/furnace-maintenance.webp',
   introHeading: 'Furnace Maintenance in {neighborhood}',
   introParagraphs: [
     'A fall tune-up is the cheapest insurance against a no-heat night in January. {brand} provides furnace maintenance for homeowners in {place} — safety checks, cleaning, and filter service for gas and electric furnaces.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'heat-pumps', title: 'Heat Pumps' },
     { slug: 'indoor-air-quality', title: 'Indoor Air Quality' },
   ],
-  band1Image: '/services/furnace-repair.jpg',
+  band1Image: '/services/furnace-repair.webp',
   band1Heading: 'Signs Your {neighborhood} Furnace Needs a Tune-Up',
   commonSituations: [
     'Rising energy bills without increased usage',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'The system has not been serviced in over a year',
   ],
   trustedBanner: 'Your Local & Trusted Furnace Maintenance Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Furnace Tune-Up in {neighborhood}',
   band2Paragraphs: [
     'A technician runs a multi-point inspection, cleans the components that collect buildup, and replaces the filter. We test the thermostat, controls, and startup, and check electrical connections so the system runs efficiently and safely.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Maintenance Plans & Simple Upkeep', body: 'Between visits, replace your filter every 1–3 months, keep vents and registers clear, listen for unusual noises, and make sure the thermostat is reading right. For {neighborhood} homeowners who would rather not track it, our maintenance plans schedule the tune-ups and document the service for warranty purposes.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Choose Us',
-  whyUs: [
-    { icon: 'badge', title: 'Thorough Tune-Ups', text: 'Detailed multi-point inspections that catch small issues before they become repairs.' },
-    { icon: 'check', title: 'Gas & Electric', text: 'We maintain both gas and electric furnaces with the right care for each.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked technicians and a real safety check every visit.' },
-    { icon: 'clock', title: 'Upfront Flat-Rate Pricing', text: 'Affordable, transparent pricing and maintenance plans available.' },
-  ],
+  whyParagraph: 'Our multi-point furnace tune-up includes a real safety check and catches small faults before they become repairs. Licensed technicians service gas and electric furnaces across {neighborhood}, with flat-rate pricing and maintenance plans available.',
   proofQuote:
     'The fall tune-up turned up a hairline crack starting in the heat exchanger. They caught it before it became a carbon-monoxide problem and we sorted it out safely before winter.',
   sharedFaqs: [
@@ -105,7 +100,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Furnace Maintenance in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Furnace Maintenance in ${loc.neighborhood}, ${loc.state}`,
     description: `Furnace tune-ups and maintenance in ${place} — safety checks, cleaning, and filter service for gas and electric furnaces. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/furnace-maintenance/${loc.slug}` },
     openGraph: {

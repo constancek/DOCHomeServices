@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Water Quality & Filtration',
   ctaLine: 'Water quality concerns in {neighborhood}? Call to schedule a test',
-  heroImage: '/services/wq-hero.jpg',
+  heroImage: '/services/wq-hero.webp',
   introHeading: 'Water Quality Services in {neighborhood}',
   introParagraphs: [
     'Bad taste, hard-water buildup, or staining? {brand} tests your water and installs whole-house filtration and softeners for homeowners in {place} — cleaner, better-tasting water at every tap, not just the kitchen sink.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'faucet-repair-replacement', title: 'Faucet Repair & Replacement' },
     { slug: 'leak-repair', title: 'Leak Repair' },
   ],
-  band1Image: '/services/wq-signs.jpg',
+  band1Image: '/services/wq-signs.webp',
   band1Heading: 'Signs of Poor Water Quality in Your {neighborhood} Home',
   commonSituations: [
     'Unpleasant taste or odor in your tap water',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Scale shortening the life of your water heater',
   ],
   trustedBanner: 'Your Local & Trusted Water Quality Pros in {neighborhood}',
-  band2Image: '/services/water-quality.jpg',
+  band2Image: '/services/water-quality.webp',
   band2Heading: 'What to Expect From Your Water Service in {neighborhood}',
   band2Paragraphs: [
     'We start by testing your water to see exactly what is in it — hardness, chlorine, sediment, metals — then explain the results and quote a flat rate before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Protecting Your Plumbing and Appliances', body: 'Treating the water is one of the cheapest ways to protect everything downstream of it. Less scale means fewer clogs and leaks, a water heater that lasts its full life, and a dishwasher and coffee maker that run the way they should — a real payoff for a {neighborhood} home on hard water.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'check', title: 'Whole-House Solutions', text: 'We treat water at the main line so every tap, shower, and appliance benefits.' },
-    { icon: 'badge', title: 'Trusted Brands', text: 'Customized system recommendations using proven, reliable equipment.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked technicians and careful, code-compliant installation.' },
-    { icon: 'star', title: 'We Test First', text: 'We test your water so you only treat what you actually have — no guesswork.' },
-  ],
+  whyParagraph: 'We test the water in your {neighborhood} home before recommending anything, so you only treat what is actually in it. Systems go in at the main line, which covers every tap and appliance, and licensed technicians install them to code.',
   proofQuote:
     'Hard water was wrecking our fixtures and the coffee always tasted off. They tested the water, installed a softener and a carbon filter, and the difference at every tap was obvious within a day. No pressure, just straight answers.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Water Quality Services in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Water Quality Services in ${loc.neighborhood}, ${loc.state}`,
     description: `Water testing, whole-house filtration, and softeners in ${place} — cleaner, better-tasting water at every tap. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/water-quality/${loc.slug}` },
     openGraph: {

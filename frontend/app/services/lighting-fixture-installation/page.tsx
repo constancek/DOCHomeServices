@@ -3,18 +3,19 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { lightingFixtureCopy } from '@/content/location-copy/lighting-fixture-installation';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Light Fixture Installation',
   description: `Light fixture installation across ${site.serviceArea} from ${site.name} — kitchen, bathroom, dining, pendant, and ceiling fixtures installed and replaced by licensed electricians.`,
   alternates: { canonical: '/services/lighting-fixture-installation' },
-};
+});
 
 const types = [
   'Bathroom light fixtures designed for mirrors and vanity areas',
@@ -49,27 +50,14 @@ const designSpaces = [
   'Hallways and entryways that need improved visibility',
 ];
 
-const whyChoose = [
-  'Licensed electricians with installation experience',
-  'Professional light fixture installation services',
-  'Safe and code-compliant electrical work',
-  'High-quality lighting fixture options',
-  'Reliable scheduling and clear pricing',
-];
 
-const whyUs = [
-  { icon: 'shield' as const, title: 'Licensed Electricians', text: 'Experienced pros who wire and mount every fixture safely.' },
-  { icon: 'check' as const, title: 'Code-Compliant Work', text: 'Secure mounting and connections that meet electrical code.' },
-  { icon: 'badge' as const, title: 'Quality Fixtures', text: 'High-quality, energy-efficient fixture and LED options.' },
-  { icon: 'house' as const, title: 'Financing Available', text: 'Flexible financing to upgrade lighting across multiple rooms.' },
-];
 
 const faqs = [
   { q: 'What types of lighting fixtures do you install?', a: 'We install many types of fixtures including bathroom light fixtures, kitchen light fixtures, dining room light fixtures, ceiling lights, and wall-mounted lighting.' },
   { q: 'Can you replace existing lighting fixtures?', a: 'Yes. Our electricians provide light fixture replacement services for outdated or damaged fixtures.' },
   { q: 'Do you offer energy-efficient lighting options?', a: 'Yes. Many modern lighting fixtures support LED bulbs that provide strong brightness while using less electricity.' },
   { q: 'How long will light fixture installation take?', a: 'Most installations can be completed during a single service visit, depending on the number of fixtures and electrical connections involved.' },
-  { q: 'Should you DIY or hire a professional to install light fixtures?', a: 'Professional installation ensures wiring is handled safely and the fixture is mounted securely. This reduces the risk of electrical issues and ensures proper performance.' },
+  { q: 'Should you DIY or hire a professional to install light fixtures?', a: 'Replacing a light for a similar one on an existing box is a reasonable DIY job if you are confident at the panel. Call someone when the box is not rated for the weight — a heavy fixture or anything with a fan needs a fan-rated box, not a standard one — when there is no ground wire in an older ceiling, or when you are adding a fixture where none existed. That last one needs a permit in most jurisdictions here.' },
 ];
 
 const serviceSchema = {
@@ -117,32 +105,16 @@ export default function LightingFixtureInstallationPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Installing or replacing a light fixture?
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot couponTitle="Any Electrical Service">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/fixture-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/fixture-hero.webp)' }}
             role="img"
             aria-label="Pendant light fixtures over a kitchen island"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Professional Light Fixture Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -177,15 +149,15 @@ export default function LightingFixtureInstallationPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/fixture-types.jpg)' }}
+            style={{ backgroundImage: 'url(/services/fixture-types.webp)' }}
             role="img"
             aria-label="Dining room with a decorative light fixture"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Types of Light Fixtures We Install
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Different rooms require different types of lighting. Some fixtures provide general room
               lighting, while others focus light on specific areas. Our electricians install a variety of
               lighting fixtures designed to improve both function and appearance. Common installations
@@ -193,13 +165,13 @@ export default function LightingFixtureInstallationPage() {
             </p>
             <ul className="mt-4 grid gap-1.5">
               {types.map((t) => (
-                <li key={t} className="flex gap-2 text-sm font-medium">
+                <li key={t} className="flex gap-2 text-base font-medium">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   {t}
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Many homeowners combine multiple fixture types in the same room — a kitchen may include
               overhead lighting along with pendant fixtures above the island. This layered approach
               improves visibility and adds visual interest.
@@ -215,33 +187,51 @@ export default function LightingFixtureInstallationPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Our Light Fixture Installation Process
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Installing a lighting fixture involves more than attaching it to the ceiling. Proper wiring
               and secure mounting are essential for safe operation. Our electricians follow a simple
               process to ensure every installation is completed correctly. Our process includes:
             </p>
             <ul className="mt-4 grid gap-1.5">
               {process.map((p) => (
-                <li key={p} className="flex gap-2 text-sm font-medium">
+                <li key={p} className="flex gap-2 text-base font-medium">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   {p}
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Careful installation helps ensure your new lighting works reliably and distributes light
               evenly throughout the room.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Electrician planning a light fixture installation"
           />
+        </div>
+      </section>
+
+      <ServiceReviews service="lighting-fixture-installation" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Installing or replacing a light fixture?
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -249,7 +239,7 @@ export default function LightingFixtureInstallationPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Energy-Efficient Light Fixture Options</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Many homeowners are upgrading to fixtures designed for better energy efficiency. Modern
             lighting often uses{' '}
             <Link href="/services/led-lighting" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
@@ -257,7 +247,7 @@ export default function LightingFixtureInstallationPage() {
             </Link>{' '}
             that produce bright illumination while using less electricity.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             LED lighting also lasts significantly longer than traditional bulbs, which means fewer
             replacements and lower long-term lighting costs. Energy-efficient fixtures also produce less
             heat, so they can make indoor spaces more comfortable while still providing strong light.
@@ -265,24 +255,24 @@ export default function LightingFixtureInstallationPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {ledBenefits.map((b) => (
-              <li key={b} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {b}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Upgrading lighting fixtures is one of the simplest ways to improve your home’s lighting
             efficiency.
           </p>
 
           {/* Financing */}
           <h2 className="mt-12 section-title text-brand-700">Light Fixture Financing Options</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Lighting upgrades can improve several rooms at once. Financing options make larger lighting
             projects easier to manage.
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             {site.name} offers financing options that let homeowners upgrade lighting fixtures without
             paying the full cost upfront. Our team can explain available financing options and help you
             choose a plan that fits your budget.
@@ -290,7 +280,7 @@ export default function LightingFixtureInstallationPage() {
 
           {/* Design services */}
           <h2 className="mt-12 section-title text-brand-700">Light Fixture Design Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Lighting design plays an important role in creating balanced illumination throughout a home.
             Proper fixture placement helps eliminate dark areas and improves visibility in everyday
             spaces. Our electricians help homeowners choose lighting fixtures that match the style of
@@ -299,55 +289,38 @@ export default function LightingFixtureInstallationPage() {
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {designSpaces.map((d) => (
-              <li key={d} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={d} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {d}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Thoughtful lighting design helps your home feel brighter and more welcoming.
           </p>
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Light Fixture Installation</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            Homeowners throughout {site.serviceArea} trust {site.name} for reliable electrical services
-            and lighting installation. When you work with our electricians, you receive:
-          </p>
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
-                <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
-                {w}
-              </li>
-            ))}
-          </ul>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <p className="mt-6 text-sm leading-relaxed text-ink/75">
-            Our goal is simple. We install lighting fixtures that improve both the appearance and function
-            of your home.
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            Swapping a light for a similar one on an existing box is a fair DIY job. Call us
+            when a heavy fixture or fan needs a rated box, the ceiling has no ground wire, or
+            it’s a brand-new location.
           </p>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Light Fixture Installation FAQs</h2>
           <div className="mt-4">
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -355,38 +328,38 @@ export default function LightingFixtureInstallationPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Light Fixture Installation Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule Light Fixture Installation Today</h2>
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to install or replace a fixture? {site.name} installs light fixtures across{' '}
-              {site.serviceArea}. Call now or request a free estimate.
+              {site.serviceArea}. Call now or request an estimate.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={site.primaryPhone.href} className="btn-pink text-base">
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+                Request an Estimate
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Light fixture installation by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Light fixture installation by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            We install and replace light fixtures across {site.serviceArea} —{' '}
-            {locations.filter((l) => lightingFixtureCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on the homes in your area.
-          </p>
-          <NeighborhoodLinks copy={lightingFixtureCopy} basePath="/services/lighting-fixture-installation" linkPrefix="Light fixture installation" />
-        </div>
-      </section>
-
-      <PageSections />
+      <ServiceSections service="lighting-fixture-installation">
+        {/* Light fixture installation by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Light fixture installation by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We install and replace light fixtures across {site.serviceArea} —{' '}
+              {locations.filter((l) => lightingFixtureCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on the homes in your area.
+            </p>
+            <NeighborhoodLinks copy={lightingFixtureCopy} basePath="/services/lighting-fixture-installation" linkPrefix="Light fixture installation" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

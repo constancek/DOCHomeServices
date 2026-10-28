@@ -10,15 +10,15 @@ export default function Footer() {
     <footer className="bg-navy-bar text-brand-100">
       <div className="container-page py-12">
         <div className="grid gap-10 lg:grid-cols-[1.3fr_1fr_1fr]">
-          {/* Brand + newsletter */}
+          {/* Brand */}
           <div>
-            <Link href="/" className="flex items-center gap-2.5">
+            <Link href="/" className="inline-flex flex-col items-start gap-3">
               <img
-                src="/mascot.png"
+                src="/mascot.webp"
                 alt="Degree of Comfort mascot"
-                width={48}
-                height={48}
-                className="h-12 w-12 flex-shrink-0 object-contain"
+                width={112}
+                height={112}
+                className="h-28 w-28 flex-shrink-0 object-contain"
               />
               <span className="leading-none">
                 <span className="block whitespace-nowrap font-logo text-xl font-black tracking-tight text-white">
@@ -30,30 +30,17 @@ export default function Footer() {
               </span>
             </Link>
 
-            <p className="mt-5 text-sm font-bold uppercase tracking-wide text-white">
-              Join our newsletter
-            </p>
-            <form className="mt-2 flex max-w-sm gap-2">
-              <input
-                type="email"
-                placeholder="Email address"
-                aria-label="Email address"
-                className="w-full rounded-full border border-white/20 bg-white/10 px-4 py-2.5 text-sm text-white placeholder:text-brand-300 outline-none focus:border-pink-400"
-              />
-              <button type="button" className="btn-lime px-5 py-2.5 text-xs">
-                Submit
-              </button>
-            </form>
-
-            <div className="mt-5 flex gap-2">
+            <div className="mt-5 flex gap-2.5">
               {site.social.map((s) => (
                 <a
                   key={s.label}
                   href={s.href}
-                  aria-label={s.label}
-                  className="grid h-9 w-9 place-items-center rounded-full bg-white/10 text-xs font-bold text-white transition hover:bg-pink-500"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`${site.name} on ${s.label}`}
+                  className="grid h-10 w-10 place-items-center rounded-full bg-white/10 text-white transition hover:bg-pink-500"
                 >
-                  {s.label.slice(0, 1)}
+                  <Icon name={s.icon} className="h-5 w-5" />
                 </a>
               ))}
             </div>
@@ -80,7 +67,7 @@ export default function Footer() {
               <li>
                 <a href={site.offices[0].mapHref} className="flex items-center gap-2.5 transition hover:text-white">
                   <Icon name="pin" className="h-4 w-4 flex-shrink-0 text-brand-300" />
-                  <span>{site.location}</span>
+                  <address className="not-italic">{site.offices[0].full}</address>
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
@@ -122,9 +109,6 @@ export default function Footer() {
           <div className="flex gap-4">
             <Link href="/sitemap.xml" className="transition hover:text-white">
               Site Map
-            </Link>
-            <Link href="/" className="transition hover:text-white">
-              Privacy Policy
             </Link>
           </div>
         </div>

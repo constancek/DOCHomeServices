@@ -3,18 +3,19 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { waterQualityCopy } from '@/content/location-copy/water-quality';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Water Quality',
   description: `Water quality services across ${site.serviceArea} from ${site.name} — whole-house filtration, water softeners, and water testing for cleaner, better-tasting water. Upfront pricing.`,
   alternates: { canonical: '/services/water-quality' },
-};
+});
 
 const benefits = [
   { lead: 'Protects family health', text: 'keeps out chlorine, heavy metals like lead or mercury, and bacteria that can cause illness.' },
@@ -33,12 +34,6 @@ const signs = [
   'Staining on sinks, tubs, or laundry',
 ];
 
-const whyUs = [
-  { icon: 'check' as const, title: 'Whole-House Solutions', text: 'We treat water at the main line so every tap, shower, and appliance benefits.' },
-  { icon: 'badge' as const, title: 'Trusted Brands', text: 'Customized system recommendations using proven, reliable equipment.' },
-  { icon: 'shield' as const, title: 'Licensed & Insured', text: 'Background-checked technicians and careful, code-compliant installation.' },
-  { icon: 'star' as const, title: 'Ongoing Support', text: 'We monitor performance over time, not a one-off install with unknown results.' },
-];
 
 const faqs = [
   { q: 'What is a whole-house water filtration system?', a: 'It is a system installed at your main water line so every tap, shower, and appliance in the home gets filtered water — not just the kitchen sink. It treats the water before it reaches anything in the house.' },
@@ -91,32 +86,16 @@ export default function WaterQualityPage() {
         ]}
       />
 
-      {/* Top CTA banner (orange, green button) */}
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Water quality concerns in {site.serviceArea}?
-          </h2>
-          <a
-            href={site.primaryPhone.href}
-            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
-          >
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar>
+        <MainWithSidebar mascot>
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/wq-hero.jpg)' }}
+            style={{ backgroundImage: 'url(/services/wq-hero.webp)' }}
             role="img"
             aria-label="Clean, clear glass of drinking water"
           />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+          <h2 className="section-title text-brand-700">
             Why Your Home’s Water Quality Matters
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -127,7 +106,7 @@ export default function WaterQualityPage() {
           </p>
           <ul className="mt-4 space-y-2.5">
             {benefits.map((b) => (
-              <li key={b.lead} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={b.lead} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
                 <span>
                   <span className="font-semibold text-brand-800">{b.lead}:</span> {b.text}
@@ -143,27 +122,27 @@ export default function WaterQualityPage() {
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/wq-signs.jpg)' }}
+            style={{ backgroundImage: 'url(/services/wq-signs.webp)' }}
             role="img"
             aria-label="Water running from a kitchen faucet"
           />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs You Have Poor Water Quality
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Poor water quality can affect your health, your plumbing, and the performance of your
               appliances. Some issues are easy to notice; others need closer attention. Common signs:
             </p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-x-8 gap-y-5 sm:grid-cols-2">
               {signs.map((s) => (
-                <li key={s} className="flex gap-2 text-sm font-medium">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
+                <li key={s} className="flex gap-3 text-base font-medium leading-snug">
+                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
                   {s}
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               If you notice any of these, water testing and treatment options can help improve your
               water quality and protect your home.
             </p>
@@ -175,32 +154,50 @@ export default function WaterQualityPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Water Filtration System Installation
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Installing a whole-house water filtration system is one of the smartest upgrades a
               homeowner can make, and we have helped many families take the leap. These systems do not
               just filter water at the kitchen tap — they treat every drop flowing into your home:
               showers, sinks, washing machines, you name it. We handle whole-house filtration
               installation with precision, using trusted brands and proven methods.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               We also install water softeners to tackle hard minerals like calcium and magnesium. Soft
               water preserves your pipes, improves soap lather, and keeps skin feeling better — a
               properly installed filtration or softening system brings clarity to every faucet.
             </p>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Discover how {site.name} improves home water quality through expert water treatment
               designed for lasting results.
             </p>
           </div>
           <div
             className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }}
+            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
             role="img"
             aria-label="Technician discussing water filtration options with a homeowner"
           />
+        </div>
+      </section>
+
+      <ServiceReviews service="water-quality" />
+
+      {/* Orange call banner, right under the reviews and awards */}
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Water quality concerns in {site.serviceArea}?
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600"
+          >
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
@@ -208,7 +205,7 @@ export default function WaterQualityPage() {
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">Water Conditioning Services</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             If your water leaves your skin dry, soap will not lather well, or your appliances seem to
             struggle, you are probably dealing with hard water. That is where water conditioning comes
             in — these systems break down the minerals that cause buildup and mess with your water’s
@@ -218,12 +215,12 @@ export default function WaterQualityPage() {
           <h2 className="mt-12 section-title text-brand-700">
             The Importance of Professional Water Purification
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             DIY filters look tempting, but professional-grade systems deliver lasting performance.
             Filling a pitcher is not the same as intercepting contaminants at the cold-water main
             before they reach every tap in the house.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Our experts help you choose a whole-house filtration system that matches your needs,
             install the treatment system correctly, and monitor performance over time — complete peace
             of mind, not a one-off purchase with unknown results.
@@ -231,39 +228,24 @@ export default function WaterQualityPage() {
 
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Water Quality</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            Water conditioning plays an important role in improving water quality, protecting your
-            plumbing, and extending the life of household appliances. {site.name} provides
-            professional water conditioning and filtration designed to address hard water, mineral
-            buildup, and other common water-quality concerns.
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            We test your water first, then quote a flat rate for the system that fits it. A softener handles hardness and a carbon filter handles chlorine taste, so buying the wrong system leaves the real problem in place.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            With experienced technicians, customized system recommendations, and careful installation,
-            we help homeowners achieve cleaner, better-tasting water. Clear communication and
-            dependable service make sure your system is set up for long-term performance and reliable
-            results.
-          </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           {/* FAQ */}
           <h2 className="mt-12 section-title text-brand-700">Water Quality FAQs</h2>
           <div className="mt-4">
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />
@@ -271,12 +253,12 @@ export default function WaterQualityPage() {
 
           {/* Bottom CTA */}
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">
+            <h2 className="text-2xl font-extrabold sm:text-3xl">
               Schedule Your Water Quality Service Today
             </h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Cleaner water from every tap makes drinking safer, showers nicer, and appliances
-              longer-lasting. Ready for a home water filtration system? Call now or request a free
+              longer-lasting. Ready for a home water filtration system? Call now or request an
               estimate.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -284,28 +266,28 @@ export default function WaterQualityPage() {
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+                Request an Estimate
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Water quality by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Water quality by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            We test water and install filtration and softeners across {site.serviceArea} —{' '}
-            {locations.filter((l) => waterQualityCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on hard water and the homes in your area.
-          </p>
-          <NeighborhoodLinks copy={waterQualityCopy} basePath="/services/water-quality" linkPrefix="Water quality" />
-        </div>
-      </section>
-
-      <PageSections />
+      <ServiceSections service="water-quality">
+        {/* Water quality by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Water quality by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We test water and install filtration and softeners across {site.serviceArea} —{' '}
+              {locations.filter((l) => waterQualityCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on hard water and the homes in your area.
+            </p>
+            <NeighborhoodLinks copy={waterQualityCopy} basePath="/services/water-quality" linkPrefix="Water quality" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

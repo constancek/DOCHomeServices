@@ -1,6 +1,6 @@
 export const part4: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'reading': {
-    intro: 'Want to light a path, a front facade, or a few trees in Reading? Our licensed electricians design and install low-voltage landscape lighting with weather-rated fixtures and concealed wiring, all done to code. Call (513) 586-5107.',
+    intro: 'Landscape lighting in Reading usually starts with path lights along the walk and a few uplights to lift a flat mid-century facade out of the dark. The Mill Creek valley ground stays damp, so transformers, connections and fixture housings are weather-rated and sealed against corrosion after a wet spring.',
     relevance: [
       'Reading (ZIP 45215) sits in the Mill Creek valley north of Cincinnati, with a settled mix of older and mid-century homes. The low valley ground stays damp, so transformers, connections, and fixture housings all need to be weather-rated and properly sealed to hold up through four-season Midwest swings rather than corroding after a wet spring.',
       'The city is known for its bridal-shop district, where lit storefronts pull people in after dark, and the same logic carries to a home: a layered mix of path lights and a little uplighting on the front gives a mid-century house far more presence at night. We bury the low-voltage runs cleanly and verify the transformer connection meets code before we set a single fixture.',
@@ -14,7 +14,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dent': {
-    intro: 'Thinking about path lighting or accent lighting for your Dent yard? Our licensed electricians install low-voltage landscape lighting with concealed wiring and weather-rated fixtures, all to code. Call (513) 586-5107.',
+    intro: 'Dent’s mid-century ranches in Green Township have wide, landscaped front yards and low rooflines, so landscape lighting there usually means grazing light along the foundation and path lights to the front door. LED fixtures draw little power, and we bury the cable below grade, out of mower range.',
     relevance: [
       'Dent (ZIP 45247) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. The mid-century ranches here tend to have wide, landscaped front yards and low-slung rooflines, which take well to grazing light along the foundation and a few path lights that draw the eye to the front door.',
       'Energy-efficient LED fixtures pull a fraction of the power of older landscape lamps, so an owner can light a whole front yard without a meaningful change to the bill. We run the low-voltage cable below grade out of mower range and confirm the transformer and connections meet code before the system goes live.',
@@ -28,7 +28,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'deer-park': {
-    intro: 'Want to make your Deer Park home stand out after dark? Our licensed electricians install low-voltage path, accent, and security lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'Deer Park is a small east-side city of mid-century homes on modest lots, which suit focused landscape lighting: a couple of uplights on a shade tree, path lights along the walk and a downlight for the entry. Soft security lighting by the door is a common request.',
     relevance: [
       'Deer Park (ZIP 45236) is a small, settled east-side city built largely of mid-century single-family homes on quiet streets. Those modest lots take well to a focused lighting plan — a couple of uplights on a shade tree, path lights along the walk, and a downlight or two for the entry — rather than the broad layered designs bigger estates call for.',
       'On quiet streets a darker entry can feel uninviting, so soft security lighting near the door and driveway is one of the most common requests here. We use LED fixtures that draw little power and bury the low-voltage runs cleanly, with every transformer connection checked against code before we wrap up.',
@@ -42,7 +42,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'terrace-park': {
-    intro: 'Have mature trees and gardens you want lit in Terrace Park? Our licensed electricians design layered low-voltage landscape lighting with concealed wiring and weather-rated fixtures, all to code. Call (513) 586-5107.',
+    intro: 'Terrace Park’s early-1900s homes sit on big, tree-lined lots near the Little Miami River, ideal for layered landscape lighting with uplit trunks, moonlighting through canopies and grazing on brick and stone. Low ground near the river stays wet, so connectors are sealed and cable is buried well.',
     relevance: [
       'Terrace Park (ZIP 45174) is an affluent east-side village near the Little Miami River, known for established early-1900s homes on tree-lined streets. Those big lots and mature trees are ideal for layered design — uplighting tall trunks, moonlighting down through canopies, and grazing the brick and stonework of older homes for depth at night.',
       'The village’s low ground near the river stays wet, so weather-rated fixtures, sealed connectors, and well-buried cable matter more here than on drier ground. We work in concealed runs that disappear into established beds and confirm the transformer and connections meet code, so the lighting accents the historic character without exposed conduit anywhere in sight.',
@@ -56,7 +56,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dry-run': {
-    intro: 'Planning path or accent lighting for your Dry Run yard? Our licensed electricians install low-voltage landscape lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'Newer subdivisions in Dry Run, an Anderson Township community, often have generous landscaping but nothing beyond a porch light, so landscape lighting there starts by lighting a dark yard. We add path lights, well lights tucked into beds and uplights on a feature tree or the front gable.',
     relevance: [
       'Dry Run (ZIP 45244) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. The settled yards here suit a straightforward layered plan — path lights along the walk, a few well lights tucked into beds, and uplights on a feature tree or the front gable.',
       'Newer subdivisions in this part of Anderson Township often have generous landscaping but little exterior lighting beyond a porch fixture, which leaves the yard dark. We add efficient LED fixtures, bury the low-voltage cable out of mower range, and verify every transformer connection meets code before the system runs.',
@@ -70,7 +70,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'white-oak': {
-    intro: 'Want to highlight your White Oak home and yard after dark? Our licensed electricians install low-voltage path, accent, and security lighting with concealed wiring and weather-rated fixtures, all to code. Call (513) 586-5107.',
+    intro: 'A dark driveway and entry is the most common complaint behind landscape lighting jobs in White Oak, a Green Township community. Soft security lighting usually comes first, then path lights to the door, a couple of facade uplights and downlighting from a tree onto the lawn.',
     relevance: [
       'White Oak (ZIP 45247) is a settled Green Township community on the northwest side, made up largely of mid-century and newer single-family homes. The landscaped suburban lots here take well to a measured plan — path lights to the door, a couple of uplights on the facade, and downlighting where a tree can wash light onto the lawn.',
       'On quiet residential streets a dark driveway and entry is the most common complaint, so soft security lighting is often the first priority. We use energy-efficient LED fixtures, conceal the low-voltage runs below grade, and confirm the transformer and connections meet code before the system is handed over.',
@@ -84,7 +84,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'forestville': {
-    intro: 'Thinking about landscape lighting for your Forestville home? Our licensed electricians install low-voltage path, accent, and tree lighting with concealed wiring and weather-rated fixtures, all to code. Call (513) 586-5107.',
+    intro: 'Mature landscaping on Forestville’s settled Anderson Township lots suits layered landscape lighting: an uplit shade tree, a wash across the front and low path fixtures along the walk. Many established subdivisions have years of planting but only a porch light, which leaves the yard and entry dark.',
     relevance: [
       'Forestville (ZIP 45230) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. The mature landscaping on these settled lots is well suited to layered lighting — uplighting a shade tree, washing light across the front, and lining the walk with low path fixtures.',
       'Established subdivisions here often have years of planting but no exterior lighting beyond the porch, which leaves the yard and entry dark at night. We install efficient LED fixtures, bury the low-voltage cable so it stays clear of mowers and edgers, and verify the transformer connection meets code before the system goes live.',
@@ -98,7 +98,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'cherry-grove': {
-    intro: 'Want path and accent lighting that suits your Cherry Grove yard? Our licensed electricians install low-voltage landscape lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'Cherry Grove homes in Anderson Township often have generous yards but only a porch light, so landscape lighting there usually starts with path and entry lights for a dark driveway. We add well lights in the beds and an uplight on a feature tree or the entry gable for depth.',
     relevance: [
       'Cherry Grove (ZIP 45230) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. The landscaped lots here suit a clean, layered approach — path lights along the walk, a few well lights set into beds, and an uplight on a feature tree or the entry gable.',
       'Many homes in this part of Anderson Township have generous yards but only a porch light, so the driveway and entry sit dark after sunset. We use low-power LED fixtures, conceal the low-voltage cable below grade, and confirm every transformer connection meets code before turning the system on.',
@@ -112,7 +112,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'kenwood': {
-    intro: 'Have a larger Kenwood property you want lit with care? Our licensed electricians design layered low-voltage landscape lighting with concealed wiring and weather-rated fixtures, all to code. Call (513) 586-5107.',
+    intro: 'Larger properties around Kenwood Towne Centre have the lot size and mature plantings for full layered landscape lighting: uplit trees, grazed stonework, moonlighting through canopies and path lights tying the yard together. On bigger homes, facade uplighting is a frequent request, and we size the transformer for the fixture count.',
     relevance: [
       'Kenwood (ZIP 45236) is an upscale, unincorporated east-side community around Kenwood Towne Centre, with mid-century homes alongside newer, larger houses. The bigger properties here have the lot size and mature plantings that suit a full layered design — uplit trees, grazed stonework, moonlighting through canopies, and path lighting that ties the whole yard together.',
       'On larger homes the front elevation is often the centerpiece, so architectural accent lighting and uplighting the facade is a frequent request. We run concealed low-voltage cable across these wider lots, size the transformer for the larger fixture count, and verify the connections meet code before the system is commissioned.',
@@ -126,7 +126,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'lincoln-heights': {
-    intro: 'Want to light a path or brighten a dark entry in Lincoln Heights? Our licensed electricians install low-voltage landscape and security lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'Lincoln Heights, one of the first self-governed Black municipalities in the northern United States, has compact lots of older homes that suit focused landscape lighting: a couple of path lights, a soft entry downlight and a facade uplight. Damp valley ground means fixtures and buried connections must be sealed.',
     relevance: [
       'Lincoln Heights (ZIP 45215) is a historic Mill Creek valley community north of the city — one of the first self-governed Black municipalities in the northern United States — with older, modest homes. Those compact lots take well to a focused plan: a couple of path lights, a soft downlight at the entry, and an uplight on the front for presence at night.',
       'The low valley ground stays damp, so weather-rated fixtures and sealed, properly buried connections are essential here to hold up through wet seasons. A dark entry is a common concern on these streets, and we address it with efficient LED security lighting and transformer connections verified to code.',
@@ -140,7 +140,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dillonvale': {
-    intro: 'Planning path or accent lighting for your Dillonvale yard? Our licensed electricians install low-voltage landscape lighting with concealed wiring and weather-rated fixtures, all to code. Call (513) 586-5107.',
+    intro: 'Landscape lighting in Dillonvale, a Sycamore Township community near Kenwood, usually starts with mid-century homes that have years of landscaping but little exterior light. We layer path lights along the walk, well lights in mature beds and an uplight on a shade tree.',
     relevance: [
       'Dillonvale (ZIP 45236) is a Sycamore Township community on the east side near Kenwood, with settled neighborhoods of mid-century homes. The established yards here suit a layered approach — path lights along the walk, well lights tucked into mature beds, and an uplight on a shade tree or the front gable.',
       'Like neighboring Kenwood, many homes here have years of landscaping but little exterior lighting, leaving the yard dark after sunset. We install efficient LED fixtures, bury the low-voltage cable out of mower range, and confirm the transformer connection meets code before the system runs.',
@@ -154,7 +154,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'woodlawn': {
-    intro: 'Want path, accent, or security lighting for your Woodlawn home? Our licensed electricians install low-voltage landscape lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'On Woodlawn’s residential streets in the Mill Creek valley, landscape lighting works best as a measured plan: path lights to the door, a downlight or two at the entry and an uplight on the front. Dark entries near busier corridors are a common concern, and valley ground keeps connections damp.',
     relevance: [
       'Woodlawn (ZIP 45215) is a village in the Mill Creek valley north of the city, with a mix of residential streets and industrial corridors. On the residential side, a measured plan works best — path lights to the door, a downlight or two for the entry, and an uplight on the front to add depth after dark.',
       'The low valley ground stays damp, so weather-rated fixtures and well-sealed, buried connections matter here to hold up through wet seasons. A dark entry near busier corridors is a common concern, and we handle it with efficient LED security lighting and transformer connections verified to code.',
@@ -168,7 +168,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'addyston': {
-    intro: 'Thinking about lighting a path or facade in Addyston? Our licensed electricians install low-voltage landscape and security lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'Addyston is an old mill town on the Ohio River and landscape lighting on those compact lots stays focused: a couple of path lights, a soft entry downlight and an uplight to give a narrow facade some presence. Riverside humidity calls for sealed connectors and buried cable.',
     relevance: [
       'Addyston (ZIP 45001) is a small village on the far west side along the Ohio River, an old mill town with closely spaced older worker homes. On these compact riverside lots a focused plan fits best — a couple of path lights, a soft entry downlight, and an uplight that gives a narrow facade some presence at night.',
       'The riverside position means damp ground and high humidity, so weather-rated fixtures, sealed connectors, and properly buried cable are essential here. We use efficient LED fixtures suited to the close-set homes and verify the transformer connection meets code before the system goes live.',
@@ -182,7 +182,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'greenhills': {
-    intro: 'Want to light the gardens or accent the architecture of your Greenhills home? Our licensed electricians install low-voltage landscape lighting with concealed wiring and weather-rated fixtures, all to code. Call (513) 586-5107.',
+    intro: 'Greenhills was built in the 1930s as a New Deal Greenbelt town and is now a National Historic Landmark, so landscape lighting there means restraint. Gentle grazing on the original cottage facades and soft path lights along curved streets suit the design, with no exposed conduit or harsh floods.',
     relevance: [
       'Greenhills (ZIP 45218) is a historic planned Greenbelt town built in the 1930s as a New Deal project, now a National Historic Landmark district, with its original cottages and townhomes still in use. That preserved village character is worth accenting — gentle grazing light across the cottage facades and soft path lighting along the curved streets suit the design without overpowering it.',
       'Because the district is a National Historic Landmark, restraint and concealment matter: no exposed conduit, no harsh floods, and runs buried cleanly into established plantings. We use low, warm LED fixtures and code-compliant wiring so the lighting respects the 1930s character while making the gardens and walks usable after dark.',
@@ -196,7 +196,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'northbrook': {
-    intro: 'Planning path and accent lighting for your Northbrook yard? Our licensed electricians install low-voltage landscape lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'Many Northbrook homes in Colerain Township have mature landscaping but only a porch light, so landscape lighting there usually starts by brightening a dark yard and driveway. On these mid-century lots we add path lights along the walk, well lights in beds and an uplight on a feature tree.',
     relevance: [
       'Northbrook (ZIP 45251) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. The landscaped suburban lots here take well to a layered plan — path lights along the walk, well lights set into beds, and an uplight on a feature tree or the front of the house.',
       'Many homes in this part of Colerain Township have mature landscaping but only a porch light, so the yard and driveway sit dark after sunset. We add energy-efficient LED fixtures, bury the low-voltage cable below grade, and verify the transformer connection meets code before the system runs.',
@@ -210,7 +210,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'indian-hill': {
-    intro: 'Have a wooded estate in Indian Hill you want lit with care? Our licensed electricians design extensive layered low-voltage landscape lighting with concealed wiring and weather-rated fixtures, all to code. Call (513) 586-5107.',
+    intro: 'Indian Hill estates sit on multi-acre wooded lots, often well back from the road, so landscape lighting there is an extensive layered design: uplit mature trees, canopy moonlighting, grazed stonework and lit driveways winding to the house. Long cable runs need multiple transformers and balanced loads.',
     relevance: [
       'Indian Hill (ZIP 45243) is an affluent east-side village known for large estates and homes on multi-acre, wooded lots, many set well back from the road. That scale calls for an extensive layered design — uplighting mature trees, moonlighting down through canopies, grazing stonework, and lighting long driveways and walks that wind back to homes hidden in the trees.',
       'Big properties mean long cable runs and large fixture counts, so the system has to be planned around multiple transformers and balanced loads rather than a single small kit. We conceal the low-voltage runs across the grounds, size the transformers for the distances involved, and verify every connection meets code before the estate lighting is commissioned.',
@@ -224,7 +224,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'evendale': {
-    intro: 'Want landscape or accent lighting for your Evendale home or business? Our licensed electricians install low-voltage path, accent, and security lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'Evendale pairs a large industrial base, including GE Aerospace, with established residential neighborhoods, and landscape lighting there covers both. Settled home lots get path lights, facade accents and an uplit feature tree. Commercial sites usually want clean accent and security lighting for entries and signage.',
     relevance: [
       'Evendale (ZIP 45241) is a north-side village with a large industrial base, including GE Aerospace, alongside established residential neighborhoods. On the residential side, settled lots suit a layered plan — path lights, facade accents, and an uplight on a feature tree — while commercial sites often want clean accent and security lighting for entries and signage.',
       'Whether the work is at a home or a business, the goal is even, efficient LED light with no exposed wiring and no dark gaps near entries and walkways. We bury the low-voltage runs, size transformers to the fixture count, and confirm every connection meets code before the system goes live.',
@@ -238,7 +238,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'glendale': {
-    intro: 'Want to accent the architecture of your historic Glendale home? Our licensed electricians design layered low-voltage landscape lighting with concealed wiring and weather-rated fixtures, all to code. Call (513) 586-5107.',
+    intro: 'Glendale is one of the country’s earliest planned railroad suburbs, and landscape lighting for its preserved Victorian homes means grazing light across detailed brick and trim, uplit trunks and soft path lights on winding walks. In this National Historic Landmark village, light stays warm and runs stay hidden.',
     relevance: [
       'Glendale (ZIP 45246) is a historic village and one of the country’s earliest planned railroad suburbs — a National Historic Landmark — known for preserved Victorian homes and winding, tree-lined streets. Those Victorian facades and the mature trees that line the streets are made for layered design: grazing light across detailed brick and trim, uplighting tall trunks, and soft path lighting along the curving walks.',
       'In a National Historic Landmark village, the lighting has to respect the character — warm, low-level light and fully concealed runs rather than harsh floods or visible conduit. We work the cable into established beds, set weather-rated fixtures suited to the four-season climate, and verify the transformer connections meet code so the historic streetscape is accented, not overwhelmed.',
@@ -252,7 +252,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'sharonville': {
-    intro: 'Planning landscape or accent lighting for your Sharonville home or business? Our licensed electricians install low-voltage path, accent, and security lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'Near Sharon Woods, Sharonville’s residential lots often have mature trees worth uplighting, and landscape lighting for its many mid-century homes is usually a clean facade-and-path plan. Commercial sites near the convention center and industrial corridors also want accent and security lighting for entries and signage.',
     relevance: [
       'Sharonville (ZIP 45241) is a north-side city near Sharon Woods, with a mix of established residential neighborhoods, the convention center, and industrial corridors. Residential lots near Sharon Woods often have mature trees worth uplighting, while a clean facade-and-path plan suits the many mid-century homes around the city.',
       'Commercial sites here also want accent and security lighting for entries and signage, so the same low-voltage approach scales from a single yard to a larger property. We use efficient LED fixtures, conceal the cable below grade, and verify every transformer connection meets code before turning the system on.',
@@ -266,7 +266,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'northgate': {
-    intro: 'Want path and accent lighting that fits your Northgate yard? Our licensed electricians install low-voltage landscape lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'Homes around the Northgate Mall corridor in Colerain Township sit on landscaped suburban lots, and a dark driveway and entry is what most often starts a landscape lighting job there. Soft security lighting comes first, then path lights, well lights in beds and an uplight on a feature tree.',
     relevance: [
       'Northgate (ZIP 45251) is a Colerain Township area on the northwest side around the Northgate Mall corridor, with neighborhoods of mid-century and newer homes. The landscaped suburban lots here suit a clean, layered plan — path lights along the walk, a few well lights in beds, and an uplight on a feature tree or the front gable.',
       'On quiet residential streets near the busy corridor, a dark driveway and entry is the common complaint, so soft security lighting is often the first priority. We add efficient LED fixtures, bury the low-voltage cable out of mower range, and confirm the transformer connection meets code before the system runs.',
@@ -280,7 +280,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'springdale': {
-    intro: 'Planning landscape or accent lighting for your Springdale home or business? Our licensed electricians install low-voltage path, accent, and security lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'Springdale’s mid-century neighborhoods along the Tri-County corridor suit layered landscape lighting with path lights, facade accents and an uplit feature tree. Commercial sites along the corridor often want accent and security lighting for entries and signage, with no dark gaps near walks.',
     relevance: [
       'Springdale (ZIP 45246) is a north-side city along the Tri-County corridor, with established mid-century neighborhoods alongside a large commercial and retail base. The settled residential lots suit a layered plan — path lights, facade accents, and a feature tree uplight — while commercial sites along the corridor often want accent and security lighting for entries and signage.',
       'Whether the work is residential or commercial, the goal is even, efficient LED light with concealed wiring and no dark gaps near entries and walks. We bury the low-voltage runs, size transformers to the fixture count, and verify every connection meets code before the system goes live.',
@@ -294,7 +294,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'miamitown': {
-    intro: 'Thinking about path or accent lighting for your Miamitown home? Our licensed electricians install low-voltage landscape and security lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'Miamitown sits on low river-bottom ground along the Great Miami River, so landscape lighting for its older homes starts with weather-rated fixtures, sealed connectors and properly buried cable. A focused plan fits best: path lights along the walk, a soft entry downlight and a facade uplight.',
     relevance: [
       'Miamitown (ZIP 45041) is a small far-west community on the Great Miami River, with older homes set on low river-bottom ground. That riverside ground stays damp, so weather-rated fixtures, sealed connectors, and properly buried cable are essential here to hold up through wet seasons and the four-season climate.',
       'On these older lots a focused plan fits best — path lights along the walk, a soft entry downlight, and an uplight that gives an older facade some presence at night. We use efficient LED fixtures suited to the riverside setting and verify the transformer connection meets code before the system runs.',
@@ -308,7 +308,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'forest-park': {
-    intro: 'Want path and accent lighting for your Forest Park yard? Our licensed electricians install low-voltage landscape lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'Forest Park was developed as a planned community from the 1960s, and its generous lots of mature landscaping suit layered landscape lighting: path lights along the walk, well lights in beds and an uplight on a mature tree. Many homes have only a porch light, so the yard sits dark.',
     relevance: [
       'Forest Park (ZIP 45240) is a north-side city developed as a planned community from the 1960s, with neighborhoods of mid-century single-family homes. The planned layout left generous landscaped lots that suit a layered plan — path lights along the walk, well lights in beds, and an uplight on a mature tree or the front of the house.',
       'Homes from that planned era often have years of mature landscaping but only a porch light, so the yard sits dark after sunset. We install energy-efficient LED fixtures, bury the low-voltage cable below grade, and verify the transformer connection meets code before the system runs.',
@@ -322,7 +322,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'pleasant-run': {
-    intro: 'Planning path or accent lighting for your Pleasant Run yard? Our licensed electricians install low-voltage landscape lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'Pleasant Run homes in Springfield Township often have mature plantings and no exterior lighting beyond the porch, so landscape lighting there usually starts with the dark yard and driveway. We layer path lights along the walk, a few well lights in beds and an uplight on a feature tree.',
     relevance: [
       'Pleasant Run (ZIP 45240) is a Springfield Township community on the north side, with settled neighborhoods of mid-century and newer homes. The landscaped lots here take well to a layered plan — path lights along the walk, a few well lights in beds, and an uplight on a feature tree or the front gable.',
       'Many homes in this part of Springfield Township have mature plantings but no exterior lighting beyond the porch, leaving the yard and driveway dark. We add efficient LED fixtures, bury the low-voltage cable out of mower range, and confirm the transformer connection meets code before the system runs.',
@@ -336,7 +336,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'cleves': {
-    intro: 'Want path, accent, or security lighting for your Cleves home? Our licensed electricians install low-voltage landscape lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'Cleves sits near where the Great Miami River meets the Ohio, on low ground prone to flooding, so landscape lighting for its older homes depends on weather-rated fixtures, sealed connectors and well-buried cable. The plan stays focused: path lights, a soft entry downlight and an uplight on the facade.',
     relevance: [
       'Cleves (ZIP 45002) is a far-west village near where the Great Miami River meets the Ohio, with older homes on low ground prone to flooding. That low, damp riverside ground makes weather-rated fixtures, sealed connectors, and well-buried cable essential here to hold up through wet seasons.',
       'On these older lots a focused plan works best — path lights along the walk, a soft entry downlight, and an uplight that lifts an older facade out of the dark. We use efficient LED fixtures suited to the riverside conditions and verify the transformer connection meets code before the system goes live.',
@@ -350,7 +350,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'north-bend': {
-    intro: 'Thinking about lighting a path or facade in North Bend? Our licensed electricians install low-voltage landscape and security lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'North Bend, the historic Ohio River village where President William Henry Harrison is buried, suits landscape lighting with soft grazing light and a measured uplight on older facades rather than a harsh wash. The damp riverfront ground calls for sealed connectors and properly buried cable.',
     relevance: [
       'North Bend (ZIP 45052) is a historic far-west village on the Ohio River — the burial place of President William Henry Harrison — with older homes set on low riverside ground. That historic character and the older facades are worth accenting with soft grazing light and a measured uplight, suited to the village setting rather than a harsh wash.',
       'The riverfront position keeps the ground damp, so weather-rated fixtures, sealed connectors, and properly buried cable matter here through the four-season climate. We use efficient LED fixtures, conceal the low-voltage runs, and verify the transformer connection meets code before the system runs.',
@@ -364,7 +364,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'loveland': {
-    intro: 'Want to accent your historic Loveland home or light a riverside yard? Our licensed electricians install layered low-voltage landscape lighting with concealed wiring and weather-rated fixtures, all to code. Call (513) 586-5107.',
+    intro: 'Loveland straddles the Little Miami River and the Loveland Bike Trail, and landscape lighting for its older homes and tree-lined streets layers grazing light on facades, uplit trunks and path lights. Low riverside ground stays damp, so we seal the connectors and bury the cable in established beds.',
     relevance: [
       'Loveland (ZIP 45140) is a historic city straddling the Little Miami River and the Loveland Bike Trail, with a charming older downtown and a mix of historic and newer homes. The older homes near the river and the established trees along the streets are well suited to layered design — grazing light across older facades, uplighting trunks, and path lighting that ties the yard together.',
       'The low riverside ground stays damp, so weather-rated fixtures, sealed connectors, and buried cable matter here more than on drier ground. We conceal the low-voltage runs in established beds, use efficient LED fixtures suited to the four-season climate, and verify the transformer connections meet code before the system goes live.',
@@ -378,7 +378,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'harrison': {
-    intro: 'Planning landscape or accent lighting for your Harrison home? Our licensed electricians install low-voltage path, accent, and security lighting with weather-rated fixtures and concealed wiring, all to code. Call (513) 586-5107.',
+    intro: 'Harrison sits on the Indiana line along the Whitewater River, and landscape lighting there splits by age. Older homes downtown suit soft facade accents and path lights. Newer subdivisions have bigger landscaped lots for uplit trees and well lights, and damp ground near the river means sealed connections.',
     relevance: [
       'Harrison (ZIP 45030) is a far-west city on the Indiana state line along the Whitewater River, with an older downtown and a growing mix of established and newer homes. The older homes suit soft facade accents and path lighting, while the newer subdivisions have generous landscaped lots that take well to tree uplighting and well lights set into beds.',
       'The low ground near the Whitewater stays damp, so weather-rated fixtures and sealed, buried connections are essential through the four-season climate. We use efficient LED fixtures, conceal the low-voltage runs out of mower range, and verify the transformer connection meets code before the system runs.',

@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Faucet Repair & Replacement',
   ctaLine: 'Dripping faucet in {neighborhood}? Call for same-day service',
-  heroImage: '/services/faucet-repair-replacement.jpg',
+  heroImage: '/services/faucet-repair-replacement.webp',
   introHeading: 'Faucet Repair & Replacement in {neighborhood}',
   introParagraphs: [
     'A dripping or worn-out faucet wastes water, stains the sink, and only gets worse. {brand} repairs and replaces kitchen and bathroom faucets for homeowners in {place} — stopping drips, fixing low pressure, and installing new fixtures clean and leak-free.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'leak-repair', title: 'Leak Repair' },
     { slug: 'water-quality', title: 'Water Quality' },
   ],
-  band1Image: '/services/plumbing-repair.jpg',
+  band1Image: '/services/plumbing-repair.webp',
   band1Heading: 'Signs You Need Faucet Repair in {neighborhood}',
   commonSituations: [
     'A drip or leak that will not stop, even after a new washer',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'An old, outdated fixture you are ready to upgrade',
   ],
   trustedBanner: 'Your Local & Trusted Faucet Repair Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your Faucet Service in {neighborhood}',
   band2Paragraphs: [
     'We start by inspecting the existing faucet and understanding your goal — a kitchen faucet repair, a bathroom faucet installation, or an emergency fix — then explain the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Same-Day Faucet Service in {neighborhood}', body: 'A faucet that will not stop dripping or has quit entirely does not need to wait. We staff for demand and handle most faucet repairs and installs the same day you call across {neighborhood}.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked, licensed plumbers you can trust in your home.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-    { icon: 'clock', title: 'Same-Day Service', text: 'Most faucet repairs and installs are handled the same day you call.' },
-    { icon: 'check', title: 'Clean, Leak-Free Work', text: 'We test every connection and leave the area cleaner than we found it.' },
-  ],
+  whyParagraph: 'Most faucet repairs and installs in {neighborhood} are done the same day you call, by licensed, background-checked plumbers. You approve a flat-rate price first, and we leave the work area cleaner than we found it.',
   proofQuote:
     'Kitchen faucet had been dripping for months and the handle was stiff with buildup. They swapped the cartridge, cleared the aerator, and it works like new — done in under an hour.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Faucet Repair & Replacement in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Faucet Repair & Replacement in ${loc.neighborhood}, ${loc.state}`,
     description: `Faucet repair and replacement in ${place} — stop drips, fix low pressure, and install new kitchen and bathroom faucets. Same-day service. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/faucet-repair-replacement/${loc.slug}` },
     openGraph: {

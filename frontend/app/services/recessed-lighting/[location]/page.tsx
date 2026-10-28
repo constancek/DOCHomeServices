@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Recessed Lighting Installation',
   ctaLine: 'Want cleaner, brighter ceilings in your {neighborhood} home? Call today',
-  heroImage: '/services/recessed-hero.jpg',
+  heroImage: '/services/recessed-hero.webp',
   introHeading: 'Recessed Lighting Installation in {neighborhood}',
   introParagraphs: [
     'Recessed lighting brightens a {neighborhood} home without bulky fixtures — the cans sit flush in the ceiling and spread light evenly across kitchens, hallways, and living rooms. {brand} installs recessed lighting for homeowners across {place}, with safe, code-compliant wiring and balanced placement.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'lighting-fixture-installation', title: 'Lighting Fixtures' },
     { slug: 'basement-lighting', title: 'Basement Lighting' },
   ],
-  band1Image: '/services/recessed-signs.jpg',
+  band1Image: '/services/recessed-signs.webp',
   band1Heading: 'Signs You Need Recessed Lighting in {neighborhood}',
   commonSituations: [
     'Dark areas in kitchens, hallways, or living rooms',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Older fixtures still running inefficient bulbs',
   ],
   trustedBanner: 'Your Local & Trusted Recessed Lighting Pros in {neighborhood}',
-  band2Image: '/services/recessed-lighting.jpg',
+  band2Image: '/services/recessed-lighting.webp',
   band2Heading: 'Our Recessed Lighting Process in {neighborhood}',
   band2Paragraphs: [
     'We review the room and ceiling, plan a layout with proper spacing, and explain the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'New Rooms and Finished Ceilings', body: 'Adding cans during a renovation is straightforward with the ceiling open, while a finished {neighborhood} ceiling needs careful access and extra wiring. We evaluate the room first and recommend the right number of fixtures for balanced lighting either way.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Experienced lighting pros handling every connection safely.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Proper spacing, secure cans, and wiring that meets code.' },
-    { icon: 'badge', title: 'Quality Fixtures', text: 'Energy-efficient LED cans built to last for years.' },
-    { icon: 'house', title: 'Balanced Layout', text: 'Placement planned to spread light evenly and remove shadows.' },
-  ],
+  whyParagraph: 'We space each recessed can in your {neighborhood} ceiling so light spreads evenly without shadows. Licensed electricians secure the cans and wire them to code, and the LED fixtures we fit are energy-efficient and built to last for years.',
   proofQuote:
     'They laid out recessed cans across the kitchen and living room, spaced them so there are no dark spots, and switched it all to LED. The whole floor is brighter and the ceiling looks clean. Careful work and a fair price.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Recessed Lighting Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Recessed Lighting Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Recessed lighting installation in ${place} — clean, even ceiling lighting for kitchens, hallways, living rooms, and basements by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/recessed-lighting/${loc.slug}` },
     openGraph: {

@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Tankless Water Heater Services',
   ctaLine: 'Tankless water heater service in {neighborhood}? Call today',
-  heroImage: '/services/tankless-hero.jpg',
+  heroImage: '/services/tankless-hero.webp',
   introHeading: 'Tankless Water Heaters in {neighborhood}',
   introParagraphs: [
     'A tankless water heater heats water on demand instead of storing it, giving your home endless hot water and lower energy bills. {brand} installs, repairs, and maintains tankless systems for homeowners in {place} — every major brand, gas or electric, sized to your home’s real demand.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'water-heater-maintenance', title: 'Water Heater Maintenance' },
     { slug: 'water-quality', title: 'Water Quality' },
   ],
-  band1Image: '/services/tankless-unit.jpg',
+  band1Image: '/services/tankless-unit.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs Tankless Service',
   commonSituations: [
     'Inconsistent or fluctuating hot water, even after repairs',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A unit over 15–20 years old that no longer keeps up',
   ],
   trustedBanner: 'Your Local & Trusted Tankless Water Heater Pros in {neighborhood}',
-  band2Image: '/services/water-heater-repair.jpg',
+  band2Image: '/services/water-heater-repair.webp',
   band2Heading: 'What to Expect From Your Tankless Service in {neighborhood}',
   band2Paragraphs: [
     'For an install, we size the unit to your household’s demand and check your gas, electrical, and venting — then explain the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Repair, Replace, or Tune Up', body: 'A unit under 10 years old with an isolated fault is usually worth repairing. One that is racking up repairs, losing efficiency, or no longer meeting demand is often better replaced. And a healthy system just needs an annual descaling to stay efficient and keep its warranty intact. We tell you honestly which fits your {neighborhood} home.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'badge', title: 'All Major Brands', text: 'Our licensed technicians work with every major tankless brand, gas or electric.' },
-    { icon: 'check', title: 'Properly Sized', text: 'We evaluate flow rate, demand, and utility access so the system heats without strain.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked plumbers and installations done to code.' },
-    { icon: 'clock', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-  ],
+  whyParagraph: 'Our licensed plumbers install gas and electric tankless units from every major brand in {neighborhood}. We check flow rate, demand and utility access first, so the unit heats without strain, and you approve a flat price with no overtime fees.',
   proofQuote:
     'Switched from an old tank to a tankless unit and freed up half the utility closet. They sized it right for our family, handled the gas line upgrade, and walked us through the annual flush. Endless hot water now.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Tankless Water Heaters in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Tankless Water Heaters in ${loc.neighborhood}, ${loc.state}`,
     description: `Tankless water heater installation, repair, and maintenance in ${place} — endless hot water, all major brands, properly sized. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/tankless-water-heater/${loc.slug}` },
     openGraph: {

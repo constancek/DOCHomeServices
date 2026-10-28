@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'LED Light Installation',
   ctaLine: 'Want to cut energy use in your {neighborhood} home with LED? Call today',
-  heroImage: '/services/led-hero.jpg',
+  heroImage: '/services/led-hero.webp',
   introHeading: 'LED Light Installation in {neighborhood}',
   introParagraphs: [
     'LED lighting is one of the simplest upgrades a {neighborhood} homeowner can make — it uses far less electricity, lasts for years, and gives steady, even brightness. {brand} installs recessed, under-cabinet, and strip LED lighting across {place}, with safe, code-compliant wiring.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'lighting-fixture-installation', title: 'Lighting Fixtures' },
     { slug: 'basement-lighting', title: 'Basement Lighting' },
   ],
-  band1Image: '/services/led-signs.jpg',
+  band1Image: '/services/led-signs.webp',
   band1Heading: 'Signs You Need LED Lighting in {neighborhood}',
   commonSituations: [
     'High energy bills from inefficient lighting',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A wish to adjust brightness or color temperature',
   ],
   trustedBanner: 'Your Local & Trusted LED Lighting Pros in {neighborhood}',
-  band2Image: '/services/led-lighting.jpg',
+  band2Image: '/services/led-lighting.webp',
   band2Heading: 'Our LED Light Installation Process in {neighborhood}',
   band2Paragraphs: [
     'We review your lighting goals and existing fixtures, recommend the right LED solution, and explain the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Safe Connections and Older Wiring', body: 'Swapping to LED sometimes means updating older fixtures, switches, or wiring. We make sure every connection meets current code in {neighborhood} homes so the new lighting runs reliably and safely for the long term.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Experienced pros who install LED systems safely and correctly.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Every install meets current electrical safety codes.' },
-    { icon: 'badge', title: 'Quality LED Products', text: 'Long-lasting, energy-efficient fixtures and lighting.' },
-    { icon: 'house', title: 'Custom Recommendations', text: 'Brightness and color temperature tuned to each room.' },
-  ],
+  whyParagraph: 'Our licensed electricians set the brightness and color temperature of each LED install to suit the room it lights in your {neighborhood} home. The fixtures are long-lasting and energy-efficient, and the wiring meets current electrical safety codes.',
   proofQuote:
     'They swapped our whole main floor to LED — recessed cans in the living room and under-cabinet strips in the kitchen. It is brighter, the bills dropped, and they tuned the color so it is warm where we want it. Clean work and a fair price.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `LED Light Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `LED Light Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `LED light installation in ${place} — recessed, under-cabinet, and strip LED lighting installed by licensed electricians for efficiency and comfort. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/led-lighting/${loc.slug}` },
     openGraph: {

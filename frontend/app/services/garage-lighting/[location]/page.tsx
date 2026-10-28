@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Garage Lighting Installation',
   ctaLine: 'Want to brighten every corner of your {neighborhood} garage? Call today',
-  heroImage: '/services/garage-hero.jpg',
+  heroImage: '/services/garage-hero.webp',
   introHeading: 'Garage Lighting Installation in {neighborhood}',
   introParagraphs: [
     'Most garages run off a single dim ceiling bulb that leaves the corners, workbench, and storage in shadow. {brand} installs bright, even garage lighting for homeowners across {place} — durable LED fixtures inside and weather-rated lights outside, all by licensed electricians.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'basement-lighting', title: 'Basement Lighting' },
     { slug: 'outdoor-lighting', title: 'Outdoor Lighting' },
   ],
-  band1Image: '/services/garage-signs.jpg',
+  band1Image: '/services/garage-signs.webp',
   band1Heading: 'Signs You Need New Garage Lighting in {neighborhood}',
   commonSituations: [
     'Dark areas around shelving or storage',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A garage now used as a shop, gym, or hobby space',
   ],
   trustedBanner: 'Your Local & Trusted Garage Lighting Pros in {neighborhood}',
-  band2Image: '/services/garage-lighting.jpg',
+  band2Image: '/services/garage-lighting.webp',
   band2Heading: 'Our Garage Lighting Process in {neighborhood}',
   band2Paragraphs: [
     'We review how the garage is used, plan placement for even coverage, and explain the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Durable Fixtures, Less Maintenance', body: 'Garage fixtures take dust, temperature swings, and the occasional bump. We install durable, energy-efficient LED lighting in {neighborhood} garages so it stays bright with fewer bulb changes and dependable performance year-round.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Experienced lighting pros handling every connection safely.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Wiring and fixtures installed to electrical safety standards.' },
-    { icon: 'badge', title: 'Durable Fixtures', text: 'High-quality, energy-efficient LED garage lighting.' },
-    { icon: 'house', title: 'Even Coverage', text: 'Placement planned to eliminate shadows and dark corners.' },
-  ],
+  whyParagraph: 'We place each fixture so the light reaches the corners of your {neighborhood} garage without leaving shadows. Experienced electricians make every connection safely and to code, using durable LED fixtures that use less power.',
   proofQuote:
     'We use the garage as a workshop and the one old bulb was useless. They put up LED shop panels, added an exterior light over the door, and ran a dedicated circuit so it never trips. The whole space is bright now, corners included.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Garage Lighting Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Garage Lighting Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Garage lighting installation in ${place} — durable LED garage lights and exterior fixtures installed by licensed electricians for bright, usable space. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/garage-lighting/${loc.slug}` },
     openGraph: {

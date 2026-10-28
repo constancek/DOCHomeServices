@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Gas Line Repair & Replacement',
   ctaLine: 'Suspect a gas line problem in {neighborhood}? Call today',
-  heroImage: '/services/gasline-hero.jpg',
+  heroImage: '/services/gasline-hero.webp',
   introHeading: 'Gas Line Repair & Replacement in {neighborhood}',
   introParagraphs: [
     'Gas lines power some of a {neighborhood} home’s most important appliances, and a damaged or aging line leaves no room for error. {brand} diagnoses, repairs, replaces, and installs gas lines for homeowners in {place} — completed to code and pressure-tested before the job is done.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'plumbing-installation', title: 'Plumbing Installation' },
     { slug: 'emergency-plumbing', title: 'Emergency Plumbing' },
   ],
-  band1Image: '/services/gasline-signs.jpg',
+  band1Image: '/services/gasline-signs.webp',
   band1Heading: 'Signs of a Gas Line Problem in Your {neighborhood} Home',
   commonSituations: [
     'A rotten-egg or sulfur smell near appliances or the line',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'Damage from nearby digging or construction',
   ],
   trustedBanner: 'Your Local & Trusted Gas Line Pros in {neighborhood}',
-  band2Image: '/services/gas-line-repair-replacement.jpg',
+  band2Image: '/services/gas-line-repair-replacement.webp',
   band2Heading: 'Our Gas Line Process in {neighborhood}',
   band2Paragraphs: [
     'We assess the home layout and appliance requirements, select the right piping and connectors, and explain the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'New Lines for Appliances and Additions', body: 'Adding a gas range, a generator, a fireplace, or a water heater means running a properly sized line. We plan and install new gas lines for {neighborhood} homes to handle the load safely and pass inspection.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Safety-First Work', text: 'Qualified pros who follow strict gas safety protocols.' },
-    { icon: 'check', title: 'Code-Compliant', text: 'Proper sealing, materials, and pressure testing every time.' },
-    { icon: 'badge', title: 'Repair or Replace', text: 'Honest guidance on the right fix for your situation.' },
-    { icon: 'clock', title: 'Fast Response', text: 'Prompt service when you suspect a gas line problem.' },
-  ],
+  whyParagraph: 'We respond promptly when a {neighborhood} homeowner suspects a gas line problem, and qualified pros follow strict safety protocols. Every repair uses proper materials and sealing, then a pressure test, and you get honest advice on repair versus replacement.',
   proofQuote:
     'Smelled gas near the water heater and the bill had crept up. They found a corroded section, walked us through repair versus replacement, and re-ran that line. Pressure-tested it, confirmed no leaks, and explained everything. Felt safe the whole time.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Gas Line Repair & Replacement in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Gas Line Repair & Replacement in ${loc.neighborhood}, ${loc.state}`,
     description: `Gas line repair, replacement, and installation in ${place} — licensed plumbers, code-compliant and pressure-tested work. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/gas-line-repair-replacement/${loc.slug}` },
     openGraph: {

@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'HVACBusiness',
   schemaServiceType: 'AC Maintenance',
   ctaLine: 'Ready for an AC tune-up in {neighborhood}? Call to schedule',
-  heroImage: '/services/ac-maintenance.jpg',
+  heroImage: '/services/ac-maintenance.webp',
   introHeading: 'AC Maintenance in {neighborhood}',
   introParagraphs: [
     'A yearly tune-up is the cheapest way to keep an air conditioner efficient, reliable, and out of breakdown territory. {brand} provides AC maintenance for homeowners in {place} — cleaning, inspection, and testing that keeps your cooling system ready for summer.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'mini-splits', title: 'Ductless Mini-Splits' },
     { slug: 'indoor-air-quality', title: 'Indoor Air Quality' },
   ],
-  band1Image: '/services/ac-repair.jpg',
+  band1Image: '/services/ac-repair.webp',
   band1Heading: 'Signs Your {neighborhood} AC Is Due for a Tune-Up',
   commonSituations: [
     'Weak airflow coming from the vents',
@@ -51,7 +51,7 @@ const config: ServiceLocationConfig = {
     'New or unusual noises during operation',
   ],
   trustedBanner: 'Your Local & Trusted AC Maintenance Pros in {neighborhood}',
-  band2Image: '/services/faucet-expect.jpg',
+  band2Image: '/services/faucet-expect.webp',
   band2Heading: 'What to Expect From Your AC Tune-Up in {neighborhood}',
   band2Paragraphs: [
     'A technician arrives, runs a multi-point inspection, and cleans the parts of the system that collect buildup over a {neighborhood} summer — coils, the filter, and the condenser. We test electrical connections, controls, and refrigerant levels to confirm everything is operating as it should.',
@@ -64,12 +64,7 @@ const config: ServiceLocationConfig = {
     { title: 'Schedule Before Summer in {neighborhood}', body: 'The best time for an AC tune-up is spring, before the cooling season starts. Booking ahead means your system is ready when the first heat wave hits and you are not waiting in line behind emergency calls.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Choose Us',
-  whyUs: [
-    { icon: 'badge', title: 'Thorough Inspections', text: 'Detailed multi-point tune-ups that catch small issues before they become repairs.' },
-    { icon: 'clock', title: 'Pre-Season Ready', text: 'Spring tune-ups get your system prepared before the summer heat arrives.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Experienced HVAC technicians and clear communication every visit.' },
-    { icon: 'check', title: 'Upfront Flat-Rate Pricing', text: 'Affordable, transparent pricing and maintenance plans available.' },
-  ],
+  whyParagraph: 'A spring tune-up gets your {neighborhood} air conditioner ready before the summer heat, and the multi-point inspection finds small issues before they turn into repairs. Licensed HVAC technicians explain what they find, and you pay a flat rate.',
   proofQuote:
     'Signed up for the spring tune-up and they caught a weak capacitor before it failed. The AC ran all summer without a hiccup and our bills were lower.',
   sharedFaqs: [
@@ -103,7 +98,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `AC Maintenance in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `AC Maintenance in ${loc.neighborhood}, ${loc.state}`,
     description: `AC tune-ups and maintenance in ${place} — cleaning, inspection, and testing to keep cooling efficient and reliable all summer. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/ac-maintenance/${loc.slug}` },
     openGraph: {

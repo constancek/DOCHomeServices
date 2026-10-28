@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Plumber',
   schemaServiceType: 'Pipe Repair & Replacement',
   ctaLine: 'Dealing with a leak or damaged pipe in {neighborhood}? Call today',
-  heroImage: '/services/pipe-hero.jpg',
+  heroImage: '/services/pipe-hero.webp',
   introHeading: 'Pipe Repair & Replacement in {neighborhood}',
   introParagraphs: [
     'A small leak rarely stays small — damaged pipes waste water, harm the home, and get more expensive the longer they wait. {brand} handles pipe repair and replacement for homeowners in {place}, from emergency leaks to full-scale replacements, using camera inspection and leak detection to find the real problem.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'sewer-repair-replacement', title: 'Sewer Repair' },
     { slug: 'emergency-plumbing', title: 'Emergency Plumbing' },
   ],
-  band1Image: '/services/pipe-signs.jpg',
+  band1Image: '/services/pipe-signs.webp',
   band1Heading: 'The Dangers of Ignoring a Damaged Pipe in {neighborhood}',
   commonSituations: [
     'A leak warping floors or staining walls and ceilings',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A burst pipe or active leak that cannot wait',
   ],
   trustedBanner: 'Your Local & Trusted Pipe Repair Pros in {neighborhood}',
-  band2Image: '/services/pipe-repair-replacement.jpg',
+  band2Image: '/services/pipe-repair-replacement.webp',
   band2Heading: 'Our Pipe Repair & Replacement Process in {neighborhood}',
   band2Paragraphs: [
     'We locate the problem with camera inspection and leak detection, then explain whether a repair or replacement is the better value and the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Aging Pipes in Older Homes', body: 'Cast iron can last 50 to 100 years and copper longer, but many older {neighborhood} homes are past due for an inspection. We assess what is left of the original plumbing and lay out a clear plan — section repair now, or replacement before the next failure.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Plumbers', text: 'Experienced pros who diagnose the real cause before they dig.' },
-    { icon: 'check', title: 'Minimally Invasive', text: 'Camera inspection and trenchless methods protect your property.' },
-    { icon: 'badge', title: 'Repair or Replace', text: 'Honest guidance on the most cost-effective fix.' },
-    { icon: 'clock', title: 'Emergency Service', text: 'Fast help when a leak or burst pipe cannot wait.' },
-  ],
+  whyParagraph: 'Our licensed plumbers work out why a {neighborhood} pipe failed before anyone digs. Camera inspection and trenchless methods spare your yard where possible, and we tell you plainly whether repair or replacement costs less. Burst pipes get emergency help.',
   proofQuote:
     'Slow drains and a stain on the basement ceiling. They camera-scoped the line, found a corroded cast-iron section and a leaking joint, and replaced just those runs trenchless where they could. Walked us through repair versus replacement honestly. No torn-up yard.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Pipe Repair & Replacement in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Pipe Repair & Replacement in ${loc.neighborhood}, ${loc.state}`,
     description: `Pipe repair and replacement in ${place} — licensed plumbers fix leaks, clear damaged drain lines, and replace failing pipes, including trenchless options. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/pipe-repair-replacement/${loc.slug}` },
     openGraph: {

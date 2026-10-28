@@ -14,7 +14,7 @@ const config: ServiceLocationConfig = {
   businessType: 'Electrician',
   schemaServiceType: 'Whole-Home Surge Protector Installation',
   ctaLine: 'Protect your {neighborhood} home from power surges — call today',
-  heroImage: '/services/surge-hero.jpg',
+  heroImage: '/services/surge-hero.webp',
   introHeading: 'Whole-Home Surge Protector Installation in {neighborhood}',
   introParagraphs: [
     'Power surges happen any time — lightning, grid fluctuations, and large appliances cycling on and off send excess voltage through your wiring and can fry electronics, HVAC, and smart-home devices in seconds. {brand} installs whole-home surge protectors for homeowners in {place}, right at the electrical panel.',
@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
     { slug: 'home-rewiring', title: 'Home Rewiring' },
     { slug: 'electrical-inspections', title: 'Electrical Inspections' },
   ],
-  band1Image: '/services/surge-protector-installation.jpg',
+  band1Image: '/services/surge-protector-installation.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs Surge Protection',
   commonSituations: [
     'Lights that flicker or dim without a clear cause',
@@ -53,7 +53,7 @@ const config: ServiceLocationConfig = {
     'A home that has never had panel-level surge protection',
   ],
   trustedBanner: 'Your Local & Trusted Surge Protection Pros in {neighborhood}',
-  band2Image: '/services/surge-hero.jpg',
+  band2Image: '/services/surge-hero.webp',
   band2Heading: 'Our Surge Protector Process in {neighborhood}',
   band2Paragraphs: [
     'We inspect your panel to confirm compatibility and the right placement, review the appliances, HVAC, and electronics most at risk, and explain the flat-rate price before any work begins.',
@@ -66,12 +66,7 @@ const config: ServiceLocationConfig = {
     { title: 'Licensed, Code-Compliant Install', body: 'A whole-home surge device ties directly into the electrical panel — high-voltage work that is not a DIY job. Our licensed electricians install it to code and the manufacturer’s guidelines in your {neighborhood} home, with financing available so protecting your equipment does not have to wait.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Whole-Panel Protection', text: 'Protection installed at the source, guarding everything connected to your wiring.' },
-    { icon: 'check', title: 'Licensed Electricians', text: 'Experienced with surge protection devices and your panel.' },
-    { icon: 'badge', title: 'Code-Compliant Install', text: 'Installed to local code and the manufacturer’s guidelines.' },
-    { icon: 'star', title: 'Financing Available', text: 'Flexible options for qualifying homeowners.' },
-  ],
+  whyParagraph: 'A whole-home surge protector goes in at your panel, so it guards everything wired into your {neighborhood} home. Our licensed electricians install it to local code and the manufacturer’s guidelines, and financing is available for qualifying homeowners.',
   proofQuote:
     'After a storm took out our TV and a couple of devices, they installed a whole-home surge protector at the panel and explained how it covers the HVAC and appliances too. Clean install, fair price, and real peace of mind next time the lights flicker.',
   sharedFaqs: [
@@ -104,7 +99,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return {
-    title: `Whole-Home Surge Protector Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+    title: `Whole-Home Surge Protector Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Whole-home surge protector installation in ${place} — panel-level protection for appliances, HVAC, and electronics by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/surge-protector-installation/${loc.slug}` },
     openGraph: {

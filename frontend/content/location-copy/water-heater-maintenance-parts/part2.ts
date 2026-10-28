@@ -1,7 +1,7 @@
 export const part2: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'madeira': {
     intro:
-      'If the water heater in your Madeira home has never been flushed, it is overdue. We service gas and electric tanks across this east-side city, including the homes around Miami and Euclid Avenues, with an annual flush, anode-rod check, and relief-valve test. Call (513) 586-5107.',
+      'Madeira water heater maintenance usually starts with a tank that has sat a decade or more untouched. In the mid-century homes around Miami and Euclid Avenues, hard water piles up sediment faster than owners realize. We drain it, inspect the anode rod and test the relief valve.',
     relevance: [
       'Madeira (ZIP 45243) is an established east-side city of mostly mid-century single-family homes on quiet, tree-lined streets. Tanks installed in those basements often sit for a decade or more without anyone touching them, and on Greater Cincinnati’s hard water the sediment piles up faster than most owners realize, insulating the burner from the water and making the unit work harder for less hot water.',
       'A yearly tune-up is what keeps a Madeira tank from quietly cooking itself. We drain the sediment that has settled across the bottom, pull and inspect the anode rod that is sacrificing itself so the steel tank does not rust, and test the temperature-and-pressure relief valve so the one safety device on the unit actually works. On a mid-1900s home where the heater has never been serviced, that first flush usually buys back both efficiency and years of life.',
@@ -17,7 +17,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'wyoming': {
     intro:
-      'A water heater in a century-old Wyoming home rarely gets the attention the rest of the house does. We service gas, electric, and tankless units across this historic suburb with annual flushes, anode-rod inspections, and relief-valve safety checks. Call (513) 586-5107.',
+      'Protecting the house is half the point of water heater maintenance in Wyoming. The grand Victorian and early-1900s homes run premium tanks that still silt up on hard water, and a spent anode rod lets rust start before anything shows in the finished basement. We flush, inspect and document service.',
     relevance: [
       'Wyoming (ZIP 45215) is a historic, affluent suburb north of the city, known for its grand Victorian and early-1900s homes on established, tree-shaded streets. Those large houses often draw a lot of hot water and run premium tanks, but on hard water even a good unit silts up at the bottom, and a neglected anode rod leaves the steel exposed to rust long before any sign reaches the finished basement floor.',
       'Maintenance here is partly about protecting the home itself. A flush clears the sediment that makes a tank rumble and run long, and inspecting the anode rod is the single best way to stop interior rust before a leak ruins original woodwork or a finished lower level. For owners with a manufacturer warranty still in force, documenting annual service also keeps that coverage intact, which matters on the higher-end equipment common in Wyoming.',
@@ -33,7 +33,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mariemont': {
     intro:
-      'The water heater tucked into a 1920s Mariemont home is often older than anyone realizes and long overdue for a flush. We service tank and tankless units across this historic village with annual descaling, anode checks, and relief-valve tests. Call (513) 586-5107.',
+      'Mariemont water heater maintenance often starts by finding the tank squeezed into a basement or closet of a 1920s Tudor and forgotten. We flush the sediment hard water leaves on the bottom, check the anode rod, test the relief valve and descale the tankless units some owners have retrofitted.',
     relevance: [
       'Mariemont (ZIP 45227) is a planned garden community laid out in the 1920s and now a National Historic Landmark, known for its Tudor Revival architecture and village square. Plumbing space in those nearly century-old homes is tight, and water heaters are frequently squeezed into basements or closets where they sit ignored until the hot water starts running out faster than it used to.',
       'On a Tudor this age, careful maintenance beats emergency work. We flush the sediment that hard water drops across the tank bottom, check the anode rod before the tank rusts through, and on the tankless units some owners have retrofitted, we descale the heat exchanger so the mineral scale that builds up here does not choke the flow. The goal is to extend the life of equipment in a home where shutting off water and tearing into walls is the last thing anyone wants.',
@@ -49,7 +49,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cheviot': {
     intro:
-      'If the water heater in your Cheviot home is rumbling or taking longer to recover, sediment is the usual culprit. We service tanks across this west-side city along Harrison Avenue with annual flushes, anode-rod checks, and relief-valve safety tests. Call (513) 586-5107.',
+      'Cheviot water heater maintenance frequently means servicing one basement tank that carries two households. In the early-1900s two-families along Harrison Avenue, hard-water sediment builds faster under that load. A yearly flush stops the rumbling, and we inspect the anode rod and test the relief valve.',
     relevance: [
       'Cheviot (ZIP 45211) is a small, densely built city on the west side, completely surrounded by Cincinnati, with a grid of early-1900s homes and brick two-families along Harrison Avenue. In a two-family, a single basement heater often carries the load for more than one household, so the hard-water sediment builds up faster and the relief valve and anode rod earn their keep sooner.',
       'A yearly flush is the most useful thing an owner here can do. Draining the sediment that settles across the tank bottom stops the rumbling and the long recovery times, while an anode-rod inspection catches the internal rust that eventually leaks before it reaches a finished floor in a tightly built home. In Cheviot’s older two-families, that bit of routine care keeps one unit’s failure from becoming a problem for both halves of the house.',
@@ -65,7 +65,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covedale': {
     intro:
-      'A water heater in a Covedale home that has never been flushed is working harder than it needs to. We service gas and electric tanks across this west-side community near Green Township with annual flushes, anode inspections, and relief-valve checks. Call (513) 586-5107.',
+      'Two jobs do the most good in Covedale water heater maintenance: the flush and the anode rod check. Tanks in the early-1900s through mid-century homes along Glenway and Cleves Warsaw are often in their second decade, and hard water adds sediment every skipped year. We test the relief valve too.',
     relevance: [
       'Covedale (ZIP 45238) is a settled west-side community on the edge of the city near Green Township, with neighborhoods of early-1900s through mid-century single-family homes along Glenway and Cleves Warsaw. Tanks in homes that age are often well into a second decade, and on hard water the sediment load grows every year a flush gets skipped.',
       'The two pieces of maintenance that pay off most here are the flush and the anode-rod check. Clearing settled sediment keeps the burner heating water instead of a layer of mineral, and the anode rod is the part that corrodes on purpose so the tank does not, which is why inspecting it on schedule is how you actually extend a heater’s life. For older Covedale homes, that routine is the difference between a tank that lasts and one that fails early.',
@@ -81,7 +81,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covington': {
     intro:
-      'In a 19th-century Covington home, the water heater often outlives its maintenance schedule by years. We service tank and tankless units across the historic riverfront and MainStrasse Village with annual flushes, anode checks, and relief-valve safety tests. Call (513) 586-5107.',
+      'A Covington water heater tune-up usually reaches a tank wedged into a cramped 19th-century basement. Around MainStrasse Village and Licking Riverside, sediment from hard water collects unseen and relief valves go untested for years. We flush the tank, inspect the anode rod and test the relief valve.',
     relevance: [
       'Covington, KY (ZIP 41011) sits directly across the Ohio River from downtown Cincinnati, with historic districts like MainStrasse Village and Licking Riverside full of 19th-century rowhouses and brick homes. Many of those tightly built homes have heaters wedged into cramped basements, where sediment from the area’s hard water collects unseen and the relief valve goes untested for years.',
       'Routine service is how you keep an older Covington tank from failing into a finished space. We flush the sediment that drops to the bottom and makes the unit run long, inspect the anode rod that protects the steel from rust, and test the temperature-and-pressure relief valve so it can actually vent if the tank overheats. In a rowhouse this old and this close to the river, an annual visit is cheap insurance against a leak in a hard-to-reach corner.',
@@ -97,7 +97,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newport': {
     intro:
-      'A water heater serving a Newport East Row home is often decades into its life with no flush on record. We service tank and tankless units across the East Row Historic District and the riverfront with annual flushes, anode-rod checks, and relief-valve tests. Call (513) 586-5107.',
+      'Decades of sediment and an anode rod nobody has checked are what we usually find during water heater maintenance in Newport’s East Row Historic District. We flush the tanks in these 19th-century basements, inspect the anode rod and test the relief valve. Tankless units get an annual descale.',
     relevance: [
       'Newport, KY (ZIP 41071) is home to the East Row Historic District, one of the largest Victorian historic districts in the state, along with the Levee riverfront. The hundreds of 19th-century homes in the East Row hold water heaters in old basements where sediment from hard water settles year after year and the anode rod is rarely checked.',
       'Careful maintenance suits a neighborhood built around historic preservation. A yearly flush clears the sediment that makes a tank rumble and lose capacity, while inspecting the anode rod catches the internal rust that ends a tank’s life before it leaks onto an original floor. For owners running tankless units in these Victorians, descaling the heat exchanger each year keeps the mineral scale from the area’s hard water from cutting hot-water output.',
@@ -113,7 +113,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bellevue': {
     intro:
-      'If the water heater in your Bellevue home is slow to recover, hard-water sediment is usually behind it. We service tanks across this river city near Fairfield Avenue with annual flushes, anode-rod inspections, and relief-valve safety checks. Call (513) 586-5107.',
+      'A slow-recovering tank is the usual reason for water heater maintenance in Bellevue, and hard-water sediment is usually behind it. In the late-1800s homes near Fairfield Avenue, an annual tune-up flushes that out, checks how much anode rod is left and tests the relief valve.',
     relevance: [
       'Bellevue, KY (ZIP 41073) is a compact Northern Kentucky river city with a historic Fairfield Avenue business district and tight streets of well-preserved late-1800s homes. The heaters in those century-old basements run on the region’s hard water, which drops sediment across the tank bottom faster than most owners expect and shortens the life of an untended unit.',
       'An annual visit keeps a Bellevue tank working as it should. We flush out the settled sediment so the burner heats water instead of mineral buildup, pull the anode rod to see how much of it is left before the tank steel starts to rust, and test the relief valve so the unit can vent safely. In a tightly built late-1800s home, catching wear early is what prevents a slow leak from reaching the floor.',
@@ -129,7 +129,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-thomas': {
     intro:
-      'A water heater in a large Fort Thomas home does heavy duty and is often overdue for service. We maintain tank and tankless units across this historic city along Fort Thomas Avenue with annual flushes, anode checks, and relief-valve tests. Call (513) 586-5107.',
+      'Fort Thomas water heater maintenance protects both the tank and the finished interiors around it. The stately early-1900s homes above the river move a lot of hot water, so sediment builds quickly. We flush the tank, inspect the anode rod and keep a record of annual service for the warranty.',
     relevance: [
       'Fort Thomas, KY (ZIP 41075) is a historic city built around a former U.S. Army post, with stately early-1900s homes on tree-lined streets above the river. Those large houses move a lot of hot water, and on hard water the sediment load in the tank grows quickly, so the units here benefit from service more often than the owners of newer homes might assume.',
       'Maintenance in these big established homes is about protecting both the equipment and the finished interiors. A flush keeps the burner efficient and the recovery time short, while an anode-rod inspection catches internal corrosion before it can put a leak into a finished basement. For owners with premium tanks still under warranty, documented annual service is also what keeps that coverage in force.',
@@ -145,7 +145,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'florence': {
     intro:
-      'Even newer Florence homes have water heaters now old enough to need yearly service. We maintain tanks across this fast-growing Boone County city, from the Florence Mall area to older neighborhoods, with flushes, anode checks, and relief-valve tests. Call (513) 586-5107.',
+      'Florence water heater maintenance covers mid-century homes and newer subdivisions around the Florence Mall area, and both have tanks quietly silting up. An annual flush clears hard-water sediment and an anode rod inspection stops rust early. Homes on well water often need a flush more often.',
     relevance: [
       'Florence, KY (ZIP 41042) is the largest city in Boone County and one of the fastest-growing in Northern Kentucky, with a wide mix of mid-century neighborhoods and newer subdivisions around the Florence Mall area. The newer homes are now far enough along that their original tanks have been quietly silting up, while the mid-century homes hold heaters well past the point where a flush should have happened.',
       'Maintenance pays off across both kinds of Florence home. On hard water, an annual flush clears the sediment that cuts capacity and makes the burner run long, and an anode-rod inspection is the single best way to extend a tank’s life by stopping rust before it starts. Some Boone County homes on well water see sediment build even faster, so those heaters tend to need a flush on a tighter schedule than city-water homes.',
@@ -161,7 +161,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'erlanger': {
     intro:
-      'If the water heater in your Erlanger home has never been flushed, it is past due. We maintain gas and electric tanks across this Kenton County city near the airport with annual flushes, anode-rod inspections, and relief-valve safety checks. Call (513) 586-5107.',
+      'In Erlanger, water heater maintenance usually starts with a tank overdue for its first flush. The mid-century homes near the airport hold tanks at the age where corrosion sets in. We flush out the hard-water sediment, inspect the anode rod and test the relief valve.',
     relevance: [
       'Erlanger, KY (ZIP 41018) is an established Kenton County city near the airport, with settled mid-century neighborhoods and a mix of older and newer homes. The tanks in those mid-1900s basements are frequently at or beyond the age where corrosion sets in, and on hard water the sediment that gathers at the bottom makes them work harder every year a flush is skipped.',
       'Two routine jobs do the most good here. Flushing the tank clears the sediment so the burner heats water rather than a layer of mineral, and inspecting the anode rod catches the internal rust that ends a heater’s life early. For Erlanger owners hoping to get the full service life out of a tank, that yearly check is how you reach it rather than replacing the unit ahead of schedule.',
@@ -177,7 +177,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mason': {
     intro:
-      'The original water heater in a 1990s-built Mason home is now well into the age where service matters. We maintain tanks across this Warren County city near Kings Island with annual flushes, anode-rod checks, and relief-valve tests. Call (513) 586-5107.',
+      'Mason water heater maintenance generally means the first flush an original 1990s tank has ever had. Those subdivision tanks near Kings Island are now 20-some years on, and hard-water sediment has had a long time to settle. We clear it, pull the anode rod and test the relief valve.',
     relevance: [
       'Mason, OH (ZIP 45040) is a fast-growing Warren County city north of Cincinnati, near Kings Island, with large subdivisions built mostly from the 1990s onward alongside an older town center. The tanks that went into those subdivision homes when they were new are now 20-some years on, and many have never had a flush, so the hard-water sediment has had a long time to accumulate.',
       'A first flush on one of these original tanks often reveals just how much sediment has settled across the bottom, and clearing it restores capacity and quiets the rumble. We also pull the anode rod, which in a never-serviced tank is usually long spent, and test the relief valve. On Mason’s newer homes, that annual care is what gets the equipment to its full service life instead of failing early from neglect, and the older town center heaters benefit from the same routine.',
@@ -193,7 +193,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-chester': {
     intro:
-      'Subdivision water heaters in West Chester are aging on the same schedule and many have never been flushed. We maintain tanks across this Butler County township along the I-75 corridor with annual flushes, anode checks, and relief-valve tests. Call (513) 586-5107.',
+      'West Chester water heater maintenance is busy because so many subdivisions along the I-75 corridor went up from the 1990s on, and their tanks are aging together. Annual service flushes the hard-water sediment, inspects the anode rod and tests a relief valve often seized after two untouched decades.',
     relevance: [
       'West Chester, OH (ZIP 45069) is a large, fast-growing Butler County community between Cincinnati and Dayton, made up largely of subdivisions built from the 1990s onward along the I-75 corridor. Because so many of those homes went up in the same stretch of years, their original water heaters are all reaching the age where sediment and a worn anode rod start to matter at roughly the same time.',
       'On the area’s hard water, a yearly flush keeps these tanks from losing capacity to sediment, and an anode-rod inspection catches the corrosion that quietly shortens a tank’s life. We test the relief valve too, since on a heater that has run untouched for two decades it is often the part most likely to have seized. For West Chester owners, that routine is how you reach the full life of the unit rather than replacing it early.',
@@ -209,7 +209,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pendleton': {
     intro:
-      'A water heater serving a converted Pendleton loft is easy to forget until the hot water runs short. We maintain tank and tankless units across this historic arts district beside Over-the-Rhine with annual flushes, anode-rod checks, and relief-valve safety tests. Call (513) 586-5107.',
+      'Pendleton lofts often hide the water heater in a closet or shared mechanical space that nobody has flushed. In these converted 19th-century Italianate buildings, one neglected heater can affect several units. Our annual service flushes the tank, checks the anode rod, tests the relief valve and descales tankless units.',
     relevance: [
       'Pendleton (ZIP 45202) is a small, historic arts district tucked against the eastern edge of Over-the-Rhine, full of restored 19th-century Italianate buildings and converted lofts and condos. Water heaters in these mid-1800s buildings are often tucked into closets or shared mechanical spaces, where sediment from the region’s hard water builds up out of sight and no one thinks to flush the tank.',
       'In a converted Pendleton building, one neglected heater can affect several units, so routine service matters. We flush the sediment that drags down efficiency, inspect the anode rod that protects the tank steel from rust, and test the relief valve so the unit can vent safely. On the tankless heaters some lofts run, an annual descale clears the mineral scale that hard water leaves on the heat exchanger and keeps the hot-water flow strong.',
@@ -225,7 +225,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'queensgate': {
     intro:
-      'A water heater in a Queensgate commercial or industrial building runs hard and is often overdue for service. We maintain tank and tankless units across this district west of downtown with flushes, anode-rod checks, and relief-valve safety tests. Call (513) 586-5107.',
+      'Queensgate water heater maintenance is mostly commercial work on units that run all day. The warehouses and light-industrial buildings near the rail yards push hard water through constantly, so sediment builds faster than in a home. We flush the tank, inspect the anode rod and test the relief valve.',
     relevance: [
       'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. The water heaters serving these buildings often run continuously, and on the region’s hard water that constant demand drives sediment into the tank faster than in a typical home.',
       'For Queensgate property owners, routine maintenance avoids the downtime a failed heater causes. A flush clears the heavy sediment load that builds under commercial use, an anode-rod inspection catches the rust that shortens a tank’s life, and a relief-valve test confirms the safety device still works on a hard-running unit. On the low ground near the Mill Creek, staying ahead of corrosion with a regular schedule is what keeps these heaters reliable.',
@@ -241,7 +241,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cuf': {
     intro:
-      'Water heaters in CUF’s student rentals near UC take heavy use and rarely get serviced. We maintain tanks across Clifton Heights, University Heights, and Fairview with annual flushes, anode-rod checks, and relief-valve safety tests. Call (513) 586-5107.',
+      'In CUF, water heater maintenance is the cheap way to avoid a tank failure during the school year. Student rentals across Clifton Heights, University Heights and Fairview cycle constantly, and hard water drives sediment in fast. We flush the tank, check the anode rod and test the relief valve.',
     relevance: [
       'CUF (ZIP 45219) covers Clifton Heights, University Heights, and Fairview, the dense hilltop neighborhoods packed against the University of Cincinnati, full of 19th- and early-1900s homes now largely converted to student rentals. The heaters in those subdivided houses serve full households of tenants, so they cycle constantly, and on hard water that heavy demand drives sediment into the tank faster than in a single-family home.',
       'For owners of these older rentals, routine maintenance is the cheapest way to avoid a tank failure during the school year. A flush clears the sediment that builds quickly under heavy use, an anode-rod inspection catches rust before the steel gives way, and a relief-valve test confirms the one safety device on a hard-worked unit still functions. Keeping that schedule extends the life of equipment that would otherwise burn out fast in a CUF student house.',
@@ -257,7 +257,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'camp-washington': {
     intro:
-      'A water heater in an old Camp Washington home down in the valley is often long overdue for a flush. We maintain tanks across this historic Mill Creek valley neighborhood with annual flushes, anode-rod checks, and relief-valve tests. Call (513) 586-5107.',
+      'Camp Washington water heater maintenance usually happens in damp Mill Creek valley basements where sediment and rust go undisturbed for years. A tune-up on the old worker housing here flushes the tank, inspects the anode rod and tests a relief valve that is often stuck.',
     relevance: [
       'Camp Washington (ZIP 45225) is a historic working neighborhood in the Mill Creek valley, known for its industry, the American Sign Museum, and a tight mix of old worker housing and factories. The heaters in those older homes and buildings tend to sit in damp valley basements where corrosion is encouraged and sediment from hard water accumulates undisturbed for years.',
       'Routine service does double duty here. Flushing clears the sediment that makes a tank rumble and lose efficiency, while an anode-rod inspection catches the internal rust that the damp valley environment only speeds along. Testing the relief valve matters too, since on an old worker-housing tank it is often the safety part most likely to be stuck. For Camp Washington owners, an annual visit keeps an aging heater from failing early in a basement that is already prone to moisture.',
@@ -273,7 +273,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-fairmount': {
     intro:
-      'If the water heater in your South Fairmount home has gone years without a flush, sediment is building up. We maintain tanks across this Lick Run valley neighborhood along Queen City Avenue with annual flushes, anode checks, and relief-valve tests. Call (513) 586-5107.',
+      'Sediment that nobody clears is the usual water heater maintenance problem in South Fairmount. The older homes in the Lick Run valley along Queen City Avenue keep tanks in low, damp basements on hard water. We flush the tank, inspect the anode rod for rust and test the relief valve.',
     relevance: [
       'South Fairmount (ZIP 45205) sits in the Lick Run valley along Queen City Avenue on the west side, the area rebuilt around the Lick Run Greenway stormwater project after a long history of valley flooding. Its older homes hold water heaters in low-lying basements where moisture lingers and the region’s hard water drops sediment that owners rarely think to clear.',
       'A yearly tune-up keeps a South Fairmount tank from quietly wearing out. We flush the settled sediment so the burner stays efficient, inspect the anode rod that protects the steel from rust, and test the relief valve so the heater can vent safely. In a valley home where the basement environment is already damp, staying ahead of internal corrosion with regular maintenance is what gets the full life out of the unit.',
@@ -289,7 +289,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-end': {
     intro:
-      'A water heater in an East End river cottage often runs for years with no service at all. We maintain tank and tankless units along Eastern Avenue with annual flushes, anode-rod inspections, and relief-valve safety checks. Call (513) 586-5107.',
+      'East End water heater maintenance is largely about staying ahead of rust. The older river cottages along Eastern Avenue keep tanks in low riverside basements, while the newer condos often run tankless units that need an annual descale. We flush tanks, inspect anode rods and test relief valves.',
     relevance: [
       'The East End (ZIP 45226) is a narrow riverfront neighborhood stretching east of downtown along Eastern Avenue, below Columbia Parkway, with historic river cottages and newer condos squeezed between the hillside and the Ohio River. The heaters in the older cottages sit in low riverside basements where damp conditions encourage corrosion and hard-water sediment settles unnoticed.',
       'Maintenance here is largely about staying ahead of rust. We flush the sediment that gathers at the tank bottom on hard water, inspect the anode rod that corrodes in place of the steel tank, and test the relief valve so it can vent if the unit overheats. In the newer condos, the same flush-and-inspect routine keeps a modern tank or tankless heater at its rated efficiency, and an annual descale matters on the tankless units along the river.',
@@ -305,7 +305,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-fairmount': {
     intro:
-      'If the water heater in your North Fairmount home is rumbling, hard-water sediment is the likely cause. We maintain tanks across this west-side hillside neighborhood with annual flushes, anode-rod checks, and relief-valve safety tests. Call (513) 586-5107.',
+      'A rumbling tank is the most common reason we do water heater maintenance in North Fairmount. The early-1900s homes on this hillside above the Mill Creek valley have tanks that have run for years without a flush. We clear the sediment, inspect the anode rod and test the relief valve.',
     relevance: [
       'North Fairmount (ZIP 45225) is a west-side hillside neighborhood above the Mill Creek valley, with streets of older early-1900s homes. The tanks in those century-old basements have usually run for years without a flush, and on the region’s hard water the sediment that gathers across the bottom makes the unit rumble and lose capacity.',
       'A simple annual visit reverses most of that. Flushing clears the sediment so the burner heats water efficiently again, and an anode-rod inspection catches the internal corrosion that ends a tank’s life before it can leak. We test the relief valve as well, since on an early-1900s home that part has often gone untouched for the life of the heater. For North Fairmount owners, this routine is the most reliable way to extend the unit’s service life.',
@@ -321,7 +321,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'evanston': {
     intro:
-      'Water heaters in Evanston’s older homes near Xavier take steady use and often skip service for years. We maintain tanks across this east-side neighborhood with annual flushes, anode-rod inspections, and relief-valve safety checks. Call (513) 586-5107.',
+      'Water heater maintenance near Xavier is steady work, and in Evanston the tanks build sediment fast under a full household. Annual service on these early-1900s homes and rentals flushes the tank, inspects the anode rod for rust and tests a relief valve on a unit that cycles constantly.',
     relevance: [
       'Evanston (ZIP 45207) is an east-side neighborhood next to Xavier University, with streets of early-1900s homes and apartment buildings, some now student housing. The heaters in those older homes and rentals run hard, and on hard water the sediment that piles up at the tank bottom builds faster under the heavy demand of a full household.',
       'For owners here, routine maintenance keeps a tank from burning out early. A flush clears the sediment that drags down efficiency, an anode-rod inspection catches the rust that would otherwise end the tank’s life, and a relief-valve test confirms the safety device still works on a unit that cycles constantly. In Evanston’s densely used rentals, that yearly care is what gets the full service life out of the equipment.',
@@ -337,7 +337,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-cumminsville': {
     intro:
-      'A water heater in an older South Cumminsville home is often overdue for its first flush. We maintain tanks across this Mill Creek valley neighborhood with annual flushes, anode-rod checks, and relief-valve safety tests. Call (513) 586-5107.',
+      'South Cumminsville water heater maintenance is mostly about getting ahead of rust and sediment. The older homes among the industrial corridors of the Mill Creek valley keep tanks in low, damp basements on hard water. We flush the tank, inspect the anode rod and test the relief valve.',
     relevance: [
       'South Cumminsville (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, with older homes set among industrial corridors. The heaters in those homes sit in low valley basements where moisture encourages corrosion and hard-water sediment collects at the bottom of the tank unnoticed.',
       'Maintenance here is mostly about getting ahead of rust and sediment. We flush the tank so the burner heats water instead of a settled mineral layer, inspect the anode rod that sacrifices itself to keep the steel from corroding, and test the relief valve so it can vent safely. In a damp valley basement, keeping that annual schedule is the surest way to reach the full service life of the unit.',
@@ -353,7 +353,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'english-woods': {
     intro:
-      'If the water heater in your English Woods home has never been serviced, a flush is overdue. We maintain tanks across this west-side hilltop neighborhood with annual flushes, anode-rod inspections, and relief-valve safety checks. Call (513) 586-5107.',
+      'English Woods water heater maintenance tends to start with a tank that has run for years untouched. Older homes on this hilltop over the Mill Creek valley sit on hard water that keeps adding sediment. We flush it, check the anode rod for rust and test the relief valve.',
     relevance: [
       'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. Its older homes hold water heaters that have usually run for years untouched, and on the region’s hard water the sediment quietly builds at the bottom of the tank.',
       'A yearly tune-up keeps an English Woods tank working as it should. Flushing clears the settled sediment so the burner runs efficiently, an anode-rod inspection catches internal rust before the tank steel gives way, and a relief-valve test confirms the safety device still functions. For owners here, that simple routine is how an aging heater reaches its full service life rather than failing early.',
@@ -369,7 +369,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-avondale': {
     intro:
-      'A water heater in a grand North Avondale home rarely gets the attention it needs until it fails. We maintain tank and tankless units around Rockdale and Reading Road with annual flushes, anode checks, and relief-valve safety tests. Call (513) 586-5107.',
+      'Premium tanks in North Avondale still silt up on hard water, and that is what annual water heater maintenance is for. The grand early-1900s homes near Rockdale Avenue draw a lot of hot water. We flush the tank, inspect the anode rod and document service for warranty coverage.',
     relevance: [
       'North Avondale (ZIP 45229) is a historic, leafy neighborhood known for its grand early-1900s homes on large, tree-shaded lots near Rockdale Avenue. Those big houses draw a lot of hot water and often hold premium tanks, but on hard water even good equipment silts up, and a neglected anode rod leaves the steel open to rust long before any sign reaches the finished lower level.',
       'Maintenance here protects both the heater and the home. A flush keeps the burner efficient and recovery times short, while an anode-rod inspection is the single best way to stop internal corrosion before a leak can damage a finished basement. For owners with premium tanks still under warranty, documented annual service is also what keeps that coverage in force, which matters on the higher-end equipment common in North Avondale.',
@@ -385,7 +385,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'millvale': {
     intro:
-      'A water heater in a Millvale home down in the valley is often overdue for a flush. We maintain tanks across this Mill Creek valley neighborhood with annual flushes, anode-rod checks, and relief-valve safety tests. Call (513) 586-5107.',
+      'In Millvale, a water heater tune-up means dealing with a low, damp valley basement. The older homes in this small Mill Creek valley neighborhood have tanks where hard-water sediment settles year after year. We flush the sediment, inspect the anode rod against rust and test the relief valve.',
     relevance: [
       'Millvale (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, a compact, largely residential community. The heaters in its older homes sit in low valley basements where damp conditions encourage corrosion and hard-water sediment settles at the bottom of the tank year after year.',
       'A yearly visit keeps a Millvale tank from wearing out early. We flush the sediment so the burner heats water rather than mineral buildup, inspect the anode rod that protects the steel from rust, and test the relief valve so the unit can vent safely. In a damp valley basement, staying ahead of internal corrosion with regular maintenance is what gets the full life out of the heater.',
@@ -401,7 +401,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'paddock-hills': {
     intro:
-      'If the water heater in your Paddock Hills home has gone a decade without a flush, it is working harder than it should. We maintain tanks near Paddock Road with annual flushes, anode-rod checks, and relief-valve safety tests. Call (513) 586-5107.',
+      'Paddock Hills water heater tune-ups often involve the original or near-original tank in an early- or mid-1900s home near Paddock Road. We clear the hard-water sediment piled across the bottom, inspect the anode rod for rust and test a relief valve that has often gone untouched for years.',
     relevance: [
       'Paddock Hills (ZIP 45229) is a small, well-kept north-side residential pocket near Paddock Road and the Norwood Lateral, with streets of early- and mid-1900s homes. The tanks in those homes are frequently the original or near-original units, and on hard water the sediment piles up across the bottom faster than owners expect.',
       'Two routine jobs do the most good here. Flushing clears the sediment so the burner heats water rather than mineral, and an anode-rod inspection catches the internal rust that ends a tank’s life early. We test the relief valve as well, since on an older Paddock Hills home it has often gone untouched for years. That annual check is how owners get the full service life from a tank rather than replacing it ahead of schedule.',
@@ -417,7 +417,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'spring-grove-village': {
     intro:
-      'A water heater in a Spring Grove Village home down in the valley is often long overdue for a flush. We maintain tanks near Spring Grove Cemetery with annual flushes, anode-rod checks, and relief-valve safety tests. Call (513) 586-5107.',
+      'Spring Grove Village water heater maintenance centres on older homes in low valley basements near the cemetery. Moisture speeds corrosion and hard-water sediment settles undisturbed at the tank bottom. A yearly visit flushes the tank, inspects the anode rod and tests the relief valve.',
     relevance: [
       'Spring Grove Village (ZIP 45232) sits in the Mill Creek valley around the historic Spring Grove Cemetery and Arboretum, one of the largest cemeteries in the country, with a mix of older homes and industry. The heaters in those older homes run in low valley basements where moisture encourages corrosion and hard-water sediment settles undisturbed at the tank bottom.',
       'Routine service keeps a Spring Grove Village tank from failing early. We flush the sediment so the burner stays efficient, inspect the anode rod that corrodes in place of the steel tank, and test the relief valve so the unit can vent if it overheats. In a damp valley basement, getting ahead of internal corrosion with a yearly visit is the surest way to reach the full life of the heater.',
@@ -433,7 +433,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'linwood': {
     intro:
-      'A water heater in an older Linwood home near the river bottoms often runs for years with no service. We maintain tanks across this small east-side neighborhood near Lunken with annual flushes, anode-rod checks, and relief-valve safety tests. Call (513) 586-5107.',
+      'Staying ahead of rust is most of what water heater maintenance means in Linwood. Older homes near Lunken Airport and the river bottoms keep tanks in damp, low basements, and hard water leaves sediment at the bottom. We flush the tank, inspect the anode rod and test the relief valve.',
     relevance: [
       'Linwood (ZIP 45226) is one of Cincinnati’s smaller east-side neighborhoods, set along Eastern Avenue near Lunken Airport and the river bottoms. The heaters in its older homes sit in low riverside basements where the damp ground encourages corrosion and hard-water sediment collects at the bottom of the tank.',
       'Maintenance here is mostly about staying ahead of rust. We flush the sediment so the burner heats water rather than a settled mineral layer, inspect the anode rod that sacrifices itself to protect the steel tank, and test the relief valve so it can vent safely. In a damp riverside basement near the bottoms, that annual care is what keeps an aging Linwood heater from failing early.',
@@ -449,7 +449,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bond-hill': {
     intro:
-      'If the water heater in your Bond Hill home has never been flushed, hard-water sediment is building up unseen. We maintain tanks along Reading Road with annual flushes, anode-rod inspections, and relief-valve safety checks. Call (513) 586-5107.',
+      'Bond Hill water heater maintenance focuses on tanks well into a second decade in the early-1900s and mid-century homes along Reading Road. Annual service flushes out the hard-water sediment that grows every skipped year, checks the anode rod for internal rust and tests the relief valve.',
     relevance: [
       'Bond Hill (ZIP 45237) is a north-side neighborhood along Reading Road, with established streets of early-1900s and mid-century single-family homes. The tanks in those homes are frequently well into a second decade, and on the region’s hard water the sediment that gathers across the bottom grows every year a flush is skipped.',
       'A yearly tune-up keeps a Bond Hill tank working as it should. Flushing clears the settled sediment so the burner runs efficiently, an anode-rod inspection catches the internal rust that ends a tank’s life early, and a relief-valve test confirms the safety device still functions. For owners of these older and mid-century homes, that routine is how you reach the full service life of the unit rather than replacing it ahead of schedule.',

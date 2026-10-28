@@ -6,15 +6,16 @@ import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import { services } from '@/content/services';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Our Services',
   description:
     'Heating, cooling, plumbing, and electrical services from ' +
     site.name +
     '. Licensed technicians, upfront pricing, same-day service.',
   alternates: { canonical: '/services' },
-};
+});
 
 export default function ServicesIndex() {
   return (
@@ -54,7 +55,7 @@ export default function ServicesIndex() {
                   {s.highlights.slice(0, 3).map((h) => (
                     <li
                       key={h}
-                      className="flex items-center gap-2 text-sm font-medium text-brand-700"
+                      className="flex items-center gap-2 text-base font-medium text-brand-700"
                     >
                       <Icon name="check" className="h-4 w-4 text-brand-500" />
                       {h}

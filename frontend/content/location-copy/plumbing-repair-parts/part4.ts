@@ -1,7 +1,7 @@
 export const part4: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'reading': {
     intro:
-      'Dripping fixture, a running toilet, or a leak under the sink in Reading? We handle same-day plumbing repair and trace each problem to its source before we fix it. Call (513) 586-5107.',
+      'Reading plumbing repair often starts with sorting groundwater from a real pipe fault, since the Mill Creek valley water table climbs after heavy rain. Older and mid-century homes here also run supply lines, shut-off valves and drains with decades of corrosion. Fixing the right thing first saves paying twice.',
     relevance: [
       'Reading (ZIP 45215) sits low in the Mill Creek valley north of Cincinnati, and that valley ground shapes the repairs we do here. When the water table climbs after heavy rain, basement drains and floor seepage get blamed on a failing pipe, so the first step on a repair call is sorting groundwater from an actual plumbing fault. Fixing the right thing the first time keeps a homeowner from paying twice.',
       'The other half is the age of the housing. Reading’s settled mix of older and mid-century homes runs on supply lines, shut-off valves, and drains that have had decades to corrode, and a worn valve or a dripping line tends to fail without much warning. We repair the part that is actually worn rather than patching around it, so the same fixture does not start leaking again a month later.',
@@ -17,7 +17,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'dent': {
     intro:
-      'Leaky faucet, a worn shut-off valve, or a fixture that will not stop running in Dent? We offer same-day plumbing repair and fix the cause, not just the symptom. Call (513) 586-5107.',
+      'In Dent, plumbing repair usually means everyday parts wearing out in mid-century and newer homes: faucet cartridges, supply lines, toilet fill valves and shut-offs that seize or weep. Hard water speeds that along. We carry common parts on the truck, so a failed angle stop is usually a same-day fix.',
     relevance: [
       'Dent (ZIP 45247) is a Green Township community on the west side, built up with established neighborhoods of mid-century and newer homes. In houses of that range, the parts that wear first are the everyday ones — faucet cartridges, supply lines, toilet fill valves, and the shut-off valves under sinks that seize or weep after years of use.',
       'Greater Cincinnati’s hard water speeds that wear along, leaving mineral buildup that stiffens valves and shortens the life of fixtures and water heaters. We carry common repair parts on the truck, so a worn cartridge or a failed angle stop in a Dent home is usually a same-day fix rather than a wait for a return trip.',
@@ -33,7 +33,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'deer-park': {
     intro:
-      'Dripping faucet, a leaking trap, or a stiff shut-off valve in Deer Park? We provide same-day plumbing repair and find the worn part before we replace it. Call (513) 586-5107.',
+      'Deer Park’s mid-century homes have original fixtures, supply lines and shut-off valves near the end of their life, so a slow drip can become a steady leak quickly. Plumbing repair there often means fixing the valve seat or supply stop behind the fixture, not just the washer.',
     relevance: [
       'Deer Park (ZIP 45236) is a small, settled city on the east side, made up largely of mid-century single-family homes on quiet streets. Those homes have reached the age where original fixtures, supply lines, and shut-off valves are all near the end of their service life, so a slow drip can turn into a steady leak with little warning.',
       'When a faucet, a toilet, or a hose bib finally gives out in a house this age, the usual fix is more than swapping a washer — the valve seat or the supply stop behind it is often the real culprit. We trace the leak to that root cause and repair it properly, so the same fixture is not back on the call list next season.',
@@ -49,7 +49,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'terrace-park': {
     intro:
-      'Leaking fixture, a worn valve, or a drain that will not clear in Terrace Park? We handle same-day plumbing repair and trace the problem to its source. Call (513) 586-5107.',
+      'Terrace Park plumbing repair in early-1900s homes means careful work on original supply lines, aging drains and shut-off valves that no longer turn cleanly. Near the Little Miami, slow basement drains after heavy rain can be mistaken for a leak, so we tell groundwater from a pipe fault first.',
     relevance: [
       'Terrace Park (ZIP 45174) is an affluent east-side village near the Little Miami River, known for its established early-1900s homes on tree-lined streets. Houses that age tend to have many fixtures and a long history of plumbing — original supply lines, aging drains, and shut-off valves that no longer turn cleanly — all of which need a careful repair rather than a quick patch.',
       'The low ground near the river adds a second consideration. After heavy rain, slow basement drains and damp can be mistaken for a pipe leak, so part of the job here is telling a genuine plumbing fault from groundwater. We diagnose first, then repair the actual line or fixture, which matters in homes with finished spaces worth protecting.',
@@ -65,7 +65,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'dry-run': {
     intro:
-      'Dripping faucet, a failing water heater, or a sump pump that quit in Dry Run? We offer same-day plumbing repair and fix the underlying cause. Call (513) 586-5107.',
+      'Dry Run plumbing repair covers builder-grade fixtures, water heaters and sump pumps wearing out in newer homes, and corroding supply lines and valves in older ones. Hard water speeds up the wear. We carry common parts, so a worn faucet cartridge or failing fill valve is usually a same-day repair.',
     relevance: [
       'Dry Run (ZIP 45244) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. Even the newer houses here are old enough that builder-grade fixtures, water heaters, and sump pumps have started to wear out, while the older homes see corrosion in supply lines and valves.',
       'Hard water across the area accelerates that wear, scaling up fixtures and shortening water-heater life. We carry common repair parts so a worn faucet cartridge or a failing fill valve in a Dry Run home is usually a same-day repair, and we trace each leak to its source rather than treating the symptom.',
@@ -81,7 +81,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'white-oak': {
     intro:
-      'Leaking fixture, a stiff shut-off valve, or a water heater that quit in White Oak? We provide same-day plumbing repair and fix the worn part at the source. Call (513) 586-5107.',
+      'Faucets, toilet valves, supply lines and the shut-off valves under sinks are the parts that fail first in White Oak’s mid-century and newer homes. Plumbing repair there means replacing the worn component, since a small drip rarely stays small. We carry common parts on the truck.',
     relevance: [
       'White Oak (ZIP 45247) is a settled Green Township community on the northwest side, made up largely of mid-century and newer single-family homes. In houses that age, the parts that fail first are the daily-use ones — faucets, toilet valves, supply lines, and the shut-off valves under sinks that seize or weep after decades of hard-water use.',
       'The region’s hard water leaves mineral scale that stiffens valves and shortens the life of fixtures and water heaters, so a small drip in a White Oak home rarely stays small. We carry the common repair parts on the truck and replace the worn component, so a same-day visit usually settles it for good.',
@@ -97,7 +97,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'forestville': {
     intro:
-      'Dripping faucet, a worn valve, or a sump pump that stopped in Forestville? We handle same-day plumbing repair and trace the cause before we fix it. Call (513) 586-5107.',
+      'Forestville homes have reached the age where water heaters, supply lines and sump pumps start to fail, and worn cartridges and seeping valves show up in everyday fixtures. Hard water brings that wear sooner. Our plumbing repair finds the worn supply stop, fill valve or pump first.',
     relevance: [
       'Forestville (ZIP 45230) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. Homes of that era have reached the age where water heaters, supply lines, and sump pumps all start to fail, and the everyday fixtures show their years through worn cartridges and seeping valves.',
       'Hard water in the area scales up those fixtures and shortens water-heater life, so wear shows up sooner than many owners expect. We carry common repair parts and find the root cause first — a worn supply stop, a failing fill valve, a tired pump — so the fix actually holds rather than coming back next season.',
@@ -113,7 +113,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cherry-grove': {
     intro:
-      'Leaky faucet, a running toilet, or a burst supply line in Cherry Grove? We offer same-day plumbing repair and fix the worn part at the source. Call (513) 586-5107.',
+      'Cherry Grove plumbing repair mostly involves daily-use parts in mid-century and newer homes: faucet cartridges, toilet fill valves, supply lines and shut-offs that stiffen and weep. Hard water speeds the wear. With common parts on the truck, a worn valve or burst supply line is usually a same-day repair.',
     relevance: [
       'Cherry Grove (ZIP 45230) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. In houses of that range, the parts that go first are the ones in daily use — faucet cartridges, toilet fill valves, supply lines, and shut-off valves that stiffen and weep with age.',
       'The area’s hard water speeds up that wear, leaving scale that shortens the life of fixtures and water heaters alike. We carry common repair parts on the truck, so a worn valve or a burst supply line in a Cherry Grove home is usually a same-day repair, fixed at the cause rather than patched over.',
@@ -129,7 +129,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'kenwood': {
     intro:
-      'Hidden leak, a worn valve, or a fixture that will not stop dripping in Kenwood? We provide same-day plumbing repair and trace the problem to its source. Call (513) 586-5107.',
+      'Kenwood plumbing repair covers larger homes, where long pipe runs let a leak drip unnoticed behind a wall, and mid-century houses with supply lines and valves past their prime. Hard water scales fixtures in both. We find the exact source of a leak rather than opening drywall on a guess.',
     relevance: [
       'Kenwood (ZIP 45236) is an upscale, unincorporated community on the east side around Kenwood Towne Centre, with mid-century homes alongside newer, larger houses. The larger homes here carry more fixtures and longer runs of pipe, so a leak can drip unnoticed behind a wall before it shows, while the mid-century houses run on supply lines and valves that are well past their prime.',
       'Hard water across the area scales up those fixtures and shortens the life of water heaters in homes of both kinds. We find the exact source of a leak rather than opening drywall on a guess, then repair the worn line or fixture, which matters most in the finished, multi-bath homes common around Kenwood.',
@@ -145,7 +145,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lincoln-heights': {
     intro:
-      'Dripping fixture, a worn shut-off valve, or a drain that backs up in Lincoln Heights? We handle same-day plumbing repair and fix the underlying cause. Call (513) 586-5107.',
+      'Lincoln Heights homes are older and modest, with supply lines, valves and drains that have had decades to corrode. On low valley ground, slow drains after rain get blamed on pipes. Our plumbing repair sorts groundwater from a real fault first.',
     relevance: [
       'Lincoln Heights (ZIP 45215) is a historic community in the Mill Creek valley north of the city — one of the first self-governed Black municipalities in the northern United States — with older, modest homes. Those homes run on aging plumbing where supply lines, valves, and drains have had decades to corrode, so a small drip can become a steady leak quickly.',
       'The low valley ground adds a second factor. When the water table rises after heavy rain, slow drains and damp get blamed on a failing pipe, so part of the repair is telling groundwater from an actual fault. We diagnose first, then repair the worn line or fixture at its source so it does not resurface.',
@@ -161,7 +161,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'dillonvale': {
     intro:
-      'Leaky faucet, a corroded supply line, or a water heater that quit in Dillonvale? We offer same-day plumbing repair and fix the worn part at the source. Call (513) 586-5107.',
+      'Corroded supply lines, seized shut-off valves and failing water heaters are the plumbing repairs we handle most in Dillonvale’s mid-century homes near Kenwood. Hard water speeds that wear. We carry common parts and trace each leak to its root cause, so most repairs take a single visit.',
     relevance: [
       'Dillonvale (ZIP 45236) is a Sycamore Township community on the east side near Kenwood, with settled neighborhoods of mid-century homes. Houses of that era have reached the age where supply lines corrode, shut-off valves seize, and water heaters fail — the repairs we are called for most here.',
       'The region’s hard water hurries that wear along, scaling up fixtures and shortening water-heater life. We carry common repair parts on the truck and trace each leak to its root cause, so a worn faucet or a failing valve in a Dillonvale home is usually a same-day, single-visit fix.',
@@ -177,7 +177,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'woodlawn': {
     intro:
-      'Dripping fixture, a worn valve, or a drain that backs up in Woodlawn? We provide same-day plumbing repair and trace the cause before we fix it. Call (513) 586-5107.',
+      'Woodlawn plumbing repair usually involves older homes with corroded supply lines, valves and drains. Low Mill Creek valley ground raises the risk of slow drains and backups in heavy rain, which are easy to confuse with a failing pipe. We sort that out first.',
     relevance: [
       'Woodlawn (ZIP 45215) is a village in the Mill Creek valley north of the city, with a mix of residential streets and industrial corridors. The older homes here run on aging plumbing — supply lines, valves, and drains that have corroded over the years — so a small leak rarely stays small for long.',
       'The low valley ground raises the risk of slow drains and backups in heavy rain, which are easy to confuse with a failing pipe. We sort groundwater from a genuine plumbing fault first, then repair the worn line or fixture at its source so the same problem does not return after the next storm.',
@@ -193,7 +193,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'addyston': {
     intro:
-      'Leaking fixture, a corroded supply line, or a drain that backs up in Addyston? We handle same-day plumbing repair and fix the underlying cause. Call (513) 586-5107.',
+      'Addyston’s century-old mill homes run galvanized supply lines, worn valves and old drains that fail with little warning, which is most of our plumbing repair there. Riverside high water can mimic a failing pipe after heavy rain. We tell groundwater from a real fault, then repair at the source.',
     relevance: [
       'Addyston (ZIP 45001) is a small village on the far west side along the Ohio River, an old mill town with closely spaced older worker homes. Those century-old houses run on aging plumbing — galvanized supply lines, worn valves, and old drains — that fails with little warning, so a drip behind a wall can go unnoticed until it surfaces.',
       'The riverside position adds a real risk of high water and backups, which can be mistaken for a failing pipe after heavy rain. We tell groundwater from a genuine plumbing fault, then repair the worn line or fixture at its source, which keeps the damage contained in these tightly built older homes.',
@@ -209,7 +209,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'greenhills': {
     intro:
-      'Dripping fixture, a worn valve, or an aging supply line acting up in Greenhills? We offer same-day plumbing repair and fix the cause without disturbing the home. Call (513) 586-5107.',
+      'Greenhills plumbing repair deals with close to a century of wear in 1930s landmark cottages and townhomes, where original supply lines, drains and shut-off valves fail with little warning. Many share the same vintage fittings. We replace the worn part with care for the historic character.',
     relevance: [
       'Greenhills (ZIP 45218) is a historic planned "Greenbelt" town built in the 1930s as a New Deal project, now a National Historic Landmark district, with its original cottages and townhomes still in use. Those 1930s-era homes carry close to a century of plumbing wear, where original supply lines, drains, and shut-off valves fail with little warning.',
       'Because the houses were designed as a unified community, many share the same vintage fittings and tight layouts, so the same repairs come up across the neighborhood. We trace each leak to its source and replace the worn part with care for the historic character, rather than cutting into original finishes on a guess.',
@@ -225,7 +225,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'northbrook': {
     intro:
-      'Leaky faucet, a corroded supply line, or a water heater that quit in Northbrook? We provide same-day plumbing repair and fix the worn part at the source. Call (513) 586-5107.',
+      'Northbrook’s mid-century homes are prone to corrosion leaks, failing water heaters, worn cartridges and seeping shut-off valves, and that covers most plumbing repair there. Hard water brings the wear sooner than owners expect. We carry common parts and trace each leak to its cause.',
     relevance: [
       'Northbrook (ZIP 45251) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. Houses of that era carry aging plumbing prone to corrosion leaks and failing water heaters, and the everyday fixtures show their years through worn cartridges and seeping shut-off valves.',
       'Hard water across the area scales up those fixtures and shortens water-heater life, so wear arrives sooner than many owners expect. We carry common repair parts on the truck and trace each leak to its cause, so a worn faucet or a corroded valve in a Northbrook home is usually a same-day, single-visit fix.',
@@ -241,7 +241,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'indian-hill': {
     intro:
-      'Hidden leak, a worn valve, or a fixture failing somewhere across the house in Indian Hill? We provide same-day plumbing repair and trace the problem to its source. Call (513) 586-5107.',
+      'On large Indian Hill properties, a leak can drip behind a wall or under a slab for a long time across many bathrooms and long water runs. Some homes add private well and septic systems. Our plumbing repair uses leak detection to pin the exact source rather than guessing.',
     relevance: [
       'Indian Hill (ZIP 45243) is an affluent east-side village known for its large estates and homes on multi-acre, wooded lots, many set well back from the road. Those big properties mean many bathrooms and fixtures and long water and sewer runs, where a leak can drip behind a wall or under a slab for a long time before anyone notices.',
       'Some homes here also rely on private wells and septic systems, which add their own repair needs beyond city water and sewer. We use leak detection to pin the exact source across these large systems rather than guessing, then repair the worn line or fixture so a single fault does not do quiet, expensive damage to a finished estate home.',
@@ -257,7 +257,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'evendale': {
     intro:
-      'Dripping fixture, a worn valve, or a burst supply line in Evendale? We offer same-day plumbing repair and fix the underlying cause. Call (513) 586-5107.',
+      'Evendale plumbing repair in its residential neighborhoods usually means corroded supply lines, worn shut-off valves and aging water heaters in mid-century homes, while the industrial side has its own needs. Hard water scales fixtures and shortens heater life. We carry common parts and find the root cause first.',
     relevance: [
       'Evendale (ZIP 45241) is a north-side village with a large industrial base, including GE Aerospace, alongside established residential neighborhoods. The plumbing here spans a wide range, from mid-century homes to commercial and industrial buildings, but in the houses the wear shows up the same way — corroded supply lines, worn shut-off valves, and aging water heaters.',
       'The region’s hard water hurries that wear along, scaling up fixtures and shortening water-heater life. We carry common repair parts on the truck and find the root cause first, so a worn faucet or a burst supply line in an Evendale home is usually a same-day, single-visit fix.',
@@ -273,7 +273,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'glendale': {
     intro:
-      'Leaking fixture, a corroded supply line, or a worn valve in Glendale? We handle same-day plumbing repair and fix the cause with care for the home. Call (513) 586-5107.',
+      'Glendale’s preserved Victorian homes often still carry original plumbing, so plumbing repair there usually involves corroded supply lines, aging drains and worn shut-off valves behind sudden leaks. A leak behind original plaster does quiet damage, so we trace it to its exact source instead of guessing where to open up.',
     relevance: [
       'Glendale (ZIP 45246) is a historic village and one of the country’s earliest planned railroad suburbs — a National Historic Landmark — known for its preserved Victorian homes and winding, tree-lined streets. Those 19th-century homes often still carry original plumbing, where corroded supply lines, aging drains, and worn shut-off valves lead to sudden leaks.',
       'In houses this old, a leak behind original plaster or woodwork can do quiet damage before it shows, so guessing where to open up is the wrong move. We trace the leak to its exact source and repair the worn line or fixture, taking care not to disturb the historic details that make these homes worth preserving.',
@@ -289,7 +289,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'sharonville': {
     intro:
-      'Dripping faucet, a worn valve, or a water heater that quit in Sharonville? We provide same-day plumbing repair for homes and businesses and fix the cause. Call (513) 586-5107.',
+      'Sharonville plumbing repair covers mid-century homes near Sharon Woods where supply lines corrode, shut-off valves seize and water heaters fail, plus commercial buildings with their own repair calls. Hard water shortens equipment life. We carry common parts and trace each leak to its source.',
     relevance: [
       'Sharonville (ZIP 45241) is a north-side city near Sharon Woods, with a mix of established residential neighborhoods, the convention center, and industrial corridors. The mid-century homes here have reached the age where supply lines corrode, shut-off valves seize, and water heaters fail, while the commercial buildings add their own repair calls.',
       'Hard water across the area scales up fixtures and shortens water-heater life in homes of every age. We carry common repair parts on the truck and trace each leak to its source, so a worn faucet or a failing valve in a Sharonville home is usually a same-day, single-visit fix.',
@@ -305,7 +305,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'northgate': {
     intro:
-      'Leaky faucet, a stiff shut-off valve, or a sump pump that quit in Northgate? We offer same-day plumbing repair and fix the worn part at the source. Call (513) 586-5107.',
+      'Around the Northgate Mall corridor, plumbing repair usually means faucet cartridges, toilet valves, supply lines and seized shut-offs in mid-century and newer homes. Hard water stiffens valves and shortens the life of water heaters and sump pumps. We carry common parts, so most fixes happen the same day.',
     relevance: [
       'Northgate (ZIP 45251) is a Colerain Township area on the northwest side around the Northgate Mall corridor, with neighborhoods of mid-century and newer homes. In houses of that range, the parts that wear first are the everyday ones — faucet cartridges, toilet valves, supply lines, and the shut-off valves under sinks that seize after years of use.',
       'The region’s hard water hurries that wear, leaving scale that stiffens valves and shortens the life of fixtures, water heaters, and sump pumps. We carry common repair parts so a worn valve or a failing pump in a Northgate home is usually a same-day fix, repaired at the cause rather than patched over.',
@@ -321,7 +321,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'springdale': {
     intro:
-      'Dripping fixture, a corroded supply line, or a water heater that quit in Springdale? We provide same-day plumbing repair for homes and businesses and fix the cause. Call (513) 586-5107.',
+      'Springdale plumbing repair along the Tri-County corridor covers mid-century homes with corroding supply lines, seized shut-off valves and failing water heaters, plus commercial buildings with their own calls. Hard water scales fixtures in every building. We carry common parts and trace leaks to the root cause.',
     relevance: [
       'Springdale (ZIP 45246) is a north-side city along the Tri-County corridor, with established mid-century neighborhoods alongside a large commercial and retail base. The mid-century homes here are now at the age where supply lines corrode, shut-off valves seize, and water heaters fail, while the commercial buildings bring their own repair calls.',
       'Hard water across the area scales up fixtures and shortens water-heater life regardless of the building’s age. We carry common repair parts on the truck and trace each leak to its root cause, so a worn faucet or a corroded line in a Springdale home is usually a same-day, single-visit fix.',
@@ -337,7 +337,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'miamitown': {
     intro:
-      'Leaking fixture, a corroded supply line, or a drain that backs up in Miamitown? We handle same-day plumbing repair and fix the underlying cause. Call (513) 586-5107.',
+      'Miamitown homes on low ground by the Great Miami run aging supply lines, valves and fixtures that fail without much warning. Slow drains and backups in heavy rain are easy to mistake for a failing pipe, so our plumbing repair sorts groundwater from a genuine fault before fixing anything.',
     relevance: [
       'Miamitown (ZIP 45041) is a small far-west community on the Great Miami River, with older homes set on low river-bottom ground. Those older houses run on aging plumbing — worn supply lines, old valves, and tired fixtures — that fails without much warning, so a drip can go unnoticed until it shows.',
       'The low river-bottom ground brings a real risk of slow drains and backups in heavy rain, which are easy to mistake for a failing pipe. We sort groundwater from a genuine plumbing fault first, then repair the worn line or fixture at its source so the same problem does not return after the next storm.',
@@ -353,7 +353,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'forest-park': {
     intro:
-      'Dripping faucet, a worn valve, or a sump pump that quit in Forest Park? We offer same-day plumbing repair and fix the worn part at the source. Call (513) 586-5107.',
+      'Forest Park went up as a planned community from the 1960s, so the same plumbing repairs come up across its neighborhoods: supply lines closing with corrosion, water heaters at the end of their life and worn sump pumps. Hard water speeds that wear. We find the root cause first.',
     relevance: [
       'Forest Park (ZIP 45240) is a north-side city developed as a planned community from the 1960s, with neighborhoods of mid-century single-family homes. Because so much of the city went up in the same era, the same repairs come up across the neighborhoods — supply lines closing up with corrosion, water heaters at the end of their life, and sump pumps that have worn out.',
       'The region’s hard water speeds that wear, scaling up fixtures and shortening the life of valves and water heaters. We carry common repair parts on the truck and find the root cause first, so a worn faucet or a failing pump in a Forest Park home is usually a same-day, single-visit fix.',
@@ -369,7 +369,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pleasant-run': {
     intro:
-      'Leaky faucet, a stiff shut-off valve, or a sump pump that quit in Pleasant Run? We provide same-day plumbing repair and fix the cause, not just the symptom. Call (513) 586-5107.',
+      'Pleasant Run plumbing repair mostly involves daily-use parts in mid-century and newer homes: faucet cartridges, supply lines, toilet valves and shut-offs seized by years of hard water. Water heaters and sump pumps wear out too. We carry common parts, so most repairs are done the same day.',
     relevance: [
       'Pleasant Run (ZIP 45240) is a Springfield Township community on the north side, with settled neighborhoods of mid-century and newer homes. In houses of that range, the parts that wear first are the daily-use ones — faucet cartridges, supply lines, toilet valves, and the shut-off valves under sinks that seize after years of hard-water use.',
       'The region’s hard water hurries that wear, leaving scale that shortens the life of fixtures, water heaters, and sump pumps. We carry common repair parts so a worn valve or a failing pump in a Pleasant Run home is usually a same-day fix, repaired at the cause rather than patched over.',
@@ -385,7 +385,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cleves': {
     intro:
-      'Leaking fixture, a corroded supply line, or a drain that backs up in Cleves? We handle same-day plumbing repair and fix the underlying cause. Call (513) 586-5107.',
+      'Cleves sits near where the Great Miami meets the Ohio, and high water can mimic a failing pipe after heavy rain. Plumbing repair there means telling groundwater from a real fault first, then fixing the worn supply lines, valves and fixtures in older homes.',
     relevance: [
       'Cleves (ZIP 45002) is a far-west village near where the Great Miami River meets the Ohio, with older homes on low ground prone to flooding. Those older houses run on aging plumbing — worn supply lines, old valves, and tired fixtures — that fails without much warning, so a small leak rarely stays small.',
       'That riverside position makes high water and backups a recurring risk, easily mistaken for a failing pipe after heavy rain. We tell groundwater from a genuine plumbing fault first, then repair the worn line or fixture at its source so a backup does not ruin a lower level the next time the rivers run high.',
@@ -401,7 +401,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-bend': {
     intro:
-      'Dripping fixture, a corroded supply line, or a drain that backs up in North Bend? We offer same-day plumbing repair and fix the cause at its source. Call (513) 586-5107.',
+      'North Bend plumbing repair usually involves worn supply lines, old valves and tired fixtures in older homes on low riverside ground. High water and backups are a real risk, and slow drains after rain are easy to confuse with a failing pipe. We sort that out first.',
     relevance: [
       'North Bend (ZIP 45052) is a historic far-west village on the Ohio River — the burial place of President William Henry Harrison — with older homes set on low riverside ground. Those older houses run on aging plumbing, where worn supply lines, old valves, and tired fixtures fail with little warning.',
       'Its riverfront position makes high water and backups a real risk, and slow drains after heavy rain are easy to confuse with a failing pipe. We sort groundwater from a genuine plumbing fault first, then repair the worn line or fixture at its source, which keeps the damage contained in these older riverside homes.',
@@ -417,7 +417,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'loveland': {
     intro:
-      'Leaking fixture, a worn valve, or a drain that backs up in Loveland? We provide same-day plumbing repair and trace the cause before we fix it. Call (513) 586-5107.',
+      'Loveland plumbing repair covers older homes near the river with worn supply lines and valves that fail without much warning, and newer houses where builder-grade parts are starting to wear. Low riverside ground adds backup risk in heavy rain, so we tell groundwater from a genuine fault first.',
     relevance: [
       'Loveland (ZIP 45140) is a historic city straddling the Little Miami River and the Loveland Bike Trail, with a charming older downtown and a mix of historic and newer homes. The older homes near the river carry aging plumbing — worn supply lines, old valves, and tired fixtures — that fails without much warning, while the newer houses see builder-grade parts starting to wear.',
       'The low riverside ground adds a flood and backup risk in heavy rain, easily mistaken for a failing pipe. We tell groundwater from a genuine plumbing fault first, then repair the worn line or fixture at its source so the same problem does not resurface after the next storm.',
@@ -433,7 +433,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
   },
   'harrison': {
     intro:
-      'Dripping faucet, a corroded supply line, or a drain that backs up in Harrison? We handle same-day plumbing repair and fix the underlying cause. Call (513) 586-5107.',
+      'Harrison plumbing repairs split between older downtown homes with worn supply lines, valves and fixtures prone to leaks, and newer subdivisions with builder-grade parts wearing out. Low ground near the Whitewater River adds backup risk in heavy rain. We sort groundwater from a real fault before repairing.',
     relevance: [
       'Harrison (ZIP 45030) is a far-west city on the Indiana state line along the Whitewater River, with an older downtown and a growing mix of established and newer homes. The older homes carry aging plumbing prone to leaks — worn supply lines, old valves, and tired fixtures — while the newer subdivisions see builder-grade parts beginning to wear out.',
       'The low ground near the Whitewater adds a backup risk in heavy rain, which can be confused with a failing pipe. We sort groundwater from a genuine plumbing fault first, then repair the worn line or fixture at its source, so a homeowner is not left chasing the same problem after the next storm.',
@@ -443,7 +443,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       {
         q: 'How fast can you reach Harrison for a plumbing repair?',
-        a: 'Harrison is part of our far-west service area near the Indiana line. We are on call to diagnose the root cause and aim for same-day repair, day or night.',
+        a: 'Harrison is part of our far-west service area near the Indiana line. We are on call to diagnose the root cause and aim for same-day repair, 7 days a week.',
       },
     ],
   },
