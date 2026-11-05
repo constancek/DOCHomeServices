@@ -203,18 +203,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       { q: 'Can my North Avondale boiler also make the hot water for the house?', a: 'Yes, with an indirect water heater. It is a storage tank heated by the boiler instead of its own burner, which works well in large North Avondale homes with several bathrooms. It makes the most sense to add when you replace the boiler, since the new unit can be sized for both jobs.' },
     ],
   },
-  'millvale': {
-    intro: 'Pressure loss is a frequent boiler fault in Millvale. In this compact Mill Creek valley neighborhood, older homes with radiators or hot water baseboard lose pressure through a small leak, a failed fill valve or a worn expansion tank until the boiler shuts off. Some homes here run furnaces instead.',
-    relevance: [
-      'Millvale (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, a compact, largely residential community. Older housing here may heat with radiators or hot water baseboard and a boiler in the basement, while some homes run forced-air furnaces instead. A quick look at how heat reaches the rooms tells you which service you need. Radiators or metal baseboards filled with hot water mean a boiler, and registers blowing air mean a furnace.',
-      'For the Millvale homes that do have a boiler, pressure loss is a frequent call: a small leak, a failed fill valve, or a worn expansion tank lets pressure fall until the boiler shuts off. The low-lying ground adds another risk, since heavy rain can put water in basements and on the boiler’s controls, which then need inspection before restart. We find the cause instead of just refilling the system, and we replace the boiler only when repair no longer makes sense.',
-    ],
-    commonIntro: 'In Millvale’s valley homes that heat with a boiler, the problems we handle most often are:',
-    localFaqs: [
-      { q: 'Why does my Millvale boiler keep losing pressure?', a: 'Usually a small leak somewhere in the piping or radiators, a failing expansion tank, or a bad fill valve. We trace the actual cause so you are not refilling the system every week.' },
-      { q: 'Heavy rain put water in my Millvale basement. Is my boiler still safe to run?', a: 'Not until it has been checked. A flooded boiler must be inspected by a technician before it is restarted, because water can ruin the gas valve and controls without any sign from the outside. In Millvale’s low-lying valley homes, we inspect it, replace any damaged parts, and then bring the heat back on.' },
-    ],
-  },
   'paddock-hills': {
     intro: 'Only the older Paddock Hills homes run boilers. Early-1900s houses near Paddock Road and the Norwood Lateral often have a boiler that was replaced once while the radiators and piping stayed original, which brings air in upper radiators and pressure that falls. Mid-century homes mostly have furnaces.',
     relevance: [

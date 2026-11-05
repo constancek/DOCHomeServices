@@ -14,6 +14,7 @@ import {
   BookAndContact,
 } from '@/components/PageSections';
 import ReviewsSection from '@/components/ReviewsSection';
+import HomeBlogSection from '@/components/HomeBlogSection';
 import LogoMarquee from '@/components/LogoMarquee';
 import VideoTestimonials from '@/components/VideoTestimonials';
 import { site } from '@/content/site';
@@ -75,6 +76,7 @@ export default function HomePage() {
       <ComfortClub />
       <Community />
       <ReviewsSection showMarquee={false} />
+      <HomeBlogSection />
       <TornEdge fill="#1f48c8" />
       <BookAndContact />
     </>

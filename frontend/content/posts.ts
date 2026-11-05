@@ -7084,7 +7084,6 @@ export const posts: Post[] = [
       { q: 'Is there a tax credit for a tankless water heater in 2026?', a: 'No. The IRS says the 25C Energy Efficient Home Improvement Credit is not allowed for property placed in service after December 31, 2025. Check Duke Energy’s current rebate list, and confirm tax questions with your tax preparer.' },
     ],
   },
-// TODO hero image: /blog/furnace-repair-cost-hero.webp + .jpg, 1200x630, alt: "Technician testing the wiring on the control board of an open gas furnace"
 {
     slug: 'furnace-repair-cost-cincinnati',
     title: 'Furnace Repair Cost in Cincinnati (2026): Prices by Repair',
@@ -7096,6 +7095,8 @@ export const posts: Post[] = [
     dateModified: '2026-10-03',
     readMinutes: 7,
     author: maurice,
+    image: '/blog/furnace-repair-cost-hero.webp',
+    imageAlt: 'Hand filling in a repair invoice on a clipboard',
     content: [
       {
         kind: 'takeaways',
@@ -7171,7 +7172,6 @@ export const posts: Post[] = [
       { q: 'Should I repair or replace a 15-year-old furnace?', a: 'Compare first. Carrier suggests weighing replacement when a repair approaches 50% of the cost of a new furnace, and ENERGY STAR suggests considering it after 15 years. A small repair on a sound furnace is usually still worth doing.' },
     ],
   },
-// TODO hero image: /blog/furnace-making-noise-hero.webp + .jpg, 1200x630, alt: "Open gas furnace in a basement with the front access panel removed"
 {
     slug: 'furnace-making-noise-cincinnati',
     title: 'Furnace Making Noise? What Each Sound Means in Cincinnati Homes',
@@ -7183,6 +7183,8 @@ export const posts: Post[] = [
     dateModified: '2026-10-13',
     readMinutes: 7,
     author: maurice,
+    image: '/blog/furnace-making-noise-hero.webp',
+    imageAlt: 'Gas furnace beside a water heater in an unfinished basement utility room',
     content: [
       {
         kind: 'takeaways',
