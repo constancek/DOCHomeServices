@@ -33,7 +33,7 @@ export const sharonville: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Check a few things a Sharonville homeowner or tenant can handle. The thermostat should read heat, not cool or off. A filter that looks gray needs changing. There are two breakers, one for the outdoor unit and one for the air handler; reset either if it tripped. Clear snow and leaves from around the outdoor cabinet. Steam and a light frost while the fan pauses for minutes is a normal defrost. If heat returns, you don’t need us. If ice coats the unit and won’t clear, or the emergency heat light stays on, call us. We inspect, explain the fault, price it for your approval and test after.',
+        body: 'A Sharonville homeowner or tenant can sort out some of this alone. Set the thermostat to heat; cool or off won’t warm anything. Swap a gray, dusty filter. Your panel has a breaker feeding the outside cabinet and another feeding the air handler, so flip back any that tripped. Sweep snow and leaves away from the unit. In defrost it may steam, frost over lightly and stop its fan a few minutes, which is fine. Warm air back means you can skip the visit. Ice that stays put, or an emergency heat light that never goes out, is our job. We find the fault, quote it and retest the system.',
       },
       {
         title: 'Repair or Replace Your Sharonville Heat Pump?',
@@ -54,7 +54,7 @@ export const sharonville: LocationServiceCopy = {
       },
       {
         q: 'Why does my Sharonville heat pump blow cool air in winter?',
-        a: 'Heat pump air comes out warm rather than hot, so it can feel cool if you are used to a gas furnace. That part is normal. In a dual fuel house the furnace should take over on the coldest days. Cold air with the outdoor unit iced solid or not running is a fault.',
+        a: 'Most Sharonville homes heat with gas, and a heat pump never matches that furnace’s hot blast; its supply air is just warm. Expected. With dual fuel, the furnace should carry the house through the bitter days. Chilly vents while the outside cabinet is frozen solid or dead quiet point to a real fault.',
       },
     ],
   },

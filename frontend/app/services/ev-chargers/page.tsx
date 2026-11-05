@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -102,10 +102,10 @@ export default function EvChargersPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Electrical"
+      <LocationHero
         title={`EV Charger Installation in ${site.serviceArea}`}
-        description="Home Level 2 EV charger installation by licensed electricians — with panel evaluation, proper load calculation, and code-compliant wiring built for daily charging."
+        image="/services/ev-hero.webp"
+        imageAlt="Electric vehicle charging at a home charging station"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -117,13 +117,20 @@ export default function EvChargersPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/ev-hero.webp)' }}
-            role="img"
-            aria-label="Electric vehicle charging at a home charging station"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local EV Charger Installation Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            EV charger installation across {site.serviceArea} usually comes down to whether the panel
+            has room for a dedicated 240-volt circuit, typically on a 40 to 60 amp breaker. We run a
+            load calculation instead of eyeballing it. When capacity is short, a load-management device
+            that slows charging while the house is busy often costs less than a service upgrade. If a
+            standard 120-volt outlet keeps up with your driving overnight, you may not need us. Both
+            routes get priced before any wire is pulled.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Home EV Charger Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -134,11 +141,6 @@ export default function EvChargersPage() {
             But an EV charger adds real load to your electrical system. Done right, it needs the correct
             circuit, proper grounding, and a panel that can handle the demand. Done wrong, it risks
             overheating and electrical strain.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} installs home EV chargers across {site.serviceArea}. Our licensed electricians
-            evaluate your panel, size the circuit correctly, and complete a clean, code-compliant
-            installation built for long-term performance.
           </p>
         </MainWithSidebar>
       </section>
@@ -345,7 +347,7 @@ export default function EvChargersPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

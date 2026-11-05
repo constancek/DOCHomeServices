@@ -2,15 +2,15 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const lakesidePark: LocationServiceCopy = {
   localParagraph:
-    'Lakeside Park is a small Kenton County city of mostly mid-century houses, and its heat pumps follow the heating fuel. Census figures show 32.6% of homes heat with electricity and 57.5% with gas, so we see all-electric heat pumps in some houses and apartments, and dual fuel setups where a gas furnace backs up the outdoor unit. The median home was built in 1964, so the heat pump was usually added well after the house. We find what failed and give you the price before we start.',
+    'About a third of Lakeside Park homes, 32.6% by Census figures, heat with electricity, while 57.5% burn gas. That split decides what we find on a call: some houses and apartments rely on a heat pump alone, and others pair it with a gas furnace for the hardest cold. Half the housing in this Kenton County city was built by 1964, well before most heat pumps went in, so the outdoor unit is usually newer than the walls. We find what broke and quote it before we start.',
   emergencyParagraph:
-    'NOAA’s 1991-2020 normals put the January low near 23F at the CVG weather station. A heating failure on a night like that in Lakeside Park is hardest on infants, older people and anyone who is sick. We repair heat pumps, dual fuel systems and air handlers, often the same day, weekends included.',
+    'January nights at the CVG station average lows near 23F, by NOAA’s 1991-2020 normals. Lose heat in a Lakeside Park house then, and the first to suffer are infants, grandparents and anyone already sick. We fix heat pumps, dual fuel systems and air handlers, often the same day, Saturdays and Sundays too.',
   commonIntro:
     'Most Lakeside Park calls are heat pumps added to 1950s and 1960s houses, either all-electric or paired with gas. These four come up most:',
   localFaqs: [
     {
       q: 'Who issues heat pump permits in Lakeside Park?',
-      a: 'Planning and Development Services of Kenton County handles building and HVAC permits for Lakeside Park, and Kentucky requires one to replace a heat pump. We apply for it when we do a replacement. A repair to the heat pump you already own is a simple quote and fix.',
+      a: 'Kentucky requires a permit to replace a heat pump, and for Lakeside Park it comes from Planning and Development Services of Kenton County, which covers building and HVAC work here. We file for it on every replacement we do. Fixing the heat pump you already have is just a diagnosis, a price and your okay.',
     },
     {
       q: 'My electric bill jumped in January. Could my Lakeside Park heat pump be the reason?',
@@ -29,11 +29,11 @@ export const lakesidePark: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Try these first. Confirm the thermostat says heat, not cool or off. Put in a new filter. Find the breaker for the outdoor unit and the one for the indoor air handler or furnace, and make sure neither has tripped. Pull snow and leaves away from the outdoor unit. When the unit steams, frosts lightly and stops its fan for a few minutes, it is defrosting, and that’s expected. If the heat comes back, no need for us. Call when the ice stays, the emergency heat light won’t go off or the system only cools. We check it, explain it and get your yes on the price.',
+        body: 'Some checking can save a Lakeside Park service call. Set the thermostat to heat. Slide in a fresh filter. At the breaker box, the outdoor unit and the indoor air handler or furnace each have a breaker, and a tripped one goes back on. Kick snow and leaves clear of the outside unit. Steam, a light frost and a short fan stop are a defrost cycle doing its job. Once warm air returns, you don’t need us. Book a visit when the ice never melts off, the emergency heat light stays lit or the system will only cool. You hear the fault and the cost first.',
       },
       {
         title: 'Repair or Replace Your Lakeside Park Heat Pump?',
-        body: 'Judge it by the heat pump. A house built in 1964 might have a heat pump that’s brand new or decades old, and the label on the outdoor unit settles it. On a younger unit, a bad capacitor, contactor or fan motor is a repair. When an aging unit has a refrigerant leak or a seized compressor, we price a repair and a replacement so you can compare, and we handle the permit if you replace. A heat pump that’s losing ground shows up as longer backup heat runs and a higher electric bill, often before the house feels cold.',
+        body: 'The heat pump’s own age matters, not the house’s. A 1964 house can have an outdoor unit put in last year or one that’s been running for decades, so read the label. A failed capacitor, contactor or fan motor on a younger unit is worth repairing. On an aging unit with leaking refrigerant or a locked-up compressor, we write both numbers down, repair and replacement, and take care of the permit if you replace. A failing heat pump tends to show on the electric bill, as backup heat runs longer, before anyone in the house feels cold.',
       },
     ],
     whyTitle: 'Why Lakeside Park Homeowners Call Us',
@@ -50,7 +50,7 @@ export const lakesidePark: LocationServiceCopy = {
       },
       {
         q: 'Why does my Lakeside Park heat pump blow cool air?',
-        a: 'Heat pump air is lukewarm compared with a gas furnace, so a hand over the vent can read it as cool. That’s normal. Air that is actually cold, with ice packed on the outdoor unit or the unit not running, is a fault worth a call.',
+        a: 'Next to a gas furnace, a heat pump’s air is only lukewarm, so it can feel cool over the register. That’s normal. Air that’s really cold, while the outdoor unit sits iced up or isn’t running at all, is a fault and worth a call.',
       },
     ],
   },

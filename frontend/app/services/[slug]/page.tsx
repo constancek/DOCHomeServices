@@ -129,7 +129,7 @@ function MainService({ service }: { service: Service }) {
                 {service.faqs.map((f) => (
                   <div key={f.q} className="card">
                     <h3 className="text-lg font-bold text-brand-950">{f.q}</h3>
-                    <p className="mt-2 text-brand-700">{f.a}</p>
+                    <p className="mt-2 text-[17px] text-brand-700">{f.a}</p>
                   </div>
                 ))}
               </div>
@@ -260,7 +260,7 @@ function SubService({ page }: { page: ServicePage }) {
                 {faqs.map((f) => (
                   <div key={f.q} className="card">
                     <h3 className="text-lg font-bold text-brand-950">{f.q}</h3>
-                    <p className="mt-2 text-brand-700">{f.a}</p>
+                    <p className="mt-2 text-[17px] text-brand-700">{f.a}</p>
                   </div>
                 ))}
               </div>

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -83,10 +83,10 @@ export default function SurgeProtectorPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Electrical"
+      <LocationHero
         title={`Whole-Home Surge Protector Installation in ${site.serviceArea}`}
-        description="Panel-level protection that stops electrical surges before they reach your appliances, HVAC, and electronics — installed by licensed electricians."
+        image="/services/surge-hero.webp"
+        imageAlt="Electrical panel with surge protection"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -98,13 +98,20 @@ export default function SurgeProtectorPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/surge-hero.webp)' }}
-            role="img"
-            aria-label="Electrical panel with surge protection"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Surge Protector Installation Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Surge protector installation across {site.serviceArea} usually means one device at the
+            electrical panel. It sends surges arriving on the service to ground before they reach the
+            furnace, the AC or the fridge, and works best against utility switching and nearby
+            lightning. It does less about spikes made inside the house when a motor starts, and nothing
+            about surges on a coax or ethernet line, so plug-in strips still belong at the TV. We check
+            the panel for space, then quote the install up front.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Whole-Home Surge Protector Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -112,13 +119,6 @@ export default function SurgeProtectorPage() {
             appliances cycling on and off can send excess voltage through your home’s electrical
             system — and that sudden spike can damage electronics, HVAC systems, air conditioners, and
             smart home devices in seconds.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} provides professional whole-home surge protector installation for homeowners
-            across {site.serviceArea}. A surge protector installed at your electrical panel diverts
-            surges safely into the ground before they reach your appliances and connected equipment —
-            our licensed electricians install it to protect your home and deliver lasting peace of
-            mind.
           </p>
         </MainWithSidebar>
       </section>
@@ -273,7 +273,7 @@ export default function SurgeProtectorPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

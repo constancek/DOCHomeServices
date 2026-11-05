@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -108,10 +108,10 @@ export default function LeakDetectionPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Leak Detection in ${site.serviceArea}`}
-        description="Higher water bill, a stain, or the sound of running water? We find hidden water and slab leaks fast with acoustic, thermal, and camera tools — without tearing up your home."
+        image="/services/leak-hero.webp"
+        imageAlt="Plumber locating a hidden water leak"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -123,24 +123,27 @@ export default function LeakDetectionPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/leak-hero.webp)' }}
-            role="img"
-            aria-label="Plumber locating a hidden water leak"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
-            Professional Leak Detection
+            Local Leak Detection Pros Who Know {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            The hardest leaks to deal with are the ones you cannot see — behind a wall, under the
-            slab, or inside a ceiling — quietly causing damage for weeks before you notice. {site.name}{' '}
-            finds them fast for homeowners across {site.serviceArea}, using acoustic, thermal, and
-            camera tools that pinpoint the exact source without tearing up your home.
+            Leak detection across {site.serviceArea} usually starts with a water bill that
+            jumped, a stain on a ceiling or the sound of water running with every tap off. In
+            older homes the source is often corroded galvanized pipe inside a wall, and in a
+            house on a slab it can be a line under the concrete. Acoustic sensors and thermal
+            imaging pinpoint the spot before we open anything, so the hole stays small. Once we
+            know where the leak is, you get the repair price.
           </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Leak Detection in {site.serviceArea}
+          </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Once we know where the leak is, we explain what we found in plain terms and recommend the
-            smallest effective fix — with upfront, flat-rate pricing you approve before we start.
+            Water running inside a ceiling or under a slab spreads into framing and flooring by
+            the hour, and a sagging ceiling can fall on whoever is below. NOAA counts about 100
+            nights a year at or below freezing at the airport station, and pipes in outside
+            walls suffer first. Most leak calls are seen the same day, weekends included.
           </p>
 
           {/* Benefits */}
@@ -316,7 +319,7 @@ export default function LeakDetectionPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

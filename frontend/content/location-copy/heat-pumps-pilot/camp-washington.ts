@@ -4,7 +4,7 @@ export const campWashington: LocationServiceCopy = {
   localParagraph:
     'Camp Washington is mostly renters, and 88.9% of its homes date from 1939 or earlier, so heat pump calls here usually come from landlords and building managers. Census figures show 33.2% of homes heating with electricity, a count that mixes heat pumps with electric furnaces and baseboard, and most of the rest on gas. Heat pumps in these old buildings were added long after construction, so we trace the air handler and ducts as well as the outdoor unit. You get a price before any work starts.',
   emergencyParagraph:
-    'Cincinnati averages about 100 nights a year at or below freezing, measured at the airport by NOAA. A dead heat pump in an old Camp Washington apartment on one of those nights is hardest on babies, older relatives and anyone who is ill. We repair heat pumps and electric air handlers, most calls same day, weekends included.',
+    'NOAA counts close to 100 nights a year at or below freezing at the Cincinnati airport. When a heat pump dies in an old Camp Washington apartment on a night like that, babies, older relatives and sick residents feel it first. We fix heat pumps and electric air handlers here, usually the same day, Saturdays and Sundays too.',
   commonIntro:
     'Camp Washington heat pump calls mostly come from rental buildings put up before 1940. The four problems we see most:',
   localFaqs: [
@@ -29,11 +29,11 @@ export const campWashington: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Tenants and owners can check these first. The thermostat should read heat, not cool or off. A dirty filter can stop airflow, so replace it. There are two breakers to look at: one for the outdoor unit, one for the indoor air handler. Snow or debris around the outdoor unit needs clearing. Steam, light frost and the fan going quiet for a few minutes mean the unit is defrosting, and that’s normal. If the heat comes back, you don’t need us. If ice stays on the coil or the emergency heat light won’t go out, report it or call us. We find the fault and price it first.',
+        body: 'Camp Washington tenants and owners can rule out simple causes. Is the thermostat on heat? Cool or off means nothing will warm up. Is the filter clogged? Fit a fresh one. Are both breakers on, the one for the unit outdoors and the one for the air handler inside the apartment? Clear snow or trash off the outdoor cabinet. A short pause of the fan with steam and a skin of frost is defrost doing its job. Heat back? You’re fine. Ice that sticks to the coil or an emergency heat light that stays lit goes to the landlord or to us, and we quote before we fix.',
       },
       {
         title: 'Repair or Replace Your Camp Washington Heat Pump?',
-        body: 'Judge the heat pump, not the building. The building’s age tells you little, since pre-1940 buildings here can carry heat pumps that are only a few years old, and a failed fan motor or control board on that kind of unit is worth repairing. A refrigerant leak or a dead compressor on an older unit is when owners should see a replacement price beside the repair. On an all-electric unit, a Duke Energy bill that spikes in a normal month usually means backup heat strips are doing the heating. We handle the permit for any replacement.',
+        body: 'Read the date on the heat pump itself. Nearly every building here went up before 1940, yet the heat pumps in them were often installed in the last few years, and a dead fan motor or control board on a unit that young is a straightforward repair. Owners should ask for a replacement price beside the repair once an older unit has lost refrigerant through a leak or its compressor has died. With all-electric heat, a Duke Energy bill that leaps in an ordinary month tells you the backup strips have taken over. We handle the permit for any replacement.',
       },
     ],
     whyTitle: 'Why Camp Washington Landlords and Residents Call Us',

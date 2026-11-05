@@ -2,7 +2,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const kenwood: LocationServiceCopy = {
   localParagraph:
-    'Census figures show 75.5% of Kenwood homes heat with gas and 23.5% with electricity, and close to half the housing went up between 1960 and 1979. In those houses a heat pump is usually paired with a gas furnace that covers the coldest nights. In condos and the big apartment complexes, a heat pump with an electric air handler is often the only heat. We pin down the fault and agree the price with you before starting.',
+    'Gas heats 75.5% of Kenwood homes and electricity 23.5%, by Census figures, and 46.7% of the housing was built from 1960 through 1979. In those houses we usually find the heat pump sharing ductwork with a gas furnace that handles the bitter nights. In the condos and large complexes, which hold 22.9% of homes, a heat pump with an electric air handler is often all the heat there is. We find the fault and settle the price before any work.',
   emergencyParagraph:
     'The CVG station logs about 100 nights a year at or below freezing, per NOAA. In an all-electric Kenwood condo, a failed heat pump that night leaves only the backup strips. That is hardest on young children, older family members and anyone who is ill. We fix heat pumps on most calls the same day, weekends too.',
   commonIntro:
@@ -33,7 +33,7 @@ export const kenwood: LocationServiceCopy = {
       },
       {
         title: 'Repair or Replace Your Kenwood Heat Pump?',
-        body: 'Decide by the heat pump, not the 1960s house it serves. Check the date on the outdoor unit’s label. A failed capacitor or fan motor on a reasonably young unit is a repair. A refrigerant leak or a dead compressor is the real decision, and on an older unit we price repair and replacement together so you can compare. In a condo, ask the association whether the outdoor unit is yours or theirs before any replacement. Kenwood’s power is delivered by Duke Energy Ohio, and a weakening heat pump shows up there as a bigger winter bill.',
+        body: 'Let the outdoor unit’s label decide, not the year the house went up. A worn capacitor or fan motor on a unit with plenty of life left gets repaired. The hard call comes with a refrigerant leak or a compressor that won’t start; on an older unit we write up the repair and the replacement as two prices for you to weigh. Condo owners should ask the association who owns the outside unit before anyone replaces it. Duke Energy Ohio delivers Kenwood’s power, and a heat pump losing ground often shows up there first, as a winter bill bigger than last year’s.',
       },
     ],
     whyTitle: 'Why Kenwood Homeowners Call Us',
@@ -46,11 +46,11 @@ export const kenwood: LocationServiceCopy = {
       },
       {
         q: 'Should I fix or replace my Kenwood heat pump?',
-        a: 'Fix it if the unit is fairly young and one part has failed. If it is older and the compressor is gone or refrigerant keeps leaking out, compare the two prices we give you. Financing is available for a replacement, and we never push one when a repair makes sense.',
+        a: 'A young unit with one broken part is worth fixing. An older one with a dead compressor, or refrigerant that keeps escaping, deserves a side-by-side look at the two prices we give you. Financing is available if you replace, and we won’t talk you into a new system when a repair will do.',
       },
       {
         q: 'Why does my Kenwood heat pump blow cool air?',
-        a: 'A heat pump heats with a long, steady run of warm air, which feels cooler than the short hot bursts from a gas furnace. That is normal operation. If the air is cold and the outdoor unit is iced up or not running, there is a fault to find.',
+        a: 'Heat pumps run long and steady at a lower air temperature than a gas furnace, which heats in short hot bursts, so the vent can feel cool. Nothing is wrong. Cold air together with an iced-up or idle outdoor unit is different: that means a fault we need to track down.',
       },
     ],
   },

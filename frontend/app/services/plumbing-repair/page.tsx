@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -82,10 +82,10 @@ export default function PlumbingRepairPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Plumbing Repair in ${site.serviceArea}`}
-        description="Leaks, clogs, low pressure, or a failing fixture? Our licensed plumbers fix the root cause — fast, clean, and built to last."
+        image="/services/plumbing-repair-hero.webp"
+        imageAlt="Licensed plumber making a repair under a sink"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -97,29 +97,29 @@ export default function PlumbingRepairPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/plumbing-repair-hero.webp)' }}
-            role="img"
-            aria-label="Licensed plumber making a repair under a sink"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
-            Plumbing Problems Can’t Wait
+            Local Plumbing Repair Pros Who Know {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            When a plumbing issue strikes, waiting it out is not an option. Even small leaks or slow
-            drains can lead to bigger problems if left unresolved. Our prompt response and attention
-            to detail make sure your plumbing gets the care it needs before it becomes an emergency.
+            Plumbing repair across {site.serviceArea} usually means a running toilet, a slow
+            drain, a dripping fixture or pressure that dropped. In homes from the 1920s to the
+            1950s, galvanized supply lines close up with corrosion, and weak flow at every tap
+            is often the first sign. Greater Cincinnati Water Works reports 126 to 140 mg/L of
+            hardness, which leaves scale on faucet cartridges and toilet fill valves. If one
+            faucet runs weak, clean its aerator first. Otherwise we find what failed and you
+            approve a flat rate first.
           </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Plumbing Repair in {site.serviceArea}
+          </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            A small leak today can quickly turn into water damage or mold tomorrow — fast action
-            protects your home and your wallet. We know how disruptive plumbing problems can be: they
-            interrupt your day, damage your property, and can even affect your health.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            That is why {site.name} prioritizes fast scheduling, clear communication, and high-quality
-            repairs designed to last. From your first call to the final check, you will see why our
-            reputation is built on trust and results.
+            A broken supply line or an overflowing toilet can soak the ceiling below, and the
+            damage widens every hour, while wet floors are a fall risk for older relatives. The
+            National Weather Service puts the normal first freeze around October 25, after which
+            pipes in outside walls can freeze. Most repairs are handled the same day, weekends
+            included.
           </p>
         </MainWithSidebar>
       </section>
@@ -284,7 +284,7 @@ export default function PlumbingRepairPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

@@ -10,7 +10,7 @@ export const corryville: LocationServiceCopy = {
   localFaqs: [
     {
       q: 'My Corryville apartment heat pump isn’t heating. Can I hire you myself?',
-      a: 'Report it to your landlord or building manager in writing first, because the equipment and the repair decision belong to them. Corryville is in Cincinnati, so a landlord controlling the heat must hold the unit at 70F or more once it’s been under 60F outside for 24 hours. We fix heat pumps, not leases.',
+      a: 'Put it in writing to your landlord or building manager first; the equipment and the repair call are theirs. Corryville is inside Cincinnati, where a landlord in control of the heat must keep the unit at 70F or more after a full day under 60F outside. We fix heat pumps, not leases.',
     },
     {
       q: 'What should a Corryville tenant check before reporting a heat pump problem?',
@@ -29,11 +29,11 @@ export const corryville: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Tenants and managers can rule out the easy causes first. Confirm the thermostat is in heat mode, since a switch left on cool or off looks like a breakdown. Change a clogged filter. Check both breakers, the outdoor unit’s and the indoor air handler’s. A defrost cycle, with steam, a bit of frost and a fan that pauses for a few minutes, is normal. If the heat returns, no visit is needed. Owners should call when the coil stays iced, the emergency heat light won’t clear, or the outdoor fan grinds. We diagnose, quote, repair once approved, and test.',
+        body: 'In Corryville, where 92.7% of homes rent, a tenant usually checks first. A thermostat left on cool or off since September feels exactly like a breakdown. Slide out the filter; if it’s furred with dust, put in a new one. In the apartment panel, the air handler breaker may have tripped; flip it back once. Steam and frost on the outdoor coil, with its fan quiet a few minutes, is defrost. If heat comes back, nobody needs to call. Owners should ring us for a coil that stays iced, an emergency heat light that won’t go out, or a grinding fan. We diagnose and quote first.',
       },
       {
         title: 'Repair or Replace Your Corryville Heat Pump?',
-        body: 'Decide by the heat pump, not the building. In a 2000s apartment block, many units may still run their original equipment, and a failed fan motor or contactor on one of them is a routine repair. A compressor failure or a coil that keeps losing refrigerant is when replacement belongs in the conversation, and we price both. Replacing a heat pump needs a mechanical permit from the City of Cincinnati Department of Buildings & Inspections, and we handle it. In an all-electric unit, backup strips doing the heat pump’s job push up the Duke Energy Ohio bill, so a tenant asking about a high bill is worth a look.',
+        body: 'Judge the equipment, not the address. 40.2% of Corryville housing went up in 2000 or later, and a lot of those apartments still run the heat pump they opened with. Swapping a burned-out fan motor or contactor on one of them is ordinary work. When a compressor dies or a coil leaks refrigerant again and again, we write up replacement beside the repair. The City of Cincinnati Department of Buildings & Inspections issues the mechanical permit for a replacement, and we file it. Backup strips covering for a weak heat pump drive up the Duke Energy Ohio bill, so a tenant’s high-bill complaint deserves a look.',
       },
     ],
     whyTitle: 'Why Corryville Landlords and Property Managers Call Us',
@@ -42,15 +42,15 @@ export const corryville: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost for a Corryville rental?',
-        a: 'It depends on the failed part and where the equipment sits. A capacitor in a ground-level outdoor unit is quick, while a leak in a long line set in a larger building takes more time. Owners and managers get a flat-rate quote after diagnosis and approve it before we start.',
+        a: 'The price tracks the part and how hard it is to reach. A capacitor at a ground-level condenser is a short job; chasing a leak through a long line set in a big building is not. Owners and managers see one flat-rate figure after we diagnose, and nothing starts without their okay.',
       },
       {
         q: 'Should a Corryville landlord repair or replace an old heat pump?',
-        a: 'Repair when one part has failed and the system otherwise works well. A failed compressor or a recurring leak on an older unit is when we price a replacement next to the repair. Financing is available, which helps when several units in one building reach that point together.',
+        a: 'If a single part quit and the rest tests fine, fix it. A dead compressor or a leak that keeps coming back on an aging unit is the point where we quote a new heat pump beside the repair. Financing helps when several apartments in one building hit that stage in the same year.',
       },
       {
         q: 'Why does the heat pump in my Corryville apartment blow cool air?',
-        a: 'Heat pump air is warm but gentle, so it can feel cool compared with a gas furnace. That’s normal. If the air is cold and stays cold, the outdoor unit may be iced over or stopped, or the reversing valve stuck. Tell your landlord, and the owner can call us.',
+        a: 'Some coolness is normal: heat pump air is milder than gas furnace air, so it can feel cool on your hand. Air that stays cold points to an iced or stopped outdoor unit, or a reversing valve stuck in cooling. Tell your landlord, and the owner can call us.',
       },
     ],
   },

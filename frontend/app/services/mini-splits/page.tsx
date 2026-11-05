@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -87,10 +87,10 @@ export default function MiniSplitsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Air Conditioning"
+      <LocationHero
         title={`Ductless Mini-Splits in ${site.serviceArea}`}
-        description="Flexible, efficient cooling and heating without ductwork — installation and repair for additions, basements, and homes that need targeted comfort."
+        image="/services/minisplit-hero.webp"
+        imageAlt="Ductless mini-split indoor unit"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -102,20 +102,23 @@ export default function MiniSplitsPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/minisplit-hero.webp)' }}
-            role="img"
-            aria-label="Ductless mini-split indoor unit"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
-            Ductless Mini-Split Systems
+            Local Mini-Split Pros Who Know {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Ductless mini-split systems provide flexible cooling and heating without ductwork. They
-            are a popular option for homeowners who want targeted comfort, improved efficiency, and
-            reliable performance in specific areas of the home.
+            Mini-split service across {site.serviceArea} usually means a ductless heat pump in
+            an addition, a finished basement, a garage or an older home that never had ducts.
+            One outdoor unit can run a single indoor head or several, and each zone keeps its
+            own temperature. Most of these systems heat as well as cool, so one system covers
+            January nights near 23°F and July afternoons near 86°F (NOAA and NWS normals for
+            CVG). We install and repair all major brands and quote the job before the work
+            starts.
           </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Ductless Mini-Split Systems
+          </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             {site.name} offers professional air conditioning and ductless mini-split services across{' '}
             {site.serviceArea}, supporting both new systems and existing equipment so homeowners keep
@@ -324,7 +327,7 @@ export default function MiniSplitsPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

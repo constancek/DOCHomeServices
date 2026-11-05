@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -94,10 +94,10 @@ export default function LandscapeLightingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Lighting"
+      <LocationHero
         title={`Landscape Lighting Installation in ${site.serviceArea}`}
-        description="Custom, energy-efficient landscape lighting installed by licensed electricians — thoughtful placement that improves safety, curb appeal, and how you use your yard after dark."
+        image="/services/landscape-hero.webp"
+        imageAlt="Garden path illuminated with landscape lighting at night"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -111,13 +111,20 @@ export default function LandscapeLightingPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/landscape-hero.webp)' }}
-            role="img"
-            aria-label="Garden path illuminated with landscape lighting at night"
-          />
+          {/* One-format top section: local pros, one paragraph */}
           <h2 className="section-title text-brand-700">
+            Local Landscape Lighting Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Landscape lighting across {site.serviceArea} is usually a low-voltage system on a
+            12-volt transformer, feeding path lights, tree uplights and step lights. The weak point
+            is the connections: twist-on connectors buried in wet soil corrode within a season or
+            two. Winters are hard on cheap parts, with about 100 nights a year at or below freezing
+            at CVG in NOAA’s normals, so we use direct-burial cable and sealed splices. Solar stake
+            lights need no electrician. We walk the yard and quote a flat rate first.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Landscape Lighting Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -306,7 +313,7 @@ export default function LandscapeLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

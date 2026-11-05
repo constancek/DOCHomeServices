@@ -50,7 +50,7 @@ export default function LocationHero({
           </nav>
 
           <div className="flex flex-1 items-center justify-center py-12">
-            <h1 className="max-w-6xl text-balance text-center font-display text-[clamp(2.5rem,11vw,4rem)] font-black uppercase leading-[1.02] text-white drop-shadow-[0_4px_24px_rgba(0,0,0,0.45)] md:text-6xl lg:text-7xl">
+            <h1 className="max-w-6xl text-balance text-center font-display text-[clamp(2.5rem,11vw,4rem)] font-black leading-[1.02] text-white drop-shadow-[0_4px_24px_rgba(0,0,0,0.45)] md:text-6xl lg:text-7xl">
               {title}
             </h1>
           </div>

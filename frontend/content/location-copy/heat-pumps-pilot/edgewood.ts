@@ -29,11 +29,11 @@ export const edgewood: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'An Edgewood homeowner can clear several faults alone. Read the thermostat; it should say heat. Replace a gray filter. Your panel has a breaker for the outdoor unit and another for the air handler, and either can trip by itself. Break snow and ice away from the outdoor cabinet. Vapor during defrost, with the fan quiet for a few minutes, is routine. When heat comes back, you don’t need us. Call if a shell of ice stays put or the emergency heat light won’t go dark. If you smell gas near the furnace, leave and phone the gas company from outside. We diagnose and quote first.',
+        body: 'Edgewood owners often sort this out themselves. Set the thermostat to heat. A gray, furry filter goes out and a clean one goes in. Two separate breakers power the outdoor cabinet and the indoor blower; check both. Chip snow and ice back from the outdoor cabinet. Defrost sends up vapor and parks the fan a few minutes, which is routine. Warm again? Cancel the call. We want to hear about ice that refuses to melt or an emergency heat light that never goes dark. Smell gas near the furnace? Get out and call the gas company from outside. We diagnose and quote first.',
       },
       {
         title: 'Repair or Replace Your Edgewood Heat Pump?',
-        body: 'Decide by the heat pump, not by the house. A 1970s Edgewood house can have a heat pump only a few years old, and a seized outdoor fan motor on a recent unit is a repair. A refrigerant leak or a compressor failure on an older system is where a replacement quote belongs next to the repair quote, and we give you both. In an all-electric house, a Duke Energy Kentucky bill that jumps while the weather stays mild usually means the heat strips are covering for a weak heat pump. In a dual fuel house, the furnace running more than it used to is the same warning.',
+        body: 'The unit’s age decides this, not the house’s. Many 1970s Edgewood houses carry a heat pump put in only a few years ago, and when the outdoor fan motor seizes on one of those, we repair it. Once an older system is losing refrigerant or its compressor has failed, you get a replacement quote alongside the repair quote. In an all-electric house, a Duke Energy Kentucky bill that climbs during mild weather tends to mean the heat strips are propping up a weak heat pump. In a dual fuel house, a furnace that runs more than it used to sends the same message.',
       },
     ],
     whyTitle: 'Why Edgewood Homeowners Call Us',
@@ -42,15 +42,15 @@ export const edgewood: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost in Edgewood?',
-        a: 'The price follows the fault. Replacing a contactor is quick work, while finding and sealing a refrigerant leak takes much longer. We diagnose first, then quote a flat rate for you to approve. Nothing starts without your yes, and a Saturday or Sunday visit adds no overtime fee.',
+        a: 'We cannot quote blind. Changing a contactor takes little time; tracing and sealing a refrigerant leak can take much of a visit. After testing, you get a flat-rate figure to accept or decline, and nothing starts without your yes. Saturday and Sunday visits add no overtime fee.',
       },
       {
         q: 'Should I repair or replace my Edgewood heat pump?',
-        a: 'Repair it when a single part failed on a unit that is otherwise in good shape. Look at replacement when the compressor dies or refrigerant keeps leaking on an older system. The house’s age won’t tell you; the date on the unit will. We quote both.',
+        a: 'Fix it when one component quit and the rest of the system is sound. Think about replacement when the compressor dies or an older system keeps bleeding refrigerant. Skip the house’s age and read the date on the unit’s label instead. We put both numbers in front of you.',
       },
       {
         q: 'Why is my Edgewood heat pump blowing cool air?',
-        a: 'Some of it is normal. Heat pump air leaves the vents warm, not hot, so it can feel cool if you grew up with a gas furnace. In a dual fuel house the furnace should step in on the coldest days. Cold air with a frozen or stopped outdoor unit is a fault.',
+        a: 'Often nothing is wrong. Supply air from a heat pump is warm but never furnace-hot, so a hand at the register expecting gas furnace heat reads it as cool. In an Edgewood dual fuel house, the furnace ought to pick up on the bitter days. A frozen or motionless outdoor unit with cold vents is a genuine fault.',
       },
     ],
   },

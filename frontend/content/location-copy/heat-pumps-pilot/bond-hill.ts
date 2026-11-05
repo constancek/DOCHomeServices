@@ -4,7 +4,7 @@ export const bondHill: LocationServiceCopy = {
   localParagraph:
     'Gas heats most of Bond Hill, so the heat pumps we work on here are usually paired with a furnace that picks up the coldest hours. Census figures show 70.7% of homes on gas and 27.5% on electricity, and that electric count also covers furnaces and baseboard. Many houses date from before 1940, and a good share are doubles or small multi-unit buildings, so a heat pump often shares a basement and old ductwork with the furnace. We find the fault and quote it before any work.',
   emergencyParagraph:
-    'About 100 nights a year drop to freezing or below at the Cincinnati airport, by NOAA’s count. A heating failure on one of those nights is rough on babies, older relatives and anyone who’s sick. We repair heat pumps and dual fuel systems in Bond Hill, with same-day service on most calls and weekends covered.',
+    'NOAA counts about 100 nights a year at or below freezing at the Cincinnati airport. Losing heat on one of them hits babies, older relatives and anyone who’s sick hardest. We fix heat pumps and dual fuel setups across Bond Hill, usually the same day you call, and Saturdays and Sundays count.',
   commonIntro:
     'Bond Hill calls usually involve a heat pump working alongside a gas furnace in an older house or a double. Here are the four we see most:',
   localFaqs: [
@@ -29,11 +29,11 @@ export const bondHill: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Run a few checks first. The thermostat needs to be on heat. A clogged filter can choke the airflow, so put in a new one. Your panel should have one breaker for the outdoor unit and another for the furnace or air handler; make sure both are on. Clear any snow or leaves from around the outdoor unit. Steam rising off it and a short fan pause mean it’s defrosting, which is normal. If heat returns, you don’t need us. Call if ice won’t clear, the unit is stuck cooling, or the backup furnace never fires. If you smell gas near the furnace, get outside and call from there.',
+        body: 'Some Bond Hill no-heat calls end before we arrive. If the thermostat reads cool or off, that’s the whole problem; set it to heat. Change a gray, matted filter. Check the panel for two tripped switches, the outdoor unit’s and the furnace’s, and flip either back. Clear snow and wet leaves off the cabinet outside. A plume of steam and the fan going quiet for a minute or two is the unit defrosting. Heat restored means no visit needed. We should come out if ice won’t melt, cooling won’t switch off, or the backup furnace never lights. Gas smell at the furnace: leave first, call from outside.',
       },
       {
         title: 'Repair or Replace Your Bond Hill Heat Pump?',
-        body: 'Decide by the heat pump, not the age of the house. A Bond Hill house from the 1920s can have a heat pump put in a few years ago, and a bad fan motor or defrost control on that unit is worth fixing. A refrigerant leak or a failed compressor on an older heat pump is where we price replacement alongside repair. With a gas furnace as backup, you may only notice a weak heat pump because the furnace runs more and the Duke Energy gas bill climbs. We handle the permit on replacements.',
+        body: 'The house’s age says little; the heat pump’s install date says a lot. Many 1920s and 1940s Bond Hill houses only got a heat pump in the last few years, and a new fan motor or defrost board on one of those is a sensible fix. An older system that has leaked its refrigerant, or lost its compressor, gets two written prices from us: repair and replace. Dual fuel hides a weak heat pump, because the furnace quietly takes more of the load and the Duke Energy gas bill rises. Replacements need a permit from the city’s Buildings & Inspections department, and we pull it.',
       },
     ],
     whyTitle: 'Why Bond Hill Homeowners and Landlords Call Us',
@@ -42,11 +42,11 @@ export const bondHill: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Bond Hill?',
-        a: 'We price it after finding the fault. A worn contactor on the outdoor unit is a small job, while a leak on refrigerant lines run through an old basement takes longer to find. You get one flat-rate price to approve before we start, with no overtime charge on weekends.',
+        a: 'The test comes first, then the number. A contactor on the outdoor unit is a short fix; a refrigerant leak somewhere along lines that wind through an old Bond Hill basement takes longer to pin down. One flat-rate price comes to you for a yes before work begins, and weekend calls carry no overtime.',
       },
       {
         q: 'Is my Bond Hill heat pump worth repairing?',
-        a: 'Check the date on the unit, not the house. A recent heat pump with one bad part is usually a repair. An older one with a dead compressor or repeat leaks is when we quote both repair and replacement, and you decide which way to go.',
+        a: 'Usually, if the unit is fairly new and only one part has failed. Find the install date on the outdoor unit’s label. A dead compressor or a leak that keeps coming back on an older system is different: we write up repair and replacement side by side, and the choice is yours.',
       },
       {
         q: 'Why does my Bond Hill heat pump blow cool air?',

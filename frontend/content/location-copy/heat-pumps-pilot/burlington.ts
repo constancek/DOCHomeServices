@@ -29,7 +29,7 @@ export const burlington: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Start with the easy checks. The thermostat belongs on heat, not cool or off. Swap a clogged filter. Most Burlington subdivision houses have two breakers, the condenser’s and the air handler’s, and both should be on. Brush snow or leaves off the unit in the yard. Steam or light frost with the fan pausing briefly is defrost, and it’s normal. If warm air returns, you don’t need us. Phone us when ice stays packed on the coil, the emergency heat light stays lit, or the yard unit’s fan sits still. We look it over, tell you what broke, quote it for approval and confirm the heat works before we go.',
+        body: 'Make sure the thermostat reads heat; cool or off won’t do it. Replace a filter you can’t see light through. Your panel likely has two breakers for this system, one for the condenser out back and one for the air handler, so flip both on. Clear snow or leaves off the yard unit. Steam, thin frost and the fan resting a few minutes mean defrost is working. If the heat comes back, skip the visit. Book us if ice won’t melt off the coil, emergency heat stays lit, or the outdoor fan never turns. We diagnose, price it for your okay and test the heat.',
       },
       {
         title: 'Repair or Replace Your Burlington Heat Pump?',
@@ -38,19 +38,19 @@ export const burlington: LocationServiceCopy = {
     ],
     whyTitle: 'Why Burlington Homeowners Call Us',
     whyParagraph:
-      'Burlington runs mostly on electric heat, and heat pumps are a big share of our work here. Every technician is licensed, insured and drug-tested, and we’ve been family owned since 1993.',
+      'Most Burlington homes heat with electricity, so the outdoor unit out back matters every winter. Our technicians carry licenses and insurance, pass background checks and drug tests, and work for a family business running since 1993.',
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Burlington?',
-        a: 'That depends on the fault we find. Swapping a burned contactor on a younger condenser goes quickly. Tracking down a refrigerant leak and sealing it is more work. Whichever it is, you see a single flat-rate price and approve it before we start, with no overtime charge on Saturday or Sunday.',
+        a: 'The broken part sets the price. A scorched contactor on a fairly new condenser is a quick swap; hunting a refrigerant leak through the coil and sealing it takes far longer. In both cases the technician names one flat rate, you say yes or no, and a Saturday or Sunday visit costs no extra.',
       },
       {
         q: 'Should I repair or replace the heat pump in my Burlington home?',
-        a: 'Repair it if the unit is fairly young and one part failed. If it’s the original builder system and now needs a compressor, or the refrigerant keeps leaking out, replacement often makes more sense. We give you both prices and let you decide.',
+        a: 'Fix it when the system is still young and only one piece quit. An original builder unit from the subdivision’s early days that now wants a compressor, or keeps losing refrigerant, usually points to new equipment instead. You get the two numbers side by side, and the choice is yours.',
       },
       {
         q: 'Why does my Burlington heat pump blow cool air in winter?',
-        a: 'Heat pump air feels lukewarm next to a gas furnace, even when the system is working, so some of that is normal. Air that’s truly cold, with the outdoor unit iced over or not running at all, is a fault. Check the thermostat mode, then call us.',
+        a: 'Part of it is normal: a working heat pump sends out air that feels mild compared with a gas furnace blast. Cold air paired with a yard unit caked in ice, or one sitting silent, is a real fault. Confirm the thermostat is on heat first, and if it is, ring us.',
       },
     ],
   },

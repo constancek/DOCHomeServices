@@ -29,7 +29,7 @@ export const walnutHills: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Furnace Needs Repair, and When It Doesn’t',
-        body: 'Some no-heat calls end before we arrive. Put the thermostat on heat with fresh batteries, check that the switch on or beside the furnace is up, and reset a tripped breaker once. Change a dirty filter and press the furnace door closed, since many units won’t start with it ajar. If heat returns, you don’t need us. Renters should then tell the landlord. Call when the breaker trips again or the furnace runs without warming the rooms. Smell gas? Leave without touching switches and call from outside. If the carbon monoxide alarm goes off, everyone out first. We diagnose, explain and price before any repair.',
+        body: 'Check a few things first. The thermostat should be on heat, with working batteries. The furnace’s power switch, on the unit or the wall beside it, should be up; a tripped breaker gets one reset. Swap a dusty filter and latch the furnace panel, because a gap keeps many units from starting. Warm air again means no visit; renters still tell the landlord. Call when the breaker keeps tripping or the furnace runs and the rooms stay cold. With a gas smell, flip nothing and call from outside. A carbon monoxide alarm means everyone out first. We diagnose and price before any repair.',
       },
       {
         title: 'Repair or Replace Your Walnut Hills Furnace?',

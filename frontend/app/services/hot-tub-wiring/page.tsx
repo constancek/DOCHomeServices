@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -97,10 +97,10 @@ export default function HotTubWiringPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Electrical"
+      <LocationHero
         title={`Hot Tub Wiring in ${site.serviceArea}`}
-        description="Safe, code-compliant hot tub and spa wiring by licensed electricians — dedicated 240V circuits, GFCI protection, and proper bonding built for reliable operation."
+        image="/services/hottub-hero.webp"
+        imageAlt="Hot tub on a backyard patio"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -114,27 +114,25 @@ export default function HotTubWiringPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/hottub-hero.webp)' }}
-            role="img"
-            aria-label="Hot tub on a backyard patio"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Hot Tub Wiring Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Hot tub wiring across {site.serviceArea} usually means a dedicated 240-volt circuit with
+            GFCI protection, a disconnect within sight of the tub but set back from it, and bonding
+            around the spa. The panel decides how big the job gets: if it has no space or spare capacity
+            for the spa breaker, that gets sorted first. The work has to be inspected, and most installs
+            take one day. We check the panel against the manufacturer’s requirements, then price it
+            before any conduit goes in.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Hot Tub Wiring
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Installing a hot tub adds comfort and value to your home. Safe, code-compliant hot tub wiring
             ensures it operates properly and without risk.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Hot tubs combine water, heat, and high-voltage electricity. That means the electrical work
-            must be done carefully. {site.name} provides professional hot tub electrical wiring and other{' '}
-            <Link href="/services/electrical" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
-              electrical services
-            </Link>{' '}
-            across {site.serviceArea}. Our licensed electricians complete every hot tub electrical
-            installation according to current safety standards and manufacturer requirements.
           </p>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             From breaker panel upgrades to complete tub wiring, we manage the entire process. Your spa
@@ -291,7 +289,7 @@ export default function HotTubWiringPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

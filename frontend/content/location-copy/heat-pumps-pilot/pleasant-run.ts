@@ -33,7 +33,7 @@ export const pleasantRun: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'A few things are worth checking yourself. The thermostat should read heat, not cool, off or emergency heat. Change the filter if it’s gray. Your panel has a breaker for the outdoor unit and another for the indoor unit; if one tripped, reset it once and leave it alone if it trips again. Rake leaves and clear snow away from the outdoor unit. Steam, a thin frost and a fan that stops briefly are signs of defrost, not failure. If warm air returns, you don’t need us. We do need to look if ice won’t clear, the auxiliary light stays on, or the system stays stuck on cooling.',
+        body: 'Rule out the easy stuff in your Pleasant Run house before you book. Set the thermostat to heat; cool, off or emergency heat is the wrong mode. Swap the filter once it’s gone gray. Find the two breakers, outside unit and inside unit, and flip a tripped one back once; leave it off if it trips a second time. Rake leaves and shovel snow back from the outside cabinet. Defrost brings steam, a thin frost and a short fan stop, which is fine. Warm air back means you can cancel. Ice that never melts, an auxiliary light that stays lit, or a system stuck cooling needs us.',
       },
       {
         title: 'Repair or Replace Your Pleasant Run Heat Pump?',
@@ -54,7 +54,7 @@ export const pleasantRun: LocationServiceCopy = {
       },
       {
         q: 'Why is my Pleasant Run heat pump blowing cool air?',
-        a: 'Heat pump air runs cooler than a gas furnace’s, so in a dual fuel house it can feel cool once the furnace shuts off. That’s normal. If the air is cold and the outdoor unit is frozen or not running, or the auxiliary heat light is on, the heat pump has a fault.',
+        a: 'In a dual fuel Pleasant Run house, the vents feel cooler when the gas furnace shuts off and the heat pump takes back over, since a heat pump delivers warm air rather than hot. That’s expected. Cold vents plus a frozen or silent outside unit, or a lit auxiliary heat light, mean a fault.',
       },
     ],
   },

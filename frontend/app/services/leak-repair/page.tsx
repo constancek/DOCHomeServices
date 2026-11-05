@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -83,10 +83,10 @@ export default function LeakRepairPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Leak Repair in ${site.serviceArea}`}
-        description="Pipe, slab, toilet, or fixture leak? Our licensed plumbers find it and fix it at the source — fast, clean, and built to last."
+        image="/services/leakrepair-hero.webp"
+        imageAlt="Plumber repairing a pipe leak"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -98,13 +98,30 @@ export default function LeakRepairPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/leakrepair-hero.webp)' }}
-            role="img"
-            aria-label="Plumber repairing a pipe leak"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Leak Repair Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Leak repair across {site.serviceArea} usually comes down to a failed joint, a
+            pinhole in old pipe or a worn seal on a toilet or fixture. Plenty of homes in
+            Clifton and Mount Auburn still carry original galvanized supply lines and cast-iron
+            drains, and corrosion is the usual cause of leaks in pipe that old. Water pressure
+            set too high wears joints out faster. We agree the price with you before cutting
+            into a wall, then pressure-test the line once the repair is done.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Leak Repair in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            A leak above a finished basement or near wiring puts the house and the people in it
+            at risk, and wet subfloor and drywall soften the longer it runs. The EPA estimates
+            the average household’s leaks waste nearly 10,000 gallons of water a year. We handle
+            most active leaks the same day, weekends included.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Leak Repair
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -114,10 +131,6 @@ export default function LeakRepairPage() {
             the real problem, repair it correctly the first time, and confirm it is gone before we
             leave.
           </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Every repair comes with upfront, flat-rate pricing you approve before we start — and
-            same-day and emergency service when a leak cannot wait.
-          </p>
 
           <h3 className="mt-8 font-display text-xl font-extrabold text-brand-700">
             Avoiding Water Damage with Prompt Leak Repair
@@ -125,9 +138,7 @@ export default function LeakRepairPage() {
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Even small leaks can turn into big problems if left unchecked. Water escaping from pipes
             or fixtures can damage your walls, flooring, and foundation — sometimes costing thousands
-            to repair. The EPA estimates the average household&rsquo;s leaks waste nearly 10,000
-            gallons of water a year, which drives up your bill and can weaken your foundation over
-            time. Prompt leak repair prevents that damage and helps protect the safety and value of
+            to repair. Prompt leak repair prevents that damage and helps protect the safety and value of
             your home. Catching a leak early also saves money on your water bill and heads off mold
             growth that can affect your family&rsquo;s health.
           </p>
@@ -268,7 +279,7 @@ export default function LeakRepairPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

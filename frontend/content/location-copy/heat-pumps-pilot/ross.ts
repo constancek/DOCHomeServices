@@ -33,7 +33,7 @@ export const ross: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Check a few things first. Confirm the thermostat is on heat and not cool or off. Fit a new filter. Two breakers feed the system, one outdoors and one for the air handler or furnace; reset either once if it tripped. Clear snow, ice and leaves from the outdoor unit. During defrost the unit steams, frosts lightly and the fan stops for a few minutes, and none of that is a fault. If heat comes back, you don’t need us. Call if the coil stays iced, the emergency heat light stays on, or the outdoor fan grinds or sits still. We diagnose, price for approval, repair and retest.',
+        body: 'In a Ross house, start at the wall: the thermostat has to say heat. Slide in a fresh filter. Your panel has a breaker for the outside unit and one for the air handler or the oil or gas furnace; flip a tripped one back once. Rake snow, ice and leaves off the outside cabinet. Defrost looks odd, with steam, thin frost and a fan resting a few minutes, but it’s normal. Warmth back means no visit needed. Ice that won’t melt off the coil, an emergency heat light that won’t quit, or a grinding or frozen fan is ours. We find it, quote it, fix it and test it.',
       },
       {
         title: 'Repair or Replace Your Ross Heat Pump?',
@@ -54,7 +54,7 @@ export const ross: LocationServiceCopy = {
       },
       {
         q: 'Why does my Ross heat pump blow cool air in winter?',
-        a: 'Heat pump air is lukewarm next to an oil or gas furnace, and that’s how it works. If the air is truly cold and the outdoor unit is iced over or not running, it’s a fault, and your backup heat is probably carrying the house.',
+        a: 'Compared with oil or gas heat, a heat pump’s supply air feels lukewarm by design. Truly cold air while the outside unit sits frozen over or silent is a fault, and in Ross that usually means your backup oil, gas or strips are doing all the work.',
       },
     ],
   },

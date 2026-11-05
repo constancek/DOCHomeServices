@@ -4,9 +4,9 @@ export const forestPark: LocationServiceCopy = {
   localParagraph:
     'Forest Park homes split close to evenly between gas and electric heat. Census figures show 46.2% heat with electricity, a share that includes electric furnaces and baseboard, and 52.8% with gas. Most homes date from the 1960s and 1970s, and 45.2% of households rent, many in apartment buildings. That means all-electric apartments on one side and dual fuel houses on the other, and the fault looks different in each. We find it and price it before any work.',
   emergencyParagraph:
-    'NOAA’s normals for the Cincinnati airport show January lows close to 23F. Lose the heat pump in a Forest Park apartment or house on a night that cold and the rooms chill fast, with babies, older relatives and anyone ill feeling it soonest. Our technicians repair heat pumps and backup heat strips, mostly the same day, weekends included.',
+    'On an average January night the Cincinnati airport bottoms out near 23F, per NOAA normals. In Forest Park, a dead heat pump at that temperature turns a bedroom cold fast, which hits infants, elderly parents and sick family members hardest. Our crews repair heat pumps and their electric strips, often the day you call, Saturday or Sunday included.',
   commonIntro:
-    'Forest Park heat pump calls come from apartment complexes and from 1960s and 1970s houses. These four come up most:',
+    'Most calls here start either in an apartment complex or in a house built during the 1960s or 1970s. The usual four:',
   localFaqs: [
     {
       q: 'Does Forest Park require a permit to replace a heat pump?',
@@ -29,11 +29,11 @@ export const forestPark: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'A few checks can save you a visit. The thermostat belongs on heat. Throw out a dusty filter and fit a fresh one. The outdoor unit and the air handler indoors have their own breakers; flip back a tripped one a single time, and if it trips again, leave it off. Shovel snow and rake leaves away from the outdoor cabinet. Vapor and a fan that rests briefly are the unit defrosting itself. If warmth returns, you don’t need us, though renters should still tell management. Call when ice keeps thickening on the coil or the emergency heat light won’t switch off. We quote before any repair.',
+        body: 'Check that the thermostat is set to heat and not cool. Pull the filter and replace it if it’s matted with dust. Your panel should show a breaker for the condenser outside and a second for the air handler; reset whichever tripped, and if it trips again, stop there. Clear plowed snow or drifted leaves off the outdoor unit. Light frost, a puff of steam and the fan going quiet for a few minutes are normal defrost. Heat back on means no call needed; tenants should still report it. Call us when the coil stays iced or the emergency heat light stays lit; we price the fix first.',
       },
       {
         title: 'Repair or Replace Your Forest Park Heat Pump?',
-        body: 'The heat pump’s own condition matters more than the building’s age. A Forest Park house from 1970 may have a recent outdoor unit, and a cracked fan blade or a burned wire on that is a repair. A refrigerant leak or a compressor that won’t start on an older unit is when owners should look at a repair quote and a replacement quote together; we provide both. In an all-electric apartment, an electric bill that jumps without a cold snap usually means the heat strips are doing the heat pump’s job.',
+        body: 'Judge the heat pump, not the 1960s or 1970s house around it. Forest Park outdoor units can be decades newer than the houses beside them, and a broken fan blade or a scorched wire on one of those is a straightforward fix. On an aging unit, a coil that leaks or a compressor that buzzes without starting deserves two quotes side by side, repair and replacement, and we write both. In the all-electric apartments, an electric bill that spikes during a mild stretch tells you the backup strips are covering for the heat pump.',
       },
     ],
     whyTitle: 'Why Forest Park Residents and Landlords Call Us',
@@ -42,15 +42,15 @@ export const forestPark: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Forest Park?',
-        a: 'The price depends on the fault. A burned wire or a cracked fan blade is quick, and a refrigerant leak in a long line set takes longer to trace. We diagnose first and quote a flat rate for you or your landlord to approve. There are no overtime fees on weekends.',
+        a: 'It comes down to what broke. A scorched wire or a cracked fan blade takes little time, while hunting a leak along a long apartment line set takes more. We find the fault, then give you or your landlord a flat-rate price to approve. Weekend calls carry no overtime fees.',
       },
       {
         q: 'Should I repair or replace my Forest Park heat pump?',
-        a: 'Repair it when one component failed and the rest of the unit is sound. Replace it when the compressor dies or refrigerant keeps leaking on an older unit. The year on the unit’s label tells you more than the year your house was built. We price both.',
+        a: 'Read the sticker on the outdoor unit for its install year; that date counts, not the house’s. If one part quit on an otherwise healthy unit, fix it. If the compressor is gone, or an aging system keeps losing refrigerant, replacing makes more sense. We quote both so you can compare.',
       },
       {
         q: 'Why does my Forest Park heat pump blow cool air in winter?',
-        a: 'Heat pump air comes out warm rather than hot, so it can feel cool beside a gas furnace, and that is normal. In a dual fuel house the furnace should take the coldest days. Cold air with an iced-over or stopped outdoor unit is a fault we need to see.',
+        a: 'Partly by design. Heat pump air leaves the register lukewarm compared with furnace air, so your palm reads it as cool, and that’s fine. Forest Park dual fuel houses should hand the coldest days to the gas furnace. Cold air paired with an iced-up or silent outdoor unit is a breakdown, so call.',
       },
     ],
   },

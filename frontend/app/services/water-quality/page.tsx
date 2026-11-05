@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -74,10 +74,10 @@ export default function WaterQualityPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Water Quality Services in ${site.serviceArea}`}
-        description="Bad taste, hard-water buildup, or staining? We test your water and install whole-house filtration and softeners for cleaner water at every tap."
+        image="/services/wq-hero.webp"
+        imageAlt="Clean, clear glass of drinking water"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -89,13 +89,20 @@ export default function WaterQualityPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/wq-hero.webp)' }}
-            role="img"
-            aria-label="Clean, clear glass of drinking water"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Water Quality Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Water quality work across {site.serviceArea} usually starts with hard water. Greater
+            Cincinnati Water Works puts hardness at 126 to 140 mg/L, about 7 to 8 grains per gallon, and
+            it shows up as white crust on faucets, spots on glasses and scale inside water heaters.
+            Chlorine taste and smell are the other common complaint. We test your water first, so the
+            softener or filter we price matches what is in it, and you see that price before anything is
+            installed.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Why Your Home’s Water Quality Matters
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -245,7 +252,7 @@ export default function WaterQualityPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

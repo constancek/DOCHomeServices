@@ -33,11 +33,11 @@ export const miamitown: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Tenants can rule out a few things before reporting. Set the thermostat to heat, since cool or off looks like a breakdown. Replace a filter that’s grey and clogged, if the lease lets you. Check the apartment panel for a tripped breaker. Outdoor units may sit where tenants can’t reach them, so leave snow and ice there to maintenance. Steam and a stopped fan for a few minutes during defrost are normal. If heat returns, no repair is needed. Owners should book us when the coil stays iced, auxiliary heat won’t shut off, or the unit grinds. We diagnose, quote, repair once approved, and test.',
+        body: 'The thermostat has to say heat; on cool or off, the apartment just sits cold. If the lease allows it, change a gray, matted filter. Look in your unit’s panel for a breaker that flipped. Many outdoor units sit out of a tenant’s reach, so ask maintenance to clear snow and ice from them. During defrost, vapor and a fan stopped for a few minutes are expected. Heat returning means nobody needs to come out. Owners, book us for a coil that stays frozen, aux heat that never cuts off or a grinding unit. We diagnose, quote, fix after approval and test.',
       },
       {
         title: 'Repair or Replace Your Miamitown Heat Pump?',
-        body: 'Go by the heat pump, not the building. Most Miamitown apartments date from the 1970s through the 1990s, but their heat pumps may have been changed since. A failed contactor or fan motor on one unit is a simple repair. A dead compressor, or a leak that keeps coming back, is when we price replacement next to the repair. Units that sat in floodwater need testing before either decision. In an all-electric apartment, a big jump on the electric bill usually means backup strips are carrying the heat. For a replacement, we handle the permit.',
+        body: 'The heat pump’s own condition settles it; the building’s age doesn’t. Miamitown’s apartment stock mostly went up from the 1970s through the 1990s, and many of those heat pumps have been swapped since. One unit with a burnt contactor or tired fan motor gets fixed. An aging unit whose compressor has quit, or whose refrigerant leak returns, gets a replacement price next to the repair price. Anything that sat in floodwater is tested before anyone decides. When an all-electric apartment’s power bill leaps, the backup strips are probably doing the heating. We take care of the permit on a replacement.',
       },
     ],
     whyTitle: 'Why Miamitown Landlords and Property Managers Call Us',
@@ -50,11 +50,11 @@ export const miamitown: LocationServiceCopy = {
       },
       {
         q: 'Should a Miamitown landlord repair or replace an old heat pump?',
-        a: 'Repair it when one part has failed and the compressor is sound. A failed compressor or a repeat leak on an older unit is the time to compare a replacement price. Financing is available, which helps when several units in one building reach that point together.',
+        a: 'One bad part with a healthy compressor means repair. On an older unit, a compressor that has died or a leak that came back after sealing is when a replacement quote earns a look. Financing helps when a building has several units reaching that stage in the same season.',
       },
       {
         q: 'Why does the heat pump in my Miamitown apartment blow cool air?',
-        a: 'Heat pump air is warm but mild, so next to a gas furnace it can feel cool. That’s normal. If the air is cold and stays cold, the outdoor unit may be iced over, stopped, or stuck in cooling. Tell your landlord, and the owner can book us.',
+        a: 'A heat pump’s air is warm, just not furnace hot, so it can feel cool on your hand. That’s expected. Air that stays truly cold may mean the outdoor unit is frozen, stopped or stuck cooling. Report it to your landlord in writing; the owner or manager can book us.',
       },
     ],
   },

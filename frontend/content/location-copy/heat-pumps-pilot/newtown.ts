@@ -2,7 +2,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const newtown: LocationServiceCopy = {
   localParagraph:
-    'Most Newtown homes heat with gas, so a heat pump here usually works beside a gas furnace that takes the coldest nights. Census figures show 70.2% on gas and 23.9% on electricity. About one home in five predates 1940, while far more went up after 1980, so we work on heat pumps added to old houses and heat pumps built into newer ones, plus some townhouses and small apartment buildings. We find the fault and give you a price before any repair.',
+    'Gas heats 70.2% of Newtown homes and electricity 23.9%, by Census figures, so most heat pumps we see here are dual fuel, with a gas furnace covering the coldest nights. Roughly one house in five was built before 1940, and many more after 1980. That means heat pumps retrofitted into old houses, heat pumps that came with newer ones, and some in townhouses and small apartment buildings. You get a diagnosis and a price before any repair starts.',
   emergencyParagraph:
     'NOAA puts the CVG station at roughly 100 nights a year at or below freezing. If a Newtown heat pump fails on one and the furnace backup doesn’t start, the house cools fast, which is hard on babies, elderly relatives and anyone sick. We fix heat pumps and dual fuel controls the same day on most calls, weekends too.',
   commonIntro:
@@ -33,11 +33,11 @@ export const newtown: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'A few things in a Newtown home are worth checking before you call. The thermostat should read heat; cool or off will stop the heat pump. A packed filter cuts airflow, so replace it. Heat pumps run on two breakers, one for the outdoor unit and one for the indoor side, and either can trip. Rake leaves and clear snow from around the outdoor coil. During defrost, steam and a thin frost are expected, and the outdoor fan may pause briefly. If heat returns, you don’t need us. If the furnace does all the work or the outdoor unit grinds, we come out, test and price it.',
+        body: 'Plenty of Newtown no-heat calls are just a setting. Check the thermostat says heat; a heat pump on cool or off does nothing. Change a filter you can’t see light through. Both breakers matter, the one feeding the outdoor unit and the one feeding the furnace or air handler, so flip any that tripped. Keep the outdoor coil clear of leaves and snow. A cloud of steam, a skin of frost and a silent fan for a few minutes belong to defrost. If warm air comes back, skip the visit. Call us when the burner runs all day while the outdoor unit sits still, or when it grinds.',
       },
       {
         title: 'Repair or Replace Your Newtown Heat Pump?',
-        body: 'Go by the heat pump’s own age, printed on the outdoor unit’s label, not the house’s. In Newtown that matters both ways: an older house may carry a recent unit, and a 1990s house may still have its first. A worn contactor or a failed defrost board on a younger unit is a repair. A compressor that won’t run or a leak that returns is the point to price both options. In a dual fuel house, a heat pump that has quit leaves the furnace doing everything, so hearing the burner on a mild afternoon is an early clue.',
+        body: 'The label on the outdoor unit gives the heat pump’s age, and that’s the number to use, not the year the house was built. Newtown has both cases: older houses with a recent unit, and 1990s houses still on the original. On a younger unit, a worn contactor or a dead defrost board gets repaired. When the compressor won’t run or a leak comes back after a fix, we quote repair and replacement side by side. With dual fuel, a heat pump that has quit hands every hour to the furnace, so a burner running on a mild afternoon is an early warning.',
       },
     ],
     whyTitle: 'Why Newtown Homeowners Call Us',

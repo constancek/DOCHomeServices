@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -104,10 +104,10 @@ export default function SwitchesOutletsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Electrical"
+      <LocationHero
         title={`Switches & Outlets in ${site.serviceArea}`}
-        description="Outlet replacement, GFCI and USB upgrades, and switch repair by licensed electricians — safe, code-compliant power right where you need it."
+        image="/services/outlets-hero.webp"
+        imageAlt="Electrician installing a wall outlet"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -118,19 +118,26 @@ export default function SwitchesOutletsPage() {
 
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/outlets-hero.webp)' }} role="img" aria-label="Electrician installing a wall outlet" />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Switch and Outlet Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Switch and outlet work across {site.serviceArea} is usually a small job with a bigger
+            question behind it. A warm outlet, a buzzing switch or a breaker that trips when the vacuum
+            runs can be a worn device, or wiring and a panel that need attention. Code requires GFCI
+            outlets in kitchens, bathrooms, garages, basements and outdoors, so we check those rooms
+            every visit. We test grounding and load at the box first, and you hear what the fix costs
+            before we swap anything.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Switch & Outlet Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Outlets and switches are the parts of your electrical system you touch every day. They don’t
             get much attention until they stop working — and even minor issues can cause big headaches or
             pose safety risks.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} provides expert switch and outlet installation across {site.serviceArea}. Our
-            goal is simple: keep your home safe and functional with reliable installations. Whether it’s a
-            small upgrade or a major overhaul, we bring care and attention to every project.
           </p>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             From replacing broken outlets and repairing faulty switches to adding modern GFCI and USB
@@ -243,7 +250,7 @@ export default function SwitchesOutletsPage() {
         <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Switch & Outlet FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">

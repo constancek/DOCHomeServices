@@ -4,7 +4,7 @@ export const crescentSprings: LocationServiceCopy = {
   localParagraph:
     'Crescent Springs is an electric heat town. Census figures put 61.8% of homes on electricity, and about half the housing sits in buildings of five units or more, so many of our calls are heat pumps and air handlers serving apartments and condos built from the 1970s through the 1990s. Detached houses are the minority here, and so are gas furnaces. We pin down the fault, explain it to the owner or tenant, and price the repair before starting.',
   emergencyParagraph:
-    'Going by NOAA’s CVG normals, around 100 nights each winter drop to freezing or lower, and Crescent Springs shares that weather. A cold apartment or house is hardest on babies, older family members and people who are sick. Our technicians fix heat pumps and their electric backup strips, usually on the day you call, Saturdays and Sundays too.',
+    'Crescent Springs gets the same winters as the airport weather station, where NOAA’s CVG normals count roughly 100 freezing nights a year. A dead heat pump in a condo matters most when a newborn, a grandparent or someone recovering from illness lives there. We repair heat pumps and backup heat strips, often the same day, including weekends.',
   commonIntro:
     'Crescent Springs heat pump calls come mainly from apartments, condos and townhouses on electric heat. These four come up most:',
   localFaqs: [
@@ -29,7 +29,7 @@ export const crescentSprings: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Try the easy fixes first. Set the thermostat to heat, not cool or off. A dust-clogged filter starves the system, so swap it. Check two breakers, one for the outside unit and one for the air handler. Sweep snow and leaves away from the outside unit. Steam, light frost or a fan that pauses a few minutes means defrost, which is normal. If one of those solves it, you don’t need us. Call when the ice stays put, the emergency heat light won’t go off, or the outdoor fan grinds. We find the cause, explain it, price the fix for your approval and test the heat.',
+        body: 'In a Crescent Springs condo, the thermostat belongs on heat; cool or off won’t do. A filter thick with dust chokes the airflow, so change it. Most units here have a breaker for the outdoor section and one for the closet air handler, and a tripped one can go back on once. Sweep snow and leaves off the outdoor unit. Steam, a light frost or a fan resting a few minutes is defrost, which is normal. If heat comes back, keep your money. Book us when ice won’t melt off, emergency heat stays lit or the outdoor fan grinds. You see the price before any repair.',
       },
       {
         title: 'Repair or Replace Your Crescent Springs Heat Pump?',

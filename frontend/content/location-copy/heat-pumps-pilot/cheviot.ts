@@ -4,13 +4,13 @@ export const cheviot: LocationServiceCopy = {
   localParagraph:
     'Cheviot heat pump repair runs through two kinds of building: older houses on gas with a heat pump added, and apartment buildings with electric air handlers. Census figures show 95.7% of homes built before 1980 and 37.1% heated by electricity, a count that lumps heat pumps in with electric furnaces and baseboard. In the older houses the heat pump shares ductwork with the furnace. We figure out which part failed and give you the price before work starts.',
   emergencyParagraph:
-    'A Cheviot house or apartment loses its warmth quickly when January lows sit near 23F, the NOAA normal at the Cincinnati airport. Babies, older relatives and anyone ill are the first to suffer. We repair heat pumps, apartment air handlers and dual fuel systems, generally the same day, Saturdays and Sundays included.',
+    'January nights at the Cincinnati airport average about 23F, by NOAA normals. In a Cheviot two-family or an apartment on electric heat, infants, grandparents and sick family members take a dead heat pump worst. We fix heat pumps, apartment air handlers and dual fuel controls the same day on most calls, weekends too.',
   commonIntro:
-    'Cheviot heat pump calls come from old houses running dual fuel and from apartments running all-electric. These are the four we see most:',
+    'In Cheviot we mostly fix dual fuel systems in prewar houses and all-electric units in apartment buildings. Four calls repeat:',
   localFaqs: [
     {
       q: 'I rent in Cheviot and the heat pump isn’t heating. What are my options?',
-      a: 'Ohio law, ORC 5321.04, says landlords must keep the heating equipment they supply in good and safe working order and provide reasonable heat. Check the thermostat mode and the breakers, then report the problem in writing. We fix heat pumps, not leases; the landlord arranges the repair.',
+      a: 'Tell the landlord in writing, after a quick look at the thermostat setting and the breakers. Under ORC 5321.04, an Ohio landlord who supplies the heating equipment has to keep it in good and safe working order and supply reasonable heat. We fix heat pumps, not leases, so the owner books the repair.',
     },
     {
       q: 'Does Cheviot handle heat pump permits itself?',
@@ -22,18 +22,18 @@ export const cheviot: LocationServiceCopy = {
     band1Heading: 'Common Heat Pump Problems in Cheviot Homes',
     commonSituations: [
       'An apartment air handler where the auxiliary heat light never goes off',
-      'A heat pump added to a pre-1940 house that leaves the upstairs cold',
+      'Cold bedrooms upstairs in a prewar house fitted with a heat pump later',
       'A dual fuel system whose furnace never takes over on frigid nights',
       'An outdoor unit on a small city lot packed in by plowed snow',
     ],
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Start simple. Make sure the thermostat reads heat. If nobody remembers the last filter change, do one now. Find the outdoor unit’s breaker and the furnace or air handler’s, and reset a tripped one. On a tight Cheviot lot, dig plowed snow and leaves away from the outdoor unit. In winter it defrosts now and then, which brings steam, light frost and a fan that pauses for a few minutes, all normal. If the heat comes back, you don’t need us. Call if the coil stays frozen, the system won’t leave cooling mode, or the backup heat runs nonstop. We find the fault and price it before any work.',
+        body: 'Close to half of Cheviot households rent, so tenants and owners both do these checks. The wall thermostat has to say heat. If the filter’s last change is a mystery, swap it. There’s a breaker for the condenser and one for the furnace or air handler; flip a tripped one back once. Small lots mean plow piles, so shovel the condenser free. Defrost cycles throw off steam, leave thin frost and stop the fan briefly; ignore those. Warm rooms again means you can skip us. A coil frozen solid, a system stuck cooling or backup heat that never shuts off needs a technician. Diagnosis and price come before work.',
       },
       {
         title: 'Repair or Replace Your Cheviot Heat Pump?',
-        body: 'Base it on the heat pump’s age and condition. Cheviot’s houses are old, but that says nothing about the outdoor unit, which may be a recent install. A failed fan motor or defrost board on a newer heat pump is a fair repair. A refrigerant leak or a seized compressor on an older one is when we show you a replacement price next to the repair price. In an all-electric apartment, a jump in the Duke Energy bill during a normal month usually means the heat strips are doing the heating. We handle the permit.',
+        body: 'Look at the outdoor unit’s history, not the year on the house. Nearly every Cheviot home dates from before 1980, but plenty have had a heat pump fitted in recent years. On a recent install, a dead fan motor or defrost board is a fair fix. A leaking coil or a locked-up compressor on an aging unit gets a replacement quote beside the repair quote. Apartment owners can read the Duke Energy bill: a winter month that costs far more than the last, in similar weather, often means the strips are carrying the building. Replacement permits are on us.',
       },
     ],
     whyTitle: 'Why Cheviot Homeowners and Landlords Call Us',

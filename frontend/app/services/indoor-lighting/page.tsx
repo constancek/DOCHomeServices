@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -78,10 +78,10 @@ export default function IndoorLightingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Lighting"
+      <LocationHero
         title={`Indoor Lighting Installation in ${site.serviceArea}`}
-        description="Recessed, LED, basement, and garage lighting installed by licensed electricians — brighter, more functional interiors built for comfort, efficiency, and everyday use."
+        image="/services/indoor-hero.webp"
+        imageAlt="Modern kitchen with recessed ceiling lighting"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -94,13 +94,20 @@ export default function IndoorLightingPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/indoor-hero.webp)' }}
-            role="img"
-            aria-label="Modern kitchen with recessed ceiling lighting"
-          />
+          {/* One-format top section: local pros, one paragraph */}
           <h2 className="section-title text-brand-700">
+            Local Indoor Lighting Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Indoor lighting across {site.serviceArea} often depends on the age of the wiring behind
+            the ceiling. In older homes many ceiling boxes have no ground wire, which limits which
+            fixtures can go up, and most switch boxes have no neutral, which stops a lot of smart
+            switches working. Both are fixable, and better found before you buy fixtures. Changing a
+            bulb is yours to do. For wiring work, we open the box, show you what is there and price
+            it before anything changes.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Indoor Lighting Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -323,7 +330,7 @@ export default function IndoorLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

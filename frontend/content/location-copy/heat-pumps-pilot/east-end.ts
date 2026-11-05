@@ -29,28 +29,28 @@ export const eastEnd: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Look at the thermostat first: it has to say heat. A filter gone grey restricts the air, so swap it. Two breakers serve the system, one outdoors and one at the air handler, and a trip on either stops the heat. Sweep snow and leaves off the outdoor unit. Defrost looks odd but is normal: a cloud of steam, a skin of frost, the fan going quiet for a few minutes. If that fixes it, you don’t need us. If ice keeps growing, the emergency heat light won’t clear or the fan is dead, call. We diagnose, explain, quote for approval and test.',
+        body: 'Start at the thermostat; cool or off will never make heat. A grey, matted filter chokes the airflow, so put in a fresh one. The system runs on two breakers, the outdoor unit and the basement or closet air handler, and either one tripping kills the heat. Keep snow and leaves off the unit outside. Defrost throws people: a plume of steam, a film of frost and a fan that goes still for a few minutes are all part of it. Sorted after that? No visit needed. When ice keeps building, the emergency heat light stays lit or the fan is dead, we diagnose, quote for your approval and test.',
       },
       {
         title: 'Repair or Replace Your East End Heat Pump?',
-        body: 'Look at the heat pump’s age, not the house’s. An 1890s house on Eastern Avenue may have a heat pump that is only a few years old, and a failed contactor or fan motor on it is a repair. Refrigerant leaks and compressor failures are the big decisions, and on an older unit we price repair and replacement side by side. Equipment that sat in floodwater usually belongs in the replace column. Replacements at a city address need a mechanical permit from the City of Cincinnati Department of Buildings & Inspections, which we pull.',
+        body: 'Judge the heat pump, not the house around it. Plenty of 1890s houses on Eastern Avenue carry a heat pump installed in the last few years, and when a contactor or fan motor quits on one of those, we fix it. The hard calls are refrigerant leaks and compressor failures; on an older unit we put the repair price and the replacement price side by side. Equipment that sat in floodwater usually belongs in the replace column. Replacements at a city address need a mechanical permit from the City of Cincinnati Department of Buildings & Inspections, which we pull.',
       },
     ],
     whyTitle: 'Why East End Homeowners and Landlords Call Us',
     whyParagraph:
-      'East End homes range from pre-war houses to 1990s riverfront builds, most on gas with a heat pump beside it. Our technicians are licensed, insured and background-checked, and you approve the flat-rate price first.',
+      'From pre-war Eastern Avenue houses to 1990s riverfront builds, East End homes mostly burn gas with a heat pump sharing the load. Every technician is licensed, insured and background-checked, and you sign off on the flat-rate price first.',
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost in the East End?',
-        a: 'The fault sets the price. A capacitor or contactor is quick, and a refrigerant leak takes longer because it has to be found and sealed before the recharge. We diagnose, then give one flat-rate price, and wait for your approval. There are no overtime fees on weekends.',
+        a: 'Price follows the fault. Swapping a capacitor or contactor is a short visit. A refrigerant leak runs longer, since we trace it and seal it before recharging. Once we know the cause you get a single flat-rate number, and nothing starts until you say yes. Weekends carry no overtime fees.',
       },
       {
         q: 'Should I repair or replace my East End heat pump?',
-        a: 'Go by the date on the outdoor unit’s label. A newer heat pump with one failed part is worth repairing. A dead compressor, a repeat leak on an older unit or any equipment that sat in floodwater leans toward replacement. We price both and leave the choice to you.',
+        a: 'Check the install year printed on the outdoor unit. If it is fairly new and only one part has failed, fix it. A compressor that has quit, a second leak on an older system or anything that sat in floodwater tips things toward replacement. You get both prices and make the call.',
       },
       {
         q: 'Why does my East End heat pump blow cool air in winter?',
-        a: 'Heat pump air feels cooler than gas furnace air, and that lukewarm feel is normal. Cold air with the outdoor unit iced or stopped is a fault. In a dual fuel home it can also mean the furnace isn’t picking up when the heat pump can’t keep up.',
+        a: 'Heat pump output is gentle, so an East End owner used to gas furnace heat may call it lukewarm; nothing is broken. Vents blowing cold while the unit outside is frozen or stalled mean a fault. With dual fuel, it may also be the furnace not stepping in once the heat pump falls behind.',
       },
     ],
   },

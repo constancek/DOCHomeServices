@@ -29,7 +29,7 @@ export const goshen: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Try the basics first. The thermostat must be set to heat. Check the filter at the air handler and change it if it’s dirty. Two breakers feed the system, one for the outdoor unit and one inside, and either can trip. On an open lot, wind can pile snow against the outdoor unit, so dig it out. A burst of steam, light frost and the fan stopping for a few minutes are a defrost cycle. If heat returns, you don’t need us. Call when ice won’t clear, the emergency heat light stays on, or the unit grinds or won’t start.',
+        body: 'Some checks are yours to make before booking. The thermostat has to be on heat. In a manufactured home the filter usually sits at the closet air handler; swap it if it’s dirty. One breaker serves the outdoor unit and another the inside unit, and either can trip. Out on an open Goshen lot, wind drifts snow against the condenser, so shovel it clear. Steam rising, light frost and a fan that halts briefly are defrost doing its job. Heat coming back means no visit. Phone us for ice that won’t clear, an emergency heat light stuck on, grinding, or a unit that won’t start.',
       },
       {
         title: 'Repair or Replace Your Goshen Heat Pump?',
@@ -42,7 +42,7 @@ export const goshen: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Goshen?',
-        a: 'That depends on the fault, so we diagnose first. A failed defrost board or capacitor is a fairly short job. A refrigerant leak in the outdoor coil takes longer to find and fix. You approve a single flat-rate price before we begin, and there are no overtime fees.',
+        a: 'The fault decides it, so diagnosis comes first. Swapping a defrost board or capacitor doesn’t take long; locating a leak in the outdoor coil and sealing it takes more. One flat-rate price goes to you for approval before we begin, and overtime fees don’t apply.',
       },
       {
         q: 'Should I repair or replace the heat pump in my Goshen home?',
@@ -50,7 +50,7 @@ export const goshen: LocationServiceCopy = {
       },
       {
         q: 'Why does my Goshen heat pump blow cool air in winter?',
-        a: 'A heat pump’s air is warm but not hot, so it feels cooler than a furnace and that’s normal. If the air is cold and the outdoor unit is frozen over or not running, something has failed. Confirm the thermostat is on heat and the breakers are on, then call.',
+        a: 'Heat pump air comes out warm, just not furnace-hot, so it reads cooler at the vent, and that’s fine. Trouble is cold air with the outdoor unit frozen solid or not running. Make sure the thermostat says heat and both breakers are on, then give us a call.',
       },
     ],
   },

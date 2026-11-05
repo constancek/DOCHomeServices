@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -109,10 +109,10 @@ export default function HomeRewiringPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Electrical"
+      <LocationHero
         title={`Home Rewiring in ${site.serviceArea}`}
-        description="Partial and whole-home rewiring by licensed electricians — replacing old, unsafe wiring with modern materials built to meet code and handle today’s demand."
+        image="/services/rewiring-hero.webp"
+        imageAlt="Licensed electrician rewiring a home"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -124,13 +124,20 @@ export default function HomeRewiringPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/rewiring-hero.webp)' }}
-            role="img"
-            aria-label="Licensed electrician rewiring a home"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Home Rewiring Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Home rewiring across {site.serviceArea} usually means replacing what older houses were built
+            with: two-prong outlets with no ground, aluminum branch wiring or circuits still fed from an
+            old fuse panel. Rewiring one part of the house, such as a kitchen or an addition, can be
+            enough when the rest tests sound. We test the circuits and find which runs are failing
+            before suggesting anything. The scope and the price are on paper before the first wall is
+            opened.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Home Rewiring
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -140,12 +147,6 @@ export default function HomeRewiringPage() {
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             You may see flickering lights. Breakers may trip often. Outlets can feel warm. These are
             early warning signs.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} provides expert electrical rewiring and other electrical services across{' '}
-            {site.serviceArea}. Whether you need partial home rewiring or full whole-home rewiring, our
-            licensed electricians make sure your system is safe and up to code. Upgrading wiring
-            improves safety — it also improves performance and reliability.
           </p>
 
           <h3 className="mt-8 font-display text-2xl font-black uppercase leading-tight text-brand-600">
@@ -351,7 +352,7 @@ export default function HomeRewiringPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

@@ -33,7 +33,7 @@ export const roselawn: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Some fixes don’t need us. Put the thermostat on heat, not cool or off. Change a clogged filter. Check both breakers, outdoor unit and furnace or air handler, and reset one that tripped. Clear snow and leaves from the outdoor unit. Steam, light frost and a fan that stops for a few minutes are part of normal defrost. If heat returns after that, you don’t need us. Tenants should report a cold unit to the manager rather than open panels. Call when the coil stays frozen, the system sticks in cooling, or the fan won’t turn. We find the cause, explain it, get approval, repair and retest.',
+        body: 'A Roselawn owner can sort out a few causes alone. Set the thermostat to heat. Swap a dusty filter. Flip back a tripped breaker, outside unit or furnace and air handler. Pull snow and leaves off the outside cabinet. Defrost means some steam, a light frost and the fan resting a few minutes. Warm air back means no call. Tenants should tell the manager about a cold unit and leave the panels shut. A coil that stays frozen, a system stuck cooling or a fan that won’t turn is ours to diagnose, explain, price and fix.',
       },
       {
         title: 'Repair or Replace Your Roselawn Heat Pump?',
@@ -54,7 +54,7 @@ export const roselawn: LocationServiceCopy = {
       },
       {
         q: 'Why does my Roselawn heat pump blow cool air?',
-        a: 'Heat pump air comes out warm rather than hot, so it can feel cool at the vent, especially if you’re used to a gas furnace. That part is normal. Cold air with ice on the outdoor unit, or with the outdoor fan stopped, means something has failed.',
+        a: 'A heat pump sends out warm air, not the hot blast a Roselawn gas furnace gives, so a hand at the register can read it as cool. That’s how it works. Truly cold air while the outside unit is iced or its fan has stopped means a part has failed.',
       },
     ],
   },

@@ -8,6 +8,20 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'boilers',
   serviceName: 'Boiler Repair, Maintenance & Replacement',
+  localHeadingName: 'Boiler Service',
+  emergencyHeadingName: 'Boiler Repair',
+  checklist: {
+    heading: 'What a Boiler Tune-Up in {neighborhood} Covers',
+    items: [
+      { icon: 'gauge', label: 'Pressure and expansion tank' },
+      { icon: 'droplet', label: 'Leaks and corrosion' },
+      { icon: 'shield', label: 'Safety controls and relief valve' },
+      { icon: 'flame', label: 'Burner, combustion and venting' },
+      { icon: 'pump', label: 'Circulator pump' },
+      { icon: 'radiator', label: 'Air bled from the radiators' },
+    ],
+    note: 'About 60 to 90 minutes, once a year before heating season. Anything we find is priced before work starts.',
+  },
   eyebrow: 'Heating',
   hubLabel: 'Boilers',
   parentCrumb: { label: 'Heating', href: '/services/heating' },
@@ -76,6 +90,14 @@ const config: ServiceLocationConfig = {
     { q: 'Why are some radiators cold when the boiler is running?', a: 'Trapped air is the most common cause, especially when a radiator is cold at the top. Bleeding it with a radiator key often fixes it. If bleeding doesn’t help, the problem may be a stuck valve, a weak circulator pump, or low system pressure.' },
     { q: 'Can I replace a boiler with a furnace?', a: 'You can, but a furnace needs ductwork, and most boiler homes don’t have it. Adding ducts is a large job, so replacing a boiler with a new, high-efficiency boiler is usually simpler and keeps the radiant comfort you already have.' },
   ],
+  steps: {
+    heading: 'What to Expect From Boiler Service in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Find the Fault', text: 'Pressure, pump, valves and controls checked.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A flat rate, before any work starts.' },
+      { icon: 'radiator', title: 'Heat Back, Tested', text: 'Radiators warm and pressure steady before we leave.' },
+    ],
+  },
   related: [
     { label: 'Boiler Repair, Maintenance & Replacement (overview)', href: '/services/boilers' },
     { label: 'Furnace Repair', href: '/services/furnace-repair' },

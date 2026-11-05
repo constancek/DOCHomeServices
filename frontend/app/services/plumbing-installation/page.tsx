@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -77,10 +77,10 @@ export default function PlumbingInstallationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Plumbing Installation in ${site.serviceArea}`}
-        description="New fixtures, water heaters, sump pumps, and more — installed properly, securely, and leak-free by licensed plumbers, with upfront pricing."
+        image="/services/plumbing-install-hero.webp"
+        imageAlt="Licensed plumber installing a new fixture"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -92,24 +92,18 @@ export default function PlumbingInstallationPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/plumbing-install-hero.webp)' }}
-            role="img"
-            aria-label="Licensed plumber installing a new fixture"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
-            Professional Plumbing Installation
+            Local Plumbing Installation Pros Who Know {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            From a single new faucet to a whole-home system, {site.name} installs plumbing fixtures
-            the right way for homeowners across {site.serviceArea} — properly aligned, securely
-            connected, and leak-free. Our licensed plumbers help you choose fixtures that fit your
-            home and budget, then install them to last.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Every installation comes with upfront, flat-rate pricing you approve before we start, and
-            same-day service whenever possible.
+            Plumbing installation across {site.serviceArea} usually means a new fixture, a water
+            heater or a sump pump, and the pipe it connects to decides how much work it takes.
+            Older homes often have galvanized supply lines, so we check the shutoff and supply
+            line before hooking anything new up. Greater Cincinnati Water Works measures
+            hardness at 126 to 140 mg/L, which makes a softener worth discussing alongside a new
+            water heater. If a repair will hold, we say so, and every install is priced before
+            work starts.
           </p>
         </MainWithSidebar>
       </section>
@@ -236,7 +230,7 @@ export default function PlumbingInstallationPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

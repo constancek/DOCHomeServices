@@ -8,6 +8,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'electrical-inspections',
   serviceName: 'Electrical Inspections',
+  localHeadingName: 'Electrical Inspection',
+  emergencyHeading: 'Urgent Electrical Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Electrical Inspections',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
@@ -76,6 +78,14 @@ const config: ServiceLocationConfig = {
     { q: 'What are the signs my home needs an inspection?', a: 'Flickering or dimming lights, frequent breaker trips, burning smells near outlets, warm or discolored wall plates, or a buzzing panel are all good reasons to schedule one.' },
     { q: 'How much will an inspection cost?', a: 'It depends on your home’s size and the scope of the inspection. We provide flat-rate pricing up front, so you know the cost before we begin.' },
   ],
+  steps: {
+    heading: 'What to Expect From an Electrical Inspection in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Check the Whole System', text: 'Panel, grounding, outlets and breakers.' },
+      { icon: 'doc', title: 'You Get a Written Report', text: 'What’s fine, what’s urgent, what can wait.' },
+      { icon: 'tag', title: 'Fixes Priced, Your Call', text: 'You decide what, if anything, we repair.' },
+    ],
+  },
   related: [
     { label: 'Electrical Inspections (overview)', href: '/services/electrical-inspections' },
     { label: 'Electrical Panel Replacement', href: '/services/electrical-panel-replacement' },

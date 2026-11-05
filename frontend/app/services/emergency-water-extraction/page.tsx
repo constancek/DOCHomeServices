@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -97,10 +97,10 @@ export default function EmergencyWaterExtractionPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Water Damage Restoration"
+      <LocationHero
         title={`Emergency Water Extraction in ${site.serviceArea}`}
-        description="Pumps and extractors on site the same day — because the damage stops growing the moment the water is gone."
+        image="/services/water-extraction-hero.webp"
+        imageAlt="A car driving through a flooded street after heavy rain"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -112,25 +112,36 @@ export default function EmergencyWaterExtractionPage() {
 
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/water-extraction-hero.webp)' }}
-            role="img"
-            aria-label="A car driving through a flooded street after heavy rain"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Water Extraction Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Water extraction across {site.serviceArea} usually means a finished basement, with
+            carpet and the bottom of the drywall sitting in water from a failed sump pump, a burst
+            line or a sewer backup. Low ground near the Ohio River gets more than its share after
+            heavy rain. Because we’re licensed plumbers, the source gets fixed on the same visit as
+            the pumping, so nobody waits on a second company to stop the leak. The extraction price
+            is agreed with you before the pumps go on.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Water Extraction in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Standing water keeps wicking up drywall and into the subfloor until it is pumped out,
+            and whatever soaks in now has to be dried or replaced later. Don’t step into water that
+            covers outlets or cords until the power to that room is off. Most extraction calls get a
+            crew on site the same day, weekends included.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Getting the Water Out
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Extraction is the part of water damage work where speed actually changes the outcome.
             How much of your flooring, drywall, and framing survives is decided largely by how long
             the water sat on it. Everything after this step is slower and more expensive.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} arrives with pumps, extractors, and a licensed plumber on the same truck. The
-            source gets shut down and repaired, the standing water comes out, saturated material that
-            cannot be saved comes up, and drying equipment goes in before we leave — one visit rather
-            than three contractors over four days.
           </p>
         </MainWithSidebar>
       </section>
@@ -255,7 +266,7 @@ export default function EmergencyWaterExtractionPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

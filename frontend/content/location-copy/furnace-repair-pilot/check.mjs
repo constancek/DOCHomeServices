@@ -9,7 +9,7 @@ import { fileURLToPath } from 'url';
 const dir = path.dirname(fileURLToPath(import.meta.url));
 const SERVICE_WORD = /\b(Furnace|Heating|Heat)\b/i; // every heading must name the service
 const BANNED = /—|–|!|7-day|seven-day|\(513\)|586-5107|\bcall now\b|\bcall today\b|8 ?am|8 ?pm|\$\d|\bACS\b|\btracts?\b|block group|survey data|birth ?year|birthday|any day of the week|7 days a week|every day(?! heights)/i;
-const UNIQUE_MIN = 60; // % of this town's copy (5-word phrases) not found in any other town's copy; the site's uniqueness goal
+const UNIQUE_MIN = 65; // % of this town's copy (5-word phrases) not found in any other town's copy; the site's uniqueness goal
 
 const load = file => {
   const src = fs.readFileSync(path.join(dir, file), 'utf8')

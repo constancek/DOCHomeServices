@@ -4,7 +4,7 @@ export const northbrook: LocationServiceCopy = {
   localParagraph:
     'A lot of Northbrook homes heat with electricity. Census figures show 35.7% do, which counts heat pumps along with electric furnaces and baseboard, while 59.4% use gas. Most houses here date from the 1960s and 1970s, so we see an all-electric heat pump in one house and a heat pump paired with a gas furnace next door. Each needs a different diagnosis, because the backup works differently. We find what failed, explain it in plain terms and quote a price you approve first.',
   emergencyParagraph:
-    'By NOAA normals, the Cincinnati airport records about 100 nights a year at or below freezing. A Northbrook home with a dead heat pump that night is hard on babies, older family members and anyone who’s ill. We repair heat pumps, air handlers, backup heat strips and dual fuel controls, usually the same day and on weekends too.',
+    'The Cincinnati airport sees roughly 100 freezing nights a year in NOAA’s normals. Lose the heat pump in a Northbrook house on one of them and babies, older family members and anyone who’s ill are the first to struggle. We fix heat pumps, air handlers, backup strips and dual fuel controls, most often the same day, Saturdays and Sundays included.',
   commonIntro:
     'Northbrook is mostly owner-occupied 1960s and 1970s houses, plus some apartment and condo buildings, with a big share on electric heat. These four come up most:',
   localFaqs: [
@@ -37,7 +37,7 @@ export const northbrook: LocationServiceCopy = {
       },
       {
         title: 'Repair or Replace Your Northbrook Heat Pump?',
-        body: 'Base it on the heat pump. A 1970s Northbrook house may be on its second or third outdoor unit, so the age of the house tells you little. Small failures, such as a contactor, capacitor or defrost control, are repairs. A failed compressor or a leak that has been recharged before puts replacement on the table, and we quote both. In an all-electric house, a heat pump that’s struggling shows up on the Duke Energy bill first, because the backup strips cost far more to run. On a replacement, we handle the permit and the township paperwork.',
+        body: 'Look at the heat pump, not the house. A 1970s Northbrook house could be on a second or third outdoor unit by now, so check the label for the real age. A contactor, capacitor or defrost control going bad is a fix, not a reason to replace. Once the compressor has died, or the refrigerant has been topped up before and is low again, we put a replacement quote beside the repair quote. All-electric houses show trouble on the Duke Energy bill first, since the backup strips cost far more to run than the heat pump. If you replace, we pull the permit and do the township paperwork.',
       },
     ],
     whyTitle: 'Why Northbrook Homeowners Call Us',

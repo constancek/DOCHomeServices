@@ -2,7 +2,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const oakley: LocationServiceCopy = {
   localParagraph:
-    'Oakley is mostly gas heat, so a heat pump here often works as one half of a dual fuel system. Census figures put gas at 61.3% of homes and electricity at 36.5%, with electric heat far more common in the newer large apartment buildings than on the older streets. Close to half the housing went up before 1940, so heat pumps in those houses were fitted to ductwork added long after the house was built. We check the outdoor unit and the furnace side together, then quote before any work.',
+    'Gas heats 61.3% of Oakley homes and electricity 36.5%, per Census figures, and the electric share sits mostly in the newer large apartment buildings, not the older streets. That makes many heat pumps here the electric half of a dual fuel setup. Nearly half of Oakley’s housing dates from before 1940, so ducts in those houses were retrofitted decades later. We look at the outdoor unit and the furnace side on the same visit and quote before any work.',
   emergencyParagraph:
     'By NOAA’s CVG normals, around 100 nights in a typical year drop to freezing or lower. An Oakley house or apartment that goes without heat then gets dangerous fast for infants, grandparents and sick family members. Our technicians fix heat pumps, dual fuel controls and electric air handlers, usually on the day you phone, Saturday and Sunday too.',
   commonIntro:
@@ -29,7 +29,7 @@ export const oakley: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'First, the checks that might save you a visit. Make sure the thermostat is on heat. Replace the filter. The panel has a breaker for the condenser and another for the air handler or furnace; both should be on. Dig the condenser out of snow or leaves. If it steams, frosts lightly or stops its fan for a few minutes, that’s a defrost cycle and normal. If that fixes it, you don’t need us. Call when the coil stays iced, the auxiliary heat light won’t clear, the system is stuck heating or cooling, or the outdoor fan grinds. We inspect, explain and price, then repair and test.',
+        body: 'A few Oakley no-heat problems you can sort out yourself. The thermostat has to read heat, not cool or off. A dirty filter should go. There are two breakers, condenser and indoor unit, and a tripped one kills the system, so look at the panel. Snow drifts and wet leaves pile up in narrow side yards; get them off the condenser. Defrost explains steam, light frost and the outdoor fan sitting idle a few minutes. If warmth returns, you’re finished. We should come out for ice that never melts off, an auxiliary light that won’t go out, a system jammed in one mode, or a grinding fan.',
       },
       {
         title: 'Repair or Replace Your Oakley Heat Pump?',
@@ -50,7 +50,7 @@ export const oakley: LocationServiceCopy = {
       },
       {
         q: 'Why does my Oakley heat pump blow cool air in winter?',
-        a: 'Heat pump air is warm, not hot, so it can feel cool next to the furnace air you’re used to. That’s normal. If the vents run cold while the outdoor unit is iced over or not turning, something is wrong. In a dual fuel home, check that the furnace takes over.',
+        a: 'Next to the furnace heat you know, heat pump air comes out mild, warm rather than hot, and that’s how it should feel. Vents blowing truly cold air while the outdoor unit is iced or sitting still means a fault. With dual fuel, see whether the furnace kicked on.',
       },
     ],
   },

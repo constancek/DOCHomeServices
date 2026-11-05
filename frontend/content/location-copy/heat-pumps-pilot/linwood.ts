@@ -4,7 +4,7 @@ export const linwood: LocationServiceCopy = {
   localParagraph:
     'Almost every Linwood home heats with gas, according to Census figures, so a heat pump here is nearly always the dual fuel kind, added beside an existing gas furnace. The houses are old: 82.1% were built before 1940, plenty of them doubles, so heat pump line sets and ducts were fitted into basements and walls never planned for them. When we come out, we test the heat pump, the furnace and the controls that switch between them, then quote the repair before starting.',
   emergencyParagraph:
-    'At CVG, NOAA records about 100 nights a year at or below freezing. If both halves of a dual fuel system quit on one of them, the people most at risk in a Linwood house are babies, older relatives and anyone who is sick. We repair heat pumps and dual fuel systems, generally the same day, weekends included.',
+    'Linwood sees about 100 nights a year at 32F or colder, going by NOAA’s CVG records. Should the heat pump and the gas furnace both fail on one of those nights, a baby, an older relative or a sick person is most at risk. We fix heat pumps and dual fuel systems, generally the same day, weekends included.',
   commonIntro:
     'Linwood heat pump calls are almost all dual fuel systems in pre-war houses and doubles. These four problems come up most:',
   localFaqs: [
@@ -29,7 +29,7 @@ export const linwood: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Start at the thermostat and make sure it’s set to heat, not cool or off. Replace the filter if it’s dirty. Check both breakers, the outdoor unit’s and the furnace’s, since a dual fuel system needs both. Clear snow and leaves off the outdoor coil. Steam, light frost and a fan that pauses for a few minutes are defrost. If heat comes back, you don’t need a technician. Call us when ice won’t clear, the system is stuck in cooling, the outdoor fan grinds or the furnace never steps in. We inspect, explain and quote before repairing.',
+        body: 'In Linwood the heat pump shares the job with a gas furnace, so check both halves before calling. The thermostat belongs on heat. A dusty filter gets swapped. Look for two breakers, one feeding the outdoor unit and one feeding the furnace, and reset whichever tripped. Pull leaves and snow off the outside coil. During defrost the unit steams, frosts over lightly and lets the fan sit idle, which is normal. Warm air back means no visit. We’re needed when ice stays on, the system won’t leave cooling, the fan grinds or the furnace never takes over. You get the diagnosis and the quote before any repair.',
       },
       {
         title: 'Repair or Replace Your Linwood Heat Pump?',

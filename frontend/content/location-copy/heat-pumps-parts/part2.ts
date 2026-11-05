@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Heat pump work in Queensgate is mostly offices and converted spaces rather than houses. These warehouses and light-industrial buildings near the rail yards were set up for one purpose, so the job is zoning heating and cooling into areas that were never built for it. We install and repair.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Heat pump work here tends to be on offices and converted spaces rather than houses, where a system has to heat and cool areas that older single-purpose buildings were never set up for.',
-      'For office and light-commercial spaces, ductless mini-split heat pumps and ducted heat pumps both let a building add year-round comfort to specific zones without a large central plant. The low ground near the Mill Creek means outdoor-unit placement should account for drainage and flooding, which we plan around when siting equipment. We match the system to how the space is actually used.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the heat pump decision usually centers on zoning comfort into spaces never built for it:',
-    localFaqs: [
-      {
-        q: 'Do you install heat pumps for commercial spaces in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we install and service ducted and ductless heat pumps for offices and converted spaces, planning placement around the low Mill Creek ground.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'Student rentals in CUF rarely have usable central ductwork, so a heat pump in Clifton Heights, University Heights or Fairview is usually a ductless mini-split. These 19th- and early-1900s houses have been heavily subdivided, and a mini-split heats and cools a unit without major work on a tight lot.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'Can I add a heat pump to an older South Cumminsville home?',
         a: 'Yes. A ductless mini-split adds heating and cooling without ductwork, and we place the outdoor unit clear of the low Mill Creek valley ground.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'On the English Woods hilltop, the older homes were often built without ductwork, so a heat pump is frequently a ductless mini-split. Redeveloped homes may already have ducts a central heat pump can use. Sloped lots above the Mill Creek valley shape where the outdoor unit goes.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here were often built without ductwork, so a ductless mini-split heat pump is frequently the cleanest way to add efficient heating and cooling, while any redeveloped homes may already have ducts a heat pump can use.',
-      'The hilltop setting shapes placement: the outdoor unit needs a level, well-drained spot on the grade overlooking the valley. A mini-split serves an older home with heads in the main rooms and a single compact outdoor unit, and because Greater Cincinnati winters stay mild, it carries most of the season on its own. We size the system and plan placement to suit the slope and the home.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the heat pump path usually depends on missing ductwork and sloped-lot placement:',
-    localFaqs: [
-      {
-        q: 'Can I add a heat pump to an older English Woods home on the hill?',
-        a: 'Yes. A ductless mini-split adds heating and cooling without ductwork, and we find a level, well-drained spot for the outdoor unit on the grade.',
       },
     ],
   },

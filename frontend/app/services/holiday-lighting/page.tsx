@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -85,10 +85,10 @@ export default function HolidayLightingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Lighting"
+      <LocationHero
         title={`Holiday Lighting Installation in ${site.serviceArea}`}
-        description="Custom holiday and Christmas light displays installed by experienced pros — commercial-grade materials, safe install, and scheduled removal after the season."
+        image="/services/holiday-lighting-hero.webp"
+        imageAlt="Home decorated with holiday lights"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -102,13 +102,20 @@ export default function HolidayLightingPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/holiday-lighting-hero.webp)' }}
-            role="img"
-            aria-label="Home decorated with holiday lights"
-          />
+          {/* One-format top section: local pros, one paragraph */}
           <h2 className="section-title text-brand-700">
+            Local Holiday Lighting Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Holiday lighting across {site.serviceArea} comes down to hanging the display safely and
+            making sure the circuits can carry it. A roofline of retail light sets can pull more
+            than its circuit wants to give, and outdoor runs need GFCI protection. The National
+            Weather Service puts the normal first freeze here around October 25, and roof work stops
+            being safe once there is ice on it. A wreath on the front door doesn’t need us. Larger
+            displays are priced on site before anyone climbs a ladder.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Holiday Lighting Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -266,7 +273,7 @@ export default function HolidayLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

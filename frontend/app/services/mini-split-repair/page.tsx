@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -91,10 +91,10 @@ export default function MiniSplitRepairPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Air Conditioning · Mini-Splits"
+      <LocationHero
         title={`Ductless Mini-Split Repair in ${site.serviceArea}`}
-        description="Weak cooling, leaks, odors, or error codes? Our licensed technicians diagnose and repair ductless mini-splits fast — all major brands, with emergency service weekends included."
+        image="/services/minisplit-repair-hero.webp"
+        imageAlt="Technician repairing a ductless mini-split"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -107,13 +107,31 @@ export default function MiniSplitRepairPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/minisplit-repair-hero.webp)' }}
-            role="img"
-            aria-label="Technician repairing a ductless mini-split"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Mini-Split Repair Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Mini-split repair across {site.serviceArea} usually traces back to low refrigerant
+            from a leak, a clogged condensate drain dripping from the indoor head, a frozen
+            coil, a failed sensor or a control board throwing an error code. Because the same
+            system heats and cools, a fault can leave a room without heat in winter or without
+            cooling in summer. We repair single-zone and multi-zone ductless systems from all
+            major brands. The diagnosis comes first, and the repair price is yours to approve
+            before any part is replaced.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Mini-Split Repair in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            A mini-split that quits matters most when it is the only heat or cooling in a room
+            where a baby or an older relative sleeps. NWS Wilmington counts about 21 days a year
+            at 90°F or higher at CVG, and NOAA normals add about 100 freezing nights. Most calls
+            are handled the same day, weekends included.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Ductless Mini-Split Repair
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -124,12 +142,6 @@ export default function MiniSplitRepairPage() {
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             {site.name} provides professional ductless mini-split repair for homeowners across{' '}
             {site.serviceArea}, helping restore comfort when systems fail to perform as expected.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Mini-splits use advanced components to deliver zoned comfort. Because they operate
-            differently from traditional HVAC systems, problems often require specialized diagnosis —
-            our technicians understand how these systems work and resolve issues without unnecessary
-            delays.
           </p>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             When your mini-split is not operating properly, prompt repair helps protect comfort,
@@ -331,7 +343,7 @@ export default function MiniSplitRepairPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

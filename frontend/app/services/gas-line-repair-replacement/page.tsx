@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -81,10 +81,10 @@ export default function GasLinePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Gas Line Repair & Replacement in ${site.serviceArea}`}
-        description="Licensed plumbers diagnose, repair, and install gas lines safely and to code — restoring safety and function with pressure-tested results."
+        image="/services/gasline-hero.webp"
+        imageAlt="Gas line piping and valve"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -95,8 +95,30 @@ export default function GasLinePage() {
 
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/gasline-hero.webp)' }} role="img" aria-label="Gas line piping and valve" />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Gas Line Repair Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Gas line repair across {site.serviceArea} usually means a leak at a joint that has worked
+            loose over decades, corrosion on older black iron, or a line damaged by digging or a
+            remodel. Newer houses piped in CSST raise a different issue: missing bonding to the
+            electrical grounding system, which fails inspection without any gas escaping. Every repair
+            is pressure-tested on a gauge before the gas goes back on, and you agree to the price before
+            the first fitting is loosened.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Gas Line Repair in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            If you smell gas, leave the house first, without touching switches, and call 911 or your gas
+            utility from outside. The utility will not restore gas to piping it cannot vouch for, so a
+            damaged line has to be repaired and pressure-tested first. We take most gas line calls the
+            same day, weekends included.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Gas Line Repair & Replacement
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -108,12 +130,6 @@ export default function GasLinePage() {
             Our licensed plumbers diagnose problems, complete repairs to code, and pressure-test every
             line before we consider the job done.
           </p>
-          <div className="mt-5 rounded-2xl border-l-4 border-pink-500 bg-pink-50 p-4">
-            <p className="text-sm font-semibold leading-relaxed text-brand-800">
-              If you smell a strong gas odor, leave the home right away and call your gas utility or 911
-              from a safe distance before calling for repair.
-            </p>
-          </div>
         </MainWithSidebar>
       </section>
 
@@ -236,7 +252,7 @@ export default function GasLinePage() {
         <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Gas Line FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">

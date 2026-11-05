@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -127,10 +127,10 @@ export default function TanklessPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Tankless Water Heaters in ${site.serviceArea}`}
-        description="Endless hot water, lower bills, and a smaller footprint. We install, repair, and maintain tankless systems from every major brand."
+        image="/services/tankless-hero.webp"
+        imageAlt="Tankless water heater mounted on a wall"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -142,13 +142,20 @@ export default function TanklessPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/tankless-hero.webp)' }}
-            role="img"
-            aria-label="Tankless water heater mounted on a wall"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Tankless Water Heater Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Tankless water heater service across {site.serviceArea} usually starts with scale. Greater
+            Cincinnati Water Works reports hardness of 126 to 140 mg/L, about 7 to 8 grains per gallon,
+            and those minerals coat the heat exchanger until the unit throws an error code or the water
+            runs lukewarm. A yearly descaling flush keeps that in check, and a well kept unit often
+            lasts 15 to 20 years. We size new systems to the fixtures you run at once and give you a
+            flat-rate price before we start.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Tankless Water Heaters
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -345,7 +352,7 @@ export default function TanklessPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

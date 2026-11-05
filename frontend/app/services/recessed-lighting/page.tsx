@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -93,10 +93,10 @@ export default function RecessedLightingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Lighting"
+      <LocationHero
         title={`Recessed Lighting Installation in ${site.serviceArea}`}
-        description="Clean, even ceiling lighting installed by licensed electricians — recessed fixtures that brighten kitchens, hallways, living rooms, and basements without bulky hardware."
+        image="/services/recessed-hero.webp"
+        imageAlt="Living room with recessed ceiling lighting"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -109,13 +109,20 @@ export default function RecessedLightingPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/recessed-hero.webp)' }}
-            role="img"
-            aria-label="Living room with recessed ceiling lighting"
-          />
+          {/* One-format top section: local pros, one paragraph */}
           <h2 className="section-title text-brand-700">
+            Local Recessed Lighting Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Recessed lighting across {site.serviceArea} is mostly about what sits above the ceiling.
+            Each housing has to be rated for contact with any insulation above it, and a fire-rated
+            ceiling can’t be cut into without a plan. New lights usually mean a new circuit or a
+            load check, and a permit in most jurisdictions here. Cans set too far apart leave
+            shadows between them. A new trim or bulb is yours to do. For new holes, we mark the
+            layout and agree the price before cutting.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Recessed Lighting Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -302,7 +309,7 @@ export default function RecessedLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

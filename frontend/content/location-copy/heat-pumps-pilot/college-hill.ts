@@ -2,9 +2,9 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const collegeHill: LocationServiceCopy = {
   localParagraph:
-    'About four in ten College Hill homes heat with electricity and most of the rest with gas, so we see all-electric heat pumps and heat pumps paired with a gas furnace. Census figures put electricity at 39.1% and gas at 54.7%. Roughly a third of homes went up before 1940 and another third between 1940 and 1969, so most heat pumps here were added to houses designed for something else, often on ducts sized for a furnace. We name the fault and the price before starting any repair.',
+    'College Hill heat pump work splits two ways: all-electric systems, and heat pumps sharing the load with a gas furnace. Census figures show 39.1% of homes on electric heat and 54.7% on gas. Most houses here were built before 1970, a third of them before 1940, so the heat pump nearly always came later and often pushes air through ductwork laid out for a furnace. That can leave far rooms short of warm air. You hear what broke and what it costs before we pick up a tool.',
   emergencyParagraph:
-    'NOAA normals for CVG put the typical January low near 23F. In a College Hill house or apartment with no heat, that cold hits small children, older family members and people who are unwell hardest. We fix heat pumps, backup heat strips and dual fuel controls, and we reach most calls the same day, including weekends.',
+    'A January night at CVG bottoms out near 23F on average, per NOAA normals. A College Hill apartment or house that loses heat then turns risky for infants, grandparents and anyone sick in bed. Heat pumps, backup strips, dual fuel controls: our technicians repair all of it, the same day on most calls, Saturday and Sunday too.',
   commonIntro:
     'College Hill heat pump calls come from older houses and from the big apartment buildings. These are the common ones:',
   localFaqs: [
@@ -29,7 +29,7 @@ export const collegeHill: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Start at the thermostat and confirm it’s on heat, not cool or off. Put in a fresh filter. Check the panel for the pair of breakers a heat pump uses, one outdoors and one indoors, and reset either once. Pull leaves or snow away from the outdoor unit. Steam, a little frost or a resting outside fan means it’s defrosting. When the heat comes back on, you don’t need a technician. Call us if the coil stays frozen, the emergency heat light stays on, the system blows warm in cool mode or the reverse, or the outdoor fan won’t spin. We diagnose, explain, and price before repairing.',
+        body: 'In a College Hill ranch or older two-story, ten minutes of looking can save a call. After a summer on cool, people forget to move the wall control back to heat. A filter gone gray and matted chokes airflow, so change it. The condenser outside and the air handler inside each have a breaker; flip a tripped one back once. Rake leaves and snow off the coil. Steam and frost with a quiet fan mean defrost. Ring us for ice that stays, an emergency heat light that won’t clear, a system stuck heating or cooling, or a stalled outdoor fan. We test, quote, then repair.',
       },
       {
         title: 'Repair or Replace Your College Hill Heat Pump?',

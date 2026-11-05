@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -89,10 +89,10 @@ export default function DrainCleaningPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing · Drains"
+      <LocationHero
         title={`Drain Cleaning in ${site.serviceArea}`}
-        description="Stubborn clog or a slow drain that keeps coming back? We clear it completely with snaking or hydro jetting — and a camera inspection to find the real cause."
+        image="/services/drain-cleaning-hero.webp"
+        imageAlt="Licensed plumber cleaning a clogged drain"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -105,25 +105,38 @@ export default function DrainCleaningPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/drain-cleaning-hero.webp)' }}
-            role="img"
-            aria-label="Licensed plumber cleaning a clogged drain"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Drain Cleaning Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Drain cleaning across {site.serviceArea} usually means a kitchen line packed with
+            grease, a shower drain choked with hair or a main sewer line that roots have found.
+            Greater Cincinnati Water Works reports hardness of 126 to 140 mg/L, and that scale
+            inside older cast-iron drains gives soap and hair something to cling to. A snake
+            clears most single-fixture clogs, and hydro jetting handles grease and repeat
+            blockages. A clog that keeps returning gets a camera, and you approve the flat rate
+            before the cable goes in.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Drain Cleaning in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            A main line pushing sewage into the basement is a health risk, especially for small
+            children and anyone with a weak immune system, and every hour it sits the water
+            soaks into drywall. In the City of Cincinnati, the Metropolitan Sewer District asks
+            for backups to be reported within 48 hours. Most are cleared the same day, weekends
+            included.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Drain Cleaning
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             A clogged drain is easy to ignore until it is not — a slow sink becomes standing water, a
             sluggish main line becomes a backup in the basement. Left alone, clogs put pressure on
             your pipes and can lead to leaks, water damage, and expensive repairs.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} clears drains the right way for homeowners across {site.serviceArea}. We
-            remove the whole blockage — not just punch through it — and use a camera inspection to
-            find what caused it, so the clog does not come right back. Upfront, flat-rate pricing you
-            approve before we start, and we clean up before we leave.
           </p>
 
           {/* Benefits */}
@@ -260,7 +273,7 @@ export default function DrainCleaningPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

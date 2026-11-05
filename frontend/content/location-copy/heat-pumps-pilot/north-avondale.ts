@@ -33,7 +33,7 @@ export const northAvondale: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Before calling about a North Avondale heat pump, rule out the simple causes. Make sure the thermostat reads heat, not cool or off. A clogged filter starves the system of air, so change it. Check the outdoor unit’s breaker and the indoor air handler’s breaker, and reset either if tripped. Clear away snow or leaves around the outdoor coil. Steam and light frost during defrost are normal, as is a fan that stops for a few minutes. If the house warms up, you don’t need us. If ice stays or the emergency heat light won’t clear, we find the fault and quote it first.',
+        body: 'A North Avondale heat pump that seems dead is sometimes just set wrong. Check the thermostat is on heat; cool or off shuts it down. Hold the filter to a lamp, and if no light comes through, replace it. There are two breakers to look at, one for the outdoor unit and one for the air handler, so flip any that tripped. Brush snow and leaves off the outdoor coil. A defrost cycle throws off steam and light frost, and the fan can go still briefly. Warm air again means no visit. Ice that won’t melt off, or an emergency heat light that stays lit, is our job.',
       },
       {
         title: 'Repair or Replace Your North Avondale Heat Pump?',

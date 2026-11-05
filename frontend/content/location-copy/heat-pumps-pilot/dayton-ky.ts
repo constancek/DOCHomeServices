@@ -2,9 +2,9 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const daytonKy: LocationServiceCopy = {
   localParagraph:
-    'In Dayton a heat pump is usually one half of a dual fuel setup, with a gas furnace taking over on the coldest nights. Census figures show 62.7% of homes heat with gas and 35.2% with electricity, a figure that also counts electric furnaces and baseboard. Nearly half the houses went up before 1940, so the outdoor unit and air handler were fitted decades after the house was built. We test the heat pump and the furnace controls together, then price the repair before anything is touched.',
+    'Most Dayton heat pumps work alongside a gas furnace, and the furnace takes the load when the weather turns bitter. Census figures put gas heat at 62.7% of homes and electricity at 35.2%, though that electric share also includes baseboard and electric furnaces. Close to half of Dayton’s houses predate 1940, so every heat pump in them was retrofitted long after the house was built. On a call we check the outdoor unit and the furnace controls as one system and quote before touching anything.',
   emergencyParagraph:
-    'A Dayton house without heat cools quickly on a freezing night, and NOAA’s airport count gives the Cincinnati area about 100 of those a year. Babies, older relatives and anyone who is ill feel it first. We repair heat pumps and dual fuel controls, same day on most calls, Saturdays and Sundays included.',
+    'NOAA’s count at the airport gives the Cincinnati area about 100 nights a year at freezing or below, and an old Dayton house loses its warmth fast on one of them. Infants, elderly parents and anyone sick notice first. We repair heat pumps and dual fuel controls, same day on most calls, weekends included.',
   commonIntro:
     'Dayton heat pump calls split between pre-war houses where a heat pump was paired with the gas furnace and the city’s apartment and condo buildings. These four come up most:',
   localFaqs: [
@@ -29,11 +29,11 @@ export const daytonKy: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'In a Dayton dual fuel house the thermostat has to say heat, not cool or off, and a clogged filter should come out. The outdoor unit and the indoor air handler run on separate breakers; both should be on. Rake snow and leaves back from the outdoor coil. A defrost cycle throws off steam, leaves thin frost and stops the outdoor fan for a few minutes, all normal. If heat comes back, you don’t need us. Call us for ice that keeps building, an auxiliary heat light that stays lit, or grinding from the outdoor unit. We inspect, explain the fault, price it for your approval and test afterwards.',
+        body: 'Start with the thermostat in a Dayton dual fuel house: heat, not cool or off. Pull a filter that looks clogged. Two breakers matter, one for the outdoor unit and one for the air handler, and both belong on. Keep snow and leaves raked off the outdoor coil. During defrost you’ll see steam, a skin of frost and an outdoor fan that rests a few minutes; none of that is a fault. Warm air again means you can skip the visit. Book us when ice keeps growing, the auxiliary light never goes out or the outdoor unit grinds. We explain and price the fault before work, then test.',
       },
       {
         title: 'Repair or Replace Your Dayton Heat Pump?',
-        body: 'Go by the heat pump’s age, not the house’s. A Dayton house from the 1920s may be on its third outdoor unit, and a failed contactor or fan motor on a recent one is a straightforward repair. A refrigerant leak or a dead compressor is where the real decision sits, and on an older unit we put both prices in front of you. In a dual fuel home, a weak heat pump often shows up as the gas furnace running more than it used to, so watch both bills. Financing is available if replacement makes more sense.',
+        body: 'Ignore the house’s age and look at the heat pump’s. A 1920s house in Dayton could be on its third outdoor unit, and a bad contactor or fan motor on a recent one is a simple fix. The hard call comes with a refrigerant leak or a seized compressor; on older equipment we lay out a repair price and a replacement price together. With dual fuel, a weak heat pump tends to show up as the gas furnace running longer than it did last winter, so compare both bills. If replacing wins, financing is available.',
       },
     ],
     whyTitle: 'Why Dayton Homeowners and Landlords Call Us',
@@ -42,11 +42,11 @@ export const daytonKy: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost in Dayton?',
-        a: 'The price follows the fault. A burned contactor or a stuck defrost board is usually a quick job, while a refrigerant leak has to be located, sealed and recharged. We diagnose first and give you a single flat-rate price, and work starts only when you say yes. Weekend calls carry no overtime fees.',
+        a: 'It depends on the fault we find. Replacing a burned contactor or a stuck defrost board goes quickly; a refrigerant leak means finding it, sealing it and recharging. You get one flat-rate number after diagnosis, nothing starts until you agree, and weekend calls carry no overtime fees.',
       },
       {
         q: 'Is it worth repairing the heat pump in my Dayton home?',
-        a: 'Check the install date on the outdoor unit’s label first. A newer heat pump with one bad part is nearly always worth fixing. A failed compressor, or a second refrigerant leak on an older unit, is when replacement starts to make sense. In a dual fuel home the gas furnace can keep you warm while you decide.',
+        a: 'Start with the install date printed on the outdoor unit’s label. One broken part on a young heat pump is almost always worth the repair. A dead compressor, or a second leak on an aging unit, tips it toward replacement. Dual fuel helps here: the gas furnace keeps the house warm while you think it over.',
       },
       {
         q: 'Why is my Dayton heat pump blowing cool air in winter?',

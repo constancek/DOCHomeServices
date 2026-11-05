@@ -2,9 +2,9 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const cherryGrove: LocationServiceCopy = {
   localParagraph:
-    'Cherry Grove leans heavily on electric heat: Census figures show 45.0% of homes heating with electricity and most of the rest on gas. That electric figure counts heat pumps alongside electric furnaces and baseboard, so not every house has a heat pump. Of the homes here, 78.1% went up between 1960 and 1979, almost all of them single-family houses, so many heat pumps sit on ductwork that is older than the equipment. We find what failed and quote the repair before work begins.',
+    'Cherry Grove is almost all owner-occupied single-family houses, and 45.0% of them heat with electricity, per Census figures. That count also takes in electric furnaces and baseboard, so not every house has a heat pump. 78.1% of the houses went up between 1960 and 1979, which means a newer heat pump often feeds ductwork laid half a century ago. Leaky or undersized runs can make a healthy unit look weak. You get the diagnosis and a firm price before we start.',
   emergencyParagraph:
-    'A Cherry Grove house that loses both heat pump and strips gets cold fast, and the Cincinnati airport averages about 100 nights a year at 32F or colder in NOAA normals. Babies, older relatives and anyone ill feel it first. We fix heat pumps, air handlers and heat strips, mostly the same day, Saturdays and Sundays included.',
+    'NOAA normals put about 100 nights a year at or below 32F at the Cincinnati airport. When an all-electric Cherry Grove house loses heat pump and strips together, with no furnace as backup, infants, older parents and anyone ill are at most risk. We repair outdoor units, air handlers and strips the same day on most calls, weekends included.',
   commonIntro:
     'Cherry Grove calls are mostly about all-electric systems in 1960s and 1970s single-family houses. These four come up most:',
   localFaqs: [
@@ -29,16 +29,16 @@ export const cherryGrove: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Before booking, run a few checks. On an all-electric Cherry Grove system, the thermostat must say heat, not cool or off. A dirty filter starves the air handler, so change it. In the panel, look for two breakers: one feeds the outdoor unit, the other the air handler. Clear snow, ice or leaves from around the outdoor unit. A defrost cycle brings steam, a little frost and a fan that stops for a few minutes, and that’s expected. If the heat comes back, you don’t need us. Call when the coil stays iced or the auxiliary heat light won’t turn off. We diagnose the fault and quote before working.',
+        body: '91.4% of Cherry Grove homes are owner-occupied, so you’re the one doing the first look. Read the thermostat; a heat pump set to cool or off simply won’t warm the house. A filter clogged gray chokes the air handler, so change it. Find the two breakers in the panel, the outdoor unit’s and the air handler’s, and flip back a tripped one once. Rake leaves and snow away from the outdoor coil. Steam, frost and a fan resting for a few minutes are defrost. If the warmth returns, cancel the call. We’re needed for ice that never clears or an auxiliary light that stays lit, and we quote before working.',
       },
       {
         title: 'Repair or Replace Your Cherry Grove Heat Pump?',
-        body: 'Decide on the heat pump’s condition, not the house’s age. Cherry Grove homes are mostly from the 1960s and 1970s, but the heat pump outside may be much younger, so check the label on the outdoor unit. A worn contactor or a failed fan motor on a younger unit is a fair repair. A refrigerant leak or a dead compressor on an older one is when we price replacement too. In an all-electric house, a Duke Energy bill that jumps in an ordinary month usually means the heat strips are working too hard. We handle the permit.',
+        body: 'Read the data plate on the outdoor unit before you read the house. A Cherry Grove house from the 1960s can have a heat pump fitted a few years ago, and on that unit a scorched contactor or a fan motor that won’t spin is worth fixing. An older heat pump with a compressor that has quit, or refrigerant that leaks out again after a recharge, is where we quote replacement beside repair. All-electric homes give an early warning: a Duke Energy bill that climbs in a mild month means the strips are carrying the load. Any permit a replacement needs, we handle.',
       },
     ],
     whyTitle: 'Why Cherry Grove Homeowners Call Us',
     whyParagraph:
-      'With so much electric heat in Cherry Grove, heat pumps and air handlers are a big part of our work here. Technicians are licensed, background-checked and drug-tested, and we make it right or you don’t pay.',
+      'Cherry Grove has more electric heat than most of the area, so air handlers and heat strips are routine work for us here. Licensed, background-checked, drug-tested technicians, and if we don’t make it right, you don’t pay.',
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Cherry Grove?',
@@ -46,11 +46,11 @@ export const cherryGrove: LocationServiceCopy = {
       },
       {
         q: 'Should I repair or replace my Cherry Grove heat pump?',
-        a: 'Look at the heat pump’s age and history. A newer unit with one bad part is usually a repair. An older one with a failed compressor or a leak that won’t stay fixed is when we price a replacement next to the repair, and financing is available.',
+        a: 'Go by the unit’s own story. One failed part on a heat pump that otherwise tests well gets repaired. Once a compressor fails on an older unit, or a leak returns after it was fixed, we put a replacement quote next to the repair quote, and financing is available.',
       },
       {
         q: 'Why does my Cherry Grove heat pump blow cool air?',
-        a: 'Next to a gas furnace, heat pump air feels mild at the register, and in an all-electric Cherry Grove house that mild air is normal. Truly cold air with the outdoor unit frozen or sitting still, or the strips carrying the whole load, is a fault worth a call.',
+        a: 'Partly normal. A heat pump warms the house with a long run of mild air, which feels cooler at the register than a gas furnace’s blast. Cold air paired with a frozen or idle outdoor unit, or strips doing all the heating, means something in your Cherry Grove system broke.',
       },
     ],
   },

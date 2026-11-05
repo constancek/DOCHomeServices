@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -72,10 +72,10 @@ export default function ElectricalPanelReplacementPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Electrical"
+      <LocationHero
         title={`Electrical Panel Replacement in ${site.serviceArea}`}
-        description="Breaker panel upgrades and fuse-box replacements by licensed electricians — sized for modern demand and completed with minimal disruption to your home."
+        image="/services/panel-hero.webp"
+        imageAlt="Modern electrical panel with breakers"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -86,28 +86,26 @@ export default function ElectricalPanelReplacementPage() {
 
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/panel-hero.webp)' }}
-            role="img"
-            aria-label="Modern electrical panel with breakers"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Panel Replacement Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Panel replacement across {site.serviceArea} is mostly about age and load. Most panels last
+            25 to 40 years, and some houses still run on fuses or on a breaker panel sized before
+            central air and EV chargers. We check the amperage, the wiring feeding each breaker and
+            whether the meter base needs work too, since that changes the scope. Some only need a new
+            breaker or a tightened connection, and we will say so. The quote is written and fixed before
+            the old panel comes out.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Electrical Panel Replacement
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Your electrical panel is the heart of your home’s electrical system. It distributes power to
             every circuit and protects your home when something goes wrong. When a panel is outdated or
             undersized, it can no longer keep up.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            If you’ve noticed electrical issues in your home, it might be time to think about replacing
-            your panel. {site.name} delivers expert solutions with a friendly, family-focused approach for
-            homeowners across {site.serviceArea}.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Ignoring a struggling panel can create unsafe conditions or lead to costlier repairs. A proper
-            upgrade keeps your system safe, efficient, and ready for the demands of today’s technology.
           </p>
         </MainWithSidebar>
       </section>
@@ -253,7 +251,7 @@ export default function ElectricalPanelReplacementPage() {
         <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Electrical Panel Replacement FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">

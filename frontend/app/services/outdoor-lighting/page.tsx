@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -96,10 +96,10 @@ export default function OutdoorLightingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Lighting"
+      <LocationHero
         title={`Outdoor Lighting Installation in ${site.serviceArea}`}
-        description="Landscape, patio, holiday, security, and spa lighting installed by licensed electricians — durable fixtures and balanced layouts built to perform in Midwest weather."
+        image="/services/outdoor-lighting-hero.webp"
+        imageAlt="Home exterior with landscape lighting at dusk"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -112,13 +112,20 @@ export default function OutdoorLightingPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/outdoor-lighting-hero.webp)' }}
-            role="img"
-            aria-label="Home exterior with landscape lighting at dusk"
-          />
+          {/* One-format top section: local pros, one paragraph */}
           <h2 className="section-title text-brand-700">
+            Local Outdoor Lighting Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Outdoor lighting across {site.serviceArea} splits into two kinds of work: line-voltage
+            fixtures on the house, such as entry and security lights, and low-voltage lighting in
+            the yard off a 12-volt transformer. Anything exposed to rain needs a wet-location
+            rating, because an indoor fixture put outside fails in a season or two. Plug-in fixtures
+            on an existing outdoor receptacle are a fair weekend job. New circuits, buried cable and
+            switches inside the house are ours, and each one is priced before we dig or drill.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Outdoor Lighting Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -362,7 +369,7 @@ export default function OutdoorLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

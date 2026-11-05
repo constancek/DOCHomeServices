@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -80,10 +80,10 @@ export default function IndoorAirQualityPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Heating & Cooling"
+      <LocationHero
         title={`Indoor Air Quality Services in ${site.serviceArea}`}
-        description="Cleaner, healthier air at home — through testing, whole-home filtration, purifiers, and humidifiers tailored to your home."
+        image="/services/iaq-hero.webp"
+        imageAlt="Clean, comfortable home interior"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -95,23 +95,27 @@ export default function IndoorAirQualityPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/iaq-hero.webp)' }}
-            role="img"
-            aria-label="Clean, comfortable home interior"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Indoor Air Quality Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Indoor air quality work across {site.serviceArea} usually comes down to dust,
+            humidity and allergens moving through the same ducts as your heat and air
+            conditioning. In winter that often means dry air, and in summer damp basements and
+            the mold that follows. We match filtration, purifiers, humidifiers or dehumidifiers
+            to what the home actually has. Sometimes a better filter, checked monthly in heavy
+            heating and cooling months as ENERGY STAR advises, is all you need. If that is the
+            answer, we tell you before quoting any equipment.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Expert Indoor Air Quality Services
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             We take air quality seriously. {site.name} is known for being thorough, reliable, and easy
             to work with — and we do not take shortcuts. Our team follows a careful process, using
             high-quality materials and proven methods for long-term solutions.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Every home is different, so we work closely with each homeowner to build a plan that fits
-            their specific air quality needs. These are the issues good IAQ solutions address:
           </p>
           <div className="mt-6 grid gap-4 sm:grid-cols-3">
             {concerns.map((c) => (
@@ -262,7 +266,7 @@ export default function IndoorAirQualityPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

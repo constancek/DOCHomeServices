@@ -2,9 +2,9 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const amberley: LocationServiceCopy = {
   localParagraph:
-    'Amberley Village is almost entirely owner-occupied single-family houses, and Census figures show 85.9% of them heat with gas. So a heat pump here usually works alongside a gas furnace, carrying the house in mild weather and handing off when it gets colder. Most homes date from the 1940s through the 1970s, which means the heat pump was added to ductwork sized for a furnace. We check the heat pump and the furnace controls together and agree the price with you before any repair.',
+    'Gas runs the heat in 85.9% of Amberley homes, per Census figures, and 98.1% of houses are lived in by their owners. A heat pump here is nearly always half of a dual fuel pair: it carries the mild weeks and the gas furnace picks up the cold ones. With 41.1% of homes built between 1940 and 1959, most of these heat pumps were added to ducts first laid out for a furnace alone. We test both halves and the control linking them, then quote a firm price.',
   emergencyParagraph:
-    'The Cincinnati airport’s January lows sit around 23F in NOAA normals. If an Amberley heat pump quits and the gas furnace never takes over, the house loses its warmth within hours, which is hardest on a baby, an older parent or someone ill. We fix heat pumps and dual fuel controls, usually the same day, Saturdays and Sundays included.',
+    'January nights at the Cincinnati airport bottom out near 23F, according to NOAA normals. When an Amberley heat pump fails and the furnace doesn’t step in, the rooms cool off within hours. A baby, an older parent or someone ill feels that first. Dual fuel controls and heat pumps are what we fix, usually the same day, weekends too.',
   commonIntro:
     'Amberley heat pump calls nearly always involve a dual fuel system in a mid-century house. These four come up most:',
   localFaqs: [
@@ -29,28 +29,28 @@ export const amberley: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Try the simple fixes first. In an Amberley dual fuel house the thermostat must be set to heat, since cool or off leaves both machines idle. Swap a dirty filter. Two breakers matter here, the outdoor unit’s and the furnace’s. Keep the outdoor unit clear of leaves and drifted snow. Some frost and steam, with the fan pausing a few minutes, is a normal defrost. If the heat comes back, you don’t need us. Call when the coil stays frozen, grinding comes from the outdoor unit, or the furnace never takes over. If you smell gas near the furnace, get out and call the gas company from outside.',
+        body: 'Check a few things first in an Amberley dual fuel house. Put the thermostat on heat; on cool or off, neither the heat pump nor the furnace will run. Change a clogged filter. Check two breakers, the outdoor unit’s and the furnace’s. Brush snow and leaves off the outside cabinet. A defrost looks like light frost, a puff of steam and a fan that stops for a few minutes. If heat returns, you’re set. We need to see it when ice won’t leave the coil, the outdoor unit grinds, or the furnace never steps in. If you smell gas near the furnace, leave and call the gas company from outside.',
       },
       {
         title: 'Repair or Replace Your Amberley Heat Pump?',
-        body: 'Go by the heat pump, not the house. A 1950s Amberley home may have a heat pump installed a few years ago, and a worn contactor or a bad defrost board on it is a repair. A failing compressor or a refrigerant leak on an older unit is when we show you replacement and repair prices side by side. In a dual fuel home, a weak heat pump rarely shows on the electric bill. The furnace runs longer, so the gas bill climbs instead. We handle the permit if the unit is replaced.',
+        body: 'The house won’t tell you; the heat pump will. A ranch from the 1950s may sit beside a heat pump only a few years old, and on a young unit a burned contactor or a failed defrost control is a fix. On an older unit with a compressor going or refrigerant leaking out, we write up both prices for you to compare. A weak heat pump in a dual fuel home seldom shows on the electric bill. The furnace picks up the slack, and it’s the gas bill that rises. If you replace, we handle the permit.',
       },
     ],
     whyTitle: 'Why Amberley Homeowners Call Us',
     whyParagraph:
-      'Amberley homes are owner-occupied and mostly heated with gas, and we repair the heat pumps that share that work with the furnace. Our technicians are licensed and insured, and you approve a flat-rate price before work starts.',
+      'Nearly every Amberley house is owner-occupied and heated mostly by gas, so our work here is the heat pump that splits the winter with the furnace. Licensed, insured technicians quote a flat rate you approve first.',
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost in Amberley?',
-        a: 'We price it after testing. A failed contactor or a defrost sensor is a quick repair, while a dual fuel control fault or a leak in the line set takes longer to trace. You see one flat-rate price and approve it before work starts, and weekend calls cost no extra.',
+        a: 'Testing comes before the price. A burned contactor or bad defrost sensor goes fast; a fault in the dual fuel control or a leak somewhere in the line set takes longer to find. Either way you get one flat-rate figure to approve before we start, and a Saturday call costs the same as a Tuesday one.',
       },
       {
         q: 'Should I repair or replace my Amberley heat pump?',
-        a: 'Look at the unit’s age and the part that failed. One bad part on a younger heat pump is a repair. A dead compressor or repeated refrigerant leaks on an older one point toward replacing it. The gas furnace keeps the house warm while you decide.',
+        a: 'It depends on how old the unit is and what broke. A younger heat pump with a single failed part should be fixed. An older one with a dead compressor, or a leak that has come back more than once, is a candidate for replacement. Meanwhile the gas furnace keeps the house warm.',
       },
       {
         q: 'Why is my Amberley heat pump blowing cool air?',
-        a: 'Next to your gas furnace, heat pump air feels mild, and that is how it should feel. Air that is actually cold, with ice on the outdoor unit or the fan stopped, is a fault. So is a furnace that never comes on during a hard freeze.',
+        a: 'Heat pump air feels mild beside the blast from a gas furnace, and that’s normal. Truly cold air, with ice on the outdoor coil or the outdoor fan stopped, is a fault. So is a hard freeze where the furnace never kicks in.',
       },
     ],
   },

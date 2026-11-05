@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -117,10 +117,10 @@ export default function ElectricalInspectionsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Electrical"
+      <LocationHero
         title={`Electrical Inspections in ${site.serviceArea}`}
-        description="A thorough check of your panel, wiring, grounding, and safety devices — with a clear written report — to catch hazards early and keep your home safe."
+        image="/services/inspect-hero.webp"
+        imageAlt="Electrician inspecting an electrical panel"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -132,13 +132,20 @@ export default function ElectricalInspectionsPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/inspect-hero.webp)' }}
-            role="img"
-            aria-label="Electrician inspecting an electrical panel"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Electrical Inspection Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            An electrical inspection across {site.serviceArea} usually starts at the panel and what has
+            been added to it over the years. We open the panel, check the grounding, test outlets and
+            switches, and confirm GFCI and AFCI protection where code calls for it. Homes more than 25
+            years old get the closest look, along with any wiring that went in during a renovation
+            without permits. You get a written report on what we found, and any repair on it is priced
+            before we touch it.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Electrical Inspections
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -148,12 +155,6 @@ export default function ElectricalInspectionsPage() {
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Over time, wiring and breakers wear down, connections loosen, and panels age. Small issues
             can grow into serious safety risks if they are not found early.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} provides professional electrical inspections for homeowners across{' '}
-            {site.serviceArea}. Whether you need a routine inspection, a detailed safety check, or a
-            system review before renovations that require permits, our licensed electricians make sure
-            your system is safe and reliable — and give you peace of mind.
           </p>
 
           <h3 className="mt-8 font-display text-2xl font-black uppercase leading-tight text-brand-600">
@@ -364,7 +365,7 @@ export default function ElectricalInspectionsPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

@@ -29,7 +29,7 @@ export const coldSpring: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Furnace Needs Repair, and When It Doesn’t',
-        body: 'Some no-heat calls end before we arrive. Confirm the thermostat is on heat and its batteries are good. Check the service switch near the furnace and the breaker panel. Swap a dirty filter, and seat the furnace door properly, since a loose door keeps many furnaces from running. If heat returns, you don’t need us. Call when the furnace fires and quits again, or the heat pump falls behind and the backup heat stays off. If you smell gas, leave the lights and switches alone, go outside and call the gas company. We test, explain, price it for your okay, then confirm the heat.',
+        body: 'Before booking, set the thermostat to heat and give it fresh batteries. Find the furnace’s own on-off switch, often on the wall beside it, and make sure its breaker hasn’t tripped. Put in a clean filter and press the front panel shut, because many furnaces sit idle with it ajar. If warm air comes back, skip the visit. We’re needed when the burner lights and dies again, or the heat pump can’t keep up and the backup strips stay cold. With a gas smell, touch no switches, get out and phone the gas company from the yard. We test, explain, quote for your approval and recheck the heat.',
       },
       {
         title: 'Repair or Replace Your Cold Spring Furnace?',

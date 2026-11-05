@@ -60,7 +60,7 @@ export default function FaqTabs() {
             <Accordion
               items={group.items.map((i) => ({
                 title: i.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{i.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{i.a}</p>,
               }))}
               defaultOpen={-1}
             />

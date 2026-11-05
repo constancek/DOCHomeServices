@@ -33,7 +33,7 @@ export const fortThomas: LocationServiceCopy = {
       },
       {
         title: 'Repair or Replace Your Fort Thomas Heat Pump?',
-        body: 'Judge the heat pump on its own condition, not the house’s. A Fort Thomas home from the 1920s may have a heat pump installed a few years ago, and a failed fan motor or defrost board on that unit is a repair. A refrigerant leak or a dead compressor on an older one is when we price both options. In a dual fuel house the furnace can hide the problem, keeping rooms warm while the gas bill climbs. In an all-electric condo, Duke Energy Kentucky charges rise when backup strips carry the load in a mild month.',
+        body: 'Go by the heat pump’s age and health; the house’s age says little. A 1920s Fort Thomas home can carry an outdoor unit only a few years old, and a bad fan motor or defrost board there gets fixed. An older unit losing refrigerant, or one with a seized compressor, gets two prices from us, repair and new. Dual fuel can mask trouble: the furnace keeps rooms comfortable while the gas bill quietly grows. In an all-electric condo, a Duke Energy Kentucky charge that rises in a mild month means the backup strips are doing the work.',
       },
     ],
     whyTitle: 'Why Fort Thomas Homeowners Call Us',

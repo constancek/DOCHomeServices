@@ -29,7 +29,7 @@ export const greendale: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Some problems you can fix yourself. Switch the thermostat to heat if it’s on cool or off. A dusty, clogged filter should be replaced. Check the breaker panel for both circuits, the one for the outdoor unit and the one for the indoor air handler or furnace. Clear snow or fallen leaves away from the outdoor unit. Steam, light frost and a short stop of the outdoor fan are a defrost cycle and nothing to worry about. If the warmth comes back, you don’t need us. Call when ice builds up and stays, the emergency heat light won’t clear, or loud grinding starts.',
+        body: 'Try a few things first. The thermostat should read heat, not cool or off. Pull the filter, and if it’s gray and matted, put in a new one. In the panel, a Greendale heat pump has two breakers, outdoor unit and indoor air handler or furnace, and both belong in the on position. Brush snow or leaves off the outside unit. In winter it may steam, frost over lightly and pause its fan for a few minutes while it defrosts. That’s normal. If heat returns after those checks, you’re fine. Ice that never melts off, an emergency heat light stuck on, or grinding means it’s our job.',
       },
       {
         title: 'Repair or Replace Your Greendale Heat Pump?',

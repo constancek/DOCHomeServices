@@ -2,9 +2,9 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const forestville: LocationServiceCopy = {
   localParagraph:
-    'Electric heat is common in Forestville. Census figures show 38.2% of homes heat with electricity, a number that also covers electric furnaces and baseboard, while 58.8% use gas. The median home was built in 1981, and more than a quarter of homes sit in buildings of five or more units, some in large complexes. So a heat pump here may be the only heat in an apartment or townhouse, or work beside a gas furnace in a house. We find the fault and price it before work begins.',
+    'Electricity heats 38.2% of Forestville homes by Census figures, a count that lumps in electric furnaces and baseboard, while 58.8% burn gas. The median home dates to 1981, and over a quarter of homes are in buildings with five or more units. That can make a heat pump the sole heat in an apartment or townhouse, or a partner to a gas furnace in a house. Either way, we track down what broke and give you the price before we start.',
   emergencyParagraph:
-    'Per NOAA normals, the Cincinnati airport sees about 100 nights a year at or below freezing. A Forestville home that loses its heat pump on one of those nights cools steadily, and babies, older relatives and anyone ill feel it most. We repair heat pumps and the backup heat behind them, usually the same day, weekends included.',
+    'About 100 nights a year drop to freezing or lower at the Cincinnati airport, by NOAA normals. When a Forestville heat pump quits on one of them, the home keeps losing warmth, and infants, aging parents and sick relatives are first to feel it. We fix the heat pump and its backup strips, often that same day, weekends too.',
   commonIntro:
     'Forestville heat pump calls come from 1980s and 1990s houses, townhouses and apartment complexes. These four come up most:',
   localFaqs: [
@@ -14,7 +14,7 @@ export const forestville: LocationServiceCopy = {
     },
     {
       q: 'I rent an apartment in Forestville and the heat pump isn’t working. Who fixes it?',
-      a: 'Your landlord or property manager arranges the repair, so report it to them in writing after checking the thermostat and filter. Ohio law, ORC 5321.04, makes landlords keep the heating equipment they provide in good and safe working order. We fix heat pumps, not leases, and work with managers directly.',
+      a: 'Report it to the landlord or manager in writing, once you’ve confirmed the thermostat says heat and the filter isn’t clogged. Under ORC 5321.04, Ohio landlords must keep the heating equipment they supply in good and safe working order. We fix heat pumps, not leases, and managers can book us directly.',
     },
   ],
   overrides: {
@@ -22,14 +22,14 @@ export const forestville: LocationServiceCopy = {
     band1Heading: 'Common Heat Pump Problems in Forestville Homes',
     commonSituations: [
       'A 1980s or 1990s heat pump that runs nonstop and still trails the thermostat',
-      'An apartment heat pump left on emergency heat through a cold week',
+      'An apartment system stuck on emergency heat for days while the outdoor unit sits idle',
       'A townhouse outdoor unit wedged between neighbors and drifted in with snow',
-      'A dual fuel house where the furnace starts but the heat pump never does',
+      'A dual fuel setup in a 1990s house that fires the gas furnace but leaves the outdoor unit silent',
     ],
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Start with what you can check. The thermostat should be on heat, not cool or off. A dirty filter makes a heat pump work harder, so change it. Two breakers serve the system, one outdoors and one for the air handler inside; reset either if it tripped. Clear snow and leaves from around the outdoor unit. A defrost cycle can send up steam and stop the fan for a few minutes, and that is expected. If the heat returns, you don’t need us. Call when the outdoor unit stays frozen or the outdoor fan won’t turn. We explain the fault and price the repair before doing it.',
+        body: 'Run four quick tests before you book. Look at the thermostat screen: it needs to say heat. Slide the filter out; a gray, clogged one starves the air handler, so put in a clean one. The panel has a breaker for the outside unit and another for the inside one, and a tripped switch gets one reset. Townhouse units wedged between neighbors collect drifts, so dig yours out. Steam, light frost and a fan that idles for a few minutes are just defrost. Warm air again means you can skip the call. Book us when ice stays put or the outdoor fan sits still, and we price it first.',
       },
       {
         title: 'Repair or Replace Your Forestville Heat Pump?',
@@ -42,15 +42,15 @@ export const forestville: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost in Forestville?',
-        a: 'It depends on what we find. A loose terminal or a failed defrost thermostat is a short repair, and a refrigerant leak takes more time to track down. We diagnose, then give a flat-rate price to approve before any work. Weekend repairs carry no overtime charges.',
+        a: 'The fault sets the price. Tightening a loose terminal or swapping a defrost thermostat goes quickly; chasing a refrigerant leak eats more time. You approve a flat-rate figure after we diagnose and before we start, and Saturday or Sunday work costs no overtime.',
       },
       {
         q: 'Is it worth repairing an older Forestville heat pump?',
-        a: 'Often, when one part failed and the compressor is healthy. If the compressor has failed or refrigerant keeps leaking on an original 1980s or 1990s unit, replacement deserves a look. Read the install date on the unit’s label rather than going by the house. We price both.',
+        a: 'Usually, if a single part broke and the compressor still runs well. On an original 1980s or 1990s unit with a dead compressor or a leak that returns, price a replacement too. The label on the outdoor unit gives its install year, which tells you more than the house does. We quote both ways.',
       },
       {
         q: 'Why does my Forestville heat pump blow cool air in winter?',
-        a: 'Heat pump air is warm, not hot, so it can feel cool to anyone used to a gas furnace. That is normal. If the air coming out is cold and the outdoor unit is frozen over or not running, something has failed, and we should take a look.',
+        a: 'Some of it is normal. Heat pump air leaves the register milder than furnace air, and people who grew up with gas notice. Real trouble looks different: cold air while the outdoor unit is caked in ice or not running at all. That one needs a technician, so call us.',
       },
     ],
   },

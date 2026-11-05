@@ -1,15 +1,4 @@
 export const part2: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
-  'madeira': {
-    intro: 'Boilers are the exception in Madeira, where most mid-century homes were built around furnaces and ductwork. Our boiler repair here is in older houses around Miami and Euclid Avenues and homes where an owner added radiant floor heat, systems now old enough to start losing pressure.',
-    relevance: [
-      'Madeira (ZIP 45243) is an established east-side city with a small-town feel, built largely of mid-century single-family homes on quiet, tree-lined streets. Most houses of that era were built around forced-air furnaces and ductwork, so boilers are the exception here rather than the rule. If your Madeira home heats with a furnace, this is not the page you need, and our furnace team is the better call. That is the honest starting point for any boiler conversation in this part of the east side.',
-      'The homes that do run a boiler tend to be the older houses on those quiet streets, or ones where an owner added radiant floor heat during a remodel. Those systems are now old enough that pressure loss, sticking zone valves, and worn circulator pumps start to show up. A well-maintained boiler lasts 15 to 25 years, so a mid-century original is usually past the point where repairs make sense, and a high-efficiency replacement running around 90% is worth pricing out.',
-    ],
-    commonIntro: 'In the Madeira homes that do heat with water, the boiler problems we see most often come from systems that have been running for decades:',
-    localFaqs: [
-      { q: 'My Madeira house has radiators but my neighbors all have furnaces. Should I switch?', a: 'Not automatically. A hot water boiler gives even, quiet heat, and replacing it with a high-efficiency boiler is often simpler than adding ductwork to a house that never had it. We will look at the age and condition of your system and tell you which way makes sense.' },
-    ],
-  },
   'wyoming': {
     intro: 'Upstairs radiators that barely warm are the boiler repair we see most in Wyoming. The grand Victorian and early-1900s homes here often run cast-iron radiators on an older steam or hot water boiler, and trapped air, dropping pressure or steam pipes that lost their pitch cause most of it.',
     relevance: [
@@ -106,50 +95,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       { q: 'Will a high-efficiency boiler work with the old radiators in my Fort Thomas home?', a: 'In many cases, yes. High-efficiency boilers reach around 90% efficiency when they run cooler water, and the large cast-iron radiators in early-1900s Fort Thomas homes are often big enough to heat the rooms at those lower temperatures. We look at the radiators and the heat loss of the house before recommending one.' },
     ],
   },
-  'florence': {
-    intro: 'Florence boiler work is less common than furnace work, because most homes in this Boone County city run forced air. The boilers we service are in custom builds with radiant floor heat and a few older homes with hot water baseboard, which need steady pressure and a working expansion tank.',
-    relevance: [
-      'Florence (ZIP 41042) is the largest city in Boone County and one of the fastest-growing in Northern Kentucky, with a wide mix of mid-century neighborhoods and newer subdivisions around the Florence Mall area. Houses from both eras were mostly built with forced-air furnaces and ductwork, so if you have floor registers and a furnace in the basement or closet, our furnace service is what you want. Being honest about that saves you a wasted appointment.',
-      'Boilers do turn up in Florence, just less often. Some custom and newer builds use radiant floor heat, and a few older homes still run hot water baseboard. Those systems need the same care as any boiler: steady pressure, a working expansion tank, clean combustion, and a yearly check. We service gas-fired, combi, and high-efficiency boilers, and when one fails we will tell you straight whether repair or replacement makes more sense.',
-    ],
-    commonIntro: 'In the Florence homes that do heat with a boiler, usually radiant floors or hot water baseboard, the problems we see most often are:',
-    localFaqs: [
-      { q: 'My newer Florence home has radiant floor heat. Do you service that?', a: 'Yes. Radiant floors run off a boiler, and we repair and maintain both the boiler and the controls and pumps that move water through the floor.' },
-    ],
-  },
-  'erlanger': {
-    intro: 'Erlanger homes mostly heat with furnaces, so a look at your vents or radiators settles whether boiler repair applies. The boilers we work on are in older houses and newer builds with radiant floors, and one in a mid-century home is often past the 15 to 25 years boilers last.',
-    relevance: [
-      'Erlanger (ZIP 41018) is an established Kenton County city near the airport, with settled mid-century neighborhoods and a mix of older and newer homes. Mid-century houses were mostly built with forced-air furnaces, so boilers are less common in Erlanger than in the river cities closer to Cincinnati, and a furnace owner will get more from our furnace team than from this page. A look at your vents or radiators settles the question quickly.',
-      'The Erlanger homes that do run a boiler are usually among the older houses, or newer ones where radiant floor heat was part of the build. An older boiler in a mid-century home is often well past the 15 to 25 years a well-maintained boiler lasts, so pressure loss, leaking relief valves, and burner lockouts become regular calls. When that happens, we lay out repair against a high-efficiency replacement and let you decide with real information.',
-    ],
-    commonIntro: 'In the Erlanger homes that still heat with water, the boiler issues we handle most often are:',
-    localFaqs: [
-      { q: 'My Erlanger boiler’s pressure relief valve keeps dripping. Is that serious?', a: 'It needs attention soon. A dripping relief valve usually means pressure is running too high, often from a failed expansion tank or fill valve, and we find the cause rather than just swapping the valve.' },
-    ],
-  },
-  'mason': {
-    intro: 'Most Mason homes need no boiler repair at all, since the subdivisions built from the 1990s on run furnaces or heat pumps. The exceptions are older town center homes with hot water radiators or baseboard, and custom builds with radiant floors or a combi boiler that also supplies hot water.',
-    relevance: [
-      'Mason (ZIP 45040) is a fast-growing Warren County city north of Cincinnati, near Kings Island, with large subdivisions of homes built mostly from the 1990s onward alongside an older town center. The subdivisions are overwhelmingly forced-air, with furnaces or heat pumps and ductwork, so most Mason homeowners will not need a boiler technician at all. Hot water heat is simply not what most of these houses were built with, and we would rather say so than send a boiler tech to a furnace.',
-      'The exceptions are real, though. Some of the older homes in the town center still heat with hot water radiators or baseboard, and some custom builds use radiant floor heat or a combi boiler that handles both heat and hot water. Those systems need yearly service and fail in their own ways, from air in the loops to pump and control problems. We service gas-fired, combi, and high-efficiency boilers, and we will tell you if a furnace visit is what you really need.',
-    ],
-    commonIntro: 'In Mason’s older town center homes and the newer builds with radiant heat, the boiler problems we see most often are:',
-    localFaqs: [
-      { q: 'What is a combi boiler, and do some Mason homes have them?', a: 'A combi boiler heats the house and makes hot water on demand from one unit. Some custom and newer homes use them, and we repair, service, and replace them.' },
-    ],
-  },
-  'west-chester': {
-    intro: 'Boilers are the exception in West Chester, where the subdivisions along the I-75 corridor were built around furnaces. Our boiler repair here is mostly in custom builds with radiant floor heat in basements, bathrooms or whole first floors, sometimes on a combi boiler that also makes hot water.',
-    relevance: [
-      'West Chester (ZIP 45069) is a large, fast-growing Butler County community between Cincinnati and Dayton, made up largely of subdivisions built from the 1990s onward along the I-75 corridor. Homes of that era were built almost entirely around forced-air furnaces and ductwork, so if that is what you have, our furnace service is the right call and this page is not. Radiators and hot water baseboard are rare in this part of Butler County.',
-      'Where boilers do show up in West Chester is in custom and higher-end builds with radiant floor heat, often in basements, bathrooms, or entire first floors, and sometimes a combi boiler that also supplies hot water. Those systems are quiet and even when they work, but they depend on steady pressure, clean water in the loops, and pumps and mixing valves that eventually wear. Annual service takes 60 to 90 minutes and catches most of it early.',
-    ],
-    commonIntro: 'In the West Chester homes that heat with a boiler, usually radiant floors or a combi unit, the problems we handle most often are:',
-    localFaqs: [
-      { q: 'One zone of my West Chester radiant floor is cold. What causes that?', a: 'Usually a stuck zone valve, a failed pump, or air trapped in that loop. We test each part of the zone and fix the one that failed.' },
-    ],
-  },
   'pendleton': {
     intro: 'In Pendleton, one central boiler often carries a whole converted building. The restored 19th-century Italianate lofts and condos beside Over-the-Rhine mix old piping and radiator valves with newer equipment, so when the boiler loses pressure or trips a safety lockout, every unit on it goes cold at once.',
     relevance: [
@@ -160,18 +105,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       { q: 'Our Pendleton building shares one boiler. Who should call when the heat goes out?', a: 'Whoever manages the building, usually the association or landlord, since the repair affects every unit. We work with them directly and offer no-heat service every day, weekends included.' },
       { q: 'Why is the top-floor unit in our Pendleton building too hot while the lower units are cold?', a: 'That is usually a balancing problem, not a failing boiler. In converted 19th-century Pendleton buildings, piping added over the years often sends too much heat to some units and too little to others. Adjusting valves, clearing air, or adding zones usually evens it out without replacing the boiler.' },
-    ],
-  },
-  'queensgate': {
-    intro: 'Commercial boiler repair is most of what we do in Queensgate. Older warehouses and offices near the rail yards and Mill Creek were often built with hot water or steam boilers, while newer buildings use rooftop units. A lockout means cold work areas and possibly frozen pipes.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Older buildings of that kind were often heated with boilers, hot water or steam, while many newer ones use rooftop units instead. If your building is on rooftop equipment, a boiler visit is not what you need. A quick look at the mechanical room tells us which you have.',
-      'For buildings that still run a boiler, the risks are downtime and water. A lockout in an office or warehouse means cold work areas and possibly frozen pipes, and some of this district sits on low ground prone to flooding, where a basement or ground-level boiler room can take water. Any boiler whose burner or controls have been flooded needs inspection before restart. Yearly service keeps the older gas-fired and cast-iron equipment here running longer between failures.',
-    ],
-    commonIntro: 'In Queensgate’s older commercial and industrial buildings that heat with boilers, the problems we handle most often are:',
-    localFaqs: [
-      { q: 'Do you service boilers in commercial buildings in Queensgate?', a: 'Yes, including hot water, steam, and gas-fired units. We handle repairs, yearly maintenance, and replacement sized to the building.' },
-      { q: 'Our Queensgate mechanical room took on water. Can we restart the boiler ourselves?', a: 'No. A flooded boiler must be inspected by a technician before it is restarted, because water can damage the gas valve, burner, and controls in ways you cannot see. Queensgate buildings on low ground near the Mill Creek are more exposed, so we check everything and replace damaged parts before bringing heat back.' },
     ],
   },
   'cuf': {
@@ -256,18 +189,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       { q: 'Is it safe to run my South Cumminsville boiler if it is making a banging noise?', a: 'Banging on a steam system is usually water trapped in the pipes and not an emergency, but it should be checked. On a hot water boiler, banging or kettling can point to overheating or scale, so shut it down and call if it keeps up.' },
       { q: 'I smell gas near the boiler in my South Cumminsville basement. What should I do?', a: 'Leave the house right away, without flipping switches or lighting anything, and call 911 or the gas utility from outside. Do not go back in until they say it is safe. Once the gas side is cleared, we can repair the boiler, which in South Cumminsville’s older homes often means an aging valve or fitting.' },
-    ],
-  },
-  'english-woods': {
-    intro: 'Older English Woods homes are the ones that need boiler repair. Houses of some age on this hilltop above the Mill Creek valley often heat with hot water radiators or baseboard, and they wear in predictable ways. The newer homes from recent redevelopment run furnaces or heat pumps instead.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. Newer homes from that redevelopment are most likely heated with forced-air furnaces or heat pumps, so a boiler visit is probably not what they need. Houses built since the redevelopment are a furnace job, not a boiler job. We would rather tell you that up front than send the wrong technician up the hill to your door.',
-      'The older homes in English Woods are a different story. Houses of some age often heat with hot water radiators or baseboard and a boiler in the basement, and those systems wear in predictable ways: pressure loss, air trapped in the highest radiators, failing circulator pumps, and burners that lock out. We repair and maintain those boilers, and when one reaches the end of the 15 to 25 years a well-kept boiler lasts, we size a high-efficiency replacement to the house.',
-    ],
-    commonIntro: 'In English Woods’ older hilltop homes that heat with water, the boiler problems we handle most often are:',
-    localFaqs: [
-      { q: 'My English Woods home has baseboard heaters. Is that a boiler?', a: 'If the baseboards are metal fin units filled with water, yes, they are fed by a boiler. Electric baseboard heaters are a different system and have no boiler at all.' },
-      { q: 'How hot should the water in my English Woods boiler be?', a: 'Most hot water boilers run around 140°F, though the right setting depends on the radiators and the weather. In English Woods’ older hilltop homes, if rooms stay cold at a normal setting, turning the boiler up is rarely the fix. Air, low pressure, or a weak circulator is the more likely cause.' },
     ],
   },
   'north-avondale': {

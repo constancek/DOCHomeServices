@@ -37,7 +37,7 @@ export const northCollegeHill: LocationServiceCopy = {
       },
       {
         title: 'Repair or Replace Your North College Hill Heat Pump?',
-        body: 'Go by the heat pump’s own age and condition, not the house’s 1950s build date. A capacitor, contactor, fan motor or defrost board is a normal repair on a unit in fair shape. A failed compressor or a refrigerant leak that returns is where we quote replacement alongside the repair, so you can compare. If the heat pump has quietly stopped, the gas furnace takes over and the gas bill rises while the house feels fine. In that case the repair usually pays for itself over a winter. We handle the permit on any replacement, and financing is available.',
+        body: 'Judge the heat pump on its own label and condition; a North College Hill house built in the 1950s may have a much younger unit outside. Capacitors, contactors, fan motors and defrost boards all get replaced on a unit that’s otherwise in fair shape. Once the compressor has failed, or refrigerant leaks out again after a fix, we write up a replacement price next to the repair price. One thing to watch in dual fuel houses: a heat pump that has quietly given up hands everything to the gas furnace, so rooms stay warm and the gas bill climbs. We pull the permit on any replacement, and financing is available.',
       },
     ],
     whyTitle: 'Why North College Hill Homeowners and Landlords Call Us',

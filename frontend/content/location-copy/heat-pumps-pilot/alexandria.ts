@@ -4,7 +4,7 @@ export const alexandria: LocationServiceCopy = {
   localParagraph:
     'Alexandria is mostly owner-occupied houses built since the 1980s, and close to half of them heat with electricity: 49.4% in Census figures, against 44.1% on gas. That means plenty of all-electric homes where the heat pump does most of the winter work and backup strips cover the coldest days. Gas homes here often run a heat pump with the furnace behind it. Many systems are on their first or second replacement. We find what failed and give you a firm price before anything is repaired.',
   emergencyParagraph:
-    'In Alexandria, an all-electric house with a dead heat pump is down to its backup strips, and if they quit the rooms go cold quickly. NOAA normals count about 100 nights a year at or under freezing at the Cincinnati airport. Babies, older relatives and anyone ill feel it first. Most calls get a same-day visit, Saturdays and Sundays too.',
+    'When the heat pump dies in an all-electric Alexandria house, only the backup strips stand between you and a cold house, and they can fail too. The Cincinnati airport sees about 100 nights a year at or below freezing, according to NOAA normals. Babies, older relatives and anyone ill feel it first. Most calls get a same-day visit, weekends included.',
   commonIntro:
     'Most Alexandria heat pump calls come from newer, owner-occupied houses, many of them all-electric. These four come up most:',
   localFaqs: [
@@ -14,7 +14,7 @@ export const alexandria: LocationServiceCopy = {
     },
     {
       q: 'Do I need a permit to replace a heat pump in Alexandria?',
-      a: 'Yes. Kentucky requires a permit to replace a heat pump, and Campbell County Planning, Zoning and Building Inspection is the HVAC office for Alexandria. We take care of the permit as part of a replacement. A repair to your existing heat pump is priced on the visit.',
+      a: 'Yes. Kentucky rules call for a permit whenever a heat pump is swapped out, and for Alexandria addresses the HVAC office is Campbell County Planning, Zoning and Building Inspection. If you replace, we file it for you. Fixing the unit you already own is a separate job, priced at the visit.',
     },
   ],
   overrides: {
@@ -29,11 +29,11 @@ export const alexandria: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'First, look at the thermostat: it should read heat, and if someone left it on cool or off, that explains it. Replace a gray filter. Check both breakers, the one marked for the outdoor unit and the one for the air handler inside. Pull snow, ice and leaves away from the outdoor coil. Frost with a little steam, and a fan that stops for a few minutes, is defrost doing its job. If that sorts it, you don’t need us. Call if the coil stays buried in ice, the emergency heat light won’t go out, or you hear grinding. We diagnose, explain and price it before work.',
+        body: 'Start with quick checks in an Alexandria house. Set the thermostat to heat; cool or off will look like a breakdown. Swap a filter that has gone gray. Two breakers serve this system, one labeled for the outside unit and one for the indoor air handler, so make sure neither has tripped. Knock snow and ice off the outside coil and pull leaves away. During defrost the unit can steam, frost over lightly and stop its fan briefly. If the heat returns, you’re done. We should come out when ice won’t melt off the coil, the emergency heat light stays lit, or the unit grinds.',
       },
       {
         title: 'Repair or Replace Your Alexandria Heat Pump?',
-        body: 'Decide by the heat pump, not the house. A lot of Alexandria houses went up after 2000, and a young heat pump with a bad defrost sensor or contactor is a straightforward repair. A refrigerant leak or a failed compressor on an older unit is when we price replacement next to repair, so you can see both numbers. In an all-electric house, the bill tells the story: a weak heat pump hands the work to the backup strips, and the cost climbs even when the weather is mild. In a gas home, the furnace simply runs longer.',
+        body: 'Base the choice on the equipment. Census figures show 35.1% of Alexandria homes were built in 2000 or later, so many heat pumps here are on their first or second unit. A young system with a worn contactor or defrost sensor gets repaired. An older one with a refrigerant leak or a dead compressor gets a replacement quote laid beside the repair quote. In an all-electric house, watch the bill: once the heat pump weakens, the backup strips carry the load and the cost rises even in mild weeks. In a gas home the furnace just runs longer.',
       },
     ],
     whyTitle: 'Why Alexandria Homeowners Call Us',
@@ -42,15 +42,15 @@ export const alexandria: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Alexandria?',
-        a: 'We diagnose first, because the price follows the fault. Swapping a burned contactor or defrost sensor in an Alexandria heat pump is quick work; tracking down a refrigerant leak takes longer. Either way you see one flat-rate figure and say yes to it before we start, and a weekend visit carries no overtime fee.',
+        a: 'The fault sets the price, so testing comes first. A burned contactor or a bad defrost sensor in an Alexandria heat pump goes quickly; tracing a refrigerant leak takes more time. Whatever it is, you get one flat-rate number to approve before we begin, and there’s no overtime fee for a weekend visit.',
       },
       {
         q: 'Should I repair or replace my Alexandria heat pump?',
-        a: 'Repair a newer unit with one failed part. If the compressor has failed or refrigerant keeps leaking on an older heat pump, get a replacement price next to the repair price. In an all-electric house the backup strips keep you warm meanwhile, though they cost more to run.',
+        a: 'Fix a fairly new unit that lost one part. Ask for a replacement price beside the repair price when the compressor is gone or an older heat pump keeps losing refrigerant. While you weigh it up, the backup strips in an all-electric house will hold the heat, at a higher running cost.',
       },
       {
         q: 'Why does my Alexandria heat pump blow cool air in winter?',
-        a: 'Heat pump air is milder than furnace air and can feel lukewarm against your hand, which is normal. If the air turns cold and the outdoor unit is iced over or stopped, something has failed. Switching the thermostat to emergency heat keeps the house warm until we arrive.',
+        a: 'A heat pump’s air is milder than a furnace’s and can feel only lukewarm on your hand, which is normal. Cold air with the outdoor unit iced over or stopped means a part has failed. Until we get there, switching the thermostat to emergency heat keeps the house warm.',
       },
     ],
   },

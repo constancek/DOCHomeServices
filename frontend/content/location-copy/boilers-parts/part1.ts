@@ -323,17 +323,6 @@ export const part1: Record<string, { intro: string; relevance: string[]; commonI
       { q: 'How often should I check the water level on the steam boiler in my Norwood house?', a: 'Glance at the sight glass regularly through the heating season, since a steam boiler loses some water as it runs. The level should sit around the middle of the glass; if it drops fast or needs frequent refilling, there’s likely a leak in the piping or a vent. In Norwood’s early-1900s homes and two-families, we track those leaks down.' },
     ],
   },
-  'blue-ash': {
-    intro: 'Boilers are uncommon in Blue Ash, where most mid-century and newer homes heat with forced-air furnaces. The boiler repair we do here is mostly on hot water baseboard and radiant floor heat in basement slabs, kitchens and bathrooms, which run cooler water and depend on the right controls.',
-    relevance: [
-      'Blue Ash (ZIP 45242) is a northeast-side city and business hub, with established mid-century neighborhoods alongside newer subdivisions and a large commercial corridor. Most homes here were built with forced-air furnaces and central air, so boilers are less common than in the older city neighborhoods. If your house has floor or ceiling vents, you need a furnace tech, and our HVAC team can help, but a boiler visit will not fix it.',
-      'Boilers do turn up in Blue Ash, mostly in homes with hot water baseboard heat and in some custom or newer builds with radiant floor heat, often in a basement slab, kitchen, or bathroom. Those systems run cooler water than radiators and need the right controls. Some newer homes also use a combi boiler for both heat and hot water. We service all of them, fix leaks, pressure faults, and lockouts, and replace older units with high-efficiency boilers sized to the house.',
-    ],
-    commonIntro: 'In the Blue Ash homes that do heat with a boiler, through baseboard or radiant floors, the problems we see most are:',
-    localFaqs: [
-      { q: 'My Blue Ash home has heated floors. Does that mean I have a boiler?', a: 'If the floors are heated by water tubing, a boiler usually supplies that heat; if they are electric mats, there is no boiler involved. We can tell which you have in one visit.' },
-    ],
-  },
   'montgomery': {
     intro: 'Montgomery boiler repair splits between old and new. In the historic district, 19th-century buildings may still run radiators on a steam or hot water boiler, while custom homes use radiant floors or baseboard on a high-efficiency or combi boiler. Most other houses run furnaces.',
     relevance: [

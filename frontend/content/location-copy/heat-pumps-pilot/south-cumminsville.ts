@@ -33,7 +33,7 @@ export const southCumminsville: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'South Cumminsville homeowners can clear a few causes of a cold house on their own. Make sure the thermostat is set to heat. Change the filter if it has gone gray. Check the two breakers, the outdoor unit’s and the air handler’s; one can trip while the other stays on. Rake leaves and break up snow around the outdoor unit. A cloud of steam, a little frost and the fan resting for minutes mean it is defrosting, which is normal. If heat comes back, you don’t need us. Ice that never melts off, or an auxiliary heat light that stays lit, does need us. We price before working.',
+        body: 'South Cumminsville homeowners can clear a few causes of a cold house on their own. The thermostat needs to be on heat. Swap a gray filter. At the panel, the outside unit and the air handler each have a breaker, and one can be off while the other is fine. Rake leaves and break up snow around the outside cabinet. A cloud of steam, a little frost and the fan resting for minutes are the defrost cycle at work. Warm air back means you can skip the visit. Ice that never melts off, or an auxiliary heat light that stays lit, does need us. We price before working.',
       },
       {
         title: 'Repair or Replace Your South Cumminsville Heat Pump?',
@@ -54,7 +54,7 @@ export const southCumminsville: LocationServiceCopy = {
       },
       {
         q: 'Why does my South Cumminsville heat pump blow cool air?',
-        a: 'Warm but not hot is how a heat pump works, and next to a gas furnace that can feel cool. On the coldest days your furnace should take over. If the air turns cold and the outdoor unit is frozen over or not running, that is a fault we need to look at.',
+        a: 'A heat pump puts out warm air, not hot, and in a South Cumminsville house that also has a gas furnace, the difference stands out. That alone is fine. On the coldest days the furnace should step in. Cold vents with a frozen or stopped outside unit mean a fault for us to find.',
       },
     ],
   },

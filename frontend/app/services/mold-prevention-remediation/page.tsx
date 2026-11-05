@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -102,10 +102,10 @@ export default function MoldPreventionRemediationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Water Damage Restoration"
+      <LocationHero
         title={`Mold Prevention & Remediation in ${site.serviceArea}`}
-        description="Stopping mold before it establishes, and removing it properly — along with the moisture that caused it."
+        image="/services/mold-hero.webp"
+        imageAlt="Close-up of an aged, moss-covered brick wall"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -117,26 +117,26 @@ export default function MoldPreventionRemediationPage() {
 
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/mold-hero.webp)' }}
-            role="img"
-            aria-label="Close-up of an aged, moss-covered brick wall"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Mold Prevention & Remediation Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Mold prevention and remediation across {site.serviceArea} usually starts below grade, in
+            a basement that took on water from a sump pump failure, a sewer backup or a slow leak
+            behind a finished wall. The leak gets repaired first, since growth comes back wherever
+            the water does. After that, the affected material comes out under containment and the
+            space is dried to measured readings. You see the full price before any material is cut
+            out.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Mold Is a Water Problem
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Mold needs moisture, something organic to sit on, and time. Your house supplies two of
             those permanently, which means the only variable you control is the water. Every
             remediation job that fails, fails because someone removed the growth and left the leak.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} works both ends. We repair the plumbing feeding the problem, contain and
-            remove the affected material properly, and dry the space to measured readings so the
-            conditions that grew it are gone. Prevention is the cheaper half of this page — if you
-            call us during a water event rather than months after one, there is often nothing to
-            remediate at all.
           </p>
         </MainWithSidebar>
       </section>
@@ -263,7 +263,7 @@ export default function MoldPreventionRemediationPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

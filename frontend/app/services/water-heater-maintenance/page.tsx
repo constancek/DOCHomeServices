@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -94,10 +94,10 @@ export default function WaterHeaterMaintenancePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Water Heater Maintenance in ${site.serviceArea}`}
-        description="A yearly tune-up keeps your water heater efficient, safe, and lasting longer. We flush the tank, check the anode rod, and inspect every safety part."
+        image="/services/wh-hero.webp"
+        imageAlt="Technician performing a water heater tune-up"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -109,21 +109,22 @@ export default function WaterHeaterMaintenancePage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/wh-hero.webp)' }}
-            role="img"
-            aria-label="Technician performing a water heater tune-up"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
-            Why Water Heater Maintenance Matters
+            Local Water Heater Maintenance Pros Who Know {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Your water heater runs every day, and even when it seems fine, wear is still happening
-            inside the system. As the unit heats water, sediment settles at the bottom of the tank.
-            That buildup traps heat, so the system has to work harder to keep up — leading to higher
-            energy use and faster wear over time.
+            Water heater maintenance across {site.serviceArea} mostly comes down to sediment. Greater
+            Cincinnati Water Works lists hardness at 126 to 140 mg/L, and the minerals in that water
+            settle at the bottom of the tank, where they trap heat and make the burner or elements work
+            harder. A yearly visit flushes that out, checks the anode rod, and tests the temperature and
+            pressure relief valve. Anything that needs fixing gets a price first, and nothing is
+            replaced unless you say so.
           </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Why Water Heater Maintenance Matters
+          </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">Routine maintenance helps:</p>
           <ul className="mt-3 grid gap-2 sm:grid-cols-2">
             {helps.map((h) => (
@@ -263,7 +264,7 @@ export default function WaterHeaterMaintenancePage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -104,10 +104,10 @@ export default function MiniSplitInstallationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Air Conditioning · Mini-Splits"
+      <LocationHero
         title={`Ductless Mini-Split Installation in ${site.serviceArea}`}
-        description="Flexible, efficient cooling and heating without ductwork — properly sized, cleanly installed, and tested, with financing and estimates."
+        image="/services/minisplit-install-hero.webp"
+        imageAlt="Technician installing a ductless mini-split"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -120,24 +120,27 @@ export default function MiniSplitInstallationPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/minisplit-install-hero.webp)' }}
-            role="img"
-            aria-label="Technician installing a ductless mini-split"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Mini-Split Installation Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Mini-split installation across {site.serviceArea} usually goes into a space central
+            air never reached well, such as a remodeled room, a converted garage or a house with
+            no ductwork. The work is lighter than most people expect: a hole roughly three
+            inches wide carries the line set between the indoor and outdoor units. What changes
+            the job is the number of indoor heads, single-zone or multi-zone design, and the
+            electrical feed. We settle sizing and placement with you and give the price before
+            we drill anything.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Ductless Mini-Split Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Ductless mini-split systems give homeowners flexible cooling and heating without ductwork.
             {' '}{site.name} provides professional ductless mini-split installation for homes across{' '}
             {site.serviceArea}.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Mini-splits work well in spaces where traditional systems fall short — older homes,
-            additions, garages, and finished basements. With proper installation, a ductless system
-            delivers quiet operation, steady comfort, and strong energy efficiency.
           </p>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Homeowners choose mini-splits for better control and reliable performance. Each system
@@ -339,7 +342,7 @@ export default function MiniSplitInstallationPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

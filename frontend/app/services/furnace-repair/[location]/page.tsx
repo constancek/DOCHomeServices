@@ -70,6 +70,14 @@ const config: ServiceLocationConfig = {
     { q: 'How often should you schedule maintenance?', a: 'Once a year, ideally in the fall before heating season. Regular maintenance is the best way to prevent the breakdowns that lead to repairs.' },
     { q: 'How often does a furnace filter need to be changed?', a: 'Every 1–3 months for a standard 1-inch filter — more often with pets or heavy use. A clean filter protects airflow and efficiency.' },
   ],
+  steps: {
+    heading: 'What to Expect From Furnace Repair in {neighborhood}',
+    items: [
+      { icon: 'shield', title: 'Safety Check First', text: 'Burners, igniter, flame sensor and venting.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A flat rate, before any work starts.' },
+      { icon: 'flame', title: 'Heat Back, Tested', text: 'A full heating cycle checked before we leave.' },
+    ],
+  },
   related: [
     { label: 'Furnace Repair (overview)', href: '/services/furnace-repair' },
     { label: 'Furnace Installation & Replacement', href: '/services/furnace-installation-replacement' },

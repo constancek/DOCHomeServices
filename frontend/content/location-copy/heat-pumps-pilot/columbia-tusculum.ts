@@ -4,7 +4,7 @@ export const columbiaTusculum: LocationServiceCopy = {
   localParagraph:
     'Columbia-Tusculum is mostly gas-heated, so a heat pump here is usually paired with a gas furnace, though about a third of homes rely on electricity. Census figures put electric heat at 36.8% of homes. Close to 40% of houses date from before 1940, with newer homes built in around them, so we find heat pumps fitted to old frames next to systems that went in with the house. Every repair is diagnosed and priced before we begin.',
   emergencyParagraph:
-    'On about 100 nights a year, CVG drops to freezing or lower, per NOAA normals. A cold house in Columbia-Tusculum is a danger to newborns, older residents and anyone already sick. We repair heat pumps, dual fuel setups and electric air handlers, generally the same day, Saturday and Sunday included.',
+    'CVG sees freezing or colder on about 100 nights a year, going by NOAA normals. A Columbia-Tusculum house with a dead condenser and no furnace backup chills fast, and a newborn, a grandparent or a sick person feels that before anyone. Dual fuel setups, all-electric systems, air handlers: we fix them the same day on most calls, Saturdays included.',
   commonIntro:
     'Columbia-Tusculum heat pump calls come from historic houses and newer homes alike. These are the regulars:',
   localFaqs: [
@@ -29,7 +29,7 @@ export const columbiaTusculum: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Try the simple fixes first. Make sure the thermostat is set to heat. Replace a dusty filter. Flip a tripped heat pump breaker back on once; there is one outside and one indoors. Keep snow off the outdoor unit. Steam rising off the coil and light frost signal a defrost cycle, not a breakdown. If that brings the heat back, you don’t need us. If the ice never melts, the auxiliary heat stays on, the system is stuck in one mode, or the outdoor fan grinds, call. We inspect, explain the fault and quote it, and nothing gets repaired without your yes.',
+        body: 'Plenty of no-heat calls in Columbia-Tusculum end with a switch. A wall control still on cool from August is a common slip. Slide out the return filter and hold it to a window. At the panel, the condenser and the air handler sit on separate circuits; flip a tripped one back once. Clear snow off the condenser. Steam, a frosty coil and a silent fan for a few minutes are defrost, and pass. Ring us if ice stays caked on, the aux light burns all day, the house cools when it should warm, or the fan blade scrapes. You get a diagnosis, a quote to approve, and a test run.',
       },
       {
         title: 'Repair or Replace Your Columbia-Tusculum Heat Pump?',

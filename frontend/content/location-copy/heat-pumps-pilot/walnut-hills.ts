@@ -33,7 +33,7 @@ export const walnutHills: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Make sure the thermostat is on heat; cool and off won’t do anything for you in winter. A filter caked with dust chokes airflow, so change it. Look for two breakers, outdoor unit and air handler, and confirm both are on. Clear snow away from the outdoor unit if you can reach it. Light frost, steam and a fan that rests briefly are the unit defrosting, which is normal. If heat returns, you don’t need us; renters should still mention it to the landlord. Call, or report it, when ice stays on the coil or the auxiliary heat light won’t go out. We price before we repair.',
+        body: 'First, set the thermostat to heat; cool or off does nothing. Dust caked on the filter starves the system of air, so put in a new one. Your panel should show a breaker for the outside unit and one for the air handler, both switched on. If the outside unit is reachable, shovel the snow off it. A defrosting unit gives off steam, wears light frost and stops its fan for a short spell. Warm air back means no visit, though renters should still tell the landlord. Coil ice that lingers, or an auxiliary heat light stuck on, means call or report it. We price before we repair.',
       },
       {
         title: 'Repair or Replace Your Walnut Hills Heat Pump?',

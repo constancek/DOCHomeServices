@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -71,10 +71,10 @@ export default function FurnaceRepairPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Heating"
+      <LocationHero
         title={`Furnace Repair in ${site.serviceArea}`}
-        description="No heat, weak airflow or strange noises? Our licensed technicians find the cause and get gas and electric furnaces heating again, with the price approved before work starts."
+        image="/services/furnace-repair-hero.webp"
+        imageAlt="Technician repairing a furnace"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -86,12 +86,6 @@ export default function FurnaceRepairPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/furnace-repair-hero.webp)' }}
-            role="img"
-            aria-label="Technician repairing a furnace"
-          />
           {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
             Local Furnace Repair Pros Who Know {site.serviceArea}
@@ -255,7 +249,7 @@ export default function FurnaceRepairPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

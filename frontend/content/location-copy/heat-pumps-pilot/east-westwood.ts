@@ -4,7 +4,7 @@ export const eastWestwood: LocationServiceCopy = {
   localParagraph:
     'In East Westwood, a heat pump is often the only heat a home has. Census figures put electric heat at 61.9% of homes, which also counts electric furnaces and baseboard, and about three in four homes are rented, many in buildings of five or more units. Most of the housing was built before 1980. So the caller is often a tenant, and the equipment belongs to the owner. We trace the fault, then quote the repair before anyone picks up a tool.',
   emergencyParagraph:
-    'January nights at the Cincinnati airport normally bottom out around 23F, according to NOAA. An East Westwood apartment on electric heat has no gas furnace to fall back on, so a failed heat pump turns serious fast for babies, older relatives and anyone ill. We fix heat pumps and their electric backup, most often the same day, weekends too.',
+    'NOAA’s normals show Cincinnati airport January lows near 23F. With no gas furnace behind it, an East Westwood apartment on electric heat gets cold quickly once the heat pump stops, and babies, older relatives and anyone ill feel that first. We repair heat pumps and their electric backup, most often on the day you call, weekends too.',
   commonIntro:
     'Most East Westwood heat pump calls come from rented units, from tenants and the owners who manage them. These four show up most:',
   localFaqs: [
@@ -33,7 +33,7 @@ export const eastWestwood: LocationServiceCopy = {
       },
       {
         title: 'Repair or Replace Your East Westwood Heat Pump?',
-        body: 'Look at the heat pump’s label, not the building’s age. A rental from the 1950s may have a unit put in a few years ago, and a worn contactor or a bad defrost board on that is a straightforward repair. A refrigerant leak or a dead compressor on an older unit is the point where an owner should compare a repair price against a replacement. We price both. In an all-electric apartment, a Duke Energy bill that climbs in an ordinary month often means the backup strips are carrying the heat. Tenants should tell the owner, since it usually comes before the heat fails outright.',
+        body: 'Read the date on the heat pump, because the building’s age tells you little. Plenty of 1950s rentals here have a unit installed only a few years back, and when its contactor wears out or its defrost board fails, we simply fix it. Once an older unit is leaking refrigerant or the compressor has quit, the owner should weigh a repair quote against a replacement quote, and we supply both. In an all-electric apartment, a Duke Energy bill that jumps in a normal month usually means backup strips are carrying the load. Tenants should flag that to the owner, since it tends to come before a full breakdown.',
       },
     ],
     whyTitle: 'Why East Westwood Landlords and Tenants Call Us',
@@ -50,7 +50,7 @@ export const eastWestwood: LocationServiceCopy = {
       },
       {
         q: 'Why does my East Westwood heat pump blow cool air in winter?',
-        a: 'Heat pump air comes out warm rather than hot, so next to a gas furnace it feels cool, and that is normal. If the air is truly cold and the outdoor unit is iced solid or not running, something has failed. Check the thermostat mode, then call.',
+        a: 'Heat pump warmth is mild, and in an East Westwood apartment heated only by electricity that mild air is what a working system delivers. Air that is plainly cold, with the outdoor unit frozen solid or silent, means a part has failed. Confirm the thermostat says heat, then call or tell your landlord.',
       },
     ],
   },

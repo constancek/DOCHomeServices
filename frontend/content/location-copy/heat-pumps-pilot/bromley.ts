@@ -10,7 +10,7 @@ export const bromley: LocationServiceCopy = {
   localFaqs: [
     {
       q: 'Do I need a permit to replace a heat pump in Bromley?',
-      a: 'Yes. Kentucky requires a permit to replace a heat pump, and Planning and Development Services of Kenton County handles permits for Bromley. We file it when we install a replacement. Fixing your current unit, such as a fan motor or a control board, is priced and done on the visit.',
+      a: 'Yes. State rules in Kentucky call for a permit whenever a heat pump is replaced, and for Bromley that comes from Planning and Development Services of Kenton County. We take care of the filing on any replacement. A repair to your existing unit, a fan motor or control board say, is priced and done on the visit.',
     },
     {
       q: 'My basement flooded in Bromley. Can I turn the heat pump back on?',
@@ -29,11 +29,11 @@ export const bromley: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Some fixes are on your side. Set the thermostat to heat; cool or off won’t warm a Bromley house. Swap a clogged filter. In the panel, the outdoor unit and the basement furnace or air handler each have a breaker. Clear snow or leaves from around the outdoor unit. Light frost, a cloud of steam and the fan stopping for a few minutes are normal parts of defrost. If the heat comes back after that, you don’t need us. Call if ice keeps building on the coil, the auxiliary heat light won’t go off, or the outdoor fan won’t turn. Don’t switch on equipment that sat in flood water.',
+        body: 'Try the Bromley homeowner checks first. A thermostat on cool or off gives no heat, so put it on heat. Pull a dirty filter and fit a new one. Look in the panel for two breakers, one for the outdoor unit and one for the furnace or air handler downstairs, and reset either if tripped. Get snow or leaves off the unit in the yard. Frost, a puff of steam and a fan that halts briefly come with defrost. Warm again? No visit needed. Phone when the coil keeps icing, the auxiliary light never clears, or the fan blade won’t move. Leave flooded equipment switched off.',
       },
       {
         title: 'Repair or Replace Your Bromley Heat Pump?',
-        body: 'Base the call on the heat pump, not on the house. A Bromley home from the 1920s can still have a recent unit, and a failed fan motor or defrost control on it is a sensible repair. A refrigerant leak or a dead compressor on an older heat pump is where we price both options. Equipment that has been under flood water is a separate question; we test it before giving you either price. A higher Duke Energy Kentucky bill in a normal month can point to backup heat doing the work. We pull the permit on replacements.',
+        body: 'A Bromley house from the 1920s can easily carry a heat pump only a few years old, so read the unit’s label, not the deed. On a younger unit, a burned-out fan motor or a defrost control that quit is worth fixing. An older heat pump that has lost its refrigerant or its compressor gets two prices from us, repair and replacement. River water changes the question entirely: equipment that sat in it gets tested before we quote anything. If the Duke Energy Kentucky bill rises in a month with ordinary weather, the backup heat may be carrying the house. We pull the permit on replacements.',
       },
     ],
     whyTitle: 'Why Bromley Homeowners Call Us',
@@ -50,7 +50,7 @@ export const bromley: LocationServiceCopy = {
       },
       {
         q: 'Why does my Bromley heat pump blow cool air?',
-        a: 'Heat pump air is warm, not hot, so if you grew up with a gas furnace it can feel cool at the vent. That is normal. Cold air with the outdoor unit iced up or not running points to a fault, and so does a backup furnace that never starts.',
+        a: 'Partly normal. A heat pump delivers air around body temperature or a bit above, which feels cool to anyone used to gas furnace heat. Air that’s plainly cold is different: look outside, and if the unit is iced up or silent, or the backup furnace never kicks on, something has failed.',
       },
     ],
   },

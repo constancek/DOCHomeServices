@@ -36,7 +36,7 @@ export default function Accordion({
             </button>
             {/* Always in the HTML so search engines read every answer; closed
                 answers are hidden, not left out. */}
-            <div hidden={!isOpen} className="space-y-3 bg-white px-6 py-5 text-[15px] leading-relaxed text-ink/75">
+            <div hidden={!isOpen} className="space-y-3 bg-white px-6 py-5 text-[17px] leading-relaxed text-ink/75">
               {item.body}
             </div>
           </div>

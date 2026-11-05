@@ -29,7 +29,7 @@ export const hebron: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Start with the simple checks. Set the thermostat to heat, not cool or off. Swap a dirty filter. Look at the panel for two breakers, one for the outdoor unit and one for the air handler or furnace. Brush snow and leaves away from the outdoor coil. A cloud of steam, a thin frost layer and a fan that stops for a few minutes all belong to defrost. If heat returns, you’re done and don’t need us. Call us for a coil locked in ice, a reversing valve stuck on cooling, or grinding from the outdoor unit. We look first, explain the problem and get your approval on the price.',
+        body: 'In a Hebron house, start with the thermostat: it should read heat. Replace a gray filter. Your panel has a breaker for the outside unit and another for the air handler or furnace; both should be on. Keep the condenser free of snow and leaves. A cloud of steam, a thin frost layer and a fan that stops for a few minutes all belong to defrost. Heat back on means you can skip the service call. Call us for a coil locked in ice, a reversing valve stuck on cooling, or grinding from the outdoor unit.',
       },
       {
         title: 'Repair or Replace Your Hebron Heat Pump?',

@@ -29,7 +29,7 @@ export const roselawn: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Furnace Needs Repair, and When It Doesn’t',
-        body: 'A few checks can save you a visit. Set the thermostat to heat and replace weak batteries. Find the furnace switch and the breaker and make sure both are on. Pull the filter; if it’s gray and matted, change it. Make sure the furnace door is seated, because many furnaces sense a loose door and refuse to run. Heat back on means no visit needed. A gas smell is different: touch no switches, go outside and call the gas company. If the carbon monoxide alarm goes off, clear everyone out first. Tenants in larger buildings report to management, and owners call us to inspect, explain, price and retest.',
+        body: 'Try the quick fixes before calling. The thermostat should say heat, and weak batteries should come out. The furnace has its own on-off switch nearby and a breaker in the panel; both need to be on. A gray, matted filter gets swapped for a new one. Many furnaces read a loose front panel as open and won’t run, so press it home. If the heat kicks back in, no visit needed. With a gas smell, flip nothing, step outside and call the gas company. A carbon monoxide alarm means everyone out first. Tenants in bigger buildings report to management; owners call us to inspect, explain, price and retest.',
       },
       {
         title: 'Repair or Replace Your Roselawn Furnace?',

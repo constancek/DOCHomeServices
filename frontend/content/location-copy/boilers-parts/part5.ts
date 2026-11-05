@@ -35,17 +35,6 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
       { q: 'The Ohio is rising. What should I do about the boiler in my Bromley basement?', a: 'If water may reach it and the basement is still dry, switch the boiler off at its service switch and turn off the boiler’s gas valve before the water arrives. Never go near it once there’s standing water. Afterward, a flooded boiler in Bromley must be inspected by a technician before it is restarted, even if it looks fine. Call (513) 586-5107.' },
     ],
   },
-  'fort-wright': {
-    intro: 'Most Fort Wright homes run furnaces, so boiler repair here is for the exceptions. Some mid-century houses in this hilltop Kenton County city were built with hot water baseboard, and some newer custom builds run radiant floors off a boiler or a combi unit that also makes hot water.',
-    relevance: [
-      'Fort Wright (ZIP 41011) is a hilltop city in Kenton County, Kentucky, above the river, with established neighborhoods of mid-century and newer homes. Most houses built in those decades went up with forced-air furnaces and ductwork, so boilers are less common here than in the older river towns below. If you have floor registers and a furnace in the basement, our furnace team is the right call, not us. We would rather tell you that on the phone than bill you for a wasted trip.',
-      'That said, boilers do turn up in Fort Wright. Some mid-century homes were built with hot water baseboard heat, and some newer custom builds run radiant floor heat off a boiler or a combi unit that also makes hot water. Those systems need the same care as any boiler: steady pressure, a working expansion tank, and a yearly check. A well-maintained boiler lasts 15 to 25 years, and we can tell you where yours sits in that range.',
-    ],
-    commonIntro: 'In the Fort Wright homes that do run baseboard or radiant heat off a boiler, the issues we see most are:',
-    localFaqs: [
-      { q: 'How do I know if my Fort Wright home has a boiler or a furnace?', a: 'Look at how heat reaches the rooms. Floor or wall vents mean a furnace, while baseboard units, radiators, or warm floors with no vents mean a boiler.' },
-    ],
-  },
   'fort-mitchell': {
     intro: 'Age is usually the story with boilers in Fort Mitchell. The historic homes off Dixie Highway may run older cast-iron units well past the 15 to 25 years a boiler lasts, while some mid-century houses have hot water baseboard from the original build. Efficiency drops as they age.',
     relevance: [
@@ -56,72 +45,6 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       { q: 'Should I repair or replace the old boiler in my Fort Mitchell house?', a: 'It depends on age and the repair. An older boiler that needs a major part like a heat exchanger is usually a replacement, while a younger boiler with a failed pump or control is worth fixing.' },
       { q: 'Will a new boiler still vent through the old chimney in my Fort Mitchell house?', a: 'It depends on the boiler. A high-efficiency boiler, around 90% efficient, usually vents out the side wall through plastic pipe and leaves the chimney out of it. If you choose a standard-efficiency boiler for a historic Fort Mitchell home, we check the old masonry chimney first, because many need a liner before they can safely carry the exhaust.' },
-    ],
-  },
-  'villa-hills': {
-    intro: 'Boiler repair in Villa Hills is the exception, since most mid-century and newer homes in this hilltop Kenton County city run furnaces. The boilers we work on here feed radiant floor heat in custom homes, often in a finished basement, a garage or a main-floor addition.',
-    relevance: [
-      'Villa Hills (ZIP 41017) is a hilltop residential city in Kenton County, Kentucky, above the Ohio River, made up largely of mid-century and newer single-family homes. Homes from those decades mostly heat with forced-air furnaces, so a boiler is the exception here. If your heat comes through floor vents, our furnace page is where you want to be. Hot water heat is the exception on these streets, not the rule, and we would rather say so than pretend otherwise. The homes that do have a boiler still need someone who knows them.',
-      'The exceptions are worth mentioning. Some newer and custom homes in Villa Hills run radiant floor heat, often in a finished basement, a garage, or a main-floor addition, fed by a boiler or a combi unit that also supplies hot water. A few mid-century homes still carry original hot water baseboard. Those systems run water around 140°F, depend on a working circulator and expansion tank, and do best with a yearly visit. Annual service takes 60 to 90 minutes.',
-    ],
-    commonIntro: 'In Villa Hills homes with radiant floors, combi boilers, or baseboard heat, the problems we see most are:',
-    localFaqs: [
-      { q: 'Do you service radiant floor heat in Villa Hills?', a: 'Yes. We service the boilers and combi units that feed radiant floors, including circulators, zone valves, and expansion tanks, and we can check a cold zone the same way we check a cold radiator.' },
-    ],
-  },
-  'lakeside-park': {
-    intro: 'Hot water baseboard that will not warm in a Lakeside Park ranch usually needs a fix at the boiler. Most mid-century homes here run furnaces, but those with a gas-fired boiler are often on an original or first replacement, with worn circulators and waterlogged expansion tanks.',
-    relevance: [
-      'Lakeside Park (ZIP 41017) is a small, settled city in Kenton County, Kentucky, made up largely of mid-century single-family homes on quiet streets. Most houses of that era went up with forced-air furnaces, so if you have vents in the floor, you probably don’t need us for heat. A smaller share were built with hot water baseboard heat and a gas-fired boiler, and those are the homes this page is for.',
-      'A mid-century boiler that is still original is well past the 15 to 25 years a well-maintained boiler usually lasts. Many have been swapped once already, and those replacements are now reaching their own age. Common trouble is a worn circulator pump, a waterlogged expansion tank that makes pressure swing, or a relief valve that drips. We fix what is fixable and give you a straight answer when a new high-efficiency boiler makes more sense.',
-    ],
-    commonIntro: 'In the Lakeside Park mid-century homes heated by baseboard and a boiler, the calls we get most are:',
-    localFaqs: [
-      { q: 'Why does the relief valve on my Lakeside Park boiler keep dripping?', a: 'Usually the pressure is running too high, often from a failed expansion tank or a fill valve letting in too much water. We check both, and if the relief valve itself is worn we replace it.' },
-    ],
-  },
-  'crescent-springs': {
-    intro: 'Whether an old boiler in Crescent Springs is worth another winter usually takes one 60 to 90 minute service visit to answer. Most homes in this Kenton County city run furnaces. The boilers we see are hot water baseboard in older houses and radiant floors in newer ones.',
-    relevance: [
-      'Crescent Springs (ZIP 41017) is a suburban city in Kenton County, Kentucky, with established neighborhoods of mid-century and newer homes. Most homes of those eras rely on forced-air furnaces, so boilers are the minority here. If your heat comes through ducts, call about the furnace instead, and we will say so if you call us first. Before we send anyone, we ask how the heat reaches your rooms: vents, baseboard, radiators, or warm floors. That one question saves most people a wasted visit.',
-      'The homes that do have a boiler tend to fall into two groups: older houses with hot water baseboard from the original build, and newer homes where an owner chose radiant floor heat or a combi boiler that handles both heat and hot water. Both need an annual check of the burner, pressure, expansion tank, and circulator. A high-efficiency boiler runs around 90% efficient, which is worth weighing if yours is old and your gas bills keep climbing.',
-    ],
-    commonIntro: 'For the Crescent Springs homes that run baseboard, radiant, or combi boiler heat, the problems we see most are:',
-    localFaqs: [
-      { q: 'Is a combi boiler a good fit for a Crescent Springs home?', a: 'It can be, if you already heat with hot water and want one appliance for heat and domestic hot water. For a house on forced air, a combi boiler is a bigger conversion, and a furnace usually makes more sense.' },
-    ],
-  },
-  'crestview-hills': {
-    intro: 'A boiler lockout in Crestview Hills means the boiler shut itself down for a reason, and resetting it repeatedly hides the cause. Most homes near Thomas More University run furnaces, so our boiler work here is mostly commercial buildings and some custom homes with radiant floors.',
-    relevance: [
-      'Crestview Hills (ZIP 41017) is a city in Kenton County, Kentucky, home to Thomas More University and the Crestview Hills mall, with residential neighborhoods alongside a commercial corridor. The mid-century and newer homes here mostly run forced-air furnaces, so boilers are not the norm on residential streets. Homeowners with ducted heat should call about the furnace, not the boiler. The mall and the offices along the corridor are a different story, and so are a handful of custom homes.',
-      'Boilers show up more on the commercial side and in some custom homes with radiant floor heat. A commercial building on a central boiler has more people depending on it, and a no-heat call there affects every space it serves, which is why we handle those 7 days a week. For homes, a combi or radiant system needs the same yearly care as any boiler. A well-maintained boiler lasts 15 to 25 years, and regular service is most of what gets it there.',
-    ],
-    commonIntro: 'Across Crestview Hills homes with radiant heat and commercial buildings on central boilers, the problems we see most are:',
-    localFaqs: [
-      { q: 'Do you service boilers in commercial buildings in Crestview Hills?', a: 'Yes. We repair and maintain boilers for commercial buildings along the Crestview Hills corridor and answer no-heat calls any day of the week, since one central boiler failure can leave a whole building cold.' },
-    ],
-  },
-  'edgewood': {
-    intro: 'A kettle-like rumble from an Edgewood boiler usually means scale or sediment on the heat exchanger. Most homes in this Kenton County city run furnaces, but hot water baseboard in mid-century houses and radiant floors in newer ones run water around 140°F through a closed loop that needs steady pressure.',
-    relevance: [
-      'Edgewood (ZIP 41017) is a residential city in Kenton County, Kentucky, home to St. Elizabeth Healthcare, with established neighborhoods of mid-century and newer homes. Most houses built in those years heat with forced-air furnaces, so boilers are the exception rather than the rule here. If yours is a furnace, our furnace team can help, and we will point you there. A quick way to tell: boilers heat through baseboard, radiators, or warm floors, never through vents.',
-      'For the Edgewood homes that do run a boiler, whether hot water baseboard in a mid-century house or radiant floor heat in a newer one, the basics are the same. The water runs around 140°F through a closed loop, and the system needs steady pressure, a working expansion tank, and air-free piping. Rumbling or kettling is often the first sign of trouble. A flush and an annual service, which takes 60 to 90 minutes, fix a lot of it before it becomes a no-heat call.',
-    ],
-    commonIntro: 'In Edgewood’s mid-century and newer homes that heat with a boiler, the problems we see most are:',
-    localFaqs: [
-      { q: 'What causes the rumbling sound from my Edgewood boiler?', a: 'Usually scale or sediment on the heat exchanger that makes water boil in spots, called kettling. A flush and a check of flow and pressure often fix it, but on an old boiler it can also be a sign the heat exchanger is near the end.' },
-    ],
-  },
-  'taylor-mill': {
-    intro: 'Radiant floors gone cold are a typical boiler repair in Taylor Mill. Most homes on this hilltop south of Covington run furnaces, but finished basements and custom builds often have radiant heat or a combi boiler for heat and hot water. A single cold zone usually points to one part.',
-    relevance: [
-      'Taylor Mill (ZIP 41015) is a hilltop residential city in Kenton County, Kentucky, south of Covington, made up largely of mid-century and newer single-family homes. Houses from those decades mostly heat with forced-air furnaces, so boilers are less common here, and if your house has ducts you likely need a furnace tech rather than us. We ask how your heat reaches the rooms before we book a visit, so nobody pays for a trip they did not need.',
-      'Where boilers do show up in Taylor Mill, it is often radiant floor heat in a finished basement or a newer custom build, or a combi boiler handling both the heat and the hot water. Some older homes still have hot water baseboard. A single cold zone usually traces to a stuck zone valve, a failed circulator, or air in that loop, not the boiler itself. A well-maintained boiler lasts 15 to 25 years, and a yearly check keeps those zones balanced.',
-    ],
-    commonIntro: 'In Taylor Mill homes with radiant floors, combi boilers, or baseboard heat, the problems we see most are:',
-    localFaqs: [
-      { q: 'Why is only one zone of my radiant heat cold in Taylor Mill?', a: 'A single cold zone usually means a stuck zone valve, a failed circulator for that loop, or air trapped in the tubing. We test each part and fix the one that failed, which is often cheaper than it sounds.' },
     ],
   },
   'elsmere': {
@@ -160,50 +83,6 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
       { q: 'Will a new boiler fit in the tight basement of my old Dayton house?', a: 'Usually, yes. When a Dayton rowhouse has tight stairs or a cramped basement, we can break an old cast-iron boiler into sections to get it out. A wall-hung high-efficiency boiler takes a fraction of the floor space, and it can often go where the old unit sat without moving the radiator piping.' },
     ],
   },
-  'southgate': {
-    intro: 'Southgate homes with hot water baseboard are often on their second or third boiler by now. Most mid-century houses between Newport and Fort Thomas run furnaces, but the ones that heat with water rely on a gas-fired boiler whose circulator pump, expansion tank and relief valve wear out after decades.',
-    relevance: [
-      'Southgate (ZIP 41071) is a small city in Campbell County, Kentucky, between Newport and Fort Thomas, with established neighborhoods of mid-century homes. Houses of that era mostly went up with forced-air furnaces and ductwork, so boilers are less common here. If your home has vents rather than baseboard or radiators, you want a furnace tech, and we will tell you that up front. A quick look at how the rooms are heated settles it in a minute.',
-      'The Southgate homes that do heat with water usually have hot water baseboard running off a gas-fired boiler in the basement. Those systems are simple and quiet when they work, but after decades of use the circulator pump, expansion tank, and relief valve wear out. A well-maintained boiler lasts 15 to 25 years. If yours is past that and needs a major part, a new high-efficiency unit, running around 90% efficient, is usually the better spend.',
-    ],
-    commonIntro: 'In the Southgate mid-century homes heated with baseboard and a boiler, the problems we see most are:',
-    localFaqs: [
-      { q: 'How long should the boiler in my Southgate home last?', a: 'A well-maintained boiler lasts 15 to 25 years. If yours is past that range, it is worth planning a replacement before it fails in January.' },
-    ],
-  },
-  'wilder': {
-    intro: 'Wilder boiler repair is mostly commercial and multi-unit work along the Licking River corridor. When a central boiler locks out, every space on that loop loses heat at once, so regular service matters. Most homes here heat with furnaces, and we handle the occasional residential boiler too.',
-    relevance: [
-      'Wilder (ZIP 41076) is a city in Campbell County, Kentucky, along the Licking River corridor, with a commercial and industrial base alongside residential neighborhoods. Most homes here heat with forced-air furnaces, so residential boilers are not common. If your house has ducts, a boiler tech is not the call. Most of the residential neighborhoods here went up with ductwork and a furnace, and that is who you should call when the heat stops. We would rather say that plainly than book a visit that goes nowhere.',
-      'Boilers matter more on the commercial side. Some commercial and multi-unit buildings run on a central boiler, and when it locks out, every space on that loop loses heat at once. Regular service is how you avoid that: a check of the burner, safety controls, pressure, and circulators each year. Annual service on a residential boiler takes 60 to 90 minutes, and larger commercial units take longer. We also handle the occasional home boiler or radiant floor system in Wilder.',
-    ],
-    commonIntro: 'Across Wilder’s commercial buildings on central boilers and the homes that heat with hot water, the calls we get most are:',
-    localFaqs: [
-      { q: 'Can you do scheduled boiler maintenance for my Wilder business?', a: 'Yes. We set up yearly service before the heating season and handle no-heat calls every day, Saturdays and Sundays included, which keeps a central boiler from surprising your tenants or staff.' },
-    ],
-  },
-  'highland-heights': {
-    intro: 'Rentals near NKU account for most of our boiler work in Highland Heights. Some rentals and multi-unit buildings run a shared or central boiler, which wears harder, and tenants rarely report a slow leak or lukewarm radiator early. A yearly service before the fall semester catches most of it.',
-    relevance: [
-      'Highland Heights (ZIP 41076) is a city in Campbell County, Kentucky, home to Northern Kentucky University, with a mix of residential neighborhoods and student housing. Most of the single-family homes here run forced-air furnaces, so a boiler is not the default. Some rentals and multi-unit buildings do heat with a shared or central boiler, and that is where we get called most. Those are the buildings where one failure turns into several phone calls.',
-      'A shared boiler serving several units puts more wear on the system and more pressure on the landlord when it fails. Tenants may not report a slow leak or a lukewarm radiator until it becomes a no-heat call. A yearly service before the fall semester, which takes 60 to 90 minutes on a typical residential boiler, catches most of that. When a boiler is past its useful life, we size the replacement to the building so every unit heats evenly.',
-    ],
-    commonIntro: 'In Highland Heights rentals and multi-unit buildings on a shared boiler, the problems we see most are:',
-    localFaqs: [
-      { q: 'I rent out a house near NKU with a boiler. How often should it be serviced?', a: 'Once a year, before the heating season starts. A rental boiler often runs harder with more people in the house, and a fall check catches problems before tenants are without heat.' },
-    ],
-  },
-  'cold-spring': {
-    intro: 'Combi boilers only make sense in Cold Spring homes that already heat with hot water. Most houses along US-27 run furnaces, but older homes with hot water baseboard and newer ones with radiant floors have boilers, and owners replacing an old boiler and water heater together sometimes choose a combi.',
-    relevance: [
-      'Cold Spring (ZIP 41076) is a growing city in Campbell County, Kentucky, along the US-27 corridor, with a mix of established neighborhoods and newer subdivisions. Most homes in both groups heat with forced-air furnaces, so boilers are the minority here. If your heat comes through vents, we will point you to our furnace team rather than sell you on a boiler. Tell us how your heat reaches the rooms and we can usually sort it out in one phone call.',
-      'The Cold Spring homes that do have boilers are usually older houses in the established neighborhoods with hot water baseboard, or newer homes with radiant floor heat. Some owners replacing an old boiler and an old water heater at the same time go with a combi unit that does both. A high-efficiency boiler runs around 90% efficient. We size it to the house, not to the old unit, since older boilers were often oversized.',
-    ],
-    commonIntro: 'For the Cold Spring homes on baseboard, radiant, or combi boiler heat, the problems we see most are:',
-    localFaqs: [
-      { q: 'Should I replace my Cold Spring boiler with the same size unit?', a: 'Not necessarily. Older boilers were often oversized, so we size the new one to the house and its heat loss, which usually means a smaller, more efficient boiler.' },
-    ],
-  },
   'alexandria': {
     intro: 'Alexandria boiler work happens mostly away from the subdivisions. Older houses in the historic core may still run radiators off a hot water or steam boiler, and semi-rural homes around the Campbell County seat run gas or oil-fired units. The newer subdivisions heat with furnaces and central air.',
     relevance: [
@@ -228,17 +107,6 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
       { q: 'What do I do if I smell gas near the boiler in my Melbourne basement?', a: 'Leave the house right away and don’t flip switches or light anything on the way out. Once you’re outside, call 911 or the gas utility. After they clear the house, call us at (513) 586-5107 and we’ll find the leak at the boiler’s gas line or valve in your Melbourne home and fix it before it runs again.' },
     ],
   },
-  'hebron': {
-    intro: 'Hebron boilers mostly turn up on semi-rural properties near CVG and in some custom builds with radiant floors. Rural homes may run gas or oil-fired boilers depending on what fuel reaches the property. The newer subdivisions are furnace homes with central air on the same ductwork.',
-    relevance: [
-      'Hebron (ZIP 41048) is a community in Boone County, Kentucky, near the Cincinnati/Northern Kentucky airport (CVG), with a mix of newer subdivisions and established semi-rural homes. The newer subdivisions are mostly forced-air furnace homes, so boilers are uncommon there. If you have vents in the floor, we are probably not your call for heat. Those homes pair the furnace with central air on the same ductwork, and we would rather say so than book a visit for the wrong equipment.',
-      'Boilers are more likely on the established semi-rural properties and in some newer custom builds with radiant floor heat. Rural homes may run gas-fired or oil-fired boilers depending on what fuel reaches the property. Radiant systems run cooler water than radiators but depend just as much on steady pressure and working circulators. Annual service takes 60 to 90 minutes and covers the burner, controls, pressure, and expansion tank. A rural boiler that fails in January means a long, cold wait, so a fall check is worth the time.',
-    ],
-    commonIntro: 'In Hebron’s semi-rural homes and newer builds with radiant heat, the boiler problems we see most are:',
-    localFaqs: [
-      { q: 'Is radiant floor heat worth it in a new Hebron home?', a: 'It is comfortable and quiet, but it costs more to install than forced air and does not handle cooling, so you still need a separate AC. It makes most sense in basements, additions, or when you plan it from the start.' },
-    ],
-  },
   'burlington': {
     intro: 'Older homes near the Burlington courthouse are where boiler repair still applies. Houses in the historic core of the Boone County seat often heat with radiators on a hot water or steam boiler, sometimes a long-serving cast-iron unit. The fast-growing subdivisions around it run furnaces and central air.',
     relevance: [
@@ -251,17 +119,6 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
       { q: 'How do I tell if my older Burlington house has steam or hot water heat?', a: 'Look at the boiler. A steam boiler has a small glass sight tube showing the water level, and its radiators often have one pipe and a small air vent that hisses. A hot water boiler has a pressure and temperature gauge and an expansion tank. In Burlington’s historic core we see both, so a photo when you call helps.' },
     ],
   },
-  'union': {
-    intro: 'Boilers are rare in Union, where most homes built from the 1990s on run furnaces with central air. The boiler service we do in this Boone County city is on radiant floor heat in finished basements and custom builds, and on combi boilers that handle both heat and hot water.',
-    relevance: [
-      'Union (ZIP 41091) is one of the fastest-growing cities in Boone County, Kentucky, made up largely of newer subdivisions built from the 1990s onward. Homes from those decades overwhelmingly went up with forced-air furnaces and central air, so boilers are rare here. If your heat comes through vents, our furnace team is the right call. Builders in that period mostly put in ducts because the same ducts carry central air in summer. We will say so on the phone.',
-      'The exceptions are homes with radiant floor heat, often in a finished basement or a custom build, and homes where the owner chose a combi boiler for heat and hot water. Those systems are newer, but they still need care. A combi unit that heats both the house and the tap water works hard year-round, and a radiant loop depends on steady pressure and a working circulator. A well-maintained boiler lasts 15 to 25 years.',
-    ],
-    commonIntro: 'In the Union homes with radiant floors or combi boilers, the problems we see most are:',
-    localFaqs: [
-      { q: 'My Union home has a combi boiler. Does it need yearly service?', a: 'Yes. A combi boiler handles both heat and hot water, so it runs year-round, and an annual check of the burner, heat exchanger, and pressure keeps it from failing on you.' },
-    ],
-  },
   'walton': {
     intro: 'Walton boiler repair is mostly for older homes in the historic core and rural properties outside town. Those run radiators on hot water or steam systems, or baseboard off gas or oil-fired boilers, and we service older and newer units alike. The newer subdivisions run furnaces.',
     relevance: [
@@ -272,39 +129,6 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       { q: 'Do you come out to rural properties around Walton for boiler repair?', a: 'Yes. We cover Walton and the surrounding rural homes, and we work on gas-fired and oil-fired boilers, including older cast-iron units.' },
       { q: 'Does the boiler on my rural Walton property need service every year if it runs fine?', a: 'Yes. Out on rural Walton properties, an oil-fired boiler builds soot that cuts efficiency, and a gas boiler’s burner and safety controls drift over a season. Annual service takes 60 to 90 minutes, and it’s the best way to get the 15 to 25 years a well-maintained boiler lasts. Schedule it in early fall, before the first cold night.' },
-    ],
-  },
-  'mount-carmel': {
-    intro: 'Hot water heat is uncommon in Mount Carmel, so boiler repair here covers a few groups: mid-century homes built with hot water baseboard and newer homes with radiant floors or a combi boiler. Most homes near I-275 run furnaces. These systems last decades if pressure stays steady.',
-    relevance: [
-      'Mount Carmel (ZIP 45244) is a Union Township community in Clermont County, Ohio, on the east side near the I-275 corridor, with established neighborhoods of mid-century and newer homes. Houses of those decades mostly heat with forced-air furnaces, so boilers are less common here, and a home with floor vents needs a furnace tech rather than us. A quick way to check: baseboard, radiators, or warm floors with no vents mean a boiler, and vents mean a furnace.',
-      'A few Mount Carmel homes do heat with water: mid-century houses built with hot water baseboard, and some newer ones with radiant floor heat or a combi boiler. Those systems work well for decades if the pressure stays steady and the expansion tank, circulator, and relief valve are in good shape. Annual service takes 60 to 90 minutes and checks all of that, plus the burner and flue. If the boiler is getting old, we will tell you where it sits in the 15 to 25 years a well-maintained unit lasts.',
-    ],
-    commonIntro: 'In the Mount Carmel homes heated by baseboard, radiant floors, or a combi boiler, the problems we see most are:',
-    localFaqs: [
-      { q: 'What does an annual boiler service include for my Mount Carmel home?', a: 'We check the burner, flue, pressure, expansion tank, circulator, relief valve, and safety controls. It takes 60 to 90 minutes on a typical residential boiler.' },
-    ],
-  },
-  'summerside': {
-    intro: 'A dripping relief valve is a common boiler complaint in Summerside. Pressure that keeps climbing usually means a failed expansion tank or fill valve. Most homes in this Union Township community run furnaces, but those with hot water baseboard or radiant floors run boilers that develop this fault.',
-    relevance: [
-      'Summerside (ZIP 45245) is a Union Township community in western Clermont County, Ohio, with suburban neighborhoods of mid-century and newer homes. Most of those homes heat with forced-air furnaces, so boilers are the exception. If your heat comes through ducts, call about the furnace instead. Those homes were built around ducts that also carry central air, which is why hot water heat is rare on these streets. We would rather tell you that up front than send someone out to look at the wrong system.',
-      'The Summerside homes with boilers usually have hot water baseboard from the original build or radiant floor heat added later. High pressure is a common complaint on older systems: when the expansion tank fails, water has nowhere to go as it heats, and the relief valve starts to drip. Low pressure has the opposite effect and leaves rooms cold. We test both, replace what failed, and let you know if the boiler itself is near the end of its 15 to 25 years.',
-    ],
-    commonIntro: 'In Summerside homes that heat with a boiler and baseboard or radiant floors, the calls we get most are:',
-    localFaqs: [
-      { q: 'Why does the pressure on my Summerside boiler climb when it heats up?', a: 'Some rise is normal, but a big jump usually means the expansion tank has failed and the water has nowhere to go. If the gauge nears the relief valve rating or the valve starts dripping, call us.' },
-    ],
-  },
-  'withamsville': {
-    intro: 'Commercial buildings along Ohio Pike are where most of our boiler work in Withamsville happens. A central boiler failure leaves the whole building cold, so yearly service to prevent a lockout on a cold morning matters. Most homes here run furnaces, though some have baseboard or radiant floors.',
-    relevance: [
-      'Withamsville (ZIP 45245) is a Union Township community in western Clermont County, Ohio, along the Ohio Pike corridor, with a mix of suburban homes and commercial strips. The mid-century and newer homes here mostly heat with forced-air furnaces, so residential boilers are uncommon, and a homeowner with vents should call about the furnace. The commercial strips are a different mix, and boilers are more likely there. A quick call usually tells us which system you have.',
-      'Commercial buildings are more likely to run on a boiler, and some homes still have hot water baseboard or radiant floors. For a business, the priority is keeping the boiler from locking out on a cold morning, which is what yearly service is for: burner, flue, safety controls, pressure, and circulators all get checked. For homes, the same checks apply at a smaller scale. A high-efficiency boiler runs around 90% efficient when replacement comes up.',
-    ],
-    commonIntro: 'Across Withamsville’s commercial buildings and the homes that heat with a boiler, the problems we see most are:',
-    localFaqs: [
-      { q: 'Why does the boiler at my Withamsville business keep locking out?', a: 'A lockout means a safety control shut the boiler down, often from a flame sensor, ignition, venting, or low water problem. Resetting it repeatedly hides the cause, so we find and fix the fault instead.' },
     ],
   },
   'milford': {

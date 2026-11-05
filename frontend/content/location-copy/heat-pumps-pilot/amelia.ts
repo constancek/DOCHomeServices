@@ -10,11 +10,11 @@ export const amelia: LocationServiceCopy = {
   localFaqs: [
     {
       q: 'Amelia isn’t a village anymore. Who issues heat pump permits now?',
-      a: 'Clermont County Building Inspection. Since the village dissolved, Amelia addresses are unincorporated, split between Pierce and Batavia townships, and the county handles HVAC replacement permits in both. We pull the permit when we replace a heat pump. A repair on your current unit is quoted and done on the visit.',
+      a: 'Clermont County Building Inspection. The village dissolved, so Amelia addresses are now unincorporated land in Pierce or Batavia Township, and the county issues HVAC replacement permits in both. When we replace a heat pump, we pull that permit. Fixing the unit you have now is quoted and handled on the visit.',
     },
     {
       q: 'I rent in Amelia and the heat pump quit. Should I call you?',
-      a: 'Call your landlord first. Ohio’s ORC 5321.04 requires landlords to keep the heating equipment they supply in good working order. Check the thermostat setting and the breakers, then report it in writing. We fix heat pumps, not leases, and we’re glad to come out when the owner sends us.',
+      a: 'Your landlord, in writing, after a quick look at the thermostat and both breakers. Under Ohio’s ORC 5321.04, landlords must keep the heating equipment they provide in good working order. We fix heat pumps, not leases, and we’re happy to come out once the owner books us.',
     },
   ],
   overrides: {
@@ -29,11 +29,11 @@ export const amelia: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'A few checks can save you a call. Switch the thermostat to heat, since cool and off won’t warm the house, and replace a dirty filter. Flip on both breakers, outdoor unit and indoor air handler. Brush snow or leaves off the outdoor unit. Steam drifting from it, with the fan paused for a few minutes, means defrost, not failure. If the heat comes back, you don’t need us, though renters should still tell the landlord. Call when the emergency heat light won’t switch off or the unit is stuck on cool. We diagnose, then you approve the price.',
+        body: 'Before you book anything in Amelia, run through this. The thermostat belongs on heat; on cool or off it will never warm the rooms. A grimy filter gets replaced. The system has a breaker for the outside unit and another for the air handler indoors, and both need to be on. Sweep snow or leaves away from the outside cabinet. Steam rising off it while the fan sits idle for a few minutes is the defrost cycle at work. If heat comes back, skip the call, though renters should still tell the landlord. Phone us when the emergency heat light stays lit or the system won’t leave cooling mode.',
       },
       {
         title: 'Repair or Replace Your Amelia Heat Pump?',
-        body: 'Go by the heat pump, not the year the house went up. Plenty of Amelia equipment was installed after 2000, and on a unit that young a failed capacitor or fan motor is a repair. A leaking refrigerant line or a dead compressor on an older heat pump is when we put a replacement price beside the repair price. If the Duke Energy bill spikes during an ordinary month, backup heat strips are probably running in place of the heat pump. In a mobile home, we also check the ducts under the floor, since torn ducts can look like a failing heat pump.',
+        body: 'Judge the equipment, not the age of the house. Much of the equipment in Amelia went in after 2000, and a burned contactor or worn fan motor on a unit that young is a fix. An older unit with a leaking line or a compressor that has quit gets a replacement price written next to the repair price. A Duke Energy bill that jumps in a mild month usually means the backup strips are doing the heating. In a mobile home we also look at the ducts under the floor, since a torn duct can pass for a weak heat pump.',
       },
     ],
     whyTitle: 'Why Amelia Residents Call Us',
@@ -50,7 +50,7 @@ export const amelia: LocationServiceCopy = {
       },
       {
         q: 'Why does my Amelia heat pump blow cool air?',
-        a: 'Heat pump air is gentler than a gas furnace’s, so lukewarm air from the vents is normal in winter. If the air is cold and the outdoor unit is iced over or not running, or the system seems stuck on cooling, it needs a repair.',
+        a: 'A heat pump delivers softer heat than a gas furnace, so vents that feel only lukewarm in winter are doing their job. Cold air, an outdoor unit caked in ice or sitting still, or a system that seems locked in cooling mode is a different matter and needs a repair.',
       },
     ],
   },

@@ -2,15 +2,15 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const cuf: LocationServiceCopy = {
   localParagraph:
-    'CUF heats with a mix of gas and electricity, and most of its homes are rentals. Census figures put electric heat at 42.6% of homes and renters at 84.5% of households, so many of our heat pump calls here come from landlords with all-electric apartments. In Fairview and western Clifton Heights, most houses predate 1940, while the larger buildings lean toward the 1970s. We find the fault and quote it to the owner before work begins.',
+    'CUF heats with a mix of gas and electricity, and most of its homes are rentals. Census figures put electric heat at 42.6% of homes and renters at 84.5% of households, so many of our heat pump calls here come from landlords with all-electric apartments. In Fairview and western Clifton Heights, most houses predate 1940, while the larger buildings lean toward the 1970s. The owner gets the diagnosis and a price before any work begins.',
   emergencyParagraph:
-    'On about 100 nights a year the temperature at CVG falls to freezing or below, according to NOAA normals. A CUF apartment without heat on one of those nights is hard on a baby, an older tenant or anyone sick. We repair heat pumps and electric air handlers for owners and managers, most the same day, weekends too.',
+    'NOAA normals for CVG count roughly 100 nights a year at freezing or colder. In a CUF apartment, a dead heat pump on a night like that falls hardest on infants, elderly tenants and people who are ill. Owners and managers can book us for heat pumps and electric air handlers, often the same day, Saturdays and Sundays included.',
   commonIntro:
     'CUF heat pump calls come from old houses with two to four units and from 1970s apartment buildings. These come up most often:',
   localFaqs: [
     {
       q: 'My CUF apartment heat pump stopped working. What can I do?',
-      a: 'Check that the thermostat is on heat and your breaker hasn’t tripped, then report it to the landlord in writing. CUF is in Cincinnati, where a landlord who controls the heat must keep it at 70F or above once it’s been under 60F outside for 24 hours. We fix heat pumps, not leases.',
+      a: 'Look at the thermostat first: it should say heat. Then see whether a breaker flipped. If neither fixes it, put the problem in writing to your landlord. CUF is part of Cincinnati, and city rules say a landlord supplying heat keeps it at 70F or more after 24 hours below 60F outdoors. We fix heat pumps, not leases.',
     },
     {
       q: 'Our CUF building has an old heat pump for each unit. Should we replace them all at once?',
@@ -29,11 +29,11 @@ export const cuf: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Tenants and owners can rule out a few things first. Make sure the thermostat reads heat. Replace a filter that’s gone grey. Check the panel, since a heat pump uses one breaker outside and another for the indoor unit, and reset a tripped one once. Clear leaves away from the outdoor unit. Steam and light frost during defrost are normal. If heat returns, no visit is needed, though tenants should still tell the landlord. Owners should call when ice stays packed on the coil, the auxiliary heat light keeps glowing, the system sticks in one mode, or the outdoor fan scrapes. We diagnose, explain and price it before we repair.',
+        body: 'Rule these out first. The thermostat needs to say heat. A grey filter should come out. At the panel, the outdoor unit and the indoor air handler each have a breaker; flip a tripped one back once. Rake leaves off the outdoor unit. Steam or thin frost during defrost is part of normal running. Heat back on means no visit, though a tenant should still let the landlord know. Owners should book us when the coil stays caked in ice, the aux heat light won’t go dark, the system is stuck in one mode, or the outdoor fan scrapes. You see the price before repairs.',
       },
       {
         title: 'Repair or Replace Your CUF Heat Pump?',
-        body: 'Decide by the heat pump, not the building’s age. A Fairview house from before 1940 may have a fairly new heat pump, and a failed capacitor or fan motor on it is a repair. On an older unit in a 1970s building, a failed compressor or a coil that keeps leaking refrigerant is the point where we price replacement and repair side by side. A replacement needs a city mechanical permit, and we take care of it. In all-electric apartments, backup strips covering for a weak heat pump drive up the Duke Energy Ohio bill, which can arrive as a tenant complaint.',
+        body: 'Base it on the equipment, not the year on the house. Plenty of Fairview homes built before 1940 now have a fairly new heat pump, and when a capacitor or fan motor quits on one of those, we fix it. In a 1970s building with aging units, a dead compressor or a coil that won’t hold refrigerant is when we write up a repair price and a replacement price together. Replacing means a city mechanical permit, which we pull. Watch the Duke Energy Ohio bill in all-electric apartments too: backup strips covering for a weak heat pump push it up, and the first sign is often a tenant complaint.',
       },
     ],
     whyTitle: 'Why CUF Landlords and Property Managers Call Us',
@@ -42,7 +42,7 @@ export const cuf: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost for a CUF rental?',
-        a: 'The price follows the fault and the access. A contactor in a ground-level outdoor unit is a quick job, while a leak in a line set running up the side of an old house takes longer. Owners get a flat-rate quote after diagnosis and approve it before any work.',
+        a: 'It depends on what failed and how hard it is to reach. Swapping a contactor in an outdoor unit at ground level goes fast; chasing a leak in a line set that climbs the outside of an old house takes longer. After diagnosis the owner gets a flat-rate quote to approve before we start.',
       },
       {
         q: 'Should I repair or replace the heat pump in a CUF rental?',
@@ -50,7 +50,7 @@ export const cuf: LocationServiceCopy = {
       },
       {
         q: 'Why is the heat pump in my CUF apartment blowing cool air?',
-        a: 'Heat pump air comes out warm, not hot, so it can feel cool if you’re used to a furnace. That alone is normal. If the air is cold and the outdoor unit is frozen over or not running, it needs a repair. Tell your landlord, who can call us.',
+        a: 'Air from a heat pump is warm rather than hot, so after years with a gas furnace it can feel cool. On its own that’s fine. Cold air with the outdoor unit frozen over or sitting still means a repair is due. Let your landlord know; they can call us.',
       },
     ],
   },

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -93,10 +93,10 @@ export default function SewerPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Sewer Line Repair & Replacement in ${site.serviceArea}`}
-        description="Backups, root intrusion, or a collapsed line? We diagnose with a camera and fix it — including trenchless replacement that keeps your yard intact."
+        image="/services/sewer-hero.webp"
+        imageAlt="Sewer line repair work"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -108,13 +108,30 @@ export default function SewerPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/sewer-hero.webp)' }}
-            role="img"
-            aria-label="Sewer line repair work"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Sewer Repair Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Sewer repair across {site.serviceArea} usually comes down to an older lateral line that has
+            cracked, sagged or filled with roots between the house and the street. Clay and cast iron
+            pipe wear out with age, and a sunken belly keeps catching waste no matter how often it is
+            snaked. Inside the City of Cincinnati, plumbing permits go through the Department of
+            Buildings & Inspections. We run a camera down the line first, so you see the damage and the
+            price before anyone digs.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Sewer Repair in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            A broken sewer line turns into raw sewage on the basement floor, and that puts small
+            children and anyone with a weak immune system at risk first. Inside the City of Cincinnati,
+            the Metropolitan Sewer District asks for a sewer backup to be reported within 48 hours. We
+            handle most sewer calls the same day, weekends included.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Sewer Line Repair & Replacement
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -123,12 +140,6 @@ export default function SewerPage() {
             collapses. {site.name} provides expert sewer line repair and replacement across{' '}
             {site.serviceArea}, helping homeowners replace aging or damaged pipe with minimal
             disruption to their property.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Our approach prioritizes speed and precision. We assess the condition of your current
-            system, recommend the best solution, and use advanced methods like trenchless replacement
-            to limit the impact on your yard. Replacing a failing line now can save you from bigger,
-            costlier problems later.
           </p>
         </MainWithSidebar>
       </section>
@@ -326,7 +337,7 @@ export default function SewerPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

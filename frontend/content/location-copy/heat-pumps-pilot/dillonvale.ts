@@ -29,7 +29,7 @@ export const dillonvale: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Some fixes are yours. Set the thermostat to heat; cool or off will look like a breakdown. Fit a fresh filter. Find the breaker for the outdoor unit and the one for the indoor equipment and reset whichever tripped. Clear away snow or leaves crowding the outdoor unit. A defrost cycle can send up steam, leave a thin frost and stop the fan for a few minutes, and none of that is a fault. If that solves it, you don’t need us. Call when the coil is iced over for hours, the fan won’t spin or the unit grinds. We inspect, explain, price first and test.',
+        body: 'Look at the thermostat mode first; cool or off makes a working system seem dead. Replace a clogged filter. Check two breakers, outdoor unit and indoor air handler; reset either one if it flipped. Shovel snow and rake leaves back from the condenser. Puffs of steam, a light frosting and a fan that rests a few minutes come from defrost, which is normal. If heat is back after that, skip the call. If ice sits on the coil for hours, the fan stays still or you hear grinding, we will find it, quote it and test the fix.',
       },
       {
         title: 'Repair or Replace Your Dillonvale Heat Pump?',
@@ -50,7 +50,7 @@ export const dillonvale: LocationServiceCopy = {
       },
       {
         q: 'Why does my Dillonvale heat pump blow cool air in winter?',
-        a: 'Compared with the gas furnace, heat pump air feels mild, and that is normal. Cold air with the outdoor unit iced up or not running is a fault. If the heat pump keeps going in hard cold and never brings on the furnace, the dual fuel controls need a look.',
+        a: 'Next to a gas furnace, a heat pump puts out milder air, and that by itself is no fault. Air that runs truly cold while the condenser outside is frozen solid or sitting idle is. In a Dillonvale dual fuel house, a heat pump that grinds on in hard cold without calling the furnace means the controls need checking.',
       },
     ],
   },

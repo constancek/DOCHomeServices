@@ -29,11 +29,11 @@ export const bridgetown: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'A few checks can save you a call. Set the thermostat to heat, since cool or off will keep it idle. Change the filter if it’s gray. Find the two breakers, the outdoor unit’s and the furnace’s, and switch either back on if it has tripped. Brush snow and leaves off the outdoor unit. In cold, damp weather it will steam and frost lightly, and the fan can stop for a few minutes during defrost, which is normal. If the heat comes back, you don’t need us. Call when the coil stays packed with ice or the furnace can’t take over.',
+        body: 'Plenty of Bridgetown calls are solved at the thermostat: if it says cool or off, the heat pump just sits there, so move it to heat. A gray filter gets replaced. Your panel has a breaker for the furnace and one for the unit in the yard; flip back whichever tripped. Sweep snow and leaves off that outdoor unit. On raw, wet days it gives off steam, grows a little frost and rests its fan a few minutes while it defrosts. None of that is a fault. Warm air returning means you can skip us. Phone when ice stays packed in the coil or the furnace won’t step in.',
       },
       {
         title: 'Repair or Replace Your Bridgetown Heat Pump?',
-        body: 'Go by the heat pump’s condition, not the year the house went up. Many Bridgetown heat pumps were added to 1950s houses long after they were built, so the unit can be young even when the house isn’t. A blown fan motor or a bad defrost board on a younger unit is usually a fair repair. A refrigerant leak or a compressor failure on an older one is when we lay out both prices. Because the furnace backs it up, a failing heat pump often shows up first as a bigger gas bill. We handle any replacement permit.',
+        body: 'The year the house went up matters less than the year the heat pump did. A lot of 1950s Bridgetown houses got theirs decades later, so a fairly young unit often sits beside an old house. When that younger unit throws a fan motor or a defrost board, fixing it is money well spent. When an aging one has leaked out its refrigerant or the compressor has quit, you get a repair price and a replacement price together. With the furnace behind it, a struggling heat pump tends to show up on the gas bill before you feel it. We handle any replacement permit.',
       },
     ],
     whyTitle: 'Why Bridgetown Homeowners Call Us',
@@ -42,11 +42,11 @@ export const bridgetown: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Bridgetown?',
-        a: 'Once we know the fault, you get a flat-rate price to approve before any work. A stuck reversing valve or a refrigerant leak sits at the higher end; a failed contactor or a loose wire is simpler. Weekend calls don’t carry overtime fees, and financing is there for bigger jobs.',
+        a: 'The number comes after the diagnosis, and it’s one flat rate you approve first. A loose wire or a failed contactor is the cheap end; a reversing valve stuck in place or a refrigerant leak is the costly end. No overtime on weekend calls, and financing covers larger jobs.',
       },
       {
         q: 'Should I repair or replace my Bridgetown heat pump?',
-        a: 'If the heat pump is fairly new and one part has failed, repair it. If it’s older and the compressor is gone or the refrigerant keeps leaking, we price a replacement beside the repair and leave the choice to you.',
+        a: 'Look at the install date on the outdoor unit. Recent, with a single failed part? Fix it. Older, with a dead compressor or refrigerant that keeps disappearing? We write up replacement next to the repair, and you pick.',
       },
       {
         q: 'Why does my Bridgetown heat pump feel cool in winter?',

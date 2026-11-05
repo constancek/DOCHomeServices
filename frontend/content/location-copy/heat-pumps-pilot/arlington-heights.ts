@@ -4,13 +4,13 @@ export const arlingtonHeights: LocationServiceCopy = {
   localParagraph:
     'Arlington Heights is a small village of old houses, most built before 1940, and slightly more than half of them are rented. Census figures show 35.7% of homes heat with electricity and most of the rest with gas. In a house that old, a heat pump arrived decades after it was built, usually feeding ducts first installed for a furnace, and the upper rooms are often where it falls short. We find the fault, explain it to the owner or tenant, and agree the price before any work.',
   emergencyParagraph:
-    'On a typical January night the low at the Cincinnati airport is about 23F, by NOAA normals. A heat pump failure in an Arlington Heights house or apartment is most urgent with a baby, an older relative or someone ill inside. We repair heat pumps and their backup heat, and we reach most calls the same day, weekends included.',
+    'A January night at the Cincinnati airport drops to about 23F, going by NOAA normals. Lose the heat pump in an Arlington Heights home then and the rooms chill within hours, which hits babies, older relatives and sick family members hardest. Our technicians repair heat pumps and their electric backup heat, usually arriving the same day, Saturdays and Sundays included.',
   commonIntro:
     'Arlington Heights heat pump calls come from pre-war houses, rented flats and a few mobile homes. These four come up most:',
   localFaqs: [
     {
       q: 'I rent in Arlington Heights. Is my landlord responsible for a broken heat pump?',
-      a: 'In Ohio, ORC 5321.04 requires a landlord to keep supplied heating equipment in good and safe working order and to provide reasonable heat. Put your request in writing. Your landlord can book us for the repair, but we fix heat pumps, not leases.',
+      a: 'Yes. Ohio’s ORC 5321.04 makes the landlord answerable for heating equipment they supplied: it has to be kept in good and safe working order, with reasonable heat. Send your request in writing, and the owner can bring us in from there. We fix heat pumps, not leases.',
     },
     {
       q: 'Can a heat pump keep a pre-1940 Arlington Heights house warm?',
@@ -29,11 +29,11 @@ export const arlingtonHeights: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Do the quick checks first. Set the thermostat to heat, because cool or off won’t bring warm air. Put in a fresh filter. Find the two breakers, outdoor unit and indoor air handler, and reset a tripped one once. Clear snow and leaves from around the outdoor coil. Frost, a bit of steam and a fan that stops briefly are signs of defrost, which is normal. If the heat comes back, you don’t need us, though renters should still let the landlord know. Call when the coil stays iced, the backup heat light stays lit or the fan has stopped. We find the fault and price it before work.',
+        body: 'Start with what you can see. The thermostat should say heat; on cool or off, it won’t warm anything. Slide in a clean filter. Locate the two breakers, outdoor unit and indoor air handler, and reset a tripped one a single time. Rake snow and leaves back from the outdoor coil. Thin frost, some steam and a short stop of the fan mean it is defrosting. When warm air returns, there’s nothing for us to do, but renters should still mention it to the landlord. Ring us if ice won’t leave the coil, the backup heat light won’t go out, or the outdoor fan sits dead.',
       },
       {
         title: 'Repair or Replace Your Arlington Heights Heat Pump?',
-        body: 'Judge the heat pump on its own age. A house from the 1920s tells you nothing about a heat pump that might be fairly new, and a failed contactor or defrost control on a young unit is a repair. A refrigerant leak or a dead compressor on a tired one is when we price replacing it next to fixing it, and we handle the permit. A struggling heat pump shows on the electric bill when the backup strips do the heating. In a gas house, the furnace runs more and the gas bill rises instead.',
+        body: 'Ignore the house and look at the heat pump. Census figures put 64.7% of Arlington Heights homes before 1940, but the unit outside one of them could be fairly new, and a bad contactor or defrost control on a young unit gets repaired. An older unit with a refrigerant leak or a compressor that has quit gets a replacement price beside the repair price, and we handle the permit if you replace. In an all-electric house, a weak heat pump shows up as a bigger electric bill because the backup strips take over. In a gas house, the furnace works harder and the gas bill climbs.',
       },
     ],
     whyTitle: 'Why Arlington Heights Residents and Landlords Call Us',
@@ -46,11 +46,11 @@ export const arlingtonHeights: LocationServiceCopy = {
       },
       {
         q: 'Repair or replace an Arlington Heights heat pump?',
-        a: 'If the heat pump is younger and one part failed, repair it. A compressor that has quit or refrigerant that keeps leaking on an older unit is the point to compare replacement. Read the label on the outdoor unit for its age, since the house’s age won’t tell you.',
+        a: 'Find the label on the outdoor unit; that date matters, not the house’s. A fairly young heat pump with one bad part is worth fixing. On an older one, a dead compressor or refrigerant that won’t stay in is when we line up a replacement quote against the repair quote.',
       },
       {
         q: 'Why does my Arlington Heights heat pump blow cool air in winter?',
-        a: 'Heat pump air is gentler than furnace air and can feel lukewarm, which is normal. If it blows cold while the outdoor unit is frozen or not running, there is a fault. Renters should report it to the landlord rather than open the equipment.',
+        a: 'Next to a furnace, a heat pump’s air runs mild and can feel barely warm, and that is how it should be. Cold air while the outdoor unit is frozen or idle points to a fault. Renters in Arlington Heights should tell the landlord instead of opening the equipment.',
       },
     ],
   },

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -98,10 +98,10 @@ export default function BasementFloodPlumbingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="After Flood Plumbing"
+      <LocationHero
         title={`Basement Flood Plumbing in ${site.serviceArea}`}
-        description="Finding which failure let the water in, fixing it, and making the next storm a non-event."
+        image="/services/basement-flood-hero.webp"
+        imageAlt="Floodwater rising at the entrance of a building"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -113,26 +113,27 @@ export default function BasementFloodPlumbingPage() {
 
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/basement-flood-hero.webp)' }}
-            role="img"
-            aria-label="Floodwater rising at the entrance of a building"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
-            Water in the Basement
+            Local Basement Flood Plumbing Pros Who Know {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Water on a basement floor looks the same whatever caused it. A split supply line, a dead
-            sump pump, a backed-up main, and groundwater coming through the footer all leave the
-            same puddle — and they need four completely different repairs. The expensive mistake is
-            fixing the wrong one.
+            Basement flood plumbing across {site.serviceArea} starts with working out where the
+            water came in. Many older homes here still drain through cast iron and galvanized pipe,
+            and heavy rain puts pressure on sump pumps, backwater valves and floor drains, worst of
+            all on low ground near the river. A split supply line and a sewer backup look alike on
+            the floor but need very different repairs, so we trace the source first. You’ll know the
+            cost before a pipe is cut.
           </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Basement Flood Plumbing in {site.serviceArea}
+          </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} works the diagnosis first. We trace where the water entered, repair the
-            failure, test the drainage under real flow, and tell you what it would take to keep the
-            next storm outside. If the honest answer is that your problem is drainage rather than
-            plumbing, we will say so rather than sell you a pump.
+            Sewage soaks into whatever it touches, and the longer it sits the more has to come out.
+            If water has reached outlets or the furnace, stay off the wet floor. MSD, the
+            Metropolitan Sewer District, asks for a backup in its area to be reported inside 48
+            hours. Most basement flood calls get a plumber the same day, weekends included.
           </p>
         </MainWithSidebar>
       </section>
@@ -257,7 +258,7 @@ export default function BasementFloodPlumbingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

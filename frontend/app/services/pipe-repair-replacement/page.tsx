@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -66,10 +66,10 @@ export default function PipeRepairReplacementPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Pipe Repair & Replacement in ${site.serviceArea}`}
-        description="Licensed plumbers fix leaks, clear damaged drain lines, and replace failing pipes — including trenchless options that protect your property."
+        image="/services/pipe-hero.webp"
+        imageAlt="Plumber repairing a pipe"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -80,22 +80,36 @@ export default function PipeRepairReplacementPage() {
 
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/pipe-hero.webp)' }} role="img" aria-label="Plumber repairing a pipe" />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Pipe Repair Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Pipe repair across {site.serviceArea} usually depends on what the house was built
+            with. Homes in Over-the-Rhine and Mount Auburn still carry 19th-century cast-iron
+            drains and galvanized risers, and many 1920s to 1950s houses have galvanized supply
+            pipe narrowing with corrosion. Clay and cast-iron sewer laterals crack or fill with
+            roots. Drain buildup can often be cleared, not replaced. A camera shows whether a
+            section can be patched or the line has to go, and you see the price before we dig or
+            cut.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Pipe Repair in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            A split supply pipe pours water into walls and floors until the main is shut off,
+            and the mold that follows is hardest on anyone with asthma. NOAA normals put the
+            January low in Cincinnati at about 23°F, cold enough to freeze pipe in a crawl
+            space. We reach most burst pipes the same day, weekends included.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Pipe Repair & Replacement
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             A small leak rarely stays small. Damaged pipes waste water, harm your home, and only get more
             expensive the longer they wait.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} provides pipe repair and replacement across {site.serviceArea}. Our licensed
-            plumbers handle everything from emergency leaks to full-scale replacements, using camera
-            inspection and advanced leak detection to find the real problem.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Whether a section can be repaired or the line needs replacing, we recommend the most
-            cost-effective fix and complete it with minimal disruption.
           </p>
         </MainWithSidebar>
       </section>
@@ -212,7 +226,7 @@ export default function PipeRepairReplacementPage() {
         <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Pipe Repair & Replacement FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">

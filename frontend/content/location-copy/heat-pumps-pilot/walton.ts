@@ -33,7 +33,7 @@ export const walton: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Try the simple fixes before calling. Set the thermostat to heat, since a heat pump in cool or off mode won’t warm anything. Swap out a dusty filter. Check the breaker for the outdoor unit and the one for the indoor air handler; both have to be on. Kick snow and leaves away from the outdoor unit. Steam, a light frost and a quiet fan for a few minutes are just the defrost cycle. Once the house warms up, you don’t need a technician. Call when the ice won’t clear, the outdoor fan stays still or you hear grinding. We explain what failed and price it before work.',
+        body: 'Plenty of Walton no-heat calls turn out to be simple. A thermostat left on cool or off warms nothing, so put it on heat. A dusty filter goes in the trash. The outside unit and the indoor air handler each sit on their own breaker, and neither can be tripped. Brush snow and leaves off the outside cabinet. Defrost brings steam, a dusting of frost and a fan that goes quiet for a short while. If the rooms warm back up, a technician isn’t needed. Ice that hangs on, a motionless outdoor fan or grinding means call. We explain what failed and price it before work.',
       },
       {
         title: 'Repair or Replace Your Walton Heat Pump?',

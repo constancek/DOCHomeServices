@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -85,10 +85,10 @@ export default function PatioLightingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Lighting"
+      <LocationHero
         title={`Patio Lighting Installation in ${site.serviceArea}`}
-        description="Custom, outdoor-rated patio and deck lighting installed by licensed electricians — improving visibility, comfort, and atmosphere for your outdoor space after dark."
+        image="/services/patio-hero.webp"
+        imageAlt="Patio with string lights in the evening"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -102,13 +102,20 @@ export default function PatioLightingPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/patio-hero.webp)' }}
-            role="img"
-            aria-label="Patio with string lights in the evening"
-          />
+          {/* One-format top section: local pros, one paragraph */}
           <h2 className="section-title text-brand-700">
+            Local Patio Lighting Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Patio lighting across {site.serviceArea} usually starts with whether there is an outdoor
+            receptacle near the seating area. If there is, plug-in string lights on its GFCI are
+            something you can hang yourself. If there isn’t, or you want fixtures switched from
+            inside, we run a new circuit, which can mean lifting a little sod or getting into a
+            soffit. Fixtures under a solid roof need a damp-location rating. Anything in the rain
+            needs wet-location. You hear what the circuit costs before any sod comes up.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Patio Lighting Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -267,7 +274,7 @@ export default function PatioLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

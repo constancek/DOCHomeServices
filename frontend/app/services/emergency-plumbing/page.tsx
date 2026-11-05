@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
 import { emergencyPlumbingCopy } from '@/content/location-copy/emergency-plumbing';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Link from 'next/link';
@@ -84,10 +84,10 @@ export default function EmergencyPlumbingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Emergency Plumbing in ${site.serviceArea}, Open Every Day`}
-        description="Burst pipe? No water? Sewer backup? Our licensed plumbers are on call 7 days a week and reach most homes the same day."
+        image="/services/emergency-hero.webp"
+        imageAlt="Licensed plumber responding to a plumbing emergency"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -99,22 +99,32 @@ export default function EmergencyPlumbingPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/emergency-hero.webp)' }}
-            role="img"
-            aria-label="Licensed plumber responding to a plumbing emergency"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
-            Plumbing Emergencies We Can Fix Fast
+            Local Emergency Plumbing Pros Who Know {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            When a plumbing emergency strikes, every minute counts — and problems rarely happen on a
-            convenient schedule. That is why {site.name} takes emergency calls every day, weekends
-            included, across {site.serviceArea}. From a minor leak to a major water line failure, our licensed
-            plumbers handle each situation with speed and precision. Common emergencies we fix
-            include:
+            Emergency plumbing across {site.serviceArea} usually comes down to water where it
+            should not be: a burst supply line, a water heater leaking from the tank or a sewer
+            backup in the basement. Many homes in Over-the-Rhine and Price Hill still run on
+            original galvanized supply pipe and cast-iron drains, and that old pipe tends to let
+            go with little warning. We shut the water off, trace the failure to the part that
+            caused it and give you a flat-rate price before the repair begins.
           </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Plumber in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Sewage in a basement where children play, or a burst pipe over a finished room,
+            worsens every hour. NOAA normals put Cincinnati at about 100 freezing nights a year,
+            when exposed pipe can split. If you smell gas, leave and call the gas utility or 911
+            from outside first. Most calls get a plumber the same day, weekends included.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Plumbing Emergencies We Can Fix Fast
+          </h2>
           <ul className="mt-4 grid gap-2.5 sm:grid-cols-2">
             {fixFast.map((f) => (
               <li key={f} className="flex items-start gap-2.5 text-base font-semibold text-pink-600">
@@ -123,13 +133,6 @@ export default function EmergencyPlumbingPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            A burst pipe or sewer backup can cause thousands of dollars in damage in just a few
-            hours, so getting help quickly is key to minimizing loss. Even small delays can lead to
-            mounting water damage and mold — our team arrives quickly, assesses the problem, and
-            completes the repair efficiently, protecting your home and delivering long-lasting
-            results.
-          </p>
 
           {/* Related services — image cards */}
           <h2 className="mt-10 section-title text-brand-700">Related Plumbing Services</h2>
@@ -319,7 +322,7 @@ export default function EmergencyPlumbingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

@@ -33,11 +33,11 @@ export const madisonville: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Check the basics before booking. The thermostat needs to be on heat. A clogged filter starves the system of air, so change it. Two breakers matter, the one for the outdoor unit and the one for the indoor air handler; reset either if it has tripped. Brush snow and leaves off the outdoor unit. A short burst of steam and a paused fan come from defrost, which is normal. If the heat recovers, you can skip the visit. Owners should call us for a coil that stays frozen, an auxiliary light that won’t clear, or harsh grinding. We find it, explain it, quote it and test our work.',
+        body: 'Start at the thermostat and make sure it reads heat. Pull the filter; if light barely shows through it, fit a new one. Look in the panel for two breakers, one feeding the outside unit and one the air handler, and switch back any that tripped. Sweep snow and leaves from around the unit outdoors. A puff of vapor with the fan stopped for a few minutes is the defrost routine. Warm air again means no visit needed. Owners, phone us when the coil stays a block of ice, the aux light never clears or something grinds. We diagnose, quote, repair and test.',
       },
       {
         title: 'Repair or Replace Your Madisonville Heat Pump?',
-        body: 'Look at the heat pump, not the building. A 2010s apartment may still have its original outdoor unit in good shape, while a 1920s house on Bramble Avenue may have a heat pump added only a few years ago. A failed contactor or fan motor is a repair. A compressor failure or a leak that keeps returning is the point to compare replacement, and we price both. In an all-electric unit, a Duke Energy Ohio bill that jumps in January usually means the backup strips are carrying the heat. We handle the replacement permit with the city.',
+        body: 'The heat pump’s own age decides it, not the year the walls went up. An apartment from the 2010s may still run its first outdoor unit without trouble, and a 1920s house on Bramble Avenue may have had a heat pump added recently. A burnt contactor or worn fan motor gets fixed. A dead compressor, or refrigerant that leaks out again after a repair, is when we write two quotes side by side. In an all-electric apartment, a January Duke Energy Ohio bill that spikes points to backup strips doing the heating. If you replace, we file the city permit.',
       },
     ],
     whyTitle: 'Why Madisonville Owners and Landlords Call Us',
@@ -46,7 +46,7 @@ export const madisonville: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost in Madisonville?',
-        a: 'It depends on the part and where the equipment sits. A capacitor on a ground-level unit is quick, while a leak in a long refrigerant line in an apartment building takes longer. After diagnosis, you or your property manager get a flat price to approve before any work starts.',
+        a: 'Two things set it: which part failed and how hard the equipment is to get at. A capacitor on a unit at ground level is a fast fix; a leak along a long refrigerant run in an apartment building is slower. You, or your property manager, approve a flat price after diagnosis and before work.',
       },
       {
         q: 'Should I repair or replace a heat pump in Madisonville?',

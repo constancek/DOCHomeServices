@@ -2,7 +2,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const bethel: LocationServiceCopy = {
   localParagraph:
-    'Bethel is about half renters, and many of them live in small apartment buildings, so we hear from landlords here as often as from homeowners. Census figures show 48.9% of homes heat with electricity and 47.5% with gas. That means plenty of all-electric apartments where a heat pump and backup strips carry the whole winter, next to older village houses where a heat pump shares the work with a furnace. We find what failed and quote it before any work starts.',
+    'Bethel is about half renters, and many of them live in small apartment buildings, so we hear from landlords here as often as from homeowners. Census figures show 48.9% of homes heat with electricity and 47.5% with gas. So you get all-electric apartments leaning on a heat pump and its strips from November to March, a few streets from older village houses that pair one with a gas furnace. We track down the failed part and you see the price before we pick up a tool.',
   emergencyParagraph:
     'By NOAA normals, January lows at the Cincinnati airport sit around 23F. A heat pump that quits in a Bethel apartment or house on a night like that puts babies, older relatives and anyone ill at the most risk. We repair heat pumps and the electric backup heat behind them, same day on most calls, weekends included.',
   commonIntro:
@@ -29,11 +29,12 @@ export const bethel: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Some calls aren’t needed. Look at the thermostat mode: it has to say heat. Put in a clean filter. Two breakers serve the system, the outdoor unit’s and the indoor air handler’s; reset a tripped one a single time. Shovel snow and rake leaves back from the outdoor unit. During defrost you may see steam and thin frost, and the fan can go quiet for a few minutes, which is fine. Heat back on? Then you don’t need us, though a tenant should still let the landlord know. We’re needed when ice won’t let go of the coil, the backup heat light stays on, or the fan won’t turn.',
+        body: 'Some calls aren’t needed. A Bethel thermostat set to cool or off won’t heat anything, so switch it to heat. Slide in a clean filter. The system runs on two breakers, one outside for the condensing side and one by the indoor air handler; reset a tripped one once, not twice. Get snow and leaves off the outdoor cabinet. Steam, thin frost and a fan that idles a few minutes are part of defrost. Warm again? Then you’re set, though a tenant should still tell the landlord. Bring us in when the coil stays iced, the backup heat light won’t go off, or the fan sits still.',
+
       },
       {
         title: 'Repair or Replace Your Bethel Heat Pump?',
-        body: 'Read the date on the outdoor unit rather than guessing from the building. Plenty of 1950s Bethel houses and older apartment blocks carry heat pumps put in far more recently, and when one of those loses a contactor or defrost board, fixing it makes sense. Refrigerant gone or a compressor that won’t start on an aging unit changes the sum, so we quote both ways. For a swap, Clermont County Building Inspection handles HVAC replacement permits in the village and we apply. Watch the Duke Energy Ohio bill too: a spike in a mild month means the strips are carrying the heat.',
+        body: 'Read the date on the outdoor unit rather than guessing from the building. Plenty of 1950s Bethel houses and older apartment blocks carry heat pumps put in far more recently, and when one of those loses a contactor or defrost board, fixing it makes sense. Refrigerant gone or a compressor that won’t start on an aging unit changes the sum, so we quote both ways. For a swap, Clermont County Building Inspection handles HVAC replacement permits in the village and we apply. If the Duke Energy Ohio bill jumps when the weather hasn’t turned harsh, the strips are doing the heating.',
       },
     ],
     whyTitle: 'Why Bethel Landlords and Homeowners Call Us',

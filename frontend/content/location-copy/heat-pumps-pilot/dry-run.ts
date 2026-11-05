@@ -29,7 +29,7 @@ export const dryRun: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Some problems are five-minute fixes. Check that the thermostat is set to heat and not cool or off. Replace a dusty filter. Reset the outdoor unit breaker or the indoor breaker if one has tripped. In fall, rake leaves off and away from the outdoor unit; in winter, clear the snow. Rising steam, light frost and a fan that stops for a few minutes are defrost, and they are normal. If heat returns, you don’t need us. Call when the outdoor unit stays caked in ice, the fan won’t turn or it grinds. We inspect, explain the problem, price it for your approval and test.',
+        body: 'First, the thermostat should read heat, not cool or off. A filter gone grey with dust gets swapped. Two breakers feed the system, one for the outdoor unit and one for the air handler inside; flip back any that tripped. Keep fall leaves off the sides of the unit and shovel winter snow back from it. Steam off the coil, a thin coat of frost and the fan going quiet for a few minutes all mean it is defrosting. We are needed when ice stays packed on the unit, the fan sits still or you hear grinding. We quote the fix flat before starting.',
       },
       {
         title: 'Repair or Replace Your Dry Run Heat Pump?',
@@ -50,7 +50,7 @@ export const dryRun: LocationServiceCopy = {
       },
       {
         q: 'Why does my Dry Run heat pump blow cool air in winter?',
-        a: 'A heat pump delivers gentler heat than a gas furnace, so lukewarm air at the register is normal. Truly cold air, with the outdoor unit frozen or not running, is a fault. If the furnace never comes on in hard cold, the dual fuel settings or wiring need a look.',
+        a: 'Heat pump air comes out warm rather than hot, which feels cool next to a gas furnace. That is fine. Air that is actually cold while the outdoor unit sits iced up or silent means a fault. In a Dry Run dual fuel setup, a furnace that never kicks in points to settings or wiring.',
       },
     ],
   },

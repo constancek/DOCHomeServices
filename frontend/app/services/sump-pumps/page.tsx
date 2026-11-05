@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -74,10 +74,10 @@ export default function SumpPumpsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Sump Pumps in ${site.serviceArea}`}
-        description="Installation, repair, and replacement — including battery-backup systems — to keep your basement dry through every storm."
+        image="/services/sump-hero.webp"
+        imageAlt="Sump pump installed in a basement"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -89,13 +89,29 @@ export default function SumpPumpsPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/sump-hero.webp)' }}
-            role="img"
-            aria-label="Sump pump installed in a basement"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Sump Pump Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Sump pump work across {site.serviceArea} usually comes down to a pump near the end of its
+            life or a float switch that sticks. Most pumps last about 7 to 10 years. Other common jobs
+            are a check valve that lets water fall back into the pit, a discharge line that clogs or
+            freezes, and a battery backup for power cuts. We test the pump in the pit and give you the
+            price before any part comes out of the box.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Sump Pump Repair in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            A dead sump pump in heavy rain floods the basement, and the furnace and water heater sit
+            lowest. Water rising through a floor drain instead of the pit may be a sewer backup, which
+            the Metropolitan Sewer District asks City of Cincinnati homes to report within 48 hours.
+            Most pump failures are handled the same day, weekends included.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Sump Pump Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -248,7 +264,7 @@ export default function SumpPumpsPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

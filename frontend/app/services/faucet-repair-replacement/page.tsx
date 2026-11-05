@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -93,10 +93,10 @@ export default function FaucetPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Faucet Repair & Replacement in ${site.serviceArea}`}
-        description="Dripping, low pressure, or ready for an upgrade? Our licensed plumbers repair and replace kitchen and bathroom faucets — fast, clean, and leak-free."
+        image="/services/faucet-hero.webp"
+        imageAlt="Modern kitchen faucet installed by a licensed plumber"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -108,25 +108,17 @@ export default function FaucetPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/faucet-hero.webp)' }}
-            role="img"
-            aria-label="Modern kitchen faucet installed by a licensed plumber"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
-            Faucet Repair & Replacement
+            Local Faucet Repair Pros Who Know {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            A faulty faucet is more than an annoyance — a steady drip wastes water and money, and a
-            slow leak under the sink can quietly damage your cabinets and floor. {site.name} repairs
-            and replaces kitchen and bathroom faucets for homeowners across {site.serviceArea}, and we
-            tell you honestly whether a quick repair will hold or a new fixture is the better value.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            From a worn cartridge to a full fixture upgrade, our licensed plumbers handle it with
-            upfront, flat-rate pricing you approve before we start — and we test every connection and
-            clean up before we leave.
+            Faucet repair across {site.serviceArea} usually comes down to a worn cartridge,
+            washer or O-ring, or mineral buildup on the valve seat. Greater Cincinnati Water
+            Works reports hardness of 126 to 140 mg/L, about 7 to 8 grains per gallon, and that
+            scale collects in aerators. Cleaning the aerator yourself often fixes a weak stream.
+            A new cartridge stops many drips, and a cracked or corroded body is when a new
+            faucet is the better buy. We name the price before the water goes off.
           </p>
 
           {/* Benefits */}
@@ -294,7 +286,7 @@ export default function FaucetPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

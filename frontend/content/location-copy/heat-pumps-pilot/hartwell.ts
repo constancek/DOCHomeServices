@@ -4,7 +4,7 @@ export const hartwell: LocationServiceCopy = {
   localParagraph:
     'Most Hartwell heat pump calls come from renters and the people who own their buildings. Census figures for the area show about two in three homes are rented, with large apartment buildings, two-families and older houses mixed together. Gas heats 60.1% of homes and electricity 31.6%, so apartments often run an electric heat pump while the houses use gas, sometimes with a heat pump added as dual fuel. Duke Energy Ohio supplies both. We find the failed part and price it for the owner before the repair.',
   emergencyParagraph:
-    'NOAA counts about 100 nights a year at or below freezing at CVG. A Hartwell apartment or house that loses heat on one of them is hard on babies, older residents and anyone ill. We repair heat pumps and the air handlers inside each unit, and reach most calls the same day, weekends included.',
+    'At CVG, NOAA records roughly 100 nights a year that drop to freezing or lower. When a Hartwell apartment or house goes without heat on one of those nights, infants, elderly neighbors and sick residents suffer most. We repair heat pumps and the air handlers inside each unit, and reach most calls the same day, weekends included.',
   commonIntro:
     'Hartwell heat pump repairs happen mostly in rental apartments, with some in owner-occupied houses built before 1960. These four come up most:',
   localFaqs: [
@@ -29,7 +29,7 @@ export const hartwell: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Renters can check a few things without opening any panels. Put the thermostat on heat. If you change your own filter, swap a dirty one. Check your apartment’s breaker box for the air handler and outdoor unit circuits. Steam, light frost and the fan stopping briefly mean the unit is defrosting. If heat comes back, you don’t need a repair. If not, tell the landlord. Owners and managers, call us when the outdoor coil stays iced, the emergency heat light is on, or the outside fan won’t spin. We inspect, explain what failed and price it before any work.',
+        body: 'A Hartwell tenant needs no tools here. Set the thermostat to heat. If the filter is yours to change, fit a clean one. In your unit’s breaker box, look for the air handler circuit and the outdoor unit circuit. A puff of steam, some light frost and a fan that goes still for a minute or two are defrost, not damage. Warm air again means nothing’s broken. Still cold? Let the landlord know in writing. Owners and managers, call us when the outdoor coil stays iced, the emergency heat light is on, or the outside fan won’t spin. We inspect, explain what failed and price it before any work.',
       },
       {
         title: 'Repair or Replace Your Hartwell Heat Pump?',
@@ -42,7 +42,7 @@ export const hartwell: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Hartwell?',
-        a: 'It depends on the fault, which we find first. Replacing a capacitor at the outdoor unit is quick. Tracking a refrigerant leak through an apartment building’s line set takes longer. The owner approves a flat-rate price up front, with no overtime fees on weekends.',
+        a: 'We diagnose first, and the fault sets the price. A new capacitor at the outside unit goes in fast. Tracking a refrigerant leak through an apartment building’s line set takes longer. The owner approves a flat-rate price up front, with no overtime fees on weekends.',
       },
       {
         q: 'Is it worth repairing the heat pumps in my Hartwell rental building?',
@@ -50,7 +50,7 @@ export const hartwell: LocationServiceCopy = {
       },
       {
         q: 'Why does the heat pump in my Hartwell apartment blow cool air?',
-        a: 'Heat pump air is lukewarm next to gas heat, so it can feel cool and be working fine. Cold air with the outdoor unit iced over or not running is a fault. Check the thermostat is on heat, then report it to your landlord.',
+        a: 'Next to a gas furnace, a heat pump’s air comes out mild, so a vent can feel cool while the system is healthy. If the air is truly cold and the outside unit is frozen over or standing still, a part has failed. Confirm the thermostat says heat, then tell your landlord.',
       },
     ],
   },

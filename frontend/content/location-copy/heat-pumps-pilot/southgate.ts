@@ -4,7 +4,7 @@ export const southgate: LocationServiceCopy = {
   localParagraph:
     'Electricity heats more Southgate homes than gas does. Census figures show 54.4% heat with electricity, a total that includes heat pumps along with electric furnaces and baseboard, so in many homes the heat pump carries the winter alone. About four in ten homes sit in buildings of five or more units, and most of the rest are detached houses, old and newer. So we work on apartment and condo systems as well as houses. We trace the fault and price it before any work starts.',
   emergencyParagraph:
-    'Southgate sees January lows around 23F, going by NOAA normals for the Cincinnati airport. In an all-electric home, a heat pump failure on a night like that leaves only the backup strips, if they work, and a baby, an older relative or anyone sick is most at risk. We repair heat pumps the same day on most calls, weekends included.',
+    'January nights in Southgate drop to around 23F, per NOAA normals recorded at the Cincinnati airport. With no gas furnace in many homes here, a dead heat pump leaves just the backup strips, and only if they still run. Babies, older relatives and anyone ill feel the cold first. Most calls get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'Southgate calls split between houses and apartment or condo buildings, and most involve a heat pump doing all the heating. These four come up again and again:',
   localFaqs: [
@@ -33,7 +33,7 @@ export const southgate: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Southgate residents can check a few things first. The thermostat should be on heat; emergency heat left on by mistake keeps the heat pump idle and runs up the bill. Change a gray filter. Look for two breakers, one for the outdoor unit and one for the air handler, and reset a tripped one. Clear snow and ice from around the outdoor unit. Light frost, steam and a fan stopped for a few minutes are part of defrost. If heat returns, you don’t need us. Ice that won’t clear or a grinding outdoor unit means call. We quote before work.',
+        body: 'Try a few things in your Southgate home first. Set the thermostat to heat; if someone switched it to emergency heat, the heat pump sits idle while the strips run up the bill. Swap a filter that has gone gray. The outside unit and the indoor air handler each have their own breaker, so flip back whichever tripped. Kick snow or ice away from the outside unit. Steam, a thin coat of frost and a fan that pauses briefly mean it is defrosting. When warm air comes back, save the call. A unit buried in ice that stays put, or grinding outside, needs us, and we price it first.',
       },
       {
         title: 'Repair or Replace Your Southgate Heat Pump?',

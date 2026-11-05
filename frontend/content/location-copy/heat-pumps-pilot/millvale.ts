@@ -4,7 +4,7 @@ export const millvale: LocationServiceCopy = {
   localParagraph:
     'Most homes in Millvale are rented, and Census figures show electricity heats about two in three of them, so a heat pump or electric air handler is often the only heat in the unit. About a third of residents live in Cincinnati Metropolitan Housing Authority townhomes, built in the 1950s and many renovated recently. Those tenants report heat problems to the housing authority, not to us. For private landlords and owners along Beekman Street and Moosewood Avenue, we find the fault and quote it before any work.',
   emergencyParagraph:
-    'Expect about 100 nights a year at or below freezing, from NOAA normals at CVG. A Millvale townhome or apartment that loses heat on one of them is hard on babies, older relatives and anyone who is sick. We repair heat pumps and electric air handlers for owners and landlords, most of them the same day, weekends too.',
+    'The Cincinnati area gets roughly 100 freezing nights each year, going by NOAA normals at CVG. When a Millvale townhome goes cold on a night like that, babies, older relatives and anyone who’s ill feel it first. Owners and landlords can book us for heat pump and electric air handler repairs, usually fixed the same day, Saturdays and Sundays included.',
   commonIntro:
     'Millvale is mostly rented townhomes and small apartment buildings, many all-electric. These four heat pump problems come up most:',
   localFaqs: [
@@ -33,28 +33,28 @@ export const millvale: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Tenants and owners can rule out the easy causes. The thermostat should be on heat, because a switch left on cool or off looks like a breakdown. A filter that’s packed with dust needs replacing. Check for a tripped breaker in the unit’s panel. Snow and ice around the outdoor unit should be cleared by whoever maintains it. Steam, a bit of frost and a fan that stops briefly all come from defrost, and none of it is a fault. If the heat comes back, nobody needs to book a visit. Owners should call for a coil that stays frozen or a backup light that won’t clear.',
+        body: 'Start with what a tenant or owner can check without tools. Set the thermostat to heat; on cool or off, the system sits idle and looks broken. Swap a filter that’s grey and clogged. Look at the panel for a flipped breaker on the outdoor unit or the air handler. Whoever maintains the building should shovel snow and ice off the outdoor unit. During defrost the unit puffs steam, frosts lightly and the fan rests for a few minutes, which is normal. Heat that returns on its own means no visit. Owners should book us when the coil stays a block of ice or the backup light never goes out.',
       },
       {
         title: 'Repair or Replace Your Millvale Heat Pump?',
-        body: 'Decide by the heat pump, not the age of the building. Many Millvale rentals have had their equipment changed since they were built, so read the date on the outdoor unit. A failed contactor or fan motor on a sound system is a routine repair. A compressor that won’t start, or a leak that returns after a recharge, is when we price replacement beside the repair for the owner to compare. In all-electric rentals, high winter bills often mean the backup strips are doing the work. We handle the city permit when a heat pump is replaced.',
+        body: 'Go by the heat pump itself. A 1950s townhome can hold a unit installed a few years ago, so check the date on the outdoor cabinet. When a contactor or fan motor fails on equipment that’s otherwise healthy, we swap the part and you’re done. A dead compressor, or refrigerant that leaks out again after we top it up, changes the math, and we put a replacement quote next to the repair quote so the owner can weigh them. Big winter bills in an all-electric Millvale rental usually point to the backup strips carrying the load. If the unit gets replaced, we pull the permit from the city.',
       },
     ],
     whyTitle: 'Why Millvale Landlords and Owners Call Us',
     whyParagraph:
-      'Most Millvale homes are rented and many run on electric heat, so our calls here come from owners keeping tenants warm. Licensed, drug-tested technicians, a flat price approved first, and no overtime fees.',
+      'Our Millvale calls mostly come from owners of all-electric rentals who need tenants warm again. You get licensed, drug-tested technicians, a flat price you approve before we start, and no overtime fees.',
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost for a Millvale rental?',
-        a: 'It depends on the part that failed. A bad capacitor is a short job, while a refrigerant leak has to be traced before it can be fixed. The owner or landlord gets one flat price after diagnosis and approves it before we start, and weekend calls carry no overtime.',
+        a: 'That comes down to which part quit. Swapping a capacitor takes little time; a refrigerant leak takes longer because we have to find it first. After diagnosis the owner or landlord sees a single flat price and okays it before any work, and a Saturday or Sunday visit costs no more.',
       },
       {
         q: 'Should a Millvale landlord repair or replace an older heat pump?',
-        a: 'Repair it if one part has failed and the compressor still runs well. A failed compressor or a recurring leak is when replacement belongs in the conversation, and we give both prices. Financing is available, which helps when several rentals need work in the same winter.',
+        a: 'If a single part broke and the compressor is healthy, fix it. Once the compressor dies or the leak keeps coming back, we quote replacement alongside the repair so you can compare. Financing is an option, useful for an owner facing several rentals with heat trouble in one winter.',
       },
       {
         q: 'Why does the heat pump in my Millvale home blow cool air?',
-        a: 'Heat pump air comes out warm but mild, so it can feel cool compared with a gas furnace, and that’s normal. Cold air that stays cold usually means the outdoor unit is iced or stopped. Tenants should tell their landlord or the housing authority; owners can book us.',
+        a: 'A heat pump puts out air that’s warm but gentler than a gas furnace’s, so it can feel cool on your hand. That part is normal. Air that’s truly cold points to an outdoor unit that’s frozen over or not running. Tenants should tell their landlord or the housing authority; owners can book us.',
       },
     ],
   },

@@ -4,13 +4,13 @@ export const lincolnHeights: LocationServiceCopy = {
   localParagraph:
     'Nearly half of Lincoln Heights heats with electricity: Census figures show 47.4%, against 52.6% on gas. That makes heat pumps and electric air handlers common in the village, especially in its apartment buildings. Most homes are rented, so most calls come from landlords and property managers, with tenants reporting the problem to them. Much of the housing dates from the 1960s and 1970s. We find the fault and price it for the owner before repairs begin.',
   emergencyParagraph:
-    'NOAA’s normals for the CVG station put January lows around 23F. When an apartment heat pump fails in that cold, the people hit first are babies, older neighbors and anyone who is sick. We repair heat pumps and electric air handlers for owners and managers, usually the same day, weekend calls included.',
+    'January in Lincoln Heights brings lows around 23F, by NOAA’s CVG normals. If an apartment heat pump quits in that weather, babies, older neighbors and sick residents are in trouble first. Owners and managers can usually get us out the same day, weekends included, for heat pumps and electric air handlers.',
   commonIntro:
     'Lincoln Heights heat pump calls come mostly from rental buildings and 1960s and 1970s houses, many all-electric. These four come up most:',
   localFaqs: [
     {
       q: 'I rent in Lincoln Heights and my heat pump isn’t heating. Can I call you?',
-      a: 'Report it to your landlord or building management in writing first; they arrange repairs. Ohio law, ORC 5321.04, requires landlords to keep the heating equipment they supply working and to provide reasonable heat. Check the thermostat mode and filter meanwhile. We fix heat pumps, not leases.',
+      a: 'Tell your landlord or the management office in writing first, since they book the repair. Under Ohio’s ORC 5321.04, a landlord who supplies heating equipment has to keep it working and provide reasonable heat. While you wait, check that the thermostat says heat and the filter is clean. We fix heat pumps, not leases.',
     },
     {
       q: 'Who handles the permit for a heat pump replacement in Lincoln Heights?',
@@ -29,11 +29,11 @@ export const lincolnHeights: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Start with the basics. The thermostat needs to be on heat, not cool or off. Swap a dirty filter. Both breakers must be on, the one for the outdoor unit and the one for the indoor air handler. Keep snow and leaves off the outdoor unit. Steam, a thin coat of frost and the fan stopping briefly mean a normal defrost. If heat returns, nobody needs us. Report it, or call us if you own the building, when ice won’t clear, the emergency heat light stays on or the outdoor fan won’t turn. We diagnose and the owner approves the price.',
+        body: 'Tenants and owners in Lincoln Heights can rule out the easy causes together. The thermostat has to say heat. A filter caked with dust gets replaced. Two breakers feed the system, outdoor unit and indoor air handler, and a tripped one gets reset. Snow and leaves come away from the outside cabinet. Defrost is normal: a little steam, light frost, the fan quiet for a moment. Once warmth returns, no repair is needed. When the coil stays frozen, the emergency heat light won’t switch off or the outside fan stays still, tenants report it and owners call us. We diagnose, and the owner signs off on the price.',
       },
       {
         title: 'Repair or Replace Your Lincoln Heights Heat Pump?',
-        body: 'For owners: go by the heat pump, not the building. A 1970s building may have heat pumps of very different ages from one unit to the next, so read each outdoor label. A failed capacitor or contactor on a younger unit is a repair. A refrigerant leak or failed compressor on an old one is where we quote both repair and replacement. In an all-electric unit, a weak heat pump leaves the backup strips running and the electric bill climbs; if the tenant pays that bill, they’ll often notice first.',
+        body: 'This part is for owners. Judge each heat pump by its own label, because in a building from the 1970s one apartment’s unit may be original and the next one nearly new. A bad capacitor or contactor on a younger unit is a fix. When an old unit leaks refrigerant or loses its compressor, you get two written prices, repair and replacement. In all-electric apartments, a failing heat pump hands the work to the strip heaters and the power bill rises; where tenants pay the electric, they usually spot it before anyone else.',
       },
     ],
     whyTitle: 'Why Lincoln Heights Landlords and Residents Call Us',
@@ -42,15 +42,15 @@ export const lincolnHeights: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Lincoln Heights?',
-        a: 'That depends on the fault. A capacitor or contactor is a modest repair; a refrigerant leak or compressor is a major one. We diagnose, give the owner a flat-rate price and wait for approval before work. There are no overtime fees for weekend visits.',
+        a: 'The fault sets the price. A capacitor or contactor is a modest job, while a refrigerant leak or compressor is a major one. The owner gets a diagnosis and a flat-rate number to approve, and work waits until they say yes. Weekend visits cost no overtime.',
       },
       {
         q: 'Is a Lincoln Heights heat pump worth repairing, or should it be replaced?',
-        a: 'A younger unit with one failed part should be repaired. An older one with a dead compressor or a leak that returns deserves a replacement price next to the repair price, and we give both. Owners replacing several units can ask about financing.',
+        a: 'Fix a younger unit with one bad part. For an older unit with a failed compressor or a leak that keeps coming back, we write a replacement price next to the repair price. Owners swapping out several units in a building can ask about financing.',
       },
       {
         q: 'Why does the heat pump in my Lincoln Heights apartment blow cool air?',
-        a: 'Heat pump air is warm but not furnace-hot, so it can feel cool from the vent, and that is normal. If the air is cold and the outdoor unit is buried in ice or not running, it has a fault. Tell your landlord or management so they can schedule the repair.',
+        a: 'Lukewarm air is how a heat pump works; it never matches a furnace’s heat, so the vent may feel cool even when nothing is wrong. Cold air while the outdoor unit is crusted in ice or not running is a different story and means a fault. Let your landlord or management know so they can book us.',
       },
     ],
   },

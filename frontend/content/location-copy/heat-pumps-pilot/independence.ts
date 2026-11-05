@@ -29,7 +29,7 @@ export const independence: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'A few checks can save you the visit. Confirm the thermostat is on heat and not off or cool. Change the filter. Find the two breakers, one for the outdoor unit and one for the air handler, and make sure neither has tripped. Pull snow, ice or leaves away from the outdoor unit. Steam rising off it, a little frost and the fan stopping briefly are part of defrost and don’t need a technician. Call us if ice keeps building, the auxiliary heat light stays lit, or the outdoor fan won’t turn. We find the fault, explain it, price it for approval and test afterward.',
+        body: 'Before booking, walk your Independence house once. At the wall, the thermostat should be set to heat. At the air handler, replace a dirty filter. At the panel, the outside unit and air handler each have a breaker, and both should sit on. Out in the yard, clear snow, ice or leaves off the condenser. Steam drifting up, a dusting of frost and a fan that rests briefly are defrost and need no technician. Call us if ice keeps building, the auxiliary heat light stays lit, or the outdoor fan won’t turn.',
       },
       {
         title: 'Repair or Replace Your Independence Heat Pump?',
@@ -46,11 +46,11 @@ export const independence: LocationServiceCopy = {
       },
       {
         q: 'Should I repair or replace my Independence heat pump?',
-        a: 'If the unit is young and one part failed, repair it. If the original builder system needs a compressor, or keeps losing refrigerant, compare it against a new one. We price both options side by side, and the permit is part of the job if you replace.',
+        a: 'A young unit with a single bad part gets fixed. An original builder system that needs a compressor, or one that won’t hold refrigerant, should be weighed against new equipment. We price both options side by side, and the permit is part of the job if you replace.',
       },
       {
         q: 'Why does my Independence heat pump blow cool air in winter?',
-        a: 'Some of it is normal. Heat pump air runs cooler than gas furnace air, so it can feel lukewarm at the vent while the house still warms up. Air that is cold, with the outdoor unit iced over or not running, means a fault we need to look at.',
+        a: 'Partly, yes. What a heat pump blows is milder than what a gas furnace blows, so your hand at the register may call it lukewarm even as the rooms come up to temperature. Air that is cold, with the outdoor unit iced over or not running, means a fault we need to look at.',
       },
     ],
   },

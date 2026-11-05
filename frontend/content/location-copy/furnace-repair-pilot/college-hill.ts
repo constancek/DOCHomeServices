@@ -4,7 +4,7 @@ export const collegeHill: LocationServiceCopy = {
   localParagraph:
     'College Hill furnace work is mostly gas, in houses old enough that the furnace has been swapped at least once. Census figures show 54.7% of homes heat with gas and 39.1% with electricity. About a third of homes predate 1940 and most of the rest went up between the 1940s and 1960s, so mid-century ranches and early-1900s houses make up most of our calls. Half of households rent, so landlords book plenty of repairs. We locate the fault, then you approve the price before work begins.',
   emergencyParagraph:
-    'Cincinnati gets close to 100 nights a year at freezing or colder, by NOAA normals. A College Hill furnace that quits on one of them is hardest on infants, elderly relatives and anyone recovering from illness, and pipes in an unheated house can freeze. We fix gas and electric furnaces and reach most calls the day you phone, weekends included.',
+    'By NOAA normals, Cincinnati sees about 100 nights a year at or below freezing. Lose the furnace in College Hill on one of those nights and the cold hits a baby, a grandparent or someone sick in bed, while water lines in a chilled house can freeze. We handle gas and electric furnaces, usually same day, Saturdays and Sundays too.',
   commonIntro:
     'College Hill heating calls come from gas furnaces in early-1900s and mid-century houses and from its apartment buildings. These problems come up most:',
   localFaqs: [
@@ -29,7 +29,7 @@ export const collegeHill: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Furnace Needs Repair, and When It Doesn’t',
-        body: 'Go through the basics before booking. Check that the thermostat reads heat and the batteries aren’t dead. Make sure the switch beside the furnace is on and no breaker has tripped. Replace a clogged filter and close the furnace door snugly, since plenty of furnaces sit idle when it’s loose. If the house warms up, you don’t need us. Book a visit when the furnace runs in short bursts, smells hot or makes a squeal. If you smell gas, don’t use switches or relight the pilot; walk outside and call the gas company. We inspect, explain and quote, then test the heat.',
+        body: 'Run through a short list first. Set the thermostat to heat, with new batteries if the screen is blank. Flip on the furnace’s service switch, usually a wall switch near it, and reset any tripped breaker. A gray, packed filter needs replacing, and the furnace panel has to click fully shut or many units won’t start. If warm air comes back, you don’t need us. Call for short cycling, a hot smell or a squeal. With a gas smell, leave the switches and pilot alone, go outside and ring the gas company. You hear what failed and the price before we start, and we run the heat after.',
       },
       {
         title: 'Repair or Replace Your College Hill Furnace?',

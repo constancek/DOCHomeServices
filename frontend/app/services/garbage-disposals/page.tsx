@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -66,10 +66,10 @@ export default function GarbageDisposalsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Garbage Disposal Repair & Installation in ${site.serviceArea}`}
-        description="Licensed plumbers install, repair, and replace garbage disposals — with proper drain and dishwasher connections and leak-tested results."
+        image="/services/disposal-hero.webp"
+        imageAlt="Garbage disposal under a kitchen sink"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -80,14 +80,22 @@ export default function GarbageDisposalsPage() {
 
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/disposal-hero.webp)' }} role="img" aria-label="Garbage disposal under a kitchen sink" />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
-            Garbage Disposal Repair & Installation
+            Local Garbage Disposal Pros Who Know {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            A working garbage disposal keeps your kitchen clean and your drains clear. When it jams,
-            leaks, or quits, everyday cleanup turns into a hassle.
+            Garbage disposal repair across {site.serviceArea} usually comes down to a jam, a
+            leak or a motor that hums without turning. Fibrous scraps like celery and corn husks
+            wrap around the impellers, and a cracked gasket or worn seal drips into the cabinet.
+            If the unit hums and the reset button underneath brings it back, you may not need
+            us. A first install can need wiring too. We check the motor and seals and price the
+            job before the old unit comes out.
           </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Garbage Disposal Repair & Installation
+          </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             {site.name} repairs, replaces, and installs garbage disposals for homeowners across{' '}
             {site.serviceArea}. Our plumbers show up ready to handle whatever problem’s blocking your sink
@@ -212,7 +220,7 @@ export default function GarbageDisposalsPage() {
         <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Garbage Disposal FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">

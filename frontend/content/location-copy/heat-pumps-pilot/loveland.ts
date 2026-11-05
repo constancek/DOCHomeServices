@@ -29,7 +29,7 @@ export const loveland: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'A dead heat pump sometimes needs no technician. Set the thermostat to heat and confirm it isn’t on cool. Fit a fresh filter. Find both breakers, the one for the outdoor unit and the one for the air handler inside, and make sure neither has tripped. Clear away snow and leaves. On a frosty morning the outdoor unit may steam and stop its fan for a few minutes while it defrosts; leave it alone. If those steps fix it, you don’t need us. Call us for ice that won’t melt or a grinding noise from the outdoor unit. We explain the problem and the price before any work.',
+        body: 'Plenty of Loveland no-heat calls end before a truck rolls. Check that the thermostat says heat, not cool. Change the filter if it looks gray. Your system has two breakers, outdoor unit and indoor air handler; flip either one back if it tripped. On hillside lots, drifted snow and blown leaves pile against the outside unit, so dig it out. A unit that puffs vapor and idles its fan for a few minutes on a frosty morning is defrosting, which is normal. If heat returns, skip us. Phone when ice coats the coil for hours or the outdoor unit grinds. You hear the diagnosis and approve a price first.',
       },
       {
         title: 'Repair or Replace Your Loveland Heat Pump?',
@@ -50,7 +50,7 @@ export const loveland: LocationServiceCopy = {
       },
       {
         q: 'Why does my Loveland heat pump blow cool air in winter?',
-        a: 'Heat pumps run longer at a lower supply temperature than a gas furnace, so the air feels lukewarm even when the system is fine. In a dual fuel home the furnace should take over on the coldest days. Cold air with the outdoor unit frozen or stopped means a fault.',
+        a: 'Lukewarm air is how a heat pump works. It runs long, steady cycles at a lower air temperature than a gas furnace, so the vents never feel hot. In a dual fuel Loveland home, the furnace should kick in on the coldest days. Cold air while the outside unit is frozen or stopped is a fault.',
       },
     ],
   },

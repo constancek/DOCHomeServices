@@ -4,7 +4,7 @@ export const reading: LocationServiceCopy = {
   localParagraph:
     'In Reading, most heat pumps we repair work alongside a gas furnace, since gas heats the large majority of homes. Census figures show 70.8% of Reading homes on gas and 26.6% on electricity, which also counts electric furnaces and baseboard. The median house was built in 1956, and a lot of homes sit in Mill Creek’s mapped floodplain, so basement air handlers and outdoor units in low yards are part of the job. We locate the fault and give you the price before any work starts.',
   emergencyParagraph:
-    'Normal January lows at the Cincinnati airport sit close to 23F (NOAA, 1991-2020). In Reading, if the heat pump stops and the gas furnace behind it won’t light, think first of babies, older relatives and anyone who is ill in the house. Our technicians repair heat pumps and dual fuel systems same day on most calls, weekends included.',
+    'NOAA’s 1991-2020 normals put January lows at the Cincinnati airport near 23F. When a Reading heat pump quits and its backup gas furnace also fails to fire, infants, elderly relatives and anyone sick in the home feel it first. Our technicians repair heat pumps and dual fuel systems same day on most calls, weekends included.',
   commonIntro:
     'Reading heat pump calls mostly come from 1940s and 1950s houses with a gas furnace backing up the heat pump, plus apartments. These come up most:',
   localFaqs: [
@@ -18,7 +18,7 @@ export const reading: LocationServiceCopy = {
     },
     {
       q: 'I rent an apartment in Reading and the heat pump isn’t keeping up. Who fixes it?',
-      a: 'Whoever owns the building. Ohio’s ORC 5321.04 says a landlord who supplies heating equipment has to keep it in good and safe working order and provide reasonable heat. Make sure the thermostat is set to heat, then give the manager the details in writing. We fix heat pumps, not leases, so the request goes through the owner.',
+      a: 'The owner of the building. Under Ohio’s ORC 5321.04, a Reading landlord who provides the heating system must keep it in good and safe working order and supply reasonable heat. Check that your thermostat sits on heat, then write to the manager describing what the unit is doing. We fix heat pumps, not leases, so the owner books the call.',
     },
   ],
   overrides: {
@@ -37,7 +37,7 @@ export const reading: LocationServiceCopy = {
       },
       {
         title: 'Repair or Replace Your Reading Heat Pump?',
-        body: 'The heat pump’s condition decides this, not the house’s age. Reading’s houses are mostly postwar, but the outdoor unit may be only a few years old, and a dead fan motor or defrost control on a newer unit gets fixed. An aging unit that has lost its compressor or keeps leaking refrigerant gets two quotes from us, repair and replace. Flood exposure changes the math: equipment that sat in Mill Creek water may not be worth saving. We handle the city permit when a unit is replaced. In a dual fuel house, watch the Duke Energy gas bill; if it climbs on mild days, the heat pump is slacking.',
+        body: 'A 1956 house can easily have a heat pump installed a few years ago, so judge the unit and ignore the deed. On a younger system, a burned-out fan motor or a failed defrost control is a straightforward fix. When an older outdoor unit loses its compressor or won’t hold refrigerant, we write up repair and replacement prices side by side. Mill Creek is the Reading wild card: gear that sat in flood water often isn’t worth rebuilding. We handle the city permit when a unit is replaced. In a dual fuel house, watch the Duke Energy gas bill; if it climbs on mild days, the heat pump is slacking.',
       },
     ],
     whyTitle: 'Why Reading Homeowners and Landlords Call Us',
@@ -46,7 +46,7 @@ export const reading: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Reading?',
-        a: 'It depends on the failed part and the condition of the system. A worn contactor is a short repair; a blower motor or a coil leak takes more time and parts. We find the fault first, then give you a flat-rate price. Nothing starts until you approve it.',
+        a: 'The failed part and the shape of the rest of the system set the figure. Replacing a pitted contactor is quick; a new blower motor or chasing a coil leak means more hours and more parts. Our technician pins down the fault, names one flat rate, and waits for your go-ahead.',
       },
       {
         q: 'Should I repair or replace a Reading heat pump?',
@@ -54,7 +54,7 @@ export const reading: LocationServiceCopy = {
       },
       {
         q: 'Why does my Reading heat pump blow cool air?',
-        a: 'A heat pump delivers steady warm air, not the blast a gas furnace gives, so a hand at the register may call it cool. Nothing is wrong there. If the air is cold and the outdoor unit is frozen or quiet, the heat pump has failed, and the furnace in a dual fuel home should take over.',
+        a: 'Heat pump air runs milder than the hot rush from a gas furnace, so a palm at the vent can call it cool when it’s fine. Truly cold air, with ice locked on the outdoor unit or the unit not running, is a breakdown. In a dual fuel house, the gas furnace should take over.',
       },
     ],
   },

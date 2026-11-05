@@ -33,7 +33,7 @@ export const westChester: LocationServiceCopy = {
       },
       {
         title: 'Repair or Replace Your West Chester Heat Pump?',
-        body: 'Judge the heat pump, not the house. A West Chester home from 1988 might have an outdoor unit that went in five years ago, and a bad fan motor or contactor on that unit is a repair. The two big calls are a refrigerant leak and a failed compressor. On an older unit we price the repair and a replacement side by side so you can compare. Your Duke Energy bill is a clue too: if it jumps in a normal winter month, the backup heat strips are probably doing the work.',
+        body: 'The date on the outdoor unit matters more than the date on the deed. Plenty of West Chester houses built in 1988 now sit beside a condenser swapped out five years back, and when that unit loses a fan motor or contactor, we simply fix it. Refrigerant leaks and dead compressors are the two faults that make people think about replacing. When either shows up on an aging unit, you get two prices on one sheet, repair and replacement. Watch the Duke Energy bill as well. A big jump in an ordinary winter month points to the backup strips carrying the heat.',
       },
     ],
     whyTitle: 'Why West Chester Homeowners Call Us',
@@ -42,7 +42,7 @@ export const westChester: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost in West Chester?',
-        a: 'It depends on the fault. A failed contactor or capacitor is a short visit; a refrigerant leak has to be found and sealed before the system is recharged, which takes longer. After the diagnosis you get one flat-rate price, and nothing starts until you approve it. Weekends cost the same, with no overtime fees.',
+        a: 'The fault sets the price. Swapping a contactor or capacitor takes little time, while a refrigerant leak means locating it and sealing it before any recharge, so that job runs longer. After the diagnosis you get one flat-rate price, and nothing starts until you approve it. Weekends cost the same, with no overtime fees.',
       },
       {
         q: 'Should I repair or replace my West Chester heat pump?',

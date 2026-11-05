@@ -10,11 +10,11 @@ export const florence: LocationServiceCopy = {
   localFaqs: [
     {
       q: 'I rent an apartment in Florence and the heat pump quit. Can I call you?',
-      a: 'Tell your landlord or property manager first, in writing, since the equipment belongs to them and they choose who repairs it. Before you do, check the thermostat mode and the breaker. Owners and managers can call us directly, and we explain the fault to them in plain terms.',
+      a: 'Report it to your landlord or manager in writing first. The heat pump is theirs, so they pick the repair company. Meanwhile, make sure the thermostat says heat and no breaker has tripped. Owners and managers can book us themselves, and we walk them through what failed.',
     },
     {
       q: 'Who handles the permit for a heat pump replacement in Florence?',
-      a: 'The Boone County Building Department issues HVAC permits for the City of Florence, and Kentucky requires one to replace a heat pump. We file it as part of the job, so you never deal with the county office. Repairs to the system you already have are priced and finished on the visit.',
+      a: 'Kentucky requires a permit to swap out a heat pump, and in the City of Florence it comes from the Boone County Building Department. We pull it as part of the replacement, so the paperwork stays off your desk. A repair to your current unit gets priced and done on the same visit.',
     },
   ],
   overrides: {
@@ -29,7 +29,7 @@ export const florence: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Try a few things yourself first. The thermostat has to read heat. A grey filter needs swapping. In the electrical panel, find the two breakers, one for the condenser and one for the air handler, and reset a tripped one once. Brush snow and leaves off the condenser. A cloud of steam, some frost and a fan that pauses during defrost are all normal. If warmth comes back, you don’t need us, though renters should still let management know. We’re needed when ice won’t melt off the coil, the system is stuck in heat or cool, or something grinds outside. We look, explain and quote before any repair.',
+        body: 'Before booking, check the basics. Set the thermostat to heat. Hold the filter to a light, and if none shows through, swap it. Your panel has a breaker for the condenser outside and another for the air handler indoors; flip back any that tripped, once. Clear plowed snow or blown leaves away from the outdoor unit. Steam rising off it, light frost and the fan stopping for a few minutes mean it’s defrosting, which is normal. If heat returns, skip the visit; tenants still tell management. Call us for ice that stays, a unit locked in heat or cool, or grinding outside. We inspect, explain and quote before any repair.',
       },
       {
         title: 'Repair or Replace Your Florence Heat Pump?',

@@ -29,7 +29,7 @@ export const kennedyHeights: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Furnace Needs Repair, and When It Doesn’t',
-        body: 'Some no-heat calls end before we arrive. Set the thermostat to heat, replace weak batteries, and check that the breaker and the furnace’s own power switch are on. Pull the filter, because a clogged one can make the furnace shut down to protect itself. Then press the furnace door closed, since a loose panel keeps many units from starting. If the heat returns, you don’t need us. If you smell gas, get out without touching switches or relighting anything, and call the gas company from outside. With a carbon monoxide alarm, everyone leaves first. Otherwise we test the furnace, explain what failed, and repair it at a price you’ve approved.',
+        body: 'Checking first can save the visit. Put the thermostat on heat and give it fresh batteries. In a duplex, find the right furnace, then check its wall switch and breaker. A filter packed with dust makes the furnace overheat and shut itself off, so put in a clean one. The front panel has to sit tight, or many units refuse to start. Heat back on means you’re set. Gas smell: leave without flipping switches or relighting anything and phone the gas company once outside. A carbon monoxide alarm means everyone out first. Beyond that, we find the failed part and fix it at the price you approved.',
       },
       {
         title: 'Repair or Replace Your Kennedy Heights Furnace?',

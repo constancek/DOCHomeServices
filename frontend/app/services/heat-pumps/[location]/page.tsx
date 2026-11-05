@@ -76,6 +76,14 @@ const config: ServiceLocationConfig = {
     { q: 'Why is my heat pump not heating or cooling properly?', a: 'Common causes are low refrigerant, a dirty filter or coils, a stuck reversing valve, a thermostat issue, or an iced-up outdoor unit. Our technicians diagnose the exact cause rather than guessing.' },
     { q: 'What warranty options are available for heat pumps?', a: 'New equipment carries a manufacturer warranty (often 10 years when registered), and our workmanship is guaranteed. We review the specific coverage on your system before installation.' },
   ],
+  steps: {
+    heading: 'What to Expect From Heat Pump Repair in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'Both Units Checked', text: 'Outdoor unit, air handler, defrost and backup heat.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A flat rate, before any work starts.' },
+      { icon: 'check', title: 'Tested Both Ways', text: 'Heating and cooling run before we leave.' },
+    ],
+  },
   related: [
     { label: 'Heat Pumps (overview)', href: '/services/heat-pumps' },
     { label: 'Furnace Installation & Replacement', href: '/services/furnace-installation-replacement' },

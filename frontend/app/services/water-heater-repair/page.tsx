@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -78,10 +78,10 @@ export default function WaterHeaterRepairPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Water Heater Repair in ${site.serviceArea}`}
-        description="No hot water, a leak, or strange noises? Our licensed technicians diagnose the cause and restore reliable hot water fast — gas, electric, or tankless."
+        image="/services/wh-hero.webp"
+        imageAlt="Technician repairing a water heater"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -93,13 +93,30 @@ export default function WaterHeaterRepairPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/wh-hero.webp)' }}
-            role="img"
-            aria-label="Technician repairing a water heater"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Water Heater Repair Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Water heater repair across {site.serviceArea} usually traces back to one part: a
+            thermocouple or gas valve on a gas tank, a burned out element on an electric one, or a
+            relief valve that drips. Scale is the other regular, since Greater Cincinnati Water Works
+            reports hardness of 126 to 140 mg/L. If the unit is under about 10 years old and the fault
+            is isolated, repair makes sense. You see the cause and the flat rate before a new part goes
+            in.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Water Heater Repair in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            A tank leaking from the bottom keeps spilling into the basement until the cold supply is
+            shut off, and no hot water is hardest on babies and older relatives. Winter makes it worse:
+            NOAA normals count about 100 nights a year at or below freezing in Cincinnati. Most water
+            heater emergencies get a technician the same day, weekends included.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Water Heater Repair
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -107,10 +124,6 @@ export default function WaterHeaterRepairPage() {
             reliable water heater repair across {site.serviceArea} — from no hot water and leaks to
             noises and pilot-light trouble — on gas, electric, and tankless systems from all major
             brands.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            We diagnose the real cause, explain it clearly, and quote a flat rate before any work
-            begins, and we come out any day of the week when a failure cannot wait.
           </p>
         </MainWithSidebar>
       </section>
@@ -230,28 +243,6 @@ export default function WaterHeaterRepairPage() {
 
       <section className="py-14">
         <div className="container-page max-w-4xl">
-          {/* Emergency */}
-          <h2 className="mt-12 section-title text-brand-700">Emergency Water Heater Repair</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            Some problems need immediate attention. A leaking water heater, a total loss of hot water,
-            or a gas-related concern can quickly become a property or safety risk. {site.name} offers
-            emergency water heater repair every day, Saturdays and Sundays included, across {site.serviceArea}.
-          </p>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            If your water heater fails outside normal business hours, our team is available day or
-            night. Whether you wake up to cold water, find a leak late in the evening, or hit a sudden
-            shutdown, we are here to stabilize the situation, restore hot water when possible, and
-            prevent further damage to your home.
-          </p>
-          <div className="mt-6 flex flex-col items-center gap-4 rounded-2xl bg-blue-section p-6 text-center sm:flex-row sm:justify-between sm:text-left">
-            <h3 className="font-display text-xl font-extrabold uppercase text-white sm:text-2xl">
-              Water heater emergency? We answer 7 days a week.
-            </h3>
-            <Link href="/services/emergency-plumbing" className="btn-pink flex-shrink-0">
-              Emergency Plumbing
-            </Link>
-          </div>
-
           {/* Why us */}
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Water Heater Repair</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
@@ -271,7 +262,7 @@ export default function WaterHeaterRepairPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

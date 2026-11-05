@@ -2,7 +2,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const bellevue: LocationServiceCopy = {
   localParagraph:
-    'Bellevue is a gas town: Census figures show 81.6% of homes heat with gas and 15.2% with electricity. So most heat pumps we repair here work beside a gas furnace in a dual fuel setup, running in milder weather and handing off on the coldest nights. Almost two-thirds of the houses went up before 1940, which means the heat pump was fitted into ductwork that was never planned for it. We test the heat pump and the furnace controls together and agree the price before any repair.',
+    'Most heat pumps in Bellevue are half of a dual fuel pair. Census figures put gas heat at 81.6% of homes and electric at 15.2%, so the heat pump usually covers mild days and the gas furnace picks up the hard freezes. Nearly two-thirds of the housing dates from before 1940, and those ducts were run long before anyone pictured a heat pump on them. On a call we check the heat pump, the furnace and the switchover control as one system, then give you a price to approve first.',
   emergencyParagraph:
     'Freezing nights are routine here: NOAA counts close to 100 a year at the Cincinnati airport. When a Bellevue heat pump quits and the furnace fails to cover for it, a pre-war house cools quickly, and a baby, an older relative or someone sick at home is at real risk. Most calls get a same-day visit, weekends included.',
   commonIntro:
@@ -29,7 +29,7 @@ export const bellevue: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Before calling, set the thermostat to heat; cool or off will leave the house cold. Change the filter. Check both breakers, one for the outdoor unit and one for the furnace or air handler. Clear ice, snow and leaves away from the outdoor coil. During defrost the unit can steam, carry light frost and stop its fan for a few minutes, all of which is normal. If the heat comes back, you don’t need us. Call when the outdoor unit stays sealed in ice, grinds or won’t spin its fan. If you smell gas at the furnace, leave and call Duke Energy Kentucky from outside.',
+        body: 'A few checks cost nothing. A thermostat left on cool or off is the most common reason a Bellevue house goes cold, so make sure it says heat. Put in a fresh filter. Two breakers matter: the unit out back and the furnace inside. Brush snow, ice or blown leaves off the cabinet. Steam, a thin coat of frost and a silent fan for a few minutes mean a defrost cycle is running, not a breakdown. Warm again? Then skip the call. Ring us for ice that never melts off, grinding, or a fan blade that won’t turn. Gas smell by the furnace: get out, then phone Duke Energy Kentucky.',
       },
       {
         title: 'Repair or Replace Your Bellevue Heat Pump?',

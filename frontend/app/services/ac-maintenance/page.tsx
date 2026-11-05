@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -90,10 +90,10 @@ export default function ACMaintenancePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Air Conditioning"
+      <LocationHero
         title={`AC Maintenance in ${site.serviceArea}`}
-        description="A yearly AC tune-up keeps your system efficient, reliable, and ready for summer — cleaning, inspection, and testing before the heat hits."
+        image="/services/ac-maint-hero.webp"
+        imageAlt="Technician performing an AC tune-up"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -105,13 +105,21 @@ export default function ACMaintenancePage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/ac-maint-hero.webp)' }}
-            role="img"
-            aria-label="Technician performing an AC tune-up"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local AC Maintenance Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            AC maintenance across {site.serviceArea} usually means one visit a year before the
+            cooling season, and it takes about an hour. The technician cleans and checks the
+            condenser and evaporator coils, tests electrical connections and controls, and
+            reviews refrigerant levels. NWS Wilmington puts the normal July high at CVG at 86°F,
+            and the outdoor unit works hardest through those weeks. Most manufacturers make
+            annual service a condition of the parts warranty, so keep the invoice. Anything we
+            find gets explained and priced before we touch it.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             AC Maintenance & Tune-Ups
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -119,12 +127,6 @@ export default function ACMaintenancePage() {
             reliable system can lose efficiency and struggle to keep your home comfortable. {site.name}{' '}
             provides professional AC maintenance and tune-ups for homeowners across {site.serviceArea}
             {' '}to keep systems reliable throughout the cooling season.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Routine maintenance keeps your system running smoothly and reduces the chance of
-            unexpected problems. A professional tune-up lets technicians inspect the system, clean key
-            components, and confirm proper operation — so you enjoy steady cooling, better efficiency,
-            and fewer disruptions during hot weather.
           </p>
         </MainWithSidebar>
       </section>
@@ -295,7 +297,7 @@ export default function ACMaintenancePage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

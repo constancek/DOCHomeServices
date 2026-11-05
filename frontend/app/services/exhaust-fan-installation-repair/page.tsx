@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -93,10 +93,10 @@ export default function ExhaustFanPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Electrical"
+      <LocationHero
         title={`Exhaust Fan Installation & Repair in ${site.serviceArea}`}
-        description="Stronger airflow, quieter operation, and proper venting — bathroom and kitchen exhaust fans installed, repaired, and replaced to protect your home from moisture."
+        image="/services/exhaust-hero.webp"
+        imageAlt="Bathroom ceiling exhaust fan"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -108,13 +108,20 @@ export default function ExhaustFanPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/exhaust-hero.webp)' }}
-            role="img"
-            aria-label="Bathroom ceiling exhaust fan"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Exhaust Fan Installation Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Exhaust fan work across {site.serviceArea} usually means a bathroom fan that runs but leaves
+            the mirror fogged. The cause is most often a fan too small for the room, a duct that dumps
+            into the attic instead of outdoors, a clogged duct or a worn motor. Attic venting matters
+            most, since that moisture soaks into insulation and framing. A newer fan in a sound housing
+            often needs only a motor or switch. We trace the airflow and quote the fix before cutting
+            into a ceiling.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Exhaust Fan Installation & Repair
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -122,12 +129,6 @@ export default function ExhaustFanPage() {
             steam into the air, and if that moisture has no clear path out, it collects on ceilings,
             walls, and in insulation — leading to mold and mildew, peeling paint, musty odors, and even
             structural damage.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} provides professional exhaust fan installation, repair, and replacement across
-            {' '}{site.serviceArea}. We work with homeowners who want stronger airflow, quieter
-            operation, and better moisture control — whether you are adding a bathroom exhaust fan for
-            the first time or replacing an older unit.
           </p>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             A properly functioning exhaust fan does more than clear fog from mirrors — it plays a key
@@ -321,7 +322,7 @@ export default function ExhaustFanPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

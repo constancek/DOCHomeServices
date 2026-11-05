@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -93,10 +93,10 @@ export default function BasementLightingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Lighting"
+      <LocationHero
         title={`Basement Lighting Installation in ${site.serviceArea}`}
-        description="Recessed and LED basement lighting installed by licensed electricians — brighter, more usable finished basements, work areas, and storage spaces, all wired safely."
+        image="/services/basement-hero.webp"
+        imageAlt="Finished basement with recessed ceiling lighting"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -110,13 +110,20 @@ export default function BasementLightingPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/basement-hero.webp)' }}
-            role="img"
-            aria-label="Finished basement with recessed ceiling lighting"
-          />
+          {/* One-format top section: local pros, one paragraph */}
           <h2 className="section-title text-brand-700">
+            Local Basement Lighting Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Basement lighting across {site.serviceArea} usually comes down to what is above the
+            ceiling and how damp the room gets. An open joist ceiling is quicker to wire than a
+            finished one we have to work above. A basement that takes on moisture needs damp-rated
+            fixtures, and the circuit may need GFCI protection. A like-for-like fixture swap on an
+            existing circuit is a job plenty of homeowners handle without us. For anything more, we
+            look at the ceiling and quote the job before work starts.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Basement Lighting Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -322,7 +329,7 @@ export default function BasementLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

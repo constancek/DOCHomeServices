@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -95,10 +95,10 @@ export default function CeilingFanPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Electrical"
+      <LocationHero
         title={`Ceiling Fan Installation in ${site.serviceArea}`}
-        description="Better airflow and a refreshed room — ceiling fans installed and replaced with fan-rated mounting, safe wiring, and balanced, quiet operation."
+        image="/services/ceilingfan-hero.webp"
+        imageAlt="Ceiling fan in a living room"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -110,13 +110,20 @@ export default function CeilingFanPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/ceilingfan-hero.webp)' }}
-            role="img"
-            aria-label="Ceiling fan in a living room"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Ceiling Fan Installation Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Ceiling fan installation across {site.serviceArea} usually depends on the box in the
+            ceiling. A standard light fixture box is often not built for a fan’s weight or motion, so we
+            check it and fit a fan-rated box when needed. Vaulted ceilings may need a down rod, and
+            porches need a weather-rated model. If an existing fan only wobbles, rebalancing the blades
+            or tightening the mount may be all it needs. You know the cost before the old fixture comes
+            down.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Ceiling Fan Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -124,11 +131,6 @@ export default function CeilingFanPage() {
             throughout your home. Whether you are upgrading an outdated fixture or adding a new fan in
             a bedroom, living room, or outdoor space, proper installation ensures safe wiring and
             secure support.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} provides trusted ceiling fan installation across {site.serviceArea}. Our
-            licensed electricians handle everything from ceiling fan replacement to lighting fixture
-            installation and wiring upgrades, completing every project with attention to detail.
           </p>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Hanging a fan for the first time or replacing an older unit, our ceiling fan installation
@@ -307,7 +309,7 @@ export default function CeilingFanPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

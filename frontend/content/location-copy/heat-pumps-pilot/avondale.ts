@@ -4,13 +4,13 @@ export const avondale: LocationServiceCopy = {
   localParagraph:
     'Three of every four homes in Avondale are rented, so most of our heat pump calls here come from landlords, property managers and tenants reporting a problem. Census figures show electricity edging out gas, 49.6% to 46.7%, which puts all-electric apartments on the same blocks as older houses with a heat pump beside a furnace. In the large managed buildings along Reading Road, tenants report to management and the owner books the repair. We price every job for the owner before work begins.',
   emergencyParagraph:
-    'NOAA normals put January lows at the Cincinnati airport around 23F. A dead heat pump in an Avondale apartment is most serious with a baby, an older relative or someone ill at home, because an all-electric unit has no other heat source. We repair heat pumps and electric air handlers, same day on most calls, weekends included.',
+    'January lows at the Cincinnati airport sit around 23F in NOAA normals. An all-electric Avondale apartment has nothing else to fall back on when the heat pump dies, so a home with a baby, an older relative or someone ill is the most urgent case. We fix heat pumps and electric air handlers, usually the same day, weekends too.',
   commonIntro:
     'Avondale heat pump calls come from apartment buildings, two-families and old houses, most of them rented. These four come up most:',
   localFaqs: [
     {
       q: 'My Avondale apartment is cold. What does the landlord have to do?',
-      a: 'If you don’t control your own heat, the City of Cincinnati requires your unit to stay at 70F or warmer once it has been below 60F outside for 24 hours. The Cincinnati Health Department enforces it. Report the problem in writing; your landlord can call us, as we fix heat pumps, not leases.',
+      a: 'Where you don’t control your own heat, the City of Cincinnati says the unit must be kept at 70F or above after 24 hours of outdoor temperatures under 60F, and the Cincinnati Health Department enforces that. Put your complaint in writing. Your landlord can book us; we fix heat pumps, not leases.',
     },
     {
       q: 'I rent in a managed building on Reading Road. Can I call you directly?',
@@ -29,11 +29,11 @@ export const avondale: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Tenants and owners can rule out a few things. The thermostat must say heat, since cool or off sends no warmth. Change a clogged filter if it’s yours to change. There’s a breaker for the outdoor unit and another for the air handler; reset a tripped one once. Clear snow from around the outdoor unit. Frost, steam and a fan that pauses for a few minutes are normal defrost. If the heat returns, you don’t need us, but tell management anyway. Call when ice stays on the coil, the emergency heat light stays on or the fan won’t spin. We inspect, explain and price the repair before touching it.',
+        body: 'Anyone can rule out the easy causes. Heat is the only thermostat setting that warms an Avondale flat; cool or off leaves it cold. Swap a clogged filter if it’s yours to change. The system runs on two breakers, outdoor unit and air handler, so flip a tripped one back once. Shovel snow back from the outside cabinet. Frost, a puff of steam and a fan that idles for a few minutes are just defrost. If warmth comes back, skip the visit, but let management know. Report it when ice won’t clear off the coil, the emergency heat lamp stays lit or the fan sits still.',
       },
       {
         title: 'Repair or Replace Your Avondale Heat Pump?',
-        body: 'Judge the heat pump, not the building. An Avondale house from before 1940 may have a newer heat pump where a failed contactor or defrost board is an easy repair. A leaking coil or a dead compressor on an aging unit is when we give the owner a replacement price next to the repair price. Replacing one inside the city needs a mechanical permit from Cincinnati’s Department of Buildings & Inspections, and we pull it. On a Duke Energy Ohio bill, a spike in an average month usually means backup strips are doing the heating.',
+        body: 'Look at the heat pump’s age, not the building’s. Plenty of Avondale houses date from before 1940 yet carry heat pumps put in far more recently, and a burned contactor or a faulty defrost board on one of those is a quick fix. When an aging unit has a leaking coil or its compressor has died, the owner gets two prices to weigh. A replacement inside city limits needs a mechanical permit from Cincinnati’s Department of Buildings & Inspections, and we pull it. A Duke Energy Ohio bill that spikes in an ordinary month usually means the backup strips are carrying the heat.',
       },
     ],
     whyTitle: 'Why Avondale Landlords and Tenants Call Us',
@@ -42,7 +42,7 @@ export const avondale: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost in Avondale?',
-        a: 'We find the fault before quoting. A bad contactor in an outdoor unit is quick, while a refrigerant leak in a line set running up a three-story house takes more time. The owner approves one flat-rate price before work starts, and weekend calls carry no overtime fees.',
+        a: 'Diagnosis comes first, then the quote. Swapping a bad contactor in the outdoor unit is fast; finding a refrigerant leak along a line set that climbs a three-story house is slower going. The owner signs off on one flat-rate figure before any work, and a weekend call costs the same as a weekday one.',
       },
       {
         q: 'Should an Avondale landlord repair or replace a heat pump?',
@@ -50,7 +50,7 @@ export const avondale: LocationServiceCopy = {
       },
       {
         q: 'Why does my Avondale heat pump blow cool air?',
-        a: 'Heat pump air is milder than furnace air, so on a cold day it can feel lukewarm. That’s normal. If the vents blow cold and the outdoor unit is frozen or silent, something has failed. Tenants should report it rather than try to fix it themselves.',
+        a: 'Compared with furnace air, heat pump air runs mild and can feel lukewarm on a cold day, which is expected. Vents blowing cold while the outdoor unit is frozen or quiet mean a part has failed. Tenants should report that to the landlord or manager and leave the equipment closed.',
       },
     ],
   },

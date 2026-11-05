@@ -33,7 +33,7 @@ export const villaHills: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'The thermostat needs to be on heat, not cool or off. Pull the filter and replace it if it’s clogged. Two breakers feed the system, one outside for the condenser and one for the air handler indoors, so look at both. Clear snow and debris away from the outdoor unit. A burst of steam, a light coat of frost and the fan pausing for a few minutes all belong to a normal defrost cycle. If heat returns, skip the service call. Call us for ice that stays put, a grinding noise or an emergency heat light that won’t switch off. You approve a price before we repair anything.',
+        body: 'In a Villa Hills house, start at the wall: the thermostat should read heat, and cool or off won’t do. A clogged filter gets swapped for a fresh one. The panel has a breaker for the condenser out back and another for the indoor air handler; flip back whichever tripped. Rake snow and debris off the outside cabinet. Defrost puts on a show, with a puff of steam, thin frost and the fan resting briefly, and that is normal. Heat back on means no visit. Ice that never melts, grinding, or an emergency heat light glowing nonstop means call. You approve a price before we repair anything.',
       },
       {
         title: 'Repair or Replace Your Villa Hills Heat Pump?',
@@ -46,7 +46,7 @@ export const villaHills: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Villa Hills?',
-        a: 'The price follows the diagnosis. A failed outdoor fan motor or contactor is a fairly short job, while a refrigerant leak has to be found before it can be fixed, and that takes longer. You approve one flat-rate price before work, with no overtime fees on weekend calls.',
+        a: 'We set the price once we know the fault. Changing a contactor or a burned-out outdoor fan motor goes quickly; a refrigerant leak first has to be tracked down, which adds time. You approve one flat-rate price before work, with no overtime fees on weekend calls.',
       },
       {
         q: 'Should I repair or replace the heat pump in my Villa Hills house?',
@@ -54,7 +54,7 @@ export const villaHills: LocationServiceCopy = {
       },
       {
         q: 'Why is my Villa Hills heat pump blowing cool air in winter?',
-        a: 'A heat pump heats with a steady stream of warm air, not the blast of hot air a gas furnace gives, so it can feel cool at the register. That’s normal. Truly cold air, or an outdoor unit iced over or not running, is a fault. Check the thermostat setting, then call us.',
+        a: 'Villa Hills owners new to heat pumps notice this. The unit delivers a gentle flow of warm air, not a burst of hot, so your hand at the register reads it as cool. That is fine. Air that is genuinely cold, or a stalled or ice-bound outside unit, is a fault. Confirm the thermostat says heat, then call us.',
       },
     ],
   },

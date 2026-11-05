@@ -29,7 +29,7 @@ export const eastWalnutHills: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Some calls end with the homeowner’s own fix. Check the thermostat is on heat, not cool or off. Replace the filter if it’s clogged. Reset the breaker for the outdoor unit or the indoor air handler if either has tripped. Keep snow and fallen leaves off the outdoor unit. When the unit defrosts it can steam, show light frost and stop its fan for a few minutes; that’s normal. If heat returns, you don’t need us. Call when the ice won’t clear, emergency heat stays on, or you hear grinding outside. We inspect, explain the fault, price it for approval and test.',
+        body: 'You can rule out the simple causes yourself. A thermostat left on cool or off will not heat, so move it to heat. A clogged filter starves the system; put in a new one. Two breakers matter, the condenser’s and the air handler’s, and a tripped one just needs flipping back. Clear snow and leaf piles from around the condenser. In defrost the unit may steam, wear a light frost and rest its fan for a few minutes, all of which is fine. Heat back? No visit needed. Ice that will not clear, emergency heat that stays on or grinding outside need us to inspect, quote and test.',
       },
       {
         title: 'Repair or Replace Your East Walnut Hills Heat Pump?',
@@ -42,7 +42,7 @@ export const eastWalnutHills: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost in East Walnut Hills?',
-        a: 'It depends on what we find. A failed capacitor or contactor is a short job, while a refrigerant leak means locating it, sealing it and recharging. We diagnose first and give you one flat-rate price, and nothing starts until you approve it. Weekend visits cost the same.',
+        a: 'The diagnosis sets the number. Replacing a capacitor or contactor goes quickly; a refrigerant leak takes longer, because we locate it, seal it and recharge. You see one flat-rate price before anything starts, and you decide. A Saturday or Sunday visit costs what a weekday one does.',
       },
       {
         q: 'Should I repair or replace my East Walnut Hills heat pump?',
@@ -50,7 +50,7 @@ export const eastWalnutHills: LocationServiceCopy = {
       },
       {
         q: 'Why does my East Walnut Hills heat pump blow cool air in winter?',
-        a: 'Heat pump air is gentler than gas furnace air, so lukewarm at the vent is normal. Cold air while the outdoor unit is iced or not running is a fault. In a dual fuel house, cold air in hard frost can mean the furnace isn’t coming on.',
+        a: 'A heat pump puts out warmth that is softer than a gas furnace’s, so a tepid register is no cause for worry. Cold air with the outside unit frozen over or stopped is a fault. In an East Walnut Hills dual fuel house, cold air during a hard frost can mean the furnace never kicked in.',
       },
     ],
   },

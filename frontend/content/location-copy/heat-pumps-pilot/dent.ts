@@ -29,11 +29,11 @@ export const dent: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Try this before you call. The thermostat needs to be on heat, not cool or off. A packed filter cuts airflow, so put in a clean one. Your heat pump has a breaker for the outdoor unit and another for the air handler; reset either if it tripped. Keep snow and leaves off the outdoor unit. Steam, light frost and a fan that pauses for a few minutes mean defrost, which is normal. If heat returns, you don’t need us. Call when ice won’t clear, the emergency heat light stays on, or the unit grinds. We inspect, explain, get your approval on price and test.',
+        body: 'In a Dent condo or house, run through these yourself first. Heat should be the thermostat setting; cool or off gives you nothing. Slide out the filter, and if it’s caked, fit a clean one. The panel has one breaker for the outdoor unit and one for the indoor air handler, and a tripped one can be reset. Brush snow and leaves off the outdoor unit. During defrost it may steam, frost lightly and stop its fan briefly; that’s by design. Heat coming back means we aren’t needed. Book us if the ice stays, emergency heat won’t turn off, or you hear grinding. You approve the price before we start.',
       },
       {
         title: 'Repair or Replace Your Dent Heat Pump?',
-        body: 'Base it on the heat pump, not the house. Plenty of Dent homes still run the heat pump the builder installed, and a failed capacitor, contactor or fan motor on one of those is often a sensible repair. A compressor that has quit, or refrigerant that keeps leaking, is the point where a replacement price belongs next to the repair price. Duke Energy delivers power here, and a Duke bill that jumps in an ordinary winter month usually means the backup strips are doing the heat pump’s work. Financing is available for replacements.',
+        body: 'Look at the age of the equipment rather than the house. Lots of Dent homes are still on the heat pump the builder put in, and when a capacitor, contactor or fan motor dies on one, fixing it often makes sense. Once the compressor quits, or the refrigerant keeps leaking out, you should see a replacement price beside the repair price. Duke Energy supplies power here; a Duke bill that spikes in a normal winter month usually means the backup strips are covering for the heat pump. Replacements can be financed.',
       },
     ],
     whyTitle: 'Why Dent Homeowners Call Us',
@@ -42,15 +42,15 @@ export const dent: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much is heat pump repair in Dent?',
-        a: 'The failed part sets the price. Swapping a capacitor or contactor on a Dent heat pump is a short visit; a refrigerant leak runs longer, since we have to find it and seal it before recharging. After the diagnosis you get one flat-rate figure, and nothing starts until you agree. Saturday and Sunday calls cost no more.',
+        a: 'It depends on the part. A new capacitor or contactor on a Dent heat pump takes a short visit. A refrigerant leak runs longer because we locate and seal it before recharging. Diagnosis comes first, then one flat-rate figure; work waits for your okay, and weekend calls cost the same as weekdays.',
       },
       {
         q: 'Repair or replace: what makes sense for my Dent heat pump?',
-        a: 'Start with the install date on the outdoor unit. A heat pump with years left in it and a single failed part is worth repairing. A dead compressor or a second leak on an older unit pushes toward replacement, and we price both options so you can weigh them.',
+        a: 'Check the outdoor unit’s label for when it was installed. A single broken part on a heat pump with plenty of life left is a repair. A dead compressor, or a second leak on an aging unit, leans toward replacement, and we price both so you can compare.',
       },
       {
         q: 'Why is my Dent heat pump blowing cool air?',
-        a: 'Heat pump air is warm but not hot, so if you’re used to a furnace it can feel cool. That is normal. Air that is actually cold, with the outdoor unit frozen or not running, is a fault. A system stuck on cooling usually points to the reversing valve.',
+        a: 'A heat pump puts out warm air, not furnace-hot air, so it can seem cool if you grew up with gas. That’s fine. Truly cold air with the outdoor unit frozen or sitting idle is a fault, and a system that won’t leave cooling mode usually has a reversing valve problem.',
       },
     ],
   },

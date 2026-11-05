@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -98,10 +98,10 @@ export default function ACInstallationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Air Conditioning"
+      <LocationHero
         title={`AC Installation & Replacement in ${site.serviceArea}`}
-        description="A new, properly sized AC system means more consistent cooling, lower bills, and reliable comfort from day one — with estimates and financing."
+        image="/services/ac-install-hero.webp"
+        imageAlt="New air conditioning system installed at a home"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -113,13 +113,21 @@ export default function ACInstallationPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/ac-install-hero.webp)' }}
-            role="img"
-            aria-label="New air conditioning system installed at a home"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local AC Installation Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            AC installation across {site.serviceArea} usually comes down to matching a new
+            system to the home’s layout and cooling load. An older unit on R-22 refrigerant is a
+            strong case for replacement, and some homes need ductwork or electrical updates.
+            Inside Cincinnati city limits, a new or replacement air conditioner needs a
+            mechanical permit from the Department of Buildings &amp; Inspections. NWS Wilmington
+            counts about 21 days a year at 90°F or higher, so an undersized unit shows quickly.
+            You approve the price before installation begins.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             AC Installation & Replacement
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -339,7 +347,7 @@ export default function ACInstallationPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

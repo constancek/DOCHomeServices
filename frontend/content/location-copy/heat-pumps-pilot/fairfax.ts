@@ -2,9 +2,9 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const fairfax: LocationServiceCopy = {
   localParagraph:
-    'Fairfax is mostly gas-heated, so a heat pump here usually works as dual fuel, with a gas furnace behind it. Census figures show 21.4% of homes heat with electricity, a figure that also counts electric furnaces and baseboard. Most are detached houses, many built before 1940. When the July 2026 flash flood overwhelmed the sewers and Duck Creek, basements filled, and an air handler or outdoor unit that sat in water needs checking before it runs. We find the fault and price it first.',
+    'About 77.2% of Fairfax homes burn gas for heat, according to Census figures, so the heat pumps we see here mostly sit in front of a furnace as dual fuel. Another 21.4% use electricity, which lumps heat pumps together with baseboard and electric furnaces. The median house went up in 1942. When the July 2026 flash flood overwhelmed the sewers and Duck Creek, basements filled, and an air handler or outdoor unit that sat in water needs checking before it runs. We find the fault and price it first.',
   emergencyParagraph:
-    'At the Cincinnati airport, NOAA normals put the January low at about 23F. A Fairfax house without heat on a night like that loses warmth steadily, and babies, older relatives and anyone ill are the first to suffer. We repair heat pumps and the gas furnaces that back them up, usually the same day, weekends included.',
+    'The National Weather Service lists a normal January low near 23F at the Cincinnati airport. Lose heat on a night like that in a 1940s Fairfax house and the rooms cool steadily, with infants, grandparents and anyone sick feeling it soonest. We repair heat pumps and their backup furnaces, usually the same day, weekends included.',
   commonIntro:
     'Fairfax heat pump calls come mostly from owner-occupied houses with a gas furnace as backup. These four come up most:',
   localFaqs: [
@@ -29,28 +29,28 @@ export const fairfax: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Check a few things before calling. The thermostat must be on heat. A clogged filter needs replacing. The heat pump has an outdoor breaker and an air handler breaker, and a tripped one stops the system. Snow or leaves around the outdoor unit should come off. Steam rising from it with the fan stopped for a few minutes is defrost, which is normal. If the heat comes back, you don’t need us. Call when the coil stays frozen or the furnace should be running and isn’t. If you smell gas, leave the house and call the gas company from outside. We quote before any work.',
+        body: 'A short walk around can save Fairfax owners a service call. First the wall thermostat: heat mode, not cool or off. Then the filter: replace it if matted with dust. Then the electrical panel, where the condenser and the air handler each have their own breaker; reset a tripped one. Out back, pull leaves and snow off the condenser. Vapor drifting up while its fan rests for a few minutes is a defrost cycle. Heat restored? Keep your money. We should come out when the coil stays frozen or the gas furnace won’t fire when it should. Any gas odor: get outside, then call the gas company.',
       },
       {
         title: 'Repair or Replace Your Fairfax Heat Pump?',
-        body: 'Look at the heat pump, not the house. A Fairfax home from the 1940s can have a heat pump that’s only a few years old, and a bad relay or a frayed control wire on it is a repair. A refrigerant leak or failed compressor on an older unit means it’s time to compare a repair quote with a replacement quote; we give you both. In a dual fuel house, a weak heat pump hides behind the furnace, so a gas bill higher than last winter’s is often the first clue. The furnace can also carry you through cold days while you decide.',
+        body: 'The condenser label answers this better than the house does. Plenty of 1940s Fairfax houses carry a heat pump installed in the last few years, and when a relay sticks or a control wire frays on one of those, we fix it. Leaking refrigerant or a burned-out compressor on a unit with long service behind it is when we hand you a repair figure and a replacement figure together. Dual fuel masks a failing heat pump, since the furnace quietly takes over; a gas bill above last January’s is often the tip-off. Meanwhile that furnace keeps the house warm while you choose.',
       },
     ],
     whyTitle: 'Why Fairfax Homeowners Call Us',
     whyParagraph:
-      'Many Fairfax heat pumps work beside a gas furnace in an older house, and we repair both sides of that system. You approve a flat-rate price before work, and if we don’t make it right, you don’t pay.',
+      'In Fairfax the heat pump usually works beside a gas furnace in a house from around 1942. We repair either one. You sign off on one flat price first, and if we don’t make it right, you don’t pay.',
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Fairfax?',
-        a: 'It turns on what broke. A relay or a control wire is a quick fix, and a refrigerant leak takes longer to find and seal. Once we’ve diagnosed it, you get a flat-rate price to approve before we start, with no overtime fees on weekends.',
+        a: 'The failed part decides it. Replacing a stuck relay is fast; locating and sealing leaking refrigerant is slower work. After diagnosis we give you a single flat number, and nothing gets done until you agree to it. A weekend visit carries the same rates as a weekday.',
       },
       {
         q: 'Should I repair or replace an older Fairfax heat pump?',
-        a: 'Repair it if a single part failed and the compressor is healthy. Replace it when the compressor is finished or a leak keeps coming back. The age on the unit’s label matters, not the house’s, and many Fairfax houses predate 1940. We price both so you can compare.',
+        a: 'One worn part and a strong compressor: fix it. A dead compressor, or refrigerant that keeps escaping after repairs: look at replacing it. Go by the install date on the condenser, because a Fairfax house from 1942 can hold a nearly new unit. You get both figures from us.',
       },
       {
         q: 'Why does my Fairfax heat pump blow cool air?',
-        a: 'Heat pump air is warm rather than hot, and after years of gas heat it can feel cool, which is normal. On the coldest days your furnace should take over. If the air is cold and the outdoor unit is frozen solid or silent, that is a fault.',
+        a: 'Most Fairfax families grew up with gas heat, which blows hot. A heat pump’s output is milder, so the first winter it can seem cool; that is just how it works. On bitter days the furnace should take over. Cold vents and a condenser locked in ice or not running mean a fault.',
       },
     ],
   },

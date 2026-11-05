@@ -10,7 +10,7 @@ export const elmwoodPlace: LocationServiceCopy = {
   localFaqs: [
     {
       q: 'My Elmwood Place landlord hasn’t fixed the heat pump. What can I do?',
-      a: 'Ohio law, ORC 5321.04, makes landlords keep supplied heating equipment in good and safe working order and provide reasonable heat. Put your request in writing and keep a copy. We fix heat pumps, not leases, and we can work for your landlord on the repair.',
+      a: 'With nearly two in three Elmwood Place homes rented, this comes up a lot. Under ORC 5321.04, an Ohio landlord who supplies the heating has to keep it in good and safe working order. Send the request by text or letter and save it. We fix heat pumps, not leases, and your landlord can hire us.',
     },
     {
       q: 'Water got into my Elmwood Place basement. Can I run the heat pump?',
@@ -29,11 +29,11 @@ export const elmwoodPlace: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Before booking, run through the simple fixes. The thermostat should be on heat, not cool or off. A clogged filter starves a heat pump of air, so replace it. Find the two breakers, outdoor unit and indoor air handler, and reset either one that tripped. Rake leaves and snow off the outdoor unit. Brief steam and frost with the fan stopped is a defrost cycle, not a breakdown. If that solves it, you don’t need us; tenants should still tell the landlord. Call for ice that keeps building or a grinding outdoor fan. We find the cause and price it before any repair.',
+        body: 'In an Elmwood Place double, check your own half first. The thermostat display has to read heat; cool or off explains a cold room. Hold the filter to a light, and if you can’t see through it, swap it. The panel has a breaker for the condenser out back and one for the air handler, and either can trip. Clear leaves from the condenser fins. Steam off the condenser while its fan sits still is the unit defrosting itself. Fixed? Then skip the call, though tenants ought to tell the landlord. Ice that never melts off, or a grinding condenser fan, needs a technician.',
       },
       {
         title: 'Repair or Replace Your Elmwood Place Heat Pump?',
-        body: 'The heat pump’s age and condition decide it, not the house’s. A house built before 1940 can carry a heat pump only a few years old, and a bad defrost sensor or a burned wire on that is worth fixing. A refrigerant leak or a seized compressor on an older unit is when a landlord or owner should weigh a repair price against a replacement price; we quote both, and we handle the replacement permit. Older ductwork can be sized for a furnace, so we check airflow before blaming the unit. A winter electric bill that jumps for no reason usually means backup heat is doing the work.',
+        body: 'Judge the equipment, since an Elmwood Place house from 1938 tells you nothing about the unit bolted to it. If a newer unit loses a defrost sensor or scorches a wire, fix it. The harder call is leaking refrigerant or a locked-up compressor on a unit with years behind it. Then the owner or landlord gets two written prices from us, and the replacement permit is our job. Ducts first run for a furnace can choke a heat pump, so we measure airflow before condemning the unit. A sudden spike on the Duke Energy bill points to the heat strips carrying the house.',
       },
     ],
     whyTitle: 'Why Elmwood Place Landlords and Homeowners Call Us',
@@ -50,7 +50,7 @@ export const elmwoodPlace: LocationServiceCopy = {
       },
       {
         q: 'Why does the heat pump in my Elmwood Place home blow cool air?',
-        a: 'Heat pump air is warm, not hot, so it feels cool compared with a gas furnace; that part is normal. In a dual fuel home, the furnace should take over when it gets very cold. Cold air with the outdoor unit iced up or stopped means something has failed.',
+        a: 'Hold a hand to the register: heat pump air runs lukewarm, and next to the gas furnace most Elmwood Place homes grew up with, that feels cool. Nothing is wrong there. With dual fuel, the gas side ought to kick on during hard cold. Truly cold air plus a frozen or silent condenser is a fault.',
       },
     ],
   },

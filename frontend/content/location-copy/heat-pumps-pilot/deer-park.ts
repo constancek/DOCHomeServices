@@ -2,11 +2,11 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const deerPark: LocationServiceCopy = {
   localParagraph:
-    'In Deer Park a heat pump almost always sits beside a gas furnace as a dual fuel system. Census figures show 77.4% of homes heat with gas and 19.4% with electricity, and that second figure also counts electric furnaces and baseboard. Most houses date from the 1940s and 1950s, so the heat pump was fitted to a furnace and ducts that came first. We test the outdoor unit, the indoor coil and the furnace handoff, then price the fix before we begin.',
+    'Gas is the main fuel in Deer Park, so nearly every heat pump we service here is paired with a furnace. Census figures put gas heat at 77.4% of homes and electricity at 19.4%, and the electric share also takes in baseboard and electric furnaces. The typical house went up in the 1940s or 1950s, which means the ducts and furnace were there long before the heat pump. We check the outdoor unit, the indoor coil and the switchover to gas, then quote before starting.',
   emergencyParagraph:
-    'With a January normal low near 23F, by NOAA’s figures for the Cincinnati airport, a Deer Park house that loses its heat pump and its backup gets cold fast. Babies, older relatives and anyone ill are most at risk. We fix the heat pump, the air handler and the backup heat, usually the same day and on weekends too.',
+    'NOAA’s normals for the Cincinnati airport put the January low near 23F. If a Deer Park house loses both the heat pump and the gas backup on a night like that, it chills quickly, and infants, aging parents and sick family members feel it most. We repair the heat pump, the air handler and the backup, usually same day.',
   commonIntro:
-    'Deer Park heat pump calls nearly always involve a 1940s or 1950s house where the heat pump shares the work with a gas furnace. These four come up most:',
+    'Most of our Deer Park work is in 1940s and 1950s houses where the heat pump and a gas furnace split the heating. The four we see most:',
   localFaqs: [
     {
       q: 'Who issues the permit for a heat pump replacement in Deer Park?',
@@ -14,14 +14,14 @@ export const deerPark: LocationServiceCopy = {
     },
     {
       q: 'I rent a house in Deer Park and the heat pump quit. What should I do?',
-      a: 'Put it in writing to your landlord. Under ORC 5321.04, an Ohio landlord who supplies the heat pump has to keep it in good and safe working order. Before you write, look at the thermostat mode, the filter and both breakers, and say what you found. The owner can book us directly. We fix heat pumps, not leases.',
+      a: 'Write to your landlord. Ohio’s ORC 5321.04 requires a landlord who supplies the heat pump to keep it in good and safe working order. In the note, mention what you checked: thermostat mode, filter and both breakers. The owner can call us directly. We fix heat pumps, not leases.',
     },
   ],
   overrides: {
     ctaLine: 'Deer Park heat pump and dual fuel repair, priced up front',
     band1Heading: 'Common Heat Pump Problems in Deer Park Homes',
     commonSituations: [
-      'A dual fuel thermostat that never switches from the heat pump to the gas furnace',
+      'A thermostat that leaves the heat pump running on a bitter night instead of calling the gas furnace',
       'A 1950s house where the back bedrooms stay cool once the heat pump takes over',
       'An outdoor unit beside the driveway buried under shoveled snow',
       'A reversing valve stuck in cooling mode on the first cold morning of fall',
@@ -29,28 +29,28 @@ export const deerPark: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'On a Deer Park dual fuel system, the thermostat needs heat, not cool or off. Swap a dirty filter. Look for two breakers: the outdoor unit’s and the indoor air handler’s. Shovel snow and sweep leaves off the outdoor unit. If you see steam, light frost or the fan resting for a few minutes, the unit is defrosting. You don’t need us if those fix it. Call when the coil stays packed with ice, the emergency heat light won’t go off, or the outdoor fan sits still. We find the fault, explain it, wait for your yes on the price and test before leaving.',
+        body: 'Set the thermostat on a Deer Park dual fuel system to heat; cool or off won’t warm anything. A dirty filter should go. There are two breakers to look at, the outdoor unit’s and the air handler’s inside. Clear shoveled snow and blown leaves away from the outdoor unit. Steam, a light frost or a fan that stops for a few minutes is defrost at work. If one of those checks brings the heat back, skip the call. Ring us when ice stays packed on the coil, emergency heat won’t switch off, or the outdoor fan won’t turn. We find it, explain it, get your yes on price and test.',
       },
       {
         title: 'Repair or Replace Your Deer Park Heat Pump?',
-        body: 'Judge the equipment, not the house around it. Plenty of Deer Park homes are on their first heat pump, added to a gas furnace that was already there, and a worn contactor or defrost sensor on that unit is a repair. A leaking coil or a compressor that won’t start is the point where we price replacement beside the repair. Your Duke Energy bills tell you a lot: when a weak heat pump hands too much of the job to the furnace, the gas side climbs in an ordinary winter month. Financing is available on replacements.',
+        body: 'The house’s age matters less than the heat pump’s. Lots of Deer Park homes are still on their first heat pump, bolted onto a gas furnace that came earlier, and a worn contactor or defrost sensor on it gets repaired. A coil that leaks or a compressor that won’t start is when you see a replacement price next to the repair price. Duke Energy bills give it away: a weak heat pump pushes work onto the furnace, so gas use rises in an ordinary winter month. Replacements can be financed.',
       },
     ],
     whyTitle: 'Why Deer Park Homeowners Call Us',
     whyParagraph:
-      'Deer Park is mostly gas heat, so the heat pumps we see here are usually half of a dual fuel system. We repair both halves. Technicians are licensed, insured and background-checked, and you approve a flat-rate price first.',
+      'In Deer Park the heat pump usually shares duty with a gas furnace, and we repair both sides. Our technicians are licensed, insured and background-checked, and the flat-rate price is yours to approve.',
     sharedFaqs: [
       {
         q: 'How is heat pump repair priced in Deer Park?',
-        a: 'By the job, not the hour. We find what failed first, whether that is a capacitor, a defrost control or a refrigerant leak in the coil, and then give you one flat-rate price. Nothing is replaced until you approve it, and a Saturday visit costs the same as a Tuesday.',
+        a: 'Per job. First we track down the failure, say a capacitor, a defrost control or a leak in the coil, and then you get one flat-rate number. Nothing gets replaced without your okay, and Saturday pricing matches Tuesday pricing.',
       },
       {
         q: 'Should I repair or replace the heat pump in my Deer Park house?',
-        a: 'Read the install date on the outdoor unit, because the house’s age tells you nothing here. A fairly new heat pump with one failed part should be repaired. A dead compressor or refrigerant that keeps leaking out of an older unit is when we price both options and let you choose.',
+        a: 'The outdoor unit’s label has the install date, and that matters more than when the house went up. One failed part on a fairly new heat pump is a repair. A compressor that died, or an older unit that keeps losing refrigerant, gets two prices from us, and the choice is yours.',
       },
       {
         q: 'Why does my Deer Park heat pump blow cool air?',
-        a: 'Next to the gas furnace you grew up with, heat pump air feels mild, and that lukewarm feel is normal. Cold air while the outdoor unit is frozen over or not running is a fault. In a dual fuel system it can also mean the furnace isn’t taking over when it should.',
+        a: 'Expect it to feel softer than gas furnace heat; lukewarm air at the register is how a heat pump works. Chilly air while the outdoor unit is iced or silent means something broke. With dual fuel, it may also mean the furnace never got the signal to take over.',
       },
     ],
   },

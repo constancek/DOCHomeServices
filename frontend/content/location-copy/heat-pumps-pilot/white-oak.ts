@@ -33,11 +33,11 @@ export const whiteOak: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Before you call, check four things. The thermostat has to be set to heat. The filter should be clean. Both breakers need to be on, the outdoor one and the one for the indoor unit. And the outdoor unit needs room, so clear snow, ice and leaves away from it. Steam and light frost on the coil during defrost are normal, and so is the fan resting for a few minutes. If the heat comes back, you don’t need us. If ice won’t melt off or the system only cools, call. We test it, explain the fault and price the repair before work.',
+        body: 'Start at the wall: a thermostat left on cool or off gives no heat. Pull the filter and replace it if it’s gray. In the panel, the outdoor unit and the indoor unit each have a breaker; flip on any that tripped. Give the outdoor unit room by shoveling snow, chipping ice and sweeping leaves from its sides. On cold days the coil defrosts itself, so steam, light frost and a fan sitting still briefly are normal. Heat back on means no call. Ice that never melts or a system that only cools means call us. We test, show you the fault and quote it first.',
       },
       {
         title: 'Repair or Replace Your White Oak Heat Pump?',
-        body: 'Judge the heat pump by its own age, which is on the label outside, not by when the house went up. A failed capacitor, contactor or defrost board on a healthy unit is a straightforward repair. A compressor failure or a refrigerant leak on an older unit is where we price repair and replacement together, so you can compare. For a replacement we handle the permit and the township zoning step. In an all-electric home, a weak heat pump shows up as a bigger Duke Energy bill, because the backup strips are running more of the time.',
+        body: 'A White Oak house from 1968 can have a heat pump that went in decades later, so read the date on the outdoor label instead of guessing from the house. On a unit that tests healthy, a bad defrost board or one burned-out electrical part gets fixed and that’s the end of it. An older unit that lost its compressor or keeps leaking refrigerant gets two quotes from us, one to fix and one to replace. Replacement brings the permit and the township zoning step, which we take care of. In all-electric homes, a failing heat pump announces itself on the Duke Energy bill as the backup strips run longer.',
       },
     ],
     whyTitle: 'Why White Oak Homeowners Call Us',

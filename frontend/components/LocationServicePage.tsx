@@ -8,6 +8,8 @@ import Accordion from './Accordion';
 import LocationVideoProof from './LocationVideoProof';
 import LogoMarquee from './LogoMarquee';
 import LocationTeamPhotos from './LocationTeamPhotos';
+import IconChecklistBand, { type IconChecklist } from './IconChecklistBand';
+import ProcessStepsBand, { type ProcessSteps } from './ProcessStepsBand';
 import { videoForLocation } from '@/content/videoTestimonials';
 import { site } from '@/content/site';
 import type { Location, Adjacent } from '@/content/locations';
@@ -27,6 +29,9 @@ export type LocationServiceCopy = {
   // (45-60 words), replacing the intro heading, relevance and sidebar sections.
   localParagraph?: string;
   emergencyParagraph?: string;
+  // Test (Boilers, Clifton only, 2026-11-04): show the service's icon checklist
+  // band after the common-problems band. Remove this flag if it is rolled out.
+  showChecklist?: boolean;
   // Fully localized towns replace the service's shared sections with their own
   // versions (same topics, written for that town). Anything left out falls back
   // to the shared config.
@@ -53,6 +58,18 @@ type LocalizableField =
 export type ServiceLocationConfig = {
   slug: string;
   serviceName: string;
+  // Optional shorter names for the two one-format top headings, for services
+  // whose full name is long (Boilers: "Local Boiler Service Pros…",
+  // "Emergency Boiler Repair in…"). Default: serviceName.
+  localHeadingName?: string;
+  emergencyHeadingName?: string;
+  // Optional full second heading for services where "Emergency [Service]"
+  // reads wrong (Electrical Inspections: "Urgent Electrical Problems in {neighborhood}").
+  emergencyHeading?: string;
+  // Optional icon checklist band ({neighborhood} is filled in the heading).
+  checklist?: IconChecklist;
+  // Optional 3-step "What to Expect" band, start to finish ({neighborhood} is filled in the heading).
+  steps?: ProcessSteps;
   eyebrow: string;
   hubLabel: string;
   parentCrumb?: { label: string; href: string };
@@ -181,11 +198,13 @@ export default function LocationServicePage({
             <>
               {/* One-format layout: two headings, one paragraph each. */}
               <h2 className="section-title text-brand-700">
-                Local {config.serviceName} Pros Who Know {loc.neighborhood}
+                Local {config.localHeadingName ?? config.serviceName} Pros Who Know {loc.neighborhood}
               </h2>
               <p className="mt-4 text-[17px] leading-relaxed text-ink/75">{copy.localParagraph}</p>
               <h2 className="mt-10 section-title text-brand-700">
-                Emergency {config.serviceName} in {loc.neighborhood}
+                {config.emergencyHeading
+                  ? fill(config.emergencyHeading)
+                  : `Emergency ${config.emergencyHeadingName ?? config.serviceName} in ${loc.neighborhood}`}
               </h2>
               <p className="mt-4 text-[17px] leading-relaxed text-ink/75">{copy.emergencyParagraph}</p>
             </>
@@ -239,6 +258,12 @@ export default function LocationServicePage({
           </div>
         </div>
       </section>
+
+      {config.steps && <ProcessStepsBand {...config.steps} heading={fill(config.steps.heading)} />}
+
+      {config.checklist && copy.showChecklist && (
+        <IconChecklistBand {...config.checklist} heading={fill(config.checklist.heading)} />
+      )}
 
       {/* Reviews: one local customer video, right after the common problems */}
       <LocationVideoProof
@@ -295,7 +320,7 @@ export default function LocationServicePage({
           <h2 className="section-title text-brand-700">{config.serviceName} FAQs for {loc.neighborhood}</h2>
           <div className="mt-4">
             <Accordion
-              items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))}
+              items={faqs.map((f) => ({ title: f.q, body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p> }))}
               defaultOpen={0}
             />
           </div>

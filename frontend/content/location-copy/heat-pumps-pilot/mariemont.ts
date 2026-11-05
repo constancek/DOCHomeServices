@@ -33,7 +33,7 @@ export const mariemont: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Try the simple checks before you call. The thermostat has to be in heat mode. A filter caked with dust should be replaced. There are two breakers to look at, for the outdoor unit and for the indoor air handler, and a tripped one just needs resetting. Keep the outdoor unit free of snow and fallen leaves. When the heat pump defrosts, a little steam, light frost and a fan that stops for a few minutes are all expected. If warm air returns, no visit is needed. We should come when ice won’t clear, the outdoor fan won’t turn, or the auxiliary light stays on. You approve the price first.',
+        body: 'A few Mariemont no-heat calls are solved at the thermostat: it must say heat. Pull the filter, and if it’s gray with dust, change it. The panel has two breakers for this system, outdoor unit and indoor air handler; flip back a tripped one. Rake leaves and shovel snow clear of the unit outside. During defrost, rising vapor, a skin of frost and the fan idling a few minutes are routine. Warm air coming back means we’re not needed. Book us for ice that never melts off, an outdoor fan that won’t spin or an aux light stuck on. You approve the price first.',
       },
       {
         title: 'Repair or Replace Your Mariemont Heat Pump?',
@@ -54,7 +54,7 @@ export const mariemont: LocationServiceCopy = {
       },
       {
         q: 'Why does my Mariemont heat pump blow cool air?',
-        a: 'Heat pump air is warm but not hot, so next to your old furnace it can feel cool. That is normal. Cold air with the outdoor unit frozen over or not running is not, and neither is a heat pump stuck in cooling. Check the thermostat mode, then book us.',
+        a: 'Lukewarm is normal for a heat pump. It heats with long runs of warm, not hot, air, which feels mild if you grew up with a furnace. Truly cold air while the outside unit is iced or silent is a fault, and so is a unit stuck cooling. Check the thermostat mode first, then call.',
       },
     ],
   },

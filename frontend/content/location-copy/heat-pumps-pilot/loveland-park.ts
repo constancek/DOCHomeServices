@@ -29,7 +29,7 @@ export const lovelandPark: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Set the thermostat to heat; cool or off won’t warm the house. Swap a clogged filter. Reset the outdoor unit’s breaker and the indoor air handler’s if either tripped. Pull leaves, snow and ice away from the outdoor unit. Steam drifting off it, light frost and a short fan pause are a normal defrost cycle. If heat comes back, you don’t need us. Call when the coil stays wrapped in ice, the emergency heat light never shuts off or the fan outside won’t spin. We find the fault, explain it and get your approval on the price before any repair.',
+        body: 'The thermostat must read heat; on cool or off, nothing warms up. A filter caked with dust starves the system, so change it. Two breakers feed it, one outside and one for the indoor air handler; reset any that tripped. Clear fallen leaves and drifted snow off the outside unit. Vapor, thin frost and the fan resting a few minutes mean it is defrosting. If warm air returns, skip the call. Phone us if ice keeps building on the coil, the aux light stays lit or the outside fan sits still. We diagnose, walk you through it and quote a price you sign off on first.',
       },
       {
         title: 'Repair or Replace Your Loveland Park Heat Pump?',

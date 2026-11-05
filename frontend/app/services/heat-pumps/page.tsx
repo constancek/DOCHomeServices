@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -72,10 +72,10 @@ export default function HeatPumpsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Heating"
+      <LocationHero
         title={`Heat Pumps in ${site.serviceArea}`}
-        description="Repair, installation, and replacement for one efficient system that heats and cools your home all year — mini-split or traditional."
+        image="/services/heat-pump-hero.webp"
+        imageAlt="Heat pump system at a home"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -87,23 +87,36 @@ export default function HeatPumpsPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/heat-pump-hero.webp)' }}
-            role="img"
-            aria-label="Heat pump system at a home"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Heat Pump Service Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Heat pump service across {site.serviceArea} usually reflects a system that runs all
+            year, heating in winter and cooling in summer, so wear shows up in both seasons.
+            Common faults are low refrigerant, a stuck reversing valve, an iced outdoor unit and
+            dirty coils. With January lows near 23°F at CVG (NOAA normals), many homes pair the
+            heat pump with a gas furnace in a dual-fuel setup. We work on mini-split and
+            traditional systems and tell you the cause and the cost before any repair begins.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Heat Pump Repair in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            A heat pump that stops heating puts infants and older relatives at risk first.
+            NOAA’s 1991-2020 normals count about 100 nights a year at or below freezing at CVG,
+            and an iced outdoor unit or a failed defrost can leave the house on backup heat or
+            none. Most heat pump calls are handled the same day, weekends included.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Heat Pump Repair & Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             When your heat pump is not keeping your home comfortable, you need expert help fast.{' '}
             {site.name} focuses on heat pump repair and installation for homeowners across{' '}
             {site.serviceArea}.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            If your system blows cool air in winter, struggles to cool in summer, or breaks down
-            often, we can help — our certified technicians identify the problem and fix it.
           </p>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             And if repairs are not cost-effective, we help you with heat pump replacement and
@@ -262,7 +275,7 @@ export default function HeatPumpsPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

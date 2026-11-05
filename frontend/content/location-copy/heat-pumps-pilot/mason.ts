@@ -4,7 +4,7 @@ export const mason: LocationServiceCopy = {
   localParagraph:
     'In Mason, a heat pump may share the job with a gas furnace that takes over on the coldest nights. Census figures show 60.3% of homes heat with gas and 36.6% with electricity, a share that covers electric furnaces as well as heat pumps. Over half the city’s homes went up between 1990 and 2009, so many builder-installed outdoor units are aging together. Townhouses put air handlers in tight closets. We find what failed and quote it before any work begins.',
   emergencyParagraph:
-    'NOAA counts about 100 nights a year at or below freezing at the Cincinnati airport, the weather record we go by for Mason. A house without heat on one of those nights is a problem for babies, older relatives and anyone ill. We repair heat pumps and dual fuel systems, most the same day, weekends included.',
+    'Mason gets roughly 100 freezing nights a year, going by NOAA’s Cincinnati airport records. Lose heat on one and infants, elderly parents and sick family members feel it first. We fix heat pumps and the gas furnaces paired with them, usually the day you phone, Saturday and Sunday too.',
   commonIntro:
     'Mason heat pump trouble usually traces to 1990s and 2000s builder equipment, or to the handoff between the heat pump and its gas backup. These four come up most:',
   localFaqs: [
@@ -29,11 +29,11 @@ export const mason: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Check four things first. The thermostat should be on heat. The filter should be clean. Both breakers, outdoor unit and indoor air handler, should be on. Nothing should be packed around the outdoor unit, snow and leaves included. A cloud of steam and a short fan pause in cold weather mean the unit is defrosting, which is normal. Get the heat back that way and you don’t need us. Call if the unit stays crusted in ice or blows cool air on a heat setting. Smell gas near the furnace? Leave and call the gas company from outside. We diagnose it and quote before working.',
+        body: 'Confirm the thermostat says heat. A dusty filter gets swapped. In the panel, the outdoor unit and the indoor air handler each have a breaker; both belong in the on position. Kick away drifted snow and piled leaves from the outdoor unit. Vapor and a parked fan for a few minutes are a defrost; leave it be. If that brings the heat back, you can skip us. Call when ice keeps crusting the coil or a heat setting gives cool air. Gas smell by the furnace means leave, then call the gas company from outside. We diagnose and quote first.',
       },
       {
         title: 'Repair or Replace Your Mason Heat Pump?',
-        body: 'Go by the heat pump’s age and condition, not the year the house was built. Mason builders put in a lot of equipment between 1990 and 2009, and some of those units are original. A refrigerant leak or a dead compressor on one of them is usually the point to price a replacement next to the repair. On a newer unit, the same failure is often worth fixing. In an all-electric Mason home, a sharp jump in the Duke Energy bill in a normal month means the backup heat strips are covering for the heat pump.',
+        body: 'Judge it by the heat pump’s own years, not the house’s. Builders across Mason set a lot of units between 1990 and 2009, and plenty of those are still the originals. On one of those, a leak in the refrigerant circuit or a compressor that has quit is when we write a replacement quote beside the repair quote. The same failure on a younger unit usually gets fixed. In an all-electric house, a Duke Energy bill that leaps in an ordinary month tells you the backup strips are doing the heat pump’s work.',
       },
     ],
     whyTitle: 'Why Mason Homeowners Call Us',
@@ -42,7 +42,7 @@ export const mason: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Mason?',
-        a: 'We can’t say until we’ve found the fault. A burned contactor is a quick swap, while a refrigerant leak in an older line set takes longer to find and seal. You approve one flat-rate price after the diagnosis, before any work, and a weekend visit carries no overtime fee.',
+        a: 'Diagnosis comes before any number. Swapping a burnt contactor is fast; chasing a refrigerant leak through an older line set is slow. Once we know which it is, you get a single flat-rate figure to approve, and nothing begins until you do. Weekends cost the same, with no overtime added.',
       },
       {
         q: 'Is my Mason heat pump worth repairing?',
@@ -50,7 +50,7 @@ export const mason: LocationServiceCopy = {
       },
       {
         q: 'Why does my Mason heat pump feel cool in winter?',
-        a: 'A heat pump delivers steady warm air, not the hot blast of a gas furnace, so it can feel lukewarm at the register. That part is normal. Air that’s actually cold, with the outdoor unit iced over or silent, means something has failed and needs a technician.',
+        a: 'That mild air is how heat pumps work. They run long and steady at a lower temperature than a gas furnace blast, so the register feels lukewarm. In a Mason dual fuel house, the furnace should take the coldest nights. Cold air with the outdoor unit frozen or still means a part has failed.',
       },
     ],
   },

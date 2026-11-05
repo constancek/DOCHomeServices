@@ -10,7 +10,7 @@ export const batavia: LocationServiceCopy = {
   localFaqs: [
     {
       q: 'I rent in Batavia. Who pays to fix the heat pump?',
-      a: 'Usually the landlord. Ohio’s ORC 5321.04 requires landlords to keep the heating equipment they supply in good and safe working order and to provide reasonable heat. Tell your landlord in writing and they can book us. We fix heat pumps, not leases, so the agreement stays between you two.',
+      a: 'In most cases your landlord. Ohio’s ORC 5321.04 puts landlords on the hook for heating equipment they supply: good and safe working order, plus reasonable heat. Write to your landlord, who can then book us. We fix heat pumps, not leases, so the rental terms stay between the two of you.',
     },
     {
       q: 'My heat pump is near the East Fork and got wet. Is it safe to run?',
@@ -29,11 +29,11 @@ export const batavia: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'A few checks can save you the visit. In any Batavia home the thermostat has to read heat; cool or off gives you nothing warm. Swap a clogged filter. The outdoor unit has its own breaker, and the air handler or furnace inside has another, so look at both. Knock snow and leaves away from the outdoor unit. Frost, steam and the fan stopping for a few minutes all happen during defrost and are normal. If heat returns, you don’t need us, and renters should still tell the landlord. Call when ice won’t clear, the auxiliary heat light stays on or the unit grinds. We price the repair before starting.',
+        body: 'Some Batavia calls never need a truck. Set the thermostat to heat; on cool or off, nothing warm comes out. Replace a gray filter. One breaker serves the outdoor unit and a second the air handler or furnace indoors, and both must be on. Kick snow and leaves clear of the outside cabinet. Light frost, steam and a fan that rests a few minutes are part of defrost. Warm air again means you can skip us, though renters should still tell the landlord. We need to come out when ice stays put on the coil, the auxiliary heat lamp won’t switch off or the outdoor unit grinds.',
       },
       {
         title: 'Repair or Replace Your Batavia Heat Pump?',
-        body: 'Base it on the heat pump’s age, not the house’s. A 1950s Batavia home may have a heat pump that’s fairly new, and a failed defrost board or contactor on that is a repair. A refrigerant leak or worn-out compressor on an older unit is where we price replacement beside the repair. Clermont County Building Inspection issues HVAC replacement permits in the village, and we apply for it. On a Duke Energy Ohio bill, a big jump in an all-electric home usually means the strips are heating the house, not the heat pump.',
+        body: 'Judge the equipment by its own date. Census figures put 33.7% of Batavia homes before 1940, but the heat pump outside one of them may be quite new, and a bad defrost board or contactor there gets fixed. An older unit losing refrigerant, or one whose compressor has worn out, gets a replacement quote set beside the repair quote. Clermont County Building Inspection issues HVAC replacement permits in the village, and we apply for it. In an all-electric home, a big jump on the Duke Energy Ohio bill usually means the strips are heating the house instead of the heat pump.',
       },
     ],
     whyTitle: 'Why Batavia Homeowners and Landlords Call Us',
@@ -50,7 +50,7 @@ export const batavia: LocationServiceCopy = {
       },
       {
         q: 'Why is my Batavia heat pump blowing cool air in winter?',
-        a: 'A heat pump puts out milder air than a furnace, so a lukewarm feel at the vent is normal. If the air turns cold and the outdoor unit is buried in ice or not running, that’s a fault. In an apartment, report it to the landlord.',
+        a: 'Air from a heat pump is gentler than furnace air, so the vents can feel only lukewarm, and that is normal. Cold air with the outdoor unit iced solid or sitting still is a fault. Apartment tenants in Batavia should pass that on to the landlord.',
       },
     ],
   },

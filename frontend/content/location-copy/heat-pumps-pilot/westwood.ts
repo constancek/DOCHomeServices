@@ -4,7 +4,7 @@ export const westwood: LocationServiceCopy = {
   localParagraph:
     'Most homes in Westwood are rented, so a lot of our heat pump work here is for landlords and building owners. Census figures show 48.4% of homes heat with electricity and 48.0% with gas, which puts all-electric apartments a block from houses running a heat pump with a gas furnace behind it. Most of the housing went up between 1940 and 1979, so many heat pumps were added later to existing ductwork. We find the problem and give the owner a price before starting.',
   emergencyParagraph:
-    'A heating failure in a Westwood apartment or house is most serious with a baby, an older relative or anyone ill at home. NOAA normals for CVG show January lows near 23 degrees. We repair heat pumps, electric air handlers and dual fuel systems, and reach most calls the same day, weekends included.',
+    'January lows near 23 degrees are normal at CVG, by NOAA’s count. In a Westwood apartment or house, losing heat on such a night is hardest on babies, older relatives and anyone who is ill. Heat pumps, electric air handlers and dual fuel systems are all work we do, with most calls reached the same day, Saturdays and Sundays too.',
   commonIntro:
     'Westwood heat pump calls run from all-electric apartment buildings to mid-century houses with dual fuel systems. These come up most:',
   localFaqs: [
@@ -14,7 +14,7 @@ export const westwood: LocationServiceCopy = {
     },
     {
       q: 'Do I need a permit to replace a heat pump in Westwood?',
-      a: 'Yes. Westwood is inside the City of Cincinnati, and the Department of Buildings & Inspections requires a mechanical permit to replace heating and cooling equipment. We pull it before the old unit comes out. Repairs to your existing heat pump are quoted and done on the visit.',
+      a: 'Yes. Because Westwood is part of the City of Cincinnati, its Department of Buildings & Inspections wants a mechanical permit whenever heating or cooling equipment gets replaced. We have it in hand before the old unit is disconnected. Repairs to your existing heat pump are quoted and done on the visit.',
     },
   ],
   overrides: {
@@ -29,7 +29,7 @@ export const westwood: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'A handful of checks come first. Set the thermostat to heat and swap a grimy filter. The panel holds a breaker for the condenser and one for the air handler, and a tripped one gets a single reset. Rake leaves and snow away from the condenser. Steam and light frost while the fan rests a few minutes is defrost, which is fine. If warmth returns, you don’t need us, but renters should still let the landlord know. We’re needed when the coil stays frozen, the emergency heat light won’t switch off, or the condenser fan sits still. If you smell gas near a backup furnace, leave and phone from outside.',
+        body: 'Westwood tenants and owners can rule out the easy causes. The thermostat belongs on heat. A grimy filter comes out and a clean one goes in. At the panel, the condenser and the air handler each have a breaker; reset a tripped one only once. Rake leaves and snow off the condenser. A unit that steams, frosts lightly and stops its fan for a bit is defrosting. Warmth back means skip us, though renters should still tell the landlord. A coil frozen for hours, an emergency heat light that never goes off, or a still condenser fan needs a technician. Gas smell near a backup furnace: get out, then call.',
       },
       {
         title: 'Repair or Replace Your Westwood Heat Pump?',
@@ -50,7 +50,7 @@ export const westwood: LocationServiceCopy = {
       },
       {
         q: 'Why is my Westwood heat pump blowing cool air?',
-        a: 'A heat pump’s air feels mild next to a gas furnace’s, and that’s normal. If the vents blow cold and the outdoor unit is frozen over or silent, it’s a fault. Tenants should report it rather than open panels. In a dual fuel house, a furnace that never kicks in is a fault too.',
+        a: 'Compared with a gas furnace, heat pump air comes out mild, and in a Westwood home that alone means nothing is broken. Cold vents plus an outside unit that is frozen or quiet do mean trouble. Renters should report it and leave the panels shut. With dual fuel, a furnace that never takes over is also a fault.',
       },
     ],
   },

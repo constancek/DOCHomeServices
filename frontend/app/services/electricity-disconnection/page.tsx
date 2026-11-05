@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -127,10 +127,10 @@ export default function ElectricityDisconnectionPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Electrical"
+      <LocationHero
         title={`Electricity Disconnection in ${site.serviceArea}`}
-        description="Duke will not reconnect your power until the equipment you own is repaired and inspected. Here is what that means and how fast we can do it."
+        image="/services/panel-hero.webp"
+        imageAlt="Residential electric meter and service equipment"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -141,27 +141,36 @@ export default function ElectricityDisconnectionPage() {
 
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/panel-hero.webp)' }} role="img" aria-label="Residential electric meter and service equipment" />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Electricity Disconnection Repair Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Electricity disconnection repair across {site.serviceArea} usually means Duke Energy has
+            cut service because something on the homeowner’s side failed: a pulled-away meter base,
+            a bent mast or a damaged panel. Duke Energy Ohio and Duke Energy Kentucky both stop at
+            the meter, so the repair and the inspection fall to the homeowner. We do the electrical
+            work and the permit, then set up the reconnect with Duke. The repair is priced in
+            writing after the diagnosis and before anything is touched.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Electricity Disconnection Repair in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            A house with no power loses heat or cooling along with the sump pump, and every day
+            without it costs more than the last. Stay clear of a meter box that has pulled off the
+            wall, and for a downed line call 911 and Duke Energy first. Most disconnection calls get
+            an electrician the same day, weekends included.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Your Power Is Off. Here Is What Happens Next.
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Duke Energy will not reconnect your power until a licensed electrician repairs the equipment you
             own and, in most cases, a local inspector signs the work off. That is the answer, and it does not
             change no matter how many times you call them.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            The meter is the boundary. Duke installs and maintains the service line running to your house and
-            the meter itself. The weatherhead at the top of the mast, the mast and riser, the hardware holding
-            the line to your wall, the meter box, and everything inside your panel are yours. When the
-            disconnection is because something on that list failed, Duke physically cannot fix it for you.
-            They are not permitted to work on your equipment.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} repairs that equipment across {site.serviceArea}, pulls the permit, meets the
-            inspector, and coordinates the reconnect. Most people who call us have already lost a day
-            bouncing between the utility and search results. The first thing we do is tell you exactly what
-            is wrong and what it takes to fix it.
           </p>
         </MainWithSidebar>
       </section>
@@ -358,7 +367,7 @@ export default function ElectricityDisconnectionPage() {
         <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Electricity Disconnection FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">

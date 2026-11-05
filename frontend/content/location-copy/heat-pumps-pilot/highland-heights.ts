@@ -29,11 +29,11 @@ export const highlandHeights: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Plenty of no-heat calls here end with a quick fix the resident can do. Set the thermostat to heat. Put in a clean filter. Check the panel for the outdoor unit’s breaker and the air handler’s breaker. Brush away snow or leaves piled against the outdoor unit. During defrost the unit can steam, show light frost and stop its fan for a few minutes, which is normal. If heat returns, you don’t need us, though renters should still tell the landlord. Call when the outdoor unit stays frozen, the emergency heat light never goes out, or the fan won’t move. We inspect, explain, price first and test after.',
+        body: 'A Highland Heights resident can sort out many no-heat problems alone. The thermostat belongs on heat. A filter you can’t see light through gets swapped. Two breakers run the system, one outside unit, one air handler; both should be on. On a hillside lot, snow and leaves drift against the condenser; clear them. Steam, thin frost and a fan resting a few minutes mean it’s defrosting. Heat back on means no repair, though tenants should still tell the landlord. A unit that stays frozen, an emergency heat light that never clears or a fan that won’t turn is ours. We inspect, explain, price first and test after.',
       },
       {
         title: 'Repair or Replace Your Highland Heights Heat Pump?',
-        body: 'Decide by the heat pump, not the building. Most Highland Heights homes date from after 1960, and the outdoor unit on a 1985 house may be its second. A newer system with a failed defrost board, contactor or fan motor is worth repairing. A compressor that has quit, or refrigerant that keeps leaking, is when we put a replacement price next to the repair price. Duke Energy Kentucky bills help you spot trouble: a jump in an ordinary winter month usually means backup heat is doing work the heat pump should. Financing is available for replacements.',
+        body: 'The equipment settles this, and the building doesn’t. Most Highland Heights homes went up after 1960, and a 1985 house may already be on its second outdoor unit. Putting a new defrost board, contactor or fan motor into a younger system makes sense. Once the compressor is gone, or the refrigerant leaks back out after every charge, you get a written fix price and a new-unit price to weigh. Duke Energy Kentucky bills help you spot trouble: a jump in an ordinary winter month usually means backup heat is doing work the heat pump should. Financing is available for replacements.',
       },
     ],
     whyTitle: 'Why Highland Heights Residents and Landlords Call Us',
@@ -42,15 +42,15 @@ export const highlandHeights: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Highland Heights?',
-        a: 'We can quote once we know the fault. A failed contactor is a short visit, while a leak in the coil of an apartment air handler takes more time and parts. The flat-rate price is approved before work begins, and weekend visits cost the same as weekdays.',
+        a: 'The price follows the diagnosis. Swapping a burned contactor takes little time, while a leak in the coil of an apartment air handler takes more time and parts. The flat-rate price is approved before work begins, and weekend visits cost the same as weekdays.',
       },
       {
         q: 'Is my Highland Heights heat pump worth repairing?',
-        a: 'Usually, if it’s fairly new and one component failed. Check the install date on the outdoor unit, not the age of the house. A dead compressor or a repeat refrigerant leak on an older system changes the math, and we quote repair and replacement so you can compare them.',
+        a: 'Usually yes, when the unit is on the young side and only one part let go. The sticker on the outdoor unit gives its install date; the house’s age tells you little. A dead compressor or a repeat refrigerant leak on an older system changes the math, and we quote repair and replacement so you can compare them.',
       },
       {
         q: 'Why does my Highland Heights heat pump blow cool air?',
-        a: 'Heat pump air is gentler than furnace air, so a vent that feels lukewarm is often normal. A short burst of cool air during defrost is normal too. Steady cold air, with the outdoor unit iced over or not running, is a fault. Check the thermostat mode first, then call.',
+        a: 'Compared with a furnace, a heat pump pushes out softer warmth, so a lukewarm vent is usually fine. A short burst of cool air during defrost is normal too. Steady cold air, with the outdoor unit iced over or not running, is a fault. Check the thermostat mode first, then call.',
       },
     ],
   },

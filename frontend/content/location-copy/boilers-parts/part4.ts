@@ -11,28 +11,6 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
       { q: 'I smell gas near the boiler in my Reading basement. What should I do?', a: 'Leave the house now and call 911 or the gas utility from outside. Don’t flip switches, light anything, or try to shut the boiler off on your way out. Once the utility says it’s safe, call (513) 586-5107 and we’ll check the gas valve, burner, and fittings on the older boilers common in Reading’s valley homes.' },
     ],
   },
-  'dent': {
-    intro: 'Only a smaller share of Dent homes run a boiler, since most houses in this Green Township community have ductwork and a gas furnace. Those that do are older houses with original hot water systems or newer builds with radiant floors, where the pump and expansion tank fail.',
-    relevance: [
-      'Dent (ZIP 45247) is a Green Township community on the west side of Hamilton County, with established neighborhoods of mid-century and newer homes. To be straight with you, most of those houses were built with ductwork and a gas furnace, and if that is your setup, a boiler page is the wrong place. Call us about your furnace instead. Boilers turn up in a smaller share of homes here, usually an older house that kept its original hot water system or a newer build with radiant heat under the floors.',
-      'If you are in that group, the work is the same as anywhere. A hot water boiler holds water around 140°F and pushes it through baseboard or tubing, and the parts that fail are the pump, the expansion tank, the pressure relief valve, and the ignition controls. Annual service takes 60 to 90 minutes and catches most of that early. A well-maintained boiler lasts 15 to 25 years, so if yours came with the house, it may be due for a replacement conversation.',
-    ],
-    commonIntro: 'In the Dent homes that do run hot water heat, these are the boiler problems we get called for most:',
-    localFaqs: [
-      { q: 'My Dent house has baseboard heat. Is that a boiler?', a: 'If the baseboards are metal fins with water pipes running into them, yes, a boiler is heating that water. If they are electric baseboards with their own wall thermostats, there is no boiler and you need an electrician, not a boiler tech.' },
-    ],
-  },
-  'deer-park': {
-    intro: 'A boiler in a mid-century Deer Park house is worth checking before your first winter. Most homes in this small east-side city run furnaces, but some kept or added hot water baseboard, and those boilers are likely past 15 to 25 years. Rising gas use is one warning sign.',
-    relevance: [
-      'Deer Park (ZIP 45236) is a small, settled city on the east side of Hamilton County, made up largely of mid-century single-family homes on quiet streets. Homes of that era mostly went up with forced-air furnaces and ductwork, so the honest answer for most Deer Park owners is that you do not need a boiler contractor. The exceptions are houses where an owner kept or added hot water baseboard heat, and those systems are now old enough to need attention.',
-      'A boiler that went in when the house was built, or during a remodel a few decades back, is likely past the 15 to 25 years a well-maintained unit lasts. Signs it is on the way out: rising gas use, water around the base, frequent lockouts, or rooms that never get warm. We will tell you when a repair still makes sense and when a replacement high-efficiency boiler, running around 90%, is the better spend for a home this size.',
-    ],
-    commonIntro: 'In Deer Park’s mid-century homes that heat with water instead of air, the boiler issues we see most are:',
-    localFaqs: [
-      { q: 'Should I switch my Deer Park boiler to a furnace?', a: 'Usually not if the boiler still works, because adding ductwork to a house built without it is a big job. Replacing the old boiler with a high-efficiency one keeps the quiet, even heat you already have.' },
-    ],
-  },
   'terrace-park': {
     intro: 'Clanking cast-iron radiators are a familiar boiler issue in Terrace Park. Many early-1900s homes in this village near the Little Miami River have kept their radiators through several boiler replacements. Steam systems need water level, vents and pressure checked every year, and most of the noise is fixable.',
     relevance: [
@@ -45,61 +23,6 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
       { q: 'Can I zone my large early-1900s Terrace Park house so I’m not heating empty rooms?', a: 'Often, yes. In a bigger Terrace Park house we can split the radiator loops into zones with separate thermostats, using zone valves or extra circulators, so the third floor or a guest wing only heats when you need it. Steam systems are harder to zone, so we look at the piping before we promise anything.' },
     ],
   },
-  'dry-run': {
-    intro: 'For most Dry Run homes, boiler service is not needed, since houses in this Anderson Township community run gas furnaces. The boilers we work on here feed radiant floors in custom builds or hot water systems in older homes, and they rely on mixing valves and circulators that wear.',
-    relevance: [
-      'Dry Run (ZIP 45244) is a suburban Anderson Township community on the east side of Hamilton County, with neighborhoods of mid-century and newer single-family homes. Most of those houses were built around a gas furnace and ductwork. If that describes yours, skip this page and book a furnace tune-up. Boilers show up in a smaller number of Dry Run homes, usually a custom build with radiant heat in the floors or an older house that kept its original hot water system.',
-      'Radiant floor systems run cooler water than baseboard, and they depend on a mixing valve and circulator pumps that eventually wear. A high-efficiency condensing boiler, running around 90%, suits that lower-temperature work well, which is why many newer custom homes use one. Failing sump pumps are common in these neighborhoods too, and a wet basement is hard on any boiler, so we check the floor around the unit on every visit.',
-    ],
-    commonIntro: 'For the Dry Run homes that heat with a boiler, the problems we get called about most are:',
-    localFaqs: [
-      { q: 'Does radiant floor heat in Dry Run need yearly service?', a: 'Yes. The boiler behind it needs the same annual service as any other, 60 to 90 minutes, plus a check of the mixing valve and pumps that keep floor temperatures safe.' },
-    ],
-  },
-  'white-oak': {
-    intro: 'Hot water heat is the exception in White Oak, but where it exists, boiler repair usually comes down to a few parts. On these Green Township streets we find circulator pumps that seized over summer, pressure lost to a slow leak and ignition faults that lock the boiler out.',
-    relevance: [
-      'White Oak (ZIP 45247) is a settled Green Township community on the northwest side of Hamilton County, made up largely of mid-century and newer single-family homes. Most of them heat with a forced-air furnace, and for those owners we are the furnace call, not the boiler call. The minority with a boiler tend to be homes where an owner chose hot water baseboard for comfort, or a newer house finished with radiant floors in a basement or addition.',
-      'Those systems are simple, and most no-heat calls come down to a few parts: a circulator pump that seized over the summer, a pressure drop from a slow leak, or an ignition fault that locks the boiler out. Failing sump pumps are common in White Oak, and a boiler on a basement floor that floods even once rusts from the base. Annual service takes 60 to 90 minutes and is the simplest way to avoid the midnight call.',
-    ],
-    commonIntro: 'In the White Oak homes that run hot water heat, these are the boiler issues we see most:',
-    localFaqs: [
-      { q: 'My White Oak boiler runs but the house is cold. What is wrong?', a: 'Usually the circulator pump is not moving water, or air is trapped in the loop. Both are common repairs, and we check pressure and the pump before looking at the boiler itself.' },
-    ],
-  },
-  'forestville': {
-    intro: 'Many Forestville boilers are now second or third replacements that have aged out themselves. Most homes in this Anderson Township community run furnaces, but those with baseboard or radiant heat often have a unit past 15 to 25 years. A replacement sized to the house often ends up smaller.',
-    relevance: [
-      'Forestville (ZIP 45230) is a suburban Anderson Township community on the east side of Hamilton County, with established neighborhoods of mid-century and newer homes. Plainly, most of those homes use forced-air furnaces, and if yours does, you want furnace service. A smaller group run on a boiler with baseboard or radiant heat, and in the mid-century houses those boilers are often second or third replacements that have now aged out themselves.',
-      'A well-maintained boiler lasts 15 to 25 years. Past that, parts get harder to find and efficiency falls. A replacement high-efficiency boiler runs around 90%, and because it is sized to the actual heat loss of the house, it often ends up smaller than the unit it replaces. Forestville homes of that era also see water heaters and sump pumps fail, so if the basement has flooded before, we look for rust at the base of the boiler and on its controls.',
-    ],
-    commonIntro: 'Across Forestville’s homes with hot water heat, the boiler problems we handle most often are:',
-    localFaqs: [
-      { q: 'Is my Forestville boiler worth repairing or should I replace it?', a: 'If it is under 15 years old and the problem is a pump, valve, or control, repair it. If it is past 20, leaking from the heat exchanger, or locking out often, replacement is usually the better use of the money.' },
-    ],
-  },
-  'cherry-grove': {
-    intro: 'Cherry Grove boiler repair is usually routine. Older gas-fired boilers in homes with hot water baseboard use a pilot and thermocouple that shut the boiler down when they fail, and newer ones with radiant tubing lock out after failed starts. Most homes in this Anderson Township community run forced air.',
-    relevance: [
-      'Cherry Grove (ZIP 45230) is a suburban Anderson Township community on the east side of Hamilton County, with neighborhoods of mid-century and newer single-family homes. Most of those homes heat with forced air, so for many Cherry Grove owners this is the wrong service page, and we would rather say so than sell you something. The boilers we do see here tend to sit in houses with hot water baseboard, or in newer homes with radiant floor tubing.',
-      'Older gas-fired boilers use a pilot and thermocouple, and when either fails, the boiler shuts down to stay safe. Newer ones use electronic ignition and lock out after failed starts. Both are routine fixes. What is not routine is a cracked heat exchanger or a unit past its 15 to 25 year life, and at that point we will lay out the replacement options, including a high-efficiency boiler that runs around 90%.',
-    ],
-    commonIntro: 'In Cherry Grove homes heated by a boiler, the calls we get most often are for:',
-    localFaqs: [
-      { q: 'Can a Cherry Grove boiler run during a power outage?', a: 'Almost never. Gas-fired boilers still need electricity for the circulator pump, controls, and ignition, so when the power goes out, the heat stops with it.' },
-    ],
-  },
-  'kenwood': {
-    intro: 'Radiant floors that stop warming in a larger Kenwood home usually trace back to the boiler, a mixing valve or a pump. Newer houses around Kenwood Towne Centre use boilers for radiant floors, heated garages and zoned hot water, with more parts to fail. Mid-century homes here mostly run furnaces.',
-    relevance: [
-      'Kenwood (ZIP 45236) is an upscale, unincorporated community on the east side of Hamilton County around Kenwood Towne Centre, with mid-century homes alongside newer, larger houses. The mid-century homes mostly run forced-air furnaces, and those owners do not need a boiler contractor. The newer, larger houses are where boilers show up more often, feeding radiant floor heat, heated garages, or zoned hot water systems. Those homes also tend to have finished basements, so a leak at the boiler matters more.',
-      'Bigger systems have more parts to fail: multiple zone valves, several circulators, mixing valves, and sometimes an indirect water heater running off the boiler. A lockout in one of those homes can take out heat and hot water at the same time. We service all boiler types, gas-fired and combi included, and annual service takes 60 to 90 minutes. For a large zoned system, we test each zone, not only the boiler.',
-    ],
-    commonIntro: 'In Kenwood’s larger homes with boiler-fed zones and radiant floors, the problems we see most are:',
-    localFaqs: [
-      { q: 'Why is only one zone cold in my Kenwood house?', a: 'Usually a zone valve or its thermostat has failed, since a boiler problem would leave every zone cold. It is a common repair and rarely means the boiler itself needs replacing.' },
-    ],
-  },
   'lincoln-heights': {
     intro: 'Older Lincoln Heights homes sometimes still need boiler repair on a gas-fired cast-iron unit repaired many times over. In this historic Mill Creek valley community, the parts around the boiler wear first: the circulator pump, the pressure relief valve and the expansion tank. Heavy rain can also bring backups.',
     relevance: [
@@ -110,17 +33,6 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       { q: 'My Lincoln Heights basement flooded. Is my boiler safe to run?', a: 'Do not run it until it has been checked. Water can damage the burner, gas valve, and controls, so we inspect and test those parts before turning the boiler back on.' },
       { q: 'The baseboard heat in my Lincoln Heights home feels weak. Is the boiler set too low?', a: 'It might be. Most hot water systems in older Lincoln Heights homes run the boiler water around 140°F, and a worn aquastat or a failing circulator pump can leave baseboard lukewarm even when the boiler fires. We check the temperature setting, the pump, and the pressure before suggesting any bigger repair.' },
-    ],
-  },
-  'dillonvale': {
-    intro: 'In Dillonvale, the boiler question is usually repair or replace. Most mid-century homes in this Sycamore Township community run furnaces, but a few have hot water baseboard on boilers now old enough to ask. One inside 15 to 25 years with a failed pump is worth fixing.',
-    relevance: [
-      'Dillonvale (ZIP 45236) is a Sycamore Township community on the east side of Hamilton County near Kenwood, with settled neighborhoods of mid-century homes. Homes of that era were mostly built around a gas furnace, and if yours was, our furnace service is what you want. A few Dillonvale houses run hot water baseboard heat, and those boilers are now old enough that owners start asking whether to keep repairing them.',
-      'Our answer depends on age and condition. A boiler inside its 15 to 25 year life with a failed pump or ignition part is worth fixing. One that leaks from the heat exchanger or keeps locking out usually is not. When we replace, we size a high-efficiency boiler, running around 90%, to the real heat loss of the house, and we keep the existing baseboard wherever it is still sound, which keeps the job smaller.',
-    ],
-    commonIntro: 'In Dillonvale’s mid-century homes with hot water baseboard, the boiler issues we see most often are:',
-    localFaqs: [
-      { q: 'Do I need a boiler tune-up every year in Dillonvale?', a: 'Yes, once a year before heating season. It takes 60 to 90 minutes and covers the burner, safety controls, pressure, and pump, which is where most midwinter failures start.' },
     ],
   },
   'woodlawn': {
@@ -159,39 +71,6 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
       { q: 'When should I book boiler service for my Greenhills home?', a: 'Early fall, before the first cold night. In Greenhills’ 1930s cottages and townhomes, the tight utility rooms make it easy to forget the boiler until it quits. A yearly service takes 60 to 90 minutes and covers the burner, pressure, relief valve, and expansion tank, and a well-maintained boiler lasts 15 to 25 years.' },
     ],
   },
-  'northbrook': {
-    intro: 'Northbrook homes with hot water baseboard often have a boiler near or past its service life. Most houses in this Colerain Township community run furnaces, but in some, one boiler heats the house and an indirect tank for hot water, so a single failure can knock out both.',
-    relevance: [
-      'Northbrook (ZIP 45251) is a settled Colerain Township community on the northwest side of Hamilton County, made up largely of mid-century single-family homes. Homes of that era were mostly built with forced-air furnaces, and if yours has ductwork, this is not your page. A smaller number of Northbrook houses have hot water baseboard heat, and a boiler that came with the house or went in as an early replacement is often nearing or past its service life now.',
-      'Northbrook homes also see aging water heaters and corrosion leaks, and some boiler setups share the load: the boiler heats the house and an indirect tank off the same boiler makes the hot water. That means one failure can knock out both. We check the whole system on service calls, and annual service takes 60 to 90 minutes. When it is time to replace, a high-efficiency boiler runs around 90%, well above what most older units manage.',
-    ],
-    commonIntro: 'In Northbrook’s mid-century homes with hot water baseboard, the boiler calls we get most often are for:',
-    localFaqs: [
-      { q: 'My Northbrook boiler is leaking from the bottom. Can it be fixed?', a: 'It depends on where the water is coming from. A leaking valve, pump seal, or fitting is a normal repair, but water from the heat exchanger itself usually means the boiler needs replacing.' },
-    ],
-  },
-  'indian-hill': {
-    intro: 'Big systems are the norm for boiler work in Indian Hill. Large estate homes in this village feed radiant floors, several zones or heated outbuildings from one boiler or more, with multiple circulators and mixing valves. A leak on a long run can go unnoticed until the boiler locks out.',
-    relevance: [
-      'Indian Hill (ZIP 45243) is an affluent east-side village in Hamilton County known for its large estates and homes on multi-acre, wooded lots, many set well back from the road. Larger custom homes like these are more likely than most to use a boiler, feeding radiant floors, multiple zones, or heated outbuildings, and some older estate houses still run radiators. Plenty of Indian Hill homes use forced air too, and those owners should book furnace service.',
-      'Big properties bring big systems: several circulators, zone valves, mixing valves, and sometimes more than one boiler. A leak on a long run can go unnoticed in a large house until the pressure drops and the boiler locks out. Some homes here rely on private wells and septic, and where a property heats with oil rather than gas, we work on oil-fired boilers too. When we replace, we size the boiler to the real heat loss of the home rather than stacking extra capacity.',
-    ],
-    commonIntro: 'On Indian Hill’s larger properties with zoned and radiant boiler systems, the problems we handle most are:',
-    localFaqs: [
-      { q: 'Can one boiler heat an Indian Hill house and a detached garage or pool house?', a: 'Yes, if it is sized for the combined load and the piping to the outbuilding is insulated and protected from freezing. For long runs, a separate zone with its own circulator is usually the cleaner setup.' },
-    ],
-  },
-  'evendale': {
-    intro: 'Repair comes first when a boiler fails in Evendale. Most mid-century homes in this village near GE Aerospace run furnaces, but those with hot water baseboard get quiet, even heat, and switching to a furnace means adding ductwork the house was never built for. Leaking heat exchangers usually mean replacement.',
-    relevance: [
-      'Evendale (ZIP 45241) is a north-side village in Hamilton County with a large industrial base, including GE Aerospace, alongside established residential neighborhoods. The homes there are largely mid-century, and most of them heat with forced air, so plenty of Evendale owners will never need us for a boiler. The ones who do usually have hot water baseboard heat that was part of the original house or added during a remodel.',
-      'A working boiler gives quiet, even heat, and swapping it for a furnace means adding ductwork the house was never built for. So when an Evendale boiler starts failing, we look at repair first. If the unit is past its 15 to 25 year life or the heat exchanger is leaking, a high-efficiency replacement running around 90% keeps the system you have and burns less gas. Annual service takes 60 to 90 minutes and pushes that decision further off.',
-    ],
-    commonIntro: 'In Evendale’s homes that heat with a boiler, the problems we get called about most often are:',
-    localFaqs: [
-      { q: 'Should I convert my Evendale boiler home to a furnace?', a: 'Usually not. The house would need ductwork run through walls and ceilings that were never built for it, and replacing the boiler with a high-efficiency one is typically the simpler job that keeps your existing baseboard.' },
-    ],
-  },
   'glendale': {
     intro: 'Steam radiators that hiss and bang in a Glendale Victorian usually need adjustment, not a new boiler. Homes in this historic railroad suburb often still run steam, which needs the right water level, working vents on each radiator and piping that pitches back toward the boiler.',
     relevance: [
@@ -204,39 +83,6 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
       { q: 'Does the old masonry chimney on my Glendale Victorian need a liner for the boiler?', a: 'Sometimes. A 19th-century Glendale chimney that vents a gas boiler can crack and let exhaust condense inside, so we inspect it with any boiler service or replacement. A high-efficiency boiler around 90% usually vents through its own pipe instead, but if a water heater still uses the chimney, it may need a liner.' },
     ],
   },
-  'sharonville': {
-    intro: 'Most Sharonville boiler failures come from wear parts. Homes in this north-side city mostly run furnaces, but those with hot water baseboard have boilers reaching the age when the circulator pump, expansion tank, pressure relief valve and ignition controls start to fail. A well-maintained boiler lasts 15 to 25 years.',
-    relevance: [
-      'Sharonville (ZIP 45241) is a north-side city in Hamilton County near Sharon Woods, with a mix of established residential neighborhoods, the convention center, and industrial corridors. The houses are mostly mid-century, and most of those heat with forced-air furnaces. If yours does, you want our furnace service. The Sharonville homes that do use a boiler usually have hot water baseboard, and many of those boilers are now reaching the age where parts start failing.',
-      'A well-maintained boiler lasts 15 to 25 years, and most failures before then come from wear parts: the circulator pump, the expansion tank, the pressure relief valve, and the ignition controls. We service all boiler types, gas-fired and combi included. When a boiler is done, we replace it with a high-efficiency unit that runs around 90% and fits the house, not whatever size the last installer guessed at. Annual service takes 60 to 90 minutes.',
-    ],
-    commonIntro: 'In Sharonville homes heated by a boiler, the calls we get most often are for:',
-    localFaqs: [
-      { q: 'What is a combi boiler, and would one work in my Sharonville house?', a: 'A combi boiler heats the house and makes hot water on demand from one wall-hung unit, so there is no separate water heater. It suits smaller and mid-sized homes with modest hot water use, which describes many mid-century Sharonville houses.' },
-    ],
-  },
-  'northgate': {
-    intro: 'Replacing a boiler with another boiler is usually the simplest path in Northgate, when a home already has hot water baseboard or radiant floors. Most homes around the Northgate Mall corridor run furnaces. Failing sump pumps are common here, and a wet boiler corrodes quickly at the base and burner.',
-    relevance: [
-      'Northgate (ZIP 45251) is a Colerain Township area on the northwest side of Hamilton County, around the Northgate Mall corridor, with neighborhoods of mid-century and newer homes. Most of those houses heat with forced-air furnaces, and those owners can skip this page. The ones with a boiler usually have hot water baseboard from the original build or a later upgrade, or radiant floor heat in a newer home or finished basement.',
-      'Failing sump pumps are common around Northgate, and a boiler on a basement floor that takes on water can corrode quickly at the base and burner. We check for that on every visit. For replacements, the choice is usually between a standard boiler with a separate water heater and a combi unit that does both. We lay out both and size either one to the house. A high-efficiency boiler runs around 90%, well above most older units.',
-    ],
-    commonIntro: 'In Northgate’s homes with baseboard or radiant heat, the boiler issues we handle most are:',
-    localFaqs: [
-      { q: 'My Northgate boiler pressure gauge is in the red. What should I do?', a: 'Turn the boiler off and call us. High pressure usually means a failed expansion tank or a fill valve letting in too much water, and the relief valve may keep dumping water until it is fixed.' },
-    ],
-  },
-  'springdale': {
-    intro: 'Springdale boiler work often comes down to repair or replace. Homes with hot water baseboard in this Tri-County city have boilers now old enough to ask. One inside its 15 to 25 year life with a failed pump gets repaired, while a leaking heat exchanger means replacement.',
-    relevance: [
-      'Springdale (ZIP 45246) is a north-side city in Hamilton County along the Tri-County corridor, with established mid-century neighborhoods alongside a large commercial and retail base. Mid-century homes here mostly heat with forced-air furnaces, and if yours does, book furnace service instead. Boilers turn up in a smaller share of Springdale houses, usually with hot water baseboard, and those systems are now old enough that repair or replace is a real question.',
-      'Our rule of thumb: a boiler inside its 15 to 25 year life with a failed pump, valve, or control gets repaired. One with a leaking heat exchanger, frequent lockouts, or rust through the base gets replaced. A high-efficiency boiler runs around 90% and, sized to the actual heat loss of the house, is often smaller than the unit it replaces. Keeping hot water heat also means no new ductwork cut through a mid-century house.',
-    ],
-    commonIntro: 'In Springdale’s mid-century homes with hot water heat, the boiler problems we see most often are:',
-    localFaqs: [
-      { q: 'How long should a boiler last in a Springdale home?', a: 'A well-maintained boiler lasts 15 to 25 years. Yearly service, which takes 60 to 90 minutes, is what gets it to the top of that range.' },
-    ],
-  },
   'miamitown': {
     intro: 'High water from the Great Miami River is the first thing we check on boilers in Miamitown. Older homes on low river-bottom ground keep a cast-iron boiler in the basement, the spot most exposed to flooding. After a flood, some units can be cleaned and some cannot.',
     relevance: [
@@ -247,28 +93,6 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       { q: 'Can a wall-hung boiler help in a Miamitown basement that floods?', a: 'Yes. Wall-hung high-efficiency boilers keep the burner and controls off the floor, which gives them a better chance of staying dry in a backup or high water.' },
       { q: 'My Miamitown boiler quit on a cold night. What can I check before calling?', a: 'Check that the thermostat is calling for heat, the boiler’s service switch is on, and the breaker hasn’t tripped, then look at the pressure gauge. If the boiler sat in water after a Great Miami flood, don’t restart it; it must be inspected by a technician first. Our no-heat service covers Miamitown every day of the week.' },
-    ],
-  },
-  'forest-park': {
-    intro: 'Forest Park was planned in the 1960s around gas furnaces, so boiler repair here is for the smaller number of homes with hot water baseboard. Those boilers, original or early replacements, are past the 15 to 25 years one lasts, and failing sump pumps can put water at their base.',
-    relevance: [
-      'Forest Park (ZIP 45240) is a north-side city in Hamilton County developed as a planned community from the 1960s, with neighborhoods of mid-century single-family homes. Houses of that era were mostly built with gas furnaces and ductwork, so the honest answer for most owners here is that boiler service is not what you need. A smaller number of Forest Park homes use hot water baseboard, either original or added later, and those are the ones this page is for.',
-      'Homes built in that era are now well into the age where equipment wears out, and a boiler from the 1960s or an early replacement is past the 15 to 25 years a well-maintained unit lasts. Failing sump pumps are common here too, and a basement boiler that has sat in water rusts from the base up. When it is time, we replace with a high-efficiency boiler that runs around 90% and fits the house.',
-    ],
-    commonIntro: 'In Forest Park’s planned-era homes that do use hot water heat, the boiler problems we see most are:',
-    localFaqs: [
-      { q: 'How do I tell if my Forest Park home has a boiler or a furnace?', a: 'A furnace blows warm air through floor or wall vents. A boiler heats water that runs through baseboards or radiators, and you will see pipes, not ducts, leaving the unit in the basement.' },
-    ],
-  },
-  'pleasant-run': {
-    intro: 'Banging or gurgling baseboards are the boiler complaint we hear most in Pleasant Run. In this Springfield Township community, homes with hot water baseboard or radiant floors run quietly when healthy. Gurgling means air in the loop, and kettling from the boiler can mean mineral scale on the heat exchanger.',
-    relevance: [
-      'Pleasant Run (ZIP 45240) is a Springfield Township community on the north side of Hamilton County, with settled neighborhoods of mid-century and newer homes. Most houses there heat with forced-air furnaces, so plenty of Pleasant Run owners will never need a boiler tech. The homes that do have one usually run hot water baseboard, and in some newer builds or finished basements, radiant heat in the floor. Those systems are quiet when they work, so noise is usually the first sign.',
-      'Noise is one of the more common complaints we hear on these systems. Gurgling means air in the loop. Banging or kettling from the boiler itself can mean mineral scale on the heat exchanger. Both get worse without service. Pleasant Run basements also deal with failing sump pumps, and a boiler that takes on water needs checking before it runs again. Annual service takes 60 to 90 minutes and covers pressure, the pump, and the safety controls.',
-    ],
-    commonIntro: 'In the Pleasant Run homes heated by a boiler, the problems we get called for most are:',
-    localFaqs: [
-      { q: 'Is kettling in my Pleasant Run boiler dangerous?', a: 'Not usually right away, but it should be looked at. Kettling is the rumbling sound of water boiling on scale inside the heat exchanger, and left alone it overheats the metal and shortens the life of the boiler.' },
     ],
   },
   'cleves': {

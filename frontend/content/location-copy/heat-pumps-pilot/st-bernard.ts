@@ -4,7 +4,7 @@ export const stBernard: LocationServiceCopy = {
   localParagraph:
     'Gas heats about seven in ten St. Bernard homes, so most heat pumps here work alongside a gas furnace. Census figures show 24.5% use electricity, a share that includes electric furnaces and baseboard, not only heat pumps. Housing runs from pre-1940 houses to 1950s and 1960s homes, and nearly one in five units is in a two-family building, where each unit may have its own system. We find the problem and price it before starting.',
   emergencyParagraph:
-    'NOAA normals for the Cincinnati airport put January lows near 23F. When a St. Bernard heat pump stops on a night like that, a baby, an older relative or a sick family member is at the greatest risk as the rooms cool. We repair heat pumps and the furnaces backing them up, usually the same day, weekends included.',
+    'St. Bernard’s January lows sit near 23F, according to NOAA normals taken at the Cincinnati airport. A heat pump quitting on that kind of night cools the house fast, and babies, older relatives and anyone ill suffer first. We fix heat pumps along with the gas furnaces that back them up, most often the same day, Saturdays and Sundays included.',
   commonIntro:
     'St. Bernard calls come from single houses and from two-family buildings. These four are the ones we see most:',
   localFaqs: [
@@ -33,7 +33,7 @@ export const stBernard: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'A St. Bernard homeowner or tenant can check a few things before calling. Start with the thermostat; it must be on heat. Change a filter that has gone gray. In a double, find the right panel, then the two breakers for your outdoor unit and air handler, and reset one that tripped. Brush snow or leaves away from the outdoor unit. During defrost, steam, light frost and a fan pausing for a few minutes are normal. If heat comes back, you don’t need us. If ice covers the coil all day or the unit grinds, call. We quote before any work.',
+        body: 'Some St. Bernard no-heat calls end before we arrive. Make sure the thermostat reads heat, not cool or off. Hold the filter up to a light; if you can’t see through it, replace it. Owners of a double should open the panel for their own side, find the outside unit’s breaker and the air handler’s breaker, and switch back any that tripped. Leaves or snow packed around the outside unit should come away. Defrost looks odd but is fine: steam, a light frosting, the fan resting briefly. Warm air again means no visit needed. Ice on the coil all day, or grinding, means call us, and the price comes first.',
       },
       {
         title: 'Repair or Replace Your St. Bernard Heat Pump?',

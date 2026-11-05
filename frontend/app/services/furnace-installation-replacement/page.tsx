@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -78,10 +78,10 @@ export default function FurnaceInstallationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Heating"
+      <LocationHero
         title={`Furnace Installation & Replacement in ${site.serviceArea}`}
-        description="Gas or electric, planned upgrade or emergency replacement — we size it right and install it to code, with financing and same-day installs available."
+        image="/services/furnace-install-hero.webp"
+        imageAlt="Technician installing a new furnace"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -93,24 +93,26 @@ export default function FurnaceInstallationPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/furnace-install-hero.webp)' }}
-            role="img"
-            aria-label="Technician installing a new furnace"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Furnace Installation Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Furnace installation across {site.serviceArea} usually starts with a gas or electric
+            furnace that is 15 to 20 years old, or one whose repair bills keep climbing. NOAA
+            normals put the January low at CVG around 23°F, so we size the new furnace for that
+            cold instead of copying the old unit’s rating, then connect gas, venting and
+            electrical to code. A standard replacement takes about 4 to 8 hours. You approve a
+            flat-rate price first, and financing is available if you need it.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Furnace Installation & Replacement
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             When winter cold hits {site.serviceArea}, the last thing you want is a furnace that breaks
             down. {site.name} installs and replaces furnaces the right way the first time — giving you
             peace of mind and day-one comfort you can count on.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Our certified technicians make the process easy and help your family enjoy lasting
-            comfort, better efficiency, and lower energy bills. Whether your old unit has failed or
-            constant repairs are driving up costs, we are here to install a system you can trust.
           </p>
 
           {/* Advantages */}
@@ -287,7 +289,7 @@ export default function FurnaceInstallationPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

@@ -29,11 +29,11 @@ export const riverside: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Furnace Needs Repair, and When It Doesn’t',
-        body: 'First rule out the simple stuff. The thermostat needs to be on heat with batteries that aren’t dead. Check the furnace switch, which often looks like a light switch on or near the unit, then the breaker and the filter. Push the furnace door closed; on many models a loose panel stops everything. If the heat comes on, you don’t need us. If you smell gas, leave without touching switches and phone the gas company from outside. A carbon monoxide alarm means get out first. Tenants should tell management. Otherwise we inspect, explain what failed, price it upfront and test the heat after.',
+        body: 'Some cold apartments come back without us. Put the thermostat in heat mode and swap in new batteries. Next to most furnaces sits a switch like a light switch; it should be on, and so should the breaker. Replace a dusty filter. A furnace panel that isn’t latched stops many models cold. Warmth returning means you can skip the call. Gas smell: leave the switches alone, walk out and call the gas company from the street. If the carbon monoxide alarm sounds, get out before anything else. Renters, tell management. For the rest, we find the fault, give the price before work and run the heat with you.',
       },
       {
         title: 'Repair or Replace Your Riverside Furnace?',
-        body: 'Look at the furnace itself, not the building around it. A 1970s apartment can have a recent furnace, and a failed blower motor or circuit board in that one is a sensible repair. A cracked heat exchanger is a carbon monoxide problem, so we shut that furnace down and price a replacement instead. Replacements in Riverside go through the City of Cincinnati Department of Buildings & Inspections, and we handle the permit. On electric heat, a Duke Energy Ohio bill that jumps in a normal winter often means a heat pump living on its backup elements, which is worth fixing before the bill gets worse.',
+        body: 'Go by the furnace in the closet or basement, not the age of the building. A 1970s Riverside apartment may have a furnace only a few years in, and replacing its blower motor or circuit board is money well spent. A cracked heat exchanger can leak carbon monoxide, so that furnace stays off and we price a new one. New furnaces here are permitted through the City of Cincinnati Department of Buildings & Inspections, and we take care of that. In all-electric units, a Duke Energy Ohio bill that spikes in an ordinary winter often means a heat pump leaning on its backup elements, worth fixing early.',
       },
     ],
     whyTitle: 'Why Riverside Landlords and Residents Call Us',

@@ -4,7 +4,7 @@ export const aurora: LocationServiceCopy = {
   localParagraph:
     'Aurora mixes old river-town houses with two- to four-unit buildings, and Census figures show 38.3% of homes heat with electricity, the rest mostly with gas. Close to four in ten homes were built before 1940, so a heat pump here was usually fitted long after the house went up, sometimes as a ductless unit in a converted flat. We work on central heat pumps, ductless systems and dual fuel setups, and we give you the price before any repair starts.',
   emergencyParagraph:
-    'At the Cincinnati airport, about 100 nights a year fall to freezing or below, according to NOAA normals. When an Aurora heat pump stops on one of those nights, babies, older relatives and anyone ill feel it first. We repair heat pumps and their backup heat, same day on most calls, weekends included.',
+    'NOAA normals count about 100 nights a year at or below freezing at the Cincinnati airport. If an Aurora heat pump gives out on one of them, the people who suffer first are babies, older relatives and anyone ill. We fix heat pumps and the backup heat behind them, mostly the same day, Saturday and Sunday too.',
   commonIntro:
     'Aurora heat pump calls run from riverfront houses to small multi-unit buildings with ductless systems. These four come up most:',
   localFaqs: [
@@ -29,11 +29,11 @@ export const aurora: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Some calls end before we arrive. Check that the thermostat is set to heat rather than cool or off, and replace a dirty filter. Look for two breakers, one feeding the outdoor unit and one the indoor air handler. Clear leaves, ice or snow from around the outdoor unit. A little frost and steam with the fan stopped for a few minutes is the defrost cycle, and it’s normal. If the heat comes back, you don’t need us. Call when the outdoor coil stays sealed in ice, the auxiliary heat light won’t go off, or the outdoor fan doesn’t spin. We explain the fault and price it first.',
+        body: 'Plenty of Aurora heat problems clear up with these checks. The thermostat should be on heat, not cool or off. A filter clogged with dust gets swapped. Two breakers run the system, so find the outdoor unit’s and the indoor air handler’s and confirm both are on. Pull leaves, ice or snow off the outside cabinet. During defrost, expect light frost, some steam and a quiet fan for a few minutes. Once the heat returns, there’s no need to book us. Book us when ice keeps the coil buried, the auxiliary heat lamp stays on, or the fan outside never turns.',
       },
       {
         title: 'Repair or Replace Your Aurora Heat Pump?',
-        body: 'Go by the age of the heat pump, not the house. A pre-1940 Aurora house might have a heat pump only a few years old, and a bad contactor or defrost board on it is worth fixing. A refrigerant leak or failed compressor on an older unit is the point where we quote replacement next to repair. The Dearborn County Building Department issues building permits in Aurora, and we take care of that for a replacement. In an all-electric flat, a weak heat pump shows up as a much bigger electric bill.',
+        body: 'Read the date on the heat pump, not the house. An Aurora house from before 1940 may sit beside an outdoor unit just a few years old, and a worn contactor or defrost board on it gets fixed. An older system with a leak in its refrigerant circuit or a compressor that has died is where both prices go on the table. The Dearborn County Building Department issues building permits in Aurora, and we take care of that for a replacement. In an all-electric flat, a struggling heat pump tends to show up first as a far larger electric bill.',
       },
     ],
     whyTitle: 'Why Aurora Homeowners and Landlords Call Us',
@@ -46,11 +46,11 @@ export const aurora: LocationServiceCopy = {
       },
       {
         q: 'Should I repair or replace my Aurora heat pump?',
-        a: 'Repair it when the unit is reasonably new and only one part failed. Price a replacement when the compressor is gone or the refrigerant has leaked more than once. If the house has a gas furnace as backup, you stay warm while you weigh it up.',
+        a: 'If the unit has only a few years on it and a single part broke, fix it. Get a replacement price too when the compressor has died or refrigerant has leaked out more than once. Homes with a gas furnace behind the heat pump stay warm while you think it over.',
       },
       {
         q: 'Why does my Aurora heat pump feel cool in winter?',
-        a: 'Heat pump air is warm but not hot, so it can feel cool next to a gas furnace or an old radiator. That is normal. Cold air while the outdoor unit is iced up or stopped is a fault, and the backup heat usually comes on to cover it.',
+        a: 'A heat pump puts out warm air, not hot air, and beside a gas furnace or an old radiator it can seem cool. Nothing is wrong with that. Air that turns cold while the outdoor unit is crusted with ice or not running is a fault, and backup heat normally kicks in to cover the gap.',
       },
     ],
   },

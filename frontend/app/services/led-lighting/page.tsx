@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -86,10 +86,10 @@ export default function LedLightingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Lighting"
+      <LocationHero
         title={`LED Light Installation in ${site.serviceArea}`}
-        description="Recessed, under-cabinet, and strip LED lighting installed by licensed electricians — energy-efficient systems built for steady brightness and long-term performance."
+        image="/services/led-hero.webp"
+        imageAlt="Under-cabinet LED lighting in a modern kitchen"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -103,13 +103,20 @@ export default function LedLightingPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/led-hero.webp)' }}
-            role="img"
-            aria-label="Under-cabinet LED lighting in a modern kitchen"
-          />
+          {/* One-format top section: local pros, one paragraph */}
           <h2 className="section-title text-brand-700">
+            Local LED Lighting Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            LED lighting across {site.serviceArea} is often just a bulb swap, and that part you can
+            do yourself. It becomes our job with recessed housings, under-cabinet runs, new circuits
+            or old dimmers. A dimmer built for incandescent loads often buzzes or makes LEDs
+            flicker. The fix is an LED-compatible dimmer, which is a small job. Colour temperature
+            changes how a room feels: around 2700K for living rooms and bedrooms, 3000K for kitchens
+            and bathrooms. You approve the price for any wiring before we touch it.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional LED Light Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -294,7 +301,7 @@ export default function LedLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

@@ -4,7 +4,7 @@ export const wilder: LocationServiceCopy = {
   localParagraph:
     'In Wilder a heat pump is often the only heat in the home, since Census figures show 62.4% of homes heat with electricity. That also counts electric furnaces. Most homes went up in the 1980s and 1990s, and 59.1% are in buildings of five or more units, so we work on heat pumps and air handlers in larger buildings as well as houses. When the outdoor unit fails, electric backup strips keep it warm at a higher cost. We test it and give you a flat price first.',
   emergencyParagraph:
-    'Freezing nights come about 100 times a year at the CVG station, per NOAA’s 1991-2020 normals. In an all-electric Wilder home there’s no gas furnace to fall back on, so a dead heat pump hits a newborn or an elderly parent hard. We repair heat pumps, air handlers and backup heat strips, often the same day, weekends included.',
+    'CVG logs about 100 nights a year at or below freezing in NOAA’s 1991-2020 normals. Most Wilder homes have no gas furnace behind the heat pump, so when it stops on one of those nights, a baby, an aging parent or a sick relative feels it first. We fix heat pumps, air handlers and heat strips, often the same day.',
   commonIntro:
     'Most Wilder heat pump calls come from all-electric homes built in the 1980s and 1990s. These four are the usual problems:',
   localFaqs: [
@@ -33,7 +33,7 @@ export const wilder: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'A few checks come before a service call. Set the thermostat to heat, since cool or off looks a lot like a breakdown. Fit a fresh filter. Find both breakers, the outdoor unit’s and the air handler’s, and reset a tripped one once. Keep snow and blown leaves off the outdoor unit. When the unit hisses, gives off steam and frosts lightly with the fan paused, it is defrosting. If warm air returns, you can skip the call. Call us when the ice never clears, the emergency heat light stays on or the fan grinds. We inspect, explain and price before work.',
+        body: 'Try this first. A thermostat on cool or off mimics a dead system, so switch it to heat. Slide in a new filter. The panel has one breaker for the outdoor unit and one for the air handler; reset a tripped one a single time. Brush snow and wind-blown leaves off the outside cabinet. A hiss, a plume of steam and a thin frost while the fan stops are the defrost cycle at work. Warm air coming back means no visit. Ice that stays, an emergency heat light that won’t go out or a grinding fan means us. We look, explain, then quote.',
       },
       {
         title: 'Repair or Replace Your Wilder Heat Pump?',
@@ -46,7 +46,7 @@ export const wilder: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost in Wilder?',
-        a: 'We find the fault before we name a price. A capacitor or contactor is a small repair, while a leak or a failed compressor is a larger job. You approve a flat rate before work starts, weekend visits carry no overtime fee, and financing is available for bigger repairs.',
+        a: 'That depends on what broke, and we test before naming a number. Swapping a worn electrical part takes little time; chasing a refrigerant leak or replacing a compressor takes much more. Whatever it is, you see one flat price and say yes before we start. Saturday and Sunday calls cost the same as weekdays, and bigger repairs can be financed.',
       },
       {
         q: 'Should I repair or replace my Wilder heat pump?',
@@ -54,7 +54,7 @@ export const wilder: LocationServiceCopy = {
       },
       {
         q: 'Why does my Wilder heat pump blow cool air?',
-        a: 'Heat pump air comes out milder than furnace air, so it can feel cool to a hand at the vent even while it heats the room properly. If the air is plainly cold and the outdoor unit is iced or not running, something has failed and only the heat strips are left.',
+        a: 'A heat pump delivers a gentler warmth than a gas burner, so a palm held over the register may read it as cool while the room temperature still climbs. That part is fine. Truly cold air, paired with an outdoor unit that is frozen over or sitting silent, points to a failure, with the strips carrying the whole load.',
       },
     ],
   },

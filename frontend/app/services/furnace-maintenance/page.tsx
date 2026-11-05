@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -100,10 +100,10 @@ export default function FurnaceMaintenancePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Heating"
+      <LocationHero
         title={`Furnace Maintenance in ${site.serviceArea}`}
-        description="A yearly tune-up keeps your furnace efficient, safe, and reliable — and helps it avoid a breakdown on the coldest night of the year."
+        image="/services/furnace-maint-hero.webp"
+        imageAlt="Technician performing a furnace tune-up"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -115,13 +115,20 @@ export default function FurnaceMaintenancePage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/furnace-maint-hero.webp)' }}
-            role="img"
-            aria-label="Technician performing a furnace tune-up"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Furnace Maintenance Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Furnace maintenance across {site.serviceArea} usually means a tune-up of about an
+            hour, booked in the fall before the normal first freeze, which NWS Wilmington puts
+            around October 25. The technician replaces the filter, checks the blower, tests the
+            thermostat and safety controls, and inspects the burners and heat exchanger for
+            cracks. If your furnace was serviced within the last year and runs normally, you can
+            skip a visit. Any repair we suggest comes with a price you approve before we start.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Furnace Tune-Up Services
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -132,12 +139,6 @@ export default function FurnaceMaintenancePage() {
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             With years of experience, our certified technicians keep your gas or electric furnace
             running safely and efficiently — helping you avoid costly surprises.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Our maintenance focuses on fixing small issues before they turn into costly repairs and
-            getting your system ready for the upcoming heating season. With {site.name}, you get more
-            than a service visit — you get peace of mind knowing your furnace will perform when you
-            need it most.
           </p>
 
           <h2 className="mt-10 section-title text-brand-700">Benefits of Yearly Furnace Maintenance</h2>
@@ -336,7 +337,7 @@ export default function FurnaceMaintenancePage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

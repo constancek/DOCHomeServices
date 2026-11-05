@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
+import IconChecklistBand, { type IconChecklist } from '@/components/IconChecklistBand';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -36,13 +37,13 @@ const signs = [
   'A yellow or flickering burner flame',
 ];
 
-const tuneUp = [
-  'Check system water pressure and the expansion tank',
-  'Inspect for leaks and corrosion at the boiler, valves, and fittings',
-  'Test the safety controls, including the relief valve and high limit',
-  'Inspect the burner and check combustion and venting',
-  'Test the circulator pump',
-  'Bleed trapped air from the radiators so they heat fully',
+const tuneUp: IconChecklist['items'] = [
+  { icon: 'gauge', label: 'Pressure and expansion tank' },
+  { icon: 'droplet', label: 'Leaks and corrosion' },
+  { icon: 'shield', label: 'Safety controls and relief valve' },
+  { icon: 'flame', label: 'Burner, combustion and venting' },
+  { icon: 'pump', label: 'Circulator pump' },
+  { icon: 'radiator', label: 'Air bled from the radiators' },
 ];
 
 const repairReplace = [
@@ -90,10 +91,10 @@ export default function BoilersPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Heating"
-        title="Boiler Repair, Maintenance & Replacement"
-        description={`Repairs, annual tune-ups, and replacements for the boilers that heat radiator, baseboard, and radiant floor homes across ${site.serviceArea}.`}
+      <LocationHero
+        title={`Boiler Repair, Maintenance & Replacement in ${site.serviceArea}`}
+        image="/services/boiler-hero.webp"
+        imageAlt="Technician servicing the circulator pump inside a gas boiler"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -105,20 +106,26 @@ export default function BoilersPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/boiler-hero.webp)' }}
-            role="img"
-            aria-label="Technician servicing the circulator pump inside a gas boiler"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
-            Boiler Service for Every Stage
+            Local Boiler Service Pros Who Know {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} repairs, maintains, and replaces boilers for homes and rental buildings across{' '}
-            {site.serviceArea}. A boiler heats water to roughly 140°F and pumps it through radiators,
-            baseboards, or tubing under the floor, so when something goes wrong, the fix is usually
-            about pressure, water flow, or the burner, not airflow.
+            Boiler service across {site.serviceArea} usually means a house or rental building heated
+            through radiators, baseboards or tubing under the floor. Most faults come down to pressure
+            or water flow: a weak circulator pump, a weeping relief valve, a waterlogged expansion tank,
+            a stuck zone valve or a failed igniter. We work on hot water, steam, gas and oil boilers,
+            find the fault first and give you the price before any work starts.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Boiler Repair in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            No heat is an emergency with a baby or an older relative at home. NOAA’s climate normals put
+            Cincinnati at about 100 nights a year at or below freezing, and city rentals with
+            landlord-controlled heat must stay at 70°F or more once it stays below 60°F outside for 24
+            hours. Most no-heat calls are handled the same day, weekends included.
           </p>
 
           <h2 className="mt-10 section-title text-brand-700">Boilers We Service</h2>
@@ -203,36 +210,12 @@ export default function BoilersPage() {
         </div>
       </section>
 
-      {/* Band: What a tune-up covers (photo right) */}
-      <section className="bg-hero-pink text-white">
-        <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="lg:order-1">
-            <h2 className="section-title">
-              What a Boiler Tune-Up Covers
-            </h2>
-            <p className="mt-4 text-base leading-relaxed text-white/90">
-              During an annual service visit, a technician will:
-            </p>
-            <ul className="mt-4 space-y-1.5">
-              {tuneUp.map((t) => (
-                <li key={t} className="flex gap-3 text-base font-medium leading-snug">
-                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-white" />
-                  {t}
-                </li>
-              ))}
-            </ul>
-            <p className="mt-4 text-base leading-relaxed text-white/90">
-              Anything we find is explained before any work is done, with the price up front.
-            </p>
-          </div>
-          <div
-            className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2"
-            style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }}
-            role="img"
-            aria-label="Technician reviewing a service visit with a homeowner"
-          />
-        </div>
-      </section>
+      {/* What a tune-up covers: icon cards (same component as the town pages) */}
+      <IconChecklistBand
+        heading="What a Boiler Tune-Up Covers"
+        items={tuneUp}
+        note="About 60 to 90 minutes, once a year before heating season. Anything we find is priced before work starts."
+      />
 
       <ServiceReviews service="boilers" />
 
@@ -304,7 +287,7 @@ export default function BoilersPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

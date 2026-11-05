@@ -29,11 +29,11 @@ export const beckettRidge: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Rule out the easy things first. On the thermostat, pick heat; a setting of cool or off explains a cold house. Replace the filter. Flip on any tripped breaker, checking both the outdoor unit’s and the air handler’s. Pull snow and leaves away from the outdoor coil. Some frost, a cloud of steam and the fan pausing briefly are signs of defrost and nothing more. Fixed? Then you don’t need us. Call when ice won’t melt off, the emergency heat light stays lit, or grinding comes from outside. On the visit we inspect the system, tell you what failed and get your approval on the price before repairing it.',
+        body: 'Start at the wall. The thermostat has to read heat; cool or off will leave a Beckett Ridge house cold with nothing broken. Swap a clogged filter. Both breakers, outdoor unit and indoor air handler, should be on. Clear drifted snow or leaves off the cabinet out back. Light frost, rising steam and a fan that rests for a few minutes are just defrost. If that sorted it, keep your money. Ice that stays put, an emergency heat light that won’t go out or grinding outdoors means a visit: we inspect, explain the fault, and you okay the price before we fix anything.',
       },
       {
         title: 'Repair or Replace Your Beckett Ridge Heat Pump?',
-        body: 'Go by the heat pump, not the house. A 1980s Beckett Ridge home might be on its second heat pump, and a failed contactor or defrost control on a newer unit is a fair repair. A refrigerant leak or a dead compressor on an older one is when we price replacement next to the repair. Replacement here means a zoning certificate from West Chester Township and a building permit from Butler County Building & Zoning, which we arrange. A Duke Energy Ohio bill that spikes in a normal month usually points to the backup strips running.',
+        body: 'Judge the equipment by its own age. Many 1980s houses here already replaced the original heat pump, so the cabinet label tells you more than the deed. A contactor or defrost board gone bad on a recent install is money well spent. When the compressor quits, or refrigerant is seeping out of an older system, we write up a replacement figure beside the repair figure. A new unit takes a zoning certificate from West Chester Township and a Butler County Building & Zoning permit; we handle both. Watch the Duke Energy Ohio bill: a jump in an ordinary month often means the strips are heating the house.',
       },
     ],
     whyTitle: 'Why Beckett Ridge Homeowners Call Us',
@@ -42,7 +42,7 @@ export const beckettRidge: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost in Beckett Ridge?',
-        a: 'We quote after testing the system. A bad contactor or a stuck outdoor fan is a quick repair, while a refrigerant leak takes longer to trace. You approve one flat-rate price before we begin, and weekend visits carry no overtime fees.',
+        a: 'The price depends on what the test finds. Swapping a contactor or freeing a seized fan motor is short work; hunting down a refrigerant leak takes more time. Either way you see one flat-rate figure and say yes before anything is touched, and a Saturday call costs no overtime.',
       },
       {
         q: 'Should I repair or replace my Beckett Ridge heat pump?',

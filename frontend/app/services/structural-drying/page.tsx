@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -102,10 +102,10 @@ export default function StructuralDryingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Water Damage Restoration"
+      <LocationHero
         title={`Structural Drying in ${site.serviceArea}`}
-        description="Framing, subfloor, and drywall dried to measured readings — not to a guess and a schedule."
+        image="/services/structural-drying-hero.webp"
+        imageAlt="Water droplets covering a rain-drenched window"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -117,13 +117,30 @@ export default function StructuralDryingPage() {
 
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/structural-drying-hero.webp)' }}
-            role="img"
-            aria-label="Water droplets covering a rain-drenched window"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Structural Drying Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Structural drying across {site.serviceArea} usually means a basement or first floor
+            where water got below the surface, into the subfloor, the bottom plates of the walls and
+            the back of the drywall. Plenty of homes here still have hardwood and plaster, which
+            take longer to dry than carpet and drywall, so the plan changes from house to house.
+            Equipment stays until the meter readings match a dry spot elsewhere in the home. The
+            drying price is set out before any equipment comes off the truck.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Structural Drying in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Wet framing and subfloor don’t dry on their own in a closed-up house, and the longer
+            they stay wet the more likely a floor cups or a wall starts to smell. Before going into
+            a room where water reached the outlets, shut off the breaker for it. Most drying jobs
+            start the same day we’re called, weekends included.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Drying the Structure, Not the Surface
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -131,12 +148,6 @@ export default function StructuralDryingPage() {
             gap between how a room feels and what the material is actually carrying is where most
             water damage problems are created — the smell nobody can locate, the floor that cups
             three months later, the mold behind a wall that looked fine.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} dries to numbers. We meter the affected material daily against a dry standard
-            taken elsewhere in your house, and the equipment stays until the readings match. It is a
-            less dramatic service than extraction and it is the one that determines whether the
-            repair holds.
           </p>
         </MainWithSidebar>
       </section>
@@ -262,7 +273,7 @@ export default function StructuralDryingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

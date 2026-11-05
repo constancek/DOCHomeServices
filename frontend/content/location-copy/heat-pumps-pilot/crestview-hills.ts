@@ -2,11 +2,11 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const crestviewHills: LocationServiceCopy = {
   localParagraph:
-    'More Crestview Hills homes heat with electricity than with gas, so a heat pump here is often the main heat, with electric strips as backup. Census figures put electricity at 58.2% of homes and gas at 40.7%. Most of the housing went up between 1980 and 1999, and about a quarter of it is condos and townhomes, so many heat pumps sit in tight closets and narrow side yards. We find the failed part and give you the price first.',
+    'More Crestview Hills homes heat with electricity than with gas, so a heat pump here is often the main heat, with electric strips as backup. Census figures put electricity at 58.2% of homes and gas at 40.7%. Most of the housing went up between 1980 and 1999, and about a quarter of it is condos and townhomes, so many heat pumps sit in tight closets and narrow side yards. You hear what broke and what it costs before any work starts.',
   emergencyParagraph:
     'NOAA normals put January lows at CVG, the nearby airport station, around 23F. In an all-electric condo or house, a failed heat pump at that temperature puts young children, older owners and anyone in poor health at risk. We repair heat pumps and electric air handlers, mostly on the day of the call, weekends included.',
   commonIntro:
-    'Crestview Hills heat pump calls come from 1980s and 1990s houses, condos and townhomes, many of them all-electric. These come up most:',
+    'Crestview Hills condos and townhomes keep us busiest, and plenty of them have no gas line to fall back on. The repeat calls:',
   localFaqs: [
     {
       q: 'Who issues heat pump permits in Crestview Hills?',
@@ -29,7 +29,7 @@ export const crestviewHills: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'A few checks can save you a visit. Set the thermostat to heat, not cool or emergency heat. Fit a fresh filter. Two breakers serve the system, outside unit and air handler, so reset one that tripped, once. Clear snow from the outdoor unit. A defrost cycle brings steam and a light frost, and that’s normal. If heat comes back, you don’t need us. Call if ice stays on the coil, the auxiliary heat light won’t go out, the system won’t leave cooling, or the outdoor fan grinds. We inspect, explain, price for approval, repair and retest.',
+        body: 'The thermostat should read heat; cool, off or emergency heat won’t do. A gray, matted filter gets replaced. Your system runs on two breakers, one outdoors and one at the air handler, and a tripped one can be flipped back once. Snow drifted against the outdoor unit needs clearing. Steam rising off the unit, a thin frost and the fan stopping for a few minutes are defrost, not damage. If heat returns, save your money. We’re needed when the coil stays frozen, the aux heat light stays lit, cooling won’t switch off or the fan scrapes. You approve a price before we repair and retest.',
       },
       {
         title: 'Repair or Replace Your Crestview Hills Heat Pump?',
@@ -46,11 +46,11 @@ export const crestviewHills: LocationServiceCopy = {
       },
       {
         q: 'Should I repair or replace an older Crestview Hills heat pump?',
-        a: 'Repair it when one component failed and the compressor and coils are healthy. If an older unit needs a compressor or keeps leaking refrigerant, replacement is worth pricing, and we quote both. Financing is available for owners who decide to replace.',
+        a: 'Look at what broke. One worn part on a heat pump with a healthy compressor and tight coils is worth fixing. A dead compressor, or refrigerant that keeps disappearing from an aging unit, is when a new system belongs in the conversation, so we price each path. Owners who replace can use financing.',
       },
       {
         q: 'Why does my Crestview Hills heat pump blow cool air?',
-        a: 'Heat pump air is warm, but it isn’t furnace hot, so it can feel cool at the register. That’s normal. If the air is cold and the outdoor unit is iced over or silent, the heat pump has a fault, and the backup strips may be the only thing heating the house.',
+        a: 'A heat pump heats with air that runs cooler than a gas furnace’s, so a hand held over the vent can be fooled. Lukewarm and steady is fine. Chilly air while the outdoor unit sits frozen or quiet points to a fault, and the electric strips are probably doing all the heating on their own.',
       },
     ],
   },

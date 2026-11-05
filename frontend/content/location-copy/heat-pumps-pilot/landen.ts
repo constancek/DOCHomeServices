@@ -2,9 +2,9 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const landen: LocationServiceCopy = {
   localParagraph:
-    'Landen is an electric-heat community. Census figures show 88.4% of homes heat with electricity, so a no-heat call here almost always means a heat pump or an electric furnace, not gas. Most houses and condos went up in the 1980s or 1990s, so many have already replaced their first system, and some of those replacements are aging too. Condo air handlers often sit in tight closets. We test the outdoor unit and the air handler together and quote the repair before starting.',
+    'Gas barely figures in Landen. Census figures put 88.4% of homes on electric heat, so when the heat quits here we expect a heat pump or an electric furnace. Most of the housing, 69.0%, was built between 1980 and 1999, which means many owners are already on their second system, and some of those are getting old too. Condo air handlers are often squeezed into small closets. We check the outdoor half and the indoor half together, then price the repair before work.',
   emergencyParagraph:
-    'At the Cincinnati airport, NOAA records about 100 nights a year at or below freezing. In an all-electric Landen home, a failed heat pump on one of those nights can leave backup strips straining or no heat at all, which is hard on babies, older relatives and anyone ill. We repair heat pumps, usually the same day, weekends included.',
+    'Freezing nights are common: NOAA’s Cincinnati airport records log about 100 a year at 32F or lower. If a Landen heat pump dies on one, the electric strips strain or the house cools down, and an infant, an elderly parent or whoever is sick is hit first. Most heat pump calls get a same-day visit, Saturday and Sunday too.',
   commonIntro:
     'Almost every Landen call is electric heat, in houses and condos built in the 1980s and 1990s. These four problems come up most:',
   localFaqs: [
@@ -29,7 +29,7 @@ export const landen: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'In an all-electric house, check a few things before calling. Make sure the thermostat reads heat rather than cool or off. Change the filter if it’s gray. The outdoor unit and the air handler each have a breaker, and both need to be on. Keep snow and leaves clear of the outdoor coil. When the unit steams and the fan goes quiet for a few minutes, it’s defrosting, and that’s normal. You don’t need us if those fixes bring the heat back. Call when ice stays put or the emergency heat light won’t go off. We find the cause and get your okay on the price before repairing.',
+        body: 'Most Landen homes have no gas furnace to fall back on, so start with the simple checks. The thermostat should be set to heat, not cool or off. A gray filter gets swapped. Look in the panel for two breakers, one for the outside unit and one for the air handler, and switch either back on if it tripped. Clear snow and leaves off the outdoor coil. Steam rising and the fan going quiet briefly mean a defrost, not a breakdown. If heat returns, you’re done. If ice stays put or the emergency heat light never shuts off, call us. We name the cause and the price before any repair.',
       },
       {
         title: 'Repair or Replace Your Landen Heat Pump?',
@@ -42,15 +42,15 @@ export const landen: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'What does it cost to fix a heat pump in Landen?',
-        a: 'That depends on the part. A capacitor or contactor is a short repair, and a compressor or a refrigerant leak is a much larger one. We diagnose first, then give you a flat-rate price to approve. No work starts without your yes, and weekend visits carry no overtime fees.',
+        a: 'It turns on the failed part. Replacing a capacitor or contactor is quick; a compressor or a refrigerant leak is a much bigger job. You get a diagnosis and a flat-rate price, and we don’t start until you approve it. Saturday and Sunday visits cost no overtime.',
       },
       {
         q: 'Should I repair or replace the heat pump in my Landen home?',
-        a: 'Look up the install date on the outdoor unit’s label. A younger system with one bad part is a repair. An older one with a dead compressor or a leak that keeps coming back is worth pricing against new equipment. We give you both prices and let you choose.',
+        a: 'Find the install date on the label of the outdoor unit. Most Landen homes date from 1980 to 1999, but the heat pump outside is often a replacement. One bad part on a younger system gets fixed. A dead compressor or a recurring leak on an older one should be priced against new equipment, and we give you both numbers.',
       },
       {
         q: 'Why does my Landen heat pump blow cool air?',
-        a: 'Heat pump air is warm but not hot, so next to a gas furnace it can feel cool. That is normal. If the air is truly cold and the outdoor unit is buried in ice or not running, the heat pump has a fault and the backup strips may be carrying the load.',
+        a: 'Heat pump air runs warm rather than hot, so at the vent it can feel cool, especially to anyone used to gas heat. That’s normal. Truly cold air with the outdoor unit iced solid or sitting silent is a fault, and the backup strips are probably carrying the house.',
       },
     ],
   },

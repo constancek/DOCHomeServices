@@ -4,7 +4,7 @@ export const delhiHills: LocationServiceCopy = {
   localParagraph:
     'Delhi Hills splits almost evenly on heating fuel, so we see plenty of all-electric heat pump homes alongside gas furnaces. Census figures show 48.5% of homes heat with electricity and 48.1% with gas, and the electric count also takes in electric furnaces and baseboard. Nearly every home is a single-family house, most built between 1960 and 1979, which means the heat pump is often a replacement on ducts and line sets from decades ago. We check both units, find the fault and quote it before starting.',
   emergencyParagraph:
-    'The Cincinnati airport averages about 100 nights a year at or below freezing, according to NOAA normals, and Delhi Hills shares them. An all-electric house with a failed heat pump and dead backup strips has nothing else to fall back on. Babies, older relatives and anyone sick feel it most. We come the same day on most calls, weekends included.',
+    'Delhi Hills gets the same winters as CVG, where NOAA normals record roughly 100 freezing nights a year. In a house with no gas line, a dead heat pump plus failed backup strips leaves no heat source at all. That lands hardest on infants, grandparents and anyone who is unwell. Most calls get a same-day visit, Saturdays and Sundays too.',
   commonIntro:
     'Delhi Hills heat pump calls mostly come from 1960s and 1970s houses on the bluff, many of them heated by electricity alone. These four come up most:',
   localFaqs: [
@@ -33,7 +33,7 @@ export const delhiHills: LocationServiceCopy = {
       },
       {
         title: 'Repair or Replace Your Delhi Hills Heat Pump?',
-        body: 'The house’s age matters less than the heat pump’s. A Delhi Hills home built in 1972 might have an outdoor unit that is only a few years old, and a bad capacitor or defrost board on that one is a repair. The harder calls are refrigerant leaks and compressor failures, and for those on an older system we price repair and replacement side by side. In an all-electric home the electric bill is the warning sign: a sharp rise in a normal January usually means the backup strips are carrying the house. Financing is available.',
+        body: 'Check the heat pump’s age before the house’s. Plenty of Delhi Hills homes from 1972 now carry an outdoor unit only a few years old, and if its capacitor or defrost board fails, we fix it. Refrigerant leaks and compressor failures are the tougher calls; on an older system you get a repair figure and a replacement figure together. All-electric homes give an early warning on the electric bill, which jumps in an ordinary January once the backup strips take over the heating. Financing is available.',
       },
     ],
     whyTitle: 'Why Delhi Hills Homeowners Call Us',
@@ -42,7 +42,7 @@ export const delhiHills: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'What will heat pump repair cost in Delhi Hills?',
-        a: 'That depends on what failed, so we diagnose before we quote. Swapping a contactor or capacitor is quick. Tracking down a refrigerant leak, sealing it and recharging the system takes longer. Either way you get one flat-rate price to approve before any work, with no overtime fees for weekends.',
+        a: 'We can’t price it until we know what broke, so diagnosis comes first. A new contactor or capacitor goes in fast. Finding a refrigerant leak, sealing it and recharging takes more of the day. You approve one flat-rate figure before we start, and a weekend visit carries no overtime fee.',
       },
       {
         q: 'Is my Delhi Hills heat pump worth fixing?',

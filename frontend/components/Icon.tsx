@@ -30,9 +30,33 @@ export type IconName =
   | 'tag'
   | 'noFee'
   | 'card'
-  | 'facebook';
+  | 'facebook'
+  | 'gauge'
+  | 'pump'
+  | 'radiator'
+  | 'search';
 
 const paths: Record<IconName, ReactNode> = {
+  gauge: (
+    <>
+      <path d="M4 16a8 8 0 1 1 16 0" />
+      <path d="M12 16l4-5" />
+      <circle cx="12" cy="16" r="1.2" />
+    </>
+  ),
+  pump: (
+    <>
+      <path d="M20.5 12a8.5 8.5 0 0 1-14.6 5.9" />
+      <path d="M3.5 12a8.5 8.5 0 0 1 14.6-5.9" />
+      <path d="M18.5 2.5v4h-4M5.5 21.5v-4h4" />
+    </>
+  ),
+  radiator: (
+    <>
+      <rect x="3" y="5" width="18" height="12.5" rx="1.5" />
+      <path d="M7.5 5v12.5M12 5v12.5M16.5 5v12.5M5.5 17.5v2.5M18.5 17.5v2.5" />
+    </>
+  ),
   snowflake: (
     <>
       <path d="M12 2v20M4.2 7l15.6 10M19.8 7L4.2 17" />
@@ -72,6 +96,12 @@ const paths: Record<IconName, ReactNode> = {
   ),
   arrow: <path d="M5 12h14M13 6l6 6-6 6" />,
   check: <path d="M20 6 9 17l-5-5" />,
+  search: (
+    <>
+      <circle cx="11" cy="11" r="7" />
+      <path d="m21 21-5-5" />
+    </>
+  ),
   menu: <path d="M3 6h18M3 12h18M3 18h18" />,
   close: <path d="M6 6l12 12M18 6 6 18" />,
   quote: <path d="M7 7H4v6h3l-1 4h2l1-4V7zm9 0h-3v6h3l-1 4h2l1-4V7z" />,

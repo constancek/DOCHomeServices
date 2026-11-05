@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -127,10 +127,10 @@ export default function GasServiceDisconnectionPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Gas Service Disconnection in ${site.serviceArea}`}
-        description="Duke shut your gas off and will not turn it back on. Here is why, what has to happen first, and how quickly we can get it done."
+        image="/services/gas-disconnection-hero.webp"
+        imageAlt="Plumber capping a flexible gas connector at a shut-off valve"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -141,27 +141,36 @@ export default function GasServiceDisconnectionPage() {
 
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/gas-disconnection-hero.webp)' }} role="img" aria-label="Plumber capping a flexible gas connector at a shut-off valve" />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Gas Service Disconnection Repair Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Gas service disconnection repair across {site.serviceArea} usually follows a Duke Energy
+            shutoff for a leak, a red-tagged appliance or a house that sat empty for months. Duke
+            owns the line up to the meter and nothing past it, so the repair and the pressure test
+            it requires fall to a licensed plumber. In an older basement that can mean tracing a
+            leak along decades-old piping. We find the fault and handle the permit where one
+            applies, and you approve the price before a fitting is loosened.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Gas Service Disconnection Repair in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            If you smell gas, leave on foot and call 911 or Duke Energy from outside. Without gas
+            the furnace and water heater sit cold, and NOAA normals put Cincinnati at about 100
+            nights a year at or below freezing, so a winter shutoff puts pipes at risk. Most gas
+            shutoff calls are handled the same day, weekends included.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Your Gas Is Off. Here Is What Happens Next.
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Duke Energy will not restore your gas until the problem on your side of the meter is repaired
             by a licensed plumber and the piping proves it holds pressure. That is the whole answer. Nobody
             at the utility can waive it for you, and calling them back a third time will not change it.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            The split is simple once someone explains it. Duke owns the service line from the street main to
-            the meter, and the meter itself. Everything downstream of that meter — the piping through the
-            basement, the run to the furnace, the connector behind the range — belongs to you. When they shut
-            you off, it is almost always because they found something wrong on your side, and your side is
-            the part they are not allowed to touch.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            So the sequence is fixed: we find the fault, repair it, pressure-test the system, get it
-            inspected where a permit applies, and then Duke comes back and turns the meter on. We handle
-            every step of that, including the scheduling, so you are not trying to project-manage a utility
-            with no hot water in the house.
           </p>
         </MainWithSidebar>
       </section>
@@ -343,7 +352,7 @@ export default function GasServiceDisconnectionPage() {
         <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Gas Shutoff FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">

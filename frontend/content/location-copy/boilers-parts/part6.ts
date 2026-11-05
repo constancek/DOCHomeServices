@@ -1,37 +1,4 @@
 export const part6: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
-  'mulberry': {
-    intro: 'When a Mulberry home has a boiler, it is often a gas-fired unit that has run for years without service. Most houses in this Milford-area community run furnaces, but some have hot water baseboard or radiant floors. Boilers last 15 to 25 years, and skipped ones fail first.',
-    relevance: [
-      'Mulberry (ZIP 45150) sits in the Milford area of western Clermont County, and its suburban streets are lined with mid-century and newer homes. To be plain about it, most houses here heat with a gas furnace and ductwork, not a boiler. If that describes your home, our furnace team is the call, not this page. Boilers do turn up, though, usually in a house built with hot water baseboard or one that had radiant floor heat added during a remodel.',
-      'When we find one in Mulberry it is often a gas-fired hot water boiler that has run quietly for years without anyone looking at it. Well-maintained boilers last 15 to 25 years, and the ones that get skipped tend to fail on the first cold night of the season. An annual service takes 60 to 90 minutes: we check pressure, the expansion tank, the relief valve, and the burner. If yours is near the end, we size a high-efficiency replacement, around 90% efficient, to the house.',
-    ],
-    commonIntro: 'In the Mulberry homes that do run on hot water heat, the boiler problems we see most often are:',
-    localFaqs: [
-      { q: 'Do many Mulberry homes have boilers?', a: 'Not many. Most homes in this part of western Clermont County heat with forced-air furnaces, but if yours has baseboard radiators or radiant floor heat, it runs on a boiler and we service it.' },
-    ],
-  },
-  'mount-repose': {
-    intro: 'Baseboard cold along one wall in a Mount Repose home usually points to air in the loop or a circulator problem at the boiler. Most homes in this Milford-area community run furnaces, but those with baseboard or radiant floors push water around 140°F with a circulator pump.',
-    relevance: [
-      'Mount Repose (ZIP 45150) is a community in the Milford area of Clermont County, built out with suburban neighborhoods of mid-century and newer homes. Homes of that era mostly went up with forced-air furnaces, so a boiler is the exception here rather than the rule. We will tell you that straight: if a furnace heats your house, you want a furnace repair visit. The homes that do have a boiler usually show it with hot water baseboard along the outside walls or a radiant floor in a finished basement.',
-      'Those systems hold water at around 140°F and push it through the loop with a circulator pump. When a zone goes cold, the cause is often trapped air, a stuck zone valve, or a pump that has quietly stopped. A mid-century boiler that has never been replaced is well past the 15 to 25 years a maintained unit usually lasts. We service it, tell you honestly if repair still makes sense, and quote a correctly sized high-efficiency boiler if it does not.',
-    ],
-    commonIntro: 'For the Mount Repose homes that heat with hot water baseboard or radiant floors, the boiler issues we see most often are:',
-    localFaqs: [
-      { q: 'Why is only one room cold on my Mount Repose baseboard heat?', a: 'Usually air trapped in that part of the loop or a zone valve that has stuck shut. Bleeding the line or replacing the valve is a short repair, and we check the boiler pressure while we are there.' },
-    ],
-  },
-  'day-heights': {
-    intro: 'Semi-rural homes in Day Heights sometimes run a boiler nobody has serviced in years. Older farmhouses and larger custom homes here may have hot water baseboard or radiant floors on oil, propane or gas boilers, and the larger, draftier houses expose an undersized boiler fast. Suburban homes mostly run furnaces.',
-    relevance: [
-      'Day Heights (ZIP 45150) is a Milford-area community in Clermont County with a mix of suburban and semi-rural homes, some of them on wells and septic. The suburban houses are mostly mid-century and newer and mostly heat with forced-air furnaces, so boilers are not common on those streets. If that is you, a furnace tech is the better call. The semi-rural side is where one is more likely to turn up: an older farmhouse, or a larger custom home with hot water baseboard or radiant floors.',
-      'Out on the edge of the gas lines, some of those boilers burn oil or propane rather than natural gas, and we service all of them. Rural homes also tend to be larger and draftier, so a tired or undersized boiler shows it first in the far rooms. Annual service takes 60 to 90 minutes and catches most problems before they become a no-heat call. When a unit is past repair, we size a high-efficiency replacement, running around 90%, to the actual heat load of the house.',
-    ],
-    commonIntro: 'Across Day Heights’ semi-rural homes and the few suburban houses on hot water heat, the boiler problems we see most often are:',
-    localFaqs: [
-      { q: 'Do you work on oil-fired boilers in Day Heights?', a: 'Yes. We service gas-fired and oil-fired boilers, propane units included, which matters for the semi-rural homes here that sit away from gas lines.' },
-    ],
-  },
   'new-richmond': {
     intro: 'Clanking radiators in New Richmond’s 19th-century riverfront houses usually come from a steam boiler with water sitting where it should not. Many still run old cast-iron units that need someone who understands pressure, venting and the original piping, and high river water can flood the basement.',
     relevance: [
@@ -42,17 +9,6 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       { q: 'My New Richmond basement flooded. Can I turn the boiler back on?', a: 'Not until someone checks it. Water in the burner, controls, or gas valve can make a boiler unsafe to fire, so call us and we will inspect it and tell you what needs replacing.' },
       { q: 'Can a new boiler in my New Richmond riverfront house vent up the old brick chimney?', a: 'A high-efficiency boiler usually does not use the chimney at all. It vents through plastic pipe out a side wall. If you keep a standard boiler on an old masonry chimney in New Richmond, we check the flue first, because many 19th-century chimneys need a liner before they can carry exhaust safely.' },
-    ],
-  },
-  'amelia': {
-    intro: 'Kettling, banging or hissing from a boiler in Amelia is usually scale or trapped air. Most homes along the Ohio Pike corridor run furnaces, but mid-century houses with hot water baseboard and newer homes with radiant floors run boilers, some well past the 15 to 25 years they usually last.',
-    relevance: [
-      'Amelia (ZIP 45102) runs along the Ohio Pike corridor in Clermont County, with established neighborhoods of mid-century and newer homes. Most of those houses heat with a forced-air furnace, and if yours does, we are not the boiler crew you need; our furnace team is. Boilers here tend to show up in older mid-century homes built with hot water baseboard, or in newer homes where an owner put radiant heat under a tile floor or a finished basement.',
-      'A mid-century house still running its original boiler is well past the 15 to 25 years a maintained unit usually lasts, and an ignored one tells you with low pressure, a weeping relief valve, or a lockout on a cold morning. Our annual service takes 60 to 90 minutes and covers the burner, pressure, expansion tank, and safety controls. When replacement is the better call, we size a high-efficiency boiler, around 90%, to the house and its baseboard.',
-    ],
-    commonIntro: 'For Amelia homes that heat with baseboard or radiant floors instead of ductwork, the boiler problems we see most often are:',
-    localFaqs: [
-      { q: 'How do I know if my Amelia home has a boiler or a furnace?', a: 'Look at how heat reaches the rooms. Floor or ceiling vents mean a furnace; baseboard units, cast-iron radiators, or warm floors with no vents mean a boiler.' },
     ],
   },
   'batavia': {
@@ -77,17 +33,6 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       { q: 'Is there anyone who services oil boilers near Owensville?', a: 'We do. We service and repair oil-fired and gas-fired boilers across eastern Clermont County, and we can quote a replacement if an old oil unit has reached the end.' },
       { q: 'Does well water cause problems for a boiler on a rural Owensville property?', a: 'Not much, as long as the system holds its water. A boiler reuses the same water in a closed loop, so minerals only come in when it is filled. If your Owensville boiler keeps topping itself up, there is a leak somewhere, and every refill brings in fresh minerals and oxygen that scale and rust the inside.' },
-    ],
-  },
-  'goshen': {
-    intro: 'Radiant floor heat in Goshen still needs a yearly boiler service. Rural homes and custom builds in this northern Clermont County township run baseboard, radiators or radiant floors under tile or concrete, relying on an expansion tank and circulator pumps. Most suburban houses here run furnaces.',
-    relevance: [
-      'Goshen (ZIP 45122) is a township community in northern Clermont County, with a mix of suburban and rural homes, some on wells and septic. Most of the suburban houses here heat with forced-air furnaces, and if yours is one of them, this is not the page for you. Boilers turn up on the rural side and in some custom builds: older country homes with baseboard or radiators, and newer houses where radiant floor heat was put in under tile, concrete, or a finished basement.',
-      'Radiant floors run cooler water than radiators, but the boiler still needs care. The system holds pressure, relies on an expansion tank and circulator pumps, and on a combi boiler it makes the house’s hot water too. An annual service takes 60 to 90 minutes. We check combustion, pressure, pumps, and the relief valve, and flag parts nearing the end. Maintained boilers last 15 to 25 years; ignored ones fail sooner, usually on the coldest morning of the year.',
-    ],
-    commonIntro: 'In the Goshen homes that run radiant floors or baseboard heat off a boiler, the problems we see most often are:',
-    localFaqs: [
-      { q: 'Does a radiant floor boiler in Goshen need annual service?', a: 'Yes. A yearly visit takes 60 to 90 minutes and checks the pressure, pumps, expansion tank, and burner, which is where most mid-winter failures start.' },
     ],
   },
   'moscow': {
@@ -150,39 +95,6 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
       { q: 'When is the best time to book boiler service for my home in Ross?', a: 'Late summer or early fall, before you need the heat. The service takes 60 to 90 minutes, and doing it early means a worn part gets replaced on your schedule instead of on a cold night. For rural Ross homes on oil or propane, that early visit also leaves time to get fuel sorted before winter.' },
     ],
   },
-  'fairfield': {
-    intro: 'Only a few Fairfield homes heat with a boiler, since most houses in this Butler County city run forced-air furnaces. The ones we work on are mid-century homes with hot water baseboard, often past 15 to 25 years and failing with low pressure, and newer custom homes with radiant floors.',
-    relevance: [
-      'Fairfield (ZIP 45014) is a large Butler County city north of Cincinnati, with established mid-century neighborhoods, newer subdivisions, and a busy commercial corridor. Honest answer first: most Fairfield homes heat with forced-air furnaces, and if you have floor vents, you want our furnace team, not a boiler visit. Boilers here tend to be in mid-century homes built with hot water baseboard and in some newer custom homes with radiant floors.',
-      'Mid-century baseboard systems still running an early boiler are usually past the 15 to 25 years a maintained unit lasts, and they tend to go out with low pressure, a dripping relief valve, or a circulator that stops. Radiant floor systems in newer homes need yearly checks too, especially their mixing valves and pumps. We handle both, including combi boilers that also make the house’s hot water, and we size replacements to the home at around 90% efficiency.',
-    ],
-    commonIntro: 'In the Fairfield homes that heat with baseboard or radiant floors instead of ductwork, the boiler problems we see most often are:',
-    localFaqs: [
-      { q: 'Do you service combi boilers in Fairfield?', a: 'Yes. A combi boiler heats the house and the tap water, so when it fails you lose both; we repair and service them and can replace one with a correctly sized unit.' },
-    ],
-  },
-  'beckett-ridge': {
-    intro: 'Cold tile over radiant floors is the boiler repair we see most in Beckett Ridge. Most homes from the 1980s on in this golf course community run furnaces, but remodels put radiant heat under kitchens, baths and basements. A failed circulator, stuck zone valve or trapped air usually causes it.',
-    relevance: [
-      'Beckett Ridge (ZIP 45069) is a planned West Chester community in Butler County built around a golf course, made up largely of homes from the 1980s onward. Homes from that era were mostly built with forced-air furnaces and central air, so a boiler is uncommon here, and if a furnace heats your house, this is the wrong page. The boilers we do find tend to be in remodeled homes where radiant heat went under a kitchen, bath, or finished basement floor.',
-      'Radiant systems run lower water temperatures than a baseboard boiler holding around 140°F, and they rely on pumps, mixing valves, and zone controls working together. A cold floor usually means a failed circulator, a stuck zone valve, or air in the tubing, not a dead boiler. We track down the fault, service the boiler in 60 to 90 minutes, and if the original is worn out, replace it with a high-efficiency unit sized to the zones it actually feeds.',
-    ],
-    commonIntro: 'For the Beckett Ridge homes with radiant floors or a boiler-fed zone, the problems we see most often are:',
-    localFaqs: [
-      { q: 'Why is only my basement radiant floor cold in Beckett Ridge?', a: 'Usually a zone valve or circulator for that loop has failed, or air is trapped in the tubing. The boiler itself is often fine, and the fix is on that one zone.' },
-    ],
-  },
-  'wetherington': {
-    intro: 'Large homes make boiler repair a whole-system job in Wetherington. Custom builds in this golf course community may run radiant floors or a boiler feeding an indirect water heater, with many zones and long tubing runs, so a cold zone or slow leak can go unnoticed.',
-    relevance: [
-      'Wetherington (ZIP 45069) is an upscale West Chester community in Butler County built around a golf course, with larger homes from the 1980s and 90s onward. Most were built with forced-air furnaces, and boilers are not the norm. They show up mainly in custom builds with radiant floor heat or a boiler that also feeds an indirect water heater. Larger homes mean more zones, more tubing, and more places for something to go wrong without anyone noticing.',
-      'In a big house, a single cold zone is easy to miss until a room upstairs or down gets uncomfortable, and a slow leak on a radiant loop can go unnoticed for a while. We check pressure loss, zone valves, pumps, and controls as part of a 60 to 90 minute service. A boiler original to a 1990s house is at or past the 15 to 25 years a maintained unit lasts, so we give you a straight repair-or-replace answer and size any new high-efficiency boiler to the real load.',
-    ],
-    commonIntro: 'In Wetherington’s larger homes that run radiant floors or zoned hot water heat, the boiler problems we see most often are:',
-    localFaqs: [
-      { q: 'My Wetherington boiler keeps losing pressure. Is that a leak?', a: 'Often, yes, somewhere in the loop, or a relief valve or expansion tank that has failed. In a large house with radiant tubing we trace it before refilling, because topping it up just hides the problem.' },
-    ],
-  },
   'hamilton': {
     intro: 'Hamilton boiler repair centers on the historic districts. Homes in German Village and Dayton Lane often run cast-iron radiators on old hot water or steam boilers, some sized by guesswork. The work is bleeding radiators that heat halfway, setting pressure, replacing stuck steam vents and checking low-water cutoffs.',
     relevance: [
@@ -229,39 +141,6 @@ export const part6: Record<string, { intro: string; relevance: string[]; commonI
     localFaqs: [
       { q: 'Why are the radiators in my Monroe house cold at the top?', a: 'Air is trapped in them. Bleeding each radiator lets it out; if they keep filling with air, the boiler pressure or an air vent needs attention.' },
       { q: 'Can a boiler run radiant floor heat in a newer custom home in Monroe?', a: 'Yes, and it suits them well. Radiant floors run on much cooler water than the roughly 140°F radiators use, so the system needs a mixing valve or a boiler set up for low temperatures. A high-efficiency boiler, around 90%, works best at those lower temperatures, so it is usually the better match for radiant floors in a Monroe home.' },
-    ],
-  },
-  'landen': {
-    intro: 'Most homes in Landen were built with furnaces, so a boiler here usually means hot water baseboard in an earlier house or radiant floors added later. One original to a 1970s or 80s home in this planned community is well past 15 to 25 years and loses pressure.',
-    relevance: [
-      'Landen (ZIP 45040) is a planned Warren County community near Maineville and Mason, made up largely of homes built from the 1970s and 80s onward around its lake and common areas. Homes from that era were mostly built with forced-air furnaces and central air, and if that describes your house, you want a furnace or AC visit, not us. Boilers here are the exception, usually hot water baseboard in some of the earlier homes or radiant floors added during a later remodel.',
-      'Where a boiler is original to a 1970s or 80s house, it is well past the 15 to 25 years a maintained unit lasts, and the usual signs are pressure that will not hold, a dripping relief valve, a noisy circulator, or a lockout. We service boilers in 60 to 90 minutes, repair what can be repaired, and give you a straight answer when replacement makes more sense. A new high-efficiency boiler runs around 90% and should be sized to the house, not to the old unit.',
-    ],
-    commonIntro: 'In the Landen homes that heat with baseboard or radiant floors, the boiler problems we see most often are:',
-    localFaqs: [
-      { q: 'My Landen boiler is original to the house. Should I replace it?', a: 'Probably soon, but not necessarily today. A boiler from the 1970s or 80s is past its expected life, so we inspect it and tell you whether it is safe to keep running a while or better to plan a replacement.' },
-    ],
-  },
-  'loveland-park': {
-    intro: 'Slow-warming hot water baseboard in Loveland Park is often low pressure, a tired circulator or an aging boiler. Some mid-century homes in this Warren County community north of Loveland run original or decades-old boilers past their 15 to 25 years, with leaking relief valves and waterlogged expansion tanks.',
-    relevance: [
-      'Loveland Park (ZIP 45140) is a Warren County community just north of Loveland near the Little Miami River, with established neighborhoods of mid-century homes. Homes of that era mostly heat with forced-air furnaces, and if yours does, a furnace tech is the right call. Some mid-century houses were built with hot water baseboard instead, and those run on a boiler that may be the original or a replacement from decades back.',
-      'Mid-century boilers still in service have outlived the 15 to 25 years a maintained unit usually lasts, and they tend to fail in the same few ways: low pressure, leaking relief valves, a waterlogged expansion tank, or a circulator that stops turning. The low ground near the Little Miami also means some basements take on water in heavy rain, which is hard on boiler controls. We repair, service, and replace, sizing new high-efficiency boilers to the house and its baseboard.',
-    ],
-    commonIntro: 'In Loveland Park’s mid-century homes that heat with hot water baseboard, the boiler problems we see most often are:',
-    localFaqs: [
-      { q: 'Why does my Loveland Park boiler relief valve keep dripping?', a: 'Usually the pressure is running too high, often because the expansion tank has failed. Replacing the tank, and the valve if it is worn, generally stops it.' },
-    ],
-  },
-  'maineville': {
-    intro: 'Maineville boilers turn up in the historic core and on rural properties. Older houses heat with radiators or baseboard that need bleeding, pressure adjustments and new relief valves, while rural homes away from gas service run oil or propane boilers that need yearly cleaning. Newer subdivisions run furnaces.',
-    relevance: [
-      'Maineville (ZIP 45039) is a growing town in southern Warren County, with a small historic core surrounded by newer subdivisions and rural homes. The newer subdivisions mostly heat with forced-air furnaces and heat pumps, and boilers are rare there, so check what you have before calling us. The older core is where boilers turn up, in houses that often heat with radiators or baseboard, and rural properties away from gas service may run an oil-fired or propane boiler.',
-      'Older systems in the core tend to need bleeding, pressure adjustments, new relief valves, and an honest look at an aging cast-iron boiler. Rural boilers work harder in larger, draftier houses, and oil units need a yearly cleaning to burn right. Our annual service takes 60 to 90 minutes. When replacement makes more sense, we size a high-efficiency boiler, around 90%, to the house. We also handle radiant floor systems in newer custom builds, and combi boilers that heat the tap water too.',
-    ],
-    commonIntro: 'Across Maineville’s historic core and rural homes on boiler heat, the problems we see most often are:',
-    localFaqs: [
-      { q: 'Do newer Maineville homes have boilers?', a: 'Few do. Most of the newer subdivisions heat with furnaces or heat pumps; boilers are more likely in the older homes in the village core or on rural properties.' },
     ],
   },
   'pleasant-plain': {

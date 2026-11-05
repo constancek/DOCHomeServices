@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -87,10 +87,10 @@ export default function GarageLightingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Lighting"
+      <LocationHero
         title={`Garage Lighting Installation in ${site.serviceArea}`}
-        description="Durable LED garage lights and exterior fixtures installed by licensed electricians — bright, even lighting for parking areas, workbenches, and storage."
+        image="/services/garage-hero.webp"
+        imageAlt="Brightly lit garage workshop interior"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -104,19 +104,22 @@ export default function GarageLightingPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/garage-hero.webp)' }}
-            role="img"
-            aria-label="Brightly lit garage workshop interior"
-          />
+          {/* One-format top section: local pros, one paragraph */}
           <h2 className="section-title text-brand-700">
-            Professional Garage Lighting Installation
+            Local Garage Lighting Pros Who Know {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Many garages rely on a single ceiling bulb. That light often leaves corners and work areas
-            dim. Better garage lighting improves visibility and helps the space function better.
+            Garage lighting across {site.serviceArea} usually means replacing the one ceiling
+            fixture with several spread out, so your shadow stops landing on the workbench. In an
+            unheated garage the fixture also has to start in the cold. NOAA’s 1991 to 2020 normals
+            put the January low at CVG around 23°F, and some LED fixtures flicker or won’t light
+            below their rated temperature. A brighter LED bulb in the old socket is something you
+            can do yourself. Wired fixtures get a flat-rate price you see first.
           </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Professional Garage Lighting Installation
+          </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             {site.name} installs garage lighting for homeowners across {site.serviceArea}. Our
             electricians install durable garage light fixtures designed to brighten parking areas,
@@ -311,7 +314,7 @@ export default function GarageLightingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

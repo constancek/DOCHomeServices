@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -101,10 +101,10 @@ export default function AfterFloodPlumbingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`After Flood Plumbing in ${site.serviceArea}`}
-        description="Inspection and repair of the plumbing a flood left behind — before you turn the water back on."
+        image="/services/after-flood-hero.webp"
+        imageAlt="Technician inspecting and repairing a heating system"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -116,26 +116,27 @@ export default function AfterFloodPlumbingPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/after-flood-hero.webp)' }}
-            role="img"
-            aria-label="Technician inspecting and repairing a heating system"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
-            Plumbing Inspection After a Flood
+            Local After Flood Plumbing Pros Who Know {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            The water going down is not the end of it. A flood leaves behind a plumbing system that
-            looks the same and does not work the same — silt in the sewer main, a water heater whose
-            gas controls sat underwater, shutoff valves quietly seizing, and a sump pump that may
-            have burned itself out doing its job.
+            After flood plumbing across {site.serviceArea} comes down to finding what the water
+            broke before you run the taps and the furnace again. On low ground near the Ohio and
+            Licking rivers, high water can push sewer backups into basements, so the drain lines get
+            checked along with the water heater and the sump pump. A part that sat in floodwater can
+            look fine and still fail weeks later. We go through the system and put a flat price on
+            each repair before work begins.
           </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency After Flood Plumbing in {site.serviceArea}
+          </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} goes through the whole system before you go back to normal water use, so the
-            recovery does not turn into a second flood. What we find gets explained plainly, with a
-            flat-rate price on anything that needs fixing and an honest answer on anything that does
-            not.
+            A gas water heater whose burner and controls sat underwater is not safe to relight, so
+            leave it off. If you smell gas, get out and call 911 or the gas utility from outside.
+            The Metropolitan Sewer District wants backups in its area reported within 48 hours. Most
+            after flood calls are seen the same day, weekends included.
           </p>
         </MainWithSidebar>
       </section>
@@ -268,7 +269,7 @@ export default function AfterFloodPlumbingPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

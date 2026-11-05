@@ -2,7 +2,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const finneytown: LocationServiceCopy = {
   localParagraph:
-    'Most Finneytown houses heat with gas, so a heat pump here is often paired with a furnace as dual fuel. Census figures show 23.9% of homes heat with electricity, including electric furnaces and baseboard, not just heat pumps. More than half the homes went up in the 1940s and 1950s, nearly all detached and owner-occupied, so the ducts were laid out for a furnace, and a heat pump added later can find the airflow tight. We find the fault and quote the repair before we begin.',
+    'Gas heats 74.3% of Finneytown homes by Census figures, so the heat pumps we service here usually run as dual fuel with a furnace behind them. The 23.9% on electricity mixes heat pumps with baseboard and electric furnaces. More than half the homes went up in the 1940s and 1950s, nearly all detached and owner-occupied, so the ducts were laid out for a furnace, and a heat pump added later can find the airflow tight. We find the fault and quote the repair before we begin.',
   emergencyParagraph:
     'Expect around 100 nights a year at or below freezing at the Cincinnati airport, based on NOAA normals. If a Finneytown heat pump and its furnace backup both go down on one of them, babies, older relatives and anyone ill need heat back first. We repair heat pumps and the furnaces behind them, usually the same day, weekends too.',
   commonIntro:
@@ -29,11 +29,11 @@ export const finneytown: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Several fixes need no visit. Set the thermostat to heat. Change the filter. Reset either of the two breakers, outdoor unit or indoor air handler, if one tripped. Clear snow and leaves away from the outdoor unit. Steam and a short fan pause in cold weather are a defrost cycle. If the heat comes back, you don’t need us. Call when the outdoor unit is buried in ice that won’t clear or the fan stops spinning. If the furnace smells of gas, leave and call the gas company from outside. We find the fault and quote first.',
+        body: 'A Finneytown owner can solve some cold-house mornings alone. Make sure the thermostat reads heat and not cool. Swap a dusty filter for a new one. Reset a tripped breaker on the condenser or air handler circuit. Dig drifted snow away from the condenser. On a frosty day, a plume of vapor and the fan resting a minute or two mean defrost is running. Warmth back? Then there is nothing for us to do. A condenser sealed in ice that stays put, or a fan that won’t turn, is a service call. Gas smell at the furnace: go outside and phone the gas company.',
       },
       {
         title: 'Repair or Replace Your Finneytown Heat Pump?',
-        body: 'Decide on the equipment, not the 1950s house around it. A Finneytown home can have a heat pump a few years old, and a blown fuse at the outdoor disconnect is an easy repair. A refrigerant leak or a compressor failure on an older heat pump is the time to weigh repair against replacement, and we price both. Tight 1950s ducts can make a sound heat pump seem weak, so airflow gets checked too. A Duke Energy bill that rises in a mild month hints the heat pump is losing ground.',
+        body: 'The median Finneytown house was built in 1959; the condenser beside it may be only a few winters old, so read its label. On newer equipment, a blown fuse in the outdoor disconnect is a quick fix. Leaking refrigerant or a dead compressor on an aging heat pump is when we write a repair price and a replacement price for you to compare. Ductwork sized for a mid-century furnace can starve a healthy heat pump, so we measure airflow as well. A Duke Energy electric bill climbing in mild weather suggests the heat pump is slipping.',
       },
     ],
     whyTitle: 'Why Finneytown Homeowners Call Us',
@@ -42,7 +42,7 @@ export const finneytown: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Finneytown?',
-        a: 'We can’t price it until we know what failed. A blown fuse is a small job; a refrigerant leak takes longer to trace and seal. After diagnosis we give you a flat-rate quote, and no work starts until you approve it. Weekend calls carry no overtime fees.',
+        a: 'The fault sets the number, so diagnosis comes first. Replacing a fuse in the disconnect is minor work, while finding and sealing leaking refrigerant takes more hours. You get one flat figure, and the repair waits for your yes. Sunday service is billed like Monday service.',
       },
       {
         q: 'Is my Finneytown heat pump worth repairing?',
@@ -50,7 +50,7 @@ export const finneytown: LocationServiceCopy = {
       },
       {
         q: 'Why does my Finneytown heat pump blow cool air in winter?',
-        a: 'Because heat pump air is warm, not hot. If you’re used to a gas furnace, it feels cool, and that is normal. Your furnace should take over on the coldest days. Cold air with the outdoor unit frozen over or not running means a part has failed.',
+        a: 'Three in four Finneytown homes heat with gas, and furnace air is hot. A heat pump delivers gentler warmth that can read as cool against your palm; that is expected. On the harshest days the furnace should take the load. Cold air while the condenser is frozen or still points to a failed part.',
       },
     ],
   },

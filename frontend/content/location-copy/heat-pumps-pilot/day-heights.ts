@@ -4,7 +4,7 @@ export const dayHeights: LocationServiceCopy = {
   localParagraph:
     'Day Heights heats with a real mix of fuels. Census figures put gas at 47.3% of homes, electricity at 38.8% and fuel oil at 8.1%, so we work on all-electric heat pumps, heat pumps backed by a gas furnace, and now and then a heat pump in a house that still has an oil furnace. The housing is all single-family, about half of it from the 1960s and 1970s, so most heat pumps were added to existing ductwork. We find the problem and price it before starting.',
   emergencyParagraph:
-    'January lows at CVG average about 23F, by NOAA normals. A Day Heights house without heat in that cold is hardest on newborns, older adults and anyone already unwell. We repair heat pumps, backup heat strips and the controls tying them to a furnace, usually the day you call, weekends included.',
+    'NOAA normals put the average January low at CVG near 23F. Lose heat in a Day Heights ranch at that temperature and the people who suffer first are babies, grandparents and anyone fighting an illness. We repair heat pumps, their backup strips and the dual fuel controls that hand off to a furnace, often the same day, weekends too.',
   commonIntro:
     'Day Heights heat pump calls come from mid-century single-family houses on several heating fuels. These come up most:',
   localFaqs: [
@@ -14,7 +14,7 @@ export const dayHeights: LocationServiceCopy = {
     },
     {
       q: 'I rent a house in Day Heights and the heat pump quit. What does my landlord owe me?',
-      a: 'Under Ohio law, ORC 5321.04, a landlord must keep supplied heating equipment in good and safe working order and provide reasonable heat. Check the thermostat and breakers, then tell the landlord in writing. We fix heat pumps, not leases, and the owner can book the repair.',
+      a: 'Ohio’s landlord law, ORC 5321.04, says an owner who supplies the heating equipment keeps it in good and safe working order and furnishes reasonable heat. Before you write to the landlord, confirm the thermostat reads heat and no breaker is off. We fix heat pumps, not leases; your landlord books the repair.',
     },
   ],
   overrides: {
@@ -29,11 +29,11 @@ export const dayHeights: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Look at the thermostat first, because it needs to say heat. Change the filter if you can’t remember the last time. The system has two breakers, one serving the outdoor unit and one the indoor air handler or furnace, so reset a tripped one a single time. Clear snow from around the outdoor unit. Light frost and a puff of steam mean a normal defrost cycle. If heat returns, you don’t need us. Call when the ice won’t melt off, the emergency heat light stays on, the unit stays stuck in one mode, or the outdoor fan grinds. We check, explain, quote, and repair once you agree.',
+        body: 'Start at the wall: the thermostat should be set to heat. A filter you can’t date needs swapping. Out at the panel, one breaker feeds the outdoor unit and another the furnace or air handler inside; if one is off, flip it on once. Shovel away snow that slid off the roof onto the outdoor unit. A puff of steam and a little frost come with defrost and are normal. With heat back, keep your money. We’re worth a call when ice sticks to the coil, emergency heat stays lit, the system won’t change modes, or the outdoor fan grinds. You agree to the price before we fix anything.',
       },
       {
         title: 'Repair or Replace Your Day Heights Heat Pump?',
-        body: 'Look at the heat pump’s age and condition, not the house’s. A Day Heights ranch from the 1960s often has a much newer heat pump, and a bad capacitor, contactor or defrost board on that unit is a repair. A failed compressor or a refrigerant leak that keeps returning on an older unit is when we price replacement next to repair. In a home with a gas or oil furnace behind the heat pump, the furnace can hide a dead outdoor unit for weeks, so a fuel bill that rises in normal weather is worth noticing and worth a call.',
+        body: 'The house’s age tells you little; the heat pump’s age and condition tell you more. Plenty of 1960s ranches in Day Heights carry a far younger outdoor unit, and when a capacitor, contactor or defrost board fails on one of those, we fix it. On an older unit, a dead compressor or a leak that comes back after every recharge is when you get a replacement price beside the repair price. If a gas or oil furnace backs up the heat pump, it can cover for a dead outdoor unit for weeks. A fuel bill climbing in ordinary weather is the clue.',
       },
     ],
     whyTitle: 'Why Day Heights Homeowners Call Us',
@@ -42,7 +42,7 @@ export const dayHeights: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Day Heights?',
-        a: 'That depends on the failed part. A fan motor or capacitor outside is a modest job, while a refrigerant leak or a dual fuel control fault takes more diagnosis. We price it at a flat rate once we’ve found the cause, and you approve it before we start. Weekends carry no overtime fees.',
+        a: 'The failed part sets the price. Changing an outdoor fan motor or capacitor is a modest job; tracking down a refrigerant leak or a dual fuel control problem takes more time. Once the cause is found, you get a flat-rate figure to approve before work starts, and weekend visits carry no overtime fees.',
       },
       {
         q: 'Should I repair or replace my Day Heights heat pump?',

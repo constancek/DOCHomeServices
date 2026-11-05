@@ -54,7 +54,7 @@ export const summerside: LocationServiceCopy = {
       },
       {
         q: 'Why does my Summerside heat pump blow cool air?',
-        a: 'Heat pump air is warm rather than hot, so after years with a gas furnace it can feel cool, and that is normal. In a dual fuel home the furnace should take over when it gets very cold. Cold air from the vents with the outdoor unit frozen or stopped is a fault.',
+        a: 'Many Summerside families moved to a heat pump after years of gas heat, and its supply air runs lukewarm by comparison. That alone is fine. With dual fuel, the gas furnace ought to kick in on the coldest days. Truly cold vents while the outside unit sits frozen or silent point to a fault.',
       },
     ],
   },

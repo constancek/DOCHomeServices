@@ -2,15 +2,15 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const indianHill: LocationServiceCopy = {
   localParagraph:
-    'In Indian Hill a heat pump is often half of a dual fuel system. Census figures show 59.9% of homes heat with gas and 24.3% with electricity, so we often find the outdoor unit paired with a gas furnace that takes over in deep cold. The houses span every decade, from pre-war homes to ones built after 2000, so the equipment in two neighboring houses can be decades apart. We figure out which half failed and quote the repair before any work.',
+    'Most Indian Hill homes run on gas: 59.9% by Census figures, with 24.3% on electricity, about three times the electric share in Madeira. So the heat pump we get called to here is usually one half of a dual fuel setup, with a gas furnace carrying the coldest nights. Houses in Indian Hill come from every decade, before 1940 to after 2000, so next-door neighbors can own equipment decades apart. We test which side failed and give you the price before starting.',
   emergencyParagraph:
-    'NOAA puts the normal January low at the CVG weather station near 23F. When an Indian Hill heat pump and its backup both stop on a night like that, it is hardest on a baby, an older parent or anyone unwell. We repair heat pumps and dual fuel systems, same day on most calls, weekends as well.',
+    'January nights at the CVG airport station normally bottom out around 23F, according to NOAA. If the heat pump quits and the gas furnace behind it won’t light either, an Indian Hill house loses heat quickly, and a newborn, a grandparent staying over or someone sick feels it first. Most calls get a technician the same day, weekends too.',
   commonIntro:
     'Indian Hill heat pump calls are mostly dual fuel systems in large single-family houses of every age. Four problems lead the list:',
   localFaqs: [
     {
       q: 'Do I need a permit to replace a heat pump in Indian Hill?',
-      a: 'If a replacement needs a permit, we take care of it as part of the job, so you don’t have to work out which office handles your address. A repair on the heat pump you already own gets diagnosed, priced and finished during the visit, once you approve the number.',
+      a: 'We haven’t confirmed which office issues HVAC permits for Indian Hill addresses, so on a replacement we sort that out and pull whatever is required ourselves. For a repair on your current unit, we find the fault, name a price and fix it on that visit once you say yes.',
     },
     {
       q: 'My Indian Hill heat pump runs, but the gas furnace keeps kicking on. Is that a problem?',
@@ -29,20 +29,20 @@ export const indianHill: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'A few checks can save you a visit. The thermostat should be on heat, not cool or off. Replace a dirty filter. Your panel has a breaker for the outdoor unit and another for the furnace or air handler; both should be on. Rake leaves and clear snow from around the outdoor unit. During defrost it may give off steam, show light frost and stop the fan for a few minutes, all normal. If heat comes back, we aren’t needed. We are when ice won’t clear, the auxiliary heat light stays lit or the outdoor fan won’t turn. We diagnose, explain and wait for your okay on the price.',
+        body: 'Before you book, try these Indian Hill checks. The thermostat has to be on heat; cool or off gives you nothing warm. Pull the filter and swap it if it’s gray. At the panel, the outdoor unit and the furnace each have their own breaker; reset any that tripped. Fall leaves and drifted snow pile against the unit, so clear them. A defrost cycle throws off steam, leaves thin frost and pauses the fan briefly; that is the system working. Call us if the coil stays iced, the auxiliary heat light never goes out or the outdoor fan sits dead. We price the fault before touching anything.',
       },
       {
         title: 'Repair or Replace Your Indian Hill Heat Pump?',
-        body: 'Go by the heat pump’s age and condition, not the house’s. A 1960s Indian Hill house may have a heat pump installed recently, and a newer 2000s house may still have its original one. A failed contactor, capacitor or defrost sensor on a sound unit is a repair. Refrigerant leaks and dead compressors are the expensive ones, and on an older unit we quote the repair and a replacement side by side. In a dual fuel home, a struggling heat pump hands more work to the furnace, so higher gas use during mild weather is often the first clue.',
+        body: 'Judge the equipment, not the address. Indian Hill housing runs from pre-1940 homes to ones built after 2000, and a 1960s house can hold a heat pump only a few years old while a newer house still runs its first one. A bad contactor, capacitor or defrost sensor on an otherwise healthy unit gets fixed. A refrigerant leak or a seized compressor is where the money goes, and on an aging unit we write up both prices so you can compare them. With gas backup, a weak heat pump pushes the furnace to work harder, and a gas bill that climbs in mild weather usually tips you off first.',
       },
     ],
     whyTitle: 'Why Indian Hill Homeowners Call Us',
     whyParagraph:
-      'Indian Hill houses often pair a heat pump with gas, and we repair both sides of that system. Our technicians are licensed, insured and background-checked. If the repair isn’t right, we make it right or you don’t pay.',
+      'When gas and a heat pump share the job in an Indian Hill house, we fix either one. Every technician is licensed, insured and background-checked, and if our repair falls short, we make it right or you don’t pay.',
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost in Indian Hill?',
-        a: 'It depends on what failed. A contactor or defrost board is a smaller job, while a refrigerant leak on a long line set or a compressor is a big one. We find the cause, quote a flat price and start only after you agree. Weekends carry no overtime charge.',
+        a: 'The part decides it. Swapping a contactor or defrost board is modest work; chasing a refrigerant leak along a long line set, or replacing a compressor, is not. We find the cause first, give you one flat price and wait for your yes. Saturday and Sunday calls carry no overtime fee.',
       },
       {
         q: 'Should I repair or replace my Indian Hill heat pump?',
@@ -50,7 +50,7 @@ export const indianHill: LocationServiceCopy = {
       },
       {
         q: 'Why is my Indian Hill heat pump blowing cool air?',
-        a: 'Air from a heat pump is warm but gentler than what a gas furnace puts out, so it can feel cool on your hand. That is normal. In a dual fuel home, cold air with an iced or stopped outdoor unit, or a furnace that never fires, means something needs repair.',
+        a: 'Heat pump air comes out warmer than the room but well short of a gas furnace’s blast, so your hand reads it as cool. That is normal. If the vents blow truly cold while the outdoor unit is iced or stopped, or the backup furnace never lights, call us.',
       },
     ],
   },

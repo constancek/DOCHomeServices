@@ -29,7 +29,7 @@ export const westernHills: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Furnace Needs Repair, and When It Doesn’t',
-        body: 'Start with the easy checks: the thermostat on heat with fresh batteries, the furnace switch on, the breaker set, a clean filter and the furnace door pressed closed, since many units won’t run with it loose. If heat comes back, you don’t need a visit. Call us when the burners light and drop out, or the blower runs with no heat behind it. If you smell gas, touch nothing electrical and don’t relight it; go outside and call the gas company. If the carbon monoxide alarm sounds, get everyone out before anything else. We diagnose, explain, price it for your approval, then test.',
+        body: 'Check that the thermostat says heat and has fresh batteries, the switch by the furnace is on, the breaker hasn’t tripped and the filter isn’t clogged. Then push the furnace panel shut; a loose one keeps many units off. Heat back means no visit. Call us when the burners light and drop out, or the blower pushes air with no warmth in it. If you smell gas, leave light switches and the burner alone, walk outside and call the gas company. When the carbon monoxide alarm sounds, everyone leaves first. Our technician finds the cause, gets your approval on the price, then tests.',
       },
       {
         title: 'Repair or Replace Your Western Hills Furnace?',

@@ -29,7 +29,7 @@ export const downtown: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Before you report a no-heat problem, run a few checks. Confirm the thermostat is on heat, not cool or off. Replace the filter if it is dark. Look in your panel for two breakers, one for the indoor air handler and one for the outdoor unit, wherever the building put it. Steam, light frost or the fan stopping for a few minutes is a defrost cycle and is normal. If heat comes back, you don’t need us, though renters should still tell management. Call when the emergency heat light stays on, the air runs cold or the unit grinds. We inspect, explain, price for approval and test.',
+        body: 'A Downtown unit can look broken when it is not. If the thermostat reads cool or off, switch it to heat. A dark, dusty filter goes in the trash. Your panel likely has a breaker for the closet air handler and a separate one for the outdoor unit, wherever the building placed it; reset either that tripped. Defrost brings steam, thin frost and a quiet fan for a few minutes, and that is expected. Heat back on means no call, though renters should still let management know. An emergency heat light that never goes out, cold air or grinding are ours to diagnose, price and test.',
       },
       {
         title: 'Repair or Replace Your Downtown Cincinnati Heat Pump?',

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -132,10 +132,10 @@ export default function StormElectricityOutagePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Electrical"
+      <LocationHero
         title={`Storm Electricity Outage Repair in ${site.serviceArea}`}
-        description="Power back on your street but not in your house? The damage is on equipment you own, and Duke Energy will not reconnect until a licensed electrician repairs it."
+        image="/services/storm-outage-hero.webp"
+        imageAlt="Fallen tree across a residential street with downed power lines and a snapped utility pole"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -146,8 +146,30 @@ export default function StormElectricityOutagePage() {
 
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/storm-outage-hero.webp)' }} role="img" aria-label="Fallen tree across a residential street with downed power lines and a snapped utility pole" />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Storm Electricity Outage Repair Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Storm electricity outage repair across {site.serviceArea} usually means a falling limb
+            or high wind pulled on the service drop and took the mast, weatherhead or meter base
+            with it. A storm can leave one house dark on a lit street, and that pattern points to
+            equipment the homeowner owns rather than anything Duke Energy maintains. Our
+            electricians repair the damaged service equipment and handle the permit and the Duke
+            reconnect. You approve a flat-rate price before the crew starts on the mast.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Storm Electricity Outage Repair in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            A dark house after a storm means no heat or cooling and no sump pump, often while the
+            rain is still falling. Treat every downed line as live: stay well back and call 911 and
+            Duke Energy. The morning after a big storm books up fast, and most calls still get an
+            electrician the same day, weekends included.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             When the Lights Come Back On Everywhere Except Your House
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -155,25 +177,8 @@ export default function StormElectricityOutagePage() {
             wait. There is nothing an electrician can do about a line Duke Energy owns, and you should not be
             paying anyone a call-out fee to come and tell you that.
           </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            If your neighbours have lights and you do not, the picture changes completely. That pattern means
-            the break is on your side of the meter, on equipment that belongs to you: the mast, the
-            weatherhead, the entrance cable, the meter box, or the panel. Duke will not reconnect damaged
-            customer-owned equipment. A licensed electrician has to repair it, an inspector generally has to
-            approve it, and only then does the meter go back in.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            That is the work we do. {site.name} repairs storm-damaged service equipment across{' '}
-            {site.serviceArea}, pulls the permit, meets the inspector, and coordinates the reconnect with
-            Duke so you are not making the calls yourself with no power to charge your phone.
-          </p>
 
           <h2 className="mt-10 section-title text-brand-700">After the Storm, Call Before You Clear the Yard</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
-            The morning after a bad storm, every electrician and every inspector in the region is booked by
-            lunchtime, and it runs on a first-come basis. The people who called at seven get their power back
-            days before the people who called at noon.
-          </p>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             So if you wake up to damage at the meter or the mast, call it in before you start dragging
             branches. The repair itself is usually a single day. The wait to begin it is what turns into a
@@ -345,7 +350,7 @@ export default function StormElectricityOutagePage() {
         <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Storm Outage FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">

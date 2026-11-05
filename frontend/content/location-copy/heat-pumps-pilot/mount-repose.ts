@@ -4,7 +4,7 @@ export const mountRepose: LocationServiceCopy = {
   localParagraph:
     'Mount Repose splits nearly down the middle on heating. Census figures show 48.9% of homes on gas and 41.4% on electricity, in houses mostly built from the 1960s on. So one call is an all-electric house where the heat pump and its backup strips carry the whole winter, and the next is a gas house where a heat pump handles the milder days. We find the failed part and give you the price before any work.',
   emergencyParagraph:
-    'Around 100 nights a year drop to freezing or below at CVG, by NOAA’s count. When a Mount Repose heat pump fails on one of them, an all-electric house is down to its backup strips or nothing, and that is risky for infants, older parents and anyone sick. We come out the same day on most calls, weekends too.',
+    'NOAA counts roughly 100 freezing nights a year at CVG. Lose the heat pump on one of those in an all-electric Mount Repose house and you’re left with backup strips or no heat at all, which is hard on infants, older parents and anyone ill. Most calls get a technician out the same day, Saturdays and Sundays included.',
   commonIntro:
     'Most Mount Repose heat pump calls come from single-family houses built after 1960, some all-electric and some with gas or oil as backup. Four problems lead the list:',
   localFaqs: [
@@ -37,7 +37,7 @@ export const mountRepose: LocationServiceCopy = {
       },
       {
         title: 'Repair or Replace Your Mount Repose Heat Pump?',
-        body: 'Base the decision on the heat pump. Many Mount Repose houses went up in the 1960s and 1970s, but the outdoor unit may be far newer, and the date on its label is what counts. A bad contactor or a worn outdoor fan motor on a younger unit is a repair. A leaking coil or a compressor that won’t start is when replacement comes into it, and on an older unit we price both options for you. Duke Energy Ohio delivers power here, and in an all-electric house a failing heat pump shows up on that bill as the backup strips take over.',
+        body: 'Look at the heat pump, not the house. Plenty of Mount Repose homes date from the 1960s and 1970s and have had the outdoor unit swapped since, so the label on that unit tells you its real age. On a younger system, a burnt contactor or a tired fan motor gets fixed and that’s the end of it. A coil that leaks, or a compressor that hums and won’t run, is the point where we quote a new system next to the repair on an older unit. In an all-electric house, the Duke Energy Ohio bill climbs as backup strips cover for a heat pump that’s failing.',
       },
     ],
     whyTitle: 'Why Mount Repose Homeowners Call Us',

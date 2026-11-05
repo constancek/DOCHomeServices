@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -101,10 +101,10 @@ export default function WaterDamageRestorationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Water Damage Restoration in ${site.serviceArea}`}
-        description="Extraction, structural drying, and repair of the plumbing that caused it — starting the same day you call."
+        image="/services/water-damage-restoration-hero.webp"
+        imageAlt="A suburban house surrounded by high floodwater after heavy rain"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -116,13 +116,30 @@ export default function WaterDamageRestorationPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/water-damage-restoration-hero.webp)' }}
-            role="img"
-            aria-label="A suburban house surrounded by high floodwater after heavy rain"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
+            Local Water Damage Restoration Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Water damage restoration across {site.serviceArea} usually comes down to a basement. A
+            burst supply line, a sump pump that quit in heavy rain or a sewer backup on low ground
+            near the Ohio River all end with wet drywall and carpet below grade. Because we are
+            plumbers as well, the same crew fixes the leak that caused it and then dries the
+            structure, with no second company to wait on. You get a flat-rate price for the whole
+            job before anything starts.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Water Damage Restoration in {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Every hour water sits, it moves further into framing and subfloor, and that damp
+            material is where mold takes hold later. If water is standing near outlets or a power
+            strip, don’t walk in it until the power to that area is off. Most water damage calls get
+            a crew the same day, weekends included.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Water Damage Restoration
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -130,12 +147,6 @@ export default function WaterDamageRestorationPage() {
             morning is a wet floor by noon and a wet wall cavity by dinner, and the cost of the job
             climbs with every one of those hours. {site.name} handles both halves of the problem —
             we repair the plumbing that failed and dry out what it soaked.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Most restoration companies are not plumbers. They arrive after someone else has stopped
-            the water, which means two contractors, two schedules, and a gap in between where the
-            damage keeps spreading. We turn up as one crew, shut the source down, and start pulling
-            water out the same visit.
           </p>
         </MainWithSidebar>
       </section>
@@ -269,7 +280,7 @@ export default function WaterDamageRestorationPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

@@ -33,7 +33,7 @@ export const saylerPark: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Run through a few checks first. The thermostat belongs on heat, not cool. Put in a fresh filter. There are two breakers to look at, the outdoor unit’s and the furnace or air handler’s; reset a tripped one once. Clear leaves and snow from the outdoor unit. Steam, a coat of light frost and a brief fan pause during defrost are normal. If heat comes back, you don’t need us. Call if ice builds and stays, the furnace never fires, or the outdoor fan won’t move. If you smell gas at the furnace, get out and call from outside. We find it, price it, fix it and test it.',
+        body: 'In a Sayler Park house, try the simple fixes first. Switch the thermostat from cool to heat. Slide in a clean filter. Flip back a tripped breaker once, whether it feeds the outside cabinet or the furnace and air handler. Pull leaves and snow away from the outside cabinet. Defrost can bring steam, a thin frost and the fan resting briefly, all expected. Warm air back means skip the call. Call if ice builds and stays, the furnace never fires, or the outdoor fan won’t move. If you smell gas at the furnace, get out and call from outside. We find it, price it, fix it and test it.',
       },
       {
         title: 'Repair or Replace Your Sayler Park Heat Pump?',

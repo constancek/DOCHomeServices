@@ -6,7 +6,7 @@ export const eastPriceHill: LocationServiceCopy = {
   emergencyParagraph:
     'Around 100 nights each year drop to freezing or below at the Cincinnati airport, going by NOAA normals. A cold East Price Hill apartment on one of those nights puts infants, elderly relatives and sick residents at risk first. Our technicians handle heat pumps, air handlers and the electric backup strips, with same-day visits on most calls, weekends included.',
   commonIntro:
-    'East Price Hill heat pump calls split between apartment buildings with electric heat and older houses where a heat pump runs with the gas furnace. These four come up most:',
+    'In East Price Hill we get called to two kinds of property: apartment blocks heated by electricity, and older gas-heated houses with a heat pump added. These four come up most:',
   localFaqs: [
     {
       q: 'I rent in East Price Hill and the heat pump stopped. Who fixes it?',
@@ -22,35 +22,35 @@ export const eastPriceHill: LocationServiceCopy = {
     band1Heading: 'Common Heat Pump Problems in East Price Hill Homes and Apartments',
     commonSituations: [
       'An apartment where the heat pump quit and the backup strips are running nonstop',
-      'A pre-1940 house where the heat pump and gas furnace fight over the thermostat',
+      'Thermostat wiring in a pre-1940 house that lets the furnace and heat pump run against each other',
       'A 1960s building with several outdoor units and one frozen solid',
-      'A tenant report of cool air that turns out to be a stuck reversing valve',
+      'Cold air reported by a tenant, traced to a reversing valve stuck in cooling',
     ],
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Set the thermostat to heat; a setting of cool or off looks like a breakdown. Put in a fresh filter. Each system has an outdoor breaker and an air handler breaker, and either one can trip. Shift snow and leaves crowding the outdoor unit. A cloud of steam, a frost film and a fan that idles for a few minutes all mean defrost. If heat is back, you don’t need us, though renters should still tell the landlord. Ring us for ice that won’t melt, an auxiliary heat light that never clears or grinding outside. We diagnose, explain, quote for approval and test.',
+        body: 'Plenty of no-heat reports here clear up without us. If the thermostat is on cool or off, move it to heat. Swap a dirty filter. Every system has two breakers, one for the condenser outside and one for the air handler, so check both. Brush snow or leaves away from the condenser. Defrost brings steam, a skim of frost and the fan stopping for a few minutes; that is normal. Warm again? Then no call, though a renter should still let the landlord know. Ice that never melts, an auxiliary heat light stuck on or grinding outside are worth a visit, and we quote before any repair.',
       },
       {
         title: 'Repair or Replace Your East Price Hill Heat Pump?',
-        body: 'Judge it by the heat pump, not the building. A 1930s house can have a heat pump that went in a few years ago, and a bad fan motor, contactor or defrost board on it is a repair. A refrigerant leak or failed compressor is where we put a replacement price beside the repair price for the owner. A Duke Energy bill that spikes in an ordinary winter month often means backup strips are doing the heat pump’s job. The City of Cincinnati requires the contractor to pull HVAC permits, so we do. Financing is available.',
+        body: 'Look at how old the heat pump is; the building’s age tells you little. Lots of 1930s houses here have a heat pump only a few years old, and on those a worn fan motor, contactor or defrost board gets fixed. Once refrigerant is leaking or the compressor has failed, the owner sees a replacement quote next to the repair quote. When the Duke Energy bill jumps in a normal winter month, the backup strips are often covering for the heat pump. The City of Cincinnati requires the contractor to pull HVAC permits, so we do. Financing is available.',
       },
     ],
     whyTitle: 'Why East Price Hill Landlords and Homeowners Call Us',
     whyParagraph:
-      'With most East Price Hill homes rented, we work for landlords and owners alike and send the price to whoever approves it. Technicians are licensed, insured and drug-tested, and there are no overtime fees.',
+      'Most East Price Hill homes are rentals, so our quotes go to the landlord, manager or owner who signs off. Every technician is licensed, insured and drug-tested, and nights and weekends carry no overtime fees.',
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in East Price Hill?',
-        a: 'That depends on the fault. A contactor or capacitor is a short visit, and a refrigerant leak takes longer to find, seal and recharge. After the diagnosis, the owner gets a single flat-rate price and work starts only once it’s approved. Weekends cost the same as weekdays.',
+        a: 'What broke decides it. Changing a contactor or capacitor takes little time, while a refrigerant leak means tracing it, sealing it and recharging. Once we know the cause, the owner gets one flat-rate number, and we start only after a yes. Saturday and Sunday visits are priced like any weekday.',
       },
       {
         q: 'Should I repair or replace the heat pump in my East Price Hill property?',
-        a: 'Check the install date on the outdoor unit instead of the building’s age. One failed part on a fairly new heat pump is a repair. A dead compressor or repeated leaks on an older one make replacement worth pricing, and we quote both so the owner can compare.',
+        a: 'Read the year off the outdoor unit’s label; the building’s age does not matter here. A fairly young heat pump with a single bad part gets fixed. A compressor that has died, or leak after leak on an aging unit, is when a replacement quote earns its place, and the owner gets both numbers.',
       },
       {
         q: 'Why does my East Price Hill heat pump blow cool air?',
-        a: 'Heat pump air is milder than gas furnace air, so lukewarm air at the vent is usually normal. Cold air with the outdoor unit iced over or not running is a fault. Air that stays cold with the thermostat on heat often points to the reversing valve.',
+        a: 'Heat pumps send out gentler warmth than a gas furnace, so a tepid feel at the register is expected. Truly cold air while the outside unit is iced or idle means something has failed. If the vents stay cold even with the thermostat on heat, the reversing valve is the usual suspect.',
       },
     ],
   },

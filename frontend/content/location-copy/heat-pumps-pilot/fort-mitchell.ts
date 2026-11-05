@@ -4,7 +4,7 @@ export const fortMitchell: LocationServiceCopy = {
   localParagraph:
     'Heat pump work in Fort Mitchell splits between mid-century houses off Dixie Highway and the apartment buildings that hold about a quarter of the city’s homes. Census figures show 36.8% of homes heat with electricity and 59.1% with gas, so plenty of houses pair a heat pump with a gas furnace that takes over on the coldest nights. Power here comes from Duke Energy Kentucky. We track down which half of the system failed and give you a price before any part comes off.',
   emergencyParagraph:
-    'NOAA’s normals put January lows near 23F at CVG, the weather station for Northern Kentucky. A Fort Mitchell home with no heat at that point is hard on babies, older relatives and anyone recovering from illness. We repair heat pumps, the air handlers inside and dual fuel setups, mostly on the day you call, weekends included.',
+    'CVG, the Northern Kentucky weather station, averages January lows near 23F under NOAA’s normals. Without heat at that temperature, a Fort Mitchell house or apartment turns hard on infants, grandparents and anyone recovering from illness. Our technicians fix heat pumps, indoor air handlers and dual fuel systems, most often the same day you reach us, Saturday and Sunday included.',
   commonIntro:
     'Fort Mitchell calls come from owner-occupied houses built between the 1940s and 1970s and from rented apartments. These four show up most:',
   localFaqs: [
@@ -14,7 +14,7 @@ export const fortMitchell: LocationServiceCopy = {
     },
     {
       q: 'Do I need a permit to replace a heat pump in Fort Mitchell?',
-      a: 'Yes. Kentucky requires a permit to replace a heat pump, and for Fort Mitchell addresses it comes from Planning and Development Services of Kenton County. We pull it as part of the replacement. Fixing the unit you already have, such as a new contactor, is priced and done on the visit.',
+      a: 'Yes. Replacing a heat pump in Kentucky takes a permit, and Fort Mitchell addresses get theirs from Planning and Development Services of Kenton County. That filing comes with our replacement work. A repair to your existing unit, say a new contactor, is quoted at a flat rate and finished that visit.',
     },
   ],
   overrides: {
@@ -29,7 +29,7 @@ export const fortMitchell: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'A few checks can save you a visit. The thermostat should say heat, not cool or off. Hold the filter up to a light and swap it if nothing shows through. There are two breakers, one for the outdoor unit and one for the air handler, and both need to be on. Brush snow or leaves off the outdoor unit. Steam, thin frost and the fan pausing for a few minutes are a normal defrost. If the rooms warm up, you don’t need us. Call when the coil stays packed with ice, the auxiliary heat light won’t go out, or the outside fan sits still.',
+        body: 'Rule out the simple stuff before you phone. The thermostat display has to say heat. Pull the filter; if light won’t pass through it, fit a fresh one. Fort Mitchell systems run on a pair of breakers, outdoor condenser and indoor air handler, and both belong in the on position. Sweep drifted snow or leaves off the outdoor cabinet. A defrost cycle throws steam, leaves thin frost and stops the fan briefly; that’s expected. Rooms warming back up means you can cancel us. Phone when ice keeps building, the auxiliary heat light stays lit, or the outside fan won’t spin.',
       },
       {
         title: 'Repair or Replace Your Fort Mitchell Heat Pump?',
@@ -38,19 +38,19 @@ export const fortMitchell: LocationServiceCopy = {
     ],
     whyTitle: 'Why Fort Mitchell Homeowners and Landlords Call Us',
     whyParagraph:
-      'We service heat pumps in Fort Mitchell houses and apartment buildings, including dual fuel systems with a gas furnace behind them. Every technician is licensed, insured, background-checked and drug-tested, and we’ve been family owned since 1993.',
+      'From Fort Mitchell houses to its apartment buildings, we repair heat pumps and the dual fuel systems paired with gas furnaces. Licensed, insured technicians pass background checks and drug tests, and we’ve been family owned since 1993.',
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost in Fort Mitchell?',
-        a: 'We price it once we’ve found the fault. Replacing a failed capacitor on the outdoor unit is quick work. Finding a slow refrigerant leak takes longer. Either way you approve one flat-rate price before we start, and weekend calls carry no overtime fees.',
+        a: 'Once we know what broke, you get the number. A burned-out capacitor on the condenser is a short job; a slow leak hidden in the coil takes real hunting. You sign off on a single flat-rate price up front, and Saturday or Sunday visits don’t add overtime.',
       },
       {
         q: 'Is my Fort Mitchell heat pump worth repairing?',
-        a: 'Usually, if one part failed on a unit in fair shape. If the compressor is gone, or refrigerant keeps escaping from an older coil, replacing the outdoor unit often makes more sense. We show both prices and you decide. Landlords get the same side-by-side numbers.',
+        a: 'Generally yes, when a single part quit on a unit that’s otherwise in fair condition. A dead compressor, or an aging coil that keeps losing refrigerant, tilts toward a new outdoor unit. You see the repair price and the replacement price together and choose. Landlords get the same two numbers.',
       },
       {
         q: 'Why does my Fort Mitchell heat pump blow cool air in winter?',
-        a: 'Some of it is normal. A heat pump delivers warm air, not hot, so at a Fort Mitchell register it can feel cool if you grew up with gas. Air that is plainly cold, with the outdoor unit glazed in ice or sitting still, means something failed. Check the thermostat mode, then call us.',
+        a: 'Partly expected. Heat pump air is warm rather than hot, so a Fort Mitchell register can feel cool to anyone used to gas heat. Plainly cold air, with the outdoor unit glazed in ice or stalled, points to a failure. Confirm the thermostat is on heat, then phone us.',
       },
     ],
   },

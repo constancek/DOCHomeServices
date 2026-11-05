@@ -29,11 +29,11 @@ export const cleves: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'There are a few things to check before you call. Make sure the thermostat is on heat. Change a dusty filter. Look for two breakers, one feeding the outdoor unit and one feeding the indoor air handler or furnace, and reset a tripped one. Clear leaves and snow off and around the outdoor unit. Steam and light frost in cold weather, with the fan pausing a few minutes, are the defrost cycle at work. If the heat returns, you don’t need us. Call when ice builds up and stays, the emergency heat light won’t clear, or you hear grinding outside. We inspect it and price it first.',
+        body: 'Most Cleves homes are single-family houses, so the owner can rule out the easy stuff alone. Thermostat first: heat mode. Then the filter; a gray, clogged one starves the coil. Two breakers serve the system, condenser and air handler (or furnace in a dual fuel setup), and one can be flipped back once. Kick snow and leaves clear of the condenser. A puff of steam, a skin of frost and a fan sitting idle for a few minutes are normal defrost. Heat back means no visit. Phone us for ice that holds, an emergency heat light stuck on, or grinding from the yard. We diagnose and quote before touching anything.',
       },
       {
         title: 'Repair or Replace Your Cleves Heat Pump?',
-        body: 'Go by the heat pump, not the house. Cleves has houses from before 1940 and houses built since 2000, and either can have a young or old unit outside. A worn fan motor or a defrost control on a newer heat pump is a sensible repair. A refrigerant leak or a failed compressor on an older one is when we lay a replacement price beside the repair. Flood water is its own issue; anything that sat in it gets tested first. In an all-electric home, an electric bill that jumps in a mild month points to the heat strips.',
+        body: 'Judge the heat pump on its own record. Cleves has prewar houses and houses put up since 2000, yet the unit in the yard may be any age. On a younger heat pump, a tired fan motor or a bad defrost board is worth fixing. On an older one, a compressor that’s quit or refrigerant that keeps disappearing means we write up replacement next to repair. Anything that sat in flood water gets tested before it runs. In an all-electric house, a power bill that spikes during a mild month usually means the strips are doing the heat pump’s job.',
       },
     ],
     whyTitle: 'Why Cleves Homeowners Call Us',
@@ -50,7 +50,7 @@ export const cleves: LocationServiceCopy = {
       },
       {
         q: 'Why does my Cleves heat pump blow cool air in winter?',
-        a: 'Heat pump air comes out warm rather than hot, so if you’re used to gas heat it can feel cool. That’s normal. Cold air from the vents while the outdoor unit is iced over or stopped means a fault, and that’s when to call.',
+        a: 'A heat pump moves a steady stream of mild air, so a hand at the vent feels less heat than gas furnace owners expect. If the vents push truly cold air while the outdoor coil is caked in ice or the fan outside has stopped, something has failed, and that’s worth a call.',
       },
     ],
   },

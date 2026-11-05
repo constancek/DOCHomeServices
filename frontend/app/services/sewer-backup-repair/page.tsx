@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -102,10 +102,10 @@ export default function SewerBackupRepairPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="After Flood Plumbing"
+      <LocationHero
         title={`Sewer Backup Repair in ${site.serviceArea}`}
-        description="Camera diagnosis, line clearing, and a repair that holds — so it does not come back next month."
+        image="/services/sewer-backup-hero.webp"
+        imageAlt="Large concrete sewer pipes lined up at a construction site"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -117,25 +117,26 @@ export default function SewerBackupRepairPage() {
 
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/sewer-backup-hero.webp)' }}
-            role="img"
-            aria-label="Large concrete sewer pipes lined up at a construction site"
-          />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
-            When the Sewer Comes Back Up
+            Local Sewer Backup Repair Pros Who Know {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            A sewer backup is the one plumbing failure where the first move is to stop using water
-            entirely. Everything you send down the drain while the line is blocked comes back into
-            the house, and the damage scales with how long that goes on. Turn it off, then call.
+            Sewer backup repair across {site.serviceArea} usually means finding the reason the line
+            keeps closing and fixing that. In older neighborhoods the cause is most often tree roots in
+            a clay or cast iron joint, and after a flood it can be silt packed into the main. Sometimes
+            the blockage sits in the public sewer instead of your lateral. A camera inspection tells us
+            which, and you get a written flat-rate price to approve before we touch the pipe.
           </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Sewer Backup Repair in {site.serviceArea}
+          </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} puts a camera down the line before quoting anything. Roots, grease, silt from
-            a flood, a bellied section, and a fully collapsed pipe all produce the same symptom in
-            your basement and need five different repairs. Guessing at which one you have is how
-            people end up paying to snake the same pipe three times in a year.
+            Sewage in the basement is contaminated water, so keep children and pets out of the room and
+            stop running water upstairs. Inside the City of Cincinnati, the Metropolitan Sewer District
+            needs a backup reported within 48 hours, so make that call early. Most backup calls get a
+            plumber the same day, weekends included.
           </p>
         </MainWithSidebar>
       </section>
@@ -259,7 +260,7 @@ export default function SewerBackupRepairPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

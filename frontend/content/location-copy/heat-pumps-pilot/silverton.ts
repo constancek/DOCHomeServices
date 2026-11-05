@@ -33,7 +33,7 @@ export const silverton: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Some no-heat problems in Silverton have simple fixes. Set the thermostat to heat; a mild week can leave it on cool. Swap a filter that has turned gray. Look at the panel for two breakers, one serving the outdoor unit and one the air handler, since either trips on its own. Clear leaves and snow away from the outdoor cabinet. During defrost the unit can steam, frost lightly and stop its fan for a few minutes, and that is normal. If warm air returns, you don’t need us. Call if the unit grinds or ice stays put. We price the fix first.',
+        body: 'Some no-heat problems in Silverton have simple fixes. After a mild week, the thermostat may still be on cool; put it back to heat. A gray filter gets swapped. The panel holds a breaker for the outside cabinet and another for the air handler, and either can trip without the other, so flip back whichever is off. Pull leaves and snow off the outside unit, which matters more in a tight side yard. Steam, thin frost and a resting fan for a few minutes are just defrost. Warm air back means skip the call. Grinding, or ice that stays, means call us. We price the fix first.',
       },
       {
         title: 'Repair or Replace Your Silverton Heat Pump?',
@@ -54,7 +54,7 @@ export const silverton: LocationServiceCopy = {
       },
       {
         q: 'Why is my Silverton heat pump blowing cool air?',
-        a: 'Often it isn’t a fault. A heat pump delivers steady warm air, not the hot blast of a gas furnace, so a hand at the vent can read it as cool. If the outdoor unit is iced over or not running and the air turns cold, something has failed and we should look.',
+        a: 'Often nothing is wrong. Most Silverton homes heat with gas, and next to that, heat pump air runs steady and warm instead of hot, so it feels cooler. Air that turns plainly cold while the outside unit sits iced or quiet is different: a part has failed and we should look.',
       },
     ],
   },

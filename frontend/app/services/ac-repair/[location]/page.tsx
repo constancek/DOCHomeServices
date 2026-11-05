@@ -75,6 +75,14 @@ const config: ServiceLocationConfig = {
     { q: 'Why is my AC blowing warm air?', a: 'Common causes include a tripped breaker, a clogged filter, low refrigerant from a leak, or a failed capacitor or compressor. We diagnose the exact cause before quoting a fix.' },
     { q: 'How often should I have my AC serviced?', a: 'Once a year, ideally in spring before the cooling season — regular maintenance catches small issues before they become breakdowns.' },
   ],
+  steps: {
+    heading: 'What to Expect From AC Repair in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Find the Fault', text: 'Capacitor, refrigerant, coil and controls checked.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A flat rate, before any work starts.' },
+      { icon: 'snowflake', title: 'Cool Again, Tested', text: 'We run a full cooling cycle before we leave.' },
+    ],
+  },
   related: [
     { label: 'AC Repair (overview)', href: '/services/ac-repair' },
     { label: 'AC Installation & Replacement', href: '/services/ac-installation-replacement' },

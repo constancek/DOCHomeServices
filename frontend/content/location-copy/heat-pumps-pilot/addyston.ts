@@ -4,7 +4,7 @@ export const addyston: LocationServiceCopy = {
   localParagraph:
     'Addyston is a village of renters, and much of our heat pump work here starts with a call from a landlord or building owner. Census figures put 41.1% of homes on electric heat, so plenty of apartments run all-electric with backup strips behind the heat pump, while the gas houses often pair one with a furnace. Over a quarter of homes sit in buildings of five or more units. We trace the fault and quote the owner before any part is changed.',
   emergencyParagraph:
-    'When an Addyston heat pump quits, the house loses heat fast on a January night, and NOAA normals for the Cincinnati airport put the low near 23F. That is hardest on babies, older relatives and anyone ill. We repair heat pumps and their backup heat strips, same day on most calls, weekends included.',
+    'Addyston’s January nights drop to about 23F, judging by NOAA normals for the Cincinnati airport, and a house without a working heat pump cools off fast. The people at risk first are babies, older relatives and anyone sick. Heat pumps and the backup strips behind them are what we repair, same day on most calls, Saturdays and Sundays too.',
   commonIntro:
     'Addyston heat pump calls mostly come from rented homes and small apartment buildings, plus older gas houses with a heat pump added later. These four come up most:',
   localFaqs: [
@@ -29,11 +29,11 @@ export const addyston: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'The thermostat may have been bumped off heat mode, so set it back. A filter packed with dust starves the system; change it. The outdoor unit and the indoor air handler each have their own breaker, so look at both. Rake leaves and shovel snow clear of the outdoor cabinet. Thin frost, wisps of steam and a fan resting for a few minutes mean it is defrosting. When heat comes back, you don’t need us, but let the landlord know. A coil locked in ice, an auxiliary heat light that never goes out or a dead outdoor fan all mean a service call.',
+        body: 'Try a few things before you ring your landlord. In a shared flat the thermostat often ends up on cool or off, so put it back on heat. Hold the filter up to a lamp; if no light gets through, swap it. Two breakers feed the system, outside cabinet and indoor blower, so reset whichever tripped. Clear snow and leaves off the outside unit. Steam, light frost and a quiet fan for a few minutes are just defrost. Warm air again means no visit. Ice that stays on the coil all day, an emergency heat lamp lit nonstop or a fan that won’t turn are faults to report.',
       },
       {
         title: 'Repair or Replace Your Addyston Heat Pump?',
-        body: 'Judge the heat pump itself, not the age of the building. A house from the 1920s may carry a unit put in a few years ago, and a failed contactor or defrost board on that is a repair. A slow refrigerant leak or a seized compressor on an aging unit is where we price both options for the owner, and we handle the permit if it gets replaced. When backup strips are carrying the heat, the electric bill climbs in a month that should have been ordinary. That is often the first sign a landlord sees.',
+        body: 'In Addyston the building’s age tells you little. 28.9% of homes went up before 1940, and plenty of those old company houses got a heat pump decades later. So we read the nameplate on the outdoor unit. A fairly new system with one bad part, say a contactor or a defrost control, gets fixed. A compressor that has seized, or refrigerant that keeps leaking out of an older system, gets two written prices side by side so the owner can choose. If replacement wins, we handle the permit. Landlords often spot trouble first on the electric bill, when backup strips quietly take over the heating.',
       },
     ],
     whyTitle: 'Why Addyston Landlords and Residents Call Us',
@@ -46,11 +46,11 @@ export const addyston: LocationServiceCopy = {
       },
       {
         q: 'Is it worth repairing an Addyston heat pump, or should the owner replace it?',
-        a: 'Check the date on the outdoor unit label, not the house. One failed part on a healthy younger unit is worth fixing. A dead compressor or a leak that keeps coming back on an older system is when we quote replacement alongside the repair, so the owner can compare.',
+        a: 'Read the age off the outdoor unit’s nameplate; the house tells you nothing. If the system is fairly young and one part failed, repair it. If the compressor is gone, or refrigerant runs low again after an earlier fix and the unit has some years on it, we write up both prices so the owner sees them together.',
       },
       {
         q: 'Why is my Addyston heat pump blowing cool air?',
-        a: 'Heat pump air comes out milder than air from a gas furnace, so lukewarm air on a cold day is normal. Air that feels truly cold, with the outdoor unit iced over or not running, means a fault. Tenants should report it instead of opening panels.',
+        a: 'Next to a gas furnace, a heat pump sends out gentler air, so lukewarm vents on a cold day are expected. If the air is properly cold and the outdoor unit is crusted in ice or not running, something has failed. Tenants should report it to the landlord and leave the panels shut.',
       },
     ],
   },

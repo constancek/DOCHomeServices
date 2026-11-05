@@ -33,7 +33,7 @@ export const southLebanon: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'South Lebanon owners can rule out the simple causes first. Check that the thermostat says heat, and on a newer smart thermostat, that a schedule hasn’t switched it off. Replace a filter that looks gray. Two breakers serve the system, one for the outdoor unit and one for the air handler; reset whichever tripped. Clear snow from the outdoor unit. A defrost cycle can steam, frost and quiet the fan for a few minutes, which is fine. If heat comes back, you don’t need us. An outdoor fan that won’t turn or an emergency heat light that won’t go out needs a visit. We price before we repair.',
+        body: 'South Lebanon owners can rule out the simple causes first. The thermostat should be on heat, and on a newer smart thermostat, make sure a schedule hasn’t turned the system off. A gray filter gets swapped. The panel has a breaker for the outside cabinet and another for the air handler; flip back the tripped one. Shovel snow away from the outside unit. Steam, a skin of frost and a fan that pauses briefly are a defrost cycle. Once the house warms up, the visit can wait. An outdoor fan that won’t turn or an emergency heat light that won’t go out needs a visit. We price before we repair.',
       },
       {
         title: 'Repair or Replace Your South Lebanon Heat Pump?',
@@ -54,7 +54,7 @@ export const southLebanon: LocationServiceCopy = {
       },
       {
         q: 'Why is my South Lebanon heat pump blowing cool air?',
-        a: 'Partly because heat pumps run warm, not hot. Air from the vents can feel cool if you are used to a gas furnace, and that is normal. If the outdoor unit is iced up or not running, or the air coming out is plainly cold, it’s a fault and we’ll find it.',
+        a: 'Partly because heat pumps run warm, not hot. Anyone who grew up with gas heat will find the registers feel lukewarm, and in an all-electric South Lebanon subdivision house that’s simply how the system heats. An outside unit caked in ice or sitting idle, or truly cold air, is a fault and we’ll find it.',
       },
     ],
   },

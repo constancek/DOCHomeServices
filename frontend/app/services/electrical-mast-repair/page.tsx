@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -70,10 +70,10 @@ export default function ElectricalMastRepairPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Electrical"
+      <LocationHero
         title={`Electrical Mast Repair in ${site.serviceArea}`}
-        description="Licensed electricians repair and replace damaged service masts, risers, and entrance cables — restoring a safe, reliable connection to utility power."
+        image="/services/mast-hero.webp"
+        imageAlt="Electrical service mast on a home exterior"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -84,23 +84,27 @@ export default function ElectricalMastRepairPage() {
 
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/mast-hero.webp)' }} role="img" aria-label="Electrical service mast on a home exterior" />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
-            Professional Electrical Mast Repair
+            Local Electrical Mast Repair Pros Who Know {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Your electrical service mast connects your home’s electrical system to the utility company’s
-            power lines. When it’s damaged, your whole home’s power and safety are at risk.
+            Electrical mast repair across {site.serviceArea} usually means storm damage. A limb on the
+            service drop bends the mast, loosens the roof flashing and lets water run down the entrance
+            cable into the meter base. Duke Energy owns the line from the pole and the meter, while the
+            mast, weatherhead, riser and meter box are yours. Duke disconnects before the work and
+            reconnects only after the inspection passes, so we file the permit at booking. You see the
+            price before any of it starts.
           </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Emergency Electrical Mast Repair in {site.serviceArea}
+          </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} provides electrical service mast repair and replacement across {site.serviceArea}.
-            Whether you’re dealing with a damaged mast or need an upgrade, we’re here to make your home
-            more efficient and dependable.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Because the mast ties directly into utility power, this is work for a licensed professional,
-            not a DIY fix. We handle it safely, to code, and with a focus on getting your power back
-            quickly.
+            A mast torn loose by a falling limb, wires sparking at the weatherhead or half the house
+            losing power is an emergency. If a line is down, stay well away from it and call the
+            utility, because it may still be live. For damage on the house side, most calls are handled
+            the same day, weekends included.
           </p>
         </MainWithSidebar>
       </section>
@@ -228,7 +232,7 @@ export default function ElectricalMastRepairPage() {
         <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Electrical Mast Repair FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">

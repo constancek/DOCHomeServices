@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -80,10 +80,10 @@ export default function WholeHouseRepipingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Whole-House Repiping in ${site.serviceArea}`}
-        description="Licensed plumbers replace old, corroded, or failing water pipes with modern PEX or copper — improving water quality, pressure, and reliability."
+        image="/services/repiping-hero.webp"
+        imageAlt="New copper water pipes"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -94,19 +94,23 @@ export default function WholeHouseRepipingPage() {
 
       <section className="py-16">
         <MainWithSidebar mascot>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/repiping-hero.webp)' }} role="img" aria-label="New copper water pipes" />
+          {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
-            Professional Whole-House Repiping
+            Local Whole-House Repiping Pros Who Know {site.serviceArea}
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Old water pipes do not last forever. Over time they corrode, narrow, and start to leak —
-            affecting your water quality, pressure, and peace of mind.
+            Whole-house repiping across {site.serviceArea} usually means replacing galvanized
+            steel or polybutylene supply lines that leak in more than one place. Galvanized pipe
+            in 1920s to 1950s homes corrodes from the inside until pressure drops at every tap,
+            and houses in Sedamsville and Clifton carry older pipe still. We replace it with PEX
+            or copper, typically over a few days to a week depending on home size. One leak on
+            otherwise sound pipe is a repair, not a repipe. The estimate comes before any wall
+            is opened.
           </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} provides whole-house repiping for homeowners across {site.serviceArea}. Our
-            licensed plumbers replace aging supply lines — including galvanized steel and polybutylene
-            systems — with modern PEX or copper built to last.
-          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
+            Professional Whole-House Repiping
+          </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Whether you are dealing with repeat leaks or planning ahead, a repipe restores reliable water
             throughout your home.
@@ -231,7 +235,7 @@ export default function WholeHouseRepipingPage() {
         <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Whole-House Repiping FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
           <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">

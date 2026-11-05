@@ -33,7 +33,7 @@ export const northgate: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Before you book, rule out the simple causes. Make sure the thermostat is in heat mode. Change the filter if it’s grey and matted. Look at the panel for a tripped breaker, either the outdoor unit’s or the air handler’s. Brush snow and leaves away from the outdoor unit. A defrost cycle throws off steam, leaves light frost and pauses the fan for a few minutes, and that’s normal. If those steps bring the heat back, you don’t need a technician. Call us when the coil stays iced, emergency heat won’t switch off or the system stays on cooling. We diagnose, explain and price before starting.',
+        body: 'Some Northgate heat calls end with a thermostat switch. Heat is the only mode that makes the heat pump warm the house. A filter clogged with dust slows everything down, so put a fresh one in. Two breakers serve the system, outdoor unit and air handler; a tripped one shuts it off. Sweep snow and leaves back from the outdoor unit. Steam rising off it, a thin frost and a fan that rests for a few minutes are defrost at work. Heat back after that, and you can cancel the call. Book us when the coil stays frozen, emergency heat won’t turn off or it keeps cooling.',
       },
       {
         title: 'Repair or Replace Your Northgate Heat Pump?',

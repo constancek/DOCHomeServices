@@ -4,7 +4,7 @@ export const harrison: LocationServiceCopy = {
   localParagraph:
     'Most Harrison homes heat with electricity, 64.5% by Census figures, and that number includes electric furnaces along with heat pumps. The city is newer than people think, too: 42.4% of homes date from 2000 or later. That means many no-heat calls here involve fairly young equipment with a single failed part, not a worn-out system. About one home in five is in an apartment building. We find the fault, explain it and give you a price before any repair.',
   emergencyParagraph:
-    'Winters here bring about 100 nights a year at or below freezing, by NOAA’s count at the Cincinnati airport. A Harrison home without heat on one of those nights is a real risk for babies, older relatives and anyone who is ill. We repair heat pumps and electric furnaces, most calls the same day, weekends included.',
+    'NOAA counts roughly 100 nights a year at or below freezing at the Cincinnati airport. If a Harrison house goes cold on one of them, a baby, a grandparent or a family member who’s sick feels it first. We repair heat pumps and electric furnaces, most calls the same day, weekends included.',
   commonIntro:
     'Harrison has a lot of electric heat in newer subdivisions, plus apartments and some mobile homes. These four problems come up most:',
   localFaqs: [
@@ -29,11 +29,11 @@ export const harrison: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Run through the basics first. The thermostat has to be on heat; cool or off will blow unheated air or nothing. A clogged filter can choke the system, so change it. Check two breakers, the outdoor unit’s and the air handler’s. Rake leaves and shovel snow away from the outdoor unit. Steam and light frost, with the fan stopped for a few minutes, are part of a normal defrost. If that clears it up, you don’t need us. Call when the auxiliary heat light stays on or the outdoor unit grinds. We inspect it, and you approve the price before we repair and test it.',
+        body: 'Plenty of Harrison no-heat calls end at the thermostat. Make sure it reads heat, not cool or off. A packed filter starves a heat pump of air, so put in a new one. The panel holds two breakers for this system, outside unit and air handler, and a tripped one shuts it down. Rake leaves and shovel snow off the condenser. During defrost the unit can steam, grow a thin frost and stop its fan for a few minutes; that’s expected. If those steps bring the heat back, skip the call. A lit auxiliary heat light that won’t quit, or grinding outside, is a job for us.',
       },
       {
         title: 'Repair or Replace Your Harrison Heat Pump?',
-        body: 'Look at the heat pump’s age, not the house’s. With so much of Harrison built since 2000, a lot of equipment here is still young, and a failed fan motor or capacitor on it is a repair. A refrigerant leak or compressor failure on an older unit is the bigger decision, and we lay out repair and replacement prices together. A Duke Energy bill that jumps in an ordinary month usually means backup heat strips are making up for a weak heat pump. Renters: Ohio’s ORC 5321.04 puts heating repairs on the landlord, and we fix heat pumps, not leases.',
+        body: 'Read the label on the heat pump, not the deed to the house. With 42.4% of Harrison homes built since 2000, a lot of equipment here is still young, and a dead fan motor or capacitor on it gets fixed. Leaking refrigerant or a seized compressor on an older unit is the bigger call, and you see the fix price and the new-unit price on the same page. A Duke Energy bill that jumps in an ordinary month usually means backup heat strips are making up for a weak heat pump. Renters: Ohio’s ORC 5321.04 puts heating repairs on the landlord, and we fix heat pumps, not leases.',
       },
     ],
     whyTitle: 'Why Harrison Homeowners Call Us',
@@ -50,7 +50,7 @@ export const harrison: LocationServiceCopy = {
       },
       {
         q: 'Why is my Harrison heat pump blowing cold air?',
-        a: 'Some coolness is normal. Heat pump air comes out warm but not as hot as a gas furnace, so it can feel cool on your hand. If it’s truly cold, and the outdoor unit is iced solid or not running, the system has a fault and needs a look.',
+        a: 'A little is expected. The air leaving a heat pump is warm, just not furnace-hot, so your palm on a vent may call it cool. Air that’s plainly cold, while the condenser outside is frozen over or sitting idle, means something broke and we should come out.',
       },
     ],
   },

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
+import LocationHero from '@/components/LocationHero';
 import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
@@ -92,10 +92,10 @@ export default function LightingFixtureInstallationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Lighting"
+      <LocationHero
         title={`Light Fixture Installation in ${site.serviceArea}`}
-        description="Kitchen, bathroom, dining, pendant, and ceiling fixtures installed and replaced by licensed electricians — connected safely and mounted to last."
+        image="/services/fixture-hero.webp"
+        imageAlt="Pendant light fixtures over a kitchen island"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -108,13 +108,20 @@ export default function LightingFixtureInstallationPage() {
       {/* Intro + sidebar */}
       <section className="py-16">
         <MainWithSidebar mascot couponTitle="Any Electrical Service">
-          <div
-            className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
-            style={{ backgroundImage: 'url(/services/fixture-hero.webp)' }}
-            role="img"
-            aria-label="Pendant light fixtures over a kitchen island"
-          />
+          {/* One-format top section: local pros, one paragraph */}
           <h2 className="section-title text-brand-700">
+            Local Light Fixture Installation Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Light fixture installation across {site.serviceArea} depends on the box the fixture
+            hangs from. A heavy fixture or anything with a fan needs a fan-rated box. Older ceilings
+            often have no ground wire, which has to be sorted before some fixtures go up. Adding a
+            light where none existed needs a permit in most jurisdictions here. Swapping like for
+            like on an existing box is a reasonable DIY job if you are confident at the panel.
+            Otherwise we check the box and price the job first.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Light Fixture Installation
           </h2>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
@@ -320,7 +327,7 @@ export default function LightingFixtureInstallationPage() {
             <Accordion
               items={faqs.map((f) => ({
                 title: f.q,
-                body: <p className="text-[15px] leading-relaxed text-ink/75">{f.a}</p>,
+                body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p>,
               }))}
               defaultOpen={0}
             />

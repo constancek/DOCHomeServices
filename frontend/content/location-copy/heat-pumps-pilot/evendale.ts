@@ -4,7 +4,7 @@ export const evendale: LocationServiceCopy = {
   localParagraph:
     'In Evendale a heat pump most likely shares the work with a gas furnace in a dual fuel setup. Census figures show 84.5% of homes heat with gas and only 14.2% with electricity. Every home in the village is a single-family house, most built between 1980 and 1999, so the original equipment has usually been replaced at least once. We check both halves of the dual fuel pairing and quote the fix before any work begins.',
   emergencyParagraph:
-    'NOAA’s January normal low at the Cincinnati airport is about 23F. When an Evendale heat pump quits and the gas furnace fails to step in, the house chills fast, hardest on infants, older family members or anyone sick. We fix heat pumps and the dual fuel controls linking them to the furnace, often on the day you call, weekends too.',
+    'January lows at the Cincinnati airport average close to 23F, per the National Weather Service. If the heat pump stops and the furnace doesn’t step in, the house loses warmth quickly, hardest on a baby, a grandparent or anyone sick. We fix heat pumps and their dual fuel controls, often the day you call, weekends too.',
   commonIntro:
     'Evendale heat pump calls usually involve a dual fuel system in a single-family house from the 1980s or 1990s. These four come up most:',
   localFaqs: [
@@ -29,11 +29,11 @@ export const evendale: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'A few checks come first. Set the thermostat to heat and swap a dirty filter. An Evendale dual fuel house has two breakers: one feeds the condenser, the other the furnace or air handler. Rake leaves and snow away from the condenser. Light frost and a little steam while the fan pauses a few minutes means defrost, and that’s expected. If warm air returns, you don’t need us. Phone us when ice keeps the coil buried or the fan sits still. If you smell gas by the furnace, get everyone out and phone the gas company from outside. Every repair is priced before we begin and tested when we finish.',
+        body: 'Try a few things before booking. The thermostat mode needs to show heat. Replace a gray filter. In a dual fuel house the condenser has its own breaker and the furnace has another, and a trip on either stops the heat. Clear leaves and snow from around the condenser. A thin layer of frost, a wisp of vapor and a fan that stops for a few minutes add up to a normal defrost. Warm again? Then we aren’t needed. Call us if the coil stays packed in ice or the fan never turns. Any gas smell by the furnace: everyone out, then call the gas company from the yard.',
       },
       {
         title: 'Repair or Replace Your Evendale Heat Pump?',
-        body: 'Base it on the heat pump, not the house. Evendale homes are mostly from the 1980s and 1990s, but the heat pump outside may be much newer, and a capacitor or fan motor on a young unit is worth repairing. A refrigerant leak or failed compressor on an older one is where we price replacement next to repair. With gas backup, a weak heat pump shows up as the furnace running more and a higher gas bill, not a jump in the electric bill. If water from Mill Creek reached the outdoor unit, keep it off until it has been checked.',
+        body: 'Read the date on the condenser label. The median Evendale house was built in 1982, and many have had the heat pump swapped since, so the house’s age is a poor guide. On a young unit, a bad capacitor or fan motor gets fixed. On an aging one, leaking refrigerant or a dead compressor gets a replacement quote written next to the repair quote. Gas backup hides a struggling heat pump: the furnace fires more often and the gas bill climbs while the electric bill barely moves. If Mill Creek water got into the condenser, leave the breaker off until we inspect it.',
       },
     ],
     whyTitle: 'Why Evendale Homeowners Call Us',
@@ -42,15 +42,15 @@ export const evendale: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost in Evendale?',
-        a: 'We price it after finding the fault. A failed capacitor is a short visit, while a dual fuel control problem or a refrigerant leak takes longer to trace. You get one flat-rate price to approve before anything is repaired, and weekend visits cost no more than weekday ones.',
+        a: 'It depends on the fault we find. Swapping a capacitor is quick. Sorting out a dual fuel handoff, or chasing a refrigerant leak, takes more time. Before any part is changed, you see one flat price and approve it. Saturday and Sunday calls cost the same as weekday ones.',
       },
       {
         q: 'Should I repair or replace my Evendale heat pump?',
-        a: 'If the unit is fairly new and one part failed, repair it. If it’s older and the compressor has failed or the refrigerant keeps leaking, compare a replacement. In a dual fuel home the gas furnace keeps you warm in the meantime, so you have time to decide.',
+        a: 'Young unit, one bad part: fix it. Older unit with a seized compressor or refrigerant that won’t stay in: look at a new one. With 84.5% of Evendale homes on gas, most owners have a furnace carrying the house while they think it over, so nobody has to rush.',
       },
       {
         q: 'Why does my Evendale heat pump blow cool air in winter?',
-        a: 'Heat pump air feels lukewarm next to the hot air from your gas furnace, and that is normal in mild weather. Cold air with the outdoor unit iced over or stopped is a fault. If the furnace never takes over on very cold days, the dual fuel control needs a look.',
+        a: 'You are used to furnace heat, which comes out hot. A heat pump in mild weather sends milder air, and that is how it should feel. Cold air while the condenser is frozen over or silent means a part failed. A furnace that won’t step in on a bitter night points to the dual fuel control.',
       },
     ],
   },

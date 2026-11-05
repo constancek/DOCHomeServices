@@ -33,20 +33,20 @@ export const melbourne: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Before calling, look at a few things. Is the thermostat on heat rather than cool or off? Is the filter clean? In the panel, the outdoor unit and the indoor air handler each have a breaker; reset one that has tripped. Keep snow, ice and leaves off the outdoor unit. Frost with a little steam, and a fan that stops for a few minutes, come from the defrost cycle and aren’t a fault. If the house warms up again, you don’t need a technician. Call us for ice that won’t clear, a grinding outdoor unit, or emergency heat that stays on. We quote before any repair.',
+        body: 'Start at the thermostat: heat, not cool or off. Hold the filter to a light; if none comes through, replace it. Check both breakers, outside unit and indoor air handler. Clear snow, ice and river-road leaves off the outside unit. Vapor, thin frost and a fan that rests a few minutes during defrost are not faults. When the rooms warm back up, skip the call. Phone us about ice that stays, a grinding noise outside or an emergency heat light that won’t go out. You get the price before we touch anything.',
       },
       {
         title: 'Repair or Replace Your Melbourne Heat Pump?',
-        body: 'The heat pump decides it, not the house. Melbourne homes are older than most of the heat pumps in them, so check the unit’s label for its date. A failed contactor or fan motor on a sound system is a repair. A compressor that won’t run, or refrigerant that leaks out again, is when we price replacement next to the repair. In an all-electric house there’s no gas furnace to fall back on, so a weak heat pump shows up as backup strips running for hours and a much bigger power bill. Kentucky requires a permit for a replacement, and we handle it.',
+        body: 'Look at the date on the heat pump’s label; the house won’t tell you much. Most Melbourne homes were standing long before their heat pumps arrived. A sound system with a burnt contactor or worn fan motor gets repaired. A compressor that has quit, or refrigerant that keeps escaping after a fix, is when you see a replacement price beside the repair price. With no gas furnace behind it, a weakening heat pump in an all-electric house leaves the strips running for hours, and the power bill shows it. Kentucky requires a permit for a replacement; we file it.',
       },
     ],
     whyTitle: 'Why Melbourne Homeowners Call Us',
     whyParagraph:
-      'Most Melbourne homes heat with electricity, so a heat pump repair here often means getting the only heat back on. Our licensed, insured technicians pass background checks and drug tests, and we’ve been family owned since 1993.',
+      'In most Melbourne houses electricity is the heat, so fixing the heat pump often means the house is warm again. Licensed, insured technicians who pass background checks and drug tests, from a family company since 1993.',
     sharedFaqs: [
       {
         q: 'What does heat pump repair cost in Melbourne?',
-        a: 'It depends on what failed. A contactor or capacitor is a short repair, while a refrigerant leak means finding it before fixing it. We diagnose first and give you one flat price to approve. There’s no overtime fee on weekends, and work doesn’t start until you agree.',
+        a: 'The failed part sets the price. Replacing a contactor or capacitor goes quickly; a refrigerant leak has to be located before it can be sealed. Diagnosis comes first, then a single flat price for you to accept or turn down. Weekends add no overtime fee.',
       },
       {
         q: 'Should I repair or replace an older heat pump in Melbourne?',

@@ -4,13 +4,13 @@ export const withamsville: LocationServiceCopy = {
   localParagraph:
     'Withamsville has more renters than owners, and much of its heat is electric. Census figures show 51.7% of homes heat with electricity, a figure that includes electric furnaces and baseboard as well as heat pumps. With 41.4% of homes in buildings of five or more units, a lot of that electric heat is in apartments, so owners and managers are usually the ones who call. Tenants should report problems to management. We diagnose the system and give owners a price before any work.',
   emergencyParagraph:
-    'NOAA’s normals for the Cincinnati airport show about 100 nights a year at or below freezing. In a Withamsville apartment, a heat pump failure on one of those nights is a problem for babies, older residents and anyone ill. We repair heat pumps and electric furnaces for owners and managers, most the same day, weekends included.',
+    'Roughly 100 nights each year dip to 32F or lower at CVG, going by NOAA’s 1991-2020 normals. When a Withamsville apartment loses its heat pump on a night like that, infants, elderly tenants and residents who are unwell are the first to suffer. Owners and managers get heat pump and electric furnace repairs from us, usually same day.',
   commonIntro:
     'Withamsville heat pump calls come mostly from apartment buildings and 1980s and 1990s housing, with some 1950s houses mixed in. These four come up most:',
   localFaqs: [
     {
       q: 'My Withamsville apartment heat pump isn’t heating. What should I do?',
-      a: 'Check that the thermostat is on heat and the filter isn’t clogged, if you can reach it. Then report it to your landlord or property manager in writing. Ohio’s ORC 5321.04 makes landlords keep supplied heating equipment working. We fix heat pumps, not leases, and work for the owner.',
+      a: 'See whether the wall control reads heat, and check the filter if you can reach it. Then put the problem in writing to the landlord or management office. Under ORC 5321.04, Ohio landlords must keep the heating they provide in good and safe working order. We fix heat pumps, not leases, and the owner hires us.',
     },
     {
       q: 'Do Withamsville heat pump replacements need a permit?',
@@ -42,7 +42,7 @@ export const withamsville: LocationServiceCopy = {
     sharedFaqs: [
       {
         q: 'How much does heat pump repair cost for a Withamsville rental?',
-        a: 'It depends on the failure. A contactor in one apartment’s outdoor unit is a short job; a refrigerant leak in a long line set takes more time. Owners and managers get a flat-rate price after diagnosis and approve it before work begins. There are no overtime fees on weekends.',
+        a: 'The failed part sets it. Swapping a burned contactor on one unit at the end of a building row goes quickly, while hunting a leak through a long refrigerant line takes much longer. Once we know the cause, the owner or manager gets one flat number to sign off on first. Saturday and Sunday visits carry no overtime charge.',
       },
       {
         q: 'Should a Withamsville owner repair or replace an aging heat pump?',
@@ -50,7 +50,7 @@ export const withamsville: LocationServiceCopy = {
       },
       {
         q: 'Why is the heat pump in my Withamsville apartment blowing cool air?',
-        a: 'Heat pump air feels milder than a gas furnace’s, so lukewarm air at the vent is normal. Cold air, especially with the outdoor unit iced over or silent, is a fault. Tenants should report it to management rather than open the equipment.',
+        a: 'A heat pump puts out gentler warmth than gas heat does, so air that feels only lukewarm on your hand is expected. Air that is plainly cold, above all when the outside unit is caked in ice or making no sound, means something broke. Tell management and leave the panels closed.',
       },
     ],
   },

@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Three-phase service and subpanels make an electrical inspection in Queensgate a bigger job than a house. This is mostly warehouses, offices and light industry near the rail yards and Mill Creek, and some buildings have a flooding history. We check the service, panels, grounding and past work against permits.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Electrical here tends to be larger and more involved than a typical home, with three-phase service and subpanels, so a documented inspection is the standard way to understand a building’s capacity and condition before a purchase or a new tenant build-out.',
-      'The low ground near the Mill Creek means some of these older industrial buildings have a flooding history, which can affect panels, grounding, and conduit. A licensed inspection reviews the service, panels, grounding and bonding, and circuit protection, and verifies past work against permits. The written report gives a Queensgate owner or tenant a clear basis for a transaction or an improvement project.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the inspection findings we see most often involve aging service equipment and the effects of low, flood-prone ground:',
-    localFaqs: [
-      {
-        q: 'Do you inspect commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we perform licensed electrical inspections of the service, panels, and grounding in those buildings, delivering a written report for a purchase or a tenant build-out.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'In CUF (Clifton Heights, University Heights & Fairview), an electrical inspection usually means a 19th- or early-1900s house cut into student rentals. Old wiring there feeds more people than it was built for. Ungrounded outlets, over-fused circuits and unpermitted conversion work are the usual findings.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'How fast can you inspect a home in South Cumminsville?',
         a: 'South Cumminsville is within our service area in the Mill Creek valley. We schedule licensed inspections promptly and deliver a written report on the panel, grounding, and circuit protection.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'Recent redevelopment means an electrical inspection in English Woods often checks whether new work was permitted and done to code. The older hilltop homes above the Mill Creek valley still carry original panels and ungrounded outlets. You get a written list of what needs attention before a sale.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here run on aging wiring with original panels and ungrounded outlets, and with redevelopment ongoing it is worth verifying whether recent work was permitted and to code — both reasons to book a documented inspection.',
-      'A licensed inspection in English Woods reviews the service and panel, grounding and bonding, and GFCI and AFCI protection, and flags any renovation work that does not match permits. The written report gives an owner or buyer of one of these hilltop homes a clear baseline and a list of anything that needs attention before a sale or further work.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the inspection findings we see most often involve aging wiring and verifying recent redevelopment work:',
-    localFaqs: [
-      {
-        q: 'Can you verify renovation work on an English Woods home?',
-        a: 'Yes. A licensed inspection in English Woods reviews whether recent work was wired to code and properly permitted and gives you a written report you can keep for resale or a permit record.',
       },
     ],
   },

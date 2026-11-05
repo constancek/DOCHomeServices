@@ -4,7 +4,7 @@ export const coldSpring: LocationServiceCopy = {
   localParagraph:
     'Cold Spring splits almost down the middle between electric and gas heat, so plenty of heat pumps here run with electric strips as their only backup. Census figures put electricity at 49.6% of homes and gas at 48.2%. Nearly half the housing was built in 2000 or later, a good share of it townhouses, so many heat pumps in town are original to the house and reaching the age where parts start to fail. We find the failed part, explain it, and quote it before any work.',
   emergencyParagraph:
-    'About 100 nights a year drop to freezing or below at CVG, by NOAA normals. When a Cold Spring house loses its heat pump and backup strips on one of those nights, the cold reaches young children, grandparents and anyone sick first. We repair heat pumps and electric air handlers, often within the day, weekends included.',
+    'NOAA normals for CVG show about 100 nights a year at or under freezing. If a Cold Spring townhouse goes dark on heat pump and strips during one, babies, older parents and anyone already ill feel it soonest. Our technicians fix outdoor units and electric air handlers, the same day on most calls, Saturdays and Sundays too.',
   commonIntro:
     'Cold Spring heat pump calls mostly come from houses and townhouses built since 2000. These are the usual ones:',
   localFaqs: [
@@ -29,7 +29,7 @@ export const coldSpring: LocationServiceCopy = {
     proseSections: [
       {
         title: 'Signs Your Heat Pump Needs Repair, and When It Doesn’t',
-        body: 'Check a few things before booking a visit. Set the thermostat to heat. Swap a dirty filter. Look in the panel for the two heat pump breakers, outside unit and air handler, and reset a tripped one a single time. Brush snow away from the outdoor coil. A defrost cycle looks alarming, with steam, light frost and a stopped fan, but it’s normal. If heat returns, you’re fine without us. Book a visit when ice keeps building, the auxiliary heat light stays lit, the system won’t switch out of cooling, or the outdoor fan scrapes or stalls. We find the fault, price it for your approval, and test after.',
+        body: 'Some Cold Spring winter calls sort themselves out. Confirm the thermostat reads heat. Hold the filter up to a lamp; if no light comes through, replace it. The outdoor unit and the air handler each have a breaker, so make sure neither has flipped. Clear patio snow off the outdoor coil. Steam, thin frost and a fan resting a few minutes mean it’s defrosting, which is normal. Call us when ice won’t melt off, the auxiliary heat light never goes out, heating is stuck on cooling, or the outdoor fan grinds or sits still. We diagnose, quote the fix for your yes, and test it running.',
       },
       {
         title: 'Repair or Replace Your Cold Spring Heat Pump?',
