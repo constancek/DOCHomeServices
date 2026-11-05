@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Most of the water heater repair we do in Queensgate is commercial: larger units in warehouses and light-industrial buildings near the rail yards. Leaking tanks, burned-out elements and slow recovery are the common faults, and low ground near the Mill Creek keeps that equipment damp.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Water heaters here are often larger commercial units under heavy daily use, and the low ground near the Mill Creek means equipment sits where flooding and damp work against the tank and its fittings.',
-      'In a Queensgate building the failures we handle are usually a leaking commercial tank, a burned-out heating element, or a unit whose recovery can no longer keep up with the demand of the operation. We test the controls and elements where a repair restores it and replace a tank that has corroded through, sizing the new unit to the building’s real hot-water load rather than just matching what was there. We respond 7 days a week.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the water-heater problems we handle most often come from heavy-use tanks on low, damp ground:',
-    localFaqs: [
-      {
-        q: 'Do you service commercial water heaters in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we repair and replace larger commercial water heaters as well as residential units throughout the district, every day, Saturdays and Sundays included.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'Water heater repair in CUF, the Clifton Heights, University Heights and Fairview area by UC, is mostly about student rentals. One undersized heater in an old subdivided house often feeds several bathrooms, so running out of hot water comes before outright failure. We size replacements to the units served.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'How fast can you reach South Cumminsville when the water heater fails?',
         a: 'South Cumminsville is within our service area in the Mill Creek valley. We are on call 7 days a week and aim for same-day arrival.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'In English Woods, water heater repair splits between newer tanks in redeveloped housing and older units in longstanding homes on this hilltop above the Mill Creek valley. The older ones show lukewarm water, slow recovery or a damp ring at the base. Replacing spent parts can save the tank.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. Its water heaters span older units in the longstanding homes and newer tanks in the redeveloped housing, but the older ones are typically well past the age where leaks begin.',
-      'In an English Woods home an aging tank usually announces itself with lukewarm water, a longer recovery between showers, or a damp ring at the base, signs of a corroded shell and built-up sediment. We flush and test the unit, replace a spent anode rod, element, or thermostat where that restores it, and recommend a fresh tank only when corrosion has taken it past saving. We respond 7 days a week.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the water-heater problems we handle most often come from aging tanks reaching the end of their life:',
-    localFaqs: [
-      {
-        q: 'How fast can you reach English Woods when the water heater quits?',
-        a: 'English Woods is within our west-side service area above the Mill Creek valley. We are on call any day of the week and aim for same-day arrival.',
       },
     ],
   },
