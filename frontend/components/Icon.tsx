@@ -34,6 +34,7 @@ export type IconName =
   | 'gauge'
   | 'pump'
   | 'radiator'
+  | 'shower'
   | 'search';
 
 const paths: Record<IconName, ReactNode> = {
@@ -55,6 +56,13 @@ const paths: Record<IconName, ReactNode> = {
     <>
       <rect x="3" y="5" width="18" height="12.5" rx="1.5" />
       <path d="M7.5 5v12.5M12 5v12.5M16.5 5v12.5M5.5 17.5v2.5M18.5 17.5v2.5" />
+    </>
+  ),
+  shower: (
+    <>
+      <path d="M4 21V8a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v1" />
+      <path d="M10 13a4 4 0 0 1 8 0z" />
+      <path d="M11 16v1.5M14 16v1.5M17 16v1.5M12.5 19.5V21M15.5 19.5V21" />
     </>
   ),
   snowflake: (

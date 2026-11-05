@@ -8,6 +8,7 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'water-heater-installation',
   serviceName: 'Water Heater Installation',
+  emergencyHeading: 'Same-Day Water Heater Replacement in {neighborhood}',
   eyebrow: 'Plumbing',
   hubLabel: 'Water Heater Installation',
   parentCrumb: { label: 'Plumbing', href: '/services/plumbing' },
@@ -76,6 +77,14 @@ const config: ServiceLocationConfig = {
     { q: 'How often should I flush my water heater?', a: 'About once a year to clear sediment and keep it efficient — more often if you have hard water, which is common across the area.' },
     { q: 'Do electric water heaters last longer than gas water heaters?', a: 'Electric units often last a little longer because they have fewer combustion components, but water quality and regular maintenance affect lifespan far more than fuel type.' },
   ],
+  steps: {
+    heading: 'What to Expect From Water Heater Installation in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Size It First', text: 'Household, fuel, venting and the space it goes in.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A flat rate, before any work starts.' },
+      { icon: 'shower', title: 'Hot Water On, Tested', text: 'Connections, valves and venting checked before we leave.' },
+    ],
+  },
   related: [
     { label: 'Water Heater Installation (overview)', href: '/services/water-heater-installation' },
     { label: 'Water Heater Repair', href: '/services/water-heater-repair' },

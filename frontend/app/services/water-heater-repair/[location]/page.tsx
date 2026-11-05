@@ -70,6 +70,14 @@ const config: ServiceLocationConfig = {
     { q: 'Do you repair gas and electric water heaters?', a: 'Yes — gas, electric, and tankless, on all major brands.' },
     { q: 'How do I know if I should repair or replace?', a: 'If the unit is under about 10 years old and the issue is isolated, a repair makes sense. If it is older, leaking from the tank, or failing repeatedly, replacement is usually the better long-term value — and we will tell you honestly which we would do.' },
   ],
+  steps: {
+    heading: 'What to Expect From Water Heater Repair in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Find the Fault', text: 'Burner or elements, controls, valves and venting.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A flat rate, before any work starts.' },
+      { icon: 'shower', title: 'Hot Water Back, Tested', text: 'Checked at a tap and around the tank before we leave.' },
+    ],
+  },
   related: [
     { label: 'Water Heater Repair (overview)', href: '/services/water-heater-repair' },
     { label: 'Water Heater Installation', href: '/services/water-heater-installation' },

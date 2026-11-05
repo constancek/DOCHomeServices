@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Queensgate water heater installation is mostly commercial: units under heavy daily demand in warehouses, offices and light-industrial buildings near the rail yards. We size each replacement to the building’s real hot-water load, bring gas and venting up to code and keep downtime short.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. The water heaters here tend to be commercial units under heavy daily demand, the kind that need right-sizing to the building’s actual hot-water load rather than a guess.',
-      'Hard water scales these tanks just as it does in homes, and a failure in an older low-lying building near the Mill Creek can mean a flooded floor. When we replace a commercial unit we size it to the load, bring the gas, venting, and connections up to current code, and keep downtime short. Tankless and high-recovery options suit higher-demand buildings, and financing is available.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the installs we handle most often are heavy-demand units that need proper sizing and code-compliant work:',
-    localFaqs: [
-      {
-        q: 'Do you install commercial water heaters in Queensgate buildings?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we size and install both tank and high-recovery units for those buildings as well as homes. We aim for same-day service to keep downtime short.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'CUF water heater replacement usually means swapping an overworked shared tank in a student rental across Clifton Heights, University Heights or Fairview. Heavy rental use and hard water age these tanks early, and one failure leaves a whole house cold. We size the new unit to actual occupancy.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'How fast can you replace a water heater in South Cumminsville?',
         a: 'South Cumminsville is within our service area in the Mill Creek valley, and we keep technicians on call to size and install a new tank or tankless unit the same day.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'English Woods water heater installation covers older hilltop homes with aging basement tanks, plus newer units from recent redevelopment now reaching their own replacement window. Hard water shortens tank life below the rated decade. We size each new unit to the household and install it to code.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here run aging tanks in their basements, and amid the recent redevelopment there is a steady mix of units that have aged out alongside newer ones now reaching their own replacement window.',
-      'Hard water across the region scales these tanks and shortens their service life below the rated decade. When we replace a unit in an English Woods home we size it to the household and bring the install up to current code, with venting and connections done right. A tankless option is available where basement space matters, and financing makes a same-day replacement manageable.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the installs we handle most often are tanks reaching the end of their service life:',
-    localFaqs: [
-      {
-        q: 'How fast can you install a water heater in English Woods?',
-        a: 'English Woods is within our west-side service area, and we keep technicians on call to size and install a new tank or tankless unit the same day you call.',
       },
     ],
   },
