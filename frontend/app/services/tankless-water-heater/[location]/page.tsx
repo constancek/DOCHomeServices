@@ -8,6 +8,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'tankless-water-heater',
   serviceName: 'Tankless Water Heaters',
+  localHeadingName: 'Tankless Water Heater',
+  emergencyHeading: 'Emergency Tankless Water Heater Repair in {neighborhood}',
   eyebrow: 'Plumbing',
   hubLabel: 'Tankless Water Heaters',
   parentCrumb: { label: 'Plumbing', href: '/services/plumbing' },
@@ -76,6 +78,14 @@ const config: ServiceLocationConfig = {
     { q: 'How much space does a tankless water heater require?', a: 'Very little. The unit mounts on a wall and is roughly the size of a small suitcase, freeing up the floor space a bulky tank used to take.' },
     { q: 'What is involved in installing a tankless water heater?', a: 'We size the unit to your household’s demand, handle any gas, electrical, or venting upgrades it needs, mount and connect it, then test for proper flow and temperature before we finish.' },
   ],
+  steps: {
+    heading: 'What to Expect From Tankless Water Heater Service in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Check the Supply First', text: 'Gas line, vent or panel, and where it mounts.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A flat rate, before any work starts.' },
+      { icon: 'shower', title: 'Hot Water Tested', text: 'Flow and temperature checked at the taps.' },
+    ],
+  },
   related: [
     { label: 'Tankless Water Heaters (overview)', href: '/services/tankless-water-heater' },
     { label: 'Water Heater Installation', href: '/services/water-heater-installation' },

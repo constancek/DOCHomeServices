@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Queensgate’s warehouses, offices and light-industrial buildings near the rail yards often have high or variable hot water demand, which suits a sized tankless water heater, or a bank of units. That delivers continuous hot water without a large tank sitting there all day.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Commercial settings with high or variable hot-water demand are a strong fit for tankless, since a sized unit, or a bank of units, delivers continuous hot water without a large tank sitting idle and losing heat.',
-      'Many Queensgate buildings are older industrial structures, so we verify the gas supply, venting, and panel before sizing a commercial tankless unit, since the burner load differs from a tank. The local hard water scales a tankless heat exchanger steadily under heavy commercial use, which is why we pair installs with regular descaling to keep output and efficiency where they belong.',
-    ],
-    commonIntro:
-      "In Queensgate's commercial and industrial buildings, the tankless work we handle most often is:",
-    localFaqs: [
-      {
-        q: 'Do you install tankless water heaters in Queensgate commercial buildings?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we size and install tankless units, or banks of units, for those buildings and keep them descaled under heavy use.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'In CUF (Clifton Heights, University Heights & Fairview), space is tight in subdivided student rentals near UC, so a tankless water heater on the wall is often the only way to add hot water capacity. These are mostly 19th- and early-1900s houses split into units.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'Why does a tankless unit in South Cumminsville need annual descaling?',
         a: 'Because the local hard water leaves scale on the heat exchanger. An annual descaling clears it out and keeps a South Cumminsville tankless unit running at full flow and efficiency.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'Older English Woods homes on the hilltop above the Mill Creek valley were built around a basement tank, and a compact tankless water heater clears that floor space and ends standby loss. Aging gas and electrical service in these houses may need an update before the install.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here were built around a basement tank, so swapping in a compact wall-mounted tankless unit clears floor space and ends the standby loss of keeping a tankful hot all day.',
-      'The aging gas and electrical service in older English Woods homes is something we verify before sizing a tankless unit, since the burner draws differently than the tank it replaces. The local hard water scales a tankless heat exchanger over time, dropping flow and efficiency, so we recommend annual descaling to keep the unit at full output.',
-    ],
-    commonIntro:
-      "In English Woods' older hilltop homes, the tankless work we see most often is:",
-    localFaqs: [
-      {
-        q: 'Can I replace my failing English Woods tank with a tankless unit?',
-        a: 'Usually yes. We size a tankless unit to your English Woods home, confirm the gas line and panel can support it, and set up annual descaling for the area hard water.',
       },
     ],
   },

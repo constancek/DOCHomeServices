@@ -6,8 +6,8 @@ import Icon from './Icon';
 import { site } from '@/content/site';
 import type { VideoTestimonial } from '@/content/videoTestimonials';
 
-// Location pages only: one customer video beside a "Why {neighborhood}
-// homeowners choose us" heading. The video is picked at build time by
+// Location pages only: one customer video beside a "Why homeowners in {neighborhood}
+// choose us" heading. The video is picked at build time by
 // videoForLocation(). It plays muted (with controls to unmute) once it scrolls
 // into view and pauses when it leaves, so nothing downloads on page load.
 // Visitors who ask for reduced motion get it paused, with controls.
@@ -63,7 +63,7 @@ export default function LocationVideoProof({
             Happy Homeowners
           </p>
           <h2 className="mx-auto mt-4 max-w-3xl font-logo text-4xl font-black leading-[1.05] text-brand-900 sm:text-5xl lg:text-6xl">
-            Why {neighborhood} Homeowners Choose {site.name}
+            Why Homeowners in {neighborhood} Choose {site.name}
           </h2>
           <p className="mt-8 font-logo text-3xl font-black text-pink-500 sm:text-4xl">
             Five Paws Across the{' '}Board.
