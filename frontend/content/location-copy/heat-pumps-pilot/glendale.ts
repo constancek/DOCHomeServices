@@ -32,7 +32,7 @@ export const glendale: LocationServiceCopy = {
         body: 'Before calling, put the thermostat in heat mode and look at the filter; replace it if it’s clogged. Find the breakers for the outdoor unit and the indoor air handler or furnace, and switch back on any that tripped. Rake leaves and snow away from the outdoor unit. A cloud of steam, a little frost and a fan that stops for a few minutes all mean the unit is defrosting, which is normal. If warm air returns, you don’t need us. Call when thick ice won’t melt, the emergency heat light stays on, or the system gets stuck on cooling.',
       },
       {
-        title: 'Repair or Replace Your Glendale Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Glendale?',
         body: 'Base it on the heat pump, not the age of the house. Plenty of Glendale houses are well over a century old, but the heat pump outside is often recent. A bad fan motor, contactor or sensor on a newer unit is a straightforward repair. A refrigerant leak or a dead compressor is the larger decision, and we price fixing and replacing next to each other. If the heat pump has failed quietly, the furnace picks up the load and the gas bill climbs, so a high winter bill is worth a look. We handle the permit on a replacement.',
       },
     ],

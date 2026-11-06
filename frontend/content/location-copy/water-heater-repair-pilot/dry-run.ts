@@ -32,7 +32,7 @@ export const dryRun: LocationServiceCopy = {
         body: 'Some cold mornings in Dry Run sort themselves out. After three showers back to back, let the tank catch up before worrying. Check the dial hasn’t been knocked, the gas handle runs parallel with the pipe, and, on electric models, that the breaker hasn’t dropped. A pilot that blew out may be relit by following the tank’s printed steps, provided there’s no gas odor at all. Phone us for water beneath the tank, rust-tinted or rotten-egg hot water, a pilot that dies again, or a side valve that keeps spitting. We show you the fault, you approve the figure, and we test the taps afterward.',
       },
       {
-        title: 'Repair or Replace Your Dry Run Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Dry Run?',
         body: 'Trust the tank’s sticker over the deed. A Dry Run house built in 1986 might have a tank fitted only a few years back, and a worn thermocouple, gas control or anode rod on it is a repair. So are elements, thermostats, the dip tube and the relief valve. Water seeping through the shell itself means the steel is gone, and only a new heater fixes that. We set the repair figure beside the replacement figure and the choice stays yours. Ask about tankless and we’ll quote that too, though Dry Run owners mostly stick with a tank.',
       },
     ],

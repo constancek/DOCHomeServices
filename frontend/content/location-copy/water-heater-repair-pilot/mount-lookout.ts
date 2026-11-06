@@ -32,7 +32,7 @@ export const mountLookout: LocationServiceCopy = {
         body: 'Rule out the four things that fool people. Back-to-back showers can drain a Mount Lookout tank; wait a while and try again. Someone may have bumped the dial on the gas control. The gas cock might be turned crosswise to the pipe, which means off. A pilot that blew out can go back on by following the printed label, provided there’s no gas odor. Book a visit for puddles at the base, brown or sulfur-scented hot water, a relief valve on the tank’s flank that drips repeatedly, or soot around the burner opening. We explain the fault and you okay the price first.',
       },
       {
-        title: 'Repair or Replace Your Mount Lookout Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Mount Lookout?',
         body: 'A 1938 house in Mount Lookout says nothing about the heater in it; the rating plate on the tank gives the install date. Thermocouples, gas controls, anode rods and relief valves all swap out on a tank that still holds pressure, and that’s usually money well spent. Rust weeping through the steel jacket is different. Once the tank body leaks, no part will save it. You get two written numbers, repair and new tank, and pick one. If it’s a new tank, the permit is our job, not yours.',
       },
     ],

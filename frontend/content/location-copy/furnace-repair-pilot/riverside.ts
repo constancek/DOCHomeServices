@@ -32,7 +32,7 @@ export const riverside: LocationServiceCopy = {
         body: 'Some cold apartments come back without us. Put the thermostat in heat mode and swap in new batteries. Next to most furnaces sits a switch like a light switch; it should be on, and so should the breaker. Replace a dusty filter. A furnace panel that isn’t latched stops many models cold. Warmth returning means you can skip the call. Gas smell: leave the switches alone, walk out and call the gas company from the street. If the carbon monoxide alarm sounds, get out before anything else. Renters, tell management. For the rest, we find the fault, give the price before work and run the heat with you.',
       },
       {
-        title: 'Repair or Replace Your Riverside Furnace?',
+        title: 'Repair or Replace Your Furnace in Riverside?',
         body: 'Go by the furnace in the closet or basement, not the age of the building. A 1970s Riverside apartment may have a furnace only a few years in, and replacing its blower motor or circuit board is money well spent. A cracked heat exchanger can leak carbon monoxide, so that furnace stays off and we price a new one. New furnaces here are permitted through the City of Cincinnati Department of Buildings & Inspections, and we take care of that. In all-electric units, a Duke Energy Ohio bill that spikes in an ordinary winter often means a heat pump leaning on its backup elements, worth fixing early.',
       },
     ],

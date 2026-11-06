@@ -32,7 +32,7 @@ export const stBernard: LocationServiceCopy = {
         body: 'Three quick things first. Slide a fresh filter into the furnace, turn the thermostat down to cooling mode, and flip the condenser’s breaker off and back on a single time. Cold air back? Then save your money. In a double, be sure the panel and thermostat you’re touching belong to your unit and not the neighbor’s. If basement water reached the furnace or coil, keep the system off and call. Book us when the outdoor fan sits still or frost coats the copper line. We look at both ends, show you the fault, wait for a yes on a flat price, then put a thermometer in the registers afterward.',
       },
       {
-        title: 'Repair or Replace Your St. Bernard AC?',
+        title: 'Repair or Replace Your AC in St. Bernard?',
         body: 'Read the sticker on the condenser, because a 1955 house may be on its third air conditioner by now. A young system that lost a contactor or fan motor is cheap to keep going. A dead compressor on an aging unit, or a coil that leaks two summers in a row, tips the math toward a new system. Since January 1, 2026, Hamilton County issues building permits for the Village of St. Bernard, and we file that paperwork when a replacement needs it. Meanwhile a sick unit runs long cycles, so a Duke Energy Ohio bill that climbs while the rooms stay muggy is your warning.',
       },
     ],

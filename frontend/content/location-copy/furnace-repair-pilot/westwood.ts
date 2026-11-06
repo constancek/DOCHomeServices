@@ -32,7 +32,7 @@ export const westwood: LocationServiceCopy = {
         body: 'Plenty of Westwood no-heat reports end before we arrive. Confirm the thermostat reads heat and has live batteries, that the breaker feeding the furnace or air handler is still on, and that the unit’s service switch is on. A clogged filter or a furnace door left ajar will also stop the heat. In an electric apartment unit, a breaker that trips again after one reset is ours to find, not yours. A gas smell means hands off every switch and no relighting; walk out, then call the gas company. A carbon monoxide alarm means everyone outside first. Otherwise we inspect, explain, get approval and run the heat.',
       },
       {
-        title: 'Repair or Replace Your Westwood Furnace?',
+        title: 'Repair or Replace Your Furnace in Westwood?',
         body: 'Look at the furnace, not the building around it. Most Westwood buildings date from the 1940s through the 1970s, yet the electric furnace or air handler inside may be far younger, and a burned element or dead blower motor is normally worth fixing. Gas furnaces get judged the same way. A heat exchanger that has cracked can leak carbon monoxide, so we call that a safety problem and recommend a new furnace. Landlords should watch for one unit whose electric bill climbs while the others hold flat; that often means a heat pump stuck on backup heat. We quote repair and replacement together.',
       },
     ],

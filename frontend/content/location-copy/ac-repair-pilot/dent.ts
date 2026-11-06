@@ -32,7 +32,7 @@ export const dent: LocationServiceCopy = {
         body: 'Plenty of Dent service calls turn out to be a thermostat bumped onto the wrong mode, which heat pumps make easy. Set it to cool and check it isn’t sitting on heat or emergency heat. Next, swap the filter and cycle the outdoor unit’s breaker one time. If cool air starts flowing, nothing is broken and the visit isn’t needed. Phone us when the condenser hums along but the vents blow warm, or water collects under the air handler. Condo owners, read the association rules before booking. On site we check both units, point out what failed, wait for your yes on a fixed price, and retest when finished.',
       },
       {
-        title: 'Repair or Replace Your Dent AC?',
+        title: 'Repair or Replace Your AC in Dent?',
         body: 'A house built in the 1990s might be on its first heat pump or its second, so the date printed on the outdoor unit tells you more than the deed. A fairly young system with one bad component should be fixed. An aging heat pump with a dead compressor or reversing valve generally shouldn’t, because the same machine provides your winter heat. Dent sits in unincorporated Green Township with no city government, and if a replacement requires a permit, we take care of it. Keep an eye on the Duke Energy statement as well: a refrigerant-starved heat pump runs long in summer and leans on backup electric heat in winter.',
       },
     ],

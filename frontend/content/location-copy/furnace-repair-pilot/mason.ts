@@ -32,7 +32,7 @@ export const mason: LocationServiceCopy = {
         body: 'Before you book, work through the basics. Thermostat set to heat, batteries good. The furnace switch, which looks like an ordinary light switch, flipped on. Breaker set. Filter clean. Furnace door closed tight, because a loose one keeps many units from starting. If the heat comes on, save yourself the visit. Smelling gas changes everything: don’t touch a switch or try to relight, get out of the house, and report it from the driveway. We’re worth calling when the furnace keeps quitting, blows cool, or makes a noise it didn’t make last winter. We inspect, explain, agree a price, and test.',
       },
       {
-        title: 'Repair or Replace Your Mason Furnace?',
+        title: 'Repair or Replace Your Furnace in Mason?',
         body: 'Judge the furnace itself. A builder-grade unit from the 1990s has put in a lot of winters; one swapped in a few years ago hasn’t. Igniters, inducers and blower motors are usually worth fixing on either. A cracked heat exchanger is not, since it can feed carbon monoxide into the supply air; if the detector goes off, get the family outdoors first. Replacements need a city permit, and we take care of it. In homes on electric heat, a Duke Energy bill climbing in a normal winter often means the backup strips are carrying the house.',
       },
     ],

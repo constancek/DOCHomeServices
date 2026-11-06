@@ -36,7 +36,7 @@ export const wetherington: LocationServiceCopy = {
         body: 'Before you call, the thermostat should say heat, not cool or off. Swap a gray filter. Your panel has a breaker for the outdoor unit and one for the furnace inside; both should be on. Clear snow drifts and leaf piles off the outdoor cabinet. In winter that unit melts its own frost, so a thin white coat, a puff of vapor and the fan going quiet briefly are normal. If warm air returns, you don’t need us. Ring us if the coil stays a block of ice, the backup heat light stays lit, or the outdoor fan grinds. We find the fault, show you, and you okay the price.',
       },
       {
-        title: 'Repair or Replace Your Wetherington Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Wetherington?',
         body: 'Go by the age on the heat pump’s data plate, not when your Wetherington house went up. Some houses here still have their first outdoor unit; others swapped it years back. When one small electrical part quits on a unit that otherwise tests well, fix it. A dead compressor, or refrigerant that leaks out again on an older unit, is where we quote both options side by side. Replacing means the township zoning certificate plus the Butler County building permit, and we handle that paperwork. With gas backup, a tired heat pump shows on the gas bill, because the furnace kicks in early.',
       },
     ],

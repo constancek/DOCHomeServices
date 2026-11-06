@@ -32,7 +32,7 @@ export const loveland: LocationServiceCopy = {
         body: 'Plenty of Loveland no-heat calls end before a truck rolls. Check that the thermostat says heat, not cool. Change the filter if it looks gray. Your system has two breakers, outdoor unit and indoor air handler; flip either one back if it tripped. On hillside lots, drifted snow and blown leaves pile against the outside unit, so dig it out. A unit that puffs vapor and idles its fan for a few minutes on a frosty morning is defrosting, which is normal. If heat returns, skip us. Phone when ice coats the coil for hours or the outdoor unit grinds. You hear the diagnosis and approve a price first.',
       },
       {
-        title: 'Repair or Replace Your Loveland Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Loveland?',
         body: 'Weigh the heat pump’s own age and condition. A Loveland house from the 1980s could have a recent outdoor unit, and a capacitor or fan motor on that is a repair. A refrigerant leak or a failed compressor on equipment near the end of its run is the time to compare a repair quote with a replacement quote. We’ll give you both. If your home relies on electric backup heat, a Duke Energy bill that climbs in a mild month is often the first sign the heat pump is slipping.',
       },
     ],

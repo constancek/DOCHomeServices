@@ -32,7 +32,7 @@ export const crestviewHills: LocationServiceCopy = {
         body: 'The thermostat should read heat; cool, off or emergency heat won’t do. A gray, matted filter gets replaced. Your system runs on two breakers, one outdoors and one at the air handler, and a tripped one can be flipped back once. Snow drifted against the outdoor unit needs clearing. Steam rising off the unit, a thin frost and the fan stopping for a few minutes are defrost, not damage. If heat returns, save your money. We’re needed when the coil stays frozen, the aux heat light stays lit, cooling won’t switch off or the fan scrapes. You approve a price before we repair and retest.',
       },
       {
-        title: 'Repair or Replace Your Crestview Hills Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Crestview Hills?',
         body: 'Go by the heat pump, not the year the house was built. A 1980s Crestview Hills house may have had its heat pump replaced since, so check the outdoor label for the install date. A failed contactor, capacitor or blower motor on a sound system is a repair. A compressor that has failed or a coil that won’t hold refrigerant on older equipment is where we price both options side by side. In an all-electric home, the Duke Energy Kentucky bill shows trouble early: when backup strips carry the house, usage jumps with no change in the weather.',
       },
     ],

@@ -32,7 +32,7 @@ export const mulberry: LocationServiceCopy = {
         body: 'Start with the easy causes. A long run of showers can empty a townhouse-sized tank, so let it recover. Turn the temperature dial back if someone brushed it. For an electric heater, open the panel and check its breaker. If the gas valve was turned off, turn it back on. Those fix it often enough that we’d rather you try them first. Call us when the hot water turns rusty, the tank pops and rumbles, or an electric heater only gets lukewarm. We look, explain what we found, give a flat price, and test the hot water afterward.',
       },
       {
-        title: 'Repair or Replace Your Mulberry Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Mulberry?',
         body: 'Judge by the heater’s label, not the house. A Mulberry home from the late 1980s may be on its first heater or its third. A worn element, thermostat, relief valve or anode rod is a repair. A broken dip tube, which lets cold water mix into the hot, is a repair too. Once the steel tank leaks from its body, replacement is the only answer. We price repair and replacement so you can compare them. If an association has rules on replacements, we work to them. Tankless fits some layouts; we’ll quote it only if you ask.',
       },
     ],

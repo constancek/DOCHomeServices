@@ -32,7 +32,7 @@ export const fairfax: LocationServiceCopy = {
         body: 'The quick checks come first. Thermostat on heat with batteries that aren’t dead, the switch beside the furnace flipped on, the breaker up, a filter that isn’t caked gray. Lots of furnaces also refuse to fire until the front panel clicks fully shut. If heat comes back, skip the service call. Gas odor in the house means no switches and no relighting: walk out and ring the gas company from the street. If the carbon monoxide alarm goes off, get everyone out before anything else. Otherwise we track down the fault, price it, wait for your go-ahead and watch a full heat cycle before leaving.',
       },
       {
-        title: 'Repair or Replace Your Fairfax Furnace?',
+        title: 'Repair or Replace Your Furnace in Fairfax?',
         body: 'Size up the furnace, not the house. A 1930s Fairfax home might hold a furnace only a few winters old, and a bad igniter or inducer motor in that one deserves a repair. A cracked heat exchanger is a different conversation. Carbon monoxide can seep through the crack, so we shut the unit down and talk about a new one, with the permit handled on our side. Keep an eye on the gas bill as well; burning more for similar weather means the furnace is slipping. Renters, ORC 5321.04 makes heating repairs the landlord’s job. Leases aren’t our department; furnaces are.',
       },
     ],

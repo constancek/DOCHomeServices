@@ -32,7 +32,7 @@ export const greenhills: LocationServiceCopy = {
         body: 'Several no-cool problems are yours to fix. Slide out the filter and replace it if it’s dark, check the thermostat mode reads cooling, and flip the AC breaker off and on once. A house that starts cooling again needs nothing from us. In Greenhills units without basements, the filter and condensate drain may sit in a crawl space or utility closet; look only if you can get there safely. Phone us if the condenser fan stays still or water appears on a tile floor. The technician diagnoses inside and out and waits for your go-ahead on a flat price before any work. A vent temperature reading confirms the fix.',
       },
       {
-        title: 'Repair or Replace Your Greenhills AC?',
+        title: 'Repair or Replace Your AC in Greenhills?',
         body: 'A Greenhills home from the 1930s or 1950s is far older than any air conditioner in it, so judge by the label on the equipment. One failed part on a younger system is worth repairing. A worn-out compressor or a leaking coil on an older unit points to replacement, and in a crawl space the new indoor equipment has to fit the space available. The Village of Greenhills requires a building permit for replacement HVAC equipment, and we handle it. A struggling system shows up on the Duke Energy Ohio bill as longer run times for the same comfort.',
       },
     ],

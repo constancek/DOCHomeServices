@@ -32,7 +32,7 @@ export const millville: LocationServiceCopy = {
         body: 'Before booking us, do a quick lap of the basement. Thermostat: heat mode, new batteries. Breaker: not tripped. Furnace switch: on. Filter: replaced if it’s grey. Door panel: latched, as plenty of models refuse to fire while it hangs open. Warm again? You don’t need us. Book us if that breaker flips a second time, gas burners light and fade, or the electric furnace hums along without warming a room. A gas smell means out of the house, hands off every switch, and a call to the gas company from the street. We inspect, explain, show you a price to sign off, and leave only after the heat runs.',
       },
       {
-        title: 'Repair or Replace Your Millville Furnace?',
+        title: 'Repair or Replace Your Furnace in Millville?',
         body: 'Millville’s houses mostly date from before 1960, but that says nothing about the furnace in the basement, which may be quite new. If that unit has one worn-out igniter, inducer motor or element, we fix it and you keep it. Cracks in the heat exchanger are the exception. Carbon monoxide leaks through them, so that furnace stays switched off and we talk replacement. Should a carbon monoxide alarm sound, get the household out before making calls. A new furnace comes with the permit work handled by us. Meanwhile, read the electric bill: a weak element, or a heat pump living on backup heat, makes it jump before the rooms cool.',
       },
     ],

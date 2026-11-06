@@ -32,7 +32,7 @@ export const hebron: LocationServiceCopy = {
         body: 'Hebron calls often sort themselves out. A big family morning can leave a builder tank empty, and it heats back up within the hour. Garage clutter sometimes turns the dial down. Electric models go cold when the panel breaker flips. Gas models go cold with the supply handle shut or the pilot out, and if nobody smells gas, the printed steps on the jacket explain relighting. Ring us when the basement floor under it gets wet, the hot water smells of sulfur, or the side valve spits water a second time. Rumbling from sediment counts too. Our technician tests, quotes a fixed figure, and repairs after your okay.',
       },
       {
-        title: 'Repair or Replace Your Hebron Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Hebron?',
         body: 'Go by the heater, not the year the subdivision went up. The label shows the install date, and some Hebron homes have already had their first tank replaced. Most faults are repairable: thermocouple, gas valve, element, thermostat, relief valve, anode rod or dip tube. A leak from the tank body is the one that ends it, and then we price a replacement. In a finished basement, waiting on a weeping tank risks the floor and walls, so don’t sit on it. We quote both and you choose. Permits go through the county and the state plumbing inspector, and we pull them.',
       },
     ],

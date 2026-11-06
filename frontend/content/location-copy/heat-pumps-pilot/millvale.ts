@@ -36,7 +36,7 @@ export const millvale: LocationServiceCopy = {
         body: 'Start with what a tenant or owner can check without tools. Set the thermostat to heat; on cool or off, the system sits idle and looks broken. Swap a filter that’s grey and clogged. Look at the panel for a flipped breaker on the outdoor unit or the air handler. Whoever maintains the building should shovel snow and ice off the outdoor unit. During defrost the unit puffs steam, frosts lightly and the fan rests for a few minutes, which is normal. Heat that returns on its own means no visit. Owners should book us when the coil stays a block of ice or the backup light never goes out.',
       },
       {
-        title: 'Repair or Replace Your Millvale Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Millvale?',
         body: 'Go by the heat pump itself. A 1950s townhome can hold a unit installed a few years ago, so check the date on the outdoor cabinet. When a contactor or fan motor fails on equipment that’s otherwise healthy, we swap the part and you’re done. A dead compressor, or refrigerant that leaks out again after we top it up, changes the math, and we put a replacement quote next to the repair quote so the owner can weigh them. Big winter bills in an all-electric Millvale rental usually point to the backup strips carrying the load. If the unit gets replaced, we pull the permit from the city.',
       },
     ],

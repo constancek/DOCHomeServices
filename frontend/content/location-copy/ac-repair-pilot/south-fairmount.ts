@@ -32,7 +32,7 @@ export const southFairmount: LocationServiceCopy = {
         body: 'Pull the furnace filter first, since your AC draws air through that same filter, and a clogged one can freeze the coil solid. Then reset a tripped breaker, once. Cool air flowing again means no technician is needed. Renters, who make up most households here, should alert the landlord before booking anyone. Request service when the breaker drops a second time, frost appears on the outside copper, or a puddle forms beside the furnace. Our technician examines condenser, coil and blower, explains what went wrong and offers a flat figure for your approval. Afterward, register temperatures confirm the fix.',
       },
       {
-        title: 'Repair or Replace Your South Fairmount AC?',
+        title: 'Repair or Replace Your AC in South Fairmount?',
         body: 'Most South Fairmount houses went up before 1940 and are older than their cooling, so the condenser’s nameplate is the date that counts. Below roughly 12 years old with one failed component, fix it. Older, with a dead compressor or a leaking coil, replacement usually wins out. If the furnace is equally old, quoting both together can spare you a second install later. Any new system needs a mechanical permit from the city. Neglect costs money before outright failure, too: dirt on the coil or a low charge stretches each run, and Duke Energy Ohio meters every extra minute.',
       },
     ],

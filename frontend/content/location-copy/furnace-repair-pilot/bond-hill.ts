@@ -32,7 +32,7 @@ export const bondHill: LocationServiceCopy = {
         body: 'Go down the list before calling. The thermostat needs heat mode and good batteries. Somebody may have flipped the furnace’s power switch off, so check it along with the breaker and the filter. Seat the blower door firmly, because a loose panel stops many furnaces from firing. Any one of those can bring the heat back on its own. Phone us when burners light and die, the blower stays silent, or one half of a Bond Hill double runs cold. A gas smell means walking out without touching a switch or a pilot and calling the gas company from the sidewalk. We inspect, explain, price for approval and test.',
       },
       {
-        title: 'Repair or Replace Your Bond Hill Furnace?',
+        title: 'Repair or Replace Your Furnace in Bond Hill?',
         body: 'Plenty of 1920s Bond Hill doubles have a basement furnace that’s only a few winters old, so the age of the building tells you little. Igniters, flame sensors, inducer motors and limit switches wear out on schedule, and replacing them on a healthy furnace makes sense. A cracked heat exchanger is where we stop talking money, because carbon monoxide can work its way upstairs through the crack, and we’ll point it out to you before leaving. Should your carbon monoxide alarm sound, empty the house, then phone. Replacement means a city permit, and that’s our job. Months earlier, a gas bill rising in mild weather usually hints at trouble.',
       },
     ],

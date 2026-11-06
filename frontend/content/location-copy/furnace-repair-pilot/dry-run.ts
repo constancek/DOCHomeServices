@@ -32,7 +32,7 @@ export const dryRun: LocationServiceCopy = {
         body: 'Plenty of Dry Run no-heat calls end with the homeowner fixing it. Check the thermostat mode and batteries, the light-style service switch near the furnace and the panel breaker. Swap a gray, matted filter. The lower door on many furnaces presses a safety switch, so a door left ajar keeps the burner off. Still cold? Then it’s our turn, especially with short-cycling, dripping water or a burner that won’t catch. If you smell gas, get everyone out, leave every switch as it is, and phone the gas company from a neighbor’s driveway. When the carbon monoxide detector sounds, head outside before doing anything else.',
       },
       {
-        title: 'Repair or Replace Your Dry Run Furnace?',
+        title: 'Repair or Replace Your Furnace in Dry Run?',
         body: 'Go by the date on the furnace’s data plate. Lots of 1990s Dry Run houses are already on their second furnace, and a newer one with a dead igniter, inducer motor or circuit board is an easy repair to justify. If the builder’s original furnace needs a major part, you get the repair quote and a replacement quote on one sheet. Any split in the heat exchanger changes the conversation, because combustion gases, carbon monoxide among them, can reach the living space; that furnace gets switched off and stays off. We take care of the permit for a new one.',
       },
     ],

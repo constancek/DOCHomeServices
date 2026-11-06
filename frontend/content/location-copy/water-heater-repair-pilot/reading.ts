@@ -32,7 +32,7 @@ export const reading: LocationServiceCopy = {
         body: 'Sometimes nothing is broken. A row of showers empties a Reading tank, and it needs time to heat the next load. A gas knob knocked toward low, or a gas cock closed during basement work, has the same effect. Electric heaters go cold on a tripped breaker, so look at the panel. If the pilot is out and the basement doesn’t smell of gas, the lighting steps are printed on the jacket. Book us for a wet floor around the base, a sulfur smell from the hot tap, a rumbling tank, or a relief valve that has blown off twice. You get the diagnosis and price before work.',
       },
       {
-        title: 'Repair or Replace Your Reading Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Reading?',
         body: 'Ask about the heater’s age, not the house’s; the jacket sticker gives the install date. A sound tank with a worn thermocouple, gas control, element or thermostat is a parts job, as are relief valves, anodes and dip tubes. Water seeping from the steel shell means the tank is done. After a Mill Creek flood, gas controls that sat under water usually push the answer to replacement, and we tell you that straight. Repair and replacement figures come to you together. We pull the permit where one is needed. Tankless gets a quote only if you ask.',
       },
     ],

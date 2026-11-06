@@ -32,7 +32,7 @@ export const landen: LocationServiceCopy = {
         body: 'Three checks come first: the filter, the thermostat and the breaker. A heat pump system usually has two breakers, one for the outdoor unit and one for the air handler, so check both. If cooling comes back and stays on, you don’t need us. Call when a breaker trips again or the air handler closet gets wet. The technician checks both units and the heat pump’s controls and explains what failed. You get a flat price to approve before any work, and we test cooling at the vents when the repair is done.',
       },
       {
-        title: 'Repair or Replace Your Landen AC?',
+        title: 'Repair or Replace Your AC in Landen?',
         body: 'Judge it by the unit’s age, not the house’s. A heat pump works in both seasons, so it piles up hours faster than a cooling-only AC, and one from the early 2000s has had a long life. A failed fan motor or contactor on a newer unit is worth fixing. A compressor failure on an older one usually means replacement, and we handle the permit for that. Watch the Duke Energy bill in both seasons. A heat pump low on refrigerant leans on its backup electric heat in winter and runs nonstop in summer, and the bill climbs either way.',
       },
     ],

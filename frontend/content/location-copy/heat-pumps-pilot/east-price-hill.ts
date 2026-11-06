@@ -32,7 +32,7 @@ export const eastPriceHill: LocationServiceCopy = {
         body: 'Plenty of no-heat reports here clear up without us. If the thermostat is on cool or off, move it to heat. Swap a dirty filter. Every system has two breakers, one for the condenser outside and one for the air handler, so check both. Brush snow or leaves away from the condenser. Defrost brings steam, a skim of frost and the fan stopping for a few minutes; that is normal. Warm again? Then no call, though a renter should still let the landlord know. Ice that never melts, an auxiliary heat light stuck on or grinding outside are worth a visit, and we quote before any repair.',
       },
       {
-        title: 'Repair or Replace Your East Price Hill Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in East Price Hill?',
         body: 'Look at how old the heat pump is; the building’s age tells you little. Lots of 1930s houses here have a heat pump only a few years old, and on those a worn fan motor, contactor or defrost board gets fixed. Once refrigerant is leaking or the compressor has failed, the owner sees a replacement quote next to the repair quote. When the Duke Energy bill jumps in a normal winter month, the backup strips are often covering for the heat pump. The City of Cincinnati requires the contractor to pull HVAC permits, so we do. Financing is available.',
       },
     ],

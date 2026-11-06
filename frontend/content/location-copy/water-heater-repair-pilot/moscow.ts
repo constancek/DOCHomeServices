@@ -32,7 +32,7 @@ export const moscow: LocationServiceCopy = {
         body: 'Plenty of Moscow calls turn out to need no visit. A household that just ran the washer and two showers has used up the tank; wait and it recovers. Somebody may have nudged the thermostat knob. For an electric unit, look in the breaker box for a handle sitting off-center. A gas unit can lose its pilot to a draft, and the instructions on the jacket show how to light it again, provided nothing smells of gas. Book us for a wet floor around the base or water the color of tea. We find the cause, explain it, agree a flat price and run the taps after.',
       },
       {
-        title: 'Repair or Replace Your Moscow Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Moscow?',
         body: 'In Moscow the deciding fact is the tank’s own sticker, not the house. A 1920s village home might hold a heater installed a few winters back. Swapping an element, a thermostat, the relief valve or the anode rod makes sense while the steel shell is dry. Once water weeps through the shell, the tank is finished, and we’ll say that rather than sell a part. You see a price for each path and pick one. If the new heater needs a county plumbing permit, we file it and meet the inspector. A seized shutoff gets mentioned before the quote, never after.',
       },
     ],

@@ -32,7 +32,7 @@ export const terracePark: LocationServiceCopy = {
         body: 'A cold shower in Terrace Park often means nothing is broken. After several family showers the tank simply needs time. A gas knob turned toward low, or a gas cock someone closed, stops hot water as well. Electric heaters go quiet when the breaker trips. If the pilot is out and the basement doesn’t smell of gas, follow the lighting steps printed on the jacket. Book us for standing water near the base, a rumble from the bottom of the tank, a sulfur smell from the hot tap, or a pilot that keeps dying. We explain what’s wrong and quote it before starting.',
       },
       {
-        title: 'Repair or Replace Your Terrace Park Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Terrace Park?',
         body: 'The heater decides, not the house. A 1954 Terrace Park home may hold a much newer tank, and the sticker on its jacket shows when it went in. A worn thermocouple, gas control, thermostat or element is a parts job, and so is a relief valve, anode or dip tube. Water seeping from the steel shell means replacement. In older basements we also look over the flue pipe and gas connector so nothing is left half done. You see both figures and choose. A tankless quote is there if you want one; we won’t push it.',
       },
     ],

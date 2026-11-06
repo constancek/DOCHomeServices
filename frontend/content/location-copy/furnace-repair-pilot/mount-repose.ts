@@ -32,7 +32,7 @@ export const mountRepose: LocationServiceCopy = {
         body: 'Some no-heat calls end before we arrive. Check that the thermostat says heat and has fresh batteries, the furnace switch is on, the breaker is up, the filter is clean and the blower door is seated, because a loose door stops most furnaces cold. Call us when the burners light and quit, an electric furnace blows tepid air, or an oil burner smokes. Gas smell: leave lights and switches alone, don’t relight it, get out and call the gas company. Carbon monoxide alarm: everyone outside before anything else. We diagnose, walk you through it, give a price you approve and run the heat to confirm.',
       },
       {
-        title: 'Repair or Replace Your Mount Repose Furnace?',
+        title: 'Repair or Replace Your Furnace in Mount Repose?',
         body: 'Go by what’s on the furnace label. A house from 1978 may still have its first furnace, or one fitted last year. Swapping a worn igniter, inducer motor or electric heating element is normally a sensible repair. A cracked heat exchanger on a gas or oil furnace is a carbon monoxide risk, so that furnace should come out regardless of price. Replacement goes through Clermont County Permit Central, and we file it. Between those points, watch your bills: a furnace losing efficiency runs longer cycles, and the gas, oil or Duke Energy Ohio electric bill rises before the house feels colder.',
       },
     ],

@@ -32,7 +32,7 @@ export const bridgetown: LocationServiceCopy = {
         body: 'Plenty of Bridgetown calls are solved at the thermostat: if it says cool or off, the heat pump just sits there, so move it to heat. A gray filter gets replaced. Your panel has a breaker for the furnace and one for the unit in the yard; flip back whichever tripped. Sweep snow and leaves off that outdoor unit. On raw, wet days it gives off steam, grows a little frost and rests its fan a few minutes while it defrosts. None of that is a fault. Warm air returning means you can skip us. Phone when ice stays packed in the coil or the furnace won’t step in.',
       },
       {
-        title: 'Repair or Replace Your Bridgetown Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Bridgetown?',
         body: 'The year the house went up matters less than the year the heat pump did. A lot of 1950s Bridgetown houses got theirs decades later, so a fairly young unit often sits beside an old house. When that younger unit throws a fan motor or a defrost board, fixing it is money well spent. When an aging one has leaked out its refrigerant or the compressor has quit, you get a repair price and a replacement price together. With the furnace behind it, a struggling heat pump tends to show up on the gas bill before you feel it. We handle any replacement permit.',
       },
     ],

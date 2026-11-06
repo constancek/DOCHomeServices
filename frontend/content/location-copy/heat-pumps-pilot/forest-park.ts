@@ -32,7 +32,7 @@ export const forestPark: LocationServiceCopy = {
         body: 'Check that the thermostat is set to heat and not cool. Pull the filter and replace it if it’s matted with dust. Your panel should show a breaker for the condenser outside and a second for the air handler; reset whichever tripped, and if it trips again, stop there. Clear plowed snow or drifted leaves off the outdoor unit. Light frost, a puff of steam and the fan going quiet for a few minutes are normal defrost. Heat back on means no call needed; tenants should still report it. Call us when the coil stays iced or the emergency heat light stays lit; we price the fix first.',
       },
       {
-        title: 'Repair or Replace Your Forest Park Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Forest Park?',
         body: 'Judge the heat pump, not the 1960s or 1970s house around it. Forest Park outdoor units can be decades newer than the houses beside them, and a broken fan blade or a scorched wire on one of those is a straightforward fix. On an aging unit, a coil that leaks or a compressor that buzzes without starting deserves two quotes side by side, repair and replacement, and we write both. In the all-electric apartments, an electric bill that spikes during a mild stretch tells you the backup strips are covering for the heat pump.',
       },
     ],

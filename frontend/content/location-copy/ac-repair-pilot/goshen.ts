@@ -32,7 +32,7 @@ export const goshen: LocationServiceCopy = {
         body: 'Start at the thermostat. Put in new batteries, then swap the filter and flip the AC breaker off and on at the panel. If cold air comes back and stays, you don’t need us. Call when the breaker trips a second time or the outdoor fan won’t spin. In a mobile home, hold a hand near the floor vents; weak airflow with the system running often points to a duct that has pulled loose underneath. The technician checks both units and tells you what failed. You approve a flat-rate price before anything starts, and after the repair we measure the air at the vents before leaving.',
       },
       {
-        title: 'Repair or Replace Your Goshen AC?',
+        title: 'Repair or Replace Your AC in Goshen?',
         body: 'Look at the date on the outdoor unit, not the age of the house. A 2000s house in Goshen Township may already be on its second system, and a 1980s one may still have its first. Cheap parts on a system with years left are worth replacing, but a dead compressor on a tired unit usually means it’s time. Clermont County Building Inspection issues the replacement permit, and we pull it for you. Keep an eye on the electric bill in the meantime. A summer bill that runs higher than last year’s with similar weather often means the coil is matted or refrigerant is slowly escaping.',
       },
     ],

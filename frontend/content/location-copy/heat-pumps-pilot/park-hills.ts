@@ -36,7 +36,7 @@ export const parkHills: LocationServiceCopy = {
         body: 'Check these first. Make sure the thermostat reads heat. Hold the filter up to a window; no light through it means it’s due. Your panel has a breaker for the outdoor unit and another for the indoor side, so flip back any that tripped. Streets near Devou Park drop a lot of leaves, and a buried outdoor coil can’t pull heat from the air, so clear it. A defrost cycle gives off steam, frosts lightly and idles the fan for a bit. Heat back on means you’re done. A coil that stays frozen, a backup light that never clears or a grinding noise is our cue.',
       },
       {
-        title: 'Repair or Replace Your Park Hills Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Park Hills?',
         body: 'Decide on the heat pump, not the house. Park Hills houses from the 1930s often had a heat pump added much later, and newer condos have equipment that may still be young. A failed fan motor, contactor or defrost control is a repair. A dead compressor or a recurring refrigerant leak is where we put replacement and repair prices side by side. A struggling heat pump shows on the Duke Energy Kentucky bill when backup strips do the heating, or on the gas bill in a dual fuel house. On a replacement, we handle the permit.',
       },
     ],

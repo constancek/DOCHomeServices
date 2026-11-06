@@ -32,7 +32,7 @@ export const wilder: LocationServiceCopy = {
         body: 'Two minutes of checking can save you a visit. Put a new filter in the return grille, make sure the wall thermostat shows cool and not heat, and give a tripped breaker a single reset. In a Wilder condo the breaker may be indoors while the condenser sits outside, so look at both. If the vents blow cold again, we aren’t needed. Ring us when that breaker pops a second time or water drips from the air handler closet. Our technician goes over both halves of the system, then names the broken part with a flat figure beside it. We wait for your go-ahead and stay until it cools.',
       },
       {
-        title: 'Repair or Replace Your Wilder AC?',
+        title: 'Repair or Replace Your AC in Wilder?',
         body: 'Judge the condenser by its own nameplate, not the building’s age. Most Wilder homes were built from 1980 through 1999, and a condo that age tells you little about the condenser beside it. A unit with a few summers behind it and one bad part deserves a repair. A heat pump from the complex’s early days whose compressor is failing usually doesn’t, and its replacement needs a state permit, which we submit to the county. Where the condo heats electrically, a heat pump losing its grip drives Duke Energy Kentucky charges up in January and July, often well before it quits.',
       },
     ],

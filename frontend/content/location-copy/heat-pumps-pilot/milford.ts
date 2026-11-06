@@ -36,7 +36,7 @@ export const milford: LocationServiceCopy = {
         body: 'A handful of checks come first. Put the thermostat in heat mode. Swap out a filter that’s thick with dust. Find the two breakers, one for the outdoor unit and one for the air handler, and reset either if tripped. Keep the outdoor unit clear of snow and leaves. In defrost, you’ll see steam rise and the outdoor fan may rest for a few minutes; that is normal operation. If the heat returns, we aren’t needed. Book us when ice stays on the coil, the emergency heat indicator stays lit, or the unit makes a grinding noise. We inspect, quote, repair after approval, and test.',
       },
       {
-        title: 'Repair or Replace Your Milford Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Milford?',
         body: 'Read the label on the outdoor unit before deciding anything, because a Milford house from the 1960s may have replaced its heat pump more than once. If the compressor runs and one smaller part has worn out, fixing it is normally the sensible spend. If the compressor is finished, or the system has needed refrigerant more than once, ask us for both numbers and compare them. Anything that sat in Little Miami floodwater gets tested first. In all-electric apartments, watch the Duke Energy Ohio bill in January: a big jump means the heat strips have taken over. Replacement paperwork with the city is ours to handle.',
       },
     ],

@@ -32,7 +32,7 @@ export const alexandria: LocationServiceCopy = {
         body: 'A big family can run a tank dry in one morning, and that is a reheating problem, not a repair. Check the dial too, since a box or a bike in the garage can knock it down. The breaker for an electric heater should be on. On a gas heater, make sure the valve is open; with no gas smell you can relight the pilot by following the label. We’re needed for a puddle under the tank, rusty hot water, or rumbling from sediment. A relief valve that discharges more than once is another. We find the fault, price it, fix it after you approve, and test the heater.',
       },
       {
-        title: 'Repair or Replace Your Alexandria Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Alexandria?',
         body: 'An Alexandria house from 1994 may be on its second or third tank, so the sticker on the heater is what counts. Worn thermocouples and sticking control valves get swapped on the visit. Burned elements and failed thermostats do too, along with a dripping relief valve, a spent anode rod or a cracked dip tube. Rust that lets water through the steel shell can’t be fixed, and then a new heater is the honest call. You see both numbers before deciding. Kentucky inspects plumbing at the state level, and our office files any permit the job needs. Tankless fits some homes but seldom saves money.',
       },
     ],

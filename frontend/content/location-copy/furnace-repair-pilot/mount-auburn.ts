@@ -32,7 +32,7 @@ export const mountAuburn: LocationServiceCopy = {
         body: 'Run through the basics before booking a visit. The thermostat should read heat, with working batteries and a setting above the room temperature. Look for a switch on or near the furnace that someone flipped off, a tripped breaker and a filter gone gray. Close the furnace door firmly too, because a loose panel stops many furnaces from running. If heat comes back, that’s the end of it and you don’t need us. If it doesn’t, or the furnace starts and stops, call. A gas smell or a carbon monoxide alarm means everyone out first, then call from outside. We find the cause, price it, and test after.',
       },
       {
-        title: 'Repair or Replace Your Mount Auburn Furnace?',
+        title: 'Repair or Replace Your Furnace in Mount Auburn?',
         body: 'Look at the furnace in the basement, not the age of the house above it. Many Mount Auburn houses date to the 1800s but have had several furnaces, and the current one may be young enough that a new igniter, pressure switch or blower motor is the sensible fix. A cracked heat exchanger is a carbon monoxide risk, so we won’t run that furnace, and the talk turns to replacement. A new furnace needs a mechanical permit through the city’s Department of Buildings & Inspections, which we file. Meanwhile, a Duke Energy Ohio gas bill that jumps in steady weather often means the furnace is short-cycling.',
       },
     ],

@@ -32,7 +32,7 @@ export const norwood: LocationServiceCopy = {
         body: 'Run down a short list before you pick up the phone. Thermostat on heat, batteries good. Furnace switch on. Breaker not tripped. Filter not packed with dust. Furnace door seated, since lots of units refuse to start with it loose. In a Norwood two-family, make sure you are standing at the right furnace. If heat comes back, we are not needed. Smelling gas changes everything: no switches, out the door, and call the gas company from outside. A carbon monoxide alarm means everyone out first. When we do come, we inspect, explain what broke, quote it for approval and test the heat.',
       },
       {
-        title: 'Repair or Replace Your Norwood Furnace?',
+        title: 'Repair or Replace Your Furnace in Norwood?',
         body: 'Let the furnace make the call. A 1915 Norwood house may hold a furnace only a few years old, and a bad igniter or pressure switch on it deserves fixing. A cracked heat exchanger can put carbon monoxide in the house, so that furnace does not stay in service with us. When a repair approaches a big share of a new furnace’s price, you get both quotes. Replacement means a City of Norwood Building Department permit, which we file. The gas bill tells on a struggling furnace too: it runs longer for the same warmth, and the bill rises before it quits.',
       },
     ],

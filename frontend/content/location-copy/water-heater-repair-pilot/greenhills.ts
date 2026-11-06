@@ -32,7 +32,7 @@ export const greenhills: LocationServiceCopy = {
         body: 'Run through the easy causes first. A Greenhills townhome tank needs time to recover after a string of showers. The dial on the heater can be nudged lower by accident. Electric heaters stop when the breaker trips, and gas ones stop when the handle is closed or the pilot goes out; relight that from the printed steps if there’s no gas odor. Signs of a real fault are water on the tile around the tank, a side valve that discharges more than once, rumbling, discolored or smelly hot water, and scorch marks around the burner. In a crawl space, let us do the looking. We quote before any repair.',
       },
       {
-        title: 'Repair or Replace Your Greenhills Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Greenhills?',
         body: 'Base it on the heater, whose sticker gives the install date, not on whether the townhome dates from the 1930s. A failed thermocouple, gas control, element, thermostat, side valve, anode rod or dip tube is a repair on a tank that holds water. When water seeps from the shell itself, the tank is done and gets replaced. We price both and you choose. A new heater has to fit the same tight Greenhills space and connect to what is already there, so we measure the spot and check the access before we give you a replacement price.',
       },
     ],

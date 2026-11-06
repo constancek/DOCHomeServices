@@ -32,7 +32,7 @@ export const avondale: LocationServiceCopy = {
         body: 'Before a tenant reports anything, three quick looks are worth it: thermostat on cool, breaker not tripped, filter clean if it’s reachable. When cooling comes back, the visit isn’t needed. Report it once water drips from the closet unit, or when the system hums while the outdoor fan never turns. Landlords holding several Avondale units can save trips by having every drain line and filter serviced on one visit. Our technician traces the cause and explains it to whoever opens the door. Nothing gets fixed until the owner okays one flat-rate number.',
       },
       {
-        title: 'Repair or Replace Your Avondale AC?',
+        title: 'Repair or Replace Your AC in Avondale?',
         body: 'Landlords should go by the date on the nameplate, not the age of the building. If a heat pump under roughly 12 years old has lost a capacitor or a fan motor, fix it. Past that age, a failed compressor is rarely worth the money, because the same unit heats the apartment and has a hard winter only months away. A replacement can be sized to the apartment it serves instead of matching the old label. In an electrically heated building, a heat pump that struggles pushes up the Duke Energy Ohio bill all year, no matter who pays it.',
       },
     ],

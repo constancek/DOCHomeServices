@@ -32,7 +32,7 @@ export const evanston: LocationServiceCopy = {
         body: 'Some Evanston no-heat calls never need a truck. The thermostat should say heat. If the filter is caked with dust, put in a new one. At the panel, the condenser and the air handler each get a breaker; check both. Sweep leaves and snow off the condenser. During defrost the unit gives off a little fog and its fan can rest a few minutes; leave it alone. Warm air back? You can skip us. A coil that stays coated in ice, or a cabinet that grinds, is our cue. Smell gas by the furnace? Go outside first, then phone the gas company.',
       },
       {
-        title: 'Repair or Replace Your Evanston Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Evanston?',
         body: 'Evanston’s median house dates to 1938, which says nothing about a condenser that may have gone in last spring. On young equipment, a bad reversing valve solenoid or a loose control wire gets fixed. A failed compressor, or refrigerant seeping out of a unit with many seasons on it, calls for two numbers side by side, and we write both and pull the Cincinnati permit. Ducts threaded into plaster walls decades after the house went up can make a sound heat pump seem tired, so airflow gets tested first. A Duke Energy gas bill rising on a dual fuel house says the furnace is picking up slack.',
       },
     ],

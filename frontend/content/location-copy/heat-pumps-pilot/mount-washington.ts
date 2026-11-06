@@ -36,7 +36,7 @@ export const mountWashington: LocationServiceCopy = {
         body: 'A cold Mount Washington home isn’t always a broken heat pump. Make sure the thermostat is on heat, since cool and off are easy to bump in a hallway. A matted filter cuts the airflow, so change it. Find the breakers for the outdoor unit and the air handler and reset any that tripped. Pull snow and leaves away from the outdoor coil. While it defrosts, the unit can steam, carry a light frost and stop its fan for a few minutes. If the heat returns, skip the call. If the outdoor unit stays caked in ice or its fan won’t turn, we diagnose and quote before fixing.',
       },
       {
-        title: 'Repair or Replace Your Mount Washington Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Mount Washington?',
         body: 'Look at the heat pump, not the year your Mount Washington house was built. Many homes here date from the 1940s through the 1970s, and the outdoor unit may well be newer than the house; its label lists the install date. On a younger unit, a bad contactor or a failed defrost board is a repair. A dead compressor or a coil that keeps losing refrigerant is the point where replacing is worth pricing, and we show you both figures. Duke Energy Ohio serves the neighborhood, and in an all-electric apartment a weak heat pump turns into a much larger electric bill.',
       },
     ],

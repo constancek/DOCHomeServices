@@ -32,7 +32,7 @@ export const milford: LocationServiceCopy = {
         body: 'Before booking a repair, swap the filter and check the breaker. Either one can bring cooling back, and if it does, you don’t need us. If the Little Miami came over the low streets between Main Street and the river and reached your outdoor unit, leave it off until it’s inspected. Book a visit when the indoor coil freezes or the outdoor fan stops. The technician checks both units and explains the cause, then quotes a flat price for your approval. Once the repair is done, we test the cooling before leaving.',
       },
       {
-        title: 'Repair or Replace Your Milford AC?',
+        title: 'Repair or Replace Your AC in Milford?',
         body: 'Most Milford homes are decades older than their air conditioners, so check the date on the outdoor unit’s label. If it’s 12 years old or less, a failed capacitor or fan motor is worth repairing. An older condenser with a dead compressor usually isn’t, and one that sat in flood water often isn’t either, since silt and corrosion work into the coil and controls. For a replacement inside city limits, we confirm the permit with the city first. In the meantime, a dirty outdoor coil or slow leak makes the system run longer, which shows up on your Duke Energy Ohio bill.',
       },
     ],

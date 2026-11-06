@@ -32,7 +32,7 @@ export const crestviewHills: LocationServiceCopy = {
         body: 'Before booking a Crestview Hills visit, rule out the simple causes. Switch the thermostat to heat mode and swap its batteries. Find the service switch by the furnace, often inside the condo closet, and flip it on. Reset a tripped breaker. Replace the filter if it looks gray. Then seat the front panel firmly, since a loose panel keeps lots of furnaces from starting. Heat back on means you can skip the visit. Phone us when that breaker trips again, the electric unit puts out lukewarm air, or gas burners keep cutting out. Gas odor? Leave every switch alone, walk outside, and ring the gas company from there.',
       },
       {
-        title: 'Repair or Replace Your Crestview Hills Furnace?',
+        title: 'Repair or Replace Your Furnace in Crestview Hills?',
         body: 'Judge the equipment rather than the address. Many Crestview Hills condos from 1985 got a new furnace a few winters back, and a single failed part on that one is worth fixing. An original unit facing a big repair deserves a harder look. With gas heat, a cracked heat exchanger can let carbon monoxide into living space, which makes it a safety issue before a money one, and we never patch it. A sounding CO alarm means everybody leaves first. With electric heat, keep an eye on the Duke Energy Kentucky bill, because a heat pump living on its backup strips runs that bill up well before rooms turn chilly.',
       },
     ],

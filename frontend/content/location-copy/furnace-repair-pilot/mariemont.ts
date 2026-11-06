@@ -32,7 +32,7 @@ export const mariemont: LocationServiceCopy = {
         body: 'Plenty of Mariemont no-heat calls end at the thermostat. Check it’s on heat with fresh batteries, then the service switch near the furnace, the breaker, the filter, and the furnace door, which has to be latched for many units to fire. If one of those brings the heat back, keep your money. Gas smell is the exception to every checklist: don’t flip lights or relight, get the household outside, and call the leak in from there. Ring us when the flame lights then drops, the blower pushes cold air, or start-up comes with a bang. We inspect, explain, quote for approval, then test.',
       },
       {
-        title: 'Repair or Replace Your Mariemont Furnace?',
+        title: 'Repair or Replace Your Furnace in Mariemont?',
         body: 'Weigh the furnace, not the house around it. A 1920s Mariemont home can easily have a furnace from five winters ago, and that one deserves a new part when something wears out. A cracked heat exchanger is another matter: combustion gas with carbon monoxide can get into the ducts, which makes it a safety failure before a budget one. If the CO alarm sounds, clear the house, then call. Replacements need the village’s HVAC approval, and we apply for it. Gas use rising through an ordinary winter month often points to a dirty burner or a part on its way out.',
       },
     ],

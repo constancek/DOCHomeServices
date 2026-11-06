@@ -32,7 +32,7 @@ export const lowerPriceHill: LocationServiceCopy = {
         body: 'Tenants can run a few checks before reporting a cold apartment. Thermostat on heat, fresh batteries. Then the breaker, and the furnace switch if you can get to it. A clogged filter, or a furnace door not shut right, can cut the heat as well. If that sorts it out, nobody needs us. Report it when air blows cold with the furnace running, or the breaker trips again. If you smell gas, leave switches alone and relight nothing; get outside and call Duke Energy. A carbon monoxide alarm means everyone out first. We find the fault, price it for the owner and test the heat.',
       },
       {
-        title: 'Repair or Replace Your Lower Price Hill Furnace?',
+        title: 'Repair or Replace Your Furnace in Lower Price Hill?',
         body: 'Judge the furnace, not the building around it. An 1850s Lower Price Hill house can hold a furnace only a few years old, and one bad part on that is worth fixing. A tired furnace facing a big repair is where we price both options next to each other. A cracked heat exchanger can push carbon monoxide into the units upstairs, so it’s a safety matter and we won’t patch it. Cincinnati’s Buildings and Inspections issues the replacement permit, and we handle it. Landlords, watch the gas bill: a furnace running far longer than before shows up there ahead of a breakdown.',
       },
     ],

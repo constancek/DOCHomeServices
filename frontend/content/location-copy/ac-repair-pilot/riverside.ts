@@ -32,7 +32,7 @@ export const riverside: LocationServiceCopy = {
         body: 'Tenants have two checks that need no tools. If the lease lets you, replace the filter, then switch the thermostat to cool and drop it a few degrees under room temperature. When that restores cold air, no visit is needed. Let your landlord or property manager know if the indoor unit drips water, the outdoor fan sits still, or the rooms stay warm after an hour of running. Our technician inspects whatever you have, from a closet unit in an apartment to a furnace and coil in a house. The person paying hears the cause in plain terms and signs off on a flat-rate price before work begins.',
       },
       {
-        title: 'Repair or Replace a 1970s Riverside AC?',
+        title: 'Repair or Replace a 1970s AC in Riverside?',
         body: 'Most Riverside equipment has been swapped at least once since the typical home here was built in 1971, so read the unit’s data plate, not the deed. If a system is younger than about 10 years and one part failed, it deserves a repair. A pre-2010 unit on R-22 is a harder call: according to the EPA, R-22 hasn’t been produced in the United States since 2020, so recharging a leak gets expensive and replacing often wins. New equipment requires a City of Cincinnati mechanical permit. Until then, a leak or a dirt-caked outdoor coil lengthens every cycle, which shows up as a higher Duke Energy Ohio bill.',
       },
     ],

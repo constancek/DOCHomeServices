@@ -32,7 +32,7 @@ export const millville: LocationServiceCopy = {
         body: 'Some Millville calls fix themselves. After a few showers, a tank needs a stretch before it runs hot again. Someone may have turned the control dial while moving things in the basement. Electric heaters sit idle with the breaker off, and a gas heater won’t fire with its supply valve closed. If the pilot blew out and there’s no smell of gas, the label walks you through lighting it. Back to hot water? Then skip us. Call for a leak under the tank, a flame that won’t hold, or a relief valve discharging more than once. We find it, explain, quote a flat rate and check the result.',
       },
       {
-        title: 'Repair or Replace Your Millville Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Millville?',
         body: 'Go by the plate on the water heater, not the house. A 1950s Millville home may hold a tank that went in recently. Elements, thermostats, thermocouples, gas controls, relief valves and anode rods are parts we swap. A tank leaking through its steel wall can’t be saved, so we quote a new one. You weigh both prices and decide. Old basement shutoff valves sometimes have to be replaced along with the tank, and we say so in the quote rather than after. We pull the permit where one is needed and arrange the inspection.',
       },
     ],

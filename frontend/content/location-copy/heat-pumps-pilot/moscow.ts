@@ -36,7 +36,7 @@ export const moscow: LocationServiceCopy = {
         body: 'Start at the thermostat and make sure it reads heat, since cool or off gives you nothing. A filter caked with dust starves the air handler, so change it. Look at the panel for a tripped breaker; there’s one for the outdoor unit and another for the air handler. Clear ice, snow and leaves from the outdoor cabinet. In defrost the coil may steam, frost over lightly and sit with its fan stopped. If those checks bring the heat back, you don’t need us. A Moscow heat pump that stays iced, keeps the emergency light on or grinds needs a technician, and we price it before any work.',
       },
       {
-        title: 'Repair or Replace Your Moscow Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Moscow?',
         body: 'Age of the house doesn’t matter here, because nearly every Moscow home is decades older than its heat pump. Look at the unit instead. A burned contactor or a failed defrost board on an otherwise healthy heat pump is a repair. A compressor that has seized, or refrigerant that leaks back out after a recharge, is the time to price a new unit beside the fix. If the electric bill climbs sharply in a month with ordinary weather, the backup strips are likely heating the house. We pull the permit on replacements.',
       },
     ],

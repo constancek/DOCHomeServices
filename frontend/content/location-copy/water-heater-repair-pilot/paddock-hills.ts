@@ -32,7 +32,7 @@ export const paddockHills: LocationServiceCopy = {
         body: 'You may not need us. After a few showers the tank just needs time to recover. Check whether the dial was nudged lower. Electric heaters stop with the breaker off, and gas heaters stop with the gas shutoff closed or the pilot out; relight from the printed steps only if there’s no gas odor. Apartment renters should report the rest to the landlord. We come for water pooling at the base, crackling from scale, brown water, or a pressure valve that keeps venting. After testing we explain the fault, quote it, and once you approve, fix it and confirm.',
       },
       {
-        title: 'Repair or Replace Your Paddock Hills Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Paddock Hills?',
         body: 'The sticker on the heater gives its install year; neither a Tudor house nor a 1960s apartment block tells you that. Most failures are one component, such as a pilot sensor, gas control, thermostat, element, pressure valve, anode or inlet tube, and each can be fixed alone. When the steel tank itself leaks, it has to be replaced. If either path is reasonable, we price both and you pick. Apartment owners may land on different answers for different units. Inside city limits, replacements need a Buildings & Inspections permit, and we arrange it.',
       },
     ],

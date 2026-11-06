@@ -32,7 +32,7 @@ export const lakesidePark: LocationServiceCopy = {
         body: 'Not every cold shower in Lakeside Park means a broken heater. A household that ran back-to-back showers and a load of laundry has drawn the tank down, and it recovers by itself. Check the dial, too. Electric units go dead with a tripped breaker; gas units go cold if the pilot blew out or someone turned the supply knob off. Relight per the printed label, never with gas in the air. Book us for a wet floor beneath the tank, brown or sulfur-smelling water, a relief valve that has let go twice, or scorching around the burner door. You hear what failed, and the price, first.',
       },
       {
-        title: 'Repair or Replace Your Lakeside Park Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Lakeside Park?',
         body: 'Judge the heater by its own label in Lakeside Park, because a house from 1925 might hold a tank installed last spring. Parts we routinely replace include thermocouples, gas control valves, upper and lower elements, thermostats, the relief valve, a spent anode rod and a cracked dip tube. One failure ends the discussion: water seeping from the steel shell itself, which means the lining is gone and only a new heater makes sense. Anything short of that, we price the repair next to a replacement and you pick. Older Lakeside Park basements often need a fresh shutoff and flue connector with a new tank. Permits get pulled wherever required.',
       },
     ],

@@ -32,7 +32,7 @@ export const melbourne: LocationServiceCopy = {
         body: 'Start at the thermostat. It has to read heat, and a blank display usually just wants new batteries. Next, find the furnace’s service switch and the breaker that feeds an electric furnace. A filter gone solid gray, or a blower panel sitting crooked, shuts many units down. Sort any of that out and you can skip the service call. A gas odor means leaving the house without touching lights, then ringing the gas company from the street. When the CO detector goes off, people go out before anything else. Genuine faults get a diagnosis, an explanation, a price you sign off on and a heat test.',
       },
       {
-        title: 'Repair or Replace Your Melbourne Furnace?',
+        title: 'Repair or Replace Your Furnace in Melbourne?',
         body: 'Base the call on the furnace, since Melbourne’s houses tell you little: half went up before 1960, and any of those can hold heating equipment only a few winters old. When a newer unit loses an igniter, an element or a blower motor, fixing it makes sense. A cracked heat exchanger is another story. Carbon monoxide can escape through the crack, so we lock that furnace out and say so directly. Watch the Duke Energy Kentucky bill; a jump in a mild month often means an electric furnace or heat pump straining on tired parts. New equipment needs a permit, and we pull it.',
       },
     ],

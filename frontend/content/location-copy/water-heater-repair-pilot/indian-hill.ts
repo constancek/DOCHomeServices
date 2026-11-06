@@ -32,7 +32,7 @@ export const indianHill: LocationServiceCopy = {
         body: 'Rule out the easy causes before you call. A deep bath followed by showers can exhaust the supply, and the tank needs time to recover. A knob turned down by accident, or a tripped circuit on an electric model, gives you the same cold tap. When the pilot is out and the room has no gas odor, open the gas cock and follow the lighting steps printed on the jacket. Book us for pooling water, rust-tinted or sulfur-smelling hot water, a pressure valve that keeps spitting, or blackened metal near the burner. We diagnose, quote a flat price, and begin once you agree.',
       },
       {
-        title: 'Repair or Replace Your Indian Hill Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Indian Hill?',
         body: 'Ignore the year the house was built. A 1930s Indian Hill house may hold a heater installed a few winters ago, and the data plate says so. Thermocouples, gas controls, elements, thermostats, anode rods and dip tubes can all be replaced on their own. Corrosion that lets water out of the tank wall cannot, and at that point a new heater is the answer. Both figures land in front of you before deciding. If you ask about tankless we will price it, but a sound tank with one bad part seldom needs to go.',
       },
     ],

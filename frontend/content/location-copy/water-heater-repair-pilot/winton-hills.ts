@@ -32,7 +32,7 @@ export const wintonHills: LocationServiceCopy = {
         body: 'Before a tenant reports it, a couple of checks help. A tank emptied by a run of showers refills with heat on its own. A tripped breaker stops an electric unit; a gas knob turned crosswise stops a gas one. Owners can also look for a dial someone nudged down and, if the room smells normal, relight a pilot using the sticker. Genuine faults: water collecting under the tank, rotten-egg odor on the hot side, the relief valve discharging repeatedly, or an electric heater that never gets past lukewarm. We diagnose, give the owner a number, repair on approval and test.',
       },
       {
-        title: 'Repair or Replace Your Winton Hills Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Winton Hills?',
         body: 'Judge each water heater by its sticker, not by how old the building is. In Winton Hills rentals, tanks are often far younger than the brick around them. Elements, thermostats, gas controls, thermocouples, anode rods, relief valves and dip tubes are all replaceable parts. A shell leaking through is a new-heater job. When a building has several tanks failing in the same season, we price each separately so an owner can budget. Inside the City of Cincinnati, a replacement needs a Buildings & Inspections permit, and we file it.',
       },
     ],

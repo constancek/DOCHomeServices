@@ -32,7 +32,7 @@ export const hamilton: LocationServiceCopy = {
         body: 'Hamilton residents can clear a few causes. A tank drained by a string of showers is empty, not broken, and reheats on its own. A dial bumped toward low gives tepid water. Electric heaters go cold when their breaker trips. On gas, check that the supply handle lines up with the pipe; relight a pilot by the printed steps only with no odor of gas. Renters report it and keep the panels shut. If hot water returns, that’s the end of it. A pool under the tank, rotten-egg smelling hot water, or a relief valve that won’t stop venting means a visit. We test, explain, quote, then retest.',
       },
       {
-        title: 'Repair or Replace Your Hamilton Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Hamilton?',
         body: 'A Hamilton house from the 1920s says nothing about the tank in its basement; the rating plate does. Many old homes in the city run a fairly young heater. Thermocouples, gas controls, elements, thermostats, relief valves and anode rods are parts we change. When the inner tank leaks, the heater is finished. You get a price for each path and decide. In old basements, the flue connector or an old gate valve often needs replacing too, and the quote says so. The City of Hamilton requires a permit for water heater replacements, so we pull it before the old tank is disconnected.',
       },
     ],

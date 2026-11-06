@@ -36,7 +36,7 @@ export const mulberry: LocationServiceCopy = {
         body: 'Mulberry tenants and owners can rule out the easy causes in a few minutes. The thermostat should be set to heat. If the filter in the air handler closet is gray, replace it. Look in the panel for a tripped breaker, since the outdoor unit and the air handler each have one. Make sure snow or leaves aren’t piled against the outdoor coil. During defrost the unit may hiss, steam and stop its fan briefly, which is normal. If heat returns afterward, you’re fine. An emergency heat light that won’t clear or a unit stuck cooling means a fault, and we price the fix first.',
       },
       {
-        title: 'Repair or Replace Your Mulberry Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Mulberry?',
         body: 'Judge the heat pump on its own record. Most Mulberry homes were built after 1980, so the original equipment may already have been replaced once; the label on the outdoor unit gives its date. A worn contactor or a failed sensor on a newer unit is a repair. A dead compressor or a refrigerant leak that returns is when we price replacement next to the repair. Duke Energy Ohio delivers power here, and because the backup strips are electric, a heat pump that is losing ground shows up as a winter bill well above last year’s.',
       },
     ],

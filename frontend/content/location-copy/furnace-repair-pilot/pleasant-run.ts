@@ -32,7 +32,7 @@ export const pleasantRun: LocationServiceCopy = {
         body: 'Before booking, walk the Pleasant Run checklist we’d run anyway. Thermostat: heat mode, fresh batteries. Furnace switch: on. Breaker panel: nothing tripped. Filter: swapped if it’s gray and matted. Furnace door: latched, because plenty of models stay dead while it sits loose. If the heat returns, the visit is unnecessary. Gas odor is another matter: don’t operate any switch or try relighting, walk out, and ring the gas company once you’re clear of the house. A carbon monoxide alarm sends everyone outdoors before any phone call. Past that list, our technician diagnoses, prices the fix for your sign-off and runs a heating cycle to prove it.',
       },
       {
-        title: 'Repair or Replace Your Pleasant Run Furnace?',
+        title: 'Repair or Replace Your Furnace in Pleasant Run?',
         body: 'Base the choice on this furnace. Plenty of 1972 Pleasant Run houses have swapped in a newer unit, and a failed igniter or blower motor there is money well spent. A crack in the heat exchanger is not; carbon monoxide can pass through it into the living space, so we switch that unit off for good and quote a replacement, never a patch. In the electric half of Pleasant Run, watch the Duke Energy Ohio bill. When it jumps during an ordinary winter, the heat pump is probably running its backup elements more than it should. We pull any permit a replacement needs.',
       },
     ],

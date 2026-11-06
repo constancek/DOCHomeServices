@@ -32,7 +32,7 @@ export const burlington: LocationServiceCopy = {
         body: 'Many Burlington calls end before we leave the shop. A household that just ran laundry and several showers has simply outrun the tank, and it recovers within the hour. A dial nudged toward warm explains tepid taps. Electric models go dark when their panel breaker flips,. Gas models need the supply handle open, and a dead pilot may be relit per its printed steps if nothing smells of gas. We should come out for rust-tinted hot water, a wet floor at the base, or a deep rumble from sediment. Expect a diagnosis and a fixed quote, then the repair once you sign off.',
       },
       {
-        title: 'Repair or Replace Your Burlington Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Burlington?',
         body: 'Look at the water heater’s label, not the house. A Burlington home built in 2001 may be on its second tank already. A bad thermocouple, gas valve, element or thermostat gets repaired. The relief valve, anode rod and dip tube are repairs as well. A tank leaking from its body has to be replaced, and we quote that next to the repair cost so you can weigh them. Landlords with several units get a price per unit. Boone County handles building permits here and the state handles plumbing inspections; we pull the permit where one is needed. Tankless is one option, never the default.',
       },
     ],

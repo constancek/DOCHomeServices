@@ -32,7 +32,7 @@ export const crescentSprings: LocationServiceCopy = {
         body: 'Most Crescent Springs heating runs on electricity, so the breaker panel is your first stop: an electric furnace or air handler often has two breakers, and both need to be on. Then confirm the thermostat is set to heat and has live batteries, replace a dusty filter and press the closet unit’s cover panel firmly into place. Heat back? You can skip the visit. If a gas furnace is in the picture and you smell gas, get out without using switches and call the gas company from outside. A sounding carbon monoxide alarm means leaving first, calling second.',
       },
       {
-        title: 'Repair or Replace Your Crescent Springs Furnace?',
+        title: 'Repair or Replace Your Furnace in Crescent Springs?',
         body: 'Decide on the equipment in front of you. A condo built in 1995 may already be on its second heat pump, and if that one is fairly recent, a new defrost board, sequencer or blower motor makes sense. Heating elements that keep burning out, or a heat pump compressor that has quit, can tip the numbers toward replacing. On gas furnaces, a cracked heat exchanger is a carbon monoxide risk, so that furnace stays off. Replacement needs a permit from Planning and Development Services of Kenton County. A Duke Energy Kentucky bill that jumps in mild weather often means backup heat is doing the work.',
       },
     ],

@@ -32,7 +32,7 @@ export const walnutHills: LocationServiceCopy = {
         body: 'Renters should go to the landlord or building manager first, because the owner usually controls the equipment. Two checks are still yours to make: the filter and the thermostat mode. A dusty, clogged filter or a heat pump still set to heat can make a healthy system seem dead, and correcting either one saves you the visit. Book us once the closet floor gets wet or the breaker trips for the second time. We look over the indoor and outdoor equipment, say plainly what went wrong, and give one flat price to the person who approves it. Before leaving, we confirm the cooling works.',
       },
       {
-        title: 'Repair or Replace the AC in Your Walnut Hills Unit?',
+        title: 'Repair or Replace the AC in Your Unit in Walnut Hills?',
         body: 'Check the install date first. Some Walnut Hills buildings went up in the last few years, and their systems may be new enough that a manufacturer’s parts warranty still covers the failed part. On older equipment, 12 years is the dividing line: below it, fix the one part that broke; above it, a compressor failure is the time to price new equipment. Condo owners should check association rules on outdoor units before replacing. Any replacement needs a mechanical permit from Buildings & Inspections. Before then, a heat pump low on refrigerant leans on backup electric heat in cold weather, and the Duke Energy Ohio bill shows it.',
       },
     ],

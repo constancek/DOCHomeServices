@@ -32,7 +32,7 @@ export const northFairmount: LocationServiceCopy = {
         body: 'Owners, run through a short list before booking. Thermostat on heat with fresh batteries. Furnace switch in the on position, breaker not tripped. Filter changed if it’s dark and dusty. Blower door pushed fully home, since a safety switch behind it keeps the unit off. If warm air returns, keep your money. Renters without access to the furnace should go straight to the landlord. A furnace that runs while the rooms stay cold, or quits after a few minutes, needs a technician. With a gas smell, leave every switch alone, walk out and call the gas company. We test, explain, price and confirm the heat.',
       },
       {
-        title: 'Repair or Replace Your North Fairmount Furnace?',
+        title: 'Repair or Replace Your Furnace in North Fairmount?',
         body: 'Ignore the house date and read the furnace label. Plenty of North Fairmount homes run furnaces only a handful of winters old, and swapping a dead igniter or inducer on one is routine. Heat exchanger cracks change the plan: they leak carbon monoxide toward bedrooms, so the furnace gets switched off and we point the crack out to you or the owner. If the CO alarm goes, empty the house, then make calls. Climbing gas or electric bills in a normal winter are another sign. A replacement goes through the city’s Buildings & Inspections department, and we take care of that.',
       },
     ],

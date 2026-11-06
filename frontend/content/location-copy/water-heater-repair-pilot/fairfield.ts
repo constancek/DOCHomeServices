@@ -32,7 +32,7 @@ export const fairfield: LocationServiceCopy = {
         body: 'Fairfield owners and renters can sometimes spare themselves a visit. If three people just showered, the tank needs a while to heat a fresh batch. A control knob nudged toward vacation or low gives tepid water. Electric units stop when their breaker trips; gas units stop when the supply handle is closed. A pilot that blew out can be relit using the printed steps, unless you smell gas. If heat returns, you’re finished. Water on the floor, rust-colored or sulfur-smelling hot water, or scorching near the burner calls for us, and renters go to management first. We find it, explain it, quote it and recheck.',
       },
       {
-        title: 'Repair or Replace Your Fairfield Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Fairfield?',
         body: 'Read the heater’s rating plate rather than guessing from the year your Fairfield subdivision was laid out. A 1970s ranch may hold a tank swapped in recently. Gas controls, thermocouples, elements, thermostats and anode rods are parts, so they’re repairs. A tank seeping through its jacket from the inner shell is a replacement. We price both and leave the choice with you. Apartment closets limit the size and venting of a new tank, which we measure before quoting. We pull the permit where a replacement needs one and book the inspection.',
       },
     ],

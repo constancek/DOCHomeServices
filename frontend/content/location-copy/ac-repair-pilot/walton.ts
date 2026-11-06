@@ -32,7 +32,7 @@ export const walton: LocationServiceCopy = {
         body: 'Some Walton calls can wait, and some go away entirely. Slide in a new filter and put the thermostat in cooling mode a little below what the room reads. With a heat pump, also check that emergency heat is switched off. A breaker that trips once and holds once it’s reset doesn’t need us. Book us when the outside unit hums while its fan sits idle, or the inside unit leaves a puddle. Our technician inspects the system outside and in, describes the fault in everyday language, and names a flat price that waits on your yes. We test the vent air with you when it’s done.',
       },
       {
-        title: 'Repair or Replace Your Walton AC?',
+        title: 'Repair or Replace Your AC in Walton?',
         body: 'A 1950s house near Main Street may be running a fairly recent condenser, so trust the manufacture date on the unit over the age of the house. A sound system that lost one part, a capacitor for instance, is a repair. For an older heat pump whose compressor has failed, replacement usually wins, because that same unit also heats the house in winter. On the Boone County side, Walton replacements go through the Boone County Building Department, and we handle the paperwork. Ahead of a breakdown, a weak system runs longer every afternoon and the electric bill creeps up month by month.',
       },
     ],

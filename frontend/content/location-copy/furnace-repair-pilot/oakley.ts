@@ -32,7 +32,7 @@ export const oakley: LocationServiceCopy = {
         body: 'Give the simple causes a minute first. Oakley thermostat on heat, decent batteries. Furnace switch up, breaker set, filter clean. Furnace door shut tight, because many models sit dead with it ajar. If one of those brings the heat back, keep your money. Gas smell is different: no switches, no relighting, walk out and call the gas company from the sidewalk. A carbon monoxide alarm empties the house before anything else. When none of that fits, our technician inspects the furnace, explains the problem, gets your approval on the price and watches it through a full heating cycle.',
       },
       {
-        title: 'Repair or Replace Your Oakley Furnace?',
+        title: 'Repair or Replace Your Furnace in Oakley?',
         body: 'The furnace in front of us decides it. A 1920s Oakley bungalow can have a nearly new furnace, and putting a new igniter or blower capacitor in it is sensible. A cracked heat exchanger can put carbon monoxide into the air your family breathes, so that furnace comes out of service. Flood damage to the gas valve and control board can tip the choice toward replacement as well. You get repair and replacement prices together, and any replacement needs a city mechanical permit, which we pull. A gas bill climbing without colder weather is often the first clue.',
       },
     ],

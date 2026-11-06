@@ -32,7 +32,7 @@ export const saylerPark: LocationServiceCopy = {
         body: 'Some warm houses need no technician at all. Slide out the filter, and if it’s grey and matted, replace it. Then check that the breaker hasn’t tripped and the thermostat is set to cooling. When cold air returns within the hour, you’re finished. Book a repair if the unit hums but the outdoor fan won’t spin, or the larger copper pipe frosts over. Our technician looks at the condenser and at the furnace or air handler inside, points to the part that failed and names a flat-rate price. Work waits for your yes, and afterward we run the system until the vents blow cold.',
       },
       {
-        title: 'Repair or Replace Your Sayler Park AC?',
+        title: 'Repair or Replace Your AC in Sayler Park?',
         body: 'Read the age off the condenser’s data plate. When a unit younger than about 10 years loses its fan motor or a capacitor, repair it. Beyond 12 to 15 years, a dead compressor usually makes replacement the better call, and the new equipment requires a mechanical permit from the city’s Department of Buildings & Inspections. In Sayler Park’s electrically heated homes, a heat pump is often the replacement, so the choice also sets your winter comfort. Before it gets that far, a slow leak or a matted condenser coil adds hours to the compressor, and your monthly Duke Energy Ohio bill shows it first.',
       },
     ],

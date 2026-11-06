@@ -32,7 +32,7 @@ export const eastWalnutHills: LocationServiceCopy = {
         body: 'Often a new filter and a thermostat on cool with the fan on auto are all it takes. Should the cold air return, you don’t need us. In a condo, find out from the building manager whether the association owns the outdoor unit and refrigerant lines before you book, because that changes who arranges the repair. Ice on the indoor coil, or an outdoor fan that stays still, means it’s time for a technician. We test both units, tell you what broke and quote one flat price up front. After the repair, we check the air temperature at your vents.',
       },
       {
-        title: 'Repair or Replace Your East Walnut Hills AC?',
+        title: 'Repair or Replace Your AC in East Walnut Hills?',
         body: 'Go by the age printed on the outdoor unit, not the year the house went up. One failed part on a system with fewer than about 12 years on it is worth fixing; a dead compressor on anything older usually means replacing it. The East Walnut Hills and Woodburn Avenue local historic districts require city approval, a Certificate of Appropriateness, for exterior changes, so keeping a condenser where it already sits is the simpler route. We talk to the city ahead of any outdoor change. Buildings & Inspections issues the mechanical permit a replacement needs. Well before failure, a weak unit tends to raise your Duke Energy Ohio bill.',
       },
     ],

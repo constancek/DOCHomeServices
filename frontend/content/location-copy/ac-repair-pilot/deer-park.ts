@@ -32,7 +32,7 @@ export const deerPark: LocationServiceCopy = {
         body: 'Plenty of Deer Park cooling complaints are solved for free. A clogged filter, a thermostat bumped to heat, and a tripped breaker cause a lot of them; when the house begins to cool, you can cancel us. Basements here bring one extra suspect: a plugged condensate drain, which leaves a puddle near the furnace and can switch cooling off. Book a visit if the breaker keeps tripping or the condenser fan sits dead. We inspect the furnace coil and outdoor unit, then talk you through what’s wrong, and no repair happens before you okay the quote. We test the result before leaving.',
       },
       {
-        title: 'Repair or Replace Your Deer Park AC?',
+        title: 'Repair or Replace Your AC in Deer Park?',
         body: 'Deer Park houses are old; their air conditioners usually aren’t, so the outdoor unit’s label is your guide. A younger unit with one worn part should be repaired. An older unit with a compressor failure or a coil that keeps leaking is usually worth replacing, and the new one should be sized to what 1940s ducts can move. We handle the permit as part of any replacement. The bill tells you something too: if your Duke Energy Ohio summer charges climb year over year with the same thermostat setting, the system is working harder than it should.',
       },
     ],

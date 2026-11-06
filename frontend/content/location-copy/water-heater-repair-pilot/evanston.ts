@@ -32,7 +32,7 @@ export const evanston: LocationServiceCopy = {
         body: 'Back-to-back showers can leave nothing but cold water for the last person, and an hour of waiting usually fixes it. Check the dial on the tank, the breaker if the heater is electric, and the gas handle if it isn’t. A pilot that blew out can be relit following the label, as long as the basement smells clean. Water pooling under the tank, rust-tinted or eggy hot water, popping from sediment, and a relief valve that keeps letting go are the signs to book us. We tell you what failed and quote before working.',
       },
       {
-        title: 'Repair or Replace Your Evanston Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Evanston?',
         body: 'Ignore the house’s age; the heater’s label carries its install date, and the tank may be far younger than the foundation. Pilot thermocouples, gas controls, heating elements and their thermostats, relief valves, anodes and dip tubes are parts we change while the tank stays in place. Rust that has opened the tank body ends the conversation: that heater gets replaced. We price both ways and you decide. Older basements here often need the flue connector and shutoff valve updated with a new tank, and we pull the permit where one is needed. Tankless comes up only if you ask.',
       },
     ],

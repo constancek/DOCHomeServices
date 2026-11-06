@@ -32,7 +32,7 @@ export const maineville: LocationServiceCopy = {
         body: 'A good share of no-heat calls end with a few checks. Put the thermostat on heat and give it new batteries. Look at the panel for a flipped breaker; electric air handlers often have two. Confirm the switch on or beside the furnace is on, replace a clogged filter, and press the blower door until it clicks. If warm air comes back, skip the service call. A gas smell is a leave-now situation: no switches, no relighting, and the call to the gas utility happens outside. We’re needed when the house can’t keep up on a cold night or a breaker keeps flipping. We inspect, explain, price, then test.',
       },
       {
-        title: 'Repair or Replace Your Maineville Furnace?',
+        title: 'Repair or Replace Your Furnace in Maineville?',
         body: 'Decide by the age of the equipment. Something installed with a 2000s house has around 20 winters on it; something put in last fall is barely broken in. Igniters, elements and blower motors get repaired on either. Gas furnaces with a cracked heat exchanger don’t, because exhaust with carbon monoxide can leak into the air you breathe; a sounding CO detector means everyone outside before any phone call. In all-electric Maineville homes, watch the electric bill: a big jump without a cold snap to match usually means backup strips are doing work the heat pump should handle.',
       },
     ],

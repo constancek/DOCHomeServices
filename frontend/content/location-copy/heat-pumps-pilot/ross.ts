@@ -36,7 +36,7 @@ export const ross: LocationServiceCopy = {
         body: 'In a Ross house, start at the wall: the thermostat has to say heat. Slide in a fresh filter. Your panel has a breaker for the outside unit and one for the air handler or the oil or gas furnace; flip a tripped one back once. Rake snow, ice and leaves off the outside cabinet. Defrost looks odd, with steam, thin frost and a fan resting a few minutes, but it’s normal. Warmth back means no visit needed. Ice that won’t melt off the coil, an emergency heat light that won’t quit, or a grinding or frozen fan is ours. We find it, quote it, fix it and test it.',
       },
       {
-        title: 'Repair or Replace Your Ross Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Ross?',
         body: 'Go by the heat pump, not the house. A Ross house from the early 1970s may not have its original heat pump, so read the outdoor unit’s label before deciding anything. A failed contactor, capacitor or fan motor on a sound unit is a repair. A dead compressor or a leak that keeps coming back on an older unit is where we price replacement against repair. In an oil-backed home, a weak heat pump shows up as the oil tank emptying faster than usual. In an all-electric one, it shows on the electric bill. We handle the replacement permit for you.',
       },
     ],

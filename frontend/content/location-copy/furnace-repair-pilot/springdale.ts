@@ -32,7 +32,7 @@ export const springdale: LocationServiceCopy = {
         body: 'Some no-heat calls end before we arrive. Flip the thermostat to heat and give it new batteries. Find the furnace’s power switch, usually on the wall nearby, and confirm it’s on. Reset a tripped breaker once. Replace a filter you can’t see light through, and seat the blower door snugly, because a gap there stops most furnaces cold. Warm air again means you can cancel. Smell gas? Don’t flip switches or relight a thing; leave and ring the gas company from the yard. If the carbon monoxide alarm goes off, get people out first. Past that point, we test, show you the bad part and quote a flat price.',
       },
       {
-        title: 'Repair or Replace Your Springdale Furnace?',
+        title: 'Repair or Replace Your Furnace in Springdale?',
         body: 'The furnace decides this, not the age of the house. Plenty of 1971 Springdale houses now have a newer furnace, and on one of those a failed inducer motor or control board is ordinary repair work. Electric furnaces usually just need a burned-out heating element replaced. A crack in a gas furnace’s heat exchanger is the exception, since carbon monoxide can seep through it into your rooms, and that turns it into a safety decision. Your Duke Energy Ohio bill gives early notice too: more run time every winter in similar weather means parts are wearing. We put a replacement quote beside the repair one.',
       },
     ],

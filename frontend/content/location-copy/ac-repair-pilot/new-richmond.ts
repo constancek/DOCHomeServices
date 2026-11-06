@@ -32,7 +32,7 @@ export const newRichmond: LocationServiceCopy = {
         body: 'The filter comes first, because a clogged one is behind many New Richmond calls. Then set the thermostat to cool, two or three degrees under what the room reads. If the breaker tripped, one reset is fair. Should the house start cooling, cancel the appointment and keep your money. Ring us if that breaker drops again or the outdoor unit buzzes while its fan stays still. Our technician tests the equipment, tells you plainly what broke and quotes a fixed price that you approve. When the work is finished, a thermometer in a supply vent shows you the change.',
       },
       {
-        title: 'Repair or Replace Your New Richmond AC?',
+        title: 'Repair or Replace Your AC in New Richmond?',
         body: 'Plenty of New Richmond houses from the 1980s have been through two air conditioners, so the label on the unit matters more than the deed. One worn part on a system with service left, a blower motor for example, gets fixed. A tired compressor, or a coil that leaks for the second summer, points to replacement. Clermont County Building Inspection permits those replacements in the village, and filing that permit is part of our job. Your Duke Energy Ohio statement is often the early warning, because a heat pump short on refrigerant has to run longer to keep up.',
       },
     ],

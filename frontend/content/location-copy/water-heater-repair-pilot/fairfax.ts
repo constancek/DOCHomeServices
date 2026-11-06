@@ -32,7 +32,7 @@ export const fairfax: LocationServiceCopy = {
         body: 'Long showers one after another use up the hot water, and the tank catches up on its own. The dial may have been nudged, the breaker for an electric unit may have tripped, or the valve on a gas line may be off. A pilot out in a basement that smells only of basement can be relit using the steps on the heater. Call us for a puddle, rumbling, brown water, a relief valve that discharges again, or an electric tank gone lukewarm. We find the fault, price it for your yes and test it.',
       },
       {
-        title: 'Repair or Replace Your Fairfax Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Fairfax?',
         body: 'A house from 1925 can have a water heater put in last year, so read the tank’s label, not the deed. Thermocouples, gas valves, elements, thermostats, relief valves, anode rods and dip tubes are all repairs. A leak from the body of the tank is not; that heater gets replaced. A failed gas valve on an otherwise sound tank is worth replacing, and we tell you plainly when it isn’t. You get both prices and decide. On older Fairfax venting, a replacement can mean a new vent connector too, and we include that in the quote.',
       },
     ],

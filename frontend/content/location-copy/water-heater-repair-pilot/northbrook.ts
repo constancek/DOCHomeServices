@@ -32,7 +32,7 @@ export const northbrook: LocationServiceCopy = {
         body: 'Some cold showers fix themselves. Three people bathing in a row can drain a tank, and it simply needs a while to catch up. See if somebody nudged the dial. With an electric unit, look at the panel for a flipped breaker. A gas tank whose pilot blew out can be relit off the printed instructions, as long as nothing smells of gas and its valve is open. We are worth calling for a puddle, brown or sulfur-scented hot water, rumbling as sediment boils, or a pilot that keeps dying. You get the diagnosis and a price, and nothing happens until you agree.',
       },
       {
-        title: 'Repair or Replace Your Northbrook Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Northbrook?',
         body: 'Decide by the heater itself. Its sticker carries the install date, and in Northbrook that is often decades after the house went up. A worn thermocouple, a dead element or a faulty relief valve is a straightforward fix, and so is a corroded anode rod. Once water weeps through the steel shell, though, the tank is finished, because a shell can’t be patched. We write up both numbers and you pick. On a new tank we also look hard at the old shutoff, since that is the cheapest moment to change it.',
       },
     ],

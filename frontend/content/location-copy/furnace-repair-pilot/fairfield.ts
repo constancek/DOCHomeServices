@@ -32,7 +32,7 @@ export const fairfield: LocationServiceCopy = {
         body: 'On electric heat, open the breaker panel before anything else. Electric furnaces often draw from two or more breakers, and one tripped breaker leaves the vents pushing weak, lukewarm air. After that, the thermostat needs heat mode and fresh batteries, the filter should be clean, the switch at the furnace on, and the door panel snapped shut, because most units sit idle with it loose. If that sorts it, skip us. If a gas smell hits you, leave the switches and pilot alone, walk out and phone the gas company from the parking lot or yard. A carbon monoxide alarm means everybody outside before anything else.',
       },
       {
-        title: 'Repair or Replace Your Fairfield Furnace?',
+        title: 'Repair or Replace Your Furnace in Fairfield?',
         body: 'Judge the furnace by its own date and condition. Fairfield’s 1970s houses have often had their heat replaced once or twice, so check the label on the cabinet. A burned-out heating element or dead blower motor is a sensible repair. A cracked heat exchanger on a gas furnace is not, since the crack can leak carbon monoxide indoors. New equipment needs a city HVAC permit, which we pull. When the bill jumps during a normal winter, a heat pump stuck running on backup heat is a common culprit, and that’s our first check.',
       },
     ],

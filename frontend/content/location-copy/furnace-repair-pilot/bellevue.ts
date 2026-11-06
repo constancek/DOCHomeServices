@@ -32,7 +32,7 @@ export const bellevue: LocationServiceCopy = {
         body: 'Some no-heat problems in Bellevue are fixed in five minutes without us. The thermostat needs to be on heat, with batteries that aren’t dead. Older basements often hide the furnace’s power switch on a joist or the stairwell wall; find it and flip it on, then look at the breaker. A dust-choked filter lets the furnace overheat and stop, so swap it out. The access panel has to be seated, since a loose one holds many furnaces off. When heat returns, cancel the call. Tenants go to the landlord first. With a gas odor, touch no switches, leave the pilot alone and ring the gas company from the sidewalk.',
       },
       {
-        title: 'Repair or Replace Your Bellevue Furnace?',
+        title: 'Repair or Replace Your Furnace in Bellevue?',
         body: 'Let the furnace decide, not the house. A Bellevue home built before 1940 may hold a furnace only a few winters in, and a dead igniter, pressure switch or blower capacitor there is an easy repair. When an aging furnace needs an expensive part, or breaks down again and again, we quote replacement next to repair and you choose. A cracked heat exchanger can send carbon monoxide through the ducts, and that makes it a safety issue first. If the CO alarm goes off, get everybody outdoors and call from there. Every visit starts with a test, then the cause in plain words, then a price you approve.',
       },
     ],

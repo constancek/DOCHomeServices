@@ -32,7 +32,7 @@ export const northside: LocationServiceCopy = {
         body: 'Before booking, try the easy fixes. Several baths or a laundry day can empty a tank, and it reheats with time. A box shoved against the heater in a crowded basement can turn the dial down. Electric heaters stop cold on a tripped breaker. Gas heaters need the valve on the gas line open and the pilot burning; the label shows how to relight it, but skip that if the basement smells of gas. Call when the tank leaks, the hot water turns brown or smells of sulfur, or the pilot won’t stay lit. We test it and quote it before any repair.',
       },
       {
-        title: 'Repair or Replace Your Northside Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Northside?',
         body: 'A Northside house may be from 1900, but its heater is a separate question; the label tells you when it went in. Thermocouples, gas valves, relief valves, dip tubes and anode rods are all repairs, and on a sound tank they’re worth doing. Rust and water seeping from the tank body mean it’s done. We price both ways and you decide, with no push toward a new heater. If a replacement needs gas line or vent changes, those are in the quote. And if your relief valve keeps opening, we check the pressure before blaming the valve.',
       },
     ],

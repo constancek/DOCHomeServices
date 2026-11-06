@@ -32,7 +32,7 @@ export const mack: LocationServiceCopy = {
         body: 'Plenty of Mack AC complaints don’t need us. Confirm the thermostat shows cooling and has good batteries, slide a new filter into the furnace, and cycle the condenser’s breaker one time. If the house starts cooling, you’re finished. While you’re in the yard, pull grass clippings and mulch away from the outdoor coil. Get in touch when the breaker trips over and over, or the condenser buzzes while its fan stays still. A technician checks the furnace coil and outdoor unit, explains the fault without jargon, names a flat price, and begins once you agree. Afterward we measure how cold the supply air runs.',
       },
       {
-        title: 'Repair or Replace Your Mack AC?',
+        title: 'Repair or Replace Your AC in Mack?',
         body: 'In Mack, the year the house went up matters less than the date on your own equipment. A system ten or so years in that lost one part, maybe a fan motor or contactor, makes a sensible repair. An aging condenser whose compressor has died, or one that wants refrigerant every summer, belongs on the replacement list. Mack is unincorporated Green Township; if new equipment calls for a permit, that’s on us to arrange. Until you replace, a weak system takes longer to hit the thermostat setting, and the extra hours pile onto the Duke Energy statement in July and August.',
       },
     ],

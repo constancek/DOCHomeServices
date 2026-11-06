@@ -36,7 +36,7 @@ export const walnutHills: LocationServiceCopy = {
         body: 'First, set the thermostat to heat; cool or off does nothing. Dust caked on the filter starves the system of air, so put in a new one. Your panel should show a breaker for the outside unit and one for the air handler, both switched on. If the outside unit is reachable, shovel the snow off it. A defrosting unit gives off steam, wears light frost and stops its fan for a short spell. Warm air back means no visit, though renters should still tell the landlord. Coil ice that lingers, or an auxiliary heat light stuck on, means call or report it. We price before we repair.',
       },
       {
-        title: 'Repair or Replace Your Walnut Hills Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Walnut Hills?',
         body: 'Base the decision on the heat pump, not the building. A Walnut Hills building from the 1800s can hold a heat pump installed last decade, and a burned contactor or failed defrost board on it is a straightforward repair. A dead compressor, or refrigerant that has to be added season after season, is when owners should compare a replacement price with the repair. In a pre-1940 house, also have the ductwork looked at, since a retrofit system is only as good as the ducts it pushes through. Financing is available for the bigger job.',
       },
     ],

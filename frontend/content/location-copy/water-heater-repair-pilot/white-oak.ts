@@ -32,7 +32,7 @@ export const whiteOak: LocationServiceCopy = {
         body: 'Look at a few things before booking. A bumped dial can drop the water temperature without anyone noticing, and a gas handle turned crossways looks a lot like a dead heater. Electric tanks need their breaker on. If the pilot blew out, relight it from the printed steps, but only with no gas odor, and if the White Oak house just ran the dishwasher and two showers, give it time. We need to come out for a puddle under the tank, a side valve that discharges twice, scorch marks at the burner, or hot water that smells or runs brown. Tenants report it to the landlord first.',
       },
       {
-        title: 'Repair or Replace Your White Oak Water Heater?',
+        title: 'Repair or Replace Your Water Heater in White Oak?',
         body: 'Go by the heater’s own sticker, which shows the year it went in, not by when the house was built. Plenty of 1960s White Oak houses run a much newer tank. On a sound one we swap the failed thermocouple or gas control, a worn element or thermostat, a leaking side valve or a spent anode rod. A tank leaking through its body can’t be saved that way, and that is when we price a new one. You see both figures together and decide. White Oak apartment owners with several units can have each tank looked at in one visit.',
       },
     ],

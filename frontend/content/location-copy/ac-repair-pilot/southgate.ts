@@ -32,7 +32,7 @@ export const southgate: LocationServiceCopy = {
         body: 'In Southgate, a few checks can save you a visit. Try a new filter, a thermostat on cool under the current room temperature, and one breaker reset. With a heat pump, make sure emergency heat isn’t switched on. If the vents run cold again, cancel the appointment. Tenants still getting warm air should hand the problem to the manager rather than keep troubleshooting. We’re needed when the breaker refuses to stay on, the condenser fan sits motionless, or a puddle forms beneath the air handler. Our technician pinpoints the fault, explains it, and prices it for approval, then checks the cooling with you afterward.',
       },
       {
-        title: 'Repair or Replace Your Southgate AC?',
+        title: 'Repair or Replace Your AC in Southgate?',
         body: 'Trust the equipment label over the house’s age. A Southgate house built in the 1930s says little about a heat pump that might be its second or third. A sound system with a single failed part deserves the repair. Swap it out once the compressor is going or the coil starts leaking again, keeping in mind that a new heat pump means new winter heat too. Campbell County acts as Southgate’s HVAC inspector and issues the Kentucky permit for that replacement, which we handle. Since electric heat is the majority here, a declining heat pump drives up the electric bill in January as well as July.',
       },
     ],

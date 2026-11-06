@@ -32,7 +32,7 @@ export const forestPark: LocationServiceCopy = {
         body: 'Plenty of no-start furnaces in Forest Park come back without a visit. Switch the thermostat to heat with new batteries, then look at the furnace’s own switch and its breaker. A dust-choked filter makes many furnaces overheat and shut down, so swap it. Seat the blower door, too; most models stay off while it’s loose. If warm air returns, you don’t need us. Any smell of gas means hands off the switches and no relighting: get out and phone the gas company from the lot or yard. When the carbon monoxide alarm sounds, everybody leaves first. Past those checks, we test the furnace and quote the fix for your okay.',
       },
       {
-        title: 'Repair or Replace Your Forest Park Furnace?',
+        title: 'Repair or Replace Your Furnace in Forest Park?',
         body: 'Go by the furnace’s age, not the subdivision’s. Many 1960s Forest Park houses now run their second or third furnace, and a newer one with a failed inducer motor or pressure switch deserves a repair. An older unit with a cracked heat exchanger doesn’t: the crack can leak carbon monoxide, so we shut it off and show you why. Electric furnaces wear differently, and a burned element is usually a fair fix. A heating bill that climbs in mild weather often means the system runs longer to do the same work. The replacement permit is ours to handle.',
       },
     ],

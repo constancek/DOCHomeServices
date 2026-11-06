@@ -32,7 +32,7 @@ export const mountLookout: LocationServiceCopy = {
         body: 'A warm house isn’t always a repair. Fit a fresh filter, set the thermostat to cool, and if the cold air comes back, you don’t need us. If your basement took water in the July 2026 storms, leave any furnace or air handler that sat in it off until someone has checked the wiring and blower. Otherwise, call for a visit if the copper line ices over or the outdoor fan stops spinning. The technician looks over the basement equipment and the condenser, tells you plainly what failed, and quotes a flat-rate price for your approval before starting. Afterward we check every register for cold air.',
       },
       {
-        title: 'Repair or Replace Your Mount Lookout AC?',
+        title: 'Repair or Replace Your AC in Mount Lookout?',
         body: 'Let the equipment’s age decide, not the house’s. Repair a system put in within the last 12 years when a single part, like a fan motor or capacitor, has failed. Replace it when an older unit’s compressor dies, or when the indoor coil sitting over the furnace has also started leaking. For a 1938 house, match the new system to the existing ductwork rather than copying the old unit’s label. Inside city limits, a replacement requires a mechanical permit. Before that point, a slow leak or a dirty outdoor coil shows up first as a bigger Duke Energy Ohio bill.',
       },
     ],

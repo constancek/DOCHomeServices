@@ -36,7 +36,7 @@ export const newtown: LocationServiceCopy = {
         body: 'Plenty of Newtown no-heat calls are just a setting. Check the thermostat says heat; a heat pump on cool or off does nothing. Change a filter you can’t see light through. Both breakers matter, the one feeding the outdoor unit and the one feeding the furnace or air handler, so flip any that tripped. Keep the outdoor coil clear of leaves and snow. A cloud of steam, a skin of frost and a silent fan for a few minutes belong to defrost. If warm air comes back, skip the visit. Call us when the burner runs all day while the outdoor unit sits still, or when it grinds.',
       },
       {
-        title: 'Repair or Replace Your Newtown Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Newtown?',
         body: 'The label on the outdoor unit gives the heat pump’s age, and that’s the number to use, not the year the house was built. Newtown has both cases: older houses with a recent unit, and 1990s houses still on the original. On a younger unit, a worn contactor or a dead defrost board gets repaired. When the compressor won’t run or a leak comes back after a fix, we quote repair and replacement side by side. With dual fuel, a heat pump that has quit hands every hour to the furnace, so a burner running on a mild afternoon is an early warning.',
       },
     ],

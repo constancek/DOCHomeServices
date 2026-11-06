@@ -36,7 +36,7 @@ export const pleasantPlain: LocationServiceCopy = {
         body: 'Some heat pump calls end before we leave the shop. Check that the thermostat is set to heat and not cool or off. Put in a clean filter. Find the two breakers, one for the outdoor unit and one for the indoor air handler, and flip back any that tripped. Clear snow and ice away from the outdoor coil. Steam drifting off the unit, light frost and the fan stopping for a few minutes are part of defrost. If warm air returns, you don’t need us. Call if ice keeps building, the emergency heat light stays lit, or the outdoor fan won’t spin. We test, explain, price, repair and recheck.',
       },
       {
-        title: 'Repair or Replace Your Pleasant Plain Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Pleasant Plain?',
         body: 'Base the decision on the heat pump, not on how old the house is. A pre-1940 Pleasant Plain house might have a heat pump only a few years old, and a failed fan motor or contactor on that unit is a repair. On an older heat pump, a refrigerant leak or a seized compressor is when we put repair and replacement prices next to each other. In an all-electric home the electric bill is the early warning: if it climbs sharply without colder weather, the backup heat is doing the work. With oil backup, the tank empties faster. We handle the permit on any replacement.',
       },
     ],

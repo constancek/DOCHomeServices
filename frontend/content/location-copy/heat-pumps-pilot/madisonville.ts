@@ -36,7 +36,7 @@ export const madisonville: LocationServiceCopy = {
         body: 'Start at the thermostat and make sure it reads heat. Pull the filter; if light barely shows through it, fit a new one. Look in the panel for two breakers, one feeding the outside unit and one the air handler, and switch back any that tripped. Sweep snow and leaves from around the unit outdoors. A puff of vapor with the fan stopped for a few minutes is the defrost routine. Warm air again means no visit needed. Owners, phone us when the coil stays a block of ice, the aux light never clears or something grinds. We diagnose, quote, repair and test.',
       },
       {
-        title: 'Repair or Replace Your Madisonville Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Madisonville?',
         body: 'The heat pump’s own age decides it, not the year the walls went up. An apartment from the 2010s may still run its first outdoor unit without trouble, and a 1920s house on Bramble Avenue may have had a heat pump added recently. A burnt contactor or worn fan motor gets fixed. A dead compressor, or refrigerant that leaks out again after a repair, is when we write two quotes side by side. In an all-electric apartment, a January Duke Energy Ohio bill that spikes points to backup strips doing the heating. If you replace, we file the city permit.',
       },
     ],

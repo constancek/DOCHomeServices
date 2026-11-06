@@ -36,7 +36,7 @@ export const mariemont: LocationServiceCopy = {
         body: 'A few Mariemont no-heat calls are solved at the thermostat: it must say heat. Pull the filter, and if it’s gray with dust, change it. The panel has two breakers for this system, outdoor unit and indoor air handler; flip back a tripped one. Rake leaves and shovel snow clear of the unit outside. During defrost, rising vapor, a skin of frost and the fan idling a few minutes are routine. Warm air coming back means we’re not needed. Book us for ice that never melts off, an outdoor fan that won’t spin or an aux light stuck on. You approve the price first.',
       },
       {
-        title: 'Repair or Replace Your Mariemont Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Mariemont?',
         body: 'Go by the equipment. A Mariemont house may be a century old while its heat pump is only a few years old, and that heat pump is usually worth repairing when a contactor or fan motor fails. A failed compressor, or a leak that keeps draining refrigerant, is when we price replacement next to the repair. In a dual fuel home the furnace hides a failing heat pump, so watch for a gas bill that keeps rising. Replacement goes through the village building department, and in a local historic district we check about the outdoor unit before anything is set.',
       },
     ],

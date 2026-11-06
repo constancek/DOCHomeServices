@@ -32,7 +32,7 @@ export const oakley: LocationServiceCopy = {
         body: 'Start with what costs nothing. A matted filter, a thermostat switched to heat or a tripped breaker accounts for plenty of warm Oakley homes, and sorting any of them out means you don’t need us. Apartment dwellers should open the closet too: water in the drain pan, or a float switch that has cut the power, points to a blocked condensate line. Get a technician out when the condenser fan won’t spin or frost coats the larger copper line. We go through the indoor and outdoor sides, show you the cause and price it. Once you agree, we fix it and read the supply air temperature to prove it.',
       },
       {
-        title: 'Repair or Replace Your Oakley AC?',
+        title: 'Repair or Replace Your AC in Oakley?',
         body: 'Judge the equipment, not the address. A pre-1940 Oakley house may be on its third or fourth air conditioner, while a 2010s apartment can already have a tired heat pump. Below about 12 years, a failed capacitor or fan motor is a repair. Beyond that, a dead compressor or a leaking indoor coil makes new equipment the smarter buy. Size it to the ducts, which in an older house were often laid out for heat rather than cooling. Until you decide, a grimy outdoor coil or a slow leak lengthens every cycle, and you pay for those hours on the Duke Energy Ohio bill.',
       },
     ],

@@ -32,7 +32,7 @@ export const edgewood: LocationServiceCopy = {
         body: 'Edgewood owners often sort this out themselves. Set the thermostat to heat. A gray, furry filter goes out and a clean one goes in. Two separate breakers power the outdoor cabinet and the indoor blower; check both. Chip snow and ice back from the outdoor cabinet. Defrost sends up vapor and parks the fan a few minutes, which is routine. Warm again? Cancel the call. We want to hear about ice that refuses to melt or an emergency heat light that never goes dark. Smell gas near the furnace? Get out and call the gas company from outside. We diagnose and quote first.',
       },
       {
-        title: 'Repair or Replace Your Edgewood Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Edgewood?',
         body: 'The unit’s age decides this, not the house’s. Many 1970s Edgewood houses carry a heat pump put in only a few years ago, and when the outdoor fan motor seizes on one of those, we repair it. Once an older system is losing refrigerant or its compressor has failed, you get a replacement quote alongside the repair quote. In an all-electric house, a Duke Energy Kentucky bill that climbs during mild weather tends to mean the heat strips are propping up a weak heat pump. In a dual fuel house, a furnace that runs more than it used to sends the same message.',
       },
     ],

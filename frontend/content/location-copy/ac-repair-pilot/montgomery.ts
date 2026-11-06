@@ -32,7 +32,7 @@ export const montgomery: LocationServiceCopy = {
         body: 'A warm Montgomery evening sometimes has a five-minute answer. Fit a clean filter, set the thermostat a few degrees under room temperature, and flip a tripped breaker back once. Downstairs, check the furnace door, since a loose panel can cut power to the blower through its safety switch. Cold air afterward means skip the appointment. Get us out if the outdoor fan stays still while the compressor hums, or frost creeps along the copper at the condenser. Our technician works through furnace, coil and outdoor unit, names the failure and sets one flat price. Once the fix is in, we take the supply air temperature to prove it.',
       },
       {
-        title: 'Repair or Replace AC in a 1970s Montgomery Home?',
+        title: 'Repair or Replace AC in a 1970s Home in Montgomery?',
         body: 'Few Montgomery homes were built after 2000, so almost every system here lives in a house older than it is. Read the manufacture date off the outdoor unit. Equipment from about 2014 on that lost one part is worth fixing. A pre-2014 unit with a locked compressor, a leaking furnace coil or R-22 inside usually justifies new equipment, and the city permit is our paperwork, not yours. Size the replacement to what those 1970s ducts can carry rather than copying the old tonnage. Until then, a slow leak or grimy coil lengthens every cycle on your Duke Energy bill.',
       },
     ],

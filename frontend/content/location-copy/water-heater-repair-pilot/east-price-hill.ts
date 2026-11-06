@@ -32,7 +32,7 @@ export const eastPriceHill: LocationServiceCopy = {
         body: 'Try these before booking. If everyone showered at once, the tank is spent and needs time. Check the temperature dial, which gets bumped more than people think. An electric heater may have lost its breaker. A gas heater may have its valve turned off, or a pilot that blew out; relight that by the label only if you smell no gas. Our visit is for the bigger signs: a puddle under the tank, rotten-egg or rusty hot water, rumbling from sediment, or scorch marks around the burner door. We look it over, explain what we found, quote it for your approval and check the hot water when we finish.',
       },
       {
-        title: 'Repair or Replace Your East Price Hill Water Heater?',
+        title: 'Repair or Replace Your Water Heater in East Price Hill?',
         body: 'A 1920s house near Warsaw Avenue may hold a tank that went in last spring, so the label decides, not the house. A thermocouple that no longer holds the pilot, a sticky gas control, a burnt-out electric element, a worn anode rod: each is one swap and counts as a repair. Steel rusting through and leaking from the shell is the end of that tank. You see the two prices side by side. Pre-war basements may vent into a brick chimney, so before a new gas heater goes in we check the flue. Plumbing permits run through the city’s Department of Buildings & Inspections, and we pull one where required.',
       },
     ],

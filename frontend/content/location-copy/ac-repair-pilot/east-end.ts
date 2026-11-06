@@ -32,7 +32,7 @@ export const eastEnd: LocationServiceCopy = {
         body: 'Some warm days need no visit at all. Fit a clean filter, make sure the thermostat calls for cooling and flip a tripped breaker back on one time. Cold air afterward means you can stop there. In an older East End basement, also see whether the condensate hose still reaches the floor drain. Send for a technician when the outdoor fan stalls while the compressor hums. Ice on the fatter copper pipe, or a breaker that won’t hold, means the same. We inspect both halves of the system, explain the failure and give one flat figure. Work begins once you approve, and we measure supply air when finished.',
       },
       {
-        title: 'Repair or Replace Your East End AC?',
+        title: 'Repair or Replace Your AC in East End?',
         body: 'Ignore the building’s age and read the condenser’s. A unit younger than roughly 12 that lost one component deserves a repair. Older than that, a dead compressor or leaking coil tips the math toward new equipment. In a prewar cottage, the ducts limit how big a system can go, and an oversized condenser short-cycles and leaves the rooms clammy. In the newer Riverside Drive homes, a 1990s system often needs its indoor coil replaced along with the condenser, since both share the same age and refrigerant. Until you decide, refrigerant loss or grimy outdoor fins stretch each run, which Duke Energy Ohio charges for.',
       },
     ],

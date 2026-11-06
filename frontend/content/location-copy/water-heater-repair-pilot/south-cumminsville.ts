@@ -32,7 +32,7 @@ export const southCumminsville: LocationServiceCopy = {
         body: 'Plenty of cold taps sort themselves out. Two long showers back to back can drain the tank, and an hour usually brings the heat back. A dial knocked toward vacation mode while someone moved boxes is another favorite. Electric heaters go dead on a tripped breaker. Gas models go cold when the supply valve is shut or the pilot blows out; with no gas odor, follow the printed relight steps. Phone us about a wet floor under the heater, brown or sulfur-smelling water, knocking from built-up sediment, or a pilot that keeps dying. You hear the diagnosis and the price, approve it, and we confirm hot water before leaving.',
       },
       {
-        title: 'Repair or Replace Your South Cumminsville Water Heater?',
+        title: 'Repair or Replace Your Water Heater in South Cumminsville?',
         body: 'The sticker on the tank shows its install date, and a 1930s house on Beekman Street can easily hold a heater from last decade. Single components wear out and get swapped: the thermocouple, the burner control, a heating element, the pressure relief valve, the sacrificial anode. Once the steel shell itself weeps water, no part saves it and the tank comes out. If the choice is close, you get the cost of fixing and the cost of replacing on one sheet, and you decide. New tanks inside city limits go through Buildings & Inspections, and we file it.',
       },
     ],

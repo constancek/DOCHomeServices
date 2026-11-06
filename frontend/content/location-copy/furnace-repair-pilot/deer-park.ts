@@ -32,7 +32,7 @@ export const deerPark: LocationServiceCopy = {
         body: 'Deer Park homeowners can rule out the easy causes in five minutes. Put the thermostat on heat and give it new batteries. Confirm the furnace’s power switch is up and the breaker hasn’t tripped. Pull the filter, and if it’s matted gray, put in a fresh one. Press the front panel until it sits flush, since a gas furnace often won’t fire with that panel loose. Warm air again means no visit needed. Smell gas, though, and leave everything alone, relighting included: walk out and phone the gas company from the yard. Otherwise our technician inspects, explains what failed and quotes the repair for your approval.',
       },
       {
-        title: 'Repair or Replace Your Deer Park Furnace?',
+        title: 'Repair or Replace Your Furnace in Deer Park?',
         body: 'Judge the furnace itself, not the house it sits in. A 1940s Deer Park house has almost surely been through at least one furnace already, so yours might be fairly new, and a failed igniter, inducer motor or control board on it deserves repair. An older unit waiting on a major part may not be worth the money. A cracked heat exchanger is a safety question because carbon monoxide can get through it, and we won’t leave one running. A CO alarm going off means everyone gets out before anything else. We take care of the city permit and quote repair and replacement together.',
       },
     ],

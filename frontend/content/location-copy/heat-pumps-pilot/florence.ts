@@ -32,8 +32,8 @@ export const florence: LocationServiceCopy = {
         body: 'Before booking, check the basics. Set the thermostat to heat. Hold the filter to a light, and if none shows through, swap it. Your panel has a breaker for the condenser outside and another for the air handler indoors; flip back any that tripped, once. Clear plowed snow or blown leaves away from the outdoor unit. Steam rising off it, light frost and the fan stopping for a few minutes mean it’s defrosting, which is normal. If heat returns, skip the visit; tenants still tell management. Call us for ice that stays, a unit locked in heat or cool, or grinding outside. We inspect, explain and quote before any repair.',
       },
       {
-        title: 'Repair or Replace Your Florence Heat Pump?',
-        body: 'Base the call on the heat pump itself. A 1970s Florence house may have a unit that went in last decade, and that one is usually worth repairing when a contactor, fan motor or defrost control fails. A leaking coil or a dead compressor on an older system is the bigger decision, and we price both paths. In a dual fuel home, a bad outdoor unit can hide behind the gas furnace, which keeps the house warm while running far more than it should. In an all-electric home, the signal is a power bill that jumps in an ordinary month.',
+        title: 'Repair or Replace Your Heat Pump in Florence?',
+        body: 'Decide by the heat pump, not the house. Homes in Florence from the 1970s often carry a unit installed within the last ten years, and a contactor, fan motor or defrost control failing on that one is normally worth fixing. On an older system, a coil leak or dead compressor is the bigger call, and you get prices for both. Dual fuel homes can hide a failing outdoor unit, since the gas furnace keeps rooms warm while the heat pump runs far longer than it should. In an all-electric house, watch for a power bill that spikes in an ordinary month.',
       },
     ],
     whyTitle: 'Why Florence Landlords and Homeowners Call Us',

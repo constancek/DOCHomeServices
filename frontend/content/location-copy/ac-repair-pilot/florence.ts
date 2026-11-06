@@ -32,7 +32,7 @@ export const florence: LocationServiceCopy = {
         body: 'In a Florence apartment or condo, the filter may sit at the indoor unit in a hall closet, and a clogged one is a usual reason the air goes weak. Change it, then reset the breaker once. If cold air returns, the fix cost you nothing and we aren’t needed. Renters should ask the landlord before booking anyone. Book a visit when the indoor coil ices over or water pools under the closet unit. The technician inspects the indoor and outdoor halves, prices the repair flat before starting and checks vent temperatures when the job is finished.',
       },
       {
-        title: 'Repair or Replace Your Florence AC?',
+        title: 'Repair or Replace Your AC in Florence?',
         body: 'Florence’s median house dates to 1972, but its equipment is usually decades younger, so the house’s age mostly tells you about the ducts. If the heat pump or condenser went in during the last 12 years and a capacitor or contactor failed, repair it. Past that age with a dead compressor, a new system is usually the better spend, and the permit comes from the county office in Burlington. Because nearly half of Florence homes heat with electricity, a failing heat pump costs you twice, on summer and winter bills alike. A dirty outdoor coil does the same in smaller amounts, whichever utility serves your street.',
       },
     ],

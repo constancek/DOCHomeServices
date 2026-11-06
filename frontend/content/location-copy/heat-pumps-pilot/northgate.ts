@@ -36,7 +36,7 @@ export const northgate: LocationServiceCopy = {
         body: 'Some Northgate heat calls end with a thermostat switch. Heat is the only mode that makes the heat pump warm the house. A filter clogged with dust slows everything down, so put a fresh one in. Two breakers serve the system, outdoor unit and air handler; a tripped one shuts it off. Sweep snow and leaves back from the outdoor unit. Steam rising off it, a thin frost and a fan that rests for a few minutes are defrost at work. Heat back after that, and you can cancel the call. Book us when the coil stays frozen, emergency heat won’t turn off or it keeps cooling.',
       },
       {
-        title: 'Repair or Replace Your Northgate Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Northgate?',
         body: 'Judge the heat pump, not the 1960s house it serves. Many outdoor units here are much younger than the walls around them. A worn contactor, a bad fan motor or a failed defrost board is a repair on a sound unit. A refrigerant leak or dead compressor is where we price replacement beside repair. In an all-electric Northgate house, a heat pump that’s losing ground shows on the Duke Energy bill, since the backup strips are doing the heating. Hamilton County issues building permits here once Colerain Township clears zoning, and we take care of both on a replacement.',
       },
     ],

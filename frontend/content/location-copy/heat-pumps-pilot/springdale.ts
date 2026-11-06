@@ -36,7 +36,7 @@ export const springdale: LocationServiceCopy = {
         body: 'Before booking, a Springdale homeowner can rule out several easy causes. Set the thermostat to heat and check its batteries if it has them. Put in a clean filter. The outdoor unit and the indoor air handler each have a breaker; reset either one that tripped. Clear snow and leaves from the outdoor coil. Steam with light frost, and the fan stopping briefly, is just the heat pump defrosting. If heat comes back, you don’t need us. Ice that stays, a grinding outdoor fan or an emergency heat light that won’t go out are reasons to call. We price before working and test after.',
       },
       {
-        title: 'Repair or Replace Your Springdale Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Springdale?',
         body: 'Judge it by the heat pump’s own age. About half of Springdale houses date from the 1960s and 1970s, but the heat pump outside may be its second or third, and a failed capacitor or defrost board on a younger unit is worth repairing. A compressor failure, or a leak that drains the refrigerant again after it was fixed, is where we price replacement alongside repair. We pull the city permit before any replacement. A Duke Energy Ohio bill that rises in an ordinary month usually means the heat strips are doing work the heat pump used to handle.',
       },
     ],

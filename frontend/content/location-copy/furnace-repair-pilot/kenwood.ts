@@ -32,7 +32,7 @@ export const kenwood: LocationServiceCopy = {
         body: 'A simple cause sits behind plenty of Kenwood no-heat calls. Confirm the thermostat says heat and has live batteries. Look at the breaker, then the switch near the furnace, which usually looks like an ordinary light switch. Put in a new filter and press the furnace door in all the way; many models stay off with it loose. If the heat returns, you don’t need us. With a gas smell, use no switches, relight nothing, leave and call the gas company from outdoors. A CO alarm means get everyone out, then call. Otherwise our technician finds the fault and prices it for your approval.',
       },
       {
-        title: 'Repair or Replace Your Kenwood Furnace?',
+        title: 'Repair or Replace Your Furnace in Kenwood?',
         body: 'Decide by the furnace. Plenty of 1960s and 1970s Kenwood homes are already on a replacement furnace, so the house’s age won’t settle whether yours deserves a repair. One failed part on a healthy unit usually does. A cracked heat exchanger usually doesn’t: carbon monoxide can leak through it, and we’ll shut the furnace down until it’s replaced. Whatever Sycamore Township wants filed for a replacement, we file. Watch the gas bill as well. A furnace running far longer than it used to in mild weather often has a fault we can track down and fix.',
       },
     ],

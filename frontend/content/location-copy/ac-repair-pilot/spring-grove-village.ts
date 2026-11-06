@@ -32,7 +32,7 @@ export const springGroveVillage: LocationServiceCopy = {
         body: 'A warm room doesn’t always mean a failed AC. First change the furnace filter, since in most Spring Grove Village homes the furnace blower carries the cooled air, then make sure the thermostat reads cool and the AC breaker is on. If the house cools within the hour, skip the visit. Renters should take it to the landlord rather than book a technician themselves. A condenser fan that refuses to start, or frost on the suction line, needs a technician. We check the condenser, coil and blower, explain what failed, and give you a flat-rate number before touching anything.',
       },
       {
-        title: 'Repair or Replace Your Spring Grove Village AC?',
+        title: 'Repair or Replace Your AC in Spring Grove Village?',
         body: 'Judge it by the equipment, which is far younger than a house built in the 1930s. A machine still in single digits with one failed part should be fixed. In its teens, a compressor failure or a leaking coil usually tips it toward a new system, permitted through the city’s Buildings & Inspections department. Plenty of homes here went up between 1940 and 1979, so their owners have likely replaced condensers before and should note the current unit’s age. Until it’s fixed, fouled outdoor fins or a pinhole leak stretch each cooling cycle, and Duke Energy Ohio bills for every extra minute.',
       },
     ],

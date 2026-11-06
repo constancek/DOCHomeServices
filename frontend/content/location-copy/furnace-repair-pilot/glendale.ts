@@ -32,7 +32,7 @@ export const glendale: LocationServiceCopy = {
         body: 'Some Glendale no-heat calls end before the van arrives. Confirm the thermostat is calling for heat and its display is lit, since dead batteries blank it out. In an older basement the furnace shutoff can look like a light switch and gets flipped by mistake, so put it back on. Check the panel for a tripped breaker, hold the filter to a lamp, and press the blower door home, because a loose door stops most furnaces. Warm air again means skip the visit. Gas odor is the exception: no switches, no relighting, everyone out, call the gas company. Otherwise we find the fault and price it for your OK.',
       },
       {
-        title: 'Repair or Replace Your Glendale Furnace?',
+        title: 'Repair or Replace Your Furnace in Glendale?',
         body: 'A 1920s Glendale house can hold a furnace that went in two winters ago, so the date on the unit’s rating plate is what counts. Replacing an igniter or inducer motor on a younger furnace is money well spent. A heat exchanger with a crack is a different call: it can push carbon monoxide into the rooms, and we won’t leave it running. Should the CO alarm go off, get the household outside, then phone for help. If replacement wins, we handle the permit and plan how the new furnace vents. Meanwhile, a gas bill rising through a mild winter usually means the furnace is slipping.',
       },
     ],

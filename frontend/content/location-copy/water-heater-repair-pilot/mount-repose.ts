@@ -32,7 +32,7 @@ export const mountRepose: LocationServiceCopy = {
         body: 'Before calling, check what you safely can. Hot water often returns once the tank recovers from heavy use. The dial on the gas valve or the electric thermostat may have been moved. On electric, a tripped breaker is the first suspect. On gas, see that the valve on the supply line is open. If one of those fixes it, you don’t need us. We do need to come for water on the floor under the tank, a relief valve that keeps discharging, or a pilot that dies within minutes of relighting. We test it, explain the fault and quote the fix.',
       },
       {
-        title: 'Repair or Replace Your Mount Repose Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Mount Repose?',
         body: 'Go by the heater’s own label. A Mount Repose house built in 1972 may have a tank that went in a few years ago, and a bad thermocouple, gas valve or relief valve on it is a repair worth doing. Rumbling sediment can often be flushed, and a worn anode rod can be swapped. A tank leaking through its shell needs replacing; there’s no patch for it. On older houses we check the flue and shutoff valve at the same time, since a new heater on tired venting is a poor job. You get a repair price and a replacement price, and you choose.',
       },
     ],

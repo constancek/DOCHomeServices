@@ -32,7 +32,7 @@ export const golfManor: LocationServiceCopy = {
         body: 'Several showers in a row can drain a small tank; wait for it to recover. A dial turned down by a tenant, or a breaker tripped on an electric unit, stops hot water too. A gas pilot can go out, and if you smell no gas you can relight it by the instructions on the tank. Renters should report even these to the landlord. Book us when a puddle forms under the heater, the hot water comes out brown or reeks of sulfur, the pilot keeps dying, or the tank pops and rumbles. We diagnose, explain and price it before starting, then run the taps to prove it.',
       },
       {
-        title: 'Repair or Replace Your Golf Manor Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Golf Manor?',
         body: 'The building’s age settles nothing here; check the date on the heater’s label. A failed thermocouple, gas control, element, thermostat, anode rod, dip tube or relief valve is a repair on a tank that’s otherwise sound. A tank that weeps from its shell is done, and we replace it. In a two-family or fourplex, each unit’s heater gets its own diagnosis and its own price. You see the repair and the replacement priced together and make the call. Tankless is an option where the venting allows, but we only raise it if you ask.',
       },
     ],

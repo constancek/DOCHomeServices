@@ -32,7 +32,7 @@ export const dillonvale: LocationServiceCopy = {
         body: 'Some of it you can sort out yourself. When everyone in a Dillonvale house showers in a row, the tank runs dry for a while and catches up. A knocked dial can leave water barely warm. Make sure the gas handle lines up with the pipe and, on electric models, the breaker is on. Pilot out with no gas odor? Relight it from the printed steps. Call us for water on the floor, sulfur-smelling or rusty hot water, a side valve that has discharged twice, or black scorch marks at the burner door. We explain the problem, quote it, fix it and run the taps before leaving.',
       },
       {
-        title: 'Repair or Replace Your Dillonvale Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Dillonvale?',
         body: 'A Dillonvale house from 1956 is long past its first water heater, so the house date says nothing. Read the tank’s sticker. Thermocouples, gas controls, elements, thermostats, side valves, anode rods and dip tubes can all be swapped on a tank that still holds water. A seep from the shell means the lining has failed, and a new heater is the fix. We price both and you pick. On a replacement we also look at the old vent connector and shutoff, since they often need replacing too, and we quote those separately.',
       },
     ],

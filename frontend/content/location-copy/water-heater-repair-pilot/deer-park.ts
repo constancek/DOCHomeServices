@@ -32,7 +32,7 @@ export const deerPark: LocationServiceCopy = {
         body: 'A Deer Park basement heater that goes cold isn’t always broken. A string of showers can use up a full tank, and later it’s back. A gas control knob turned toward low does the same, as does a gas cock left closed after other work. With electric, open the panel and look for a tripped breaker. A dead pilot with no gas odor can be relit by following the printed steps on the jacket. Bring us in for standing water near the base, rust-tinted hot water, black scorch at the burner opening, or a side relief valve that has blown off twice. We look first and quote first.',
       },
       {
-        title: 'Repair or Replace Your Deer Park Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Deer Park?',
         body: 'In a 1947 Deer Park house, the house’s age says nothing; the sticker on the heater jacket does. A recently installed tank with a burnt-out thermocouple, a sticking gas control, a tired anode or a split dip tube gets those parts swapped. Water seeping out of the steel shell is the end, and nobody should patch it. Older basements also tend to have rusty vent connectors and aged gas lines, and we flag them whatever you choose. Two prices, repair and replacement, go in front of you and you pick. A tankless quote is available on request.',
       },
     ],

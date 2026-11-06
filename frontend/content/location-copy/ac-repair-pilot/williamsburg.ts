@@ -32,7 +32,7 @@ export const williamsburg: LocationServiceCopy = {
         body: 'Three checks can save you a visit: a fresh filter, a working thermostat and a breaker that hasn’t tripped. If one of those brings the cold back, you don’t need us. Renters should report the problem to the landlord before calling anyone. Call us when the outdoor unit hums with its fan still, or water pools near the furnace. Our technician looks at both halves of the system and tells you what failed. You approve a flat-rate price before work starts, and we check the vent temperature after the repair.',
       },
       {
-        title: 'Repair or Replace Your Williamsburg AC?',
+        title: 'Repair or Replace Your AC in Williamsburg?',
         body: 'Read the date on the condenser, not the house. A Williamsburg house from the 1960s may have a system that’s only a few summers old, and a failed capacitor or fan motor on that unit is worth fixing. A compressor failure on an old system usually isn’t. Clermont County Building Inspection serves as the village’s building department and issues the replacement permit; we take care of it. Short of replacement, compare this summer’s electric bill with last summer’s; a big jump with similar weather usually traces to a matted outdoor coil or refrigerant slowly leaking out.',
       },
     ],

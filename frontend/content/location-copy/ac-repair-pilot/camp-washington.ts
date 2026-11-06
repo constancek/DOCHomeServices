@@ -32,7 +32,7 @@ export const campWashington: LocationServiceCopy = {
         body: 'Before reporting anything, make sure the thermostat is set to cool and no breaker has flipped. A filter left in place across a lease turnover often freezes the coil, so change it if the lease allows. Cold air returning means nobody has to come out. Otherwise, alert the landlord, especially when the breaker keeps tripping, the outside unit buzzes but never starts, or water collects under the indoor unit. Once booked by the owner, the technician inspects both halves, explains the cause to tenant and owner alike and fixes a price before work. Cold air at the registers is our proof the job is finished.',
       },
       {
-        title: 'Repair or Replace Your Camp Washington AC?',
+        title: 'Repair or Replace Your AC in Camp Washington?',
         body: 'Every Camp Washington home predates the air conditioner inside it, since nothing here was built after 1979. So the equipment nameplate decides. Younger than roughly 12 years with a single bad part, keep it running. Older, with a compressor that’s quit, a new unit is the sounder choice, and we take care of any permit work. In a two-family house, compare both units’ ages before replacing one, because the second may not be far behind. Short of replacement, watch the Duke Energy Ohio bill, since a grimy coil or a slow leak means longer compressor runs for no extra comfort.',
       },
     ],

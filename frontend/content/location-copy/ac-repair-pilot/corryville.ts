@@ -32,7 +32,7 @@ export const corryville: LocationServiceCopy = {
         body: 'Tenants can check the simple things in a few minutes. If your lease allows it, change a dirty filter, look at the breaker that serves your apartment, and confirm the thermostat reads cool, not heat. Cold air coming back means nothing is broken. If it stays warm, take it to the landlord or the building office rather than booking a contractor yourself: most Corryville homes are rented, and the owner normally picks who does the work. Once we’re called in, the technician tests the heat pump and the air handler, explains what failed, and waits for the price to be approved before starting.',
       },
       {
-        title: 'Repair or Replace Your Corryville AC?',
+        title: 'Repair or Replace Your AC in Corryville?',
         body: 'Go by the date on the equipment label, not the year the building went up. Once a unit passes roughly 12 years and its compressor fails, replacing it usually makes more sense. A newer heat pump that lost one fan motor or capacitor deserves the repair. A replacement takes a mechanical permit from Buildings & Inspections at the City of Cincinnati, and condo owners should also check the association’s rules on outdoor equipment before buying. Until then, a weak system still costs money: a heat pump short on refrigerant runs longer to hold the same temperature, and those extra hours show up in what you pay Duke Energy Ohio.',
       },
     ],

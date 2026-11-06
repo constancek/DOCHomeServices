@@ -32,7 +32,7 @@ export const mack: LocationServiceCopy = {
         body: 'In a Mack house, check the obvious before calling. Showers and a load of wash on the same morning can outrun the tank, and it catches up if you leave it. Someone may have turned the temperature knob. An electric unit’s breaker can trip, and a gas unit’s supply valve can get bumped closed. A dark pilot, with no gas smell, can be relit following the steps on the jacket. We’re the call for standing water under the tank, brown or sulfur-smelling hot water, a relief valve that keeps venting, or a pilot that won’t hold. We test, explain, quote a flat rate and recheck.',
       },
       {
-        title: 'Repair or Replace Your Mack Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Mack?',
         body: 'Judge the heater by its own label. In Mack the house and the tank are often close in age, which is when owners start weighing a new one. A thermocouple, gas valve, element, thermostat, relief valve, anode rod or dip tube is worth replacing on a tank that doesn’t leak. Once the tank body leaks, the heater is finished. We lay out the cost of the repair next to a new heater, and you choose. Replacements include the permit. If you’ve been curious about tankless, we’ll price it too, but a standard tank is usually the simpler swap.',
       },
     ],

@@ -32,7 +32,7 @@ export const sedamsville: LocationServiceCopy = {
         body: 'Some cold showers in Sedamsville have nothing to do with a broken part. Back-to-back showers drain the tank, and waiting for it to reheat fixes it. In a cramped cottage basement, laundry baskets and boxes knock the temperature dial down. Electric heaters trip their breaker; gas heaters sometimes have the supply valve turned off or a pilot that blew out, which you can relight from the label’s steps if the basement doesn’t smell of gas. We’re worth the trip for a puddle at the base, brown hot water or a side relief valve that has let go twice. We test, explain, price for approval and recheck.',
       },
       {
-        title: 'Repair or Replace Your Sedamsville Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Sedamsville?',
         body: 'Look at the heater, not the cottage around it. The label on the tank shows when it went in, and a younger heater with a failed thermocouple, gas valve or dip tube is a repair. A tank weeping from its own steel body can’t be patched, so that one gets replaced. We price both and you choose. In these older basements a new heater sometimes needs new venting or a new shutoff valve to go in safely, and we say so up front. Inside the city, the Department of Buildings & Inspections handles the permit, and we pull it where one is needed.',
       },
     ],

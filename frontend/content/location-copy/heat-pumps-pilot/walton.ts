@@ -36,7 +36,7 @@ export const walton: LocationServiceCopy = {
         body: 'Plenty of Walton no-heat calls turn out to be simple. A thermostat left on cool or off warms nothing, so put it on heat. A dusty filter goes in the trash. The outside unit and the indoor air handler each sit on their own breaker, and neither can be tripped. Brush snow and leaves off the outside cabinet. Defrost brings steam, a dusting of frost and a fan that goes quiet for a short while. If the rooms warm back up, a technician isn’t needed. Ice that hangs on, a motionless outdoor fan or grinding means call. We explain what failed and price it before work.',
       },
       {
-        title: 'Repair or Replace Your Walton Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Walton?',
         body: 'Weigh the heat pump, not the house. A Walton subdivision home from the 2000s may still run its original unit, while a house in the old town could have a heat pump only a few years old. A seized fan motor or a failed control board is normally a repair. A dead compressor, or refrigerant that keeps disappearing, is where we put a replacement price in front of you next to the repair. In an all-electric home, an electric bill that climbs in a normal month means backup heat is doing the job. Financing is available.',
       },
     ],

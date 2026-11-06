@@ -32,7 +32,7 @@ export const covedale: LocationServiceCopy = {
         body: 'Covedale’s basement furnaces often come back with a quick check. The thermostat should be on heat, and dead batteries can blank it out. A service switch, usually on the furnace or a nearby wall, and the panel breaker both need to be on. Hold the filter up to a light; if nothing shows through, it’s due. Then seat the front cover, since a loose cover keeps many furnaces from starting. Heat back means no visit. If you smell gas, use no switches, don’t relight, leave the house and call the gas company from the driveway. Anything past that, we inspect, explain and quote first.',
       },
       {
-        title: 'Repair or Replace Your Covedale Furnace?',
+        title: 'Repair or Replace Your Furnace in Covedale?',
         body: 'Decide by the furnace, not the decade the house went up. A Covedale house from the 1950s may have replaced its furnace more than once, and if the current one loses an igniter or pressure switch, fix it. When an older furnace needs an expensive part, or we keep coming back to it, we price a replacement alongside the repair. A cracked heat exchanger can leak carbon monoxide into the rooms, which makes it a safety matter. A CO alarm means everyone leaves before anyone calls. For a replacement, we pull the permit from the office that covers your address, city or township.',
       },
     ],

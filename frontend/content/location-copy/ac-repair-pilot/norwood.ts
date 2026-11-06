@@ -32,7 +32,7 @@ export const norwood: LocationServiceCopy = {
         body: 'Swap the filter and look at the breaker first. If the breaker tripped once and holds after a reset, or a clean filter brings the cold air back, you don’t need a technician. In a two-family, make sure you’re checking your own thermostat and breaker, because labels in older buildings aren’t always right. Renters should report the problem to the landlord before anyone books. Call us if the breaker keeps tripping or the condenser hums without the fan turning. We inspect the indoor and outdoor sides and explain the cause. You approve a flat price before work begins, and we run the system and check the vents afterward.',
       },
       {
-        title: 'Repair or Replace Your Norwood AC?',
+        title: 'Repair or Replace Your AC in Norwood?',
         body: 'Judge the equipment, not the house. A Norwood home from the 1920s can have a condenser that went in last decade, and that one deserves a repair. A worn-out system with a failed compressor usually doesn’t. In old houses, replacement can mean an electrical upgrade, since the original wiring may not carry a new condenser circuit, and some rooms are better served by a ductless mini-split. The City of Norwood Building Department issues the replacement permit, and we file it. Keep an eye on the electric bill too. If it climbs while the weather stays the same, a slow leak or a matted outdoor coil is the usual reason.',
       },
     ],

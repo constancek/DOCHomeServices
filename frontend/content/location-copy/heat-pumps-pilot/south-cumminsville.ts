@@ -36,7 +36,7 @@ export const southCumminsville: LocationServiceCopy = {
         body: 'South Cumminsville homeowners can clear a few causes of a cold house on their own. The thermostat needs to be on heat. Swap a gray filter. At the panel, the outside unit and the air handler each have a breaker, and one can be off while the other is fine. Rake leaves and break up snow around the outside cabinet. A cloud of steam, a little frost and the fan resting for minutes are the defrost cycle at work. Warm air back means you can skip the visit. Ice that never melts off, or an auxiliary heat light that stays lit, does need us. We price before working.',
       },
       {
-        title: 'Repair or Replace Your South Cumminsville Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in South Cumminsville?',
         body: 'Look at the heat pump’s own label, not the house’s age. A 1930s South Cumminsville house can have a heat pump bought last decade, and a burned contactor or a failed defrost sensor on that is a repair. When a compressor dies or refrigerant leaks out again after a fix, we give you a replacement price beside the repair price, and we handle the city permit. Undersized ducts can make a sound heat pump seem weak, so we test airflow before recommending anything. If your Duke Energy gas use jumps while the heat pump runs less, the furnace is carrying the load.',
       },
     ],

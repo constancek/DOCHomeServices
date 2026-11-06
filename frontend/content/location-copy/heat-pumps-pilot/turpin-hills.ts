@@ -36,7 +36,7 @@ export const turpinHills: LocationServiceCopy = {
         body: 'Clear the simple causes first. A thermostat left on cool or off won’t call for heat, so switch it to heat. If no light shows through the filter, it’s due. The condenser outside and the air handler indoors run on separate breakers; flip back any that tripped. Shovel snow and rake leaves away from the outside cabinet. During defrost a heat pump may steam, wear a thin frost and stop its fan briefly, and none of that is a fault. Once warm air returns, you don’t need us. If the coil stays frozen, the fan won’t budge or grinding starts, we inspect, explain and quote before work.',
       },
       {
-        title: 'Repair or Replace Your Turpin Hills Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Turpin Hills?',
         body: 'Look at the heat pump’s age, not the house’s. Turpin Hills houses went up mostly between 1960 and 1999, but the heat pump outside is usually much younger than the house. A failed defrost board or outdoor fan motor is normally a repair. If the compressor has failed, or refrigerant keeps leaking from the coil, we quote a replacement next to the repair so you can compare. In a dual fuel house, watch the gas bill: a furnace running more than usual on mild days points to a heat pump that has stopped working. Financing is available for a new system.',
       },
     ],

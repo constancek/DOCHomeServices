@@ -32,7 +32,7 @@ export const cherryGrove: LocationServiceCopy = {
         body: 'You can fix several things yourself. Thermostat on heat, batteries working. The furnace switch, which looks like an ordinary light switch, flipped on, and the breaker not tripped. A filter you can see light through; if not, change it. The furnace door shut firmly, since many models won’t start while it’s ajar. Heat back means no visit. Call when a heat pump runs without stopping and the rooms stay cool, or the furnace keeps shutting down. Gas smell or a CO alarm: get out, leave every switch alone, and call the gas company from outside. We explain the fault and price it first.',
       },
       {
-        title: 'Repair or Replace Your Cherry Grove Furnace?',
+        title: 'Repair or Replace Your Furnace in Cherry Grove?',
         body: 'Go by the date on the equipment, not the house. A 1970s Cherry Grove house might have a furnace that went in a few winters ago, and that one is worth a repair when an igniter or blower capacitor fails. A cracked heat exchanger on a gas furnace isn’t a cost question; it’s a carbon monoxide risk, and we shut that furnace off. On electric heat, an older heat pump with a failed compressor is often where repair stops making sense. If you replace, we handle any permit. Watch the Duke Energy Ohio bill in winter, because a heat pump stuck on its backup strips shows up there first.',
       },
     ],

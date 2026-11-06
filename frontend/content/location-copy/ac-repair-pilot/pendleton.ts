@@ -32,7 +32,7 @@ export const pendleton: LocationServiceCopy = {
         body: 'Tenants can eliminate the simple causes without tools. Put the thermostat on cool, replace its batteries if the display is blank, and change a grimy filter if your lease permits. Should cold air resume, nothing needs fixing. Notify the owner or manager when your unit’s breaker won’t stay on, a closet air handler leaks through the floor, or the registers breathe room-temperature air for an hour. When the owner sends us, the technician tests indoor and outdoor sections, describes the fault to tenant and owner in the same terms, and gets the flat price signed off before work. A thermometer at the register proves the result.',
       },
       {
-        title: 'Repair or Replace Your Pendleton AC?',
+        title: 'Repair or Replace Your AC in Pendleton?',
         body: 'Pendleton’s two building eras give two different answers. In a condo built since 2010, the system is at most about 16 years old, and one failed part is normally worth repairing. In a building from 1939 or earlier, cooling arrived later, so read the date on the equipment label instead. Beyond roughly 12 years with a seized compressor, new equipment is typically wiser, and the city mechanical permit applies. Before reaching that point, watch the Duke Energy Ohio bill: a slow leak or a matted outdoor coil forces longer compressor runs for the same indoor temperature.',
       },
     ],

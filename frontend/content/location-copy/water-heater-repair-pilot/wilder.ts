@@ -32,7 +32,7 @@ export const wilder: LocationServiceCopy = {
         body: 'A Wilder condo tank is often small, and two long showers can use it up; give it time to reheat. Make sure the dial hasn’t been turned down. On an electric heater, look at the breaker. On gas, check that the pilot is lit and the gas valve is on, and relight by the label only with no gas smell. We’re needed when water collects in the pan or on the floor, hot water comes out rusty or smells of rotten eggs, the relief valve keeps discharging, or the tank rumbles. We test the heater and price the repair before starting.',
       },
       {
-        title: 'Repair or Replace Your Wilder Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Wilder?',
         body: 'Go by the water heater, not the year the Wilder building went up; the label gives the install date. Elements and thermostats on electric tanks are repairs, as are thermocouples and gas valves on gas ones, plus relief valves, anode rods and dip tubes. A tank leaking from its body has to be replaced. We quote both and you decide. In Wilder’s condo closets the new heater must fit through the door and sit in the same drain pan, so we measure before pricing. We’ll quote tankless on request, but a matching tank is usually simpler. We pull any permit needed.',
       },
     ],

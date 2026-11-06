@@ -32,7 +32,7 @@ export const pleasantPlain: LocationServiceCopy = {
         body: 'Check the basics first: the thermostat set to heat with fresh batteries, the furnace switch on, the breaker, a clean filter and the furnace door latched. On an oil furnace, look at the tank gauge too. If one of those was the problem, you don’t need us. If a carbon monoxide alarm goes off or you see soot around the burner, get everyone outside first. In a house on gas, a gas smell means touching no switches, relighting nothing, leaving and calling the gas company from the yard. Call us when the burner keeps locking out. We inspect, get your OK on a flat price and test the heat after.',
       },
       {
-        title: 'Repair or Replace Your Pleasant Plain Furnace?',
+        title: 'Repair or Replace Your Furnace in Pleasant Plain?',
         body: 'Look at the furnace, not the age of the house. An oil furnace with a worn nozzle, a clogged fuel filter or a failed ignition transformer is a routine repair. A cracked heat exchanger is a safety problem, since it can leak carbon monoxide, so that furnace should be replaced. Electric furnaces are often worth repairing because their elements and relays can be swapped. If you rent, Ohio law requires your landlord to keep supplied heating equipment in good and safe working order, so tell them first. We fix furnaces, not leases.',
       },
     ],

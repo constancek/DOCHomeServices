@@ -32,7 +32,7 @@ export const arlingtonHeights: LocationServiceCopy = {
         body: 'Not every cold tap is a breakdown. A tank drained by a string of showers comes back once it reheats. The setting knob may have been turned, the electric heater’s breaker may be off, or the gas cock on the supply pipe may be closed. When the pilot has gone out and the air smells normal, the jacket label walks you through relighting it. Renters pass it to the landlord. A leaking tank, brown water, a sulfur smell, a relief valve that keeps dripping, or scorching at the burner door means it’s our job. We check it, explain it, price it and test it.',
       },
       {
-        title: 'Repair or Replace Your Arlington Heights Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Arlington Heights?',
         body: 'Nearly every house here is old, but the heater in it may not be, so read the install date on the label. On a tank that doesn’t leak, a thermocouple, gas valve, element, thermostat, relief valve, anode rod or dip tube is a repair. Water coming through the tank body means a new heater. Landlords get the repair and the replacement priced side by side and decide. In a pre-1940 basement, a replacement sometimes needs a new vent connector or shutoff valve as well, and we put that in the quote up front, along with the permit.',
       },
     ],

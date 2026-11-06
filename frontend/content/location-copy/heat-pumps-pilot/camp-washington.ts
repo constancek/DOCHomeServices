@@ -32,7 +32,7 @@ export const campWashington: LocationServiceCopy = {
         body: 'Camp Washington tenants and owners can rule out simple causes. Is the thermostat on heat? Cool or off means nothing will warm up. Is the filter clogged? Fit a fresh one. Are both breakers on, the one for the unit outdoors and the one for the air handler inside the apartment? Clear snow or trash off the outdoor cabinet. A short pause of the fan with steam and a skin of frost is defrost doing its job. Heat back? You’re fine. Ice that sticks to the coil or an emergency heat light that stays lit goes to the landlord or to us, and we quote before we fix.',
       },
       {
-        title: 'Repair or Replace Your Camp Washington Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Camp Washington?',
         body: 'Read the date on the heat pump itself. Nearly every building here went up before 1940, yet the heat pumps in them were often installed in the last few years, and a dead fan motor or control board on a unit that young is a straightforward repair. Owners should ask for a replacement price beside the repair once an older unit has lost refrigerant through a leak or its compressor has died. With all-electric heat, a Duke Energy bill that leaps in an ordinary month tells you the backup strips have taken over. We handle the permit for any replacement.',
       },
     ],

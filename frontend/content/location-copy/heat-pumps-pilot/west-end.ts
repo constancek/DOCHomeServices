@@ -36,7 +36,7 @@ export const westEnd: LocationServiceCopy = {
         body: 'Before anyone books a visit, check the thermostat. It has to be on heat; cool or off leaves the heat pump idle. Change the filter if it’s gray with dust. The outdoor unit and the indoor air handler each sit on a breaker, and both should be on. Pull snow or trash away from the outdoor unit. Steam, a little frost and the fan stopping for a few minutes are the unit defrosting. When heat comes back, you don’t need us. When the coil stays frozen or the emergency heat light stays on, tenants should report it and owners can call. We price repairs first.',
       },
       {
-        title: 'Repair or Replace Your West End Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in the West End?',
         body: 'Base the call on the equipment, since an 1800s West End rowhouse can hold a heat pump installed a few winters ago. On a younger unit, a scorched contactor or a failed defrost board is fixed and the system goes back to work. When an older unit’s compressor dies or its refrigerant has to be topped up every season, owners should look at a replacement figure next to the repair figure. With an all-electric apartment, a Duke Energy Ohio bill that leaps in mild weather usually points to the heat strips doing the heating. Financing can cover the larger job.',
       },
     ],

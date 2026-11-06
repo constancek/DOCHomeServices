@@ -32,7 +32,7 @@ export const maineville: LocationServiceCopy = {
         body: 'You may not need a technician at all. Swap the filter, check the thermostat mode and batteries, and reset the breaker once. If that brings back steady cooling, you’re done. Call us when the breaker won’t stay on or the outdoor unit clicks without starting. A heat pump that blows warm air in cooling mode needs a visit too. In an apartment, report it to management instead. The technician checks the outdoor and indoor sides and explains the fault. You approve a flat price before any work, and we test the cooling again before we go.',
       },
       {
-        title: 'Repair or Replace Your Maineville AC?',
+        title: 'Repair or Replace Your AC in Maineville?',
         body: 'Check the install date on the outdoor unit. Maineville’s 2000s systems are now roughly 20 years old, and a heat pump that has heated and cooled that whole time has worked harder than a cooling-only unit. A worn contactor or fan motor is still worth repairing. A dead compressor or a second refrigerant leak usually means it’s time to replace, and we handle the permit. For the 1990s homes, the system has often been replaced once already, so look at its own date. Your electric bill can warn you early: a heat pump losing refrigerant runs longer every month, so the bill climbs before the house feels warm.',
       },
     ],

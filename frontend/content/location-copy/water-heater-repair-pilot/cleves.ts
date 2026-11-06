@@ -32,7 +32,7 @@ export const cleves: LocationServiceCopy = {
         body: 'Plenty of mornings without hot water in Cleves end without us. Three showers in a row will drain most tanks, so wait. The dial on the gas control gets nudged by laundry baskets. Electric tanks go cold when their breaker trips. A gas pilot can blow out; with no gas smell, follow the lighting steps printed on the tank’s sticker, and make sure the gas cock lies in line with the pipe. Phone us for a wet floor, brown or sulfur-smelling hot water, a relief valve that has let go more than once, or a pilot that refuses to stay on. You get the cause and a price first.',
       },
       {
-        title: 'Repair or Replace Your Cleves Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Cleves?',
         body: 'Ignore the age of the house and read the sticker on the tank, which gives its install date. Some houses in Cleves older than 1940 have heaters only a few winters old. Swappable parts include the thermocouple, gas control, elements, thermostats, relief valve, anode rod and dip tube. A tank seeping through its own steel is finished, since nobody can patch it. We quote both routes and you pick. After floodwater along Route 50, leave a soaked heater off until it’s inspected. Permits, where needed, are ours to pull.',
       },
     ],

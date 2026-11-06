@@ -32,7 +32,7 @@ export const moscow: LocationServiceCopy = {
         body: 'Moscow heat often comes back with no visit at all. Read the oil tank gauge if you burn oil. Put the thermostat on heat with new batteries. Look for a tripped breaker and confirm the furnace switch is on. Change a dark filter and seat the furnace door, since many units sit idle while it’s loose. Warm again? Then you don’t need us. We’re needed when electric heat blows cool, the oil burner locks out over and over, or the breaker trips a second time. Smell gas? Out of the house, switches untouched, and phone the gas company from outside. We inspect, explain, price it for your approval and test.',
       },
       {
-        title: 'Repair or Replace Your Moscow Furnace?',
+        title: 'Repair or Replace Your Furnace in Moscow?',
         body: 'A pre-1940 river house can hold a recent furnace or heat pump, so the equipment, not the village’s old housing, decides this. Replacing a burned element, sequencer or relay on sound electric equipment is reasonable money. Oil furnaces bring one more risk: a cracked heat exchanger can let carbon monoxide into the rooms, and we won’t leave that unit running. When a carbon monoxide alarm goes off, the household leaves first and phones from the street. If replacement wins, Clermont County’s permit is our job. Watch the electric bill in an ordinary cold month; a sudden jump usually means failing elements or a heat pump stuck on backup heat.',
       },
     ],

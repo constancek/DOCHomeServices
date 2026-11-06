@@ -36,7 +36,7 @@ export const owensville: LocationServiceCopy = {
         body: 'Without a gas furnace behind it, an Owensville heat pump has nobody covering for it, so a quick self-check pays off. The thermostat has to read heat with the set point above room temperature. A grey, packed filter goes in the trash. In the electrical panel, an outdoor unit breaker and an air handler breaker sit side by side; a tripped one gets reset once. Knock snow off the outdoor cabinet. Steam and a frosty coil with a silent fan for a few minutes is defrost. Heat restored means no visit. Ice that never melts, a backup light glowing all day or a grinding fan is a repair.',
       },
       {
-        title: 'Repair or Replace Your Owensville Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Owensville?',
         body: 'Go by the heat pump’s condition. Most Owensville homes date from the 1960s and 1970s, but the outdoor unit is often much newer than the building. A contactor, capacitor, fan motor or sensor is a repair on a unit that’s otherwise sound. A failed compressor, or a refrigerant leak that’s been topped up before, is where we price replacement beside repair for the owner. In an all-electric home the warning is the electric bill, because backup strips cost far more to run than the heat pump. We handle the permit on a replacement. Financing is available.',
       },
     ],

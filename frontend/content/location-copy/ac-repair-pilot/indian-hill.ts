@@ -32,7 +32,7 @@ export const indianHill: LocationServiceCopy = {
         body: 'Plenty of Indian Hill calls get solved at the thermostat. In a house with two or more, check that the one for the warm zone reads cool and has live batteries. A fresh filter for that system and a glance at the breaker panel cover the rest. If chilled air returns, cancel the visit. Book us when a zone stays warm with all of that right, or when an attic air handler drips onto a ceiling. The technician inspects, explains the fault and prices it, and work starts only with your yes. Afterward we take register temperatures to confirm the fix.',
       },
       {
-        title: 'Repair or Replace Your Indian Hill AC?',
+        title: 'Repair or Replace Your AC in Indian Hill?',
         body: 'Indian Hill’s housing runs from prewar estates to post-2000 builds, so the year on the deed tells you almost nothing about the AC. Go by the condenser’s nameplate. Fixing a fairly new system with a dead fan motor or control board makes sense. When an older compressor fails, or the system has needed a refrigerant top-up two summers in a row, replacement is usually the better spend, and houses with two aging systems sometimes swap both together. The replacement permit is our job, not yours. Meanwhile, a system that runs all afternoon and never reaches the setpoint shows up on the electric bill.',
       },
     ],

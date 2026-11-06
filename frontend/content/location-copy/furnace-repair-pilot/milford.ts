@@ -32,7 +32,7 @@ export const milford: LocationServiceCopy = {
         body: 'Plenty of no-heat calls end with a battery. Make sure the thermostat reads heat and its display is awake. Flip on the furnace service switch then look for a tripped breaker. Change a filter that’s gone dark, and seat the front panel firmly, since most furnaces refuse to start with it ajar. Heat back on means no visit needed. If a gas smell hits you, don’t use a switch or relight anything; leave, then phone the gas company from outside. For a carbon monoxide alarm, everyone goes out first. Anything else, we diagnose, explain, wait for your yes on the price and test the heat.',
       },
       {
-        title: 'Repair or Replace Your Milford Furnace?',
+        title: 'Repair or Replace Your Furnace in Milford?',
         body: 'Let the furnace’s condition settle it, not the house’s age. Census figures show 69.7% of Milford homes predate 1980, but the equipment in one could be a few years old, and an igniter, inducer motor or element failure on that furnace is worth paying to fix. A crack in the heat exchanger is a safety finding, since carbon monoxide can reach the living space through it, so we leave that furnace off and advise replacing it. If replacement is the plan, the permit is ours to handle. An early warning: a heating bill that climbs while the weather holds steady usually means the furnace runs too long.',
       },
     ],

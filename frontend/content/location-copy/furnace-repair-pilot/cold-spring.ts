@@ -32,7 +32,7 @@ export const coldSpring: LocationServiceCopy = {
         body: 'Before booking, set the thermostat to heat and give it fresh batteries. Find the furnace’s own on-off switch, often on the wall beside it, and make sure its breaker hasn’t tripped. Put in a clean filter and press the front panel shut, because many furnaces sit idle with it ajar. If warm air comes back, skip the visit. We’re needed when the burner lights and dies again, or the heat pump can’t keep up and the backup strips stay cold. With a gas smell, touch no switches, get out and phone the gas company from the yard. We test, explain, quote for your approval and recheck the heat.',
       },
       {
-        title: 'Repair or Replace Your Cold Spring Furnace?',
+        title: 'Repair or Replace Your Furnace in Cold Spring?',
         body: 'Look at the furnace or heat pump, not the year on the deed. Many Cold Spring systems went in with houses built after 2000, and a newer unit with a bad igniter, inducer motor or capacitor is usually worth fixing. Equipment that keeps breaking, or needs a major part, should be priced against replacement, and we quote both. A cracked heat exchanger can leak carbon monoxide, so that is a safety call first. When a CO alarm sounds, get everyone outside before you do anything else. An electric bill from Duke Energy Kentucky that climbs in mild weather often points to backup heat running too much.',
       },
     ],

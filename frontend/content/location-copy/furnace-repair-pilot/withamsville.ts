@@ -32,7 +32,7 @@ export const withamsville: LocationServiceCopy = {
         body: 'Check the basics first. Put the thermostat on heat and replace tired batteries. Find the furnace’s power switch and the breaker and make sure both are on, swap out a filthy filter, and push the furnace door until it seats, because plenty of models stay off with it loose. Heat back, no visit needed. Phone us when the blower runs but the air stays cool, a gas furnace tries to light and quits, or the breaker trips again. If you smell gas, leave every switch alone; get out, then ring the gas company. Our technician finds the fault, explains it, prices it for your okay and tests the heat afterward.',
       },
       {
-        title: 'Repair or Replace Your Withamsville Furnace?',
+        title: 'Repair or Replace Your Furnace in Withamsville?',
         body: 'Judge the furnace itself, not the building it’s in. A Withamsville ranch from the 1950s gives no clue to its furnace’s age, so read the date printed on the furnace label. Igniters, flame sensors and heating elements are fair replacements on nearly any unit. A heat exchanger with a crack is a separate matter: it can leak carbon monoxide, which makes it a safety decision first and a money one second. If the CO alarm sounds, get everybody outdoors, then call. A replacement needs the Clermont County permit, and we handle it. A heating bill rising through steady weather usually means longer run times than the house should need.',
       },
     ],

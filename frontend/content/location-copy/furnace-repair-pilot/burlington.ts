@@ -32,7 +32,7 @@ export const burlington: LocationServiceCopy = {
         body: 'Rule out the simple stuff first. Thermostat on heat with good batteries; the breaker and the switch on or near the furnace both on; a fresh filter if the old one is gray; the furnace door pressed tight, since a loose one stops many units. Heat back means you can skip us. Book a visit when the breaker trips a second time, the heat pump runs all day and the rooms stay cool, or a gas furnace lights and quits repeatedly. Gas smell or a beeping CO alarm: everyone out, no switches, call the gas company from the yard. We name the fault and its price before work.',
       },
       {
-        title: 'Repair or Replace Your Burlington Furnace?',
+        title: 'Repair or Replace Your Furnace in Burlington?',
         body: 'Decide on the equipment rather than the house. Burlington homes from the late 1990s might still have the heat pump they were built with, or a third one, so the date plate comes first. Replacing a failed sequencer or blower motor usually pays. A gas furnace with a cracked heat exchanger is another story, since carbon monoxide can get out through it; safety settles that one before money does. We pull the permit on any replacement. Meanwhile, your bill is an early warning: when a heat pump keeps calling on its backup strips, the Duke Energy Kentucky or Owen Electric statement jumps, depending on your street.',
       },
     ],

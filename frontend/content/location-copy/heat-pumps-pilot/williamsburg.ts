@@ -36,7 +36,7 @@ export const williamsburg: LocationServiceCopy = {
         body: 'Some Williamsburg no-heat calls end before the truck leaves. The thermostat may have been nudged off heat. A clogged filter starves the system of air; swap it. Your panel holds a breaker for the outside unit plus a second one feeding the indoor side, and either can trip. Sweep drifted snow and fallen leaves away from the cabinet. A defrost cycle brings a puff of steam, a frosty coil and a silent fan for several minutes, all harmless. When warmth returns, you’re done. When ice never melts or cooling runs in place of heat, phone us, and you approve a price before we touch anything.',
       },
       {
-        title: 'Repair or Replace Your Williamsburg Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Williamsburg?',
         body: 'The heat pump’s age matters, not the house’s. A home from the 1800s can have a heat pump that’s only a few years old, and the label on the outdoor unit gives the date. A worn contactor, capacitor or fan motor on a sound unit gets repaired. When an older unit has a failed compressor or a leak that won’t stay sealed, we price both choices so you can weigh them. Clermont County issues the replacement permit, and we take care of it. A heat pump that’s slipping shows up as a higher electric bill while the backup heat runs longer.',
       },
     ],

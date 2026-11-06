@@ -36,7 +36,7 @@ export const norwood: LocationServiceCopy = {
         body: 'Most no-heat calls start with something you can check. Put the thermostat on heat. Pull the filter and replace it if it’s dirty. Each system has two breakers, outdoor unit and indoor air handler; reset whichever tripped. Clear snow or leaves from your outdoor unit, making sure it’s yours if you share a lot. Steam, light frost and a fan that stops for a few minutes are a normal defrost. If that restores heat, skip the call. Ring us when ice won’t melt, the auxiliary heat light stays on or the system is locked on cooling. We inspect, explain and quote for approval, then test.',
       },
       {
-        title: 'Repair or Replace Your Norwood Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Norwood?',
         body: 'Go by the heat pump, not the century-old house around it. A heat pump installed five years ago in a pre-1940 house is young equipment, and a failed fan motor or contactor on it is a repair. Compressor failure, or a leak that keeps losing refrigerant, is the point where we price replacement and repair together. A heat pump that’s slipping lets the backup strips take over, and the electric bill rises fast. Landlords with several units can plan replacements one at a time instead of all at once. We handle the permit on a replacement, and financing is available.',
       },
     ],

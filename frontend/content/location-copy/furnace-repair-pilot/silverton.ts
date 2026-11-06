@@ -32,7 +32,7 @@ export const silverton: LocationServiceCopy = {
         body: 'Set the thermostat to heat and give it fresh batteries. Look at the light-style switch beside the furnace and the furnace breaker in your panel; neither should be off. Pull the filter, since a gray, matted one makes the furnace overheat and quit. Push the blower door until it seats, because a loose panel keeps most furnaces from starting. Heat back on means you can skip our visit. A gas smell means walk out, touch no switches and call the gas company once you’re outside. For anything else, we find the cause, walk you through it, quote a price you approve, then run a full heating cycle.',
       },
       {
-        title: 'Repair or Replace Your Silverton Furnace?',
+        title: 'Repair or Replace Your Furnace in Silverton?',
         body: 'Go by the furnace, not the 1959 house around it. Its own age and condition matter more. An igniter, blower motor or pressure switch failure on an otherwise sound furnace is a repair. A crack in the heat exchanger can leak carbon monoxide into the rooms, so we turn that furnace off and discuss a new one. Landlords with three- and four-unit buildings get a separate quote for each furnace. Replacements need a Village permit, and we take care of it. On electric heat, a Duke Energy bill that jumps while the weather holds steady points to a system working too hard.',
       },
     ],

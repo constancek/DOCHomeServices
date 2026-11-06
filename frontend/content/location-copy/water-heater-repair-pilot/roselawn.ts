@@ -32,7 +32,7 @@ export const roselawn: LocationServiceCopy = {
         body: 'Before calling about a Roselawn heater, try a few things. Several back-to-back showers drain a small apartment tank fast, so wait. Confirm nobody turned the front dial, that an electric heater’s breaker hasn’t flipped, and that a gas heater’s valve handle sits in line with the pipe. A dark pilot with no gas odor can be relit from the instructions on the sticker. Renters report it regardless. Signs we’re needed: water underneath, orange-tinted hot water, a pilot that won’t hold, scorching near the burner, or an electric unit stuck at lukewarm. We test, explain, quote and recheck after.',
       },
       {
-        title: 'Repair or Replace Your Roselawn Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Roselawn?',
         body: 'Go by the heater’s sticker, not the building’s age. A Roselawn apartment block from 1962 may hold tanks installed years apart, and each one gets judged alone. Gas controls, thermocouples, thermostats, elements, dip tubes, relief valves and anode rods are repairs. A shell leaking through means a new heater. Owners with several units get a line-by-line quote so the work can be scheduled. Tankless fits some closets; we raise it only where the space suits. For replacements we handle the permit, and you never have to visit a city office.',
       },
     ],

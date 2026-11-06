@@ -32,7 +32,7 @@ export const elmwoodPlace: LocationServiceCopy = {
         body: 'Tenants can rule out the cheap causes before anyone is called. Where the lease permits, fit a new filter and make sure the thermostat reads cool. Your unit’s breaker is the last check. Once cold air flows again, you’re done. If it stays warm, or water pools near the indoor unit, tell the landlord, who usually arranges the repair. Owners who call us directly get the same visit: a full inspection, a clear account of what failed, then one flat price, with no work until it’s approved. We confirm the vent air is cold before leaving.',
       },
       {
-        title: 'Repair or Replace Your Elmwood Place AC?',
+        title: 'Repair or Replace Your AC in Elmwood Place?',
         body: 'Most Elmwood Place houses predate 1940, which tells you nothing about the air conditioner bolted on later. The condenser’s label does. A younger system missing one working part is worth the repair. Once an older compressor dies or the indoor coil leaks, new equipment usually makes more sense. Duplex owners should read the other unit’s label too: two systems installed together tend to wear out close together. The replacement permit is ours to handle. Until then, a struggling system costs money every month in extra run time and a bigger electric bill.',
       },
     ],

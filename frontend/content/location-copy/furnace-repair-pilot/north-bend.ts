@@ -32,7 +32,7 @@ export const northBend: LocationServiceCopy = {
         body: 'The first cold morning in October brings us a lot of North Bend furnaces with nothing wrong. Thermostats left on cool from summer, batteries gone flat, a service switch someone bumped while storing boxes, a breaker that tripped, a filter nobody changed since spring, or a front panel set back crooked after a summer check so its safety switch stays open. Sort those out and heat often comes right back, no visit required. Call if the flame lights then dies, or only cold air comes out. Gas smell: hands off switches, everybody outside, phone the gas company from the driveway. We diagnose, price it flat, fix and test.',
       },
       {
-        title: 'Repair or Replace Your North Bend Furnace?',
+        title: 'Repair or Replace Your Furnace in North Bend?',
         body: 'The furnace’s own condition decides. A 2000s North Bend house with its original unit and a 1930s house with last year’s install both earn a repair when an igniter or blower motor quits. A cracked heat exchanger flips the answer, since it can bleed carbon monoxide into bedrooms and kitchens. That’s a safety call first and a money call second, and we shut that furnace off. When the CO alarm sounds, clear the house, then phone from outside. Rising gas bills in steady weather are another sign of a tired furnace. We lay out both prices and pull any permit.',
       },
     ],

@@ -32,7 +32,7 @@ export const withamsville: LocationServiceCopy = {
         body: 'A good share of Withamsville problems clear up with no visit. Pull the filter and swap it if it’s gray. The thermostat should read cool with a setpoint under the room temperature, and a heat pump shouldn’t be sitting on emergency heat. One reset of a tripped breaker is fine. Cold air again means you can save the money. Renters, hand it to the landlord here. We’re worth calling once the breaker pops a second time or the condenser hums with a motionless fan. The technician looks over both halves, names the failed part and prices it flat for your okay, then reads the vent temperature afterward.',
       },
       {
-        title: 'Repair or Replace Your Withamsville AC?',
+        title: 'Repair or Replace Your AC in Withamsville?',
         body: 'Ignore the house’s age and check the condenser’s data plate instead, because many Withamsville homes are on at least their second system. Young equipment with one dead part, say a contactor, deserves the repair. A worn heat pump with a failing compressor, or one that wants refrigerant each June, is cheaper to replace than to keep feeding. In Union Township, Clermont County Building Inspection issues the permit for an HVAC replacement, and we take out that permit on every job. Your Duke Energy Ohio statement tells the story early, since the bill for a tired heat pump climbs in both July and January.',
       },
     ],

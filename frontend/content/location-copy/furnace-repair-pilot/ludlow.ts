@@ -32,7 +32,7 @@ export const ludlow: LocationServiceCopy = {
         body: 'Try five things first. Thermostat on heat, with good batteries? Is the breaker on, and the service switch by the furnace? When did the filter last get changed? Is the front panel seated, since many furnaces stay off while it sits loose? If one of those brings the heat back, you don’t need us. Burners that catch and then die, or a breaker that keeps flipping, are ours. Smell gas? Leave the switches and the furnace alone, walk outside and ring the gas company from there. A carbon monoxide alarm means everybody out first. We find the fault, quote it, and run the heat to prove it.',
       },
       {
-        title: 'Repair or Replace Your Ludlow Furnace?',
+        title: 'Repair or Replace Your Furnace in Ludlow?',
         body: 'Go by the furnace’s age, not the house’s. Plenty of Ludlow’s pre-war homes have a furnace put in only a few winters back, and when one part on that unit fails, fixing it is the sensible money. A tired furnace facing a costly repair gets a replacement quote beside it. A cracked heat exchanger can leak carbon monoxide, so we treat it as a safety problem and never patch one. A new furnace means a permit from Kenton County’s planning office, which we take care of, and the historic district needs a certificate for a new outside vent. Gas bills creeping up in ordinary weather are often the first warning.',
       },
     ],

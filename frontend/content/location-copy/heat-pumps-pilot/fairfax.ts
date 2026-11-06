@@ -32,7 +32,7 @@ export const fairfax: LocationServiceCopy = {
         body: 'A short walk around can save Fairfax owners a service call. First the wall thermostat: heat mode, not cool or off. Then the filter: replace it if matted with dust. Then the electrical panel, where the condenser and the air handler each have their own breaker; reset a tripped one. Out back, pull leaves and snow off the condenser. Vapor drifting up while its fan rests for a few minutes is a defrost cycle. Heat restored? Keep your money. We should come out when the coil stays frozen or the gas furnace won’t fire when it should. Any gas odor: get outside, then call the gas company.',
       },
       {
-        title: 'Repair or Replace Your Fairfax Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Fairfax?',
         body: 'The condenser label answers this better than the house does. Plenty of 1940s Fairfax houses carry a heat pump installed in the last few years, and when a relay sticks or a control wire frays on one of those, we fix it. Leaking refrigerant or a burned-out compressor on a unit with long service behind it is when we hand you a repair figure and a replacement figure together. Dual fuel masks a failing heat pump, since the furnace quietly takes over; a gas bill above last January’s is often the tip-off. Meanwhile that furnace keeps the house warm while you choose.',
       },
     ],

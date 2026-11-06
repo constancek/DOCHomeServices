@@ -32,7 +32,7 @@ export const evendale: LocationServiceCopy = {
         body: 'Try a few things before booking. The thermostat mode needs to show heat. Replace a gray filter. In a dual fuel house the condenser has its own breaker and the furnace has another, and a trip on either stops the heat. Clear leaves and snow from around the condenser. A thin layer of frost, a wisp of vapor and a fan that stops for a few minutes add up to a normal defrost. Warm again? Then we aren’t needed. Call us if the coil stays packed in ice or the fan never turns. Any gas smell by the furnace: everyone out, then call the gas company from the yard.',
       },
       {
-        title: 'Repair or Replace Your Evendale Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Evendale?',
         body: 'Read the date on the condenser label. The median Evendale house was built in 1982, and many have had the heat pump swapped since, so the house’s age is a poor guide. On a young unit, a bad capacitor or fan motor gets fixed. On an aging one, leaking refrigerant or a dead compressor gets a replacement quote written next to the repair quote. Gas backup hides a struggling heat pump: the furnace fires more often and the gas bill climbs while the electric bill barely moves. If Mill Creek water got into the condenser, leave the breaker off until we inspect it.',
       },
     ],

@@ -32,7 +32,7 @@ export const bellevue: LocationServiceCopy = {
         body: 'A few checks cost nothing. A thermostat left on cool or off is the most common reason a Bellevue house goes cold, so make sure it says heat. Put in a fresh filter. Two breakers matter: the unit out back and the furnace inside. Brush snow, ice or blown leaves off the cabinet. Steam, a thin coat of frost and a silent fan for a few minutes mean a defrost cycle is running, not a breakdown. Warm again? Then skip the call. Ring us for ice that never melts off, grinding, or a fan blade that won’t turn. Gas smell by the furnace: get out, then phone Duke Energy Kentucky.',
       },
       {
-        title: 'Repair or Replace Your Bellevue Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Bellevue?',
         body: 'Weigh the heat pump on its own record, since Bellevue’s old houses say little about the equipment bolted to them. A unit put in during a recent remodel with a single worn part, say a contactor or a defrost board, gets fixed. Once refrigerant has leaked out or the compressor has seized on an aging one, we write up what replacement would cost so you can hold it against the repair. Kentucky wants a permit for any heat pump swap, and for Bellevue addresses Campbell County issues it. With dual fuel, a weakening heat pump hands more hours to the furnace, and your gas usage creeps up.',
       },
     ],

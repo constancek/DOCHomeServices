@@ -32,7 +32,7 @@ export const overTheRhine: LocationServiceCopy = {
         body: 'Closet heaters in apartments are small, so two showers back to back can empty one. Wait and it recovers. The temperature dial gets turned when people store things around the tank. Electric heaters can lose their breaker, and gas heaters can have the gas valve shut or the pilot out; relight by the label only when there’s no gas smell. Renters report anything past that to the landlord. We come for a leak at the base, popping or rumbling, rusty water, a pilot that won’t stay lit or scorch marks near the burner. We explain the fault and price it before the repair, then test it.',
       },
       {
-        title: 'Repair or Replace Your Over-the-Rhine Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Over-the-Rhine?',
         body: 'A building from the 1870s can have a heater installed five years ago, so read the tank’s label, not the cornerstone. Elements, thermostats, thermocouples, gas valves, relief valves, anode rods and dip tubes are repairs. A tank leaking from its body is a replacement, and in an upstairs closet that leak can damage the ceiling below, so don’t wait on it. We quote both and you decide. The Department of Buildings & Inspections covers permits in the city, and we pull one where needed. Tankless can work in a tight closet, though it’s rarely the only answer.',
       },
     ],

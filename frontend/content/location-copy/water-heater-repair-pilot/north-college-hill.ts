@@ -32,7 +32,7 @@ export const northCollegeHill: LocationServiceCopy = {
         body: 'Plenty of North College Hill calls end at the first check. A full house of showers drains a tank; it reheats if you wait. A temperature knob gets knocked. Electric units sit on their own breaker, and gas units on a supply valve that has to be open. A pilot that blew out can be lit again by the steps on the jacket, provided nothing smells of gas. Tenants let the landlord know. We’re the next step for water under the tank, discolored or sulfur-smelling water, a relief valve discharging twice, or a pilot that won’t catch. We explain the fault and you approve the price before we start.',
       },
       {
-        title: 'Repair or Replace Your North College Hill Water Heater?',
+        title: 'Repair or Replace Your Water Heater in North College Hill?',
         body: 'In North College Hill the house usually dates from around 1952, but the tank in its basement is a separate question, and its label answers it. On a tank that holds water, we replace what wore out: thermocouple, gas control, element, thermostat, relief valve, anode or dip tube. When the steel shell leaks, no part fixes it, and the heater gets replaced. You get the two prices at once and choose. A building with one shared heater puts that choice with the owner or manager. Any new tank includes the permit.',
       },
     ],

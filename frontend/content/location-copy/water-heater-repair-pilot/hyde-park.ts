@@ -32,7 +32,7 @@ export const hydePark: LocationServiceCopy = {
         body: 'A few checks first. Houseguests, a long bath and a load of whites can empty a tank, and the fix is patience. See that nobody turned the temperature dial down. A tripped breaker knocks out an electric heater completely. On gas, the supply valve should be open and the pilot burning; relight following the label, never with gas in the air. Once those check out, book us for water on the floor, rusty or sulfur-smelling hot water, a pilot that dies again, or black scorch marks near the burner. We find the cause and quote it before any repair.',
       },
       {
-        title: 'Repair or Replace Your Hyde Park Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Hyde Park?',
         body: 'Go by the date on the heater. Plenty of Hyde Park houses went up before 1940, and the tank in the basement has usually been changed more than once since. On a tank that holds water, a new thermocouple, gas valve, element, thermostat, dip tube or relief valve is money well spent. A tank weeping from its body is done, and replacement is the fix. We quote both, and you choose. On a replacement we check that the shutoff valve and gas line suit the new heater, and we pull the permit where one is needed.',
       },
     ],

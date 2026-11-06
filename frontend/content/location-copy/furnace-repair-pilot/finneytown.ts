@@ -32,7 +32,7 @@ export const finneytown: LocationServiceCopy = {
         body: 'Plenty of no-heat calls in Finneytown end at the thermostat. Set it to heat, raise it a few degrees and swap the batteries. Check that the furnace switch, which often looks like a light switch on a wall or joist, is on, and the breaker too. Check the filter and press the blower door firmly shut. If heat comes back, you don’t need us. If you smell gas, leave every switch alone, relight nothing, get out and phone the gas company from the driveway. Call us when the burners light and drop out, or the furnace blows cold. We test it and work only once you’ve approved the price.',
       },
       {
-        title: 'Repair or Replace Your Finneytown Furnace?',
+        title: 'Repair or Replace Your Furnace in Finneytown?',
         body: 'Read the label on the furnace, not the deed. A 1950s Finneytown house may be on its third furnace, and a newer one with a bad inducer motor or control board is usually worth repairing. If we find a cracked heat exchanger, the furnace stays off, because that crack can let carbon monoxide into the house, and replacement is the safe answer. We’ll also tell you if undersized ductwork is shortening the furnace’s life. Before it fails outright, a struggling furnace shows up as higher gas bills and longer run times in ordinary weather. Replacements need a permit, and we file it.',
       },
     ],

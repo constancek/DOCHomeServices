@@ -32,7 +32,7 @@ export const newRichmond: LocationServiceCopy = {
         body: 'In an all-electric New Richmond house, the breaker panel is the first stop: heating elements pull hard, and a tripped breaker looks exactly like a dead furnace. Then confirm the thermostat reads heat and has live batteries, the service switch by the unit is up, the filter isn’t matted, and the access panel is pushed home so its safety switch closes. Heat back on means you can skip our visit. A breaker that trips again, or a hot burning odor that lingers, means call. Gas homes: smell gas, touch no switches and relight nothing, walk out, then phone the gas company. We test, explain, price, then recheck the heat.',
       },
       {
-        title: 'Repair or Replace Your New Richmond Furnace?',
+        title: 'Repair or Replace Your Furnace in New Richmond?',
         body: 'Ask how old the furnace is, since the house year tells you little here. For an electric unit, one dead element, a bad sequencer or a tired blower motor is normally a sensible fix. For gas, a crack in the heat exchanger settles it: that crack can leak carbon monoxide, so we advise a new furnace rather than a patch. When the CO alarm goes off, get everybody out of the house, and only then pick up the phone. In the village, Clermont County Building Inspection issues the replacement permit, and we file for it. A rising electric bill in normal weather is often the earliest warning.',
       },
     ],

@@ -32,7 +32,7 @@ export const groesbeck: LocationServiceCopy = {
         body: 'A Groesbeck owner can rule out the easy stuff first. The thermostat has to say heat; cool or off won’t warm anything. Hold the filter up to a light, and if you can’t see through it, swap it. Look in the panel for two breakers, one feeding the outside unit and one feeding the air handler, both on. Sweep snow or leaves off the condenser. In defrost, a little steam, thin frost and a quiet fan for a few minutes are expected. Warm air coming back means you’re set. Ice that won’t melt, an auxiliary light that never goes out, or grinding outside is ours. Renters, go to management first.',
       },
       {
-        title: 'Repair or Replace Your Groesbeck Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Groesbeck?',
         body: 'Look at the equipment, not the year on the deed. A Groesbeck house from the 1950s may carry a heat pump installed last decade, and a home built after 2000 may still run its original one. Swapping a capacitor, contactor or fan motor on an otherwise healthy system is plainly a repair. Once we find leaking refrigerant or a compressor that won’t start, we write up both numbers, fix and replace, on one sheet. A Duke Energy Ohio bill that spikes in a normal winter month usually means the strips have taken over. Financing is available if you replace.',
       },
     ],

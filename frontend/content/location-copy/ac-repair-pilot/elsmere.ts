@@ -32,7 +32,7 @@ export const elsmere: LocationServiceCopy = {
         body: 'Plenty of Elsmere no-cooling problems end with a new filter or a thermostat moved from heat back to cool. Try both, and flip a tripped breaker back on one time. In a mobile home, feel each register; one blowing weak while the rest are strong often means a loose duct underneath, and that is a repair. If every room cools again, there’s no need to book. Call us if the breaker won’t hold, or if frost builds on the copper lines outside. You see what we found, hear a fixed price, and decide before any repair. Afterward we show you the colder air coming out of a vent.',
       },
       {
-        title: 'Repair or Replace Your Elsmere AC?',
+        title: 'Repair or Replace Your AC in Elsmere?',
         body: 'The condenser’s nameplate tells you more than the house does. A 1970 Elsmere house has almost certainly had its air conditioner swapped already, and one built after 2000 may still be on its first. Equipment that’s healthy apart from one failed part deserves the repair. A worn compressor, or refrigerant that escapes again after a leak fix, usually tips it toward replacement, and with a heat pump you’re choosing your winter heat too. Kentucky requires a permit for the swap, issued in Elsmere by Planning and Development Services of Kenton County; we file it. Bigger electric bills often signal a unit that’s low on refrigerant and running longer.',
       },
     ],

@@ -36,7 +36,7 @@ export const terracePark: LocationServiceCopy = {
         body: 'The thermostat must be in heat mode; cool or off does nothing in January. A clogged filter starves the coil of air, so slide in a new one. Look in the panel for the condenser breaker and the air handler breaker and flip back any that tripped. Pull wet leaves and snow off the outside cabinet. Brief frost, a plume of vapor and a silent fan for a few minutes mean defrost is running. If heat comes back, no visit is needed. Ice that thickens instead of melting, or an auxiliary heat lamp glowing all afternoon, is our cue. We quote before any repair.',
       },
       {
-        title: 'Repair or Replace Your Terrace Park Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Terrace Park?',
         body: 'Judge the heat pump on its own record. The house may date from the 1940s while the outdoor unit went in a few years ago, and a worn contactor or a bad defrost sensor on a unit like that is a repair. A failed compressor, or a refrigerant leak that keeps coming back, is when we price a replacement beside the repair. With dual fuel, a rising gas bill in mild weather often means the heat pump stopped doing its share. We handle the permit for any replacement.',
       },
     ],

@@ -32,7 +32,7 @@ export const edgewood: LocationServiceCopy = {
         body: 'Put the thermostat in heat mode with new batteries, look for a tripped breaker, and find the furnace power switch, which looks like an ordinary light switch on a wall or joist nearby. Swap a gray, clogged filter and seat the blower door firmly; most units stay dead while it sits loose. If the heat returns, you don’t need us. Phone us if the breaker trips again, the igniter clicks with no flame, or the vents blow cold. Smell gas? Leave every switch alone, get outside, and ring the gas company from the yard. Our technician finds the cause, quotes it, then retests.',
       },
       {
-        title: 'Repair or Replace Your Edgewood Furnace?',
+        title: 'Repair or Replace Your Furnace in Edgewood?',
         body: 'Read the furnace’s data plate, not the deed. Plenty of 1970s Edgewood houses are on their second or third furnace, and a dead igniter, capacitor or circuit board in an otherwise healthy cabinet is money well spent. A cracked heat exchanger is another story. That crack can push carbon monoxide into living space, so we keep the gas shut and quote a new unit, along with the county permit we pull for you. All-electric owners should study the winter bill. When backup heat strips run much more than a year ago, a failed part upstream is usually the reason.',
       },
     ],

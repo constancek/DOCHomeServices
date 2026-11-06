@@ -32,7 +32,7 @@ export const erlanger: LocationServiceCopy = {
         body: 'Before calling, take two minutes in the garage or basement. After a day of laundry and baths, an Erlanger tank sized for a smaller household just needs to catch up. Kids and storage bins have a way of turning dials. Electric heaters lose power when their double breaker trips. Gas heaters stop when the supply handle sits crosswise, or when the pilot blows out; if nothing smells off, the relighting steps are on the heater’s label. Hot water returning means skip the visit. A damp floor, brown or sulfur-smelling water, a pilot that won’t hold or scorching at the burner means book one. We diagnose and price first.',
       },
       {
-        title: 'Repair or Replace Your Erlanger Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Erlanger?',
         body: 'Judge by the heater, not the house. A 1976 house in Erlanger can be on a much younger tank, and its label says when it went in. Thermocouples, control valves, elements, thermostats, relief valves, anodes and dip tubes are fixable on steel that still holds water. A tank weeping through its body needs replacing. We quote both options where both make sense, and you decide. Kentucky inspects plumbing at the state level, so we pull the permit where one is needed. If you want a tankless price for comparison, we’ll include one.',
       },
     ],

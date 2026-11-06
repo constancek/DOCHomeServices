@@ -32,7 +32,7 @@ export const dillonvale: LocationServiceCopy = {
         body: 'Look at the thermostat mode first; cool or off makes a working system seem dead. Replace a clogged filter. Check two breakers, outdoor unit and indoor air handler; reset either one if it flipped. Shovel snow and rake leaves back from the condenser. Puffs of steam, a light frosting and a fan that rests a few minutes come from defrost, which is normal. If heat is back after that, skip the call. If ice sits on the coil for hours, the fan stays still or you hear grinding, we will find it, quote it and test the fix.',
       },
       {
-        title: 'Repair or Replace Your Dillonvale Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Dillonvale?',
         body: 'Look at the heat pump, not the 1950s house. A Dillonvale heat pump may be far younger than the walls around it, and a bad contactor, capacitor or defrost control on a newer one is a repair. Refrigerant leaks and compressor failures are the expensive calls, and on an aging unit we price the repair and a replacement together. In a dual fuel home, a heat pump that gives up early shows up as a gas bill that rises more than the weather explains. Financing is available for replacements.',
       },
     ],

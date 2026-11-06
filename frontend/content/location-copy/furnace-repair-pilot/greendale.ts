@@ -32,7 +32,7 @@ export const greendale: LocationServiceCopy = {
         body: 'Five minutes of checking can save a Greendale service call. Thermostat on heat, new batteries in it. Furnace switch on, breaker not tripped, filter not clogged. Then push the furnace door in hard, since a lot of furnaces sit dead behind a safety switch until that panel seats. If heat returns, cancel the visit. A gas smell changes everything: leave switches alone, try no relighting, walk out and ring the gas company from the yard. If none of the checks helps, our technician tracks down the fault, explains it in plain words, sets a flat price you approve, then runs the furnace through a cycle before leaving.',
       },
       {
-        title: 'Repair or Replace Your Greendale Furnace?',
+        title: 'Repair or Replace Your Furnace in Greendale?',
         body: 'A mid-century Greendale house can hold a furnace from any decade, so the house’s age says little. Read the date on the furnace label. On a fairly young unit, a worn igniter or weak inducer motor gets repaired. A crack in the heat exchanger is a carbon monoxide risk first and a money question second, and if the CO alarm sounds, everybody outside straight away. We pull the permit on any replacement. Before deciding anything, line up this winter’s gas bills against last winter’s. A jump in an ordinary winter often traces back to a furnace fault.',
       },
     ],

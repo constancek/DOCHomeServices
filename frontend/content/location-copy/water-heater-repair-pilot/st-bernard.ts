@@ -36,7 +36,7 @@ export const stBernard: LocationServiceCopy = {
         body: 'In a St. Bernard double, first make sure you’re looking at your own heater. Then check the easy things. Showers one after another drain a tank; give it time. See that the dial hasn’t been turned down, the breaker for an electric heater is on, and the gas cock is open. If a gas pilot is out and nothing smells of gas, relight it using the sticker. We’re needed when water collects under the tank, hot water comes out orange or smells of rotten eggs, the relief valve discharges again, or the pilot won’t hold. We diagnose, quote and test.',
       },
       {
-        title: 'Repair or Replace Your St. Bernard Water Heater?',
+        title: 'Repair or Replace Your Water Heater in St. Bernard?',
         body: 'Judge the water heater by its own sticker, not by the 1955 house. Anode rods, thermostats, gas controls, dip tubes, thermocouples, elements and relief valves can all be swapped. A tank leaking through its shell is finished. A heater that sat in floodwater depends on what got wet, and we’ll say so straight. In St. Bernard doubles, the two tanks seldom share an age, so each gets its own price. Tankless fits some basements, though we won’t push it. Repair and replacement go on the quote together, and you choose.',
       },
     ],

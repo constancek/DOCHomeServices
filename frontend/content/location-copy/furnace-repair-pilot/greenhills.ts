@@ -32,7 +32,7 @@ export const greenhills: LocationServiceCopy = {
         body: 'Plenty of Greenhills no-heat calls turn out to be simple. Set the thermostat to heat and higher than the room, and change its batteries if the display is dim. The furnace has a power switch like a light switch; make sure it’s up and that nothing tripped at the panel. If your furnace lives in the crawl space, its filter is the one nobody remembers, so pull it and look. Close the access cover firmly, since a loose cover stops the furnace on purpose. Warm air again means you can skip us. A gas smell changes everything: no switches, no relighting, get out and phone the gas company.',
       },
       {
-        title: 'Repair or Replace Your Greenhills Furnace?',
+        title: 'Repair or Replace Your Furnace in Greenhills?',
         body: 'The house’s age won’t settle this, because a 1950s Greenhills home has likely had more than one furnace. Check the unit’s own date. On a younger furnace, a new blower motor or pressure switch is a fair repair. A crack in the heat exchanger is not; it can let carbon monoxide into living space, and if the CO alarm sounds, get everybody out before you phone anyone. A replacement here requires a village building permit, which we pull, and in a crawl space the new unit has to fit, so we measure before quoting. Watch for gas bills creeping up in an ordinary winter.',
       },
     ],

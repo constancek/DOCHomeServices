@@ -36,7 +36,7 @@ export const southLebanon: LocationServiceCopy = {
         body: 'South Lebanon owners can rule out the simple causes first. The thermostat should be on heat, and on a newer smart thermostat, make sure a schedule hasn’t turned the system off. A gray filter gets swapped. The panel has a breaker for the outside cabinet and another for the air handler; flip back the tripped one. Shovel snow away from the outside unit. Steam, a skin of frost and a fan that pauses briefly are a defrost cycle. Once the house warms up, the visit can wait. An outdoor fan that won’t turn or an emergency heat light that won’t go out needs a visit. We price before we repair.',
       },
       {
-        title: 'Repair or Replace Your South Lebanon Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in South Lebanon?',
         body: 'Look at the heat pump’s age and condition, not the house’s. Many South Lebanon houses date from the 2000s and may still run their first heat pump, and a failed capacitor or contactor on that is a normal repair. A dead compressor or a refrigerant leak that returns after a recharge is the point where we put a replacement price beside the repair price. We handle the permit. If your electric bill jumps while the weather holds steady, the backup heat strips are probably covering for a heat pump that has lost capacity.',
       },
     ],

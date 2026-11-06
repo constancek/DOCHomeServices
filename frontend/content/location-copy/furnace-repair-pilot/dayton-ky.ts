@@ -32,7 +32,7 @@ export const daytonKy: LocationServiceCopy = {
         body: 'Plenty of Dayton no-heat calls end before we arrive, because the fix was simple. Make sure the thermostat reads heat and the batteries work. Check the furnace’s own power switch, then the breaker. Pull the filter and look at it. Push the furnace door shut until it seats, since lots of furnaces refuse to start with it ajar. Solved? Then skip the call. Renters, go to your landlord before anyone else. We’re the next step when heat stays off, the furnace keeps cycling, or burners bang on ignition. Any gas smell means no switches: get outside and phone the gas company there. Testing, explanation and price all come before work.',
       },
       {
-        title: 'Repair or Replace Your Dayton Furnace?',
+        title: 'Repair or Replace Your Furnace in Dayton?',
         body: 'Size up the furnace, not the house around it. Many pre-1940 Dayton houses have a fairly recent furnace, and a failed igniter, pressure switch or blower on that one is a sensible repair. An older furnace at the end of its run that needs a major part is tougher. A cracked heat exchanger leaves no doubt: carbon monoxide can seep into the house through it, so we advise replacing. When a CO alarm sounds, getting everyone outside comes first. Until then, your gas bill is a good warning. Long burner cycles that never quite warm the rooms show up on it before you feel a difference.',
       },
     ],

@@ -32,7 +32,7 @@ export const loveland: LocationServiceCopy = {
         body: 'Rule out the easy causes first. Thermostat: heat mode, working batteries. Panel: furnace breaker up, and the furnace’s own switch on too. Swap a filter that’s gone gray, and seat the furnace door until it latches, since plenty of models won’t fire with it ajar. Heat restored means no visit. If the unit cuts off partway through each cycle or keeps tripping its breaker, book us. With any whiff of gas, use no switch, don’t relight, walk out to the street and ring the gas company. When the CO detector sounds, clear the house first. We diagnose, price it for your okay and test the heat.',
       },
       {
-        title: 'Repair or Replace Your Loveland Furnace?',
+        title: 'Repair or Replace Your Furnace in Loveland?',
         body: 'Let the furnace decide, not the house. Plenty of Loveland homes date from the 1980s and 1990s, yet the furnace may have been changed since, so we read the label instead of guessing. One bad part on a healthy furnace usually means repair. A cracked heat exchanger can let carbon monoxide into the rooms, so we won’t patch it. If floodwater reached the furnace in a low part of town, keep it off until we’ve looked. Inside city limits, Building and Zoning issues replacement permits. Watch for a gas bill climbing through an ordinary winter; that often means the furnace runs long.',
       },
     ],

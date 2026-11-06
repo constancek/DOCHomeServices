@@ -32,7 +32,7 @@ export const wyoming: LocationServiceCopy = {
         body: 'Plenty of Wyoming calls end on the phone. A morning of showers one after another drains a basement tank, and it needs time to recover. A dial bumped while someone moved boxes, a gas cock turned sideways, or a pilot snuffed by a draft can all look like a broken heater. With no gas odor, follow the lighting steps printed on the tank. Book us when water collects on the slab, the hot side runs brown or smells of sulfur, the tank pops and rumbles, or the pilot quits within a day. We test, explain, price it for your okay and run the taps after.',
       },
       {
-        title: 'Repair or Replace Your Wyoming Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Wyoming?',
         body: 'Look at the data label on the tank, not the house. A 1950s ranch in the Wyoming Hills can be running a heater installed last year. Thermocouples, gas valves, relief valves, anode rods and dip tubes all come out and go back in on a tank that holds water. A shell that weeps from its seams is past fixing. When either route works, you get two prices on one sheet and pick. Plumbing permits here come from Hamilton County Public Health, and we file one with every replacement. Ask about tankless and we’ll price it; we won’t push it.',
       },
     ],

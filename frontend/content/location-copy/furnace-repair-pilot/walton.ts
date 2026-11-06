@@ -32,7 +32,7 @@ export const walton: LocationServiceCopy = {
         body: 'Check these before you book a visit. The thermostat should be on heat with batteries that aren’t dead. The switch at the furnace should be on, the breaker should be set, and the filter should be clean. Close the furnace door firmly, because most units stay off while it’s loose. If that restores heat, you don’t need us. Call when the breaker trips again, the air stays cool or the furnace makes a new noise. If you smell gas, leave without touching switches and call the gas company once you’re outside. Our technician tests the system, explains it, gets your price approved and runs a heating cycle after.',
       },
       {
-        title: 'Repair or Replace Your Walton Furnace?',
+        title: 'Repair or Replace Your Furnace in Walton?',
         body: 'Decide by the furnace, not the street. A house near Main Street from the 1920s can have a recent furnace, and a subdivision home from 2005 may still have its original one. A failed element, igniter or blower motor is a repair either way. A cracked heat exchanger in a gas furnace is a carbon monoxide hazard, so we turn it off and recommend replacing it, permit handled. In all-electric homes, ask us to check whether backup heat is running more than it should, because that is the quiet failure that shows up on the bill before the house feels cold.',
       },
     ],

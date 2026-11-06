@@ -32,7 +32,7 @@ export const mason: LocationServiceCopy = {
         body: 'Some Mason problems take you a few minutes. Swap a dirty filter and replace weak thermostat batteries. A tripped breaker deserves one reset. If the house starts cooling again and keeps cooling, skip the service call. Phone us when that breaker flips a second time, or the outdoor unit buzzes but its fan won’t spin, often a tired capacitor on original equipment. Frost forming on the larger refrigerant pipe also needs a visit. We look over the condenser and the coil indoors and walk you through the fault. Nothing gets fixed until you sign off on a flat-rate figure, and afterward we read the supply temperature at a register.',
       },
       {
-        title: 'Repair or Replace Your Mason AC?',
+        title: 'Repair or Replace Your AC in Mason?',
         body: 'Read the date on the outdoor unit, not the year the house was finished. Lots of 1990s Mason houses are already on their second condenser, and a newer one like that is worth fixing when a capacitor or contactor quits. Original builder equipment with a seized compressor or a coil that leaks is a better candidate for replacement, since more big failures usually come close behind. Mason requires a city permit for the swap, which we take care of. Until then, set this July’s Duke Energy Ohio bill next to last July’s. Equipment short on refrigerant runs longer for the same comfort, and the bill climbs first.',
       },
     ],

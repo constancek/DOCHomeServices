@@ -32,7 +32,7 @@ export const hartwell: LocationServiceCopy = {
         body: 'A Hartwell tenant needs no tools here. Set the thermostat to heat. If the filter is yours to change, fit a clean one. In your unit’s breaker box, look for the air handler circuit and the outdoor unit circuit. A puff of steam, some light frost and a fan that goes still for a minute or two are defrost, not damage. Warm air again means nothing’s broken. Still cold? Let the landlord know in writing. Owners and managers, call us when the outdoor coil stays iced, the emergency heat light is on, or the outside fan won’t spin. We inspect, explain what failed and price it before any work.',
       },
       {
-        title: 'Repair or Replace Your Hartwell Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Hartwell?',
         body: 'Judge each heat pump on its own. In a Hartwell apartment building, units installed in different years sit side by side, so we read the label on the one that failed. A failed contactor, fan motor or defrost board on a sound unit is a repair. A refrigerant leak or a compressor failure is where we give the owner both prices. For tenants, the Duke Energy bill is often the first warning: a big jump in an ordinary winter month means the backup strips are doing the heating. Financing is available for owners replacing several units.',
       },
     ],

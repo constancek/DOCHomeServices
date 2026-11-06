@@ -36,7 +36,7 @@ export const riverside: LocationServiceCopy = {
         body: 'Several checks cost nothing. Switch the thermostat to heat; cool and off won’t warm anything. Slide out the filter and replace it if it’s caked. Two breakers matter, one feeding the outdoor unit and one the closet air handler, and each gets a single reset. Keep the outdoor unit clear of snow and leaves. Steam, light frost and a fan that stops for a short stretch are defrost doing its job. If warm air returns, you don’t need us. A coil that stays frozen, an emergency heat light that won’t go out, or an outdoor fan that won’t turn means we should look. Apartment tenants go through the manager.',
       },
       {
-        title: 'Repair or Replace Your Riverside Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Riverside?',
         body: 'Judge the heat pump, not the building. A Riverside apartment from the 1970s may have had its heat pump swapped, so check its label. When a capacitor, contactor or fan motor quits on a unit that’s otherwise healthy, we replace that part. When an older heat pump’s compressor dies or its refrigerant leak keeps returning, you get a replacement quote beside the repair quote. If river water reached the equipment, damage decides more than age does. The city issues the mechanical permit on a replacement and we file it. A rise on the Duke Energy bill with no cold snap means the backup strips are heating the place.',
       },
     ],

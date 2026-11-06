@@ -32,7 +32,7 @@ export const madisonville: LocationServiceCopy = {
         body: 'Try these in a Madisonville home before calling. A run of showers empties the tank; give it time. Look for a dial someone lowered. Electric heaters stop cold when a breaker trips, and gas heaters when the supply valve is shut or the pilot has gone out; relight the pilot from the label instructions only if there’s no gas odor. Call us about pooling water, char marks near the burner, a pilot that dies over and over, or hot water with a rotten-egg smell. Tenants go through the landlord. Owners approve a flat price before we touch it.',
       },
       {
-        title: 'Repair or Replace Your Madisonville Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Madisonville?',
         body: 'Read the rating plate on the water heater rather than guessing from the building. A Madisonville house from before 1940 may hold a recent tank, and a complex finished after 2000 can already have one that’s rusted through. Gas valves, thermocouples, elements, thermostats and a snapped dip tube are fixable. A shell that leaks isn’t, so that tank gets replaced. You’ll see both prices and decide. For any replacement we pull the permit where one is needed, after confirming your address sits inside the city.',
       },
     ],

@@ -36,7 +36,7 @@ export const madeira: LocationServiceCopy = {
         body: 'Some problems need only a minute of your time. If the thermostat got switched to cool or off, set it back to heat. Swap a dusty filter for a new one. Each half of the system has its own breaker, outdoor unit and air handler, so look for one that has tripped. Clear leaves or snow off the outdoor unit. Frost that melts off with a puff of steam, and a fan that rests while it does, is normal defrost. If that sorts it, no visit is needed. We should come for ice that won’t melt, loud grinding, or a furnace doing all the heating. We test after every repair.',
       },
       {
-        title: 'Repair or Replace Your Madeira Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Madeira?',
         body: 'The heat pump’s own age and condition decide it, not the year the house was built. Many Madeira heat pumps are far younger than the houses they serve, so a failed capacitor or fan motor on one of them is a simple repair. A compressor that won’t start, or a refrigerant leak that comes back, is the point to price replacement alongside the repair. In a dual fuel home a weak heat pump shows up as a bigger gas bill, because the furnace is covering for it. We handle the city permit when a heat pump is replaced.',
       },
     ],

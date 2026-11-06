@@ -32,7 +32,7 @@ export const cherryGrove: LocationServiceCopy = {
         body: '91.4% of Cherry Grove homes are owner-occupied, so you’re the one doing the first look. Read the thermostat; a heat pump set to cool or off simply won’t warm the house. A filter clogged gray chokes the air handler, so change it. Find the two breakers in the panel, the outdoor unit’s and the air handler’s, and flip back a tripped one once. Rake leaves and snow away from the outdoor coil. Steam, frost and a fan resting for a few minutes are defrost. If the warmth returns, cancel the call. We’re needed for ice that never clears or an auxiliary light that stays lit, and we quote before working.',
       },
       {
-        title: 'Repair or Replace Your Cherry Grove Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Cherry Grove?',
         body: 'Read the data plate on the outdoor unit before you read the house. A Cherry Grove house from the 1960s can have a heat pump fitted a few years ago, and on that unit a scorched contactor or a fan motor that won’t spin is worth fixing. An older heat pump with a compressor that has quit, or refrigerant that leaks out again after a recharge, is where we quote replacement beside repair. All-electric homes give an early warning: a Duke Energy bill that climbs in a mild month means the strips are carrying the load. Any permit a replacement needs, we handle.',
       },
     ],

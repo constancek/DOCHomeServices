@@ -32,7 +32,7 @@ export const cuf: LocationServiceCopy = {
         body: 'A tenant can check most of the easy causes without tools. If the lease allows, swap a clogged filter, then lower the cooling setpoint well under the room temperature and flip the AC breaker fully off and back on. Cold air within the hour means you’re finished. If the rooms stay warm, write to the owner or building office rather than hiring someone yourself, because the owner normally chooses the contractor. A still outdoor fan or frost on the thicker refrigerant pipe needs a technician. Ours checks both halves of the system, tells tenant and owner what broke, and gets a flat-rate price approved before starting.',
       },
       {
-        title: 'Repair or Replace Your CUF AC?',
+        title: 'Repair or Replace Your AC in CUF?',
         body: 'The equipment label matters more than the building’s age, since a 1930s Fairview house can have a recent condenser. If the unit has fewer than ten summers behind it and only a capacitor or fan motor quit, fix it. Once it’s into its teens and the compressor goes, a new system is usually the smarter money, and Cincinnati’s Buildings & Inspections office issues the mechanical permit for it. Hillside lots add one more check, since a pad that has shifted strains the refrigerant lines. Neglect costs too: grime on the outdoor fins or a pinhole leak stretches each cycle, and landlords pay for that on the Duke Energy Ohio statement.',
       },
     ],

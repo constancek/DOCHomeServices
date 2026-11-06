@@ -32,7 +32,7 @@ export const amelia: LocationServiceCopy = {
         body: 'Before you book anything in Amelia, run through this. The thermostat belongs on heat; on cool or off it will never warm the rooms. A grimy filter gets replaced. The system has a breaker for the outside unit and another for the air handler indoors, and both need to be on. Sweep snow or leaves away from the outside cabinet. Steam rising off it while the fan sits idle for a few minutes is the defrost cycle at work. If heat comes back, skip the call, though renters should still tell the landlord. Phone us when the emergency heat light stays lit or the system won’t leave cooling mode.',
       },
       {
-        title: 'Repair or Replace Your Amelia Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Amelia?',
         body: 'Judge the equipment, not the age of the house. Much of the equipment in Amelia went in after 2000, and a burned contactor or worn fan motor on a unit that young is a fix. An older unit with a leaking line or a compressor that has quit gets a replacement price written next to the repair price. A Duke Energy bill that jumps in a mild month usually means the backup strips are doing the heating. In a mobile home we also look at the ducts under the floor, since a torn duct can pass for a weak heat pump.',
       },
     ],

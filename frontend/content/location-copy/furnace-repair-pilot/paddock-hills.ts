@@ -32,7 +32,7 @@ export const paddockHills: LocationServiceCopy = {
         body: 'Try the quick fixes in a Paddock Hills house or apartment first. The thermostat belongs on heat, with batteries that work. The switch on or beside the furnace should be up, the breaker set, the filter clean. Push the furnace door closed too, because plenty of furnaces sit idle with it ajar. Got heat back? Then skip the service call. We are worth calling when an electric furnace breaker trips a second time, a gas furnace shuts down after lighting, or the blower pushes cold air. We test, explain the fault, get your yes on a flat price, then run a full heat cycle.',
       },
       {
-        title: 'Repair or Replace Your Paddock Hills Furnace?',
+        title: 'Repair or Replace Your Furnace in Paddock Hills?',
         body: 'Look at the furnace, not the building. A Dutch Colonial from the 1920s may have a furnace installed a few winters ago, and fixing its igniter or blower motor is money well spent. An older gas furnace with a cracked heat exchanger is another story: the crack can let carbon monoxide into the rooms, so we won’t patch it, and we will tell you plainly. Apartment electric furnaces mostly come down to elements and controls, which repair well. If replacing is the right move, we file with the city’s Department of Buildings & Inspections before the old unit goes.',
       },
     ],

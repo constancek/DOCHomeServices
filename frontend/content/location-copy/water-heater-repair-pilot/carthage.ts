@@ -32,7 +32,7 @@ export const carthage: LocationServiceCopy = {
         body: 'Run through this list in your Carthage basement before you book. Showers one after another can empty a tank; give it a while. A dial knocked lower, a breaker tripped on an electric unit or a gas knob turned off will each stop hot water, and none costs a thing to fix. If the pilot is dark and the basement smells clean, the sticker explains relighting. Book us when water spreads under the tank, the hot side smells sulfurous or comes out orange, the relief valve keeps spitting, or soot and scorch marks show at the burner door. We diagnose, quote, fix with your say-so and test.',
       },
       {
-        title: 'Repair or Replace Your Carthage Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Carthage?',
         body: 'Read the heater’s sticker; the 1920s date on the house is beside the point. Lots of old Carthage homes have tanks installed in the last ten years, and a dead thermocouple, element or gas control on one of those deserves a repair. Once the shell itself leaks, only a replacement works. In these older basements we also quote fixing the flue and swapping a seized valve, since those decide whether a new heater goes in properly. Both prices are written out, and the call is yours to make.',
       },
     ],

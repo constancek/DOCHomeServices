@@ -32,7 +32,7 @@ export const lincolnHeights: LocationServiceCopy = {
         body: 'Tenants and owners in Lincoln Heights can rule out the easy causes together. The thermostat has to say heat. A filter caked with dust gets replaced. Two breakers feed the system, outdoor unit and indoor air handler, and a tripped one gets reset. Snow and leaves come away from the outside cabinet. Defrost is normal: a little steam, light frost, the fan quiet for a moment. Once warmth returns, no repair is needed. When the coil stays frozen, the emergency heat light won’t switch off or the outside fan stays still, tenants report it and owners call us. We diagnose, and the owner signs off on the price.',
       },
       {
-        title: 'Repair or Replace Your Lincoln Heights Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Lincoln Heights?',
         body: 'This part is for owners. Judge each heat pump by its own label, because in a building from the 1970s one apartment’s unit may be original and the next one nearly new. A bad capacitor or contactor on a younger unit is a fix. When an old unit leaks refrigerant or loses its compressor, you get two written prices, repair and replacement. In all-electric apartments, a failing heat pump hands the work to the strip heaters and the power bill rises; where tenants pay the electric, they usually spot it before anyone else.',
       },
     ],

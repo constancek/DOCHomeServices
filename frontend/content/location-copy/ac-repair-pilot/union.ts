@@ -32,7 +32,7 @@ export const union: LocationServiceCopy = {
         body: 'Not every Union call needs a technician. A new filter often clears up weak airflow, and a thermostat with dead batteries can pass for a broken AC. Reset a tripped breaker once. If cold air comes back, cancel the appointment. Phone us when the condenser buzzes while its fan stays put, or water keeps collecting near the indoor unit. On the visit we look over the indoor and outdoor equipment, walk you through the finding, and quote a price you accept before work starts. Afterward we fire it up and compare the supply air temperature with you.',
       },
       {
-        title: 'Repair or Replace Your Union AC?',
+        title: 'Repair or Replace Your AC in Union?',
         body: 'Union homes and their equipment are frequently the same age, though the data plate on the condenser is the place to confirm it. A mid-2000s system with one worn component, a fan motor perhaps, deserves a repair, more so when warranty pays for the part. When the compressor dies on an original early-2000s unit, replacing it starts to win. Union replacements need a Boone County Building Department permit, which we pull for you. A system losing ground generally shows it on the electric bill long before it stops cooling.',
       },
     ],

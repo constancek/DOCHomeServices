@@ -32,7 +32,7 @@ export const eastWalnutHills: LocationServiceCopy = {
         body: 'A few checks can save you the visit. The thermostat should say heat and have working batteries. The breaker and the furnace’s own power switch should both be on, and a filter you can’t see light through needs changing. Make sure the blower door is shut tight, since a loose one stops most furnaces. If those don’t help, or the breaker trips again, we’ll come out. A gas smell means leave the house, touch no switches, and call the gas company from outdoors. A carbon monoxide alarm means everyone out, then call. On a visit we diagnose, explain, price, and test afterward.',
       },
       {
-        title: 'Repair or Replace Your East Walnut Hills Furnace?',
+        title: 'Repair or Replace Your Furnace in East Walnut Hills?',
         body: 'Base it on the furnace. A grand 1900s house might have a furnace only a few years old, and a cracked igniter or failed pressure switch on it should be repaired. A gas furnace with a cracked heat exchanger needs replacing, because that crack can send carbon monoxide into the living space. A replacement inside the city takes a permit from the City of Cincinnati Department of Buildings & Inspections, which we handle. Before a breakdown, the bill often tells you: if your Duke Energy Ohio charges climb in a mild month, the furnace is working harder than it should.',
       },
     ],

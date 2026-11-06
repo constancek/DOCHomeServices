@@ -32,7 +32,7 @@ export const mariemont: LocationServiceCopy = {
         body: 'Three free checks come before any booking: cooling mode on the thermostat, a filter you can see light through, and the breaker. When one of those brings back cold air, skip the visit. In apartments and townhouses, standing water in the air handler pan means a clogged drain. Bring a technician in once frost forms on the coil or the condenser fan quits. Short cycling every few minutes needs a look too. We go over both halves of the system and name the failed part, along with a fixed price. You approve before anything is touched, and we read the vent temperature at the end.',
       },
       {
-        title: 'Repair or Replace Your Mariemont AC?',
+        title: 'Repair or Replace Your AC in Mariemont?',
         body: 'Most village homes were built before 1980, so the house tells you almost nothing about its air conditioner. Look at the condenser’s data plate. If it shows 12 years or less and only one component failed, repair it. Older, with a seized compressor or a coil leaking refrigerant, new equipment usually pays for itself. Ducts squeezed into 1920s and 1940s houses cap the tonnage they can move, so we check airflow before sizing anything. We handle the village paperwork on a replacement. Meanwhile a filthy outdoor coil drags out every cycle on Duke Energy Ohio’s meter.',
       },
     ],

@@ -32,7 +32,7 @@ export const northbrook: LocationServiceCopy = {
         body: 'With so many electric furnaces in Northbrook, the breaker panel is worth a look first; heating elements draw hard and can trip one. Next, the thermostat: heat mode, live batteries. In condo closets the furnace service switch often sits right beside the unit at eye level. A filter clogged grey can stall the system, and a loose blower door leaves its safety switch open. If any of that restores warm air, you’ve saved a service call. A breaker that keeps tripping, air that stays cool or a furnace quitting after minutes means phone us. Gas smell: no switches, leave, call the gas company outdoors. We diagnose, quote, repair, retest.',
       },
       {
-        title: 'Repair or Replace Your Northbrook Furnace?',
+        title: 'Repair or Replace Your Furnace in Northbrook?',
         body: 'Judge the equipment, not the 1970s house. One worn igniter or sequencer on a furnace whose heat exchanger tests clean is normally a fair repair. Cracks in that exchanger are a safety matter before a money one: carbon monoxide can reach the rooms, so we switch the furnace off and let you see the damage. When a CO alarm sounds, the household goes outside before anyone dials. Higher bills in a normal month are a warning too: on electric heat, a failing element or a heat pump stuck on backup pushes up the Duke Energy bill. We sort out any township or county paperwork a replacement needs.',
       },
     ],

@@ -32,7 +32,7 @@ export const lovelandPark: LocationServiceCopy = {
         body: 'The thermostat must read heat; on cool or off, nothing warms up. A filter caked with dust starves the system, so change it. Two breakers feed it, one outside and one for the indoor air handler; reset any that tripped. Clear fallen leaves and drifted snow off the outside unit. Vapor, thin frost and the fan resting a few minutes mean it is defrosting. If warm air returns, skip the call. Phone us if ice keeps building on the coil, the aux light stays lit or the outside fan sits still. We diagnose, walk you through it and quote a price you sign off on first.',
       },
       {
-        title: 'Repair or Replace Your Loveland Park Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Loveland Park?',
         body: 'Decide by the heat pump, not the house. In an all-electric Loveland Park home, the heat pump is the main heat, so repair is usually the first choice when a younger unit loses a capacitor, contactor or fan motor. A refrigerant leak or failed compressor on an older unit is the point where we price repair and replacement together. Rising electric bills with the backup strips running longer are the classic early sign that a unit is slipping. Ask us about financing if replacement wins.',
       },
     ],

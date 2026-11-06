@@ -33,7 +33,7 @@ export const bethel: LocationServiceCopy = {
 
       },
       {
-        title: 'Repair or Replace Your Bethel Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Bethel?',
         body: 'Read the date on the outdoor unit rather than guessing from the building. Plenty of 1950s Bethel houses and older apartment blocks carry heat pumps put in far more recently, and when one of those loses a contactor or defrost board, fixing it makes sense. Refrigerant gone or a compressor that won’t start on an aging unit changes the sum, so we quote both ways. For a swap, Clermont County Building Inspection handles HVAC replacement permits in the village and we apply. If the Duke Energy Ohio bill jumps when the weather hasn’t turned harsh, the strips are doing the heating.',
       },
     ],

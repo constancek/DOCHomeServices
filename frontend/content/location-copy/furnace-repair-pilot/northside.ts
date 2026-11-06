@@ -32,7 +32,7 @@ export const northside: LocationServiceCopy = {
         body: 'Plenty of Northside no-heat calls are solved on the basement stairs. Thermostat set to heat, fresh batteries in it. The switch next to the furnace flipped back up. Breaker reset. A clogged filter pulled and replaced. Front panel pressed home, since a loose one keeps many furnaces from firing at all. If that does it, keep your money. Gas smell: leave every switch alone, walk out and call Duke Energy from the sidewalk. Carbon monoxide alarm: everyone out before anything else. Past that, we inspect, tell you what failed, quote it for approval and run the furnace through a full cycle.',
       },
       {
-        title: 'Repair or Replace Your Northside Furnace?',
+        title: 'Repair or Replace Your Furnace in Northside?',
         body: 'The furnace decides, not the house. Lots of 1920s Northside homes got a new furnace a few winters back, and a dead igniter or inducer motor on that one is a plain repair. A cracked heat exchanger is a safety call, since it can leak carbon monoxide into the living space, so we don’t patch it. When the repair runs to a big share of a new unit’s cost, you get both numbers to weigh. Replacing means a city mechanical permit, and we file it. Gas use that climbs in a mild month is often the first hint of a struggling furnace.',
       },
     ],

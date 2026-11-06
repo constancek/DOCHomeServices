@@ -32,7 +32,7 @@ export const eastWestwood: LocationServiceCopy = {
         body: 'Before you report a broken furnace, try the easy fixes. Put the thermostat on heat and change its batteries. Look for a tripped breaker, and on electric heat there may be two. Check that the switch beside the furnace is on, the filter is clean and the access panel is snapped shut. If the heat returns, you don’t need us. If a breaker trips again or the furnace hums and blows cold, it’s a repair. On gas heat, a gas smell means getting out and calling the gas company from outdoors, with no switches touched. We test, explain, and price before work.',
       },
       {
-        title: 'Repair or Replace Your East Westwood Furnace?',
+        title: 'Repair or Replace Your Furnace in East Westwood?',
         body: 'Go by the furnace itself. An electric furnace with a failed element, sequencer or blower motor is normally a sensible repair, because the cabinet and wiring last well. A gas furnace in a 1950s house is a different check: if the heat exchanger is cracked, it can put carbon monoxide in the rooms, and replacement is the safe answer. The City of Cincinnati Department of Buildings & Inspections issues the permit for a replacement, and we take care of it. For owners, a climbing Duke Energy Ohio bill across several units is often the first sign one furnace is struggling.',
       },
     ],

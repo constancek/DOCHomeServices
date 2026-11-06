@@ -32,7 +32,7 @@ export const madeira: LocationServiceCopy = {
         body: 'Confirm the thermostat is on cool, swap in a fresh filter and flip a tripped breaker back once. Cold air again means you can skip the appointment. A breaker that trips a second time should be left off. Schedule a repair when ice coats the indoor coil, or when the compressor hums but the outdoor fan doesn’t move. Puddles beside the furnace usually trace to a clogged condensate drain. The technician inspects both sides and walks you through the fault, with a fixed figure attached. Repairs wait on your approval, and the cooling gets tested before we leave.',
       },
       {
-        title: 'Repair or Replace Your Madeira AC?',
+        title: 'Repair or Replace Your AC in Madeira?',
         body: 'A 1960 Madeira house has outlived several air conditioners, so check the year printed on the condenser’s data plate. At 12 or fewer years old, with one part such as a capacitor or contactor gone, fix it. An older unit with a seized compressor or a leaking coil is usually cheaper to replace over time. Mid-century ducts were often sized for heating, so we test airflow before recommending a size. The city’s permit form marks furnace or air replacement and asks about floodplains, and we handle that form. Meanwhile, grime on the outdoor coil keeps the compressor running longer on Duke Energy Ohio power.',
       },
     ],

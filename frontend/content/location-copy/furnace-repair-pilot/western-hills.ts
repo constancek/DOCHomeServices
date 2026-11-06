@@ -32,7 +32,7 @@ export const westernHills: LocationServiceCopy = {
         body: 'Check that the thermostat says heat and has fresh batteries, the switch by the furnace is on, the breaker hasn’t tripped and the filter isn’t clogged. Then push the furnace panel shut; a loose one keeps many units off. Heat back means no visit. Call us when the burners light and drop out, or the blower pushes air with no warmth in it. If you smell gas, leave light switches and the burner alone, walk outside and call the gas company. When the carbon monoxide alarm sounds, everyone leaves first. Our technician finds the cause, gets your approval on the price, then tests.',
       },
       {
-        title: 'Repair or Replace Your Western Hills Furnace?',
+        title: 'Repair or Replace Your Furnace in Western Hills?',
         body: 'Look at the furnace, not the year on the house. Plenty of 1950s Western Hills houses have furnaces only a few winters old, and those should be repaired when an igniter or inducer motor fails. A cracked heat exchanger changes the answer, because it can let carbon monoxide into the living space; we’d shut that furnace off and talk about replacing it, not patch it. On electric heat, a bill that jumps without a colder month behind it often means backup heat is doing the work. When it’s a close call, we price repair and replacement side by side.',
       },
     ],

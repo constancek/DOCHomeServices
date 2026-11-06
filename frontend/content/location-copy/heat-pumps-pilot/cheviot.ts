@@ -32,7 +32,7 @@ export const cheviot: LocationServiceCopy = {
         body: 'Close to half of Cheviot households rent, so tenants and owners both do these checks. The wall thermostat has to say heat. If the filter’s last change is a mystery, swap it. There’s a breaker for the condenser and one for the furnace or air handler; flip a tripped one back once. Small lots mean plow piles, so shovel the condenser free. Defrost cycles throw off steam, leave thin frost and stop the fan briefly; ignore those. Warm rooms again means you can skip us. A coil frozen solid, a system stuck cooling or backup heat that never shuts off needs a technician. Diagnosis and price come before work.',
       },
       {
-        title: 'Repair or Replace Your Cheviot Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Cheviot?',
         body: 'Look at the outdoor unit’s history, not the year on the house. Nearly every Cheviot home dates from before 1980, but plenty have had a heat pump fitted in recent years. On a recent install, a dead fan motor or defrost board is a fair fix. A leaking coil or a locked-up compressor on an aging unit gets a replacement quote beside the repair quote. Apartment owners can read the Duke Energy bill: a winter month that costs far more than the last, in similar weather, often means the strips are carrying the building. Replacement permits are on us.',
       },
     ],

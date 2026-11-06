@@ -32,7 +32,7 @@ export const florence: LocationServiceCopy = {
         body: 'Some Florence calls aren’t needed. Condo closet tanks are small, so two roommates showering back to back can empty one; it reheats if you wait. Look at whether the dial got bumped while someone grabbed the vacuum. For electric, open the panel and find the heater’s breaker. For gas, the supply handle should run in line with the pipe, and a pilot can be relit from the printed steps if the closet smells normal. Renters should report it rather than open covers. Call us for water spreading on the floor, brown or sulfur-smelling water, lukewarm water from electric, or popping. We diagnose and price it first.',
       },
       {
-        title: 'Repair or Replace Your Florence Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Florence?',
         body: 'Go by the heater, not the complex. The tank’s label shows when it went in, and plenty of 1970s condos have changed theirs since. Elements, thermostats, thermocouples, control valves, relief valves, anodes and dip tubes are all replaceable parts. A tank leaking through its steel is not, and in a closet we measure the opening before quoting the new one. You get both figures when both are honest choices. Kentucky’s state inspectors cover plumbing, and we pull the permit where one is needed. Tankless can be priced if you ask.',
       },
     ],

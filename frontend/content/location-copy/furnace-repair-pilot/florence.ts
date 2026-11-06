@@ -32,7 +32,7 @@ export const florence: LocationServiceCopy = {
         body: 'On a heat pump, light frost on the outdoor unit in cold weather is normal, and it should clear itself every so often. Ice that never clears is a service call. Before calling, check the thermostat is on heat with good batteries, the filter, the switch at the furnace and every breaker that feeds it, and make sure the front panel is latched. If that solves it, you don’t need us. If a carbon monoxide alarm goes off, get everyone out first, then call. When we arrive, we explain what we found and price it before starting.',
       },
       {
-        title: 'Repair or Replace Your Florence Furnace?',
+        title: 'Repair or Replace Your Furnace in Florence?',
         body: 'Base it on the furnace, not the building. Florence has plenty of 1960s and 1970s homes running much newer equipment, and a failed blower motor or control board in a younger unit is a fair repair. A cracked heat exchanger on a gas furnace ends the debate, since it can push carbon monoxide into the living space. On electric heat, watch the bill from Duke Energy Kentucky or Owen Electric, depending on your street: a heat pump leaning on its backup strips can raise it sharply before anything stops working. We handle the replacement permit.',
       },
     ],

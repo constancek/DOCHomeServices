@@ -32,7 +32,7 @@ export const delhiHills: LocationServiceCopy = {
         body: 'A morning of showers can drain a tank, and it recovers on its own. Make sure nobody turned the knob down, the electric heater’s circuit hasn’t tripped, and the handle on the gas line points along the pipe. If the pilot is dark and the basement smells normal, follow the relighting steps on the heater. Bring us in for a puddle at the base, water that runs brown or smells of sulfur, a pressure relief valve that keeps spitting, or soot at the burner. We look, explain, quote a flat price, and test once you say yes.',
       },
       {
-        title: 'Repair or Replace Your Delhi Hills Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Delhi Hills?',
         body: 'The year on the heater’s label matters; the 1970s date on the house doesn’t. On a tank that’s dry, the failed piece gets replaced: a thermocouple, the gas control, an element or thermostat, the relief valve, an anode rod or a dip tube, and most of those take a single visit. Rust weeping from the tank wall is another matter, because steel that’s let go can’t be patched, and that means a new heater. Both prices go in front of you and you choose. If you replace, we handle the permit.',
       },
     ],

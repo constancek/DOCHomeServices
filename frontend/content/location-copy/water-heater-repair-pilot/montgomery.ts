@@ -32,7 +32,7 @@ export const montgomery: LocationServiceCopy = {
         body: 'Some Montgomery calls are solved before we pull into the driveway. After a round of showers the tank needs time to heat again. Make sure nobody turned down the dial, that the gas valve is open, and on an electric heater that the breaker is on. Relight a pilot by following the label, but only if you smell no gas. Book us when the tank drips, the relief valve discharges more than once, the hot water turns rusty, or the pilot won’t stay lit. We diagnose, you approve the flat price, and then the repair happens.',
       },
       {
-        title: 'Repair or Replace Your Montgomery Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Montgomery?',
         body: 'The age of a 1976 Montgomery house says little about its water heater, so read the install date on the tank’s rating plate. A worn anode rod, a faulty thermocouple or gas valve, a failed element or a broken dip tube can each be fixed on a sound tank. A tank leaking through its shell is a replacement, full stop. We quote both and leave the choice with you. If tankless interests you, we’ll talk it through, but only if you ask. We handle the permit on every replacement.',
       },
     ],

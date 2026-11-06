@@ -32,7 +32,7 @@ export const bethel: LocationServiceCopy = {
         body: 'Bethel tenants and owners can check four things. Hot water used up by a morning of showers comes back on its own. The knob on the control may have been turned toward low. An electric unit with a tripped breaker sits silent, and a gas unit with its supply valve closed won’t fire. If the pilot is out and there’s no odor of gas, the label explains relighting; renters should leave that to the landlord. Got hot water again? Then nobody needs to come. A puddle at the base, sulfur-smelling hot water or a relief valve that keeps venting means a visit. We diagnose, quote, repair and retest.',
       },
       {
-        title: 'Repair or Replace Your Bethel Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Bethel?',
         body: 'The plate on the heater, not the age of the building, settles this. Bethel’s pre-1940 houses and its later apartment blocks can both hold a tank of any vintage. Thermocouples, gas controls, elements, thermostats and dip tubes all swap out. A steel tank leaking through its wall is done. Owners get a price for each path and choose. Apartment closets are tight, so we measure the opening and the vent before we quote a new heater, and a county plumbing permit is pulled when the job calls for one.',
       },
     ],

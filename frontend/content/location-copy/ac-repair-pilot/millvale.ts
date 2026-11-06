@@ -32,7 +32,7 @@ export const millvale: LocationServiceCopy = {
         body: 'Some Millvale complaints clear up without a visit. Confirm the thermostat says cool with a target under room temperature, glance at the breaker panel, and swap the filter when your lease allows it. If the system blows cold again, nobody needs to come. If it doesn’t, tenants should stop there and tell the landlord or housing authority rather than open panels. Owners and managers should bring us in once the outdoor fan refuses to turn or a puddle forms beneath the air handler. Our technician tracks down the cause, tells the resident what failed and sends the owner a flat figure to approve first.',
       },
       {
-        title: 'Repair or Replace a Millvale Rental’s AC?',
+        title: 'Repair or Replace the AC in a Rental in Millvale?',
         body: 'For an owner, the condenser’s label date comes first. Younger than roughly 12 years with one dead component, fix it. An older unit whose compressor has seized or whose coil leaks usually costs more to keep alive than to swap. Millvale tilts that math because electric heat is so common: a heat pump here works most months of the year, so a tired one inflates Duke Energy Ohio charges through winter and summer alike, whether tenant or owner pays. Swapping the equipment takes a mechanical permit from the City of Cincinnati’s Buildings & Inspections department.',
       },
     ],

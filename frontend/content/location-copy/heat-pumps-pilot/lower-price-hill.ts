@@ -32,7 +32,7 @@ export const lowerPriceHill: LocationServiceCopy = {
         body: 'Tenants can try these first. The thermostat should read heat; cool or off leaves rooms cold. A gray, matted filter blocks airflow, so put in a new one. Two breakers serve it, the outdoor unit and the indoor air handler; reset either if tripped. Knock snow and leaves off the back-yard unit. Vapor, light frost and a quiet fan for a few minutes mean the unit is clearing its coil. Heat back means no repair. Ice that stays, an aux light that never goes out or a fan that won’t turn means a fault: tenants report it, owners call us. The owner approves our price before we start.',
       },
       {
-        title: 'Repair or Replace Your Lower Price Hill Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Lower Price Hill?',
         body: 'Owners: read the heat pump’s nameplate date and ignore the year the building went up. Many houses on these streets date from the 1850s but carry an outdoor unit that is barely broken in, and a burnt contactor or seized fan motor on it is worth fixing. Compressor failure, or refrigerant that won’t stay in, on an aging unit gets two quotes from us, repair and replacement. For a replacement within Cincinnati, Buildings & Inspections issues the mechanical permit, and we apply for it. Watch the tenant’s Duke Energy Ohio statement: backup strips running long show up there first.',
       },
     ],

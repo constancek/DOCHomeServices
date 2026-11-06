@@ -32,7 +32,7 @@ export const amelia: LocationServiceCopy = {
         body: 'Many newer Amelia heaters only look broken. A dishwasher cycle plus a few showers can empty the tank, and it needs to recover. Somebody may have dialed the control down. A heater on a tripped breaker makes no heat at all. Gas models need an open supply valve and a lit pilot; relight from the printed steps only with no gas odor. Water around the base, sulfur-smelling hot water, or an electric unit stuck at lukewarm means it’s time to call. We find the cause, walk you through it and price it up front.',
       },
       {
-        title: 'Repair or Replace Your Amelia Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Amelia?',
         body: 'Find the install date on the heater’s data plate. An Amelia house from the 2000s may still run on its builder tank, and the tank’s age, not the deed, guides the decision. Thermostats, elements, gas valves, thermocouples and relief valves are swapped as repairs, along with anode rods and dip tubes. A shell seeping water cannot be sealed, so that heater is replaced. We price both, and landlords with several units get a figure for each. Tankless can be quoted on request; we won’t sell it hard.',
       },
     ],

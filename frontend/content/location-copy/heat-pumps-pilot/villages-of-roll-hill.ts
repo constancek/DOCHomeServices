@@ -36,7 +36,7 @@ export const villagesOfRollHill: LocationServiceCopy = {
         body: 'The thermostat should be set to heat, not cool or off. Replace the filter if your lease lets you; otherwise ask maintenance. If you can reach your breaker panel, make sure the breakers for the outdoor unit and the air handler are both on. Steam, a little frost and the fan resting a few minutes are a normal defrost, not a breakdown. If heat comes back, nothing needs fixing. If the coil stays iced or the emergency heat light won’t go off, report it to the leasing office rather than hiring anyone. When management sends us, we test the system and explain the fault to you both.',
       },
       {
-        title: 'Repair or Replace a Villages of Roll Hill Heat Pump?',
+        title: 'Repair or Replace a Heat Pump in the Villages of Roll Hill?',
         body: 'Management makes this call, and it should rest on the heat pump itself. Check the date on its label. If the unit dates from the renovation and a fan motor or control board fails, repair is usually the answer. A compressor that has failed, or a leak that has needed refrigerant more than once, is when we give the owner a replacement price beside the repair. A replacement inside the City of Cincinnati needs a mechanical permit from the Department of Buildings & Inspections, which we file. Residents who pay their own electric bill often spot trouble first, when it climbs in a mild month.',
       },
     ],

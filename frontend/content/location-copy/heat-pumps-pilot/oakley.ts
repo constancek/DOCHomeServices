@@ -32,7 +32,7 @@ export const oakley: LocationServiceCopy = {
         body: 'A few Oakley no-heat problems you can sort out yourself. The thermostat has to read heat, not cool or off. A dirty filter should go. There are two breakers, condenser and indoor unit, and a tripped one kills the system, so look at the panel. Snow drifts and wet leaves pile up in narrow side yards; get them off the condenser. Defrost explains steam, light frost and the outdoor fan sitting idle a few minutes. If warmth returns, you’re finished. We should come out for ice that never melts off, an auxiliary light that won’t go out, a system jammed in one mode, or a grinding fan.',
       },
       {
-        title: 'Repair or Replace Your Oakley Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Oakley?',
         body: 'Let the equipment’s shape decide, since the house’s age won’t tell you much. Plenty of pre-1940 Oakley houses run heat pumps installed within the last few years, and when one of those loses a fan motor or control board, we fix it. An aging coil that leaks refrigerant, or a compressor that quits, is when you get two quotes from us: repair and new. A new unit requires a Cincinnati Buildings & Inspections mechanical permit, which we pull for you. With dual fuel, the furnace masks a struggling heat pump, so watch for a Duke Energy Ohio gas bill rising with no cold snap to explain it.',
       },
     ],

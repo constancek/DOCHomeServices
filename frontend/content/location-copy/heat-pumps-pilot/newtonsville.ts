@@ -36,7 +36,7 @@ export const newtonsville: LocationServiceCopy = {
         body: 'Out here, checking a few things yourself can save you a service call. Make sure the thermostat is on heat rather than cool or off. Swap out a dirty filter. Look in the panel for the outdoor unit’s breaker and the indoor unit’s breaker, and reset either once if it tripped. Shovel snow away from the outdoor unit and pull off any leaves. Steam and a light coat of frost are part of defrost, and the fan can sit idle for a few minutes. If heat comes back, cancel the call. If ice stays or the unit is stuck cooling, we diagnose it and price it first.',
       },
       {
-        title: 'Repair or Replace Your Newtonsville Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Newtonsville?',
         body: 'Go by the unit itself. Newtonsville houses date mostly from the 1960s through the 1990s, and the heat pump may be far newer than the house; check the outdoor label. A burned contactor or failed defrost control on a younger unit is a repair. A compressor that has quit or refrigerant that keeps leaking out is when we put a replacement price beside the repair price. Because most homes here have no gas, a weak heat pump hands its work to electric strips, and a winter electric bill well above last year’s is often the first clue.',
       },
     ],

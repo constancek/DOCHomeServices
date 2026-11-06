@@ -32,7 +32,7 @@ export const newport: LocationServiceCopy = {
         body: 'Some Newport no-heat calls can be solved from the hallway. A blank thermostat screen usually means flat batteries; replace them and set it to heat. The furnace switch often hangs by the basement stairs, and the breaker sits in the panel, so check both. Slide in a fresh filter and push the blower door until it seats, since an open door keeps most furnaces off. Warm air again? Then you can skip us. Tenants, tell the landlord before anything else. Call for short-cycling, a squealing blower or a breaker that won’t hold. Smell gas: get out, flip nothing and phone Duke Energy Kentucky outside.',
       },
       {
-        title: 'Repair or Replace Your Newport Furnace?',
+        title: 'Repair or Replace Your Furnace in Newport?',
         body: 'Let the furnace decide. A pre-1940 Newport rowhouse can hold a furnace put in two or three winters ago, and a worn igniter or a stuck pressure switch on it is worth the repair. A heat exchanger with a crack is not, since carbon monoxide can work through it into the rooms; we turn that unit off and price a new one. If the CO alarm goes off, clear the building first and make calls from outside. New furnaces need a city permit, and we pull it. Before any of that, a gas bill jumping in a mild month tells you the furnace is struggling.',
       },
     ],

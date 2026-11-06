@@ -36,7 +36,7 @@ export const sedamsville: LocationServiceCopy = {
         body: 'First, rule out the simple causes. The thermostat must be set to heat. Replace a dirty filter. Find the outdoor unit’s breaker and the one for the furnace or air handler, and reset a tripped one once. Clear snow or leaves from around the outdoor unit. Steam, light frost and a fan that stops for a few minutes during defrost are expected. If heat returns, you don’t need us. Call when ice won’t clear, the unit stays in cooling, the outdoor fan grinds, or a breaker keeps tripping. Renters should tell the landlord before anything else. We test, explain, get the price approved, repair and test again.',
       },
       {
-        title: 'Repair or Replace Your Sedamsville Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Sedamsville?',
         body: 'Decide by the heat pump, not by the cottage it serves. Most Sedamsville homes are far older than any heat pump, so the date on the outdoor unit’s label is what counts. A failed capacitor, fan motor or defrost board is a repair on a sound unit. An older heat pump with a dead compressor or a leak that returns is where we compare repair and replacement prices. Replacement needs a city mechanical permit, which we pull, and sometimes panel work too. A weak heat pump shows up as the furnace running more and a bigger Duke Energy gas bill.',
       },
     ],

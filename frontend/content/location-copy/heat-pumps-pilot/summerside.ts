@@ -36,7 +36,7 @@ export const summerside: LocationServiceCopy = {
         body: 'A Summerside owner or tenant can rule out the easy stuff first. Switch the thermostat to heat if someone left it on cool or off. Slide out the filter and replace it if it’s gray. Look at the panel: the outdoor unit and the air handler are on separate breakers, so check both. Kick snow and leaves away from the outdoor cabinet. Steam and light frost with the fan resting a few minutes is the defrost cycle at work. When heat comes back, you don’t need us. A unit that stays iced or a fan that won’t spin means call. We price first, and nothing starts until you approve.',
       },
       {
-        title: 'Repair or Replace Your Summerside Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Summerside?',
         body: 'The heat pump’s condition decides it, not the house’s age. A Summerside house from 1975 may have a heat pump installed recently, and a failed capacitor or reversing valve coil on that unit is a repair. A dead compressor, or refrigerant leaking again after a recharge, is when we price replacement next to repair so you can compare. We handle the permit. If your Duke Energy Ohio bill climbs during a month of ordinary weather, the electric backup heat is probably doing what the heat pump no longer can.',
       },
     ],

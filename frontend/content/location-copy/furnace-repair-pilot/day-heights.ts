@@ -32,7 +32,7 @@ export const dayHeights: LocationServiceCopy = {
         body: 'A few Day Heights checks cost nothing. Thermostat set to heat, batteries new. The service switch at the furnace in the on position. No tripped breaker in the panel. A filter you can see light through. The blower door clicked into place, because a loose one stops many furnaces cold. Oil homes should read the tank gauge as well. If any of those brings the heat back, you’ve saved a service call. Call if nothing helps or it short-cycles all night. Should you smell gas, walk out without flipping a switch and reach the gas company from outside. We inspect, explain the fault, and wait for your OK on price.',
       },
       {
-        title: 'Repair or Replace Your Day Heights Furnace?',
+        title: 'Repair or Replace Your Furnace in Day Heights?',
         body: 'Let the furnace’s condition decide, not the house’s year. Lots of 1960s Day Heights houses have a furnace only a few winters old, and a bad igniter or inducer motor on that unit should be repaired. An older furnace waiting on a major part may not earn it. Find a cracked heat exchanger and the decision is made: carbon monoxide can escape through it, so replacement beats patching. If the CO alarm sounds, get the family outdoors and call from there. We pull the replacement permit. Day Heights rentals fall under Ohio’s ORC 5321.04, putting heat repairs on the landlord; leases aren’t our department, furnaces are.',
       },
     ],

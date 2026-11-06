@@ -36,7 +36,7 @@ export const paddockHills: LocationServiceCopy = {
         body: 'If the heat stops, try the basics first. Thermostat on heat. A clean filter. Both breakers on, the one for the outdoor unit and the one for the air handler or furnace. Nothing piled against the outdoor unit, including snow, leaves or a tarp. Then wait out any defrost, which looks like steam and light frost with the fan stopped for a few minutes. If you get heat back, there’s no need to book us. Apartment residents should still report it. We’re needed when ice stays packed on the coil, the auxiliary light never goes out or the system won’t leave cooling.',
       },
       {
-        title: 'Repair or Replace Your Paddock Hills Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Paddock Hills?',
         body: 'The deciding factor is the equipment outside, never the Tudor or bungalow it sits behind. Read the date on the outdoor unit’s data plate. When a fairly young Paddock Hills unit loses a capacitor, contactor or fan motor, we fix it and move on. A seized compressor, or refrigerant that keeps disappearing after a recharge, earns a second quote for a new unit so you can weigh them. Watch your bills too: in the houses, a lazy heat pump pushes the furnace into overtime on gas, and in the apartments the strip heaters run up electricity. Any replacement needs a City of Cincinnati mechanical permit, which we pull.',
       },
     ],

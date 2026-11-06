@@ -32,7 +32,7 @@ export const amberley: LocationServiceCopy = {
         body: 'Several fixes are yours to try first. Slide in a clean filter, drop the cooling setpoint below what the room reads, and give any tripped breaker one reset. Then, with the power shut off, rinse leaves out of the outdoor coil. A house that starts cooling again doesn’t need us. Phone us when the outside fan stays still or water gathers around the furnace. The technician checks the furnace side and the condenser, says what broke, and gives a single price for you to approve before starting. Before leaving, we confirm the house is cooling.',
       },
       {
-        title: 'Repair or Replace Your Amberley AC?',
+        title: 'Repair or Replace Your AC in Amberley?',
         body: 'A typical 1950s Amberley house has worn out more than one air conditioner, so the label on the condenser is your guide. Equipment with good years left and one bad component should be fixed. An older system that needs a compressor, or a coil leaking on the furnace, generally points to a new unit, and if the furnace is about as old, get the two priced together. We handle the permit, and in Rollman Estates or Rollman Reserve we check on HOA approval first. Before then, a short refrigerant charge keeps the condenser running longer and your summer electric bill rises.',
       },
     ],

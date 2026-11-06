@@ -32,7 +32,7 @@ export const sharonville: LocationServiceCopy = {
         body: 'Plenty of Sharonville no-heat calls come down to a five-minute fix. The thermostat should read heat, with fresh batteries. The furnace switch, which looks like a light switch, should be on, and so should the breaker. A dirty filter goes in the trash. Press the furnace door firmly closed, since a loose panel keeps many units off. If heat returns, we’re not needed. Catch a whiff of gas and you touch no switch and relight nothing; get outside and call the gas company from there. A carbon monoxide alarm means everyone outside first. Call us when the furnace keeps quitting, blows cold or grinds. We test, price and recheck.',
       },
       {
-        title: 'Repair or Replace Your Sharonville Furnace?',
+        title: 'Repair or Replace Your Furnace in Sharonville?',
         body: 'We go by the furnace we find. Many Sharonville homes still run a 1980s or 1990s furnace, and a new igniter or blower capacitor on one of those can still be a fair repair. Repeat failures, rust eating through the cabinet or a cracked heat exchanger change that, and the cracked heat exchanger is a carbon monoxide danger before it is a cost question. A replacement needs a city permit, which we take care of. With electric heat, a Duke Energy Ohio bill that rises while the weather holds steady usually means the backup heat strips are carrying the load the heat pump should.',
       },
     ],

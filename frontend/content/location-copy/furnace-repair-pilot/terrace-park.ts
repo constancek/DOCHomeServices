@@ -32,7 +32,7 @@ export const terracePark: LocationServiceCopy = {
         body: 'Most no-heat calls start with something simple. The thermostat should be on heat with good batteries. The furnace switch, often at the top of the basement stairs, should be on, and the breaker shouldn’t be tripped. Change the filter if it’s gray and matted, and make sure the front panel is fully closed. Fix one of those and you don’t need us. A gas odor is different: leave the lights and switches as they are, don’t relight anything, and call the gas company from the front lawn. If a carbon monoxide alarm goes off, get everyone out first, then call. We inspect, explain what failed, and you approve the price.',
       },
       {
-        title: 'Repair or Replace Your Terrace Park Furnace?',
+        title: 'Repair or Replace Your Furnace in Terrace Park?',
         body: 'Decide by the furnace, not the age of the house. A 1940s Terrace Park home might have a furnace installed recently, and a new igniter or flame sensor on that is money well spent. The case for replacing is strongest when the heat exchanger is cracked, because that can put carbon monoxide into the house, or when repair after repair keeps coming. A replacement here needs a county building permit, which we handle. Your gas bill gives an early warning: a furnace that cycles on and off, or runs much longer than it used to, costs more well before it finally stops.',
       },
     ],

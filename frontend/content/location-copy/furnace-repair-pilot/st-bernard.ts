@@ -32,7 +32,7 @@ export const stBernard: LocationServiceCopy = {
         body: 'Run through the quick checks before booking. Thermostat on heat, batteries new. Furnace power switch on. Breaker reset one time. Filter swapped if it’s gray and packed. Front panel pressed home, because a loose one keeps most furnaces from starting. Heat back? Then there’s nothing for us to do. We are needed when the burners light and quit again, or the breaker keeps tripping. A smell of gas means hands off the switches, no relighting, out the door and a call to the gas company from the sidewalk. On a visit we find the fault, explain it in plain terms and wait for your yes on the price.',
       },
       {
-        title: 'Repair or Replace Your St. Bernard Furnace?',
+        title: 'Repair or Replace Your Furnace in St. Bernard?',
         body: 'The furnace decides, not the 1950s house it heats. Lots of St. Bernard basements hold a fairly new unit, and on that unit a dead igniter or inducer motor is money well spent. A cracked heat exchanger can let carbon monoxide into the living space, so we deal with it as a safety issue before we talk about price. Any basement furnace that has been under floodwater should stay off until we’ve looked it over. Bills warn you early as well: an electric furnace with a burned-out element runs longer, and your Duke Energy Ohio statement rises before the rooms turn cold.',
       },
     ],

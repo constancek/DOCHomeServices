@@ -32,7 +32,7 @@ export const golfManor: LocationServiceCopy = {
         body: 'A renter can solve a no-cool problem without anyone visiting. If the lease lets you, slide in a fresh filter, set the thermostat to cool a few degrees under the room, and look for a flipped breaker labeled for your apartment. Cold air soon after means nothing failed. If it stays warm, tell the owner, since in a Golf Manor rental they pick the contractor. Owners should book us once ice coats the indoor coil a second time or the outside fan stays motionless. We diagnose both sections and explain what broke, then hold off until the price is approved. A thermometer check at the vents closes the visit.',
       },
       {
-        title: 'Repair or Replace Your Golf Manor AC?',
+        title: 'Repair or Replace Your AC in Golf Manor?',
         body: 'These buildings mostly date from the 1940s and 1950s, but condensers get swapped, so read the manufacture date on the outdoor unit’s plate. Fix it if the system is mid-life and one component quit. Replace it once a worn system loses its compressor; at that age, sinking money into it rarely pays. Owners of a fourplex can stagger or bundle replacements instead of buying under pressure each July. Golf Manor’s village permit list includes heating and cooling replacements, and we take care of the paperwork. Before a unit dies, its Duke Energy Ohio usage creeps up as a leak or grimy coil stretches every cycle.',
       },
     ],

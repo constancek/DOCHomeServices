@@ -36,7 +36,7 @@ export const silverton: LocationServiceCopy = {
         body: 'Some no-heat problems in Silverton have simple fixes. After a mild week, the thermostat may still be on cool; put it back to heat. A gray filter gets swapped. The panel holds a breaker for the outside cabinet and another for the air handler, and either can trip without the other, so flip back whichever is off. Pull leaves and snow off the outside unit, which matters more in a tight side yard. Steam, thin frost and a resting fan for a few minutes are just defrost. Warm air back means skip the call. Grinding, or ice that stays, means call us. We price the fix first.',
       },
       {
-        title: 'Repair or Replace Your Silverton Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Silverton?',
         body: 'Go by the heat pump’s age, which has little to do with the house. Silverton’s median home dates from 1959, yet the heat pump outside may be only a few years old, and a failed defrost board or reversing valve coil on that is worth fixing. A compressor failure or a leak that keeps coming back on an older unit is when we price both repair and replacement. We handle the permit. A Duke Energy Ohio bill rising in a steady month usually means backup heat is doing the heating.',
       },
     ],

@@ -32,7 +32,7 @@ export const collegeHill: LocationServiceCopy = {
         body: 'In a College Hill ranch or older two-story, ten minutes of looking can save a call. After a summer on cool, people forget to move the wall control back to heat. A filter gone gray and matted chokes airflow, so change it. The condenser outside and the air handler inside each have a breaker; flip a tripped one back once. Rake leaves and snow off the coil. Steam and frost with a quiet fan mean defrost. Ring us for ice that stays, an emergency heat light that won’t clear, a system stuck heating or cooling, or a stalled outdoor fan. We test, quote, then repair.',
       },
       {
-        title: 'Repair or Replace Your College Hill Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in College Hill?',
         body: 'Go by the heat pump’s condition, not the house’s age. A 1920s College Hill house can have a heat pump installed recently, and a failed fan motor or contactor on that unit is a repair. A worn compressor or a coil that keeps leaking refrigerant is a different call, and on older equipment we price both paths so you can weigh them. Watch the Duke Energy Ohio bill too. When the backup heat strips cover for a weak heat pump, usage climbs during weather that isn’t unusually cold, often weeks before anyone notices the rooms feel cooler.',
       },
     ],

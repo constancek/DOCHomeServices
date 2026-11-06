@@ -32,7 +32,7 @@ export const pleasantPlain: LocationServiceCopy = {
         body: 'Start with the simple causes. A run of baths and laundry can empty the tank, and it needs time to reheat. Make sure the breaker for an electric heater is on, or the gas valve on a gas one, and that the temperature dial hasn’t moved. If hot water comes back and holds, you don’t need a visit. Call us for lukewarm water that never gets hot, which usually means an element or thermostat. Water on the floor, rusty or rotten-egg water, and a relief valve that keeps discharging need us too. We find it, price it, fix it once you agree, and test it.',
       },
       {
-        title: 'Repair or Replace Your Pleasant Plain Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Pleasant Plain?',
         body: 'In Pleasant Plain the sticker on the water heater says more than the age of the house. A 1920s home here might have a tank fitted a few years ago, and swapping a dead element, thermostat or dip tube puts it right. A tank leaking through its own shell is done, and replacement is the only answer. Where repair is still possible we quote it next to replacement, and you choose. Old cellars sometimes need a fresh shutoff or drain line with a new tank; we say so before adding it. We pull the permit where one is needed.',
       },
     ],

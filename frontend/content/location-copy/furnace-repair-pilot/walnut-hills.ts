@@ -32,7 +32,7 @@ export const walnutHills: LocationServiceCopy = {
         body: 'Check a few things first. The thermostat should be on heat, with working batteries. The furnace’s power switch, on the unit or the wall beside it, should be up; a tripped breaker gets one reset. Swap a dusty filter and latch the furnace panel, because a gap keeps many units from starting. Warm air again means no visit; renters still tell the landlord. Call when the breaker keeps tripping or the furnace runs and the rooms stay cold. With a gas smell, flip nothing and call from outside. A carbon monoxide alarm means everyone out first. We diagnose and price before any repair.',
       },
       {
-        title: 'Repair or Replace Your Walnut Hills Furnace?',
+        title: 'Repair or Replace Your Furnace in Walnut Hills?',
         body: 'Look at the furnace, not the age of the building. A Walnut Hills house from the 1890s may have a furnace that went in five years ago, and a failed blower motor or heating element on it is a repair. A cracked heat exchanger on a gas furnace can put carbon monoxide in the house, so we turn that furnace off and recommend replacing it, permit included. With electric heat, the bill tells you a lot. If yours jumps in an ordinary month, burned-out elements or a blower struggling against a clogged filter are the first things we check.',
       },
     ],

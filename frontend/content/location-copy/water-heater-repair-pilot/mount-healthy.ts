@@ -32,7 +32,7 @@ export const mountHealthy: LocationServiceCopy = {
         body: 'Give it a few minutes of thought before calling. Back-to-back showers empty a small apartment tank fast, and it reheats on its own. A temperature dial knocked during cleaning, a gas valve left off, or a tripped breaker on an electric unit all stop hot water without a fault. A gas pilot that went out can be lit by the label if there’s no gas smell. Tenants should still let the landlord know. The real repair calls are water on the floor, a rotten-egg smell from the hot tap, popping or rumbling, or scorch marks at the burner. We diagnose and quote before any work.',
       },
       {
-        title: 'Repair or Replace Your Mount Healthy Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Mount Healthy?',
         body: 'The water heater’s age decides it, not the building’s. Find the install date on the tank’s label. A newer heater with a failed thermocouple, gas valve, element or thermostat is a repair. So are relief valves, anode rods and dip tubes. A tank leaking from the body is done and needs replacing. In a rental, the owner makes that decision, and we give them both prices in writing. We pull the permit where one is needed. If a landlord asks about tankless for a unit, we’ll price it as an option, nothing more.',
       },
     ],

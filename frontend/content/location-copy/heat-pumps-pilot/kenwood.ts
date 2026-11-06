@@ -32,7 +32,7 @@ export const kenwood: LocationServiceCopy = {
         body: 'In a Kenwood condo or a 1970s house, a cold room is often a setting. The thermostat belongs on heat, not cool or off. Replace a clogged filter. Your panel holds a breaker for the unit outside and one for the indoor side; reset any that tripped. Clear snow and leaves from the outdoor unit. During defrost it puffs steam, frosts lightly and rests its fan a few minutes. When heat returns after that, cancel the visit. Grinding outside, an aux heat light that won’t go out, or ice that stays all day means book us. We test and price it first.',
       },
       {
-        title: 'Repair or Replace Your Kenwood Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Kenwood?',
         body: 'Let the outdoor unit’s label decide, not the year the house went up. A worn capacitor or fan motor on a unit with plenty of life left gets repaired. The hard call comes with a refrigerant leak or a compressor that won’t start; on an older unit we write up the repair and the replacement as two prices for you to weigh. Condo owners should ask the association who owns the outside unit before anyone replaces it. Duke Energy Ohio delivers Kenwood’s power, and a heat pump losing ground often shows up there first, as a winter bill bigger than last year’s.',
       },
     ],

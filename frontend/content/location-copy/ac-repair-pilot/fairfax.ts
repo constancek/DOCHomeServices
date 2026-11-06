@@ -32,7 +32,7 @@ export const fairfax: LocationServiceCopy = {
         body: 'Rule out the cheap causes first. A filter caked with dust, a thermostat knocked onto heat or fan-only, and a tripped AC breaker all stop cooling, and fixing them costs nothing; if the house cools again afterward, skip the appointment. Fairfax basements add one more: the pump that lifts condensate from the furnace into a drain. If its reservoir is brimming, the safety switch kills the AC. Phone us once ice keeps reappearing on the lines or the condenser fan refuses to spin. Our technician diagnoses at both ends and names the failed part, then waits for your yes on the price. Then they check supply temperatures room by room.',
       },
       {
-        title: 'Repair or Replace Your Fairfax AC?',
+        title: 'Repair or Replace Your AC in Fairfax?',
         body: 'Judge the equipment, not the house. The house may be from the 1940s, yet the condenser outside could be from last decade, and its nameplate date tells you whether repairs will pay off. Worth fixing: a mid-life unit with a single dead motor or switch. Usually not worth it: an aging unit whose compressor has seized, or an indoor coil leaking on top of the furnace. Size any new system to the ductwork these houses have. Fairfax requires a village Zoning Certificate before building work, and we take care of whatever permit applies. Rising Duke Energy Ohio bills with no change in habits mean a tired system.',
       },
     ],

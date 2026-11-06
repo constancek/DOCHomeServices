@@ -32,7 +32,7 @@ export const evendale: LocationServiceCopy = {
         body: 'Plenty of cold-tap calls don’t need us. After laundry and a string of showers, the tank just has to catch up. The knob on the control may have been knocked lower, or the gas cock may be turned off. An electric unit may have a flipped breaker. If the pilot went out and the basement smells normal, the relighting steps are printed on the heater. You do need us for water on the floor, hot water that smells like rotten eggs or runs brown, a pilot that won’t hold, or soot near the burner. We test, quote, and wait for your yes.',
       },
       {
-        title: 'Repair or Replace Your Evendale Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Evendale?',
         body: 'Read the sticker on the heater, not the deed. Plenty of Evendale houses from the 1980s may already be on a second tank, and the install date tells you more than the year the house was finished. A faulty thermostat, worn anode rod, bad relief valve or broken dip tube can each be swapped. A tank seeping through its own seams is beyond any part. You get both figures and you decide. On a new heater we handle the permit and check the flue and gas connection before lighting it.',
       },
     ],

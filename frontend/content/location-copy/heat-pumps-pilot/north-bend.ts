@@ -36,7 +36,7 @@ export const northBend: LocationServiceCopy = {
         body: 'A few minutes with the controls often settles it. Look at the thermostat mode; cool or off can pass for a breakdown. A filter matted with dust chokes a heat pump faster than a furnace, so fit a new one. The outdoor unit and the furnace each have a breaker in the panel, and a trip on either stops the heat pump. Rake away anything the wind has piled on the outdoor coil. Defrost throws up steam, leaves a white film and parks the fan briefly, and that’s fine. Warm air again means no visit needed. Ice that stays, a lit backup light or grinding means book us.',
       },
       {
-        title: 'Repair or Replace Your North Bend Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in North Bend?',
         body: 'Judge the heat pump itself. A house from 2005 can still have its original unit, and a house from 1925 can have one put in last year. Most fixes on a sound unit are small: a contactor, a fan motor, a defrost sensor. A refrigerant leak or a dead compressor is the real decision, and we price both options side by side. Because the furnace covers for a failed heat pump, the warning sign here is often a gas bill that climbs while the house feels normal. Equipment that sat in floodwater usually needs replacing. On a replacement, we handle the permit.',
       },
     ],

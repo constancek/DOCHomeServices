@@ -32,7 +32,7 @@ export const evendale: LocationServiceCopy = {
         body: 'Many Evendale service calls end at the filter. Put a fresh one in, set the thermostat to cool, and check the panel for a tripped condenser breaker. Cold air returning means no appointment needed. Book one when the condenser clicks but never runs, water collects around the furnace, or the coil frosts again after the airflow is sorted. The technician examines the coil over your furnace and the unit outside, explains the fault in plain words, and quotes a fixed price before touching anything. After the repair, we read the supply temperature together so you can see the difference.',
       },
       {
-        title: 'Repair or Replace Your Evendale AC?',
+        title: 'Repair or Replace Your AC in Evendale?',
         body: 'Check the outdoor unit’s label, because a house built in 1982 rarely still runs its 1982 air conditioner. When a reasonably healthy system loses one part, such as a fan motor or contactor, repair it. When an older unit’s compressor dies or the coil above the furnace springs a leak, putting more money in rarely pays. Evendale’s Building Department issues HVAC permits on its Mechanical, Fire Suppression, and Storage Tank Permit Application, and we file it on replacements. Before that point, the electric bill from Duke Energy Ohio often gives it away, since a system short on refrigerant runs longer every afternoon.',
       },
     ],

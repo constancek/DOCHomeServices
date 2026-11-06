@@ -32,7 +32,7 @@ export const collegeHill: LocationServiceCopy = {
         body: 'Before booking, look at the breaker panel and pull the filter. Heat pump owners should also confirm the thermostat isn’t on emergency or auxiliary heat, a setting that sends warm air whatever the season. If one of those was the problem, fixing it yourself saves you the visit. Call for a technician when the outdoor coil ices over in July or the compressor clicks and never starts. We test the outdoor unit plus the indoor air handler or furnace, tell you what broke, and give you a flat price to approve. With the repair finished, we run the system on cooling and check the air at your vents.',
       },
       {
-        title: 'Repair or Replace Your College Hill AC or Heat Pump?',
+        title: 'Repair or Replace Your AC or Heat Pump in College Hill?',
         body: 'Because a heat pump runs in every season, it wears out sooner than an air conditioner that sits idle all winter. If it is younger than about 10 to 12 years and one part has failed, repair it. Beyond that age, a dead compressor or reversing valve generally makes replacement the better buy. In a 1960s house, we also check whether the existing ducts can move the airflow new equipment requires. Inside city limits, replacement takes a City of Cincinnati mechanical permit, which we arrange. Meanwhile, a heat pump low on refrigerant falls back on its electric backup heat in winter, which shows on the Duke Energy Ohio bill.',
       },
     ],

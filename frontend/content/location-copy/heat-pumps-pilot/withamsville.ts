@@ -32,7 +32,7 @@ export const withamsville: LocationServiceCopy = {
         body: 'Tenants can check a few things first. The thermostat should be set to heat. A filter you can reach should be clean. If you have panel access, both heat pump breakers should be on, one for the outdoor unit and one for the air handler. Snow or leaves around the outdoor unit block airflow. Steam and a brief fan stop on a cold day are a defrost cycle and nothing to report. If the heat returns, nobody needs to call us. Report ice that never clears or an emergency heat light that stays on. For owners, we inspect, explain the fault, price it for approval and test after.',
       },
       {
-        title: 'Repair or Replace Your Withamsville Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Withamsville?',
         body: 'Owners should judge the heat pump, not the building. A Withamsville complex from the 1980s may have replaced its outdoor units more than once, and a fan motor or capacitor on a recent one is a repair. A refrigerant leak or a failed compressor on an aging unit is the point to compare costs, and we price both. Where tenants pay the electric bill, a heat pump running on backup strips shows up as complaints about high Duke Energy bills, often before anyone reports no heat.',
       },
     ],

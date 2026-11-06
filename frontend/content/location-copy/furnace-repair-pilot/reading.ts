@@ -32,7 +32,7 @@ export const reading: LocationServiceCopy = {
         body: 'Rule out the simple stuff first. The thermostat should read heat, with fresh batteries in it. The furnace’s wall switch should be up and its breaker on. A filter you can’t see light through needs changing, and the front panel must be latched, because many furnaces won’t fire with it loose. Warm air again means no technician. A gas smell is never a check: leave the switches alone, don’t relight anything, and call the gas company once you’re outside. If the carbon monoxide alarm goes off, everyone gets out first. For short cycling or cool air, we find the cause, price it for your approval and test the heat afterward.',
       },
       {
-        title: 'Repair or Replace Your Reading Furnace?',
+        title: 'Repair or Replace Your Furnace in Reading?',
         body: 'Judge it by what’s in the basement, not when the house was built. Plenty of 1950s Reading houses have a recent furnace, and when the inducer motor or control board fails on a newer unit, fixing it is the sensible call. A cracked heat exchanger is different. It can leak carbon monoxide into the rooms you live in, so we leave that furnace shut down and price a replacement. A new furnace goes through the city’s building department, and we pull that permit. Short of a failure, a gas bill that keeps rising through a normal winter usually means the furnace is slipping, worth a look before it quits.',
       },
     ],

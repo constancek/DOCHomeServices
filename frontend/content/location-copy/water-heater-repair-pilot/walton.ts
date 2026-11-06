@@ -32,7 +32,7 @@ export const walton: LocationServiceCopy = {
         body: 'Some Walton calls are over before the van leaves. After a houseful of showers, the tank just needs time to heat again. A dial bumped while someone stored things beside it gives tepid water. Electric heaters stop when the panel breaker flips. Gas heaters stop when the supply handle is closed or the pilot is out, and with no gas odor the printed steps on the jacket explain relighting. Ring us when the floor under it gets wet, the tap runs rust-brown, or the tank knocks and rumbles. A pilot that keeps dying is ours as well. We test, give a fixed quote, and repair only after your okay.',
       },
       {
-        title: 'Repair or Replace Your Walton Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Walton?',
         body: 'Go by the heater’s sticker, not the house. A pre-1940 house near South Main can hold a tank from last year, and a 2005 subdivision house may still run its original. Swapping a thermocouple, control valve, element or thermostat is routine, and so is a new relief valve, anode rod or dip tube. A shell that rust has eaten through can’t be saved, so we quote a new heater next to the fix. Older Walton basements sometimes need a fresh vent connector or shutoff along with the tank, and we say so before quoting. Kentucky inspects plumbing statewide, and our office files any permit needed.',
       },
     ],

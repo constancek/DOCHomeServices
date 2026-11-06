@@ -32,7 +32,7 @@ export const woodlawn: LocationServiceCopy = {
         body: 'Woodlawn renters can run quick checks, then ring the landlord. Back-to-back showers empty a closet tank, and the cure is waiting, not a technician. The dial might have been bumped. Electric units stop when their breaker trips; gas units stop with the supply handle shut, and the pilot can be relit from the printed steps only if nobody smells gas. Get us there for a puddle beneath the tank, electric heat that stays lukewarm all day, popping and rumbling, or a side valve that has let go more than once. We find the fault, quote the owner, then fix and test.',
       },
       {
-        title: 'Repair or Replace Your Woodlawn Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Woodlawn?',
         body: 'Judge the heater, not the building. Its sticker gives the install date, and a Woodlawn unit from after 1980 may already be on heater number two. Elements and thermostats on electric tanks, thermocouples and gas controls on gas ones, plus side valves, anode rods and dip tubes, all count as repairs. A shell that weeps water means replacement. Woodlawn landlords and owners see both figures and pick. Tankless can make sense in a house, though in a closet apartment a standard tank is normally the practical swap.',
       },
     ],

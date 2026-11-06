@@ -32,7 +32,7 @@ export const northside: LocationServiceCopy = {
         body: 'A warm Northside house is not always a broken AC. Swap a dirty filter, put fresh batteries in the thermostat and reset a tripped breaker once. If cold air comes back, skip the service visit. Keep an eye on the furnace too, because its blower moves the cooled air. When the outdoor unit runs but almost nothing comes out of the registers, the blower or its capacitor is the likely fault. Book a technician for that, or when ice forms on the copper line. We check the system end to end and explain the cause. The flat-rate quote comes before any work, and we confirm vent temperatures afterward.',
       },
       {
-        title: 'Repair or Replace Your Northside AC?',
+        title: 'Repair or Replace Your AC in Northside?',
         body: 'The age of the condenser settles it, not the age of the house. One failed part on a unit under about 12 years old, such as a capacitor or contactor, is worth fixing. A compressor failure on an older system, or an R-22 unit that needs refrigerant, points to replacement. In Northside’s pre-1940 homes, look at the furnace as well. A new outdoor unit paired with a worn blower won’t move enough air to cool the upper floors. Meanwhile a dirty outdoor coil or a slow leak adds compressor hours to your Duke Energy Ohio bill, and you can hose the coil clean yourself with the power off.',
       },
     ],

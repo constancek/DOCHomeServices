@@ -32,7 +32,7 @@ export const monroe: LocationServiceCopy = {
         body: 'A lot of Monroe calls get solved before we’re booked. Showers, laundry and a dishwasher run together will empty a tank; it refills hot in a while. A storage bin pushed against the front can turn the dial down. Gas units need their supply cock open; electric ones need the breaker on. With no gas odor, the label explains how to relight a pilot. We’re needed for a puddle under the tank, a relief valve that keeps letting go, sulfur-smelling water, or an electric heater stuck on lukewarm. We diagnose, quote, then retest.',
       },
       {
-        title: 'Repair or Replace Your Monroe Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Monroe?',
         body: 'The date on the heater’s label matters more than the year your Monroe house went up. Many homes here still run the tank the builder installed, and some of those are close to done, but if the steel is still dry and only the gas valve, thermostat or dip tube failed, that’s a repair. Once water comes through the tank wall, it needs replacing, and we quote that beside any repair still possible so you can compare. We file the permit for any replacement. A tankless unit is an option to ask about, not something we push.',
       },
     ],

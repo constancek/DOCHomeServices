@@ -32,7 +32,7 @@ export const summerside: LocationServiceCopy = {
         body: 'Plenty of Summerside calls need no visit at all. Closet tanks in the apartments are small, and a second shower right after the first can leave only cold; an hour later it’s back. A dial knocked gives tepid taps. Electric units stop when the panel breaker flips. Gas units stop with the supply handle shut or the pilot out, and with no gas odor you can relight by the steps printed on the jacket. Phone us once the carpet by the closet gets wet, the hot water runs brown, or the tank cracks and rumbles. Tenants should tell the landlord first. We test, quote and repair after approval.',
       },
       {
-        title: 'Repair or Replace Your Summerside Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Summerside?',
         body: 'Most Summerside buildings went up in the 1970s and 1980s, yet the heater inside may be just a few years old, so read its sticker before deciding anything. A worn thermocouple or burned element gets fixed. A stuck gas valve, faulty thermostat or noisy relief valve does too, and anode rods and dip tubes swap out easily. Once the steel shell itself weeps, there’s no saving it. You see a repair figure and a replacement figure side by side. Condo and apartment closets are tight, so we measure the opening and door before quoting a new unit. Tankless comes up only if you raise it.',
       },
     ],

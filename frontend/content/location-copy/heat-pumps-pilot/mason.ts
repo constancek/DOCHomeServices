@@ -32,7 +32,7 @@ export const mason: LocationServiceCopy = {
         body: 'Confirm the thermostat says heat. A dusty filter gets swapped. In the panel, the outdoor unit and the indoor air handler each have a breaker; both belong in the on position. Kick away drifted snow and piled leaves from the outdoor unit. Vapor and a parked fan for a few minutes are a defrost; leave it be. If that brings the heat back, you can skip us. Call when ice keeps crusting the coil or a heat setting gives cool air. Gas smell by the furnace means leave, then call the gas company from outside. We diagnose and quote first.',
       },
       {
-        title: 'Repair or Replace Your Mason Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Mason?',
         body: 'Judge it by the heat pump’s own years, not the house’s. Builders across Mason set a lot of units between 1990 and 2009, and plenty of those are still the originals. On one of those, a leak in the refrigerant circuit or a compressor that has quit is when we write a replacement quote beside the repair quote. The same failure on a younger unit usually gets fixed. In an all-electric house, a Duke Energy bill that leaps in an ordinary month tells you the backup strips are doing the heat pump’s work.',
       },
     ],

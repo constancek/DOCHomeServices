@@ -32,7 +32,7 @@ export const bondHill: LocationServiceCopy = {
         body: 'Some Bond Hill no-heat calls end before we arrive. If the thermostat reads cool or off, that’s the whole problem; set it to heat. Change a gray, matted filter. Check the panel for two tripped switches, the outdoor unit’s and the furnace’s, and flip either back. Clear snow and wet leaves off the cabinet outside. A plume of steam and the fan going quiet for a minute or two is the unit defrosting. Heat restored means no visit needed. We should come out if ice won’t melt, cooling won’t switch off, or the backup furnace never lights. Gas smell at the furnace: leave first, call from outside.',
       },
       {
-        title: 'Repair or Replace Your Bond Hill Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Bond Hill?',
         body: 'The house’s age says little; the heat pump’s install date says a lot. Many 1920s and 1940s Bond Hill houses only got a heat pump in the last few years, and a new fan motor or defrost board on one of those is a sensible fix. An older system that has leaked its refrigerant, or lost its compressor, gets two written prices from us: repair and replace. Dual fuel hides a weak heat pump, because the furnace quietly takes more of the load and the Duke Energy gas bill rises. Replacements need a permit from the city’s Buildings & Inspections department, and we pull it.',
       },
     ],

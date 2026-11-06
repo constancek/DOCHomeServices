@@ -36,7 +36,7 @@ export const saylerPark: LocationServiceCopy = {
         body: 'In a Sayler Park house, try the simple fixes first. Switch the thermostat from cool to heat. Slide in a clean filter. Flip back a tripped breaker once, whether it feeds the outside cabinet or the furnace and air handler. Pull leaves and snow away from the outside cabinet. Defrost can bring steam, a thin frost and the fan resting briefly, all expected. Warm air back means skip the call. Call if ice builds and stays, the furnace never fires, or the outdoor fan won’t move. If you smell gas at the furnace, get out and call from outside. We find it, price it, fix it and test it.',
       },
       {
-        title: 'Repair or Replace Your Sayler Park Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Sayler Park?',
         body: 'Base the call on the heat pump, not the house. Half of Sayler Park went up before 1940, and the heat pump on one of those houses could be new or decades old, so read its label. A bad fan motor, capacitor or defrost control on a sound unit is a repair. A refrigerant leak or a seized compressor on an older one is where we put both prices in front of you. The city’s Department of Buildings & Inspections issues the replacement permit, and we pull it. With a gas furnace as backup, a weak heat pump shows up as rising gas use on the Duke Energy bill.',
       },
     ],

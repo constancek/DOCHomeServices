@@ -32,7 +32,7 @@ export const mountAuburn: LocationServiceCopy = {
         body: 'A few warm-house problems fix themselves before anyone visits. Replace a filter that’s gone gray, swap the thermostat batteries and give the system 20 minutes. If cold air returns at the vents, keep your money. In the newer Mount Auburn apartments, make sure the heat pump thermostat says cool, not heat or auto. Frost on the indoor coil, or an outdoor fan sitting still, is when to book us. Renters should go through the landlord, who normally arranges and pays for the work. We inspect the full system, describe the fault plainly and give one flat price to approve, then check the registers are blowing cold.',
       },
       {
-        title: 'Repair or Replace Your Mount Auburn AC?',
+        title: 'Repair or Replace Your AC in Mount Auburn?',
         body: 'A 19th-century house on Auburn Avenue can have a condenser put in five years ago, so read the equipment label, not the house. Fewer than about 12 years on the label and one broken part: we fix it. Older than that with its compressor gone: replace it, under a mechanical permit pulled through the city’s Department of Buildings & Inspections. Houses from 1939 or earlier got their ductwork long after they were built, so the new system has to suit what those ducts can move, and the panel needs checking. A slow leak or dirty outdoor coil stretches every compressor cycle, and the Duke Energy Ohio bill climbs first.',
       },
     ],

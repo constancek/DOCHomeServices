@@ -32,7 +32,7 @@ export const avondale: LocationServiceCopy = {
         body: 'Before an Avondale owner or tenant books anything, check the basics. Thermostat in heat mode with live batteries. Furnace switch on. Breaker not tripped. Filter clean. The access panel latched, because many apartment furnaces sit dead while it’s loose. When heat comes back after that, no visit is needed. If you notice a gas smell, leave every switch alone, step outside and call Duke Energy from the sidewalk. A carbon monoxide alarm means clearing the unit of people before anything else. For a genuine fault, our technician tests the furnace, explains the broken part, prices it for approval and measures the heat at the registers when finished.',
       },
       {
-        title: 'Repair or Replace Your Avondale Furnace?',
+        title: 'Repair or Replace Your Furnace in Avondale?',
         body: 'An old Avondale building can hide a fairly young furnace. Many 1920s apartments here picked up electric units during later rehabs, and when one of those loses an element or sequencer, repairing it is money well spent. Gas is another story once the heat exchanger cracks, because carbon monoxide can drift into the apartment through the gap. That furnace gets shut down and priced for replacement. For a new furnace, the City of Cincinnati Department of Buildings & Inspections issues the mechanical permit, and we take care of that for the owner.',
       },
     ],

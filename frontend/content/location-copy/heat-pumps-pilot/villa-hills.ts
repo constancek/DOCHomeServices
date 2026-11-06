@@ -36,7 +36,7 @@ export const villaHills: LocationServiceCopy = {
         body: 'In a Villa Hills house, start at the wall: the thermostat should read heat, and cool or off won’t do. A clogged filter gets swapped for a fresh one. The panel has a breaker for the condenser out back and another for the indoor air handler; flip back whichever tripped. Rake snow and debris off the outside cabinet. Defrost puts on a show, with a puff of steam, thin frost and the fan resting briefly, and that is normal. Heat back on means no visit. Ice that never melts, grinding, or an emergency heat light glowing nonstop means call. You approve a price before we repair anything.',
       },
       {
-        title: 'Repair or Replace Your Villa Hills Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Villa Hills?',
         body: 'Decide on the heat pump, not the house. Villa Hills houses mostly date from 1960 to 1999, and the outdoor unit beside one may be far newer than the walls around it. A pitted contactor, a dead defrost sensor or a seized outdoor fan motor usually means a repair. A compressor failure, or a coil that keeps leaking refrigerant, is when you should see a replacement quote alongside the repair. On a dual fuel setup, hearing the gas furnace fire on a mild afternoon is a hint the heat pump has quit. Replacement needs a Kentucky permit, and we handle it.',
       },
     ],

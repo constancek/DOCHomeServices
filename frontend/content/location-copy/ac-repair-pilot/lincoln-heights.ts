@@ -32,7 +32,7 @@ export const lincolnHeights: LocationServiceCopy = {
         body: 'Tenants can test a few things without tools: the apartment’s breaker, the thermostat mode (cool, not heat or emergency heat), and the filter if the lease permits changing it. Cold air returning means the problem is solved. Otherwise the next move is a written note to the landlord or management office, not a call to us. Owners should schedule a visit when the condenser won’t run or water gathers under the air handler. Our technician tests the system end to end, reports the fault to the owner and waits for the fixed price to be approved. Once repaired, the vents should blow cold, and we check that.',
       },
       {
-        title: 'Repair or Replace Your Lincoln Heights AC?',
+        title: 'Repair or Replace Your AC in Lincoln Heights?',
         body: 'The equipment nameplate settles this for a Lincoln Heights rental, not the year the building went up. Heat pumps carry the heating load in winter and the cooling in summer, so they wear out sooner than a unit that only cools. Repair a system with life left in it and one failed part. Replace an old one after a compressor failure or a second refrigerant leak. We handle the permit for any replacement. Until then, a weak heat pump stays on for longer stretches, and the extra electricity lands on whoever pays utilities.',
       },
     ],

@@ -32,7 +32,7 @@ export const beckettRidge: LocationServiceCopy = {
         body: 'Plenty of no-heat calls here end before a technician is needed. Confirm the thermostat says heat and its batteries still work. The furnace’s power switch looks like a light switch; it should be up, and the breaker on. A grey, matted filter goes in the trash. The furnace door must sit snug, or the safety switch behind it keeps everything off. If one of those fixes it, skip the service call. A gas smell is different: leave switches untouched, make no attempt to relight, and phone the gas company from the yard. Otherwise we test, explain and quote first.',
       },
       {
-        title: 'Repair or Replace Your Beckett Ridge Furnace?',
+        title: 'Repair or Replace Your Furnace in Beckett Ridge?',
         body: 'Size up the furnace, not the house. Many 1980s Beckett Ridge homes already traded their first furnace for a newer one, and when it loses an igniter, flame sensor or inducer motor, fixing it is the sensible move. An older unit that needs a costly part gets a replacement quote too, and you see both numbers. A cracked heat exchanger can pass carbon monoxide into living space, which makes it a safety question before a money one. Should the CO alarm sound, everybody leaves the house first. With a heat pump, a Duke Energy Ohio bill that climbs in an ordinary month often flags trouble early.',
       },
     ],

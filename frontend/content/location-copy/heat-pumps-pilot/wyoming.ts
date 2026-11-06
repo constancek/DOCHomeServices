@@ -36,7 +36,7 @@ export const wyoming: LocationServiceCopy = {
         body: 'Rule out the easy things. The thermostat must be on heat, since a setting left on cool from autumn is a common culprit. Put in a clean filter. Check the outdoor unit’s breaker and the furnace’s, because a dual fuel system needs both. Rake leaves and clear snow from around the outdoor unit. A short stretch of steam and frost with the fan stopped is defrost, and it’s normal. If heat returns, you don’t need us. Call when ice won’t leave the coil, the system stays in cooling or the outdoor fan grinds. We test, explain and agree the price first.',
       },
       {
-        title: 'Repair or Replace Your Wyoming Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Wyoming?',
         body: 'Look at the heat pump’s age, not the 1954 median for Wyoming homes. A fan motor, capacitor or contactor on a sound unit is a repair. A failed compressor or a recurring refrigerant leak on an older unit is where we price both repair and replacement, and in a gas house you can stay warm on the furnace while you choose. The city’s Community Development Department issues replacement permits, and in the Village Historic District we check with the city first. A weak heat pump shows up as more gas use, because the furnace takes over sooner.',
       },
     ],

@@ -32,7 +32,7 @@ export const turpinHills: LocationServiceCopy = {
         body: 'Plenty of no-cool calls end with a filter. Put a fresh one in the furnace, confirm cool mode on the thermostat, and flip a tripped AC breaker back once. If cold air returns, save your money. In a finished lower level, make sure the condensate pump is plugged in and its tube is clear. Phone us if the condenser fan won’t spin, the breaker keeps tripping, or frost creeps along the refrigerant line. Our technician inspects the furnace, coil and condenser, tells you what failed, and quotes a fixed price for your okay. We then take temperatures at the supply vents.',
       },
       {
-        title: 'Repair or Replace Your Turpin Hills AC?',
+        title: 'Repair or Replace Your AC in Turpin Hills?',
         body: 'Trust the manufacture date stamped on the outdoor unit over the year the house went up. A 1972 Turpin Hills house could have a 2019 outdoor unit that just needs one part. Once equipment passes about 12 years and the compressor dies, or the coil above the furnace leaks for a second time, replacement usually wins. Size any new system to the ducts already in the walls instead of copying the old tonnage, because too much capacity on 1970s ductwork short-cycles. Permit filing on a replacement is ours. Until you decide, a dirty condenser or a refrigerant leak makes every cooling cycle drag, and July’s electric bill reflects it.',
       },
     ],

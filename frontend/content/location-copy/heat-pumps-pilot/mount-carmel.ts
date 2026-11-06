@@ -36,7 +36,7 @@ export const mountCarmel: LocationServiceCopy = {
         body: 'Several Mount Carmel calls end with a phone conversation. Set the thermostat to heat, since cool or off stops both halves of a dual fuel system. Look at the filter and replace it if it’s clogged. The outdoor unit and the indoor unit each have a breaker; reset a tripped one only once. Clear leaves or snow off the outdoor cabinet. Steam, light frost and a short fan pause are the defrost cycle. If heat comes back, you don’t need us. Book a visit when the coil stays iced, the auxiliary heat light stays on or the unit grinds. We inspect, explain and quote first.',
       },
       {
-        title: 'Repair or Replace Your Mount Carmel Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Mount Carmel?',
         body: 'Base the call on the heat pump, not on when the house went up. Many mid-century Mount Carmel houses have outdoor units far younger than the walls, and a worn fan motor or bad defrost board on one of those is a repair. A seized compressor, or refrigerant that drains away again after a recharge, is the point to see a replacement price beside the repair. In the apartments, a Duke Energy bill that leaps in a mild month means the strips are carrying the heat. In a dual fuel house, rising gas use tells the same story. We arrange any permit.',
       },
     ],

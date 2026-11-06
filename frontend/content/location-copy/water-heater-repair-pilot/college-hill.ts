@@ -32,7 +32,7 @@ export const collegeHill: LocationServiceCopy = {
         body: 'Plenty of College Hill homes can skip the visit. A family that just ran baths, laundry and the dishwasher may have used up the tank, and it’ll recover if you leave it be. The temperature control on the front may have been bumped. Electric units go dark on a tripped breaker. Gas units need the supply valve open and a burning pilot; relight it from the label’s printed steps only if the basement air smells clean. Book us when water pools under the tank, the hot water comes out rusty, the burner shows scorch marks, or the pilot won’t hold. We find the cause and quote before we start.',
       },
       {
-        title: 'Repair or Replace Your College Hill Water Heater?',
+        title: 'Repair or Replace Your Water Heater in College Hill?',
         body: 'The install date on the heater’s label is what counts; the age of the house is beside the point. A 1950s College Hill house may well hold a tank fitted recently, and a worn gas valve, element, thermostat or dip tube there is worth fixing. Water escaping through the tank body is past saving, and a new heater is the answer. You get both prices and pick. For a replacement, the permit is on us. Anyone pushing tankless should explain why; it suits some houses, not all.',
       },
     ],

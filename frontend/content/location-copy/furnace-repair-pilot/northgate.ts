@@ -32,7 +32,7 @@ export const northgate: LocationServiceCopy = {
         body: 'Rule out the simple causes first. Check that the thermostat is on heat and the batteries are good, then look at the furnace switch and the breaker panel; electric furnaces often have two breakers, and both have to be on. Replace a dirty filter and make sure the furnace door is fully closed, because a loose door holds most furnaces off. If heat returns, no visit is needed. Call when a breaker trips again, the air stays lukewarm, or a gas furnace won’t stay lit. If you smell gas, leave without touching switches and call the gas company once you’re outside. We inspect, explain, price and test.',
       },
       {
-        title: 'Repair or Replace Your Northgate Furnace?',
+        title: 'Repair or Replace Your Furnace in Northgate?',
         body: 'Go by the equipment. A Northgate house from 1969 can have a furnace or heat pump that went in a few years ago, and a new element or capacitor on it is money well spent. A gas furnace with a cracked heat exchanger is another matter: it can leak carbon monoxide, so we turn it off and show you the crack. If the carbon monoxide alarm sounds, get everyone outside first. On electric heat, a Duke Energy bill that jumps in an ordinary month often means a failing element or a heat pump running on backup. For a replacement, we handle the permit.',
       },
     ],

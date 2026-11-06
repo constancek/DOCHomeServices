@@ -32,7 +32,7 @@ export const dent: LocationServiceCopy = {
         body: 'In a Dent condo or house, run through these yourself first. Heat should be the thermostat setting; cool or off gives you nothing. Slide out the filter, and if it’s caked, fit a clean one. The panel has one breaker for the outdoor unit and one for the indoor air handler, and a tripped one can be reset. Brush snow and leaves off the outdoor unit. During defrost it may steam, frost lightly and stop its fan briefly; that’s by design. Heat coming back means we aren’t needed. Book us if the ice stays, emergency heat won’t turn off, or you hear grinding. You approve the price before we start.',
       },
       {
-        title: 'Repair or Replace Your Dent Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Dent?',
         body: 'Look at the age of the equipment rather than the house. Lots of Dent homes are still on the heat pump the builder put in, and when a capacitor, contactor or fan motor dies on one, fixing it often makes sense. Once the compressor quits, or the refrigerant keeps leaking out, you should see a replacement price beside the repair price. Duke Energy supplies power here; a Duke bill that spikes in a normal winter month usually means the backup strips are covering for the heat pump. Replacements can be financed.',
       },
     ],

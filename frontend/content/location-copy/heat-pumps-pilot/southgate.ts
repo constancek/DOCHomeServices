@@ -36,7 +36,7 @@ export const southgate: LocationServiceCopy = {
         body: 'Try a few things in your Southgate home first. Set the thermostat to heat; if someone switched it to emergency heat, the heat pump sits idle while the strips run up the bill. Swap a filter that has gone gray. The outside unit and the indoor air handler each have their own breaker, so flip back whichever tripped. Kick snow or ice away from the outside unit. Steam, a thin coat of frost and a fan that pauses briefly mean it is defrosting. When warm air comes back, save the call. A unit buried in ice that stays put, or grinding outside, needs us, and we price it first.',
       },
       {
-        title: 'Repair or Replace Your Southgate Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Southgate?',
         body: 'Base the call on the heat pump, not the building. A Southgate house from the 1930s or an apartment from the 1980s can have a heat pump of any age, and a stuck reversing valve solenoid or a worn contactor on a younger unit is a repair. A failed compressor or refrigerant that keeps leaking from an older system is where we quote replacement next to repair. We file the permit. In an all-electric home, an electric bill that leaps while the weather is steady usually means the heat strips have taken over from a heat pump that is losing ground.',
       },
     ],

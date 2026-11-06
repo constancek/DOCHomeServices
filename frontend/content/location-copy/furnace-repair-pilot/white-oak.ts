@@ -32,7 +32,7 @@ export const whiteOak: LocationServiceCopy = {
         body: 'If you smell gas, skip all of this: leave, don’t touch switches, and call the gas company from outside. Otherwise, run through the basics. The thermostat should be on heat with fresh batteries, and the power switch near the furnace and its breaker should both be on. Replace the filter if you can’t see light through it, and seat the front panel, since a loose door holds a safety switch open. Heat back on means you can skip the visit. Call us for burners that won’t light, a lingering burning smell or a blower that won’t stop. We find the cause, quote it, repair it and test the heat.',
       },
       {
-        title: 'Repair or Replace Your White Oak Furnace?',
+        title: 'Repair or Replace Your Furnace in White Oak?',
         body: 'Judge the furnace by its own age and condition. A White Oak house from the 1950s may be on its third furnace, so the house tells you little. A new igniter, pressure switch or blower motor is a fair repair on a furnace that’s otherwise sound. A cracked heat exchanger can let carbon monoxide into the living space, so that furnace stays off until it’s replaced. If repairs come every winter, the money is better spent on new equipment, and we take care of the permit. On electric heat, watch your Duke Energy Ohio bill: a furnace with a weak element runs longer to keep up.',
       },
     ],

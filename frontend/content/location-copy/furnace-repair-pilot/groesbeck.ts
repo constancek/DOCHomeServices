@@ -32,7 +32,7 @@ export const groesbeck: LocationServiceCopy = {
         body: 'Look over a few things first. The thermostat should be on heat and set warmer than the room, with live batteries. Find the furnace’s power switch and the panel breaker; a larger electric furnace may use two breakers, and either can trip. Swap a dusty filter, then latch the blower door tight, because a loose one keeps most furnaces off. When warm air comes back, you don’t need a visit. If gas is in the air, leave lights and switches untouched, relight nothing, get everyone out and ring the gas company from the yard. For other faults our technician finds the cause and gives you a flat price.',
       },
       {
-        title: 'Repair or Replace Your Groesbeck Furnace?',
+        title: 'Repair or Replace Your Furnace in Groesbeck?',
         body: 'The typical Groesbeck house dates from 1970, but that says little about the furnace, so read the date on its label. A younger gas furnace with a dead inducer motor or control board deserves the repair, and so does an electric furnace with burned elements or a bad sequencer. A cracked heat exchanger is different: it can leak carbon monoxide, so that furnace stays off. When the CO alarm goes, empty the house first and call from outside. We pull the replacement permit if it comes to that. Until then, compare this winter’s bills with last year’s; a failing furnace runs up the bill before it stops.',
       },
     ],

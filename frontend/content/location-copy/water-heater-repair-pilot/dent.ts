@@ -32,7 +32,7 @@ export const dent: LocationServiceCopy = {
         body: 'Rule out the easy ones before booking. Several showers back to back leave a Dent tank empty for a while, and it refills hot on its own. A gas knob bumped toward low, or a gas cock someone closed, gives the same result. Electric units in townhouses stop when their breaker trips, so check the panel. A pilot that’s out with no gas odor can be relit by the printed steps on the heater. Real faults look different: a wet floor around the base, a sulfur smell from the hot tap, a crackling rumble, or lukewarm water from an electric tank. We diagnose and quote ahead of any repair.',
       },
       {
-        title: 'Repair or Replace Your Dent Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Dent?',
         body: 'In Dent the house is often as old as the heater, because many homes still have the tank the builder set. Check the sticker on the jacket for the date. A worn thermocouple, gas control, element, thermostat, relief valve, anode or dip tube is a parts job. Rust seeping from the steel shell means the tank is done, and no patch will hold. We put a repair figure and a replacement figure side by side and you choose. Condo owners should see what the association covers before booking. Tankless gets quoted if you ask for it.',
       },
     ],

@@ -32,7 +32,7 @@ export const cherryGrove: LocationServiceCopy = {
         body: 'With nearly half of Cherry Grove on electric heat, start with the thermostat. If it shows emergency heat or heat, switch it to cool and wait 15 minutes. Then replace a dirty filter and reset the outdoor breaker once if the unit is silent. Cold air back means no visit needed. Book us if the heat pump ices up in summer, the outdoor fan won’t turn, or the house won’t drop below the setting by evening. The technician checks the outdoor unit and the air handler, explains the fault, and quotes a flat price you approve first. We confirm cooling at the vents afterwards.',
       },
       {
-        title: 'Repair or Replace Your Cherry Grove AC?',
+        title: 'Repair or Replace Your AC in Cherry Grove?',
         body: 'A Cherry Grove house built in 1971 has likely outlived several outdoor units, so the year on the deed won’t help you decide. The date on the equipment will. Fix a heat pump still in its first decade when a single component quits. Lean toward replacing one close to 15 whose compressor or reversing valve has failed, keeping in mind the new unit will heat the house all winter as well. We handle the permit. Meanwhile, your Duke Energy Ohio statements tell a story: a leaking heat pump runs extra hours in July and calls on its electric strips in January.',
       },
     ],

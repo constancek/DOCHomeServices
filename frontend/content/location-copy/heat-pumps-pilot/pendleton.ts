@@ -36,7 +36,7 @@ export const pendleton: LocationServiceCopy = {
         body: 'Start at the thermostat: it needs to read heat. Pull the filter; if light won’t pass through it, replace it. The panel has a breaker for the rooftop or courtyard unit and a second for the closet air handler, and a tripped one gets one reset, no more. Knock snow off the outdoor unit if you can reach it safely. Defrost looks dramatic, with steam and a fan that goes quiet briefly, but it’s routine. Heat back on means you don’t need us. Persistent ice, an auxiliary light that never clears, or a grinding fan means you do. We diagnose and quote before any repair.',
       },
       {
-        title: 'Repair or Replace Your Pendleton Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Pendleton?',
         body: 'Judge the heat pump itself, not the pre-1940 building around it. In buildings this old the heat pump came later, so the outdoor unit’s nameplate date matters more than the address. When a defrost board or fan motor quits on an otherwise healthy unit, we fix it. When an aging unit’s coil leaks or its compressor dies, you see a repair price and a replacement price together. Replacements in Pendleton need a mechanical permit from the city’s Department of Buildings & Inspections, and we pull it. A Duke Energy bill that jumps without a cold snap usually means backup strips are heating the apartment.',
       },
     ],

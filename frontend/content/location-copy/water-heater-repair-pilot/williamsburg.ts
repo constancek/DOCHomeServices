@@ -32,7 +32,7 @@ export const williamsburg: LocationServiceCopy = {
         body: 'Some Williamsburg calls end with a shrug and no bill. A tank emptied by a houseful of showers refills cold and needs a stretch to recover. A dial on the gas control can get bumped while someone stores boxes nearby. Electric tanks go dead when their double breaker trips. If a gas pilot is out and the basement smells normal, the lighting steps printed on the heater are safe to follow. Once hot water is back, you’re done. Water collecting at the base, brown hot water, or soot and scorching at the burner opening mean we should come. We inspect, explain, agree the price and test the taps.',
       },
       {
-        title: 'Repair or Replace Your Williamsburg Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Williamsburg?',
         body: 'Ignore the date the house went up and read the rating plate on the heater. Williamsburg has 1930s homes running tanks barely broken in. A thermocouple, a gas control, a relief valve or a spent anode rod is a repair; on electric units, so are elements and thermostats. When the steel body itself starts weeping, no part will save it, and we tell you so. Both prices go on paper and the choice is yours. In the older village basements, a corroded vent connector or a frozen shutoff often comes out with the old tank, and we list that, and any county permit, before work starts.',
       },
     ],

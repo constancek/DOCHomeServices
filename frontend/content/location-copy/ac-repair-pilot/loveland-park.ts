@@ -32,7 +32,7 @@ export const lovelandPark: LocationServiceCopy = {
         body: 'Before calling, change the filter, check the thermostat and look at the breaker. If cooling comes back and lasts the afternoon, you don’t need us. In older Loveland Park houses, also make sure the supply vents in the back rooms are open and not blocked by furniture, since those ducts are small to begin with. Call when the breaker trips again or the outdoor unit hums with the fan stopped. We inspect the system and explain what went wrong, then give you a flat price to approve first. After the repair we measure the air coming out of the vents.',
       },
       {
-        title: 'Repair or Replace Your Loveland Park AC?',
+        title: 'Repair or Replace Your AC in Loveland Park?',
         body: 'The age of the equipment matters more than the age of the house. A 1930s lot house might have a condenser that’s a few years old, and a fan motor on that one is worth fixing. A system that came with a 2000s house and has a failed compressor is usually worth replacing. If your house heats with oil, a replacement is a good time to ask about a heat pump. We’ll price both. We handle the permit on either side of the county line. Watch your Duke Energy bill: if it rises with normal weather, a slow leak or a dirty coil is the usual reason.',
       },
     ],

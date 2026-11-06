@@ -32,7 +32,7 @@ export const beckettRidge: LocationServiceCopy = {
         body: 'Change the filter, confirm the thermostat is set to cool, and reset the breaker once. If cold air comes back and stays, you don’t need us. On a heat pump, also make sure the thermostat isn’t in emergency heat. Call when the breaker trips a second time or the outdoor unit runs with the fan stopped. Attic units deserve a look at the drain pan, because an overflow there ends up in the ceiling. We test the system, explain the cause, give you a flat-rate price to approve before work, and check the supply air once it’s repaired.',
       },
       {
-        title: 'Repair or Replace Your Beckett Ridge AC?',
+        title: 'Repair or Replace Your AC in Beckett Ridge?',
         body: 'Decide by the equipment’s age. A Beckett Ridge house from 1988 may be on its second outdoor unit, and a recent one with a single bad part is an easy repair. An original heat pump with a failed compressor is a different story, because it has run through decades of summers and winters. Replacing it means a zoning certificate and a county permit, and we take care of both. Watch your Duke Energy Ohio bill too. A heat pump short on refrigerant runs longer and leans on its electric backup heat, so a bill that rises while the weather holds steady is worth a call.',
       },
     ],

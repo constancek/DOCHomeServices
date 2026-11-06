@@ -32,7 +32,7 @@ export const roselawn: LocationServiceCopy = {
         body: 'Try the quick fixes before calling. The thermostat should say heat, and weak batteries should come out. The furnace has its own on-off switch nearby and a breaker in the panel; both need to be on. A gray, matted filter gets swapped for a new one. Many furnaces read a loose front panel as open and won’t run, so press it home. If the heat kicks back in, no visit needed. With a gas smell, flip nothing, step outside and call the gas company. A carbon monoxide alarm means everyone out first. Tenants in bigger buildings report to management; owners call us to inspect, explain, price and retest.',
       },
       {
-        title: 'Repair or Replace Your Roselawn Furnace?',
+        title: 'Repair or Replace Your Furnace in Roselawn?',
         body: 'Base it on the furnace, never the age of the building. Plenty of 1960s Roselawn apartments run furnaces installed in the last few years, and when one loses an igniter or a pressure switch, repairing it makes sense. A cracked heat exchanger changes the question: carbon monoxide can reach the living space, so that furnace stays off and we quote a replacement. Inside city limits, replacements go through the City of Cincinnati Department of Buildings & Inspections, and we file the permit. A Duke Energy Ohio gas bill rising in a normal winter is often the first sign a furnace is working harder than it should.',
       },
     ],

@@ -32,7 +32,7 @@ export const wyoming: LocationServiceCopy = {
         body: 'Before booking anything, put the thermostat on cool, replace a matted filter and reset the breaker once. If the air turns cold, you’re done and don’t need us. In a Village-area house with a cooling coil added above an old furnace, also check the condensate line for a clog, since a full pan can shut the system off. Get a technician when the fan outside won’t turn or ice covers the suction line. We look at both units and show you the fault, then quote a flat rate. The repair begins with your approval, and we measure the air at the registers afterwards.',
       },
       {
-        title: 'Repair or Replace Your Wyoming AC?',
+        title: 'Repair or Replace Your AC in Wyoming?',
         body: 'Very few Wyoming homes were built since 2000, so nearly every house here has outlived at least one air conditioner. Read the condenser label. A dozen years or younger with one bad part means repair. An older unit with a seized compressor or a coil that weeps refrigerant means replace. Ducts in 1950s and older houses were laid out for heat, so we match the replacement to their airflow. A replacement goes through the city’s Community Development Department, with extra requirements in the Village Historic District. Until then, a coil caked in grass clippings and dust keeps the compressor laboring, and Duke Energy Ohio bills every hour of it.',
       },
     ],

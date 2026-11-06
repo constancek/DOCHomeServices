@@ -32,7 +32,7 @@ export const goshen: LocationServiceCopy = {
         body: 'Put the thermostat on heat and give it fresh batteries. Make sure the switch beside the furnace is on and the breaker hasn’t tripped. Look at the filter, and press the furnace door fully shut, because plenty of furnaces refuse to start with that panel loose. Goshen oil homes should read the tank gauge too. If the heat comes back, skip our bill. A gas smell is different: get out, touch no switches, relight nothing, and phone the gas company once you’re outdoors. Otherwise our tech finds the failed part, shows you, quotes a flat price for your yes, then runs a full heating cycle to prove the fix.',
       },
       {
-        title: 'Repair or Replace Your Goshen Furnace?',
+        title: 'Repair or Replace Your Furnace in Goshen?',
         body: 'Look at the furnace, not the house. Goshen Township mixes old homes near the center with plenty built since 2000, and any of them can hide a furnace of any age. One worn part on a healthy unit, like an igniter or blower motor, normally means a repair. A cracked heat exchanger is another story: it can let carbon monoxide into the rooms, so safety comes before price. If the CO alarm goes off, everyone outdoors first, then call. Replacement needs a Clermont County permit, and we file it. Bills warn early: oil deliveries arriving sooner than last winter, or an electric bill spiking in a mild month.',
       },
     ],

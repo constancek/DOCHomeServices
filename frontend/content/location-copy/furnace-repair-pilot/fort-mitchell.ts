@@ -32,7 +32,7 @@ export const fortMitchell: LocationServiceCopy = {
         body: 'Go through the easy list before calling. Thermostat set to heat and holding fresh batteries, furnace switch flipped up, breaker reset, filter replaced if dusty, and the furnace door pushed snug, because a loose door can keep the burner from firing. If that fixes it, save the service call. Fort Mitchell tenants should let the landlord know first, since owners usually decide on repairs; leases aren’t our department, furnaces are. A gas odor means getting out with switches untouched and ringing the gas utility from the sidewalk. If the carbon monoxide alarm sounds, clear the house of people first.',
       },
       {
-        title: 'Repair or Replace Your Fort Mitchell Furnace?',
+        title: 'Repair or Replace Your Furnace in Fort Mitchell?',
         body: 'The furnace’s own date matters, not the deed’s. A 1960 Fort Mitchell ranch might be onto its third furnace, and when that unit is fairly young, a worn igniter, bad pressure switch or failed blower motor deserves the money. A cracked heat exchanger ends that discussion: carbon monoxide can seep from the crack into bedrooms and living rooms, so the furnace gets switched off and we price a replacement, permit filing included. On electric heat, a Duke Energy Kentucky statement climbing while the weather holds steady usually means backup heat kicks on too often.',
       },
     ],

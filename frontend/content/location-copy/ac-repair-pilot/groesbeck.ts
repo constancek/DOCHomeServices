@@ -32,7 +32,7 @@ export const groesbeck: LocationServiceCopy = {
         body: 'Plenty of Groesbeck cooling complaints end before we’re involved. A fresh filter, a thermostat switched to cool and set below the room reading, and one reset of a tripped AC breaker solve plenty. Mobile home owners should also peek under the skirting, since a belly duct hanging open dumps cold air into the ground. If the condenser hums but its fan stays still, or the breaker flips off again, that’s our cue. We look at the furnace and the condenser, show you the failed part, and wait for your yes on a fixed price. Once it’s repaired, a thermometer at the supply vents proves the result.',
       },
       {
-        title: 'Repair or Replace Your Groesbeck AC?',
+        title: 'Repair or Replace Your AC in Groesbeck?',
         body: 'Go by the condenser’s nameplate. The year your Groesbeck house went up says little about the AC beside it. A unit with plenty of service left and one broken part should be fixed. A tired one whose compressor has quit, or whose coil leaks refrigerant above the furnace, is usually better replaced. In a mobile home, the new equipment has to suit the floor duct and the electrical service. Colerain Township wants zoning approval before Hamilton County accepts a building application on most projects, and we work out what your replacement requires. Meanwhile, a Duke Energy Ohio bill that jumps in a mild month points to a unit losing ground.',
       },
     ],

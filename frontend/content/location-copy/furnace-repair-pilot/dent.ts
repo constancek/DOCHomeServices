@@ -32,7 +32,7 @@ export const dent: LocationServiceCopy = {
         body: 'Rule out the simple causes before booking. Your thermostat should read heat, carry new batteries and sit above room temperature. The furnace switch, which looks like an ordinary light switch near the unit, should be on, as should its breaker. A clogged filter or a front panel left unseated will stop plenty of Dent furnaces. Sort one of those out and the heat comes back with no service call. Phone us if the furnace keeps shutting off or the breaker won’t hold. Smelling gas means leaving without touching a switch and calling the gas company from outside. We diagnose, quote a flat rate and test the heat afterward.',
       },
       {
-        title: 'Repair or Replace Your Dent Furnace?',
+        title: 'Repair or Replace Your Furnace in Dent?',
         body: 'Go by the furnace in the closet or basement, not the building’s year. With so much Dent housing built in 2000 or later, the furnace may be the original one, and a failed inducer motor or control board on it is often worth the repair. A cracked heat exchanger flips that, since the crack can send carbon monoxide into living space, so we switch the furnace off and quote a replacement rather than a patch, with the permit handled by us. Short of that, set this winter’s bills beside last winter’s; a short-cycling furnace burns more for the same warmth.',
       },
     ],

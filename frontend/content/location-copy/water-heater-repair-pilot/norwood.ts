@@ -32,7 +32,7 @@ export const norwood: LocationServiceCopy = {
         body: 'In a Norwood basement with two or three heaters, confirm which tank belongs to your unit before anything else. Hot water drained by a morning of showers will return if you’re patient. Look at the knob on the gas control, the breaker for an electric unit, and whether the gas cock handle lines up with the pipe. With zero gas odor, a blown-out pilot can be relit per the printed instructions. Phone us about puddles, brownish or sulfur-scented water, a side relief valve discharging repeatedly, or burn marks low on the tank. Diagnosis and a written flat price precede any repair.',
       },
       {
-        title: 'Repair or Replace Your Norwood Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Norwood?',
         body: 'A Norwood house built before 1940 tells you nothing about the tank in its basement; the rating plate does. On a sound tank, thermocouples, gas valves, elements, thermostats, dip tubes and anode rods are all replaceable, and when one part failed, repair is generally the better spend. A leak through the tank body finishes it, and we quote a new one. Both prices come to you. In a two-family, owners sometimes have us look over the second tank while we’re on site, priced separately. The plumbing permit for a replacement is ours to handle.',
       },
     ],

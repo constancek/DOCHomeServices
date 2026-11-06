@@ -36,7 +36,7 @@ export const taylorMill: LocationServiceCopy = {
         body: 'Look at the thermostat screen; heat is the only mode that helps in winter. A gray, matted filter chokes the airflow, so put in a fresh one. Your panel has a breaker labeled for the condenser outside and another for the air handler. Rake away snow or leaves piled on the outside unit. Frost that melts off with a puff of steam, and a fan that goes still while it does, is ordinary defrost behavior. If warmth returns, you don’t need a visit. Call us when ice keeps building or the emergency heat indicator never goes dark, and we’ll price the fix before touching it.',
       },
       {
-        title: 'Repair or Replace Your Taylor Mill Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Taylor Mill?',
         body: 'A heat pump is judged on its own, whatever the age of the house. A 1950s Taylor Mill house might sit beside an outdoor unit put in recently, and a sticking relay or a cracked fan blade there means a repair bill, not a new system. Compressor failure, or a coil that won’t hold refrigerant, is the point where you should weigh a new unit against fixing the old one, and we write up both. With a gas furnace as backup, a gas bill rising through mild weeks suggests the heat pump has quietly dropped out. Financing is available.',
       },
     ],

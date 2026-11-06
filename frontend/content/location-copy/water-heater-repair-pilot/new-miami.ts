@@ -32,7 +32,7 @@ export const newMiami: LocationServiceCopy = {
         body: 'Plenty of cold-shower mornings in New Miami sort themselves out. Three showers in a row can drain a tank; wait while it recovers. Look at the dial on the gas control, which a broom or a laundry basket can knock lower, and make sure the gas cock to the heater is open or, for an electric unit, that the breaker is up. With no gas odor, the label on the tank walks you through relighting a pilot. Rust-colored or sulfur-smelling water, a puddle, rumbling, or a pilot that won’t hold means us. We diagnose, give the price, fix it on your say-so and run a hot tap before leaving.',
       },
       {
-        title: 'Repair or Replace Your New Miami Water Heater?',
+        title: 'Repair or Replace Your Water Heater in New Miami?',
         body: 'Ignore the house’s age and read the sticker on the heater. A 1950s house in New Miami may be on its fourth tank, and if that tank is a few years old, a new thermocouple, gas control or relief valve keeps it going. Water seeping through the tank’s own steel can’t be fixed; that heater gets replaced. If both paths are open, you see both prices and pick. Older basements also get a look at the flue and the shutoff, because bolting a new tank to a rotted vent pipe leaves the job half done.',
       },
     ],

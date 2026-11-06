@@ -32,7 +32,7 @@ export const addyston: LocationServiceCopy = {
         body: 'Try a few things before you ring your landlord. In a shared flat the thermostat often ends up on cool or off, so put it back on heat. Hold the filter up to a lamp; if no light gets through, swap it. Two breakers feed the system, outside cabinet and indoor blower, so reset whichever tripped. Clear snow and leaves off the outside unit. Steam, light frost and a quiet fan for a few minutes are just defrost. Warm air again means no visit. Ice that stays on the coil all day, an emergency heat lamp lit nonstop or a fan that won’t turn are faults to report.',
       },
       {
-        title: 'Repair or Replace Your Addyston Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Addyston?',
         body: 'In Addyston the building’s age tells you little. 28.9% of homes went up before 1940, and plenty of those old company houses got a heat pump decades later. So we read the nameplate on the outdoor unit. A fairly new system with one bad part, say a contactor or a defrost control, gets fixed. A compressor that has seized, or refrigerant that keeps leaking out of an older system, gets two written prices side by side so the owner can choose. If replacement wins, we handle the permit. Landlords often spot trouble first on the electric bill, when backup strips quietly take over the heating.',
       },
     ],

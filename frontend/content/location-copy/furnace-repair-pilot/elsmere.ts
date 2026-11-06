@@ -32,7 +32,7 @@ export const elsmere: LocationServiceCopy = {
         body: 'Start with the simple checks: thermostat set to heat with fresh batteries, the furnace switch on, the breaker reset once, a clean filter, and the access panel fully seated, because a loose panel keeps many furnaces from running. If heat comes back, there’s no need to book us. Electric furnaces draw heavy current, so a breaker that trips again points to a fault. On gas heat, a smell of gas means leave now, touch no switches and call the gas company once you’re outside. A carbon monoxide alarm means everyone out. Our technician finds the cause, explains it, prices it for your approval and tests the heat afterward.',
       },
       {
-        title: 'Repair or Replace Your Elsmere Furnace?',
+        title: 'Repair or Replace Your Furnace in Elsmere?',
         body: 'Judge the furnace itself, since an Elsmere house from 1970 often holds equipment that’s far newer. Worn heating elements, a sequencer or a blower motor are normal repairs. On a gas furnace, a cracked heat exchanger is a carbon monoxide risk, and we won’t leave it running; that one points to replacement. Kentucky requires a permit for a new furnace, and we take care of it. Your electric bill tells you a lot here. An electric furnace or heat pump losing elements, or stuck on backup heat, pushes winter bills well past last year’s in similar weather.',
       },
     ],

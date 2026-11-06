@@ -32,7 +32,7 @@ export const woodlawn: LocationServiceCopy = {
         body: 'A warm Woodlawn apartment sometimes needs nothing more than a reset. Confirm the thermostat shows cool, find your unit’s breaker in the panel, and change the filter if your lease allows. Cooling again means no service call. Warm air that won’t quit, a wet closet floor or a silent outdoor fan should go to your landlord or leasing office, not to a contractor you hire yourself. Once management books us, the technician tests the heat pump and indoor unit, walks you both through the failure, and holds off until the owner okays the price. Before leaving, we confirm cold air at the registers.',
       },
       {
-        title: 'Repair or Replace Your Woodlawn AC?',
+        title: 'Repair or Replace Your AC in Woodlawn?',
         body: 'Read the manufacture date on the equipment, since the building’s year can mislead. A Woodlawn complex finished in 2005 may now run heat pumps close to 20 years old, while a 1960s house could have a unit put in last spring. One failed component on a young system gets repaired. A compressor that dies after about 12 years usually justifies replacement, and landlords often save by doing several units together. Permit paperwork for replacements is ours. Until then, a heat pump that’s leaking refrigerant cycles longer for the same comfort, and the Duke Energy Ohio bill shows it.',
       },
     ],

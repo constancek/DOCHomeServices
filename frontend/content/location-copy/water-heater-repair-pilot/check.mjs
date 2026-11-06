@@ -38,7 +38,7 @@ for (const [slug, c] of Object.entries(towns)) {
   if (ps.length !== 2) errs.push(`proseSections ${ps.length} (want 2)`);
   ps.forEach((p, i) => range(`proseSections[${i}]`, p.body, 85, 110));
   if (ps[0] && !/^Signs Your Water Heater Needs Repair, and When It Doesn’t$/.test(ps[0].title)) errs.push(`proseSections[0] title should be "Signs Your Water Heater Needs Repair, and When It Doesn’t"`);
-  if (ps[1] && !/^Repair or Replace Your .+ Water Heater\?$/.test(ps[1].title)) errs.push(`proseSections[1] title should be "Repair or Replace Your [Town] Water Heater?"`);
+  if (ps[1] && !/^Repair or Replace Your Water Heater in .+\?$/.test(ps[1].title)) errs.push(`proseSections[1] title should be "Repair or Replace Your Water Heater in [Town]?"`);
   if (![2, 3].includes((c.localFaqs ?? []).length)) errs.push(`localFaqs ${(c.localFaqs ?? []).length} (want 2 or 3)`);
   if ((o.sharedFaqs ?? []).length !== 3) errs.push(`sharedFaqs ${(o.sharedFaqs ?? []).length} (want 3)`);
   [...(c.localFaqs ?? []), ...(o.sharedFaqs ?? [])].forEach((f, i) => range(`faq[${i}] answer`, f.a, 35, 60));

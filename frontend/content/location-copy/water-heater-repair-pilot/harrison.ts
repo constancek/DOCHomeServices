@@ -32,7 +32,7 @@ export const harrison: LocationServiceCopy = {
         body: 'Try the easy checks first. When the whole family showers in a row, the tank may just be empty, so give it time. In Harrison, electric tanks quit when the breaker trips. A knocked dial gives tepid water. On gas, the valve handle should sit in line with the pipe, and a blown-out pilot can be relit using the label’s steps if there’s no gas smell. We’re the call for water on the floor, popping, rust-colored or sulfur-smelling hot water, or a relief valve that keeps discharging. Diagnosis and a flat price come first, and you decide from there.',
       },
       {
-        title: 'Repair or Replace Your Harrison Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Harrison?',
         body: 'This one comes down to the heater, not the house. Even in a house in Harrison built in 2010, only the tank’s sticker gives its age. On electric units, elements and thermostats are everyday repairs; on gas units it’s the thermocouple or the gas control. Relief valves, anode rods and dip tubes are fixable too. A leak through the tank body means a new heater. You get both prices, and financing is available. A heater that sat under the August flood stays off until we’ve checked it, even if it seems to run.',
       },
     ],

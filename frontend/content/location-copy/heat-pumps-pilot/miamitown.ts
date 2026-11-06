@@ -36,7 +36,7 @@ export const miamitown: LocationServiceCopy = {
         body: 'The thermostat has to say heat; on cool or off, the apartment just sits cold. If the lease allows it, change a gray, matted filter. Look in your unit’s panel for a breaker that flipped. Many outdoor units sit out of a tenant’s reach, so ask maintenance to clear snow and ice from them. During defrost, vapor and a fan stopped for a few minutes are expected. Heat returning means nobody needs to come out. Owners, book us for a coil that stays frozen, aux heat that never cuts off or a grinding unit. We diagnose, quote, fix after approval and test.',
       },
       {
-        title: 'Repair or Replace Your Miamitown Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Miamitown?',
         body: 'The heat pump’s own condition settles it; the building’s age doesn’t. Miamitown’s apartment stock mostly went up from the 1970s through the 1990s, and many of those heat pumps have been swapped since. One unit with a burnt contactor or tired fan motor gets fixed. An aging unit whose compressor has quit, or whose refrigerant leak returns, gets a replacement price next to the repair price. Anything that sat in floodwater is tested before anyone decides. When an all-electric apartment’s power bill leaps, the backup strips are probably doing the heating. We take care of the permit on a replacement.',
       },
     ],

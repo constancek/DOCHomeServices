@@ -32,7 +32,7 @@ export const hydePark: LocationServiceCopy = {
         body: 'Plenty of warm afternoons need no technician. Slide in a clean filter, double-check that the thermostat says cool, and if the vents go cold again you’re done. In a finished basement, also make sure the condensate pump by the furnace is plugged in and draining. Book a repair once the outdoor fan won’t spin up or the coil ices again with a fresh filter. Downstairs and outside, our technician works through the equipment, names the failed part, and puts a flat price in front of you before touching anything. Afterward we read the supply air temperature at the registers so you know it worked.',
       },
       {
-        title: 'Repair or Replace Your Hyde Park AC?',
+        title: 'Repair or Replace Your AC in Hyde Park?',
         body: 'Most Hyde Park houses are far older than their air conditioners, so the outdoor unit’s label matters more than the deed. Under roughly 12 years with one bad part, fix it. Past that, with a burned-out compressor or a leaking coil on the furnace, price new equipment sized to what your existing ductwork can carry. Prewar ducts were rarely sized for cooling, so a bigger unit isn’t automatically better. Whatever permit the job calls for, we pull it. Before you decide, a refrigerant leak or a dirty outdoor coil keeps the compressor running long, and Duke Energy Ohio bills you for every extra minute.',
       },
     ],

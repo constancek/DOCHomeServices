@@ -32,7 +32,7 @@ export const golfManor: LocationServiceCopy = {
         body: 'Put the thermostat in heat mode and give it new batteries. Look for the furnace’s service switch, a plain light switch that’s easy to bump off, then check the breaker and the filter. Push the furnace door closed until it seats; plenty of models refuse to fire with that panel ajar. Once heat returns, you can skip the visit. A gas smell is different: leave every switch and the pilot alone, take everyone out, and ring the gas company from the curb. Past that point we examine the furnace, explain the fault, get your yes on a price and watch a complete heating cycle before leaving.',
       },
       {
-        title: 'Repair or Replace Your Golf Manor Furnace?',
+        title: 'Repair or Replace Your Furnace in Golf Manor?',
         body: 'Let the furnace decide, not the house. A 1950s Golf Manor home might hold a furnace installed only a few winters back, and a dead igniter or inducer motor in that one is a repair. A cracked heat exchanger puts things in another category. Carbon monoxide can work through the crack and into living space, making it a safety decision before a money one, and we’ll show you the evidence. If the carbon monoxide alarm sounds, clear the house and call from outdoors. A replacement requires a village permit, handled by us. Meanwhile, track the gas bill; longer run times in mild weather usually mean a fault worth tracing.',
       },
     ],

@@ -32,7 +32,7 @@ export const hydePark: LocationServiceCopy = {
         body: 'Several fixes are yours to try. Set the thermostat to heat and change a dirty filter. Find the heat pump’s two breakers, outdoor and indoor, and switch on either one that tripped. Dig the outdoor unit out of snow or leaves. Some steam and frost, with the fan stopping briefly, is the defrost cycle working. If the heat comes back, you don’t need us, but a renter should mention it to the landlord. Call for ice that won’t clear or a system stuck on cool. If the furnace smells of gas, get out and call the gas company from outside. We inspect and quote before any repair.',
       },
       {
-        title: 'Repair or Replace Your Hyde Park Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Hyde Park?',
         body: 'Let the equipment decide, since a Hyde Park house approaching 100 years can easily hold a heat pump installed recently. On a young system, a worn capacitor or fan motor gets fixed. When an aging one leaks refrigerant or loses its compressor, we put the repair figure next to the cost of a new system so you can weigh them. Long, undersized duct runs can make a healthy heat pump seem weak, so we measure airflow before faulting the equipment. In an all-electric home, a Duke Energy charge that spikes during an ordinary month usually points to the backup strips doing the heating.',
       },
     ],

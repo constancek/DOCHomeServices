@@ -32,7 +32,7 @@ export const kennedyHeights: LocationServiceCopy = {
         body: 'Some Kennedy Heights no-heat calls end at the thermostat, so start there: it should read heat, not cool or off. Swap a clogged filter. In the breaker panel, the outdoor unit and the inside furnace or air handler each have a switch, and both belong on. Brush snow and leaves off the outside cabinet. Defrost sends up steam, leaves light frost and stops the fan for a moment, and that’s expected. If warm air comes back, you’re set. Call us when ice stays on the coil for hours, the emergency heat light won’t go out or the system won’t leave cooling. You see the problem and the price first.',
       },
       {
-        title: 'Repair or Replace Your Kennedy Heights Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Kennedy Heights?',
         body: 'Read the outdoor unit’s label before you think about the house. Census data puts 46.4% of Kennedy Heights homes before 1940, but many heat pumps here went in decades later. A worn fan motor or a burnt contactor on a fairly young unit gets repaired. A refrigerant leak or a dead compressor on an old one is when replacing it makes sense, so we quote both and let you weigh them. A weakening heat pump shows up on the bill: with gas backup, the furnace runs more and the Duke Energy Ohio gas bill climbs; in an all-electric apartment, the electric bill does.',
       },
     ],

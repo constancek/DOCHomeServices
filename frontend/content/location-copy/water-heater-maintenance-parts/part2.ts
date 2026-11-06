@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Queensgate water heater maintenance is mostly commercial work on units that run all day. The warehouses and light-industrial buildings near the rail yards push hard water through constantly, so sediment builds faster than in a home. We flush the tank, inspect the anode rod and test the relief valve.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. The water heaters serving these buildings often run continuously, and on the region’s hard water that constant demand drives sediment into the tank faster than in a typical home.',
-      'For Queensgate property owners, routine maintenance avoids the downtime a failed heater causes. A flush clears the heavy sediment load that builds under commercial use, an anode-rod inspection catches the rust that shortens a tank’s life, and a relief-valve test confirms the safety device still works on a hard-running unit. On the low ground near the Mill Creek, staying ahead of corrosion with a regular schedule is what keeps these heaters reliable.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the maintenance needs we handle most often come from heaters running constantly on hard water:',
-    localFaqs: [
-      {
-        q: 'Do you handle water-heater maintenance for commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we maintain the tank and tankless units in those buildings with flushes, anode-rod checks, and relief-valve tests on a schedule that limits downtime.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'In CUF, water heater maintenance is the cheap way to avoid a tank failure during the school year. Student rentals across Clifton Heights, University Heights and Fairview cycle constantly, and hard water drives sediment in fast. We flush the tank, check the anode rod and test the relief valve.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'How fast can you schedule water-heater maintenance in South Cumminsville?',
         a: 'South Cumminsville is within our service area in the Mill Creek valley, so we can usually arrange a flush and anode-rod inspection within a day or two.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'English Woods water heater maintenance tends to start with a tank that has run for years untouched. Older homes on this hilltop over the Mill Creek valley sit on hard water that keeps adding sediment. We flush it, check the anode rod for rust and test the relief valve.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. Its older homes hold water heaters that have usually run for years untouched, and on the region’s hard water the sediment quietly builds at the bottom of the tank.',
-      'A yearly tune-up keeps an English Woods tank working as it should. Flushing clears the settled sediment so the burner runs efficiently, an anode-rod inspection catches internal rust before the tank steel gives way, and a relief-valve test confirms the safety device still functions. For owners here, that simple routine is how an aging heater reaches its full service life rather than failing early.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the maintenance needs we handle most often come from tanks long overdue for a flush:',
-    localFaqs: [
-      {
-        q: 'How fast can you schedule water-heater maintenance in English Woods?',
-        a: 'English Woods is within our west-side service area, so we can usually book a flush and anode-rod inspection within a day or two of your call.',
       },
     ],
   },

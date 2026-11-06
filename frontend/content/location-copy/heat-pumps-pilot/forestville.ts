@@ -32,7 +32,7 @@ export const forestville: LocationServiceCopy = {
         body: 'Run four quick tests before you book. Look at the thermostat screen: it needs to say heat. Slide the filter out; a gray, clogged one starves the air handler, so put in a clean one. The panel has a breaker for the outside unit and another for the inside one, and a tripped switch gets one reset. Townhouse units wedged between neighbors collect drifts, so dig yours out. Steam, light frost and a fan that idles for a few minutes are just defrost. Warm air again means you can skip the call. Book us when ice stays put or the outdoor fan sits still, and we price it first.',
       },
       {
-        title: 'Repair or Replace Your Forestville Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Forestville?',
         body: 'Look at the heat pump’s own history. A Forestville house built in the 1980s or 1990s may be on its first heat pump or its second, and that difference decides more than anything. A failed defrost thermostat or a loose terminal on a recent unit is a repair. A refrigerant leak or a failed compressor on an original unit is when we lay a repair quote next to a replacement quote. If your Duke Energy bill jumps while the weather holds steady, the backup heat strips are likely picking up slack for a weakening heat pump.',
       },
     ],

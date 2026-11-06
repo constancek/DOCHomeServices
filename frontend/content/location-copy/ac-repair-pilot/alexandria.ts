@@ -32,7 +32,7 @@ export const alexandria: LocationServiceCopy = {
         body: 'Before calling anyone, try what an owner can. Change the filter, make sure the thermostat is set to cool and its screen isn’t blank, then flip a tripped breaker back one time. After mowing, look for clippings caked on the outdoor coil and rinse them away gently. If the house begins to cool, skip the technician. Get in touch when the condenser hums while its fan stands still, or the breaker trips once more. We test the outdoor unit and the indoor side and point out what failed, with a flat price stated up front. The repair happens only after your yes, followed by a full test cycle.',
       },
       {
-        title: 'Repair or Replace Your Alexandria AC?',
+        title: 'Repair or Replace Your AC in Alexandria?',
         body: 'Look at the equipment, not the house. Some Alexandria homes are on their original system and some on a second, and houses built since 2000 are likelier to have the first. Young equipment with one failed part gets repaired. A compressor giving out on an aging unit usually means replacement, which needs a Kentucky permit through the county that we file for you. With so many homes here heated electrically, a fading heat pump shows on the electric bill through every season, whichever utility serves your street.',
       },
     ],

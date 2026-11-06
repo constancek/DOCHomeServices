@@ -32,7 +32,7 @@ export const eastWestwood: LocationServiceCopy = {
         body: 'A few checks come first. Several showers in a row can leave an East Westwood apartment tank empty for a while, and it refills hot on its own. A dial turned low by a previous tenant is common. Electric heaters stop when the breaker in the unit panel trips. Gas heaters stop if the shutoff is closed or the pilot is out; relight following the printed instructions only when there’s no gas odor. Tenants send the rest to the landlord in writing. Owners should call us for water on the floor, brown or smelly water, rumbling, or a relief valve that keeps venting. We diagnose, quote, repair, retest.',
       },
       {
-        title: 'Repair or Replace Your East Westwood Water Heater?',
+        title: 'Repair or Replace Your Water Heater in East Westwood?',
         body: 'The sticker on each heater shows its install date, and in a rental building those dates can vary unit to unit. Most fixes are one component: the pilot sensor, the gas control, an element, a thermostat, the pressure valve, the anode or the inlet tube. A tank whose steel shell is leaking has to go, because nothing repairs it. When either answer is reasonable, owners see both prices together and choose. Landlords with many units often repair some and replace others. Replacements in the city need a Buildings & Inspections permit, which we pull.',
       },
     ],

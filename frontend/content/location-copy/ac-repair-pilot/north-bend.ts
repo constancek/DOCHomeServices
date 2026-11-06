@@ -32,7 +32,7 @@ export const northBend: LocationServiceCopy = {
         body: 'Not every North Bend breakdown needs us. A grey, matted furnace filter is worth swapping, then let it run an hour. Make sure the thermostat is on cool and below room temperature. A tripped AC breaker gets reset one time. If it trips again, that’s our job, and so is an outdoor fan that won’t budge or water gathering at the furnace base. Our technician tests the outdoor unit and the furnace coil and names the fault plainly. Work begins only after you accept a flat price, and it ends with a temperature check at a supply register.',
       },
       {
-        title: 'Repair or Replace Your North Bend AC?',
+        title: 'Repair or Replace Your AC in North Bend?',
         body: 'Plenty of North Bend homes are already on a second air conditioner, so the year the house went up is a poor guide. Go by the condenser’s data plate instead. Equipment under a decade old with a single bad part should be repaired. Near 15 or beyond, a compressor on its way out or a coil that keeps leaking usually tips it to replacement, and because gas heats most homes here, look at the furnace’s age in the same decision. We take care of the permit for a replacement. Before anything breaks, an electric bill that rises in an unremarkable summer often means a system straining.',
       },
     ],

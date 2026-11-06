@@ -32,7 +32,7 @@ export const fortThomas: LocationServiceCopy = {
         body: 'Check the simple causes before you book. Hot water spent on a run of showers or a long laundry day comes back once a Fort Thomas basement tank has had time to reheat. The control knob can get turned by accident. Electric units go cold when their breaker trips. Gas units stop when the supply handle is closed or the pilot goes out; with no gas odor, relight it using the steps printed on the heater. When those don’t help, or you find a wet floor, brown or sulfur-smelling water, or a relief valve opening, call us. We inspect and quote first.',
       },
       {
-        title: 'Repair or Replace Your Fort Thomas Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Fort Thomas?',
         body: 'Ignore the deed and find the sticker on the heater; it shows when the tank went in. A Fort Thomas house from 1955 could easily be on a tank put in last winter. Bad thermocouples, control valves, elements, thermostats, relief valves, anodes and dip tubes come out and get replaced on a tank whose steel is still tight. When water pushes through the wall of the tank itself, the whole heater goes. We write up both prices if both are open to you. A state plumbing inspector covers Campbell County, and we pull the permit where one is needed. Ask about tankless and it goes on the quote too.',
       },
     ],

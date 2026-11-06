@@ -32,7 +32,7 @@ export const mountAiry: LocationServiceCopy = {
         body: 'Not every Mount Airy call needs a truck. A tank drained by a row of showers just needs time to heat again. Check the front dial, which gets brushed in narrow closets, the breaker if it’s electric, and the gas knob if it’s gas. A pilot that blew out can be relit following the sticker, provided nothing smells of gas. We should come when water collects under the heater, hot water runs rusty, the relief valve opens a second time, or an electric unit never gets beyond lukewarm. Tenants tell the landlord first. We diagnose, quote, repair on approval and test.',
       },
       {
-        title: 'Repair or Replace Your Mount Airy Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Mount Airy?',
         body: 'Let the water heater’s sticker decide, not the building’s year. Elements, thermocouples, relief valves, thermostats, anode rods, gas controls and dip tubes are repairs. Water seeping through the tank shell means replacement, no way around it. For closet installs in Mount Airy apartments we also check clearances and whether a drain pan is in place, because a closet leak ends up in the neighbor’s ceiling. Repair and replacement prices sit side by side for you or the owner. Tankless comes up only if the space suits it and you ask.',
       },
     ],

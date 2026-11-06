@@ -32,7 +32,7 @@ export const paddockHills: LocationServiceCopy = {
         body: 'Some Paddock Hills cooling complaints end without a technician. A clogged filter, a thermostat bumped onto heat, or a breaker that tripped in a storm can each stop the cold air, and you can sort all of them. If the vents run cold again within the hour, you’re done. Book a visit if the condenser hums but its fan never turns, if frost grows on the thicker refrigerant pipe, or if a puddle forms under the indoor coil. Apartment residents go to the manager first, since the building owns that equipment. We test the full system, explain what broke and agree a flat price before working.',
       },
       {
-        title: 'Repair or Replace Your Paddock Hills AC?',
+        title: 'Repair or Replace Your AC in Paddock Hills?',
         body: 'Look for the manufacture date on the condenser’s data plate. Almost nothing in Paddock Hills has been built after the 1970s, so the building’s age says little and the equipment decides. A unit younger than a dozen years that lost a capacitor or contactor earns a repair. An older one with a seized compressor, or one that keeps losing refrigerant, usually earns a replacement. Putting in new equipment at a Paddock Hills address takes a city mechanical permit through Buildings & Inspections. A matted outdoor coil, meanwhile, keeps the compressor running and shows up on Duke Energy Ohio statements.',
       },
     ],

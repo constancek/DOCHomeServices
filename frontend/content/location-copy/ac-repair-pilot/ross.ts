@@ -32,7 +32,7 @@ export const ross: LocationServiceCopy = {
         body: 'Start with the filter, the thermostat and the breaker. A clogged filter can freeze the indoor coil, and if a new one plus a few hours with the system off brings the cold air back, you don’t need a technician. Call us if the breaker trips again after a reset or ice keeps forming on the copper line outside. On the visit we check the condenser, the indoor coil and the blower, tell you what failed and why, give you a flat-rate price to approve, and measure the air at the vents once it’s fixed.',
       },
       {
-        title: 'Repair or Replace Your Ross AC?',
+        title: 'Repair or Replace Your AC in Ross?',
         body: 'Judge the equipment, not the house. A Ross ranch from 1972 may have a condenser that went in a few summers ago, and a worn part on that unit is worth fixing. A system well past ten years old with a dead compressor or a large leak is usually better replaced, and since Ross Township has no building department, we take care of the permit. Before it gets that far, the electric bill tells you a lot. A system low on refrigerant or choked with dirt runs much longer to keep up, so a summer bill that climbs while the weather stays steady means it’s time for a look.',
       },
     ],

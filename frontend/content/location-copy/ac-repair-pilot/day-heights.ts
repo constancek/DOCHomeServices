@@ -32,7 +32,7 @@ export const dayHeights: LocationServiceCopy = {
         body: 'In an older Day Heights house, a clogged filter is the first suspect, so replace yours before anything else. Next, switch the thermostat to cool, a little under the room temperature, then look in the electrical panel for a breaker resting in the middle position. Cold air back means no visit needed. We should come out when the condenser won’t start, the larger copper pipe outside grows frost, or a reset breaker trips within minutes. Your technician checks the condenser and coil and describes the fault in everyday language. You see and approve a fixed price first, and the system gets tested with you once the repair is finished.',
       },
       {
-        title: 'Repair or Replace Your Day Heights AC?',
+        title: 'Repair or Replace Your AC in Day Heights?',
         body: 'Go by the outdoor unit’s label, not the year the house was built, because most Day Heights homes have moved on from their first air conditioner. When a reasonably young system loses one part, a contactor perhaps, fix it. When aging equipment loses its compressor or the coil starts leaking for a second time, put the money into new equipment. If oil heats the house and the furnace is old too, plan both jobs together. Where Miami Township needs a zoning certificate, we get it, then file with Clermont County Permit Central. A climbing summer electric bill at an unchanged setting often signals decline.',
       },
     ],

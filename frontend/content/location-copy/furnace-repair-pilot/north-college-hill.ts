@@ -32,7 +32,7 @@ export const northCollegeHill: LocationServiceCopy = {
         body: 'In a lot of North College Hill basements, the furnace shutoff looks exactly like a light switch, and someone flips it off by mistake. Check that one, the breaker, and a thermostat set to heat with working batteries. Rental furnaces in particular go a season without a filter change; pull it, and if it’s grey and matted, replace it. Push the blower door until it clicks, or the safety switch holds the furnace off. Heat back on? You can skip us. Repeated shutdowns or no flame mean call. Gas smell means touch nothing electrical, get out, call the gas company. We diagnose, quote, repair and retest.',
       },
       {
-        title: 'Repair or Replace Your North College Hill Furnace?',
+        title: 'Repair or Replace Your Furnace in North College Hill?',
         body: 'Check the date on the furnace, since the house date says little. A 1952 Cape Cod running a furnace from a few winters back deserves a repair when one part gives out. A worn unit that wants a control board this year and an inducer next year deserves a harder look. Cracks in the heat exchanger let carbon monoxide out, so we switch that furnace off and show you the crack. If a carbon monoxide alarm sounds, get everyone outside first, then call. Gas bills that rise in a normal winter often point to a furnace losing ground. Replacements need a city Building Department permit, and we file it.',
       },
     ],

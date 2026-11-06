@@ -32,7 +32,7 @@ export const lovelandPark: LocationServiceCopy = {
         body: 'Set the thermostat to heat and swap its batteries, then look at the breaker and the switch on or near the furnace. A packed filter or a furnace door left loose can stop the system too, since many units won’t run until the door is seated. Any of those fixes means you don’t need us. Call when a breaker trips twice, or the furnace runs without warming the rooms. If you smell gas, don’t flip switches or relight anything; leave and call the gas company from outside. A carbon monoxide alarm means everyone out first. We find the cause, price it for your approval and test the heat.',
       },
       {
-        title: 'Repair or Replace Your Loveland Park Furnace?',
+        title: 'Repair or Replace Your Furnace in Loveland Park?',
         body: 'Go by the furnace’s condition, not the year the house went up. An older lot home may hold a recent furnace, and a newer house can have a worn one. One failed part on a sound unit is normally worth repairing. A cracked heat exchanger on a gas or oil furnace can leak carbon monoxide, so that’s a safety decision and we won’t patch it. On the Warren County side, replacement goes through the Warren County Building Department; on the Hamilton County side, we handle the permit. In all-electric homes, a Duke Energy Ohio bill that jumps in a normal winter often means backup heat is doing the work.',
       },
     ],

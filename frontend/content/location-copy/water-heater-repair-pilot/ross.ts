@@ -32,7 +32,7 @@ export const ross: LocationServiceCopy = {
         body: 'Ross homeowners can rule out a few things. A tank that fed three showers and the laundry has used up its hot water and will catch up. Check whether the setting on the control got knocked lower. An electric heater may have tripped its two-pole breaker; a gas one may have its supply handle turned crosswise to the pipe, which means off. With no gas odor, a dead pilot can be lit following the steps on the jacket. Warm taps again mean no call. A drip from the tank, discolored water, or the relief valve spitting more than once does. We diagnose, explain, quote a flat rate and retest.',
       },
       {
-        title: 'Repair or Replace Your Ross Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Ross?',
         body: 'For a Ross water heater, the rating plate decides, not the 1972 date on the house. That house may be on its third tank by now, or its first. Thermocouples, gas controls, elements, thermostats and relief valves get replaced; so do worn anode rods and cracked dip tubes. A shell leaking through its own steel means a new heater, no exceptions. You see both prices and pick. Butler County Building & Zoning handles building permits in the township, and we pull one when the job requires it. A basement shutoff that won’t seat fully gets flagged in the quote.',
       },
     ],

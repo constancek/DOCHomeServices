@@ -32,7 +32,7 @@ export const bromley: LocationServiceCopy = {
         body: 'Try the Bromley homeowner checks first. A thermostat on cool or off gives no heat, so put it on heat. Pull a dirty filter and fit a new one. Look in the panel for two breakers, one for the outdoor unit and one for the furnace or air handler downstairs, and reset either if tripped. Get snow or leaves off the unit in the yard. Frost, a puff of steam and a fan that halts briefly come with defrost. Warm again? No visit needed. Phone when the coil keeps icing, the auxiliary light never clears, or the fan blade won’t move. Leave flooded equipment switched off.',
       },
       {
-        title: 'Repair or Replace Your Bromley Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Bromley?',
         body: 'A Bromley house from the 1920s can easily carry a heat pump only a few years old, so read the unit’s label, not the deed. On a younger unit, a burned-out fan motor or a defrost control that quit is worth fixing. An older heat pump that has lost its refrigerant or its compressor gets two prices from us, repair and replacement. River water changes the question entirely: equipment that sat in it gets tested before we quote anything. If the Duke Energy Kentucky bill rises in a month with ordinary weather, the backup heat may be carrying the house. We pull the permit on replacements.',
       },
     ],

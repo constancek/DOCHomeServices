@@ -32,7 +32,7 @@ export const addyston: LocationServiceCopy = {
         body: 'Start small. Three Addyston showers in a row can drain a tank, and an hour of patience may be the whole fix. Someone brushing past can turn the dial. Electric units go cold when their breaker drops; gas units go cold when the supply handle is crossways to the pipe. With zero gas odor, the label on the tank walks you through a pilot relight. Book us if water gathers beneath it, the hot side smells of sulfur or comes out orange, the pilot dies again, the bottom pops loudly, or the side valve has spat water twice. Tenants go through the landlord.',
       },
       {
-        title: 'Repair or Replace Your Addyston Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Addyston?',
         body: 'Look for the install date printed on the tank’s sticker; a 1920s Addyston house can hold a fairly young heater. Parts we swap on a tank that still holds water: thermocouples, gas controls, heating elements and their thermostats, the side relief valve, anode rods, dip tubes. Once the steel shell itself weeps, no part will save it, and you need a new heater. You get both numbers and make the call. Nearly all of the village is on the National Register as a historic district, yet that listing by itself sets no design review for an indoor tank swap. Any permit needed, we pull.',
       },
     ],

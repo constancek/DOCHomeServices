@@ -32,7 +32,7 @@ export const taylorMill: LocationServiceCopy = {
         body: 'Rule out the free fixes first in Taylor Mill. Back-to-back showers can drain a tank, and the next one just takes reheating. The front dial may have been nudged. An electric heater sits idle with its breaker tripped, and a gas heater goes cold if the pilot went out or the supply knob was shut; relight using the label only when there’s no gas odor. Ring us for pooling water, a relief valve that keeps letting go, hot water that smells of rotten eggs, or scorch marks near the burner. We locate the fault, and you approve the price before the repair.',
       },
       {
-        title: 'Repair or Replace Your Taylor Mill Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Taylor Mill?',
         body: 'The tank decides, not the Taylor Mill house around it. A 1950s basement can hold a heater fitted recently, and the label gives the date. Thermocouples, gas valves, elements, thermostats and relief valves are repairs, as are anode rods and dip tubes. A leak from the body of the tank is a replacement, because nothing seals a failed lining. You get both prices together and choose. On older gas installs we also look at the vent and shutoff, since a new tank on worn connections just sets up the next call. We pull the permit where one is needed.',
       },
     ],

@@ -32,7 +32,7 @@ export const monroe: LocationServiceCopy = {
         body: 'A builder-grade furnace in a Monroe subdivision often stops for a reason you can fix in the hallway. Thermostat on heat, fresh batteries. Breaker on, and the power switch by the furnace too. A gray filter swapped for a clean one. The front panel pressed home, since a loose door trips a safety switch that keeps many furnaces dark. Heat again means no service call needed. Book us when it clicks and never lights, the inducer rattles, or the rooms stay cool. Smell gas? Out of the house, no switches, then the gas company from your driveway. We inspect, explain, take your yes on the price and test.',
       },
       {
-        title: 'Repair or Replace Your Monroe Furnace?',
+        title: 'Repair or Replace Your Furnace in Monroe?',
         body: 'Plenty of Monroe furnaces arrived with the house, yet the closing date on your mortgage won’t decide this. The furnace will. Putting a new igniter, flame sensor or inducer motor into a clean, sound unit is a good use of money. A cracked heat exchanger is not a repair job: it can push carbon monoxide through the vents, so we shut the furnace off and quote a replacement. A carbon monoxide alarm means clear the house, then phone. Any replacement permit, we take care of. A gas bill that rises while the weather stays flat usually means longer run times to hold the thermostat setting.',
       },
     ],

@@ -32,7 +32,7 @@ export const forestPark: LocationServiceCopy = {
         body: 'Cold water after a houseful of showers usually just means the tank is recovering; wait before calling. Someone may have knocked the dial, or on an electric heater, the circuit may have tripped. A gas tank with its gas cock shut won’t heat either. If the pilot is dark and there’s no gas odor, the jacket explains how to relight it. Renters should leave the rest to the landlord. Call us when a puddle forms underneath, the hot water turns brown or smells like sulfur, the relief valve discharges more than once, or the burner shows scorching. We quote before we start.',
       },
       {
-        title: 'Repair or Replace Your Forest Park Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Forest Park?',
         body: 'The plate on the water heater tells you more than the age of the house. A 1960s Forest Park ranch may hold a tank that went in recently. Parts like the thermocouple, gas control, elements and dip tube are repairs. A tank that leaks from its body is done, and we replace it. We price both, you or your landlord choose, and work starts after that. A new tank is also a good time to change an old shutoff that sticks. Tankless gets a quote only when you ask for one.',
       },
     ],

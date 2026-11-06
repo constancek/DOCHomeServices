@@ -32,7 +32,7 @@ export const fortWright: LocationServiceCopy = {
         body: 'The thermostat should read heat, with batteries that still work. Check the furnace power switch and its breaker. A dusty, clogged filter belongs in the trash, and the furnace door has to snap fully shut, since a safety switch behind it keeps many models off. If warm air returns, no technician is needed. Call when it clicks but won’t light, the blower hums without spinning, or the breaker trips repeatedly. Gas odor in the house: leave at once, flip nothing on or off, don’t try to light the furnace, and call the gas company from the yard. A carbon monoxide alarm sends everyone outside first.',
       },
       {
-        title: 'Repair or Replace Your Fort Wright Furnace?',
+        title: 'Repair or Replace Your Furnace in Fort Wright?',
         body: 'Base it on the furnace, which in Fort Wright is often decades younger than the split-level around it. A recent furnace with a failed igniter, flame sensor or blower capacitor is worth repairing. With an older unit that needs a costly control board or inducer, we write up both the repair and a replacement so you can choose. A heat exchanger with a crack is a safety call, not a budget one: carbon monoxide can get into the house, so the furnace is shut off. A replacement needs the county permit, which we file.',
       },
     ],

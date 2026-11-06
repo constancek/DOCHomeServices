@@ -32,7 +32,7 @@ export const pleasantRidge: LocationServiceCopy = {
         body: 'You can clear some Pleasant Ridge heating problems on your own. Thermostat on heat with working batteries, furnace switch on, breaker set, filter clean, front panel pushed all the way closed. Heat coming back means you don’t need a service call. If you smell gas, leave without using any switch or trying to relight the furnace, and phone the gas company from outside. If the carbon monoxide alarm sounds, get everyone out. Burners that light and quit, or a blower that won’t start, are worth a call to us. We diagnose, price it, fix it once you approve and test it.',
       },
       {
-        title: 'Repair or Replace Your Pleasant Ridge Furnace?',
+        title: 'Repair or Replace Your Furnace in Pleasant Ridge?',
         body: 'The furnace sets the answer, and in a 1930s Pleasant Ridge house it is usually far newer than the plaster around it. A newer furnace with a failed inducer motor, igniter or control board deserves the repair. A cracked heat exchanger is another matter, since carbon monoxide can get through it into the rooms, and we will recommend replacing that furnace. Watch the gas bill too. When it climbs while the house feels colder, a clogged filter or a struggling burner is stretching the run times, and catching that early is cheaper.',
       },
     ],

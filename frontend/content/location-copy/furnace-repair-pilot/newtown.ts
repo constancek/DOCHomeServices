@@ -32,7 +32,7 @@ export const newtown: LocationServiceCopy = {
         body: 'Many Newtown houses from the 1990s have high-efficiency gas furnaces, and those shut down over small things. Look at the thermostat for heat mode and a working display, the service switch beside the furnace, and the breaker. Slide out the filter; a dusty, matted one goes in the trash. Press the blower panel home so its interlock closes, and glance at the white condensate hose for a kink. Warm air again means you can cancel the visit. Gas smell is different: leave every switch alone, get everyone outdoors, and ring the gas company from the yard. For repeated lockouts or a loud blower, we diagnose, quote, fix and test.',
       },
       {
-        title: 'Repair or Replace Your Newtown Furnace?',
+        title: 'Repair or Replace Your Furnace in Newtown?',
         body: 'Check the date on the furnace label, not the house. Plenty of 1990s Newtown homes are already on their second unit, and a worn igniter or noisy inducer on a young furnace is a fair repair. In the prewar village core, the furnace you have is never the one the house started with. A heat exchanger with a crack in it leaks carbon monoxide, so that unit stays off and we quote a new one. If the CO alarm sounds, everyone out, then phone. We pull any replacement permit. A gas bill outpacing the weather says the furnace is wearing down.',
       },
     ],

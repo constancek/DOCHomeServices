@@ -32,7 +32,7 @@ export const dayHeights: LocationServiceCopy = {
         body: 'A fair number of no-hot-water calls in Day Heights end with a breaker or a dial, so look at those first. After guests or a long laundry day the tank may simply need time to heat back up. If the pilot on a gas heater is out and there’s no gas smell, relight it from the instructions on the label. If it won’t stay lit, that’s ours. So is hot water that comes out rusty, a tank that cracks and pops as it heats, or black scorch marks at the burner opening. We test the heater, explain the fault and give you a price before any work.',
       },
       {
-        title: 'Repair or Replace Your Day Heights Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Day Heights?',
         body: 'The house is likely from 1969; the heater probably isn’t. Read its label for the install date and judge from that. Thermocouples, gas valves, thermostats, elements, relief valves, anode rods and dip tubes all get replaced as repairs. A tank with water seeping from its shell is done. In Day Heights the extra work on a replacement is usually the old connections: a shutoff valve that won’t close, or a flue pipe that needs resetting. We price the repair and the replacement and leave the choice to you.',
       },
     ],

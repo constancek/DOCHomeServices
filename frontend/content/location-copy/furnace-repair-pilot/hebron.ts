@@ -32,7 +32,7 @@ export const hebron: LocationServiceCopy = {
         body: 'Run through a short list before booking. Thermostat on heat, with fresh batteries if the display looks faint. The shutoff by the furnace, which looks like a light switch, flipped on, and no tripped breaker. A new filter, and the blower panel pushed fully home, since a crooked panel trips the door switch and the furnace won’t fire. With heat back, you’re done without us. Any smell of gas: get out of the house, leave switches alone, don’t relight anything, and phone the gas company from the yard or a neighbor’s porch. A carbon monoxide alarm going off means everyone outside first, then the calls.',
       },
       {
-        title: 'Repair or Replace Your Hebron Furnace?',
+        title: 'Repair or Replace Your Furnace in Hebron?',
         body: 'Start with the furnace’s label. Many Hebron homes still have the builder’s original furnace, while others have already had theirs swapped, so the date on the cabinet matters more than the closing papers. Replacing an igniter, inducer or flame sensor pays off on a cabinet that’s otherwise in good shape. A crack in the heat exchanger takes the choice away, because carbon monoxide can get into the house through it. All-electric homes get an early warning on the Duke Energy Kentucky or Owen Electric bill, depending on which serves your lot: big jumps during mild weeks usually mean backup heat is running too much.',
       },
     ],

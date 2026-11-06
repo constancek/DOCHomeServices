@@ -32,7 +32,7 @@ export const burlington: LocationServiceCopy = {
         body: 'Make sure the thermostat reads heat; cool or off won’t do it. Replace a filter you can’t see light through. Your panel likely has two breakers for this system, one for the condenser out back and one for the air handler, so flip both on. Clear snow or leaves off the yard unit. Steam, thin frost and the fan resting a few minutes mean defrost is working. If the heat comes back, skip the visit. Book us if ice won’t melt off the coil, emergency heat stays lit, or the outdoor fan never turns. We diagnose, price it for your okay and test the heat.',
       },
       {
-        title: 'Repair or Replace Your Burlington Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Burlington?',
         body: 'Go by the equipment’s age, not the house’s. A Burlington home from 2005 could still run its original builder unit, or one swapped in recently, so the label date matters more than the deed. A dead fan motor, contactor or defrost board is usually worth fixing. A leaking coil on an older system, or a compressor that won’t start, is when we quote both options for you to compare. Watch the electric bill too. A big jump in an ordinary January means the backup strips are probably doing the heating. Financing is available if a new unit wins.',
       },
     ],

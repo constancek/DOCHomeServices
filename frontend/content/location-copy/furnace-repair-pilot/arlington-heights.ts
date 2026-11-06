@@ -32,7 +32,7 @@ export const arlingtonHeights: LocationServiceCopy = {
         body: 'Some Arlington Heights no-heat problems are solved without us. Thermostat on heat, fresh batteries. In these old basements the furnace power switch often looks like a household light switch on a joist or wall nearby, and it gets bumped off. Check the breaker too. A clean filter and a blower door pushed tight finish the list, since many furnaces won’t start with that door loose. Warm air again means no visit is needed. A furnace that still won’t light, or quits within minutes, is ours. Gas smell: hands off switches and pilots, get out, and phone the gas company from the street. Carbon monoxide alarm: everyone out before anything else.',
       },
       {
-        title: 'Repair or Replace Your Arlington Heights Furnace?',
+        title: 'Repair or Replace Your Furnace in Arlington Heights?',
         body: 'The furnace decides, not the house. Plenty of 1920s Arlington Heights homes have a furnace from the last few years, and one with a bad igniter, blower motor or pressure switch should simply be repaired. A cracked heat exchanger is a safety problem, because carbon monoxide can seep through it into the rooms, so that furnace gets replaced rather than patched. In rentals the owner chooses, and we lay out the repair cost beside the replacement cost. Any permit for a new unit is on us. A heating bill that spikes without a cold snap often means long run times and a furnace struggling to keep pace.',
       },
     ],

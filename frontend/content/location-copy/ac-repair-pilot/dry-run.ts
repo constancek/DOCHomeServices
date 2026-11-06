@@ -32,7 +32,7 @@ export const dryRun: LocationServiceCopy = {
         body: 'In a Dry Run house with two systems, first work out which one has the problem. Change the filter on that unit, check the thermostat for that floor is on cool, and reset the matching breaker once. If cold air comes back, you have saved yourself a visit. If the attic unit is dripping, the outdoor fan won’t spin, or the system runs all day and the house still sits several degrees over the setting, call us. We check both systems if needed, explain what failed, and give you a flat price to approve first. Then we measure the air to confirm it cools.',
       },
       {
-        title: 'Repair or Replace Your Dry Run AC?',
+        title: 'Repair or Replace Your AC in Dry Run?',
         body: 'Dry Run houses are newer than most, but a 1988 house with its original condenser has a very old system. The equipment label settles it. Equipment under about ten years old with one failed part is a repair. Once a unit nears 15 and the compressor or coil goes, replacing it usually costs less over time, and with two systems you can replace one without the other. We handle the permit. Until then, compare your summer electric bills year to year: a steady climb with the same settings often means a system losing refrigerant or running with a dirty coil.',
       },
     ],

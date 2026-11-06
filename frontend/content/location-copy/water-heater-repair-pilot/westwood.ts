@@ -32,7 +32,7 @@ export const westwood: LocationServiceCopy = {
         body: 'Westwood managers can save a service call by checking a few things. Several showers in a row drain a small apartment tank, and it needs time to recover. Look at the temperature dial and, on electric units, the breaker in that apartment’s panel. On gas units, confirm the supply valve is open; relight a pilot by the label only when nothing smells of gas. Once hot water returns, there’s nothing for us to do. Send us when water gathers under the tank, comes out rust-brown or sulfur-smelling, or the tank pops and rumbles. Tenants report to the landlord. Diagnosis and price come first.',
       },
       {
-        title: 'Repair or Replace Your Westwood Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Westwood?',
         body: 'Go by the rating plate, not the building. Westwood’s apartment blocks and mid-century houses hold tanks of every age. On electric heaters, elements and thermostats are repairs; on gas heaters, so are a thermocouple, gas valve, relief valve or anode rod. A tank seeping from its own body must be replaced. Landlords see both prices and choose. In buildings where every tank went in the same year, one failure is a fair warning to budget for the others. Where a permit is needed, we pull it.',
       },
     ],

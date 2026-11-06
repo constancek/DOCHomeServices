@@ -32,7 +32,7 @@ export const clifton: LocationServiceCopy = {
         body: 'Clifton tenants should tell management before anything else. Owners can check the basics: thermostat on heat with live batteries, the furnace switch on, the breaker untripped, a clean filter, and the furnace door pushed shut so its safety switch closes, since many units won’t run otherwise. If that restores heat, you can skip us. Call when the furnace locks out after failed tries, short cycles, or bangs on startup. Smell gas? Don’t touch switches or relight anything; get outside, then phone the gas company. We inspect, explain the fault, and price it before any work.',
       },
       {
-        title: 'Repair or Replace Your Clifton Furnace?',
+        title: 'Repair or Replace Your Furnace in Clifton?',
         body: 'Look at the furnace, not the century on the cornerstone. Clifton has houses from the 1890s holding furnaces only two winters old, and a failed igniter or pressure switch on one of those is plainly worth fixing. An aging furnace that needs a major part gets priced against new, both figures on one sheet. A cracked heat exchanger can leak carbon monoxide into living space, so safety makes that call, not money. If the CO alarm goes off, clear everyone out before phoning. Replacement needs a mechanical permit from the City of Cincinnati Department of Buildings & Inspections, issued to licensed contractors only; we pull it.',
       },
     ],

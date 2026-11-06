@@ -32,7 +32,7 @@ export const eastWalnutHills: LocationServiceCopy = {
         body: 'You can rule out the simple causes yourself. A thermostat left on cool or off will not heat, so move it to heat. A clogged filter starves the system; put in a new one. Two breakers matter, the condenser’s and the air handler’s, and a tripped one just needs flipping back. Clear snow and leaf piles from around the condenser. In defrost the unit may steam, wear a light frost and rest its fan for a few minutes, all of which is fine. Heat back? No visit needed. Ice that will not clear, emergency heat that stays on or grinding outside need us to inspect, quote and test.',
       },
       {
-        title: 'Repair or Replace Your East Walnut Hills Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in East Walnut Hills?',
         body: 'The heat pump’s own age is what counts. About half the homes here predate 1940, yet the outdoor unit beside a 1910 house may be only a few winters old, and a worn fan motor or defrost board on that unit gets repaired. Compressor failure and refrigerant loss are where money gets serious, so on an aging system you see a replacement quote next to the repair quote. Your Duke Energy statement gives early warning when it rises sharply in a mild month. Replacing equipment at a city address takes a City of Cincinnati mechanical permit; we file it. Financing is available.',
       },
     ],

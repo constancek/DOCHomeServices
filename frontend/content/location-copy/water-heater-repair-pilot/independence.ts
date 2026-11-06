@@ -32,7 +32,7 @@ export const independence: LocationServiceCopy = {
         body: 'An Independence household can empty its tank on a school morning, and the hot water returns once it reheats. Kids and storage bins bump dials, so check that too. An electric heater sits dead when its breaker trips. A gas heater goes cold when the pilot blows out or the valve gets turned off; relight it from the label steps only if you can’t smell gas. Get us out for a puddle around the base, rusty or sulfur-smelling hot water, popping and rumbling, a relief valve that keeps opening, or scorch marks at the burner. The fault gets explained and priced before we touch it.',
       },
       {
-        title: 'Repair or Replace Your Independence Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Independence?',
         body: 'Look at the heater label, not the Independence house deed. A house from 2005 may still run its first tank or already be on a second. Thermocouple, gas valve, element and thermostat failures are repairs. A stuck relief valve, a spent anode rod and a cracked dip tube are too. Water from the tank body means it has to be replaced, because the steel inside has given out. We quote both and the decision is yours. Some owners ask about tankless; we’ll price it, though a tank is usually the simple swap. We pull the permit where needed.',
       },
     ],

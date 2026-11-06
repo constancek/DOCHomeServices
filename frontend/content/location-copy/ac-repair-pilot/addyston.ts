@@ -32,7 +32,7 @@ export const addyston: LocationServiceCopy = {
         body: 'Five minutes of checking fixes more calls than you’d expect: a fresh filter, the thermostat on cool, and a glance at the breaker panel. If the room cools after that, nothing was broken. Renters should stick to what the lease allows and pass the rest to the landlord. A technician is worth booking when the outdoor fan sits still or a heat pump runs an hour without touching the room temperature. We look over the outdoor unit and the indoor side, say plainly what went wrong, and start only once a fixed price is agreed. Before leaving, we show you the vent temperature on a probe thermometer.',
       },
       {
-        title: 'Repair or Replace Your Addyston AC?',
+        title: 'Repair or Replace Your AC in Addyston?',
         body: 'Go by the age on the equipment label. A house built before 1930 might have a condenser only a few years old. A young system with one bad component gets repaired. An old one with a dead compressor gets replaced. Heat pumps, common in Addyston’s electric-heated homes, run year-round and wear out sooner than cooling-only units. We handle the permit on replacements. Most of the village sits in a National Register historic district, which by itself doesn’t mean design review, but we check with the village first anyway. A weakening system costs you before it fails, as longer run times push up your electric bill.',
       },
     ],

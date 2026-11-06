@@ -32,7 +32,7 @@ export const lawrenceburg: LocationServiceCopy = {
         body: 'Rule out the quick fixes before calling. A tank that just fed several showers has to recover. Someone may have turned the dial. Electric heaters have their own breaker in the panel; gas heaters need the supply valve open, and with no gas odor a pilot can come back if you follow the label’s relighting steps. Tenants tell the landlord in any case. Leaks, rust or sulfur in the water, rumbling, an electric tank that never gets past lukewarm, or scorching by the burner are reasons to call. We diagnose, quote, repair once approved and retest.',
       },
       {
-        title: 'Repair or Replace Your Lawrenceburg Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Lawrenceburg?',
         body: 'Go by the water heater, not the building. A Lawrenceburg apartment from the 1970s may have had its tank swapped recently, and a new element, thermostat or gas valve gets it running. A tank leaking from its body is a replacement, full stop. We price both options and the owner decides. When an electric heater runs far more than it should, a higher bill from Lawrenceburg Municipal Utilities is often the first clue, and sediment, a stuck thermostat or a failing element is usually behind it. We pull the permit where one is needed.',
       },
     ],

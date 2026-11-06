@@ -36,7 +36,7 @@ export const monroe: LocationServiceCopy = {
         body: 'In a newer Monroe house, the first suspect is usually the thermostat. Make sure it says heat, not cool or off. Then check the filter, both breakers (outdoor unit and indoor air handler) and the ground around the outdoor unit for snow or drifted leaves. Frost, a little steam and a fan that stops for a minute or two are part of defrost. If one of those fixes it, you don’t need us. Call us when the coil stays caked in ice, the auxiliary heat light won’t clear or the outdoor fan grinds. We diagnose and explain, and you approve the price first.',
       },
       {
-        title: 'Repair or Replace Your Monroe Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Monroe?',
         body: 'Go by the heat pump’s condition, not the year the subdivision went in. A Monroe unit from the 2000s with a worn contactor or a weak fan motor can be repaired and keep going. A failed compressor, or a refrigerant leak that comes back, is where we write up two prices, repair and replace. Watch the electric bill: a sharp rise in an average winter month usually means the heat strips are doing the work. On a dual fuel system the furnace runs more instead. We handle the permit on replacements.',
       },
     ],

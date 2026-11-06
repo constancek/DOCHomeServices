@@ -32,7 +32,7 @@ export const addyston: LocationServiceCopy = {
         body: 'Put the thermostat on heat and give it new batteries. Flip the furnace’s own power switch on, usually mounted on the unit or a nearby wall, and reset any tripped breaker. Pull the filter; a grey, packed one starves the burners or elements of air. Push the front panel until it seats, because most furnaces stay dead with it ajar. If that brings heat back, save your money. Ring us if the breaker trips again or the burners still won’t fire. A gas smell means touching nothing electrical, leaving, and calling the gas company once outside. A sounding carbon monoxide alarm means everyone out first.',
       },
       {
-        title: 'Repair or Replace Your Addyston Furnace?',
+        title: 'Repair or Replace Your Furnace in Addyston?',
         body: 'Addyston has plenty of houses from before 1940, but the age of the walls says little about the furnace downstairs, which may be a few winters old. On a sound unit, a dead igniter, inducer motor or electric element is a fair repair. A cracked heat exchanger ends that conversation. It can leak carbon monoxide into the rooms upstairs, so we shut that furnace down and recommend replacing it. Landlords decide in rentals, and we hand them a repair figure and a replacement figure on the same sheet. An earlier warning sign: a heating bill creeping up while the weather stays steady usually means longer and longer run times.',
       },
     ],

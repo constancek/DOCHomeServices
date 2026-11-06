@@ -32,7 +32,7 @@ export const groesbeck: LocationServiceCopy = {
         body: 'Plenty of Groesbeck no-hot-water calls end before we arrive. After a busy morning of showers, a tank needs a while to heat a fresh load. A temperature knob knocked lower, or a gas cock closed during other work, stops hot water too. Electric heaters quit when the breaker trips. With the pilot out and no gas odor, the printed steps on the jacket show how to relight it. Tenants should send the landlord a written note either way. Book us for water around the base, a pilot that keeps dying, rust-colored hot water or a relief valve that keeps spitting. We name the fault and its price first.',
       },
       {
-        title: 'Repair or Replace Your Groesbeck Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Groesbeck?',
         body: 'Decide by the heater, not the house. The tank’s label shows its install date, and a 1970 house may have a heater put in last decade. A failed gas valve, thermostat, element or thermocouple is a repair. So is a worn anode rod or a relief valve that leaks. A tank leaking from its body is a replacement, with nothing left to fix. We quote both and you pick. In apartments, the owner or manager makes that call. Ask about tankless if you’re curious and we’ll price it, but we won’t push it.',
       },
     ],

@@ -32,7 +32,7 @@ export const pleasantPlain: LocationServiceCopy = {
         body: 'Three things to rule out yourself: a clogged filter, a thermostat knocked off cool, and a tripped breaker. If fixing one of those brings the cold back, you don’t need us. Ring us if that breaker flips a second time, or if the condenser outside buzzes while its fan blade stays put. Here we also look at the furnace blower, since on an oil system that blower does the AC’s indoor work. Your technician names the failed part and quotes one flat price for your okay. Once it’s fixed, we put a thermometer in the supply vent to confirm the cooling.',
       },
       {
-        title: 'Repair or Replace Your Pleasant Plain AC?',
+        title: 'Repair or Replace Your AC in Pleasant Plain?',
         body: 'Decide on the equipment’s age; the house’s doesn’t count. Plenty of Pleasant Plain houses from the 1930s carry a condenser bought a few summers back, and a contactor or fan motor on that unit is worth fixing. Once a worn-out system loses its compressor or keeps leaking refrigerant, putting more into it rarely pays. For a replacement, the permit is our job. Until then, your power bill is the early warning. All-electric houses here already see big summer bills, so a creeping increase hides easily. Low charge or a coil caked with dirt keeps the compressor running, and the bill shows it before you feel it.',
       },
     ],

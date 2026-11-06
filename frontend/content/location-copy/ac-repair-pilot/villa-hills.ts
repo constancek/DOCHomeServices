@@ -32,7 +32,7 @@ export const villaHills: LocationServiceCopy = {
         body: 'Rule out the cheap fixes first. Fit a clean filter, and reset a tripped breaker once. If cold air returns, keep your money. Villa Hills heat pump owners should also glance at the thermostat, which sometimes stays on auxiliary or emergency heat after winter. Book us if that breaker won’t hold on the second try or frost builds on the copper pipe outside. A humming condenser with a motionless fan is the other giveaway. The technician checks indoors and out, says in plain words what broke and names a flat rate for your approval. After the fix, we take temperature readings at the registers.',
       },
       {
-        title: 'Repair or Replace Your Villa Hills AC?',
+        title: 'Repair or Replace Your AC in Villa Hills?',
         body: 'The nameplate on the condenser decides this, not the house. A 1981 house has usually retired its original system, and its second one may be aging too. If a unit with years still ahead of it has one part fail, fix that part. When an old unit loses its compressor or springs a coil leak, replacement usually wins, and we write up both numbers for you. Replacement also means a county permit, and that paperwork is ours. Meanwhile, a Duke Energy Kentucky statement that keeps rising with no change at home often comes down to a refrigerant shortage or a filthy coil.',
       },
     ],

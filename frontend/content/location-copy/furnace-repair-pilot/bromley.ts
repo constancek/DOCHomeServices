@@ -32,7 +32,7 @@ export const bromley: LocationServiceCopy = {
         body: 'Try these before booking. Thermostat set to heat, with a live battery. The furnace’s own power switch, mounted on or beside it, in the on position, and its breaker not tripped. A new filter if the old one is grey. The access door pushed home until it seats, because plenty of furnaces stay off with it loose. Warm air coming back means skip the call. Ring us when the furnace locks itself out, the burners show rust, or high water reached it. Smell gas and you should walk out, leave switches and the pilot alone, and call the gas company once outside. Our visit: inspect, explain, price, test.',
       },
       {
-        title: 'Repair or Replace Your Bromley Furnace?',
+        title: 'Repair or Replace Your Furnace in Bromley?',
         body: 'Bromley’s houses mostly date from the 1930s or before, but the furnace in the basement usually doesn’t, so we size up the unit and ignore the deed. On a healthy furnace, a new igniter, flame sensor, blower motor or control board is money sensibly spent. A cracked heat exchanger is different: carbon monoxide can seep through, so it’s a safety call first. If the CO alarm sounds, everyone leaves the house, then you phone. Heavy rust or one major failure after another usually means it’s time for new, which needs a Kenton County permit we file. A gas bill rising in steady weather says the furnace is slipping.',
       },
     ],

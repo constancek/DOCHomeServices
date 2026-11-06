@@ -4,7 +4,7 @@ export const ludlow: LocationServiceCopy = {
   localParagraph:
     'Ludlow’s housing is old: Census figures put 60.5% of it at 1939 or earlier. That puts most water heaters in basements, next to flue pipes and shutoff valves that may be decades old, and a stuck valve can turn a simple part swap into a longer job. Many homes are attached or two-family, so a heater may share a basement wall with the neighbors. When we arrive we check the whole setup and quote a flat price you approve first.',
   emergencyParagraph:
-    'Tank leaking in Ludlow: shut the valve on its cold inlet, then the gas cock or breaker. Smell gas and you leave the house, switches untouched, and ring the gas company from the sidewalk. A carbon monoxide alarm empties the house first. Infants, aging parents and anyone ill feel the loss soonest. Same-day visits on most calls, weekends too.',
+    'If water is coming from the tank in Ludlow, close the cold inlet valve and turn the burner or breaker off. Smell gas: go outside first and phone the gas company from there. A sounding CO detector means nobody stays in. Babies, older parents and the sick come first; most calls get a visit that day, weekends too.',
   commonIntro:
     'Most water heaters in Ludlow sit in the basements of houses built before 1940. These four problems come up most:',
   localFaqs: [
@@ -32,7 +32,7 @@ export const ludlow: LocationServiceCopy = {
         body: 'Some outages in Ludlow need no visit at all. A tank drained by a run of showers refills and heats on its own. Make sure the knob hasn’t been turned down, and that an electric heater’s breaker is on. With gas, the valve handle should line up with the pipe; a pilot that’s out can be relit from the label’s instructions if the basement doesn’t smell of gas. Call us when the tank weeps, the hot water comes out brown, the relief valve opens more than once, or soot marks the burner door. We explain what failed and quote before touching a thing.',
       },
       {
-        title: 'Repair or Replace Your Ludlow Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Ludlow?',
         body: 'People in a city this old expect the heater to be old as well. Check the sticker instead: a house here from the 1900s may hold a tank put in a few years back. The thermocouple, gas control, elements, thermostats, relief valve, anode rod and dip tube are all repairs. A tank leaking through its own body gets replaced. You see both prices and pick. Kentucky inspects plumbing at the state level, and we arrange the permit. Inside the Ludlow Historic District, if a new vent would alter a street-facing wall, we check with the city first.',
       },
     ],

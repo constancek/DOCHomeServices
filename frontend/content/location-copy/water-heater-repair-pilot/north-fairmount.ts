@@ -32,7 +32,7 @@ export const northFairmount: LocationServiceCopy = {
         body: 'Hot water gone after laundry, dishes and a couple of showers usually returns on its own once the tank catches up. Look at the dial, the breaker on an electric heater and the gas handle, since any of them can be knocked or switched off. A gas pilot that went out can be relit using the printed steps on the tank, but only with no smell of gas. Book us for standing water under the heater, rust-brown hot water, a relief valve that keeps spitting, or burn marks at the burner opening. We look it over, tell you what broke and you approve the price.',
       },
       {
-        title: 'Repair or Replace Your North Fairmount Water Heater?',
+        title: 'Repair or Replace Your Water Heater in North Fairmount?',
         body: 'Most North Fairmount houses are close to a century old, yet the heater in the basement is often much newer; its label shows the install date. Worn thermocouples, faulty gas controls, burned-out elements, failed thermostats, leaky relief valves, spent anodes and broken dip tubes are all fixed on the spot. A tank body that leaks is past saving, so it gets replaced. We give you both prices and you choose. On the hill, a new heater often comes with a fresh shutoff valve and a properly seated vent connector, and we handle the city permit.',
       },
     ],

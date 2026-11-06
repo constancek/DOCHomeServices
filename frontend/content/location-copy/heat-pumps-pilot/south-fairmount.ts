@@ -36,7 +36,7 @@ export const southFairmount: LocationServiceCopy = {
         body: 'In a South Fairmount rental, a tenant can try a few things before the landlord calls us. Set the thermostat to heat. Fit a clean filter if the old one is gray. Find both breakers, outdoor unit and air handler, and reset a tripped one once. Keep snow and trash clear of the outdoor unit. Steam, frost and a stopped fan for a few minutes during defrost are normal. If heat returns, nobody needs us. If the outdoor unit is buried in ice that won’t melt, or it grinds, the owner should call. We inspect, quote, repair after approval and test.',
       },
       {
-        title: 'Repair or Replace Your South Fairmount Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in South Fairmount?',
         body: 'The heat pump’s age decides this, not the building’s. Most South Fairmount buildings went up before 1940, but the heat pump in the yard may be fairly new, and a cracked defrost sensor or worn fan motor on it is worth repairing. When the compressor quits or refrigerant leaks again, we quote replacement next to repair so the owner can compare. We take care of the city permit. On an all-electric unit, a Duke Energy Ohio bill that spikes in a normal week usually means the heat strips are doing the work the heat pump should.',
       },
     ],

@@ -32,7 +32,7 @@ export const covington: LocationServiceCopy = {
         body: 'A thermostat bumped to cool or off looks exactly like a broken heat pump, so look there first. Put in a new filter. Each heat pump has two breakers, so reset a tripped one once. Sweep drifted snow back from the outdoor unit. Defrost makes the unit hiss, steam and frost over lightly, and that is normal. If the heat is back, you don’t need us. Phone us when the coil stays frozen solid, the emergency heat lamp won’t go dark, the system is stuck on cooling, or the fan grinds. You get a diagnosis and a price before anything is fixed.',
       },
       {
-        title: 'Repair or Replace Your Covington Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Covington?',
         body: 'Judge the heat pump, not the age of the house. Plenty of Covington homes from before 1940 have heat pumps that went in much later, and a bad contactor, capacitor or fan motor on a sound unit is worth repairing. A dead compressor or a coil that won’t hold refrigerant on an older system is the real decision point, and we price repair and replacement together. With all-electric heat, a Duke Energy Kentucky bill that spikes in normal weather usually means the backup strips are carrying the load. In a dual fuel house, the same problem shows up on the gas side instead.',
       },
     ],

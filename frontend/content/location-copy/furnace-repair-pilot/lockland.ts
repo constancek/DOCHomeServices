@@ -32,7 +32,7 @@ export const lockland: LocationServiceCopy = {
         body: 'A Lockland basement furnace often comes back after a few checks. Thermostat: heat mode, live batteries. Breaker and the switch by the furnace: both on. Pull a dirty filter and set the furnace door back snug; lots of furnaces sit dead with it loose. Heat back means no service call. If burners keep lighting and dropping out, or the breaker won’t stay set, call us. Smelling gas, touch no switches and relight nothing; get out and phone the gas company from the street. A sounding CO alarm means clear the house first. Then our tech finds the fault, quotes it for your approval and runs a full heat cycle.',
       },
       {
-        title: 'Repair or Replace Your Lockland Furnace?',
+        title: 'Repair or Replace Your Furnace in Lockland?',
         body: 'Look at the furnace instead of the house. A 1920s Lockland home might have a gas furnace installed a few winters back, and a failed igniter or inducer motor on it is a sensible fix. An older furnace needing a major part calls for a different talk, so you see repair and replacement priced together. A cracked heat exchanger lets carbon monoxide into the house, which makes it a safety question, not a cost one, and we won’t patch it. Lockland replacements need a permit, and we handle it. A furnace running longer each winter tends to show up on the gas bill well before it quits.',
       },
     ],

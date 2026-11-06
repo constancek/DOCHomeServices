@@ -32,7 +32,7 @@ export const maineville: LocationServiceCopy = {
         body: 'First, rule out the easy causes. A full house of showers can outrun the tank, so give it time. The dial on the front may have been bumped low. On electric models, find the heater’s breaker; on gas models, make sure the gas valve is open and, with no gas smell, relight a dead pilot using the label. If that sorts it, you don’t need us. We’re the call when the pilot won’t hold, the water is rusty or smells of rotten eggs, the tank pops and rumbles, or there’s water around the base. You see the price before we start, and we check the water after.',
       },
       {
-        title: 'Repair or Replace Your Maineville Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Maineville?',
         body: 'Look at the install date on the water heater rather than the house. Many Maineville tanks went in when the subdivisions were built, and they’re reaching the point where leaks start. A sound tank with a failed thermocouple, element, anode rod or gas valve is worth repairing. A tank weeping from its shell is not, and we price a replacement next to the repair so you can compare the two. The permit for a replacement is part of our job, not yours. Tankless can come up if you ask, but we won’t push it.',
       },
     ],

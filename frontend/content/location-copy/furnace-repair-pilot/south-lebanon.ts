@@ -32,7 +32,7 @@ export const southLebanon: LocationServiceCopy = {
         body: 'In South Lebanon’s newer subdivisions, plenty of no-heat calls end before a truck rolls. Put the thermostat on heat and replace its batteries. Builders usually mounted a service switch on the furnace or at the foot of the basement stairs, and movers or kids flip it by accident. Reset the furnace breaker, put in a new filter and latch the blower door, which has to sit snug for the burner to fire. If heat comes on, cancel. For a gas odor, leave lights and switches alone, don’t relight anything, and phone the gas company once you’re outside. For a CO alarm, everyone out first. Otherwise we test, explain and quote.',
       },
       {
-        title: 'Repair or Replace Your South Lebanon Furnace?',
+        title: 'Repair or Replace Your Furnace in South Lebanon?',
         body: 'Base it on the furnace. A furnace from a 2007 subdivision with a worn igniter or a weak flame sensor is a small repair and well worth doing. A house near the river built before 1960 may already have had a newer furnace put in, so check the label on the unit, not the deed. A cracked heat exchanger changes the answer at any age: it can leak carbon monoxide, so we turn the furnace off and recommend replacing it, and we handle the permit. In heat pump homes, an electric bill that jumps in an ordinary month is often the first sign the backup strips are carrying the load.',
       },
     ],

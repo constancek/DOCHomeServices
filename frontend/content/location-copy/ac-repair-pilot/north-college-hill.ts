@@ -32,7 +32,7 @@ export const northCollegeHill: LocationServiceCopy = {
         body: 'A North College Hill no-cool call can often be avoided. Look at the filter and change it if it’s gray, make sure the thermostat is calling for cooling, and switch the AC breaker off and back on a single time. If cool air arrives soon after, there’s no repair to buy. Bring us in when the condenser hums but its fan blade sits idle, or water collects around the furnace. The technician inspects coil and condenser and names the failure and its cost, and work begins after your approval. We finish by reading the supply air temperature.',
       },
       {
-        title: 'Repair or Replace Your North College Hill AC?',
+        title: 'Repair or Replace Your AC in North College Hill?',
         body: 'A postwar North College Hill house has probably outlasted more than one air conditioner, so the outdoor unit’s data plate is the date that matters. A system still in its first half of life with one bad part deserves the repair. Once an older system loses its compressor or needs refrigerant topped up summer after summer, replacing it is the better spend. The city’s Building Department issues permits for furnace and AC replacement, and we file ours for you. Your Duke Energy Ohio bill is a clue as well: rising summer usage at the same setting means the unit is slipping.',
       },
     ],

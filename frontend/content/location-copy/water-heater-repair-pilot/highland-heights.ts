@@ -32,7 +32,7 @@ export const highlandHeights: LocationServiceCopy = {
         body: 'Apartment tanks here are often small, and a roommate’s long shower right before yours can leave nothing but cold. Give it an hour. Someone moving boxes past the closet may have knocked the dial down. Electric units stop dead if their panel breaker trips. Gas units go cold when the supply handle is turned off or the pilot blows out, and that pilot can be relit by its printed instructions provided nobody smells gas. Rust-colored hot water, a puddle at the base, or a popping noise is our cue. So is the side valve spitting water twice. We find the cause, quote it, wait for your yes, then retest.',
       },
       {
-        title: 'Repair or Replace Your Highland Heights Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Highland Heights?',
         body: 'Read the label on the heater rather than guessing from the age of the building; it shows when the tank went in. A thermocouple, gas valve, element or thermostat is a repair. So are a relief valve, anode rod or dip tube. A tank leaking from its body can’t be patched, and that means a new heater. We price both options and you decide. In a cramped closet the replacement has to fit the same space, which we measure before quoting. We pull the permit where one is needed. Tankless is an option in some units, but we won’t push it.',
       },
     ],

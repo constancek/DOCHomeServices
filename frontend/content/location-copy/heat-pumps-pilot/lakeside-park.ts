@@ -32,7 +32,7 @@ export const lakesidePark: LocationServiceCopy = {
         body: 'Some checking can save a Lakeside Park service call. Set the thermostat to heat. Slide in a fresh filter. At the breaker box, the outdoor unit and the indoor air handler or furnace each have a breaker, and a tripped one goes back on. Kick snow and leaves clear of the outside unit. Steam, a light frost and a short fan stop are a defrost cycle doing its job. Once warm air returns, you don’t need us. Book a visit when the ice never melts off, the emergency heat light stays lit or the system will only cool. You hear the fault and the cost first.',
       },
       {
-        title: 'Repair or Replace Your Lakeside Park Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Lakeside Park?',
         body: 'The heat pump’s own age matters, not the house’s. A 1964 house can have an outdoor unit put in last year or one that’s been running for decades, so read the label. A failed capacitor, contactor or fan motor on a younger unit is worth repairing. On an aging unit with leaking refrigerant or a locked-up compressor, we write both numbers down, repair and replacement, and take care of the permit if you replace. A failing heat pump tends to show on the electric bill, as backup heat runs longer, before anyone in the house feels cold.',
       },
     ],

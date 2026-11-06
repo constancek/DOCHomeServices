@@ -32,7 +32,7 @@ export const mack: LocationServiceCopy = {
         body: 'Plenty of Mack no-heat calls get cancelled because the owner found the problem first. Switch the thermostat to heat and swap in new batteries. Look at the breaker and the furnace’s service switch. Put in a fresh filter. Push the lower panel until it latches, since a loose one keeps many furnaces from starting. Warm air again? You don’t need us. Ring us when the flame catches and drops, cold air pours from the vents, or the furnace short-cycles. We look it over, tell you what broke, quote a flat price for your OK and run it through a full heat cycle.',
       },
       {
-        title: 'Repair or Replace Your Mack Furnace?',
+        title: 'Repair or Replace Your Furnace in Mack?',
         body: 'The house’s build year tells you little. A Mack house from 1988 might have a furnace installed five winters ago, and a dead igniter or inducer motor on that one is a straightforward fix. A cracked heat exchanger changes the conversation, because carbon monoxide can slip through the crack into the rooms where you sleep. We switch that furnace off and talk safety before we talk replacement. If you go with a new furnace, we deal with the permit. Before it ever gets there, keep an eye on the gas bill. When the furnace needs longer runs through a mild week to keep the same setting, it’s wearing out.',
       },
     ],

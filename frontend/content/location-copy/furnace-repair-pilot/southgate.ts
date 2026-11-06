@@ -32,7 +32,7 @@ export const southgate: LocationServiceCopy = {
         body: 'Some Southgate heating calls end at the panel. Set the thermostat to heat and fit new batteries if the screen is blank. Apartment electric furnaces usually run on a double breaker; flip it fully off, then on. Find the furnace’s own power switch and make sure it’s up. Slide in a clean filter and fasten the front panel, since a loose one keeps the furnace from firing. If heat comes back, skip the call, and tenants should alert the landlord. In gas homes, a gas smell means go outside now, leave switches and pilot alone, and phone the gas company from the street. A CO alarm means everybody out first.',
       },
       {
-        title: 'Repair or Replace Your Southgate Furnace?',
+        title: 'Repair or Replace Your Furnace in Southgate?',
         body: 'Weigh the furnace, not the building around it. A 1920s Southgate house may hide a gas furnace installed two winters ago, and a new igniter or pressure switch is a quick fix there. Apartment electric furnaces have fewer parts, so swapping an element or blower motor is almost always sensible. A gas furnace with a cracked heat exchanger is a hard stop: carbon monoxide can seep into the living space, so we turn the unit off, advise replacement and pull the Kentucky permit. Keep an eye on the bills too. When gas or electric use climbs during a mild stretch, the furnace is often straining.',
       },
     ],

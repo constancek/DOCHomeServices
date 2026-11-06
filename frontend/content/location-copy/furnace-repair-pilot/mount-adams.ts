@@ -32,7 +32,7 @@ export const mountAdams: LocationServiceCopy = {
         body: 'Begin at the thermostat. It should be on heat, have working batteries and be set a few degrees warmer than the room. Next, find the furnace’s power switch, then the breaker, the filter and the front panel, because plenty of furnaces refuse to run with that cover loose. Heat back after any of those? You don’t need us. Ring us when the flame catches and dies, the blower moves cold air, or the breaker flips again. Smelling gas means leaving, switches untouched, and phoning the gas company from the sidewalk. We inspect, explain, agree a flat price with you and run the heat through a full cycle.',
       },
       {
-        title: 'Repair or Replace Your Mount Adams Furnace?',
+        title: 'Repair or Replace Your Furnace in Mount Adams?',
         body: 'An 1890s Mount Adams house may have a furnace that went in a few winters ago, so the equipment gets judged, not the address. On that furnace, a dead igniter, inducer motor or control board is routine work. A cracked heat exchanger changes everything: carbon monoxide can get into the rooms through it, so we turn the furnace off and talk about a replacement rather than a patch. Inside the city, a new furnace counts as mechanical work under the Department of Buildings & Inspections, and the permit is ours to pull. Meanwhile, keep an eye on the gas bill. Short-cycling burns more gas for the same warmth.',
       },
     ],

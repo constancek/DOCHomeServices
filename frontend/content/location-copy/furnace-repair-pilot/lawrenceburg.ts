@@ -32,7 +32,7 @@ export const lawrenceburg: LocationServiceCopy = {
         body: 'The thermostat should be set to heat, and a blank or dim screen wants new batteries. Look at the service switch near the furnace and at the panel, keeping in mind that electric heat often runs on two breakers. A dirty filter goes in the trash, and the furnace door should be latched tight, because a door switch stops most units when it’s loose. If heat returns, you’re finished without a service call. Should you smell gas, get outside, leave light switches alone, relight nothing, and reach the gas company from out there. A carbon monoxide alarm empties the house first. We find the fault and quote before working.',
       },
       {
-        title: 'Repair or Replace Your Lawrenceburg Furnace?',
+        title: 'Repair or Replace Your Furnace in Lawrenceburg?',
         body: 'Base it on the furnace, not the age of the building. A brick house near the levee might have a fairly new furnace, and a bad inducer or control board on it is a reasonable repair. A cracked heat exchanger is a safety stop, since it can send carbon monoxide into the house. Electric systems give a warning on the bill from Lawrenceburg Municipal Utilities: a heat pump that’s failing hands the work to its backup strips, and usage jumps before the house goes cold. If we replace equipment, we handle the permit.',
       },
     ],

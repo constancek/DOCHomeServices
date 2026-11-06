@@ -36,7 +36,7 @@ export const mack: LocationServiceCopy = {
         body: 'A few checks can save a visit. Make sure the thermostat is set to heat. Slide out the filter and replace it if light won’t pass through it. Look in the panel for two breakers, one for the outdoor unit and one for the air handler inside. Keep the outdoor unit clear of drifted snow and leaves. A cloud of steam and a fan that pauses briefly are the defrost cycle doing its job. If heat comes back, you’re fine. We should come out for a coil that stays iced, a fan that won’t turn, or emergency heat that never shuts off. You approve the price before we repair anything.',
       },
       {
-        title: 'Repair or Replace Your Mack Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Mack?',
         body: 'Mack houses from the 1980s and 1990s rarely still have their first heat pump, so the house date tells you little. The nameplate on the outdoor cabinet has the year that matters. Cheap parts wear out on good systems, and a seized fan motor or a scorched wire is money well spent. Big-ticket failures change the maths: a compressor that has died, or refrigerant we have to add again a season after the last top-up. Then we write both figures down for you. All-electric homes give an early warning in January, when backup strips push the power bill up. Permits for replacement are on us.',
       },
     ],

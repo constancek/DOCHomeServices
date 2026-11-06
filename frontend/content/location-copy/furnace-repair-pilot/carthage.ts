@@ -32,7 +32,7 @@ export const carthage: LocationServiceCopy = {
         body: 'Run a few no-cost checks first. Set the thermostat to heat and give it new batteries. Find the furnace’s power switch, on the wall nearby or on the cabinet itself; it gets bumped off more than people expect. Check the breaker. A choked filter or a door left loose will also keep many furnaces from running. If sorting those out restores heat, there’s no need for us. Call when it clicks and won’t light, lights and quits, or blows air that stays cool. Gas smell: leave, skip the switches, phone Duke Energy from outside. CO alarm: everybody out. We diagnose, then you approve a price.',
       },
       {
-        title: 'Repair or Replace Your Carthage Furnace?',
+        title: 'Repair or Replace Your Furnace in Carthage?',
         body: 'The furnace decides it, not the house. Carthage houses are mostly older than 1940, and the basement furnace may be the second or third one, so the house’s age tells us almost nothing. An igniter or pressure switch failure is a normal repair. A cracked heat exchanger isn’t, because carbon monoxide can leak through it; we turn that furnace off and quote a replacement. We handle any replacement permit. Short of a breakdown, watch for a furnace running longer and longer to warm the back rooms. That shows on the gas bill first, and it’s a good moment for a look.',
       },
     ],

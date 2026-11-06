@@ -32,7 +32,7 @@ export const harrison: LocationServiceCopy = {
         body: 'Plenty of Harrison no-heat calls end at the thermostat. Make sure it reads heat, not cool or off. A packed filter starves a heat pump of air, so put in a new one. The panel holds two breakers for this system, outside unit and air handler, and a tripped one shuts it down. Rake leaves and shovel snow off the condenser. During defrost the unit can steam, grow a thin frost and stop its fan for a few minutes; that’s expected. If those steps bring the heat back, skip the call. A lit auxiliary heat light that won’t quit, or grinding outside, is a job for us.',
       },
       {
-        title: 'Repair or Replace Your Harrison Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Harrison?',
         body: 'Read the label on the heat pump, not the deed to the house. With 42.4% of Harrison homes built since 2000, a lot of equipment here is still young, and a dead fan motor or capacitor on it gets fixed. Leaking refrigerant or a seized compressor on an older unit is the bigger call, and you see the fix price and the new-unit price on the same page. A Duke Energy bill that jumps in an ordinary month usually means backup heat strips are making up for a weak heat pump. Renters: Ohio’s ORC 5321.04 puts heating repairs on the landlord, and we fix heat pumps, not leases.',
       },
     ],

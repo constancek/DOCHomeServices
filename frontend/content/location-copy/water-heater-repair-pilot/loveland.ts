@@ -32,7 +32,7 @@ export const loveland: LocationServiceCopy = {
         body: 'A cold shower in Loveland isn’t always a breakdown. If the household just ran several showers, the tank needs a while to catch up. The temperature knob may have been turned down by someone reaching past it. Electric heaters stop when their breaker trips in the panel. For gas, the valve handle should run parallel with the pipe, and a dead pilot can be relit from the steps on the tank’s label, as long as nothing smells of gas. Book us for pooling water, rusty or sulfur-smelling hot water, a relief valve that keeps opening, or popping from inside. We name the fault and the cost before starting.',
       },
       {
-        title: 'Repair or Replace Your Loveland Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Loveland?',
         body: 'The building’s age won’t settle it; the tank’s sticker will. An apartment in Loveland built in the 1970s can hold a heater installed last year. Elements, thermostats, a thermocouple, the dip tube or the anode rod are on-the-spot repairs. A shell leaking from its own seams can’t be saved, so that heater gets replaced. You get the repair and the replacement priced together and make the call. Loveland contracts with Hamilton County Public Health for plumbing permits, and we file where one is needed. After a repair, we run a hot tap to prove it works.',
       },
     ],

@@ -32,7 +32,7 @@ export const westChester: LocationServiceCopy = {
         body: 'A West Chester no-heat call sometimes needs only a homeowner. Go to the thermostat, choose heat and swap in new batteries. Find the furnace’s wall switch nearby, flip it on if someone bumped it, and check the breaker panel. A filled-up filter should go, and the blower door must click fully closed or most furnaces refuse to fire. Warm air again? We aren’t needed. With a gas smell, don’t touch switches or relight the burner; step outside and call the gas company from there. A sounding carbon monoxide alarm means everyone leaves first. If none of that solves it, we diagnose, quote for approval and test the heat once fixed.',
       },
       {
-        title: 'Repair or Replace Your West Chester Furnace?',
+        title: 'Repair or Replace Your Furnace in West Chester?',
         body: 'The furnace matters more than the house. The median West Chester home dates to about 1988, and many have already swapped the original furnace, so check the manufacture date on the unit’s label first. Replacing an igniter or blower motor is normally money well spent. A crack in the heat exchanger changes the decision, because carbon monoxide can get into your rooms, so safety settles it before cost does, and that furnace stays off. On electric heat, a power bill rising through steady weather often points to a heat pump living on its backup strips. Any replacement includes the permit, which we take care of.',
       },
     ],

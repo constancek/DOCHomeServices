@@ -36,7 +36,7 @@ export const pleasantRidge: LocationServiceCopy = {
         body: 'Start with the easy checks. Make sure the thermostat is on heat. A clogged filter cuts airflow, so replace it. There should be one breaker for the outdoor unit and one for the furnace or air handler; turn on any that tripped. Clear away leaves and snow from the outdoor unit. If it steams and the fan pauses for a few minutes, that’s defrost and it’s normal. When heat comes back, you don’t need us. Call if ice stays put, the system won’t switch out of cooling, or the outdoor fan grinds or won’t start. If you smell gas at the furnace, leave and call from outside.',
       },
       {
-        title: 'Repair or Replace Your Pleasant Ridge Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Pleasant Ridge?',
         body: 'Look at the heat pump’s own age, not the house’s. A 1920s Pleasant Ridge house can have a heat pump that’s only a few years old, and a failed defrost board or capacitor on that unit is a repair. If an older outdoor unit has a refrigerant leak or a seized compressor, we price both options and let you decide. Inside the city, the Department of Buildings & Inspections issues the mechanical permit, and we pull it. In a dual fuel home a weak heat pump hides behind the furnace, so higher gas use during mild weather is the clue.',
       },
     ],

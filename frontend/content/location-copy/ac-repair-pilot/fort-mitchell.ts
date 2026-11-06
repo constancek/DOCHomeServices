@@ -32,7 +32,7 @@ export const fortMitchell: LocationServiceCopy = {
         body: 'Several Fort Mitchell AC problems have a free fix. Slide in a fresh filter, confirm cool mode with the setpoint under the room’s temperature, and reset the condenser’s breaker once. When the house cools again, you can stop there and pay nobody. Tenants who reach this point without luck should pass it to the landlord. Book a technician if the breaker won’t hold after one reset or the condenser drones with a stalled fan. We inspect the inside and outside units and describe the fault plainly. A fixed price gets your signature, or the owner’s, before work, and we finish by confirming cold air at the registers.',
       },
       {
-        title: 'Repair or Replace Your Fort Mitchell AC?',
+        title: 'Repair or Replace Your AC in Fort Mitchell?',
         body: 'Read the age off the equipment label. Half the houses in Fort Mitchell were built before 1971, so many have already gone through one condenser. When the system is young and only one part broke, repair makes sense. When an older unit needs a compressor, or the coil has leaked more than once, new equipment usually costs less across the next few summers. Landlords should also weigh the winter no-heat calls an old heat pump brings. Fort Mitchell replacements need a Kentucky permit from Planning and Development Services of Kenton County, which we obtain. A Duke Energy Kentucky bill rising while rooms stay warm signals a struggling system.',
       },
     ],

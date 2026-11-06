@@ -32,7 +32,7 @@ export const southLebanon: LocationServiceCopy = {
         body: 'Three checks come first: the filter, the thermostat and the breaker. If a new filter or a reset breaker gets cold air flowing, you don’t need a service call. Call us when the breaker trips a second time or ice forms on the copper line outside. Renters in South Lebanon’s apartment buildings should report it to the landlord or management first. Our technician tests both sides of the system and gives you a flat price to approve before starting. We run the system afterward and check the air at the vents.',
       },
       {
-        title: 'Repair or Replace Your South Lebanon AC?',
+        title: 'Repair or Replace Your AC in South Lebanon?',
         body: 'Go by the date on the outdoor unit, not the house. Most South Lebanon subdivision systems went in with the house, so a lot of them are now in their second decade. A failed capacitor or contactor on one of those is a quick fix and worth doing. A dead compressor or a coil that has leaked more than once usually points to replacement, and we handle the permit for that. Before it gets there, the bill tells you. A heat pump with low refrigerant or a clogged outdoor coil runs longer every afternoon, so an electric bill that climbs in an ordinary month is worth a look.',
       },
     ],

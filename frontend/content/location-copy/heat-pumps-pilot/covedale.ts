@@ -32,7 +32,7 @@ export const covedale: LocationServiceCopy = {
         body: 'Before you book, check a few things. The thermostat needs to be on heat, and on a dual fuel thermostat make sure nobody switched it to furnace only. Put in a clean filter. Reset a tripped breaker once, for the outdoor unit or the furnace. Clear leaves or snow from the outdoor unit. Steam and light frost on the coil are a normal defrost cycle. If that gets the heat going, you don’t need us. Call when ice won’t clear, the auxiliary heat indicator stays lit, or the outdoor fan grinds or won’t turn. We explain the problem and give you a price to approve first.',
       },
       {
-        title: 'Repair or Replace Your Covedale Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Covedale?',
         body: 'Go by the heat pump’s own age, which is often far less than the house’s. A heat pump added to a 1950s Covedale house in recent years with a failed capacitor or defrost sensor is a repair. A compressor failure or repeated refrigerant leaks on an older outdoor unit is when we price replacement beside repair. With a gas furnace behind it, a broken heat pump rarely leaves you cold, which is why it can go unnoticed for weeks. A gas bill that climbs while the weather stays the same is the giveaway, and it’s worth a call before the next one.',
       },
     ],

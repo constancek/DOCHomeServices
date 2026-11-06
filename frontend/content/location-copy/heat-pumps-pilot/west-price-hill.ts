@@ -36,7 +36,7 @@ export const westPriceHill: LocationServiceCopy = {
         body: 'Heat is the only thermostat mode that warms the house, so check it hasn’t slipped to cool or off. Hold the filter to a lamp; if no light passes, replace it. The condenser and air handler each have their own breaker, and both must be on. Rake leaves and snow off the outside cabinet, which on a sloped lot can catch drifts. A few minutes of steam, light frost and a silent fan is the defrost cycle doing its job. Warm air back means you don’t need us. Ice that hangs on, a grinding fan or one that won’t spin is our cue, and we quote before work.',
       },
       {
-        title: 'Repair or Replace Your West Price Hill Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in West Price Hill?',
         body: 'Decide by the heat pump’s condition, not the house’s age. A pre-war West Price Hill house may carry a heat pump installed a few years back, and a bad defrost control or outdoor fan motor on it is a repair. When the compressor fails, or refrigerant needs adding again and again, we price a replacement next to the repair. In a dual fuel house, the gas bill gives it away: if the furnace runs through mild weather, the heat pump has likely stopped heating. Financing is available if you replace.',
       },
     ],

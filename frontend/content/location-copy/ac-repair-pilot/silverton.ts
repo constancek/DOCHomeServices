@@ -32,7 +32,7 @@ export const silverton: LocationServiceCopy = {
         body: 'Start with what costs nothing. Swap a dusty filter, drop the thermostat a few degrees below the room on cool, and check the breaker panel. On a narrow Silverton lot, also pull back any grass or leaves crowding the outdoor unit. Cool air afterwards means you can skip the visit. Book us when the outdoor unit stays silent or the house is still warm an hour later. Renters, send it to the landlord. Our technician inspects, explains the failure plainly, and only proceeds once you accept a fixed price. We test the cooling before packing up.',
       },
       {
-        title: 'Repair or Replace Your Silverton AC?',
+        title: 'Repair or Replace Your AC in Silverton?',
         body: 'The age of the house tells you little about the air conditioner. Silverton homes from the 1940s and 1950s were built without central air, and many have since gone through two or three outdoor units. When a system has life left and a single part fails, repair it. When an aging compressor seizes or refrigerant leaks keep coming back, replacement usually wins, sized to the ductwork actually in the walls. The village requires a permit for a replacement air conditioner, which we arrange. A system on its way out tends to show up first in what you pay Duke Energy Ohio, since it runs longer to hold the setting.',
       },
     ],

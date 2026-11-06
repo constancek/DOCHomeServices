@@ -32,7 +32,7 @@ export const wyoming: LocationServiceCopy = {
         body: 'Some Wyoming calls end before we arrive. Set the thermostat to heat and change weak batteries. The furnace’s power switch belongs in the on position, the breaker should be set, and a gray, dusty filter needs swapping. Press the front panel firmly into place; most furnaces sit dead with it loose. Warm air again means no visit. Book us when the furnace lights and drops out, short-cycles or picks up new noises. A gas smell means leave the switches untouched, step outside and call the gas company from the yard. On a visit we inspect, explain what failed, get your okay on the price and test the heat.',
       },
       {
-        title: 'Repair or Replace Your Wyoming Furnace?',
+        title: 'Repair or Replace Your Furnace in Wyoming?',
         body: 'Don’t judge by the house. A Wyoming home built in the 1920s might have a furnace only a few years old, so check the date on its label. Igniters, sensors, inducer motors and control boards are all reasonable repairs on most units. A heat exchanger that has cracked is about safety before money, because it can let carbon monoxide into the rooms; when the CO alarm sounds, everyone goes outside first. Putting in a new furnace takes city approval through Community Development, and we arrange it. A gas bill climbing in a normal Wyoming winter usually means the furnace runs longer for the same heat.',
       },
     ],

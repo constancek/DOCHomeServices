@@ -32,7 +32,7 @@ export const lockland: LocationServiceCopy = {
         body: 'Rule out the easy causes first. A family showering one after another empties the tank, and it needs time to reheat. Someone may have nudged the temperature dial or left the gas valve off after basement work. For an electric heater, check the breaker. If the pilot is out and the basement doesn’t smell of gas, the tank’s label explains how to light it. Book us for popping and rumbling, rust in the hot water, scorch marks near the burner, or a relief valve that has opened more than once. Old basements hide slow leaks, so look under the tank too. We quote before work.',
       },
       {
-        title: 'Repair or Replace Your Lockland Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Lockland?',
         body: 'Go by the heater, not the year your house went up. The label on the tank gives its install date, and an old house has usually had several heaters. Thermocouples, gas valves, relief valves and anode rods are repairs. A tank leaking through its own wall is a replacement. In these houses we also look at the vent pipe and gas connector, since a new heater on corroded venting is not a finished job. We give you both prices and you decide. We pull the permit where one is needed, and we price tankless only if you ask.',
       },
     ],

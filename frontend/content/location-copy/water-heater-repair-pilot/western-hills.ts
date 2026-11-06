@@ -32,7 +32,7 @@ export const westernHills: LocationServiceCopy = {
         body: 'Plenty of Western Hills calls turn out to be nothing. A houseful of long showers will drain any tank; wait and it recovers. Look whether somebody knocked the dial on the front, whether the electric heater’s breaker flipped, whether the gas cock got turned crosswise. A dark pilot can be relit by following the sticker, provided the basement smells normal. What needs us: a puddle spreading underneath, brown or sulfur-smelling hot water, the side relief valve spitting more than once, black scorching at the burner opening. We find the fault, write down a price, fix it once you agree, then run the taps to prove it.',
       },
       {
-        title: 'Repair or Replace Your Western Hills Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Western Hills?',
         body: 'Ignore the house’s age and read the sticker on the tank, which shows when it was installed. Lots of Western Hills ranches from 1958 have a heater only a few years old. Worn thermocouples, gas controls, heating elements, thermostats, dip tubes and anode rods all come out and get replaced. A steel tank rusted through and leaking is past saving. We write the repair price and the replacement price on the same sheet, and the choice stays yours. Who signs off a replacement, city, county or Cheviot, depends on your parcel, and we file it.',
       },
     ],

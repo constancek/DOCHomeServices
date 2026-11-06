@@ -32,7 +32,7 @@ export const northBend: LocationServiceCopy = {
         body: 'Run through this list first. A string of showers can empty the tank, so let it recover. In tight townhouse closets the temperature dial gets knocked by whatever is stored nearby. A gas unit needs its gas cock open; if the pilot has gone out and nothing smells of gas, the lighting steps are printed on the tank. Electric units need their breaker on. Owners in North Bend should call us for a puddle at the base, rotten-egg hot water, scorch marks under the burner door, or loud rumbling during heating. Diagnosis and a flat price come before any work.',
       },
       {
-        title: 'Repair or Replace Your North Bend Water Heater?',
+        title: 'Repair or Replace Your Water Heater in North Bend?',
         body: 'The tank decides, not the deed. Its sticker shows the install date, and a 2005 townhouse in North Bend may already be on its second heater while a riverside house from the 1930s runs a recent one. Thermocouples, gas controls, relief valves, anode rods and electric elements all count as repairs. When the tank shell itself leaks, replacement is the only answer. You see both quotes together. We pull the permit where one is needed. Tankless comes up only if you ask about it, and financing is available for a replacement.',
       },
     ],

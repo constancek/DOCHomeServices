@@ -32,7 +32,7 @@ export const bethel: LocationServiceCopy = {
         body: 'Do the free checks before anyone comes out: replace the filter, check the thermostat batteries and reset the breaker. If cold air returns, you don’t need us. Tenants in Bethel should report the problem to the landlord, who usually books the repair. Call us when the breaker trips again or water drips from the closet where the air handler sits. We check the indoor and outdoor units and explain the fault. Nothing starts until the flat-rate price is approved, and after the repair we confirm the air at the vents is cold.',
       },
       {
-        title: 'Repair or Replace Your Bethel AC?',
+        title: 'Repair or Replace Your AC in Bethel?',
         body: 'Decide on the age of the unit, not the building. A Bethel house from the 1950s can have a condenser put in last decade, and a new capacitor or fan motor keeps it going. An old system with a dead compressor is usually better replaced. Clermont County Building Inspection issues the replacement permit, and we file it. Before that point, the Duke Energy Ohio bill gives early notice: a jump during mild weather usually means a dirty coil or a slow leak is keeping the compressor on longer than it should.',
       },
     ],

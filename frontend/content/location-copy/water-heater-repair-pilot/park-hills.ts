@@ -32,7 +32,7 @@ export const parkHills: LocationServiceCopy = {
         body: 'Go through these before booking. If several people showered one after another, give the tank time. A dial bumped low gives tepid water. Electric units in Park Hills apartments shut down when their breaker trips; reset it once. Gas units need the valve open, and a pilot that has gone out can be relit by the steps on the label when there’s no gas smell. Tenants should report it to the landlord rather than open panels. We’re needed for a wet floor under the tank, rusty or rotten-egg hot water, a relief valve that lets go twice, or lukewarm water from an electric unit. You get the quote first.',
       },
       {
-        title: 'Repair or Replace Your Park Hills Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Park Hills?',
         body: 'The tank’s sticker matters more than the building’s age. A 1950s apartment block in Park Hills may have heaters put in last year, while a 1920s house may still run an old one. Thermocouples, gas controls, elements, thermostats, relief valves, anode rods and dip tubes are repairs. When water comes through the shell, the heater gets replaced. Both prices go to the owner, who decides. Kentucky’s plumbing inspections are a state job, and we take care of the permit. A shared heater for a whole building is management’s call, and we work with them on it.',
       },
     ],

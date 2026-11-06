@@ -32,7 +32,7 @@ export const mountAuburn: LocationServiceCopy = {
         body: 'Rule out a drained tank before anything else: after back-to-back showers and a washing machine cycle, it simply needs a while. Next, see whether somebody nudged the temperature knob. Electric units shut down cold when their breaker trips, so look in the panel. Gas units need an open supply valve and a burning pilot; the relighting steps are printed on the label, and you only follow them when there’s no odor of gas. Rusty or sulfur-smelling water, a puddle at the base, rumbling during heating and a relief valve that keeps venting are our cue. Diagnosis and the quote come before any wrench turns.',
       },
       {
-        title: 'Repair or Replace Your Mount Auburn Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Mount Auburn?',
         body: 'The sticker on the heater dates it, and a Mount Auburn house from the 1800s says nothing about that. A recent tank with a worn thermocouple, failing gas control, burned element or eaten anode rod gets repaired. Once rust lets water out through the shell, though, there’s no part to swap, and the heater gets replaced. You see both figures side by side and make the call. Old basement installs also get a look at the flue pipe and supply valve, because new tanks shouldn’t hang off tired connections. Tankless comes up only if it actually fits.',
       },
     ],

@@ -32,7 +32,7 @@ export const batavia: LocationServiceCopy = {
         body: 'A handful of easy checks come first. A tank emptied by heavy use wants time to recover. Someone may have turned the control knob. Electric heaters go dead on a tripped breaker. A blown-out gas pilot can be relit using the label’s steps when the basement smells normal. If none of that works, it’s our turn. Look for a puddle beneath the tank or a relief valve that has opened more than once. Scorching around the burner, common on old basement heaters, needs a look too. We inspect, explain, then quote a flat price.',
       },
       {
-        title: 'Repair or Replace Your Batavia Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Batavia?',
         body: 'A Batavia house from the 1920s may hold a heater only a few years old, so read the data plate, not the deed. On a young heater, a failed thermocouple, gas valve or relief valve is worth the fix, and the same goes for elements, thermostats, anode rods and dip tubes. A shell leaking water means a new heater. In old basements, that new heater can also need fresh flue connectors and a shutoff that actually closes; those go into the quote. You see repair and replacement priced together and make the call.',
       },
     ],

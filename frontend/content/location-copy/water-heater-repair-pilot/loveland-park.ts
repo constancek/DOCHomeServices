@@ -32,7 +32,7 @@ export const lovelandPark: LocationServiceCopy = {
         body: 'One cold shower in Loveland Park isn’t proof of a broken heater. A family that just ran several showers has emptied the tank, and it needs a while to catch up. The temperature control might have been turned down by accident. Electric units need their breaker on; gas units need the supply valve open, and if the pilot’s out with no gas odor, the label shows how to relight it. A puddle under the tank, rusty or sulfur-smelling water, a relief valve that keeps letting go, or scorching around the burner is our cue. We inspect, explain, price it and run the hot water before leaving.',
       },
       {
-        title: 'Repair or Replace Your Loveland Park Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Loveland Park?',
         body: 'The heater’s label matters more than the house. A 1930s Loveland Park cottage may have a tank that’s only a few years old, and a new thermocouple, element or relief valve puts it right. A tank that leaks from its own body can’t be patched, so we quote a replacement next to any repair worth doing, and you decide. In the older houses we also check the shutoff valve and the vent, because those are often far older than the heater. Ask about tankless if you’re curious and we’ll give you a straight answer, without pushing it.',
       },
     ],

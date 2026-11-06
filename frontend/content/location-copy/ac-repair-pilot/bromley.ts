@@ -32,7 +32,7 @@ export const bromley: LocationServiceCopy = {
         body: 'Bromley homeowners can settle some AC problems on their own. Put a new filter in, check that the thermostat is on cooling, and reset the condenser breaker one time. If it cools again, there’s nothing to book. Bring us in when that breaker refuses to hold, or the outdoor unit drones with its fan parked. Water around the furnace base is another reason. Our technician works through the furnace-side equipment and the unit outside, then spells out the problem without jargon. You see a fixed price, and no wrench turns without your go-ahead. Afterward we take a vent reading together.',
       },
       {
-        title: 'Repair or Replace Your Bromley AC?',
+        title: 'Repair or Replace Your AC in Bromley?',
         body: 'The house’s age says little here, so find the nameplate on the outdoor unit. Almost no Bromley homes were built after 2000, so nearly every system was fitted to an older house, and some are close to worn out. One bad part on otherwise healthy equipment gets repaired. A seized compressor, or a coil that has leaked twice on an aging unit, points toward replacing it. Kentucky wants a permit for that swap, and Planning and Development Services of Kenton County issues Bromley’s; we arrange it. July and August Duke Energy Kentucky bills that keep climbing often flag a system slipping.',
       },
     ],

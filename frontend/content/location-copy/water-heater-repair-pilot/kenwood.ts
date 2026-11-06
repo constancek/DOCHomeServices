@@ -32,7 +32,7 @@ export const kenwood: LocationServiceCopy = {
         body: 'A few Kenwood no-hot-water calls end before we arrive. Back-to-back showers can drain a tank, so wait and try again later. Make sure the knob hasn’t been turned, the gas handle is open and an electric heater’s breaker is on. With no gas odor, a pilot that went out can be relit from the printed steps. Real faults show up as water around the base, hot water with a rotten-egg smell or a rusty tint, a side valve that discharges again, or burn marks near the burner opening. Condo owners and renters in a shared-heater building call management first. We test, quote, then fix.',
       },
       {
-        title: 'Repair or Replace Your Kenwood Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Kenwood?',
         body: 'Judge by the date on the heater’s sticker. Kenwood houses mostly went up from the 1950s through the 1970s, but the tank in the basement is often far younger, and a failed thermocouple, gas control, thermostat or side valve on it is worth fixing. An anode rod or dip tube is a repair too. A tank leaking from its shell needs replacing, full stop. We quote both and you choose. Hamilton County Public Health issues the plumbing permit for a Kenwood replacement, and we file it and arrange the inspection, so you only deal with us.',
       },
     ],

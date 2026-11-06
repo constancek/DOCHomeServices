@@ -32,7 +32,7 @@ export const highlandHeights: LocationServiceCopy = {
         body: 'Three checks cost nothing. Fit a new filter, drop the thermostat to cool a couple of degrees under the room’s reading, and reset the breaker once if it tripped. Tenants can run these too and report the outcome to the landlord. Should the air turn cold, you don’t need us. Book a visit if the outdoor unit hums but its fan won’t turn, or the breaker trips again shortly after the reset. A technician checks the indoor and outdoor halves and explains the failure in plain words, with a flat price attached. Nothing begins until you agree, and the house is cooling before we go.',
       },
       {
-        title: 'Repair or Replace Your Highland Heights AC?',
+        title: 'Repair or Replace Your AC in Highland Heights?',
         body: 'The house’s age matters less than the equipment’s. A Highland Heights home from 1985 might carry a 1990s condenser or one set last summer, so read its data plate. If the equipment is fairly new and one part failed, repair it. If an older heat pump’s compressor is weakening, replacement usually wins, and since electric heat dominates here, the new unit handles winter as well. State rules require a permit for that swap, and we take it to the county. Keep an eye on Duke Energy Kentucky usage too: kilowatt hours rising against the same month a year ago often point to a heat pump short on refrigerant.',
       },
     ],

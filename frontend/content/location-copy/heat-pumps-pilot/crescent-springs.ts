@@ -32,7 +32,7 @@ export const crescentSprings: LocationServiceCopy = {
         body: 'In a Crescent Springs condo, the thermostat belongs on heat; cool or off won’t do. A filter thick with dust chokes the airflow, so change it. Most units here have a breaker for the outdoor section and one for the closet air handler, and a tripped one can go back on once. Sweep snow and leaves off the outdoor unit. Steam, a light frost or a fan resting a few minutes is defrost, which is normal. If heat comes back, keep your money. Book us when ice won’t melt off, emergency heat stays lit or the outdoor fan grinds. You see the price before any repair.',
       },
       {
-        title: 'Repair or Replace Your Crescent Springs Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Crescent Springs?',
         body: 'Judge the equipment, not the condo building. A 1980s condo may have had its outdoor unit swapped recently, and a newer unit with a bad contactor or fan motor gets fixed. A leaking refrigerant line or locked-up compressor on an older system is where the choice gets real, and we quote both side by side. Your Duke Energy Kentucky bill helps too. A sharp jump during a mild month usually means the backup strips are covering for a heat pump that quit doing its share. Financing is available if you replace.',
       },
     ],

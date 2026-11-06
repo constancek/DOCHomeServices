@@ -32,7 +32,7 @@ export const forestPark: LocationServiceCopy = {
         body: 'Before paying for a visit, change the filter, confirm the thermostat is on cool and set lower than the room, and look at the outdoor unit’s breaker. In Forest Park’s many heat pump homes, check for an emergency heat light too. If the air turns cold, cancel the visit; tenants can pass it to their landlord from there. Call us once the condenser buzzes while its fan sits still, or the breaker flips a second time. A technician goes through the indoor and outdoor halves and shows you the failed part. Nothing gets repaired until you’ve okayed the price, and we run the system with you afterward.',
       },
       {
-        title: 'Repair or Replace Your Forest Park AC?',
+        title: 'Repair or Replace Your AC in Forest Park?',
         body: 'Forget the house’s age and read the nameplate on the outdoor unit. Few Forest Park homes from 1969 still run their original condenser. A younger system with one tired part, a contactor say, gets repaired. An aging unit with a seized compressor, or a coil that leaks a second time, is better replaced. Heat pumps here carry the winter as well, so they wear out ahead of a summer-only condenser. The Forest Park Building Department permits replacement air conditioners and heat pumps, and we apply for you. Rising electric costs at an unchanged thermostat setting often come before the breakdown, so watch the bill.',
       },
     ],

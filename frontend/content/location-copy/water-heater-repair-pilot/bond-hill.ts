@@ -32,7 +32,7 @@ export const bondHill: LocationServiceCopy = {
         body: 'When three or four people shower in a row, the tank needs time to catch up. Look at the dial, since it gets bumped when things are stored nearby. Electric heaters quit on a tripped breaker. Gas heaters quit when the shutoff on the gas line is closed or the pilot flame is gone; if the basement doesn’t smell of gas, the relight steps are printed on the tank. Renters pass anything beyond that to the landlord. We’re the call for a wet floor, banging from sediment, brown water, a sulfur smell or soot near the burner. Diagnosis, price, your approval, then the fix and a test.',
       },
       {
-        title: 'Repair or Replace Your Bond Hill Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Bond Hill?',
         body: 'Bond Hill has heaters of every age sitting in houses of every age, so read the sticker on the tank, not the cornerstone. A failed thermocouple, burner control, element, pressure relief valve or anode is a part swap. Rust working through the tank wall ends the discussion, because nothing patches it. Where fixing and replacing are both fair, the two figures go on one page and you pick. Landlords with doubles often handle one side now and the other later. Bond Hill is city territory, so replacements carry a Buildings & Inspections permit, which we file.',
       },
     ],

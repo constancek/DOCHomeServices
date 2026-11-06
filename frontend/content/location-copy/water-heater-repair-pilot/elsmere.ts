@@ -32,7 +32,7 @@ export const elsmere: LocationServiceCopy = {
         body: 'Mobile home tanks in Elsmere run small, so a couple of showers can empty one; give it time to reheat. See if the temperature control got turned down. Electric heaters go cold on a tripped breaker, and gas heaters go cold when the pilot blows out or the supply valve gets shut; relight following the label only if the air smells clean. We’re needed for water on the floor beneath the tank, rust-colored or sulfur-smelling hot water, a relief valve that has opened more than once, or burn marks at the burner opening. We inspect it, explain the fault and quote before any repair.',
       },
       {
-        title: 'Repair or Replace Your Elsmere Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Elsmere?',
         body: 'Elsmere houses span every decade since the 1930s, so the house date tells you little; the heater label tells you when the tank went in. Thermocouples, gas valves, elements, thermostats, relief valves, anode rods and dip tubes are all parts we replace on the heater you already have. A tank leaking from its body can’t be saved and comes out. Otherwise you see both prices and choose. Mobile homes need a heater built for them, and old basements may need a new shutoff with the tank. Some Elsmere mailing addresses sit inside Erlanger; plumbing is inspected by the state either way. We pull the permit where needed.',
       },
     ],

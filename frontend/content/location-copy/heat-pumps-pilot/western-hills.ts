@@ -36,7 +36,7 @@ export const westernHills: LocationServiceCopy = {
         body: 'A thermostat bumped onto cool during a warm spell fools plenty of Western Hills owners, so check that first. A filter gone gray chokes airflow; put in a new one. Your panel carries separate breakers for the outside cabinet and for the indoor furnace or air handler, and one trip shuts the system down. Kick fallen leaves and plowed snow back from the cabinet. Wisps of steam and a frosted coil while the fan sits idle mean defrost, nothing more. If heat comes back, skip the call. Phone when ice hangs on for hours or the auxiliary heat lamp never dims. You hear the diagnosis and approve a price first.',
       },
       {
-        title: 'Repair or Replace Your Western Hills Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Western Hills?',
         body: 'Go by the heat pump’s own age, printed on the outdoor unit’s label, not the house’s. A house from around 1960 tells you nothing about a heat pump that may have gone in last year or twenty years ago. A bad capacitor or fan motor on a sound unit is a repair. A leak that keeps coming back, or a dead compressor on an older unit, is where we price both options side by side. The permit office depends on which side of the city line you live on, and we take care of it. A unit losing ground shows up as a higher electric bill.',
       },
     ],

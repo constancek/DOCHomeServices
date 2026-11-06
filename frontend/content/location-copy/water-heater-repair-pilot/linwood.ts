@@ -32,7 +32,7 @@ export const linwood: LocationServiceCopy = {
         body: 'A few Linwood no-hot-water calls end before we arrive. Back-to-back showers in a double with one small tank can empty it; give it time. The control knob on the gas valve can get nudged to a low setting. A closed gas shutoff or a blown-out pilot stops a gas heater, and you can relight from the printed steps if the basement smells clean. Electric units need their breaker on. Ring us about water on the basement floor, crackling from sediment, brown or sulfur-smelling water, a pilot that won’t hold, or a pressure valve letting go more than once. We test, explain, quote, then confirm.',
       },
       {
-        title: 'Repair or Replace Your Linwood Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Linwood?',
         body: 'The sticker on the tank gives its install date. In a Linwood house standing since before 1940, the heater in the basement could be decades old or nearly new. Pilot sensors, gas controls, thermostats, elements, pressure valves, anodes and inlet tubes are each changed on their own. A tank seeping through its steel body can’t be saved, so that one is swapped out. When it’s unclear, both prices go side by side and you pick. Replacing a heater within city limits needs a Buildings & Inspections permit, and we take care of it.',
       },
     ],

@@ -32,7 +32,7 @@ export const fortWright: LocationServiceCopy = {
         body: 'Some Fort Wright AC problems you can fix yourself. Install a clean filter, switch the thermostat to cool at a setting under the room’s temperature, and flip a tripped condenser breaker back on one time. If cold air follows, keep your money. Renters should hand the issue to the landlord from there. Get us out when the breaker keeps tripping or the condenser runs and the rooms don’t cool. The technician tests indoor and outdoor parts and shows you what broke. You approve a set price before anything happens, and once it’s fixed we read the vent temperatures with you.',
       },
       {
-        title: 'Repair or Replace Your Fort Wright AC?',
+        title: 'Repair or Replace Your AC in Fort Wright?',
         body: 'Start with the condenser’s data plate rather than the year the house was built. A 1970s Fort Wright home has probably already replaced its first air conditioner, and that second unit may be getting tired. Fix a reasonably young system with one failed part. Swap out an old one once the compressor goes or the coil starts leaking. Kentucky requires a permit for a new outdoor unit; Fort Wright’s comes from Planning and Development Services of Kenton County, and we take that on. A Duke Energy Kentucky bill that creeps higher as the summer goes on is often the earliest hint of wear.',
       },
     ],

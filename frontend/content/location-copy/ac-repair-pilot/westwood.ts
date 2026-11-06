@@ -32,7 +32,7 @@ export const westwood: LocationServiceCopy = {
         body: 'Rule out the free fixes before paying for a visit. Replace a choked filter, set the thermostat below room temperature in cool mode, and reset a tripped breaker once. Heat pump owners should make sure the system isn’t sitting in heat or emergency heat. If cool air returns, you can skip us. Tenants should go no further and notify the landlord. It’s time for a technician when ice grips the larger copper line outside or the breaker trips again right away. Our technician works out the fault, shows you the evidence and quotes a single flat rate, and the repair waits for your approval.',
       },
       {
-        title: 'Repair or Replace a Mid-Century Westwood AC?',
+        title: 'Repair or Replace a Mid-Century AC in Westwood?',
         body: 'A 1950s Westwood house may be on its third condenser, so ignore the house’s age and read the equipment label. Below roughly 12 years, one bad part such as a capacitor gets repaired. Above that, a dead compressor or leaky coil usually justifies new equipment. Much of Westwood went up between the 1950s and the 1970s, so the ducts often predate the cooling and should be measured before sizing. Most addresses sit inside Cincinnati, but some near Werk Road fall outside city limits, so we confirm which office permits your replacement. A worn heat pump also lifts Duke Energy Ohio bills all winter.',
       },
     ],

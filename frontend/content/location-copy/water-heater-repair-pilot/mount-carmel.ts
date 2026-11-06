@@ -32,7 +32,7 @@ export const mountCarmel: LocationServiceCopy = {
         body: 'Rule out the easy fixes first. When everyone showers in a row the tank empties, and it will come back once it reheats. A bumped dial gives lukewarm water. For electric heaters, the breaker needs to be on. For gas, the gas valve must be open; relight the pilot from the label only if there’s no gas smell. We’re needed for a puddle under the tank, hot water that smells of rotten eggs, or scorch marks near the burner. A relief valve that keeps discharging also needs us. We inspect it, explain the problem, price it before work, and test it once fixed.',
       },
       {
-        title: 'Repair or Replace Your Mount Carmel Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Mount Carmel?',
         body: 'Ignore the year on the deed and read the sticker on the heater. A Mount Carmel ranch from 1955 has likely been through several tanks already. Worn thermocouples, control valves, elements and thermostats are fixed on the visit, as are side relief valves, anode rods and dip tubes. Rust coming through the steel shell is the end, and a new heater gets quoted beside the fix. Mid-century basements bring one more check: we look at the vent connector and the old shutoff before quoting, so the price doesn’t change halfway. Plumbing permits here come from Clermont County Public Health, and our office files any the job needs.',
       },
     ],

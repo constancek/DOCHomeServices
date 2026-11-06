@@ -32,7 +32,7 @@ export const westPriceHill: LocationServiceCopy = {
         body: 'Some warm-house problems need no technician. Change a clogged filter, confirm the thermostat is on cool and reset a tripped breaker once, and you may be done. Renters, who make up just over half of West Price Hill households, should tell the landlord before booking anyone, since the owner holds the system and approves the work. Bring a technician in if the outdoor unit hums with its fan stopped or frost forms on the copper line. A second breaker trip is another reason. We find the cause, show it to you and quote a flat rate for approval, then measure cooling at the vents after the fix.',
       },
       {
-        title: 'Repair or Replace a 1950s West Price Hill AC?',
+        title: 'Repair or Replace a 1950s AC in West Price Hill?',
         body: 'The house may be from 1951, but the condenser on it probably isn’t, so read its label. A system under about 12 years old with one failed part is a repair. One that has lost its compressor, or still runs on R-22, is a replacement candidate: the EPA says R-22 hasn’t been made or imported in the US since 2020, so recharging an old unit gets expensive. On any replacement, have the ducts checked, because 1950s supply runs often can’t carry the airflow of a larger new unit. Meanwhile, hosing grime off the outdoor coil yourself trims the electric bill.',
       },
     ],

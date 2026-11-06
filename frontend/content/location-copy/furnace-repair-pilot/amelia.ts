@@ -32,7 +32,7 @@ export const amelia: LocationServiceCopy = {
         body: 'Plenty of Amelia no-heat calls get solved on the phone. First, heat mode on the thermostat and new batteries. Next, the service switch on or beside the furnace cabinet, which should be on. Electric furnaces pull a lot of current, so check the panel for a tripped breaker. A dusty filter gets swapped, and the furnace door gets pressed home, since a loose one keeps many units off. If the house warms up after that, keep your money. A gas smell means leaving without touching a switch and calling the gas company from the driveway. A carbon monoxide alarm means everyone gets outside before you do anything else.',
       },
       {
-        title: 'Repair or Replace Your Amelia Furnace?',
+        title: 'Repair or Replace Your Furnace in Amelia?',
         body: 'Size up the furnace rather than the house. One 2005 Amelia build may still run its original system while the house next door got a new one last year, and those two call for different answers. One bad element, sequencer or blower motor in a younger unit is a sensible repair. In a gas furnace, a cracked heat exchanger can leak carbon monoxide indoors, so that one gets replaced regardless of the repair price. Clermont County Building Inspection issues the replacement permit, and we file it. Until then, the electric bill is the early warning when a heat pump lives on backup strips or a furnace never shuts off.',
       },
     ],

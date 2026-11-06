@@ -32,7 +32,7 @@ export const newport: LocationServiceCopy = {
         body: 'Start with what you can check safely. When several people shower in a row, a small tank runs dry and needs time to heat again. The dial on the heater may have been bumped lower. An electric unit may have a breaker off. A gas unit may have its valve closed, or the pilot out; relight it per the label only with no smell of gas. In a rental, tell the landlord rather than opening anything. We’re needed for water on the floor, discolored or rotten-egg hot water, popping noises or a pilot that won’t stay on. We find the fault and price it first.',
       },
       {
-        title: 'Repair or Replace Your Newport Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Newport?',
         body: 'The heater’s label, not the house’s age, is the guide. A Newport house built before 1940 often has a far younger tank in its basement. Thermocouples, gas valves, elements, thermostats, relief valves, anode rods and dip tubes are replaceable parts. A tank leaking from the body is beyond repair, so we price a new one. If a heater took floodwater, its controls usually have to be replaced before it runs again. We show both prices when both make sense. In Kentucky the state inspects plumbing, and we pull the permit where one is needed.',
       },
     ],

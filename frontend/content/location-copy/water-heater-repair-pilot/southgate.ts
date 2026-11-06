@@ -32,7 +32,7 @@ export const southgate: LocationServiceCopy = {
         body: 'A small Southgate apartment tank can run cold after two showers and recover on its own once reheated. A dial turned down by accident does the same. Electric heaters stop on a tripped breaker, so check the panel. Gas heaters stop when the pilot goes out or the valve is closed; relight from the label only with no gas odor. Renters should leave covers on and tell the manager. Call us for water under the tank, rusty or sulfur-smelling hot water, a relief valve that opens again and again, or scorch marks at the burner. We test, explain and get your approval on price first.',
       },
       {
-        title: 'Repair or Replace Your Southgate Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Southgate?',
         body: 'Decide by the heater, not the Southgate building it’s in. An old house here can have a recent tank, and the label shows its install date. Thermocouples, gas valves, elements and thermostats are repairs, and so are relief valves, anode rods and dip tubes. A tank leaking through its body is past repair and gets replaced. The owner sees both prices together and chooses. In pre-war basements we also check the shutoff and the flue, since those often need replacing with the tank. In small apartment closets, the new heater has to fit the space. We pull the permit where needed.',
       },
     ],

@@ -32,7 +32,7 @@ export const hamilton: LocationServiceCopy = {
         body: 'On a narrow Hamilton lot, start outside. Clear snow and leaves from around the unit. Inside, the thermostat needs to read heat, and you should see light through the filter, or replace it. Find the two breakers in the panel, outside unit and air handler, and make sure neither tripped. A wisp of steam, a skin of frost and the fan going quiet for a few minutes is defrost doing its job. Warmth returning means no visit needed. Ice that stays, an emergency heat light that won’t go dark, a dead outside fan or a system stuck cooling all need us.',
       },
       {
-        title: 'Repair or Replace Your Hamilton Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Hamilton?',
         body: 'Judge the equipment, not the address. A Hamilton house from the 1920s can have an outdoor unit put in a few years back. Changing out a fan motor, capacitor or defrost board on a system that’s otherwise healthy is a repair. Leaking refrigerant or a compressor that has died is when we write up both options, fix and replace, for you to compare. Your city utility bill helps here: if the electric charge jumps in a normal winter month, the backup heat strips are likely doing the work. In a historic area, a replacement in the same spot is simpler than a move. Financing is available.',
       },
     ],

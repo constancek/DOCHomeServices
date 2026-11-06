@@ -32,7 +32,7 @@ export const mountAiry: LocationServiceCopy = {
         body: 'Apartment closet or basement, Mount Airy furnaces get the same short list. Thermostat on heat, batteries good. Furnace switch on. Breaker in place, not tripped. Filter not clogged. Furnace door pushed in tight, as a loose panel keeps a lot of units off. Fixed? Then you don’t need a technician. Bring us in for a breaker that trips again, a burning smell lasting past the season’s first run, or a gas furnace that tries and fails to light. A gas smell means leave, hands off the switches, and phone the gas company once outside. We diagnose, explain, price it for your OK and test.',
       },
       {
-        title: 'Repair or Replace Your Mount Airy Furnace?',
+        title: 'Repair or Replace Your Furnace in Mount Airy?',
         body: 'Decide on the furnace, not the building. In a Mount Airy house from the 1960s, the original furnace is often long gone and the current one may be fairly new, so a bad igniter, inducer or circuit board deserves a repair. A cracked heat exchanger on a gas unit is a carbon monoxide hazard, and we won’t restart a furnace with one. Electric furnaces have no heat exchanger to crack, so replacing one comes down to worn elements, a tired blower and the cost of the next repair. Replacements inside the city are mechanical work under the Department of Buildings & Inspections, and we pull the permit.',
       },
     ],

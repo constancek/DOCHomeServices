@@ -32,7 +32,7 @@ export const pleasantRidge: LocationServiceCopy = {
         body: 'Before booking anyone, pull the filter at the furnace and hold it to the light. If you can’t see through it, replace it and give the system an hour. Check that supply registers in the upstairs rooms are open, too, since closed vents in older Pleasant Ridge houses push the coil toward freezing. If the rooms cool after that, you don’t need us. Book a repair when water collects around the furnace or the outdoor fan won’t turn. We inspect the basement and outdoor equipment, tell you what broke and give a flat price first. Then we fix it and check the vent temperatures.',
       },
       {
-        title: 'Repair or Replace Your Pleasant Ridge AC?',
+        title: 'Repair or Replace Your AC in Pleasant Ridge?',
         body: 'Almost no Pleasant Ridge homes date from 2000 or later, so the air conditioner is nearly always the younger party. Up to about 12 years old with a worn capacitor or fan motor, fix it. Beyond that, with a seized compressor or a coil that won’t hold charge, price new equipment and size it to the prewar ducts, which seldom had cooling in mind. Inside city limits, we file the permit for you. A refrigerant shortfall or fouled outdoor coil keeps the compressor going longer, and Duke Energy Ohio bills you for it.',
       },
     ],

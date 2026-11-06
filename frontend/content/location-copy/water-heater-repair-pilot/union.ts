@@ -32,7 +32,7 @@ export const union: LocationServiceCopy = {
         body: 'A few causes need no visit. Kids’ baths followed by showers can use up a full tank, and waiting for it to reheat solves that. A dial that got bumped gives you warm instead of hot. If the heater is electric, look for a tripped breaker. If it is gas, the gas valve has to be open, and with no gas smell you may relight the pilot following the label. Call us when water gathers beneath the tank or the relief valve keeps letting go. Rotten-egg-smelling hot water needs us too. We inspect, explain, price the repair for approval, and test before leaving.',
       },
       {
-        title: 'Repair or Replace Your Union Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Union?',
         body: 'The heater’s label, not the house’s age, tells you where it stands. Most Union tanks are still first tanks, and a failed part on one is a repair: thermocouple, gas valve, element or thermostat, plus the relief valve, anode rod and dip tube. If the tank body is leaking, no part will save it, and we price a replacement beside the repair. You pick. Boone County issues building permits for Union and the state inspects plumbing; we pull the permit where one is needed. Tankless can fit some homes, and we’ll price it only if you want it.',
       },
     ],

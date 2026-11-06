@@ -32,7 +32,7 @@ export const edgewood: LocationServiceCopy = {
         body: 'A busy Edgewood household running the washer and back-to-back showers can drain the tank, and it comes back once reheated. Also look at the dial, which gets bumped. With an electric heater, check the panel for a tripped breaker. With gas, see whether the pilot blew out or the supply knob sits at off, and relight following the label only if the air smells clean. We’re the call for water collecting under the tank, rust in the hot water, a relief valve that has popped more than once, or black scorching at the burner. You hear the diagnosis and the price before we start.',
       },
       {
-        title: 'Repair or Replace Your Edgewood Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Edgewood?',
         body: 'In Edgewood, the 1970s house tells you nothing about the tank; the label does. Thermocouples, gas valves, elements and thermostats get replaced on the heater you have, and so do relief valves, anode rods and a dip tube that cracked and now sends cold water out the top. Rust and water from the tank wall mean the steel is through, and that heater gets replaced. For everything short of that, we set a repair price next to a replacement price and you decide. Edgewood garages and basements usually have room for a standard tank, which keeps a swap simple. We pull any permit needed.',
       },
     ],

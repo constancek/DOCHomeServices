@@ -32,7 +32,7 @@ export const northAvondale: LocationServiceCopy = {
         body: 'Some no-heat calls in North Avondale end at the thermostat. Confirm it says heat and the display isn’t blank from dead batteries. Old basements often hide the furnace power switch on a joist or the stair wall, so find it and flip it on, and check the breaker panel too. A packed filter can shut the burners down; swap it, then latch the access door, because the furnace stays off until it closes. Heat back means no visit needed. If there’s a gas smell, leave first, leave every switch alone and call the gas company from the sidewalk. Otherwise we diagnose, explain, price it and confirm the heat.',
       },
       {
-        title: 'Repair or Replace Your North Avondale Furnace?',
+        title: 'Repair or Replace Your Furnace in North Avondale?',
         body: 'The furnace sets the answer, not the prewar house around it. Many North Avondale homes are well past their first furnace, so a unit a few winters old with a failed igniter or pressure switch should simply be fixed. A crack in the heat exchanger is where we stop, since carbon monoxide can pass through it into the rooms; we shut that unit down and price a new one. With a CO alarm going, get everyone onto the porch or street, then call. The city’s Department of Buildings & Inspections issues the mechanical permit, and we pull it. A gas bill rising in mild weather is an early warning.',
       },
     ],

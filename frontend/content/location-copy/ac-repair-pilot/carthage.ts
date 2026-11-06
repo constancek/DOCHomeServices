@@ -32,7 +32,7 @@ export const carthage: LocationServiceCopy = {
         body: 'A Carthage house that feels warm on a July afternoon may only need a filter. Slide in a clean one, set the thermostat to cool, and give a tripped breaker a single reset. Once the registers blow cold again, there’s nothing for us to do. Because the cooling here shares the gas furnace, look at the floor around it too: water there usually means the condensate line has clogged. Book a technician once the condenser fan stays motionless or the larger copper pipe ices over. We find the cause, walk you through it and agree a fixed figure before starting, then read the supply air afterward.',
       },
       {
-        title: 'Repair or Replace Your Carthage AC?',
+        title: 'Repair or Replace Your AC in Carthage?',
         body: 'Skip the year on the deed and read the condenser’s nameplate. A younger unit that lost one inexpensive part, such as a capacitor or contactor, is a sensible repair. An older one with a seized compressor is where the money should move to new equipment. Carthage adds a second question: the furnace whose blower carries your cooled air is often old as well, so price both before choosing. A replacement at a Carthage address needs a mechanical permit from Cincinnati Buildings & Inspections. Until then, keep shrubs back from the outdoor coil, because a choked coil runs the compressor longer and lifts the Duke Energy Ohio bill.',
       },
     ],

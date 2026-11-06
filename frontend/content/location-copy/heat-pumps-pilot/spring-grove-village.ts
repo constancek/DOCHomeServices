@@ -36,7 +36,7 @@ export const springGroveVillage: LocationServiceCopy = {
         body: 'In Spring Grove Village, a cold house sometimes has a simple cause. Confirm the thermostat shows heat. Hold the filter up to the light, and replace it if no light comes through. Check the panel for the outdoor unit’s breaker and the air handler’s, since each can trip alone. Brush snow or leaves off the outdoor unit. Steam rising off the unit and the fan stopping for a few minutes during defrost is expected. When heat returns, you don’t need us. If the unit is coated in ice for hours, or it hums and won’t start, call. We explain the fault and price it first, then test afterward.',
       },
       {
-        title: 'Repair or Replace Your Spring Grove Village Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Spring Grove Village?',
         body: 'Decide by the heat pump. A Spring Grove Village house may date from the 1920s and have a heat pump that is nearly new, and a failed defrost control or outdoor fan motor on that is a repair. When the compressor is gone or refrigerant leaks out again, we price a replacement alongside the repair and take care of the permit. Old, narrow ductwork can make a working heat pump look weak, so we check airflow first. If a Duke Energy bill rises while the weather holds, the backup heat or gas furnace is doing the heat pump’s job.',
       },
     ],

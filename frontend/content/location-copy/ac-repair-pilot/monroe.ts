@@ -32,7 +32,7 @@ export const monroe: LocationServiceCopy = {
         body: 'Try the easy checks before you book anything: a clean filter, fresh thermostat batteries and the breaker. If cooling returns and holds, you don’t need a technician. Book one when the breaker trips again or the outdoor unit buzzes while its fan sits still, which in a newer Monroe home often means a worn starting part. A heat pump blowing warm air on the cool setting is another reason to call. The technician tests the indoor and outdoor units and explains the problem. You approve a flat price before any work, and we run the system afterward to confirm it’s cooling.',
       },
       {
-        title: 'Repair or Replace Your Monroe AC?',
+        title: 'Repair or Replace Your AC in Monroe?',
         body: 'Go by the sticker on the outdoor unit. A Monroe system installed with a 2002 house is now about 24 years old, so a small part like a contactor is still worth replacing, but a dead compressor or a coil that keeps leaking points toward a new system. Homes from the 1970s often have equipment much younger than the house, and those usually deserve the repair. If you replace, we handle the permit with the city. Keep an eye on the electric bill. When a coil is dirty or refrigerant is low, the system runs longer for the same comfort, and the bill shows it before you feel it.',
       },
     ],

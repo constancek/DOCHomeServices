@@ -32,7 +32,7 @@ export const wintonHills: LocationServiceCopy = {
         body: 'Tenants can check a few things without opening anything. The thermostat should be on heat and set above room temperature, with fresh batteries if it uses them, and a reachable breaker panel is worth a look. Owners should also check the furnace switch, the filter and that the furnace door is closed tight. If heat comes back, you’re done. If not, CMHA residents file a work order, and tenants of private owners tell the landlord in writing. Owners can send us when the furnace won’t light or the blower runs cold. We explain the fault, the owner approves the price, and we test the heat afterward.',
       },
       {
-        title: 'Repair or Replace Your Winton Hills Furnace?',
+        title: 'Repair or Replace Your Furnace in Winton Hills?',
         body: 'For a private owner, the furnace’s own date matters more than the building’s, which in Winton Hills often goes back to the 1940s or 1950s. A sound furnace with a bad igniter, element or blower motor is worth repairing. A gas furnace with a cracked heat exchanger is not, because it can leak carbon monoxide into a tenant’s home, so we shut it off and quote a replacement. Keep carbon monoxide alarms near sleeping rooms; if one sounds, everyone gets out first. Replacement work in the city goes through Cincinnati Buildings & Inspections, and we handle the permit.',
       },
     ],

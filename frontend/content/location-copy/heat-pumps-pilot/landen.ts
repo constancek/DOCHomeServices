@@ -32,7 +32,7 @@ export const landen: LocationServiceCopy = {
         body: 'Most Landen homes have no gas furnace to fall back on, so start with the simple checks. The thermostat should be set to heat, not cool or off. A gray filter gets swapped. Look in the panel for two breakers, one for the outside unit and one for the air handler, and switch either back on if it tripped. Clear snow and leaves off the outdoor coil. Steam rising and the fan going quiet briefly mean a defrost, not a breakdown. If heat returns, you’re done. If ice stays put or the emergency heat light never shuts off, call us. We name the cause and the price before any repair.',
       },
       {
-        title: 'Repair or Replace Your Landen Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Landen?',
         body: 'Decide on the heat pump itself, not the house around it. A Landen home from 1985 may have a unit that’s only a few years old, and a failed fan motor or contactor on it should be repaired. The hard calls are a refrigerant leak and a compressor that has failed, especially on an older outdoor unit; we price the repair beside a replacement so you can weigh them. Because most homes here rely on electricity for heat, a heat pump that is limping shows up quickly on the power bill as the backup strips run longer.',
       },
     ],

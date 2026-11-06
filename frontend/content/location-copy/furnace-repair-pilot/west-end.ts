@@ -32,7 +32,7 @@ export const westEnd: LocationServiceCopy = {
         body: 'Before a West End tenant reports a dead furnace, a short check can save the owner a visit. Set the thermostat to heat and replace weak batteries. Make sure the furnace’s power switch and its breaker are both on. A packed filter or an unlatched furnace door shuts down plenty of units by itself. If warmth returns, no technician is needed. Smell gas? Leave the switches alone, don’t relight anything, and call Duke Energy after you’re out of the building. With a carbon monoxide alarm, clear everyone out first. On genuine breakdowns, we find the fault, explain it to the owner, get the price approved and confirm heat before leaving.',
       },
       {
-        title: 'Repair or Replace Your West End Furnace?',
+        title: 'Repair or Replace Your Furnace in the West End?',
         body: 'Let the furnace decide, not the building’s age. A late-1800s rowhouse can easily hold a furnace only a few winters old, and when its igniter or blower motor fails, fixing it is the sensible move. A cracked heat exchanger is the exception: carbon monoxide can reach the apartment through it, so we turn that furnace off and handle it as a safety matter first. Owners running several units should look at which furnace keeps eating the same part, since that one usually goes first. Where repair and replacement come out close, we show the owner both numbers on one page.',
       },
     ],

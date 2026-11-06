@@ -32,7 +32,7 @@ export const pleasantRun: LocationServiceCopy = {
         body: 'A Pleasant Run homeowner can rule out the simple causes before calling. An old filter thick with lint can block enough air to stop the cooling, so replace it and allow an hour. The thermostat should show cool, with live batteries. One reset is fine for a tripped outdoor breaker. A second trip is a repair, and so are vents still pushing room-temperature air after those checks. Frost on the copper line beside the furnace counts too. We look the system over and tell you what broke, then wait on your approval of a fixed price. After the repair, we check the temperature at the vents.',
       },
       {
-        title: 'Repair or Replace Your Pleasant Run AC?',
+        title: 'Repair or Replace Your AC in Pleasant Run?',
         body: 'A Pleasant Run house from 1972 may be on its second or third air conditioner by now, so go by the condenser’s nameplate rather than the year on the house. First-decade equipment with one failed part gets repaired. Past 15, a failing compressor or a coil that won’t stop leaking usually means replacing. Gas homes should weigh the furnace’s age in the same decision. We take care of the permit on replacements. Duke Energy Ohio bills give early warning: a system losing capacity runs longer and pulls more power through an ordinary July.',
       },
     ],

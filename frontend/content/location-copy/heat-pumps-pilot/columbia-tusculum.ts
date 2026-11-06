@@ -32,7 +32,7 @@ export const columbiaTusculum: LocationServiceCopy = {
         body: 'Plenty of no-heat calls in Columbia-Tusculum end with a switch. A wall control still on cool from August is a common slip. Slide out the return filter and hold it to a window. At the panel, the condenser and the air handler sit on separate circuits; flip a tripped one back once. Clear snow off the condenser. Steam, a frosty coil and a silent fan for a few minutes are defrost, and pass. Ring us if ice stays caked on, the aux light burns all day, the house cools when it should warm, or the fan blade scrapes. You get a diagnosis, a quote to approve, and a test run.',
       },
       {
-        title: 'Repair or Replace Your Columbia-Tusculum Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Columbia-Tusculum?',
         body: 'Look at the heat pump itself. A Columbia-Tusculum house from before 1940 may carry a heat pump installed in recent years, and a bad capacitor or reversing valve solenoid on it is worth repairing. A leaking coil or a compressor that won’t start on an older unit is when we price replacement alongside repair. Replacement needs a mechanical permit from the city’s Department of Buildings & Inspections, and we file it. In a dual fuel house, a gas bill that rises without colder weather is often the heat pump handing its work to the furnace without anyone noticing.',
       },
     ],

@@ -32,7 +32,7 @@ export const kennedyHeights: LocationServiceCopy = {
         body: 'Give it a few minutes of your own effort first. Put in a clean filter, check that the thermostat has batteries and reads cool, and reset the AC breaker a single time. If cold air returns, there’s no repair to buy. Two-family owners and tenants should make sure they’re looking at the panel and thermostat for their own floor. Call us when the condenser fan refuses to start or the breaker drops out again. The technician goes through the furnace, coil and condenser, describes the failure plainly and sets a flat price for you to approve. Cold air at the registers is our proof the job is done.',
       },
       {
-        title: 'Repair or Replace Your Kennedy Heights AC?',
+        title: 'Repair or Replace Your AC in Kennedy Heights?',
         body: 'Nearly every house in Kennedy Heights is decades older than the air conditioner beside it, so the condenser’s nameplate date is the one to trust. When a younger unit loses a single part, repair it. When an older compressor gives out or the coil begins leaking, plan for replacement, and choose equipment the existing ducts can feed instead of copying the old unit’s capacity. We handle the permit for a replacement. Until then, longer run cycles and a rising Duke Energy Ohio bill are the usual signs of a refrigerant shortage.',
       },
     ],

@@ -36,7 +36,7 @@ export const ludlow: LocationServiceCopy = {
         body: 'Plenty of Ludlow no-heat calls turn out to need no technician. Look at the thermostat display; someone may have flipped it to cool in October and never switched back. A filter you can’t see light through is choking the airflow, so replace it. Heat pumps run on two circuits, the outside unit and the inside blower, and either breaker can trip on its own. Rake leaves and snow off the outdoor cabinet. Vapor rising off it, with the fan stopped briefly, is defrost. Once heat returns, you’re done. Ice that never melts off the coil, or a grinding sound, means book us. You approve every price first.',
       },
       {
-        title: 'Repair or Replace Your Ludlow Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Ludlow?',
         body: 'Go by the heat pump’s age and condition, not the 1930s house it sits beside. A worn contactor or a dead defrost board is a repair, and usually a straightforward one. A failed compressor, or refrigerant that leaks out again after a fix, is when we price replacement next to the repair so you can compare the two. In a dual fuel home the gas furnace often hides a weak heat pump, and the clue is a gas bill that keeps climbing. Kentucky requires a permit to replace a heat pump, and we take care of it as part of the job.',
       },
     ],

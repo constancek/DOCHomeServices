@@ -32,7 +32,7 @@ export const alexandria: LocationServiceCopy = {
         body: 'Start with the thermostat: heat mode, good batteries. Then the furnace’s service switch on the cabinet or the wall next to it should be on, and the breaker set. A filter gone grey gets replaced. Push the front panel until it seats, since its door switch keeps a lot of furnaces off. If the house warms after that, cancel the visit. Phone us when the unit fires and cuts out every few minutes or the breaker refuses to stay set. With a gas odor, leave without touching anything electrical and ring the gas company from the yard. With a carbon monoxide alarm, everybody goes outside first.',
       },
       {
-        title: 'Repair or Replace Your Alexandria Furnace?',
+        title: 'Repair or Replace Your Furnace in Alexandria?',
         body: 'Ignore the date on the deed and look at the furnace. Plenty of 1990s Alexandria houses have already had a second furnace put in, and when a newer unit loses an igniter, blower motor or element, fixing it is the sensible call. A cracked heat exchanger puts safety ahead of money, since carbon monoxide can escape through it, so that furnace comes out. Campbell County issues the permit for the new one, and we file it. Earlier on, the Duke Energy Kentucky or Owen Electric bill tends to flag trouble first, when a heat pump keeps leaning on its backup strips or an electric furnace runs and runs.',
       },
     ],

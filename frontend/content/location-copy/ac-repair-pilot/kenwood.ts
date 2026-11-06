@@ -32,7 +32,7 @@ export const kenwood: LocationServiceCopy = {
         body: 'Plenty of Kenwood no-cool calls end before we arrive. A filter caked with dust, a thermostat bumped to heat, or one tripped breaker accounts for a lot of them, and fixing any of those yourself costs nothing. Condo owners and renters should first find out whether the association or the landlord looks after the system. It’s time for us when the condenser outside stays silent or a puddle forms under the indoor unit. Our technician tracks down the fault, shows it to you, and names a price that you sign off on. Once it’s repaired, we run it and read the vent temperature.',
       },
       {
-        title: 'Repair or Replace Your Kenwood AC?',
+        title: 'Repair or Replace Your AC in Kenwood?',
         body: 'Kenwood houses from 1967 are rarely on their first air conditioner, so the condenser’s nameplate date is the number to look at. Fix a young unit that has lost one component. Once an aging system needs a compressor or an indoor coil, put that money toward a new one instead. Condo boards often set terms for outdoor equipment, so get their answer before choosing. For a replacement, we take care of the permit. A system that is short on refrigerant or has a clogged outdoor coil keeps running past the point it should stop, and you see it in each Duke Energy Ohio bill.',
       },
     ],

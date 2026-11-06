@@ -32,7 +32,7 @@ export const dillonvale: LocationServiceCopy = {
         body: 'A Dillonvale owner can often fix the problem before we would even arrive. A filter gone gray, a thermostat knocked onto heat, or a tripped breaker in the basement panel causes many no-cool calls. Sort those, give it half an hour, and if cold air comes back you can cancel us. Pull grass clippings and branches off the outdoor unit while you’re out there. Book the repair when the outdoor unit buzzes but its blades stay still, or frost builds on the larger copper pipe. Our technician locates the fault, explains it plainly, and starts once you agree to a flat price. We run it afterward to confirm.',
       },
       {
-        title: 'Repair or Replace Your Dillonvale AC?',
+        title: 'Repair or Replace Your AC in Dillonvale?',
         body: 'Since the 1950s, a typical Dillonvale house has gone through several air conditioners, so the nameplate on the condenser tells you more than the deed. Equipment with years left that lost one motor or switch is worth fixing. An older system needing a compressor, or an indoor coil leaking over the furnace, usually justifies a new one, sized to what the postwar ductwork can actually carry. We take care of the permit for that. Until then, a system short on refrigerant or with a dirty outdoor coil stays on longer each afternoon, and the extra hours land on your electric bill.',
       },
     ],

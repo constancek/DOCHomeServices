@@ -32,7 +32,7 @@ export const campWashington: LocationServiceCopy = {
         body: 'Whoever lives there can run these checks. Thermostat set to heat, batteries alive. The furnace’s wall or side switch on, and the breaker not tripped. A filter you can see light through. The furnace door latched, since many units sit dead with it loose. Heat back, and you don’t need us. Bring us in when burners keep shutting down, the breaker trips twice, or the blower moves cold air. Gas smell: get out, leave the switches be, and call Duke Energy once you’re outside. CO alarm: everyone out first. We test, explain and give the owner a price before starting.',
       },
       {
-        title: 'Repair or Replace Your Camp Washington Furnace?',
+        title: 'Repair or Replace Your Furnace in Camp Washington?',
         body: 'Go by the furnace, not the building around it. Most Camp Washington houses went up before 1940, yet the furnace in the basement can be quite recent, and a recent one with a failed igniter or pressure switch should be repaired. A cracked heat exchanger can pass carbon monoxide into the apartments, so we shut that furnace down and quote a new one. Landlords with several units get the repair and replacement figures together, which makes budgeting easier. If you replace, we take care of the permit. A furnace falling behind tends to show up as a bigger gas bill long before it stops.',
       },
     ],

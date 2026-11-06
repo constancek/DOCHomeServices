@@ -32,7 +32,7 @@ export const villaHills: LocationServiceCopy = {
         body: 'Plenty of no-hot-water mornings in Villa Hills need no technician. If the family just took several showers, the tank is catching up. Check the dial, which gets turned down by accident. An electric heater does nothing with its breaker off. A gas heater needs its valve handle in line with the pipe, and a blown-out pilot can be relit by the label’s steps if there’s no smell of gas. Call us if water reaches the floor, the tank pops, scorch marks show at the burner, or the hot water smells of rotten eggs. We diagnose and quote before any work.',
       },
       {
-        title: 'Repair or Replace Your Villa Hills Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Villa Hills?',
         body: 'Read the sticker on the tank; a house on Amsterdam Road built in 1975 says nothing about a heater swapped in recently. Thermocouples, gas controls, elements, thermostats, relief valves, anode rods and dip tubes are fixable on a sound tank. Once water comes through the tank wall, the heater is replaced. Both prices go in front of you, and you decide. Kentucky runs plumbing inspections at the state level, and we arrange the permit where one is needed. Financing is available, and tankless gets explained only if you raise it. After the work, we run a hot tap to confirm it.',
       },
     ],

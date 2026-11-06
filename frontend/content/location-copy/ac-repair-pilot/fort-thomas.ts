@@ -32,7 +32,7 @@ export const fortThomas: LocationServiceCopy = {
         body: 'Some Fort Thomas cooling complaints clear up in five minutes. Swap the filter, look at the thermostat to be sure it reads cool, and give a tripped breaker a single reset. Heat pump owners should also trim back shrubs and pull mulch away from the outdoor cabinet. When cold air comes back, there’s nothing for us to do. Have a technician out if ice coats the copper lines or the condenser drones with its fan stopped. We go over the equipment inside and out, show you what failed and put a flat price in front of you. After your yes, we repair it and watch a full cycle.',
       },
       {
-        title: 'Repair or Replace Your Fort Thomas AC?',
+        title: 'Repair or Replace Your AC in Fort Thomas?',
         body: 'Very few Fort Thomas homes are new, so the system in yours has almost certainly been swapped into an older house before. The equipment label is what counts. A condenser installed in the last dozen years that lost a contactor or capacitor deserves a repair. A tired compressor, or a leak in an R-22 system, tips most owners toward new equipment, and we prepare the General Services permit with its heat gain and loss numbers. In a home heated by electricity, a struggling heat pump inflates the Duke Energy Kentucky bill in January as well as July, which is worth weighing before you pay for another repair.',
       },
     ],

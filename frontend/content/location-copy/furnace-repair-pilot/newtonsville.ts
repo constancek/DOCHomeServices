@@ -32,7 +32,7 @@ export const newtonsville: LocationServiceCopy = {
         body: 'Look at the thermostat first: it should be on heat, with good batteries. Then confirm the furnace switch is on, the breaker hasn’t tripped and the filter is clean. Push the furnace door closed too, because many units won’t run with it loose. If that fixes it, you don’t need us. Renters, Ohio’s ORC 5321.04 puts working heat on the landlord, so report it to them; we fix furnaces, not leases. Call us for an oil burner that keeps locking out or an electric furnace tripping its breaker. If you smell gas from any appliance, leave, touch no switches and call from outside.',
       },
       {
-        title: 'Repair or Replace Your Newtonsville Furnace?',
+        title: 'Repair or Replace Your Furnace in Newtonsville?',
         body: 'Go by the furnace in front of us, not the year the house was built. An electric furnace with a failed element or sequencer is almost always worth repairing, since it has no heat exchanger to crack. Oil and gas furnaces do. A cracked one can leak carbon monoxide into the house, so we replace it rather than patch it. If your CO alarm goes off, get everyone out first and phone from outside. A replacement needs a county permit, which we pull. On electric heat, a jump in the winter electric bill often means a failing heat pump has left the backup strips doing the work.',
       },
     ],

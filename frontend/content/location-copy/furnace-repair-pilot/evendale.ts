@@ -32,7 +32,7 @@ export const evendale: LocationServiceCopy = {
         body: 'Run through the basics before calling. Set the thermostat to heat and replace its batteries, check the furnace’s power switch and the breaker, put in a clean filter, and make sure the lower door is pressed firmly into place, because a door switch keeps many furnaces off when it’s loose. Any of those may solve it, and then you don’t need us. If you smell gas, leave without flipping a switch and phone the gas company from outdoors. A carbon monoxide alarm means everyone out right away. Call us for lockout codes, short cycling or no ignition. We inspect, explain and quote a flat price, then confirm steady heat.',
       },
       {
-        title: 'Repair or Replace Your Evendale Furnace?',
+        title: 'Repair or Replace Your Furnace in Evendale?',
         body: 'Evendale’s houses are mostly from the 1980s and 1990s, but the furnace is what counts. A well-kept furnace that loses an inducer motor or igniter is usually worth repairing. A cracked heat exchanger is a safety call, not a budget one: it can put carbon monoxide in the air, so we shut the furnace down and price a replacement. The village requires a permit for that, and we file it. Between visits, watch the gas bill against the weather. A sharp rise with no cold snap behind it often means a furnace short cycling or a blower straining against a dirty filter.',
       },
     ],

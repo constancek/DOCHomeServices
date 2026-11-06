@@ -32,7 +32,7 @@ export const bethel: LocationServiceCopy = {
         body: 'Thermostat first: heat mode, new batteries. Then the furnace’s power switch, on the cabinet or the wall beside it in most Bethel homes, and the breaker. A choked filter can trip a furnace off, so replace it, and push the blower door until it clicks into place, because a loose door keeps most units idle. Warm air back means skip the visit. Ring us when electric heat stays lukewarm or gas burners keep lighting and dying. A gas smell means hands off every switch, out of the house, and a call to the gas company from the yard. We diagnose, explain, quote for your sign-off and test it after.',
       },
       {
-        title: 'Repair or Replace Your Bethel Furnace?',
+        title: 'Repair or Replace Your Furnace in Bethel?',
         body: 'The furnace’s own condition decides it. Bethel has village houses from before 1940 and subdivisions from the 1990s, and either kind can hold a young furnace or a tired one. A bad igniter, flame sensor or heating element is usually a worthwhile repair. A cracked heat exchanger is a safety issue before it’s a money issue, because carbon monoxide can get through, and we’ll tell you straight if we find one. Should the carbon monoxide alarm sound, clear the house first and call after. A new furnace needs a county permit, which we pull. A heating bill rising through steady weather often signals a system that’s struggling.',
       },
     ],

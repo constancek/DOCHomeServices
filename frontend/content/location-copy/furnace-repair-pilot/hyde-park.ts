@@ -32,7 +32,7 @@ export const hydePark: LocationServiceCopy = {
         body: 'Most no-heat calls in Hyde Park start with the same short list. Thermostat on heat, batteries fresh. Breaker on, and the power switch near the furnace flipped up. A filthy filter overheats a furnace until it shuts itself off, and plenty won’t run unless the front panel sits snug. Fix one of those and you can skip us. If you smell gas, keep hands off the switches, relight nothing, get out and call the gas company from the sidewalk. A CO alarm means everyone out before anything else. Past that, our technician tests the furnace, explains what broke and gets your okay on the price first.',
       },
       {
-        title: 'Repair or Replace Your Hyde Park Furnace?',
+        title: 'Repair or Replace Your Furnace in Hyde Park?',
         body: 'Go by the furnace, never the house. Lots of pre-1940 Hyde Park homes have a furnace only a few years old, and a dead igniter or inducer motor on that unit gets fixed. A cracked heat exchanger is a different call: carbon monoxide can reach the rooms through it, so we shut the furnace off and talk replacement, with no patch jobs. Replacing means a permit, and we handle it. Until then, keep an eye on the Duke Energy Ohio gas bill. A furnace that short cycles, or runs nonstop on mild days, costs more each month, and that fault is often fixable.',
       },
     ],

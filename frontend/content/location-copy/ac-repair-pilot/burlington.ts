@@ -32,7 +32,7 @@ export const burlington: LocationServiceCopy = {
         body: 'Plenty of Burlington calls end at the thermostat. A heat pump accidentally left on heat or emergency heat will warm the house in June, so switch it to cool, and slide in a fresh filter while you’re there. A breaker that flipped can be reset once, and if it stays on and the air turns cold, there’s no need for us. We should come out when the outside unit drones but its fan never moves, or the breaker drops again. The technician looks over the outdoor heat pump and the air handler, tells you plainly what broke, and prices it for your go-ahead. Afterward we measure the cooling together.',
       },
       {
-        title: 'Repair or Replace Your Burlington AC?',
+        title: 'Repair or Replace Your AC in Burlington?',
         body: 'The build year won’t tell you much, because many Burlington homes from the 1980s and 1990s already have their second heat pump. Look at the date on the equipment itself. Fix a healthy unit that lost a single contactor or motor. On an aging heat pump, a seized compressor or leaking coil usually means replacement, since that machine also has to carry you through January. The Boone County Building Department permits Burlington replacements, and we file it for you. Months of rising electric bills often come before the breakdown, as a worn heat pump runs longer to keep up.',
       },
     ],

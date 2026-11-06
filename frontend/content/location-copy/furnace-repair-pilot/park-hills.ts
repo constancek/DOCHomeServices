@@ -32,7 +32,7 @@ export const parkHills: LocationServiceCopy = {
         body: 'Some Park Hills no-heat calls get cancelled before the van leaves. Look at the thermostat for heat mode and live batteries, then the furnace switch, the breaker, the filter and the furnace door, which has to sit fully closed. Any one of those can stop the heat, and fixing it yourself is free. A gas smell skips the list entirely: get out, leave the switches alone, and call the gas company from outside. Otherwise call us for short cycling that keeps repeating, burners that won’t light or banging in the ducts. We diagnose, quote a flat price, repair once you agree, and test.',
       },
       {
-        title: 'Repair or Replace Your Park Hills Furnace?',
+        title: 'Repair or Replace Your Furnace in Park Hills?',
         body: 'Look at the furnace itself. Plenty of 1930s Park Hills houses have had their furnace replaced since, and a newer unit with a bad igniter, inducer motor or pressure switch is a sensible repair. Repeat breakdowns on an old unit change the math, and a cracked heat exchanger ends the debate, since carbon monoxide can get through it into the living space. If replacement wins, the Kenton County permit is ours to handle. A gas bill that rises while the house stays cold often means a dirty burner or a failing part worth catching early.',
       },
     ],

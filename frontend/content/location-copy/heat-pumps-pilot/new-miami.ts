@@ -36,7 +36,7 @@ export const newMiami: LocationServiceCopy = {
         body: 'Many New Miami no-heat calls start with the thermostat, so check that it says heat and not cool or off. Swap a filter you can’t see light through. There are two breakers, one for the outdoor unit and one for the furnace or air handler; reset a tripped one once. Keep the outdoor unit clear of snow and leaves. In defrost it may steam, wear a little frost and stop its fan for a few minutes, and the furnace may come on meanwhile. That is normal. If ice stays put or the outside fan grinds, we inspect, explain and price it first.',
       },
       {
-        title: 'Repair or Replace Your New Miami Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in New Miami?',
         body: 'Decide by the heat pump. Most New Miami houses were built before 1980, but any heat pump on one was added later, and its label shows when. A failed contactor or defrost control on a younger unit is a simple repair. A compressor that won’t run or a refrigerant leak is where replacing comes into it. Since your gas furnace can carry the house, it is fair to ask whether the heat pump is worth replacing at all, and we give you an honest answer and both prices. Duke Energy Ohio supplies the area’s power, and a heat pump short on refrigerant runs longer and costs more to operate.',
       },
     ],

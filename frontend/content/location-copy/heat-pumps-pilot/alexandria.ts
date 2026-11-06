@@ -32,7 +32,7 @@ export const alexandria: LocationServiceCopy = {
         body: 'Start with quick checks in an Alexandria house. Set the thermostat to heat; cool or off will look like a breakdown. Swap a filter that has gone gray. Two breakers serve this system, one labeled for the outside unit and one for the indoor air handler, so make sure neither has tripped. Knock snow and ice off the outside coil and pull leaves away. During defrost the unit can steam, frost over lightly and stop its fan briefly. If the heat returns, you’re done. We should come out when ice won’t melt off the coil, the emergency heat light stays lit, or the unit grinds.',
       },
       {
-        title: 'Repair or Replace Your Alexandria Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Alexandria?',
         body: 'Base the choice on the equipment. Census figures show 35.1% of Alexandria homes were built in 2000 or later, so many heat pumps here are on their first or second unit. A young system with a worn contactor or defrost sensor gets repaired. An older one with a refrigerant leak or a dead compressor gets a replacement quote laid beside the repair quote. In an all-electric house, watch the bill: once the heat pump weakens, the backup strips carry the load and the cost rises even in mild weeks. In a gas home the furnace just runs longer.',
       },
     ],

@@ -32,7 +32,7 @@ export const blueAsh: LocationServiceCopy = {
         body: 'Some checks belong to you before anyone else. Put in a new filter and make sure the thermostat is set to cool, not heat or emergency heat. Heat pump owners should rake leaves and clippings clear of the outdoor cabinet so it can draw air. If the rooms cool after that, the problem is solved without us. Book a technician if a breaker you reset trips again, or frost spreads across the outdoor coil in July. We inspect indoors and out, explain the fault in everyday words and offer one fixed price. Only after you approve do we make the repair, then we run the system to confirm it holds.',
       },
       {
-        title: 'Repair or Replace Your Blue Ash AC?',
+        title: 'Repair or Replace Your AC in Blue Ash?',
         body: 'With the typical home built around 1981, many Blue Ash houses push air through ducts over 40 years old from an outdoor unit far younger, so trust the condenser’s label over the house. A system installed within about the last dozen years that lost a capacitor or fan motor deserves a repair. Anything older with a failed compressor, or still running on R-22 refrigerant, should be priced for replacement. Any permit that needs is ours to handle. Meanwhile, an ailing heat pump in an all-electric home lifts the Duke Energy Ohio bill both summer and winter.',
       },
     ],

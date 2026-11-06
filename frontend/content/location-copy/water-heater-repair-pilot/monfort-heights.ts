@@ -32,7 +32,7 @@ export const monfortHeights: LocationServiceCopy = {
         body: 'In Monfort Heights, a no-hot-water morning is often a setting, not a failure. Look at the knob on the front, the heater’s breaker, and the gas cock on the pipe. A tank drained by a run of showers recovers by itself. If the pilot is out and there’s no gas odor, the lighting instructions on the jacket are safe to follow. Tenants tell management. Bring us in when water seeps from the base, the hot side runs orange or smells of sulfur, the side valve has vented twice, or the burner is scorched. Diagnosis comes first, then a price you approve, then a test.',
       },
       {
-        title: 'Repair or Replace Your Monfort Heights Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Monfort Heights?',
         body: 'Start with the date on the heater’s label. A house from the 1960s can have a fairly new tank, and one from 2005 can still have its first. Small parts on a sound tank get replaced: the thermocouple that holds the pilot, the gas control, an element or its thermostat, the relief valve, the anode rod, the dip tube. A tank that leaks through its own wall can’t be patched, so that’s a new heater. You see both prices and pick. Closet heaters in apartments and townhouses can be tight to swap, so we measure the space before quoting and the number holds.',
       },
     ],

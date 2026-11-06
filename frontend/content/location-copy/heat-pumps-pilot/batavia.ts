@@ -32,7 +32,7 @@ export const batavia: LocationServiceCopy = {
         body: 'Some Batavia calls never need a truck. Set the thermostat to heat; on cool or off, nothing warm comes out. Replace a gray filter. One breaker serves the outdoor unit and a second the air handler or furnace indoors, and both must be on. Kick snow and leaves clear of the outside cabinet. Light frost, steam and a fan that rests a few minutes are part of defrost. Warm air again means you can skip us, though renters should still tell the landlord. We need to come out when ice stays put on the coil, the auxiliary heat lamp won’t switch off or the outdoor unit grinds.',
       },
       {
-        title: 'Repair or Replace Your Batavia Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Batavia?',
         body: 'Judge the equipment by its own date. Census figures put 33.7% of Batavia homes before 1940, but the heat pump outside one of them may be quite new, and a bad defrost board or contactor there gets fixed. An older unit losing refrigerant, or one whose compressor has worn out, gets a replacement quote set beside the repair quote. Clermont County Building Inspection issues HVAC replacement permits in the village, and we apply for it. In an all-electric home, a big jump on the Duke Energy Ohio bill usually means the strips are heating the house instead of the heat pump.',
       },
     ],

@@ -32,7 +32,7 @@ export const northgate: LocationServiceCopy = {
         body: 'Check a few things before booking. Back-to-back showers can empty a tank, and it needs a while to recover. Look at the dial in case it got turned, and on an electric tank, make sure the circuit hasn’t tripped. On a gas tank, confirm the gas cock points on; if the pilot is out and the air smells fine, follow the relighting steps printed on it. Call us when water collects underneath, hot water comes out brown, the tank pops and rumbles, or the relief valve keeps letting go. We find the cause, quote it and wait for approval.',
       },
       {
-        title: 'Repair or Replace Your Northgate Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Northgate?',
         body: 'Read the plate on the tank, not the year on the house. A Northgate ranch from 1969 may hold a much newer water heater. Thermocouples, gas controls, elements and dip tubes are all replaceable parts. Once the tank body leaks, nothing saves it, and a new heater goes in. Both prices come to you in writing, and you pick the one that suits. On a new heater we pull any permit required and inspect the old shutoff, since a seized valve is worth swapping while the water is already off.',
       },
     ],

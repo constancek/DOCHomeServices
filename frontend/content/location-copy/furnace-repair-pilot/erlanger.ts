@@ -32,7 +32,7 @@ export const erlanger: LocationServiceCopy = {
         body: 'Many no-heat calls need no technician, so start here. Set the thermostat to heat and give it new batteries. The furnace switch often resembles a light switch on a nearby wall; flip it on, and look for a tripped breaker. Replace a dirty filter and press the blower door in until it catches, because most furnaces won’t run while it’s loose. If that does it, you don’t need us. Smell gas, and you leave without touching a switch and phone the gas company from the street. A CO alarm means everyone outdoors first. Otherwise we test, explain, price it for approval and confirm the heat runs right.',
       },
       {
-        title: 'Repair or Replace Your Erlanger Furnace?',
+        title: 'Repair or Replace Your Furnace in Erlanger?',
         body: 'Go by the furnace, not the year the house was framed. Lots of 1960s and 1970s Erlanger houses have furnaces just a few years old, and those earn a repair when an igniter, pressure switch or blower motor fails. A cracked heat exchanger flips the answer, since carbon monoxide can escape through it into the living space; we shut that furnace down, quote a replacement and pull the county permit. On electric heat, your Duke Energy Kentucky bill doubles as a gauge between breakdowns. A furnace or heat pump costing noticeably more in similar weather is a warning.',
       },
     ],

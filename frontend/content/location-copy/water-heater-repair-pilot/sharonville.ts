@@ -32,7 +32,7 @@ export const sharonville: LocationServiceCopy = {
         body: 'Some calls end before we arrive. When a household showers one after another, give the tank a while to recover. Confirm nobody turned the dial down, the circuit for an electric unit is on, and the gas cock on a gas unit is open. A pilot that blew out may be relit by the printed steps as long as nothing smells of gas. Tenants should tell the landlord rather than open the heater. We’re needed for standing water, discolored or sulfur-smelling hot water, a relief valve that discharges again, or rumbling from sediment. We diagnose, then quote.',
       },
       {
-        title: 'Repair or Replace Your Sharonville Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Sharonville?',
         body: 'The water heater’s data plate settles this, not the building’s age. A tank in a Sharonville apartment or 1970s ranch may already be its second, so check the date printed there. A thermostat, element, anode rod or relief valve can be swapped on its own. A tank weeping through its shell has to go, however new it is. Owners see both prices and choose, and landlords get the same flat quote before any work. Tankless comes up now and then, and we price it on request. Permits, where a job needs one, we file.',
       },
     ],

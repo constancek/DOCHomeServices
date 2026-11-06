@@ -32,7 +32,7 @@ export const independence: LocationServiceCopy = {
         body: 'Before booking, walk your Independence house once. At the wall, the thermostat should be set to heat. At the air handler, replace a dirty filter. At the panel, the outside unit and air handler each have a breaker, and both should sit on. Out in the yard, clear snow, ice or leaves off the condenser. Steam drifting up, a dusting of frost and a fan that rests briefly are defrost and need no technician. Call us if ice keeps building, the auxiliary heat light stays lit, or the outdoor fan won’t turn.',
       },
       {
-        title: 'Repair or Replace Your Independence Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Independence?',
         body: 'Go by the heat pump’s age and condition, not the year the house was built. Many Independence systems are original to houses from the 2000s, so the label on the outdoor unit tells you more than the deed. One failed part on a sound unit is usually a repair. A compressor failure or a refrigerant leak in a tired coil is when replacement deserves a price, and we give you both. Your electric bill can warn you early. If it jumps while the weather is ordinary, the backup heat strips may be running in place of the heat pump.',
       },
     ],

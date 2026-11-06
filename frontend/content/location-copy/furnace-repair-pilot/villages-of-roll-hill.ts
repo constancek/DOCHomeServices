@@ -32,7 +32,7 @@ export const villagesOfRollHill: LocationServiceCopy = {
         body: 'Tenants can rule out the simple causes first. Set the thermostat to heat and above room temperature, replace its batteries, check your breaker and make sure the furnace door is closed tight, since a loose one keeps many furnaces off. Change the filter if your lease allows it. Warm air back means nothing needs fixing. If not, report it to the leasing office instead of hiring anyone. If you smell gas, don’t touch switches; leave and call the gas company from outside, then management. If a carbon monoxide alarm sounds, get everyone out first. When we’re sent, we test the furnace and explain the fault to you and the manager.',
       },
       {
-        title: 'Repair or Replace a Villages of Roll Hill Furnace?',
+        title: 'Repair or Replace a Furnace in the Villages of Roll Hill?',
         body: 'The owner decides, and the right answer depends on the furnace, not the building. Read the date on its label. A furnace from the renovation with a failed igniter, flame sensor or blower motor is normally a repair. A cracked heat exchanger can leak carbon monoxide into the apartment, so we shut that furnace off and tell management it needs replacing. A replacement goes through the City of Cincinnati Department of Buildings & Inspections for a mechanical permit. Rows built to one design wear out together, so after one failure it pays to check the matching units nearby before the next cold snap.',
       },
     ],

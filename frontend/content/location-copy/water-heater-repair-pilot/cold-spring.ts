@@ -32,7 +32,7 @@ export const coldSpring: LocationServiceCopy = {
         body: 'Some Cold Spring calls need nobody. Teenagers showering one after another can drain a townhouse tank,, and an hour brings it back. Someone vacuuming the utility closet may have turned the dial. An electric unit with a flipped breaker sits cold until you reset it. On a gas unit, look at the supply handle and the pilot window; with no gas odor, the instructions printed on the jacket show how to relight. Phone us once the floor under it gets wet, the hot water smells of sulfur, or scorch marks show by the burner door. We test first, quote second, repair after your okay, and check it again.',
       },
       {
-        title: 'Repair or Replace Your Cold Spring Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Cold Spring?',
         body: 'The sticker on the jacket matters more than the closing date on your house. Plenty of Cold Spring places built around 2000 are already on a second heater, and some aren’t. Worn thermocouples, igniters, elements and thermostats get swapped. Gas control valves, side relief valves, anode rods and dip tubes are routine replacements too. Corrosion that lets water out through the steel shell is final, and at that point a new unit is the only honest answer. You hear both figures before choosing. Kentucky inspects plumbing at the state level, and our office handles any permit the job needs. Tankless is something we discuss only when asked.',
       },
     ],

@@ -32,7 +32,7 @@ export const independence: LocationServiceCopy = {
         body: 'Run through the basics before booking. Thermostat on heat, fresh batteries. Breaker on, and the service switch by the furnace on too. A dirty filter gets swapped, and the furnace door gets latched tight, since a loose one keeps many units off. Heat back means no visit needed. Call us when an electric furnace keeps tripping its breaker or a gas burner can’t stay lit. If you smell gas, walk out without touching switches or relighting, then phone the gas company from the driveway. A CO alarm means everybody out first. On a visit we inspect, quote a flat rate for your approval and test the heat once it’s fixed.',
       },
       {
-        title: 'Repair or Replace Your Independence Furnace?',
+        title: 'Repair or Replace Your Furnace in Independence?',
         body: 'Judge the furnace or heat pump we’re looking at, not the subdivision it shipped with. A 2000s gas furnace with a failed igniter or inducer motor gets repaired. A cracked heat exchanger doesn’t get patched, since carbon monoxide can escape through it into the house. Any replacement needs a City of Independence permit, and we pull it. All-electric homes get an early warning on the bill: a spike in an ordinary winter often means the backup heat strips are doing the work because the heat pump stopped pulling its weight. Most of the time that’s a repair, not a new system.',
       },
     ],

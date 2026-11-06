@@ -32,7 +32,7 @@ export const landen: LocationServiceCopy = {
         body: 'Check the easy things before you book. The thermostat should be on heat, not emergency heat or off, with batteries that aren’t dying. Electric systems often have two breakers, one for the outdoor unit and one for the air handler, so reset both. Change a dusty filter and make sure the air handler door is closed tight, since many units won’t run with it ajar. If heat comes back, you don’t need us. In the few gas homes, smelling gas means get out, leave every switch alone and call the gas company from outside. With a carbon monoxide alarm, everyone leaves first. We diagnose and quote before working.',
       },
       {
-        title: 'Repair or Replace Your Landen Furnace?',
+        title: 'Repair or Replace Your Furnace in Landen?',
         body: 'Go by the equipment, not the subdivision. A Landen house from 1987 may have a heat pump put in a few years ago, and a bad capacitor, defrost board or fan motor on that one deserves a repair. A failed compressor on an older outdoor unit usually doesn’t. In the gas homes, a cracked heat exchanger means replacement, because it can let carbon monoxide inside. When equipment is replaced, we take care of any Warren County paperwork. Compare winter bills year to year; an electric bill that jumps without colder weather usually means the backup strips are doing the heating.',
       },
     ],

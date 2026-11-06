@@ -32,7 +32,7 @@ export const mountCarmel: LocationServiceCopy = {
         body: 'Spend five minutes before spending money. Swap in a new filter, check that the thermostat reads cool, and peek at the breaker panel, which in some older Mount Carmel homes is nearly as old as the house. If cool air is back after that, this page is all you needed. Renters stop here and tell the property manager. Bring us in for a breaker that won’t stay set, or a condenser humming away while the rooms stay hot. You see the failed part and get a flat quote to approve before we begin. When the repair is in, we read the vent temperature alongside you.',
       },
       {
-        title: 'Repair or Replace Your Mount Carmel AC?',
+        title: 'Repair or Replace Your AC in Mount Carmel?',
         body: 'A Mount Carmel house built in 1973 tells you nothing about the condenser out back, which may be the house’s third. Go by the date printed on the equipment. Swap a single bad contactor or motor on a unit with life in it. Retire a unit whose compressor has died or whose coil leaks, and use that moment to test whether postwar ducts and the electrical service can carry new equipment. We handle the permit on replacements. Watch your Duke Energy Ohio statements too, because a failing system tends to push July and August usage up first.',
       },
     ],

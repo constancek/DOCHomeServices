@@ -32,7 +32,7 @@ export const daytonKy: LocationServiceCopy = {
         body: 'Start with the thermostat in a Dayton dual fuel house: heat, not cool or off. Pull a filter that looks clogged. Two breakers matter, one for the outdoor unit and one for the air handler, and both belong on. Keep snow and leaves raked off the outdoor coil. During defrost you’ll see steam, a skin of frost and an outdoor fan that rests a few minutes; none of that is a fault. Warm air again means you can skip the visit. Book us when ice keeps growing, the auxiliary light never goes out or the outdoor unit grinds. We explain and price the fault before work, then test.',
       },
       {
-        title: 'Repair or Replace Your Dayton Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Dayton?',
         body: 'Ignore the house’s age and look at the heat pump’s. A 1920s house in Dayton could be on its third outdoor unit, and a bad contactor or fan motor on a recent one is a simple fix. The hard call comes with a refrigerant leak or a seized compressor; on older equipment we lay out a repair price and a replacement price together. With dual fuel, a weak heat pump tends to show up as the gas furnace running longer than it did last winter, so compare both bills. If replacing wins, financing is available.',
       },
     ],

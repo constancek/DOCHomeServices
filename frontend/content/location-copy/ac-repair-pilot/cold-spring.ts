@@ -32,7 +32,7 @@ export const coldSpring: LocationServiceCopy = {
         body: 'A young system can still be stopped by something small. Before booking, change the filter, put fresh batteries in the thermostat and confirm it’s on cool, and reset a tripped breaker one time. Townhouse owners should also clear anything stacked against the outdoor unit. Once cold air comes back, there’s no call to make. You do need us when the breaker trips a second time or frost forms on the indoor coil. We go through the system inside and out, then hand you a single price and an explanation of the fault. After you approve, we repair it and run a full cycle to prove the house cools.',
       },
       {
-        title: 'Repair or Replace Your Cold Spring AC?',
+        title: 'Repair or Replace Your AC in Cold Spring?',
         body: 'In Cold Spring, the condenser’s data plate tells you more than the deed. Plenty of systems here are the originals from when the house went up, and the early 2000s homes are now past 20 years. On that equipment, a worn capacitor or a tired fan motor still justifies a repair. A dead compressor or a big coil leak on an original unit usually means replacing it, and Kentucky’s required permit is ours to file. Where the heat is electric, a declining heat pump tends to show on the Duke Energy Kentucky bill in winter first, when its backup strips kick in more often.',
       },
     ],

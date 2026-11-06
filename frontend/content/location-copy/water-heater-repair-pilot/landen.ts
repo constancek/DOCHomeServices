@@ -32,7 +32,7 @@ export const landen: LocationServiceCopy = {
         body: 'Before you book, check the simple things. Back-to-back showers can drain an electric tank, and it needs time to reheat. The temperature setting may have been nudged. Look at the breaker panel: an electric water heater has its own breaker, and if it tripped, reset it once. If hot water returns and stays, you don’t need us. If the breaker trips again, the water comes out lukewarm, the tank rumbles, or water collects in the pan, that points to a failed element, a thermostat or sediment. We test the elements, show you the readings, quote the repair and confirm hot water after.',
       },
       {
-        title: 'Repair or Replace Your Landen Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Landen?',
         body: 'Go by the date on the water heater’s label. A Landen home built in 1988 may be on its second or third tank, and a newer one with a burned-out element or a bad thermostat is a plain repair. A tank that leaks from its body, or a pan full of rusty water, means replacement. We price both and you pick. A Duke Energy bill that climbs with no change in how you use water can point to a heater running nonstop on a failing thermostat or a tank coated in sediment, and that’s worth a look before it leaks.',
       },
     ],

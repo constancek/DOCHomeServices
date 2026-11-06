@@ -32,7 +32,7 @@ export const overTheRhine: LocationServiceCopy = {
         body: 'Before calling the landlord or us, look at the thermostat: it should say heat, and a dark screen usually needs batteries. Then check the breaker and the furnace’s own power switch, which in older OTR buildings may be on a basement wall or inside the closet. A filter choked with dust, or a furnace door not snapped shut, will keep the heat off. Any one of those can mean no visit. If you smell gas, don’t operate switches; leave and call Duke Energy from the sidewalk. A CO alarm means everyone out first. For real faults we inspect, explain, price for approval and test afterward.',
       },
       {
-        title: 'Repair or Replace Your Over-the-Rhine Furnace?',
+        title: 'Repair or Replace Your Furnace in Over-the-Rhine?',
         body: 'Judge the furnace, not the 19th-century building around it. Census figures count 522 OTR homes built in 2000 or later, and even in the oldest buildings the furnace may be only a few years old. A sound furnace with a failed igniter, inducer or element should be repaired. A cracked heat exchanger is a different matter: it can push carbon monoxide into a shared building, so we shut the furnace off and recommend replacing it. A bill that rises in a month that wasn’t colder often points to a furnace slowly failing. Replacements need the city permit, which we handle.',
       },
     ],

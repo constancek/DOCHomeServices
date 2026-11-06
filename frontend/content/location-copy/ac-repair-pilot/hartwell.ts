@@ -32,7 +32,7 @@ export const hartwell: LocationServiceCopy = {
         body: 'Plenty of Hartwell AC complaints end before anyone arrives. Drop the setpoint below the room temperature with the mode on cool, flip back a tripped breaker one time, and change the filter if that job is yours. Cold vents mean you’re finished. Renters, who are most Hartwell households, should stop after those checks and report the problem to the owner. Owners should book a technician if the condenser buzzes while its fan sits idle, or a puddle spreads below the indoor unit. We find the cause, explain it to whoever is home and get the price approved first, then confirm cold supply air once it’s fixed.',
       },
       {
-        title: 'Repair or Replace Your Hartwell AC?',
+        title: 'Repair or Replace Your AC in Hartwell?',
         body: 'Start with the condenser’s age, since the house’s age tells you little here. Hartwell homes span every decade from before 1940 to after 2000, and a 1920s house may carry a five-year-old condenser. A fairly young unit with one worn capacitor or a dead fan motor earns a repair. A worn system that needs a compressor, or one old enough to use R-22, usually deserves a replacement, because new R-22 is no longer made. Heat pumps change the math: they run all year, so a weak one pads every Duke Energy Ohio bill, January through December.',
       },
     ],

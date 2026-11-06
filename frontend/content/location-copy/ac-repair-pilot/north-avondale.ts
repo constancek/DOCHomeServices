@@ -32,7 +32,7 @@ export const northAvondale: LocationServiceCopy = {
         body: 'Plenty of warm-house complaints end before anyone drives over. Slide in a new filter, confirm the thermostat says cool, and flip a tripped breaker back on one time. Cold air coming back means you can skip the appointment. In a tall North Avondale house, also open the upstairs registers, because closing too many chokes airflow across the coil and can freeze it. Book a technician once frost coats the outdoor copper line, or the condenser buzzes with a motionless fan blade. We locate the cause, show it to you and quote a flat figure. Nothing proceeds without your yes, and we read the vent temperature when finished.',
       },
       {
-        title: 'Repair or Replace the AC in a Pre-1940 North Avondale Home?',
+        title: 'Repair or Replace the AC in a Pre-1940 Home in North Avondale?',
         body: 'Your condenser is probably decades younger than your house, so judge it on its own label. Younger than about 12 years, a lone bad capacitor or fan motor is worth fixing. Past that age, a locked-up compressor or a coil leaking refrigerant usually tips the math toward new equipment. Pre-1940 homes deserve a duct measurement before anyone picks a tonnage, since many runs were sized for a furnace with no cooling in mind. Inside the historic district, agree on condenser placement with the city before buying. Meanwhile, a dirty outdoor coil stretches each cycle, and Duke Energy Ohio charges for every extra minute.',
       },
     ],

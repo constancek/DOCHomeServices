@@ -32,7 +32,7 @@ export const covington: LocationServiceCopy = {
         body: 'Look at two things first: the filter and the breaker. A filter packed with dust can ice over the coil, and a breaker that tripped once and stays on after a reset may be fine. Renters should go to the landlord first, because in Covington repair decisions normally sit with the owner. Call for a visit if the breaker keeps tripping, an attic unit drips through the ceiling, or the compressor hums with the outdoor fan standing still. The technician tests the indoor and outdoor sides, explains the cause, gives you a flat-rate price to approve, and runs the AC afterward.',
       },
       {
-        title: 'Repair or Replace AC in a Pre-1940 Covington Home?',
+        title: 'Repair or Replace AC in a Pre-1940 Home in Covington?',
         body: 'Base the decision on the equipment, not the house. A Covington rowhouse from the 1800s can have a condenser installed a few summers ago, and that one deserves a repair when its fan motor or capacitor goes. A system past its twelfth year with a failed compressor usually doesn’t. Replacing it needs a county permit, and in the city’s historic overlay zones any exterior change requires a Certificate of Appropriateness, so we talk to the Historic Preservation Office before outdoor equipment moves. Short of replacement, watch your Duke Energy Kentucky bill: a refrigerant leak or a dirty, matted outdoor coil adds compressor hours, and the bill climbs first.',
       },
     ],

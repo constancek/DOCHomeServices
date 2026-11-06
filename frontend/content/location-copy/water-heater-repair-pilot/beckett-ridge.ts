@@ -32,7 +32,7 @@ export const beckettRidge: LocationServiceCopy = {
         body: 'In Beckett Ridge, a few checks often bring the hot water back. A busy morning of showers drains a tank that then needs a while. The setting knob may have been turned down when someone stored things in the closet. A townhome’s electric heater goes quiet if its breaker trips, and a gas heater stays cold with its supply handle crosswise. With no gas odor, follow the label to light a pilot that went out. If that works, there’s no reason to book. Book when the base is wet, the pilot won’t hold, or the tank pops and rumbles. We trace it, explain, quote flat and test.',
       },
       {
-        title: 'Repair or Replace Your Beckett Ridge Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Beckett Ridge?',
         body: 'The heater’s plate shows its install year; trust that over the house’s. Most Beckett Ridge homes were built in the 1980s and 90s, and whether the tank is original varies from house to house. On a sound shell, we replace thermocouples, gas controls, elements, thermostats, relief valves and dip tubes. A shell that leaks has to come out. Both prices are written down and the call is yours. Condo and townhome closets cap the size of a new heater, so we measure the space and vent first. When a permit applies, we pull it and handle the inspection.',
       },
     ],

@@ -32,7 +32,7 @@ export const campWashington: LocationServiceCopy = {
         body: 'Laundry and a couple of baths in a row can empty the tank, and waiting is the fix. The same goes for a knob turned low by accident, a breaker that tripped on an electric unit or a gas handle that got shut. If the pilot is out and the basement doesn’t smell of gas, relight it using the label. Call when the floor under the tank stays wet, the hot water stinks of sulfur, the tank bangs as it heats, or the relief valve on its side opens repeatedly. A technician finds the fault, explains it and quotes before any work.',
       },
       {
-        title: 'Repair or Replace Your Camp Washington Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Camp Washington?',
         body: 'In a neighborhood with almost nothing built since 1980, it’s easy to assume the heater is ancient too. Check the tank label instead. Pilot sensors, gas controls, electric elements, thermostats, relief valves, anode rods and dip tubes all come out and go back in new. A shell that has rusted through and leaks can’t be fixed, so that heater gets replaced. Owners see both prices and pick. Replacement in these basements is also when we fix a rotted vent connector or a valve frozen in place, and we pull the permit where one is needed. Tankless only on request.',
       },
     ],

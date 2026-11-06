@@ -32,7 +32,7 @@ export const newtonsville: LocationServiceCopy = {
         body: 'Try the simple fixes first: a clean filter, new thermostat batteries and a reset breaker. If the house starts cooling again and keeps it up, you don’t need a technician. Call us when the breaker trips again or the heat pump blows warm air in cool mode. If ice builds on the outdoor coil, switch it off first. We test both sides of the system and explain what failed. You get a flat-rate price before any work, and once it’s fixed we check the air temperature at a vent.',
       },
       {
-        title: 'Repair or Replace Your Newtonsville AC?',
+        title: 'Repair or Replace Your AC in Newtonsville?',
         body: 'Go by the age of the heat pump or condenser, not the house. A 1970s Newtonsville home is probably on its second or third system, and a unit with plenty of life left is worth a new capacitor or fan motor. A worn-out compressor on an old unit usually isn’t worth the money. Clermont County Building Inspection issues the replacement permit, filed under Wayne Township, and we handle it. Watch the electric bill too. With so little gas heat here, a struggling heat pump shows up there in winter as well as summer.',
       },
     ],

@@ -32,7 +32,7 @@ export const sedamsville: LocationServiceCopy = {
         body: 'A Sedamsville no-heat call sometimes ends before we get there. Put the thermostat on heat and try fresh batteries. Hunt for a light switch on or near the furnace that somebody flipped off, then check the breaker. A clogged filter can shut a furnace down, and a front panel that isn’t seated holds it off through a safety switch. Smell gas? Leave without touching a switch and call the gas company once you’re outside. Otherwise, call us when the furnace short cycles, hums without heating or keeps tripping the breaker. We inspect, explain, price the repair for approval and confirm the heat afterward.',
       },
       {
-        title: 'Repair or Replace Your Sedamsville Furnace?',
+        title: 'Repair or Replace Your Furnace in Sedamsville?',
         body: 'A Sedamsville cottage can be well over a hundred years old with a furnace that’s nearly new, so we date the furnace, not the building. Igniters, inducer motors and pressure switches are repairs worth making. A cracked heat exchanger is not a parts question: it can push carbon monoxide into the rooms, and we won’t leave it running. For landlords with several units, we price repair and replacement on each furnace separately, and we handle the permit on any replacement. On an electric furnace, a Duke Energy Ohio bill that jumps in steady weather often means it’s running longer than it should.',
       },
     ],

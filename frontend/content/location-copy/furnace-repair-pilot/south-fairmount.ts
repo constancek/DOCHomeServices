@@ -32,7 +32,7 @@ export const southFairmount: LocationServiceCopy = {
         body: 'A few things fix themselves without us. Switch the thermostat to heat and change its batteries. Check that the furnace’s power switch is up and its breaker hasn’t flipped, and swap a dusty filter for a new one. Press the front panel firmly into place, since most furnaces stay off with it ajar. Got heat now? Then skip the service call. Gas odor in the house means leave the light switches alone, don’t relight anything, get outside and phone Duke Energy from there. A carbon monoxide alarm means everyone out before anything else. For the rest, our technician pins down the fault and quotes it for you to approve.',
       },
       {
-        title: 'Repair or Replace Your South Fairmount Furnace?',
+        title: 'Repair or Replace Your Furnace in South Fairmount?',
         body: 'Base the call on the furnace, not the 1938 walls around it. Some of these old houses have a furnace only a few winters old, and a bad igniter or blower motor on that unit is a sensible repair. A heat exchanger crack changes the math. Carbon monoxide can get through it into living space, which makes it a safety issue before a money one, and we leave that furnace off until a new one goes in. Earlier warning comes from the gas bill: short bursts of running, or nonstop running in mild weather, cost you every month. We quote repair and replacement on one sheet.',
       },
     ],

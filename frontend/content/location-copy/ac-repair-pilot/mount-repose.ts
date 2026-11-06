@@ -32,7 +32,7 @@ export const mountRepose: LocationServiceCopy = {
         body: 'Plenty of Mount Repose calls end before we arrive. Slide in a new filter. Set the thermostat to cool, lower than the room’s reading. Check the panel and reset the outdoor unit’s breaker if it tripped. When cold air comes back, cancel the appointment. Keep it when the condenser stays silent, ice forms on the indoor coil, or water keeps pooling near the furnace. The technician examines both pieces of equipment and tells you what broke without jargon. A fixed price comes next for your approval, and after the repair we confirm the cooling together.',
       },
       {
-        title: 'Repair or Replace Your Mount Repose AC?',
+        title: 'Repair or Replace Your AC in Mount Repose?',
         body: 'Find the install date on the outdoor unit and ignore the house’s age. Mount Repose homes from the 1960s and 1970s have almost all swapped air conditioners at least once. A system with life left and one failed part, say a fan motor, is a repair. A tired compressor or a repeat coil leak on older equipment means replacement. In oil-heated homes with an aging furnace, price the two together, because the coil sits on it. We handle the permit on replacements. A system near the end tends to push up the summer electric bill at the same setting, often a season before it fails.',
       },
     ],

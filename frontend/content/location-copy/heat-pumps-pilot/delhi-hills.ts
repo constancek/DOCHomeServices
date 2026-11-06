@@ -32,7 +32,7 @@ export const delhiHills: LocationServiceCopy = {
         body: 'A few no-heat problems need nothing from us. Put the thermostat on heat; cool or off won’t warm anything. Swap a filter that has gone grey. Look at the panel for the outdoor unit breaker and the air handler breaker, since a heat pump has both. Pull back drifted snow or leaves from the outdoor unit. Steam, a dusting of frost and the fan stopping briefly all happen in a defrost cycle. If that clears it up, save the call. Call us when the ice stays, auxiliary heat runs constantly, or the outdoor fan grinds. We diagnose, explain, price for your approval and test.',
       },
       {
-        title: 'Repair or Replace Your Delhi Hills Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Delhi Hills?',
         body: 'Check the heat pump’s age before the house’s. Plenty of Delhi Hills homes from 1972 now carry an outdoor unit only a few years old, and if its capacitor or defrost board fails, we fix it. Refrigerant leaks and compressor failures are the tougher calls; on an older system you get a repair figure and a replacement figure together. All-electric homes give an early warning on the electric bill, which jumps in an ordinary January once the backup strips take over the heating. Financing is available.',
       },
     ],

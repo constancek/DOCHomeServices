@@ -32,7 +32,7 @@ export const finneytown: LocationServiceCopy = {
         body: 'A Finneytown owner can solve some cold-house mornings alone. Make sure the thermostat reads heat and not cool. Swap a dusty filter for a new one. Reset a tripped breaker on the condenser or air handler circuit. Dig drifted snow away from the condenser. On a frosty day, a plume of vapor and the fan resting a minute or two mean defrost is running. Warmth back? Then there is nothing for us to do. A condenser sealed in ice that stays put, or a fan that won’t turn, is a service call. Gas smell at the furnace: go outside and phone the gas company.',
       },
       {
-        title: 'Repair or Replace Your Finneytown Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Finneytown?',
         body: 'The median Finneytown house was built in 1959; the condenser beside it may be only a few winters old, so read its label. On newer equipment, a blown fuse in the outdoor disconnect is a quick fix. Leaking refrigerant or a dead compressor on an aging heat pump is when we write a repair price and a replacement price for you to compare. Ductwork sized for a mid-century furnace can starve a healthy heat pump, so we measure airflow as well. A Duke Energy electric bill climbing in mild weather suggests the heat pump is slipping.',
       },
     ],

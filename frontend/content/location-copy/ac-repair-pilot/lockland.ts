@@ -32,7 +32,7 @@ export const lockland: LocationServiceCopy = {
         body: 'Before you book anyone, try the cheap fixes. A new filter, a thermostat confirmed on cool with live batteries, and a single reset of the AC breaker clear up a fair share of complaints. Cold air afterward means nothing needs repair. Older Lockland houses add one more check: upstairs registers left shut and returns hidden behind furniture choke the airflow. We’re worth a call when the condenser buzzes but its fan won’t spin, or the breaker refuses to hold. The technician goes over the basement coil and the condenser, tells you what broke, and starts once the price has your approval. A register reading afterward shows it works.',
       },
       {
-        title: 'Repair or Replace Your Lockland AC?',
+        title: 'Repair or Replace Your AC in Lockland?',
         body: 'A Lockland house’s age tells you about the house, while the condenser’s nameplate tells you about the AC, and only the second matters here. A sound unit with one failed part deserves the repair. One with a seized compressor or a leaking coil, and plenty of years behind it, is usually due for replacement, sized to what the existing ducts can actually deliver; oversizing on small ducts brings noise and short cycling. We handle the permit a replacement needs. Until then, an electric bill rising through mild weather usually means low refrigerant or a matted outdoor coil.',
       },
     ],

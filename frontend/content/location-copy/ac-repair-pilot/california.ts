@@ -32,7 +32,7 @@ export const california: LocationServiceCopy = {
         body: 'With so few renters here, nobody else needs to sign off before you troubleshoot. Start by changing the filter, putting the thermostat in cool mode and resetting a tripped breaker one time. If cold air returns, you don’t need us. Kill the power at the outdoor disconnect, then rinse grass clippings and leaves out of the condenser fins with a garden hose. Bring us in if that outside fan stays frozen while the compressor hums, or white frost forms along the thicker refrigerant pipe. Electrical parts and refrigerant levels get tested, you hear what failed, and a flat price arrives before any wrench turns.',
       },
       {
-        title: 'Repair or Replace Your California AC?',
+        title: 'Repair or Replace Your AC in California?',
         body: 'Judge the machine, not the house. A condenser younger than about 12 years with one dead capacitor or motor is a sensible fix. Older units with a locked compressor or a weeping evaporator coil generally make replacement the cheaper path. Many homes here went up between 1940 and 1969, so central air was often bolted onto ductwork meant only for furnace heat. Measure those runs before anybody picks a tonnage, or the new unit will short-cycle. Until something changes, grime on the outdoor fins or a slow leak keeps the compressor running longer, and Duke Energy Ohio meters every added minute.',
       },
     ],

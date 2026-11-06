@@ -32,7 +32,7 @@ export const greenhills: LocationServiceCopy = {
         body: 'Start with what you can reach. Set the thermostat to heat. If the filter is in a closet, change it when it looks dark; if it’s in the crawl space, we can do it on a visit. Check that both breakers, for the outdoor unit and the indoor unit, are on. Clear snow and leaves around the outdoor coil. Steam, light frost and a short stop of the fan are normal defrost. If heat returns, you don’t need us. Call us when ice stays on, the emergency heat light won’t go off, or the outdoor fan won’t turn.',
       },
       {
-        title: 'Repair or Replace Your Greenhills Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Greenhills?',
         body: 'Look at the heat pump’s age, not the village’s. Greenhills homes date mostly from the 1930s to the 1950s, but the outdoor unit may be recent. One failed part, such as a capacitor or defrost board, is a repair on a sound system. A refrigerant leak or a compressor that won’t run is where you see both prices from us. Crawl space installs make access part of the cost, and we price that in plainly. On dual fuel, a gas bill that climbs while the heat pump sits quiet is a clue. Financing is available on replacement.',
       },
     ],

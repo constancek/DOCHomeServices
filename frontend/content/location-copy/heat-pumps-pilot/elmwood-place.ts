@@ -32,7 +32,7 @@ export const elmwoodPlace: LocationServiceCopy = {
         body: 'In an Elmwood Place double, check your own half first. The thermostat display has to read heat; cool or off explains a cold room. Hold the filter to a light, and if you can’t see through it, swap it. The panel has a breaker for the condenser out back and one for the air handler, and either can trip. Clear leaves from the condenser fins. Steam off the condenser while its fan sits still is the unit defrosting itself. Fixed? Then skip the call, though tenants ought to tell the landlord. Ice that never melts off, or a grinding condenser fan, needs a technician.',
       },
       {
-        title: 'Repair or Replace Your Elmwood Place Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Elmwood Place?',
         body: 'Judge the equipment, since an Elmwood Place house from 1938 tells you nothing about the unit bolted to it. If a newer unit loses a defrost sensor or scorches a wire, fix it. The harder call is leaking refrigerant or a locked-up compressor on a unit with years behind it. Then the owner or landlord gets two written prices from us, and the replacement permit is our job. Ducts first run for a furnace can choke a heat pump, so we measure airflow before condemning the unit. A sudden spike on the Duke Energy bill points to the heat strips carrying the house.',
       },
     ],

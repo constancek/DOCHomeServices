@@ -32,7 +32,7 @@ export const lockland: LocationServiceCopy = {
         body: 'Plenty of Lockland calls turn out to be settings. Switch a thermostat left on cool or off back to heat. Replace a gray filter. The outdoor unit has its own breaker, separate from the indoor one, and either can trip. Clear snow and leaves off the unit. In defrost, expect steam, a bit of frost and the outside fan going quiet briefly. Fix those and the heat may return without us. Ice that never melts off, an aux heat light lit all day or a fan that won’t move does need a visit. We test, tell you what broke and quote it first.',
       },
       {
-        title: 'Repair or Replace Your Lockland Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Lockland?',
         body: 'The age that matters is the heat pump’s. Plenty of Lockland houses built in the 1920s got their heat pump only recently, and when a young unit loses a capacitor or its fan motor, fixing it is the sensible move. Leaking refrigerant or a burned-out compressor in an aging outdoor unit changes the math, so we write up both numbers for you. As the heat pump weakens, the gas furnace or electric strips pick up the slack, and the utility bill climbs before the house feels cold. In a rental, the tenant often sees that bill first.',
       },
     ],

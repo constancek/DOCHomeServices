@@ -32,7 +32,7 @@ export const batavia: LocationServiceCopy = {
         body: 'Run through the quick checks first. Thermostat on heat, fresh batteries, the furnace switch on, the breaker not tripped, a clean filter and the access door seated firmly; many furnaces stay off when that door is loose. If one of those fixes it, you don’t need us. If you smell gas, don’t flip switches or try to relight anything; leave and call the gas company from outside. A carbon monoxide alarm means everyone out, then call. We inspect, explain the fault in plain terms, price it before work and test the heat after.',
       },
       {
-        title: 'Repair or Replace Your Batavia Furnace?',
+        title: 'Repair or Replace Your Furnace in Batavia?',
         body: 'Go by the furnace, not by when the house went up. A 1950s Batavia home may already be on its third furnace, and a recent one with a bad igniter or pressure switch should be repaired. A cracked heat exchanger changes the answer, because carbon monoxide can get into the air you breathe, so we shut that furnace down. Older oil furnaces with worn burners are often better replaced, especially when converting to gas is an option. Clermont County Building Inspection issues the replacement permit, and we take care of it.',
       },
     ],

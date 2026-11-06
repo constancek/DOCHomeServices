@@ -32,7 +32,7 @@ export const northAvondale: LocationServiceCopy = {
         body: 'Big North Avondale houses with several bathrooms can drain a tank faster than people expect, so wait a while after a busy morning. Check the dial, which gets turned when boxes are stacked against a basement heater. For electric units, find the breaker. For gas units, see that the handle on the gas line is open and the pilot is burning; relight from the printed steps only if the basement smells clean. Book us when the pressure valve on the side discharges twice, the water smells sulfurous, soot marks the burner opening, or the tank stands in water. Diagnosis, quote, approval, fix, test.',
       },
       {
-        title: 'Repair or Replace Your North Avondale Water Heater?',
+        title: 'Repair or Replace Your Water Heater in North Avondale?',
         body: 'In a house built before 1920, the heater downstairs might have gone in three years ago, and its sticker settles that. Pilot sensors, gas controls, thermostats, elements, pressure valves, anodes and inlet tubes are individual repairs. A tank whose steel wall is weeping is done and gets replaced. On the close calls, both prices sit next to each other and the decision stays with you. Inside the City of Cincinnati a replacement needs a Buildings & Inspections permit, which we arrange. Tankless suits some North Avondale houses, though we never push it.',
       },
     ],

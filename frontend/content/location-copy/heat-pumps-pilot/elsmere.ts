@@ -32,7 +32,7 @@ export const elsmere: LocationServiceCopy = {
         body: 'Plenty of Elsmere winter calls end with the owner fixing it. Read the thermostat; if it says cool or off, switch it to heat. A gray, matted filter needs replacing. A heat pump has a breaker for the condenser and another for the air handler, so flip back whichever one has tripped. Brush sleet off the condenser, gently. White vapor during defrost, with the fan quiet for a few minutes, is the system working. Heat back on? No visit needed. Phone us if the emergency heat light stays lit or the house only gets cold air, a reversing valve sign.',
       },
       {
-        title: 'Repair or Replace Your Elsmere Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Elsmere?',
         body: 'Look at the equipment, because Elsmere’s median house dates to 1970 and the condenser beside it might be two winters old. A bad start capacitor on a young unit gets fixed, full stop. A dead compressor, or leaking refrigerant on a unit well into its service life, gets two prices from us on paper, one for the repair and one for a new system, and you pick. Needing a refrigerant top-up every November means a leak somewhere, and another charge just postpones the bill. When the electric bill jumps in a mild month, the strips are likely covering for a weak heat pump.',
       },
     ],

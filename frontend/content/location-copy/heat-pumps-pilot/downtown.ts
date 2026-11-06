@@ -32,8 +32,8 @@ export const downtown: LocationServiceCopy = {
         body: 'A Downtown unit can look broken when it is not. If the thermostat reads cool or off, switch it to heat. A dark, dusty filter goes in the trash. Your panel likely has a breaker for the closet air handler and a separate one for the outdoor unit, wherever the building placed it; reset either that tripped. Defrost brings steam, thin frost and a quiet fan for a few minutes, and that is expected. Heat back on means no call, though renters should still let management know. An emergency heat light that never goes out, cold air or grinding are ours to diagnose, price and test.',
       },
       {
-        title: 'Repair or Replace Your Downtown Cincinnati Heat Pump?',
-        body: 'Go by the equipment, not the building. A Downtown tower from the 2010s may already have aging heat pumps, and a converted older building may have new ones. A failed fan motor, contactor or defrost control is normally a repair. A refrigerant leak or a dead compressor is when we price replacement alongside the repair for the owner or association. On the Duke Energy bill, a jump in a normal winter month usually means the backup heat strips are doing what the heat pump should. Financing is available for replacements.',
+        title: 'Repair or Replace Your Heat Pump in Downtown Cincinnati?',
+        body: 'The age of the heat pump matters more than the age of the building. Towers built in the 2010s can already have tired units, while an older building that was converted may have brand-new ones. A bad fan motor, contactor or defrost control usually gets fixed. Once a refrigerant leak or a seized compressor shows up, we quote replacement next to the repair so the owner or association can choose. If the Duke Energy bill jumps in an ordinary winter month, the backup heat strips are probably covering for the heat pump. Financing is available when replacement wins.',
       },
     ],
     whyTitle: 'Why Downtown Cincinnati Owners and Managers Call Us',

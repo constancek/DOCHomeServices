@@ -32,7 +32,7 @@ export const northside: LocationServiceCopy = {
         body: 'A few things you can sort out yourself. The thermostat should say heat; cool or off won’t warm anything. Slide in a clean filter. In the basement panel, flip back on whichever breaker tripped, the condenser’s or the furnace’s. On a narrow Northside lot, dig the condenser out of drifted snow and leaves. Steam, light frost and a fan that rests briefly are the defrost cycle doing its job. When warmth returns, you don’t need us. Phone us if ice won’t melt off the coil, the system is stuck cooling, or the condenser fan grinds. If you smell gas by the furnace, get out and phone from outside.',
       },
       {
-        title: 'Repair or Replace Your Northside Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Northside?',
         body: 'Go by the equipment’s age, not the 1910 date on a Northside deed. A heat pump put in recently that loses its fan motor or defrost control should be fixed. When an older system leaks refrigerant or its compressor dies, we quote a new unit next to the repair. With dual fuel, the furnace quietly picks up the slack for a weak heat pump, so the earliest clue is often a Duke Energy Ohio gas bill climbing during a mild stretch. Homes near Kirby and Virginia Avenues flooded in June 2019, and any unit that has been under water needs checking before it runs.',
       },
     ],

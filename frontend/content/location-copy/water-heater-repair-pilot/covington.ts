@@ -32,7 +32,7 @@ export const covington: LocationServiceCopy = {
         body: 'You may not need us at all. Several showers in a row drain a small Covington closet tank, and it comes back given time. Boxes stacked against a basement heater can turn its dial. An electric unit may have lost its circuit at the panel. On gas, look at the supply handle and, if the air smells clean, relight the pilot using the steps printed on the heater. Tenants should leave covers shut and tell the landlord. We’re needed for a wet floor under the tank, brown hot water, a rumble from scale, scorching at the burner door or a relief valve that keeps opening. Price comes before repair.',
       },
       {
-        title: 'Repair or Replace Your Covington Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Covington?',
         body: 'Go by the heater’s label, not the year the house went up. Plenty of 1890s houses here have a tank that went in a few years ago. A failed thermocouple, control valve, element, thermostat, relief valve, anode or dip tube is worth fixing when the steel is sound. Once the shell leaks, the tank is finished, and we price its replacement. Where both are options, you see both numbers and pick. Kentucky handles plumbing inspections at the state level, and we pull the permit where one is needed. Tankless can go on the quote as one line if you want to see it.',
       },
     ],

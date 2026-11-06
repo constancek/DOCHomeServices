@@ -32,7 +32,7 @@ export const erlanger: LocationServiceCopy = {
         body: 'Erlanger owners can rule out a few things in ten minutes. A thermostat left on cool or off needs to go to heat. A gray filter chokes airflow; change it. Walk to the panel: the condenser and the air handler have separate breakers, and one can trip alone. Shovel snow off the condenser. A puff of vapor while the fan rests briefly is defrost doing its job. Warm again? Then no visit is needed. Ice that keeps thickening, or an emergency heat light that won’t go out, means call. Smell gas near the backup furnace? Leave the house and phone the gas company outside.',
       },
       {
-        title: 'Repair or Replace Your Erlanger Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Erlanger?',
         body: 'Erlanger’s median house was built in 1976, but the condenser outside may be a recent swap, so read its label instead. A burned-out fan motor on a young unit gets repaired. Leaking refrigerant or a seized compressor on a unit with many winters behind it is different: you see our repair figure and our replacement figure on one page and decide. In an all-electric home or apartment, a Duke Energy Kentucky bill that jumps in a mild month gives away a heat pump that is leaning on its backup strips. That is worth a call before the coldest weeks arrive.',
       },
     ],

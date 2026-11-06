@@ -32,7 +32,7 @@ export const eastWalnutHills: LocationServiceCopy = {
         body: 'Some East Walnut Hills cold taps are just a tank worn out by a crowded morning, and it comes back hot if you give it time. Others are a knob turned low on the gas control or the electric thermostat. Electric heaters have a breaker of their own; reset it once. Gas heaters want the supply valve open and a lit pilot, and the label explains relighting, provided the basement smells of nothing but basement. We’re the right call for leaks, sediment rumbling, discolored or smelly water, a relief valve that keeps opening, or scorching under the burner. Diagnosis comes first, then a price.',
       },
       {
-        title: 'Repair or Replace Your East Walnut Hills Water Heater?',
+        title: 'Repair or Replace Your Water Heater in East Walnut Hills?',
         body: 'The label on the heater gives its install date, and a 1910 house can easily hold a tank from the last decade. On a dry tank, worn thermocouples, gas valves, elements, thermostats, relief valves, anode rods and dip tubes are all fixable. Once the tank body itself weeps, the lining is gone and only replacement answers it. You see both prices side by side and decide. Condo owners should check whether the association has contractor rules before an install day. Where a permit applies, we pull it.',
       },
     ],

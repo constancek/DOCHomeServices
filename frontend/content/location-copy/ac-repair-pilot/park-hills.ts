@@ -32,7 +32,7 @@ export const parkHills: LocationServiceCopy = {
         body: 'Try the no-cost checks first. A fresh filter, cool mode set under the room’s temperature, and one reset of a tripped breaker solve more Park Hills calls than people expect. When cold air comes back, you have no need for us. Apartment residents should stop at that point and let management know. Ask for a technician when the condenser buzzes but won’t start, or ice reappears on the coil. We inspect, then walk you or the owner through the failure. The fixed price is agreed before any repair, and we verify cooling at the registers before leaving.',
       },
       {
-        title: 'Repair or Replace Your Park Hills AC?',
+        title: 'Repair or Replace Your AC in Park Hills?',
         body: 'Skip the house’s age and check the date on the equipment. Many Park Hills houses from the 1920s through 1950s now run a much younger condenser, and plenty of homes here were built since 2000. A single worn component on a fairly new unit is a repair. Replacement starts to pay when an old compressor quits or the coil leaks again and again. Kentucky requires a permit for the new unit, and Planning and Development Services of Kenton County is the office for Park Hills; we file with them. An undercharged system shows up as higher Duke Energy Kentucky totals.',
       },
     ],

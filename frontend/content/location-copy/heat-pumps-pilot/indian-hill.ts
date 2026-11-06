@@ -32,7 +32,7 @@ export const indianHill: LocationServiceCopy = {
         body: 'Before you book, try these Indian Hill checks. The thermostat has to be on heat; cool or off gives you nothing warm. Pull the filter and swap it if it’s gray. At the panel, the outdoor unit and the furnace each have their own breaker; reset any that tripped. Fall leaves and drifted snow pile against the unit, so clear them. A defrost cycle throws off steam, leaves thin frost and pauses the fan briefly; that is the system working. Call us if the coil stays iced, the auxiliary heat light never goes out or the outdoor fan sits dead. We price the fault before touching anything.',
       },
       {
-        title: 'Repair or Replace Your Indian Hill Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Indian Hill?',
         body: 'Judge the equipment, not the address. Indian Hill housing runs from pre-1940 homes to ones built after 2000, and a 1960s house can hold a heat pump only a few years old while a newer house still runs its first one. A bad contactor, capacitor or defrost sensor on an otherwise healthy unit gets fixed. A refrigerant leak or a seized compressor is where the money goes, and on an aging unit we write up both prices so you can compare them. With gas backup, a weak heat pump pushes the furnace to work harder, and a gas bill that climbs in mild weather usually tips you off first.',
       },
     ],

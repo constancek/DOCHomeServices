@@ -36,7 +36,7 @@ export const mountAuburn: LocationServiceCopy = {
         body: 'Mount Auburn tenants and owners can sort some calls out alone. The thermostat has to be set to heat, not cool or off. If the filter is yours to change and it looks dark, change it. One breaker serves the outdoor unit and another the indoor air handler; reset a tripped one once. Brush snow away from the outdoor unit. Steam, a little frost and the fan going quiet briefly are normal defrost. If the heat comes back, you don’t need us. Call when ice won’t leave the coil, the emergency heat light stays lit or the fan won’t move. We diagnose and price it first.',
       },
       {
-        title: 'Repair or Replace Your Mount Auburn Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Mount Auburn?',
         body: 'Base it on the heat pump’s condition, not the building’s age. In a newer Mount Auburn building, a failed defrost board or fan motor on a young unit should simply be fixed. In a 19th-century house, the heat pump is a recent addition, so judge it on its own record. A dead compressor or refrigerant that keeps escaping is when we lay out replacement beside repair. A Duke Energy bill that spikes in an ordinary month usually means the backup heat strips are running. On replacements, we handle the permit.',
       },
     ],

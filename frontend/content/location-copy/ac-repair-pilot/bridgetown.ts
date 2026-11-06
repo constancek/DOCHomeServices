@@ -32,7 +32,7 @@ export const bridgetown: LocationServiceCopy = {
         body: 'Plenty of Bridgetown service calls start with a filter nobody has changed since spring. Slide in a fresh one, confirm the thermostat says cool, and see whether the outdoor unit’s breaker has tripped. Cold air again means you don’t need us. Book a visit if the condenser sits silent, water collects around the basement furnace, or the house never reaches the setting by dinner. We inspect the coil, the condenser and the wiring, tell you plainly what broke, and wait for your yes on a flat price before any work. Once it’s fixed, we hold a thermometer to the registers to prove the cooling is back.',
       },
       {
-        title: 'Repair or Replace Your Bridgetown AC?',
+        title: 'Repair or Replace Your AC in Bridgetown?',
         body: 'The house may date from 1952, but the condenser is likely on its second or third generation. Its own label tells you its age. A system under about ten years with a single failed part should be repaired. Once it is near 15 and the compressor or coil goes, replacement usually pays off. In a postwar Bridgetown house, size the new unit to what the existing ducts can move, since a larger unit on small ducts cools worse. We handle the permit. Until you decide, keep an eye on your Duke Energy summer bills: rising use with the same thermostat setting is a common early warning.',
       },
     ],

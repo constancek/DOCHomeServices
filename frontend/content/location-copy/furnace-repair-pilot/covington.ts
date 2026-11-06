@@ -32,7 +32,7 @@ export const covington: LocationServiceCopy = {
         body: 'Rule out five things first. The thermostat has to be on heat, with fresh batteries. The furnace has its own switch, sometimes a wall switch near the basement stairs that gets flipped by mistake. Then the breaker, the filter, and the front cover, since many furnaces refuse to fire with it sitting loose. If one of those was the problem, skip the call. Book us for short-cycling, a thump at ignition or a breaker that won’t hold. On any whiff of gas, walk out without flicking a light or relighting the burner, and ring Duke Energy Kentucky from the sidewalk. A beeping carbon monoxide detector means the household leaves first.',
       },
       {
-        title: 'Repair or Replace Your Covington Furnace?',
+        title: 'Repair or Replace Your Furnace in Covington?',
         body: 'Covington houses outlive several furnaces, so the date on the furnace label is what counts. An 1890s rowhouse might have a unit from a few years back, and replacing its inducer motor or flame sensor is money well spent. A furnace that needed a blower motor last winter and a control board this one is where we put two prices on the table. A heat exchanger with a split in it is different: exhaust, carbon monoxide included, can mix into the air you breathe, so we tag the furnace off. Planning and Development Services of Kenton County issues the permit for a new furnace, and our office files it.',
       },
     ],

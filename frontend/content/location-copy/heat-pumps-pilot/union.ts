@@ -36,7 +36,7 @@ export const union: LocationServiceCopy = {
         body: 'The thermostat belongs on heat. A dusty filter goes in the trash and a clean one goes in. Your panel should show separate breakers for the condenser and the air handler; reset whichever has tripped. Free the outdoor cabinet from snow, ice crust or blown leaves. When a heat pump defrosts it can hiss, steam, carry a light frost and stop its fan for a few minutes, all by design. Warm air again means you don’t need us. Ice that never melts off, an emergency heat lamp that stays bright, or a system locked in cooling mode needs a technician, and you’ll see the price before we begin.',
       },
       {
-        title: 'Repair or Replace Your Union Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Union?',
         body: 'Judge the unit, not the street. In Union many houses may still run their first heat pump, so read the label date before deciding anything. A failed fan motor, contactor or control board is a normal repair at almost any age. A dead compressor or a refrigerant leak in an older coil is where we show you a replacement price next to the repair. If the electric bill climbs in an ordinary month, the backup heat strips are probably carrying the load. We handle the permit on any replacement.',
       },
     ],

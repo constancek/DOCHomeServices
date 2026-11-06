@@ -32,7 +32,7 @@ export const pleasantRun: LocationServiceCopy = {
         body: 'Plenty of cold taps aren’t a repair at all. Teenagers queuing for the shower can drain a tank, which refills hot given time. Peek at the setting knob in case someone bumped it. On electric models, glance at the panel; on gas models, make sure the supply cock still points open. Where nothing smells off, a dead pilot can be relit using the jacket’s directions. Bring us in for a damp floor beneath, orange or sulfurous water from the hot side, crackling from settled grit, a pilot that drops out again and again, or charred paint near the flame. Inspection, explanation and price come before any wrench turns.',
       },
       {
-        title: 'Repair or Replace Your Pleasant Run Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Pleasant Run?',
         body: 'Look at the water heater, not the house. In Pleasant Run a 1970s house can have a fairly new tank, and a 2005 house can still have its original one; the plate settles it. A failed gas control, thermostat, anode rod or dip tube is a repair. A tank leaking from its body is a replacement, since the steel itself has failed. We put both prices in writing and you decide. On a garage tank, we also check that the venting and gas line are clear before the new one is lit.',
       },
     ],

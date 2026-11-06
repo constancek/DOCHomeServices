@@ -32,7 +32,7 @@ export const cleves: LocationServiceCopy = {
         body: 'Most Cleves homes are single-family houses, so the owner can rule out the easy stuff alone. Thermostat first: heat mode. Then the filter; a gray, clogged one starves the coil. Two breakers serve the system, condenser and air handler (or furnace in a dual fuel setup), and one can be flipped back once. Kick snow and leaves clear of the condenser. A puff of steam, a skin of frost and a fan sitting idle for a few minutes are normal defrost. Heat back means no visit. Phone us for ice that holds, an emergency heat light stuck on, or grinding from the yard. We diagnose and quote before touching anything.',
       },
       {
-        title: 'Repair or Replace Your Cleves Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Cleves?',
         body: 'Judge the heat pump on its own record. Cleves has prewar houses and houses put up since 2000, yet the unit in the yard may be any age. On a younger heat pump, a tired fan motor or a bad defrost board is worth fixing. On an older one, a compressor that’s quit or refrigerant that keeps disappearing means we write up replacement next to repair. Anything that sat in flood water gets tested before it runs. In an all-electric house, a power bill that spikes during a mild month usually means the strips are doing the heat pump’s job.',
       },
     ],

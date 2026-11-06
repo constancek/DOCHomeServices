@@ -32,7 +32,7 @@ export const miamitown: LocationServiceCopy = {
         body: 'Tenants can check a few things before reporting. Hot water that ran out after several showers tends to come back once the tank recovers. A dial that got turned down, or a tripped circuit for an electric heater, is a quick fix. If a gas pilot is out and the air smells normal, relighting by the printed steps is fine; otherwise leave it alone. Report to management, in writing, any water under the tank, brown or rotten-egg-smelling hot water, rumbling inside, or a relief valve discharging more than once. We test, explain the fault and price it for the owner first.',
       },
       {
-        title: 'Repair or Replace Your Miamitown Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Miamitown?',
         body: 'Judge by the water heater, not the building. A unit in a 1980s building can have a tank that went in last year, and its plate shows the date. Thermostats, elements, relief valves and anode rods can be swapped one at a time. When the tank body itself leaks, the heater has to be replaced. Where a building shares one large heater, the decision sits with management. Owners see both options priced, and we pull the permit through Hamilton County Public Health if the job calls for one.',
       },
     ],

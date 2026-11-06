@@ -32,7 +32,7 @@ export const arlingtonHeights: LocationServiceCopy = {
         body: 'Start with what you can see. The thermostat should say heat; on cool or off, it won’t warm anything. Slide in a clean filter. Locate the two breakers, outdoor unit and indoor air handler, and reset a tripped one a single time. Rake snow and leaves back from the outdoor coil. Thin frost, some steam and a short stop of the fan mean it is defrosting. When warm air returns, there’s nothing for us to do, but renters should still mention it to the landlord. Ring us if ice won’t leave the coil, the backup heat light won’t go out, or the outdoor fan sits dead.',
       },
       {
-        title: 'Repair or Replace Your Arlington Heights Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Arlington Heights?',
         body: 'Ignore the house and look at the heat pump. Census figures put 64.7% of Arlington Heights homes before 1940, but the unit outside one of them could be fairly new, and a bad contactor or defrost control on a young unit gets repaired. An older unit with a refrigerant leak or a compressor that has quit gets a replacement price beside the repair price, and we handle the permit if you replace. In an all-electric house, a weak heat pump shows up as a bigger electric bill because the backup strips take over. In a gas house, the furnace works harder and the gas bill climbs.',
       },
     ],

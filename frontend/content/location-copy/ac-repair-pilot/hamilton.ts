@@ -32,7 +32,7 @@ export const hamilton: LocationServiceCopy = {
         body: 'Some Hamilton no-cool problems are yours to fix for free. If the filter is gray and matted, change it. If the thermostat screen is blank, replace its batteries. Either one can bring cold air back, and then you don’t need a technician. Book one when the outdoor unit hums without its fan turning, ice coats the larger copper line, or the breaker trips a second time. We inspect the condenser and the indoor coil, explain the problem in plain terms and quote a flat rate for you to approve. After the repair, we measure the air at the supply vents to show it’s cooling again.',
       },
       {
-        title: 'Repair or Replace AC in a 1950s Hamilton Home?',
+        title: 'Repair or Replace AC in a 1950s Home in Hamilton?',
         body: 'The AC in a 1956 house is rarely original, so date the condenser, not the home. Fewer than a dozen years old with a bad capacitor or fan motor: repair it. Older, running R-22 and leaking: replacing often makes more sense, since new R-22 is no longer made or imported. A new system needs a City of Hamilton HVAC permit, and in historic areas such as German Village and Dayton Lane, exterior work goes through the Architectural Design Review Board. Meanwhile, a dirty coil or a slow leak makes the compressor run longer, and those extra hours land on your City of Hamilton electric bill.',
       },
     ],

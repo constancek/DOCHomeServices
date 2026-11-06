@@ -32,7 +32,7 @@ export const mason: LocationServiceCopy = {
         body: 'Three showers in a row can drain a tank; give it an hour and the water usually comes back. A temperature knob knocked down while storing boxes, an electric heater on a tripped breaker or a gas handle turned off during other work will all mimic a failure. When a gas pilot has gone out and the basement smells normal, follow the relight steps printed on the tank. Bring us in for a damp floor at the base, hot water that smells of rotten eggs, a relief valve that discharges again and again or a pilot that drops out minutes after lighting. Diagnosis and a quote come first.',
       },
       {
-        title: 'Repair or Replace Your Mason Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Mason?',
         body: 'Start with the date on the heater’s label, since a Mason house from 1998 may already be on its second tank. Most failures we see on these builder-grade units are small parts: the thermocouple that proves the pilot, the gas control, an electric element or its thermostat, the pressure relief valve, a sacrificial anode worn to wire, or a cracked cold-inlet dip tube. Those get fixed. Once rust eats through the steel shell and water seeps from the body, no part will help, and the heater gets replaced. You see a price for each path and pick. We pull the permit where one is needed.',
       },
     ],

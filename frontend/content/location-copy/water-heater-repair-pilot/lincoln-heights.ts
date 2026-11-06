@@ -32,7 +32,7 @@ export const lincolnHeights: LocationServiceCopy = {
         body: 'Lincoln Heights tenants can check a few things without opening any panels. If several people showered in a row, the tank may just need time. Look for a turned-down dial on the front. In a unit with an electric heater, see whether its breaker is off. A gas heater may have its handle closed, or a pilot that went out, which the printed steps explain how to relight, provided you smell no gas. Water under the tank, brown or smelly hot water, a side valve going off more than once, or a pilot that won’t stay lit all need us. We find the cause and the owner approves the price.',
       },
       {
-        title: 'Repair or Replace Your Lincoln Heights Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Lincoln Heights?',
         body: 'The question is how old the heater is, not the building, and the sticker shows it. A tank in a 1970s Lincoln Heights apartment may have been replaced more than once already. Thermocouples, gas controls, elements, thermostats and side valves all get repaired on a tank that holds water, and so do anode rods and dip tubes. When the shell leaks, it gets replaced. Landlords see both prices together and decide. In a building with many units, replacing the oldest tanks on a schedule can make sense, and we’ll tell you which ones look worst.',
       },
     ],

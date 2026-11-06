@@ -32,7 +32,7 @@ export const oakley: LocationServiceCopy = {
         body: 'Check a few things before calling. Several showers plus the dishwasher can use up a tank, and it recovers if you leave it alone. Someone may have turned the temperature dial. On an electric unit, the breaker may have tripped. On gas, the supply valve has to be open and the pilot lit; relight per the label only in a basement that doesn’t smell of gas. Water beneath the tank, brown or rotten-egg water, sediment rumbling or a relief valve discharging again is when you need us. We explain the fault and price it before any repair.',
       },
       {
-        title: 'Repair or Replace Your Oakley Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Oakley?',
         body: 'Date the heater by its label. Oakley’s old houses usually have heaters much younger than the walls around them, so the house tells you little. Gas valves, thermocouples, elements, thermostats, anode rods, dip tubes and relief valves are repairs. A tank leaking from the shell is a replacement, since no part stops that. We give you both prices and the choice. In an old basement, we also check the shutoff valve and vent on a replacement. Tankless is an option where it fits; we don’t push it.',
       },
     ],

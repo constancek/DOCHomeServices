@@ -32,7 +32,7 @@ export const eastEnd: LocationServiceCopy = {
         body: 'Start at the thermostat; cool or off will never make heat. A grey, matted filter chokes the airflow, so put in a fresh one. The system runs on two breakers, the outdoor unit and the basement or closet air handler, and either one tripping kills the heat. Keep snow and leaves off the unit outside. Defrost throws people: a plume of steam, a film of frost and a fan that goes still for a few minutes are all part of it. Sorted after that? No visit needed. When ice keeps building, the emergency heat light stays lit or the fan is dead, we diagnose, quote for your approval and test.',
       },
       {
-        title: 'Repair or Replace Your East End Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in East End?',
         body: 'Judge the heat pump, not the house around it. Plenty of 1890s houses on Eastern Avenue carry a heat pump installed in the last few years, and when a contactor or fan motor quits on one of those, we fix it. The hard calls are refrigerant leaks and compressor failures; on an older unit we put the repair price and the replacement price side by side. Equipment that sat in floodwater usually belongs in the replace column. Replacements at a city address need a mechanical permit from the City of Cincinnati Department of Buildings & Inspections, which we pull.',
       },
     ],

@@ -32,7 +32,7 @@ export const bridgetown: LocationServiceCopy = {
         body: 'Plenty of Bridgetown no-heat calls can be cancelled after a quick look. Is the thermostat on heat, with batteries that still work? The furnace’s power switch, which looks like a light switch, should be on, and the breaker for it shouldn’t be tripped. A dusty filter makes the furnace run hot and shut itself down, so change it. Press the blower door until it latches, because many units refuse to start otherwise. Warm air again means no visit needed. Book us for burners that drop out or a squealing blower. We test, explain, quote a fixed price and confirm heat before leaving.',
       },
       {
-        title: 'Repair or Replace Your Bridgetown Furnace?',
+        title: 'Repair or Replace Your Furnace in Bridgetown?',
         body: 'A 1950s Bridgetown house tells you nothing about the furnace inside it, which could be fairly new or decades old. What matters is that unit’s condition. A bad flame sensor, igniter or inducer motor on a solid furnace is a fair repair. A cracked heat exchanger is another matter, because it can pass carbon monoxide into the living space, and that turns a budget question into a safety one. Should the CO alarm go off, clear the house before calling anyone. If you go with a new furnace, we file the permit. Gas bills that climb while the weather holds steady usually mean the old one is straining.',
       },
     ],

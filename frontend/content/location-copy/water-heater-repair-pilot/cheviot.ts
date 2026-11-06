@@ -32,7 +32,7 @@ export const cheviot: LocationServiceCopy = {
         body: 'Rule out the easy ones first. Showers stacked up with a load of laundry can drain a Cheviot closet tank, and it recovers on its own. The dial may have been turned when someone stored a mop bucket beside it. Electric closet units sometimes just trip their circuit. Gas tanks can have the supply handle off, or a pilot blown out; if the room smells normal, relight it from the printed steps. Tenants, please report it instead of pulling covers. We’re the call for a wet floor under the tank, a popping sound, sulfur-smelling water or a pilot that dies again. You get the fault and price before work.',
       },
       {
-        title: 'Repair or Replace Your Cheviot Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Cheviot?',
         body: 'Decide by the heater, not the building. A Cheviot house from the 1920s can have a tank that went in last spring, and its thermocouple, control valve, element, thermostat, anode or relief valve can each be swapped alone. Once the steel shell itself leaks, the heater is done. Owners and landlords get both prices whenever both make sense. We pull the permit where one is needed. In a tight closet, the new tank has to fit the space, so we measure before we quote. Tankless gets a quote if you ask for one.',
       },
     ],

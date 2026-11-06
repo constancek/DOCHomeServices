@@ -32,7 +32,7 @@ export const cuf: LocationServiceCopy = {
         body: 'When four roommates shower back to back each morning, the last one gets cold water and the tank is fine; it just needs to catch up. A dial somebody turned while doing laundry, a tripped breaker on an electric unit and a closed gas handle are the other free fixes. If the pilot is dark and nothing smells of gas, the label explains relighting. Puddles under the heater, hot water that smells like eggs, a grinding rumble as it heats or a pilot that won’t catch mean a real repair. Tenants tell the landlord; owners book us, and the price comes first.',
       },
       {
-        title: 'Repair or Replace Your CUF Water Heater?',
+        title: 'Repair or Replace Your Water Heater in CUF?',
         body: 'The house might date from 1925, but check the heater’s label for its own install date. A thermocouple, gas valve, heating element, thermostat, relief valve, anode rod or dip tube can be swapped on the visit. A tank seeping from its shell is finished and gets replaced. We quote both options to the owner, who decides. With one tank serving several units, sizing matters at replacement time, and we’ll say so plainly. Replacements need a City of Cincinnati permit, which we handle. Tankless gets a mention only if the owner wants one.',
       },
     ],

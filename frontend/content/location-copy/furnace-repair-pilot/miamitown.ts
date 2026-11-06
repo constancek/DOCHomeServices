@@ -32,7 +32,7 @@ export const miamitown: LocationServiceCopy = {
         body: 'Tenants can rule out the simple stuff before phoning the office. Put the thermostat on heat and give it new batteries if the display is dark. Look at the furnace breaker. A dust-choked filter or a closet panel knocked off its latch will also kill the heat. If one of those does it, nobody needs a repair visit. Smelling gas means walking out without flipping any switch and calling the gas company from outside. A carbon monoxide alarm means everybody leaves first. Real faults get an inspection, a plain explanation to the owner, a quote the owner approves and a heat test before we go.',
       },
       {
-        title: 'Repair or Replace Your Miamitown Furnace?',
+        title: 'Repair or Replace Your Furnace in Miamitown?',
         body: 'Read the furnace label, not the building’s age. A Miamitown complex from the 1980s may still run its original electric furnaces, or units that went in a few winters back, and only the unit’s own date tells you which. A single dead element, sequencer or blower motor generally earns a repair. Gas units are different when the heat exchanger cracks: carbon monoxide can leak through, so we lock that furnace out and tell the owner before any talk of money. Landlords with a building full of aging units can have us rank them worst first, and any replacement permit is handled by us.',
       },
     ],

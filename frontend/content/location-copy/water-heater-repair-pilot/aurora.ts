@@ -32,7 +32,7 @@ export const aurora: LocationServiceCopy = {
         body: 'A busy hour of showers can leave an Aurora tank cold for a while, and it only needs to reheat. Make sure nobody turned the dial down, the gas cock to the heater is open, or on an electric tank the breaker is up. With no gas odor, follow the label to relight a pilot that went out. If any of that works, you don’t need to book us. Call for water under the tank, a relief valve that lets go more than once, rusty or sulfur-smelling water, or a pilot that keeps dropping out. We inspect, quote it for approval and test the water after.',
       },
       {
-        title: 'Repair or Replace Your Aurora Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Aurora?',
         body: 'Pay attention to the water heater’s age, not the house’s. A pre-1940 Aurora house might have a tank installed a few years back, and a thermocouple, gas valve or relief valve on it is a repair. Leaks from the tank body mean replacement, and we price that alongside any repair so you decide. In old basements we also check the flue and the shutoff valve, which often date from earlier installs and may need replacing with the tank. We pull the permit where one is needed. For rentals, the owner gets both prices.',
       },
     ],

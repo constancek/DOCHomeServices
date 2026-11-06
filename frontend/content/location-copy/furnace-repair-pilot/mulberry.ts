@@ -32,7 +32,7 @@ export const mulberry: LocationServiceCopy = {
         body: 'An electric furnace has fewer things to check, but they still matter. Confirm the thermostat is on heat with good batteries, the disconnect switch beside the furnace is on, and no breaker labeled for the furnace has tripped. Replace a dusty filter and make sure the panel door is fully closed. If heat returns, you don’t need us. If breakers keep tripping or the air stays lukewarm, call. In a gas unit, a gas smell means hands off the switches, no relighting, and a call to the gas company from outside. A sounding carbon monoxide alarm means getting out first. We test, explain, price, then verify.',
       },
       {
-        title: 'Repair or Replace Your Mulberry Furnace?',
+        title: 'Repair or Replace Your Furnace in Mulberry?',
         body: 'Decide on the furnace, not the building. Many Mulberry units date from the 1980s and 1990s, but the furnace inside may have been changed since. Burned-out heating elements, a failed sequencer or a bad blower motor are normal repairs on an electric furnace. On a gas furnace, a cracked heat exchanger can let carbon monoxide into the home, so it gets replaced. Replacement needs a permit from Clermont County Permit Central, and Miami Township zoning may come into it; we handle both. A struggling electric furnace shows up quickly on the Duke Energy Ohio bill.',
       },
     ],

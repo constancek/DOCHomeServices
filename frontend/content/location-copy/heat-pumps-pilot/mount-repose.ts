@@ -36,7 +36,7 @@ export const mountRepose: LocationServiceCopy = {
         body: 'Some no-heat calls in Mount Repose end before we arrive. Look at the thermostat first: it must read heat, not cool or off. A dusty filter chokes airflow, so swap it. Heat pumps take two breakers, one outdoors and one for the air handler; reset one that tripped. Clear drifted snow or leaves from around the outdoor unit. Steam and thin frost mean defrost is doing its job, and the fan may pause for a few minutes. Book us when ice builds and stays, or when the emergency heat light won’t go out. We explain the fault and price it before repairing.',
       },
       {
-        title: 'Repair or Replace Your Mount Repose Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Mount Repose?',
         body: 'Look at the heat pump, not the house. Plenty of Mount Repose homes date from the 1960s and 1970s and have had the outdoor unit swapped since, so the label on that unit tells you its real age. On a younger system, a burnt contactor or a tired fan motor gets fixed and that’s the end of it. A coil that leaks, or a compressor that hums and won’t run, is the point where we quote a new system next to the repair on an older unit. In an all-electric house, the Duke Energy Ohio bill climbs as backup strips cover for a heat pump that’s failing.',
       },
     ],

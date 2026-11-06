@@ -32,7 +32,7 @@ export const cleves: LocationServiceCopy = {
         body: 'Five things to check before you book. A blank thermostat usually needs batteries, and it should be set to heat. The switch on or beside the furnace has to be on, and the breaker can’t be tripped. A clean filter goes in, and the furnace door gets pressed shut, since most units stay idle while it sits loose. If heat comes back, no visit is needed. Call when the furnace keeps cycling on and off, or an electric furnace blows room-temperature air. Smell gas and you should leave switches alone, go outside and call the gas company from there. Our visit: test, explain, quote, recheck.',
       },
       {
-        title: 'Repair or Replace Your Cleves Furnace?',
+        title: 'Repair or Replace Your Furnace in Cleves?',
         body: 'Decide on the furnace itself. About one Cleves home in five was built in 2000 or later, and plenty of older houses have had their equipment replaced, so many units here deserve a repair when one part gives out. When a furnace needs one costly fix after another, it’s a stronger case for replacement, and we price both side by side. A cracked heat exchanger can leak carbon monoxide, which makes it a safety matter before a money one. If the CO alarm goes off, get everybody out, then call. Anything that sat in floodwater gets inspected before you choose.',
       },
     ],

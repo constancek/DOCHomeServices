@@ -32,7 +32,7 @@ export const westEnd: LocationServiceCopy = {
         body: 'Sometimes the heater isn’t broken at all. After heavy hot water use, the tank has to catch up. In a rowhouse basement, the front dial gets bumped by stored boxes. On electric, a tripped breaker only needs resetting. On gas, someone may have closed the supply valve, or the pilot went out; the label explains relighting, which is fine as long as nothing smells of gas. Tenants still write to the landlord. We’re the next step for water pooling at the base, rusty or sulfur-smelling hot water, or a pilot that refuses to stay lit. Cause found, quote given, fix on approval, then a test.',
       },
       {
-        title: 'Repair or Replace Your West End Water Heater?',
+        title: 'Repair or Replace Your Water Heater in West End?',
         body: 'Make the call on the heater, not the building. Its label gives the year it went in. Swapping a thermocouple, gas valve, element, thermostat, relief valve, anode rod or dip tube is a repair, and on a tank that still holds water it’s usually worth doing. When the tank body leaks, the heater is replaced. Owners see both prices before deciding. In old rowhouse basements, we check the shutoff valve and the vent before a new tank goes in, because either one can hold up the job if it has failed.',
       },
     ],

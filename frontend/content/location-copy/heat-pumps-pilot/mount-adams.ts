@@ -36,7 +36,7 @@ export const mountAdams: LocationServiceCopy = {
         body: 'In Mount Adams, start inside. The thermostat needs to read heat. Hold the filter up to a light, and if none comes through, replace it, assuming the lease makes that your job. Check the panel for a tripped breaker; the outdoor unit and the air handler each have one. Clear snow or leaves from the outdoor unit. Steam off the coil, light frost and the fan resting are defrost. If heat returns, you don’t need us, though a tenant should still mention it to the landlord. A coil that stays iced, an emergency heat light that won’t quit or a grinding fan means a visit, priced before we work.',
       },
       {
-        title: 'Repair or Replace Your Mount Adams Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Mount Adams?',
         body: 'Judge the equipment, not the building. Mount Adams houses are mostly far older than the heat pumps in them, so the address tells you little. On a recent unit, a contactor or a fan motor is a quick fix. A compressor that won’t restart, or refrigerant that seeps out again after a recharge, is when we hand the owner a replacement price next to the repair price. Landlords with several heat pumps of one age can stagger replacements instead of waiting for each to fail. On the electric bill, a jump during ordinary weather points to the backup strips. We pull the permit.',
       },
     ],

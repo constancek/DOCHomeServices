@@ -32,7 +32,7 @@ export const amberley: LocationServiceCopy = {
         body: 'Check a few things first in an Amberley dual fuel house. Put the thermostat on heat; on cool or off, neither the heat pump nor the furnace will run. Change a clogged filter. Check two breakers, the outdoor unit’s and the furnace’s. Brush snow and leaves off the outside cabinet. A defrost looks like light frost, a puff of steam and a fan that stops for a few minutes. If heat returns, you’re set. We need to see it when ice won’t leave the coil, the outdoor unit grinds, or the furnace never steps in. If you smell gas near the furnace, leave and call the gas company from outside.',
       },
       {
-        title: 'Repair or Replace Your Amberley Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Amberley?',
         body: 'The house won’t tell you; the heat pump will. A ranch from the 1950s may sit beside a heat pump only a few years old, and on a young unit a burned contactor or a failed defrost control is a fix. On an older unit with a compressor going or refrigerant leaking out, we write up both prices for you to compare. A weak heat pump in a dual fuel home seldom shows on the electric bill. The furnace picks up the slack, and it’s the gas bill that rises. If you replace, we handle the permit.',
       },
     ],

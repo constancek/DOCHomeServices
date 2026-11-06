@@ -32,7 +32,7 @@ export const cheviot: LocationServiceCopy = {
         body: 'Cheviot owners can rule out the basics first. Thermostat: set to heat, batteries not dead. The furnace has its own on/off switch nearby; flip it on. Check the panel for a tripped breaker. Swap a grey filter. Then seat the front panel properly, since a loose one keeps many models from firing. If warmth returns, you’re done without us. Phone us when burners keep dropping out or the fan won’t shut off. A gas odor means walk out, leave lights and switches alone, and ring the gas company from the sidewalk. We find the fault, show you, quote it, then run a heat cycle.',
       },
       {
-        title: 'Repair or Replace Your Cheviot Furnace?',
+        title: 'Repair or Replace Your Furnace in Cheviot?',
         body: 'Look at the furnace’s data plate, not the year on the deed. Half of Cheviot’s homes predate 1946, yet the unit downstairs might be five winters old, and paying for an igniter, flame sensor or blower motor on that one is sensible. Put a major part on an old furnace and the answer gets closer, so you get both numbers, repair and new, on one sheet. A cracked heat exchanger skips the money talk: carbon monoxide can get through the crack, and that makes it a safety job. When a CO alarm sounds, everybody goes outside, then you phone. Permits for a new furnace are on us.',
       },
     ],

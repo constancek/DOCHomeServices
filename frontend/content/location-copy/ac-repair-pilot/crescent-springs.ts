@@ -32,7 +32,7 @@ export const crescentSprings: LocationServiceCopy = {
         body: 'Renters, check two things, the filter and the breaker panel, and then report the results to the landlord or management rather than booking us. Owners can start with those same two checks. If swapping the filter or resetting the breaker once solves it, no technician is needed. Call when the heat pump runs yet the vents blow air at room temperature, or water turns up around the closet unit. A breaker tripping twice is a reason too. We test indoor and outdoor parts, explain the cause plainly and quote a flat price the owner approves, then verify the cooling after the fix.',
       },
       {
-        title: 'Repair or Replace Your Crescent Springs AC?',
+        title: 'Repair or Replace Your AC in Crescent Springs?',
         body: 'Decide by the unit’s age rather than the building’s. A lot of Crescent Springs was built during the 1990s and 2000s, so some systems are original and close to worn out. When a newer heat pump loses one part, repair it. When an original unit’s compressor fails, replacing it is usually the smarter money, and the owner sees both prices to compare. We pull the county permit a replacement needs. Before that day comes, watch the monthly Duke Energy Kentucky statement. A heat pump that has lost refrigerant runs longer in July and leans on its backup heat strips in January, and both show up in the total.',
       },
     ],

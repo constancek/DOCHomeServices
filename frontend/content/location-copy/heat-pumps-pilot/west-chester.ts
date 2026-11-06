@@ -32,7 +32,7 @@ export const westChester: LocationServiceCopy = {
         body: 'Before you call, put the thermostat on heat, since cool or off won’t warm anything, and replace a dusty filter. Look in the panel for two breakers, the condenser’s and the closet or basement air handler’s, and make sure neither has tripped. Brush snow or leaves off the condenser. Steam drifting off it on a cold morning means defrost, as does the fan resting a few minutes. If one of those does the trick, you don’t need us. Call when ice covers the unit and stays, or the auxiliary heat light never goes out. We inspect, explain the fault, get your approval on the price, then test the system.',
       },
       {
-        title: 'Repair or Replace Your West Chester Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in West Chester?',
         body: 'The date on the outdoor unit matters more than the date on the deed. Plenty of West Chester houses built in 1988 now sit beside a condenser swapped out five years back, and when that unit loses a fan motor or contactor, we simply fix it. Refrigerant leaks and dead compressors are the two faults that make people think about replacing. When either shows up on an aging unit, you get two prices on one sheet, repair and replacement. Watch the Duke Energy bill as well. A big jump in an ordinary winter month points to the backup strips carrying the heat.',
       },
     ],

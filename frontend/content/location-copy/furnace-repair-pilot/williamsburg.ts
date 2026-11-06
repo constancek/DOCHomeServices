@@ -32,7 +32,7 @@ export const williamsburg: LocationServiceCopy = {
         body: 'Some no-heat calls end before we arrive. Put the thermostat on heat and raise it a few degrees, then change the batteries if the display is dim. Look at the switch beside the furnace, which can pass for a light switch, and at the breaker. Fit a clean filter and press the furnace door firmly shut. If the heat returns, there’s no need for a visit. If you smell gas, leave the house without touching switches and call the gas company from outside. Otherwise, call us. We test the furnace, tell you the price, fix it once you agree and confirm warm air at the vents.',
       },
       {
-        title: 'Repair or Replace Your Williamsburg Furnace?',
+        title: 'Repair or Replace Your Furnace in Williamsburg?',
         body: 'The house’s age won’t settle it, because a pre-war Williamsburg home may hold a furnace only a few years old. Read the date on the rating plate and think about the repair history. A bad igniter, inducer motor or limit switch is worth fixing on a sound furnace. A cracked heat exchanger can leak carbon monoxide, so we shut that furnace down and quote a replacement. Old venting matters here too: a new high-efficiency furnace usually vents through plastic pipe instead of the chimney, and we plan that route before the install. If a carbon monoxide alarm sounds, get everyone outside first.',
       },
     ],

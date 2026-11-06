@@ -32,7 +32,7 @@ export const lawrenceburg: LocationServiceCopy = {
         body: 'Start with the filter and the breaker. Closet air handlers in Lawrenceburg apartments choke fast on a dirty filter, and a fresh one often fixes weak airflow without us. If the breaker trips once and stays on after a reset, watch it. Call when it trips again or water shows up around the closet. Tenants should report it to the landlord first. Our technician inspects the indoor and outdoor sides, tells you what failed and gets a flat price approved before starting, then tests the cooling after the repair.',
       },
       {
-        title: 'Repair or Replace Your Lawrenceburg AC?',
+        title: 'Repair or Replace Your AC in Lawrenceburg?',
         body: 'Judge it by the equipment, not the building. A good share of Lawrenceburg housing went up after 2000, so many heat pumps are still young enough that a blower motor or contactor repair makes sense. An older unit with a failed compressor usually doesn’t, especially since a new heat pump covers your heating too. We handle the permit for any replacement. The early warning is on your Lawrenceburg Municipal Utilities bill. With most homes here heating and cooling on electricity, a leak or a dirty coil adds run time all year, and the bill rises in months when the weather didn’t change.',
       },
     ],

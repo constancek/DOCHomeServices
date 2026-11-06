@@ -32,7 +32,7 @@ export const springdale: LocationServiceCopy = {
         body: 'Replace the filter, give the thermostat new batteries with the mode on cool, and reset the AC breaker if it has tripped, once only. Cold air from the vents after that means there’s nothing to repair. In homes with a heat pump, look for an emergency heat setting someone switched on by accident. Phone us when that breaker won’t stay set or water spreads around the furnace or air handler. Our technician tests the unit indoors and the condenser outside, names the broken part and its cost, and does nothing until you agree. We read the supply temperature at a register to confirm the fix.',
       },
       {
-        title: 'Repair or Replace Your Springdale AC?',
+        title: 'Repair or Replace Your AC in Springdale?',
         body: 'A Springdale house from the early 1970s says nothing about its condenser, so check the condenser’s own nameplate. A recent unit with a single worn component earns a repair. An old system whose compressor has died, or whose coil won’t hold refrigerant, is better replaced, sized to the house you have now, additions and finished basements counted. The City of Springdale’s Building Department includes central air and heat pump replacements in its residential permits, as it does furnace replacements, and we pull that permit. Until you decide, a Duke Energy Ohio bill creeping up during mild weeks tells you the unit is straining.',
       },
     ],

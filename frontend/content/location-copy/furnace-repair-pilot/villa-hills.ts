@@ -32,8 +32,8 @@ export const villaHills: LocationServiceCopy = {
         body: 'A few checks come first. Put the thermostat on heat with good batteries, flip on the service switch beside the furnace, reset the breaker once and swap a clogged filter. Push the furnace door closed until it seats, since a loose panel stops many furnaces from running. Heat back means you don’t need us. Call if the breaker trips a second time, the burners won’t stay lit or the blower moves no warm air. Smell gas? Don’t flip anything; get out and phone the gas company from the yard. A carbon monoxide alarm means everyone leaves first. We test, explain, price for your approval, then run the heat.',
       },
       {
-        title: 'Repair or Replace Your Villa Hills Furnace?',
-        body: 'Go by the furnace itself. A Villa Hills house from 1975 may have a furnace put in a few winters ago, and a bad igniter or inducer motor on that one should be fixed. A cracked heat exchanger is a carbon monoxide risk, so we shut that furnace off and recommend a replacement, and we handle the county permit. In a house this age we also check the old flue, because a new furnace can need a liner or a different vent. In an all-electric home, a Duke Energy Kentucky bill that jumps in a normal month often means failed elements or backup heat running nonstop.',
+        title: 'Repair or Replace Your Furnace in Villa Hills?',
+        body: 'The furnace’s own age decides it. Many houses in Villa Hills date from the 1970s yet run a furnace installed a few winters back, and when an igniter or inducer motor quits on one of those, we repair it. A cracked heat exchanger is different: it can leak carbon monoxide, so we shut the unit down, recommend replacing it and take care of the county permit. Older homes may also need a flue liner or new vent for it. Where the house is all electric, a Duke Energy Kentucky bill that leaps in an ordinary month usually points to burned elements or backup heat that never shuts off.',
       },
     ],
     whyTitle: 'Why Villa Hills Homeowners Call Us for Furnace Repair',

@@ -32,7 +32,7 @@ export const wilder: LocationServiceCopy = {
         body: 'First, rule out the simple causes. Set the thermostat to heat and swap weak batteries. Electric furnaces often have two or more breakers, so look for any that tripped and reset them once. Change a dirty filter, check the service switch, and make sure the access panel is fully closed. If that brings heat back, you’re done without us. On gas heat, a gas smell means leave first, touch no switches and call the gas company from outside. Call us if a breaker trips twice or you smell hot wiring. The technician tests each part, names the fault and the price, and starts only after you approve.',
       },
       {
-        title: 'Repair or Replace Your Wilder Furnace?',
+        title: 'Repair or Replace Your Furnace in Wilder?',
         body: 'Look at the furnace’s own age, which may have nothing to do with the building’s. In a Wilder unit from the 1990s, an electric furnace can often be fixed with a new element, sequencer or blower motor for far less than replacement. A gas furnace with a cracked heat exchanger is another matter: it can send carbon monoxide into the home, so it gets replaced, not patched. Kentucky requires a permit for any furnace replacement, and we file it with the county. A Duke Energy Kentucky bill that climbs in a normal winter can mean electric heat working harder than it should.',
       },
     ],

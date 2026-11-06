@@ -32,7 +32,7 @@ export const delhiHills: LocationServiceCopy = {
         body: 'A good share of Delhi Hills calls are solved by a new filter. Put one in, check that the thermostat reads cool rather than heat, and look at the breaker serving the condenser. If the house starts cooling, cancel the visit. Book one when the outdoor unit hums and won’t start, frost builds on the larger copper line, or the house can’t reach its setting on a mild evening. Our technician checks the furnace or air handler and the outdoor unit, points out the failed part, and gives you a fixed price for approval. When the repair is finished, we read the register temperatures with you.',
       },
       {
-        title: 'Repair or Replace Your Delhi Hills AC?',
+        title: 'Repair or Replace Your AC in Delhi Hills?',
         body: 'Ignore the year the house was built and read the outdoor unit’s label. A second- or third-generation system with one dead fan motor deserves the repair. Once an older compressor fails, or the indoor coil has started leaking, replacing is usually smarter, and heat pumps get there sooner because they run all year. We handle the permit for a replacement. Delhi Township issues its own zoning approval, and the county wants that before it takes most building permits. Until then, the electric bill tells the story: a unit losing refrigerant runs extra hours for the same comfort.',
       },
     ],

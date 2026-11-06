@@ -32,7 +32,7 @@ export const reading: LocationServiceCopy = {
         body: 'A few minutes at home can save you a service call. Slide in a new filter and nudge the thermostat to cool a few degrees under room temperature. A flipped AC breaker in the panel is worth checking too. Chilled air coming back means the system was fine. Phone us if that breaker flips a second time or frost appears on the copper pipe outside. Tenants should go to the owner first. Our technician looks over the basement coil and the condenser, then names one flat price for the repair. No work happens until you agree, and afterward we read the supply temperature to prove it.',
       },
       {
-        title: 'Repair or Replace Your Reading AC?',
+        title: 'Repair or Replace Your AC in Reading?',
         body: 'A Reading house from 1956 could easily be on its third air conditioner, which is why the condenser’s data plate matters more than the deed. Fix a younger unit when a contactor or blower motor gives out. Once an older compressor quits, or the coil over the furnace starts leaking, money usually goes further on new equipment, and a landlord facing two big bills in two summers should compare both. XPEX runs Reading’s building department under contract and issues the HVAC permit; we file for it. Meanwhile, a tired system shows up as climbing Duke Energy Ohio charges from hours of extra running.',
       },
     ],

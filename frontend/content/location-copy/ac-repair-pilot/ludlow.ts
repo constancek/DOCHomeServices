@@ -32,7 +32,7 @@ export const ludlow: LocationServiceCopy = {
         body: 'Spend a few minutes before you spend money. Put in a clean filter, set the thermostat to cool a few degrees under the room, and look at the condenser breaker in the panel. Cold air again means you can skip us. A Ludlow appointment makes sense once the outdoor unit hums with a motionless fan, or the breaker flips straight back off after a reset. Our technician goes over the condenser outside and the coil inside and names the failed part in everyday words. You accept or decline a fixed figure before any work. Repair done, we hold a thermometer to a supply vent with you watching.',
       },
       {
-        title: 'Repair or Replace Your Ludlow AC?',
+        title: 'Repair or Replace Your AC in Ludlow?',
         body: 'The sticker on the condenser matters more than the year the house was built, since a 1930s Ludlow home may be on its third air conditioner. Where the equipment still has life and a single motor or contactor quit, fix it. Where an old compressor has died or the indoor coil leaks for the second time, the next dollar belongs to new equipment. Swapping a condensing unit or heat pump takes a Kentucky permit, which Planning and Development Services of Kenton County issues for Ludlow, and our office files it. Slow refrigerant loss usually appears first on the Duke Energy Kentucky statement, climbing month over month through summer.',
       },
     ],

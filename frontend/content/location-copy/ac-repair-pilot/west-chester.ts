@@ -57,7 +57,7 @@ export const westChester: LocationServiceCopy = {
         body: 'Start with the free fixes: swap the filter, put fresh batteries in the thermostat and reset the breaker once. In a West Chester condo, the filter often sits at the closet air handler. If cooling comes back, you don’t need us. Call when ice builds on the copper line or the outdoor unit hums while its fan sits still. The technician checks the air handler or the furnace and coil inside plus the outdoor unit, explains the cause in plain words and gives you a flat-rate price before work starts, then runs a full cooling cycle to test the repair.',
       },
       {
-        title: 'Repair or Replace Your West Chester AC?',
+        title: 'Repair or Replace Your AC in West Chester?',
         body: 'Plenty of West Chester homes are on their second or third outdoor unit. If yours went in after 2010 and a capacitor or contactor failed, repair it. If it predates 2010 and runs on R-22, leak repairs cost more because the EPA ended R-22 production in 2020, and replacing often wins, so we price both. Low refrigerant and a dirty outdoor coil also make the compressor run longer, which shows up on your Duke Energy Ohio bill. In the many homes here that heat with electricity, a heat pump fault raises the winter bill too.',
       },
     ],

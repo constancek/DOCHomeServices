@@ -32,7 +32,7 @@ export const withamsville: LocationServiceCopy = {
         body: 'Some Withamsville calls fix themselves. A small apartment tank emptied by two showers comes back after it reheats. A thermostat knob turned down by a vacuum or a stored box is easy to spot. On electric units, open the breaker panel and look for the heater’s switch. If a gas pilot has died and the closet smells normal, the lighting steps on the tank label are safe to follow. Puddles at the base, brown hot water and loud popping are ours. Tenants tell management before anything else. We diagnose, explain, quote a flat rate and confirm hot water before leaving.',
       },
       {
-        title: 'Repair or Replace Your Withamsville Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Withamsville?',
         body: 'Ignore when the complex or the house went up and find the heater’s data plate, which shows its install date. A 1955 house or an apartment from the 1980s may have had its tank swapped only recently. Parts we change on the spot include thermocouples, gas valves, heating elements, thermostats, relief valves, anode rods and dip tubes. A shell that’s rusted through and seeping is the one failure with no repair. You see both numbers, fix or replace, and pick. Tankless can be quoted on request, though we never push it.',
       },
     ],

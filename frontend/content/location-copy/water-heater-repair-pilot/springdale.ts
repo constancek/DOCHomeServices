@@ -32,7 +32,7 @@ export const springdale: LocationServiceCopy = {
         body: 'If hot water ran out after a busy morning, the tank needs time. A dial turned down, a breaker off on an electric heater, or a closed gas cock can each stop the hot water, and none of those needs us. A pilot that went out can be relit from the printed steps when the room smells normal. Tenants should pass anything beyond that to the landlord. Book us for a puddle under the tank, a rotten-egg smell from the hot tap, a relief valve that discharges twice, or a pilot that won’t stay lit. We test, explain and quote before work.',
       },
       {
-        title: 'Repair or Replace Your Springdale Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Springdale?',
         body: 'Go by the tank, not the building. Its plate shows when the water heater went in, and in a Springdale complex from the 1970s that date may be recent. Replacing a gas control, element, thermostat or anode rod is a repair job. Water seeping from the tank shell is the one fault that always means a new heater. We price both for the owner or manager, and nothing gets ordered until they choose. A shared building heater is management’s decision, quoted exactly the same way.',
       },
     ],

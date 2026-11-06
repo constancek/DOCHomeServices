@@ -32,7 +32,7 @@ export const carthage: LocationServiceCopy = {
         body: 'Carthage owners can sort out some no-heat calls alone. Set the thermostat to heat; on cool or off it does nothing. Hold the filter up to the light, and if none comes through, replace it. The panel has a breaker for the heat pump outside and another for the furnace; push back any that tripped. Shovel snow and rake leaves away from the unit outdoors. Defrost looks odd but is harmless: steam, a light frosting, the fan resting a few minutes. Got heat now? Save the call. Bring us in when ice refuses to melt or the system won’t leave cooling. Gas smell near the furnace: walk out, then phone.',
       },
       {
-        title: 'Repair or Replace Your Carthage Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Carthage?',
         body: 'The house is old; the heat pump bolted to it may not be. Find the install date on the outdoor unit and decide from that. A young Carthage heat pump with a failed fan motor or defrost board gets repaired. An aging one with a refrigerant leak or a seized compressor gets a replacement price written up next to the repair price. Dual fuel can mask the problem: as the heat pump fades, the furnace fires more often, and you notice the Duke Energy gas bill climbing in a month that wasn’t especially cold. Any replacement needs the city permit, which we file.',
       },
     ],

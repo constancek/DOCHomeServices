@@ -32,7 +32,7 @@ export const newMiami: LocationServiceCopy = {
         body: 'Three quick things to rule out yourself: the filter, the thermostat setting and the breaker. A new filter or one breaker reset that fixes it for good means you can skip the service call. Phone us if that breaker flips off again, or if a puddle forms beside the furnace, since that’s where New Miami AC coils usually live. Frost on the outdoor copper pipe means the same. Our technician looks over the indoor and outdoor halves, then explains the problem without jargon. Work waits for your yes on a single flat price, and once it’s fixed we measure vent temperatures.',
       },
       {
-        title: 'Repair or Replace Your New Miami AC?',
+        title: 'Repair or Replace Your AC in New Miami?',
         body: 'Read the manufacture date on the outdoor unit’s label; the house’s age tells you little. Plenty of 1950s New Miami houses got a fresh condenser recently, and a dead fan motor on one of those gets repaired. Once a system nears 20 years and the compressor quits, or the coil leaks a second time, we’d point you to replacement, and we take care of the permit. Your electric bill often flags trouble early. Low refrigerant or a clogged outdoor coil keeps the compressor running for hours longer, so a July bill that jumps in ordinary weather deserves a look.',
       },
     ],

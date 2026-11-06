@@ -32,7 +32,7 @@ export const overTheRhine: LocationServiceCopy = {
         body: 'If you rent, start with the two checks that cost nothing: a fresh filter, and a thermostat set to cool with working batteries. When cold air comes back after that, you don’t need a technician and you don’t need to bother the landlord. Report it to the owner or building manager when the outdoor unit hums with its fan standing still, or when water drips from the ceiling under an air handler. Our technician inspects the indoor and outdoor halves, explains the cause to whoever is paying, and gives a flat price before any work. Once it’s fixed, we measure the air coming out of the vents.',
       },
       {
-        title: 'Repair or Replace Your Over-the-Rhine AC?',
+        title: 'Repair or Replace Your AC in Over-the-Rhine?',
         body: 'Date the equipment, not the building. A 19th-century building can house a condenser that’s two years old, and a failed capacitor or fan motor on that one is a repair. A unit past about 12 years with a dead compressor is usually a replacement, and that needs a mechanical permit from the city’s Department of Buildings & Inspections. Inside the Over-the-Rhine Historic District we check with the Urban Conservator before an outdoor unit changes position. Short of replacing anything, a dirty outdoor coil or a slow refrigerant leak keeps the compressor running longer, and the electric meter shows it before the rooms feel warm.',
       },
     ],

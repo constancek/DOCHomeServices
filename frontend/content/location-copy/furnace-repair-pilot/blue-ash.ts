@@ -32,7 +32,7 @@ export const blueAsh: LocationServiceCopy = {
         body: 'A few Blue Ash no-heat calls end with the homeowner fixing it. Put the thermostat on heat and replace tired batteries. Flip on the furnace’s service switch, mounted on the cabinet or close by, and reset a tripped breaker. Slide in a fresh filter and seat the blower door snugly, because a loose door holds many furnaces off. Warm air again means you can cancel. We’re worth calling when the furnace short-cycles, the inducer grinds, or an electric unit won’t keep its breaker set. A gas odor means no switches, no relighting, everyone out, then a call to the gas company. We inspect, explain, quote for approval and retest.',
       },
       {
-        title: 'Repair or Replace Your Blue Ash Furnace?',
+        title: 'Repair or Replace Your Furnace in Blue Ash?',
         body: 'Read the furnace label, not the house’s age. Some 1980s Blue Ash homes still run the furnace the builder installed, and others got a new one a few winters ago, and the answer is different for each. Igniters, flame sensors, pressure switches and blower motors are ordinary repairs. A cracked heat exchanger is a safety matter, since carbon monoxide can leak through it into the rooms, and we’ll show you exactly what we found. When a carbon monoxide alarm sounds, get everyone outdoors before calling anyone. Keep an eye on the utility bill as well: long, weak run cycles tend to show there first.',
       },
     ],

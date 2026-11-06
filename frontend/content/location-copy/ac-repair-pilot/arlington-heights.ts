@@ -32,7 +32,7 @@ export const arlingtonHeights: LocationServiceCopy = {
         body: 'Two free checks come first. Fit a clean filter and confirm the thermostat is on cool. If the outdoor unit’s breaker has dropped, flip it back once and wait. Cool air returning means you can cancel any appointment. Ring us when that breaker drops again or the condenser fan sits still while the compressor hums. Renters, take it to your landlord instead of booking a contractor. Our technician runs the system, points out the bad part and quotes one flat sum, then waits for a yes. Before packing up, we put a thermometer in the vents.',
       },
       {
-        title: 'Repair or Replace Your Arlington Heights AC?',
+        title: 'Repair or Replace Your AC in Arlington Heights?',
         body: 'Central air for houses barely existed when most of Arlington Heights was built, so the age that counts is printed on the equipment. Repair a unit still in its first decade that lost a single part. When an aging compressor dies or a coil leaks, replacing usually pays off better, and prewar ducts often limit how big the new system can be. Owners of several rentals installed the same year may do better replacing on a schedule than one emergency at a time. We take care of the replacement permit. Until then, a refrigerant-starved system quietly runs longer and the electric bill shows it.',
       },
     ],

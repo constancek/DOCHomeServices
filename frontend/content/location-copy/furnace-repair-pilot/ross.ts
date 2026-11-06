@@ -32,7 +32,7 @@ export const ross: LocationServiceCopy = {
         body: 'Some no-heat calls end before we arrive. Confirm the thermostat says heat and has live batteries. Check the service switch near the furnace and look at the breaker panel. A filter caked with dust can shut a furnace down, so swap it. Make sure the access door is pushed fully closed; many units stay off when it isn’t. If heat comes back, skip the call. If you smell gas, get out without touching switches and call the gas company once you’re outside. A carbon monoxide alarm sounding means everyone leaves first. Otherwise we inspect the furnace, explain the fault, give you a price to approve and test the heat.',
       },
       {
-        title: 'Repair or Replace Your Ross Furnace?',
+        title: 'Repair or Replace Your Furnace in Ross?',
         body: 'Judge by the furnace. A 1970s Ross house may have a furnace from any decade, and swapping a gas valve or an oil burner motor on a sound unit is usually worth it. A cracked heat exchanger is a carbon monoxide hazard on oil and gas alike, so we shut that furnace down and quote a replacement. A furnace that sat in flood water usually needs replacing as well. If you replace, Butler County Building & Zoning handles the permit, and we file it. Oil customers often notice a struggling burner as more frequent fuel deliveries before they ever notice cold rooms.',
       },
     ],

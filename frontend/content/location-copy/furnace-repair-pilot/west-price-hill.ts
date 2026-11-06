@@ -32,7 +32,7 @@ export const westPriceHill: LocationServiceCopy = {
         body: 'Try the safe checks first. Put the thermostat on heat, give it new batteries if the display is dim, and flip the furnace’s power switch to on. Look at the breaker, pull the filter if it’s gray with dust, and press the front panel back into place, because a panel sitting loose stops many furnaces cold. If the heat returns, you can skip the visit. A gas smell is different: don’t touch switches or try relighting, get out, and phone the gas company from the sidewalk. If a carbon monoxide alarm goes off, everyone leaves first. Otherwise we diagnose, explain, quote for approval and run the heat to prove it.',
       },
       {
-        title: 'Repair or Replace Your West Price Hill Furnace?',
+        title: 'Repair or Replace Your Furnace in West Price Hill?',
         body: 'Judge the furnace, not the house. A West Price Hill house from the 1950s may hold a furnace installed ten years ago, so the label inside the cabinet tells you more than the house’s age does. Worn igniters and inducer motors are fair repairs on a sound furnace. A heat exchanger with a crack in it is not: carbon monoxide can get into the living space, so we treat that as a safety matter and talk about a new furnace. Gas bills climbing through an ordinary winter can point to dirty burners or lost efficiency. When the call is close, you get repair and replacement prices side by side.',
       },
     ],

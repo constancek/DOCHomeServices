@@ -32,7 +32,7 @@ export const cheviot: LocationServiceCopy = {
         body: 'Put the thermostat on cooling, replace the filter and reset the breaker once. When cold air comes back, there’s nothing for us to do. Renters with a closet air handler should look for water in the drain pan, the usual sign of a clogged line. Book a visit if the breaker trips twice or frost spreads along the copper line. An outdoor fan that won’t spin counts too. We test the indoor and outdoor equipment and show you what broke before quoting a fixed price. Once you or your landlord agrees, we repair it and check the supply air temperature.',
       },
       {
-        title: 'Repair or Replace Your Cheviot AC?',
+        title: 'Repair or Replace Your AC in Cheviot?',
         body: 'Hardly any Cheviot homes were built after 2000, so the building rarely tells you the AC’s age. The condenser’s nameplate does. A unit 12 years old or newer with a single dead part is worth repairing. An older one with a seized compressor or a leaking coil usually belongs on the replacement list. In a two-family house or apartment, the owner decides. Ducts in a pre-1940 house limit how much system they can feed, so we measure them first. Replacement paperwork begins at City Hall. Until then, a grimy outdoor coil drags out each cycle and raises the Duke Energy Ohio charges.',
       },
     ],

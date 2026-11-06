@@ -32,7 +32,7 @@ export const forestville: LocationServiceCopy = {
         body: 'A few checks come first. Swap the filter for a fresh one, make sure the thermostat is on cool instead of heat or auto, and flip a tripped breaker back one time. Cooling within a few minutes means no repair is needed. On a Forestville heat pump, July frost across the outdoor coil or a fan blade that never moves is our cue. Renters, pass it to the landlord. On site, the technician tests the indoor and outdoor halves, points to the part that quit, and names one flat price for your yes. We finish by checking how cold the air leaving the vents runs.',
       },
       {
-        title: 'Repair or Replace Your Forestville AC?',
+        title: 'Repair or Replace Your AC in Forestville?',
         body: 'The house’s age tells you little here, so check the manufacture date printed on the condenser. A 1985 Forestville home can easily have a 2018 heat pump, and that one gets repaired. A compressor failure on equipment older than roughly 12 years, or leaks at both the indoor coil and the outdoor unit, tips the math toward replacing. Have the copper line set inspected as well, because hanging a new condenser on tired copper invites the same leak again. Permit paperwork on a replacement is ours. In the meantime, a refrigerant-short system works overtime each afternoon, and Duke Energy bills you for those hours.',
       },
     ],

@@ -32,7 +32,7 @@ export const dayHeights: LocationServiceCopy = {
         body: 'Start at the wall: the thermostat should be set to heat. A filter you can’t date needs swapping. Out at the panel, one breaker feeds the outdoor unit and another the furnace or air handler inside; if one is off, flip it on once. Shovel away snow that slid off the roof onto the outdoor unit. A puff of steam and a little frost come with defrost and are normal. With heat back, keep your money. We’re worth a call when ice sticks to the coil, emergency heat stays lit, the system won’t change modes, or the outdoor fan grinds. You agree to the price before we fix anything.',
       },
       {
-        title: 'Repair or Replace Your Day Heights Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Day Heights?',
         body: 'The house’s age tells you little; the heat pump’s age and condition tell you more. Plenty of 1960s ranches in Day Heights carry a far younger outdoor unit, and when a capacitor, contactor or defrost board fails on one of those, we fix it. On an older unit, a dead compressor or a leak that comes back after every recharge is when you get a replacement price beside the repair price. If a gas or oil furnace backs up the heat pump, it can cover for a dead outdoor unit for weeks. A fuel bill climbing in ordinary weather is the clue.',
       },
     ],

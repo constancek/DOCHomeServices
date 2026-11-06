@@ -32,7 +32,7 @@ export const clifton: LocationServiceCopy = {
         body: 'Clifton renters and owners can clear up plenty of no-heat calls alone. The thermostat has to be on heat. Pull the filter, and if it’s matted gray, swap it. There are usually two breakers, the condenser’s and the air handler’s; one reset is fair. Dig snow and leaves off the coil. Defrost shows up as steam, a frost film and a fan that stops for a bit. With warmth back, skip the visit. Ring us if ice won’t leave, the emergency light stays on, cooling won’t switch off, or the outdoor fan grinds. You approve the price before we repair.',
       },
       {
-        title: 'Repair or Replace Your Clifton Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Clifton?',
         body: 'Start with the install date on the outdoor unit’s label, not the age of the house. A prewar Clifton house might carry a heat pump a few years old, and a burnt contactor or a dead defrost board on that unit is a simple fix. A refrigerant leak or a compressor failure on aging equipment is the real decision, and we write both prices down so you can compare them. Dual fuel houses hide a weak heat pump well: the furnace takes over, and the first clue is a gas bill climbing with no cold snap to explain it, often before any room feels chilly.',
       },
     ],

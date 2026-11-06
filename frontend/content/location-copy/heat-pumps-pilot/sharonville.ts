@@ -36,7 +36,7 @@ export const sharonville: LocationServiceCopy = {
         body: 'A Sharonville homeowner or tenant can sort out some of this alone. Set the thermostat to heat; cool or off won’t warm anything. Swap a gray, dusty filter. Your panel has a breaker feeding the outside cabinet and another feeding the air handler, so flip back any that tripped. Sweep snow and leaves away from the unit. In defrost it may steam, frost over lightly and stop its fan a few minutes, which is fine. Warm air back means you can skip the visit. Ice that stays put, or an emergency heat light that never goes out, is our job. We find the fault, quote it and retest the system.',
       },
       {
-        title: 'Repair or Replace Your Sharonville Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Sharonville?',
         body: 'Judge the heat pump, not the building. A Sharonville house from 1974 may have a heat pump installed a few years ago, and a bad contactor or outdoor fan motor on that unit is a straightforward repair. A compressor that has failed, or refrigerant that leaks again after a recharge, is where we price replacement next to repair and let you compare. We handle the city permit for a replacement. A Duke Energy Ohio bill that climbs while the weather hasn’t changed usually means the backup strips are carrying the load the heat pump should.',
       },
     ],

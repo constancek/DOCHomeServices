@@ -32,7 +32,7 @@ export const corryville: LocationServiceCopy = {
         body: 'In Corryville, where 92.7% of homes rent, a tenant usually checks first. A thermostat left on cool or off since September feels exactly like a breakdown. Slide out the filter; if it’s furred with dust, put in a new one. In the apartment panel, the air handler breaker may have tripped; flip it back once. Steam and frost on the outdoor coil, with its fan quiet a few minutes, is defrost. If heat comes back, nobody needs to call. Owners should ring us for a coil that stays iced, an emergency heat light that won’t go out, or a grinding fan. We diagnose and quote first.',
       },
       {
-        title: 'Repair or Replace Your Corryville Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Corryville?',
         body: 'Judge the equipment, not the address. 40.2% of Corryville housing went up in 2000 or later, and a lot of those apartments still run the heat pump they opened with. Swapping a burned-out fan motor or contactor on one of them is ordinary work. When a compressor dies or a coil leaks refrigerant again and again, we write up replacement beside the repair. The City of Cincinnati Department of Buildings & Inspections issues the mechanical permit for a replacement, and we file it. Backup strips covering for a weak heat pump drive up the Duke Energy Ohio bill, so a tenant’s high-bill complaint deserves a look.',
       },
     ],

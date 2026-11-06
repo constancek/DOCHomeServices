@@ -32,7 +32,7 @@ export const hamilton: LocationServiceCopy = {
         body: 'Rule out the simple causes first. The thermostat should be on heat, set above the room, with batteries that still work. Flip the furnace’s power switch back on if someone shut it off, reset a tripped breaker one time, and slide in a fresh filter. Push the blower door until it clicks, because many furnaces won’t fire with it loose. Warm air back means no visit. Tenants should go to the landlord first, since Ohio law (ORC 5321.04) puts heat on them; we fix furnaces, not leases. For a gas smell, leave switches alone, relight nothing, get outside and call the city gas utility.',
       },
       {
-        title: 'Repair or Replace Your Hamilton Furnace?',
+        title: 'Repair or Replace Your Furnace in Hamilton?',
         body: 'Look at the furnace’s date, not the house’s. Plenty of 1950s Hamilton homes have a furnace only a few winters old, and a bad igniter or draft inducer in that one deserves fixing. A crack in the heat exchanger is a safety problem before it’s a money problem, because carbon monoxide can get through. When a CO alarm sounds, the whole household goes outside, then makes the call. Replacing the furnace takes a permit, which we file. Short of that, hold this winter’s city gas bill against last year’s; a jump during a normal season means the furnace is falling behind.',
       },
     ],

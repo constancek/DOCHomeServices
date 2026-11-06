@@ -32,7 +32,7 @@ export const linwood: LocationServiceCopy = {
         body: 'Start with what you can sort out yourself. A filter caked with dust, a thermostat still on heat from spring, or a breaker that tripped once can each stop the cooling, and none of them needs a visit. In a Linwood basement, also look at the floor drain beside the furnace: if the coil’s drain hose has slipped out of it, water pools there. Ask for a technician when the condenser hums while its fan sits idle. Ice on the larger copper line, or a second breaker trip, means the same. We inspect, name the fault, give one flat price and test the supply air after the fix.',
       },
       {
-        title: 'Repair or Replace Your Linwood AC?',
+        title: 'Repair or Replace Your AC in Linwood?',
         body: 'Almost every Linwood home went up before 1950, but the condenser beside it is far younger, so go by the date on its data plate. Roughly 12 years or less with one worn part, a capacitor say, means repair. A dead compressor in an aging unit points toward replacement, and so does an R-22 charge, a refrigerant the EPA reports has not been made in or shipped into the country since 2020. Match the new system to what the prewar ducts can carry, not the old label. Meanwhile a slow leak stretches each cycle, and Duke Energy Ohio meters every extra hour of run time.',
       },
     ],

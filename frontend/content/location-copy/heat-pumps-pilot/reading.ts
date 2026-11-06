@@ -36,7 +36,7 @@ export const reading: LocationServiceCopy = {
         body: 'Look at the thermostat first; heat is the only mode that heats. Hold the filter up to a window, and if it’s matted gray, change it. In the panel, the outdoor unit and the furnace each have their own breaker; one reset is fine, a second trip is our job. Rake leaves away from the outdoor unit and knock off snow. Defrost makes the unit steam and frost over a little while its fan rests. Warm air back means you don’t need us. Ice that stays, a unit locked in cooling, a grinding fan, or a furnace that won’t light all need a visit. We quote before we repair.',
       },
       {
-        title: 'Repair or Replace Your Reading Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Reading?',
         body: 'A 1956 house can easily have a heat pump installed a few years ago, so judge the unit and ignore the deed. On a younger system, a burned-out fan motor or a failed defrost control is a straightforward fix. When an older outdoor unit loses its compressor or won’t hold refrigerant, we write up repair and replacement prices side by side. Mill Creek is the Reading wild card: gear that sat in flood water often isn’t worth rebuilding. We handle the city permit when a unit is replaced. In a dual fuel house, watch the Duke Energy gas bill; if it climbs on mild days, the heat pump is slacking.',
       },
     ],

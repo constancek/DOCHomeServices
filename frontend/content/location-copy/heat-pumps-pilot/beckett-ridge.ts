@@ -32,7 +32,7 @@ export const beckettRidge: LocationServiceCopy = {
         body: 'Start at the wall. The thermostat has to read heat; cool or off will leave a Beckett Ridge house cold with nothing broken. Swap a clogged filter. Both breakers, outdoor unit and indoor air handler, should be on. Clear drifted snow or leaves off the cabinet out back. Light frost, rising steam and a fan that rests for a few minutes are just defrost. If that sorted it, keep your money. Ice that stays put, an emergency heat light that won’t go out or grinding outdoors means a visit: we inspect, explain the fault, and you okay the price before we fix anything.',
       },
       {
-        title: 'Repair or Replace Your Beckett Ridge Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Beckett Ridge?',
         body: 'Judge the equipment by its own age. Many 1980s houses here already replaced the original heat pump, so the cabinet label tells you more than the deed. A contactor or defrost board gone bad on a recent install is money well spent. When the compressor quits, or refrigerant is seeping out of an older system, we write up a replacement figure beside the repair figure. A new unit takes a zoning certificate from West Chester Township and a Butler County Building & Zoning permit; we handle both. Watch the Duke Energy Ohio bill: a jump in an ordinary month often means the strips are heating the house.',
       },
     ],

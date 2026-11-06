@@ -32,7 +32,7 @@ export const bromley: LocationServiceCopy = {
         body: 'You may not need us. A tank emptied by a row of showers in Bromley just needs time. A dial turned down gives cool water; an electric tank with a tripped breaker gives none. On gas, turn the valve handle in line with the pipe if it’s off, and relight the pilot from the label’s steps only with no gas smell. Call us for a puddle under the tank, a relief valve that keeps letting go, scorch at the burner, or popping as it heats. A heater that sat in floodwater stays off until we see it. You approve the price before we start.',
       },
       {
-        title: 'Repair or Replace Your Bromley Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Bromley?',
         body: 'Base it on the tank. Its sticker gives the install date, and a house in Bromley from the 1920s may hold a fairly new heater. Thermocouples, gas controls, elements, thermostats, relief valves, anode rods and dip tubes are all repairs. If water seeps through the tank wall, replacement is the answer, because the steel can’t be sealed. Both prices are yours to weigh. Kentucky handles plumbing inspections at the state level, and we arrange the permit on a replacement. Financing is available if a new heater comes at a bad time.',
       },
     ],

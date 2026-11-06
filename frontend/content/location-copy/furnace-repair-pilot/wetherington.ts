@@ -32,7 +32,7 @@ export const wetherington: LocationServiceCopy = {
         body: 'Turn the thermostat to heat and set it a few degrees above the room; if its screen is blank, fresh batteries may be all it needs. Confirm the furnace’s power switch is up, the breaker is on, the filter isn’t matted with dust and the furnace door is latched snug, since a Wetherington furnace with a loose door usually refuses to start. If heat returns, skip the call. Call us when the burners light and drop out, the blower moves cold air or a breaker trips twice. We find the fault, walk you through it, get your yes on the price and run a full heating cycle before leaving.',
       },
       {
-        title: 'Repair or Replace Your Wetherington Furnace?',
+        title: 'Repair or Replace Your Furnace in Wetherington?',
         body: 'Let the furnace decide, not the house. Wetherington homes date from 1991 onward, but many have already had their original furnace swapped, so read the manufacture date on the rating plate behind the door. New igniters, flame sensors and inducer motors are sensible fixes on most units. A heat exchanger with a crack is a different story: it can let carbon monoxide into the living space, so we shut that furnace down and go over replacement with you. We handle the township and county approvals a new furnace may need. A gas bill that jumps in a mild month often means long run cycles.',
       },
     ],

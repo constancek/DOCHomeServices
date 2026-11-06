@@ -32,7 +32,7 @@ export const aurora: LocationServiceCopy = {
         body: 'In Aurora, the thermostat belongs on heat, with batteries that still have life. The furnace power switch, on the cabinet or a nearby wall, should be on, and no breaker should be tripped. A clogged filter gets replaced, and the blower door gets pushed until it seats, since a loose one keeps plenty of furnaces from starting. Warm air after all that means you can skip the call. Smelling gas means flipping nothing, leaving, and ringing the gas company once outside. A carbon monoxide alarm means everybody out. For anything else we test the furnace, explain what failed, price it for your approval and run a full heat cycle after.',
       },
       {
-        title: 'Repair or Replace Your Aurora Furnace?',
+        title: 'Repair or Replace Your Furnace in Aurora?',
         body: 'Weigh the furnace itself, not the age of the house. A pre-war home in Aurora can easily hold a furnace installed a few winters ago, and when its igniter, inducer motor or blower gives out, a repair is usually the sensible move. A cracked heat exchanger is another story. Carbon monoxide can escape through it into the rooms, so we shut that furnace off and treat it as a safety problem. If a replacement makes more sense, Dearborn County issues the building permit, and homes downtown may need the Aurora Historic Preservation Commission to approve exterior changes. We check on that before any work.',
       },
     ],

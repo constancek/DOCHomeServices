@@ -36,7 +36,7 @@ export const wilder: LocationServiceCopy = {
         body: 'Try this first. A thermostat on cool or off mimics a dead system, so switch it to heat. Slide in a new filter. The panel has one breaker for the outdoor unit and one for the air handler; reset a tripped one a single time. Brush snow and wind-blown leaves off the outside cabinet. A hiss, a plume of steam and a thin frost while the fan stops are the defrost cycle at work. Warm air coming back means no visit. Ice that stays, an emergency heat light that won’t go out or a grinding fan means us. We look, explain, then quote.',
       },
       {
-        title: 'Repair or Replace Your Wilder Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Wilder?',
         body: 'Go by the heat pump, not the building. A Wilder home from the 1980s or 1990s may run its original unit or a later one, and the date on the outdoor label tells you which. Small parts like a capacitor or contactor are repairs. On an older unit, a compressor failure or a refrigerant leak is the big decision, and we price both repair and replacement. Kentucky requires a permit for a replacement, which we file with Campbell County. With no gas backup, a struggling heat pump shows up fast as a higher electric bill.',
       },
     ],

@@ -32,7 +32,7 @@ export const whiteOak: LocationServiceCopy = {
         body: 'Some White Oak calls end before we leave the shop. If the basement filter is grey and matted, change it and give the system an hour. If the thermostat batteries are low or the setting slipped to heat, fix that. If the outdoor unit is silent, reset its breaker once. Call us when the fan outside hums without spinning, the copper line at the furnace frosts over, or cool air comes out weak. Our technician checks the basement equipment and the condenser, tells you what broke, and quotes a flat price for your approval. Then we run the system and read the supply temperature.',
       },
       {
-        title: 'Repair or Replace Your White Oak AC?',
+        title: 'Repair or Replace Your AC in White Oak?',
         body: 'Your White Oak house is probably from the 1960s, but the air conditioner has nothing to do with that date. Read the condenser label. A system in its first decade with one bad part is worth repairing. One in its late teens with a failing compressor, or a coil leaking over the furnace, is usually better replaced, and that is a good time to check whether the furnace is close behind it. If you go ahead, we handle the permit. Before that point, watch your Duke Energy Ohio bill: a summer with no change in habits but a clear jump in usage often points to a struggling compressor.',
       },
     ],

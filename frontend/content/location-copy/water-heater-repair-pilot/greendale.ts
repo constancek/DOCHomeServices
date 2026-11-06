@@ -32,7 +32,7 @@ export const greendale: LocationServiceCopy = {
         body: 'Several no-hot-water problems are yours to fix. A tank drained by a run of showers recovers on its own. The temperature knob on the gas control can get turned by accident, and the gas supply valve to the heater should be open. If the pilot is out and there’s no smell of gas, relight it by the steps printed on the label. When that works, skip the visit. If the pilot won’t hold, the burner shows scorch marks, the tank rumbles, or water sits under it, call us. We check the heater and its vent, price the repair for your approval and confirm hot water.',
       },
       {
-        title: 'Repair or Replace Your Greendale Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Greendale?',
         body: 'Your Greendale house may be from 1955, but the water heater’s label gives the date that counts. A dry tank with a worn thermocouple, gas valve or anode rod is a repair. Once the tank body leaks or the bottom rusts through, it’s a replacement, and we quote that beside any repair that still makes sense so you can choose. In older basements a new tank often means a new shutoff valve or vent connector too; we tell you before adding anything. Tankless is there if you ask about it, and we won’t push it.',
       },
     ],

@@ -32,7 +32,7 @@ export const mountCarmel: LocationServiceCopy = {
         body: 'Try these before you schedule anything: thermostat on heat with new batteries, the furnace switch on, the breaker reset, and a clean filter in the slot. Then check that the front door of the furnace is seated, since a loose panel trips a safety switch on most models. If heat returns, keep your money. Call us if the furnace short-cycles, the igniter glows without lighting, or a breaker won’t stay set. With a gas smell, go outside, touch no switches, and call the gas company from there. A carbon monoxide alarm means get everyone out first. We test, explain, quote a flat price and confirm the heat.',
       },
       {
-        title: 'Repair or Replace Your Mount Carmel Furnace?',
+        title: 'Repair or Replace Your Furnace in Mount Carmel?',
         body: 'Go by the furnace you own, not the year on the deed. Lots of 1970s Mount Carmel homes swapped out the original long ago, so yours may be younger than the house, and a worn pressure switch or tired inducer on it is money well spent. A split in the heat exchanger ends the conversation: carbon monoxide can escape through it, so we turn that furnace off and leave it off. All-electric homes get the same honest look at elements and blower. If you go new, we take care of the permit. Watch the bill too; higher heating costs in a steady month mean the furnace is slipping.',
       },
     ],

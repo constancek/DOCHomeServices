@@ -32,7 +32,7 @@ export const california: LocationServiceCopy = {
         body: 'Try the simple things before calling. Make sure the thermostat says heat. Fit a clean filter. Check the breaker for the outdoor unit and the one for the indoor furnace or air handler. Clear leaves, snow and ice away from the outdoor unit’s sides. When it defrosts you’ll see steam and some frost, and the fan may stop for a few minutes; leave it be. If the heat comes back, you don’t need us. Call when the ice never clears, the unit won’t switch out of cooling, or there’s a grinding noise outside. If you smell gas or propane, leave the house and call from outside.',
       },
       {
-        title: 'Repair or Replace Your California Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in California?',
         body: 'Weigh it on the heat pump itself, not on when the house was built. California’s houses are mostly mid-century, but the heat pump outside may be far newer, and a bad fan motor or defrost control on it is worth fixing. A refrigerant leak or a failed compressor on an older unit is when we price replacement next to repair. Flood exposure matters too; equipment that sat in water may not be worth saving. Since the furnace covers for a weak heat pump, a gas or propane bill climbing in an ordinary month is often the first clue.',
       },
     ],

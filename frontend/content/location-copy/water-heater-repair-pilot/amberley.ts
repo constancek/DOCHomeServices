@@ -32,7 +32,7 @@ export const amberley: LocationServiceCopy = {
         body: 'Try the simple fixes before you book. A full house of guests or long showers can use up the tank; wait for it to recover. Check that no one changed the temperature dial. An electric heater may just need its breaker reset, and a gas heater’s supply valve should be open. If you smell no gas, a pilot that went out can be relit following the label. We should come out for water pooling beneath the tank, popping and rumbling, rotten-egg-smelling water, a relief valve that discharges again, or a pilot that won’t stay lit. We find the cause, give you a flat rate to approve and test the result.',
       },
       {
-        title: 'Repair or Replace Your Amberley Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Amberley?',
         body: 'Go by the heater’s label, which shows when it was installed. A house from 1960 can easily have a heater from the last few years. Thermocouples, gas valves, elements, thermostats, relief valves, anode rods and dip tubes are repairs on a tank that holds water. Once water seeps from the tank body, the heater needs replacing. We quote the repair and a new heater side by side, and the choice is yours. Financing is available for a replacement. Tankless comes up sometimes; we’ll price it if you want, but a tank swap is usually simpler.',
       },
     ],

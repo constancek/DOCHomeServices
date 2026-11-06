@@ -36,7 +36,7 @@ export const wintonHills: LocationServiceCopy = {
         body: 'Tenants can rule out a few things without opening any equipment: the thermostat should be on heat, and a tripped breaker in a reachable panel is worth resetting once. Owners can also change the filter and clear snow or trash from around the outdoor unit. Light frost and steam with the fan paused is a defrost cycle, not a fault. If heat comes back, nobody needs us. If not, CMHA residents file a work order and private tenants notify the landlord in writing. Owners can send us when the coil stays iced or the aux heat light never goes out. We explain the fault and price it first.',
       },
       {
-        title: 'Repair or Replace Your Winton Hills Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Winton Hills?',
         body: 'For an owner, the heat pump’s own date matters, not the building’s, which here often goes back to the 1940s or 1950s. A sound unit with a bad capacitor, contactor or fan motor is worth repairing. An older unit with a seized compressor or a leak that keeps returning is where we price repair and replacement together, because each breakdown leaves a tenant without heat. Replacement work in the city needs a permit from Cincinnati Buildings & Inspections, and we pull it. A failing heat pump also shows up on the Duke Energy bill, wherever the owner pays for heat.',
       },
     ],

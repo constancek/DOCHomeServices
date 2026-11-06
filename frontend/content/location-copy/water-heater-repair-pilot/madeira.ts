@@ -32,7 +32,7 @@ export const madeira: LocationServiceCopy = {
         body: 'Rule out the quick fixes first. A Madeira house that just had several showers back to back may only need the tank to recover. Look at the dial, confirm the gas valve is open, and check the breaker on an electric heater. A pilot that went out can be relit by the steps on the label, as long as there’s no gas odor. If hot water returns, you don’t need us. Call when water gathers under the tank, comes out rusty, the side relief valve lets go more than once, or the tank pops and rumbles. We quote before we repair.',
       },
       {
-        title: 'Repair or Replace Your Madeira Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Madeira?',
         body: 'Judge the water heater by its rating plate, which shows the install date, not by the 1950s house around it. A gas valve, thermocouple, relief valve, anode rod or dip tube can be replaced on a tank that holds water, and when the tank is otherwise sound that’s usually the better buy. Once the tank itself leaks, only a replacement will do; we quote one next to any repair so you can compare and decide. We discuss tankless only if you raise it. Where a permit is needed, we pull it.',
       },
     ],

@@ -32,7 +32,7 @@ export const owensville: LocationServiceCopy = {
         body: 'Small tanks run out fast, so if several people just showered, give it time. A dial that got turned down is quick to check, and so is a tripped breaker on an electric model. On gas, a closed supply valve stops everything. Those are cases where you don’t need us. Lukewarm water from an electric heater is different, and so is rotten-egg smelling hot water or water on the floor under the tank. Call for those. Tenants report problems to the landlord rather than opening panels. On a visit we test the heater, explain what failed and give a flat price before any repair.',
       },
       {
-        title: 'Repair or Replace Your Owensville Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Owensville?',
         body: 'Check the heater’s data plate instead of guessing from the building. An Owensville apartment with 1970s walls may hold a tank installed far more recently. On electric heaters, elements and thermostats get swapped; on gas units, thermocouples and gas valves do. Relief valves, anode rods and dip tubes are routine parts as well. Once the tank shell itself seeps, nothing short of a new heater works. Owners see a repair figure and a replacement figure per unit and decide. Tankless can be priced, but it isn’t something we push.',
       },
     ],

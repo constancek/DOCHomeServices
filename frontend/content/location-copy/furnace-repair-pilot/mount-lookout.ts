@@ -32,7 +32,7 @@ export const mountLookout: LocationServiceCopy = {
         body: 'Plenty of Mount Lookout no-heat calls clear up before we arrive. The thermostat may have flipped to cool or run its batteries flat. In these basements the furnace power switch usually sits on a beam or the stair wall, and the breaker can trip after a storm. A filter caked with dust can shut things down, and the burner door has to sit tight or a safety switch keeps the furnace off. Fix one of those and heat returns? No visit needed. Smell gas: walk out, touch no switches, and call the gas company from the yard. With a CO alarm sounding, everyone leaves first. We diagnose, price, then retest.',
       },
       {
-        title: 'Repair or Replace Your Mount Lookout Furnace?',
+        title: 'Repair or Replace Your Furnace in Mount Lookout?',
         body: 'Read the furnace label, not the house date. A 1938 house may be on a furnace installed only a few winters back, and a bad igniter, flame sensor or inducer on a unit that young is a straightforward fix. A cracked heat exchanger changes everything, because carbon monoxide can slip through it into the living space; we won’t leave that furnace running. One that spent hours underwater in July is often safer replaced than rebuilt. The City of Cincinnati Department of Buildings & Inspections issues the permit for a new unit, and we take care of it. A gas bill creeping up each winter is often the first hint.',
       },
     ],

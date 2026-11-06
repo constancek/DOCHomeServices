@@ -32,7 +32,7 @@ export const madeira: LocationServiceCopy = {
         body: 'Run through a few checks first. The thermostat should be on heat with good batteries, and the switch near the furnace, often on a basement ceiling joist, should be on. Check the breaker, swap in a clean filter and close the furnace door properly, since a loose door stops many furnaces. If that restores heat, you don’t need us. Any smell of gas changes the plan: don’t flip a switch or relight, just leave and call the gas company once you’re outdoors. Call us when the burners light and quit, the furnace smells hot, or it cycles on and off. We inspect, price it for approval, and test after.',
       },
       {
-        title: 'Repair or Replace Your Madeira Furnace?',
+        title: 'Repair or Replace Your Furnace in Madeira?',
         body: 'The house’s age doesn’t decide this. A 1955 Madeira house may hold a furnace installed recently, and a worn inducer motor or a bad pressure switch on that one is a straightforward repair. A cracked heat exchanger changes everything, because it can put carbon monoxide into the rooms you live in. We shut the furnace off and explain your options before money comes up. A replacement goes on a City of Madeira permit, and we file it. Meanwhile, compare this winter’s gas use with last winter’s. A furnace burning more gas in similar weather is losing ground.',
       },
     ],

@@ -36,7 +36,7 @@ export const stBernard: LocationServiceCopy = {
         body: 'Some St. Bernard no-heat calls end before we arrive. Make sure the thermostat reads heat, not cool or off. Hold the filter up to a light; if you can’t see through it, replace it. Owners of a double should open the panel for their own side, find the outside unit’s breaker and the air handler’s breaker, and switch back any that tripped. Leaves or snow packed around the outside unit should come away. Defrost looks odd but is fine: steam, a light frosting, the fan resting briefly. Warm air again means no visit needed. Ice on the coil all day, or grinding, means call us, and the price comes first.',
       },
       {
-        title: 'Repair or Replace Your St. Bernard Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in St. Bernard?',
         body: 'Let the heat pump decide, not the house. A St. Bernard house from 1955 may have a heat pump fitted only a few years ago, and a bad contactor or a worn outdoor fan motor on that is a repair. When the compressor fails or refrigerant keeps leaking from an older unit, we quote a replacement next to the repair and handle the county permit. Old ducts sized for a gas furnace can starve a heat pump of air, so we measure before blaming the unit. A Duke Energy bill that jumps without a cold snap usually means backup heat is carrying the house.',
       },
     ],

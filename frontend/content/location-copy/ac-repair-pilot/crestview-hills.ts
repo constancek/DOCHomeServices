@@ -32,7 +32,7 @@ export const crestviewHills: LocationServiceCopy = {
         body: 'Change the filter and reset the breaker one time. If cool air comes back and holds, you have no reason to book us. Condo and townhome owners should also learn whether the association covers the outdoor unit before paying anyone. Call us once the indoor coil frosts over or that breaker trips again. A system running all afternoon while the thermostat reading never drops needs attention too. Our technician checks both sides of the system, points out the part that failed and gives a flat price for your okay before starting. We make sure it’s cooling properly before we head out.',
       },
       {
-        title: 'Repair or Replace Your Crestview Hills AC?',
+        title: 'Repair or Replace Your AC in Crestview Hills?',
         body: 'The outdoor unit’s date matters more than the home’s age. Plenty of Crestview Hills systems are already second-generation, and some of those are aging now. Repair a newer unit when one part goes. For an older system with a failed compressor or coil, we put a replacement quote beside the repair quote. Attached homes usually keep the new unit in the same tight space, so we check sizing and clearance early and ask about association rules. The county issues the replacement permit, and we file for it. Until then, summer Duke Energy Kentucky bills creeping higher year after year often point to a dirty coil or slow leak.',
       },
     ],

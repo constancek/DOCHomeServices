@@ -32,7 +32,7 @@ export const northgate: LocationServiceCopy = {
         body: 'A heat pump house gets one extra check before anything else: the thermostat should read cool, not heat or emergency heat. After that, a new filter and a look at the outdoor breaker. Chilled air returning means there’s nothing to pay for. Call us if the outdoor unit stays quiet while the thermostat is calling, or frost covers the coil in July. Residents of the big complexes should go through the management office. When we come out, we test the heat pump or condenser, show you the failure and quote one flat amount, starting only on your approval. We check vent temperatures before we go.',
       },
       {
-        title: 'Repair or Replace Your Northgate AC?',
+        title: 'Repair or Replace Your AC in Northgate?',
         body: 'A Northgate house built around 1969 may have gone through two or three outdoor units already, so trust the equipment label over the house’s age. Heat pumps work through winter too, which means they rack up running hours faster than an AC that rests half the year. Repair a young unit that lost one component. Swap out an aging heat pump once its compressor or reversing valve gives up, and leave the permit paperwork to us. Until you decide, a low-charge heat pump leans on backup electric strips in winter and runs for hours in summer, and both habits land on the Duke Energy Ohio bill.',
       },
     ],

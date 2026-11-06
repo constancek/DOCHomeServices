@@ -32,7 +32,7 @@ export const hebron: LocationServiceCopy = {
         body: 'In a Hebron house, start with the thermostat: it should read heat. Replace a gray filter. Your panel has a breaker for the outside unit and another for the air handler or furnace; both should be on. Keep the condenser free of snow and leaves. A cloud of steam, a thin frost layer and a fan that stops for a few minutes all belong to defrost. Heat back on means you can skip the service call. Call us for a coil locked in ice, a reversing valve stuck on cooling, or grinding from the outdoor unit.',
       },
       {
-        title: 'Repair or Replace Your Hebron Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Hebron?',
         body: 'Judge the heat pump, not the house. A Hebron home built in 2004 may still have its first outdoor unit, or it may have a replacement from a few years ago; the label tells you which. On a newer unit, a bad contactor or defrost board is a straightforward repair. A refrigerant leak or a failed compressor on an original 2000s unit is where we put a repair price next to a replacement price. We handle the permit on a replacement. A unit that’s losing ground shows up on the electric bill first, as the backup strips run longer each week.',
       },
     ],

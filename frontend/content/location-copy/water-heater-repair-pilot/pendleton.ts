@@ -32,7 +32,7 @@ export const pendleton: LocationServiceCopy = {
         body: 'A tank drained by a morning of showers isn’t broken; it refills and heats a new batch within the hour. Before booking, peek at the temperature knob, the breaker that feeds an electric unit and the gas handle, which should run parallel to the pipe. With a cold pilot and no gas odor, relighting by the printed label is fine. Pooled water under the heater, brownish hot water, a relief valve that has opened more than once or scorching near the burner opening calls for a technician. We look, explain and have your price approved before work.',
       },
       {
-        title: 'Repair or Replace Your Pendleton Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Pendleton?',
         body: 'A Pendleton building may be well past its hundredth year while the heater in its basement is fairly recent, so the label date is what counts. Bad thermocouples, gas controls, electric elements, thermostats, relief valves, anodes and dip tubes are swapped while the tank stays. Water escaping through the tank wall means the heater itself has failed and must come out. We price repair and replacement and the owner picks. Old rowhouse basements here often need the vent and shutoff valves brought up to date with a new tank, and we pull the permit where one is needed.',
       },
     ],

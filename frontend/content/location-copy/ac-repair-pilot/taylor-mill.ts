@@ -32,7 +32,7 @@ export const taylorMill: LocationServiceCopy = {
         body: 'Three things cost nothing to try in a Taylor Mill house. Swap in a new filter. Lower the cooling setpoint until it sits a few degrees beneath what the room reads now. Then find the AC breaker in the panel and reset it once. Heat pump owners can also confirm nobody switched it to emergency heat. Cold air inside five minutes means no appointment. Our turn comes when the condenser hums yet its blade never spins, or the breaker refuses to hold. We check both units, show you what failed, and work only after you okay the price. Before leaving, we compare supply and return air with you.',
       },
       {
-        title: 'Repair or Replace Your Taylor Mill AC?',
+        title: 'Repair or Replace Your AC in Taylor Mill?',
         body: 'Find the manufacture date on the condenser’s plate; the house’s age is a poor guide. A 1950s Taylor Mill house has almost surely replaced its air conditioner, while a 1990s one could still run its first. Young equipment with one bad part earns a repair. Aging equipment whose compressor has seized, or whose coil keeps bleeding refrigerant, rarely does, and a heat pump also carries your winter heat, so weigh that before patching. For a replacement, Planning and Development Services of Kenton County (PDS) issues the Kentucky permit, and we pull it. A summer electric bill climbing while your routine hasn’t changed often means a leak.',
       },
     ],

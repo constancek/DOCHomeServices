@@ -32,7 +32,7 @@ export const southLebanon: LocationServiceCopy = {
         body: 'You may not need us at all. A busy morning can run a South Lebanon tank dry, and it’s hot again once it catches up. A box shoved against the heater can turn the dial down. Electric tanks need their breaker on, gas tanks their supply valve open, and a pilot should be relit from the label only with no gas odor. Water on the floor, a relief valve that keeps opening, sulfur or rust in the water, popping from sediment, or a pilot that keeps dying are reasons to call. We inspect, explain, price it for your yes, and test the hot water after.',
       },
       {
-        title: 'Repair or Replace Your South Lebanon Water Heater?',
+        title: 'Repair or Replace Your Water Heater in South Lebanon?',
         body: 'The age of the house won’t tell you much; the install date on the water heater’s label will. Many South Lebanon tanks arrived with houses built after 2000 and are getting near the end. If the steel is dry and just the gas valve, an element or the anode rod failed, it’s a repair. Water coming through the tank shell means a new heater. We quote both so you can weigh them, and we pull the permit where one is needed. Tankless is there if you want to ask about it; nobody will push it.',
       },
     ],

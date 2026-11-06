@@ -32,7 +32,7 @@ export const cuf: LocationServiceCopy = {
         body: 'Rule these out first. The thermostat needs to say heat. A grey filter should come out. At the panel, the outdoor unit and the indoor air handler each have a breaker; flip a tripped one back once. Rake leaves off the outdoor unit. Steam or thin frost during defrost is part of normal running. Heat back on means no visit, though a tenant should still let the landlord know. Owners should book us when the coil stays caked in ice, the aux heat light won’t go dark, the system is stuck in one mode, or the outdoor fan scrapes. You see the price before repairs.',
       },
       {
-        title: 'Repair or Replace Your CUF Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in CUF?',
         body: 'Base it on the equipment, not the year on the house. Plenty of Fairview homes built before 1940 now have a fairly new heat pump, and when a capacitor or fan motor quits on one of those, we fix it. In a 1970s building with aging units, a dead compressor or a coil that won’t hold refrigerant is when we write up a repair price and a replacement price together. Replacing means a city mechanical permit, which we pull. Watch the Duke Energy Ohio bill in all-electric apartments too: backup strips covering for a weak heat pump push it up, and the first sign is often a tenant complaint.',
       },
     ],

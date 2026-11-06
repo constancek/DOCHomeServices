@@ -32,7 +32,7 @@ export const finneytown: LocationServiceCopy = {
         body: 'Plenty of Finneytown calls turn out to be a setting, not a failure. On a heat pump, the thermostat has to read cool, because auto or heat will keep it blowing warm. Next, change a gray filter and give a tripped breaker a single reset. Cold air within thirty minutes means no visit is needed. Bring us in when the condenser drones but its blades won’t turn, or the heat pump pushes warm air through July. Our technician checks both units, walks you through what failed, and holds off until you okay a flat price. Afterward we read the supply temperature to confirm the fix.',
       },
       {
-        title: 'Repair or Replace Your Finneytown AC?',
+        title: 'Repair or Replace Your AC in Finneytown?',
         body: 'A Finneytown house from 1959 has probably gone through a few systems, so check the manufacture date stamped on the outdoor unit. Newer equipment with a single failed motor or electrical component is a repair. An older condenser whose compressor has died, or a heat pump that has logged many winters and started leaking, is time to price a new one. Have it sized to your ducts rather than copied from the old tonnage. We handle the permit when you replace. Meanwhile an undercharged system runs longer for the same comfort, and your Duke Energy Ohio statement climbs.',
       },
     ],

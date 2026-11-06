@@ -32,7 +32,7 @@ export const independence: LocationServiceCopy = {
         body: 'Newer Independence houses often have a programmable or smart thermostat, so start there: cool mode, and no schedule or eco setting overriding you. Put in a clean filter and switch the AC breaker off and on one time. Cool air again means no visit is needed. Bring in a technician if that breaker flips a second time, if the condenser hums with a stalled fan, or if frost forms on the fat copper line outside. We examine the indoor and outdoor halves, explain the failure in plain words, and quote one fixed price for your okay. Once repaired, a thermometer at a register shows you the result.',
       },
       {
-        title: 'Repair or Replace Your Independence AC?',
+        title: 'Repair or Replace Your AC in Independence?',
         body: 'Go by the date on the equipment. In Independence that date is often close to the house’s, since a 1999 or 2005 house may still run the system the builder put in. That equipment is now old enough that each repair should be weighed against the next one. One failed part on a sound unit is worth fixing. A worn compressor or a leaking coil points toward replacement. The City of Independence is its own building and HVAC inspector for homes up to three stories, so the city issues the replacement permit, and we file it. A system running longer each afternoon usually shows up first on the electric bill.',
       },
     ],

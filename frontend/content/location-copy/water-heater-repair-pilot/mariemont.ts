@@ -32,7 +32,7 @@ export const mariemont: LocationServiceCopy = {
         body: 'Some Mariemont calls end before we park. Weekend guests can drain a tank, and patience refills it. The dial on the front may have been nudged toward warm. Gas tanks need their supply handle lined up with the pipe; with no odor in the basement, a dead pilot can be relit using the printed steps on the jacket. Electric ones need their circuit on in the panel. Past that, book us for a puddle that keeps coming back, brown hot water, a relief valve that has let go twice, or soot and scorching around the burner door. We find the cause and you approve the price first.',
       },
       {
-        title: 'Repair or Replace Your Mariemont Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Mariemont?',
         body: 'The tank’s label matters more than the house’s age. A 1930s home on a village street may have had its heater changed a few years ago, and a worn thermocouple, a sticking control valve, burned elements or a snapped dip tube are all repairs. Steel that leaks through its own wall can’t be patched, so that tank gets replaced. We write up both figures when both are honest options, and the call is yours. Hamilton County Public Health issues the plumbing permit; we handle the paperwork. Tankless fits some houses, and we’ll quote it if you want the comparison.',
       },
     ],

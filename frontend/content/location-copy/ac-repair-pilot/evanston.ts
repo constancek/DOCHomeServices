@@ -32,7 +32,7 @@ export const evanston: LocationServiceCopy = {
         body: 'A warm second floor in Evanston doesn’t always mean something is broken. Ducts laid out before 1940 for heat alone often can’t carry enough cold air upstairs, and no repair will change that. Swap the filter, confirm the thermostat says cool, and flip a tripped breaker back one time. Then partly close a few first-floor registers and see if upstairs improves. Get a technician out if the outdoor fan won’t turn, frost forms along the refrigerant piping, or water pools by the furnace. Ours tests the system, shows you the cause and puts a flat rate in front of you before anything is fixed.',
       },
       {
-        title: 'Repair or Replace AC in a Pre-1940 Evanston House?',
+        title: 'Repair or Replace AC in a Pre-1940 House in Evanston?',
         body: 'Let the equipment’s age decide, not the house’s. A condenser younger than a dozen years that lost one part, say a capacitor or contactor, should be fixed. Past that, a seized compressor or an R-22 system that needs a recharge points to replacement. Gas heats most Evanston homes, so a new outdoor unit depends on the furnace that moves its air. Check the furnace’s age and blower before you buy, or the new AC may cool no better than the old one. Until then, a grimy outdoor coil quietly lengthens every cooling cycle on the Duke Energy Ohio meter.',
       },
     ],

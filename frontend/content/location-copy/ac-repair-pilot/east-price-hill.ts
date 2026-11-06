@@ -32,7 +32,7 @@ export const eastPriceHill: LocationServiceCopy = {
         body: 'Two fixes cost nothing: a clean filter and a single breaker reset. If the AC cools again, you’re done, and you don’t need us. If the breaker trips a second time, leave it off, since repeat trips usually point to a failing capacitor or compressor. Ice on the copper line, water on the basement floor beside the furnace, or a condenser fan that never spins all mean it’s time for a technician. Renters should tell the landlord before booking. We test the outdoor unit and the indoor coil, name the failed part and wait for your approval of a flat-rate price.',
       },
       {
-        title: 'Repair or Replace Your East Price Hill AC?',
+        title: 'Repair or Replace Your AC in East Price Hill?',
         body: 'The equipment’s age settles it. A unit younger than about 10 years with a single failed part is worth fixing, and one past 12 to 15 years with a dead compressor usually isn’t. A replacement needs a city mechanical permit, which Cincinnati expects the contractor to pull. On Warsaw Avenue between Hawthorne and Purcell, the local historic district reviews exterior changes, so we confirm the condenser’s placement with the city before moving it. Short of replacement, keep an eye on the Duke Energy Ohio bill. A slow leak or a clogged coil adds run time long before the rooms feel any warmer.',
       },
     ],

@@ -32,7 +32,7 @@ export const cherryGrove: LocationServiceCopy = {
         body: 'Plenty of cold showers in Cherry Grove don’t need a technician. A tank emptied by a full house in the morning just needs time to reheat. Someone may have turned the dial down while cleaning around it. Check the breaker if your heater is electric, and the gas handle if it’s gas. A pilot that blew out can be relit from the printed steps, but never with a gas odor present. Call us when water pools at the base, popping and rumbling start, the side valve keeps letting go, or the pilot won’t stay lit. We show you the fault and price it before repair.',
       },
       {
-        title: 'Repair or Replace Your Cherry Grove Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Cherry Grove?',
         body: 'A Cherry Grove house from 1971 tells us little; the date on the heater’s sticker tells us a lot. If the tank holds water and one part has worn out, such as a thermocouple, a gas control, an element or the side valve, we repair it. Rust-colored water often means a spent anode rod, also a repair. Water seeping out through the tank wall is the one problem with no repair. We give you both prices side by side, and the choice is yours, including whether the old shutoff gets replaced too.',
       },
     ],

@@ -32,7 +32,7 @@ export const northFairmount: LocationServiceCopy = {
         body: 'Start at the furnace, because in most North Fairmount homes its fan pushes the cold air through the house. A clogged filter there starves the coil, so put in a fresh one and let the system run sixty minutes on cool. Check the breaker too. Cool rooms after that mean no visit is needed. Tenants should let the landlord know before booking. A technician is worth it when the outside unit buzzes with a motionless fan, or frost forms on the pipe entering the condenser. We inspect furnace, coil and condenser together, explain the cause, and agree a flat-rate price with you ahead of the work.',
       },
       {
-        title: 'Repair or Replace Your North Fairmount AC?',
+        title: 'Repair or Replace Your AC in North Fairmount?',
         body: 'Start with the manufacture date on the condenser’s label. A machine still in its first decade that lost a capacitor or fan motor deserves the repair. One in its teens with the compressor gone is usually cheaper to replace over time, and a replacement here is permitted through Cincinnati’s Buildings & Inspections office. Check the furnace too. Gas heat is the norm in North Fairmount, and pairing a new condenser with a tired furnace fan leaves upstairs rooms short of air. Grime in the outdoor fins or a pinhole leak adds run time to the Duke Energy Ohio bill, and a garden hose clears the fins with the power off.',
       },
     ],

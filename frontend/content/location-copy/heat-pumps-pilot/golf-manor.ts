@@ -32,7 +32,7 @@ export const golfManor: LocationServiceCopy = {
         body: 'Tenants and owners can check a few things. Make sure the thermostat is on heat. Pull the filter and replace it if it’s caked with dust. Each heat pump has two breakers, one outside and one for the indoor air handler, so check both. In a building with several outdoor units, find the one with your apartment number and clear snow from around it. Steam, light frost and a fan that stops briefly are defrost, not a fault. If heat comes back, you don’t need a repair. Otherwise, renters report it to the landlord. Owners, call us for persistent ice, a stuck auxiliary heat light or a silent outdoor fan.',
       },
       {
-        title: 'Repair or Replace Your Golf Manor Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Golf Manor?',
         body: 'Decide on the heat pump itself. A building from the 1950s may have outdoor units of very different ages, so we read each label. A failed capacitor, fan motor or defrost control on a unit in good shape is a repair. A refrigerant leak or a compressor failure is where landlords get two prices side by side, one to repair and one to replace. Watch the electric bills for each apartment, too. One that spikes in an ordinary winter month usually means the backup strips are doing work the heat pump should be doing.',
       },
     ],

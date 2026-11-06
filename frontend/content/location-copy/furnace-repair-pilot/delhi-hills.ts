@@ -32,7 +32,7 @@ export const delhiHills: LocationServiceCopy = {
         body: 'Run through a short list first. Set the thermostat to heat, above room temperature, with new batteries. Make sure the power switch beside the furnace is on. Check the breaker panel, then the filter. Close the furnace door firmly, because a loose door stops many units from starting. When heat returns after one of those, there’s no need to book us. Do call if the electric furnace knocks its breaker out again or the gas burner can’t stay lit. Gas smell in a Delhi Hills house? Leave switches untouched, get outdoors and call the gas company. Our tech tests, quotes for your approval and runs a heat cycle afterward.',
       },
       {
-        title: 'Repair or Replace Your Delhi Hills Furnace?',
+        title: 'Repair or Replace Your Furnace in Delhi Hills?',
         body: 'Read the furnace label, not the house’s age. Plenty of 1970s Delhi Hills houses have furnaces much newer than their walls. A worn igniter or a burned-out electric element is an ordinary repair on a healthy unit. A cracked heat exchanger on gas heat changes things: carbon monoxide can escape through the crack, so we shut that furnace down and discuss replacing it, permit included. Before it gets that far, watch the bills. A gas or electric bill that rises while the weather stays steady usually means the furnace is running longer than it should.',
       },
     ],

@@ -32,7 +32,7 @@ export const downtown: LocationServiceCopy = {
         body: 'First find out who owns the equipment. If your building cools apartments from a central plant its own engineers run, building maintenance is the right first contact, and you don’t need us. If the unit has its own heat pump or air handler, make sure the filter behind the return grille is clean and the thermostat is on cool. When cold air doesn’t come back within an hour, or water shows up near the closet, tell management and book a visit. The technician inspects the equipment inside your unit and quotes a flat rate that you, or your landlord, approve before any work.',
       },
       {
-        title: 'Repair or Replace Your Downtown AC?',
+        title: 'Repair or Replace Your AC in Downtown?',
         body: 'Downtown housing splits sharply by age. Many units are in buildings from before 1940, and a large share are in buildings finished since 2010, with little in between. A system in one of the newer buildings is likely young enough that repairing the failed part is the right answer. In older buildings, equipment past 12 to 15 years with a dead compressor is usually worth replacing, which needs a City of Cincinnati mechanical permit and the building’s sign-off. Because most units heat with electricity, a worn heat pump also pushes up the Duke Energy Ohio bill in January, not just in July.',
       },
     ],

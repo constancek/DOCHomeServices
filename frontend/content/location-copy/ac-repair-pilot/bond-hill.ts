@@ -32,7 +32,7 @@ export const bondHill: LocationServiceCopy = {
         body: 'Two minutes of checking may spare a visit. Put the thermostat on cool, below the current room reading, and slide a fresh filter into the return grille. A tripped breaker gets one reset. If chilled air follows, you have your answer and no need of us. In a Bond Hill double, confirm that thermostat controls your side. Bring in a technician if a puddle forms beside the furnace or the condenser drones while its fan stays put. A breaker that keeps tripping says the same. We trace the cause, show you the worn part and agree a flat price, then read the supply temperature at a register.',
       },
       {
-        title: 'Repair or Replace Your Bond Hill AC?',
+        title: 'Repair or Replace Your AC in Bond Hill?',
         body: 'Age settles most of it. Equipment under roughly a dozen years old that lost one part, say a contactor, earns the repair. A seized compressor in an older condenser rarely does, nor does an R-22 system, since the EPA says no new R-22 has been produced or imported nationally since 2020. In a 1940s house the duct sizes matter as much as the equipment, so we measure airflow before suggesting a size. We also confirm which permits a replacement needs at your address. Until then, grime on the outdoor fins lengthens every run, and the Duke Energy Ohio meter keeps counting.',
       },
     ],

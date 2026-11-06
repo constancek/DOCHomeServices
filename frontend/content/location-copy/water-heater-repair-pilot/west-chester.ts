@@ -32,7 +32,7 @@ export const westChester: LocationServiceCopy = {
         body: 'Before booking, rule out the easy stuff. After several showers back to back, the tank simply needs time to heat a fresh load. A storage box can knock the dial lower, an electric heater’s breaker can trip, and someone working nearby may have closed the gas handle. With the pilot out and no gas odor, relight it by the instructions on the label. We’re the next step for a wet base, hot water smelling of sulfur, loud popping as it heats, or black marks around the burner opening. You hear what failed and approve a flat rate before we fix it.',
       },
       {
-        title: 'Repair or Replace Your West Chester Water Heater?',
+        title: 'Repair or Replace Your Water Heater in West Chester?',
         body: 'Read the install date on the heater’s label rather than guessing from the house, because a 1985 West Chester home may have a heater far younger than its walls. Small failures, like a worn thermocouple, a sticking gas control, a burned element, a dead thermostat, a weeping relief valve, an eaten-away anode or a split dip tube, are repairs we finish on the visit. Water coming through the tank’s steel wall is different: that heater is done. We write up a price for both routes, and the call is yours. We pull the permit where one is needed, and tankless only comes up if you raise it.',
       },
     ],

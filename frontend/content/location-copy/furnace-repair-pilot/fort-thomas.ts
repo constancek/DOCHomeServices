@@ -32,7 +32,7 @@ export const fortThomas: LocationServiceCopy = {
         body: 'Make sure the thermostat is calling for heat and its batteries work. Look for the service switch near the furnace, since in a busy Fort Thomas basement someone may have bumped it, then the breaker. Change a clogged filter, and seat the blower door properly; many furnaces stay off while it’s loose. If heat returns, that’s the end of it. Book us when the burner keeps dropping out, the blower roars or the breaker won’t stay on. At the first smell of gas, go outside without touching anything electrical and ring the gas company. If carbon monoxide alarms go off, get out, then call.',
       },
       {
-        title: 'Repair or Replace Your Fort Thomas Furnace?',
+        title: 'Repair or Replace Your Furnace in Fort Thomas?',
         body: 'In Fort Thomas the house might date to the 1920s while the furnace in its basement is a recent install, so the furnace label decides. A newer unit with a failed igniter, pressure switch or inducer motor should be repaired. An older one facing a heat exchanger or a stack of pricey parts gets a replacement quote set beside the repair quote. If the heat exchanger has cracked, exhaust and carbon monoxide can reach the rooms upstairs, and we leave the furnace off until it’s swapped. Older furnaces venting through a chimney get a flue check as well. The city permit for a new furnace is ours to file.',
       },
     ],

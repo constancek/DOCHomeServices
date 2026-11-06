@@ -32,7 +32,7 @@ export const coldSpring: LocationServiceCopy = {
         body: 'Some Cold Spring winter calls sort themselves out. Confirm the thermostat reads heat. Hold the filter up to a lamp; if no light comes through, replace it. The outdoor unit and the air handler each have a breaker, so make sure neither has flipped. Clear patio snow off the outdoor coil. Steam, thin frost and a fan resting a few minutes mean it’s defrosting, which is normal. Call us when ice won’t melt off, the auxiliary heat light never goes out, heating is stuck on cooling, or the outdoor fan grinds or sits still. We diagnose, quote the fix for your yes, and test it running.',
       },
       {
-        title: 'Repair or Replace Your Cold Spring Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Cold Spring?',
         body: 'Base it on the heat pump’s own condition. Plenty of Cold Spring units went in with houses built after 2000, so many are still the first heat pump the house has had. A worn contactor, capacitor or fan motor on a sound system is worth fixing. A compressor failure or a refrigerant leak in the coil is the larger decision, and we lay out repair and replacement prices together so you can weigh them. In an all-electric house the power bill tells you a lot: when the strips carry the load instead of the heat pump, usage climbs fast without any change in the weather.',
       },
     ],

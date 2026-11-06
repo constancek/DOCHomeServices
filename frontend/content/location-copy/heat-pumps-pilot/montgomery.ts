@@ -36,7 +36,7 @@ export const montgomery: LocationServiceCopy = {
         body: 'A few things are worth checking yourself. The thermostat should be on heat; on cool or off, neither the heat pump nor the furnace runs. A filter clogged with dust slows the blower, so change it. Check both breakers, outside and in. Pull leaves and snow back from the outdoor unit. Frost, steam and a short fan stop are defrost. If that sorts it, you don’t need us. In Montgomery, the sign we hear most is a furnace running constantly on a mild day, which usually means the heat pump has quit. We inspect, explain and quote before starting.',
       },
       {
-        title: 'Repair or Replace Your Montgomery Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Montgomery?',
         body: 'Look at the heat pump, not the age of the house. Plenty of 1970s Montgomery houses have much newer heat pumps, and a failed fan motor or defrost board on one is a straightforward repair. A dead compressor or a leak that keeps coming back changes the math, and we quote both ways. Because the gas furnace covers for a weak heat pump, a rising gas bill is often the first sign that something is wrong outside. Replacements need a permit, which we handle for you.',
       },
     ],

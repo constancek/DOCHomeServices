@@ -32,7 +32,7 @@ export const linwood: LocationServiceCopy = {
         body: 'Run through the basics first. Thermostat on heat with batteries that work; the service switch on, which in many old basements looks like a light switch at the foot of the stairs; breaker up; filter not caked; blower door seated so its safety switch closes. Any one of those can be the whole problem, and then you won’t need a visit. Smell gas, and you leave the switches and burners alone, walk out, and phone in the leak from the sidewalk. If the furnace fires and quits, a breaker trips again, or vents blow cold, book us. We test, show you the failed part, and repair it after you approve.',
       },
       {
-        title: 'Repair or Replace Your Linwood Furnace?',
+        title: 'Repair or Replace Your Furnace in Linwood?',
         body: 'Your house may be close to a century old, but its furnace probably isn’t, and the furnace is what you’re deciding on. A bad igniter, pressure switch or inducer motor on a newer unit gets repaired. A crack in the heat exchanger flips the answer, since exhaust carrying carbon monoxide can slip into the airstream; we call that a safety failure before a cost question. If the detector goes off, everyone out first, phone second. Swapping a furnace here also means checking the old chimney, because a modern unit may need a liner or new vent. Gas bills rising through a steady winter are an early warning.',
       },
     ],

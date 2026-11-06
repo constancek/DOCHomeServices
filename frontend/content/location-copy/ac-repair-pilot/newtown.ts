@@ -32,7 +32,7 @@ export const newtown: LocationServiceCopy = {
         body: 'Try the simple fixes before you pay anyone. Slide in a new furnace filter, see that the thermostat says cool, and if the AC breaker tripped, flip it once. Cold air returning means you can skip us. Glance at the basement condensate pump too and make sure its plug is in. Book a visit when the condenser fan sits motionless, frost coats the larger refrigerant line, or the house never cools during a long afternoon run. Our technician tests each piece of the system, points out what broke, and quotes one fixed price for you to accept. Once repaired, we take register temperatures to prove it.',
       },
       {
-        title: 'Repair or Replace Your Newtown AC?',
+        title: 'Repair or Replace Your AC in Newtown?',
         body: 'The date on the condenser label decides it, not the date on the house. A Newtown home built before 1940 might carry an outdoor unit installed five summers ago that deserves the repair, and a 1990s house might still run its original. Fix a young system with one broken component. Replacement makes sense when an aging compressor fails or the coil above an old furnace springs a leak. We file the permit for any replacement. Meanwhile, low refrigerant stretches every run time, and summer electric bills climb to match.',
       },
     ],

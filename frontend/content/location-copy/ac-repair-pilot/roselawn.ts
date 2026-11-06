@@ -32,7 +32,7 @@ export const roselawn: LocationServiceCopy = {
         body: 'Run three checks before anyone books a visit. Thermostat on cool, breaker panel untripped, filter swapped where the lease permits. Cold air again means no visit. Roselawn tenants who still have warm air should tell the landlord which apartment is affected, since a fourplex may have a separate outdoor unit for each apartment. Landlords should send us when an outdoor fan won’t spin, the suction line frosts up, or the closet unit starts dripping. The resident learns what we found, and the owner signs off on one flat figure.',
       },
       {
-        title: 'Repair or Replace Your Roselawn AC?',
+        title: 'Repair or Replace Your AC in Roselawn?',
         body: 'A 1965 building can easily hold a much newer condenser, so the equipment’s nameplate date is what counts. Fix a newer unit when a single part has quit. Retire an old one when its compressor fails or its coil can’t hold a charge. For landlords with four units, recording every nameplate date on one visit makes it easier to plan replacements over a few summers. Electric heat is common in Roselawn, and a struggling heat pump wastes power in winter as well as summer, which shows on Duke Energy Ohio bills.',
       },
     ],

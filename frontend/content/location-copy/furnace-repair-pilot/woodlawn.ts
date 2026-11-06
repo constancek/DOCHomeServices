@@ -32,7 +32,7 @@ export const woodlawn: LocationServiceCopy = {
         body: 'Start with the simple things. Set the thermostat to heat and put in fresh batteries, check the furnace switch and the breaker, swap a dirty filter, and press the furnace door closed, because a loose panel keeps many furnaces off. If that fixes it, you don’t need us. Tenants should report anything past that to management rather than opening the furnace. Call when the breaker trips again, the air stays cool, or the furnace starts and shuts off within minutes. If you smell gas, don’t flip switches; get out and call the gas company from outside. We inspect, explain the fault, get the price approved and test the heat after.',
       },
       {
-        title: 'Repair or Replace Your Woodlawn Furnace?',
+        title: 'Repair or Replace Your Furnace in Woodlawn?',
         body: 'Judge the furnace itself, not the building. 31.9% of Woodlawn homes went up in 2000 or later, but a newer building can still have a furnace that has worked hard. Most failures, an element or a pressure switch or an igniter, are repairs. A cracked heat exchanger on a gas furnace is a safety problem first, since it can let carbon monoxide into the home. If a CO alarm sounds, get everyone out, then call. On electric heat, a jump in the Duke Energy bill without colder weather often means elements, or a heat pump’s backup heat, are running more than they should.',
       },
     ],

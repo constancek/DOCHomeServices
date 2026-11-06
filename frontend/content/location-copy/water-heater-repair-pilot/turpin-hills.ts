@@ -32,7 +32,7 @@ export const turpinHills: LocationServiceCopy = {
         body: 'Start with the simple stuff. A house full of guests can drain the tank, so wait for it to reheat. See whether the temperature dial was turned down or the gas valve was switched off during other basement work. Electric heaters need their breaker on. If the pilot is out and you smell no gas, the label on the tank shows how to light it. We’re worth calling when the pilot won’t stay lit, the hot water runs rusty, scorch marks show around the burner door or water is collecting under the tank. We find the fault and quote it before any repair.',
       },
       {
-        title: 'Repair or Replace Your Turpin Hills Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Turpin Hills?',
         body: 'Read the heater’s label for its install date, because a house from 1977 tells you nothing about the tank inside it. A worn thermocouple, gas valve, thermostat or anode rod is a repair, and so is a dip tube that has broken apart. When water seeps from the tank wall or seams, the tank is finished and replacement is the answer. We price both on the same visit and leave the decision to you. Hamilton County Public Health handles plumbing permits in Anderson Township, and we take care of that permit when a replacement needs one. Tankless is there if you ask; we won’t push it.',
       },
     ],

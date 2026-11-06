@@ -32,7 +32,7 @@ export const corryville: LocationServiceCopy = {
         body: 'Tenants can rule out a few things before putting in a maintenance request. The thermostat should be set to heat with live batteries. Electric furnaces and heat pumps draw a lot of current, so check the unit’s panel for a tripped breaker. Where the lease makes the filter your job, swap it, and check that the furnace cover is shut tight; most units stay off with it loose. If heat returns, no visit is needed. A gas smell means leaving the lights alone, relighting nothing and calling the gas company from the sidewalk. Anything else goes to management, and we inspect, explain and get the price approved before work.',
       },
       {
-        title: 'Repair or Replace Your Corryville Furnace?',
+        title: 'Repair or Replace Your Furnace in Corryville?',
         body: 'The owner makes this call, and the furnace itself should drive it, not the building. Equipment in a newer apartment block may be original, while a pre-1940 house down the street can have a furnace only a few winters old. A single bad part usually justifies a repair; a unit that keeps failing earns a replacement quote, and owners get both figures. In a gas furnace, a cracked heat exchanger can release carbon monoxide, so safety decides it. When a CO alarm goes off, clear the unit first. Any permit Buildings & Inspections requires for a replacement is ours to take care of.',
       },
     ],

@@ -32,7 +32,7 @@ export const goshen: LocationServiceCopy = {
         body: 'Some Goshen calls get solved before we pull in. A tank drained by a busy morning recovers once it reheats. A knocked dial, a tripped electric breaker or a shut gas valve takes a minute to fix yourself. A gas pilot that went out may be relit per the label, provided there’s no gas odor. We’re needed for rusty hot water, popping and rumbling, a wet floor under the tank, or a pilot that won’t hold. We test, tell you straight what broke and price it before work.',
       },
       {
-        title: 'Repair or Replace Your Goshen Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Goshen?',
         body: 'The heater decides, not the house. Its data plate shows the install date, and a 1950s Goshen house near the crossroads can have a younger tank than a 1990s place out in the township. Thermocouples, gas valves, elements, thermostats, relief valves, anode rods and dip tubes can each be swapped alone. Water coming through the tank body ends the heater’s life. Mobile homes need a replacement rated for manufactured housing, and our quote reflects that. Repair and replacement prices arrive together, and the choice stays yours.',
       },
     ],

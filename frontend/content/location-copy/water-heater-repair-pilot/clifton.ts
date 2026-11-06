@@ -32,7 +32,7 @@ export const clifton: LocationServiceCopy = {
         body: 'Plenty of Clifton cold-tap calls end before we arrive. A tank emptied by a morning of showers recovers on its own if you leave it alone. Someone may have nudged the dial on the gas control or the electric thermostat. Electric units also go dead on a tripped breaker. On gas units, look for a closed supply valve or a dark pilot; the label on the tank walks you through relighting, as long as there’s no gas odor. We’re needed for a puddle at the base, popping and rumbling, sulfur-smelling hot water, a pilot that refuses to hold, or scorching around the burner. Diagnosis first, then a flat price.',
       },
       {
-        title: 'Repair or Replace Your Clifton Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Clifton?',
         body: 'Read the label on the heater, not the date over the front door. Clifton’s buildings are mostly older than 1940, but the tank inside is usually far younger, and a failed thermocouple, dip tube or relief valve on it is worth fixing. Once water weeps from the tank body, the lining has failed and the heater needs replacing. We quote repair and replacement together, so you choose with both numbers in front of you. On a replacement we also look over the flue connection and the shutoff valve, because a new heater on a corroded vent is a problem waiting to happen.',
       },
     ],

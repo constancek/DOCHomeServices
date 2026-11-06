@@ -32,7 +32,7 @@ export const glendale: LocationServiceCopy = {
         body: 'Swap in a new filter, make sure the setting reads cool, and flip a tripped breaker back on, but only once. Once the house begins cooling, you can skip us. With an attic unit, also look at its drain pan, since an overfull one may trip a float switch or drip into plaster. Get us out when the fan on the condenser won’t move, or frost returns to the coil a day after the new filter. Our technician checks the attic and outdoor equipment, points to the broken part, and starts once you agree a price. Afterward we run it until the upstairs rooms start to drop.',
       },
       {
-        title: 'Repair or Replace Your Glendale AC?',
+        title: 'Repair or Replace Your AC in Glendale?',
         body: 'Go by the age printed on the condenser, not the year the house went up. If the equipment is young and only one part has given out, repair it. When an aging unit’s compressor quits or its coil leaks, a replacement usually earns its cost, and the new system has to fit ducts squeezed into an older house. Inside the historic district, the preservation commission must approve any exterior change, so we check with the village before relocating a condenser. We handle the permit as well. Until then, a short-charged system runs longer each afternoon, and the electric bill shows it.',
       },
     ],

@@ -32,7 +32,7 @@ export const erlanger: LocationServiceCopy = {
         body: 'Begin with the filter and the breaker, since both cost nothing to inspect. Should a clean filter plus one reset restore cold air, skip the service visit. Erlanger renters ought to notify the landlord before booking anyone. Schedule us once ice builds on the indoor coil, the breaker trips again, or the system grinds through a whole afternoon while rooms stay stuffy. Our technician tests the condenser and the indoor coil, points out what failed and commits to a flat figure before starting. Supply air gets measured at the registers before we pack up.',
       },
       {
-        title: 'Repair or Replace a 1970s Erlanger AC?',
+        title: 'Repair or Replace a 1970s AC in Erlanger?',
         body: 'An Erlanger house from 1976 has almost certainly outlived its first air conditioner, so trust the nameplate on the outdoor unit rather than the deed. When that unit is younger than about 12 years and a capacitor or fan motor gave out, fix it. An older system whose compressor has died usually justifies replacement, permitted through PDS of Kenton County. Many of these older homes still have their original ducts, so we confirm they can move a new system’s airflow. Until then, grime on the coil or a pinhole leak stretches every cooling cycle, and Duke Energy Kentucky charges for those extra minutes.',
       },
     ],

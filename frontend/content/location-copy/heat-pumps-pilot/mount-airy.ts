@@ -36,7 +36,7 @@ export const mountAiry: LocationServiceCopy = {
         body: 'A handful of Mount Airy calls fix themselves once someone looks. Confirm the thermostat reads heat. If the lease puts the filter on you and it’s gray, put a new one in. The panel holds two breakers for this system, outdoor unit and air handler. Sweep snow and leaves off the outdoor cabinet. Frost on the coil, a puff of steam and a fan that idles mean defrost. If warmth returns, you don’t need us, though management should still hear about it. A coil that stays iced, an emergency heat light that won’t clear or a fan that won’t spin calls for us; you get the price first.',
       },
       {
-        title: 'Repair or Replace Your Mount Airy Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Mount Airy?',
         body: 'The heat pump decides this, not the building. Mount Airy complexes often have outdoor units of the same age, so when one fails, the others may not be far behind. One failed part on a sound unit is a repair. A dead compressor or a recurring refrigerant leak is when we quote replacement next to repair, and owners with several matching units can plan ahead. If heating costs rise in a normal month, the backup strips are probably carrying the load. We handle the permit for replacements.',
       },
     ],

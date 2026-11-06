@@ -32,7 +32,7 @@ export const hartwell: LocationServiceCopy = {
         body: 'In Hartwell, rule out a few things first. Showers back to back can outrun any tank; it catches up on its own. Look for a dial knocked low, a tripped breaker on an electric unit, or a gas valve someone closed. With the pilot out and no gas odor in the room, follow the relight steps printed on the sticker. What needs us: water around the base, rust-colored or sulfur-smelling hot water, a relief valve that lets go twice, a pilot that won’t catch, or black soot marks at the burner. We inspect, price it, fix it and test the taps before we go.',
       },
       {
-        title: 'Repair or Replace Your Hartwell Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Hartwell?',
         body: 'The heater decides this, not the house. Find the install date on the tank’s sticker; a 1949 Hartwell house may well hold a tank only a few years old. Relief valves, gas controls, dip tubes, elements, thermocouples, anode rods and thermostats are repairs. A tank leaking through its own steel needs replacing. In older basements we look at the flue and the shutoff while we’re there, since both affect a new install. You see the repair price and the replacement price together and pick, with no pressure from us.',
       },
     ],

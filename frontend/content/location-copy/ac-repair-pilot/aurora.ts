@@ -32,7 +32,7 @@ export const aurora: LocationServiceCopy = {
         body: 'Rule out the easy stuff first: a dirty filter or a tripped breaker. When a fresh filter or a reset puts cold air back in the rooms for good, there’s no need for us. Phone us if the breaker won’t stay on, or the condenser buzzes and its fan blade doesn’t move. Tenants in Aurora’s two-family and fourplex buildings should go to the owner, who makes the repair call. Our technician tests the furnace and the condenser, then asks for your okay on a flat price. When we finish, we read the temperature coming out of the vents.',
       },
       {
-        title: 'Repair or Replace Your Aurora AC?',
+        title: 'Repair or Replace Your AC in Aurora?',
         body: 'The age that matters is the condenser’s, not the house’s. A pre-1940 Aurora house can have a unit installed a few years ago, and a new contactor or blower motor on that one is money well spent. A system well into its second decade with a failed compressor usually isn’t. Replacements need a building permit from the Dearborn County Building Department, and we file it. Before that point, watch the electric bill. A dirty outdoor coil or a slow leak makes the compressor run longer, and you see it on the bill in a month when the weather didn’t change.',
       },
     ],

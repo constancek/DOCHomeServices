@@ -32,7 +32,7 @@ export const millvale: LocationServiceCopy = {
         body: 'Tenants can save everyone a wait with a few checks. The thermostat should be on heat with a lit screen, and new batteries solve a lot of calls. The furnace breaker in the panel should be on, and the filter shouldn’t be packed with dust. On a gas unit, the switch beside the furnace should be up and the panel door seated tight. If that brings heat back, no repair is needed. For a gas smell, leave without touching switches and call the gas company once you’re outside. If a CO alarm sounds, get everyone out first. Real faults get diagnosed, explained to the owner, priced for approval and tested.',
       },
       {
-        title: 'Repair or Replace Your Millvale Furnace?',
+        title: 'Repair or Replace Your Furnace in Millvale?',
         body: 'The furnace decides this, not the building. Millvale housing runs from the 1950s to the 1980s and later, and the heating inside may be far newer than the walls. A newer electric furnace with a failed element, sequencer or blower motor is worth repairing. On gas units, a cracked heat exchanger is a carbon monoxide hazard before it’s a cost question, and we shut the furnace off until it’s replaced. For landlords with several units, a furnace that fails the same way every winter is the one to replace first. We handle the permit when a replacement is needed.',
       },
     ],

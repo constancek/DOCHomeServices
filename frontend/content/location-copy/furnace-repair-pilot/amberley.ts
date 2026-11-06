@@ -32,7 +32,7 @@ export const amberley: LocationServiceCopy = {
         body: 'Amberley owners can rule out the small stuff in a few minutes. The thermostat should read heat, with batteries that aren’t dying. Most basements here have a light-style switch on the wall by the furnace; it has to be up, and the breaker can’t be tripped. A grey filter goes in the trash. The blower door needs to sit snug, or many furnaces refuse to start. Heat back after that, and there’s nothing for us to do. Short cycling, burners that won’t hold a flame, or a bang at ignition are worth a call. When a carbon monoxide alarm goes off, take everyone outdoors and phone from there.',
       },
       {
-        title: 'Repair or Replace Your Amberley Furnace?',
+        title: 'Repair or Replace Your Furnace in Amberley?',
         body: 'Look at the furnace, not the year the house was finished. Many 1950s Amberley homes have a gas furnace only a few seasons old, and a bad igniter, inducer motor or control board in one of those deserves a repair. A cracked heat exchanger changes the question from cost to safety, because carbon monoxide can get into the living space through it, so that unit should come out. We write up both numbers together and take care of any permit a new furnace requires. A gas bill climbing through an ordinary winter, or rooms that never hit the setpoint, can mean the furnace is wearing out.',
       },
     ],

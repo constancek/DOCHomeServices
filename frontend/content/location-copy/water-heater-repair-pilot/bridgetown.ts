@@ -32,7 +32,7 @@ export const bridgetown: LocationServiceCopy = {
         body: 'Four checks come before a Bridgetown service call. Give the tank time if the household just ran several showers. See that the temperature setting is where you left it. On an electric heater, look for a tripped breaker; on gas, make sure the supply valve is open, and relight a blown-out pilot by the label if you smell nothing. Call us for rust in the hot water, rumbling, a wet floor under the tank, or a relief valve that has discharged more than once. We find the cause, explain it, agree a flat price with you and run the hot water to prove it.',
       },
       {
-        title: 'Repair or Replace Your Bridgetown Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Bridgetown?',
         body: 'The house being from 1955 says nothing about the heater, so start with the date on its label. Worn thermocouples, gas valves, elements, thermostats, relief valves, anode rods and dip tubes get repaired. A tank leaking through its own shell gets replaced, since the leak can’t be patched. We show you the repair price and the replacement price together, and you pick. If the basement venting or gas fitting needs updating for a new heater, that goes into the same quote, along with the permit. We won’t sell you a tankless unit you didn’t ask about.',
       },
     ],

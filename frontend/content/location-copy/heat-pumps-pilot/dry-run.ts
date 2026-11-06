@@ -32,7 +32,7 @@ export const dryRun: LocationServiceCopy = {
         body: 'First, the thermostat should read heat, not cool or off. A filter gone grey with dust gets swapped. Two breakers feed the system, one for the outdoor unit and one for the air handler inside; flip back any that tripped. Keep fall leaves off the sides of the unit and shovel winter snow back from it. Steam off the coil, a thin coat of frost and the fan going quiet for a few minutes all mean it is defrosting. We are needed when ice stays packed on the unit, the fan sits still or you hear grinding. We quote the fix flat before starting.',
       },
       {
-        title: 'Repair or Replace Your Dry Run Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Dry Run?',
         body: 'Decide by the heat pump, not the house. A Dry Run home built in 1986 may be on its second outdoor unit, and a failed capacitor or contactor on that one is worth repairing. A refrigerant leak or a compressor that won’t run is the moment we lay a replacement price next to the repair price. In a dual fuel house, a failing heat pump shows up on the gas bill, because the furnace ends up running in weather the heat pump should cover. Financing is available for replacements.',
       },
     ],

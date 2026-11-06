@@ -32,7 +32,7 @@ export const riverside: LocationServiceCopy = {
         body: 'Apartment closets in Riverside hold small tanks, and a few showers back to back can run one dry; give it time. A dial bumped by whatever is stored beside the heater is common too. If the unit is electric, look at its breaker. If it burns gas, confirm the supply valve is open and the pilot burning, and relight only by the label with no gas odor. After a high river, leave a basement heater off until it’s checked. We’re needed for water collecting under the tank, rust in the hot water, or lukewarm water from electric. Renters tell the landlord. We test, price and retest.',
       },
       {
-        title: 'Repair or Replace Your Riverside Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Riverside?',
         body: 'Decide on the heater, not the building it sits in. Its label gives the year. Pilot parts, gas controls, electric elements and thermostats, relief valves and anode rods are each replaced on their own, which costs less than a new tank when the shell is sound. A leak from the shell means rust has gone through, and replacement follows. A heater that sat in floodwater is checked part by part. Both prices come before you choose. Riverside is in the City of Cincinnati, where the Department of Buildings & Inspections covers permits, and we pull one where it’s needed.',
       },
     ],

@@ -32,7 +32,7 @@ export const walnutHills: LocationServiceCopy = {
         body: 'If several people just showered, give the tank a while; it refills hot by itself. Closet installs get their temperature dials knocked by vacuums and storage boxes all the time. A tripped breaker shuts an electric unit off cold, so look in the panel. For gas, the supply valve should be open; relight the pilot from the label, never with a gas odor about. Renters still tell the landlord. Book a repair once the tank drips, the relief valve on its side lets go more than once, or the hot water stinks. We price it before touching it.',
       },
       {
-        title: 'Repair or Replace Your Walnut Hills Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Walnut Hills?',
         body: 'Read the heater’s label, not the building’s cornerstone. A Walnut Hills building from the 1890s may hold a heater put in a few years ago, and a dead element, thermostat, anode rod or relief valve on it is a repair. A tank leaking from its own body is finished, and a new heater is the fix. Owners see both prices before deciding. In stacked apartments, we also check the drain pan and whether the leak has reached the floor below. A heater that keeps needing parts is worth pricing against replacement.',
       },
     ],

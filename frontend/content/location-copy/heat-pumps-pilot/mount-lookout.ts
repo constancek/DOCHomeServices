@@ -36,7 +36,7 @@ export const mountLookout: LocationServiceCopy = {
         body: 'Mount Lookout owners can rule out a lot themselves. A thermostat bumped to cool or off reads as a broken system, so put it back on heat. Swap a filter that blocks light. Heat pumps need two circuits, outside and in, and a tripped one may be reset a single time. Sweep snow or wet leaves off the outdoor coil. A defrost cycle throws off steam and a dusting of frost while the fan sits still for a few minutes. Warm air afterward means you can skip the call. Ice that won’t leave or an aux heat light glowing all day is a fault we price before fixing.',
       },
       {
-        title: 'Repair or Replace Your Mount Lookout Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Mount Lookout?',
         body: 'A 1938 house says nothing about the heat pump bolted to it, so read the outdoor unit’s label for its install year. On a younger Mount Lookout system, a pitted contactor or a dead defrost sensor gets fixed and you move on. Refrigerant escaping from a coil, or a compressor that has locked up, is a different conversation; on an older unit we put the replacement cost next to the repair cost and you pick. With dual fuel, a tired heat pump gives itself away when the furnace keeps lighting on mild days.',
       },
     ],

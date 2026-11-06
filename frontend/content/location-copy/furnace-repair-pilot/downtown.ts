@@ -32,7 +32,7 @@ export const downtown: LocationServiceCopy = {
         body: 'Renters, tell building management first; in most Downtown buildings the owner decides who repairs the heat. For owners, a few checks can save a visit. Confirm the thermostat is on heat with good batteries and set above room temperature. Check the unit’s breaker, the switch by the furnace or air handler, and the filter, and make sure the access panel is fully closed, because many units won’t run with it loose. If that restores heat, you don’t need us. Call when the breaker trips again or the air stays cool. With gas heat, a gas smell means leave, touch no switches and call the gas company from outside.',
       },
       {
-        title: 'Repair or Replace Your Downtown Cincinnati Furnace?',
+        title: 'Repair or Replace Your Furnace in Downtown Cincinnati?',
         body: 'Judge the equipment, not the building. A unit in a pre-1940 Downtown building can have an air handler put in a few years ago, while one in a newer tower can still run on its original equipment. A burned-out element or a failed blower motor is usually a straightforward repair. In gas-heated buildings, a cracked heat exchanger is a carbon monoxide hazard, so we turn that furnace off and price a replacement. A replacement needs a mechanical permit from the Department of Buildings & Inspections, and we file it. Watch your Duke Energy bill too: electric heat that runs nonstop shows up there first.',
       },
     ],

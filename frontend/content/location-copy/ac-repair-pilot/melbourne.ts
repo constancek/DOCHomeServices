@@ -32,7 +32,7 @@ export const melbourne: LocationServiceCopy = {
         body: 'Some cooling problems in a Melbourne house are settled in a few minutes. Put in a new filter, make sure the thermostat is on cool, and reset a tripped breaker once; older houses often share circuits, so note what else went dark. Pull back leaves or vines crowding the outdoor unit. If cool air comes back, don’t pay for a visit. Call when that breaker won’t stay on or the condenser hums but its fan sits still. We inspect the indoor blower and the outdoor unit, then explain the fault with a flat price attached. Once you agree, we repair it and test it through a full cycle.',
       },
       {
-        title: 'Repair or Replace Your Melbourne AC?',
+        title: 'Repair or Replace Your AC in Melbourne?',
         body: 'Trust the date on the equipment label. A prewar Melbourne house says nothing about a condenser that may have gone in last year. When a newer unit loses one part, fix it. When an older unit’s compressor is worn out, it usually isn’t worth the money, especially if the ducts never suited the house, and a replacement is the moment to correct them. State law requires a permit for that swap, and we submit it to the county. In an electrically heated house, a heat pump on its way out raises the Duke Energy Kentucky bill summer and winter.',
       },
     ],

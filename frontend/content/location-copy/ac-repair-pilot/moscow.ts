@@ -32,7 +32,7 @@ export const moscow: LocationServiceCopy = {
         body: 'Swap the filter, put fresh batteries in the thermostat and reset the breaker before you pick up the phone. If cold air returns, you don’t need us. Call when the breaker won’t stay on or the unit outside hums with a motionless fan. In Moscow’s older houses, also look at where the copper lines enter the wall; oily residue there usually means a refrigerant leak. Our technician checks both units and explains the fault in plain words. You approve a flat-rate price before work begins, and we test the air at the vents once the repair is done.',
       },
       {
-        title: 'Repair or Replace Your Moscow AC?',
+        title: 'Repair or Replace Your AC in Moscow?',
         body: 'Judge the equipment, not the house. A Moscow house built before 1940 can have a heat pump that’s only a few years old, and that unit deserves a repair when a capacitor or fan motor fails. An old system with a dead compressor usually doesn’t. Clermont County Building Inspection issues the replacement permit. For homes in the floodplain, a swap may also need a county flood permit; that isn’t settled, so we check before we schedule. Short of that, watch your electric bill. If it rises in an ordinary month, a dirty coil or a slow leak is usually why.',
       },
     ],

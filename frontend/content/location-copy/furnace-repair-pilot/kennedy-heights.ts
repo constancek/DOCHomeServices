@@ -32,7 +32,7 @@ export const kennedyHeights: LocationServiceCopy = {
         body: 'Checking first can save the visit. Put the thermostat on heat and give it fresh batteries. In a duplex, find the right furnace, then check its wall switch and breaker. A filter packed with dust makes the furnace overheat and shut itself off, so put in a clean one. The front panel has to sit tight, or many units refuse to start. Heat back on means you’re set. Gas smell: leave without flipping switches or relighting anything and phone the gas company once outside. A carbon monoxide alarm means everyone out first. Beyond that, we find the failed part and fix it at the price you approved.',
       },
       {
-        title: 'Repair or Replace Your Kennedy Heights Furnace?',
+        title: 'Repair or Replace Your Furnace in Kennedy Heights?',
         body: 'Look at the furnace, not the building. A Kennedy Heights house from before 1940 may have a furnace put in a few winters ago, and a bad igniter or draft motor on that one is a straightforward repair. A cracked heat exchanger is another matter. It can push carbon monoxide into the living space, so we shut it down and recommend replacement. The city’s Department of Buildings & Inspections handles permits here, and we file ours. Between visits, your Duke Energy Ohio bill is worth watching: an electric furnace whose elements cycle constantly shows up there first.',
       },
     ],

@@ -32,7 +32,7 @@ export const eastWestwood: LocationServiceCopy = {
         body: 'Some cold-apartment calls need no technician. Look at the thermostat: heat is the setting you want, and a mode of cool or off explains a lot. A filter caked with dust starves the coil, so swap it. The outdoor condenser and the indoor air handler run on separate breakers; flip back whichever tripped. Rake leaves or snow off the outdoor cabinet. In a defrost the cabinet gives off vapor and its fan rests briefly, by design. Once heat returns, you don’t need us. Phone us when ice covers the coil and won’t melt, or something grinds. We inspect, name the fault and quote before touching it.',
       },
       {
-        title: 'Repair or Replace Your East Westwood Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in East Westwood?',
         body: 'Read the date on the heat pump, because the building’s age tells you little. Plenty of 1950s rentals here have a unit installed only a few years back, and when its contactor wears out or its defrost board fails, we simply fix it. Once an older unit is leaking refrigerant or the compressor has quit, the owner should weigh a repair quote against a replacement quote, and we supply both. In an all-electric apartment, a Duke Energy bill that jumps in a normal month usually means backup strips are carrying the load. Tenants should flag that to the owner, since it tends to come before a full breakdown.',
       },
     ],

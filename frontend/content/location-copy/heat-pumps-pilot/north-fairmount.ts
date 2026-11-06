@@ -36,7 +36,7 @@ export const northFairmount: LocationServiceCopy = {
         body: 'If your heat pump stops heating, try four things before booking. Set the thermostat to heat. Replace a dirty filter. Reset either breaker if one has tripped; there’s one outdoors and one for the air handler. Clear leaves, snow and ice from around the outdoor unit. Remember that defrost looks alarming but isn’t: a few minutes of steam, frost and a stopped fan is normal. Those steps bring heat back often enough that you may not need us. Tenants should still let the landlord know. Book a repair when ice coats the coil for hours, the emergency heat light won’t clear or you hear grinding.',
       },
       {
-        title: 'Repair or Replace Your North Fairmount Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in North Fairmount?',
         body: 'Look at the label on the heat pump, not the year the house went up. Plenty of North Fairmount houses are close to a century old with a heat pump far younger. A failed fan motor, capacitor or reversing valve solenoid is usually worth repairing. Compressor failure and refrigerant leaks that keep coming back are the big calls, and we price replacement next to repair so the owner can choose. If the outdoor unit has died, backup heat takes over and the electric bill shows it within a month. On a replacement, we take care of the permit. Financing is available.',
       },
     ],

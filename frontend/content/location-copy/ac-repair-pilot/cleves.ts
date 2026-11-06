@@ -32,7 +32,7 @@ export const cleves: LocationServiceCopy = {
         body: 'Plenty of Cleves calls turn out to need no technician at all. Dust-caked filters starve a system of air, so put in a new one and give it an hour. See that the thermostat reads cool and its batteries aren’t dead. A dark outdoor unit gets one breaker reset, never two. Book us if that breaker flips again or frost coats the copper line. Vent air no colder than the room means the same. We go over both units and explain the failure. You approve a flat price first, and when we’re done, we put a thermometer in the supply vent.',
       },
       {
-        title: 'Repair or Replace Your Cleves AC?',
+        title: 'Repair or Replace Your AC in Cleves?',
         body: 'Cleves has prewar houses with condensers bought last decade and 2005 houses still on their original, so the house’s age misleads. Read the data plate. Equipment in its first ten years with one bad component earns a repair. Older equipment with a dying compressor or a coil that leaks again and again earns a replacement, and in a gas home it pays to ask the furnace’s age at the same visit. Replacements need a permit, and we handle it. Before a breakdown, a summer electric bill that jumps without any change in how you live often signals a system slipping.',
       },
     ],

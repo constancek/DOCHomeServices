@@ -32,7 +32,7 @@ export const miamitown: LocationServiceCopy = {
         body: 'A Miamitown tenant can settle two things before reporting a fault. Set the thermostat on cool and drop it a few degrees below what the room reads, and if your lease allows, change the filter. Cold air within an hour means you’re done. Report it when the indoor fan blows but the air stays warm. Report water pooling below the air handler, or a breaker that won’t hold after a single reset. Once the owner hires us, we check the equipment inside and out and describe the fault without jargon. No repair happens until the owner agrees to a fixed price. Afterward, a thermometer at the vents proves the fix.',
       },
       {
-        title: 'Repair or Replace Your Miamitown AC?',
+        title: 'Repair or Replace Your AC in Miamitown?',
         body: 'Each Miamitown apartment unit carries its own age on a data plate, and that date matters more than the building’s. One 1970s block can hold condensers from three different decades. A heat pump under ten with one dead part gets fixed. One deep into its teens with a failing compressor usually gets swapped, and owners with a row of same-age units often come out ahead replacing them on a plan. Heat pumps that also heat apartments rack up hours faster than units that only cool. We handle the permit on replacements. Climbing electric use with no change in habits usually means a tired system.',
       },
     ],

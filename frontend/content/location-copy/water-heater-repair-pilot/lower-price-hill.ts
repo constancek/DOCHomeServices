@@ -32,7 +32,7 @@ export const lowerPriceHill: LocationServiceCopy = {
         body: 'An 1800s apartment in Lower Price Hill usually has a small tank, and a few showers drain it; let it recover. Someone may have turned the front dial down. With an electric heater, look at the breaker. With gas, look for a closed supply valve or a pilot that went out, relighting by the label only if the closet smells clean. Tenants tell the landlord either way. Owners should call us for a puddle under the tank, rust-colored hot water, a relief valve that won’t stop going off, or lukewarm water from an electric unit. We find it, price it, fix it once approved and check the taps.',
       },
       {
-        title: 'Repair or Replace Your Lower Price Hill Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Lower Price Hill?',
         body: 'Look at the label on the heater, not the 1850s date on the building. A thermocouple, gas valve, element, thermostat, relief valve or anode rod can be swapped, and on a sound tank that repair is usually the sensible call. A leak from the body of the tank means the tank is done. Owners get the repair price and the replacement price together. In tight closets we check clearance and venting before a new heater goes in. The neighborhood is in the City of Cincinnati, so the Department of Buildings & Inspections covers permits, and we pull one where needed.',
       },
     ],

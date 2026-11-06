@@ -32,7 +32,7 @@ export const deerPark: LocationServiceCopy = {
         body: 'Set the thermostat on a Deer Park dual fuel system to heat; cool or off won’t warm anything. A dirty filter should go. There are two breakers to look at, the outdoor unit’s and the air handler’s inside. Clear shoveled snow and blown leaves away from the outdoor unit. Steam, a light frost or a fan that stops for a few minutes is defrost at work. If one of those checks brings the heat back, skip the call. Ring us when ice stays packed on the coil, emergency heat won’t switch off, or the outdoor fan won’t turn. We find it, explain it, get your yes on price and test.',
       },
       {
-        title: 'Repair or Replace Your Deer Park Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Deer Park?',
         body: 'The house’s age matters less than the heat pump’s. Lots of Deer Park homes are still on their first heat pump, bolted onto a gas furnace that came earlier, and a worn contactor or defrost sensor on it gets repaired. A coil that leaks or a compressor that won’t start is when you see a replacement price next to the repair price. Duke Energy bills give it away: a weak heat pump pushes work onto the furnace, so gas use rises in an ordinary winter month. Replacements can be financed.',
       },
     ],

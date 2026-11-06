@@ -32,7 +32,7 @@ export const mountHealthy: LocationServiceCopy = {
         body: 'Five minutes of checking can save a visit. Put the thermostat on heat and change its batteries. Find the switch on or beside the furnace and make sure it’s on, then look at the breaker panel. Pull the filter, and if you can’t see light through it, replace it. Finally, push the furnace door until it seats, because many units won’t run with it loose. Heat back on means you don’t need us. Call when it isn’t, or when the furnace keeps cycling on and off. If you smell gas, leave first and phone the gas company from outside. We diagnose, quote a flat price, repair and test.',
       },
       {
-        title: 'Repair or Replace Your Mount Healthy Furnace?',
+        title: 'Repair or Replace Your Furnace in Mount Healthy?',
         body: 'Go by the furnace itself. A Mount Healthy house from the 1950s has probably had its furnace replaced at least once, so the one you have may be in good shape apart from a bad igniter, limit switch or blower motor, all normal repairs. A cracked heat exchanger is a carbon monoxide danger, so we turn that furnace off and talk about replacement. Rental owners often weigh a repair against the next few winters of service calls, and that’s a fair way to decide. We handle any permit a replacement needs. If your heating bill climbs while the weather holds steady, have the furnace checked.',
       },
     ],

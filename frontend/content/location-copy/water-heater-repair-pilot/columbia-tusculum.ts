@@ -32,7 +32,7 @@ export const columbiaTusculum: LocationServiceCopy = {
         body: 'Columbia-Tusculum households can clear a lot of cold-tap complaints alone. A string of showers empties any tank, and patience fixes it. A dial nudged toward vacation or low will do it too. Electric models stop when their breaker trips; gas models stop when the supply cock gets closed or the pilot blows out, and the pilot can be relit per the label if no gas smell is present. Phone us when there’s standing water under the heater, rust-tinted or rotten-egg hot water, crackling from sediment, or a flame that won’t stay put. Diagnosis, written price, your approval, then work.',
       },
       {
-        title: 'Repair or Replace Your Columbia-Tusculum Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Columbia-Tusculum?',
         body: 'Whether the house dates from before 1940 or after 2000, the heater’s own rating plate decides this, not the deed. Heating elements, thermostats, thermocouples and dip tubes are parts we replace on a tank that’s still sound. Steel that has rusted through and leaks from the shell can’t be welded or patched, so the tank goes. We lay out both costs and you choose. Inside city limits a replacement needs a plumbing permit from the Department of Buildings & Inspections, which we pull. We’ll discuss tankless if you ask.',
       },
     ],

@@ -32,7 +32,7 @@ export const collegeHill: LocationServiceCopy = {
         body: 'Run through a short list first. Set the thermostat to heat, with new batteries if the screen is blank. Flip on the furnace’s service switch, usually a wall switch near it, and reset any tripped breaker. A gray, packed filter needs replacing, and the furnace panel has to click fully shut or many units won’t start. If warm air comes back, you don’t need us. Call for short cycling, a hot smell or a squeal. With a gas smell, leave the switches and pilot alone, go outside and ring the gas company. You hear what failed and the price before we start, and we run the heat after.',
       },
       {
-        title: 'Repair or Replace Your College Hill Furnace?',
+        title: 'Repair or Replace Your Furnace in College Hill?',
         body: 'The furnace decides it, not the house. A 1920s College Hill home can have a furnace that is only a few years old, and an inducer motor or pressure switch on that unit is worth repairing. An older furnace that needs a major part, or keeps failing, should be priced against a new one, and we give you both numbers. A cracked heat exchanger can leak carbon monoxide, so we treat it as a safety problem, not a budget question. If your CO alarm goes off, get everyone outside first. Watch your Duke Energy Ohio bill too: an electric furnace that runs constantly shows up there.',
       },
     ],

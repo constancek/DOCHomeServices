@@ -32,7 +32,7 @@ export const newtown: LocationServiceCopy = {
         body: 'Before you book, rule out a short list. A family that just showered one after another has drained the tank, and an hour later it recovers. A gas control knob nudged toward low gives the same cold tap. Electric tanks go cold when a breaker flips. If the pilot is out and there’s no gas odor, the lighting steps are printed on the heater. What needs a technician: a puddle around the base, a rumble from the bottom of the tank, a sulfur smell at the hot tap, or the side relief valve spitting water twice. Each gets diagnosed and priced before we lift a wrench.',
       },
       {
-        title: 'Repair or Replace Your Newtown Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Newtown?',
         body: 'The tank’s age matters, the house’s doesn’t. A sticker on the side gives the install date, and a house from 1989 may be on its second heater already. Thermocouples, gas controls, anode rods, dip tubes and relief valves are all parts we change on the spot. Rust weeping from a seam or the bottom of the shell means the tank is through, and patching it would waste your money. If it’s a close call, you see a repair figure and a replacement figure together. Permits get pulled by us where the job calls for one. Tankless comes up only if you raise it.',
       },
     ],

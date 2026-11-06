@@ -32,7 +32,7 @@ export const aurora: LocationServiceCopy = {
         body: 'Plenty of Aurora heat problems clear up with these checks. The thermostat should be on heat, not cool or off. A filter clogged with dust gets swapped. Two breakers run the system, so find the outdoor unit’s and the indoor air handler’s and confirm both are on. Pull leaves, ice or snow off the outside cabinet. During defrost, expect light frost, some steam and a quiet fan for a few minutes. Once the heat returns, there’s no need to book us. Book us when ice keeps the coil buried, the auxiliary heat lamp stays on, or the fan outside never turns.',
       },
       {
-        title: 'Repair or Replace Your Aurora Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Aurora?',
         body: 'Read the date on the heat pump, not the house. An Aurora house from before 1940 may sit beside an outdoor unit just a few years old, and a worn contactor or defrost board on it gets fixed. An older system with a leak in its refrigerant circuit or a compressor that has died is where both prices go on the table. The Dearborn County Building Department issues building permits in Aurora, and we take care of that for a replacement. In an all-electric flat, a struggling heat pump tends to show up first as a far larger electric bill.',
       },
     ],

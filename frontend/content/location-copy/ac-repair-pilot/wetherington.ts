@@ -32,7 +32,7 @@ export const wetherington: LocationServiceCopy = {
         body: 'Some problems are yours to fix. Swap a dirty filter, check that the thermostat is on cool with fresh batteries, and reset the breaker once. If cooling returns, you don’t need us. Call when the breaker trips again or water collects around the furnace. Because the coil sits on the furnace in most Wetherington homes, a blower fault stops the cooling too, so we look at the furnace side on every AC call. The technician explains the cause, gives you a flat-rate price to approve, and tests the air at your vents afterward.',
       },
       {
-        title: 'Repair or Replace Your Wetherington AC?',
+        title: 'Repair or Replace Your AC in Wetherington?',
         body: 'Go by the date on the equipment. A system that went in with a 2001 house is now about 25 years old, and a failed compressor at that age usually means replacement. A newer condenser with one worn part is a sensible repair. Replacing outdoor equipment here needs a township zoning certificate and a county permit, and we handle both. Your Duke Energy Ohio bill gives early warning. A dirty outdoor coil or a slow leak keeps the compressor running longer, so a summer bill that jumps without a heat wave means something is working too hard.',
       },
     ],

@@ -32,7 +32,7 @@ export const cuf: LocationServiceCopy = {
         body: 'In a CUF rental, tenant or owner can run through a short list before anyone books a visit. Is the thermostat on heat, with fresh batteries? Is the switch beside the furnace flipped on, and has the breaker held? Is the filter clean, or did it sit through the last two tenants? Is the front panel pushed fully closed? Fix one of those and the heat returns, no technician required. Ring us when nothing changes, the furnace keeps starting and quitting, or one apartment stays cold. Smell gas? Leave switches alone, get out of the building and phone the gas company once outside. Owners approve our price before work.',
       },
       {
-        title: 'Repair or Replace Your CUF Furnace?',
+        title: 'Repair or Replace Your Furnace in CUF?',
         body: 'Look at the furnace itself, not the age of the house. Plenty of 1920s CUF two-families got a newer furnace from the landlord a few years ago, and when its igniter or blower motor quits, repair makes sense. A tired original unit needing a big part is harder to call. A cracked heat exchanger is different: that crack can feed carbon monoxide into a tenant’s rooms, so cost stops being the question. Whenever a CO alarm goes off, clear the building before anything else. On electric heat, the Duke Energy Ohio bill gives trouble away, climbing as the system runs without a break to keep a drafty apartment warm.',
       },
     ],

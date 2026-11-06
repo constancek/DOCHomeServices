@@ -32,7 +32,7 @@ export const millville: LocationServiceCopy = {
         body: 'Try the simple fixes first. Put in a clean filter, set the thermostat to cool and reset the breaker once. If that brings cold air back, you don’t need us. In older Millville houses some upstairs warmth is normal, because the ducts were added later, so one warm bedroom doesn’t mean the AC failed. Call when the breaker trips again or the outdoor fan won’t spin. The technician checks the outdoor unit and the indoor coil, explains the fault, gives you a flat-rate price to approve, and tests the vents after the repair.',
       },
       {
-        title: 'Repair or Replace Your Millville AC?',
+        title: 'Repair or Replace Your AC in Millville?',
         body: 'Look at the label on the outdoor unit. Plenty of Millville homes from the 1950s have air conditioners that are only a few years old, and one failed part on those is worth fixing. An outdoor unit well past ten years with a dead compressor usually isn’t. If you replace, we handle the permit. Short of that, watch the electric bill. In a house where the ducts are tight and the system already works hard, a refrigerant leak or a dirty coil adds a lot of run time, and the bill shows it before the rooms feel warm.',
       },
     ],

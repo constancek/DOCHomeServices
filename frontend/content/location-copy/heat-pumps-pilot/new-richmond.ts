@@ -36,7 +36,7 @@ export const newRichmond: LocationServiceCopy = {
         body: 'Plenty of New Richmond no-heat calls end at the thermostat: heat is the right mode, and cool or off leaves the compressor and strips idle. A gray filter belongs in the trash. The outdoor unit and the air handler each have a breaker, so flip back a tripped one, once. Keep snow and leaves off the outdoor coil. When the unit defrosts, a puff of steam and a little frost are part of it, and so is a quiet fan for a few minutes. Warm air afterward means you can skip us. A unit stuck cooling or a grinding outdoor fan means a booking, priced before work.',
       },
       {
-        title: 'Repair or Replace Your New Richmond Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in New Richmond?',
         body: 'Go by the heat pump, not the house. Plenty of New Richmond homes are recent, but a unit can still fail early, and the outdoor label shows its install date. A bad contactor or a defrost board on a younger unit is a repair. A compressor failure or a refrigerant leak that returns is where we price replacement beside repair, so you can see both numbers before deciding. In an all-electric house, a weak heat pump shows on the electric bill first, because the backup strips take on more of the load as it fades.',
       },
     ],

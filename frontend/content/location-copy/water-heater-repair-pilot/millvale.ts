@@ -32,7 +32,7 @@ export const millvale: LocationServiceCopy = {
         body: 'A few causes need no repair. In a Millvale townhome, back-to-back baths can drain a small tank, and it needs time to come back. A dial turned low during a move-in is common. Electric units stop on a tripped breaker in the unit panel. Gas units stop if the supply handle is shut or the pilot is out, and relighting from the printed steps is fine only with no gas odor. Tenants should report the rest instead of opening covers. Owners call us for water at the closet floor, brown or sulfur water, or popping. We test, quote, fix and check.',
       },
       {
-        title: 'Repair or Replace Your Millvale Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Millvale?',
         body: 'Each heater carries a sticker with its install year, and the age of the building won’t tell you that date. Pilot sensors, gas controls, elements, thermostats, pressure valves, anodes and inlet tubes all get swapped individually. A tank whose steel shell leaks is finished, so that one gets a new heater. Managers with many units receive a repair price and a replacement price for each, and decide unit by unit. Millvale is in the City of Cincinnati, where Buildings & Inspections permits replacement plumbing, and we file it.',
       },
     ],

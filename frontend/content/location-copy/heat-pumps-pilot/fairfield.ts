@@ -32,7 +32,7 @@ export const fairfield: LocationServiceCopy = {
         body: 'In a Fairfield split-level or apartment, a handful of quick looks settle many no-heat calls. A thermostat sitting on cool or off won’t make heat, so switch it. A filter you can’t see light through goes in the trash. The condenser and the air handler run on separate breakers; flip back whichever tripped. Kick away drifted snow or leaves from the condenser. A burst of vapor with the fan idle for a few minutes is the defrost cycle. Warm again means you can skip the call, though tenants should still report it. An aux heat light that never goes out, or ice that won’t melt off, means book us.',
       },
       {
-        title: 'Repair or Replace Your Fairfield Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Fairfield?',
         body: 'Fairfield’s median house dates to 1978, but the condenser outside could be its second or third, so check the label. A burned-out fan motor or capacitor on a recent unit gets repaired without much debate. Leaking refrigerant or a seized compressor on an older unit is the point where buying new deserves a look, and you get both figures in writing. If equipment sat in floodwater, don’t switch it back on; have it checked first. Rising electric bills in an ordinary month usually mean the backup heat is doing the heat pump’s job.',
       },
     ],

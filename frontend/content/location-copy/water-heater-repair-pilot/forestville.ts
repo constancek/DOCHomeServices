@@ -32,7 +32,7 @@ export const forestville: LocationServiceCopy = {
         body: 'Rule out the easy causes before you call. A Forestville household that just ran the washer plus several showers can drain a tank, and it simply needs time. The front dial gets knocked lower. Electric heaters sit idle with their breaker off, and gas ones with the supply handle closed. Pilot out and no gas odor? The tank’s printed instructions cover the relight. Book us when water collects under it, the pilot refuses to hold, electric heat only manages lukewarm, or the burner opening shows scorch marks. We test before quoting and again after.',
       },
       {
-        title: 'Repair or Replace Your Forestville Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Forestville?',
         body: 'What counts is the heater’s age, printed on its sticker, not the house’s. A Forestville house from 1985 may carry a fairly young tank, and a bad gas control, element or thermostat on it deserves fixing. Anode rods and dip tubes are small parts next to a whole new tank. A leak through the shell is another matter: the lining has rusted out, and only a new heater fixes that. We quote repair and replacement together and let you decide. Tankless is possible in Forestville, but we won’t push it.',
       },
     ],

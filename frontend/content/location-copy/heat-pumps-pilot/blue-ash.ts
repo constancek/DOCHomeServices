@@ -32,7 +32,7 @@ export const blueAsh: LocationServiceCopy = {
         body: 'Plenty of Blue Ash calls are solved at the thermostat. It has to say heat; cool and off leave the system idle. A clogged filter starves the air handler, so swap it. Heat pumps run on two breakers, outdoors and indoors, and a tripped one stops everything. Rake leaves or shovel snow off the outdoor cabinet. A puff of steam, a thin frost and a fan that rests briefly are just defrost. If any of that fixes it, you don’t need us. Book us when the coil stays white with ice or the emergency heat light won’t go dark. We inspect, explain the fault and price it first.',
       },
       {
-        title: 'Repair or Replace Your Blue Ash Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Blue Ash?',
         body: 'The equipment decides this, not the address. A 1980s Blue Ash house may be on its second or third heat pump, and a recent unit with a burned-out fan motor or bad defrost board deserves a repair. Things change when the compressor quits or refrigerant keeps escaping from an aging unit; that’s when you get two quotes, one to fix and one to replace. Watch the Duke Energy statement too. If it climbs while the weather is ordinary, backup heat strips are likely carrying a tired heat pump. Replacements include the permit, handled by us.',
       },
     ],

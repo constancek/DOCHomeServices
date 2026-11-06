@@ -32,7 +32,7 @@ export const owensville: LocationServiceCopy = {
         body: 'Not every Owensville AC problem needs a technician. Start with the filter, since a clogged one starves the system of air. Heat pumps are common here, so check that the thermostat isn’t set to heat or emergency heat. A tripped breaker gets one reset. If cool air comes out again, keep your money. Tenants should hand the problem to the landlord at that stage. Call for service when the breaker trips twice or frost forms on the outdoor copper. The technician finds the cause on site, talks you through it and sets a flat price before any work, then tests the system after the repair.',
       },
       {
-        title: 'Repair or Replace Your Owensville AC?',
+        title: 'Repair or Replace Your AC in Owensville?',
         body: 'An Owensville house built in 1974 may be past 50 while the heat pump on it is far younger. Read the outdoor unit’s nameplate. A newer system with one bad part, perhaps a capacitor, gets repaired. An aging heat pump with a weak compressor or repeat leaks is ready to go, since it carries the heating too. Clermont County Building Inspection permits replacements in the village, and we file for you. A heat pump on its way out raises the electric bill in summer and winter alike.',
       },
     ],

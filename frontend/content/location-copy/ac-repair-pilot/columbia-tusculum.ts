@@ -32,7 +32,7 @@ export const columbiaTusculum: LocationServiceCopy = {
         body: 'Three quick checks come before any booking: a fresh filter, the thermostat set to cool, and the breaker. If cold air returns after one of those, you don’t need us. Most homes here are lived in by their owners, so you usually make this call yourself. Bring in a technician once frost builds on the fat suction line, or the condenser buzzes with a motionless fan. Standing water beside the furnace is another sign, usually of a failed drain. We test the electrical parts and refrigerant charge, then walk you through the fault. Nothing gets repaired until you’ve approved a flat rate.',
       },
       {
-        title: 'Repair or Replace Your Columbia-Tusculum AC?',
+        title: 'Repair or Replace Your AC in Columbia-Tusculum?',
         body: 'Let the equipment’s age decide. Under about 12 years old, one failed part like a capacitor is a repair. Older, with a seized compressor or an indoor coil that leaks, it is usually time for new equipment. Two local points come with that. Inside the historic district, a new condenser that alters the exterior may need a Certificate of Appropriateness, so we settle placement early. In a pre-1940 house, the ductwork also caps the size that will work. Until the job is done, grime on the outdoor coil or a slow leak stretches each cooling cycle, and Duke Energy Ohio bills you for the extra run time.',
       },
     ],

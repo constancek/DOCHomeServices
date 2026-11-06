@@ -32,7 +32,7 @@ export const taylorMill: LocationServiceCopy = {
         body: 'Several no-heat problems are yours to solve. Put the thermostat on heat with new batteries, then check the furnace’s service switch and its breaker. On a gas furnace, a choked filter trips the high-limit safety and shuts things down, so change it. The blower compartment door has to sit tight or the furnace won’t start. If warm air comes back, save the service fee. If there’s a gas smell, walk out without touching a switch and phone the gas company once you’re clear of the house. Anything beyond that, we diagnose, give you a price to approve and stay until the vents blow warm.',
       },
       {
-        title: 'Repair or Replace Your Taylor Mill Furnace?',
+        title: 'Repair or Replace Your Furnace in Taylor Mill?',
         body: 'Look at the furnace itself; a Taylor Mill house from 1975 might already be running its second one. When a sound unit loses a single part, a blower motor or control board say, repairing is usually the right spend. Gas furnaces are different if the heat exchanger cracks, because carbon monoxide can work into the rooms, and safety comes before cost there. We file the county permit for any replacement. In electric homes, watch the winter power bill: if it jumps without a change in weather, elements may have failed, or the heat pump is living on backup heat.',
       },
     ],

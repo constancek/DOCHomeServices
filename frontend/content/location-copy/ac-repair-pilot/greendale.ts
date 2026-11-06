@@ -32,7 +32,7 @@ export const greendale: LocationServiceCopy = {
         body: 'Start at the furnace, because in most Greendale homes that’s where the filter lives, and a clogged one can ice the coil sitting above it. Then look at the thermostat and the breaker. When a fresh filter or a breaker reset brings the cooling back, skip the service call. Phone us if the breaker flips again or a puddle forms by the furnace. A technician checks the condenser outside and the blower inside, then hands you a flat price to approve. Once the repair is done, we read the vent temperature to prove it works.',
       },
       {
-        title: 'Repair or Replace Your Greendale AC?',
+        title: 'Repair or Replace Your AC in Greendale?',
         body: 'Go by the condenser’s age, not the house’s. A 1950s Greendale home may have an AC that’s only a few years old, and a contactor or fan motor repair on that unit makes sense. An old system with a failed compressor usually doesn’t, and if the furnace is about as old, replacing both together is often cleaner. We handle the permit for a replacement. Before it fails outright, your bill from the City of Greendale Electric Department can warn you: when it rises and the weather hasn’t, a slow leak or a dirty outdoor coil is making the compressor run longer.',
       },
     ],

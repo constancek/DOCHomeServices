@@ -32,7 +32,7 @@ export const newport: LocationServiceCopy = {
         body: 'Two free checks come first. Slide in a fresh filter, then open the breaker panel and flip back anything tripped, one time only. Cold air again means the problem is solved and our visit isn’t needed. Renters, more than half of Newport households, should tell the landlord rather than hire anyone directly. Book a technician once that breaker drops a second time, the condenser hums with its fan motionless, or frost coats the larger copper pipe. We look over the indoor and outdoor equipment, show you the failed part and name a flat figure you approve first. Then we confirm the vents blow cold.',
       },
       {
-        title: 'Repair or Replace Your Newport AC?',
+        title: 'Repair or Replace Your AC in Newport?',
         body: 'Go by the equipment label, not the house. A Newport home from 1947 may have a condenser that’s five summers old, and a bad capacitor or contactor on that unit is worth fixing. Once a system passes its twelfth year and the compressor dies, new equipment usually makes more sense, with the permit from the City of Newport Building Department. In the three local historic districts we check with Historic Preservation first. Meanwhile, a refrigerant leak or a coil caked with grass clippings drags out each cycle, and with so many homes here on electric heat, a tired heat pump inflates Duke Energy Kentucky bills year round.',
       },
     ],

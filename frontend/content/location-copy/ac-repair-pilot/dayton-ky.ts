@@ -32,7 +32,7 @@ export const daytonKy: LocationServiceCopy = {
         body: 'Some Dayton calls can be avoided with a few minutes of checking. Slide a fresh filter in, drop the cooling setting a couple of degrees below what the room reads, and check the outdoor unit’s breaker. Cold air coming back means skip us. Renters, stop at that point and send the landlord or manager a written note. A technician is the next step if the breaker won’t stay set, the outside fan never starts, or water gathers under the furnace. We inspect, explain the failure without jargon, and name a fixed figure that you approve before repairs. Afterward we measure vent temperature with you.',
       },
       {
-        title: 'Repair or Replace Your Dayton AC?',
+        title: 'Repair or Replace Your AC in Dayton?',
         body: 'Look at the equipment label, not the year the house was built. Central air in a prewar Dayton house was added later and could be on a later condenser by now. One bad component on otherwise sound equipment gets fixed. A worn-out compressor or a coil that won’t stop leaking usually makes new equipment the better spend, and old ductwork needs measuring before anyone picks a size. Campbell County serves as Dayton’s HVAC inspector and issues the Kentucky permit for a replacement, and we file it. On Sixth Avenue we check with the city first, too. Longer run times every afternoon usually raise the electric bill before cooling stops altogether.',
       },
     ],

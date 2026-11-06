@@ -32,7 +32,7 @@ export const silverton: LocationServiceCopy = {
         body: 'Not every cold shower is a breakdown. After a run of showers, the tank needs time to catch up. A bumped dial or a gas valve left off stops hot water with nothing broken, and so does a tripped breaker on an electric unit. If a gas pilot went out and there’s no gas smell, follow the label to light it. Renters should still report it. The calls that need us: a puddle under the tank, a rotten-egg smell in the hot water, a relief valve discharging again and again, or lukewarm water from an electric heater. We find the fault and quote first.',
       },
       {
-        title: 'Repair or Replace Your Silverton Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Silverton?',
         body: 'Decide by the date sticker on the heater, not how old the building is. A 1950s Silverton house can hold a tank put in recently, and a dead gas control, element or thermostat on it is a parts job. Relief valves, anodes and dip tubes are too. Rust seeping from the steel shell means it’s finished. The owner gets a repair figure and a replacement figure and chooses. Where every unit has its own tank, a landlord can have several checked in one trip, which saves a second call. We pull the permit where one is needed.',
       },
     ],

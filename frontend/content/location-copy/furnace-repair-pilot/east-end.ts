@@ -32,7 +32,7 @@ export const eastEnd: LocationServiceCopy = {
         body: 'Begin at the East End thermostat: heat mode, new batteries. Next come the breaker, the power switch on or by the furnace, and the filter. Shove the front panel snugly into place, since most furnaces sit idle with it ajar. Warm air again means you can cancel the visit. We’re worth calling when the burner lights and dies or the breaker trips a second time. Gas smell? Hands off every switch, no relighting, out the door, then call the gas company. A carbon monoxide alarm means everybody outside before anything else. Our technician inspects, explains the fault, prices it for your OK and checks the heat after.',
       },
       {
-        title: 'Repair or Replace Your East End Furnace?',
+        title: 'Repair or Replace Your Furnace in East End?',
         body: 'Decide by the equipment, not the age of the walls. Plenty of pre-war East End homes got their current furnace just a few winters ago, and when that unit’s igniter or blower motor gives out, repair it. A cracked heat exchanger is where repair ends: the crack lets carbon monoxide reach the bedrooms upstairs, so that furnace gets shut down and we price a new one instead of a patch. Swapping a furnace within city limits takes a permit from the City of Cincinnati Department of Buildings & Inspections, and we pull it. Meanwhile, watch the gas bill: rising run times in steady weather mean the furnace is falling behind.',
       },
     ],

@@ -32,7 +32,7 @@ export const elmwoodPlace: LocationServiceCopy = {
         body: 'Try these in your Elmwood Place home before booking. A tank drained by a run of showers recovers if you wait. Check the front dial, the breaker on an electric heater and the gas cock on a gas one. If the pilot is out and you smell no gas, relight it by the sticker. Tenants report it to the owner either way. Real faults: a puddle at the base, orange or rotten-egg hot water, rumbling as it heats, a relief valve opening again and again, or scorching around the burner. We find the cause, quote a flat price, repair once approved and test.',
       },
       {
-        title: 'Repair or Replace Your Elmwood Place Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Elmwood Place?',
         body: 'Go by the heater, not the house; most Elmwood Place houses are pre-1940, but the tank inside may be recent. The sticker shows when it went in. Dip tubes, elements, relief valves, gas controls, thermostats, anode rods and thermocouples are repairs. A tank leaking through the shell needs replacing. The village is one of the Mill Creek communities on FEMA’s flood maps, so a heater that sat in floodwater gets checked before it fires. Both options go on the quote in writing, and the owner decides.',
       },
     ],

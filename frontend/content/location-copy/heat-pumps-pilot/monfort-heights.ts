@@ -36,7 +36,7 @@ export const monfortHeights: LocationServiceCopy = {
         body: 'On a dual fuel system one thermostat runs both halves, and cool or off leaves both idle, so set it to heat. Replace a filter that’s dark with dust. Look for a tripped breaker on the outdoor or indoor circuit. Rake or shovel the outdoor cabinet clear. Steam off the coil, a thin frost and the fan pausing are defrost at work. If any of that brings back heat, you don’t need us. When the coil stays packed with ice or the auxiliary heat light won’t go out, we come to your Monfort Heights home, find the fault and quote it first.',
       },
       {
-        title: 'Repair or Replace Your Monfort Heights Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Monfort Heights?',
         body: 'Base the decision on the heat pump itself. Monfort Heights houses range from the 1950s to the 2020s, and a newer heat pump with a bad defrost board or fan motor is worth fixing. When a compressor dies or a leak returns after it was repaired, we price both choices. On a dual fuel system, a failing heat pump often shows up as higher gas use, because the furnace runs more, rather than a higher Duke Energy electric bill. If you replace, we take care of the permit.',
       },
     ],

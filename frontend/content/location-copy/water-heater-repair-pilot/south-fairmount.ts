@@ -32,7 +32,7 @@ export const southFairmount: LocationServiceCopy = {
         body: 'Start with the free fixes. A string of baths drains the tank, and an hour of waiting brings it back. A knob nudged to a lower setting, a breaker that tripped on an electric model or a gas handle turned crosswise to the pipe can all mimic a broken heater. On gas, if the pilot has gone out and the air smells normal, the relight steps are printed on the label. Bring us in for a puddle at the tank’s base, brown or sulfur-smelling hot water, rumbling as the burner fires, or soot and scorch marks by the burner door. Diagnosis and a price come before any repair.',
       },
       {
-        title: 'Repair or Replace Your South Fairmount Water Heater?',
+        title: 'Repair or Replace Your Water Heater in South Fairmount?',
         body: 'Read the heater’s label for its install date; a house built in 1925 may have a tank put in a few years ago. A failed thermocouple, gas valve, element, thermostat, relief valve, anode rod or dip tube is a repair. A tank leaking from the body is beyond repair and has to be replaced. We quote both and you choose. A new heater in an old South Fairmount basement usually also needs a sound shutoff valve and a vent connector that seals, and the city permit, which we handle. We won’t push tankless.',
       },
     ],

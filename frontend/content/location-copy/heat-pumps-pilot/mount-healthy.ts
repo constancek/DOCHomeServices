@@ -36,7 +36,7 @@ export const mountHealthy: LocationServiceCopy = {
         body: 'Several checks cost nothing. The Mount Healthy thermostat has to show heat; on cool or off, the house stays cold. A dust-packed filter blocks airflow, so put in a fresh one. Look for a tripped breaker: the outdoor unit has one and the air handler has its own. Rake leaves and shovel snow back from the outdoor cabinet. Steam, light frost and a fan that rests briefly mean the unit is defrosting. If the heat returns, you don’t need us. If ice clings to the coil, the emergency heat light stays on or the fan grinds, we come out, find the fault and quote it before touching anything.',
       },
       {
-        title: 'Repair or Replace Your Mount Healthy Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Mount Healthy?',
         body: 'Base it on the heat pump, since a 1950s Mount Healthy house often has a unit only a few years old. A bad contactor or defrost board on a young heat pump is an easy repair. A compressor that has failed, or refrigerant that seeps away after a recharge, is when we price repair and replacement together. In a dual fuel house, a weak heat pump shows up as the furnace burning more gas. In an all-electric apartment, a Duke Energy bill that leaps in a mild month points to the backup strips. We arrange the permit on replacements.',
       },
     ],

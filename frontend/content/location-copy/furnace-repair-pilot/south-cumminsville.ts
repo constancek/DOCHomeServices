@@ -32,7 +32,7 @@ export const southCumminsville: LocationServiceCopy = {
         body: 'Plenty of cold houses need a minute, not a technician. Is the thermostat on heat, with live batteries? Is the furnace switch on, and the breaker? Is the filter clean? Is the front panel on snug? Many furnaces stay off until it is. If one of those fixes it, you don’t need us. Call when the burners light and drop out, the furnace hums and does nothing, or the breaker trips again. Smelling gas means no switches and no relighting; walk out and call the gas company from the street. A carbon monoxide alarm means everyone out first. We inspect, price it for your approval and test the heat.',
       },
       {
-        title: 'Repair or Replace Your South Cumminsville Furnace?',
+        title: 'Repair or Replace Your Furnace in South Cumminsville?',
         body: 'Date the furnace, not the house. A 1920s South Cumminsville house might have a furnace installed last decade, and an igniter or flame sensor on that is a small, sensible repair. A furnace that needs a major part every winter usually isn’t worth more money. A cracked heat exchanger ends the discussion, because it can leak carbon monoxide; we turn it off and price a replacement, which needs the city permit we handle. Before that point, compare gas bills year to year. A furnace that runs longer for the same weather is telling you something is wrong.',
       },
     ],

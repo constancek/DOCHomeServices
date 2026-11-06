@@ -32,7 +32,7 @@ export const mountHealthy: LocationServiceCopy = {
         body: 'Tenants and owners can knock out the easy causes in five minutes. If the lease allows, put in a new filter. Make sure the thermostat is on cooling, since heat pumps get bumped onto emergency heat more often than you’d think, and look over the breaker panel. Cold air afterward means nothing’s broken and nobody needs to come out. A silent outdoor unit, or a heat pump that clicks and runs while the air stays warm, calls for a technician. Renters, take it to your landlord rather than booking us yourself. On site we test, explain the failure, and wait for a flat price to be approved.',
       },
       {
-        title: 'Repair or Replace Your Mount Healthy AC?',
+        title: 'Repair or Replace Your AC in Mount Healthy?',
         body: 'The building may be from 1956, but the sticker on the equipment decides this. One failed fan motor or contactor on an otherwise sound heat pump is usually a fix. Lose the compressor or reversing valve on an older one and replacement tends to make more sense, because that same unit keeps the apartment warm in January. Landlords with several units get a separate figure for each system, so replacements can be spread out. We check the permit rules before any replacement and take care of the permit when one applies. A struggling system also stretches its run times, which you’ll spot on the Duke Energy Ohio bill in July.',
       },
     ],

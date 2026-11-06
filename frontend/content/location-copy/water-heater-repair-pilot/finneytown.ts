@@ -32,7 +32,7 @@ export const finneytown: LocationServiceCopy = {
         body: 'Finneytown basements hide some simple causes. A run of showers before school can use the tank up, and it comes back with time. A knob bumped during sweeping looks like a failure. Electric heaters have a breaker that can trip; gas heaters have a supply valve that has to be open. With no gas odor, a pilot that blew out can be relit by the printed steps. Ring us for a wet floor under the tank, rust-colored or sulfur-smelling hot water, a pilot that dies again, or scorching around the burner door. We explain the fault, quote it and test after.',
       },
       {
-        title: 'Repair or Replace Your Finneytown Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Finneytown?',
         body: 'A 1958 house tells you nothing about the tank in its basement, so check the label for the date. If the tank is dry, failed parts get fixed: thermocouple, gas valve, element, thermostat, relief valve, anode rod, dip tube. A leak from the tank body isn’t fixable, and that heater gets replaced. We price the repair and the new heater on the same visit so you can compare, and you decide. A replacement also gets a look at the venting and gas connection, since the house is often older than the heater, and the permit goes in with it.',
       },
     ],

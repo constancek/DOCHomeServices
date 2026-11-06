@@ -32,7 +32,7 @@ export const pleasantRidge: LocationServiceCopy = {
         body: 'A lot of Pleasant Ridge cold-shower calls turn out to need no technician. After a busy morning of showers, the tank only needs time. A dial bumped while doing laundry, a gas valve left closed after other work, or an electric heater’s breaker tripped can all pass for a breakdown. If no gas odor is present, relight the pilot following the label. Beyond that, we’re worth calling when water leaks out, the side relief valve discharges again, the hot water reeks of rotten eggs, or the pilot won’t hold. You hear the fault and the flat rate first.',
       },
       {
-        title: 'Repair or Replace Your Pleasant Ridge Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Pleasant Ridge?',
         body: 'The heater’s rating plate tells you when it went in, and a Pleasant Ridge house from 1938 tells you nothing about that. Thermocouples, gas valves, dip tubes, anode rods and relief valves are all repair items. A tank leaking from its body can’t be saved, so we quote a new one. You weigh the two prices and decide. Two-family owners sometimes replace both tanks together for convenience; it’s your choice, never a requirement, and we price it either way. Where a permit is needed, we pull it.',
       },
     ],

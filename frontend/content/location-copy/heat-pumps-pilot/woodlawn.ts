@@ -36,7 +36,7 @@ export const woodlawn: LocationServiceCopy = {
         body: 'Plenty of no-heat calls in Woodlawn apartments turn out to be a thermostat left on cool after a mild spell, so check that first. A filter packed with dust can stop the airflow, so swap it. Look for two breakers, outdoor unit and air handler, and reset a tripped one once. Keep the outdoor unit clear of snow and leaves. A defrosting unit steams and frosts lightly while its fan pauses, which is normal. If heat comes back, skip the call. Call us when the ice stays or the emergency heat light won’t go off. We diagnose, explain and price before work.',
       },
       {
-        title: 'Repair or Replace Your Woodlawn Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Woodlawn?',
         body: 'Go by the heat pump’s age, not the building’s. Even in a Woodlawn complex from the 1980s, units get replaced at different times, so read the label on each outdoor unit. Swapping a worn capacitor or a burnt contactor keeps a healthy unit going for less. When an aging unit loses its compressor or keeps leaking, we write up both numbers, repair and new, and take care of the permit if you go new. In buildings heated only by electricity, a failing heat pump drives the Duke Energy bill up as the strips take over the load.',
       },
     ],

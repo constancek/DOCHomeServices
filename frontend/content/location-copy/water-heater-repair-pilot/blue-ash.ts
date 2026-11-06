@@ -32,7 +32,7 @@ export const blueAsh: LocationServiceCopy = {
         body: 'Simple causes explain plenty of Blue Ash hot water complaints. A tank emptied by back-to-back showers needs time, not a technician. A dial turned down by mistake, a tripped breaker on an electric heater, or a gas valve someone closed will stop hot water just as surely. If there’s no gas smell, relight the pilot following the label. When all that checks out, call us for leaks, popping or rumbling, scorch marks around the burner, or a pilot that keeps going out. We find the cause, give you a flat rate, and start once you agree.',
       },
       {
-        title: 'Repair or Replace Your Blue Ash Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Blue Ash?',
         body: 'The water heater’s rating plate shows its install date; check that before anything else. A Blue Ash house from 1981 might have its first tank or a far newer one, and only the plate tells you. A bad thermocouple, gas valve, element, thermostat or dip tube is worth repairing on a dry tank. A leak from the tank’s body ends its life, and we quote a replacement. We price both and you decide. Ask about tankless and we’ll explain it, without pushing. Any replacement includes the permit, which we pull.',
       },
     ],

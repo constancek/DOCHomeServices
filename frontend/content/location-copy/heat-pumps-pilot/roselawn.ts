@@ -36,7 +36,7 @@ export const roselawn: LocationServiceCopy = {
         body: 'A Roselawn owner can sort out a few causes alone. Set the thermostat to heat. Swap a dusty filter. Flip back a tripped breaker, outside unit or furnace and air handler. Pull snow and leaves off the outside cabinet. Defrost means some steam, a light frost and the fan resting a few minutes. Warm air back means no call. Tenants should tell the manager about a cold unit and leave the panels shut. A coil that stays frozen, a system stuck cooling or a fan that won’t turn is ours to diagnose, explain, price and fix.',
       },
       {
-        title: 'Repair or Replace Your Roselawn Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Roselawn?',
         body: 'Let the heat pump decide, not the house. Most Roselawn homes went up around 1960, but the heat pump outside is usually much newer, so check the date on its label. A failed fan motor or defrost board on a sound unit is a repair. A compressor failure or a coil that won’t hold refrigerant on an older unit is where we price replacement next to repair. Owners with several units can have each one checked and priced on the same visit. In a dual fuel house, the Duke Energy gas bill rising in mild weather is a sign the heat pump has stopped pulling its weight.',
       },
     ],

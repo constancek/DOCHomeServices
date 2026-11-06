@@ -32,7 +32,7 @@ export const northbrook: LocationServiceCopy = {
         body: 'On a Northbrook heat pump, the most common false alarm is the thermostat. Check it reads cool, not heat or emergency heat, and that the fan is on auto. Then replace the filter at the air handler and look at the breakers for both the indoor and outdoor units. If the air turns cold, you’re done. Call us if the outdoor unit buzzes and stops, ices up in summer, or runs nonstop while rooms stay warm. We test the heat pump, the air handler and the controls, explain what failed, and you approve a fixed price first. We confirm cooling before we leave.',
       },
       {
-        title: 'Repair or Replace Your Northbrook AC?',
+        title: 'Repair or Replace Your AC in Northbrook?',
         body: 'A 1970 house tells you nothing about a heat pump installed in 2012, so go by the equipment label. Heat pumps run in two seasons, so they age faster than cooling-only systems. A young unit with one worn part is worth fixing. Once it reaches the mid-teens and the compressor quits, put the money toward a new one, remembering that in an all-electric Northbrook house the new system is your furnace too. We handle the permit. Until then, read your Duke Energy usage each month: a heat pump low on charge switches to its backup strips more often in cold weather, and those kilowatt-hours add up.',
       },
     ],

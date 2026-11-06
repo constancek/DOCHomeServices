@@ -32,7 +32,7 @@ export const madisonville: LocationServiceCopy = {
         body: 'Some Madisonville no-heat problems are five-minute fixes. Thermostat on heat, with batteries that aren’t dead. Furnace switch up, breaker not tripped. A filter you can see light through. The blower door clicked fully closed, since lots of furnaces sit idle when it isn’t. Heat back? Then you don’t need us. A gas smell means hands off every switch, no relighting, and a call to the gas company once you’re out on the sidewalk. Ring us when the furnace gives up after a few tries to light, electric heat never warms, or it bangs as it starts. We find the fault, price it and check the heat after.',
       },
       {
-        title: 'Repair or Replace Your Madisonville Furnace?',
+        title: 'Repair or Replace Your Furnace in Madisonville?',
         body: 'The building’s age is the wrong yardstick; the furnace’s is the right one. Lots of 1920s Madisonville houses run a furnace put in within the last decade or two, and when its inducer or control board gives out, repairing it makes sense. A cracked heat exchanger can leak carbon monoxide into the rooms, so we switch that furnace off and explain the danger before any talk of cost. Replacing it takes a city mechanical permit, and we handle the paperwork. Earlier warning comes on the Duke Energy Ohio bill: more gas used, or longer run times in ordinary weather, means the furnace is struggling.',
       },
     ],

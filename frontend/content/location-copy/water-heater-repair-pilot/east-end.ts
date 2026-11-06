@@ -32,7 +32,7 @@ export const eastEnd: LocationServiceCopy = {
         body: 'After a houseful of guests showers, a tank can run cold and simply need an hour to reheat. Look at the knob for a bump, the breaker if the unit is electric and the gas handle if it isn’t. A dark pilot can be relit from the steps on the label when no gas smell is present. Book a visit if the tank weeps onto the floor, the relief valve has let go more than once, the pilot won’t stay on, or an electric tank only delivers lukewarm water. We test it, explain the problem and quote before repairing.',
       },
       {
-        title: 'Repair or Replace Your East End Water Heater?',
+        title: 'Repair or Replace Your Water Heater in East End?',
         body: 'Read the heater’s label for its install date before deciding anything. Worn thermocouples, sticking gas controls, burned elements, dead thermostats, dripping relief valves, spent anodes and broken dip tubes are fixed on site. A shell leaking from rust is finished. Here by the river, a heater that sat in floodwater is usually a replacement too, since its controls can’t be trusted afterward. We price both routes and the choice is yours. We pull the permit where one is needed. Tankless can suit a newer riverfront home, but we raise it only if you ask.',
       },
     ],

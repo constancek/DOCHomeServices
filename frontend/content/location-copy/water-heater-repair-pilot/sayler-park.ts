@@ -32,7 +32,7 @@ export const saylerPark: LocationServiceCopy = {
         body: 'Some no-hot-water mornings in Sayler Park need patience rather than a technician. When a full house showers one after another, the tank needs time to recover. Someone may have turned the dial while reaching past the heater. Electric heaters sit on their own breaker in the panel. On a gas heater, the supply valve might be closed or the pilot out; follow the label to relight it, and only if the basement smells clean. Book us when the tank pops or rumbles, the burner shows scorch marks, or the pilot dies again within the hour. Price first, repair after your yes, then a test.',
       },
       {
-        title: 'Repair or Replace Your Sayler Park Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Sayler Park?',
         body: 'In Sayler Park the heater’s age counts for more than the house’s, and the tank label carries the install date. Most failures are one part: the thermocouple that holds the pilot, a gas control, an element, a thermostat, the anode rod or the dip tube. Each of those is a repair. Water seeping out of the tank body means the steel is finished and the heater has to be replaced. You get the repair figure and the replacement figure together. Ask about tankless and we’ll compare honestly, though a tank suits most houses here.',
       },
     ],

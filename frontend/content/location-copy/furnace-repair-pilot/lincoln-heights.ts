@@ -32,7 +32,7 @@ export const lincolnHeights: LocationServiceCopy = {
         body: 'The thermostat should read heat and have live batteries, the furnace’s on/off switch should be up, no breaker should be flipped, the filter shouldn’t be grey and matted, and the blower panel should be pushed fully home, since many furnaces sit dead with it ajar. Sort any of those and the job is done without us. Tenants should hand anything further to management. A gas odor means walking out without touching a light, then ringing the gas utility from outside. A breaker that flips twice or air that never warms means a visit: we diagnose, explain, wait for your yes on price, then confirm the heat.',
       },
       {
-        title: 'Repair or Replace Your Lincoln Heights Furnace?',
+        title: 'Repair or Replace Your Furnace in Lincoln Heights?',
         body: 'Judge the unit in the closet, not the year the building went up. Lots of 1970s apartments in the village have had furnaces swapped since, and a younger one with a dead element or igniter earns a repair. A split heat exchanger on a gas unit is the hard stop. It lets combustion gases, carbon monoxide included, reach the bedrooms, so we treat it as a safety failure ahead of any talk about cost. When a CO detector sounds, move people out to fresh air before phoning anyone. For electric heat, a winter bill rising through a mild week hints at an element relay stuck closed.',
       },
     ],

@@ -32,7 +32,7 @@ export const california: LocationServiceCopy = {
         body: 'In a California house the first suspects are simple. Laundry plus a run of showers can empty the tank, and time fixes that. See whether the front dial moved, whether the electric heater’s breaker is down, whether the gas cock still runs parallel to the pipe. A pilot that’s gone out may be relit by the printed steps, so long as there’s no gas odor at all. What needs a technician: a growing puddle, popping or rumbling from sediment, a pilot that keeps dying, or the relief valve on the side letting go a second time. We finish every California call by running the hot water.',
       },
       {
-        title: 'Repair or Replace Your California Water Heater?',
+        title: 'Repair or Replace Your Water Heater in California?',
         body: 'A 1968 house tells you nothing about the heater in its basement, so read the tank’s sticker for the install date. Thermocouples, gas controls, heating elements, thermostats, the relief valve, the anode rod and the dip tube are all parts we swap. A tank rusted through and leaking from the shell can’t be fixed. Flood-soaked heaters get judged one by one: sometimes new controls are enough, sometimes not, and you hear which. Both prices go on the quote, and if you pick a new heater we file the paperwork.',
       },
     ],

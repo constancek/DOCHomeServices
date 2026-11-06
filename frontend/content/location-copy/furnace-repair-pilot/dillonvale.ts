@@ -32,7 +32,7 @@ export const dillonvale: LocationServiceCopy = {
         body: 'Not every Dillonvale no-heat call needs a technician. Start at the thermostat: heat mode, live batteries, set above the room’s temperature. Next, the furnace switch, which looks like a light switch on or beside the unit, and the breaker. Swap a dirty filter, and press the furnace door shut firmly, because a loose door blocks many furnaces from firing. Heat back on? We aren’t needed. Burners that light and drop out, or a furnace that won’t start, mean it’s time to call. Gas smell: get out first, touch no switches, then ring the gas company from the yard. We diagnose, quote one flat price and test it running.',
       },
       {
-        title: 'Repair or Replace Your Dillonvale Furnace?',
+        title: 'Repair or Replace Your Furnace in Dillonvale?',
         body: 'Look at the furnace, not the 1950s date on the house. Whatever heats a Dillonvale house now has replaced the original heat, and it may be only a few winters old. A failed igniter or inducer motor on a sound furnace is worth repairing. A cracked heat exchanger is a carbon monoxide hazard, not just a cost question, so we shut the furnace down and price a replacement, and we arrange the permit. With gas heating more than eight in ten homes here, the gas bill is your early warning: when it rises and the weather hasn’t changed, the furnace may be short-cycling or burning poorly.',
       },
     ],

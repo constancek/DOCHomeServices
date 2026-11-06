@@ -32,7 +32,7 @@ export const highlandHeights: LocationServiceCopy = {
         body: 'A Highland Heights resident can sort out many no-heat problems alone. The thermostat belongs on heat. A filter you can’t see light through gets swapped. Two breakers run the system, one outside unit, one air handler; both should be on. On a hillside lot, snow and leaves drift against the condenser; clear them. Steam, thin frost and a fan resting a few minutes mean it’s defrosting. Heat back on means no repair, though tenants should still tell the landlord. A unit that stays frozen, an emergency heat light that never clears or a fan that won’t turn is ours. We inspect, explain, price first and test after.',
       },
       {
-        title: 'Repair or Replace Your Highland Heights Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Highland Heights?',
         body: 'The equipment settles this, and the building doesn’t. Most Highland Heights homes went up after 1960, and a 1985 house may already be on its second outdoor unit. Putting a new defrost board, contactor or fan motor into a younger system makes sense. Once the compressor is gone, or the refrigerant leaks back out after every charge, you get a written fix price and a new-unit price to weigh. Duke Energy Kentucky bills help you spot trouble: a jump in an ordinary winter month usually means backup heat is doing work the heat pump should. Financing is available for replacements.',
       },
     ],

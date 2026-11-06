@@ -32,7 +32,7 @@ export const mountAiry: LocationServiceCopy = {
         body: 'With so many heat pumps in Mount Airy, the first check is the thermostat mode, because a system left on heat or auto can blow warm air on a hot day. After that, flip a tripped breaker back one time and swap a clogged filter. If the air cools again, skip the visit. Renters should report anything beyond that to the landlord rather than open the air handler. Owners should book us when the outdoor fan won’t budge, ice grows on the line set, or the system keeps shutting down. You hear what failed and approve a flat figure before work, and we check vent temperatures afterward.',
       },
       {
-        title: 'Repair or Replace Your Mount Airy AC?',
+        title: 'Repair or Replace Your AC in Mount Airy?',
         body: 'Mount Airy’s biggest building era was the 1960s and 1970s, but the heat pumps outside those homes are far younger, so go by the date printed on the outdoor unit. A unit with plenty of years left and one failed motor or capacitor gets repaired. A heat pump with a failed compressor and many winters behind it is usually better replaced, especially because it heats the home too. Swapping one out takes a Cincinnati Buildings & Inspections mechanical permit. Until then, grime on the outdoor coil makes a heat pump run longer in both seasons, and Duke Energy Ohio bills show it. Rinse it gently with the power off.',
       },
     ],

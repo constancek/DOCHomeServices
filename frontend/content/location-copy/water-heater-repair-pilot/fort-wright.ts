@@ -32,7 +32,7 @@ export const fortWright: LocationServiceCopy = {
         body: 'Before calling, rule out the easy causes. A run of showers can use up a tank; it needs time. The dial may have been turned down by accident. On an electric unit, look at the breaker. On gas, the valve handle should line up with the pipe, and if the pilot is out with no gas smell, relight it from the steps on the tank. Call us for water collecting under the heater, hot water that’s rusty or smells of sulfur, a pilot that won’t hold, or scorch marks around the burner. In Fort Wright, as everywhere, you get the fault and a flat price before work.',
       },
       {
-        title: 'Repair or Replace Your Fort Wright Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Fort Wright?',
         body: 'The tank’s sticker, not the house, answers this. A house in Fort Wright built in 1965 has likely gone through several heaters, and the sticker gives the current one’s install date. A failed thermocouple, gas control, element, thermostat, relief valve, anode rod or dip tube gets repaired. A leak from the tank body means a new heater. We quote both and you choose. Tankless is something we can talk through, but we won’t push it. Financing is there when a replacement makes more sense, and we test the hot water at a tap before we leave.',
       },
     ],

@@ -32,7 +32,7 @@ export const evanston: LocationServiceCopy = {
         body: 'Some cold houses don’t need a technician. Confirm the thermostat says heat and has live batteries, the service switch by the furnace is on, the breaker is set, the filter is clean, and the furnace door is latched, since many furnaces stay off with it ajar. If that restores heat, you’re done. Gas smell is different: walk out without touching switches or relighting anything, then phone the gas company from outside. When the carbon monoxide alarm goes off, get everyone out before anything else. Book us for lockouts, banging, or a blower moving cold air. We inspect, explain, price the repair for approval and test it.',
       },
       {
-        title: 'Repair or Replace Your Evanston Furnace?',
+        title: 'Repair or Replace Your Furnace in Evanston?',
         body: 'Decide by the furnace, not by the age of the house. A furnace installed a few winters ago in a 1920s home deserves a repair when its igniter, inducer or control board fails. A cracked heat exchanger is a carbon monoxide hazard, so we turn that furnace off and talk about replacement, not patching. In Evanston the replacement permit goes through the City of Cincinnati Department of Buildings & Inspections, and we pull it. Before it gets that far, compare winter gas bills. A furnace running longer for the same comfort often has a dirty burner, a weak blower or a choked filter behind it.',
       },
     ],

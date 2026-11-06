@@ -32,7 +32,7 @@ export const villagesOfRollHill: LocationServiceCopy = {
         body: 'Some outages fix themselves. A household full of kids can empty a tank at bath time, so give it a while to reheat. A bumped dial turns the water lukewarm. An electric heater stops when its breaker trips, and a gas one stops with its supply handle off or its pilot out, which can be relit from the printed steps if there’s no gas odor. Residents report anything else to the office rather than open the heater. Managers call us for water at the base, brown or foul-smelling water, rumbling, or a pilot that won’t hold. We diagnose, quote, repair and test.',
       },
       {
-        title: 'Repair or Replace Your Villages of Roll Hill Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Villages of Roll Hill?',
         body: 'The sticker on each heater gives its install date, and units in the same building can differ. A pilot sensor, gas control, element, thermostat, pressure valve, anode or inlet tube is a repair on its own. A tank whose steel shell leaks gets replaced, since no part fixes that. For a complex this size, we price repair and replacement for each unit so management can plan, and the decision stays theirs. The City of Cincinnati’s Department of Buildings & Inspections permits replacement plumbing here, and we pull those permits.',
       },
     ],

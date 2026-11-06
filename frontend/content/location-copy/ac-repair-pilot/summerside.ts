@@ -32,7 +32,7 @@ export const summerside: LocationServiceCopy = {
         body: 'Plenty of Summerside visits end at a clogged filter, so start there. Swap it, then set the thermostat to cooling a couple of degrees below the room. A breaker that tripped gets one reset. Cold air again means no visit, and renters hand it to the landlord at this point. Get in touch if water spreads from the indoor unit, or that breaker drops a second time. We inspect the equipment, explain what went wrong, and give a flat quote for your approval with nothing touched yet. Once it’s repaired, we check the air at the vents with you.',
       },
       {
-        title: 'Repair or Replace Your Summerside AC?',
+        title: 'Repair or Replace Your AC in Summerside?',
         body: 'A Summerside house from 1981 has almost certainly replaced its original air conditioner, so look for the build date printed on the condenser’s nameplate. One bad contactor on equipment with years ahead of it deserves a repair. Aging equipment with a seized compressor or a coil that leaks deserves replacing. Condo owners should read the association’s equipment rules before anything outside gets swapped. We take care of the permit for Union Township replacements. A worn-out system stretches its cycles longer every afternoon, and the Duke Energy Ohio statement rises along with it.',
       },
     ],

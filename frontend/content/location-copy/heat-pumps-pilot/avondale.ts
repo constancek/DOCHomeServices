@@ -32,8 +32,8 @@ export const avondale: LocationServiceCopy = {
         body: 'Anyone can rule out the easy causes. Heat is the only thermostat setting that warms an Avondale flat; cool or off leaves it cold. Swap a clogged filter if it’s yours to change. The system runs on two breakers, outdoor unit and air handler, so flip a tripped one back once. Shovel snow back from the outside cabinet. Frost, a puff of steam and a fan that idles for a few minutes are just defrost. If warmth comes back, skip the visit, but let management know. Report it when ice won’t clear off the coil, the emergency heat lamp stays lit or the fan sits still.',
       },
       {
-        title: 'Repair or Replace Your Avondale Heat Pump?',
-        body: 'Look at the heat pump’s age, not the building’s. Plenty of Avondale houses date from before 1940 yet carry heat pumps put in far more recently, and a burned contactor or a faulty defrost board on one of those is a quick fix. When an aging unit has a leaking coil or its compressor has died, the owner gets two prices to weigh. A replacement inside city limits needs a mechanical permit from Cincinnati’s Department of Buildings & Inspections, and we pull it. A Duke Energy Ohio bill that spikes in an ordinary month usually means the backup strips are carrying the heat.',
+        title: 'Repair or Replace Your Heat Pump in Avondale?',
+        body: 'Judge it by the unit, since the house tells you little. Many homes in Avondale went up before 1940, but the heat pumps on them are often much younger, and a burned contactor or bad defrost board on a newer one is a quick repair. If an older system has a leaking coil or a failed compressor, the owner sees a repair price and a replacement price side by side. Inside city limits, Cincinnati’s Department of Buildings & Inspections issues the mechanical permit for a replacement, and we file it. When a Duke Energy Ohio bill climbs in a mild month, the backup strips are usually doing the heating.',
       },
     ],
     whyTitle: 'Why Avondale Landlords and Tenants Call Us',

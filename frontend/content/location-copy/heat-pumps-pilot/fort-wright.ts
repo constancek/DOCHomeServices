@@ -32,7 +32,7 @@ export const fortWright: LocationServiceCopy = {
         body: 'Start at the thermostat and make sure it reads heat. Slide out the filter, and if it’s matted gray, put a new one in. The panel holds one breaker for the outdoor unit and one for the air handler; flip back whichever tripped. On a sloped lot, leaves and drifts can pile against the uphill side of the coil, so clear them. Defrost brings steam, a skin of frost and a fan that goes quiet briefly, all harmless. Heat recovering means you don’t need a technician. Book us for a coil that stays iced, an emergency heat light stuck on, grinding, or a fan that won’t start.',
       },
       {
-        title: 'Repair or Replace Your Fort Wright Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Fort Wright?',
         body: 'The date on the heat pump’s label matters; the house’s age mostly doesn’t. A 1970s Fort Wright split-level may already be on its second or third outdoor unit. If a fan motor or defrost sensor wore out on an otherwise sound system, we fix it. When refrigerant keeps disappearing, or the compressor refuses to start, you get a repair quote and a replacement quote to weigh. Your electric bill is a clue as well: a steep winter climb usually means the backup strips are making the heat. Replacing a heat pump in Kentucky needs a permit, which we pull.',
       },
     ],

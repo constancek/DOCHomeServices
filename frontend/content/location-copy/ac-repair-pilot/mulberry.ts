@@ -32,7 +32,7 @@ export const mulberry: LocationServiceCopy = {
         body: 'With electricity heating most Mulberry homes, look at the thermostat mode before anything: it should say cool, not heat or emergency heat. Put a clean filter in the air handler and reset a tripped breaker once. If the air turns cold, you’ve saved a service call, and renters can pass the problem to the landlord now. Bring us in when the outdoor unit runs but rooms stay warm, the breaker trips again at once, or a puddle forms beneath the indoor unit. Our technician checks both sections and explains the failure. Nothing is repaired until you approve the price, and the cooling is tested with you afterward.',
       },
       {
-        title: 'Repair or Replace Your Mulberry AC?',
+        title: 'Repair or Replace Your AC in Mulberry?',
         body: 'Most Mulberry homes went up after 1980, so many are already on their second heat pump, and the building’s age won’t show that. Check the outdoor unit’s manufacture date. One bad capacitor or fan motor on a young unit is a repair. On an older heat pump, a dead compressor or a reversing valve that won’t shift usually tips it toward replacement, since that same machine heats the place in winter. For replacements, we get a Miami Township zoning certificate where required, then the Clermont County Permit Central permit. A worn heat pump shows on the electric bill in July and January alike.',
       },
     ],

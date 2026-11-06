@@ -36,7 +36,7 @@ export const pleasantRun: LocationServiceCopy = {
         body: 'Rule out the easy stuff in your Pleasant Run house before you book. Set the thermostat to heat; cool, off or emergency heat is the wrong mode. Swap the filter once it’s gone gray. Find the two breakers, outside unit and inside unit, and flip a tripped one back once; leave it off if it trips a second time. Rake leaves and shovel snow back from the outside cabinet. Defrost brings steam, a thin frost and a short fan stop, which is fine. Warm air back means you can cancel. Ice that never melts, an auxiliary light that stays lit, or a system stuck cooling needs us.',
       },
       {
-        title: 'Repair or Replace Your Pleasant Run Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Pleasant Run?',
         body: 'Base it on the heat pump, not the year your house went up. Most Pleasant Run homes date from the 1960s and 1970s, but the heat pump outside is often far younger, so read the date on its label. A bad capacitor, contactor or defrost sensor on a healthy unit is worth fixing. A compressor failure or a leak that keeps coming back on an older unit is when we price replacement alongside repair. Duke Energy delivers power here, and a bill that jumps while the weather holds steady usually means the heat strips are working too hard. We handle the replacement permit.',
       },
     ],

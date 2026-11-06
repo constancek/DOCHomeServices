@@ -32,7 +32,7 @@ export const bellevue: LocationServiceCopy = {
         body: 'Down a narrow Bellevue stairway, a few looks can save the trip. A long run of laundry and baths leaves an old tank empty for a while, and it catches up by itself. Someone carrying boxes past it may have turned the dial. Electric tanks sometimes just lose their circuit in the panel. Gas tanks can have the supply handle crosswise, or a pilot out; with no odor, the lighting steps are printed on the side. We should come when the slab under it stays wet, hot water runs brown or sulfur-smelling, or the tank thumps and rumbles. You hear the cause and the flat price before we start.',
       },
       {
-        title: 'Repair or Replace Your Bellevue Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Bellevue?',
         body: 'Judge by the water heater, not the house. A home in Bellevue built in the 1930s might have a tank that’s only a few years old, and its label shows when it went in. A failed thermocouple, gas valve, element, thermostat, relief valve, anode rod or dip tube can be repaired. Once the tank body leaks, it needs replacing, and in a tight basement we plan the swap before we quote. We price repair and replacement together where both are real options. The state handles plumbing inspections in Kentucky, and we pull the permit where one is needed.',
       },
     ],

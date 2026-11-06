@@ -32,7 +32,7 @@ export const mountWashington: LocationServiceCopy = {
         body: 'Not every Mount Washington hot water problem needs a technician. Showers taken one after another drain the tank, and it recovers if you wait. Check for a dial turned down, a closed gas cock, or on electric units a breaker sitting in the middle position. A blown-out pilot can be relit by the instructions printed on the heater, as long as you smell nothing. We should come when water collects around the base, the tap smells like sulfur, or the tank knocks and rumbles. Tenants, tell the landlord. A flat price gets your okay before work.',
       },
       {
-        title: 'Repair or Replace Your Mount Washington Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Mount Washington?',
         body: 'Ignore the house’s age and read the heater’s rating plate. A 1953 Mount Washington house could hold a tank installed last spring or one that has been there for ages. Thermocouples, gas valves, elements, thermostats and anode rods are all repairs, and on a dry tank they’re normally the better spend. A body leak is the one fault no part fixes, so it means a new heater. We quote the repair and the replacement on one sheet and you choose. Replacements come with the permit where one is needed, which we pull.',
       },
     ],

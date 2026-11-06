@@ -32,7 +32,7 @@ export const fortMitchell: LocationServiceCopy = {
         body: 'Rule out the simple stuff before you phone. The thermostat display has to say heat. Pull the filter; if light won’t pass through it, fit a fresh one. Fort Mitchell systems run on a pair of breakers, outdoor condenser and indoor air handler, and both belong in the on position. Sweep drifted snow or leaves off the outdoor cabinet. A defrost cycle throws steam, leaves thin frost and stops the fan briefly; that’s expected. Rooms warming back up means you can cancel us. Phone when ice keeps building, the auxiliary heat light stays lit, or the outside fan won’t spin.',
       },
       {
-        title: 'Repair or Replace Your Fort Mitchell Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Fort Mitchell?',
         body: 'Judge the heat pump, not the house. Fort Mitchell has four National Register historic districts with homes going back to the 1890s, yet the unit outside one of them may be fairly new. A failed capacitor, contactor or defrost board is normally a repair. A refrigerant leak in a worn coil, or a compressor that has quit, is where we price repair and replacement side by side. With dual fuel, watch the gas bill too: a furnace running all winter can hide a heat pump that stopped pulling its weight. Financing is available if replacement wins.',
       },
     ],

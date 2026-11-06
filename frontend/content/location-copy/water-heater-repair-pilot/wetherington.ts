@@ -32,7 +32,7 @@ export const wetherington: LocationServiceCopy = {
         body: 'Wetherington homeowners can save a service call with a short look. Houseguests and back-to-back showers can outrun a tank, which only needs time. Check whether the dial on the gas control was turned toward warm or vacation. If the gas handle is off, turn it on; if the pilot is out and nothing smells of gas, the lighting instructions on the heater are the guide. An electric unit may have a tripped breaker. Hot water again means stop there. A damp floor around the tank, rusty hot water or black scorching at the burner door means we should come. We inspect, explain, quote and test the repair.',
       },
       {
-        title: 'Repair or Replace Your Wetherington Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Wetherington?',
         body: 'Trust the label on the tank over the year your Wetherington house was finished. Some homes here still run the heater the builder installed; others swapped theirs long ago. A thermocouple, gas control, relief valve, anode rod or dip tube is replaceable as long as the shell holds water. Once the tank body leaks, a new heater is the only fix worth paying for. We price each and you choose. In a finished basement, a slow seep can ruin carpet and drywall, so we point it out early. Where the replacement needs a permit, we pull it.',
       },
     ],

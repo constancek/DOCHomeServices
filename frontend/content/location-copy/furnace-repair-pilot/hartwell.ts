@@ -32,7 +32,7 @@ export const hartwell: LocationServiceCopy = {
         body: 'Five checks come first. The thermostat needs to read heat and have working batteries. The service switch by the furnace should be up and the breaker untripped. A grey, matted filter needs replacing. The blower door has to sit square, because most furnaces stay off with it loose. If one of those brings the heat back, nobody needs to come out. For a gas odor indoors, walk out, keep your hands off light switches, and ring the gas company once you’re clear of the building. A sounding carbon monoxide alarm sends the whole household outside before anything else. On a visit we test, explain, then quote.',
       },
       {
-        title: 'Repair or Replace Your Hartwell Furnace?',
+        title: 'Repair or Replace Your Furnace in Hartwell?',
         body: 'Ask how old the furnace is, not the house. A Hartwell house from 1948 can easily hold a furnace installed in the last decade, and a new inducer or control board for it costs a fraction of a new unit. The exception is a cracked heat exchanger. That crack lets combustion gases, carbon monoxide included, mix into the air you breathe, so we tag the furnace off and price its replacement. Your Duke Energy Ohio gas statement tells part of the story too: rising use through a winter that feels normal often means a furnace cycling badly before it fails outright.',
       },
     ],

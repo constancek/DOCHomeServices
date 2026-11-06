@@ -32,7 +32,7 @@ export const crestviewHills: LocationServiceCopy = {
         body: 'Start with what any Crestview Hills owner can check alone. A tank emptied by a long morning of showers refills hot on its own schedule. Boxes stacked in a utility closet can knock the dial down. An electric unit stops when its breaker trips; a gas unit stops when the pilot goes out or the supply knob is closed, and relighting by the printed steps is fine only with no gas odor. Call us about a puddle under the tank, rotten-egg or rust-tinted water, popping and rumbling, or soot around the burner opening. We test and quote before touching anything.',
       },
       {
-        title: 'Repair or Replace Your Crestview Hills Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Crestview Hills?',
         body: 'Your townhome’s build date says little; the sticker on the Crestview Hills heater says when it went in. Parts we replace on the spot include thermocouples, gas controls, heating elements, thermostats and relief valves, plus anode rods and dip tubes. When the shell itself leaks, the heater is done and needs replacing. Otherwise we lay the repair price beside a replacement price and you choose. In a closet, the replacement has to fit the doorway and the vent run, so we measure first. We’ll quote tankless if asked, but a matching tank is usually the simpler swap. Permits as required.',
       },
     ],

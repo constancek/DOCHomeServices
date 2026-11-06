@@ -32,7 +32,7 @@ export const indianHill: LocationServiceCopy = {
         body: 'First check the thermostat: on heat, set above room temperature, with fresh batteries. Then the breaker, the switch on or near the furnace, and the filter. A furnace door that isn’t fully closed will stop many furnaces from running at all. If any of that brings the heat back, you don’t need us. If you smell gas, leave without touching light switches or trying to relight the furnace, and call the gas company once you’re outside. A carbon monoxide alarm means everyone leaves first. Renters: Ohio law (ORC 5321.04) puts heating repairs on the landlord, and we fix furnaces, not leases.',
       },
       {
-        title: 'Repair or Replace Your Indian Hill Furnace?',
+        title: 'Repair or Replace Your Furnace in Indian Hill?',
         body: 'Base it on the furnace itself. Indian Hill houses range from before 1940 to the last few years, so the house’s age says little about what’s in the basement. A furnace with one failed part and a sound heat exchanger is normally worth repairing. A cracked heat exchanger is a carbon monoxide hazard, so we’ll shut the unit off and explain why replacement is the safe choice. If you do replace, we take care of the permit. Your heating bill also tells you something: when it climbs in an ordinary winter, the furnace is often running longer to keep up, and that usually points to a fault.',
       },
     ],

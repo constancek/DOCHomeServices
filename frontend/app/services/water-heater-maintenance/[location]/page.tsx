@@ -8,6 +8,7 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'water-heater-maintenance',
   serviceName: 'Water Heater Maintenance',
+  emergencyHeading: 'Water Heater Problems That Can’t Wait in {neighborhood}',
   eyebrow: 'Plumbing',
   hubLabel: 'Water Heater Maintenance',
   parentCrumb: { label: 'Plumbing', href: '/services/plumbing' },
@@ -76,6 +77,14 @@ const config: ServiceLocationConfig = {
     { q: 'How can I tell if my water heater needs servicing?', a: 'Running out of hot water faster, popping or rumbling noises, discolored water, higher bills, or simply not having had it serviced in over a year are all good reasons to book a tune-up.' },
     { q: 'What happens if I skip water heater maintenance?', a: 'Sediment keeps building up, efficiency drops, and the tank wears out faster — raising the risk of leaks and early failure. Skipping service can also void the manufacturer’s warranty.' },
   ],
+  steps: {
+    heading: 'What to Expect From Water Heater Maintenance in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Check It First', text: 'Tank, valves, venting and the burner or elements.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A flat rate, before any work starts.' },
+      { icon: 'shower', title: 'Flushed and Tested', text: 'Sediment out, relief valve and hot water checked.' },
+    ],
+  },
   related: [
     { label: 'Water Heater Maintenance (overview)', href: '/services/water-heater-maintenance' },
     { label: 'Water Heater Repair', href: '/services/water-heater-repair' },

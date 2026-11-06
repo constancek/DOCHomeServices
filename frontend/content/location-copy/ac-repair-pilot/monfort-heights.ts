@@ -32,7 +32,7 @@ export const monfortHeights: LocationServiceCopy = {
         body: 'Before you book anything, do a few quick checks. Replace a clogged furnace filter, switch the thermostat to cool with its fan on auto, and push a tripped AC breaker back on once. If the house starts cooling, you can skip the service call. Call us when the breaker trips again, the outdoor unit hums without the fan turning, or ice coats the refrigerant line. The technician inspects both halves of the system, tells you what broke, and names a set price that waits on your approval. We confirm the repair by measuring the cooled air at the registers.',
       },
       {
-        title: 'Repair or Replace Your Monfort Heights AC?',
+        title: 'Repair or Replace Your AC in Monfort Heights?',
         body: 'Base the decision on the equipment’s age, which you’ll find on the outdoor unit’s label. A 1950s Monfort Heights house might have a condenser installed three summers ago that is well worth repairing. A 2002 subdivision home could still run its original unit. When a system past roughly 12 years loses its compressor, or the coil over the furnace leaks, replacement is usually the better spend. We handle the permit on a replacement. Until you decide, a unit low on refrigerant or with a matted outdoor coil runs longer each afternoon, and your Duke Energy bill shows it.',
       },
     ],

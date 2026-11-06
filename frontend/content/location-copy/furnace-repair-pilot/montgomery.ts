@@ -32,7 +32,7 @@ export const montgomery: LocationServiceCopy = {
         body: 'A few Montgomery basement checks come before booking. The thermostat should read heat and have live batteries. The furnace switch and the breaker should both be on. The filter should be clean enough to see through. The furnace door should be latched, as a loose panel stops many models cold. Sort one of those out and you don’t need us. Book us when burners catch and quit, the blower squeals, or the furnace hums along with chilly rooms upstairs. Leave gas parts alone. Our technician tests the furnace and controls, names the failed part, prices it for your OK and runs a full heating cycle.',
       },
       {
-        title: 'Repair or Replace Your Montgomery Furnace?',
+        title: 'Repair or Replace Your Furnace in Montgomery?',
         body: 'Montgomery’s houses mostly went up between the 1950s and the 1970s, but the furnace inside may be only a few years old, and that’s what we judge. Swapping an igniter, inducer motor or blower on a furnace in good health usually pays. A cracked heat exchanger is about safety rather than budget, because carbon monoxide can seep out, so that furnace gets shut off. Hear a carbon monoxide alarm? Everyone outside, then phone. A replacement takes a building permit from the city, and we pull it. Compare this winter’s gas bills against last year’s in similar weather; a steady climb means the furnace is losing ground.',
       },
     ],

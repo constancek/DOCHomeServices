@@ -36,7 +36,7 @@ export const maineville: LocationServiceCopy = {
         body: 'Newer houses fail in simple ways too. A thermostat bumped to cool or off is the most common false alarm we hear about. Pull the filter and hold it to a window; if no light gets through, replace it. Two breakers feed the system, one outside and one for the indoor air handler, and a tripped one just needs flipping back. Shovel drifts away from the outdoor unit. A cloud of vapor with the fan paused is the unit melting its own frost. Warm air again means no visit. A coil that stays white with ice, or an emergency heat light that never goes out, means book us.',
       },
       {
-        title: 'Repair or Replace Your Maineville Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Maineville?',
         body: 'Decide by the heat pump, not the subdivision. Much of Maineville was built in the 2000s, so plenty of heat pumps here are still the ones the builder installed. One worn part on a working system, such as a contactor or a defrost sensor, is a repair. A compressor that has failed, or refrigerant that leaks out again after a fix, is when replacement deserves a price next to the repair. A sharp rise in the electric bill is the warning sign in all-electric homes: the strips are doing the heat pump’s job. We handle the permit for a replacement.',
       },
     ],

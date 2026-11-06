@@ -32,7 +32,7 @@ export const lawrenceburg: LocationServiceCopy = {
         body: 'Run through this in a Lawrenceburg home first. Thermostat: heat mode, nothing else. Filter: closet air handlers starve for air fast, and a filter gone gray can be the whole story. Breakers: the condenser outside and the air handler inside each have one; flip a tripped one back. Outside: shovel snow and ice off the unit’s sides. Puffs of steam, thin frost and a fan resting for a minute are just defrost. Renters, report what you found to the landlord. We come out for a coil still frozen hours later, an aux light that won’t quit, or a fan that grinds or sits still, and we quote before fixing.',
       },
       {
-        title: 'Repair or Replace Your Lawrenceburg Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Lawrenceburg?',
         body: 'Go by the heat pump’s nameplate date, not when the building went up. In Census figures, 34.8% of Lawrenceburg housing dates from 2000 on, and plenty of those original units now have enough years on them to check. One worn part on a unit in good shape is a repair. If an older system has lost its compressor or keeps losing refrigerant, we write both prices down and you decide. Compare this winter’s electric bills with last winter’s; a sharp rise usually means the strips are doing the heating instead of the heat pump.',
       },
     ],

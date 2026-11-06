@@ -32,7 +32,7 @@ export const wintonHills: LocationServiceCopy = {
         body: 'A few checks can save every Winton Hills renter a wait. The thermostat should read cool with a target below room temperature, no breaker should be tripped, and the filter can be changed only where the lease allows. Cold air coming back ends it there. Otherwise, CMHA residents should file a work order, and tenants of private owners should notify the landlord in writing. Neither should open the equipment. Private owners can send for us once the condenser fan refuses to turn, the copper line grows frost, or a pool of water spreads under the air handler. Tenants hear the fault, and owners get the price.',
       },
       {
-        title: 'Repair or Replace a Winton Hills Rental AC?',
+        title: 'Repair or Replace a Rental AC in Winton Hills?',
         body: 'For a private owner, the date stamped on the nameplate settles most of it. A younger system that lost a single capacitor or fan motor is a fair repair. When an aging one needs a compressor, or refrigerant has to be topped up every summer, new equipment is usually the cheaper path. Electric heat sharpens this here: most homes in Winton Hills heat with electricity, so many rentals rely on one heat pump for both seasons, and a weak one raises Duke Energy Ohio bills in each. New systems in the city require a Cincinnati Buildings & Inspections mechanical permit, which we take care of.',
       },
     ],

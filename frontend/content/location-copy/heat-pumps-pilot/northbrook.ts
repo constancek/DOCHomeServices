@@ -36,7 +36,7 @@ export const northbrook: LocationServiceCopy = {
         body: 'A few things look like a broken heat pump and aren’t. A thermostat left on cool or off. A filter clogged enough to choke airflow. A tripped breaker, either the outdoor one or the one for the air handler inside. Snow or leaves packed against the outdoor coil. And the defrost cycle, which sends up steam, leaves a skin of frost and rests the fan for a few minutes. Check those first; if heat returns, you’re set without us. Book a visit if ice keeps building, the auxiliary light stays on, or you hear grinding outside. We find it, explain it and price it before work.',
       },
       {
-        title: 'Repair or Replace Your Northbrook Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Northbrook?',
         body: 'Look at the heat pump, not the house. A 1970s Northbrook house could be on a second or third outdoor unit by now, so check the label for the real age. A contactor, capacitor or defrost control going bad is a fix, not a reason to replace. Once the compressor has died, or the refrigerant has been topped up before and is low again, we put a replacement quote beside the repair quote. All-electric houses show trouble on the Duke Energy bill first, since the backup strips cost far more to run than the heat pump. If you replace, we pull the permit and do the township paperwork.',
       },
     ],

@@ -32,7 +32,7 @@ export const harrison: LocationServiceCopy = {
         body: 'A few checks can spare you a call. The thermostat should be on heat, set above the room temperature, with fresh batteries. An electric furnace usually has its own breaker, so look at the panel and reset a tripped one once. Confirm the furnace’s power switch is up, the filter isn’t matted with dust and the access door sits tight, since a loose door shuts many units down. Warm air again means no visit. Tenants report to the landlord, who owes reasonable heat under ORC 5321.04; leases aren’t our department. In a gas home, smelling gas means no switches, no relighting, out the door, then call the gas company.',
       },
       {
-        title: 'Repair or Replace Your Harrison Furnace?',
+        title: 'Repair or Replace Your Furnace in Harrison?',
         body: 'Judge by the unit. Lots of Harrison homes went up after 2000, so their furnaces are fairly young, and a failed element, relay or blower motor in one of them is a fair repair. In a gas furnace, a cracked heat exchanger flips the decision, since carbon monoxide can escape through it. If a CO alarm sounds, everyone gets out before making a call. A replacement takes a city permit, and we file it. Keep watch on the electric bill as well: a failing electric furnace or heat pump runs longer, so the bill rises before rooms turn cold.',
       },
     ],

@@ -32,7 +32,7 @@ export const downtown: LocationServiceCopy = {
         body: 'Unit heaters in apartments and condos are compact, and a couple of long showers can drain one. Give it time. Check whether the dial got nudged, and look at your unit’s panel for a tripped breaker. Gas units are less common in towers, but where you have one, make sure the valve is open and the pilot lit, relighting by the label only with no gas smell. If the whole building lost hot water, call management, not us. We’re needed for a leaking tank, rusty or smelly hot water, a relief valve that keeps opening or lukewarm water from an electric unit. Diagnosis, quote, repair, test.',
       },
       {
-        title: 'Repair or Replace Your Downtown Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Downtown?',
         body: 'Base the decision on the heater in your closet, not the age of the tower. The label shows its install date. Elements, thermostats, relief valves, anode rods and dip tubes on an electric unit are repairs, and gas units add thermocouples and gas valves. A tank leaking from its body is a replacement, and in a high-rise that means planning the delivery with building staff. We price the repair and the replacement and you choose. Downtown is in the City of Cincinnati, where the Department of Buildings & Inspections covers permits, and we pull one where it’s needed.',
       },
     ],

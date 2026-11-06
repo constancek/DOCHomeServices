@@ -32,7 +32,7 @@ export const loveland: LocationServiceCopy = {
         body: 'Three checks cost nothing. Swap the filter, put the thermostat on cool below the room’s reading, and see whether the panel shows a tripped breaker. Many Loveland homes have heat pumps, so make sure yours isn’t on emergency heat. Cold air again means keep your money. Book us when the outdoor fan sits idle, frost coats the copper line outside, or the upstairs never catches up. We look at the condenser and the indoor coil and explain the failure plainly. Work waits for your okay on the price, and we check vent temperatures with you at the end.',
       },
       {
-        title: 'Repair or Replace Your Loveland AC?',
+        title: 'Repair or Replace Your AC in Loveland?',
         body: 'The nameplate on the condenser matters more than the deed. Plenty of 1980s Loveland houses have already retired their first system. If a younger unit lost one part, a fan motor for instance, repair it. If older equipment needs a compressor, or its coil has sprung another leak, replacement is the smarter money. Loveland Building & Zoning includes air conditioners on its residential permit application, and we handle that filing for homes inside city limits. Before most systems quit, the electric bill creeps up at the same thermostat setting, and that’s worth noticing.',
       },
     ],

@@ -32,7 +32,7 @@ export const corryville: LocationServiceCopy = {
         body: 'Before reporting a cold tap, tenants can rule out the obvious. Roommates showering one after another empty small tanks, and a wait brings the heat back. Dials in closet installs get bumped by whatever is stored beside them. An electric unit with a tripped breaker sits cold until the panel switch goes back on; a gas unit needs its supply valve open and the pilot burning, relit from the label only when nobody smells gas. A repair is due for water under the tank, a relief valve discharging again, rotten-egg odor or lukewarm water from an electric heater. We inspect, explain the fault, get the price approved and retest.',
       },
       {
-        title: 'Repair or Replace Your Corryville Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Corryville?',
         body: 'Go by the heater’s label. Corryville has a lot of heaters that went in with buildings put up since 2000, and a failed element, thermostat or anode rod on one of those is a repair. A tank weeping from its body has corroded through, and that unit gets replaced. Landlords see both prices and make the call. In a closet install we also check the drain pan and the space around the tank, since a leak there runs straight into the unit below. Tankless can suit a tight closet, and we’ll tell you plainly when it doesn’t.',
       },
     ],

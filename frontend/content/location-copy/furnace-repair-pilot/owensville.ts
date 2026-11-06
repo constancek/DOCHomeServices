@@ -32,7 +32,7 @@ export const owensville: LocationServiceCopy = {
         body: 'Plenty of Owensville no-heat calls get solved by the person living there. Set the thermostat to heat; a blank display means dead batteries. Electric furnaces pull heavy current and often have two breakers, so flip any tripped one fully off, then on. A cabinet toggle may have been bumped.Change a dust-caked filter and press the front cover until it clicks, since a loose cover keeps the unit off. Warm air again means no visit, and tenants should tell the owner. With the rare gas furnace, a gas odor means walk out, switches untouched, and ring the gas company once outside. A CO alarm means clear the house first.',
       },
       {
-        title: 'Repair or Replace Your Owensville Furnace?',
+        title: 'Repair or Replace Your Furnace in Owensville?',
         body: 'Rate the equipment, not the address. Owensville houses mostly date from the 1960s and 70s, yet the electric furnace or heat pump in one may be a recent swap, and a fried element, sequencer or blower motor on a healthy cabinet earns a repair. Oil and gas furnaces have one exception to watch: a split heat exchanger lets carbon monoxide into the house, so we lock that furnace out instead of patching it. New equipment needs a county permit, which we handle. Before any of that, read the electric bill. Backup strips that never shut off make it jump during mild weeks.',
       },
     ],

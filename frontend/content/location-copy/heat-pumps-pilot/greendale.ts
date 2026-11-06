@@ -32,7 +32,7 @@ export const greendale: LocationServiceCopy = {
         body: 'Try a few things first. The thermostat should read heat, not cool or off. Pull the filter, and if it’s gray and matted, put in a new one. In the panel, a Greendale heat pump has two breakers, outdoor unit and indoor air handler or furnace, and both belong in the on position. Brush snow or leaves off the outside unit. In winter it may steam, frost over lightly and pause its fan for a few minutes while it defrosts. That’s normal. If heat returns after those checks, you’re fine. Ice that never melts off, an emergency heat light stuck on, or grinding means it’s our job.',
       },
       {
-        title: 'Repair or Replace Your Greendale Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Greendale?',
         body: 'The heat pump’s condition decides it, not the house’s age. A Greendale ranch from the 1950s may have had its heat pump added only a few years ago. A worn contactor, fan motor or defrost sensor on a sound unit is a repair. A refrigerant leak, or a compressor that has failed, is when we lay out repair and replacement prices together. On a dual fuel system, a furnace that seems to run all the time can mean the heat pump has quietly stopped. We handle the permit on a replacement, and financing is available.',
       },
     ],

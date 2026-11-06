@@ -32,7 +32,7 @@ export const westPriceHill: LocationServiceCopy = {
         body: 'You may not need us. Several long showers can use up a tank, and it needs a while to heat a fresh one. Someone may have bumped the temperature dial while moving boxes in the basement. Electric models run off a breaker that can trip. On gas, check that the valve is open and the pilot is burning; relight by the label, and only if there’s no smell of gas. Book a visit for a pilot that won’t stay lit, a relief valve that keeps discharging, water around the base or hot water that smells of rotten eggs. We diagnose, quote, repair after you agree, then test it.',
       },
       {
-        title: 'Repair or Replace Your West Price Hill Water Heater?',
+        title: 'Repair or Replace Your Water Heater in West Price Hill?',
         body: 'Judge the tank by its label date and its condition, not by the year the house was built. Gas valves, thermocouples, elements, thermostats, dip tubes and anode rods are all replaceable parts, and fixing one on a sound tank is usually the better buy. Once the tank body itself leaks, nothing can be patched and the heater has to be replaced. We quote the repair and the replacement together so you can weigh them. If you have a double with two older tanks, we can price replacing both at once. Tankless is an option, but we won’t push it.',
       },
     ],

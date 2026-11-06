@@ -36,7 +36,7 @@ export const newport: LocationServiceCopy = {
         body: 'In a Newport apartment, a cold room is sometimes a thermostat left on cool or off; set it to heat. Change a filter that looks clogged. Heat pumps have two breakers, one for the outdoor unit and one for the indoor air handler, and a tripped one can be reset once. Clear snow or leaves off the outdoor unit. A unit in defrost steams, frosts lightly and pauses its fan for a few minutes, and none of that is a fault. If warm air follows, you’re done. Ice that won’t melt or an aux heat light that never goes out needs us. We explain the fault and the price first.',
       },
       {
-        title: 'Repair or Replace Your Newport Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Newport?',
         body: 'Look at the heat pump, not the age of the building. Plenty of Newport houses predate 1940, and the outdoor unit on one may be only a few years old; its label tells you. A bad contactor or defrost sensor on a younger unit is a repair. A failed compressor or a recurring refrigerant leak is where we price replacement next to the fix so you can compare. Duke Energy Kentucky supplies the power, and a heat pump leaning on its backup strips shows up there as a higher winter bill.',
       },
     ],

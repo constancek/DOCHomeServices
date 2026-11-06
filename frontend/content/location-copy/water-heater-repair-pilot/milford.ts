@@ -32,7 +32,7 @@ export const milford: LocationServiceCopy = {
         body: 'Milford households can rule out a few things alone. After a run of showers, a drained tank simply needs to recover. Somebody may have nudged the temperature knob. Electric units quit when their breaker trips; reset it once. A gas pilot that blew out may be relit following the steps printed on the heater, and only if the air smells normal. Phone us for a puddle under the tank, hot water with a sulfur smell, or a side relief valve that discharges again and again. We diagnose, talk you through it and price the work first.',
       },
       {
-        title: 'Repair or Replace Your Milford Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Milford?',
         body: 'Base the decision on the heater itself. Its label shows when it went in, and in Milford that date says more than whether the house is from 1920 or 1990. Parts such as the gas valve, thermocouple, heating elements, thermostats, anode rod and dip tube can all be replaced. When the tank body itself is weeping water, the heater is finished. A tank that sat in floodwater usually joins that group. We put a repair price and a replacement price side by side, and you pick. Landlords get the same two numbers for every unit.',
       },
     ],

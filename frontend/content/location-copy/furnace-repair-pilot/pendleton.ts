@@ -32,7 +32,7 @@ export const pendleton: LocationServiceCopy = {
         body: 'Start with the simple checks: thermostat on heat with good batteries, the furnace switch on, no tripped breaker, a clean filter and the furnace door shut tight. If heat comes back, you don’t need a technician. If you smell gas, leave without touching switches or relighting anything and call the gas company once you’re outside. A carbon monoxide alarm means everyone out first. Call us for a breaker that keeps tripping or a burner that won’t stay lit. We find the cause, explain it, price it for your approval and run the heat before we leave.',
       },
       {
-        title: 'Repair or Replace Your Pendleton Furnace?',
+        title: 'Repair or Replace Your Furnace in Pendleton?',
         body: 'Go by the furnace, because the building tells you little. Pendleton has new construction next to buildings from before 1940, and the older ones often have replacement furnaces already. A failed blower motor, igniter or heating element in a newer system is a repair. A cracked heat exchanger on an old gas furnace is a carbon monoxide hazard, and we recommend replacing it, not patching it. Replacements in the city go through the Department of Buildings & Inspections, and we handle that permit. For landlords with several units, we price each furnace on its own.',
       },
     ],

@@ -32,7 +32,7 @@ export const goshen: LocationServiceCopy = {
         body: 'Some checks are yours to make before booking. The thermostat has to be on heat. In a manufactured home the filter usually sits at the closet air handler; swap it if it’s dirty. One breaker serves the outdoor unit and another the inside unit, and either can trip. Out on an open Goshen lot, wind drifts snow against the condenser, so shovel it clear. Steam rising, light frost and a fan that halts briefly are defrost doing its job. Heat coming back means no visit. Phone us for ice that won’t clear, an emergency heat light stuck on, grinding, or a unit that won’t start.',
       },
       {
-        title: 'Repair or Replace Your Goshen Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Goshen?',
         body: 'Go by the heat pump, not the house. Many Goshen homes from the 1990s and 2000s still have the outdoor unit they were built with, and a few have already replaced it. One failed part on a healthy system, such as a contactor or a fan motor, is a repair. A refrigerant leak or a failed compressor is the point to compare repair and replacement prices. In an all-electric house the bill is a good warning: if it jumps sharply in a normal winter month, the backup strips are carrying the heat. Financing is available on a replacement.',
       },
     ],

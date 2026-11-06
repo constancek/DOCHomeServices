@@ -32,7 +32,7 @@ export const fortThomas: LocationServiceCopy = {
         body: 'Some calls can skip us entirely. Put the thermostat on heat and swap the filter. Look in the panel: the condenser breaker and the furnace or air handler breaker both need to be on. On a sloped yard, rake out leaves and snow piled against the condenser. Steam, light frost and a fan that rests a few minutes are defrost, and that’s expected. If warmth returns, you don’t need us. Gas smell near the backup furnace means get out and phone the gas company once outside. We’re needed for ice that stays, a system locked in one mode, or grinding outside. We inspect, explain and price before any repair.',
       },
       {
-        title: 'Repair or Replace Your Fort Thomas Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Fort Thomas?',
         body: 'Go by the heat pump’s age and health; the house’s age says little. A 1920s Fort Thomas home can carry an outdoor unit only a few years old, and a bad fan motor or defrost board there gets fixed. An older unit losing refrigerant, or one with a seized compressor, gets two prices from us, repair and new. Dual fuel can mask trouble: the furnace keeps rooms comfortable while the gas bill quietly grows. In an all-electric condo, a Duke Energy Kentucky charge that rises in a mild month means the backup strips are doing the work.',
       },
     ],

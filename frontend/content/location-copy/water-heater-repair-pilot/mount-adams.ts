@@ -32,7 +32,7 @@ export const mountAdams: LocationServiceCopy = {
         body: 'On Mount Adams, the easy checks come first. A tank that several showers emptied reheats on its own; give it time. The temperature dial on a heater squeezed under a stair gets knocked by whatever is stored there. An electric heater can lose its breaker. On a gas heater, the supply valve may be shut or the pilot out; relight from the label’s directions, never with any gas smell. Beyond those, book us: water collecting at the base, rusty or sulfur-smelling hot water, a rumbling tank, scorched metal near the burner, or a relief valve discharging repeatedly. We diagnose, quote, repair on approval and retest.',
       },
       {
-        title: 'Repair or Replace Your Mount Adams Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Mount Adams?',
         body: 'The label on the heater tells you its install date; the hillside house around it doesn’t. Most of what fails is a single part, from the thermocouple and gas control to the electric elements, anode rod and dip tube, and on a tank that still holds water we swap that part. Once the steel shell leaks, the tank is beyond repair and gets replaced. Both prices come to you together. Stair closets and small Mount Adams basements are tight, so we measure clearance and check the vent before suggesting a new tank.',
       },
     ],

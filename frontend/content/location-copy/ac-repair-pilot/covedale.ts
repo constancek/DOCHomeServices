@@ -32,7 +32,7 @@ export const covedale: LocationServiceCopy = {
         body: 'Most Covedale owners can clear the simple causes on their own. Replace the furnace filter, switch the thermostat to cool and reset the AC breaker once if it tripped. Give it an hour. If the rooms cool, you don’t need a visit. On the city side, where many two-families are rented, tenants should go to the landlord first. Get a technician out if the condenser fan won’t turn or the system runs nonstop without bringing the temperature down. We test the condenser and the furnace blower that moves the air, explain the fault plainly and settle a flat-rate figure with you up front.',
       },
       {
-        title: 'Repair or Replace Your Covedale AC?',
+        title: 'Repair or Replace Your AC in Covedale?',
         body: 'Go by the condenser’s data plate, not the year on the house. Equipment younger than ten years with a single bad part is a repair. In its teens with a seized compressor, a new system is usually the wiser spend, and where the permit comes from depends on whether the house is in the city or Green Township. Because most township homes went up between 1940 and 1969, an aging furnace often sits under the coil, so price the two together. Neglect costs as well: dirt in the outdoor fins or a pinhole leak keeps the compressor running longer, which the Duke Energy bill reflects.',
       },
     ],

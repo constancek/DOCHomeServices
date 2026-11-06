@@ -32,7 +32,7 @@ export const elmwoodPlace: LocationServiceCopy = {
         body: 'Tenants: tell the landlord first. Then check for a thermostat set to heat with working batteries, the furnace’s own power switch on, the breaker untripped, a filter you can see light through, and the lower panel latched, because plenty of furnaces sit idle while it hangs loose. If heat returns after that, no visit is needed. A gas smell means hands off switches and pilot, everyone outdoors, and a call to the gas company from the sidewalk. A carbon monoxide alarm means the same exit. Ring us when the burner lights then drops out or the breaker keeps tripping. We diagnose, quote a flat price, then run a heating cycle.',
       },
       {
-        title: 'Repair or Replace Your Elmwood Place Furnace?',
+        title: 'Repair or Replace Your Furnace in Elmwood Place?',
         body: 'Ignore the house’s age and look at the furnace. A 1920s Elmwood Place double may hold a unit installed a few winters back, and a bad igniter or inducer motor on it is worth the repair. A cracked heat exchanger changes things. It can leak carbon monoxide into the apartments, so we shut that furnace off and discuss a new one with the owner, including the permit we take care of. Owners should also watch the heating bill. A furnace that runs longer for the same indoor temperature often has a clogged filter, a tired blower or a burner out of adjustment.',
       },
     ],

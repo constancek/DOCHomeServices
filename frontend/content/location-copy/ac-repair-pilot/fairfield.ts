@@ -32,7 +32,7 @@ export const fairfield: LocationServiceCopy = {
         body: 'Three quick looks come first: the filter, the thermostat mode and the breaker panel. Heat pump owners often find the thermostat flipped to emergency heat, which blows warm air and costs you nothing to fix. Book a visit when a reset breaker pops a second time, or when the condenser buzzes and its fan sits still. If you rent, report it to management before anything else, since the owner usually decides. We test the indoor and outdoor sections, explain what failed, give you a flat-rate price to approve, and check the vent temperature when we’re done.',
       },
       {
-        title: 'Repair or Replace Your Fairfield AC?',
+        title: 'Repair or Replace Your AC in Fairfield?',
         body: 'Go by the age of the heat pump or condenser, not the house. A heat pump works year-round, so one past ten years with a failed compressor is usually ready to retire, while a newer unit with a single bad part is a quick repair. Replacement in Fairfield needs a city HVAC permit, which we pull. Your electric bill gives early warning. When a heat pump loses refrigerant it runs longer in summer and leans on its backup electric heat in winter, so a bill that jumps without a change in the weather deserves a look.',
       },
     ],

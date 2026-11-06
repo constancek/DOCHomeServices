@@ -32,7 +32,7 @@ export const bellevue: LocationServiceCopy = {
         body: 'A lot of Bellevue cooling trouble starts and ends at the furnace filter. Pull it, and if it’s gray and matted, put in a new one. Older houses often have one return grille, so clear anything blocking it. Flip a tripped breaker back on one time. Cool air within the hour means you can skip the service visit. Bring us in if the breaker trips again or the condenser buzzes while its fan sits idle. We look over the furnace, coil and outdoor unit and tell you plainly what broke. Nothing proceeds until you accept the flat price, and we confirm cold air afterward.',
       },
       {
-        title: 'Repair or Replace AC in a Pre-1940 Bellevue Home?',
+        title: 'Repair or Replace AC in a Pre-1940 Home in Bellevue?',
         body: 'Most Bellevue homes went up before 1960, so the house tells you almost nothing about the air conditioner. The data plate on the condenser does. A unit from roughly 2014 onward with a burned-out capacitor is a repair job. One from the early 2000s with a seized compressor or a coil that keeps losing charge is usually better replaced, and we handle the county permit. Inside the two historic districts, outdoor moves get cleared with the city first. Whatever you decide, a leaking line or clogged condenser fins adds hours of runtime, visible on your Duke Energy Kentucky statement.',
       },
     ],

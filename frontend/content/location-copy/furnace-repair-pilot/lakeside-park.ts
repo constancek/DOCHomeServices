@@ -32,7 +32,7 @@ export const lakesidePark: LocationServiceCopy = {
         body: 'Try the basics first in a Lakeside Park house. Thermostat on heat, new batteries in. Furnace switch on, breaker untripped. A clogged filter can shut a furnace off, and lots of them sit idle until the front panel seats properly. If one of those does the trick, you won’t need us. Call when burners light then drop out, the breaker trips a second time, or the furnace bangs or screeches. Our technician looks the furnace over, tells you what’s wrong, prices it for your sign-off and runs it through a complete heating cycle when done.',
       },
       {
-        title: 'Repair or Replace Your Lakeside Park Furnace?',
+        title: 'Repair or Replace Your Furnace in Lakeside Park?',
         body: 'Go by the furnace. A 1950s Lakeside Park house may have a furnace only a few winters old, and when its igniter, flame sensor or inducer motor fails, it’s worth fixing. An original furnace needing a major part is another matter, and we lay out repair and replacement prices together. A cracked heat exchanger can leak carbon monoxide, which makes it a safety issue before a money one. Replacement needs a Kentucky permit through the county planning office. With electric heat, the Duke Energy Kentucky bill warns you: a jump in similar weather means the system is straining.',
       },
     ],

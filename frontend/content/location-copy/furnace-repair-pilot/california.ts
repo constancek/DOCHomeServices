@@ -32,7 +32,7 @@ export const california: LocationServiceCopy = {
         body: 'Most of what stops a furnace here costs nothing to check. Thermostat on heat, batteries fresh. The switch mounted beside the furnace turned on, the breaker not tripped, the filter not clogged. Then shove the furnace door fully closed; plenty of models won’t fire with it ajar. If warm air returns, you can skip the visit. Get us out when the furnace lights and drops out, clicks without catching, or trips the breaker again. A gas smell or a CO alarm means everyone outside, no switches, no relighting, and a call from the yard. We find it, explain it, quote it for your OK, and run the heat afterward.',
       },
       {
-        title: 'Repair or Replace Your California Furnace?',
+        title: 'Repair or Replace Your Furnace in California?',
         body: 'Ignore the house’s age and read the furnace’s data plate. In a 1960s California home, the unit downstairs could be a few years old or could have been running since the 1990s. Igniters, flame sensors and inducer motors are everyday repairs. A cracked heat exchanger lets carbon monoxide escape, so we shut that furnace down and the talk turns to replacing it. A new furnace here needs a permit from the City of Cincinnati Department of Buildings & Inspections, and we handle the filing. Before a furnace fails outright, longer and longer run times tend to show up on the gas bill.',
       },
     ],

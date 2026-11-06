@@ -32,7 +32,7 @@ export const edgewood: LocationServiceCopy = {
         body: 'Before booking anything, replace the filter and try one breaker reset. If cooling returns and holds, you can skip us. Look at the condenser outside too: with power shut off at the disconnect, a coil packed with leaves or clippings can be rinsed with a gentle stream from a hose. Book a visit if the breaker keeps tripping, the fan on top of the condenser stays still, or water pools around the basement furnace. We test every part of the system and quote the fix before any work. Before leaving, the system runs while we read supply-vent temperatures.',
       },
       {
-        title: 'Repair or Replace Your Edgewood AC?',
+        title: 'Repair or Replace Your AC in Edgewood?',
         body: 'Look at the install date on the condenser, not the deed. Nearly every 1970s Edgewood house has swapped out its first system, and that second one may be aging now. Repair a young unit when a single component breaks. When an old system loses its compressor, replacement usually wins, and we price both paths so you can weigh them. With most homes owner-occupied, most callers expect to stay put, so running costs over the next ten years matter. We file the county permit any replacement needs. Short of that, Duke Energy Kentucky bills rising summer after summer usually mean a grimy coil or refrigerant slowly escaping.',
       },
     ],

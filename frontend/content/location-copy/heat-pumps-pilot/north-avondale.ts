@@ -36,7 +36,7 @@ export const northAvondale: LocationServiceCopy = {
         body: 'A North Avondale heat pump that seems dead is sometimes just set wrong. Check the thermostat is on heat; cool or off shuts it down. Hold the filter to a lamp, and if no light comes through, replace it. There are two breakers to look at, one for the outdoor unit and one for the air handler, so flip any that tripped. Brush snow and leaves off the outdoor coil. A defrost cycle throws off steam and light frost, and the fan can go still briefly. Warm air again means no visit. Ice that won’t melt off, or an emergency heat light that stays lit, is our job.',
       },
       {
-        title: 'Repair or Replace Your North Avondale Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in North Avondale?',
         body: 'Decide on the heat pump, not on a house that has stood since before 1940. The install date is on the outdoor unit’s label. On a younger unit, a bad contactor or a failed defrost sensor is a repair. On an older one, a compressor failure or a leak that returns means we price replacement alongside the repair. Duke Energy Ohio supplies both gas and power here, so in a dual fuel house a struggling heat pump shows as gas use creeping up, and in an all-electric apartment as a higher electric bill.',
       },
     ],

@@ -32,7 +32,7 @@ export const amelia: LocationServiceCopy = {
         body: 'Try the cheap fixes before booking anyone in Amelia. A blocked filter is the usual culprit, so start there. On the heat pumps common here, the thermostat must say cool, not heat or emergency heat. Give a tripped breaker one reset. Cold air coming back means we aren’t needed. Schedule us if the breaker keeps tripping, or the outdoor unit runs while the rooms stay warm. Both units get inspected, you see the failed part, and a set price goes to you before work begins. When the repair is done, we test the cooling with you.',
       },
       {
-        title: 'Repair or Replace Your Amelia AC?',
+        title: 'Repair or Replace Your AC in Amelia?',
         body: 'An Amelia home built in 1995 is probably on its second system by now, while a 2010 house may still have its first, so read the outdoor unit’s label. Fix a system with life left when one component fails. Replace it once an aging compressor stops or the coil leaks a second time. Clermont County Building Inspection issues replacement permits here, on either side of the township line. We take care of that filing. A heat pump going downhill shows up on the Duke Energy Ohio bill in summer and in winter.',
       },
     ],

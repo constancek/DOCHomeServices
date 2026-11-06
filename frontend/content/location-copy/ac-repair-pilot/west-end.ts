@@ -32,7 +32,7 @@ export const westEnd: LocationServiceCopy = {
         body: 'Two checks belong to you before anyone visits: swap the filter and look at the breaker. If you cool with a window unit, a dead one usually costs less to replace than to repair, so you may not need us at all. For central systems, report it when the outdoor fan won’t start or frost coats the larger copper line. Since most West End homes are rented, the owner or manager normally books the visit. The technician checks both halves of the system, explains what failed and quotes a flat rate. After the repair, we confirm the vents are blowing cold before leaving.',
       },
       {
-        title: 'Repair or Replace Your West End AC?',
+        title: 'Repair or Replace Your AC in the West End?',
         body: 'Go by the nameplate on the condenser, not the building. West End buildings range from the 1930s to the 1990s, so a 1970s apartment can hold a two-year-old heat pump and a rowhouse can hold a unit from the last century. When the equipment is under a dozen years old and only a capacitor or fan motor has quit, fix it. When it is old and the compressor has seized, replace it, which needs a city mechanical permit; window units don’t. Ducts squeezed into a pre-war rowhouse may limit how big the new system can be. Meanwhile, a dirty outdoor coil raises the Duke Energy Ohio bill.',
       },
     ],

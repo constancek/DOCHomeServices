@@ -32,7 +32,7 @@ export const clifton: LocationServiceCopy = {
         body: 'Begin with the filter and how the thermostat is set. A clogged filter freezes the coil, and a thermostat left on heat or fan only makes a working system feel broken. When either one solves it, there’s no need for a technician. Renters should tell the landlord or building manager before booking, since the owner usually pays and picks who works on the equipment. Book a visit when the outdoor fan won’t move, ice coats the copper line, or water appears under the furnace. We check both the indoor and outdoor sides, describe the fault plainly, quote a flat price, then confirm cold air once it’s fixed.',
       },
       {
-        title: 'Repair or Replace Your Clifton AC?',
+        title: 'Repair or Replace Your AC in Clifton?',
         body: 'Very few Clifton homes date from 2000 or later, so nearly every system here was fitted into an older building. Check the year printed on the condenser. A system younger than about 12 years with a single failed part, a capacitor or contactor for example, is worth repairing. Older than that with a dead compressor, replacement usually wins, and inside city limits it needs a mechanical permit from Buildings & Inspections. On a sloped lot, the new pad must be set level so the condenser doesn’t tilt again. Until then, a matted outdoor coil or slow leak adds to what you pay Duke Energy Ohio.',
       },
     ],

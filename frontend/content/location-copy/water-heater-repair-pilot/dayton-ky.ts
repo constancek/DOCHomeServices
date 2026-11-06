@@ -32,7 +32,7 @@ export const daytonKy: LocationServiceCopy = {
         body: 'In Dayton, a tank drained by back-to-back showers just needs time to recover. A dial knocked lower when someone stored boxes in the basement gives the same weak shower. Electric heaters quit on a tripped breaker. Gas heaters quit when the pilot blows out or somebody shut the gas cock, and you can relight following the printed steps if there’s no gas smell. Call us about water spreading across the basement floor, rust-brown or sulfur hot water, rumbling sediment, or a relief valve dumping water down its pipe. Renters report it to the landlord in writing; we fix water heaters, not leases. Fault found, then priced, then fixed.',
       },
       {
-        title: 'Repair or Replace Your Dayton Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Dayton?',
         body: 'The tank matters here, not the century-old Dayton house around it, and its label shows the install date. Thermocouples, gas valves, elements, thermostats and relief valves are repairs, along with anode rods and dip tubes. A tank leaking through its own wall is finished and gets replaced. We price both and you choose. In old Dayton basements a new heater often means a new shutoff valve and a look at the flue pipe too, so the quote covers what the install really needs. Kentucky does plumbing inspections at the state level, and we pull the permit where one is needed.',
       },
     ],

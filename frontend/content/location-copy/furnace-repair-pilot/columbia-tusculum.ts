@@ -32,7 +32,7 @@ export const columbiaTusculum: LocationServiceCopy = {
         body: 'Before calling, try the simple fixes. Check the thermostat is in heat mode and swap its batteries. Furnaces have a dedicated power switch, usually mounted on or beside the cabinet, plus their own breaker; both must be on. A clogged filter should come out, and the blower door must click fully closed, since many furnaces won’t fire with it ajar. If heat comes back, cancel the visit. Smelling gas is the one case that changes the order: leave every switch as it is, don’t relight, get out and call the gas company from the street. Everything else, we test, name the failed part and quote it before starting.',
       },
       {
-        title: 'Repair or Replace Your Columbia-Tusculum Furnace?',
+        title: 'Repair or Replace Your Furnace in Columbia-Tusculum?',
         body: 'Weigh the furnace, not the address. Houses here go back to the neighborhood’s earliest years and many hold furnaces just a few winters old; an igniter or limit switch failure on one of those is worth fixing. When an old furnace needs a major part, we quote that repair beside a new furnace. A cracked heat exchanger can let carbon monoxide escape, so safety settles it. A sounding CO alarm means everyone out first. If the city’s Buildings & Inspections department requires a permit for the replacement, we pull it. Inside the local historic district, we ask the city before cutting a new vent through an outside wall.',
       },
     ],

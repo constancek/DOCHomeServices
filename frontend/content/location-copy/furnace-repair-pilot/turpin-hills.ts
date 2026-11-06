@@ -32,7 +32,7 @@ export const turpinHills: LocationServiceCopy = {
         body: 'Run through four checks first. Put the thermostat on heat and replace its batteries. Find the furnace switch and the breaker and make sure both are on. Slide out the filter, and if it’s caked with dust, put in a new one. Then press the furnace door shut, because many units won’t start with the door switch open. If the heat comes back, there’s no need to book us. Call if the furnace short cycles, the burners won’t stay lit, or your carbon monoxide alarm sounds, and in that case get everyone outside before you phone. We diagnose, quote, repair once you approve, and test the heat.',
       },
       {
-        title: 'Repair or Replace Your Turpin Hills Furnace?',
+        title: 'Repair or Replace Your Furnace in Turpin Hills?',
         body: 'Look at the furnace, not when the house was built. Many Turpin Hills houses from the 1970s have already replaced their first furnace, and a repair to a sound unit, like a new inducer motor or circuit board, is usually money well spent. A cracked heat exchanger changes the decision, since it can leak carbon monoxide, and we won’t leave that running. Replacement needs a permit, and we handle it. Your gas bill is a useful early warning: a furnace that runs longer to hold the same temperature, with no change in the weather, is losing ground.',
       },
     ],

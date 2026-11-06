@@ -32,7 +32,7 @@ export const glendale: LocationServiceCopy = {
         body: 'Begin with the simple checks. Hot water drained by a morning of showers returns once the tank recovers. A knob turned low or a gas cock left off can be put right without us, and so can a tripped breaker on an electric unit. If the pilot is dark and the basement smells clean, light it following the steps on the heater. Ring us when water pools around the base, the relief valve on the side lets go more than once, the hot water smells of sulfur, or the burner shows scorching. We inspect, explain, price it for your okay and test the hot water after.',
       },
       {
-        title: 'Repair or Replace Your Glendale Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Glendale?',
         body: 'A Glendale house can date from the 1800s while the heater in its basement is quite young, and the data plate shows its age. Trust that plate. Swapping a thermocouple, element, gas control or dip tube is a repair. Rust breaking through the tank itself means replacement. In old basements we also judge the flue and the shutoff, because a fresh tank on a crumbling chimney isn’t a finished job. You see the repair price and the replacement price together, and any permit the job needs is ours to pull.',
       },
     ],

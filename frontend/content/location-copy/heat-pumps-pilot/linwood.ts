@@ -32,7 +32,7 @@ export const linwood: LocationServiceCopy = {
         body: 'In Linwood the heat pump shares the job with a gas furnace, so check both halves before calling. The thermostat belongs on heat. A dusty filter gets swapped. Look for two breakers, one feeding the outdoor unit and one feeding the furnace, and reset whichever tripped. Pull leaves and snow off the outside coil. During defrost the unit steams, frosts over lightly and lets the fan sit idle, which is normal. Warm air back means no visit. We’re needed when ice stays on, the system won’t leave cooling, the fan grinds or the furnace never takes over. You get the diagnosis and the quote before any repair.',
       },
       {
-        title: 'Repair or Replace Your Linwood Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Linwood?',
         body: 'Decide on the heat pump, not the house. A Linwood house may be more than 80 years old with a heat pump only a few years old, so check the outdoor unit’s label. Bad fan motors and contactors on newer units are repairs. Refrigerant leaks and failed compressors on older units are where replacement becomes a real option, and we price both. A replacement needs a mechanical permit from the city’s Department of Buildings & Inspections, which we pull. Because the furnace covers for a failing heat pump, a gas bill that rises without a cold snap is often the first sign.',
       },
     ],

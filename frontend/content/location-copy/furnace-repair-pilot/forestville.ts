@@ -32,7 +32,7 @@ export const forestville: LocationServiceCopy = {
         body: 'Start small. The thermostat has to show heat, and its batteries must still work. Flip on the switch on or beside the furnace and reset the breaker if it tripped. Pull the filter and replace it if it’s gray. Then press the furnace door home, since a panel left loose keeps many furnaces from running. If one of those brings warmth back, no technician is needed. A gas smell means walking out without touching a switch and calling the gas company from the yard. If the carbon monoxide alarm is sounding, get everybody out before anything else. Past that, we inspect, explain what failed and price it for your approval.',
       },
       {
-        title: 'Repair or Replace Your Forestville Furnace?',
+        title: 'Repair or Replace Your Furnace in Forestville?',
         body: 'Trust the furnace label over the house’s age. A 1988 Forestville home may hold a furnace put in six winters ago, and a bad igniter, inducer or blower on it is a sensible fix, as is a burned element on an electric furnace. The cracked heat exchanger is the exception. Carbon monoxide can slip through that crack, so the furnace stays shut down while we talk through a replacement, permit included. Heat pump owners should watch the Duke Energy bill: a jump during a mild month often means the backup strips are heating the whole house.',
       },
     ],

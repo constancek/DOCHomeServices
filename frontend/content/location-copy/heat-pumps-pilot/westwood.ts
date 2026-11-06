@@ -32,7 +32,7 @@ export const westwood: LocationServiceCopy = {
         body: 'Westwood tenants and owners can rule out the easy causes. The thermostat belongs on heat. A grimy filter comes out and a clean one goes in. At the panel, the condenser and the air handler each have a breaker; reset a tripped one only once. Rake leaves and snow off the condenser. A unit that steams, frosts lightly and stops its fan for a bit is defrosting. Warmth back means skip us, though renters should still tell the landlord. A coil frozen for hours, an emergency heat light that never goes off, or a still condenser fan needs a technician. Gas smell near a backup furnace: get out, then call.',
       },
       {
-        title: 'Repair or Replace Your Westwood Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Westwood?',
         body: 'Go by the equipment, not the year the house went up. Plenty of 1950s Westwood houses run a heat pump installed recently, and when that unit loses its fan motor or defrost board, fixing it makes sense. On an aging system with a coil leak or a compressor that won’t run, you get two quotes from us, repair and new, with the permit built into the second. On Duke Energy Ohio bills, an all-electric apartment whose costs jump in an ordinary month usually has backup strips doing the heating. In a dual fuel house, watch for the furnace running constantly while the outdoor unit sits idle.',
       },
     ],

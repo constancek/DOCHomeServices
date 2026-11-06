@@ -32,7 +32,7 @@ export const mountAdams: LocationServiceCopy = {
         body: 'Before you book anyone, slide out the furnace filter and replace it if it’s dirty, then check that the thermostat says cool. If the vents turn cold within half an hour, you’ve fixed it and owe nobody anything. Bring us in when the outdoor fan sits still or water collects around the base of the furnace. On a sloped Mount Adams lot, also tell us if the condenser has started to lean. The technician checks the furnace coil and the outdoor unit, explains the fault and sets a flat price before working. When the repair is finished, we measure the cooling at the registers.',
       },
       {
-        title: 'Repair or Replace Your Mount Adams AC?',
+        title: 'Repair or Replace Your AC in Mount Adams?',
         body: 'The age of the AC matters more than the age of the house, and half the houses here predate 1940 while their equipment rarely does. Under about 12 years old with one failed part, repair it. Older with a dead compressor, or with a leaking coil on the furnace as well, replacement is usually the better spend. Permits here go through the city’s Department of Buildings & Inspections, and we confirm what a replacement needs before booking it. On a steep lot, a new condenser needs a pad that won’t shift. Until then, a dirty coil or low charge stretches compressor run time and raises the electric bill.',
       },
     ],

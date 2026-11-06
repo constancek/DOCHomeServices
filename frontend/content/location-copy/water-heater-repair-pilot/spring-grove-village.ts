@@ -32,7 +32,7 @@ export const springGroveVillage: LocationServiceCopy = {
         body: 'A family running showers for an hour can outpace any tank; wait and it recovers. Basement laundry trips knock dials sideways, so check the setting. On an electric unit, open the panel and look for a flipped breaker. On a gas unit, confirm the supply handle is open and look through the little window for the pilot; relight per the printed steps only when nothing smells of gas. We should come out for standing water near the base, brown or sulfur-tinged water, a pilot that dies again, or scorching around the burner opening. You get the diagnosis, approve the price, and we check the fix.',
       },
       {
-        title: 'Repair or Replace Your Spring Grove Village Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Spring Grove Village?',
         body: 'Spring Grove Village houses center on 1938, but the heater in the basement went in whenever the last one failed, and its sticker says when. Worn controls and sensors get swapped one at a time: the pilot sensor, the burner control, an element, the pressure valve, the anode, the inlet tube. Corrosion through the steel shell is the end of that tank, and only a new heater fixes it. On a close call, we write both numbers down and the choice is yours. The city’s Buildings & Inspections office permits new tanks here, and filing it is part of our job.',
       },
     ],

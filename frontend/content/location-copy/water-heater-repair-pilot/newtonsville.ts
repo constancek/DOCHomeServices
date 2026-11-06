@@ -32,7 +32,7 @@ export const newtonsville: LocationServiceCopy = {
         body: 'Not every cold shower needs a technician. After a run of baths, a tank just needs a while. Make sure nobody turned the dial down, and look at the breaker panel, since electric heat is the norm out here and a tripped breaker is a common cause. If the hot water returns, keep your money. Book us when water collects under the tank or the relief valve on its side lets go more than once. Popping and rumbling mean sediment has built up, and water stuck at lukewarm usually means an element or thermostat. We test, explain, price it for your approval, then confirm the repair.',
       },
       {
-        title: 'Repair or Replace Your Newtonsville Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Newtonsville?',
         body: 'Judge the heater by its own label. Plenty of Newtonsville homes are from the 1970s, but the tank may be far newer, and the sticker shows when it went in. Burned-out elements, a bad thermostat, a worn anode rod or a cracked dip tube are all fixable on a tank that still holds water. A tank seeping from its own seams isn’t, and we’ll say so plainly. We quote both options and the choice stays yours. If a permit applies, we take care of it through the county. Some owners ask about tankless; we’ll give a straight answer on whether it suits the house.',
       },
     ],

@@ -32,7 +32,7 @@ export const lakesidePark: LocationServiceCopy = {
         body: 'Try a new filter, and give a tripped breaker one reset. Cold air coming back means you can skip the visit and keep your money. In Lakeside Park’s prewar homes, a warm upstairs on a scorching afternoon can be a duct limit rather than a failure. Book us when the system runs but the vents push air that’s barely cool, or when water pools by the indoor unit. A breaker that won’t stay reset is another reason. We test the equipment and walk you through what we found, then quote a flat price for your approval. The system runs a full cycle before we leave.',
       },
       {
-        title: 'Repair or Replace Your Lakeside Park AC?',
+        title: 'Repair or Replace Your AC in Lakeside Park?',
         body: 'Go by what’s installed, not when the house went up. A 1930s home with a condenser that’s a few summers old should get a repair when its fan motor quits. A unit well into its second decade with a dead compressor shouldn’t, and we lay out both costs for comparison. Older houses also make replacement the right moment to inspect the ducts, since new equipment can’t fix a run that was undersized from day one. Swapping the outdoor unit requires a county permit, which we file. Until then, a Duke Energy Kentucky bill that rises while your routine stays the same usually signals a leak or a grimy coil.',
       },
     ],

@@ -32,7 +32,7 @@ export const terracePark: LocationServiceCopy = {
         body: 'Many Terrace Park calls can end before we arrive. Pull the old filter out of the furnace and put a clean one in, check that the thermostat has fresh batteries and sits in cooling mode, and cycle the condenser’s breaker one time. Cool air returning means you can cancel. While you’re outside, trim shrubs and rake leaves away from the condenser. Schedule us if that breaker pops again or the fan on top refuses to turn. We go over the furnace side and the yard unit, name the failure, and only begin after you accept a flat figure. Last, we take a temperature reading at the registers.',
       },
       {
-        title: 'Repair or Replace Your Terrace Park AC?',
+        title: 'Repair or Replace Your AC in Terrace Park?',
         body: 'A 1954 house tells you little; the condenser’s nameplate date tells you a lot. Young equipment with one failed component is a repair. A seized compressor on aging equipment, or an indoor coil leaking for a second time, makes new equipment the smarter purchase, and that’s the moment to ask whether postwar ductwork can carry what a modern system pushes. Building permits for that work, including a new furnace, go through Hamilton County Buildings & Inspections, and we file them. Before it gets that far, a failing system announces itself on the electric bill, which creeps up while the rooms stay warm.',
       },
     ],

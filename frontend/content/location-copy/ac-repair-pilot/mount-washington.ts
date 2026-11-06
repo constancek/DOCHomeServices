@@ -32,7 +32,7 @@ export const mountWashington: LocationServiceCopy = {
         body: 'Set the thermostat back to cooling, slide in a fresh filter and flip a tripped breaker once. Heat pump owners should also confirm the thermostat hasn’t been left on emergency heat, a setting that feels exactly like a dead AC. If one of those fixes it, you don’t need us. Bring us in once the outdoor fan sits motionless or frost creeps along the fat copper line. Leave a tilted condenser switched off. We open up both units and point out what failed, with a fixed price in front of you. After your yes, we repair it and read the supply air.',
       },
       {
-        title: 'Repair or Replace Your Mount Washington AC?',
+        title: 'Repair or Replace Your AC in Mount Washington?',
         body: 'A 1950s house here may be on its third air conditioner, so the house date won’t settle it. The condenser’s manufacture date will. Younger than roughly 12 years, with one bad component, it deserves the repair. Past that age, a seized compressor or a coil that leaks refrigerant tips the math toward new equipment. A heat pump’s outdoor unit carries both seasons. On a slope, the new pad has to sit level and firm before equipment goes on it, and we pull the City of Cincinnati permit. Meanwhile, grime on the outdoor coil stretches every cycle, and Duke Energy Ohio meters each extra minute.',
       },
     ],

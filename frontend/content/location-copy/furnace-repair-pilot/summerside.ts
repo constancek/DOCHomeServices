@@ -32,7 +32,7 @@ export const summerside: LocationServiceCopy = {
         body: 'Start with the thermostat: it should be on heat, set above room temperature, with batteries that aren’t dead. Then check the furnace switch, which often looks like a light switch nearby, the breaker panel and the filter. In a condo closet electric system, check that breaker twice. Make sure the furnace door is seated. If one of those fixes it, you don’t need us. Should you smell gas, keep your hands off light switches, don’t relight the furnace, and call the gas company after you’re out of the unit. If a carbon monoxide alarm sounds, get everyone outside first. We test, quote the repair, then check the vents.',
       },
       {
-        title: 'Repair or Replace Your Summerside Furnace?',
+        title: 'Repair or Replace Your Furnace in Summerside?',
         body: 'Judge the furnace itself. Summerside homes are mostly from the 1960s through the 1990s, so the furnace in yours could be original or a recent swap, and the label inside the door tells you which. A new igniter, flame sensor or blower capacitor on a younger unit is a sensible repair. A gas furnace with a cracked heat exchanger is a carbon monoxide risk, and we won’t recommend patching it. If replacement is the answer, we handle the permit. On electric heat, a Duke Energy Ohio bill that jumps in an ordinary winter month often points to a failed element or a heat pump leaning on backup heat.',
       },
     ],

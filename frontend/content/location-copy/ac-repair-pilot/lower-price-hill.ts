@@ -32,7 +32,7 @@ export const lowerPriceHill: LocationServiceCopy = {
         body: 'If you rent, report the problem to your landlord before anything else, since the owner decides on repairs to their equipment. Then do what a tenant safely can. Make sure the thermostat is on cool and set below room temperature, and look at whether the filter is clogged. If cold air comes back, there’s nothing more to do. A system that keeps tripping its breaker, an outdoor fan that won’t spin or frost on the refrigerant line needs a technician. We look at the condenser and the indoor unit, tell tenant and owner what failed, and give a flat-rate price before starting.',
       },
       {
-        title: 'Repair or Replace an Older Lower Price Hill AC?',
+        title: 'Repair or Replace an Older AC in Lower Price Hill?',
         body: 'Ask how old the equipment is, because an 1850s house tells you nothing about its condenser. A unit under about 10 years old with one bad part should be repaired. Past 12 to 15 years, a failed compressor usually justifies replacement, and the new system needs a City of Cincinnati mechanical permit. Landlords should also watch the Duke Energy Ohio account in electrically heated units, where a weak heat pump wastes power in both seasons. A slow leak or a dirty outdoor coil keeps it running longer than it should, and catching that early is cheaper than a compressor.',
       },
     ],

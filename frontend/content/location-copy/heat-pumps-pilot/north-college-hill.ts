@@ -36,7 +36,7 @@ export const northCollegeHill: LocationServiceCopy = {
         body: 'Start with the thermostat: heat mode, and a set point above the room temperature. Then the filter, which matters more on a heat pump than most people expect. Check both breakers, the outdoor one and the indoor one. Keep snow and leaves off the outdoor unit. A burst of steam, thin frost and a fan that stops briefly are the defrost cycle doing its job. If the heat returns, you don’t need a technician. We do need to see it when ice covers the coil and won’t clear, emergency heat stays lit, the system is stuck cooling or the outdoor fan won’t turn.',
       },
       {
-        title: 'Repair or Replace Your North College Hill Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in North College Hill?',
         body: 'Judge the heat pump on its own label and condition; a North College Hill house built in the 1950s may have a much younger unit outside. Capacitors, contactors, fan motors and defrost boards all get replaced on a unit that’s otherwise in fair shape. Once the compressor has failed, or refrigerant leaks out again after a fix, we write up a replacement price next to the repair price. One thing to watch in dual fuel houses: a heat pump that has quietly given up hands everything to the gas furnace, so rooms stay warm and the gas bill climbs. We pull the permit on any replacement, and financing is available.',
       },
     ],

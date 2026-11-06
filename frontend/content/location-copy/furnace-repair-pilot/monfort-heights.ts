@@ -32,7 +32,7 @@ export const monfortHeights: LocationServiceCopy = {
         body: 'The basics can spare you a visit. Give the thermostat new batteries and put it on heat. Flip the breaker and the furnace’s own switch back on. Pull the filter: a choked one lets the furnace overheat and quit. Then seat the access panel, which many furnaces need closed before they’ll run. Heat back on means you don’t need a technician. A furnace that keeps shutting off, or a blower moving cold air, means you do. Smell gas and you go outside, touching no switches, and ring the gas company from the yard. We find the fault, explain it, price it for your OK and test the repair.',
       },
       {
-        title: 'Repair or Replace Your Monfort Heights Furnace?',
+        title: 'Repair or Replace Your Furnace in Monfort Heights?',
         body: 'Ignore the year on the house and judge the furnace in the basement. A 1970s Monfort Heights ranch may be on its second or third furnace, while a 2000s subdivision home may still run the one the builder fitted. On a furnace in good shape, a dead inducer motor, igniter or control board is money well spent. A cracked heat exchanger is a different story: carbon monoxide can get through it, so that furnace stays off. A carbon monoxide alarm means everyone goes outside first. If replacing is the answer, the permit is our job. A gas bill that climbs in a mild month usually means the furnace is slipping.',
       },
     ],

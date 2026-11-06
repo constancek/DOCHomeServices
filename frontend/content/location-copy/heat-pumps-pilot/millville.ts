@@ -36,7 +36,7 @@ export const millville: LocationServiceCopy = {
         body: 'In Millville, look at the thermostat screen first: if it shows cool or off, set it to heat. Hold the filter up to a light; if none shows through, replace it. Two breakers feed the system, one for the outdoor unit and one for the air handler. Kick snow or leaves away from the outdoor cabinet. A white cloud of steam and a frosted coil with the fan stopped is defrost. If the heat comes back on, you don’t need us. Ice that won’t melt, an emergency heat light that won’t go out or a fan that won’t turn means a visit, and we price the fix first.',
       },
       {
-        title: 'Repair or Replace Your Millville Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Millville?',
         body: 'The deciding factor is the heat pump, since a 1960s Millville house says nothing about the unit outside it. When a fan motor or contactor burns out on a heat pump that otherwise runs well, fixing it is the sensible call. Compressor failure is different, and so is refrigerant that drains away again weeks after a recharge; then we write up a repair price and a replacement price for you to compare. An electric bill that jumps during ordinary weather usually means the resistance strips in the air handler are doing the heating. We take care of the permit if you replace.',
       },
     ],

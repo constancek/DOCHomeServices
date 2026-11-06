@@ -32,7 +32,7 @@ export const westernHills: LocationServiceCopy = {
         body: 'Before booking anyone, run the free checks. Set cooling a little under the indoor temperature, swap out a clogged filter and give a tripped breaker a single reset. When the vents blow cold again, you can skip the technician. With a heat pump, also make sure the thermostat isn’t parked on emergency heat. Bring us in when frost coats the thick refrigerant pipe outside or the condenser buzzes without its fan moving. A breaker that trips twice sends the same signal. We test the system, show you the fault and price it flat, then confirm chilled air at the registers before leaving.',
       },
       {
-        title: 'Repair or Replace Your Western Hills AC?',
+        title: 'Repair or Replace Your AC in Western Hills?',
         body: 'The year your house was built tells you little about its condenser, so go by the data plate. Keep a system under roughly a dozen years old that lost one part. Retire an aging one when its compressor quits or the coil leaks. R-22 units belong on the replacement list too, because the EPA says no new R-22 has been made in or brought into the US since 2020. Size the new unit to what mid-century ducts can carry, not the old nameplate. Duke Energy Ohio supplies Cheviot and Green Township homes, and a leak or dirty coil adds run time to every one of its bills.',
       },
     ],

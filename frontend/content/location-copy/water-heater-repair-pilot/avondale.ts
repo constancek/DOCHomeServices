@@ -32,7 +32,7 @@ export const avondale: LocationServiceCopy = {
         body: 'A big household showering before school can drain an apartment tank, and patience fixes that. A temperature knob knocked down during cleaning takes seconds to set right. For electric models, flip the panel breaker back once; for gas models, open the supply valve if someone closed it and follow the printed label to relight the pilot, provided the room doesn’t smell of gas. Tenants report anything past that to the landlord. Puddles at the base, a relief valve spitting again, a popping tank, foul-smelling water or electric units stuck at lukewarm mean a repair visit. We inspect, explain the fault and price it first.',
       },
       {
-        title: 'Repair or Replace Your Avondale Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Avondale?',
         body: 'An Avondale building may be from the 1920s, but its water heater could be a few years old, so check the label for the date. Elements, thermostats, thermocouples, gas valves and anode rods are repairs, and on a sound tank they’re the sensible choice. A tank leaking through its body is a replacement, because no part fixes it. Owners get both prices and decide. Where several units share one basement, we look at the neighboring tanks too and flag any that look close to failing. Tankless can save closet space, but we only suggest it where it fits.',
       },
     ],

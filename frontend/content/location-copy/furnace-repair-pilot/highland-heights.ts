@@ -32,7 +32,7 @@ export const highlandHeights: LocationServiceCopy = {
         body: 'Plenty of no-heat calls in Highland Heights solve themselves at the breaker box. Electric systems usually have two breakers, one for the indoor air handler and one outside, so reset both. Put the thermostat on heat and give it fresh batteries. A filter packed with dust can trip the high-limit switch, so swap it, and reseat the furnace panel, since many units sit dead with it ajar. Warm air again means no visit needed. In gas homes, if you smell gas, leave, don’t operate switches or relight anything, and contact the gas company from outdoors. With a carbon monoxide alarm sounding, get everybody out before calling.',
       },
       {
-        title: 'Repair or Replace Your Highland Heights Furnace?',
+        title: 'Repair or Replace Your Furnace in Highland Heights?',
         body: 'Judge the equipment rather than the building. Plenty of 1980s condos here have heat pumps put in only recently, and a new defrost board or fan motor for one of those is money well spent. An aging heat pump with a dead compressor is a different story. Gas furnaces have one hard line: a cracked heat exchanger, which can leak carbon monoxide, gets replaced. On electric heat, keep an eye on the Duke Energy Kentucky statement. Usage climbing during a stretch of steady weather usually means backup strips are covering for a weak heat pump.',
       },
     ],

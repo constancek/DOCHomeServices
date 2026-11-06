@@ -32,7 +32,7 @@ export const springGroveVillage: LocationServiceCopy = {
         body: 'Check a few things before calling. The thermostat should read heat, not off or cool, and a dim screen needs batteries. In older basements the furnace switch is often on a joist or at the top of the stairs; make sure it’s on. Reset the breaker once, replace a dirty filter and shut the blower door tight, because most furnaces stay off with it loose. If heat returns, cancel the visit. A gas smell means leave without flipping anything and phone the gas company from outdoors. A sounding carbon monoxide alarm means everyone out first. Otherwise we inspect, explain the fault, quote it and run a heating cycle.',
       },
       {
-        title: 'Repair or Replace Your Spring Grove Village Furnace?',
+        title: 'Repair or Replace Your Furnace in Spring Grove Village?',
         body: 'Read the furnace’s data tag, not the year on the house. Some 1930s homes along Winton Road hold furnaces only a few winters old, and on those, a new igniter or inducer motor is money well spent. Heat exchanger cracks are another matter. Combustion gases, carbon monoxide among them, can slip through into the rooms, so we lock the furnace off and advise replacing it, since patching isn’t safe. A replacement runs through the city permit process, which we take care of. Before it comes to that, compare gas bills year to year. Higher use in a similar month usually means a furnace running long cycles.',
       },
     ],

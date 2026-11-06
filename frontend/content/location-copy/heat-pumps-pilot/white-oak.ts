@@ -36,7 +36,7 @@ export const whiteOak: LocationServiceCopy = {
         body: 'Start at the wall: a thermostat left on cool or off gives no heat. Pull the filter and replace it if it’s gray. In the panel, the outdoor unit and the indoor unit each have a breaker; flip on any that tripped. Give the outdoor unit room by shoveling snow, chipping ice and sweeping leaves from its sides. On cold days the coil defrosts itself, so steam, light frost and a fan sitting still briefly are normal. Heat back on means no call. Ice that never melts or a system that only cools means call us. We test, show you the fault and quote it first.',
       },
       {
-        title: 'Repair or Replace Your White Oak Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in White Oak?',
         body: 'A White Oak house from 1968 can have a heat pump that went in decades later, so read the date on the outdoor label instead of guessing from the house. On a unit that tests healthy, a bad defrost board or one burned-out electrical part gets fixed and that’s the end of it. An older unit that lost its compressor or keeps leaking refrigerant gets two quotes from us, one to fix and one to replace. Replacement brings the permit and the township zoning step, which we take care of. In all-electric homes, a failing heat pump announces itself on the Duke Energy bill as the backup strips run longer.',
       },
     ],

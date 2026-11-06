@@ -32,7 +32,7 @@ export const saylerPark: LocationServiceCopy = {
         body: 'Five minutes in a Sayler Park basement can save you a service call. Set the thermostat to heat with new batteries, and make sure the furnace switch and the breaker are both on. A filter caked with dust can stall the furnace, and so can a crooked front panel, because many units refuse to fire with it loose. If the heat comes back, you don’t need us. If you smell gas, leave the switches alone, get outside and phone the gas company from there. Burners that drop out or a breaker that trips twice are ours. We find the fault, price it, and run the heat before we leave.',
       },
       {
-        title: 'Repair or Replace Your Sayler Park Furnace?',
+        title: 'Repair or Replace Your Furnace in Sayler Park?',
         body: 'Date the furnace, not the house. A Sayler Park home built in the 1920s often has a furnace only a few winters old, and when its igniter, flame sensor or blower motor gives out, that is a repair. A cracked heat exchanger changes things, since it can let carbon monoxide into the rooms. We shut that furnace down, quote the replacement and take care of the permit. A carbon monoxide alarm means everybody outside first, then the phone call. With electric heat or a heat pump, a Duke Energy bill that rises during mild weeks tells you the system is straining.',
       },
     ],

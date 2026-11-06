@@ -32,7 +32,7 @@ export const eastPriceHill: LocationServiceCopy = {
         body: 'Plenty of East Price Hill no-heat calls get solved before a truck rolls. The thermostat should be on heat with good batteries. The breaker should be on, and the service switch near the furnace, which looks like a light switch, shouldn’t be flipped down. A clogged filter or a loose furnace door can shut things down as well. Still no heat, a breaker that keeps tripping, or lukewarm air from an electric unit means book a visit. Gas odor? Walk out without touching switches and call the gas company from the sidewalk, and never relight a gas furnace yourself. We test, explain the failure, and you approve the price first.',
       },
       {
-        title: 'Repair or Replace Your East Price Hill Furnace?',
+        title: 'Repair or Replace Your Furnace in East Price Hill?',
         body: 'Base the call on the furnace, not the building around it. A 1938 East Price Hill house might hold a furnace only a few years old, and a bad inducer motor or limit switch is a fair repair on that one. An electric furnace that lost a single element usually deserves fixing too. A cracked heat exchanger in a gas furnace is where we stop: carbon monoxide can leak through it, so the unit stays off until it’s replaced. The City of Cincinnati Department of Buildings & Inspections issues that replacement permit, and we file it. A heating bill climbing through an ordinary winter is often the first sign.',
       },
     ],

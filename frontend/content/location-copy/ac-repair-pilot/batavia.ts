@@ -32,7 +32,7 @@ export const batavia: LocationServiceCopy = {
         body: 'Many Batavia owners solve a cooling problem on their own. Change the filter first, which matters most on a mid-century furnace with a small return. Set the thermostat below the room’s temperature in cool mode, and give a tripped breaker one reset. Cool air again means no appointment. We earn the visit when the breaker refuses to hold or ice reforms on the furnace coil after the filter is new. Our technician inspects the system, tells you the cause without jargon and sets a flat price that waits for your approval. Afterward we read the register temperature together.',
       },
       {
-        title: 'Repair or Replace Your Batavia AC?',
+        title: 'Repair or Replace Your AC in Batavia?',
         body: 'A 1950s Batavia house likely isn’t running its first air conditioner, so go by the condenser’s nameplate date. Fix a unit with service left when a single component, like a blower motor, wears out. Swap out an older system once the compressor dies or the coil begins to leak. In the village’s older homes, the ductwork should be measured before anyone sizes new equipment, since oversizing on narrow ducts leaves rooms warm. Clermont County Building Inspection handles HVAC permits in the village, and we file yours. A July Duke Energy Ohio bill that keeps climbing often signals a system falling behind.',
       },
     ],

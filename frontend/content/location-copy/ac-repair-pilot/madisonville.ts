@@ -32,7 +32,7 @@ export const madisonville: LocationServiceCopy = {
         body: 'Some warm Madisonville homes need only a clean filter, the thermostat flipped to cool or one breaker reset. When the air turns cold again, skip the appointment. In the older houses near Whetsel Avenue, also make sure upstairs registers are open and nothing blocks the return grille. Apartment residents along Madison Road can peek at the closet unit for a brimming drain pan, then tell management instead of handling it. A technician is warranted once the condenser hums while its fan stays put, or frost creeps along the suction line. We pin down the cause, explain it plainly and quote a flat rate. Repairs begin only after your yes.',
       },
       {
-        title: 'Repair or Replace Your Madisonville AC?',
+        title: 'Repair or Replace Your AC in Madisonville?',
         body: 'Equipment age settles most of these decisions, and in Madisonville that rarely matches the house’s age. A unit younger than roughly 12 years with one broken component deserves repair. An older one with a ruined compressor or a coil that leaks usually earns replacement. For a pre-1940 house near Whetsel Avenue, fit the new system to the existing ducts rather than copying the old nameplate. In the newer rental buildings along Red Bank Road, the owner makes this call, not the tenant. Until anything changes, a filthy outdoor coil or low refrigerant charge drags out each cycle and shows up on Duke Energy Ohio statements.',
       },
     ],

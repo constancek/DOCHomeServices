@@ -32,7 +32,7 @@ export const mountWashington: LocationServiceCopy = {
         body: 'Start with the thermostat: heat mode, working batteries. Then the furnace switch, which looks like a light switch on or near the unit, and the breaker. Swap a dirty filter and press the access door closed until it latches, because many furnaces won’t fire with it ajar. If that fixes it, you’re done. If it doesn’t, or the furnace keeps restarting, call us. If you smell gas, leave the switches alone, don’t relight anything, and call the gas company once you’re outside. A carbon monoxide alarm means everyone out, then call. The technician finds the cause, prices it for your approval and checks the heat before leaving.',
       },
       {
-        title: 'Repair or Replace Your Mount Washington Furnace?',
+        title: 'Repair or Replace Your Furnace in Mount Washington?',
         body: 'The furnace decides this, not the year the building went up. A 1953 house or a 1970s apartment can have a recent furnace that deserves a repair when its igniter, pressure switch or blower capacitor goes. A cracked heat exchanger is a carbon monoxide hazard, so we won’t restart that furnace, and replacement is the answer. Landlords replacing several units get a price for each one, and we file the permits with Buildings & Inspections. A failing furnace usually shows up first on the utility bill, as longer run times in weather that hasn’t changed.',
       },
     ],

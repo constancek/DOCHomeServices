@@ -32,7 +32,7 @@ export const newRichmond: LocationServiceCopy = {
         body: 'Several things that look like a broken heater aren’t. A tank drained by back-to-back showers just needs to reheat. A bumped dial lowers the temperature. An electric heater with a tripped breaker sits cold until it’s reset, and a gas heater with its valve turned off won’t light. If none of that explains it, book us for water pooling at the base, hot water that’s rusty, or popping noises while the burner runs. Renters report it to the landlord in writing. We diagnose, explain what failed and quote a flat price for your approval.',
       },
       {
-        title: 'Repair or Replace Your New Richmond Water Heater?',
+        title: 'Repair or Replace Your Water Heater in New Richmond?',
         body: 'Look at the water heater’s label for the year it went in; that matters more than whether the house is from 1900 or 2010. A failed element, thermostat, thermocouple or gas valve can be replaced. So can the anode rod, dip tube or relief valve. When the tank shell itself leaks, the heater has to go. In New Richmond, a heater that sat in floodwater usually ends up in that group too. We give you both prices, repair and replacement, and you decide. Tankless is possible on a replacement, but we won’t push it.',
       },
     ],

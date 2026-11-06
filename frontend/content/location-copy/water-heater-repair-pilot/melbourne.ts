@@ -32,7 +32,7 @@ export const melbourne: LocationServiceCopy = {
         body: 'Many Melbourne calls never need us. A long soak in the tub plus a laundry load can use the tank up, and it comes back hot within the hour. Basement work can bump the dial. Electric heaters quit when their breaker flips. Gas heaters quit when the supply handle is closed or the pilot blows out; with no odor of gas, follow the printed relight steps on the jacket. We should come for a wet floor at the base, brown or sulfur-smelling hot water, or crackling from sediment. Black soot or scorching above an old burner is ours too. You get a diagnosis and a quote before any repair.',
       },
       {
-        title: 'Repair or Replace Your Melbourne Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Melbourne?',
         body: 'Many Melbourne houses went up before 1940, but the tank downstairs is usually far younger, and the sticker on its side gives the year. Thermocouples, control valves, elements and thermostats get replaced on the spot. Relief valves, anode rods and dip tubes do too. Once rust lets water through the steel shell, the heater is done, and we quote a new one next to the fix. Old basements add one wrinkle: a seized shutoff or a tired vent connector may have to be replaced with the tank, and you hear about it before the quote, not after. The state plumbing inspector covers Melbourne, and our office files any permit needed.',
       },
     ],

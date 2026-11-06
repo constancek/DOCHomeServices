@@ -32,7 +32,7 @@ export const eastWestwood: LocationServiceCopy = {
         body: 'Tenants can rule out the easy causes before reporting a warm apartment. Make sure the wall control is set to cooling rather than heat or emergency heat, and look for a flipped breaker on the outdoor unit’s circuit. Where the lease permits, put in a clean filter. If the air turns cold again, there’s nothing for us to do. Let the landlord or property manager know when the air handler closet is wet or the outdoor fan won’t turn. Ice forming on the refrigerant lines counts too. We run the heat pump in both modes, tell the tenant what failed and give the owner a flat price before any work.',
       },
       {
-        title: 'Repair or Replace Your East Westwood AC?',
+        title: 'Repair or Replace Your AC in East Westwood?',
         body: 'For a landlord, the unit’s age and its double duty decide this. Fix a heat pump younger than roughly 12 years when one component fails. A worn-out compressor in an aging unit is a poor bet, because that machine also carries the heating once cold weather comes. R-22 equipment points the same way, since that refrigerant is no longer produced in the US. Size the replacement to the apartment and its ducts. Electric heat makes efficiency count twice here, since a heat pump short of charge runs longer in both seasons and Duke Energy Ohio bills for all of it.',
       },
     ],

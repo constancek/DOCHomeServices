@@ -32,7 +32,7 @@ export const southCumminsville: LocationServiceCopy = {
         body: 'Most warm-house calls start with something you can check yourself. Change the filter, confirm the thermostat is cooling to a setting below room temperature, and give a tripped breaker one reset. Owners of houses from 2010 on should dig out the equipment warranty before booking anyone, because a covered part may cost only the labor and the installer may need to handle it. Bring us in when the condenser fan refuses to turn, ice forms on the refrigerant line, or the system runs constantly and never catches up. We look at the unit and the ductwork, explain the fault, and set a flat price before any repair.',
       },
       {
-        title: 'Repair or Replace Your South Cumminsville AC?',
+        title: 'Repair or Replace Your AC in South Cumminsville?',
         body: 'Let the nameplate guide you. Equipment under a dozen years old that lost a single part, such as a fan motor, deserves the repair. Older equipment with a failed compressor or a leaking coil is usually better replaced. Most homes here heat with gas, so the outdoor unit and the furnace work as a pair, and a new condenser behind a tired furnace blower won’t cool well. A replacement at a South Cumminsville address requires a city mechanical permit, which Buildings & Inspections issues. Until you decide, hose the outdoor coil clean with the power off, because a clogged one adds hours to every Duke Energy Ohio billing cycle.',
       },
     ],

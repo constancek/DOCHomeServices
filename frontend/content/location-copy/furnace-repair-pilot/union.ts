@@ -32,7 +32,7 @@ export const union: LocationServiceCopy = {
         body: 'Begin with the thermostat, set to heat with new batteries. Then check four things at the furnace: its service switch is on, the breaker is up, the filter is clean and the access door is latched tight, since a loose door keeps most models off. Heat restored? No visit needed. Book us when the burners light and fade, the blower moves cold air, or the breaker won’t stay set. With a gas smell, leave every switch alone, get out and call the gas company from the street. Our technician tests, explains what broke, waits for your okay on price and runs a complete heat cycle afterward.',
       },
       {
-        title: 'Repair or Replace Your Union Furnace?',
+        title: 'Repair or Replace Your Furnace in Union?',
         body: 'Look at the furnace, not how new the house is. Lots of Union homes still rely on the furnace fitted when the house was framed, and a bad igniter, flame sensor or inducer motor on it is usually fixable. A heat exchanger with a crack is another story: carbon monoxide can pass into the house, so we turn the furnace off, show you the damage and advise a replacement, with the permit handled. Before things get there, read the gas bill. A climbing bill with the same thermostat setting and similar weather usually comes from short cycling or a worn blower.',
       },
     ],

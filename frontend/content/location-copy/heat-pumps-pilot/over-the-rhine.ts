@@ -36,7 +36,7 @@ export const overTheRhine: LocationServiceCopy = {
         body: 'Check these before booking, or before reporting it to the landlord. The thermostat should be set to heat. Filters in small apartment air handlers clog quickly, so replace yours. Look for a tripped breaker, the outdoor unit’s or the air handler’s; in a larger building the outdoor one may sit in a shared panel. Clear snow or debris off the outdoor unit if you can reach it safely. Steam, light frost and the fan stopping for a few minutes mean it’s defrosting. If heat returns, you don’t need us. Call when ice won’t clear, emergency heat stays on or the vents blow cold.',
       },
       {
-        title: 'Repair or Replace Your Over-the-Rhine Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Over-the-Rhine?',
         body: 'Base it on the heat pump, not the building’s age. Plenty of 19th-century OTR buildings were rehabbed with fairly new equipment. A failed capacitor, fan motor or defrost board on a sound unit is a repair. A compressor failure or repeated refrigerant leaks is the larger call, and we price both options for the owner. A heat pump falling behind lets the backup strips take over, and the Duke Energy bill climbs. Replacements need a City of Cincinnati mechanical permit, which we pull. Rooftop jobs need building access planned ahead, and financing is available.',
       },
     ],

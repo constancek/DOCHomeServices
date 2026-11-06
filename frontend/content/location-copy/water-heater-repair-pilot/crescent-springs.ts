@@ -32,7 +32,7 @@ export const crescentSprings: LocationServiceCopy = {
         body: 'In a Crescent Springs apartment the tank is often small, so two showers back to back can leave the third person waiting while it reheats. Someone shoving a vacuum into the closet may have rolled the dial lower. Electric heaters cut out with a tripped breaker, so look at your panel. On gas, a blown-out pilot or a closed supply knob does it; relight from the label instructions only with no gas odor. Tenants should keep covers on and tell management. We step in for pooling water, brown or sulfur-smelling water, rumbling, or a pilot that refuses to hold. Diagnosis first, price second.',
       },
       {
-        title: 'Repair or Replace Your Crescent Springs Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Crescent Springs?',
         body: 'In Crescent Springs, read the sticker on the heater rather than guessing from the complex’s age; plenty of units here are on a replacement tank already. On electric models we replace elements and thermostats; on gas, thermocouples and control valves; on either, relief valves, anode rods and dip tubes. Once the shell itself weeps, the heater is finished. Short of that, the owner sees a repair price and a replacement price together and makes the call. Closets drive the replacement quote: the new tank must clear the door frame and sit in the existing pan, and we measure before pricing. We pull the permit where one applies.',
       },
     ],

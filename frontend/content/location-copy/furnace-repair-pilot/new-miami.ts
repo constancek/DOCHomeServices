@@ -32,7 +32,7 @@ export const newMiami: LocationServiceCopy = {
         body: 'Run through the basics first. The thermostat should read heat and have batteries that work. Find the switch on or beside the furnace and make sure it’s on, then look for a tripped breaker. A blocked filter can shut a furnace down, so change it. The front panel has to sit tight, or the door switch keeps the furnace off. If there’s still no heat, or it lights and dies, call us. With a gas smell, don’t flip switches or relight, get out and phone the gas company. With a carbon monoxide alarm, everyone leaves first. We inspect, explain, price for your approval, and test.',
       },
       {
-        title: 'Repair or Replace Your New Miami Furnace?',
+        title: 'Repair or Replace Your Furnace in New Miami?',
         body: 'Base it on the furnace itself. A house built in 1960 may have had its furnace replaced more than once, so check the date on the label, or we will. Igniters, flame sensors, inducer motors and gas valves are all fair repairs on a sound furnace. A cracked heat exchanger is not a repair job: it can leak carbon monoxide into the house, so the furnace has to go. We pull the permit for any replacement. A furnace that’s losing ground runs longer to hold the same temperature, and the gas bill climbs before the house feels it.',
       },
     ],

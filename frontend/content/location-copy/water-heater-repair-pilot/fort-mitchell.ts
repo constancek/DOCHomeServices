@@ -32,7 +32,7 @@ export const fortMitchell: LocationServiceCopy = {
         body: 'A few checks can save a Fort Mitchell household a visit. Tanks drained by showers one after another refill and reheat on their own. Look at the knob in case it was knocked down. If the heater is electric, find its breaker; if gas, set the valve handle in line with the pipe and relight a dead pilot by the label’s steps, never with a gas smell. Tenants should report the problem rather than open panels. You need us for a leak at the base, discolored or sulfur-smelling hot water, a relief valve that lets go again, or rumbling while it heats. We quote a flat price before any repair.',
       },
       {
-        title: 'Repair or Replace Your Fort Mitchell Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Fort Mitchell?',
         body: 'The heater decides it. Its sticker gives the install date, and in Fort Mitchell a house from the 1920s or a 1970s apartment can hold a tank that’s close to new. Gas controls, thermocouples, elements, thermostats, relief valves, anode rods and dip tubes are repairs. A tank leaking through its body gets replaced. We price both for the owner to decide. Kentucky inspects plumbing through the state, so we arrange the permit on a replacement. The four National Register districts here don’t restrict indoor work like this.',
       },
     ],

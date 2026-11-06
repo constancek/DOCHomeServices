@@ -36,7 +36,7 @@ export const melbourne: LocationServiceCopy = {
         body: 'Start at the thermostat: heat, not cool or off. Hold the filter to a light; if none comes through, replace it. Check both breakers, outside unit and indoor air handler. Clear snow, ice and river-road leaves off the outside unit. Vapor, thin frost and a fan that rests a few minutes during defrost are not faults. When the rooms warm back up, skip the call. Phone us about ice that stays, a grinding noise outside or an emergency heat light that won’t go out. You get the price before we touch anything.',
       },
       {
-        title: 'Repair or Replace Your Melbourne Heat Pump?',
+        title: 'Repair or Replace Your Heat Pump in Melbourne?',
         body: 'Look at the date on the heat pump’s label; the house won’t tell you much. Most Melbourne homes were standing long before their heat pumps arrived. A sound system with a burnt contactor or worn fan motor gets repaired. A compressor that has quit, or refrigerant that keeps escaping after a fix, is when you see a replacement price beside the repair price. With no gas furnace behind it, a weakening heat pump in an all-electric house leaves the strips running for hours, and the power bill shows it. Kentucky requires a permit for a replacement; we file it.',
       },
     ],

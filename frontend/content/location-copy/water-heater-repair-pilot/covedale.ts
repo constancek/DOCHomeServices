@@ -32,7 +32,7 @@ export const covedale: LocationServiceCopy = {
         body: 'Run through these before you call. A big family morning in a 1950s ranch can outpace the tank, which just needs a while to catch up. The control knob may have been nudged. A gas unit may have its supply handle closed, or a pilot that blew out; if the basement smells normal, relight it by the instructions printed on the heater. An electric unit may simply have a tripped circuit. Hot water back means you don’t need us. Water pooling on the floor, rust-colored hot water or a relief valve that keeps spitting means you do. We diagnose, explain and price it for your approval.',
       },
       {
-        title: 'Repair or Replace Your Covedale Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Covedale?',
         body: 'Read the label on the heater, not the year on the deed. A house from 1959 might be on its third tank or its first, and only that label tells you which. Thermocouples, control valves, elements, thermostats, relief valves, anodes and dip tubes can each be replaced on a sound tank. Steel leaking from its own shell can’t. We price both paths when both apply, and you choose. On the city side the Department of Buildings & Inspections handles the permit; in the township it’s Hamilton County Public Health. Either way, we pull it.',
       },
     ],

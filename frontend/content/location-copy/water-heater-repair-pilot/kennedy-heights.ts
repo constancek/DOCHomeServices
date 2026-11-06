@@ -32,7 +32,7 @@ export const kennedyHeights: LocationServiceCopy = {
         body: 'Some Kennedy Heights no-hot-water problems sort themselves out. After a string of showers, the tank only needs time. Confirm the front dial is where you set it, the electric heater’s breaker is up, and the gas cock lines up with the pipe. If the pilot is out and the basement smells clean, relight it by the steps on the sticker. Call us for water on the floor around the tank, rotten-egg or rust-tinted hot water, a relief valve that has discharged more than once, or a pilot that dies each time. We diagnose, quote a flat price, repair and test.',
       },
       {
-        title: 'Repair or Replace Your Kennedy Heights Water Heater?',
+        title: 'Repair or Replace Your Water Heater in Kennedy Heights?',
         body: 'Base it on the water heater, not the 1920s house above it. The sticker shows when it went in. A worn thermocouple, thermostat, anode rod, element, gas control, dip tube or relief valve gets repaired. A tank leaking through its own shell gets replaced, since steel can’t be patched. When we replace one in a Kennedy Heights basement, we also check the vent connection and the shutoff, because the new heater depends on both. We price the repair and the replacement, explain the difference, and you decide which way to go.',
       },
     ],

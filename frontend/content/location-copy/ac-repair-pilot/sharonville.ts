@@ -32,7 +32,7 @@ export const sharonville: LocationServiceCopy = {
         body: 'Three quick checks clear up a surprising number of Sharonville calls. Pull the filter and swap it if it’s grey, give the thermostat fresh batteries and set it to cool, and reset a tripped breaker one time only. Cooling restored means no visit needed. A breaker that pops again, or a heat pump puffing lukewarm air in cool mode, means it’s our turn. Tenants in Sharonville complexes ask management before anyone books. On site, the technician looks over the air handler and condenser both, names the broken component, and holds off until you okay a fixed price. Afterward we hold a thermometer at a supply vent to prove the fix.',
       },
       {
-        title: 'Repair or Replace Your Sharonville AC?',
+        title: 'Repair or Replace Your AC in Sharonville?',
         body: 'The equipment label matters more than the house’s age. A Sharonville house from 1974 could easily be on its third condenser by now. Spend money on a system that’s still middle-aged and has a single fault. Once an older compressor fails, or a patched indoor coil leaks again, replacement is usually the better buy, and heat pumps reach that point sooner since they work through winter too. Sharonville’s Department of Community Development issues the HVAC permit for a replacement, and we take care of applying. Meanwhile, watch your Duke Energy Ohio statements: a unit short on charge or with a matted outdoor coil runs longer, and July usage shows it.',
       },
     ],
