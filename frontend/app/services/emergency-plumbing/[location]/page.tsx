@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -89,7 +90,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Emergency Plumber in ${loc.neighborhood}, ${loc.state}`,
     description: `Emergency plumber in ${place}, open every day including weekends. Burst pipes, sewer backups, and water heater failures — same-day service. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/emergency-plumbing/${loc.slug}` },
@@ -97,7 +98,7 @@ export async function generateMetadata({
       title: `Emergency Plumbing in ${place} | ${site.name}`,
       description: `Licensed emergency plumbers, out any day of the week, serving ${place} and nearby neighborhoods.`,
     },
-  };
+  });
 }
 
 export default async function EmergencyPlumbingLocationPage({

@@ -73,11 +73,11 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Electrical', item: `${site.url}/services/electrical` },
-    { '@type': 'ListItem', position: 4, name: 'Lighting', item: `${site.url}/services/lighting` },
-    { '@type': 'ListItem', position: 5, name: 'Indoor Lighting', item: `${site.url}/services/indoor-lighting` },
-    { '@type': 'ListItem', position: 6, name: 'Basement Lighting', item: `${site.url}/services/basement-lighting` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Electrical', item: `${site.url}/services/electrical/` },
+    { '@type': 'ListItem', position: 4, name: 'Lighting', item: `${site.url}/services/lighting/` },
+    { '@type': 'ListItem', position: 5, name: 'Indoor Lighting', item: `${site.url}/services/indoor-lighting/` },
+    { '@type': 'ListItem', position: 6, name: 'Basement Lighting', item: `${site.url}/services/basement-lighting/` },
   ],
 };
 const faqSchema = {

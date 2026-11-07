@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
@@ -29,21 +30,21 @@ export async function generateMetadata({
   const { slug } = await params;
   const service = getService(slug);
   if (service) {
-    return {
+    return withSocial({
       title: `${service.title} Services`,
       description: service.summary,
       alternates: { canonical: `/services/${service.slug}` },
       openGraph: { title: `${service.title} Services`, description: service.summary },
-    };
+    });
   }
   const sub = getServicePage(slug);
   if (sub) {
-    return {
+    return withSocial({
       title: sub.title,
       description: sub.blurb,
       alternates: { canonical: `/services/${sub.slug}` },
       openGraph: { title: sub.title, description: sub.blurb },
-    };
+    });
   }
   return {};
 }
@@ -78,8 +79,8 @@ function MainService({ service }: { service: Service }) {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-      { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-      { '@type': 'ListItem', position: 3, name: service.title, item: `${site.url}/services/${service.slug}` },
+      { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+      { '@type': 'ListItem', position: 3, name: service.title, item: `${site.url}/services/${service.slug}/` },
     ],
   };
   const faqSchema = {
@@ -207,9 +208,9 @@ function SubService({ page }: { page: ServicePage }) {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-      { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-      { '@type': 'ListItem', position: 3, name: parentTitle, item: `${site.url}/services/${page.parentSlug}` },
-      { '@type': 'ListItem', position: 4, name: page.title, item: `${site.url}/services/${page.slug}` },
+      { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+      { '@type': 'ListItem', position: 3, name: parentTitle, item: `${site.url}/services/${page.parentSlug}/` },
+      { '@type': 'ListItem', position: 4, name: page.title, item: `${site.url}/services/${page.slug}/` },
     ],
   };
   const faqSchema = {

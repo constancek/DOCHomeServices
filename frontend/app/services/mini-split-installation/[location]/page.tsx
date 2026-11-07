@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -98,7 +99,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Mini-Split Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Ductless mini-split installation in ${place} — efficient, properly sized, zoned cooling and heating without ductwork. Financing available. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/mini-split-installation/${loc.slug}` },
@@ -106,7 +107,7 @@ export async function generateMetadata({
       title: `Mini-Split Installation in ${place} | ${site.name}`,
       description: `Ductless mini-split installation serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function MiniSplitInstallationLocationPage({

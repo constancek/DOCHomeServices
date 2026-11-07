@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import LocationHero from '@/components/LocationHero';
@@ -10,9 +11,9 @@ import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { stormElectricityOutageCopy } from '@/content/location-copy/storm-electricity-outage';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Storm Electricity Outage Repair',
-  description: `Storm outage repair across ${site.serviceArea}. If the damage is on your meter base, mast, or weatherhead, Duke Energy will not reconnect until a licensed electrician fixes it. ${site.name} does that work.`,
+  description: `Storm damage on your meter base, mast or weatherhead? Duke won’t reconnect until it’s repaired. We do that work across ${site.serviceArea}.`,
   alternates: { canonical: '/services/storm-electricity-outage' },
   openGraph: {
     type: 'website',
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
     description: `Power back on your street but not in your house? The damage is probably on equipment you own. We repair it and get you signed off for reconnect. Serving ${site.serviceArea}.`,
     url: `${site.url}/services/storm-electricity-outage/`,
   },
-};
+});
 
 const yoursVsTheirs = [
   { lead: 'Duke Energy Owns', text: 'The poles, the overhead or underground service line running to your house, and the electric meter itself.' },
@@ -90,7 +91,7 @@ const businessSchema = {
   '@type': 'Electrician',
   name: `${site.name} — Storm Electricity Outage Repair`,
   telephone: site.primaryPhone.number,
-  url: `${site.url}/services/storm-electricity-outage`,
+  url: `${site.url}/services/storm-electricity-outage/`,
   areaServed: { '@type': 'Place', name: site.serviceArea },
   address: {
     '@type': 'PostalAddress',
@@ -113,9 +114,9 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Electrical', item: `${site.url}/services/electrical` },
-    { '@type': 'ListItem', position: 4, name: 'Storm Electricity Outage', item: `${site.url}/services/storm-electricity-outage` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Electrical', item: `${site.url}/services/electrical/` },
+    { '@type': 'ListItem', position: 4, name: 'Storm Electricity Outage', item: `${site.url}/services/storm-electricity-outage/` },
   ],
 };
 const faqSchema = {

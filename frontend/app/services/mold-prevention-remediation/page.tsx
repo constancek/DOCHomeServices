@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import LocationHero from '@/components/LocationHero';
@@ -10,7 +11,7 @@ import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { moldPreventionRemediationCopy } from '@/content/location-copy/mold-prevention-remediation';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Mold Prevention & Remediation',
   description: `Mold prevention and remediation across ${site.serviceArea} from ${site.name} — containment, removal, and fixing the moisture source that caused it. Upfront pricing, no overtime fees.`,
   alternates: { canonical: '/services/mold-prevention-remediation' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     title: 'Mold Prevention & Remediation',
     description: `Mold prevention, containment, and remediation across ${site.serviceArea}.`,
   },
-};
+});
 
 const signs = [
   'A musty smell that comes back after you air the room out',
@@ -79,10 +80,10 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing` },
-    { '@type': 'ListItem', position: 4, name: 'Water Damage Restoration', item: `${site.url}/services/water-damage-restoration` },
-    { '@type': 'ListItem', position: 5, name: 'Mold Prevention & Remediation', item: `${site.url}/services/mold-prevention-remediation` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing/` },
+    { '@type': 'ListItem', position: 4, name: 'Water Damage Restoration', item: `${site.url}/services/water-damage-restoration/` },
+    { '@type': 'ListItem', position: 5, name: 'Mold Prevention & Remediation', item: `${site.url}/services/mold-prevention-remediation/` },
   ],
 };
 const faqSchema = {

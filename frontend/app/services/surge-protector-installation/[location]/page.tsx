@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -98,7 +99,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Whole-Home Surge Protector Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Whole-home surge protector installation in ${place} — panel-level protection for appliances, HVAC, and electronics by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/surge-protector-installation/${loc.slug}` },
@@ -106,7 +107,7 @@ export async function generateMetadata({
       title: `Whole-Home Surge Protection in ${place} | ${site.name}`,
       description: `Licensed panel-level surge protector installation serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function SurgeProtectorLocationPage({

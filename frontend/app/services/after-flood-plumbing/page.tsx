@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import LocationHero from '@/components/LocationHero';
@@ -10,7 +11,7 @@ import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { afterFloodPlumbingCopy } from '@/content/location-copy/after-flood-plumbing';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'After Flood Plumbing',
   description: `After flood plumbing inspection and repair across ${site.serviceArea} from ${site.name} — water heaters, drain lines, gas connections, and fixtures checked before you turn the water back on.`,
   alternates: { canonical: '/services/after-flood-plumbing' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     title: 'After Flood Plumbing',
     description: `Inspection and repair of the plumbing a flood left behind, across ${site.serviceArea}.`,
   },
-};
+});
 
 const checks = [
   'Water heater — submerged burners, controls, and gas valves',
@@ -79,9 +80,9 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing` },
-    { '@type': 'ListItem', position: 4, name: 'After Flood Plumbing', item: `${site.url}/services/after-flood-plumbing` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing/` },
+    { '@type': 'ListItem', position: 4, name: 'After Flood Plumbing', item: `${site.url}/services/after-flood-plumbing/` },
   ],
 };
 const faqSchema = {

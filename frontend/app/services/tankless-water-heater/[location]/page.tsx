@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -115,7 +116,7 @@ export async function generateMetadata({
   const description = `Tankless water heater installs, repairs and descaling in ${place}. Flat-rate prices approved first, same day on most calls.`;
   const path = `/services/tankless-water-heater/${loc.slug}/`;
   const image = { url: '/og/tankless-water-heater.png', width: 1200, height: 630, alt: 'Tankless water heater mounted on a wall' };
-  return {
+  return withSocial({
     // Drop the brand suffix when it would push the title past ~65 characters.
     title: full.length <= 65 ? base : { absolute: base },
     description,
@@ -129,7 +130,7 @@ export async function generateMetadata({
       images: [image],
     },
     twitter: { card: 'summary_large_image', title: full, description, images: [image.url] },
-  };
+  });
 }
 
 export default async function TanklessLocationPage({

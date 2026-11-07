@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import LocationHero from '@/components/LocationHero';
@@ -10,7 +11,7 @@ import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { waterDamageRestorationCopy } from '@/content/location-copy/water-damage-restoration';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Water Damage Restoration',
   description: `Water damage restoration across ${site.serviceArea} from ${site.name} — extraction, structural drying, and repair of the plumbing that caused it. Upfront pricing, no overtime fees.`,
   alternates: { canonical: '/services/water-damage-restoration' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     title: 'Water Damage Restoration',
     description: `Water extraction, drying, and plumbing repair after a leak or flood in ${site.serviceArea}.`,
   },
-};
+});
 
 const signs = [
   'Standing water on a floor, in a basement, or in a crawl space',
@@ -79,9 +80,9 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing` },
-    { '@type': 'ListItem', position: 4, name: 'Water Damage Restoration', item: `${site.url}/services/water-damage-restoration` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing/` },
+    { '@type': 'ListItem', position: 4, name: 'Water Damage Restoration', item: `${site.url}/services/water-damage-restoration/` },
   ],
 };
 const faqSchema = {

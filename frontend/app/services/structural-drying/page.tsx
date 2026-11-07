@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import LocationHero from '@/components/LocationHero';
@@ -10,7 +11,7 @@ import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { structuralDryingCopy } from '@/content/location-copy/structural-drying';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Structural Drying',
   description: `Structural drying across ${site.serviceArea} from ${site.name} — air movers, dehumidifiers, and daily moisture readings until framing, subfloor, and drywall are genuinely dry. Upfront pricing.`,
   alternates: { canonical: '/services/structural-drying' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     title: 'Structural Drying',
     description: `Measured structural drying of framing, subfloor, and drywall across ${site.serviceArea}.`,
   },
-};
+});
 
 const materials = [
   'Subfloor and floor joists under carpet or hardwood',
@@ -79,10 +80,10 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing` },
-    { '@type': 'ListItem', position: 4, name: 'Water Damage Restoration', item: `${site.url}/services/water-damage-restoration` },
-    { '@type': 'ListItem', position: 5, name: 'Structural Drying', item: `${site.url}/services/structural-drying` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing/` },
+    { '@type': 'ListItem', position: 4, name: 'Water Damage Restoration', item: `${site.url}/services/water-damage-restoration/` },
+    { '@type': 'ListItem', position: 5, name: 'Structural Drying', item: `${site.url}/services/structural-drying/` },
   ],
 };
 const faqSchema = {

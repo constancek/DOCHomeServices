@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -98,7 +99,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Indoor Air Quality in ${loc.neighborhood}, ${loc.state}`,
     description: `Indoor air quality services in ${place} — air testing, whole-home filtration, purifiers, and humidifiers for cleaner, healthier air. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/indoor-air-quality/${loc.slug}` },
@@ -106,7 +107,7 @@ export async function generateMetadata({
       title: `Indoor Air Quality in ${place} | ${site.name}`,
       description: `Air testing, filtration, and humidifiers serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function IndoorAirQualityLocationPage({

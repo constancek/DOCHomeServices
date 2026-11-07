@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import LocationHero from '@/components/LocationHero';
@@ -10,7 +11,7 @@ import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { electricityDisconnectionCopy } from '@/content/location-copy/electricity-disconnection';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Electricity Disconnection (Duke Energy)',
   description: `Power disconnected and Duke Energy will not reconnect? They cannot until the homeowner-owned equipment is repaired and inspected. ${site.name}'s licensed electricians do that work across ${site.serviceArea}.`,
   alternates: { canonical: '/services/electricity-disconnection' },
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
     description: `Duke will not reconnect your power until a licensed electrician repairs your equipment and an inspector signs it off. Serving ${site.serviceArea}.`,
     url: `${site.url}/services/electricity-disconnection/`,
   },
-};
+});
 
 const whyItWasDisconnected = [
   { lead: 'Damaged Meter Base or Mast', text: 'A pulled-away meter box or a bent mast is homeowner-owned, and Duke will not reconnect to it.' },
@@ -85,7 +86,7 @@ const businessSchema = {
   '@type': 'Electrician',
   name: `${site.name} — Electricity Disconnection`,
   telephone: site.primaryPhone.number,
-  url: `${site.url}/services/electricity-disconnection`,
+  url: `${site.url}/services/electricity-disconnection/`,
   areaServed: { '@type': 'Place', name: site.serviceArea },
   address: {
     '@type': 'PostalAddress',
@@ -108,9 +109,9 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Electrical', item: `${site.url}/services/electrical` },
-    { '@type': 'ListItem', position: 4, name: 'Electricity Disconnection', item: `${site.url}/services/electricity-disconnection` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Electrical', item: `${site.url}/services/electrical/` },
+    { '@type': 'ListItem', position: 4, name: 'Electricity Disconnection', item: `${site.url}/services/electricity-disconnection/` },
   ],
 };
 const faqSchema = {

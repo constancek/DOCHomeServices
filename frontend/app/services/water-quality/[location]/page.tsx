@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -98,7 +99,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Water Quality Services in ${loc.neighborhood}, ${loc.state}`,
     description: `Water testing, whole-house filtration, and softeners in ${place} — cleaner, better-tasting water at every tap. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/water-quality/${loc.slug}` },
@@ -106,7 +107,7 @@ export async function generateMetadata({
       title: `Water Quality Services in ${place} | ${site.name}`,
       description: `Water testing, filtration, and softeners serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function WaterQualityLocationPage({

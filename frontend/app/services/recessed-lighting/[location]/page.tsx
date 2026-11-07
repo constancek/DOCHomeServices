@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -98,7 +99,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Recessed Lighting Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Recessed lighting installation in ${place} — clean, even ceiling lighting for kitchens, hallways, living rooms, and basements by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/recessed-lighting/${loc.slug}` },
@@ -106,7 +107,7 @@ export async function generateMetadata({
       title: `Recessed Lighting Installation in ${place} | ${site.name}`,
       description: `Licensed recessed lighting installation serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function RecessedLightingLocationPage({

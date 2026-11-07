@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -98,7 +99,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Switches & Outlets in ${loc.neighborhood}, ${loc.state}`,
     description: `Switch and outlet installation in ${place} — outlet replacement, GFCI and USB upgrades, and switch repair by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/switches-outlets/${loc.slug}` },
@@ -106,7 +107,7 @@ export async function generateMetadata({
       title: `Switches & Outlets in ${place} | ${site.name}`,
       description: `Licensed switch and outlet installation and repair serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function SwitchesOutletsLocationPage({

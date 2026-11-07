@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -107,7 +108,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Water Heater Maintenance in ${loc.neighborhood}, ${loc.state}`,
     description: `Water heater maintenance and tune-ups in ${place} — tank flush, anode-rod checks, and safety inspections for tank and tankless systems. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/water-heater-maintenance/${loc.slug}` },
@@ -115,7 +116,7 @@ export async function generateMetadata({
       title: `Water Heater Maintenance in ${place} | ${site.name}`,
       description: `Water heater tune-ups and inspections serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function WaterHeaterMaintenanceLocationPage({

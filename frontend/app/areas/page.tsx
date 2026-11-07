@@ -17,7 +17,7 @@ const areaSchema = {
   '@context': 'https://schema.org',
   '@type': 'HVACBusiness',
   name: site.name,
-  url: `${site.url}/areas`,
+  url: `${site.url}/areas/`,
   telephone: site.primaryPhone.number,
   areaServed: serviceCounties.map((c) => ({
     '@type': 'AdministrativeArea',

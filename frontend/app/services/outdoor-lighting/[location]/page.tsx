@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -98,7 +99,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Outdoor Lighting Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Outdoor lighting installation in ${place} — landscape, patio, holiday, and security lighting installed by licensed electricians, built for Midwest weather. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/outdoor-lighting/${loc.slug}` },
@@ -106,7 +107,7 @@ export async function generateMetadata({
       title: `Outdoor Lighting Installation in ${place} | ${site.name}`,
       description: `Licensed outdoor lighting installation serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function OutdoorLightingLocationPage({

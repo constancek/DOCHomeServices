@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import LocationHero from '@/components/LocationHero';
@@ -10,7 +11,7 @@ import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { gasServiceDisconnectionCopy } from '@/content/location-copy/gas-service-disconnection';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Gas Service Disconnection (Duke Energy)',
   description: `Gas shut off by Duke Energy? They will not restore it until the fault on your side of the meter is repaired and the piping passes a pressure test. ${site.name} does that work across ${site.serviceArea}.`,
   alternates: { canonical: '/services/gas-service-disconnection' },
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
     description: `Duke shut your gas off and will not turn it back on. Here is why, and what has to happen first. Serving ${site.serviceArea}.`,
     url: `${site.url}/services/gas-service-disconnection/`,
   },
-};
+});
 
 const whyItWasShutOff = [
   { lead: 'A Leak Was Found', text: 'Duke smells or detects gas at the meter or inside, shuts it down, and leaves. Finding and repairing that leak is the job.' },
@@ -85,7 +86,7 @@ const businessSchema = {
   '@type': 'Plumber',
   name: `${site.name} — Gas Service Disconnection`,
   telephone: site.primaryPhone.number,
-  url: `${site.url}/services/gas-service-disconnection`,
+  url: `${site.url}/services/gas-service-disconnection/`,
   areaServed: { '@type': 'Place', name: site.serviceArea },
   address: {
     '@type': 'PostalAddress',
@@ -108,9 +109,9 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing` },
-    { '@type': 'ListItem', position: 4, name: 'Gas Service Disconnection', item: `${site.url}/services/gas-service-disconnection` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing/` },
+    { '@type': 'ListItem', position: 4, name: 'Gas Service Disconnection', item: `${site.url}/services/gas-service-disconnection/` },
   ],
 };
 const faqSchema = {

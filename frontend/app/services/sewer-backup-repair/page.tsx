@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import LocationHero from '@/components/LocationHero';
@@ -10,7 +11,7 @@ import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { sewerBackupRepairCopy } from '@/content/location-copy/sewer-backup-repair';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Sewer Backup Repair',
   description: `Sewer backup repair across ${site.serviceArea} from ${site.name} — camera diagnosis, line clearing, and permanent repair. Same-day service, upfront pricing, no overtime fees.`,
   alternates: { canonical: '/services/sewer-backup-repair' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     title: 'Sewer Backup Repair',
     description: `Camera-diagnosed sewer backup repair across ${site.serviceArea}.`,
   },
-};
+});
 
 const signs = [
   'Waste or dirty water coming up through a floor drain, tub, or shower',
@@ -79,10 +80,10 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing` },
-    { '@type': 'ListItem', position: 4, name: 'After Flood Plumbing', item: `${site.url}/services/after-flood-plumbing` },
-    { '@type': 'ListItem', position: 5, name: 'Sewer Backup Repair', item: `${site.url}/services/sewer-backup-repair` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing/` },
+    { '@type': 'ListItem', position: 4, name: 'After Flood Plumbing', item: `${site.url}/services/after-flood-plumbing/` },
+    { '@type': 'ListItem', position: 5, name: 'Sewer Backup Repair', item: `${site.url}/services/sewer-backup-repair/` },
   ],
 };
 const faqSchema = {

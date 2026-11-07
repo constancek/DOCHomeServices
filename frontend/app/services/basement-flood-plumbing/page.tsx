@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import LocationHero from '@/components/LocationHero';
@@ -10,7 +11,7 @@ import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { basementFloodPlumbingCopy } from '@/content/location-copy/basement-flood-plumbing';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Basement Flood Plumbing',
   description: `Basement flood plumbing across ${site.serviceArea} from ${site.name} — finding which failure let the water in and fixing it so it does not happen again. Same-day service, upfront pricing.`,
   alternates: { canonical: '/services/basement-flood-plumbing' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     title: 'Basement Flood Plumbing',
     description: `Finding and fixing the plumbing that let your basement flood, across ${site.serviceArea}.`,
   },
-};
+});
 
 const sources = [
   'A failed sump pump, float switch, or check valve',
@@ -75,10 +76,10 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing` },
-    { '@type': 'ListItem', position: 4, name: 'After Flood Plumbing', item: `${site.url}/services/after-flood-plumbing` },
-    { '@type': 'ListItem', position: 5, name: 'Basement Flood Plumbing', item: `${site.url}/services/basement-flood-plumbing` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing/` },
+    { '@type': 'ListItem', position: 4, name: 'After Flood Plumbing', item: `${site.url}/services/after-flood-plumbing/` },
+    { '@type': 'ListItem', position: 5, name: 'Basement Flood Plumbing', item: `${site.url}/services/basement-flood-plumbing/` },
   ],
 };
 const faqSchema = {

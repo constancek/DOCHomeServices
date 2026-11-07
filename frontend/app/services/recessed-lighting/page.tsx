@@ -74,10 +74,10 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Electrical', item: `${site.url}/services/electrical` },
-    { '@type': 'ListItem', position: 4, name: 'Lighting', item: `${site.url}/services/lighting` },
-    { '@type': 'ListItem', position: 5, name: 'Recessed Lighting', item: `${site.url}/services/recessed-lighting` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Electrical', item: `${site.url}/services/electrical/` },
+    { '@type': 'ListItem', position: 4, name: 'Lighting', item: `${site.url}/services/lighting/` },
+    { '@type': 'ListItem', position: 5, name: 'Recessed Lighting', item: `${site.url}/services/recessed-lighting/` },
   ],
 };
 const faqSchema = {

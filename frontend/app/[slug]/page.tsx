@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
@@ -33,7 +34,7 @@ export async function generateMetadata({
   // suffix when it would push the post's title past that.
   const seoTitle = post.seoTitle ?? post.title;
   const withSuffix = `${seoTitle} | ${site.name}`;
-  return {
+  return withSocial({
     title: withSuffix.length <= 60 ? seoTitle : { absolute: seoTitle },
     description: post.excerpt,
     alternates: { canonical: url },
@@ -55,7 +56,7 @@ export async function generateMetadata({
       description: post.excerpt,
       images: ogImage ? [ogImage] : undefined,
     },
-  };
+  });
 }
 
 function slugify(text: string) {

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -112,7 +113,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Storm Electricity Outage Repair in ${loc.neighborhood}, ${loc.state}`,
     description: `Storm-damaged mast, weatherhead, or meter base in ${place}? Duke will not reconnect until it is repaired and inspected. Licensed electricians, upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/storm-electricity-outage/${loc.slug}` },
@@ -120,7 +121,7 @@ export async function generateMetadata({
       title: `Storm Electricity Outage Repair in ${place} | ${site.name}`,
       description: `Repair of storm-damaged service masts, weatherheads, and meter bases serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function StormElectricityOutageLocationPage({

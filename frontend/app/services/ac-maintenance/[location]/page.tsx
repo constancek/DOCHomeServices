@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -97,7 +98,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `AC Maintenance in ${loc.neighborhood}, ${loc.state}`,
     description: `AC tune-ups and maintenance in ${place} — cleaning, inspection, and testing to keep cooling efficient and reliable all summer. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/ac-maintenance/${loc.slug}` },
@@ -105,7 +106,7 @@ export async function generateMetadata({
       title: `AC Maintenance in ${place} | ${site.name}`,
       description: `AC tune-ups and maintenance serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function AcMaintenanceLocationPage({

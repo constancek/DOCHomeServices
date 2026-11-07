@@ -64,9 +64,9 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Air Conditioning', item: `${site.url}/services/air-conditioning` },
-    { '@type': 'ListItem', position: 4, name: 'AC Repair', item: `${site.url}/services/ac-repair` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Air Conditioning', item: `${site.url}/services/air-conditioning/` },
+    { '@type': 'ListItem', position: 4, name: 'AC Repair', item: `${site.url}/services/ac-repair/` },
   ],
 };
 const faqSchema = {

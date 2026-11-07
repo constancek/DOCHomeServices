@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import LocationHero from '@/components/LocationHero';
@@ -10,7 +11,7 @@ import { site } from '@/content/site';
 import { locations } from '@/content/locations';
 import { emergencyWaterExtractionCopy } from '@/content/location-copy/emergency-water-extraction';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Emergency Water Extraction',
   description: `Emergency water extraction across ${site.serviceArea} from ${site.name} — truck-mounted pumps and extractors on site the same day to pull standing water out fast. Upfront pricing, no overtime fees.`,
   alternates: { canonical: '/services/emergency-water-extraction' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     title: 'Emergency Water Extraction',
     description: `Same-day water extraction across ${site.serviceArea}.`,
   },
-};
+});
 
 const situations = [
   'A burst supply line that ran before anyone noticed',
@@ -74,10 +75,10 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing` },
-    { '@type': 'ListItem', position: 4, name: 'Water Damage Restoration', item: `${site.url}/services/water-damage-restoration` },
-    { '@type': 'ListItem', position: 5, name: 'Emergency Water Extraction', item: `${site.url}/services/emergency-water-extraction` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing/` },
+    { '@type': 'ListItem', position: 4, name: 'Water Damage Restoration', item: `${site.url}/services/water-damage-restoration/` },
+    { '@type': 'ListItem', position: 5, name: 'Emergency Water Extraction', item: `${site.url}/services/emergency-water-extraction/` },
   ],
 };
 const faqSchema = {

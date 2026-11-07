@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -97,7 +98,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Leak Repair in ${loc.neighborhood}, ${loc.state}`,
     description: `Same-day leak repair in ${place} — pipe, slab, toilet, and fixture leaks found and fixed at the source. Upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/leak-repair/${loc.slug}` },
@@ -105,7 +106,7 @@ export async function generateMetadata({
       title: `Leak Repair in ${place} | ${site.name}`,
       description: `Licensed, same-day leak repair serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function LeakRepairLocationPage({

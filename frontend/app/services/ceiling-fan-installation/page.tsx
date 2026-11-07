@@ -77,9 +77,9 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Electrical', item: `${site.url}/services/electrical` },
-    { '@type': 'ListItem', position: 4, name: 'Ceiling Fan Installation', item: `${site.url}/services/ceiling-fan-installation` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Electrical', item: `${site.url}/services/electrical/` },
+    { '@type': 'ListItem', position: 4, name: 'Ceiling Fan Installation', item: `${site.url}/services/ceiling-fan-installation/` },
   ],
 };
 const faqSchema = {

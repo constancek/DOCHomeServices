@@ -60,9 +60,9 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Heating', item: `${site.url}/services/heating` },
-    { '@type': 'ListItem', position: 4, name: 'Furnace Installation & Replacement', item: `${site.url}/services/furnace-installation-replacement` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Heating', item: `${site.url}/services/heating/` },
+    { '@type': 'ListItem', position: 4, name: 'Furnace Installation & Replacement', item: `${site.url}/services/furnace-installation-replacement/` },
   ],
 };
 const faqSchema = {

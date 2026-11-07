@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -100,7 +101,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Furnace Repair in ${loc.neighborhood}, ${loc.state}`,
     description: `Same-day furnace repair in ${place}. No heat, weak airflow, or strange noises — licensed HVAC techs, gas or electric, upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/furnace-repair/${loc.slug}` },
@@ -108,7 +109,7 @@ export async function generateMetadata({
       title: `Furnace Repair in ${place} | ${site.name}`,
       description: `Licensed furnace repair, open every day, serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function FurnaceRepairLocationPage({

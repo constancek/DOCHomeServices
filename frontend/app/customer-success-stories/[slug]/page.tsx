@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Icon from '@/components/Icon';
@@ -20,7 +21,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const story = getStory(slug);
   if (!story) return {};
-  return {
+  return withSocial({
     title: `${story.serviceTag} — ${story.name}'s Story`,
     description: `A ${story.serviceTag.toLowerCase()} success story from ${story.name}, a Degree of Comfort customer in ${site.serviceArea}. ${story.cardQuote}`,
     alternates: { canonical: `/customer-success-stories/${story.slug}` },
@@ -29,7 +30,7 @@ export async function generateMetadata({
       description: story.cardQuote,
       images: [{ url: story.cardImage.replace(/\.webp$/, '.jpg') }],
     },
-  };
+  });
 }
 
 export default async function StoryPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -42,8 +43,8 @@ export default async function StoryPage({ params }: { params: Promise<{ slug: st
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-      { '@type': 'ListItem', position: 2, name: 'Customer Success Stories', item: `${site.url}/customer-success-stories` },
-      { '@type': 'ListItem', position: 3, name: `${story.name}`, item: `${site.url}/customer-success-stories/${story.slug}` },
+      { '@type': 'ListItem', position: 2, name: 'Customer Success Stories', item: `${site.url}/customer-success-stories/` },
+      { '@type': 'ListItem', position: 3, name: `${story.name}`, item: `${site.url}/customer-success-stories/${story.slug}/` },
     ],
   };
   const reviewSchema = {

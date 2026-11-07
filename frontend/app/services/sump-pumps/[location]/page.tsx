@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -98,7 +99,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Sump Pumps in ${loc.neighborhood}, ${loc.state}`,
     description: `Sump pump installation, repair, and replacement in ${place} — including battery-backup systems to keep your basement dry. Same-day service. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/sump-pumps/${loc.slug}` },
@@ -106,7 +107,7 @@ export async function generateMetadata({
       title: `Sump Pumps in ${place} | ${site.name}`,
       description: `Same-day sump pump installation and repair serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function SumpPumpsLocationPage({

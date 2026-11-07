@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -98,7 +99,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Hot Tub Wiring in ${loc.neighborhood}, ${loc.state}`,
     description: `Hot tub and spa wiring in ${place} — dedicated 240V circuits, GFCI protection, and code-compliant installation by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/hot-tub-wiring/${loc.slug}` },
@@ -106,7 +107,7 @@ export async function generateMetadata({
       title: `Hot Tub Wiring in ${place} | ${site.name}`,
       description: `Licensed hot tub and spa wiring serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function HotTubWiringLocationPage({

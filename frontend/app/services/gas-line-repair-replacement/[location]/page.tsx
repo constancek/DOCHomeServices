@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -98,7 +99,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Gas Line Repair & Replacement in ${loc.neighborhood}, ${loc.state}`,
     description: `Gas line repair, replacement, and installation in ${place} — licensed plumbers, code-compliant and pressure-tested work. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/gas-line-repair-replacement/${loc.slug}` },
@@ -106,7 +107,7 @@ export async function generateMetadata({
       title: `Gas Line Repair & Replacement in ${place} | ${site.name}`,
       description: `Licensed gas line service serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function GasLineLocationPage({

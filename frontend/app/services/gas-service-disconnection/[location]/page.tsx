@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -112,7 +113,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Gas Service Disconnection in ${loc.neighborhood}, ${loc.state}`,
     description: `Gas shut off in ${place}? It will not be restored until the fault is repaired and the piping passes a pressure test. Licensed gas plumbers, upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/gas-service-disconnection/${loc.slug}` },
@@ -120,7 +121,7 @@ export async function generateMetadata({
       title: `Gas Service Disconnection in ${place} | ${site.name}`,
       description: `Leak repair, pressure testing and relighting so gas can be restored in ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function GasServiceDisconnectionLocationPage({

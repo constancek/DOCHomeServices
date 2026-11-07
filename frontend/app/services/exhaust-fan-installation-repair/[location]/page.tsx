@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -98,7 +99,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Exhaust Fan Installation & Repair in ${loc.neighborhood}, ${loc.state}`,
     description: `Bathroom and kitchen exhaust fan installation and repair in ${place} — better airflow, quieter operation, and venting that carries moisture outdoors. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/exhaust-fan-installation-repair/${loc.slug}` },
@@ -106,7 +107,7 @@ export async function generateMetadata({
       title: `Exhaust Fan Installation & Repair in ${place} | ${site.name}`,
       description: `Licensed exhaust fan installation and repair serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function ExhaustFanLocationPage({

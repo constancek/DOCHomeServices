@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -107,7 +108,7 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
+  return withSocial({
     title: `Electricity Disconnection in ${loc.neighborhood}, ${loc.state}`,
     description: `Power disconnected in ${place}? Duke will not reconnect until your meter base, mast, or panel is repaired and inspected. Licensed electricians, upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/electricity-disconnection/${loc.slug}` },
@@ -115,7 +116,7 @@ export async function generateMetadata({
       title: `Electricity Disconnection in ${place} | ${site.name}`,
       description: `Repair, permitting and inspection of disconnected electrical service in ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function ElectricityDisconnectionLocationPage({
