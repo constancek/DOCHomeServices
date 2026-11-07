@@ -126,7 +126,7 @@ export default function LocationServicePage({
     '@type': config.businessType,
     name: `${site.name} — ${config.serviceName}, ${loc.neighborhood}`,
     telephone: site.primaryPhone.number,
-    url: `${site.url}/services/${config.slug}/${loc.slug}`,
+    url: `${site.url}/services/${config.slug}/${loc.slug}/`,
     areaServed: { '@type': 'Place', name: place },
     address: {
       '@type': 'PostalAddress',
@@ -149,12 +149,12 @@ export default function LocationServicePage({
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-      { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
+      { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
       ...(config.parentCrumb
-        ? [{ '@type': 'ListItem', position: 3, name: config.parentCrumb.label, item: `${site.url}${config.parentCrumb.href}` }]
+        ? [{ '@type': 'ListItem', position: 3, name: config.parentCrumb.label, item: `${site.url}${config.parentCrumb.href.replace(/\/?$/, '/')}` }]
         : []),
-      { '@type': 'ListItem', position: config.parentCrumb ? 4 : 3, name: config.hubLabel, item: `${site.url}/services/${config.slug}` },
-      { '@type': 'ListItem', position: config.parentCrumb ? 5 : 4, name: loc.neighborhood, item: `${site.url}/services/${config.slug}/${loc.slug}` },
+      { '@type': 'ListItem', position: config.parentCrumb ? 4 : 3, name: config.hubLabel, item: `${site.url}/services/${config.slug}/` },
+      { '@type': 'ListItem', position: config.parentCrumb ? 5 : 4, name: loc.neighborhood, item: `${site.url}/services/${config.slug}/${loc.slug}/` },
     ],
   };
   const faqSchema = {

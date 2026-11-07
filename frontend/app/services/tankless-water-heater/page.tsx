@@ -13,9 +13,9 @@ import { withSocial } from '@/lib/seo';
 
 export const metadata: Metadata = withSocial({
   title: 'Tankless Water Heaters',
-  description: `Tankless water heater installation, repair, and maintenance across ${site.serviceArea} from ${site.name} — endless hot water, all major brands, properly sized. Upfront pricing.`,
-  alternates: { canonical: '/services/tankless-water-heater' },
-});
+  description: `Tankless water heater installs, repairs and yearly descaling across ${site.serviceArea}. Flat-rate prices approved first, same day on most calls.`,
+  alternates: { canonical: '/services/tankless-water-heater/' },
+}, { url: '/og/tankless-water-heater.png', width: 1200, height: 630, alt: 'Tankless water heater mounted on a wall' });
 
 const signs = [
   'Inconsistent or fluctuating hot water, even after repairs',
@@ -96,9 +96,9 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing` },
-    { '@type': 'ListItem', position: 4, name: 'Tankless Water Heaters', item: `${site.url}/services/tankless-water-heater` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing/` },
+    { '@type': 'ListItem', position: 4, name: 'Tankless Water Heaters', item: `${site.url}/services/tankless-water-heater/` },
   ],
 };
 const faqSchema = {

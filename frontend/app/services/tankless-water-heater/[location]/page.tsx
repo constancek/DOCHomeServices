@@ -107,15 +107,28 @@ export async function generateMetadata({
   const { location } = await params;
   const loc = getLocation(location);
   if (!loc) return {};
-  const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
+  // Short name for titles and descriptions ("CUF", not the full parenthetical).
+  const name = loc.neighborhood.replace(/\s*\(.*\)$/, '');
+  const place = loc.city ? `${name}, ${loc.city}, ${loc.state}` : `${name}, ${loc.state}`;
+  const base = `Tankless Water Heaters in ${name}, ${loc.state}`;
+  const full = `${base} | ${site.name}`;
+  const description = `Tankless water heater installs, repairs and descaling in ${place}. Flat-rate prices approved first, same day on most calls.`;
+  const path = `/services/tankless-water-heater/${loc.slug}/`;
+  const image = { url: '/og/tankless-water-heater.png', width: 1200, height: 630, alt: 'Tankless water heater mounted on a wall' };
   return {
-    title: `Tankless Water Heaters in ${loc.neighborhood}, ${loc.state}`,
-    description: `Tankless water heater installation, repair, and maintenance in ${place} — endless hot water, all major brands, properly sized. Call ${site.primaryPhone.number}.`,
-    alternates: { canonical: `/services/tankless-water-heater/${loc.slug}` },
+    // Drop the brand suffix when it would push the title past ~65 characters.
+    title: full.length <= 65 ? base : { absolute: base },
+    description,
+    alternates: { canonical: path },
     openGraph: {
-      title: `Tankless Water Heaters in ${place} | ${site.name}`,
-      description: `Tankless water heater installation, repair, and maintenance serving ${place} and nearby areas.`,
+      type: 'website',
+      siteName: site.name,
+      title: full,
+      description,
+      url: new URL(path, site.url).toString(),
+      images: [image],
     },
+    twitter: { card: 'summary_large_image', title: full, description, images: [image.url] },
   };
 }
 
