@@ -33,7 +33,7 @@ export const westPriceHill: LocationServiceCopy = {
       },
       {
         title: 'When Furnace Maintenance Is Worth It, and When It Isn’t',
-        body: 'A visit in West Price Hill is worth the money when the furnace came with the house and no paperwork, when you’ve just moved in, or when it starts making a new noise, cutting on and off too often, or sending up a dusty smell that won’t burn off. Skip it if the furnace had its yearly check last fall and runs as it did then. A furnace that’s quit heating needs Furnace Repair instead. If we’ve already found a crack in the heat exchanger, keep that money for the replacement. Between visits, changing a dirty filter and keeping vents clear are yours. We advise one visit a year.',
+        body: 'Money goes furthest in West Price Hill on a furnace nobody left records for, in a house you moved into this year, or on one that has begun to change: an unfamiliar noise, on-off cycling that comes too fast, a dusty odor that hangs around instead of burning off. Don’t bother if it got its yearly check last fall and runs the same. Cold house, burners won’t light: that’s Furnace Repair. Where our technician already flagged a cracked heat exchanger, put the tune-up money aside for a replacement. Your share between visits: swap the filter once it looks gray, keep vents clear. We advise one visit a year.',
       },
       {
         title: 'Gas and Electric Furnace Maintenance in West Price Hill',

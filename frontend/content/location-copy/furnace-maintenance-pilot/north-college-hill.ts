@@ -37,7 +37,7 @@ export const northCollegeHill: LocationServiceCopy = {
       },
       {
         title: 'Gas and Electric Furnace Maintenance in North College Hill',
-        body: 'Gas furnaces are the norm in North College Hill. Those visits focus on the igniter, the burners and their flame, the flame sensor, a leak check at the gas line, then the heat exchanger and the vent connection. Electric heat is a smaller share and may be a heat pump. A true electric furnace gets its heating elements, sequencers and wiring tested and its airflow checked.',
+        body: 'Most homes in North College Hill run gas furnaces, so most of the hour goes into the burner compartment. We watch the igniter light the burners, read the flame, clean or test the flame sensor, leak-check the gas line at the furnace, then inspect the heat exchanger and where the vent meets the flue. Electric heat covers fewer homes, some by heat pump. On a true electric furnace, elements, sequencers and wiring are metered and airflow confirmed.',
       },
     ],
     whyTitle: 'Why Homeowners and Landlords in North College Hill Book Furnace Maintenance With Us',
@@ -54,7 +54,7 @@ export const northCollegeHill: LocationServiceCopy = {
       },
       {
         q: 'What furnace care can owners or tenants do between visits?',
-        a: 'Owners and tenants can change a dirty filter, keep furniture off registers and returns, and replace thermostat batteries. Keep stored things away from the furnace. Nobody but a licensed technician should open the burner compartment or work the gas valve. Tenants: report anything odd to the owner rather than fixing it.',
+        a: 'A dirty filter can be changed by whoever lives there, and so can thermostat batteries. Keep beds, couches and rugs from covering registers or the return, and leave floor space around the furnace. Opening the burner compartment or turning the gas valve is a licensed technician’s job. Tenants who notice anything odd should tell the owner instead of fixing it.',
       },
     ],
   },

@@ -33,7 +33,7 @@ export const wintonHills: LocationServiceCopy = {
       },
       {
         title: 'When Furnace Maintenance Is Worth It, and When It Isn’t',
-        body: 'For an owner in Winton Hills, a fall visit earns its keep on a furnace nobody has paperwork for, a building that just changed hands, a tenant reporting scorched air days after the heat came on, a fresh rattle or squeal, or cycles that cut out early. Several units checked on one trip stretch the value further. It’s wasted on a furnace serviced last fall that behaves. A unit that has quit heating needs Furnace Repair. If we’ve found its heat exchanger cracked, put that money toward a replacement. Heat pump and boiler units have separate services. Tenants in managed housing take concerns to management, not to us.',
+        body: 'A fall visit pays an owner back here on a furnace with zero paperwork, in a building just bought, after a tenant mentions scorched air hanging on days into heating, with a squeal or rattle that wasn’t there before, or with cycles quitting early. Lining up several units for one trip stretches it. Last fall’s tune-up plus normal running means skip this year’s. Stopped heating entirely: that one’s for Furnace Repair. Where we’ve flagged a cracked heat exchanger, set the money aside for replacing that furnace. Heat pump and boiler units fall under separate services. In managed housing, tenants report to management, not to us.',
       },
       {
         title: 'Gas and Electric Furnace Maintenance in Winton Hills',

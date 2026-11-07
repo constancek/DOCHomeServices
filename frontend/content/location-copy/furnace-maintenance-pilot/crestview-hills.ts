@@ -4,7 +4,7 @@ export const crestviewHills: LocationServiceCopy = {
   localParagraph:
     'Townhomes and 1980s houses make up most of the furnace maintenance we do in Crestview Hills. Census figures put 56.9% of homes in the 1980s and 1990s, and over a quarter are attached units, so the furnace often lives in a utility closet rather than a basement. A tune-up on that kind of system is airflow, burner or elements, and the switches that shut it down. Electricity heats 58.2% of homes, heat pumps included. Pricing is fixed up front, and if your furnace is fine, you’ll hear that plainly.',
   emergencyParagraph:
-    'Smell gas and you leave: no switches, no relighting, call the gas company from the street. Carbon monoxide alarm: everyone exits first. Book repair for a furnace that’s quit during a cold spell, one that keeps tripping off and restarting, or a soft, yellow flame. Toddlers, elderly relatives and the unwell can’t wait. Same day on most calls, weekends included.',
+    'Gas smell: get out, leave the lights alone, relight nothing, and phone the gas company from across the street. Carbon monoxide alarm: people outside first. Repair, not maintenance, covers a furnace that died in a freeze, endless restarting or a soft yellow flame. Toddlers, grandparents and sick family come first. Same-day help on most calls, Saturdays and Sundays included.',
   commonIntro:
     'In Crestview Hills, townhome and house owners tend to book after noticing one of these:',
   localFaqs: [
@@ -33,7 +33,7 @@ export const crestviewHills: LocationServiceCopy = {
       },
       {
         title: 'When Furnace Maintenance Is Worth It, and When It Isn’t',
-        body: 'In Crestview Hills, the visit is worth booking when the furnace’s last service is a mystery, when you’ve just taken the keys, when a new squeal or rattle starts, or when cycles get shorter. So is a scorched smell that sticks around after the heat’s first week. It isn’t worth booking for a furnace we tuned within the past year that runs smoothly. A furnace that’s quit belongs with Furnace Repair. Once we’ve shown you a cracked heat exchanger, keep the tune-up money for its replacement. Heat pump or boiler homes, look to those services. Once a year is plenty; filters and thermostat batteries are yours to handle.',
+        body: 'For a townhome or a 1980s house in Crestview Hills, a fall visit earns its keep with paperwork showing no service date, a closing this year, a squeal from the closet when the blower starts, burners quitting early, or a scorched-dust odor still around a week into heating season. We’d tell you to pass when we tuned it last fall and it behaves. A furnace giving no heat goes to Furnace Repair. With a cracked heat exchanger already on record, save that money for the replacement. Heat pump and boiler owners have their own services. Yearly visits are plenty; filters and thermostat batteries stay with you.',
       },
       {
         title: 'Gas and Electric Furnace Maintenance in Crestview Hills',

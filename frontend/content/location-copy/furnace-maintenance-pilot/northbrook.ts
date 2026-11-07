@@ -33,7 +33,7 @@ export const northbrook: LocationServiceCopy = {
       },
       {
         title: 'When Furnace Maintenance Is Worth It, and When It Isn’t',
-        body: 'In Northbrook, a tune-up earns its keep on three kinds of furnace: one with no paper trail, one that came with a house you just closed on, and one acting oddly: a dust-burning smell that won’t clear after the first days of heat, a rattle, a squeal or short cycles. Skip it if the furnace had service within the past year and behaves. A furnace that no longer heats wants Furnace Repair, and one already diagnosed with a cracked heat exchanger wants replacing. Heat pumps and boilers have their own services. Between visits, keep a clean filter in and the registers open. Yearly is enough.',
+        body: 'Pay for it in Northbrook when the cabinet carries no service tag, when you closed on the house recently and know nothing about the furnace, or when something new shows up: dust that keeps scorching days into the season, a rattle, a squeal, cycles cut short. Leave it alone if someone serviced it within the past year and it hasn’t changed. A furnace putting out no heat goes to Furnace Repair. If our last visit found the heat exchanger cracked, spend toward replacing it instead. Heat pumps and boilers have their own services. Your job until next fall: a clean filter and open registers. Once yearly does it.',
       },
       {
         title: 'Gas and Electric Furnace Maintenance in Northbrook',

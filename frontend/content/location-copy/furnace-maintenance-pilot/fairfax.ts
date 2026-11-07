@@ -37,12 +37,12 @@ export const fairfax: LocationServiceCopy = {
       },
       {
         title: 'Gas and Electric Furnace Maintenance in Fairfax',
-        body: 'Gas is the main heat in Fairfax, so the gas side takes the bulk of the hour: we watch ignition, judge the flame, clean or test the flame sensor, check the gas fitting for leaks, and go over the heat exchanger and the chimney vent. Electric heat is the minority here. An electric furnace has its elements, sequencers and wiring tested and its airflow checked; a heat pump is its own service.',
+        body: 'Most houses in Fairfax heat with gas, and on those the burner compartment gets the bulk of the hour. Ignition is watched start to finish, the flame color and shape judged, the flame sensor cleaned or tested, the gas fitting leak-checked, and the heat exchanger and chimney connector inspected. Electric heat is the smaller group here. For an electric furnace, elements, sequencers and wiring get metered and airflow confirmed; heat pumps are booked as their own service.',
       },
     ],
     whyTitle: 'Why Homeowners in Fairfax Book Furnace Maintenance With Us',
     whyParagraph:
-      'Pre-war basements and brick chimneys are regular work for us in Fairfax. Each technician carries a license and insurance and has cleared a background check and drug test. There’s no overtime, and you agree to the flat price first.',
+      'A pre-war basement with a brick chimney beside the furnace is normal work for us in Fairfax. Each technician holds a license and insurance and passed drug and background screening. No overtime; you sign off on a flat price first.',
     sharedFaqs: [
       {
         q: 'How do you price a furnace tune-up in Fairfax?',

@@ -4,7 +4,7 @@ export const ludlow: LocationServiceCopy = {
   localParagraph:
     'Ludlow is old housing heated by gas. Census figures put 60.5% of homes at 1939 or earlier and 71.1% on gas heat. Down in those basements the furnace is usually the house’s second or third, exhausting into a chimney laid when the place was new, so we give the flue connection, the draft and the heat exchanger our slowest look. Attached and row houses add cramped stairs and low ceilings to the job. Expect the price before we start, and a straight word if the furnace is in good order.',
   emergencyParagraph:
-    'Gas smell: out the door, no switches, no relighting, and call the gas company from the sidewalk. Carbon monoxide alarm: clear the house. Book a repair, not maintenance, for a furnace dead in a cold snap, one cycling without end, or a yellow, floppy flame. Infants, elderly parents and sick family come first. Usually same day, weekends included.',
+    'Smell gas in Ludlow and the house empties: no switches, no relighting, and the gas company gets called from across the street. Same for a carbon monoxide alarm. A furnace dead in a cold snap, nonstop cycling or a yellow, floppy flame needs a repair visit. Infants, elderly parents and sick family come first. Usually same day, weekends included.',
   commonIntro:
     'Basements under Victorian and early 1900s houses hold most of the furnaces we service in Ludlow. These are what bring owners to us:',
   localFaqs: [
@@ -54,7 +54,7 @@ export const ludlow: LocationServiceCopy = {
       },
       {
         q: 'Is there anything I can do myself between furnace visits?',
-        a: 'Yes. Change the filter when it’s dirty, keep floor and wall registers uncovered, and put new batteries in the thermostat. Keep paint cans, boxes and laundry away from the furnace in the basement. Leave the burner compartment and the gas valve alone; those need a technician.',
+        a: 'Yes, a few things. A filter gone dirty can be swapped, the thermostat can get new batteries, and floor and wall registers should stay uncovered. Paint cans, boxes and laundry belong well away from a basement furnace. The burner compartment and gas valve are a technician’s territory, so leave those closed.',
       },
     ],
   },

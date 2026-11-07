@@ -33,7 +33,7 @@ export const williamsburg: LocationServiceCopy = {
       },
       {
         title: 'When Furnace Maintenance Is Worth It, and When It Isn’t',
-        body: 'In Williamsburg, a visit is money well spent on a furnace with no service record, in a house you bought this year, or when a dusty burning smell won’t fade after the first few days of heat. New rattles, squeals and short cycling are worth catching early, and a landlord gets most from one fall round covering every unit. It’s wasted on a furnace serviced in the last year that runs well. A furnace that has quit heating needs Furnace Repair, not maintenance. On your own, change dirty filters, keep vents uncovered and put fresh batteries in the thermostat. Annual service covers it.',
+        body: 'Book one in Williamsburg if the furnace arrived with the deed and zero history, or if it’s gotten noisy lately, a squeal here, a rattle there. Short cycling counts too, as does burning dust you still smell after several days of heat. Landlords: lining up every unit in one autumn round costs less per furnace. Skip it for a unit somebody tuned up since last fall that keeps running fine. Dead furnace, cold house: that’s Furnace Repair. Your part between annual visits is small, and it goes like this: dirty filter out, vents unblocked, thermostat batteries new before the cold.',
       },
       {
         title: 'Gas and Electric Furnace Maintenance in Williamsburg',

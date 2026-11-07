@@ -33,7 +33,7 @@ export const northside: LocationServiceCopy = {
       },
       {
         title: 'When Furnace Maintenance Is Worth It, and When It Isn’t',
-        body: 'Spend the money if your furnace has never had a documented visit, if the house changed hands recently, if a scorched-dust smell keeps hanging around after the opening days of the season, if a squeal or rattle is new, or if run times have gone short and choppy. Save it if a technician went through the furnace within the year and it’s behaving. Cold registers and no heat call for Furnace Repair. A heat exchanger we’ve already found cracked is a replacement, not a tune-up. Boiler and heat pump homes book those services. We advise one visit yearly.',
+        body: 'In Northside, the money is well spent on a furnace with no record of anyone ever servicing it, on one that came with a house bought lately, and on one showing a change: scorched dust still in the air past opening week, a squeal or rattle you hadn’t heard before, run times gone short and choppy. Hold off if a technician went over it within the year and nothing seems off. Cold registers mean Furnace Repair, not this. Once we’ve found a cracked heat exchanger, the furnace needs replacing rather than tuning. Boiler and heat pump owners should book those services. One visit yearly is our advice.',
       },
       {
         title: 'Gas and Electric Furnace Maintenance in Northside',

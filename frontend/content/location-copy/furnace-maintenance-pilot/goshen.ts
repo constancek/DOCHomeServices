@@ -37,7 +37,7 @@ export const goshen: LocationServiceCopy = {
       },
       {
         title: 'Gas and Electric Furnace Maintenance in Goshen',
-        body: 'Across Goshen Township, electricity heats more homes than any other fuel, a number that includes heat pumps. For an electric furnace we test the elements and sequencers, check the wiring for heat damage, and measure airflow. Gas furnaces, a smaller share here, still get the burners, igniter, flame sensor, gas connection, heat exchanger and venting checked. In the old center, oil furnaces are worth asking about when you book.',
+        body: 'Electricity is the leading heating fuel in Goshen Township, though that count takes in heat pumps along with furnaces. On an electric furnace we meter each element, test the sequencers, look for scorched wiring, and measure airflow. Gas furnaces are fewer out here but get the full burner-side check: igniter, burners, flame sensor, the gas connection, the heat exchanger and the vent. In the old center, mention an oil furnace when you call.',
       },
     ],
     whyTitle: 'Why Homeowners in Goshen Book Furnace Maintenance With Us',
@@ -54,7 +54,7 @@ export const goshen: LocationServiceCopy = {
       },
       {
         q: 'What can I do for my furnace myself between tune-ups?',
-        a: 'Swap in a clean filter when the old one looks dirty, keep floor registers and the return clear of rugs and furniture, change the thermostat batteries, and keep the furnace closet or basement corner empty. The burner compartment and the gas valve are not owner jobs; leave them to a technician.',
+        a: 'Put in a clean filter once the old one looks dirty, and change thermostat batteries when the screen dims. Registers and the return should stay clear of rugs and couches. Keep a manufactured-home furnace closet, or an older basement corner, free of storage. Leave the burner compartment and gas valve to a technician.',
       },
     ],
   },

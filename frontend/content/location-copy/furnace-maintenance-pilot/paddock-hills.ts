@@ -4,7 +4,7 @@ export const paddockHills: LocationServiceCopy = {
   localParagraph:
     'In Paddock Hills, furnace work splits two ways. Census figures date 41.8% of homes to before 1940: the Tudor Revival, Dutch Colonial and bungalow houses, with a basement furnace that often vents into the original chimney, so the flue and heat exchanger get the closest look. Much of the rest is apartments from the 1960s and 1970s, where a closet furnace or building system is the landlord’s to book. Heat is close to half gas, half electric. The price comes before the work, and if nothing’s needed, we say so.',
   emergencyParagraph:
-    'Repair territory, not maintenance: the smell of gas (go outside, leave switches alone, phone the gas company from the yard), a carbon monoxide alarm (all out), a furnace dead in a freeze, one stuck lighting and dropping out, or a yellow, wavering flame. Babies, older people and anyone ill are most exposed. Same-day help on most calls, weekends included.',
+    'Book a repair, not a tune-up, for these. Gas odor: get out, don’t flip switches, ring the gas company once outside. A carbon monoxide alarm: everybody leaves first. No heat during a freeze, a burner cycling on and off, a lazy yellow flame. Infants, elderly relatives and sick family members feel it first. Same day on most calls, weekends too.',
   commonIntro:
     'In Paddock Hills, homeowners and building managers tend to book a fall visit after noticing one of these:',
   localFaqs: [
@@ -33,7 +33,7 @@ export const paddockHills: LocationServiceCopy = {
       },
       {
         title: 'When Furnace Maintenance Is Worth It, and When It Isn’t',
-        body: 'Money spent here makes sense when the furnace came with the house and no paperwork, or when it has changed: shorter and shorter run times, a fresh squeal or rattle, or a hot-dust odor still drifting from the vents after the first cold week. A landlord with a building of closet units saves by doing them together. It makes no sense on a furnace serviced inside the year that works properly. One that’s stopped heating is a job for Furnace Repair; one already diagnosed with a cracked heat exchanger needs replacing, so skip the tune-up. Boilers and heat pumps have their own services. Owners can handle filter swaps between visits.',
+        body: 'For a Dutch Colonial bought without a service record, the visit pays. Same if the furnace has begun short cycling, picked up a new squeal or rattle, or keeps giving off hot-dust smells long after the cold set in. A landlord in Paddock Hills with a block of closet units can have every one done in one trip. Pass on it if a technician was out within the year and the furnace still behaves. No heat at all means Furnace Repair. A heat exchanger we’ve already found cracked calls for replacement money, not tune-up money. Boilers or heat pumps: see those services. Filter changes are yours between visits.',
       },
       {
         title: 'Gas and Electric Furnace Maintenance in Paddock Hills',

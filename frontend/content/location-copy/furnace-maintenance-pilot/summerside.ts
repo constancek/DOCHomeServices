@@ -33,7 +33,7 @@ export const summerside: LocationServiceCopy = {
       },
       {
         title: 'When Furnace Maintenance Is Worth It, and When It Isn’t',
-        body: 'A fall visit is worth it on a furnace with no paperwork, in a house or condo you just bought, or for a row of rentals an owner wants handled in one go. Likewise for a dusty burning smell that outstays the first days of heat, a new rattle or squeal, or short cycling. It isn’t worth it for a furnace serviced inside the past year that runs normally. One that won’t heat at all needs Furnace Repair. If we’ve found a cracked heat exchanger, save the money for the replacement. Homes on a heat pump or boiler should book those services. Once a year is the right pace.',
+        body: 'In Summerside, the visit pays off on a furnace whose cabinet holds no service history, in a house or condo you closed on lately, and for a landlord who wants a row of rental units handled in a single trip. Book it as well once burnt dust lingers beyond opening week, once a rattle or squeal turns up, or once the furnace starts short cycling. Pass if it got serviced within the past year and runs normally. Won’t heat at all: book Furnace Repair. If we’ve found its heat exchanger cracked, save toward a new furnace. Heat pump or boiler homes have separate services. Once a year is plenty.',
       },
       {
         title: 'Gas and Electric Furnace Maintenance in Summerside',

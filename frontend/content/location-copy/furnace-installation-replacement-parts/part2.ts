@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Queensgate furnace replacement is mostly commercial: older furnaces and unit heaters in warehouses, offices and light-industrial buildings near the rail yards. We size to how the space is used now, confirm gas supply and venting, and keep equipment clear of flood risk on low Mill Creek ground where we can.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Heating equipment here tends to be older commercial units sized for layouts that have since been reconfigured.',
-      'Replacing a furnace or unit heater in a Queensgate building starts with the real heat load for how the space is used now, not how it was decades ago. We confirm gas supply and venting for the larger commercial units these buildings need, and on the low ground near the Mill Creek we keep equipment and intakes clear of flood risk where we can.',
-    ],
-    commonIntro:
-      "In Queensgate's commercial and industrial buildings, an aging unit sized for an old layout is the replacement we handle most.",
-    localFaqs: [
-      {
-        q: 'Do you handle furnace and heating replacements for commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we size and replace heating equipment for those buildings, not just homes. We provide estimates and financing.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'Furnace replacement in CUF (Clifton Heights, University Heights & Fairview) usually involves student rentals where furnaces were sized and ducted cheaply during conversion and worn out by heavy use. We size each new furnace to the unit or zone it heats and check the venting and gas line.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'How fast can you replace a furnace in South Cumminsville?',
         a: 'South Cumminsville is within our Mill Creek valley service area, so we can schedule a replacement quickly once the unit is sized to your home.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'English Woods furnace replacement covers older hilltop homes with furnaces past their prime and redeveloped properties with newer units we assess on their own terms. We run a load calculation instead of matching the old unit, confirm the venting and size a high-efficiency furnace to the home.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here run furnaces well past their prime, while redeveloped properties may have newer units worth assessing on their own terms.',
-      'When we replace a furnace in an English Woods home, we run a load calculation rather than matching the old unit, confirm the venting suits a modern furnace, and size a high-efficiency unit to the hilltop home. Right-sizing keeps the furnace from short-cycling and holds down the cost of heating through the cold-winter load.',
-    ],
-    commonIntro:
-      "In English Woods' older hilltop homes, an aging furnace past its efficient years is the replacement we see most.",
-    localFaqs: [
-      {
-        q: 'How fast can you replace a furnace in English Woods?',
-        a: 'English Woods is within our west-side service area, so we can schedule a replacement promptly once the unit is sized to your home. Financing is available.',
       },
     ],
   },

@@ -9,6 +9,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'furnace-installation-replacement',
   serviceName: 'Furnace Installation & Replacement',
+  localHeadingName: 'Furnace Installation',
+  emergencyHeading: 'Same-Day Furnace Replacement in {neighborhood}',
   eyebrow: 'Heating',
   hubLabel: 'Furnace Installation & Replacement',
   parentCrumb: { label: 'Heating', href: '/services/heating' },
@@ -75,6 +77,14 @@ const config: ServiceLocationConfig = {
     { q: 'Can I schedule emergency furnace installation during winter?', a: 'Absolutely. When a furnace fails during a cold snap, our team offers same-day installation to restore heat without delay.' },
     { q: 'How far in advance should I book a furnace install?', a: 'For a planned upgrade, a few days is usually plenty. For a no-heat emergency, we handle installs the same day whenever possible.' },
   ],
+  steps: {
+    heading: 'What to Expect From Furnace Installation in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Size It First', text: 'The heat the house needs, fuel, venting and ducts.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A flat rate, before any work starts.' },
+      { icon: 'flame', title: 'Heat On, Tested', text: 'Gas, venting and airflow checked before we leave.' },
+    ],
+  },
   related: [
     { label: 'Furnace Installation & Replacement (overview)', href: '/services/furnace-installation-replacement' },
     { label: 'Furnace Repair', href: '/services/furnace-repair' },

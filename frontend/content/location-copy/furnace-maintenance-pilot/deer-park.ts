@@ -2,7 +2,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const deerPark: LocationServiceCopy = {
   localParagraph:
-    'Deer Park is a town of 1940s and 1950s houses: Census figures give a median of 1947, and gas heats 77.4% of homes. That makes the typical job here a gas furnace in the basement, likely the house’s second or third, venting into a chimney older than any furnace it has served. Most of our hour goes to that chimney connection and the heat exchanger. You’ll know the price before we lift a panel, and if the furnace is fine, we’ll leave it at that.',
+    'Census figures put the median house in Deer Park at 1947, and gas heats 77.4% of homes. So the furnace we tune is almost always gas, down in a basement, and seldom the first one that house has owned. Its vent pipe tends to run into a chimney that went up with the house, which is why the flue connection and heat exchanger take most of our attention. The price is set before a panel comes off, and a furnace that needs nothing gets told so.',
   emergencyParagraph:
     'Gas smell: everyone walks out, nobody touches a switch or the pilot, and the gas company gets called from the sidewalk. A carbon monoxide alarm clears the house the same way. Furnace dead in a hard freeze, cycling every few minutes, or burning a yellow, wavering flame: that’s repair. Babies and grandparents chill first. Same-day on most calls, weekends too.',
   commonIntro:
@@ -37,7 +37,7 @@ export const deerPark: LocationServiceCopy = {
       },
       {
         title: 'Gas and Electric Furnace Maintenance in Deer Park',
-        body: 'Deer Park runs on gas: the burners and igniter, flame sensor, the gas cock and union at the furnace, the heat exchanger and the flue take most of the hour. Electric heat shows up in fewer homes and may be a heat pump or baseboard rather than a furnace. Where it is an electric furnace, we test elements and sequencers, wiring and the air moving through it; no flame involved.',
+        body: 'Gas is the fuel across most of Deer Park, so the hour goes to the flame: igniter, burners and flame sensor, the shutoff and fitting where the line meets the furnace, then the heat exchanger and flue. Fewer homes heat with electricity, and some of those are heat pumps or baseboard, not furnaces. On a true electric furnace there’s no flame to read; we meter the elements, check sequencers and wiring, and confirm air is moving.',
       },
     ],
     whyTitle: 'Why Homeowners in Deer Park Book Furnace Maintenance With Us',

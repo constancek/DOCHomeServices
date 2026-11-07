@@ -37,7 +37,7 @@ export const arlingtonHeights: LocationServiceCopy = {
       },
       {
         title: 'Gas and Electric Furnace Maintenance in Arlington Heights',
-        body: 'Arlington Heights is mostly on gas. Those furnaces get the flame side checked: igniter, burners, flame sensor, the fitting where gas comes in, the heat exchanger and the flue. Electricity heats roughly a third of homes, a figure that includes heat pumps and baseboard heaters. For an actual electric furnace, the elements, sequencers and wiring are tested and airflow measured. Heat pumps go to their own service.',
+        body: 'Most furnaces in Arlington Heights run on gas, so the visit centers on the burner end. We prove the igniter lights and the sensor sees the flame, clean the burners, leak-test the gas fitting, and inspect the heat exchanger plus the flue run to the chimney. Census figures list a third of homes on electricity, a count where heat pumps and baseboard sit alongside furnaces. A genuine electric furnace gets elements, sequencers and wiring tested, and airflow measured.',
       },
     ],
     whyTitle: 'Why Landlords and Homeowners in Arlington Heights Book Furnace Maintenance With Us',
@@ -54,7 +54,7 @@ export const arlingtonHeights: LocationServiceCopy = {
       },
       {
         q: 'What can I do to my furnace without a technician?',
-        a: 'Between visits, owners can replace filters as they get dirty and change the thermostat batteries. Tenants can keep rugs and furniture off registers and keep the basement corner around the furnace free of storage. Nobody but a licensed technician opens the burner compartment or touches the gas valve, and tenants should report problems to the owner.',
+        a: 'Clean or replace the filter once it turns gray, and put new thermostat batteries in when the screen fades. Renters can keep a sofa or rug from covering a register and stop storage creeping up on the furnace downstairs. Only a licensed technician opens the burner panel or handles the gas valve, and tenants send any problem to the owner.',
       },
     ],
   },

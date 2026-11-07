@@ -4,7 +4,7 @@ export const bethel: LocationServiceCopy = {
   localParagraph:
     'Renters outnumber owners in Bethel, 51.7% by Census figures, and over a third of homes are in buildings of three or more units, so a fall round of apartment closet furnaces, booked by the landlord, is a big share of our work. Gas and electricity heat about the same number of homes. Owner-occupied houses run older, roughly a quarter before 1940, where a basement furnace often vents into an old chimney and the flue gets the closest check. Prices come first; if a furnace needs nothing, we say it.',
   emergencyParagraph:
-    'In Bethel, danger signs mean repair. Gas smell: everyone out, no switches, no relighting, gas company called from outside. Carbon monoxide alarm: people out first. Freezing weather with no heat, a furnace that keeps quitting and restarting, or a wavering yellow flame. A baby, older relative or sick person inside makes it urgent. Same day on most calls, weekends included.',
+    'Should the hallway smell of gas, walk the family out without touching a switch and ring the gas company from the sidewalk. A sounding CO detector means you go before you investigate. A cold apartment in a freeze, a furnace stuck cycling, or a lazy yellow burner is a repair call, and we usually arrive that day.',
   commonIntro:
     'Around Bethel, landlords and owners usually book after spotting one of these:',
   localFaqs: [
