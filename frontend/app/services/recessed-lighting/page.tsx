@@ -335,7 +335,7 @@ export default function RecessedLightingPage() {
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/request-estimate/" className="btn-outline border-white text-white hover:bg-white/10">
+              <Link href="/request-estimate/" className="btn-outline border-white">
                 Request an Estimate
               </Link>
             </div>
