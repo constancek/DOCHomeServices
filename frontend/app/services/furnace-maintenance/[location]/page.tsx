@@ -9,6 +9,7 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'furnace-maintenance',
   serviceName: 'Furnace Maintenance',
+  emergencyHeading: 'Furnace Problems That Can’t Wait in {neighborhood}',
   eyebrow: 'Heating',
   hubLabel: 'Furnace Maintenance',
   parentCrumb: { label: 'Heating', href: '/services/heating' },
@@ -78,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'How long does a furnace tune-up take?', a: 'A standard tune-up usually takes about an hour, depending on the system and what we find during the inspection.' },
     { q: 'How often should I change a furnace filter?', a: 'Every 1–3 months for a standard 1-inch filter — more often with pets or heavy use. Thicker media filters can last several months.' },
   ],
+  steps: {
+    heading: 'What to Expect From Furnace Maintenance in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Check It First', text: 'Burners, heat exchanger, blower and safety controls.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A flat rate, before any work starts.' },
+      { icon: 'flame', title: 'Cleaned and Tested', text: 'New filter, then a full heating cycle run.' },
+    ],
+  },
   related: [
     { label: 'Furnace Maintenance (overview)', href: '/services/furnace-maintenance' },
     { label: 'Furnace Repair', href: '/services/furnace-repair' },

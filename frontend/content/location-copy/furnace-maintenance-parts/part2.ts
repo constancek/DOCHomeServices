@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Queensgate furnace maintenance is mostly commercial: rooftop, warehouse and office units in dusty older industrial buildings near the rail yards. The safety check on the heat exchanger and venting protects the people working inside, and filters and burners get cleaned around the building’s hours.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. The heating equipment here ranges from older rooftop and warehouse units to office furnaces, and on commercial gas equipment the fall safety check — heat exchanger, venting, and a carbon monoxide test — is the part that protects the people working inside.',
-      'These older industrial buildings are dusty and run their heat hard through winter, which loads filters and dirties burners faster than in a home. A fall tune-up swaps filters, cleans the burners and flame sensors, and verifies combustion so a Queensgate building heats efficiently across a cold Cincinnati winter instead of wasting gas, and we work around the schedule the building keeps.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the tune-up signs we see most often come from older heating units that need a yearly safety check and cleaning to stay efficient:',
-    localFaqs: [
-      {
-        q: 'Do you tune up heating systems in Queensgate’s commercial buildings?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we handle fall safety checks and tune-ups on warehouse and office heating units — inspecting the heat exchanger, cleaning the burners, and swapping filters so they heat efficiently through winter.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'A furnace tune-up in CUF (Clifton Heights, University Heights & Fairview) usually involves a retrofit furnace in an old house turned student rental. The heat exchanger and carbon monoxide check come first, since filters rarely get changed and subdivided houses run the heat hard.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'How often should I have my South Cumminsville furnace serviced?',
         a: 'Once a year, in the fall. In the Mill Creek valley, damp basements wear on a furnace, so an annual September or October safety check that inspects the heat exchanger and cleans the burners keeps it heating efficiently through winter.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'Hilltop homes in English Woods run their furnaces hard on cold, windy nights, so furnace maintenance there pays off quickly. Older units get a heat exchanger and carbon monoxide check, and the tune-up swaps the filter and cleans the flame sensor and burners to stop short-cycling.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. Older homes here run furnaces that have heated through many winters, and the fall safety check — heat exchanger, venting, and a carbon monoxide test — is the part that protects the household given the age of that equipment.',
-      'The exposed hilltop setting means these homes run their heat hard on cold, windy nights, and a dirty burner or loaded filter makes a furnace short-cycle and waste gas through a cold Cincinnati winter. A fall tune-up swaps the filter, cleans the flame sensor and burners, and tightens the controls so an English Woods home heats efficiently all season.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the tune-up signs we see most often come from older furnaces that need a yearly safety check and cleaning to stay efficient:',
-    localFaqs: [
-      {
-        q: 'When should I schedule a furnace tune-up in English Woods?',
-        a: 'Book it in early fall, before the first freeze. On English Woods’ older hilltop homes that run hard on windy nights, a September or October safety check and cleaning keeps the furnace heating efficiently and safely through winter.',
       },
     ],
   },

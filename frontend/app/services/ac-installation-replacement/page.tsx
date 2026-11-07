@@ -354,7 +354,15 @@ export default function ACInstallationPage() {
           </div>
 
           {/* Bottom CTA */}
-          <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
+          <div className="mt-24 rounded-3xl bg-blue-section px-6 pb-7 pt-6 text-center text-white sm:mt-32 sm:px-8">
+            <img
+              src="/van-cutout.webp"
+              width={800}
+              height={346}
+              alt="Degree of Comfort service van"
+              loading="lazy"
+              className="mx-auto -mt-[86px] mb-3 h-auto w-72 drop-shadow-xl sm:-mt-[107px] sm:w-96"
+            />
             <h2 className="text-2xl font-extrabold sm:text-3xl">
               Schedule Your AC Installation Today
             </h2>
