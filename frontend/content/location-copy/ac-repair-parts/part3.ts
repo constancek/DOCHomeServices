@@ -1,7 +1,7 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
     intro:
-      'AC out in a Villages of Roll Hill apartment? We service the multi-unit buildings on this west-side hilltop and can be out the same day to get the air moving again. Call (513) 586-5107.',
+      'AC repair in Villages of Roll Hill is mostly apartment work. Shared or closely grouped condensers with long line sets serve several apartments, and on this hilltop they take direct afternoon sun that wears compressors faster. We repair the unit that is down without disrupting the rest of the building.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. Cooling in buildings like these usually runs through shared or closely grouped condensers and long line sets, so when one unit stops cooling the cause is often a system serving several apartments at once.',
       'On a hilltop with little tree cover, those rooftop and ground-level condensers take direct afternoon sun, which pushes head pressure up and wears compressors faster than the equipment’s age alone would suggest. We can isolate and repair the unit that is down without disrupting cooling for the rest of the building, and we keep the same-day response that crowded summer days call for.',
@@ -17,7 +17,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-westwood': {
     intro:
-      'No cool air in East Westwood? We repair AC across this west-side slope and reach most homes the same day. Call (513) 586-5107.',
+      'East Westwood sits on slopes between Westwood and the Mill Creek valley, and AC repair here involves early- and mid-1900s homes with retrofitted cooling. Condensers on hillside pads often settle out of level, and older retrofits may have line sets and wiring sized for a smaller unit.',
     relevance: [
       'East Westwood (ZIP 45211) sits on the slopes between Westwood and the Mill Creek valley, with streets of early- and mid-1900s homes. Many of those older houses were built before central air was standard, so cooling here is a mix of retrofitted systems and aging condensers added decades after the house went up.',
       'On a hillside grade, condensers often sit on uneven or settled pads where they lose level over time, and the older the retrofit, the more likely the line set and electrical were sized for a smaller, less efficient unit. Those are the details that turn a hot afternoon into a no-cool call, and we handle them the same day.',
@@ -33,7 +33,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'western-hills': {
     intro:
-      'AC not keeping up in Western Hills? We repair cooling systems around Western Hills Plaza and Glenway Avenue and reach most homes the same day. Call (513) 586-5107.',
+      'Western Hills AC repair usually involves a house on its second or third condenser. Homes around Western Hills Plaza and Glenway Avenue long predate the systems added to them, and in 1950s and 1960s houses the equipment is often undersized for how families use the space today.',
     relevance: [
       'Western Hills (ZIP 45211) is the established west-side area around Western Hills Plaza and Glenway Avenue, with neighborhoods of early-1900s through mid-century single-family homes. A lot of the cooling equipment here is on its second or third condenser, since the houses long predate the systems bolted onto them.',
       'In homes from the 1950s and 60s especially, the original central air or its replacement is often undersized for the way families use the space today, so the unit runs nearly nonstop in July and burns out capacitors and compressors ahead of schedule. We diagnose whether you are looking at a quick fix or a unit at the end of its life, and we get out the same day either way.',
@@ -49,7 +49,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'california': {
     intro:
-      'AC down in the California neighborhood? We service cooling systems on the riverfront homes along Kellogg Avenue and reach most the same day. Call (513) 586-5107.',
+      'AC repair in California, the far-east riverfront neighborhood along Kellogg Avenue, is mostly about humidity. Low, damp air beside the Ohio River makes systems run longer to hit the same temperature, and the older homes near Riverbend tend to carry aging condensers on low, damp lots.',
     relevance: [
       'California (ZIP 45230) is Cincinnati’s far-east riverfront neighborhood along Kellogg Avenue, near Riverbend, set on low ground beside the Ohio River. The low, humid air that settles along the river makes cooling and dehumidifying a home harder work, so AC systems here run longer to hit the same temperature than they would up on a hill.',
       'The older homes that line this stretch tend to carry aging condensers, and units sitting on low riverside lots are exposed to damp ground and the occasional high-water event that can foul outdoor equipment. When a compressor or fan motor gives out on a humid August afternoon, a fast local response keeps the house from turning into a sauna, and we keep same-day availability for exactly that.',
@@ -65,7 +65,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'carthage': {
     intro:
-      'AC quit in Carthage? We repair cooling systems on the older homes along Vine Street and reach most the same day. Call (513) 586-5107.',
+      'We treat most AC repair in Carthage as retrofit work. The early-1900s homes along Vine Street near the Hamilton County Fairgrounds were built well before central air, condensers on these narrow lots are often decades old, and the ductwork and wiring were rarely designed for cooling.',
     relevance: [
       'Carthage (ZIP 45215) is a north-side neighborhood along Vine Street, a former village now home to the Hamilton County Fairgrounds, with older early-1900s homes. Houses of that era were built well before central air, so cooling here is almost always a retrofit, and the condensers tucked along the side of these narrow lots are often decades into their service life.',
       'In century-old homes with retrofitted systems, the ductwork and electrical were rarely designed for air conditioning in the first place, which leaves units straining and tripping breakers on the hottest days. Where a window-shaker or a tired old condenser can’t keep up, a properly sized mini-split is often the better fit, and we can talk through that on the same visit we make the repair.',
@@ -81,7 +81,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'winton-hills': {
     intro:
-      'AC out in Winton Hills? We service cooling in the homes and multi-unit buildings near Winton Road and reach most the same day. Call (513) 586-5107.',
+      'In Winton Hills, a single AC repair can involve several homes at once. Multi-unit buildings near Winton Road often run grouped condensers or shared systems, so one failure leaves several units without air, and condensers packed into tight outdoor spaces can starve each other of airflow.',
     relevance: [
       'Winton Hills (ZIP 45232) is a north-side neighborhood near Winton Road, with a mix of residential and industrial areas including multi-unit housing. Cooling in the densely built buildings here often runs through grouped condensers and shared systems, so a single failure can leave several units without air at the same time.',
       'Older apartment buildings tend to carry older equipment, and condensers packed close together in tight outdoor spaces can starve each other of airflow and overheat in a heat wave. We can isolate the system that is down, get it cooling again, and do it without taking the whole building offline, with same-day response.',
@@ -97,7 +97,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'roselawn': {
     intro:
-      'AC not cooling in Roselawn? We service homes and apartment buildings along Reading Road and reach most the same day. Call (513) 586-5107.',
+      'Roselawn AC repair usually comes down to age. Mid-century homes and apartment buildings along Reading Road still run original or first-replacement systems, and condensers from that era lose capacity a little each year until one that limped through last summer fails in the first real heat wave.',
     relevance: [
       'Roselawn (ZIP 45237) is a north-side neighborhood along Reading Road, with settled streets of mid-century single-family homes and apartment buildings. The mid-1900s houses here are now well into the age where the original or first-replacement central air system is running on borrowed time.',
       'Condensers from that era lose capacity gradually, so a unit that limped through last summer often fails outright in the first real heat wave of the next. The older apartment buildings add their own load, with aging equipment serving multiple units. We diagnose whether a capacitor, motor, or refrigerant issue will buy you the season, and we get out the same day to find out.',
@@ -113,7 +113,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-airy': {
     intro:
-      'AC down in Mount Airy? We repair cooling systems on the wooded streets near Mount Airy Forest and reach most homes the same day. Call (513) 586-5107.',
+      'Next to Mount Airy Forest, AC repair often means a mid-century home on a hilly, wooded lot with a condenser that has been replaced once and is due again. Hillside pads settle and pull units out of level, and tree debris builds up on outdoor coils.',
     relevance: [
       'Mount Airy (ZIP 45239) is a northwest-side neighborhood beside Mount Airy Forest, one of the largest city parks in the country, with mid-century single-family homes on hilly, wooded streets. The houses here largely date to the mid-1900s, so the central air systems serving them are typically aging condensers that have been replaced once and are due again.',
       'The hilltop terrain means condensers sit on graded pads that can settle and pull the unit out of level, while afternoon sun and the heat that pools on a ridge push the equipment hard in July. Where mature trees shade part of the lot, debris and pollen clog the coils and choke airflow. We handle the cleaning, the repair, or the replacement assessment the same day.',
@@ -129,7 +129,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hartwell': {
     intro:
-      'AC out in Hartwell? We service cooling in this historic streetcar neighborhood’s older homes and reach most the same day. Call (513) 586-5107.',
+      'Hartwell’s Victorian and early-1900s homes came up long before central air, so AC repair in this old streetcar suburb is mostly about retrofits. Plaster walls, balloon framing and original ductwork were never planned around cooling, and retrofitted ducts often cannot move enough air to cool the upper floors.',
     relevance: [
       'Hartwell (ZIP 45215) is a historic north-side neighborhood that grew as a streetcar suburb, known for its Victorian and early-1900s homes on tree-lined streets. Houses this old came up long before central air, so cooling here is a retrofit story — systems threaded into homes whose plaster walls, balloon framing, and original ductwork were never planned around air conditioning.',
       'In those century-old homes, the retrofitted ducts often can’t move enough air to cool the upper floors evenly, and the outdoor condensers added decades ago are well into old age. The mature trees that line these streets also drop leaves and seed onto the units and clog the coils. Where adding ductwork would tear up historic finishes, a mini-split is frequently the cleaner fix, and we can lay out the options the same day we come out.',
@@ -145,7 +145,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'kennedy-heights': {
     intro:
-      'AC quit in Kennedy Heights? We repair cooling on this historic east-side hilltop and reach most homes the same day. Call (513) 586-5107.',
+      'Kennedy Heights AC repair tends to involve large early-1900s homes on a hilltop that started as a Victorian-era resort community. Cooling was retrofitted long after construction, and in bigger houses a single undersized unit works hard while the equipment and upper floors take direct afternoon sun.',
     relevance: [
       'Kennedy Heights (ZIP 45213) is a historic east-side hilltop neighborhood that began as a Victorian-era resort community, now known for its arts center and large early-1900s homes. Those big older houses were built before central air, so cooling them means retrofitted systems and condensers added long after construction — and the larger the home, the harder a single undersized unit has to work.',
       'On a hilltop, the equipment takes more direct sun and the upper floors of these tall older homes trap heat, which leaves an aging condenser running flat out through the afternoon and failing early. We diagnose whether the system can be repaired for the season or is genuinely undersized for the house, and we keep same-day availability through the summer.',
@@ -161,7 +161,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'st-bernard': {
     intro:
-      'AC out in St. Bernard? We repair cooling across this independent city’s dense older homes and reach most the same day. Call (513) 586-5107.',
+      'St. Bernard is a dense grid of early-1900s homes around the Ivorydale complex, and AC repair here often starts in a narrow side yard. Condensers squeezed a few feet apart recirculate each other’s hot exhaust, and the cooling in these century-old homes was retrofitted.',
     relevance: [
       'St. Bernard (ZIP 45217) is its own city, completely surrounded by Cincinnati, built up around the Procter & Gamble Ivorydale complex with a dense grid of early-1900s homes. On lots this tight, condensers end up squeezed into narrow side yards and gangways where two units can sit a few feet apart and recirculate each other’s hot exhaust.',
       'These century-old homes were built before central air, so the cooling is retrofitted, and the equipment crammed into small valley lots tends to run hot and fail early in a heat wave. Poor clearance around the condenser is one of the most common reasons a unit in St. Bernard stops keeping up, and it is something we check and correct on the same-day call.',
@@ -177,7 +177,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'elmwood-place': {
     intro:
-      'AC down in Elmwood Place? We service cooling in this small inner-ring village’s closely spaced homes and reach most the same day. Call (513) 586-5107.',
+      'AC repair in Elmwood Place mostly involves closely spaced early-1900s homes down in the Mill Creek valley. Heavy, humid valley air makes systems run longer, and condensers crowded into narrow gaps between houses lose the clearance they need to breathe. Retrofitted systems are the norm here.',
     relevance: [
       'Elmwood Place (ZIP 45216) is a tiny, densely built village in the Mill Creek valley north of the city, with closely spaced early-1900s homes. Down in the valley the summer air sits heavy and humid, so cooling systems here run longer to pull both the heat and the moisture out of a house.',
       'These century-old homes predate central air, so the systems are retrofits, and condensers crowded into narrow gaps between closely spaced houses lose the clearance they need to breathe. An aging unit fighting valley humidity with little airflow around it is a common no-cool call here, and we keep same-day availability to get it running before the house gets unbearable.',
@@ -193,7 +193,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'delhi-hills': {
     intro:
-      'AC not cooling in Delhi Hills? We service homes across this west-side township above the river and reach most the same day. Call (513) 586-5107.',
+      'Delhi Hills AC repair is usually aging equipment on a hillside. Mid-century homes above the Ohio River run condensers that are often a first or second replacement due for another, sitting on graded pads that settle while the slopes catch full afternoon sun.',
     relevance: [
       'Delhi Hills (ZIP 45233) sits in Delhi Township on the west side above the Ohio River, an area with deep ties to greenhouse and floral growing, with established mid-century homes on hilly streets. Houses from the mid-1900s here are now running on aging condensers, many of them a first or second replacement that is due for another.',
       'On hilly lots the outdoor units sit on graded pads that settle over time, and the slopes above the river catch full afternoon sun that drives head pressure up and shortens compressor life. A mid-century system worked hard on a sunny hillside is exactly the kind that fails in the first heat wave, and we get out the same day to repair it.',
@@ -209,7 +209,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'golf-manor': {
     intro:
-      'AC out in Golf Manor? We repair cooling in this small inner-ring village’s mid-century homes and reach most the same day. Call (513) 586-5107.',
+      'Most Golf Manor AC repair calls involve modest mid-century homes with smaller condensers that are reaching the end of their life. On this compact village grid the outdoor units sit close to the house and the neighbors, and decades on they run flat out and still struggle.',
     relevance: [
       'Golf Manor (ZIP 45237) is a small village completely surrounded by Cincinnati on the north side, with a compact grid of modest mid-century homes. The houses here are now at the age where the original central air or its first replacement is wearing out, and on this tight grid the condensers sit close to the house and the neighbors.',
       'Modest mid-century homes were often fitted with smaller condensers, and decades on, those units run flat out and still struggle to cool on the hottest days. Failing capacitors, tired fan motors, and low refrigerant are the usual culprits behind a no-cool call here. We diagnose and repair the same day, and tell you honestly when a unit is past saving.',
@@ -225,7 +225,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fairfax': {
     intro:
-      'AC down in Fairfax? We service cooling on the older homes along Wooster Pike and reach most the same day. Call (513) 586-5107.',
+      'Fairfax AC repair follows a pattern because the housing along Wooster Pike is so consistent. Early-1900s homes carry retrofitted systems, mid-century homes carry aging original or replacement units, and condensers a couple of decades old start shedding capacity in the heat.',
     relevance: [
       'Fairfax (ZIP 45227) is a small east-side village along Wooster Pike near Mariemont, with established early- and mid-1900s homes. The cooling equipment on these older houses is typically a retrofit on the early-1900s stock and an aging original-or-replacement system on the mid-century homes — either way, equipment with a lot of summers behind it.',
       'In a small village like this, the housing stock is consistent enough that the failures follow a pattern: condensers a couple of decades old shedding capacity, capacitors giving out in the first heat wave, and coils that haven’t been cleaned in years choking airflow. We carry the common parts and aim for a same-day fix.',
@@ -241,7 +241,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mack': {
     intro:
-      'AC not keeping up in Mack? We service cooling across this west-side Green Township community and reach most homes the same day. Call (513) 586-5107.',
+      'Mack has mid-century and newer homes, and both show up in our AC repair work. Older houses run aging condensers due for replacement, while newer subdivision homes have passed the ten-to-fifteen-year mark where a first system starts to fail, often in the first stretch of heat.',
     relevance: [
       'Mack (ZIP 45248) is an established community in Green Township on the west side, with neighborhoods of mid-century and newer single-family homes. The mix matters for cooling: the mid-century homes are on aging condensers due for replacement, while even the newer subdivision houses have now passed the ten-to-fifteen-year mark where their first system starts to fail.',
       'Across both, the summer pattern is the same — a unit that worked fine last year quits in the first stretch of 90-degree days because a worn capacitor, a tired compressor, or low refrigerant finally tips it over. We figure out which it is and whether a repair makes sense, and we get out the same day in either case.',
@@ -257,7 +257,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'monfort-heights': {
     intro:
-      'AC out in Monfort Heights? We repair cooling across this west-side Green Township suburb and reach most homes the same day. Call (513) 586-5107.',
+      'AC repair in Monfort Heights tends to come in waves. Built mostly in the mid-1900s, the neighborhood has many condensers reaching the end of their life around the same summers, and decades of additions and finished basements leave those systems undersized for the load they carry.',
     relevance: [
       'Monfort Heights (ZIP 45247) is a settled Green Township suburb on the west side, made up largely of mid-century single-family homes. A neighborhood built mostly in the mid-1900s tends to have a wave of aging condensers all reaching the end of their service life around the same stretch of summers.',
       'Those mid-century systems were sized for the homes as originally built, and decades of additions, finished basements, and warmer summers leave them undersized for the load they now carry — so they run constantly and burn out compressors and motors early. We diagnose whether the unit has a repairable fault or has simply aged out, and we respond the same day.',
@@ -273,7 +273,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bridgetown': {
     intro:
-      'AC down in Bridgetown? We service cooling across this west-side Green Township community and reach most homes the same day. Call (513) 586-5107.',
+      'For AC repair, Bridgetown splits into two groups. Mid-century homes run older condensers, and newer builds have first-generation systems now in the failure window. On hot west-side afternoons, a unit that has lost a little capacity each year finally cannot hold the set temperature.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. The cooling equipment here spans that same range — older condensers on the mid-century houses and first-generation systems on the newer builds that have now aged into the failure window.',
       'On the hottest west-side afternoons, an aging condenser that has lost a little capacity each year finally can’t hold the set temperature, and that is when most no-cool calls come in. We carry the common capacitors, contactors, and motors that cause those failures, and we aim to have you cooling again the same day.',
@@ -289,7 +289,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'finneytown': {
     intro:
-      'AC out in Finneytown? We service cooling across this north-side Springfield Township community and reach most homes the same day. Call (513) 586-5107.',
+      'In Finneytown, a typical AC repair involves a mid-century ranch or split-level with a condenser that has been replaced once and is overdue again. Homes of the same vintage tend to see systems fail in clusters, and long July cycles wear out the compressor.',
     relevance: [
       'Finneytown (ZIP 45231) is a settled Springfield Township community on the north side, made up largely of mid-century single-family homes. Homes built in that mid-1900s wave are now on aging condensers, and a neighborhood of similar-vintage houses tends to see those systems fail in clusters across the same hot summers.',
       'A mid-century ranch or split-level here typically still relies on a condenser that has been replaced once and is overdue again, running long cycles through July that wear out the compressor and fan motor ahead of schedule. We diagnose whether a part will get you through the season or the unit has aged out, and we respond the same day.',
@@ -305,7 +305,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'amberley': {
     intro:
-      'AC not cooling in Amberley Village? We service the large homes on this wooded north-side village’s lots and reach most the same day. Call (513) 586-5107.',
+      'AC repair in Amberley often means a large home with multiple zones, where one failed condenser or air handler can leave a whole wing without air. Heavy tree cover on the big, wooded lots also drops leaves, seed and pollen that clog outdoor coils and choke airflow.',
     relevance: [
       'Amberley Village (ZIP 45237) is an affluent north-side village known for its large homes on big, wooded lots along winding streets. Larger homes mean larger cooling loads, and many of these houses run on multiple zones or oversized systems where a single condenser or air handler failure can leave a whole wing without air.',
       'The heavy tree cover that gives Amberley its character also drops leaves, seed, and pollen onto the outdoor units, clogging coils and choking the airflow a big system needs to keep up. Set on large lots, those condensers can sit out of sight and go unmaintained for years. We service multi-zone and larger systems and keep same-day availability when one goes down in the heat.',
@@ -321,7 +321,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'arlington-heights': {
     intro:
-      'AC out in Arlington Heights? We service cooling in this small Mill Creek valley village and reach most homes the same day. Call (513) 586-5107.',
+      'Arlington Heights is a small village in the Mill Creek valley, and AC repair here usually involves older homes with retrofitted systems. Humid, slow-moving valley air makes cooling work harder, and condensers tucked into small lots run hot with little clearance.',
     relevance: [
       'Arlington Heights (ZIP 45215) is a small village in the Mill Creek valley north of the city, with a compact grid of older homes. Down in the valley the summer air is humid and slow to move, so cooling systems here have to work harder to pull moisture out of a house, not just heat.',
       'The older homes on this tight grid were built before central air, so the systems are retrofits, and condensers tucked into small valley lots run hot with little clearance. An aging unit fighting valley humidity in a cramped side yard is a common no-cool call here, and we keep same-day availability to get it back online.',
@@ -337,7 +337,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-college-hill': {
     intro:
-      'AC down in North College Hill? We service cooling in this small north-side city’s older homes and reach most the same day. Call (513) 586-5107.',
+      'North College Hill AC repair often comes down to airflow around the condenser. On this tight grid, outdoor units sit close to the house and the neighbors, recirculate hot air and run hotter than they should. Early-1900s homes have retrofitted cooling and mid-century homes run aging condensers.',
     relevance: [
       'North College Hill (ZIP 45239) is a small, densely built city just north of College Hill, with a grid of early- and mid-1900s homes. On this tight grid the early-1900s houses carry retrofitted cooling while the mid-century homes run aging condensers, and on small lots the outdoor units sit close to the house and the neighbors.',
       'Tightly packed condensers with limited clearance recirculate hot air and run hotter than they should, which on a mid-century or retrofitted system already short on capacity is enough to leave a house warm on the worst days. We check airflow and clearance along with the electrical and refrigerant, and we aim for a same-day repair.',
@@ -353,7 +353,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newtown': {
     intro:
-      'AC out in Newtown? We service cooling on the older homes near the Little Miami River and reach most the same day. Call (513) 586-5107.',
+      'Low river-bottom ground near the Little Miami River sets up most AC repair in Newtown. Damp, humid air makes systems run longer to dry and cool a house, and older homes carry aging condensers exposed to damp ground and occasional high water.',
     relevance: [
       'Newtown (ZIP 45244) is a small east-side village near the Little Miami River, with older homes set on low river-bottom ground. The damp, humid air that settles over low river-bottom land makes cooling work harder, so AC systems here run longer to dry and cool a house than they would on higher ground.',
       'The older homes here carry aging cooling equipment, and condensers sitting on low river-bottom lots are exposed to damp ground and the occasional high water that can foul or damage an outdoor unit. When a system fails in that kind of humidity, the house heats up fast, so we keep same-day availability to get it running again.',
@@ -369,7 +369,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'turpin-hills': {
     intro:
-      'AC not keeping up in Turpin Hills? We service cooling across this east-side Anderson Township community and reach most homes the same day. Call (513) 586-5107.',
+      'Turpin Hills AC repair covers mid-century homes on condensers due for a second replacement and newer Anderson Township subdivision homes with first-generation systems now in the failure window. Both tend to give out when the summer load is heaviest. We usually reach most homes the same day.',
     relevance: [
       'Turpin Hills (ZIP 45244) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. The cooling equipment runs the same range — older condensers on the mid-century houses and first-generation systems on the newer builds that have now aged into the failure window.',
       'A mid-century home here is often on a condenser due for its second replacement, and even the newer subdivision homes have passed the point where their original system starts dropping capacity. The first long stretch of 90-degree days is when those tired units quit, and we respond the same day to repair or assess them.',
@@ -385,7 +385,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'silverton': {
     intro:
-      'AC down in Silverton? We service cooling on the older homes along Montgomery Road and reach most the same day. Call (513) 586-5107.',
+      'Silverton is a small city with consistent housing along Montgomery Road, so AC repair here follows a pattern. Condensers a couple of decades old shed capacity and capacitors give out in the first heat wave, on retrofitted early-1900s homes and aging mid-century systems alike.',
     relevance: [
       'Silverton (ZIP 45236) is a small city along Montgomery Road on the east side, with established streets of early- and mid-1900s homes. Cooling here means retrofitted systems on the early-1900s houses and aging condensers on the mid-century stock, all of it equipment with plenty of summers behind it.',
       'In a small city with a consistent housing stock, the failures run to a pattern: condensers a couple of decades old shedding capacity, capacitors giving out in the first heat wave, and coils long overdue for cleaning. We carry the common parts those failures call for and aim to have you cooling again the same day.',
@@ -401,7 +401,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lockland': {
     intro:
-      'AC out in Lockland? We service cooling in this historic Mill Creek valley village’s closely spaced homes and reach most the same day. Call (513) 586-5107.',
+      'Lockland’s closely spaced worker housing in the Mill Creek valley predates central air, so AC repair here usually involves retrofitted cooling. Humid valley air makes systems run longer, and condensers squeezed between houses run hot with barely any clearance. We usually reach most homes the same day.',
     relevance: [
       'Lockland (ZIP 45215) is a historic village in the Mill Creek valley north of the city, built up around mills and industry, with closely spaced older worker housing. Down in the valley the summer air sits humid and heavy, so cooling systems here run longer to pull both heat and moisture out of a house.',
       'The old, tightly packed worker homes predate central air, so the cooling is retrofitted, and condensers squeezed between closely spaced houses run hot with barely any clearance. An aging unit fighting valley humidity in a cramped gap is a common no-cool call here, and we keep same-day availability to get it back online.',
@@ -417,7 +417,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'groesbeck': {
     intro:
-      'AC not cooling in Groesbeck? We service cooling across this northwest Colerain Township community and reach most homes the same day. Call (513) 586-5107.',
+      'A Groesbeck AC repair usually involves a mid-century ranch with a condenser that was replaced once and is overdue again. Built in the same mid-1900s wave, this Colerain Township community has many aging units reaching the end of their life across the same hot summers.',
     relevance: [
       'Groesbeck (ZIP 45239) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. A neighborhood built in that mid-1900s wave tends to have a cluster of aging condensers all reaching the end of their service life across the same hot summers.',
       'A mid-century ranch here usually still relies on a condenser that has been replaced once and is overdue again, running long cycles through July that wear out the compressor and fan motor early. We diagnose whether a part will carry you through the season or the unit has aged out, and we respond the same day.',
@@ -433,7 +433,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-healthy': {
     intro:
-      'AC down in Mount Healthy? We service cooling on the older homes around this historic north-side city’s town center and reach most the same day. Call (513) 586-5107.',
+      'Mount Healthy AC repair splits between early-1900s homes around the old town center and mid-century houses farther out. In the older homes, ductwork was rarely planned for cooling, so retrofitted systems struggle with the upper floors, while mid-century homes run aging condensers.',
     relevance: [
       'Mount Healthy (ZIP 45231) is a historic small city on the north side, with an old town center and streets of early-1900s and mid-century homes. The early-1900s houses around the old center carry retrofitted cooling, while the mid-century homes run aging condensers — either way, systems with a lot of summers on them.',
       'In the older homes near the town center, ductwork was rarely planned for air conditioning, so retrofitted systems struggle to cool the upper floors, and the mid-century condensers elsewhere in the city are well into old age. Where adding ductwork to a historic home isn’t practical, a mini-split is often the better fit, and we can walk through the options on the same visit we make the repair.',

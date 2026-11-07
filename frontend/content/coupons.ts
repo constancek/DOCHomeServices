@@ -1,48 +1,127 @@
 // Coupon / special-offer cards shown on /specials.
 // Edit freely — this is the full list rendered as dashed-border coupon cards.
+//
+// Expiry dates are not written by hand. Each coupon names a schedule and the date
+// is worked out in lib/coupon-expiry.ts: 'rolling' is the shared date every offer
+// uses, 'furnace' is the same monthly roll restricted to heating season. The value
+// below is the build-time snapshot; <CouponExpiry> refreshes it in the browser.
+
+import { expiryFor, formatExpiry, type ExpiryKind } from '@/lib/coupon-expiry';
+
+export type { ExpiryKind };
 
 export type Coupon = {
   price: string; // big headline value, e.g. "$89", "FREE", "$75 OFF"
   title: string;
   details: string;
+  expiryKind: ExpiryKind;
   expires: string;
 };
 
-export const coupons: Coupon[] = [
+const catalogue: Omit<Coupon, 'expires'>[] = [
   {
     price: '$89',
     title: 'Happy House Cooling Checkup',
     details: '+ Free Freon Leak Check + Stay Cool Guarantee. Original Price: $129.',
-    expires: '7/15/26',
+    expiryKind: 'rolling',
+  },
+  {
+    price: '$75 OFF',
+    title: 'Same-Day AC Repair',
+    details: 'Save on any same-day air conditioning repair.',
+    expiryKind: 'rolling',
   },
   {
     price: '$98',
     title: 'Drain Unclog',
     details: 'Clear one slow or clogged drain. Camera inspection available.',
-    expires: '7/15/26',
+    expiryKind: 'rolling',
   },
   {
     price: 'FREE',
     title: 'Water Quality Test',
     details: 'On-site water test with any plumbing visit. No obligation.',
-    expires: '7/15/26',
+    expiryKind: 'rolling',
   },
   {
     price: '$75 OFF',
     title: 'Any Plumbing Repair',
     details: 'New customers save on their first qualifying plumbing repair.',
-    expires: '7/15/26',
+    expiryKind: 'rolling',
   },
   {
-    price: '$59',
+    price: '$39',
     title: 'Furnace Tune-Up',
     details: '21-point heating safety inspection before the cold sets in.',
-    expires: '10/31/26',
+    expiryKind: 'furnace',
   },
   {
     price: '$50 OFF',
     title: 'Any Electrical Service',
     details: 'Save on panel upgrades, EV chargers, lighting, and more.',
-    expires: '7/15/26',
+    expiryKind: 'rolling',
   },
 ];
+
+export const coupons: Coupon[] = catalogue.map((c) => ({
+  ...c,
+  expires: formatExpiry(expiryFor(c.expiryKind)),
+}));
+
+// HVAC service slugs. Their sidebars feature the furnace tune-up in place of the
+// default plumbing voucher.
+const HVAC_SLUGS = new Set([
+  'heating',
+  'boilers',
+  'furnace-installation-replacement',
+  'furnace-maintenance',
+  'furnace-repair',
+  'furnace-filters',
+  'heat-pumps',
+  'indoor-air-quality',
+  'air-conditioning',
+  'ac-repair',
+  'ac-installation-replacement',
+  'ac-maintenance',
+  'air-filters',
+  'mini-splits',
+  'mini-split-installation',
+  'mini-split-repair',
+]);
+
+// Electrical service slugs. Their sidebars feature the electrical voucher.
+const ELECTRICAL_SLUGS = new Set([
+  'electrical',
+  'electrical-inspections',
+  'electrical-mast-repair',
+  'electrical-panel-replacement',
+  'electricity-disconnection',
+  'ev-chargers',
+  'exhaust-fan-installation-repair',
+  'ceiling-fan-installation',
+  'home-rewiring',
+  'hot-tub-wiring',
+  'storm-electricity-outage',
+  'surge-protector-installation',
+  'switches-outlets',
+  'lighting',
+  'basement-lighting',
+  'garage-lighting',
+  'holiday-lighting',
+  'indoor-lighting',
+  'landscape-lighting',
+  'led-lighting',
+  'lighting-fixture-installation',
+  'outdoor-lighting',
+  'patio-lighting',
+  'recessed-lighting',
+]);
+
+export const sidebarCouponFor = (slug: string) =>
+  slug === 'ac-repair'
+    ? 'Same-Day AC Repair'
+    : HVAC_SLUGS.has(slug)
+    ? 'Furnace Tune-Up'
+    : ELECTRICAL_SLUGS.has(slug)
+      ? 'Any Electrical Service'
+      : undefined;

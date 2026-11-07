@@ -1,7 +1,7 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
     intro:
-      'Weak, noisy, or missing bathroom and kitchen exhaust fans in Villages of Roll Hill let humidity build in apartments that share walls and stacked baths. We are licensed and vent fans to the outside, never into an attic or wall cavity. Call (513) 586-5107.',
+      'Stacked apartment baths in Villages of Roll Hill sit one above another with little outside wall, so a weak exhaust fan traps shower moisture indoors. We still find fans ducted into a chase or cavity. We size each fan, replace loud motors and run the duct to an exterior cap.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. In stacked units like these, baths and kitchens often sit one above another with little outside wall, so an undersized or failed fan traps shower moisture indoors, where it feeds mildew on ceilings and around tile.',
       'Many of these buildings were laid out before strong ventilation expectations, and we still find fans ducted into a chase or interior cavity rather than out through the roof or a wall cap. We size each fan to the room, replace worn motors that have gone loud, and run the duct to a proper exterior cap so moisture leaves the building instead of settling between floors.',
@@ -17,7 +17,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-westwood': {
     intro:
-      'If a bathroom fan in East Westwood groans, barely pulls, or fogs the mirror long after a shower, the fan is undersized or worn out. We are licensed and vent fans outdoors, not into the attic. Call (513) 586-5107.',
+      'Early- and mid-1900s homes in East Westwood were often built with one small bathroom fan or none, so steam works on plaster ceilings. On these hillside lots, ducts often stop in a short attic. We size a replacement, swap out loud motors and duct the fan to an exterior cap.',
     relevance: [
       'East Westwood (ZIP 45211) sits on the slopes between Westwood and the Mill Creek valley, with streets of early- and mid-1900s homes. Houses from that era were often built with a single small bath fan or none at all, so shower steam lingers and works on plaster ceilings and paint.',
       'The hillside grade means many of these homes have rooms tucked under low roofs and short attics, and over the years we have found fan ducts run into that attic space instead of through to the outside, which only moves the moisture problem overhead. We size a replacement to the bathroom, swap out tired motors that have gone loud, and duct the fan to an exterior cap.',
@@ -33,7 +33,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'western-hills': {
     intro:
-      'A bathroom or kitchen fan that rattles, hums, or leaves Western Hills rooms damp usually needs resizing or a new motor. We are licensed and vent every fan to the outdoors. Call (513) 586-5107.',
+      'Many Western Hills baths still run the exhaust fan they were built with, and a decades-old motor turns loud and weak. Mid-century homes near Glenway Avenue often have fans too small for the room or ducted into the attic. We size the airflow and vent it outdoors.',
     relevance: [
       'Western Hills (ZIP 45211) is the established west-side area around Western Hills Plaza and Glenway Avenue, with neighborhoods of early-1900s through mid-century single-family homes. A lot of those baths still run the fan they were built with, and a decades-old motor turns loud and weak long before it quits.',
       'In mid-century homes here we routinely see fans too small for the room or ducted into the attic rather than out through the roof. We measure the bathroom to set the right airflow, replace worn or noisy units, and run the duct to a proper exterior cap so moisture leaves the house instead of condensing in the attic.',
@@ -49,7 +49,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'california': {
     intro:
-      'Riverfront homes in the California neighborhood fight damp air year-round, and a weak or attic-venting bathroom fan only makes it worse. We are licensed and duct fans to the outdoors. Call (513) 586-5107.',
+      'Riverfront homes in California, along Kellogg Avenue, hold damp air year-round, and a weak or attic-venting bathroom fan makes it worse. Older homes there often have one undersized original fan. We size the fan to the room, replace tired motors and run the duct to an exterior cap.',
     relevance: [
       'California (ZIP 45230) is Cincinnati’s far-east riverfront neighborhood along Kellogg Avenue, near Riverbend and the old Coney Island grounds, set on low ground beside the Ohio River. That riverside humidity keeps indoor air heavy, so a bathroom that vents poorly holds steam and grows mildew faster than a home up on the hill would.',
       'The older homes along Kellogg often carry their original ventilation, which can mean a single undersized fan or one ducted into the attic instead of out through a wall or roof cap. We size the fan to the room, replace tired motors, and run the duct to an exterior cap so moisture clears the house rather than adding to the damp.',
@@ -65,7 +65,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'carthage': {
     intro:
-      'In Carthage, older homes along Vine Street often run small, loud bathroom fans that leave moisture behind. We are licensed and vent every fan to the outdoors, never the attic. Call (513) 586-5107.',
+      'Older homes along Vine Street in Carthage were built with small bathroom fans or none, so steam works on plaster and paint. In these early-1900s houses, fan ducts often run into the attic. We size a replacement, swap worn motors and route the duct to an exterior cap.',
     relevance: [
       'Carthage (ZIP 45215) is a north-side neighborhood along Vine Street, a former village now home to the Hamilton County Fairgrounds, with older early-1900s homes. Houses that age were built with small fans or none, so shower steam works on plaster and paint in baths that were never planned for good airflow.',
       'In these century-old homes we frequently find fan ducts run into the attic instead of through to the outside, which traps moisture overhead. We size a replacement to the bathroom, swap out worn or noisy motors, and route the duct to an exterior roof or wall cap.',
@@ -81,7 +81,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'winton-hills': {
     intro:
-      'Weak or noisy bathroom and kitchen fans in Winton Hills let humidity build in apartments and older homes alike. We are licensed and duct fans to the outdoors. Call (513) 586-5107.',
+      'Apartments in Winton Hills often have interior baths with little outside wall, so a failed or undersized exhaust fan traps moisture where it feeds mildew. Older buildings here still have fans ducted into a chase or attic. We size each fan and vent it to a proper exterior cap.',
     relevance: [
       'Winton Hills (ZIP 45232) is a north-side neighborhood near Winton Road, with a mix of residential and industrial areas including multi-unit housing. In densely built apartments, baths often share interior walls with little outside exposure, so a failed or undersized fan traps shower moisture where it feeds mildew.',
       'Older buildings here run on aging ventilation, and we still find fans ducted into a chase or attic rather than out through a roof or wall cap. We size each fan to the room, replace motors that have gone loud, and vent the duct to a proper exterior cap so moisture clears the building.',
@@ -97,7 +97,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'roselawn': {
     intro:
-      'Mid-century homes in Roselawn often still run their original bathroom fans, now loud and weak. We are licensed and vent replacements outdoors, not into the attic. Call (513) 586-5107.',
+      'Mid-century bathroom fans in Roselawn homes and apartments are well past their service life, humming and rattling while moving little air. Many are ducted into the attic instead of outside. We size the fan to the room, replace tired motors and run the duct to an exterior cap.',
     relevance: [
       'Roselawn (ZIP 45237) is a north-side neighborhood along Reading Road, with settled streets of mid-century single-family homes and apartment buildings. Fans from the mid-1900s have motors well past their service life, so they hum and rattle while moving little air, leaving baths damp after a shower.',
       'In houses and older apartments here we regularly find fans ducted into the attic instead of through to the outside, which only moves the moisture overhead where it can feed mold. We size the fan to the room, replace tired motors, and run the duct to an exterior cap.',
@@ -113,7 +113,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-airy': {
     intro:
-      'On Mount Airy’s wooded, hilly streets, bathroom fans that vent into a short attic invite damp and mildew. We are licensed and duct every fan to the outdoors. Call (513) 586-5107.',
+      'Shaded, wooded lots beside Mount Airy Forest dry slowly, so a weak bathroom exhaust fan in Mount Airy leaves steam and mildew behind. Mid-century homes often have ducts that end in a short attic. We size the fan to the bathroom and duct it to a roof cap.',
     relevance: [
       'Mount Airy (ZIP 45239) is a northwest-side neighborhood beside Mount Airy Forest, one of the largest city parks in the country, with mid-century single-family homes on hilly, wooded streets. Heavy tree cover keeps these homes shaded and slow to dry, so a bathroom that vents poorly holds steam and grows mildew.',
       'The hilltop layout means rooms tucked under low roofs and short attics, and we often find fan ducts run into that attic rather than out through a roof cap, which traps the moisture overhead. We size the fan to the bathroom, replace worn motors, and route the duct to a proper exterior cap.',
@@ -129,7 +129,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hartwell': {
     intro:
-      'Hartwell’s Victorian and early-1900s homes were rarely built for proper bath ventilation, so steam lingers and works on old plaster. We are licensed and vent fans outdoors. Call (513) 586-5107.',
+      'Hartwell’s Victorian and early-1900s homes came with small bathroom fans or none, so moisture threatens original plaster and trim. Where earlier owners added a fan, the duct often runs into the attic. We size a replacement, swap noisy motors and route the duct to an exterior cap.',
     relevance: [
       'Hartwell (ZIP 45215) is a historic north-side neighborhood that grew as a streetcar suburb, known for its Victorian and early-1900s homes on tree-lined streets. Those century-old houses came with small fans or none, so shower moisture lingers in baths and threatens original plaster and trim.',
       'When earlier owners added a fan, we often find the duct run into the attic rather than out through the roof, which only relocates the moisture problem. We size a replacement to the bathroom, replace worn or noisy motors, and route the duct to an exterior cap so the home’s historic surfaces stay dry.',
@@ -145,7 +145,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'kennedy-heights': {
     intro:
-      'In Kennedy Heights, large early-1900s homes often run undersized or attic-venting bathroom fans that leave rooms damp. We are licensed and duct fans to the outdoors. Call (513) 586-5107.',
+      'Big baths in Kennedy Heights’ early-1900s homes are hard for a small original exhaust fan to clear, so steam lingers on ceilings and tile. We often find those fans ducted into the attic. We size the fan to the larger room and run the duct to an exterior cap.',
     relevance: [
       'Kennedy Heights (ZIP 45213) is a historic east-side hilltop neighborhood that began as a Victorian-era resort community, now known for its arts center and large early-1900s homes. Big older baths in homes like these are hard for a small original fan to clear, so steam lingers and feeds mildew on ceilings and tile.',
       'In these century-old houses we frequently find fans ducted into the attic instead of out through a roof or wall cap, which traps the moisture overhead. We size the fan to the larger room, replace worn motors, and run the duct to a proper exterior cap.',
@@ -161,7 +161,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'st-bernard': {
     intro:
-      'St. Bernard’s dense early-1900s homes sit close together with small baths that hold steam. We are licensed and vent fans to the outside, never into a wall or attic. Call (513) 586-5107.',
+      'St. Bernard’s dense early-1900s homes have small bathrooms with little outside wall, so an undersized exhaust fan leaves moisture working on plaster and paint. Fans are often ducted into the attic or a wall cavity. We size the fan and route the duct to an exterior cap.',
     relevance: [
       'St. Bernard (ZIP 45217) is its own city, completely surrounded by Cincinnati, built up around the Procter & Gamble Ivorydale complex with a dense grid of early-1900s homes. Those tightly packed houses have small baths with little outside wall, so an undersized fan leaves moisture behind that works on plaster and paint.',
       'On valley lots this old we routinely find fans ducted into the attic or a wall cavity rather than out through a roof or wall cap. We size the fan to the bathroom, replace worn motors that have gone loud, and route the duct to a proper exterior cap so moisture clears the closely built home.',
@@ -177,7 +177,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'elmwood-place': {
     intro:
-      'In Elmwood Place, closely spaced valley homes battle damp air, and a weak bathroom fan only makes it worse. We are licensed and duct fans to the outdoors. Call (513) 586-5107.',
+      'In Elmwood Place, closely spaced early-1900s homes sit on damp Mill Creek valley ground, and a weak bathroom fan lets steam grow mildew fast. Many fans are ducted into the attic. We size the fan to the room and vent it to an exterior cap.',
     relevance: [
       'Elmwood Place (ZIP 45216) is a tiny, densely built village in the Mill Creek valley north of the city, with closely spaced early-1900s homes. The low valley ground keeps indoor air damp, so a bathroom that vents poorly holds steam and grows mildew faster than a home on higher ground.',
       'These century-old homes have small baths and tight lots, and we often find fans ducted into the attic instead of out through a roof or wall cap. We size the fan to the room, replace worn motors, and route the duct to an exterior cap so moisture leaves the house rather than adding to valley damp.',
@@ -193,7 +193,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'delhi-hills': {
     intro:
-      'Mid-century homes in Delhi Hills often run their original bathroom fans, now loud and weak on these hilly streets. We are licensed and vent fans outdoors. Call (513) 586-5107.',
+      'Mid-century homes in Delhi Hills often still run their original bathroom fans, and the aging motors are now loud and weak. Ducts frequently end in a short attic. We size the fan to the bathroom, replace tired motors and route the duct to an exterior cap.',
     relevance: [
       'Delhi Hills (ZIP 45233) sits in Delhi Township on the west side above the Ohio River, an area with deep ties to greenhouse and floral growing, with established mid-century homes on hilly streets. Fans from the mid-1900s have aging motors that turn loud and weak, leaving baths damp after a shower.',
       'The hillside grade means rooms under low roofs and short attics, and we frequently find fan ducts run into that attic rather than out through a roof cap. We size the fan to the bathroom, replace tired motors, and route the duct to a proper exterior cap so the moisture clears the house.',
@@ -209,7 +209,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'golf-manor': {
     intro:
-      'In Golf Manor, modest mid-century homes often still run small original bathroom fans that leave rooms damp. We are licensed and duct fans to the outdoors. Call (513) 586-5107.',
+      'Modest mid-century homes in Golf Manor came with small bathroom fans, and decades on the motors are loud. Many are ducted into the attic. We size a new fan to the room, replace worn motors and run the duct to a proper exterior cap.',
     relevance: [
       'Golf Manor (ZIP 45237) is a small village completely surrounded by Cincinnati on the north side, with a compact grid of modest mid-century homes. Those smaller baths came with small fans, and decades on, the motors are loud and weak while the airflow no longer clears shower steam.',
       'In homes this age we regularly find fans ducted into the attic instead of out through a roof or wall cap, which traps moisture overhead. We size the fan to the room, replace worn motors, and run the duct to a proper exterior cap.',
@@ -225,7 +225,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fairfax': {
     intro:
-      'Fairfax’s older homes along Wooster Pike often run aging, undersized bathroom fans that hold moisture. We are licensed and vent fans to the outdoors. Call (513) 586-5107.',
+      'Many baths in Fairfax’s early- and mid-1900s homes along Wooster Pike still run their original exhaust fan, and the aging motor turns loud and weak. Ducts often run into the attic. We size the fan to the bathroom, replace worn motors and route the duct to an exterior cap.',
     relevance: [
       'Fairfax (ZIP 45227) is a small east-side village along Wooster Pike near Mariemont, with established early- and mid-1900s homes. Many baths here still run their original fan, and an aging motor turns loud and weak well before it quits, leaving rooms damp after a shower.',
       'In these older homes we often find fan ducts run into the attic rather than out through a roof or wall cap, which only relocates the moisture. We size the fan to the bathroom, replace worn motors, and route the duct to a proper exterior cap.',
@@ -241,7 +241,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mack': {
     intro:
-      'In Mack, even newer homes are now old enough for bathroom fan motors to wear out and turn loud. We are licensed and vent fans to the outdoors, not the attic. Call (513) 586-5107.',
+      'In Mack, even the newer homes are old enough for bathroom fan motors to grind and weaken, while older houses run undersized fans. Across both, we still find ducts ending in the attic. We size the fan to the room and run the duct to an exterior cap.',
     relevance: [
       'Mack (ZIP 45248) is an established community in Green Township on the west side, with neighborhoods of mid-century and newer single-family homes. Even the newer houses here have reached the age where fan motors grind and weaken, while the older homes run undersized fans that leave baths damp.',
       'Across that range we still find fans ducted into the attic instead of out through a roof or wall cap, which traps moisture where it can feed mold. We size the fan to the room, replace worn motors, and run the duct to a proper exterior cap.',
@@ -257,7 +257,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'monfort-heights': {
     intro:
-      'Monfort Heights’ mid-century homes often run their original bathroom fans, now weak and noisy. We are licensed and duct fans to the outdoors. Call (513) 586-5107.',
+      'Mid-century homes in Monfort Heights often run their original bathroom fans, now humming and rattling while moving little air. Many of those ducts run into the attic. We size the fan to the bathroom, replace tired motors and route the duct to a proper exterior cap.',
     relevance: [
       'Monfort Heights (ZIP 45247) is a settled Green Township suburb on the west side, made up largely of mid-century single-family homes. Fans from the mid-1900s have aging motors that hum and rattle while moving little air, so baths stay damp after a shower.',
       'In homes of that era we frequently find fan ducts run into the attic rather than out through a roof cap, which only moves the moisture overhead. We size the fan to the bathroom, replace tired motors, and route the duct to a proper exterior cap.',
@@ -273,7 +273,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bridgetown': {
     intro:
-      'In Bridgetown, aging bathroom fans turn loud and stop clearing shower steam. We are licensed and vent every fan to the outdoors, not the attic. Call (513) 586-5107.',
+      'Many Bridgetown baths still run the exhaust fan they were built with, andthe motor turns loud and weak. In both older and newer homes, we still find fans ducted into the attic. We size the fan to the room and vent it to an exterior cap.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. Many of these baths still run the fan they were built with, and over the years the motor turns loud and weak while leaving the room damp.',
       'Across both older and newer homes here we still find fans ducted into the attic instead of out through a roof or wall cap, which traps moisture overhead. We size the fan to the room, replace worn motors, and route the duct to a proper exterior cap.',
@@ -289,7 +289,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'finneytown': {
     intro:
-      'Finneytown’s mid-century homes often run small original bathroom fans that no longer clear the steam. We are licensed and vent fans to the outdoors. Call (513) 586-5107.',
+      'Smaller baths in Finneytown’s mid-century homes came with small exhaust fans, and the motors are now weak and noisy while moisture lingers after a shower. Many ducts run into the attic. We size the fan to the room, replace worn motors and route the duct to a proper exterior cap.',
     relevance: [
       'Finneytown (ZIP 45231) is a settled Springfield Township community on the north side, made up largely of mid-century single-family homes. The smaller baths in these homes came with small fans, and decades on the motors are weak and noisy while moisture lingers after a shower.',
       'In homes this age we regularly find fan ducts run into the attic instead of out through a roof cap, which only relocates the moisture problem. We size the fan to the room, replace worn motors, and route the duct to a proper exterior cap.',
@@ -305,7 +305,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'amberley': {
     intro:
-      'Amberley Village’s large homes have big baths that a small original fan cannot clear. We are licensed and duct fans to the outdoors. Call (513) 586-5107.',
+      'Big baths in Amberley Village’s large homes overwhelm an undersized exhaust fan, so steam lingers on ceilings and tile. Shaded, wooded lots dry slowly, and larger houses often have ducts vented into the attic. We size the fan to the room’s volume and run the duct to an exterior cap.',
     relevance: [
       'Amberley Village (ZIP 45237) is an affluent north-side village known for its large homes on big, wooded lots along winding streets. Bigger houses mean larger baths, and an undersized fan struggles to clear that volume of steam, so moisture lingers on ceilings and tile.',
       'The wooded lots keep these homes shaded and slow to dry, and in larger houses we often find fans ducted into the attic rather than out through a roof or wall cap. We size the fan to the larger room, replace worn motors, and run the duct to a proper exterior cap.',
@@ -321,7 +321,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'arlington-heights': {
     intro:
-      'In Arlington Heights, older valley homes battle damp air, and a weak bathroom fan makes it worse. We are licensed and vent fans to the outdoors. Call (513) 586-5107.',
+      'Older homes in Arlington Heights sit on damp Mill Creek valley ground, so a weak bathroom exhaust fan lets steam grow mildew. Small baths on tight lots often have fans ducted into the attic. We size the fan to the room and vent it to an exterior cap.',
     relevance: [
       'Arlington Heights (ZIP 45215) is a small village in the Mill Creek valley north of the city, with a compact grid of older homes. The low valley ground keeps indoor air damp, so a bathroom that vents poorly holds steam and grows mildew faster than a home on higher ground.',
       'These older homes have small baths and tight lots, and we often find fans ducted into the attic instead of out through a roof or wall cap. We size the fan to the room, replace worn motors, and route the duct to an exterior cap so moisture leaves the house rather than adding to the valley damp.',
@@ -337,7 +337,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-college-hill': {
     intro:
-      'North College Hill’s tightly packed older homes have small baths that hold steam. We are licensed and vent fans to the outside, never into a wall or attic. Call (513) 586-5107.',
+      'North College Hill’s tightly packed early- and mid-1900s homes have small baths with little outside wall, so an undersized bathroom fan leaves moisture on plaster and paint. Fans are often ducted into the attic or a wall cavity. We size the fan and route the duct to an exterior cap.',
     relevance: [
       'North College Hill (ZIP 45239) is a small, densely built city just north of College Hill, with a grid of early- and mid-1900s homes. Those closely spaced houses have small baths with little outside wall, so an undersized fan leaves moisture behind that works on plaster and paint.',
       'In this older, tightly packed housing we routinely find fans ducted into the attic or a wall cavity rather than out through a roof or wall cap. We size the fan to the bathroom, replace worn motors that have gone loud, and route the duct to a proper exterior cap.',
@@ -353,7 +353,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newtown': {
     intro:
-      'In Newtown, older homes on low river-bottom ground fight damp air, and a weak bathroom fan only adds to it. We are licensed and duct fans to the outdoors. Call (513) 586-5107.',
+      'Older homes in Newtown sit on low river-bottom ground, where indoor air stays damp and a weak bathroom fan only adds to it. Many have one undersized fan or a duct into the attic. We size the fan to the room and vent it to an exterior cap.',
     relevance: [
       'Newtown (ZIP 45244) is a small east-side village near the Little Miami River, with older homes set on low river-bottom ground. That low, riverside setting keeps indoor air damp, so a bathroom that vents poorly holds steam and grows mildew faster than a home on higher ground.',
       'The older homes here carry their original ventilation, which often means an undersized fan or one ducted into the attic instead of out through a roof or wall cap. We size the fan to the room, replace worn motors, and route the duct to an exterior cap so moisture clears the house rather than adding to the river-bottom damp.',
@@ -369,7 +369,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'turpin-hills': {
     intro:
-      'In Turpin Hills, aging bathroom fans turn loud and stop clearing shower steam. We are licensed and vent every fan to the outdoors. Call (513) 586-5107.',
+      'Many Turpin Hills baths still run their original exhaust fan, and the motor turns loud and weak while the room stays damp. In mid-century and newer homes alike, we still find ducts ending in the attic. We size the fan and vent it to an exterior cap.',
     relevance: [
       'Turpin Hills (ZIP 45244) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. Many of these baths still run the fan they were built with, and over the years the motor turns loud and weak while leaving the room damp.',
       'Across both older and newer homes here we still find fans ducted into the attic instead of out through a roof or wall cap, which traps moisture overhead. We size the fan to the room, replace worn motors, and route the duct to a proper exterior cap.',
@@ -385,7 +385,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'silverton': {
     intro:
-      'Silverton’s older homes along Montgomery Road often run aging bathroom fans that hold moisture. We are licensed and vent fans to the outdoors. Call (513) 586-5107.',
+      'Many baths in Silverton’s early- and mid-1900s homes still run their original exhaust fan, now loud and weak. In these older homes, fan ducts often run into the attic. We size the fan to the bathroom, replace worn motors and route the duct to a proper exterior cap.',
     relevance: [
       'Silverton (ZIP 45236) is a small city along Montgomery Road on the east side, with established streets of early- and mid-1900s homes. Many baths here still run their original fan, and an aging motor turns loud and weak well before it quits, leaving rooms damp after a shower.',
       'In these older homes we often find fan ducts run into the attic rather than out through a roof or wall cap, which only relocates the moisture. We size the fan to the bathroom, replace worn motors, and route the duct to a proper exterior cap.',
@@ -401,7 +401,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lockland': {
     intro:
-      'Lockland’s closely spaced valley homes battle damp air, and a weak bathroom fan makes it worse. We are licensed and duct fans to the outdoors. Call (513) 586-5107.',
+      'Lockland’s closely spaced worker housing sits on damp Mill Creek valley ground, so a weak bathroom fan lets steam grow mildew fast. These small baths often have fans ducted into the attic. We size the fan to the room and run the duct to an exterior cap.',
     relevance: [
       'Lockland (ZIP 45215) is a historic village in the Mill Creek valley north of the city, built up around mills and industry, with closely spaced older worker housing. The low valley ground keeps indoor air damp, so a bathroom that vents poorly holds steam and grows mildew faster than a home on higher ground.',
       'These old, tightly packed homes have small baths, and we often find fans ducted into the attic or a wall cavity instead of out through a roof or wall cap. We size the fan to the room, replace worn motors, and route the duct to an exterior cap so moisture clears the closely built home.',
@@ -417,7 +417,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'groesbeck': {
     intro:
-      'Groesbeck’s mid-century homes often run their original bathroom fans, now weak and noisy. We are licensed and vent fans to the outdoors. Call (513) 586-5107.',
+      'Groesbeck’s mid-century homes often still run their original bathroom fans, which now hum and rattle while moving little air. Many ducts run into the attic and move the moisture overhead. We size the fan to the bathroom, replace tired motors and route the duct to a proper exterior cap.',
     relevance: [
       'Groesbeck (ZIP 45239) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. Fans from the mid-1900s have aging motors that hum and rattle while moving little air, so baths stay damp after a shower.',
       'In homes of that era we frequently find fan ducts run into the attic rather than out through a roof cap, which only moves the moisture overhead. We size the fan to the bathroom, replace tired motors, and route the duct to a proper exterior cap.',
@@ -433,7 +433,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-healthy': {
     intro:
-      'Mount Healthy’s older homes around its historic town center often run undersized bathroom fans that hold steam. We are licensed and vent fans to the outdoors. Call (513) 586-5107.',
+      'Older homes around Mount Healthy’s historic town center came with small bathroom fans or none, so moisture works on plaster and paint. In this early-1900s and mid-century housing, ducts often run into the attic. We size a replacement, swap loud motors and route the duct to an exterior cap.',
     relevance: [
       'Mount Healthy (ZIP 45231) is a historic small city on the north side, with an old town center and streets of early-1900s and mid-century homes. Houses that age came with small fans or none, so shower moisture lingers in baths and works on plaster and paint.',
       'In this older housing we routinely find fan ducts run into the attic instead of out through a roof or wall cap, which traps moisture overhead. We size a replacement to the bathroom, replace worn motors that have gone loud, and route the duct to a proper exterior cap.',

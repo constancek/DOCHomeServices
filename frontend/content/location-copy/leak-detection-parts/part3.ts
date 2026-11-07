@@ -1,7 +1,7 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
     intro:
-      'High water bill or a damp ceiling with no clear source in Villages of Roll Hill? Our licensed plumbers pinpoint hidden leaks with acoustic sensors, thermal imaging, and moisture meters before opening a single wall. Call (513) 586-5107.',
+      'Villages of Roll Hill is mostly multi-unit apartment buildings sharing risers and waste stacks, so leak detection there means a leak that can travel down through several units. The stain rarely sits under the break. Acoustic gear and thermal and moisture readings find the right line to expose.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop residential community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. In stacked housing like that, a supply line leaking inside a wall or above a ceiling can travel down through several units before the source is obvious, and the stain rarely sits directly under the actual break.',
       'Because these buildings share risers and waste stacks, a single pinhole leak can register as water damage in more than one apartment. We locate the leak non-invasively — listening for pressurised water with acoustic gear and reading temperature and moisture through the surface — so the right line is exposed instead of guessing across multiple units.',
@@ -11,7 +11,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-westwood': {
     intro:
-      'Musty smell, warm spot on the floor, or a meter that keeps ticking in East Westwood? Our licensed plumbers find hidden leaks with thermal imaging and moisture meters without tearing into walls. Call (513) 586-5107.',
+      'On East Westwood’s slopes, water from a corroded galvanized or copper line follows the grade of a slab or basement wall, so leak detection there often finds the wet patch well downhill of the break. We trace it back acoustically and confirm with moisture readings.',
     relevance: [
       'East Westwood (ZIP 45211) sits on the slopes between Westwood and the Mill Creek valley, with streets of early- and mid-1900s homes. Plumbing of that age tends to develop pinhole leaks in corroded galvanized and copper lines, and a seep behind a wall can run for weeks before it shows as a stain or a smell.',
       'The hillside grade is the second factor here. Water that escapes a supply line follows the slope of a slab or a basement wall, so the wet patch often appears well downhill of the actual break. We trace it back acoustically and confirm with moisture readings rather than chasing the symptom.',
@@ -21,7 +21,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'western-hills': {
     intro:
-      'Unexplained high water bill or running-water sound in Western Hills? Our licensed plumbers pinpoint hidden supply and slab leaks with acoustic equipment and pipe cameras before any digging starts. Call (513) 586-5107.',
+      'Western Hills homes around Western Hills Plaza and Glenway Avenue often still run on original galvanized supply lines that corrode, and leak detection there also covers cracked clay and cast-iron sewer laterals. We pinpoint supply leaks acoustically and run a camera through drains and laterals before opening any floor.',
     relevance: [
       'Western Hills (ZIP 45211) is the established west-side area around Western Hills Plaza and Glenway Avenue, with neighborhoods of early-1900s through mid-century single-family homes. Many of those homes still run on original galvanized supply lines that close up and corrode with age, and a pinhole in one can hide inside a wall or under a slab floor for a long time.',
       'The clay and cast-iron sewer laterals common to this era are the other source we chase, since a cracked line leaks underground with no visible clue beyond a soggy yard or a musty basement. We pinpoint supply leaks acoustically and run a camera through drains and laterals to find the break without opening the floor first.',
@@ -31,7 +31,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'california': {
     intro:
-      'High water bill, soggy ground, or musty smell at your California riverfront home? Our licensed plumbers pinpoint hidden leaks with acoustic sensors and moisture meters, no wall-opening guesswork. Call (513) 586-5107.',
+      'California sits on low bottomland beside the Ohio River along Kellogg Avenue, where it is easy to mistake a supply-line leak for ground moisture. Leak detection in its older homes looks at corroding buried lines and slab penetrations, using moisture readings and acoustic listening to confirm a real leak.',
     relevance: [
       'California (ZIP 45230) is Cincinnati’s far-east riverfront neighborhood along Kellogg Avenue, near Riverbend and the old Coney Island grounds, set on low ground beside the Ohio River. On wet bottomland like this, it is easy to mistake a genuine supply-line leak for ordinary ground moisture, which is exactly why a measured diagnosis matters.',
       'The older homes along Kellogg carry aging plumbing where buried supply lines and slab penetrations corrode and seep. We separate a real leak from high groundwater by reading moisture levels and listening for pressurised water at the line, then confirming the source before recommending any work.',
@@ -41,7 +41,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'carthage': {
     intro:
-      'Stain spreading on a ceiling or a meter that will not stop in Carthage? Our licensed plumbers locate hidden leaks with acoustic gear, thermal imaging, and pipe cameras. Call (513) 586-5107.',
+      'Carthage is a former village along Vine Street, home to the Hamilton County Fairgrounds, and leak detection in its early-1900s homes usually means galvanized and cast-iron plumbing past its service life. Pinhole leaks soften plaster before water pools, so we trace them with acoustic sensors and a drain camera.',
     relevance: [
       'Carthage (ZIP 45215) is a north-side neighborhood along Vine Street, a former village now home to the Hamilton County Fairgrounds, with older early-1900s homes. Houses of that age commonly run on galvanized and cast-iron plumbing, and the pinhole leaks those lines develop start small and hidden inside walls or under floors.',
       'Because these systems are now well past their service life, a slow seep can soften plaster and breed a musty smell long before water ever pools. We trace the leak to its source with acoustic sensors and a drain camera, so the repair targets the failed section rather than a guess.',
@@ -51,7 +51,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'winton-hills': {
     intro:
-      'Water showing on a ceiling or wall in Winton Hills with no clear source? Our licensed plumbers find hidden leaks with thermal imaging and acoustic sensors before opening anything up. Call (513) 586-5107.',
+      'In Winton Hills’ multi-unit buildings near Winton Road, a leak inside a shared wall or above a ceiling can surface in a different unit than the failed pipe. Leak detection there reads temperature differences through walls and listens for the leak, so we expose only the corroded section.',
     relevance: [
       'Winton Hills (ZIP 45232) is a north-side neighborhood near Winton Road, with a mix of residential and industrial areas including multi-unit housing. In multi-unit buildings, a leak inside a shared wall or above a ceiling can surface in a different unit than the one with the failed pipe.',
       'The older buildings here run on aging plumbing where fittings and supply lines corrode and weep. We pinpoint the source non-invasively, reading temperature differences through walls and listening for the leak, so we expose only the section that has failed instead of several walls.',
@@ -61,7 +61,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'roselawn': {
     intro:
-      'High water bill, warm floor spot, or running-water sound in Roselawn? Our licensed plumbers pinpoint hidden supply and slab leaks with acoustic equipment and moisture meters. Call (513) 586-5107.',
+      'Roselawn’s mid-century homes along Reading Road are at the age where supply lines corrode from inside, and leak detection there often finds a pinhole under a slab or behind a wall. In older apartment buildings, worn fittings can affect several units. Acoustic tools and moisture readings mark the spot.',
     relevance: [
       'Roselawn (ZIP 45237) is a north-side neighborhood along Reading Road, with settled streets of mid-century single-family homes and apartment buildings. Mid-1900s homes are now at the age where supply lines corrode from the inside and a pinhole can leak unseen beneath a slab or behind a wall.',
       'The older apartment buildings add a second pattern, where heavy use wears fittings and a slow leak can affect more than one unit. We locate supply and slab leaks acoustically and verify with moisture readings, so the exact spot is marked before any floor or wall is opened.',
@@ -71,7 +71,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-airy': {
     intro:
-      'Soggy yard, musty basement, or a meter that keeps moving in Mount Airy? Our licensed plumbers pinpoint hidden leaks with acoustic sensors, thermal imaging, and pipe cameras. Call (513) 586-5107.',
+      'Beside Mount Airy Forest, mid-century homes sit on hilly, wooded lots, and leak detection in Mount Airy often means water running downhill along a slab or foundation before it surfaces. Acoustic listening and moisture readings trace it back and separate a real leak from seasonal hillside damp.',
     relevance: [
       'Mount Airy (ZIP 45239) is a northwest-side neighborhood beside Mount Airy Forest, one of the largest city parks in the country, with mid-century single-family homes on hilly, wooded streets. Plumbing of that era corrodes with age, and a hidden supply leak on a sloped lot rarely surfaces where the break actually is.',
       'The hilltop terrain sends escaped water downhill along a slab or foundation, so the wet spot is often well below the leak. We trace it back with acoustic listening and read moisture through the surface, separating a real leak from the seasonal damp these wooded hillsides hold.',
@@ -81,7 +81,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hartwell': {
     intro:
-      'Stain creeping across a ceiling or an unexplained water bill in Hartwell? Our licensed plumbers find hidden leaks with acoustic gear and thermal imaging, protecting the original details of these old homes. Call (513) 586-5107.',
+      'Hartwell grew as a streetcar suburb, and leak detection in its Victorian and early-1900s homes usually means original supply lines with pinhole leaks hiding behind plaster and woodwork. Opening walls at random risks those features, so acoustic sensors, thermal imaging and moisture meters find the spot first.',
     relevance: [
       'Hartwell (ZIP 45215) is a historic north-side neighborhood that grew as a streetcar suburb, known for its Victorian and early-1900s homes on tree-lined streets. Those century-old houses often still carry original plumbing, where corroded supply lines develop pinhole leaks that hide behind plaster and original woodwork.',
       'Opening walls at random in a home like this risks the very features that make it worth keeping. We pinpoint the leak non-invasively first — acoustic sensors on the line, thermal imaging across the surface, moisture meters to confirm — so any repair is surgical rather than exploratory.',
@@ -91,7 +91,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'kennedy-heights': {
     intro:
-      'Hidden leak suspected behind a wall or under a floor in Kennedy Heights? Our licensed plumbers pinpoint it with thermal imaging, acoustic sensors, and moisture meters before opening anything. Call (513) 586-5107.',
+      'Kennedy Heights began as a Victorian-era resort community, and leak detection in its large early-1900s homes often means original supply lines leaking inside a wall for weeks. In a big house on the hilltop, water follows the structure down, so acoustic listening and thermal imaging find the actual break.',
     relevance: [
       'Kennedy Heights (ZIP 45213) is a historic east-side hilltop neighborhood that began as a Victorian-era resort community, now known for its arts center and large early-1900s homes. Original plumbing is common in these larger houses, and a corroded supply line can leak inside a wall cavity for weeks with only a faint stain or musty smell to show for it.',
       'In a big home, the distance between a leak and where it surfaces can be considerable, especially on this hilltop where water follows the structure downward. We confirm the source with acoustic listening and thermal imaging, so the repair is aimed at the actual break rather than the symptom.',
@@ -101,7 +101,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'st-bernard': {
     intro:
-      'High water bill or damp wall in St. Bernard with no obvious cause? Our licensed plumbers locate hidden leaks with acoustic gear, thermal imaging, and pipe cameras. Call (513) 586-5107.',
+      'Leak detection in St. Bernard, its own city around the Procter & Gamble Ivorydale complex, mostly involves early-1900s homes with corroded galvanized supply lines and aging cast-iron drains. On tight lots, a buried leak can show as a soggy strip between houses.',
     relevance: [
       'St. Bernard (ZIP 45217) is its own city, completely surrounded by Cincinnati, built up around the Procter & Gamble Ivorydale complex with a dense grid of early-1900s homes. That tightly packed, century-old housing runs on corroded galvanized supply lines and aging cast-iron drains, both of which leak quietly long before they fail outright.',
       'On these small valley lots, homes sit close together and a buried supply or lateral leak can show up as a soggy strip between houses. We pinpoint supply leaks acoustically and run a camera through drains to find a cracked line, so the dig is precise rather than exploratory.',
@@ -111,7 +111,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'elmwood-place': {
     intro:
-      'Musty basement, water stain, or a running meter in Elmwood Place? Our licensed plumbers pinpoint hidden leaks with moisture meters, acoustic sensors, and thermal imaging. Call (513) 586-5107.',
+      'Elmwood Place is a tiny village of early-1900s homes in the Mill Creek valley, and leak detection there often finds that a damp basement blamed on groundwater is really a corroded supply line weeping behind a wall. Moisture readings and acoustic listening tell the two apart.',
     relevance: [
       'Elmwood Place (ZIP 45216) is a tiny, densely built village in the Mill Creek valley north of the city, with closely spaced early-1900s homes. On low valley ground like this, it is easy to assume a damp basement is just groundwater when a corroded supply line is actually weeping behind a wall.',
       'The old, tightly packed housing runs on aging galvanized and cast-iron plumbing prone to pinhole leaks. We separate a true leak from valley dampness by reading moisture levels and listening for pressurised water, then trace it to the source before recommending any repair.',
@@ -121,7 +121,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'delhi-hills': {
     intro:
-      'High water bill, warm floor, or soggy yard in Delhi Hills? Our licensed plumbers pinpoint hidden supply and slab leaks with acoustic equipment and thermal imaging. Call (513) 586-5107.',
+      'In Delhi Hills, above the Ohio River in Delhi Township, leak detection usually means corroded mid-century plumbing with a pinhole under a slab or behind a wall. On hilly lots, water runs downhill before it surfaces, so we listen at the line and confirm with thermal and moisture readings.',
     relevance: [
       'Delhi Hills (ZIP 45233) sits in Delhi Township on the west side above the Ohio River, an area with deep ties to greenhouse and floral growing, with established mid-century homes on hilly streets. Mid-1900s plumbing corrodes with age, and a pinhole under a slab or behind a wall can leak unseen for months.',
       'The hillside grade matters when finding the leak, since escaped water runs downhill along a slab or foundation before it surfaces. We listen for the leak at the line and confirm with thermal and moisture readings, so the wet patch downhill is not mistaken for the source.',
@@ -131,7 +131,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'golf-manor': {
     intro:
-      'Unexplained water bill or a stain with no clear source in Golf Manor? Our licensed plumbers find hidden leaks with acoustic gear, thermal imaging, and moisture meters. Call (513) 586-5107.',
+      'Golf Manor is a small village of modest mid-century homes, and leak detection there usually means a supply line corroding from within, with a pinhole behind a wall or under a slab while the bill rises. We listen at the line and read moisture and temperature through the surface.',
     relevance: [
       'Golf Manor (ZIP 45237) is a small village completely surrounded by Cincinnati on the north side, with a compact grid of modest mid-century homes. Homes of that era are now at the age where supply lines corrode from within, and a pinhole leak can hide behind a wall or under a slab while quietly running up the bill.',
       'In a modest home, a slow leak still does real damage to drywall and flooring before it is obvious. We pinpoint it non-invasively, listening at the line and reading moisture and temperature through the surface, so the repair is aimed at the failed section.',
@@ -141,7 +141,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fairfax': {
     intro:
-      'Damp wall, musty smell, or a meter that keeps moving in Fairfax? Our licensed plumbers pinpoint hidden leaks with acoustic sensors and thermal imaging before opening anything up. Call (513) 586-5107.',
+      'Fairfax homes along Wooster Pike near Mariemont date to the early and mid-1900s, and leak detection there usually means pinhole leaks in corroded supply lines that soften plaster or leave a musty smell before water shows. We listen for pressurized water at the line and read moisture through the surface.',
     relevance: [
       'Fairfax (ZIP 45227) is a small east-side village along Wooster Pike near Mariemont, with established early- and mid-1900s homes. Plumbing of that age develops pinhole leaks in corroded supply lines, and a slow seep can soften plaster or breed a musty smell well before water shows.',
       'Finding the source without opening several walls is the point of a measured diagnosis. We listen for pressurised water at the line and read moisture and temperature through the surface, so any repair targets the failed section instead of a guess.',
@@ -151,7 +151,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mack': {
     intro:
-      'High water bill or warm spot on the floor in Mack? Our licensed plumbers pinpoint hidden supply and slab leaks with acoustic equipment and thermal imaging. Call (513) 586-5107.',
+      'Many homes in Mack, in Green Township, are built on slabs, so leak detection there often means a water line leaking under the floor that only shows as a warm spot, a high bill or a running sound. Acoustic and thermal tools mark one spot to open.',
     relevance: [
       'Mack (ZIP 45248) is an established community in Green Township on the west side, with neighborhoods of mid-century and newer single-family homes. Even the newer homes here are now old enough that supply lines and slab penetrations corrode, and a pinhole under the floor can leak unseen.',
       'Many homes in Mack are built on slabs, where a failed hot- or cold-water line is invisible until a warm spot, a high bill, or a running-water sound gives it away. We confirm the source with acoustic listening and thermal imaging, so the slab is opened only at the marked spot.',
@@ -161,7 +161,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'monfort-heights': {
     intro:
-      'Soggy yard, musty basement, or a meter that will not stop in Monfort Heights? Our licensed plumbers find hidden leaks with acoustic gear, moisture meters, and pipe cameras. Call (513) 586-5107.',
+      'Monfort Heights’ mid-century homes are at the age where supply lines corrode and sewer laterals crack, and leak detection there often starts with a soft spot in the yard or a musty basement with slow drains. We pinpoint supply leaks acoustically and run a camera through laterals before any digging.',
     relevance: [
       'Monfort Heights (ZIP 45247) is a settled Green Township suburb on the west side, made up largely of mid-century single-family homes. Homes from the mid-1900s are now well into the age where supply lines corrode and sewer laterals crack, and either can leak underground with no visible clue.',
       'A buried supply leak shows as a soft spot in the yard, while a cracked lateral leaves a musty basement and slow drains. We pinpoint supply leaks acoustically and run a camera through laterals to find the break, so any dig is precise.',
@@ -171,7 +171,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bridgetown': {
     intro:
-      'Unexplained water bill or a damp spot with no clear source in Bridgetown? Our licensed plumbers pinpoint hidden leaks with acoustic sensors, thermal imaging, and moisture meters. Call (513) 586-5107.',
+      'Bridgetown homes in Green Township often have worn supply lines and aging fittings, and leak detection there frequently involves slab homes where a leak gives little away beyond a warm patch or a rising bill. Acoustic listening and thermal imaging mark the exact spot so the repair stays small.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. Worn supply lines and aging fittings are common in homes this age, and a pinhole leak behind a wall or under a slab can run quietly for weeks.',
       'Several Bridgetown homes sit on slabs, where a leaking line gives little away beyond a warm patch or a rising bill. We confirm the source with acoustic listening and thermal imaging, then mark the exact spot so the repair does not become a demolition.',
@@ -181,7 +181,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'finneytown': {
     intro:
-      'High water bill, musty smell, or a meter that keeps moving in Finneytown? Our licensed plumbers pinpoint hidden leaks with acoustic gear and thermal imaging. Call (513) 586-5107.',
+      'Leak detection in Finneytown, a Springfield Township community of mid-century homes, usually means supply lines corroding from inside, with a pinhole behind a wall or under a slab showing only as a stain or a smell. We listen at the line and read moisture and temperature through the surface.',
     relevance: [
       'Finneytown (ZIP 45231) is a settled Springfield Township community on the north side, made up largely of mid-century single-family homes. Plumbing of that era corrodes from the inside, and a pinhole in a supply line can hide behind a wall or under a slab, showing only as a stain or a smell.',
       'A slow leak in a mid-century home does real damage to drywall and subfloor before it surfaces. We locate it non-invasively, listening at the line and reading moisture and temperature through the surface, so the repair targets the failed section.',
@@ -191,7 +191,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'amberley': {
     intro:
-      'High water bill or a hidden leak suspected in your large Amberley home? Our licensed plumbers pinpoint it with acoustic sensors, thermal imaging, and moisture meters before opening anything. Call (513) 586-5107.',
+      'Large homes on big, wooded lots in Amberley Village have more concealed pipe, so a hidden leak can run a long way before it surfaces. Leak detection there traces long supply runs acoustically and confirms with thermal and moisture readings before a finished space is opened.',
     relevance: [
       'Amberley Village (ZIP 45237) is an affluent north-side village known for its large homes on big, wooded lots along winding streets. Larger homes mean larger plumbing systems with more concealed pipe, so a hidden leak can run a long way inside walls or under floors before it ever surfaces.',
       'With long supply runs and finished lower levels, the distance between a leak and its stain can be considerable. We trace it to the source acoustically and confirm with thermal imaging and moisture readings, so a repair in a finished space is precise rather than exploratory.',
@@ -201,7 +201,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'arlington-heights': {
     intro:
-      'Musty basement, water stain, or a running meter in Arlington Heights? Our licensed plumbers pinpoint hidden leaks with moisture meters, acoustic sensors, and thermal imaging. Call (513) 586-5107.',
+      'Arlington Heights is a small Mill Creek valley village of older homes, and leak detection there often finds that a damp basement blamed on groundwater is really a corroded supply line weeping behind a wall. Moisture readings and acoustic listening separate a real leak from valley dampness.',
     relevance: [
       'Arlington Heights (ZIP 45215) is a small village in the Mill Creek valley north of the city, with a compact grid of older homes. On low valley ground, a damp basement is easy to blame on groundwater when a corroded supply line is actually weeping behind a wall.',
       'The older housing runs on aging plumbing prone to pinhole leaks. We separate a real leak from valley dampness by reading moisture levels and listening for pressurised water, then trace it to the source before recommending any work.',
@@ -211,7 +211,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-college-hill': {
     intro:
-      'High water bill or a stain with no obvious source in North College Hill? Our licensed plumbers find hidden leaks with acoustic gear, thermal imaging, and pipe cameras. Call (513) 586-5107.',
+      'North College Hill’s early- and mid-1900s homes on close lots run on corroded galvanized supply lines and aging cast-iron drains, and leak detection there often means a soggy strip between homes from a buried line. We pinpoint supply leaks acoustically and camera the drains and laterals to find a crack.',
     relevance: [
       'North College Hill (ZIP 45239) is a small, densely built city just north of College Hill, with a grid of early- and mid-1900s homes. That older, tightly packed housing runs on corroded galvanized supply lines and aging cast-iron drains, both prone to pinhole leaks that hide inside walls.',
       'On these close lots, a buried supply or lateral leak can surface as a soggy strip between homes. We pinpoint supply leaks acoustically and camera the drains and laterals to find a crack, so the dig or wall opening is precise rather than a guess.',
@@ -221,7 +221,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newtown': {
     intro:
-      'Soggy ground, musty basement, or a high water bill at your Newtown home near the river? Our licensed plumbers pinpoint hidden leaks with moisture meters and acoustic sensors. Call (513) 586-5107.',
+      'Newtown is a small village near the Little Miami River, and leak detection in its older homes on low river-bottom ground starts with ruling out ordinary ground moisture. Buried lines and slab penetrations corrode and seep, so we read moisture levels and listen for pressurized water at the line.',
     relevance: [
       'Newtown (ZIP 45244) is a small east-side village near the Little Miami River, with older homes set on low river-bottom ground. On wet bottomland, ordinary ground moisture can mask a genuine supply-line leak, so a measured diagnosis matters here.',
       'The older homes carry aging plumbing where buried lines and slab penetrations corrode and seep. We separate a real leak from river-bottom dampness by reading moisture levels and listening for pressurised water at the line, then confirm the source before any repair.',
@@ -231,7 +231,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'turpin-hills': {
     intro:
-      'Unexplained water bill or a warm spot on the floor in Turpin Hills? Our licensed plumbers pinpoint hidden supply and slab leaks with acoustic equipment and thermal imaging. Call (513) 586-5107.',
+      'Many Turpin Hills homes in Anderson Township sit on slabs, so leak detection there often means a water line leaking under the floor, showing only as a warm patch, a high bill or a running sound. Acoustic listening and thermal imaging confirm the source before the slab is opened.',
     relevance: [
       'Turpin Hills (ZIP 45244) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. Worn supply lines are common in homes this age, and a pinhole under a slab or behind a wall can leak unseen while the bill climbs.',
       'Many Turpin Hills homes sit on slabs, where a leaking water line gives little away beyond a warm patch, a high bill, or a running-water sound. We confirm the source with acoustic listening and thermal imaging, so the slab is opened only at the marked spot.',
@@ -241,7 +241,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'silverton': {
     intro:
-      'Damp wall, musty smell, or a meter that keeps moving in Silverton? Our licensed plumbers pinpoint hidden leaks with acoustic sensors and thermal imaging before opening anything. Call (513) 586-5107.',
+      'Silverton is a small city along Montgomery Road, and leak detection in its early- and mid-1900s homes usually means pinhole leaks in corroded supply lines that soften plaster or leave a musty smell before water pools. We listen for pressurized water and read moisture through the surface.',
     relevance: [
       'Silverton (ZIP 45236) is a small city along Montgomery Road on the east side, with established streets of early- and mid-1900s homes. Plumbing of that age develops pinhole leaks in corroded supply lines, and a slow seep can soften plaster or breed a musty smell long before water pools.',
       'Finding the leak without opening several walls is the goal. We listen for pressurised water at the line and read moisture and temperature through the surface, so any repair targets the failed section instead of a guess.',
@@ -251,7 +251,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lockland': {
     intro:
-      'Musty basement, water stain, or a running meter in Lockland? Our licensed plumbers pinpoint hidden leaks with moisture meters, acoustic sensors, and pipe cameras. Call (513) 586-5107.',
+      'Lockland grew up around mills in the Mill Creek valley, and leak detection in its worker houses often finds a corroded supply line behind a wall rather than the groundwater people blame. Moisture meters and acoustic listening separate the two, and drains get a camera where a crack is suspected.',
     relevance: [
       'Lockland (ZIP 45215) is a historic village in the Mill Creek valley north of the city, built up around mills and industry, with closely spaced older worker housing. On low valley ground, a damp basement is easy to blame on groundwater when a corroded supply line is actually leaking behind a wall.',
       'The old, tightly packed homes run on aging galvanized and cast-iron plumbing prone to pinhole leaks. We separate a real leak from valley dampness with moisture meters and acoustic listening, and camera the drains where a cracked line is suspected.',
@@ -261,7 +261,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'groesbeck': {
     intro:
-      'High water bill, warm floor, or a soggy yard in Groesbeck? Our licensed plumbers pinpoint hidden supply and slab leaks with acoustic equipment and thermal imaging. Call (513) 586-5107.',
+      'Groesbeck’s mid-century homes in Colerain Township are often built on slabs, and leak detection there usually means a corroded supply line under the floor with no clue beyond a rising bill, a warm spot or a running sound. Acoustic and thermal tools mark the spot first.',
     relevance: [
       'Groesbeck (ZIP 45239) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. Homes of that era are now at the age where supply lines corrode and slab penetrations leak, often with no clue beyond a rising bill.',
       'Many Groesbeck homes are built on slabs, where a failed water line is invisible until a warm spot or a running-water sound gives it away. We confirm the source with acoustic listening and thermal imaging, so the slab is opened only at the marked spot.',
@@ -271,7 +271,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-healthy': {
     intro:
-      'Unexplained water bill or a stain with no clear source in Mount Healthy? Our licensed plumbers find hidden leaks with acoustic gear, thermal imaging, and pipe cameras. Call (513) 586-5107.',
+      'Mount Healthy is a historic small city with an old town center, and leak detection in its early-1900s and mid-century homes covers corroded galvanized supply lines behind plaster and cracked laterals leaking underground. We pinpoint supply leaks acoustically and camera the drains and laterals.',
     relevance: [
       'Mount Healthy (ZIP 45231) is a historic small city on the north side, with an old town center and streets of early-1900s and mid-century homes. That older housing runs on corroded galvanized supply lines and aging cast-iron drains, both of which leak quietly long before they fail outright.',
       'A pinhole in an old supply line can hide behind plaster while a cracked lateral leaks underground with no visible clue. We pinpoint supply leaks acoustically and camera the drains and laterals to find the break, so any wall opening or dig is precise.',

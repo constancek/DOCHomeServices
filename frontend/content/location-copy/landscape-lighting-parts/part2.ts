@@ -1,7 +1,7 @@
 export const part2: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'madeira': {
     intro:
-      'Planning landscape lighting in Madeira, OH? As a licensed electrical contractor, we design and install weather-rated, code-compliant low-voltage path, accent, and uplighting on the city’s quiet, tree-lined streets. Call (513) 586-5107.',
+      'Mature street trees in Madeira, on quiet streets of mid-century homes, are made for uplighting, and that is where most landscape lighting jobs here start. Deep front yards leave room for buried low-voltage runs to path lights and facade accents, laid out to get through freeze-and-thaw winters.',
     relevance: [
       'Madeira (ZIP 45243) is an established east-side city with a small-town feel, built largely of mid-century single-family homes on quiet, tree-lined streets. Those mature street trees are made for uplighting — a pair of shielded well lights at the base of an oak or maple washes the trunk and canopy after dark, and the deep, settled front yards leave room for buried low-voltage runs that stay concealed through every season.',
       'The single-family homes here sit on generous lots that suit a layered plan: path lights along the front walk, accent lighting on the facade, and a transformer sized for the whole run. We bury weather-rated cable below the turf, ground-stake the fixtures clear of mowers, and set everything to code so the system holds up through Madeira’s freeze-and-thaw winters without a fixture going dark.',
@@ -17,7 +17,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'wyoming': {
     intro:
-      'Landscape lighting in Wyoming, OH should match the homes it lights. We are a licensed electrical contractor designing weather-rated, code-compliant accent and uplighting for this historic suburb’s Victorian and early-1900s homes. Call (513) 586-5107.',
+      'Wyoming’s grand Victorian and early-1900s homes reward careful landscape lighting: grazing light up brick, soft uplighting on a gable or turret, and fixtures that disappear by day. The shaded streets’ mature trees suit uplighting and moonlighting, with concealed low-voltage runs across deep lots.',
     relevance: [
       'Wyoming (ZIP 45215) is a historic, affluent suburb north of the city, known for its grand Victorian and early-1900s homes on established, tree-shaded streets. Architecture like that rewards careful accent lighting — grazing light up a brick facade, soft uplighting on a gable or turret, and fixtures chosen to disappear by day rather than compete with the house.',
       'The mature trees that shade Wyoming’s streets are ideal candidates for uplighting and moonlighting from within the canopy, and the deep period lots leave plenty of room for concealed low-voltage runs. We bury weather-rated cable, set a transformer sized to the layout, and place each fixture so the wiring stays out of sight and the historic character of these century-old homes carries through after dark.',
@@ -33,7 +33,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mariemont': {
     intro:
-      'Landscape lighting in Mariemont, OH calls for a light touch. As a licensed electrical contractor, we install weather-rated, code-compliant accent and path lighting suited to this National Historic Landmark village. Call (513) 586-5107.',
+      'Mariemont’s 1920s Tudor stonework and timbering take grazing and accent light well, and landscape lighting in this National Historic Landmark village also uses low, glare-free path lights along its gardens and walkways. We keep fixtures small and concealed, with cable buried below the planting beds.',
     relevance: [
       'Mariemont (ZIP 45227) is a planned "garden community" laid out in the 1920s and now a National Historic Landmark, known for its Tudor Revival architecture and village square on the east side. Tudor stonework and timbering take beautifully to grazing and accent light, and the village’s formal gardens and walkways are natural settings for low, glare-free path lights.',
       'Because so much of Mariemont dates to the 1920s and 30s, exterior wiring and lighting are best handled with respect for the original character — we keep fixtures small and concealed, bury low-voltage cable below the planting beds, and set a transformer that runs the path and accent lights safely. The weather-rated, code-compliant install holds up through Midwest winters without disturbing the historic streetscape.',
@@ -49,7 +49,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cheviot': {
     intro:
-      'Want landscape lighting in Cheviot, OH? We are a licensed electrical contractor installing weather-rated, code-compliant path, accent, and security lighting on this compact west-side city’s tight lots. Call (513) 586-5107.',
+      'Cheviot’s early-1900s homes and brick two-families along Harrison Avenue sit on tight lots, so landscape lighting there has to do double duty. Path lights guide visitors to the door, and a couple of facade washes brighten a dark entry without spilling into the neighbor’s yard.',
     relevance: [
       'Cheviot (ZIP 45211) is a small, densely built city on the west side, completely surrounded by Cincinnati, with a grid of early-1900s homes and brick two-families along Harrison Avenue. On tight city lots like these, well-aimed lighting does double duty — path lights guide visitors to the door while a couple of facade washes brighten a darker entry and add curb appeal without spilling into the neighbor’s yard.',
       'The brick fronts on Cheviot’s early-1900s homes and two-families take grazing light well, and the close spacing rewards low-voltage fixtures that can be aimed precisely. We run weather-rated cable along the bed lines, add GFCI-protected exterior outlets where the older homes lack them, and set a transformer sized to the run so the lighting stays safe and reliable through the seasons.',
@@ -65,7 +65,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covedale': {
     intro:
-      'Planning landscape lighting in Covedale, OH? As a licensed electrical contractor, we install weather-rated, code-compliant path, accent, and uplighting across this settled west-side community’s yards. Call (513) 586-5107.',
+      'Covedale homes from the early 1900s through mid-century have settled yards and established plantings that suit layered landscape lighting on one low-voltage transformer. Older exterior circuits were rarely sized for today’s loads, so we update them to code and add GFCI-protected outlets where they are missing.',
     relevance: [
       'Covedale (ZIP 45238) is a settled west-side community on the edge of the city near Green Township, with neighborhoods of early-1900s through mid-century single-family homes. The settled yards and established plantings here suit a layered approach — path lights along the walk, uplights on a feature tree, and accent lighting on the facade, all tied to one low-voltage transformer.',
       'Homes spanning the early 1900s through mid-century often have exterior circuits that were never sized for today’s landscape loads, so we update them to code and add GFCI-protected outlets where they are missing. Buried weather-rated cable and ground-staked fixtures keep the wiring concealed and clear of yard work, and the system is built to run through Covedale’s freeze-and-thaw winters.',
@@ -81,7 +81,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covington': {
     intro:
-      'Landscape lighting in Covington, KY should suit its historic streets. We are a licensed electrical contractor installing weather-rated, code-compliant accent and path lighting in MainStrasse Village and the riverfront districts. Call (513) 586-5107.',
+      'In Covington’s MainStrasse Village and Licking Riverside, landscape lighting means 19th-century rowhouse fronts, stoops and tight urban lots near the river. Low ground near the Ohio and Licking Rivers keeps moisture constant, so we use weather-rated fixtures and sealed, buried low-voltage connections that hold up in wet ground.',
     relevance: [
       'Covington (ZIP 41011) sits directly across the Ohio River from downtown Cincinnati, with historic districts like MainStrasse Village and Licking Riverside full of 19th-century rowhouses and brick homes. Those brick facades and narrow streetscapes take accent lighting well — grazing light up a rowhouse front, a shielded uplight on a stoop or cornice, and small path lights that read on tight urban lots.',
       'The low ground near the Ohio and Licking Rivers means moisture is a constant, so weather-rated fixtures and properly sealed, buried low-voltage connections matter even more here than on higher ground. We set transformers and GFCI-protected exterior outlets to code, conceal the wiring along the bed and walk lines, and build the system to hold up through high-water seasons and Midwest winters alike.',
@@ -97,7 +97,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newport': {
     intro:
-      'Landscape lighting in Newport, KY can show off its Victorian streets. We are a licensed electrical contractor installing weather-rated, code-compliant accent and path lighting around the East Row and the riverfront. Call (513) 586-5107.',
+      'Newport’s East Row Historic District has hundreds of Victorian homes, and landscape lighting there brings out gables, porches and brick fronts with low-voltage grazing and accent light. Near the riverfront, wiring has to be sealed and weather-rated, and we place shielded fixtures to pick out detail without glare.',
     relevance: [
       'Newport (ZIP 41071) is a Northern Kentucky river city across from downtown Cincinnati, home to the East Row Historic District — one of the largest Victorian historic districts in the state — along with the Levee riverfront. The hundreds of Victorian homes in the East Row are full of detail worth lighting: gables, porches, and brick fronts that come alive under low-voltage grazing and accent light.',
       'The low riverfront ground keeps moisture in play, so concealed wiring has to be weather-rated and sealed, and transformers and exterior outlets set to code. We bury low-voltage cable along the period gardens and walks of the East Row, place shielded fixtures to pick out architectural detail without glare, and build a system that carries Newport’s historic character through every season.',
@@ -113,7 +113,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bellevue': {
     intro:
-      'Landscape lighting in Bellevue, KY suits its well-kept historic streets. We are a licensed electrical contractor installing weather-rated, code-compliant path and accent lighting near Fairfield Avenue and the river. Call (513) 586-5107.',
+      'Bellevue’s late-1800s homes near Fairfield Avenue sit on narrow lots, so landscape lighting there is precise: path lights for a short front walk and a couple of shielded accents on the facade. Ground moisture runs high by the river, so connections are sealed and buried.',
     relevance: [
       'Bellevue (ZIP 41073) is a compact Northern Kentucky river city with a historic Fairfield Avenue business district and tight streets of well-preserved late-1800s homes. On those narrow lots, precise low-voltage lighting is the right tool — path lights to mark a short front walk and a couple of shielded accents to graze a late-1800s facade and brighten a dark entry.',
       'The riverfront setting keeps ground moisture high, so weather-rated fixtures and sealed, buried connections are essential here. We run low-voltage cable along the bed lines, set a transformer and GFCI-protected outlets to code, and aim every fixture to light Bellevue’s closely spaced historic homes without spilling into the neighbor’s yard.',
@@ -129,7 +129,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-thomas': {
     intro:
-      'Landscape lighting in Fort Thomas, KY can make the most of its stately homes. We are a licensed electrical contractor installing weather-rated, code-compliant accent, path, and uplighting above the river. Call (513) 586-5107.',
+      'Stately early-1900s homes on tree-lined streets above the river make Fort Thomas a good place for layered landscape lighting. Facade accents pick out the architecture, uplights and moonlighting work the mature trees, and path lights guide the front walk, all on concealed low-voltage runs.',
     relevance: [
       'Fort Thomas (ZIP 41075) is a historic Northern Kentucky city built around a former U.S. Army post, with stately early-1900s homes on tree-lined streets above the river. Large homes like these on tree-shaded streets are ideal for a layered plan — facade accents on the architecture, uplights set into the mature trees, and path lights guiding the front walk.',
       'The established lots above the river leave room for concealed low-voltage runs that stay hidden through the seasons, and the tree canopy suits both uplighting from the base and moonlighting from within. We bury weather-rated cable, set a transformer sized to the layout, and install everything to code so the lighting on Fort Thomas’s early-1900s homes runs reliably year-round.',
@@ -145,7 +145,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'florence': {
     intro:
-      'Planning landscape lighting in Florence, KY? As a licensed electrical contractor, we install weather-rated, code-compliant path, accent, and uplighting across this fast-growing Boone County city. Call (513) 586-5107.',
+      'Florence, the largest city in Boone County, has mid-century neighborhoods and newer subdivisions with large yards suited to layered landscape lighting: path lights down the drive, uplights on plantings and facade accents. Newer homes often have one exterior outlet, so we add GFCI-protected outlets.',
     relevance: [
       'Florence (ZIP 41042) is the largest city in Boone County and one of the fastest-growing in Northern Kentucky, with a wide mix of mid-century neighborhoods and newer subdivisions around the Florence Mall area. The larger subdivision yards leave plenty of room for a layered design — path lights down the drive and walk, uplights on feature plantings, and accent lighting on the facade.',
       'Newer homes here often have only a single exterior outlet, so we add GFCI-protected outlets and set a low-voltage transformer sized to the run, while the mid-century neighborhoods may need their older exterior circuits updated to code first. Buried weather-rated cable and ground-staked fixtures keep the wiring concealed and clear of yard work through Florence’s freeze-and-thaw winters.',
@@ -161,7 +161,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'erlanger': {
     intro:
-      'Want landscape lighting in Erlanger, KY? We are a licensed electrical contractor installing weather-rated, code-compliant path, accent, and uplighting across this established Kenton County city. Call (513) 586-5107.',
+      'Mid-century neighborhoods in Erlanger, near the airport, have settled yards that suit layered landscape lighting: path lights, uplights on a mature tree and facade accents. Exterior circuits from the mid-1900s were never sized for today’s transformers, so we update them to code first.',
     relevance: [
       'Erlanger (ZIP 41018) is an established Kenton County city near the airport, with settled mid-century neighborhoods and a mix of older and newer homes. The settled yards and established plantings in those mid-century neighborhoods suit a layered plan — path lights along the walk, uplights on a mature tree or shrub, and accent lighting on the facade.',
       'Homes from the mid-1900s often have exterior circuits that were never sized for today’s landscape transformers and LED loads, so we update them to code and add GFCI-protected outlets where they are missing. We bury weather-rated low-voltage cable, ground-stake the fixtures clear of mowers, and build a system that runs reliably through Erlanger’s freeze-and-thaw winters.',
@@ -177,7 +177,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mason': {
     intro:
-      'Planning landscape lighting in Mason, OH? As a licensed electrical contractor, we design and install weather-rated, code-compliant path, accent, and uplighting across this fast-growing Warren County city. Call (513) 586-5107.',
+      'Mason’s subdivisions, built mostly from the 1990s onward near Kings Island, have big landscaped yards made for full landscape lighting: path lights on long drives, well lights on feature trees and grazing on stonework. These homes usually have only one or two exterior outlets, so we add GFCI-protected ones.',
     relevance: [
       'Mason (ZIP 45040) is a fast-growing Warren County city north of Cincinnati, near Kings Island, with large subdivisions of homes built mostly from the 1990s onward alongside an older town center. The big landscaped yards in those subdivisions are made for a full layered design — path lights along long drives and walks, well lights uplighting feature trees, and grazing accents on the facade and stonework.',
       'Homes built from the 1990s on usually have modern wiring but only one or two exterior outlets, so we add GFCI-protected outlets and set a low-voltage transformer sized to cover the yard, while the older town center may need its exterior circuits updated to code first. We bury weather-rated cable below the turf and beds so the runs stay concealed through Mason’s seasons.',
@@ -193,7 +193,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-chester': {
     intro:
-      'Planning landscape lighting in West Chester, OH? As a licensed electrical contractor, we install weather-rated, code-compliant path, accent, and uplighting across this fast-growing Butler County community. Call (513) 586-5107.',
+      'West Chester subdivisions along I-75, built from the 1990s onward, have generous landscaped yards suited to layered landscape lighting with path lights, uplit trees and facade accents. Exterior outlets are usually limited, so we add GFCI-protected outlets and size the low-voltage transformer to the yard.',
     relevance: [
       'West Chester (ZIP 45069) is a large, fast-growing Butler County community between Cincinnati and Dayton, made up largely of subdivisions built from the 1990s onward along the I-75 corridor. The generous, landscaped subdivision yards here are ideal for a layered design — path lights along the walk and drive, uplights on feature trees, and accent lighting on the facade and entry.',
       'These newer homes typically have modern wiring but limited exterior outlets, so we add GFCI-protected outlets and set a low-voltage transformer sized to the yard. We bury weather-rated cable below the turf and planting beds and ground-stake the fixtures clear of mowers, so the runs stay concealed and the system holds up through West Chester’s freeze-and-thaw winters.',
@@ -209,7 +209,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pendleton': {
     intro:
-      'Landscape lighting in Pendleton fits its restored historic blocks. We are a licensed electrical contractor installing weather-rated, code-compliant accent and step lighting in this arts district beside Over-the-Rhine. Call (513) 586-5107.',
+      'Pendleton’s restored 19th-century Italianate buildings beside Over-the-Rhine are packed tight, so landscape lighting there is precise accent work. We graze brick fronts, pick out cornices with shielded fixtures and add step lights on stoops, keeping wiring concealed against finished masonry.',
     relevance: [
       'Pendleton (ZIP 45202) is a small, historic arts district tucked against the eastern edge of Over-the-Rhine, full of restored 19th-century Italianate buildings and converted lofts and condos. The Italianate fronts and entry stoops in these tightly built blocks take precise accent lighting well — grazing light up a brick facade, shielded fixtures picking out a cornice, and step lights on the stairs that read on a dense urban lot.',
       'With buildings packed this close, every fixture has to be aimed to light its own facade without spilling next door, and the low-voltage wiring has to stay concealed against finished masonry. We set a transformer and GFCI-protected outlets to code, run weather-rated cable discreetly, and build a system suited to Pendleton’s restored 19th-century streetscape.',
@@ -225,7 +225,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'queensgate': {
     intro:
-      'Need landscape or exterior lighting in Queensgate? We are a licensed electrical contractor installing weather-rated, code-compliant grounds, walkway, and security lighting in this commercial and industrial district west of downtown. Call (513) 586-5107.',
+      'Queensgate is mostly warehouses, offices and light-industrial buildings near the rail yards, so landscape lighting there leans toward the grounds: walkway and entry lights, accent light on a building face and security lighting for parking. Low ground near the Mill Creek floods, so connections are sealed and buried.',
     relevance: [
       'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Lighting needs here lean toward the grounds — walkway and entry lighting to mark paths across larger sites, accent lighting on a building face, and security lighting for parking and perimeter areas after dark.',
       'On low ground near the Mill Creek that is prone to flooding, weather-rated fixtures and sealed, properly buried low-voltage connections matter for reliability. We set transformers and GFCI-protected exterior outlets to code, route concealed cable across the grounds, and build exterior lighting suited to Queensgate’s commercial and industrial sites.',
@@ -241,7 +241,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cuf': {
     intro:
-      'Want landscape lighting in CUF near UC? We are a licensed electrical contractor installing weather-rated, code-compliant entry, step, and security lighting across Clifton Heights, University Heights, and Fairview. Call (513) 586-5107.',
+      'CUF’s hillside lots near UC are steep and tightly built, so landscape lighting in Clifton Heights, University Heights and Fairview is practical: step lights on stairs and porches, path lights on short walks and security lighting at dark entries. Older rentals often need exterior circuits and GFCI outlets updated first.',
     relevance: [
       'CUF (ZIP 45219) covers Clifton Heights, University Heights, and Fairview — the dense hilltop neighborhoods packed against the University of Cincinnati, full of 19th- and early-1900s homes now largely converted to student rentals. On these steep, tightly built lots, lighting tends toward the practical — step lights on the stairs and porch, path lights on short front walks, and security lighting at darker entries near campus.',
       'The hillside grade and close spacing mean fixtures have to be aimed precisely and steps lit for safety, while the older homes often need exterior circuits updated and GFCI-protected outlets added before a low-voltage system goes in. We run weather-rated cable concealed along the walks and steps and set everything to code so it holds up through the seasons.',
@@ -257,7 +257,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'camp-washington': {
     intro:
-      'Need landscape or exterior lighting in Camp Washington? We are a licensed electrical contractor installing weather-rated, code-compliant entry, walkway, and security lighting in this Mill Creek valley neighborhood. Call (513) 586-5107.',
+      'Camp Washington’s compact worker homes and mixed-use buildings in the Mill Creek valley suit straightforward landscape lighting: entry and walkway path lights, an accent on a building face and security lighting between houses and shops. Valley ground stays damp and floods in heavy rain, so connections are sealed and buried.',
     relevance: [
       'Camp Washington (ZIP 45225) is a historic working neighborhood in the Mill Creek valley, known for its industry, the American Sign Museum, and a tight mix of old worker housing and factories. The compact worker homes and mixed-use buildings here suit straightforward lighting — entry and walkway path lights, an accent or two on a building face, and security lighting for darker stretches between the houses and shops.',
       'The low valley ground stays damp and floods in heavy rain, so weather-rated fixtures and sealed, buried low-voltage connections are important for a system that lasts. We set a transformer and GFCI-protected exterior outlets to code, conceal the cable along the walks and bed lines, and build exterior lighting suited to Camp Washington’s older homes and buildings.',
@@ -273,7 +273,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-fairmount': {
     intro:
-      'Want landscape lighting in South Fairmount? We are a licensed electrical contractor installing weather-rated, code-compliant path, accent, and security lighting along Queen City Avenue. Call (513) 586-5107.',
+      'South Fairmount was rebuilt around the Lick Run Greenway after a long history of valley flooding, and its landscape lighting reflects that. Older homes along Queen City Avenue take entry and facade accents, walks get path lights, and every low-voltage connection is sealed and buried properly.',
     relevance: [
       'South Fairmount (ZIP 45205) sits in the Lick Run valley along Queen City Avenue on the west side — the area rebuilt around the Lick Run Greenway stormwater project after a long history of valley flooding. The greenway and rebuilt streetscape suit walkway and path lighting, while the older homes along Queen City Avenue take entry and facade accents that add curb appeal and light darker fronts.',
       'Given the valley’s flooding history, weather-rated fixtures and sealed, properly buried low-voltage connections are essential for reliability here. We set a transformer and GFCI-protected outlets to code, conceal the cable along the walks and beds, and build a landscape lighting system suited to South Fairmount’s low-lying valley setting.',
@@ -289,7 +289,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-end': {
     intro:
-      'Landscape lighting in the East End can frame its riverfront setting. We are a licensed electrical contractor installing weather-rated, code-compliant path and accent lighting along Eastern Avenue. Call (513) 586-5107.',
+      'Along Eastern Avenue, the East End squeezes river cottages and newer condos between the hillside and the Ohio River, and landscape lighting there means warm accent and entry light on the cottages plus step lights that mark the slope. Ground moisture runs high, so connections are sealed and buried.',
     relevance: [
       'The East End (ZIP 45226) is a narrow riverfront neighborhood stretching east of downtown along Eastern Avenue, below Columbia Parkway, with historic river cottages and newer condos squeezed between the hillside and the Ohio River. The river cottages take warm accent and entry lighting, while the slope between Columbia Parkway and the water suits step and path lights that mark the grade safely after dark.',
       'Its low position right on the river keeps ground moisture high, so weather-rated fixtures and sealed, buried low-voltage connections are essential here. We set a transformer and GFCI-protected outlets to code, conceal the cable along the walks and beds, and build landscape lighting suited to the East End’s riverfront cottages and condos.',
@@ -305,7 +305,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-fairmount': {
     intro:
-      'Want landscape lighting in North Fairmount? We are a licensed electrical contractor installing weather-rated, code-compliant path, step, and accent lighting on this west-side hillside. Call (513) 586-5107.',
+      'Stepped front yards on North Fairmount’s hillside above the Mill Creek valley make step and path lights the core of most landscape lighting there. We also add entry and facade accents to darker early-1900s fronts, after updating exterior circuits and adding GFCI-protected outlets.',
     relevance: [
       'North Fairmount (ZIP 45225) is a west-side hillside neighborhood above the Mill Creek valley, with streets of older early-1900s homes. The hillside lots and stepped front yards here are natural settings for step and path lights that mark the grade safely, and the older homes take entry and facade accents that brighten darker fronts and add curb appeal.',
       'On a hillside above the valley, drainage and moisture make weather-rated fixtures and sealed, buried low-voltage connections worth getting right. The early-1900s homes often need their exterior circuits updated and GFCI-protected outlets added first, after which we run concealed cable along the walks and steps and set everything to code.',
@@ -321,7 +321,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'evanston': {
     intro:
-      'Planning landscape lighting in Evanston near Xavier? We are a licensed electrical contractor installing weather-rated, code-compliant path, accent, and security lighting on this east-side neighborhood’s lots. Call (513) 586-5107.',
+      'Evanston’s early-1900s homes and apartment buildings near Xavier University take grazing accent light well, and landscape lighting there also covers path lights on the walks and security lighting at darker rental entries. Older exterior circuits often need updating and GFCI-protected outlets added first.',
     relevance: [
       'Evanston (ZIP 45207) is an east-side neighborhood next to Xavier University, with streets of early-1900s homes and apartment buildings, some now student housing. The early-1900s fronts take grazing accent light well, while path lights mark the walks and security lighting brightens darker entries on the rental and apartment lots near campus.',
       'The older homes here often have exterior circuits that were never sized for today’s landscape loads, so we update them to code and add GFCI-protected outlets where they are missing. We bury weather-rated low-voltage cable along the walks and beds and aim each fixture so the lighting on Evanston’s closely set homes stays where it belongs.',
@@ -337,7 +337,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-cumminsville': {
     intro:
-      'Want landscape lighting in South Cumminsville? We are a licensed electrical contractor installing weather-rated, code-compliant path, entry, and security lighting in this Mill Creek valley neighborhood. Call (513) 586-5107.',
+      'South Cumminsville’s older homes sit among industrial corridors in the Mill Creek valley, so landscape lighting there pairs entry and walkway path lights with security lighting for darker stretches. The valley ground stays damp and backs up in heavy rain, so connections are sealed and buried.',
     relevance: [
       'South Cumminsville (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, with older homes set among industrial corridors. The older homes here suit entry and walkway path lights and a facade accent or two, while security lighting helps along the darker stretches near the industrial corridors after dark.',
       'The low valley ground stays damp and backs up in heavy rain, so weather-rated fixtures and sealed, properly buried low-voltage connections are important for a lasting system. We set a transformer and GFCI-protected outlets to code, conceal the cable along the walks and beds, and build landscape lighting suited to South Cumminsville’s valley setting.',
@@ -353,7 +353,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'english-woods': {
     intro:
-      'Planning landscape lighting in English Woods? We are a licensed electrical contractor installing weather-rated, code-compliant path, step, and accent lighting on this west-side hilltop. Call (513) 586-5107.',
+      'English Woods sits on a hilltop above the Mill Creek valley, and its sloped yards make step and path lights the first part of most landscape lighting plans. Entry and facade accents brighten darker fronts on quiet residential streets, with sealed connections and concealed cable along the walks.',
     relevance: [
       'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The hilltop lots and sloped yards suit step and path lights that mark the grade safely, and the quiet residential streets take entry and facade accents that brighten darker fronts and add curb appeal.',
       'On a hilltop overlooking the valley, drainage and moisture make weather-rated fixtures and sealed, buried low-voltage connections worth getting right. We set a transformer and GFCI-protected outlets to code, conceal the cable along the walks and steps, and build a landscape lighting system suited to English Woods’ hilltop setting.',
@@ -369,7 +369,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-avondale': {
     intro:
-      'Landscape lighting in North Avondale can show off its grand homes. We are a licensed electrical contractor installing weather-rated, code-compliant accent, uplighting, and path lights near Rockdale Avenue. Call (513) 586-5107.',
+      'Grand early-1900s homes on large, tree-shaded lots near Rockdale Avenue give North Avondale landscape lighting plenty to work with: facade accents, well lights uplighting mature trees and path lights along long front walks. The deep canopy also suits moonlighting from above, on concealed low-voltage runs.',
     relevance: [
       'North Avondale (ZIP 45229) is a historic, leafy neighborhood known for its grand early-1900s homes on large, tree-shaded lots near Rockdale Avenue. Big homes on large, tree-shaded lots are made for a layered plan — facade accents on the architecture, well lights uplighting the mature trees, and path lights tracing long front walks.',
       'The large, established lots here leave plenty of room for concealed low-voltage runs that stay hidden through the seasons, and the deep tree canopy suits both base uplighting and moonlighting from above. We bury weather-rated cable, set a transformer sized to the layout, and install everything to code so the lighting on North Avondale’s grand early-1900s homes runs reliably year-round.',
@@ -385,7 +385,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'millvale': {
     intro:
-      'Want landscape lighting in Millvale? We are a licensed electrical contractor installing weather-rated, code-compliant path, entry, and security lighting in this Mill Creek valley neighborhood. Call (513) 586-5107.',
+      'Millvale is a compact residential neighborhood in the Mill Creek valley, and landscape lighting on its lots is straightforward: entry and walkway path lights, a facade accent or two and security lighting for darker stretches. Valley ground stays damp and backs up in heavy rain, so connections are sealed.',
     relevance: [
       'Millvale (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, a compact, largely residential community. The compact residential lots here suit straightforward lighting — entry and walkway path lights to mark the way to the door, a facade accent or two, and security lighting for darker stretches after dark.',
       'The low-lying valley ground stays damp and backs up in heavy rain, so weather-rated fixtures and sealed, buried low-voltage connections matter for a lasting system. We set a transformer and GFCI-protected outlets to code, conceal the cable along the walks and beds, and build landscape lighting suited to Millvale’s valley setting.',
@@ -401,7 +401,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'paddock-hills': {
     intro:
-      'Planning landscape lighting in Paddock Hills? We are a licensed electrical contractor installing weather-rated, code-compliant path, accent, and uplighting near Paddock Road. Call (513) 586-5107.',
+      'Paddock Hills is a well-kept pocket near Paddock Road whose settled yards suit layered landscape lighting: path lights along the walk, uplights on a mature tree or shrub and facade accents. Early- and mid-1900s exterior circuits were never sized for today’s transformers, so we update them first.',
     relevance: [
       'Paddock Hills (ZIP 45229) is a small, well-kept north-side residential pocket near Paddock Road and the Norwood Lateral, with streets of early- and mid-1900s homes. The well-kept yards and settled plantings here suit a layered plan — path lights along the walk, uplights on a mature tree or shrub, and accent lighting on the facade.',
       'Homes from the early and mid-1900s often have exterior circuits that were never sized for today’s landscape transformers and LED loads, so we update them to code and add GFCI-protected outlets where they are missing. We bury weather-rated cable, ground-stake the fixtures clear of mowers, and build a system that runs reliably through Paddock Hills’ freeze-and-thaw winters.',
@@ -417,7 +417,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'spring-grove-village': {
     intro:
-      'Want landscape lighting in Spring Grove Village? We are a licensed electrical contractor installing weather-rated, code-compliant path, accent, and security lighting near Spring Grove Cemetery. Call (513) 586-5107.',
+      'Spring Grove Village surrounds the historic cemetery and arboretum, and the mature plantings nearby make tree uplighting a natural part of landscape lighting here. Older homes take path lights and facade accents. Valley ground stays damp, so every low-voltage connection is sealed and buried.',
     relevance: [
       'Spring Grove Village (ZIP 45232) sits in the Mill Creek valley around the historic Spring Grove Cemetery and Arboretum, one of the largest cemeteries in the country, with a mix of older homes and industry. The arboretum setting and mature plantings nearby make tree uplighting a natural fit, while the older homes take entry and walkway path lights and a facade accent or two.',
       'The low valley ground stays damp and backs up in heavy rain, so weather-rated fixtures and sealed, buried low-voltage connections are important for reliability. We set a transformer and GFCI-protected outlets to code, conceal the cable along the walks and beds, and build landscape lighting suited to Spring Grove Village’s valley setting.',
@@ -433,7 +433,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'linwood': {
     intro:
-      'Landscape lighting in Linwood can frame its riverside setting. We are a licensed electrical contractor installing weather-rated, code-compliant path and accent lighting near Lunken and the river bottoms. Call (513) 586-5107.',
+      'Linwood sits along Eastern Avenue near Lunken Airport and the river bottoms, and landscape lighting for its older homes usually means entry and walkway path lights plus an uplit feature tree. The low riverside ground stays wet and backs up in high water, so connections are sealed.',
     relevance: [
       'Linwood (ZIP 45226) is one of Cincinnati’s smaller east-side neighborhoods, set along Eastern Avenue near Lunken Airport and the river bottoms. The older homes here suit entry and walkway path lights and a facade accent or two, and the open setting near the river bottoms leaves room for uplighting a feature tree.',
       'Its low riverside position keeps ground moisture high and brings backups in high water, so weather-rated fixtures and sealed, buried low-voltage connections are essential here. We set a transformer and GFCI-protected outlets to code, conceal the cable along the walks and beds, and build landscape lighting suited to Linwood’s riverside setting near Lunken.',
@@ -449,7 +449,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bond-hill': {
     intro:
-      'Planning landscape lighting in Bond Hill? We are a licensed electrical contractor installing weather-rated, code-compliant path, accent, and uplighting along Reading Road. Call (513) 586-5107.',
+      'Bond Hill’s early-1900s and mid-century houses along Reading Road sit on settled single-family lots with mature plantings, a good setup for layered landscape lighting with path lights, uplit trees and facade accents. Older exterior circuits usually need updating and GFCI outlets added before the transformer goes in.',
     relevance: [
       'Bond Hill (ZIP 45237) is a north-side neighborhood along Reading Road, with established streets of early-1900s and mid-century single-family homes. The settled single-family lots and mature plantings here suit a layered plan — path lights along the walk, uplights on a feature tree, and accent lighting on the facade.',
       'Homes spanning the early 1900s through mid-century often have exterior circuits that were never sized for today’s landscape transformers and LED loads, so we update them to code and add GFCI-protected outlets where they are missing. We bury weather-rated cable, ground-stake the fixtures clear of mowers, and build a system that runs reliably through Bond Hill’s freeze-and-thaw winters.',

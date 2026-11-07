@@ -96,7 +96,7 @@ Premium, modern, elegant. Subtle animations, proper spacing, clear visual hierar
 **Rule 3: Look before you create** — check existing files before creating new ones.
 
 
-**Rule 4: Test before you respond** — run `npm run build` before saying "done".
+**Rule 4: Build only when asked** — run `npm run build` only when the user asks for it. The full build takes about 10 minutes, and the user sometimes needs to push without it. Check changes on the dev server (`http://localhost:3000`) instead, and say plainly when a change hasn't been through a full build.
 
 
 **Core Rule** — do exactly what is asked. Nothing more, nothing less.
@@ -154,13 +154,16 @@ Premium, modern, elegant. Subtle animations, proper spacing, clear visual hierar
 
 
 Before marking any task done:
-- `npm run build` completes with no errors
-- Every route shows `○ (Static)` in the build log
+- The changed pages load on the dev server (`http://localhost:3000`) with no console errors
 - **View-source check:** the HTML contains the actual rendered content and any JSON-LD schema
 - **Voice check** (for content changes): re-read `references/voice.md` → "Tells that it's AI-written" and delete anything that matches
 
+Only when the user asks for a build:
+- `npm run build` completes with no errors
+- Every route shows `○ (Static)` or `● (SSG)` in the build log
 
-Never say "done" if the build is failing, there are console errors, the voice reads as AI, or the feature hasn't been tested in the browser.
+
+Never say "done" if the page fails on the dev server, there are console errors, or the voice reads as AI. If no full build was run, say so.
 
 
 ---

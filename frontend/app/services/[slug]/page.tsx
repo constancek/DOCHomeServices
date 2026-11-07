@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
-import { MapWidget, CouponWidget } from '@/components/Sidebar';
+import { ServiceSections } from '@/components/PageSections';
+import { CouponWidget } from '@/components/Sidebar';
+import { sidebarCouponFor } from '@/content/coupons';
 import ServicesMenu from '@/components/ServicesMenu';
 import { services, getService, type Service } from '@/content/services';
 import { servicePages, getServicePage, type ServicePage } from '@/content/servicePages';
@@ -12,7 +14,7 @@ import { site } from '@/content/site';
 
 // Slugs that have their own dedicated, fully built master page (so the generic
 // template route should NOT also generate them).
-const MASTER_SLUGS = new Set(['emergency-plumbing', 'plumbing', 'drains', 'drain-cleaning', 'faucet-repair-replacement', 'leak-detection', 'leak-repair', 'plumbing-installation', 'plumbing-repair', 'sewer-repair-replacement', 'sump-pumps', 'tankless-water-heater', 'water-heater-installation', 'water-heater-maintenance', 'water-heater-repair', 'water-quality', 'heating', 'furnace-installation-replacement', 'furnace-maintenance', 'furnace-repair', 'heat-pumps', 'indoor-air-quality', 'air-conditioning', 'ac-repair', 'ac-installation-replacement', 'ac-maintenance', 'mini-splits', 'mini-split-installation', 'mini-split-repair', 'electrical', 'exhaust-fan-installation-repair', 'surge-protector-installation', 'ceiling-fan-installation', 'electrical-inspections', 'home-rewiring', 'ev-chargers', 'lighting', 'outdoor-lighting', 'holiday-lighting', 'hot-tub-wiring', 'landscape-lighting', 'patio-lighting', 'indoor-lighting', 'led-lighting', 'basement-lighting', 'garage-lighting', 'recessed-lighting', 'lighting-fixture-installation', 'electrical-panel-replacement', 'switches-outlets', 'electrical-mast-repair', 'whole-house-repiping', 'gas-line-repair-replacement', 'pipe-repair-replacement', 'garbage-disposals']);
+const MASTER_SLUGS = new Set(['emergency-plumbing', 'plumbing', 'drains', 'drain-cleaning', 'faucet-repair-replacement', 'leak-detection', 'leak-repair', 'plumbing-installation', 'plumbing-repair', 'sewer-repair-replacement', 'sump-pumps', 'tankless-water-heater', 'water-heater-installation', 'water-heater-maintenance', 'water-heater-repair', 'water-quality', 'heating', 'furnace-installation-replacement', 'furnace-maintenance', 'furnace-repair', 'heat-pumps', 'indoor-air-quality', 'air-conditioning', 'ac-repair', 'ac-installation-replacement', 'ac-maintenance', 'mini-splits', 'mini-split-installation', 'mini-split-repair', 'electrical', 'exhaust-fan-installation-repair', 'surge-protector-installation', 'ceiling-fan-installation', 'electrical-inspections', 'home-rewiring', 'ev-chargers', 'lighting', 'outdoor-lighting', 'holiday-lighting', 'hot-tub-wiring', 'landscape-lighting', 'patio-lighting', 'indoor-lighting', 'led-lighting', 'basement-lighting', 'garage-lighting', 'recessed-lighting', 'lighting-fixture-installation', 'electrical-panel-replacement', 'switches-outlets', 'electrical-mast-repair', 'whole-house-repiping', 'gas-line-repair-replacement', 'pipe-repair-replacement', 'garbage-disposals', 'water-damage-restoration', 'after-flood-plumbing', 'sewer-backup-repair', 'basement-flood-plumbing', 'emergency-water-extraction', 'structural-drying', 'mold-prevention-remediation']);
 
 export function generateStaticParams() {
   return [...services.map((s) => s.slug), ...servicePages.map((s) => s.slug)]
@@ -28,21 +30,21 @@ export async function generateMetadata({
   const { slug } = await params;
   const service = getService(slug);
   if (service) {
-    return {
+    return withSocial({
       title: `${service.title} Services`,
       description: service.summary,
       alternates: { canonical: `/services/${service.slug}` },
       openGraph: { title: `${service.title} Services`, description: service.summary },
-    };
+    });
   }
   const sub = getServicePage(slug);
   if (sub) {
-    return {
+    return withSocial({
       title: sub.title,
       description: sub.blurb,
       alternates: { canonical: `/services/${sub.slug}` },
       openGraph: { title: sub.title, description: sub.blurb },
-    };
+    });
   }
   return {};
 }
@@ -55,7 +57,7 @@ export default async function ServiceRoute({ params }: { params: Promise<{ slug:
   return (
     <>
       {service ? <MainService service={service} /> : <SubService page={sub!} />}
-      <PageSections />
+      <ServiceSections service={slug} withProof />
     </>
   );
 }
@@ -77,8 +79,8 @@ function MainService({ service }: { service: Service }) {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-      { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-      { '@type': 'ListItem', position: 3, name: service.title, item: `${site.url}/services/${service.slug}` },
+      { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+      { '@type': 'ListItem', position: 3, name: service.title, item: `${site.url}/services/${service.slug}/` },
     ],
   };
   const faqSchema = {
@@ -128,17 +130,17 @@ function MainService({ service }: { service: Service }) {
                 {service.faqs.map((f) => (
                   <div key={f.q} className="card">
                     <h3 className="text-lg font-bold text-brand-950">{f.q}</h3>
-                    <p className="mt-2 text-brand-700">{f.a}</p>
+                    <p className="mt-2 text-[17px] text-brand-700">{f.a}</p>
                   </div>
                 ))}
               </div>
             </section>
           </div>
 
-          <aside className="space-y-6 lg:sticky lg:top-28 lg:self-start">
+          <aside className="space-y-6 lg:self-start">
             <BookCard title={service.title} />
             <div className="card">
-              <h2 className="text-sm font-bold uppercase tracking-wider text-brand-500">Other services</h2>
+              <h2 className="text-sm font-bold tracking-wider text-brand-500">Other services</h2>
               <ul className="mt-4 space-y-2">
                 {others.map((o) => (
                   <li key={o.slug}>
@@ -152,8 +154,7 @@ function MainService({ service }: { service: Service }) {
                 ))}
               </ul>
             </div>
-            <MapWidget />
-            <CouponWidget />
+            <CouponWidget title={sidebarCouponFor(service.slug)} />
             <ServicesMenu />
           </aside>
         </div>
@@ -170,7 +171,7 @@ function SubService({ page }: { page: ServicePage }) {
 
   const body = [
     `${page.blurb} Our team provides ${lower} for homeowners across ${site.serviceArea}, with same-day availability and a flat-rate price you approve before we start.`,
-    `Every job is handled by a licensed, background-checked technician who treats your home with respect and cleans up before leaving. No hourly surprises, and no overtime fees on nights or weekends.`,
+    `Every job is handled by a licensed, background-checked technician who treats your home with respect and cleans up before leaving. No hourly surprises, and no overtime fees on evenings or weekends.`,
     `Not sure ${lower} is what you need? Call us and we will give you honest advice — even if that means a smaller, less expensive fix.`,
   ];
 
@@ -188,7 +189,7 @@ function SubService({ page }: { page: ServicePage }) {
     },
     {
       q: `How much does ${lower} cost?`,
-      a: `Every job is quoted at a flat rate before we begin, based on your home and the work involved. Call for a free, no-obligation estimate.`,
+      a: `Every job is quoted at a flat rate before we begin, based on your home and the work involved. Call to request an estimate.`,
     },
   ];
 
@@ -207,9 +208,9 @@ function SubService({ page }: { page: ServicePage }) {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-      { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-      { '@type': 'ListItem', position: 3, name: parentTitle, item: `${site.url}/services/${page.parentSlug}` },
-      { '@type': 'ListItem', position: 4, name: page.title, item: `${site.url}/services/${page.slug}` },
+      { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+      { '@type': 'ListItem', position: 3, name: parentTitle, item: `${site.url}/services/${page.parentSlug}/` },
+      { '@type': 'ListItem', position: 4, name: page.title, item: `${site.url}/services/${page.slug}/` },
     ],
   };
   const faqSchema = {
@@ -260,17 +261,17 @@ function SubService({ page }: { page: ServicePage }) {
                 {faqs.map((f) => (
                   <div key={f.q} className="card">
                     <h3 className="text-lg font-bold text-brand-950">{f.q}</h3>
-                    <p className="mt-2 text-brand-700">{f.a}</p>
+                    <p className="mt-2 text-[17px] text-brand-700">{f.a}</p>
                   </div>
                 ))}
               </div>
             </section>
           </div>
 
-          <aside className="space-y-6 lg:sticky lg:top-28 lg:self-start">
+          <aside className="space-y-6 lg:self-start">
             <BookCard title={page.title} />
             <div className="card">
-              <h2 className="text-sm font-bold uppercase tracking-wider text-brand-500">
+              <h2 className="text-sm font-bold tracking-wider text-brand-500">
                 More {parentTitle.toLowerCase()} services
               </h2>
               <ul className="mt-4 space-y-1">
@@ -288,8 +289,7 @@ function SubService({ page }: { page: ServicePage }) {
                 ))}
               </ul>
             </div>
-            <MapWidget />
-            <CouponWidget />
+            <CouponWidget title={sidebarCouponFor(page.slug)} />
             <ServicesMenu />
           </aside>
         </div>
@@ -302,7 +302,7 @@ function BookCard({ title }: { title: string }) {
   return (
     <div className="card bg-blue-section text-white">
       <h2 className="text-xl font-bold text-white">Book {title.toLowerCase()}</h2>
-      <p className="mt-2 text-sm text-brand-100">
+      <p className="mt-2 text-[15px] leading-relaxed text-brand-100">
         {site.hours} Serving {site.serviceArea}.
       </p>
       <a href={site.primaryPhone.href} className="btn-pink mt-5 w-full">

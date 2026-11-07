@@ -17,14 +17,15 @@ const inter = Inter({
 
 const montserrat = Montserrat({
   subsets: ['latin'],
-  weight: ['600', '700', '800', '900'],
+  weight: ['700', '800', '900'],
   variable: '--font-display',
   display: 'swap',
 });
 
 const merriweather = Merriweather({
   subsets: ['latin'],
-  weight: ['700', '900'],
+  // Only the logo wordmark and one heading use this font, both at 900.
+  weight: ['900'],
   variable: '--font-logo',
   display: 'swap',
 });
@@ -43,11 +44,13 @@ export const metadata: Metadata = {
     title: `${site.name} | ${site.tagline}`,
     description: site.description,
     url: site.url,
+    images: [{ url: '/og/default.png', width: 1200, height: 630, alt: `${site.name} service van` }],
   },
   twitter: {
     card: 'summary_large_image',
     title: `${site.name} | ${site.tagline}`,
     description: site.description,
+    images: ['/og/default.png'],
   },
 };
 
@@ -61,16 +64,27 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${inter.variable} ${montserrat.variable} ${merriweather.variable}`}>
       <body>
-        {/* Google Analytics */}
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-          strategy="afterInteractive"
-        />
+        {/* Google Analytics: gtag.js is fetched on the visitor's first scroll,
+            tap, click, or key press, so it never competes with page load.
+            Visits with no interaction at all are not recorded. */}
         <Script id="google-analytics" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '${GA_ID}');`}
+          {`(function(){
+var events=['scroll','pointerdown','keydown','touchstart'];
+var loaded=false;
+function load(){
+  if(loaded)return;loaded=true;
+  events.forEach(function(e){window.removeEventListener(e,load);});
+  window.dataLayer=window.dataLayer||[];
+  window.gtag=function(){dataLayer.push(arguments);};
+  gtag('js',new Date());
+  gtag('config','${GA_ID}');
+  var s=document.createElement('script');
+  s.async=true;
+  s.src='https://www.googletagmanager.com/gtag/js?id=${GA_ID}';
+  document.head.appendChild(s);
+}
+events.forEach(function(e){window.addEventListener(e,load,{passive:true});});
+})();`}
         </Script>
 
         <Header />

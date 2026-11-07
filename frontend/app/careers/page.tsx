@@ -5,12 +5,13 @@ import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Careers',
   description: `Join the ${site.name} team. Great pay, real benefits, and a family-owned culture serving ${site.serviceArea}.`,
   alternates: { canonical: '/careers' },
-};
+});
 
 // NOTE: confirm these reflect the benefits you actually offer before going live.
 const benefits = [
@@ -82,7 +83,7 @@ export default function CareersPage() {
           <div className="bg-pink-500 p-8">
             <ul className="grid gap-x-6 gap-y-4 sm:grid-cols-2">
               {benefits.map((b) => (
-                <li key={b} className="flex gap-2.5 text-sm font-semibold text-white">
+                <li key={b} className="flex gap-2.5 text-base font-semibold text-white">
                   <span className="mt-0.5 grid h-5 w-5 flex-shrink-0 place-items-center rounded-full bg-white/25">
                     <Icon name="check" className="h-3.5 w-3.5 text-white" />
                   </span>
@@ -106,7 +107,7 @@ export default function CareersPage() {
               aria-label="Available positions"
             />
             <h3 className="font-display text-lg font-extrabold text-brand-700">Available Positions</h3>
-            <p className="mt-2 text-sm text-ink/70">
+            <p className="mt-2 text-[15px] leading-relaxed text-ink/70">
               We hire across the trades — service technicians, installers, apprentices, and office
               team members. Send your resume and we will be in touch.
             </p>
@@ -124,7 +125,7 @@ export default function CareersPage() {
             <h3 className="font-display text-lg font-extrabold text-brand-700">
               Interested in Learning the Trade?
             </h3>
-            <p className="mt-2 text-sm text-ink/70">
+            <p className="mt-2 text-[15px] leading-relaxed text-ink/70">
               New to the field? Through {site.name} University we train motivated people from the
               ground up, with ongoing paid education.
             </p>
@@ -149,10 +150,10 @@ export default function CareersPage() {
         />
         <div className="container-page relative py-20">
           <div className="max-w-2xl text-white">
-            <h2 className="font-display text-4xl font-black uppercase leading-[1.05] text-pink-500 sm:text-5xl">
+            <h2 className="font-display text-4xl font-black leading-[1.05] text-pink-500 sm:text-5xl">
               When You Apply, We Promise Confidentiality.
             </h2>
-            <p className="mt-5 text-sm leading-relaxed text-white/90 sm:text-base">
+            <p className="mt-5 text-base leading-relaxed text-white/90 sm:text-base">
               We promise complete confidentiality and privacy, and we will not contact your current
               or previous employer without your permission. Reaching out to us never affects your
               current job. Send us your resume today — we look forward to meeting you soon!

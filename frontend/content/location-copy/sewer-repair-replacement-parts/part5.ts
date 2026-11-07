@@ -1,7 +1,7 @@
 export const part5: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'ludlow': {
     intro:
-      'A sewer backing up in a Ludlow home, or roots in the main line? We camera the buried lateral, find the break or root mass, and offer trenchless replacement across this historic river town, often the same day. Call (513) 586-5107.',
+      'Ludlow’s century-old riverfront homes run clay tile or cast-iron laterals whose joints have pulled apart and whose iron has scaled and cracked, so sewer line repair here usually means roots and groundwater. We camera the buried lateral, find the break and offer trenchless replacement.',
     relevance: [
       'Ludlow, KY (ZIP 41016) is a historic Northern Kentucky river town with a walkable Elm Street district and streets of well-preserved Victorian and early-1900s homes. The laterals buried under houses that old are almost always clay tile or cast iron, and after a century in the ground the clay joints have pulled apart and the cast iron has scaled and cracked. That gives roots an open path in and lets groundwater seep, which is how a slow drain turns into a full backup at the lowest fixture.',
       'The riverfront setting along the Ohio adds a second problem. When the river runs high the water table climbs, the saturated ground shifts the old clay sections, and a lateral that was holding together can finally sag or break at a joint. We camera the line first to pinpoint the failure, then line or pipe-burst the bad run so the brick walks and mature plantings around these older Ludlow homes stay intact.',
@@ -17,7 +17,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'park-hills': {
     intro:
-      'Recurring sewer backups or a sewage smell in a Park Hills home? We inspect the buried lateral by camera and replace failing lines trenchless where the slope allows, across this hillside city near Devou Park. Call (513) 586-5107.',
+      'A sag is where most Park Hills sewer line repair begins: century-old clay or cast-iron laterals run downhill to the main near Devou Park, and solids settle wherever a joint has dropped. We inspect the lateral by camera and replace failing lines, trenchless where the slope allows.',
     relevance: [
       'Park Hills, KY (ZIP 41011) is a hillside city beside Devou Park, known for early-1900s homes on steep, tree-lined streets above Covington. A lateral that runs downhill from a century-old house to the city main is under constant strain: the grade speeds water but lets solids settle wherever the old clay or cast-iron pipe has sagged at a joint, and that low spot is where backups start. Decades in the ground leave those joints open and out of line.',
       'The mature trees that shade those steep streets are the other half of the problem. Roots track the moisture and warmth leaking from an old joint and pack the pipe solid, and on a hillside lot a root mass in a clay line returns within months if it is only cabled. We camera the lateral to map the breaks and roots, then line or pipe-burst the run so we replace it without trenching a steep, planted Park Hills yard.',
@@ -33,7 +33,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bromley': {
     intro:
-      'A sewer backup or root-clogged main line in a Bromley home? We camera the buried lateral, locate the break, and offer trenchless replacement across this small river village, often the same day. Call (513) 586-5107.',
+      'Bromley’s older riverside homes run clay tile and cast-iron laterals in soil the high water table keeps saturated, which works the joints loose, so sewer line repair here often means roots and groundwater. We camera the buried lateral, locate the break and offer trenchless replacement.',
     relevance: [
       'Bromley, KY (ZIP 41016) is a small Northern Kentucky river village next to Ludlow, with older homes sitting on low ground beside the Ohio River. The laterals under those older houses are largely clay tile and cast iron, and on low riverside lots the high water table keeps the surrounding soil saturated. Wet, shifting ground works the old joints loose and lets groundwater infiltrate, so the line carries more water than it should and backs up sooner.',
       'When the Ohio runs high in Bromley, that saturated ground is also the trigger for a backup, because a full city main and a compromised lateral leave nowhere for waste to go but back into the lowest drain. We camera the lateral to find exactly where it has cracked or separated, then line or pipe-burst the failed section so the repair holds without trenching a small riverside lot.',
@@ -49,7 +49,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-wright': {
     intro:
-      'Slow drains across the whole house or a sewage odor in a Fort Wright home? We camera the buried main lateral, pinpoint the failure, and replace it trenchless where the lot allows. Call (513) 586-5107.',
+      'On Fort Wright’s hilltop lots, mid-century clay and early-PVC sewer lines run a long downhill grade to the main, and solids collect at any sag. That sag is where most repairs start. We camera the buried main lateral, pinpoint the failure and replace it, trenchless where the lot allows.',
     relevance: [
       'Fort Wright, KY (ZIP 41011) is a hilltop Kenton County city above the river, with established neighborhoods of mid-century and newer homes. The clay and early-PVC laterals buried under mid-1900s houses here have reached the age where joints loosen and pipe sags, and on a hilltop lot the lateral runs a long downhill grade to the main where solids collect at any low spot. That settling is where the first backup tends to show up.',
       'The hillside terrain that defines Fort Wright also drives heavy water through the line in storms, and a cracked or root-filled lateral cannot keep up, so it backs up into the lowest basement drain. We camera the lateral to separate a simple clog from a collapsed section, then line or pipe-burst the bad run so an established hilltop yard stays largely undisturbed.',
@@ -65,7 +65,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-mitchell': {
     intro:
-      'A main-line backup or roots in the sewer at a Fort Mitchell home? We inspect the buried lateral by camera and replace failing clay and cast-iron lines, trenchless where the yard allows, along the Dixie Highway corridor. Call (513) 586-5107.',
+      'Fort Mitchell’s historic and mid-century homes along the Dixie Highway corridor run clay or cast-iron laterals with cracked joints, scaled iron and roots, which is what most sewer line repair here involves. We inspect the lateral by camera and replace failing lines, trenchless where the yard allows.',
     relevance: [
       'Fort Mitchell, KY (ZIP 41017) is an established Kenton County city along the Dixie Highway corridor, with a mix of historic and mid-century homes on settled streets. The older houses run on clay or cast-iron laterals that have spent decades underground, and the mid-century homes are not far behind, so cracked joints, scaled cast iron, and root intrusion are common across the city. Once a line is compromised it traps paper and grease until the house backs up at the lowest fixture.',
       'Those settled streets are lined with mature trees, and the roots track the moisture leaking from an old joint and fill the pipe, returning within months if the line is only cabled. We camera the lateral to map exactly where the breaks and roots are, then line or pipe-burst the bad section so we replace it without trenching an established Fort Mitchell front yard.',
@@ -81,7 +81,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'villa-hills': {
     intro:
-      'A sewer backup or sewage smell in a Villa Hills home? We camera the buried lateral, find the break or root mass, and offer trenchless replacement across this hilltop city, often the same day. Call (513) 586-5107.',
+      'Each hilltop lateral in Villa Hills runs a long downhill grade to the main, so sewer line repair here usually starts at a sag, and even newer lines have loosened joints where roots get in. We camera the buried lateral, find the break or root mass and offer trenchless replacement.',
     relevance: [
       'Villa Hills, KY (ZIP 41017) is a hilltop residential Kenton County city above the river, made up largely of mid-century and newer single-family homes. Even the newer laterals here are reaching the age where joints loosen and roots find a way in, and the hilltop setting means each line runs a long downhill grade to the main where solids settle at any sag. That low spot is where backups usually begin.',
       'The hillside grade also pushes heavy stormwater through the system, and a lateral that has cracked or filled with roots cannot keep up, so it backs up into the basement. We camera the line to pinpoint the failure rather than guess, then line or pipe-burst the bad section so we replace it without trenching the established lawns these hilltop Villa Hills homes are known for.',
@@ -97,7 +97,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lakeside-park': {
     intro:
-      'Recurring sewer backups in a Lakeside Park home, or roots in the main line? We inspect the buried lateral by camera and replace failing lines trenchless where the lot allows, across this small Kenton County city. Call (513) 586-5107.',
+      'Lakeside Park’s mid-century homes sit on clay and early-PVC laterals whose joints have loosened with shifting ground, letting roots in and groundwater out, so sewer line repair here usually means roots. We inspect the lateral by camera and replace failing lines, trenchless where the lot allows.',
     relevance: [
       'Lakeside Park, KY (ZIP 41017) is a small, settled Kenton County city made up largely of mid-century single-family homes on quiet streets. The clay and early-PVC laterals buried under mid-1900s houses here are now decades old, and as the ground shifts the joints between sections loosen and open gaps that let roots in and groundwater out. Once a section cracks it traps solids until the whole house backs up at the lowest drain.',
       'The quiet, established streets that make Lakeside Park what it is are also well shaded, and those mature trees send roots straight toward the moisture in an old lateral. A root mass in a clay line returns within months if it is only cabled, so we camera the lateral to find exactly where the roots and breaks are, then line or pipe-burst the bad section so the yard stays intact.',
@@ -113,7 +113,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'crescent-springs': {
     intro:
-      'A main-line backup or sewage odor in a Crescent Springs home? We camera the buried lateral, pinpoint the failure, and offer trenchless replacement across this suburban Kenton County city. Call (513) 586-5107.',
+      'Crescent Springs sewer lines under mid-century homes tend to fail at separated clay joints or sagging early-PVC sections, while newer homes here are old enough for roots to find a loosened joint. We camera the buried lateral, pinpoint the failure and offer trenchless replacement across this Kenton County city.',
     relevance: [
       'Crescent Springs, KY (ZIP 41017) is a suburban Kenton County city with established neighborhoods of mid-century and newer homes. The laterals under those mid-1900s houses are at the age where clay joints separate and early-PVC sections sag, and even the newer homes are old enough now for roots to find a loosened joint. That is where a slow drain quietly becomes a backup at the lowest fixture.',
       'Across these established Crescent Springs subdivisions the yards have filled in with mature landscaping, and the roots follow the moisture leaking from an aging lateral until they pack the pipe. We camera the line to separate a simple clog from a cracked or root-filled section, then line or pipe-burst the bad run so we replace it without trenching a settled suburban lawn.',
@@ -129,7 +129,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'crestview-hills': {
     intro:
-      'Slow drains across a Crestview Hills home or business, or a sewage smell? We camera the buried main lateral, find the break, and replace failing lines trenchless where the site allows. Call (513) 586-5107.',
+      'Crestview Hills sewer line repair covers homes with aging laterals where joints loosen and roots intrude, and commercial buildings whose heavier daily load builds grease where a pipe has sagged or cracked. We camera the buried main lateral, find the break and replace it, trenchless where the site allows.',
     relevance: [
       'Crestview Hills, KY (ZIP 41017) is a Kenton County city home to Thomas More University and the Crestview Hills mall, with residential neighborhoods alongside a busy commercial corridor. The laterals under its mid-century and newer homes have reached the age where joints loosen and roots intrude, and the commercial buildings along the corridor put far heavier daily load on their lines, so grease and solids build up where a pipe has sagged or cracked.',
       'In the residential neighborhoods the mature trees that shade the streets send roots toward the moisture in an old lateral, the same root intrusion we see across Kenton County. We camera the line to map where the breaks and roots sit, then line or pipe-burst the bad section so we replace it without trenching a finished yard or shutting down a Crestview Hills storefront for days.',
@@ -145,7 +145,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'edgewood': {
     intro:
-      'A sewer backup or roots in the main line at an Edgewood home? We inspect the buried lateral by camera and offer trenchless replacement across this residential Kenton County city, often the same day. Call (513) 586-5107.',
+      'Edgewood’s mid-century and newer homes near St. Elizabeth Healthcare sit on clay and early-PVC laterals whose joints have loosened as the ground settled, so sewer line repair here usually means roots. We inspect the buried lateral by camera and offer trenchless replacement, often the same day.',
     relevance: [
       'Edgewood, KY (ZIP 41017) is a residential Kenton County city, home to St. Elizabeth Healthcare, with established neighborhoods of mid-century and newer homes. The clay and early-PVC laterals buried under those mid-1900s houses are now decades old, and as the ground settles the joints loosen and open gaps that let roots in and let groundwater seep, which is how a slow drain becomes a full backup at the lowest fixture.',
       'Those established Edgewood neighborhoods have filled in with mature trees over the years, and the roots track the moisture leaking from an old joint until they pack the pipe solid. A root mass in a clay line returns within months if it is only cabled, so we camera the lateral to pinpoint the roots and breaks, then line or pipe-burst the bad section so we replace it without trenching a settled front yard.',
@@ -161,7 +161,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'taylor-mill': {
     intro:
-      'A main-line backup or sewage smell in a Taylor Mill home? We camera the buried lateral, find the break or root mass, and replace failing lines trenchless where the slope allows. Call (513) 586-5107.',
+      'Solids settle wherever an aging clay or early-PVC joint has dropped on Taylor Mill’s long downhill sewer lines from hilltop houses to the main. That sag is the usual repair. We camera the buried lateral, find the break or root mass and replace it trenchless where possible.',
     relevance: [
       'Taylor Mill, KY (ZIP 41015) is a hilltop residential Kenton County city south of Covington, made up largely of mid-century and newer single-family homes. The laterals here run a long downhill grade from each house to the main, and on that slope solids settle wherever an aging clay or early-PVC section has sagged at a joint. Mid-1900s lines are now decades old, so those sags and cracks are common.',
       'The hillside grade that shapes Taylor Mill also drives heavy stormwater through the system, and a lateral that has cracked or filled with roots cannot keep up, so it backs up into the lowest basement drain. We camera the line to separate a simple clog from a collapsed run, then line or pipe-burst the bad section so we replace it without trenching a steep hilltop yard.',
@@ -177,7 +177,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'elsmere': {
     intro:
-      'Recurring sewer backups or a sewage odor in an Elsmere home? We camera the buried lateral, pinpoint the failure, and offer trenchless replacement along the Dixie Highway corridor, often the same day. Call (513) 586-5107.',
+      'Elsmere’s older and mid-century homes along the Dixie Highway corridor run clay tile or cast-iron laterals with pulled-apart joints and scaled iron, so sewer line repair here usually means roots. We camera the buried lateral, pinpoint the failure and offer trenchless replacement, often the same day.',
     relevance: [
       'Elsmere, KY (ZIP 41018) is an established Kenton County city along the Dixie Highway corridor near Erlanger, with a mix of older and mid-century homes. The laterals under those houses are clay tile or cast iron, and after decades underground the clay joints have pulled apart and the cast iron has scaled and cracked. That gives roots an open path in and traps paper and grease until the house backs up at the lowest drain.',
       'The older, established streets of Elsmere have filled in with mature trees, and the roots follow the moisture leaking from an aging joint and pack the pipe, returning within months if the line is only cabled. We camera the lateral to map exactly where the breaks and roots are, then line or pipe-burst the bad run so we replace it without trenching the whole front yard.',
@@ -193,7 +193,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'independence': {
     intro:
-      'A sewer backup in an Independence home, whether in a new subdivision or the older core? We camera the buried lateral, find the break or roots, and offer trenchless replacement, often the same day. Call (513) 586-5107.',
+      'Independence sewer line repair splits in two: decades-old clay and cast-iron laterals with cracked joints and roots in the historic core, and PVC laterals settling in fill in the newer subdivisions. We camera the buried lateral, find the break or roots and offer trenchless replacement.',
     relevance: [
       'Independence, KY (ZIP 41051) is the Kenton County seat and one of the faster-growing cities in Northern Kentucky, with a historic core surrounded by newer subdivisions. The two halves of the city fail in different ways: in the historic core the clay and cast-iron laterals are decades old and prone to cracked joints and root intrusion, while in the newer subdivisions the PVC laterals were laid in fill that is still settling, and that settling shifts the pipe and opens the glued joints.',
       'A lateral that sags as the fill compacts in a fast-growing Independence subdivision develops a low spot where solids collect, which is how a newer home ends up with a backup years before anyone expects one. We camera the line to find exactly where it has sagged, separated, or filled with roots, then line or pipe-burst the bad section so we replace it without trenching a finished lawn.',
@@ -209,7 +209,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'dayton-ky': {
     intro:
-      'A sewer backup or roots in the main line at a Dayton, KY home? We camera the buried lateral, find the break, and offer trenchless replacement across this historic riverfront city, often the same day. Call (513) 586-5107.',
+      'Dayton, KY sewer line repairs usually involve clay tile and cast-iron laterals under century-old riverfront homes, with pulled joints and scaled iron, running close together on narrow lots. We camera the buried lateral, find the break and offer trenchless replacement, often the same day.',
     relevance: [
       'Dayton, KY (ZIP 41074) is a Northern Kentucky river city next to Bellevue, with tight streets of well-preserved late-1800s and early-1900s homes near the Ohio River. The laterals under houses that old are clay tile and cast iron, and a century underground has pulled the clay joints apart and scaled the cast iron until it cracks. On the narrow lots here those failing lines run close together, so a backup can be hard to trace without a camera.',
       'The riverfront location is the second factor in Dayton. When the Ohio runs high the water table climbs, the saturated ground works the old clay sections loose, and a full main leaves a compromised lateral nowhere to drain but back into the lowest fixture. We camera the line to pinpoint the failure, then line or pipe-burst the bad run so the tight, historic Dayton lots and their plantings stay largely undisturbed.',
@@ -225,7 +225,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'southgate': {
     intro:
-      'Recurring sewer backups or a sewage smell in a Southgate home? We inspect the buried lateral by camera and replace failing lines trenchless where the lot allows, across this Campbell County city near Newport. Call (513) 586-5107.',
+      'Southgate’s mid-century homes near Newport sit on clay and early-PVC laterals whose joints have loosened as the ground settled, letting roots in, so sewer line repair here usually follows recurring backups. We inspect the lateral by camera and replace failing lines, trenchless where the lot allows.',
     relevance: [
       'Southgate, KY (ZIP 41071) is a small Campbell County city between Newport and Fort Thomas, with established neighborhoods of mid-century homes. The clay and early-PVC laterals buried under those mid-1900s houses are now decades old, and as the ground settles the joints loosen and open gaps that let roots in and let groundwater seep, which is how a slow drain becomes a backup at the lowest fixture.',
       'The established streets of Southgate have filled in with mature trees over the decades, and the roots track the moisture leaking from an old joint until they pack the pipe solid. A root mass in a clay line returns within months if it is only cabled, so we camera the lateral to pinpoint the roots and breaks, then line or pipe-burst the bad section so we replace it without trenching a settled yard.',
@@ -241,7 +241,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'wilder': {
     intro:
-      'A main-line backup at a Wilder home or business, or a sewage odor? We camera the buried lateral, find the break, and offer trenchless replacement across this Campbell County city, often the same day. Call (513) 586-5107.',
+      'Wilder sewer line repair covers mid-century homes on clay or early-PVC laterals with cracked joints and roots, and commercial and industrial buildings whose heavier load builds grease where a pipe has sagged. We camera the buried lateral, find the break and offer trenchless replacement.',
     relevance: [
       'Wilder, KY (ZIP 41076) is a Campbell County city along the Licking River corridor, with a commercial and industrial base alongside residential neighborhoods. The mid-century homes here run on clay or early-PVC laterals now decades old and prone to cracked joints and root intrusion, while the commercial and industrial buildings put far heavier load on their lines, so grease and solids build where a pipe has sagged or cracked.',
       'Its position along the Licking River corridor means the low-lying ground stays damp, and a high water table works the old joints loose while feeding the roots that find them. We camera the line to separate a routine clog from a collapsed or root-filled section, then line or pipe-burst the bad run so we replace it without trenching a yard or shutting down a Wilder business for days.',
@@ -257,7 +257,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'highland-heights': {
     intro:
-      'A sewer backup at a Highland Heights home or rental near NKU? We camera the buried lateral, find the break or roots, and offer trenchless replacement, often the same day. Call (513) 586-5107.',
+      'Highland Heights sewer line repairs near NKU often involve rental lines that carry far more than a typical household, building up grease and wipes wherever an aging clay or early-PVC joint has cracked. We camera the buried lateral, find the break or roots and offer trenchless replacement.',
     relevance: [
       'Highland Heights, KY (ZIP 41076) is a Campbell County city home to Northern Kentucky University, with a mix of residential neighborhoods and student housing. The clay and early-PVC laterals under the mid-century homes are decades old and prone to cracked joints, and the densely used student rentals push far more through their lines than a typical household, so grease, paper, and wipes build up fast wherever a pipe has sagged or scaled.',
       'In a rental packed with tenants a hidden lateral problem turns into a full backup quickly because the line never gets a rest, and roots in an old clay joint return within months if the line is only cabled. We camera the lateral to find the actual break or root mass, then line or pipe-burst the bad section so we replace it without trenching the yard or taking a Highland Heights rental offline for days.',
@@ -273,7 +273,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cold-spring': {
     intro:
-      'A sewer backup in a Cold Spring home, in a newer subdivision or an older neighborhood? We camera the buried lateral, find the failure, and offer trenchless replacement along the US-27 corridor. Call (513) 586-5107.',
+      'Cold Spring sewer line repair depends on the neighborhood: decades-old clay and cast-iron laterals with cracked joints and roots in the older areas, and PVC settling in fill in the newer subdivisions along US-27. We camera the buried lateral, find the failure and offer trenchless replacement.',
     relevance: [
       'Cold Spring, KY (ZIP 41076) is a growing Campbell County city along the US-27 corridor, with a mix of established neighborhoods and newer subdivisions. The two age groups fail differently: in the older neighborhoods the clay and cast-iron laterals are decades old and prone to cracked joints and root intrusion, while in the newer subdivisions the PVC laterals were laid in fill that is still settling, and that settling shifts the pipe and opens the joints.',
       'A lateral that sags as the fill compacts in a newer Cold Spring subdivision develops a low spot where solids collect, which is how a newer home ends up with a backup sooner than expected. We camera the line to find exactly where it has sagged, separated, or filled with roots, then line or pipe-burst the bad section so we replace it without trenching a finished lawn.',
@@ -289,7 +289,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'alexandria': {
     intro:
-      'A sewer backup in an Alexandria home, or a failing septic line on a rural lot? We camera the buried lateral, find the break, and offer trenchless replacement across this Campbell County seat. Call (513) 586-5107.',
+      'Alexandria sewer line repair takes three forms: decades-old clay and cast iron in the historic core, PVC sagging in settling fill in the subdivisions, and long septic lines on semi-rural lots. We camera the buried lateral, find the break and offer trenchless replacement.',
     relevance: [
       'Alexandria, KY (ZIP 41001) is the Campbell County seat, a growing southern community with a historic core surrounded by newer subdivisions and some semi-rural homes. Each setting fails its own way: the historic core runs on decades-old clay and cast-iron laterals prone to cracked joints and roots, the newer subdivisions have PVC laterals sagging in fill that is still settling, and the semi-rural properties often carry long runs out to a septic system or a private connection.',
       'On those semi-rural Alexandria lots the line to a septic tank or a distant main is long, buried deep, and easy to misdiagnose without a camera, while in the subdivisions a settling-soil sag traps solids at the low spot. We camera the lateral to pinpoint the failure wherever it sits, then line or pipe-burst the bad run so we replace it without trenching a finished lawn or a long rural yard.',
@@ -305,7 +305,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'melbourne': {
     intro:
-      'A sewer backup or root-clogged main line in a Melbourne home? We camera the buried lateral, find the break, and offer trenchless replacement across this small river village, often the same day. Call (513) 586-5107.',
+      'Melbourne’s older riverside homes run clay tile and cast-iron laterals in soil kept saturated by the high water table, which loosens the joints and lets roots in, so sewer line repair here is common. We camera the buried lateral, find the break and offer trenchless replacement.',
     relevance: [
       'Melbourne, KY (ZIP 41059) is a small Campbell County village along the Ohio River east of Newport, with older homes sitting on low riverside ground. The laterals under those older houses are largely clay tile and cast iron, and on low riverside lots the high water table keeps the surrounding soil saturated. Wet, shifting ground works the old joints loose and lets groundwater infiltrate, so the line carries more water than it should and backs up sooner.',
       'When the Ohio runs high in Melbourne, that saturated ground is also the trigger, because a full city connection and a compromised lateral leave nowhere for waste to go but back into the lowest drain. We camera the lateral to find exactly where it has cracked or separated, then line or pipe-burst the failed section so the repair holds without trenching a small riverside lot.',
@@ -321,7 +321,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hebron': {
     intro:
-      'A sewer backup at a Hebron home, or a failing septic line on a rural lot? We camera the buried lateral, find the break, and offer trenchless replacement across this Boone County community near the airport. Call (513) 586-5107.',
+      'Hebron sewer line repair near the airport ranges from PVC laterals sagging in settling subdivision fill to long lines running out to septic systems on semi-rural lots. We camera the buried lateral, find the break and offer trenchless replacement across this Boone County community.',
     relevance: [
       'Hebron, KY (ZIP 41048) is a Boone County community near the Cincinnati/Northern Kentucky airport (CVG), with a mix of newer subdivisions and established semi-rural homes. The two settings fail differently: in the newer subdivisions the PVC laterals were laid in fill that is still settling, so the pipe sags and pulls at the glued joints, while the semi-rural properties often run a long line out to a septic system that needs a camera to diagnose.',
       'A lateral that sags as the fill compacts in a fast-growing Hebron subdivision develops a low spot where solids collect, which is how a newer home backs up sooner than anyone expects, while a buried septic line on a rural lot can break far from the house without an obvious sign. We camera the line to pinpoint the failure wherever it sits, then line or pipe-burst the bad run so we replace it without trenching a finished lawn or a long rural yard.',
@@ -337,7 +337,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'burlington': {
     intro:
-      'A sewer backup in a Burlington home, in a newer subdivision or the historic core? We camera the buried lateral, find the failure, and offer trenchless replacement across this Boone County seat. Call (513) 586-5107.',
+      'Burlington sewer line repairs split between the historic core, with decades-old clay and cast-iron laterals prone to cracked joints and roots, and newer subdivisions with PVC settling in fill. We camera the buried lateral, find the failure and offer trenchless replacement.',
     relevance: [
       'Burlington, KY (ZIP 41005) is the Boone County seat, with a historic core around the old courthouse surrounded by fast-growing newer subdivisions. The two halves of the city fail in different ways: the historic core runs on decades-old clay and cast-iron laterals prone to cracked joints and root intrusion, while the newer subdivisions have PVC laterals laid in fill that is still settling, which shifts the pipe and pulls at the joints.',
       'A lateral that sags as the fill compacts in a fast-growing Burlington subdivision develops a low spot where solids collect, and on rural lots near the historic core a long line to a septic system can fail far from the house. We camera the line to find exactly where it has sagged, separated, or root-filled, then line or pipe-burst the bad section so we replace it without trenching a finished lawn.',
@@ -353,7 +353,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'union': {
     intro:
-      'A sewer backup in a Union home built since the 1990s? We camera the buried lateral, find the sag or break, and offer trenchless replacement across this fast-growing Boone County city. Call (513) 586-5107.',
+      'Even fairly new Union homes need sewer line repair, because their PVC laterals were laid in graded fill that is still compacting, so the pipe sags and the glued joints pull apart. We camera the buried lateral, find the sag or break and offer trenchless replacement.',
     relevance: [
       'Union, KY (ZIP 41091) is one of the fastest-growing cities in Boone County, made up largely of newer subdivisions built from the 1990s onward. Those PVC laterals are young by sewer standards, but they were laid in graded fill that is still compacting, and as the ground settles the pipe sags and the glued joints pull apart. That is why even a fairly new Union home can back up: the low spot in a sagged lateral collects solids until the line plugs.',
       'Settling soil under a newer subdivision also shifts a lateral out of its proper downhill grade, so waste sits in the line instead of draining, and the first sign is often a slow whole-house drain rather than a sudden break. We camera the line to find exactly where it has sagged or separated, then line or pipe-burst the bad section so we replace it without trenching the finished lawns these newer Union lots are known for.',
@@ -369,7 +369,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'walton': {
     intro:
-      'A sewer backup in a Walton home, or a failing septic line on a rural lot? We camera the buried lateral, find the break, and offer trenchless replacement across this southern Boone County town. Call (513) 586-5107.',
+      'Walton sewer line repair varies by setting: decades-old clay and cast iron in the historic core, PVC sagging in settling fill in the subdivisions, and long runs to septic on rural lots. We camera the buried lateral, find the break and offer trenchless replacement.',
     relevance: [
       'Walton, KY (ZIP 41094) is a small, growing town at the southern edge of the Boone County metro, with a historic core, newer subdivisions, and surrounding rural homes. Each setting fails its own way: the historic core runs on decades-old clay and cast-iron laterals prone to cracked joints and roots, the newer subdivisions have PVC laterals sagging in fill that is still settling, and the rural homes often carry long runs out to a septic system.',
       'On those rural Walton lots the line to a septic tank is long, buried deep, and easy to misdiagnose without a camera, while in the subdivisions a settling-soil sag traps solids at the low spot. We camera the lateral to pinpoint the failure wherever it sits, then line or pipe-burst the bad run so we replace it without trenching a finished lawn or a long rural yard.',
@@ -385,7 +385,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-carmel': {
     intro:
-      'Recurring sewer backups or a sewage smell in a Mount Carmel home? We inspect the buried lateral by camera and replace failing lines trenchless where the lot allows, across this Union Township community. Call (513) 586-5107.',
+      'Mount Carmel’s mid-century and newer homes near I-275 sit on clay and early-PVC laterals whose joints have loosened as the ground settled, so sewer line repair here usually follows recurring backups. We inspect the lateral by camera and replace failing lines, trenchless where the lot allows.',
     relevance: [
       'Mount Carmel, OH (ZIP 45244) is a Union Township community on the east side near the I-275 corridor, with established neighborhoods of mid-century and newer homes. The clay and early-PVC laterals buried under those mid-1900s houses are now decades old, and as the ground settles the joints loosen and open gaps that let roots in and groundwater seep, which is how a slow drain becomes a backup at the lowest fixture.',
       'Those established Mount Carmel neighborhoods have filled in with mature trees, and the roots track the moisture leaking from an old joint until they pack the pipe solid. A root mass in a clay line returns within months if it is only cabled, so we camera the lateral to pinpoint the roots and breaks, then line or pipe-burst the bad section so we replace it without trenching a settled front yard.',
@@ -401,7 +401,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'summerside': {
     intro:
-      'A main-line backup or sewage odor in a Summerside home? We camera the buried lateral, pinpoint the failure, and offer trenchless replacement across this Union Township community. Call (513) 586-5107.',
+      'Mid-century laterals with separated clay joints or sagging early-PVC sections drive most Summerside sewer line repair, and newer homes see roots at loosened joints. We camera the buried lateral, pinpoint the failure and offer trenchless replacement in this Union Township community in western Clermont County.',
     relevance: [
       'Summerside, OH (ZIP 45245) is a Union Township community in western Clermont County, with suburban neighborhoods of mid-century and newer homes. The laterals under those mid-1900s houses are at the age where clay joints separate and early-PVC sections sag, and even the newer homes are old enough now for roots to find a loosened joint. That is where a slow drain quietly becomes a backup at the lowest fixture.',
       'Across these suburban Summerside neighborhoods the yards have filled in with mature landscaping, and the roots follow the moisture leaking from an aging lateral until they pack the pipe. We camera the line to separate a simple clog from a cracked or root-filled section, then line or pipe-burst the bad run so we replace it without trenching a settled suburban lawn.',
@@ -417,7 +417,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'withamsville': {
     intro:
-      'Slow drains across a Withamsville home or business, or a sewage smell? We camera the buried main lateral, find the break, and replace failing lines trenchless where the site allows, along Ohio Pike. Call (513) 586-5107.',
+      'Withamsville sewer line repair along Ohio Pike covers homes with aging laterals where roots intrude and commercial strips whose heavier daily load builds grease where a pipe has sagged or cracked. We camera the buried main lateral, find the break and replace it, trenchless where the site allows.',
     relevance: [
       'Withamsville, OH (ZIP 45245) is a Union Township community along the Ohio Pike corridor in western Clermont County, with a mix of suburban homes and commercial strips. The laterals under its mid-century and newer homes have reached the age where joints loosen and roots intrude, while the commercial strips along Ohio Pike put far heavier daily load on their lines, so grease and solids build up where a pipe has sagged or cracked.',
       'In the residential neighborhoods the mature trees that shade the streets send roots toward the moisture in an old lateral, the same root intrusion common across western Clermont County. We camera the line to map where the breaks and roots sit, then line or pipe-burst the bad section so we replace it without trenching a finished yard or closing a Withamsville storefront for days.',
@@ -433,7 +433,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'milford': {
     intro:
-      'A sewer backup or roots in the main line at a Milford home? We camera the buried lateral, find the break, and offer trenchless replacement across this historic city on the Little Miami River, often the same day. Call (513) 586-5107.',
+      'Milford’s century-old buildings and homes near the Little Miami run clay tile and cast-iron laterals with pulled joints and cracked iron, so sewer line repair here usually means roots and trapped solids. We camera the buried lateral, find the break and offer trenchless replacement, often the same day.',
     relevance: [
       'Milford, OH (ZIP 45150) is a historic city straddling the Little Miami River, with a preserved old Main Street district of 19th-century buildings and surrounding older homes. The laterals under those century-old buildings and homes are clay tile and cast iron, and decades underground have pulled the clay joints apart and cracked the scaled cast iron, giving roots an open path in and trapping solids until the line backs up at the lowest drain.',
       'The low ground near the Little Miami is the second factor in Milford. When the river runs high the water table climbs, the saturated ground works the old clay sections loose, and a backed-up main leaves a compromised lateral nowhere to drain but into the lowest fixture. We camera the line to pinpoint the failure, then line or pipe-burst the bad run so the historic Main Street buildings and older Milford yards stay largely undisturbed.',

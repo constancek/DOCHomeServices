@@ -1,7 +1,7 @@
 export const part2: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'madeira': {
     intro:
-      'Wobbling fan over the bed, or a bedroom in your Madeira home that never had one? We install and replace ceiling fans across this east-side city, mounting them on fan-rated boxes and wiring them safely to switches or remotes. Call (513) 586-5107.',
+      'Light-only boxes are the main issue for ceiling fan installation in Madeira. Bedrooms in these 1950s and 1960s homes usually got a single box meant for a light fixture, which leads to wobble. We swap it for a fan-rated box anchored to the framing and wire the switch or remote.',
     relevance: [
       'Madeira (ZIP 45243) is an established east-side city built largely of mid-century single-family homes on quiet, tree-lined streets. A bedroom wired in the 1950s or 60s usually got a single ceiling box meant to carry a light fixture and nothing heavier, so hanging a fan from it without a fan-rated brace is how you end up with a wobble, a rattle, or worse.',
       'We swap that light-only box for a fan-rated box anchored to the framing, then wire the fan so the wall switch and any pull chain or remote behave the way you expect. A lot of Madeira owners are adding a fan to a room that never had overhead wiring at all, and we run that the right way. Madeira sits well within our east-side service area.',
@@ -17,7 +17,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'wyoming': {
     intro:
-      'Adding fans to a grand old Wyoming home, or replacing a dated one in a high-ceilinged room? We install ceiling fans across this historic suburb, mounting them on fan-rated boxes and sizing down rods for tall ceilings. Call (513) 586-5107.',
+      'Tall plaster ceilings define ceiling fan installation in Wyoming. The grand Victorian and early-1900s homes here have original boxes nailed up for gas or early electric fixtures, so we mount a fan-rated box, keep medallions and trim intact and fit a down rod long enough for the ceiling.',
     relevance: [
       'Wyoming (ZIP 45215) is a historic, affluent suburb north of the city, known for its grand Victorian and early-1900s homes on established, tree-shaded streets. Those houses were built with tall ceilings and plaster, and the original ceiling boxes were nailed up for gas or early electric light fixtures, never for the load and motion of a fan.',
       'In a home like that we mount a fan-rated box that can actually carry the weight, work carefully around old plaster so the medallion and trim stay intact, and fit a down rod long enough to bring the blades to a useful height under a tall ceiling. Replacing a noisy, decades-old fan with a balanced one is some of the most common work we do in Wyoming, and it sits well within our northern service area.',
@@ -33,7 +33,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mariemont': {
     intro:
-      'Updating a fan in a 1920s Mariemont home, or adding one where none existed? We install and replace ceiling fans across this historic village, mounting them on fan-rated boxes and wiring them with care for the architecture. Call (513) 586-5107.',
+      'Mariemont’s 1920s and 1930s homes were wired before ceiling fans were common, so installation here starts with replacing light-only boxes. We fit fan-rated mounts anchored to the framing, wire each fan to a switch or remote and use the right down rod where a Tudor ceiling slopes.',
     relevance: [
       'Mariemont (ZIP 45227) is a planned garden community laid out in the 1920s and now a National Historic Landmark, known for its Tudor Revival architecture and village square on the east side. Homes that date to the 1920s and 30s were wired before ceiling fans were common, so their original boxes were meant for a light fixture and little else.',
       'We replace those light-only boxes with fan-rated mounts anchored to the framing, then wire the fan to a switch or remote so it runs quietly and stays put. Where a room has a tall or sloped Tudor ceiling, we fit the right down rod and mounting hardware, and we make repairs that respect the village’s historic character. Mariemont is well within our east-side service area.',
@@ -49,7 +49,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cheviot': {
     intro:
-      'Replacing a wobbling fan or adding one to a bedroom in your Cheviot home? We install and replace ceiling fans across this west-side city, mounting them on fan-rated boxes and wiring them safely to switches or remotes. Call (513) 586-5107.',
+      'Hot upstairs bedrooms in two-families bring in much of our ceiling fan installation in Cheviot. The early-1900s homes along Harrison Avenue were wired for light fixtures on plaster ceilings, and those boxes cannot carry a fan, so we fit fan-rated mounts fastened to the framing.',
     relevance: [
       'Cheviot (ZIP 45211) is a small, densely built city on the west side, completely surrounded by Cincinnati, with a grid of early-1900s homes and brick two-families along Harrison Avenue. Houses that old were wired for light fixtures on plaster ceilings, and the original ceiling boxes were never rated to carry the weight or motion of a fan.',
       'We replace those boxes with fan-rated mounts fastened to the framing, then wire the fan to a switch or remote so it runs without a wobble or a hum. In Cheviot’s two-families, adding fans to upstairs bedrooms that get hot in summer is some of our most common work. Cheviot is a compact west-side city well within our service area.',
@@ -65,7 +65,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covedale': {
     intro:
-      'Adding ceiling fans to an older Covedale home, or replacing ones that have gotten noisy? We install fans across this west-side community, mounting them on fan-rated boxes and wiring them safely to switches or remotes. Call (513) 586-5107.',
+      'Covedale ceiling fan installation mostly falls into two jobs: replacing tired, rattling fans and adding fans to rooms that never had them. Early-1900s homes here were wired for lights, and many mid-century houses still have light-only bedroom boxes, which we swap for fan-rated mounts.',
     relevance: [
       'Covedale (ZIP 45238) is a settled west-side community on the edge of the city near Green Township, with neighborhoods of early-1900s through mid-century single-family homes. The older homes were wired for ceiling lights, not fans, and many of the mid-century houses still have light-only boxes in bedrooms that could use the air movement.',
       'We swap those boxes for fan-rated mounts secured to the framing, then wire the fan so the switch, pull chains, and any remote work the way they should. Replacing a tired, rattling fan with a balanced one and adding fans to rooms that never had them are the two jobs we do most here. Covedale is well within our west-side service area.',
@@ -81,7 +81,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covington': {
     intro:
-      'Hanging a fan in a historic Covington, KY rowhouse, or replacing one that has gotten noisy? We install and replace ceiling fans across the city, mounting them on fan-rated boxes and wiring them with care for old plaster and trim. Call (513) 586-5107.',
+      'A historic Covington rowhouse needs a ceiling fan mounted with care. The 19th-century homes of MainStrasse Village and Licking Riverside have tall plaster ceilings and original boxes meant for gas or early light fixtures. We fit a fan-rated box, keep medallions and trim intact and add a down rod.',
     relevance: [
       'Covington, KY (ZIP 41011) sits directly across the Ohio River from downtown Cincinnati, with historic districts like MainStrasse Village and Licking Riverside full of 19th-century rowhouses and brick homes. Those century-old houses have tall plaster ceilings and original boxes meant for gas or early light fixtures, none of them built to carry a fan.',
       'We mount a fan-rated box anchored to the framing, work around the old plaster so medallions and trim stay intact, and fit a down rod that brings the blades down to a useful height under a high ceiling. Covington is a core part of our Northern Kentucky service area, just across the river from downtown.',
@@ -97,7 +97,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newport': {
     intro:
-      'Adding fans to a Victorian East Row home in Newport, KY, or replacing a dated one? We install and replace ceiling fans across the city, mounting them on fan-rated boxes and wiring them with care for the historic details. Call (513) 586-5107.',
+      'East Row Victorians set the terms for ceiling fan installation in Newport. The 19th-century homes in one of the largest Victorian historic districts in Kentucky have tall ceilings and original boxes never meant for a fan, so we fit fan-rated mounts and long down rods without disturbing plaster and trim.',
     relevance: [
       'Newport, KY (ZIP 41071) is a Northern Kentucky river city across from downtown Cincinnati, home to the East Row Historic District — one of the largest Victorian historic districts in the state — along with the Levee riverfront. The hundreds of 19th-century homes in the East Row have tall ceilings and original boxes that were never meant to hold a fan.',
       'We replace those light-only boxes with fan-rated mounts secured to the framing, fit a down rod long enough for a high Victorian ceiling, and wire the fan to a switch or remote without disturbing original plaster and trim. We work throughout the East Row and the rest of Newport, well within our Northern Kentucky service area.',
@@ -113,7 +113,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bellevue': {
     intro:
-      'Replacing a noisy fan or adding one to a bedroom in your Bellevue, KY home? We install ceiling fans across this river city, mounting them on fan-rated boxes and wiring them safely to switches or remotes. Call (513) 586-5107.',
+      'Warm upstairs bedrooms and old rattling fans make up most ceiling fan installation in Bellevue. The late-1800s homes on tight streets off Fairfield Avenue were wired for light fixtures on plaster ceilings, so we replace the original boxes with fan-rated mounts fastened to the framing.',
     relevance: [
       'Bellevue, KY (ZIP 41073) is a compact Northern Kentucky river city with a historic Fairfield Avenue business district and tight streets of well-preserved late-1800s homes. Those late-19th-century houses were wired for light fixtures on plaster ceilings, so the original boxes cannot carry the weight or motion of a fan.',
       'We replace those boxes with fan-rated mounts fastened to the framing, then wire the fan to a switch or remote so it runs quietly and stays balanced. Adding a fan to a warm upstairs bedroom and replacing an old rattling one are the jobs we do most in these tight Bellevue streets. The city is a core part of our Northern Kentucky service area.',
@@ -129,7 +129,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-thomas': {
     intro:
-      'Adding fans to a stately Fort Thomas, KY home, or replacing dated ones in high-ceilinged rooms? We install ceiling fans across this historic city, mounting them on fan-rated boxes and sizing down rods for tall ceilings. Call (513) 586-5107.',
+      'Larger rooms in Fort Thomas need ceiling fans hung at the right height. The stately early-1900s homes above the river have tall ceilings and original boxes meant for light fixtures, so ceiling fan installation here means a fan-rated box, a long enough down rod and quiet wiring.',
     relevance: [
       'Fort Thomas, KY (ZIP 41075) is a historic Northern Kentucky city built around a former U.S. Army post, with stately early-1900s homes on tree-lined streets above the river. Those large, established houses tend to have tall ceilings and original boxes meant for light fixtures, not for the load of a moving fan.',
       'We mount a fan-rated box anchored to the framing, fit a down rod long enough to bring the blades to a useful height under a high ceiling, and wire the fan to a switch or remote so it runs quietly. Replacing dated fans and adding new ones in these larger rooms is steady work for us. Fort Thomas is well within our Northern Kentucky service area.',
@@ -145,7 +145,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'florence': {
     intro:
-      'Vaulted great room in your Florence, KY home, or a dated fan ready for replacement? We install and replace ceiling fans across this Boone County city, mounting them on fan-rated boxes and sizing down rods for high ceilings. Call (513) 586-5107.',
+      'Old boxes and tall ceilings are the two ceiling fan problems we see in Florence. Mid-century neighborhoods have light-only boxes never rated for a fan, which we replace with fan-rated mounts. Newer homes near the Florence Mall have vaulted great rooms that need a long down rod.',
     relevance: [
       'Florence, KY (ZIP 41042) is the largest city in Boone County and one of the fastest-growing in Northern Kentucky, with a wide mix of mid-century neighborhoods and newer subdivisions around the Florence Mall area. The newer homes often have vaulted great rooms and two-story foyers where a fan needs a long down rod and a sloped-ceiling mount.',
       'In the mid-century neighborhoods, the original light-only boxes were never rated to carry a fan, so we swap them out for fan-rated mounts. In the newer subdivisions we fit the right down rod and sloped adapter for a vaulted ceiling and wire the fan to a switch or remote. Florence is a key part of our Boone County service area.',
@@ -161,7 +161,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'erlanger': {
     intro:
-      'Replacing a worn fan or adding one to a bedroom in your Erlanger, KY home? We install ceiling fans across this Kenton County city, mounting them on fan-rated boxes and wiring them safely to switches or remotes. Call (513) 586-5107.',
+      'Erlanger’s mid-century houses were wired with light-only ceiling boxes, so ceiling fan installation here usually means fitting a fan-rated mount secured to the framing first. Swapping tired, noisy fans for balanced ones and adding fans to warm bedrooms are the jobs we do most in this Kenton County city.',
     relevance: [
       'Erlanger, KY (ZIP 41018) is an established Kenton County city near the airport, with settled mid-century neighborhoods and a mix of older and newer homes. The mid-century houses were wired with light-only ceiling boxes, never rated for the weight or motion of a fan.',
       'We replace those boxes with fan-rated mounts secured to the framing, then wire the fan so the switch and any remote work the way you expect. Swapping a tired, noisy fan for a balanced one and adding fans to warm bedrooms are the jobs we do most here. Erlanger is well within our Northern Kentucky service area.',
@@ -177,7 +177,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mason': {
     intro:
-      'Two-story foyer or vaulted family room in your Mason home that needs a fan? We install and replace ceiling fans across this Warren County city, sizing down rods and sloped mounts for high ceilings. Call (513) 586-5107.',
+      'Two-story foyers and vaulted great rooms make ceiling fan installation in Mason a height problem. Homes built from the 1990s on near Kings Island need a long down rod and a sloped-ceiling adapter on a fan-rated box. In the older town center, we swap original light-only boxes for fan-rated ones.',
     relevance: [
       'Mason (ZIP 45040) is a fast-growing Warren County city north of Cincinnati, near Kings Island, with large subdivisions of homes built mostly from the 1990s onward alongside an older town center. Those newer homes are full of vaulted great rooms, two-story foyers, and tall master bedrooms where a fan needs a long down rod and a sloped-ceiling adapter to hang level.',
       'We fit the right down rod and angled mount on a fan-rated box so the fan sits at a useful height and runs without a wobble, and we wire it to a switch or remote. In the older town center, original light-only boxes get swapped for fan-rated ones. Mason is part of our northern service area.',
@@ -193,7 +193,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-chester': {
     intro:
-      'Vaulted ceiling in your West Chester home with a fan that wobbles or none at all? We install and replace ceiling fans across this Butler County community, sizing down rods and sloped mounts for high ceilings. Call (513) 586-5107.',
+      'West Chester ceiling fan installation often means replacing builder-grade fans that got loud after a couple of decades. Subdivisions along the I-75 corridor have vaulted family rooms and two-story entries, so we fit a long down rod and sloped adapter on a fan-rated box and balance the blades.',
     relevance: [
       'West Chester (ZIP 45069) is a large, fast-growing Butler County community between Cincinnati and Dayton, made up largely of subdivisions built from the 1990s onward along the I-75 corridor. Those homes commonly have vaulted family rooms and two-story entries where a fan has to be hung on a long down rod with a sloped-ceiling adapter.',
       'We mount the fan on a fan-rated box, fit the down rod to the ceiling height, and balance the blades so it runs without a wobble, then wire it to a switch or remote. Builder-grade fans that have gotten loud after a couple of decades are common here, and replacing them is steady work. West Chester is part of our northern service area along I-75.',
@@ -209,7 +209,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pendleton': {
     intro:
-      'Adding a fan to a converted loft in Pendleton, or replacing a dated one in a historic unit? We install ceiling fans across this arts district, mounting them on fan-rated boxes and wiring them with care for old buildings. Call (513) 586-5107.',
+      'Hanging a ceiling fan in one of Pendleton’s converted lofts means working with tall ceilings. The restored 19th-century Italianate buildings have boxes not meant to carry a fan, so we anchor a fan-rated box to the structure, fit a down rod and keep the work clean against exposed brick.',
     relevance: [
       'Pendleton (ZIP 45202) is a small, historic arts district tucked against the eastern edge of Over-the-Rhine, full of restored 19th-century Italianate buildings and converted lofts and condos. Those mid-1800s buildings have tall ceilings and original or retrofitted boxes that were not meant to carry a fan.',
       'We mount a fan-rated box anchored to the structure, fit a down rod sized to the high ceilings these lofts are known for, and wire the fan to a switch or remote. In a converted unit we take care that the work stays clean against exposed brick and original plaster. Pendleton sits right beside downtown and OTR, one of the fastest areas for us to reach.',
@@ -225,7 +225,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'queensgate': {
     intro:
-      'Need a fan installed in an office or shop in Queensgate? We install and replace ceiling fans across this commercial and industrial district, mounting them on fan-rated boxes and wiring them safely to switches or controls. Call (513) 586-5107.',
+      'Queensgate ceiling fan installation is mostly commercial. Shops and warehouses near the rail yards and Mill Creek have high open ceilings, and offices need a fan-rated mount and a down rod to bring the blades to a useful height. Each fan is wired to a switch or control.',
     relevance: [
       'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Fan work here often means high open ceilings in shops and warehouses, or office spaces where a fan needs a fan-rated mount and a down rod to reach a useful height.',
       'We anchor the fan to a fan-rated box, fit a down rod sized to the ceiling, and wire it to a switch or control so it runs safely in a working space. The buildings vary from older industrial stock to newer offices, and we handle the wiring either way. We cover Queensgate as part of our service area just west of downtown.',
@@ -241,7 +241,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cuf': {
     intro:
-      'Adding fans to a hot upstairs rental near UC, or replacing a wobbling one in a CUF home? We install ceiling fans across Clifton Heights, University Heights, and Fairview, mounting them on fan-rated boxes and wiring them safely. Call (513) 586-5107.',
+      'Warm third-floor bedrooms in subdivided rentals are where ceiling fan installation in CUF pays off. The 19th- and early-1900s houses near UC in Clifton Heights, University Heights and Fairview have tall plaster ceilings and light-only boxes, so we fit fan-rated mounts and a down rod.',
     relevance: [
       'CUF (ZIP 45219) covers Clifton Heights, University Heights, and Fairview — the dense hilltop neighborhoods packed against the University of Cincinnati, full of 19th- and early-1900s homes now largely converted to student rentals. Those older houses have tall plaster ceilings and original boxes meant for a light fixture, not a fan.',
       'We replace those light-only boxes with fan-rated mounts anchored to the framing, fit a down rod for the tall ceilings, and balance the fan so it runs quietly through a Cincinnati summer. Warm third-floor bedrooms in subdivided houses are exactly where a fan earns its keep, and adding them is common work here. We respond fast across Clifton Heights, University Heights, and Fairview.',
@@ -257,7 +257,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'camp-washington': {
     intro:
-      'Replacing a dated fan or adding one to an older Camp Washington home? We install ceiling fans across this Mill Creek valley neighborhood, mounting them on fan-rated boxes and wiring them safely to switches or remotes. Call (513) 586-5107.',
+      'Old worker housing in Camp Washington was wired for light fixtures on plaster ceilings, so ceiling fan installation here starts by replacing a box that cannot carry a fan. In these compact homes near the American Sign Museum, we add fans to warm bedrooms and replace old noisy ones.',
     relevance: [
       'Camp Washington (ZIP 45225) is a historic working neighborhood in the Mill Creek valley, known for its industry, the American Sign Museum, and a tight mix of old worker housing and factories. The older worker homes were wired for light fixtures on plaster ceilings, so their original boxes cannot carry the load of a fan.',
       'We swap those boxes for fan-rated mounts secured to the framing, then wire the fan to a switch or remote so it runs without a wobble or a hum. Adding a fan to a warm bedroom in these compact homes and replacing an old noisy one are the jobs we do most here. We cover Camp Washington as part of our service area in the Mill Creek valley.',
@@ -273,7 +273,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-fairmount': {
     intro:
-      'Adding fans to an older South Fairmount home, or replacing a wobbling one? We install ceiling fans across this Lick Run valley neighborhood, mounting them on fan-rated boxes and wiring them safely to switches or remotes. Call (513) 586-5107.',
+      'Original boxes in South Fairmount homes were never rated to hold a ceiling fan, so that is where the job starts. In older homes along Queen City Avenue in the Lick Run valley, we fit a fan-rated mount to the framing, then add bedroom fans or replace tired ones.',
     relevance: [
       'South Fairmount (ZIP 45205) sits in the Lick Run valley along Queen City Avenue on the west side — the area rebuilt around the Lick Run Greenway stormwater project after a long history of valley flooding. The neighborhood’s older homes were wired for ceiling lights on plaster, so the original boxes were never rated to hold a fan.',
       'We replace those light-only boxes with fan-rated mounts fastened to the framing, then wire the fan to a switch or remote so it runs quietly and stays balanced. Adding a fan to a warm bedroom and replacing a tired old one are the jobs we do most here. South Fairmount is well within our west-side service area along Queen City Avenue.',
@@ -289,7 +289,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-end': {
     intro:
-      'Covered porch on the river in the East End, or a dated fan inside ready for replacement? We install ceiling fans and weather-rated porch fans along Eastern Avenue, mounting them on fan-rated boxes and wiring them safely. Call (513) 586-5107.',
+      'Porches facing the river make outdoor fans a big part of ceiling fan installation in the East End. Historic cottages along Eastern Avenue often have covered porches that need damp- or wet-rated fans for humid evenings, and inside, we swap old light-only boxes for fan-rated mounts.',
     relevance: [
       'The East End (ZIP 45226) is a narrow riverfront neighborhood stretching east of downtown along Eastern Avenue, below Columbia Parkway, with historic river cottages and newer condos squeezed between the hillside and the Ohio River. Many of those cottages have covered porches facing the water, where only a damp- or wet-rated fan belongs.',
       'We install weather-rated fans on covered porches with a fan-rated box and proper wiring for the outdoor location, and inside we swap old light-only boxes in the cottages for fan-rated mounts. A porch fan also keeps air moving on humid river evenings. We cover the East End along Eastern Avenue as part of our east-side service area.',
@@ -305,7 +305,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-fairmount': {
     intro:
-      'Adding fans to an older North Fairmount home, or replacing a noisy one? We install ceiling fans across this west-side hillside neighborhood, mounting them on fan-rated boxes and wiring them safely to switches or remotes. Call (513) 586-5107.',
+      'North Fairmount ceiling fan installation usually starts above the plaster. The early-1900s homes on this hillside above the Mill Creek valley were wired for light fixtures, so their boxes cannot carry a fan’s weight or motion. We fit fan-rated mounts, add bedroom fans and replace rattling ones.',
     relevance: [
       'North Fairmount (ZIP 45225) is a west-side hillside neighborhood above the Mill Creek valley, with streets of older early-1900s homes. Houses that old were wired for light fixtures on plaster ceilings, so the original boxes were never rated to carry the weight or motion of a fan.',
       'We replace those boxes with fan-rated mounts secured to the framing, then wire the fan to a switch or remote so it runs without a wobble. Adding a fan to a warm bedroom in these hillside homes and replacing an old rattling one are the jobs we do most. North Fairmount is within our west-side service area.',
@@ -321,7 +321,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'evanston': {
     intro:
-      'Hot upstairs bedroom near Xavier, or a dated fan ready for replacement in your Evanston home? We install ceiling fans across this east-side neighborhood, mounting them on fan-rated boxes and wiring them safely to switches or remotes. Call (513) 586-5107.',
+      'Hot upstairs bedrooms near Xavier bring in much of our ceiling fan installation in Evanston. The early-1900s homes and apartment buildings here have plaster ceilings and original boxes meant for a light fixture, so we replace them with fan-rated mounts anchored to the framing.',
     relevance: [
       'Evanston (ZIP 45207) is an east-side neighborhood next to Xavier University, with streets of early-1900s homes and apartment buildings, some now student housing. Those older homes have plaster ceilings and original boxes meant for a light fixture, never built to hold a fan.',
       'We replace those light-only boxes with fan-rated mounts anchored to the framing, then wire the fan to a switch or remote so it runs quietly. Adding fans to warm upstairs bedrooms in the houses near Xavier and replacing old noisy ones are the jobs we do most here. Evanston is centrally located on the east side and quick for us to reach.',
@@ -337,7 +337,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-cumminsville': {
     intro:
-      'Adding fans to an older South Cumminsville home, or replacing a wobbling one? We install ceiling fans across this Mill Creek valley neighborhood, mounting them on fan-rated boxes and wiring them safely to switches or remotes. Call (513) 586-5107.',
+      'Replacing an old rattling ceiling fan in South Cumminsville usually means replacing the box behind it too. The older homes among the industrial corridors of this Mill Creek valley neighborhood were wired for ceiling lights on plaster, so we fit a fan-rated mount on the framing.',
     relevance: [
       'South Cumminsville (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, with older homes set among industrial corridors. Those older houses were wired for ceiling lights on plaster, so the original boxes were never rated to carry a fan.',
       'We replace those light-only boxes with fan-rated mounts fastened to the framing, then wire the fan to a switch or remote so it runs balanced and quiet. Adding a fan to a warm bedroom and swapping out an old rattling one are the jobs we do most here. South Cumminsville is within our service area in the Mill Creek valley.',
@@ -353,7 +353,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'english-woods': {
     intro:
-      'Adding fans to an older English Woods home, or replacing a dated one? We install ceiling fans across this west-side hilltop neighborhood, mounting them on fan-rated boxes and wiring them safely to switches or remotes. Call (513) 586-5107.',
+      'English Woods ceiling fan installation depends on the house. Older homes on this hilltop above the Mill Creek valley have light-only boxes that cannot carry a fan, while redeveloped homes are good candidates for adding fans where none existed. Either way, the fan goes on a fan-rated box.',
     relevance: [
       'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here were wired for light fixtures on plaster ceilings, so their original boxes cannot carry a fan, while redeveloped homes are good candidates for adding fans where none existed.',
       'We mount a fan-rated box anchored to the framing, then wire the fan to a switch or remote so it runs without a wobble. Adding a fan to a warm bedroom and replacing a tired old one are the jobs we do most here. English Woods is within our west-side service area.',
@@ -369,7 +369,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-avondale': {
     intro:
-      'Adding fans to a grand North Avondale home, or replacing dated ones under tall ceilings? We install ceiling fans across this leafy neighborhood, mounting them on fan-rated boxes and sizing down rods for high ceilings. Call (513) 586-5107.',
+      'Large rooms with tall ceilings keep ceiling fan installation steady in North Avondale. The grand early-1900s homes near Rockdale Avenue have original plaster boxes meant for light fixtures, so we anchor a fan-rated box, fit a down rod long enough for the ceiling and work around old plaster and trim.',
     relevance: [
       'North Avondale (ZIP 45229) is a historic, leafy neighborhood known for its grand early-1900s homes on large, tree-shaded lots near Rockdale Avenue. Those big, century-old houses have tall ceilings and original plaster boxes meant for light fixtures, never built to carry a fan.',
       'We mount a fan-rated box anchored to the framing, fit a down rod long enough to bring the blades to a useful height under a high ceiling, and work carefully around old plaster and trim. Replacing dated fans and adding new ones in these large rooms is steady work for us. North Avondale is centrally located and quick for us to reach.',
@@ -385,7 +385,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'millvale': {
     intro:
-      'Adding fans to an older Millvale home, or replacing a noisy one? We install ceiling fans across this Mill Creek valley neighborhood, mounting them on fan-rated boxes and wiring them safely to switches or remotes. Call (513) 586-5107.',
+      'Compact homes in Millvale were wired for ceiling lights, not ceiling fans. In this small Mill Creek valley neighborhood, we replace those light-only plaster boxes with fan-rated mounts secured to the framing, then add fans to warm bedrooms or swap out old rattling ones.',
     relevance: [
       'Millvale (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, a compact, largely residential community. The older homes here were wired for ceiling lights on plaster, so the original boxes were never rated to hold the weight or motion of a fan.',
       'We replace those light-only boxes with fan-rated mounts secured to the framing, then wire the fan to a switch or remote so it runs balanced and quiet. Adding a fan to a warm bedroom and replacing an old rattling one are the jobs we do most here. Millvale is within our service area in the Mill Creek valley.',
@@ -401,7 +401,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'paddock-hills': {
     intro:
-      'Replacing a dated fan or adding one to a bedroom in your Paddock Hills home? We install ceiling fans across this north-side pocket near Paddock Road, mounting them on fan-rated boxes and wiring them safely to switches or remotes. Call (513) 586-5107.',
+      'Paddock Hills homes from the early and mid-1900s got light-only boxes that cannot support a ceiling fan’s weight or motion. Near Paddock Road and the Norwood Lateral, we fit a fan-rated mount to the framing, then add bedroom fans or replace tired ones with balanced models.',
     relevance: [
       'Paddock Hills (ZIP 45229) is a small, well-kept north-side residential pocket near Paddock Road and the Norwood Lateral, with streets of early- and mid-1900s homes. Homes of that era were given light-only ceiling boxes that were never rated for the weight or motion of a fan.',
       'We replace those boxes with fan-rated mounts fastened to the framing, then wire the fan to a switch or remote so it runs without a wobble. Adding a fan to a warm bedroom and replacing a tired old one are the jobs we do most here. Paddock Hills is centrally located near Paddock Road and quick for us to reach.',
@@ -417,7 +417,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'spring-grove-village': {
     intro:
-      'Adding fans to an older Spring Grove Village home, or replacing a noisy one? We install ceiling fans across this Mill Creek valley neighborhood, mounting them on fan-rated boxes and wiring them safely to switches or remotes. Call (513) 586-5107.',
+      'For ceiling fan installation in Spring Grove Village, the old plaster ceiling box is the first thing we change. Older homes near Spring Grove Cemetery were wired for lights, not fans, so we fit a fan-rated mount on the framing and wire the fan to a switch or remote.',
     relevance: [
       'Spring Grove Village (ZIP 45232) sits in the Mill Creek valley around the historic Spring Grove Cemetery and Arboretum, one of the largest cemeteries in the country, with a mix of older homes and industry. The older homes were wired for ceiling lights on plaster, so the original boxes were never rated to hold a fan.',
       'We replace those light-only boxes with fan-rated mounts secured to the framing, then wire the fan to a switch or remote so it runs balanced and quiet. Adding a fan to a warm bedroom and swapping out an old rattling one are the jobs we do most here. Spring Grove Village is within our service area in the Mill Creek valley.',
@@ -433,7 +433,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'linwood': {
     intro:
-      'Covered porch near the river in Linwood, or a dated fan inside ready for replacement? We install ceiling fans and weather-rated porch fans across this east-side neighborhood, mounting them on fan-rated boxes and wiring them safely. Call (513) 586-5107.',
+      'Covered porches near the river bottoms keep weather-rated ceiling fans in demand in Linwood. Homes along Eastern Avenue near Lunken Airport need damp- or wet-rated fans outside for humid summer evenings, and inside the older houses, light-only boxes get replaced with fan-rated mounts braced to the framing.',
     relevance: [
       'Linwood (ZIP 45226) is one of Cincinnati’s smaller east-side neighborhoods, set along Eastern Avenue near Lunken Airport and the river bottoms. Homes near the river bottoms often have covered porches facing the air, where only a damp- or wet-rated fan belongs, and the older houses inside have light-only boxes never rated for a fan.',
       'We install weather-rated fans on covered porches with a fan-rated box and proper wiring for the outdoor spot, and inside we swap old boxes for fan-rated mounts and wire the fan to a switch or remote. A porch fan also keeps air moving on humid summer evenings near the river. Linwood is within our east-side service area near Lunken.',
@@ -449,7 +449,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bond-hill': {
     intro:
-      'Replacing a dated fan or adding one to a bedroom in your Bond Hill home? We install ceiling fans across this north-side neighborhood along Reading Road, mounting them on fan-rated boxes and wiring them safely to switches or remotes. Call (513) 586-5107.',
+      'Warm bedrooms and tired fans account for most ceiling fan installation in Bond Hill. The early-1900s and mid-century homes along Reading Road were given light-only ceiling boxes never rated for a fan, so we replace them with fan-rated mounts secured to the framing.',
     relevance: [
       'Bond Hill (ZIP 45237) is a north-side neighborhood along Reading Road, with established streets of early-1900s and mid-century single-family homes. Houses of that age were given light-only ceiling boxes that were never rated for the weight or motion of a fan.',
       'We replace those boxes with fan-rated mounts secured to the framing, then wire the fan to a switch or remote so it runs without a wobble or a hum. Adding a fan to a warm bedroom and replacing a tired old one are the jobs we do most here. Bond Hill is well within our north-side service area along Reading Road.',
