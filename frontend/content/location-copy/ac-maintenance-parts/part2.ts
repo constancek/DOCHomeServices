@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Queensgate is mostly commercial, so AC maintenance there means rooftop and packaged units running long hours. Dust, soot and grit from the rail yards settle into the condenser coils, and a pre-season tune-up cleans them and checks the charge and electrical parts to keep operating costs down.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. The cooling here is mostly commercial rooftop and packaged units, and those systems run long hours that make a documented annual tune-up essential to keeping them efficient.',
-      'Sitting in the Mill Creek valley beside the rail yards, Queensgate’s air carries dust, soot, and industrial grit that settle straight into rooftop condenser coils. A coil caked with that grime can’t shed heat, so the unit runs longer and the energy cost climbs on a building that already cools a lot of square footage. A pre-season tune-up cleans the coils, checks the charge and electrical parts, and keeps a commercial system efficient through the cooling months.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the tune-up signs we see most often come from rooftop units fouled by valley dust and grit:',
-    localFaqs: [
-      {
-        q: 'Do you maintain commercial AC units in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and the valley dust near the rail yards loads rooftop coils fast. A pre-season tune-up cleans those coils and checks the charge to keep a commercial system running efficiently.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'AC maintenance in CUF is mostly hard-used retrofitted systems in student rentals across Clifton Heights, University Heights and Fairview. Condensers squeezed into side yards collect dust, and tenants rarely change filters, so a spring tune-up clears the coils, swaps the filter and checks the charge.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'Does the Mill Creek valley setting in South Cumminsville affect AC maintenance?',
         a: 'Yes. The industrial dust and valley humidity load condenser coils and make systems run long, so an annual spring tune-up to clean the fins and filter keeps an older home’s cooling efficient.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'On the English Woods hilltop, AC maintenance mostly covers aging retrofitted systems in older homes that catch strong afternoon sun. Leaf and grass debris makes a condenser run hotter on top of that, so a spring tune-up clears the coil, swaps a clogged filter and checks the charge.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. Cooling in the older homes here is retrofitted, and a yearly cleaning and inspection keeps that aging equipment efficient on an exposed hilltop.',
-      'Sitting up on the hilltop above the valley, English Woods homes catch strong afternoon sun and open exposure, which raises the cooling load on a hot day. A condenser loaded with leaf and grass debris runs hotter still and drives up the bill. A spring tune-up clears the coil, checks the charge, and swaps a clogged filter so an older system carries the hilltop sun load efficiently through summer.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the tune-up signs we see most often come from systems carrying an exposed hilltop sun load:',
-    localFaqs: [
-      {
-        q: 'When is the best time for an AC tune-up in English Woods?',
-        a: 'Spring is ideal. English Woods’ exposed hilltop homes take strong afternoon sun, so a tune-up in April or May that cleans the coil and checks the charge keeps an older system efficient before the heat.',
       },
     ],
   },

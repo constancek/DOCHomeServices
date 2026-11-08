@@ -9,6 +9,7 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'ac-maintenance',
   serviceName: 'AC Maintenance',
+  emergencyHeading: 'AC Problems That Can’t Wait in {neighborhood}',
   eyebrow: 'Air Conditioning',
   hubLabel: 'AC Maintenance',
   parentCrumb: { label: 'Air Conditioning', href: '/services/air-conditioning' },
@@ -76,6 +77,14 @@ const config: ServiceLocationConfig = {
     { q: 'Can AC maintenance improve indoor air quality?', a: 'Yes. Maintenance includes checking airflow and air filters, which can help reduce dust buildup and improve indoor air quality.' },
     { q: 'Is AC maintenance required to keep my warranty valid?', a: 'Many manufacturers require regular professional maintenance to maintain warranty coverage. An annual tune-up helps document proper system care.' },
   ],
+  steps: {
+    heading: 'What to Expect From AC Maintenance in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Check It First', text: 'Coils, refrigerant, wiring and the drain line.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A flat rate, before any work starts.' },
+      { icon: 'snowflake', title: 'Cleaned and Tested', text: 'Coils cleaned, then a full cooling cycle run.' },
+    ],
+  },
   related: [
     { label: 'AC Maintenance (overview)', href: '/services/ac-maintenance' },
     { label: 'AC Repair', href: '/services/ac-repair' },
