@@ -46,7 +46,6 @@ export const servicePages: ServicePage[] = [
   { slug: 'ac-repair', title: 'AC Repair', category: 'Cooling', parentSlug: 'air-conditioning', blurb: 'Same-day cooling repair on every major brand.', heroImage: '/services/ac-repair-hero.webp' },
   { slug: 'ac-installation-replacement', title: 'AC Installation & Replacement', category: 'Cooling', parentSlug: 'air-conditioning', blurb: 'Properly sized AC systems with financing and upfront pricing.', heroImage: '/services/ac-install-hero.webp' },
   { slug: 'ac-maintenance', title: 'AC Maintenance', category: 'Cooling', parentSlug: 'air-conditioning', blurb: 'A 21-point tune-up that catches problems before summer.', heroImage: '/services/ac-maint-hero.webp' },
-  { slug: 'mini-splits', title: 'Mini-Splits', category: 'Cooling', parentSlug: 'air-conditioning', blurb: 'Ductless comfort for additions, garages, and tricky rooms.', heroImage: '/services/minisplit-hero.webp' },
   { slug: 'air-filters', title: 'Air Filters', category: 'Cooling', parentSlug: 'air-conditioning', blurb: 'Quality AC filters that protect your system and your air.' },
 
   // ── Electrical ──
@@ -154,7 +153,6 @@ export const serviceMenu: { category: string; href: string; items: { label: stri
       { label: 'AC Repair', href: '/services/ac-repair' },
       { label: 'AC Installation & Replacement', href: '/services/ac-installation-replacement' },
       { label: 'AC Maintenance', href: '/services/ac-maintenance' },
-      { label: 'Mini-Splits', href: '/services/mini-splits' },
       { label: 'Mini-Split Installation', href: '/services/mini-split-installation' },
       { label: 'Mini-Split Repair', href: '/services/mini-split-repair' },
       { label: 'Indoor Air Quality', href: '/services/indoor-air-quality' },

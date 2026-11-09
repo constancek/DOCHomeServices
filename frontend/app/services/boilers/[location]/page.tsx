@@ -54,7 +54,7 @@ const config: ServiceLocationConfig = {
     { slug: 'furnace-repair', title: 'Furnace Repair' },
     { slug: 'furnace-maintenance', title: 'Furnace Maintenance' },
     { slug: 'gas-line-repair-replacement', title: 'Gas Line Repair & Replacement' },
-    { slug: 'mini-splits', title: 'Ductless Mini-Splits' },
+    { slug: 'mini-split-installation', title: 'Mini-Split Installation' },
   ],
   band1Image: '/services/boilers.webp',
   band1Heading: 'Signs Your {neighborhood} Boiler Needs Service',
@@ -104,7 +104,7 @@ const config: ServiceLocationConfig = {
     { label: 'Furnace Repair', href: '/services/furnace-repair' },
     { label: 'Furnace Maintenance', href: '/services/furnace-maintenance' },
     { label: 'Gas Line Repair & Replacement', href: '/services/gas-line-repair-replacement' },
-    { label: 'Ductless Mini-Splits', href: '/services/mini-splits' },
+    { label: 'Mini-Split Installation', href: '/services/mini-split-installation' },
   ],
 };
 

@@ -84,7 +84,6 @@ const HVAC_SLUGS = new Set([
   'ac-installation-replacement',
   'ac-maintenance',
   'air-filters',
-  'mini-splits',
   'mini-split-installation',
   'mini-split-repair',
 ]);

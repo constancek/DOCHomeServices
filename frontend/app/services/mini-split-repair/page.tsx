@@ -74,8 +74,7 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
     { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
     { '@type': 'ListItem', position: 3, name: 'Air Conditioning', item: `${site.url}/services/air-conditioning/` },
-    { '@type': 'ListItem', position: 4, name: 'Mini-Splits', item: `${site.url}/services/mini-splits/` },
-    { '@type': 'ListItem', position: 5, name: 'Mini-Split Repair', item: `${site.url}/services/mini-split-repair/` },
+    { '@type': 'ListItem', position: 4, name: 'Mini-Split Repair', item: `${site.url}/services/mini-split-repair/` },
   ],
 };
 const faqSchema = {
@@ -99,7 +98,6 @@ export default function MiniSplitRepairPage() {
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
           { label: 'Air Conditioning', href: '/services/air-conditioning' },
-          { label: 'Mini-Splits', href: '/services/mini-splits' },
           { label: 'Mini-Split Repair' },
         ]}
       />

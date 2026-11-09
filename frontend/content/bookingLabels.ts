@@ -6,7 +6,6 @@ export const bookingLabels: Record<string, string> = {
   'ac-repair': 'AC Repair',
   'ac-installation-replacement': 'AC Installation',
   'ac-maintenance': 'AC Maintenance',
-  'mini-splits': 'Mini-Split Service',
   'mini-split-installation': 'Mini-Split Installation',
   'mini-split-repair': 'Mini-Split Repair',
   heating: 'Heating Service',

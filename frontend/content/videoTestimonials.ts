@@ -139,7 +139,7 @@ const ELECTRICAL_SERVICES = new Set([
 const HVAC_SERVICES = new Set([
   'air-conditioning', 'heating', 'ac-installation-replacement', 'ac-maintenance', 'ac-repair', 'boilers',
   'furnace-installation-replacement', 'furnace-maintenance', 'furnace-repair', 'heat-pumps',
-  'indoor-air-quality', 'mini-split-installation', 'mini-split-repair', 'mini-splits',
+  'indoor-air-quality', 'mini-split-installation', 'mini-split-repair',
 ]);
 
 export function videoForService(slug: string): VideoTestimonial {

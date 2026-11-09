@@ -39,7 +39,7 @@ const config: ServiceLocationConfig = {
   relatedCards: [
     { slug: 'furnace-installation-replacement', title: 'Furnace Installation & Replacement' },
     { slug: 'ac-installation-replacement', title: 'AC Installation & Replacement' },
-    { slug: 'mini-splits', title: 'Ductless Mini-Splits' },
+    { slug: 'mini-split-installation', title: 'Mini-Split Installation' },
     { slug: 'indoor-air-quality', title: 'Indoor Air Quality' },
   ],
   band1Image: '/services/ac-repair.webp',
@@ -89,7 +89,7 @@ const config: ServiceLocationConfig = {
     { label: 'Heat Pumps (overview)', href: '/services/heat-pumps' },
     { label: 'Furnace Installation & Replacement', href: '/services/furnace-installation-replacement' },
     { label: 'AC Installation & Replacement', href: '/services/ac-installation-replacement' },
-    { label: 'Ductless Mini-Splits', href: '/services/mini-splits' },
+    { label: 'Mini-Split Installation', href: '/services/mini-split-installation' },
     { label: 'Indoor Air Quality', href: '/services/indoor-air-quality' },
   ],
 };

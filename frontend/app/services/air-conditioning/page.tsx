@@ -23,7 +23,7 @@ const serviceLines = [
   { label: 'AC repair for sudden breakdowns or performance issues', href: '/services/ac-repair' },
   { label: 'Air conditioning installation and replacement for aging systems', href: '/services/ac-installation-replacement' },
   { label: 'AC tune-ups and maintenance to support efficiency and reliability', href: '/services/ac-maintenance' },
-  { label: 'Ductless mini-split services for targeted cooling (and heating)', href: '/services/mini-splits' },
+  { label: 'Ductless mini-split services for targeted cooling (and heating)', href: '/services/mini-split-installation' },
 ];
 
 const problems = [
@@ -307,7 +307,7 @@ export default function AirConditioningPage() {
           <h2 className="mt-12 section-title text-brand-700">Ductless Mini-Split Cooling & Heating</h2>
           <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Not every home suits traditional central air.{' '}
-            <Link href="/services/mini-splits" className="font-semibold text-pink-600 underline hover:text-pink-700">
+            <Link href="/services/mini-split-installation" className="font-semibold text-pink-600 underline hover:text-pink-700">
               Ductless mini-split systems
             </Link>{' '}
             offer flexible cooling and heating where ductwork is limited or comfort is uneven. They are

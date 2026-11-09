@@ -39,7 +39,6 @@ export const OG_SERVICE_SLUGS = new Set<string>([
   'lighting-fixture-installation',
   'mini-split-installation',
   'mini-split-repair',
-  'mini-splits',
   'mold-prevention-remediation',
   'outdoor-lighting',
   'patio-lighting',

@@ -41,7 +41,7 @@ const config: ServiceLocationConfig = {
   relatedCards: [
     { slug: 'ac-repair', title: 'AC Repair' },
     { slug: 'ac-maintenance', title: 'AC Maintenance' },
-    { slug: 'mini-splits', title: 'Ductless Mini-Splits' },
+    { slug: 'mini-split-installation', title: 'Mini-Split Installation' },
     { slug: 'heat-pumps', title: 'Heat Pumps' },
   ],
   band1Image: '/services/ac-repair.webp',
@@ -89,7 +89,7 @@ const config: ServiceLocationConfig = {
     { label: 'AC Installation & Replacement (overview)', href: '/services/ac-installation-replacement' },
     { label: 'AC Repair', href: '/services/ac-repair' },
     { label: 'AC Maintenance', href: '/services/ac-maintenance' },
-    { label: 'Ductless Mini-Splits', href: '/services/mini-splits' },
+    { label: 'Mini-Split Installation', href: '/services/mini-split-installation' },
     { label: 'Heat Pumps', href: '/services/heat-pumps' },
   ],
 };

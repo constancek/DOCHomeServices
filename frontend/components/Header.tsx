@@ -32,6 +32,16 @@ export default function Header() {
     setOpenSub(null);
     setOpenSub2(null);
   }
+  // Focus moving inside an open menu (pressing the mouse on a flyout link
+  // focuses it) must not close the flyouts, or the link vanishes before the
+  // click lands. Only a different menu resets them.
+  function focusTop(label: string) {
+    cancelClose();
+    if (openMenu === label) return;
+    setOpenMenu(label);
+    setOpenSub(null);
+    setOpenSub2(null);
+  }
   function hoverChild(label: string | null) {
     cancelClose();
     setOpenSub(label);
@@ -117,7 +127,7 @@ export default function Header() {
                   className="relative"
                   onMouseEnter={() => openTop(item.label)}
                   onMouseLeave={scheduleClose}
-                  onFocus={() => openTop(item.label)}
+                  onFocus={() => focusTop(item.label)}
                   onBlur={scheduleClose}
                 >
                   <Link

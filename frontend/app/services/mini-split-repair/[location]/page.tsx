@@ -11,7 +11,7 @@ const config: ServiceLocationConfig = {
   serviceName: 'Mini-Split Repair',
   eyebrow: 'Air Conditioning · Mini-Splits',
   hubLabel: 'Mini-Split Repair',
-  parentCrumb: { label: 'Mini-Splits', href: '/services/mini-splits' },
+  parentCrumb: { label: 'Air Conditioning', href: '/services/air-conditioning' },
   businessType: 'HVACBusiness',
   schemaServiceType: 'Mini-Split Repair',
   ctaLine: 'Mini-split not working in {neighborhood}? Call for same-day service',
@@ -37,7 +37,7 @@ const config: ServiceLocationConfig = {
     },
   ],
   relatedCards: [
-    { slug: 'mini-splits', title: 'Mini-Splits (overview)' },
+    { slug: 'ac-maintenance', title: 'AC Maintenance' },
     { slug: 'mini-split-installation', title: 'Mini-Split Installation' },
     { slug: 'ac-repair', title: 'AC Repair' },
     { slug: 'heat-pumps', title: 'Heat Pumps' },
@@ -79,7 +79,6 @@ const config: ServiceLocationConfig = {
   ],
   related: [
     { label: 'Mini-Split Repair (overview)', href: '/services/mini-split-repair' },
-    { label: 'Mini-Splits', href: '/services/mini-splits' },
     { label: 'Mini-Split Installation', href: '/services/mini-split-installation' },
     { label: 'AC Repair', href: '/services/ac-repair' },
     { label: 'Heat Pumps', href: '/services/heat-pumps' },

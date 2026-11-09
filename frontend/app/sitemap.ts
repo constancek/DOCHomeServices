@@ -24,7 +24,6 @@ import { waterHeaterInstallationCopy } from '@/content/location-copy/water-heate
 import { waterHeaterMaintenanceCopy } from '@/content/location-copy/water-heater-maintenance';
 import { tanklessCopy } from '@/content/location-copy/tankless-water-heater';
 import { waterQualityCopy } from '@/content/location-copy/water-quality';
-import { miniSplitsCopy } from '@/content/location-copy/mini-splits';
 import { miniSplitInstallationCopy } from '@/content/location-copy/mini-split-installation';
 import { miniSplitRepairCopy } from '@/content/location-copy/mini-split-repair';
 import { indoorAirQualityCopy } from '@/content/location-copy/indoor-air-quality';
@@ -264,14 +263,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((l) => waterQualityCopy[l.slug])
     .map((l) => ({
       url: `${base}/services/water-quality/${l.slug}/`,
-      changeFrequency: 'monthly' as const,
-      priority: 0.6,
-    }));
-
-  const miniSplitsLocationRoutes = locations
-    .filter((l) => miniSplitsCopy[l.slug])
-    .map((l) => ({
-      url: `${base}/services/mini-splits/${l.slug}/`,
       changeFrequency: 'monthly' as const,
       priority: 0.6,
     }));
@@ -593,7 +584,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  const routes: MetadataRoute.Sitemap = [...staticRoutes, ...serviceRoutes, ...subServiceRoutes, ...companyRoutes, ...locationRoutes, ...acRepairLocationRoutes, ...furnaceRepairLocationRoutes, ...waterHeaterRepairLocationRoutes, ...drainCleaningLocationRoutes, ...acInstallationLocationRoutes, ...heatPumpsLocationRoutes, ...boilersLocationRoutes, ...leakRepairLocationRoutes, ...sewerRepairLocationRoutes, ...furnaceInstallationLocationRoutes, ...acMaintenanceLocationRoutes, ...furnaceMaintenanceLocationRoutes, ...plumbingRepairLocationRoutes, ...plumbingInstallationLocationRoutes, ...faucetLocationRoutes, ...sumpPumpsLocationRoutes, ...waterHeaterInstallationLocationRoutes, ...waterHeaterMaintenanceLocationRoutes, ...tanklessLocationRoutes, ...waterQualityLocationRoutes, ...miniSplitsLocationRoutes, ...miniSplitInstallationLocationRoutes, ...miniSplitRepairLocationRoutes, ...indoorAirQualityLocationRoutes, ...panelReplacementLocationRoutes, ...switchesOutletsLocationRoutes, ...mastRepairLocationRoutes, ...evChargersLocationRoutes, ...ceilingFanLocationRoutes, ...exhaustFanLocationRoutes, ...surgeProtectorLocationRoutes, ...homeRewiringLocationRoutes, ...electricalInspectionsLocationRoutes, ...hotTubWiringLocationRoutes, ...outdoorLightingLocationRoutes, ...indoorLightingLocationRoutes, ...landscapeLightingLocationRoutes, ...patioLightingLocationRoutes, ...holidayLightingLocationRoutes, ...recessedLightingLocationRoutes, ...ledLightingLocationRoutes, ...garageLightingLocationRoutes, ...basementLightingLocationRoutes, ...lightingFixtureLocationRoutes, ...leakDetectionLocationRoutes, ...garbageDisposalsLocationRoutes, ...gasLineLocationRoutes, ...pipeRepairLocationRoutes, ...wholeHouseRepipingLocationRoutes, ...waterDamageRestorationLocationRoutes, ...afterFloodPlumbingLocationRoutes, ...sewerBackupRepairLocationRoutes, ...basementFloodPlumbingLocationRoutes, ...emergencyWaterExtractionLocationRoutes, ...structuralDryingLocationRoutes, ...moldPreventionRemediationLocationRoutes, ...stormElectricityOutageLocationRoutes, ...electricityDisconnectionLocationRoutes, ...gasServiceDisconnectionLocationRoutes, ...successStoryRoutes, ...postRoutes];
+  const routes: MetadataRoute.Sitemap = [...staticRoutes, ...serviceRoutes, ...subServiceRoutes, ...companyRoutes, ...locationRoutes, ...acRepairLocationRoutes, ...furnaceRepairLocationRoutes, ...waterHeaterRepairLocationRoutes, ...drainCleaningLocationRoutes, ...acInstallationLocationRoutes, ...heatPumpsLocationRoutes, ...boilersLocationRoutes, ...leakRepairLocationRoutes, ...sewerRepairLocationRoutes, ...furnaceInstallationLocationRoutes, ...acMaintenanceLocationRoutes, ...furnaceMaintenanceLocationRoutes, ...plumbingRepairLocationRoutes, ...plumbingInstallationLocationRoutes, ...faucetLocationRoutes, ...sumpPumpsLocationRoutes, ...waterHeaterInstallationLocationRoutes, ...waterHeaterMaintenanceLocationRoutes, ...tanklessLocationRoutes, ...waterQualityLocationRoutes, ...miniSplitInstallationLocationRoutes, ...miniSplitRepairLocationRoutes, ...indoorAirQualityLocationRoutes, ...panelReplacementLocationRoutes, ...switchesOutletsLocationRoutes, ...mastRepairLocationRoutes, ...evChargersLocationRoutes, ...ceilingFanLocationRoutes, ...exhaustFanLocationRoutes, ...surgeProtectorLocationRoutes, ...homeRewiringLocationRoutes, ...electricalInspectionsLocationRoutes, ...hotTubWiringLocationRoutes, ...outdoorLightingLocationRoutes, ...indoorLightingLocationRoutes, ...landscapeLightingLocationRoutes, ...patioLightingLocationRoutes, ...holidayLightingLocationRoutes, ...recessedLightingLocationRoutes, ...ledLightingLocationRoutes, ...garageLightingLocationRoutes, ...basementLightingLocationRoutes, ...lightingFixtureLocationRoutes, ...leakDetectionLocationRoutes, ...garbageDisposalsLocationRoutes, ...gasLineLocationRoutes, ...pipeRepairLocationRoutes, ...wholeHouseRepipingLocationRoutes, ...waterDamageRestorationLocationRoutes, ...afterFloodPlumbingLocationRoutes, ...sewerBackupRepairLocationRoutes, ...basementFloodPlumbingLocationRoutes, ...emergencyWaterExtractionLocationRoutes, ...structuralDryingLocationRoutes, ...moldPreventionRemediationLocationRoutes, ...stormElectricityOutageLocationRoutes, ...electricityDisconnectionLocationRoutes, ...gasServiceDisconnectionLocationRoutes, ...successStoryRoutes, ...postRoutes];
 
   return routes.map((r) => ({ ...r, lastModified: r.lastModified ?? PAGES_LAST_UPDATED }));
 }
