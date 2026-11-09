@@ -239,22 +239,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'AC replacement in Queensgate is mostly commercial work in the older warehouses, offices and light-industrial buildings near the rail yards. Equipment here is often undersized or worn from hard use, and a system at the 15-year mark usually costs more to keep running than to replace.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. The cooling equipment in these older structures is frequently undersized or worn from years of hard use, and a system at the 15-year mark usually costs more to keep running than to replace.',
-      'Many of these buildings still run on R-22 rooftop and split units, where a refrigerant leak makes repair as costly as replacement. We size new equipment to the building’s actual load — large open warehouse space and partitioned offices cool very differently — and an estimate is where we measure that out before recommending a system.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the replace decision usually comes down to worn equipment on an obsolete refrigerant that costs more to run each year.',
-    localFaqs: [
-      {
-        q: 'Do you replace cooling systems in Queensgate commercial buildings?',
-        a: 'Yes. We size and install new energy-efficient cooling for warehouses, offices, and light-industrial space, matched to the building’s actual load. We will assess it and provide an estimate.',
-      },
-    ],
-  },
   'camp-washington': {
     intro:
       'Camp Washington’s old worker homes were built without central air, so a new AC installation there means retrofitting ducts into compact framing or installing ductless units room by room. This Mill Creek valley neighborhood near the American Sign Museum mixes those homes with factories.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'Can you add central air to an older home in South Cumminsville?',
         a: 'Yes. We retrofit ducts or install ductless mini-splits depending on the home, and we place the outdoor unit with the valley’s low grade in mind. We will assess it and provide an estimate.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'English Woods AC installation mostly involves older homes on the hilltop over the Mill Creek valley that were built without central air. Cooling them means retrofitting ducts through existing framing or installing ductless units, with the condenser set to suit the hilltop grade.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here were built without central air, so cooling them means retrofitting ducts through existing framing or installing ductless units where ducts won’t fit.',
-      'On the hilltop grade, we set the condenser on stable, level footing and size the system to the actual home rather than reusing an old estimate. An estimate is where we measure the house and work out whether ducts or a ductless setup makes more sense.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the cooling decision usually turns on retrofitting ducts versus going ductless and setting the condenser firmly on the grade.',
-    localFaqs: [
-      {
-        q: 'My older English Woods home has no central air — what are my options?',
-        a: 'We either retrofit ductwork or install ductless mini-splits depending on the home, and we size either to the square footage. We will assess the house and give you an estimate.',
       },
     ],
   },

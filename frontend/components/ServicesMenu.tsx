@@ -6,8 +6,9 @@ import Icon from './Icon';
 import { serviceMenu } from '@/content/servicePages';
 
 export default function ServicesMenu() {
-  // Which category panels are open. Starts empty; an auto-fill pass then opens
-  // as many as needed so the sidebar roughly reaches the main column's height.
+  // Which category panels are open. Starts empty; on desktop an auto-fill pass
+  // then opens as many as needed so the sidebar roughly reaches the main
+  // column's height. On phones and tablets they all stay collapsed.
   const [openSet, setOpenSet] = useState<Set<number>>(() => new Set());
   const rootRef = useRef<HTMLDivElement>(null);
   // Once the visitor clicks a header we stop auto-managing, so it never fights them.
@@ -35,6 +36,9 @@ export default function ServicesMenu() {
   // once the visitor has interacted.
   useEffect(() => {
     if (userToggled.current || settled.current) return;
+    // Below lg the sidebar stacks under the main column instead of beside it,
+    // so there is no height to match: keep every category collapsed there.
+    if (!window.matchMedia('(min-width: 1024px)').matches) return;
     const root = rootRef.current;
     if (!root) return;
     const aside = root.closest('aside');

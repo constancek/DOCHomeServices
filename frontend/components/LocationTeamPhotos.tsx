@@ -7,7 +7,8 @@ import { site } from '@/content/site';
 // {neighborhood}" over three photos: the van, a tech greeting a homeowner, and
 // the team. On wider screens all three share one height and the van gets a
 // wider column (it is about 2.3:1, the others about 4:3), so every photo fills
-// its card with almost no cropping. On phones they stack at their own shapes.
+// its card with almost no cropping. On phones they stack, each card at 70%
+// of the column width, centered.
 // When the band scrolls into view the heading rises in word by word, then the
 // photos fade up one at a time.
 const PHOTOS = [
@@ -52,7 +53,7 @@ export default function LocationTeamPhotos({ neighborhood }: { neighborhood: str
                 <li
                   key={p.src}
                   style={{ transitionDelay: shown ? `${photosStart + i * PHOTO_STEP}ms` : '0ms' }}
-                  className={`relative bg-white p-4 shadow-[0_24px_45px_-14px_rgba(0,0,0,0.65)] transition-all duration-[1100ms] ease-[cubic-bezier(0.34,1.45,0.64,1)] sm:p-5 ${PRINT_TILT[i]} ${
+                  className={`relative mx-auto w-[70%] bg-white p-4 md:mx-0 md:w-auto shadow-[0_24px_45px_-14px_rgba(0,0,0,0.65)] transition-all duration-[1100ms] ease-[cubic-bezier(0.34,1.45,0.64,1)] sm:p-5 ${PRINT_TILT[i]} ${
                     shown ? 'translate-y-0 opacity-100' : 'translate-y-32 opacity-0'
                   }`}
                 >

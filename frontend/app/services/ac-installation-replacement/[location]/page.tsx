@@ -9,6 +9,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'ac-installation-replacement',
   serviceName: 'AC Installation & Replacement',
+  localHeadingName: 'AC Installation',
+  emergencyHeading: 'Same-Day AC Replacement in {neighborhood}',
   eyebrow: 'Air Conditioning',
   hubLabel: 'AC Installation & Replacement',
   parentCrumb: { label: 'Air Conditioning', href: '/services/air-conditioning' },
@@ -75,6 +77,14 @@ const config: ServiceLocationConfig = {
     { q: 'Are heat pumps a good option for my home?', a: 'Often, yes — a heat pump cools in summer and heats in winter efficiently, and it can pair with a furnace for the coldest days. We help you decide based on your home and goals.' },
     { q: 'Do you offer estimates for AC installation?', a: 'Yes. We provide estimates and clear recommendations so you understand your options before moving forward.' },
   ],
+  steps: {
+    heading: 'What to Expect From AC Installation in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Size It First', text: 'The cooling the house needs, ducts and the outdoor unit.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A flat rate, before any work starts.' },
+      { icon: 'snowflake', title: 'Cool Air On, Tested', text: 'Refrigerant charge, airflow and drain checked before we leave.' },
+    ],
+  },
   related: [
     { label: 'AC Installation & Replacement (overview)', href: '/services/ac-installation-replacement' },
     { label: 'AC Repair', href: '/services/ac-repair' },
