@@ -9,6 +9,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'mini-split-installation',
   serviceName: 'Mini-Split Installation',
+  localHeadingName: 'Mini-Split Installation',
+  emergencyHeading: 'Fast Mini-Split Installation in {neighborhood}',
   eyebrow: 'Air Conditioning · Mini-Splits',
   hubLabel: 'Mini-Split Installation',
   parentCrumb: { label: 'Air Conditioning', href: '/services/air-conditioning' },
@@ -77,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'What are the signs I need a new ductless mini-split system?', a: 'Rooms that no longer cool or heat evenly, weak airflow, rising energy bills, ongoing comfort issues, and an aging system that no longer meets your needs are all signs it may be time for a new system.' },
     { q: 'Are ductless mini-split systems quiet?', a: 'Very. The indoor heads run quietly — far quieter than a window unit — which makes them a great fit for bedrooms, offices, and living spaces.' },
   ],
+  steps: {
+    heading: 'What to Expect From Mini-Split Installation in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Size Each Room', text: 'Every indoor head and the outdoor unit, sized to the space.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A flat rate, before any work starts.' },
+      { icon: 'snowflake', title: 'Tested Before We Leave', text: 'Each head cooling and heating, the drain checked.' },
+    ],
+  },
   related: [
     { label: 'Mini-Split Installation (overview)', href: '/services/mini-split-installation' },
     { label: 'Mini-Split Repair', href: '/services/mini-split-repair' },

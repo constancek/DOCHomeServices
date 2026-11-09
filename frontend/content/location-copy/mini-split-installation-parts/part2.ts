@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Mini-split installation in Queensgate usually covers only the areas a business uses, like an office suite, break room or parts counter, since fully ducting big open buildings rarely pays off. A heat-pump system also heats in winter without a gas tie-in.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Big open structures like these are expensive to duct fully and often only need certain areas conditioned, such as an office suite, a break room, or a parts counter. A ductless mini-split adds heating and cooling to just those zones with wall or ceiling-cassette heads and a small line set.',
-      'In Queensgate’s mix of older commercial buildings, retrofitting full ductwork is rarely worth it, while a multi-zone mini-split lets one outdoor unit serve several rooms independently. A heat-pump system also handles winter heating without a gas tie-in, which suits a converted industrial space that was never set up for central HVAC. We map which zones actually need conditioning in the estimate.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, mini-split installs usually target the few areas that actually need conditioning:',
-    localFaqs: [
-      {
-        q: 'Can you install a mini-split in a Queensgate warehouse or office space?',
-        a: 'Yes. We install ductless mini-splits for commercial and light-industrial buildings, conditioning just the offices, break rooms, or work areas you use rather than the whole structure. We scope the zones in an estimate.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'In a subdivided CUF house, mini-split installation is done per room or apartment, since ducts rarely reach every unit near the University of Cincinnati. Each head is its own zone, controlled separately, which beats window units for an overheated upper unit or converted attic apartment.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'Can you add a mini-split to an older home in South Cumminsville without ducts?',
         a: 'Yes. A ductless mini-split adds heating and cooling with a head and a small line set, so an older South Cumminsville home does not need a full duct retrofit. We size it in an estimate.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'An English Woods mini-split installation on a hilltop lot stays tidy: the condenser goes on a level pad or bracket and the line set passes through one small penetration. Older homes heating on a furnace with no cooling get both, one zone at a time, without full ductwork.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here were built before central air and frequently lack ductwork for cooling, so an upstairs room or an addition runs hot in summer. A single-zone mini-split puts a head in that space and runs a small line set to a compact outdoor unit.',
-      'On English Woods’ hilltop lots, the install stays tidy with the condenser set on a level pad or bracket and the line set through one small penetration. For an older home heating on a furnace with no cooling, a heat-pump mini-split adds both efficiently, one zone at a time, and avoids the cost of running full ductwork through a home that was never designed for it. We size it in the estimate.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, mini-split installs usually target the rooms the original construction never ducted:',
-    localFaqs: [
-      {
-        q: 'Can you add cooling to an older English Woods home without ducts?',
-        a: 'Yes. A ductless mini-split adds cooling and heat room by room with a small line set, and we set the outdoor unit to fit the hilltop lots. We size it in an estimate.',
       },
     ],
   },
