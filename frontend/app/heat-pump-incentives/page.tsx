@@ -16,8 +16,8 @@ export const metadata: Metadata = withSocial({
 const benefits = [
   { icon: 'snowflake' as const, title: 'Versatile Heating & Cooling', text: 'One efficient system that both heats and cools your home all year.' },
   { icon: 'bolt' as const, title: 'Lower Energy Bills', text: 'Heat pumps move heat instead of burning fuel, using far less energy than older systems.' },
-  { icon: 'heart' as const, title: 'Smaller Carbon Footprint', text: 'High-efficiency electric heating means fewer emissions from your home.' },
-  { icon: 'star' as const, title: 'ENERGY STAR Certified', text: 'We install ENERGY STAR-rated equipment, which is what most incentives require.' },
+  { icon: 'leaf' as const, title: 'Smaller Carbon Footprint', text: 'High-efficiency electric heating means fewer emissions from your home.' },
+  { icon: 'certificate' as const, title: 'ENERGY STAR Certified', text: 'We install ENERGY STAR-rated equipment, which is what most incentives require.' },
 ];
 
 const accordionItems = [

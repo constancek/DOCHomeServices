@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Air quality in Queensgate is mostly a commercial question, with material-handling dust, equipment exhaust and offices inside older industrial shells with weak ventilation near the rail yards. We test the air in the actual space first, then recommend filtration, ventilation or dehumidification sized to how the building is used.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Air quality concerns here run more commercial than residential: dust from material handling, vehicle and equipment exhaust, and offices tucked inside older industrial shells with weak ventilation. We test the air in the actual space first, because a warehouse and a converted office have very different needs.',
-      'The low ground near the Mill Creek, prone to flooding, adds a dampness problem to older Queensgate buildings, where moisture in masonry and slab can raise humidity and feed mold in poorly ventilated corners. Commercial-grade filtration, mechanical ventilation, and dehumidification sized to the building handle these issues, and testing first keeps the solution matched to how a given space is actually used.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the air issues usually come from process dust, exhaust, weak ventilation, and low-ground dampness:',
-    localFaqs: [
-      {
-        q: 'Do you handle air quality in commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we test the air in the actual space first, then recommend filtration, ventilation, or dehumidification sized to how the building is used.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'In CUF, air quality in the subdivided rentals of Clifton Heights, University Heights and Fairview suffers from shared, aging ductwork and filters that rarely get changed on time with heavy turnover. We test the air, then size filtration and ventilation to a multi-unit house.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'My South Cumminsville home near industry feels damp and dusty — can you check it?',
         a: 'Yes. We test indoor air and humidity first to see what is present, then recommend a dehumidifier and filtration sized for an older home in the damp, industrial-edged Mill Creek valley.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'English Woods air quality varies by house. Older homes have aging ductwork that carries dust, and redeveloped properties can be built tight enough to trap air with little exchange. Our work on this hilltop over the Mill Creek valley starts with a test, then filtration, humidity control or ventilation.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. Older homes here run on aging ductwork that carries dust through the living space, while some redeveloped properties are built tight enough to trap air with little exchange. Testing the air first tells us which an individual English Woods home is dealing with before we recommend anything.',
-      'The hillside setting above the valley means heavy rain drains hard and basements and crawlspaces below older homes can stay damp, raising indoor humidity that feeds mold and dust mites. A whole-home dehumidifier steadies that, and for the tighter redeveloped homes, mechanical ventilation paired with a good air cleaner addresses air that does not turn over on its own.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the air issues usually come from aging ductwork, hillside dampness, and, in newer builds, tight construction:',
-    localFaqs: [
-      {
-        q: 'How fast can you assess the air in an English Woods home?',
-        a: 'English Woods is within our west-side service area. We can schedule an indoor air test promptly, then recommend filtration, humidity control, or ventilation matched to whether the home is older or recently redeveloped.',
       },
     ],
   },

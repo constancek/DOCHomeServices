@@ -9,6 +9,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'indoor-air-quality',
   serviceName: 'Indoor Air Quality',
+  localHeadingName: 'Indoor Air Quality',
+  emergencyHeading: 'Air Quality Problems That Can’t Wait in {neighborhood}',
   eyebrow: 'Heating & Cooling',
   hubLabel: 'Indoor Air Quality',
   parentCrumb: { label: 'Heating', href: '/services/heating' },
@@ -77,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'Can poor air quality affect my HVAC system?', a: 'Yes. A buildup of dust and debris strains your equipment, reduces efficiency, and leads to more breakdowns — so cleaner air helps your HVAC system last longer too.' },
     { q: 'How often should I replace air filters?', a: 'Monthly is ideal (as Energy Star recommends), and every three months at a minimum — more often with pets or during heavy heating and cooling seasons.' },
   ],
+  steps: {
+    heading: 'Whole-Home Air Filtration in {neighborhood}',
+    items: [
+      { icon: 'virusOff', title: 'Germs and Bacteria Removed', text: 'Eliminates airborne bacteria, germs and mold spores.' },
+      { icon: 'lungs', title: 'Easier Breathing', text: 'Better air for allergies and asthma, and no more pet dander.' },
+      { icon: 'wind', title: 'Fresher Rooms', text: 'Less dust, no lingering odors and steadier humidity in every room.' },
+    ],
+  },
   related: [
     { label: 'Indoor Air Quality (overview)', href: '/services/indoor-air-quality' },
     { label: 'Furnace Maintenance', href: '/services/furnace-maintenance' },

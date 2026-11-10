@@ -15,7 +15,7 @@ export const metadata: Metadata = withSocial({
 const values = [
   { icon: 'heart' as const, title: `Family Owned Since ${site.founded}`, text: 'Locally owned, with the same family values we started with.' },
   { icon: 'clock' as const, title: 'Same-Day Service', text: 'We staff for demand so most calls are handled the same day.' },
-  { icon: 'badge' as const, title: 'Upfront, Flat-Rate Pricing', text: 'You approve the price before any work begins.' },
+  { icon: 'tag' as const, title: 'Upfront, Flat-Rate Pricing', text: 'You approve the price before any work begins.' },
   { icon: 'shield' as const, title: 'Satisfaction Guaranteed', text: 'If you are not happy, we make it right.' },
 ];
 

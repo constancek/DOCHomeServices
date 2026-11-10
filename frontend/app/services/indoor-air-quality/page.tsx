@@ -18,9 +18,9 @@ export const metadata: Metadata = withSocial({
 });
 
 const concerns = [
-  { icon: 'shield' as const, title: 'Germs & Infectious Agents', text: 'Bacteria and viruses can sneak into your home and make you sick even when you take precautions. An air filtration system helps eliminate harmful germs like mold and viruses.' },
-  { icon: 'badge' as const, title: 'Chemical Gases & Odors', text: 'Fumes from chemical cleaners, building materials, or damaged gas lines can be dangerous to your health — especially in excessive amounts.' },
-  { icon: 'heart' as const, title: 'Dust Particles & Allergens', text: 'Dust and allergens make home life uncomfortable and are often why allergies and asthma feel worse indoors, especially for those with respiratory issues.' },
+  { title: 'Germs & Infectious Agents', text: 'Bacteria and viruses can sneak into your home and make you sick even when you take precautions. An air filtration system helps eliminate harmful germs like mold and viruses.' },
+  { title: 'Chemical Gases & Odors', text: 'Fumes from chemical cleaners, building materials, or damaged gas lines can be dangerous to your health — especially in excessive amounts.' },
+  { title: 'Dust Particles & Allergens', text: 'Dust and allergens make home life uncomfortable and are often why allergies and asthma feel worse indoors, especially for those with respiratory issues.' },
 ];
 
 const benefits = [
@@ -119,12 +119,11 @@ export default function IndoorAirQualityPage() {
           </p>
           <div className="mt-6 grid gap-4 sm:grid-cols-3">
             {concerns.map((c) => (
-              <div key={c.title} className="card text-center">
-                <span className="mx-auto grid h-12 w-12 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={c.icon} className="h-6 w-6" />
-                </span>
-                <h3 className="mt-3 font-display text-sm font-extrabold uppercase text-brand-700">{c.title}</h3>
-                <p className="mt-1.5 text-sm leading-relaxed text-ink/70">{c.text}</p>
+              <div key={c.title} className="flex flex-col overflow-hidden rounded-2xl bg-pink-500 text-center shadow-card">
+                <h3 className="flex min-h-[4.5rem] items-center justify-center bg-brand-700 px-4 py-4 font-display text-sm font-extrabold uppercase leading-snug text-white">
+                  {c.title}
+                </h3>
+                <p className="flex-1 px-5 py-5 text-sm leading-relaxed text-white">{c.text}</p>
               </div>
             ))}
           </div>
