@@ -4,7 +4,7 @@ export const delhiHills: LocationServiceCopy = {
   localParagraph:
     'Nearly every home in Delhi Hills is a detached house, most from the 1960s and 1970s with a Census median of 1971. Houses that age have ducts, so ductless usually solves one trouble spot, such as a walkout lower level on a hillside lot, a room over the garage or an addition. Heating splits almost evenly, 48.1% gas and 48.5% electric, which shapes how a wall unit fits beside the existing system. You get a flat figure before work, and we’ll tell you if ductless isn’t the fix.',
   emergencyParagraph:
-    'A west-facing addition or garage room turns stifling on the 21 or so days a year that top 90F (National Weather Service). Aging parents, babies and anyone ill are first to feel it. We move quickly, and one wall unit is typically a one-day install. A stalled ductless system needs Mini-Split Repair, same day on most calls, weekends included.',
+    'Westward additions and garage rooms turn stifling in Delhi Hills when it passes 90F, about 21 days annually per the National Weather Service. An aging parent, an infant or someone sick struggles there first. Installs get booked fast, and a lone wall unit takes a day. If a ductless system quits, Mini-Split Repair reaches most homes that day, weekends included.',
   commonIntro:
     'Across Delhi Hills, these trouble spots in 1960s and 1970s houses bring most of our ductless calls:',
   localFaqs: [
@@ -37,12 +37,12 @@ export const delhiHills: LocationServiceCopy = {
       },
       {
         title: 'Financing a Mini-Split in Delhi Hills',
-        body: 'A ductless system for your house in Delhi Hills can be financed. Approval comes with an instant credit decision, and paying off early carries no penalty. You accept the flat figure before work, so the financing matches the quote to the dollar. It handles a single lower-level wall unit as easily as a multi-zone system spread through the house, from the walkout to the bedrooms.',
+        body: 'Financing covers a ductless system for a house in Delhi Hills. The credit answer is instant, and you can pay the balance down early at no extra cost. You accept one flat figure before any work, and the financed amount is exactly that figure. A single lower-level wall unit qualifies, and so does a multi-zone layout that runs from the walkout up to the bedrooms.',
       },
     ],
     whyTitle: 'Why Homeowners in Delhi Hills Choose Us for Mini-Split Installation',
     whyParagraph:
-      'We’ve set outside units on sloping lots and run copper out of walkout basements all over Delhi Hills. Every technician is licensed, insured and has passed a background check and drug test, and we’ve been family owned since 1993.',
+      'Sloping lots and walkout basements across Delhi Hills are familiar ground for routing copper and setting outside units. Our technicians hold licenses and insurance and have cleared background checks and drug screens, and one family has run us since 1993.',
     sharedFaqs: [
       {
         q: 'How much does a ductless install cost in Delhi Hills?',

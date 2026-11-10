@@ -4,7 +4,7 @@ export const westEnd: LocationServiceCopy = {
   localParagraph:
     'The West End has Italianate rowhouses from the late 1800s, especially around Betts-Longworth, next to apartment blocks built from the 1960s on. Census figures put 38.4% of homes at 1939 or earlier, and those were built with no ductwork at all. A wall head cools them without cutting into old masonry or plaster. Renters occupy 87.1% of homes, which makes ductless the owner’s decision. Owners approve a fixed figure before we drill, and if ductless won’t serve the building, we tell them.',
   emergencyParagraph:
-    'Close to 21 days a year reach 90F or above (National Weather Service), and an attic-level rowhouse room keeps that heat until morning. Older tenants, babies and anyone with breathing trouble face the highest risk. With owner approval, one room takes a day. Units that quit go to Mini-Split Repair, which reaches most calls the same day, weekends too.',
+    'Top-floor rowhouse rooms in the West End hold heat until morning on the 21 or so days a summer above 90F (National Weather Service). Older tenants, babies and anyone with breathing trouble face the highest risk. With owner approval, one room takes a day. Units that quit go to Mini-Split Repair, which reaches most calls the same day, weekends too.',
   commonIntro:
     'From Italianate rows in Betts-Longworth to walk-ups near Linn Street, here’s why owners call us about ductless in the West End:',
   localFaqs: [
@@ -14,7 +14,7 @@ export const westEnd: LocationServiceCopy = {
     },
     {
       q: 'As a tenant in the West End, can I request a mini-split?',
-      a: 'Put the request to your landlord in writing and save a copy. Under Ohio’s ORC 5321.04, a landlord must keep any air conditioning it supplies in good and safe working order, but adding a new system is the owner’s choice. We install mini-splits, not leases, so the owner or manager books us.',
+      a: 'Write to the landlord and keep a copy for yourself. Ohio’s ORC 5321.04 holds an owner to good and safe working order for cooling that came with the unit, yet a brand new system stays the owner’s call. We install mini-splits, not leases, so the owner or manager books us.',
     },
     {
       q: 'Who inspects a ductless install in the West End?',
@@ -46,7 +46,7 @@ export const westEnd: LocationServiceCopy = {
     ],
     whyTitle: 'Why Landlords and Owners in the West End Choose Us for Mini-Split Installation',
     whyParagraph:
-      'We plan around tenants, historic street faces and thick old masonry, and we tell owners when a cheaper fix will do. Every installer is licensed, insured, background-checked and drug-tested, from a family company running since 1993.',
+      'We plan around tenants, historic street faces and thick old masonry, and we tell owners when a cheaper fix will do. Installers are licensed, insured, drug screened and background checked, and one family has owned the company since 1993.',
     sharedFaqs: [
       {
         q: 'What will an owner pay for ductless in the West End?',

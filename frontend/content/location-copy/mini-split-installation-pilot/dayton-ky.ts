@@ -4,7 +4,7 @@ export const daytonKy: LocationServiceCopy = {
   localParagraph:
     'Dayton’s housing splits in two. Census figures date 47.5% of homes to 1939 or earlier, and those older houses seldom have space to hide ductwork, so ductless cooling goes in without tearing into plaster. Another 18.2% were built in 2000 or after, and there the request is usually a finished basement or a third-floor room. Since 42.9% of homes are rented, an owner often makes the decision. Before any work you see one flat figure, and if ductless is the wrong answer, you’ll hear it.',
   emergencyParagraph:
-    'Second floors in older houses hold the heat past midnight, and 90F arrives on about 21 days a year in National Weather Service records. Infants, older relatives and anyone short of breath are at risk. One wall unit goes in quickly, usually within a day. A broken system needs Mini-Split Repair, same day on most calls, weekends included.',
+    'Upstairs rooms in older houses stay warm past midnight, and the National Weather Service counts about 21 days a year at 90F or more. Infants, aging relatives and anyone with breathing trouble feel it first. One wall unit goes in within a day. A broken system is a Mini-Split Repair call, reached same day in most cases, weekends included.',
   commonIntro:
     'From pre-war houses near Sixth Avenue to apartments and newer builds, these are the usual ductless requests we get in Dayton:',
   localFaqs: [
@@ -46,7 +46,7 @@ export const daytonKy: LocationServiceCopy = {
     ],
     whyTitle: 'Why Homeowners and Landlords in Dayton Choose Us for Mini-Split Installation',
     whyParagraph:
-      'Plaster-walled older houses and newer buildings across Dayton are both regular work for us. Technicians carry licenses and insurance and pass background checks and drug tests. One family has owned the company since 1993.',
+      'We work as often in plaster-walled pre-war houses in Dayton as in the newer buildings by the river. Our technicians are licensed and insured and pass background checks and drug screens, in a family business since 1993.',
     sharedFaqs: [
       {
         q: 'How much will a mini-split run me in Dayton?',

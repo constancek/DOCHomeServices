@@ -2,9 +2,9 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const sedamsville: LocationServiceCopy = {
   localParagraph:
-    'Sedamsville was settled in 1795, and its housing shows it: Census figures give a median of 1938, with 72.8% of homes built in 1939 or earlier, mostly modest worker cottages on the flats and up the slope. Houses like those went up without ducts, and plaster and tight attics make adding them a big job. A wall-mounted head brings cooling in without that. Renters occupy 65.1% of homes, so the owner usually decides. You’ll know the price before work, and we’ll say if a mini-split isn’t right.',
+    'People have lived in Sedamsville since 1795, and the houses are old to match, with a 1938 median by Census figures and 72.8% standing since 1939 or earlier, mostly modest worker cottages on the flats and up the slope. Houses like those went up without ducts, and plaster and tight attics make adding them a big job. A wall-mounted head brings cooling in without that. Renters occupy 65.1% of homes, so the owner usually decides. You’ll know the price before work, and we’ll say if a mini-split isn’t right.',
   emergencyParagraph:
-    'Normal July highs reach 86F, the National Weather Service reports, and a cottage bedroom in Sedamsville under an uncooled roof runs hotter still. Older relatives, babies and anyone ill carry the most risk. We get installs scheduled fast, and one head is usually a day’s work. Broken units go to Mini-Split Repair, same day on most calls, weekends too.',
+    'A cottage bedroom in Sedamsville under an uncooled roof runs past the 86F July normal high that the National Weather Service lists. A grandparent, an infant or someone who’s ill takes that heat worst. We get installs scheduled fast, and one head is usually a day’s work. Broken units go to Mini-Split Repair, same day on most calls, weekends too.',
   commonIntro:
     'On Steiner, Delhi and Fairbanks Avenues and the streets between, these are the usual reasons for a ductless call in Sedamsville:',
   localFaqs: [
@@ -42,7 +42,7 @@ export const sedamsville: LocationServiceCopy = {
     ],
     whyTitle: 'Why Landlords and Homeowners in Sedamsville Choose Us for Mini-Split Installation',
     whyParagraph:
-      'Narrow stairs, old plaster and lots carved into the hillside are everyday work for our crews, who schedule around tenants. Every technician is licensed, insured, background-checked and drug-tested, and the owner approves a flat price first.',
+      'Narrow stairs, old plaster and lots carved into the hillside are everyday work for our crews, who schedule around tenants. Installers are licensed, insured, drug screened and background checked, and owners approve a flat price first.',
     sharedFaqs: [
       {
         q: 'What does ductless cost for a cottage in Sedamsville?',

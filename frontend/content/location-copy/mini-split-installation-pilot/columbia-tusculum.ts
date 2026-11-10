@@ -4,7 +4,7 @@ export const columbiaTusculum: LocationServiceCopy = {
   localParagraph:
     'In Columbia-Tusculum, old houses sit beside new infill. By Census figures, 39.1% of homes predate 1940 and 19.6% were built in 2000 or later. The old houses on the hillsides usually have no ducts, so ductless heads cool them without opening up walls. Newer homes tend to call us for a top floor or a finished lower level. You approve one price before the first hole, and if ductless isn’t the answer, we’ll tell you.',
   emergencyParagraph:
-    'In Columbia-Tusculum, old attic bedrooms trap heat on July afternoons, and the National Weather Service puts the month’s normal high at 86F. Infants, older family members and anyone sick should sleep somewhere cooler. Installs get scheduled quickly, and one head takes a day. A unit that already broke goes to Mini-Split Repair, same day on most calls, weekends included.',
+    'Attic bedrooms under the old roofs soak up sun, and July’s normal high is 86F, per the National Weather Service. An infant, a grandparent or someone getting over an illness should sleep downstairs. We schedule installs promptly, and one head takes a day. Mini-Split Repair handles a unit that has died, reaching most calls the same day, weekends too.',
   commonIntro:
     'From the old houses climbing the Tusculum hills to the newer homes near Delta Avenue, these are what usually lead to a ductless quote:',
   localFaqs: [
@@ -41,12 +41,12 @@ export const columbiaTusculum: LocationServiceCopy = {
       },
       {
         title: 'Financing a Mini-Split in Columbia-Tusculum',
-        body: 'A mini-split for an old house in Columbia-Tusculum can be financed rather than paid in one go. You hear back on credit instantly, and there’s no penalty for an early payoff. The flat price is in writing and approved before work, so you finance exactly that figure. It applies to one attic head or a full multi-zone system in a house that has never had central cooling.',
+        body: 'An older house in Columbia-Tusculum can get its mini-split on financing, so the cost doesn’t land in one payment. We get a credit answer back for you right away, and clearing the loan early brings no penalty. The flat price goes on paper and gets your approval first, which makes it the exact sum you borrow. That holds for a lone attic head or for heads in every room of a house that never had central cooling.',
       },
     ],
     whyTitle: 'Why Homeowners in Columbia-Tusculum Choose Us for Mini-Split Installation',
     whyParagraph:
-      'We plan line sets and outdoor units around old walls, steep lots and historic rules in Columbia-Tusculum. Technicians are licensed, insured, background-checked and drug-tested, and our family business has been at it since 1993.',
+      'In Columbia-Tusculum, old walls, steep lots and historic review decide where line sets run and outdoor units sit. Our technicians hold licenses and insurance and clear background checks and drug tests, and we’re a family company dating to 1993.',
     sharedFaqs: [
       {
         q: 'How much does a mini-split cost in Columbia-Tusculum?',

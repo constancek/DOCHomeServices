@@ -4,7 +4,7 @@ export const coldSpring: LocationServiceCopy = {
   localParagraph:
     'Ductless work in Cold Spring is mostly about one room. Census figures put the median year built at 1999, with 47.5% of homes from 2000 or later, so the house usually has ducts already. The room that doesn’t keep up is usually a bonus room over the garage, a finished basement, a sunroom or an addition. Townhouse associations may decide where an outdoor unit can go. The price is fixed with you up front, and if fixing the ducts would solve it, we say that instead.',
   emergencyParagraph:
-    'Through July, when the normal high is 86F (National Weather Service), a bonus room in Cold Spring runs hottest. Babies, older relatives and anyone sick are safer elsewhere. We book installs fast, with one head done in a day. Repairs to an existing mini-split go through Mini-Split Repair, same day on most calls, weekends included.',
+    'July is the worst stretch for an upstairs bonus room, with a typical high of 86F (National Weather Service). Infants, grandparents and anyone unwell belong on a cooler floor. Installs get scheduled quickly, and one head is usually in within a day. If a mini-split you own quits, Mini-Split Repair reaches most of those the same day, weekends too.',
   commonIntro:
     'In the subdivisions and townhouse communities along Alexandria Pike, these are the spots that usually lead to a ductless quote:',
   localFaqs: [
@@ -37,12 +37,12 @@ export const coldSpring: LocationServiceCopy = {
       },
       {
         title: 'Financing a Mini-Split in Cold Spring',
-        body: 'Homeowners in Cold Spring can spread the cost of a mini-split over time. Credit approval comes back while you wait, and paying early adds no penalty. The flat price is settled and approved before work starts, so the financed amount is the quoted amount. That covers a single head for the room over the garage or a multi-zone setup for a finished basement.',
+        body: 'Homeowners in Cold Spring can pay for a ductless system in parts, because we offer financing. You hear yes or no on credit before we leave the table, and clearing the balance early costs nothing extra. You sign off on one flat figure first, and that figure is what gets financed. It works for one head above the garage or several heads spread through a finished lower level.',
       },
     ],
     whyTitle: 'Why Homeowners in Cold Spring Choose Us for Mini-Split Installation',
     whyParagraph:
-      'We check the ducts before selling anything, and we size each head for the room it serves. Every technician is licensed, insured, background-checked and drug-tested, and the family business has run since 1993.',
+      'We look at the ducts before we sell a head, and size each one for its room. Our technicians carry licenses and insurance and have passed background checks and drug tests, and one family has run the company since 1993.',
     sharedFaqs: [
       {
         q: 'How much does a mini-split cost in Cold Spring?',

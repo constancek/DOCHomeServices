@@ -2,9 +2,9 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const stBernard: LocationServiceCopy = {
   localParagraph:
-    'The village grew up around P&G’s Ivorydale plant, and housing in St. Bernard is old. The Census median year built is 1955, and 32.6% of homes date from 1939 or earlier, built without ducts, where a wall head cools a room without cutting plaster. Postwar houses call about an attic bedroom or a back room at the end of the duct run. On a rented side of a double, the owner chooses. The flat price comes first, and we’ll tell you if ductless is a poor match.',
+    'The village grew up around P&G’s Ivorydale plant, and housing in St. Bernard is old. Census figures land the middle house in 1955 and count 32.6% standing by 1939, put up without ducts, where a wall head cools a room without cutting plaster. Postwar houses call about an attic bedroom or a back room at the end of the duct run. On a rented side of a double, the owner chooses. The flat price comes first, and we’ll tell you if ductless is a poor match.',
   emergencyParagraph:
-    'In St. Bernard, top-floor rooms of the doubles trap heat, and the National Weather Service tallies about 21 days a year at 90F or more. Newborns, grandparents and the sick feel it first. Installs get booked promptly, and one head runs within a day. A mini-split that quit goes to Mini-Split Repair, same day on most calls, weekends included.',
+    'Upstairs rooms in the doubles of St. Bernard hold heat on the 21 or so days a summer that top 90F, by National Weather Service counts, hard on a newborn, a grandparent or anyone sick. Installs get booked promptly, and one head takes a day. A mini-split that quit goes to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Around the doubles and older houses of St. Bernard, a ductless quote usually starts with one of these:',
   localFaqs: [
@@ -37,12 +37,12 @@ export const stBernard: LocationServiceCopy = {
       },
       {
         title: 'Financing a Mini-Split in St. Bernard',
-        body: 'Financing works for a mini-split in St. Bernard. Approval comes with an instant credit decision, and an early payoff triggers no penalty. You sign the flat-rate price before we drill, so the loan matches a number you’ve already seen. An owner putting heads in both halves of a double, or across several village rentals, can carry it all as one financed job.',
+        body: 'Owners in St. Bernard can finance ductless work. The lender answers on credit right away, and you can clear the balance early at no extra charge. You sign the flat-rate price before we drill, so the loan matches a number you’ve already seen. An owner putting heads in both halves of a double, or across several village rentals, can carry it all as one financed job.',
       },
     ],
     whyTitle: 'Why Homeowners and Landlords in St. Bernard Choose Us for Mini-Split Installation',
     whyParagraph:
-      'Plaster walls, tight attics and side-by-side doubles are everyday work for us in St. Bernard. Every technician is licensed and insured and has passed a background check and drug test, and pricing always comes before the work.',
+      'Plaster walls, tight attics and side-by-side doubles are everyday work for us in St. Bernard. Our installers hold licenses and insurance and clear drug and background screening, and you see pricing before any work.',
     sharedFaqs: [
       {
         q: 'How much is a mini-split in St. Bernard?',

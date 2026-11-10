@@ -2,9 +2,9 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const monroe: LocationServiceCopy = {
   localParagraph:
-    'Monroe has grown fast, and Census figures put the median year built at 2001, with 53.3% of homes from 2000 or later. Whole-house ductless jobs are rare here. What we see is one stubborn room, like the bonus room over the garage, a basement finished after closing, a sunroom or an upstairs office facing west. Most homes are owner-occupied, so the call is yours. The flat price comes first, and if rebalancing the ducts would fix it, you’ll hear that before anything else.',
+    'Monroe has grown fast. Census figures date the typical house to 2001 and 53.3% of homes to 2000 onward. Whole-house ductless jobs are rare here. What we see is one stubborn room, like the bonus room over the garage, a basement finished after closing, a sunroom or an upstairs office facing west. Most homes are owner-occupied, so the call is yours. The flat price comes first, and if rebalancing the ducts would fix it, you’ll hear that before anything else.',
   emergencyParagraph:
-    'The National Weather Service counts about 21 days a year at 90F or more, and in a 2000s two-story the bonus room takes the worst. Older parents, babies and anyone who wheezes struggle. Single-room installs go on the calendar fast and finish in a day. A broken mini-split is a Mini-Split Repair call, same day for most, weekends too.',
+    'Monroe sees about 21 days a summer hit 90F, the National Weather Service says, and in a 2000s two-story the bonus room bakes. Babies, aging parents and anyone who wheezes feel it first. Single-room installs go on the calendar fast and finish in a day. A broken mini-split is a Mini-Split Repair call, same day for most, weekends too.',
   commonIntro:
     'In the newer subdivisions and the older town core of Monroe, ductless calls tend to come from one of these:',
   localFaqs: [
@@ -42,7 +42,7 @@ export const monroe: LocationServiceCopy = {
     ],
     whyTitle: 'Why Homeowners in Monroe Choose Us for Mini-Split Installation',
     whyParagraph:
-      'We know newer houses, where the fix is often one room and not a whole system, and we’ll say when airflow is the real problem. Technicians are licensed, insured, background-checked and drug-tested. We’ve been family owned since 1993.',
+      'In newer houses the fix is often one room, and we’ll tell you when airflow is the real problem. Our licensed, insured installers pass drug screens and background checks, and one family has owned the company since 1993.',
     sharedFaqs: [
       {
         q: 'What does a mini-split cost in Monroe?',

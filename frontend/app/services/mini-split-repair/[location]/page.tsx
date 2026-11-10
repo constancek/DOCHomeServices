@@ -9,6 +9,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'mini-split-repair',
   serviceName: 'Mini-Split Repair',
+  localHeadingName: 'Mini-Split Repair',
+  emergencyHeading: 'Emergency Mini-Split Repair in {neighborhood}',
   eyebrow: 'Air Conditioning · Mini-Splits',
   hubLabel: 'Mini-Split Repair',
   parentCrumb: { label: 'Air Conditioning', href: '/services/air-conditioning' },
@@ -77,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'Do mini-splits need regular maintenance?', a: 'They do. Cleaning the filters regularly and having the system checked once a year keeps it efficient and prevents many of the repairs we get called for.' },
     { q: 'Should I repair or replace my mini-split?', a: 'If the system is relatively new and the issue is isolated, a repair makes sense. If it is aging or failing repeatedly, a new system is often the better value — and we will advise honestly.' },
   ],
+  steps: {
+    heading: 'What to Expect From Mini-Split Repair in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Find the Fault', text: 'Error code read, each head and the outdoor unit checked.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A flat rate, before any work starts.' },
+      { icon: 'snowflake', title: 'Tested Before We Leave', text: 'Every head cooling or heating, the drain clear.' },
+    ],
+  },
   related: [
     { label: 'Mini-Split Repair (overview)', href: '/services/mini-split-repair' },
     { label: 'Mini-Split Installation', href: '/services/mini-split-installation' },

@@ -2,9 +2,9 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const turpinHills: LocationServiceCopy = {
   localParagraph:
-    'In Turpin Hills, most houses date from the 1960s through the 1990s, and the Census median year built is 1977. Ducts are nearly universal, so a mini-split here usually rescues one problem room, like the room over the garage, a finished basement or a primary suite added later, spaces at the far end of the duct runs or never tied in. Almost every home is owner-occupied, so the decision is yours. A set price comes before work, and if ductless isn’t the answer, we say so.',
+    'Out in Turpin Hills, the houses went up over four decades, roughly 1960 to 2000, and Census figures place the typical one in 1977. Ducts are nearly universal, so a mini-split here usually rescues one problem room, like the room over the garage, a finished basement or a primary suite added later, spaces at the far end of the duct runs or never tied in. Almost every home is owner-occupied, so the decision is yours. A set price comes before work, and if ductless isn’t the answer, we say so.',
   emergencyParagraph:
-    'In Turpin Hills, the room over the garage runs hottest, and the National Weather Service puts the area at about 21 days a year of 90F or more. Watch older relatives, small children and anyone ill. Install dates come quickly, and one head takes a day. Failed units go to Mini-Split Repair, same day on most calls, weekends included.',
+    'A bonus room above the garage in Turpin Hills gets the worst of roughly 21 days a summer at 90F, a figure from National Weather Service records. Keep an eye on grandparents, toddlers and anyone ill. Install dates come quickly, and one head takes a day. Failed units go to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the 1960s to 1990s houses of Turpin Hills, ductless calls usually start with one of these rooms:',
   localFaqs: [
@@ -37,12 +37,12 @@ export const turpinHills: LocationServiceCopy = {
       },
       {
         title: 'Financing a Mini-Split in Turpin Hills',
-        body: 'A mini-split in Turpin Hills can be financed. An instant credit decision comes with approval, and early payoff brings no penalty. You agree to the flat price before work starts, so the financing covers a number you’ve already seen. Some owners use it to cool the bonus room this summer instead of living with a hot room for one more year.',
+        body: 'Owners in Turpin Hills can finance ductless work. The lender returns a credit answer right away, and clearing the balance early costs nothing extra. You agree to the flat price before work starts, so the financing covers a number you’ve already seen. Some owners use it to cool the bonus room this summer instead of living with a hot room for one more year.',
       },
     ],
     whyTitle: 'Why Homeowners in Turpin Hills Choose Us for Mini-Split Installation',
     whyParagraph:
-      'Bonus rooms, additions, basements and sunrooms across Turpin Hills have ductless systems from our crews. Our technicians are licensed, insured, background-checked and drug-tested, and no job here carries overtime fees.',
+      'Bonus rooms, additions, basements and sunrooms across Turpin Hills have ductless systems from our crews. Each installer holds a license and insurance and has cleared drug and background screening, and we never add overtime fees.',
     sharedFaqs: [
       {
         q: 'How much is a mini-split for a room in Turpin Hills?',

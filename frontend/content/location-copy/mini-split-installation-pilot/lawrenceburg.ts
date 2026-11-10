@@ -4,7 +4,7 @@ export const lawrenceburg: LocationServiceCopy = {
   localParagraph:
     'Lawrenceburg has more variety than its old downtown suggests. By Census figures, the median home dates to 1983, and 36.7% of homes are in apartment buildings with five units or more. So ductless work here ranges from older houses near downtown with no ducts upstairs, to newer houses with an addition the ducts miss, to apartments where the owner decides. Lawrenceburg Municipal Utilities supplies the power, which matters if a panel needs an upgrade. You approve a flat price first, and we’ll say if ductless doesn’t fit.',
   emergencyParagraph:
-    'The National Weather Service averages about 21 days of 90F or worse each year, and an upper-floor apartment or attic bedroom keeps that heat long after sunset. Older relatives, babies and anyone ill suffer first. Install dates come quickly. If a mini-split you own stopped, book Mini-Split Repair, same day on most calls, weekends included.',
+    'Upper-floor apartments and attic bedrooms hold heat after dark, and the National Weather Service averages about 21 days a year at 90F or worse. Older relatives, babies and anyone ill suffer first. We find install dates quickly, and a single-zone job is usually one day. If your mini-split stopped, Mini-Split Repair answers most calls the same day, weekends included.',
   commonIntro:
     'Between the older blocks near downtown and the newer homes and apartments of Lawrenceburg, these are the rooms that usually need ductless help:',
   localFaqs: [
@@ -18,7 +18,7 @@ export const lawrenceburg: LocationServiceCopy = {
     },
     {
       q: 'I rent in Lawrenceburg. Can my landlord add a mini-split?',
-      a: 'It’s up to the owner, so put the request to your landlord in writing and hold on to a copy. We install mini-splits, not leases, which means the landlord or property manager books our visit and signs off on the price. In larger complexes, start with the management office.',
+      a: 'That decision belongs to the owner. Ask your landlord in a letter or email and keep a record of what you sent. We put in mini-splits and stay out of lease matters, so the landlord or manager schedules us and approves the quote. In a bigger complex, the management office is your first stop.',
     },
   ],
   overrides: {
@@ -46,7 +46,7 @@ export const lawrenceburg: LocationServiceCopy = {
     ],
     whyTitle: 'Why Homeowners and Landlords in Lawrenceburg Choose Us for Mini-Split Installation',
     whyParagraph:
-      'We work in older houses, newer subdivisions and apartment buildings alike, and we plan around tenants. Each installer is licensed and insured and has passed a background check and drug test, and the company has been family owned since 1993.',
+      'Older houses, newer subdivisions and apartment buildings are all regular work, and we plan around tenants. Each installer is licensed and insured and has passed a background check and drug test, and our company has been family run since 1993.',
     sharedFaqs: [
       {
         q: 'How much does a mini-split cost in Lawrenceburg?',

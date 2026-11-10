@@ -4,7 +4,7 @@ export const crescentSprings: LocationServiceCopy = {
   localParagraph:
     'Crescent Springs is newer than its reputation. Census figures give a median year built of 1993, nearly half the homes are in buildings of five or more units, and about four in ten households rent. Ductless work here almost never means a house without ducts. Expect a glassed-in sunroom, a lower-level den or a room over the garage in a detached house, or a condo where the association controls outdoor equipment. You approve the price before we start, and if a mini-split won’t fix it, we tell you.',
   emergencyParagraph:
-    'A sunroom in Crescent Springs can run past the 86F July normal high the National Weather Service lists for the area. Babies, older relatives and anyone ill shouldn’t wait it out in there. Installs get dates quickly, and one head is a day of work. If an installed mini-split fails, book Mini-Split Repair, same day on most calls, weekends included.',
+    'Glass on three sides can push a sunroom past 86F, July’s normal high (National Weather Service). Grandparents, toddlers and anyone ill shouldn’t spend an afternoon out there. We get installs dated fast, and a single head takes one working day. If an installed ductless unit stops, book Mini-Split Repair, which mostly arrives that same day, Saturday or Sunday included.',
   commonIntro:
     'Across the condos, apartment communities and newer houses off Buttermilk Pike, these are the spaces that usually bring a ductless quote:',
   localFaqs: [
@@ -41,12 +41,12 @@ export const crescentSprings: LocationServiceCopy = {
       },
       {
         title: 'Financing a Mini-Split in Crescent Springs',
-        body: 'Ductless systems in Crescent Springs can be paid for over time. The application returns a credit decision on the spot, and early payoff carries no penalty. We agree the price with you up front, before a single hole goes in, so the loan matches the quote. A landlord who owns several condos or a small building in town can finance mini-splits for all of them together.',
+        body: 'Financing is available for a ductless system in Crescent Springs, so it needn’t be paid up front. You learn where you stand on credit straight away, and there’s no charge for finishing payments early. We settle one flat figure with you before the first hole is drilled, and the loan is written for that number. Landlords with several condos or a small building in town can roll all the units into one plan.',
       },
     ],
     whyTitle: 'Why Homeowners and Landlords in Crescent Springs Choose Us for Mini-Split Installation',
     whyParagraph:
-      'Before we sell anyone ductless, we look at the ductwork they already have, and condo bylaws don’t throw us. Every technician is licensed and insured and has passed a background check and drug test. We’ve been family owned since 1993.',
+      'Ductwork gets checked before we suggest ductless, and condo bylaws are familiar to us. Our technicians are licensed and insured, and each cleared a background screening and drug test. One family has owned the business since 1993.',
     sharedFaqs: [
       {
         q: 'What does a mini-split cost in Crescent Springs?',

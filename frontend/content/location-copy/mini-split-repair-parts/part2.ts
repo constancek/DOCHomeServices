@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'In Queensgate, mini-split repair often means a server closet, converted office or break room inside a building with no usable ductwork. Commercial run-time wears fan motors and compressors faster than in a home, and low ground near Mill Creek fouls outdoor condensers.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Mini-splits here often condition a server closet, a converted office, or a break room inside a larger building with no usable ductwork, so when a head fails the equipment or staff in that space loses cooling fast.',
-      'The low ground near Mill Creek is prone to flooding and damp, which fouls low-set outdoor condensers and trips them under load, and the heavy commercial run-time wears fan motors and compressors faster than in a home. We diagnose the head and the condenser as one system and respond every day, weekends included, since a down unit in a commercial space — especially one cooling equipment — cannot wait for business hours.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, mini-split repairs often involve heavy run-time wear and flood-fouled outdoor units:',
-    localFaqs: [
-      {
-        q: 'Do you repair commercial mini-splits in Queensgate on weekends?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we repair ductless units cooling offices, break rooms, and equipment closets every day, weekends included.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'CUF mini-split repair usually means a tenant has lost the only conditioning in their unit. Heads in these subdivided houses run hard, condensate lines through old walls clog, and condensers in narrow side yards overheat and short-cycle, so we isolate the fault to that unit.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'How fast can you reach South Cumminsville for a mini-split repair?',
         a: 'South Cumminsville is within our service area in the Mill Creek valley. We are on call every day and reach most homes the same day for ductless repairs.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'English Woods mini-split repair often comes back to the hillside, where condensers on a grade sit in runoff and leaves that foul the coil. A hard freeze can ice the outdoor unit and stall the heat-pump defrost, so the head serving an unducted room blows cold.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. In its older homes, a mini-split head often serves a room the original layout never ducted, so when that head fails it is the only conditioning the space has during a humid summer or a hard freeze.',
-      'The hillside setting puts extra demand on the system: condensers on a grade can sit where runoff and leaves foul the coil, and a hard freeze can ice the outdoor unit and stall the heat-pump defrost so the head blows cold air. We diagnose the head, line set, and condenser as one loop so an English Woods repair pins the real fault.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, mini-split repairs often hit a freeze-stalled or runoff-fouled outdoor unit:',
-    localFaqs: [
-      {
-        q: 'How fast can you reach English Woods for a mini-split repair?',
-        a: 'English Woods is within our west-side service area above the Mill Creek valley. We are on call any day of the week and reach most homes the same day for ductless repairs.',
       },
     ],
   },

@@ -4,7 +4,7 @@ export const groesbeck: LocationServiceCopy = {
   localParagraph:
     'Half of Groesbeck’s homes were built by 1970, Census figures show, so the furnace ducts came first and air conditioning was added later. The rooms that suffer are the ones added or finished afterward: a converted garage, a lower level or a back bedroom, and one ductless head handles that room without touching the rest. Nearly a quarter of homes are in larger apartment buildings and 33.9% are rented, so owners decide there. The price is fixed before we start, and we’ll flag it when ductless is the wrong buy.',
   emergencyParagraph:
-    'In Groesbeck, a converted garage collects heat on the 21 or so days a year that top 90F, per the National Weather Service. Babies, older relatives and anyone with asthma or an illness are most at risk. One room takes about a day to install. A mini-split that quit is a Mini-Split Repair call, mostly same day, weekends too.',
+    'An old garage turned family room bakes in Groesbeck on about 21 days a year at 90F, by National Weather Service figures. Babies, older relatives and anyone with asthma or an illness are most at risk. One room takes about a day to install. A mini-split that quit is a Mini-Split Repair call, mostly same day, weekends too.',
   commonIntro:
     'Groesbeck has plenty of rooms the original ducts never planned for, and these are the usual ones:',
   localFaqs: [
@@ -14,7 +14,7 @@ export const groesbeck: LocationServiceCopy = {
     },
     {
       q: 'Can I ask my landlord in Groesbeck for a mini-split?',
-      a: 'Yes. Put it in writing and keep a copy. Ohio law, ORC 5321.04, makes a landlord maintain the air conditioning they supply in safe working order, but a new system is up to the owner. We install mini-splits, not leases. Tenants in a managed apartment complex should take the request to the leasing office.',
+      a: 'Yes. Make the request on paper and hold onto your copy. ORC 5321.04 obliges an Ohio landlord to look after cooling the apartment came with, while buying a new system is the owner’s decision alone. We install mini-splits, not leases. Tenants in a managed apartment complex should take the request to the leasing office.',
     },
   ],
   overrides: {

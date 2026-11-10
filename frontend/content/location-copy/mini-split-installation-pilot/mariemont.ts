@@ -4,13 +4,13 @@ export const mariemont: LocationServiceCopy = {
   localParagraph:
     'Mariemont was laid out as a planned village in the 1920s, and much of its housing is that old. Census figures put the median year built at 1945, with 36.8% from 1939 or earlier and 26.3% more from the 1940s. Plaster walls and tight attics make ducts for central air hard to add, while a ductless head needs just one small hole in a rear wall. In apartments and rented houses, owners decide. We set a flat price before work starts and will say so if ductless isn’t right.',
   emergencyParagraph:
-    'Summer highs average 86F in July, per the National Weather Service, and second floors under older roofs in Mariemont hold even more heat, hardest on older relatives, babies and anyone unwell. Installs are scheduled quickly; a single head takes a day and multi-zone more. Existing mini-splits that stop go to Mini-Split Repair, same day on most calls, weekends included.',
+    'The National Weather Service gives July an 86F normal high, and upstairs rooms under old roofs in Mariemont run hotter, a strain for a baby, a grandparent or someone sick. Installs are scheduled quickly; a single head takes a day and multi-zone more. Existing mini-splits that stop go to Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'Among the Tudor Revival, Colonial and Greek Revival houses and the small apartment buildings of the planned village, four requests come up most in Mariemont:',
   localFaqs: [
     {
       q: 'Does a mini-split need historic approval in Mariemont?',
-      a: 'It might. Mariemont has seven local historic districts, and in them even a new paint color calls for a Certificate of Appropriateness from the Architectural Review Board. Nobody has ruled on whether a condenser or copper line counts as an exterior change, so we ask the village before starting and set equipment behind or beside the house whenever possible.',
+      a: 'It might. The village holds seven local historic districts, and inside them a fresh paint color alone needs the Architectural Review Board to grant a Certificate of Appropriateness. No ruling yet says whether an outdoor unit or copper line is an exterior change, so we check with the village first and keep equipment off the front wherever we can.',
     },
     {
       q: 'Who issues the permit for a mini-split in Mariemont?',
@@ -18,7 +18,7 @@ export const mariemont: LocationServiceCopy = {
     },
     {
       q: 'Can a renter in Mariemont get a mini-split installed?',
-      a: 'Ask the landlord in writing, since it’s the owner’s choice to add one. Ohio’s landlord law, ORC 5321.04 (A)(4), covers keeping supplied air conditioning in good and safe working order, and that duty stops short of buying new equipment. We install mini-splits, not leases, so the owner arranges our visit.',
+      a: 'Write to your landlord, because a new system is the owner’s decision. ORC 5321.04 (A)(4) makes an Ohio landlord keep any air conditioning they supply in good and safe working order, yet it never requires them to add equipment a unit didn’t come with. We install mini-splits, not leases, so the owner schedules us.',
     },
   ],
   overrides: {
@@ -46,7 +46,7 @@ export const mariemont: LocationServiceCopy = {
     ],
     whyTitle: 'Why Homeowners in Mariemont Choose Us for Mini-Split Installation',
     whyParagraph:
-      'Plaster, old framing and historic review are routine for us in the older villages east of Cincinnati. Technicians are licensed, insured, background-checked and drug-tested, the business has been family owned since 1993, and pricing is flat.',
+      'Plaster, old framing and historic review are normal days for us east of Cincinnati. Our licensed, insured crew is screened with background checks and drug tests, our family has run the company since 1993, and you get flat pricing.',
     sharedFaqs: [
       {
         q: 'How much does a mini-split cost in Mariemont?',

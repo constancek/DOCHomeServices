@@ -4,7 +4,7 @@ export const union: LocationServiceCopy = {
   localParagraph:
     'Union is a city of new houses. Census figures show 80.1% of homes built in 2000 or later, so ducts are nearly always in place and working, and a mini-split here goes where they come up short, such as a room above the garage, a finished basement or a sunroom. Ductless is also a clean way to give a basement in-law suite its own cooling. Most homes are owner-occupied. You approve the price before work, and if a mini-split isn’t the right answer, we’ll tell you.',
   emergencyParagraph:
-    'In Union, the room above the garage is often the warmest, with a July normal high of 86F per the National Weather Service. A baby, a grandparent or anyone short of breath has it roughest. Installs come without much wait. For a broken mini-split, book Mini-Split Repair, same day on most calls, weekends included.',
+    'A bonus room over the garage tends to run warmest in Union, and July sits near its 86F normal high, as the National Weather Service lists it. Babies, grandparents and anyone short of breath suffer most. Installs come without much wait. For a broken mini-split, book Mini-Split Repair, same day on most calls, weekends included.',
   commonIntro:
     'In the newer subdivisions across Union, these are the rooms that usually bring a ductless call:',
   localFaqs: [
@@ -37,12 +37,12 @@ export const union: LocationServiceCopy = {
       },
       {
         title: 'Financing a Mini-Split in Union',
-        body: 'Financing is available for a mini-split in Union. You hear back with an instant credit decision on approval, and an early payoff carries no penalty. The flat price is signed before we start, so the borrowed amount matches it exactly. Many owners use financing to handle the garage room and the basement in one visit, rather than one now and the other later.',
+        body: 'Owners in Union can finance ductless work. The lender tells you right away whether credit is approved, and settling early costs nothing extra. The flat price is signed before we start, so the borrowed amount matches it exactly. Many owners use financing to handle the garage room and the basement in one visit, rather than one now and the other later.',
       },
     ],
     whyTitle: 'Why Homeowners in Union Choose Us for Mini-Split Installation',
     whyParagraph:
-      'Across Union, garage rooms, basements and sunrooms in newer houses are our usual ductless jobs. Each tech is licensed and insured and has cleared a background check and drug test, and we make it right or you don’t pay.',
+      'Across Union, garage rooms, basements and sunrooms in newer houses are our usual ductless jobs. Our installers hold licenses and insurance and pass drug and background screening, and we make it right or you don’t pay.',
     sharedFaqs: [
       {
         q: 'What does a mini-split cost in Union?',

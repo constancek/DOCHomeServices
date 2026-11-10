@@ -2,7 +2,7 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const springGroveVillage: LocationServiceCopy = {
   localParagraph:
-    'Spring Grove Village is old housing, mostly. The Census median year built is 1938, and 53.5% of homes went up in 1939 or before, which means plaster on lath, a cramped attic and nowhere to hide a duct. A wall-mounted ductless head needs one small opening to the outside, not a trench through that plaster. Rentals make up 40.1% of homes, so on many streets the owner decides for the tenant. Expect a price before we touch a wall, and a straight answer if ductless won’t serve the house.',
+    'Spring Grove Village is old housing, mostly. Census figures date the middle house to 1938 and put 53.5% of them on their lots by 1939, which means plaster on lath, a cramped attic and nowhere to hide a duct. A wall-mounted ductless head needs one small opening to the outside, not a trench through that plaster. Rentals make up 40.1% of homes, so on many streets the owner decides for the tenant. Expect a price before we touch a wall, and a straight answer if ductless won’t serve the house.',
   emergencyParagraph:
     'In Spring Grove Village, a back bedroom holds heat overnight, and July’s normal high runs 86F, per the National Weather Service. Elderly parents, newborns and anyone sick handle it worst. Ductless installs go on the schedule fast, with one head typically taking a day. Mini-Split Repair handles a unit that already quit, same day on most calls, weekends included.',
   commonIntro:
@@ -14,7 +14,7 @@ export const springGroveVillage: LocationServiceCopy = {
     },
     {
       q: 'My landlord supplies window units in Spring Grove Village. Can I ask for a mini-split?',
-      a: 'Ask in writing, but the decision and the booking belong to the owner. ORC 5321.04 obliges an Ohio landlord to keep the air conditioning they supply in good and safe working order, and trading window units for ductless is an upgrade rather than a repair. We install mini-splits, not leases, and quote the owner directly.',
+      a: 'Ask in writing, but the decision and the booking belong to the owner. Under ORC 5321.04, cooling a landlord provides must stay in good and safe working order, and swapping window units for ductless counts as an upgrade, not upkeep. We install mini-splits, not leases, and quote the owner directly.',
     },
   ],
   overrides: {
@@ -37,7 +37,7 @@ export const springGroveVillage: LocationServiceCopy = {
       },
       {
         title: 'Financing a Mini-Split in Spring Grove Village',
-        body: 'Owners in Spring Grove Village can finance a ductless install instead of paying all at once. Approval comes with an instant credit decision, and there’s no penalty for paying off early. You sign the flat price before the first hole goes through the siding, so the loan equals the quote. A landlord with a two-family, or a few rentals scattered through the neighborhood, can finance every unit together.',
+        body: 'Owners in Spring Grove Village can finance a ductless install instead of paying all at once. You hear back on credit right away, and settling the loan ahead of schedule costs nothing. You sign the flat price before the first hole goes through the siding, so the loan equals the quote. A landlord with a two-family, or a few rentals scattered through the neighborhood, can finance every unit together.',
       },
     ],
     whyTitle: 'Why Homeowners and Landlords in Spring Grove Village Choose Us for Mini-Split Installation',
@@ -54,7 +54,7 @@ export const springGroveVillage: LocationServiceCopy = {
       },
       {
         q: 'Does a mini-split also heat the house in Spring Grove Village?',
-        a: 'Yes. A mini-split is a heat pump, so in winter it carries heat into the room the same way it hauls heat out in summer. Since gas is the main heat here, most owners hold on to the furnace or boiler for January and let the heads cover spring and fall, with controls set so neither fights the other.',
+        a: 'Yes. Every ductless system runs as a heat pump, pulling warmth indoors through the winter just as it hauls heat out in summer. Since gas is the main heat here, most owners hold on to the furnace or boiler for January and let the heads cover spring and fall, with controls set so neither fights the other.',
       },
     ],
   },

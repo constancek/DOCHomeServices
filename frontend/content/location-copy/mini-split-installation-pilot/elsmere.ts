@@ -4,7 +4,7 @@ export const elsmere: LocationServiceCopy = {
   localParagraph:
     'In Elsmere, houses span nearly every decade, from the 13.2% built before 1940 to almost a fifth put up since 2000, and Census figures place the median at 1970. That spread changes the ductless job. Pre-war houses were built without ducts, so a wall head cools an upstairs without opening plaster. Newer houses usually need help in one space, such as a basement, a porch closed in as a room, or an addition. You get a flat price before work, and a straight answer if ductless isn’t worth it.',
   emergencyParagraph:
-    'An addition in Elsmere that the main ducts can’t reach may run hotter than Cincinnati’s 86F normal July high (National Weather Service). Grandparents, infants and the sick feel that first. We book installs quickly, and one zone is usually a single day. When an installed unit stops cooling, Mini-Split Repair comes same day on most calls, weekends included.',
+    'An addition the main ducts never reached can pass 86F, the normal July high (National Weather Service). Grandparents, infants and anyone unwell notice first. We put installs on the books quickly, and one zone is mostly a day. If a ductless unit you own stops cooling, Mini-Split Repair is out the same day on most calls, weekends too.',
   commonIntro:
     'With houses from nearly every decade in Elsmere, the ductless calls we get tend to look like these:',
   localFaqs: [
@@ -42,7 +42,7 @@ export const elsmere: LocationServiceCopy = {
     ],
     whyTitle: 'Why Homeowners in Elsmere Choose Us for Mini-Split Installation',
     whyParagraph:
-      'Pre-war houses, newer homes and mobile homes turn up on our ductless schedule around Elsmere. Technicians are licensed, insured, background-checked and drug-tested, the company has stayed with one family since 1993, and we make it right or you don’t pay.',
+      'Our ductless schedule takes in pre-war houses, newer homes and mobile homes in Elsmere. Every technician is licensed, insured, background-screened and drug-screened, one family has owned the company since 1993, and we make it right or you don’t pay.',
     sharedFaqs: [
       {
         q: 'What does a mini-split cost to install in Elsmere?',

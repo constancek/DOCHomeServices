@@ -4,7 +4,7 @@ export const independence: LocationServiceCopy = {
   localParagraph:
     'Independence is mostly newer housing, with a median year built of 1999 by Census figures, and roughly half the homes went up in 2000 or later. Those houses came with ductwork, so we’re rarely replacing anything. The usual call is a room the central system was never sized to reach, such as space over the garage, a basement finished after move-in, or a sunroom. The quote is a flat number you see first, and if a duct tweak will fix the room, that’s what we’ll recommend.',
   emergencyParagraph:
-    'Rooms over garages run hottest on the roughly 21 days a year that reach 90F (National Weather Service). Babies, older relatives and anyone with breathing problems shouldn’t sleep there then. Single-zone installs are usually a one-day job, and we book them soon. For a ductless unit already broken, Mini-Split Repair comes same day on most calls, weekends included.',
+    'Bonus space above a garage takes the brunt when it hits 90F, which happens on about 21 days a year in National Weather Service records. Infants, grandparents and anybody with asthma shouldn’t sleep up there. Single-zone installs get booked soon and take a day. If your ductless unit breaks, Mini-Split Repair handles it, mostly the same day, weekends too.',
   commonIntro:
     'In the subdivisions of Independence, a ductless call usually begins with one of these:',
   localFaqs: [
@@ -37,12 +37,12 @@ export const independence: LocationServiceCopy = {
       },
       {
         title: 'Financing a Mini-Split in Independence',
-        body: 'Paying over time is an option for a ductless system in Independence. The credit answer arrives instantly on approval, and you can pay ahead without a penalty. Since the flat price is settled and signed before the drill comes out, the loan matches the quote exactly. Doing the basement this spring and the bonus room next year is fine, with each step financed on its own.',
+        body: 'A ductless system in Independence can be paid off in installments through our financing. You hear back on credit instantly after applying, and an early payoff costs you nothing more. We agree the flat price in writing before drilling begins, and the loan is for that amount. Doing the basement this spring and the bonus room next year works too, with each stage financed separately.',
       },
     ],
     whyTitle: 'Why Homeowners in Independence Choose Us for Mini-Split Installation',
     whyParagraph:
-      'We add ductless heads to newer houses across Kenton County without upsetting the central system you already have. Our technicians are licensed, insured and drug-tested, and the family business has stood behind its work since 1993.',
+      'Newer houses across Kenton County get ductless heads from us without any disruption to the central system. Each technician is licensed, insured and drug-tested, and the family behind the business has backed its work since 1993.',
     sharedFaqs: [
       {
         q: 'How is a mini-split priced in Independence?',

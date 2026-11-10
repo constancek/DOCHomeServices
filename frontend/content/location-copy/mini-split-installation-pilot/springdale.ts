@@ -4,7 +4,7 @@ export const springdale: LocationServiceCopy = {
   localParagraph:
     'By Census figures, the typical house in Springdale was built in 1971, and builders of that era usually ran ducts. So the ductless call here is about a room the ducts shortchange, like a family room out back, a finished lower level or the bedroom at the tail end of a long trunk line. Condos and apartments fill much of the city, and with 40.9% of homes rented, an owner usually signs off. We settle the price before drilling and tell you if ductless isn’t the answer.',
   emergencyParagraph:
-    'In Springdale, a 1970s family room addition can bake, and on 21 days each year it reaches 90F, the National Weather Service says. Infants, grandparents and the short of breath take it hardest. We fit installs in quickly, and one head is a one-day install. For an existing mini-split, Mini-Split Repair comes same day on most calls, weekends included.',
+    'A 1970s family room addition in Springdale can bake on the roughly 21 days a summer that hit 90F, by National Weather Service counts. Infants, grandparents and the short of breath take it hardest. We fit installs in quickly, and one head is a one-day install. For an existing mini-split, Mini-Split Repair comes same day on most calls, weekends included.',
   commonIntro:
     'Around the 1960s and 1970s houses and apartment buildings of Springdale, these bring us out for most ductless quotes:',
   localFaqs: [
@@ -14,7 +14,7 @@ export const springdale: LocationServiceCopy = {
     },
     {
       q: 'Can a renter get a mini-split installed in Springdale?',
-      a: 'Not directly. The owner or the management office decides, so send them a written request. Ohio law, ORC 5321.04, makes landlords keep the air conditioning they provide in good and safe working order, but a new ductless system is an improvement the owner chooses, not a repair owed. We install mini-splits, not leases, and quote the owner or the manager.',
+      a: 'Not directly. The owner or management decides, so send a written request. Under ORC 5321.04, an Ohio landlord owes tenants good and safe working order in any cooling the unit came with, yet a new ductless system is an improvement the owner picks, not a repair owed. We install mini-splits, not leases, and quote the owner or the manager.',
     },
   ],
   overrides: {
@@ -42,7 +42,7 @@ export const springdale: LocationServiceCopy = {
     ],
     whyTitle: 'Why Homeowners and Landlords in Springdale Choose Us for Mini-Split Installation',
     whyParagraph:
-      'Additions on 1970s houses, lower levels and whole apartment buildings across Springdale get ductless systems from our crews. Our people are licensed, insured, background-checked and drug-tested, and the family business goes back to 1993.',
+      'Additions on 1970s houses, lower levels and whole apartment buildings across Springdale get ductless systems from our crews. Each installer holds a license and insurance and has cleared drug and background screening, and the family business goes back to 1993.',
     sharedFaqs: [
       {
         q: 'How much should I budget for a mini-split in Springdale?',

@@ -2,9 +2,9 @@ import type { LocationServiceCopy } from '@/components/LocationServicePage';
 
 export const montgomery: LocationServiceCopy = {
   localParagraph:
-    'Montgomery is mostly single-family houses from the 1950s through the 1970s. Census figures put the median year built at 1976, and 90.1% of homes are owner-occupied. Those houses were built with ducts, but a later addition, a finished lower level or a sunroom often sits beyond what the original system can cool. A mini-split handles that room without reworking the ductwork. We price it before work starts, and if the room only needs better airflow, we tell you.',
+    'Montgomery’s streets are lined with postwar and 1970s single-family houses, built around a 1976 median and owned by the people living in them 90.1% of the time, by Census figures. Those houses were built with ducts, but a later addition, a finished lower level or a sunroom often sits beyond what the original system can cool. A mini-split handles that room without reworking the ductwork. We price it before work starts, and if the room only needs better airflow, we tell you.',
   emergencyParagraph:
-    'An addition with big windows can run well past the 86F July normal high the National Weather Service records. Older relatives, babies and anyone ill are the ones at risk. Ductless installs get booked quickly; one room is usually a day. If an existing mini-split has failed, Mini-Split Repair answers most calls same day, weekends included.',
+    'July’s normal high is 86F, says the National Weather Service, and an addition full of glass can climb well beyond it. That heat hits a grandparent, an infant or someone who’s ill hardest. Ductless installs get booked quickly; one room is usually a day. If an existing mini-split has failed, Mini-Split Repair answers most calls same day, weekends included.',
   commonIntro:
     'Off Montgomery Road and the side streets around it, the ductless work we quote usually starts with one of these:',
   localFaqs: [
@@ -37,12 +37,12 @@ export const montgomery: LocationServiceCopy = {
       },
       {
         title: 'Financing a Mini-Split in Montgomery',
-        body: 'Ductless work in Montgomery can be financed. Approval comes with an instant credit decision, and early payoff carries no penalty. Because you sign the flat price before work begins, the financed amount and the quote match to the dollar. Owners finishing a lower level or building a sunroom sometimes schedule the mini-split alongside that project and finance it as a separate line.',
+        body: 'You can finance ductless work in Montgomery. The lender gives an instant credit decision, and paying the balance down early costs nothing extra. Because you sign the flat price before work begins, the financed amount and the quote match to the dollar. Owners finishing a lower level or building a sunroom sometimes schedule the mini-split alongside that project and finance it as a separate line.',
       },
     ],
     whyTitle: 'Why Homeowners in Montgomery Choose Us for Mini-Split Installation',
     whyParagraph:
-      'We place condensers and line covers with care on well-kept houses and yards, and we check the airflow before recommending anything. Our licensed, insured technicians are background-checked and drug-tested, and we’ve been family owned since 1993.',
+      'We place condensers and line covers with care on well-kept houses and yards, and we check the airflow before recommending anything. Each installer is licensed, insured, drug screened and background checked, and one family has run the company since 1993.',
     sharedFaqs: [
       {
         q: 'What does a mini-split cost for a home in Montgomery?',

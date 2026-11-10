@@ -4,7 +4,7 @@ export const hydePark: LocationServiceCopy = {
   localParagraph:
     'Hyde Park has plenty of houses older than central air. By Census figures, 51.6% of homes here were built in 1939 or earlier, and those plaster walls and third floors were never framed with a duct path in mind. A ductless head cools such a room without a chase cut through anything. Around a third of households live in apartment buildings with five units or more, and there the building owner decides. You get a flat price before we drill, and an honest no if ductless won’t help.',
   emergencyParagraph:
-    'Hyde Park gets its share of the National Weather Service’s average of about 21 days a year at 90F or more, and a third-floor bedroom there can stay miserable. Babies, older relatives and anyone ill need relief. Single-zone installs usually take a day. A unit you own that quit needs Mini-Split Repair, same day on most calls, weekends included.',
+    'A third-floor bedroom in Hyde Park stays miserable through the roughly 21 days a year above 90F that the National Weather Service records. Babies, aging relatives and anyone ill need a cooler room. Single-zone jobs get scheduled soon and mostly take a day. A ductless unit that quit is a Mini-Split Repair visit, usually same day, weekends too.',
   commonIntro:
     'In Hyde Park, a ductless quote usually starts with one of these rooms:',
   localFaqs: [
@@ -37,12 +37,12 @@ export const hydePark: LocationServiceCopy = {
       },
       {
         title: 'Financing a Mini-Split in Hyde Park',
-        body: 'A mini-split in Hyde Park can be paid off over time. Credit approval is decided instantly, and clearing the balance early never triggers a fee. Because you sign off on the flat-rate figure before any drilling, the borrowed amount is the quoted amount. Owners of two-families and small apartment buildings near the Square or on Observatory Avenue can finance heads for every flat on a single plan.',
+        body: 'Financing lets you pay for a mini-split in Hyde Park over time instead of at once. You’ll know on credit right away, and no fee applies if you finish paying early. The flat-rate figure gets your signature before any drilling, which makes it the financed sum. Owners of two-families and small apartment buildings near the Square or on Observatory Avenue can put heads for every flat under one plan.',
       },
     ],
     whyTitle: 'Why Homeowners in Hyde Park Choose Us for Mini-Split Installation',
     whyParagraph:
-      'Plaster and old trim are normal working conditions for us, and we drill, route and patch with care. Each installer carries a license and insurance and has cleared a background check, and the business has stayed family owned since 1993.',
+      'Plaster walls and old trim are everyday conditions for us, and we drill, route and patch carefully. Every installer holds a license and insurance and has passed a background check, and one family has run the business since 1993.',
     sharedFaqs: [
       {
         q: 'What does a mini-split cost in Hyde Park?',
