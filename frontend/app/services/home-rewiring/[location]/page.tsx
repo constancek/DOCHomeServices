@@ -9,6 +9,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'home-rewiring',
   serviceName: 'Home Rewiring',
+  localHeadingName: 'Home Rewiring',
+  emergencyHeading: 'Urgent Wiring Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Home Rewiring',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
@@ -77,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'Can outdated wiring cause electrical shocks?', a: 'Yes. Damaged or poorly grounded wiring increases the risk of both shock and fire, which is one of the main reasons to replace it.' },
     { q: 'Can I just rewire one part of my home?', a: 'Yes. Partial rewiring may be possible if the rest of the system is in good condition. We tailor each project to what your home actually needs.' },
   ],
+  steps: {
+    heading: 'What to Expect From Home Rewiring in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Test the Wiring First', text: 'Circuits, outlets, grounding and the panel feeding them.' },
+      { icon: 'tag', title: 'You Approve the Scope and Price', text: 'A written scope and flat-rate price before a wall is opened.' },
+      { icon: 'certificate', title: 'Permit and Inspection Handled', text: 'We pull the permit and see it through final inspection.' },
+    ],
+  },
   related: [
     { label: 'Home Rewiring (overview)', href: '/services/home-rewiring' },
     { label: 'Electrical Panel Replacement', href: '/services/electrical-panel-replacement' },

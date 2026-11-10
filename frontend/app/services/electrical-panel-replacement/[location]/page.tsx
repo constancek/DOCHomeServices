@@ -9,6 +9,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'electrical-panel-replacement',
   serviceName: 'Electrical Panel Replacement',
+  localHeadingName: 'Electrical Panel',
+  emergencyHeading: 'Urgent Electrical Panel Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Electrical Panel Replacement',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
@@ -77,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'How much does panel replacement cost?', a: 'Costs vary depending on panel size, amperage, permits, and any required upgrades to the wiring or meter. We provide a clear, upfront quote after assessing your system.' },
     { q: 'Will a new electrical panel help with insurance or resale value?', a: 'Yes. Many insurers require updated panels to maintain coverage, and a modern panel can be a selling point for buyers — especially when it replaces an outdated or unsafe one.' },
   ],
+  steps: {
+    heading: 'What to Expect From Electrical Panel Replacement in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Check the Panel First', text: 'Breakers, wiring, service size and the meter base.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A fixed flat-rate quote before the old panel comes out.' },
+      { icon: 'certificate', title: 'Permit and Inspection Handled', text: 'We pull the permit and see it through final inspection.' },
+    ],
+  },
   related: [
     { label: 'Electrical Panel Replacement (overview)', href: '/services/electrical-panel-replacement' },
     { label: 'Home Rewiring', href: '/services/home-rewiring' },

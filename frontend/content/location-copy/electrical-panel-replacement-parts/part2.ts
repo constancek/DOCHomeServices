@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'A tenant change or new equipment often outruns a service untouched for decades, which is the usual reason for panel replacement in Queensgate. Warehouses, offices and light-industrial buildings near the rail yards and Mill Creek make up most of the district. We size the service to the building.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Panels in these older buildings were sized for the original use, so a tenant change or new equipment frequently outruns a service that has not been touched in decades.',
-      'An aged panel in a Queensgate building, often on low ground prone to flooding near the Mill Creek, is where worn breakers and undersized service turn into a real problem. We replace these panels and upgrade the service to match the building’s current load, pulling the permit and coordinating the utility disconnect so the work is code-compliant and on record.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the panel work we handle most often comes from a service that no longer matches the building’s use:',
-    localFaqs: [
-      {
-        q: 'Do you handle panel upgrades for commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we replace and upgrade panels in those buildings to match the current load. The work is permitted and code-compliant.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'Panel replacement in CUF (Clifton Heights, University Heights & Fairview) usually means a subdivided student rental where one old service carries several units. Breakers trip constantly and connections overheat. We size each unit’s feed to its load, and landlords get the permit on record.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'How fast can you replace an old panel in South Cumminsville?',
         a: 'South Cumminsville is within our service area in the Mill Creek valley, and most panel replacements are a one-day job once the permit and utility disconnect are arranged. The upgrade is code-compliant.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'Recent redevelopment in English Woods means panel replacement there ranges from decades-old panels in older hilltop homes to clean upgrades for new loads. Corroded bus bars and worn breakers are common in the original houses. We size a 200A service to the home and pull the permit.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here were wired for a small original load, so the panels feeding them are often undersized for central air and the added circuits a modern household runs.',
-      'A panel in an English Woods home is frequently decades old, where corroded bus bars and worn breakers turn up, while redeveloped properties may need a clean upgrade to support new loads. We replace these panels and upgrade to a 200A code-compliant service, pulling the permit and coordinating the utility disconnect so the work is on record.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the panel work we handle most often starts with an aging, undersized service:',
-    localFaqs: [
-      {
-        q: 'How fast can you replace a failing panel in English Woods?',
-        a: 'English Woods is within our west-side service area, and most panel replacements are a one-day job once the permit and utility disconnect are arranged. The upgrade is code-compliant and inspected.',
       },
     ],
   },

@@ -195,20 +195,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro: 'Queensgate is mostly warehouses, offices and light-industrial buildings, so rewiring here is usually commercial: aging service equipment, undersized panels and circuits never planned for current equipment. We rewire and upgrade service with code-compliant copper in those buildings as well as homes, permitted and inspected.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Wiring here skews older and commercial: aging service equipment, undersized panels, and circuits never planned for current equipment loads in buildings that have changed use over the decades.',
-      'Rewiring in Queensgate is usually about capacity and safety — replacing undersized feeders, grounding old circuits, and upgrading panels so a building can handle modern tenants and equipment. We install code-compliant copper sized for the load, and as licensed electricians we permit and inspect the work in these older commercial and industrial structures.',
-    ],
-    commonIntro: 'In Queensgate’s older commercial and industrial buildings, the rewiring needs we handle most often are undersized service and aging circuits:',
-    localFaqs: [
-      {
-        q: 'Do you rewire commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and our licensed electricians rewire and upgrade service in those buildings as well as homes. The work is code-compliant, permitted, and inspected.',
-      },
-    ],
-  },
   'cuf': {
     intro: 'In CUF, rewiring means 19th- and early-1900s homes in Clifton Heights, University Heights and Fairview, mostly converted to student rentals. Knob-and-tube, fuse panels and ungrounded outlets take heavy daily use there. We replace them with grounded copper, and the work is permitted and inspected.',
     relevance: [
@@ -304,20 +290,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'How fast can you reach South Cumminsville for rewiring?',
         a: 'South Cumminsville is within our service area in the Mill Creek valley, so scheduling is quick. Our licensed electricians scope a code-compliant rewire, permitted and inspected.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro: 'Rewiring in English Woods, a hilltop neighborhood over the Mill Creek valley, usually covers older homes with ungrounded circuits, two-prong outlets and panels that predate modern requirements. We replace that wiring with grounded copper sized for current use and complete the job permitted and inspected.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here run on aging wiring — ungrounded circuits, two-prong outlets, and panels that predate modern requirements.',
-      'A rewire in English Woods replaces that aging system with grounded copper sized for a current household, which fits well with the redevelopment happening in the neighborhood. We install to code, and every job is permitted and inspected.',
-    ],
-    commonIntro: 'In English Woods’ older hilltop homes, the rewiring needs we handle most often are ungrounded circuits and aging panels:',
-    localFaqs: [
-      {
-        q: 'How fast can you reach English Woods for a rewiring estimate?',
-        a: 'English Woods is within our west-side service area, so scheduling is quick. Our licensed electricians assess the wiring and scope a code-compliant rewire, permitted and inspected.',
       },
     ],
   },
