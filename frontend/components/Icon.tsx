@@ -40,10 +40,22 @@ export type IconName =
   | 'lungs'
   | 'wind'
   | 'leaf'
-  | 'certificate';
+  | 'certificate'
+  | 'plugConnected'
+  | 'fileDollar';
 
 const paths: Record<IconName, ReactNode> = {
-  // virusOff, lungs, wind, leaf and certificate: Tabler Icons (MIT), via the Iconify API.
+  // virusOff, lungs, wind, leaf, certificate, plugConnected and fileDollar: Tabler Icons (MIT), via the Iconify API.
+  plugConnected: (
+    <path d="m7 12l5 5l-1.5 1.5a3.536 3.536 0 1 1-5-5zm10 0l-5-5l1.5-1.5a3.536 3.536 0 1 1 5 5zM3 21l2.5-2.5m13-13L21 3m-11 8l-2 2m5 1l-2 2" />
+  ),
+  fileDollar: (
+    <>
+      <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+      <path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2" />
+      <path d="M14 11h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3H10m2 0v1m0-8v1" />
+    </>
+  ),
   leaf: (
     <>
       <path d="M5 21c.5-4.5 2.5-8 7-10" />

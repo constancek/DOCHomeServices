@@ -116,11 +116,28 @@ const ELECTRICAL_SLUGS = new Set([
   'recessed-lighting',
 ]);
 
+// Cooling pages feature the cooling checkup, not the furnace tune-up.
+const COOLING_SLUGS = new Set([
+  'air-conditioning',
+  'ac-installation-replacement',
+  'ac-maintenance',
+  'mini-split-installation',
+  'mini-split-repair',
+]);
+
+const DRAIN_SLUGS = new Set(['drains', 'drain-cleaning']);
+
 export const sidebarCouponFor = (slug: string) =>
   slug === 'ac-repair'
     ? 'Same-Day AC Repair'
+    : COOLING_SLUGS.has(slug)
+    ? 'Happy House Cooling Checkup'
     : HVAC_SLUGS.has(slug)
     ? 'Furnace Tune-Up'
     : ELECTRICAL_SLUGS.has(slug)
-      ? 'Any Electrical Service'
-      : undefined;
+    ? 'Any Electrical Service'
+    : DRAIN_SLUGS.has(slug)
+    ? 'Drain Unclog'
+    : slug === 'water-quality'
+    ? 'Water Quality Test'
+    : undefined;

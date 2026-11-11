@@ -104,7 +104,7 @@ export default function DrainCleaningPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar mascot>
+        <MainWithSidebar mascot couponTitle="Drain Unclog">
           {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
             Local Drain Cleaning Pros Who Know {site.serviceArea}

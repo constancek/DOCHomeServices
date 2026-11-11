@@ -82,8 +82,8 @@ const config: ServiceLocationConfig = {
   steps: {
     heading: 'What to Expect From Home Rewiring in {neighborhood}',
     items: [
-      { icon: 'search', title: 'We Test the Wiring First', text: 'Circuits, outlets, grounding and the panel feeding them.' },
-      { icon: 'tag', title: 'You Approve the Scope and Price', text: 'A written scope and flat-rate price before a wall is opened.' },
+      { icon: 'plugConnected', title: 'We Test the Wiring First', text: 'Circuits, outlets, grounding and the panel feeding them.' },
+      { icon: 'fileDollar', title: 'You Approve the Scope and Price', text: 'A written scope and flat-rate price before a wall is opened.' },
       { icon: 'certificate', title: 'Permit and Inspection Handled', text: 'We pull the permit and see it through final inspection.' },
     ],
   },

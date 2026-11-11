@@ -105,7 +105,7 @@ export default function AirConditioningPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
+        <MainWithSidebar mascot couponTitle="Happy House Cooling Checkup">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/ac-hero.webp)' }}

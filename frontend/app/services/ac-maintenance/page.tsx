@@ -104,7 +104,7 @@ export default function ACMaintenancePage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar mascot couponTitle="Furnace Tune-Up">
+        <MainWithSidebar mascot couponTitle="Happy House Cooling Checkup">
           {/* One-format top section: local pros + emergency, one paragraph each */}
           <h2 className="section-title text-brand-700">
             Local AC Maintenance Pros Who Know {site.serviceArea}

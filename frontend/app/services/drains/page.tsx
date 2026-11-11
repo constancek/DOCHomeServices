@@ -102,7 +102,7 @@ export default function DrainsPage() {
 
       {/* Intro + sidebar */}
       <section className="py-16">
-        <MainWithSidebar mascot>
+        <MainWithSidebar mascot couponTitle="Drain Unclog">
           <div
             className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center"
             style={{ backgroundImage: 'url(/services/drains-hero.webp)' }}
