@@ -326,14 +326,14 @@ export default function LocationServicePage({
           </div>
 
           {/* Bottom CTA */}
-          <div className="mt-24 rounded-3xl bg-blue-section px-6 pb-7 pt-6 text-center text-white sm:mt-32 sm:px-8">
+          <div className="mt-24 rounded-3xl bg-blue-section px-6 pb-7 pt-6 text-center text-white sm:mt-32 sm:px-8 lg:mt-40">
             <img
               src="/van-cutout.webp"
               width={800}
               height={346}
               alt={`${site.name} service van`}
               loading="lazy"
-              className="mx-auto -mt-[86px] mb-3 h-auto w-72 drop-shadow-xl sm:-mt-[107px] sm:w-96"
+              className="mx-auto -mt-[86px] mb-3 h-auto w-72 drop-shadow-xl sm:-mt-[107px] sm:w-96 lg:-mt-[139px] lg:w-[500px]"
             />
             <h2 className="text-2xl font-extrabold sm:text-3xl">Need {config.serviceName} in {loc.neighborhood}?</h2>
             <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
