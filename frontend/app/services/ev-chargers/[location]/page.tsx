@@ -9,6 +9,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'ev-chargers',
   serviceName: 'EV Charger Installation',
+  localHeadingName: 'EV Charger Installation',
+  emergencyHeading: 'Urgent EV Charging Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'EV Charger Installation',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
@@ -77,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'Can I install an EV charger outside?', a: 'Yes. Many charging units are rated for outdoor installation. Proper mounting and weather protection are essential, and we handle both.' },
     { q: `Does ${site.name} offer financing options?`, a: `Yes. We offer financing options to help make EV charger installation more affordable for homeowners across ${site.serviceArea}.` },
   ],
+  steps: {
+    heading: 'What to Expect From EV Charger Installation in {neighborhood}',
+    items: [
+      { icon: 'breakerPanel', title: 'We Check the Panel First', text: 'Panel capacity, a load calculation and the run to where you park.' },
+      { icon: 'fileDollar', title: 'You Approve the Plan and Price', text: 'The charger, the circuit and a flat-rate price before any wire is pulled.' },
+      { icon: 'chargingPile', title: 'Installed, Permitted and Tested', text: 'We pull the permit, install to code and test the charger before we leave.' },
+    ],
+  },
   related: [
     { label: 'EV Charger Installation (overview)', href: '/services/ev-chargers' },
     { label: 'Electrical Panel Replacement', href: '/services/electrical-panel-replacement' },

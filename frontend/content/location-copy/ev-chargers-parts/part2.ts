@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'EV charging in Queensgate is usually for fleet vehicles or employee parking at warehouses, offices and light-industrial buildings. That often means several Level 2 chargers and a heavier draw than a home install, so we check whether the service can carry the combined load first.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. EV charging here tends to be for fleet vehicles or employee parking rather than a single-family garage, which often means several chargers and a heavier draw than a typical home install.',
-      'The older industrial buildings in Queensgate carry electrical services of widely varying age and capacity, so a load calculation matters even more when multiple chargers are involved. We assess the existing service, size the dedicated circuits, and recommend a subpanel or service upgrade where the demand calls for it. As a licensed electrical contractor we handle commercial-scale charging the same careful way as a home install — code-compliant from the service out.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, EV charging usually means several chargers and a hard look at whether the service can carry the combined load:',
-    localFaqs: [
-      {
-        q: 'Can you install multiple EV chargers at a Queensgate commercial building?',
-        a: 'Yes. Multiple chargers add significant load, so we start with a calculation on the building’s service and size the circuits accordingly. Where the demand exceeds capacity we plan a subpanel or service upgrade, all as licensed, code-compliant work.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'Tight on-street parking and aging panels shape most CUF EV charger installations. In the dense 19th- and early-1900s homes of Clifton Heights, University Heights and Fairview, a charger often needs an outdoor, weather-rated unit and a route that works on a narrow lot. We check capacity first.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'Will my older South Cumminsville home need a panel upgrade for a charger?',
         a: 'Possibly — the older homes here run on aging service, so we run a load calculation first. If the panel has room we add a dedicated 240V circuit; if not, we will plan an upgrade as licensed, code-compliant work.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'On the English Woods hilltop, EV charger installation depends on which kind of house you have. Redeveloped homes may carry newer service with room to spare, while older houses run on aging panels. The panel evaluation decides the job, and then we install the Level 2 charger.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The redeveloped homes may carry newer electrical service with room to spare, while the older houses run on aging panels — so the panel evaluation is what determines the job here.',
-      'On the hilltop lots, garages and parking can sit at a different grade from the panel, so a charger circuit sometimes needs a longer run or a subpanel. We run a load calculation on the existing service first, add a dedicated 240V circuit where there is capacity, and recommend an upgrade where an older English Woods panel cannot carry it. All of it is licensed, code-compliant work.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, charging usually depends on the age of the panel and the run from it to the parking spot:',
-    localFaqs: [
-      {
-        q: 'How do I know if my English Woods home can support an EV charger?',
-        a: 'We run a load calculation on your panel. English Woods has a mix of older and redeveloped homes, so capacity varies — where there is room we add a dedicated 240V circuit, and where there is not we plan an upgrade, all to code.',
       },
     ],
   },
