@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Queensgate receptacles and switches take far heavier use than a home’s, since this district west of downtown is mostly warehouses, offices and light-industrial buildings. Wiring in older industrial buildings often predates current GFCI rules for wet and outdoor areas, so GFCI upgrades are common.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Receptacles and switches in these settings take far heavier use than in a home, and the wiring in older industrial buildings often predates current GFCI requirements for wet and outdoor areas.',
-      'In Queensgate’s warehouses and offices, the common work is replacing worn or damaged receptacles, adding outlets where equipment layouts have changed, and installing GFCI protection in damp or wash-down areas. We handle switch repairs and added circuits for these buildings as well as for the area’s homes. Queensgate is in our service area just west of downtown.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the switch and outlet work we handle most often comes from heavy use and wiring that predates current GFCI rules:',
-    localFaqs: [
-      {
-        q: 'Do you replace outlets and switches in Queensgate commercial buildings?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we handle outlet and switch work for those buildings as well as homes, with permitted, code-compliant repairs.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'In CUF (Clifton Heights, University Heights & Fairview), outlet work mostly happens in old homes near UC split into student rentals. The sparse original wiring rarely kept up, so bedrooms and shared spaces often have one ungrounded outlet for several students’ devices.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'How fast can you add GFCI outlets in a South Cumminsville home?',
         a: 'GFCI upgrades are quick, and South Cumminsville is within our service area in the Mill Creek valley, so we can usually schedule promptly. The work is permitted and code-compliant.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'Most outlet and switch work in English Woods goes into older hilltop homes wired with few outlets and, in much of the original stock, ungrounded receptacles. Kitchens and baths there were left without GFCI protection, which we add alongside grounded outlets.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here were wired with few outlets and, in much of the original stock, ungrounded receptacles, so rooms fall short of modern use.',
-      'In English Woods’ older homes, the original wiring left kitchens and baths without GFCI protection and rooms short of outlets for today’s electronics. We add receptacles where they are needed, replace ungrounded outlets and worn switches, and bring wet-area receptacles up to a code-compliant GFCI standard. English Woods is within our west-side service area.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the switch and outlet problems we see most often come from sparse, ungrounded wiring under modern loads:',
-    localFaqs: [
-      {
-        q: 'How fast can you reach English Woods to add outlets?',
-        a: 'English Woods is within our west-side service area, so we can usually schedule outlet work promptly. The work is permitted and code-compliant.',
       },
     ],
   },

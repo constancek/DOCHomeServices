@@ -9,6 +9,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'switches-outlets',
   serviceName: 'Switches & Outlets',
+  localHeadingName: 'Switch and Outlet',
+  emergencyHeading: 'Urgent Outlet and Switch Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Switches & Outlets',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
@@ -77,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'How do I know if I need outlet installation services?', a: 'Consider installation if your home lacks sufficient outlets or you experience issues like tripped breakers and over-reliance on extension cords.' },
     { q: 'Why is outlet installation important?', a: 'Proper installation ensures safe, efficient power distribution while protecting your home and devices from electrical issues.' },
   ],
+  steps: {
+    heading: 'What to Expect From Switch and Outlet Work in {neighborhood}',
+    items: [
+      { icon: 'plugConnected', title: 'We Test the Outlets First', text: 'Grounding, load, the circuit and the panel behind it.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'What needs fixing or adding, and a flat-rate price before work begins.' },
+      { icon: 'check', title: 'Wired, Grounded and Tested', text: 'Wired to code, then tested for grounding, power and stability under load.' },
+    ],
+  },
   related: [
     { label: 'Switches & Outlets (overview)', href: '/services/switches-outlets' },
     { label: 'Electrical Panel Replacement', href: '/services/electrical-panel-replacement' },
