@@ -44,7 +44,8 @@ export type IconName =
   | 'plugConnected'
   | 'fileDollar'
   | 'chargingPile'
-  | 'breakerPanel';
+  | 'breakerPanel'
+  | 'shieldBolt';
 
 const paths: Record<IconName, ReactNode> = {
   // breakerPanel: drawn for this site (a panel door with two rows of breakers).
@@ -142,6 +143,13 @@ const paths: Record<IconName, ReactNode> = {
   ),
   star: <path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.8 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z" />,
   shield: <path d="M12 2.5 4 5.5v6c0 5 3.4 8.5 8 10 4.6-1.5 8-5 8-10v-6z" />,
+  // shieldBolt: drawn for this site (a shield with a lightning bolt, for surge protection).
+  shieldBolt: (
+    <>
+      <path d="M12 2.5 4 5.5v6c0 5 3.4 8.5 8 10 4.6-1.5 8-5 8-10v-6z" />
+      <path d="M12.8 7.5 9.5 12.5h3l-.8 4 3.3-5h-3z" />
+    </>
+  ),
   clock: (
     <>
       <circle cx="12" cy="12" r="9" />

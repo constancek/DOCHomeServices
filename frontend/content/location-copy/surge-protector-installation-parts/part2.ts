@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Queensgate is mostly warehouses, offices and light-industrial buildings near the rail yards, so surge protection there is about motors, controls and office electronics. Heavy equipment cycling on the same service can send spikes through, and a panel device clamps them before they reach expensive controls.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Those buildings depend on motors, controls, and office electronics, and a transient off the grid or from heavy equipment cycling on the same service can damage all of it where there is no surge protective device.',
-      'A panel-level SPD clamps the spike at the service entrance and diverts it to ground before it reaches the equipment, the protection that matters most where one outage event can take down expensive controls, with point-of-use protection on the most sensitive gear. On a Queensgate building panel we confirm compatibility and breaker space, then install to code so the device ties correctly into the bus and ground.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the surge risk comes from sensitive equipment and electronics on panels with no surge protection:',
-    localFaqs: [
-      {
-        q: 'Do you install surge protection for commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we install panel-level surge protective devices for those buildings as well as homes, to code, after confirming the panel can accept one.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'In CUF (Clifton Heights, University Heights & Fairview), surge protection jobs land mostly in old houses near UC now split into rentals. They run modern electronics on old panels, and one grid spike can reach every unit on the same service, so we fit a device at the panel.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'Can you add surge protection to an older South Cumminsville home?',
         a: 'Yes. South Cumminsville is within our service area in the Mill Creek valley. We confirm the panel can accept a surge protective device and install it to code at the service entrance.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'English Woods surge protection covers older homes and redeveloped properties on the hilltop above the Mill Creek valley. Even the newer HVAC and electronics often sit on a service with no surge device, and overhead lines on the hill are where storm activity pushes spikes into the panel.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. Older homes here run modern equipment off panels that predate surge protection, and redeveloped properties with newer HVAC and electronics still often sit on a service with no surge protective device.',
-      'On a hilltop with overhead service, storm activity is exactly what pushes a transient into the panel. A whole-home SPD clamps that surge at the entrance and routes it to ground before it reaches the HVAC or electronics, with point-of-use strips on the sensitive gear. In an English Woods home we confirm panel compatibility and breaker space, then install to code.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the surge risk comes from modern equipment on aging panels and overhead service above the valley:',
-    localFaqs: [
-      {
-        q: 'Can you install surge protection on an older English Woods panel?',
-        a: 'Usually yes. We check the panel make and available breaker space first, and if it is too old or full we will tell you what is needed. It is licensed, panel-level work done to code.',
       },
     ],
   },

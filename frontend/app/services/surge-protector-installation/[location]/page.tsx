@@ -9,6 +9,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'surge-protector-installation',
   serviceName: 'Whole-Home Surge Protector Installation',
+  localHeadingName: 'Surge Protector Installation',
+  emergencyHeading: 'Urgent Power Surge Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Surge Protector Installation',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
@@ -77,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'Will surge protection increase the value of my home?', a: 'It can be an attractive feature for buyers and it protects valuable systems, but its main benefit is preventing the costly damage a surge can cause.' },
     { q: 'Can I install a surge protector myself?', a: 'No. A whole-home surge protector wires directly into your electrical panel and should be installed by a licensed electrician for safety and to meet code.' },
   ],
+  steps: {
+    heading: 'What to Expect From Surge Protector Installation in {neighborhood}',
+    items: [
+      { icon: 'breakerPanel', title: 'We Check the Panel First', text: 'Space and placement at the panel, and the equipment worth protecting.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'The device, where it goes and a flat-rate price before work begins.' },
+      { icon: 'shieldBolt', title: 'Installed, Tested and Verified', text: 'Installed to code and the maker’s guidelines, then tested before we leave.' },
+    ],
+  },
   related: [
     { label: 'Surge Protector Installation (overview)', href: '/services/surge-protector-installation' },
     { label: 'Electrical Panel Replacement', href: '/services/electrical-panel-replacement' },
