@@ -81,9 +81,9 @@ const config: ServiceLocationConfig = {
   steps: {
     heading: 'What to Expect From Ceiling Fan Installation in {neighborhood}',
     items: [
-      { icon: 'house', title: 'We Check the Ceiling Box First', text: 'Whether the box is fan-rated, the wiring and the wall switch.' },
+      { icon: 'search', title: 'We Check the Ceiling Box First', text: 'Whether the box is fan-rated, the wiring and the wall switch.' },
       { icon: 'fileDollar', title: 'You Approve the Price', text: 'What the job needs, and a flat-rate price before work begins.' },
-      { icon: 'wind', title: 'Mounted, Balanced and Tested', text: 'Anchored securely, then tested at every speed with the light and controls.' },
+      { icon: 'ceilingFan', title: 'Mounted, Balanced and Tested', text: 'Anchored securely, then tested at every speed with the light and controls.' },
     ],
   },
   related: [
