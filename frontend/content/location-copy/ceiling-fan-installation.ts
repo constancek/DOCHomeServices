@@ -6,6 +6,8 @@ import { part3 } from './ceiling-fan-installation-parts/part3';
 import { part4 } from './ceiling-fan-installation-parts/part4';
 import { part5 } from './ceiling-fan-installation-parts/part5';
 import { part6 } from './ceiling-fan-installation-parts/part6';
+// Fully localized towns (one format), wired in by ceiling-fan-installation-pilot/build-index.mjs.
+import { ceilingFanPilot } from './ceiling-fan-installation-pilot';
 
 // Per-neighborhood, ceiling-fan-installation-specific copy, drafted from each
 // neighborhood's real local facts in content/locations.ts.
@@ -16,6 +18,7 @@ const all: Record<string, LocationServiceCopy> = {
   ...part4,
   ...part5,
   ...part6,
+  ...ceilingFanPilot,
 };
 
 // Dev shows all 170; production build ships only the DEPLOYED_LOCATION_SLUGS cohort.

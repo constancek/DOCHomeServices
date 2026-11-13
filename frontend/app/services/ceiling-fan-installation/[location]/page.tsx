@@ -9,6 +9,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'ceiling-fan-installation',
   serviceName: 'Ceiling Fan Installation',
+  localHeadingName: 'Ceiling Fan Installation',
+  emergencyHeading: 'Urgent Ceiling Fan Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Ceiling Fan Installation',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
@@ -76,6 +78,14 @@ const config: ServiceLocationConfig = {
     { q: 'How do I choose the right ceiling fan size for my room?', a: 'Match the blade span to the room: larger rooms need wider blades, and ceiling height affects whether you need a down rod or a flush mount. We help you pick the right size and style for the space.' },
     { q: 'What should I do if my ceiling fan starts making noise?', a: 'Noise usually means loose mounting, unbalanced blades, or a worn motor. We can rebalance the blades, resecure the mount, or replace the fan if the motor is failing.' },
   ],
+  steps: {
+    heading: 'What to Expect From Ceiling Fan Installation in {neighborhood}',
+    items: [
+      { icon: 'house', title: 'We Check the Ceiling Box First', text: 'Whether the box is fan-rated, the wiring and the wall switch.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'What the job needs, and a flat-rate price before work begins.' },
+      { icon: 'wind', title: 'Mounted, Balanced and Tested', text: 'Anchored securely, then tested at every speed with the light and controls.' },
+    ],
+  },
   related: [
     { label: 'Ceiling Fan Installation (overview)', href: '/services/ceiling-fan-installation' },
     { label: 'Lighting Fixture Installation', href: '/services/lighting-fixture-installation' },

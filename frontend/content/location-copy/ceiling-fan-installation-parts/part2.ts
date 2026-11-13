@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Queensgate ceiling fan installation is mostly commercial. Shops and warehouses near the rail yards and Mill Creek have high open ceilings, and offices need a fan-rated mount and a down rod to bring the blades to a useful height. Each fan is wired to a switch or control.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Fan work here often means high open ceilings in shops and warehouses, or office spaces where a fan needs a fan-rated mount and a down rod to reach a useful height.',
-      'We anchor the fan to a fan-rated box, fit a down rod sized to the ceiling, and wire it to a switch or control so it runs safely in a working space. The buildings vary from older industrial stock to newer offices, and we handle the wiring either way. We cover Queensgate as part of our service area just west of downtown.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the ceiling-fan work we handle most often involves high open ceilings and proper fan-rated mounts:',
-    localFaqs: [
-      {
-        q: 'Do you install fans in commercial buildings in Queensgate?',
-        a: 'Yes. We mount fans on fan-rated boxes with down rods sized to high shop and office ceilings, wired safely to a switch or control. Queensgate is within our service area just west of downtown.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'Warm third-floor bedrooms in subdivided rentals are where ceiling fan installation in CUF pays off. The 19th- and early-1900s houses near UC in Clifton Heights, University Heights and Fairview have tall plaster ceilings and light-only boxes, so we fit fan-rated mounts and a down rod.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'My South Cumminsville fan wobbles — can you fix it?',
         a: 'Usually the box was never rated for a fan. We replace it with a fan-rated box anchored to the framing and balance the fan. South Cumminsville is within our service area in the Mill Creek valley.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'English Woods ceiling fan installation depends on the house. Older homes on this hilltop above the Mill Creek valley have light-only boxes that cannot carry a fan, while redeveloped homes are good candidates for adding fans where none existed. Either way, the fan goes on a fan-rated box.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here were wired for light fixtures on plaster ceilings, so their original boxes cannot carry a fan, while redeveloped homes are good candidates for adding fans where none existed.',
-      'We mount a fan-rated box anchored to the framing, then wire the fan to a switch or remote so it runs without a wobble. Adding a fan to a warm bedroom and replacing a tired old one are the jobs we do most here. English Woods is within our west-side service area.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the ceiling-fan work we handle most often comes from light-only boxes never meant to hold a fan:',
-    localFaqs: [
-      {
-        q: 'How fast can you install a ceiling fan in English Woods?',
-        a: 'Most installs are a single visit once we confirm the box; if it is not fan-rated we swap it first. It is licensed work, and English Woods is within our west-side service area.',
       },
     ],
   },
