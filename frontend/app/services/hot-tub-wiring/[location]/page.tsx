@@ -9,6 +9,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'hot-tub-wiring',
   serviceName: 'Hot Tub Wiring',
+  localHeadingName: 'Hot Tub Wiring',
+  emergencyHeading: 'Urgent Hot Tub Electrical Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Hot Tub Wiring',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
@@ -77,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'What safety measures do you follow during installation?', a: 'We follow NEC standards, install GFCI protection, verify proper grounding and bonding, confirm correct wire gauge, and test system performance.' },
     { q: 'Will I need to upgrade my breaker panel for a hot tub?', a: 'In some cases, yes. If your existing breaker panel does not have enough capacity for a dedicated circuit, an upgrade may be required. We inspect your electrical system and explain your options before work begins.' },
   ],
+  steps: {
+    heading: 'What to Expect From Hot Tub Wiring in {neighborhood}',
+    items: [
+      { icon: 'breakerPanel', title: 'We Check the Panel First', text: 'Capacity, space for the spa breaker and the manufacturer’s electrical requirements.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'What the job needs, and a flat-rate price before any conduit goes in.' },
+      { icon: 'shieldBolt', title: 'Wired, Bonded and Tested', text: 'A dedicated GFCI circuit, the disconnect and bonding, then a safe startup test.' },
+    ],
+  },
   related: [
     { label: 'Hot Tub Wiring (overview)', href: '/services/hot-tub-wiring' },
     { label: 'Electrical Panel Replacement', href: '/services/electrical-panel-replacement' },

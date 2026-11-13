@@ -30,7 +30,7 @@ When writing **any blog post, service page, or customer-facing copy**, read the 
 - Use real numbers from `stats.md`, never round
 - One story per post max (from `stories.md`, don't invent new ones)
 - One strong opinion per post max (from `opinions.md`, backed by a number)
-- Tell people when NOT to hire you — biggest voice tell
+- Blog posts: tell people when NOT to hire you. Service and location pages: never tell readers they don't need us, should skip the call or should hire someone else (owner's decision, Nov 13, 2026); quick safety checks (reset the breaker, change the filter) are fine as plain advice
 
 
 Before shipping any writing, re-read `references/voice.md` → "Tells that it's AI-written" and delete anything that matches.

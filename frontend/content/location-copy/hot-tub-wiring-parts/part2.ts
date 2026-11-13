@@ -209,21 +209,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro: 'Spa wiring in Queensgate is usually commercial, for a fitness facility, office amenity or converted space among the warehouses and light-industrial buildings near the rail yards. Older industrial service needs a close look first. Then we handle the 240V GFCI circuit, disconnect, weather-rated conduit and bonding.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Spa and hot tub wiring here tends to be for a commercial setting — a fitness facility, an office amenity, or a converted space — rather than a backyard, which means a larger service and more complex panel layout to evaluate.',
-      'In an older industrial building, finding capacity for a 240V GFCI spa circuit means looking closely at the existing service before anything is added. The code requirements still apply: a GFCI-protected disconnect within sight of the tub, weather-rated conduit, and bonding of the metal around it. The low ground near the Mill Creek is prone to flooding, so a weather-tight, well-bonded install matters even more, and where the panel falls short we plan an upgrade as licensed work.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, a hot tub or spa circuit comes down to evaluating a larger service and running a bonded, weather-tight 240V GFCI feed:',
-    localFaqs: [
-      {
-        q: 'Do you wire spas in commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we evaluate the building’s service before adding a 240V GFCI spa circuit. We handle the disconnect, weather-rated conduit, and bonding to code, and plan a panel upgrade if needed.',
-      },
-    ],
-  },
   'cuf': {
     intro: 'Steep, small lots in Clifton Heights, University Heights and Fairview decide where a hot tub can go in CUF. The older rentals there run on subdivided, heavily used panels, so we evaluate the service first, then run weather-rated conduit to wherever the tub fits.',
     relevance: [
@@ -326,21 +311,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'Is it safe to wire a hot tub on the low ground in South Cumminsville?',
         a: 'Yes, when it is done to code. We evaluate the older panel first, then run weather-rated conduit, a GFCI disconnect within sight of the tub, and thorough bonding — important on the Mill Creek valley’s damp lots. It is licensed work throughout.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro: 'English Woods yards on the hilltop over the Mill Creek valley slope in ways that shape where a hot tub can go. Older homes may need a panel upgrade while redeveloped ones often have room, so we evaluate first, then run weather-rated conduit and bond railings or decking.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here run on aging electrical service, so a panel evaluation is the first step before adding a 240V spa load, while any newer redeveloped homes may have more headroom.',
-      'The hilltop setting shapes where a spa pad sits and how the weather-rated conduit runs to it, and the bonding has to take in any metal railings or decking around the tub. We set a GFCI-protected disconnect within sight of the spa and confirm the panel can carry the circuit before energizing it. Where an older service falls short, we plan the upgrade as licensed, code-compliant work.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, a hot tub circuit comes down to a panel evaluation and a properly bonded 240V GFCI run on sloping ground:',
-    localFaqs: [
-      {
-        q: 'Can my English Woods home handle a hot tub circuit?',
-        a: 'It depends on the panel, so we evaluate the service first; older homes here may need an upgrade while newer redeveloped ones often have room. Either way we add the dedicated 240V GFCI circuit and bonding as licensed work.',
       },
     ],
   },
