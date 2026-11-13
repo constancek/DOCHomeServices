@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -8,17 +9,19 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'mini-split-installation',
   serviceName: 'Mini-Split Installation',
+  localHeadingName: 'Mini-Split Installation',
+  emergencyHeading: 'Fast Mini-Split Installation in {neighborhood}',
   eyebrow: 'Air Conditioning · Mini-Splits',
   hubLabel: 'Mini-Split Installation',
-  parentCrumb: { label: 'Mini-Splits', href: '/services/mini-splits' },
+  parentCrumb: { label: 'Air Conditioning', href: '/services/air-conditioning' },
   businessType: 'HVACBusiness',
   schemaServiceType: 'Mini-Split Installation',
-  ctaLine: 'Want a mini-split installed in {neighborhood}? Call for a free estimate',
-  heroImage: '/services/minisplit-install-hero.jpg',
+  ctaLine: 'Want a mini-split installed in {neighborhood}? Call for an estimate',
+  heroImage: '/services/minisplit-install-hero.webp',
   introHeading: 'Ductless Mini-Split Installation in {neighborhood}',
   introParagraphs: [
     'A ductless mini-split brings flexible cooling and heating to the rooms a central system never reaches — and it goes in without ductwork. {brand} installs mini-splits for homeowners in {place}, sizing the system and placing each indoor head where the comfort is actually needed.',
-    'Because a clean, properly sized install is what makes a mini-split efficient and quiet, our trained technicians handle the sizing, refrigerant, and electrical to code — with upfront flat-rate pricing, financing, and free estimates.',
+    'Because a clean, properly sized install is what makes a mini-split efficient and quiet, our trained technicians handle the sizing, refrigerant, and electrical to code — with upfront flat-rate pricing, financing, and estimates.',
   ],
   sidebarSections: [
     {
@@ -36,12 +39,12 @@ const config: ServiceLocationConfig = {
     },
   ],
   relatedCards: [
-    { slug: 'mini-splits', title: 'Mini-Splits (overview)' },
+    { slug: 'indoor-air-quality', title: 'Indoor Air Quality' },
     { slug: 'mini-split-repair', title: 'Mini-Split Repair' },
     { slug: 'ac-installation-replacement', title: 'AC Installation & Replacement' },
     { slug: 'heat-pumps', title: 'Heat Pumps' },
   ],
-  band1Image: '/services/mini-split-installation.jpg',
+  band1Image: '/services/mini-split-installation.webp',
   band1Heading: 'Signs It’s Time for a Mini-Split in Your {neighborhood} Home',
   commonSituations: [
     'An addition, attic, or finished basement the main system cannot reach',
@@ -53,7 +56,7 @@ const config: ServiceLocationConfig = {
     'A desire for quiet, zoned, energy-efficient comfort',
   ],
   trustedBanner: 'Your Local & Trusted Mini-Split Installers in {neighborhood}',
-  band2Image: '/services/minisplit-install-hero.jpg',
+  band2Image: '/services/minisplit-install-hero.webp',
   band2Heading: 'Our Mini-Split Installation Process in {neighborhood}',
   band2Paragraphs: [
     'We start with a review of your home and comfort goals, then recommend the right system size and where each indoor head should go — and explain the flat-rate price before any work begins.',
@@ -63,15 +66,10 @@ const config: ServiceLocationConfig = {
     { title: 'Why Professional Installation Matters', body: 'A mini-split is only as good as its install. Incorrect sizing, low refrigerant, or sloppy electrical work cuts efficiency and shortens the system’s life. We handle the sizing, charge, and connections correctly so your {neighborhood} system runs efficiently, keeps its manufacturer warranty intact, and delivers steady comfort from day one.' },
     { title: 'Built for Additions and Older {neighborhood} Homes', body: 'Mini-splits shine in additions, remodeled rooms, finished basements, garages, and the older homes across {neighborhood} that were never built with ductwork. Because they need no ducts, they install without major structural changes, and each indoor head goes exactly where the comfort is needed.' },
     { title: 'Efficiency and Zoned Control', body: 'A mini-split conditions the rooms you actually use instead of the whole house, and inverter-driven compressors adjust output to demand rather than cycling hard. For a {neighborhood} home with hot and cold spots, independent zone control means each space holds its temperature without overworking the system or wasting energy.' },
-    { title: 'Financing and Free Estimates in {neighborhood}', body: 'A ductless system is an investment in comfort, and it does not have to wait on budget. We offer flexible financing and free estimates, so a {neighborhood} homeowner can move forward with the right system on a payment plan that fits.' },
+    { title: 'Financing and Estimates in {neighborhood}', body: 'A ductless system is an investment in comfort, and it does not have to wait on budget. We offer flexible financing and estimates, so a {neighborhood} homeowner can move forward with the right system on a payment plan that fits.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'check', title: 'Right-Sized Zones', text: 'We size the system and indoor heads to your home so it performs efficiently.' },
-    { icon: 'badge', title: 'Clean, Tidy Install', text: 'A small line-set penetration — no tearing into walls for ductwork.' },
-    { icon: 'shield', title: 'Licensed & Insured', text: 'Background-checked technicians and code-compliant, tested installs.' },
-    { icon: 'star', title: 'Financing Available', text: 'Flexible plans so an efficient upgrade fits your budget.' },
-  ],
+  whyParagraph: 'We size the outdoor unit and each indoor head to your {neighborhood} home, so the system runs efficiently. The install needs only a small hole for the line set, not new ductwork, and financing is available to spread the cost.',
   proofQuote:
     'They installed a single-zone mini-split in our converted attic office. Sized it right, kept the line set tidy, and tested everything before leaving. The room finally stays comfortable year-round and the unit is almost silent.',
   sharedFaqs: [
@@ -81,9 +79,16 @@ const config: ServiceLocationConfig = {
     { q: 'What are the signs I need a new ductless mini-split system?', a: 'Rooms that no longer cool or heat evenly, weak airflow, rising energy bills, ongoing comfort issues, and an aging system that no longer meets your needs are all signs it may be time for a new system.' },
     { q: 'Are ductless mini-split systems quiet?', a: 'Very. The indoor heads run quietly — far quieter than a window unit — which makes them a great fit for bedrooms, offices, and living spaces.' },
   ],
+  steps: {
+    heading: 'What to Expect From Mini-Split Installation in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Size Each Room', text: 'Every indoor head and the outdoor unit, sized to the space.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A flat rate, before any work starts.' },
+      { icon: 'snowflake', title: 'Tested Before We Leave', text: 'Each head cooling and heating, the drain checked.' },
+    ],
+  },
   related: [
     { label: 'Mini-Split Installation (overview)', href: '/services/mini-split-installation' },
-    { label: 'Mini-Splits', href: '/services/mini-splits' },
     { label: 'Mini-Split Repair', href: '/services/mini-split-repair' },
     { label: 'AC Installation & Replacement', href: '/services/ac-installation-replacement' },
     { label: 'Heat Pumps', href: '/services/heat-pumps' },
@@ -103,15 +108,15 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
-    title: `Mini-Split Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+  return withSocial({
+    title: `Mini-Split Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Ductless mini-split installation in ${place} — efficient, properly sized, zoned cooling and heating without ductwork. Financing available. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/mini-split-installation/${loc.slug}` },
     openGraph: {
       title: `Mini-Split Installation in ${place} | ${site.name}`,
       description: `Ductless mini-split installation serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function MiniSplitInstallationLocationPage({

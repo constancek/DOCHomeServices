@@ -1,6 +1,6 @@
 export const part4: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'reading': {
-    intro: 'Tired of recurring leaks and rusty water in your Reading home? Our licensed plumbers repipe aging galvanized supply lines with modern PEX or copper to restore clean water and steady pressure. Call (513) 586-5107.',
+    intro: 'Reading repiping in older and mid-century homes in the Mill Creek valley replaces galvanized steel that has narrowed until water comes out brown at first draw and pressure sags upstairs. Once one threaded joint weeps, the rest usually follow. A staged PEX or copper repipe ends it.',
     relevance: [
       'Reading (ZIP 45215) is a city in the Mill Creek valley north of Cincinnati, with a settled mix of older and mid-century homes. The galvanized steel supply lines common to that housing era corrode from the inside out, narrowing the bore until water comes out brown at the first draw and pressure sags at the upstairs fixtures.',
       'Once one galvanized line starts weeping at a threaded joint, the rest of the system is usually close behind, which is why a string of small repairs rarely ends the trouble in these older Reading houses. A whole-house repipe in PEX or copper replaces the corroded steel in one staged job, so you stop chasing leaks and get clean water back at every tap.',
@@ -14,7 +14,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dent': {
-    intro: 'Recurring leaks or low pressure in your Dent home? Our licensed plumbers replace aging supply lines with PEX or copper to bring back clean water and steady flow. Call (513) 586-5107.',
+    intro: 'Dent repiping mostly involves mid-century Green Township homes still on original galvanized supply lines that corrode and scale until pressure drops and pinhole leaks appear behind walls. Leaks that keep coming mean the whole run is near the end. We stage PEX or copper to keep water on.',
     relevance: [
       'Dent (ZIP 45247) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. The mid-century houses here often still run on the original galvanized supply lines, which corrode and scale until pressure drops and pinhole leaks start showing up behind walls.',
       'Worn supply lines that keep springing leaks are a sign the whole run is near the end of its life, not just the one section that failed. A staged repipe in PEX or copper swaps out the tired galvanized for good, so Dent homeowners stop patching the same lines year after year.',
@@ -28,7 +28,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'deer-park': {
-    intro: 'Discolored water or pinhole leaks in your Deer Park home? Our licensed plumbers repipe corroded supply lines with PEX or copper to restore clean water and pressure. Call (513) 586-5107.',
+    intro: 'When a mid-century Deer Park house starts leaking at one threaded joint, the same rust is usually working on every run in the wall, which is why whole-house repiping makes sense here. Discolored water and falling pressure are the signs. PEX or copper goes in as one planned job.',
     relevance: [
       'Deer Park (ZIP 45236) is a small, settled city on the east side, made up largely of mid-century single-family homes on quiet streets. Homes of that era are now at the age where galvanized supply lines corrode and water heaters fail, and corroding lines are exactly what drives discolored water and falling pressure.',
       'When a mid-century Deer Park house starts leaking at one threaded joint, the same scale and rust are usually working on every run in the wall. Rather than reopen the drywall every season, a whole-house repipe in PEX or copper replaces the failing steel in one planned job.',
@@ -42,7 +42,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'terrace-park': {
-    intro: 'Aging plumbing acting up in your Terrace Park home? Our licensed plumbers repipe corroded supply lines with PEX or copper to protect the finished spaces in these established homes. Call (513) 586-5107.',
+    intro: 'Terrace Park repiping in established early-1900s homes near the Little Miami River often replaces supply lines patched in sections over the decades. Corroded originals leak into finished walls and ceilings without warning. These houses are sizable, so we stage the PEX or copper work around the family.',
     relevance: [
       'Terrace Park (ZIP 45174) is an affluent east-side village near the Little Miami River, known for its established early-1900s homes and tree-lined streets. Plumbing that old has often been patched in sections over the decades, leaving a mix of corroded original supply lines that leak without warning into finished walls and ceilings.',
       'These early-1900s houses tend to be sizable with multiple baths, so a repipe is a real job — but it ends the slow drip-by-drip damage that threatens plaster, trim, and refinished spaces. Our licensed plumbers stage a PEX or copper repipe to fit an occupied home and restore clean water and steady pressure throughout.',
@@ -56,7 +56,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dry-run': {
-    intro: 'Leaks or low pressure in your Dry Run home? Our licensed plumbers replace corroding supply lines with PEX or copper to restore clean water and steady flow. Call (513) 586-5107.',
+    intro: 'Dry Run repiping in Anderson Township replaces two materials: galvanized supply lines that scale and corrode in mid-century houses, and polybutylene that fails at the fittings in some newer homes. Repeat leaks or weak pressure at several fixtures at once usually mean it is time.',
     relevance: [
       'Dry Run (ZIP 45244) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. The mid-century houses are the ones reaching the age where galvanized supply lines scale up and corrode, and even the older end of the newer stock can carry polybutylene that fails at the fittings.',
       'A repipe makes sense once a Dry Run home is springing repeat leaks or showing weak pressure across several fixtures at once. Our licensed plumbers replace the failing material — galvanized or polybutylene — with PEX or copper in a staged job, so the whole system comes up to date together.',
@@ -70,7 +70,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'white-oak': {
-    intro: 'Recurring leaks or rusty water in your White Oak home? Our licensed plumbers repipe aging supply lines with PEX or copper to bring back clean water and steady pressure. Call (513) 586-5107.',
+    intro: 'White Oak repiping usually follows a string of leaks from worn galvanized supply lines in mid-century Green Township homes. That pipe corrodes inside until water runs rusty and pressure thins at the far fixtures. A staged PEX or copper repipe fixes the whole house in one pass.',
     relevance: [
       'White Oak (ZIP 45247) is a settled Green Township community on the northwest side, made up largely of mid-century and newer single-family homes. The mid-century houses commonly still carry galvanized supply lines, which corrode internally until the water runs rusty and pressure thins out at the far fixtures.',
       'Worn supply lines that keep leaking are the usual reason a White Oak homeowner moves from spot repairs to a full repipe. Our licensed plumbers stage the work and replace the galvanized with PEX or copper, so the whole house gets clean water and reliable pressure in one pass.',
@@ -84,7 +84,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'forestville': {
-    intro: 'Pinhole leaks or discolored water in your Forestville home? Our licensed plumbers repipe corroded supply lines with PEX or copper to restore clean, steady water. Call (513) 586-5107.',
+    intro: 'Forestville repiping covers mid-century homes with galvanized lines that corrode through and 1970s to 90s houses that may hold polybutylene splitting at the joints. Once repeat leaks or murky water start, a whole-house repipe in PEX or copper usually beats another round of patches.',
     relevance: [
       'Forestville (ZIP 45230) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. Homes of that era reach the age where galvanized supply lines corrode through, and the older 1970s-to-90s houses can hold polybutylene that splits at the joints.',
       'Once a Forestville home is dealing with repeat leaks or murky water, a whole-house repipe usually costs less heartache than another round of patches. Our licensed plumbers replace the failing galvanized or polybutylene with PEX or copper in a staged job that brings the whole system up to date.',
@@ -98,7 +98,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'cherry-grove': {
-    intro: 'Aging pipes leaking in your Cherry Grove home? Our licensed plumbers replace corroded supply lines with PEX or copper to restore clean water and pressure. Call (513) 586-5107.',
+    intro: 'A burst pipe or a string of small leaks in a Cherry Grove home usually means the original supply material is done and repiping is due. Mid-century houses have corroding galvanized, and some newer ones hold polybutylene. Most single-family repipes take a matter of days.',
     relevance: [
       'Cherry Grove (ZIP 45230) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. The mid-century stock often still runs on galvanized supply lines that corrode and scale, while the newer-but-aging houses can hold polybutylene prone to failure.',
       'A burst pipe or a string of small leaks in a Cherry Grove home is usually the sign that the original material has reached the end of its service life. Our licensed plumbers stage a PEX or copper repipe to replace the whole run, so you stop reacting to one failure after another.',
@@ -112,7 +112,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'kenwood': {
-    intro: 'Aging plumbing in your larger Kenwood home? Our licensed plumbers repipe corroded supply lines with PEX or copper to restore clean water and steady pressure across many baths. Call (513) 586-5107.',
+    intro: 'Kenwood repiping in the larger multi-bath homes near Kenwood Towne Centre is a sizable job, since corroding supply lines show symptoms at many fixtures at once. One failing run usually means the rest is near the end. We stage PEX or copper bath by bath.',
     relevance: [
       'Kenwood (ZIP 45236) is an upscale, unincorporated community on the east side around Kenwood Towne Centre, with mid-century homes alongside newer, larger houses. The larger homes carry extensive plumbing and several baths, so when supply lines start corroding the symptoms show up across many fixtures at once.',
       'A repipe in a big Kenwood house is a sizable but worthwhile job, since one failing run usually means the rest of the original material is near the end too. Our licensed plumbers stage the PEX or copper work bath by bath, replacing the aging supply lines without taking the whole home out of service at once.',
@@ -126,7 +126,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'lincoln-heights': {
-    intro: 'Rusty water or recurring leaks in your Lincoln Heights home? Our licensed plumbers repipe aging supply lines with PEX or copper to restore clean water and steady pressure. Call (513) 586-5107.',
+    intro: 'Lincoln Heights repiping in the older, modest homes of this historic Mill Creek valley community replaces galvanized lines corroding from inside, which turn water rusty and choke pressure. Repeated leaks at the same joints make a whole-house repipe more sensible than another patch.',
     relevance: [
       'Lincoln Heights (ZIP 45215) is a historic community in the Mill Creek valley north of the city — one of the first self-governed Black municipalities in the northern United States — with older, modest homes. Those older houses commonly run on galvanized supply lines that corrode from the inside, turning the water rusty and choking off pressure.',
       'In a modest, older Lincoln Heights home, repeated leaks at the same corroded joints make a whole-house repipe the more sensible fix than another patch. Our licensed plumbers replace the tired galvanized with PEX or copper in a staged job and restore clean, steady water throughout.',
@@ -140,7 +140,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dillonvale': {
-    intro: 'Corroded pipes leaking in your Dillonvale home? Our licensed plumbers replace aging supply lines with PEX or copper to restore clean water and pressure. Call (513) 586-5107.',
+    intro: 'Dillonvale repiping near Kenwood mostly involves mid-century homes whose galvanized supply lines are corroding, causing discolored water and weak pressure. When one threaded joint leaks, the same corrosion is working on the whole system. A staged PEX or copper repipe replaces it at once.',
     relevance: [
       'Dillonvale (ZIP 45236) is a Sycamore Township community on the east side near Kenwood, with settled neighborhoods of mid-century homes. Homes of that era are now at the age where galvanized supply lines corrode and water heaters fail, and corroding lines drive the discolored water and weak pressure homeowners notice first.',
       'When a mid-century Dillonvale home starts leaking at the threaded joints, the same internal corrosion is usually working on the whole supply system. Our licensed plumbers stage a PEX or copper repipe to replace the failing galvanized in one planned job rather than chasing leaks one at a time.',
@@ -154,7 +154,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'woodlawn': {
-    intro: 'Recurring leaks or low pressure in your Woodlawn home? Our licensed plumbers repipe aging supply lines with PEX or copper to bring back clean, steady water. Call (513) 586-5107.',
+    intro: 'Leaks in more than one spot are the usual reason for repiping in Woodlawn’s older homes, since corrosion is rarely limited to the section that failed. Galvanized supply lines on the village’s residential streets corrode until pressure fades and water runs cloudy. PEX or copper replaces them.',
     relevance: [
       'Woodlawn (ZIP 45215) is a village in the Mill Creek valley north of the city, with a mix of residential streets and industrial corridors. The older homes along its residential streets run on aging plumbing prone to leaks, and galvanized supply lines from that era corrode until pressure fades and the water runs cloudy.',
       'A whole-house repipe is the lasting fix once a Woodlawn home is leaking at more than one spot, since the corrosion is rarely limited to the section that failed. Our licensed plumbers replace the worn galvanized with PEX or copper in a staged job and restore clean water at every fixture.',
@@ -168,7 +168,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'addyston': {
-    intro: 'Aging pipes in your century-old Addyston home? Our licensed plumbers repipe corroded supply lines with PEX or copper to restore clean water and steady pressure. Call (513) 586-5107.',
+    intro: 'Addyston repiping in the closely spaced worker homes of this old Ohio River mill town replaces plumbing pieced together over decades, with corroded galvanized runs that leak and starve fixtures of pressure. We route PEX or copper through the existing structure in one staged job.',
     relevance: [
       'Addyston (ZIP 45001) is a small village on the far west side along the Ohio River, an old mill town with closely spaced older worker homes. Plumbing in century-old worker homes has often been pieced together over the decades, leaving corroded galvanized runs that leak and starve the fixtures of pressure.',
       'In these compact older Addyston homes, a whole-house repipe replaces the patched, aging material in one staged job rather than reopening walls every season. Our licensed plumbers route new PEX or copper through the existing structure and bring clean, steady water back to the whole house.',
@@ -182,7 +182,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'greenhills': {
-    intro: 'Original 1930s plumbing failing in your Greenhills home? Our licensed plumbers repipe corroded supply lines with PEX or copper while respecting the historic character. Call (513) 586-5107.',
+    intro: 'Greenhills repiping in the 1930s Greenbelt cottages and townhomes means replacing original galvanized that has corroded for close to a century, causing rusty water and falling pressure. In a National Historic Landmark district, new PEX or copper runs are routed to leave original features alone.',
     relevance: [
       'Greenhills (ZIP 45218) is a historic planned Greenbelt town built in the 1930s as a New Deal project, now a National Historic Landmark district, with its original cottages and townhomes still in use. Those 1930s-era homes carry close to a century of plumbing wear, and the original galvanized supply lines corrode until the water runs rusty and pressure falls away.',
       'A repipe in a Greenbelt-era Greenhills home calls for care, since the goal is to replace the failing supply lines without disturbing original features. Our licensed plumbers stage a PEX or copper repipe and route the new runs thoughtfully through these historic cottages and townhomes to restore clean water and steady pressure.',
@@ -196,7 +196,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'northbrook': {
-    intro: 'Corrosion leaks or low pressure in your Northbrook home? Our licensed plumbers repipe aging supply lines with PEX or copper to restore clean, steady water. Call (513) 586-5107.',
+    intro: 'Northbrook repiping in mid-century Colerain Township homes replaces galvanized supply lines that scale up until pressure drops and water turns cloudy. Once corrosion leaks appear at more than one point, a staged whole-house repipe in PEX or copper ends the cycle.',
     relevance: [
       'Northbrook (ZIP 45251) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. Homes of that era carry aging plumbing prone to corrosion leaks, and the galvanized supply lines behind them scale up until pressure drops and the water turns cloudy.',
       'A whole-house repipe ends the cycle once a Northbrook home is leaking from corrosion at more than one point. Our licensed plumbers stage the work and replace the worn galvanized with PEX or copper, bringing clean water and reliable pressure back to every fixture.',
@@ -210,7 +210,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'indian-hill': {
-    intro: 'Aging plumbing across your Indian Hill estate? Our licensed plumbers repipe extensive supply lines with PEX or copper to restore clean water and steady pressure throughout. Call (513) 586-5107.',
+    intro: 'Indian Hill repiping on large estates covers long water runs and many baths, where a failing line can damage finished spaces before anyone spots it. Some properties use private wells, which are harder on pipe. We stage PEX or copper across the house so water stays on.',
     relevance: [
       'Indian Hill (ZIP 45243) is an affluent east-side village known for its large estates and homes on multi-acre, wooded lots, many set well back from the road. Big properties mean long water runs and large plumbing systems with many baths, so a corroding or failing line can damage finished spaces before anyone spots it.',
       'A repipe on an Indian Hill estate is a substantial but worthwhile job, replacing extensive aging supply lines that would otherwise keep springing hidden leaks. Our licensed plumbers stage the PEX or copper work across the home’s many baths and long runs, and account for properties on private wells where water conditions are harder on pipe.',
@@ -224,7 +224,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'evendale': {
-    intro: 'Worn supply lines leaking in your Evendale home? Our licensed plumbers replace aging pipe with PEX or copper to restore clean water and steady pressure. Call (513) 586-5107.',
+    intro: 'Evendale repiping in the mid-century residential neighborhoods away from the GE Aerospace industrial base replaces galvanized that corrodes internally, leaving rusty water and weak pressure. Once worn lines leak at more than one point, a staged PEX or copper repipe is the lasting answer.',
     relevance: [
       'Evendale (ZIP 45241) is a north-side village with a large industrial base, including GE Aerospace, alongside established residential neighborhoods. The mid-century homes in those neighborhoods often still run on galvanized supply lines that corrode internally, leaving rusty water and weak pressure at the fixtures.',
       'A repipe is the lasting answer once an Evendale home is leaking from worn supply lines at more than one point. Our licensed plumbers stage a PEX or copper repipe to replace the failing galvanized in one planned job, so you stop patching the same runs season after season.',
@@ -238,7 +238,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'glendale': {
-    intro: 'Original Victorian-era plumbing failing in your Glendale home? Our licensed plumbers repipe corroded supply lines with PEX or copper while respecting the historic details. Call (513) 586-5107.',
+    intro: 'Repiping a preserved Victorian in Glendale, one of the country’s earliest planned railroad suburbs, means replacing corroded galvanized that causes sudden leaks, rusty water and sagging pressure without disturbing original woodwork. We route PEX or copper carefully through these homes.',
     relevance: [
       'Glendale (ZIP 45246) is a historic village and one of the country’s earliest planned railroad suburbs — a National Historic Landmark — known for its preserved Victorian homes and winding, tree-lined streets. Those 19th-century homes often still carry original plumbing, where corroded galvanized supply lines lead to sudden leaks, rusty water, and sagging pressure.',
       'A repipe in a preserved Victorian is a careful job, replacing the aging supply lines without disturbing original woodwork and finishes. Our licensed plumbers stage a PEX or copper repipe and route the new runs thoughtfully through these older Glendale homes to restore clean, steady water.',
@@ -252,7 +252,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'sharonville': {
-    intro: 'Corroded pipes and low pressure in your Sharonville home? Our licensed plumbers repipe aging supply lines with PEX or copper to restore clean, steady water. Call (513) 586-5107.',
+    intro: 'Sharonville repiping near Sharon Woods mostly involves mid-century homes whose galvanized supply lines corrode and scale, dragging down pressure and clouding the water. Once a home leaks at corroded joints in more than one place, a staged PEX or copper repipe makes sense.',
     relevance: [
       'Sharonville (ZIP 45241) is a north-side city near Sharon Woods, with a mix of established residential neighborhoods, the convention center, and industrial corridors. The mid-century homes in its neighborhoods reach the age where galvanized supply lines corrode and scale, dragging down pressure and clouding the water.',
       'A whole-house repipe makes sense once a Sharonville home is leaking at the corroded joints in more than one place. Our licensed plumbers stage a PEX or copper repipe to replace the failing galvanized, and can take on the same aging-pipe work in nearby commercial buildings.',
@@ -266,7 +266,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'northgate': {
-    intro: 'Recurring leaks or weak pressure in your Northgate home? Our licensed plumbers replace aging supply lines with PEX or copper to restore clean, steady water. Call (513) 586-5107.',
+    intro: 'Northgate repiping around the mall corridor covers mid-century homes with corroding galvanized and some newer houses with polybutylene prone to fitting failures. Repeat leaks or falling pressure at several fixtures mean the system is due. PEX or copper replaces it all at once.',
     relevance: [
       'Northgate (ZIP 45251) is a Colerain Township area on the northwest side around the Northgate Mall corridor, with neighborhoods of mid-century and newer homes. The mid-century houses often still run on galvanized supply lines that corrode internally, while the older end of the newer stock can carry polybutylene prone to fitting failures.',
       'A repipe is the durable fix once a Northgate home is springing repeat leaks or showing falling pressure across several fixtures. Our licensed plumbers replace the failing galvanized or polybutylene with PEX or copper in a staged job, bringing the whole system up to date at once.',
@@ -280,7 +280,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'springdale': {
-    intro: 'Corroded supply lines acting up in your Springdale home? Our licensed plumbers repipe with PEX or copper to restore clean water and steady pressure. Call (513) 586-5107.',
+    intro: 'Springdale repiping along the Tri-County corridor mostly involves mid-century homes where galvanized supply lines corrode and scale, leaving rusty water and weak pressure. Corrosion leaks at more than one spot make a whole-house repipe the better fix. Commercial buildings get the same work.',
     relevance: [
       'Springdale (ZIP 45246) is a north-side city along the Tri-County corridor, with established mid-century neighborhoods alongside a large commercial and retail base. Mid-century homes here are now at the age where galvanized supply lines corrode and scale, leaving rusty water and weak pressure at the taps.',
       'A whole-house repipe ends the trouble once a Springdale home is leaking from corrosion at more than one spot. Our licensed plumbers stage a PEX or copper repipe to replace the aging galvanized, and can handle the same work in the area’s commercial buildings.',
@@ -294,7 +294,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'miamitown': {
-    intro: 'Aging plumbing in your older Miamitown home? Our licensed plumbers repipe corroded supply lines with PEX or copper to restore clean water and steady pressure. Call (513) 586-5107.',
+    intro: 'Miamitown repiping on low river-bottom ground near the Great Miami River replaces galvanized supply lines in older homes that corrode until water runs rusty and pressure thins out. One staged repipe in PEX or copper spares the house from repeated patching.',
     relevance: [
       'Miamitown (ZIP 45041) is a small far-west community on the Great Miami River, with older homes set on low river-bottom ground. Those older riverside homes carry aging plumbing, and the galvanized supply lines from that era corrode until the water runs rusty and pressure thins out.',
       'A whole-house repipe replaces the worn galvanized in one staged job, sparing these older Miamitown homes the repeated leaks that come with patching a corroded system. Our licensed plumbers route new PEX or copper through the existing structure and restore clean, steady water at every fixture.',
@@ -308,7 +308,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'forest-park': {
-    intro: 'Corrosion leaks or low pressure in your Forest Park home? Our licensed plumbers repipe aging supply lines with PEX or copper to restore clean, steady water. Call (513) 586-5107.',
+    intro: 'Forest Park was built as a planned community from the 1960s, and repiping its mid-century homes replaces corroding galvanized and, in some houses, polybutylene that fails at the fittings. Leaks at more than one point mean the system is due. PEX or copper replaces it together.',
     relevance: [
       'Forest Park (ZIP 45240) is a north-side city developed as a planned community from the 1960s, with neighborhoods of mid-century single-family homes. Homes built in that era are now well into the age where galvanized supply lines corrode, while some of the era’s plumbing turns up polybutylene that fails at the fittings.',
       'A repipe is the lasting fix once a Forest Park home is leaking from corroded or split lines at more than one point. Our licensed plumbers stage a PEX or copper repipe to replace the failing material across the whole house, so the system comes up to date together.',
@@ -322,7 +322,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'pleasant-run': {
-    intro: 'Worn supply lines leaking in your Pleasant Run home? Our licensed plumbers replace aging pipe with PEX or copper to restore clean water and steady pressure. Call (513) 586-5107.',
+    intro: 'Pleasant Run repiping in Springfield Township mostly involves mid-century homes on galvanized supply lines that corrode internally, leaving rusty water and falling pressure. Once worn lines leak at more than one spot, a staged PEX or copper repipe ends the cycle with limited wall openings.',
     relevance: [
       'Pleasant Run (ZIP 45240) is a Springfield Township community on the north side, with settled neighborhoods of mid-century and newer homes. The mid-century houses often still run on galvanized supply lines that corrode internally, leaving rusty water and falling pressure at the fixtures.',
       'A whole-house repipe ends the cycle once a Pleasant Run home is leaking from worn supply lines at more than one spot. Our licensed plumbers stage a PEX or copper repipe to replace the aging galvanized in one planned job and restore clean, steady water throughout.',
@@ -336,7 +336,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'cleves': {
-    intro: 'Aging plumbing in your older Cleves home? Our licensed plumbers repipe corroded supply lines with PEX or copper to restore clean water and steady pressure. Call (513) 586-5107.',
+    intro: 'Cleves repiping, in older homes on low ground near where the Great Miami meets the Ohio, replaces galvanized supply lines corroded until water runs rusty and pressure sags. A staged whole-house repipe in PEX or copper spares the house from repeated leak repairs.',
     relevance: [
       'Cleves (ZIP 45002) is a far-west village near where the Great Miami River meets the Ohio, with older homes on low ground. Those older homes carry aging plumbing, and the galvanized supply lines from that era corrode until the water runs rusty and pressure sags.',
       'A whole-house repipe replaces the worn galvanized in one staged job, sparing these older Cleves homes the repeat leaks that come with patching a corroded system. Our licensed plumbers route new PEX or copper through the existing structure and bring clean, steady water back to every fixture.',
@@ -350,7 +350,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'north-bend': {
-    intro: 'Corroded pipes in your historic North Bend home? Our licensed plumbers repipe aging supply lines with PEX or copper to restore clean water and steady pressure. Call (513) 586-5107.',
+    intro: 'North Bend repiping in older riverside homes of this historic Ohio River village, where President William Henry Harrison is buried, replaces galvanized lines that corrode until pressure fades and water turns rusty. Leaks at more than one point make PEX or copper the durable fix.',
     relevance: [
       'North Bend (ZIP 45052) is a historic far-west village on the Ohio River — the burial place of President William Henry Harrison — with older homes set on low riverside ground. Those older homes carry aging plumbing, and the galvanized supply lines from that era corrode until pressure fades and the water turns rusty.',
       'A whole-house repipe is the durable fix once a North Bend home is leaking from corrosion at more than one point. Our licensed plumbers stage a PEX or copper repipe to replace the failing galvanized and restore clean, steady water across the whole house.',
@@ -364,7 +364,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'loveland': {
-    intro: 'Aging plumbing in your historic Loveland home? Our licensed plumbers repipe corroded supply lines with PEX or copper to restore clean water and steady pressure. Call (513) 586-5107.',
+    intro: 'Loveland repiping mostly involves older homes near the Little Miami River and the historic downtown, where corroded galvanized supply lines cause rusty water and falling pressure. A staged repipe in PEX or copper replaces it all, instead of opening walls every season.',
     relevance: [
       'Loveland (ZIP 45140) is a historic city straddling the Little Miami River and the Loveland Bike Trail, with a charming older downtown and a mix of historic and newer homes. The older homes near the river carry aging plumbing, where corroded galvanized supply lines lead to rusty water and falling pressure.',
       'A repipe in an older Loveland home replaces the worn galvanized in one staged job rather than reopening walls each season for the next leak. Our licensed plumbers route new PEX or copper through the existing structure and restore clean, steady water at every fixture.',
@@ -378,7 +378,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'harrison': {
-    intro: 'Recurring leaks or rusty water in your Harrison home? Our licensed plumbers repipe aging supply lines with PEX or copper to restore clean water and steady pressure. Call (513) 586-5107.',
+    intro: 'Harrison repiping near the Indiana state line and the Whitewater River mostly involves older downtown homes where corroded galvanized lines cause rusty water and weak pressure. Once a house leaks at more than one corroded joint, a staged PEX or copper repipe is the lasting fix.',
     relevance: [
       'Harrison (ZIP 45030) is a far-west city on the Indiana state line along the Whitewater River, with an older downtown and a growing mix of established and newer homes. The older homes carry aging plumbing prone to leaks, where corroded galvanized supply lines bring rusty water and weak pressure.',
       'A whole-house repipe is the lasting fix once a Harrison home is leaking at more than one corroded joint. Our licensed plumbers stage a PEX or copper repipe to replace the failing galvanized in one planned job and restore clean, steady water throughout the house.',

@@ -6,6 +6,8 @@ import { part3 } from './surge-protector-installation-parts/part3';
 import { part4 } from './surge-protector-installation-parts/part4';
 import { part5 } from './surge-protector-installation-parts/part5';
 import { part6 } from './surge-protector-installation-parts/part6';
+// Fully localized towns (one format), wired in by surge-protector-installation-pilot/build-index.mjs.
+import { surgeProtectorPilot } from './surge-protector-installation-pilot';
 
 // Per-neighborhood, surge-protector-specific copy, drafted from each
 // neighborhood's real local facts in content/locations.ts.
@@ -16,6 +18,7 @@ const all: Record<string, LocationServiceCopy> = {
   ...part4,
   ...part5,
   ...part6,
+  ...surgeProtectorPilot,
 };
 
 // Dev shows all 170; production build ships only the DEPLOYED_LOCATION_SLUGS cohort.

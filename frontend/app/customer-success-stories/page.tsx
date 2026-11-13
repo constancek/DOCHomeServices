@@ -4,12 +4,13 @@ import PageSections from '@/components/PageSections';
 import SuccessStoriesGrid from '@/components/SuccessStoriesGrid';
 import { site } from '@/content/site';
 import { successStories } from '@/content/successStories';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Customer Success Stories',
   description: `Real customer success stories from ${site.name} — HVAC and plumbing projects across ${site.serviceArea}, in our customers' own words.`,
   alternates: { canonical: '/customer-success-stories' },
-};
+});
 
 export default function SuccessStoriesPage() {
   return (
@@ -20,7 +21,6 @@ export default function SuccessStoriesPage() {
         description={`Real projects, real results — in our customers' own words, across ${site.serviceArea}.`}
         crumbs={[
           { label: 'Home', href: '/' },
-          { label: 'The Degree of Comfort Difference', href: '/difference' },
           { label: 'Customer Success Stories' },
         ]}
       />
@@ -28,7 +28,7 @@ export default function SuccessStoriesPage() {
       {/* Intro */}
       <section className="pt-16">
         <div className="container-page max-w-4xl text-center">
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-700 sm:text-4xl lg:text-5xl">
+          <h2 className="font-display text-3xl font-black leading-tight text-brand-700 sm:text-4xl lg:text-5xl">
             Hear From Our Wonderful Clients in Cincinnati and Surrounding Areas
           </h2>
           <p className="mx-auto mt-6 max-w-3xl text-base leading-relaxed text-ink/75 sm:text-lg">

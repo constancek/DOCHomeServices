@@ -1,7 +1,7 @@
 export const part2: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'madeira': {
     intro:
-      'Planning recessed lighting in Madeira, OH? As a licensed electrical contractor, we install flush LED can fixtures with even, properly spaced layouts in kitchens, living rooms, and hallways, all wired to code. Call (513) 586-5107.',
+      'Madeira’s mid-century homes often rely on one ceiling fixture per room, and recessed lighting is how we fix the dim corners and kitchen counters in shadow. An evenly spaced run of flush LED cans covers the whole room, wired to code.',
     relevance: [
       'Madeira (ZIP 45243) is an established east-side city built largely of mid-century single-family homes on quiet, tree-lined streets. A lot of those homes still rely on one ceiling fixture per room, which leaves corners dim and counters in shadow. Recessed cans spread light evenly across the whole space, which is why kitchens and family rooms here are the rooms owners ask us to update first.',
       'Mid-century ceilings in Madeira are usually drywall over accessible attic or joist space, which makes can placement straightforward and keeps the work clean. We map fixture spacing to avoid hot spots and dark edges, swap dated surface fixtures for low-profile LED cans, and tie everything into properly rated wiring and dimming so the room reads bright but not flat.',
@@ -17,7 +17,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'wyoming': {
     intro:
-      'Recessed lighting in Wyoming, OH calls for a careful hand. We are a licensed electrical contractor installing flush LED cans in the city’s grand Victorian and early-1900s homes, with wiring and ceiling work done to code. Call (513) 586-5107.',
+      'Grand Victorian and early-1900s homes in Wyoming, OH often have plaster-and-lath ceilings lit by one fixture, and recessed lighting gives those handsome but dim rooms even, layered light. It does that without crowding the room with lamps. We cut into the plaster carefully and wire everything to code.',
     relevance: [
       'Wyoming (ZIP 45215) is a historic, affluent suburb north of the city, known for grand Victorian and early-1900s homes on established, tree-shaded streets. Many of those homes still have plaster-and-lath ceilings lit by a single fixture, so rooms look handsome but dim. Recessed cans add even, layered light without crowding the room with lamps.',
       'Plaster ceilings need more than a drywall hole saw, so we cut and patch carefully, fish wiring through old framing, and place cans where joists and existing chases allow. The goal in a century-old Wyoming home is modern light that respects the original ceiling, which means clean fixture spacing, properly rated boxes, and code-compliant connections throughout.',
@@ -33,7 +33,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mariemont': {
     intro:
-      'Recessed lighting in Mariemont, OH should suit the homes it lights. As a licensed electrical contractor, we install flush LED cans in this historic 1920s village’s Tudor Revival homes, with careful ceiling and wiring work to code. Call (513) 586-5107.',
+      'Mariemont’s 1920s Tudor Revival homes in the National Historic Landmark village often have plaster ceilings and one fixture per room, and recessed cans brighten kitchens and living rooms without changing the home’s character. We plan the spacing, cut carefully into the plaster and wire the LED cans to code.',
     relevance: [
       'Mariemont (ZIP 45227) is a planned garden community laid out in the 1920s and now a National Historic Landmark, known for its Tudor Revival architecture and village square. Homes from the 1920s and 30s often have plaster ceilings and a single fixture per room, so recessed cans are a common way to brighten kitchens and living rooms without altering the home’s character.',
       'Because so much of Mariemont dates to that era, ceiling work here means dealing with plaster and older framing, which we cut and patch with care. We plan can spacing to light a room evenly, keep fixtures low-profile so they sit clean in the ceiling, and wire everything to code so the upgrade respects the village’s historic look.',
@@ -49,7 +49,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cheviot': {
     intro:
-      'Planning recessed lighting in Cheviot, OH? As a licensed electrical contractor, we replace bulky ceiling fixtures with flush LED cans and even, code-compliant layouts in this west-side city’s older homes. Call (513) 586-5107.',
+      'Small rooms in Cheviot’s early-1900s homes and brick two-families along Harrison Avenue usually have one overhead fixture eating into the headroom, and recessed lighting swaps it for flush LED cans. We space them for even light across the room. Our licensed electricians wire the new cans to code.',
     relevance: [
       'Cheviot (ZIP 45211) is a small, densely built city on the west side, completely surrounded by Cincinnati, with a grid of early-1900s homes and brick two-families along Harrison Avenue. Those older homes tend to have small rooms with a single overhead fixture, so recessed cans are a practical way to get bright, even light without a hanging fixture eating up headroom.',
       'Early-1900s ceilings in Cheviot are often plaster, and in two-families the upstairs unit sits right below the attic or roof, so we plan can placement and wiring routes around that framing. We swap dated fixtures for low-profile LED cans, space them to clear shadows in the corners, and keep every connection to code.',
@@ -65,7 +65,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covedale': {
     intro:
-      'Recessed lighting in Covedale, OH brings even, modern light to older rooms. As a licensed electrical contractor, we install flush LED cans along Glenway and Cleves Warsaw, with wiring done to code. Call (513) 586-5107.',
+      'Kitchens and living rooms in Covedale’s early-1900s through mid-century homes are where we install most recessed lighting, because one fixture leaves the counters and corners dim. We lay out LED cans for even, layered light in homes near Glenway and Cleves Warsaw and wire them to code.',
     relevance: [
       'Covedale (ZIP 45238) is a settled west-side community on the edge of the city near Green Township, with neighborhoods of early-1900s through mid-century single-family homes. Those homes often have a single fixture lighting a kitchen or living room, leaving counters and corners dim, so recessed cans are a common upgrade for even, layered light.',
       'The range of housing ages in Covedale means we see both plaster and drywall ceilings, and we plan can placement and patching to match. We lay out fixtures to spread light evenly, replace dated surface fixtures with low-profile LED cans, and wire everything to code so the result holds up for the long run.',
@@ -81,7 +81,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covington': {
     intro:
-      'Recessed lighting in Covington, KY suits both old and renovated homes. As a licensed electrical contractor, we install flush LED cans in the historic riverfront and MainStrasse Village, with careful ceiling and wiring work to code. Call (513) 586-5107.',
+      'Covington’s 19th-century rowhouses in MainStrasse Village and Licking Riverside often have tall plaster ceilings lit by a single fixture, and recessed cans add even light without crowding the room. We plan the layout around the ceiling height, cut the plaster carefully and wire the LED cans to code.',
     relevance: [
       'Covington (ZIP 41011) sits directly across the Ohio River from downtown Cincinnati, with historic districts like MainStrasse Village and Licking Riverside full of 19th-century rowhouses and brick homes. Those century-old homes often have tall plaster ceilings lit by a single fixture, and recessed cans are a clean way to add even light without crowding rooms that owners want to keep original.',
       'Working in Covington’s 19th-century rowhouses means cutting plaster carefully, fishing wiring through old framing, and placing cans where the ceiling structure allows. In renovated kitchens, where owners want a clean modern look, we lay out an even grid of low-profile LED cans and wire it all to code as a licensed contractor.',
@@ -97,7 +97,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newport': {
     intro:
-      'Recessed lighting in Newport, KY should respect the home it lights. As a licensed electrical contractor, we install flush LED cans in the East Row Historic District and along the riverfront, with careful ceiling and wiring work to code. Call (513) 586-5107.',
+      'The East Row Historic District gives Newport, KY one of the largest groups of Victorian homes in the state, and recessed lighting there usually goes into tall plaster ceilings with one fixture per room. Cans add even light without changing the room’s character. We cut carefully and wire to code.',
     relevance: [
       'Newport (ZIP 41071) is a Northern Kentucky river city across from downtown Cincinnati, home to the East Row Historic District, one of the largest Victorian historic districts in the state. Those Victorian homes often have tall plaster ceilings and a single fixture per room, so recessed cans add the even, layered light owners want without changing the room’s character.',
       'In the hundreds of 19th-century East Row homes, ceiling work means handling plaster and older framing, which we cut, patch, and wire with care. We plan can spacing to light a room evenly, keep fixtures low-profile, and make every connection to code so the upgrade fits these historic interiors.',
@@ -113,7 +113,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bellevue': {
     intro:
-      'Recessed lighting in Bellevue, KY brings even, modern light to older rooms. As a licensed electrical contractor, we install flush LED cans near the Fairfield Avenue district, with careful ceiling and wiring work to code. Call (513) 586-5107.',
+      'Narrow late-1800s homes near Bellevue’s Fairfield Avenue district usually have plaster ceilings and one fixture per room, so recessed cans are an efficient way to light those tight footprints evenly. We plan the layout, cut into the plaster carefully and wire the LED cans to code.',
     relevance: [
       'Bellevue (ZIP 41073) is a compact Northern Kentucky river city with a historic Fairfield Avenue business district and tight streets of well-preserved late-1800s homes. Those century-old homes tend to have plaster ceilings and a single fixture per room, and their narrow footprints make recessed cans an efficient way to light a space evenly without a hanging fixture in the way.',
       'Late-1800s ceilings in Bellevue are usually plaster over lath, so we cut and patch with care and route wiring through older framing. We lay out cans to clear the shadows a single fixture leaves behind, choose low-profile LED units that sit flush, and wire everything to code as a licensed contractor.',
@@ -129,7 +129,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-thomas': {
     intro:
-      'Recessed lighting in Fort Thomas, KY suits the city’s stately homes. As a licensed electrical contractor, we install flush LED cans along Fort Thomas Avenue and the historic reservation area, with wiring done to code. Call (513) 586-5107.',
+      'Fort Thomas has stately early-1900s homes above the river with generous rooms that a single fixture cannot light, so recessed lighting is a common request. Cans spread the light across a big living room or kitchen. Our licensed electricians lay out flush LED cans and wire them to code.',
     relevance: [
       'Fort Thomas (ZIP 41075) is a historic Northern Kentucky city built around a former U.S. Army post, with stately early-1900s homes on tree-lined streets above the river. Those large homes often have generous rooms lit by a single fixture, so recessed cans are a common way to add even, layered light across a big living room or kitchen.',
       'Early-1900s ceilings in Fort Thomas are frequently plaster, and the larger rooms need more cans planned at the right spacing to avoid dark edges. We cut and patch plaster carefully, fish wiring through older framing, and install low-profile LED cans wired to code so these established homes read bright and even.',
@@ -145,7 +145,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'florence': {
     intro:
-      'Recessed lighting in Florence, KY works for newer and older homes alike. As a licensed electrical contractor, we install flush LED cans across this fast-growing Boone County city, all wired to code. Call (513) 586-5107.',
+      'Florence recessed lighting splits two ways: newer subdivisions around the Florence Mall area have big kitchens and family rooms built for layered can lighting, while the mid-century homes usually start with one fixture per room. We lay out LED cans for either kind of house and wire them to code.',
     relevance: [
       'Florence (ZIP 41042) is the largest city in Boone County and one of the fastest-growing in Northern Kentucky, with a mix of mid-century neighborhoods and newer subdivisions around the Florence Mall area. Newer subdivision homes often have big kitchens and family rooms that benefit from layered can lighting, while mid-century homes usually start with a single fixture that leaves rooms dim.',
       'In newer Florence homes with accessible attic space, adding or expanding a recessed layout is clean work, and we map fixture spacing for even coverage. In mid-century homes we replace dated surface fixtures with low-profile LED cans and tie the run into properly rated wiring and dimming, all to code.',
@@ -161,7 +161,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'erlanger': {
     intro:
-      'Recessed lighting in Erlanger, KY brings even, modern light to settled homes. As a licensed electrical contractor, we install flush LED cans across this Kenton County city, all wired to code. Call (513) 586-5107.',
+      'Erlanger’s mid-century neighborhoods near the airport are full of homes that still rely on one ceiling fixture, and recessed lighting replaces it with an evenly spaced run of LED cans. We plan the spacing for each room and wire it to code.',
     relevance: [
       'Erlanger (ZIP 41018) is an established Kenton County city near the airport, with settled mid-century neighborhoods and a mix of older and newer homes. Many mid-1900s homes here still rely on a single ceiling fixture, which leaves kitchens and living rooms unevenly lit, so recessed cans are a common upgrade.',
       'Mid-century ceilings in Erlanger are usually drywall with accessible joist or attic space, which keeps can placement and wiring routes straightforward. We map fixture spacing to spread light evenly, replace dated fixtures with low-profile LED cans, and wire everything to code so the result lasts.',
@@ -177,7 +177,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mason': {
     intro:
-      'Recessed lighting in Mason, OH suits big kitchens and finished basements. As a licensed electrical contractor, we install flush LED cans with even, code-compliant layouts across this fast-growing Warren County city. Call (513) 586-5107.',
+      'Big kitchens, open living rooms and finished basements are where recessed lighting goes in Mason’s subdivisions, most built from the 1990s onward. Layered LED cans suit the open rooms, and in the basement they clear the low ceiling. We plan the layout and wire it to code.',
     relevance: [
       'Mason (ZIP 45040) is a fast-growing Warren County city north of Cincinnati near Kings Island, with large subdivisions of homes built mostly from the 1990s onward alongside an older town center. Those newer homes have big kitchens and open living rooms that suit layered can lighting, and many have finished basements where recessed cans clear the low ceiling without a hanging fixture in the way.',
       'In newer Mason homes with accessible attic and joist space, expanding a recessed layout is clean work, and we plan spacing for even coverage across a large room. In finished basements we choose low-profile LED cans that fit shallow ceilings and wire everything to code, while the older town center homes get the same even-light treatment for their single-fixture rooms.',
@@ -193,7 +193,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-chester': {
     intro:
-      'Recessed lighting in West Chester, OH works well in newer homes. As a licensed electrical contractor, we install flush LED cans in big kitchens and finished basements across this Butler County township, all wired to code. Call (513) 586-5107.',
+      'West Chester’s subdivisions along I-75, mostly built from the 1990s on, have the big kitchens and open family rooms that layered recessed lighting is made for. Finished basements get cans for even light under a lower ceiling. We plan each layout room by room and wire it to code.',
     relevance: [
       'West Chester (ZIP 45069) is a large, fast-growing Butler County community between Cincinnati and Dayton, made up largely of subdivisions built from the 1990s onward along the I-75 corridor. Those newer homes have the big kitchens and open family rooms that layered can lighting is made for, and finished basements where recessed cans give even light under a lower ceiling.',
       'In West Chester’s newer construction, accessible attic and joist space makes adding or expanding a recessed layout clean and straightforward. We map fixture spacing for even coverage across large rooms, fit low-profile LED cans where basement ceilings are shallow, and wire everything to code as a licensed contractor.',
@@ -209,7 +209,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pendleton': {
     intro:
-      'Recessed lighting in Pendleton suits its historic buildings and lofts. As a licensed electrical contractor, we install flush LED cans in this district next to Over-the-Rhine, with careful ceiling and wiring work to code. Call (513) 586-5107.',
+      'Pendleton’s restored Italianate buildings and converted lofts next to Over-the-Rhine often have tall plaster or restored ceilings, and recessed cans give them clean, even light that fits a modern loft interior. We cut into those ceilings carefully and wire the LED cans to code.',
     relevance: [
       'Pendleton (ZIP 45202) is a small, historic arts district tucked against the eastern edge of Over-the-Rhine, full of restored 19th-century Italianate buildings and converted lofts and condos. Those buildings often have tall plaster or restored ceilings, and recessed cans add clean, even light that fits a loft’s modern interior without crowding the space.',
       'Working in Pendleton’s mid-1800s buildings means dealing with plaster, masonry, and the older framing common in converted units, so we plan can placement and wiring routes carefully. We fit low-profile LED cans for a clean ceiling line and wire every connection to code as a licensed contractor.',
@@ -225,7 +225,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'queensgate': {
     intro:
-      'Recessed lighting in Queensgate suits its commercial and industrial spaces. As a licensed electrical contractor, we install flush LED cans in offices and converted buildings west of downtown, all wired to code. Call (513) 586-5107.',
+      'Queensgate is mostly offices, warehouses and light-industrial buildings near the rail yards, so recessed lighting there usually means drop or hard ceilings in offices and converted spaces. Flush LED cans give those rooms even, glare-controlled light. Our licensed electricians lay them out and wire them to code.',
     relevance: [
       'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Recessed cans are a practical fit here, giving offices and converted spaces even, glare-controlled light across drop or hard ceilings.',
       'Commercial ceilings in Queensgate range from suspended grid to older hard-lid construction, and we plan can layout and circuiting to match each. We fit appropriately rated LED can fixtures, space them for even coverage across work areas, and wire everything to code as a licensed electrical contractor.',
@@ -241,7 +241,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cuf': {
     intro:
-      'Recessed lighting in CUF near UC works for older homes and rentals. As a licensed electrical contractor, we install flush LED cans in Clifton Heights, University Heights, and Fairview, with careful ceiling and wiring work to code. Call (513) 586-5107.',
+      'In CUF, recessed lighting mostly goes into the 19th- and early-1900s homes of Clifton Heights, University Heights and Fairview, now largely student rentals with a single dim fixture per room. We replace that fixture with evenly spaced LED cans, cut into the plaster carefully and wired to code.',
     relevance: [
       'CUF (ZIP 45219) covers Clifton Heights, University Heights, and Fairview, the dense hilltop neighborhoods packed against the University of Cincinnati, full of 19th- and early-1900s homes now largely converted to student rentals. Those older homes often have plaster ceilings and a single dim fixture per room, so recessed cans add the even, durable light that busy rental units need.',
       'Ceiling work in CUF’s 19th- and early-1900s homes means cutting and patching plaster and fishing wiring through old framing, often in subdivided units. We fit low-profile LED cans that hold up to heavy use, lay them out to clear shadows, and wire every connection to code as a licensed contractor.',
@@ -257,7 +257,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'camp-washington': {
     intro:
-      'Recessed lighting in Camp Washington brings even light to older spaces. As a licensed electrical contractor, we install flush LED cans in this Mill Creek valley neighborhood’s homes and buildings, all wired to code. Call (513) 586-5107.',
+      'Camp Washington’s old worker housing in the Mill Creek valley, near the American Sign Museum, tends to have small rooms with one overhead fixture taking up space, and recessed lighting replaces it with flush LED cans. We space them for even light across the room and wire them to code.',
     relevance: [
       'Camp Washington (ZIP 45225) is a historic working neighborhood in the Mill Creek valley, known for its industry, the American Sign Museum, and a tight mix of old worker housing and factories. The older homes here often have small rooms with a single overhead fixture, so recessed cans give even, unobtrusive light without a hanging fixture eating up the room.',
       'Ceilings in Camp Washington’s older worker housing tend to be plaster, and in converted industrial spaces they may be hard-lid or open structure, so we plan can placement and wiring to match. We fit low-profile LED cans, space them to clear corners, and wire everything to code as a licensed contractor.',
@@ -273,7 +273,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-fairmount': {
     intro:
-      'Recessed lighting in South Fairmount brings modern light to older rooms. As a licensed electrical contractor, we install flush LED cans in homes along Queen City Avenue, all wired to code. Call (513) 586-5107.',
+      'Along Queen City Avenue in South Fairmount, recessed lighting usually goes into older homes in the Lick Run valley that have a single ceiling fixture per room, leaving counters and corners dim. We lay out LED cans for even light and wire them to code.',
     relevance: [
       'South Fairmount (ZIP 45205) sits in the Lick Run valley along Queen City Avenue on the west side, an area rebuilt around the Lick Run Greenway stormwater project. The older homes here usually have a single ceiling fixture per room, leaving counters and corners dim, so recessed cans are a common way to add even, layered light.',
       'Older South Fairmount homes typically have plaster ceilings, so we cut and patch with care and route wiring through the existing framing. We lay out LED cans at the right spacing to clear shadows, choose low-profile units that sit flush, and wire everything to code as a licensed contractor.',
@@ -289,7 +289,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-end': {
     intro:
-      'Recessed lighting in the East End suits river cottages and condos alike. As a licensed electrical contractor, we install flush LED cans along Eastern Avenue, with wiring done to code. Call (513) 586-5107.',
+      'East End river cottages along Eastern Avenue often have low ceilings and one fixture, so recessed lighting there means low-profile cans that keep the headroom. Condos squeezed between the hillside and the river get the same even layout. We plan the spacing for each room and wire everything to code.',
     relevance: [
       'The East End (ZIP 45226) is a narrow riverfront neighborhood stretching east of downtown along Eastern Avenue, below Columbia Parkway, with historic river cottages and newer condos squeezed between the hillside and the Ohio River. The older cottages often have low ceilings and a single fixture, where low-profile recessed cans add even light without cutting into headroom, while newer condos suit a clean, layered can layout.',
       'Ceiling work in the East End ranges from plaster in the older cottages to drywall in the newer condos, so we plan can placement and wiring to fit each. We fit shallow LED cans where ceilings are low, space them for even coverage, and wire everything to code as a licensed contractor.',
@@ -305,7 +305,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-fairmount': {
     intro:
-      'Recessed lighting in North Fairmount brings even light to older homes. As a licensed electrical contractor, we install flush LED cans in this west-side hillside neighborhood, all wired to code. Call (513) 586-5107.',
+      'North Fairmount’s early-1900s homes on the hillside above the Mill Creek valley commonly have one ceiling fixture per room, and recessed cans spread that light across the whole space. We plan the layout so the corners are covered, cut into the ceiling carefully and wire the LED cans to code.',
     relevance: [
       'North Fairmount (ZIP 45225) is a west-side hillside neighborhood above the Mill Creek valley, with streets of older early-1900s homes. Those homes commonly have a single ceiling fixture per room, leaving rooms unevenly lit, so recessed cans are a practical way to spread light across the whole space.',
       'Early-1900s ceilings in North Fairmount are usually plaster over lath, so we cut and patch carefully and route wiring through older framing. We lay out LED cans to clear the shadows a single fixture leaves, fit low-profile units, and make every connection to code as a licensed contractor.',
@@ -321,7 +321,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'evanston': {
     intro:
-      'Recessed lighting in Evanston works for older homes near Xavier. As a licensed electrical contractor, we install flush LED cans in this east-side neighborhood’s homes and rentals, all wired to code. Call (513) 586-5107.',
+      'Next to Xavier, Evanston’s early-1900s homes and apartment buildings, some now student housing, often have plaster ceilings and one dim fixture per room that recessed lighting replaces well. We lay out evenly spaced LED cans for the room, cut the plaster carefully and wire everything to code.',
     relevance: [
       'Evanston (ZIP 45207) is an east-side neighborhood next to Xavier University, with streets of early-1900s homes and apartment buildings, some now student housing. The older homes here often have plaster ceilings and a single dim fixture per room, so recessed cans add the even, durable light that owners and rentals both want.',
       'Ceiling work in Evanston’s early-1900s homes means cutting and patching plaster and fishing wiring through old framing, sometimes in subdivided units. We fit low-profile LED cans, space them to clear corners, and wire every connection to code as a licensed contractor.',
@@ -337,7 +337,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-cumminsville': {
     intro:
-      'Recessed lighting in South Cumminsville brings even light to older homes. As a licensed electrical contractor, we install flush LED cans in this Mill Creek valley neighborhood, all wired to code. Call (513) 586-5107.',
+      'South Cumminsville’s older homes sit among the industrial corridors of the Mill Creek valley, and recessed lighting fixes the single ceiling fixture most of them have, which leaves the edges of each room dim. Our licensed electricians lay out evenly spaced LED cans and wire them to code.',
     relevance: [
       'South Cumminsville (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, with older homes set among industrial corridors. Those homes usually have a single ceiling fixture per room, leaving rooms dim at the edges, so recessed cans are a common way to add even, layered light.',
       'Older South Cumminsville homes typically have plaster ceilings, so we cut and patch carefully and route wiring through the existing framing. We space LED cans to spread light evenly, fit low-profile units that sit flush, and wire everything to code as a licensed contractor.',
@@ -353,7 +353,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'english-woods': {
     intro:
-      'Recessed lighting in English Woods brings even light to older rooms. As a licensed electrical contractor, we install flush LED cans in this west-side hilltop neighborhood, all wired to code. Call (513) 586-5107.',
+      'English Woods has older hilltop homes on a single ceiling fixture alongside renovated and redeveloped units, and recessed lighting fits both. Older rooms get cans spaced to reach the corners, newer ones a clean layered layout. We wire all of it to code with LED cans.',
     relevance: [
       'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. Older homes here often rely on a single ceiling fixture, while renovated and redeveloped units suit a clean, layered can layout, so recessed lighting fits both.',
       'Ceilings in English Woods range from plaster in the older homes to drywall in renovated units, so we plan can placement and wiring to match. We lay out LED cans for even coverage, fit low-profile units that sit flush, and wire every connection to code as a licensed contractor.',
@@ -369,7 +369,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-avondale': {
     intro:
-      'Recessed lighting in North Avondale suits its grand homes. As a licensed electrical contractor, we install flush LED cans near Rockdale and Reading Road, with careful ceiling and wiring work to code. Call (513) 586-5107.',
+      'Grand early-1900s homes on the large lots near Rockdale Avenue in North Avondale have generous rooms that one fixture cannot light, and recessed lighting adds the even, layered light a big living room or kitchen needs. We plan where the cans go, cut in carefully and wire them to code.',
     relevance: [
       'North Avondale (ZIP 45229) is a historic, leafy neighborhood known for its grand early-1900s homes on large, tree-shaded lots near Rockdale Avenue. Those big homes often have generous rooms lit by a single fixture, so recessed cans add the even, layered light a large living room or kitchen needs.',
       'Early-1900s ceilings in North Avondale are frequently plaster, and the larger rooms need more cans planned at the right spacing to avoid dark edges. We cut and patch plaster carefully, fish wiring through older framing, and install low-profile LED cans wired to code so these grand homes read bright and even.',
@@ -385,7 +385,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'millvale': {
     intro:
-      'Recessed lighting in Millvale brings even light to older homes. As a licensed electrical contractor, we install flush LED cans in this Mill Creek valley neighborhood, all wired to code. Call (513) 586-5107.',
+      'Millvale is a compact Mill Creek valley neighborhood where homes often have small rooms lit by one ceiling fixture, and recessed cans give those rooms bright, even light with nothing hanging into the space. Our licensed electricians lay out the LED cans for each room and wire them to code.',
     relevance: [
       'Millvale (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, a compact, largely residential community. Homes here often have small rooms lit by a single ceiling fixture, so recessed cans are a practical way to add bright, even light without a hanging fixture crowding the space.',
       'Older Millvale homes typically have plaster ceilings, so we cut and patch carefully and route wiring through the existing framing. We fit low-profile LED cans that sit flush, space them to clear corners, and wire everything to code as a licensed contractor.',
@@ -401,7 +401,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'paddock-hills': {
     intro:
-      'Recessed lighting in Paddock Hills brings even light to settled homes. As a licensed electrical contractor, we install flush LED cans in this north-side neighborhood near Paddock Road, all wired to code. Call (513) 586-5107.',
+      'Near Paddock Road and the Norwood Lateral, Paddock Hills homes from the early and mid-1900s usually have one ceiling fixture per room, and recessed lighting is the common fix for dim counters and corners. We lay out LED cans for even, layered light and wire them to code.',
     relevance: [
       'Paddock Hills (ZIP 45229) is a small, well-kept north-side residential pocket near Paddock Road and the Norwood Lateral, with streets of early- and mid-1900s homes. Those homes often have a single ceiling fixture per room, leaving counters and corners dim, so recessed cans are a common upgrade for even, layered light.',
       'The mix of early- and mid-1900s housing means we see both plaster and drywall ceilings in Paddock Hills, and we plan can placement and patching to match. We lay out LED cans for even coverage, fit low-profile units, and wire everything to code as a licensed contractor.',
@@ -417,7 +417,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'spring-grove-village': {
     intro:
-      'Recessed lighting in Spring Grove Village brings even light to older homes. As a licensed electrical contractor, we install flush LED cans near Spring Grove Cemetery, all wired to code. Call (513) 586-5107.',
+      'Older homes around the cemetery in Spring Grove Village typically have one ceiling fixture per room, so recessed lighting there is about spreading the light to the dim edges. We plan the can layout for each room, cut into the ceiling carefully and wire the LED cans to code.',
     relevance: [
       'Spring Grove Village (ZIP 45232) sits in the Mill Creek valley around the historic Spring Grove Cemetery and Arboretum, one of the largest cemeteries in the country, with a mix of older homes and industry. The older homes here typically have a single ceiling fixture per room, leaving rooms dim at the edges, so recessed cans are a common way to add even, layered light.',
       'Older homes in Spring Grove Village usually have plaster ceilings, so we cut and patch carefully and route wiring through the existing framing. We space LED cans to spread light evenly, fit low-profile units that sit flush, and wire everything to code as a licensed contractor.',
@@ -433,7 +433,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'linwood': {
     intro:
-      'Recessed lighting in Linwood suits older riverside homes. As a licensed electrical contractor, we install flush LED cans in this east-side neighborhood near Lunken, all wired to code. Call (513) 586-5107.',
+      'Linwood’s older homes along Eastern Avenue near Lunken Airport often have low ceilings and a single fixture per room, so recessed lighting there means low-profile cans that add even light without cutting into headroom. We lay them out for the room and wire them to code.',
     relevance: [
       'Linwood (ZIP 45226) is one of Cincinnati’s smaller east-side neighborhoods, set along Eastern Avenue near Lunken Airport and the river bottoms. The older homes here often have low ceilings and a single fixture per room, where low-profile recessed cans add even light without cutting into headroom.',
       'Older Linwood homes typically have plaster ceilings, so we cut and patch carefully and route wiring through the existing framing. We fit shallow, low-profile LED cans where ceilings are low, space them for even coverage, and wire everything to code as a licensed contractor.',
@@ -449,7 +449,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bond-hill': {
     intro:
-      'Recessed lighting in Bond Hill brings even light to settled homes. As a licensed electrical contractor, we install flush LED cans along Reading Road, all wired to code. Call (513) 586-5107.',
+      'Bond Hill’s early-1900s and mid-century homes along Reading Road often rely on one ceiling fixture, and recessed cans are the usual fix for kitchens and living rooms that light unevenly. Our licensed electricians space them for even, layered light and wire the new LED cans to code.',
     relevance: [
       'Bond Hill (ZIP 45237) is a north-side neighborhood along Reading Road, with established streets of early-1900s and mid-century single-family homes. Those homes often rely on a single ceiling fixture, which leaves kitchens and living rooms unevenly lit, so recessed cans are a common upgrade for even, layered light.',
       'The mix of early-1900s and mid-century housing in Bond Hill means we see both plaster and drywall ceilings, and we plan can placement and patching to match. We lay out LED cans for even coverage, fit low-profile units, and wire everything to code as a licensed contractor.',

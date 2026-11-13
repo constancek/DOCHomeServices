@@ -3,13 +3,17 @@
 // client asked us to attach display names, so each carries a first name + last
 // initial. The review wording itself is unchanged. Order is client-chosen.
 
+import { videoTestimonials } from './videoTestimonials';
+
 export type Review = {
   name: string;
   text: string;
   when: string;
+  avatar?: string;
+  videoHref?: string;
 };
 
-export const reviews: Review[] = [
+const writtenReviews: Review[] = [
   {
     name: 'Michael B.',
     text:
@@ -66,3 +70,25 @@ export const reviews: Review[] = [
     when: 'Posted a week ago',
   },
 ];
+
+// The people who filmed a video testimonial also read as reviews, so their words
+// are pulled straight from content/videoTestimonials.ts — add a video there and
+// its review card appears here too. Names are shortened to match the written
+// reviews above (first name + last initial); joint names are left alone.
+function displayName(name: string): string {
+  if (name.includes('&')) return name;
+  const parts = name.trim().split(/\s+/);
+  if (parts.length < 2) return name;
+  return `${parts.slice(0, -1).join(' ')} ${parts[parts.length - 1][0]}.`;
+}
+
+const videoReviews: Review[] = videoTestimonials.map((t) => ({
+  name: displayName(t.name),
+  text: t.quote,
+  when: `${t.location} · Video testimonial`,
+  avatar: t.avatar,
+  videoHref: `/video-testimonials#${t.id}`,
+}));
+
+// Video reviews lead — a face and a playable clip carry more weight than text.
+export const reviews: Review[] = [...videoReviews, ...writtenReviews];

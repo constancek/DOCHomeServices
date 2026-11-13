@@ -1,6 +1,6 @@
 export const part4: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'reading': {
-    intro: 'Want flush recessed cans to replace dated ceiling fixtures in your Reading home? Our licensed electricians lay out and install LED can lighting with proper spacing and code-compliant ceiling wiring. Call (513) 586-5107.',
+    intro: 'Reading’s older and mid-century homes still run on surface-mount globes and single-bulb fixtures, and recessed lighting replaces them with a planned grid of cans that evens out the light and frees up the ceiling. We lay out LED cans with proper spacing and wire them to code.',
     relevance: [
       'Reading (ZIP 45215) is a city in the Mill Creek valley north of Cincinnati, with a settled mix of older and mid-century homes. A lot of those houses still run on the surface-mount globes and single-bulb fixtures they were built with, which throw uneven light and date a room — swapping them for a planned grid of recessed cans evens out the light and frees up the ceiling.',
       'The mid-century homes here tend to have plaster or older drywall ceilings, so we map joist locations and fixture spacing before cutting, then size the LED cans to the room rather than dropping in a token few. Every can goes in on properly rated wiring with junctions made to code, whether the ceiling is open or already finished.',
@@ -14,7 +14,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dent': {
-    intro: 'Replacing tired ceiling fixtures with recessed cans in Dent? Our licensed electricians plan the layout and install LED can lighting on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Dent’s mid-century ranches came with builder-grade ceiling fixtures, and recessed lighting there usually centers on the kitchen and living room, where one fixture never lit the whole space. A planned grid of LED cans covers the corners and counters. We lay out the spacing and wire it to code.',
     relevance: [
       'Dent (ZIP 45247) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. The mid-century ranches here were built with builder-grade ceiling fixtures that leave corners and counters in shadow, which is why a planned recessed grid in the kitchen or living room makes such a difference.',
       'Many of these homes have lower ranch-style ceilings, so shallow-housing LED cans matter for keeping fixtures flush without crowding the room. We confirm joist spacing and clearances first, then wire each can to code, matching can count and spacing to the room so the light lands evenly instead of in bright spots.',
@@ -28,7 +28,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'deer-park': {
-    intro: 'Trading outdated fixtures for flush recessed cans in Deer Park? Our licensed electricians design the layout and install LED can lighting to code. Call (513) 586-5107.',
+    intro: 'Deer Park’s mid-century homes were wired in an era of single ceiling fixtures, and recessed lighting replaces that one bright spot with an even grid that lights the whole room. Our licensed electricians design the layout and wire the LED cans to code.',
     relevance: [
       'Deer Park (ZIP 45236) is a small, settled east-side city made up largely of mid-century single-family homes on quiet streets. Those homes were wired in an era of single ceiling fixtures, so kitchens and living rooms often have one bright spot and dim edges — a planned grid of recessed cans spreads the light and modernizes the ceiling.',
       'The mid-century build means standard joist spacing and, in many homes, original or older ceilings to work around carefully. We map the joists and plan can spacing to avoid shadows over counters and seating, then install each LED fixture on properly rated, code-compliant wiring.',
@@ -42,7 +42,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'terrace-park': {
-    intro: 'Planning an extensive recessed-lighting layout for your Terrace Park home? Our licensed electricians design and install LED can lighting across kitchens, living areas, and finished lower levels, all to code. Call (513) 586-5107.',
+    intro: 'Terrace Park recessed lighting projects in the larger early-1900s homes often run through the kitchen, the main living areas and a finished basement in one planned layout. Planning it as a whole keeps the light even from room to room. We install the LED cans and wire everything to code.',
     relevance: [
       'Terrace Park (ZIP 45174) is an affluent east-side village near the Little Miami River, known for its established early-1900s homes and tree-lined streets. Larger homes like these often want recessed lighting carried through big kitchens, open living rooms, and finished basements, where the layout has to be planned as a whole rather than fixture by fixture.',
       'The early-1900s housing here frequently has plaster ceilings and original detail worth protecting, so we plan can placement around joists and existing trim and cut carefully. Each LED can goes in flush on code-compliant wiring, with spacing worked out to wash the room evenly and avoid shadows in the corners these older rooms tend to have.',
@@ -56,7 +56,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dry-run': {
-    intro: 'Adding recessed cans to your Dry Run home to replace bulky fixtures? Our licensed electricians plan the spacing and install LED can lighting on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Dry Run’s newer homes often have open floor plans where one fixture cannot cover a combined kitchen and living area, and a planned recessed lighting grid is the cleaner fix. Mid-century houses get the same grid, room by room, wired to code.',
     relevance: [
       'Dry Run (ZIP 45244) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. The newer homes often have open floor plans where a single fixture cannot cover a combined kitchen and living area — a planned recessed grid is the cleaner fix.',
       'Newer construction here usually means accessible attic space above the ceiling, which makes running can wiring straightforward, while the older houses need joists mapped before cutting. Either way we lay out spacing to avoid shadows over islands and seating, and wire every LED can to code.',
@@ -70,7 +70,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'white-oak': {
-    intro: 'Swapping dated ceiling fixtures for flush recessed cans in White Oak? Our licensed electricians plan and install LED can lighting to code. Call (513) 586-5107.',
+    intro: 'White Oak’s mid-century houses were built with builder-grade fixtures that leave kitchens and hallways under-lit, so recessed lighting there is usually a grid of LED cans that also moves the house off old incandescent bulbs. We plan the spacing for even light and wire the cans to code.',
     relevance: [
       'White Oak (ZIP 45247) is a settled Green Township community on the northwest side, made up largely of mid-century and newer single-family homes. The mid-century houses here were built with builder-grade fixtures that leave kitchens and hallways under-lit, so a planned recessed grid is a common upgrade.',
       'Replacing older incandescent fixtures with LED cans also cuts energy use, which is part of why owners here make the switch. We map joist spacing first, plan can placement to avoid shadows along counters and in hallways, and wire each fixture to code in finished or open ceilings.',
@@ -84,7 +84,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'forestville': {
-    intro: 'Replacing outdated fixtures with recessed cans in Forestville? Our licensed electricians design the layout and install LED can lighting on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Across Forestville, mid-century and newer homes commonly have one or two ceiling fixtures per room, and recessed lighting corrects the uneven light that leaves in kitchens and family rooms. We replace the sparse fixtures with an even grid of LED cans, wired to code.',
     relevance: [
       'Forestville (ZIP 45230) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. Those homes commonly have one or two ceiling fixtures per room, leaving uneven light in kitchens and family rooms that a planned recessed grid corrects.',
       'The mix of mid-century and newer construction means some ceilings are open above and easy to wire while others are finished and need joists located first. We size the can count to each room and set spacing to wash the space evenly, with every LED fixture wired to code.',
@@ -98,7 +98,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'cherry-grove': {
-    intro: 'Adding flush recessed cans to your Cherry Grove home? Our licensed electricians plan the spacing and install LED can lighting to code. Call (513) 586-5107.',
+    intro: 'Cherry Grove’s mid-century houses often have lower ceilings and dated fixtures, so recessed cans both modernize the room and free up headroom. The bulky low-hanging fixture comes out and flush LED cans go in on a planned spacing. Our licensed electricians wire every can to code.',
     relevance: [
       'Cherry Grove (ZIP 45230) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. The mid-century houses here often have lower ceilings and dated fixtures, so flush recessed cans both modernize the room and free up headroom.',
       'Lower ceilings make shallow-housing LED cans the right choice for keeping fixtures truly flush. We map joists and clearances before cutting, plan can spacing to avoid shadows over counters and seating, and wire every fixture to code in finished or open ceilings.',
@@ -112,7 +112,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'kenwood': {
-    intro: 'Planning an extensive recessed-lighting layout for your Kenwood home? Our licensed electricians design and install LED can lighting across big kitchens, open living areas, and finished basements, all to code. Call (513) 586-5107.',
+    intro: 'Kenwood recessed lighting projects in the larger homes around Kenwood Towne Centre often span a big kitchen, open living areas and a finished basement in one coordinated layout. Planning it together keeps the light even through wide rooms. We install the LED cans and wire everything to code.',
     relevance: [
       'Kenwood (ZIP 45236) is an upscale, unincorporated east-side community around Kenwood Towne Centre, with mid-century homes alongside newer, larger houses. The larger homes here are exactly the kind that want recessed lighting carried through wide kitchens, open living areas, and finished lower levels in one coordinated layout.',
       'In the bigger newer houses we often have attic or open ceiling access to run can wiring, while the older mid-century homes need joists located first. We plan can count and spacing to wash large rooms evenly without bright spots, and wire every LED fixture to code.',
@@ -126,7 +126,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'lincoln-heights': {
-    intro: 'Replacing dated ceiling fixtures with recessed cans in Lincoln Heights? Our licensed electricians plan the layout and install LED can lighting on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Lincoln Heights, one of the first self-governed Black municipalities in the northern United States, has older, modest homes that still run on their original single ceiling fixtures, and recessed lighting replaces them with an even grid scaled to the room, wired to code.',
     relevance: [
       'Lincoln Heights (ZIP 45215) is a historic community in the Mill Creek valley north of the city — one of the first self-governed Black municipalities in the northern United States — with older, modest homes. Those homes often run on the original single ceiling fixtures they were built with, and a planned recessed grid lights the room more evenly while modernizing the ceiling.',
       'The older housing here means we locate joists and check ceiling condition before cutting, and we keep can count sensible for the room sizes typical of these homes. Each LED can goes in flush on code-compliant wiring, with spacing planned to clear shadows from corners and over work areas.',
@@ -140,7 +140,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dillonvale': {
-    intro: 'Trading outdated fixtures for flush recessed cans in Dillonvale? Our licensed electricians design the spacing and install LED can lighting to code. Call (513) 586-5107.',
+    intro: 'Dillonvale’s mid-century homes near Kenwood were wired with single ceiling fixtures, and recessed lighting there usually replaces the dim center fixture in the kitchen and family room with an even grid. Our licensed electricians design the spacing and install the LED cans to code.',
     relevance: [
       'Dillonvale (ZIP 45236) is a Sycamore Township community on the east side near Kenwood, with settled neighborhoods of mid-century homes. Those homes were wired with single ceiling fixtures that leave kitchens and family rooms unevenly lit, so a planned recessed grid is a common upgrade.',
       'The mid-century build often means lower ceilings and standard joist spacing, so we use shallow-housing LED cans where headroom is tight and map joists before cutting. Can placement is set to avoid shadows over counters and seating, with every fixture wired to code.',
@@ -154,7 +154,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'woodlawn': {
-    intro: 'Adding recessed cans to replace tired fixtures in your Woodlawn home? Our licensed electricians plan the layout and install LED can lighting on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Woodlawn’s older homes in the Mill Creek valley often still run on the surface-mount fixtures they were built with, and recessed lighting swaps them for a planned grid that evens out the light and clears the ceiling. We wire the LED cans to code.',
     relevance: [
       'Woodlawn (ZIP 45215) is a village in the Mill Creek valley north of the city, with a mix of residential streets and older housing. The older homes here often still run on the surface-mount fixtures they were built with, and a planned recessed grid evens out the light and clears the ceiling.',
       'Because the housing leans older, we locate joists and check ceiling condition before cutting, and size the can count to the room. Each LED fixture goes in flush on code-compliant wiring, with spacing set to clear shadows from the corners these rooms tend to have.',
@@ -168,7 +168,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'addyston': {
-    intro: 'Replacing dated ceiling fixtures with recessed cans in Addyston? Our licensed electricians plan and install LED can lighting to code. Call (513) 586-5107.',
+    intro: 'Addyston’s century-old worker homes in this river mill town were built with single ceiling fixtures, and recessed lighting replaces them with an even grid scaled to the smaller rooms. A kitchen or living room is the usual starting point. We plan the layout and wire the LED cans to code.',
     relevance: [
       'Addyston (ZIP 45001) is a small village on the far west side along the Ohio River, an old mill town with closely spaced older worker homes. Those century-old homes were built with single ceiling fixtures, so a planned recessed grid is the modern way to light a kitchen or living room evenly.',
       'The age of the housing means plaster or older ceilings to work around carefully, so we map joists and check the ceiling before cutting. Each LED can goes in flush on code-compliant wiring, with spacing planned to avoid the shadows common in older, compact rooms.',
@@ -182,7 +182,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'greenhills': {
-    intro: 'Adding flush recessed cans to your historic Greenhills home? Our licensed electricians plan the layout and install LED can lighting on code-compliant wiring, with care for the original character. Call (513) 586-5107.',
+    intro: 'Greenhills’ 1930s Greenbelt cottages and townhomes were built with minimal ceiling fixtures, and recessed lighting gives those compact rooms an even grid of light without altering the original character of this National Historic Landmark town. We plan the layout carefully and wire the LED cans to code.',
     relevance: [
       'Greenhills (ZIP 45218) is a historic planned "Greenbelt" town built in the 1930s as a New Deal project, now a National Historic Landmark district, with its original cottages and townhomes still in use. Those compact 1930s homes were built with minimal ceiling fixtures, so a carefully planned recessed grid is a common way to light a kitchen or living room without altering the room’s lines.',
       'Homes from the 1930s often have plaster ceilings and tighter rooms, so we map joists and check the ceiling before cutting and keep can count sensible for the scale. Each LED fixture goes in flush on code-compliant wiring, with spacing planned to avoid shadows in the corners of these smaller original rooms.',
@@ -196,7 +196,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'northbrook': {
-    intro: 'Swapping dated fixtures for flush recessed cans in Northbrook? Our licensed electricians plan the spacing and install LED can lighting to code. Call (513) 586-5107.',
+    intro: 'Northbrook’s mid-century homes in Colerain Township came with builder-grade ceiling fixtures that under-light kitchens and family rooms, and recessed lighting replaces the dim center fixture with an even grid. Our licensed electricians plan the spacing and install the LED cans on code-compliant wiring.',
     relevance: [
       'Northbrook (ZIP 45251) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. Those homes were built with builder-grade ceiling fixtures that under-light kitchens and family rooms, so a planned recessed grid is a frequent upgrade here.',
       'The mid-century build often means lower ceilings and standard joist spacing, so we use shallow-housing LED cans where headroom is tight and map joists before cutting. Can placement is planned to avoid shadows over counters and seating, with every fixture wired to code.',
@@ -210,7 +210,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'indian-hill': {
-    intro: 'Planning an extensive recessed-lighting layout across your Indian Hill estate? Our licensed electricians design and install LED can lighting through large kitchens, open living areas, and finished lower levels, all to code. Call (513) 586-5107.',
+    intro: 'Indian Hill recessed lighting usually runs across a big kitchen, open great rooms and a finished basement in one coordinated layout, because estates this size need the light planned as a whole to stay even. We design the can layout for each space and wire the LED cans to code.',
     relevance: [
       'Indian Hill (ZIP 45243) is an affluent east-side village known for its large estates and homes on multi-acre, wooded lots, many set well back from the road. Homes this size often want recessed lighting carried through expansive kitchens, open great rooms, and finished basements, where the layout has to be planned as a whole to keep the light even across big spaces.',
       'Large rooms with high or coffered ceilings need careful can sizing and spacing so the light reaches the floor without dim gaps, and we plan around joists and any existing detail before cutting. Every LED can goes in on code-compliant wiring, sized and spaced to the room rather than dropped in by a rough count.',
@@ -224,7 +224,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'evendale': {
-    intro: 'Replacing outdated fixtures with recessed cans in Evendale? Our licensed electricians plan the layout and install LED can lighting on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Evendale’s established homes, near the GE Aerospace plant, still carry the mid-century fixtures that came with the house, and recessed lighting replaces those sparse fixtures with an even grid in the kitchen and living room. We plan the layout and install the LED cans on code-compliant wiring.',
     relevance: [
       'Evendale (ZIP 45241) is a north-side village with a large industrial base, including GE Aerospace, alongside established residential neighborhoods. In the homes here, the mid-century fixtures that came with the house leave kitchens and living rooms unevenly lit, so a planned recessed grid is a common improvement.',
       'The established housing means standard joist spacing and, in many homes, finished ceilings to work around. We map joists and plan can spacing to avoid shadows over counters and seating, then wire every LED fixture to code in finished or open ceilings.',
@@ -238,7 +238,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'glendale': {
-    intro: 'Adding flush recessed cans to your historic Glendale home? Our licensed electricians plan the layout and install LED can lighting on code-compliant wiring, with care for the original detail. Call (513) 586-5107.',
+    intro: 'Glendale’s preserved Victorian homes, in one of the country’s earliest planned railroad suburbs, were built long before recessed lighting, so adding cans there takes a careful plan. The goal is even modern light in a kitchen or living room without altering the original detail. We wire the cans to code.',
     relevance: [
       'Glendale (ZIP 45246) is a historic village and one of the country’s earliest planned railroad suburbs — a National Historic Landmark — known for its preserved Victorian homes and winding, tree-lined streets. Those 19th-century homes were built long before recessed lighting, so a carefully planned can layout brings even modern light to a kitchen or living room without altering the room’s lines.',
       'Victorian homes usually have plaster ceilings and original trim worth protecting, so we map joists and check the ceiling before cutting and plan can placement around existing detail. Each LED can goes in flush on code-compliant wiring, with spacing set to wash these older rooms evenly.',
@@ -252,7 +252,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'sharonville': {
-    intro: 'Swapping dated ceiling fixtures for recessed cans in Sharonville? Our licensed electricians plan and install LED can lighting to code in homes and businesses. Call (513) 586-5107.',
+    intro: 'Sharonville’s mid-century homes near Sharon Woods came with builder-grade fixtures that under-light kitchens and living rooms, and recessed lighting replaces them with an even grid of LED cans. We also install cans in local businesses. Our licensed electricians plan the layout and wire it to code.',
     relevance: [
       'Sharonville (ZIP 45241) is a north-side city near Sharon Woods, with a mix of established residential neighborhoods, the convention center, and commercial corridors. The mid-century homes here came with builder-grade fixtures that under-light kitchens and living rooms, so a planned recessed grid is a frequent upgrade.',
       'Across the established housing we find standard joist spacing and finished ceilings to work around, while commercial spaces want even recessed coverage too. We map joists, plan can spacing to avoid shadows over work areas and seating, and wire every LED fixture to code.',
@@ -266,7 +266,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'northgate': {
-    intro: 'Replacing tired fixtures with flush recessed cans in Northgate? Our licensed electricians plan the layout and install LED can lighting on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Northgate’s mid-century houses around the mall corridor often have lower ceilings and dated fixtures, and recessed lighting swaps those bulky fixtures for flush cans that keep the ceiling clean. We plan the spacing so the light is even across the room and wire the LED cans to code.',
     relevance: [
       'Northgate (ZIP 45251) is a Colerain Township area on the northwest side around the Northgate Mall corridor, with neighborhoods of mid-century and newer homes. The mid-century houses here often have lower ceilings and dated fixtures, so flush recessed cans both update the room and keep the ceiling clean.',
       'Lower ceilings make shallow-housing LED cans the right call for keeping fixtures truly flush, and we map joists before cutting. Can placement is planned to avoid shadows over counters and seating, with every fixture wired to code in finished or open ceilings.',
@@ -280,7 +280,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'springdale': {
-    intro: 'Adding recessed cans to replace dated fixtures in Springdale? Our licensed electricians plan and install LED can lighting to code in homes and businesses. Call (513) 586-5107.',
+    intro: 'Springdale’s mid-century homes along the Tri-County corridor came with single ceiling fixtures that leave kitchens and family rooms unevenly lit, which is why recessed lighting is a common upgrade. We replace the sparse fixtures with an even grid of LED cans and wire them to code.',
     relevance: [
       'Springdale (ZIP 45246) is a north-side city along the Tri-County corridor, with established mid-century neighborhoods alongside a large commercial and retail base. The mid-century homes here came with single ceiling fixtures that leave kitchens and family rooms unevenly lit, which is why a planned recessed grid is a common upgrade.',
       'Across the established housing we map joists and work around finished ceilings, while commercial spaces along the corridor want even recessed coverage too. We plan can spacing to avoid shadows over work areas and seating, and wire every LED fixture to code.',
@@ -294,7 +294,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'miamitown': {
-    intro: 'Replacing outdated ceiling fixtures with recessed cans in Miamitown? Our licensed electricians plan the layout and install LED can lighting on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Miamitown’s older homes on the low ground beside the Great Miami River were built with single ceiling fixtures, and recessed lighting replaces them with a planned grid that lights a kitchen or living room evenly. We scale the can layout to the room and wire it to code.',
     relevance: [
       'Miamitown (ZIP 45041) is a small far-west community on the Great Miami River, with older homes set on low river-bottom ground. Those older homes were built with single ceiling fixtures, so a planned recessed grid is the modern way to light a kitchen or living room evenly.',
       'The age of the housing means plaster or older ceilings to work around carefully, so we map joists and check the ceiling before cutting. Each LED can goes in flush on code-compliant wiring, with spacing planned to clear the shadows common in older, compact rooms.',
@@ -308,7 +308,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'forest-park': {
-    intro: 'Trading dated fixtures for flush recessed cans in Forest Park? Our licensed electricians plan the spacing and install LED can lighting to code. Call (513) 586-5107.',
+    intro: 'Forest Park was developed as a planned community from the 1960s, and its mid-century homes came with builder-grade fixtures, so recessed lighting there usually replaces a dim center fixture with an even grid in the main living spaces. We plan the spacing and wire the LED cans to code.',
     relevance: [
       'Forest Park (ZIP 45240) is a north-side city developed as a planned community from the 1960s, with neighborhoods of mid-century single-family homes. Those homes were built with builder-grade fixtures that leave kitchens and living rooms under-lit, so a planned recessed grid is a common improvement here.',
       'The 1960s build often means lower ceilings and standard joist spacing, so we use shallow-housing LED cans where headroom is tight and map joists before cutting. Can placement is planned to avoid shadows over counters and seating, with every fixture wired to code.',
@@ -322,7 +322,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'pleasant-run': {
-    intro: 'Adding flush recessed cans to your Pleasant Run home? Our licensed electricians plan the layout and install LED can lighting on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Pleasant Run has mid-century houses with dated single fixtures and newer homes with open plans a lone fixture cannot cover, and recessed lighting answers both with a planned grid. We replace the sparse fixtures in the main living spaces with LED cans and wire them to code.',
     relevance: [
       'Pleasant Run (ZIP 45240) is a Springfield Township community on the north side, with settled neighborhoods of mid-century and newer homes. The mid-century houses here often have dated single fixtures, while the newer homes have open plans a lone fixture cannot cover — both call for a planned recessed grid.',
       'Newer construction here often has attic access that makes running can wiring straightforward, while the older homes need joists mapped first. We plan can spacing to avoid shadows over counters and seating, and wire every LED fixture to code in finished or open ceilings.',
@@ -336,7 +336,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'cleves': {
-    intro: 'Replacing outdated fixtures with recessed cans in Cleves? Our licensed electricians plan and install LED can lighting on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Cleves sits near where the Great Miami River meets the Ohio, and recessed lighting in its older homes on low ground usually replaces a single dated fixture with an even grid scaled to the room. We plan the layout and wire the LED cans to code.',
     relevance: [
       'Cleves (ZIP 45002) is a far-west village near where the Great Miami River meets the Ohio, with older homes on low ground. Those older homes were built with single ceiling fixtures, so a planned recessed grid is the modern way to light a kitchen or living room evenly.',
       'The age of the housing means plaster or older ceilings to work around carefully, so we map joists and check the ceiling before cutting. Each LED can goes in flush on code-compliant wiring, with spacing planned to clear the shadows common in older, compact rooms.',
@@ -350,7 +350,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'north-bend': {
-    intro: 'Adding recessed cans to replace tired fixtures in your North Bend home? Our licensed electricians plan the layout and install LED can lighting to code. Call (513) 586-5107.',
+    intro: 'North Bend, the burial place of President William Henry Harrison, has older homes on low riverside ground that came with single ceiling fixtures, and recessed lighting replaces them with a planned grid of cans. We scale the layout to a kitchen or living room and wire it to code.',
     relevance: [
       'North Bend (ZIP 45052) is a historic far-west village on the Ohio River — the burial place of President William Henry Harrison — with older homes set on low riverside ground. Those older homes came with single ceiling fixtures, so a planned recessed grid is the modern way to light a kitchen or living room evenly.',
       'The age of the housing means plaster or older ceilings to handle carefully, so we map joists and check the ceiling before cutting. Each LED can goes in flush on code-compliant wiring, with spacing planned to clear the shadows common in older rooms.',
@@ -364,7 +364,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'loveland': {
-    intro: 'Planning a recessed-lighting layout for your Loveland home? Our licensed electricians design and install LED can lighting across kitchens, living areas, and finished basements, all to code. Call (513) 586-5107.',
+    intro: 'Loveland recessed lighting ranges from careful retrofits in older downtown homes near the Little Miami River to full planned grids in newer houses with open kitchens and living areas. We lay out the cans for the house you have, through finished basements too, and wire everything to code.',
     relevance: [
       'Loveland (ZIP 45140) is a historic city straddling the Little Miami River and the Loveland Bike Trail, with a charming older downtown and a mix of historic and newer homes. That range means recessed work here spans careful retrofits in older downtown homes and full planned grids in newer houses with open kitchens and living areas.',
       'The older homes near the river usually have plaster ceilings we map and cut carefully, while the newer ones often have attic access that makes wiring straightforward. We size can count and spacing to each room, then wire every LED fixture to code in finished or open ceilings.',
@@ -378,7 +378,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'harrison': {
-    intro: 'Replacing outdated fixtures with recessed cans in Harrison? Our licensed electricians plan the layout and install LED can lighting on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Harrison sits on the Indiana state line along the Whitewater River, and recessed lighting there ranges from careful retrofits in older downtown homes to full planned grids in newer houses with open living spaces. We lay out the LED cans for each and wire them on code-compliant circuits.',
     relevance: [
       'Harrison (ZIP 45030) is a far-west city on the Indiana state line along the Whitewater River, with an older downtown and a growing mix of established and newer homes. That mix means recessed work here ranges from careful retrofits in older downtown homes to full planned grids in newer houses with open living spaces.',
       'The older homes usually have plaster or older ceilings we map and cut carefully, while newer construction often has attic access for straightforward wiring. We size can count and spacing to each room and wire every LED fixture to code, in finished or open ceilings.',
