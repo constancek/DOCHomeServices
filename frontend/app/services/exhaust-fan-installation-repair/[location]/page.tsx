@@ -9,6 +9,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'exhaust-fan-installation-repair',
   serviceName: 'Exhaust Fan Installation & Repair',
+  localHeadingName: 'Exhaust Fan Installation',
+  emergencyHeading: 'Urgent Exhaust Fan Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Exhaust Fan Installation & Repair',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
@@ -77,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'Why isn’t my bathroom exhaust fan removing moisture?', a: 'The most common reasons are a fan that is undersized for the room, ductwork that vents into the attic instead of outdoors, a clogged duct, or a weak or worn motor. We check all of these.' },
     { q: 'How long does exhaust fan installation take?', a: 'A standard replacement usually takes a couple of hours. A brand-new installation that requires running new ductwork and exterior venting takes longer — we will give you a clear estimate up front.' },
   ],
+  steps: {
+    heading: 'What to Expect From Exhaust Fan Service in {neighborhood}',
+    items: [
+      { icon: 'wind', title: 'We Trace the Airflow First', text: 'The fan, the duct and where it ends, so we know why the room stays damp.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'Repair or a new fan, and a flat-rate price before we cut into a ceiling.' },
+      { icon: 'shieldBolt', title: 'Wired, Vented and Tested', text: 'Wired to code, ducted outdoors and sealed, then tested for airflow and noise.' },
+    ],
+  },
   related: [
     { label: 'Exhaust Fan Installation & Repair (overview)', href: '/services/exhaust-fan-installation-repair' },
     { label: 'Indoor Air Quality', href: '/services/indoor-air-quality' },

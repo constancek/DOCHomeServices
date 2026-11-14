@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Exhaust fan work in Queensgate leans commercial: restroom fans, kitchen and break-room ventilation, and older units that run loud or have lost suction. Many buildings sit on low ground near Mill Creek, where damp air takes a toll. We size each fan to the space and vent it outdoors.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. The exhaust work here leans commercial: restroom fans, kitchen and break-room ventilation, and older units that have lost suction or run loud in buildings that were not built around them.',
-      'Many of these older structures sit on low ground near the Mill Creek that is prone to flooding, and damp air in an under-ventilated space takes a toll on finishes and stored goods. We size fans to the room or restroom, route ducting to a proper exterior cap, and wire it to code. We respond across Queensgate 7 days a week.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the exhaust-fan work we handle most often comes from worn or undersized restroom and kitchen ventilation:',
-    localFaqs: [
-      {
-        q: 'Do you handle exhaust fans for commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we install and repair restroom and kitchen exhaust fans there as well as in homes, sized to the space and vented outdoors. We respond every day.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'Small old bathrooms in CUF student rentals often have a worn exhaust fan or none, and heavy daily use leaves steam on aging plaster and tile. Where baths were added during conversion, fans often vent into the attic or a shared wall. We run a dedicated duct outdoors.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'Will a bathroom fan help with the dampness in my South Cumminsville home?',
         a: 'Yes. In the humid Mill Creek valley, a fan sized to the room and vented fully outdoors clears shower moisture and keeps mildew down. South Cumminsville is within our service area in the valley.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'Aging bathroom fans that have lost suction are the usual exhaust fan job in English Woods, where shower steam hangs in the room and works at paint and grout. On a hilltop above a humid valley, an attic-vented fan makes things worse. We run a dedicated duct outdoors.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The older homes here often run on aging bath fans that have lost suction, so shower steam hangs in the room and works at the paint and grout.',
-      'On a hilltop above a humid valley, clearing that moisture quickly keeps mildew down, and a fan vented into the attic does the opposite. We size a fan to the bathroom, route a dedicated duct to a proper exterior cap, and wire it to code. English Woods is within our west-side service area.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the exhaust-fan work we see most often comes from worn or missing bathroom fans:',
-    localFaqs: [
-      {
-        q: 'How fast can you install a bathroom fan in English Woods?',
-        a: 'English Woods is within our west-side service area, so we reach it quickly. We size the fan to the room and vent it outdoors through a proper cap, with wiring done to code.',
       },
     ],
   },
