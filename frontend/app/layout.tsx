@@ -24,10 +24,13 @@ const montserrat = Montserrat({
 
 const merriweather = Merriweather({
   subsets: ['latin'],
-  // Only the logo wordmark and one heading use this font, both at 900.
+  // Logo wordmark and a few decorative headings, all at 900.
   weight: ['900'],
   variable: '--font-logo',
   display: 'swap',
+  // Not preloaded: on slow phones it competed with the hero photo for bandwidth.
+  // It still loads with the CSS; the logo shows in Georgia until it arrives.
+  preload: false,
 });
 
 export const metadata: Metadata = {

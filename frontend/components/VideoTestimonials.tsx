@@ -16,6 +16,32 @@ const STRIP_COUNT = Math.min(6, N);
 export default function VideoTestimonials() {
   const [active, setActive] = useState(0);
   const videoRef = useRef<HTMLVideoElement>(null);
+  const sectionRef = useRef<HTMLElement>(null);
+  // The poster waits until the page has finished loading (or the section comes
+  // near the screen, if that happens first), so it does not compete with the
+  // hero photo for bandwidth on slow phones.
+  const [near, setNear] = useState(false);
+
+  useEffect(() => {
+    const show = () => setNear(true);
+    if (document.readyState === 'complete') {
+      show();
+      return;
+    }
+    window.addEventListener('load', show, { once: true });
+    const el = sectionRef.current;
+    const io =
+      el && 'IntersectionObserver' in window
+        ? new IntersectionObserver(([entry]) => entry.isIntersecting && show(), {
+            rootMargin: '800px 0px',
+          })
+        : null;
+    if (io && el) io.observe(el);
+    return () => {
+      window.removeEventListener('load', show);
+      io?.disconnect();
+    };
+  }, []);
 
   // Plays the selected video muted (controls let visitors unmute) while it is
   // on screen and pauses it when it leaves. Re-attaches when a new customer is
@@ -49,7 +75,7 @@ export default function VideoTestimonials() {
   if (!t) return null;
 
   return (
-    <section className="cv-auto bg-cream py-14 sm:py-16">
+    <section ref={sectionRef} className="cv-auto bg-cream py-14 sm:py-16">
       <div className="container-page">
         <div className="text-center">
           <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-pink-500">
@@ -155,7 +181,7 @@ export default function VideoTestimonials() {
               key={active}
               ref={videoRef}
               src={t.video}
-              poster={t.poster}
+              poster={near ? t.poster : undefined}
               className="h-full w-full object-cover"
               aria-label={`Video testimonial from ${t.name}`}
               muted

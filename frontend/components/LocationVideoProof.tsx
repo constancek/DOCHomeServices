@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Icon from './Icon';
 import { site } from '@/content/site';
 import type { VideoTestimonial } from '@/content/videoTestimonials';
@@ -19,6 +19,31 @@ export default function LocationVideoProof({
   video: VideoTestimonial;
 }) {
   const videoRef = useRef<HTMLVideoElement>(null);
+  // The poster waits until the page has finished loading (or the video comes
+  // near the screen, if that happens first), so it does not compete with the
+  // hero photo for bandwidth on slow phones.
+  const [near, setNear] = useState(false);
+
+  useEffect(() => {
+    const show = () => setNear(true);
+    if (document.readyState === 'complete') {
+      show();
+      return;
+    }
+    window.addEventListener('load', show, { once: true });
+    const el = videoRef.current;
+    const io =
+      el && 'IntersectionObserver' in window
+        ? new IntersectionObserver(([entry]) => entry.isIntersecting && show(), {
+            rootMargin: '800px 0px',
+          })
+        : null;
+    if (io && el) io.observe(el);
+    return () => {
+      window.removeEventListener('load', show);
+      io?.disconnect();
+    };
+  }, []);
 
   useEffect(() => {
     const el = videoRef.current;
@@ -44,7 +69,7 @@ export default function LocationVideoProof({
             <video
               ref={videoRef}
               src={video.video}
-              poster={video.poster}
+              poster={near ? video.poster : undefined}
               className="h-full w-full object-cover"
               aria-label={`Video testimonial from ${video.name}`}
               muted
