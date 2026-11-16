@@ -6,6 +6,8 @@ import { part3 } from './electrical-mast-repair-parts/part3';
 import { part4 } from './electrical-mast-repair-parts/part4';
 import { part5 } from './electrical-mast-repair-parts/part5';
 import { part6 } from './electrical-mast-repair-parts/part6';
+// Fully localized towns (one format), wired in by electrical-mast-repair-pilot/build-index.mjs.
+import { mastRepairPilot } from './electrical-mast-repair-pilot';
 
 // Per-neighborhood, electrical-mast-repair-specific copy, drafted from each
 // neighborhood's real local facts in content/locations.ts.
@@ -16,6 +18,7 @@ const all: Record<string, LocationServiceCopy> = {
   ...part4,
   ...part5,
   ...part6,
+  ...mastRepairPilot,
 };
 
 // Dev shows all 170; production build ships only the DEPLOYED_LOCATION_SLUGS cohort.

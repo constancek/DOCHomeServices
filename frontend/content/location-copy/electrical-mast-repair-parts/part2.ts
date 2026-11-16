@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'On a working Queensgate building, a bent riser or loose mast can take down power to the whole structure, so mast repair there is about getting the business running again. Masts are sized for commercial loads and aged by decades of exposure. Wind across the rail-yard flats strains them.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Many of these older structures take their power through overhead service, with masts and weatherheads sized for commercial loads and aged by decades of exposure.',
-      'On low ground prone to flooding, water intrusion through a failed weatherhead seal is a real concern, and wind across the open rail-yard flats strains tall masts. A bent riser or a mast pulled loose on a working building can take down power to the whole structure. We replace the mast and entrance cable, reseal the penetration, and coordinate the utility disconnect so service is restored safely.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the mast problems we handle most often come from aging overhead service on exposed, low ground:',
-    localFaqs: [
-      {
-        q: 'Do you repair service masts on commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and we repair and replace masts, weatherheads, and entrance cable on those buildings with licensed electricians and a utility-coordinated disconnect.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'Mast repair in CUF (Clifton Heights, University Heights & Fairview) often means a century-old weatherhead on a house cut into student rentals. Heavy use and age show as brittle cable, dried-out seals and masts loosened on settled framing. Hilltop wind and older trees add strain and tear cable loose.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'How fast can you repair a service mast in South Cumminsville?',
         a: 'South Cumminsville is within our service area in the Mill Creek valley. We assess the mast and coordinate the utility disconnect so licensed electricians can repair the overhead service safely.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'Hilltop wind and ice load the masts hard in English Woods, so mast repair there often follows a storm. Falling limbs can bend a riser or pull cable loose at the weatherhead on the older homes. A shifted mast opens its flashing and lets water into the meter base.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. Older homes here take power overhead, with masts and weatherheads aged by years on an exposed hilltop.',
-      'The hilltop setting means wind and ice load the masts hard, and falling limbs can bend a riser or pull cable loose at the weatherhead. A mast that has shifted opens its flashing and lets water into the meter base. We replace the mast and entrance cable, reseal the penetration, and coordinate the utility disconnect so the overhead service is safe to work on.',
-    ],
-    commonIntro:
-      'In English Woods’ older hilltop homes, the mast problems we handle most often come from overhead service exposed on the grade:',
-    localFaqs: [
-      {
-        q: 'How fast can you repair a service mast in English Woods?',
-        a: 'English Woods is within our west-side service area. We assess the mast and coordinate the utility disconnect so licensed electricians can repair the overhead service safely.',
       },
     ],
   },

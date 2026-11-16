@@ -9,6 +9,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'electrical-mast-repair',
   serviceName: 'Electrical Mast Repair',
+  localHeadingName: 'Electrical Mast Repair',
+  emergencyHeading: 'Emergency Electrical Mast Repair in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Electrical Mast Repair',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
@@ -77,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'What’s involved in replacing a service mast?', a: 'Removal of old equipment, new installation, wiring updates, and a thorough system inspection.' },
     { q: 'How long does a service mast replacement take?', a: 'Most replacements are completed within one day, depending on project complexity.' },
   ],
+  steps: {
+    heading: 'What to Expect From Mast Repair in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Inspect the Whole Service Entrance', text: 'Mast, weatherhead, riser, entrance cable, flashing and meter base, checked together.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'Repair or a new mast, with a flat-rate price before any work starts.' },
+      { icon: 'certificate', title: 'Permit, Utility and Inspection Handled', text: 'We file the permit at booking and schedule the disconnect, inspection and reconnect.' },
+    ],
+  },
   related: [
     { label: 'Electrical Mast Repair (overview)', href: '/services/electrical-mast-repair' },
     { label: 'Electrical Panel Replacement', href: '/services/electrical-panel-replacement' },
