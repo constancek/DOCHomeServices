@@ -6,6 +6,8 @@ import { part3 } from './mini-split-repair-parts/part3';
 import { part4 } from './mini-split-repair-parts/part4';
 import { part5 } from './mini-split-repair-parts/part5';
 import { part6 } from './mini-split-repair-parts/part6';
+// Fully localized towns (one format), wired in by mini-split-repair-pilot/build-index.mjs.
+import { miniSplitRepairPilot } from './mini-split-repair-pilot';
 
 // Per-neighborhood, mini-split-repair-specific copy, drafted from each
 // neighborhood's real local facts in content/locations.ts.
@@ -16,6 +18,7 @@ const all: Record<string, LocationServiceCopy> = {
   ...part4,
   ...part5,
   ...part6,
+  ...miniSplitRepairPilot,
 };
 
 // Dev shows all 170; production build ships only the DEPLOYED_LOCATION_SLUGS cohort.

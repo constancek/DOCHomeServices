@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -8,13 +9,14 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'water-heater-installation',
   serviceName: 'Water Heater Installation',
+  emergencyHeading: 'Same-Day Water Heater Replacement in {neighborhood}',
   eyebrow: 'Plumbing',
   hubLabel: 'Water Heater Installation',
   parentCrumb: { label: 'Plumbing', href: '/services/plumbing' },
   businessType: 'Plumber',
   schemaServiceType: 'Water Heater Installation & Replacement',
   ctaLine: 'Need a new water heater in {neighborhood}? Call for same-day service',
-  heroImage: '/services/wh-hero.jpg',
+  heroImage: '/services/wh-hero.webp',
   introHeading: 'Water Heater Installation in {neighborhood}',
   introParagraphs: [
     'When it is time for dependable hot water, {brand} installs and replaces water heaters for homeowners in {place} — tank or tankless, sized to your household and installed to code. We help you choose the right system and handle every step from removal to testing.',
@@ -41,7 +43,7 @@ const config: ServiceLocationConfig = {
     { slug: 'water-heater-maintenance', title: 'Water Heater Maintenance' },
     { slug: 'water-quality', title: 'Water Quality' },
   ],
-  band1Image: '/services/wh-signs.jpg',
+  band1Image: '/services/wh-signs.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs a New Water Heater',
   commonSituations: [
     'Inconsistent, lukewarm, or quickly-running-out hot water',
@@ -53,7 +55,7 @@ const config: ServiceLocationConfig = {
     'Repairs that are becoming more frequent',
   ],
   trustedBanner: 'Your Local & Trusted Water Heater Installers in {neighborhood}',
-  band2Image: '/services/water-heater-repair.jpg',
+  band2Image: '/services/water-heater-repair.webp',
   band2Heading: 'What to Expect From Your Installation in {neighborhood}',
   band2Paragraphs: [
     'We start by sizing the system to your household and checking your existing connections, gas or electric supply, and venting — then explain the flat-rate price before any work begins.',
@@ -66,12 +68,7 @@ const config: ServiceLocationConfig = {
     { title: 'Financing and Same-Day Service in {neighborhood}', body: 'A failed water heater does not have to wait on budget or schedule. We offer financing so you can move forward without a large upfront cost, and we staff for demand to reach most {neighborhood} homes the same day you call.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'check', title: 'Proper Sizing', text: 'We match the system to your household so you get enough hot water without strain.' },
-    { icon: 'shield', title: 'Licensed & To Code', text: 'Background-checked plumbers and code-compliant installation from day one.' },
-    { icon: 'star', title: 'Financing Available', text: 'Move forward with installation now without a large upfront cost.' },
-    { icon: 'badge', title: 'Upfront Flat-Rate Pricing', text: 'You approve the price before we start — no overtime or weekend fees.' },
-  ],
+  whyParagraph: 'We match each new water heater to the size of your {neighborhood} household, so hot water lasts without the unit straining. Licensed plumbers install it to code, you approve a flat price first, and financing can spread the cost.',
   proofQuote:
     'Our 14-year-old tank finally gave out and they had a new one sized, installed, and tested the same afternoon. Walked us through tank versus tankless without any pressure, and the price was exactly what they quoted.',
   sharedFaqs: [
@@ -81,6 +78,14 @@ const config: ServiceLocationConfig = {
     { q: 'How often should I flush my water heater?', a: 'About once a year to clear sediment and keep it efficient — more often if you have hard water, which is common across the area.' },
     { q: 'Do electric water heaters last longer than gas water heaters?', a: 'Electric units often last a little longer because they have fewer combustion components, but water quality and regular maintenance affect lifespan far more than fuel type.' },
   ],
+  steps: {
+    heading: 'What to Expect From Water Heater Installation in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Size It First', text: 'Household, fuel, venting and the space it goes in.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A flat rate, before any work starts.' },
+      { icon: 'shower', title: 'Hot Water On, Tested', text: 'Connections, valves and venting checked before we leave.' },
+    ],
+  },
   related: [
     { label: 'Water Heater Installation (overview)', href: '/services/water-heater-installation' },
     { label: 'Water Heater Repair', href: '/services/water-heater-repair' },
@@ -103,15 +108,15 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
-    title: `Water Heater Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+  return withSocial({
+    title: `Water Heater Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Water heater installation and replacement in ${place} — tank or tankless, sized right and installed to code. Financing and same-day service. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/water-heater-installation/${loc.slug}` },
     openGraph: {
       title: `Water Heater Installation in ${place} | ${site.name}`,
       description: `Same-day water heater installation and replacement serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function WaterHeaterInstallationLocationPage({

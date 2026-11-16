@@ -6,6 +6,8 @@ import { part3 } from './indoor-air-quality-parts/part3';
 import { part4 } from './indoor-air-quality-parts/part4';
 import { part5 } from './indoor-air-quality-parts/part5';
 import { part6 } from './indoor-air-quality-parts/part6';
+// Fully localized towns (one format), wired in by indoor-air-quality-pilot/build-index.mjs.
+import { indoorAirQualityPilot } from './indoor-air-quality-pilot';
 
 // Per-neighborhood, indoor-air-quality-specific copy, drafted from each
 // neighborhood's real local facts in content/locations.ts.
@@ -16,6 +18,7 @@ const all: Record<string, LocationServiceCopy> = {
   ...part4,
   ...part5,
   ...part6,
+  ...indoorAirQualityPilot,
 };
 
 // Dev shows all 170; production build ships only the DEPLOYED_LOCATION_SLUGS cohort.

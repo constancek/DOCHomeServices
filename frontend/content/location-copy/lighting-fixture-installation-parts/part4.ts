@@ -1,6 +1,6 @@
 export const part4: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'reading': {
-    intro: 'Hanging a new chandelier or swapping a dated dining fixture in Reading? Our licensed electricians install pendants, flush ceiling mounts, and vanity lighting on properly rated boxes, all to code. Call (513) 586-5107.',
+    intro: 'Dining chandeliers and multi-light pendants are common light fixture installations in Reading, where older and mid-century homes often have ceiling boxes set for a basic two-bulb fixture. We confirm the box is rated and braced, update scratchy switches and check grounding.',
     relevance: [
       'Reading (ZIP 45215) is a city in the Mill Creek valley north of Cincinnati, with a settled mix of older and mid-century homes. In houses that age, the original ceiling boxes were often set for a basic two-bulb fixture, so before a heavier chandelier or multi-light pendant goes up we confirm the box is fan- or fixture-rated and braced to carry the weight rather than relying on whatever the builder left behind.',
       'Reading is known for its bridal-shop district, where the right lighting makes a room read warm and finished, and the same holds at home over a dining table. We replace dated fixtures with LED-ready models, update the old switch where it has gone scratchy, and verify the wiring and grounding meet code before the fixture is energized.',
@@ -14,7 +14,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dent': {
-    intro: 'Updating the light fixtures in your Dent home? Our licensed electricians install pendants over islands, flush ceiling mounts, and vanity lighting on weather-true, code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Low, flat ceilings in Dent’s mid-century ranches suit low-profile LED flush mounts, and that is the most common fixture installation here, along with island pendants once the box is set at the right height. Many ranches still have aging switches and back-stabbed connections we update.',
     relevance: [
       'Dent (ZIP 45247) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. The mid-century ranches here tend to have low, flat ceilings and simple builder fixtures, which take well to low-profile LED flush mounts and to pendants hung over a kitchen island once the box is set at the right height.',
       'Energy-efficient LED fixtures draw a fraction of the power of the old incandescent globes these homes were built with, so an owner can brighten a whole kitchen or hallway without a meaningful change to the bill. Many of these ranches still run on aging switches and back-stabbed connections, so we update the switch and verify the wiring and grounding meet code before the new fixture goes live.',
@@ -28,7 +28,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'deer-park': {
-    intro: 'Replacing dated fixtures in your Deer Park home? Our licensed electricians install flush ceiling mounts, vanity lighting, and dining fixtures on properly rated boxes, all to code. Call (513) 586-5107.',
+    intro: 'Original bathroom vanity lights and plain ceiling fixtures are the first things Deer Park owners replace, and that is most of our light fixture installation in these mid-century homes. After that long, the wiring at the box is often brittle and the switch worn, so we fix both.',
     relevance: [
       'Deer Park (ZIP 45236) is a small, settled city on the east side, made up largely of mid-century single-family homes on quiet streets. Houses of that era were built with plain ceiling fixtures and original bathroom vanity lights, and many still have them — exactly the dated pieces owners replace first when they update a room.',
       'When a fixture has been in place that long, the wiring at the box is often brittle and the switch worn, so a swap is more than unscrewing the old globe. We check the ceiling box for proper support, replace failing switches, and confirm the grounding and connections meet code before the new flush mount or vanity light is energized.',
@@ -42,7 +42,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'terrace-park': {
-    intro: 'Hanging a statement chandelier or updating fixtures in a Terrace Park home? Our licensed electricians install foyer chandeliers, dining fixtures, and sconces on braced, fixture-rated boxes, all to code. Call (513) 586-5107.',
+    intro: 'Terrace Park’s early-1900s homes have tall entries and formal dining rooms suited to a real chandelier, and that drives much of the fixture installation here. The original boxes were never rated for that weight, so we rebuild the support and update old wiring and switches first.',
     relevance: [
       'Terrace Park (ZIP 45174) is an affluent east-side village near the Little Miami River, known for its established early-1900s homes and tree-lined streets. Many of these homes have tall entries and formal dining rooms suited to a real chandelier, but the original ceiling boxes were never rated for that weight, so the support has to be rebuilt before a heavy fixture goes up.',
       'A century-old home also tends to carry original wiring and worn switches at the fixture, which matters when a homeowner wants a dimmable, LED-ready chandelier with modern controls. We brace the box, update the wiring and switch as needed, and confirm the grounding meets code so a several-pound fixture hangs safely in a room with finished plaster and original trim.',
@@ -56,7 +56,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dry-run': {
-    intro: 'Updating the light fixtures in your Dry Run home? Our licensed electricians install pendants, flush ceiling mounts, and vanity lighting on properly rated boxes, all to code. Call (513) 586-5107.',
+    intro: 'Dry Run light fixture work mostly replaces dated builder fixtures and dimmers with current pendants and LED flush mounts in mid-century and newer Anderson Township homes. In this range of houses we often find an undersized box or old switch, so we fix it at the same time.',
     relevance: [
       'Dry Run (ZIP 45244) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. Even the newer homes here are now old enough that the builder-grade fixtures and dimmers feel dated, and the mid-century houses run on simpler lighting that owners are steadily replacing.',
       'Swapping in a current pendant or LED flush mount is straightforward when the box and wiring are sound, but in this range of homes we often find an undersized box or an old switch that should be addressed at the same time. We confirm the box supports the new fixture, update the switch where needed, and verify the grounding and connections meet code before energizing.',
@@ -70,7 +70,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'white-oak': {
-    intro: 'Replacing dated lighting in your White Oak home? Our licensed electricians install flush ceiling mounts, vanity fixtures, and kitchen pendants on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'White Oak’s mid-century homes were built with low ceilings and basic surface fixtures, so fixture installation there usually means low-profile LED flush mounts in halls, kitchens and bedrooms. Fixtures up since the house was built sit on aging wiring and worn switches, which we check.',
     relevance: [
       'White Oak (ZIP 45247) is a settled Green Township community on the northwest side, made up largely of mid-century and newer single-family homes. The mid-century houses here were built with low ceilings and basic surface fixtures, which is why low-profile LED flush mounts and recessed-look fixtures are the common upgrade in halls, kitchens, and bedrooms.',
       'A fixture that has been up since the home was built usually sits on aging wiring and a worn switch, so a clean swap means checking what is behind the box, not just the fixture itself. We confirm the box is properly supported, replace failing switches, and verify the grounding and connections meet code before the new light is energized.',
@@ -84,7 +84,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'forestville': {
-    intro: 'Updating fixtures across your Forestville home? Our licensed electricians install pendants, flush ceiling mounts, and vanity lighting on properly rated, code-compliant boxes. Call (513) 586-5107.',
+    intro: 'Kitchen and bath refreshes drive most light fixture installation in Forestville, with island pendants and wider vanity lights replacing original builder fixtures. That often brings new switch locations and dimmers, so we set or relocate boxes and run the wiring to code.',
     relevance: [
       'Forestville (ZIP 45230) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. Houses of that age came with simple builder fixtures, and as kitchens and baths get refreshed here, those dated pieces are the first to go in favor of pendants over an island and a wider vanity light over the sink.',
       'When a home has reached the age where owners are remodeling, the lighting upgrade usually arrives with new switch locations and dimmers, which means more than a like-for-like swap. We set or relocate the ceiling and wall boxes, run the wiring and grounding to code, and confirm the controls work before the fixtures are energized.',
@@ -98,7 +98,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'cherry-grove': {
-    intro: 'Replacing dated light fixtures in your Cherry Grove home? Our licensed electricians install flush ceiling mounts, dining fixtures, and vanity lighting to code. Call (513) 586-5107.',
+    intro: 'Cherry Grove’s mid-century homes still have the plain ceiling fixtures and dim vanity lights they were built with, so installing an LED flush mount or a wider bath fixture makes a noticeable difference. The box behind a decades-old fixture usually needs its wiring and switch set right.',
     relevance: [
       'Cherry Grove (ZIP 45230) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. The mid-century houses here run on the plain ceiling fixtures and dim vanity lights they were built with, so an LED flush mount or a brighter, wider bath fixture is a noticeable change in a room that has always felt dark.',
       'A fixture that has hung untouched for decades usually shares the box with aging wiring and a tired switch, so the swap is the moment to set those right. We check that the box is properly supported, replace worn switches, and confirm the grounding and connections meet code before the new fixture goes live.',
@@ -112,7 +112,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'kenwood': {
-    intro: 'Hanging a statement chandelier or kitchen pendants in your Kenwood home? Our licensed electricians install foyer chandeliers, island pendants, and dining fixtures on braced, fixture-rated boxes, all to code. Call (513) 586-5107.',
+    intro: 'In Kenwood, fixture installation depends on the house. Larger homes have two-story foyers and open kitchens built for a statement chandelier and island pendants, which need braced, rated boxes. Mid-century homes usually need a dated fixture pulled and the wiring and switch brought current.',
     relevance: [
       'Kenwood (ZIP 45236) is an upscale, unincorporated community on the east side around Kenwood Towne Centre, with mid-century homes alongside newer, larger houses. The bigger homes here often have two-story foyers and open kitchens built for a statement chandelier and a run of island pendants, both of which need ceiling boxes rated and braced for real weight, not the light-duty box a builder leaves behind.',
       'In the older mid-century houses, the upgrade is usually the reverse — pulling a dated fixture and bringing the wiring and switch up to current standards so a modern, dimmable, LED-ready light can go in. Either way, we set the proper box, run the wiring and grounding to code, and confirm the controls before any fixture is energized.',
@@ -126,7 +126,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'lincoln-heights': {
-    intro: 'Updating the light fixtures in your Lincoln Heights home? Our licensed electricians install flush ceiling mounts, vanity lighting, and dining fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Lincoln Heights light fixture work mostly replaces original ceiling fixtures and dim single-bulb bath lights in older, modest homes. In houses this age, the wiring at the box can be brittle and the switch long past its prime, so we make those connections sound during the swap.',
     relevance: [
       'Lincoln Heights (ZIP 45215) is a historic community in the Mill Creek valley north of the city — one of the first self-governed Black municipalities in the northern United States — with older, modest homes. The lighting in these homes is often original or close to it, and a worn ceiling fixture or a dim single-bulb bath light is exactly the kind of dated piece an owner replaces first.',
       'In homes this age the wiring at the box can be brittle and the switch long past its prime, so a fixture swap is the right time to make those connections sound. We confirm the ceiling box is properly supported, update the switch where it has failed, and verify the grounding and wiring meet code before the new fixture is energized.',
@@ -140,7 +140,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dillonvale': {
-    intro: 'Replacing dated fixtures in your Dillonvale home? Our licensed electricians install flush ceiling mounts, vanity lighting, and kitchen pendants to code. Call (513) 586-5107.',
+    intro: 'Dillonvale’s mid-century homes came with simple ceiling globes and narrow vanity lights, so fixture installation there usually means low-profile LED flush mounts in living spaces and a wider fixture over the bathroom sink. Aging wiring and worn switches get checked behind each one.',
     relevance: [
       'Dillonvale (ZIP 45236) is a Sycamore Township community on the east side near Kenwood, with settled neighborhoods of mid-century homes. These houses came with simple ceiling globes and narrow vanity lights, so the common upgrade is a low-profile LED flush mount in the living spaces and a wider, brighter fixture over the bathroom sink.',
       'Sitting next to Kenwood, Dillonvale gets the same appetite for current lighting in a more modest mid-century footprint. A fixture that has hung since the home was built usually rides on aging wiring and a worn switch, so we check the box support, update the switch, and confirm the grounding and connections meet code before energizing the new fixture.',
@@ -154,7 +154,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'woodlawn': {
-    intro: 'Updating the light fixtures in your Woodlawn home? Our licensed electricians install flush ceiling mounts, vanity lighting, and dining fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'On Woodlawn’s residential streets, light fixture installation usually means replacing a dated ceiling fixture or a single dim bath light in an older home. Fixtures in place for decades tend to sit on tired wiring and a scratchy switch, so we check the box support and grounding first.',
     relevance: [
       'Woodlawn (ZIP 45215) is a village in the Mill Creek valley north of the city, with a mix of residential streets and industrial corridors. The older homes on its residential streets run on the original lighting they were built with, where a dated ceiling fixture or a single dim bath light is usually the first thing an owner wants changed.',
       'A fixture that has been in place for decades tends to sit on tired wiring and a scratchy switch, so the swap is more than cosmetic. We confirm the ceiling box is properly supported, replace failing switches, and verify the grounding and connections meet code before the new fixture is energized.',
@@ -168,7 +168,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'addyston': {
-    intro: 'Replacing the light fixtures in your Addyston home? Our licensed electricians install flush ceiling mounts, vanity lighting, and dining fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Addyston’s century-old mill-town homes were built with minimal lighting and modest ceilings, so fixture installation there usually replaces an original fixture and the dated wiring behind it together. The ceiling box may be undersized and the wiring brittle, so we install a rated, supported box.',
     relevance: [
       'Addyston (ZIP 45001) is a small village on the far west side along the Ohio River, an old mill town with closely spaced older worker homes. Those century-old houses were built with minimal lighting and modest ceilings, so an owner updating a room is usually replacing an original fixture and the dated wiring behind it at the same time.',
       'In homes this old, the ceiling box may be undersized and the wiring brittle, which matters before any new fixture goes up. We install a properly rated, supported box, update the wiring and switch where it has aged out, and confirm the grounding meets code so the new fixture is safe in a tightly built older home.',
@@ -182,7 +182,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'greenhills': {
-    intro: 'Updating the light fixtures in your Greenhills home? Our licensed electricians install flush ceiling mounts, vanity lighting, and dining fixtures with care for the home’s historic character, all to code. Call (513) 586-5107.',
+    intro: 'Greenhills is a 1930s Greenbelt town and National Historic Landmark district, so light fixture installation in its original cottages and townhomes has to suit their modest ceilings and original fixture locations. Early wiring and original boxes need attention before a new fixture is hung.',
     relevance: [
       'Greenhills (ZIP 45218) is a historic planned Greenbelt town built in the 1930s as a New Deal project, now a National Historic Landmark district, with its original cottages and townhomes still in use. Those compact 1930s homes have modest ceilings and original fixture locations, so updating the lighting means working within the home’s scale rather than oversizing a fixture for the room.',
       'Homes close to a century old carry early wiring and original boxes, which need attention before a new fixture is hung. We confirm the box is properly supported, update the aging wiring and switch where needed, and verify the grounding meets code, all while keeping the work respectful of the home’s historic detail.',
@@ -196,7 +196,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'northbrook': {
-    intro: 'Replacing dated fixtures in your Northbrook home? Our licensed electricians install flush ceiling mounts, vanity lighting, and kitchen pendants to code. Call (513) 586-5107.',
+    intro: 'Northbrook’s mid-century ranches and split-levels came with plain builder fixtures and low ceilings, so installing light fixtures there usually means low-profile LED flush mounts and a brighter vanity light. Fixtures up since the house was built share boxes with aging wiring and worn switches.',
     relevance: [
       'Northbrook (ZIP 45251) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. These ranches and split-levels came with plain builder fixtures and low ceilings, which is why low-profile LED flush mounts and a brighter vanity light over the sink are the common upgrades here.',
       'A fixture that has hung since the home was built usually shares the box with aging wiring and a worn switch, so the swap is the moment to make those sound. We check the box support, replace failing switches, and confirm the grounding and connections meet code before the new fixture is energized.',
@@ -210,7 +210,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'indian-hill': {
-    intro: 'Hanging a grand foyer chandelier or updating fixtures across an Indian Hill estate? Our licensed electricians install statement chandeliers, dining fixtures, and sconces on braced, fixture-rated boxes, all to code. Call (513) 586-5107.',
+    intro: 'Substantial foyer chandeliers and coordinated fixtures across formal rooms are typical light fixture installation jobs on Indian Hill estates. Two-story entries need boxes rated and braced for real weight, high ceilings need safe access and many rooms run on dimming and control systems.',
     relevance: [
       'Indian Hill (ZIP 45243) is an affluent east-side village known for its large estates and homes on multi-acre, wooded lots, many set well back from the road. These homes were built for scale — two-story entries, formal dining rooms, and long halls — where a substantial chandelier or a coordinated set of fixtures needs ceiling boxes rated and braced for real weight, not a standard light-duty box.',
       'A large estate also means many fixtures across many rooms, often on dimming and control systems, and high ceilings that call for safe access to install and service. We brace and rate each box, run the wiring and grounding to code, and confirm the dimmers and controls work before any fixture is energized.',
@@ -224,7 +224,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'evendale': {
-    intro: 'Updating the light fixtures in your Evendale home? Our licensed electricians install flush ceiling mounts, vanity lighting, and dining fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Evendale fixture installation in the residential neighborhoods mostly replaces the simple ceiling and bath fixtures mid-century homes came with, using LED flush mounts and wider vanity lights. A fixture untouched since the house was built usually sits on aging wiring and a worn switch.',
     relevance: [
       'Evendale (ZIP 45241) is a north-side village with a large industrial base, including GE Aerospace, alongside established residential neighborhoods. The mid-century homes in those neighborhoods came with simple ceiling and bath fixtures, so the common residential upgrade is a current LED flush mount in the living spaces and a wider vanity light in the bath.',
       'A fixture untouched since the home was built usually rides on aging wiring and a worn switch, so a clean swap means addressing what is behind the box. We confirm the box is properly supported, replace failing switches, and verify the grounding and connections meet code before the new fixture is energized.',
@@ -238,7 +238,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'glendale': {
-    intro: 'Hanging a chandelier or updating period fixtures in a Glendale home? Our licensed electricians install dining fixtures, sconces, and flush mounts with care for the home’s historic character, all to code. Call (513) 586-5107.',
+    intro: 'Period chandeliers and sconces for the formal rooms of Glendale’s preserved Victorian homes are common light fixture installations in this National Historic Landmark railroad suburb. The original ceiling boxes were never rated for that weight, so we rebuild them and update the original wiring.',
     relevance: [
       'Glendale (ZIP 45246) is a historic village and one of the country’s earliest planned railroad suburbs — a National Historic Landmark — known for its preserved Victorian homes and winding, tree-lined streets. Those 19th-century homes have formal rooms and entries suited to a period chandelier or sconces, but the original ceiling boxes were never rated for that kind of weight and need rebuilding first.',
       'A Victorian home also carries original wiring and worn switches at the fixture, which matters when an owner wants a dimmable, LED-ready piece that still suits the period. We brace and rate the box, update the wiring and switch, and confirm the grounding meets code so a heavier fixture hangs safely amid original plaster and trim.',
@@ -252,7 +252,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'sharonville': {
-    intro: 'Updating fixtures at your Sharonville home or business? Our licensed electricians install flush ceiling mounts, vanity lighting, and kitchen pendants on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Sharonville light fixture work ranges across homes and commercial spaces near Sharon Woods and the convention center. In mid-century homes it usually means swapping plain ceiling fixtures and narrow vanity lights for LED flush mounts and wider bath fixtures, after checking the box and switch.',
     relevance: [
       'Sharonville (ZIP 45241) is a north-side city near Sharon Woods, with a mix of established residential neighborhoods, the convention center, and industrial corridors. The mid-century homes in those neighborhoods came with plain ceiling fixtures and narrow vanity lights, so the common residential upgrade is an LED flush mount and a wider, brighter fixture over the bathroom sink.',
       'With both homes and commercial spaces in the mix, the lighting work here ranges widely, but the residential swap usually comes down to the same checks. We confirm the ceiling box is properly supported, update worn switches, and verify the grounding and connections meet code before the new fixture is energized.',
@@ -266,7 +266,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'northgate': {
-    intro: 'Replacing dated lighting in your Northgate home? Our licensed electricians install flush ceiling mounts, vanity fixtures, and kitchen pendants to code. Call (513) 586-5107.',
+    intro: 'Low-profile LED flush mounts are the light fixture installation Northgate owners ask for most, because the mid-century homes around the Northgate Mall corridor have low ceilings and simple surface fixtures. A fixture up since the house was built usually sits on aging wiring and a tired switch.',
     relevance: [
       'Northgate (ZIP 45251) is a Colerain Township area on the northwest side around the Northgate Mall corridor, with neighborhoods of mid-century and newer homes. The mid-century houses here were built with simple surface fixtures and low ceilings, which is why low-profile LED flush mounts are the upgrade owners reach for most in halls, kitchens, and bedrooms.',
       'A fixture that has hung since the home was built usually sits on aging wiring and a tired switch, so the swap means checking what is behind the box. We confirm the box is properly supported, replace failing switches, and verify the grounding and connections meet code before the new light is energized.',
@@ -280,7 +280,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'springdale': {
-    intro: 'Updating fixtures at your Springdale home or business? Our licensed electricians install flush ceiling mounts, vanity lighting, and kitchen pendants on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Springdale fixture installation in the mid-century neighborhoods along the Tri-County corridor usually means swapping plain builder fixtures for LED flush mounts and wider vanity lights. Commercial lighting work there spans a wide range, but the home swap comes down to box support, switches and grounding.',
     relevance: [
       'Springdale (ZIP 45246) is a north-side city along the Tri-County corridor, with established mid-century neighborhoods alongside a large commercial and retail base. The mid-century homes here came with plain builder fixtures, so the common residential upgrade is an LED flush mount in the living spaces and a brighter, wider vanity light in the bath.',
       'With a heavy commercial presence along the corridor, lighting work in Springdale spans a wide range, but the residential swap comes down to the same checks. We confirm the box is properly supported, update worn switches, and verify the grounding and connections meet code before the new fixture is energized.',
@@ -294,7 +294,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'miamitown': {
-    intro: 'Replacing the light fixtures in your Miamitown home? Our licensed electricians install flush ceiling mounts, vanity lighting, and dining fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Miamitown light fixture work in older homes on low Great Miami River ground usually replaces a dated original fixture and the aging wiring behind it together. The ceiling box may be undersized and the wiring brittle, so we install a rated, supported box first.',
     relevance: [
       'Miamitown (ZIP 45041) is a small far-west community on the Great Miami River, with older homes set on low river-bottom ground. Those older houses run on the original lighting they were built with, so an owner updating a room is usually replacing a dated fixture and the aging wiring behind it at the same time.',
       'In homes this age the ceiling box may be undersized and the wiring brittle, which has to be addressed before a new fixture is hung. We install a properly rated, supported box, update the wiring and switch where they have aged out, and confirm the grounding meets code so the new fixture is safe.',
@@ -308,7 +308,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'forest-park': {
-    intro: 'Updating the light fixtures in your Forest Park home? Our licensed electricians install flush ceiling mounts, vanity lighting, and kitchen pendants to code. Call (513) 586-5107.',
+    intro: 'Forest Park homes were built to a consistent 1960s plan, so installing light fixtures there usually means the same upgrade across the neighborhood: low-profile LED flush mounts and wider bath fixtures in place of plain ceiling fixtures and narrow vanity lights. Aging wiring and worn switches get checked too.',
     relevance: [
       'Forest Park (ZIP 45240) is a north-side city developed as a planned community from the 1960s, with neighborhoods of mid-century single-family homes. Built to a consistent plan, these homes share the same era of plain ceiling fixtures and narrow vanity lights, so the common upgrade is a low-profile LED flush mount and a wider bath fixture across much of the neighborhood.',
       'A fixture installed when the home was built usually sits on aging wiring and a worn switch, so a clean swap means checking what is behind the box. We confirm the box is properly supported, replace failing switches, and verify the grounding and connections meet code before the new fixture is energized.',
@@ -322,7 +322,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'pleasant-run': {
-    intro: 'Replacing dated fixtures in your Pleasant Run home? Our licensed electricians install flush ceiling mounts, vanity lighting, and kitchen pendants on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Pleasant Run’s mid-century homes came with simple ceiling globes and low ceilings, so fixture installation there mostly means low-profile LED flush mounts and a brighter vanity light over the sink. Fixtures up since the house was built share the box with aging wiring and a worn switch.',
     relevance: [
       'Pleasant Run (ZIP 45240) is a Springfield Township community on the north side, with settled neighborhoods of mid-century and newer homes. The mid-century houses here came with simple ceiling globes and low ceilings, which is why low-profile LED flush mounts and a brighter vanity light over the sink are the upgrades owners reach for most.',
       'A fixture that has hung since the home was built usually shares the box with aging wiring and a worn switch, so the swap is the moment to set those right. We confirm the box support, replace failing switches, and verify the grounding and connections meet code before the new fixture is energized.',
@@ -336,7 +336,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'cleves': {
-    intro: 'Updating the light fixtures in your Cleves home? Our licensed electricians install flush ceiling mounts, vanity lighting, and dining fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Near where the Great Miami meets the Ohio, light fixture installation in older Cleves homes usually replaces a dated fixture and the aging wiring behind it at the same time. The ceiling box can be undersized and the wiring brittle, so we install a rated, supported box.',
     relevance: [
       'Cleves (ZIP 45002) is a far-west village near where the Great Miami River meets the Ohio, with older homes on low ground. Those older houses run on the original lighting they were built with, so an owner updating a room is usually replacing a dated fixture and the aging wiring behind it at the same time.',
       'In homes this age the ceiling box can be undersized and the wiring brittle, which has to be addressed before a new fixture goes up. We install a properly rated, supported box, update the wiring and switch where they have aged out, and confirm the grounding meets code so the new fixture is safe.',
@@ -350,7 +350,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'north-bend': {
-    intro: 'Replacing the light fixtures in your North Bend home? Our licensed electricians install flush ceiling mounts, vanity lighting, and dining fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'North Bend’s older riverside homes, in the village where William Henry Harrison is buried, still carry original lighting, so fixture installation there usually replaces a dated fixture along with aging wiring. Undersized boxes and brittle wiring get fixed before the new fixture is hung.',
     relevance: [
       'North Bend (ZIP 45052) is a historic far-west village on the Ohio River — the burial place of President William Henry Harrison — with older homes set on low riverside ground. Those older houses carry the original lighting they were built with, so updating a room usually means replacing a dated fixture along with the aging wiring behind it.',
       'In homes this age the ceiling box may be undersized and the wiring brittle, which has to be set right before a new fixture is hung. We install a properly rated, supported box, update the wiring and switch where they have aged out, and confirm the grounding meets code so the new fixture is safe.',
@@ -364,7 +364,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'loveland': {
-    intro: 'Hanging a chandelier or updating fixtures in your Loveland home? Our licensed electricians install dining fixtures, pendants, and vanity lighting on properly rated boxes, all to code. Call (513) 586-5107.',
+    intro: 'Loveland light fixture work spans both ends. Older homes near downtown have formal rooms suited to a dining chandelier, but their original ceiling boxes were rarely rated for the weight and the wiring is often dated. Newer homes lean toward island pendants and current flush mounts.',
     relevance: [
       'Loveland (ZIP 45140) is a historic city straddling the Little Miami River and the Loveland Bike Trail, with a charming older downtown and a mix of historic and newer homes. The older homes near downtown have formal rooms suited to a real dining chandelier, while the newer homes lean toward island pendants and current flush mounts, so the work here spans both ends.',
       'In the older homes, the original ceiling box was rarely rated for a heavier fixture and the wiring is often dated, so support and connections come first. We brace and rate the box, update the wiring and switch as needed, and confirm the grounding meets code before any chandelier or pendant is energized.',
@@ -378,7 +378,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'harrison': {
-    intro: 'Updating the light fixtures in your Harrison home? Our licensed electricians install flush ceiling mounts, vanity lighting, dining fixtures, and kitchen pendants on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'On the Indiana line, Harrison fixture installation covers two kinds of house. Older downtown homes have original lighting, dated wiring and boxes that may be undersized, while the newer subdivisions favor island pendants and flush mounts, usually as a like-for-like swap with a new dimmer.',
     relevance: [
       'Harrison (ZIP 45030) is a far-west city on the Indiana state line along the Whitewater River, with an older downtown and a growing mix of established and newer homes. The older homes near downtown carry original lighting and dated wiring, while the newer subdivisions favor island pendants and current flush mounts, so fixture work here covers both.',
       'In the older homes, the ceiling box may be undersized and the wiring brittle, which matters before a heavier fixture goes up; in the newer ones, the swap is usually a like-for-like upgrade with a new dimmer. Either way, we set or rate the box, run the wiring and grounding to code, and confirm the controls before the fixture is energized.',

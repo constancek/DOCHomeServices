@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -8,13 +9,15 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'exhaust-fan-installation-repair',
   serviceName: 'Exhaust Fan Installation & Repair',
+  localHeadingName: 'Exhaust Fan Installation',
+  emergencyHeading: 'Urgent Exhaust Fan Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Exhaust Fan Installation & Repair',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
   businessType: 'Electrician',
   schemaServiceType: 'Exhaust Fan Installation & Repair',
   ctaLine: 'Bathroom staying humid in {neighborhood}? Call for service',
-  heroImage: '/services/exhaust-hero.jpg',
+  heroImage: '/services/exhaust-hero.webp',
   introHeading: 'Exhaust Fan Installation & Repair in {neighborhood}',
   introParagraphs: [
     'Bathrooms and kitchens make moisture every day, and if it has no clear path out it collects on ceilings, walls, and insulation — leading to mold, peeling paint, and musty odors. {brand} installs, repairs, and replaces exhaust fans for homeowners in {place}, with stronger airflow, quieter operation, and venting that actually carries moisture outside.',
@@ -41,7 +44,7 @@ const config: ServiceLocationConfig = {
     { slug: 'switches-outlets', title: 'Switches & Outlets' },
     { slug: 'electrical-inspections', title: 'Electrical Inspections' },
   ],
-  band1Image: '/services/exhaust-fan-installation-repair.jpg',
+  band1Image: '/services/exhaust-fan-installation-repair.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs Exhaust Fan Service',
   commonSituations: [
     'Mirrors that stay fogged long after a shower',
@@ -53,7 +56,7 @@ const config: ServiceLocationConfig = {
     'A fan venting into the attic instead of outdoors',
   ],
   trustedBanner: 'Your Local & Trusted Exhaust Fan Pros in {neighborhood}',
-  band2Image: '/services/exhaust-hero.jpg',
+  band2Image: '/services/exhaust-hero.webp',
   band2Heading: 'Our Exhaust Fan Process in {neighborhood}',
   band2Paragraphs: [
     'We evaluate the room size and airflow, recommend a fan with the right capacity, and check how the existing unit is vented — then explain whether repair or replacement makes sense and lay out the flat-rate price before any work begins.',
@@ -66,12 +69,7 @@ const config: ServiceLocationConfig = {
     { title: 'Kitchen Exhaust Too', body: 'Cooking throws steam, heat, and airborne grease into the air that settles on cabinets and surfaces. We install and repair kitchen exhaust fans for {neighborhood} homes as well, improving comfort and keeping surfaces cleaner with proper, vented-outside ventilation.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Code-compliant wiring and safe, secure connections.' },
-    { icon: 'check', title: 'Vented Outdoors', text: 'We confirm ducts vent outside — not into the attic — for real moisture control.' },
-    { icon: 'badge', title: 'Honest Repair vs. Replace', text: 'We evaluate airflow and venting before recommending the right solution.' },
-    { icon: 'star', title: 'Financing Available', text: 'Flexible options for qualifying homeowners.' },
-  ],
+  whyParagraph: 'A fan only controls moisture if its duct ends outdoors, so we confirm that in every {neighborhood} home we work in. Licensed electricians wire it to code, and financing is available for homeowners who qualify.',
   proofQuote:
     'Our bathroom stayed steamy for an hour after every shower and paint was peeling by the vent. Turned out the old fan dumped into the attic. They put in a properly sized fan, ran the duct outside, and the room clears in minutes now — and it is quiet.',
   sharedFaqs: [
@@ -81,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'Why isn’t my bathroom exhaust fan removing moisture?', a: 'The most common reasons are a fan that is undersized for the room, ductwork that vents into the attic instead of outdoors, a clogged duct, or a weak or worn motor. We check all of these.' },
     { q: 'How long does exhaust fan installation take?', a: 'A standard replacement usually takes a couple of hours. A brand-new installation that requires running new ductwork and exterior venting takes longer — we will give you a clear estimate up front.' },
   ],
+  steps: {
+    heading: 'What to Expect From Exhaust Fan Service in {neighborhood}',
+    items: [
+      { icon: 'wind', title: 'We Trace the Airflow First', text: 'The fan, the duct and where it ends, so we know why the room stays damp.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'Repair or a new fan, and a flat-rate price before we cut into a ceiling.' },
+      { icon: 'shieldBolt', title: 'Wired, Vented and Tested', text: 'Wired to code, ducted outdoors and sealed, then tested for airflow and noise.' },
+    ],
+  },
   related: [
     { label: 'Exhaust Fan Installation & Repair (overview)', href: '/services/exhaust-fan-installation-repair' },
     { label: 'Indoor Air Quality', href: '/services/indoor-air-quality' },
@@ -103,15 +109,15 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
-    title: `Exhaust Fan Installation & Repair in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+  return withSocial({
+    title: `Exhaust Fan Installation & Repair in ${loc.neighborhood}, ${loc.state}`,
     description: `Bathroom and kitchen exhaust fan installation and repair in ${place} — better airflow, quieter operation, and venting that carries moisture outdoors. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/exhaust-fan-installation-repair/${loc.slug}` },
     openGraph: {
       title: `Exhaust Fan Installation & Repair in ${place} | ${site.name}`,
       description: `Licensed exhaust fan installation and repair serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function ExhaustFanLocationPage({

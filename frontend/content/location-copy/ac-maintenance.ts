@@ -6,6 +6,8 @@ import { part3 } from './ac-maintenance-parts/part3';
 import { part4 } from './ac-maintenance-parts/part4';
 import { part5 } from './ac-maintenance-parts/part5';
 import { part6 } from './ac-maintenance-parts/part6';
+// Fully localized towns (one format), wired in by ac-maintenance-pilot/build-index.mjs.
+import { acMaintenancePilot } from './ac-maintenance-pilot';
 
 // Per-neighborhood, AC-maintenance-specific copy, drafted from each
 // neighborhood's real local facts in content/locations.ts.
@@ -16,6 +18,7 @@ const all: Record<string, LocationServiceCopy> = {
   ...part4,
   ...part5,
   ...part6,
+  ...acMaintenancePilot,
 };
 
 // Dev shows all 170; production build ships only the DEPLOYED_LOCATION_SLUGS cohort.

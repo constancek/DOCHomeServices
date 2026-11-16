@@ -1,7 +1,7 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
     intro:
-      'If two-prong outlets, a warm panel, or breakers that trip under load are showing up in Villages of Roll Hill, the wiring may be due for replacement. We rewire homes and units with licensed, permitted work that meets code. Call (513) 586-5107.',
+      'Rewiring at Villages of Roll Hill is mostly apartment work. The multi-unit buildings were wired around shared service for lighter loads, and window units, microwaves and added appliances now stack onto the same circuits. We rewire single units or whole buildings with grounded copper, permitted and inspected.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. Wiring in housing built around shared service was sized for the lighter loads of an earlier era, and as window units, microwaves, and added appliances stack onto the same circuits, the original branch wiring runs hotter than it was meant to.',
       'In a multi-unit building, the wiring concerns rarely stay in one apartment. Ungrounded two-prong outlets, undersized circuits, and brittle insulation in one unit usually mean the same in the units beside it. We rewire in copper to current code, replace ungrounded outlets with grounded ones, and pull the permit and schedule the inspection so the work is documented rather than buried behind a wall.',
@@ -17,7 +17,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-westwood': {
     intro:
-      'If your East Westwood home still runs on two-prong outlets or fuses that blow under everyday loads, the wiring may need replacing. We handle partial and whole-home rewiring with licensed, permitted, code-compliant work. Call (513) 586-5107.',
+      'East Westwood rewiring tends to involve early- and mid-1900s homes on the slopes above the Mill Creek valley, still on cloth-insulated circuits, ungrounded outlets and the occasional run of knob-and-tube. We inspect what is there and replace it with grounded copper, partial or whole-home, permitted and to code.',
     relevance: [
       'East Westwood (ZIP 45211) sits on the slopes between Westwood and the Mill Creek valley, with streets of early- and mid-1900s homes. Houses from that span often still carry their original wiring — cloth-insulated branch circuits, ungrounded outlets, and in the oldest homes the occasional run of knob-and-tube that was never built for today’s electrical demand.',
       'The hillside grade also means many of these homes have older, sometimes damp basements where wiring insulation degrades faster. We replace aging branch circuits and ungrounded outlets with grounded copper to current code, sizing the circuits for modern appliances, and we permit the work and schedule the inspection so the rewire is on record.',
@@ -33,7 +33,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'western-hills': {
     intro:
-      'If outlets in your Western Hills home are ungrounded or circuits keep overloading, the wiring may be past its service life. We rewire homes with licensed, permitted work that meets current code. Call (513) 586-5107.',
+      'Around Western Hills Plaza and Glenway Avenue, rewiring splits by era. The oldest Western Hills houses have knob-and-tube and cloth-insulated circuits, and mid-century homes often have aluminum branch wiring. We replace either with code-compliant copper and grounded outlets, and we pull the permit so it gets inspected.',
     relevance: [
       'Western Hills (ZIP 45211) is the established west-side area around Western Hills Plaza and Glenway Avenue, with neighborhoods of early-1900s through mid-century single-family homes. That span covers two of the wiring problems we see most: knob-and-tube and cloth-insulated branch circuits in the oldest houses, and aluminum branch wiring in homes built during the mid-century stretch.',
       'Both have the same root issue — they were installed for a household that ran a fraction of today’s electrical load. Original circuits feed too few outlets, grounding is missing, and connections loosen with age. We rewire in grounded copper sized for modern demand, replace ungrounded outlets, and pull the permit so each circuit is inspected and documented.',
@@ -49,7 +49,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'california': {
     intro:
-      'If the riverfront home in California still has two-prong outlets or wiring that has weathered decades of damp ground, it may be time to rewire. We do licensed, permitted, code-compliant rewiring. Call (513) 586-5107.',
+      'Riverfront homes along Kellogg Avenue sit on low ground, so rewiring in California often deals with insulation and junctions worn by damp basements and past high water. We rewire the affected circuits in grounded copper, move runs up out of harm’s way where we can and pull the permit.',
     relevance: [
       'California (ZIP 45230) is Cincinnati’s far-east riverfront neighborhood along Kellogg Avenue, near Riverbend and the old Coney Island grounds, set on low ground beside the Ohio River. The older homes here carry aging wiring, and the riverside position adds a wrinkle: damp basements and a history of high water are hard on insulation, junctions, and any wiring run low in the structure.',
       'Wiring that has spent decades near moisture corrodes at the connections and loses insulation faster than wiring in a dry house. We rewire affected circuits in grounded copper to current code, replace ungrounded outlets, and where moisture is a factor we use the right boxes and methods for the conditions. The permit and inspection make the rewire part of the home’s record.',
@@ -65,7 +65,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'carthage': {
     intro:
-      'If your Carthage home along Vine Street still runs on old fuse panels and ungrounded outlets, the wiring may be due for replacement. We rewire homes with licensed, permitted work to code. Call (513) 586-5107.',
+      'Older Carthage homes along Vine Street, near the Hamilton County Fairgrounds, usually need rewiring because they still have a fuse panel, cloth- or rubber-insulated branch wiring and ungrounded outlets. The job often pairs a panel upgrade with new copper for the worst circuits, permitted and inspected.',
     relevance: [
       'Carthage (ZIP 45215) is a north-side neighborhood along Vine Street, a former village now home to the Hamilton County Fairgrounds, with older early-1900s homes. Houses of that age commonly still have their original electrical bones: a fuse panel, cloth- or rubber-insulated branch wiring, and outlets with no ground — all built for a home with far fewer plug-in demands than a modern one.',
       'As insulation dries and cracks with age, those original circuits become both unreliable and unsafe under today’s loads. We rewire in grounded copper sized for current demand, replace ungrounded two-prong outlets, and tie the rewire to a proper panel where one is needed. Every circuit is permitted and inspected, so the work meets code rather than carrying forward century-old shortcuts.',
@@ -81,7 +81,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'winton-hills': {
     intro:
-      'If circuits keep overloading or outlets are ungrounded in your Winton Hills home or building, the wiring may need replacing. We rewire with licensed, permitted, code-compliant work. Call (513) 586-5107.',
+      'Multi-unit buildings near Winton Road drive much of the rewiring in Winton Hills. The original circuits are undersized and the ungrounded outlets repeat from one unit to the next, so one worn run can affect neighbors. We rewire homes and buildings in code-compliant copper under permit.',
     relevance: [
       'Winton Hills (ZIP 45232) is a north-side neighborhood near Winton Road, with a mix of residential and industrial areas including multi-unit housing. Older buildings here run on wiring sized for an earlier era, and the multi-unit layout means undersized circuits and ungrounded outlets tend to repeat from one unit to the next.',
       'When wiring is shared or stacked across units, a worn circuit in one unit often reflects the same wear next door. We rewire in grounded copper to current code, replace two-prong outlets with grounded ones, and size circuits for modern appliance loads. The permit and inspection keep the work documented and contained rather than patched out of sight.',
@@ -97,7 +97,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'roselawn': {
     intro:
-      'If your Roselawn home still has ungrounded outlets or aluminum branch wiring from the mid-century build, it may be time to rewire. We handle licensed, permitted, code-compliant rewiring. Call (513) 586-5107.',
+      'Aluminum branch wiring and ungrounded two-prong outlets are standard in Roselawn’s mid-century homes and apartments along Reading Road, and they are the usual rewiring job here. Aluminum connections loosen and overheat over time. We replace it with copper and grounded outlets and pull the permit.',
     relevance: [
       'Roselawn (ZIP 45237) is a north-side neighborhood along Reading Road, with settled streets of mid-century single-family homes and apartment buildings. Homes from the mid-1900s sit squarely in the era when aluminum branch wiring and ungrounded two-prong outlets were standard, and both are now well past the point where they comfortably carry a modern household’s load.',
       'Aluminum connections loosen and overheat over time, and mid-century circuits simply feed too few outlets for today’s appliances. In Roselawn’s older apartment buildings, that wear is multiplied across units. We rewire in grounded copper to current code, replace ungrounded outlets, and permit and inspect every circuit so the upgrade is on record.',
@@ -113,7 +113,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-airy': {
     intro:
-      'If your Mount Airy home runs on ungrounded outlets and mid-century circuits that overload, the wiring may need replacing. We rewire homes with licensed, permitted work to code. Call (513) 586-5107.',
+      'Mount Airy rewiring is mostly mid-century homes on the hilly, wooded streets beside Mount Airy Forest. Many carry aluminum branch wiring or early ungrounded copper sized for a much lighter household. We inspect it and rewire with grounded copper to current code, permitted and inspected.',
     relevance: [
       'Mount Airy (ZIP 45239) is a northwest-side neighborhood beside Mount Airy Forest, one of the largest city parks in the country, with mid-century single-family homes on hilly, wooded streets. Homes built in that mid-1900s span often carry aluminum branch wiring or early ungrounded copper, both sized for a household that ran far less than a modern one.',
       'The hilly, wooded lots also mean many homes have older basements and crawlspaces where wiring is exposed to damp and rodents, accelerating insulation wear. We rewire in grounded copper to current code, replace two-prong outlets, and size circuits for today’s loads. The permit and inspection make the rewire documented and safe.',
@@ -129,7 +129,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hartwell': {
     intro:
-      'If your Hartwell home still has knob-and-tube or two-prong outlets from its streetcar-suburb days, it may be time to rewire. We do licensed, permitted, code-compliant rewiring. Call (513) 586-5107.',
+      'Hartwell grew as a streetcar suburb, and rewiring its Victorian and early-1900s homes usually means replacing knob-and-tube or cloth-insulated circuits on a fuse panel. We fish new grounded copper through with care for the original plaster and woodwork, and the work is permitted and inspected.',
     relevance: [
       'Hartwell (ZIP 45215) is a historic north-side neighborhood that grew as a streetcar suburb, known for its Victorian and early-1900s homes on tree-lined streets. Houses that old frequently still carry original knob-and-tube wiring or cloth-insulated circuits, ungrounded outlets, and a fuse panel — a system built decades before the loads a modern household puts on it.',
       'Knob-and-tube has no ground, its insulation grows brittle, and it was never meant to be buried in the added insulation many of these homes now have. We rewire in grounded copper to current code, replace ungrounded outlets, and work carefully around the original woodwork and plaster these Victorian homes are known for. Every circuit is permitted and inspected.',
@@ -145,7 +145,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'kennedy-heights': {
     intro:
-      'If the early-1900s home in Kennedy Heights still runs on ungrounded outlets and original circuits, the wiring may need replacing. We rewire homes with licensed, permitted work to code. Call (513) 586-5107.',
+      'Kennedy Heights began as a Victorian-era resort community, and its large early-1900s homes are where our rewiring there happens. Original knob-and-tube or cloth circuits, ungrounded outlets and an old fuse panel are typical. We replace them with grounded copper, permitted and inspected.',
     relevance: [
       'Kennedy Heights (ZIP 45213) is a historic east-side hilltop neighborhood that began as a Victorian-era resort community, now known for its arts center and large early-1900s homes. Houses of that vintage commonly still carry original wiring — knob-and-tube or cloth-insulated branch circuits, ungrounded outlets, and an old fuse panel that predates most of the home’s current electrical demands.',
       'Large older homes like these have long circuit runs and a lot of outlets to bring up to a grounded standard, and the original insulation grows brittle with age. We rewire in grounded copper sized for modern loads, replace two-prong outlets, and pull the permit so each circuit is inspected rather than left as a century-old guess.',
@@ -161,7 +161,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'st-bernard': {
     intro:
-      'If your St. Bernard home still has a fuse panel, two-prong outlets, or original early-1900s wiring, it may be time to rewire. We do licensed, permitted, code-compliant rewiring. Call (513) 586-5107.',
+      'St. Bernard is its own city, built around the Ivorydale complex, and its dense early-1900s homes are why rewiring there usually means fuse panels, ungrounded outlets and original knob-and-tube or cloth circuits. We replace them with grounded copper and a modern panel, permitted and inspected.',
     relevance: [
       'St. Bernard (ZIP 45217) is its own city, completely surrounded by Cincinnati, built up around the Procter & Gamble Ivorydale complex with a dense grid of early-1900s homes. That tightly packed, century-old housing was wired for a working household of its day — knob-and-tube or cloth-insulated branch circuits, ungrounded outlets, and a fuse panel feeding far fewer loads than a home runs now.',
       'On small valley lots with homes close together, aging wiring and brittle insulation are the rule rather than the exception. We rewire in grounded copper to current code, replace ungrounded outlets, and size circuits for modern demand. The permit and inspection keep the rewire documented, which matters in an older, closely built neighborhood like this.',
@@ -177,7 +177,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'elmwood-place': {
     intro:
-      'If the older home in Elmwood Place still has knob-and-tube or ungrounded outlets, the wiring may be past its service life. We rewire homes with licensed, permitted work to code. Call (513) 586-5107.',
+      'Closely spaced early-1900s homes in Elmwood Place, a small Mill Creek valley village, often still run on knob-and-tube and a fuse panel, which is what our rewiring there replaces. Damp valley basements wear on the old insulation too. New circuits go in as grounded copper under permit.',
     relevance: [
       'Elmwood Place (ZIP 45216) is a tiny, densely built village in the Mill Creek valley north of the city, with closely spaced early-1900s homes. Houses of that age and density commonly still run on original wiring — knob-and-tube or cloth-insulated circuits, ungrounded outlets, and a fuse panel sized for the loads of a century ago.',
       'The low valley ground means many of these homes have damp basements that wear on wiring insulation and connections, and the tight spacing between houses raises the stakes when old wiring fails. We rewire in grounded copper to current code, replace two-prong outlets, and pull the permit so each circuit is inspected and on record.',
@@ -193,7 +193,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'delhi-hills': {
     intro:
-      'If your Delhi Hills home runs on ungrounded outlets or aluminum branch wiring from its mid-century build, it may be time to rewire. We do licensed, permitted, code-compliant rewiring. Call (513) 586-5107.',
+      'Delhi Hills rewiring is mostly mid-century homes on the hilly streets above the Ohio River, built when aluminum branch wiring and two-prong outlets were common. Aluminum connections loosen and overheat over the decades. We replace it with copper and grounded outlets, permitted and inspected.',
     relevance: [
       'Delhi Hills (ZIP 45233) sits in Delhi Township on the west side above the Ohio River — an area with deep ties to greenhouse and floral growing, with established mid-century homes on hilly streets. Homes from the mid-1900s sit in the era when aluminum branch wiring and ungrounded two-prong outlets were common, both now well past the loads they were designed to carry.',
       'Aluminum connections loosen and heat up over decades, and mid-century circuits feed too few outlets for a modern household. The hilly lots also leave many homes with older basements where wiring ages faster. We rewire in grounded copper to current code, replace ungrounded outlets, and permit and inspect each circuit.',
@@ -209,7 +209,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'golf-manor': {
     intro:
-      'If the modest mid-century home in Golf Manor still has two-prong outlets and undersized circuits, the wiring may need replacing. We rewire with licensed, permitted, code-compliant work. Call (513) 586-5107.',
+      'Golf Manor’s modest mid-century homes were wired for a light load, so rewiring there usually means a handful of branch circuits, ungrounded outlets and sometimes aluminum. We add circuits and replace the old runs with grounded copper so the kitchen and laundry stop sharing one line.',
     relevance: [
       'Golf Manor (ZIP 45237) is a small village completely surrounded by Cincinnati on the north side, with a compact grid of modest mid-century homes. Homes of that size and era were wired for a light load — a handful of branch circuits, ungrounded outlets, and sometimes aluminum wiring — none of it planned for the appliances a household runs today.',
       'In a small home, an undersized circuit shows up fast: outlets that can’t keep up, breakers or fuses that trip, no ground for modern electronics. We rewire in grounded copper sized for current demand, replace two-prong outlets, and pull the permit so the rewire is inspected rather than improvised. It is the kind of work that quietly modernizes a modest home.',
@@ -225,7 +225,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fairfax': {
     intro:
-      'If your Fairfax home along Wooster Pike still has ungrounded outlets and aging original circuits, it may be time to rewire. We do licensed, permitted, code-compliant rewiring. Call (513) 586-5107.',
+      'Rewiring in Fairfax, along Wooster Pike near Mariemont, covers two eras. Older homes have cloth-insulated or knob-and-tube circuits, and mid-century ones often have aluminum branch wiring, with ungrounded outlets in both. We replace them with grounded copper, permitted and inspected.',
     relevance: [
       'Fairfax (ZIP 45227) is a small east-side village along Wooster Pike near Mariemont, with established early- and mid-1900s homes. That span covers homes with original cloth-insulated or knob-and-tube circuits in the oldest houses and aluminum branch wiring in the mid-century ones, with ungrounded outlets common across both.',
       'Older insulation grows brittle and aluminum connections loosen, while neither system was sized for a modern household’s electrical load. We rewire in grounded copper to current code, replace two-prong outlets, and size circuits for today’s demand. The permit and inspection keep the rewire documented in this small village.',
@@ -241,7 +241,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mack': {
     intro:
-      'If even a newer Mack home is now old enough for aging circuits or ungrounded outlets, the wiring may need attention. We rewire homes with licensed, permitted work to code. Call (513) 586-5107.',
+      'Rewiring in Mack is often partial. Mid-century homes in this Green Township community may still have aluminum branch wiring, and even the newer houses are decades old, with circuits feeding too few outlets for a modern household. We assess first, then rewire in copper where it is warranted.',
     relevance: [
       'Mack (ZIP 45248) is an established community in Green Township on the west side, with neighborhoods of mid-century and newer single-family homes. The mid-century houses here sit in the era of aluminum branch wiring and ungrounded outlets, while even the newer homes are now decades old — old enough for early circuits to feed too few outlets for a modern household.',
       'A home does not have to be a century old to need rewiring; a mid-century house with aluminum wiring or a 1970s home with undersized circuits both qualify. We rewire in grounded copper to current code, replace two-prong outlets where they remain, and size circuits for today’s loads. Each circuit is permitted and inspected.',
@@ -257,7 +257,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'monfort-heights': {
     intro:
-      'If your Monfort Heights home still has aluminum branch wiring or ungrounded outlets, the wiring may be due for replacement. We do licensed, permitted, code-compliant rewiring. Call (513) 586-5107.',
+      'Most Monfort Heights rewiring is in mid-century homes with aluminum branch wiring and ungrounded two-prong outlets, both standard practice when this Green Township suburb was built. Aluminum connections loosen and overheat with age. We replace them with copper and grounded outlets, permitted and inspected.',
     relevance: [
       'Monfort Heights (ZIP 45247) is a settled Green Township suburb on the west side, made up largely of mid-century single-family homes. Homes from the mid-1900s sit squarely in the period when aluminum branch wiring and ungrounded two-prong outlets were standard practice, and both are now well past the loads they were designed for.',
       'Aluminum connections loosen and overheat over the decades, and mid-century circuits simply do not feed enough outlets for a modern household. We rewire in grounded copper to current code, replace ungrounded outlets, and size circuits for today’s appliances. The permit and inspection make the rewire documented and safe rather than a hidden patch.',
@@ -273,7 +273,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bridgetown': {
     intro:
-      'If your Bridgetown home runs on ungrounded outlets or circuits that overload with modern appliances, it may be time to rewire. We rewire with licensed, permitted, code-compliant work. Call (513) 586-5107.',
+      'Bridgetown rewiring ranges from a few overloaded circuits to the whole house. Mid-century homes often carry aluminum branch wiring or ungrounded copper, and the newer houses are now old enough for their original circuits to fall short. All of it is replaced in grounded copper and permitted.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. The mid-century houses here often carry aluminum branch wiring or ungrounded copper, and even the newer homes are now old enough for original circuits to fall short of a modern household’s load.',
       'When wiring is undersized, the symptoms are familiar — breakers tripping, outlets that can’t keep up, no ground for sensitive electronics. We rewire in grounded copper to current code, replace two-prong outlets where they remain, and size circuits for today’s demand. The permit and inspection keep the rewire on record.',
@@ -289,7 +289,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'finneytown': {
     intro:
-      'If the mid-century home in Finneytown still has aluminum wiring or ungrounded outlets, the wiring may need replacing. We do licensed, permitted, code-compliant rewiring. Call (513) 586-5107.',
+      'Finneytown is mostly mid-century single-family homes, so rewiring here usually means aluminum branch wiring and ungrounded two-prong outlets. Aluminum connections heat up over time, and mid-century circuits feed too many outlets. We replace them with copper and grounded outlets under permit.',
     relevance: [
       'Finneytown (ZIP 45231) is a settled Springfield Township community on the north side, made up largely of mid-century single-family homes. Homes from the mid-1900s sit in the era of aluminum branch wiring and ungrounded two-prong outlets, both now well past the loads a modern household puts on them.',
       'Aluminum connections loosen and heat up over time, and mid-century circuits feed too few outlets for today’s appliances. We rewire in grounded copper to current code, replace ungrounded outlets, and size circuits for modern demand. Every circuit is permitted and inspected so the rewire is documented rather than improvised.',
@@ -305,7 +305,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'amberley': {
     intro:
-      'If the large home in Amberley Village has long wiring runs that are aging or ungrounded, it may be time to rewire. We do licensed, permitted, code-compliant rewiring. Call (513) 586-5107.',
+      'Large homes on big, wooded lots in Amberley Village make for big rewiring jobs: long runs, more circuits and more ungrounded outlets to bring up to standard. The work can go in stages or whole-home. We use grounded copper sized for the load, permitted and inspected.',
     relevance: [
       'Amberley Village (ZIP 45237) is an affluent north-side village known for its large homes on big, wooded lots along winding streets. Larger homes mean larger electrical systems — more circuits, longer runs, and more outlets — and in older houses that means more aging wiring and more ungrounded outlets to bring up to a modern standard.',
       'In a big home, wiring problems can hide for years behind walls before a loose connection or brittle insulation becomes obvious. We rewire in grounded copper to current code, replace ungrounded outlets, and size circuits for the substantial loads these homes carry. The permit and inspection keep the rewire documented across the whole house.',
@@ -321,7 +321,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'arlington-heights': {
     intro:
-      'If the older home in Arlington Heights still has knob-and-tube or ungrounded outlets, the wiring may be past its service life. We rewire homes with licensed, permitted work to code. Call (513) 586-5107.',
+      'Arlington Heights is a small Mill Creek valley village of older homes, and rewiring there usually means knob-and-tube or cloth-insulated circuits on an old fuse panel. Damp basements wear on that insulation. We replace it with grounded copper and grounded outlets, permitted and inspected.',
     relevance: [
       'Arlington Heights (ZIP 45215) is a small village in the Mill Creek valley north of the city, with a compact grid of older homes. Houses of that age commonly still carry original wiring — knob-and-tube or cloth-insulated branch circuits, ungrounded outlets, and a fuse panel built for a far lighter electrical load.',
       'The low valley ground means many homes have damp basements where wiring insulation and connections degrade faster, and the compact grid puts older homes close together. We rewire in grounded copper to current code, replace two-prong outlets, and pull the permit so each circuit is inspected and on record.',
@@ -337,7 +337,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-college-hill': {
     intro:
-      'If your North College Hill home still runs on a fuse panel and ungrounded outlets, it may be time to rewire. We do licensed, permitted, code-compliant rewiring. Call (513) 586-5107.',
+      'Fuse panels, ungrounded outlets and aging circuits are what North College Hill rewiring tends to involve, across a dense grid of early- and mid-1900s homes. The oldest have knob-and-tube and the mid-century ones aluminum. We often pair a panel upgrade with new copper, permitted and inspected.',
     relevance: [
       'North College Hill (ZIP 45239) is a small, densely built city just north of College Hill, with a grid of early- and mid-1900s homes. That span covers homes with original knob-and-tube or cloth-insulated circuits in the oldest houses and aluminum branch wiring in the mid-century ones, with ungrounded outlets and old fuse panels common throughout.',
       'In tightly packed older housing, aging wiring and brittle insulation are widespread, and an old fuse panel often feeds circuits that were never sized for modern loads. We rewire in grounded copper to current code, replace two-prong outlets, and size circuits for today’s demand. The permit and inspection keep the rewire documented rather than patched.',
@@ -353,7 +353,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newtown': {
     intro:
-      'If the older home in Newtown near the Little Miami still has ungrounded outlets and aging circuits, it may be time to rewire. We do licensed, permitted, code-compliant rewiring. Call (513) 586-5107.',
+      'Older homes on low ground near the Little Miami River make up most Newtown rewiring. High water and damp basements are hard on insulation and connections run low in the house. We rewire the affected circuits in grounded copper and route them higher where we can, under permit.',
     relevance: [
       'Newtown (ZIP 45244) is a small east-side village near the Little Miami River, with older homes set on low river-bottom ground. The older houses here carry aging wiring, and the low ground adds a real factor: a history of high water and damp basements is hard on insulation, connections, and any wiring run low in the structure.',
       'Wiring that has weathered moisture corrodes at its connections and loses insulation faster than wiring in a dry house, and ungrounded outlets in homes this age are common. We rewire affected circuits in grounded copper to current code, replace two-prong outlets, and use the right boxes and methods where moisture is a factor. The permit and inspection make the rewire part of the home’s record.',
@@ -369,7 +369,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'turpin-hills': {
     intro:
-      'If even a newer Turpin Hills home is now old enough for aging circuits or ungrounded outlets, the wiring may need attention. We rewire with licensed, permitted, code-compliant work. Call (513) 586-5107.',
+      'Turpin Hills rewiring is usually partial. Mid-century homes in this Anderson Township community may have aluminum branch wiring and ungrounded outlets, and newer homes can have circuits that fall short of a modern household. We assess the system and rewire in copper where it is warranted.',
     relevance: [
       'Turpin Hills (ZIP 45244) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. The mid-century houses here sit in the era of aluminum branch wiring and ungrounded outlets, while even the newer homes are now decades old — old enough for original circuits to fall short of a modern household’s load.',
       'A home does not need to be a century old to warrant rewiring; a mid-century house with aluminum wiring or a 1970s home with undersized circuits both qualify. We rewire in grounded copper to current code, replace two-prong outlets where they remain, and size circuits for today’s appliances. Each circuit is permitted and inspected.',
@@ -385,7 +385,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'silverton': {
     intro:
-      'If your Silverton home along Montgomery Road still has ungrounded outlets and aging original circuits, it may be time to rewire. We do licensed, permitted, code-compliant rewiring. Call (513) 586-5107.',
+      'Silverton homes along Montgomery Road span the early and mid-1900s, so rewiring here means cloth-insulated or knob-and-tube circuits in the oldest houses and aluminum branch wiring in mid-century ones. We replace both with grounded copper and grounded outlets, permitted and inspected.',
     relevance: [
       'Silverton (ZIP 45236) is a small city along Montgomery Road on the east side, with established streets of early- and mid-1900s homes. That span covers homes with original cloth-insulated or knob-and-tube circuits in the oldest houses and aluminum branch wiring in the mid-century ones, with ungrounded outlets common across both.',
       'Older insulation grows brittle, aluminum connections loosen, and neither was sized for a modern household’s electrical load. We rewire in grounded copper to current code, replace two-prong outlets, and size circuits for today’s demand. The permit and inspection keep the rewire documented rather than carried forward as an old shortcut.',
@@ -401,7 +401,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lockland': {
     intro:
-      'If the old worker home in Lockland still has knob-and-tube or ungrounded outlets, the wiring may be past its service life. We rewire homes with licensed, permitted work to code. Call (513) 586-5107.',
+      'Lockland grew up around mills in the Mill Creek valley, and rewiring its modestly wired old worker housing usually means replacing knob-and-tube, ungrounded outlets and an old fuse panel. We put in grounded copper and a panel sized for today’s loads, permitted and inspected.',
     relevance: [
       'Lockland (ZIP 45215) is a historic village in the Mill Creek valley north of the city, built up around mills and industry, with closely spaced older worker housing. Homes built for mill workers a century ago were wired modestly — knob-and-tube or cloth-insulated circuits, ungrounded outlets, and a fuse panel feeding far fewer loads than a household runs now.',
       'The low valley ground means damp basements that wear on insulation and connections, and the tight spacing between these older homes raises the stakes when wiring fails. We rewire in grounded copper to current code, replace two-prong outlets, and pull the permit so each circuit is inspected and on record.',
@@ -417,7 +417,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'groesbeck': {
     intro:
-      'If the mid-century home in Groesbeck still has aluminum wiring or ungrounded outlets, it may be time to rewire. We do licensed, permitted, code-compliant rewiring. Call (513) 586-5107.',
+      'Groesbeck is mostly mid-century single-family homes in Colerain Township, and rewiring here usually targets aluminum branch wiring and two-prong outlets. Those aluminum connections loosen and overheat over the decades. We replace them with copper and grounded outlets, and the work is permitted.',
     relevance: [
       'Groesbeck (ZIP 45239) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. Homes from the mid-1900s sit in the era of aluminum branch wiring and ungrounded two-prong outlets, both now well past the loads a modern household puts on them.',
       'Aluminum connections loosen and overheat over the decades, and mid-century circuits feed too few outlets for today’s appliances. We rewire in grounded copper to current code, replace ungrounded outlets, and size circuits for modern demand. Each circuit is permitted and inspected so the rewire is documented.',
@@ -433,7 +433,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-healthy': {
     intro:
-      'If your Mount Healthy home still runs on a fuse panel, two-prong outlets, or original early-1900s wiring, it may be time to rewire. We do licensed, permitted, code-compliant rewiring. Call (513) 586-5107.',
+      'Mount Healthy rewiring covers the old town center’s early-1900s homes, with knob-and-tube and fuse panels, and the mid-century houses with aluminum branch wiring. Ungrounded outlets show up in both. We often pair a panel upgrade with new copper for the worst circuits, permitted and inspected.',
     relevance: [
       'Mount Healthy (ZIP 45231) is a historic small city on the north side, with an old town center and streets of early-1900s and mid-century homes. That span covers homes with original knob-and-tube or cloth-insulated circuits and old fuse panels in the oldest houses, and aluminum branch wiring in the mid-century ones, with ungrounded outlets common across both.',
       'Older insulation grows brittle, aluminum connections loosen, and an old fuse panel often feeds circuits never sized for modern loads. We rewire in grounded copper to current code, replace two-prong outlets, and size circuits for today’s demand. The permit and inspection keep the rewire documented rather than left as a century-old guess.',

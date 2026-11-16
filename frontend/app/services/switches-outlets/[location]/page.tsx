@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -8,13 +9,15 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'switches-outlets',
   serviceName: 'Switches & Outlets',
+  localHeadingName: 'Switch and Outlet',
+  emergencyHeading: 'Urgent Outlet and Switch Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Switches & Outlets',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
   businessType: 'Electrician',
   schemaServiceType: 'Switch & Outlet Installation',
   ctaLine: 'Need outlets or switches fixed or added in {neighborhood}? Call today',
-  heroImage: '/services/outlets-hero.jpg',
+  heroImage: '/services/outlets-hero.webp',
   introHeading: 'Switches & Outlets in {neighborhood}',
   introParagraphs: [
     'Outlets and switches are the parts of your electrical system you touch every day — and even small problems can be a real headache or a safety risk. {brand} installs, replaces, and repairs switches and outlets for homeowners in {place}, wired safely and to code.',
@@ -41,7 +44,7 @@ const config: ServiceLocationConfig = {
     { slug: 'surge-protector-installation', title: 'Surge Protection' },
     { slug: 'electrical-inspections', title: 'Electrical Inspections' },
   ],
-  band1Image: '/services/outlets-signs.jpg',
+  band1Image: '/services/outlets-signs.webp',
   band1Heading: 'Common Outlet & Switch Problems in {neighborhood} Homes',
   commonSituations: [
     'Broken, loose, or scorched outlets',
@@ -53,7 +56,7 @@ const config: ServiceLocationConfig = {
     'A want for modern USB or smart switches',
   ],
   trustedBanner: 'Your Local & Trusted Switch & Outlet Pros in {neighborhood}',
-  band2Image: '/services/outlets-hero.jpg',
+  band2Image: '/services/outlets-hero.webp',
   band2Heading: 'What to Expect From Your Service in {neighborhood}',
   band2Paragraphs: [
     'We assess your existing outlets and switches, check the wiring and panel capacity, and recommend what your {neighborhood} home actually needs — then explain the flat-rate price before any work begins.',
@@ -66,12 +69,7 @@ const config: ServiceLocationConfig = {
     { title: 'When an Outlet Job Points to Bigger Work', body: 'Sometimes replacing outlets reveals an overloaded panel or aging wiring that cannot safely support more load. When that happens in a {neighborhood} home we will tell you honestly, and we can handle the panel upgrade or rewiring so the whole system is safe — not just the one outlet.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Trained pros who wire every device safely and to code.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Proper grounding and stable connections, tested before we leave.' },
-    { icon: 'badge', title: 'Modern Upgrades', text: 'USB and GFCI outlets for added convenience and safety.' },
-    { icon: 'house', title: 'Tidy Installs', text: 'Minimal disruption and a clean workspace when we finish.' },
-  ],
+  whyParagraph: 'Our licensed electricians wire every switch and outlet in your {neighborhood} home with proper grounding, then test it before leaving. We can add USB or GFCI outlets where they help, and we clean up the workspace when we finish.',
   proofQuote:
     'Our 1940s house had two-prong outlets everywhere and not enough of them. They added grounded outlets, put GFCIs in the kitchen and bath, and fixed a switch that always buzzed. Clean work and they tested every one before leaving.',
   sharedFaqs: [
@@ -81,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'How do I know if I need outlet installation services?', a: 'Consider installation if your home lacks sufficient outlets or you experience issues like tripped breakers and over-reliance on extension cords.' },
     { q: 'Why is outlet installation important?', a: 'Proper installation ensures safe, efficient power distribution while protecting your home and devices from electrical issues.' },
   ],
+  steps: {
+    heading: 'What to Expect From Switch and Outlet Work in {neighborhood}',
+    items: [
+      { icon: 'plugConnected', title: 'We Test the Outlets First', text: 'Grounding, load, the circuit and the panel behind it.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'What needs fixing or adding, and a flat-rate price before work begins.' },
+      { icon: 'check', title: 'Wired, Grounded and Tested', text: 'Wired to code, then tested for grounding, power and stability under load.' },
+    ],
+  },
   related: [
     { label: 'Switches & Outlets (overview)', href: '/services/switches-outlets' },
     { label: 'Electrical Panel Replacement', href: '/services/electrical-panel-replacement' },
@@ -103,15 +109,15 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
-    title: `Switches & Outlets in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+  return withSocial({
+    title: `Switches & Outlets in ${loc.neighborhood}, ${loc.state}`,
     description: `Switch and outlet installation in ${place} — outlet replacement, GFCI and USB upgrades, and switch repair by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/switches-outlets/${loc.slug}` },
     openGraph: {
       title: `Switches & Outlets in ${place} | ${site.name}`,
       description: `Licensed switch and outlet installation and repair serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function SwitchesOutletsLocationPage({

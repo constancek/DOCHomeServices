@@ -1,6 +1,6 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
-    intro: 'Worried about stale or dusty indoor air in Villages of Roll Hill? We start with an air-quality test, then match filtration, ventilation, or humidity control to what the readings actually show. Call (513) 586-5107.',
+    intro: 'Air quality at Villages of Roll Hill is mostly an apartment problem: shared ductwork and tight floor plans move dust, cooking odors and allergens between units, and a single return recirculates the same air. We test your unit first, then add filtration or a purifier at the apartment level.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. In densely built multi-unit housing, shared ductwork and tight floor plans can move dust, cooking odors, and allergens from one unit toward the next, and apartments often rely on a single return that recirculates the same air without much fresh-air exchange.',
       'Its perch above the Mill Creek valley also means humid summer air settling into lower-level units, which can feed dust mites and a musty smell if ventilation is weak. We test each unit first for particulates and humidity so any filter upgrade, purifier, or dehumidifier we recommend fits the building rather than a guess.',
@@ -11,7 +11,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'east-westwood': {
-    intro: 'If the air in your East Westwood home feels dusty or muggy, we test before we recommend anything. From there we size filtration, humidity control, or ventilation to the readings. Call (513) 586-5107.',
+    intro: 'Damp lower levels and old ductwork are the usual air quality problems in East Westwood, where homes on the slopes above the Mill Creek valley keep original ducts that circulate settled dust. We test first. Then we size filtration, a dehumidifier or ventilation to the readings.',
     relevance: [
       'East Westwood (ZIP 45211) sits on the slopes between Westwood and the Mill Creek valley, with streets of early- and mid-1900s homes. Houses of that age often keep their original ductwork, where decades of settled dust and undersized returns let particulates circulate instead of getting filtered out.',
       'The hillside grade also tends to leave lower levels damp, and humid summer air rolling up from the Mill Creek valley can push basement humidity high enough to feed mold and dust mites. We test for both particulates and moisture so a filter upgrade or whole-home dehumidifier addresses what is actually happening, not a hunch.',
@@ -22,7 +22,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'western-hills': {
-    intro: 'Dust that keeps coming back in your Western Hills home usually has a source worth finding. We test the air first, then match filtration or humidity control to the result. Call (513) 586-5107.',
+    intro: 'Dust that keeps coming back is the air quality complaint we hear most from longtime Western Hills owners near Glenway Avenue. Original ductwork and basic return filters let fine dust recirculate. We test the air and check the ducts, then fit a higher-grade filter, sealed returns or both.',
     relevance: [
       'Western Hills (ZIP 45211) is the established west-side area around Western Hills Plaza and Glenway Avenue, with neighborhoods of early-1900s through mid-century single-family homes. In houses that span that range, the original ductwork and basic return-air filters tend to let fine dust recirculate, which is the complaint we hear most from longtime owners here.',
       'Greater Cincinnati’s humid summers and dry, furnace-heated winters mean the same Western Hills home can swing from sticky and dust-mite-prone in July to dry and staticky in January. We test for both particulates and humidity so any filtration upgrade or HVAC-integrated humidifier we suggest fits the season-to-season swing instead of one problem at a time.',
@@ -33,7 +33,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'california': {
-    intro: 'Living along the river in the California neighborhood often means damp air and humidity to manage. We test moisture and particulates first, then recommend the right humidity control or filtration. Call (513) 586-5107.',
+    intro: 'River humidity is the air quality issue in California, where homes along Kellogg Avenue sit on low ground beside the Ohio and damp air pushes basement humidity high enough to feed mold and dust mites. We start with a moisture test, then fit a whole-home dehumidifier or ventilation fix.',
     relevance: [
       'California (ZIP 45230) is Cincinnati’s far-east riverfront neighborhood along Kellogg Avenue, near Riverbend and the old Coney Island grounds, set on low ground beside the Ohio River. That low riverside position keeps the ground and lower levels damp, and humid air settling off the river can push basement humidity high enough to feed mold growth and dust mites.',
       'The older homes here add aging ductwork to the picture, which spreads that damp, dusty air through the house instead of filtering it. We test humidity and particulate levels first so a whole-home dehumidifier, filtration upgrade, or ventilation fix is sized to a riverfront home along Kellogg Avenue rather than a standard suburban house.',
@@ -44,7 +44,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'carthage': {
-    intro: 'Older homes in Carthage often hold dust and stale air in original ductwork. We test the air first, then match filtration or ventilation to what we find. Call (513) 586-5107.',
+    intro: 'Carthage’s early-1900s homes near the Hamilton County Fairgrounds tend to have air quality problems from original ductwork, where a century of dust keeps circulating, and tight construction with little fresh-air exchange. We test the air and inspect the ducts first, then fit filtration or sealing.',
     relevance: [
       'Carthage (ZIP 45215) is a north-side neighborhood along Vine Street, a former village now home to the Hamilton County Fairgrounds, with older early-1900s homes. Houses that old usually still run their original ductwork, where a century of settled dust and undersized returns let particulates keep circulating rather than getting trapped.',
       'Those early-1900s homes also tend to be tightly built with limited fresh-air exchange, so cooking odors, dust, and dry winter air linger longer than they should. We test for particulates and humidity first so any filter upgrade, purifier, or HVAC-integrated humidifier fits an older Vine Street home rather than a one-size recommendation.',
@@ -55,7 +55,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'winton-hills': {
-    intro: 'Stale or dusty air in a Winton Hills home or apartment usually points to filtration and ventilation worth checking. We test first, then recommend. Call (513) 586-5107.',
+    intro: 'Shared ductwork shapes air quality in Winton Hills multi-unit buildings near Winton Road, where a single return can pass dust, cooking odors and allergens between units, with industrial areas close by. We test your unit first, then fit filtration, a purifier or better fresh-air exchange.',
     relevance: [
       'Winton Hills (ZIP 45232) is a north-side neighborhood near Winton Road, with a mix of residential and industrial areas including multi-unit housing. In densely built multi-unit buildings, shared ductwork and a single return can recirculate dust, cooking odors, and allergens between units instead of filtering and exchanging the air.',
       'The mix of older buildings near industrial areas means weak fresh-air exchange and aging filters are common complaints here. We test each space for particulates and humidity first so a filter upgrade, purifier, or ventilation improvement fits the building rather than a guess about the whole area.',
@@ -66,7 +66,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'roselawn': {
-    intro: 'If your Roselawn home or apartment feels dusty or dry, the cause is usually findable. We test the air first, then size filtration or humidity control to it. Call (513) 586-5107.',
+    intro: 'Recirculated dust and dry winter air are the usual air quality complaints in Roselawn’s mid-century homes and apartments along Reading Road, which keep original ductwork and basic filters. We test the air first. Then we size filtration or an HVAC-integrated humidifier to the readings.',
     relevance: [
       'Roselawn (ZIP 45237) is a north-side neighborhood along Reading Road, with settled streets of mid-century single-family homes and apartment buildings. Mid-1900s homes typically keep their original ductwork and basic filters, which lets fine dust recirculate, while older apartment buildings often share returns that move odors and allergens between units.',
       'Greater Cincinnati’s dry, furnace-heated winters leave many of these Reading Road homes feeling parched and staticky by January, while humid summers can push indoor moisture the other way. We test for particulates and humidity first so a filter upgrade or HVAC-integrated humidifier matches the home’s real season-to-season swing.',
@@ -77,7 +77,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'mount-airy': {
-    intro: 'Homes near Mount Airy Forest often deal with dust, pollen, and humidity from the wooded setting. We test the air first, then match filtration or humidity control to it. Call (513) 586-5107.',
+    intro: 'Homes beside Mount Airy Forest have an air quality challenge most neighborhoods do not: more pollen and outdoor allergens than a basic furnace filter can catch, on top of dust from mid-century ductwork. We test the air first, then fit a higher-grade filter or whole-home purifier sized to it.',
     relevance: [
       'Mount Airy (ZIP 45239) is a northwest-side neighborhood beside Mount Airy Forest, one of the largest city parks in the country, with mid-century single-family homes on hilly, wooded streets. The heavy tree cover means more pollen and outdoor allergens making their way indoors, which a basic furnace filter rarely catches.',
       'Those mid-century homes carry original ductwork that recirculates that pollen and dust, and the hilly, wooded lots tend to keep lower levels damp through humid summers. We test for particulates and humidity first so a filtration upgrade, purifier, or dehumidifier fits a wooded Mount Airy home rather than a generic suburban one.',
@@ -88,7 +88,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'hartwell': {
-    intro: 'Hartwell’s historic homes often hold dust in original ductwork and swing dry in winter. We test the air before recommending filtration or humidity control. Call (513) 586-5107.',
+    intro: 'Hartwell’s Victorian and early-1900s homes often have air quality problems from original ductwork that keeps settled dust moving, and those tightly built houses run dry in winter. Our work in this old streetcar suburb starts with a test. Then we fit filtration or an HVAC-integrated humidifier.',
     relevance: [
       'Hartwell (ZIP 45215) is a historic north-side neighborhood that grew as a streetcar suburb, known for its Victorian and early-1900s homes on tree-lined streets. Homes that old often still run their original ductwork, where decades of settled dust and undersized returns keep particulates circulating instead of trapping them.',
       'Those century-old homes also tend to be tightly built with limited fresh-air exchange, and Greater Cincinnati’s furnace-heated winters leave them feeling especially dry. We test for particulates and humidity first so a filter upgrade or HVAC-integrated humidifier fits a Victorian Hartwell home rather than a modern build.',
@@ -99,7 +99,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'kennedy-heights': {
-    intro: 'The large older homes in Kennedy Heights often hold dust in aging ductwork. We test the air first, then match filtration or humidity control to the readings. Call (513) 586-5107.',
+    intro: 'Long runs of original ductwork are behind most air quality complaints in Kennedy Heights’ big early-1900s homes, holding and recirculating dust a single filter cannot catch, while the tree-lined hilltop adds pollen. We test the air and inspect the ducts, then fit the right level of filtration.',
     relevance: [
       'Kennedy Heights (ZIP 45213) is a historic east-side hilltop neighborhood that began as a Victorian-era resort community, now known for its arts center and large early-1900s homes. Big homes of that age carry long runs of original ductwork, where settled dust and undersized returns keep fine particulates moving through the house.',
       'The hilltop setting and tree-lined streets bring outdoor pollen indoors, while furnace-heated winters dry the air inside these large rooms. We test for particulates and humidity first so a filtration upgrade, purifier, or humidifier is sized to a large early-1900s home rather than a smaller, newer one.',
@@ -110,7 +110,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'st-bernard': {
-    intro: 'Dense, century-old homes in St. Bernard often hold dust and stale air in original ductwork. We test the air first, then recommend filtration or ventilation. Call (513) 586-5107.',
+    intro: 'St. Bernard air quality suffers in its dense early-1900s homes on small valley lots, which usually keep original ductwork that recirculates dust and get limited fresh-air exchange on the tight grid near Ivorydale. We test first, then fit filtration and ventilation matched to the readings.',
     relevance: [
       'St. Bernard (ZIP 45217) is its own city, completely surrounded by Cincinnati, built up around the Procter & Gamble Ivorydale complex with a dense grid of early-1900s homes. Homes that old on small valley lots usually keep their original ductwork, where settled dust and undersized returns recirculate particulates instead of filtering them out.',
       'The tightly packed grid and proximity to the Ivorydale industrial area mean limited fresh-air exchange and more outdoor particulates working their way indoors. We test for particulates and humidity first so a filter upgrade, purifier, or ventilation improvement fits a dense early-1900s St. Bernard home rather than a guess.',
@@ -121,7 +121,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'elmwood-place': {
-    intro: 'Down in the valley, Elmwood Place homes often deal with damp air and humidity. We test moisture and particulates first, then size humidity control or filtration to it. Call (513) 586-5107.',
+    intro: 'Valley humidity is the main air quality problem in Elmwood Place, which sits low in the Mill Creek valley where damp basements and humid summer air can feed mold and dust mites. Old ductwork spreads it. We start with a moisture test, then fit a dehumidifier or ventilation fix.',
     relevance: [
       'Elmwood Place (ZIP 45216) is a tiny, densely built village in the Mill Creek valley north of the city, with closely spaced early-1900s homes. The low valley ground keeps basements damp, and humid summer air settling into the valley can push indoor humidity high enough to feed mold and dust mites.',
       'Those closely spaced, century-old homes run on original ductwork that spreads that damp, dusty air rather than filtering it, and tight construction limits fresh-air exchange. We test humidity and particulate levels first so a whole-home dehumidifier or filtration upgrade is sized to a Mill Creek valley home rather than a hilltop one.',
@@ -132,7 +132,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'delhi-hills': {
-    intro: 'Mid-century homes in Delhi Hills often deal with recirculated dust and damp lower levels. We test the air first, then match filtration or humidity control. Call (513) 586-5107.',
+    intro: 'Delhi Hills air quality shifts with the seasons. Mid-century homes on its hilly streets keep original ductwork and basic filters that let dust recirculate, lower levels stay damp in summer and winters run dry. We test humidity in both seasons, then size equipment to the readings.',
     relevance: [
       'Delhi Hills (ZIP 45233) sits in Delhi Township on the west side above the Ohio River, an area with deep ties to greenhouse and floral growing, with established mid-century homes on hilly streets. Homes of that era keep their original ductwork and basic filters, which lets fine dust recirculate through the house.',
       'The hillside grade above the river tends to leave lower levels damp through humid summers, while furnace-heated winters dry the air inside. We test for particulates and humidity first so a filtration upgrade, dehumidifier, or HVAC-integrated humidifier fits a hillside Delhi Hills home rather than a flatland build.',
@@ -143,7 +143,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'golf-manor': {
-    intro: 'Modest mid-century homes in Golf Manor often hold dust in original ductwork and run dry in winter. We test the air first, then recommend. Call (513) 586-5107.',
+    intro: 'Air quality complaints in Golf Manor’s modest mid-century homes usually involve original ductwork with basic return filters that let fine dust recirculate, plus dry, staticky air in winter. We test first, then size filtration or a humidifier to the home.',
     relevance: [
       'Golf Manor (ZIP 45237) is a small village completely surrounded by Cincinnati on the north side, with a compact grid of modest mid-century homes. Homes of that size and era usually run their original ductwork with basic return filters, which lets fine dust recirculate rather than getting trapped.',
       'Greater Cincinnati’s furnace-heated winters leave these smaller homes feeling especially dry and staticky, while humid summers swing the other way. We test for particulates and humidity first so a filter upgrade or HVAC-integrated humidifier fits a modest Golf Manor home rather than a larger house.',
@@ -154,7 +154,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'fairfax': {
-    intro: 'Older homes in Fairfax along Wooster Pike often hold dust in aging ductwork. We test the air first, then match filtration or humidity control to it. Call (513) 586-5107.',
+    intro: 'Fairfax homes along Wooster Pike from the early and mid-1900s tend to have air quality problems from original ductwork and basic filters, so fine dust recirculates and cooking odors linger. We test the air and check the ducts, then size a filter or purifier to the house.',
     relevance: [
       'Fairfax (ZIP 45227) is a small east-side village along Wooster Pike near Mariemont, with established early- and mid-1900s homes. Houses spanning that range tend to keep their original ductwork and basic filters, which lets fine dust recirculate instead of trapping it.',
       'Those older homes are often tightly built with limited fresh-air exchange, so cooking odors and dust linger and furnace-heated winters leave the air dry. We test for particulates and humidity first so a filter upgrade, purifier, or HVAC-integrated humidifier fits an older Wooster Pike home rather than a generic recommendation.',
@@ -165,7 +165,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'mack': {
-    intro: 'Homes in Mack range from mid-century to newer, and dust or dry air can affect either. We test the air first, then size filtration or humidity control. Call (513) 586-5107.',
+    intro: 'Mack air quality problems differ by house age in this Green Township community. Mid-century homes have original ducts that recirculate dust, and newer ones are sealed tight enough to trap odors and moisture. We test first, then add filtration, ventilation or humidity control where needed.',
     relevance: [
       'Mack (ZIP 45248) is an established community in Green Township on the west side, with neighborhoods of mid-century and newer single-family homes. Even newer homes here are now old enough for ductwork and filters to need attention, while mid-century houses keep original ducts that recirculate fine dust.',
       'Greater Cincinnati’s humid summers and dry, furnace-heated winters mean a Mack home can swing from sticky to parched over the year. We test for particulates and humidity first so a filtration upgrade, dehumidifier, or HVAC-integrated humidifier fits the home’s age and the season-to-season swing.',
@@ -176,7 +176,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'monfort-heights': {
-    intro: 'Mid-century homes in Monfort Heights often hold dust in original ductwork and run dry in winter. We test the air first, then recommend. Call (513) 586-5107.',
+    intro: 'Most air quality complaints in Monfort Heights come from mid-century houses with original ductwork and basic filters that let fine dust recirculate, plus furnace-heated winters that leave the air dry and staticky. We test the air and ducts first, then fit the right filtration level.',
     relevance: [
       'Monfort Heights (ZIP 45247) is a settled Green Township suburb on the west side, made up largely of mid-century single-family homes. Homes from the mid-1900s usually keep their original ductwork and basic filters, which lets fine dust recirculate rather than trapping it.',
       'Furnace-heated winters leave these homes feeling dry and staticky, while humid summers push indoor moisture the other way. We test for particulates and humidity first so a filtration upgrade or HVAC-integrated humidifier fits a mid-century Monfort Heights home rather than a generic suburban build.',
@@ -187,7 +187,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'bridgetown': {
-    intro: 'Bridgetown homes span mid-century to newer, and both can hold dust or swing humid. We test the air first, then size filtration or humidity control. Call (513) 586-5107.',
+    intro: 'Indoor air quality in Bridgetown often needs two fixes at different times of year. Humid summers and dry winters swing the moisture level, mid-century ductwork recirculates dust and newer sealed homes trap odors. We test humidity across the seasons first, then size the equipment for each.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. Mid-century houses keep original ductwork that recirculates fine dust, while newer, tightly sealed homes can trap odors and moisture without enough fresh-air exchange.',
       'Greater Cincinnati’s humid summers and dry winters mean a Bridgetown home can feel sticky in July and parched in January. We test for particulates and humidity first so a filtration upgrade, dehumidifier, or HVAC-integrated humidifier fits the home’s age and seasonal swing rather than a single fix.',
@@ -198,7 +198,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'finneytown': {
-    intro: 'Mid-century homes in Finneytown often hold dust in original ductwork and run dry in winter. We test the air first, then match filtration or humidity control. Call (513) 586-5107.',
+    intro: 'Finneytown is mostly mid-century homes in Springfield Township, and their air quality suffers from original ductwork and basic filters that let dust recirculate, with moisture swinging from dry winters to humid summers. We test first, then fit a higher-grade filter, duct sealing or humidity control.',
     relevance: [
       'Finneytown (ZIP 45231) is a settled Springfield Township community on the north side, made up largely of mid-century single-family homes. Homes of that era keep their original ductwork and basic filters, which lets fine dust recirculate through the house instead of trapping it.',
       'Furnace-heated winters leave these homes dry and staticky, while humid summers swing indoor moisture the other way. We test for particulates and humidity first so a filtration upgrade or HVAC-integrated humidifier fits a mid-century Finneytown home rather than a generic recommendation.',
@@ -209,7 +209,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'amberley': {
-    intro: 'Large homes on wooded lots in Amberley Village bring more pollen and bigger air systems to manage. We test the air first, then size filtration or humidity control. Call (513) 586-5107.',
+    intro: 'Air quality in Amberley Village’s large homes on wooded lots is uneven: more pollen than a basic filter can handle, and long duct runs that filter and circulate air differently from room to room. We test room by room, then size whole-home filtration to even it out.',
     relevance: [
       'Amberley Village (ZIP 45237) is an affluent north-side village known for its large homes on big, wooded lots along winding streets. The heavy tree cover means more pollen and outdoor allergens drifting indoors, which a basic furnace filter rarely captures across a large home.',
       'Larger homes also mean longer duct runs and bigger air systems, where settled dust and uneven filtration can leave some rooms dustier than others. We test for particulates and humidity first so a whole-home filtration system, purifier, or humidifier is sized to a large wooded-lot Amberley home rather than a smaller house.',
@@ -220,7 +220,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'arlington-heights': {
-    intro: 'Down in the Mill Creek valley, Arlington Heights homes often deal with damp air and humidity. We test moisture and particulates first, then size humidity control or filtration. Call (513) 586-5107.',
+    intro: 'Arlington Heights sits on low Mill Creek valley ground, so air quality in its older homes suffers from damp basements and humidity the AC alone may not pull down, which feeds mold. We start with a humidity test, then fit a dehumidifier sized to the house.',
     relevance: [
       'Arlington Heights (ZIP 45215) is a small village in the Mill Creek valley north of the city, with a compact grid of older homes. The low valley ground keeps basements damp, and humid summer air settling into the valley can push indoor humidity high enough to feed mold and dust mites.',
       'Those older homes run on aging ductwork that spreads damp, dusty air rather than filtering it, with limited fresh-air exchange. We test humidity and particulate levels first so a whole-home dehumidifier or filtration upgrade is sized to a Mill Creek valley home rather than higher, drier ground.',
@@ -231,7 +231,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'north-college-hill': {
-    intro: 'Older, tightly packed homes in North College Hill often hold dust and stale air in original ductwork. We test the air first, then recommend filtration or ventilation. Call (513) 586-5107.',
+    intro: 'Stuffy air is the usual air quality complaint in North College Hill’s tightly packed early- and mid-1900s homes, which keep original ductwork that recirculates dust on a dense grid with little fresh-air exchange. We test first, then improve ventilation and filtration to match.',
     relevance: [
       'North College Hill (ZIP 45239) is a small, densely built city just north of College Hill, with a grid of early- and mid-1900s homes. Homes of that age on small lots usually keep their original ductwork, where settled dust and undersized returns recirculate particulates instead of trapping them.',
       'The tightly packed grid means limited fresh-air exchange, so cooking odors, dust, and dry winter air linger longer than they should. We test for particulates and humidity first so a filter upgrade, purifier, or ventilation improvement fits a dense North College Hill home rather than a guess.',
@@ -242,7 +242,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'newtown': {
-    intro: 'Near the Little Miami River, Newtown homes often deal with damp air and humidity. We test moisture and particulates first, then size humidity control or filtration. Call (513) 586-5107.',
+    intro: 'Older Newtown homes on low river-bottom ground near the Little Miami River stay damp, and that is the main air quality problem there: humid air can push indoor humidity high enough to feed mold and dust mites. We start with a moisture test, then fit a dehumidifier or ventilation fix.',
     relevance: [
       'Newtown (ZIP 45244) is a small east-side village near the Little Miami River, with older homes set on low river-bottom ground. That low ground keeps basements and lower levels damp, and humid air off the river can push indoor humidity high enough to feed mold and dust mites.',
       'The older homes here add aging ductwork that spreads that damp, dusty air rather than filtering it. We test humidity and particulate levels first so a whole-home dehumidifier, filtration upgrade, or ventilation fix is sized to a low-lying river-bottom Newtown home rather than higher ground.',
@@ -253,7 +253,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'turpin-hills': {
-    intro: 'Mid-century and newer homes in Turpin Hills can both hold dust or swing humid. We test the air first, then size filtration or humidity control. Call (513) 586-5107.',
+    intro: 'Turpin Hills, in Anderson Township, has two kinds of air quality problem: mid-century homes whose original ductwork recirculates dust, and newer homes sealed tight enough to trap moisture and odors. Seasonal swings affect both. We test first, then fit ventilation, filtration or humidity control.',
     relevance: [
       'Turpin Hills (ZIP 45244) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. Mid-century houses keep original ductwork that recirculates fine dust, while newer, tightly sealed homes can trap odors and moisture without enough fresh-air exchange.',
       'Greater Cincinnati’s humid summers and dry, furnace-heated winters mean a Turpin Hills home can feel sticky in July and parched in January. We test for particulates and humidity first so a filtration upgrade, dehumidifier, or HVAC-integrated humidifier fits the home’s age and seasonal swing.',
@@ -264,7 +264,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'silverton': {
-    intro: 'Older homes in Silverton along Montgomery Road often hold dust in aging ductwork. We test the air first, then match filtration or humidity control. Call (513) 586-5107.',
+    intro: 'Silverton’s early- and mid-1900s homes along Montgomery Road usually have air quality problems from original ductwork and basic filters that let dust recirculate, and tight construction plus furnace heat leaves winter air dry. We test the air first, then fit a filter or purifier sized to the house.',
     relevance: [
       'Silverton (ZIP 45236) is a small city along Montgomery Road on the east side, with established streets of early- and mid-1900s homes. Houses spanning that range usually keep their original ductwork and basic filters, which lets fine dust recirculate rather than trapping it.',
       'Those older homes tend to be tightly built with limited fresh-air exchange, and furnace-heated winters leave the air dry. We test for particulates and humidity first so a filter upgrade, purifier, or HVAC-integrated humidifier fits an older Montgomery Road home rather than a generic build.',
@@ -275,7 +275,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'lockland': {
-    intro: 'Down in the Mill Creek valley, Lockland’s older homes often deal with damp air and dust. We test moisture and particulates first, then size humidity control or filtration. Call (513) 586-5107.',
+    intro: 'Lockland’s closely spaced old worker housing sits low in the Mill Creek valley, so its air quality suffers from damp basements and humid summer air that feed mold and dust mites, spread by aging ductwork. We start with a moisture test, then fit a dehumidifier or ventilation fix.',
     relevance: [
       'Lockland (ZIP 45215) is a historic village in the Mill Creek valley north of the city, built up around mills and industry, with closely spaced older worker housing. The low valley ground keeps basements damp, and humid summer air settling into the valley can push indoor humidity high enough to feed mold and dust mites.',
       'That closely spaced, older worker housing runs on aging ductwork that spreads damp, dusty air rather than filtering it, with limited fresh-air exchange. We test humidity and particulate levels first so a whole-home dehumidifier or filtration upgrade is sized to a Mill Creek valley home rather than higher, drier ground.',
@@ -286,7 +286,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'groesbeck': {
-    intro: 'Mid-century homes in Groesbeck often hold dust in original ductwork and run dry in winter. We test the air first, then match filtration or humidity control. Call (513) 586-5107.',
+    intro: 'Groesbeck air quality problems are typical of mid-century homes in Colerain Township: original ductwork and basic filters that let dust recirculate, and furnace heat that strips moisture out every winter. We test the air and humidity first, then fit filtration or an HVAC-integrated humidifier.',
     relevance: [
       'Groesbeck (ZIP 45239) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. Homes of that era keep their original ductwork and basic filters, which lets fine dust recirculate through the house rather than trapping it.',
       'Furnace-heated winters leave these homes dry and staticky, while humid summers swing indoor moisture the other way. We test for particulates and humidity first so a filtration upgrade or HVAC-integrated humidifier fits a mid-century Groesbeck home rather than a generic recommendation.',
@@ -297,7 +297,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'mount-healthy': {
-    intro: 'Older homes in Mount Healthy often hold dust and stale air in aging ductwork. We test the air first, then recommend filtration or ventilation. Call (513) 586-5107.',
+    intro: 'Older homes around Mount Healthy’s old town center usually have air quality problems from original ductwork that recirculates fine dust, and they tend to be tightly built with limited fresh-air exchange. Our work in this small city starts with a test, then filtration or duct sealing.',
     relevance: [
       'Mount Healthy (ZIP 45231) is a historic small city on the north side, with an old town center and streets of early-1900s and mid-century homes. Houses spanning that range usually keep their original ductwork, where settled dust and undersized returns recirculate fine particulates instead of trapping them.',
       'Those older homes tend to be tightly built with limited fresh-air exchange, so cooking odors, dust, and dry winter air linger longer than they should. We test for particulates and humidity first so a filter upgrade, purifier, or HVAC-integrated humidifier fits an older Mount Healthy home rather than a guess.',

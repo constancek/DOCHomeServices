@@ -27,11 +27,11 @@ const EMPTY = {
   address: '',
   preferredDate: '',
   preferredTime: '',
-  consent: true,
+  consent: false,
 };
 
 export default function EstimateForm({
-  heading = 'Request Your Free Estimate',
+  heading = 'Request an Estimate',
 }: {
   heading?: string;
 }) {
@@ -49,7 +49,7 @@ export default function EstimateForm({
     setSending(true);
     setError(false);
     const result = await submitLead({
-      formName: 'Free Estimate',
+      formName: 'Request an Estimate',
       ...form,
       // Keep sending the combined full name so the existing GHL mapping (name -> First Name)
       // keeps working unchanged; firstName/lastName are also sent for optional separate mapping.
@@ -70,9 +70,9 @@ export default function EstimateForm({
           <Icon name="check" className="h-7 w-7" />
         </span>
         <h2 className="mt-5 font-display text-2xl font-extrabold text-brand-700">Request received!</h2>
-        <p className="mx-auto mt-2 max-w-sm text-sm text-ink/70">
-          Thanks — a member of our team will reach out shortly to confirm your free estimate. Need us
-          sooner? Call us anytime.
+        <p className="mx-auto mt-2 max-w-sm text-[15px] leading-relaxed text-ink/70">
+          Thanks — a member of our team will reach out shortly to confirm your estimate. Need us
+          sooner? Call us any day of the week.
         </p>
         <a href={site.primaryPhone.href} className="btn-pink mt-5">
           <Icon name="phone" className="h-4 w-4" />
@@ -85,8 +85,8 @@ export default function EstimateForm({
   return (
     <div className="overflow-hidden rounded-2xl bg-white shadow-card ring-1 ring-brand-100">
       <div className="bg-pink-500 px-6 py-4">
-        <h2 className="font-display text-xl font-extrabold text-white">{heading}</h2>
-        <p className="text-xs font-semibold text-white/80">Step {step} of 2</p>
+        {heading && <h2 className="font-display text-xl font-extrabold text-white">{heading}</h2>}
+        <p className={`${heading ? 'mt-1 ' : ''}text-base font-bold text-white/90`}>Step {step} of 2</p>
         <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-white/30">
           <div
             className="h-full rounded-full bg-white transition-all"

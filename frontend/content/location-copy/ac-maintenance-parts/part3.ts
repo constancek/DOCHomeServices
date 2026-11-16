@@ -1,7 +1,7 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
     intro:
-      'An annual AC tune-up keeps cooling steady through a Cincinnati summer in Villages of Roll Hill, where many homes share or cluster condensers across multi-unit buildings. A yearly visit catches a weak compressor or low charge before the hot months load it up. Call (513) 586-5107.',
+      'AC maintenance in Villages of Roll Hill covers banks of closely grouped condensers serving multi-unit apartment buildings. One neglected unit drags down the group, and the hilltop leaves them in direct sun, so each system gets coil cleaning, a charge check and an electrical inspection.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. Cooling in buildings like these runs through closely grouped condensers and long line sets, and one neglected unit drags down efficiency for the whole bank, so a scheduled tune-up on each system keeps the group running clean.',
       'On a hilltop with little tree cover, those condensers take direct afternoon sun, which raises head pressure and quietly costs efficiency over a long season. A spring maintenance visit — coil cleaning, charge check, electrical inspection — keeps the equipment from working harder than it should, and we time it before the first heat wave so a marginal unit is caught while it is still easy to fix.',
@@ -17,7 +17,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-westwood': {
     intro:
-      'A yearly AC tune-up keeps a system running efficiently through East Westwood’s humid summers, especially on the older homes that line these hillside streets. Annual service catches small problems while they are still cheap. Call (513) 586-5107.',
+      'On East Westwood’s slopes, AC maintenance starts with retrofitted central air with equipment and ductwork of mismatched ages. Hillside runoff and debris collect around ground-level condensers, so a spring visit clears the coil, checks refrigerant charge and tightens electrical connections that vibrate loose.',
     relevance: [
       'East Westwood (ZIP 45211) sits on the slopes between Westwood and the Mill Creek valley, with streets of early- and mid-1900s homes. Central air in houses that age was usually added later, so the equipment and ductwork are often mismatched in age, and an annual tune-up is what keeps a retrofitted system from drifting out of charge or balance over the years.',
       'The hillside grade means runoff and debris collect around ground-level condensers, and a coil packed with grit loses efficiency fast in July humidity. A spring maintenance visit clears the coil, checks refrigerant charge, and tightens the electrical connections that vibrate loose on older outdoor units, so the system carries the cooling load without spiking the power bill.',
@@ -33,7 +33,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'western-hills': {
     intro:
-      'An annual AC tune-up keeps cooling reliable across Western Hills, where many homes around Western Hills Plaza and Glenway run mid-century systems past their easy years. A yearly check protects efficiency. Call (513) 586-5107.',
+      'Western Hills AC maintenance often covers a house on its second or third system around Western Hills Plaza and Glenway Avenue. Charge and airflow drift without anyone noticing, so a spring visit cleans the coil, checks the refrigerant, clears the condensate line and keeps the compressor and capacitor from failing.',
     relevance: [
       'Western Hills (ZIP 45211) is the established west-side area around Western Hills Plaza and Glenway Avenue, with neighborhoods of early-1900s through mid-century single-family homes. A lot of those houses are on their second or third AC system, and the older a unit gets, the more a yearly tune-up matters for keeping the compressor and capacitor from failing in the heat.',
       'In these settled neighborhoods, central air was often added to homes that predate it, so charge and airflow drift over time without anyone noticing until a hot week exposes it. A spring visit — coil cleaning, refrigerant check, condensate line clearing — keeps an aging system cooling at the efficiency it was rated for instead of slowly losing ground every summer.',
@@ -49,7 +49,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'california': {
     intro:
-      'A yearly AC tune-up keeps a system efficient through the humid riverfront summers in the California neighborhood along Kellogg Avenue. Annual service near the river matters, where moisture works hard on outdoor equipment. Call (513) 586-5107.',
+      'In California, the riverfront neighborhood along Kellogg Avenue, AC maintenance is mostly about damp air. Humidity off the Ohio fouls coils, clogs condensate lines and corrodes contacts, so a spring tune-up clears the drain, cleans the coil and checks the charge.',
     relevance: [
       'California (ZIP 45230) is Cincinnati’s far-east riverfront neighborhood along Kellogg Avenue, near Riverbend and the old Coney Island grounds, set on low ground beside the Ohio River. That riverside position keeps humidity high, and a system fighting damp air all summer loses efficiency unless the coils and drain are kept clean — exactly what an annual tune-up handles.',
       'Low, damp ground also means condensate lines clog and outdoor units sit in moist air that accelerates corrosion on coils and contacts. A spring maintenance visit clears the condensate line, cleans the coil, and checks the charge so the system pulls humidity out of the house efficiently rather than running long and struggling through the worst of the river-valley heat.',
@@ -65,7 +65,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'carthage': {
     intro:
-      'An annual AC tune-up keeps cooling steady in Carthage, where the older homes along Vine Street often run central air that was added decades after the house was built. A yearly check keeps efficiency up. Call (513) 586-5107.',
+      'Carthage AC maintenance mostly covers retrofitted central air in early-1900s homes along Vine Street, where charge, airflow and duct sealing drift over the years. Leaf litter and grit choke the outdoor coil, so a spring tune-up clears it, verifies the charge and checks the electrical connections.',
     relevance: [
       'Carthage (ZIP 45215) is a north-side neighborhood along Vine Street, a former village now home to the Hamilton County Fairgrounds, with older early-1900s homes. Central air in houses this old is almost always a retrofit, and retrofitted systems benefit most from yearly service because charge, airflow, and duct sealing all tend to drift over the years.',
       'On these older lots, outdoor condensers collect leaf litter and grit that chokes the coil and drives up power use through a humid summer. A spring tune-up clears the coil, verifies refrigerant charge, and checks the aging electrical connections, so a system serving a century-old home keeps cooling efficiently instead of straining in July.',
@@ -81,7 +81,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'winton-hills': {
     intro:
-      'A yearly AC tune-up keeps cooling reliable through a Cincinnati summer in Winton Hills, where multi-unit buildings near Winton Road run systems that carry a heavy load. Annual service keeps them efficient. Call (513) 586-5107.',
+      'AC maintenance in Winton Hills often means grouped condensers serving multi-unit buildings near Winton Road. That equipment takes harder use, so coils foul and capacitors weaken faster, and each unit needs coil cleaning, a charge check and an electrical inspection every spring.',
     relevance: [
       'Winton Hills (ZIP 45232) is a north-side neighborhood near Winton Road with a mix of residential and industrial areas, including multi-unit housing. Cooling in those buildings runs through grouped condensers under steady summer demand, and a system that misses its annual service drifts out of charge while still trying to cool a full building — a slow efficiency loss that a tune-up catches.',
       'Older multi-unit equipment also takes harder use than a single-family system, so coils foul and capacitors weaken faster. A spring maintenance visit on each unit — coil cleaning, charge check, electrical inspection — keeps the equipment from working harder than it should and holds cooling steady once the humid stretch sets in.',
@@ -97,7 +97,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'roselawn': {
     intro:
-      'An annual AC tune-up keeps a system efficient through Roselawn’s humid summers, where the mid-century homes along Reading Road run cooling well into its later years. A yearly check pays for itself in efficiency. Call (513) 586-5107.',
+      'Roselawn AC maintenance deals with older compressors and aging charge in mid-century homes and apartment buildings along Reading Road. Coils foul and capacitors weaken with age, so a spring visit cleans the coil, verifies the charge and clears the condensate line before they cost more.',
     relevance: [
       'Roselawn (ZIP 45237) is a north-side neighborhood along Reading Road with settled streets of mid-century single-family homes and apartment buildings. Homes from the mid-1900s are now into the age where a system loses efficiency unless it is kept up, and an annual tune-up is what keeps an older compressor and aging charge from quietly costing more each summer.',
       'The mix of single-family and apartment housing means a range of equipment ages, but the older units share the same wear: coils fouling, charge drifting, capacitors weakening. A spring visit cleans the coil, verifies charge, and clears the condensate line so a mid-century system keeps removing heat and humidity efficiently through the worst of the season.',
@@ -113,7 +113,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-airy': {
     intro:
-      'A yearly AC tune-up keeps cooling steady in Mount Airy, where mid-century homes on hilly, wooded streets near Mount Airy Forest collect leaf and pollen debris on their outdoor units. Annual service clears it before summer. Call (513) 586-5107.',
+      'Beside Mount Airy Forest, an AC tune-up mostly deals with trees. Pollen in spring and leaves in fall mat the condenser coils of mid-century homes on these wooded streets, so we clear the coil, check refrigerant charge and inspect the electrical connections.',
     relevance: [
       'Mount Airy (ZIP 45239) is a northwest-side neighborhood beside Mount Airy Forest, one of the largest city parks in the country, with mid-century single-family homes on hilly, wooded streets. All those mature trees mean pollen in spring and leaves in fall settle on condensers, and a coil matted with debris loses efficiency fast — which is exactly what an annual cleaning prevents.',
       'The hilltop terrain also adds runoff and grit around ground-level units. A spring tune-up clears the coil of pollen and debris, checks refrigerant charge, and inspects the electrical connections, so a system serving a wooded-lot home cools efficiently through the summer instead of straining against a clogged coil.',
@@ -129,7 +129,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hartwell': {
     intro:
-      'An annual AC tune-up keeps cooling reliable in Hartwell, where the Victorian and early-1900s homes on these tree-lined streets usually run retrofitted central air. A yearly check protects both the system and the house. Call (513) 586-5107.',
+      'Retrofitted central air in Victorian and early-1900s homes shows up on most AC maintenance visits in Hartwell, and the equipment and ductwork rarely match in age. Street trees drop pollen and leaves onto condensers, so a spring tune-up clears the coil, checks the charge and clears the condensate line.',
     relevance: [
       'Hartwell (ZIP 45215) is a historic north-side neighborhood that grew as a streetcar suburb, known for its Victorian and early-1900s homes on tree-lined streets. Central air in homes this old is always an addition, so the equipment and ductwork rarely match in age, and yearly service is what keeps a retrofitted system properly charged and balanced over time.',
       'The mature trees that line these streets drop pollen and leaves onto outdoor condensers, fouling coils and cutting efficiency through the summer. A spring tune-up clears the coil, checks the charge, and clears the condensate line, so an older home keeps cooling efficiently and the system protects the historic interior from the strain of running long and hard.',
@@ -145,7 +145,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'kennedy-heights': {
     intro:
-      'A yearly AC tune-up keeps a system efficient in Kennedy Heights, where the large early-1900s homes on this east-side hilltop run cooling that was added long after the houses were built. Annual service keeps it dependable. Call (513) 586-5107.',
+      'AC maintenance in Kennedy Heights usually involves a retrofitted system in a large early-1900s home on the hilltop. Charge and airflow need to stay matched to the space, and condensers collect pollen and leaves, so a spring visit cleans the coil, verifies the charge and inspects the wiring.',
     relevance: [
       'Kennedy Heights (ZIP 45213) is a historic east-side hilltop neighborhood that began as a Victorian-era resort community, now known for its arts center and large early-1900s homes. Big older houses need real cooling capacity, and a retrofitted system in a home this size benefits most from an annual tune-up that keeps charge and airflow matched to the space.',
       'On a tree-lined hilltop, condensers collect pollen and leaf debris while the grade pushes runoff and grit toward ground-level units. A spring visit cleans the coil, verifies refrigerant charge, and inspects the aging electrical connections, so a large early-1900s home keeps cooling efficiently rather than running long against a fouled coil through the summer.',
@@ -161,7 +161,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'st-bernard': {
     intro:
-      'An annual AC tune-up keeps cooling steady in St. Bernard, the independent city ringed by Cincinnati, where dense early-1900s homes near Ivorydale run retrofitted central air on small lots. A yearly check keeps it efficient. Call (513) 586-5107.',
+      'St. Bernard AC maintenance matters more than the equipment’s age suggests. Condensers on the dense early-1900s grid sit close to walls and neighbors with little clearance, collecting grit, so a spring tune-up clears the coil, checks the charge and clears the condensate line.',
     relevance: [
       'St. Bernard (ZIP 45217) is its own city, completely surrounded by Cincinnati, built up around the Procter & Gamble Ivorydale complex with a dense grid of early-1900s homes. Central air in houses this old and tightly packed is always an add-on, and on small lots the condensers sit close to walls and neighbors, so a yearly tune-up that keeps airflow and charge right matters more than the equipment’s age alone suggests.',
       'Tight valley lots mean condensers get little airflow clearance and collect grit, which raises head pressure and costs efficiency through a humid summer. A spring maintenance visit clears the coil, checks the charge, and clears the condensate line, so a retrofitted system in a century-old St. Bernard home keeps cooling without straining in the heat.',
@@ -177,7 +177,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'elmwood-place': {
     intro:
-      'A yearly AC tune-up keeps cooling reliable in Elmwood Place, the small inner-ring village in the Mill Creek valley, where damp valley air works hard on outdoor units. Annual service before summer keeps efficiency up. Call (513) 586-5107.',
+      'Elmwood Place sits low in the Mill Creek valley, so AC maintenance here is about humidity and tight lots. Condensers beside closely spaced early-1900s homes get little airflow and collect grit, so a spring visit clears the coil, checks the charge and clears the condensate line.',
     relevance: [
       'Elmwood Place (ZIP 45216) is a tiny, densely built village in the Mill Creek valley north of the city, with closely spaced early-1900s homes. The low valley ground keeps humidity high, and a system fighting damp air all summer loses efficiency unless the coil and condensate line are kept clean — which is the heart of an annual tune-up.',
       'On these tight lots, condensers sit close to neighboring homes with little airflow clearance and collect grit from the valley floor. A spring visit clears the coil, checks the charge, and clears the condensate line so the system pulls humidity out of the house efficiently rather than running long and damp through the worst of the summer.',
@@ -193,7 +193,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'delhi-hills': {
     intro:
-      'An annual AC tune-up keeps cooling efficient in Delhi Hills, where mid-century homes on hilly streets above the river run systems that benefit from yearly attention. A spring check pays off through the humid season. Call (513) 586-5107.',
+      'Delhi Hills AC maintenance usually covers mid-century homes on hilly streets above the Ohio River whose systems have lost charge and airflow over the decades. The grade pushes runoff and grit toward ground-level condensers, so a spring tune-up clears the coil, verifies the charge and clears the drain.',
     relevance: [
       'Delhi Hills (ZIP 45233) sits in Delhi Township on the west side above the Ohio River — an area with deep ties to greenhouse and floral growing — with established mid-century homes on hilly streets. Homes from the mid-1900s run cooling that has lost some charge and airflow over the decades, and a yearly tune-up is what keeps an aging system at the efficiency it was built for.',
       'The hillside grade pushes runoff and grit toward ground-level condensers, and a coil packed with debris loses efficiency fast in July humidity. A spring maintenance visit clears the coil, verifies refrigerant charge, and clears the condensate line, so a mid-century home above the river keeps cooling efficiently instead of straining through the season.',
@@ -209,7 +209,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'golf-manor': {
     intro:
-      'A yearly AC tune-up keeps cooling steady in Golf Manor, the small village ringed by Cincinnati, where modest mid-century homes run systems well into their later years. Annual service keeps an older unit efficient. Call (513) 586-5107.',
+      'Most AC tune-ups in Golf Manor are on modest mid-century homes where charge drifts and capacitors weaken. Condensers sit close together on the compact village grid and collect grit, so we clean the coil, check the charge and inspect the electrical connections.',
     relevance: [
       'Golf Manor (ZIP 45237) is a small village completely surrounded by Cincinnati on the north side, with a compact grid of modest mid-century homes. Homes of that era are now at the age where charge drifts and capacitors weaken, and a yearly tune-up catches that wear before a hot week turns it into a system that can no longer keep up.',
       'On a compact grid, condensers sit close together and collect grit that fouls the coil and drives up power use. A spring visit cleans the coil, checks the refrigerant charge, and inspects the electrical connections, so a mid-century Golf Manor home keeps cooling efficiently rather than slowly losing ground each summer.',
@@ -225,7 +225,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fairfax': {
     intro:
-      'An annual AC tune-up keeps cooling reliable in Fairfax, the small east-side village along Wooster Pike near Mariemont, where established homes run retrofitted central air. A yearly check protects efficiency. Call (513) 586-5107.',
+      'AC maintenance in Fairfax mostly covers retrofitted systems in early- and mid-1900s homes along Wooster Pike, where equipment and ductwork rarely match. Tree-lined streets drop pollen and leaves on the condensers, so a spring tune-up clears the coil, checks the charge and clears the condensate line.',
     relevance: [
       'Fairfax (ZIP 45227) is a small east-side village along Wooster Pike near Mariemont, with established early- and mid-1900s homes. Central air in homes that age was added later, so the equipment and ductwork rarely match in age, and an annual tune-up is what keeps a retrofitted system properly charged and balanced year over year.',
       'On these tree-lined village streets, condensers collect pollen and leaf debris that fouls the coil and cuts efficiency through a humid summer. A spring maintenance visit clears the coil, checks the charge, and clears the condensate line, so an older Fairfax home keeps cooling efficiently instead of running long against a clogged coil.',
@@ -241,7 +241,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mack': {
     intro:
-      'A yearly AC tune-up keeps cooling efficient in Mack, the Green Township community on the west side, where even the newer homes are now old enough for a system to need attention. Annual service keeps it dependable. Call (513) 586-5107.',
+      'Both mid-century and newer homes in Mack need AC maintenance, and the wear is similar. Coils foul, charge slips and condensate lines clog over a long humid summer in this Green Township community, so a spring visit cleans the coil, verifies the charge and clears the line.',
     relevance: [
       'Mack (ZIP 45248) is an established community in Green Township on the west side, with neighborhoods of mid-century and newer single-family homes. Even the newer homes here are now old enough for charge to drift and components to wear, while the older houses run systems that lose efficiency without yearly upkeep — both reasons an annual tune-up earns its keep.',
       'Across that range of housing ages, the common thread is the same: coils foul, charge slips, and condensate lines clog over a long humid summer. A spring visit cleans the coil, verifies refrigerant charge, and clears the condensate line, so a Green Township home cools efficiently through the season rather than straining as the heat builds.',
@@ -257,7 +257,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'monfort-heights': {
     intro:
-      'An annual AC tune-up keeps cooling steady in Monfort Heights, the Green Township suburb made up largely of mid-century homes. A yearly check keeps an aging system at the efficiency it was built for. Call (513) 586-5107.',
+      'Monfort Heights AC maintenance is mostly mid-century homes where charge drifts and compressors weaken. Established trees in this Green Township suburb drop pollen and leaves onto outdoor condensers, so a spring tune-up cleans the coil, checks the charge and clears the condensate line.',
     relevance: [
       'Monfort Heights (ZIP 45247) is a settled Green Township suburb on the west side, made up largely of mid-century single-family homes. Homes from the mid-1900s are now well into the age where charge drifts and compressors weaken, and a yearly tune-up is what catches that wear before a hot week pushes the system past what it can handle.',
       'In a mature suburb like this, established trees drop pollen and leaves onto outdoor condensers, fouling coils and cutting efficiency. A spring maintenance visit cleans the coil, checks the refrigerant charge, and clears the condensate line, so a mid-century home keeps cooling efficiently through the humid summer instead of slowly losing ground.',
@@ -273,7 +273,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bridgetown': {
     intro:
-      'A yearly AC tune-up keeps cooling reliable in Bridgetown, the Green Township community on the west side, where mid-century and newer homes both benefit from pre-season service. Annual upkeep keeps efficiency up. Call (513) 586-5107.',
+      'For AC maintenance, Bridgetown’s mid-century and newer homes share the same problems: charge drifts and coils foul over time. Mature landscaping drops debris onto outdoor condensers, so a spring visit cleans the coil, checks the charge and clears the condensate line before the heat builds.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. Across that range, systems lose efficiency over time as charge drifts and coils foul, and a yearly tune-up is what keeps both an older and a newer unit cooling at the efficiency they were rated for.',
       'In these settled west-side neighborhoods, mature landscaping drops debris onto outdoor condensers, and a fouled coil drives up power use through a humid summer. A spring visit cleans the coil, checks the charge, and clears the condensate line, so a Bridgetown home keeps cooling efficiently rather than straining as the season wears on.',
@@ -289,7 +289,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'finneytown': {
     intro:
-      'An annual AC tune-up keeps cooling efficient in Finneytown, the Springfield Township community made up largely of mid-century homes. A yearly check keeps an older system from losing ground each summer. Call (513) 586-5107.',
+      'Finneytown AC maintenance usually means a mid-century system that has slowly drifted out of charge and airflow over the decades. Established trees in this Springfield Township community shed pollen and leaves onto outdoor coils, so a spring tune-up cleans the coil, verifies the charge and clears the drain.',
     relevance: [
       'Finneytown (ZIP 45231) is a settled Springfield Township community on the north side, made up largely of mid-century single-family homes. Homes of that era carry cooling that has slowly drifted out of charge and airflow over the decades, and an annual tune-up is what keeps an aging system at the efficiency it was designed for.',
       'In a mature suburb like this, established trees shed pollen and leaves onto outdoor condensers, fouling coils and cutting efficiency through a humid summer. A spring maintenance visit cleans the coil, verifies the charge, and clears the condensate line, so a mid-century Finneytown home keeps cooling efficiently instead of running long against a clogged coil.',
@@ -305,7 +305,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'amberley': {
     intro:
-      'A yearly AC tune-up keeps cooling reliable in Amberley Village, where large homes on big, wooded lots run sizable systems that benefit from yearly attention. Annual service protects efficiency and the equipment. Call (513) 586-5107.',
+      'Amberley AC maintenance often covers more than one system in a large home on a big, wooded lot. Heavy pollen and leaf fall mat the condenser coils, so a spring visit cleans the coils, checks refrigerant charge on each system and clears the condensate lines.',
     relevance: [
       'Amberley Village (ZIP 45237) is an affluent north-side village known for its large homes on big, wooded lots along winding streets. Bigger homes mean larger cooling systems — sometimes more than one — and the more equipment a home runs, the more a yearly tune-up matters for keeping each unit charged and efficient through a long summer.',
       'Those big, wooded lots also mean heavy pollen and leaf fall onto outdoor condensers, and a coil matted with debris loses efficiency fast. A spring maintenance visit cleans the coils, checks refrigerant charge on each system, and clears the condensate lines, so a large Amberley home keeps cooling efficiently rather than straining against clogged coils in the heat.',
@@ -321,7 +321,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'arlington-heights': {
     intro:
-      'An annual AC tune-up keeps cooling steady in Arlington Heights, the small Mill Creek valley village, where older homes on a compact grid run systems that work hard in the damp valley air. A yearly check keeps efficiency up. Call (513) 586-5107.',
+      'AC maintenance in Arlington Heights deals with valley humidity and tight lots. Condensers on the compact grid of older homes sit close together with little clearance and collect grit from the valley floor, so a spring visit clears the coil, checks the charge and clears the condensate line.',
     relevance: [
       'Arlington Heights (ZIP 45215) is a small village in the Mill Creek valley north of the city, with a compact grid of older homes. The low valley ground keeps humidity high, and a system fighting damp air all summer loses efficiency unless the coil and condensate line are kept clean — the core of an annual tune-up.',
       'On a tight grid, condensers sit close together with little airflow clearance and collect grit from the valley floor. A spring visit clears the coil, checks the charge, and clears the condensate line, so an older Arlington Heights home keeps pulling humidity out efficiently rather than running long and damp through the worst of the summer.',
@@ -337,7 +337,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-college-hill': {
     intro:
-      'A yearly AC tune-up keeps cooling reliable in North College Hill, the small north-side city of early- and mid-1900s homes, where retrofitted central air on tight lots needs yearly attention. A spring check keeps efficiency up. Call (513) 586-5107.',
+      'North College Hill AC maintenance mostly involves central air added later to early- and mid-1900s homes, where charge and airflow drift. Condensers on this dense grid have limited clearance and collect grit, so a spring tune-up clears the coil, verifies the charge and clears the condensate line.',
     relevance: [
       'North College Hill (ZIP 45239) is a small, densely built city just north of College Hill, with a grid of early- and mid-1900s homes. Central air in houses this old is a later addition, so charge and airflow drift over the years, and the dense grid means condensers sit close to neighbors with limited clearance — both reasons a yearly tune-up keeps a system efficient.',
       'On tightly packed lots, outdoor units collect grit and get little airflow, which raises head pressure and costs efficiency through a humid summer. A spring maintenance visit clears the coil, verifies refrigerant charge, and clears the condensate line, so a retrofitted system in an older North College Hill home keeps cooling without straining in the heat.',
@@ -353,7 +353,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newtown': {
     intro:
-      'An annual AC tune-up keeps cooling efficient in Newtown, the small east-side village near the Little Miami River, where damp river-bottom air works hard on outdoor equipment. Annual service before summer keeps it dependable. Call (513) 586-5107.',
+      'Newtown’s older homes sit on low river-bottom ground near the Little Miami, and AC maintenance there is mostly about moisture. Damp air corrodes outdoor coils and contacts and clogs condensate lines faster, so a spring tune-up clears the line, cleans the coil and checks the charge.',
     relevance: [
       'Newtown (ZIP 45244) is a small east-side village near the Little Miami River, with older homes set on low river-bottom ground. That low, damp ground keeps humidity high, and a system fighting moist air all summer loses efficiency unless the coil and condensate line stay clean — which is the heart of an annual tune-up.',
       'River-bottom moisture also accelerates corrosion on outdoor coils and contacts, and condensate lines clog faster in damp conditions. A spring maintenance visit clears the coil, checks the charge, and clears the condensate line, so an older Newtown home keeps pulling humidity out efficiently rather than running long and struggling through the river-valley heat.',
@@ -369,7 +369,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'turpin-hills': {
     intro:
-      'A yearly AC tune-up keeps cooling reliable in Turpin Hills, the Anderson Township community on the east side, where mid-century and newer homes both benefit from pre-season service. Annual upkeep keeps efficiency up. Call (513) 586-5107.',
+      'In Turpin Hills, an AC tune-up deals with drifting charge and wearing parts in mid-century and newer Anderson Township homes. Mature landscaping drops pollen and leaves onto outdoor condensers, so each spring visit cleans the coil, checks the charge and clears the condensate line.',
     relevance: [
       'Turpin Hills (ZIP 45244) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. Across that range, systems lose efficiency over time as charge drifts and components wear, and a yearly tune-up is what keeps both older and newer units cooling at the efficiency they were rated for.',
       'In these settled east-side neighborhoods, mature landscaping drops pollen and leaves onto outdoor condensers, and a fouled coil drives up power use through a humid summer. A spring visit cleans the coil, checks the charge, and clears the condensate line, so a Turpin Hills home keeps cooling efficiently rather than straining as the season wears on.',
@@ -385,7 +385,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'silverton': {
     intro:
-      'An annual AC tune-up keeps cooling steady in Silverton, the small city along Montgomery Road, where early- and mid-1900s homes run retrofitted central air. A yearly check keeps an older system efficient. Call (513) 586-5107.',
+      'In Silverton, AC maintenance usually means retrofitted central air in early- and mid-1900s homes along Montgomery Road, with equipment and ductwork that rarely match. Mature trees foul the condenser coils, so a spring tune-up cleans the coil, verifies the charge and clears the condensate line.',
     relevance: [
       'Silverton (ZIP 45236) is a small city along Montgomery Road on the east side, with established streets of early- and mid-1900s homes. Central air in homes that age was added later, so the equipment and ductwork rarely match, and an annual tune-up is what keeps a retrofitted system properly charged and balanced year over year.',
       'On these established streets, mature trees drop pollen and leaves onto outdoor condensers, fouling coils and cutting efficiency through a humid summer. A spring maintenance visit cleans the coil, verifies the charge, and clears the condensate line, so an older Silverton home keeps cooling efficiently instead of running long against a clogged coil.',
@@ -401,7 +401,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lockland': {
     intro:
-      'A yearly AC tune-up keeps cooling efficient in Lockland, the historic Mill Creek valley village, where closely spaced older worker homes run systems that work hard in the damp valley air. A spring check keeps efficiency up. Call (513) 586-5107.',
+      'Lockland AC maintenance involves closely spaced worker housing in the Mill Creek valley. Condensers sit near neighboring walls with little clearance and collect grit, and valley humidity keeps them running, so a spring visit clears the coil, checks the charge and clears the condensate line.',
     relevance: [
       'Lockland (ZIP 45215) is a historic village in the Mill Creek valley north of the city, built up around mills and industry, with closely spaced older worker housing. The low valley ground keeps humidity high, and a system fighting damp air all summer loses efficiency unless the coil and condensate line are kept clean — the core of an annual tune-up.',
       'On these tight, closely spaced lots, condensers sit near neighboring walls with little airflow clearance and collect grit from the valley floor. A spring visit clears the coil, checks the charge, and clears the condensate line, so an older Lockland home keeps pulling humidity out efficiently rather than running long and damp through the worst of the summer.',
@@ -417,7 +417,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'groesbeck': {
     intro:
-      'An annual AC tune-up keeps cooling reliable in Groesbeck, the Colerain Township community on the northwest side made up largely of mid-century homes. A yearly check keeps an aging system efficient. Call (513) 586-5107.',
+      'In Groesbeck, AC maintenance tends to find mid-century systems that have drifted out of charge and airflow over the decades. Established trees in this Colerain Township community shed pollen and leaves onto outdoor coils, so a spring tune-up cleans the coil, verifies the charge and clears the condensate line.',
     relevance: [
       'Groesbeck (ZIP 45239) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. Homes of that era carry cooling that has slowly drifted out of charge and airflow over the decades, and an annual tune-up is what keeps an aging system at the efficiency it was designed for.',
       'In a mature suburb like this, established trees shed pollen and leaves onto outdoor condensers, fouling coils and cutting efficiency through a humid summer. A spring maintenance visit cleans the coil, verifies the charge, and clears the condensate line, so a mid-century Groesbeck home keeps cooling efficiently instead of running long against a clogged coil.',
@@ -433,7 +433,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-healthy': {
     intro:
-      'A yearly AC tune-up keeps cooling steady in Mount Healthy, the historic north-side city with an old town center and early-1900s and mid-century homes. A spring check keeps a retrofitted or aging system efficient. Call (513) 586-5107.',
+      'Mount Healthy AC maintenance covers central air added to older homes near the town center and mid-century systems well into their later years. Mature trees foul the condenser coils, so a spring tune-up cleans the coil, verifies the charge and clears the condensate line.',
     relevance: [
       'Mount Healthy (ZIP 45231) is a historic small city on the north side, with an old town center and streets of early-1900s and mid-century homes. Central air in the older homes here is a later addition, while the mid-century houses run systems well into their later years — across both, a yearly tune-up keeps charge and airflow right and the system at its rated efficiency.',
       'On these established streets, mature trees drop pollen and leaves onto outdoor condensers, fouling coils and cutting efficiency through a humid summer. A spring maintenance visit cleans the coil, verifies the charge, and clears the condensate line, so a Mount Healthy home keeps cooling efficiently instead of straining against a clogged coil in the heat.',

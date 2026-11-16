@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -8,13 +9,15 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'electrical-inspections',
   serviceName: 'Electrical Inspections',
+  localHeadingName: 'Electrical Inspection',
+  emergencyHeading: 'Urgent Electrical Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Electrical Inspections',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
   businessType: 'Electrician',
   schemaServiceType: 'Electrical Inspections',
   ctaLine: 'Need an electrical inspection in {neighborhood}? Call to schedule',
-  heroImage: '/services/inspect-hero.jpg',
+  heroImage: '/services/inspect-hero.webp',
   introHeading: 'Electrical Inspections in {neighborhood}',
   introParagraphs: [
     'Your home’s electrical system powers everything you use — and over time wiring and breakers wear down, connections loosen, and panels age. {brand} performs thorough electrical inspections for homeowners in {place}, checking the panel, wiring, grounding, and safety devices, and giving you a clear written report.',
@@ -41,7 +44,7 @@ const config: ServiceLocationConfig = {
     { slug: 'switches-outlets', title: 'Switches & Outlets' },
     { slug: 'surge-protector-installation', title: 'Surge Protection' },
   ],
-  band1Image: '/services/electrical-inspections.jpg',
+  band1Image: '/services/electrical-inspections.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs an Inspection',
   commonSituations: [
     'Lights that flicker or dim',
@@ -53,7 +56,7 @@ const config: ServiceLocationConfig = {
     'A home more than 25 years old',
   ],
   trustedBanner: 'Your Local & Trusted Electrical Inspection Pros in {neighborhood}',
-  band2Image: '/services/inspect-hero.jpg',
+  band2Image: '/services/inspect-hero.webp',
   band2Heading: 'Our Inspection Process in {neighborhood}',
   band2Paragraphs: [
     'We follow a clear checklist so nothing is missed — examining the panel, reviewing wiring and circuit load, testing outlets and switches, and verifying GFCI/AFCI protection and code compliance on any recent work.',
@@ -66,12 +69,7 @@ const config: ServiceLocationConfig = {
     { title: 'When to Schedule One', body: 'Inspections are not just for emergencies. They make sense before buying or selling a {neighborhood} home, after a major renovation, when adding HVAC or large appliances, after a severe storm or lightning, when upgrading the panel, or simply when the home is more than 25 years old. Insurers and real-estate deals often ask for the documentation, too.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'badge', title: 'Detailed Reports', text: 'A clear, written summary of your system’s condition and any recommended fixes.' },
-    { icon: 'shield', title: 'Licensed Electricians', text: 'Trained, experienced electricians who safely access internal components.' },
-    { icon: 'check', title: 'Code-Compliant', text: 'Recommendations aligned with current local electrical code.' },
-    { icon: 'clock', title: 'Honest Pricing', text: 'Clear, upfront pricing with no surprises.' },
-  ],
+  whyParagraph: 'You get a written summary of your electrical system’s condition and any fixes we recommend, matched to current local code. Licensed electricians check the internal components safely, and {neighborhood} homeowners see the price upfront with no surprises.',
   proofQuote:
     'Had them inspect before we bought an older home. They opened the panel, found double-tapped breakers and a grounding issue the listing never mentioned, and gave us a written report we used in the deal. Thorough and clearly explained.',
   sharedFaqs: [
@@ -81,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'What are the signs my home needs an inspection?', a: 'Flickering or dimming lights, frequent breaker trips, burning smells near outlets, warm or discolored wall plates, or a buzzing panel are all good reasons to schedule one.' },
     { q: 'How much will an inspection cost?', a: 'It depends on your home’s size and the scope of the inspection. We provide flat-rate pricing up front, so you know the cost before we begin.' },
   ],
+  steps: {
+    heading: 'What to Expect From an Electrical Inspection in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Check the Whole System', text: 'Panel, grounding, outlets and breakers.' },
+      { icon: 'doc', title: 'You Get a Written Report', text: 'What’s fine, what’s urgent, what can wait.' },
+      { icon: 'tag', title: 'Fixes Priced, Your Call', text: 'You decide what, if anything, we repair.' },
+    ],
+  },
   related: [
     { label: 'Electrical Inspections (overview)', href: '/services/electrical-inspections' },
     { label: 'Electrical Panel Replacement', href: '/services/electrical-panel-replacement' },
@@ -103,15 +109,15 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
-    title: `Electrical Inspections in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+  return withSocial({
+    title: `Electrical Inspections in ${loc.neighborhood}, ${loc.state}`,
     description: `Professional electrical inspections in ${place} — panel, wiring, grounding, and safety-device checks with a detailed written report. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/electrical-inspections/${loc.slug}` },
     openGraph: {
       title: `Electrical Inspections in ${place} | ${site.name}`,
       description: `Licensed electrical safety inspections serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function ElectricalInspectionsLocationPage({

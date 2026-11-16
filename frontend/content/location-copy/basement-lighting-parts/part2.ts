@@ -1,7 +1,7 @@
 export const part2: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'madeira': {
     intro:
-      'Brightening a dim basement in Madeira, OH? As a licensed electrical contractor, we lay out recessed LED cans and low-profile flush fixtures for even coverage across the lower level, wired to code. Call (513) 586-5107.',
+      'Madeira’s mid-century homes usually have basements finished with one or two pull-chain bulbs over a slab, and a recessed LED grid is the basement lighting fix that reaches the dark corners. Where ductwork lowers the headroom we use shallow housings and slim flush mounts, all on a dedicated circuit.',
     relevance: [
       'Madeira (ZIP 45243) is an established east-side city built largely of mid-century single-family homes on quiet, tree-lined streets. Basements from that era were usually finished, if at all, with one or two pull-chain bulbs over a poured slab, which leaves the corners dark and makes the space feel smaller than it is. A grid of recessed cans across the ceiling fixes that, and switching to LED keeps the draw low across the whole lower level.',
       'Many of these homes have standard eight-foot basement ceilings, but some have lower headroom from later ductwork or beam wrapping, so we favor shallow recessed housings and slim flush mounts that sit close to the joists. Before any fixtures go up we confirm the lighting load has room on the panel and runs on its own properly sized circuit, all installed to code so a finished office or rec room in Madeira is lit evenly rather than in bright patches and shadows.',
@@ -17,7 +17,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'wyoming': {
     intro:
-      'Lighting a finished or unfinished basement in Wyoming, OH? We are a licensed electrical contractor adding recessed LED cans and flush fixtures to the lower levels of this historic suburb’s older homes, wired to code. Call (513) 586-5107.',
+      'Wyoming’s Victorian and early-1900s homes sit over stone or block basements with low headroom and single hanging bulbs, so basement lighting there is new work, not an add-on. We run a dedicated circuit back to the panel and use shallow housings and surface-mounted LEDs where ceilings are low.',
     relevance: [
       'Wyoming (ZIP 45215) is a historic, affluent suburb north of the city, known for its grand Victorian and early-1900s homes on established, tree-shaded streets. The basements under those century-old houses tend to be stone or block with low headroom, single hanging bulbs, and the kind of deep shadow that makes a lower level usable only for storage. Careful recessed and flush LED placement turns that same footprint into a workable office, gym, or media space.',
       'Because these homes predate modern wiring by decades, we treat the basement lighting circuit as new work rather than an add-on: a dedicated, correctly sized run back to the panel rather than a tap off an overloaded original line. In the lower-ceiling sections common to homes this old, we use shallow housings and surface-mounted LED fixtures so nothing hangs into the headroom, and everything is installed to code to protect the finished spaces these Wyoming homes are known for.',
@@ -33,7 +33,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mariemont': {
     intro:
-      'Adding basement lighting in Mariemont, OH? We are a licensed electrical contractor laying out recessed LED cans and flush fixtures for the lower levels of this historic planned village, wired to code. Call (513) 586-5107.',
+      'Mariemont’s 1920s Tudor homes were built with basements meant for coal and laundry, so basement lighting there usually replaces a bulb on a joist. Nearly a century of settling leaves uneven framing, so we plan around joists and ductwork, use slim housings, and run a dedicated circuit.',
     relevance: [
       'Mariemont (ZIP 45227) is a planned garden community laid out in the 1920s and now a National Historic Landmark, known for its Tudor Revival architecture and village square. Homes from the 1920s and 30s were built with basements meant for coal and laundry, not living, so the original lighting is usually a bulb on a joist and little else. A recessed LED layout brings even light to a space many owners now want as a study, gym, or den.',
       'Nearly a century of settling leaves these Tudor-era basements with uneven framing and the occasional low spot, so we plan fixture placement around the existing joists and ductwork and use slim housings where headroom is tight. The lighting goes on its own properly sized circuit back to the panel, installed to code, and we keep the rough-in tidy so a finished lower level reflects the care the rest of a Mariemont home gets.',
@@ -49,7 +49,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cheviot': {
     intro:
-      'Brightening a basement in Cheviot, OH? We are a licensed electrical contractor wiring recessed LED cans and flush fixtures across the lower levels of this west-side city’s older homes, to code. Call (513) 586-5107.',
+      'Cheviot’s early-1900s homes and brick two-families along Harrison Avenue have block or stone basements with low ceilings and one bulb, and basement lighting there opens them up for an office or rec room. Some basements are shared between units, so we size the circuit and switching to suit.',
     relevance: [
       'Cheviot (ZIP 45211) is a small, densely built city on the west side, completely surrounded by Cincinnati, with a grid of early-1900s homes and brick two-families along Harrison Avenue. The basements under that older housing are typically block or stone with low ceilings and a single bulb, common in homes of this era, which leaves them dark and underused. A planned LED can layout opens that space up for an office or rec room.',
       'In the brick two-families that fill much of Cheviot, a basement is sometimes shared or split between units, so we size the lighting circuit and place switching to suit how the space is actually used. Where ceilings are low, we use shallow recessed housings and surface-mounted LEDs, and the lighting runs on its own correctly sized circuit back to the panel, all installed to code so an older Cheviot basement is lit evenly from wall to wall.',
@@ -65,7 +65,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covedale': {
     intro:
-      'Lighting a basement in Covedale, OH? We are a licensed electrical contractor installing recessed LED cans and flush fixtures for the lower levels of homes along Glenway and Cleves Warsaw, wired to code. Call (513) 586-5107.',
+      'Covedale basement lighting ranges from low stone cellars in early-1900s homes to mid-century basements owners are finishing into gyms and offices. Either way the original lighting leaves most of the floor in shadow, so we lay out recessed LED cans on a dedicated circuit, with shallow housings under ductwork.',
     relevance: [
       'Covedale (ZIP 45238) is a settled west-side community on the edge of the city near Green Township, with neighborhoods of early-1900s through mid-century single-family homes. The basements under that range of housing run from low stone cellars in the older homes to fuller mid-century basements that owners are now finishing into living space. Either way, the original lighting is usually a couple of bulbs that leave most of the floor in shadow.',
       'For the mid-century homes that make up much of Covedale, finishing a lower level into a gym or office calls for a planned recessed layout rather than scattered fixtures, so the whole floor reads evenly bright. We confirm the basement lighting has room on the panel and put it on its own correctly sized circuit, using shallow housings where ductwork drops the ceiling, all installed to code so a finished Covedale basement stays well lit through everyday use.',
@@ -81,7 +81,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'covington': {
     intro:
-      'Brightening a historic basement in Covington, KY? We are a licensed electrical contractor adding recessed LED cans and flush fixtures to the lower levels of riverfront homes near MainStrasse Village, wired to code. Call (513) 586-5107.',
+      'Covington’s 19th-century rowhouses in MainStrasse Village and Licking Riverside sit over low stone or brick cellars near two rivers, so basement lighting there has to suit a damp-prone space. We pick fixtures with that in mind, use shallow housings for headroom, and run a dedicated circuit.',
     relevance: [
       'Covington (ZIP 41011) sits directly across the Ohio River from downtown Cincinnati, with historic districts like MainStrasse Village and Licking Riverside full of 19th-century rowhouses and brick homes. The basements beneath those century-old buildings are usually low stone or brick cellars with a single bulb, dark and damp-prone given how close they sit to the Ohio and Licking Rivers. Bringing them up to even LED light makes a long-neglected lower level usable again.',
       'Because below-grade space near the rivers can be a damp environment, we choose fixtures and place wiring with that in mind and keep the rough-in framed and routed to code rather than overclaiming what lighting alone can do about moisture. In the tight, low cellars common to these 19th-century rowhouses, shallow recessed housings and surface-mounted LEDs keep fixtures clear of the headroom, and the lighting runs on its own properly sized circuit so a Covington basement is lit evenly without disturbing the historic structure.',
@@ -97,7 +97,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newport': {
     intro:
-      'Lighting a basement in Newport, KY? We are a licensed electrical contractor installing recessed LED cans and flush fixtures in the lower levels of homes around the East Row Historic District, wired to code. Call (513) 586-5107.',
+      'Newport’s East Row Victorians sit over low stone or brick cellars with original single-bulb lighting, and basement lighting there turns an underused cellar into an office or den. Riverfront streets run damp, so we choose suitable fixtures, use shallow housings and slim flush mounts, and run a dedicated circuit.',
     relevance: [
       'Newport (ZIP 41071) is a Northern Kentucky river city across from downtown Cincinnati, home to the East Row Historic District — one of the largest Victorian historic districts in the state — along with the Levee riverfront. The hundreds of 19th-century homes in the East Row sit over low stone or brick cellars with original single-bulb lighting, which leaves a space many owners now want as an office or den dim and underused.',
       'Given how close the riverfront streets sit to the Ohio, below-grade space here can be damp, so we select fixtures suited to that and route wiring to code rather than overstating what lighting changes about moisture. In the low cellars common to these Victorian homes we use shallow recessed housings and slim flush mounts to protect headroom, run the lighting on its own correctly sized circuit, and keep the work careful around the historic details Newport’s East Row is known for.',
@@ -113,7 +113,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bellevue': {
     intro:
-      'Brightening a basement in Bellevue, KY? We are a licensed electrical contractor adding recessed LED cans and flush fixtures to the lower levels of homes near Fairfield Avenue, wired to code. Call (513) 586-5107.',
+      'Bellevue’s late-1800s homes near Fairfield Avenue have tight, low stone or block cellars lit by one bulb, and basement lighting there needs careful spacing. We use shallow recessed housings and surface-mounted LEDs that clear the headroom, choose fixtures for damp riverfront conditions, and run a dedicated circuit.',
     relevance: [
       'Bellevue (ZIP 41073) is a compact Northern Kentucky river city with a historic Fairfield Avenue business district and tight streets of well-preserved late-1800s homes. The basements under those century-old houses are typically low stone or block cellars lit by a single bulb, and the city’s riverfront position means below-grade space can run damp. Even LED lighting turns a dark cellar into a space that finally feels usable.',
       'On the small lots common to Bellevue, basements are tight as well as low, so we plan fixture spacing carefully and use shallow recessed housings and surface-mounted LEDs that stay clear of the headroom. We account for the damp riverfront conditions in the fixtures we choose and keep wiring routed and framed to code, all on a dedicated, correctly sized circuit, so a late-1800s Bellevue basement is lit evenly without overpromising on moisture.',
@@ -129,7 +129,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-thomas': {
     intro:
-      'Lighting a basement in Fort Thomas, KY? We are a licensed electrical contractor installing recessed LED cans and flush fixtures across the lower levels of homes along Fort Thomas Avenue, wired to code. Call (513) 586-5107.',
+      'Fort Thomas homes sit up on the bluff, so their early-1900s basements are often fuller than the river towns below, and owners finish them into offices and gyms. Basement lighting there gets its own circuit back to the panel and a recessed layout, with shallow housings under ductwork.',
     relevance: [
       'Fort Thomas (ZIP 41075) is a historic Northern Kentucky city built around a former U.S. Army post, with stately early-1900s homes on tree-lined streets above the river. Sitting up on the bluff, these homes often have fuller basements than the river-bottom cities below, and many owners are finishing those lower levels into offices, gyms, and media rooms that call for a planned lighting layout rather than the original single bulb.',
       'In large early-1900s homes like these, the basement lighting deserves its own dedicated circuit rather than a tap off aging original wiring, so we run a correctly sized line back to the panel and lay out recessed cans for even coverage. Where later ductwork or beams drop the ceiling, we switch to shallow housings and flush LEDs, and everything is installed to code so a finished Fort Thomas lower level is lit cleanly end to end.',
@@ -145,7 +145,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'florence': {
     intro:
-      'Brightening a basement in Florence, KY? We are a licensed electrical contractor installing recessed LED cans and flush fixtures across this fast-growing Boone County city’s homes, wired to code. Call (513) 586-5107.',
+      'Florence basement lighting depends on the house. Newer subdivision homes often have large, full-height basements left as bare studs, which suit a full recessed LED layout, while mid-century basements lit by a bulb or two need brightening. Both get a dedicated circuit and fixtures sized to the headroom.',
     relevance: [
       'Florence (ZIP 41042) is the largest city in Boone County and one of the fastest-growing in Northern Kentucky, with a wide mix of mid-century neighborhoods and newer subdivisions around the Florence Mall area. The newer subdivision homes often come with large, full-height basements left as bare studs, exactly the kind owners finish into a gym, office, or media room, where a recessed LED layout gives the even coverage scattered fixtures cannot.',
       'In the mid-century neighborhoods, basements are older and lit by a bulb or two, so the work there is more about bringing a dim lower level up to even light. Across both, we put the basement lighting on its own correctly sized circuit, choose LED fixtures suited to the headroom, and install everything to code so a Florence lower level — whether 1990s subdivision or older block basement — is lit cleanly from wall to wall.',
@@ -161,7 +161,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'erlanger': {
     intro:
-      'Lighting a basement in Erlanger, KY? We are a licensed electrical contractor adding recessed LED cans and flush fixtures to the lower levels of this Kenton County city’s homes, wired to code. Call (513) 586-5107.',
+      'Erlanger’s mid-century homes tend to have block basements lit by a couple of bulbs, fine for storage but too dark for anything else, and a recessed LED layout is the usual basement lighting fix. Where ductwork lowers the ceiling we switch to shallow housings, all on a dedicated circuit.',
     relevance: [
       'Erlanger (ZIP 41018) is an established Kenton County city near the airport, with settled mid-century neighborhoods and a mix of older and newer homes. The mid-1900s homes that make up much of the city tend to have block basements lit by a couple of bulbs, which is fine for storage but leaves the space too dark to use as anything else. A planned recessed LED layout changes that without remodeling the room.',
       'Because these basements vary from standard height to lower spots under later ductwork, we match fixtures to the ceiling — recessed cans where there is room, shallow housings and flush LEDs where there is not. The lighting goes on its own correctly sized circuit back to the panel, installed to code, so an Erlanger lower level used as an office, gym, or rec room is lit evenly rather than in bright pools and dark corners.',
@@ -177,7 +177,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mason': {
     intro:
-      'Lighting a basement in Mason, OH? We are a licensed electrical contractor laying out recessed LED cans and flush fixtures across this fast-growing Warren County city’s large basements, wired to code. Call (513) 586-5107.',
+      'Mason homes built from the 1990s onward have big, full-height basements that owners finish into media rooms, gyms, and offices, so basement lighting there means a full recessed layout. We space cans for even light, add task and accent lighting where needed, and put it on a dedicated circuit.',
     relevance: [
       'Mason (ZIP 45040) is a fast-growing Warren County city north of Cincinnati, near Kings Island, with large subdivisions of homes built mostly from the 1990s onward alongside an older town center. The newer homes here come with big, full-height basements that owners frequently finish into media rooms, home gyms, and offices — exactly the spaces that need a planned recessed layout for even coverage rather than the builder’s few rough-in bulbs.',
       'In a basement that size, lighting layout matters as much as fixture count: we space recessed cans for even light across the whole floor, add task and accent lighting where a media wall or workout area calls for it, and confirm the load has room on the panel before putting it all on a dedicated, correctly sized circuit. Everything is installed to code so a finished Mason lower level reads as bright and intentional as the rest of the house.',
@@ -193,7 +193,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'west-chester': {
     intro:
-      'Brightening a basement in West Chester, OH? We are a licensed electrical contractor installing recessed LED cans and flush fixtures across this Butler County township’s subdivision basements, wired to code. Call (513) 586-5107.',
+      'Basement lighting in West Chester usually starts with a spacious subdivision basement that arrived as bare studs and temporary bulbs. These 1990s-onward homes are often finished into offices and family rooms, so we lay out recessed cans across the full footprint and run them on a dedicated circuit.',
     relevance: [
       'West Chester (ZIP 45069) is a large, fast-growing Butler County community between Cincinnati and Dayton, made up largely of subdivisions built from the 1990s onward along the I-75 corridor. Homes that age usually have spacious, full-height basements that arrived as bare studs and a handful of temporary bulbs, and they are among the most common lower levels owners here finish into offices, gyms, and family rooms.',
       'A basement that large needs a real lighting plan, so we lay out recessed cans for even coverage across the full footprint and add accent or task lighting where the use of the room calls for it. We check that the lighting load fits the panel, run it on its own correctly sized circuit, and install everything to code so a finished West Chester lower level is lit consistently rather than leaving the edges of a big space in shadow.',
@@ -209,7 +209,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'pendleton': {
     intro:
-      'Lighting a basement or lower level in Pendleton? We are a licensed electrical contractor adding recessed LED cans and flush fixtures in this historic district beside Over-the-Rhine, wired to code. Call (513) 586-5107.',
+      'Pendleton’s restored 1800s buildings and converted lofts sit over low brick or stone lower levels with single-bulb lighting, and basement lighting there turns them into usable storage, studio, or den space. We use shallow housings and surface-mounted LEDs, and run a new circuit instead of tapping brittle original lines.',
     relevance: [
       'Pendleton (ZIP 45202) is a small, historic arts district tucked against the eastern edge of Over-the-Rhine, full of restored 19th-century Italianate buildings and converted lofts and condos. The lower levels under those mid-1800s buildings are typically low brick or stone with original single-bulb lighting, the kind of dark, tight space owners now want to use for storage, a studio, or a den once it is properly lit.',
       'In tightly built historic blocks like these, fixture choice and wiring routing matter: we use shallow recessed housings and surface-mounted LEDs that clear the low ceilings, and we run the lighting on its own correctly sized circuit rather than tapping the brittle original lines common in these converted buildings. Everything is installed to code so a Pendleton lower level is lit evenly without disturbing the restored 19th-century structure above it.',
@@ -225,7 +225,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'queensgate': {
     intro:
-      'Lighting a lower level or basement in Queensgate? We are a licensed electrical contractor installing recessed LED and flush fixtures in this commercial and industrial district west of downtown, wired to code. Call (513) 586-5107.',
+      'Queensgate basement lighting is mostly commercial: open lower levels in warehouses and offices near the rail yards, lit by a few scattered fixtures. The ground near Mill Creek runs damp and floods, so we choose fixtures for that, lay out even LED coverage, and run a dedicated circuit.',
     relevance: [
       'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. The below-grade and lower-level spaces here are usually open utility areas lit by a few scattered fixtures, and the low ground near Mill Creek means those spaces can be prone to flooding and run damp.',
       'For a workable lower level in a building like this, even LED coverage across the ceiling beats a handful of bare fixtures, so we plan a recessed or surface-mount layout suited to the space and how it is used. We choose fixtures with the damp, flood-prone conditions in mind, route wiring on a dedicated, correctly sized circuit, and install everything to code without overclaiming what lighting alone does about moisture in a low Queensgate building.',
@@ -241,7 +241,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cuf': {
     intro:
-      'Lighting a basement near UC in CUF? We are a licensed electrical contractor adding recessed LED cans and flush fixtures to lower levels across Clifton Heights, University Heights, and Fairview, wired to code. Call (513) 586-5107.',
+      'In CUF, basement lighting usually means a low stone or block cellar under a 19th- or early-1900s home now split into student rentals. We size the circuit and switching for shared, heavy use, use shallow housings where ceilings sit low, and avoid tapping aging original lines.',
     relevance: [
       'CUF (ZIP 45219) covers Clifton Heights, University Heights, and Fairview — the dense hilltop neighborhoods packed against the University of Cincinnati, full of 19th- and early-1900s homes now largely converted to student rentals. The basements under that older housing are low stone or block cellars with original single-bulb lighting, the kind of dark, tight space that is little use until it is properly lit.',
       'In subdivided houses near campus, a basement may be shared or used hard by tenants, so we size the lighting circuit and place switching to suit that use rather than tapping the aging original lines common in these homes. Where the 19th-century ceilings sit low we use shallow recessed housings and surface-mounted LEDs that clear the headroom, and everything runs on its own correctly sized circuit installed to code so a CUF lower level is lit evenly from wall to wall.',
@@ -257,7 +257,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'camp-washington': {
     intro:
-      'Brightening a basement in Camp Washington? We are a licensed electrical contractor adding recessed LED cans and flush fixtures to lower levels in this Mill Creek valley neighborhood, wired to code. Call (513) 586-5107.',
+      'Camp Washington’s old worker housing in the Mill Creek valley has low, utilitarian basements lit by a single bulb, and basement lighting there has to suit space that runs damp in wet stretches. We use shallow housings and surface mounts, pick fixtures for the conditions, and run a dedicated circuit.',
     relevance: [
       'Camp Washington (ZIP 45225) is a historic working neighborhood in the Mill Creek valley, known for its industry, the American Sign Museum, and a tight mix of old worker housing and factories. The basements under that older worker housing are low and utilitarian, usually lit by a single bulb, and the low valley ground means below-grade space can run damp during wet stretches.',
       'For a usable lower level here, we lay out LED fixtures for even coverage rather than relying on one bright spot, using shallow recessed housings and surface mounts where the worker-housing ceilings are low. We pick fixtures with the valley’s damp conditions in mind, run the lighting on its own correctly sized circuit, and install it to code so a Camp Washington basement is lit consistently without overstating what wiring alone does about valley moisture.',
@@ -273,7 +273,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-fairmount': {
     intro:
-      'Lighting a basement in South Fairmount? We are a licensed electrical contractor adding recessed LED cans and flush fixtures to lower levels along Queen City Avenue, wired to code. Call (513) 586-5107.',
+      'South Fairmount’s older homes along Queen City Avenue sit on low Lick Run valley ground, so basement lighting there goes into damp-prone rooms usually lit by one bulb. We choose fixtures with that in mind, lay out even LED coverage with shallow housings, and put it on its own circuit.',
     relevance: [
       'South Fairmount (ZIP 45205) sits in the Lick Run valley along Queen City Avenue on the west side — the area rebuilt around the Lick Run Greenway stormwater project after a long history of valley flooding. The older homes here have low basements set on that low-lying valley ground, where below-grade space can run damp and is usually lit by a single bulb.',
       'Given that valley setting, we choose basement fixtures with damp conditions in mind and lay them out for even LED coverage rather than one bright corner, using shallow housings where the older ceilings are low. The lighting runs on its own correctly sized circuit and is installed to code, so a South Fairmount lower level is lit consistently — without overclaiming what lighting alone changes about the moisture the Lick Run project was built to manage.',
@@ -289,7 +289,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-end': {
     intro:
-      'Brightening a riverfront basement in the East End? We are a licensed electrical contractor adding recessed LED and flush fixtures to lower levels along Eastern Avenue, wired to code. Call (513) 586-5107.',
+      'East End basement lighting ranges from low cellars in the old river cottages along Eastern Avenue to fuller lower levels in the newer condos. Cottages get shallow housings and moisture-aware flush LEDs, condos get an even recessed layout, and both run on a dedicated circuit.',
     relevance: [
       'The East End (ZIP 45226) is a narrow riverfront neighborhood stretching east of downtown along Eastern Avenue, below Columbia Parkway, with historic river cottages and newer condos squeezed between the hillside and the Ohio River. The older cottages have low cellars right on the river, where below-grade space can run damp, while the newer condos have fuller lower levels owners want lit for everyday use.',
       'For the older riverfront cottages, we choose fixtures with the damp conditions in mind and use shallow recessed housings and flush LEDs that clear the low ceilings. In the newer condos we lay out recessed cans for even coverage across a finished lower level. Either way the lighting runs on its own correctly sized circuit, installed to code, so an East End lower level is lit cleanly without overstating what lighting does about riverfront moisture.',
@@ -305,7 +305,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-fairmount': {
     intro:
-      'Lighting a basement in North Fairmount? We are a licensed electrical contractor adding recessed LED cans and flush fixtures to the lower levels of this west-side hillside neighborhood, wired to code. Call (513) 586-5107.',
+      'North Fairmount’s early-1900s hillside homes have low block or stone basements with a single bulb, and conditions vary house to house, so basement lighting there takes a plan. We lay out LED fixtures for full-floor coverage, use shallow housings where ceilings sit low, and run a dedicated circuit.',
     relevance: [
       'North Fairmount (ZIP 45225) is a west-side hillside neighborhood above the Mill Creek valley, with streets of older early-1900s homes. The basements under those century-old houses are typically low block or stone with a single bulb, and the hillside grade means below-grade conditions vary from one house to the next, so even lighting takes a plan rather than a quick fixture swap.',
       'We lay out LED fixtures for full-floor coverage, using shallow recessed housings and surface mounts where the early-1900s ceilings sit low, so a North Fairmount lower level reads bright wall to wall instead of leaving the corners dark. The lighting goes on its own correctly sized circuit back to the panel, installed to code, so a hillside home’s basement becomes usable as an office or rec room rather than just storage.',
@@ -321,7 +321,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'evanston': {
     intro:
-      'Brightening a basement in Evanston? We are a licensed electrical contractor adding recessed LED cans and flush fixtures to lower levels near Xavier University, wired to code. Call (513) 586-5107.',
+      'Evanston basement lighting near Xavier covers early-1900s homes with low basements lit by a bulb or two and rentals that need even light. We lay out LED fixtures with shallow housings where ceilings sit low, size the circuit and switching to the use, and run it back to the panel.',
     relevance: [
       'Evanston (ZIP 45207) is an east-side neighborhood next to Xavier University, with streets of early-1900s homes and apartment buildings, some now student housing. The basements in those older homes are usually low and lit by a bulb or two, the kind of space owners want to put to use as an office or den once it is properly lit, while in rental properties a reliable, even lighting plan matters for everyday use.',
       'In the early-1900s homes here we lay out LED fixtures for even coverage and use shallow recessed housings where the ceilings sit low, keeping the rough-in tidy. For the densely built rentals near Xavier, we size the basement lighting circuit and place switching to suit how the space is used, run it on its own correctly sized line back to the panel, and install everything to code so an Evanston lower level is lit consistently rather than in patches.',
@@ -337,7 +337,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'south-cumminsville': {
     intro:
-      'Lighting a basement in South Cumminsville? We are a licensed electrical contractor adding recessed LED and flush fixtures to lower levels in this Mill Creek valley neighborhood, wired to code. Call (513) 586-5107.',
+      'South Cumminsville’s older homes sit on low Mill Creek valley ground among the industrial corridors, and basement lighting there goes into damp-prone rooms that a single bulb leaves in shadow. We pick fixtures for the conditions, lay out even LED coverage with shallow housings, and run its own circuit.',
     relevance: [
       'South Cumminsville (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, with older homes set among industrial corridors. The basements under those older homes sit on low valley ground, where below-grade space can run damp, and they are usually lit by a single bulb that leaves most of the floor in shadow.',
       'We choose basement fixtures with the valley’s damp conditions in mind and lay them out for even LED coverage rather than one bright spot, using shallow housings where the older ceilings are low. The lighting runs on its own correctly sized circuit and is installed to code, so a South Cumminsville lower level is lit consistently without overstating what wiring alone does about the moisture that comes with the valley setting.',
@@ -353,7 +353,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'english-woods': {
     intro:
-      'Brightening a basement in English Woods? We are a licensed electrical contractor adding recessed LED cans and flush fixtures to lower levels in this west-side hilltop neighborhood, wired to code. Call (513) 586-5107.',
+      'English Woods homes on the hilltop above the valley usually have low basements lit by a single bulb, and basement lighting there turns storage space into an office or rec room. We lay out LED fixtures for even coverage, with shallow housings and surface mounts where ceilings sit low.',
     relevance: [
       'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. The basements in the older homes here are typically low and lit by a single bulb, leaving a space many owners would rather use as an office or rec room sitting dark and underused.',
       'We lay out LED fixtures for even coverage across the whole floor, using shallow recessed housings and surface mounts where the older ceilings sit low, so an English Woods lower level reads bright wall to wall. The lighting goes on its own correctly sized circuit back to the panel and is installed to code, turning a hilltop home’s basement from storage-only into a space that is actually pleasant to spend time in.',
@@ -369,7 +369,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-avondale': {
     intro:
-      'Lighting a basement in North Avondale? We are a licensed electrical contractor adding recessed LED cans and flush fixtures to the lower levels of homes around Rockdale and Reading Road, wired to code. Call (513) 586-5107.',
+      'North Avondale’s grand early-1900s homes have roomy basements built for utility with single-bulb lighting, and owners finish them into studies, gyms, and media rooms. Basement lighting there gets its own circuit back to the panel and a recessed layout, with shallow housings where beams drop the ceiling.',
     relevance: [
       'North Avondale (ZIP 45229) is a historic, leafy neighborhood known for its grand early-1900s homes on large, tree-shaded lots near Rockdale Avenue. The basements under those big century-old houses are roomy but were built for utility, with original single-bulb lighting that leaves a generous footprint dark and underused — exactly the kind of space owners now finish into a study, gym, or media room.',
       'In large early-1900s homes like these, the basement lighting deserves its own dedicated circuit rather than a tap off aging original wiring, so we run a correctly sized line back to the panel and lay out recessed cans for even coverage across the wide floor. Where later beams or ductwork drop the ceiling we switch to shallow housings and flush LEDs, all installed to code so a finished North Avondale lower level is lit as cleanly as the rooms above it.',
@@ -385,7 +385,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'millvale': {
     intro:
-      'Brightening a basement in Millvale? We are a licensed electrical contractor adding recessed LED and flush fixtures to lower levels in this Mill Creek valley neighborhood, wired to code. Call (513) 586-5107.',
+      'Millvale is a compact neighborhood low in the Mill Creek valley, and basement lighting in its older homes has to suit rooms that run damp and sit in shadow under one bulb. We choose fixtures for the conditions, use shallow housings where ceilings are low, and run a dedicated circuit.',
     relevance: [
       'Millvale (ZIP 45225) is a small west-side neighborhood in the Mill Creek valley, a compact, largely residential community. The basements in the older homes here sit on low-lying valley ground, where below-grade space can run damp, and they are usually lit by a single bulb that leaves the floor in shadow.',
       'We pick basement fixtures with the valley’s damp conditions in mind and lay them out for even LED coverage rather than one bright corner, using shallow housings where the older ceilings sit low. The lighting runs on its own correctly sized circuit and is installed to code, so a Millvale lower level is lit consistently without overstating what wiring alone changes about the moisture that comes with the valley setting.',
@@ -401,7 +401,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'paddock-hills': {
     intro:
-      'Lighting a basement in Paddock Hills? We are a licensed electrical contractor adding recessed LED cans and flush fixtures to the lower levels of homes near Paddock Road, wired to code. Call (513) 586-5107.',
+      'Paddock Hills basement lighting near Paddock Road usually replaces a bulb or two over a block foundation in an early- or mid-1900s home. We lay out recessed LED cans for even coverage, switch to shallow housings where ductwork drops the ceiling, and put the lighting on its own circuit.',
     relevance: [
       'Paddock Hills (ZIP 45229) is a small, well-kept north-side residential pocket near Paddock Road and the Norwood Lateral, with streets of early- and mid-1900s homes. The basements under those homes are typically lit by a bulb or two over a block foundation, fine for storage but too dim for the office, gym, or den many owners would rather have down there.',
       'We lay out recessed LED cans for even coverage across the whole floor, switching to shallow housings and flush mounts where ceilings drop under later ductwork, so a Paddock Hills lower level reads bright wall to wall. The lighting goes on its own correctly sized circuit back to the panel and is installed to code, turning a dark early- or mid-century basement into usable, evenly lit living space.',
@@ -417,7 +417,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'spring-grove-village': {
     intro:
-      'Brightening a basement in Spring Grove Village? We are a licensed electrical contractor adding recessed LED and flush fixtures to lower levels near Spring Grove Cemetery, wired to code. Call (513) 586-5107.',
+      'Spring Grove Village wraps around the historic cemetery on low Mill Creek valley ground, so basement lighting in its older homes goes into damp-prone rooms lit by a single bulb. We choose fixtures with that in mind, lay out even LED coverage with shallow housings, and run a dedicated circuit.',
     relevance: [
       'Spring Grove Village (ZIP 45232) sits in the Mill Creek valley around the historic Spring Grove Cemetery and Arboretum, one of the largest cemeteries in the country, with a mix of older homes and industry. The basements in the older homes here sit on low valley ground, where below-grade space can run damp, and they are usually lit by a single bulb that leaves most of the floor in shadow.',
       'We choose basement fixtures with the valley’s damp conditions in mind and lay them out for even LED coverage rather than one bright spot, using shallow housings where the older ceilings sit low. The lighting runs on its own correctly sized circuit and is installed to code, so a Spring Grove Village lower level is lit consistently without overstating what wiring alone does about the moisture that comes with the valley setting.',
@@ -433,7 +433,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'linwood': {
     intro:
-      'Lighting a basement in Linwood? We are a licensed electrical contractor adding recessed LED and flush fixtures to the lower levels of this small east-side neighborhood near Lunken, wired to code. Call (513) 586-5107.',
+      'Linwood sits on low river-bottom ground along Eastern Avenue near Lunken Airport, and basement lighting in its older homes has to handle damp rooms lit by one bulb. We pick fixtures for riverside conditions, use shallow recessed housings where ceilings are low, and run the lighting on its own circuit.',
     relevance: [
       'Linwood (ZIP 45226) is one of Cincinnati’s smaller east-side neighborhoods, set along Eastern Avenue near Lunken Airport and the river bottoms. Sitting on low riverside ground, the older homes here have basements where below-grade space can run damp, and they are usually lit by a single bulb that leaves the floor in shadow.',
       'We pick basement fixtures with the riverside damp conditions in mind and lay them out for even LED coverage rather than one bright corner, using shallow recessed housings where the older ceilings sit low. The lighting runs on its own correctly sized circuit and is installed to code, so a Linwood lower level is lit consistently — without overstating what lighting alone changes about the moisture that comes with the river-bottom setting.',
@@ -449,7 +449,7 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bond-hill': {
     intro:
-      'Brightening a basement in Bond Hill? We are a licensed electrical contractor adding recessed LED cans and flush fixtures to the lower levels of homes along Reading Road, wired to code. Call (513) 586-5107.',
+      'Bond Hill’s early-1900s and mid-century homes along Reading Road have block basements lit by a bulb or two, and basement lighting there turns them into usable offices or rec rooms. We lay out recessed LED cans, use shallow housings under ductwork, and run a dedicated circuit back to the panel.',
     relevance: [
       'Bond Hill (ZIP 45237) is a north-side neighborhood along Reading Road, with established streets of early-1900s and mid-century single-family homes. The basements under those homes are typically block foundations lit by a bulb or two, fine for storage but too dim to serve as the office, gym, or rec room many owners would rather have down there.',
       'We lay out recessed LED cans for even coverage across the whole floor, switching to shallow housings and flush mounts where later ductwork drops the ceiling, so a Bond Hill lower level reads bright wall to wall. The lighting goes on its own correctly sized circuit back to the panel and is installed to code, turning a dim early- or mid-century basement into usable, evenly lit living space.',

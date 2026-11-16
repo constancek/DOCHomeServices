@@ -1,56 +1,158 @@
 import Link from 'next/link';
+import type { ReactNode } from 'react';
 import Icon from './Icon';
 import TornEdge from './TornEdge';
 import LogoMarquee from './LogoMarquee';
-import WhyChooseVideos from './WhyChooseVideos';
+import VideoTestimonials from './VideoTestimonials';
+import ReviewsSection from './ReviewsSection';
 import EstimateForm from './EstimateForm';
+import ServicesMenu from './ServicesMenu';
+import { MapWidget } from './Sidebar';
+import LocationVideoProof from './LocationVideoProof';
+import LocationTeamPhotos from './LocationTeamPhotos';
+import { videoForService } from '@/content/videoTestimonials';
 import { site } from '@/content/site';
-import { benefits, awards, clubPerks, fundingPoints, serviceAreas } from '@/content/home';
+import { benefits, clubPerks, fundingPoints } from '@/content/home';
+import { bookingLabels } from '@/content/bookingLabels';
 
 // Shared marketing sections reused across the homepage and every interior page.
 // `hideMarquee` lets a page that already shows the image strip (e.g. /reviews)
-// suppress the duplicate one rendered here above Why Choose.
-export default function PageSections({ hideMarquee = false }: { hideMarquee?: boolean }) {
+// suppress the duplicate one rendered here above Why Choose. `hideReviews` does
+// the same for the review block on /reviews, which renders its own copy higher
+// up the page.
+export default function PageSections({
+  hideMarquee = false,
+  hideReviews = false,
+  mobileServiceList = false,
+  service,
+}: {
+  hideMarquee?: boolean;
+  // Service slug on service pages, so the booking form heading names the service.
+  service?: string;
+  hideReviews?: boolean;
+  // When set, the services menu is shown here on mobile only, just above the
+  // Our Difference banner (collapsed). Used by pages whose sidebar menu is
+  // hidden on mobile so it does not appear twice.
+  mobileServiceList?: boolean;
+}) {
   return (
     <>
+      {mobileServiceList && (
+        <section className="bg-white pb-12 pt-10 lg:hidden">
+          <div className="container-page">
+            <h2 className="m-center mb-4 font-display text-xl font-extrabold text-brand-700">
+              Our Services
+            </h2>
+            <ServicesMenu />
+          </div>
+        </section>
+      )}
       <OurDifferenceBanner />
       <IntroColumns />
       {!hideMarquee && (
-        <section className="bg-white pb-12">
+        <section className="bg-white pb-4 sm:pb-12">
           <div className="container-page">
             <LogoMarquee />
           </div>
         </section>
       )}
       <WhyChoose />
+      <VideoTestimonials />
       <TornEdge fill="#1f48c8" />
       <WorkStandsOut />
       <TrustedExperts />
       <GetFunding />
       <ComfortClub />
       <Community />
+      {!hideReviews && <ReviewsSection showMarquee={false} />}
       <TornEdge fill="#1f48c8" />
-      <BookAndAreas />
+      <BookAndContact service={service} />
     </>
   );
 }
 
-// Trimmed shared sections for BLOG pages only: just "Why Choose" and the
-// "Book Your Service Now! / Areas We Serve" block (with its zigzag top edge).
-export function BlogSections() {
+// Trimmed shared sections for BLOG pages only: "Why Choose", the reviews block,
+// and the "Book Your Service Now!" + contact block (with its zigzag top
+// edge).
+export function BlogSections({ showVan = false }: { showVan?: boolean }) {
   return (
     <>
       <WhyChoose />
+      <VideoTestimonials />
+      <ReviewsSection showMarquee={false} />
+      {showVan && <TrustedExperts />}
       <TornEdge fill="#1f48c8" />
-      <BookAndAreas />
+      <BookAndContact />
     </>
   );
+}
+
+// Trimmed shared sections for service × neighborhood pages: no reviews and no
+// repeated company blurbs, so each page's own local copy makes up more of it.
+// Just the booking form; the video, awards and photo band sit higher up.
+export function LocationSections({ neighborhood, seed }: { neighborhood: string; seed: string }) {
+  return (
+    <>
+      <TornEdge fill="#1f48c8" />
+      <BookAndContact neighborhood={neighborhood} seed={seed} service={seed} />
+    </>
+  );
+}
+
+// Shared closing sections for service master pages, using the location-page
+// blocks instead of the homepage ones: the trade-matched customer video,
+// the awards strip, the van/tech/team photo band, then the booking form.
+// Anything passed as children (the page's "by neighborhood" links) renders
+// below the form.
+// Service pages place the review and photo blocks where location pages do:
+// ServiceReviews after the pink band(s), ServicePhotoBand just above the FAQs.
+// `withProof` puts both at the bottom instead, for pages without that layout.
+export function ServiceSections({
+  service,
+  withProof = false,
+  children,
+}: {
+  service: string;
+  withProof?: boolean;
+  children?: ReactNode;
+}) {
+  return (
+    <>
+      {withProof && (
+        <>
+          <ServiceReviews service={service} />
+          <ServicePhotoBand />
+        </>
+      )}
+      <BookAndContact service={service} />
+      {children}
+    </>
+  );
+}
+
+// Trade-matched customer video plus the awards strip under it.
+export function ServiceReviews({ service }: { service: string }) {
+  return (
+    <>
+      <LocationVideoProof neighborhood="Cincinnati" video={videoForService(service)} />
+      <section className="bg-cream pb-16">
+        <div className="container-page">
+          <LogoMarquee />
+        </div>
+      </section>
+    </>
+  );
+}
+
+// "Degree of Comfort in Cincinnati" band with the three framed photos.
+export function ServicePhotoBand() {
+  return <LocationTeamPhotos neighborhood="Cincinnati" />;
 }
 
 /* ─────────────── Our Difference banner ─────────────── */
 export function OurDifferenceBanner() {
   return (
-    <section className="relative overflow-hidden bg-brand-900">
+    <section className="cv-auto relative overflow-hidden bg-brand-900">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: 'url(/our-difference.jpg)' }}
@@ -61,11 +163,11 @@ export function OurDifferenceBanner() {
         aria-hidden
       />
       <div className="container-page relative py-20">
-        <div className="max-w-2xl text-white">
-          <h2 className="font-display text-4xl font-black uppercase leading-[1.05] text-pink-500 sm:text-5xl">
+        <div className="m-center max-w-2xl text-white">
+          <h2 className="font-display text-4xl font-black leading-[1.05] text-pink-500 sm:text-5xl">
             Our Difference.
           </h2>
-          <p className="mt-5 text-sm leading-relaxed text-white/90 sm:text-base">
+          <p className="m-left mt-5 text-base leading-relaxed text-white/90 sm:text-base">
             We believe one of life&rsquo;s greatest gifts is being part of a thriving community —
             surrounded by family and friends who share the same goals and dreams. We are fortunate to
             live and work across {site.serviceArea} and the surrounding Tri-State, communities that
@@ -84,7 +186,7 @@ export function IntroColumns() {
     {
       icon: 'house' as const,
       title: 'What We Do',
-      text: `At ${site.name}, it all starts with passion. We are a family-owned business specializing in heating, cooling, plumbing, and electrical service. With years of experience and a team of certified residential technicians, we provide reliable service that homeowners can depend on.`,
+      text: `At ${site.name}, it all starts with passion. We are a family-owned business, founded in ${site.founded}, specializing in heating, cooling, plumbing, and electrical service. With ${site.yearsExperience} years of experience and a team of certified residential technicians, we provide reliable service that homeowners can depend on.`,
     },
     {
       icon: 'pin' as const,
@@ -115,55 +217,26 @@ export function IntroColumns() {
 /* ─────────────── Why choose ─────────────── */
 export function WhyChoose() {
   return (
-    <section id="why" className="bg-white py-16">
+    <section id="why" className="bg-blue-section pb-16 pt-10 sm:pt-16">
       <div className="container-page">
-        <h2 className="section-title max-w-3xl text-brand-700">
+        {/* Mobile gets sentence case, centred, and a smaller size — the full
+            uppercase headline runs to six lines on a phone. */}
+        <h2 className="section-title mx-auto max-w-5xl text-balance text-center text-2xl text-white sm:text-4xl lg:text-[32px]">
           {`Why Choose ${site.name} as Your Residential HVAC, Plumbing & Electrical Contractors?`}
         </h2>
 
-        <div className="mt-10 grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-center">
-          {/* Video carousel */}
-          <WhyChooseVideos />
-
-          {/* Benefits list */}
-          <div>
-            <ul className="space-y-4">
-              {benefits.map((b) => (
-                <li key={b.title} className="flex gap-3.5">
-                  <span className="grid h-10 w-10 flex-shrink-0 place-items-center rounded-lg bg-pink-500 text-white">
-                    <Icon name={b.icon} className="h-5 w-5" />
-                  </span>
-                  <div>
-                    <h3 className="font-display text-base font-extrabold text-brand-700">{b.title}</h3>
-                    <p className="text-sm text-ink/70">{b.text}</p>
-                  </div>
-                </li>
-              ))}
-            </ul>
-            <Link
-              href="/about"
-              className="mt-6 inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-wide text-pink-500"
-            >
-              Read More
-              <Icon name="arrow" className="h-4 w-4" />
-            </Link>
-          </div>
-        </div>
-
-        {/* Trust-seal medallions */}
-        <div className="mt-12 flex flex-wrap items-center justify-center gap-5 sm:gap-8">
-          {awards.map((a) => (
-            <div
-              key={a.label}
-              className="flex h-24 w-24 flex-col items-center justify-center gap-1.5 rounded-full bg-brand-50 px-3 text-center ring-4 ring-brand-100 sm:h-28 sm:w-28"
-            >
-              <Icon name={a.icon} className="h-6 w-6 text-pink-500" />
-              <span className="text-[9px] font-extrabold uppercase leading-tight tracking-wide text-brand-700 sm:text-[10px]">
-                {a.label}
+        {/* Benefits: one row of five on desktop */}
+        <ul className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
+          {benefits.map((b) => (
+            <li key={b.title} className="flex flex-col items-center rounded-2xl bg-white px-5 py-7 text-center shadow-card transition duration-300 hover:-translate-y-1">
+              <span className="grid h-16 w-16 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
+                <Icon name={b.icon} className="h-8 w-8" />
               </span>
-            </div>
+              <h3 className="mt-4 font-display text-[17px] font-extrabold text-brand-700">{b.title}</h3>
+              <p className="mt-1.5 text-[15px] leading-relaxed text-ink/70">{b.text}</p>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     </section>
   );
@@ -172,36 +245,38 @@ export function WhyChoose() {
 /* ─────────────── Work stands out ─────────────── */
 export function WorkStandsOut() {
   return (
-    <section className="relative bg-blue-section pb-16 pt-12">
+    <section className="cv-auto relative bg-blue-section pb-16 pt-12">
       <div className="container-page grid gap-10 lg:grid-cols-2 lg:items-center">
         {/* Branded shirt */}
         <div className="aspect-[4/3] overflow-hidden rounded-2xl bg-white/10 ring-1 ring-white/20">
           <img
-            src="/orange-shirt.png"
+            src="/orange-shirt.webp"
             alt="Degree of Comfort technicians in branded shirts"
-            width={960}
-            height={640}
+            width={1000}
+            height={714}
+            loading="lazy"
+            decoding="async"
             className="h-full w-full object-cover"
           />
         </div>
 
-        <div className="text-white">
+        <div className="m-center text-white">
           <h2 className="section-title">Our Work Stands Out</h2>
           <p className="mt-1 text-lg font-bold uppercase tracking-wide text-pink-400">
             Even more than our shirts
           </p>
-          <p className="mt-4 text-sm leading-relaxed text-brand-100">
+          <p className="m-left mt-4 text-sm leading-relaxed text-brand-100">
             We are a local, family-owned plumbing and HVAC company built on showing up when we say we
             will, quoting the price before we start, and treating your home like our own. Our
             technicians are background-checked, factory-trained, and genuinely happy to help.
           </p>
 
           {/* Testimonial card */}
-          <div className="mt-6 rounded-2xl bg-white p-6 shadow-card">
+          <div className="m-left mt-6 rounded-2xl bg-white p-6 shadow-card">
             <h3 className="font-display text-lg font-extrabold text-brand-700">
               See What Our Happy Customers Say
             </h3>
-            <p className="mt-2 text-sm leading-relaxed text-ink/75">
+            <p className="mt-2 text-[15px] leading-relaxed text-ink/75">
               &ldquo;Our AC died during the first heat wave and they had it running again by early
               afternoon. Quoted the price first, no surprises on the bill. Friendly, fast, and
               clean.&rdquo;
@@ -229,17 +304,17 @@ export function WorkStandsOut() {
 /* ─────────────── Trusted experts ─────────────── */
 export function TrustedExperts() {
   return (
-    <section className="bg-white py-16">
+    <section className="cv-auto bg-white py-16">
       <div className="container-page grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-center">
-        <div>
-          <p className="mb-3 flex items-center gap-2 text-sm font-extrabold uppercase tracking-[0.18em] text-pink-500">
+        <div className="m-center">
+          <p className="mb-3 flex items-center gap-2 text-sm font-extrabold uppercase tracking-[0.18em] text-pink-500 max-sm:justify-center">
             <Icon name="paw" className="h-5 w-5" />
             Spot Our Van Around Cincinnati
           </p>
           <h2 className="section-title text-brand-700">
             Your Trusted Plumbing, HVAC &amp; Electrical Experts in {site.serviceArea}
           </h2>
-          <p className="mt-4 text-sm leading-relaxed text-ink/70">
+          <p className="m-left mt-4 text-sm leading-relaxed text-ink/70">
             From a midsummer AC breakdown to a slow drain that never quite clears, we handle the whole
             home with one trusted crew. Same-day service, upfront flat-rate pricing, and a clean job
             site every time. When something stops working, you get a licensed technician at the door,
@@ -249,16 +324,18 @@ export function TrustedExperts() {
             href="/services"
             className="mt-6 inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-wide text-pink-500"
           >
-            Read More
+            Explore Our Services
             <Icon name="arrow" className="h-4 w-4" />
           </Link>
         </div>
         <div className="aspect-[5/3] overflow-hidden rounded-2xl ring-1 ring-brand-100">
           <img
-            src="/van.jpg"
+            src="/van.webp"
             alt="Degree of Comfort service van"
-            width={1000}
-            height={600}
+            width={1100}
+            height={475}
+            loading="lazy"
+            decoding="async"
             className="h-full w-full object-cover"
           />
         </div>
@@ -270,18 +347,18 @@ export function TrustedExperts() {
 /* ─────────────── Get funding ─────────────── */
 export function GetFunding() {
   return (
-    <section className="bg-white py-14">
+    <section className="cv-auto bg-white py-14">
       <div className="container-page grid gap-8 lg:grid-cols-2 lg:items-center">
-        <div>
+        <div className="m-center">
           <h2 className="section-title text-brand-700">Get Funding Today!</h2>
           <Link href="/financing" className="btn-pink mt-5">
             See If You Qualify Today
             <Icon name="arrow" className="h-4 w-4" />
           </Link>
         </div>
-        <ul className="space-y-3">
+        <ul className="m-list space-y-3">
           {fundingPoints.map((p) => (
-            <li key={p} className="flex items-center gap-3 text-sm font-semibold text-ink/80">
+            <li key={p} className="flex items-center gap-3 text-base font-semibold text-ink/80">
               <span className="grid h-7 w-7 flex-shrink-0 place-items-center rounded-full bg-lime-500 text-white">
                 <Icon name="check" className="h-4 w-4" />
               </span>
@@ -297,13 +374,13 @@ export function GetFunding() {
 /* ─────────────── Comfort club ─────────────── */
 export function ComfortClub() {
   return (
-    <section className="bg-blue-section">
-      <div className="container-page grid items-center gap-10 py-16 lg:grid-cols-2">
-        <div className="text-white">
+    <section className="cv-auto bg-blue-section">
+      <div className="container-page grid items-center gap-10 py-16 lg:grid-cols-[auto_1fr] lg:gap-16">
+        <div className="m-center text-white">
           <h2 className="section-title">Comfort Club</h2>
-          <ul className="mt-6 space-y-3">
+          <ul className="m-list mt-6 space-y-3">
             {clubPerks.map((perk) => (
-              <li key={perk} className="flex items-center gap-3 text-sm font-semibold">
+              <li key={perk} className="flex items-center gap-3 text-base font-semibold">
                 <span className="grid h-6 w-6 flex-shrink-0 place-items-center rounded-full bg-pink-500">
                   <Icon name="check" className="h-3.5 w-3.5 text-white" />
                 </span>
@@ -316,12 +393,14 @@ export function ComfortClub() {
             <Icon name="arrow" className="h-4 w-4" />
           </Link>
         </div>
-        <div className="aspect-[16/10] overflow-hidden rounded-2xl bg-white/10 ring-1 ring-white/20 lg:ml-auto lg:w-[120%]">
+        <div className="aspect-[16/10] lg:aspect-[16/9] overflow-hidden rounded-2xl bg-white/10 ring-1 ring-white/20">
           <img
-            src="/orange-club.png"
+            src="/orange-club.webp"
             alt="Degree of Comfort Comfort Club members"
-            width={960}
-            height={600}
+            width={1000}
+            height={726}
+            loading="lazy"
+            decoding="async"
             className="h-full w-full object-cover"
           />
         </div>
@@ -333,27 +412,29 @@ export function ComfortClub() {
 /* ─────────────── Community ─────────────── */
 export function Community() {
   return (
-    <section className="bg-white py-16">
+    <section className="cv-auto bg-white py-16">
       <div className="container-page grid items-center gap-10 lg:grid-cols-2">
-        <div>
+        <div className="m-center">
           <h2 className="section-title text-brand-700">In the Community</h2>
-          <p className="mt-4 text-sm leading-relaxed text-ink/70">
+          <p className="m-left mt-4 text-sm leading-relaxed text-ink/70">
             We believe a great local company is part of the neighborhood it serves. We sponsor youth
             sports, support local schools and food drives, and show up for the families around us the
             same way we show up for their homes. When you hire us, you are keeping good work and good
             people right here in the community.
           </p>
           <Link href="/about" className="btn-pink mt-6">
-            Learn More
+            About Our Team
             <Icon name="arrow" className="h-4 w-4" />
           </Link>
         </div>
         <div className="overflow-hidden rounded-2xl shadow-card ring-1 ring-brand-100">
           <img
             src="/community-club.webp"
-            alt="The Degree of Comfort team — family owned with 30+ years of experience"
-            width={1200}
-            height={800}
+            alt={`The Degree of Comfort team — family owned since ${site.founded}`}
+            width={1000}
+            height={667}
+            loading="lazy"
+            decoding="async"
             className="h-full w-full object-cover"
           />
         </div>
@@ -362,33 +443,98 @@ export function Community() {
   );
 }
 
-/* ─────────────── Book + areas ─────────────── */
-export function BookAndAreas() {
-  return (
-    <section id="areas" className="scroll-mt-44 bg-blue-section pb-16 pt-6">
-      <div className="container-page grid gap-6 lg:grid-cols-2">
-        {/* Booking form — the real, GHL-linked estimate form (heading only differs) */}
-        <EstimateForm heading="Book Your Service Now!" />
+/* ─────────────── Book + contact ─────────────── */
+// Heading variants for neighborhood pages, picked from the page's seed
+// (service + neighborhood), so pages for the same town or the same service
+// mostly read differently.
+const contactHeadings = [
+  (n: string) => `Tell us what’s wrong in ${n}. We’ll take it from there.`,
+  (n: string) => `Book a visit in ${n}. We’ll handle the rest.`,
+  (n: string) => `Tell us what broke in ${n} and we’ll call you back.`,
+  (n: string) => `Send us the details. We’ll get a tech to ${n}.`,
+  (n: string) => `Let us know what’s wrong at your ${n} home.`,
+  (n: string) => `Start your ${n} service call here.`,
+];
+// Same idea for service × neighborhood pages, naming the service too. `l` is
+// the booking label from content/bookingLabels.ts ("Furnace Repair",
+// "an Electrician"), so each line reads with any label.
+const serviceContactHeadings = [
+  (l: string, n: string) => `Need ${l} in ${n}? Start here.`,
+  (l: string, n: string) => `Get ${l} in ${n}. We’ll handle the rest.`,
+  (l: string, n: string) => `Request ${l} in ${n}. We’ll call you back.`,
+  (l: string, n: string) => `Need ${l} in ${n}? Tell us what’s going on.`,
+  (l: string, n: string) => `Schedule ${l} in ${n} here.`,
+  (l: string, n: string) => `Line up ${l} in ${n} today.`,
+];
+const hash = (s: string) => {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+  return h;
+};
 
-        {/* Areas we serve */}
-        <div className="rounded-2xl bg-white p-6 shadow-card">
-          <h2 className="font-display text-2xl font-extrabold uppercase text-brand-700">Areas We Serve</h2>
-          <div className="mt-4 grid grid-cols-2 gap-x-6 gap-y-2.5">
-            {[...serviceAreas.left, ...serviceAreas.right].map((county) => (
-              <div key={county} className="flex items-center gap-2 text-sm font-medium text-ink/75">
-                <Icon name="check" className="h-4 w-4 flex-shrink-0 text-lime-500" />
-                {county}
-              </div>
-            ))}
-          </div>
-          <Link
-            href="/areas"
-            className="mt-5 inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-wide text-pink-500"
+// Booking form beside contact copy. Neighborhood pages pass the neighborhood
+// (and a seed) so the heading names it; everywhere else it uses the general
+// wording. Same name, address and phone on every page is a basic local search
+// signal.
+export function BookAndContact({
+  neighborhood,
+  seed = '',
+  service,
+}: { neighborhood?: string; seed?: string; service?: string } = {}) {
+  const office = site.offices[0];
+  // The heading names the service (and the neighborhood on location pages).
+  const label = service ? bookingLabels[service] : undefined;
+  const heading =
+    label && neighborhood
+      ? serviceContactHeadings[hash(seed + neighborhood) % serviceContactHeadings.length](label, neighborhood)
+      : label
+        ? `Need ${label}? Tell us what’s going on.`
+        : neighborhood
+          ? contactHeadings[hash(seed + neighborhood) % contactHeadings.length](neighborhood)
+          : 'Tell us what’s wrong. We’ll take it from there.';
+  return (
+    <section id="book" className="scroll-mt-44 bg-blue-section pb-16 pt-6">
+      <div className="container-page grid gap-10 lg:grid-cols-2 lg:gap-14">
+        {/* Contact copy — sits straight on the blue, no card */}
+        <div className="text-white lg:pt-6">
+          <h2 className="text-balance font-display text-3xl font-black leading-[1.05] text-white sm:text-4xl">
+            {heading}
+          </h2>
+          <a
+            href={site.primaryPhone.href}
+            className="mt-6 inline-flex items-center gap-3 font-display text-2xl font-extrabold text-white transition hover:text-pink-400"
           >
-            See All Service Areas
-            <Icon name="arrow" className="h-4 w-4" />
-          </Link>
+            <Icon name="phone" className="h-5 w-5 text-pink-400" />
+            {site.primaryPhone.number}
+          </a>
+          <p className="mt-1 text-base text-brand-200">Call &middot; {site.hours}</p>
+          <ul className="mt-6 space-y-3 text-base text-brand-100">
+            <li>
+              <a
+                href={office.mapHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-start gap-3 transition hover:text-white"
+              >
+                <Icon name="pin" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-400" />
+                {office.full}
+              </a>
+            </li>
+            <li>
+              <a href={`mailto:${site.email}`} className="inline-flex items-center gap-3 break-all transition hover:text-white">
+                <Icon name="mail" className="h-5 w-5 flex-shrink-0 text-pink-400" />
+                {site.email}
+              </a>
+            </li>
+          </ul>
+          {/* Service-area map beside the form */}
+          <div className="mt-8 max-w-md">
+            <MapWidget />
+          </div>
         </div>
+
+        {/* Booking form — the real, GHL-linked estimate form (heading only differs) */}
+        <EstimateForm heading="" />
       </div>
     </section>
   );

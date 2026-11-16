@@ -2,19 +2,20 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
 import NeighborhoodLinks from '@/components/NeighborhoodLinks';
-import PageHero from '@/components/PageHero';
-import PageSections from '@/components/PageSections';
+import LocationHero from '@/components/LocationHero';
+import { ServicePhotoBand, ServiceReviews, ServiceSections } from '@/components/PageSections';
 import MainWithSidebar from '@/components/Sidebar';
 import Accordion from '@/components/Accordion';
 import { locations } from '@/content/locations';
 import { wholeHouseRepipingCopy } from '@/content/location-copy/whole-house-repiping';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Whole-House Repiping',
   description: `Whole-house repiping across ${site.serviceArea} from ${site.name} — licensed plumbers replace old, corroded, or failing water pipes with modern PEX or copper.`,
   alternates: { canonical: '/services/whole-house-repiping' },
-};
+});
 
 const signs = [
   { lead: 'Frequent Leaks', text: 'If you’re constantly dealing with leaks, it might indicate that your pipes are deteriorating and need replacement.' },
@@ -39,20 +40,7 @@ const whyRepipe = [
   'Added property value',
 ];
 
-const whyChoose = [
-  'Licensed and experienced plumbers',
-  'Modern PEX and copper repiping',
-  'Customized plans for your home',
-  'Upfront estimates after inspection',
-  'A satisfaction guarantee on every job',
-];
 
-const whyUs = [
-  { icon: 'shield' as const, title: 'Licensed Plumbers', text: 'Experienced pros who repipe homes cleanly and to code.' },
-  { icon: 'check' as const, title: 'Quality Materials', text: 'Durable PEX or copper sized for your home.' },
-  { icon: 'badge' as const, title: 'Upfront Estimates', text: 'A clear quote after we inspect your system.' },
-  { icon: 'house' as const, title: 'Thorough Cleanup', text: 'Leak-tested results and a tidy finish.' },
-];
 
 const faqs = [
   { q: 'How do I know if I need plumbing repiping services?', a: 'Low water pressure, rusty water, frequent leaks, or unusual sounds indicate aging pipes. Galvanized steel and polybutylene systems particularly benefit from repiping.' },
@@ -74,9 +62,9 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services` },
-    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing` },
-    { '@type': 'ListItem', position: 4, name: 'Whole-House Repiping', item: `${site.url}/services/whole-house-repiping` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${site.url}/services/` },
+    { '@type': 'ListItem', position: 3, name: 'Plumbing', item: `${site.url}/services/plumbing/` },
+    { '@type': 'ListItem', position: 4, name: 'Whole-House Repiping', item: `${site.url}/services/whole-house-repiping/` },
   ],
 };
 const faqSchema = {
@@ -92,10 +80,10 @@ export default function WholeHouseRepipingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <PageHero
-        eyebrow="Plumbing"
+      <LocationHero
         title={`Whole-House Repiping in ${site.serviceArea}`}
-        description="Licensed plumbers replace old, corroded, or failing water pipes with modern PEX or copper — improving water quality, pressure, and reliability."
+        image="/services/repiping-hero.webp"
+        imageAlt="New copper water pipes"
         crumbs={[
           { label: 'Home', href: '/' },
           { label: 'Services', href: '/services' },
@@ -104,33 +92,25 @@ export default function WholeHouseRepipingPage() {
         ]}
       />
 
-      <section className="bg-hero-pink">
-        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
-          <h2 className="font-display text-xl font-extrabold uppercase leading-tight sm:text-2xl">
-            Tired of leaks and rusty water?
-          </h2>
-          <a href={site.primaryPhone.href} className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600">
-            <Icon name="phone" className="h-5 w-5" />
-            Call Now
-          </a>
-        </div>
-      </section>
-
       <section className="py-16">
-        <MainWithSidebar>
-          <div className="mb-7 aspect-[16/9] w-full rounded-2xl bg-brand-200 bg-cover bg-center" style={{ backgroundImage: 'url(/services/repiping-hero.jpg)' }} role="img" aria-label="New copper water pipes" />
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-brand-600 sm:text-4xl">
+        <MainWithSidebar mascot>
+          {/* One-format top section: local pros + emergency, one paragraph each */}
+          <h2 className="section-title text-brand-700">
+            Local Whole-House Repiping Pros Who Know {site.serviceArea}
+          </h2>
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
+            Whole-house repiping across {site.serviceArea} usually means replacing galvanized
+            steel or polybutylene supply lines that leak in more than one place. Galvanized pipe
+            in 1920s to 1950s homes corrodes from the inside until pressure drops at every tap,
+            and houses in Sedamsville and Clifton carry older pipe still. We replace it with PEX
+            or copper, typically over a few days to a week depending on home size. One leak on
+            otherwise sound pipe is a repair, not a repipe. The estimate comes before any wall
+            is opened.
+          </p>
+
+          <h2 className="mt-10 section-title text-brand-700">
             Professional Whole-House Repiping
           </h2>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            Old water pipes do not last forever. Over time they corrode, narrow, and start to leak —
-            affecting your water quality, pressure, and peace of mind.
-          </p>
-          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
-            {site.name} provides whole-house repiping for homeowners across {site.serviceArea}. Our
-            licensed plumbers replace aging supply lines — including galvanized steel and polybutylene
-            systems — with modern PEX or copper built to last.
-          </p>
           <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             Whether you are dealing with repeat leaks or planning ahead, a repipe restores reliable water
             throughout your home.
@@ -140,19 +120,19 @@ export default function WholeHouseRepipingPage() {
 
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/repiping-signs.jpg)' }} role="img" aria-label="Old corroded pipes" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center" style={{ backgroundImage: 'url(/services/repiping-signs.webp)' }} role="img" aria-label="Old corroded pipes" />
           <div>
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Signs You Need to Repipe Your House
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Your home’s plumbing works hard every day, and over time, wear and tear can lead to issues
               that signal it’s time for a repipe. Recognizing these signs early can save you from more
               significant problems down the line:
             </p>
             <ul className="mt-4 space-y-2">
               {signs.map((s) => (
-                <li key={s.lead} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                <li key={s.lead} className="flex gap-2.5 text-base leading-relaxed text-white/90">
                   <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white" />
                   <span><span className="font-bold text-white">{s.lead}:</span> {s.text}</span>
                 </li>
@@ -168,34 +148,48 @@ export default function WholeHouseRepipingPage() {
       <section className="bg-hero-pink text-white">
         <div className="container-page grid items-center gap-8 py-14 lg:grid-cols-2 lg:py-16">
           <div className="lg:order-1">
-            <h2 className="font-display text-3xl font-black uppercase leading-tight sm:text-4xl">
+            <h2 className="section-title">
               Schedule Your Repiping Installation Today
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/90">
+            <p className="mt-4 text-base leading-relaxed text-white/90">
               Plumbing work can feel disruptive — but it doesn’t have to be. Our team treats every home
               like it’s our own. We arrive on time, communicate clearly, and always clean up before we
               leave.
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-white/90">
+            <p className="mt-3 text-base leading-relaxed text-white/90">
               A repiping installation is a big job, but our crew knows how to do it right while keeping
               things manageable. If you’ve been dealing with low water pressure, discolored water, or
               constant pipe leaks, it might be time to take that step. We offer professional repiping
               services throughout {site.serviceArea}.
             </p>
           </div>
-          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.jpg)' }} role="img" aria-label="Plumber reviewing a repiping plan with a homeowner" />
+          <div className="aspect-[4/3] rounded-2xl bg-white/15 bg-cover bg-center lg:order-2" style={{ backgroundImage: 'url(/services/faucet-expect.webp)' }} role="img" aria-label="Plumber reviewing a repiping plan with a homeowner" />
+        </div>
+      </section>
+
+      <ServiceReviews service="whole-house-repiping" />
+
+      <section className="bg-hero-pink">
+        <div className="container-page flex flex-col items-center gap-4 py-7 text-center text-white sm:flex-row sm:justify-between sm:text-left">
+          <h2 className="font-display text-xl font-extrabold leading-tight sm:text-2xl">
+            Tired of leaks and rusty water?
+          </h2>
+          <a href={site.primaryPhone.href} className="flex flex-shrink-0 items-center gap-2 rounded-full bg-lime-500 px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-white shadow-pill transition hover:bg-lime-600">
+            <Icon name="phone" className="h-5 w-5" />
+            Call Now
+          </a>
         </div>
       </section>
 
       <section className="py-14">
         <div className="container-page max-w-4xl">
           <h2 className="section-title text-brand-700">What to Expect During Whole-Home Repiping</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             We keep the project organized and predictable from start to finish:
           </p>
           <ul className="mt-4 space-y-2">
             {process.map((p) => (
-              <li key={p.lead} className="flex gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={p.lead} className="flex gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 <span><span className="font-bold text-brand-700">{p.lead}:</span> {p.text}</span>
               </li>
@@ -203,19 +197,19 @@ export default function WholeHouseRepipingPage() {
           </ul>
 
           <h2 className="mt-12 section-title text-brand-700">Why Repipe Your Home</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
             Replacing your water lines does more than stop leaks. A full repipe with modern materials
             delivers:
           </p>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2">
             {whyRepipe.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
+              <li key={w} className="flex items-start gap-2.5 text-[17px] leading-relaxed text-ink/75">
                 <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-pink-500" />
                 {w}
               </li>
             ))}
           </ul>
-          <p className="mt-4 text-sm leading-relaxed text-ink/75">
+          <p className="mt-4 text-[17px] leading-relaxed text-ink/75">
             If you are only dealing with an isolated problem, we also offer targeted{' '}
             <Link href="/services/pipe-repair-replacement" className="font-semibold text-pink-600 hover:text-pink-700 hover:underline">
               pipe repair and replacement
@@ -228,70 +222,63 @@ export default function WholeHouseRepipingPage() {
           </p>
 
           <h2 className="mt-12 section-title text-brand-700">Why Choose {site.name} for Repiping</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            Homeowners across {site.serviceArea} trust {site.name} for dependable plumbing. When you work
-            with our team, you receive:
+          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+            Repiping pays off most in homes still on galvanized steel or polybutylene. If your copper is sound, you probably do not need one. A typical repipe takes a few days to a week.
           </p>
-          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-            {whyChoose.map((w) => (
-              <li key={w} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink/75">
-                <Icon name="check" className="mt-0.5 h-5 w-5 flex-shrink-0 text-lime-500" />
-                {w}
-              </li>
-            ))}
-          </ul>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {whyUs.map((w) => (
-              <div key={w.title} className="card flex gap-3.5">
-                <span className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-pink-500 text-white">
-                  <Icon name={w.icon} className="h-5 w-5" />
-                </span>
-                <div>
-                  <h3 className="font-display text-base font-extrabold text-brand-700">{w.title}</h3>
-                  <p className="text-sm text-ink/70">{w.text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
+        </div>
+      </section>
+
+      <ServicePhotoBand />
+
+      <section className="py-14">
+        <div className="container-page max-w-4xl">
           <h2 className="mt-12 section-title text-brand-700">Whole-House Repiping FAQs</h2>
           <div className="mt-4">
-            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-sm leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
+            <Accordion items={faqs.map((f) => ({ title: f.q, body: <p className="text-[17px] leading-relaxed text-ink/75">{f.a}</p> }))} defaultOpen={0} />
           </div>
 
-          <div className="mt-12 rounded-3xl bg-blue-section p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold uppercase sm:text-3xl">Schedule Whole-House Repiping Today</h2>
-            <p className="mx-auto mt-3 max-w-xl text-sm text-brand-100">
+          <div className="mt-24 rounded-3xl bg-blue-section px-6 pb-7 pt-6 text-center text-white sm:mt-32 sm:px-8">
+            <img
+              src="/van-cutout.webp"
+              width={800}
+              height={346}
+              alt="Degree of Comfort service van"
+              loading="lazy"
+              className="mx-auto -mt-[86px] mb-3 h-auto w-72 drop-shadow-xl sm:-mt-[107px] sm:w-96"
+            />
+            <h2 className="text-2xl font-extrabold sm:text-3xl">Schedule Whole-House Repiping Today</h2>
+            <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-brand-100">
               Ready to put leaks and rusty water behind you? {site.name} repipes homes across{' '}
-              {site.serviceArea}. Call now or request a free estimate.
+              {site.serviceArea}. Call now or request an estimate.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={site.primaryPhone.href} className="btn-pink text-base">
                 <Icon name="phone" className="h-5 w-5" />
                 Call {site.primaryPhone.number}
               </a>
-              <Link href="/free-estimate" className="btn-outline border-white text-white hover:bg-white/10">
-                Free Estimate
+              <Link href="/request-estimate/" className="btn-outline border-white">
+                Request an Estimate
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Repiping by neighborhood — links DOWN to location pages */}
-      <section className="pb-16">
-        <div className="container-page max-w-4xl">
-          <h2 className="section-title text-brand-700">Whole-house repiping by neighborhood</h2>
-          <p className="mt-3 text-sm leading-relaxed text-ink/75">
-            We repipe homes across {site.serviceArea} —{' '}
-            {locations.filter((l) => wholeHouseRepipingCopy[l.slug]).length} neighborhoods and counting.
-            Find yours below for local detail on the homes and pipes in your area.
-          </p>
-          <NeighborhoodLinks copy={wholeHouseRepipingCopy} basePath="/services/whole-house-repiping" linkPrefix="Whole-house repiping" />
-        </div>
-      </section>
-
-      <PageSections />
+      <ServiceSections service="whole-house-repiping">
+        {/* Repiping by neighborhood — links DOWN to location pages */}
+        <section className="py-16">
+          <div className="container-page max-w-4xl">
+            <h2 className="section-title text-brand-700">Whole-house repiping by neighborhood</h2>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink/75">
+              We repipe homes across {site.serviceArea} —{' '}
+              {locations.filter((l) => wholeHouseRepipingCopy[l.slug]).length} neighborhoods and counting.
+              Find yours below for local detail on the homes and pipes in your area.
+            </p>
+            <NeighborhoodLinks copy={wholeHouseRepipingCopy} basePath="/services/whole-house-repiping" linkPrefix="Whole-house repiping" />
+          </div>
+        </section>
+      </ServiceSections>
     </>
   );
 }

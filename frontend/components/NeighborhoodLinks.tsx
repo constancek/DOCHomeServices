@@ -10,6 +10,7 @@ export default function NeighborhoodLinks({
   copy,
   basePath,
   linkPrefix,
+  listAll = false,
 }: {
   // The per-service copy map; a neighborhood is listed only if it has a page.
   copy: Record<string, unknown>;
@@ -17,9 +18,12 @@ export default function NeighborhoodLinks({
   basePath: string;
   // Link-text prefix, e.g. "AC repair" -> "AC repair in Sedamsville".
   linkPrefix: string;
+  // List every neighborhood regardless of whether copy exists yet. Links to
+  // neighborhoods without a page will 404 until that copy is written.
+  listAll?: boolean;
 }) {
   const groups = locationsByGroup()
-    .map(({ group, items }) => ({ group, items: items.filter((l) => copy[l.slug]) }))
+    .map(({ group, items }) => ({ group, items: listAll ? items : items.filter((l) => copy[l.slug]) }))
     .filter((g) => g.items.length > 0);
   const total = groups.reduce((n, g) => n + g.items.length, 0);
   if (total === 0) return null;

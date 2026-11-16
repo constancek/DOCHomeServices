@@ -6,6 +6,8 @@ import { part3 } from './water-heater-maintenance-parts/part3';
 import { part4 } from './water-heater-maintenance-parts/part4';
 import { part5 } from './water-heater-maintenance-parts/part5';
 import { part6 } from './water-heater-maintenance-parts/part6';
+// Fully localized towns (one format), wired in by water-heater-maintenance-pilot/build-index.mjs.
+import { waterHeaterMaintenancePilot } from './water-heater-maintenance-pilot';
 
 // Per-neighborhood, water-heater-maintenance-specific copy, drafted from each
 // neighborhood's real local facts in content/locations.ts.
@@ -16,6 +18,7 @@ const all: Record<string, LocationServiceCopy> = {
   ...part4,
   ...part5,
   ...part6,
+  ...waterHeaterMaintenancePilot,
 };
 
 // Dev shows all 170; production build ships only the DEPLOYED_LOCATION_SLUGS cohort.

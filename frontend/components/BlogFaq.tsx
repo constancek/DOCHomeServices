@@ -9,7 +9,7 @@ export default function BlogFaq({ items }: { items: { q: string; a: string }[] }
 
   return (
     <section id="faq" className="mt-14">
-      <h2 className="font-display text-3xl font-black uppercase tracking-tight text-pink-600 sm:text-4xl">
+      <h2 className="font-display text-3xl font-black tracking-tight text-pink-600 sm:text-4xl">
         Frequently Asked Questions
       </h2>
       <div className="mt-6 space-y-4">
@@ -33,9 +33,11 @@ export default function BlogFaq({ items }: { items: { q: string; a: string }[] }
                   {isOpen ? '−' : '+'}
                 </span>
               </button>
-              {isOpen && (
-                <div className="-mt-1 px-6 pb-6 text-[15px] leading-relaxed text-brand-700">{f.a}</div>
-              )}
+              {/* Always in the HTML so search engines read every answer; closed
+                  answers are hidden, not left out. */}
+              <div hidden={!isOpen} className="-mt-1 px-6 pb-6 text-lg leading-relaxed text-brand-700">
+                {f.a}
+              </div>
             </div>
           );
         })}

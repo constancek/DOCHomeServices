@@ -1,7 +1,7 @@
 export const part3: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'villages-of-roll-hill': {
     intro:
-      'If breakers keep tripping or the panel feels warm in Villages of Roll Hill, the electrical service may be undersized for today’s loads. We replace and upgrade panels with licensed, permitted work that meets code. Call (513) 586-5107.',
+      'Panel replacement in Villages of Roll Hill is mostly apartment work, where each unit’s panel was sized for lighter loads than window units and electric ranges add today. A loose feeder lug or corroded bus in one unit often means the same wear next door.',
     relevance: [
       'Villages of Roll Hill (ZIP 45225) is a west-side hilltop community overlooking the Mill Creek valley, made up largely of multi-unit apartment buildings. In housing built around shared electrical service, each unit’s panel was often sized for the modest loads of an earlier era, and as window units, electric ranges, and added appliances pile on, those panels run closer to capacity than the original builder ever planned for.',
       'In a multi-unit building, a panel problem in one apartment — a loose feeder lug, a corroded bus, a breaker that trips under load — can hint at the same wear in the units beside it. We replace dated panels and tie the work to the building’s service properly, pulling the permit and scheduling the inspection so the upgrade is documented and safe rather than a quiet patch behind a closet door.',
@@ -17,7 +17,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'east-westwood': {
     intro:
-      'Flickering lights or a fuse box that can’t keep up in East Westwood usually points to undersized service. We replace old panels and upgrade amperage with licensed, permitted work. Call (513) 586-5107.',
+      'Lights dimming when the AC kicks on is a common reason for panel replacement in East Westwood. The early- and mid-1900s homes on the slopes toward the Mill Creek valley still run 60- or 100-amp service or an original fuse box. We put in a properly sized 200-amp panel.',
     relevance: [
       'East Westwood (ZIP 45211) sits on the slopes between Westwood and the Mill Creek valley, with streets of early- and mid-1900s homes. Houses of that age were wired for a fraction of today’s demand, and many still run on 60- or 100-amp service or an original fuse box that was never meant to feed central air, an electric range, and a basement full of modern appliances at once.',
       'When a panel from that era is pushed past what it was built for, the warning signs show up first — breakers that trip on a hot afternoon, lights that dim when the AC kicks on, or a fuse that keeps blowing. We upgrade those homes to a properly sized 200-amp panel, and because it is permitted, inspected work, the new service holds up for resale and satisfies an insurer reviewing an older home.',
@@ -33,7 +33,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'western-hills': {
     intro:
-      'If your Western Hills panel is 40 to 60 years old and breakers trip when the AC and oven run together, it may be time for an upgrade. We replace panels with licensed, permitted work. Call (513) 586-5107.',
+      'Panels 40 to 60 years old that trip when the AC and oven run together are the usual reason for panel replacement in Western Hills. A 100-amp service that was generous in its day now runs out of slots. Scorch and rust around the bus are common near Glenway.',
     relevance: [
       'Western Hills (ZIP 45211) is the established west-side area around Western Hills Plaza and Glenway Avenue, with neighborhoods of early-1900s through mid-century single-family homes. A panel installed when many of these houses were built or last updated is now decades old, and a 100-amp service that was generous in its day struggles once a home adds central cooling, an electric dryer, and a kitchen full of modern appliances.',
       'The tells here are familiar across that mid-century stock: breakers that nuisance-trip in summer, a full panel with no room for another circuit, or scorch and rust around the bus. We replace those panels and step the service up to 200 amps where the load calls for it. Because it is permitted and inspected, the upgrade leaves a clean record for resale along Glenway and the surrounding streets.',
@@ -49,7 +49,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'california': {
     intro:
-      'Riverfront homes in California along Kellogg Avenue often have older service and damp basements that are hard on a panel. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'Damp basements and humidity near the Ohio River corrode bus bars and breaker contacts, and that drives most panel replacement in California. Homes along Kellogg Avenue near Riverbend have older service to begin with. Pitted contacts run hot and breakers stop tripping reliably, so we replace rather than patch.',
     relevance: [
       'California (ZIP 45230) is Cincinnati’s far-east riverfront neighborhood along Kellogg Avenue, near Riverbend and the old Coney Island grounds, set on low ground beside the Ohio River. The age of the homes here means older service is common, and the riverside, low-lying setting brings damp basements and humidity that corrode panel busbars, breaker contacts, and feeder lugs faster than in a dry house up on the hill.',
       'A corroded panel is more than cosmetic — pitted contacts run hot, breakers stop tripping reliably, and the whole service grows unpredictable. We replace deteriorated panels in these riverfront homes and size the new service for the loads a modern household carries. The work is permitted and inspected, which matters both for safety and for an insurer or buyer looking closely at a home this close to the water.',
@@ -65,7 +65,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'carthage': {
     intro:
-      'Older homes in Carthage along Vine Street often run on undersized service or an aging fuse box. We replace panels and upgrade amperage with licensed, permitted work. Call (513) 586-5107.',
+      'Century-old homes near the Fairgrounds often have service added one circuit at a time until the panel filled up, so panel replacement in Carthage usually means clearing out daisy-chained fixes. These early-1900s houses were wired for lighting and a few outlets. We put in a 200-amp panel.',
     relevance: [
       'Carthage (ZIP 45215) is a north-side neighborhood along Vine Street, a former village now home to the Hamilton County Fairgrounds, with older early-1900s homes. Houses from that period were wired for lighting and a few outlets, not for the central air, electric ranges, and additions that have been added since, so the original panel or fuse box is frequently the weak link.',
       'In a century-old Carthage home, we often find a service that has been added to one circuit at a time until the panel is full and the main is undersized. We replace it with a properly rated 200-amp panel and clear out the daisy-chained fixes. Because it is permitted, inspected work, the upgrade is documented for resale and for an insurer reviewing an older property near the fairgrounds.',
@@ -81,7 +81,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'winton-hills': {
     intro:
-      'If breakers trip or the panel runs warm in Winton Hills near Winton Road, the service may be undersized. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'In Winton Hills multi-unit buildings, each panel was meant for one modest unit, so panel replacement there often follows trips and warm panels as tenants add appliances and cooling. A single failed feeder can take out several apartments. We bring the service up to a properly rated capacity.',
     relevance: [
       'Winton Hills (ZIP 45232) is a north-side neighborhood near Winton Road, with a mix of residential and industrial areas including multi-unit housing. The older buildings here often carry service that was sized decades ago, and in multi-unit homes each panel was meant for a single modest unit — not the added appliances and cooling loads tenants run today.',
       'In densely built multi-unit housing, an overloaded panel in one unit usually signals the same strain next door, and a single failed feeder can take out service to several apartments. We replace dated panels and bring the service up to a properly rated capacity, with permits pulled and inspections scheduled so the upgrade is documented rather than buried behind a wall.',
@@ -97,7 +97,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'roselawn': {
     intro:
-      'Mid-century homes in Roselawn along Reading Road often run on 60- to 100-amp service that today’s loads outgrow. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'Roselawn’s mid-century homes along Reading Road came with 60- or 100-amp service, and panel replacement there usually follows trips when the AC and oven run together. In the older apartment buildings, panels are worn from heavy, long-term use. We size a 200-amp service where the load calls for it.',
     relevance: [
       'Roselawn (ZIP 45237) is a north-side neighborhood along Reading Road, with settled streets of mid-century single-family homes and apartment buildings. A panel installed when these homes were built is now well past 40 years old, and the 60- or 100-amp service common to that era was generous before central air, electric ranges, and modern appliance loads became standard.',
       'The signs of an outgrown panel show up on a hot afternoon — breakers tripping when the AC and oven run together, or a panel so full there is no room for another circuit. We upgrade Roselawn homes to a properly sized 200-amp service, and in the older apartments we replace panels worn by heavy, long-term use. All of it is permitted, inspected work so the new service is documented for resale.',
@@ -113,7 +113,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-airy': {
     intro:
-      'Mid-century homes near Mount Airy Forest often carry aging panels that struggle with central air and added loads. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'EV chargers, hot tubs and finished lower levels drive much of the panel replacement in Mount Airy. The mid-century homes on wooded streets beside Mount Airy Forest have decades-old panels that were never planned for those loads. We put in a 200-amp panel rated for what the home draws.',
     relevance: [
       'Mount Airy (ZIP 45239) is a northwest-side neighborhood beside Mount Airy Forest, one of the largest city parks in the country, with mid-century single-family homes on hilly, wooded streets. A panel from when these homes were built is decades old now, and the service sized for that era rarely accounts for the central cooling, electric appliances, and additions that owners have added since.',
       'On these wooded hilltop lots, owners often add an EV charger, a hot tub, or a finished lower level — each one a load the original panel was never planned for. We replace the dated service with a 200-amp panel rated for what the home actually draws. Because it is permitted and inspected, the upgrade stands up for resale and for an insurer reviewing an older home near the forest.',
@@ -129,7 +129,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hartwell': {
     intro:
-      'Hartwell’s Victorian and early-1900s homes often still run on original undersized service or an old fuse box. We replace panels and upgrade amperage with licensed, permitted work. Call (513) 586-5107.',
+      'Streetcar-era homes in Hartwell were wired for lighting and little else, so panel replacement there often removes a fuse box or early 60-amp panel. Years of patching circuit by circuit leave the panel full and the main undersized. We work without disturbing the historic details.',
     relevance: [
       'Hartwell (ZIP 45215) is a historic north-side neighborhood that grew as a streetcar suburb, known for its Victorian and early-1900s homes on tree-lined streets. Houses built in that streetcar era were wired for gas-and-electric lighting and little else, so the original service — often a fuse box or an early 60-amp panel — sits far below what a modern household needs.',
       'In a century-old Hartwell home we frequently find that the service has been patched circuit by circuit until the panel is full and the main is undersized. We replace it with a properly rated 200-amp panel without disturbing the historic details these homes are known for. The work is permitted and inspected, which gives a clean record for resale on these older streets.',
@@ -145,7 +145,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'kennedy-heights': {
     intro:
-      'Kennedy Heights’ large early-1900s homes often run on original service that today’s loads outgrow. We replace panels and upgrade amperage with licensed, permitted work. Call (513) 586-5107.',
+      'Large early-1900s homes in Kennedy Heights often hide a tangle of added subpanels behind an original panel, which makes panel replacement there partly a cleanup job. The original service is undersized and out of slots. We put in a 200-amp main and bring the layout back to code.',
     relevance: [
       'Kennedy Heights (ZIP 45213) is a historic east-side hilltop neighborhood that began as a Victorian-era resort community, now known for its arts center and large early-1900s homes. Houses that size carry a lot of circuits, and when the original panel dates to the home’s early years, it is both undersized and out of slots for the cooling, kitchen, and appliance loads added over the decades.',
       'A large old home with an original panel often hides a tangle of added subpanels and overloaded circuits. We replace the main service with a properly rated 200-amp panel and bring the whole arrangement back to a clean, code-compliant layout. Because it is permitted and inspected, the upgrade is documented for resale on these established hilltop streets.',
@@ -161,7 +161,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'st-bernard': {
     intro:
-      'St. Bernard’s dense early-1900s homes often run on undersized service or an old fuse box. We replace panels and upgrade amperage with licensed, permitted work. Call (513) 586-5107.',
+      'Factory-town houses around Ivorydale were wired for modest loads, and panel replacement in St. Bernard often means a fuse box or early 60-amp panel running hot on a tight lot. As an independent city, St. Bernard handles its own permits, and we pull them.',
     relevance: [
       'St. Bernard (ZIP 45217) is its own city, completely surrounded by Cincinnati, built up around the Procter & Gamble Ivorydale complex with a dense grid of early-1900s homes. Houses from that factory-town era were wired for modest loads on small lots, so the original service is frequently a fuse box or an early 60-amp panel that today’s appliances and cooling push well past its limit.',
       'On these tightly packed lots, an overloaded panel that runs hot is a hazard worth taking seriously. We replace dated service with a properly rated 200-amp panel and clear out the added-on fixes. As an independent city, St. Bernard handles its own permitting, and we pull the permit and schedule the inspection so the upgrade is fully documented and code-compliant.',
@@ -177,7 +177,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'elmwood-place': {
     intro:
-      'Elmwood Place’s closely spaced early-1900s homes often run on aging, undersized panels. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'Elmwood Place is a tiny village on low Mill Creek valley ground, and panel replacement there usually deals with damp basements that corrode bus bars and breaker contacts. The early-1900s homes have undersized original service. The village runs its own permits, which we pull.',
     relevance: [
       'Elmwood Place (ZIP 45216) is a tiny, densely built village in the Mill Creek valley north of the city, with closely spaced early-1900s homes. The original service in these houses was sized for an earlier era, and the low valley ground brings damp basements that corrode panel busbars and breaker contacts faster than in a drier home.',
       'A corroded, undersized panel in a closely built home is worth replacing before it runs hot or stops tripping reliably. We swap the old service for a properly rated panel and size it for what the home actually draws. Elmwood Place is a small village with its own permitting, and we pull the permit and schedule the inspection so the upgrade is documented and code-compliant.',
@@ -193,7 +193,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'delhi-hills': {
     intro:
-      'Mid-century homes in Delhi Hills above the river often run on panels that central air and added loads have outgrown. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'Finished basements, hot tubs and central air stack load onto full panels, and that drives most panel replacement in Delhi Hills. The mid-century homes above the Ohio River commonly have 100-amp service sized before central cooling and modern kitchens. We upgrade them to 200 amps.',
     relevance: [
       'Delhi Hills (ZIP 45233) sits in Delhi Township on the west side above the Ohio River — an area with deep ties to greenhouse and floral growing, with established mid-century homes on hilly streets. A panel from when these homes were built is now decades old, and the 100-amp service common to that era was sized before central cooling and modern kitchens became standard.',
       'On these hilly lots, owners frequently add a finished basement, a hot tub, or central air, and each one stacks load onto a panel that is already full. We upgrade Delhi Township homes to a properly rated 200-amp service. Because it is permitted and inspected, the upgrade holds up for resale and for an insurer reviewing an older home above the river.',
@@ -209,7 +209,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'golf-manor': {
     intro:
-      'Golf Manor’s modest mid-century homes often run on 60- to 100-amp service that today’s loads outgrow. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'Small mid-century houses in Golf Manor usually have 60- or 100-amp service, and panel replacement there follows summer trips and panels with no spare slots. The main cannot carry an electric range plus central air. As an independent village, Golf Manor handles its own permits, and we pull them.',
     relevance: [
       'Golf Manor (ZIP 45237) is a small village completely surrounded by Cincinnati on the north side, with a compact grid of modest mid-century homes. A panel installed when these homes were built is decades old now, and the smaller-house service of that era — often 60 or 100 amps — was never planned for central air, an electric range, and a basement full of appliances.',
       'The signs of an outgrown panel show plainly here: breakers tripping in summer, a panel with no spare slots, or a main that simply cannot carry the added load. We replace the dated service with a properly sized 200-amp panel. Golf Manor is an independent village with its own permitting, and we pull the permit and schedule the inspection so the upgrade is documented and code-compliant.',
@@ -225,7 +225,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fairfax': {
     intro:
-      'Older homes in Fairfax along Wooster Pike often run on aging panels that today’s loads outgrow. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'Scorch around the bus and breakers that trip under summer load are common signs before panel replacement in Fairfax. The early- and mid-1900s homes along Wooster Pike near Mariemont have decades-old panels that never planned for central cooling. Fairfax runs its own permits, and we pull them.',
     relevance: [
       'Fairfax (ZIP 45227) is a small east-side village along Wooster Pike near Mariemont, with established early- and mid-1900s homes. A panel from when these houses were built or last updated is now decades old, and the service sized for that era rarely accounts for the central cooling and modern appliance loads owners have since added.',
       'The familiar signs show up across this older stock — breakers tripping under summer load, a full panel out of slots, or scorch around the bus. We upgrade Fairfax homes to a properly rated 200-amp service. As a small village with its own permitting, Fairfax requires that the work be permitted and inspected, which we handle so the upgrade is documented for resale near Mariemont.',
@@ -241,7 +241,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mack': {
     intro:
-      'Even newer homes in Mack are now old enough for an aging panel to fall short of modern loads. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'Even newer homes in Mack can need panel replacement once an EV charger, hot tub or finished basement is added. Mid-century houses in this Green Township community are well into the age where a 100-amp panel runs short. We run a load calculation and size the panel to it.',
     relevance: [
       'Mack (ZIP 45248) is an established community in Green Township on the west side, with neighborhoods of mid-century and newer single-family homes. The mid-century houses here are well into the age where a 100-amp panel runs short, and even the newer homes have reached the point where an original panel can no longer carry an added EV charger, hot tub, or finished basement.',
       'Across that range, the fix is the same: a panel sized for what the home actually draws today. We replace dated service with a properly rated 200-amp panel and add capacity for the loads owners want to run. Mack falls under Green Township and Hamilton County permitting, and we pull the permit and schedule the inspection so the upgrade is documented for resale.',
@@ -257,7 +257,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'monfort-heights': {
     intro:
-      'Mid-century homes in Monfort Heights often run on 100-amp service that central air and added loads outgrow. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'Monfort Heights homes are mostly mid-century, with 100-amp panels now past 40 years old, so panel replacement there is common. Breakers trip on hot afternoons and panels run out of slots. We upgrade to 200 amps under Green Township and Hamilton County permitting.',
     relevance: [
       'Monfort Heights (ZIP 45247) is a settled Green Township suburb on the west side, made up largely of mid-century single-family homes. A panel installed when these homes were built is now well past 40 years old, and the 100-amp service typical of that era was sized before central cooling, electric ranges, and modern appliance loads became the norm.',
       'The signs of an outgrown panel are familiar across this suburban stock — breakers tripping on a hot afternoon, a full panel with no spare slots, or a main that cannot carry the added load. We upgrade Monfort Heights homes to a properly rated 200-amp service. Under Green Township and Hamilton County permitting, we pull the permit and schedule the inspection so the upgrade is documented for resale.',
@@ -273,7 +273,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bridgetown': {
     intro:
-      'Mid-century and newer homes in Bridgetown often reach the point where an aging panel falls short of modern loads. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'Bridgetown has mid-century homes with 100-amp panels out of room and newer homes struggling with an added EV charger, hot tub or central air, so panel replacement there covers both. Frequent tripping and full panels are the usual signs. We size a 200-amp panel to the load.',
     relevance: [
       'Bridgetown (ZIP 45248) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. The mid-century houses here are well into the age where a 100-amp panel runs out of room, and the newer homes have reached the point where an original panel struggles with an added EV charger, hot tub, or central air.',
       'Across that range of housing, the common need is a panel rated for the loads a household actually runs today. We replace dated service with a properly sized 200-amp panel and add capacity where the load calls for it. Under Green Township and Hamilton County permitting, we pull the permit and schedule the inspection so the upgrade is documented for resale.',
@@ -289,7 +289,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'finneytown': {
     intro:
-      'Mid-century homes in Finneytown often run on aging panels that central air and added loads outgrow. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'Finneytown’s mid-century homes have 100-amp panels sized before central cooling and modern kitchens, which makes panel replacement steady work there. Scorch and rust around the bus are common in this Springfield Township community. We upgrade to 200 amps and handle the township permit.',
     relevance: [
       'Finneytown (ZIP 45231) is a settled Springfield Township community on the north side, made up largely of mid-century single-family homes. A panel installed when these homes were built is decades old now, and the 100-amp service common to that era was sized before central cooling and modern kitchens became standard equipment.',
       'The signs of an outgrown panel are familiar across this stock — breakers tripping under summer load, a panel out of slots, or scorch and rust around the bus. We upgrade Finneytown homes to a properly rated 200-amp service. Under Springfield Township and Hamilton County permitting, we pull the permit and schedule the inspection so the upgrade is documented for resale.',
@@ -305,7 +305,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'amberley': {
     intro:
-      'Large homes in Amberley Village carry big electrical loads that an aging panel can outgrow. We replace panels and upgrade service with licensed, permitted work. Call (513) 586-5107.',
+      'Multiple HVAC zones, large kitchens, pools and outbuildings put heavy loads on the original panels in Amberley Village, so panel replacement there is often a cleanup of added subpanels too. We install a 200-amp or larger main. The village handles its own permits, and we pull them.',
     relevance: [
       'Amberley Village (ZIP 45237) is an affluent north-side village known for its large homes on big, wooded lots along winding streets. Houses that size carry a lot of circuits — multiple HVAC zones, large kitchens, pools and outbuildings — and when the original panel dates to the home’s earlier years, it is frequently both undersized and out of slots for everything it now feeds.',
       'A large home with a maxed-out panel often hides a tangle of added subpanels and overloaded circuits. We replace the main service with a properly rated 200-amp or larger panel and bring the whole arrangement back to a clean, code-compliant layout. Amberley Village handles its own permitting, and we pull the permit and schedule the inspection so the upgrade is documented for resale.',
@@ -321,7 +321,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'arlington-heights': {
     intro:
-      'Older homes in Arlington Heights often run on aging, undersized panels. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'Damp basements on low Mill Creek valley ground corrode bus bars and breaker contacts in Arlington Heights, and panel replacement there usually follows. The older homes have undersized original service. A corroded panel can run hot or stop protecting circuits. The village runs its own permits, and we pull them.',
     relevance: [
       'Arlington Heights (ZIP 45215) is a small village in the Mill Creek valley north of the city, with a compact grid of older homes. The original service in these houses was sized for an earlier era, and the low valley ground brings damp basements that corrode panel busbars and breaker contacts faster than in a drier home.',
       'A corroded, undersized panel is worth replacing before it runs hot or stops protecting circuits reliably. We swap the old service for a properly rated panel sized for the home’s loads. Arlington Heights is a small village with its own permitting, and we pull the permit and schedule the inspection so the upgrade is documented and code-compliant.',
@@ -337,7 +337,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'north-college-hill': {
     intro:
-      'North College Hill’s older homes often run on undersized service or an old fuse box. We replace panels and upgrade amperage with licensed, permitted work. Call (513) 586-5107.',
+      'Tightly packed early- and mid-1900s homes in North College Hill often still have a fuse box or early 60-amp panel, so panel replacement there is common. Central air pushes that service past its limit. As an independent city, North College Hill runs its own permits, and we pull them.',
     relevance: [
       'North College Hill (ZIP 45239) is a small, densely built city just north of College Hill, with a grid of early- and mid-1900s homes. Houses from that era were wired for modest loads on small lots, so the original service is frequently a fuse box or an early 60-amp panel that today’s central air and appliances push well past its limit.',
       'On these tightly packed lots, a panel that runs hot or trips repeatedly is a hazard worth addressing. We replace dated service with a properly rated 200-amp panel and clear out the daisy-chained additions. North College Hill is an independent city with its own permitting, and we pull the permit and schedule the inspection so the upgrade is documented for resale.',
@@ -353,7 +353,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'newtown': {
     intro:
-      'Older riverside homes in Newtown near the Little Miami often run on aging panels in damp basements. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'A panel that has taken on water should be replaced, not patched, which is why panel replacement comes up so often in Newtown. Older homes on low river-bottom ground near the Little Miami have damp basements that corrode bus bars and feeder lugs. Newtown runs its own permits.',
     relevance: [
       'Newtown (ZIP 45244) is a small east-side village near the Little Miami River, with older homes set on low river-bottom ground. The age of these homes means older service is common, and the low, flood-prone ground brings damp basements and humidity that corrode panel busbars, breaker contacts, and feeder lugs faster than in a dry house.',
       'A corroded panel near the river runs hot and grows unreliable, and a panel that has ever taken on water should be replaced rather than patched. We replace deteriorated service in these riverside homes and size the new panel for the loads a modern household carries. Newtown is a village with its own permitting, and we pull the permit and schedule the inspection so the upgrade is documented for resale.',
@@ -369,7 +369,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'turpin-hills': {
     intro:
-      'Homes in Turpin Hills often reach the point where an aging panel falls short of modern loads. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'Panel replacement in Turpin Hills ranges from mid-century houses whose 100-amp panels are running short to newer homes struggling with an added EV charger or hot tub. We size the new service to what the home draws today and handle the Anderson Township permit.',
     relevance: [
       'Turpin Hills (ZIP 45244) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. The mid-century houses here are well into the age where a 100-amp panel runs short, and the newer homes have reached the point where an original panel can struggle with an added EV charger, hot tub, or finished basement.',
       'Across that range, the need is the same — a panel rated for what the home actually draws today. We replace dated service with a properly sized 200-amp panel and add capacity where the load calls for it. Under Anderson Township and Hamilton County permitting, we pull the permit and schedule the inspection so the upgrade is documented for resale.',
@@ -385,7 +385,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'silverton': {
     intro:
-      'Older homes in Silverton along Montgomery Road often run on aging panels that today’s loads outgrow. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'Breakers tripping under summer load and scorch around the bus are typical before panel replacement in Silverton. The early- and mid-1900s homes along Montgomery Road have decades-old panels sized before central cooling. Silverton is an independent city with its own permits, and we pull them.',
     relevance: [
       'Silverton (ZIP 45236) is a small city along Montgomery Road on the east side, with established streets of early- and mid-1900s homes. A panel from when these houses were built or last updated is decades old now, and the service sized for that era rarely accounts for the central cooling and modern appliance loads owners have since added.',
       'The familiar signs show up across this older stock — breakers tripping under summer load, a full panel with no spare slots, or scorch around the bus. We upgrade Silverton homes to a properly rated 200-amp service. As an independent city with its own permitting, Silverton requires permitted, inspected work, which we handle so the upgrade is documented for resale.',
@@ -401,7 +401,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lockland': {
     intro:
-      'Lockland’s old worker housing often runs on undersized service in damp valley basements. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'Lockland’s compact worker houses were wired for the modest loads of the mill era, and panel replacement there usually deals with damp valley basements too. Corroded bus bars and breaker contacts are common, along with years of added-on fixes. The village runs its own permits, and we pull them.',
     relevance: [
       'Lockland (ZIP 45215) is a historic village in the Mill Creek valley north of the city, built up around mills and industry, with closely spaced older worker housing. Those compact homes were wired for the modest loads of an earlier era, and the low valley ground brings damp basements that corrode panel busbars and breaker contacts faster than in a drier house.',
       'A corroded, undersized panel in a closely built home is worth replacing before it runs hot or stops tripping reliably. We swap the old service for a properly rated panel sized for the home’s loads and clear out the added-on fixes. Lockland is a village with its own permitting, and we pull the permit and schedule the inspection so the upgrade is documented and code-compliant.',
@@ -417,7 +417,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'groesbeck': {
     intro:
-      'Mid-century homes in Groesbeck often run on 100-amp service that central air and added loads outgrow. We replace and upgrade panels with licensed, permitted work. Call (513) 586-5107.',
+      'Panels past 40 years old on 100-amp service make panel replacement a regular job in Groesbeck. The mid-century homes in this Colerain Township community trip in summer and run out of slots once central air and an electric range are running. We upgrade them to 200 amps.',
     relevance: [
       'Groesbeck (ZIP 45239) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. A panel installed when these homes were built is now well past 40 years old, and the 100-amp service typical of that era was sized before central cooling, electric ranges, and modern appliance loads became standard.',
       'The signs of an outgrown panel are familiar across this stock — breakers tripping in summer, a panel out of slots, or a main that cannot carry the added load. We upgrade Groesbeck homes to a properly rated 200-amp service. Under Colerain Township and Hamilton County permitting, we pull the permit and schedule the inspection so the upgrade is documented for resale.',
@@ -433,7 +433,7 @@ export const part3: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-healthy': {
     intro:
-      'Mount Healthy’s older homes often run on undersized service or an old fuse box. We replace panels and upgrade amperage with licensed, permitted work. Call (513) 586-5107.',
+      'Mount Healthy has early-1900s houses with fuse boxes or 60-amp panels and mid-century homes with 100-amp service, so panel replacement there covers both. Breakers tripping, full panels and scorch around the bus are the shared signs. As an independent city, Mount Healthy runs its own permits.',
     relevance: [
       'Mount Healthy (ZIP 45231) is a historic small city on the north side, with an old town center and streets of early-1900s and mid-century homes. The early-1900s houses were wired for modest loads, so the original service is frequently a fuse box or an early 60-amp panel, while the mid-century homes carry 100-amp service that central air and modern appliances have outgrown.',
       'Across that mix, the signs are the same — breakers tripping, a full panel, or scorch around the bus. We replace dated service with a properly rated 200-amp panel and clear out the added-on fixes. Mount Healthy is an independent city with its own permitting, and we pull the permit and schedule the inspection so the upgrade is documented for resale.',

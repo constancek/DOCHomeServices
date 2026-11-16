@@ -6,6 +6,8 @@ import { part3 } from './hot-tub-wiring-parts/part3';
 import { part4 } from './hot-tub-wiring-parts/part4';
 import { part5 } from './hot-tub-wiring-parts/part5';
 import { part6 } from './hot-tub-wiring-parts/part6';
+// Fully localized towns (one format), wired in by hot-tub-wiring-pilot/build-index.mjs.
+import { hotTubPilot } from './hot-tub-wiring-pilot';
 
 // Per-neighborhood, hot-tub-wiring-specific copy, drafted from each
 // neighborhood's real local facts in content/locations.ts.
@@ -16,6 +18,7 @@ const all: Record<string, LocationServiceCopy> = {
   ...part4,
   ...part5,
   ...part6,
+  ...hotTubPilot,
 };
 
 // Dev shows all 170; production build ships only the DEPLOYED_LOCATION_SLUGS cohort.

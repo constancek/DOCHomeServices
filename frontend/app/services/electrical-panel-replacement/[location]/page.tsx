@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -8,13 +9,15 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'electrical-panel-replacement',
   serviceName: 'Electrical Panel Replacement',
+  localHeadingName: 'Electrical Panel',
+  emergencyHeading: 'Urgent Electrical Panel Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Electrical Panel Replacement',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
   businessType: 'Electrician',
   schemaServiceType: 'Electrical Panel Replacement',
-  ctaLine: 'Outgrowing your old electrical panel in {neighborhood}? Call for a free estimate',
-  heroImage: '/services/panel-hero.jpg',
+  ctaLine: 'Outgrowing your old electrical panel in {neighborhood}? Call for an estimate',
+  heroImage: '/services/panel-hero.webp',
   introHeading: 'Electrical Panel Replacement in {neighborhood}',
   introParagraphs: [
     'Your electrical panel is the heart of your home’s electrical system — it feeds every circuit and protects the house when something goes wrong. {brand} replaces and upgrades breaker panels and old fuse boxes for homeowners in {place}, sized for modern demand and done with minimal disruption.',
@@ -41,7 +44,7 @@ const config: ServiceLocationConfig = {
     { slug: 'surge-protector-installation', title: 'Surge Protection' },
     { slug: 'electrical-inspections', title: 'Electrical Inspections' },
   ],
-  band1Image: '/services/panel-signs.jpg',
+  band1Image: '/services/panel-signs.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs a New Panel',
   commonSituations: [
     'Breakers that trip frequently or won’t reset',
@@ -53,7 +56,7 @@ const config: ServiceLocationConfig = {
     'No capacity left to add a circuit, hot tub, or EV charger',
   ],
   trustedBanner: 'Your Local & Trusted Electrical Panel Pros in {neighborhood}',
-  band2Image: '/services/panel-hero.jpg',
+  band2Image: '/services/panel-hero.webp',
   band2Heading: 'What to Expect From Your Panel Service in {neighborhood}',
   band2Paragraphs: [
     'We start by assessing your existing panel, service size, and wiring, then explain whether a repair or a full replacement makes sense — with the permit and flat-rate price laid out before any work begins.',
@@ -66,12 +69,7 @@ const config: ServiceLocationConfig = {
     { title: 'Safer Home, Higher Value', body: 'A modern panel ends the nuisance trips and the safety risks of an overloaded or aging system, and it is a genuine selling point in {neighborhood}. Many insurers now require an updated panel to keep coverage, so the upgrade pays off in more ways than one.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Licensed Electricians', text: 'High-voltage panel work handled safely by trained pros.' },
-    { icon: 'check', title: 'Code-Compliant Work', text: 'Permitted installs that pass final inspection.' },
-    { icon: 'badge', title: 'Right-Sized Amperage', text: 'A panel sized for your home’s real electrical demand.' },
-    { icon: 'house', title: 'Minimal Disruption', text: 'A smooth process that respects your home and time.' },
-  ],
+  whyParagraph: 'Your new panel is sized to the electrical demand your {neighborhood} home really has. Licensed electricians handle the high-voltage work safely, the install is permitted and inspected, and we keep the disruption to your day small.',
   proofQuote:
     'Our 1960s house still had the original panel and breakers tripped constantly. They upgraded us to 200A, labeled everything, pulled the permit, and passed inspection same week. No more flickering lights, and we can finally run the AC and oven at once.',
   sharedFaqs: [
@@ -81,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'How much does panel replacement cost?', a: 'Costs vary depending on panel size, amperage, permits, and any required upgrades to the wiring or meter. We provide a clear, upfront quote after assessing your system.' },
     { q: 'Will a new electrical panel help with insurance or resale value?', a: 'Yes. Many insurers require updated panels to maintain coverage, and a modern panel can be a selling point for buyers — especially when it replaces an outdated or unsafe one.' },
   ],
+  steps: {
+    heading: 'What to Expect From Electrical Panel Replacement in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Check the Panel First', text: 'Breakers, wiring, service size and the meter base.' },
+      { icon: 'tag', title: 'You Approve the Price', text: 'A fixed flat-rate quote before the old panel comes out.' },
+      { icon: 'certificate', title: 'Permit and Inspection Handled', text: 'We pull the permit and see it through final inspection.' },
+    ],
+  },
   related: [
     { label: 'Electrical Panel Replacement (overview)', href: '/services/electrical-panel-replacement' },
     { label: 'Home Rewiring', href: '/services/home-rewiring' },
@@ -103,15 +109,15 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
-    title: `Electrical Panel Replacement in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+  return withSocial({
+    title: `Electrical Panel Replacement in ${loc.neighborhood}, ${loc.state}`,
     description: `Electrical panel replacement and upgrades in ${place} — breaker panel and fuse-box replacement by licensed electricians, sized for modern demand. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/electrical-panel-replacement/${loc.slug}` },
     openGraph: {
       title: `Electrical Panel Replacement in ${place} | ${site.name}`,
       description: `Licensed panel replacement and upgrades serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function PanelReplacementLocationPage({

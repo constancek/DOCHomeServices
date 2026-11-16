@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { withSocial } from '@/lib/seo';
 import { notFound } from 'next/navigation';
 import LocationServicePage, { type ServiceLocationConfig } from '@/components/LocationServicePage';
 import { getLocation, getNearby, locations } from '@/content/locations';
@@ -8,13 +9,15 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'ceiling-fan-installation',
   serviceName: 'Ceiling Fan Installation',
+  localHeadingName: 'Ceiling Fan Installation',
+  emergencyHeading: 'Urgent Ceiling Fan Problems in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Ceiling Fan Installation',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
   businessType: 'Electrician',
   schemaServiceType: 'Ceiling Fan Installation',
-  ctaLine: 'Want a ceiling fan installed in {neighborhood}? Call for a free estimate',
-  heroImage: '/services/ceilingfan-hero.jpg',
+  ctaLine: 'Want a ceiling fan installed in {neighborhood}? Call for an estimate',
+  heroImage: '/services/ceilingfan-hero.webp',
   introHeading: 'Ceiling Fan Installation in {neighborhood}',
   introParagraphs: [
     'A properly installed ceiling fan improves comfort, airflow, and energy efficiency all year. {brand} installs and replaces ceiling fans for homeowners in {place} — fan-rated mounting, safe wiring, and balanced, quiet operation by licensed electricians.',
@@ -41,7 +44,7 @@ const config: ServiceLocationConfig = {
     { slug: 'switches-outlets', title: 'Switches & Outlets' },
     { slug: 'electrical-panel-replacement', title: 'Panel Replacement' },
   ],
-  band1Image: '/services/ceiling-fan-installation.jpg',
+  band1Image: '/services/ceiling-fan-installation.webp',
   band1Heading: 'Signs Your {neighborhood} Home Needs Ceiling Fan Service',
   commonSituations: [
     'Wobbling or shaking during operation',
@@ -53,7 +56,7 @@ const config: ServiceLocationConfig = {
     'An outdated style that no longer fits the room',
   ],
   trustedBanner: 'Your Local & Trusted Ceiling Fan Pros in {neighborhood}',
-  band2Image: '/services/ceilingfan-hero.jpg',
+  band2Image: '/services/ceilingfan-hero.webp',
   band2Heading: 'Our Ceiling Fan Installation Process in {neighborhood}',
   band2Paragraphs: [
     'We start by checking the ceiling box — confirming it is rated for a fan’s weight and motion — then secure the mount, complete the wiring to your switches and controls, and explain the flat-rate price before any work begins.',
@@ -66,12 +69,7 @@ const config: ServiceLocationConfig = {
     { title: 'DIY vs. a Licensed Electrician', body: 'Hanging a fan looks simple until you hit the wiring and the structural support. A bad install in a {neighborhood} home leads to wobble, noise, or a safety hazard overhead. Our licensed electricians handle the box, wiring, balancing, and controls so it is secure and code-compliant from day one.' },
   ],
   whyTitle: 'Why {neighborhood} Homeowners Call Us',
-  whyUs: [
-    { icon: 'shield', title: 'Fan-Rated Mounting', text: 'We anchor to a fan-rated box so your fan stays secure and wobble-free.' },
-    { icon: 'check', title: 'Licensed Electricians', text: 'Safe, code-compliant wiring and controls every time.' },
-    { icon: 'badge', title: 'Balanced & Quiet', text: 'We balance the blades and test every speed for smooth, quiet operation.' },
-    { icon: 'clock', title: 'Upfront Pricing', text: 'Clear quotes you approve before any work begins.' },
-  ],
+  whyParagraph: 'Your fan gets anchored to a fan-rated box, so it stays secure in your {neighborhood} home instead of wobbling loose. Licensed electricians wire it to code, balance the blades and test every speed, at a price you approve first.',
   proofQuote:
     'Our old fan wobbled and rattled for years — turned out it was hung on a regular light box. They put in a fan-rated box, mounted a new fan, balanced it, and it runs dead quiet now. Clean work and a fair, upfront price.',
   sharedFaqs: [
@@ -80,6 +78,14 @@ const config: ServiceLocationConfig = {
     { q: 'How do I choose the right ceiling fan size for my room?', a: 'Match the blade span to the room: larger rooms need wider blades, and ceiling height affects whether you need a down rod or a flush mount. We help you pick the right size and style for the space.' },
     { q: 'What should I do if my ceiling fan starts making noise?', a: 'Noise usually means loose mounting, unbalanced blades, or a worn motor. We can rebalance the blades, resecure the mount, or replace the fan if the motor is failing.' },
   ],
+  steps: {
+    heading: 'What to Expect From Ceiling Fan Installation in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Check the Ceiling Box First', text: 'Whether the box is fan-rated, the wiring and the wall switch.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'What the job needs, and a flat-rate price before work begins.' },
+      { icon: 'ceilingFan', title: 'Mounted, Balanced and Tested', text: 'Anchored securely, then tested at every speed with the light and controls.' },
+    ],
+  },
   related: [
     { label: 'Ceiling Fan Installation (overview)', href: '/services/ceiling-fan-installation' },
     { label: 'Lighting Fixture Installation', href: '/services/lighting-fixture-installation' },
@@ -102,15 +108,15 @@ export async function generateMetadata({
   const loc = getLocation(location);
   if (!loc) return {};
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
-  return {
-    title: `Ceiling Fan Installation in ${loc.neighborhood}, ${loc.state} | ${site.name}`,
+  return withSocial({
+    title: `Ceiling Fan Installation in ${loc.neighborhood}, ${loc.state}`,
     description: `Ceiling fan installation and replacement in ${place} — fan-rated mounting, safe wiring, and balanced, quiet operation by licensed electricians. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/ceiling-fan-installation/${loc.slug}` },
     openGraph: {
       title: `Ceiling Fan Installation in ${place} | ${site.name}`,
       description: `Licensed ceiling fan installation and replacement serving ${place} and nearby areas.`,
     },
-  };
+  });
 }
 
 export default async function CeilingFanLocationPage({

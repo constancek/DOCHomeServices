@@ -1,7 +1,7 @@
 export const part5: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'ludlow': {
     intro:
-      'Replacing an old water heater in Ludlow, or thinking about going tankless? We size and install tank and tankless units across this historic river town and can handle most swaps the same day. Call (513) 586-5107.',
+      'An undersized 40-gallon tank in a basement corner is the wrong water heater for many Ludlow Victorian and early-1900s homes, and replacement fixes that. Hard water usually ends a tank around 10 to 12 years. We right-size the new one and bring venting and the expansion tank up to code.',
     relevance: [
       'Ludlow (ZIP 41016) is a historic Northern Kentucky river town with a walkable Elm Street business district and streets of well-preserved Victorian and early-1900s homes in Kenton County. In houses that old, the water heater is rarely the original fixture, but it is often the wrong one — an undersized 40-gallon tank squeezed into a basement corner that was never meant to hold modern plumbing, or a unit that predates the family living there.',
       'Northern Kentucky water runs hard, and hard water is what quietly kills a tank: sediment and scale build on the bottom, the burner works harder, and the unit usually gives out somewhere around the 10-to-12-year mark instead of lasting its full life. When we replace a heater in Ludlow we right-size it for the household, flush and set it up to handle the mineral load, and bring the connections, venting, and expansion tank up to current code.',
@@ -11,7 +11,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'park-hills': {
     intro:
-      'Aging water heater in Park Hills, or no hot water at all? We size and install tank and tankless units across this hillside city near Devou Park, often the same day. Call (513) 586-5107.',
+      'Park Hills water heater installation is as much about access as the new unit, since many early-1900s homes keep the heater down narrow stairs in a tight basement. On the hillside a leak hits a finished lower level fast. We size the unit and install it to code.',
     relevance: [
       'Park Hills (ZIP 41011) is a hillside Kenton County city beside Devou Park, known for its early-1900s homes on steep, tree-lined streets above Covington. Many of those homes have water heaters tucked into tight basements down a flight of narrow stairs, which makes a clean swap as much about access and safe removal as it is about the new unit.',
       'The hard water common across Northern Kentucky shortens tank life here the same way it does everywhere in the region, and on the hillside grade a heater leak in a finished lower level becomes a real problem fast. When we replace a unit in Park Hills we size it to the home, set up the venting and expansion tank to code, and can talk through whether a tankless model makes sense given the basement space and the household demand.',
@@ -21,7 +21,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bromley': {
     intro:
-      'Time to replace the water heater in Bromley? We size and install tank and tankless units across this small riverfront village and can handle most swaps the same day. Call (513) 586-5107.',
+      'Like-for-like or one size up is the main Bromley water heater replacement question, since many older homes started with small tanks. Damp basements beside the Ohio speed corrosion. We right-size the unit, raise it where flood risk warrants and bring venting up to code.',
     relevance: [
       'Bromley (ZIP 41016) is a small Northern Kentucky river village next to Ludlow, with older homes on low ground beside the Ohio River in Kenton County. Homes that sit this close to the river often keep their water heaters in basements that take on dampness, and a tank already weakened by years of hard-water scale corrodes faster in that environment.',
       'For a village this size, the practical question is usually whether to replace like-for-like or move up a size, since many of these older homes started with small tanks that no longer keep up with a modern household. When we install in Bromley we right-size the unit, raise it where flood risk warrants it, and bring the venting and connections up to current code.',
@@ -31,7 +31,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-wright': {
     intro:
-      'Water heater on its last legs in Fort Wright? We size and install tank and tankless units across this hilltop Kenton County city, often the same day. Call (513) 586-5107.',
+      'Fort Wright water heater installs mostly reach mid-century homes due for their next replacement, where hard water cuts a couple of years off a 12-year tank. We size the new unit to how the household uses hot water and weigh a bigger tank or tankless for larger homes.',
     relevance: [
       'Fort Wright (ZIP 41011) is a hilltop Kenton County city above the river, with established neighborhoods of mid-century and newer homes. A lot of those mid-century houses are now at the point where the water heater has been replaced once and is due again, and the original gas units installed decades ago are long gone.',
       'Hard water is the constant here: scale settles in the bottom of a tank, the recovery slows, and a heater that should reach 12 years quits a couple of years early. When we replace a unit in Fort Wright we size it to how the household actually uses hot water, and for larger or newer homes we can lay out whether a bigger tank or a tankless system is the better fit, all installed to current code.',
@@ -41,7 +41,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-mitchell': {
     intro:
-      'Old water heater giving out in Fort Mitchell? We size and install tank and tankless units across this established city along Dixie Highway, often the same day. Call (513) 586-5107.',
+      'Fort Mitchell water heater replacement ranges from undersized tanks in older homes along Dixie Highway to mid-century units past their useful life. Hard water shortens tank life, so the new install includes scale management. We right-size the heater and set the expansion tank and venting to code.',
     relevance: [
       'Fort Mitchell (ZIP 41017) is an established Kenton County city along the Dixie Highway corridor, with a mix of historic and mid-century homes on settled streets. That range of housing means we see everything from undersized tanks in older homes to mid-century units that have quietly aged past their useful life.',
       'The hard water across Northern Kentucky shortens tank life here as it does everywhere in the region, which is why a replacement is as much about scale management as it is about the unit itself. When we install in Fort Mitchell we right-size the heater, set up the expansion tank and venting to code, and can flush or recommend a softener to help the new unit last.',
@@ -51,7 +51,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'villa-hills': {
     intro:
-      'Replacing the water heater in Villa Hills, or upgrading to tankless? We size and install both across this hilltop residential city, often the same day. Call (513) 586-5107.',
+      'Villa Hills water heater installation often upsizes, since larger floor plans outgrew the modest tanks they were built with and builder-installed units are running their course. Hard water scales tanks here regardless of the home’s age. We size to the household and weigh a larger tank or tankless.',
     relevance: [
       'Villa Hills (ZIP 41017) is a hilltop residential Kenton County city above the river, made up largely of mid-century and newer single-family homes. Even the newer homes here are reaching the age where the builder-installed water heater has run its course, and the larger floor plans often outgrew the modest tank they were built with.',
       'Hard water is the common thread across Villa Hills, scaling tanks and shortening their life regardless of how new the house is. When we replace a unit here we size it to the household, and in the bigger homes we can lay out whether a larger tank or a tankless system makes more sense, all brought up to current code.',
@@ -61,7 +61,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lakeside-park': {
     intro:
-      'Water heater past its prime in Lakeside Park? We size and install tank and tankless units across this small Kenton County city, often the same day. Call (513) 586-5107.',
+      'Mid-century homes on their second or third tank make up most Lakeside Park water heater replacement, and many are still undersized for how families use hot water now. Hard water ends tanks a year or two early. We right-size the new heater and set venting to code.',
     relevance: [
       'Lakeside Park (ZIP 41017) is a small, settled Kenton County city made up largely of mid-century single-family homes on quiet streets. Homes of that era are now on their second or third water heater, and many still run tanks that are undersized for how families use hot water today.',
       'Northern Kentucky hard water scales those tanks from the inside, so a unit here tends to give out a year or two short of its rated life. When we replace a heater in Lakeside Park we right-size it, set up the expansion tank and venting to code, and can flush the system or suggest a softener to protect the new install.',
@@ -71,7 +71,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'crescent-springs': {
     intro:
-      'Old water heater in Crescent Springs, or no hot water this morning? We size and install tank and tankless units across this suburban Kenton County city, often the same day. Call (513) 586-5107.',
+      'Crescent Springs water heater swaps often replace the tank that came with the house and has worked past the point where it can be trusted. Hard water leaves scale on the burner and sediment in the bottom. We size the new unit and can lay out a tankless upgrade.',
     relevance: [
       'Crescent Springs (ZIP 41017) is a suburban Kenton County city with established neighborhoods of mid-century and newer homes. Across that mix we see plenty of water heaters that were installed when the house was built and have quietly worked past the point where they can be trusted.',
       'The hard water common across Northern Kentucky is what usually ends a tank early here, leaving scale on the burner and sediment in the bottom. When we replace a unit in Crescent Springs we size it to the home, bring the connections and expansion tank up to code, and can talk through a tankless upgrade for homes that want endless hot water and the floor space back.',
@@ -81,7 +81,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'crestview-hills': {
     intro:
-      'Replacing a water heater in Crestview Hills, at home or a business? We size and install tank and tankless units across this Kenton County city, often the same day. Call (513) 586-5107.',
+      'Crestview Hills water heater replacement runs from family-sized tanks in homes to higher-demand units for commercial buildings near Thomas More University. Hard water shortens tank life across all of them. We size each unit to actual demand and set venting and expansion tanks to code.',
     relevance: [
       'Crestview Hills (ZIP 41017) is a Kenton County city home to Thomas More University and the Crestview Hills mall, with residential neighborhoods alongside a commercial corridor. That means we install everything from family-sized tanks in mid-century and newer homes to higher-demand units for commercial buildings along the corridor.',
       'Hard water shortens tank life across all of it, scaling the bottom and slowing recovery, so a Crestview Hills replacement is partly about managing minerals. When we install here we size the unit to actual demand, set up venting and expansion tanks to code, and for higher-use buildings we can lay out whether a larger tank or tankless system is the better long-term choice.',
@@ -91,7 +91,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'edgewood': {
     intro:
-      'Water heater failing in Edgewood? We size and install tank and tankless units across this residential Kenton County city, often the same day. Call (513) 586-5107.',
+      'Edgewood water heater installation usually replaces the modest tank a mid-century or newer home was built with, now due. Hard water ends many of these a year or two short of their rated life. We size the new unit and bring connections and the expansion tank up to code.',
     relevance: [
       'Edgewood (ZIP 41017) is a residential Kenton County city, home to St. Elizabeth Healthcare, with established neighborhoods of mid-century and newer homes. Homes of that era are now at the point where the water heater is due for replacement, and many still run the modest tank they were originally built with.',
       'Northern Kentucky hard water scales those tanks from the inside, which is why an Edgewood heater often quits a year or two short of its rated life. When we replace a unit here we size it to the household, bring the connections and expansion tank up to current code, and can flush the system or recommend a softener so the new install lasts longer.',
@@ -101,7 +101,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'taylor-mill': {
     intro:
-      'Old water heater in Taylor Mill, or running out of hot water? We size and install tank and tankless units across this hilltop Kenton County city, often the same day. Call (513) 586-5107.',
+      'Even newer Taylor Mill homes now need water heater replacement as builder-grade tanks run their course. On this hillside, a leak in a finished basement causes more trouble than on flat ground. We right-size the new unit, set venting and the expansion tank to code and weigh tankless.',
     relevance: [
       'Taylor Mill (ZIP 41015) is a hilltop residential Kenton County city south of Covington, made up largely of mid-century and newer single-family homes. Even the newer homes here are reaching the age where the builder-grade water heater has run its course, and on the hillside a tank leak in a finished basement causes more trouble than it would on flat ground.',
       'Hard water is the constant across Taylor Mill, scaling tanks and trimming a couple of years off their life. When we replace a heater here we right-size it for the home, set the venting and expansion tank to code, and can lay out whether a tankless model makes sense given the basement space and the family demand.',
@@ -111,7 +111,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'elsmere': {
     intro:
-      'Water heater on the way out in Elsmere? We size and install tank and tankless units across this Kenton County city along Dixie Highway, often the same day. Call (513) 586-5107.',
+      'Elsmere water heater installs mostly replace undersized originals or first replacements that have aged out in the older and mid-century homes along Dixie Highway. Hard water shortens tank life. We right-size the new unit, set venting and the expansion tank to code and can add a softener.',
     relevance: [
       'Elsmere (ZIP 41018) is an established Kenton County city along the Dixie Highway corridor near Erlanger, with a mix of older and mid-century homes. The age of that housing means many water heaters here are undersized originals or first replacements that have themselves aged out.',
       'The hard water common across Northern Kentucky scales those tanks and shortens their life, so a replacement in Elsmere is partly about managing minerals going forward. When we install here we right-size the unit, bring the venting and expansion tank up to code, and can flush the system or recommend a softener to protect the new heater.',
@@ -121,7 +121,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'independence': {
     intro:
-      'Replacing a water heater in Independence, KY, whether in the old core or a newer subdivision? We size and install tank and tankless units, often the same day. Call (513) 586-5107.',
+      'Independence water heater replacement splits between undersized aging tanks in the historic core and builder-grade units in newer subdivisions reaching the end of their life street by street. Hard water shortens both. We size the unit to the household and weigh a bigger tank or tankless.',
     relevance: [
       'Independence, KY (ZIP 41051) is the Kenton County seat and one of the faster-growing cities in Northern Kentucky, with a historic core surrounded by newer subdivisions. That split shapes the work: in the older core we replace undersized aging tanks, while in the newer subdivisions we are starting to see builder-grade water heaters reach the end of their predictable life all at once across whole streets.',
       'Hard water shortens tank life across both, scaling the bottom and slowing recovery no matter how new the house is. When we install in Independence we size the unit to the household, set up the expansion tank and venting to code, and can lay out whether a bigger tank or a tankless system fits a growing family in a newer home.',
@@ -131,7 +131,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'dayton-ky': {
     intro:
-      'Old water heater in Dayton, KY, or no hot water this morning? We size and install tank and tankless units across this riverfront city next to Bellevue, often the same day. Call (513) 586-5107.',
+      'Dayton water heater installation in late-1800s and early-1900s homes near the Ohio usually means a small, sometimes damp basement and a tank too small for the household. Dampness and hard water wear tanks out early. We right-size the new unit and raise it where flood risk warrants.',
     relevance: [
       'Dayton, KY (ZIP 41074) is a Northern Kentucky river city in Campbell County next to Bellevue, with tight streets of well-preserved late-1800s and early-1900s homes near the Ohio River. In houses that old, the water heater is usually squeezed into a small, sometimes damp basement, and many started out with a tank too small for how families use hot water now.',
       'The hard water across the region scales those tanks early, and a basement near the river adds dampness that corrodes a weakened unit faster. When we replace a heater in Dayton we right-size it, raise it off the floor where flood risk warrants it, and bring the connections, venting, and expansion tank up to current code.',
@@ -141,7 +141,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'southgate': {
     intro:
-      'Water heater past its prime in Southgate? We size and install tank and tankless units across this Campbell County city near Newport, often the same day. Call (513) 586-5107.',
+      'Southgate water heater installs reach mid-century homes between Newport and Fort Thomas on their second or third tank, often modest to begin with. Hard water ends these a year or two early. We right-size the new heater and set the venting and expansion tank to code.',
     relevance: [
       'Southgate, KY (ZIP 41071) is a small Campbell County city between Newport and Fort Thomas, with established neighborhoods of mid-century homes. Homes of that era are now on their second or third water heater, and many still run a tank that was modest to begin with.',
       'Northern Kentucky hard water scales those tanks from the inside, so a Southgate unit tends to give out a year or two short of its rated life. When we replace a heater here we right-size it for the household, set the venting and expansion tank to code, and can flush the system or recommend a softener to protect the new install.',
@@ -151,7 +151,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'wilder': {
     intro:
-      'Replacing a water heater in Wilder, at home or a business? We size and install tank and tankless units across this Campbell County city, often the same day. Call (513) 586-5107.',
+      'Family-sized tanks in mid-century homes and higher-demand units in commercial buildings along the Licking River corridor are both part of Wilder water heater installation. Hard water shortens tank life across all of them. We size each unit to actual demand and set venting and the expansion tank to code.',
     relevance: [
       'Wilder, KY (ZIP 41076) is a Campbell County city along the Licking River corridor, with a commercial and industrial base alongside residential neighborhoods. That mix means we install everything from family-sized tanks in mid-century homes to higher-demand units for commercial buildings.',
       'Hard water shortens tank life across all of it, scaling the bottom and slowing recovery, so a Wilder replacement is partly about managing minerals going forward. When we install here we size the unit to actual demand, bring the venting and expansion tank up to code, and for higher-use buildings we can lay out whether a larger tank or a tankless system is the better long-term choice.',
@@ -161,7 +161,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'highland-heights': {
     intro:
-      'Old water heater in Highland Heights, or a rental near NKU with no hot water? We size and install tank and tankless units, often the same day. Call (513) 586-5107.',
+      'Rentals near NKU run their water heaters hard, so Highland Heights water heater replacement tends to come sooner there than in nearby family homes. Hard water trims years off every tank. We right-size the new unit for the household or rental load and can add a softener.',
     relevance: [
       'Highland Heights, KY (ZIP 41076) is a Campbell County city home to Northern Kentucky University, with a mix of residential neighborhoods and student housing. Rentals near NKU run their water heaters hard, so tanks here often wear out faster than the family homes nearby and need quick, no-fuss replacement when they go.',
       'The hard water across the region scales those tanks and trims years off their life regardless of the home. When we replace a unit in Highland Heights we right-size it for the household or the rental load, bring the venting and expansion tank up to code, and can flush the system or recommend a softener to slow the scale.',
@@ -171,7 +171,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cold-spring': {
     intro:
-      'Water heater giving out in Cold Spring? We size and install tank and tankless units across this growing Campbell County city along US-27, often the same day. Call (513) 586-5107.',
+      'Builder-grade tanks in newer subdivisions along US-27 are starting to reach the end of their life, which keeps Cold Spring water heater installation busy alongside older homes. Hard water shortens tank life in both. We size the unit to the household and weigh a bigger tank or tankless.',
     relevance: [
       'Cold Spring, KY (ZIP 41076) is a growing Campbell County city along the US-27 corridor, with a mix of established neighborhoods and newer subdivisions. In the newer subdivisions we are starting to see builder-grade water heaters reach the end of their predictable life, while the older houses run units that have aged out the usual way.',
       'Hard water shortens tank life across both, scaling the bottom and slowing recovery no matter how new the house is. When we install in Cold Spring we size the unit to the household, set up the expansion tank and venting to code, and can lay out whether a bigger tank or a tankless system fits a growing family in a newer home.',
@@ -181,7 +181,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'alexandria': {
     intro:
-      'Replacing a water heater in Alexandria, KY, in town or out on a rural property? We size and install tank and tankless units, often the same day. Call (513) 586-5107.',
+      'Alexandria water heater installs span undersized tanks in the older core, builder-grade units in subdivisions and rural homes on well water with a heavier mineral load. Hard water scales tanks faster out here. We size the new unit, set it to code and can recommend a softener or flush plan.',
     relevance: [
       'Alexandria, KY (ZIP 41001) is the Campbell County seat, a growing southern community with a historic core surrounded by newer subdivisions and some semi-rural homes. That range means we replace undersized tanks in the older core, builder-grade units aging out in the subdivisions, and heaters on rural properties that may run on well water.',
       'Hard water shortens tank life across the area, and on well water the mineral load can be even higher, which scales a tank faster still. When we install in Alexandria we size the unit to the household, bring the venting and expansion tank up to code, and can recommend a softener or flush schedule so the new heater lasts.',
@@ -191,7 +191,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'melbourne': {
     intro:
-      'Old water heater in Melbourne, or no hot water today? We size and install tank and tankless units across this small river village, often the same day. Call (513) 586-5107.',
+      'Melbourne water heater swaps usually come down to like-for-like or one size up, since older homes on low riverside ground east of Newport often started with a modest tank. Damp basements and hard water wear tanks early. We right-size the unit and raise it where flood risk warrants.',
     relevance: [
       'Melbourne, KY (ZIP 41059) is a small Campbell County village along the Ohio River east of Newport, with older homes on low riverside ground. Homes that sit this close to the river often keep their water heaters in basements that take on dampness, and a tank already worn by hard-water scale corrodes faster in that setting.',
       'For a village this small, the practical question is usually whether to replace like-for-like or move up a size, since many of these older homes started with a modest tank. When we install in Melbourne we right-size the unit, raise it off the floor where flood risk warrants it, and bring the connections and venting up to current code.',
@@ -201,7 +201,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hebron': {
     intro:
-      'Replacing a water heater in Hebron, in a subdivision or out on a rural lot? We size and install tank and tankless units, often the same day. Call (513) 586-5107.',
+      'Near CVG, Hebron water heater replacement covers builder-grade subdivision tanks failing at a predictable age and rural heaters fed by well water with a heavier mineral load. Hard water scales tanks faster on wells. We size the new unit to the household and can recommend a softener.',
     relevance: [
       'Hebron, KY (ZIP 41048) is a Boone County community near the Cincinnati/Northern Kentucky airport (CVG), with a mix of newer subdivisions and established semi-rural homes. In the subdivisions the builder-grade water heaters are reaching the age where they fail on a predictable schedule, while rural properties may run heaters fed by well water with a heavier mineral load.',
       'Hard water shortens tank life across Boone County, and on well water it can be worse, scaling a tank faster still. When we install in Hebron we size the unit to the household, bring the venting and expansion tank up to code, and can recommend a softener or flush schedule to protect the new heater.',
@@ -211,7 +211,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'burlington': {
     intro:
-      'Water heater on the way out in Burlington? We size and install tank and tankless units across this Boone County seat, often the same day. Call (513) 586-5107.',
+      'Burlington water heater installation splits between undersized aging tanks around the old courthouse and builder-grade units in newer subdivisions reaching the end of their life street by street. Hard water shortens both. We size each unit to the household and weigh a bigger tank or tankless.',
     relevance: [
       'Burlington, KY (ZIP 41005) is the Boone County seat, with a historic core around the old courthouse surrounded by fast-growing newer subdivisions. That split shapes the work: in the historic core we replace undersized aging tanks, while across the newer subdivisions the builder-grade water heaters are now reaching the end of their predictable life street by street.',
       'Hard water shortens tank life throughout Boone County, scaling the bottom and slowing recovery regardless of how new the house is. When we install in Burlington we size the unit to the household, set up the expansion tank and venting to code, and can lay out whether a bigger tank or a tankless system fits a growing family in a newer home.',
@@ -221,7 +221,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'union': {
     intro:
-      'Builder-grade water heater aging out in Union? We size and install tank and tankless units across this fast-growing Boone County city, often the same day. Call (513) 586-5107.',
+      'Original builder-grade tanks from the 1990s onward are hitting the 15-to-25-year span across Union subdivisions, so water heater replacement often comes several to a street. Hard water slows recovery even in newer homes. We size the new unit and weigh a bigger tank or tankless for larger floor plans.',
     relevance: [
       'Union, KY (ZIP 41091) is one of the fastest-growing cities in Boone County, made up largely of newer subdivisions built from the 1990s onward. Many of those original builder-grade water heaters are now hitting the 15-to-25-year span where they have aged well past their reliable life, often several on the same street at once.',
       'Hard water shortens tank life across Boone County, scaling the bottom and slowing recovery even in newer homes. When we install in Union we size the unit to the household, bring the venting and expansion tank up to current code, and for the larger floor plans common here we can lay out whether a bigger tank or a tankless system is the better fit.',
@@ -231,7 +231,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'walton': {
     intro:
-      'Replacing a water heater in Walton, in town or on a rural property? We size and install tank and tankless units, often the same day. Call (513) 586-5107.',
+      'Walton water heater installs reach undersized tanks in the older core, builder-grade units in newer subdivisions and rural homes on well water. The mineral load on wells scales tanks faster. We size the new unit to the household, set it to code and can recommend a softener or flush plan.',
     relevance: [
       'Walton, KY (ZIP 41094) is a small, growing town at the southern edge of the Boone County metro, with a historic core and newer subdivisions plus surrounding rural homes. That range means we replace undersized tanks in the older core, builder-grade units aging out in the subdivisions, and heaters on rural properties that may run on well water.',
       'Hard water shortens tank life across the area, and on well water the mineral load can be heavier still, scaling a tank faster. When we install in Walton we size the unit to the household, bring the venting and expansion tank up to code, and can recommend a softener or flush schedule so the new heater lasts.',
@@ -241,7 +241,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-carmel': {
     intro:
-      'Old water heater in Mount Carmel, OH, or running out of hot water? We size and install tank and tankless units across this Union Township community, often the same day. Call (513) 586-5107.',
+      'Many Mount Carmel homes still run the modest tank they were built with, and it is now due for water heater replacement. In this Union Township community near I-275, hard water slows recovery and shortens tank life. We size the new unit and can lay out a tankless upgrade.',
     relevance: [
       'Mount Carmel, OH (ZIP 45244) is a Union Township community on the east side near the I-275 corridor, with established neighborhoods of mid-century and newer homes in Clermont County. Homes of that era are now at the point where the water heater is due for replacement, and many still run the modest tank they were originally built with.',
       'Hard water scales those tanks from the inside, slowing recovery and cutting their life short of the rated mark. When we replace a heater in Mount Carmel we size it to the household, bring the connections and expansion tank up to current code, and can talk through a tankless upgrade for homes that want endless hot water and the floor space back.',
@@ -251,7 +251,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'summerside': {
     intro:
-      'Water heater past its prime in Summerside, OH? We size and install tank and tankless units across this Union Township community, often the same day. Call (513) 586-5107.',
+      'Summerside water heater installation usually reaches mid-century and newer homes on their second or third tank, often one that was modest for the floor plan. Hard water shortens tank life regardless of the home’s age. We right-size the new unit, set venting to code and can add a softener.',
     relevance: [
       'Summerside, OH (ZIP 45245) is a Union Township community in western Clermont County, with suburban neighborhoods of mid-century and newer homes. Homes of that era are now on their second or third water heater, and many still run a tank that was modest for the floor plan to begin with.',
       'Hard water scales those tanks and shortens their life regardless of how new the house is. When we replace a unit in Summerside we right-size it for the household, set the venting and expansion tank to code, and can flush the system or recommend a softener to protect the new install.',
@@ -261,7 +261,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'withamsville': {
     intro:
-      'Replacing a water heater in Withamsville, OH, at home or a business? We size and install tank and tankless units along the Ohio Pike corridor, often the same day. Call (513) 586-5107.',
+      'Along the Ohio Pike corridor, Withamsville water heater replacement ranges from family-sized tanks in homes to higher-demand units for commercial buildings. Hard water slows recovery across all of them. We size each unit to actual demand and set venting and expansion tanks to code.',
     relevance: [
       'Withamsville, OH (ZIP 45245) is a Union Township community along the Ohio Pike corridor in western Clermont County, with a mix of suburban homes and commercial strips. That means we install everything from family-sized tanks in mid-century and newer homes to higher-demand units for the commercial buildings along the pike.',
       'Hard water shortens tank life across all of it, scaling the bottom and slowing recovery, so a Withamsville replacement is partly about managing minerals. When we install here we size the unit to actual demand, bring the venting and expansion tank up to code, and for higher-use buildings we can lay out whether a larger tank or tankless system is the better long-term choice.',
@@ -271,7 +271,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'milford': {
     intro:
-      'Old water heater in Milford, OH, or no hot water this morning? We size and install tank and tankless units across this historic city on the Little Miami River, often the same day. Call (513) 586-5107.',
+      'Small basements under Milford’s 19th-century Main Street buildings and older homes often hold a water heater that was undersized from the start, so replacement is a chance to fix that. Low ground near the Little Miami adds damp. We right-size the unit and raise it where flood risk warrants.',
     relevance: [
       'Milford, OH (ZIP 45150) is a historic Clermont County city straddling the Little Miami River, with a preserved old Main Street district of 19th-century buildings and surrounding older homes. In houses and buildings that old, the water heater is usually tucked into a small basement, and many started out undersized for how hot water gets used today.',
       'Hard water scales those tanks early, and the low ground near the river adds basement dampness that corrodes a weakened unit faster. When we replace a heater in Milford we right-size it, raise it off the floor where flood risk warrants it, and bring the connections, venting, and expansion tank up to current code.',

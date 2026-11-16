@@ -1,6 +1,6 @@
 export const part4: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'reading': {
-    intro: 'Still working under one dim ceiling bulb in your Reading garage? Our licensed electricians install bright, even LED garage lighting on properly sized, code-compliant circuits. Call (513) 586-5107.',
+    intro: 'A Reading garage in an older or mid-century valley home was usually wired for a single bulb and one outlet. Adding rows of LED shop fixtures means checking that circuit and often pulling a dedicated one, with enclosed fixtures and sealed connections for the damp valley ground.',
     relevance: [
       'Reading (ZIP 45215) sits in the Mill Creek valley north of Cincinnati, with a settled mix of older and mid-century homes. Garages from those eras were usually wired for a single bulb and one outlet, so adding rows of LED shop fixtures means checking the existing circuit and often pulling a dedicated one rather than loading the lights onto a garage receptacle that already runs a fridge or opener.',
       'The damp valley ground and four-season swings here are hard on anything stored in a garage, and they are hard on fixtures too. We use enclosed, properly rated LED fixtures and sealed connections so moisture does not work into them, and we wire it all to code so the brighter setup is safe to leave running over a long winter.',
@@ -14,7 +14,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dent': {
-    intro: 'Want a brighter, evenly lit garage in Dent instead of one shadowy bulb? Our licensed electricians install LED shop fixtures and dedicated circuits, all to code. Call (513) 586-5107.',
+    intro: 'Dent garages on mid-century and newer Green Township homes often hold a workbench or second fridge, but the lighting was never planned for shop use. Garage lighting here means LED rows over the bench and parking bays, and separating the lights from a busy circuit in older houses.',
     relevance: [
       'Dent (ZIP 45247) is a Green Township community on the west side, with established neighborhoods of mid-century and newer homes. The attached garages on these streets are common spots for a workbench or second fridge, but the lighting was rarely planned for shop use, so we lay out LED rows that put even light over the bench and the parking bays both.',
       'Newer Dent homes tend to have a usable garage panel feed, while the mid-century houses often need their lighting separated from an already busy circuit. Either way we size the wiring properly, add switching where it makes sense, and confirm the work meets code before we leave.',
@@ -28,7 +28,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'deer-park': {
-    intro: 'Tired of squinting in a dim Deer Park garage? Our licensed electricians swap that single bulb for bright, even LED lighting on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Deer Park garages, on mostly mid-century homes, were wired light, and many detached or modest attached garages still run decades-old wiring. Garage lighting here is usually about adding even LED rows, switching near the door and a circuit that can carry shop-style lighting.',
     relevance: [
       'Deer Park (ZIP 45236) is a small, settled city on the east side, made up largely of mid-century single-family homes on quiet streets. Garages from that era were wired light, so the upgrade here is usually about adding fixtures and a circuit that can actually carry shop-style lighting rather than just brightening one bulb.',
       'Many of these homes have detached or modest attached garages where the original wiring is now decades old. We replace tired fixtures with even LED rows, add switching near the door, and bring the circuit up to current code so the brighter setup is safe.',
@@ -42,7 +42,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'terrace-park': {
-    intro: 'Have a large garage or workshop in Terrace Park that deserves better than one bulb? Our licensed electricians install bright, even LED lighting to code. Call (513) 586-5107.',
+    intro: 'Terrace Park garage lighting often means a detached garage or carriage-style outbuilding behind an early-1900s home, still on original wiring and used as a real workshop. We lay out LED rows across the full span, add a circuit the building never had and light the driveway and entry.',
     relevance: [
       'Terrace Park (ZIP 45174) is an affluent east-side village near the Little Miami River, known for its established early-1900s homes and tree-lined streets. Older homes here often have detached garages or carriage-style outbuildings with original wiring, so lighting them well means adding fixtures and a circuit the building was never set up for.',
       'These properties tend to use their garages as real workshops and storage, where even light matters across a long span. We lay out LED rows to clear the dark corners, add exterior fixtures for the driveway and entry, and keep all the wiring to code in buildings that predate modern garage circuits.',
@@ -56,7 +56,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dry-run': {
-    intro: 'Looking to brighten a dim garage in Dry Run? Our licensed electricians install even LED lighting and dedicated circuits, all to code. Call (513) 586-5107.',
+    intro: 'Dry Run garages range from older Anderson Township bays wired for a single bulb to newer ones with more capacity, so garage lighting here is tailored to the house. We add even LED rows over the parking and bench areas, set switching where convenient and confirm the circuit meets code.',
     relevance: [
       'Dry Run (ZIP 45244) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. The attached garages here range from older bays wired for a single bulb to newer ones with more capacity, so we tailor the lighting layout and circuit to whatever the house actually has.',
       'Even the newer Dry Run garages are old enough that the lighting was treated as an afterthought. We add even LED rows over the parking and bench areas, set switching where it is convenient, and confirm the circuit meets code before the upgrade goes live.',
@@ -70,7 +70,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'white-oak': {
-    intro: 'Stuck with a shadowy garage in White Oak? Our licensed electricians install bright, even LED fixtures on properly sized, code-compliant circuits. Call (513) 586-5107.',
+    intro: 'White Oak garages often share a circuit with the outlets and the opener, so garage lighting here usually means moving the fixtures onto wiring that can carry the load. Then we map out LED rows front to back for storage and parking, with switching near each door.',
     relevance: [
       'White Oak (ZIP 45247) is a settled Green Township community on the northwest side, made up largely of mid-century and newer single-family homes. The attached garages here often share a circuit with outlets and an opener, so adding real lighting usually means separating the fixtures onto wiring that can carry the load.',
       'Garages on these streets pull double duty for storage and parking, and one bulb does not cover both. We map out LED rows for even light front to back, add switching near each door, and bring the circuit up to current code.',
@@ -84,7 +84,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'forestville': {
-    intro: 'Want even, usable light in your Forestville garage? Our licensed electricians install LED fixtures and dedicated circuits, all to code. Call (513) 586-5107.',
+    intro: 'Garage lighting in Forestville tends to mean an attached garage on a mid-century or newer Anderson Township home, used as workshop and storage space. We lay out LED lighting over the bench, the parking bays and the corners, and replace original garage wiring that is undersized for shop lights.',
     relevance: [
       'Forestville (ZIP 45230) is a suburban Anderson Township community on the east side, with established neighborhoods of mid-century and newer homes. The attached garages here tend to serve as workshop and storage space, so we lay out LED lighting that covers a bench, the parking bays, and the corners where boxes pile up.',
       'Homes of that era reach the age where the original garage wiring is undersized for shop lights. We add even LED rows, set switching where it makes sense, and confirm the circuit meets code before we call it done.',
@@ -98,7 +98,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'cherry-grove': {
-    intro: 'Done working in the shadows of a dim Cherry Grove garage? Our licensed electricians install bright, even LED lighting to code. Call (513) 586-5107.',
+    intro: 'Cherry Grove’s attached garages were generally wired for one light, but they get used hard for parking and projects. Garage lighting in this Anderson Township community means adding LED fixtures front to back, a switch by the entry door and often a circuit that can carry shop-style rows.',
     relevance: [
       'Cherry Grove (ZIP 45230) is a suburban Anderson Township community on the east side, with neighborhoods of mid-century and newer single-family homes. The attached garages here were generally wired for one light, so the upgrade is about adding fixtures and, often, a circuit that can carry shop-style LED rows.',
       'Garages on these streets get used hard for parking and projects, and even light makes both safer. We lay out LED fixtures front to back, add a switch by the entry door, and bring the wiring up to current code.',
@@ -112,7 +112,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'kenwood': {
-    intro: 'Have a large attached garage in Kenwood lit by a single fixture? Our licensed electricians install bright, even LED lighting on dedicated, code-compliant circuits. Call (513) 586-5107.',
+    intro: 'Kenwood garage lighting splits two ways. Larger homes near Kenwood Towne Centre have multi-car garages and workshops that one or two fixtures cannot cover, so we plan LED rows and a dedicated circuit. Mid-century garages usually need their single-bulb wiring brought up to code first.',
     relevance: [
       'Kenwood (ZIP 45236) is an upscale, unincorporated community on the east side around Kenwood Towne Centre, with mid-century homes alongside newer, larger houses. The bigger homes here tend to have multi-car garages and workshop space that one or two ceiling fixtures cannot cover, so we plan LED rows across the full span.',
       'On the larger Kenwood properties a real shop setup needs its own capacity, so we often run a dedicated circuit for the lighting and bench equipment. The mid-century garages, meanwhile, usually need their original single-bulb wiring brought up to code before any new fixtures go in.',
@@ -126,7 +126,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'lincoln-heights': {
-    intro: 'Stuck with a dim garage in Lincoln Heights? Our licensed electricians install bright, even LED lighting on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Lincoln Heights garages and outbuildings carry decades-old wiring, so garage lighting in this historic Mill Creek valley community starts with checking the existing circuit. We use enclosed LED fixtures with sealed connections for the damp valley ground and bring the older wiring up to code.',
     relevance: [
       'Lincoln Heights (ZIP 45215) is a historic community in the Mill Creek valley north of the city, one of the first self-governed Black municipalities in the northern United States, with older, modest homes. Garages and outbuildings here carry decades-old wiring, so adding proper lighting starts with checking the existing circuit rather than just hanging more fixtures.',
       'The low valley ground stays damp, which is rough on stored items and on fixtures alike. We use enclosed, properly rated LED fixtures with sealed connections, and we bring the older wiring up to code so the brighter setup is safe to run.',
@@ -140,7 +140,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'dillonvale': {
-    intro: 'Want a brighter, evenly lit garage in Dillonvale? Our licensed electricians install LED shop fixtures on properly sized, code-compliant circuits. Call (513) 586-5107.',
+    intro: 'Dillonvale’s mid-century homes near Kenwood have attached garages wired for minimal lighting, where one bulb leaves half the floor dark. Garage lighting in this Sycamore Township community means LED rows across storage and project space, switching near the door and a check of the existing circuit.',
     relevance: [
       'Dillonvale (ZIP 45236) is a Sycamore Township community on the east side near Kenwood, with settled neighborhoods of mid-century homes. The attached garages here were wired for minimal lighting, so the upgrade usually means adding LED rows and checking whether the existing circuit can carry them.',
       'Mid-century garages on these streets often double as storage and project space, where one ceiling bulb leaves half the floor in shadow. We lay out even LED coverage, add switching near the door, and confirm the wiring meets code.',
@@ -154,7 +154,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'woodlawn': {
-    intro: 'Working under one weak bulb in your Woodlawn garage? Our licensed electricians install bright, even LED lighting to code. Call (513) 586-5107.',
+    intro: 'Woodlawn garage lighting runs from older homes with lightly wired garages to shop-grade LED layouts when a garage is used as a real workshop. On the damp Mill Creek valley ground we use enclosed LED units and sealed connections, and size the circuit to the new load.',
     relevance: [
       'Woodlawn (ZIP 45215) is a village in the Mill Creek valley north of the city, with a mix of residential streets and industrial corridors. The older homes here have garages wired light, while the industrial side of the village means we are comfortable scaling up to shop-grade LED layouts when a garage is used like a real workshop.',
       'The damp valley ground takes a toll on garage fixtures over time, so we use enclosed, properly rated LED units and sealed connections. We size the circuit to the new load and confirm the work meets code before the brighter setup goes live.',
@@ -168,7 +168,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'addyston': {
-    intro: 'Have an old garage in Addyston with barely any light? Our licensed electricians install bright, even LED fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Addyston is an old Ohio River mill town, and its garages and outbuildings are often century-old and never wired for more than a bulb. Garage lighting here means running proper wiring instead of tapping a tired line, with enclosed LED fixtures and sealed connections for the damp riverside air.',
     relevance: [
       'Addyston (ZIP 45001) is a small village on the far west side along the Ohio River, an old mill town with closely spaced older worker homes. The garages and outbuildings here are often century-old and were never wired for more than a bulb, so lighting them well means running proper wiring rather than tapping a tired old line.',
       'Its riverside position keeps these structures damp, which is hard on fixtures and connections. We use enclosed, properly rated LED fixtures and sealed connections, and we bring the old wiring up to code so the work holds up near the river.',
@@ -182,7 +182,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'greenhills': {
-    intro: 'Lighting a garage at a historic Greenhills home? Our licensed electricians install bright, even LED fixtures on code-compliant wiring, with care for the original buildings. Call (513) 586-5107.',
+    intro: 'Greenhills garage lighting means working on garages and outbuildings tied to the 1930s Greenbelt town’s original homes, with close to a century of wiring. We bring the circuit up to code, then add even LED fixtures without disturbing original features in this National Historic Landmark district.',
     relevance: [
       'Greenhills (ZIP 45218) is a historic planned Greenbelt town built in the 1930s as a New Deal project, now a National Historic Landmark district, with its original cottages and townhomes still in use. The garages and outbuildings tied to those 1930s homes carry close to a century of wiring, so any lighting upgrade starts with bringing the circuit up to code.',
       'Because of the historic character here, we work carefully and avoid disturbing original features while adding even LED fixtures that finally light the space. We size the wiring to the new load and confirm it meets code before the upgrade goes live.',
@@ -196,7 +196,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'northbrook': {
-    intro: 'Tired of a dim garage in Northbrook? Our licensed electricians install bright, even LED lighting on properly sized, code-compliant circuits. Call (513) 586-5107.',
+    intro: 'Northbrook’s mid-century Colerain Township homes have attached garages wired for a single bulb and an outlet. Garage lighting here usually means moving the fixtures onto wiring that can carry shop-style LED rows, then even coverage for storage and project space and switching near the door.',
     relevance: [
       'Northbrook (ZIP 45251) is a settled Colerain Township community on the northwest side, made up largely of mid-century single-family homes. The attached garages here were wired for a single bulb and an outlet, so adding real lighting usually means separating the fixtures onto wiring that can carry shop-style LED rows.',
       'Garages on these streets serve as storage and project space, where one bulb leaves the corners dark. We map out even LED coverage, add switching near the door, and bring the circuit up to current code.',
@@ -210,7 +210,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'indian-hill': {
-    intro: 'Have a large estate garage or workshop in Indian Hill running on too few fixtures? Our licensed electricians install bright, even LED lighting on dedicated, code-compliant circuits. Call (513) 586-5107.',
+    intro: 'Indian Hill garage lighting usually covers multi-car garages with workshop and storage space on large, wooded estate lots set back from the road. We plan LED rows across the whole footprint, run dedicated circuits for the shop and add weather-rated motion fixtures along long driveways and entries.',
     relevance: [
       'Indian Hill (ZIP 45243) is an affluent east-side village known for its large estates and homes on multi-acre, wooded lots, many set well back from the road. The garages here are often multi-car with workshop and storage space, and a few ceiling fixtures cannot cover that span, so we plan LED rows across the whole footprint.',
       'Because these properties sit on big, wooded lots set back from the road, exterior lighting matters as much as the bay lighting, and a real shop needs its own capacity. We add motion-activated and weather-rated exterior fixtures for the long driveways and entries, run dedicated circuits for the shop, and keep all the work to code.',
@@ -224,7 +224,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'evendale': {
-    intro: 'Want bright, even light in your Evendale garage or shop? Our licensed electricians install LED fixtures and dedicated circuits, all to code. Call (513) 586-5107.',
+    intro: 'Evendale garage lighting ranges from mid-century home garages wired for minimal light to shop-grade workspaces, so we scale the LED layout and circuit to the building. In most residential garages that means even LED rows on a circuit of their own that can carry the load.',
     relevance: [
       'Evendale (ZIP 45241) is a north-side village with a large industrial base, including GE Aerospace, alongside established residential neighborhoods. That mix means we light everything from a mid-century home garage to a shop-grade workspace, scaling the LED layout and circuit to whatever the building needs.',
       'The residential garages here were generally wired for minimal lighting, so we add even LED rows and separate them onto a circuit that can carry the load. We confirm the wiring meets code before the brighter setup goes live.',
@@ -238,7 +238,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'glendale': {
-    intro: 'Lighting a detached or carriage garage at a historic Glendale home? Our licensed electricians install even LED fixtures on code-compliant wiring, with care for the original buildings. Call (513) 586-5107.',
+    intro: 'In Glendale, one of the country’s earliest planned railroad suburbs, garage lighting often means a detached carriage-style garage behind a Victorian home, on original wiring. We run new circuits to code, fit LED fixtures with care for historic details and add weather-rated fixtures for entries and drives.',
     relevance: [
       'Glendale (ZIP 45246) is a historic village and one of the country’s earliest planned railroad suburbs, a National Historic Landmark, known for its preserved Victorian homes and winding, tree-lined streets. Those 19th-century homes often have detached carriage-style garages with original wiring, so lighting them well means running proper code-compliant circuits, not adding load to a century-old line.',
       'Because the village is so carefully preserved, we work with care for the historic details while fitting even LED fixtures that finally light the space. We size the wiring to the new load and add weather-rated exterior fixtures for entries and drives where the older structures need them.',
@@ -252,7 +252,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'sharonville': {
-    intro: 'Want a brighter, evenly lit garage or shop in Sharonville? Our licensed electricians install LED fixtures and dedicated circuits, all to code. Call (513) 586-5107.',
+    intro: 'Sharonville garage lighting covers home garages and shop-grade workspaces near Sharon Woods and the industrial corridors. The mid-century garages here have lighting circuits undersized for shop use, so we add even LED rows over the bench and bays and move them onto a properly sized circuit.',
     relevance: [
       'Sharonville (ZIP 45241) is a north-side city near Sharon Woods, with a mix of established residential neighborhoods, the convention center, and industrial corridors. That range means we light both home garages and shop-grade workspaces, scaling the LED layout and the circuit to whatever the building actually needs.',
       'The mid-century garages here reach the age where the original lighting circuit is undersized for shop use. We add even LED rows over the bench and bays, separate them onto a properly sized circuit, and confirm the work meets code.',
@@ -266,7 +266,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'northgate': {
-    intro: 'Done squinting in a dim Northgate garage? Our licensed electricians install bright, even LED lighting on properly sized, code-compliant circuits. Call (513) 586-5107.',
+    intro: 'Around the Northgate Mall corridor, Northgate garages on mid-century and newer homes were wired light and pull double duty for parking and storage. Garage lighting here usually means adding LED fixtures, checking whether the existing circuit can carry them and putting a switch near the door.',
     relevance: [
       'Northgate (ZIP 45251) is a Colerain Township area on the northwest side around the Northgate Mall corridor, with neighborhoods of mid-century and newer homes. The attached garages here were wired light, so the upgrade usually means adding LED fixtures and checking whether the existing circuit can carry them.',
       'Garages on these streets pull double duty for parking and storage, and one bulb does not cover both. We lay out even LED coverage, add switching near the door, and bring the circuit up to current code.',
@@ -280,7 +280,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'springdale': {
-    intro: 'Want bright, even light in your Springdale garage or shop? Our licensed electricians install LED fixtures and dedicated circuits, all to code. Call (513) 586-5107.',
+    intro: 'Springdale garage lighting along the Tri-County corridor ranges from mid-century home garages to shop-grade spaces. Those mid-century garages were wired for minimal lighting, so we add even LED rows over the bench and bays and move them onto a properly sized circuit to code.',
     relevance: [
       'Springdale (ZIP 45246) is a north-side city along the Tri-County corridor, with established mid-century neighborhoods alongside a large commercial and retail base. That mix means we light home garages and shop-grade spaces alike, scaling the LED layout and the circuit to the building.',
       'The mid-century garages here were wired for minimal lighting, now well short of shop use. We add even LED rows over the bench and bays, separate them onto a properly sized circuit, and confirm the work meets code.',
@@ -294,7 +294,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'miamitown': {
-    intro: 'Have an older garage in Miamitown with barely any light? Our licensed electricians install bright, even LED fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Miamitown garages and outbuildings sit on low river-bottom ground by the Great Miami River and were never wired for more than a bulb. Garage lighting here means running proper wiring rather than loading a tired line, with enclosed LED fixtures and sealed connections that hold up to the damp.',
     relevance: [
       'Miamitown (ZIP 45041) is a small far-west community on the Great Miami River, with older homes set on low river-bottom ground. The garages and outbuildings here are often old and were never wired for more than a bulb, so lighting them well means running proper wiring instead of loading a tired old line.',
       'The low river-bottom ground keeps these structures damp, which is hard on fixtures and connections. We use enclosed, properly rated LED fixtures and sealed connections, and we bring the wiring up to code so the work holds up near the Great Miami.',
@@ -308,7 +308,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'forest-park': {
-    intro: 'Tired of a dim garage in Forest Park? Our licensed electricians install bright, even LED lighting on properly sized, code-compliant circuits. Call (513) 586-5107.',
+    intro: 'Forest Park was planned from the 1960s, and its attached garages from that era were wired for a single light. Garage lighting here usually means moving the fixtures onto a circuit that can carry shop-style LED rows, even coverage for storage and projects and switching by the door.',
     relevance: [
       'Forest Park (ZIP 45240) is a north-side city developed as a planned community from the 1960s, with neighborhoods of mid-century single-family homes. The attached garages from that planning era were wired for a single light, so adding real lighting usually means separating the fixtures onto a circuit that can carry shop-style LED rows.',
       'Garages on these streets serve as storage and project space, where one bulb leaves the corners dark. We map out even LED coverage, add switching near the door, and bring the circuit up to current code.',
@@ -322,7 +322,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'pleasant-run': {
-    intro: 'Want a brighter, evenly lit garage in Pleasant Run? Our licensed electricians install LED fixtures and dedicated circuits, all to code. Call (513) 586-5107.',
+    intro: 'Garage lighting in Pleasant Run, a Springfield Township community, usually means an attached garage on a mid-century or newer home that was wired light. One ceiling bulb leaves half the floor in shadow, so we lay out LED rows, add switching near the door and check the circuit.',
     relevance: [
       'Pleasant Run (ZIP 45240) is a Springfield Township community on the north side, with settled neighborhoods of mid-century and newer homes. The attached garages here were wired light, so the upgrade usually means adding LED rows and checking whether the existing circuit can carry them.',
       'Garages on these streets pull double duty for parking and storage, where one ceiling bulb leaves half the floor in shadow. We lay out even LED coverage, add switching near the door, and confirm the wiring meets code.',
@@ -336,7 +336,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'cleves': {
-    intro: 'Have an older garage in Cleves with barely any light? Our licensed electricians install bright, even LED fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Cleves sits near where the Great Miami meets the Ohio, and its older garages on low, flood-prone ground are often lightly wired. Garage lighting here means proper wiring to code rather than overloading an aging line, with enclosed LED fixtures and sealed connections that handle the damp.',
     relevance: [
       'Cleves (ZIP 45002) is a far-west village near where the Great Miami River meets the Ohio, with older homes on low ground prone to flooding. The garages and outbuildings here are often old and lightly wired, so lighting them well means running proper code-compliant wiring rather than overloading an aging line.',
       'The low, riverside ground keeps these structures damp, which is hard on fixtures and connections. We use enclosed, properly rated LED fixtures and sealed connections, and we bring the wiring up to code so the work holds up near the rivers.',
@@ -350,7 +350,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'north-bend': {
-    intro: 'Working under one weak bulb in your North Bend garage? Our licensed electricians install bright, even LED fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'North Bend garage lighting usually involves garages and outbuildings behind older homes on low Ohio River ground, carrying dated wiring. We check the existing circuit first, then fit enclosed LED fixtures with sealed connections and bring the older wiring up to code for the damp riverfront.',
     relevance: [
       'North Bend (ZIP 45052) is a historic far-west village on the Ohio River, the burial place of President William Henry Harrison, with older homes set on low riverside ground. The garages and outbuildings tied to those older homes carry dated wiring, so adding proper lighting starts with checking the existing circuit.',
       'The low riverfront ground keeps these structures damp, which is hard on fixtures over time. We use enclosed, properly rated LED fixtures and sealed connections, and we bring the older wiring up to code so the brighter setup is safe near the river.',
@@ -364,7 +364,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'loveland': {
-    intro: 'Lighting an older or riverside garage in Loveland? Our licensed electricians install bright, even LED fixtures on code-compliant wiring. Call (513) 586-5107.',
+    intro: 'Loveland garage lighting depends on where the house sits. Older homes near the Little Miami often have detached garages with dated wiring on damp ground, so we run new circuits and sealed LED fixtures. Newer homes mostly need even LED rows on a circuit that can carry them.',
     relevance: [
       'Loveland (ZIP 45140) is a historic city straddling the Little Miami River and the Loveland Bike Trail, with a charming older downtown and a mix of historic and newer homes. The older homes near the river often have detached garages with dated wiring, so lighting them well means running proper code-compliant circuits, not loading an aging line.',
       'The low riverside ground keeps the older structures damp, so we use enclosed, rated LED fixtures and sealed connections. For the newer Loveland homes the work is more about adding even LED rows and separating them onto a circuit that can carry the load, all to code.',
@@ -378,7 +378,7 @@ export const part4: Record<string, { intro: string; relevance: string[]; commonI
     ],
   },
   'harrison': {
-    intro: 'Want bright, even light in your Harrison garage? Our licensed electricians install LED fixtures and dedicated circuits, all to code. Call (513) 586-5107.',
+    intro: 'In Harrison, on the Indiana line, garage lighting depends on the age of the house. Older homes near the Whitewater River have garages on dated wiring and damp ground, so we use sealed LED fixtures, while newer builds get LED rows and switching on a circuit with more capacity.',
     relevance: [
       'Harrison (ZIP 45030) is a far-west city on the Indiana state line along the Whitewater River, with an older downtown and a growing mix of established and newer homes. The older homes here have garages on dated wiring, while the newer builds usually have more capacity, so we tailor the LED layout and circuit to whatever the house has.',
       'The low ground near the Whitewater keeps the older structures damp, so we use enclosed, rated LED fixtures and sealed connections there. Either way we add even LED coverage over the bays and bench, set switching near the door, and confirm the wiring meets code.',

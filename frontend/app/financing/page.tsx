@@ -4,12 +4,13 @@ import Icon from '@/components/Icon';
 import PageHero from '@/components/PageHero';
 import PageSections from '@/components/PageSections';
 import { site } from '@/content/site';
+import { withSocial } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial({
   title: 'Financing',
   description: `Flexible financing options from ${site.name} so you never have to choose between comfort and affordability. Apply for home comfort financing today.`,
   alternates: { canonical: '/financing' },
-};
+});
 
 const applyBenefits = [
   'Immediate credit upon approval',
@@ -35,10 +36,10 @@ export default function FinancingPage() {
         <div className="container-page grid gap-10 lg:grid-cols-[1.4fr_1fr] lg:items-start">
           {/* Left */}
           <div>
-            <h2 className="font-display text-4xl font-black uppercase leading-[1.05] text-brand-600 sm:text-5xl">
+            <h2 className="m-center font-display text-4xl font-black leading-[1.05] text-brand-600 sm:text-5xl">
               Financing Options That Maximize Your Comfort Level.
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-ink/75">
+            <p className="mt-4 text-[15px] leading-relaxed text-ink/75">
               Your home&rsquo;s plumbing, heating, and cooling systems are among the most important
               appliances in your home, and they are an investment worth making. Do not base a repair
               or replacement decision strictly on cost — we offer convenient financing so you never
@@ -73,7 +74,7 @@ export default function FinancingPage() {
               <div>
                 <ul className="space-y-2.5">
                   {applyBenefits.map((b) => (
-                    <li key={b} className="flex items-center gap-2.5 text-sm font-semibold text-ink/80">
+                    <li key={b} className="flex items-center gap-2.5 text-base font-semibold text-ink/80">
                       <span className="grid h-5 w-5 flex-shrink-0 place-items-center rounded-full bg-pink-500 text-white">
                         <Icon name="check" className="h-3 w-3" />
                       </span>
@@ -118,7 +119,7 @@ export default function FinancingPage() {
                   </div>
                 ))}
               </div>
-              <Link href="/free-estimate" className="btn-pink mt-6 w-full text-base">
+              <Link href="/request-estimate/" className="btn-pink mt-6 w-full text-base">
                 Book Now
               </Link>
             </div>

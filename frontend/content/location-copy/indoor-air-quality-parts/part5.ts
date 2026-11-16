@@ -1,7 +1,7 @@
 export const part5: Record<string, { intro: string; relevance: string[]; commonIntro: string; localFaqs: { q: string; a: string }[] }> = {
   'ludlow': {
     intro:
-      'Dust that keeps coming back, a damp basement smell, or dry winter air in a Ludlow home? We start with an air-quality assessment, then match filtration, a humidifier, or a dehumidifier to what the home actually needs. Call (513) 586-5107.',
+      'Ludlow’s Victorian and early-1900s homes near Elm Street usually run original ductwork with undersized returns, so air quality suffers as dust and allergens recirculate. A musty basement in this river town usually means high humidity rather than mold. We test airflow and moisture first, then fit filtration or a dehumidifier.',
     relevance: [
       'Ludlow, KY (ZIP 41016) is a historic Northern Kentucky river town with a walkable Elm Street business district and streets of well-preserved Victorian and early-1900s homes. Houses that old usually run on original ductwork and undersized return paths, which lets dust and allergens recirculate instead of getting filtered out. We test airflow and look at the existing system before recommending anything.',
       'The riverfront setting matters too. Homes this close to the Ohio tend to hold damp in their basements, and that moisture feeds mold and dust mites in the summer while the same houses go bone-dry once the furnace runs all winter. A whole-home dehumidifier paired with a better media filter handles the warm months, and an HVAC-integrated humidifier evens out the dry season.',
@@ -17,7 +17,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'park-hills': {
     intro:
-      'Stuffy rooms, uneven dust, or a dry throat every winter in a Park Hills home? We test the air and the airflow first, then size filtration and humidity control to fit the house. Call (513) 586-5107.',
+      'Uneven dust from room to room is a common air quality complaint in Park Hills, where early-1900s homes beside Devou Park often have leaky original ductwork and weak returns that let dust bypass the filter. Lower levels can run damp. We test airflow first, then size filtration and humidity control.',
     relevance: [
       'Park Hills, KY (ZIP 41011) is a hillside city beside Devou Park, known for its early-1900s homes on steep, tree-lined streets above Covington. Homes from that era often carry original ductwork with leaky runs and weak returns, so conditioned air and filtration never reach every room evenly. A simple airflow check shows where the dust is settling and why.',
       'The hillside grade also tends to leave lower levels cooler and damper than the floors above, which encourages mold and dust mites in humid months. Once we have measured the humidity room to room, we can recommend a media filter or air purifier on the system and a dehumidifier where the moisture actually sits.',
@@ -33,7 +33,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'bromley': {
     intro:
-      'Damp air, a basement that smells off, or dust you cannot keep up with in a Bromley home? We assess the air and humidity before recommending filtration or moisture control. Call (513) 586-5107.',
+      'Bromley is a small river village next to Ludlow, and air quality in its older homes on low ground suffers from damp basements that feed mold and dust mites through humid summers. High humidity often shows up before any mold. We measure moisture first, then add a dehumidifier if needed.',
     relevance: [
       'Bromley, KY (ZIP 41016) is a small river village next to Ludlow, with older homes built on low ground beside the Ohio River. That low, riverside position keeps basements damp, and persistent moisture is what feeds mold growth and dust mites through a humid Greater Cincinnati summer. We measure the actual humidity level before suggesting equipment.',
       'The older housing here also tends to have original ductwork and limited ventilation, so odors and allergens linger rather than getting cleared. After testing, a whole-home dehumidifier handles the damp season and a better filter on the system keeps recirculated dust down year round.',
@@ -49,7 +49,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-wright': {
     intro:
-      'Dry winter air, summer stuffiness, or dust building up fast in a Fort Wright home? We test the air and the system first, then match filtration and humidity control to the house. Call (513) 586-5107.',
+      'In Fort Wright’s mid-century hilltop homes, air quality problems usually come from original ductwork loosened at the joints, which lets unfiltered dust make some rooms dustier than others, plus dry winter air. We check airflow and filtration first, then size filtration or an HVAC-integrated humidifier.',
     relevance: [
       'Fort Wright, KY (ZIP 41011) is a hilltop Kenton County city above the river, with established neighborhoods of mid-century and newer homes. Mid-century houses are at the age where original ductwork has loosened at the joints, which lets unfiltered dust circulate and makes some rooms dustier than others. We check airflow and filtration before recommending anything.',
       'The hillside terrain leaves lower levels prone to summer damp, so dust mites and mold get a foothold in the warm months, while the same homes dry out once the furnace runs all winter. Testing the humidity tells us whether the house needs a dehumidifier, an HVAC-integrated humidifier, or both, alongside upgraded filtration.',
@@ -65,7 +65,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'fort-mitchell': {
     intro:
-      'Lingering odors, dry air in winter, or dust that returns days after cleaning in a Fort Mitchell home? We assess the air first, then recommend filtration or humidity control. Call (513) 586-5107.',
+      'Fort Mitchell homes along Dixie Highway, historic and mid-century alike, often run original ductwork with weak returns, so air quality suffers as dust and allergens stay airborne. A media filter or purifier can usually tie into the system, but we test airflow first so it does not choke older ducts.',
     relevance: [
       'Fort Mitchell, KY (ZIP 41017) is an established Kenton County city along the Dixie Highway corridor, with a mix of historic and mid-century homes on settled streets. Those older homes often run on original ductwork with weak returns, so air recirculates without being properly filtered and dust and allergens stay airborne. An airflow and filtration check comes first.',
       'Homes of this age also swing between damp summers and dry winters, which means dust mites and mold in the warm months and dry, irritated air once the heat is on. After testing humidity, we can pair a whole-home filter with a humidifier or dehumidifier sized to the house rather than guessing.',
@@ -81,7 +81,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'villa-hills': {
     intro:
-      'Stuffy rooms, summer dampness, or dust you cannot keep ahead of in a Villa Hills home? We test the air and the airflow first, then size filtration and humidity control to fit. Call (513) 586-5107.',
+      'Tight construction is the usual air quality issue in Villa Hills, where even newer hilltop homes trap odors, cooking moisture and VOCs indoors when ventilation is weak, and lower levels can stay damp. We test airflow and humidity first, then recommend ventilation or filtration based on the readings.',
     relevance: [
       'Villa Hills, KY (ZIP 41017) is a hilltop residential Kenton County city above the river, made up largely of mid-century and newer single-family homes. Even the newer homes here are tightly built, which traps odors, cooking moisture, and VOCs indoors when ventilation is weak. We assess airflow and ventilation before recommending equipment.',
       'The hilltop setting leaves lower levels damp through humid summers, which favors dust mites and mold, while the same homes run dry in winter. Testing the humidity at the floors that matter tells us whether the house needs a dehumidifier downstairs, a humidifier on the system, or upgraded filtration to cut the recirculated dust.',
@@ -97,7 +97,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'lakeside-park': {
     intro:
-      'Dust that keeps returning, dry winter air, or stale rooms in a Lakeside Park home? We start with an air-quality assessment, then match filtration or humidity control to the house. Call (513) 586-5107.',
+      'Air quality in Lakeside Park’s mid-century homes usually suffers from leaky original ductwork and undersized return paths, so dust and allergens recirculate instead of getting filtered, and seasonal humidity swings add to it. We check airflow and the existing filter first, then fit filtration or humidity equipment.',
     relevance: [
       'Lakeside Park, KY (ZIP 41017) is a small, settled Kenton County city made up largely of mid-century single-family homes on quiet streets. Homes of that era are at the point where original ductwork leaks and return paths are undersized, so dust and allergens recirculate instead of getting filtered. We check the airflow and existing filter first.',
       'Those same mid-century homes tend to feel damp in humid summers and dry once the furnace runs all winter, a swing that bothers anyone with allergies. After we measure humidity, the fix is usually a better media filter paired with a humidifier or dehumidifier sized to the home rather than a one-size unit.',
@@ -113,7 +113,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'crescent-springs': {
     intro:
-      'Allergy flare-ups indoors, summer dampness, or dust building up fast in a Crescent Springs home? We test the air and system first, then recommend filtration or humidity control. Call (513) 586-5107.',
+      'Many Crescent Springs homes run only a basic one-inch filter, and that is the air quality weak spot: fine dust and pollen pass straight through, especially in mid-century homes with loosened ductwork. We test the system first to confirm it can take a higher-efficiency media filter, then fit one.',
     relevance: [
       'Crescent Springs, KY (ZIP 41017) is a suburban Kenton County city with established neighborhoods of mid-century and newer homes. Mid-century homes here are at the age where ductwork has loosened and filtration is often just a basic one-inch filter, so fine dust and pollen pass straight through. We assess the system before suggesting an upgrade.',
       'The local pattern of humid summers and dry winters shows up indoors as dust mites and mold in the warm months and dry, irritated air in the cold ones. Once we measure humidity, a whole-home filter combined with the right humidifier or dehumidifier handles both ends of that swing.',
@@ -129,7 +129,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'crestview-hills': {
     intro:
-      'Stale air, dust, or seasonal dryness in a Crestview Hills home or business? We test the air first, then match filtration or humidity control to the building. Call (513) 586-5107.',
+      'Light filtration is the common air quality problem in Crestview Hills, home to Thomas More University, where mid-century and newer homes recirculate dust and allergens and commercial spaces along the corridor have their own ventilation demands. We test each building first, then fit filtration or humidity control.',
     relevance: [
       'Crestview Hills, KY (ZIP 41017) is a Kenton County city home to Thomas More University and the Crestview Hills mall, with residential neighborhoods alongside a commercial corridor. Mid-century and newer homes here typically run minimal filtration, so dust and allergens recirculate, while commercial spaces have their own ventilation demands. We assess each building before recommending anything.',
       'The area sees the same humid summers and dry winters as the rest of Northern Kentucky, which means damp, dust-mite-friendly conditions in the warm months and dry air once heating runs. After testing humidity, we can add a whole-home filter and the right humidifier or dehumidifier for the space.',
@@ -145,7 +145,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'edgewood': {
     intro:
-      'Recurring dust, dry winter air, or summer mustiness in an Edgewood home? We start with an air-quality assessment, then size filtration and humidity control to the house. Call (513) 586-5107.',
+      'Edgewood air quality issues mostly come from original ductwork and basic filtration in its mid-century and newer homes near St. Elizabeth Healthcare, which recirculate dust and allergens, plus the regional swing of humid summers and dry winters. We test first, then match filtration or humidity control to the readings.',
     relevance: [
       'Edgewood, KY (ZIP 41017) is a residential Kenton County city, home to St. Elizabeth Healthcare, with established neighborhoods of mid-century and newer homes. Homes from that era usually have original ductwork and basic filtration, so dust and allergens get recirculated rather than removed. We check airflow and the existing filter before recommending an upgrade.',
       'Edgewood sees the regional pattern of humid summers and dry winters, which leaves lower levels damp and dust-mite-prone in the warm season and the whole house dry in winter. After measuring humidity, a better media filter combined with a humidifier or dehumidifier handles both halves of the year.',
@@ -161,7 +161,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'taylor-mill': {
     intro:
-      'Summer dampness, dry winter air, or dust that keeps coming back in a Taylor Mill home? We test the air and the airflow first, then recommend filtration or humidity control. Call (513) 586-5107.',
+      'Taylor Mill homes south of Covington have two kinds of air quality problem: newer houses built tight enough to trap odors and moisture, and mid-century ones whose aging ductwork lets dust bypass the filter. Damp lower levels are common. We test first, then fit filtration or a dehumidifier.',
     relevance: [
       'Taylor Mill, KY (ZIP 41015) is a hilltop residential Kenton County city south of Covington, made up largely of mid-century and newer single-family homes. Even newer homes here are built tight, which traps odors and moisture when ventilation is weak, while the mid-century ones have aging ductwork that lets dust bypass the filter. We assess both before suggesting equipment.',
       'The hillside grade leaves lower levels damp through humid summers, encouraging dust mites and mold, and the same homes go dry once heating runs all winter. Testing humidity at the levels that matter tells us whether a dehumidifier, an HVAC-integrated humidifier, or upgraded filtration is the right call.',
@@ -177,7 +177,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'elsmere': {
     intro:
-      'Lingering odors, recurring dust, or seasonal dryness in an Elsmere home? We assess the air first, then match filtration or humidity control to the house. Call (513) 586-5107.',
+      'Leaky returns in Elsmere’s older and mid-century homes along the Dixie Highway corridor let dust bypass the filter and recirculate, which is behind most of the air quality complaints we see there. We test airflow first, seal or upgrade the ducts as needed, then add filtration or humidity control.',
     relevance: [
       'Elsmere, KY (ZIP 41018) is an established Kenton County city along the Dixie Highway corridor near Erlanger, with a mix of older and mid-century homes. The age of that housing means original ductwork and weak returns are common, so air recirculates without proper filtration and dust and allergens stay airborne. We check airflow before recommending anything.',
       'Older homes here also swing between damp summers and dry winters, leaving dust mites and mold in the warm months and dry, irritated air in the cold ones. After testing humidity, a whole-home filter paired with a humidifier or dehumidifier sized to the home handles both ends.',
@@ -193,7 +193,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'independence': {
     intro:
-      'Cleaner air for kids or pets, less dust, or relief from dry winter air in an Independence home? We test the air first, then match filtration and humidity control to the house. Call (513) 586-5107.',
+      'Independence air quality problems depend on the neighborhood. Newer subdivision homes are built tight enough to trap odors, pet dander and VOCs, while homes in the older core around the Kenton County seat have aging ductwork. We assess the house first, then add ventilation or higher-efficiency filtration.',
     relevance: [
       'Independence, KY (ZIP 41051) is the Kenton County seat and one of the faster-growing cities in Northern Kentucky, with a historic core surrounded by newer subdivisions. Newer subdivision homes are built tight for efficiency, which traps odors, pet dander, and VOCs indoors when ventilation is limited, while the older core has aging ductwork. We assess the specific home before recommending equipment.',
       'Whichever part of town a home sits in, the regional humidity swing applies: damp, dust-mite-prone summers and dry winters once heating runs. After testing humidity, families wanting cleaner air for children or pets usually do best with a higher-efficiency filter plus the right humidity control for the season.',
@@ -209,7 +209,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'dayton-ky': {
     intro:
-      'A musty basement, recurring dust, or dry winter air in a Dayton, KY home? We assess the air and humidity first, then recommend filtration or moisture control. Call (513) 586-5107.',
+      'Dayton’s late-1800s and early-1900s homes next to Bellevue run original ductwork with limited ventilation, so air quality suffers from recirculating dust and lingering odors, and riverfront basements stay damp. That is often high humidity rather than mold. We test first, then add a dehumidifier or filtration.',
     relevance: [
       'Dayton, KY (ZIP 41074) is a Northern Kentucky river city next to Bellevue, with tight streets of well-preserved late-1800s and early-1900s homes near the Ohio River. Houses that old run on original ductwork and limited ventilation, so dust and allergens recirculate and odors linger. We test airflow and the existing system before suggesting an upgrade.',
       'The riverfront location keeps these older basements damp, and that moisture feeds mold and dust mites through humid summers while the same homes dry out in winter. After measuring humidity, a whole-home dehumidifier handles the warm season and an HVAC-integrated humidifier evens out the dry months.',
@@ -225,7 +225,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'southgate': {
     intro:
-      'Recurring dust, summer mustiness, or dry winter air in a Southgate home? We start with an air-quality assessment, then size filtration and humidity control to the house. Call (513) 586-5107.',
+      'Basic filters are the usual air quality weak spot in Southgate’s mid-century homes between Newport and Fort Thomas, letting fine dust and pollen recirculate through original ductwork, and humid summers and dry winters add to it. We test the system first, then fit a higher-efficiency media filter or humidity control.',
     relevance: [
       'Southgate, KY (ZIP 41071) is a small Campbell County city between Newport and Fort Thomas, with established neighborhoods of mid-century homes. Homes of that era usually have original ductwork and basic filtration, so dust and allergens get recirculated rather than removed. We check airflow and the existing filter first.',
       'Southgate sees the regional swing of humid summers and dry winters, which leaves lower levels damp and dust-mite-prone in the warm months and the whole house dry in the cold ones. After testing humidity, a better media filter paired with a humidifier or dehumidifier sized to the home covers both halves of the year.',
@@ -241,7 +241,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'wilder': {
     intro:
-      'Stale air, dust, or seasonal dryness in a Wilder home or business? We test the air first, then match filtration or humidity control to the building. Call (513) 586-5107.',
+      'Along the Licking River corridor, Wilder air quality issues range from mid-century homes with minimal filtration and aging ductwork to commercial spaces with their own ventilation needs. We test each home or building first, then match filtration or humidity control to what the readings show.',
     relevance: [
       'Wilder, KY (ZIP 41076) is a Campbell County city along the Licking River corridor, with a commercial and industrial base alongside residential neighborhoods. Mid-century homes here often run minimal filtration and aging ductwork, while commercial spaces near the corridor have their own ventilation needs. We assess each building before recommending anything.',
       'The Licking River corridor and the regional climate bring humid summers that favor dust mites and mold, then dry winters once heating runs. After we measure humidity, a whole-home filter combined with the right humidifier or dehumidifier handles both seasons for homes and businesses alike.',
@@ -257,7 +257,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'highland-heights': {
     intro:
-      'Recurring dust, stale rooms, or dry winter air in a Highland Heights home or rental? We test the air first, then recommend filtration or humidity control. Call (513) 586-5107.',
+      'Rentals near Northern Kentucky University see heavy use, and that shapes air quality in Highland Heights: basic filtration in rentals and mid-century homes lets dust, allergens and odors recirculate where ventilation is weak. We assess airflow first, then fit filtration or ventilation that suits the building.',
     relevance: [
       'Highland Heights, KY (ZIP 41076) is a Campbell County city home to Northern Kentucky University, with a mix of residential neighborhoods and student housing. Densely used rentals and mid-century homes both tend to run basic filtration, so dust, allergens, and odors recirculate where ventilation is weak. We assess airflow before suggesting an upgrade.',
       'The area sees the regional swing of humid summers and dry winters, leaving lower levels damp and dust-mite-prone in the warm months and dry once heating runs. After testing humidity, a better media filter paired with the right humidity control handles both ends, whether it is an owner-occupied home or a rental near NKU.',
@@ -273,7 +273,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'cold-spring': {
     intro:
-      'Dust that keeps returning, summer dampness, or dry winter air in a Cold Spring home? We start with an air-quality assessment, then size filtration and humidity control to the house. Call (513) 586-5107.',
+      'Cold Spring air quality depends on the house. Newer subdivision homes along US-27 are built tight enough to hold odors and VOCs when ventilation is limited, while older homes have aging ductwork that lets dust bypass the filter. We test airflow first, then recommend ventilation or filtration.',
     relevance: [
       'Cold Spring, KY (ZIP 41076) is a growing Campbell County city along the US-27 corridor, with a mix of established neighborhoods and newer subdivisions. Newer subdivision homes are built tight, which traps odors and VOCs indoors when ventilation is limited, while older homes have aging ductwork that lets dust bypass the filter. We assess the specific home before recommending equipment.',
       'Cold Spring sees the regional humidity swing of damp summers and dry winters, leaving dust mites and mold in the warm months and dry air in the cold ones. After testing humidity, the fix is usually a higher-efficiency filter combined with a humidifier or dehumidifier sized to the home.',
@@ -289,7 +289,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'alexandria': {
     intro:
-      'Cleaner air for the family, less dust, or relief from dry winter air in an Alexandria home? We test the air first, then match filtration and humidity control to the house. Call (513) 586-5107.',
+      'Alexandria, the Campbell County seat, has three kinds of air quality problem: tight newer subdivision homes that trap odors and VOCs, older core homes on aging ductwork and semi-rural homes that bring in more outdoor dust and pollen. We test airflow and humidity first, then size filtration and moisture control.',
     relevance: [
       'Alexandria, KY (ZIP 41001) is the Campbell County seat, a growing southern community with a historic core surrounded by newer subdivisions and some semi-rural homes. Newer subdivisions are built tight and trap odors and VOCs without good ventilation, while the older core and rural homes run on aging ductwork. We assess the specific home before recommending anything.',
       'The regional swing of humid summers and dry winters applies across all of those, leaving lower levels damp and dust-mite-prone in the warm months and dry air once heating runs. After testing humidity, a higher-efficiency filter paired with the right humidity control handles both seasons.',
@@ -305,7 +305,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'melbourne': {
     intro:
-      'A damp basement, musty air, or dry winter air in a Melbourne home? We assess the air and humidity first, then recommend filtration or moisture control. Call (513) 586-5107.',
+      'Melbourne is a small river village east of Newport, and air quality in its older homes on low riverside ground suffers from damp basements that feed mold and dust mites through humid summers. High humidity often comes before any mold. We measure moisture first, then add a dehumidifier if needed.',
     relevance: [
       'Melbourne, KY (ZIP 41059) is a small Campbell County village along the Ohio River east of Newport, with older homes on low riverside ground. That low position keeps basements damp, and persistent moisture feeds mold and dust mites through humid summers. We measure the actual humidity level before suggesting equipment.',
       'The older housing here also tends to have original ductwork and limited ventilation, so odors and allergens linger rather than clearing. After testing, a whole-home dehumidifier handles the damp season and a better filter on the system keeps recirculated dust down year round.',
@@ -321,7 +321,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'hebron': {
     intro:
-      'Cleaner air for kids or pets, recurring dust, or seasonal dryness in a Hebron home? We test the air first, then match filtration and humidity control to the house. Call (513) 586-5107.',
+      'Near the CVG airport, Hebron air quality varies by property. Newer subdivision homes are built tight enough to trap pet dander, odors and VOCs when ventilation is weak, and semi-rural homes bring in more outdoor dust and pollen. We assess the house first, then add ventilation or higher-efficiency filtration.',
     relevance: [
       'Hebron, KY (ZIP 41048) is a Boone County community near the Cincinnati/Northern Kentucky airport (CVG), with a mix of newer subdivisions and established semi-rural homes. Newer subdivision homes are built tight, which traps pet dander, odors, and VOCs indoors when ventilation is weak, while rural properties bring more outdoor dust and pollen inside. We assess the specific home before recommending equipment.',
       'Both kinds of homes here see the regional swing of humid summers and dry winters, leaving dust mites and mold in the warm months and dry air once heating runs. After testing humidity, families wanting cleaner air for children or pets usually do best with a higher-efficiency filter plus the right humidity control.',
@@ -337,7 +337,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'burlington': {
     intro:
-      'Recurring dust, cleaner air for the family, or relief from dry winter air in a Burlington home? We test the air first, then size filtration and humidity control to the house. Call (513) 586-5107.',
+      'Burlington, the Boone County seat, has air quality problems that split between newer subdivision homes built tight enough to trap odors, moisture and VOCs, and homes in the historic core around the old courthouse running aging ductwork. We test airflow and humidity first, then recommend ventilation or filtration.',
     relevance: [
       'Burlington, KY (ZIP 41005) is the Boone County seat, with a historic core around the old courthouse surrounded by fast-growing newer subdivisions. The newer subdivision homes are built tight and trap odors and VOCs when ventilation is limited, while the historic core and rural homes run on aging ductwork. We assess the specific home before recommending anything.',
       'Across both, the regional humidity swing applies: damp, dust-mite-prone summers and dry winters once heating runs. After testing humidity, a higher-efficiency filter paired with the right humidifier or dehumidifier handles both seasons for the family.',
@@ -353,7 +353,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'union': {
     intro:
-      'Cleaner air for kids or pets, less dust, or dry winter air in a Union home? We test the air first, then match filtration and humidity control to the house. Call (513) 586-5107.',
+      'Union is mostly subdivisions from the 1990s onward, sealed tight for efficiency, so its usual air quality problem is pet dander, cooking odors and VOCs held indoors when ventilation is limited. Seasonal humidity swings still apply. We test airflow first, then recommend ventilation or filtration based on the readings.',
     relevance: [
       'Union, KY (ZIP 41091) is one of the fastest-growing cities in Boone County, made up largely of newer subdivisions built from the 1990s onward. Those homes are built tight for efficiency, which traps pet dander, cooking odors, and VOCs indoors when ventilation is limited. We assess airflow and ventilation before recommending equipment.',
       'Newer does not mean exempt from the regional humidity swing: Union homes still see damp, dust-mite-prone summers and dry winters once heating runs. After testing humidity, families wanting cleaner air for children or pets usually do best with a higher-efficiency filter and added ventilation or humidity control.',
@@ -369,7 +369,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'walton': {
     intro:
-      'Recurring dust, cleaner air for the family, or relief from dry winter air in a Walton home? We test the air first, then size filtration and humidity control to the house. Call (513) 586-5107.',
+      'Walton air quality depends on whether the home is new or rural. Newer homes are built tight and trap odors and VOCs without good ventilation, while older and rural properties at the edge of the Boone County metro bring in more dust and pollen. We test first, then size filtration.',
     relevance: [
       'Walton, KY (ZIP 41094) is a small, growing town at the southern edge of the Boone County metro, with a historic core, newer subdivisions, and surrounding rural homes. Newer homes are built tight and trap odors and VOCs without good ventilation, while older and rural properties bring more outdoor dust and pollen indoors. We assess the specific home before recommending equipment.',
       'All of those see the regional humidity swing of damp summers and dry winters, leaving dust mites and mold in the warm months and dry air once heating runs. After testing humidity, a higher-efficiency filter paired with the right humidity control handles both seasons.',
@@ -385,7 +385,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'mount-carmel': {
     intro:
-      'Recurring dust, summer mustiness, or dry winter air in a Mount Carmel home? We start with an air-quality assessment, then match filtration or humidity control to the house. Call (513) 586-5107.',
+      'Near the I-275 corridor, air quality in Mount Carmel’s mid-century homes usually suffers from aging ductwork and basic filtration that recirculate dust and allergens, plus the regional swing of humid summers and dry winters. We check airflow and the existing filter first, then fit filtration or humidity control.',
     relevance: [
       'Mount Carmel, OH (ZIP 45244) is a Union Township community on the east side near the I-275 corridor, with established neighborhoods of mid-century and newer homes. Mid-century homes here often run aging ductwork and basic filtration, so dust and allergens get recirculated rather than removed. We check airflow and the existing filter first.',
       'The community sees the regional swing of humid summers and dry winters, which leaves lower levels damp and dust-mite-prone in the warm months and the whole house dry in the cold ones. After testing humidity, a better media filter combined with a humidifier or dehumidifier sized to the home handles both halves of the year.',
@@ -401,7 +401,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'summerside': {
     intro:
-      'Dust that keeps returning, summer dampness, or dry winter air in a Summerside home? We test the air and the airflow first, then recommend filtration or humidity control. Call (513) 586-5107.',
+      'Summerside air quality problems in western Clermont County usually come from basic filtration and aging ductwork in mid-century and newer homes, which let fine dust recirculate, and from seasonal humidity swings. We test the system first to confirm it can take a higher-efficiency media filter, then fit one.',
     relevance: [
       'Summerside, OH (ZIP 45245) is a Union Township community in western Clermont County, with suburban neighborhoods of mid-century and newer homes. Homes of that era usually have original or basic filtration and aging ductwork, so dust and allergens recirculate instead of getting filtered out. We assess the system before suggesting an upgrade.',
       'Summerside sees the regional pattern of humid summers and dry winters, leaving lower levels damp and dust-mite-prone in the warm months and dry air once heating runs. After measuring humidity, a higher-efficiency filter paired with the right humidifier or dehumidifier covers both seasons.',
@@ -417,7 +417,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'withamsville': {
     intro:
-      'Stale air, recurring dust, or seasonal dryness in a Withamsville home or business? We test the air first, then match filtration or humidity control to the building. Call (513) 586-5107.',
+      'Withamsville air quality issues along the Ohio Pike corridor range from homes with basic filtration and aging ductwork to commercial strips with their own ventilation needs. We test each building first, then match filtration or humidity control to the readings rather than guess.',
     relevance: [
       'Withamsville, OH (ZIP 45245) is a Union Township community along the Ohio Pike corridor in western Clermont County, with a mix of suburban homes and commercial strips. Mid-century and newer homes here typically run basic filtration and aging ductwork, while commercial buildings along Ohio Pike have their own ventilation needs. We assess each building before recommending anything.',
       'The area sees the regional swing of humid summers and dry winters, which means damp, dust-mite-prone conditions in the warm months and dry air once heating runs. After testing humidity, a whole-home filter combined with the right humidifier or dehumidifier handles both seasons for homes and businesses alike.',
@@ -433,7 +433,7 @@ export const part5: Record<string, { intro: string; relevance: string[]; commonI
   },
   'milford': {
     intro:
-      'A musty old basement, recurring dust, or dry winter air in a Milford home? We assess the air and humidity first, then recommend filtration or moisture control. Call (513) 586-5107.',
+      'Milford’s old Main Street district and older homes along the Little Miami River run original ductwork with limited ventilation, so air quality suffers from recirculating dust and lingering odors, and low ground keeps basements damp. We test first, then add a dehumidifier or filtration.',
     relevance: [
       'Milford, OH (ZIP 45150) is a historic city straddling the Little Miami River, with a preserved old Main Street district of 19th-century buildings and surrounding older homes. Buildings that old run on original ductwork and limited ventilation, so dust and allergens recirculate and odors linger. We test airflow and the existing system before suggesting an upgrade.',
       'The low ground near the Little Miami keeps these older basements damp, and that moisture feeds mold and dust mites through humid summers while the same homes dry out in winter. After measuring humidity, a whole-home dehumidifier handles the warm season and an HVAC-integrated humidifier evens out the dry months.',

@@ -6,6 +6,8 @@ import { part3 } from './tankless-water-heater-parts/part3';
 import { part4 } from './tankless-water-heater-parts/part4';
 import { part5 } from './tankless-water-heater-parts/part5';
 import { part6 } from './tankless-water-heater-parts/part6';
+// Fully localized towns (one format), wired in by tankless-water-heater-pilot/build-index.mjs.
+import { tanklessPilot } from './tankless-water-heater-pilot';
 
 // Per-neighborhood, tankless-water-heater-specific copy, drafted from each
 // neighborhood's real local facts in content/locations.ts.
@@ -16,6 +18,7 @@ const all: Record<string, LocationServiceCopy> = {
   ...part4,
   ...part5,
   ...part6,
+  ...tanklessPilot,
 };
 
 // Dev shows all 170; production build ships only the DEPLOYED_LOCATION_SLUGS cohort.

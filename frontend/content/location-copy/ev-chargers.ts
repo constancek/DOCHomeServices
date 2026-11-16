@@ -6,6 +6,8 @@ import { part3 } from './ev-chargers-parts/part3';
 import { part4 } from './ev-chargers-parts/part4';
 import { part5 } from './ev-chargers-parts/part5';
 import { part6 } from './ev-chargers-parts/part6';
+// Fully localized towns (one format), wired in by ev-chargers-pilot/build-index.mjs.
+import { evChargersPilot } from './ev-chargers-pilot';
 
 // Per-neighborhood, EV-charger-installation-specific copy, drafted from each
 // neighborhood's real local facts in content/locations.ts.
@@ -16,6 +18,7 @@ const all: Record<string, LocationServiceCopy> = {
   ...part4,
   ...part5,
   ...part6,
+  ...evChargersPilot,
 };
 
 // Dev shows all 170; production build ships only the DEPLOYED_LOCATION_SLUGS cohort.
