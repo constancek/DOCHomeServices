@@ -9,6 +9,8 @@ import { part6 } from './electricity-disconnection-parts/part6';
 import { part7 } from './electricity-disconnection-parts/part7';
 import { part8 } from './electricity-disconnection-parts/part8';
 import { part9 } from './electricity-disconnection-parts/part9';
+// Fully localized towns (one format), wired in by electricity-disconnection-pilot/build-index.mjs.
+import { disconnectionPilot } from './electricity-disconnection-pilot';
 
 // Per-neighborhood electricity disconnection copy, drafted from each
 // neighborhood's real local facts in content/locations.ts. Further parts are
@@ -23,6 +25,7 @@ const all: Record<string, LocationServiceCopy> = {
   ...part7,
   ...part8,
   ...part9,
+  ...disconnectionPilot,
 };
 
 // Dev shows everything written so far; production ships the DEPLOYED_LOCATION_SLUGS cohort.

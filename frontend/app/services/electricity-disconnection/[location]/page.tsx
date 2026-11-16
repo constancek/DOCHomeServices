@@ -9,12 +9,14 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'electricity-disconnection',
   serviceName: 'Electricity Disconnection',
+  localHeadingName: 'Electricity Disconnection Repair',
+  emergencyHeading: 'Emergency Electricity Disconnection Repair in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Electricity Disconnection',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
   businessType: 'Electrician',
   schemaServiceType: 'Electrical Service Restoration After Disconnection',
-  ctaLine: 'Power off in {neighborhood} and Duke will not reconnect?',
+  ctaLine: 'Power off in {neighborhood} and the utility will not reconnect?',
   heroImage: '/services/panel-hero.webp',
   introHeading: 'Electricity Disconnection in {neighborhood}',
   introParagraphs: [
@@ -86,6 +88,14 @@ const config: ServiceLocationConfig = {
     { q: 'What does it cost?', a: 'It depends entirely on what failed — a meter base repair and a full service replacement are very different days. We quote flat-rate in writing after the diagnosis and before any work starts, and we separate our costs from anything the utility charges so you can see which is which.' },
     { q: 'Can I just turn it back on myself?', a: 'No. If the meter has been pulled or locked, tampering with it is a criminal offence in both Ohio and Kentucky, and on a service disconnected for a fault it puts power back into equipment already judged unsafe.' },
   ],
+  steps: {
+    heading: 'What to Expect From Disconnection Repair in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Find Why the Power Is Off', text: 'Meter base, mast, entrance cable, panel and grounding, checked together.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'A flat-rate price after the diagnosis and before any work starts.' },
+      { icon: 'certificate', title: 'Permit, Inspection and Reconnect Handled', text: 'We file the permit, book the inspector and set up the reconnect with the utility.' },
+    ],
+  },
   related: [
     { label: 'Electricity Disconnection (overview)', href: '/services/electricity-disconnection' },
     { label: 'Electrical Panel Replacement', href: '/services/electrical-panel-replacement' },
@@ -110,7 +120,7 @@ export async function generateMetadata({
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return withSocial({
     title: `Electricity Disconnection in ${loc.neighborhood}, ${loc.state}`,
-    description: `Power disconnected in ${place}? Duke will not reconnect until your meter base, mast, or panel is repaired and inspected. Licensed electricians, upfront pricing. Call ${site.primaryPhone.number}.`,
+    description: `Power disconnected in ${place}? The utility will not reconnect until your meter base, mast, or panel is repaired and inspected. Licensed electricians, upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/electricity-disconnection/${loc.slug}` },
     openGraph: {
       title: `Electricity Disconnection in ${place} | ${site.name}`,

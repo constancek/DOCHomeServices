@@ -55,23 +55,6 @@ export const part3: Record<string, LocationServiceCopy> = {
     ],
   },
 
-  queensgate: {
-    intro:
-      'We handle smaller commercial power disconnections in Queensgate and say plainly when a building needs more than we do. Many warehouses and light-industrial buildings near the rail yards run three-phase service with switchgear, and that means heavier work and a heavier inspection than any house.',
-    relevance: [
-      'Queensgate (ZIP 45203) is largely commercial and industrial — warehouses, offices and light-industrial buildings near the rail yards and the Mill Creek. Disconnections here are a different animal from residential ones. Commercial buildings commonly run three-phase service with switchgear rather than a mast, meter and panel, and the inspection requirements, the disconnect procedure and the equipment are all heavier.',
-      'We are straightforward about where our line is. Smaller commercial services — a light-industrial unit, an office, a small warehouse — are work we do, permits and inspections included. A large three-phase installation with primary metering or a utility transformer on site is a specialist contractor’s job, and sending us to look at it wastes your time. Describe the building and the service on the phone and we will tell you honestly whether we are the right call.',
-    ],
-    commonIntro:
-      "Across Queensgate's warehouses and light-industrial buildings, the electrical disconnections we are called for most often are:",
-    localFaqs: [
-      {
-        q: 'Can you get a Queensgate warehouse reconnected?',
-        a: 'It depends on the size of the service, and we would rather establish that on the phone than after driving out. Single-phase and smaller three-phase services on light-industrial units and offices are routine work for us. Large three-phase installations with primary metering or a transformer on site need a specialist contractor, and we will say so rather than charge you for the visit to find out.',
-      },
-    ],
-  },
-
   cuf: {
     intro:
       'In CUF, one house built for a single family can feed ten or more meters. When that entrance suffers a power disconnection, every tenancy in Clifton Heights, University Heights or Fairview goes dark together. The owner authorises the repair, and we handle the service work and inspection.',
@@ -187,23 +170,6 @@ export const part3: Record<string, LocationServiceCopy> = {
       {
         q: 'My South Cumminsville basement floods and the panel has been replaced before. Can it be moved?',
         a: 'Sometimes, and it is worth asking during a replacement rather than after the next flood. What constrains it is the position of the service entrance and the length of the run to the meter. Where those allow it, moving the panel higher or into another room ends the cycle. Where they do not, we will say so rather than quoting for something that will not work.',
-      },
-    ],
-  },
-
-  'english-woods': {
-    intro:
-      'A power disconnection on new construction in English Woods usually comes down to one identifiable fault, such as a damaged meter base. Older homes on the same hilltop streets tend to need the whole service looked at. We tell you which applies before quoting.',
-    relevance: [
-      'English Woods (ZIP 45225) is a hilltop neighborhood above the Mill Creek valley that has seen substantial redevelopment, and that produces two very different disconnections on the same streets. Newer construction has a modern panel, adequate capacity and clean documentation, so a disconnection there is usually about one identifiable thing — a damaged meter base, a fault found during other work, or an inspection on a property that has been empty.',
-      'What remains of the older housing is the opposite: services that may be original, grounding that predates current requirements, and panels with nothing left in them. The same utility technician applying the same standard reaches a different conclusion on the two. We establish which you have before quoting, because the scope and the cost are not comparable and it is unhelpful to imply otherwise.',
-    ],
-    commonIntro:
-      "Across English Woods' redeveloped and older housing on the hilltop, the disconnections we are called for most often are:",
-    localFaqs: [
-      {
-        q: 'My English Woods home is newly built. Why has the power been disconnected?',
-        a: 'On new construction it is usually something specific rather than the whole service — a damaged meter base, a fault found during other work, or an inspection required because the property stood empty for a period. That is a smaller job than on older housing nearby, and worth establishing before anyone quotes you for a service replacement you may not need.',
       },
     ],
   },
