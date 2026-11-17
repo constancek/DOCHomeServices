@@ -142,25 +142,31 @@ export default function Header() {
                     )}
                   </Link>
 
-                  {/* Dropdown — long menus (Plumbing, Electrical) run two columns */}
+                  {/* Dropdown — long menus run in columns (Plumbing three, Electrical two) */}
                   <div
                     className={`absolute left-0 top-full z-50 pt-1 transition-all duration-150 ${
                       openMenu === item.label
                         ? 'visible translate-y-0 opacity-100'
                         : 'invisible pointer-events-none translate-y-1 opacity-0'
-                    } ${item.columns === 2 ? 'w-[34rem]' : 'w-72'}`}
+                    } ${item.columns === 3 ? 'w-[52rem]' : item.columns === 2 ? 'w-[34rem]' : 'w-72'}`}
                   >
                     <div
                       className={`rounded-b-lg border border-brand-100 bg-white shadow-card ${
-                        item.columns === 2 ? 'grid grid-cols-2' : ''
+                        item.buttons ? `relative grid gap-3 p-4 ${item.columns === 3 ? 'grid-cols-3' : item.columns === 2 ? 'grid-cols-2' : ''}` : item.columns === 2 ? 'grid grid-cols-2' : ''
                       }`}
                     >
-                      {item.children.map((child, ci) =>
+                      {/* Button menus show a "flatten" item's children in its place */}
+                      {(item.buttons
+                        ? item.children.flatMap((c) => (c.flatten && c.children ? c.children : [c]))
+                        : item.children
+                      ).map((child, ci) =>
                         child.children ? (
                           <div
                             key={child.label}
-                            className={`relative ${
-                              item.columns === 2 && ci % 2 === 0
+                            className={`${item.buttons ? '' : 'relative'} ${
+                              item.buttons
+                                ? ''
+                                : item.columns === 2 && ci % 2 === 0
                                 ? 'border-r border-r-brand-300'
                                 : ''
                             }`}
@@ -168,28 +174,52 @@ export default function Header() {
                           >
                             <Link
                               href={child.href}
-                              className={`flex h-full items-center justify-between gap-2 border-b border-brand-100 px-5 py-2.5 text-sm font-semibold transition ${
+                              className={`flex h-full items-center justify-between gap-2 text-sm font-semibold transition ${
+                                item.buttons ? 'rounded-lg border px-4 py-2.5' : 'border-b border-brand-100 px-5 py-2.5'
+                              } ${
                                 openSub === child.label
-                                  ? 'bg-pink-500 text-white'
+                                  ? `bg-pink-500 text-white ${item.buttons ? 'border-pink-500' : ''}`
+                                  : item.buttons
+                                  ? 'border-brand-200 bg-brand-50 text-brand-900'
                                   : 'text-brand-900'
                               }`}
                             >
-                              {child.label}
-                              <Icon name="chevron" className="h-3.5 w-3.5 flex-shrink-0 rotate-180" />
+                              {item.buttons ? (
+                                <span className="flex-1 text-center leading-snug">{child.label}</span>
+                              ) : (
+                                child.label
+                              )}
+                              {item.buttons ? (
+                                <span
+                                  className={`grid h-6 w-6 flex-shrink-0 place-items-center rounded-full transition ${
+                                    openSub === child.label ? 'bg-white text-pink-500' : 'bg-pink-500 text-white'
+                                  }`}
+                                >
+                                  <Icon name="chevron" className="h-3 w-3 rotate-180 stroke-[3]" />
+                                </span>
+                              ) : (
+                                <Icon name="chevron" className="h-3.5 w-3.5 flex-shrink-0 rotate-180" />
+                              )}
                             </Link>
                             {/* Nested flyout — opens away from the panel edge */}
                             <div
-                              className={`absolute top-0 z-50 w-72 transition-all duration-150 ${
+                              className={`absolute z-50 w-72 transition-all duration-150 ${item.buttons ? '-top-px' : 'top-0'} ${
                                 openSub === child.label
                                   ? 'visible opacity-100'
                                   : 'invisible pointer-events-none opacity-0'
                               } ${
-                                item.columns === 2 && ci % 2 === 1 ? 'left-full' : 'right-full'
+                                item.buttons
+                                  ? 'right-[calc(100%+1px)]'
+                                  : item.columns === 2 && ci % 2 === 1
+                                  ? 'left-full'
+                                  : 'right-full'
                               }`}
                             >
                               <div
                                 className={`border border-brand-100 bg-white shadow-card ${
-                                  item.columns === 2 && ci % 2 === 1
+                                  item.buttons
+                                    ? 'relative grid gap-3 rounded-bl-lg p-4'
+                                    : item.columns === 2 && ci % 2 === 1
                                     ? 'ml-px rounded-r-lg'
                                     : 'mr-px rounded-l-lg'
                                 }`}
@@ -198,36 +228,66 @@ export default function Header() {
                                   sub.children ? (
                                     <div
                                       key={sub.label}
-                                      className="relative"
+                                      className={item.buttons ? '' : 'relative'}
                                       onMouseEnter={() => hoverSub(sub.label)}
                                     >
                                       <Link
                                         href={sub.href}
-                                        className={`flex items-center justify-between border-b border-brand-100 px-5 py-2.5 text-sm font-semibold transition last:border-b-0 ${
+                                        className={`flex items-center justify-between text-sm font-semibold transition ${
+                                          item.buttons
+                                            ? 'rounded-lg border px-4 py-2.5'
+                                            : 'border-b border-brand-100 px-5 py-2.5 last:border-b-0'
+                                        } ${
                                           openSub2 === sub.label
-                                            ? 'bg-pink-500 text-white'
+                                            ? `bg-pink-500 text-white ${item.buttons ? 'border-pink-500' : ''}`
+                                            : item.buttons
+                                            ? 'border-brand-200 bg-brand-50 text-brand-900'
                                             : 'text-brand-900'
                                         }`}
                                       >
-                                        {sub.label}
-                                        <Icon name="chevron" className="h-3.5 w-3.5 rotate-180" />
+                                        {item.buttons ? (
+                                          <span className="flex-1 text-center leading-snug">{sub.label}</span>
+                                        ) : (
+                                          sub.label
+                                        )}
+                                        {item.buttons ? (
+                                          <span
+                                            className={`grid h-6 w-6 flex-shrink-0 place-items-center rounded-full transition ${
+                                              openSub2 === sub.label ? 'bg-white text-pink-500' : 'bg-pink-500 text-white'
+                                            }`}
+                                          >
+                                            <Icon name="chevron" className="h-3 w-3 rotate-180 stroke-[3]" />
+                                          </span>
+                                        ) : (
+                                          <Icon name="chevron" className="h-3.5 w-3.5 rotate-180" />
+                                        )}
                                       </Link>
                                       <div
-                                        className={`absolute right-full top-0 z-50 w-72 transition-all duration-150 ${
+                                        className={`absolute z-50 w-72 transition-all duration-150 ${
+                                          item.buttons ? '-top-px right-[calc(100%+1px)]' : 'right-full top-0'
+                                        } ${
                                           openSub2 === sub.label
                                             ? 'visible opacity-100'
                                             : 'invisible pointer-events-none opacity-0'
                                         }`}
                                       >
-                                        <div className="mr-px rounded-l-lg border border-brand-100 bg-white shadow-card">
+                                        <div
+                                          className={`border border-brand-100 bg-white shadow-card ${
+                                            item.buttons ? 'grid gap-3 rounded-bl-lg p-4' : 'mr-px rounded-l-lg'
+                                          }`}
+                                        >
                                           {sub.children.map((leaf) => (
                                             <Link
                                               key={leaf.label}
                                               href={leaf.href}
-                                              className="flex items-center justify-between border-b border-brand-100 px-5 py-2.5 text-sm font-semibold text-brand-900 transition last:border-b-0 hover:bg-brand-50 hover:text-pink-500"
+                                              className={
+                                                item.buttons
+                                                  ? 'flex items-center justify-center rounded-lg border border-brand-200 bg-brand-50 px-3 py-2.5 text-center text-sm font-semibold leading-snug text-brand-900 transition hover:border-pink-500 hover:bg-pink-500 hover:text-white'
+                                                  : 'flex items-center justify-between border-b border-brand-100 px-5 py-2.5 text-sm font-semibold text-brand-900 transition last:border-b-0 hover:bg-brand-50 hover:text-pink-500'
+                                              }
                                             >
                                               {leaf.label}
-                                              {leaf.arrow && (
+                                              {leaf.arrow && !item.buttons && (
                                                 <Icon name="chevron" className="h-3.5 w-3.5 text-brand-400" />
                                               )}
                                             </Link>
@@ -240,10 +300,14 @@ export default function Header() {
                                       key={sub.label}
                                       href={sub.href}
                                       onMouseEnter={() => hoverSub(null)}
-                                      className="flex items-center justify-between border-b border-brand-100 px-5 py-2.5 text-sm font-semibold text-brand-900 transition last:border-b-0 hover:bg-brand-50 hover:text-pink-500"
+                                      className={
+                                        item.buttons
+                                          ? 'flex items-center justify-center rounded-lg border border-brand-200 bg-brand-50 px-3 py-2.5 text-center text-sm font-semibold leading-snug text-brand-900 transition hover:border-pink-500 hover:bg-pink-500 hover:text-white'
+                                          : 'flex items-center justify-between border-b border-brand-100 px-5 py-2.5 text-sm font-semibold text-brand-900 transition last:border-b-0 hover:bg-brand-50 hover:text-pink-500'
+                                      }
                                     >
                                       {sub.label}
-                                      {sub.arrow && (
+                                      {sub.arrow && !item.buttons && (
                                         <Icon name="chevron" className="h-3.5 w-3.5 text-brand-400" />
                                       )}
                                     </Link>
@@ -257,7 +321,9 @@ export default function Header() {
                             key={child.label}
                             href={child.href}
                             onMouseEnter={() => hoverChild(null)}
-                            className={`flex items-center justify-between gap-2 border-b border-brand-100 px-5 py-2.5 text-sm font-semibold text-brand-900 transition hover:bg-brand-50 hover:text-pink-500 ${
+                            className={item.buttons
+                              ? 'flex items-center justify-center rounded-lg border border-brand-200 bg-brand-50 px-3 py-2.5 text-center text-sm font-semibold leading-snug text-brand-900 transition hover:border-pink-500 hover:bg-pink-500 hover:text-white'
+                              : `flex items-center justify-between gap-2 border-b border-brand-100 px-5 py-2.5 text-sm font-semibold text-brand-900 transition hover:bg-brand-50 hover:text-pink-500 ${
                               item.columns === 2
                                 ? ci % 2 === 0
                                   ? 'border-r border-r-brand-300'
@@ -265,8 +331,8 @@ export default function Header() {
                                 : 'last:rounded-b-lg last:border-b-0'
                             }`}
                           >
-                            {child.label}
-                            {child.arrow && (
+                            {item.buttons ? child.menuLabel ?? child.label : child.label}
+                            {child.arrow && !item.buttons && (
                               <Icon name="chevron" className="h-3.5 w-3.5 flex-shrink-0 text-brand-400" />
                             )}
                           </Link>

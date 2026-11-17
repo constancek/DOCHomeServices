@@ -47,11 +47,11 @@ export default function LocationTeamPhotos({
           <>
             {title ? (
               <>
-                <h2 className="mx-auto max-w-4xl text-center font-display text-3xl font-black leading-tight text-white sm:text-4xl">
+                <h2 className="mx-auto max-w-4xl text-center font-sans text-2xl font-black leading-tight text-white sm:text-[28px]">
                   {title}
                 </h2>
                 {paragraph && (
-                  <p className="mx-auto mt-5 max-w-3xl text-center text-[17px] leading-relaxed text-white/90">
+                  <p className="mx-auto mt-5 max-w-3xl text-center text-[22px] leading-relaxed text-white/90 sm:text-2xl">
                     {paragraph}
                   </p>
                 )}

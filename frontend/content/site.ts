@@ -56,6 +56,11 @@ export type NavChild = {
   href: string;
   description?: string;
   arrow?: boolean;
+  // Shorter name used only on the desktop dropdown buttons.
+  menuLabel?: string;
+  // On desktop button menus, show this item's children in its place
+  // instead of opening a flyout.
+  flatten?: boolean;
   children?: NavChild[];
 };
 export type NavItem = {
@@ -66,7 +71,10 @@ export type NavItem = {
   cta?: NavChild;
   // Long menus render their dropdown in two columns so every item stays on
   // screen. Short menus stay single-column.
-  columns?: 2;
+  columns?: 2 | 3;
+  // Desktop dropdown (and its flyouts) shows items as buttons instead of
+  // table rows.
+  buttons?: boolean;
 };
 
 export const nav: NavItem[] = [
@@ -74,12 +82,14 @@ export const nav: NavItem[] = [
     label: 'Plumbing',
     href: '/services/plumbing',
     caret: true,
-    columns: 2,
+    buttons: true,
+    columns: 3,
     children: [
       {
         label: 'Drains',
         href: '/services/drains',
         arrow: true,
+        flatten: true,
         children: [{ label: 'Drain Cleaning', href: '/services/drain-cleaning' }],
       },
       { label: 'Emergency Plumbing', href: '/services/emergency-plumbing' },
@@ -127,9 +137,10 @@ export const nav: NavItem[] = [
     label: 'Heating',
     href: '/services/heating',
     caret: true,
+    buttons: true,
     children: [
-      { label: 'Boiler Repair, Maintenance & Replacement', href: '/services/boilers' },
-      { label: 'Furnace Installation & Replacement', href: '/services/furnace-installation-replacement' },
+      { label: 'Boiler Repair, Maintenance & Replacement', menuLabel: 'Boiler Services', href: '/services/boilers' },
+      { label: 'Furnace Installation & Replacement', menuLabel: 'Furnace Installation', href: '/services/furnace-installation-replacement' },
       { label: 'Furnace Maintenance', href: '/services/furnace-maintenance' },
       { label: 'Furnace Repair', href: '/services/furnace-repair' },
       { label: 'Heat Pumps', href: '/services/heat-pumps' },
@@ -141,6 +152,7 @@ export const nav: NavItem[] = [
     label: 'Air Conditioning',
     href: '/services/air-conditioning',
     caret: true,
+    buttons: true,
     children: [
       { label: 'AC Repair', href: '/services/ac-repair' },
       { label: 'AC Installation & Replacement', href: '/services/ac-installation-replacement' },
@@ -156,6 +168,7 @@ export const nav: NavItem[] = [
     href: '/services/electrical',
     caret: true,
     columns: 2,
+    buttons: true,
     children: [
       {
         label: 'Lighting',
@@ -188,7 +201,7 @@ export const nav: NavItem[] = [
         ],
       },
       { label: 'Exhaust Fan Installation & Repair', href: '/services/exhaust-fan-installation-repair' },
-      { label: 'Whole-Home Surge Protector Installation', href: '/services/surge-protector-installation' },
+      { label: 'Whole-Home Surge Protector Installation', menuLabel: 'Whole-Home Surge Protectors', href: '/services/surge-protector-installation' },
       { label: 'Ceiling Fan Installation', href: '/services/ceiling-fan-installation' },
       { label: 'Electrical Inspections', href: '/services/electrical-inspections' },
       { label: 'Home Rewiring', href: '/services/home-rewiring' },
@@ -204,6 +217,7 @@ export const nav: NavItem[] = [
     label: 'About Us',
     href: '/about',
     caret: true,
+    buttons: true,
     children: [
       { label: 'Video Testimonials', href: '/video-testimonials' },
       { label: 'Reviews', href: '/reviews' },
@@ -219,6 +233,7 @@ export const nav: NavItem[] = [
     label: 'Specials',
     href: '/specials',
     caret: true,
+    buttons: true,
     children: [
       { label: 'Coupons', href: '/specials' },
       { label: 'Request an Estimate', href: '/request-estimate/' },
