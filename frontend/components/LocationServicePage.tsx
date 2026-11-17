@@ -120,6 +120,8 @@ export default function LocationServicePage({
       .split('{area}').join(site.serviceArea);
 
   const faqs = [...copy.localFaqs, ...config.sharedFaqs];
+  // One-format (rewritten) town pages have both a local and an emergency paragraph.
+  const oneFormat = Boolean(copy.localParagraph && copy.emergencyParagraph);
 
   const businessSchema = {
     '@context': 'https://schema.org',
@@ -304,15 +306,22 @@ export default function LocationServicePage({
             ))}
           </div>
 
-          {/* Why us */}
-          <h2 className="mt-12 section-title text-brand-700">{fill(config.whyTitle)}</h2>
-          <p className="mt-3 text-[17px] leading-relaxed text-ink/75">{fill(config.whyParagraph)}</p>
+          {/* Why us (one-format pages show it in the blue photo band instead) */}
+          {!oneFormat && (
+            <>
+              <h2 className="mt-12 section-title text-brand-700">{fill(config.whyTitle)}</h2>
+              <p className="mt-3 text-[17px] leading-relaxed text-ink/75">{fill(config.whyParagraph)}</p>
+            </>
+          )}
 
         </div>
       </section>
 
       {/* Van, tech and team photos, in a full-width blue band */}
-      <LocationTeamPhotos neighborhood={loc.neighborhood} />
+      <LocationTeamPhotos
+        neighborhood={loc.neighborhood}
+        {...(oneFormat ? { title: fill(config.whyTitle), paragraph: fill(config.whyParagraph) } : {})}
+      />
 
       <section className="py-14">
         <div className="container-page max-w-4xl">

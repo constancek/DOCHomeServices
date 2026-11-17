@@ -24,15 +24,39 @@ const PRINT_TILT = ['rotate-[4deg] md:translate-x-5', 'z-10 -rotate-[6deg] md:mt
 const WORD_STEP = 90; // ms between heading words
 const PHOTO_STEP = 250; // ms between photos
 
-export default function LocationTeamPhotos({ neighborhood }: { neighborhood: string }) {
+// One-format location pages pass their "Why ... Choose Us" heading and
+// paragraph, which replace the "Degree of Comfort in {neighborhood}" heading.
+export default function LocationTeamPhotos({
+  neighborhood,
+  title,
+  paragraph,
+}: {
+  neighborhood: string;
+  title?: string;
+  paragraph?: string;
+}) {
+  // The "Why ..." heading and paragraph are static; only the default
+  // "Degree of Comfort in ..." heading rises in word by word.
   const words = `${site.name} in ${neighborhood}`.split(' ');
-  const photosStart = words.length * WORD_STEP + 150;
+  const photosStart = title ? 150 : words.length * WORD_STEP + 150;
 
   return (
     <section className="cv-auto overflow-hidden bg-blue-section py-16 sm:py-20">
       <RevealGroup className="container-page">
         {(shown) => (
           <>
+            {title ? (
+              <>
+                <h2 className="mx-auto max-w-4xl text-center font-display text-3xl font-black leading-tight text-white sm:text-4xl">
+                  {title}
+                </h2>
+                {paragraph && (
+                  <p className="mx-auto mt-5 max-w-3xl text-center text-[17px] leading-relaxed text-white/90">
+                    {paragraph}
+                  </p>
+                )}
+              </>
+            ) : (
             <h2 className="text-center font-display text-3xl font-black leading-tight text-white sm:text-4xl lg:text-5xl">
               {words.map((w, i) => (
                 <span key={i} className="inline-block overflow-hidden pb-1 align-bottom">
@@ -48,6 +72,7 @@ export default function LocationTeamPhotos({ neighborhood }: { neighborhood: str
                 </span>
               ))}
             </h2>
+            )}
             <ul className="mt-12 grid gap-8 md:grid-cols-3 md:items-start md:gap-2 md:px-4">
               {PHOTOS.map((p, i) => (
                 <li
