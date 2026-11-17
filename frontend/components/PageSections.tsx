@@ -307,8 +307,8 @@ export function TrustedExperts() {
     <section className="cv-auto bg-white py-16">
       <div className="container-page grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-center">
         <div className="m-center">
-          <p className="mb-3 flex items-center gap-2 text-sm font-extrabold uppercase tracking-[0.18em] text-pink-500 max-sm:justify-center">
-            <Icon name="paw" className="h-5 w-5" />
+          <p className="mb-3 flex items-center gap-2 text-sm font-extrabold uppercase tracking-[0.18em] text-pink-500 max-sm:flex-col max-sm:justify-center">
+            <Icon name="paw" className="h-5 w-5 max-sm:h-9 max-sm:w-9" />
             Spot Our Van Around Cincinnati
           </p>
           <h2 className="section-title text-brand-700">

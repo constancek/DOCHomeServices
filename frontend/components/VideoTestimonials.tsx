@@ -5,7 +5,7 @@ import Icon from './Icon';
 import { videoTestimonials } from '@/content/videoTestimonials';
 
 // Video testimonials section: a blue band of numbered customer thumbnails
-// (six visible, four on phones, looping, with arrows), then the selected customer's name,
+// (six visible, three on phones, looping, with arrows), then the selected customer's name,
 // rating, and words beside their playable video. Driven by
 // content/videoTestimonials.ts, the same source as /video-testimonials.
 // Video bytes only download once the video scrolls into view (preload="none").
@@ -102,7 +102,7 @@ export default function VideoTestimonials() {
             <Icon name="chevron" className="h-4 w-4 rotate-180" />
           </button>
 
-          <div className="flex flex-1 items-start justify-between">
+          <div className="flex flex-1 items-start justify-around sm:justify-between">
             {strip.map((idx, k) => {
               const item = ITEMS[idx];
               const isActive = idx === active;
@@ -113,7 +113,7 @@ export default function VideoTestimonials() {
                   onClick={() => select(idx)}
                   aria-label={`Show testimonial from ${item.name}`}
                   aria-current={isActive}
-                  className={`group flex-shrink-0 flex-col items-center ${k >= 4 ? 'hidden sm:flex' : 'flex'}`}
+                  className={`group flex-shrink-0 flex-col items-center ${k >= 3 ? 'hidden sm:flex' : 'flex'}`}
                 >
                   <span className="-mt-2.5 whitespace-nowrap rounded-full bg-pink-500 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white ring-2 ring-[#1a3aa6] sm:-mt-3.5 sm:px-3 sm:py-1 sm:text-xs">
                     {item.name.split(' ')[0]}
@@ -122,7 +122,7 @@ export default function VideoTestimonials() {
                       moves to the selected one. */}
                   <span className="mt-3 flex items-center p-1 sm:mt-5">
                     <span
-                      className={`block h-[52px] w-[52px] overflow-hidden rounded-xl ring-2 ring-offset-2 ring-offset-[#1a3aa6] transition duration-200 sm:h-[100px] sm:w-[100px] sm:rounded-2xl sm:ring-[3px] ${
+                      className={`block h-[min(18vw,76px)] w-[min(18vw,76px)] overflow-hidden rounded-xl ring-2 ring-offset-2 ring-offset-[#1a3aa6] transition duration-200 sm:h-[100px] sm:w-[100px] sm:rounded-2xl sm:ring-[3px] ${
                         isActive ? 'ring-white' : 'ring-transparent'
                       }`}
                     >
