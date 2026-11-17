@@ -11,6 +11,8 @@ import { part8 } from './storm-electricity-outage-parts/part8';
 import { part9 } from './storm-electricity-outage-parts/part9';
 import { part10 } from './storm-electricity-outage-parts/part10';
 import { part11 } from './storm-electricity-outage-parts/part11';
+// Fully localized towns (one format), wired in by storm-electricity-outage-pilot/build-index.mjs.
+import { stormOutagePilot } from './storm-electricity-outage-pilot';
 
 // Per-neighborhood storm outage copy, drafted from each neighborhood's real
 // local facts in content/locations.ts. Further parts are added a batch at a
@@ -27,6 +29,7 @@ const all: Record<string, LocationServiceCopy> = {
   ...part9,
   ...part10,
   ...part11,
+  ...stormOutagePilot,
 };
 
 // Dev shows everything written so far; production ships the DEPLOYED_LOCATION_SLUGS cohort.

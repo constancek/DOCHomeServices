@@ -9,12 +9,14 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'storm-electricity-outage',
   serviceName: 'Storm Electricity Outage Repair',
+  localHeadingName: 'Storm Electricity Outage Repair',
+  emergencyHeading: 'Emergency Storm Electricity Outage Repair in {neighborhood}',
   eyebrow: 'Electrical',
   hubLabel: 'Storm Electricity Outage',
   parentCrumb: { label: 'Electrical', href: '/services/electrical' },
   businessType: 'Electrician',
   schemaServiceType: 'Storm Electricity Outage Repair',
-  ctaLine: 'Street back on but your {neighborhood} home still dark?',
+  ctaLine: 'Street back on but your home in {neighborhood} still dark?',
   heroImage: '/services/storm-outage-hero.webp',
   introHeading: 'Storm Electricity Outage Repair in {neighborhood}',
   introParagraphs: [
@@ -91,6 +93,14 @@ const config: ServiceLocationConfig = {
     { q: 'Everything looks fine outside but half my house has no power. What is that?', a: 'That pattern usually points at a lost leg of the service or damage inside the panel rather than storm damage you can see. Do not keep resetting breakers to find out. It is worth an hour of diagnosis, and it sometimes ends in a panel replacement.' },
     { q: 'How do I avoid this next time?', a: 'You cannot storm-proof a service mast, but you can keep limbs off the drop and you can protect what is inside. Whole-home surge protection is the cheapest insurance in the trade for a house full of electronics, control boards, and inverter-driven appliances.' },
   ],
+  steps: {
+    heading: 'What to Expect From Storm Outage Repair in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Photograph and Assess the Damage', text: 'Mast, weatherhead, entrance cable, meter base and panel, documented for your insurer.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'A flat-rate price for the repair before any work starts.' },
+      { icon: 'certificate', title: 'Inspection and Utility Reconnect Handled', text: 'We file the permit, book the inspector and set up the reconnect with the utility.' },
+    ],
+  },
   related: [
     { label: 'Storm Electricity Outage (overview)', href: '/services/storm-electricity-outage' },
     { label: 'Electrical Mast Repair', href: '/services/electrical-mast-repair' },
@@ -115,7 +125,7 @@ export async function generateMetadata({
   const place = loc.city ? `${loc.neighborhood}, ${loc.city}, ${loc.state}` : `${loc.neighborhood}, ${loc.state}`;
   return withSocial({
     title: `Storm Electricity Outage Repair in ${loc.neighborhood}, ${loc.state}`,
-    description: `Storm-damaged mast, weatherhead, or meter base in ${place}? Duke will not reconnect until it is repaired and inspected. Licensed electricians, upfront pricing. Call ${site.primaryPhone.number}.`,
+    description: `Storm-damaged mast, weatherhead, or meter base in ${place}? The utility will not reconnect until it is repaired and inspected. Licensed electricians, upfront pricing. Call ${site.primaryPhone.number}.`,
     alternates: { canonical: `/services/storm-electricity-outage/${loc.slug}` },
     openGraph: {
       title: `Storm Electricity Outage Repair in ${place} | ${site.name}`,

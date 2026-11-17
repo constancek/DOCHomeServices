@@ -54,23 +54,6 @@ export const part5: Record<string, LocationServiceCopy> = {
     ],
   },
 
-  queensgate: {
-    intro:
-      'Storm outages in Queensgate usually involve commercial buildings, and many run three-phase service with switchgear, which is a different job from a house mast and meter. We repair storm damage on smaller commercial services and tell you plainly when a large installation needs a specialist contractor.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district west of downtown, near the rail yards and the Mill Creek — warehouses, offices, and light-industrial buildings rather than housing. That changes the nature of a storm outage here. Commercial and industrial buildings commonly run three-phase service with switchgear rather than the single-phase mast, meter, and panel arrangement on a house, and the equipment is bigger, the disconnect procedure is different, and the inspection requirements are heavier.',
-      'We are straightforward about the line. Smaller commercial services — a light-industrial unit, an office, a small warehouse — are work we do. A large three-phase service with a utility transformer, primary metering, or a substation-scale disconnect is a different trade, and sending us to look at it wastes your time in a week when time is what you do not have. Tell us what the building is on the phone and we will tell you honestly whether we are the right call.',
-    ],
-    commonIntro:
-      "Across Queensgate's warehouses and light-industrial buildings on low ground by the Mill Creek, the storm-related electrical problems we are called for most often are:",
-    localFaqs: [
-      {
-        q: 'Can you handle a commercial service on a Queensgate warehouse?',
-        a: 'It depends on the size, and we would rather establish that on the phone than after driving out. Single-phase and smaller three-phase services on light-industrial units and offices are work we do routinely. Large three-phase installations with primary metering or utility transformers on site are a specialist contractor’s job, and if that is what you have we will say so and not charge you for the visit to find out.',
-      },
-    ],
-  },
-
   cuf: {
     intro:
       'Storm repairs in CUF often take longer to set up than to finish, because some Fairview streets are linked by public stairways and ladders have few good spots. We fix masts and meter banks across Clifton Heights, University Heights and Fairview, working with owners of the rentals.',
@@ -186,23 +169,6 @@ export const part5: Record<string, LocationServiceCopy> = {
       {
         q: 'My South Cumminsville basement floods most heavy storms. Should the panel be moved?',
         a: 'It is worth asking about while we are there. If the panel has been replaced once because of water, replacing it again in the same position is a predictable expense, and relocating it higher up the wall or to a different room is sometimes practical. It is not always — the service entrance position and the run to the meter constrain it — but it is a better conversation to have during a repair than after the next flood.',
-      },
-    ],
-  },
-
-  'english-woods': {
-    intro:
-      'Storm outages in English Woods split by the age of the house. Newer homes are mostly fed underground and have no mast to lose, while older housing on the hilltop is still overhead and takes the wind. We repair either, from a damaged mast to a meter base fault.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, and it has seen substantial redevelopment in recent years. That redevelopment is what makes the storm answer here different from house to house. Newer construction is typically fed underground with a modern panel, and those homes have no mast or weatherhead to lose — when they go dark it is either a genuine utility outage or a fault at the meter or in the panel. What remains of the older housing is overhead, with entrances that may be original.',
-      'Being on the hilltop means wind exposure without the shelter the valley gets, so the older overhead services here take the load. The practical advice is the same either way and starts at the window: if the neighbours have lights and you do not, the fault is on your side of the meter and Duke will not reconnect to it until a licensed electrician has repaired it and it has been inspected.',
-    ],
-    commonIntro:
-      "Across English Woods' redeveloped and older housing on the hilltop, the storm damage we see most often is:",
-    localFaqs: [
-      {
-        q: 'My English Woods home is newly built. Do I still need an electrician after a storm?',
-        a: 'Possibly not, and we would rather tell you that than send someone. Newer construction here is usually fed underground, so there is no mast or weatherhead to be damaged. If your whole street is dark it is a utility outage and you wait. If only your house is out, the likely causes are the meter base, the underground run, or surge damage in the panel — worth a look, but a different and usually smaller job than a service rebuild.',
       },
     ],
   },
