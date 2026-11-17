@@ -9,6 +9,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'lighting-fixture-installation',
   serviceName: 'Light Fixture Installation',
+  localHeadingName: 'Light Fixture Installation',
+  emergencyHeading: 'Urgent Light Fixture Problems in {neighborhood}',
   eyebrow: 'Lighting',
   hubLabel: 'Light Fixture Installation',
   parentCrumb: { label: 'Lighting', href: '/services/lighting' },
@@ -77,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'How long will light fixture installation take?', a: 'Most installations can be completed during a single service visit, depending on the number of fixtures and electrical connections involved.' },
     { q: 'Should I DIY or hire a professional to install light fixtures?', a: 'Professional installation ensures wiring is handled safely and the fixture is mounted securely. This reduces the risk of electrical issues and ensures proper performance.' },
   ],
+  steps: {
+    heading: 'What to Expect From Light Fixture Installation in {neighborhood}',
+    items: [
+      { icon: 'search', title: 'We Check the Box and Wiring First', text: 'Whether the box suits the fixture, the ground wire and the wall switch.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'What the job needs, and a flat-rate price before work begins.' },
+      { icon: 'bolt', title: 'Mounted, Wired and Tested', text: 'Anchored securely, connected to code, then tested at the switch.' },
+    ],
+  },
   related: [
     { label: 'Light Fixture Installation (overview)', href: '/services/lighting-fixture-installation' },
     { label: 'Indoor Lighting', href: '/services/indoor-lighting' },

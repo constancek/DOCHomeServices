@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Fixture installation in Queensgate is mostly commercial: replacing dated office ceiling fixtures and adding or updating lighting in older warehouses and light-industrial buildings near the rail yards. The boxes, supports and wiring often predate current standards, so we check the mounting first.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. The fixture work here tends to be commercial — replacing dated office ceiling fixtures and adding or updating lighting in older industrial spaces — rather than residential chandeliers.',
-      'In these older commercial buildings the existing boxes, supports, and wiring behind a fixture often predate current standards. When we replace or add a fixture in a Queensgate building we confirm the mounting and box suit the fixture and update the wiring or switch as needed, so the install is safe and code-compliant for a commercial space.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the fixture work we handle most often is replacing dated office and warehouse lighting backed by older boxes and wiring:',
-    localFaqs: [
-      {
-        q: 'Do you install fixtures in commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and as licensed electricians we replace and add ceiling and wall fixtures to code, updating older mounting and wiring where the building needs it.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'Across CUF, light fixture installation mostly means replacing worn flush mounts and vanity lights in student rentals in Clifton Heights, University Heights and Fairview. These 19th- and early-1900s homes have ceiling boxes sized for lighter fixtures and brittle branch wiring, so we check both.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'How fast can you reach South Cumminsville to install a fixture?',
         a: 'South Cumminsville is within our service area in the Mill Creek valley. We are licensed electricians and install ceiling and vanity fixtures to code, updating the aging wiring and undersized boxes these older homes often have.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'English Woods fixture installation covers older homes and newer redeveloped housing on this hilltop above the Mill Creek valley. In older homes, decades-old boxes and wiring sized for lighter lights get checked before anything heavier goes up. Newer homes get straightforward installs to code.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. Between the older homes and the redeveloped housing, the work we are called for most here is replacing dated ceiling and bathroom fixtures and adding modern LED-ready lighting.',
-      'In the older homes the ceiling boxes and wiring behind a fixture are decades old and sized for lighter lights, so we check the box and update the wiring before hanging anything heavier. In the newer redeveloped homes the work is straightforward installs to code. Either way we confirm the box and bracing suit the fixture so the install is safe and code-compliant.',
-    ],
-    commonIntro:
-      'In English Woods’ older and redeveloped hilltop homes, the fixture work we handle most often is dated ceiling lights and modern replacements set on properly rated boxes:',
-    localFaqs: [
-      {
-        q: 'How fast can you reach English Woods to install a fixture?',
-        a: 'English Woods is within our west-side service area. We are licensed electricians and install ceiling and vanity fixtures to code, fitting a properly rated box and updating older wiring where the home needs it.',
       },
     ],
   },
