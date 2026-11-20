@@ -398,11 +398,45 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               <ul className="mt-4 space-y-4">
                 {related.map((r) => (
                   <li key={r.slug}>
-                    <Link href={`/${r.slug}`} className="group block">
-                      <span className="block text-sm font-bold text-brand-900 transition group-hover:text-brand-600">
-                        {r.title}
+                    <Link
+                      href={`/${r.slug}/`}
+                      className="group block overflow-hidden rounded-2xl border border-brand-100 bg-brand-50/60 transition duration-200 hover:-translate-y-0.5 hover:border-brand-300 hover:bg-white hover:shadow-md"
+                    >
+                      {r.image && (
+                        <span className="block aspect-[1200/630] overflow-hidden bg-brand-100">
+                          <img
+                            src={r.image}
+                            alt=""
+                            width={1200}
+                            height={630}
+                            loading="lazy"
+                            decoding="async"
+                            className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                          />
+                        </span>
+                      )}
+                      <span className="flex items-end gap-2 px-4 pb-4 pt-3">
+                        <span className="min-w-0 flex-1">
+                          <span className="inline-block rounded-full bg-white px-2.5 py-0.5 text-[11px] font-semibold text-brand-500 ring-1 ring-brand-100">
+                            {r.category}
+                          </span>
+                          <span className="mt-1.5 block text-sm font-bold leading-snug text-brand-900 transition group-hover:text-brand-600">
+                            {r.title}
+                          </span>
+                        </span>
+                      <svg
+                        aria-hidden="true"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        className="mb-0.5 h-4 w-4 shrink-0 text-brand-300 transition group-hover:translate-x-0.5 group-hover:text-brand-600"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M7.21 14.77a.75.75 0 0 1 .02-1.06L11.17 10 7.23 6.29a.75.75 0 1 1 1.04-1.08l4.5 4.25a.75.75 0 0 1 0 1.08l-4.5 4.25a.75.75 0 0 1-1.06-.02Z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
                       </span>
-                      <span className="text-xs text-brand-400">{r.category}</span>
                     </Link>
                   </li>
                 ))}
