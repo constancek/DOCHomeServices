@@ -31,7 +31,7 @@ const signs = [
 
 
 const faqs = [
-  { q: 'Do heat pumps work in our climate?', a: 'Yes. Modern heat pumps handle our winters well, and many homes pair one with a furnace (a dual-fuel system) so the furnace takes over on the coldest days for the best of both efficiency and comfort.' },
+  { q: 'Do heat pumps work in Cincinnati’s climate?', a: 'Yes. Modern heat pumps handle Cincinnati winters well, and many homes pair one with a furnace (a dual-fuel system) so the furnace takes over on the coldest days for the best of both efficiency and comfort.' },
   { q: 'How do I know if my furnace needs maintenance?', a: 'An annual tune-up is recommended. Tell-tale signs in between: short cycling, new noises, weak or uneven heat, rising bills, or simply not having had it serviced in over a year.' },
   { q: 'How often should I replace my furnace filter?', a: 'Every 1–3 months for a standard 1-inch filter — more often with pets or heavy use. Thicker media filters can last several months. A clean filter is the single easiest way to protect efficiency.' },
   { q: 'Can I install a new heating system myself?', a: 'No — heating installation involves gas, electrical, venting, and permits, and a mistake is a real safety risk. A professional install also keeps your manufacturer warranty intact.' },

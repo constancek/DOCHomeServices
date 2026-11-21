@@ -39,10 +39,11 @@ const maurice = {
 export const posts: Post[] = [
 {
     slug: '5-common-causes-of-low-water-pressure',
-    title: '5 Common Causes of Low Water Pressure',
+    title: '5 Common Causes of Low Water Pressure in Cincinnati Homes',
+    seoTitle: 'Low Water Pressure in Cincinnati: 5 Causes',
     category: 'Plumbing',
     excerpt:
-      'Low water pressure usually traces back to one of five things: a municipal supply issue, a partly closed valve, a failing pressure regulator, clogged pipes, or corrosion. Here is how to tell them apart and what to do about each.',
+      'Low water pressure in Cincinnati homes usually traces to one of five causes: the city supply, a closed valve, a bad regulator, clogged pipes or corrosion.',
     date: '2025-12-04',
     dateModified: '2025-12-04',
     readMinutes: 7,
@@ -60,9 +61,9 @@ export const posts: Post[] = [
         ],
       },
       { kind: 'p', spans: ['Low water pressure almost always comes down to one of five causes: a problem with the municipal supply, a valve that isn’t fully open, a damaged pressure regulator, clogged pipes, or corrosion inside aging pipes. The good news is that two of those are free to check and often free to fix. The rest need a plumber, but knowing which is which saves you time and money. Here’s how to work through them in order.'] },
-      { kind: 'h2', text: 'How to Tell Where the Problem Is' },
+      { kind: 'h2', text: 'How to Find the Source of Low Water Pressure in Cincinnati' },
       { kind: 'p', spans: ['Before you chase a cause, figure out the scope. Turn on a few faucets around the house. If only one runs weak, the issue is almost certainly local to that fixture — a clogged aerator or a partly closed supply valve under the sink — and not a whole-home problem. If every faucet, shower, and appliance is soft, the cause is upstream, somewhere between the street and your fixtures. That single check narrows the list fast.'] },
-      { kind: 'h2', text: '1. Issues With the Municipal Water Supply' },
+      { kind: 'h2', text: '1. Issues With the Municipal Water Supply in Cincinnati' },
       { kind: 'p', spans: ['Sometimes the problem isn’t your house at all. If the city or water district is doing main line work, flushing hydrants, or dealing with a break, pressure across the whole neighborhood can drop. The quickest way to confirm this is to ask a neighbor whether their water pressure fell at the same time. If it did, the fault is on the utility’s side, and a call to your water supplier will tell you what’s going on and when it’ll clear up.'] },
       { kind: 'p', spans: ['This one costs you nothing but a phone call, which is exactly why it’s worth ruling out before you touch anything inside your home.'] },
       { kind: 'h2', text: '2. A Partially Closed Main or Meter Valve' },
@@ -71,15 +72,15 @@ export const posts: Post[] = [
       { kind: 'h2', text: '3. A Damaged Pressure Regulator' },
       { kind: 'p', spans: ['Many homes have a pressure-reducing valve, also called a pressure regulator, that keeps incoming water from arriving at a level high enough to stress your pipes and fixtures. When that regulator fails, it can swing the wrong way and choke your pressure down instead. A regulator reading a low PSI is usually a sign the device is damaged and needs to be replaced.'] },
       { kind: 'p', spans: ['Not every home has one, so this may not apply to you. If yours does and it’s the culprit, replacement is a straightforward job for a plumber and typically restores normal pressure across the whole house. This is the point where the guessing stops and testing pays off — a pro can read your actual pressure and confirm the regulator is the problem before replacing anything.'] },
-      { kind: 'h2', text: '4. Clogged Water Pipes' },
+      { kind: 'h2', text: '4. Clogged Water Pipes in Cincinnati Homes' },
       { kind: 'p', spans: ['Over the years, mineral buildup and debris collect inside your pipes and narrow the path water can travel. When that happens in the main line feeding your home, flow drops everywhere at once. Hard water speeds this along, since the same minerals that leave spots on your dishes also settle inside the pipe walls.'] },
       { kind: 'p', spans: ['A clog deep in the supply line isn’t a plunger job — it’s inside pressurized pipe, and clearing or replacing the affected section is work for a professional. If you’re noticing slow flow alongside slow drains, that’s a different signal worth reading; our guide on ', { link: 'how to know if your main drain is clogged', href: '/how-do-you-know-if-your-main-drain-is-clogged/' }, ' covers what to watch for on the wastewater side.'] },
       { kind: 'h2', text: '5. Pipe Corrosion' },
       { kind: 'p', spans: ['Every pipe has a lifespan, and older galvanized steel pipes are the ones most likely to corrode from the inside out. As rust and scale build up on the interior walls, the usable diameter shrinks and pressure falls — often gradually, over months, so it’s easy to miss until it’s noticeable. Corrosion can also lead to leaks and discolored water, so it tends to bring company.'] },
       { kind: 'p', spans: ['Unlike a clog, corrosion doesn’t clear out. The affected pipe has to be replaced. That sounds daunting, but new supply lines are more reliable, and homeowners often find that ', { link: 'pipe replacement and other plumbing upgrades', href: '/plumbing-upgrades-to-increase-home-value/' }, ' pay off in both daily comfort and resale value. A licensed plumber can inspect your lines, confirm corrosion is the cause, and lay out ', { link: 'pipe repair or replacement', href: '/services/pipe-repair-replacement/' }, ' options.'] },
-      { kind: 'h2', text: 'When One Fixture Is the Only Problem' },
+      { kind: 'h2', text: 'When One Fixture Has Low Water Pressure' },
       { kind: 'p', spans: ['If your whole house is fine but a single faucet dribbles, the fix is usually small and local. A clogged aerator on the tip of the spout, or a supply valve under the sink that isn’t fully open, causes most one-fixture complaints. Unscrewing and rinsing an aerator is a genuine DIY job. And if that same fixture is also dripping when it’s off, our post on ', { link: 'why a faucet drips and how to fix it', href: '/why-is-my-faucet-dripping-how-to-fix-a-leaky-faucet/' }, ' walks through it. No need to call anyone for a five-minute clean.'] },
-      { kind: 'h2', text: 'Get to the Bottom of It With Degree of Comfort' },
+      { kind: 'h2', text: 'Plumbing Help for Low Water Pressure in Cincinnati' },
       { kind: 'p', spans: ['If you’ve checked your valves, asked the neighbors, and the pressure is still weak, it’s time to test rather than guess. Degree of Comfort handles ', { link: 'plumbing repair', href: '/services/plumbing-repair/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — so you know the number before we start.'] },
       { kind: 'p', spans: ['To find out exactly why your water pressure is low, call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and our team will take it from there.'] },
     ],
@@ -93,10 +94,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'air-conditioner-vs-heat-pump',
-    title: 'Air Conditioner vs. Heat Pump: Which Is Right for You?',
+    title: 'Air Conditioner vs. Heat Pump: Which Is Right for Cincinnati Homes?',
+    seoTitle: 'Air Conditioner vs. Heat Pump in Cincinnati',
     category: 'Cooling',
     excerpt:
-      'A heat pump both cools and heats your home, while an air conditioner only cools. For most Tri-State homes the right pick comes down to your heating setup and how you want to handle the cold months. Here is how to decide.',
+      'Air conditioner vs. heat pump: a heat pump cools and heats, an air conditioner only cools. How Cincinnati homeowners can pick based on their heating setup.',
     date: '2026-02-13',
     dateModified: '2026-03-13',
     readMinutes: 8,
@@ -120,10 +122,10 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'How Does an Air Conditioner Differ From a Heat Pump?' },
       { kind: 'p', spans: ['An air conditioner is a one-way machine. It moves heat out of your home and that is it. When temperatures drop, an AC sits idle and your furnace takes over. A heat pump is a two-way machine — the same equipment cools in summer and heats in the shoulder seasons and mild winters.'] },
       { kind: 'p', spans: ['That is really the only mechanical difference that matters. Same refrigerant cycle, same outdoor condenser, same indoor air handler. The heat pump just adds a reversing valve that lets it flip direction. Everything else you have heard about the two systems flows from that one feature.'] },
-      { kind: 'h2', text: 'Which Is Better for Cooling?' },
+      { kind: 'h2', text: 'Which Is Better for Cooling in Cincinnati Summers?' },
       { kind: 'p', spans: ['For cooling alone, they are a wash. A properly sized heat pump and a properly sized air conditioner will keep your home just as comfortable on a July afternoon. Same efficiency ratings, same cooling capacity, same feel.'] },
       { kind: 'p', spans: ['The one small edge goes to the heat pump on humidity. Heat pumps tend to pull a little more moisture out of the air, which matters in a sticky Ohio Valley summer. It is a marginal difference, not a dealbreaker, and a right-sized AC handles humidity fine too. Honestly, if cooling is your only concern, do not let this tip the scale — pick based on your heating plan and budget instead.'] },
-      { kind: 'h2', text: 'Will a Heat Pump Increase My Energy Efficiency?' },
+      { kind: 'h2', text: 'Will a Heat Pump Improve Energy Efficiency in Cincinnati?' },
       { kind: 'p', spans: ['In mild weather, yes — often dramatically. Because a heat pump moves existing heat rather than burning fuel to create it, it can cut heating costs by up to 50% compared to some conventional systems. Moving heat is simply cheaper than making it.'] },
       { kind: 'p', spans: ['Efficiency gets measured a few ways. ', { strong: 'SEER' }, ' (Seasonal Energy Efficiency Ratio) and ', { strong: 'EER' }, ' (Energy Efficiency Ratio) tell you how well a system cools, and heat pumps and ACs are rated on the same scale. The catch is the cold. A standard heat pump loses efficiency as the outdoor temperature falls, and once you drop below roughly ', { strong: '40 degrees' }, ', it starts working harder for less. Around here, that is why a heat pump often pairs with a furnace that picks up the deep-winter load.'] },
       { kind: 'p', spans: ['If you are weighing the investment, a heat pump can also pay off at resale — we cover that in our post on whether ', { link: 'a heat pump increases home value', href: '/does-a-heat-pump-increase-home-value/' }, '. And if budget is the question, our breakdown of ', { link: 'how much a new air conditioner costs', href: '/how-much-is-a-new-air-conditioner/' }, ' gives you a realistic range to compare against.'] },
@@ -135,7 +137,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['This is the workhorse setup for the Tri-State, sometimes called a dual-fuel or hybrid system. The heat pump handles cooling and mild-weather heating, and the furnace kicks in when it gets genuinely cold. You get efficient heating most of the year and reliable warmth in a January cold snap.'] },
       { kind: 'h3', text: 'Air Conditioner Plus Furnace' },
       { kind: 'p', spans: ['The traditional combo. The AC cools, the furnace heats, and there is no overlap. If you have a newer furnace you are happy with and just need cooling, adding a straight air conditioner is often the simplest, most affordable move.'] },
-      { kind: 'h2', text: 'Get the Right System From Degree of Comfort' },
+      { kind: 'h2', text: 'Heat Pump and Air Conditioner Installation in Cincinnati' },
       { kind: 'p', spans: ['The best way to choose is to have a technician look at your home, your existing equipment, and your energy bills. Degree of Comfort installs and services both ', { link: 'heat pumps', href: '/services/heat-pumps/' }, ' and ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Not sure which setup fits your home? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will help you pick the system that makes sense for your comfort and your budget.'] },
     ],
@@ -152,10 +154,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'common-hvac-terms-explained',
-    title: 'Common HVAC Terms Explained: A Homeowner’s Guide',
+    title: 'Common HVAC Terms Explained for Cincinnati Homeowners',
+    seoTitle: 'HVAC Terms Explained for Cincinnati Homes',
     category: 'Home Tips',
     excerpt:
-      'HVAC, SEER, AFUE, MERV, R-value — the jargon on your estimate has plain-English meanings. Here is what the common terms actually mean, so you can read a quote and know what you are paying for.',
+      'HVAC terms explained in plain English for Cincinnati homeowners: SEER, AFUE, MERV, R-value and more, so you can read a quote and know what you pay for.',
     date: '2026-04-10',
     dateModified: '2026-04-10',
     readMinutes: 8,
@@ -174,37 +177,37 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['Here is the short version: most HVAC jargon is just shorthand for how well your equipment heats, cools, or cleans the air, and how much energy it uses to do it. Once you know what a handful of acronyms mean, an estimate stops looking like alphabet soup and starts telling you exactly what you are buying. Below are the terms you will actually run into, in plain English.'] },
 
-      { kind: 'h2', text: 'HVAC' },
+      { kind: 'h2', text: 'What HVAC Means on a Cincinnati Estimate' },
       { kind: 'p', spans: [{ strong: 'HVAC' }, ' stands for Heating, Ventilation and Air Conditioning. It is the catch-all name for the equipment that controls the temperature, moisture, and air movement in your home — the furnace, the air conditioner, the ductwork, and the ventilation that swaps stale indoor air for fresh air. When someone says "your HVAC system," they mean all of it working together, not one box in the basement.'] },
 
       { kind: 'h2', text: 'AHU (Air Handling Unit)' },
       { kind: 'p', spans: ['The ', { strong: 'air handling unit' }, ', or AHU, is the part that moves treated air around your house. Inside it you will find the filter, the heating and cooling coils, and the blower fan. Air gets pulled in, cleaned, heated or cooled, and pushed back out through the ducts. If your system is loud, weak on airflow, or blowing dusty air, the air handler is often where the problem lives.'] },
 
-      { kind: 'h2', text: 'R-Value (Insulation)' },
+      { kind: 'h2', text: 'R-Value and Insulation in Cincinnati Homes' },
       { kind: 'p', spans: [{ strong: 'R-value' }, ' measures how well insulation resists heat flow. The higher the number, the better it slows heat from escaping in winter or sneaking in during summer. Different materials rate differently — blown fiberglass runs about R2.5 per inch, while spray foam can hit R8 or more per inch. In our climate zone, attics are typically insulated to somewhere around R38 to R60, which with blown fiberglass means roughly 15 to 24 inches of depth. Good insulation is one of the cheapest ways to make your heating and cooling work less.'] },
 
       { kind: 'h2', text: 'Energy Star' },
       { kind: 'p', spans: ['The blue ', { strong: 'Energy Star' }, ' label is a government program that flags equipment more efficient than the legal minimum. For a gas furnace to earn it, efficiency usually needs to reach about 90 percent in southern regions and 95 percent in the north, versus the 80 to 85 percent a standard furnace delivers. For central air, Energy Star generally means a SEER of 15 or higher, above the 13 that is standard. The label is a quick shortcut for "this uses less energy than the baseline."'] },
 
-      { kind: 'h2', text: 'SEER (Cooling Efficiency)' },
+      { kind: 'h2', text: 'SEER and Cooling Efficiency for Cincinnati Summers' },
       { kind: 'p', spans: [{ strong: 'SEER' }, ' stands for Seasonal Energy Efficiency Ratio, and it measures how much cooling you get (in BTUs) for the energy you spend (in watt-hours) over a season. Higher SEER means the same cooling for less electricity. Here is a real example: a 10,000 BTU unit running 10 hours a day for 100 days does about 10 million BTUs of cooling a year. At SEER 13 that costs roughly 770,000 watt-hours; at SEER 16 it drops to about 625,000 — around 20 percent less energy for the same comfort. A higher SEER costs more upfront but pays you back on the utility bill. We break this down further in our guide to ', { link: 'what counts as a good SEER rating', href: '/what-is-a-good-seer-rating/' }, '.'] },
 
       { kind: 'h2', text: 'HEPA Filters' },
       { kind: 'p', spans: ['A ', { strong: 'HEPA' }, ' filter — High-Efficiency Particulate Air — is built to trap very small particles like dust, pollen, bacteria, and mold spores. True HEPA filtration is aggressive, which is why it shows up in air quality upgrades rather than standard furnace slots. Worth an honest note: most residential systems are not designed to push air through a true HEPA filter without help, so if someone recommends one, ask how it will be installed. A high-MERV filter is often the more practical choice for a typical home.'] },
 
-      { kind: 'h2', text: 'MERV Ratings' },
+      { kind: 'h2', text: 'MERV Filter Ratings in Cincinnati Homes' },
       { kind: 'p', spans: [{ strong: 'MERV' }, ' is the Minimum Efficiency Reporting Value, a 1 to 20 scale that tells you how well a filter captures particles. Higher numbers catch smaller stuff. Most homes live in the 1 to 12 range — high enough to catch dust, pollen, and pet dander without choking off airflow. Going too high on MERV in a system not built for it can actually strain the blower, so more is not always better. If anyone in your house has allergies, this is the number worth asking about.'] },
 
       { kind: 'h2', text: 'ASHRAE Air Quality Standards' },
       { kind: 'p', spans: [{ strong: 'ASHRAE' }, ' is the American Society of Heating, Refrigerating and Air-Conditioning Engineers. You will not buy anything called an ASHRAE, but the group sets the ventilation and indoor air quality standards that good contractors design to. When a technician mentions ASHRAE, they are pointing to the industry benchmark for how much fresh air a home should get and how clean that air should be.'] },
 
-      { kind: 'h2', text: 'AFUE (Furnace Efficiency)' },
+      { kind: 'h2', text: 'AFUE and Furnace Efficiency for Cincinnati Winters' },
       { kind: 'p', spans: ['One term you will see on the heating side is ', { strong: 'AFUE' }, ', Annual Fuel Utilization Efficiency. It is the furnace version of SEER: the percentage of fuel your furnace turns into actual heat. An 80 percent AFUE furnace turns 80 cents of every fuel dollar into warmth and loses the rest up the flue; a 95 percent unit wastes far less. Higher AFUE costs more to install but lowers your winter bills, and it matters more the longer you plan to stay in the home. For the bigger picture on furnace lifespan and replacement timing, see ', { link: 'how long furnaces last', href: '/how-long-do-furnaces-last/' }, '.'] },
 
-      { kind: 'h2', text: 'Why Learning These Terms Pays Off' },
+      { kind: 'h2', text: 'How Knowing HVAC Terms Helps You Compare Quotes' },
       { kind: 'p', spans: ['You don’t need to become an expert. But knowing the difference between SEER and AFUE, or MERV and HEPA, means you can read an estimate and understand what you are actually paying for — a more efficient unit, a better filter, a properly sized system. It also makes it easier to spot when a number does not add up. If you are weighing a new system, our guide to ', { link: 'what a new air conditioner costs', href: '/how-much-is-a-new-air-conditioner/' }, ' puts real prices next to these ratings.'] },
 
-      { kind: 'h2', text: 'Get Straight Answers From Degree of Comfort' },
+      { kind: 'h2', text: 'HVAC Service in Cincinnati From Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort installs and services ', { link: 'heating', href: '/services/heating/' }, ' and ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee. No jargon for jargon’s sake — we explain every term on your quote before you sign anything.'] },
       { kind: 'p', spans: ['Have a question about a rating on your estimate, or ready to price a new system? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and our team will walk you through it in plain English.'] },
     ],
@@ -221,10 +224,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'do-air-purifiers-help-with-dust',
-    title: 'Do Air Purifiers Help With Dust?',
+    title: 'Do Air Purifiers Help With Dust in Cincinnati Homes?',
+    seoTitle: 'Air Purifiers for Dust in Cincinnati Homes',
     category: 'Home Tips',
     excerpt:
-      'Yes. Air purifiers pull dust out of the air before it settles, and models with a true HEPA filter capture particles down to 0.3 microns. Here’s how they work and when they’re worth it.',
+      'Air purifiers help with dust in Cincinnati homes, and true HEPA models catch particles down to 0.3 microns. Here’s how they work and when they’re worth it.',
     date: '2026-04-17',
     dateModified: '2026-04-29',
     readMinutes: 7,
@@ -248,7 +252,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'Understanding Air Purifier Filters' },
       { kind: 'p', spans: ['The filter is the whole game. A ', { strong: 'true HEPA filter' }, ' captures particles as small as 0.3 microns — small enough to trap dust, dust mites, pollen, and pet dander. For context, most household dust is far larger than that, so a HEPA filter grabs it without trouble. That 0.3-micron rating is the number to look for when you’re shopping.'] },
       { kind: 'p', spans: ['Filters only work when they’re clean. A clogged filter chokes airflow and stops pulling dust out of the air, so replacing or cleaning it on schedule keeps the unit doing its job. Different filters are built for different particles, which is why pairing the right filter with the right problem matters more than buying the most expensive box on the shelf.'] },
-      { kind: 'h2', text: 'Does an Air Purifier Help With Dust?' },
+      { kind: 'h2', text: 'Does an Air Purifier Help With Dust in Cincinnati Homes?' },
       { kind: 'p', spans: ['It does, and the ones with true HEPA filters do it best. HEPA capture is what pulls dust and dust mites out of the air before they settle, which is exactly what you want if you’re tired of dusting the same surfaces every few days. Some non-HEPA models help too, but they don’t reach the same particle sizes, so you get less out of them.'] },
       { kind: 'p', spans: ['Honestly, if your home is drowning in dust, a purifier is only part of the answer. Leaky ductwork, a neglected filter, or an HVAC system that isn’t sealed well will keep feeding dust into the air faster than any purifier can remove it. That’s worth checking before you spend money on a device. Air purifiers pair well with good ', { link: 'indoor air quality', href: '/do-air-conditioners-improve-indoor-air-quality/' }, ' habits — they don’t replace them.'] },
       { kind: 'h2', text: 'What Do Air Purifiers Remove Besides Dust?' },
@@ -258,10 +262,10 @@ export const posts: Post[] = [
       { kind: 'p', spans: [{ strong: 'Smoke and odors' }, ' — from cooking, fireplaces, or lingering household smells.'] },
       { kind: 'p', spans: [{ strong: 'VOCs' }, ' — volatile organic compounds that off-gas from paint, cleaners, and new furnishings.'] },
       { kind: 'p', spans: ['This is why people often notice the air just feels fresher after running a purifier, not only less dusty. If you want the full rundown, we cover it in ', { link: 'the benefits of an air purifier', href: '/what-are-the-benefits-of-having-an-air-purifier/' }, '.'] },
-      { kind: 'h2', text: 'How to Know if You Need an Air Purifier' },
+      { kind: 'h2', text: 'How to Know if Your Cincinnati Home Needs an Air Purifier' },
       { kind: 'p', spans: ['A few signs point to a home that would benefit from one. Persistent odors are the obvious one — if you smell disinfectant, smoke, or a general staleness that won’t clear, your air is holding onto particles it shouldn’t.'] },
       { kind: 'p', spans: ['Allergy symptoms are the other big tell. Sneezing, nasal congestion, and eye irritation that get worse indoors usually mean allergens are circulating through the house. If your family’s symptoms ease the moment you leave home, the air inside is likely the culprit. And if you’re constantly dusting and it never seems to matter, a purifier — paired with a fresh ', { link: 'HVAC filter', href: '/7-signs-your-home-air-filter-is-past-its-prime/' }, ' — can break the cycle.'] },
-      { kind: 'h2', text: 'Talk to Degree of Comfort About Cleaner Air' },
+      { kind: 'h2', text: 'Indoor Air Quality Service in Cincinnati' },
       { kind: 'p', spans: ['If dust and allergens are wearing you down, the right fix depends on your home — sometimes it’s a whole-home purifier, sometimes it’s sealing ductwork or upgrading filtration. Degree of Comfort installs and services ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we’ll help you figure out what your home actually needs.'] },
     ],
@@ -278,10 +282,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'do-liquid-drain-cleaners-work',
-    title: 'Do Liquid Drain Cleaners Really Work?',
+    title: 'Do Liquid Drain Cleaners Really Work? Advice for Cincinnati Homeowners',
+    seoTitle: 'Do Liquid Drain Cleaners Work? Cincinnati Advice',
     category: 'Plumbing',
     excerpt:
-      'Sometimes, but not the way the bottle promises. Liquid drain cleaners usually burn through part of a clog instead of clearing it, and the harsh chemicals can eat away at your pipes over time. Here is what actually happens when you pour one down the drain.',
+      'Liquid drain cleaners rarely clear a clog in Cincinnati homes. They burn a channel through it and can eat at your pipes. What works better instead.',
     date: '2025-10-17',
     dateModified: '2025-10-17',
     readMinutes: 7,
@@ -299,7 +304,7 @@ export const posts: Post[] = [
         ],
       },
       { kind: 'p', spans: ['Yes and no. A liquid drain cleaner can sometimes open a slow drain long enough to fool you into thinking the problem is solved. But it rarely removes the clog — it burns a channel through the soft center and leaves the rest clinging to your pipe walls. Within days or weeks, that leftover buildup catches new debris and the drain slows again. Meanwhile the chemicals keep working on the one thing they are very good at dissolving: your plumbing.'] },
-      { kind: 'h2', text: 'How Does Drain Cleaner Work?' },
+      { kind: 'h2', text: 'How Liquid Drain Cleaner Works' },
       { kind: 'p', spans: ['Most liquid drain cleaners work through a chemical reaction that generates heat and breaks down whatever is in their path — hair, grease, soap scum, and the slimy bacterial film that coats the inside of a drain. The trouble is reach. The reaction only touches the part of the clog the liquid can flow to and sit against. A deep clog, or one packed tight past a bend, mostly gets ignored while the cleaner pools against the near edge.'] },
       { kind: 'p', spans: ['That film matters more than people think. The gunk lining your pipes is largely biofilm — a layer of bacteria that keeps rebuilding itself. Skim the surface off and it grows right back, which is why a drain you "fixed" with a bottle last month is slow again today.'] },
       { kind: 'h2', text: 'What Are Liquid Drain Cleaners Made Of?' },
@@ -308,20 +313,20 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['These are the fast, aggressive ones. They rely on strong acids or strong bases — think hydrochloric acid, sulfuric acid, lye, or caustic soda — to chew through a clog quickly. They are effective in the short term and brutal on everything they contact, including the pipe itself.'] },
       { kind: 'h3', text: 'Enzyme Cleaners' },
       { kind: 'p', spans: ['Enzyme and bacterial cleaners are the gentler option. Instead of a violent reaction, they use enzymes to slowly digest organic matter over hours or days. They are far kinder to your pipes and your septic system, but they are slow and they struggle with a stubborn or fully blocked drain. For routine maintenance they are fine; for an emergency clog they usually are not enough.'] },
-      { kind: 'h2', text: 'Do Plumbers Recommend Liquid Drain Cleaners?' },
+      { kind: 'h2', text: 'Do Cincinnati Plumbers Recommend Liquid Drain Cleaners?' },
       { kind: 'p', spans: ['Generally, no — and we will be honest about why. A store-bought cleaner treats the symptom, not the clog. Professional tools reach the actual blockage and pull it out, so the drain stays clear instead of relapsing in a couple of weeks. There is also the pipe damage to weigh: repeated doses of harsh chemicals shorten the life of your plumbing, and a leak costs a lot more than the clog ever would.'] },
       { kind: 'p', spans: ['We will also say when you do not need us. A single slow bathroom sink with a wad of hair near the top is often a five-minute fix with a drain snake and no chemicals at all. If that is your situation, our guide on ', { link: 'how to clear a clogged drain', href: '/how-to-clear-a-clogged-drain/' }, ' walks you through it. Save the phone call for the drains you cannot reach.'] },
       { kind: 'p', spans: ['One place to never reach for a chemical cleaner: a laundry drain. Lint is the usual culprit there, and it does not dissolve — it mats. You end up with corroded pipe and a clog that is still there.'] },
-      { kind: 'h2', text: 'The Downsides of Chemical Drain Cleaners' },
+      { kind: 'h2', text: 'The Downsides of Chemical Drain Cleaners in Cincinnati Homes' },
       { kind: 'p', spans: ['The pipe damage is the headline. Acids and caustics do not know the difference between a grease clog and the metal or plastic around it. Over time they thin pipe walls and corrode joints, and improved water flow today can turn into a leak inside a wall later. A few other costs worth knowing:'] },
       { kind: 'p', spans: [{ strong: 'Septic damage.' }, ' If you are on a septic system, harsh chemicals kill the bacteria your tank relies on to break down waste, which can throw off the whole system.'] },
       { kind: 'p', spans: [{ strong: 'Health hazards.' }, ' The fumes irritate your lungs and eyes, and a splash can burn skin. These products come with warning labels for a reason.'] },
       { kind: 'p', spans: [{ strong: 'Environmental harm.' }, ' Whatever does not react eventually reaches the water supply, and it is toxic to aquatic life.'] },
       { kind: 'p', spans: [{ strong: 'Extra repair bills.' }, ' The clog often comes back, and now you may be paying to fix the pipe the cleaner damaged on top of clearing the drain.'] },
-      { kind: 'h2', text: 'Better Ways to Clear a Drain' },
+      { kind: 'h2', text: 'Better Ways to Clear a Clogged Drain' },
       { kind: 'p', spans: ['You have options that actually remove the problem instead of chemically melting a hole through it. A plunger creates pressure that can dislodge a shallow clog. A drain snake, or auger, physically reaches the blockage and breaks it up or pulls it out. For anything deeper or recurring, water-powered and professional methods do the real work.'] },
       { kind: 'p', spans: ['When a snake is not enough, the next step is usually hydro jetting — a high-pressure water blast that scours the pipe wall clean, biofilm and all. If you are not sure which your drain needs, ', { link: 'snaking versus hydro jetting', href: '/snaking-vs-hydro-jetting-which-option-is-right-for-you/' }, ' breaks down when each one makes sense. And if more than one drain in the house is slow at the same time, that is a different problem — here is ', { link: 'how to know if your main drain is clogged', href: '/how-do-you-know-if-your-main-drain-is-clogged/' }, '.'] },
-      { kind: 'h2', text: 'Skip the Bottle, Call Degree of Comfort' },
+      { kind: 'h2', text: 'Drain Cleaning in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We clear the clog, check the pipe the chemicals may have been working on, and leave the drain flowing the way it should — no guesswork, no repeat visits. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Got a drain that keeps coming back? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our licensed plumbers take a look.'] },
     ],
@@ -335,10 +340,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'does-a-heat-pump-increase-home-value',
-    title: 'Does a Heat Pump Increase Home Value?',
+    title: 'Does a Heat Pump Increase Home Value in Cincinnati?',
+    seoTitle: 'Heat Pump Home Value in Cincinnati',
     category: 'Heating',
     excerpt:
-      'Yes. A heat pump can add roughly $10,400 to $17,000 to a home’s resale value, and the system often pays for itself in energy savings within 5 to 10 years. Here is why buyers and appraisers reward it.',
+      'Yes. A heat pump can add roughly $10,400 to $17,000 to resale value and often pays for itself in 5 to 10 years. What that means for Cincinnati homes.',
     date: '2026-01-07',
     dateModified: '2026-01-07',
     readMinutes: 8,
@@ -356,21 +362,21 @@ export const posts: Post[] = [
         ],
       },
       { kind: 'p', spans: ['Yes, a heat pump increases home value. Studies of recent sales put the bump at roughly ', { strong: '$10,400 to $17,000' }, ', and that number leaves out the money you save every month while you still live there. A heat pump heats and cools from one system, runs on electricity, and appeals to the buyers who are shopping hardest right now. Here is how that value actually shows up.'] },
-      { kind: 'h2', text: 'What a Heat Pump Does to Resale Value' },
+      { kind: 'h2', text: 'What a Heat Pump Does to Resale Value in Cincinnati' },
       { kind: 'p', spans: ['Appraisers and buyers both reward efficiency, and a heat pump is one of the clearer efficiency signals in a house. The resale gain lands in that ', { strong: '$10,400 to $17,000' }, ' range, but the size of the bump depends on your local market, the age of the equipment, and whether the install looks professional or improvised.'] },
       { kind: 'p', spans: ['Newer buyers, in particular, treat efficient climate control as a must-have rather than a bonus. A home with a modern heat pump reads as lower-maintenance and cheaper to run, which is exactly what someone comparing two similar listings is trying to figure out. In a competitive market, that difference can be the reason your house sells first.'] },
-      { kind: 'h2', text: 'The Energy Savings Behind the Value' },
+      { kind: 'h2', text: 'How Heat Pump Energy Savings Add to Home Value' },
       { kind: 'p', spans: ['A heat pump saves money because it moves heat rather than creating it. In winter it pulls warmth from outside air and brings it in; in summer it runs in reverse and pushes heat out. Because it is transferring energy instead of burning fuel, it delivers more heating and cooling per dollar than most older systems.'] },
       { kind: 'p', spans: ['That efficiency is why a new heat pump commonly ', { strong: 'pays for itself within 5 to 10 years' }, '. The exact payback depends on what you are replacing, your electricity rates, and how tight your home is, but the direction is consistent: lower monthly bills, month after month, for the life of the system. If you want one unit doing the work of both a furnace and an AC, a heat pump can ', { link: 'heat a whole house', href: '/can-a-heat-pump-heat-a-whole-house/' }, ' when it is sized correctly.'] },
       { kind: 'h2', text: 'How Long a Heat Pump Lasts' },
       { kind: 'p', spans: ['A properly installed heat pump typically lasts ', { strong: '15 to 20 years' }, '. Maintenance is what protects that lifespan and the resale value that rides on it. Change the filters on schedule, keep leaves and grass clippings away from the outdoor unit, and book a professional tune-up once a year. None of that is expensive, and all of it keeps the system running the way an appraiser or a buyer expects.'] },
       { kind: 'p', spans: ['Honestly, if your current unit is only eight or nine years old and running well, replacing it purely to add value rarely pencils out. A heat pump earns its keep most clearly when your old system is near the end of its life or your bills are climbing. When that day comes, that is the right time to look at a replacement.'] },
-      { kind: 'h2', text: 'Do Heat Pumps Work in Our Climate?' },
-      { kind: 'p', spans: ['They do. Modern heat pumps handle the cold better than the reputation suggests, and the moderate winters across Cincinnati, Northern Kentucky, and Southeast Indiana sit well inside their comfort zone. The catch is sizing and installation — an undersized or poorly installed unit struggles on the coldest days no matter how good the equipment is. That is where the value stands or falls.'] },
+      { kind: 'h2', text: 'How a Heat Pump Handles Cincinnati’s Climate' },
+      { kind: 'p', spans: ['They do. Modern heat pumps handle the cold better than the reputation suggests, and the moderate winters across Cincinnati, Northern Kentucky, and Southeast Indiana sit well inside their comfort zone. The catch is sizing and installation — an undersized or poorly installed unit struggles on the coldest days no matter how good the equipment is. That is where the value stands or falls. Our post on ', { link: 'heat pumps in Cincinnati winters', href: '/do-heat-pumps-work-in-cincinnati-winters/' }, ' covers cold-weather performance in more detail.'] },
       { kind: 'h2', text: 'How Do I Install a Heat Pump?' },
       { kind: 'p', spans: ['Start with a load calculation, not a guess. A technician measures your home, checks your ductwork, and sizes the system to match — too big cycles on and off and wears out early, too small never keeps up. From there it is proper electrical, a clean refrigerant charge, and a commissioning check to confirm it is running at spec. This is not a weekend DIY job; a rushed install is the fastest way to lose the value and the savings you paid for.'] },
       { kind: 'p', spans: ['Adding a heat pump is one of several moves that pay you back at sale. If you are working through a list, some ', { link: 'plumbing upgrades', href: '/plumbing-upgrades-to-increase-home-value/' }, ' add value the same way, and ', { link: 'financing', href: '/can-you-finance-an-hvac-system/' }, ' can spread the upfront cost so the monthly savings help cover it.'] },
-      { kind: 'h2', text: 'Get a Heat Pump Sized and Installed by Degree of Comfort' },
+      { kind: 'h2', text: 'Heat Pump Sizing and Installation in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort installs and services ', { link: 'heat pumps', href: '/services/heat-pumps/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We run the load calculation, do the install right, and stand behind it. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want to know what a heat pump would do for your home and your bills? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will give you a real number.'] },
     ],
@@ -387,10 +393,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'easy-ways-to-save-energy-at-home',
-    title: 'Easy Ways to Save Energy at Home',
+    title: 'Easy Ways to Save Energy at Home in Cincinnati',
+    seoTitle: 'Easy Ways to Save Energy in Cincinnati',
     category: 'Home Tips',
     excerpt:
-      'The fastest ways to cut your energy bill are switching to LED bulbs, sealing air leaks, adding a smart thermostat, and keeping your HVAC system maintained. None of them require a big budget.',
+      'Easy ways to save energy at home in Cincinnati: switch to LED bulbs, seal air leaks, add a smart thermostat and keep your HVAC maintained on a budget.',
     date: '2025-09-24',
     dateModified: '2025-09-24',
     readMinutes: 7,
@@ -408,10 +415,10 @@ export const posts: Post[] = [
         ],
       },
       { kind: 'p', spans: ['You can start saving energy today without spending much of anything. Swap in LED bulbs, seal the drafts around your windows and doors, program a smart thermostat, and stay on top of HVAC maintenance. Those four moves cover where most of a home’s energy actually goes. Here are the easy ways to save, from the free habits to the upgrades worth the money.'] },
-      { kind: 'h2', text: 'Be Mindful of Your Energy Usage' },
+      { kind: 'h2', text: 'Track How Your Cincinnati Home Uses Energy' },
       { kind: 'p', spans: ['The cheapest energy is the energy you never use. Turn off lights when you leave a room, and lean on natural daylight before you flip a switch. Unplug phone and laptop chargers once they are done — they keep drawing a trickle of power as long as they are in the wall.'] },
       { kind: 'p', spans: ['A few more habits: wash laundry in cold water when the load allows, since heating the water is where most of a washer’s energy goes. Run the dishwasher and laundry with full loads instead of half-empty ones. None of this is glamorous, but it stacks up over a year.'] },
-      { kind: 'h2', text: 'Rethink the Light Bulbs You Use' },
+      { kind: 'h2', text: 'Switch to LED Light Bulbs' },
       { kind: 'p', spans: ['If you still have incandescent bulbs, replacing them is one of the simplest wins in the house. LED bulbs use roughly ', { strong: '75% less energy' }, ' and last many times longer, so you are paying less to run them and buying replacements far less often. Start with the fixtures you use most — the kitchen, living room, and any light that stays on for hours.'] },
       { kind: 'p', spans: ['While you are at it, seal the leaks that make your HVAC work harder. Weatherstripping around doors and windows is a cheap trip to the hardware store, and it stops the conditioned air you already paid for from slipping outside.'] },
       { kind: 'h2', text: 'Invest in Energy-Efficient Appliances' },
@@ -420,12 +427,12 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'Upgrade to a Smart Thermostat' },
       { kind: 'p', spans: ['A smart thermostat is one of the best-value upgrades in the house because heating and cooling is the largest part of most energy bills. Instead of running your system hard around the clock, it eases off while you are asleep or away and has the house comfortable again by the time you are back.'] },
       { kind: 'p', spans: ['The scheduling and remote control are the real payoff. You can nudge the temperature from your phone, set it to back off during work hours, and stop paying to condition an empty house. We get into the details in our guide to ', { link: 'how smart thermostats save money and improve comfort', href: '/how-smart-thermostats-save-money-and-improve-comfort/' }, '. If you want a starting point for the dial in summer, here is ', { link: 'what temperature to set your air conditioner to', href: '/what-temperature-should-i-set-my-air-conditioner-to-in-the-summer/' }, '.'] },
-      { kind: 'h2', text: 'Properly Maintain Your HVAC System' },
+      { kind: 'h2', text: 'Keep Your HVAC System Maintained Through Cincinnati Seasons' },
       { kind: 'p', spans: ['A neglected HVAC system quietly wastes energy every single day. The first and easiest step is the air filter. A clogged filter forces the blower to work harder to push air through, which drives up your bill and shortens the life of the equipment. Check it monthly and replace it on schedule — our guide on ', { link: 'how often to change your furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, ' walks through the timing.'] },
       { kind: 'p', spans: ['Beyond the filter, a yearly tune-up keeps the whole system running the way it was designed to. A technician cleans the coils, checks the refrigerant charge, and catches small problems before they turn into a July breakdown. It is the same idea as an oil change — cheap upkeep that protects an expensive machine.'] },
-      { kind: 'h2', text: 'Why Is It Important to Save Energy?' },
+      { kind: 'h2', text: 'Why Saving Energy Matters for Cincinnati Homeowners' },
       { kind: 'p', spans: ['The obvious reason is a lower monthly bill, and that alone is worth the effort. But saving energy also takes strain off your equipment — a system that isn’t fighting drafts, a dirty filter, or an all-day thermostat setting simply lasts longer. Lower bills and fewer repairs tend to come from the same habits.'] },
-      { kind: 'h2', text: 'Keep Your HVAC Running Efficiently With Degree of Comfort' },
+      { kind: 'h2', text: 'HVAC Maintenance in Cincinnati From Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort keeps ', { link: 'heating', href: '/services/heating/' }, ' and ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems running at their best across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want your system running as efficiently as it can? Call ', { strong: '(513) 586-5107' }, ' to schedule a tune-up, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -439,10 +446,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'furnace-maintenance-tips',
-    title: '5 Furnace Maintenance Tips to Keep It Running',
+    title: '5 Furnace Maintenance Tips for Cincinnati Homes',
+    seoTitle: 'Furnace Maintenance Tips in Cincinnati',
     category: 'Heating',
     excerpt:
-      'Most furnace breakdowns start with a dirty filter, a blocked vent, or a small part nobody noticed. Here are five maintenance tips that keep your furnace running through winter — four you can do yourself, one best left to a technician.',
+      'Furnace maintenance tips for Cincinnati homes: five steps that keep your furnace running through winter, four you can do yourself and one for a technician.',
     date: '2025-12-19',
     dateModified: '2026-01-09',
     readMinutes: 7,
@@ -460,22 +468,22 @@ export const posts: Post[] = [
         ],
       },
       { kind: 'p', spans: ['A furnace that gets a little attention runs more efficiently, breaks down less, and lasts longer. Most of the maintenance is simple enough to do yourself. The rest is a once-a-year tune-up from a technician. Here are five tips that keep your ', { link: 'furnace running longer', href: '/how-long-do-furnaces-last/' }, ', starting with the ones you can handle this weekend.'] },
-      { kind: 'h2', text: 'Tip 1: Give It a Quick Eye Test' },
+      { kind: 'h2', text: 'Tip 1: Look Over Your Furnace Before Winter in Cincinnati' },
       { kind: 'p', spans: ['Before anything else, just look at your furnace. Make sure the parts are fastened securely, especially the venting pipe and any drainage tubes. A pipe that has drifted out of place can send exhaust where it does not belong.'] },
       { kind: 'p', spans: ['While you are there, use your nose. If you catch a foul or rotten-egg smell near the gas flex line, that can signal a gas leak. Do not troubleshoot it yourself — leave the house and call your gas utility and an HVAC professional. Gas is one of the ', { link: 'furnace safety', href: '/5-preventive-measures-for-furnace-safety/' }, ' issues where guessing is not worth the risk.'] },
-      { kind: 'h2', text: 'Tip 2: Change the Air Filter' },
+      { kind: 'h2', text: 'Tip 2: Change the Furnace Air Filter' },
       { kind: 'p', spans: ['A clogged filter is the most common cause of poor furnace performance, and it is the easiest fix on this list. When the filter chokes off airflow, the furnace works harder, runs longer, and wears out faster. How often you swap it depends on how thick it is.'] },
       { kind: 'p', spans: ['A rough guide: a ', { strong: '1-inch filter' }, ' about once a month, a ', { strong: '2-inch filter' }, ' every two months, a ', { strong: '3-inch filter' }, ' every three months, and a ', { strong: '4-inch filter' }, ' every four to six months. Homes with pets or allergy sufferers land on the shorter end. The honest move is to check it monthly no matter what size you run — if you can barely see light through it, replace it. We go deeper on this in our guide to ', { link: 'how often to change your furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, '.'] },
-      { kind: 'h2', text: 'Tip 3: Do Not Forget the Drive Belts' },
+      { kind: 'h2', text: 'Tip 3: Check the Furnace Drive Belts' },
       { kind: 'p', spans: ['If you have an older belt-driven blower, the drive belt is a part most people never think about until it snaps. Take a look at it for cracks, fraying, or worn spots. A belt that is on its way out is cheap to swap now and expensive to ignore, because a broken one can leave you with no heat and, sometimes, a damaged motor.'] },
       { kind: 'p', spans: ['Newer furnaces use direct-drive blowers with no belt at all, so if you do not see one, that is normal. When a belt does need replacing, it is worth having a technician handle the tension and alignment so the blower runs smoothly.'] },
-      { kind: 'h2', text: 'Tip 4: Clean Up the Area' },
+      { kind: 'h2', text: 'Tip 4: Keep the Area Around Your Furnace Clear' },
       { kind: 'p', spans: ['Your furnace needs breathing room. Keep the space around it clear of boxes, cleaning supplies, and anything else that has migrated into the utility closet over the year. Clutter blocks airflow and, near a gas furnace, creates a fire hazard.'] },
       { kind: 'p', spans: ['Do the same for your vents and registers around the house. Vacuum off the dust that settles over the holidays and make sure furniture, rugs, and curtains are not covering the registers. Closing off vents to "save energy" does the opposite — it raises pressure in the ductwork and makes the whole system work harder.'] },
-      { kind: 'h2', text: 'Tip 5: Book a Professional Tune-Up' },
+      { kind: 'h2', text: 'Tip 5: Book a Furnace Tune-Up in Cincinnati' },
       { kind: 'p', spans: ['The four tips above keep things running between visits. Once a year, though, your furnace needs a set of trained eyes on the parts you cannot easily check yourself. A professional tune-up includes cleaning and inspecting the internal components, testing the safety controls, examining the heat exchanger for cracks, and verifying the electrical connections.'] },
       { kind: 'p', spans: ['The best time to schedule it is early fall, before the first real cold snap, when technicians are not yet buried in no-heat emergencies. That yearly visit is where small problems get caught — a hairline crack, a failing igniter, a loose connection — long before they leave you without heat. Our ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ' service covers all of it.'] },
-      { kind: 'h2', text: 'Get Your Furnace Ready With Degree of Comfort' },
+      { kind: 'h2', text: 'Furnace Maintenance in Cincinnati' },
       { kind: 'p', spans: ['Handle the filter, the eye test, and the cleanup yourself, then let us take care of the annual tune-up. Degree of Comfort keeps furnaces running across Cincinnati and the Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want your furnace checked before winter? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will get you on the schedule.'] },
     ],
@@ -492,10 +500,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'furnace-not-working-troubleshooting-tips',
-    title: 'Furnace Not Working? Try These Tips Before Calling a Pro',
+    title: 'Furnace Not Working in Cincinnati? Try These Tips Before Calling a Pro',
+    seoTitle: 'Furnace Not Working in Cincinnati? 4 Checks First',
     category: 'Heating',
     excerpt:
-      'Before you call anyone, check four things: the thermostat, the breaker, the furnace switch, and the air filter. Most no-heat calls trace back to one of them, and you can rule them out in a few minutes.',
+      'When your furnace stops working in Cincinnati, check the thermostat, breaker, switch and air filter. Most no-heat calls trace back to one of them.',
     date: '2025-12-23',
     dateModified: '2026-01-16',
     readMinutes: 7,
@@ -513,25 +522,25 @@ export const posts: Post[] = [
         ],
       },
       { kind: 'p', spans: ['When your furnace quits, run through four quick checks before you pick up the phone: the thermostat, the circuit breaker, the furnace power switch, and the air filter. A surprising share of no-heat calls come down to one of these, and clearing them takes only a few minutes. If none of it works, that’s useful information for the technician who shows up next.'] },
-      { kind: 'h2', text: 'Start With the Thermostat' },
+      { kind: 'h2', text: 'Start With the Thermostat in Your Cincinnati Home' },
       { kind: 'p', spans: ['The thermostat is the most common culprit and the easiest to rule out. Make sure it’s set to ', { strong: 'heat' }, ', not cool or off, and raise the target temperature at least 3 degrees above the current room temperature so the furnace has a reason to fire.'] },
       { kind: 'p', spans: ['If the screen is blank or dim, the batteries are likely dead. Swap them and watch for the display to come back. A thermostat that lost power won’t call for heat, no matter how good the furnace is. If the furnace runs but the air feels wrong, our post on ', { link: 'why a furnace blows cold air', href: '/why-is-my-furnace-blowing-cold-air/' }, ' walks through what’s happening.'] },
-      { kind: 'h2', text: 'Check the Power' },
+      { kind: 'h2', text: 'Check the Power to the Furnace' },
       { kind: 'p', spans: ['No power, no heat. Two switches cut a furnace off, and both get overlooked.'] },
       { kind: 'h3', text: 'The Circuit Breaker' },
       { kind: 'p', spans: ['Open your electrical panel and look for a tripped breaker labeled for the furnace or HVAC. A tripped breaker sits between on and off. Flip it fully off, then back on. If it trips again right away, stop — that’s an electrical fault worth a professional look, not a second reset.'] },
       { kind: 'h3', text: 'The Furnace Switch' },
       { kind: 'p', spans: ['Most furnaces have a switch that looks exactly like a light switch, mounted on or near the unit. It gets bumped off during cleaning or storage more often than you’d think. Confirm it’s on. While you’re there, check that any emergency shut-off near the furnace hasn’t been flipped.'] },
-      { kind: 'h2', text: 'Look at the Air Filter' },
+      { kind: 'h2', text: 'Look at the Furnace Air Filter' },
       { kind: 'p', spans: ['A clogged filter restricts airflow, and modern furnaces will shut down to keep from overheating when air can’t move. Pull the filter out and hold it up to a light — if you can’t see through it, replace it. This is a genuinely DIY job, and a clean filter alone brings plenty of furnaces back to life.'] },
       { kind: 'p', spans: ['Not sure how often to swap it? See ', { link: 'how often to change a furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, '. Staying ahead of it prevents a lot of no-heat calls in the first place.'] },
-      { kind: 'h2', text: 'Confirm the Gas and Ignition' },
+      { kind: 'h2', text: 'Confirm the Gas Supply and Ignition' },
       { kind: 'p', spans: ['If you have a gas furnace, make sure the gas is on and other gas appliances are working. Older units use a standing pilot light; if it’s out, follow the relighting instructions printed on the furnace. Newer furnaces use electronic ignition, which you shouldn’t try to force. If the burners never light after a few tries, leave it for a technician.'] },
       { kind: 'p', spans: ['One hard rule: if you smell gas at any point, don’t flip switches or hunt for the problem. Leave the house and call your gas utility, then a pro.'] },
-      { kind: 'h2', text: 'When to Stop and Call a Pro' },
+      { kind: 'h2', text: 'When to Stop and Call a Furnace Pro in Cincinnati' },
       { kind: 'p', spans: ['Basic troubleshooting has limits. Stop and call a licensed technician if the breaker keeps tripping, the furnace short-cycles on and off, you hear grinding or banging, you smell gas or something burning, or the heat simply won’t return after the checks above. Running a furnace that’s clearly malfunctioning isn’t worth the risk — combustion and venting problems can raise carbon monoxide levels in the home.'] },
       { kind: 'p', spans: ['The honest part: a repair often beats a replacement, and annual maintenance heads off most breakdowns before they start. A few of the same ', { link: 'preventive measures for furnace safety', href: '/5-preventive-measures-for-furnace-safety/' }, ' save you the emergency call entirely. When it is time for a fix, our ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ' team diagnoses the real cause instead of guessing.'] },
-      { kind: 'h2', text: 'Call Degree of Comfort for No-Heat Repairs' },
+      { kind: 'h2', text: 'Furnace Repair in Cincinnati' },
       { kind: 'p', spans: ['If the tips above didn’t bring the heat back, Degree of Comfort handles furnace and ', { link: 'heating', href: '/services/heating/' }, ' repairs across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' for fast, straight answers, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we’ll get your home warm again.'] },
     ],
@@ -547,10 +556,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'how-does-an-air-conditioner-work',
-    title: 'How Does an Air Conditioner Work? A Step-by-Step Guide',
+    title: 'How Does an Air Conditioner Work? A Guide for Cincinnati Homes',
+    seoTitle: 'How an Air Conditioner Works in Cincinnati Homes',
     category: 'Cooling',
     excerpt:
-      'An air conditioner does not make cold air — it moves heat out of your home. Refrigerant absorbs heat indoors, carries it outside, and releases it, then loops back to do it again until your thermostat is satisfied.',
+      'How an air conditioner works in a Cincinnati home: refrigerant absorbs heat indoors, carries it outside, releases it and loops back to do it again.',
     date: '2026-04-23',
     dateModified: '2026-06-01',
     readMinutes: 7,
@@ -568,21 +578,21 @@ export const posts: Post[] = [
         ],
       },
       { kind: 'p', spans: ['Here is the short version: an air conditioner works by removing heat from inside your home and releasing it outdoors. It does not manufacture cold air out of nothing. It uses a refrigerant to absorb heat indoors, moves that heat outside, lets it go, and then sends the refrigerant back in to repeat the cycle. That loop runs until the air in your home matches the number on your thermostat.'] },
-      { kind: 'h2', text: 'The Basic Premise: Heat Goes Out' },
+      { kind: 'h2', text: 'How an Air Conditioner Moves Heat Out of Your Home' },
       { kind: 'p', spans: ['Air conditioners run on one core idea — they pull heat out of the air in your home and transfer it outside using refrigerant. That refrigerant gets passed between a compressor and a condenser by way of the evaporator coil. The compressor applies high pressure to the sealed system, which forces the heat back out of the refrigerant once it has been carried outdoors.'] },
       { kind: 'p', spans: ['When the refrigerant finishes its cycle — meaning it has absorbed heat indoors and released it outdoors — it returns inside to start over. This keeps going until the indoor temperature reaches the setting on your thermostat. Cool air is really just what is left after the heat has been taken away.'] },
-      { kind: 'h2', text: 'How It Is Set Up In Your Home' },
+      { kind: 'h2', text: 'How an Air Conditioner Is Set Up in Cincinnati Homes' },
       { kind: 'p', spans: ['In a traditional central system, the work is divided between two units. The outdoor unit houses the compressor and sheds the warm air with the help of the metal fins wrapped around it. The indoor unit houses the evaporator coil, which pulls heat out of the air circulating through your ductwork and filters that air of dust along the way, so the house feels cooler and cleaner in summer.'] },
       { kind: 'h3', text: 'Central vs. Split Systems' },
       { kind: 'p', spans: ['Newer technology means ductwork is not always required. If you want certain rooms cooler than others, a ductless split system can make more sense than central AC. The main difference is that a split system is more targeted — it pulls hot air directly out of specific areas rather than routing everything through ducts and one centralized unit. Neither one is automatically better; the right choice depends on your home and how you use it.'] },
-      { kind: 'h2', text: 'How Does It Know When to Start?' },
+      { kind: 'h2', text: 'How the Thermostat Tells Your AC When to Start' },
       { kind: 'p', spans: ['Every air conditioner has a thermostat, usually mounted in a central spot in the home or in the room it serves. The thermostat takes a reading of the air temperature and tells the system to turn on once the room gets warm enough to need it. When the air cools back to the set point, it signals the system to shut off. That is why the setting you choose matters — if you are unsure where to land, we walk through it in our guide on ', { link: 'what temperature to set your AC to in summer', href: '/what-temperature-should-i-set-my-air-conditioner-to-in-the-summer/' }, '.'] },
-      { kind: 'h2', text: 'The Main Parts, and What They Do' },
+      { kind: 'h2', text: 'The Main Parts of an Air Conditioner and What They Do' },
       { kind: 'p', spans: ['Five components do most of the work. The ', { strong: 'compressor' }, ' pressurizes the refrigerant and drives the whole cycle. The ', { strong: 'condenser coil' }, ' in the outdoor unit releases heat to the outside air. The ', { strong: 'evaporator coil' }, ' indoors absorbs heat from your home. The ', { strong: 'refrigerant' }, ' is the fluid that carries heat between them, and the ', { strong: 'blower fan' }, ' pushes conditioned air through your ducts. When any one of these is off, the whole system suffers.'] },
       { kind: 'p', spans: ['That is also why warm air is such a common complaint — low refrigerant, a dirty filter, a thermostat problem, or a struggling compressor can all cause it. If your unit is running but the air is not cold, our post on ', { link: 'why your AC is blowing warm air', href: '/why-is-my-air-conditioner-blowing-warm-air/' }, ' walks through the usual suspects before you call anyone.'] },
-      { kind: 'h2', text: 'Why Understanding This Helps' },
+      { kind: 'h2', text: 'Why Knowing How Your AC Works Helps Cincinnati Homeowners' },
       { kind: 'p', spans: ['Knowing how the cycle works makes you better at spotting trouble early. Warm air, weak airflow, or a new rattle usually means one part of that heat-moving loop is off. Catching it early tends to be the difference between a small repair and a big one. Regular maintenance helps too — clean coils and filters reduce strain on the system and keep it moving heat efficiently, which is a good chunk of why some units last 17 years and others quit at 12. We make the honest case for it in ', { link: 'whether AC tune-ups are worth it', href: '/do-you-really-need-ac-maintenance-are-ac-tune-ups-worth-it/' }, '. And to be straight with you: if your filter is just dirty, swapping it yourself is a five-minute job that does not need a technician.'] },
-      { kind: 'h2', text: 'Get Help From Degree of Comfort' },
+      { kind: 'h2', text: 'Air Conditioner Repair and Service in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort installs, services, and repairs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Whether the air stopped feeling cold or you are weighing a replacement, call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team take a look.'] },
     ],
@@ -599,10 +609,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'how-long-do-air-conditioners-last',
-    title: 'How Long Do Air Conditioners Last?',
+    title: 'How Long Do Air Conditioners Last in Cincinnati?',
+    seoTitle: 'How Long AC Units Last in Cincinnati',
     category: 'Cooling',
     excerpt:
-      'Most air conditioners last 10 to 15 years, and a well-maintained unit can run closer to 20. How long yours lasts comes down to sizing, maintenance, and how hard it works through Cincinnati summers.',
+      'Air conditioners in Cincinnati last 10 to 15 years, and a well-maintained unit can run closer to 20. Sizing, upkeep and summer workload set the number.',
     date: '2026-03-18',
     dateModified: '2026-03-18',
     readMinutes: 8,
@@ -621,7 +632,7 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['Most central air conditioners last ', { strong: '10 to 15 years' }, '. With regular maintenance and a bit of luck on the climate, some run closer to 20. The spread is that wide because a handful of factors — sizing, upkeep, and how many extreme days it grinds through — decide whether your unit ages gracefully or quits in the middle of a July heat wave.'] },
       { kind: 'p', spans: ['Here is what actually determines how long your air conditioner lasts, and how to tell when it is time to stop repairing and start planning a replacement.'] },
-      { kind: 'h2', text: 'What Determines How Long an AC Lasts?' },
+      { kind: 'h2', text: 'What Determines How Long an AC Lasts in Cincinnati' },
       { kind: 'p', spans: ['No two air conditioners age the same way. A unit in a shaded, well-insulated home that gets serviced every spring will outlast an identical one that runs flat-out all summer and never sees a technician. Three things move the number more than anything else.'] },
       { kind: 'h3', text: 'Efficiency and SEER Rating' },
       { kind: 'p', spans: ['A higher SEER rating means the system does more cooling for less electrical strain, and a unit that is not straining tends to last longer. Efficient equipment cycles less aggressively, which is easier on the compressor — the single most expensive part to replace. It also shows up on your energy bill. If you are weighing efficiency against price, our guide to ', { link: 'what a new air conditioner costs', href: '/how-much-is-a-new-air-conditioner/' }, ' breaks down where SEER fits.'] },
@@ -633,9 +644,9 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Age alone is not the whole story, but once a unit passes 12 to 15 years, watch for these signs. Any one of them on its own might just mean a repair. Several together usually mean the unit is near the end.'] },
       { kind: 'p', spans: ['Weak or uneven cooling is the first tell — rooms that used to get cold now stay warm, or the AC runs all day and barely keeps up. Rising energy bills with no change in your habits point to a system losing efficiency. Strange noises like grinding, banging, or a compressor that struggles to start suggest internal parts are failing. And frequent repair calls are the clearest signal: when you are paying for a fix every season, that money is better put toward a new unit.'] },
       { kind: 'p', spans: ['Honestly, though, plenty of older units are worth repairing. A capacitor or a fan motor on a 10-year-old AC that has been maintained is a cheap fix, not a reason to replace the whole system. The math tips toward replacement when the repair is major — a compressor or a refrigerant leak — and the unit is already past its expected lifespan. Our breakdown of ', { link: 'whether to replace your old air conditioner', href: '/should-i-replace-my-old-air-conditioner/' }, ' walks through when each option makes sense.'] },
-      { kind: 'h2', text: 'Is It Worth Replacing Before It Fails?' },
+      { kind: 'h2', text: 'Is It Worth Replacing an AC Before It Fails?' },
       { kind: 'p', spans: ['If your unit is on its last legs, replacing it on your own schedule beats waiting for it to die. An AC that quits during a heat wave means an emergency call, whatever equipment is in stock, and a rushed decision. Planning ahead lets you compare efficiency options, line up financing, and get the install done on a mild day. A typical replacement takes about ', { strong: 'one day' }, ', though a complex job with ductwork changes can run longer.'] },
-      { kind: 'h2', text: 'Get an Honest Assessment From Degree of Comfort' },
+      { kind: 'h2', text: 'AC Assessments in Cincinnati From Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort services, sizes, and installs air conditioners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We will tell you straight whether your unit has years left or is due for replacement — no pressure to buy something you do not need. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Wondering how many years your AC has left? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC installation and replacement', href: '/services/ac-installation-replacement/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team take a look.'] },
     ],
@@ -652,10 +663,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'how-long-does-a-water-heater-last',
-    title: 'How Long Does a Water Heater Last?',
+    title: 'How Long Does a Water Heater Last in Cincinnati?',
+    seoTitle: 'Water Heater Lifespan in Cincinnati',
     category: 'Plumbing',
     excerpt:
-      'A traditional tank water heater lasts about 8 to 12 years, and a tankless unit runs 15 to 20 years or more. How long yours actually lasts comes down to use, water quality, and whether it gets maintained.',
+      'How long a water heater lasts in Cincinnati: tank units run about 8 to 12 years, tankless 15 to 20 or more. Here’s what shortens or stretches that life.',
     date: '2025-11-26',
     dateModified: '2025-11-26',
     readMinutes: 7,
@@ -673,29 +685,29 @@ export const posts: Post[] = [
         ],
       },
       { kind: 'p', spans: ['A traditional tank water heater lasts about ', { strong: '8 to 12 years' }, '. A tankless unit lasts longer — usually ', { strong: '15 to 20 years or more' }, '. Those are averages, and the real number for your unit depends on how hard it works, how mineral-heavy your water is, and whether anyone has flushed it in the last decade. Here is what shortens that lifespan, how to check your unit’s age, and the signs that replacement is close.'] },
-      { kind: 'h2', text: 'The Average Lifespan of a Water Heater' },
+      { kind: 'h2', text: 'Average Water Heater Lifespan in Cincinnati Homes' },
       { kind: 'p', spans: ['A standard tank water heater — gas or electric — typically gives you ', { strong: '8 to 12 years' }, ' of service. Kept up with, it can reach 15. Fuel type doesn’t change this much; a gas tank and an electric tank of the same quality tend to last about the same.'] },
       { kind: 'p', spans: ['Tankless units last noticeably longer, generally ', { strong: '15 to 20 years' }, ', and well-maintained ones can push past 25. They cost more up front and heat water on demand instead of storing it, which is part of why they hold up longer. If you’re weighing the switch, we broke down the trade-offs in ', { link: 'is it worth switching to a tankless water heater', href: '/is-it-worth-it-to-switch-to-a-tankless-water-heater/' }, '.'] },
       { kind: 'h2', text: 'How to Determine Your Water Heater’s Age' },
       { kind: 'p', spans: ['If you didn’t install it yourself, find the serial number on the manufacturer’s label near the top of the tank. The date is usually coded into it — often the first letter stands for the month and the next two digits for the year. If you can’t decode it, the brand and model number let a plumber or the manufacturer look it up in a minute.'] },
       { kind: 'p', spans: ['Age matters because it changes the math. A 6-year-old tank with a minor issue is worth repairing. An 11-year-old tank with the same issue usually isn’t — you’d be putting money into a unit that’s near the end anyway.'] },
-      { kind: 'h2', text: 'Factors That Affect Water Heater Life Expectancy' },
+      { kind: 'h2', text: 'What Affects Water Heater Life Expectancy in Cincinnati' },
       { kind: 'p', spans: ['Two things do most of the damage: how much you run it and how well it’s cared for.'] },
-      { kind: 'h3', text: 'Rate of Use' },
+      { kind: 'h3', text: 'Rate of Hot Water Use' },
       { kind: 'p', spans: ['A water heater serving one or two people will outlast the same unit in a busy household of five. More hot water means the burner or elements cycle more often and the tank sees more wear. Sizing matters too — a unit that’s undersized for the home runs constantly and ages faster.'] },
       { kind: 'h3', text: 'Lack of Maintenance' },
       { kind: 'p', spans: ['This is the big one, and it’s the part homeowners control. Sediment — minerals that settle out of your water — builds up on the bottom of the tank and forces the heater to work harder to heat through it. That extra strain shortens its life and drives up your energy bill. ', { link: 'Flushing the tank once a year', href: '/importance-of-water-heater-maintenance-in-winter/' }, ' clears that sediment out. During service, a plumber also checks the anode rod (the sacrificial part that corrodes so the tank doesn’t) and the heating elements.'] },
       { kind: 'p', spans: ['Honest note: an annual flush is something a handy homeowner can do. If you’re comfortable shutting off the water and gas, connecting a hose, and draining the tank, go for it. If not, it’s a quick job for a pro — and worth it, because a neglected tank can fail years early.'] },
       { kind: 'h2', text: 'Signs Your Water Heater Needs Replacing' },
       { kind: 'p', spans: ['A water heater rarely quits without warning. Watch for these three.'] },
-      { kind: 'h3', text: 'Poor Performance' },
+      { kind: 'h3', text: 'Poor Hot Water Performance' },
       { kind: 'p', spans: ['Running out of hot water faster than you used to, water that never gets hot enough, or rusty, discolored water coming from the hot tap all point to a tank near the end. Rusty water in particular often means corrosion inside the tank.'] },
-      { kind: 'h3', text: 'Strange Sounds' },
+      { kind: 'h3', text: 'Strange Sounds From the Tank' },
       { kind: 'p', spans: ['Banging, popping, or hissing usually means sediment has hardened on the bottom of the tank. The noise is water bubbling up through the buildup. Sometimes a flush fixes it; if the sediment has been baking on for years, the damage may already be done.'] },
       { kind: 'h3', text: 'Visible Leaks' },
       { kind: 'p', spans: ['Water pooling around the base of the tank is the most serious sign. A leak from the tank body itself is almost always caused by internal corrosion, and that can’t be repaired — the tank has to be replaced. If you’re seeing water and aren’t sure where it’s from, ', { link: 'why is my water heater leaking', href: '/why-is-my-water-heater-leaking-water/' }, ' walks through the causes.'] },
       { kind: 'p', spans: ['Not every problem means replacement. A bad heating element, thermostat, or valve is often a straightforward ', { link: 'water heater repair', href: '/services/water-heater-repair/' }, '. The age of the unit is what tips the decision — on a tank past 10 years, replacement usually makes more sense than repair.'] },
-      { kind: 'h2', text: 'Upgrade Your Water Heater With Degree of Comfort' },
+      { kind: 'h2', text: 'Water Heater Replacement in Cincinnati' },
       { kind: 'p', spans: ['Whether you need a flush, a repair, or a full ', { link: 'water heater installation', href: '/services/water-heater-installation/' }, ', Degree of Comfort handles it across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Not sure how much life is left in your unit? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ', and we’ll give you a straight answer.'] },
     ],
@@ -737,13 +749,13 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['When you compare quotes, check that each one covers the same things: the furnace itself, labor, the city permit, any venting or duct changes, removal of the old unit, and startup testing. A low quote that leaves out the permit or the venting work isn’t actually lower.'] },
       { kind: 'p', spans: ['It also helps to look past the day-one price. A furnace runs for 15 to 20 years, so what it costs to operate every winter matters as much as what it costs to buy.'] },
 
-      { kind: 'h2', text: 'What Sets the Price of a New Furnace' },
+      { kind: 'h2', text: 'What Sets the Price of a New Furnace in Cincinnati' },
       { kind: 'p', spans: ['Five things move the number more than anything else. Knowing them makes it easier to compare quotes line for line.'] },
 
-      { kind: 'h3', text: 'Size' },
+      { kind: 'h3', text: 'Furnace Size' },
       { kind: 'p', spans: ['A bigger home needs more heating capacity, and bigger units cost more. But bigger isn’t better. An oversized furnace short-cycles, switching on and off too often, which raises bills and wears it out early. An undersized one runs constantly and still leaves rooms cold. The size should come from a load calculation on your house, not from the label on the old furnace. Correct sizing is a big part of ', { link: 'how long a furnace lasts', href: '/how-long-do-furnaces-last/' }, '.'] },
 
-      { kind: 'h3', text: 'Efficiency' },
+      { kind: 'h3', text: 'Furnace Efficiency' },
       { kind: 'p', spans: ['Efficiency is measured by AFUE, the share of fuel a furnace turns into heat. A standard furnace is 80% AFUE. A high-efficiency furnace is 95% or higher, so it wastes less gas every winter it runs. High-efficiency units cost more to buy and install, and the gap narrows over the years in lower bills. How much it pays back depends on how long you plan to stay in the house.'] },
 
       { kind: 'h3', text: 'Venting in Older Homes' },
@@ -755,7 +767,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Brand and Install Difficulty' },
       { kind: 'p', spans: ['Each manufacturer has budget, mid-range, and premium lines, and features like variable-speed blowers cost more but hold a steadier temperature. Access matters too: a furnace in an open basement is a simpler job than one in a tight crawlspace or attic, or one that needs ductwork changes to fit.'] },
 
-      { kind: 'h2', text: 'What Changed in 2026' },
+      { kind: 'h2', text: 'What Changed for Furnace Replacement in 2026' },
       { kind: 'h3', text: 'The Federal Tax Credit Has Ended' },
       { kind: 'p', spans: ['Through 2025, a qualifying high-efficiency furnace earned a federal tax credit of up to $600 under the Energy Efficient Home Improvement Credit. According to the ', { link: 'IRS', href: 'https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit' }, ', that credit only applies to equipment placed in service before December 31, 2025. A furnace installed in 2026 doesn’t qualify, so leave it out of your budget, and be wary of any quote that still subtracts it.'] },
 
@@ -768,10 +780,10 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'Permits for Furnace Replacement in Cincinnati' },
       { kind: 'p', spans: ['The City of Cincinnati requires a mechanical permit to install or replace a furnace, even when the new one goes in the same spot as the old one. The permit comes with an inspection that checks the gas connection, venting, and safety controls. Your contractor should pull it and include it in the price. If a quote doesn’t mention a permit, ask. Northern Kentucky and the other cities around Cincinnati set their own permit rules, so the details differ by address.'] },
 
-      { kind: 'h2', text: 'Should You Repair Instead?' },
+      { kind: 'h2', text: 'Should You Repair Your Furnace Instead?' },
       { kind: 'p', spans: ['Often, yes, and we will tell you when that is the case. If your furnace is under about 15 years old and has one specific problem, like a failed igniter or flame sensor, repairing it usually makes more sense than replacing it. Replacement tends to win once a furnace is past 15 years, needs repeated or expensive repairs, or can no longer heat the house evenly. A useful rule: if a repair would cost more than about half the price of a new furnace, put that money toward replacement instead. Our guide on ', { link: 'repairing or replacing a furnace', href: '/should-you-repair-or-replace-your-furnace/' }, ' goes into more detail.'] },
 
-      { kind: 'h2', text: 'Paying for a New Furnace' },
+      { kind: 'h2', text: 'Paying for a New Furnace in Cincinnati' },
       { kind: 'p', spans: ['With the tax credit gone, the price you’re quoted is closer to the price you pay. If a lump sum is the obstacle, ', { link: 'financing an HVAC system', href: '/can-you-finance-an-hvac-system/' }, ' spreads the cost into monthly payments, which can make the difference between an 80% unit and a 95% one easier to manage. After install, annual ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ' keeps it running at the efficiency you paid for.'] },
 
       { kind: 'h2', text: 'Get an Exact Furnace Price From Degree of Comfort' },
@@ -791,10 +803,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'how-to-clear-a-clogged-drain',
-    title: 'How to Clear a Clogged Drain',
+    title: 'How to Clear a Clogged Drain in Cincinnati Homes',
+    seoTitle: 'How to Clear a Clogged Drain in Cincinnati',
     category: 'Plumbing',
     excerpt:
-      'Start with boiling water, then baking soda and vinegar, then a plunger or drain snake — that order clears most minor clogs without chemicals. When water still backs up, the blockage is deeper and worth a professional call.',
+      'How to clear a clogged drain: use boiling water, then baking soda and vinegar, then a plunger or snake. If it still backs up, call a Cincinnati plumber.',
     date: '2025-10-13',
     dateModified: '2025-10-13',
     readMinutes: 7,
@@ -813,24 +826,24 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['Here’s the short version: work from gentlest to strongest. Pour boiling water down the drain first. If that doesn’t do it, try a cup of baking soda followed by a cup of vinegar. Still slow? Reach for a plunger or a drain snake. Most minor clogs give up somewhere in that sequence. The ones that don’t are telling you something — the blockage is farther down the line than a home fix can reach.'] },
       { kind: 'p', spans: ['Clogs are almost always the same handful of culprits: hair, grease, soap scum, and food scraps that collect on the walls of your pipe until water can barely squeeze past. Here’s how to clear them, in the order we’d try ourselves.'] },
-      { kind: 'h2', text: 'Boil a Pot of Water' },
+      { kind: 'h2', text: 'Pour Boiling Water Down the Drain' },
       { kind: 'p', spans: ['The simplest fix is often the first one worth trying. Bring a pot or kettle of water to a boil and pour it slowly down the drain in two or three stages, giving it a few seconds between pours. The heat softens and loosens the soap and grease that cause a lot of minor kitchen and bathroom clogs, and it flushes the loosened gunk down the line.'] },
       { kind: 'p', spans: ['One caution: only do this with metal or ceramic fixtures. Boiling water can soften or warp PVC piping and shouldn’t be poured into a porcelain toilet bowl, which can crack. If your sink drains but slowly, this alone sometimes solves it.'] },
       { kind: 'h2', text: 'Create a Baking Soda and Vinegar Mixture' },
       { kind: 'p', spans: ['If hot water alone doesn’t cut it, go to the pantry. Pour about one cup of baking soda down the drain, then immediately follow it with one cup of white vinegar. The two react and fizz, and that reaction helps break down grease and lift debris off the pipe walls.'] },
       { kind: 'p', spans: ['Let it sit and work for 15 to 20 minutes, then flush the drain with boiling water. This is our favorite non-chemical option because it’s cheap, it’s already in most kitchens, and it won’t damage your plumbing. It’s worth repeating once if the first round makes partial progress.'] },
-      { kind: 'h2', text: 'Try a Plunger' },
+      { kind: 'h2', text: 'Try a Plunger Before You Call a Cincinnati Plumber' },
       { kind: 'p', spans: ['A plunger uses suction and pressure to dislodge a clog, and it works on more than toilets. For a sink or tub, remove the stopper and stuff a wet cloth into the overflow opening so the plunger can build proper suction. Then position the cup over the drain, make sure there’s enough water to cover the rim, and plunge firmly several times.'] },
       { kind: 'p', spans: ['For a toilet, use a flanged toilet plunger rather than the flat cup kind — the flange seals the bowl’s outlet and gives you real force. Make sure the bowl has enough water to cover the plunger head before you start. If the water level is already high, wait or bail some out first so you don’t make a mess.'] },
       { kind: 'h2', text: 'Use a Drain Snake' },
       { kind: 'p', spans: ['When the clog is physical — a wad of hair, say — no amount of hot water will dissolve it. That’s where a drain snake, also called an auger, earns its keep. You feed the flexible cable into the drain until it reaches the blockage, then turn the handle to either break the clog apart or hook it and pull it back out.'] },
       { kind: 'p', spans: ['Snakes come in different sizes, from short hand augers for a bathroom sink to longer cables for a tub or shower drain. Honest note: a basic hand snake is inexpensive and genuinely DIY-friendly for a clog you can reach. If you’re snaking the same drain every few weeks, though, the real problem is deeper in the line, and pulling out the snake again won’t fix that. That’s a sign to check ', { link: 'whether your main drain is clogged', href: '/how-do-you-know-if-your-main-drain-is-clogged/' }, '.'] },
-      { kind: 'h2', text: 'Consider Hydro Jetting Services' },
+      { kind: 'h2', text: 'Consider Hydro Jetting for Stubborn Clogs in Cincinnati' },
       { kind: 'p', spans: ['For severe or recurring clogs, professional hydro jetting is the strongest tool we carry. It sends a high-pressure stream of water through the pipe to blast apart what a snake can only poke a hole through — hardened grease, years of buildup, even tree roots that have grown into the line. Where a snake clears a path, jetting scours the pipe walls back to bare metal or plastic.'] },
       { kind: 'p', spans: ['Not every clog needs it, and we’ll tell you if a simpler fix will do. If you’re weighing your options, we broke down ', { link: 'snaking vs. hydro jetting', href: '/snaking-vs-hydro-jetting-which-option-is-right-for-you/' }, ' so you know which one fits your situation. And if your home has an accessible ', { link: 'main drain cleanout', href: '/what-is-a-main-drain-cleanout-why-do-you-need-one/' }, ', clearing a deep clog is faster and cleaner for everyone.'] },
-      { kind: 'h2', text: 'One Thing to Skip: Chemical Drain Cleaners' },
+      { kind: 'h2', text: 'Skip Chemical Drain Cleaners in Your Cincinnati Home' },
       { kind: 'p', spans: ['Reach past the bottle of liquid drain cleaner on the store shelf. Most of them rely on sodium hydroxide (lye) or sulfuric acid to dissolve a clog, and that same chemistry slowly corrodes your pipes — especially older metal and PVC. They can also sit on top of a solid clog without clearing it, leaving a caustic pool that makes any follow-up work more dangerous. The baking soda and vinegar route does the gentle chemical work without the damage.'] },
-      { kind: 'h2', text: 'Clear Your Clogged Drains With Degree of Comfort' },
+      { kind: 'h2', text: 'Clogged Drain Cleaning in Cincinnati' },
       { kind: 'p', spans: ['When the home fixes stop working, Degree of Comfort handles ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — so you know the number before we start, not after.'] },
       { kind: 'p', spans: ['Tired of a drain that won’t stay clear? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we’ll find the real cause instead of just poking at the symptom.'] },
     ],
@@ -844,10 +857,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'how-to-fix-a-broken-sewer-line',
-    title: 'How to Fix a Broken Sewer Line: Trench vs. Trenchless',
+    title: 'How to Fix a Broken Sewer Line in Cincinnati: Trench vs. Trenchless',
+    seoTitle: 'Broken Sewer Line Repair in Cincinnati',
     category: 'Plumbing',
     excerpt:
-      'A broken sewer line is fixed one of two ways: traditional open-trench repair, where a crew digs down to the pipe, or trenchless repair, which restores the line through small access points. Here is how to tell which one your home needs.',
+      'How to fix a broken sewer line in Cincinnati: open-trench repair digs to the pipe, trenchless works through small access points. Which suits your home.',
     date: '2026-02-20',
     dateModified: '2026-02-24',
     readMinutes: 7,
@@ -865,12 +879,12 @@ export const posts: Post[] = [
         ],
       },
       { kind: 'p', spans: ['A broken sewer line is repaired one of two ways. The traditional method is open-trench repair: a crew digs down to the damaged pipe, exposes it, and replaces or patches the bad section. The newer approach is trenchless repair, which restores the line through one or two small access holes instead of a long trench. Which one fits your home comes down to how bad the damage is, where the pipe runs, and what condition the rest of the line is in. A camera inspection settles it.'] },
-      { kind: 'h2', text: 'Why Sewer Lines Break in the First Place' },
+      { kind: 'h2', text: 'Why Sewer Lines Break Under Cincinnati Homes' },
       { kind: 'p', spans: ['Sewer lines fail for a handful of predictable reasons. Tree roots are the most common — they find the tiniest crack or loose joint, work their way in chasing water, and eventually choke or split the pipe. Age is another: older clay and cast-iron lines corrode and go brittle. Ground movement from settling soil or ', { link: 'unpredictable weather', href: '/how-unpredictable-weather-can-cause-plumbing-issues/' }, ' can shift and crack a pipe. Add years of grease and debris buildup, and a line that was fine for decades starts to slow, smell, or back up.'] },
       { kind: 'p', spans: ['The warning signs tend to show up before a full failure: drains that empty slowly across the whole house, a sewage odor inside or in the yard, gurgling toilets, or a backup in the lowest fixtures. If you are not sure whether the problem is the main line or a single clog, ', { link: 'here is how to tell if your main drain is clogged', href: '/how-do-you-know-if-your-main-drain-is-clogged/' }, '.'] },
-      { kind: 'h2', text: 'Traditional Open-Trench Repair' },
+      { kind: 'h2', text: 'Traditional Open-Trench Sewer Repair' },
       { kind: 'p', spans: ['Open-trench repair is the original method, and it still has a place. A crew digs a trench along the path of the sewer line, exposes the damaged section, and either patches it or replaces the pipe outright. Because the pipe is fully uncovered, this approach handles the worst cases — a line that has collapsed, badly misaligned, or crushed beyond what a liner could restore.'] },
-      { kind: 'h3', text: 'What to Expect' },
+      { kind: 'h3', text: 'What to Expect From Open-Trench Repair' },
       { kind: 'p', spans: ['The trade-off is the digging. Open-trench work disrupts whatever sits above the pipe: lawn, landscaping, a driveway, a patio, sometimes a section of concrete. It usually takes longer than a trenchless job and leaves you with restoration work afterward. That said, when the damage is severe or spread across a long run of pipe, a full dig can be the more thorough and sometimes the more economical fix. It also gives the plumber a clear line of sight on everything, which matters when the pipe is in rough shape.'] },
       { kind: 'h2', text: 'Trenchless Sewer Repair' },
       { kind: 'p', spans: ['Trenchless repair fixes the line without opening a long trench. Instead of exposing the whole pipe, the plumber works through one or two small access points. There is far less digging, your yard stays mostly intact, and the job typically wraps up faster. Trenchless comes in two main forms.'] },
@@ -878,12 +892,12 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Pipe lining, also called cured-in-place pipe, threads a flexible epoxy-coated tube into the existing line and inflates it. The epoxy hardens against the old pipe walls and forms a new, jointless pipe inside the old one. It is minimally invasive, keeps labor costs down, and creates a smooth surface roots struggle to penetrate. The catch: the host pipe has to be structurally sound enough to hold the liner. A line that has collapsed or lost large sections has nothing for the liner to bond to.'] },
       { kind: 'h3', text: 'Pipe Bursting' },
       { kind: 'p', spans: ['Pipe bursting pulls a new pipe through the path of the old one while a bursting head fractures the old pipe outward and pushes the fragments into the surrounding soil. You get a brand-new pipe, not a lining, and you keep most of your landscaping. It works where lining will not, but it takes specialized equipment and an experienced crew to do it right, which is why it is not a DIY job or something every outfit offers.'] },
-      { kind: 'h2', text: 'Which Method Is Right for Your Home?' },
+      { kind: 'h2', text: 'Which Sewer Repair Method Is Right for Your Cincinnati Home?' },
       { kind: 'p', spans: ['The honest answer is that it depends on the pipe, and no reputable plumber should quote a method before seeing it. The factors that decide it are the extent of the damage, where the line runs, how deep it sits, your budget, and how much of your yard you want to protect. A cracked but intact pipe is a strong candidate for lining. A collapsed run under a driveway might call for bursting or a targeted dig. Widespread failure across an old line sometimes points back to a full open-trench replacement.'] },
       { kind: 'p', spans: ['This is also where the honesty note belongs: not every sewer problem is a broken line. Sometimes what looks like a failing pipe is a root intrusion or blockage that clears with a proper cleaning, and a working ', { link: 'main drain cleanout', href: '/what-is-a-main-drain-cleanout-why-do-you-need-one/' }, ' makes that far easier to diagnose and service. A camera inspection tells you which situation you are actually in before anyone starts digging.'] },
-      { kind: 'h2', text: 'Why a Professional Inspection Comes First' },
+      { kind: 'h2', text: 'Why a Professional Sewer Inspection Comes First' },
       { kind: 'p', spans: ['Every good sewer repair starts with a camera. A plumber feeds a waterproof camera down the line to find the exact break, its cause, and its depth, then recommends the method that fits. That inspection is what keeps you from paying for a full dig you did not need — or from lining a pipe that was too far gone to hold one. It also confirms the work meets code and flags any surprises before the equipment shows up. Guessing on a sewer line is expensive; looking first is not.'] },
-      { kind: 'h2', text: 'Get Your Sewer Line Looked At by Degree of Comfort' },
+      { kind: 'h2', text: 'Sewer Line Repair in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort diagnoses and repairs broken sewer lines across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We start with a camera inspection, tell you plainly whether trench or trenchless is the right call, and handle the ', { link: 'sewer repair and replacement', href: '/services/sewer-repair-replacement/' }, ' from there. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['If your drains are slow, your yard smells, or you have already had a backup, do not wait for a full failure. Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will find out what is really going on down there.'] },
     ],
@@ -897,10 +911,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'plumbing-tips-every-homeowner-should-know',
-    title: '5 Plumbing Tips Every Homeowner Should Know',
+    title: '5 Plumbing Tips Every Cincinnati Homeowner Should Know',
+    seoTitle: 'Plumbing Tips for Cincinnati Homeowners',
     category: 'Plumbing',
     excerpt:
-      'The single most useful plumbing skill is knowing where your main water shutoff valve is and how to close it. That one move stops most household floods cold. Here are five plumbing basics worth learning before you need them.',
+      'Plumbing tips for Cincinnati homeowners, starting with where the main water shutoff valve is and how to close it to stop most floods. Five basics to learn.',
     date: '2025-12-10',
     dateModified: '2025-12-10',
     readMinutes: 7,
@@ -918,7 +933,7 @@ export const posts: Post[] = [
         ],
       },
       { kind: 'p', spans: ['Here is the short version: the most valuable plumbing knowledge is knowing where your water comes in and how to turn it off. A homeowner who can shut off the water in under a minute avoids the kind of damage that ruins floors, drywall, and weekends. The rest of these tips build on that same idea — small, cheap habits that head off big, expensive problems.'] },
-      { kind: 'h2', text: 'Find Your Main Water Shutoff Valve' },
+      { kind: 'h2', text: 'Find the Main Water Shutoff Valve in Your Cincinnati Home' },
       { kind: 'p', spans: ['This is the one every homeowner should know cold. The main shutoff controls all the water flowing into your house, and closing it stops nearly every plumbing catastrophe, from a burst pipe to a fitting that lets go behind a wall.'] },
       { kind: 'p', spans: ['You will usually find it on an outside wall, in the basement, or near the water meter. Go find it today, then confirm you can actually turn the handle — most valves close by turning clockwise. Valves that sit untouched for years can seize up, so it is worth checking that yours moves before the day you need it. If a member of your household can find and close that valve in under a minute, you have already prevented most of the ', { link: 'basement flooding', href: '/how-do-you-know-if-your-main-drain-is-clogged/' }, ' we get called about.'] },
       { kind: 'h2', text: 'Locate Your Isolation Valves' },
@@ -930,10 +945,10 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'Keep a Basic Plumbing Kit' },
       { kind: 'p', spans: ['A small kit handles a surprising share of everyday problems before they turn into service calls. You do not need much: a good cup plunger for drains and a flange plunger for toilets, a multi-bit screwdriver, an adjustable wrench, a roll of plumber’s tape, and a caulk gun.'] },
       { kind: 'p', spans: ['With that on a shelf, you can clear a slow drain, snug up a loose fitting, or re-seal around a tub without waiting on anyone. A ', { link: 'dripping faucet', href: '/why-is-my-faucet-dripping-how-to-fix-a-leaky-faucet/' }, ' is often a worn washer you can replace yourself in a few minutes. We would rather tell you the truth: plenty of small plumbing tasks are genuinely DIY, and there is no reason to pay for a visit when a plunger and ten minutes would do it.'] },
-      { kind: 'h2', text: 'Know When Not to DIY' },
+      { kind: 'h2', text: 'Plumbing Jobs Cincinnati Homeowners Should Not DIY' },
       { kind: 'p', spans: ['Some problems compound fast, and trying to muscle through them yourself usually costs more than calling early. Standing water you cannot trace, a water heater that is leaking or not heating, a sump pump that fails during a storm, sewage backing up a drain, or anything involving a gas line — those all belong to a licensed plumber.'] },
       { kind: 'p', spans: ['The tell is usually water where it should not be, or a repair that touches your home’s health and safety. If shutting the isolation valve does not stop it, or shutting the main is your only option, that is your signal to pick up the phone. Our ', { link: 'plumbing services', href: '/services/plumbing/' }, ' team handles the jobs that are past the plunger stage, and catching them early keeps a small leak from becoming a torn-out ceiling.'] },
-      { kind: 'h2', text: 'Talk to Degree of Comfort' },
+      { kind: 'h2', text: 'Plumbing Service in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'plumbing', href: '/services/plumbing/' }, ' repairs and installs across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — so you know the number before we start.'] },
       { kind: 'p', spans: ['Have a problem that is past the DIY line, or want a second set of eyes on aging hoses and valves? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team take it from here.'] },
     ],
@@ -947,10 +962,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'should-you-repair-or-replace-your-furnace',
-    title: 'Should You Repair or Replace Your Furnace?',
+    title: 'Should You Repair or Replace Your Furnace in Cincinnati?',
+    seoTitle: 'Repair or Replace Your Furnace in Cincinnati?',
     category: 'Heating',
     excerpt:
-      'Repair a furnace under about 12 years old with a minor fault; start planning a replacement once it passes 15 years, breaks down often, or the repair bill climbs toward the price of a new unit. Here is how to tell which side of that line you are on.',
+      'Repair a furnace in Cincinnati if it is under about 12 years old with a minor fault. Replace it past 15 years or once repairs near the price of a new one.',
     date: '2026-02-09',
     dateModified: '2026-04-14',
     readMinutes: 8,
@@ -971,23 +987,23 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'How Old Is the Furnace?' },
       { kind: 'p', spans: ['Age is the single best predictor. A well-maintained gas furnace typically lasts ', { strong: '15 to 20 years' }, '. Under 12 years old, with regular tune-ups behind it, a repair is usually the right move — the unit still has plenty of life and the fix buys you years, not months.'] },
       { kind: 'p', spans: ['Once a furnace crosses 12 years, it is worth thinking ahead. Not because it will fail tomorrow, but because you would rather choose a replacement on a mild afternoon than scramble for one during a January cold snap when the house is already dropping below 60 degrees. If you want the full picture on lifespan, we broke it down in ', { link: 'how long furnaces last', href: '/how-long-do-furnaces-last/' }, '.'] },
-      { kind: 'h2', text: 'How Often Is It Breaking Down?' },
+      { kind: 'h2', text: 'How Often Is the Furnace Breaking Down?' },
       { kind: 'p', spans: ['A furnace that needs a couple of hundred-dollar repairs every heating season is telling you something. One repair is normal. A pattern of them, year after year, means parts are wearing out faster than you can replace them, and the money is better spent on a system that will not need constant attention.'] },
       { kind: 'p', spans: ['Thermostat trouble is worth a mention here too. If rooms never quite hit the temperature you set, the thermostat might be the culprit — an easy, cheap fix. But it can also point to a bigger problem inside the furnace itself, which is why a technician checks the whole system rather than just swapping the part you noticed.'] },
-      { kind: 'h2', text: 'What Do the Numbers Say?' },
+      { kind: 'h2', text: 'Repair Cost vs. Replacement Cost in Cincinnati' },
       { kind: 'p', spans: ['This is the calculation that settles most decisions. Put the repair quote next to the cost of a new furnace. If a repair runs a small fraction of replacement and the unit is young, fix it. If the repair is a major one — think heat exchanger, control board, or blower motor — on an older furnace, replacement is often the smarter dollar.'] },
       { kind: 'p', spans: ['We will be honest: plenty of furnaces we look at just need a repair, and we will tell you so. If your unit is nine years old and the igniter failed, replacing the whole system would be a waste of your money. When the math tips the other way, we will show you why. If you are curious about replacement pricing before we visit, ', { link: 'how much a new furnace costs', href: '/how-much-does-a-new-furnace-cost/' }, ' lays out the typical ranges.'] },
-      { kind: 'h2', text: 'Is It Costing You More to Run?' },
+      { kind: 'h2', text: 'Is the Furnace Costing More to Run in Cincinnati Winters?' },
       { kind: 'p', spans: ['An aging furnace loses efficiency, especially one that has skipped maintenance. If your heating bills jumped this winter without a matching jump in the weather or the rates, the furnace is likely burning more fuel to produce the same heat. A newer high-efficiency model uses less fuel and heats more evenly, so part of the replacement cost comes back to you every month on the utility bill.'] },
       { kind: 'p', spans: ['Uneven heating fits the same pattern. When one end of the house is warm and the other stays cold, an older, tired furnace often cannot push conditioned air the way it used to.'] },
-      { kind: 'h2', text: 'Are There Safety Warning Signs?' },
+      { kind: 'h2', text: 'Furnace Safety Warning Signs' },
       { kind: 'p', spans: ['Some issues override the cost math entirely. A ', { strong: 'cracked heat exchanger' }, ' develops with age and cannot be safely repaired — it means replacement. It can also let carbon monoxide into your air, which is why this one is not negotiable.'] },
       { kind: 'p', spans: ['Watch for the warning signs: soot around the unit, a burner flame that is yellow or flickering instead of steady and blue, no draft up the chimney, excess moisture on windows near the furnace, or rust on the vent pipes. If you see any of these, stop and call a professional. A working carbon monoxide detector on every level of the home is cheap insurance, and if the alarm sounds, get everyone outside first.'] },
-      { kind: 'h2', text: 'Is the Air Too Dry?' },
+      { kind: 'h2', text: 'Is the Furnace Leaving the Air Too Dry?' },
       { kind: 'p', spans: ['Older furnaces can dry out the air enough to leave you with itchy skin, static, and gaps opening up in wood floors and trim. It is not a reason to replace on its own, but many newer systems pair with a whole-home humidifier that keeps moisture balanced and lets you feel comfortable at a slightly lower thermostat setting, which trims energy use.'] },
-      { kind: 'h2', text: 'When You Do Replace, Plan the Timing' },
+      { kind: 'h2', text: 'Timing a Furnace Replacement in Cincinnati' },
       { kind: 'p', spans: ['The best time to replace a furnace is before it dies — ideally in fall or a stretch of mild weather, not in the middle of a hard freeze. Planning ahead means you compare options calmly instead of paying emergency prices. If your air conditioner is also getting on in years, it is worth asking ', { link: 'whether to replace your AC and furnace together', href: '/should-you-replace-your-ac-and-furnace-at-the-same-time/' }, ', since doing both at once can save on labor. And if the timing is not great for the budget, ', { link: 'financing an HVAC system', href: '/can-you-finance-an-hvac-system/' }, ' can spread the cost out.'] },
-      { kind: 'h2', text: 'Get a Straight Answer From Degree of Comfort' },
+      { kind: 'h2', text: 'Furnace Repair and Replacement in Cincinnati' },
       { kind: 'p', spans: ['The only way to know for certain is to have someone look at your specific furnace. Degree of Comfort handles ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ' and ', { link: 'furnace installation and replacement', href: '/services/furnace-installation-replacement/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['We will give you the honest recommendation, repair or replace, and never push a new system you do not need. Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will take a look.'] },
     ],
@@ -1004,10 +1020,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'signs-of-an-ac-refrigerant-leak',
-    title: '5 Signs of an AC Refrigerant Leak',
+    title: '5 Signs of an AC Refrigerant Leak in Cincinnati Homes',
+    seoTitle: 'AC Refrigerant Leak Signs in Cincinnati',
     category: 'Cooling',
     excerpt:
-      'The clearest signs of an AC refrigerant leak are weak or warm air from the vents, a hissing sound near the unit, ice on the coils, rising electric bills, and cooling cycles that never quite finish. Here is how to spot each one.',
+      'The signs of an AC refrigerant leak in Cincinnati homes: weak or warm air, a hissing sound, ice on the coils, higher bills and cycles that never finish.',
     date: '2026-06-16',
     dateModified: '2026-06-16',
     readMinutes: 7,
@@ -1044,11 +1061,11 @@ export const posts: Post[] = [
       { kind: 'h3', text: '5. Cooling Cycles That Never Finish' },
       { kind: 'p', spans: ['A healthy AC cools the house, shuts off, and rests. One that’s short on refrigerant keeps running because it can never satisfy the thermostat — the system runs almost constantly and still leaves warm spots around the house. Long, near-continuous cycles are the system working overtime to make up for refrigerant it doesn’t have, and that constant strain wears out parts faster.'] },
 
-      { kind: 'h2', text: 'How a Leak Gets Found and Fixed' },
+      { kind: 'h2', text: 'How a Refrigerant Leak Gets Found and Fixed in Cincinnati' },
       { kind: 'p', spans: ['Some homeowners test a suspected spot with soapy water — spray it on a fitting and watch for bubbles as escaping refrigerant pushes through. That’s a fine way to confirm a hunch, but here’s the honest part: finding the exact leak and sealing it is not a DIY job. Technicians use electronic leak detectors and ultraviolet fluorescent dye — the dye is added to the system, then a UV light reveals exactly where it’s seeping out. More to the point, handling refrigerant requires EPA certification by law, so a homeowner can’t legally recharge the system even after finding the leak.'] },
       { kind: 'p', spans: ['Leaks usually come from corrosion, vibration over years of use, or worn connections, and catching them early keeps a small repair from becoming a dead compressor. Staying on top of ', { link: 'routine AC maintenance', href: '/do-you-really-need-ac-maintenance-are-ac-tune-ups-worth-it/' }, ' is the best way to catch a slow leak before it strands you on the hottest day of the year.'] },
 
-      { kind: 'h2', text: 'Get Your AC Checked by Degree of Comfort' },
+      { kind: 'h2', text: 'AC Refrigerant Leak Repair in Cincinnati' },
       { kind: 'p', spans: ['If your air conditioner is blowing warm, icing up, or driving your bills higher, don’t guess — a technician can confirm a refrigerant leak, seal it, and recharge the system to the right level. Degree of Comfort handles ', { link: 'AC repair', href: '/services/ac-repair/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Think you’ve got a leak? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team track it down.'] },
     ],
@@ -1065,10 +1082,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'signs-of-heater-failure',
-    title: 'The Chilling Signs of Heater Failure',
+    title: 'Signs of Heater Failure in Cincinnati Homes',
+    seoTitle: 'Signs of Heater Failure in Cincinnati',
     category: 'Heating',
     excerpt:
-      'The clearest signs a heater is failing are cold or weak air from the vents, strange banging or squealing noises, rising heating bills, and short, frequent cycling. Here is how to read the warning signs and what to do next.',
+      'Signs of heater failure in Cincinnati homes: cold or weak air from the vents, banging or squealing noises, rising bills, short cycling and what to do next.',
     date: '2026-01-29',
     dateModified: '2026-01-29',
     readMinutes: 8,
@@ -1087,7 +1105,7 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['A heater usually tells you it’s failing before it quits for good. The most common warning signs are cold or weak air coming from the vents, banging or squealing noises, rooms that never reach the same temperature, heating bills that keep climbing, and a furnace that switches on and off every few minutes. Catch these early and you often get a repair instead of a 2 a.m. replacement.'] },
       { kind: 'p', spans: ['Here is what each sign means, what you can check yourself, and when it’s time to call someone.'] },
-      { kind: 'h2', text: 'The Warning Signs to Watch For' },
+      { kind: 'h2', text: 'Heater Failure Warning Signs in Cincinnati Homes' },
       { kind: 'p', spans: ['No single symptom is a diagnosis, but a few together usually point to a furnace in decline. Take them seriously in the order your comfort and safety demand.'] },
       { kind: 'h3', text: 'Cold or Weak Air From the Vents' },
       { kind: 'p', spans: ['If the vents blow cool air when the heat is calling, or the airflow feels feeble, the furnace isn’t doing its main job. Sometimes it’s a dirty filter choking the system. Sometimes it’s a failing blower motor or a burner problem. A clogged filter is a cheap, DIY fix worth ruling out first — swap it and see if the airflow recovers.'] },
@@ -1099,7 +1117,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A failing heater works harder to deliver the same comfort, and that effort lands on your bill. Since heating and cooling account for roughly ', { strong: '46%' }, ' of the average home’s energy use, even a modest drop in efficiency is easy to feel. If your usage habits haven’t changed but the bill keeps rising, the furnace is a prime suspect.'] },
       { kind: 'h3', text: 'Short Cycling' },
       { kind: 'p', spans: ['A furnace that turns on and off every few minutes — short cycling — is straining itself and wasting energy. It can come from an oversized system, a bad flame sensor, or an overheating unit shutting down to protect itself. Left alone, it wears out parts fast.'] },
-      { kind: 'h3', text: 'Age' },
+      { kind: 'h3', text: 'Heater Age' },
       { kind: 'p', spans: ['Most heating systems last ', { strong: '15 to 20 years' }, '. Once a furnace crosses ', { strong: '10 years old' }, ', repairs get more frequent and each one is a judgment call. If yours is past a decade and showing several of the signs above, it’s worth reading ', { link: 'how long furnaces last', href: '/how-long-do-furnaces-last/' }, ' and weighing repair against replacement.'] },
       { kind: 'h2', text: 'What Should You Do When Your Heater Fails?' },
       { kind: 'p', spans: ['Before you call anyone, run through a few quick checks. Half the "dead furnace" calls in winter come down to something simple, and there’s no reason to pay for a visit you can skip.'] },
@@ -1115,7 +1133,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'How Can You Prevent Future Furnace Problems?' },
       { kind: 'p', spans: ['Most heater failures are the end of a slow buildup, not a sudden event, which means most are preventable. An annual tune-up before the cold sets in catches worn parts, dirty burners, and cracked components while they’re still cheap fixes. Between visits, change your filter on schedule and keep the area around the furnace clear.'] },
       { kind: 'p', spans: ['Regular maintenance also protects the biggest number on the page — a system that runs clean uses less energy and lasts closer to that full 20-year mark. For a room-by-room walkthrough of what to watch, our guide to ', { link: 'preventive furnace safety', href: '/5-preventive-measures-for-furnace-safety/' }, ' covers the essentials. And if a repair no longer makes sense, knowing ', { link: 'what a new furnace costs', href: '/how-much-does-a-new-furnace-cost/' }, ' up front takes the pressure off the decision.'] },
-      { kind: 'h2', text: 'Get Your Heat Back With Degree of Comfort' },
+      { kind: 'h2', text: 'Heater Repair in Cincinnati From Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort diagnoses and repairs ', { link: 'heating systems', href: '/services/heating/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — so you know the number before we start.'] },
       { kind: 'p', spans: ['If your heater is showing the signs above, don’t wait for the coldest night to find out. Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we’ll get your home warm again.'] },
     ],
@@ -1131,10 +1149,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'top-signs-of-air-duct-mold',
-    title: 'Top Signs of Air Duct Mold',
+    title: 'Top Signs of Air Duct Mold in Cincinnati Homes',
+    seoTitle: 'Signs of Air Duct Mold in Cincinnati',
     category: 'Home Tips',
     excerpt:
-      'The three clearest signs of air duct mold are visible stains or fuzz around your vents, a musty smell that follows the air through every room, and family members with lingering allergy or respiratory symptoms. Here is how to read each one.',
+      'Signs of air duct mold in Cincinnati homes: stains or fuzz around vents, a musty smell in every room, and lingering allergy symptoms. How to read each one.',
     date: '2026-05-15',
     dateModified: '2026-05-15',
     readMinutes: 7,
@@ -1153,26 +1172,26 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['Mold hides in ductwork because it is dark, damp, and out of sight — but it rarely stays quiet for long. There are three signs that give it away: something you can see near the vents, something you can smell, and something your family can feel. Any one of them is worth a closer look. Here is how to read each.'] },
 
-      { kind: 'h2', text: 'Take a Look Around Your Vents' },
+      { kind: 'h2', text: 'Check Your Vents for Visible Mold' },
       { kind: 'p', spans: ['Start with the part you can actually inspect. You cannot see deep inside your ducts, but the vents and the visible sections of ductwork tell you plenty. Look for staining or discoloration on the exterior of the ducts and for a soft, foam-like buildup on or around the register covers. Black, green, or dark speckling near the vents is the classic sign, but mold does not always look the way people expect — sometimes it reads as a grimy smudge or a fuzzy patch that keeps coming back after you wipe it away.'] },
       { kind: 'p', spans: ['If you find growth on the outside, treat it as a signal that more is likely growing where you cannot see. A little surface dust on a register is normal and easy to wipe down yourself. Anything that looks like it is spreading, feels damp, or returns quickly after cleaning is worth a professional inspection.'] },
 
-      { kind: 'h2', text: 'Is There a Persistent Musty Smell?' },
+      { kind: 'h2', text: 'A Persistent Musty Smell From the Vents' },
       { kind: 'p', spans: ['A musty, earthy odor is one of the most reliable signs of mold — the trick is paying attention to where it lives. If the smell stays put in one spot, like a corner of the basement, the source is probably isolated to that area. When the same musty smell greets you in room after room, that is different. Mold spores inside the ductwork ride the moving air and get pushed out through every vent in the house, so the odor shows up everywhere the system blows.'] },
       { kind: 'p', spans: ['A whole-home musty smell that gets stronger when the heat or AC kicks on is a strong hint the duct system itself is involved. It is easy to blame a stuffy house on general dampness, and sometimes that is all it is — our guide on ', { link: 'lowering humidity in your house', href: '/5-ways-to-lower-humidity-in-your-house/' }, ' covers the moisture side. But a smell that travels with the airflow deserves a look at the ducts.'] },
 
-      { kind: 'h2', text: 'Chronic Health Problems in Your Household' },
+      { kind: 'h2', text: 'Chronic Health Problems Linked to Duct Mold' },
       { kind: 'p', spans: ['The third sign is the one people miss because they blame it on the season. Mold exposure can trigger dizziness, congestion, respiratory irritation, coughing, and even rashes. When those symptoms hang around, hit more than one person in the house, and ease up when everyone leaves for a few days, the air inside is a likely culprit.'] },
       { kind: 'p', spans: ['Because ducts feed conditioned air to every room, mold living inside them exposes the whole household on repeat. It hits people with allergies, asthma, or weaker immune systems hardest. If your family seems to fight the same low-grade symptoms indoors, it is worth ruling out your air — we get into this connection in ', { link: 'whether your AC can make you sick', href: '/can-your-ac-make-you-sick/' }, '.'] },
 
-      { kind: 'h2', text: 'What Causes Mold in Air Ducts' },
+      { kind: 'h2', text: 'What Causes Mold in Air Ducts in Cincinnati Homes' },
       { kind: 'p', spans: ['Mold needs two things to take hold: moisture and something to feed on. Ducts supply both. Humidity, condensation on the metal, a small leak, or poor ventilation provides the water, while the dust and debris that collect inside give the spores something to grow on. Air conditioning can play a part too — when the condensate drain clogs or indoor humidity runs high, that extra moisture settles right where mold likes it. A well-maintained system that manages humidity is far less inviting, which is part of what a good AC does for your ', { link: 'indoor air quality', href: '/do-air-conditioners-improve-indoor-air-quality/' }, '.'] },
 
-      { kind: 'h2', text: 'How to Get Rid of It — and Keep It Gone' },
+      { kind: 'h2', text: 'How to Get Rid of Air Duct Mold in Cincinnati and Keep It Gone' },
       { kind: 'p', spans: ['Cleaning removes the mold that is there now, but it does not solve why it grew. That is the honest catch: scrub or clean the ducts without fixing the moisture, and it comes right back. A lasting fix pairs a professional cleaning with the root cause — sealing leaks, correcting drainage, and holding indoor humidity in the healthy 30 to 50 percent range. Having your ducts cleaned every few years keeps buildup down in the meantime.'] },
       { kind: 'p', spans: ['DIY spray-and-wipe on a surface smudge is fine. Actual mold inside a duct system is not a weekend job — the growth you can reach is usually a fraction of what is in there, and disturbing it without the right containment just spreads spores through the house. That is the point to call a licensed pro who can inspect, clean properly, and address the moisture behind it.'] },
 
-      { kind: 'h2', text: 'Clear the Air With Degree of Comfort' },
+      { kind: 'h2', text: 'Indoor Air Quality Service in Cincinnati' },
       { kind: 'p', spans: ['If you are seeing stains at the vents, smelling must in every room, or watching your family fight the same symptoms indoors, get the ducts and the moisture behind them checked. Degree of Comfort inspects ductwork and installs ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' solutions across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Worried about mold in your air? Call ', { strong: '(513) 586-5107' }, ', ask about duct inspection and indoor air quality, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -1189,10 +1208,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'using-your-hvac-for-better-sleep',
-    title: 'Using Your HVAC for Better Sleep',
+    title: 'Using Your HVAC for Better Sleep in Cincinnati Homes',
+    seoTitle: 'HVAC Settings for Better Sleep in Cincinnati',
     category: 'Home Tips',
     excerpt:
-      'Set your bedroom to 60–67°F, keep humidity around 40–50%, and run a fan for steady white noise. Your HVAC controls all three, so a few small changes at night can mean deeper, easier sleep.',
+      'Using your HVAC for better sleep in Cincinnati: set the bedroom to 60–67°F, keep humidity at 40–50% and run a fan for steady noise. Small changes help.',
     date: '2026-05-21',
     dateModified: '2026-05-21',
     readMinutes: 7,
@@ -1211,19 +1231,19 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['Your HVAC system controls the three things that most affect how well you sleep: temperature, humidity, and air movement. Set your bedroom cooler at night, hold humidity in a comfortable range, and add gentle air circulation, and you give your body the conditions it wants for deep, uninterrupted rest. Here is how to use the equipment you already own to sleep better.'] },
 
-      { kind: 'h2', text: 'Cool Things Down' },
+      { kind: 'h2', text: 'Set a Cooler Bedroom Temperature at Night' },
       { kind: 'p', spans: ['Lower the temperature before bed. Your core temperature naturally drops as you fall asleep, and a cool room speeds that process along. Most people rest best somewhere between 60 and 67°F, so program your thermostat to bring the bedroom down in the hour before you turn in. If you sleep hot, start at the lower end and adjust from there.'] },
       { kind: 'p', spans: ['There is a bonus in winter: setting the temperature back at night means your furnace runs less while you are under the covers, which shaves a bit off your heating bill. A programmable or smart thermostat makes this automatic — you set the schedule once and stop thinking about it. If you are dialing in your summer settings too, our guide on ', { link: 'what temperature to set your AC to in summer', href: '/what-temperature-should-i-set-my-air-conditioner-to-in-the-summer/' }, ' walks through the trade-offs between comfort and cost.'] },
 
-      { kind: 'h2', text: 'Be Mindful of Humidity' },
+      { kind: 'h2', text: 'Control Bedroom Humidity in Cincinnati Homes' },
       { kind: 'p', spans: ['Temperature gets all the attention, but humidity decides whether a room actually feels comfortable. Aim to keep indoor humidity around 40–50%. Too high, and the air turns muggy and sticky, which makes it hard to cool down and gives mold something to grow on. Too low, and you wake up with a dry throat, chapped lips, and an itchy nose.'] },
       { kind: 'p', spans: ['A cheap hygrometer tells you where you stand — they run a few dollars and take the guesswork out. From there, the fix depends on the season. In a damp summer, a dehumidifier or your air conditioner pulls moisture out of the air. In a dry winter, a humidifier adds it back. A ', { link: 'whole-home humidifier', href: '/how-a-whole-home-humidifier-works-everything-you-need-to-know/' }, ' ties into your HVAC and treats every room instead of one, which is worth considering if the whole house runs dry. Managing humidity also helps the air you breathe overnight — more on that in our piece on whether ', { link: 'air conditioners improve indoor air quality', href: '/do-air-conditioners-improve-indoor-air-quality/' }, '.'] },
 
-      { kind: 'h2', text: 'Fan Out' },
+      { kind: 'h2', text: 'Run the HVAC Fan for Air Movement and White Noise' },
       { kind: 'p', spans: ['Run a fan. It uses far less energy than the air conditioner and does two useful things at once. First, the moving air creates a light draft that helps your skin shed heat, so the room feels a couple of degrees cooler than the thermostat reads. Second, the steady hum works as white noise — it smooths over the sudden sounds that jolt you awake, like a car door, a creaking floor, or a partner rolling over.'] },
       { kind: 'p', spans: ['A ceiling fan, a box fan, or a small bedside fan all work. Here is the honest part: a fan alone will not fix a room that is genuinely too warm or too humid, since it moves air rather than cooling or drying it. Pair it with the right temperature and humidity and it earns its keep.'] },
 
-      { kind: 'h2', text: 'Better Sleep Starts With a Comfortable Home' },
+      { kind: 'h2', text: 'HVAC Help for Better Sleep in Cincinnati' },
       { kind: 'p', spans: ['If your bedroom never quite hits the right temperature or the air feels stuffy no matter what the thermostat says, the equipment may be the problem, not the settings. Degree of Comfort services and installs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' and ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want a home that stays comfortable through the night? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and our team will help you get there.'] },
     ],
@@ -1240,10 +1260,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'what-does-a-gas-leak-smell-like',
-    title: 'What Does a Gas Leak Smell Like?',
+    title: 'What Does a Gas Leak Smell Like in a Cincinnati Home?',
+    seoTitle: 'What a Gas Leak Smells Like in Cincinnati Homes',
     category: 'Plumbing',
     excerpt:
-      'A gas leak smells like rotten eggs or sulfur. Natural gas is naturally odorless, so utilities add a chemical called mercaptan to give it that unmistakable smell — and if you notice it, leave the house first and call from outside.',
+      'A gas leak smells like rotten eggs or sulfur, from mercaptan added to odorless gas. If you smell it in your Cincinnati home, leave and call from outside.',
     date: '2025-09-19',
     dateModified: '2025-09-19',
     readMinutes: 7,
@@ -1268,10 +1289,10 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'Can a Gas Leak Affect Your Health?' },
       { kind: 'p', spans: ['Yes. Breathing in leaking gas can cause headaches, dizziness, nausea, fatigue, and trouble breathing. These symptoms often creep in slowly, and it’s easy to blame a long day instead of the air in the room. A telling clue: if the symptoms ease when you step outside and return when you come back in, the problem is likely in the house.'] },
       { kind: 'p', spans: ['Beyond the health effects, leaking gas is a fire and explosion risk. It only takes a spark — a light switch, a phone screen, a pilot flame — to turn a leak into something far worse. That’s the reason the safety steps below matter so much, and why none of them involve poking around to find the source yourself.'] },
-      { kind: 'h2', text: 'What Are the Other Signs of a Gas Leak?' },
+      { kind: 'h2', text: 'Other Signs of a Gas Leak in Cincinnati Homes' },
       { kind: 'p', spans: ['Smell is the clearest sign, but not the only one. Learn to read the rest, especially for leaks outside where the odor disperses before it reaches you.'] },
       { kind: 'p', spans: ['Listen for a ', { strong: 'hissing or whistling sound' }, ' near a gas line, meter, or appliance. Outdoors, watch for patches of dead or discolored vegetation over a buried line, or bubbling in standing water and wet ground. Inside, a gas bill that jumps for no reason can point to gas escaping somewhere it shouldn’t. And any of the health symptoms above — headaches, dizziness, nausea — count as a warning when they show up alongside these other clues.'] },
-      { kind: 'h2', text: 'What Should You Do if You Suspect a Gas Leak?' },
+      { kind: 'h2', text: 'What to Do if You Suspect a Gas Leak in Cincinnati' },
       { kind: 'p', spans: ['If you suspect a gas leak, the order of steps matters more than anything else on this page. Do these in sequence.'] },
       { kind: 'h3', text: 'Get Everyone Out Immediately' },
       { kind: 'p', spans: ['Leave the house right away and take everyone — including pets — with you. If you can do it on your way out without delay, open a door so the space can air out. Don’t stop to gather belongings or hunt for the source.'] },
@@ -1283,7 +1304,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'How Do You Prevent Gas Leaks?' },
       { kind: 'p', spans: ['Most leaks start at a connection or a worn appliance, which means most are preventable. Furnaces, water heaters, stoves, and dryers all use gas, and any of them can leak if a fitting loosens or a part fails with age. Regular inspections catch those problems before they become emergencies.'] },
       { kind: 'p', spans: ['Have your gas appliances and lines checked on a schedule, install carbon monoxide detectors near sleeping areas, and never attempt gas connections or repairs yourself. Our guide to ', { link: 'preventive furnace safety', href: '/5-preventive-measures-for-furnace-safety/' }, ' walks through the appliance most people forget to check. When something feels off, an early inspection almost always beats a middle-of-the-night scare.'] },
-      { kind: 'h2', text: 'Keep Your Home Safe With Degree of Comfort' },
+      { kind: 'h2', text: 'Keep Your Cincinnati Home Safe From Gas Leaks' },
       { kind: 'p', spans: ['Degree of Comfort inspects, repairs, and replaces gas lines across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — so you know the number before we start.'] },
       { kind: 'p', spans: ['If you’ve had a leak shut off and need it found and fixed, or you just want your gas appliances checked before winter, call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and our team will take it from there. If you smell gas right now, put this down, get outside, and call 911 first.'] },
     ],
@@ -1297,10 +1318,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'what-happens-if-you-dont-clean-your-air-ducts',
-    title: 'What Happens If You Don’t Clean Your Air Ducts?',
+    title: 'What Happens If You Don’t Clean Your Air Ducts in Cincinnati?',
+    seoTitle: 'Not Cleaning Your Air Ducts in Cincinnati',
     category: 'Home Tips',
     excerpt:
-      'Skip duct cleaning long enough and you get dustier air, higher energy bills, and an HVAC system working harder than it should. Here is what really happens, and when it actually matters.',
+      'What happens if you don’t clean your air ducts in Cincinnati: dustier air, higher energy bills and an HVAC system working harder, and when it matters.',
     date: '2026-05-22',
     dateModified: '2026-05-22',
     readMinutes: 7,
@@ -1318,22 +1340,22 @@ export const posts: Post[] = [
         ],
       },
       { kind: 'p', spans: ['If you never clean your air ducts, the short answer is that nothing dramatic happens on day one — but the slow costs add up. Dust and debris collect inside the ductwork, get pushed back into your rooms, and force your heating and cooling system to work harder for the same result. Over time that means worse air quality, higher bills, and more strain on equipment you would rather not replace early. Here is how each of those plays out.'] },
-      { kind: 'h2', text: 'Your Indoor Air Quality Drops' },
+      { kind: 'h2', text: 'Dirty Air Ducts Lower Indoor Air Quality in Cincinnati Homes' },
       { kind: 'p', spans: ['Your ducts are the lungs of your home. Every time the system runs, air moves through that network and back out through the vents. When the ducts are full of dust, pet dander, pollen, and other debris, that material gets picked up and redistributed into the rooms you live in. You end up dusting more often and breathing more of what settled in the system months ago.'] },
       { kind: 'p', spans: ['Cleaning the ducts is only part of the picture. Your filter does the day-to-day work, which is why we tell people to check it first — a clogged one undoes a lot of good. If you are not sure what a tired filter looks like, here are ', { link: '7 signs your filter is past its prime', href: '/7-signs-your-home-air-filter-is-past-its-prime/' }, '.'] },
       { kind: 'h2', text: 'Allergy and Asthma Symptoms Get Worse' },
       { kind: 'p', spans: ['Asthma attacks are most commonly triggered by pollen, dust, animal hair and dander, and mold — the exact things that collect in unclean ductwork. If someone in the house has asthma or seasonal allergies, dirty ducts quietly work against every other step you take. You can run the air purifier, wash the bedding, and keep the windows shut, and still be fighting a source that lives inside the walls.'] },
       { kind: 'p', spans: ['This is also where indoor air quality and your cooling system overlap. A well-maintained AC helps, and we cover why in ', { link: 'do air conditioners improve indoor air quality', href: '/do-air-conditioners-improve-indoor-air-quality/' }, '.'] },
-      { kind: 'h2', text: 'You Give Respiratory Infections a Head Start' },
+      { kind: 'h2', text: 'Dirty Ducts Give Respiratory Infections a Head Start' },
       { kind: 'p', spans: ['Ductwork that stays damp or dusty can become a comfortable place for bacteria and viruses to sit and spread. When the system runs, those particles ride the airflow into every room, which can mean more colds and more of that run-down feeling that never quite clears up. If you have noticed the household getting sick more than it should, the system is worth a look — we go deeper on that in ', { link: 'can your AC make you sick', href: '/can-your-ac-make-you-sick/' }, '.'] },
-      { kind: 'h2', text: 'Sinus Problems Stick Around' },
+      { kind: 'h2', text: 'Sinus Problems Stick Around With Dirty Ducts' },
       { kind: 'p', spans: ['The same particles that irritate your lungs irritate your nasal passages. Constant exposure to circulating dust and allergens can turn the occasional stuffy nose into recurring or chronic sinus trouble. If you keep reaching for sinus medication and cannot figure out why, the air moving through your vents is worth ruling out before you assume it is just the season.'] },
-      { kind: 'h2', text: 'Your Energy Bills Creep Up' },
+      { kind: 'h2', text: 'Dirty Ducts Raise Energy Bills in Cincinnati Homes' },
       { kind: 'p', spans: ['Dirty ducts restrict airflow, and restricted airflow makes your furnace and air conditioner run longer to hit the temperature you set. Longer run times mean more energy used and more wear on the blower motor and other parts. Clean ducts let air flow freely through the system, which reduces the strain and can keep your bills closer to where they should be.'] },
-      { kind: 'h2', text: 'So How Often Should You Actually Clean Them?' },
+      { kind: 'h2', text: 'How Often to Clean Air Ducts in Cincinnati' },
       { kind: 'p', spans: ['For most homes, every ', { strong: '3 to 5 years' }, ' is the right rhythm. Move that up if you have pets, indoor smokers, someone with allergies, or you just finished a renovation that kicked drywall dust through the house. Between cleanings, changing the filter on schedule does most of the heavy lifting.'] },
       { kind: 'p', spans: ['Honest note: duct cleaning is not a subscription you need every year, and anyone telling you otherwise is selling. If your ducts are genuinely dirty, restricting airflow, or feeding allergy symptoms, cleaning is money well spent. If they were done recently and the air is fine, your dollars go further on ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' upgrades or a better filter.'] },
-      { kind: 'h2', text: 'Get a Straight Answer From Degree of Comfort' },
+      { kind: 'h2', text: 'Indoor Air Quality Service in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort cleans, inspects, and improves ductwork and ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — so you know the number before we start.'] },
       { kind: 'p', spans: ['Not sure whether your ducts actually need it? That is a fair question, and we will tell you the truth either way. Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will take a look.'] },
     ],
@@ -1350,10 +1372,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'what-is-a-good-seer-rating',
-    title: 'What Is a Good SEER Rating?',
+    title: 'What Is a Good SEER Rating in Cincinnati?',
+    seoTitle: 'Good SEER Rating for Cincinnati Homes',
     category: 'Cooling',
     excerpt:
-      'For most homes, a good SEER rating is 16 or higher for an air conditioner, and 18 or higher for a heat pump. Anything above the federal minimum of 14 buys you lower cooling bills — here is how to pick the right number.',
+      'A good SEER rating in Cincinnati is 16 or higher for an air conditioner and 18 or higher for a heat pump. Here’s how to pick the right number.',
     date: '2026-03-26',
     dateModified: '2026-03-26',
     readMinutes: 7,
@@ -1375,21 +1398,21 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['SEER stands for Seasonal Energy Efficiency Ratio. It measures how efficiently an air conditioner or heat pump turns electricity into cooling over a full season. You get the number by dividing the unit’s total cooling output by the energy it uses to produce it. The higher the SEER, the more cooling you get for every dollar of electricity.'] },
       { kind: 'p', spans: ['Modern systems generally fall between ', { strong: '13 and 25 SEER' }, '. Think of it like miles per gallon for your air conditioner: a higher number does the same job on less fuel. One thing worth knowing — the rating is a maximum under ideal test conditions, so real-world performance shifts with the weather, your ductwork, and how the system was installed.'] },
       { kind: 'p', spans: ['You may also see the newer ', { strong: 'SEER2' }, ' rating on equipment. It measures the same thing under updated testing standards that better reflect real duct conditions, so SEER2 numbers run slightly lower than the old SEER figures for the same unit.'] },
-      { kind: 'h2', text: 'What Is the Minimum SEER Rating?' },
+      { kind: 'h2', text: 'Minimum SEER Rating for Cincinnati Homes' },
       { kind: 'p', spans: ['The federal minimum for a new central air conditioner is ', { strong: '14 SEER' }, ', though a few states still allow 13. For heat pumps and ductless mini-splits, the floor is also ', { strong: '14 SEER' }, '. Those are the legal minimums, not the recommendations. You cannot buy a system below them, but you can — and often should — buy above them.'] },
       { kind: 'p', spans: ['Above the minimum, ', { strong: '16 SEER' }, ' is a solid mark for an air conditioner, and ', { strong: '18 SEER' }, ' is considered good for a heat pump. Those are the ratings where the energy savings start to make a real difference without paying for efficiency you will never use.'] },
       { kind: 'h2', text: 'Why a Higher SEER Rating Matters' },
       { kind: 'p', spans: ['The main payoff is money. A higher SEER unit uses less electricity to keep your house at the same temperature, so your cooling bills drop. In a hot, humid climate like the Tri-State, where the AC runs hard for months, that difference adds up over a season.'] },
       { kind: 'p', spans: ['A more efficient system also tends to run longer, gentler cycles rather than short bursts, which usually means steadier temperatures and better humidity control. If you are weighing whether it is time to upgrade at all, our guide on ', { link: 'whether to replace your old air conditioner', href: '/should-i-replace-my-old-air-conditioner/' }, ' walks through the signs.'] },
-      { kind: 'h2', text: 'How to Choose the Right SEER Rating' },
+      { kind: 'h2', text: 'How to Choose the Right SEER Rating for Your Cincinnati Home' },
       { kind: 'p', spans: ['The best rating is not simply the highest one you can find. Three things should drive the decision: your climate, your budget, and how long you plan to stay in the home.'] },
-      { kind: 'h3', text: 'Consider Your Climate' },
+      { kind: 'h3', text: 'SEER Ratings for Hot Cincinnati Summers' },
       { kind: 'p', spans: ['The harder your AC works, the more a high SEER pays off. Cincinnati summers are hot and sticky, so a unit runs a lot of hours between June and September. In a climate like that, stepping up from 14 to 16 or 18 SEER earns back its cost faster than it would somewhere with mild summers.'] },
       { kind: 'h3', text: 'Weigh Upfront Cost Against Savings' },
       { kind: 'p', spans: ['Units with higher SEER ratings cost more upfront. The trade is lower bills every month for the life of the system, which can offset the higher price over time. There is a point of diminishing returns, though — jumping from 14 to 18 SEER usually pays back well, while chasing 22 or 25 SEER makes sense mainly for very hot climates or homeowners who plan to stay put for a long time. If the sticker price is the sticking point, ', { link: 'financing an HVAC system', href: '/can-you-finance-an-hvac-system/' }, ' can spread it out.'] },
       { kind: 'h3', text: 'Think About How Long You Will Stay' },
       { kind: 'p', spans: ['Efficiency savings show up over years, not months. If you plan to stay in your home for a decade or more, a higher SEER rating has time to earn its keep. If you may move in a few years, the payback math is tighter, and a good mid-range rating like 16 often makes more sense. Either way, get the system properly sized first — an oversized high-SEER unit will short-cycle and waste the efficiency you paid for. Our post on ', { link: 'what a new air conditioner costs', href: '/how-much-is-a-new-air-conditioner/' }, ' breaks down the full price picture.'] },
-      { kind: 'h2', text: 'Get the Right SEER Rating From Degree of Comfort' },
+      { kind: 'h2', text: 'AC and Heat Pump Installation in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort sizes and installs high-efficiency ', { link: 'AC systems', href: '/services/ac-installation-replacement/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We run a proper load calculation, match the SEER rating to your home and budget, and give you a straight recommendation instead of upselling efficiency you will not use. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Ready to talk numbers? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and our team will help you pick the right rating for your home.'] },
     ],
@@ -1403,10 +1426,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'what-is-ac-fan-mode',
-    title: 'What Is AC Fan Mode and How Do You Use It?',
+    title: 'What Is AC Fan Mode? How Cincinnati Homeowners Should Use It',
+    seoTitle: 'AC Fan Mode: How to Use It in Cincinnati',
     category: 'Cooling',
     excerpt:
-      'AC fan mode runs your system’s blower to circulate air without cooling it. Used at the right time it evens out room temperatures and helps air quality — used in humid weather it works against you. Here’s how to get it right.',
+      'AC fan mode runs the blower without cooling. In Cincinnati it evens out room temperatures on mild days but works against you in humid weather.',
     date: '2026-05-28',
     dateModified: '2026-05-28',
     readMinutes: 7,
@@ -1430,18 +1454,18 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'AUTO vs. ON' },
       { kind: 'p', spans: ['On ', { strong: 'AUTO' }, ', the fan only runs when your AC is actively cooling. When the compressor cycles off, the fan cuts off too. This uses less energy, and it lets the moisture that condensed on the cold coil drain away properly — which means better dehumidification and a home that feels cooler at the same temperature.'] },
       { kind: 'p', spans: ['On ', { strong: 'ON' }, ', the fan runs continuously, cooling or not. That constant air movement smooths out the hot and cold spots between rooms, keeps air passing through your filter more often, and can actually reduce the strain of the fan repeatedly starting and stopping. The trade-off is higher energy use and, in humid weather, a real downside we’ll get to below.'] },
-      { kind: 'h2', text: 'The Benefits of Running the Fan on ON' },
+      { kind: 'h2', text: 'The Benefits of Setting the AC Fan to ON' },
       { kind: 'p', spans: ['There are days when leaving the fan on ON is the right call. Constant circulation evens out temperatures, so the far bedroom stops running several degrees warmer than the living room. It also pulls more air through your filter, which helps if someone in the house deals with allergies or you care about ', { link: 'indoor air quality', href: '/do-air-conditioners-improve-indoor-air-quality/' }, '. And steady operation is gentler on the blower motor than short, repeated bursts.'] },
       { kind: 'p', spans: ['The catch is that those benefits only exist if the air being moved is clean and dry. A continuous fan pushing air through a dirty filter just spreads dust faster. It’s a tool, not a cure.'] },
-      { kind: 'h2', text: 'How to Use Fan Mode Properly' },
+      { kind: 'h2', text: 'How to Use AC Fan Mode in Cincinnati Weather' },
       { kind: 'p', spans: ['Use fan mode during mild weather. When it’s comfortable outside and you don’t need active cooling, running the fan circulates air and keeps the house from feeling stuffy, without paying to run the compressor. That’s fan mode at its best.'] },
       { kind: 'p', spans: ['Don’t use it in humid conditions. This is the one that trips people up. When the air is muggy, moving it around doesn’t dry it out — it just redistributes the moisture. Worse, on AUTO the water that condenses on the coil drips off and drains away; leave the fan on ON and some of that moisture can get blown back into your home before it drains. If your goal is to feel less clammy, AUTO wins in humid weather every time.'] },
       { kind: 'p', spans: ['Keep the system clean. Fan mode moves whatever air your ducts and filter give it. Change your filter on schedule and stay current on ', { link: 'AC maintenance', href: '/services/air-conditioning/' }, ' so the air you’re circulating is worth circulating.'] },
       { kind: 'p', spans: ['Honestly, plenty of homeowners get everything they need by leaving the fan on AUTO year-round and never touching it. If you’re not chasing uneven temperatures or air-quality concerns, AUTO is a perfectly good default. And if the whole thing feels fiddly, a ', { link: 'smart thermostat', href: '/how-smart-thermostats-save-money-and-improve-comfort/' }, ' can manage fan cycles for you based on humidity and schedule.'] },
-      { kind: 'h2', text: 'When Fan Mode Isn’t the Real Fix' },
+      { kind: 'h2', text: 'When AC Fan Mode Won’t Fix Comfort Problems in Cincinnati' },
       { kind: 'p', spans: ['If you’re reaching for the fan because certain rooms never get comfortable, the fan is a bandage, not a solution. Persistent hot and cold spots usually point to duct problems, an undersized or aging system, or a home that needs a fresh look at how it’s set up. The same goes for humidity that won’t quit — that’s a job for proper dehumidification, not a blower running in circles.'] },
       { kind: 'p', spans: ['It also helps to have your ', { link: 'temperature settings dialed in', href: '/what-temperature-should-i-set-my-air-conditioner-to-in-the-summer/' }, ' before you start fiddling with fan modes, because the two work together.'] },
-      { kind: 'h2', text: 'Talk to Degree of Comfort' },
+      { kind: 'h2', text: 'Air Conditioning Help in Cincinnati' },
       { kind: 'p', spans: ['If fan mode isn’t giving you the even, comfortable home you’re after, the problem is usually somewhere else — and that’s worth a look. Degree of Comfort services and installs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we’ll help you sort out what your home actually needs.'] },
     ],
@@ -1458,10 +1482,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'what-is-high-efficiency-furnace-venting',
-    title: 'What Is High-Efficiency Furnace Venting?',
+    title: 'What Is High-Efficiency Furnace Venting in Cincinnati Homes?',
+    seoTitle: 'High-Efficiency Furnace Venting in Cincinnati',
     category: 'Heating',
     excerpt:
-      'High-efficiency furnace venting uses sealed PVC pipes run out through a sidewall instead of a metal flue up a chimney. Because a 90%-plus AFUE furnace pulls so much heat out of its exhaust, the leftover gases are cool, wet, and acidic — which changes everything about how the furnace has to breathe.',
+      'High-efficiency furnace venting uses sealed PVC pipe out a sidewall, not a metal flue up the chimney. Why 90%-plus furnaces in Cincinnati homes need it.',
     date: '2026-02-02',
     dateModified: '2026-02-02',
     readMinutes: 7,
@@ -1494,12 +1519,12 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['AFUE, or Annual Fuel Utilization Efficiency, is the percentage of fuel a furnace turns into usable heat. A ', { strong: '90-plus AFUE' }, ' rating means 90 cents or more of every fuel dollar becomes heat, versus the 60 to 80 cents typical of older units. That gap is only reachable because the condensing design — and its PVC venting — lets the furnace run the exhaust cold.'] },
       { kind: 'h3', text: 'Electronic Ignition' },
       { kind: 'p', spans: ['High-efficiency furnaces skip the old standing pilot light and use electronic ignition, firing the burner only when heat is called for. That trims the small but constant fuel a pilot light burns year-round and pairs naturally with the sealed venting system.'] },
-      { kind: 'h3', text: 'Special Drainage' },
+      { kind: 'h3', text: 'Condensate Drainage' },
       { kind: 'p', spans: ['All that condensed water has to go somewhere. A condensing furnace produces several gallons a day during heavy use, routed through a drain line to a floor drain or a small condensate pump. Because the water is mildly acidic, some installations add a neutralizer before it reaches your plumbing. Keeping that drain clear is part of ', { link: 'basic furnace safety and upkeep', href: '/5-preventive-measures-for-furnace-safety/' }, ' — a clogged condensate line is one of the most common reasons a high-efficiency furnace locks out mid-winter.'] },
-      { kind: 'h2', text: 'Is High-Efficiency Venting for You?' },
+      { kind: 'h2', text: 'Is High-Efficiency Venting Right for Your Cincinnati Home?' },
       { kind: 'p', spans: ['If you’re replacing a furnace, high-efficiency is worth a serious look — the fuel savings add up over a system that, well cared for, can run 15 to 20 years. You can read more on that in our post on ', { link: 'how long furnaces last', href: '/how-long-do-furnaces-last/' }, '. The main catch is the venting: your home needs a spot to run PVC pipe out through a sidewall with the right slope and clearances, and a nearby drain for the condensate.'] },
       { kind: 'p', spans: ['Here’s the honest part. If your current furnace is only a few years old and running fine, there’s no reason to tear it out just to change the venting. High-efficiency venting matters when you’re installing a new condensing furnace — retrofitting it onto the wrong equipment doesn’t buy you anything. The right move is a load calculation and an in-home look at your venting options before anyone quotes a system.'] },
-      { kind: 'h2', text: 'Get It Vented Right by Degree of Comfort' },
+      { kind: 'h2', text: 'Furnace Venting and Installation in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'furnace installation and replacement', href: '/services/furnace-installation-replacement/' }, ' — including the PVC venting, slope, drainage, and code clearances — across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Thinking about a new high-efficiency furnace or worried your venting isn’t up to par? Call ', { strong: '(513) 586-5107' }, ', explore our ', { link: 'heating services', href: '/services/heating/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we’ll take a look.'] },
     ],
@@ -1516,10 +1541,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'what-is-included-in-a-furnace-tune-up',
-    title: 'What Is Included in a Furnace Tune-Up?',
+    title: 'What Is Included in a Furnace Tune-Up in Cincinnati?',
+    seoTitle: 'What a Furnace Tune-Up Includes in Cincinnati',
     category: 'Heating',
     excerpt:
-      'A furnace tune-up is a full inspection, cleaning, and safety test of your heating system — usually 60 to 90 minutes of work that catches small problems before they become cold nights and big repair bills. Here is exactly what a technician checks.',
+      'What is included in a furnace tune-up in Cincinnati: a 60 to 90 minute inspection, cleaning and safety test that catches small heating problems early.',
     date: '2026-01-14',
     dateModified: '2026-01-14',
     readMinutes: 7,
@@ -1538,7 +1564,7 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['A furnace tune-up is a thorough inspection, cleaning, and safety test of your heating system, and a typical one takes about ', { strong: '60 to 90 minutes' }, '. The technician looks for wear and damage, cleans the parts that get dirty and drag down performance, and runs the furnace through a full cycle to confirm it heats safely and efficiently. Done once a year before winter, it is the difference between a furnace you can forget about and one that quits on the coldest night. Here is what actually happens during the visit.'] },
 
-      { kind: 'h2', text: 'Inspecting the Furnace' },
+      { kind: 'h2', text: 'What Technicians Inspect on a Furnace Tune-Up in Cincinnati' },
       { kind: 'p', spans: ['The inspection is where most problems get caught, because a lot of furnace trouble starts small and quiet. A technician works through the components that fail most often and the ones that matter for your safety.'] },
       { kind: 'h3', text: 'Heat Exchanger' },
       { kind: 'p', spans: ['This is the most important check of the whole visit. The heat exchanger separates the burner’s combustion gases from the air you breathe, so the tech looks for cracks, corrosion, and soot. A cracked heat exchanger can leak carbon monoxide into your home, which is exactly why this gets inspected every year rather than left to chance.'] },
@@ -1549,7 +1575,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Pilot Light or Igniter' },
       { kind: 'p', spans: ['Older furnaces use a standing pilot light; newer ones use an electronic igniter. Either way, the technician confirms it lights reliably, since an igniter that is on its way out is one of the most common reasons a furnace won’t start.'] },
 
-      { kind: 'h2', text: 'Cleaning Key Components' },
+      { kind: 'h2', text: 'Cleaning Key Furnace Components' },
       { kind: 'p', spans: ['Dirt is quietly expensive. A furnace clogged with dust works harder, burns more fuel, and wears out faster, so the cleaning half of a tune-up is really about efficiency and lifespan.'] },
       { kind: 'h3', text: 'Air Filter' },
       { kind: 'p', spans: ['The technician checks the filter and replaces it if it is dirty. This is also the one part of the whole job you can and should handle yourself between visits — a clean filter protects the blower and keeps airflow up. If you are not sure how often to swap it, see our guide on ', { link: 'how often to change your furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, '.'] },
@@ -1558,7 +1584,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Furnace Interior and Exterior' },
       { kind: 'p', spans: ['Dust and debris get wiped from the burners, cabinet, and surrounding area. It sounds minor, but built-up debris around the burners affects how cleanly the furnace lights and burns.'] },
 
-      { kind: 'h2', text: 'Testing the System' },
+      { kind: 'h2', text: 'Testing the Furnace and Safety Controls' },
       { kind: 'p', spans: ['With everything inspected and cleaned, the technician runs the furnace through a full heating cycle to confirm it performs the way it should — and, more importantly, that it is safe.'] },
       { kind: 'h3', text: 'Carbon Monoxide Check' },
       { kind: 'p', spans: ['The tech tests for carbon monoxide leaks around the furnace and venting. Carbon monoxide is colorless and odorless, so this test is one of the biggest reasons a professional tune-up is worth it. Pair it with working CO detectors in your home, and read the ', { link: 'CPSC guidance on carbon monoxide', href: 'https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center' }, ' if you want to understand the risk.'] },
@@ -1567,10 +1593,10 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Safety Controls' },
       { kind: 'p', spans: ['Finally, the tech tests the safety switches and limit controls that shut the furnace down if something goes wrong. These are the parts you never think about until they save you, and a tune-up confirms they still work. For more on keeping a furnace running safely, see our ', { link: '5 preventive measures for furnace safety', href: '/5-preventive-measures-for-furnace-safety/' }, '.'] },
 
-      { kind: 'h2', text: 'Is a Tune-Up Worth It?' },
+      { kind: 'h2', text: 'Is a Furnace Tune-Up Worth It in Cincinnati?' },
       { kind: 'p', spans: ['For most homes, yes — a yearly tune-up catches worn parts before they fail, keeps the system running efficiently, and protects the warranty many manufacturers only honor with documented annual service. It also stretches how long the furnace lasts; see ', { link: 'how long furnaces last', href: '/how-long-do-furnaces-last/' }, ' for what to expect. The honest exception: if your furnace is brand new and still under a service plan, or you already had it serviced this season, you can skip a second visit. Otherwise, once a year in the fall is the right rhythm.'] },
 
-      { kind: 'h2', text: 'Book Furnace Maintenance With Degree of Comfort' },
+      { kind: 'h2', text: 'Furnace Maintenance in Cincinnati With Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ' the thorough way — inspection, cleaning, and a full safety test — across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee. If the visit turns up something that needs fixing, we handle ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ' too, and we tell you straight when a repair beats a replacement.'] },
       { kind: 'p', spans: ['Ready to get ahead of winter? Call ', { strong: '(513) 586-5107' }, ', ask about a furnace tune-up, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -1587,10 +1613,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'what-is-zoned-air-conditioning',
-    title: 'What Is Zoned Air Conditioning?',
+    title: 'What Is Zoned Air Conditioning? A Guide for Cincinnati Homes',
+    seoTitle: 'Zoned Air Conditioning in Cincinnati',
     category: 'Cooling',
     excerpt:
-      'Zoned air conditioning lets you set different temperatures in different parts of your home instead of cooling every room the same. It uses multiple thermostats and dampers to send cool air only where it’s needed.',
+      'Zoned air conditioning lets Cincinnati homes cool different rooms to different temperatures, with thermostats and dampers sending air where it’s needed.',
     date: '2025-08-20',
     dateModified: '2025-08-20',
     readMinutes: 7,
@@ -1612,7 +1639,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A standard air conditioner runs off a single central thermostat. That thermostat controls when the system turns on and what temperature it aims for. The system cycles refrigerant through the evaporator coil, which pulls heat out of the air, and the cooled air gets pushed through your ducts to the whole house at once.'] },
       { kind: 'p', spans: ['A zoned system splits that up. It uses ', { strong: 'one thermostat for each zone' }, ' and a series of dampers inside the ductwork. Dampers are motorized flaps that open and close to divert airflow. When one zone calls for cooling and another doesn’t, the dampers route the cool air to the zone that needs it and hold it back from the zone that’s already comfortable — without running the whole house.'] },
       { kind: 'p', spans: ['This is why zoning tends to fix ', { link: 'uneven cooling', href: '/common-causes-of-uneven-cooling-in-your-home/' }, ' better than any thermostat setting alone. You’re not fighting one temperature reading for the entire home.'] },
-      { kind: 'h2', text: 'When Is Zoned Air Conditioning Appropriate?' },
+      { kind: 'h2', text: 'When Zoned Air Conditioning Makes Sense in Cincinnati Homes' },
       { kind: 'p', spans: ['Zoning earns its keep in larger homes and in houses with rooms that never behave. Think finished attics that bake in July, sunrooms with a wall of glass, or a second floor that stays warm no matter what you set downstairs. It concentrates cooling on the areas that need it most, so you can keep a hot bedroom comfortable without overcooling rooms nobody is using.'] },
       { kind: 'p', spans: ['Multi-level homes are the classic case. Heat rises, so the upstairs and downstairs almost always want different settings. Zoning lets each floor hold its own temperature instead of averaging the two into something nobody likes. If you’re still deciding what that comfortable number is, our guide on ', { link: 'what temperature to set your AC in summer', href: '/what-temperature-should-i-set-my-air-conditioner-to-in-the-summer/' }, ' is a good starting point.'] },
       { kind: 'h2', text: 'Do I Need Ductwork for Zone Cooling?' },
@@ -1622,13 +1649,13 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Day to day, it’s simple. Most ducted zoned systems run off a single control panel that manages every zone, and some models support ', { strong: 'up to five unique zones' }, '. Here’s the short version:'] },
       { kind: 'p', spans: ['During installation, you decide how many zones you want. From the control panel, you set the target temperature for each one. After that, the system handles the adjustments on its own — opening and closing dampers as zones call for cooling. Your only real job is changing a setting when your comfort changes, or giving a technician access at service time.'] },
       { kind: 'p', spans: ['Pairing zones with ', { link: 'smart thermostats', href: '/how-smart-thermostats-save-money-and-improve-comfort/' }, ' takes it further. You can schedule zones around when rooms are actually in use, and adjust from your phone instead of walking to a panel.'] },
-      { kind: 'h2', text: 'Are There Any Drawbacks to Zone Cooling?' },
+      { kind: 'h2', text: 'Drawbacks of Zone Cooling in Cincinnati Homes' },
       { kind: 'p', spans: ['Two, and it’s worth being straight about them.'] },
-      { kind: 'h3', text: 'Cost' },
+      { kind: 'h3', text: 'Zoning System Cost' },
       { kind: 'p', spans: ['Zoning adds equipment — dampers, extra thermostats, a control panel, and sometimes ductwork changes or ductless units. That means a higher upfront cost than a standard single-zone install, whether you’re retrofitting your current system or starting fresh. The tradeoff is lower energy waste over time, since you stop cooling rooms nobody’s in.'] },
-      { kind: 'h3', text: 'Repairs' },
+      { kind: 'h3', text: 'Zoning System Repairs' },
       { kind: 'p', spans: ['More parts means more things that can eventually need service. The more components you add to a system, the more components that might break, which can nudge maintenance and repair costs up over the years. Honestly, if your home is a single story with even temperatures room to room, a standard system may serve you fine and cost less — zoning solves a comfort problem, and if you don’t have that problem, you don’t need it.'] },
-      { kind: 'h2', text: 'Talk Zoning Over With Degree of Comfort' },
+      { kind: 'h2', text: 'Zoned Air Conditioning Installation in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort designs and installs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' and zoned cooling systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Wondering whether zoning makes sense for your home? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ', and we’ll look at your layout and tell you honestly what will and won’t help.'] },
     ],
@@ -1645,10 +1672,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'what-you-should-know-about-boilers',
-    title: 'What You Should Know About Boilers',
+    title: 'Boilers in Cincinnati Homes: What You Should Know',
+    seoTitle: 'Boilers in Cincinnati Homes: What to Know',
     category: 'Heating',
     excerpt:
-      'A boiler heats water and moves it through radiators or in-floor pipes to warm your home — no blown air, no ducts. Here’s how they work, where they beat a furnace, and what keeps one running 15 to 25 years.',
+      'A boiler heats water and moves it through radiators or floor pipes, with no ducts. How boilers work in Cincinnati homes and where they beat a furnace.',
     date: '2026-02-05',
     dateModified: '2026-02-05',
     readMinutes: 7,
@@ -1666,21 +1694,21 @@ export const posts: Post[] = [
         ],
       },
       { kind: 'p', spans: ['A boiler heats water and pumps it through pipes to radiators, baseboards, or tubing under your floors. As the hot water passes through, it gives off heat and warms the room, then loops back to be reheated. That’s the whole idea. It’s a different approach from a furnace, which heats air and blows it through ducts. Here’s what that difference means for your comfort, your bills, and your maintenance schedule.'] },
-      { kind: 'h2', text: 'How a Boiler Actually Works' },
+      { kind: 'h2', text: 'How a Boiler Heats a Cincinnati Home' },
       { kind: 'p', spans: ['A burner — usually gas, sometimes oil or electric — heats water inside a sealed vessel to roughly ', { strong: '140°F' }, '. A small pump called a circulator pushes that hot water through a closed loop of pipes out to your radiators, baseboard fins, or radiant floor. The heat radiates into the room, the now-cooler water returns to the boiler, and the cycle repeats.'] },
       { kind: 'p', spans: ['Despite the name, the water usually doesn’t boil. At 140°F it’s well below boiling, which is exactly what you want — hot enough to heat the house, cool enough to run safely for years. The system also depends on steady water pressure. Most boilers run on a closed loop with a pressure gauge, and if that pressure drops too low, the water won’t circulate properly and rooms go cold.'] },
       { kind: 'h2', text: 'Boiler vs. Furnace: What’s the Difference?' },
       { kind: 'p', spans: ['The core difference is water versus air. A boiler delivers heat through hot water, so there’s no forced air moving through your rooms. That means less circulating dust, quieter operation, and none of the dry-air problem forced-air systems create — you generally don’t need a separate humidifier the way you might with a furnace. Boilers also make it easy to heat room by room, so you’re not paying to warm space nobody’s using.'] },
       { kind: 'p', spans: ['Furnaces have their own strengths. They warm a house faster from cold, and the same blower that moves warm air in winter moves cool air from your air conditioner in summer. If you’re weighing the two, it helps to know how each holds up over time — see ', { link: 'how long furnaces last', href: '/how-long-do-furnaces-last/' }, ' and ', { link: 'what a new furnace costs', href: '/how-much-does-a-new-furnace-cost/' }, ' before you decide.'] },
-      { kind: 'h2', text: 'The Pros and Cons of a Boiler' },
+      { kind: 'h2', text: 'The Pros and Cons of a Boiler in Cincinnati' },
       { kind: 'h3', text: 'Where Boilers Shine' },
       { kind: 'p', spans: ['Comfort is the big one. Radiant and baseboard heat feels even and gentle, without the drafts and temperature swings you get from air cycling on and off. Efficiency is strong too — a high-efficiency boiler runs around ', { strong: '90%' }, ', not far behind a top furnace at ', { strong: '95%' }, '. Boilers are quiet, they don’t blow dust around, they zone well, and because a good one can last ', { strong: '15 to 25 years' }, ', a reliable system can add value when you sell.'] },
       { kind: 'h3', text: 'Where They Fall Short' },
       { kind: 'p', spans: ['Boilers cost more to install than a comparable furnace, and they warm a cold house more slowly. The bigger catch: a boiler doesn’t use ducts, so it gives your home no built-in path for central air conditioning. If cooling matters to you, you’ll likely pair a boiler with ductless mini-splits or a separate system. And straight talk — if you already have a furnace and ductwork and just want to fix summer heat, ripping it out for a boiler isn’t the answer. The reverse is true too: a boiler that’s simply low on pressure or has a stuck valve is usually a repair, not a reason to replace the whole system.'] },
-      { kind: 'h2', text: 'Keeping a Boiler Healthy' },
+      { kind: 'h2', text: 'Boiler Maintenance That Keeps It Running' },
       { kind: 'p', spans: ['Boilers reward regular care. Plan on one professional service a year — it typically takes ', { strong: '60 to 90 minutes' }, '. During that visit a technician checks the water pressure, looks for leaks and corrosion, tests the safety controls, inspects the expansion tank and circulator pump, and bleeds trapped air out of the radiators so they heat fully. Skip it year after year and you slowly lose efficiency and raise the odds of a failure on the coldest night of the year.'] },
       { kind: 'p', spans: ['Not everything needs a pro. Bleeding a radiator that stays cold at the top is a simple job most homeowners can do with a small key and a few minutes. But anything involving the burner, the pressure system, or a suspected leak should go to a licensed technician. If your system is due, our ', { link: 'heating team', href: '/services/heating/' }, ' can service, repair, or replace it.'] },
-      { kind: 'h2', text: 'Get Straight Answers From Degree of Comfort' },
+      { kind: 'h2', text: 'Boiler Service in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort installs, services, and repairs boilers across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — no surprises when the invoice shows up.'] },
       { kind: 'p', spans: ['Wondering whether your boiler has years left or it’s time to plan a replacement? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we’ll take a look.'] },
     ],
@@ -1694,10 +1722,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'why-does-my-ac-keep-turning-off',
-    title: 'Why Does My AC Keep Turning Off? (Short Cycling Explained)',
+    title: 'Why Does My AC Keep Turning Off? Short Cycling in Cincinnati Homes',
+    seoTitle: 'Why Your AC Keeps Turning Off in Cincinnati',
     category: 'Cooling',
     excerpt:
-      'If your air conditioner turns on and off every few minutes, it’s short cycling — usually from a dirty filter, low refrigerant, a thermostat problem, or a system that’s too big for your home. Here’s what causes it and how to fix it.',
+      'If your AC keeps turning off every few minutes, it is short cycling, often from a dirty filter, low refrigerant or a bad thermostat. Fixes in Cincinnati.',
     date: '2026-06-05',
     dateModified: '2026-06-05',
     readMinutes: 8,
@@ -1716,7 +1745,7 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['Your air conditioner is short cycling. That’s the term for a system that turns on, runs for only a few minutes, shuts off, and then kicks back on again a short time later — over and over, without ever completing a full cooling cycle. A healthy AC runs in longer, steadier stretches. When it stops and starts constantly, something is cutting the cycle short, and it’s usually one of a handful of causes.'] },
       { kind: 'p', spans: ['Some of those causes you can check yourself in five minutes. Others need a technician and a set of gauges. Here’s how to tell them apart.'] },
-      { kind: 'h2', text: 'Common Causes of Short Cycling' },
+      { kind: 'h2', text: 'Common Causes of AC Short Cycling in Cincinnati Homes' },
       { kind: 'p', spans: ['Most short cycling traces back to airflow, refrigerant, sizing, or a dirty filter. These four cover the majority of the calls we run.'] },
       { kind: 'h3', text: 'A Dirty or Frozen Evaporator Coil' },
       { kind: 'p', spans: ['The evaporator coil is the part that pulls heat out of your indoor air so the blower can send cool air back around the house. When the coil gets coated in dust and grime, the system has to work harder, and condensation on the coil can freeze into a layer of ice. A frozen or overworked coil makes the AC overheat and shut itself off before it finishes cooling. If you spot ice on the indoor unit or the copper lines, shut the system off and let it thaw before you call anyone.'] },
@@ -1726,7 +1755,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A unit that’s too big for your home cools the space so fast that it hits the target temperature and shuts off almost immediately — then the temperature creeps back up and it fires again. It feels efficient, but it’s the opposite. The system never runs long enough to pull humidity out of the air or cool evenly, and the constant stop-start wears out parts. Oversizing usually comes from a system that was sized by rule of thumb instead of a real load calculation. If short cycling started the day a new unit went in, sizing is a prime suspect.'] },
       { kind: 'h3', text: 'A Clogged Air Filter' },
       { kind: 'p', spans: ['An old, clogged filter chokes off the air moving through your system. Starved of airflow, the evaporator coil can freeze, which trips the same overheating shutdown as a dirty coil. This is the one thing on the list worth checking before you call anybody. Pull the filter and hold it up to the light — if you can’t see through it, replace it. A fresh filter costs a few dollars and fixes a surprising number of short cycling complaints.'] },
-      { kind: 'h2', text: 'Additional Reasons for Short Cycling' },
+      { kind: 'h2', text: 'Other Reasons an AC Short Cycles' },
       { kind: 'p', spans: ['If the filter is clean and the coil isn’t iced up, the problem is usually electrical or drainage-related.'] },
       { kind: 'h3', text: 'Electrical and Thermostat Problems' },
       { kind: 'p', spans: ['Loose or corroded electrical connections can’t reliably pass signals between the thermostat, the control board, and the rest of the system. When that communication drops, the AC shuts off unexpectedly. The thermostat itself is another common culprit — bad wiring, a dead battery, or a thermostat mounted in a hot spot like direct sun or near a supply vent will read the wrong temperature and cut cycles short. See our guide on ', { link: 'when your AC won’t turn on at all', href: '/air-conditioner-not-turning-on-troubleshooting-tips/' }, ' for the electrical basics worth ruling out first.'] },
@@ -1734,15 +1763,15 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Your AC produces condensation, which collects in a drain pan and runs out through a drain line. Many systems have a safety switch that shuts the unit off when that line clogs and the pan fills, to keep water from overflowing onto your floor or ceiling. If the drain backs up, the switch can trip repeatedly, which shows up as short cycling.'] },
       { kind: 'h3', text: 'A Faulty Run Capacitor' },
       { kind: 'p', spans: ['The run capacitor gives the motors the steady jolt of power they need to keep running. When it fails, the system gets power in irregular bursts, so it kicks on and off at random. A failing capacitor is a common, relatively inexpensive fix — but it takes a technician to test and replace safely.'] },
-      { kind: 'h2', text: 'Why Short Cycling Is Worth Fixing Fast' },
+      { kind: 'h2', text: 'Why AC Short Cycling Is Worth Fixing Fast' },
       { kind: 'p', spans: ['Short cycling isn’t just annoying. It costs you three ways.'] },
       { kind: 'p', spans: ['First, humidity. An oversized or short-cycling system never runs long enough to wring moisture out of the air, so your home feels muggy and sticky even when the thermostat says it’s cool — the same problem behind ', { link: 'uneven cooling from room to room', href: '/common-causes-of-uneven-cooling-in-your-home/' }, '. That damp air also invites mold.'] },
       { kind: 'p', spans: ['Second, energy. An AC draws the most power in the moment it starts up. A system that starts every few minutes burns far more electricity than one that runs in long, steady cycles, so your bill climbs while your comfort drops.'] },
       { kind: 'p', spans: ['Third, wear. All that stopping and starting is brutal on the compressor, the most expensive part in the whole system. With regular maintenance you can typically expect 10 to 15 years out of an air conditioner, sometimes 20. Left alone, short cycling can cut that short and turn into a costly emergency repair. If your unit is also ', { link: 'blowing warm air', href: '/why-is-my-air-conditioner-blowing-warm-air/' }, ', that’s another sign the system needs attention now, not later.'] },
-      { kind: 'h2', text: 'How to Prevent and Fix Short Cycling' },
+      { kind: 'h2', text: 'How to Prevent and Fix AC Short Cycling in Cincinnati' },
       { kind: 'p', spans: ['Two things prevent most short cycling: a properly sized system and regular maintenance. Sizing has to account for your home’s square footage, insulation, layout, how many people live there, and the local climate — which is why it takes a real load calculation, not a guess. Once the system is in, a yearly tune-up keeps the coil clean, the refrigerant charged, and the small problems from turning into big ones.'] },
       { kind: 'p', spans: ['Here’s the honest version: if the fix is a new filter or a thawed coil, handle it yourself and save the service call. But if you’ve swapped the filter and the AC is still cycling every few minutes, stop guessing. Refrigerant, capacitors, and electrical faults need a licensed technician and the right tools, and running a struggling system only adds wear. That’s the point to get a professional on it.'] },
-      { kind: 'h2', text: 'Get Your AC Diagnosed by Degree of Comfort' },
+      { kind: 'h2', text: 'AC Repair for Short Cycling in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort diagnoses and repairs short cycling across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We find the actual cause — filter, coil, refrigerant, thermostat, or sizing — and fix it right the first time. We’re family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['If your AC keeps turning off, call ', { strong: '(513) 586-5107' }, ', learn more about our ', { link: 'AC repair', href: '/services/ac-repair/' }, ' service, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we’ll get your home comfortable again.'] },
     ],
@@ -1759,10 +1788,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'why-is-my-air-conditioner-icing-over',
-    title: 'Why Is My Air Conditioner Icing Over?',
+    title: 'Why Is My Air Conditioner Icing Over in Cincinnati?',
+    seoTitle: 'Air Conditioner Icing Over in Cincinnati',
     category: 'Cooling',
     excerpt:
-      'An air conditioner ices over for one of two reasons: something is choking the airflow across the coil, or the refrigerant charge is low. Here is how to tell them apart and stop the freeze-thaw cycle.',
+      'Why your air conditioner is icing over in Cincinnati: blocked airflow across the coil or a low refrigerant charge. How to tell them apart and stop it.',
     date: '2026-06-12',
     dateModified: '2026-06-12',
     readMinutes: 7,
@@ -1780,7 +1810,7 @@ export const posts: Post[] = [
         ],
       },
       { kind: 'p', spans: ['A block of ice on an air conditioner looks like a cold-weather problem, but it is the opposite. Your AC ices over because the coil that is supposed to be cool has dropped below freezing, and the moisture in the air turns to frost on it. Two things push it that far: ', { strong: 'poor airflow' }, ' or ', { strong: 'low refrigerant' }, '. Below is how each one causes ice, what you can check yourself, and where a homeowner should stop and call a technician.'] },
-      { kind: 'h2', text: 'Common Causes of a Frozen Air Conditioner' },
+      { kind: 'h2', text: 'Common Causes of a Frozen Air Conditioner in Cincinnati' },
       { kind: 'p', spans: ['The evaporator coil inside your system works on a balance: the right amount of warm return air moving across it, matched to the right amount of refrigerant inside it. Upset either side of that balance and the coil gets too cold and freezes. Almost every icing call we run traces back to one of the two causes below.'] },
       { kind: 'h3', text: 'Blocked or Inadequate Airflow' },
       { kind: 'p', spans: ['The coil needs a steady stream of warm indoor air passing over it to work. That air is what keeps the coil surface above freezing while the refrigerant absorbs heat. Starve it of airflow and the coil temperature keeps falling until condensation on it turns to ice.'] },
@@ -1788,7 +1818,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Low or Leaky Refrigerant' },
       { kind: 'p', spans: ['This one feels backward — less refrigerant, more ice — but the physics hold up. When the charge is low, the pressure inside the coil drops, and low pressure lets the refrigerant get much colder than it should. The coil overshoots past freezing and frosts over even with decent airflow.'] },
       { kind: 'p', spans: ['A sealed AC does not consume refrigerant, so a low charge means there is a leak somewhere in the system. That is why “just adding more” is a temporary patch at best. The leak has to be found and repaired, then the system recharged to spec — work that needs gauges, leak detection, and EPA certification to handle the refrigerant legally.'] },
-      { kind: 'h2', text: 'Stopping the Freeze-Thaw Cycle' },
+      { kind: 'h2', text: 'How to Stop an AC Freeze-Thaw Cycle' },
       { kind: 'p', spans: ['First thing, shut the system off at the thermostat. Switch it to OFF, or set it to FAN ONLY, and let the ice melt fully before you do anything else. Running the compressor while the coil is iced over is how a nuisance freeze turns into a four-figure repair. Give it a few hours; put towels down, because melting ice means water.'] },
       { kind: 'h3', text: 'Improving Airflow' },
       { kind: 'p', spans: ['While it thaws, handle the airflow side. Pull the air filter and hold it to a light — if you cannot see through it, replace it. Change a standard filter ', { strong: 'at least once a season' }, ', more often with pets or heavy use. Then walk the house and open any supply and return vents that got closed off or blocked by furniture. This part is genuinely DIY, and it clears the most common cause without spending a dime on a service call. For the fuller rundown, see ', { link: 'how often to change your filter', href: '/how-often-should-i-change-my-furnace-filter/' }, '.'] },
@@ -1798,7 +1828,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'Does a Frozen Coil Need Professional Service?' },
       { kind: 'p', spans: ['If a clean filter and open vents fix it, no — that is a homeowner job and we would rather you keep the money. But a coil that keeps freezing, or one that freezes with a clean filter, needs a real diagnosis. Coil cleaning, leak detection, and refrigerant handling all take training and certification, and guessing at them tends to turn a small problem into a bigger one.'] },
       { kind: 'p', spans: ['The better fix is not letting it freeze in the first place. A yearly tune-up catches a weak charge, a dirty coil, or a tired blower before they ice the system up on the first 90-degree day. Whether that maintenance is worth it is a fair question — we make the honest case in ', { link: 'are AC tune-ups worth it', href: '/do-you-really-need-ac-maintenance-are-ac-tune-ups-worth-it/' }, '.'] },
-      { kind: 'h2', text: 'Get Your AC Back to Cooling With Degree of Comfort' },
+      { kind: 'h2', text: 'AC Repair in Cincinnati From Degree of Comfort' },
       { kind: 'p', spans: ['Degree of Comfort diagnoses and repairs frozen air conditioners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — so you know the cost before we start.'] },
       { kind: 'p', spans: ['Coil iced over again after you thawed it? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC repair', href: '/services/ac-repair/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will find the real cause and fix it.'] },
     ],
@@ -1815,10 +1845,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'why-is-my-air-conditioner-leaking-water',
-    title: 'Why Is My Air Conditioner Leaking Water?',
+    title: 'Why Is My Air Conditioner Leaking Water? Causes in Cincinnati Homes',
+    seoTitle: 'AC Leaking Water in Cincinnati Homes',
     category: 'Cooling',
     excerpt:
-      'Most AC water leaks trace back to a clogged drain line, a dirty filter that froze the coil, or a rusted-out drain pan. Here is how to tell which one you have and when to call for help.',
+      'Most AC water leaks in Cincinnati homes trace to a clogged drain line, a dirty filter that froze the coil, or a rusted drain pan. How to tell which.',
     date: '2026-06-19',
     dateModified: '2026-06-19',
     readMinutes: 8,
@@ -1842,22 +1873,22 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'Frozen Evaporator Coils' },
       { kind: 'p', spans: ['A frozen coil is often the visible symptom of the filter problem above, but not always. Low airflow, low refrigerant, or a dirty coil can all drop the coil below freezing. Condensation freezes into a block of ice, and once the system cycles off, that ice thaws all at once and overwhelms the drain pan.'] },
       { kind: 'p', spans: ['If you see ice on the copper lines or the indoor unit, turn the AC off and let it thaw fully before running it again. If the coil freezes back up after a clean filter and a day of normal use, something deeper is going on — usually airflow or refrigerant — and that needs a professional. A coil that keeps icing is also a warning sign the same way a system that ', { link: 'blows warm air', href: '/why-is-my-air-conditioner-blowing-warm-air/' }, ' is telling you the refrigerant side needs attention.'] },
-      { kind: 'h2', text: 'Blocked Condensate Drain Line' },
+      { kind: 'h2', text: 'Blocked Condensate Drain Line in Cincinnati Homes' },
       { kind: 'p', spans: ['This is the single most common reason an AC leaks water. As your system cools, condensation collects in the drain pan and flows out through a PVC ', { strong: 'condensate drain line' }, '. Over time that line clogs with algae, dust, and gunk. Water has nowhere to go, so it backs up and spills over the pan.'] },
       { kind: 'p', spans: ['Some homeowners clear a minor clog with a wet/dry vac on the outdoor end of the line, and there is no shame in trying that first. But if the water comes right back, or you cannot reach the blockage, a technician will flush the line properly and check that it is pitched correctly to drain. A clogged drain is also a comfort and health issue — standing water and the mold it feeds are one of the ways ', { link: 'your AC can make you sick', href: '/can-your-ac-make-you-sick/' }, '.'] },
       { kind: 'h2', text: 'Corroded Drain Pan' },
       { kind: 'p', spans: ['Under the evaporator coil sits a pan that catches condensation and routes it to the drain line. On older systems, that pan rusts through or cracks. Once it does, water drips straight past it and pools on the floor, even when the drain line is perfectly clear.'] },
       { kind: 'p', spans: ['There is no DIY patch that lasts here — a corroded pan needs replacing. If your system is old enough for the pan to have rusted out, it is worth having a technician look at the overall condition, because corrosion rarely shows up alone.'] },
-      { kind: 'h2', text: 'Condensate Pump Failure' },
+      { kind: 'h2', text: 'Condensate Pump Failure in Cincinnati Homes' },
       { kind: 'p', spans: ['If your air handler lives in a basement or anywhere below the drain line, it relies on a small ', { strong: 'condensate pump' }, ' to push water up and out. When that pump fails — a stuck float, a burned-out motor, a clogged intake — the water it was moving has nowhere to go and overflows.'] },
       { kind: 'p', spans: ['A failed pump usually means a replacement part rather than a whole-system problem, which is one of the less expensive fixes on this list. If your indoor unit is in the basement and you see water around its base, the pump is the first thing to check.'] },
       { kind: 'h2', text: 'Low Refrigerant Levels' },
       { kind: 'p', spans: ['Low refrigerant lowers the pressure in the system, which drops the coil temperature and — you guessed it — freezes it. When the ice melts, you get a leak. But the leak is a symptom; the real issue is that refrigerant does not run out on its own. If it is low, there is a leak in the sealed system somewhere.'] },
       { kind: 'p', spans: ['This is not a DIY fix. Refrigerant is regulated, handling it requires certification, and simply topping it off without finding the leak just delays the problem. A technician will locate the leak, repair it, and recharge the system to the correct level. If the system is old and leaking refrigerant, this is also the moment to weigh repair against replacement honestly.'] },
-      { kind: 'h2', text: 'Is a Leaking Air Conditioner an Emergency?' },
+      { kind: 'h2', text: 'Is a Leaking Air Conditioner an Emergency in Cincinnati?' },
       { kind: 'p', spans: ['Not usually a middle-of-the-night emergency, but not something to ignore either. Water damages drywall, subfloors, and framing, and standing water grows mold. The practical move is to shut the system off, mop up the water, and get it looked at within a day or two rather than letting it drip all week.'] },
       { kind: 'p', spans: ['If the leak is heavy, near electrical panels or wiring, or coming with other symptoms like weak cooling or strange noises, treat it as urgent. When in doubt, turning the AC off protects both your home and the equipment while you wait for ', { link: 'AC repair', href: '/services/ac-repair/' }, '.'] },
-      { kind: 'h2', text: 'Get It Fixed by Degree of Comfort' },
+      { kind: 'h2', text: 'AC Leak Repair in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort diagnoses and repairs AC leaks across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee, so you know the cost before we start.'] },
       { kind: 'p', spans: ['If the water keeps coming back or you would rather not chase it yourself, call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and our team will find the source and fix it right.'] },
     ],
@@ -1874,10 +1905,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'why-is-my-air-conditioner-making-noise',
-    title: 'Why Is My Air Conditioner Making Noise?',
+    title: 'Why Is My Air Conditioner Making Noise? Help for Cincinnati Homes',
+    seoTitle: 'Air Conditioner Making Noise in Cincinnati?',
     category: 'Cooling',
     excerpt:
-      'A noisy air conditioner is usually telling you something specific — the exact sound points to the problem. Here is what screeching, whistling, rattling, clicking, humming, and gurgling each mean, and when to call a pro.',
+      'A noisy air conditioner in Cincinnati is telling you something specific. What screeching, rattling, clicking, humming and gurgling mean, and when to call.',
     date: '2026-06-24',
     dateModified: '2026-06-24',
     readMinutes: 8,
@@ -1895,22 +1927,22 @@ export const posts: Post[] = [
         ],
       },
       { kind: 'p', spans: ['Your air conditioner makes some noise every time it runs, and most of it is fine. The faint click as it starts, the low hum of the motor, the steady rush of air through the ducts — those are the sounds of a healthy system. The noises worth worrying about are the new ones: a screech, a rattle, a gurgle, a bang. Each of those points to a different part, and knowing which is which tells you how urgent the fix is.'] },
-      { kind: 'h2', text: 'Screeching' },
+      { kind: 'h2', text: 'Screeching From the AC' },
       { kind: 'p', spans: ['A high-pitched screech or squeal almost always comes from the belts and bearings inside the unit. Over time they wear down and loosen, and a loose belt slipping against a pulley makes that sharp, unpleasant sound. In some cases the bearings just need fresh grease. Neither is a big repair on its own, but a snapped belt can leave you without cooling on the hottest day of the year, so it is worth handling early.'] },
-      { kind: 'h2', text: 'Whistling' },
+      { kind: 'h2', text: 'Whistling From the AC' },
       { kind: 'p', spans: ['Whistling usually means air is escaping where it should not. Your ductwork has to be sealed tight so conditioned air reaches the rooms you want cooled instead of leaking out through gaps and holes. A loose register cover or a damaged section of duct will whistle as air rushes past. Beyond the noise, leaky ducts waste energy and leave some rooms warmer than others.'] },
-      { kind: 'h2', text: 'Rattling and Thudding' },
+      { kind: 'h2', text: 'Rattling and Thudding From the AC in Cincinnati Homes' },
       { kind: 'p', spans: ['Rattling or thudding often traces back to the outdoor unit. Debris, twigs, and sometimes small animals get trapped inside and knock around against the fan. Loose hardware or a bent fan blade will also rattle. This is one to catch quickly — a bent blade or a piece of debris hitting the wrong component can turn a five-minute cleanout into a full part replacement. If the unit is easy to reach, cutting the power and clearing visible debris is a reasonable DIY step before you call anyone.'] },
-      { kind: 'h2', text: 'Clicking' },
+      { kind: 'h2', text: 'Clicking From the AC' },
       { kind: 'p', spans: ['A faint click as the system turns on and off is completely normal — that is a relay doing its job. Constant clicking is not. Persistent or rapid clicking usually signals a faulty electrical connection or a failing relay, and electrical faults are not something to poke at yourself. If the clicking keeps going after startup, shut the system off and have it looked at. If it also won’t start, our guide on ', { link: 'an AC that won’t turn on', href: '/air-conditioner-not-turning-on-troubleshooting-tips/' }, ' walks through the first things to check.'] },
-      { kind: 'h2', text: 'Squealing and Humming' },
+      { kind: 'h2', text: 'Squealing and Humming From the AC in Cincinnati Homes' },
       { kind: 'p', spans: ['A low, steady hum during operation is normal. A loud hum or a squeal that gets worse over time is the motor telling you it is wearing out. The important thing here is the trend: if a hum grows into a loud drone or a scream, that can point to a struggling compressor, which is the most expensive component in the whole system. Catching a tired motor before it takes the compressor with it is the difference between a moderate repair and a major one.'] },
-      { kind: 'h2', text: 'Popping and Gurgling' },
+      { kind: 'h2', text: 'Popping and Gurgling From the AC' },
       { kind: 'p', spans: ['Popping or gurgling usually comes from the refrigerant or condensate drain lines. If either line is blocked or damaged, you may hear the system pop or gurgle as it runs, and a low refrigerant charge is often behind it. Refrigerant is a closed system — if it is low, it means there is a leak, and topping it off without finding the leak just delays the same problem. This is a call-a-pro situation, since handling refrigerant requires EPA certification.'] },
-      { kind: 'h2', text: 'Scheduling Repairs and Preventing Noise' },
+      { kind: 'h2', text: 'Scheduling AC Repairs and Preventing Noise in Cincinnati' },
       { kind: 'p', spans: ['Before you call, spend a minute paying attention to the noise. When does it happen — at startup, during the run, when it shuts off? How often? Is it coming from the indoor blower or the outdoor unit? Those details help a technician zero in on the cause instead of chasing it. The ', { strong: 'U.S. Department of Energy' }, ' notes that a poorly maintained system runs harder and wears faster, which is exactly how small noises become big ones.'] },
       { kind: 'p', spans: ['Most of these problems trace back to normal wear that regular service catches early. A tune-up tightens belts, cleans coils, checks the electrical connections, and confirms the refrigerant charge — the same things that cause the noises above. If you are weighing whether it is worth it, we broke down ', { link: 'whether AC tune-ups pay off', href: '/do-you-really-need-ac-maintenance-are-ac-tune-ups-worth-it/' }, ', and there are also simple ', { link: 'habits that extend the life of your AC', href: '/how-to-extend-the-life-of-your-ac-unit/' }, ' between visits.'] },
-      { kind: 'h2', text: 'Get a Noisy AC Diagnosed by Degree of Comfort' },
+      { kind: 'h2', text: 'Noisy AC Repair in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort diagnoses and fixes noisy air conditioners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee, so you know the cost before we start and there are no surprises on the bill.'] },
       { kind: 'p', spans: ['If your system is screeching, rattling, or gurgling, call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC repair', href: '/services/ac-repair/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will track the sound down for you.'] },
     ],
@@ -1927,10 +1959,11 @@ export const posts: Post[] = [
   },
 {
     slug: 'why-is-my-furnace-blowing-cold-air',
-    title: 'Why Is My Furnace Blowing Cold Air?',
+    title: 'Why Is My Furnace Blowing Cold Air? Fixes for Cincinnati Homes',
+    seoTitle: 'Furnace Blowing Cold Air in Cincinnati',
     category: 'Heating',
     excerpt:
-      'Most of the time a furnace blows cold air because the thermostat fan is set to ON instead of AUTO, or a clogged filter is choking airflow. Here is how to find the cause and when to call a pro.',
+      'A furnace blowing cold air usually has the thermostat fan set to ON instead of AUTO, or a clogged filter. How to find the cause in a Cincinnati home.',
     date: '2026-01-16',
     dateModified: '2026-01-16',
     readMinutes: 7,
@@ -1948,16 +1981,16 @@ export const posts: Post[] = [
         ],
       },
       { kind: 'p', spans: ['Start with the thermostat. Nine times out of ten, a furnace blowing cold air comes down to the fan being set to ON instead of AUTO, or a filter so clogged the system can barely breathe. Both are things you can check in a couple of minutes before anyone comes out. Below are the causes we see most, roughly in the order worth checking them.'] },
-      { kind: 'h2', text: 'How Does a Furnace Work?' },
+      { kind: 'h2', text: 'How a Furnace Works in Cincinnati Homes' },
       { kind: 'p', spans: ['A furnace heats in a cycle, not a constant blast. When your thermostat calls for heat, the burners (or heating elements) fire first and warm up the heat exchanger. Only once that metal is hot does the blower kick on and push warm air through your ducts. When the room hits the set temperature, the burners shut off, the blower runs a little longer to clear the leftover heat, then everything stops until the next call.'] },
       { kind: 'p', spans: ['Knowing that order matters. If air is coming out of your vents but it feels cool, the question is almost always: is the blower running while nothing is heating it? That points you straight at the causes below.'] },
-      { kind: 'h2', text: 'Start With the Thermostat' },
+      { kind: 'h2', text: 'Start With the Thermostat Fan Setting' },
       { kind: 'p', spans: ['Check the fan setting first. If it is set to ', { strong: 'ON' }, ', the blower runs constantly — even between heating cycles, when the burners are off — so it circulates cool, unheated air. Switch it to ', { strong: 'AUTO' }, ' and the fan only runs when the furnace is actively making heat.'] },
       { kind: 'p', spans: ['While you are there, confirm the system is set to HEAT and the target temperature is a few degrees above the room. If the screen is blank, replace the batteries. It sounds too simple to be the answer, but it is the single most common reason we get called out, and it costs nothing to rule out.'] },
-      { kind: 'h2', text: 'Replace the Air Filter' },
+      { kind: 'h2', text: 'Replace the Furnace Air Filter' },
       { kind: 'p', spans: ['A clogged filter is the next thing to check. When a filter loads up with dust, it restricts airflow across the heat exchanger. The furnace can overheat and trip its high-limit safety switch, shutting the burners down while the blower keeps running — which is exactly how you end up with cold air at the vents.'] },
       { kind: 'p', spans: ['Pull the filter and hold it up to a light. If you cannot see through it, replace it. As a rule, swap a standard filter about ', { strong: 'every 90 days' }, ', more often if you have pets or run the system hard. This one is genuinely DIY — no need to pay anyone for it. For a fuller rundown, see ', { link: 'how often you should change your furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, '.'] },
-      { kind: 'h2', text: 'Inspect Your Air Ducts' },
+      { kind: 'h2', text: 'Inspect the Air Ducts in Your Cincinnati Home' },
       { kind: 'p', spans: ['If the air leaving the furnace is warm but the air reaching your rooms is not, look at the ductwork in between. Cracks, gaps at the joints, or crushed sections in an attic or crawlspace let heated air escape and pull in cold air before it ever reaches you.'] },
       { kind: 'p', spans: ['You can eyeball the accessible runs for obvious separations or damage, but leaks buried in walls and ceilings are hard to find without the right tools. If your heating bill has crept up alongside the cold-air complaint, leaky ducts are a strong suspect worth having ', { link: 'a technician evaluate', href: '/services/heating/' }, '.'] },
       { kind: 'h2', text: 'Check the Pilot Light' },
@@ -1966,9 +1999,9 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'Clean the Flame Sensor' },
       { kind: 'p', spans: ['Newer gas furnaces skip the standing pilot and use a flame sensor instead. This thin metal rod confirms the burners lit; when it gets coated in soot or corrosion, it can no longer detect the flame and shuts the gas off as a safety measure. The furnace tries to start, fails the check, and you feel cool air.'] },
       { kind: 'p', spans: ['A dirty flame sensor is one of the most common no-heat calls in winter, and it is usually a quick clean rather than a replacement — a good example of a repair that beats writing off the furnace. Cleaning it means shutting off power and gas and handling the burner assembly, so most homeowners are better off having it done as part of a tune-up. For the bigger safety picture, review these ', { link: 'preventive measures for furnace safety', href: '/5-preventive-measures-for-furnace-safety/' }, '.'] },
-      { kind: 'h2', text: 'When to Stop Troubleshooting and Call Us' },
+      { kind: 'h2', text: 'When to Stop Troubleshooting and Call a Technician in Cincinnati' },
       { kind: 'p', spans: ['If the fan is on AUTO, the filter is clean, the ducts look fine, and the furnace is still blowing cold, it is time to bring someone in. Persistent cold air can signal a cracked heat exchanger, a failing control board, or a gas-supply problem — none of which are safe to chase on your own. And if the unit is well past its prime, our writeup on ', { link: 'how long furnaces last', href: '/how-long-do-furnaces-last/' }, ' can help you weigh repair against replacement.'] },
-      { kind: 'h2', text: 'Get Your Heat Back With Degree of Comfort' },
+      { kind: 'h2', text: 'Furnace Repair in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort diagnoses and repairs furnaces across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee — so you know the cost before we start.'] },
       { kind: 'p', spans: ['Still getting cold air from the vents? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will get your heat working right.'] },
     ],
@@ -1985,10 +2018,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'should-you-replace-your-ac-and-furnace-at-the-same-time',
-    title: 'Should You Replace Your AC and Furnace at the Same Time?',
+    title: 'Should You Replace Your AC and Furnace at the Same Time in Cincinnati?',
+    seoTitle: 'Replacing AC and Furnace Together in Cincinnati',
     category: 'Cooling',
     excerpt:
-      'If both are near the end of their life, usually yes — you pay for installation once, the matched system runs more efficiently, and you avoid a second disruption. Here is how to decide.',
+      'Replacing your AC and furnace at the same time in Cincinnati usually makes sense when both are near the end: one install, a matched system, one disruption.',
     date: '2026-04-14',
     dateModified: '2026-04-14',
     readMinutes: 8,
@@ -2007,22 +2041,22 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['If both your air conditioner and furnace are near the end of their lives, replacing them together is usually the smarter move — you pay for installation once, the two units are matched to run efficiently as a system, and you avoid going through the whole process again in a year or two. But it is not automatic. Here is how to decide.'] },
 
-      { kind: 'h2', text: 'Should You Replace Both at the Same Time?' },
+      { kind: 'h2', text: 'Should Cincinnati Homeowners Replace Both at Once?' },
       { kind: 'p', spans: ['Your AC and furnace are more connected than they look — they share the same ductwork and blower, so they really operate as one heating and cooling system. When you replace both at once, a single installation cuts the labor cost compared with two separate visits, and you can buy a matched or packaged system where the units are engineered to work together. That balance means better efficiency and lower energy bills than pairing a brand-new unit with an aging one. The one caveat: if either unit is relatively new, it may be more cost-effective to repair or keep it rather than replace everything.'] },
 
-      { kind: 'h2', text: 'How Often Should Each Be Replaced?' },
+      { kind: 'h2', text: 'How Often an AC and Furnace Need Replacing' },
       { kind: 'p', spans: ['The two have different lifespans, which is the whole reason this question comes up. A furnace typically lasts 15 to 20 years, while an air conditioner runs closer to 10 to 15. Because those windows overlap, an aging furnace and an aging AC often reach the end of their useful lives within a few years of each other. As units get old, they use more energy to do the same work, so once both are in that range, replacing them together tends to be cheaper over time than nursing them along separately. For more on timing the heating side, see ', { link: 'how long furnaces last', href: '/how-long-do-furnaces-last/' }, ', and on the cooling side, ', { link: 'whether to replace an old air conditioner', href: '/should-i-replace-my-old-air-conditioner/' }, '.'] },
 
-      { kind: 'h2', text: 'Does Replacing Both Together Save Money?' },
+      { kind: 'h2', text: 'Does Replacing Both Together Save Money in Cincinnati?' },
       { kind: 'p', spans: ['Often, yes. The savings come from a few places: you pay installation costs once instead of twice, and many manufacturers and contractors offer discounts for installing a matched AC and furnace from the same maker. Matched systems also run more efficiently, which lowers your energy bills month after month, and high-efficiency systems may qualify for rebates. The upfront number is larger than replacing a single unit, but ', { link: 'financing', href: '/can-you-finance-an-hvac-system/' }, ' can spread it out, and you can see what a new system runs in our guide on ', { link: 'how much a new air conditioner costs', href: '/how-much-is-a-new-air-conditioner/' }, '.'] },
 
-      { kind: 'h2', text: 'Signs It Is Time to Replace Both' },
+      { kind: 'h2', text: 'Signs It Is Time to Replace Your AC and Furnace' },
       { kind: 'p', spans: ['A few signs point toward a full system replacement rather than another repair: energy bills that keep climbing, frequent breakdowns on one or both units, uneven temperatures around the house, and systems that are 12 to 20 years old. When both are aging and showing these signs at once, replacing them together is usually more cost-effective than repairing them one at a time.'] },
 
-      { kind: 'h2', text: 'When You Might Not Need To' },
+      { kind: 'h2', text: 'When You Might Not Need to Replace Both' },
       { kind: 'p', spans: ['Replacing both is not always the right call, and a good contractor will tell you so. If your furnace is newer and in good shape, you can replace just the air conditioner — as long as the two are compatible, so the new AC is not held back by an incompatible blower or coil. The reverse is true too. The honest answer depends on the age and condition of each unit, which is exactly what a professional evaluation sorts out before you spend a dollar.'] },
 
-      { kind: 'h2', text: 'Get an Honest Recommendation From Degree of Comfort' },
+      { kind: 'h2', text: 'AC and Furnace Replacement in Cincinnati' },
       { kind: 'p', spans: ['The right answer is different for every home, and it comes down to the real age and condition of your two units — not a rule of thumb. Degree of Comfort evaluates both systems and gives you a straight recommendation, then handles ', { link: 'AC installation', href: '/services/ac-installation-replacement/' }, ' and ', { link: 'furnace installation', href: '/services/furnace-installation-replacement/' }, ' with upfront, flat-rate pricing. We serve Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Wondering whether to replace one or both? Call ', { strong: '(513) 586-5107' }, ', ask for a system evaluation, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -2039,10 +2073,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'how-unpredictable-weather-can-cause-plumbing-issues',
-    title: 'How Unpredictable Weather Can Cause Plumbing Issues',
+    title: 'How Unpredictable Cincinnati Weather Can Cause Plumbing Issues',
+    seoTitle: 'Cincinnati Weather and Plumbing Problems',
     category: 'Plumbing',
     excerpt:
-      'Temperature swings and heavy rain both put real stress on your plumbing — from pipes that expand and freeze to sewage backups and overloaded sump pumps. Here is what to watch for and how to prevent it.',
+      'How unpredictable Cincinnati weather causes plumbing issues, from pipes that freeze to sewage backups and overloaded sump pumps, and how to prevent them.',
     date: '2026-02-24',
     dateModified: '2026-06-09',
     readMinutes: 7,
@@ -2061,7 +2096,7 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['Your plumbing is built to handle normal conditions, but the weather in the Tri-State rarely stays normal. Big temperature swings and heavy rain both put real stress on your pipes, drains, and sump pump — and the damage often shows up at the worst possible time. Here is how the weather causes plumbing trouble and what you can do about it.'] },
 
-      { kind: 'h2', text: 'How Extreme Temperatures Affect Your Pipes' },
+      { kind: 'h2', text: 'How Cincinnati Temperature Swings Affect Your Pipes' },
       { kind: 'p', spans: ['Temperature is hard on plumbing at both ends of the thermometer. In extreme heat, metal pipes expand, and over time that repeated expansion and contraction can lead to cracks and slow leaks. In the depths of winter, the opposite happens: water inside an unprotected pipe freezes, expands, and can burst the pipe entirely — one of the most damaging plumbing failures there is. Insulating exposed pipes and keeping the heat on during cold snaps goes a long way, and our guide on ', { link: 'making sure your pipes do not freeze', href: '/5-tips-to-make-sure-your-pipes-dont-freeze/' }, ' covers the rest.'] },
 
       { kind: 'h2', text: 'How Heavy Rain Affects Your Plumbing' },
@@ -2075,20 +2110,21 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'A Saturated Septic Drainfield' },
       { kind: 'p', spans: ['If your home is on a septic system, a flash flood can oversaturate the drainfield, leaving the ground too waterlogged to absorb what the system releases. That can stop the septic system from working properly and even cause the tank to overflow. During heavy rain, it helps to minimize water use — hold off on the garbage disposal, dishwasher, and laundry until the ground drains.'] },
 
-      { kind: 'h2', text: 'Weather-Proofing Your Plumbing' },
+      { kind: 'h2', text: 'How to Weather-Proof Your Plumbing' },
       { kind: 'p', spans: ['Most weather-driven plumbing damage is preventable. Insulate exposed pipes for winter, keep gutters and downspouts directing water away from the foundation, test your sump pump before storm season and add a battery backup, and have aging or vulnerable lines inspected before they fail. The steps in our guide on ', { link: 'keeping your basement dry', href: '/4-tips-for-keeping-your-basement-dry-this-spring/' }, ' apply here too.'] },
 
-      { kind: 'h2', text: 'Weather Damage? Call Degree of Comfort' },
+      { kind: 'h2', text: 'Plumbing Repair for Weather Damage in Cincinnati' },
       { kind: 'p', spans: ['When a storm or a hard freeze catches your plumbing off guard, fast repair keeps a bad day from becoming an expensive one. Degree of Comfort handles ', { link: 'plumbing', href: '/services/plumbing/' }, ' and ', { link: 'emergency plumbing', href: '/services/emergency-plumbing/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Dealing with weather-related plumbing trouble? Call ', { strong: '(513) 586-5107' }, ', ask about a plumbing inspection, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
   },
   {
     slug: 'degree-of-comfort-university-training-program',
-    title: 'Degree of Comfort University: Opportunities for Aspiring Technicians',
+    title: 'Degree of Comfort University: Opportunities for Aspiring Technicians in Cincinnati',
+    seoTitle: 'Degree of Comfort University: Cincinnati Apprenticeship',
     category: 'Home Tips',
     excerpt:
-      'Degree of Comfort University is a paid apprenticeship that trains the next generation of HVAC, plumbing, and electrical pros — no experience needed. Here is how it works, and why it means better service for homeowners.',
+      'Degree of Comfort University is a paid apprenticeship in Cincinnati that trains HVAC, plumbing and electrical pros, with no experience needed.',
     date: '2025-08-04',
     dateModified: '2025-08-04',
     readMinutes: 6,
@@ -2110,19 +2146,19 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'What Is Degree of Comfort University?' },
       { kind: 'p', spans: ['Degree of Comfort University is a training and apprenticeship program built to develop the next generation of home-service professionals. It combines classroom learning with hands-on field experience, mentorship from experienced techs, and customer-service training, so graduates leave ready to do real work in real homes. You can learn more or apply on our ', { link: 'Degree of Comfort University', href: '/university' }, ' page.'] },
 
-      { kind: 'h2', text: 'A Paid Apprenticeship — No Experience Needed' },
+      { kind: 'h2', text: 'A Paid Trade Apprenticeship in Cincinnati, No Experience Needed' },
       { kind: 'p', spans: ['This is the part that surprises people: you get paid to learn. From day one you are a Degree of Comfort employee, working Monday through Friday, with learning as your primary job. The program runs about 3 to 4 months, and no previous experience is required — it is open to high school graduates, career changers, and anyone ready to build a skilled trade without taking on significant college debt.'] },
 
-      { kind: 'h2', text: 'What You Need to Apply' },
+      { kind: 'h2', text: 'What You Need to Apply for the Apprenticeship' },
       { kind: 'p', spans: ['The requirements are straightforward. You need to be 18 or older, hold a valid driver’s license and pass a motor vehicle background check, and pass a general background check. Beyond that, what matters most is attitude: a genuine want to learn and grow, a desire to provide exceptional customer service, and pride in wearing the orange. You can apply online or at one of our open recruitment nights.'] },
 
-      { kind: 'h2', text: 'A Real Job at the End' },
+      { kind: 'h2', text: 'A Technician Job at the End of the Program' },
       { kind: 'p', spans: ['The whole point of the program is to hire the right people — those with the right attitude and a willingness to learn — and keep them. Learn from the best and become one of the best. When you complete the program, you get the keys to your own Degree of Comfort vehicle and a full-time career in a trade that is always in demand. For openings beyond the apprenticeship, see our ', { link: 'careers', href: '/careers' }, ' page.'] },
 
-      { kind: 'h2', text: 'How It Helps Homeowners, Too' },
+      { kind: 'h2', text: 'How the Program Helps Cincinnati Homeowners' },
       { kind: 'p', spans: ['A training program is not only good for aspiring techs — it is good for the people they serve. Technicians who are trained thoroughly and continue learning diagnose problems accurately, reduce misdiagnosis, and offer better long-term solutions. They are also more attuned to safety, spotting electrical hazards, gas leaks, and airflow problems before they become dangerous. When you hire a company that invests in training, you get consistent, professional ', { link: 'HVAC service', href: '/services/heating/' }, ' every visit.'] },
 
-      { kind: 'h2', text: 'Build a Career or Book a Service With Degree of Comfort' },
+      { kind: 'h2', text: 'Build a Trade Career in Cincinnati or Book a Service' },
       { kind: 'p', spans: ['Whether you want to start a career in the trades or just want your home handled by people who are trained to do it right, Degree of Comfort is here. We are family-owned, licensed and insured, serving Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Interested in the program? Visit ', { link: 'Degree of Comfort University', href: '/university' }, '. Need service instead? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -2139,10 +2175,11 @@ export const posts: Post[] = [
   },
   {
     slug: '5-ways-to-lower-humidity-in-your-house',
-    title: '5 Ways to Lower Humidity in Your House',
+    title: '5 Ways to Lower Humidity in Your Cincinnati Home',
+    seoTitle: '5 Ways to Lower Humidity in Cincinnati Homes',
     category: 'Home Tips',
     excerpt:
-      'Muggy, sticky air indoors invites mold and misery. The ideal range is 30 to 50 percent — here are five practical ways to get there, from better ventilation to a whole-house dehumidifier.',
+      'How to lower humidity in your Cincinnati home: five ways to reach the 30 to 50 percent range, from better ventilation to a whole-house dehumidifier.',
     date: '2026-05-08',
     dateModified: '2026-06-09',
     readMinutes: 7,
@@ -2164,22 +2201,22 @@ export const posts: Post[] = [
       { kind: 'h2', text: '1. Open a Window' },
       { kind: 'p', spans: ['The simplest step first. Opening windows on opposite sides of the house creates cross ventilation that lets damp indoor air out and drier air in. It is especially worth doing during the activities that dump the most moisture into your air — cooking, showering, and running laundry. Just skip it on days when the outdoor air is more humid than the air inside.'] },
 
-      { kind: 'h2', text: '2. Install a Vapor Barrier' },
+      { kind: 'h2', text: '2. Install a Vapor Barrier in Your Cincinnati Crawlspace or Basement' },
       { kind: 'p', spans: ['A lot of household moisture seeps in through walls, floors, and crawlspaces from the damp ground and outdoor air. A vapor barrier — usually a plastic sheeting that creates a moisture-blocking seal — stops that moisture before it gets in. It is especially effective in crawlspaces and basements, the parts of the house most prone to dampness.'] },
 
       { kind: 'h2', text: '3. Clean Your Gutters' },
       { kind: 'p', spans: ['Humidity is not only an indoor problem. When gutters clog, rainwater overflows and pools against the foundation, then seeps into the basement or crawlspace and raises the moisture level inside. Keeping gutters clean and directing downspouts away from the house is a cheap, overlooked way to keep humidity down — the same logic behind our guide on ', { link: 'keeping your basement dry', href: '/4-tips-for-keeping-your-basement-dry-this-spring/' }, '.'] },
 
-      { kind: 'h2', text: '4. Use Your Fans' },
+      { kind: 'h2', text: '4. Use Your Exhaust and Ceiling Fans' },
       { kind: 'p', spans: ['Fans move air, and moving air carries moisture away. Run bathroom and kitchen exhaust fans during and after showering and cooking to push humid air straight outside, and use ceiling fans to keep air circulating so moisture does not settle. For a whole-house approach, a ventilation system brings fresh, drier air in throughout the home rather than one room at a time.'] },
 
-      { kind: 'h2', text: '5. Install a Whole-House Dehumidifier' },
+      { kind: 'h2', text: '5. Install a Whole-House Dehumidifier in Your Cincinnati Home' },
       { kind: 'p', spans: ['For humidity that will not quit, this is the real solution. A whole-house dehumidifier ties into your HVAC system and pulls moisture from the air across the entire home, holding a consistent, comfortable level automatically — no tanks to empty. It is the most reliable way to stay in that 30 to 50 percent range, and it can pull a surprising amount of water out of the air, as we cover in ', { link: 'how much water a whole-home dehumidifier collects', href: '/how-much-water-does-a-whole-home-dehumidifier-collect/' }, '.'] },
 
-      { kind: 'h2', text: 'A Few More Small Habits' },
+      { kind: 'h2', text: 'A Few More Habits That Lower Indoor Humidity in Cincinnati' },
       { kind: 'p', spans: ['On top of those five, a handful of everyday habits chip away at indoor moisture: take shorter showers, dry laundry outside instead of on an indoor rack, and always run the exhaust fan when the bathroom or kitchen is in use. Your air conditioner helps too, since it removes humidity as it cools — if yours runs constantly but the air still feels sticky, it may not be sized or working right, which we get into in ', { link: 'whether AC improves indoor air quality', href: '/do-air-conditioners-improve-indoor-air-quality/' }, '.'] },
 
-      { kind: 'h2', text: 'Get Comfortable, Balanced Air With Degree of Comfort' },
+      { kind: 'h2', text: 'Humidity Control for Cincinnati Homes' },
       { kind: 'p', spans: ['If your home stays muggy no matter what you try, the fix is usually a properly sized system and the right moisture-control equipment. Degree of Comfort evaluates humidity issues and installs ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' solutions, including whole-house dehumidifiers, across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Tired of sticky, muggy air? Call ', { strong: '(513) 586-5107' }, ', ask about humidity control and indoor air quality, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -2196,10 +2233,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'do-air-conditioners-improve-indoor-air-quality',
-    title: 'Do Air Conditioners Improve Indoor Air Quality?',
+    title: 'Do Air Conditioners Improve Indoor Air Quality in Cincinnati Homes?',
+    seoTitle: 'AC and Indoor Air Quality in Cincinnati Homes',
     category: 'Cooling',
     excerpt:
-      'Partly. Your AC filters out dust and pollen and pulls humidity from the air, which helps — but it was built to cool, not purify. Here is what it does for your air and where it falls short.',
+      'Air conditioners improve indoor air quality in Cincinnati homes partly: they filter dust and pollen and pull humidity, but were built to cool, not purify.',
     date: '2026-04-29',
     dateModified: '2026-05-06',
     readMinutes: 7,
@@ -2221,19 +2259,19 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'What Is Indoor Air Quality?' },
       { kind: 'p', spans: ['Indoor air quality is exactly what it sounds like: how clean and healthy the air inside your home is. Poor air quality — from dust, pollen, pet dander, mold, and other pollutants — can bring on headaches, fatigue, and irritation of the eyes, nose, throat, and lungs. It is improved by three things working together: good ventilation, effective filtration, and controlling the pollutants at their source.'] },
 
-      { kind: 'h2', text: 'How Does an Air Conditioner Work?' },
+      { kind: 'h2', text: 'How an Air Conditioner Handles the Air in Your Home' },
       { kind: 'p', spans: ['A central air conditioner has three main components: the compressor and condenser, which sit outside, and the evaporator, which sits inside. Refrigerant cycles through the system, absorbing heat from your indoor air and carrying it outside, while a blower moves air across the evaporator and back into the house. Along the way, that air passes through a filter — and that is where the air-quality benefit comes from.'] },
 
-      { kind: 'h2', text: 'So, Does AC Improve Air Quality?' },
+      { kind: 'h2', text: 'Does AC Improve Air Quality in Cincinnati Homes?' },
       { kind: 'p', spans: ['To a degree, yes. As your AC circulates air, its filter traps dust, pollen, and other airborne contaminants, keeping them out of the air you breathe. By removing humidity, it also helps prevent the moisture buildup that mold needs to grow. Both are real benefits — but they come with a catch: the filter only works if it is clean, which is why regular filter changes matter so much. The warning signs of a filter past its prime show up in our guide on ', { link: 'signs your air filter is past its prime', href: '/7-signs-your-home-air-filter-is-past-its-prime/' }, '. And the flip side is real too — a neglected, dirty AC can actually make your air worse by circulating mold and allergens, which is how an ', { link: 'AC can make you sick', href: '/can-your-ac-make-you-sick/' }, '.'] },
 
-      { kind: 'h2', text: 'Where AC Falls Short' },
+      { kind: 'h2', text: 'Where AC Falls Short on Air Quality' },
       { kind: 'p', spans: ['An air conditioner is a cooling machine that happens to filter air — not an air-purification system. A standard AC filter is built mainly to protect the equipment and catch larger particles; it does not remove the finest particles, odors, viruses, or bacteria. So while your AC helps, it is not a complete indoor air quality solution on its own.'] },
 
-      { kind: 'h2', text: 'Whole-Home Systems Go Further' },
+      { kind: 'h2', text: 'Whole-Home Air Quality Systems for Cincinnati Homes' },
       { kind: 'p', spans: ['To genuinely clean your home’s air, dedicated equipment installed into your HVAC system does what the AC alone cannot. Whole-home air filtration and ', { link: 'air purifiers', href: '/what-are-the-benefits-of-having-an-air-purifier/' }, ' clean the air throughout the house as it moves through the ductwork, catching what a standard filter misses. Depending on your home, a ', { link: 'whole-home humidifier', href: '/how-a-whole-home-humidifier-works-everything-you-need-to-know/' }, ' or a ', { link: 'dehumidifier', href: '/how-much-water-does-a-whole-home-dehumidifier-collect/' }, ' rounds out the picture by holding humidity in the healthy range. Paired with your AC, these make up a real air-quality setup rather than a partial one.'] },
 
-      { kind: 'h2', text: 'Breathe Easier With Degree of Comfort' },
+      { kind: 'h2', text: 'Indoor Air Quality Service in Cincinnati' },
       { kind: 'p', spans: ['Your air conditioner helps your air quality, but keeping it clean — and knowing when to add more — is where a professional comes in. Degree of Comfort maintains and repairs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems and installs full ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' solutions across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want genuinely cleaner air at home? Call ', { strong: '(513) 586-5107' }, ', ask about AC maintenance and indoor air quality, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -2250,10 +2288,11 @@ export const posts: Post[] = [
   },
   {
     slug: '7-signs-your-home-air-filter-is-past-its-prime',
-    title: '7 Signs Your Home Air Filter Is Past Its Prime',
+    title: '7 Signs Your Home Air Filter Is Past Its Prime in Cincinnati',
+    seoTitle: '7 Signs to Change Your Air Filter in Cincinnati',
     category: 'Home Tips',
     excerpt:
-      'A clogged air filter drives up your bills, strains your HVAC system, and dirties your air. Here are seven signs it is overdue for a change — and how often each type of filter should really be replaced.',
+      'Seven signs your home air filter needs changing in Cincinnati, from dusty vents to climbing bills, plus how often each type of filter should be replaced.',
     date: '2026-02-27',
     dateModified: '2026-06-01',
     readMinutes: 8,
@@ -2278,13 +2317,13 @@ export const posts: Post[] = [
       { kind: 'h2', text: '2. The Filter Simply Looks Dirty' },
       { kind: 'p', spans: ['The most direct sign of all. Pull the filter out and look at it — if it is gray, matted, and caked with debris, it is done. A quick visual check is all it takes, and any visibly dirty filter should be replaced right away.'] },
 
-      { kind: 'h2', text: '3. Your System Takes Longer to Heat or Cool' },
+      { kind: 'h2', text: '3. Your System Takes Longer to Heat or Cool Your Cincinnati Home' },
       { kind: 'p', spans: ['A clogged filter restricts airflow, which often makes a furnace or AC cycle on and off more frequently — called short-cycling — without actually making the house more comfortable. If your system seems to run constantly but never quite catches up, a fresh filter is the first thing to try. If it does not help, something deeper may need a professional look.'] },
 
       { kind: 'h2', text: '4. Your Energy Bills Are Climbing' },
       { kind: 'p', spans: ['When the system runs longer and harder to push air through a blocked filter, it burns more energy — and you see it on the bill. A rising energy bill with no other explanation is a classic sign. Regular filter changes keep the system running efficiently; if bills stay high after a change, it points to another issue worth diagnosing.'] },
 
-      { kind: 'h2', text: '5. Your Indoor Air Quality Has Dropped' },
+      { kind: 'h2', text: '5. The Air Quality in Your Cincinnati Home Has Dropped' },
       { kind: 'p', spans: ['A spent filter stops trapping the dust, pollen, and pet dander it is supposed to, so those irritants circulate instead. More sneezing, worse allergies, or stuffier air are all signs. A filter rated MERV 5 to 8 handles common irritants, and MERV 9 to 12 catches finer particles — and the improvement is usually noticeable almost immediately after a change. For more, see ', { link: 'the benefits of an air purifier', href: '/what-are-the-benefits-of-having-an-air-purifier/' }, '.'] },
 
       { kind: 'h2', text: '6. The AC Unit Is Hot to the Touch' },
@@ -2293,7 +2332,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: '7. You Cannot Remember the Last Time You Changed the Air Filter' },
       { kind: 'p', spans: ['If you have to think hard about when the filter was last replaced, it is overdue. The safest move is to pull it, look at it, and swap it if it is dirty. Getting on a regular schedule takes the guesswork out entirely.'] },
 
-      { kind: 'h2', text: 'How Often Should You Change Your Air Filter?' },
+      { kind: 'h2', text: 'How Often to Change Your Air Filter in Cincinnati' },
       { kind: 'p', spans: ['Most homeowners should change their filter every 1 to 3 months, but the right interval depends heavily on how thick the filter is — thicker filters hold more debris before they clog:'] },
       { kind: 'p', spans: [{ strong: '1-inch pleated:' }, ' every 30 to 60 days.'] },
       { kind: 'p', spans: [{ strong: '2-inch pleated:' }, ' every 90 days.'] },
@@ -2302,10 +2341,10 @@ export const posts: Post[] = [
       { kind: 'p', spans: [{ strong: '5- to 6-inch pleated:' }, ' every 9 to 12 months.'] },
       { kind: 'p', spans: ['Pets, allergies, and heavy system use all shorten those intervals. Our guide on ', { link: 'how often to change your furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, ' goes deeper on finding the right schedule for your home.'] },
 
-      { kind: 'h2', text: 'Changing the Air Filter Is Easy' },
+      { kind: 'h2', text: 'Changing an Air Filter in Your Cincinnati Home' },
       { kind: 'p', spans: ['Swapping a filter takes a few minutes: turn the system off, locate the filter behind its grille or in the return, slide the old one out, and slide the new one in — matching the airflow arrows on the frame to the direction of airflow. Close the grille and turn the system back on. That is it. If you are not sure which filter size or MERV rating your system needs, a technician can point you to the right one.'] },
 
-      { kind: 'h2', text: 'Keep Your Air Clean With Degree of Comfort' },
+      { kind: 'h2', text: 'Indoor Air Quality Service in Cincinnati' },
       { kind: 'p', spans: ['A fresh filter is the easiest win in home comfort, but if the warning signs stick around after a change, the system itself may need attention. Degree of Comfort handles ', { link: 'HVAC maintenance', href: '/services/furnace-maintenance/' }, ', repairs, and ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want cleaner air and a system that runs right? Call ', { strong: '(513) 586-5107' }, ', ask about a maintenance visit, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -2322,10 +2361,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'how-much-is-a-new-air-conditioner',
-    title: 'How Much Is a New Air Conditioner?',
+    title: 'How Much Is a New Air Conditioner in Cincinnati?',
+    seoTitle: 'New Air Conditioner Cost in Cincinnati',
     category: 'Cooling',
     excerpt:
-      'A new air conditioner, installed, commonly runs in the neighborhood of $9,000 — but the real number depends on your home’s size, your ductwork, and the efficiency you choose. Here is what drives the price.',
+      'A new air conditioner in Cincinnati, installed, commonly runs around $9,000. The real number depends on home size, ductwork and the efficiency you pick.',
     date: '2026-03-13',
     dateModified: '2026-03-13',
     readMinutes: 8,
@@ -2344,7 +2384,7 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['There is no single sticker price, but here is a straight answer: a new central air conditioner, equipment and professional installation together, commonly runs somewhere in the neighborhood of ', { strong: '$9,000' }, '. Your actual cost can land well above or below that depending on a few things. Here is what moves the number, and how to figure out where your home falls.'] },
 
-      { kind: 'h2', text: 'What Affects the Cost of a New Air Conditioner?' },
+      { kind: 'h2', text: 'What Affects the Cost of a New Air Conditioner in Cincinnati' },
       { kind: 'p', spans: ['Four things drive most of the price: the size of the system, how complex the installation is, the efficiency you choose, and your home itself.'] },
       { kind: 'h3', text: 'System Size and Your Home' },
       { kind: 'p', spans: ['Bigger homes need bigger systems, and capacity costs money. As a rough rule, a home needs about one ton of cooling for every 500 to 600 square feet, where one ton equals 12,000 BTUs of cooling per hour. That said, square footage alone does not size a system — insulation, windows, ductwork, and layout all matter, which is why a professional runs a proper load calculation rather than guessing. An oversized unit wastes money and cools unevenly; an undersized one never keeps up.'] },
@@ -2353,16 +2393,16 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Efficiency and SEER Rating' },
       { kind: 'p', spans: ['Air conditioners are rated by SEER (Seasonal Energy Efficiency Ratio), and higher is more efficient. New units start at a minimum SEER of 13, while models rated 16 or higher are considered highly efficient. A higher SEER costs more upfront but pays you back on every energy bill — upgrading from an older, low-efficiency unit to a modern one can cut annual cooling costs by up to 30%. The right balance depends on how long you plan to stay and how hot your summers run.'] },
 
-      { kind: 'h2', text: 'A Realistic Ballpark' },
+      { kind: 'h2', text: 'A Realistic Ballpark Price for a New AC in Cincinnati' },
       { kind: 'p', spans: ['Putting it together, a typical full replacement — a right-sized, efficient system installed by professionals — tends to average around $9,000. But averages hide a lot: a small home with good ducts and a standard-efficiency unit can come in well under that, while a large home needing ductwork and a high-efficiency system runs higher. The only way to know your number is an ', { link: 'in-home estimate', href: '/request-estimate/' }, ', where a technician sizes the system to your home and quotes it with upfront, flat-rate pricing — no surprises.'] },
 
-      { kind: 'h2', text: 'Maintenance and Ongoing Costs' },
+      { kind: 'h2', text: 'AC Maintenance and Ongoing Costs' },
       { kind: 'p', spans: ['The purchase is not the end of the math. Budget for routine upkeep — an annual tune-up and regular filter changes — which keeps the system efficient and protects its lifespan, so you get the full return on what you paid. Skipping maintenance is the fastest way to shorten an expensive system’s life. Our guide on ', { link: 'whether AC tune-ups are worth it', href: '/do-you-really-need-ac-maintenance-are-ac-tune-ups-worth-it/' }, ' covers why that small yearly cost pays off.'] },
 
-      { kind: 'h2', text: 'Repair or Replace?' },
+      { kind: 'h2', text: 'Repair or Replace Your Air Conditioner?' },
       { kind: 'p', spans: ['If your current unit is on its way out, the question is whether to keep fixing it or start fresh. Repairing makes sense for a newer unit with a small, inexpensive problem. Replacement is usually the better value once a unit is past roughly 12 to 17 years, needs frequent repairs, or has slipped in efficiency — a new system is more reliable and cheaper to run. Our guide on ', { link: 'whether to replace an old air conditioner', href: '/should-i-replace-my-old-air-conditioner/' }, ' walks through how to decide.'] },
 
-      { kind: 'h2', text: 'Get an Exact Price From Degree of Comfort' },
+      { kind: 'h2', text: 'Air Conditioner Installation Quotes in Cincinnati' },
       { kind: 'p', spans: ['The honest answer to what a new AC costs is a number a technician gives you after seeing your home — not a figure off a website. Degree of Comfort sizes and installs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems with upfront, flat-rate pricing and in-home estimates across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with a satisfaction guarantee, and ', { link: 'financing', href: '/can-you-finance-an-hvac-system/' }, ' is available to spread the cost out.'] },
       { kind: 'p', spans: ['Ready for a real number? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC installation', href: '/services/ac-installation-replacement/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -2379,10 +2419,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'how-much-water-does-a-whole-home-dehumidifier-collect',
-    title: 'How Much Water Does a Whole-Home Dehumidifier Collect?',
+    title: 'How Much Water Does a Whole-Home Dehumidifier Collect in Cincinnati?',
+    seoTitle: 'Whole-Home Dehumidifier Water Output in Cincinnati',
     category: 'Home Tips',
     excerpt:
-      'In one test, a whole-home dehumidifier pulled 96 ounces of water — about three-quarters of a gallon — out of the air in just 4 hours, dropping humidity 15%. Here is what affects the total and why it matters.',
+      'How much water a whole-home dehumidifier collects: one test pulled 96 ounces in 4 hours and cut humidity 15%. What affects the total in a Cincinnati home.',
     date: '2026-05-06',
     dateModified: '2026-06-09',
     readMinutes: 7,
@@ -2401,36 +2442,37 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['Quite a lot, and quickly. In one real-world test, a whole-home dehumidifier collected 96 ounces of water — roughly three-quarters of a gallon — in just 4 hours, and lowered the home’s humidity by 15% in that same window. That is far more than a portable unit manages, and it is pulling that moisture out of the air across the entire house. Here is what determines the total and why the amount matters.'] },
 
-      { kind: 'h2', text: 'So How Much Water Does It Actually Collect?' },
+      { kind: 'h2', text: 'How Much Water a Whole-Home Dehumidifier Collects' },
       { kind: 'p', spans: ['Over a full day in a humid house, that pace adds up fast. Whole-home dehumidifiers are rated by how many pints of water they can remove per day, and most fall somewhere between 70 and 130 pints daily — a large capacity built to dry out a whole home rather than a single room.'] },
 
-      { kind: 'h2', text: 'What Affects How Much Water It Pulls' },
+      { kind: 'h2', text: 'What Affects How Much Water It Pulls in Cincinnati Homes' },
       { kind: 'p', spans: ['The number is not fixed — it moves with conditions. A few factors decide how much water ends up collected:'] },
       { kind: 'p', spans: [{ strong: 'Relative humidity.' }, ' The damper the air, the more water there is to remove. A muggy basement in July will fill the collection far faster than a dry room in the fall.'] },
       { kind: 'p', spans: [{ strong: 'The unit’s capacity.' }, ' A higher-rated dehumidifier extracts more water per hour, which is why sizing it to your home matters.'] },
       { kind: 'p', spans: [{ strong: 'Fan speed and extraction rate.' }, ' How fast the unit moves air across its coils affects how much moisture it can pull out in a given stretch of time.'] },
       { kind: 'p', spans: [{ strong: 'The size of your home.' }, ' More square footage and more air volume mean more total moisture to manage.'] },
 
-      { kind: 'h2', text: 'Where Does All That Water Go?' },
+      { kind: 'h2', text: 'Where the Dehumidifier Water Goes' },
       { kind: 'p', spans: ['This is the part people appreciate most. A portable dehumidifier fills a tank you have to empty by hand, sometimes more than once a day in a damp house. A whole-home unit is plumbed to drain automatically — routed to a floor drain, a sump pit, or a condensate pump — so all that water leaves on its own and you never think about it. If you are fighting basement moisture in particular, it pairs well with the steps in our guide on ', { link: 'keeping your basement dry', href: '/4-tips-for-keeping-your-basement-dry-this-spring/' }, '.'] },
 
       { kind: 'h2', text: 'Whole-Home vs. Portable Dehumidifiers' },
       { kind: 'p', spans: ['A portable is fine for one problem room, but it only treats that room, needs constant emptying, and cannot keep up with a whole house. A whole-home dehumidifier ties into your HVAC system, treats the air throughout the home, drains itself, and holds a steady humidity level automatically. For anything beyond a single space, it is far less hassle and far more effective — the same logic that makes a whole-home approach win for its counterpart, the ', { link: 'whole-home humidifier', href: '/how-a-whole-home-humidifier-works-everything-you-need-to-know/' }, ', in winter.'] },
 
-      { kind: 'h2', text: 'The Payoff: Why the Amount Matters' },
+      { kind: 'h2', text: 'Why the Amount of Water Matters in a Cincinnati Home' },
       { kind: 'p', spans: ['All that collected water is moisture that is no longer sitting in your air and on your surfaces. Keeping indoor humidity in the healthy 30 to 50 percent range does real work: it discourages mold, dust mites, and the pests that like damp spaces — spiders, roaches, silverfish — and it takes a load off your air conditioner, which no longer has to wring out humid air on its own. That means better ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' efficiency, lower energy bills, and less cleaning. It is a core piece of good ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, '.'] },
 
-      { kind: 'h2', text: 'Dry, Comfortable Air With Degree of Comfort' },
+      { kind: 'h2', text: 'Whole-Home Dehumidifier Installation in Cincinnati' },
       { kind: 'p', spans: ['If your home feels muggy, smells musty, or you are constantly emptying a portable unit, a whole-home dehumidifier is worth a look. Degree of Comfort sizes and installs whole-home dehumidifiers and indoor air quality systems across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Ready to dry out the house? Call ', { strong: '(513) 586-5107' }, ', ask about a whole-home dehumidifier and indoor air quality, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
   },
   {
     slug: 'what-temperature-should-i-set-my-air-conditioner-to-in-the-summer',
-    title: 'What Temperature Should I Set My Air Conditioner to in the Summer?',
+    title: 'What Temperature Should I Set My Air Conditioner to in a Cincinnati Summer?',
+    seoTitle: 'Best AC Temperature for Cincinnati Summers',
     category: 'Cooling',
     excerpt:
-      'The U.S. Department of Energy recommends 78°F when you are home. Here is how to set your AC through the day — home, away, and asleep — to stay comfortable without running up the bill.',
+      'The best AC temperature for a Cincinnati summer is 78°F when you are home, per the U.S. Department of Energy. How to set it for home, away and asleep.',
     date: '2025-08-15',
     dateModified: '2025-08-15',
     readMinutes: 8,
@@ -2449,7 +2491,7 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['The short answer: the U.S. Department of Energy recommends setting your air conditioner to ', { strong: '78°F' }, ' when you are home and awake. That is the number that balances staying comfortable with not overpaying to cool the house. The longer answer is that the best setting changes through the day — and there are a few ways to stay comfortable while nudging it higher. Here is how to think about it.'] },
 
-      { kind: 'h2', text: 'The Ideal Summer Setting: 78°F' },
+      { kind: 'h2', text: 'The Ideal Summer AC Setting in Cincinnati: 78°F' },
       { kind: 'p', spans: ['The Department of Energy points to 78°F as the sweet spot for a summer day when you are home. That said, plenty of households here in the Midwest run cooler — somewhere in the 70 to 74°F range is the most common real-world setting. There is nothing wrong with that; just know that the lower you go, the more you pay. Think of 78°F as the efficient baseline and adjust from there based on your own comfort.'] },
 
       { kind: 'h2', text: 'Adjust the Temperature by Time of Day' },
@@ -2462,13 +2504,13 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'Let a Programmable or Smart Thermostat Do the Work' },
       { kind: 'p', spans: ['Remembering to change the thermostat four times a day is not realistic, which is exactly why programmable and smart thermostats exist. You set the schedule once — warmer while away, cooler for sleep, comfortable when you are home and awake — and it handles the rest, preventing the unnecessary cooling that quietly runs up your bill. Smart models go further, adjusting automatically based on your habits. For the full picture, see our guide on ', { link: 'how smart thermostats save money and improve comfort', href: '/how-smart-thermostats-save-money-and-improve-comfort/' }, '.'] },
 
-      { kind: 'h2', text: 'What Affects Your Comfortable Temperature' },
+      { kind: 'h2', text: 'What Affects Your Comfortable AC Temperature' },
       { kind: 'p', spans: ['The right number is not the same for everyone. Personal preference, age, and how much humidity is in the air all change how warm a given temperature feels. Humidity is a big one — damp air feels warmer, so a system that manages moisture well lets you stay comfortable at a higher setting. Ceiling fans help too: running them lets you raise the thermostat a few degrees and still feel just as cool, since moving air makes your skin feel cooler even when the temperature has not changed.'] },
 
-      { kind: 'h2', text: 'The Bottom Line: Every Degree Counts' },
+      { kind: 'h2', text: 'Why Every Thermostat Degree Counts in a Cincinnati Summer' },
       { kind: 'p', spans: ['Every degree lower can noticeably increase your cooling costs over a summer, so the goal is to find the highest setting that still feels comfortable and let it rise whenever you can. If your home will not hold a comfortable temperature even at a reasonable setting — or one room is always warmer than the rest — that usually points to an airflow, insulation, or system issue rather than the thermostat, and our guide on ', { link: 'uneven cooling', href: '/common-causes-of-uneven-cooling-in-your-home/' }, ' covers why.'] },
 
-      { kind: 'h2', text: 'Stay Comfortable and Efficient With Degree of Comfort' },
+      { kind: 'h2', text: 'AC Service in Cincinnati From Degree of Comfort' },
       { kind: 'p', spans: ['If your AC is struggling to hold the temperature you set, or you want a smart thermostat installed and dialed in, Degree of Comfort can help. We service, repair, and tune ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems and install thermostats across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want a cooler, cheaper summer? Call ', { strong: '(513) 586-5107' }, ', ask about a thermostat upgrade or ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -2485,10 +2527,11 @@ export const posts: Post[] = [
   },
   {
     slug: '4-tips-for-keeping-your-basement-dry-this-spring',
-    title: 'Best Ways to Prevent Basement Flooding This Summer',
+    title: 'Best Ways to Prevent Basement Flooding in Cincinnati This Summer',
+    seoTitle: 'Prevent Basement Flooding in Cincinnati',
     category: 'Plumbing',
     excerpt:
-      'Summer storms are when basements flood. Four practical steps — a working sump pump, a sound foundation, water managed outside, and proper waterproofing — keep yours dry before the rain rolls in.',
+      'Ways to prevent basement flooding in Cincinnati this summer: a working sump pump, a sound foundation, water managed outside, and proper waterproofing.',
     date: '2026-06-09',
     dateModified: '2026-06-09',
     readMinutes: 9,
@@ -2507,7 +2550,7 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['Summer is when basements flood — heavy rain, saturated ground, and storm-driven power outages all land in the same stretch of the year. Keeping yours dry comes down to four things: a reliable sump pump, a sound foundation, water managed outside the house, and proper waterproofing. Handle these before the storms arrive and you avoid the far bigger job of cleaning up after.'] },
 
-      { kind: 'h2', text: 'First, What Causes a Wet Basement?' },
+      { kind: 'h2', text: 'What Causes a Wet Basement in Cincinnati' },
       { kind: 'p', spans: ['Basement water usually comes from heavy rain overwhelming poor drainage, water seeping through cracks in the walls or floor, or a sump pump that fails right when it is needed. Storms make it worse: a power outage can knock out the sump pump at the exact moment the water table is rising. Understanding which of these applies to your home tells you where to focus.'] },
 
       { kind: 'h2', text: 'Tip 1: Protect the Systems Inside — Starting With the Sump Pump' },
@@ -2522,7 +2565,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Check Windows and Landscaping' },
       { kind: 'p', spans: ['Basement windows develop air and water leaks over time — re-caulk or replace old ones, which also improves energy efficiency. Then look at how your yard is graded: the ground should slope away from the foundation, not toward it, so rain drains off instead of pooling against the house.'] },
 
-      { kind: 'h2', text: 'Tip 3: Manage Water Outside the Home' },
+      { kind: 'h2', text: 'Tip 3: Manage Rainwater Outside Your Cincinnati Home' },
       { kind: 'p', spans: ['A lot of basement flooding starts with water that was never directed away from the house in the first place.'] },
       { kind: 'h3', text: 'Clean Gutters and Extend Downspouts' },
       { kind: 'p', spans: ['Clogged gutters spill rain straight down against the foundation. Keep them clear, and make sure downspouts carry water at least 3 feet away from the house — add extensions if they do not. It is one of the cheapest, most effective things you can do.'] },
@@ -2532,7 +2575,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'Tip 4: Waterproof and Control Humidity' },
       { kind: 'p', spans: ['Even a dry basement benefits from a moisture barrier. Seal visible cracks in the walls and floor, and consider a waterproofing membrane or sealant on the interior surfaces. Clear acrylic window well covers keep water from collecting around basement windows while still letting light in. Finally, monitor the humidity down there and run a dehumidifier as needed — controlling moisture is what keeps mold and mildew from taking hold even when there is no outright flooding.'] },
 
-      { kind: 'h2', text: 'Keep Your Basement Dry With Degree of Comfort' },
+      { kind: 'h2', text: 'Sump Pump Service in Cincinnati' },
       { kind: 'p', spans: ['Some of this is a weekend of gutter-cleaning and caulk; the sump pump and drainage side is where a professional pays off. Degree of Comfort installs and services ', { link: 'sump pumps', href: '/services/sump-pumps/' }, ', clears drains, and handles ', { link: 'plumbing', href: '/services/plumbing/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want your basement ready before summer storms? Call ', { strong: '(513) 586-5107' }, ', ask about a sump pump check, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -2547,10 +2590,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'why-is-my-air-conditioner-blowing-warm-air',
-    title: 'Why Is My Air Conditioner Blowing Warm Air?',
+    title: 'Why Is My Air Conditioner Blowing Warm Air? Fixes for Cincinnati Homes',
+    seoTitle: 'AC Blowing Warm Air in Cincinnati: Causes and Fixes',
     category: 'Cooling',
     excerpt:
-      'An AC blowing warm air usually comes down to a thermostat setting, a clogged filter, low refrigerant, or a dirty outdoor unit. Here are the common causes, which you can fix yourself, and when to call a pro.',
+      'An AC blowing warm air in Cincinnati usually comes down to the thermostat, a clogged filter, low refrigerant or a dirty outdoor unit. Causes and fixes.',
     date: '2026-06-01',
     dateModified: '2026-06-01',
     readMinutes: 8,
@@ -2569,7 +2613,7 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['When your air conditioner runs but the air coming out is warm, the cause is usually one of a handful of things — some you can fix in a couple of minutes, others that need a technician. Here is what to check, in order, and how to tell which camp your problem falls into.'] },
 
-      { kind: 'h2', text: 'Start With the Simple Checks' },
+      { kind: 'h2', text: 'Start With the Simple Checks in Your Cincinnati Home' },
       { kind: 'p', spans: ['Before assuming the worst, rule out the two most common and easiest causes.'] },
       { kind: 'h3', text: 'Your Thermostat Settings' },
       { kind: 'p', spans: ['It sounds obvious, but this catches people constantly. Make sure the thermostat is set to ', { strong: 'cool' }, ', not heat, and that the fan is set to ', { strong: 'auto' }, ' rather than ', { strong: 'on' }, '. With the fan on ', { strong: 'on' }, ', it runs continuously and blows room-temperature air even when the system is not actively cooling — which feels exactly like warm air from the vents. A wrong setting here is a five-second fix.'] },
@@ -2585,16 +2629,16 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'A Dirty Condenser Coil' },
       { kind: 'p', spans: ['The condenser is the outdoor unit, and its coil releases the heat your system pulls from inside. When it is caked in grime, grass clippings, and outdoor debris, it cannot shed that heat, and cooling suffers. Keeping the area around the outdoor unit clear and having the coil cleaned during routine ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ' keeps it working the way it should.'] },
 
-      { kind: 'h2', text: 'Electrical Problems' },
+      { kind: 'h2', text: 'AC Electrical Problems' },
       { kind: 'p', spans: ['Loose, corroded, or damaged wiring can stop parts of the system from running, including the components that make cold air. If the outdoor unit is not kicking on at all, an electrical fault or a tripped breaker may be to blame. Because this involves the electrical side of the system, it is best left to a professional rather than opened up yourself. If the unit will not start at all, our ', { link: 'AC not turning on troubleshooting guide', href: '/air-conditioner-not-turning-on-troubleshooting-tips/' }, ' walks through what to check first.'] },
 
-      { kind: 'h2', text: 'An Aging System' },
+      { kind: 'h2', text: 'An Aging Air Conditioner in a Cincinnati Home' },
       { kind: 'p', spans: ['Sometimes the honest answer is age. An air conditioner past its prime struggles to keep up during peak summer heat, and warm air can be a sign it is wearing out. If your unit is old, breaking down often, and getting expensive to run, it may be time to weigh a replacement — our guide on ', { link: 'whether to replace an old air conditioner', href: '/should-i-replace-my-old-air-conditioner/' }, ' can help you decide.'] },
 
-      { kind: 'h2', text: 'What You Can Do About It' },
+      { kind: 'h2', text: 'What You Can Do About an AC Blowing Warm Air in Cincinnati' },
       { kind: 'p', spans: ['Work through the simple fixes first: check the thermostat, replace the filter, make sure the outdoor unit is running and clear of debris, and look for ice on the coils. If none of that brings the cold air back — or if you suspect refrigerant, coils, or wiring — stop running the system and call a professional. Continuing to run an AC that blows warm can turn a minor repair into a major one.'] },
 
-      { kind: 'h2', text: 'Get Your Cool Air Back With Degree of Comfort' },
+      { kind: 'h2', text: 'AC Repair in Cincinnati' },
       { kind: 'p', spans: ['If the easy checks did not solve it, Degree of Comfort can diagnose why your ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' is blowing warm and fix it right the first time. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Ready to feel cold air again? Call ', { strong: '(513) 586-5107' }, ', ask about AC repair, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -2611,10 +2655,11 @@ export const posts: Post[] = [
   },
   {
     slug: '5-heating-system-safety-and-efficiency-tips-for-fall',
-    title: '5 Heating System Safety and Efficiency Tips for Fall',
+    title: '5 Heating System Safety and Efficiency Tips for Fall in Cincinnati',
+    seoTitle: 'Fall Heating Safety Tips for Cincinnati Homes',
     category: 'Heating',
     excerpt:
-      'Fall is the window to get your heating system ready before winter. Five practical steps — from a professional tune-up to carbon monoxide detectors — that keep your home warm, efficient, and safe.',
+      'Heating safety and efficiency tips for fall in Cincinnati: five steps, from a tune-up to carbon monoxide detectors, that keep your home warm and safe.',
     date: '2025-09-17',
     dateModified: '2025-09-17',
     readMinutes: 7,
@@ -2633,22 +2678,22 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['Fall is the window to get your heating system ready before you actually need it. A little attention now — before the first hard freeze — keeps your home warmer, your bills lower, and your family safer once winter sets in. Here are five practical steps worth taking this season.'] },
 
-      { kind: 'h2', text: '1. Schedule Routine Maintenance' },
+      { kind: 'h2', text: '1. Schedule a Fall Heating Tune-Up in Cincinnati' },
       { kind: 'p', spans: ['This is the one that matters most. A professional tune-up before winter checks the parts that fail under heavy use, cleans the components that lose efficiency when they are dirty, and catches safety problems — like a cracked heat exchanger or a failing igniter — before they leave you without heat on the coldest night of the year. Fall is the best time to do it, ahead of the season when your furnace works hardest. Book ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ' now and you head into winter knowing the system is ready.'] },
 
-      { kind: 'h2', text: '2. Seal Windows and Doors' },
+      { kind: 'h2', text: '2. Seal Windows and Doors Against Drafts' },
       { kind: 'p', spans: ['Your heating system can be in perfect shape and still cost you money if the warm air it makes leaks straight out of the house. Check around windows and exterior doors for drafts and gaps, and seal them with weatherstripping or caulk. It is inexpensive, and it means your furnace runs less to hold the same temperature — lower bills and a more even, comfortable home.'] },
 
       { kind: 'h2', text: '3. Upgrade to a Programmable Thermostat' },
       { kind: 'p', spans: ['If you are still running a basic thermostat, a programmable or smart model is one of the easiest efficiency wins available. Set it to ease back the temperature while you are asleep or away and return to comfortable before you wake or come home, and you cut heating costs without ever noticing the difference. Many newer models carry an Energy Star rating and learn your routine on their own.'] },
 
-      { kind: 'h2', text: '4. Mind Space Heaters and Ceiling Fans' },
+      { kind: 'h2', text: '4. Use Space Heaters and Ceiling Fans Safely' },
       { kind: 'p', spans: ['Space heaters are handy for a cold room, but they need respect: keep them clear of anything flammable, plug them straight into the wall rather than a power strip, and never leave them running unattended. Ceiling fans help too — flip them to spin clockwise for winter. That gentle updraft pushes the warm air that naturally rises to the ceiling back down into the living space, so you feel warmer at the same thermostat setting.'] },
 
-      { kind: 'h2', text: '5. Protect Against Carbon Monoxide' },
+      { kind: 'h2', text: '5. Protect Your Cincinnati Home Against Carbon Monoxide' },
       { kind: 'p', spans: ['Any heating equipment that burns natural gas produces carbon monoxide, an odorless, colorless gas that is dangerous in an enclosed home. A well-maintained furnace vents it safely outside, but you still want a backstop. Install carbon monoxide detectors near sleeping areas and on each level of the home, test them regularly, and replace the batteries every fall. It is a small habit that protects against a serious risk, and it pairs with the annual inspection covered in our guide to ', { link: 'furnace safety measures', href: '/5-preventive-measures-for-furnace-safety/' }, '.'] },
 
-      { kind: 'h2', text: 'Get Winter-Ready With Degree of Comfort' },
+      { kind: 'h2', text: 'Get Your Cincinnati Home Ready for Winter' },
       { kind: 'p', spans: ['A few of these steps you can handle in an afternoon; the tune-up is one to leave to a professional. Degree of Comfort services, repairs, and installs ', { link: 'heating', href: '/services/heating/' }, ' systems and gets them ready for winter across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee. For more on keeping the system running clean, see ', { link: 'how often to change your furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, '.'] },
       { kind: 'p', spans: ['Want your heat ready before the cold hits? Call ', { strong: '(513) 586-5107' }, ', ask about a fall heating tune-up, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -2665,10 +2710,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'can-your-ac-make-you-sick',
-    title: 'Can Your AC Make You Sick?',
+    title: 'Can Your AC Make You Sick? What Cincinnati Homeowners Should Know',
+    seoTitle: 'Can AC Make You Sick in Cincinnati Homes?',
     category: 'Cooling',
     excerpt:
-      'Yes, but not the way most people think. It is rarely the cold air — it is a dirty, poorly maintained unit circulating mold and allergens. Here is what actually makes you sick and how to prevent it.',
+      'Your AC can make you sick in a Cincinnati home, but rarely from cold air. A dirty, poorly maintained unit spreads mold and allergens. How to prevent it.',
     date: '2026-05-01',
     dateModified: '2026-05-01',
     readMinutes: 8,
@@ -2690,10 +2736,10 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'Is the Cold Air Itself Making You Sick?' },
       { kind: 'p', spans: ['Mostly, no. Catching a cold directly from cold air is a myth — colds come from viruses, not temperature. That said, air conditioning can play an indirect role. Moving suddenly from hot outdoor air into a cold room can irritate the nose and throat, and for people with asthma or other respiratory conditions, cold air can aggravate symptoms. Constant exposure to very cold, dry indoor air can leave your airways irritated and less comfortable. So the temperature is a minor factor, but it is not the main event.'] },
 
-      { kind: 'h2', text: 'The Real Culprit: Air Quality Inside a Dirty AC' },
+      { kind: 'h2', text: 'How a Dirty AC Hurts Air Quality in Cincinnati Homes' },
       { kind: 'p', spans: ['The bigger issue is what is living inside a neglected system. When an AC unit goes without cleaning, its coils, filters, and drain line become a damp, dark home for mold, bacteria, and other pathogens. Every time the system runs, it can push those contaminants out into the air you breathe, which is a common trigger for coughing, sneezing, headaches, fatigue, and sinus irritation — the cluster of symptoms sometimes called sick building syndrome. If your home smells musty when the AC kicks on, that odor is a warning sign, and our guide on ', { link: 'why your air conditioner smells bad', href: '/5-reasons-why-your-air-conditioner-smells-bad/' }, ' walks through what it usually means.'] },
 
-      { kind: 'h2', text: 'Humidity: Too Damp and Too Dry Both Cause Problems' },
+      { kind: 'h2', text: 'Humidity in Cincinnati Homes: Too Damp and Too Dry Both Cause Problems' },
       { kind: 'p', spans: ['A healthy AC also manages moisture. When it does not, comfort and health both suffer. Air that stays too humid encourages mold to grow on surfaces and inside the system itself. Air that runs too dry leaves you with skin irritation, a scratchy throat, and dry eyes. The comfortable, healthy range sits around 30 to 50 percent relative humidity, and a properly working, properly sized system holds you there instead of swinging to either extreme.'] },
 
       { kind: 'h2', text: 'How to Keep Your AC From Making You Sick' },
@@ -2708,7 +2754,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'Upgrades That Improve Indoor Air Quality' },
       { kind: 'p', spans: ['If clean, healthy air is a priority — especially for a household with allergies or asthma — a few additions to your system go further than filters alone. UV lights installed in the HVAC system kill mold, bacteria, and viruses as air passes by. Whole-home air cleaners and ', { link: 'air purifiers', href: '/what-are-the-benefits-of-having-an-air-purifier/' }, ' filter out fine particles and allergens the standard filter misses. Both are part of a proper ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' setup.'] },
 
-      { kind: 'h2', text: 'Breathe Easier With Degree of Comfort' },
+      { kind: 'h2', text: 'AC and Air Quality Service in Cincinnati' },
       { kind: 'p', spans: ['If your AC smells musty, your allergies spike whenever it runs, or it has been more than a year since it was serviced, it is worth having a professional look. Degree of Comfort cleans, maintains, and repairs ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' systems and installs indoor air quality upgrades that keep your home healthy. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want cleaner, healthier air at home? Call ', { strong: '(513) 586-5107' }, ', ask about AC maintenance and indoor air quality, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -2722,10 +2768,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'how-does-a-tankless-water-heater-work',
-    title: 'How Does a Tankless Water Heater Work?',
+    title: 'How Does a Tankless Water Heater Work? A Guide for Cincinnati Homes',
+    seoTitle: 'How Tankless Water Heaters Work in Cincinnati',
     category: 'Plumbing',
     excerpt:
-      'A tankless water heater heats water on demand instead of storing it, so you get continuous hot water from a unit the size of a suitcase. How it works, gas vs. electric, and what it costs to run.',
+      'How a tankless water heater works in Cincinnati homes: it heats water on demand for continuous hot water. Step by step, gas vs. electric, and costs.',
     date: '2025-11-21',
     dateModified: '2025-11-21',
     readMinutes: 8,
@@ -2758,19 +2805,19 @@ export const posts: Post[] = [
       { kind: 'h3', text: '4. Hot Water Reaches Your Tap' },
       { kind: 'p', spans: ['The freshly heated water travels straight to the fixture you turned on. Because the heater keeps warming water for as long as the tap is open, the supply does not run out mid-shower the way a tank can once its stored water is gone.'] },
 
-      { kind: 'h2', text: 'Gas vs. Electric Tankless Units' },
+      { kind: 'h2', text: 'Gas vs. Electric Tankless Units for Cincinnati Homes' },
       { kind: 'p', spans: ['Both types heat on demand; the difference is the energy source. A gas tankless unit uses a burner and generally produces a higher flow rate, which suits larger households running several hot taps at once, though it needs proper venting and a gas line. An electric tankless unit uses heating elements, installs in tighter spaces with no venting, and tends to cost less upfront, but its output can be limited by your home’s electrical capacity. The right choice depends on your hot water demand, your fuel setup, and your panel — something a ', { link: 'licensed plumber', href: '/services/plumbing/' }, ' can size for you.'] },
 
-      { kind: 'h2', text: 'Longevity and Cost Considerations' },
+      { kind: 'h2', text: 'Tankless Lifespan and Running Costs in Cincinnati' },
       { kind: 'p', spans: ['A tankless water heater costs more to buy and install than a standard tank — there is no getting around the higher upfront number. What you get for it is a longer life and lower running costs. A tankless unit can last more than 20 years with maintenance, close to double the 10-to-15-year life of a typical storage tank, and because it is not reheating a tank of water 7 days a week, it wastes less energy. Over the life of the unit, that combination tends to make it the more cost-effective option, especially with financing to spread the initial cost out.'] },
 
-      { kind: 'h2', text: 'The Space-Saving Design' },
+      { kind: 'h2', text: 'The Space-Saving Tankless Design' },
       { kind: 'p', spans: ['One of the most practical advantages has nothing to do with water at all — it is the size. A tankless unit is roughly the size of a suitcase and mounts on the wall, compared with a bulky tank that takes up a corner of the basement or a closet. For smaller homes, or anyone who wants that square footage back, the compact design is a real benefit on its own.'] },
 
-      { kind: 'h2', text: 'Installation and Maintenance' },
+      { kind: 'h2', text: 'Installing and Maintaining a Tankless Unit in a Cincinnati Home' },
       { kind: 'p', spans: ['A tankless water heater is a professional install. It ties into your water lines and either a gas line and venting or your electrical panel, and it has to be sized correctly to your household’s hot water demand — an undersized unit will disappoint, and a poorly vented gas unit is a safety risk. Once it is in, upkeep is straightforward: an annual flush to clear mineral scale from the heat exchanger keeps it efficient and protects that long lifespan, which our team handles as part of ', { link: 'water heater maintenance', href: '/services/water-heater-maintenance/' }, '.'] },
 
-      { kind: 'h2', text: 'Thinking About Going Tankless? Talk to Degree of Comfort' },
+      { kind: 'h2', text: 'Tankless Water Heater Installation in Cincinnati' },
       { kind: 'p', spans: ['If you are tired of running out of hot water or want back the space a tank is taking up, a ', { link: 'tankless water heater', href: '/services/tankless-water-heater/' }, ' is worth a serious look. Degree of Comfort can size, install, and maintain the right unit for your home. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Ready for endless hot water? Call ', { strong: '(513) 586-5107' }, ', ask about tankless installation, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -2784,10 +2831,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'how-a-whole-home-humidifier-works-everything-you-need-to-know',
-    title: 'How a Whole-Home Humidifier Works: Everything You Need to Know',
+    title: 'How a Whole-Home Humidifier Works in Cincinnati Homes',
+    seoTitle: 'Whole-Home Humidifiers in Cincinnati Homes',
     category: 'Home Tips',
     excerpt:
-      'A whole-home humidifier adds moisture to your air through the HVAC system, treating every room at once. How it works, why balanced humidity matters, and what it costs to run.',
+      'A whole-home humidifier adds moisture through your HVAC system, treating every room of your Cincinnati home at once. How it works and why humidity matters.',
     date: '2025-12-26',
     dateModified: '2026-03-20',
     readMinutes: 8,
@@ -2809,9 +2857,9 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'How a Whole-Home Humidifier Works' },
       { kind: 'p', spans: ['A whole-home humidifier is built into your ', { link: 'heating', href: '/services/heating/' }, ' and cooling system, connected to both your water supply and your ductwork. As your furnace runs and pushes warm air through the home, the humidifier introduces moisture into that airflow — usually by passing the air across a wet pad or panel — and the ducts carry the now-humidified air to every room. Because it rides on the air your system is already moving, the humidity stays even throughout the house rather than pooling in one spot. A humidistat lets you set the level you want, and the unit adds moisture only when the air needs it.'] },
 
-      { kind: 'h2', text: 'Why Proper Humidity Matters' },
+      { kind: 'h2', text: 'Why Proper Indoor Humidity Matters in Cincinnati Homes' },
       { kind: 'p', spans: ['Indoor air is most comfortable somewhere around 30 to 50 percent relative humidity. Too dry — common in winter when heating strips moisture out of the air — and you get itchy skin, chapped lips, irritated sinuses, static shocks, and cracking in wood floors, trim, and furniture. Too humid, and you invite condensation and mold. A whole-home humidifier holds the balance in that healthy middle, which is easier on your body and your house. For the full picture of what dry air does and how to fix it, see our guide on ', { link: 'coping with dry indoor air in winter', href: '/how-to-cope-with-dry-indoor-air-during-winter/' }, '.'] },
-      { kind: 'h3', text: 'The Effect on Your Energy Bill' },
+      { kind: 'h3', text: 'A Humidifier’s Effect on Your Energy Bill' },
       { kind: 'p', spans: ['This surprises people: a whole-home humidifier can actually help your heating bill. It draws very little electricity compared with the furnace it works alongside, and because moist air feels warmer than dry air at the same temperature, you can often set the thermostat a couple of degrees lower and stay just as comfortable. Over a winter, that small setback adds up, offsetting much of the humidifier’s own tiny energy use.'] },
 
       { kind: 'h2', text: 'The Main Types of Whole-Home Humidifiers' },
@@ -2823,13 +2871,13 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Steam Humidifiers' },
       { kind: 'p', spans: ['A steam humidifier heats water to create steam and injects it into the airflow. It delivers the most moisture, the most precise control, and works independently of whether the furnace is heating — the trade-off is that it uses more energy and costs more upfront. It is the best fit for very dry climates or larger homes that need serious output.'] },
 
-      { kind: 'h2', text: 'Whole-Home vs. Portable Humidifiers' },
+      { kind: 'h2', text: 'Whole-Home vs. Portable Humidifiers for Cincinnati Homes' },
       { kind: 'p', spans: ['A portable humidifier is fine for a single bedroom, but it only treats the room it is in, needs constant refilling, and has to be cleaned often to avoid mold and mineral buildup. A whole-home unit treats the entire house from one place, runs off your plumbing so there are no tanks to fill, and holds a consistent humidity level everywhere automatically. For anything beyond one room, the whole-home approach is far less hassle and far more effective. It pairs naturally with other ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' upgrades like an ', { link: 'air purifier', href: '/what-are-the-benefits-of-having-an-air-purifier/' }, '.'] },
 
-      { kind: 'h2', text: 'Installation and Maintenance' },
+      { kind: 'h2', text: 'Whole-Home Humidifier Installation and Maintenance' },
       { kind: 'p', spans: ['A whole-home humidifier is installed by a professional directly into your HVAC system and water line — it involves ductwork, a water connection, and wiring, so it is not a DIY project. Once in, upkeep is light: the water panel or pad is typically replaced once a year, and the unit gets a quick check during your annual ', { link: 'HVAC maintenance', href: '/services/furnace-maintenance/' }, ' visit. That small amount of care keeps it running efficiently and the air consistently comfortable.'] },
 
-      { kind: 'h2', text: 'Add Whole-Home Comfort With Degree of Comfort' },
+      { kind: 'h2', text: 'Add a Whole-Home Humidifier in Cincinnati' },
       { kind: 'p', spans: ['If dry winter air, static, or cracking woodwork are wearing on your household, a whole-home humidifier is one of the more worthwhile comfort upgrades you can make. Degree of Comfort can recommend, size, and install the right unit for your home. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Ready for comfortable air in every room? Call ', { strong: '(513) 586-5107' }, ', ask about a whole-home humidifier and ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -2846,10 +2894,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'snaking-vs-hydro-jetting-which-option-is-right-for-you',
-    title: 'Snaking vs. Hydro Jetting: Which Option Is Right for You?',
+    title: 'Snaking vs. Hydro Jetting: Which Is Right for Your Cincinnati Home?',
+    seoTitle: 'Snaking vs. Hydro Jetting in Cincinnati',
     category: 'Plumbing',
     excerpt:
-      'Snaking punches through a clog; hydro jetting scours the whole pipe clean. Which one you need comes down to the clog, your pipes, and how often it happens.',
+      'Snaking vs. hydro jetting: snaking punches through a clog, jetting scours the pipe clean. How Cincinnati homeowners choose by clog, pipe age and repeats.',
     date: '2025-10-10',
     dateModified: '2025-10-10',
     readMinutes: 7,
@@ -2875,13 +2924,13 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Hydro Jetting' },
       { kind: 'p', spans: ['Hydro jetting sends a high-pressure stream of water — often several thousand PSI — through a specialized nozzle down the line. Instead of just poking a hole, the water blasts away grease, sludge, mineral scale, and even tree roots, and scours the pipe walls back to near-clean. It clears the whole diameter of the pipe, not just a channel through the middle.'] },
 
-      { kind: 'h2', text: 'The Pros and Cons of Each' },
+      { kind: 'h2', text: 'Pros and Cons of Snaking and Hydro Jetting for Cincinnati Homes' },
       { kind: 'h3', text: 'Where Hydro Jetting Wins' },
       { kind: 'p', spans: ['Hydro jetting is the more thorough of the two. It handles the stubborn stuff snaking struggles with — heavy grease buildup, years of sludge, and ', { link: 'tree roots', href: '/services/sewer-repair-replacement/' }, ' in a sewer line — and because it cleans the full pipe wall, the results last longer before the next clog. The trade-offs: it costs more, and the high pressure is not right for every pipe.'] },
       { kind: 'h3', text: 'Where Snaking Wins' },
       { kind: 'p', spans: ['Snaking is less expensive and gentler, which makes it the safer choice for older or fragile pipes that high pressure could damage. It is ideal for a simple, one-off clog in a single fixture. The downside is that it often just clears a path through the blockage rather than removing all of it, so grease or roots can build right back up.'] },
 
-      { kind: 'h2', text: 'How to Choose Between Them' },
+      { kind: 'h2', text: 'How to Choose Between Snaking and Hydro Jetting in Cincinnati' },
       { kind: 'p', spans: ['Three factors point you toward the right method.'] },
       { kind: 'h3', text: 'The Type of Clog' },
       { kind: 'p', spans: ['A simple, localized clog — hair in a bathroom drain, food in a kitchen line — is a job for snaking. Heavy grease, sludge coating the pipe, or roots invading a ', { link: 'main sewer line', href: '/how-do-you-know-if-your-main-drain-is-clogged/' }, ' call for hydro jetting to actually remove the problem.'] },
@@ -2890,10 +2939,10 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'How Often Clogs Come Back' },
       { kind: 'p', spans: ['If you are snaking the same drain every few months, that is a sign a channel is being cleared but the underlying buildup is not. Hydro jetting removes the root cause by cleaning the whole pipe, which usually breaks the cycle of recurring clogs.'] },
 
-      { kind: 'h2', text: 'The Bottom Line' },
+      { kind: 'h2', text: 'The Bottom Line on Snaking vs. Hydro Jetting' },
       { kind: 'p', spans: ['For most single, simple clogs, snaking is the fast, affordable fix. For stubborn buildup, roots, or clogs that keep returning — and when the pipes are sound enough to handle it — hydro jetting is the more complete, longer-lasting solution. The surest way to know is a camera inspection, which shows exactly what is in the line and what shape the pipe is in. If your home has a ', { link: 'cleanout', href: '/what-is-a-main-drain-cleanout-why-do-you-need-one/' }, ', that camera and jetting work is quick and easy.'] },
 
-      { kind: 'h2', text: 'Not Sure Which You Need? Ask Degree of Comfort' },
+      { kind: 'h2', text: 'Drain Snaking and Hydro Jetting in Cincinnati' },
       { kind: 'p', spans: ['A quick assessment takes the guesswork out of it. Degree of Comfort runs a camera to see the clog, then clears it the right way — snaking or hydro jetting — without over-selling. We handle all ', { link: 'drain and sewer', href: '/services/drains/' }, ' work for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Got a clog that will not quit? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -2907,10 +2956,10 @@ export const posts: Post[] = [
   },
   {
     slug: 'how-long-do-furnaces-last',
-    title: 'How Long Do Furnaces Last?',
+    title: 'How Long Do Furnaces Last in Cincinnati?',
     category: 'Heating',
     excerpt:
-      'Most furnaces last 15 to 20 years — but maintenance, fuel type, and use all move that number. How to know where yours stands and when to replace it.',
+      'Furnaces in Cincinnati last 15 to 20 years, but maintenance, fuel type and use all move that number. How to tell where yours stands and when to replace it.',
     date: '2026-01-09',
     dateModified: '2026-03-04',
     readMinutes: 8,
@@ -2929,10 +2978,10 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['Most furnaces last 15 to 20 years. Gas furnaces typically run 10 to 20 years, and well-maintained electric units often go beyond 20. But the real answer depends on how it was installed, how hard it works, and — more than anything — how well it has been maintained. Here is how to tell where your furnace stands and when it is time to plan a replacement.'] },
 
-      { kind: 'h2', text: 'The Average Lifespan of a Furnace' },
+      { kind: 'h2', text: 'The Average Furnace Lifespan in Cincinnati' },
       { kind: 'p', spans: ['A furnace that gets an annual tune-up and a fresh filter on schedule can reach the top of its range and beyond. One that is neglected can fail years early. Fuel type matters too: gas furnaces have more moving parts and combustion components that wear, while electric furnaces are simpler and tend to last longer. Where you live plays a role as well — a furnace working overtime through long, cold winters ages faster than one in a mild climate. If you do not know how old yours is, check the manufacturer’s label inside the unit for a date.'] },
 
-      { kind: 'h2', text: 'Signs It May Be Time to Replace' },
+      { kind: 'h2', text: 'Signs It May Be Time to Replace Your Furnace' },
       { kind: 'p', spans: ['Age is only part of the picture. These are the signals that a furnace is near the end, especially once it is past 15 years old.'] },
       { kind: 'h3', text: 'Frequent or Costly Repairs' },
       { kind: 'p', spans: ['An occasional fix is normal, but when you are calling for ', { link: 'furnace repair', href: '/services/furnace-repair/' }, ' every season — or facing one big repair on an old unit — the money is better put toward a replacement that will not keep breaking down.'] },
@@ -2941,10 +2990,10 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Strange Noises or Smells' },
       { kind: 'p', spans: ['Banging, rattling, or squealing, along with persistent odors, signal worn or failing parts. On an older furnace these are often a sign the system is wearing out rather than having a simple, one-time problem.'] },
 
-      { kind: 'h2', text: 'Repair or Replace? A Simple Rule' },
+      { kind: 'h2', text: 'A Simple Repair-or-Replace Rule for Furnaces' },
       { kind: 'p', spans: ['When a repair comes up on an older furnace, a useful rule of thumb helps: if the repair costs more than about half the price of a new system, or if the furnace is past 15 years and the repairs are stacking up, replacement is usually the smarter spend. A newer, high-efficiency unit is more reliable and cheaper to run, so you stop paying to keep an aging system limping along. A newer furnace with a small, one-time problem, on the other hand, is worth fixing. When it is a close call, an honest technician can lay out the numbers so you are not guessing.'] },
 
-      { kind: 'h2', text: 'Why Replacing Early Can Pay Off' },
+      { kind: 'h2', text: 'Why Replacing a Furnace Early Can Pay Off in Cincinnati' },
       { kind: 'p', spans: ['Waiting until a furnace dies in January is the most expensive way to replace one. Doing it on your terms, a little early, has real advantages.'] },
       { kind: 'h3', text: 'Lower Energy Bills' },
       { kind: 'p', spans: ['Modern high-efficiency furnaces use far less fuel than a unit from 15 or 20 years ago. Over a heating season, that efficiency shows up directly as lower bills, which offsets a meaningful share of the replacement cost.'] },
@@ -2958,7 +3007,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'Remember: Your Furnace Runs All Day, Every Day' },
       { kind: 'p', spans: ['In the heart of winter, your furnace runs around the clock, and all that run time adds up as wear. That is exactly why maintenance matters so much — a yearly tune-up, clean filters, and prompt small repairs are what carry a furnace to the top of its lifespan instead of cutting it short. Keeping up with ', { link: 'filter changes', href: '/how-often-should-i-change-my-furnace-filter/' }, ' and annual service is the cheapest way to protect the investment. The same repair-versus-replace math applies to cooling, too, as our guide on ', { link: 'replacing an old air conditioner', href: '/should-i-replace-my-old-air-conditioner/' }, ' covers.'] },
 
-      { kind: 'h2', text: 'Time to Replace? Talk to Degree of Comfort' },
+      { kind: 'h2', text: 'Furnace Replacement in Cincinnati' },
       { kind: 'p', spans: ['If your furnace is past 15 years or showing the signs, Degree of Comfort will give you an honest assessment — including when a repair still makes sense. We handle furnace ', { link: 'repair', href: '/services/furnace-repair/' }, ', maintenance, and ', { link: 'replacement', href: '/services/furnace-installation-replacement/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Wondering how much life is left in yours? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'heating', href: '/services/heating/' }, ' service, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will give you a straight answer.'] },
     ],
@@ -2975,10 +3024,11 @@ export const posts: Post[] = [
   },
   {
     slug: '5-tips-to-make-sure-your-pipes-dont-freeze',
-    title: '5 Tips to Make Sure Your Pipes Don’t Freeze',
+    title: '5 Tips to Make Sure Your Pipes Don’t Freeze in Cincinnati',
+    seoTitle: '5 Tips to Stop Frozen Pipes in Cincinnati',
     category: 'Plumbing',
     excerpt:
-      'A frozen pipe can flood your home in minutes — but preventing one is cheap and easy. Five simple things to do before the temperature drops.',
+      'Tips to keep your pipes from freezing in Cincinnati. A frozen pipe can flood a home in minutes, and preventing one is cheap. Five steps before the cold.',
     date: '2025-11-07',
     dateModified: '2025-11-07',
     readMinutes: 7,
@@ -2998,7 +3048,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A frozen pipe is one of winter’s most expensive home emergencies — when it bursts, it can flood a room with hundreds of gallons in minutes. The good news is that preventing one is cheap and easy, and these five habits head off almost every freeze before it starts.'] },
       { kind: 'p', spans: ['Here are five simple ways to keep your pipes from freezing. (If yours are already frozen, our guide on ', { link: 'whether to shut off the water', href: '/should-you-turn-off-the-water-if-pipes-are-frozen/' }, ' walks through what to do right now.)'] },
 
-      { kind: 'h2', text: 'Why Preventing Frozen Pipes Matters' },
+      { kind: 'h2', text: 'Why Preventing Frozen Pipes Matters in Cincinnati' },
       { kind: 'p', spans: ['It is worth understanding the stakes, because they are higher than most people realize. When water freezes it expands, and that expansion puts intense pressure on the pipe until it cracks or splits. The pipe often holds while frozen, then bursts as it thaws — and a burst supply line can release several gallons a minute, soaking floors, walls, ceilings, and belongings before you even notice. The repair, the water cleanup, and the damaged drywall and flooring add up fast. Against all that, an afternoon of prevention is one of the best trades you can make as a homeowner.'] },
 
       { kind: 'h2', text: '1. Keep Your Home Warm and Sealed' },
@@ -3007,19 +3057,19 @@ export const posts: Post[] = [
       { kind: 'h2', text: '2. Insulate Your Pipes' },
       { kind: 'p', spans: ['Pipes running through unheated spaces — the basement, crawlspace, garage, attic, and exterior walls — are the ones that freeze. Wrap them with foam pipe sleeves, which cost only a few dollars, slip right on, and are easy to fit yourself. For pipes in especially cold spots, or ones that have frozen before, heat tape (a thermostat-controlled heating cable) adds a reliable extra layer of protection. Improving the insulation in those areas overall helps too, keeping the whole space warmer around the plumbing. Do not overlook outdoor spigots and any lines to a hose bib — drain and cover them before the first hard freeze.'] },
 
-      { kind: 'h2', text: '3. Let Vulnerable Faucets Drip' },
+      { kind: 'h2', text: '3. Let Vulnerable Faucets Drip on Cold Cincinnati Nights' },
       { kind: 'p', spans: ['On the coldest nights, open the faucets fed by at-risk pipes just enough for a slow trickle. Moving water is far harder to freeze than still water, and the open tap also relieves pressure so that even if some ice forms, the pipe is much less likely to burst. Focus on faucets on exterior walls or in unheated areas — those are the ones worth the little bit of wasted water.'] },
 
-      { kind: 'h2', text: '4. Open Cabinet Doors' },
+      { kind: 'h2', text: '4. Open Sink Cabinet Doors' },
       { kind: 'p', spans: ['The pipes under your kitchen and bathroom sinks often sit against a cold exterior wall, tucked inside a closed cabinet that blocks your home’s warm air. On cold nights, open those cabinet doors so heat can circulate around the pipes. If you have young children or pets, just move any cleaners or chemicals out of reach first so the open cabinet stays safe.'] },
 
-      { kind: 'h2', text: '5. Be Ready for an Emergency' },
+      { kind: 'h2', text: '5. Be Ready for a Burst Pipe Emergency' },
       { kind: 'p', spans: ['Even with precautions, a hard freeze can catch a pipe you missed — so know your plan before you need it. Find your main water shutoff valve now (usually where the line enters the home, often near the water heater) so you can cut the water fast if a pipe bursts. Keep basic tools and a trusted plumber’s number handy. And if you head out of town in winter, either keep the heat on or have the plumbing properly drained. For a home that freezes up year after year, our ', { link: 'plumbing', href: '/services/plumbing/' }, ' team can find and fix the weak spots so it stops happening.'] },
 
-      { kind: 'h2', text: 'When to Call a Professional' },
+      { kind: 'h2', text: 'When to Call a Cincinnati Plumber' },
       { kind: 'p', spans: ['If you are not sure which pipes are at risk, your home has a history of freezing, or you want it properly winterized before a long trip, a licensed plumber can insulate the vulnerable runs, add heat tape, and seal the drafts for good. And if a pipe does freeze or burst, that is the time to call right away — the sooner the water is off and the line is handled, the less damage you deal with. A burst pipe is an ', { link: 'emergency plumbing', href: '/services/emergency-plumbing/' }, ' situation.'] },
 
-      { kind: 'h2', text: 'Keep Your Pipes Safe With Degree of Comfort' },
+      { kind: 'h2', text: 'Frozen Pipe Repair in Cincinnati' },
       { kind: 'p', spans: ['Whether you want your home winterized or you are dealing with a frozen or burst pipe right now, Degree of Comfort can help. We handle ', { link: 'pipe insulation, repair, and replacement', href: '/services/pipe-repair-replacement/' }, ' for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want peace of mind before the cold hits? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'plumbing', href: '/services/plumbing/' }, ' winterization, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -3033,10 +3083,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'should-you-turn-off-the-water-if-pipes-are-frozen',
-    title: 'Should You Turn Off the Water if Pipes Are Frozen?',
+    title: 'Frozen Pipes in Cincinnati: Should You Turn Off the Water?',
+    seoTitle: 'Turn Off the Water for Frozen Pipes in Cincinnati',
     category: 'Plumbing',
     excerpt:
-      'Short answer: yes. Shutting off the main water when pipes freeze relieves pressure and limits the damage if one bursts. Here is exactly what to do, step by step.',
+      'Yes. When pipes freeze in Cincinnati, shutting off the main water relieves pressure and limits the damage if one bursts. Here is what to do, step by step.',
     date: '2025-11-04',
     dateModified: '2025-11-04',
     readMinutes: 7,
@@ -3056,10 +3107,10 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Yes. If your pipes freeze, turning off the main water supply is the right first move. It reduces the pressure building behind the ice, and if a pipe has already cracked, it limits how much water floods your home the moment it thaws. A frozen pipe is really a burst pipe waiting to happen, and shutting off the water is how you get ahead of it.'] },
       { kind: 'p', spans: ['Here is why it matters and exactly what to do, step by step.'] },
 
-      { kind: 'h2', text: 'Why Shutting Off the Water Matters' },
+      { kind: 'h2', text: 'Why Shutting Off the Water Matters for Frozen Pipes' },
       { kind: 'p', spans: ['When water freezes it expands, and that expansion puts enormous pressure on the pipe from the inside. The pipe can crack or split, but often it holds while frozen — then bursts as it thaws and water rushes back through the break. Shutting off the main supply does three things: it relieves the pressure so a stressed pipe is less likely to fail, it minimizes flooding if a pipe has already cracked, and it removes the safety hazard of water spraying near electrical or in a finished space. A burst pipe can release hundreds of gallons fast, so getting the water off early is what saves you from major ', { link: 'water damage', href: '/services/leak-repair/' }, '.'] },
 
-      { kind: 'h2', text: 'What to Do When Your Pipes Freeze' },
+      { kind: 'h2', text: 'What to Do When Pipes Freeze in Your Cincinnati Home' },
       { kind: 'p', spans: ['Work through these steps in order. Stay calm — most frozen pipes can be handled safely if you act quickly.'] },
       { kind: 'h3', text: '1. Find the Frozen Section' },
       { kind: 'p', spans: ['A frozen pipe usually gives itself away: no water or just a trickle from a faucet, frost or condensation on the pipe, or a visible bulge. Check the coldest, least-heated spots first — exterior walls, the basement, crawlspace, garage, and under sinks. Knowing where the freeze is tells you where to focus the thawing.'] },
@@ -3077,7 +3128,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'How to Keep Pipes From Freezing' },
       { kind: 'p', spans: ['Prevention beats a burst every time. Insulate exposed pipes in unheated areas with foam sleeves, seal drafts near the plumbing, and keep the thermostat set no lower than about 55°F even when you are away. On the coldest nights, let a faucet drip slightly — moving water is much harder to freeze — and open cabinet doors so warm air reaches the pipes under sinks. For homes that freeze up repeatedly, our ', { link: 'plumbing', href: '/services/plumbing/' }, ' team can pinpoint the vulnerable spots and fix them for good.'] },
 
-      { kind: 'h2', text: 'Frozen or Burst Pipe? Call Degree of Comfort' },
+      { kind: 'h2', text: 'Frozen and Burst Pipe Repair in Cincinnati' },
       { kind: 'p', spans: ['A frozen pipe can turn into a flooded home fast, and it is not always a job to tackle alone. Degree of Comfort handles frozen, cracked, and burst pipes, and offers ', { link: 'emergency plumbing', href: '/services/emergency-plumbing/' }, ' when you need it most. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Dealing with a frozen or burst pipe? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'plumbing repair', href: '/services/plumbing-repair/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -3091,10 +3142,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'why-is-my-toilet-leaking',
-    title: 'Why Is My Toilet Leaking?',
+    title: 'Why Is My Toilet Leaking? Causes and Fixes for Cincinnati Homes',
+    seoTitle: 'Toilet Leaking in Cincinnati: Causes and Fixes',
     category: 'Plumbing',
     excerpt:
-      'Where the toilet leaks tells you what is wrong — water at the base means the wax ring, a constant run means the flapper or fill valve. How to find and fix it.',
+      'Why a toilet leaks: water at the base means the wax ring, a constant run means the flapper or fill valve. How to find and fix it in Cincinnati homes.',
     date: '2025-12-16',
     dateModified: '2025-12-16',
     readMinutes: 8,
@@ -3114,7 +3166,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A leaking toilet is almost always one of a few worn parts, and the location of the leak tells you which one. Water pooling around the base usually means the wax ring; a toilet that constantly runs or trickles into the bowl points to the flapper or fill valve inside the tank. The good news is that most of these are cheap parts and straightforward fixes.'] },
       { kind: 'p', spans: ['Here is how to find where your toilet is leaking, what causes each type, and how to fix it.'] },
 
-      { kind: 'h2', text: 'Where Is the Leak Coming From?' },
+      { kind: 'h2', text: 'Where Is the Toilet Leak Coming From in Your Cincinnati Home?' },
       { kind: 'p', spans: ['Before anything else, pin down the location. Water on the floor around the base is a different problem than a toilet you can hear running long after a flush. Base leaks point to the seal underneath; tank-to-bowl leaks point to the flapper or fill valve inside. Once you know which, the fix is usually clear.'] },
       { kind: 'p', spans: ['One quick thing to rule out first: in humid weather, water on the floor is sometimes just condensation dripping off a cold tank, not a leak at all. Wipe the toilet dry and watch where the water actually returns — if it pools only at the base after a flush, it is a seal problem; if it beads all over the tank, it is sweating, which is a comfort fix rather than a repair.'] },
 
@@ -3127,16 +3179,16 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'The Fill Valve (Overflow and Running Water)' },
       { kind: 'p', spans: ['The fill valve refills the tank after a flush and shuts off at the right level. If the float is set too high or the valve fails, water keeps running and can spill into the overflow tube, so the toilet never stops filling. Adjusting the float to the correct level often solves it; if the valve itself is worn, replacing it does.'] },
 
-      { kind: 'h2', text: 'Find Hidden Leaks With Dye Tablets' },
+      { kind: 'h2', text: 'Find Hidden Toilet Leaks With Dye Tablets' },
       { kind: 'p', spans: ['Not every leak is obvious. To check for a silent tank-to-bowl leak, drop a leak-detection dye tablet (or a few drops of food coloring) into the tank and wait about 15 minutes without flushing. If colored water shows up in the bowl, you have a flapper or seal leak quietly wasting water. It is a quick, cheap test that catches the leaks you cannot hear.'] },
 
-      { kind: 'h2', text: 'When to Call a Professional' },
+      { kind: 'h2', text: 'When to Call a Plumber in Cincinnati' },
       { kind: 'p', spans: ['Many tank-part swaps are DIY-friendly, but call a plumber when the leak is at the base, when it continues after you have replaced the flapper or fill valve, when water is reaching the floor or subfloor, or when the toilet rocks or feels loose. A pro can reset the toilet, replace the wax ring, and confirm there is no hidden ', { link: 'water damage or further leak', href: '/services/leak-repair/' }, ' underneath. There is no shame in it — a base leak that soaks the floor costs far more than the repair.'] },
 
-      { kind: 'h2', text: 'Preventing Future Toilet Leaks' },
+      { kind: 'h2', text: 'Preventing Future Toilet Leaks in Cincinnati Homes' },
       { kind: 'p', spans: ['A little attention goes a long way. Every few months, check the flapper and fill valve for wear, make sure the toilet is not rocking, and listen for the sound of running water that should not be there. Catching a worn flapper or a loosening base early keeps a cheap part from turning into a wasted-water bill or a damaged floor. The same habit pays off across your whole home, as our guide on ', { link: 'plumbing upgrades that add value', href: '/plumbing-upgrades-to-increase-home-value/' }, ' covers.'] },
 
-      { kind: 'h2', text: 'Stop the Leak With Degree of Comfort' },
+      { kind: 'h2', text: 'Toilet Leak Repair in Cincinnati' },
       { kind: 'p', spans: ['Whether it is a running tank or water pooling at the base, Degree of Comfort can find the source and fix it for good. We handle toilet and all other ', { link: 'plumbing', href: '/services/plumbing/' }, ' repairs for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Dealing with a leaky toilet? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'plumbing repair', href: '/services/plumbing-repair/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -3150,10 +3202,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'do-you-really-need-ac-maintenance-are-ac-tune-ups-worth-it',
-    title: 'Do You Really Need AC Maintenance? Are AC Tune-Ups Worth It?',
+    title: 'Do You Really Need AC Maintenance in Cincinnati? Are AC Tune-Ups Worth It?',
+    seoTitle: 'Are AC Tune-Ups Worth It in Cincinnati?',
     category: 'Cooling',
     excerpt:
-      'Short answer: yes. A yearly tune-up costs a fraction of a repair and pays you back in lower bills and a longer-lasting system. Here is the honest cost-benefit.',
+      'AC maintenance in Cincinnati is worth it: a yearly tune-up costs a fraction of a repair and pays you back in lower bills and a longer-lasting system.',
     date: '2026-03-09',
     dateModified: '2026-03-09',
     readMinutes: 9,
@@ -3178,7 +3231,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'What a Tune-Up Includes' },
       { kind: 'p', spans: ['A thorough tune-up covers the whole system: checking and replacing the air filter, cleaning the condenser and evaporator coils, testing electrical connections and the capacitor, inspecting the fan and blower, checking refrigerant levels and lines, clearing the condensate drain, and clearing debris from around the outdoor unit. The technician also confirms the system is cooling correctly and flags anything starting to wear so you can plan a fix on your terms.'] },
 
-      { kind: 'h2', text: 'The Benefits of Regular AC Maintenance' },
+      { kind: 'h2', text: 'Benefits of Regular AC Maintenance in Cincinnati' },
       { kind: 'p', spans: ['The value adds up across the whole life of the system. The most immediate payoff is lower energy bills — a clean, properly charged system cools your home with less run time, so you feel the savings every month. Close behind is a longer lifespan: reducing wear and strain is what lets a unit reach the high end of its 10-to-15-year range instead of failing early.'] },
       { kind: 'p', spans: ['Maintenance also improves your ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' through clean coils and a fresh filter, cuts repair costs by catching small issues before they cascade, keeps the system at peak cooling performance on the hottest days, and makes it far more reliable when you depend on it most. Our guide on ', { link: 'extending the life of your AC', href: '/how-to-extend-the-life-of-your-ac-unit/' }, ' digs deeper into that longevity payoff.'] },
 
@@ -3188,14 +3241,14 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'AC Maintenance: DIY vs. Professional' },
       { kind: 'p', spans: ['There is a real split here. You can and should handle the basics yourself — change the air filter every one to three months, keep the outdoor unit clear of leaves and debris, and make sure vents are open and unblocked. But the core of a tune-up needs a professional: checking refrigerant, testing electrical components, cleaning coils properly, and diagnosing wear takes training, tools, and safety know-how a homeowner does not have. Think of your DIY work as keeping the system clean between the professional visits that actually service it.'] },
 
-      { kind: 'h2', text: 'How Often Should You Get an AC Tune-Up?' },
+      { kind: 'h2', text: 'How Often Cincinnati Homeowners Should Get an AC Tune-Up' },
       { kind: 'p', spans: ['Once a year for most homes, ideally in spring before cooling season starts, so any problem is found and fixed before the heat arrives. Homes in very hot climates, or with pets and heavy use, can benefit from a second visit. If your system also doubles as a ', { link: 'heat pump', href: '/services/air-conditioning/' }, ' running year-round, twice-yearly service makes sense.'] },
 
-      { kind: 'h2', text: 'Cost vs. Benefit: Is It Really Worth It?' },
+      { kind: 'h2', text: 'AC Tune-Up Cost vs. Benefit in Cincinnati' },
       { kind: 'p', spans: ['Here is the honest math. A tune-up is a modest, predictable cost. Against it, weigh an emergency repair, a summer without cooling, higher monthly bills from an inefficient system, and a replacement that arrives years sooner than it should. Maintenance does not eliminate every repair, and we will not pretend it does — but it dramatically lowers the odds of the big, expensive ones, and the energy savings alone often cover much of the cost. For the rare case where a system is already failing, a tune-up is not a rescue, and we will tell you honestly when ', { link: 'replacement', href: '/should-i-replace-my-old-air-conditioner/' }, ' is the smarter spend. For everyone else, it is one of the better-value things you can do for your home.'] },
       { kind: 'p', spans: ['One more way to think about it: many manufacturers require documented annual maintenance to keep the warranty valid, so skipping tune-ups can leave you paying full price for a repair that should have been covered. Between the warranty protection, the energy savings, and the breakdowns avoided, a tune-up tends to pay for itself well before the season is over.'] },
 
-      { kind: 'h2', text: 'Keep Your AC in Top Shape With Degree of Comfort' },
+      { kind: 'h2', text: 'AC Maintenance in Cincinnati From Degree of Comfort' },
       { kind: 'p', spans: ['If your air conditioner is due for a tune-up, Degree of Comfort can get it ready before the heat hits — and give you a straight answer on its condition. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Ready to schedule? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -3212,10 +3265,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'what-is-a-main-drain-cleanout-why-do-you-need-one',
-    title: 'What Is a Main Drain Cleanout? Why Do You Need One?',
+    title: 'What Is a Main Drain Cleanout? Why Cincinnati Homes Need One',
+    seoTitle: 'Main Drain Cleanouts in Cincinnati Homes',
     category: 'Plumbing',
     excerpt:
-      'A main drain cleanout is the capped access point to your sewer line — and the difference between a quick clog clearing and tearing into the house. Here is why it matters.',
+      'A main drain cleanout is the capped access point to a Cincinnati home’s sewer line, and the difference between a quick clog fix and tearing into walls.',
     date: '2025-09-26',
     dateModified: '2025-09-26',
     readMinutes: 8,
@@ -3237,14 +3291,14 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'What Is a Main Drain Cleanout?' },
       { kind: 'p', spans: ['Every drain in your home feeds into the main sewer line that carries waste out to the municipal sewer or your septic system. The cleanout is a capped opening into that line, installed specifically so a plumber can get in to inspect it, run a camera, and clear blockages. Without one, reaching the main line means going in through a fixture or, in the worst case, cutting into the pipe — slower, messier, and more expensive.'] },
-      { kind: 'h3', text: 'How to Find Yours' },
+      { kind: 'h3', text: 'How to Find Your Main Drain Cleanout' },
       { kind: 'p', spans: ['A cleanout looks like a short, capped section of pipe — usually white PVC or older cast iron — with a threaded or square-topped cap. Look in the basement or crawlspace along the wall where the main line exits, in the yard between the house and the street, or near the foundation. In some homes it is in the garage or just outside an exterior wall. If you cannot find one anywhere, your home may not have an accessible one, which is worth addressing.'] },
 
-      { kind: 'h2', text: 'Why You Want a Cleanout' },
+      { kind: 'h2', text: 'Why You Want a Main Drain Cleanout' },
       { kind: 'p', spans: ['The benefits all come down to fast, accurate, low-damage access to the line you most need to reach in an emergency.'] },
       { kind: 'p', spans: ['It gives a plumber a direct entry point to clear a clog quickly, instead of working through a toilet or sink. It helps prevent sewage backups by making the line easy to maintain before a blockage gets bad. It lowers repair costs, since faster, less invasive work means a smaller bill and no torn-up floors or walls. And it makes advanced tools possible — a cleanout is what lets a plumber run a ', { link: 'sewer camera', href: '/services/sewer-repair-replacement/' }, ' or a hydro jet down the line for a thorough cleaning and an accurate diagnosis. If you have ever dealt with a ', { link: 'clogged main drain', href: '/how-do-you-know-if-your-main-drain-is-clogged/' }, ', you know how much that access is worth.'] },
 
-      { kind: 'h2', text: 'What If Your Home Does Not Have One?' },
+      { kind: 'h2', text: 'What If Your Cincinnati Home Does Not Have a Cleanout?' },
       { kind: 'p', spans: ['Some older homes were built without an accessible cleanout, which turns even a routine clog into a bigger, costlier job. If yours does not have one, installing a cleanout is a worthwhile ', { link: 'plumbing installation', href: '/services/plumbing-installation/' }, ' that pays for itself the first time you face a backup. A plumber can locate the main line and add an access point in the right spot, so future cleaning and inspections are quick and clean.'] },
 
       { kind: 'h2', text: 'DIY vs. Professional Drain Cleaning' },
@@ -3252,10 +3306,10 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'The Value of a Camera Inspection' },
       { kind: 'p', spans: ['The cleanout is also what makes a sewer camera inspection possible, and that is worth its weight. A camera pinpoints exactly where and what the blockage is, spots developing problems like root intrusion or a cracked pipe before they fail, confirms the pipe’s overall condition, and verifies the line is flowing freely after a cleaning. It turns guesswork into a clear picture — and gives you real peace of mind about what is happening underground.'] },
 
-      { kind: 'h2', text: 'Keeping Your Sewer Line Healthy' },
+      { kind: 'h2', text: 'Keeping Your Sewer Line Healthy in Cincinnati' },
       { kind: 'p', spans: ['A cleanout makes maintenance easy, but you still have to use it. For most homes, a professional cleaning or camera inspection every couple of years is plenty, and it is worth doing sooner if you have mature trees near the line, an older clay or cast-iron sewer, or a history of slow drains. Between visits, the everyday habits matter just as much: keep grease, wipes, and anything but toilet paper out of the drains, since those are what build up into a main-line clog over time. Catching a problem early through the cleanout is always cheaper than digging up a failed line later.'] },
 
-      { kind: 'h2', text: 'Protect Your Sewer Line With Degree of Comfort' },
+      { kind: 'h2', text: 'Drain Cleaning and Sewer Line Service in Cincinnati' },
       { kind: 'p', spans: ['Whether you need a cleanout installed, a line cleared, or a camera inspection to see what is going on, Degree of Comfort can help. We handle ', { link: 'drain', href: '/services/drains/' }, ' and sewer service for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want your sewer line checked or a cleanout installed? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ' and inspections, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -3269,10 +3323,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'why-is-my-faucet-dripping-how-to-fix-a-leaky-faucet',
-    title: 'Why Is My Faucet Dripping? How to Fix a Leaky Faucet',
+    title: 'Why Is My Faucet Dripping? How to Fix a Leaky Faucet in Cincinnati',
+    seoTitle: 'How to Fix a Leaky Faucet in Cincinnati',
     category: 'Plumbing',
     excerpt:
-      'That drip is almost always a cheap worn part — a washer, O-ring, or valve seat. What causes it, how to fix it yourself, and when to call a plumber.',
+      'A dripping faucet in Cincinnati is almost always a cheap worn part: a washer, O-ring or valve seat. What causes the drip and how to fix it yourself.',
     date: '2025-10-21',
     dateModified: '2025-10-21',
     readMinutes: 8,
@@ -3295,7 +3350,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'What a Dripping Faucet Really Costs' },
       { kind: 'p', spans: ['It is easy to tune out a drip, but it adds up in ways worth knowing. A faucet dripping about once per second wastes more than 3,000 gallons of water a year — water you are paying for and never use. Beyond the bill, the constant moisture leaves mineral stains and rust spots in the sink, and the underlying wear only gets worse, so a slow drip today becomes a steady stream and a pricier repair later. Fixing it early is the cheap, easy path.'] },
 
-      { kind: 'h2', text: 'Why Is Your Faucet Dripping?' },
+      { kind: 'h2', text: 'Common Causes of a Dripping Faucet' },
       { kind: 'p', spans: ['Track the drip to one of these causes and the fix becomes clear.'] },
       { kind: 'h3', text: 'A Worn-Out Washer' },
       { kind: 'p', spans: ['The most common culprit, especially in older faucets. Every time you turn the tap, the rubber washer presses against the valve seat, and over years of friction it wears down, hardens, or tears until it can no longer seal. Replacing it is cheap and usually stops the drip.'] },
@@ -3308,15 +3363,15 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Know Your Faucet Type' },
       { kind: 'p', spans: ['There are four common types, and they fail differently. Compression faucets (separate hot and cold handles) rely on washers and are the most drip-prone. Cartridge, ball, and disc faucets are washerless and usually leak from a worn cartridge, O-rings, or seals instead. Knowing which you have tells you what part to look at — and is why a one-size repair does not exist.'] },
 
-      { kind: 'h2', text: 'How to Fix a Leaky Faucet' },
+      { kind: 'h2', text: 'How to Fix a Leaky Faucet in Your Cincinnati Home' },
       { kind: 'p', spans: ['For a confident DIYer, many faucet drips are a manageable job. Before anything else, turn off the water at the shutoff valves under the sink and open the tap to release pressure, then plug the drain so small parts cannot fall in.'] },
       { kind: 'p', spans: ['From there, the fix follows the cause. If the leak is around the handle and the packing nut is simply loose, snug it up — sometimes that is all it takes. If a compression faucet has a worn washer, remove the handle and stem and swap in a matching replacement. If the O-rings are dried or cracked, replace them with the exact same size, since an O-ring that is even slightly off will leak again. And if the valve seat is corroded, clean it with a seat wrench or have it replaced, because a new washer will not seal against a pitted seat.'] },
       { kind: 'p', spans: ['Reassemble in the reverse order, turn the water back on slowly, and test. A good habit is to lay the parts out in the order you removed them so reassembly is straightforward, and to take a photo before you start.'] },
 
-      { kind: 'h2', text: 'When to Call a Professional' },
+      { kind: 'h2', text: 'When to Call a Plumber in Cincinnati for a Leaky Faucet' },
       { kind: 'p', spans: ['Plenty of drips are DIY-friendly, but call a plumber when the leak continues after you have replaced the obvious parts, when you cannot pin down where it is coming from, when the valve seat or cartridge is seized or corroded badly, or when an older faucet is simply worn out and due for replacement. A pro can also tell you when a ', { link: 'repair', href: '/services/plumbing-repair/' }, ' makes sense versus a new fixture. There is no shame in it — chasing a stubborn leak yourself can cost more in wasted water and a damaged faucet than the repair would.'] },
 
-      { kind: 'h2', text: 'Stop the Drip With Degree of Comfort' },
+      { kind: 'h2', text: 'Faucet Repair in Cincinnati' },
       { kind: 'p', spans: ['If the drip will not quit or you would rather not take the faucet apart, Degree of Comfort can fix or replace it fast. We handle ', { link: 'faucet repair and replacement', href: '/services/faucet-repair-replacement/' }, ' and all other ', { link: 'plumbing', href: '/services/plumbing/' }, ' needs for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Tired of the drip? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'faucet repair', href: '/services/faucet-repair-replacement/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -3330,10 +3385,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'plumbing-upgrades-to-increase-home-value',
-    title: 'Plumbing Upgrades to Increase Home Value',
+    title: 'Plumbing Upgrades to Increase Home Value in Cincinnati',
+    seoTitle: 'Plumbing Upgrades That Add Value in Cincinnati',
     category: 'Plumbing',
     excerpt:
-      'The plumbing upgrades that actually move the needle on resale — water heaters, water quality, fixtures, and pipes — and which ones are worth doing first.',
+      'The plumbing upgrades that raise home value in Cincinnati: water heaters, water quality, fixtures and pipes, and which ones are worth doing first.',
     date: '2025-11-28',
     dateModified: '2025-11-28',
     readMinutes: 9,
@@ -3353,7 +3409,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['The plumbing upgrades that actually raise home value are the ones buyers notice and inspectors reward: a modern water heater, clean water, updated fixtures, and pipes that will not leak. Done right, they pay you back in resale value and a faster sale — and you get to enjoy them while you live there.'] },
       { kind: 'p', spans: ['Here are the upgrades worth making, why they matter to buyers, and which ones to prioritize.'] },
 
-      { kind: 'h2', text: 'How Plumbing Upgrades Raise Home Value' },
+      { kind: 'h2', text: 'How Plumbing Upgrades Raise Home Value in Cincinnati' },
       { kind: 'p', spans: ['Plumbing is one of those systems buyers do not think about until something is wrong — so when it is clearly updated, it removes a worry rather than adding a feature. Modern plumbing lowers the risk of a costly leak or water-damage disaster, reduces maintenance and utility costs, and simply looks cared for. That combination of reliability and lower cost of ownership is what nudges an offer up and shortens the time a home sits on the market.'] },
       { kind: 'p', spans: ['Two areas carry the most weight. Kitchens and bathrooms are where buyers focus and where dated plumbing is most visible, so updates there pay back the most per dollar. And the invisible systems — the water heater, the pipes — are what an inspector scrutinizes and what can become a negotiating point or a deal-breaker. Upgrades that strengthen both the look and the bones of the home are the ones that hold their value at appraisal.'] },
 
@@ -3368,22 +3424,22 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Eco-Friendly Options Buyers Love' },
       { kind: 'p', spans: ['While you are updating fixtures, lean toward water-saving ones. Low-flow faucets and showerheads and dual-flush toilets cut water use and lower the utility bill, which appeals to the growing number of buyers who factor efficiency and running costs into their decision.'] },
 
-      { kind: 'h2', text: 'Upgrade Aging Pipes' },
+      { kind: 'h2', text: 'Upgrade Aging Pipes in Your Cincinnati Home' },
       { kind: 'p', spans: ['It is behind the walls, but it matters. Old galvanized or worn piping is prone to corrosion, low pressure, and leaks, and a savvy buyer (or their inspector) will flag it. Updating to modern piping — or a full ', { link: 'whole-house repipe', href: '/services/whole-house-repiping/' }, ' in an older home — establishes reliable infrastructure that reassures buyers the home will not spring a leak the year after they move in.'] },
 
-      { kind: 'h2', text: 'Stay on Top of Your Drains' },
+      { kind: 'h2', text: 'Stay on Top of Drain Cleaning' },
       { kind: 'p', spans: ['Slow or recurring drain problems read as deferred maintenance, exactly what buyers fear. Keeping drains clear with regular ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ' — and addressing any ', { link: 'main-line clog', href: '/how-do-you-know-if-your-main-drain-is-clogged/' }, ' before it becomes a backup — keeps small issues from turning into red flags during inspection.'] },
 
-      { kind: 'h2', text: 'Do Not Overlook the HVAC' },
+      { kind: 'h2', text: 'Do Not Overlook the HVAC System' },
       { kind: 'p', spans: ['Plumbing and comfort go hand in hand in a buyer’s mind. An efficient, well-maintained ', { link: 'heating', href: '/services/heating/' }, ' and ', { link: 'cooling', href: '/services/air-conditioning/' }, ' system rounds out the picture of an updated, move-in-ready home, and pairs naturally with the energy savings your plumbing upgrades deliver.'] },
 
-      { kind: 'h2', text: 'Where to Start' },
+      { kind: 'h2', text: 'Which Plumbing Upgrade to Start With in Cincinnati' },
       { kind: 'p', spans: ['You do not need to do all of this at once. If you are on a budget or short on time, start with anything that is actively failing or would scare a buyer — an old water heater near the end of its life, visible leaks, or corroded pipes. After that, the inexpensive, high-impact cosmetic updates like fixtures give you the most visible return. Bigger projects like a repipe or a tankless conversion make the most sense if you plan to stay a while and enjoy them, or if the existing system is already due. When in doubt, an honest assessment from a plumber will tell you which upgrades are worth it for your home and which are not.'] },
 
-      { kind: 'h2', text: 'Why Professional Installation Matters' },
+      { kind: 'h2', text: 'Why Professional Plumbing Installation Matters in Cincinnati' },
       { kind: 'p', spans: ['Here is the honest part: a DIY or unpermitted upgrade can hurt value instead of helping it. Work that is not up to code, or done without the proper permits, gets flagged at inspection and can stall or sink a sale. Professional, permitted installation is what makes these upgrades count — it protects the investment, holds up under scrutiny, and comes with the documentation buyers and appraisers want to see.'] },
 
-      { kind: 'h2', text: 'Add Value With Degree of Comfort' },
+      { kind: 'h2', text: 'Plumbing Upgrades in Cincinnati' },
       { kind: 'p', spans: ['Whether you are preparing to sell or just want a home that runs better, Degree of Comfort can handle the plumbing upgrades that pay off — water heaters, water quality, fixtures, repipes, and more. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Ready to invest in your home? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'plumbing', href: '/services/plumbing/' }, ' upgrades, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -3397,10 +3453,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'what-are-the-benefits-of-having-an-air-purifier',
-    title: 'What Are the Benefits of Having an Air Purifier?',
+    title: 'What Are the Benefits of Having an Air Purifier in Your Cincinnati Home?',
+    seoTitle: 'Air Purifier Benefits for Cincinnati Homes',
     category: 'Home Tips',
     excerpt:
-      'Cleaner air you can actually feel — fewer allergy triggers, better sleep, and neutralized odors. What an air purifier does, and whether one is worth it.',
+      'Air purifier benefits in a Cincinnati home: fewer allergy triggers, better sleep and neutralized odors. What a purifier does and whether it is worth it.',
     date: '2026-03-20',
     dateModified: '2026-03-20',
     readMinutes: 8,
@@ -3420,10 +3477,10 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['An air purifier removes the airborne pollutants you cannot see — dust, pollen, pet dander, mold spores, and smoke — and the benefits show up fast: fewer allergy and asthma triggers, better sleep, and a home that simply smells cleaner. For households with allergies, pets, or anyone sensitive to air quality, one is usually well worth it.'] },
       { kind: 'p', spans: ['Here is what an air purifier actually does, the benefits worth knowing, and how to tell whether one makes sense for your home.'] },
 
-      { kind: 'h2', text: 'The Invisible Threat Inside Your Home' },
+      { kind: 'h2', text: 'Airborne Pollutants Inside Cincinnati Homes' },
       { kind: 'p', spans: ['It surprises people, but indoor air is often more polluted than the air outside. Everyday activities — cooking, cleaning, pets, even new furniture and carpet — release particles and chemicals that build up in a closed-up home. Because we spend most of our time indoors, that air adds up, and the effects range from minor irritation like itchy eyes and sneezing to aggravated asthma and longer-term respiratory issues.'] },
 
-      { kind: 'h2', text: 'Why Indoor Air Quality Matters' },
+      { kind: 'h2', text: 'Why Indoor Air Quality Matters for Your Health' },
       { kind: 'p', spans: ['Air quality is not just a comfort issue. Poor indoor air can trigger and worsen asthma and allergies, disrupt sleep, and leave you feeling run down, and there is growing evidence it affects focus and mood too. For children, older adults, and anyone with a respiratory condition, the air at home has a real, daily impact on how they feel — which is why managing your ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' is worth taking seriously.'] },
 
       { kind: 'h2', text: 'The Benefits of a Home Air Purifier' },
@@ -3440,7 +3497,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'What an Air Purifier Will Not Do' },
       { kind: 'p', spans: ['It is worth being honest about the limits, because an air purifier is not a cure-all. It cleans the air, but it will not remove mold already growing on a surface or fix the moisture problem feeding it — that needs to be cleaned and dried at the source. It does not replace regular dusting and vacuuming, and it cannot do much in a drafty, poorly sealed home that is constantly pulling in unfiltered outside air. And a cheap unit without a true HEPA filter, or one too small for the room, will not deliver much benefit at all. Think of a purifier as one strong layer of a healthy home, not the whole answer.'] },
 
-      { kind: 'h2', text: 'Are Air Purifiers Worth It?' },
+      { kind: 'h2', text: 'Are Air Purifiers Worth It in Cincinnati?' },
       { kind: 'p', spans: ['For most homes with allergies, pets, smokers, or air-quality concerns, yes. The key is choosing the right type and size, and matching it to how your home is set up.'] },
       { kind: 'h3', text: 'Filter Types and What They Do' },
       { kind: 'p', spans: ['A true HEPA filter is the standard worth looking for — it captures up to 99.97 percent of particles as small as 0.3 microns, which covers most allergens. An activated carbon filter handles odors and chemicals. The best systems pair both, and they work alongside your regular HVAC filter rather than replacing it, so keeping up with ', { link: 'furnace filter changes', href: '/how-often-should-i-change-my-furnace-filter/' }, ' still matters.'] },
@@ -3449,7 +3506,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Filter Changes and Upkeep' },
       { kind: 'p', spans: ['Like any filtration, a purifier is only as good as its filters. HEPA and carbon filters load up over time and need replacing on the manufacturer’s schedule — typically every several months to a year depending on the model and your air. A clogged filter chokes airflow and stops cleaning the air, so factor the ongoing filter cost into the decision. A whole-home unit usually needs less hands-on attention than juggling several portables, which is part of its appeal.'] },
 
-      { kind: 'h2', text: 'Breathe Easier With Degree of Comfort' },
+      { kind: 'h2', text: 'Indoor Air Quality Service in Cincinnati' },
       { kind: 'p', spans: ['If dust, allergies, odors, or stuffy air are wearing on your household, a whole-home air purifier is one of the most worthwhile upgrades you can make. Degree of Comfort can assess your air quality and recommend, size, and install the right ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' solution for your home. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Ready to clear the air? Call ', { strong: '(513) 586-5107' }, ', ask about a whole-home air purifier, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -3466,10 +3523,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'how-do-you-know-if-your-main-drain-is-clogged',
-    title: 'How Do You Know If Your Main Drain Is Clogged?',
+    title: 'How Do You Know If Your Main Drain Is Clogged in Cincinnati?',
+    seoTitle: 'Clogged Main Drain Signs in Cincinnati',
     category: 'Plumbing',
     excerpt:
-      'The giveaway is more than one drain acting up at once. The warning signs of a clogged main sewer line, what causes it, and when to call before it backs up.',
+      'How to know if your main drain is clogged in Cincinnati: more than one drain acting up at once. Warning signs, causes, and when to call before it backs up.',
     date: '2025-08-07',
     dateModified: '2025-08-07',
     readMinutes: 8,
@@ -3492,7 +3550,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'What Is the Main Drain?' },
       { kind: 'p', spans: ['Every sink, toilet, tub, and appliance in your home empties into one central pipe — the main drain, or main sewer line — that carries the waste out to the municipal sewer or your septic system. Because everything funnels through this one line, a clog here does not affect just one room. It backs up the entire house, which is exactly why a main drain clog is more serious than a slow bathroom sink.'] },
 
-      { kind: 'h2', text: 'Signs Your Main Drain Is Clogged' },
+      { kind: 'h2', text: 'Signs Your Main Drain Is Clogged in a Cincinnati Home' },
       { kind: 'p', spans: ['Any one of these on its own might be a local issue. Two or more together point to the main line.'] },
       { kind: 'h3', text: 'Multiple Slow Drains' },
       { kind: 'p', spans: ['If the sinks, tub, and toilet are all draining slowly at once, the problem is almost certainly the main line rather than each individual fixture. This is the single most reliable sign.'] },
@@ -3505,7 +3563,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Water Backing Up in Odd Places' },
       { kind: 'p', spans: ['Flush a toilet and water rises in the tub, or run the washing machine and the floor drain overflows? When using one fixture pushes water out of another, that cross-talk is a classic main-line clog forcing water to find another way out.'] },
 
-      { kind: 'h2', text: 'What Causes Main Drain Clogs' },
+      { kind: 'h2', text: 'What Causes Main Drain Clogs in Cincinnati' },
       { kind: 'p', spans: ['Knowing the cause helps explain why a main clog often needs professional equipment to clear.'] },
       { kind: 'h3', text: 'Tree Roots' },
       { kind: 'p', spans: ['Roots are drawn to the water and nutrients in sewer lines and work their way in through tiny cracks or joints, then grow until they choke the pipe. They are one of the most common causes of main line clogs in older homes, and clearing them usually takes a powered auger or hydro jetting.'] },
@@ -3522,7 +3580,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'How to Prevent Main Drain Clogs' },
       { kind: 'p', spans: ['Most main clogs build up over time, so prevention works. Schedule periodic professional ', { link: 'drain', href: '/services/drains/' }, ' cleaning if your home is prone to clogs, especially with mature trees on the property. Mind what goes down the drain — no grease, no wipes, and nothing but toilet paper down the toilet. Consider a backwater valve, which stops sewage from flowing back into your home during a municipal backup. And keep an eye on trees near your sewer line, since roots are a leading cause of trouble.'] },
 
-      { kind: 'h2', text: 'Keep Your Plumbing Flowing With Degree of Comfort' },
+      { kind: 'h2', text: 'Main Drain Cleaning in Cincinnati' },
       { kind: 'p', spans: ['A clogged main drain only gets worse and messier the longer it waits. Degree of Comfort can locate the blockage with a camera, clear it with the right equipment, and handle any ', { link: 'sewer line repair', href: '/services/sewer-repair-replacement/' }, ' the inspection turns up. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Seeing the warning signs? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'drain cleaning', href: '/services/drain-cleaning/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -3536,10 +3594,11 @@ export const posts: Post[] = [
   },
   {
     slug: '5-reasons-why-your-air-conditioner-smells-bad',
-    title: '5 Reasons Why Your Air Conditioner Smells Bad',
+    title: '5 Reasons Why Your Air Conditioner Smells Bad in Cincinnati',
+    seoTitle: 'Why Your AC Smells Bad: 5 Causes in Cincinnati',
     category: 'Cooling',
     excerpt:
-      'Musty, rotten, chemical, or burning — the smell coming from your AC tells you exactly what is wrong. Here are the five usual causes and how to fix each.',
+      'A musty, rotten, chemical or burning smell from your AC in Cincinnati points to a specific problem. Here are the five usual causes and how to fix each one.',
     date: '2025-07-23',
     dateModified: '2025-07-23',
     readMinutes: 8,
@@ -3559,13 +3618,13 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A bad smell from your air conditioner almost always traces back to one of five causes — and the kind of smell points straight to which one. Musty means mold, rotten means a pest, chemical means refrigerant, and burning means electrical. Some are a quick fix; one or two mean you should turn the system off and call right away.'] },
       { kind: 'p', spans: ['Here are the five reasons your AC smells bad, what each odor is telling you, and how to clear it.'] },
 
-      { kind: 'h2', text: '1. Mold and Mildew' },
+      { kind: 'h2', text: '1. Mold and Mildew From Cincinnati Humidity' },
       { kind: 'p', spans: ['A musty, damp, or "dirty sock" smell is the most common AC odor, and it means mold or mildew is growing somewhere in the system. Air conditioners pull moisture out of the air, and when that moisture sits on the evaporator coil, in the drain pan, or on a damp filter, mold takes hold and every cycle pushes that smell through your home. Start by replacing the filter and making sure the condensate drain is clear. If the smell lingers, the coil needs a professional cleaning — that is a core part of ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ' and not something to scrub at yourself.'] },
 
       { kind: 'h2', text: '2. A Dirty Air Filter' },
       { kind: 'p', spans: ['Sometimes the smell is simply a filter that has done its job for too long. A clogged filter traps dust, moisture, and debris, restricts airflow, and starts to give off a stale, unpleasant odor that spreads every time the system runs. This one is on you in the best way — changing the filter every 1 to 3 months clears it up and prevents a surprising number of AC problems. If your home runs dusty or anyone has allergies, better filtration and ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' help go further.'] },
 
-      { kind: 'h2', text: '3. Pests in the System' },
+      { kind: 'h2', text: '3. Pests in the AC System' },
       { kind: 'p', spans: ['A rotten, sulfur, or rotten-egg smell often means something died inside the unit or the ductwork. Insects, rodents, or birds sometimes get into the system, and when one does not make it out, the odor is unmistakable as it decays. This is not a pleasant DIY job — a technician can locate the source, remove it, and clean and sanitize the affected area so the smell, and the health risk, are gone for good.'] },
 
       { kind: 'h2', text: '4. A Refrigerant Leak' },
@@ -3574,13 +3633,13 @@ export const posts: Post[] = [
       { kind: 'h2', text: '5. Electrical Problems' },
       { kind: 'p', spans: ['A burning, smoky, or hot-plastic smell is the one to take seriously immediately. It can mean overheating wiring, a failing motor, or a damaged electrical component — any of which is a potential fire hazard. Turn the system off at the thermostat and the breaker, and do not run it again until a professional has inspected it. This is firmly licensed ', { link: 'electrical', href: '/services/electrical/' }, ' and HVAC territory, not a wait-and-see situation.'] },
 
-      { kind: 'h2', text: 'Can a Smelly Air Conditioner Affect Your Health?' },
+      { kind: 'h2', text: 'Health Effects of a Smelly AC in Cincinnati Homes' },
       { kind: 'p', spans: ['It can. Mold spores, dust, and other contaminants circulated by a smelly system can trigger allergies, irritate the eyes and throat, and worsen asthma — especially for children, older adults, and anyone with respiratory issues. A burning electrical smell carries a safety risk of its own. Beyond comfort, clearing the source is about the air everyone in the home is breathing, which is why a lingering AC odor is worth acting on rather than masking.'] },
 
-      { kind: 'h2', text: 'How to Keep the Smells Away' },
+      { kind: 'h2', text: 'How to Keep AC Smells Away in Cincinnati Homes' },
       { kind: 'p', spans: ['Most AC odors are preventable with the same basic care that keeps the system running well: change the filter every 1 to 3 months, keep the condensate drain clear, make sure the outdoor unit is free of debris, and book an annual professional tune-up that cleans the coil and checks the electrical and refrigerant before problems start. Catching a small issue early is far cheaper and easier than chasing a smell after it has settled in.'] },
 
-      { kind: 'h2', text: 'Clear the Air With Degree of Comfort' },
+      { kind: 'h2', text: 'AC Repair in Cincinnati' },
       { kind: 'p', spans: ['If your air conditioner smells bad and a fresh filter has not fixed it, Degree of Comfort can track down the source and clear it safely — from a coil cleaning to a refrigerant or electrical repair. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want it sorted before it spreads? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'AC maintenance or repair', href: '/services/ac-repair/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -3597,10 +3656,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'is-it-worth-it-to-switch-to-a-tankless-water-heater',
-    title: 'Is It Worth It to Switch to a Tankless Water Heater?',
+    title: 'Is It Worth Switching to a Tankless Water Heater in Cincinnati?',
+    seoTitle: 'Is a Tankless Water Heater Worth It in Cincinnati?',
     category: 'Plumbing',
     excerpt:
-      'For many homes, yes — endless hot water, lower bills, and a longer lifespan. But the upfront cost and install are real. How to tell if it pays off for you.',
+      'Switching to a tankless water heater pays off for many Cincinnati homes: endless hot water, lower bills and a longer lifespan. How to tell if yours is one.',
     date: '2025-11-18',
     dateModified: '2025-11-18',
     readMinutes: 9,
@@ -3625,7 +3685,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'How It Works' },
       { kind: 'p', spans: ['When you open a hot-water faucet, a sensor detects the flow and fires up a gas burner or electric element that heats the water as it passes through. Turn the tap off and it stops. There is no tank of water sitting there losing heat and costing you money between uses.'] },
 
-      { kind: 'h2', text: 'The Benefits of Going Tankless' },
+      { kind: 'h2', text: 'The Benefits of Going Tankless in Cincinnati' },
       { kind: 'p', spans: ['This is where tankless earns its reputation. The advantages stack up over the life of the unit.'] },
       { kind: 'h3', text: 'Energy Efficiency' },
       { kind: 'p', spans: ['Because there is no tank to keep hot, you eliminate standby heat loss — the energy a traditional heater burns reheating stored water all day. For most homes that adds up to a noticeably lower monthly bill, especially in households that do not use a huge amount of hot water at once.'] },
@@ -3638,7 +3698,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Lower Risk of Water Damage' },
       { kind: 'p', spans: ['A storage tank holds dozens of gallons that can leak or, in the worst case, rupture and flood a room. With no tank sitting full of water, a tankless unit sharply lowers that risk — a relief if you have ever dealt with a ', { link: 'leaking water heater', href: '/why-is-my-water-heater-leaking-water/' }, '.'] },
 
-      { kind: 'h2', text: 'The Drawbacks to Weigh' },
+      { kind: 'h2', text: 'The Drawbacks of a Tankless Water Heater' },
       { kind: 'p', spans: ['Tankless is not a clear win for everyone. Here is the honest other side.'] },
       { kind: 'h3', text: 'Higher Upfront Cost' },
       { kind: 'p', spans: ['A tankless unit and its installation cost more than a standard tank replacement. The energy savings and longer lifespan usually make up the difference over time, but the day-one price is higher — which is why many homeowners use ', { link: 'financing', href: '/financing' }, ' to spread it out.'] },
@@ -3647,7 +3707,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Flow Rate Limits' },
       { kind: 'p', spans: ['A tankless heater delivers a set number of gallons per minute. Run the shower, dishwasher, and laundry at the same time and a single undersized unit can struggle to keep every outlet hot. The fix is sizing the unit — or adding a second — to match how your household actually uses water, which a pro sorts out before installing.'] },
 
-      { kind: 'h2', text: 'So, Is a Tankless Water Heater Worth It?' },
+      { kind: 'h2', text: 'Is a Tankless Water Heater Worth It for Your Cincinnati Home?' },
       { kind: 'p', spans: ['It comes down to your situation. Here is how to think it through.'] },
       { kind: 'h3', text: 'Consider Your Household' },
       { kind: 'p', spans: ['If you run out of hot water regularly, want lower bills, are tight on space, or plan to stay in your home long enough to recoup the cost, tankless makes a lot of sense. If you are on a tight budget, moving soon, or your current tank is working fine, a standard ', { link: 'water heater', href: '/services/water-heater-installation/' }, ' replacement may be the better value for now.'] },
@@ -3656,7 +3716,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'The Long-Term Math' },
       { kind: 'p', spans: ['Think of it as an investment rather than a purchase. The higher upfront cost is offset over the years by lower energy bills, a longer lifespan, and fewer worries about running out of hot water or flooding a room. For a home you plan to keep, those numbers usually land in tankless’s favor. Pairing it with regular ', { link: 'maintenance', href: '/importance-of-water-heater-maintenance-in-winter/' }, ' protects that investment.'] },
 
-      { kind: 'h2', text: 'Thinking About Going Tankless? Call Degree of Comfort' },
+      { kind: 'h2', text: 'Tankless Water Heater Installation in Cincinnati' },
       { kind: 'p', spans: ['The best way to know if tankless is worth it for your home is an honest assessment of your hot-water needs and your existing setup. Degree of Comfort installs and services both ', { link: 'tankless', href: '/services/tankless-water-heater/' }, ' and traditional water heaters, and we will tell you straight which one fits your home and budget. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Ready to weigh your options? Call ', { strong: '(513) 586-5107' }, ', ask about a ', { link: 'tankless water heater', href: '/services/tankless-water-heater/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team walk you through it.'] },
     ],
@@ -3670,10 +3730,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'should-i-replace-my-old-air-conditioner',
-    title: 'Should I Replace My Old Air Conditioner?',
+    title: 'Should I Replace My Old Air Conditioner in Cincinnati?',
+    seoTitle: 'Replacing an Old Air Conditioner in Cincinnati',
     category: 'Cooling',
     excerpt:
-      'If it is 15 to 20 years old, breaking down often, or the repair bill is creeping toward half the cost of new, it is probably time. How to know for sure.',
+      'Replace your old air conditioner in Cincinnati if it is 15 to 20 years old, breaks down often or needs a repair near half the cost of new. How to be sure.',
     date: '2026-03-04',
     dateModified: '2026-03-04',
     readMinutes: 9,
@@ -3693,7 +3754,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['If your air conditioner is 15 to 20 years old, breaking down regularly, or facing a repair bill that is creeping toward half the cost of a new system, it is probably time to replace it. The harder part is knowing exactly where your unit falls on that line — a five-year-old AC with one bad part is worth fixing, while a seventeen-year-old one nickel-and-diming you is not.'] },
       { kind: 'p', spans: ['Here are the signs to watch for, how to weigh repair against replacement, and what you actually gain by upgrading.'] },
 
-      { kind: 'h2', text: 'Signs You Need a New Air Conditioner' },
+      { kind: 'h2', text: 'Signs You Need a New Air Conditioner in Cincinnati' },
       { kind: 'p', spans: ['No single one of these is a verdict, but a few of them together usually means your unit is near the end.'] },
       { kind: 'h3', text: 'Frequent Repairs' },
       { kind: 'p', spans: ['An occasional fix is normal. But when you are calling for ', { link: 'AC repair', href: '/services/ac-repair/' }, ' every season — or twice in one summer — the cost adds up fast, and it is a clear sign the system is wearing out rather than having a one-off problem.'] },
@@ -3728,13 +3789,13 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Higher Home Value' },
       { kind: 'p', spans: ['A new, efficient HVAC system is a selling point. Buyers notice an aging air conditioner they will have to replace, so a recent upgrade adds to your home’s appeal and value.'] },
 
-      { kind: 'h2', text: 'Repair or Replace: How to Decide' },
+      { kind: 'h2', text: 'How to Decide Between AC Repair and Replacement' },
       { kind: 'p', spans: ['Put simply: repair a newer unit with a minor, one-time problem, and replace an older one with recurring issues or a major failure. If your AC is under about 10 years old and the fix is small, repair it. If it is past 15 years, needs frequent service, or the repair approaches half the cost of new, replacement is almost always the better call. And replacing on your terms — before the unit dies in a July heat wave — means you can plan the purchase, compare options, and take advantage of ', { link: 'financing', href: '/financing' }, ' rather than scrambling. Our guide on ', { link: 'whether you can finance an HVAC system', href: '/can-you-finance-an-hvac-system/' }, ' walks through how that works.'] },
 
-      { kind: 'h2', text: 'Getting the Most From Your New AC' },
+      { kind: 'h2', text: 'Getting the Most From a New AC in Cincinnati Summers' },
       { kind: 'p', spans: ['Once you upgrade, a little care keeps the new system efficient and protects the investment. Schedule annual ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ', change the filter every 1 to 3 months, set a steady thermostat instead of big swings, keep leaves and debris clear of the outdoor unit, and address any small issue promptly before it grows. For the full routine, see our guide on ', { link: 'how to extend the life of your AC unit', href: '/how-to-extend-the-life-of-your-ac-unit/' }, '.'] },
 
-      { kind: 'h2', text: 'Not Sure? Let Degree of Comfort Take a Look' },
+      { kind: 'h2', text: 'AC Replacement in Cincinnati From Degree of Comfort' },
       { kind: 'p', spans: ['If you are on the fence, the honest answer comes from an inspection, not a guess — and we will tell you when a repair still makes sense rather than push a sale. Degree of Comfort handles AC repair, replacement, and ', { link: 'installation', href: '/services/ac-installation-replacement/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Wondering if it is time? Call ', { strong: '(513) 586-5107' }, ', ask about a new ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' system, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will give you a straight answer.'] },
     ],
@@ -3751,10 +3812,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'can-i-shower-during-a-power-outage',
-    title: 'Can I Shower During a Power Outage?',
+    title: 'Can I Shower During a Power Outage in Cincinnati?',
+    seoTitle: 'Can I Shower in a Cincinnati Power Outage?',
     category: 'Plumbing',
     excerpt:
-      'Usually yes — if you have city water and a gas tank water heater. Whether you will get a hot one (and how to do it safely) depends on a few things.',
+      'You can usually shower during a power outage in Cincinnati if you have city water and a gas tank water heater. Whether it stays hot and how to stay safe.',
     date: '2025-07-29',
     dateModified: '2025-07-29',
     readMinutes: 7,
@@ -3774,29 +3836,29 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['In most cases, yes — you can shower during a power outage if your home is on city water and has a tank-style water heater. Whether the water is hot, how long it stays that way, and whether it is safe all depend on the kind of water heater and water supply you have.'] },
       { kind: 'p', spans: ['Here is how a power outage affects your water, when you can and cannot shower, and what to keep in mind before you step in.'] },
 
-      { kind: 'h2', text: 'How a Power Outage Affects Your Water' },
+      { kind: 'h2', text: 'How a Cincinnati Power Outage Affects Your Water' },
       { kind: 'p', spans: ['When the power goes out, the question is really about two things: whether water still reaches your home with pressure, and whether your water heater can still deliver it hot. City water keeps flowing under municipal pressure regardless of your home’s power, but a well pump runs on electricity and stops the moment the grid goes down. On the heating side, a tank-style heater has a reservoir of already-hot water waiting, while systems that heat on demand or rely on electricity go cold fast.'] },
 
       { kind: 'h2', text: 'Can You Shower During a Power Outage?' },
       { kind: 'p', spans: ['It comes down to your specific setup. Here is when you are fine and when you are out of luck.'] },
-      { kind: 'h3', text: 'When You Can' },
+      { kind: 'h3', text: 'When You Can Shower' },
       { kind: 'p', spans: ['If you are on city water with a gas tank water heater, you are in the best position. The city keeps the water pressurized, and a gas heater with a standing pilot keeps making hot water without any electricity. Even an electric tank heater holds a tank full of hot water you can use before it cools — you just will not be able to reheat it until the power returns.'] },
-      { kind: 'h3', text: 'When You Cannot' },
+      { kind: 'h3', text: 'When You Cannot Shower' },
       { kind: 'p', spans: ['Two setups leave you without a shower. If your home runs on a well pump, no power means no pump and no water pressure at all. And most ', { link: 'tankless water heaters', href: '/services/tankless-water-heater/' }, ', along with electric tank heaters once the stored hot water runs out, stop producing hot water during an outage because they need electricity to run. Some high-efficiency gas heaters also use electronic ignition or a powered blower, so they will not fire without power either.'] },
 
-      { kind: 'h2', text: 'What to Consider Before You Shower' },
+      { kind: 'h2', text: 'What to Check Before You Shower in an Outage' },
       { kind: 'p', spans: ['Even when a shower is possible, a few things change during an outage. Knowing them keeps the experience comfortable and safe.'] },
       { kind: 'h3', text: 'Water Temperature' },
       { kind: 'p', spans: ['A tank heater is not reheating during the outage, so the hot water you have is finite. Expect it to last roughly one shower or two before it cools, and plan a shorter, cooler shower if the power may be out a while. Once the tank is drained, you are into cold water until power and heating return.'] },
       { kind: 'h3', text: 'Water Pressure' },
       { kind: 'p', spans: ['On city water, pressure holds steady. On a well, it fades as soon as the pump stops — you may get a little from the pressure tank, then nothing. If you are on a well and outages are common, that is worth planning around.'] },
-      { kind: 'h3', text: 'Safety in the Dark' },
+      { kind: 'h3', text: 'Showering Safely in the Dark' },
       { kind: 'p', spans: ['A dark bathroom is a slip risk, so use a battery lantern or flashlight rather than candles near water. Keep phones and any plugged-in devices well away from the tub, and if you are running a generator, never operate it indoors or improvise the wiring — carbon monoxide and backfeeding are real dangers that a licensed ', { link: 'electrician', href: '/services/electrical/' }, ' should handle with a proper transfer switch.'] },
 
-      { kind: 'h2', text: 'How to Prepare for the Next Outage' },
+      { kind: 'h2', text: 'How to Prepare for the Next Power Outage in Cincinnati' },
       { kind: 'p', spans: ['A little planning means the next outage is a non-event. If reliable hot water during outages matters to you, a gas tank water heater is the most outage-friendly choice, and a licensed plumber can walk you through ', { link: 'water heater options', href: '/services/water-heater-installation/' }, ' for your home. A properly installed backup generator with a transfer switch keeps well pumps and electric heaters running. And simple supplies help too — keep flashlights, bottled water, and a stocked emergency kit on hand so a lost shower is the least of your worries.'] },
 
-      { kind: 'h2', text: 'Questions About Your Water Heater? Call Degree of Comfort' },
+      { kind: 'h2', text: 'Water Heater Service in Cincinnati' },
       { kind: 'p', spans: ['Whether you want a more outage-ready water heater or just need yours serviced, Degree of Comfort can help. We handle water heater ', { link: 'repair', href: '/services/water-heater-repair/' }, ', replacement, and installation for tank and tankless systems, and our ', { link: 'plumbing', href: '/services/plumbing/' }, ' and electrical teams can set your home up to handle the next outage. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want to be ready before the next storm? Call ', { strong: '(513) 586-5107' }, ', ask about your ', { link: 'water heater options', href: '/services/water-heater-installation/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -3810,10 +3872,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'why-is-my-sump-pump-not-working',
-    title: 'Why Is My Sump Pump Not Working?',
+    title: 'Why Is My Sump Pump Not Working? A Cincinnati Homeowner’s Guide',
+    seoTitle: 'Sump Pump Not Working in Cincinnati: 5 Causes',
     category: 'Plumbing',
     excerpt:
-      'A dead sump pump usually traces to one of five things — power, the float switch, a clog, the motor, or sizing. How to find the cause before the basement floods.',
+      'A sump pump not working in Cincinnati usually traces to power, the float switch, a clog, the motor or sizing. Find the cause before the basement floods.',
     date: '2026-04-01',
     dateModified: '2026-04-01',
     readMinutes: 8,
@@ -3833,7 +3896,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A sump pump only matters on the day it is needed, and that is exactly when a failure turns into a flooded basement. The good news is that when one stops working, the cause is almost always one of five specific things — and a couple of them you can check and fix yourself in a few minutes.'] },
       { kind: 'p', spans: ['Here is what makes a sump pump quit, how to troubleshoot it step by step, and how to keep it from failing when the water is rising.'] },
 
-      { kind: 'h2', text: 'Common Reasons Your Sump Pump Is Not Working' },
+      { kind: 'h2', text: 'Common Reasons Your Sump Pump Is Not Working in Cincinnati Basements' },
       { kind: 'p', spans: ['Start by narrowing down which of these you are dealing with — the symptom usually points straight to the cause.'] },
       { kind: 'h3', text: 'Power Issues' },
       { kind: 'p', spans: ['The most common and most overlooked cause. The pump may be unplugged, the outlet’s GFCI may have tripped, or the breaker may have flipped. A storm that knocks out power takes the pump with it, which is exactly the scenario a backup is for. If the breaker keeps tripping, that points to an electrical problem worth a licensed ', { link: 'electrician', href: '/services/electrical/' }, '.'] },
@@ -3870,10 +3933,10 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Keep the Pit Clear of Debris' },
       { kind: 'p', spans: ['Dirt, gravel, and debris settle into the pit over time and can jam the float or clog the intake. Checking and cleaning the pit periodically keeps everything moving the way it should.'] },
 
-      { kind: 'h2', text: 'When to Call a Professional' },
+      { kind: 'h2', text: 'When to Call a Cincinnati Plumber for Your Sump Pump' },
       { kind: 'p', spans: ['If you have checked the power, float, and discharge and the pump still will not run — or it is grinding, burning out, or failing during every storm — it is time for a pro. A licensed plumber can diagnose a mechanical failure, size a replacement correctly, and add a battery backup. And if water is already coming in, do not wait: that is an ', { link: 'emergency plumbing', href: '/services/emergency-plumbing/' }, ' call.'] },
 
-      { kind: 'h2', text: 'Protect Your Basement With Degree of Comfort' },
+      { kind: 'h2', text: 'Sump Pump Repair in Cincinnati' },
       { kind: 'p', spans: ['A working sump pump is cheap insurance against an expensive flood. Degree of Comfort repairs, replaces, and maintains ', { link: 'sump pumps', href: '/services/sump-pumps/' }, ', and installs battery backups so yours is ready when the rain comes. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want yours checked before the next storm? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'sump pump service', href: '/services/sump-pumps/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -3885,10 +3948,11 @@ export const posts: Post[] = [
   },
   {
     slug: '5-preventive-measures-for-furnace-safety',
-    title: '5 Preventive Measures for Furnace Safety',
+    title: '5 Preventive Measures for Furnace Safety in Cincinnati Homes',
+    seoTitle: 'Furnace Safety Tips for Cincinnati Homes',
     category: 'Heating',
     excerpt:
-      'A furnace is one of the few appliances that can put your family at real risk if it is neglected. Five preventive steps that keep yours running safely all winter.',
+      'Five preventive measures for furnace safety in Cincinnati homes, from annual maintenance to CO detectors, that keep your furnace running safely all winter.',
     date: '2025-09-12',
     dateModified: '2025-09-12',
     readMinutes: 9,
@@ -3908,7 +3972,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A furnace is one of the few appliances in your home that can genuinely put your family at risk if it is neglected — fire and carbon monoxide are not small stakes. The reassuring part is that furnace safety comes down to a handful of preventive habits, none of them complicated, that head off nearly every serious problem.'] },
       { kind: 'p', spans: ['Here are five preventive measures that keep your furnace running safely through the heating season.'] },
 
-      { kind: 'h2', text: '1. Schedule Annual Furnace Maintenance' },
+      { kind: 'h2', text: '1. Schedule Annual Furnace Maintenance in Cincinnati' },
       { kind: 'p', spans: ['The single most important thing you can do is have a licensed technician inspect the furnace once a year, ideally before heating season. During a tune-up, a pro checks the heat exchanger for cracks (the part that can leak carbon monoxide), tests the safety controls, cleans the burners, verifies proper venting, and catches worn components before they fail on the coldest night. Beyond safety, regular ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ' extends the life of the system and keeps it running efficiently, so it pays for itself in lower bills and fewer emergency calls.'] },
 
       { kind: 'h2', text: '2. Install Carbon Monoxide Detectors' },
@@ -3927,16 +3991,16 @@ export const posts: Post[] = [
       { kind: 'h2', text: '5. Watch for Furnace Warning Signs' },
       { kind: 'p', spans: ['Your furnace usually warns you before it fails. Pay attention to unusual noises like banging, rattling, or whistling, any burning or sulfur-like odors, a pilot light or flame that burns yellow instead of blue, an energy bill that climbs for no clear reason, and rooms that will not heat evenly. Any of these is worth a prompt call — a yellow flame in particular can signal a combustion problem and possible carbon monoxide, and that is not something to wait on. When in doubt, shut the system down and reach out for ', { link: 'furnace repair', href: '/services/furnace-repair/' }, '.'] },
 
-      { kind: 'h2', text: 'Carbon Monoxide and Gas Furnace Safety' },
+      { kind: 'h2', text: 'Carbon Monoxide and Gas Furnace Safety in Cincinnati Homes' },
       { kind: 'p', spans: ['Most carbon monoxide risk from a furnace traces back to two things: a cracked heat exchanger or poor venting. The heat exchanger is the metal wall that separates combustion gases from the air you breathe, and when it cracks, those gases can leak into your home’s air supply. Blocked or disconnected venting does the same by letting exhaust back up indoors instead of out. Modern gas furnaces include safety features like flame sensors and limit switches designed to shut the system down when something is wrong, but those mechanisms only work if they are maintained and tested. That is the thread running through all five measures — the equipment is built to be safe, and keeping it that way is a matter of inspection and upkeep, not luck.'] },
 
-      { kind: 'h2', text: 'What to Do If Your CO Detector Goes Off' },
+      { kind: 'h2', text: 'What to Do If Your CO Detector Goes Off in Cincinnati' },
       { kind: 'p', spans: ['If a carbon monoxide alarm sounds, treat it as real every time. Get everyone, including pets, outside to fresh air immediately, and do a head count. From outside, call 911 or your gas company’s emergency line — do not go back in to open windows or hunt for the source. Once the home is cleared and declared safe, have a licensed technician find and fix the cause before the furnace runs again. It is never worth gambling that an alarm was a false one.'] },
 
-      { kind: 'h2', text: 'One Honest Word on DIY' },
+      { kind: 'h2', text: 'A Word on DIY Furnace Work for Cincinnati Homeowners' },
       { kind: 'p', spans: ['Plenty of furnace upkeep is genuinely homeowner territory — changing the filter, keeping the area clear, testing detectors, and watching for warning signs. But the safety inspection itself is not a DIY job. Checking a heat exchanger for hairline cracks, testing gas pressure, and verifying combustion takes training and instruments most people do not have, and a missed crack is exactly the kind of thing that hurts someone. If a video makes furnace repair look simple, that is the part to be skeptical of. Leave the gas and combustion side to a licensed pro.'] },
 
-      { kind: 'h2', text: 'Keep Your Furnace Safe With Degree of Comfort' },
+      { kind: 'h2', text: 'Furnace Maintenance and Safety Checks in Cincinnati' },
       { kind: 'p', spans: ['The simplest way to check every box on this list is an annual tune-up from a licensed team. Degree of Comfort handles furnace ', { link: 'maintenance', href: '/services/furnace-maintenance/' }, ', repair, and replacement, and we will tell you honestly when a unit is still safe and when it is not. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want peace of mind before winter? Call ', { strong: '(513) 586-5107' }, ', ask about a ', { link: 'furnace safety inspection', href: '/services/furnace-maintenance/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -3953,10 +4017,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'can-you-finance-an-hvac-system',
-    title: 'Can You Finance an HVAC System?',
+    title: 'Can You Finance an HVAC System in Cincinnati?',
+    seoTitle: 'Financing an HVAC System in Cincinnati',
     category: 'Home Tips',
     excerpt:
-      'Yes — you can finance a new HVAC system and spread the cost over manageable monthly payments. How financing works, what to compare, and when it makes sense.',
+      'You can finance an HVAC system in Cincinnati and spread the cost over monthly payments. How HVAC financing works, what to compare and when it makes sense.',
     date: '2026-01-01',
     dateModified: '2026-01-01',
     readMinutes: 8,
@@ -3980,7 +4045,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A new heating or cooling system is a significant investment, and it rarely fails at a convenient time. Financing takes that large, often unexpected expense and turns it into a set monthly payment you can plan around — no draining the savings account or living without heat while you save up. It also lets you choose the right system for your home rather than the cheapest one you can afford in cash that week.'] },
       { kind: 'p', spans: ['There is a timing angle too. Federal refrigerant regulations that took effect in 2025 phased out the older R-410A refrigerant in favor of lower-emission alternatives, and that transition pushed the cost of new HVAC equipment up across the board. Financing an efficient system sooner can mean locking in today’s comfort and energy savings rather than paying more down the road.'] },
 
-      { kind: 'h2', text: 'How Can You Finance an HVAC System?' },
+      { kind: 'h2', text: 'Ways to Finance an HVAC System in Cincinnati' },
       { kind: 'p', spans: ['There are a few routes — a home equity loan, a personal loan, or a credit card can all work — but the simplest is usually financing right through your HVAC company.'] },
       { kind: 'h3', text: 'Financing Through Your HVAC Company' },
       { kind: 'p', spans: ['Most established contractors, including us, offer financing through a lending partner built specifically for home comfort projects. The advantage is convenience: you handle the system and the payment plan in one place, the application is quick, and approval is usually fast. With our ', { link: 'financing', href: '/financing' }, ', you can prequalify with no impact to your credit score, see your options instantly, and there is no minimum purchase required.'] },
@@ -3999,10 +4064,10 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'How Financing Works With Degree of Comfort' },
       { kind: 'p', spans: ['The process is straightforward. First, we assess your home and recommend the right ', { link: 'heating', href: '/services/heating/' }, ' or ', { link: 'cooling', href: '/services/air-conditioning/' }, ' system for your needs and budget — no overselling. Next, we walk you through the financing options and you prequalify to see your terms. From there you complete a quick application, and once you are approved we schedule the installation and get your new system running. You leave with comfort handled and a payment plan you understand.'] },
 
-      { kind: 'h2', text: 'Is HVAC Financing Right for You?' },
+      { kind: 'h2', text: 'Is HVAC Financing Right for Your Cincinnati Home?' },
       { kind: 'p', spans: ['Financing makes the most sense when a system fails unexpectedly and you need it replaced now, when you would rather keep your savings intact, or when spreading the cost lets you step up to a more efficient system that pays you back in lower bills. Here is the honest part: if you can comfortably pay cash and you have no better use for it, paying upfront avoids interest and is the cheaper route. Financing is a tool for managing cash flow and timing, not free money. For most homeowners facing a few-thousand-dollar replacement, though, predictable monthly payments beat an empty savings account.'] },
 
-      { kind: 'h2', text: 'Upgrade Now, Pay Over Time With Degree of Comfort' },
+      { kind: 'h2', text: 'HVAC Financing in Cincinnati From Degree of Comfort' },
       { kind: 'p', spans: ['If your system is on its last legs or you are ready to upgrade, you should not have to choose between comfort and affordability. Degree of Comfort offers flexible financing alongside honest, flat-rate pricing. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with a satisfaction guarantee on every job.'] },
       { kind: 'p', spans: ['Ready to talk options? Call ', { strong: '(513) 586-5107' }, ', explore our ', { link: 'financing', href: '/financing' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will walk you through it.'] },
     ],
@@ -4019,10 +4084,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'why-is-my-water-heater-leaking-water',
-    title: 'Why Is My Water Heater Leaking Water?',
+    title: 'Why Is My Water Heater Leaking Water? Causes in Cincinnati Homes',
+    seoTitle: 'Water Heater Leak Causes in Cincinnati',
     category: 'Plumbing',
     excerpt:
-      'A leaking water heater usually traces to one of six causes — some a quick fix, some a sign the tank is done. How to find the source and what to do next.',
+      'A leaking water heater in a Cincinnati home usually traces to one of six causes. Some are a quick fix, some mean the tank is done. How to find the source.',
     date: '2025-11-12',
     dateModified: '2025-11-12',
     readMinutes: 8,
@@ -4042,7 +4108,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A puddle under your water heater is never a good sign, but it does not always mean disaster. A leak almost always traces back to one of six specific causes — and while a couple of them are a quick, inexpensive fix, others mean the tank is on its way out.'] },
       { kind: 'p', spans: ['Here is what makes a water heater leak, how to figure out which one you are dealing with, what to do right now, and how to keep it from happening again.'] },
 
-      { kind: 'h2', text: 'Common Reasons for a Leaky Water Heater' },
+      { kind: 'h2', text: 'Common Reasons for a Leaky Water Heater in Cincinnati Homes' },
       { kind: 'p', spans: ['Before anything else, find where the water is actually coming from — the source tells you how serious it is. Here are the usual culprits, from the easiest to the most serious.'] },
       { kind: 'h3', text: 'A Loose Drain Valve' },
       { kind: 'p', spans: ['The drain valve at the bottom of the tank is used to flush the unit, and it can loosen over time and weep water. If the leak is here, tightening it often solves it. If it still drips once it is snug, the valve itself needs replacing — a straightforward repair.'] },
@@ -4071,13 +4137,13 @@ export const posts: Post[] = [
       { kind: 'h3', text: '4. Call a Professional' },
       { kind: 'p', spans: ['Get a licensed plumber out to diagnose the source and handle the ', { link: 'repair', href: '/services/water-heater-repair/' }, ' or ', { link: 'replacement', href: '/services/water-heater-installation/' }, '. If the leak is heavy or the tank has ruptured, that is an ', { link: 'emergency plumbing', href: '/services/emergency-plumbing/' }, ' call — do not wait.'] },
 
-      { kind: 'h2', text: 'How to Prevent Future Leaks' },
+      { kind: 'h2', text: 'How to Prevent Future Water Heater Leaks' },
       { kind: 'p', spans: ['Most leaks build up quietly over months or years, which means most are preventable. An annual tank flush clears the sediment that accelerates corrosion, and a periodic anode rod check catches the wear that leads to tank failure. Keeping up with ', { link: 'water heater maintenance', href: '/services/water-heater-maintenance/' }, ' is the difference between a planned part swap and a flooded basement. For more on that, see our guides to ', { link: 'water heater maintenance in winter', href: '/importance-of-water-heater-maintenance-in-winter/' }, ' and ', { link: 'preparing your water heater for winter', href: '/how-to-prepare-your-water-heater-for-winter/' }, '.'] },
 
-      { kind: 'h2', text: 'Signs It Is Time to Replace the Water Heater' },
+      { kind: 'h2', text: 'Signs It Is Time to Replace Your Water Heater in Cincinnati' },
       { kind: 'p', spans: ['Sometimes a repair is not the answer. Lean toward replacement if the unit is 10 to 15 years old, if it leaks repeatedly or you see rusty water, if you run out of hot water far faster than you used to, or if the temperature swings no matter what you set it to. At that point, a new tank or a ', { link: 'tankless upgrade', href: '/services/tankless-water-heater/' }, ' usually costs less in the long run than chasing one repair after another.'] },
 
-      { kind: 'h2', text: 'Got a Leak? Call Degree of Comfort' },
+      { kind: 'h2', text: 'Water Heater Repair in Cincinnati' },
       { kind: 'p', spans: ['A leaking water heater is one of those problems that only gets more expensive the longer it waits. Degree of Comfort can track down the source, fix what is fixable, and replace the unit when that is the smarter call. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Water where it should not be? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'water heater repair', href: '/services/water-heater-repair/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -4089,10 +4155,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'how-often-should-i-change-my-furnace-filter',
-    title: 'How Often Should I Change My Furnace Filter?',
+    title: 'How Often Should I Change My Furnace Filter in Cincinnati?',
+    seoTitle: 'How Often to Change a Furnace Filter in Cincinnati',
     category: 'Heating',
     excerpt:
-      'Short answer: every 1 to 3 months for most homes. What changes that, how to read MERV ratings, and the signs your filter is overdue.',
+      'Change your furnace filter every 1 to 3 months in most Cincinnati homes. What changes that schedule, how to read MERV ratings, and signs it is overdue.',
     date: '2025-09-05',
     dateModified: '2025-09-05',
     readMinutes: 9,
@@ -4114,12 +4181,12 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Why Furnace Filters Matter' },
       { kind: 'p', spans: ['The filter has two jobs. It traps dust, pollen, pet dander, and other particles so they do not circulate through your home, and it protects the furnace itself by keeping that debris off the blower and other internal parts. When it is clean, air moves freely and the system runs the way it was designed to. When it is clogged, everything downstream suffers.'] },
-      { kind: 'h3', text: 'Its Effect on Your Indoor Air' },
+      { kind: 'h3', text: 'A Filter’s Effect on Your Indoor Air' },
       { kind: 'p', spans: ['The air in your filter passes through it again and again, so a dirty one stops doing its job and lets dust and allergens recirculate. That matters most for anyone in the home with asthma, allergies, or other respiratory issues. A fresh filter is one of the simplest pieces of good ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ', and for homes that need more, a dedicated air-cleaning system goes further.'] },
 
-      { kind: 'h2', text: 'How Often Should I Change My Furnace Filter?' },
+      { kind: 'h2', text: 'How Often to Change a Furnace Filter in Cincinnati Homes' },
       { kind: 'p', spans: ['Every 1 to 3 months is the general rule, but the right interval for your home depends on a few things. The best habit is to check the filter monthly and let what you see set your schedule.'] },
-      { kind: 'h3', text: 'What Changes How Often You Need To' },
+      { kind: 'h3', text: 'What Affects How Often You Change It' },
       { kind: 'p', spans: ['Pets add hair and dander, so homes with them clog filters faster. Allergies or asthma in the household mean you will want to change filters more often to keep the air clean. Smoking, nearby construction, and heavy heating or cooling season all shorten a filter’s life. And the filter type itself matters — a thin fiberglass filter needs changing far more often than a thick pleated one.'] },
       { kind: 'h3', text: 'General Guidelines by Filter Type' },
       { kind: 'p', spans: ['As a starting point: a basic 1-inch fiberglass filter should be changed every 30 days. A 1-inch pleated filter typically lasts 1 to 3 months. Thicker 4- to 5-inch pleated media filters can go 3 to 6 months. High-efficiency or HEPA-style filters in compatible systems may last up to a year. Always check the manufacturer’s rating on your specific filter, and shorten the interval if your home runs dusty.'] },
@@ -4137,21 +4204,21 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'A Creeping Energy Bill' },
       { kind: 'p', spans: ['A furnace fighting a clogged filter burns more energy to move the same air, and it shows up on the bill. If your heating costs climb without an obvious reason, the filter is an easy first thing to rule out.'] },
 
-      { kind: 'h2', text: 'Choosing the Right Furnace Filter' },
+      { kind: 'h2', text: 'Choosing the Right Furnace Filter for Your Cincinnati Home' },
       { kind: 'p', spans: ['Not all filters are equal, and the most expensive one is not automatically the best choice for your system. There are three broad types. Fiberglass filters are cheap and protect the equipment but barely improve air quality, and they need changing monthly. Pleated filters cost a little more, last longer, and catch much more, which makes them the right pick for most homes. HEPA-style filters capture up to 99.97 percent of particles, but they are dense and not every residential system can push air through them — using one your system was not built for does more harm than good.'] },
       { kind: 'h3', text: 'Understanding MERV Ratings' },
       { kind: 'p', spans: ['MERV (Minimum Efficiency Reporting Value) measures how well a filter captures particles, on a scale from 1 to 20. Higher numbers catch more, but they also resist airflow more, and a filter that is too restrictive makes your furnace work harder. For most homes, a MERV rating between 8 and 13 is the sweet spot — strong filtration without starving the system. If you are unsure what your system can handle, that is worth a quick question to a technician rather than a guess.'] },
 
-      { kind: 'h2', text: 'What Happens If You Skip It' },
+      { kind: 'h2', text: 'What Happens If You Skip Furnace Filter Changes' },
       { kind: 'p', spans: ['Letting the filter go is one of the most common reasons a furnace ends up needing repair. The restricted airflow makes the system run longer and hotter, which drives up energy bills and wears out components early. In gas furnaces, severe airflow restriction can cause the unit to overheat and trip its safety limit switch, shutting it down entirely — a no-heat call that a five-dollar filter would have prevented. If your furnace keeps shutting off, a clogged filter is the first thing to check before calling for ', { link: 'furnace repair', href: '/services/furnace-repair/' }, '.'] },
 
       { kind: 'h2', text: 'Does My AC Use the Same Filter?' },
       { kind: 'p', spans: ['In most homes, yes. The furnace and air conditioner share the same air handler and the same filter, so the one you change in winter is doing double duty in summer. That is why filter changes matter year-round, not just during heating season, and why it pairs naturally with regular ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ' and ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, '.'] },
 
-      { kind: 'h2', text: 'The Payoff of Staying On Top of It' },
+      { kind: 'h2', text: 'The Payoff of Regular Filter Changes in Cincinnati' },
       { kind: 'p', spans: ['Changing a filter takes two minutes and a few dollars, and it pays back out of proportion to the effort. You get lower energy bills, cleaner air, fewer breakdowns, and a ', { link: 'heating', href: '/services/heating/' }, ' and ', { link: 'cooling', href: '/services/air-conditioning/' }, ' system that lasts longer. It is the rare piece of home maintenance that is genuinely easy and genuinely worth it.'] },
 
-      { kind: 'h2', text: 'Let Degree of Comfort Keep Your System Running' },
+      { kind: 'h2', text: 'Furnace Maintenance in Cincinnati' },
       { kind: 'p', spans: ['If you would rather have a pro handle filters as part of a full system check — or your furnace is already acting up — Degree of Comfort can help. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want your furnace checked and the right filter dialed in? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -4168,10 +4235,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'how-to-prepare-your-water-heater-for-winter',
-    title: 'How to Prepare Your Water Heater for Winter',
+    title: 'How to Prepare Your Water Heater for a Cincinnati Winter',
+    seoTitle: 'Water Heater Winter Prep for Cincinnati Homes',
     category: 'Plumbing',
     excerpt:
-      'Cold weather is the hardest season on your water heater. Five things to do before it hits — so you are not stuck with a cold shower in January.',
+      'How to prepare your water heater for a Cincinnati winter: five steps to take before the cold hits, so you are not stuck with a cold shower in January.',
     date: '2025-10-24',
     dateModified: '2025-10-31',
     readMinutes: 8,
@@ -4191,7 +4259,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A little prep now is the difference between reliable hot water all winter and a cold shower on the morning of the first hard freeze. Cold weather puts more strain on a water heater than any other season, and a few simple steps before it arrives keep the system efficient and dependable when demand peaks.'] },
       { kind: 'p', spans: ['Here is why winter is so tough on water heaters and five practical things to do to get yours ready. (If you want the bigger picture on year-round care, our guide to ', { link: 'water heater maintenance in winter', href: '/importance-of-water-heater-maintenance-in-winter/' }, ' covers why upkeep matters in the first place.)'] },
 
-      { kind: 'h2', text: 'Why Winter Is Tough on Water Heaters' },
+      { kind: 'h2', text: 'Why Cincinnati Winters Are Tough on Water Heaters' },
       { kind: 'p', spans: ['Two things change when the temperature drops. The water coming into your tank is much colder, so the heater has to work harder and longer to bring it up to temperature. At the same time, everyone uses more hot water — longer showers, more dishes, more laundry. That combination means the system runs more than it does any other time of year, which exposes any weak spot and drives up energy use. A heater that was coasting through summer is the one that struggles in January.'] },
 
       { kind: 'h2', text: '5 Tips for Prepping Your Water Heater for Winter' },
@@ -4207,7 +4275,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: '5. Schedule a Professional Maintenance Check' },
       { kind: 'p', spans: ['The most thorough step is a professional tune-up. A technician flushes the tank, tests the valve, checks the anode rod, burner or heating element, connections, and venting, and catches small problems before they leave you without hot water on the coldest day. Booking ', { link: 'water heater maintenance', href: '/services/water-heater-maintenance/' }, ' in fall is far cheaper than an emergency call in February.'] },
 
-      { kind: 'h2', text: 'Common Winter Water Heater Problems' },
+      { kind: 'h2', text: 'Common Winter Water Heater Problems in Cincinnati' },
       { kind: 'p', spans: ['Even with prep, winter is when problems surface. Knowing the signs helps you act before a small issue becomes a cold-shower emergency.'] },
       { kind: 'h3', text: 'Frozen or Burst Pipes' },
       { kind: 'p', spans: ['Water lines in unheated spaces can freeze, which blocks flow and can burst the pipe and cause serious water damage. Insulation helps, and on the coldest nights a slow trickle from a faucet keeps water moving. If you lose flow entirely, shut off the water and call for ', { link: 'pipe repair', href: '/services/pipe-repair-replacement/' }, ' right away.'] },
@@ -4216,10 +4284,10 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Rising Energy Bills' },
       { kind: 'p', spans: ['A water heater fighting sediment and heat loss burns more energy to do the same job, and it shows up on the bill. If your costs climb without an obvious reason, the water heater is a likely suspect.'] },
 
-      { kind: 'h2', text: 'The Payoff of Prepping Ahead' },
+      { kind: 'h2', text: 'Why Prepping Your Water Heater Early Pays Off' },
       { kind: 'p', spans: ['Spending an afternoon on this — or an hour with a technician — buys you a lot. You get fewer breakdowns during the season when a failure is most disruptive, lower energy bills from a system running the way it should, and the simple reliability of hot water being there every morning. It also protects the lifespan of the unit, pushing a ', { link: 'replacement', href: '/services/water-heater-installation/' }, ' further down the road. Prevention is almost always cheaper than the emergency it avoids.'] },
 
-      { kind: 'h2', text: 'Get Winter-Ready With Degree of Comfort' },
+      { kind: 'h2', text: 'Water Heater Service in Cincinnati' },
       { kind: 'p', spans: ['If you would rather have a pro handle it, Degree of Comfort can get your water heater ready before the cold hits, and fix or replace it if it is already struggling. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want it checked before winter sets in? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'water heater maintenance', href: '/services/water-heater-maintenance/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our ', { link: 'plumbing', href: '/services/plumbing/' }, ' team handle it.'] },
     ],
@@ -4231,10 +4299,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'how-to-cope-with-dry-indoor-air-during-winter',
-    title: 'How to Cope With Dry Indoor Air During Winter',
+    title: 'How to Cope With Dry Indoor Air During a Cincinnati Winter',
+    seoTitle: 'Dry Indoor Air in Cincinnati Winters',
     category: 'Home Tips',
     excerpt:
-      'Chapped lips, static shocks, and a scratchy throat every winter? Here is why indoor air gets so dry once the heat kicks on — and seven ways to fix it.',
+      'How to cope with dry indoor air during a Cincinnati winter: why the air dries out once the heat kicks on, the signs to watch for and seven ways to fix it.',
     date: '2025-10-03',
     dateModified: '2025-10-03',
     readMinutes: 8,
@@ -4254,14 +4323,14 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['If every winter brings chapped lips, itchy skin, a scratchy throat, and a static shock every time you touch a doorknob, your indoor air is too dry. It is one of the most common complaints we hear once the heat comes on, and the good news is that it is very fixable.'] },
       { kind: 'p', spans: ['Here is why indoor air turns so dry in winter, what it does to your comfort and health, and seven practical ways to put the moisture back — from quick habits to a permanent whole-home fix.'] },
 
-      { kind: 'h2', text: 'Why Winter Air Feels So Dry' },
+      { kind: 'h2', text: 'Why Winter Air Feels So Dry in Cincinnati Homes' },
       { kind: 'p', spans: ['It comes down to simple physics. Cold air cannot hold much moisture, so the air outside in winter is already dry. When that air comes into your home and your furnace or ', { link: 'heat pump', href: '/services/heat-pumps/' }, ' warms it up, the relative humidity drops even lower. Warm air can hold a lot of moisture, but there is little there to fill it — so the air pulls moisture from wherever it can, including your skin, your lips, and the wood in your home.'] },
       { kind: 'p', spans: ['Indoor humidity is most comfortable somewhere around 30 to 50 percent. In a heated home in the dead of winter, it can drop well below that, which is when the symptoms start to show up.'] },
 
       { kind: 'h2', text: 'Signs Your Indoor Air Is Too Dry' },
       { kind: 'p', spans: ['Dry air announces itself in a handful of familiar ways. Watch for dry, itchy, or flaky skin, chapped or cracked lips, a scratchy throat and irritated sinuses, frequent static electricity, and more nosebleeds than usual. Beyond your body, you may notice wood floors, trim, and furniture developing small cracks or gaps as they dry out, and houseplants struggling. Any of these on its own is easy to brush off; together, they point clearly to low humidity.'] },
 
-      { kind: 'h2', text: 'How to Cope With Dry Indoor Air During Winter' },
+      { kind: 'h2', text: 'Seven Ways to Fix Dry Indoor Air in Winter' },
       { kind: 'p', spans: ['You do not have to live with it. These seven approaches run from quick fixes you can do today to the permanent solution, and they work well in combination.'] },
       { kind: 'h3', text: '1. Add Moisture With a Humidifier' },
       { kind: 'p', spans: ['A humidifier is the most direct fix. A portable unit can take the edge off a bedroom or living room, but for a dry house the better answer is a whole-home humidifier installed on your HVAC system. It adds moisture to the air as it circulates, so every room benefits and you are not refilling tanks all winter. Our ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' team can size and install one to match your home.'] },
@@ -4278,13 +4347,13 @@ export const posts: Post[] = [
       { kind: 'h3', text: '7. Hydrate and Protect Your Skin' },
       { kind: 'p', spans: ['This one treats the symptoms rather than the air, but it matters. Drink plenty of water, use a good moisturizer and lip balm, and apply a thicker cream at night. It will not raise the humidity in your home, but it keeps the dryness from taking such a toll while you address the root cause.'] },
 
-      { kind: 'h2', text: 'Why Indoor Air Quality Matters' },
+      { kind: 'h2', text: 'Why Indoor Air Quality Matters in Winter' },
       { kind: 'p', spans: ['Dry air is more than a comfort issue. Persistently low humidity irritates skin, eyes, throats, and nasal passages, and it can make asthma and allergy symptoms worse. Dry nasal passages are also less able to trap viruses, which is part of why colds spread more easily in winter. On the house side, prolonged dryness cracks wood floors, trim, and furniture and can damage instruments and artwork. Getting humidity into a healthy range protects both your family and your home, which is the larger point of managing your ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, '.'] },
 
-      { kind: 'h2', text: 'When to Call a Professional' },
+      { kind: 'h2', text: 'When to Call a Pro About Dry Air in Cincinnati' },
       { kind: 'p', spans: ['Habits and a portable humidifier go a long way, but if the dryness sticks around no matter what you try, or it is affecting your whole house and your health, it is worth bringing in a pro. A whole-home humidifier integrated with your HVAC is the lasting fix, and it has to be sized and installed correctly to work right and to avoid adding too much moisture. That is the part to leave to a licensed team.'] },
 
-      { kind: 'h2', text: 'Fix Dry Air for Good With Degree of Comfort' },
+      { kind: 'h2', text: 'Fixing Dry Indoor Air in Cincinnati With Degree of Comfort' },
       { kind: 'p', spans: ['If you are tired of fighting dry air every winter, Degree of Comfort can assess your home’s humidity and put the right solution in place, from a whole-home humidifier to a heating system tune-up. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Ready to breathe easier this winter? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'indoor air quality', href: '/services/indoor-air-quality/' }, ' and whole-home humidifiers, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -4301,10 +4370,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'can-a-heat-pump-heat-a-whole-house',
-    title: 'Can a Heat Pump Heat a Whole House?',
+    title: 'Can a Heat Pump Heat a Whole House in Cincinnati?',
+    seoTitle: 'Whole-House Heat Pumps in Cincinnati',
     category: 'Heating',
     excerpt:
-      'Short answer: yes. A properly sized heat pump can heat your whole home — even through a Cincinnati winter. What that depends on, and when it is the right call.',
+      'A properly sized heat pump can heat a whole house, even through a Cincinnati winter. What that depends on, and when it is the right call for your home.',
     date: '2025-09-02',
     dateModified: '2025-09-02',
     readMinutes: 9,
@@ -4338,7 +4408,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['It can, when it is sized and installed correctly. A heat pump matched to your home will keep every room comfortable through the year. Whether it does that well comes down to a handful of factors — and getting them right is what separates a system that quietly works from one that struggles.'] },
       { kind: 'h3', text: 'Size and Design of Your Home' },
       { kind: 'p', spans: ['Square footage, layout, ceiling height, the number of windows, and how the rooms connect all affect how much heating and cooling you actually need. An undersized unit runs constantly and still falls behind on the coldest days; an oversized one short-cycles, wastes energy, and wears out faster. Getting the size right with a proper load calculation is the single most important part of the job — and the reason a heat pump should never be a guess.'] },
-      { kind: 'h3', text: 'Your Climate' },
+      { kind: 'h3', text: 'How a Heat Pump Handles Cincinnati’s Climate' },
       { kind: 'p', spans: ['Heat pumps have always performed well in moderate climates, and today’s cold-climate models hold their own through Cincinnati winters that a decade ago would have pushed an air-source unit to its limit. For the handful of truly frigid days each year, a backup heat source picks up the slack so you are never left cold.'] },
       { kind: 'h3', text: 'How Well Your Home Holds Heat' },
       { kind: 'p', spans: ['Insulation, windows, and air sealing matter as much as the equipment itself. A well-sealed home lets a heat pump do its job efficiently and hold a steady temperature; a drafty one makes any system work harder than it should and drives up the bill. It is worth addressing obvious leaks and thin insulation before or alongside an install so you get the full benefit of the new system.'] },
@@ -4358,17 +4428,17 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Steady, Consistent Comfort' },
       { kind: 'p', spans: ['Heat pumps deliver even, steady warmth rather than the blasts of hot air a furnace cycles on and off. The result is fewer cold spots, less temperature swing, and a more consistent feel from room to room — which is exactly what whole-home comfort is supposed to mean.'] },
 
-      { kind: 'h2', text: 'What About Cost and Energy Savings?' },
+      { kind: 'h2', text: 'Heat Pump Cost and Energy Savings in Cincinnati' },
       { kind: 'p', spans: ['A heat pump usually costs more upfront than a basic furnace or AC, and the exact price depends on the type of system, your home, and the installation. The trade-off is on the other side of the ledger: lower monthly energy use over the life of the system, often helped along by utility rebates and tax incentives for high-efficiency equipment. For a home that needs both heating and cooling replaced anyway, a single heat pump can be the more sensible buy than two separate systems. The only way to get a real number is an in-home estimate that accounts for your specific space.'] },
 
-      { kind: 'h2', text: 'Is a Whole-Home Heat Pump Right for You?' },
+      { kind: 'h2', text: 'Is a Whole-Home Heat Pump Right for Your Cincinnati Home?' },
       { kind: 'p', spans: ['A heat pump is a strong fit if you want heating and cooling from one efficient system, your home is reasonably well insulated, and you are looking to lower energy use over time. It is also worth a serious look if your furnace and air conditioner are both aging and due for replacement, since you can consolidate them into one unit.'] },
       { kind: 'p', spans: ['If your home is poorly sealed or you live somewhere with brutal, sustained cold, the answer is not no — it just means planning for proper insulation and a backup heat source. Here is the honest part: a heat pump is not a one-size-fits-all swap, and anyone who tells you otherwise is selling, not advising. The right call depends on your specific home, which is exactly what a professional assessment sorts out. And if a full system is more than you need right now, a ', { link: 'ductless mini-split', href: '/services/mini-split-installation/' }, ' can heat and cool the rooms that need it most without committing to whole-home equipment.'] },
 
-      { kind: 'h2', text: 'Sizing and Installation Make or Break It' },
+      { kind: 'h2', text: 'Why Heat Pump Sizing and Installation Matter' },
       { kind: 'p', spans: ['More than almost any other system, a heat pump lives or dies on the quality of the installation. The unit has to be sized to a real load calculation, the ductwork has to move the air it is designed for, and the refrigerant charge and controls have to be set correctly before the job is done. A great heat pump installed poorly will underperform and cost you; a correctly installed one quietly does its job for years. That is the part worth paying a licensed pro to get right.'] },
 
-      { kind: 'h2', text: 'Talk to Degree of Comfort About Heat Pumps' },
+      { kind: 'h2', text: 'Heat Pump Installation in Cincinnati' },
       { kind: 'p', spans: ['If you are weighing a heat pump for your home, Degree of Comfort can assess your space, size the system correctly, and handle the installation right. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Ready to find out if a heat pump fits your home? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'heat pump installation', href: '/services/heat-pumps/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team walk you through it.'] },
     ],
@@ -4385,10 +4455,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'importance-of-water-heater-maintenance-in-winter',
-    title: 'The Importance of Water Heater Maintenance in Winter',
+    title: 'The Importance of Water Heater Maintenance in Cincinnati Winters',
+    seoTitle: 'Winter Water Heater Maintenance in Cincinnati',
     category: 'Plumbing',
     excerpt:
-      'Winter pushes your water heater harder than any other season. Why maintenance matters most when it is cold, and the warning signs not to ignore.',
+      'Water heater maintenance in Cincinnati matters most in winter, when the cold pushes the tank harder than any other season. Why, and the signs to watch.',
     date: '2025-10-31',
     dateModified: '2025-10-31',
     readMinutes: 6,
@@ -4419,7 +4490,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Premature Wear and a Shorter Lifespan' },
       { kind: 'p', spans: ['A well-maintained water heater lasts roughly 10 to 15 years. Run it neglected and that number drops fast — the extra strain wears out components early and turns what should have been a tune-up into a ', { link: 'replacement', href: '/services/water-heater-installation/' }, '. Maintenance is far cheaper than buying a new tank years ahead of schedule.'] },
 
-      { kind: 'h2', text: 'Why Winter Is the Worst Time for Water Heater Problems' },
+      { kind: 'h2', text: 'Why a Cincinnati Winter Is the Worst Time for Water Heater Problems' },
       { kind: 'p', spans: ['Three things gang up on your water heater in winter. Hot-water demand climbs as nobody wants a cold shower. The water coming into the tank is far colder, so the heater works harder to bring it up to temperature. And if the system fails when it is below freezing, you are not just without hot water — you are at real risk of ', { link: 'frozen or burst pipes', href: '/services/pipe-repair-replacement/' }, '. A small issue that would be a nuisance in July becomes an emergency in January. If winter is close, our checklist on ', { link: 'how to prepare your water heater for winter', href: '/how-to-prepare-your-water-heater-for-winter/' }, ' walks through the steps to take now.'] },
 
       { kind: 'h2', text: 'Benefits of Keeping Up With Water Heater Maintenance' },
@@ -4433,10 +4504,10 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Safe Operation' },
       { kind: 'p', spans: ['A technician checks the relief valve, connections, and venting so the system runs safely, with no gas leaks or dangerous pressure building up where you cannot see it.'] },
 
-      { kind: 'h2', text: 'Common Signs Your Water Heater Needs Attention' },
+      { kind: 'h2', text: 'Signs Your Water Heater Needs Service in Cincinnati' },
       { kind: 'p', spans: ['Maintenance is the goal, but if you are already seeing any of these, do not wait for the schedule — call now. Watch for water temperatures that swing or never get hot enough, rumbling or popping noises from the tank, rusty or discolored water, any moisture or pooling around the base, and an energy bill creeping up for no clear reason. Each one points to a heater that needs a look before it quits. If yours is older and repairs are stacking up, it may be time to weigh a ', { link: 'tankless upgrade', href: '/services/tankless-water-heater/' }, ' instead of another fix.'] },
 
-      { kind: 'h2', text: 'Keep the Hot Water Coming With Degree of Comfort' },
+      { kind: 'h2', text: 'Water Heater Service in Cincinnati' },
       { kind: 'p', spans: ['Heading into winter is the right time to get your water heater checked. Degree of Comfort handles maintenance, repair, and replacement for tank and tankless systems alike. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Want it serviced before the cold sets in? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'water heater maintenance', href: '/services/water-heater-maintenance/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our ', { link: 'plumbing', href: '/services/plumbing/' }, ' team handle it.'] },
     ],
@@ -4449,10 +4520,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'air-conditioner-not-turning-on-troubleshooting-tips',
-    title: 'Air Conditioner Not Turning On? Here Are 5 Troubleshooting Tips',
+    title: 'Air Conditioner Not Turning On? 5 Troubleshooting Tips for Cincinnati Homes',
+    seoTitle: 'AC Not Turning On in Cincinnati: 5 Things to Check',
     category: 'Cooling',
     excerpt:
-      'AC not turning on in the Cincinnati heat? Five things to check yourself before you call — and the warning signs that mean it is time for a pro.',
+      'Air conditioner not turning on in the Cincinnati heat: five things to check yourself before you call, and the warning signs that mean it is time for a pro.',
     date: '2025-07-08',
     dateModified: '2025-07-08',
     readMinutes: 6,
@@ -4488,18 +4560,18 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Your AC pulls moisture out of the air, and that water drains away through a condensate line. When that line clogs, a safety float switch trips and shuts the system off on purpose to keep water from overflowing and causing damage.'] },
       { kind: 'p', spans: ['Look for a full drain pan or standing water near the indoor unit. Clearing the line can bring the system back, but if you are not sure what you are looking at, leave it — water and electrical components are a bad combination to guess around.'] },
 
-      { kind: 'h2', text: '5. Assess the Outdoor Condenser Unit' },
+      { kind: 'h2', text: '5. Assess the Outdoor Condenser Unit in Your Cincinnati Yard' },
       { kind: 'p', spans: ['Head outside to the condenser. Clear away leaves, grass clippings, and debris pressing against the unit, since blocked airflow there can stop it from running. Then check the disconnect switch in the box mounted on the wall nearby — if it has been pulled or tripped, the outdoor unit has no power.'] },
       { kind: 'p', spans: ['If the unit is humming but not starting, or you see visible damage to the wiring or fan, stop there. That points to a component problem that needs a proper diagnosis rather than more poking around.'] },
 
-      { kind: 'h2', text: 'When to Stop Troubleshooting and Call a Pro' },
+      { kind: 'h2', text: 'When to Stop Troubleshooting and Call an AC Technician in Cincinnati' },
       { kind: 'p', spans: ['The checklist above covers the problems a homeowner can safely handle. Past that point, you are into refrigerant, electrical components, and the compressor — and those are not DIY territory. Call a professional if you notice any of these: the system still will not start after the basics, the breaker keeps tripping, you smell burning, you hear loud or grinding noises, or ice is forming on the unit.'] },
       { kind: 'p', spans: ['Our licensed technicians carry the tools and parts to diagnose it correctly the first time, and doing so protects your warranty — many manufacturers void coverage on repairs done by unlicensed hands. When the heat is dangerous, especially for older adults, young children, or anyone with health conditions, a dead AC is not something to wait out.'] },
 
-      { kind: 'h2', text: 'The Best Fix Is Preventing It' },
+      { kind: 'h2', text: 'Preventing AC Startup Problems in Cincinnati Summers' },
       { kind: 'p', spans: ['Most no-start calls trace back to something a yearly tune-up would have caught. Regular ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ' keeps the filter, drain line, coils, and electrical connections in good shape, which heads off the breakdowns before the hottest week of the year forces the issue.'] },
 
-      { kind: 'h2', text: 'Get Your AC Running With Degree of Comfort' },
+      { kind: 'h2', text: 'AC Repair in Cincinnati' },
       { kind: 'p', spans: ['If you have worked through the checklist and your air conditioner still will not turn on, Degree of Comfort can get to the bottom of it fast. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Need it looked at today? Call ', { strong: '(513) 586-5107' }, ', ask about ', { link: 'air conditioning repair', href: '/services/air-conditioning/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -4515,10 +4587,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'how-smart-thermostats-save-money-and-improve-comfort',
-    title: 'How Smart Thermostats Can Save You Money and Improve Comfort',
+    title: 'How Smart Thermostats Can Save You Money and Improve Comfort in Cincinnati',
+    seoTitle: 'Smart Thermostat Savings in Cincinnati',
     category: 'Home Tips',
     excerpt:
-      'Can a smart thermostat really cut your bills? How smart thermostats save energy, improve comfort, and what Cincinnati homeowners should know before buying.',
+      'How smart thermostats save money and improve comfort in Cincinnati homes, from learning your schedule to remote control, and what to know before buying.',
     date: '2025-08-11',
     dateModified: '2025-08-11',
     readMinutes: 7,
@@ -4541,7 +4614,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'What Is a Smart Thermostat?' },
       { kind: 'p', spans: ['A smart thermostat is a Wi-Fi-connected control for your heating and cooling system. Beyond holding a set temperature, it learns your habits, adjusts automatically, reports your energy use, and can be changed from anywhere through an app. It works with the ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' and ', { link: 'heating', href: '/services/heating/' }, ' equipment you already have.'] },
 
-      { kind: 'h2', text: 'How Smart Thermostats Save You Money' },
+      { kind: 'h2', text: 'How Smart Thermostats Save Cincinnati Homeowners Money' },
       { kind: 'p', spans: ['The savings come from a simple idea: not heating or cooling your home when you do not need to. A smart thermostat handles that automatically in several ways.'] },
       { kind: 'h3', text: 'It Learns Your Schedule' },
       { kind: 'p', spans: ['After a week or two, the thermostat knows when you are home, away, and asleep, and eases back during the hours the house is empty — no manual programming required. That alone removes a lot of wasted run time.'] },
@@ -4557,13 +4630,13 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'How Smart Thermostats Improve Comfort' },
       { kind: 'p', spans: ['Saving money is only half the appeal. By adapting to your routine, a smart thermostat holds steadier temperatures, manages humidity, and cuts the swings that leave a home too warm or too cold. The comfort gains are biggest when the equipment behind it is in good shape, so pairing the upgrade with regular ', { link: 'furnace maintenance', href: '/services/furnace-maintenance/' }, ' and ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ' keeps everything working together.'] },
 
-      { kind: 'h2', text: 'Why Professional Installation Matters' },
+      { kind: 'h2', text: 'Why Professional Smart Thermostat Installation Matters' },
       { kind: 'p', spans: ['Swapping a thermostat is not always plug-and-play. Many smart models need a common (C) wire for steady power, and they have to be matched to your specific system to work correctly. A professional handles the wiring, compatibility, and calibration so it runs right from day one — our licensed ', { link: 'electrical', href: '/services/electrical/' }, ' and HVAC team takes care of the connections.'] },
 
-      { kind: 'h2', text: 'So, Are Smart Thermostats Worth It?' },
+      { kind: 'h2', text: 'Are Smart Thermostats Worth It in Cincinnati?' },
       { kind: 'p', spans: ['For most homes, yes. The mix of energy savings, remote control, and steadier comfort usually outweighs the modest cost, especially with a utility rebate and a system in good condition. One honest caveat: a smart thermostat cannot fix struggling equipment. If your heating or cooling is already weak or unreliable, a tune-up or repair should come first — the thermostat makes a healthy system better, not a failing one whole.'] },
 
-      { kind: 'h2', text: 'Upgrade Your Thermostat With Degree of Comfort' },
+      { kind: 'h2', text: 'Smart Thermostat Installation in Cincinnati' },
       { kind: 'p', spans: ['If you are ready to stop paying to heat and cool an empty house, Degree of Comfort can recommend, install, and set up the right smart thermostat for your system. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Ready to upgrade? Call ', { strong: '(513) 586-5107' }, ', ask about smart thermostat installation with your ', { link: 'heating', href: '/services/heating/' }, ' or ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' service, or ', { link: 'request an estimate', href: '/request-estimate/' }, '.'] },
     ],
@@ -4576,10 +4649,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'signs-your-home-may-have-hard-water',
-    title: 'Signs Your Home May Have Hard Water and What to Do About It',
+    title: 'Signs Your Cincinnati Home May Have Hard Water and What to Do About It',
+    seoTitle: 'Signs of Hard Water in Cincinnati Homes',
     category: 'Plumbing',
     excerpt:
-      'Spotty dishes, dry skin, crusty faucets? The signs your Cincinnati home has hard water, what it quietly costs you, and how to fix it for good.',
+      'Signs of hard water in a Cincinnati home: spotty dishes, dry skin and crusty faucets. What hard water quietly costs you, and how to fix it for good.',
     date: '2025-08-29',
     dateModified: '2025-08-29',
     readMinutes: 7,
@@ -4602,7 +4676,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'What Is Hard Water?' },
       { kind: 'p', spans: ['Hard water simply means water with a high mineral content, mostly calcium and magnesium, picked up as it moves through rock and soil. Those minerals are not a health hazard, but as the water heats and evaporates they leave behind scale — the chalky residue that builds up inside pipes, fixtures, and every appliance the water touches.'] },
 
-      { kind: 'h2', text: 'Signs Your Home May Have Hard Water' },
+      { kind: 'h2', text: 'Signs Your Cincinnati Home May Have Hard Water' },
       { kind: 'p', spans: ['Any one of these on its own is easy to shrug off. Together, they point clearly to hard water.'] },
       { kind: 'h3', text: 'Soap Scum and Spots Everywhere' },
       { kind: 'p', spans: ['A white film on the shower glass, spots on dishes straight out of the dishwasher, and a chalky crust on faucets and showerheads are the most visible tell. That same residue is building up where you cannot see it, too.'] },
@@ -4615,7 +4689,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Appliances Wearing Out Early' },
       { kind: 'p', spans: ['Scale coats the heating element and lining of your water heater and clogs the dishwasher and washing machine, making them work harder and fail sooner. A quarter inch of buildup inside a ', { link: 'water heater', href: '/services/water-heater-repair/' }, ' noticeably raises the energy needed to heat the tank.'] },
 
-      { kind: 'h2', text: 'How to Confirm and Fix Hard Water' },
+      { kind: 'h2', text: 'How to Confirm and Fix Hard Water in Cincinnati' },
       { kind: 'p', spans: ['You can confirm a hunch at home, but a real fix starts with knowing exactly how hard your water is.'] },
       { kind: 'h3', text: 'Try the Soap Shake Test' },
       { kind: 'p', spans: ['Fill a clear bottle partway with tap water, add a few drops of pure liquid soap, cap it, and shake. Lots of fluffy suds means soft water; weak suds with cloudy, milky water points to hard water. It is a quick gut check, not an exact reading.'] },
@@ -4629,7 +4703,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'Is Hard Water Bad for Your Health?' },
       { kind: 'p', spans: ['Not really. Hard water is safe to drink and even adds trace minerals. The real cost is comfort and money — it can aggravate dry skin or eczema, and it steadily wears down the plumbing and appliances you have already paid for. Some softeners add a small amount of sodium to the water, so if that is a concern we can walk you through salt-free conditioning options.'] },
 
-      { kind: 'h2', text: 'Say Goodbye to Hard Water With Degree of Comfort' },
+      { kind: 'h2', text: 'Water Quality Service in Cincinnati' },
       { kind: 'p', spans: ['If the signs sound familiar, Degree of Comfort can test your water and put the right solution in place. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Tired of spots, scale, and stiff laundry? Call ', { strong: '(513) 586-5107' }, ', ask about a ', { link: 'water quality', href: '/services/water-quality/' }, ' test and treatment, or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle it.'] },
     ],
@@ -4641,10 +4715,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'common-causes-of-uneven-cooling-in-your-home',
-    title: 'Common Causes of Uneven Cooling in Your Home',
+    title: 'Common Causes of Uneven Cooling in Cincinnati Homes',
+    seoTitle: 'Uneven Cooling in Cincinnati Homes: Causes',
     category: 'Cooling',
     excerpt:
-      'One room freezing while another stays stuffy? The most common causes of uneven cooling in Cincinnati homes — and the fixes that finally even things out.',
+      'Uneven cooling in Cincinnati homes, one room cold and another stuffy, usually traces to a few fixable causes. Here are the common ones and the fixes.',
     date: '2025-07-11',
     dateModified: '2025-07-11',
     readMinutes: 7,
@@ -4664,7 +4739,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['If one room feels like a refrigerator while another stays stuffy no matter where you set the thermostat, you are dealing with uneven cooling — one of the most common comfort complaints we hear. The good news is that it almost always traces back to a handful of fixable causes.'] },
       { kind: 'p', spans: ['Here is what tends to throw a home’s temperatures out of balance, what you can try yourself, and when it is time to bring in a technician.'] },
 
-      { kind: 'h2', text: 'What Causes Uneven Cooling in Your Home' },
+      { kind: 'h2', text: 'What Causes Uneven Cooling in Your Cincinnati Home' },
       { kind: 'p', spans: ['Even cooling depends on air reaching every room at the right volume. When something interrupts that, certain spaces never catch up. These are the usual culprits.'] },
       { kind: 'h3', text: 'Blocked or Closed Vents' },
       { kind: 'p', spans: ['Furniture, rugs, and curtains over supply or return vents choke the airflow to a room before it can cool down. Closing vents in unused rooms to redirect air usually backfires, since your system is sized for the whole house and the added pressure throws everything off. Keep vents open and clear.'] },
@@ -4677,7 +4752,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Inadequate Insulation' },
       { kind: 'p', spans: ['Poor attic and wall insulation lets summer heat pour in and cooled air leak out, which is why upstairs rooms and west-facing spaces are so often the warm ones. No amount of AC fully overcomes a room that the heat keeps re-entering.'] },
 
-      { kind: 'h2', text: 'How to Even Out the Cooling' },
+      { kind: 'h2', text: 'How to Even Out AC Cooling From Room to Room' },
       { kind: 'p', spans: ['Start with the easy steps before moving to the bigger fixes — sometimes the simple ones are all it takes.'] },
       { kind: 'h3', text: 'Open and Adjust Your Vents' },
       { kind: 'p', spans: ['Make sure nothing is covering the vents, then try partially closing the registers in your coolest rooms to nudge more air toward the warm ones. Adjust gradually rather than slamming any vent fully shut.'] },
@@ -4690,7 +4765,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Keep Up With Maintenance' },
       { kind: 'p', spans: ['A lot of uneven cooling traces back to a system that is simply overdue for service. Annual ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ' keeps the coils clean, the refrigerant correct, and airflow strong, so the whole house cools the way it should.'] },
 
-      { kind: 'h2', text: 'When to Call a Professional' },
+      { kind: 'h2', text: 'When to Call an AC Technician in Cincinnati' },
       { kind: 'p', spans: ['If a fresh filter, open vents, and the fan on On have not balanced things out, the cause is usually deeper — leaky ducts, a sizing mismatch, low refrigerant, or a failing part. At that point a licensed technician should diagnose it properly. Our team handles ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' diagnostics and repairs across the Tri-State and will tell you honestly what is causing the problem.'] },
 
       { kind: 'h2', text: 'Why Uneven Cooling Is Worth Fixing' },
@@ -4702,7 +4777,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Comfort and Air Quality' },
       { kind: 'p', spans: ['Weak airflow lets humidity build in the rooms that never cool well, creating the damp conditions mold likes, while the temperature swings make parts of your home uncomfortable to use at all.'] },
 
-      { kind: 'h2', text: 'Trust Degree of Comfort for Even, Reliable Cooling' },
+      { kind: 'h2', text: 'Fixing Uneven Cooling in Cincinnati' },
       { kind: 'p', spans: ['If parts of your home never seem to cool down, Degree of Comfort can find out why and fix it. We serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana, and we are family-owned, licensed and insured, with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Ready for the same comfortable temperature in every room? Call ', { strong: '(513) 586-5107' }, ', schedule ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' service or routine ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team even things out.'] },
     ],
@@ -4719,10 +4794,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'how-to-extend-the-life-of-your-ac-unit',
-    title: 'How to Extend the Life of Your AC Unit',
+    title: 'How to Extend the Life of Your AC Unit in Cincinnati',
+    seoTitle: 'Extend the Life of Your AC Unit in Cincinnati',
     category: 'Cooling',
     excerpt:
-      'Want your air conditioner to last longer? Simple, proven steps Cincinnati homeowners can use to extend the life of an AC unit and avoid an early replacement.',
+      'How to extend the life of your AC unit: proven steps Cincinnati homeowners can use to keep an air conditioner running and avoid an early replacement.',
     date: '2025-07-18',
     dateModified: '2025-07-18',
     readMinutes: 7,
@@ -4742,7 +4818,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['An air conditioner is one of the bigger investments in your home, and how long it lasts has less to do with the brand on the label than with how it is cared for. Two identical units can live very different lives — one quits in eight years, the other still runs strong past fifteen — and the difference is almost always maintenance.'] },
       { kind: 'p', spans: ['The good news is that most of what extends an AC’s life is simple, and a few of the steps you can handle yourself. Here is how to get the most years out of your cooling system.'] },
 
-      { kind: 'h2', text: 'Get a Professional Tune-Up Every Year' },
+      { kind: 'h2', text: 'Get a Professional AC Tune-Up Every Year in Cincinnati' },
       { kind: 'p', spans: ['If you do only one thing for your AC, make it an annual tune-up. During a maintenance visit a technician checks refrigerant levels, tests the capacitor and compressor, cleans the coils, tightens electrical connections, and lubricates the moving parts that wear out fastest. These are the small adjustments that keep the system from working harder than it needs to.'] },
       { kind: 'p', spans: ['Annual service matters for your wallet in another way too: most manufacturers require documented yearly maintenance to keep the warranty valid. Skipping it can leave you paying full price for a repair that should have been covered. Our ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ' keeps that record current and catches small issues before cooling season starts.'] },
 
@@ -4758,7 +4834,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Closing vents in unused rooms to save energy usually backfires. Your system is sized for the whole house, and blocking returns or supply registers raises pressure, lengthens run times, and creates hot and cold spots. Keep furniture and rugs off the vents and leave the large majority of registers open.'] },
       { kind: 'p', spans: ['If some rooms never seem to cool no matter what, the duct system may be leaking or undersized. We can check it as part of an ', { link: 'AC repair', href: '/services/ac-repair/' }, ' visit and find out where the air is going.'] },
 
-      { kind: 'h2', text: 'Seal Ducts and Improve Insulation' },
+      { kind: 'h2', text: 'Seal Ducts and Improve Insulation in Your Cincinnati Home' },
       { kind: 'p', spans: ['Cooled air is expensive, and many homes lose a meaningful share of it through leaky ductwork in the attic or crawlspace before it ever reaches a room. Sealing those joints and insulating the ducts that run through unconditioned space means the air you paid to cool actually arrives where you want it.'] },
       { kind: 'p', spans: ['The same goes for the house itself. Good attic insulation and sealed gaps around windows and doors keep the heat out, so the AC cycles less and wears more slowly. It is one of the few upgrades that pays you back every single summer.'] },
 
@@ -4766,14 +4842,14 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A smart or programmable thermostat lets the system ease off when you are asleep or away and ramp back up before you get home, which cuts unnecessary run time without sacrificing comfort. Many models also track humidity, send filter-change reminders, and let you adjust the temperature from your phone.'] },
       { kind: 'p', spans: ['Fewer hours of hard running add up to less wear over the life of the unit, and a lighter electric bill along the way.'] },
 
-      { kind: 'h2', text: 'Give the Condenser Some Shade' },
+      { kind: 'h2', text: 'Give the Condenser Some Shade From the Cincinnati Sun' },
       { kind: 'p', spans: ['An outdoor unit baking in direct afternoon sun has to work harder to shed heat than one in the shade. A tree, an awning, or a simple screen on the sunniest side can lower the load on the compressor. Just keep any shade structure far enough away to preserve that two-foot airflow clearance.'] },
 
-      { kind: 'h2', text: 'Fix Small Problems Before They Grow' },
+      { kind: 'h2', text: 'Fix Small AC Problems Before They Grow' },
       { kind: 'p', spans: ['Most major AC failures start as something minor — a weak capacitor, a small refrigerant leak, a worn contactor. Left alone, that one part drags down the others until the compressor finally gives out. Calling for ', { link: 'AC repair', href: '/services/ac-repair/' }, ' at the first odd noise, weak airflow, or jump in your bill is almost always cheaper than waiting.'] },
       { kind: 'p', spans: ['It protects your warranty, too. Running a system with a known problem can void coverage and turn a small bill into a large one.'] },
 
-      { kind: 'h2', text: 'When It Is Time to Replace Instead of Repair' },
+      { kind: 'h2', text: 'When to Replace Instead of Repair Your AC in Cincinnati' },
       { kind: 'p', spans: ['Even a well-kept AC reaches the end of the road eventually, and there is a point where pouring money into an old system stops making sense. We will always tell you honestly when that line has been crossed — here is what we look for.'] },
       { kind: 'h3', text: 'The System Is 10 to 15 Years Old' },
       { kind: 'p', spans: ['Most central air conditioners last somewhere in this range. Past it, efficiency drops and parts get harder to find, so a major repair on an aging unit is often money better spent toward a replacement.'] },
@@ -4782,7 +4858,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Your Bills Keep Climbing' },
       { kind: 'p', spans: ['If your energy bills creep up every year while your habits stay the same, the system is losing efficiency. A modern ', { link: 'AC installation', href: '/services/ac-installation-replacement/' }, ' can cool the same house for noticeably less, and the savings help offset the cost.'] },
 
-      { kind: 'h2', text: 'Trust Degree of Comfort to Keep It Running' },
+      { kind: 'h2', text: 'AC Maintenance and Repair in Cincinnati' },
       { kind: 'p', spans: ['Whether your AC needs a seasonal tune-up, a quick fix, or an honest opinion on repair versus replacement, Degree of Comfort is here for homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, and we back every job with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['Ready to add years to your system? Call ', { strong: '(513) 586-5107' }, ', schedule ', { link: 'air conditioning', href: '/services/air-conditioning/' }, ' service or routine ', { link: 'AC maintenance', href: '/services/ac-maintenance/' }, ', or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team keep your home cool and comfortable for the long haul.'] },
     ],
@@ -4799,10 +4875,11 @@ export const posts: Post[] = [
   },
   {
     slug: 'reasons-why-you-shouldnt-diy-electrical-work',
-    title: "Reasons Why You Shouldn't DIY Electrical Work",
+    title: 'Reasons Why You Shouldn\'t DIY Electrical Work in Cincinnati',
+    seoTitle: 'Why Not to DIY Electrical Work in Cincinnati',
     category: 'Electrical',
     excerpt:
-      'Thinking about tackling that electrical project yourself? The real dangers of DIY electrical work in Cincinnati, and why a licensed pro is the safer call.',
+      'The real dangers of DIY electrical work in Cincinnati homes, from shock and fire to code and insurance problems, and why a licensed pro is the safer call.',
     date: '2025-08-26',
     dateModified: '2025-08-26',
     readMinutes: 7,
@@ -4822,7 +4899,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['If you’ve got an internet connection and a garage full of tools, it’s easy to feel like you can take on any home project. Maybe you’ve built a bookshelf, swapped a faucet, or painted an accent wall — those feel doable. But there’s a big difference between hanging shelves and working with the electricity running through your walls.'] },
       { kind: 'p', spans: ['Below, we’ll walk through the real reasons why you shouldn’t DIY electrical work. By the end, you’ll understand why bringing in a pro is usually the smartest move for your home and your family.'] },
 
-      { kind: 'h2', text: 'Not All DIY Projects Are Created Equal' },
+      { kind: 'h2', text: 'Why Electrical Work Is Different From Other DIY Projects' },
       { kind: 'p', spans: ['Home improvement jobs aren’t all the same. Refinishing furniture or installing closet shelves is low-risk — if you mess up, you start over. Electrical work is in a category of its own. It isn’t just about owning a screwdriver or a voltage tester. It’s about understanding how electricity behaves, how circuits function, and what happens when something goes wrong. Here’s how electrical projects differ from the rest.'] },
       { kind: 'h3', text: 'Tools vs. Training' },
       { kind: 'p', spans: ['Having the right tools is a good start, but tools alone don’t make the job safe. Real electrical work calls for personal protective equipment, the right materials, and the knowledge to work safely around different systems and load levels. A wire stripper in your hand doesn’t replace the training a licensed electrician spends years building.'] },
@@ -4831,7 +4908,7 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Code Compliance Matters' },
       { kind: 'p', spans: ['Experienced electricians follow local codes to keep your home safe and up to date. Doing the work yourself without knowing those codes can lead to failed ', { link: 'electrical inspections', href: '/services/electrical-inspections/' }, ', insurance complications, and real safety risks — especially if you ever sell the home and the work gets flagged.'] },
 
-      { kind: 'h2', text: 'What Are the Dangers of DIY Electrical Work?' },
+      { kind: 'h2', text: 'The Dangers of DIY Electrical Work in Cincinnati Homes' },
       { kind: 'p', spans: ['Before you pick up the wire cutters, it’s worth knowing exactly what can go wrong. Electrical systems are more complex than they look, and the margin for error is small. Let’s break down the dangers that shouldn’t be ignored.'] },
       { kind: 'h3', text: 'Electric Shock or Cardiac Arrest' },
       { kind: 'p', spans: ['One of the most immediate dangers of DIY electrical work is electric shock. A single misstep on a live circuit can send current through your body, causing serious injury or even cardiac arrest. Without the right knowledge and gear, that risk climbs fast.'] },
@@ -4844,26 +4921,26 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'Outdated or Mismatched Materials' },
       { kind: 'p', spans: ['Modern homes have specific electrical demands. Using old wire, mismatched parts, or the wrong ', { link: 'switch or outlet', href: '/services/switches-outlets/' }, ' can throw your whole system out of balance and lead to overheating or short circuits. An undersized or outdated panel makes it worse — which is why an ', { link: 'electrical panel replacement', href: '/services/electrical-panel-replacement/' }, ' is often the real fix, not a band-aid at the outlet.'] },
 
-      { kind: 'h2', text: 'Why the Risks Outweigh the Rewards' },
+      { kind: 'h2', text: 'Why DIY Electrical Risks Outweigh the Rewards' },
       { kind: 'p', spans: ['Taking on a DIY electrical project can seem appealing at first. It might save a little money, it feels satisfying, and there’s some pride in doing it yourself. But when you stack up the risks, it’s clear why this kind of work is better left to an expert.'] },
       { kind: 'h3', text: 'Simple Tasks Get Complicated Fast' },
       { kind: 'p', spans: ['Even something as basic as swapping a light switch can spiral. If multiple switches control one fixture, or the wires don’t follow standard colors, one wrong connection can affect an entire circuit. The same goes for a ', { link: 'ceiling fan', href: '/services/ceiling-fan-installation/' }, ' or a ', { link: 'light fixture', href: '/services/lighting-fixture-installation/' }, ' — proper support and wiring matter more than people expect.'] },
-      { kind: 'h3', text: 'No Second Chances' },
+      { kind: 'h3', text: 'No Second Chances With Electricity' },
       { kind: 'p', spans: ['A bad coat of paint can be fixed with another coat. A mistake with electricity can mean a shock, a fire, or an injury. Electricity isn’t forgiving, and even confident DIYers can run into serious trouble.'] },
       { kind: 'h3', text: 'Long-Term Costs' },
       { kind: 'p', spans: ['You might think you’re saving money, but if the job goes sideways you could be facing major repair bills — plus the cost of damaged electronics or a voided warranty. Power surges alone can fry expensive equipment, which is why a ', { link: 'whole-home surge protector', href: '/services/surge-protector-installation/' }, ' installed correctly is a smarter investment than a risky DIY fix.'] },
 
-      { kind: 'h2', text: 'Some Jobs Should Always Go to a Pro' },
+      { kind: 'h2', text: 'Electrical Jobs That Should Always Go to a Pro in Cincinnati' },
       { kind: 'p', spans: ['A few projects aren’t just risky — they’re the kind where a mistake puts your whole home at stake. Installing an ', { link: 'EV charger', href: '/services/ev-chargers/' }, ', upgrading your ', { link: 'electrical panel', href: '/services/electrical-panel-replacement/' }, ', or any ', { link: 'home rewiring', href: '/services/home-rewiring/' }, ' involves high loads, permits, and code requirements that really aren’t worth guessing on. These are the jobs our licensed electricians handle every day.'] },
 
-      { kind: 'h2', text: 'The Value of Experience and Safety' },
+      { kind: 'h2', text: 'The Value of a Licensed Electrician’s Experience' },
       { kind: 'p', spans: ['There’s a reason electricians go through years of training and certification. Electrical systems are complicated, and mistakes are costly. Here’s what professional experience actually buys you.'] },
       { kind: 'h3', text: 'Speed Without Sacrificing Safety' },
       { kind: 'p', spans: ['A seasoned electrician finishes the job faster and more accurately than a DIY attempt — fewer interruptions to your day, and no lingering worry about whether it was done right.'] },
       { kind: 'h3', text: 'Safety for the Whole Family' },
       { kind: 'p', spans: ['Good electricians don’t just get the power flowing. They protect your whole household — checking for loose wires, testing for correct voltage, and making sure breakers and connections are reliable. If something ever does go wrong, our ', { link: 'emergency electrical service', href: '/services/electrical/' }, ', open every day including weekends, means you’re never left in the dark.'] },
 
-      { kind: 'h2', text: 'Safe DIY Projects That Don’t Cross the Line' },
+      { kind: 'h2', text: 'Safe DIY Electrical Projects for Cincinnati Homeowners' },
       { kind: 'p', spans: ['While most electrical work should be left to professionals, there are a few low-risk tasks a confident homeowner can usually handle — as long as you take basic precautions and you’re not working inside the walls.'] },
       { kind: 'h3', text: 'Replacing Light Bulbs' },
       { kind: 'p', spans: ['It seems basic, but the right bulb matters. Switching to energy-efficient ', { link: 'LED bulbs', href: '/services/led-lighting/' }, ' can lower your bills and reduce heat — just match the replacement to the fixture’s wattage rating so you don’t risk overheating.'] },
@@ -4873,11 +4950,11 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['If a breaker trips, you can usually reset it by flipping it fully off and back on. But if it keeps tripping, stop there — that’s a sign of a deeper issue that needs a professional ', { link: 'electrical inspection', href: '/services/electrical-inspections/' }, ', not a repeated reset.'] },
       { kind: 'p', spans: ['Anything beyond this — handling wires, rewiring fixtures, or modifying circuits — should go to an experienced electrician. It’s always better to stay on the cautious side than to risk injury or property damage.'] },
 
-      { kind: 'h2', text: 'Final Thoughts on DIY Electrical Risks' },
+      { kind: 'h2', text: 'Weighing the Risks of DIY Electrical Work' },
       { kind: 'p', spans: ['So what are the real dangers of DIY electrical work? They go well beyond a blown fuse or a flickering light. The risk of injury, fire, property damage, and even legal or insurance trouble is real. There are plenty of home projects you can confidently take on — electrical work just isn’t one of them. The margin for error is simply too small.'] },
       { kind: 'p', spans: ['You might be handy, confident, and eager to do it yourself. But electricity plays by its own rules. Knowing when to grab your tools and when to call a licensed pro is what keeps your family safe, your electronics protected, and your home standing strong.'] },
 
-      { kind: 'h2', text: 'Trust Degree of Comfort to Do It Right' },
+      { kind: 'h2', text: 'Electrical Services in Cincinnati From Degree of Comfort' },
       { kind: 'p', spans: ['If you’re dealing with an electrical issue or planning an upgrade, it’s time to call someone who does this for a living. At Degree of Comfort, we serve homeowners across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. Our licensed, background-checked electricians treat your home with respect — and back every job with upfront, flat-rate pricing and a satisfaction guarantee.'] },
       { kind: 'p', spans: ['We’re a family-owned company that cares about helping other families stay safe and comfortable. Whether you need a quick repair, ', { link: 'home rewiring', href: '/services/home-rewiring/' }, ', a ', { link: 'panel upgrade', href: '/services/electrical-panel-replacement/' }, ', ', { link: 'surge protection', href: '/services/surge-protector-installation/' }, ', or a new ', { link: 'EV charger', href: '/services/ev-chargers/' }, ' installed, we’re here to help.'] },
       { kind: 'p', spans: ['Now that you know the reasons why you shouldn’t DIY electrical work, it’s time to take action. Ready to schedule? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and let our team handle your electrical needs with the experience and care you can count on.'] },
@@ -4886,9 +4963,10 @@ export const posts: Post[] = [
   {
     slug: 'tenant-has-no-heat-cincinnati-landlord-guide',
     title: "Tenant Has No Heat? A Cincinnati Landlord's Guide",
+    seoTitle: 'Tenant Has No Heat? Cincinnati Landlords',
     category: 'Heating',
     excerpt:
-      'Tenant reporting no heat? Here’s what Cincinnati landlords must do, step by step, plus Ohio and Kentucky heat laws and fines.',
+      'What Cincinnati landlords must do when a tenant has no heat, step by step, plus the Ohio and Kentucky heat laws and fines that apply to rental properties.',
     date: '2026-08-03',
     dateModified: '2026-10-02',
     readMinutes: 8,
@@ -4921,7 +4999,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A filter clogged with dust makes the furnace overheat, and its safety switch shuts the burners down to protect itself. If the filter is gray and caked, have the tenant swap it if there’s a spare, then wait a few minutes for the system to reset.'] },
       { kind: 'p', spans: ['If one of these fixes it, you don’t need us, and we’d rather you didn’t pay for a service call to flip a switch. Our ', { link: 'furnace troubleshooting guide', href: '/furnace-not-working-troubleshooting-tips/' }, ' goes a little further if you want to hand the tenant more to try. Anything past these checks, like opening the burner compartment, relighting a pilot, or touching the gas valve, is not a job for a tenant.'] },
 
-      { kind: 'h2', text: 'Step 3: Get a Licensed Technician Out the Same Day' },
+      { kind: 'h2', text: 'Step 3: Get a Licensed Cincinnati Technician Out the Same Day' },
       { kind: 'p', spans: ['If the quick checks don’t bring the heat back, schedule a licensed HVAC technician right away. Not tomorrow morning, and not after you’ve seen if it “kicks back on.” A furnace that has stopped heating has a reason, whether that’s a failed igniter, a bad flame sensor, a blower motor, or a control board, and it will not repair itself overnight.'] },
       { kind: 'p', spans: ['Here’s our honest opinion: waiting to see what happens is the most expensive thing a Cincinnati landlord can do with a no-heat call. On rental units where tenants don’t control their own heat, the city can fine you $300 for the first day without adequate heat and $750 for every day after that. Three days of waiting is $1,800 in fines before you’ve paid for a single part.'] },
       { kind: 'p', spans: ['When you book the visit, give the technician the tenant’s contact details and confirm access. Ohio law presumes 24 hours is reasonable notice to enter a unit, with an exception for emergencies. Even so, a text from the tenant saying “yes, come in today” keeps everyone on the same page and costs you nothing.'] },
@@ -4937,15 +5015,15 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'What the Law Expects in Ohio and Cincinnati' },
       { kind: 'p', spans: ['The short version: Ohio Revised Code 5321.04 requires landlords to supply reasonable heat and keep the heating equipment they supply in good and safe working order. In Cincinnati units where tenants don’t control their own heat, the inside must stay at 70 degrees or warmer once the outdoor temperature has been below 60 degrees for 24 hours, with fines of $300 for the first day and $750 for each day after. Tenants who give written notice can use the remedies in ORC 5321.07. Our guide to ', { link: 'Cincinnati landlord heating requirements', href: '/cincinnati-landlord-heating-requirements-ohio-law/' }, ' covers the full law, including the small-landlord exception, the rule against shutting off heat, and Northern Kentucky. We are heating contractors, not lawyers, so confirm the details with your attorney.'] },
 
-      { kind: 'h2', text: 'When the Problem Isn’t the Furnace' },
+      { kind: 'h2', text: 'No Heat in a Cincinnati Rental When It Isn’t the Furnace' },
       { kind: 'p', spans: ['Sometimes a no-heat call has nothing to do with the equipment, and a heating company is the wrong first call.'] },
       { kind: 'p', spans: ['If the gas is in the tenant’s name and the utility shut it off for nonpayment, that’s between the tenant and the utility; we can’t turn it back on. If your building’s boiler is under a service contract, call that contractor first so you don’t pay twice. And if the gas was shut off after a leak or a failed safety check, the utility won’t restore service until the line is repaired and passes a pressure test. That one we do handle through our ', { link: 'gas service disconnection repair', href: '/services/gas-service-disconnection/' }, ' work.'] },
 
-      { kind: 'h2', text: 'How to Get Fewer No-Heat Calls Next Winter' },
+      { kind: 'h2', text: 'How Cincinnati Landlords Can Get Fewer No-Heat Calls Next Winter' },
       { kind: 'p', spans: ['Most emergency no-heat calls could have been a routine fall visit. A tune-up before the first run of cold nights catches the weak igniter, the dirty flame sensor, and the cracked belt while it’s still cheap and nobody is shivering. For rentals, ', { link: 'annual furnace maintenance', href: '/services/furnace-maintenance/' }, ' also gives you a dated record that the system was inspected, which is useful if anyone ever asks.'] },
       { kind: 'p', spans: ['Filters are the other half. Tenants rarely change them, so either put filter changes on your own calendar or leave a stack of the right size next to the furnace with the date written on the edge. It’s the cheapest heating repair there is.'] },
 
-      { kind: 'h2', text: 'Need Heat Back On Tonight?' },
+      { kind: 'h2', text: 'No-Heat Repair for Cincinnati Rentals' },
       { kind: 'p', spans: ['Degree of Comfort handles ', { link: 'emergency furnace repair', href: '/services/furnace-repair/' }, ' Seven days a week across Cincinnati, Northern Kentucky, and Southeast Indiana. We’re family-owned, licensed and insured, and we give you the price before we start, with no overtime or weekend fees. That matters when the call comes in at 7 p.m. on a Saturday.'] },
       { kind: 'p', spans: ['Call ', { strong: '(513) 586-5107' }, ' and we’ll get a technician to your tenant. For planned work like a replacement or a maintenance plan across several units, ', { link: 'request an estimate', href: '/request-estimate/' }, '.'] },
     ],
@@ -4982,7 +5060,7 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['Older Cincinnati homes heat unevenly mostly because their ductwork was added after the house was built. Many houses from the late 1800s and early 1900s were heated with radiators or a gravity furnace, and the forced-air ducts that came later were squeezed through closets and walls wherever they fit. The result is long, narrow runs to the upper floors, few return vents upstairs, and plenty of leaks. Add thin attic insulation and old windows, and the far rooms lose heat faster than it arrives. Here is how to find which problem your house has, and what fixes it.'] },
 
-      { kind: 'h2', text: 'Why Is Upstairs Colder Than Downstairs in Winter?' },
+      { kind: 'h2', text: 'Why Is Upstairs Colder Than Downstairs in a Cincinnati Winter?' },
       { kind: 'p', spans: ['Heat rises, so the upstairs should be warmer. In an older house it often isn’t, for three reasons. The duct runs to the second and third floors are the longest in the house, so less warm air makes it there. There is usually no return vent upstairs, so the air that does arrive has nowhere to go and the rooms stop taking more. And the top floor sits under the attic, where many older homes have little insulation, so it loses heat fastest.'] },
       { kind: 'p', spans: ['This is common in neighborhoods like Northside, Clifton, Walnut Hills, and Price Hill, where much of the housing dates to the late 1800s and early 1900s, and in the tall, narrow houses of Over-the-Rhine.'] },
 
@@ -4997,14 +5075,14 @@ export const posts: Post[] = [
       { kind: 'h3', text: 'The Windows Are Original' },
       { kind: 'p', spans: ['Single-pane windows lose heat quickly, and a room with several of them will run colder even when the heat reaching it is fine.'] },
 
-      { kind: 'h2', text: 'What You Can Check Yourself' },
+      { kind: 'h2', text: 'Uneven Heat Checks for Cincinnati Homeowners' },
       { kind: 'p', spans: ['Before you call anyone, spend 20 minutes on these. They cost nothing and fix more cold rooms than you would expect.'] },
       { kind: 'p', spans: [{ strong: 'Change the filter.' }, ' A clogged filter starves the whole system of airflow, and the rooms at the end of the longest ducts notice first. Our guide on ', { link: 'how often to change your furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, ' covers what to buy and when.'] },
       { kind: 'p', spans: [{ strong: 'Open every register and clear the returns.' }, ' Closing vents in warm rooms doesn’t push more heat to cold ones in most systems. Keep furniture, rugs, and curtains off supply registers and return grilles.'] },
       { kind: 'p', spans: [{ strong: 'Check the damper handles in the basement.' }, ' Many older duct systems have a small lever on each branch duct. If a lever sits across the duct, that branch is partly closed. Open the branches to the cold rooms and close the ones to the warmest rooms a little, then give it a day.'] },
       { kind: 'p', spans: [{ strong: 'Run the fan continuously.' }, ' Setting the thermostat fan to ON instead of AUTO keeps air moving between floors and can even out the difference. It uses more electricity, so try it and see whether it helps enough to be worth it.'] },
 
-      { kind: 'h2', text: 'Fixes That Work in Older Homes' },
+      { kind: 'h2', text: 'Uneven Heating Fixes That Work in Older Cincinnati Homes' },
       { kind: 'h3', text: 'Seal and Insulate the Ducts' },
       { kind: 'p', spans: ['According to ', { link: 'ENERGY STAR', href: 'https://www.energystar.gov/saveathome/heating-cooling/duct-sealing' }, ', about 20 to 30 percent of the air moving through the ducts in a typical house is lost to leaks, holes, and loose connections. In an older house with ducts added over the decades, that loss comes straight out of the rooms at the far end. Sealing the joints and insulating ducts that run through unheated spaces puts that air back where you paid for it to go.'] },
       { kind: 'h3', text: 'Add a Return Upstairs' },
@@ -5072,10 +5150,10 @@ export const posts: Post[] = [
       { kind: 'p', spans: [{ strong: 'Lifespan:' }, ' boilers typically last 15 to 25 years, furnaces 15 to 20.'] },
       { kind: 'p', spans: [{ strong: 'Air quality:' }, ' a boiler doesn’t blow air, so it doesn’t move dust around the house. A furnace filters the air it moves, if the filter is kept up.'] },
 
-      { kind: 'h2', text: 'Which Costs Less to Run?' },
+      { kind: 'h2', text: 'Which Costs Less to Run in Cincinnati?' },
       { kind: 'p', spans: ['On paper, the two are close. A new high-efficiency gas furnace and a new high-efficiency gas boiler both turn most of the gas you pay for into heat. In practice, delivery matters as much as the equipment. ', { link: 'ENERGY STAR', href: 'https://www.energystar.gov/saveathome/heating-cooling/duct-sealing' }, ' estimates that 20 to 30 percent of the air moving through a typical home’s ducts is lost to leaks and poor connections. Water in sealed pipes doesn’t leak heat that way. So a boiler in a home with radiators often holds its efficiency better than a furnace pushing air through old, leaky ducts. Seal the ducts, and most of that gap closes.'] },
 
-      { kind: 'h2', text: 'The Air Conditioning Question' },
+      { kind: 'h2', text: 'Boilers, Furnaces and Central Air in Cincinnati Homes' },
       { kind: 'p', spans: ['This is the deciding factor for a lot of Cincinnati homeowners. Our summers are hot and humid, and a furnace comes with the ductwork central air needs. A boiler doesn’t. If your home heats with radiators and you want cooling, you don’t have to give up the boiler. A ductless ', { link: 'mini-split', href: '/services/mini-split-installation/' }, ' cools the rooms you use without running ducts through plaster walls, and a heat pump mini-split can also take the edge off in spring and fall.'] },
 
       { kind: 'h2', text: 'What Most Cincinnati Homes Have' },
@@ -5085,13 +5163,13 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Usually not. Our view is simple: replace like with like. Going from a boiler to a furnace means adding ductwork to a house that was never built for it, which in an older home means opening walls, ceilings, and closets. Going from a furnace to a boiler means running pipes and adding radiators or floor tubing to every room. Either way, you pay for a whole new delivery system on top of the equipment. A boiler replaced with a new boiler also keeps the heat that lasts 15 to 25 years, instead of adding ducts that can lose 20 to 30 percent of their air.'] },
       { kind: 'p', spans: ['There are exceptions. A major renovation that already opens up the walls is the time to consider a change. So is a house where the old radiator piping is failing throughout. If neither applies, and your current system works, you probably don’t need to switch, and we will tell you so.'] },
 
-      { kind: 'h2', text: 'What Changed in 2026' },
+      { kind: 'h2', text: 'What Changed for Boilers and Furnaces in 2026' },
       { kind: 'p', spans: ['The federal tax credit that covered qualifying high-efficiency furnaces and boilers ended with equipment placed in service before December 31, 2025, so it doesn’t apply to a 2026 install. Separately, the ', { link: 'U.S. Department of Energy', href: 'https://www.energy.gov/articles/doe-finalizes-energy-efficiency-standards-residential-furnaces-save-americans-15-billion' }, ' has set a rule requiring most gas furnaces made after December 18, 2028 to reach 95% AFUE. If you are buying a furnace now, choose a high-efficiency model. Our post on ', { link: 'what a furnace replacement costs in Cincinnati', href: '/how-much-does-a-new-furnace-cost/' }, ' covers both changes in more detail.'] },
 
-      { kind: 'h2', text: 'Which One Is Right for Your Home?' },
+      { kind: 'h2', text: 'Which One Is Right for Your Cincinnati Home?' },
       { kind: 'p', spans: ['A furnace is usually the better choice if your home already has ductwork, you want central air, or upfront cost matters most. A boiler is usually the better choice if your home has radiators or radiant floors, you value quiet and even heat, or anyone in the house is bothered by dust. If some rooms run cold no matter which system you have, the problem is often delivery, not the equipment. Our guide to ', { link: 'uneven heating in older homes', href: '/uneven-heating-older-cincinnati-homes/' }, ' walks through it.'] },
 
-      { kind: 'h2', text: 'Get Honest Advice From Degree of Comfort' },
+      { kind: 'h2', text: 'Boiler and Furnace Advice in Cincinnati' },
       { kind: 'p', spans: ['Degree of Comfort installs and services both. We handle ', { link: 'boiler repair, maintenance, and replacement', href: '/services/boilers/' }, ' and ', { link: 'furnace installation and replacement', href: '/services/furnace-installation-replacement/' }, ' across Cincinnati and the surrounding Tri-State, including Northern Kentucky and Southeast Indiana. We are family-owned, licensed and insured, with upfront, flat-rate pricing.'] },
       { kind: 'p', spans: ['Not sure which way to go? Call ', { strong: '(513) 586-5107' }, ' or ', { link: 'request an estimate', href: '/request-estimate/' }, ' and we will look at your home and tell you what makes sense.'] },
     ],
@@ -5209,7 +5287,7 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['A furnace that turns on and then shuts off after a few seconds or a few minutes is short cycling. It means something is stopping the heating cycle before the house reaches the temperature on your thermostat. The most common causes are a clogged air filter that makes the furnace overheat, a dirty flame sensor that can’t confirm the burners are lit, a blocked vent pipe, and a thermostat in the wrong spot. Less often, the furnace is simply too big for the house. How long it runs before it shuts off is the best clue to which one you have. Here is how to read it, what you can check yourself, and when to call.'] },
 
-      { kind: 'h2', text: 'What Short Cycling Means' },
+      { kind: 'h2', text: 'What Furnace Short Cycling Means' },
       { kind: 'p', spans: ['A healthy furnace runs in steady cycles. The thermostat calls for heat, the burners light, the blower moves warm air through the house, and the furnace shuts off once the room reaches the set temperature. On a cold day, that usually means about ', { strong: '3 to 8 cycles an hour' }, ', each long enough to warm the whole house. It cycles more in a cold snap and less in mild weather.'] },
       { kind: 'p', spans: ['Short cycling is when the furnace shuts off early, before that job is done, and then starts again a few minutes later. You might hear the burners light and go out again within seconds, or notice the furnace running for two or three minutes at a time all day while the far rooms stay cold. Either way, the furnace is starting and stopping far more than it should.'] },
 
@@ -5231,12 +5309,12 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['An oversized furnace heats the air near the thermostat quickly, shuts off, and leaves the rest of the house behind. It is common in homes where the furnace was sized by square footage, or where insulation and new windows were added later and cut the heat the house actually needs. The ', { link: 'U.S. Department of Energy', href: 'https://www.energy.gov/energysaver/furnaces-and-boilers' }, ' notes that even newer systems are often oversized, and that oversizing shortens equipment life and hurts comfort.'] },
       { kind: 'p', spans: ['Our view: don’t replace a short-cycling furnace until someone has checked the filter, the flame sensor, the vents, and the thermostat. Those account for most short cycling, and they cost far less than a new furnace. If the furnace really is oversized and near the end of its 15 to 20 years anyway, the next one should be sized with a proper load calculation, not matched to the old one.'] },
 
-      { kind: 'h2', text: 'Why Short Cycling Matters' },
+      { kind: 'h2', text: 'Why Furnace Short Cycling Matters' },
       { kind: 'p', spans: [{ strong: 'Wear.' }, ' The start of each cycle is the hardest moment on a furnace. The igniter, the inducer, the blower motor, and the control board all take a hit every time it starts, so a furnace starting three times as often wears out sooner.'] },
       { kind: 'p', spans: [{ strong: 'Comfort and bills.' }, ' Short cycles never get warm air to the far rooms, so you turn the thermostat up and burn more gas without the house feeling warmer.'] },
       { kind: 'p', spans: [{ strong: 'Safety.' }, ' A furnace that keeps overheating puts repeated stress on the heat exchanger, and a cracked heat exchanger can leak carbon monoxide. If the furnace also has a burning smell, a yellow or lifting flame, or soot around the burners, treat it as a safety problem. The ', { link: 'U.S. Consumer Product Safety Commission', href: 'https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center' }, ' recommends a working CO alarm on every level of the home.'] },
 
-      { kind: 'h2', text: 'What to Check Before You Call' },
+      { kind: 'h2', text: 'What Cincinnati Homeowners Can Check Before Calling' },
       { kind: 'p', spans: ['You can do all of these yourself in about 15 minutes:'] },
       { kind: 'p', spans: [{ strong: 'Replace the filter.' }, ' ', { link: 'ENERGY STAR', href: 'https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist' }, ' recommends checking it every month in heating season and changing it at least every 3 months.'] },
       { kind: 'p', spans: [{ strong: 'Check the thermostat.' }, ' Replace the batteries, make sure it is set to heat, and look at what is near it. If a register blows on it or the sun hits it, that is a likely cause.'] },
@@ -5245,10 +5323,10 @@ export const posts: Post[] = [
       { kind: 'p', spans: [{ strong: 'Read the blink code.' }, ' Most furnaces have a small light on the control board, visible through a window in the lower panel. Count the flashes and match them to the chart on the inside of the panel door. Write the code down; it saves time when the technician arrives.'] },
       { kind: 'p', spans: ['If the furnace is still short cycling after all five, reset it once by turning the power switch off for a minute. If it goes back to short cycling, stop there. For other no-heat problems, see our ', { link: 'furnace troubleshooting tips', href: '/furnace-not-working-troubleshooting-tips/' }, '.'] },
 
-      { kind: 'h2', text: 'When You Don’t Need a Technician' },
+      { kind: 'h2', text: 'When a Short-Cycling Furnace Doesn’t Need a Technician' },
       { kind: 'p', spans: ['If a new filter, fresh thermostat batteries, or clearing snow off the vent pipes fixed it, you’re done. You don’t need us, and you don’t need a diagnostic visit to confirm it. Watch it for a day. If the cycles stay long and the house heats evenly, the problem is solved.'] },
 
-      { kind: 'h2', text: 'When to Call a Cincinnati Furnace Technician' },
+      { kind: 'h2', text: 'When to Call a Furnace Technician in Cincinnati' },
       { kind: 'p', spans: ['Call if the furnace keeps short cycling after the checks above, if it locks out, if the blink code points to a flame, pressure, or limit fault, or if you have reset it more than once. Call right away if you smell gas or something burning. If your CO alarm sounds, get everyone outside first and call 911 or your gas company from outside. If the furnace is 15 years old or more and this is the latest in a string of repairs, our guide to ', { link: 'whether to repair or replace your furnace', href: '/should-you-repair-or-replace-your-furnace/' }, ' will help you decide. A yearly ', { link: 'furnace tune-up', href: '/what-is-included-in-a-furnace-tune-up/' }, ', which includes cleaning the flame sensor and checking the limit switch, prevents a lot of short cycling in the first place.'] },
 
       { kind: 'h2', text: 'Get Furnace Short Cycling Fixed in Cincinnati' },
@@ -5448,7 +5526,7 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['When a Carrier furnace stops working, the cause is usually one of a handful of things: the thermostat isn’t calling for heat, the furnace has lost power, the blower door isn’t closed tight, the filter is clogged, or a safety switch has shut the furnace down. Most Carrier gas furnaces also have a status light on the control board that flashes a code, so you can see what the furnace thinks is wrong before you call anyone. Start with the five checks below, then read the code. That order often finds the problem without a service visit, and it tells you what to say if you do need one.'] },
 
-      { kind: 'h2', text: 'Start Here: Five Checks Before You Call' },
+      { kind: 'h2', text: 'Five Carrier Furnace Checks to Try Before You Call' },
       { kind: 'p', spans: [{ strong: '1. The thermostat.' }, ' Make sure it is set to heat, set a few degrees above the room temperature, and has working batteries if it uses them. A blank screen usually means dead batteries or a tripped breaker.'] },
       { kind: 'p', spans: [{ strong: '2. Power.' }, ' Check the light-switch style power switch on or near the furnace, which often gets bumped off, and the furnace breaker in your electrical panel.'] },
       { kind: 'p', spans: [{ strong: '3. The blower door.' }, ' Carrier furnaces have a safety switch that cuts power when the lower door is off. If the door was removed to change the filter and isn’t seated firmly, the furnace won’t run.'] },
@@ -5475,7 +5553,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A few problems come up more here than the codes alone suggest. After a winter storm, snow and ice can block the side-wall vent pipes that many high-efficiency furnaces in the Cincinnati area use, which shows up as a pressure switch code. A furnace in an unheated garage, attic, or crawl space can have its condensate line freeze on the coldest nights, with the same result. And the first time the furnace runs each fall, a burning dust smell for a few minutes is normal. If it lasts, or smells like electrical burning, shut the furnace off and call.'] },
       { kind: 'p', spans: ['Timing matters too. January is Cincinnati’s coldest month, with an average low of 23.1°F, and it is when furnaces run hardest and parts that were already weak finally fail. A fall tune-up catches most of those parts first.'] },
 
-      { kind: 'h2', text: 'Carrier Furnace Running but Blowing Cold Air' },
+      { kind: 'h2', text: 'Carrier Furnace Running but Blowing Cold Air in Cincinnati' },
       { kind: 'p', spans: ['If the blower runs but the air is cold, first check that the thermostat fan is set to auto, not on. On "on," the blower runs constantly, including between heating cycles, and the air feels cool. If the fan setting is right, the burners probably aren’t lighting, which takes you back to the ignition and pressure switch codes above. Our post on ', { link: 'why a furnace blows cold air', href: '/why-is-my-furnace-blowing-cold-air/' }, ' covers the other causes.'] },
 
       { kind: 'h2', text: 'Is Your Carrier Furnace Still Under Warranty?' },
@@ -5507,7 +5585,7 @@ export const posts: Post[] = [
     seoTitle: 'Pre-Winter HVAC Checklist for Cincinnati Rentals',
     category: 'Heating',
     excerpt:
-      'A 10-step pre-winter HVAC checklist for Cincinnati landlords: tune-ups, filters, CO alarms, boilers, vacant units, and tenant instructions before the freeze.',
+      'A 10-step pre-winter HVAC checklist for Cincinnati landlords: tune-ups, filters, CO alarms, boilers, vacant units and tenant instructions before winter.',
     date: '2026-08-23',
     dateModified: '2026-09-30',
     readMinutes: 10,
@@ -5530,7 +5608,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Based on NOAA’s 1991 to 2020 normals for the Cincinnati airport, the first fall freeze comes around ', { strong: 'October 25' }, ' in a typical year. In 1 year out of 10 it comes by October 12, and in 9 years out of 10 it has come by November 5. Heating contractors book up fast after the first cold snap, so schedule rental tune-ups in September and aim to have every unit done by early October.'] },
       { kind: 'p', spans: ['There is a legal reason to be early too. In Cincinnati buildings where tenants don’t control their own heat, the requirement to keep units at 70°F starts once the outdoor temperature stays below 60°F for 24 consecutive hours. That can happen well before the first freeze.'] },
 
-      { kind: 'h2', text: 'The Pre-Winter HVAC Checklist for Rentals' },
+      { kind: 'h2', text: 'The Pre-Winter HVAC Checklist for Cincinnati Rentals' },
       { kind: 'h3', text: '1. Book a Heating Tune-Up for Every Unit' },
       { kind: 'p', spans: ['Have a licensed technician service every furnace and boiler before heating season. A tune-up catches the weak igniter, dirty flame sensor, and failing inducer motor while they are cheap scheduled repairs, not a 9 p.m. no-heat call. It also tests for carbon monoxide and checks the heat exchanger, which you can’t do yourself. See ', { link: 'what’s included in a furnace tune-up', href: '/what-is-included-in-a-furnace-tune-up/' }, '. Keep the dated service report for each unit.'] },
       { kind: 'h3', text: '2. Replace Filters and Leave Spares' },
@@ -5558,10 +5636,10 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'Shared-Heat Buildings in Cincinnati' },
       { kind: 'p', spans: ['Cincinnati adds a specific rule for units where tenants don’t control their own heat, which usually means buildings on a shared boiler or central system. Once the outdoor temperature stays below 60°F for 24 consecutive hours, the inside has to be kept at 70°F or warmer. Fines run ', { strong: '$300 for the first day and $750 for each day after' }, '. Our view: for a shared-heat building, a pre-season boiler service is the cheapest insurance you can buy. Three days of no heat costs $1,800 in fines before you have paid for a single part.'] },
 
-      { kind: 'h2', text: 'Keep a Record for Every Unit' },
+      { kind: 'h2', text: 'Keep an HVAC Service Record for Every Unit' },
       { kind: 'p', spans: ['For each unit, keep the date of the tune-up and the technician’s report, the filter size and the date it was changed, the alarm test date, and the model and age of the furnace or boiler. It takes ten minutes per unit, it tells you which systems are nearing the end of their 15 to 20 years, and if a tenant or the Health Department ever questions the heat, it shows exactly what you did and when.'] },
 
-      { kind: 'h2', text: 'When You Don’t Need a Contractor' },
+      { kind: 'h2', text: 'When You Don’t Need an HVAC Contractor' },
       { kind: 'p', spans: ['A lot of this list is yours to do. Changing filters, testing alarms, replacing thermostat batteries, clearing vents and returns, checking vent pipes outside, winterizing a vacant unit, and writing the tenant sheet don’t need us. What does need a licensed technician is anything inside the furnace or boiler: the burner, heat exchanger, gas connections, combustion and carbon monoxide testing, and boiler safety controls.'] },
 
       { kind: 'h2', text: 'Schedule Pre-Winter HVAC Service for Your Cincinnati Rentals' },
@@ -5584,7 +5662,7 @@ export const posts: Post[] = [
     seoTitle: 'Furnace Replacement Budget for Cincinnati Rentals',
     category: 'Heating',
     excerpt:
-      'How Cincinnati landlords can plan furnace replacements across several rentals: an age inventory, a yearly reserve per unit, off-season timing, and tax rules.',
+      'How Cincinnati landlords can plan furnace replacements across rentals: an age inventory, a yearly reserve per unit, off-season timing and tax rules.',
     date: '2026-08-26',
     dateModified: '2026-09-30',
     readMinutes: 10,
@@ -5603,7 +5681,7 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['To budget for furnace replacement across multiple rentals, list every furnace with its age and condition, estimate what each will cost to replace, and set aside a yearly amount for each one based on how many years it has left. Then replace the oldest units on your schedule, in spring or early fall, instead of waiting for them to fail on a January night. In Cincinnati, a furnace replacement typically runs $3,000 to $10,000 installed, and most furnaces last 15 to 20 years. Here is how to build the plan, a worked example, and what changes the numbers in 2026.'] },
 
-      { kind: 'h2', text: 'Step 1: Build a Furnace Inventory for Every Unit' },
+      { kind: 'h2', text: 'Step 1: Build a Furnace Inventory for Every Cincinnati Rental' },
       { kind: 'p', spans: ['You can’t budget for what you haven’t written down. For each rental, record the furnace’s install year, which is often printed on the rating plate inside the door or can be read from the serial number, the make and model, the efficiency (80% or 95% and above), the filter size, and any repair history. Add the notes from your last tune-up. A furnace that needed an inducer motor last winter and has a rusty burner area is a different budget item from one the same age that has never had a problem.'] },
       { kind: 'p', spans: ['If you don’t know the ages, have them checked at the next service visit. It is part of our ', { link: 'pre-winter checklist for rental properties', href: '/pre-winter-hvac-checklist-rental-properties-cincinnati/' }, ' for this reason.'] },
 
@@ -5631,7 +5709,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['We are heating contractors, not accountants, so confirm this with your tax professional. The general rule from the ', { link: 'IRS', href: 'https://www.irs.gov/faqs/sale-or-trade-of-business-depreciation-rentals' }, ' is that replacing the furnace in a residential rental is a restoration of the building’s HVAC system, which makes it a capital improvement. It is generally depreciated over 27.5 years, the same recovery period as the rental building, rather than deducted in the year you pay for it. Ordinary repairs that keep the furnace running, like a new igniter or a tune-up, are generally deductible in the year you pay.'] },
       { kind: 'p', spans: ['That affects cash flow planning. A $6,000 furnace replacement costs $6,000 in cash the year you do it, but only a fraction of it shows up as a deduction that year. Keep every invoice, with the unit address and install date, in the same file as your furnace inventory.'] },
 
-      { kind: 'h2', text: 'Paying for Several Replacements at Once' },
+      { kind: 'h2', text: 'Paying for Several Furnace Replacements at Once' },
       { kind: 'p', spans: ['If a cluster of furnaces comes due before your reserve catches up, spread the work over two seasons: replace the oldest and worst-condition units first, and keep the others on an annual tune-up until their turn. Financing is another option for a portfolio replacement. See our ', { link: 'financing options', href: '/financing/' }, ' for what is available.'] },
 
       { kind: 'h2', text: 'When You Don’t Need to Replace Yet' },
@@ -5657,7 +5735,7 @@ export const posts: Post[] = [
     seoTitle: 'CO Detector Rules for Ohio and Cincinnati Rentals',
     category: 'Heating',
     excerpt:
-      'Which Ohio rentals need carbon monoxide detectors, where they go, and who maintains them. What Cincinnati landlords need to know about the Ohio Fire Code rule.',
+      'Which Ohio rentals need carbon monoxide detectors, where they go and who maintains them, plus what the Ohio Fire Code rule means for Cincinnati landlords.',
     date: '2026-08-28',
     dateModified: '2026-09-30',
     readMinutes: 9,
@@ -5708,10 +5786,10 @@ export const posts: Post[] = [
       { kind: 'p', spans: [{ strong: 'In writing:' }, ' tell tenants that if a CO alarm sounds, everyone leaves the unit, calls 911 from outside, and doesn’t go back in until responders say it is safe. Then call you.'] },
       { kind: 'p', spans: [{ strong: 'In your records:' }, ' the date each alarm was installed and tested, by unit. It is the simplest proof you met your duty.'] },
 
-      { kind: 'h2', text: 'When a CO Alarm Goes Off in a Rental' },
+      { kind: 'h2', text: 'When a CO Alarm Goes Off in a Cincinnati Rental' },
       { kind: 'p', spans: ['A real CO alarm means the source has to be found before anyone relies on that appliance again. After responders clear the unit, have a licensed technician inspect every fuel-burning appliance: the furnace or boiler, the water heater, and their venting. Common causes include a blocked or disconnected flue, a cracked heat exchanger, a furnace that is burning poorly, or a water heater that is back-drafting into the room. A yearly ', { link: 'furnace tune-up', href: '/what-is-included-in-a-furnace-tune-up/' }, ' or ', { link: 'boiler service', href: '/annual-boiler-maintenance/' }, ' includes a combustion and CO check that catches most of these before an alarm ever sounds. If the tenant is without heat while the problem is fixed, our ', { link: 'landlord guide for when a tenant has no heat', href: '/tenant-has-no-heat-cincinnati-landlord-guide/' }, ' covers what to do next.'] },
 
-      { kind: 'h2', text: 'When You Don’t Need a Contractor' },
+      { kind: 'h2', text: 'When You Don’t Need a Contractor for CO Detectors' },
       { kind: 'p', spans: ['Installing battery-powered CO alarms, testing them, and replacing expired ones is a job most landlords can do themselves with a drill and a ladder. You don’t need an HVAC company for it. Call a licensed technician when an alarm has actually gone off, when alarms keep sounding in the same unit with no clear cause, or when you want the furnaces, boilers, and water heaters checked for combustion problems before winter.'] },
 
       { kind: 'h2', text: 'Get Your Cincinnati Rentals Checked Before Winter' },
@@ -5824,7 +5902,7 @@ export const posts: Post[] = [
     seoTitle: 'Signs Your Boiler Needs Repair in Cincinnati',
     category: 'Heating',
     excerpt:
-      'Cold radiators, dropping pressure, a dripping relief valve, kettling, leaks, and a yellow flame. The signs a boiler needs repair, and what to do before winter.',
+      'Signs your boiler needs repair before winter in Cincinnati: cold radiators, dropping pressure, a dripping relief valve, kettling, leaks and a yellow flame.',
     date: '2026-09-02',
     dateModified: '2026-09-30',
     readMinutes: 9,
@@ -5866,19 +5944,19 @@ export const posts: Post[] = [
       { kind: 'h3', text: '9. On a Steam Boiler: Low Water or Constant Refilling' },
       { kind: 'p', spans: ['Check the water level in the sight glass. It should sit about halfway. If it is low, surging up and down, or the boiler’s automatic feeder keeps adding water, the system is losing water or steam somewhere, often from a leaking return line or a failed vent. A steam boiler that keeps adding fresh water corrodes much faster.'] },
 
-      { kind: 'h2', text: 'What You Can Check Yourself' },
+      { kind: 'h2', text: 'Boiler Checks You Can Do Yourself' },
       { kind: 'p', spans: ['Some of this is yours to handle. Bleed radiators that are cold at the top, note the pressure reading cold and hot, look for water around the boiler and radiator valves, keep the area around the boiler clear, and test your CO alarms. Anything involving the burner, gas valve, relief valve, expansion tank, or controls should go to a licensed technician. Our guide to ', { link: 'annual boiler maintenance', href: '/annual-boiler-maintenance/' }, ' covers what a proper service checks.'] },
 
       { kind: 'h2', text: 'When to Call a Cincinnati Boiler Technician Right Away' },
       { kind: 'p', spans: ['Don’t wait for a convenient day if the relief valve is discharging water, the pressure is near 30 psi, you smell gas, the flame is yellow or you see soot, a CO alarm has sounded, water is pooling around the boiler, or the house has no heat in cold weather. For a gas smell or a CO alarm, leave the house first and call 911 or your gas company from outside.'] },
 
-      { kind: 'h2', text: 'Repair or Replace a Cincinnati Boiler?' },
+      { kind: 'h2', text: 'Repair or Replace Your Boiler in Cincinnati?' },
       { kind: 'p', spans: ['Our view: don’t replace a boiler for a problem that is a part. Most of the signs above, low pressure, a dripping relief valve, a noisy or failed circulator, a stuck zone valve, a bad control, trace back to parts that can be replaced in one visit, and a well-kept boiler typically lasts 15 to 25 years. Replacement is worth pricing when the boiler itself is leaking, the heat exchanger or cast iron sections are cracked, it is past that age range, or repair bills keep stacking up. The ', { link: 'U.S. Department of Energy', href: 'https://www.energy.gov/energysaver/furnaces-and-boilers' }, ' notes that for a boiler that is old, worn out, or badly oversized, replacing it with a high-efficiency model is often the simplest fix. If you are weighing a different system altogether, see ', { link: 'boiler vs. furnace for Cincinnati homes', href: '/boiler-vs-furnace-cincinnati/' }, '.'] },
 
       { kind: 'h2', text: 'Landlords: Shared Boilers and Cincinnati’s Heat Rule' },
       { kind: 'p', spans: ['Many older Cincinnati apartment buildings heat every unit from one boiler, so one failure leaves the whole building cold. In units where tenants don’t control their own heat, Cincinnati requires the inside to stay at 70°F or warmer once the outdoor temperature stays below 60°F for 24 hours, with fines of $300 for the first day and $750 for each day after. A pre-season check on a shared boiler is far cheaper than a January outage. Our ', { link: 'landlord guide for when a tenant has no heat', href: '/tenant-has-no-heat-cincinnati-landlord-guide/' }, ' covers what to do if it fails anyway.'] },
 
-      { kind: 'h2', text: 'When You Don’t Need a Technician' },
+      { kind: 'h2', text: 'When You Don’t Need a Boiler Technician' },
       { kind: 'p', spans: ['If bleeding a radiator brought the heat back to the top, the pressure holds steady at 12 to 15 psi cold, there is no water around the boiler, and the flame is blue, you probably don’t need us this week. Book the annual service if it is due, and keep an eye on the gauge through the winter.'] },
 
       { kind: 'h2', text: 'Boiler Repair in Cincinnati' },
@@ -6069,7 +6147,7 @@ export const posts: Post[] = [
     seoTitle: 'Furnace Filters in Cincinnati Rentals: Who Changes Them?',
     category: 'Heating',
     excerpt:
-      'Who changes the furnace filter in a Cincinnati rental, tenant or landlord? What Ohio law says, sample lease wording, and filter systems that actually work.',
+      'Furnace filter changes in a Cincinnati rental fall to whoever the lease names. What Ohio law says, sample lease wording, and filter systems that work.',
     date: '2026-09-10',
     dateModified: '2026-10-02',
     readMinutes: 10,
@@ -6099,7 +6177,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['If the lease is silent, the safe assumption is that the filter is the landlord’s job. The furnace is the landlord’s appliance, and keeping it in good working order includes the parts that wear out. A tenant who never touched the filter, with nothing in writing telling them to, is hard to blame for it.'] },
       { kind: 'p', spans: ['If the lease assigns filter changes to the tenant, the tenant takes on that task. The landlord does not hand off the furnace. Ohio law says no provision of this chapter can be modified or waived by agreement, apart from narrow exceptions. In practice that means a tenant can be made responsible for swapping a filter, but the landlord is still the one who must fix the furnace when it fails, and still the one the city calls when there is no heat.'] },
 
-      { kind: 'h2', text: 'Sample Lease Language for Filter Changes' },
+      { kind: 'h2', text: 'Sample Lease Language for Furnace Filter Changes in Cincinnati' },
       { kind: 'p', spans: ['These are plain examples to bring to your attorney or property manager, not legal advice. Pick the one that matches how you actually run the property, because a clause you don’t follow is worse than none.'] },
       { kind: 'h3', text: 'Tenant Changes, Landlord Supplies' },
       { kind: 'p', spans: ['“Landlord will supply furnace air filters in the size listed on the furnace. Tenant will replace the filter at least every [60/90] days, or sooner if it looks dirty, and will tell Landlord when the supply runs low. Tenant will report any heating problem to Landlord promptly.”'] },
@@ -6138,7 +6216,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: [{ strong: 'Ductless and through-wall units' }, '. Mini-splits and through-wall units often have washable screens. Rinsing them is a reasonable tenant task, written into the lease the same way.'] },
       { kind: 'p', spans: ['Cincinnati’s heat rule applies only to units where tenants don’t control their own heat, which in practice means shared-heat buildings. In those units, once the outdoor temperature stays below 60 degrees for 24 consecutive hours, the inside must be 70 degrees or warmer. No lease clause moves that onto a tenant.'] },
 
-      { kind: 'h2', text: 'When You Don’t Need a Technician' },
+      { kind: 'h2', text: 'When You Don’t Need a Furnace Technician' },
       { kind: 'p', spans: ['Changing a filter is not a service call. If you or your tenant can open the slot, read the size, and slide a new one in with the arrow pointing toward the furnace, you don’t need us for that, and you shouldn’t pay anyone to do it.'] },
       { kind: 'p', spans: ['If the furnace quit and the filter was gray and packed, change it, then turn the furnace off at the switch for a minute and back on. If it runs through a full heating cycle and the house warms up, you may be done. Call a technician if it shuts off again, if the burners won’t light, if you smell gas, or if the filter was clean to begin with. Those point to a problem a filter won’t fix, and our ', { link: 'furnace repair service', href: '/services/furnace-repair/' }, ' is the next step.'] },
 
@@ -6203,9 +6281,9 @@ export const posts: Post[] = [
 
       { kind: 'h2', text: 'Standard vs. Condensing Boilers' },
       { kind: 'p', spans: ['A standard (non-condensing) gas boiler runs around 80 to 85% AFUE and usually vents into the existing chimney. A condensing boiler reaches 90% or higher. ENERGY STAR certified gas boilers are rated at 90% AFUE or more. The extra efficiency comes from cooling the exhaust until its water vapor condenses, and that changes the installation in two ways.'] },
-      { kind: 'h3', text: 'Venting' },
+      { kind: 'h3', text: 'Boiler Venting' },
       { kind: 'p', spans: ['Condensing exhaust is cool enough to vent through the wall or roof in PVC or similar plastic pipe, and most are sealed combustion, pulling outside air in through a second pipe. That means new vent runs and wall penetrations. It can also leave a gas water heater alone in a chimney sized for a boiler, which may then need a liner. Ask about that up front.'] },
-      { kind: 'h3', text: 'Condensate' },
+      { kind: 'h3', text: 'Condensate Drainage' },
       { kind: 'p', spans: ['A condensing boiler produces acidic water that has to go to a drain. Some jurisdictions require it to pass through a neutralizer first. If there is no floor drain nearby, add a condensate pump.'] },
       { kind: 'p', spans: ['Our view: a condensing boiler only earns its higher price if your system can actually condense. Pacific Northwest National Laboratory’s building guidance says return water should come back to the boiler below 130°F for that to happen. Big cast iron radiators in an older Cincinnati house often heat fine at those lower temperatures. Small baseboard sized for very hot water may not, and then you have paid for a condensing boiler that runs like a standard one.'] },
       { kind: 'p', spans: ['Steam boilers don’t condense, so a steam replacement is a standard-efficiency boiler by definition.'] },
@@ -6227,7 +6305,7 @@ export const posts: Post[] = [
       { kind: 'h2', text: 'City of Cincinnati Permits for Boiler Replacement' },
       { kind: 'p', spans: ['Yes, replacing a boiler in the city needs a permit. The City of Cincinnati’s ', { link: 'HVAC informational handout', href: 'https://www.cincinnati-oh.gov/buildings/building-permit-forms-applications/application-forms/all-forms-handouts-checklists-alphabetical-list/hvac-informational-handout/' }, ' says permits are required for all new installations and replacement units. Residential mechanical replacement permits can be applied for online through the city’s ezTrak system, and the work gets inspected. Townships and suburbs outside city limits, and Northern Kentucky and Southeast Indiana, have their own building departments with their own rules. The permit should be on the quote, pulled by the contractor, not left for you to sort out.'] },
 
-      { kind: 'h2', text: 'Tax Credits and Duke Energy Rebates in 2026' },
+      { kind: 'h2', text: 'Boiler Tax Credits and Duke Energy Rebates in Cincinnati (2026)' },
       { kind: 'p', spans: ['The federal Energy Efficient Home Improvement Credit (section 25C) used to cover 30% of a qualifying gas boiler, up to $600. It has ended. The ', { link: 'IRS', href: 'https://www.irs.gov/newsroom/faqs-for-modification-of-sections-25c-25d-25e-30c-30d-45l-45w-and-179d-under-public-law-119-21-139-stat-72-july-4-2025-commonly-known-as-the-one-big-beautiful-bill-obbb' }, ' says the credit will not be allowed for any property placed in service after December 31, 2025. A boiler installed this fall doesn’t qualify. Be wary of any quote that still lists it as a discount. We are heating contractors, not accountants, so confirm anything tax-related with your tax preparer.'] },
       { kind: 'p', spans: ['Duke Energy Ohio’s rebate programs change, and we couldn’t confirm a current residential rebate for a gas boiler. Check Duke Energy’s Ohio site before you sign. Some utility rebates require a participating contractor to file the application at installation, so ask before the work starts, not after.'] },
 
@@ -6236,7 +6314,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['The boiler make, model, input in BTU, and AFUE. How it was sized (heat-loss calculation for hot water, measured radiation for steam). Venting: chimney, liner, or PVC through the wall, and where it exits. Condensate drain, neutralizer, or pump on a condensing boiler. Near-boiler piping, expansion tank, circulators, and valves being replaced. Removal and disposal of the old boiler, and how asbestos is handled if found. The permit and inspection. Warranty terms for parts and labor. Start-up, including a combustion test.'] },
       { kind: 'p', spans: ['If a quote is one line with one number, you can’t tell what was left out. If you need to spread the cost, see our ', { link: 'financing options', href: '/financing/' }, '.'] },
 
-      { kind: 'h2', text: 'Repair or Replace Your Cincinnati Boiler' },
+      { kind: 'h2', text: 'Repair or Replace Your Boiler in Cincinnati' },
       { kind: 'p', spans: ['Repair the boiler if the problem is a part: a circulator, expansion tank, relief valve, zone valve, or control. Replace it if the boiler itself is leaking, the heat exchanger or cast iron sections are cracked, or it is past the age range and repairs keep adding up. We use 15 to 25 years as a planning range for boiler life with regular service. InterNACHI’s home inspection life expectancy chart lists boilers at up to 40 years, which shows how much maintenance matters. Our post on ', { link: 'signs your boiler needs repair before winter', href: '/signs-boiler-needs-repair-before-winter-cincinnati/' }, ' covers which symptoms are a part and which point to the boiler.'] },
 
       { kind: 'h2', text: 'When You Don’t Need a Contractor to Replace Your Boiler' },
@@ -6395,7 +6473,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A small wall-hung boiler in each unit keeps the radiators and moves heat onto the tenant’s gas meter. Some models (combi boilers) also make the unit’s hot water, which can free up space taken by a tank.'] },
       { kind: 'p', spans: ['The catch is the piping. Each unit’s radiators have to sit on their own loop. In some hot water systems that is a manageable re-pipe. In steam systems, where the mains and risers usually run through every floor, splitting the building is rarely practical, and the job becomes a conversion to hot water. Each boiler also needs its own gas line and vent. Up front it costs more than replacing one central boiler, and you have more appliances to maintain, but you are out from under the shared-heat rule.'] },
 
-      { kind: 'h2', text: 'Options 4 and 5: Heat Pumps, Ductless or Ducted' },
+      { kind: 'h2', text: 'Options 4 and 5: Ductless or Ducted Heat Pumps for Cincinnati Units' },
       { kind: 'h3', text: 'Ductless Mini-Splits' },
       { kind: 'p', spans: ['A mini-split is an outdoor unit connected to one or more wall or ceiling heads by a small line set. ', { link: 'ENERGY STAR', href: 'https://www.energystar.gov/products/ductless_heating_cooling' }, ' describes them as designed for homes without ductwork and as an alternative to radiator or baseboard heating. That makes them a strong fit for Cincinnati walk-ups with radiators and window air conditioners: each tenant gets heat, cooling, and a thermostat, on their own electric meter.'] },
       { kind: 'p', spans: ['Space is the main limit. Every unit needs an outdoor condenser somewhere, on a wall bracket, a rear yard, or a flat roof, and narrow city lots fill up fast. Tenants need to rinse the filters in each head, and the coils need a yearly cleaning. If you’re wondering how they handle January, read ', { link: 'whether heat pumps work in Cincinnati winters', href: '/do-heat-pumps-work-in-cincinnati-winters/' }, '. Our ', { link: 'mini-split service', href: '/services/mini-split-installation/' }, ' covers sizing and installation.'] },
@@ -6418,7 +6496,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: [{ strong: 'A small addition or a building you plan to sell soon' }, ': baseboard is defensible here, and only here.'] },
       { kind: 'p', spans: ['Whatever you choose, keep a record of each unit’s equipment age. Most heating equipment in a small building gets replaced one piece at a time, and knowing what is due next keeps the decision from being made on a cold night.'] },
 
-      { kind: 'h2', text: 'When You Don’t Need a Contractor' },
+      { kind: 'h2', text: 'When You Don’t Need a Heating Contractor in Cincinnati' },
       { kind: 'p', spans: ['If your current system heats every unit, is under 15 years old, and you are happy including heat in the rent, there is nothing to switch. Changing systems costs real money, and most of the payoff is about who pays the bill, not comfort. Keep up the yearly service and leave it alone.'] },
       { kind: 'p', spans: ['And if your real question is whether you can legally start charging tenants for heat, that is a lease question for your attorney, not a heating question. Get that answer first. Then call us if the plan involves new equipment.'] },
 
@@ -6535,7 +6613,7 @@ export const posts: Post[] = [
     seoTitle: 'How to Bleed Radiators in Cincinnati Homes',
     category: 'Heating',
     excerpt:
-      'How to bleed radiators in a Cincinnati home: the tools, the right order, the pressure check after, why steam radiators are different, and when to call a pro.',
+      'How to bleed radiators in a Cincinnati home: the tools, the right order, the pressure check after, why steam radiators differ, and when to call a pro.',
     date: '2026-09-22',
     dateModified: '2026-10-02',
     readMinutes: 10,
@@ -6566,9 +6644,9 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['The opposite pattern, warm at the top and cold at the bottom, isn’t air. It usually means sludge has settled inside the radiator or water isn’t flowing through it well. Both need a technician, and bleeding won’t touch either.'] },
 
       { kind: 'h2', text: 'How to Bleed a Hot Water Radiator, Step by Step' },
-      { kind: 'h3', text: 'What You Need' },
+      { kind: 'h3', text: 'Tools You Need to Bleed a Radiator' },
       { kind: 'p', spans: ['A radiator key (sold at most hardware stores) or a flat screwdriver if your valves are slotted, an old towel, and a cup or small container. ', { link: 'This Old House’s radiator guide', href: 'https://www.thisoldhouse.com/plumbing/how-to-bleed-a-radiator' }, ' covers the same basic steps if you want a second walkthrough.'] },
-      { kind: 'h3', text: 'The Steps' },
+      { kind: 'h3', text: 'Radiator Bleeding Steps' },
       { kind: 'p', spans: [{ strong: '1. Turn the heat off and let it cool' }, '. Set the thermostat down so the boiler stops firing, then wait about 30 minutes. The water inside can be hot enough to scald.'] },
       { kind: 'p', spans: [{ strong: '2. Set up at the bleed valve' }, '. Fold the towel under the valve and hold the cup right under the opening.'] },
       { kind: 'p', spans: [{ strong: '3. Open the valve slowly' }, '. Turn the key counterclockwise about a quarter turn. You should hear a hiss as air escapes. Don’t keep turning: the valve only needs to crack open, and the small pin can come out if you unscrew it all the way.'] },
@@ -6585,7 +6663,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Most hot water systems have an ', { strong: 'automatic fill valve' }, ' (also called a pressure-reducing valve) on the cold water line feeding the boiler. It tops the system back up to its set pressure on its own, usually within a few minutes. If your gauge dipped and then recovered, you are done.'] },
       { kind: 'p', spans: ['If the gauge stays below 12 psi, or your boiler has no automatic fill, call a technician rather than opening valves to add water yourself. Overfilling is easy to do, and at 30 psi the relief valve opens and dumps hot water on the basement floor. A gauge that reads high, getting near 30 psi, also needs a call.'] },
 
-      { kind: 'h2', text: 'How to Bleed Baseboard Heat' },
+      { kind: 'h2', text: 'How to Bleed Baseboard Heat in Cincinnati Homes' },
       { kind: 'p', spans: ['Hot water baseboard works the same way, but the bleed valves are harder to find. Look under the end cap of each baseboard run, or on the pipe at a high point where the run turns up toward the next floor. They look like a small screw or square stem on a brass fitting. Use the same steps: heat off, cool down, cup under the valve, open until water flows, close, check the gauge.'] },
       { kind: 'p', spans: ['Many newer baseboard systems don’t have manual bleeders at all. They rely on an automatic air vent near the boiler and purge valves on the piping. If you can’t find a bleeder and a zone is gurgling or not heating, the zone needs to be purged, which means running water through it under pressure until the air is gone. That is a job for a technician.'] },
 
@@ -6603,7 +6681,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: [{ strong: 'Steam vents spitting water or hissing constantly' }, '. A vent that hisses the whole time the boiler runs, or spits water, has failed or is getting wet steam from a boiler or piping problem.'] },
       { kind: 'p', spans: ['Here is our view: if you are bleeding the same radiator more than twice in one heating season, stop bleeding and find the cause. The U.S. Department of Energy’s ', { link: 'Energy Saver Guide', href: 'https://www.energy.gov/sites/default/files/2022-08/energy-saver-guide-2022.pdf' }, ' says to clear trapped air from hot water radiators once or twice a season. Past that, you are treating a symptom of a leak or a failing part while it gets worse. Our list of ', { link: 'signs a boiler needs repair before winter', href: '/signs-boiler-needs-repair-before-winter-cincinnati/' }, ' covers the rest of what to watch for.'] },
 
-      { kind: 'h2', text: 'When You Don’t Need a Technician' },
+      { kind: 'h2', text: 'When You Don’t Need a Radiator Technician' },
       { kind: 'p', spans: ['If one or two radiators were cold at the top, you bled them, they now heat all the way across, and the gauge is back at 12 to 15 psi cold, you are finished. You don’t need us. The same goes for a steam vent that hisses for a few minutes when the boiler starts and then goes quiet. That is a vent doing its job.'] },
       { kind: 'p', spans: ['Bleed once at the start of the heating season, again if the gurgling or cold tops come back, and leave the rest to the yearly service. Our guide to ', { link: 'annual boiler maintenance', href: '/annual-boiler-maintenance/' }, ' explains what that visit checks, including the expansion tank, circulator, and relief valve that bleeding can’t reach.'] },
 
@@ -6770,7 +6848,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: [{ strong: 'Steam boilers' }, ' don’t condense. The federal minimum for a new gas steam boiler is 82% AFUE. When a steam boiler fails, replacing it with a correctly sized steam boiler is usually the most practical choice. Converting a steam building to hot water means new piping and often new radiators, and in a rental it rarely pays back. Our ', { link: 'boiler service', href: '/services/boilers/' }, ' covers both kinds. If you own and live in a historic house rather than rent one out, see ', { link: 'converting an old heating system in a historic Cincinnati home', href: '/converting-old-heating-system-historic-cincinnati-home/' }, '.'] },
       { kind: 'p', spans: ['If you are weighing a boiler against ductwork and a furnace, our comparison of ', { link: 'boilers and furnaces for Cincinnati homes', href: '/boiler-vs-furnace-cincinnati/' }, ' lays out the trade-offs.'] },
 
-      { kind: 'h2', text: '6. Ductless Mini-Splits for Third Floors and Additions' },
+      { kind: 'h2', text: '6. Ductless Mini-Splits for Third Floors and Additions in Cincinnati Rentals' },
       { kind: 'p', spans: ['Finished attics, third-floor units, and rear additions are where old houses fail tenants. A ductless mini-split heats and cools that space on its own, with no ductwork, and fixes the room tenants complain about most. See our ', { link: 'mini-split installation service', href: '/services/mini-split-installation/' }, ' for how it goes in.'] },
       { kind: 'p', spans: ['Mini-splits run on electricity. Check which meter the outdoor unit will be wired to, and tell the tenant in writing that part of their heat now shows up on the electric bill rather than the gas bill.'] },
 
@@ -6778,7 +6856,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A heat pump makes the most sense when the air conditioner and furnace are both due at the same time, and the house already has ducts. A heat pump paired with a gas furnace as backup (a dual-fuel system) covers the coldest Cincinnati nights. Our post on ', { link: 'whether heat pumps work in Cincinnati winters', href: '/do-heat-pumps-work-in-cincinnati-winters/' }, ' covers performance in cold weather, and our ', { link: 'heat pump service', href: '/services/heat-pumps/' }, ' covers installation.'] },
       { kind: 'p', spans: ['In a leaky, uninsulated house, a heat pump has to be sized for all that heat loss, so it costs more and works harder. Seal and insulate first. And if the tenant pays electric but not gas, switching to a heat pump moves the heating cost from one bill to the other. Say so in the lease.'] },
 
-      { kind: 'h2', text: 'Tax Credits and Duke Energy Rebates in 2026' },
+      { kind: 'h2', text: 'Heating Tax Credits and Duke Energy Rebates in Cincinnati (2026)' },
       { kind: 'p', spans: ['We are heating contractors, not accountants, so confirm all of this with your tax preparer.'] },
       { kind: 'p', spans: [{ strong: 'The federal 25C credit has ended.' }, ' According to the ', { link: 'IRS', href: 'https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit' }, ', the Energy Efficient Home Improvement Credit is not allowed for property placed in service after December 31, 2025. Even before that, it applied only to improvements to your own main home. The IRS states that a landlord or other owner who doesn’t live in the home can’t claim it.'] },
       { kind: 'p', spans: [{ strong: 'Rentals use depreciation instead.' }, ' IRS ', { link: 'Publication 527', href: 'https://www.irs.gov/publications/p527' }, ' lists a heating system or furnace as an improvement that must be capitalized rather than deducted as a repair, and residential rental buildings and their structural components are generally depreciated over 27.5 years.'] },
@@ -6791,7 +6869,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: [{ strong: 'Oversizing new equipment' }, ' “to be safe.” An oversized furnace short cycles and wears out sooner. Size it to the house after insulation, not before.'] },
       { kind: 'p', spans: [{ strong: 'A smart thermostat the tenant controls on a bill the tenant pays' }, '. It is a nice amenity, not an investment.'] },
 
-      { kind: 'h2', text: 'When You Don’t Need a Contractor' },
+      { kind: 'h2', text: 'When You Don’t Need a Heating Contractor' },
       { kind: 'p', spans: ['A lot of the best-paying work on this list isn’t heating work. Caulking, weatherstripping doors, sealing the attic hatch, and adding storm windows are jobs a handy landlord or general maintenance person can do. Attic insulation is usually a job for an insulation contractor, not us. A basic programmable thermostat on a simple gas furnace is often a straightforward swap. And tax questions belong with your accountant.'] },
       { kind: 'p', spans: ['Call a licensed heating contractor for anything that touches gas, combustion, venting, refrigerant, or the chimney, and for sizing any new equipment.'] },
 
@@ -6855,7 +6933,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['The boiler in an older home was usually sized for a house with no wall insulation, single-pane windows, and gaps everywhere. Many were sized again for coal, or replaced size-for-size from a boiler that was too big to begin with. Since then, most of these houses have had storm windows, attic insulation, or air sealing. The result is a boiler far larger than the house needs, which short-cycles, wastes fuel, and wears out sooner.'] },
       { kind: 'p', spans: ['How the new one should be sized depends on the system. A hot water boiler should be sized from a heat loss calculation of the house as it is today, room by room. A steam boiler is different: it has to be sized to the total radiation connected to it, which means measuring every radiator. A contractor who reads the old boiler’s nameplate and orders the same size is skipping both steps. If some rooms run cold no matter what the boiler does, read our post on ', { link: 'why older Cincinnati homes have uneven heat', href: '/uneven-heating-older-cincinnati-homes/' }, ' before you buy a bigger boiler.'] },
 
-      { kind: 'h2', text: 'Options When You Want Air Conditioning Too' },
+      { kind: 'h2', text: 'Adding Air Conditioning to a Historic Cincinnati Home' },
       { kind: 'p', spans: ['For many Cincinnati owners, the reason to consider converting is summer, not winter. Radiators don’t cool. These are the options that add cooling without tearing a historic house apart.'] },
       { kind: 'h3', text: 'High-Velocity Small-Duct Systems' },
       { kind: 'p', spans: ['These use small, flexible supply tubes that fit inside walls, closets, and between floor joists, ending in small round outlets instead of large registers. They were made for older homes, and they leave plaster and trim mostly intact. They can heat as well as cool, but many owners keep the radiators for heat and use the small-duct system for cooling only.'] },
@@ -6878,7 +6956,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Cast iron radiators last far longer than any boiler connected to them. If you are keeping them, a few things help. Keep furniture and heavy covers from boxing them in. On steam, replace failed radiator air vents and make sure one-pipe radiators pitch slightly back toward the supply valve so condensate drains. On hot water, bleed trapped air at the start of each season.'] },
       { kind: 'p', spans: ['If you are removing radiators during a conversion, think before scrapping them. Original radiators matter to many buyers of historic homes, and a spare can replace one that cracks later.'] },
 
-      { kind: 'h2', text: 'When You Don’t Need a Contractor' },
+      { kind: 'h2', text: 'When You Don’t Need a Heating Contractor' },
       { kind: 'p', spans: ['If your steam or hot water system heats every room, the boiler is under 15 years old, and nothing leaks or bangs, you don’t need a conversion. You need an annual service visit and nothing more. Bleeding hot water radiators, checking the steam sight glass, and keeping radiators clear are jobs you can do yourself.'] },
       { kind: 'p', spans: ['You also don’t need us to identify asbestos or decide what your historic district allows. Asbestos testing belongs with a licensed inspector and abatement contractor, and historic questions belong with the Historic Conservation Office. Call a heating contractor once those answers are in hand.'] },
 
@@ -7109,7 +7187,7 @@ export const posts: Post[] = [
       },
       { kind: 'p', spans: ['A furnace repair in Cincinnati usually costs a few hundred dollars. National cost guides put the average between $318 (HomeAdvisor) and $485 (', { link: 'Fixr, 2025', href: 'https://www.fixr.com/costs/repair-furnace' }, '), with small parts like a flame sensor or ignitor at the low end and a heat exchanger at the high end. What you pay depends on which part failed, how old the furnace is, whether it’s still under warranty, and when the call happens. Below are the national prices by repair, what changes them here, and the point where a repair stops being worth it.'] },
 
-      { kind: 'h2', text: 'What a Furnace Service Call Costs' },
+      { kind: 'h2', text: 'What a Furnace Service Call Costs in Cincinnati' },
       { kind: 'p', spans: ['Every repair starts with a diagnosis. Trane’s 2024 guide puts the service call fee at $50 to $200 on average, with hourly labor at $75 to $150, and emergency calls at double or triple the standard rate. Fixr’s 2025 figures put labor at $87 to $162 an hour.'] },
       { kind: 'p', spans: ['Ask two things before anyone comes out: is the diagnostic fee credited toward the repair if you go ahead, and does the price change at night or on a weekend? At Degree of Comfort the price is quoted and approved before work starts, and there are no overtime fees. That matters when the call comes in at 7 p.m. on a Saturday.'] },
 
@@ -7132,7 +7210,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A furnace runs its parts in a fixed order: the draft inducer starts, a pressure switch proves the vent is clear, the ignitor heats, the gas valve opens, the flame sensor confirms flame, then the blower comes on. HVAC School, a training resource for technicians, teaches diagnosing in that same order. That is why one cheap part can stop the whole furnace, and why a good technician tests before replacing anything.'] },
       { kind: 'p', spans: ['A flame sensor is the clearest example. HVAC School notes that a dirty sensor is often cleaned rather than replaced, and that grounding or polarity can cause the same symptom. If your furnace lights and shuts off a few seconds later, that is the first thing to check. Our guide to ', { link: 'troubleshooting a furnace that isn’t working', href: '/furnace-not-working-troubleshooting-tips/' }, ' walks through the symptoms.'] },
 
-      { kind: 'h2', text: 'What Makes a Cincinnati Furnace Repair Cost More' },
+      { kind: 'h2', text: 'What Makes a Furnace Repair Cost More in Cincinnati' },
       { kind: 'p', spans: [{ strong: 'Timing' }, '. Furnaces fail most in the coldest stretches, when they run nonstop. In January 2026, the National Weather Service recorded a low of -3 degrees at the Cincinnati airport, and temperatures stayed below freezing for the whole last week of the month. Companies that charge after-hours rates charge them most in weeks like that.'] },
       { kind: 'p', spans: [{ strong: 'Furnace type' }, '. High-efficiency furnaces add parts a standard furnace doesn’t have, such as a condensate drain and a second heat exchanger. Variable-speed models use costlier control boards and ECM blower motors.'] },
       { kind: 'p', spans: [{ strong: 'Access' }, '. A furnace in an attic, crawl space or tight closet takes longer to work on than one in an open basement.'] },
@@ -7156,7 +7234,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Check these before you pay for a service call. A clogged filter can trip the furnace’s safety switch. A thermostat set to cool, or with dead batteries, looks exactly like a dead furnace. The furnace power switch looks like a light switch and gets flipped off by accident. A tripped breaker can be reset once. On a high-efficiency furnace, make sure snow or leaves aren’t blocking the plastic intake and exhaust pipes outside.'] },
       { kind: 'p', spans: ['If one of these brings the heat back and it stays on, you don’t need us. If you smell gas, leave the house first and call Duke Energy or 911 from outside. If a carbon monoxide alarm sounds, get everyone out before doing anything else.'] },
 
-      { kind: 'h2', text: 'How to Keep Furnace Repair Costs Down' },
+      { kind: 'h2', text: 'How to Keep Furnace Repair Costs Down in Cincinnati' },
       { kind: 'p', spans: ['Change the filter on schedule and book a tune-up before the first cold snap, when parts that are wearing out can be replaced on your timing instead of a January night. Our ', { link: 'furnace tune-up checklist', href: '/what-is-included-in-a-furnace-tune-up/' }, ' shows what that visit covers, and current tune-up pricing is on our specials page. Members of our Comfort Club get priority scheduling, reduced diagnostic fees, and up to 20% off repairs.'] },
 
       { kind: 'h2', text: 'Furnace Repair in Cincinnati' },
@@ -7178,7 +7256,7 @@ export const posts: Post[] = [
     seoTitle: 'Furnace Making Noise in Cincinnati? What It Means',
     category: 'Heating',
     excerpt:
-      'Furnace making noise? What banging, squealing, rattling, buzzing, clicking and whistling mean, which sounds are normal, and what each repair costs.',
+      'Furnace making noise in your Cincinnati home: what banging, squealing, rattling, buzzing, clicking and whistling mean, which are normal, and repair costs.',
     date: '2026-10-13',
     dateModified: '2026-10-13',
     readMinutes: 7,
@@ -7212,7 +7290,7 @@ export const posts: Post[] = [
         ['Whistling', 'While it runs', 'Clogged filter, blocked return or closed register', 'Change the filter'],
       ], caption: 'Causes from Bob Vila, This Old House and Family Handyman.' },
 
-      { kind: 'h2', text: 'Banging or Booming When the Furnace Starts' },
+      { kind: 'h2', text: 'Banging or Booming When the Furnace Starts in a Cincinnati Home' },
       { kind: 'p', spans: ['A single loud bang or boom right as the burners light usually means gas is collecting for a moment before it catches, then lighting at once. Bob Vila points to a dirty burner or an unbalanced air-to-fuel ratio, and says both are jobs for a licensed technician, not a homeowner.'] },
       { kind: 'p', spans: ['There is a more serious possibility. Bob Vila also notes that a cracked heat exchanger can make loud noises as hot air hits the cracks, and that it can release carbon monoxide into the home. ', { link: 'ENERGY STAR’s maintenance checklist', href: 'https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist' }, ' has a contractor check burner combustion and the heat exchanger at the yearly heating check-up.'] },
       { kind: 'p', spans: ['Here is our view: a bang at startup is a turn-it-off noise, not a wait-and-see noise. Finding out which problem it is costs one service call. Fixr puts a burner repair at $87 to $162 and a heat exchanger at $1,346 to $2,673, and the CDC counts more than 400 deaths a year from carbon monoxide not linked to fires. Don’t keep restarting it to see if it happens again.'] },
@@ -7224,17 +7302,17 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['A high squeal while the blower runs usually means a weakening blower belt, according to Bob Vila, who advises leaving the replacement to a professional. Family Handyman says grinding or screeching means worn bearings or dirt in the motor. Fixr puts a blower motor at $562 to $1,045 installed.'] },
       { kind: 'p', spans: ['Scraping that sounds like metal on metal is a different problem. Bob Vila describes it as a loose or broken blower wheel, and says to shut the furnace off right away and call a professional.'] },
 
-      { kind: 'h2', text: 'Rattling' },
+      { kind: 'h2', text: 'Rattling Furnace Noises' },
       { kind: 'p', spans: ['The simplest rattle is a loose vent cover. Bob Vila’s fix is to snug its screws, without overtightening. Check that the furnace door is seated and its screws are tight too. If the rattle comes from inside the cabinet, or comes with a bang at startup, leave it to a technician.'] },
 
       { kind: 'h2', text: 'Humming, Buzzing or Tapping' },
       { kind: 'p', spans: ['A low, steady hum from the blower is the sound of a furnace running. A loud hum is different. Bob Vila says a clogged filter can cause a loud humming or whistling noise, so change the filter first. If a buzz is still there with a new filter, have a technician look at it.'] },
       { kind: 'p', spans: ['Tapping, humming or whirring before the burners light often comes from the draft inducer, the small fan that clears the vent before ignition. Family Handyman calls those sounds the first sign of an inducer problem.'] },
 
-      { kind: 'h2', text: 'Clicking but No Heat' },
+      { kind: 'h2', text: 'Clicking but No Heat in Your Cincinnati Home' },
       { kind: 'p', spans: ['One click when the thermostat calls for heat is a relay doing its job. Clicking over and over with no flame means the furnace is trying to light and failing. The usual suspects are the ignitor, the flame sensor or a relay, and all three are parts for a technician to test, not guess at.'] },
 
-      { kind: 'h2', text: 'Whistling' },
+      { kind: 'h2', text: 'Whistling Furnace Noises' },
       { kind: 'p', spans: ['A whistle almost always means the furnace is short of air: a clogged filter, a blocked return grille or a closed register. Change the filter first. Bob Vila recommends replacing 1- to 2-inch filters every 1 to 3 months, and ENERGY STAR says to check the filter once a month. Our post on ', { link: 'how often to change your furnace filter', href: '/how-often-should-i-change-my-furnace-filter/' }, ' covers sizes and schedules.'] },
 
       { kind: 'h2', text: 'When a Furnace Noise Is a Safety Problem in Cincinnati' },
@@ -7276,7 +7354,7 @@ export const posts: Post[] = [
     seoTitle: 'No Heat in Your House in Cincinnati',
     category: 'Heating',
     excerpt:
-      'No heat in your house: rule out gas and CO first, then do the 5-minute checks for furnaces, boilers and heat pumps, and keep pipes and people safe.',
+      'No heat in your Cincinnati house: rule out gas and CO first, then do 5-minute checks for furnaces, boilers and heat pumps, and keep pipes and people safe.',
     date: '2026-11-20',
     dateModified: '2026-11-20',
     readMinutes: 6,
@@ -7321,12 +7399,12 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Our view: plan around the pipes first and comfort second, because Cincinnati’s normal January low sits only 3.16 degrees above that burst line. Keep the house at 55 degrees or above, State Farm’s minimum, with safe heat, since a burst pipe adds water damage to the heating repair.'] },
       { kind: 'p', spans: ['Let faucets on outside walls drip and open the cabinet doors under sinks. Our ', { link: 'tips to keep pipes from freezing', href: '/5-tips-to-make-sure-your-pipes-dont-freeze/' }, ' cover the rest.'] },
 
-      { kind: 'h2', text: 'Keeping People Warm Safely' },
+      { kind: 'h2', text: 'Keeping People Warm Safely Without Heat' },
       { kind: 'p', spans: ['An electric space heater is a fair stopgap. The U.S. Fire Administration says to keep anything that can burn at least 3 feet away, and to turn it off when you leave the room or go to bed.'] },
       { kind: 'p', spans: ['The ', { link: 'U.S. Fire Administration', href: 'https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/heating/' }, ' counted 32,200 home heating fires in 2021, which caused 190 deaths. Portable heaters accounted for 41% of fatal heating fires.'] },
       { kind: 'p', spans: ['Older adults and babies face a higher risk of hypothermia, according to MedlinePlus, and a body temperature below 95 degrees is an emergency. Call 911. We fix heating systems; we’re not doctors.'] },
 
-      { kind: 'h2', text: 'If You Rent, Your Landlord Has a Duty' },
+      { kind: 'h2', text: 'If You Rent in Cincinnati, Your Landlord Has a Duty' },
       { kind: 'p', spans: ['In Cincinnati units where tenants don’t control the heat, the Cincinnati Health Department requires, under Cincinnati Municipal Code §1117-35, at least 70 degrees indoors once it stays below 60 degrees outside for 24 consecutive hours. Tell your landlord in writing, and see our ', { link: 'landlord’s guide to a no-heat call', href: '/tenant-has-no-heat-cincinnati-landlord-guide/' }, ' for their side. This isn’t legal advice.'] },
 
       { kind: 'h2', text: 'When You Don’t Need a No-Heat Call' },
@@ -7377,7 +7455,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['If you smell gas or a carbon monoxide alarm goes off, don’t book a service call yet. Get everyone out of the house. Duke Energy, which serves both Ohio and Northern Kentucky, tells customers to leave first, then call 1-800-634-4300 or 911 from a safe place. Don’t flip light switches or touch the thermostat on your way out. In Southeast Indiana, call your gas utility or 911.'] },
       { kind: 'p', spans: ['Carbon monoxide has no smell, so the alarm is your only warning. The CPSC recommends CO alarms on every level of the home and outside sleeping areas, ideally interconnected. Once the utility or fire department says the house is safe, a technician can find out why it happened.'] },
 
-      { kind: 'h2', text: 'What to Check Before You Book a Heater Service Call' },
+      { kind: 'h2', text: 'What to Check Before You Book a Heater Service Call in Cincinnati' },
       { kind: 'p', spans: ['These five checks take a few minutes and need no tools. Our guide to ', { link: 'troubleshooting a furnace that isn’t working', href: '/furnace-not-working-troubleshooting-tips/' }, ' covers each one in more detail.'] },
       { kind: 'p', spans: [{ strong: 'Set the thermostat to heat, above room temperature.' }, ' This Old House lists it as a homeowner check. If it’s set to cool or off, or below the room temperature, the furnace has no reason to run.'] },
       { kind: 'p', spans: [{ strong: 'Check the breaker.' }, ' Reset a tripped furnace breaker once, and if it trips again, leave it off.'] },
@@ -7411,7 +7489,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Fixing it depends on the part. Small parts such as ignitors and flame sensors are often on the truck. A model-specific control board or inducer motor may have to be ordered, which means a second visit.'] },
       { kind: 'p', spans: ['If a part has to be ordered, ask whether the furnace is safe to run in the meantime.'] },
 
-      { kind: 'h2', text: 'How Heater Service Call Pricing Works' },
+      { kind: 'h2', text: 'How Heater Service Call Pricing Works in Cincinnati' },
       { kind: 'p', spans: ['A heater service call usually has two prices. The service call fee, also called a diagnostic or trip fee, pays for the visit and the diagnosis. The repair is priced once the cause is known, and you should see that price before any work starts.'] },
       { kind: 'table', head: ['Item', 'National cost', 'Source'], rows: [
         ['Technician labor', '$87 to $162 an hour', 'Fixr'],
@@ -7424,7 +7502,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['You should leave with the diagnosis and the price in writing. The diagnosis says what failed and what the readings were. The price should list the parts and the labor.'] },
       { kind: 'p', spans: ['The FTC’s home improvement guidance says a written estimate should describe the work, the materials, the completion date and the price. If the technician shuts the furnace off as unsafe, the paperwork should say why.'] },
 
-      { kind: 'h2', text: 'Questions to Ask the Technician' },
+      { kind: 'h2', text: 'Questions to Ask Your Heating Technician' },
       { kind: 'p', spans: [{ strong: 'Is the service call fee credited if I approve the repair?' }, ' Some companies apply it and some don’t, so ask before you say yes.'] },
       { kind: 'p', spans: [{ strong: 'What were the carbon monoxide and combustion readings?' }, ' Ask to have the numbers written on the paperwork.'] },
       { kind: 'p', spans: [{ strong: 'Is this part under manufacturer warranty?' }, ' A covered part can lower the price. Ask whether labor is covered too.'] },
@@ -7434,7 +7512,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['In Ohio, the ', { link: 'Division of Industrial Compliance', href: 'https://dam.assets.ohio.gov/image/upload/com.ohio.gov/DICO/OCILB/OCILB_CPW_DIC_website.pdf' }, ' says the Ohio Construction Industry Licensing Board licenses commercial HVAC contractors, and residential contractors are not required to hold a state license. To check a contractor who works on homes, contact your county, city or township building department.'] },
       { kind: 'p', spans: ['In Northern Kentucky, the Department of Housing, Buildings and Construction has an online licensee search that lists Master HVAC Contractor and Journeyman HVAC Mechanic licenses. Search the company or the technician’s name before work starts.'] },
 
-      { kind: 'h2', text: 'When You Don’t Need a Heater Service Call' },
+      { kind: 'h2', text: 'When You Don’t Need a Heater Service Call in Cincinnati' },
       { kind: 'p', spans: ['If one of the five checks above brings the heat back and it stays on, you don’t need us. A furnace that heats fine but is due for its yearly check needs a tune-up, not a repair call.'] },
       { kind: 'p', spans: ['If you smell gas, your first call is Duke Energy or 911, not a heating company.'] },
 
@@ -7481,7 +7559,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['Carbon monoxide has no smell, so the alarm is the only warning most people get. The CDC lists headache, dizziness and weakness as the most common symptoms, and counts more than 400 deaths a year in the U.S. from carbon monoxide not linked to fires. The ', { link: 'U.S. Consumer Product Safety Commission', href: 'https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center/Carbon-Monoxide-Questions-and-Answers' }, ' recommends CO alarms on every level of the home and outside sleeping areas.'] },
       { kind: 'p', spans: ['Standing water near the boiler’s wiring or a nearby outlet is the other reason to stop. Turn the boiler off at its switch only if you can reach it without standing in the water.'] },
 
-      { kind: 'h2', text: 'Checks to Do Before You Book a Boiler Service Call' },
+      { kind: 'h2', text: 'Checks to Do Before You Book a Boiler Service Call in Cincinnati' },
       { kind: 'p', spans: ['With no gas smell and no alarm, spend 10 minutes on these first. If one of them brings the heat back, you don’t need a service call.'] },
       { kind: 'p', spans: [{ strong: 'Check the thermostat.' }, ' Make sure it’s set to heat, set a few degrees above the room temperature, and has fresh batteries if it takes them.'] },
       { kind: 'p', spans: [{ strong: 'Check the boiler switch and the breaker.' }, ' Most boilers have a service switch on the boiler or on the wall nearby, and it often looks like an ordinary light switch. It gets switched off by accident. Then look at the breaker panel. Reset a tripped breaker once. If it trips again, leave it off and call.'] },
@@ -7521,7 +7599,7 @@ export const posts: Post[] = [
       { kind: 'p', spans: ['At the end you should get two things. The first is a written diagnosis that says what failed and why, with the readings that back it up, including the pressure reading and the CO test. The second is an upfront price for the repair, which you approve before any work starts. If someone starts swapping parts before telling you the price, stop and ask.'] },
       { kind: 'p', spans: ['Keep that paperwork. Ohio Revised Code 4104.04 exempts low-pressure boilers in private homes and in apartment buildings with fewer than six units from state inspection, meaning steam boilers at 15 psig or less and hot water boilers at no more than 160 psig or 250°F. In practice, a state inspector doesn’t check a home boiler, so the service visit is the check. We fix boilers; we’re not lawyers, and this isn’t legal advice.'] },
 
-      { kind: 'h2', text: 'What a Boiler Service Call Costs' },
+      { kind: 'h2', text: 'What a Boiler Service Call Costs in Cincinnati' },
       { kind: 'p', spans: ['The bill has two parts, the call-out or diagnostic fee and the repair itself. Fixr, in figures updated January 2026, puts the diagnostic fee at $75 to $250, often covering the first hour, and boiler repair at $150 to $750 with a national average of $450. Bob Vila gives the same $75 to $250 for a boiler service call and notes that after-hours visits may carry an additional charge.'] },
       { kind: 'table', head: ['Item', 'National cost', 'Source'], rows: [
         ['Service call or diagnostic fee', '$75 to $250', 'Fixr, 2026'],
@@ -7534,7 +7612,7 @@ export const posts: Post[] = [
       ], caption: 'These are national cost ranges, not Degree of Comfort prices.' },
       { kind: 'p', spans: ['Where a repair lands in its range depends on the part and how easy it is to reach. When you get the price, ask whether it includes the part, the labor, and refilling and bleeding the system afterward.'] },
 
-      { kind: 'h2', text: 'Repairing vs. Replacing an Older Cincinnati Boiler' },
+      { kind: 'h2', text: 'Repairing vs. Replacing an Older Boiler in Cincinnati' },
       { kind: 'p', spans: ['Most boiler failures are parts, not the boiler. A new pump or zone valve on a boiler that is otherwise sound is money well spent. Price a replacement next to the repair when the boiler itself is leaking, the heat exchanger or cast iron sections are cracked, or you’re paying for a repair every winter. Our post on the ', { link: 'signs your boiler needs repair', href: '/signs-boiler-needs-repair-before-winter-cincinnati/' }, ' covers which symptoms usually point to a part and which point to the boiler.'] },
 
       { kind: 'h2', text: 'When You Don’t Need a Boiler Service Call' },
