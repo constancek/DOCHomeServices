@@ -9,6 +9,8 @@ import { site } from '@/content/site';
 const config: ServiceLocationConfig = {
   slug: 'recessed-lighting',
   serviceName: 'Recessed Lighting Installation',
+  localHeadingName: 'Recessed Lighting Installation',
+  emergencyHeading: 'Urgent Recessed Lighting Problems in {neighborhood}',
   eyebrow: 'Lighting',
   hubLabel: 'Recessed Lighting',
   parentCrumb: { label: 'Indoor Lighting', href: '/services/indoor-lighting' },
@@ -77,6 +79,14 @@ const config: ServiceLocationConfig = {
     { q: 'Can recessed lighting increase home value?', a: 'Many homeowners install recessed lighting because it improves brightness and modernizes a room.' },
     { q: 'How long do recessed LED lights last?', a: 'LED recessed lights typically last many years and use less electricity than traditional bulbs.' },
   ],
+  steps: {
+    heading: 'What to Expect From Recessed Lighting Installation in {neighborhood}',
+    items: [
+      { icon: 'pencilRuler', title: 'We Plan the Layout First', text: 'The spacing, what sits above the ceiling and the circuit the lights will run on.' },
+      { icon: 'fileDollar', title: 'You Approve the Price', text: 'What the job needs, and a flat-rate price before any hole is cut.' },
+      { icon: 'bulb', title: 'Installed, Wired and Tested', text: 'Each light set in place, connected to code, then tested at the switch.' },
+    ],
+  },
   related: [
     { label: 'Recessed Lighting (overview)', href: '/services/recessed-lighting' },
     { label: 'Indoor Lighting', href: '/services/indoor-lighting' },

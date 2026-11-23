@@ -6,6 +6,8 @@ import { part3 } from './recessed-lighting-parts/part3';
 import { part4 } from './recessed-lighting-parts/part4';
 import { part5 } from './recessed-lighting-parts/part5';
 import { part6 } from './recessed-lighting-parts/part6';
+// Fully localized towns (one format), wired in by recessed-lighting-pilot/build-index.mjs.
+import { recessedLightingPilot } from './recessed-lighting-pilot';
 
 // Per-neighborhood, recessed-lighting-specific copy, drafted from each
 // neighborhood's real local facts in content/locations.ts.
@@ -16,6 +18,7 @@ const all: Record<string, LocationServiceCopy> = {
   ...part4,
   ...part5,
   ...part6,
+  ...recessedLightingPilot,
 };
 
 // Dev shows all 170; production build ships only the DEPLOYED_LOCATION_SLUGS cohort.

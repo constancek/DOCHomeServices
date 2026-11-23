@@ -47,13 +47,16 @@ export default function LocationTeamPhotos({
           <>
             {title ? (
               <>
-                <h2 className="mx-auto max-w-4xl text-center font-sans text-2xl font-black leading-tight text-white sm:text-[28px]">
+                <h2 className="mx-auto max-w-3xl text-balance text-center font-sans text-[26px] font-black leading-tight text-white sm:text-[30px] lg:text-[36px]">
                   {title}
                 </h2>
                 {paragraph && (
-                  <p className="mx-auto mt-5 max-w-3xl text-center text-[22px] leading-relaxed text-white/90 sm:text-2xl">
-                    {paragraph}
-                  </p>
+                  <div className="relative mx-auto mt-7 max-w-3xl rounded-3xl bg-white/10 px-6 pb-7 pt-8 shadow-[0_20px_50px_-20px_rgba(0,0,0,0.45)] ring-1 ring-inset ring-white/20 backdrop-blur-sm sm:px-10 sm:pb-9 sm:pt-10">
+                    <span aria-hidden="true" className="absolute left-1/2 top-0 h-1.5 w-16 -translate-x-1/2 -translate-y-1/2 rounded-full bg-pink-500" />
+                    <p className="text-center text-[19px] leading-relaxed text-white sm:text-[21px]">
+                      {paragraph}
+                    </p>
+                  </div>
                 )}
               </>
             ) : (
@@ -73,7 +76,7 @@ export default function LocationTeamPhotos({
               ))}
             </h2>
             )}
-            <ul className="mt-12 grid gap-8 md:grid-cols-3 md:items-start md:gap-2 md:px-4">
+            <ul className={`${paragraph ? 'mt-16 sm:mt-24' : 'mt-12'} grid gap-8 md:grid-cols-3 md:items-start md:gap-2 md:px-4`}>
               {PHOTOS.map((p, i) => (
                 <li
                   key={p.src}

@@ -46,7 +46,9 @@ export type IconName =
   | 'chargingPile'
   | 'breakerPanel'
   | 'shieldBolt'
-  | 'ceilingFan';
+  | 'ceilingFan'
+  | 'pencilRuler'
+  | 'bulb';
 
 const paths: Record<IconName, ReactNode> = {
   // breakerPanel: drawn for this site (a panel door with two rows of breakers).
@@ -63,7 +65,13 @@ const paths: Record<IconName, ReactNode> = {
       <path d="M233 135a60 60 0 0 0-89.62-35.45l16.39-65.44a8 8 0 0 0-3.45-8.68a60 60 0 1 0-60.63 103.48l-64.87 18.53a8 8 0 0 0-5.8 7.32a60 60 0 0 0 44.42 60.66a60.5 60.5 0 0 0 15.62 2.07a60.07 60.07 0 0 0 59.88-62l48.48 46.92a8 8 0 0 0 9.25 1.35A60 60 0 0 0 233 135m-121-7a16 16 0 1 1 16 16a16 16 0 0 1-16-16M80 76a44 44 0 0 1 62.75-39.82L127.77 96a32 32 0 0 0-27.92 16.8A43.85 43.85 0 0 1 80 76m27 119.57a44 44 0 0 1-65.86-34.43l59.31-16.94A32 32 0 0 0 128 160h.91A43.82 43.82 0 0 1 107 195.57m106.17-23a43.9 43.9 0 0 1-13 14.14l-44.32-42.89a31.91 31.91 0 0 0-.59-32.57a44 44 0 0 1 57.91 61.32" />
     </g>
   ),
-  // virusOff, lungs, wind, leaf, certificate, plugConnected, fileDollar and chargingPile: Tabler Icons (MIT), via the Iconify API.
+  // virusOff, lungs, wind, leaf, certificate, plugConnected, fileDollar, chargingPile, pencilRuler and bulb: Tabler Icons (MIT), via the Iconify API.
+  pencilRuler: (
+    <path d="M4 20h4L18.5 9.5a2.828 2.828 0 1 0-4-4L4 16zm9.5-13.5l4 4m-10.2.8L3 7l4-4l4.3 4.3M8 7l1.5-1.5m3.2 11.2L17 21l4-4l-4.3-4.3M17 16l1.5-1.5" />
+  ),
+  bulb: (
+    <path d="M3 12h1m8-9v1m8 8h1M5.6 5.6l.7.7m12.1-.7l-.7.7M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0-1 3a2 2 0 0 1-4 0a3.5 3.5 0 0 0-1-3m.7 1h4.6" />
+  ),
   chargingPile: (
     <>
       <path d="m18 7l-1 1m-3 3h1a2 2 0 0 1 2 2v3a1.5 1.5 0 0 0 3 0V9l-3-3M4 20V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v14" />

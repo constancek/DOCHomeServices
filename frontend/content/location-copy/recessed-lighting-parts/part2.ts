@@ -223,22 +223,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       },
     ],
   },
-  'queensgate': {
-    intro:
-      'Queensgate is mostly offices, warehouses and light-industrial buildings near the rail yards, so recessed lighting there usually means drop or hard ceilings in offices and converted spaces. Flush LED cans give those rooms even, glare-controlled light. Our licensed electricians lay them out and wire them to code.',
-    relevance: [
-      'Queensgate (ZIP 45203) is the largely commercial and industrial district just west of downtown, near the rail yards and the Mill Creek, with warehouses, offices, and light-industrial buildings. Recessed cans are a practical fit here, giving offices and converted spaces even, glare-controlled light across drop or hard ceilings.',
-      'Commercial ceilings in Queensgate range from suspended grid to older hard-lid construction, and we plan can layout and circuiting to match each. We fit appropriately rated LED can fixtures, space them for even coverage across work areas, and wire everything to code as a licensed electrical contractor.',
-    ],
-    commonIntro:
-      'In Queensgate’s commercial and industrial buildings, the recessed lighting we install most often gives offices and converted spaces even, glare-controlled LED light.',
-    localFaqs: [
-      {
-        q: 'Do you install recessed lighting in commercial buildings in Queensgate?',
-        a: 'Yes. Queensgate is mostly commercial and industrial, and as licensed electricians we install and wire LED can layouts in offices and converted spaces to code.',
-      },
-    ],
-  },
   'cuf': {
     intro:
       'In CUF, recessed lighting mostly goes into the 19th- and early-1900s homes of Clifton Heights, University Heights and Fairview, now largely student rentals with a single dim fixture per room. We replace that fixture with evenly spaced LED cans, cut into the plaster carefully and wired to code.',
@@ -348,22 +332,6 @@ export const part2: Record<string, { intro: string; relevance: string[]; commonI
       {
         q: 'Can you install recessed lighting in an older South Cumminsville home?',
         a: 'Yes. We install LED cans in the neighborhood’s older homes, planning placement around plaster ceilings, and as licensed electricians we wire everything to code.',
-      },
-    ],
-  },
-  'english-woods': {
-    intro:
-      'English Woods has older hilltop homes on a single ceiling fixture alongside renovated and redeveloped units, and recessed lighting fits both. Older rooms get cans spaced to reach the corners, newer ones a clean layered layout. We wire all of it to code with LED cans.',
-    relevance: [
-      'English Woods (ZIP 45225) is a west-side hilltop neighborhood overlooking the Mill Creek valley, a quiet, largely residential area that has seen redevelopment in recent years. Older homes here often rely on a single ceiling fixture, while renovated and redeveloped units suit a clean, layered can layout, so recessed lighting fits both.',
-      'Ceilings in English Woods range from plaster in the older homes to drywall in renovated units, so we plan can placement and wiring to match. We lay out LED cans for even coverage, fit low-profile units that sit flush, and wire every connection to code as a licensed contractor.',
-    ],
-    commonIntro:
-      'In English Woods’ older and renovated hilltop homes, the recessed lighting we install most often adds even, layered LED can light.',
-    localFaqs: [
-      {
-        q: 'Can you install recessed lighting in a renovated English Woods home?',
-        a: 'Yes. We install LED cans in both older and renovated English Woods homes, planning placement around the ceiling type, and we wire everything to code.',
       },
     ],
   },
